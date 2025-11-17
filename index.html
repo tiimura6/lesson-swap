@@ -2073,21 +2073,20 @@
       const iGrp   = h.indexOf('group');
 
       return d.slice(1).map(r => ({
-          teacher : r[iT],
-          grade   : parseGrade(r[iG]),
-          class   : parseClass(r[iC]),
-          course  : normalizeCourse(r[iCourse]),
-          day     : normalizeDay(r[iD]),
-          period  : parsePeriod(r[iP]),
-          subject : r[iS],
-          group   : (iGrp>=0 ? (r[iGrp] || "") : "")
-        })).
-        filter(l =>
-          l.teacher &&
-          [1,2,3].includes(l.grade) &&
-          ["Mon","Tue","Wed","Thu","Fri","Sat"].includes(l.day) &&
-          !Number.isNaN(l.period)
-        );
+        teacher : r[iT],
+        grade   : parseGrade(r[iG]),
+        class   : parseClass(r[iC]),
+        course  : normalizeCourse(r[iCourse]),
+        day     : normalizeDay(r[iD]),
+        period  : parsePeriod(r[iP]),
+        subject : r[iS],
+        group   : (iGrp>=0 ? (r[iGrp] || "") : "")
+      })).filter(l =>
+        l.teacher &&
+        [1,2,3].includes(l.grade) &&
+        ["Mon","Tue","Wed","Thu","Fri","Sat"].includes(l.day) &&
+        !Number.isNaN(l.period)
+      );
     }
 
     function loadLessonsFromTextHS(text){
@@ -2100,7 +2099,6 @@
     }
 
     // ===== キー関数 =====
-    // 同じ曜日・同じ時間帯・同じ教員・同じ教科を1ユニットとして扱う
     function unitKeyForTeacherSlot(l){
       return `${l.school||""}|${l.teacher}|${l.day}|${l.period}|${l.subject||""}`;
     }
@@ -2116,8 +2114,7 @@
     }
 
     function getAllTeachersForLesson(l){
-      const key   = signatureKey(l);
-      const entry = signatureIndex.get(key);
+      const entry = signatureIndex.get(signatureKey(l));
       if(!entry){
         return l.teacher ? [l.teacher] : [];
       }
@@ -2138,13 +2135,12 @@
 
     // 学校ラベル
     function getSchoolLabel(l){
-      if(l.school === "HS") return "【高校】";
-      if(l.school === "JH") return "【中学】";
+      if(l.school === "HS") return "【高】";
+      if(l.school === "JH") return "【中】";
       return "";
     }
 
-    // 共通表示（短く・空白なし）
-    // 同一クラスに文と理の両方がある場合は「文理」として1クラス扱い
+    // 授業名表示： 【高】月１限3年1組（文理） コミ英II / 英表I
     function renderLessonTextBase(l){
       const unit = getUnitLessons(l);
       if (!unit.length) return "";
@@ -2155,6 +2151,7 @@
       const period  = base.period;
       const grade   = base.grade;
 
+      // クラス＋コース（文 / 理 / 文理）
       const byClass = new Map(); // classNo -> Set(course)
       unit.forEach(x => {
         if (Number.isNaN(x.class)) return;
@@ -2167,7 +2164,6 @@
       const labels = classNos.map(cls => {
         const set = byClass.get(cls);
         let suffix = "";
-        // 高2・高3のみコース表記候補を作る
         if (grade >= 2 && base.school === "HS") {
           const hasBun = set.has("文");
           const hasRi  = set.has("理");
@@ -2184,7 +2180,7 @@
 
       const classStr = classNos.length ? `${grade}年${labels.join("・")}組` : `${grade}年`;
 
-      // コース表記（高校2・3年のみ）
+      // （文 / 理 / 文理）を学年・組の直後にまとめて表示
       let coursePart = "";
       if (grade >= 2 && base.school === "HS") {
         let hasBun = false;
@@ -2200,8 +2196,23 @@
         else if (hasRi)      coursePart = "（理）";
       }
 
-      // 空白を入れずに短く
-      return `${school}${dayJa}${period}限${classStr}${coursePart}`;
+      // ここで「文理組」「文組」「理組」を「組」に置き換え
+      let baseText = `${school}${dayJa}${period}限${classStr}${coursePart}`;
+      baseText = baseText
+        .replace(/文理組/g, "組")
+        .replace(/文組/g,   "組")
+        .replace(/理組/g,   "組");
+
+      // 科目名（unit内のsubjectをCSV順で重複排除して「 / 」で連結）
+      const subjectList = [];
+      unit.forEach(x => {
+        const s = (x.subject || "").trim();
+        if (!s) return;
+        if (!subjectList.includes(s)) subjectList.push(s);
+      });
+      const subjectPart = subjectList.length ? " " + subjectList.join(" / ") : "";
+
+      return `${baseText}${subjectPart}`;
     }
 
     // プルダウン用
@@ -2223,7 +2234,7 @@
       return baseText;
     }
 
-    // 合併授業判定：同じ曜日・同じ時間帯に同じ教員が複数クラスを担当
+    // 合併授業判定
     function isJointLessonForTeacher(target){
       const unit = getUnitLessons(target);
       if (!unit.length) return false;
@@ -2249,7 +2260,7 @@
       return 0;
     }
 
-    // 同じ学校・同じ学年・同じ組・（高2以上は同じコース）のとき同種の授業とみなす
+    // 同じ学校・同じ学年・同じ組・（高2以上は同じコース）
     function sameClassAndCourse(a,b){
       return a.school === b.school &&
              a.grade  === b.grade  &&
@@ -2257,7 +2268,7 @@
              (a.grade < 2 || (a.course||"") === (b.course||""));
     }
 
-    // Aが「文理ユニット（同一クラスに文と理の両方）」かどうか
+    // Aが文理ユニットか
     function isBunriUnitForLesson(l){
       const unit = getUnitLessons(l);
       if (!unit.length) return false;
@@ -2515,7 +2526,6 @@
       return copy;
     }
 
-    // allowTraining=true のときは研修・会議があってもOKにする
     function validateOperations(operations, baseState, options={}){
       const { allowTraining = false } = options;
       const state = cloneScheduleState(baseState);
@@ -2532,7 +2542,6 @@
         const toSet = dayMap.get(dayTo) || new Set();
         if(toSet.has(periodTo)) return false;
 
-        // 移動先に研修・会議がある場合はNG（allowTraining=false のときのみ）
         if(!allowTraining && hasAnyEvent(teacher, dayTo, periodTo)) return false;
 
         fromSet.delete(periodFrom);
@@ -2545,7 +2554,6 @@
       return true;
     }
 
-    // patternId: 1: A→B→C→A / 2: A→C→B→A
     function buildRotate3OperationsPattern(lA, lB, lC, groupA, groupB, groupC, patternId){
       const ops = [];
       if (patternId === 1) {
@@ -2573,7 +2581,6 @@
     }
 
     // ===== 授業プルダウン更新 =====
-    // 教員Aのみのときは、教員A「単独担当」の授業のみ表示（合同＝複数教員担当は除外）
     function updateLessonChoices(){
       clearTables();
       const a = teacherSelectA.value;
@@ -2596,7 +2603,6 @@
       let list = [];
 
       if(!useJoint){
-        // 教員Aのみ → 教員Aが「単独」で担当している授業のみ（合同＝複数教員担当は除外）
         const all = lessons.filter(l => {
           if (l.teacher !== a) return false;
           const teachers = getAllTeachersForLesson(l);
@@ -2610,7 +2616,6 @@
           list.push(l);
         });
       } else {
-        // 教員A+B(+C) → 3人が同じクラス群で入っている合同授業のみ
         const jointSet = new Set();
         signatureIndex.forEach((entry, key)=>{
           const teachersArr = Array.from(entry.teachers);
@@ -2632,20 +2637,25 @@
       lessonSelect.innerHTML = '<option value="">授業を選択</option>';
       list.forEach(l=>{
         const op = document.createElement('option');
-        op.value = lessons.indexOf(l);
+        op.value = unitKeyForTeacherSlot(l);
         op.textContent = renderLessonTextForDropdown(l);
         lessonSelect.appendChild(op);
       });
       lessonSelect.disabled = (list.length === 0);
     }
 
-    // ===== 1対1 & 二段階 & 三者ローテ & 文理特別ローテ =====
+    // ===== 1対1・二段階・三者・文理特別 =====
     lessonSelect.addEventListener('change', e=>{
       results1to1Div.innerHTML = "";
       results3wayDiv.innerHTML = "";
-      const idx = Number(e.target.value);
-      if(Number.isNaN(idx)) return;
 
+      const unitKey = e.target.value;
+      if(!unitKey) return;
+
+      const myUnitLessons = unitIndex.get(unitKey) || [];
+      if(!myUnitLessons.length) return;
+
+      const me      = myUnitLessons[0];
       const a = teacherSelectA.value;
       const b = teacherSelectB.value;
       const c = teacherSelectC.value;
@@ -2656,12 +2666,9 @@
       if(c) namesSelf.push(c);
       const useJoint = namesSelf.length > 1;
 
-      const me      = lessons[idx];
       const myDay   = me.day;
       const myPeriod= me.period;
 
-      // 自分側ユニットのクラス集合（合併クラス群識別）
-      const myUnitLessons = getUnitLessons(me);
       const myClassKeys   = new Set(myUnitLessons.map(l => `${l.grade}-${l.class}`));
       const myMergeCount  = myClassKeys.size;
 
@@ -2670,7 +2677,6 @@
         const otherClassKeysArr = otherUnitLessons.map(l => `${l.grade}-${l.class}`);
         const otherMergeCount   = otherClassKeysArr.length;
 
-        // 合併側は「クラス集合」が同一のものだけ許可
         if (myMergeCount > 1) {
           if (otherMergeCount !== myMergeCount) return false;
           const otherSet = new Set(otherClassKeysArr);
@@ -2687,7 +2693,7 @@
         return !namesSelf.includes(o.teacher) && sameClassAndCourse(me,o);
       });
 
-      // --- 1対1候補（合併授業はまとめて1件） ---
+      // --- 1対1 ---
       const c1raw = poolBase
         .filter(o=>{
           const selfFree = !useJoint
@@ -2868,33 +2874,27 @@
         results1to1Div.appendChild(tbl);
       }
 
-      // --- 二段階交換候補（ブロック授業を動かしてから A1⇔B1）探索ロジックのみ（表示は後で） ---
+      // --- 二段階交換（A⇔B・A⇔C候補用） ---
       const chainCandidates = [];
-
-      // 「研修・会議・非常勤に該当しない」1対1候補の件数をカウント
       const normal1to1Count = c1.filter(c => !c.trainingFlag && !c.parttime).length;
 
       if (!useJoint && a && normal1to1Count <= 3) {
         const teacherA   = a;
         const teachersMe = getAllTeachersForLesson(me);
 
-        // A1 が単独担当（合同でない）かつ teacherA が唯一の担当
         if (teachersMe.length === 1 && teachersMe[0] === teacherA) {
-
           for (let i = 0; i < poolBase.length; i++) {
             const B1 = poolBase[i];
             if (B1.teacher === teacherA) continue;
 
             const teachersB = getAllTeachersForLesson(B1);
-            if (teachersB.length !== 1) continue; // B1 が合同なら対象外
+            if (teachersB.length !== 1) continue;
             const teacherB = teachersB[0];
 
-            // A1⇔B1 が直接通るなら二段階は不要
             const directSelfFree  = !teacherHasSlot(teacherA, B1.day, B1.period);
             const directOtherFree = !teacherHasSlot(teacherB, myDay, myPeriod);
             if (directSelfFree && directOtherFree) continue;
 
-            // ブロック授業（A側・B側）を列挙
             const blockers = [];
             if (!directSelfFree) {
               lessons.forEach(l => {
@@ -2916,7 +2916,6 @@
             }
             if (!blockers.length) continue;
 
-            // 各ブロック授業について、1対1で動かせるパートナーを探す
             for (let bIdx = 0; bIdx < blockers.length; bIdx++) {
               const blockLesson  = blockers[bIdx];
               const teacherBlock = blockLesson.teacher;
@@ -2932,12 +2931,11 @@
               for (let k = 0; k < partners.length; k++) {
                 const partner       = partners[k];
                 const tPartnerArr   = getAllTeachersForLesson(partner);
-                if (tPartnerArr.length !== 1) continue; // パートナーも単独担当のみ
+                if (tPartnerArr.length !== 1) continue;
                 const teacherPartner = tPartnerArr[0];
 
                 const ops = [];
 
-                // 1) ブロック授業 X → パートナーY の時間
                 ops.push({
                   teacher   : teacherBlock,
                   dayFrom   : blockLesson.day,
@@ -2945,7 +2943,6 @@
                   dayTo     : partner.day,
                   periodTo  : partner.period
                 });
-                // 2) パートナー Y → ブロックX の時間
                 ops.push({
                   teacher   : teacherPartner,
                   dayFrom   : partner.day,
@@ -2953,7 +2950,6 @@
                   dayTo     : blockLesson.day,
                   periodTo  : blockLesson.period
                 });
-                // 3) A1 → B1 の時間
                 ops.push({
                   teacher   : teacherA,
                   dayFrom   : me.day,
@@ -2961,7 +2957,6 @@
                   dayTo     : B1.day,
                   periodTo  : B1.period
                 });
-                // 4) B1 → A1 の時間
                 ops.push({
                   teacher   : teacherB,
                   dayFrom   : B1.day,
@@ -2969,6 +2964,28 @@
                   dayTo     : me.day,
                   periodTo  : myPeriod
                 });
+
+                let invalidChain = false;
+
+                const chainTeachers = [teacherA, teacherB, teacherBlock, teacherPartner];
+                for (const tName of chainTeachers) {
+                  if (isParttimeTeacher(tName)) {
+                    invalidChain = true;
+                    break;
+                  }
+                }
+
+                if (!invalidChain) {
+                  for (const op of ops) {
+                    if (hasAnyEvent(op.teacher, op.dayFrom, op.periodFrom) ||
+                        hasAnyEvent(op.teacher, op.dayTo,   op.periodTo)) {
+                      invalidChain = true;
+                      break;
+                    }
+                  }
+                }
+
+                if (invalidChain) continue;
 
                 if (validateOperations(ops, scheduleState)) {
                   chainCandidates.push({
@@ -2987,7 +3004,7 @@
         }
       }
 
-      // --- 三者ローテーション（従来） ---
+      // --- 三者ローテ ---
       const h2b = document.createElement('h2');
       h2b.textContent = "■ A⇔B⇔C候補";
       results3wayDiv.appendChild(h2b);
@@ -2997,7 +3014,6 @@
       let filteredOut = 0;
       const c3        = [];
       const namesSelfFor3 = namesSelf.length ? namesSelf : [a];
-
       const baseState = scheduleState;
 
       for(let i=0;i<poolBase.length;i++){
@@ -3020,7 +3036,6 @@
           ]));
 
           const hasParttimeTriple = allTeachersTriple.some(t => isParttimeTeacher(t));
-
           const hasTrainingAt = (day, period) =>
             allTeachersTriple.some(t => hasAnyEvent(t, day, period));
 
@@ -3068,7 +3083,7 @@
         c3display.push({ lA:rep.lA, lB:rep.lB, lC:rep.lC, priority, patternId:rep.patternId });
       });
 
-      note.textContent = `※条件不一致の組み合わせは除外（${filteredOut}件）`;
+      note.textContent = `※研修・会議・非常勤などの条件不一致の組み合わせは除外（${filteredOut}件）`;
       results3wayDiv.appendChild(note);
 
       if(!c3display.length){
@@ -3117,7 +3132,7 @@
         results3wayDiv.appendChild(tbl);
       }
 
-      // --- A⇔B・A⇔C候補（常に見出しを表示、条件を満たせば表・満たさない場合は条件説明） ---
+      // --- A⇔B・A⇔C候補 ---
       const h2chain = document.createElement('h2');
       h2chain.textContent = "■ A⇔B・A⇔C候補";
       results3wayDiv.appendChild(h2chain);
@@ -3165,19 +3180,16 @@
         const pCond = document.createElement('p');
         pCond.className = 'muted';
         pCond.textContent =
-          "※表示条件: 教員Aのみ選択中で、選んだ授業が教員Aの単独担当かつ、" +
-          "研修・会議・非常勤に該当しない1対1候補が3件以下のとき、" +
-          "ブロック授業を1回動かすことでA⇔Bの交換が可能となる組み合わせを表示";
+          "※表示条件: 単独授業かつ、研修・会議・非常勤に該当しないA⇔B候補が3件以下のときに候補を検索";
         results3wayDiv.appendChild(pCond);
       }
 
-      // --- 文理特別ローテーション（A文理 ⇔ 文＋理）---
+      // --- 文理特別ローテ ---
       const bunriCandidates = [];
       if (!useJoint && a && normal1to1Count <= 3 && isBunriUnitForLesson(me)) {
         const grade = me.grade;
         const cls   = me.class;
 
-        // Aの文理ユニットが持つクラス集合（学年-組）
         const myBunriUnit  = getUnitLessons(me);
         const myBunriClass = new Set(myBunriUnit.map(x => `${x.grade}-${x.class}`));
 
@@ -3198,10 +3210,8 @@
         bunLessons.forEach(lBun=>{
           riLessons.forEach(lRi=>{
             if (lBun.day !== lRi.day || lBun.period !== lRi.period) return;
-            // A自身だけの文理は除外（相手がAだけになるパターン）
             if (lBun.teacher === a && lRi.teacher === a) return;
 
-            // B,C側のユニットが持つクラスに、A側に含まれていないクラスがあれば除外
             const bunUnit = getUnitLessons(lBun);
             const riUnit  = getUnitLessons(lRi);
             const allKeys = new Set();
@@ -3225,7 +3235,6 @@
               { teacher: lRi.teacher, dayFrom: lRi.day,     periodFrom: lRi.period,     dayTo: me.day,   periodTo: me.period }
             ];
 
-            // 特別ルール：研修があってもOK（allowTraining=true）
             if (!validateOperations(ops, scheduleState, { allowTraining: true })) return;
 
             pairMap.set(key, {
@@ -3268,7 +3277,6 @@
             `${bun.teacher}：${formatSlot(bun.day, bun.period)} → ${formatSlot(me.day, me.period)}<br>`+
             `${ri.teacher}：${formatSlot(ri.day, ri.period)} → ${formatSlot(me.day, me.period)}`;
 
-          // 研修・会議ラベル（注意表示のみ／除外はしない）
           const warnSet = new Set();
           warnSet.add(getTrainingDetailLabel(a, me.day, me.period));
           warnSet.add(getTrainingDetailLabel(a, bun.day, bun.period));
