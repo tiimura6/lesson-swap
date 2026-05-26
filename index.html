@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
+<!DOCTYPE html><html lang="ja"><head>
   <meta charset="UTF-8" />
   <title>授業の交換先をすぐに見つける君 ©Takahiro Iimura</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -88,6 +86,11 @@
     .tt-lesson {
       font-size: 0.7rem;
       line-height: 1.25;
+      cursor: pointer;
+    }
+    .tt-lesson:hover {
+      background: #e3f2fd;
+      outline: 2px solid #2196f3;
     }
     .tt-training {
       font-size: 0.65rem;
@@ -95,15 +98,15 @@
       line-height: 1.25;
     }
 
-    /* ★追加：空きコマクリックできる見た目 */
+    /* 空きコマクリックできる見た目 */
     .tt-empty {
       cursor: pointer;
       background: #fcfcff;
     }
     .tt-empty:hover {
-      outline: 2px solid #777;
+      outline: 2px solid #00c853;
       outline-offset: -2px;
-      background: #f3f7ff;
+      background: #e8f5e9;
     }
 
     /* 教員Aの時間割（常時表示・横幅拡大） */
@@ -190,7 +193,7 @@
       line-height: 1.2;
     }
 
-    /* ★追加：空きコマ→振替候補パネル */
+    /* 振替候補パネル */
     #movePanel {
       position: fixed;
       left: 20px;
@@ -226,22 +229,97 @@
       white-space: nowrap;
     }
     #movePanelBody table { max-width: none; }
+
+    /* クラス別時間割表示ボタン（明るい青色へのカスタマイズ） */
+    #toggleClassTtBtn {
+      background: #2196f3;
+      color: #fff;
+      border: none;
+      font-weight: bold;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.12);
+      transition: background-color 0.2s;
+    }
+    #toggleClassTtBtn:hover {
+      background: #1976d2;
+    }
+
+    /* 印刷用一括保持・チェックボックスデザイン */
+    .print-checkbox-col {
+      text-align: center;
+      width: 45px;
+      vertical-align: middle;
+    }
+    .print-checkbox-col input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      cursor: pointer;
+    }
+    .print-actions-bar {
+      background: #fff9c4;
+      border: 1px solid #fbc02d;
+      padding: 12px 15px;
+      margin: 15px 0;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+    }
+    .print-bar-left {
+      font-size: 0.95rem;
+      color: #333;
+    }
+    .print-btn {
+      padding: 10px 18px;
+      background: #ff9800;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+    }
+    .print-btn:hover { background: #f57c00; }
+    .clear-print-btn {
+      padding: 6px 10px;
+      background: #fff;
+      color: #666;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+    .clear-print-btn:hover { background: #f5f5f5; }
+    
+    /* Excelダウンロードボタン用追加スタイル */
+    .btn-excel {
+      background: #4caf50;
+      color: #fff;
+      border: none;
+      font-weight: bold;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.12);
+    }
+    .btn-excel:hover {
+      background: #388e3c;
+    }
+    .btn-excel:disabled {
+      background: #ccc;
+      color: #666;
+      cursor: not-allowed;
+      box-shadow: none;
+    }
   </style>
 
-  <!-- html2canvas（時間割を画像として保存するため） -->
   <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
-</head>
-<body>
-  <h1>授業の交換先をすぐに見つける君 ©Takahiro Iimura </h1>
-
-<img src="images/photo.png"
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+</head><body>
+  <h1>授業の交換先をすぐ見つける君 ©Takahiro Iimura </h1><img src="images/photo.png"
      alt="写真"
-     style="width:20%; height:auto; float:right; margin-right:100px;">
+     style="width:30%; height:auto; float:right; margin-right:100px;">
 
-  <!-- 教員A/B/C + 交換したい授業（左カラム） ＋ 教員A時間割（右） -->
   <div class="layout-main">
     <div class="control-column">
-      <!-- 教員A（検索内包） -->
       <div class="select-with-search">
         <label>教員A:
           <select id="teacherSelectA" disabled>
@@ -251,21 +329,18 @@
         </label>
       </div>
 
-      <!-- 教員B：選択されたら合同扱い。候補はAの合同者のみ -->
       <label style="margin-top:0.8rem;">教員B（合同授業の場合）:
         <select id="teacherSelectB" disabled>
           <option value="">教員Bを選択</option>
         </select>
       </label>
 
-      <!-- 教員C：3人合同対応。B選択後に「残りの教員」が自動候補 -->
       <label style="margin-top:0.8rem;">教員C（合同授業の場合）:
         <select id="teacherSelectC" disabled>
           <option value="">教員Cを選択</option>
         </select>
       </label>
 
-      <!-- 交換したい授業 -->
       <label style="margin-top:0.8rem;">交換したい授業:
         <select id="lessonSelect" disabled>
           <option value="">教員A（合同授業の場合B・C）を選んでください</option>
@@ -273,12 +348,20 @@
       </label>
 
       <p class="muted" style="margin-top:0.8rem;">
-        ※教員A時間割の「空きコマ」をクリックすると、そのコマに振替可能な自分の授業を表示します。
+        ※教員A時間割の「自分の授業」または「空きコマ」をクリックすると、連動して候補を表示します。
       </p>
     </div>
 
-    <!-- 教員Aの時間割（常時表示） -->
     <div id="teacherATimetableContainer"></div>
+  </div>
+
+  <div id="globalPrintBar" class="print-actions-bar hidden">
+    <div class="print-bar-left">
+      💡 交換案が <strong id="printSelectedCount">0</strong> 件チェックされています。
+      <span class="muted">（別の授業やコマに切り替えて追加チェック可能です）</span>
+      <button type="button" class="clear-print-btn" id="clearPrintCartBtn">選択をすべてクリア</button>
+    </div>
+    <button type="button" class="print-btn" id="executePrintBtn">選択した案で印刷する</button>
   </div>
 
   <div id="results1to1" style="margin-top:1.2rem;"></div>
@@ -286,7 +369,6 @@
 
   <hr class="hr" />
 
-  <!-- ===== クラス別時間割 ===== -->
   <button id="toggleClassTtBtn" type="button" class="btn" aria-controls="classTtPanel" aria-expanded="false">
     クラス別時間割を表示
   </button>
@@ -300,13 +382,15 @@
       <button id="classTtDownloadBtn" type="button" class="btn" disabled>
         このクラスの時間割画像をダウンロード
       </button>
+      <button id="classTtExcelBtn" type="button" class="btn btn-excel" disabled>
+        Excelファイルとしてダウンロード
+      </button>
     </div>
     <div id="classTtTableContainer" class="class-tt-container"></div>
   </div>
 
   <hr class="hr" />
 
-  <!-- ===== CSV設定 ===== -->
   <button id="toggleCsvBtn" type="button" class="btn" aria-controls="csvPanel" aria-expanded="false">
     CSV設定を表示
   </button>
@@ -333,19 +417,14 @@
     </label>
   </div>
 
-  <!-- 交換相手・担当者の時間割表示用ツールチップ -->
   <div id="teacherTimetableTooltip" class="hidden"></div>
 
-  <!-- ★追加：空きコマ→振替候補パネル -->
   <div id="movePanel" class="hidden" role="dialog" aria-modal="false" aria-label="振替候補パネル">
     <div id="movePanelHeader">
       <h3 id="movePanelTitle">振替候補</h3>
       <button id="movePanelCloseBtn" type="button">閉じる</button>
     </div>
     <div id="movePanelBody"></div>
-    <p class="muted" style="margin-top:6px;">
-      ※「交換で可能」は、ターゲット側の該当授業が「1ユニット（同一signature）」の場合のみ表示（文理分割などで2ユニットになる場合は除外）。
-    </p>
   </div>
 
   <script>
@@ -364,6 +443,7 @@
     const classTtSelect = document.getElementById('classTtSelect');
     const classTtTableContainer = document.getElementById('classTtTableContainer');
     const classTtDownloadBtn = document.getElementById('classTtDownloadBtn');
+    const classTtExcelBtn = document.getElementById('classTtExcelBtn'); // Excelボタン要素
 
     toggleClassTtBtn.addEventListener('click', () => {
       const nowHidden = classTtPanel.classList.toggle('hidden');
@@ -371,16 +451,24 @@
       toggleClassTtBtn.textContent = nowHidden ? 'クラス別時間割を表示' : 'クラス別時間割を非表示';
     });
 
-    // ★追加：振替候補パネル
+    // 振替候補パネル用要素
     const movePanel = document.getElementById('movePanel');
     const movePanelTitle = document.getElementById('movePanelTitle');
     const movePanelBody  = document.getElementById('movePanelBody');
     const movePanelCloseBtn = document.getElementById('movePanelCloseBtn');
     movePanelCloseBtn.addEventListener('click', ()=> movePanel.classList.add('hidden'));
 
+    // 印刷保持用カート構造
+    let printCart = new Map();
+
+    const globalPrintBar = document.getElementById('globalPrintBar');
+    const printSelectedCount = document.getElementById('printSelectedCount');
+    const executePrintBtn = document.getElementById('executePrintBtn');
+    const clearPrintCartBtn = document.getElementById('clearPrintCartBtn');
+
     // ===== 埋め込みサンプルCSV =====
     const EMBEDDED_TRAININGS_CSV = `teacher,day,slot,detail,day1,slot1,detail1,day2,slot2,detail2,day3,slot3,detail3,day4,slot4,detail4,day5,slot5,detail5,day6,slot6,detail6
-斎須,Tue,1-4,研修,Wed,2,運営,Thu,1,入試委員,Fri,1,入試広報,Mon,2-4,中高経営,,,,,,
+斎須,Mon,1-4,研修,Wed,2,運営,Thu,1,入試委員,Fri,1,入試広報,Tue,2,中高経営,,,,,,
 馬田,Mon,1-4,研修,Wed,4,高1学年,,,,,,,,,,,,,,,
 江連,Mon,1-4,研修,Wed,4,高1学年,,,,,,,,,,,,,,,
 飯村,Mon,1-4,研修,Wed,1,高２学年,Fri,6,学習指導,,,,,,,,,,,,
@@ -390,7 +478,7 @@
 髙橋,Mon,1-4,研修,Tue,1,宗教,Wed,4,中1学年,Wed,5,礼拝準備,Thu,4,礼拝準備,,,,,,
 赤津邦,Mon,1-4,研修,Tue,1,宗教,Wed,2,中3学年,Wed,6,高校礼拝,Wed,7,高校礼拝,Thu,5,高校礼拝,,,
 鈴木春,Mon,1-4,研修,Thu,3,運営,Thu,5,入試広報,,,,,,,,,,,,
-山田,Fri,5-7,研修,,,,,,,,,,,,,,,,,,
+山田,Mon,1-4,研修,,,,,,,,,,,,,,,,,,
 濵口,Mon,5-7,研修,Wed,5,中2学年,Thu,3,運営,,,,,,,,,,,,
 髙島,Mon,5-7,研修,Wed,2,中3学年,,,,,,,,,,,,,,,
 上圷,Mon,5-7,研修,Wed,4,高1学年,Thu,4,国際教育,,,,,,,,,,,,
@@ -457,10 +545,6 @@
 `;
 
     const EMBEDDED_LESSONS_HS_CSV = `teacher,grade,class,course,day,period,subject,group
-teacher,grade,class,course,day,period,subject,group
-teacher,grade,class,course,day,period,subject,group
-teacher,grade,class,course,day,period,subject,group
-teacher,grade,class,course,day,period,subject,group
 植木,1,1,,Mon,1st period,美術,
 鳥居,1,2,,Mon,1st period,情報,
 照沼,1,3,,Mon,1st period,数Ⅰ,
@@ -2177,6 +2261,22 @@ teacher,grade,class,course,day,period,subject,group
 
     let pinnedTeachers = null; // 右上ツールチップの固定対象
 
+    // HTMLタグを除去してプレーンテキストにするヘルパー関数 (data属性壊れ防止用)
+    function stripHtmlTags(str) {
+      if (!str) return "";
+      return str.replace(/<\/?[^>]+(>|$)/g, "");
+    }
+
+    // HTMLエスケープを行うヘルパー関数
+    function escapeHtmlAttr(str) {
+      if (!str) return "";
+      return str.replace(/&/g, "&amp;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#39;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;");
+    }
+
     // ===== 汎用パーサ =====
     function parseCSV(t){
       return t.replace(/^\uFEFF/,'')
@@ -2267,8 +2367,8 @@ teacher,grade,class,course,day,period,subject,group
 
       const h = d[0].map(x => x.toLowerCase());
       const iT    = h.indexOf('teacher');
-      const iD0   = h.indexOf('day');
-      const iS0   = h.indexOf('slot');
+      const iD0    = h.indexOf('day');
+      const iS0    = h.indexOf('slot');
       const iDet0 = h.indexOf('detail');
 
       const iD1  = h.indexOf('day1');
@@ -2531,6 +2631,11 @@ teacher,grade,class,course,day,period,subject,group
              (a.grade < 2 || (a.course||"") === (b.course||""));
     }
 
+    style = document.createElement('style');
+    style.innerHTML = `@media print { .case-container { break-inside: avoid; } }`;
+    document.head.appendChild(style);
+
+    // 一旦既存の重複定義を削除するため、この後のbindTableCheckboxes重複は下部で一元化
     function isBunriUnitForLesson(l){
       const unit = getUnitLessons(l);
       if (!unit.length) return false;
@@ -2634,6 +2739,7 @@ teacher,grade,class,course,day,period,subject,group
         classTtSelect.appendChild(op);
         classTtSelect.disabled = true;
         classTtDownloadBtn.disabled = true;
+        classTtExcelBtn.disabled = true; // Excelボタン無効
         classTtTableContainer.innerHTML = "";
         currentClassTtLabel = "";
         return;
@@ -2653,6 +2759,7 @@ teacher,grade,class,course,day,period,subject,group
 
       classTtSelect.disabled = false;
       classTtDownloadBtn.disabled = true;
+      classTtExcelBtn.disabled = true; // Excelボタン無効
       classTtTableContainer.innerHTML = "";
       currentClassTtLabel = "";
     }
@@ -2662,6 +2769,7 @@ teacher,grade,class,course,day,period,subject,group
       if (!key) {
         classTtTableContainer.innerHTML = "";
         classTtDownloadBtn.disabled = true;
+        classTtExcelBtn.disabled = true; // Excelボタン無効
         currentClassTtLabel = "";
         return;
       }
@@ -2680,11 +2788,12 @@ teacher,grade,class,course,day,period,subject,group
       if (!rowsForClass.length) {
         classTtTableContainer.innerHTML = "<p class=\"muted\">このクラスの授業データがありません</p>";
         classTtDownloadBtn.disabled = true;
+        classTtExcelBtn.disabled = true; // Excelボタン無効
         currentClassTtLabel = "";
         return;
       }
 
-      let html = "<table class=\"class-tt-table\"><thead><tr><th>限/曜</th>";
+      let html = "<table class=\"class-tt-table\" id=\"targetClassWorksheetTable\"><thead><tr><th>限/曜</th>";
       DAYS_FOR_TT.forEach(d => {
         const ja = DAY_JA_OUT[d] || d;
         html += "<th>" + ja + "</th>";
@@ -2702,7 +2811,7 @@ teacher,grade,class,course,day,period,subject,group
             return;
           }
 
-          // 1段目：科目（文・理は科目名に(文)/(理)を付与）
+          // 1段目：科目
           const subjLabels = [];
           cellLessons.forEach(l => {
             const subjBase = (l.subject || "").trim();
@@ -2745,6 +2854,7 @@ teacher,grade,class,course,day,period,subject,group
         "<div class=\"class-tt-header\">" + labelText + " の時間割</div>" + html;
 
       classTtDownloadBtn.disabled = false;
+      classTtExcelBtn.disabled = false; // Excelボタン有効化
     }
 
     classTtSelect.addEventListener('change', renderClassTimetable);
@@ -2757,7 +2867,6 @@ teacher,grade,class,course,day,period,subject,group
         return;
       }
 
-      // 表とクラス名ヘッダーを含むコンテナをキャプチャ
       html2canvas(classTtTableContainer).then(canvas => {
         canvas.toBlob(blob => {
           if (!blob) return;
@@ -2771,6 +2880,96 @@ teacher,grade,class,course,day,period,subject,group
           URL.revokeObjectURL(url);
         });
       });
+    });
+
+    // ===== Excelファイルとしてダウンロードの実装 =====
+    classTtExcelBtn.addEventListener('click', () => {
+      if (!currentClassTtLabel) return;
+      if (!window.XLSX) {
+        alert("Excel出力用ライブラリ（SheetJS）の読み込みに失敗しました。");
+        return;
+      }
+
+      // 生成されたテーブル要素を取得
+      const tableEl = document.getElementById('targetClassWorksheetTable');
+      if (!tableEl) return;
+
+      // 1. 新しいワークブックオブジェクトを作成
+      const wb = XLSX.utils.book_new();
+
+      // 2. テーブルのセル内の改行や構造を綺麗に整えてデータ配列を作成する
+      const excelData = [];
+      
+      // ヘッダー行 (曜日の見出し) の作成
+      const headerRow = ["限/曜"];
+      DAYS_FOR_TT.forEach(d => {
+        headerRow.push(DAY_JA_OUT[d] || d);
+      });
+      excelData.push(headerRow);
+
+      // 各時限ごとのデータをループで取得
+      const rows = tableEl.querySelectorAll('tbody tr');
+      rows.forEach((row, rIdx) => {
+        const pNum = rIdx + 1;
+        const rowData = [pNum + "限"];
+
+        // 各曜日のセルデータを走査
+        const cells = row.querySelectorAll('td');
+        cells.forEach(cell => {
+          const subjEl = cell.querySelector('.class-tt-subject');
+          const techEl = cell.querySelector('.class-tt-teacher');
+          
+          if (subjEl && techEl) {
+            // 科目名と教員名を改行コードで結合して1つのセルに収める
+            rowData.push(subjEl.textContent + "\n" + techEl.textContent);
+          } else {
+            rowData.push("");
+          }
+        });
+        excelData.push(rowData);
+      });
+
+      // 3. 配列データからワークシートを生成
+      const ws = XLSX.utils.aoa_to_sheet(excelData);
+
+      // 4. Excelシートのセル内改行を有効にする設定、および列幅・行高・配置の調整
+      const range = XLSX.utils.decode_range(ws['!ref']);
+      
+      // 列幅の設定 (1列目は狭く、曜日セルは授業名が入るため少し広めに設定)
+      ws['!cols'] = [
+        { wch: 8 },  // 限/曜列
+        { wch: 22 }, // 月
+        { wch: 22 }, // 火
+        { wch: 22 }, // 水
+        { wch: 22 }, // 木
+        { wch: 22 }, // 金
+        { wch: 22 }  // 土
+      ];
+
+      // 各セルの表示スタイル（折り返し有効化・中央揃え）を適用
+      for (let R = range.s.r; R <= range.e.r; ++R) {
+        for (let C = range.s.c; C <= range.e.c; ++C) {
+          const cell_address = { c: C, r: R };
+          const cell_ref = XLSX.utils.encode_cell(cell_address);
+          if (!ws[cell_ref]) continue;
+          
+          // アライメント（配置）オブジェクトの適用 (中央寄せ・縦中央・折り返し表示)
+          ws[cell_ref].s = {
+            alignment: {
+              vertical: "center",
+              horizontal: "center",
+              wrapText: true
+            }
+          };
+        }
+      }
+
+      // 5. ワークブックにワークシートを追加し、ファイル出力
+      XLSX.utils.book_append_sheet(wb, ws, "クラス時間割");
+      
+      // ファイル名のクレンジングとダウンロード実行
+      const fileName = currentClassTtLabel.replace(/[\\\/:*?"<>|]/g, "_") + ".xlsx";
+      XLSX.writeFile(wb, fileName);
     });
 
     // ===== ファイル読み込み =====
@@ -2845,6 +3044,8 @@ teacher,grade,class,course,day,period,subject,group
       lessonSelect.innerHTML = '<option value="">教員A（合同授業の場合B・C）を選んでください</option>';
       clearTables();
       updateTeacherATimetable();
+      printCart.clear();
+      updatePrintBarUI();
     }
 
     function refreshTeacherBCOptions(){
@@ -2947,6 +3148,7 @@ teacher,grade,class,course,day,period,subject,group
       pinnedTeachers = null;
       movePanel.classList.add('hidden');
       movePanelBody.innerHTML = "";
+      updatePrintBarUI();
     }
 
     function teacherHasSlot(t,d,p){
@@ -3037,7 +3239,6 @@ teacher,grade,class,course,day,period,subject,group
       return ops;
     }
 
-    // ===== ★追加：自分（教員A/B/Cの選択状態） =====
     function getSelfNamesSelected(){
       const a = teacherSelectA.value;
       const b = teacherSelectB.value;
@@ -3049,7 +3250,6 @@ teacher,grade,class,course,day,period,subject,group
       return names;
     }
     function getSelfNamesForMove(){
-      // 「自分の授業」は、現在の選択状態（Aのみ or A+B(+C)）に合わせる
       return getSelfNamesSelected();
     }
 
@@ -3117,7 +3317,7 @@ teacher,grade,class,course,day,period,subject,group
           const dayMap = data.get(d);
           const list = dayMap ? (dayMap.get(p) || []) : [];
 
-          const lessonLines = list.map(l => renderLessonShortForTimetable(l));
+          const lessonLines = list.map(l => ({ text: renderLessonShortForTimetable(l), unitKey: unitKeyForTeacherSlot(l) }));
 
           const trainingSet = new Set();
           teacherNames.forEach(tName => {
@@ -3129,16 +3329,21 @@ teacher,grade,class,course,day,period,subject,group
           const isEmpty = (!lessonLines.length && !trainingLines.length);
 
           if (isEmpty) {
-            // ★追加：空きコマをクリック可能に（教員A時間割のみで使う）
             if (clickableEmpty) {
-              html += "<td class=\"tt-empty\" data-ttday=\"" + d + "\" data-ttperiod=\"" + p + "\" title=\"空きコマ（クリックで振替候補表示）\"></td>";
+              html += "<td class=\"tt-empty\" data-ttday=\"" + d + "\" data-ttperiod=\"" + p + "\" title=\"この時間を目的地として交換相手を探す\"></td>";
             } else {
               html += "<td></td>";
             }
           } else {
-            const lessonHtml = lessonLines
-              .map(function(s){ return "<span class=\"tt-lesson\">" + s + "</span>"; })
-              .join("<br>");
+            let lessonHtml = "";
+            if (lessonLines.length > 0 && clickableEmpty) {
+              lessonHtml = lessonLines
+                .map(function(obj){ return "<span class=\"tt-lesson\" data-unit-key=\"" + obj.unitKey + "\" title=\"この授業の交換先を探す\">" + obj.text + "</span>"; })
+                .join("<br>");
+            } else {
+              lessonHtml = lessonLines.map(function(obj){ return "<span class=\"tt-lesson\">" + obj.text + "</span>"; }).join("<br>");
+            }
+
             const trainingHtml = trainingLines
               .map(function(s){ return "<span class=\"tt-training\">" + s + "</span>"; })
               .join("<br>");
@@ -3164,26 +3369,186 @@ teacher,grade,class,course,day,period,subject,group
       const html = buildTeacherTimetableHTML([a], { clickableEmpty: true });
       teacherATimetableContainer.innerHTML = html;
 
-      // ★追加：空きコマクリックで候補表示
-      bindEmptySlotClicksInTeacherATimetable();
+      bindTimetableClicks();
     }
 
-    function bindEmptySlotClicksInTeacherATimetable(){
-      const cells = teacherATimetableContainer.querySelectorAll('.tt-empty[data-ttday][data-ttperiod]');
-      cells.forEach(cell => {
+    function bindTimetableClicks(){
+      const lessonsSpans = teacherATimetableContainer.querySelectorAll('.tt-lesson[data-unit-key]');
+      lessonsSpans.forEach(span => {
+        span.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const uKey = span.getAttribute('data-unit-key');
+          if (uKey && lessonSelect.disabled === false) {
+            lessonSelect.value = uKey;
+            lessonSelect.dispatchEvent(new Event('change'));
+          }
+        });
+      });
+
+      const emptyCells = teacherATimetableContainer.querySelectorAll('.tt-empty[data-ttday][data-ttperiod]');
+      emptyCells.forEach(cell => {
         cell.addEventListener('click', () => {
           const day = cell.getAttribute('data-ttday');
           const period = parseInt(cell.getAttribute('data-ttperiod'), 10);
           if (!day || Number.isNaN(period)) return;
 
-          renderMoveCandidates(day, period);
+          executeReverseSearch(day, period);
         });
       });
     }
 
-    // ===== ★追加：空きコマ→振替可能授業（直接 / 交換） =====
+    function executeReverseSearch(targetDay, targetPeriod) {
+      results1to1Div.innerHTML = "";
+      results3wayDiv.innerHTML = "";
+      timetableTooltip.classList.add('hidden');
+      pinnedTeachers = null;
 
-    // 「今の選択状態における自分の授業ユニット一覧（代表行）」を取得
+      const a = teacherSelectA.value;
+      if (!a) return;
+
+      const myLessons = getMyLessonUnitRepsForCurrentSelection();
+      if (!myLessons.length) {
+        results1to1Div.innerHTML = `<h2>■ 空きコマ（${formatSlot(targetDay, targetPeriod)}）への振替候補</h2><p class="muted">対象となる自分の授業候補がありません。</p>`;
+        return;
+      }
+
+      let compiled1to1 = [];
+
+      myLessons.forEach(me => {
+        const myUnitLessons = unitIndex.get(unitKeyForTeacherSlot(me)) || [];
+        if(!myUnitLessons.length) return;
+
+        const myDay = me.day;
+        const myPeriod = me.period;
+        const myClassKeys = new Set(myUnitLessons.map(l => l.grade + "-" + l.class));
+        const myMergeCount = myClassKeys.size;
+        const currentOriginText = stripHtmlTags(renderLessonTextForDropdown(me));
+
+        const poolBase = lessons.filter(o => {
+          const otherUnitLessons = getUnitLessons(o);
+          const otherClassKeysArr = otherUnitLessons.map(l => l.grade + "-" + l.class);
+          const otherMergeCount = otherClassKeysArr.length;
+
+          if (myMergeCount > 1) {
+            if (otherMergeCount !== myMergeCount) return false;
+            const otherSet = new Set(otherClassKeysArr);
+            for (const k of myClassKeys) {
+              if (!otherSet.has(k)) return false;
+            }
+          } else {
+            if (otherMergeCount > 1) return false;
+          }
+          return o.teacher !== a && sameClassAndCourse(me, o);
+        });
+
+        const judge = canMoveMyLessonToSlot(me, targetDay, targetPeriod);
+        if (judge.ok) {
+          const pId = `direct_${me.day}${me.period}_to_${targetDay}${targetPeriod}`;
+          
+          const myMoveTxt = `${stripHtmlTags(renderMyLessonText(me))} ➔ ${formatSlot(targetDay, targetPeriod)}`;
+          const oppMoveTxt = `空きコマへの直接振替（交換なし）`;
+
+          compiled1to1.push({
+            pId: pId, originText: currentOriginText, myMove: myMoveTxt, oppMove: oppMoveTxt,
+            teacherLabel: "（なし）", oppLessonText: "空きコマ直接振替", myLessonText: renderMyLessonText(me),
+            trainingText: "", parttimeText: "", rowClass: "self-training", oppTeachersArr: [], originTeacher: a
+          });
+        }
+
+        poolBase.forEach(o => {
+          if (o.day !== targetDay || o.period !== targetPeriod) return;
+
+          const oppAllTeachers = getAllTeachersForLesson(o);
+          const otherFree = !oppAllTeachers.some(t => teacherHasSlot(t, myDay, myPeriod));
+          if (!otherFree) return;
+
+          const teacherLabel = oppAllTeachers.join('・');
+          const oppHasEventAtMy = oppAllTeachers.some(t => hasAnyEvent(t, myDay, myPeriod));
+          const aHasEventAtOpp = hasAnyEvent(a, targetDay, targetPeriod);
+
+          const trainingDetailsSet = new Set();
+          oppAllTeachers.forEach(t => {
+            const d1 = getTrainingDetailLabel(t, myDay, myPeriod); if(d1) trainingDetailsSet.add(d1);
+          });
+          const d2 = getTrainingDetailLabel(a, targetDay, targetPeriod); if(d2) trainingDetailsSet.add(d2);
+          const trainingText = Array.from(trainingDetailsSet).join("<br>");
+
+          const parttime = oppAllTeachers.some(t => isParttimeTeacher(t));
+          let rowClass = "";
+          if (parttime) rowClass = "parttime-row";
+          else if (oppHasEventAtMy || aHasEventAtOpp) rowClass = "training-conflict";
+
+          const pId = `rev1to1_${me.day}${me.period}_${o.teacher}_${targetDay}${targetPeriod}`;
+          
+          const fullOppLessonText = stripHtmlTags(renderLessonTextForResult(o));
+          const myMoveTxt = `${stripHtmlTags(renderMyLessonText(me))} ➔ ${formatSlot(targetDay, targetPeriod)}`;
+          const oppMoveTxt = `${fullOppLessonText} ➔ ${formatSlot(me.day, me.period)}`;
+
+          if (!compiled1to1.some(item => item.pId === pId)) {
+            compiled1to1.push({
+              pId: pId, originText: currentOriginText, myMove: myMoveTxt, oppMove: oppMoveTxt,
+              teacherLabel: teacherLabel, oppLessonText: renderLessonTextForResult(o), myLessonText: renderMyLessonText(me),
+              trainingText: trainingText, parttimeText: parttime ? "〇" : "", rowClass: rowClass, rawOpp: o, oppTeachersArr: oppAllTeachers, originTeacher: a
+            });
+          }
+        });
+      });
+
+      const h2a = document.createElement('h2');
+      h2a.textContent = `■ 空きコマ限（${formatSlot(targetDay, targetPeriod)}）への連動交換・振替候補`;
+      results1to1Div.appendChild(h2a);
+
+      if (!compiled1to1.length) {
+        results1to1Div.insertAdjacentHTML("beforeend", "<p class=\"muted\">このコマに持ってこられる授業候補はありません</p>");
+      } else {
+        const tbl = document.createElement('table');
+        tbl.innerHTML = "<thead><tr><th class=\"print-checkbox-col\">印刷</th><th>交換相手</th><th>相手の授業（現在このコマにある授業）</th><th>あなたの授業</th><th class=\"nowrap\">予定</th><th class=\"nowrap\">非常勤</th></tr></thead>";
+        const tb = document.createElement('tbody');
+
+        compiled1to1.forEach(item => {
+          const tr = document.createElement('tr');
+          if(item.rowClass) tr.className = item.rowClass;
+
+          const oppNamesStr = item.oppTeachersArr ? item.oppTeachersArr.join('・') : (item.teacherLabel === "（なし）" ? "" : item.teacherLabel);
+          const tdCb = document.createElement('td');
+          tdCb.className = 'print-checkbox-col';
+          
+          const encOrigin = escapeHtmlAttr(item.originText);
+          const encMyMove = escapeHtmlAttr(item.myMove);
+          const encOppMove = escapeHtmlAttr(item.oppMove);
+          const encOppName = escapeHtmlAttr(oppNamesStr);
+          const encOriginTeacher = escapeHtmlAttr(item.originTeacher);
+
+          tdCb.innerHTML = `<input type="checkbox" class="print-row-cb" data-print-id="${item.pId}" data-origin-lesson="${encOrigin}" data-my-move="${encMyMove}" data-opp-move="${encOppMove}" data-opp-names="${encOppName}" data-origin-teacher="${encOriginTeacher}">`;
+
+          const tdName = document.createElement('td');
+          if (item.rawOpp) {
+            tdName.innerHTML = `<span class="teacher-name" data-teachers="${getAllTeachersForLesson(item.rawOpp).join('|')}">${item.teacherLabel}</span>`;
+          } else {
+            tdName.textContent = item.teacherLabel;
+          }
+
+          const tdOther = document.createElement('td'); tdOther.innerHTML = item.oppLessonText;
+          const tdMine = document.createElement('td'); tdMine.innerHTML = item.myLessonText;
+          const tdTrain = document.createElement('td'); tdTrain.style.textAlign = 'center'; tdTrain.innerHTML = item.trainingText;
+          const tdPart = document.createElement('td'); tdPart.style.textAlign = 'center'; tdPart.textContent = item.parttimeText;
+
+          tr.appendChild(tdCb); tr.appendChild(tdName); tr.appendChild(tdOther); tr.appendChild(tdMine); tr.appendChild(tdTrain); tr.appendChild(tdPart);
+          tb.appendChild(tr);
+        });
+        tbl.appendChild(tb);
+        results1to1Div.appendChild(tbl);
+      }
+
+      const h2b = document.createElement('h2');
+      h2b.textContent = "■ A⇔B⇔C候補 / 特殊調整";
+      results3wayDiv.appendChild(h2b);
+      results3wayDiv.insertAdjacentHTML("beforeend", "<p class=\"muted\">空きコマ目的地起点検索では 1対1 および直接振替候補を表示しています</p>");
+
+      syncCheckboxesState();
+      updatePrintBarUI();
+    }
+
     function getMyLessonUnitRepsForCurrentSelection(){
       const a = teacherSelectA.value;
       const b = teacherSelectB.value;
@@ -3231,7 +3596,6 @@ teacher,grade,class,course,day,period,subject,group
         });
       }
 
-      // 表示順を安定化（日→限→学年→組→科目）
       list.sort((x,y)=>{
         const dx = DAY_ORDER[x.day] || 99;
         const dy = DAY_ORDER[y.day] || 99;
@@ -3245,14 +3609,11 @@ teacher,grade,class,course,day,period,subject,group
       return list;
     }
 
-    // 直接移動できるか（教師側空き＋研修なし＋クラス側でそのコマが空いている）
     function canMoveMyLessonToSlot(myLessonRep, targetDay, targetPeriod){
       const myUnitRows = getUnitLessons(myLessonRep);
       if (!myUnitRows.length) {
         return { ok:false, reason:"授業ユニット不明" };
       }
-
-      // 同コマは意味がない
       if (myLessonRep.day === targetDay && myLessonRep.period === targetPeriod) {
         return { ok:false, reason:"同じコマ" };
       }
@@ -3264,7 +3625,6 @@ teacher,grade,class,course,day,period,subject,group
         return { ok:false, reason:"担当者不明" };
       }
 
-      // 教師側：空き＋研修/会議なし
       for (const t of myTeachers) {
         if (teacherHasSlot(t, targetDay, targetPeriod)) {
           return { ok:false, reason:"教師側が授業で埋まっている" };
@@ -3274,7 +3634,6 @@ teacher,grade,class,course,day,period,subject,group
         }
       }
 
-      // クラス側：同じクラス(文理含)の授業が既にあるなら直接移動不可（＝交換が必要）
       const hasClassBlocker = lessons.some(l =>
         l.day === targetDay &&
         l.period === targetPeriod &&
@@ -3287,220 +3646,6 @@ teacher,grade,class,course,day,period,subject,group
       return { ok:true, reason:"" };
     }
 
-    // swap候補（交換すればターゲットに入れられる）探索
-    function findSwapCandidatesForLessonToSlot(myLessonRep, targetDay, targetPeriod){
-      const a = teacherSelectA.value;
-      if (!a) return [];
-
-      const selfNames = getSelfNamesForMove();
-      const useJoint = selfNames.length > 1;
-      const myTeachers = useJoint ? Array.from(new Set(selfNames)) : getAllTeachersForLesson(myLessonRep);
-      if (!myTeachers.length) return [];
-
-      const myUnitRows = getUnitLessons(myLessonRep);
-      if (!myUnitRows.length) return [];
-
-      // ターゲット教師側が空いている＆研修なし（安全側）
-      for (const t of myTeachers) {
-        if (teacherHasSlot(t, targetDay, targetPeriod)) return [];
-        if (hasAnyEvent(t, targetDay, targetPeriod)) return [];
-      }
-
-      // ターゲット側でクラス衝突している授業（blocker）を抽出
-      const blockers = lessons.filter(l =>
-        l.day === targetDay &&
-        l.period === targetPeriod &&
-        myUnitRows.some(row => sameClassAndCourse(row, l))
-      );
-      if (!blockers.length) return [];
-
-      // ★簡易制限：blockerが1 signature（=1ユニット）にまとまっている場合のみ
-      const sigSet = new Set(blockers.map(l => signatureKey(l)));
-      if (sigSet.size !== 1) return [];
-
-      const blockSig = Array.from(sigSet)[0];
-      const blockRep = blockers.find(l => signatureKey(l) === blockSig) || blockers[0];
-
-      // 合体授業（複数クラス）対策：myとblockのクラス集合が一致すること
-      const blockUnitRows = getUnitLessons(blockRep);
-
-      function classKey(x){
-        return (x.school||"") + "|" + x.grade + "|" + x.class + "|" + (x.grade < 2 ? "" : (x.course||""));
-      }
-      const myKeys = new Set(myUnitRows.map(classKey));
-      const blKeys = new Set(blockUnitRows.map(classKey));
-      if (myKeys.size !== blKeys.size) return [];
-      for (const k of myKeys) {
-        if (!blKeys.has(k)) return [];
-      }
-
-      const blockTeachers = getAllTeachersForLesson(blockRep);
-      if (!blockTeachers.length) return [];
-
-      // 相手（blocker）担当者が「自分の元コマ」に入れるか（空き＋研修なし）
-      for (const t of blockTeachers) {
-        if (teacherHasSlot(t, myLessonRep.day, myLessonRep.period)) return [];
-        if (hasAnyEvent(t, myLessonRep.day, myLessonRep.period)) return [];
-      }
-
-      // swapの教師操作列
-      const ops = [];
-
-      // 自分：元→ターゲット
-      myTeachers.forEach(t => {
-        ops.push({
-          teacher: t,
-          dayFrom: myLessonRep.day,
-          periodFrom: myLessonRep.period,
-          dayTo: targetDay,
-          periodTo: targetPeriod
-        });
-      });
-
-      // 相手：ターゲット→元
-      blockTeachers.forEach(t => {
-        ops.push({
-          teacher: t,
-          dayFrom: targetDay,
-          periodFrom: targetPeriod,
-          dayTo: myLessonRep.day,
-          periodTo: myLessonRep.period
-        });
-      });
-
-      const ok = validateOperations(ops, scheduleState, { allowTraining:false });
-      if (!ok) return [];
-
-      return [{
-        myLesson: myLessonRep,
-        blockLesson: blockRep,
-        myTeachers: myTeachers,
-        blockTeachers: blockTeachers
-      }];
-    }
-
-    function renderMoveCandidates(targetDay, targetPeriod){
-      const a = teacherSelectA.value;
-      if (!a) {
-        alert("教員Aを選択してください。");
-        return;
-      }
-
-      // ターゲットは「教員Aの空きコマ」前提だが、念のため空きか確認
-      if (teacherHasSlot(a, targetDay, targetPeriod) || hasAnyEvent(a, targetDay, targetPeriod)) {
-        alert("そのコマは教員Aの空きコマではありません（授業/研修が入っています）。");
-        return;
-      }
-
-      const myLessons = getMyLessonUnitRepsForCurrentSelection();
-      if (!myLessons.length) {
-        movePanelTitle.textContent = "振替候補（" + formatSlot(targetDay, targetPeriod) + "）";
-        movePanelBody.innerHTML = "<p class=\"muted\">自分の授業候補がありません（教員A/B/Cの選択状態を確認してください）。</p>";
-        movePanel.classList.remove('hidden');
-        return;
-      }
-
-      const okList = [];
-      const swapList = [];
-      const ngList = [];
-
-      for (let i=0; i<myLessons.length; i++){
-        const l = myLessons[i];
-        const judge = canMoveMyLessonToSlot(l, targetDay, targetPeriod);
-        if (judge.ok) {
-          okList.push(l);
-          continue;
-        }
-        const swaps = findSwapCandidatesForLessonToSlot(l, targetDay, targetPeriod);
-        if (swaps.length) {
-          swapList.push(...swaps);
-        } else {
-          ngList.push({ lesson:l, reason:judge.reason });
-        }
-      }
-
-      movePanelTitle.textContent = "振替候補（" + formatSlot(targetDay, targetPeriod) + "）";
-
-      let html = "";
-
-      // 直接移動
-      html += "<h3 style=\"margin:10px 0 6px; font-size:0.95rem;\">そのコマに直接振替できる授業</h3>";
-      if (!okList.length) {
-        html += "<p class=\"muted\">該当なし</p>";
-      } else {
-        html += "<table><thead><tr>" +
-          "<th>自分の授業（元）</th>" +
-          "<th class=\"nowrap\">元のコマ</th>" +
-          "<th class=\"nowrap\">→</th>" +
-          "<th class=\"nowrap\">先のコマ</th>" +
-          "</tr></thead><tbody>";
-        okList.forEach(l=>{
-          html += "<tr>" +
-            "<td>" + renderLessonTextForResult(l) + "</td>" +
-            "<td class=\"nowrap\">" + formatSlot(l.day, l.period) + "</td>" +
-            "<td class=\"nowrap\">→</td>" +
-            "<td class=\"nowrap\">" + formatSlot(targetDay, targetPeriod) + "</td>" +
-          "</tr>";
-        });
-        html += "</tbody></table>";
-      }
-
-      // swap候補
-      html += "<h3 style=\"margin:14px 0 6px; font-size:0.95rem;\">交換すれば振替できる授業</h3>";
-      if (!swapList.length) {
-        html += "<p class=\"muted\">該当なし</p>";
-      } else {
-        html += "<table><thead><tr>" +
-          "<th>自分の授業（元）</th>" +
-          "<th class=\"nowrap\">元のコマ</th>" +
-          "<th>相手の授業（ターゲットに入っている授業）</th>" +
-          "<th class=\"nowrap\">相手の移動</th>" +
-          "<th>担当者</th>" +
-          "</tr></thead><tbody>";
-
-        swapList.forEach(x => {
-          const my = x.myLesson;
-          const bl = x.blockLesson;
-
-          const myFrom = formatSlot(my.day, my.period);
-          const blFrom = formatSlot(bl.day, bl.period); // = target
-          const blTo   = formatSlot(my.day, my.period); // 相手は自分の元へ
-
-          const myTeachersLabel = (x.myTeachers || []).join("・");
-          const blTeachersLabel = (x.blockTeachers || []).join("・");
-
-          html += "<tr>" +
-            "<td>" + renderLessonTextForResult(my) + "</td>" +
-            "<td class=\"nowrap\">" + myFrom + "</td>" +
-            "<td>" + renderLessonTextForResult(bl) + "</td>" +
-            "<td class=\"nowrap\">" + blFrom + " → " + blTo + "</td>" +
-            "<td>" + "自分：" + myTeachersLabel + "<br>相手：" + blTeachersLabel + "</td>" +
-          "</tr>";
-        });
-
-        html += "</tbody></table>";
-      }
-
-      // 参考：不可（理由）
-      html += "<h3 style=\"margin:14px 0 6px; font-size:0.95rem;\">参考：このコマに入れられない授業（理由）</h3>";
-      if (!ngList.length) {
-        html += "<p class=\"muted\">（すべて候補化されています）</p>";
-      } else {
-        html += "<table><thead><tr><th>授業</th><th>理由</th></tr></thead><tbody>";
-        ngList.slice(0, 80).forEach(x=>{
-          html += "<tr><td>" + renderLessonTextForResult(x.lesson) + "</td><td>" + (x.reason||"") + "</td></tr>";
-        });
-        html += "</tbody></table>";
-        if (ngList.length > 80) {
-          html += "<p class=\"muted\">※多いため一部のみ表示（" + ngList.length + "件中 80件）</p>";
-        }
-      }
-
-      movePanelBody.innerHTML = html;
-      movePanel.classList.remove('hidden');
-    }
-
-    // ===== 授業プルダウン更新 =====
     function updateLessonChoices(){
       clearTables();
       const a = teacherSelectA.value;
@@ -3564,14 +3709,28 @@ teacher,grade,class,course,day,period,subject,group
       lessonSelect.disabled = (list.length === 0);
     }
 
-    // ===== 1対1・二段階・三者・文理特別 =====
-    // ※以下、あなたの既存ロジックを保持（変更なし）：
-    //    - lessonSelect change handler
-    //    - hover tooltip
-    //    - click pin tooltip
-    //
-    // ここから先は「あなたが貼ってくれた元コード」をそのまま続けています。
-    // ただし、長大なので省略せずに“そのまま”入っています（下へ続く）
+    function updatePrintBarUI() {
+      if(!printSelectedCount || !globalPrintBar) return;
+      printSelectedCount.textContent = printCart.size;
+      if (printCart.size > 0) {
+        globalPrintBar.classList.remove('hidden');
+      } else {
+        globalPrintBar.classList.add('hidden');
+      }
+    }
+
+    function syncCheckboxesState() {
+      const cbs = document.querySelectorAll('.print-row-cb');
+      cbs.forEach(cb => {
+        cb.checked = printCart.has(cb.dataset.printId);
+      });
+    }
+
+    clearPrintCartBtn && clearPrintCartBtn.addEventListener('click', () => {
+      printCart.clear();
+      syncCheckboxesState();
+      updatePrintBarUI();
+    });
 
     lessonSelect.addEventListener('change', e=>{
       results1to1Div.innerHTML = "";
@@ -3602,6 +3761,8 @@ teacher,grade,class,course,day,period,subject,group
       const myClassKeys   = new Set(myUnitLessons.map(function(l){ return l.grade + "-" + l.class; }));
       const myMergeCount  = myClassKeys.size;
 
+      const currentOriginText = stripHtmlTags(renderLessonTextForDropdown(me));
+
       const poolBase = lessons.filter(o => {
         const otherUnitLessons  = getUnitLessons(o);
         const otherClassKeysArr = otherUnitLessons.map(function(l){ return l.grade + "-" + l.class; });
@@ -3618,12 +3779,11 @@ teacher,grade,class,course,day,period,subject,group
         }
 
         if(!useJoint) {
-          return o.teacher !== a && sameClassAndCourse(me,o);
+          return o.teacher !== a && sameClassAndCourse(me, o);
         }
-        return namesSelf.indexOf(o.teacher) === -1 && sameClassAndCourse(me,o);
+        return namesSelf.indexOf(o.teacher) === -1 && sameClassAndCourse(me, o);
       });
 
-      // --- 1対1 ---
       const c1raw = poolBase
         .filter(o=>{
           const selfFree = !useJoint
@@ -3695,7 +3855,7 @@ teacher,grade,class,course,day,period,subject,group
           c.trainingDetails.forEach(function(t){ trainingDetailsSet.add(t); });
         });
         teachersAll.forEach(function(t){
-          const label = getTrainingDetailLabel(t, me.day, me.period);
+          const label = getTrainingDetailLabel(t, me.day, myPeriod);
           if(label) trainingDetailsSet.add(label);
         });
 
@@ -3775,7 +3935,7 @@ teacher,grade,class,course,day,period,subject,group
       }else{
         const tbl = document.createElement('table');
         tbl.innerHTML = "<thead><tr>" +
-          "<th>交換相手</th><th>交換先授業</th><th>あなたの授業</th>" +
+          "<th class=\"print-checkbox-col\">印刷</th><th>交換相手</th><th>交換先授業</th><th>あなたの授業</th>" +
           "<th class=\"nowrap\">予定</th><th class=\"nowrap\">非常勤</th>" +
         "</tr></thead>";
         const tb = document.createElement('tbody');
@@ -3783,22 +3943,34 @@ teacher,grade,class,course,day,period,subject,group
         c1.forEach(cand=>{
           const o  = cand.other;
           const tr = document.createElement('tr');
+          
+          const teacherLabel = cand.teachersAll && cand.teachersAll.length ? cand.teachersAll.join('・') : o.teacher;
+          
+          const pId = `1to1_${me.day}${me.period}_${o.teacher}_${o.day}${o.period}`;
+          
+          const fullOppLessonText = stripHtmlTags(renderLessonTextForResult(o));
+          const myMoveTxt = `${stripHtmlTags(renderMyLessonText(me))} ➔ ${formatSlot(o.day, o.period)}`;
+          const oppMoveTxt = `${fullOppLessonText} ➔ ${formatSlot(me.day, me.period)}`;
+
+          const tdCb = document.createElement('td');
+          tdCb.className = 'print-checkbox-col';
+
+          const encOrigin = escapeHtmlAttr(currentOriginText);
+          const encMyMove = escapeHtmlAttr(myMoveTxt);
+          const encOppMove = escapeHtmlAttr(oppMoveTxt);
+          const encOppName = escapeHtmlAttr(teacherLabel);
+          const encOriginTeacher = escapeHtmlAttr(a);
+
+          tdCb.innerHTML = `<input type="checkbox" class="print-row-cb" data-print-id="${pId}" data-origin-lesson="${encOrigin}" data-my-move="${encMyMove}" data-opp-move="${encOppMove}" data-opp-names="${encOppName}" data-origin-teacher="${encOriginTeacher}">`;
 
           const myTitle = renderMyLessonText(me);
-          const teacherLabel = cand.teachersAll && cand.teachersAll.length
-            ? cand.teachersAll.join('・')
-            : o.teacher;
-          const trainingText = cand.trainingDetails.length
-            ? cand.trainingDetails.join("<br>")
-            : "";
+          const trainingText = cand.trainingDetails.length ? cand.trainingDetails.join("<br>") : "";
 
           const tdName = document.createElement('td');
           const spanName = document.createElement('span');
           spanName.textContent = teacherLabel;
           spanName.className = 'teacher-name';
-          spanName.dataset.teachers = (cand.teachersAll && cand.teachersAll.length)
-            ? cand.teachersAll.join('|')
-            : o.teacher;
+          spanName.dataset.teachers = (cand.teachersAll && cand.teachersAll.length) ? cand.teachersAll.join('|') : o.teacher;
           tdName.appendChild(spanName);
 
           const tdOther = document.createElement('td');
@@ -3821,6 +3993,7 @@ teacher,grade,class,course,day,period,subject,group
             tr.classList.add("training-conflict");
           }
 
+          tr.appendChild(tdCb);
           tr.appendChild(tdName);
           tr.appendChild(tdOther);
           tr.appendChild(tdMine);
@@ -3895,34 +4068,10 @@ teacher,grade,class,course,day,period,subject,group
 
                 const ops = [];
 
-                ops.push({
-                  teacher   : teacherBlock,
-                  dayFrom   : blockLesson.day,
-                  periodFrom: blockLesson.period,
-                  dayTo     : partner.day,
-                  periodTo  : partner.period
-                });
-                ops.push({
-                  teacher   : teacherPartner,
-                  dayFrom   : partner.day,
-                  periodFrom: partner.period,
-                  dayTo     : blockLesson.day,
-                  periodTo  : blockLesson.period
-                });
-                ops.push({
-                  teacher   : teacherA,
-                  dayFrom   : me.day,
-                  periodFrom: myPeriod,
-                  dayTo     : B1.day,
-                  periodTo  : B1.period
-                });
-                ops.push({
-                  teacher   : teacherB,
-                  dayFrom   : B1.day,
-                  periodFrom: B1.period,
-                  dayTo     : me.day,
-                  periodTo  : myPeriod
-                });
+                ops.push({ teacher: teacherBlock, dayFrom: blockLesson.day, periodFrom: blockLesson.period, dayTo: partner.day, periodTo: partner.period });
+                ops.push({ teacher: teacherPartner, dayFrom: partner.day, periodFrom: partner.period, dayTo: blockLesson.day, periodTo: blockLesson.period });
+                ops.push({ teacher: teacherA, dayFrom: me.day, periodFrom: myPeriod, dayTo: B1.day, periodTo: B1.period });
+                ops.push({ teacher: teacherB, dayFrom: B1.day, periodFrom: B1.period, dayTo: me.day, periodTo: myPeriod });
 
                 let invalidChain = false;
 
@@ -4054,7 +4203,7 @@ teacher,grade,class,course,day,period,subject,group
         c3display.sort(function(aItem,bItem){ return bItem.priority-aItem.priority; });
         const tbl = document.createElement('table');
         tbl.innerHTML = "<thead><tr>" +
-          "<th>担当者</th><th>該当する授業</th>" +
+          "<th class=\"print-checkbox-col\">印刷</th><th>担当者</th><th>該当する授業</th>" +
           "<th>担当者</th><th>該当する授業</th>" +
           "<th>移動案</th>" +
         "</tr></thead>";
@@ -4074,25 +4223,65 @@ teacher,grade,class,course,day,period,subject,group
           const selfLabel = namesSelfFor3.join('＋') || a;
 
           let moveBody = "";
+          let txtMyMove = "";
+          let txtOppMove = "";
+          
+          const fullBLesson = stripHtmlTags(renderLessonTextForResult(B3));
+          const fullCLesson = stripHtmlTags(renderLessonTextForResult(C3));
+
           if (cand.patternId === 2) {
             moveBody =
               selfLabel + "：" + formatSlot(A3.day,A3.period) + " → " + formatSlot(C3.day,C3.period) + "<br>" +
               labelC + "：" + formatSlot(C3.day,C3.period) + " → " + formatSlot(B3.day,B3.period) + "<br>" +
               labelB + "：" + formatSlot(B3.day,B3.period) + " → " + formatSlot(A3.day,A3.period);
+            txtMyMove = `${stripHtmlTags(renderMyLessonText(A3))} ➔ ${formatSlot(C3.day,C3.period)}`;
+            txtOppMove = `${fullCLesson} ➔ ${formatSlot(B3.day,B3.period)}<br>${fullBLesson} ➔ ${formatSlot(A3.day,A3.period)}`;
           } else {
             moveBody =
               selfLabel + "：" + formatSlot(A3.day,A3.period) + " → " + formatSlot(B3.day,B3.period) + "<br>" +
               labelB + "：" + formatSlot(B3.day,B3.period) + " → " + formatSlot(C3.day,C3.period) + "<br>" +
               labelC + "：" + formatSlot(C3.day,C3.period) + " → " + formatSlot(A3.day,A3.period);
+            txtMyMove = `${stripHtmlTags(renderMyLessonText(A3))} ➔ ${formatSlot(B3.day,B3.period)}`;
+            txtOppMove = `${fullBLesson} ➔ ${formatSlot(C3.day,C3.period)}<br>${fullCLesson} ➔ ${formatSlot(A3.day,A3.period)}`;
           }
 
           const tr = document.createElement('tr');
-          tr.innerHTML =
-            "<td><span class=\"teacher-name\" data-teachers=\"" + namesBForTT.join('|') + "\">" + labelB + "</span></td>" +
-            "<td>" + renderLessonTextForResult(B3) + "</td>" +
-            "<td><span class=\"teacher-name\" data-teachers=\"" + namesCForTT.join('|') + "\">" + labelC + "</span></td>" +
-            "<td>" + renderLessonTextForResult(C3) + "</td>" +
-            "<td>" + moveBody + "</td>";
+          const pId = `3way_${A3.day}${A3.period}_${B3.teacher}_${C3.teacher}_p${cand.patternId}`;
+
+          const tdCb = document.createElement('td');
+          tdCb.className = 'print-checkbox-col';
+          const totalOppNames = `${labelB}|${labelC}`;
+
+          const encOrigin = escapeHtmlAttr(currentOriginText);
+          const encMyMove = escapeHtmlAttr(txtMyMove);
+          const encOppMove = escapeHtmlAttr(txtOppMove);
+          const encOppName = escapeHtmlAttr(totalOppNames);
+          const encOriginTeacher = escapeHtmlAttr(a);
+
+          tdCb.innerHTML = `<input type="checkbox" class="print-row-cb" data-print-id="${pId}" data-origin-lesson="${encOrigin}" data-my-move="${encMyMove}" data-opp-move="${encOppMove}" data-opp-names="${encOppName}" data-origin-teacher="${encOriginTeacher}">`;
+
+          tr.appendChild(tdCb);
+
+          const tdContent = document.createElement('td');
+          tdContent.innerHTML = "<span class=\"teacher-name\" data-teachers=\"" + namesBForTT.join('|') + "\">" + labelB + "</span>";
+          tr.appendChild(tdContent);
+
+          const tdLessonB = document.createElement('td');
+          tdLessonB.innerHTML = renderLessonTextForResult(B3);
+          tr.appendChild(tdLessonB);
+
+          const tdNameC = document.createElement('td');
+          tdNameC.innerHTML = "<span class=\"teacher-name\" data-teachers=\"" + namesCForTT.join('|') + "\">" + labelC + "</span>";
+          tr.appendChild(tdNameC);
+
+          const tdLessonC = document.createElement('td');
+          tdLessonC.innerHTML = renderLessonTextForResult(C3);
+          tr.appendChild(tdLessonC);
+
+          const tdMove = document.createElement('td');
+          tdMove.innerHTML = moveBody;
+          tr.appendChild(tdMove);
+
           tb.appendChild(tr);
         });
         tbl.appendChild(tb);
@@ -4107,13 +4296,11 @@ teacher,grade,class,course,day,period,subject,group
       if (chainCandidates.length) {
         const tblChain = document.createElement('table');
         tblChain.innerHTML = "<thead><tr>" +
-          "<th>交換１</th>" +
-          "<th>交換２</th>" +
-          "<th>移動案</th>" +
+          "<th class=\"print-checkbox-col\">印刷</th><th>交換１</th><th>交換２</th><th>移動案</th>" +
         "</tr></thead>";
         const tbChain = document.createElement('tbody');
 
-        chainCandidates.forEach(cand=>{
+        chainCandidates.forEach((cand, idx)=>{
           const mainB        = cand.mainB;
           const blockLesson  = cand.blockLesson;
           const partner      = cand.partner;
@@ -4123,6 +4310,25 @@ teacher,grade,class,course,day,period,subject,group
           const teacherPartner = cand.teacherPartner;
 
           const row       = document.createElement('tr');
+          const pId = `chain_${me.day}${me.period}_${mainB.teacher}_idx${idx}`;
+
+          const moveDescTxt =
+            `${stripHtmlTags(renderLessonTextForResult(blockLesson))} ➔ ${formatSlot(partner.day, partner.period)}<br>` +
+            `${stripHtmlTags(renderLessonTextForResult(partner))} ➔ ${formatSlot(blockLesson.day, blockLesson.period)}<br>` +
+            `${stripHtmlTags(renderMyLessonText(me))} ➔ ${formatSlot(mainB.day, mainB.period)}<br>` +
+            `${stripHtmlTags(renderLessonTextForResult(mainB))} ➔ ${formatSlot(me.day, me.period)}`;
+
+          const tdCb = document.createElement('td');
+          tdCb.className = 'print-checkbox-col';
+
+          const encOrigin = escapeHtmlAttr(currentOriginText);
+          const encMyMove = escapeHtmlAttr(`${stripHtmlTags(renderMyLessonText(me))} ➔ ${formatSlot(mainB.day, mainB.period)}`);
+          const encOppMove = escapeHtmlAttr(stripHtmlTags(moveDescTxt));
+          const encOppName = escapeHtmlAttr(teacherB);
+          const encOriginTeacher = escapeHtmlAttr(a);
+
+          tdCb.innerHTML = `<input type="checkbox" class="print-row-cb" data-print-id="${pId}" data-origin-lesson="${encOrigin}" data-my-move="${encMyMove}" data-opp-move="${encOppMove}" data-opp-names="${encOppName}" data-origin-teacher="${encOriginTeacher}">`;
+
           const mainLabel =
             teacherA + "：" + renderLessonTextForResult(me) + " ⇔ " +
             teacherB + "：" + renderLessonTextForResult(mainB);
@@ -4131,16 +4337,8 @@ teacher,grade,class,course,day,period,subject,group
             teacherBlock + "：" + renderLessonTextForResult(blockLesson) + " ⇔ " +
             teacherPartner + "：" + renderLessonTextForResult(partner);
 
-          const moveDesc =
-            teacherBlock + "：" + formatSlot(blockLesson.day, blockLesson.period) + " → " + formatSlot(partner.day, partner.period) + "<br>" +
-            teacherPartner + "：" + formatSlot(partner.day, partner.period) + " → " + formatSlot(blockLesson.day, blockLesson.period) + "<br>" +
-            teacherA + "：" + formatSlot(me.day, me.period) + " → " + formatSlot(mainB.day, mainB.period) + "<br>" +
-            teacherB + "：" + formatSlot(mainB.day, mainB.period) + " → " + formatSlot(me.day, me.period);
-
-          row.innerHTML =
-            "<td>" + mainLabel + "</td>" +
-            "<td>" + subLabel + "</td>" +
-            "<td>" + moveDesc + "</td>";
+          row.appendChild(tdCb);
+          row.insertAdjacentHTML('beforeend', "<td>" + mainLabel + "</td><td>" + subLabel + "</td><td>" + moveDescTxt + "</td>");
           tbChain.appendChild(row);
         });
 
@@ -4156,7 +4354,7 @@ teacher,grade,class,course,day,period,subject,group
         results3wayDiv.appendChild(pCond);
       }
 
-      // --- 文理特別ローテ ---
+      // --- --- 文理特別ローテ --- ---
       const bunriCandidates = [];
       if (!useJoint && a && normal1to1Count <= 3 && isBunriUnitForLesson(me)) {
         const grade = me.grade;
@@ -4202,9 +4400,9 @@ teacher,grade,class,course,day,period,subject,group
             if (pairMap.has(keyPair)) return;
 
             const ops = [
-              { teacher: a,           dayFrom: me.day,   periodFrom: me.period,   dayTo: lBun.day, periodTo: lBun.period },
-              { teacher: lBun.teacher,dayFrom: lBun.day, periodFrom: lBun.period, dayTo: me.day,   periodTo: me.period },
-              { teacher: lRi.teacher, dayFrom: lRi.day,  periodFrom: lRi.period,  dayTo: me.day,   periodTo: me.period }
+              { teacher: a,            dayFrom: me.day,   periodFrom: me.period,   dayTo: lBun.day, periodTo: lBun.period },
+              { teacher: lBun.teacher, dayFrom: lBun.day, periodFrom: lBun.period, dayTo: me.day,   periodTo: me.period },
+              { teacher: lRi.teacher,  dayFrom: lRi.day,  periodFrom: lRi.period,  dayTo: me.day,   periodTo: me.period }
             ];
 
             if (!validateOperations(ops, scheduleState, { allowTraining: true })) return;
@@ -4228,25 +4426,40 @@ teacher,grade,class,course,day,period,subject,group
 
         const tblSpec = document.createElement('table');
         tblSpec.innerHTML = "<thead><tr>" +
-          "<th>A（文理）</th>" +
-          "<th>文側</th>" +
-          "<th>理側</th>" +
+          "<th class=\"print-checkbox-col\">印刷</th><th>A（文理）</th><th>文側</th><th>理側</th>" +
           "<th>移動案</th>" +
           "<th>予定（注意）</th>" +
         "</tr></thead>";
         const tbSpec = document.createElement('tbody');
 
-        bunriCandidates.forEach(cand=>{
+        bunriCandidates.forEach((cand, idx)=>{
           const bun = cand.bun;
           const ri  = cand.ri;
 
           const tr = document.createElement('tr');
+          const pId = `bunri_${me.day}${me.period}_${bun.teacher}_idx${idx}`;
+
+          const moveDesc =
+            `${stripHtmlTags(renderLessonTextForResult(bun))} ➔ ${formatSlot(me.day, me.period)}<br>` +
+            `${stripHtmlTags(renderLessonTextForResult(ri))} ➔ ${formatSlot(me.day, me.period)}`;
+
+          const tdCb = document.createElement('td');
+          tdCb.className = 'print-checkbox-col';
+          const totalBunriNames = `${bun.teacher}・${ri.teacher}`;
+
+          const encOrigin = escapeHtmlAttr(currentOriginText);
+          const encMyMove = escapeHtmlAttr(`${stripHtmlTags(renderMyLessonText(me))} ➔ ${formatSlot(bun.day, bun.period)}`);
+          const encOppMove = escapeHtmlAttr(stripHtmlTags(moveDesc));
+          const encOppName = escapeHtmlAttr(totalBunriNames);
+          const encOriginTeacher = escapeHtmlAttr(a);
+
+          tdCb.innerHTML = `<input type="checkbox" class="print-row-cb" data-print-id="${pId}" data-origin-lesson="${encOrigin}" data-my-move="${encMyMove}" data-opp-move="${encOppMove}" data-opp-names="${encOppName}" data-origin-teacher="${encOriginTeacher}">`;
 
           const labelA   = a + "：" + renderLessonTextForResult(me);
           const labelBun = bun.teacher + "：" + renderLessonTextForResult(bun);
           const labelRi  = ri.teacher + "：" + renderLessonTextForResult(ri);
 
-          const moveDesc =
+          const moveUiDesc =
             a + "：" + formatSlot(me.day, me.period) + " → " + formatSlot(bun.day, bun.period) + "<br>" +
             bun.teacher + "：" + formatSlot(bun.day, bun.period) + " → " + formatSlot(me.day, me.period) + "<br>" +
             ri.teacher + "：" + formatSlot(ri.day, ri.period) + " → " + formatSlot(me.day, me.period);
@@ -4263,25 +4476,146 @@ teacher,grade,class,course,day,period,subject,group
             .filter(function(s){ return s && s.trim(); })
             .join("<br>");
 
-          tr.innerHTML =
-            "<td>" + labelA + "</td>" +
-            "<td>" + labelBun + "</td>" +
-            "<td>" + labelRi + "</td>" +
-            "<td>" + moveDesc + "</td>" +
-            "<td class=\"training-conflict\">" + (warnings || "") + "</td>";
+          tr.appendChild(tdCb);
+          tr.insertAdjacentHTML('beforeend', "<td>" + labelA + "</td><td>" + labelBun + "</td><td>" + labelRi + "</td><td>" + moveUiDesc + "</td><td class=\"training-conflict\">" + (warnings || "") + "</td>");
           tbSpec.appendChild(tr);
         });
 
         tblSpec.appendChild(tbSpec);
         results3wayDiv.appendChild(tblSpec);
       }
+
+      syncCheckboxesState();
     });
+
+    // カートデータ内のチェンジイベントハンドラ定義の一元化
+    function bindTableCheckboxes(container) {
+      if(!container) return;
+      container.addEventListener('change', (e) => {
+        const cb = e.target.closest('.print-row-cb');
+        if (!cb) return;
+
+        const pId = cb.dataset.printId;
+        if (cb.checked) {
+          printCart.set(pId, {
+            originLessonText: cb.dataset.originLesson,
+            myMove: cb.dataset.myMove,
+            oppMove: cb.dataset.oppMove,
+            oppNames: cb.dataset.oppNames || "",
+            originTeacher: cb.dataset.originTeacher || ""
+          });
+        } else {
+          printCart.delete(pId);
+        }
+        updatePrintBarUI();
+      });
+    }
+
+    bindTableCheckboxes(results1to1Div);
+    bindTableCheckboxes(results3wayDiv);
+
+    executePrintBtn && executePrintBtn.addEventListener('click', () => {
+      if (!printCart.size) {
+        alert("印刷したい交換案のチェックボックスを選択してください。");
+        return;
+      }
+
+      const printWindow = window.open('', '_blank');
+      
+      const lessonsGroup = new Map();
+      printCart.forEach((item) => {
+        if (!lessonsGroup.has(item.originLessonText)) {
+          lessonsGroup.set(item.originLessonText, []);
+        }
+        lessonsGroup.get(item.originLessonText).push(item);
+      });
+
+      let firstCartItem = printCart.values().next().value;
+      const displayProposalTeacher = (firstCartItem && firstCartItem.originTeacher) ? firstCartItem.originTeacher : "未選択";
+
+      let html = `
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <meta charset="UTF-8">
+          <title>授業変更のご相談</title>
+          <style>
+            body { font-family: system-ui, sans-serif; margin: 40px; color: #000; line-height: 1.6; background: #fff; }
+            .header-box { border: 2px solid #000; padding: 15px 20px; margin-bottom: 30px; background: #fff; }
+            .header-box h1 { margin: 0 0 10px 0; font-size: 1.5rem; text-align: center; color: #000; border-bottom: 2px solid #000; padding-bottom: 8px; }
+            .info-line { font-size: 1.1rem; margin: 6px 0; }
+            .intro-text { font-size: 1rem; margin-bottom: 25px; color: #000; }
+            
+            .lesson-section { margin-bottom: 30px; page-break-inside: avoid; }
+            .lesson-title { font-size: 1.2rem; font-weight: bold; background: #fff; border: 1px solid #000; padding: 8px 12px; margin-bottom: 15px; }
+            
+            .case-container { border: 1px solid #000; padding: 12px 15px; margin-bottom: 12px; background: #fff; page-break-inside: avoid; }
+            .case-num { font-weight: bold; color: #000; font-size: 0.95rem; margin-bottom: 6px; border-bottom: 1px dotted #000; padding-bottom: 2px; }
+            .move-line { margin: 6px 0; font-size: 0.95rem; line-height: 1.4; }
+            @media print {
+              body { margin: 20px; color: #000; background: #fff; }
+              .header-box, .lesson-title, .case-container { border-color: #000 !important; background: #fff !important; color: #000 !important; }
+            }
+          </style>
+        </head>
+        <body>
+          <div class="header-box">
+            <h1>授業変更のご相談</h1>
+            <div class="info-line"><strong>提案者：</strong> ${displayProposalTeacher}</div>
+          </div>
+          <div class="intro-text">
+            以下のクラスについて変更・交換をお願いしたく存じます。
+          </div>
+      `;
+
+      lessonsGroup.forEach((cases, lessonName) => {
+        html += `
+          <div class="lesson-section">
+            <div class="lesson-title">対象のクラス： ${lessonName}</div>
+        `;
+
+        cases.forEach((item, index) => {
+          let rawOppName = item.oppNames || "交換相手";
+          if (rawOppName.includes('|')) {
+            rawOppName = rawOppName.split('|').join('・');
+          }
+          const oppLabel = rawOppName ? `（${rawOppName}）` : "（交換相手）";
+          
+          const currentOriginTeacher = item.originTeacher || teacherSelectA.value;
+
+          html += `
+            <div class="case-container">
+              <div class="case-num">✅ 変更案 ${index + 1}</div>
+              <div class="move-line"><strong>（${currentOriginTeacher}）：</strong> ${item.myMove}</div>
+              <div class="move-line"><strong>${oppLabel}：</strong> ${item.oppMove}</div>
+            </div>
+          `;
+        });
+
+        html += `</div>`;
+      });
+
+      html += `
+          <p style="margin-top: 40px; text-align: right; font-size: 0.9rem; color: #000;">授業の交換先をすぐに見つける君 ©Takahiro Iimura</p>
+        </body>
+        </html>
+      `;
+
+      printWindow.document.open();
+      printWindow.document.write(html);
+      printWindow.document.close();
+
+      printWindow.onload = function() {
+        printWindow.print();
+      };
+    });
+
 
     // ===== 右上ツールチップ（ホバー／クリック固定） =====
     document.addEventListener('mouseover', (e) => {
       const span = e.target.closest('.teacher-name');
       if (!span) return;
-      if (pinnedTeachers && pinnedTeachers.length) return; // 固定中はホバーで切り替えない
+      if (pinnedTeachers && pinnedTeachers.length) return;
 
       const raw = span.dataset.teachers || "";
       const names = raw.split('|').map(function(s){ return s.trim(); }).filter(Boolean);
@@ -4309,14 +4643,12 @@ teacher,grade,class,course,day,period,subject,group
       const newKey = names.join('|');
       const currentKey = pinnedTeachers ? pinnedTeachers.join('|') : null;
 
-      // 同じ相手を再クリック → 固定解除
       if (pinnedTeachers && currentKey === newKey) {
         pinnedTeachers = null;
         timetableTooltip.classList.add('hidden');
         return;
       }
 
-      // 別の相手 or 未固定 → 固定
       pinnedTeachers = names;
       const html = buildTeacherTimetableHTML(names);
       timetableTooltip.innerHTML = html;
@@ -4330,6 +4662,4 @@ teacher,grade,class,course,day,period,subject,group
       if(EMBEDDED_LESSONS_JH_CSV.trim()) loadLessonsFromTextJH(EMBEDDED_LESSONS_JH_CSV);
       updateTeacherATimetable();
     });
-  </script>
-</body>
-</html>
+  </script></body></html>
