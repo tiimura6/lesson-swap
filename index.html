@@ -6076,7 +6076,19 @@
           const encOppName = escapeHtmlAttr(totalOppNames);
           const encOriginTeacher = escapeHtmlAttr(a);
 
-          tdCb.innerHTML = `<input type="checkbox" class="print-row-cb" data-print-id="${pId}" data-origin-lesson="${encOrigin}" data-my-move="${encMyMove}" data-opp-move="${encOppMove}" data-opp-names="${encOppName}" data-origin-teacher="${encOriginTeacher}">`;
+          // structured data for 3way print slip
+          const info3w = cand.patternId === 2 ? {
+            b1:{text:stripHtmlTags(renderMyLessonText(A3)), teacher:a},
+            b2:{text:fullCLesson, teacher:labelC},
+            b3:{text:fullBLesson, teacher:labelB}
+          } : {
+            b1:{text:stripHtmlTags(renderMyLessonText(A3)), teacher:a},
+            b2:{text:fullBLesson, teacher:labelB},
+            b3:{text:fullCLesson, teacher:labelC}
+          };
+          const encSwap3w = escapeHtmlAttr(JSON.stringify(info3w));
+
+          tdCb.innerHTML = `<input type="checkbox" class="print-row-cb" data-print-id="${pId}" data-origin-lesson="${encOrigin}" data-my-move="${encMyMove}" data-opp-move="${encOppMove}" data-opp-names="${encOppName}" data-origin-teacher="${encOriginTeacher}" data-swap3way="${encSwap3w}">`;
 
           tr.appendChild(tdCb);
 
@@ -6145,7 +6157,17 @@
           const encOppName = escapeHtmlAttr(teacherB);
           const encOriginTeacher = escapeHtmlAttr(a);
 
-          tdCb.innerHTML = `<input type="checkbox" class="print-row-cb" data-print-id="${pId}" data-origin-lesson="${encOrigin}" data-my-move="${encMyMove}" data-opp-move="${encOppMove}" data-opp-names="${encOppName}" data-origin-teacher="${encOriginTeacher}">`;
+          // structured data for chain (ABAC) print slip
+          const infoChain = {
+            me:      {text: stripHtmlTags(renderMyLessonText(me)),                   teacher: teacherA},
+            mainB:   {text: stripHtmlTags(renderLessonTextForResult(mainB)),          teacher: teacherB},
+            block:   {text: stripHtmlTags(renderLessonTextForResult(blockLesson)),    teacher: teacherBlock},
+            partner: {text: stripHtmlTags(renderLessonTextForResult(partner)),        teacher: teacherPartner},
+            blockIsA: (teacherBlock === teacherA)
+          };
+          const encSwapChain = escapeHtmlAttr(JSON.stringify(infoChain));
+
+          tdCb.innerHTML = `<input type="checkbox" class="print-row-cb" data-print-id="${pId}" data-origin-lesson="${encOrigin}" data-my-move="${encMyMove}" data-opp-move="${encOppMove}" data-opp-names="${encOppName}" data-origin-teacher="${encOriginTeacher}" data-swapchain="${encSwapChain}">`;
 
           const mainLabel =
             teacherA + "：" + renderLessonTextForResult(me) + " ⇔ " +
@@ -6316,11 +6338,14 @@
         const pId = cb.dataset.printId;
         if (cb.checked) {
           printCart.set(pId, {
+            pId: pId,
             originLessonText: cb.dataset.originLesson,
             myMove: cb.dataset.myMove,
             oppMove: cb.dataset.oppMove,
             oppNames: cb.dataset.oppNames || "",
-            originTeacher: cb.dataset.originTeacher || ""
+            originTeacher: cb.dataset.originTeacher || "",
+            swap3way: cb.dataset.swap3way ? JSON.parse(cb.dataset.swap3way) : null,
+            swapchain: cb.dataset.swapchain ? JSON.parse(cb.dataset.swapchain) : null
           });
         } else {
           printCart.delete(pId);
@@ -6338,33 +6363,7 @@
         return;
       }
 
-      function parseLessonStr(str) {
-        const m = (str || '').match(
-          /^【(高|中)】([月火水木金土])(\d+)限(\d+)年(.+?)組(?:（([文理]+)）)?\s*(.+?)\s*➔\s*([月火水木金土]\d+限)/
-        );
-        if (!m) return null;
-        const classLabel = m[5];
-        const numMatch   = classLabel.match(/(\d+)/);
-        return {
-          fromPeriod: m[3],
-          grade     : m[4],
-          classNum  : numMatch ? numMatch[1] : classLabel,
-          bunri     : m[6] || '',
-          subject   : m[7].trim(),
-          toSlot    : m[8]
-        };
-      }
-
-      function parsePeriod(slot) {
-        const m = (slot || '').match(/([月火水木金土])(\d+)限/);
-        return m ? m[2] : '';
-      }
-
-      function getOppSubject(oppMove) {
-        const m = (oppMove || '').match(/組(?:（[文理]+）)?\s*(.+?)\s*➔/);
-        return m ? m[1].trim() : '';
-      }
-
+      // ── 共通ヘルパー ──────────────────────────────────────
       function ul(text, w) {
         return '<span style="display:inline-block;min-width:' + (w||'3em') + ';border-bottom:1.5px solid #000;text-align:center;padding:0 1px;vertical-align:bottom;">' + text + '</span>';
       }
@@ -6372,60 +6371,235 @@
         return '<span style="display:inline-block;width:' + (w||'3em') + ';border-bottom:1.5px solid #000;vertical-align:bottom;">&nbsp;</span>';
       }
 
-      function makeFormHtml(item) {
-        const parsed     = parseLessonStr(item.myMove || '');
-        const teacher    = item.originTeacher || '';
-        const oppTeacher = (item.oppNames || '').split('|').join('・');
+      // 授業テキスト「【高】月3限2年7組（文）論表」をパース
+      function parseLessonText(str) {
+        const m = (str||'').match(/【(?:高|中)】([月火水木金土])(\d+)限(\d+)年([^組]+?)組(?:（([文理]+)）)?\s*(.+)?$/);
+        if (!m) return {day:'', period:'', grade:'', classNum:'', bunri:'', subject:''};
+        const clsLabel = (m[4]||'').trim();
+        const numMatch = clsLabel.match(/(\d+)/);
+        return {
+          day:      m[1],
+          period:   m[2],
+          grade:    m[3],
+          classNum: numMatch ? numMatch[1] : clsLabel,
+          bunri:    m[5] || '',
+          subject:  (m[6]||'').replace(/（合同）/g,'').replace(/\s*➔.*$/,'').trim()
+        };
+      }
 
-        let grade='', classNum='', bunri='', box1Subject='', box1Period='', box2Period='', box2Subject='';
-        if (parsed) {
-          grade       = parsed.grade;
-          classNum    = parsed.classNum;
-          bunri       = parsed.bunri;
-          box1Subject = parsed.subject;
-          box1Period  = parsed.fromPeriod;
-          box2Period  = parsePeriod(parsed.toSlot);
-        }
-        box2Subject = getOppSubject(item.oppMove || '');
+      // →toSlotからday/periodを取る
+      function parseLessonStr(str) {
+        const m = (str || '').match(
+          /^【(?:高|中)】([月火水木金土])(\d+)限(\d+)年(.+?)組(?:（([文理]+)）)?\s*(.+?)\s*➔\s*([月火水木金土]\d+限)/
+        );
+        if (!m) return null;
+        const classLabel = m[4];
+        const numMatch   = classLabel.match(/(\d+)/);
+        const toM = m[7].match(/([月火水木金土])(\d+)限/);
+        return {
+          fromDay   : m[1], fromPeriod: m[2],
+          grade     : m[3],
+          classNum  : numMatch ? numMatch[1] : classLabel,
+          bunri     : m[5] || '',
+          subject   : m[6].trim(),
+          toDay     : toM ? toM[1] : '',
+          toPeriod  : toM ? toM[2] : ''
+        };
+      }
 
+      function getOppSubject(oppMove) {
+        const m = (oppMove || '').match(/組(?:（[文理]+）)?\s*(.+?)\s*➔/);
+        return m ? m[1].trim() : '';
+      }
+
+      // バッジ（人物ラベル）HTML
+      const BADGE = 'font-size:9px;font-weight:700;background:#222;color:#fff;padding:1px 6px;border-radius:2px 2px 0 0;display:inline-block;';
+      function badge(label) {
+        return '<div style="' + BADGE + '">' + label + '</div>';
+      }
+
+      // 授業ボックス1つ分のHTML
+      function lessonBox(day, period, subject, teacher, grade, classNum, bunri) {
+        const BOX = 'border:1.5px solid #000;padding:5px 8px;margin:3px 0;';
+        const ROW = 'margin:3px 0;white-space:nowrap;font-size:12px;';
         const bunriDisp = bunri === '文' ? '<b>文</b>・理'
                         : bunri === '理' ? '文・<b>理</b>'
                         : '文・理';
-
-        const box  = 'border:1.5px solid #000;padding:5px 8px;margin:3px 0;';
-        const row  = 'margin:3px 0;white-space:nowrap;font-size:12px;';
-
-        return '<div style="border:2px solid #000;padding:8px 10px;font-size:12px;line-height:1.8;background:#fff;">'
-          + '<div style="text-align:center;font-size:14px;font-weight:bold;border-bottom:2px solid #000;padding-bottom:3px;margin-bottom:6px;letter-spacing:1px;">授業変更連絡</div>'
-          + '<div style="' + row + '">担当者・教務・担任 ' + blank('5em') + '先生</div>'
-          + '<div style="' + row + '">' + ul(grade,'2em') + '年 ' + ul(classNum,'2em') + '組 &nbsp;' + bunriDisp + '</div>'
-          + '<div style="' + box + '">'
-          +   '<div style="' + row + '">' + blank('1.5em') + '月' + blank('1.5em') + '日&nbsp;' + blank('1.5em') + '曜日&nbsp;' + ul(box1Period,'1.5em') + '時間目</div>'
-          +   '<div style="' + row + '">科目 ' + ul(box1Subject,'5em') + '&emsp;' + ul(teacher,'4em') + '先生</div>'
-          +   '<div style="' + row + '">場所 ' + blank('6em') + '</div>'
-          + '</div>'
-          + '<div style="text-align:center;font-size:20px;margin:1px 0;line-height:1;">⇅</div>'
-          + '<div style="' + box + '">'
-          +   '<div style="' + row + '">' + blank('1.5em') + '月' + blank('1.5em') + '日&nbsp;' + blank('1.5em') + '曜日&nbsp;' + ul(box2Period,'1.5em') + '時間目</div>'
-          +   '<div style="' + row + '">科目 ' + ul(box2Subject,'5em') + '&emsp;' + ul(oppTeacher,'4em') + '先生</div>'
-          +   '<div style="' + row + '">場所 ' + blank('6em') + '</div>'
-          + '</div>'
-          + '<div style="border-top:1.5px solid #000;margin-top:5px;padding-top:4px;' + row + '">氏名 ' + blank('7em') + '&emsp;&emsp;' + blank('1.5em') + '月' + blank('1.5em') + '日</div>'
-          + '</div>';
+        let dateRow = '<div style="' + ROW + '">' + blank('1.5em') + '月' + blank('1.5em') + '日&nbsp;' + ul(day,'1.5em') + '曜日&nbsp;' + ul(period,'1.5em') + '時間目</div>';
+        let subjRow = '<div style="' + ROW + '">科目 ' + ul(subject,'5em') + '&emsp;' + ul(teacher,'4em') + '先生</div>';
+        let placeRow = '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>';
+        if (grade) {
+          dateRow = '<div style="' + ROW + '">' + ul(grade,'1.5em') + '年' + ul(classNum,'1.5em') + '組 ' + bunriDisp + '　' + ul(day,'1.5em') + '曜日&nbsp;' + ul(period,'1.5em') + '時間目</div>';
+        }
+        return '<div style="' + BOX + '">' + dateRow + subjRow + placeRow + '</div>';
       }
 
-      const items = Array.from(printCart.values());
+      // ── AB交換スリップ（2枚） ─────────────────────────────
+      function makeSlipAB(item) {
+        const p = parseLessonStr(item.myMove || '');
+        const teacher    = item.originTeacher || '';
+        const oppTeacher = (item.oppNames || '').split('|')[0];
+        const ROW = 'margin:3px 0;white-space:nowrap;font-size:12px;';
+        const NOTE = 'display:inline-block;font-size:10px;font-weight:700;border:1.5px solid #000;padding:1px 5px;border-radius:3px;margin-left:5px;vertical-align:middle;';
 
-      // テーブル行を構築: 各行に垂直点線（border-right）、行間に水平点線（border-top）
-      let rows = '';
-      const VSEP = 'border-right:2px dashed #aaa;';
+        let grade='',classNum='',bunri='',sub1='',day1='',per1='',day2='',per2='',sub2='';
+        if (p) {
+          grade=p.grade; classNum=p.classNum; bunri=p.bunri;
+          sub1=p.subject; day1=p.fromDay; per1=p.fromPeriod;
+          day2=p.toDay; per2=p.toPeriod;
+        }
+        sub2 = getOppSubject(item.oppMove || '');
+        const bunriDisp = bunri==='文'?'<b>文</b>・理':bunri==='理'?'文・<b>理</b>':'文・理';
+        const BOX='border:1.5px solid #000;padding:5px 8px;margin:3px 0;';
+
+        function oneSlip() {
+          return '<div style="border:2px solid #000;padding:8px 10px;font-size:12px;line-height:1.8;background:#fff;">'
+            + '<div style="text-align:center;font-size:14px;font-weight:bold;border-bottom:2px solid #000;padding-bottom:3px;margin-bottom:6px;letter-spacing:1px;">授業変更連絡<span style="' + NOTE + '">AB交換</span></div>'
+            + '<div style="' + ROW + '">担当者・教務・担任 ' + blank('5em') + '先生</div>'
+            + '<div style="' + ROW + '">' + ul(grade,'2em') + '年 ' + ul(classNum,'2em') + '組 &nbsp;' + bunriDisp + '</div>'
+            + badge('A')
+            + '<div style="' + BOX + '">'
+            +   '<div style="' + ROW + '">' + blank('1.5em') + '月' + blank('1.5em') + '日&nbsp;' + ul(day1,'1.5em') + '曜日&nbsp;' + ul(per1,'1.5em') + '時間目</div>'
+            +   '<div style="' + ROW + '">科目 ' + ul(sub1,'5em') + '&emsp;' + ul(teacher,'4em') + '先生</div>'
+            +   '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>'
+            + '</div>'
+            + '<div style="text-align:center;font-size:20px;margin:1px 0;line-height:1;">⇅</div>'
+            + badge('B')
+            + '<div style="' + BOX + '">'
+            +   '<div style="' + ROW + '">' + blank('1.5em') + '月' + blank('1.5em') + '日&nbsp;' + ul(day2,'1.5em') + '曜日&nbsp;' + ul(per2,'1.5em') + '時間目</div>'
+            +   '<div style="' + ROW + '">科目 ' + ul(sub2,'5em') + '&emsp;' + ul(oppTeacher,'4em') + '先生</div>'
+            +   '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>'
+            + '</div>'
+            + '<div style="border-top:1.5px solid #000;margin-top:5px;padding-top:4px;' + ROW + '">氏名 ' + blank('7em') + '&emsp;&emsp;' + blank('1.5em') + '月' + blank('1.5em') + '日</div>'
+            + '</div>';
+        }
+        const slip = oneSlip();
+        return '<div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;">'
+          + '<div>' + slip + '</div><div>' + slip + '</div>'
+          + '</div>'
+          + '';
+      }
+
+      // ── ABC交換スリップ（3枚同じ） ────────────────────────
+      function makeSlip3way(item) {
+        const sw = item.swap3way;
+        if (!sw) return makeSlipAB(item);
+
+        const NOTE = 'display:inline-block;font-size:10px;font-weight:700;border:1.5px solid #000;padding:1px 5px;border-radius:3px;margin-left:5px;vertical-align:middle;';
+        const ROW  = 'margin:3px 0;white-space:nowrap;font-size:12px;';
+        const BOX  = 'border:1.5px solid #000;padding:5px 8px;margin:3px 0;';
+        const ARROW= 'text-align:center;font-size:16px;font-weight:700;color:#333;padding:1px 0;border-left:2px dashed #999;border-right:2px dashed #999;background:#f9f9f9;line-height:1.5;';
+
+        function parsedBox(boxInfo, badgeLabel) {
+          const p = parseLessonText(boxInfo.text);
+          const bunriDisp = p.bunri==='文'?'<b>文</b>・理':p.bunri==='理'?'文・<b>理</b>':'文・理';
+          const classRow = p.grade
+            ? '<div style="' + ROW + '">' + ul(p.grade,'1.5em') + '年 ' + ul(p.classNum,'1.5em') + '組 ' + bunriDisp + '</div>'
+            : '';
+          return badge(badgeLabel)
+            + '<div style="' + BOX + '">'
+            + classRow
+            +   '<div style="' + ROW + '">' + blank('1.5em') + '月' + blank('1.5em') + '日&nbsp;' + ul(p.day,'1.5em') + '曜日&nbsp;' + ul(p.period,'1.5em') + '時間目</div>'
+            +   '<div style="' + ROW + '">科目 ' + ul(p.subject,'5em') + '&emsp;' + ul(boxInfo.teacher,'4em') + '先生</div>'
+            +   '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>'
+            + '</div>';
+        }
+
+        function oneSlip() {
+          return '<div style="border:2px solid #000;padding:8px 10px;font-size:12px;line-height:1.8;background:#fff;">'
+            + '<div style="text-align:center;font-size:14px;font-weight:bold;border-bottom:2px solid #000;padding-bottom:3px;margin-bottom:6px;letter-spacing:1px;">授業変更連絡<span style="' + NOTE + '">ABC交換</span></div>'
+            + '<div style="' + ROW + '">担当者・教務・担任 ' + blank('5em') + '先生</div>'
+            + parsedBox(sw.b1, 'A')
+            + '<div style="' + ARROW + '">↓</div>'
+            + parsedBox(sw.b2, 'B')
+            + '<div style="' + ARROW + '">↓</div>'
+            + parsedBox(sw.b3, 'C')
+            + '<div style="' + ARROW + '">↓ Aに戻る</div>'
+            + '<div style="border-top:1.5px solid #000;margin-top:5px;padding-top:4px;' + ROW + '">氏名 ' + blank('7em') + '&emsp;&emsp;' + blank('1.5em') + '月' + blank('1.5em') + '日</div>'
+            + '</div>';
+        }
+        const slip = oneSlip();
+        return '<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;">'
+          + '<div>' + slip + '</div><div>' + slip + '</div><div>' + slip + '</div>'
+          + '</div>'
+          + '';
+      }
+
+      // ── ABAC交換スリップ（A先生用3枚） ───────────────────
+      function makeSlipChain(item) {
+        const sw = item.swapchain;
+        if (!sw) return makeSlipAB(item);
+
+        const NOTE = 'display:inline-block;font-size:10px;font-weight:700;border:1.5px solid #000;padding:1px 5px;border-radius:3px;margin-left:5px;vertical-align:middle;';
+        const ROW  = 'margin:3px 0;white-space:nowrap;font-size:12px;';
+        const BOX  = 'border:1.5px solid #000;padding:5px 8px;margin:3px 0;';
+        const DIV  = 'text-align:center;font-size:12px;font-weight:700;color:#000;background:#eee;border:1.5px solid #bbb;border-radius:3px;margin:7px 0 2px;padding:2px 0;letter-spacing:0.1em;';
+
+        // blockIsA: 交換①はA⇔C, 交換②はA⇔B (ABAC pattern)
+        // !blockIsA: 交換①はB⇔C, 交換②はA⇔B
+        const ex1a = sw.block;    // first box of exchange 1
+        const ex1b = sw.partner;  // second box of exchange 1
+        const ex2a = sw.me;       // first box of exchange 2
+        const ex2b = sw.mainB;    // second box of exchange 2
+
+        // badge labels
+        const badge1a = sw.blockIsA ? 'A' : 'B';  // if blockIsA, first box is also A (same person as ex2a)
+        const badge1b = 'C';
+        const badge2a = 'A';
+        const badge2b = 'B';
+
+        function parsedBox(boxInfo, badgeLabel) {
+          const p = parseLessonText(boxInfo.text);
+          const bunriDisp = p.bunri==='文'?'<b>文</b>・理':p.bunri==='理'?'文・<b>理</b>':'文・理';
+          const classRow = p.grade
+            ? '<div style="' + ROW + '">' + ul(p.grade,'1.5em') + '年 ' + ul(p.classNum,'1.5em') + '組 ' + bunriDisp + '</div>'
+            : '';
+          return badge(badgeLabel)
+            + '<div style="' + BOX + '">'
+            + classRow
+            +   '<div style="' + ROW + '">' + blank('1.5em') + '月' + blank('1.5em') + '日&nbsp;' + ul(p.day,'1.5em') + '曜日&nbsp;' + ul(p.period,'1.5em') + '時間目</div>'
+            +   '<div style="' + ROW + '">科目 ' + ul(p.subject,'5em') + '&emsp;' + ul(boxInfo.teacher,'4em') + '先生</div>'
+            +   '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>'
+            + '</div>';
+        }
+
+        function oneSlip() {
+          return '<div style="border:2px solid #000;padding:8px 10px;font-size:12px;line-height:1.8;background:#fff;">'
+            + '<div style="text-align:center;font-size:14px;font-weight:bold;border-bottom:2px solid #000;padding-bottom:3px;margin-bottom:6px;letter-spacing:1px;">授業変更連絡<span style="' + NOTE + '">ABAC交換</span></div>'
+            + '<div style="' + ROW + '">担当者・教務・担任 ' + blank('5em') + '先生</div>'
+            + '<div style="' + DIV + '">交換①</div>'
+            + parsedBox(ex1a, badge1a)
+            + '<div style="text-align:center;font-size:20px;margin:1px 0;line-height:1;">⇅</div>'
+            + parsedBox(ex1b, badge1b)
+            + '<div style="' + DIV + '">交換②</div>'
+            + parsedBox(ex2a, badge2a)
+            + '<div style="text-align:center;font-size:20px;margin:1px 0;line-height:1;">⇅</div>'
+            + parsedBox(ex2b, badge2b)
+            + '<div style="border-top:1.5px solid #000;margin-top:5px;padding-top:4px;' + ROW + '">氏名 ' + blank('7em') + '&emsp;&emsp;' + blank('1.5em') + '月' + blank('1.5em') + '日</div>'
+            + '</div>';
+        }
+        const slip = oneSlip();
+        return '<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;">'
+          + '<div>' + slip + '</div><div>' + slip + '</div><div>' + slip + '</div>'
+          + '</div>'
+          + '';
+      }
+
+      // ── 印刷ページ組み立て ────────────────────────────────
+      const items = Array.from(printCart.values());
+      let blocks = '';
       items.forEach((item, idx) => {
-        const formHtml = makeFormHtml(item);
-        const topBorder = idx > 0 ? 'border-top:2px dashed #aaa;' : '';
-        rows += '<tr>'
-          + '<td style="width:50%;padding:8px 8px 8px 0;vertical-align:top;' + VSEP + topBorder + '">' + formHtml + '</td>'
-          + '<td style="width:50%;padding:8px 0 8px 8px;vertical-align:top;' + topBorder + '">' + formHtml + '</td>'
-          + '</tr>';
+        const sep = idx > 0 ? 'border-top:2px dashed #aaa;padding-top:14px;margin-top:14px;' : '';
+        let blockHtml;
+        const pId = item.pId || '';
+        if (pId.startsWith('3way_')) {
+          blockHtml = makeSlip3way(item);
+        } else if (pId.startsWith('chain_')) {
+          blockHtml = makeSlipChain(item);
+        } else {
+          blockHtml = makeSlipAB(item);
+        }
+        blocks += '<div style="' + sep + 'page-break-inside:avoid;">' + blockHtml + '</div>';
       });
 
       const html = '<!DOCTYPE html>'
@@ -6433,12 +6607,10 @@
         + '<style>'
         + '* { box-sizing:border-box; margin:0; padding:0; }'
         + 'body { background:#fff; color:#000; margin:8mm; font-family:"Hiragino Kaku Gothic ProN","Meiryo",sans-serif; }'
-        + 'table { width:100%; border-collapse:collapse; table-layout:fixed; }'
-        + 'tr { page-break-inside:avoid; }'
         + 'b { font-weight:bold; }'
-        + '@media print { body { margin:4mm; } tr { page-break-inside:avoid; } }'
+        + '@media print { body { margin:4mm; } div { page-break-inside:avoid; } }'
         + '</style></head>'
-        + '<body><table><tbody>' + rows + '</tbody></table></body></html>';
+        + '<body>' + blocks + '</body></html>';
 
       const printWindow = window.open('', '_blank');
       printWindow.document.open();
