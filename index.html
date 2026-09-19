@@ -509,6 +509,40 @@
     const executePrintBtn = document.getElementById('executePrintBtn');
     const clearPrintCartBtn = document.getElementById('clearPrintCartBtn');
 
+    // ── 印刷回数カウンター（Google Apps Script / JSONP） ──────────────
+    const COUNTER_GAS_URL = 'https://script.google.com/macros/s/AKfycbz5X-u2jszp1z8EK7-SEVnqcgVilggncTgkm7KiYvPFbt1ZqzRiiFxjj_RoLKlfduuZ/exec';
+
+    function gasJsonp(params, onSuccess) {
+      const cbName = '_gasCb_' + Date.now();
+      window[cbName] = function(data) {
+        delete window[cbName];
+        const s = document.getElementById(cbName);
+        if (s) s.parentNode.removeChild(s);
+        console.log('[counter] response:', JSON.stringify(data));
+        onSuccess(data);
+      };
+      const s = document.createElement('script');
+      s.id = cbName;
+      s.src = COUNTER_GAS_URL + '?' + params + '&callback=' + cbName;
+      s.onerror = function() {
+        console.log('[counter] script load error');
+        delete window[cbName];
+        s.parentNode && s.parentNode.removeChild(s);
+      };
+      document.head.appendChild(s);
+    }
+
+    function fetchPrintCount() {
+      gasJsonp('action=get', function(data) {
+        const n = typeof data.value === 'number' ? data.value : null;
+        if (n !== null) {
+          _printCountText = '累計授業交換数: ' + n + '回';
+          renderUpdateInfo();
+        }
+      });
+    }
+    // fetchPrintCount() の呼び出しは renderUpdateInfo / _printCountText 定義後に行う
+
     // ===== 埋め込みサンプルCSV =====
     const EMBEDDED_TRAININGS_CSV = `teacher,day,slot,detail,day1,slot1,detail1,day2,slot2,detail2,day3,slot3,detail3,day4,slot4,detail4,day5,slot5,detail5,day6,slot6,detail6
 斎須,Mon,1-4,研修,Wed,2,運営,Thu,1,入試委員,Fri,1,入試広報,Tue,2,中高経営,,,,,,
@@ -4765,19 +4799,25 @@
       } catch(e) { /* localStorage 無効環境でも無視 */ }
     }
 
+    let _printCountText = '';
+
     function renderUpdateInfo() {
+
       const el = document.getElementById('updateInfo');
       if (!el) return;
       try {
         const date  = localStorage.getItem(LS_KEY_DATE);
         const count = localStorage.getItem(LS_KEY_COUNT);
+        let base;
         if (date && count) {
-          el.textContent = '最終更新: ' + date + '　｜　累計更新回数: ' + count + '回';
+          base = '最終更新: ' + date + '　｜　累計更新回数: ' + count + '回';
         } else {
-          el.textContent = '更新履歴なし（初回起動）';
+          base = '更新履歴なし（初回起動）';
         }
+        el.textContent = base + (_printCountText ? '　｜　' + _printCountText : '');
       } catch(e) { el.textContent = ''; }
     }
+    fetchPrintCount(); // _printCountText と renderUpdateInfo の定義後に呼び出す
 
     function switchTimetable(version) {
       currentTimetable = version;
@@ -6362,6 +6402,15 @@
         alert("印刷したい交換案のチェックボックスを選択してください。");
         return;
       }
+
+      // ── 印刷回数カウントアップ ────────────────────────────
+      gasJsonp('action=hit', function(data) {
+        const n = typeof data.value === 'number' ? data.value : null;
+        if (n !== null) {
+          _printCountText = '累計授業交換数: ' + n + '回';
+          renderUpdateInfo();
+        }
+      });
 
       // ── 共通ヘルパー ──────────────────────────────────────
       function ul(text, w) {
