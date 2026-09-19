@@ -5340,7 +5340,8 @@
           compiled1to1.push({
             pId: pId, originText: currentOriginText, myMove: myMoveTxt, oppMove: oppMoveTxt,
             teacherLabel: "（なし）", oppLessonText: "空きコマ直接振替", myLessonText: renderMyLessonText(me),
-            trainingText: "", parttimeText: "", rowClass: "self-training", oppTeachersArr: [], originTeacher: a
+            trainingText: "", parttimeText: "", rowClass: "self-training", oppTeachersArr: [], originTeacher: a,
+            selfDay: me.day, selfPeriod: me.period
           });
         }
 
@@ -5377,7 +5378,8 @@
             compiled1to1.push({
               pId: pId, originText: currentOriginText, myMove: myMoveTxt, oppMove: oppMoveTxt,
               teacherLabel: teacherLabel, oppLessonText: renderLessonTextForResult(o), myLessonText: renderMyLessonText(me),
-              trainingText: trainingText, parttimeText: parttime ? "〇" : "", rowClass: rowClass, rawOpp: o, oppTeachersArr: oppAllTeachers, originTeacher: a
+              trainingText: trainingText, parttimeText: parttime ? "〇" : "", rowClass: rowClass, rawOpp: o, oppTeachersArr: oppAllTeachers, originTeacher: a,
+              selfDay: me.day, selfPeriod: me.period
             });
           }
         });
@@ -5386,6 +5388,13 @@
       const h2a = document.createElement('h2');
       h2a.textContent = `■ 空きコマ限（${formatSlot(targetDay, targetPeriod)}）への連動交換・振替候補`;
       results1to1Div.appendChild(h2a);
+
+      function compiled1to1Category(item){
+        if (item.rowClass === 'parttime-row') return 2;
+        if (item.rowClass === 'training-conflict') return 1;
+        return 0;
+      }
+      compiled1to1.sort(function(a, b){ return compiled1to1Category(a) - compiled1to1Category(b); });
 
       if (!compiled1to1.length) {
         results1to1Div.insertAdjacentHTML("beforeend", "<p class=\"muted\">このコマに持ってこられる授業候補はありません</p>");
@@ -5412,7 +5421,7 @@
 
           const tdName = document.createElement('td');
           if (item.rawOpp) {
-            tdName.innerHTML = `<span class="teacher-name" data-teachers="${getAllTeachersForLesson(item.rawOpp).join('|')}" data-highlight-day="${item.rawOpp.day}" data-highlight-period="${item.rawOpp.period}" data-self-day="${me.day}" data-self-period="${me.period}">${item.teacherLabel}</span>`;
+            tdName.innerHTML = `<span class="teacher-name" data-teachers="${getAllTeachersForLesson(item.rawOpp).join('|')}" data-highlight-day="${item.rawOpp.day}" data-highlight-period="${item.rawOpp.period}" data-self-day="${item.selfDay || ''}" data-self-period="${item.selfPeriod || ''}">${item.teacherLabel}</span>`;
           } else {
             tdName.textContent = item.teacherLabel;
           }
@@ -5792,11 +5801,9 @@
       });
 
       function oneToOneCategory(cand){
-        if(cand.parttime) return 3;
-        if(!cand.trainingFlag){
-          return cand.joint ? 1 : 0;
-        }
-        return 2;
+        if(cand.parttime) return 2;
+        if(cand.trainingFlag) return 1;
+        return 0;
       }
 
       c1.sort(function(x,y){
