@@ -4776,9 +4776,9 @@
     }
 
     // ─── 時間割切り替え ───
-    // ===== アプリバージョン情報（version.jsonから自動取得） =====
-    let _appDate  = '読み込み中…';
-    let _appCount = '…';
+    // ===== アプリバージョン情報（GitHub APIから自動取得）=====
+    let APP_LAST_UPDATED = '取得中…';
+    let APP_UPDATE_COUNT = '…';
 
     function recordCsvLoad() { /* 旧localStorage方式・互換のため残す */ }
 
@@ -4787,20 +4787,57 @@
     function renderUpdateInfo() {
       const el = document.getElementById('updateInfo');
       if (!el) return;
-      const base = '最終更新: ' + _appDate + '　｜　累計更新回数: ' + _appCount + '回';
+      const base = '最終更新: ' + APP_LAST_UPDATED + '　｜　累計更新回数: ' + APP_UPDATE_COUNT + '回';
       el.textContent = base + (_printCountText ? '　｜　' + _printCountText : '');
     }
 
-    // version.json（GitHubが自動更新）を取得
-    fetch('version.json?_=' + Date.now())
-      .then(r => r.json())
-      .then(d => {
-        _appDate  = d.date  || '不明';
-        _appCount = d.count != null ? d.count : '不明';
-        renderUpdateInfo();
-      })
-      .catch(() => { _appDate = '不明'; _appCount = '?'; renderUpdateInfo(); });
+    // GitHub APIからdeployments数と最終アップロード日時を取得
+    async function fetchGitHubInfo() {
+      const REPO = 'tiimura6/lesson-swap';
+      const HEADERS = { 'Accept': 'application/vnd.github+json' };
+      try {
+        // ① 総deployments数: per_page=1でLink headerのlastページ番号を参照
+        const countRes = await fetch(
+          `https://api.github.com/repos/${REPO}/deployments?per_page=1`,
+          { headers: HEADERS }
+        );
+        if (countRes.ok) {
+          const link = countRes.headers.get('Link') || '';
+          const lastMatch = link.match(/[?&]page=(\d+)>;\s*rel="last"/);
+          if (lastMatch) {
+            APP_UPDATE_COUNT = parseInt(lastMatch[1], 10);
+          } else {
+            const deps = await countRes.json();
+            APP_UPDATE_COUNT = deps.length;
+          }
+        }
 
+        // ② 最新deployment日時（別リクエスト）
+        const latestRes = await fetch(
+          `https://api.github.com/repos/${REPO}/deployments?per_page=1`,
+          { headers: HEADERS }
+        );
+        if (latestRes.ok) {
+          const deps = await latestRes.json();
+          if (deps.length > 0) {
+            const d = new Date(deps[0].created_at);
+            const jst = new Date(d.getTime() + 9 * 60 * 60 * 1000);
+            APP_LAST_UPDATED =
+              jst.getUTCFullYear() + '/' +
+              String(jst.getUTCMonth() + 1).padStart(2, '0') + '/' +
+              String(jst.getUTCDate()).padStart(2, '0') + ' ' +
+              String(jst.getUTCHours()).padStart(2, '0') + ':' +
+              String(jst.getUTCMinutes()).padStart(2, '0');
+          }
+        }
+      } catch (e) {
+        APP_LAST_UPDATED = '取得失敗';
+        APP_UPDATE_COUNT = '?';
+      }
+      renderUpdateInfo();
+    }
+
+    fetchGitHubInfo();
     fetchPrintCount(); // _printCountText と renderUpdateInfo の定義後に呼び出す
 
     function switchTimetable(version) {
