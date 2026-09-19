@@ -4783,39 +4783,20 @@
     }
 
     // ─── 時間割切り替え ───
-    // ===== 更新情報（localStorage） =====
-    const LS_KEY_DATE  = 'lessonSwap_lastUpdated';
-    const LS_KEY_COUNT = 'lessonSwap_updateCount';
+    // ===== アプリバージョン情報（ハードコード） =====
+    // ★ コードを更新したときはここだけ書き換える
+    const APP_LAST_UPDATED = '2026/09/19';
+    const APP_UPDATE_COUNT = 73;
 
-    function recordCsvLoad() {
-      try {
-        const now   = new Date();
-        const pad   = n => String(n).padStart(2,'0');
-        const str   = now.getFullYear() + '/' + pad(now.getMonth()+1) + '/' + pad(now.getDate())
-                    + ' ' + pad(now.getHours()) + ':' + pad(now.getMinutes());
-        const count = (parseInt(localStorage.getItem(LS_KEY_COUNT) || '0', 10) || 0) + 1;
-        localStorage.setItem(LS_KEY_DATE,  str);
-        localStorage.setItem(LS_KEY_COUNT, String(count));
-      } catch(e) { /* localStorage 無効環境でも無視 */ }
-    }
+    function recordCsvLoad() { /* 旧localStorage方式・互換のため残す */ }
 
     let _printCountText = '';
 
     function renderUpdateInfo() {
-
       const el = document.getElementById('updateInfo');
       if (!el) return;
-      try {
-        const date  = localStorage.getItem(LS_KEY_DATE);
-        const count = localStorage.getItem(LS_KEY_COUNT);
-        let base;
-        if (date && count) {
-          base = '最終更新: ' + date + '　｜　累計更新回数: ' + count + '回';
-        } else {
-          base = '更新履歴なし（初回起動）';
-        }
-        el.textContent = base + (_printCountText ? '　｜　' + _printCountText : '');
-      } catch(e) { el.textContent = ''; }
+      const base = '最終更新: ' + APP_LAST_UPDATED + '　｜　累計更新回数: ' + APP_UPDATE_COUNT + '回';
+      el.textContent = base + (_printCountText ? '　｜　' + _printCountText : '');
     }
     fetchPrintCount(); // _printCountText と renderUpdateInfo の定義後に呼び出す
 
