@@ -509,37 +509,23 @@
     const executePrintBtn = document.getElementById('executePrintBtn');
     const clearPrintCartBtn = document.getElementById('clearPrintCartBtn');
 
-    // ── 印刷回数カウンター（Google Apps Script / JSONP） ──────────────
+    // ── 印刷回数カウンター（Google Apps Script / fetch） ──────────────
     const COUNTER_GAS_URL = 'https://script.google.com/macros/s/AKfycbz5X-u2jszp1z8EK7-SEVnqcgVilggncTgkm7KiYvPFbt1ZqzRiiFxjj_RoLKlfduuZ/exec';
-
-    function gasJsonp(params, onSuccess) {
-      const cbName = '_gasCb_' + Date.now();
-      window[cbName] = function(data) {
-        delete window[cbName];
-        const s = document.getElementById(cbName);
-        if (s) s.parentNode.removeChild(s);
-        console.log('[counter] response:', JSON.stringify(data));
-        onSuccess(data);
-      };
-      const s = document.createElement('script');
-      s.id = cbName;
-      s.src = COUNTER_GAS_URL + '?' + params + '&callback=' + cbName;
-      s.onerror = function() {
-        console.log('[counter] script load error');
-        delete window[cbName];
-        s.parentNode && s.parentNode.removeChild(s);
-      };
-      document.head.appendChild(s);
-    }
+    const COUNTER_HIT_URL = COUNTER_GAS_URL + '?action=hit';
+    const COUNTER_GET_URL = COUNTER_GAS_URL + '?action=get';
 
     function fetchPrintCount() {
-      gasJsonp('action=get', function(data) {
-        const n = typeof data.value === 'number' ? data.value : null;
-        if (n !== null) {
-          _printCountText = '累計授業交換数: ' + n + '回';
-          renderUpdateInfo();
-        }
-      });
+      fetch(COUNTER_GET_URL)
+        .then(r => r.json())
+        .then(data => {
+          console.log('[counter] response:', JSON.stringify(data));
+          const n = typeof data.value === 'number' ? data.value : null;
+          if (n !== null) {
+            _printCountText = '累計授業交換数: ' + n + '回';
+            renderUpdateInfo();
+          }
+        })
+        .catch(err => { console.log('[counter] error:', err); });
     }
     // fetchPrintCount() の呼び出しは renderUpdateInfo / _printCountText 定義後に行う
 
@@ -6385,13 +6371,16 @@
       }
 
       // ── 印刷回数カウントアップ ────────────────────────────
-      gasJsonp('action=hit', function(data) {
-        const n = typeof data.value === 'number' ? data.value : null;
-        if (n !== null) {
-          _printCountText = '累計授業交換数: ' + n + '回';
-          renderUpdateInfo();
-        }
-      });
+      fetch(COUNTER_HIT_URL)
+        .then(r => r.json())
+        .then(data => {
+          const n = typeof data.value === 'number' ? data.value : null;
+          if (n !== null) {
+            _printCountText = '累計授業交換数: ' + n + '回';
+            renderUpdateInfo();
+          }
+        })
+        .catch(() => {});
 
       // ── 共通ヘルパー ──────────────────────────────────────
       function ul(text, w) {
