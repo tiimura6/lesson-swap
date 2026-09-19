@@ -92,6 +92,16 @@
       line-height: 1.25;
       cursor: pointer;
     }
+    .tt-highlight {
+      background: #fff176 !important;
+      outline: 2px solid #f9a825;
+      border-radius: 3px;
+    }
+    .tt-highlight-self {
+      background: #b3e5fc !important;
+      outline: 2px solid #0288d1;
+      border-radius: 3px;
+    }
     .tt-lesson:hover {
       background: #e3f2fd;
       outline: 2px solid #2196f3;
@@ -5211,7 +5221,7 @@
             if (clickableEmpty) {
               html += "<td class=\"tt-empty\" data-ttday=\"" + d + "\" data-ttperiod=\"" + p + "\" title=\"この時間を目的地として交換相手を探す\"></td>";
             } else {
-              html += "<td></td>";
+              html += "<td data-ttday=\"" + d + "\" data-ttperiod=\"" + p + "\"></td>";
             }
           } else {
             let lessonHtml = "";
@@ -5227,7 +5237,7 @@
               .map(function(s){ return "<span class=\"tt-training\">" + s + "</span>"; })
               .join("<br>");
             const combined = [lessonHtml, trainingHtml].filter(Boolean).join("<br>");
-            html += "<td>" + combined + "</td>";
+            html += "<td data-ttday=\"" + d + "\" data-ttperiod=\"" + p + "\">" + combined + "</td>";
           }
         });
         html += "</tr>";
@@ -5402,7 +5412,7 @@
 
           const tdName = document.createElement('td');
           if (item.rawOpp) {
-            tdName.innerHTML = `<span class="teacher-name" data-teachers="${getAllTeachersForLesson(item.rawOpp).join('|')}">${item.teacherLabel}</span>`;
+            tdName.innerHTML = `<span class="teacher-name" data-teachers="${getAllTeachersForLesson(item.rawOpp).join('|')}" data-highlight-day="${item.rawOpp.day}" data-highlight-period="${item.rawOpp.period}" data-self-day="${me.day}" data-self-period="${me.period}">${item.teacherLabel}</span>`;
           } else {
             tdName.textContent = item.teacherLabel;
           }
@@ -5850,6 +5860,10 @@
           spanName.textContent = teacherLabel;
           spanName.className = 'teacher-name';
           spanName.dataset.teachers = (cand.teachersAll && cand.teachersAll.length) ? cand.teachersAll.join('|') : o.teacher;
+          spanName.dataset.highlightDay = o.day;
+          spanName.dataset.highlightPeriod = o.period;
+          spanName.dataset.selfDay = me.day;
+          spanName.dataset.selfPeriod = me.period;
           tdName.appendChild(spanName);
 
           const tdOther = document.createElement('td');
@@ -6154,7 +6168,7 @@
           tr.appendChild(tdCb);
 
           const tdContent = document.createElement('td');
-          tdContent.innerHTML = "<span class=\"teacher-name\" data-teachers=\"" + namesBForTT.join('|') + "\">" + labelB + "</span>";
+          tdContent.innerHTML = "<span class=\"teacher-name\" data-teachers=\"" + namesBForTT.join('|') + "\" data-highlight-day=\"" + B3.day + "\" data-highlight-period=\"" + B3.period + "\" data-self-day=\"" + A3.day + "\" data-self-period=\"" + A3.period + "\">" + labelB + "</span>";
           tr.appendChild(tdContent);
 
           const tdLessonB = document.createElement('td');
@@ -6162,7 +6176,7 @@
           tr.appendChild(tdLessonB);
 
           const tdNameC = document.createElement('td');
-          tdNameC.innerHTML = "<span class=\"teacher-name\" data-teachers=\"" + namesCForTT.join('|') + "\">" + labelC + "</span>";
+          tdNameC.innerHTML = "<span class=\"teacher-name\" data-teachers=\"" + namesCForTT.join('|') + "\" data-highlight-day=\"" + C3.day + "\" data-highlight-period=\"" + C3.period + "\" data-self-day=\"" + A3.day + "\" data-self-period=\"" + A3.period + "\">" + labelC + "</span>";
           tr.appendChild(tdNameC);
 
           const tdLessonC = document.createElement('td');
@@ -6707,6 +6721,18 @@
       const html = buildTeacherTimetableHTML(names);
       timetableTooltip.innerHTML = html;
       timetableTooltip.classList.remove('hidden');
+      const hlDay = span.dataset.highlightDay;
+      const hlPeriod = span.dataset.highlightPeriod;
+      if (hlDay && hlPeriod) {
+        const cell = timetableTooltip.querySelector('td[data-ttday="' + hlDay + '"][data-ttperiod="' + hlPeriod + '"]');
+        if (cell) cell.classList.add('tt-highlight');
+      }
+      const selfDay = span.dataset.selfDay;
+      const selfPeriod = span.dataset.selfPeriod;
+      if (selfDay && selfPeriod) {
+        const selfCell = timetableTooltip.querySelector('td[data-ttday="' + selfDay + '"][data-ttperiod="' + selfPeriod + '"]');
+        if (selfCell) selfCell.classList.add('tt-highlight-self');
+      }
     });
 
     document.addEventListener('mouseout', (e) => {
@@ -6737,6 +6763,18 @@
       const html = buildTeacherTimetableHTML(names);
       timetableTooltip.innerHTML = html;
       timetableTooltip.classList.remove('hidden');
+      const hlDay2 = span.dataset.highlightDay;
+      const hlPeriod2 = span.dataset.highlightPeriod;
+      if (hlDay2 && hlPeriod2) {
+        const cell2 = timetableTooltip.querySelector('td[data-ttday="' + hlDay2 + '"][data-ttperiod="' + hlPeriod2 + '"]');
+        if (cell2) cell2.classList.add('tt-highlight');
+      }
+      const selfDay2 = span.dataset.selfDay;
+      const selfPeriod2 = span.dataset.selfPeriod;
+      if (selfDay2 && selfPeriod2) {
+        const selfCell2 = timetableTooltip.querySelector('td[data-ttday="' + selfDay2 + '"][data-ttperiod="' + selfPeriod2 + '"]');
+        if (selfCell2) selfCell2.classList.add('tt-highlight-self');
+      }
     });
 
     // ===== 起動時 =====
