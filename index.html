@@ -397,26 +397,28 @@
 
   <hr class="hr" />
 
-  <button id="toggleTimetableBtn" type="button" class="btn" aria-controls="timetablePanel" aria-expanded="false">
-    時間割を切り替え
-  </button>
+  <div style="display:flex;flex-direction:column;gap:6px;align-items:flex-start;">
+    <button id="toggleTimetableBtn" type="button" class="btn" aria-controls="timetablePanel" aria-expanded="false">
+      時間割を切り替え
+    </button>
 
-  <div id="timetablePanel" class="hidden" style="padding:10px 14px;background:#f0f4ff;border:1px solid #b0c4ef;border-radius:6px;margin-bottom:8px;">
-    <div style="display:flex;align-items:center;gap:16px;font-size:0.95rem;flex-wrap:wrap;">
-      <strong>時間割：</strong>
-      <label style="cursor:pointer;display:flex;align-items:center;gap:5px;">
-        <input type="radio" name="timetableVersion" value="old" id="ttOld"> 旧時間割
-      </label>
-      <label style="cursor:pointer;display:flex;align-items:center;gap:5px;">
-        <input type="radio" name="timetableVersion" value="new" id="ttNew" checked> 新時間割
-      </label>
-      <span id="timetableVersionLabel" style="margin-left:auto;font-size:0.85em;color:#555;">現在: 新時間割</span>
+    <div id="timetablePanel" class="hidden" style="padding:10px 14px;background:#f0f4ff;border:1px solid #b0c4ef;border-radius:6px;margin-bottom:4px;width:100%;box-sizing:border-box;">
+      <div style="display:flex;align-items:center;gap:16px;font-size:0.95rem;flex-wrap:wrap;">
+        <strong>時間割：</strong>
+        <label style="cursor:pointer;display:flex;align-items:center;gap:5px;">
+          <input type="radio" name="timetableVersion" value="old" id="ttOld"> 旧時間割
+        </label>
+        <label style="cursor:pointer;display:flex;align-items:center;gap:5px;">
+          <input type="radio" name="timetableVersion" value="new" id="ttNew" checked> 新時間割
+        </label>
+        <span id="timetableVersionLabel" style="margin-left:auto;font-size:0.85em;color:#555;">現在: 新時間割</span>
+      </div>
     </div>
-  </div>
 
-  <button id="toggleCsvBtn" type="button" class="btn" aria-controls="csvPanel" aria-expanded="false">
-    CSV設定を表示
-  </button>
+    <button id="toggleCsvBtn" type="button" class="btn" aria-controls="csvPanel" aria-expanded="false">
+      管理者用
+    </button>
+  </div>
 
   <div id="csvPanel" class="hidden">
     <p class="notice"><strong>アップロードで上書き可能</strong></p>
@@ -426,30 +428,35 @@
       研修CSVを読み込む:<br>
       <input type="file" id="fileTrainings" accept=".csv" />
     </label>
+    <p class="muted" style="font-size:0.82em;margin-top:4px;">列名: <code>teacher, day, slot, detail, day1, slot1, detail1, day2, slot2, detail2 …</code></p>
 
     <p><strong>② 高校CSV（旧）</strong></p>
     <label>高校の授業CSVを読み込む（旧時間割）:
       <input type="file" id="fileLessonsHS" accept=".csv" />
       <br><span class="muted">読み込み時に旧・高校データを更新</span>
     </label>
+    <p class="muted" style="font-size:0.82em;margin-top:4px;">列名: <code>teacher, grade, class, course, day, period, subject, group</code></p>
 
     <p><strong>③ 中学CSV（旧）</strong></p>
     <label>中学の授業CSVを読み込む（旧時間割）:
       <input type="file" id="fileLessonsJH" accept=".csv" />
       <br><span class="muted">読み込み時に旧・中学データを更新</span>
     </label>
+    <p class="muted" style="font-size:0.82em;margin-top:4px;">列名: <code>teacher, grade, class, course, day, period, subject, group</code></p>
 
     <p><strong>④ 高校CSV（新）</strong></p>
     <label>高校の授業CSVを読み込む（新時間割）:
       <input type="file" id="fileLessonsHS_new" accept=".csv" />
       <br><span class="muted">読み込むと「新時間割」へ自動切り替え</span>
     </label>
+    <p class="muted" style="font-size:0.82em;margin-top:4px;">列名: <code>teacher, grade, class, course, day, period, subject, group</code></p>
 
     <p><strong>⑤ 中学CSV（新）</strong></p>
     <label>中学の授業CSVを読み込む（新時間割）:
       <input type="file" id="fileLessonsJH_new" accept=".csv" />
       <br><span class="muted">読み込むと「新時間割」へ自動切り替え</span>
     </label>
+    <p class="muted" style="font-size:0.82em;margin-top:4px;">列名: <code>teacher, grade, class, course, day, period, subject, group</code></p>
   </div>
 
   <div id="teacherTimetableTooltip" class="hidden"></div>
@@ -477,7 +484,7 @@
     toggleCsvBtn.addEventListener('click', () => {
       const nowHidden = csvPanel.classList.toggle('hidden');
       toggleCsvBtn.setAttribute('aria-expanded', String(!nowHidden));
-      toggleCsvBtn.textContent = nowHidden ? 'CSV設定を表示' : 'CSV設定を非表示';
+      toggleCsvBtn.textContent = nowHidden ? '管理者用' : '管理者用（閉じる）';
     });
 
     // ===== クラス別時間割トグル =====
@@ -4769,10 +4776,9 @@
     }
 
     // ─── 時間割切り替え ───
-    // ===== アプリバージョン情報（ハードコード） =====
-    // ★ コードを更新したときはここだけ書き換える
-    const APP_LAST_UPDATED = '2026/09/19';
-    const APP_UPDATE_COUNT = 73;
+    // ===== アプリバージョン情報（version.jsonから自動取得） =====
+    let _appDate  = '読み込み中…';
+    let _appCount = '…';
 
     function recordCsvLoad() { /* 旧localStorage方式・互換のため残す */ }
 
@@ -4781,9 +4787,20 @@
     function renderUpdateInfo() {
       const el = document.getElementById('updateInfo');
       if (!el) return;
-      const base = '最終更新: ' + APP_LAST_UPDATED + '　｜　累計更新回数: ' + APP_UPDATE_COUNT + '回';
+      const base = '最終更新: ' + _appDate + '　｜　累計更新回数: ' + _appCount + '回';
       el.textContent = base + (_printCountText ? '　｜　' + _printCountText : '');
     }
+
+    // version.json（GitHubが自動更新）を取得
+    fetch('version.json?_=' + Date.now())
+      .then(r => r.json())
+      .then(d => {
+        _appDate  = d.date  || '不明';
+        _appCount = d.count != null ? d.count : '不明';
+        renderUpdateInfo();
+      })
+      .catch(() => { _appDate = '不明'; _appCount = '?'; renderUpdateInfo(); });
+
     fetchPrintCount(); // _printCountText と renderUpdateInfo の定義後に呼び出す
 
     function switchTimetable(version) {
