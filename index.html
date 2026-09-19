@@ -6498,7 +6498,7 @@
         const bunriDisp = bunri === '文' ? '<b>文</b>・理'
                         : bunri === '理' ? '文・<b>理</b>'
                         : '文・理';
-        let dateRow = '<div style="' + ROW + '">' + blank('1.5em') + '月' + blank('1.5em') + '日&nbsp;' + ul(day,'1.5em') + '曜日&nbsp;' + ul(period,'1.5em') + '時間目</div>';
+        let dateRow = '<div style="' + ROW + '">' + blank('5em') + '月' + blank('5em') + '日&nbsp;' + ul(day,'1.5em') + '曜日&nbsp;' + ul(period,'1.5em') + '時間目</div>';
         let subjRow = '<div style="' + ROW + '">科目 ' + ul(subject,'5em') + '&emsp;' + ul(teacher,'4em') + '先生</div>';
         let placeRow = '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>';
         if (grade) {
@@ -6532,18 +6532,18 @@
             + '<div style="' + ROW + '">' + ul(grade,'2em') + '年 ' + ul(classNum,'2em') + '組 &nbsp;' + bunriDisp + '</div>'
             + badge('A')
             + '<div style="' + BOX + '">'
-            +   '<div style="' + ROW + '">' + blank('1.5em') + '月' + blank('1.5em') + '日&nbsp;' + ul(day1,'1.5em') + '曜日&nbsp;' + ul(per1,'1.5em') + '時間目</div>'
+            +   '<div style="' + ROW + '">' + blank('5em') + '月' + blank('5em') + '日&nbsp;' + ul(day1,'1.5em') + '曜日&nbsp;' + ul(per1,'1.5em') + '時間目</div>'
             +   '<div style="' + ROW + '">科目 ' + ul(sub1,'5em') + '&emsp;' + ul(teacher,'4em') + '先生</div>'
             +   '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>'
             + '</div>'
             + '<div style="text-align:center;font-size:20px;margin:1px 0;line-height:1;">⇅</div>'
             + badge('B')
             + '<div style="' + BOX + '">'
-            +   '<div style="' + ROW + '">' + blank('1.5em') + '月' + blank('1.5em') + '日&nbsp;' + ul(day2,'1.5em') + '曜日&nbsp;' + ul(per2,'1.5em') + '時間目</div>'
+            +   '<div style="' + ROW + '">' + blank('5em') + '月' + blank('5em') + '日&nbsp;' + ul(day2,'1.5em') + '曜日&nbsp;' + ul(per2,'1.5em') + '時間目</div>'
             +   '<div style="' + ROW + '">科目 ' + ul(sub2,'5em') + '&emsp;' + ul(oppTeacher,'4em') + '先生</div>'
             +   '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>'
             + '</div>'
-            + '<div style="border-top:1.5px solid #000;margin-top:5px;padding-top:4px;' + ROW + '">氏名 ' + blank('7em') + '&emsp;&emsp;' + blank('1.5em') + '月' + blank('1.5em') + '日</div>'
+            + '<div style="border-top:1.5px solid #000;margin-top:5px;padding-top:4px;' + ROW + '">氏名 ' + blank('7em') + '&emsp;&emsp;' + blank('5em') + '月' + blank('5em') + '日</div>'
             + '</div>';
         }
         const slip = oneSlip();
@@ -6572,7 +6572,7 @@
           return badge(badgeLabel)
             + '<div style="' + BOX + '">'
             + classRow
-            +   '<div style="' + ROW + '">' + blank('1.5em') + '月' + blank('1.5em') + '日&nbsp;' + ul(p.day,'1.5em') + '曜日&nbsp;' + ul(p.period,'1.5em') + '時間目</div>'
+            +   '<div style="' + ROW + '">' + blank('5em') + '月' + blank('5em') + '日&nbsp;' + ul(p.day,'1.5em') + '曜日&nbsp;' + ul(p.period,'1.5em') + '時間目</div>'
             +   '<div style="' + ROW + '">科目 ' + ul(p.subject,'5em') + '&emsp;' + ul(boxInfo.teacher,'4em') + '先生</div>'
             +   '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>'
             + '</div>';
@@ -6588,7 +6588,7 @@
             + '<div style="' + ARROW + '">↓</div>'
             + parsedBox(sw.b3, 'C')
             + '<div style="' + ARROW + '">↓ Aに戻る</div>'
-            + '<div style="border-top:1.5px solid #000;margin-top:5px;padding-top:4px;' + ROW + '">氏名 ' + blank('7em') + '&emsp;&emsp;' + blank('1.5em') + '月' + blank('1.5em') + '日</div>'
+            + '<div style="border-top:1.5px solid #000;margin-top:5px;padding-top:4px;' + ROW + '">氏名 ' + blank('7em') + '&emsp;&emsp;' + blank('5em') + '月' + blank('5em') + '日</div>'
             + '</div>';
         }
         const slip = oneSlip();
@@ -6630,7 +6630,7 @@
           return badge(badgeLabel)
             + '<div style="' + BOX + '">'
             + classRow
-            +   '<div style="' + ROW + '">' + blank('1.5em') + '月' + blank('1.5em') + '日&nbsp;' + ul(p.day,'1.5em') + '曜日&nbsp;' + ul(p.period,'1.5em') + '時間目</div>'
+            +   '<div style="' + ROW + '">' + blank('5em') + '月' + blank('5em') + '日&nbsp;' + ul(p.day,'1.5em') + '曜日&nbsp;' + ul(p.period,'1.5em') + '時間目</div>'
             +   '<div style="' + ROW + '">科目 ' + ul(p.subject,'5em') + '&emsp;' + ul(boxInfo.teacher,'4em') + '先生</div>'
             +   '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>'
             + '</div>';
@@ -6648,7 +6648,7 @@
             + parsedBox(ex2a, badge2a)
             + '<div style="text-align:center;font-size:20px;margin:1px 0;line-height:1;">⇅</div>'
             + parsedBox(ex2b, badge2b)
-            + '<div style="border-top:1.5px solid #000;margin-top:5px;padding-top:4px;' + ROW + '">氏名 ' + blank('7em') + '&emsp;&emsp;' + blank('1.5em') + '月' + blank('1.5em') + '日</div>'
+            + '<div style="border-top:1.5px solid #000;margin-top:5px;padding-top:4px;' + ROW + '">氏名 ' + blank('7em') + '&emsp;&emsp;' + blank('5em') + '月' + blank('5em') + '日</div>'
             + '</div>';
         }
         const slip = oneSlip();
