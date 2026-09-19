@@ -14,19 +14,18 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Update date and increment counter
+      - name: Update version.json
         run: |
           TODAY=$(TZ=Asia/Tokyo date '+%Y/%m/%d')
-          CURRENT=$(grep -oP "(?<=APP_UPDATE_COUNT = )\d+" index.html)
+          CURRENT=$(python3 -c "import json; d=json.load(open('version.json')); print(d['count'])")
           NEW_COUNT=$((CURRENT + 1))
-          sed -i "s|APP_LAST_UPDATED = '[^']*'|APP_LAST_UPDATED = '${TODAY}'|" index.html
-          sed -i "s|APP_UPDATE_COUNT = [0-9]*|APP_UPDATE_COUNT = ${NEW_COUNT}|" index.html
+          echo "{\"date\":\"${TODAY}\",\"count\":${NEW_COUNT}}" > version.json
           echo "Updated: ${TODAY}, count: ${NEW_COUNT}"
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.html
-          git diff --staged --quiet || git commit -m "auto: update version info [skip ci]"
+          git add version.json
+          git diff --staged --quiet || git commit -m "auto: update version [skip ci]"
           git push
