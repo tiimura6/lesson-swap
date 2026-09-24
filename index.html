@@ -32,6 +32,12 @@
     .search-input { width: 160px; }
 
     .info-warning { color: #e65100; font-weight: 700; }
+    .no-cand-panel { border: 2px solid #f9a825; background: #fffde7; border-radius: 6px; padding: 8px 14px; margin: 10px 0 16px; max-width: 1200px; }
+    .no-cand-panel h2 { margin-top: 0.4rem; }
+    .no-cand-panel ul { margin: 0.4rem 0 0.6rem 1.2rem; padding: 0; }
+    .no-cand-panel li { margin: 3px 0; font-size: 0.92rem; }
+    .no-cand-panel details summary { cursor: pointer; color: #1565c0; font-size: 0.9rem; margin: 4px 0; }
+    .no-cand-panel table { background: #fff; }
 
     /* 教員名ホバー用 */
     .teacher-name { cursor: pointer; text-decoration: underline; text-decoration-style: dotted; }
@@ -5668,6 +5674,7 @@
 
       if (!compiled1to1.length) {
         results1to1Div.insertAdjacentHTML("beforeend", "<p class=\"muted\">このコマに持ってこられる授業候補はありません</p>");
+        results1to1Div.insertAdjacentHTML("beforeend", buildNoCandidateReasonHtmlForSlot(targetDay, targetPeriod, myLessons));
       } else {
         const tbl = document.createElement('table');
         tbl.innerHTML = "<thead><tr><th class=\"print-checkbox-col\">印刷</th><th>交換相手</th><th>相手の授業（現在このコマにある授業）</th><th>あなたの授業</th><th class=\"nowrap\">予定</th><th class=\"nowrap\">非常勤</th></tr></thead>";
@@ -7123,8 +7130,196 @@
         results3wayDiv.appendChild(tblSpec);
       }
 
+      // 候補が1件もないときは理由を表示
+      const totalCands = results1to1Div.querySelectorAll('.print-row-cb').length + results3wayDiv.querySelectorAll('.print-row-cb').length;
+      if (!totalCands) {
+        results1to1Div.insertAdjacentHTML('afterbegin', buildNoCandidateReasonHtml(me, namesSelf, poolBase));
+      }
+
       syncCheckboxesState();
     });
+
+    // ===== 候補が0件のときの理由診断 =====
+    // あるコマ(d,p)と自分の授業meを入れ替えられない理由（候補0件の理由表示で共通使用）
+    function slotSwapReasons(me, d, p, teamA, myRows, myGroups){
+      const groupLabel = k => { const x = k.split('|'); return x[1] + "年" + x[2] + "組" + (x[3] || ""); };
+      const mySlot = formatSlot(me.day, me.period);
+      const mySubjects = new Set(myRows.map(r => (r.subject || "").trim()));
+      const atS = getLessonsAtSlot(d, p);
+      const flags = { comp: false, self: false, opp: false, same: false, other: false };
+      const reasons = [];
+
+      const tgt = atS.filter(r => myRows.some(m => groupMatchRows(m, r)));
+      const tgtTeachers = Array.from(new Set(tgt.map(r => r.teacher)));
+
+      const units = new Map();
+      tgt.forEach(r => {
+        const tl = getAllTeachersForLesson(r).join('・');
+        const k = (r.subject || "") + "|" + tl;
+        if (!units.has(k)) units.set(k, { subject: r.subject, teachers: getAllTeachersForLesson(r), groups: new Set() });
+        atS.filter(x => x.school === r.school && (x.subject || "") === (r.subject || "") && getAllTeachersForLesson(x).join('・') === tl)
+          .forEach(x => units.get(k).groups.add(lessonGroupKey(x)));
+      });
+      const unitList = Array.from(units.values());
+      const lessonTxt = unitList.map(u => escapeHtmlAttr((u.subject || "") + "（" + u.teachers.join('・') + "）")).join("<br>") || "—";
+
+      const isSame = tgtTeachers.length && tgtTeachers.every(t => teamA.indexOf(t) !== -1) && tgt.every(r => mySubjects.has((r.subject || "").trim()));
+      if (isSame) {
+        flags.same = true;
+        reasons.push("同じ授業の別コマ（入れ替えても変わらない）");
+        return { lessonTxt, reasons, flags };
+      }
+      if (!tgt.length) {
+        reasons.push("このクラスはこのコマに授業がない");
+      }
+      // ① 生徒の組み合わせ（1対1交換は同じ生徒集団で受ける授業どうしでしか成立しない）
+      const sameComp = unitList.some(u => u.groups.size === myGroups.size && Array.from(myGroups).every(g => u.groups.has(g)));
+      if (tgt.length && !sameComp) {
+        flags.comp = true;
+        const desc = unitList.map(u => (u.subject || "") + "＝" + Array.from(u.groups).sort().map(groupLabel).join("＋")).join("／");
+        reasons.push("受けている生徒の組み合わせが違う（" + escapeHtmlAttr(desc) + "）");
+      }
+      // ② 自分側の先生がそのコマで別の授業
+      const selfBusy = teamA.filter(t => tgtTeachers.indexOf(t) === -1 && teacherHasSlot(t, d, p));
+      if (selfBusy.length) {
+        flags.self = true;
+        const what = selfBusy.map(t => {
+          const l = atS.find(x => x.teacher === t);
+          return t + (l ? "：" + l.grade + "年" + l.class + "組" + (l.course || "") + " " + (l.subject || "") : "");
+        });
+        reasons.push("自分側が授業中（" + escapeHtmlAttr(what.join("、")) + "）");
+      }
+      // ②' 自分側の先生にそのコマで研修・会議
+      // ③ 相手の先生が元のコマで別の授業
+      const oppBusy = tgtTeachers.filter(t => teamA.indexOf(t) === -1 && teacherHasSlot(t, me.day, me.period));
+      if (oppBusy.length) {
+        flags.opp = true;
+        reasons.push("相手が" + mySlot + "に授業中（" + escapeHtmlAttr(oppBusy.join("・")) + "）");
+      }
+      // ④ 合同授業の一括交換で除外された理由
+      if (countLessonGroups(me) > 1) {
+        const g = computeGroupSwap(me, d, p);
+        if (g && !g.ok && g.reason) {
+          const rs = g.reason === "対象外のクラス・コースを含む" ? "他のクラス・コースの授業まで一緒に動いてしまう" : g.reason;
+          reasons.push("一括交換不可：" + escapeHtmlAttr(rs));
+        }
+      }
+      if (!reasons.length) { flags.other = true; reasons.push("その他の条件で除外"); }
+      const selfEv = teamA.filter(t => hasAnyEvent(t, d, p)).map(t => t + "：" + getTrainingDetailLabel(t, d, p));
+      if (selfEv.length) reasons.push('<span class="muted">参考：自分側に予定あり（' + escapeHtmlAttr(selfEv.join("、")) + '）</span>');
+      return { lessonTxt, reasons, flags };
+    }
+
+    // 空きコマ起点検索で候補が0件のときの理由
+    function buildNoCandidateReasonHtmlForSlot(targetDay, targetPeriod, myLessons){
+      const slotTxt = formatSlot(targetDay, targetPeriod);
+      const selfNames = getSelfNamesSelected();
+      const rows = [];
+      const counts = { noslot: 0, comp: 0, self: 0, opp: 0, same: 0, other: 0 };
+      myLessons.forEach(me => {
+        const myRows = getUnitLessons(me);
+        if (!myRows.length) return;
+        const teamA = Array.from(new Set(selfNames.concat(getTeamTeachersForUnit(myRows)))).filter(Boolean);
+        const myGroups = new Set(myRows.map(lessonGroupKey));
+        const atS = getLessonsAtSlot(targetDay, targetPeriod);
+        const exists = myRows.every(m => atS.some(r => r.school === m.school && r.grade === m.grade && r.class === m.class));
+        let lessonTxt = "—", reasons;
+        if (!exists) {
+          counts.noslot++;
+          reasons = ["このクラスには" + slotTxt + "の授業枠がない（7限なし・礼拝など）"];
+        } else {
+          const sr = slotSwapReasons(me, targetDay, targetPeriod, teamA, myRows, myGroups);
+          lessonTxt = sr.lessonTxt;
+          reasons = sr.reasons;
+          Object.keys(sr.flags).forEach(k => { if (sr.flags[k]) counts[k]++; });
+          // 空きコマへの直接移動ができない理由
+          const judge = canMoveMyLessonToSlot(me, targetDay, targetPeriod);
+          if (!judge.ok && judge.reason && judge.reason.indexOf("交換が必要") === -1 && judge.reason.indexOf("時限が存在しない") === -1 && judge.reason.indexOf("授業で埋まっている") === -1) {
+            reasons.push("直接移動不可：" + escapeHtmlAttr(judge.reason));
+          }
+        }
+        rows.push("<tr><td>" + stripHtmlTags(renderMyLessonText(me)) + "</td><td>" + lessonTxt + "</td><td>" + reasons.join("<br>") + "</td></tr>");
+      });
+      const cnt = [];
+      if (counts.noslot) cnt.push("授業枠がない " + counts.noslot + "件");
+      if (counts.comp)   cnt.push("生徒の組み合わせが違う " + counts.comp + "件");
+      if (counts.self)   cnt.push("自分側が授業中 " + counts.self + "件");
+      if (counts.opp)    cnt.push("相手が元のコマで授業中 " + counts.opp + "件");
+      if (counts.same)   cnt.push("同じ授業の別コマ " + counts.same + "件");
+      if (counts.other)  cnt.push("その他 " + counts.other + "件");
+      return '<div class="no-cand-panel">'
+        + '<h2>■ ' + slotTxt + 'に持ってこられる授業がない理由</h2>'
+        + '<ul>'
+        + (counts.noslot && counts.noslot === rows.length
+            ? '<li><b>' + slotTxt + 'は、あなたが担当するどのクラスにも授業枠がありません</b>（礼拝・全校行事・7限なし等の時間）。この時間へは授業を移せません。</li>'
+            : '')
+        + '<li>あなたの授業 ' + myLessons.length + '件それぞれについて、' + slotTxt + 'へ移せない理由を調べました。</li>'
+        + '<li>内訳（重複あり）：' + cnt.join("／") + '</li></ul>'
+        + '<details><summary>授業ごとの理由を表示</summary>'
+        + '<table><thead><tr><th>あなたの授業</th><th>このクラスが' + slotTxt + 'に受けている授業</th><th>移せない理由</th></tr></thead><tbody>'
+        + rows.join("") + '</tbody></table></details>'
+        + '</div>';
+    }
+
+    function buildNoCandidateReasonHtml(me, namesSelf, poolBase){
+      const myRows = getUnitLessons(me);
+      if (!myRows.length) return "";
+      const teamA = Array.from(new Set((namesSelf || []).concat(getTeamTeachersForUnit(myRows)))).filter(Boolean);
+      const groupLabel = k => { const x = k.split('|'); return x[1] + "年" + x[2] + "組" + (x[3] || ""); };
+      const myGroups = new Set(myRows.map(lessonGroupKey));
+      const myGroupsLabel = Array.from(myGroups).map(groupLabel).join("＋");
+      const mySlot = formatSlot(me.day, me.period);
+      const mySubjects = new Set(myRows.map(r => (r.subject || "").trim()));
+
+      const counts = { comp: 0, self: 0, opp: 0, same: 0, other: 0 };
+      const rowsHtml = [];
+      let slotCount = 0;
+
+      DAYS_FOR_TT.forEach(d => {
+        PERIODS_FOR_TT.forEach(p => {
+          if (d === me.day && p === me.period) return;
+          const atS = getLessonsAtSlot(d, p);
+          // 関係する全学級にこのコマの授業枠があるか（無いコマ＝7限なし等は対象外）
+          const exists = myRows.every(m => atS.some(r => r.school === m.school && r.grade === m.grade && r.class === m.class));
+          if (!exists) return;
+          slotCount++;
+
+          const sr = slotSwapReasons(me, d, p, teamA, myRows, myGroups);
+          const lessonTxt = sr.lessonTxt;
+          const reasons = sr.reasons;
+          Object.keys(sr.flags).forEach(k => { if (sr.flags[k]) counts[k]++; });
+          rowsHtml.push("<tr><td class=\"nowrap\">" + formatSlot(d, p) + "</td><td>" + lessonTxt + "</td><td>" + reasons.join("<br>") + "</td></tr>");
+        });
+      });
+
+      // 全体の要約
+      const summary = [];
+      if (myGroups.size > 1) {
+        summary.push("この授業は <b>" + escapeHtmlAttr(myGroupsLabel) + "</b> の合同授業です（担当：" + escapeHtmlAttr(teamA.join('・')) + "）。1対1交換（A⇔B）は、同じ生徒の組み合わせで受ける別の授業とだけ成立します。");
+      }
+      if (!poolBase || !poolBase.length) {
+        summary.push("同じ生徒の組み合わせで受ける他の先生の授業が<b>1つもありません</b>。このため A⇔B・A⇔B⇔C・A⇔B・A⇔C の候補は構造的に作れません。");
+      }
+      const pt = teamA.filter(isParttimeTeacher);
+      if (pt.length) {
+        summary.push("非常勤の先生（" + escapeHtmlAttr(pt.join('・')) + "）が含まれるため、A⇔B⇔C／A⇔B・A⇔C の候補からは除外されます。");
+      }
+      const cnt = [];
+      if (counts.comp)  cnt.push("生徒の組み合わせが違う " + counts.comp + "コマ");
+      if (counts.self)  cnt.push("自分側が授業中 " + counts.self + "コマ");
+      if (counts.opp)   cnt.push("相手が" + mySlot + "に授業中 " + counts.opp + "コマ");
+      if (counts.same)  cnt.push("同じ授業の別コマ " + counts.same + "コマ");
+      if (counts.other) cnt.push("その他 " + counts.other + "コマ");
+      summary.push("交換先になりうる " + slotCount + "コマの内訳（重複あり）：" + cnt.join("／"));
+
+      return '<div class="no-cand-panel">'
+        + '<h2>■ 候補が見つからない理由</h2>'
+        + '<ul>' + summary.map(x => "<li>" + x + "</li>").join("") + '</ul>'
+        + '<details><summary>コマごとの理由を表示</summary>'
+        + '<table><thead><tr><th class="nowrap">コマ</th><th>このクラスがそのコマで受けている授業</th><th>交換できない理由</th></tr></thead><tbody>'
+        + rowsHtml.join("") + '</tbody></table></details>'
+        + '</div>';
+    }
 
     // カートデータ内のチェンジイベントハンドラ定義の一元化
     function bindTableCheckboxes(container) {
