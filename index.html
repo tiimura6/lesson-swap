@@ -112,6 +112,29 @@
       line-height: 1.25;
     }
 
+    /* 授業コマ（セル全体）をクリックできる見た目 */
+    .tt-lesson-cell {
+      cursor: pointer;
+    }
+    .tt-lesson-cell:hover {
+      outline: 2px solid #2196f3;
+      outline-offset: -2px;
+      background: #e3f2fd;
+    }
+    .tt-lesson-cell .tt-lesson:hover {
+      background: transparent;
+      outline: none;
+    }
+    .tt-lesson-cell.tt-multi .tt-lesson:hover {
+      background: #bbdefb;
+      outline: 1px solid #1976d2;
+    }
+    .tt-lesson-cell.tt-selected {
+      outline: 3px solid #1565c0;
+      outline-offset: -3px;
+      background: #bbdefb;
+    }
+
     /* 空きコマクリックできる見た目 */
     .tt-empty {
       cursor: pointer;
@@ -5237,7 +5260,13 @@
               .map(function(s){ return "<span class=\"tt-training\">" + s + "</span>"; })
               .join("<br>");
             const combined = [lessonHtml, trainingHtml].filter(Boolean).join("<br>");
-            html += "<td data-ttday=\"" + d + "\" data-ttperiod=\"" + p + "\">" + combined + "</td>";
+            const uniqKeys = Array.from(new Set(lessonLines.map(function(obj){ return obj.unitKey; })));
+            if (clickableEmpty && uniqKeys.length) {
+              const cls = "tt-lesson-cell" + (uniqKeys.length > 1 ? " tt-multi" : "");
+              html += "<td class=\"" + cls + "\" data-unit-key=\"" + uniqKeys[0] + "\" data-ttday=\"" + d + "\" data-ttperiod=\"" + p + "\" title=\"クリックでこの授業の交換先を探す\">" + combined + "</td>";
+            } else {
+              html += "<td data-ttday=\"" + d + "\" data-ttperiod=\"" + p + "\">" + combined + "</td>";
+            }
           }
         });
         html += "</tr>";
@@ -5262,11 +5291,13 @@
     }
 
     function bindTimetableClicks(){
-      const lessonsSpans = teacherATimetableContainer.querySelectorAll('.tt-lesson[data-unit-key]');
-      lessonsSpans.forEach(span => {
-        span.addEventListener('click', (e) => {
-          e.stopPropagation();
-          const uKey = span.getAttribute('data-unit-key');
+      // 授業のあるコマはセル全体をクリック可能にする
+      // （1コマに別々の授業が複数ある場合は、クリックした授業名を優先、余白なら先頭の授業）
+      const lessonCells = teacherATimetableContainer.querySelectorAll('td.tt-lesson-cell[data-unit-key]');
+      lessonCells.forEach(cell => {
+        cell.addEventListener('click', (e) => {
+          const span = e.target.closest('.tt-lesson[data-unit-key]');
+          const uKey = (span && cell.contains(span)) ? span.getAttribute('data-unit-key') : cell.getAttribute('data-unit-key');
           if (uKey) selectLessonByUnitKey(uKey);
         });
       });
@@ -5348,6 +5379,9 @@
           const oppAllTeachers = getAllTeachersForLesson(o);
           const otherFree = !oppAllTeachers.some(t => teacherHasSlot(t, myDay, myPeriod));
           if (!otherFree) return;
+          // 合同授業の場合、共同担当者も移動先コマで空いている必要がある
+          const myTeam = getTeamTeachersForUnit(myUnitLessons);
+          if (myTeam.some(t => t !== a && oppAllTeachers.indexOf(t) === -1 && teacherHasSlot(t, targetDay, targetPeriod))) return;
 
           const teacherLabel = oppAllTeachers.join('・');
           const oppHasEventAtMy = oppAllTeachers.some(t => hasAnyEvent(t, myDay, myPeriod));
@@ -5479,11 +5513,8 @@
       let list = [];
 
       if(!useJoint){
-        const all = lessons.filter(l => {
-          if (l.teacher !== a) return false;
-          const teachers = getAllTeachersForLesson(l);
-          return teachers.length === 1 && teachers[0] === a;
-        });
+        // 単独授業に加え、合同授業も対象にする（共同担当者の空きは各判定で確認）
+        const all = lessons.filter(l => l.teacher === a);
         const unitSeen = new Set();
         all.forEach(l=>{
           const key = unitKeyForTeacherSlot(l);
@@ -5540,7 +5571,9 @@
 
       const selfNames = getSelfNamesForMove();
       const useJoint = selfNames.length > 1;
-      const myTeachers = useJoint ? Array.from(new Set(selfNames)) : getAllTeachersForLesson(myLessonRep);
+      const myTeachers = useJoint
+        ? Array.from(new Set(selfNames.concat(getTeamTeachersForUnit(myUnitRows))))
+        : getTeamTeachersForUnit(myUnitRows);
       if (!myTeachers.length) {
         return { ok:false, reason:"担当者不明" };
       }
@@ -6035,6 +6068,20 @@
       syncCheckboxesState();
       updatePrintBarUI();
     });
+
+    // 選択中の授業のコマを時間割上で強調表示
+    function markSelectedTimetableCell(unitKey){
+      if (!teacherATimetableContainer) return;
+      teacherATimetableContainer.querySelectorAll('td.tt-selected').forEach(td => td.classList.remove('tt-selected'));
+      if (!unitKey) return;
+      teacherATimetableContainer.querySelectorAll('.tt-lesson[data-unit-key]').forEach(sp => {
+        if (sp.getAttribute('data-unit-key') === unitKey) {
+          const td = sp.closest('td');
+          if (td) td.classList.add('tt-selected');
+        }
+      });
+    }
+    lessonSelect.addEventListener('change', e => { markSelectedTimetableCell(e.target.value); });
 
     lessonSelect.addEventListener('change', e=>{
       results1to1Div.innerHTML = "";
