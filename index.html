@@ -5500,7 +5500,13 @@
           }
         });
 
-        const all2 = lessons.filter(l => l.teacher===a && jointSet.has(signatureKey(l)));
+        // クラスごとに共同担当者が異なる合同授業（例：1組=篠原・大内、2組=篠原・今泉）も拾う
+        const all2 = lessons.filter(l => {
+          if (l.teacher !== a) return false;
+          if (jointSet.has(signatureKey(l))) return true;
+          const team = getTeamTeachersForUnit(getUnitLessons(l));
+          return namesSelf.every(tName => team.indexOf(tName) !== -1);
+        });
         const unitSeen2 = new Set();
         all2.forEach(l=>{
           const key = unitKeyForTeacherSlot(l);
@@ -5947,7 +5953,13 @@
           }
         });
 
-        const all2 = lessons.filter(l => l.teacher===a && jointSet.has(signatureKey(l)));
+        // クラスごとに共同担当者が異なる合同授業（例：1組=篠原・大内、2組=篠原・今泉）も拾う
+        const all2 = lessons.filter(l => {
+          if (l.teacher !== a) return false;
+          if (jointSet.has(signatureKey(l))) return true;
+          const team = getTeamTeachersForUnit(getUnitLessons(l));
+          return namesSelf.every(tName => team.indexOf(tName) !== -1);
+        });
         const unitSeen2 = new Set();
         all2.forEach(l=>{
           const key = unitKeyForTeacherSlot(l);
