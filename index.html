@@ -65,6 +65,56 @@
       overflow-y: auto;
       z-index: 999;
     }
+    #teacherTimetableTooltip {
+      max-width: 96vw;
+      max-height: calc(100vh - 90px);
+    }
+    .tt-table th, .tt-table td { font-size: inherit; }
+    #teacherTimetableTooltip .tt-table { font-size: 11px; }
+    #teacherTimetableTooltip .tt-table th,
+    #teacherTimetableTooltip .tt-table td { padding: 1px 2px; }
+    .tt-tip-panes {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+    }
+    .tt-tip-pane {
+      flex: 0 0 440px;
+      width: 440px;
+      min-width: 0;
+    }
+    .tt-tip-self {
+      border-left: 2px dashed #bbb;
+      padding-left: 10px;
+    }
+    .tt-tip-label {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: #fff;
+      background: #555;
+      border-radius: 3px;
+      padding: 0 6px;
+      margin-bottom: 2px;
+    }
+    .tt-tip-self .tt-tip-label { background: #0277bd; }
+    .tt-tip-legend {
+      font-size: 0.7rem;
+      color: #333;
+      margin-bottom: 6px;
+    }
+    .tt-legend-box {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      vertical-align: -2px;
+      margin-right: 3px;
+    }
+    @media (max-width: 860px) {
+      .tt-tip-panes { flex-direction: column; }
+      .tt-tip-self { border-left: none; padding-left: 0; border-top: 2px dashed #bbb; padding-top: 6px; }
+      .tt-tip-pane { flex: 1 1 auto; min-width: 0; width: 100%; }
+    }
     #teacherTimetableTooltip h3 {
       margin: 0 0 4px;
       font-size: 0.9rem;
@@ -83,13 +133,15 @@
       word-wrap: break-word;
       word-break: break-all;
     }
+    .tt-table thead th {
+      font-weight: 700;
+    }
     .tt-table th {
       background: #f7f7f7;
       text-align: center;
     }
     .tt-lesson {
-      font-size: 0.7rem;
-      line-height: 1.25;
+      display: block;
       cursor: pointer;
     }
     .tt-highlight {
@@ -107,9 +159,45 @@
       outline: 2px solid #2196f3;
     }
     .tt-training {
-      font-size: 0.65rem;
       color: #c00;
-      line-height: 1.25;
+    }
+    /* 時間割の枠を統一：全コマ同じ高さ（4行分）、1行ごとに「…」で省略 */
+    .tt-table col.tt-col-period { width: 2.2em; }
+    .tt-table tbody th { text-align: center; }
+    .tt-cell {
+      height: calc(4 * 1.2em);
+      line-height: 1.2;
+      overflow: hidden;
+    }
+    .tt-line {
+      display: block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .tt-more { color: #666; }
+    .tt-line2 {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      word-break: break-all;
+      white-space: normal;
+    }
+    .tt-school {
+      display: inline-block;
+      font-size: 0.85em;
+      line-height: 1.1;
+      color: #fff;
+      background: #888;
+      border-radius: 2px;
+      padding: 0 2px;
+      margin-right: 1px;
+    }
+    .tt-title {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
     /* 授業コマ（セル全体）をクリックできる見た目 */
@@ -150,8 +238,7 @@
     #teacherATimetableContainer {
       min-width: 340px;
       max-width: 520px;
-      max-height: 360px;
-      overflow-y: auto;
+      /* 1〜7限をスクロールなしで全表示 */
       background: #fff;
       border: 1px solid #999;
       border-radius: 6px;
@@ -164,7 +251,7 @@
       font-size: 0.9rem;
     }
     #teacherATimetableContainer .tt-table {
-      font-size: 0.7rem;
+      font-size: 11px;
     }
 
     /* クラス別時間割 */
@@ -4056,6 +4143,8 @@
 
     let pinnedTeachers = null; // 右上ツールチップの固定対象
 
+    let pinnedKey = null;
+
     // HTMLタグを除去してプレーンテキストにするヘルパー関数 (data属性壊れ防止用)
     function stripHtmlTags(str) {
       if (!str) return "";
@@ -5215,8 +5304,18 @@
         return "<h3>" + teacherNames.join("・") + " の時間割</h3><p class=\"muted\">授業・研修データがありません</p>";
       }
 
-      let html = "<h3>" + teacherNames.join("・") + " の時間割</h3>";
-      html += "<table class=\"tt-table\"><thead><tr><th>限/曜</th>";
+      // 高校・中学の両方を担当している場合だけ【高】【中】を表示
+      const nameSet = new Set(teacherNames);
+      const schoolSet = new Set();
+      lessons.forEach(l => { if (nameSet.has(l.teacher)) schoolSet.add(l.school); });
+      const showSchool = schoolSet.size > 1;
+      const MAX_LINES = 4; // 1コマに表示する最大行数（授業1件=2行、研修・会議1件=最大2行）
+
+      const titleText = teacherNames.join("・") + " の時間割";
+      let html = "<h3 class=\"tt-title\" title=\"" + escapeHtmlAttr(titleText) + "\">" + titleText + "</h3>";
+      html += "<table class=\"tt-table\"><colgroup><col class=\"tt-col-period\">";
+      DAYS_FOR_TT.forEach(() => { html += "<col>"; });
+      html += "</colgroup><thead><tr><th>限</th>";
       DAYS_FOR_TT.forEach(d => {
         const ja = DAY_JA_OUT[d] || d;
         html += "<th>" + ja + "</th>";
@@ -5224,12 +5323,45 @@
       html += "</tr></thead><tbody>";
 
       PERIODS_FOR_TT.forEach(p => {
-        html += "<tr><th>" + p + "限</th>";
+        html += "<tr><th>" + p + "</th>";
         DAYS_FOR_TT.forEach(d => {
           const dayMap = data.get(d);
           const list = dayMap ? (dayMap.get(p) || []) : [];
 
-          const lessonLines = list.map(l => ({ text: renderLessonShortForTimetable(l), unitKey: unitKeyForTeacherSlot(l) }));
+          // 同じ学年・同じ科目の授業は1件にまとめる（合同授業・複数教員の重複を解消）
+          const groups = new Map();
+          list.forEach(l => {
+            const key = (l.school||"") + "|" + l.grade + "|" + (l.subject||"");
+            if (!groups.has(key)) groups.set(key, { rows: [], unitKeys: [] });
+            const g = groups.get(key);
+            g.rows.push(l);
+            const uk = unitKeyForTeacherSlot(l);
+            if (g.unitKeys.indexOf(uk) === -1) g.unitKeys.push(uk);
+          });
+          const lessonItems = Array.from(groups.values()).map(g => {
+            const base = g.rows[0];
+            const byClass = new Map();
+            g.rows.forEach(r => {
+              if (Number.isNaN(r.class)) return;
+              if (!byClass.has(r.class)) byClass.set(r.class, new Set());
+              if (r.school === "HS" && r.grade >= 2 && r.course) byClass.get(r.class).add(r.course);
+            });
+            const classNos = Array.from(byClass.keys()).sort((x,y)=>x-y);
+            const suffixes = classNos.map(c => {
+              const cs = byClass.get(c);
+              return (cs.has("文") ? "文" : "") + (cs.has("理") ? "理" : "");
+            });
+            const allSame = suffixes.every(x => x === suffixes[0]);
+            const classPart = allSame
+              ? classNos.join("・") + (suffixes[0] || "")
+              : classNos.map((c,idx) => c + suffixes[idx]).join("・");
+            const schoolTag = showSchool ? "<span class=\"tt-school\">" + (base.school === "JH" ? "中" : "高") + "</span>" : "";
+            const line1 = base.grade + "年" + classPart;
+            const subj = (base.subject || "").trim();
+            const full = (base.school === "JH" ? "【中】" : "【高】") + line1 + " " + subj;
+            // 学校タグ（高/中）は科目の行に付け、クラス表記が切れないようにする
+            return { html1: line1, line2: schoolTag + subj, full: full, unitKey: g.unitKeys[0] };
+          });
 
           const trainingSet = new Set();
           teacherNames.forEach(tName => {
@@ -5238,35 +5370,48 @@
           });
           const trainingLines = Array.from(trainingSet);
 
-          const isEmpty = (!lessonLines.length && !trainingLines.length);
+          const isEmpty = (!lessonItems.length && !trainingLines.length);
 
           if (isEmpty) {
             if (clickableEmpty) {
-              html += "<td class=\"tt-empty\" data-ttday=\"" + d + "\" data-ttperiod=\"" + p + "\" title=\"この時間を目的地として交換相手を探す\"></td>";
+              html += "<td class=\"tt-empty\" data-ttday=\"" + d + "\" data-ttperiod=\"" + p + "\" title=\"この時間を目的地として交換相手を探す\"><div class=\"tt-cell\"></div></td>";
             } else {
-              html += "<td data-ttday=\"" + d + "\" data-ttperiod=\"" + p + "\"></td>";
+              html += "<td data-ttday=\"" + d + "\" data-ttperiod=\"" + p + "\"><div class=\"tt-cell\"></div></td>";
             }
-          } else {
-            let lessonHtml = "";
-            if (lessonLines.length > 0 && clickableEmpty) {
-              lessonHtml = lessonLines
-                .map(function(obj){ return "<span class=\"tt-lesson\" data-unit-key=\"" + obj.unitKey + "\" title=\"この授業の交換先を探す\">" + obj.text + "</span>"; })
-                .join("<br>");
-            } else {
-              lessonHtml = lessonLines.map(function(obj){ return "<span class=\"tt-lesson\">" + obj.text + "</span>"; }).join("<br>");
-            }
+            return;
+          }
 
-            const trainingHtml = trainingLines
-              .map(function(s){ return "<span class=\"tt-training\">" + s + "</span>"; })
-              .join("<br>");
-            const combined = [lessonHtml, trainingHtml].filter(Boolean).join("<br>");
-            const uniqKeys = Array.from(new Set(lessonLines.map(function(obj){ return obj.unitKey; })));
-            if (clickableEmpty && uniqKeys.length) {
-              const cls = "tt-lesson-cell" + (uniqKeys.length > 1 ? " tt-multi" : "");
-              html += "<td class=\"" + cls + "\" data-unit-key=\"" + uniqKeys[0] + "\" data-ttday=\"" + d + "\" data-ttperiod=\"" + p + "\" title=\"クリックでこの授業の交換先を探す\">" + combined + "</td>";
-            } else {
-              html += "<td data-ttday=\"" + d + "\" data-ttperiod=\"" + p + "\">" + combined + "</td>";
+          // 行数の上限内に収める（あふれた分は「他n件」）
+          const items = lessonItems.map(it => ({ type: "lesson", cost: 2, it: it }))
+            .concat(trainingLines.map(t => ({ type: "training", cost: 2, text: t })));
+          const totalCost = items.reduce((a, x) => a + x.cost, 0);
+          const budget = totalCost <= MAX_LINES ? MAX_LINES : MAX_LINES - 1;
+          let used = 0;
+          const shown = [];
+          for (const x of items) {
+            if (used + x.cost > budget) break;
+            shown.push(x);
+            used += x.cost;
+          }
+          const hiddenCount = items.length - shown.length;
+
+          let inner = shown.map(x => {
+            if (x.type === "training") {
+              return "<span class=\"tt-training tt-line2\">" + x.text + "</span>";
             }
+            const it = x.it;
+            const keyAttr = clickableEmpty ? " data-unit-key=\"" + it.unitKey + "\"" : "";
+            return "<span class=\"tt-lesson\"" + keyAttr + "><span class=\"tt-line\">" + it.html1 + "</span><span class=\"tt-line\">" + it.line2 + "</span></span>";
+          }).join("");
+          if (hiddenCount > 0) inner += "<span class=\"tt-more tt-line\">他" + hiddenCount + "件</span>";
+
+          const fullTitle = lessonItems.map(it => it.full).concat(trainingLines).join("\n");
+          const uniqKeys = Array.from(new Set(lessonItems.map(it => it.unitKey)));
+          if (clickableEmpty && uniqKeys.length) {
+            const cls = "tt-lesson-cell" + (uniqKeys.length > 1 ? " tt-multi" : "");
+            html += "<td class=\"" + cls + "\" data-unit-key=\"" + uniqKeys[0] + "\" data-ttday=\"" + d + "\" data-ttperiod=\"" + p + "\" title=\"" + escapeHtmlAttr(fullTitle + "\n（クリックでこの授業の交換先を探す）") + "\"><div class=\"tt-cell\">" + inner + "</div></td>";
+          } else {
+            html += "<td data-ttday=\"" + d + "\" data-ttperiod=\"" + p + "\" title=\"" + escapeHtmlAttr(fullTitle) + "\"><div class=\"tt-cell\">" + inner + "</div></td>";
           }
         });
         html += "</tr>";
@@ -7221,30 +7366,60 @@
     });
 
 
-    // ===== 右上ツールチップ（ホバー／クリック固定） =====
+    // ===== 右上ツールチップ（ホバー／クリック固定）：相手の時間割＋自分の時間割 =====
+    function highlightTooltipCells(container, hlDay, hlPeriod, selfDay, selfPeriod){
+      if (hlDay && hlPeriod) {
+        const cell = container.querySelector('td[data-ttday="' + hlDay + '"][data-ttperiod="' + hlPeriod + '"]');
+        if (cell) cell.classList.add('tt-highlight');
+      }
+      if (selfDay && selfPeriod) {
+        const selfCell = container.querySelector('td[data-ttday="' + selfDay + '"][data-ttperiod="' + selfPeriod + '"]');
+        if (selfCell) selfCell.classList.add('tt-highlight-self');
+      }
+    }
+
+    function showTeacherTooltip(span, names){
+      const hlDay = span.dataset.highlightDay;
+      const hlPeriod = span.dataset.highlightPeriod;
+      const selfDay = span.dataset.selfDay;
+      const selfPeriod = span.dataset.selfPeriod;
+
+      let selfNames = getSelfNamesSelected();
+      if (!selfNames.length && teacherSelectA.value) selfNames = [teacherSelectA.value];
+
+      const oppHtml  = buildTeacherTimetableHTML(names);
+      const selfHtml = selfNames.length ? buildTeacherTimetableHTML(selfNames) : "";
+
+      let html = '<div class="tt-tip-legend">'
+        + '<span class="tt-legend-box tt-highlight"></span>相手の授業のコマ（＝自分の移動先）'
+        + '&emsp;<span class="tt-legend-box tt-highlight-self"></span>自分の授業のコマ（＝相手の移動先）'
+        + '</div>';
+      html += '<div class="tt-tip-panes">';
+      html += '<div class="tt-tip-pane tt-tip-opp"><div class="tt-tip-label">交換相手</div>' + oppHtml + '</div>';
+      if (selfHtml) {
+        html += '<div class="tt-tip-pane tt-tip-self"><div class="tt-tip-label">自分</div>' + selfHtml + '</div>';
+      }
+      html += '</div>';
+
+      timetableTooltip.innerHTML = html;
+      timetableTooltip.classList.remove('hidden');
+      timetableTooltip.querySelectorAll('.tt-tip-pane').forEach(function(pane){
+        highlightTooltipCells(pane, hlDay, hlPeriod, selfDay, selfPeriod);
+      });
+    }
+
+    function namesFromSpan(span){
+      const raw = span.dataset.teachers || "";
+      return raw.split('|').map(function(s){ return s.trim(); }).filter(Boolean);
+    }
+
     document.addEventListener('mouseover', (e) => {
       const span = e.target.closest('.teacher-name');
       if (!span) return;
       if (pinnedTeachers && pinnedTeachers.length) return;
-
-      const raw = span.dataset.teachers || "";
-      const names = raw.split('|').map(function(s){ return s.trim(); }).filter(Boolean);
+      const names = namesFromSpan(span);
       if (!names.length) return;
-      const html = buildTeacherTimetableHTML(names);
-      timetableTooltip.innerHTML = html;
-      timetableTooltip.classList.remove('hidden');
-      const hlDay = span.dataset.highlightDay;
-      const hlPeriod = span.dataset.highlightPeriod;
-      if (hlDay && hlPeriod) {
-        const cell = timetableTooltip.querySelector('td[data-ttday="' + hlDay + '"][data-ttperiod="' + hlPeriod + '"]');
-        if (cell) cell.classList.add('tt-highlight');
-      }
-      const selfDay = span.dataset.selfDay;
-      const selfPeriod = span.dataset.selfPeriod;
-      if (selfDay && selfPeriod) {
-        const selfCell = timetableTooltip.querySelector('td[data-ttday="' + selfDay + '"][data-ttperiod="' + selfPeriod + '"]');
-        if (selfCell) selfCell.classList.add('tt-highlight-self');
-      }
+      showTeacherTooltip(span, names);
     });
 
     document.addEventListener('mouseout', (e) => {
@@ -7257,36 +7432,19 @@
     document.addEventListener('click', (e) => {
       const span = e.target.closest('.teacher-name');
       if (!span) return;
-
-      const raw = span.dataset.teachers || "";
-      const names = raw.split('|').map(function(s){ return s.trim(); }).filter(Boolean);
+      const names = namesFromSpan(span);
       if (!names.length) return;
 
-      const newKey = names.join('|');
-      const currentKey = pinnedTeachers ? pinnedTeachers.join('|') : null;
-
-      if (pinnedTeachers && currentKey === newKey) {
+      const newKey = names.join('|') + '@' + (span.dataset.highlightDay||'') + (span.dataset.highlightPeriod||'') + (span.dataset.selfDay||'') + (span.dataset.selfPeriod||'');
+      if (pinnedTeachers && pinnedKey === newKey) {
         pinnedTeachers = null;
+        pinnedKey = null;
         timetableTooltip.classList.add('hidden');
         return;
       }
-
       pinnedTeachers = names;
-      const html = buildTeacherTimetableHTML(names);
-      timetableTooltip.innerHTML = html;
-      timetableTooltip.classList.remove('hidden');
-      const hlDay2 = span.dataset.highlightDay;
-      const hlPeriod2 = span.dataset.highlightPeriod;
-      if (hlDay2 && hlPeriod2) {
-        const cell2 = timetableTooltip.querySelector('td[data-ttday="' + hlDay2 + '"][data-ttperiod="' + hlPeriod2 + '"]');
-        if (cell2) cell2.classList.add('tt-highlight');
-      }
-      const selfDay2 = span.dataset.selfDay;
-      const selfPeriod2 = span.dataset.selfPeriod;
-      if (selfDay2 && selfPeriod2) {
-        const selfCell2 = timetableTooltip.querySelector('td[data-ttday="' + selfDay2 + '"][data-ttperiod="' + selfPeriod2 + '"]');
-        if (selfCell2) selfCell2.classList.add('tt-highlight-self');
-      }
+      pinnedKey = newKey;
+      showTeacherTooltip(span, names);
     });
 
     // ===== 起動時 =====
