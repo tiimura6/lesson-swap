@@ -31,7 +31,7 @@
     .select-with-search { display:inline-flex; align-items:center; gap:6px; }
     .search-input { width: 160px; }
 
-    .info-warning { color: orange; }
+    .info-warning { color: #e65100; font-weight: 700; }
 
     /* 教員名ホバー用 */
     .teacher-name { cursor: pointer; text-decoration: underline; text-decoration-style: dotted; }
@@ -194,6 +194,37 @@
       padding: 0 2px;
       margin-right: 1px;
     }
+    .tt-school.hs { background: #1565c0; }  /* 高校＝青 */
+    .tt-school.jh { background: #2e7d32; }  /* 中学＝緑 */
+
+    /* ===== 複数人（A⇔B⇔C／A⇔B・A⇔C など）の時間割ツールチップ ===== */
+    .plan-tip { cursor: pointer; }
+    .tt-tip-panes.multi {
+      display: grid;
+      grid-template-columns: repeat(2, 440px);
+      gap: 8px 12px;
+    }
+    .tt-tip-panes.multi .tt-tip-pane { width: 440px; border-left: none; padding-left: 0; }
+    @media (max-width: 960px) {
+      .tt-tip-panes.multi { grid-template-columns: 1fr; }
+      .tt-tip-panes.multi .tt-tip-pane { width: 100%; }
+    }
+    .plan-c1 { --pc: #1e88e5; --pcbg: #e3f2fd; }
+    .plan-c2 { --pc: #fb8c00; --pcbg: #fff3e0; }
+    .plan-c3 { --pc: #43a047; --pcbg: #e8f5e9; }
+    .plan-c4 { --pc: #8e24aa; --pcbg: #f3e5f5; }
+    .tt-tip-pane .tt-tip-label.plan-label { background: var(--pc); }
+    .tt-table td.plan-from { background: var(--pcbg) !important; box-shadow: inset 0 0 0 2px var(--pc); }
+    .tt-table td.plan-to   { background: #fff !important; outline: 2px dashed var(--pc); outline-offset: -2px; }
+    .tt-table td.plan-from.plan-to { background: var(--pcbg) !important; }
+    .tt-table td { position: relative; }
+    .plan-badges { position: absolute; right: 1px; bottom: 1px; display: flex; gap: 1px; pointer-events: none; }
+    .plan-badge { font-size: 9px; line-height: 1.2; font-weight: 700; color: #fff; background: var(--pc); border-radius: 2px; padding: 0 2px; }
+    .plan-badge.to { background: #fff; color: var(--pc); border: 1px dashed var(--pc); }
+    .plan-legend { font-size: 0.75rem; margin-bottom: 6px; line-height: 1.5; }
+    .plan-legend .plan-legend-row { display: block; }
+    .plan-num { display: inline-block; min-width: 1.4em; text-align: center; font-weight: 700; color: #fff; background: var(--pc); border-radius: 3px; margin-right: 4px; }
+    .plan-legend .plan-key { color: #555; margin-top: 2px; display: block; }
     .tt-title {
       white-space: nowrap;
       overflow: hidden;
@@ -4483,12 +4514,43 @@
       const unit = getUnitLessons(l);
       if (!unit.length) return renderLessonTextBase(l);
 
-      const baseText = renderLessonTextBase(l);
-      const subject  = unit[0].subject;
-      if (subject === "情報") {
-        return baseText + '<span class="info-warning">（※情報教室の重複に注意）</span>';
+      // 情報教室の重複警告は、実際に重複が起きる交換案のときだけ別途付ける（infoRoomConflict）
+      return renderLessonTextBase(l);
+    }
+
+    // ===== 情報教室（1室のみ）の重複チェック =====
+    const INFO_ROOM_SUBJECTS = ["情報"];
+    const INFO_WARN_HTML = '<span class="info-warning">（※情報教室の重複に注意）</span>';
+    function isInfoRoomLesson(l){
+      return !!l && INFO_ROOM_SUBJECTS.indexOf((l.subject || "").trim()) !== -1;
+    }
+    // moves: [{ lesson, toDay, toPeriod }] または [{ rows:[...], toDay, toPeriod }]
+    // 交換後に同じコマで情報の授業が2つ以上になる場合 true
+    function infoRoomConflict(moves){
+      const list = (moves || []).filter(m => m && m.toDay && m.toPeriod);
+      const rowsOf = m => (m.rows && m.rows.length) ? m.rows : (getUnitLessons(m.lesson).length ? getUnitLessons(m.lesson) : [m.lesson]);
+      // 移動する授業（共同担当の同一授業も含めて署名で判定）
+      const movingSig = new Set();
+      list.forEach(m => rowsOf(m).forEach(r => movingSig.add(signatureKey(r))));
+      const arrivals = new Map();
+      for (let mi = 0; mi < list.length; mi++) {
+        const m = list[mi];
+        const rows = rowsOf(m);
+        if (!rows.some(isInfoRoomLesson)) continue;
+        const staying = getLessonsAtSlot(m.toDay, m.toPeriod)
+          .some(l => isInfoRoomLesson(l) && !movingSig.has(signatureKey(l)));
+        if (staying) return true;
+        const k = m.toDay + "|" + m.toPeriod;
+        const sigs = arrivals.get(k) || new Set();
+        sigs.add(mi);
+        arrivals.set(k, sigs);
+        if (sigs.size > 1) return true;
       }
-      return baseText;
+      return false;
+    }
+    // 重複する場合、情報の授業の表示に警告を付ける
+    function withInfoWarn(html, lesson, conflict){
+      return (conflict && isInfoRoomLesson(lesson)) ? html + INFO_WARN_HTML : html;
     }
 
     function isJointLessonForTeacher(target){
@@ -5250,6 +5312,15 @@
       if (c) names.push(c);
       return names;
     }
+    // 自分側（教員A＋選択中のB・C＋合同授業の共同担当者）の担当者表示
+    function myTeamLabel(me){
+      const a = teacherSelectA.value;
+      const set = new Set(getSelfNamesSelected());
+      getTeamTeachersForUnit(getUnitLessons(me)).forEach(t => set.add(t));
+      const arr = Array.from(set).filter(Boolean).sort((x,y)=>collatorJA.compare(x,y));
+      if (a && arr.indexOf(a) > 0) { arr.splice(arr.indexOf(a), 1); arr.unshift(a); }
+      return arr.join('・');
+    }
     function getSelfNamesForMove(){
       return getSelfNamesSelected();
     }
@@ -5304,11 +5375,8 @@
         return "<h3>" + teacherNames.join("・") + " の時間割</h3><p class=\"muted\">授業・研修データがありません</p>";
       }
 
-      // 高校・中学の両方を担当している場合だけ【高】【中】を表示
-      const nameSet = new Set(teacherNames);
-      const schoolSet = new Set();
-      lessons.forEach(l => { if (nameSet.has(l.teacher)) schoolSet.add(l.school); });
-      const showSchool = schoolSet.size > 1;
+      // 中学・高校の区別を常に表示（高＝青、中＝緑）
+      const showSchool = true;
       const MAX_LINES = 4; // 1コマに表示する最大行数（授業1件=2行、研修・会議1件=最大2行）
 
       const titleText = teacherNames.join("・") + " の時間割";
@@ -5355,7 +5423,9 @@
             const classPart = allSame
               ? classNos.join("・") + (suffixes[0] || "")
               : classNos.map((c,idx) => c + suffixes[idx]).join("・");
-            const schoolTag = showSchool ? "<span class=\"tt-school\">" + (base.school === "JH" ? "中" : "高") + "</span>" : "";
+            const schoolTag = showSchool
+              ? (base.school === "JH" ? "<span class=\"tt-school jh\">中</span>" : "<span class=\"tt-school hs\">高</span>")
+              : "";
             const line1 = base.grade + "年" + classPart;
             const subj = (base.subject || "").trim();
             const full = (base.school === "JH" ? "【中】" : "【高】") + line1 + " " + subj;
@@ -5512,8 +5582,9 @@
 
           compiled1to1.push({
             pId: pId, originText: currentOriginText, myMove: myMoveTxt, oppMove: oppMoveTxt,
-            teacherLabel: "（なし）", oppLessonText: "空きコマ直接振替", myLessonText: renderMyLessonText(me),
-            trainingText: "", parttimeText: "", rowClass: "self-training", oppTeachersArr: [], originTeacher: a,
+            teacherLabel: "（なし）", oppLessonText: "空きコマ直接振替",
+            myLessonText: withInfoWarn(renderMyLessonText(me), me, infoRoomConflict([{ lesson: me, toDay: targetDay, toPeriod: targetPeriod }])),
+            trainingText: "", parttimeText: "", rowClass: "self-training", oppTeachersArr: [], originTeacher: a, myTeachers: myTeamLabel(me),
             selfDay: me.day, selfPeriod: me.period
           });
         }
@@ -5550,11 +5621,15 @@
           const myMoveTxt = `${stripHtmlTags(renderMyLessonText(me))} ➔ ${formatSlot(targetDay, targetPeriod)}`;
           const oppMoveTxt = `${fullOppLessonText} ➔ ${formatSlot(me.day, me.period)}`;
 
+          const infoConf = infoRoomConflict([
+            { lesson: me, toDay: targetDay, toPeriod: targetPeriod },
+            { lesson: o,  toDay: me.day,   toPeriod: me.period }
+          ]);
           if (!compiled1to1.some(item => item.pId === pId)) {
             compiled1to1.push({
               pId: pId, originText: currentOriginText, myMove: myMoveTxt, oppMove: oppMoveTxt,
-              teacherLabel: teacherLabel, oppLessonText: renderLessonTextForResult(o), myLessonText: renderMyLessonText(me),
-              trainingText: trainingText, parttimeText: parttime ? "〇" : "", rowClass: rowClass, rawOpp: o, oppTeachersArr: oppAllTeachers, originTeacher: a,
+              teacherLabel: teacherLabel, oppLessonText: withInfoWarn(renderLessonTextForResult(o), o, infoConf), myLessonText: withInfoWarn(renderMyLessonText(me), me, infoConf),
+              trainingText: trainingText, parttimeText: parttime ? "〇" : "", rowClass: rowClass, rawOpp: o, oppTeachersArr: oppAllTeachers, originTeacher: a, myTeachers: myTeamLabel(me),
               selfDay: me.day, selfPeriod: me.period
             });
           }
@@ -5569,10 +5644,10 @@
             compiled1to1.push({
               pId: g.pId, originText: currentOriginText, myMove: g.myMove, oppMove: g.oppMove,
               teacherLabel: g.teachersS.join('・'),
-              oppLessonText: g.compsS.map(c => escapeHtmlAttr(c.text) + "（" + escapeHtmlAttr(c.teachers.join('・')) + "）").join("<br>") + "<br><span class=\"muted\">（合同授業の一括交換）</span>",
-              myLessonText: renderMyLessonText(me),
+              oppLessonText: g.compsS.map(c => withInfoWarn(escapeHtmlAttr(c.text), c.rows.find(isInfoRoomLesson) || c.rep, g.infoConflict) + "（" + escapeHtmlAttr(c.teachers.join('・')) + "）").join("<br>") + "<br><span class=\"muted\">（合同授業の一括交換）</span>",
+              myLessonText: withInfoWarn(renderMyLessonText(me), g.movP.find(isInfoRoomLesson) || me, g.infoConflict),
               trainingText: g.trainingText, parttimeText: g.parttime ? "〇" : "", rowClass: g.rowClass,
-              oppTeachersArr: g.teachersS, originTeacher: a,
+              oppTeachersArr: g.teachersS, originTeacher: a, myTeachers: myTeamLabel(me),
               selfDay: me.day, selfPeriod: me.period,
               swapGroupJson: g.swapGroupJson
             });
@@ -5612,7 +5687,7 @@
           const encOppName = escapeHtmlAttr(oppNamesStr);
           const encOriginTeacher = escapeHtmlAttr(item.originTeacher);
 
-          tdCb.innerHTML = `<input type="checkbox" class="print-row-cb" data-print-id="${item.pId}" data-origin-lesson="${encOrigin}" data-my-move="${encMyMove}" data-opp-move="${encOppMove}" data-opp-names="${encOppName}" data-origin-teacher="${encOriginTeacher}"${item.swapGroupJson ? ` data-swapgroup="${escapeHtmlAttr(item.swapGroupJson)}"` : ''}>`;
+          tdCb.innerHTML = `<input type="checkbox" class="print-row-cb" data-print-id="${item.pId}" data-origin-lesson="${encOrigin}" data-my-move="${encMyMove}" data-opp-move="${encOppMove}" data-opp-names="${encOppName}" data-origin-teacher="${encOriginTeacher}" data-my-teachers="${escapeHtmlAttr(item.myTeachers || '')}"${item.swapGroupJson ? ` data-swapgroup="${escapeHtmlAttr(item.swapGroupJson)}"` : ''}>`;
 
           const tdName = document.createElement('td');
           if (item.rawOpp) {
@@ -5945,7 +6020,13 @@
           .concat(r.compsS.map(c => ({ text: c.text, teachers: c.teachers, from: toSlot, to: fromSlot })))
       };
 
+      const infoConflict = infoRoomConflict([
+        { rows: r.movP, toDay: r.day,  toPeriod: r.period },
+        { rows: r.movS, toDay: me.day, toPeriod: me.period }
+      ]);
+
       return Object.assign({}, r, {
+        infoConflict: infoConflict,
         trainingText: Array.from(trainingSet).join("<br>"),
         parttime: parttime,
         rowClass: rowClass,
@@ -6028,11 +6109,11 @@
 
         const tdOther = document.createElement('td');
         tdOther.innerHTML = g.compsS.length
-          ? g.compsS.map(c => escapeHtmlAttr(c.text) + "（" + escapeHtmlAttr(c.teachers.join('・')) + "）").join("<br>")
+          ? g.compsS.map(c => withInfoWarn(escapeHtmlAttr(c.text), c.rows.find(isInfoRoomLesson) || c.rep, g.infoConflict) + "（" + escapeHtmlAttr(c.teachers.join('・')) + "）").join("<br>")
           : "空きコマへ直接移動";
 
         const tdMine = document.createElement('td');
-        tdMine.innerHTML = renderMyLessonText(me);
+        tdMine.innerHTML = withInfoWarn(renderMyLessonText(me), g.movP.find(isInfoRoomLesson) || me, g.infoConflict);
 
         const tdTrain = document.createElement('td');
         tdTrain.style.textAlign = 'center';
@@ -6464,9 +6545,13 @@
           const encOppName = escapeHtmlAttr(teacherLabel);
           const encOriginTeacher = escapeHtmlAttr(a);
 
-          tdCb.innerHTML = `<input type="checkbox" class="print-row-cb" data-print-id="${pId}" data-origin-lesson="${encOrigin}" data-my-move="${encMyMove}" data-opp-move="${encOppMove}" data-opp-names="${encOppName}" data-origin-teacher="${encOriginTeacher}">`;
+          tdCb.innerHTML = `<input type="checkbox" class="print-row-cb" data-print-id="${pId}" data-origin-lesson="${encOrigin}" data-my-move="${encMyMove}" data-opp-move="${encOppMove}" data-opp-names="${encOppName}" data-origin-teacher="${encOriginTeacher}" data-my-teachers="${escapeHtmlAttr(myTeamLabel(me))}">`;
 
-          const myTitle = renderMyLessonText(me);
+          const infoConf = infoRoomConflict([
+            { lesson: me, toDay: o.day,  toPeriod: o.period },
+            { lesson: o,  toDay: me.day, toPeriod: me.period }
+          ]);
+          const myTitle = withInfoWarn(renderMyLessonText(me), me, infoConf);
           const trainingText = cand.trainingDetails.length ? cand.trainingDetails.join("<br>") : "";
 
           const tdName = document.createElement('td');
@@ -6481,7 +6566,7 @@
           tdName.appendChild(spanName);
 
           const tdOther = document.createElement('td');
-          tdOther.innerHTML = renderLessonTextForResult(o);
+          tdOther.innerHTML = withInfoWarn(renderLessonTextForResult(o), o, infoConf);
 
           const tdMine = document.createElement('td');
           tdMine.innerHTML = myTitle;
@@ -6520,108 +6605,91 @@
         renderGroupSwapSection(results1to1Div, me, grpCands, a, currentOriginText);
       }
 
-      // --- 二段階交換 ---
+      // --- 二段階交換（A⇔B・A⇔C）---
+      // A側は単独授業・合同授業のどちらでも対象。合同の場合はA側の担当者全員（教員A・B・C選択＋共同担当者）が一緒に動く
       const chainCandidates = [];
       const normal1to1Count = c1.filter(function(c){ return !c.trainingFlag && !c.parttime; }).length;
 
-      if (!useJoint && a && normal1to1Count <= 3) {
-        const teacherA   = a;
-        const teachersMe = getAllTeachersForLesson(me);
+      if (a && normal1to1Count <= 3) {
+        const teacherA  = a;
+        const teamA     = Array.from(new Set(namesSelf.concat(getTeamTeachersForUnit(myUnitLessons))));
+        const teamASet  = new Set(teamA);
+        // 1名・1クラスで完結する授業か（ブロック授業・相手授業に使う）
+        const isSoloSingle = function(l){
+          return getAllTeachersForLesson(l).length === 1 && getUnitLessons(l).length === 1;
+        };
 
-        if (teachersMe.length === 1 && teachersMe[0] === teacherA) {
-          for (let i = 0; i < poolBase.length; i++) {
-            const B1 = poolBase[i];
-            if (B1.teacher === teacherA) continue;
+        for (let i = 0; i < poolBase.length; i++) {
+          const B1 = poolBase[i];
+          if (teamASet.has(B1.teacher)) continue;
 
-            const teachersB = getAllTeachersForLesson(B1);
-            if (teachersB.length !== 1) continue;
-            const teacherB = teachersB[0];
+          const teachersB = getAllTeachersForLesson(B1);
+          if (teachersB.length !== 1) continue;
+          const teacherB = teachersB[0];
 
-            const directSelfFree  = !teacherHasSlot(teacherA, B1.day, B1.period);
-            const directOtherFree = !teacherHasSlot(teacherB, myDay, myPeriod);
-            if (directSelfFree && directOtherFree) continue;
+          const directSelfFree  = !teacherHasSlotMany(teamA, B1.day, B1.period);
+          const directOtherFree = !teacherHasSlot(teacherB, myDay, myPeriod);
+          if (directSelfFree && directOtherFree) continue;
 
-            const blockers = [];
-            if (!directSelfFree) {
-              lessons.forEach(l => {
-                if (l.teacher === teacherA &&
-                    l.day === B1.day &&
-                    l.period === B1.period) {
-                  blockers.push(l);
-                }
+          const blockers = [];
+          if (!directSelfFree) {
+            lessons.forEach(l => {
+              if (teamASet.has(l.teacher) && l.day === B1.day && l.period === B1.period) blockers.push(l);
+            });
+          }
+          if (!directOtherFree) {
+            lessons.forEach(l => {
+              if (l.teacher === teacherB && l.day === myDay && l.period === myPeriod) blockers.push(l);
+            });
+          }
+          if (!blockers.length) continue;
+
+          for (let bIdx = 0; bIdx < blockers.length; bIdx++) {
+            const blockLesson  = blockers[bIdx];
+            if (!isSoloSingle(blockLesson)) continue;
+            const teacherBlock = blockLesson.teacher;
+
+            const partners = lessons.filter(o => {
+              if (o === blockLesson) return false;
+              if (o.teacher === teacherBlock) return false;
+              if (!sameClassAndCourse(blockLesson, o)) return false;
+              if (o.day === blockLesson.day && o.period === blockLesson.period) return false;
+              return isSoloSingle(o);
+            });
+
+            for (let k = 0; k < partners.length; k++) {
+              const partner        = partners[k];
+              const teacherPartner = partner.teacher;
+
+              const ops = [];
+              ops.push({ teacher: teacherBlock,   dayFrom: blockLesson.day, periodFrom: blockLesson.period, dayTo: partner.day,     periodTo: partner.period });
+              ops.push({ teacher: teacherPartner, dayFrom: partner.day,     periodFrom: partner.period,     dayTo: blockLesson.day, periodTo: blockLesson.period });
+              teamA.forEach(t => {
+                ops.push({ teacher: t, dayFrom: me.day, periodFrom: myPeriod, dayTo: B1.day, periodTo: B1.period });
               });
-            }
-            if (!directOtherFree) {
-              lessons.forEach(l => {
-                if (l.teacher === teacherB &&
-                    l.day === myDay &&
-                    l.period === myPeriod) {
-                  blockers.push(l);
-                }
-              });
-            }
-            if (!blockers.length) continue;
+              ops.push({ teacher: teacherB, dayFrom: B1.day, periodFrom: B1.period, dayTo: me.day, periodTo: myPeriod });
 
-            for (let bIdx = 0; bIdx < blockers.length; bIdx++) {
-              const blockLesson  = blockers[bIdx];
-              const teacherBlock = blockLesson.teacher;
+              const chainTeachers = Array.from(new Set(teamA.concat([teacherB, teacherBlock, teacherPartner])));
+              let invalidChain = chainTeachers.some(t => isParttimeTeacher(t));
+              if (!invalidChain) {
+                invalidChain = ops.some(op =>
+                  hasAnyEvent(op.teacher, op.dayFrom, op.periodFrom) ||
+                  hasAnyEvent(op.teacher, op.dayTo,   op.periodTo)
+                );
+              }
+              if (invalidChain) continue;
 
-              const partners = lessons.filter(o => {
-                if (o === blockLesson) return false;
-                if (o.teacher === teacherBlock) return false;
-                if (!sameClassAndCourse(blockLesson, o)) return false;
-                if (o.day === blockLesson.day && o.period === blockLesson.period) return false;
-                return true;
-              });
-
-              for (let k = 0; k < partners.length; k++) {
-                const partner       = partners[k];
-                const tPartnerArr   = getAllTeachersForLesson(partner);
-                if (tPartnerArr.length !== 1) continue;
-                const teacherPartner = tPartnerArr[0];
-
-                const ops = [];
-
-                ops.push({ teacher: teacherBlock, dayFrom: blockLesson.day, periodFrom: blockLesson.period, dayTo: partner.day, periodTo: partner.period });
-                ops.push({ teacher: teacherPartner, dayFrom: partner.day, periodFrom: partner.period, dayTo: blockLesson.day, periodTo: blockLesson.period });
-                ops.push({ teacher: teacherA, dayFrom: me.day, periodFrom: myPeriod, dayTo: B1.day, periodTo: B1.period });
-                ops.push({ teacher: teacherB, dayFrom: B1.day, periodFrom: B1.period, dayTo: me.day, periodTo: myPeriod });
-
-                let invalidChain = false;
-
-                const chainTeachers = [teacherA, teacherB, teacherBlock, teacherPartner];
-                for (let i2=0; i2<chainTeachers.length; i2++) {
-                  const tName = chainTeachers[i2];
-                  if (isParttimeTeacher(tName)) {
-                    invalidChain = true;
-                    break;
-                  }
-                }
-
-                if (!invalidChain) {
-                  for (let j2=0; j2<ops.length; j2++) {
-                    const op = ops[j2];
-                    if (hasAnyEvent(op.teacher, op.dayFrom, op.periodFrom) ||
-                        hasAnyEvent(op.teacher, op.dayTo,   op.periodTo)) {
-                      invalidChain = true;
-                      break;
-                    }
-                  }
-                }
-
-                if (invalidChain) continue;
-
-                if (validateOperations(ops, scheduleState)) {
-                  chainCandidates.push({
-                    mainB        : B1,
-                    blockLesson  : blockLesson,
-                    partner      : partner,
-                    teacherA     : teacherA,
-                    teacherB     : teacherB,
-                    teacherBlock : teacherBlock,
-                    teacherPartner: teacherPartner
-                  });
-                }
+              if (validateOperations(ops, scheduleState)) {
+                chainCandidates.push({
+                  mainB         : B1,
+                  blockLesson   : blockLesson,
+                  partner       : partner,
+                  teacherA      : teacherA,
+                  teamA         : teamA,
+                  teacherB      : teacherB,
+                  teacherBlock  : teacherBlock,
+                  teacherPartner: teacherPartner
+                });
               }
             }
           }
@@ -6759,6 +6827,19 @@
             txtOppMove = `${fullBLesson} ➔ ${formatSlot(C3.day,C3.period)}<br>${fullCLesson} ➔ ${formatSlot(A3.day,A3.period)}`;
           }
 
+          // 全員の時間割ツールチップ用の移動データ（番号順＝移動案の行順）
+          const namesAForTT = Array.from(new Set(namesSelfFor3.concat(getAllTeachersForLesson(A3))));
+          const planMoves3 = (cand.patternId === 2) ? [
+            { names: namesAForTT, lesson: A3, toDay: C3.day, toPeriod: C3.period },
+            { names: namesCForTT, lesson: C3, toDay: B3.day, toPeriod: B3.period },
+            { names: namesBForTT, lesson: B3, toDay: A3.day, toPeriod: A3.period }
+          ] : [
+            { names: namesAForTT, lesson: A3, toDay: B3.day, toPeriod: B3.period },
+            { names: namesBForTT, lesson: B3, toDay: C3.day, toPeriod: C3.period },
+            { names: namesCForTT, lesson: C3, toDay: A3.day, toPeriod: A3.period }
+          ];
+          const infoConf3 = infoRoomConflict(planMoves3);
+
           const tr = document.createElement('tr');
           const pId = `3way_${A3.day}${A3.period}_${B3.teacher}_${C3.teacher}_p${cand.patternId}`;
 
@@ -6774,11 +6855,11 @@
 
           // structured data for 3way print slip
           const info3w = cand.patternId === 2 ? {
-            b1:{text:stripHtmlTags(renderMyLessonText(A3)), teacher:a},
+            b1:{text:stripHtmlTags(renderMyLessonText(A3)), teacher:namesAForTT.join('・')},
             b2:{text:fullCLesson, teacher:labelC},
             b3:{text:fullBLesson, teacher:labelB}
           } : {
-            b1:{text:stripHtmlTags(renderMyLessonText(A3)), teacher:a},
+            b1:{text:stripHtmlTags(renderMyLessonText(A3)), teacher:namesAForTT.join('・')},
             b2:{text:fullBLesson, teacher:labelB},
             b3:{text:fullCLesson, teacher:labelC}
           };
@@ -6789,23 +6870,24 @@
           tr.appendChild(tdCb);
 
           const tdContent = document.createElement('td');
-          tdContent.innerHTML = "<span class=\"teacher-name\" data-teachers=\"" + namesBForTT.join('|') + "\" data-highlight-day=\"" + B3.day + "\" data-highlight-period=\"" + B3.period + "\" data-self-day=\"" + A3.day + "\" data-self-period=\"" + A3.period + "\">" + labelB + "</span>";
+          const planJson3 = buildPlanJson(planMoves3);
+          tdContent.innerHTML = planNameSpan(labelB, planJson3);
           tr.appendChild(tdContent);
 
           const tdLessonB = document.createElement('td');
-          tdLessonB.innerHTML = renderLessonTextForResult(B3);
+          tdLessonB.innerHTML = withInfoWarn(renderLessonTextForResult(B3), B3, infoConf3);
           tr.appendChild(tdLessonB);
 
           const tdNameC = document.createElement('td');
-          tdNameC.innerHTML = "<span class=\"teacher-name\" data-teachers=\"" + namesCForTT.join('|') + "\" data-highlight-day=\"" + C3.day + "\" data-highlight-period=\"" + C3.period + "\" data-self-day=\"" + A3.day + "\" data-self-period=\"" + A3.period + "\">" + labelC + "</span>";
+          tdNameC.innerHTML = planNameSpan(labelC, planJson3);
           tr.appendChild(tdNameC);
 
           const tdLessonC = document.createElement('td');
-          tdLessonC.innerHTML = renderLessonTextForResult(C3);
+          tdLessonC.innerHTML = withInfoWarn(renderLessonTextForResult(C3), C3, infoConf3);
           tr.appendChild(tdLessonC);
 
           const tdMove = document.createElement('td');
-          tdMove.innerHTML = moveBody;
+          tdMove.innerHTML = planCellHtml(planMoves3, "slot", infoConf3 && isInfoRoomLesson(A3));
           tr.appendChild(tdMove);
 
           tb.appendChild(tr);
@@ -6831,6 +6913,8 @@
           const blockLesson  = cand.blockLesson;
           const partner      = cand.partner;
           const teacherA     = cand.teacherA;
+          const teamA        = cand.teamA || [teacherA];
+          const teamALabel   = teamA.slice().sort((x,y)=>collatorJA.compare(x,y)).sort((x,y)=> (x===teacherA?-1:(y===teacherA?1:0))).join('・');
           const teacherB     = cand.teacherB;
           const teacherBlock = cand.teacherBlock;
           const teacherPartner = cand.teacherPartner;
@@ -6855,26 +6939,36 @@
 
           // structured data for chain (ABAC) print slip
           const infoChain = {
-            me:      {text: stripHtmlTags(renderMyLessonText(me)),                   teacher: teacherA},
+            me:      {text: stripHtmlTags(renderMyLessonText(me)),                   teacher: teamALabel},
             mainB:   {text: stripHtmlTags(renderLessonTextForResult(mainB)),          teacher: teacherB},
             block:   {text: stripHtmlTags(renderLessonTextForResult(blockLesson)),    teacher: teacherBlock},
             partner: {text: stripHtmlTags(renderLessonTextForResult(partner)),        teacher: teacherPartner},
-            blockIsA: (teacherBlock === teacherA)
+            blockIsA: (teamA.indexOf(teacherBlock) !== -1)
           };
           const encSwapChain = escapeHtmlAttr(JSON.stringify(infoChain));
 
           tdCb.innerHTML = `<input type="checkbox" class="print-row-cb" data-print-id="${pId}" data-origin-lesson="${encOrigin}" data-my-move="${encMyMove}" data-opp-move="${encOppMove}" data-opp-names="${encOppName}" data-origin-teacher="${encOriginTeacher}" data-swapchain="${encSwapChain}">`;
 
+
+          const planMovesChain = [
+            { names: teamALabel.split('・'), lesson: me,     toDay: mainB.day,       toPeriod: mainB.period },
+            { names: [teacherB],       lesson: mainB,       toDay: me.day,          toPeriod: me.period },
+            { names: [teacherBlock],   lesson: blockLesson, toDay: partner.day,     toPeriod: partner.period },
+            { names: [teacherPartner], lesson: partner,     toDay: blockLesson.day, toPeriod: blockLesson.period }
+          ];
+          const infoConfChain = infoRoomConflict(planMovesChain);
+          const planJsonChain = buildPlanJson(planMovesChain);
+
           const mainLabel =
-            teacherA + "：" + renderLessonTextForResult(me) + " ⇔ " +
-            teacherB + "：" + renderLessonTextForResult(mainB);
+            planNameSpan(teamALabel, planJsonChain) + "：" + renderLessonTextForResult(me) + " ⇔ " +
+            planNameSpan(teacherB, planJsonChain) + "：" + renderLessonTextForResult(mainB);
 
           const subLabel =
-            teacherBlock + "：" + renderLessonTextForResult(blockLesson) + " ⇔ " +
-            teacherPartner + "：" + renderLessonTextForResult(partner);
+            planNameSpan(teacherBlock, planJsonChain) + "：" + renderLessonTextForResult(blockLesson) + " ⇔ " +
+            planNameSpan(teacherPartner, planJsonChain) + "：" + renderLessonTextForResult(partner);
 
           row.appendChild(tdCb);
-          row.insertAdjacentHTML('beforeend', "<td>" + mainLabel + "</td><td>" + subLabel + "</td><td>" + moveDescTxt + "</td>");
+          row.insertAdjacentHTML('beforeend', "<td>" + mainLabel + "</td><td>" + subLabel + "</td><td>" + planCellHtml(planMovesChain, "lesson", infoConfChain) + "</td>");
           tbChain.appendChild(row);
         });
 
@@ -6884,7 +6978,7 @@
         const pCond = document.createElement('p');
         pCond.className = 'muted';
         pCond.textContent =
-          "※表示条件: 教員Aのみ選択中で、選んだ授業が教員Aの単独担当かつ、" +
+          "※表示条件: 選んだ授業（単独・合同どちらも可）について、" +
           "研修・会議・非常勤に該当しない1対1候補が3件以下のとき、" +
           "ブロック授業を1回動かすことでA⇔Bの交換が可能となる組み合わせを表示（候補に研修・会議・非常勤は含めない）";
         results3wayDiv.appendChild(pCond);
@@ -6991,9 +7085,6 @@
 
           tdCb.innerHTML = `<input type="checkbox" class="print-row-cb" data-print-id="${pId}" data-origin-lesson="${encOrigin}" data-my-move="${encMyMove}" data-opp-move="${encOppMove}" data-opp-names="${encOppName}" data-origin-teacher="${encOriginTeacher}">`;
 
-          const labelA   = a + "：" + renderLessonTextForResult(me);
-          const labelBun = bun.teacher + "：" + renderLessonTextForResult(bun);
-          const labelRi  = ri.teacher + "：" + renderLessonTextForResult(ri);
 
           const moveUiDesc =
             a + "：" + formatSlot(me.day, me.period) + " → " + formatSlot(bun.day, bun.period) + "<br>" +
@@ -7012,8 +7103,19 @@
             .filter(function(s){ return s && s.trim(); })
             .join("<br>");
 
+          const planMovesBunri = [
+            { names: [a],           lesson: me,  toDay: bun.day, toPeriod: bun.period },
+            { names: [bun.teacher], lesson: bun, toDay: me.day,  toPeriod: me.period },
+            { names: [ri.teacher],  lesson: ri,  toDay: me.day,  toPeriod: me.period }
+          ];
+          const infoConfBunri = infoRoomConflict(planMovesBunri);
+          const planJsonBunri = buildPlanJson(planMovesBunri);
+          const labelA   = planNameSpan(a, planJsonBunri) + "：" + renderLessonTextForResult(me);
+          const labelBun = planNameSpan(bun.teacher, planJsonBunri) + "：" + renderLessonTextForResult(bun);
+          const labelRi  = planNameSpan(ri.teacher, planJsonBunri) + "：" + renderLessonTextForResult(ri);
+
           tr.appendChild(tdCb);
-          tr.insertAdjacentHTML('beforeend', "<td>" + labelA + "</td><td>" + labelBun + "</td><td>" + labelRi + "</td><td>" + moveUiDesc + "</td><td class=\"training-conflict\">" + (warnings || "") + "</td>");
+          tr.insertAdjacentHTML('beforeend', "<td>" + labelA + "</td><td>" + labelBun + "</td><td>" + labelRi + "</td><td>" + planCellHtml(planMovesBunri, "slot", infoConfBunri) + "</td><td class=\"training-conflict\">" + (warnings || "") + "</td>");
           tbSpec.appendChild(tr);
         });
 
@@ -7040,6 +7142,7 @@
             oppMove: cb.dataset.oppMove,
             oppNames: cb.dataset.oppNames || "",
             originTeacher: cb.dataset.originTeacher || "",
+            myTeachers: cb.dataset.myTeachers || "",
             swap3way: cb.dataset.swap3way ? JSON.parse(cb.dataset.swap3way) : null,
             swapchain: cb.dataset.swapchain ? JSON.parse(cb.dataset.swapchain) : null,
             swapgroup: cb.dataset.swapgroup ? JSON.parse(cb.dataset.swapgroup) : null
@@ -7121,6 +7224,34 @@
         return m ? m[1].trim() : '';
       }
 
+      // 科目・担当者の行（合同授業で担当者が複数のときは別行にして、人数に応じて文字を小さく・折り返し可）
+      function subjTeacherRows(subject, teacherStr, ROW){
+        const names = String(teacherStr || '').split(/[・|、,]/).map(x => x.trim()).filter(Boolean);
+        if (names.length <= 1) {
+          return '<div style="' + ROW + '">科目 ' + ul(subject,'5em') + '&emsp;' + ul(names[0] || '','4em') + '先生</div>';
+        }
+        // 複数名：科目の右側に並べ、枠の幅に合わせて折り返し・人数に応じて文字を縮小
+        const fs = names.length <= 2 ? 12 : (names.length <= 4 ? 10.5 : 9.5);
+        return '<div style="margin:3px 0;font-size:12px;display:flex;align-items:flex-end;gap:0 3px;">'
+          + '<span style="white-space:nowrap;">科目 ' + ul(subject,'4em') + '</span>'
+          + '<span style="flex:0 1 auto;min-width:0;white-space:normal;overflow-wrap:anywhere;border-bottom:1.5px solid #000;'
+          +   'padding:0 2px;text-align:center;font-size:' + fs + 'px;line-height:1.25;">' + names.join('・') + '</span>'
+          + '<span style="white-space:nowrap;">先生</span>'
+          + '</div>';
+      }
+      function teacherRow(namesOrStr){
+        const names = Array.isArray(namesOrStr) ? namesOrStr
+          : String(namesOrStr || '').split(/[・|、,]/).map(x => x.trim()).filter(Boolean);
+        if (names.length <= 1) {
+          return '<div style="margin:3px 0;font-size:12px;white-space:nowrap;">担当 ' + ul(names[0] || '','4em') + '先生</div>';
+        }
+        const fs = names.length <= 2 ? 12 : (names.length <= 4 ? 11 : 10);
+        const nameBox = '<span style="display:inline-block;max-width:calc(100% - 5em);white-space:normal;word-break:keep-all;overflow-wrap:anywhere;'
+          + 'border-bottom:1.5px solid #000;padding:0 2px;vertical-align:bottom;font-size:' + fs + 'px;line-height:1.3;">'
+          + names.join('・') + '</span>';
+        return '<div style="margin:3px 0;font-size:12px;white-space:nowrap;">担当 ' + nameBox + ' 先生</div>';
+      }
+
       // バッジ（人物ラベル）HTML
       const BADGE = 'font-size:9px;font-weight:700;background:#222;color:#fff;padding:1px 6px;border-radius:2px 2px 0 0;display:inline-block;';
       function badge(label) {
@@ -7135,7 +7266,7 @@
                         : bunri === '理' ? '文・<b>理</b>'
                         : '文・理';
         let dateRow = '<div style="' + ROW + '">' + blank('5em') + '月' + blank('5em') + '日&nbsp;' + ul(day,'1.5em') + '曜日&nbsp;' + ul(period,'1.5em') + '時間目</div>';
-        let subjRow = '<div style="' + ROW + '">科目 ' + ul(subject,'5em') + '&emsp;' + ul(teacher,'4em') + '先生</div>';
+        let subjRow = subjTeacherRows(subject, teacher, ROW);
         let placeRow = '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>';
         if (grade) {
           dateRow = '<div style="' + ROW + '">' + ul(grade,'1.5em') + '年' + ul(classNum,'1.5em') + '組 ' + bunriDisp + '　' + ul(day,'1.5em') + '曜日&nbsp;' + ul(period,'1.5em') + '時間目</div>';
@@ -7146,7 +7277,7 @@
       // ── AB交換スリップ（2枚） ─────────────────────────────
       function makeSlipAB(item) {
         const p = parseLessonStr(item.myMove || '');
-        const teacher    = item.originTeacher || '';
+        const teacher    = item.myTeachers || item.originTeacher || '';
         const oppTeacher = (item.oppNames || '').split('|')[0];
         const ROW = 'margin:3px 0;white-space:nowrap;font-size:12px;';
         const NOTE = 'display:inline-block;font-size:10px;font-weight:700;border:1.5px solid #000;padding:1px 5px;border-radius:3px;margin-left:5px;vertical-align:middle;';
@@ -7169,14 +7300,14 @@
             + badge('A')
             + '<div style="' + BOX + '">'
             +   '<div style="' + ROW + '">' + blank('5em') + '月' + blank('5em') + '日&nbsp;' + ul(day1,'1.5em') + '曜日&nbsp;' + ul(per1,'1.5em') + '時間目</div>'
-            +   '<div style="' + ROW + '">科目 ' + ul(sub1,'5em') + '&emsp;' + ul(teacher,'4em') + '先生</div>'
+            +   subjTeacherRows(sub1, teacher, ROW)
             +   '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>'
             + '</div>'
             + '<div style="text-align:center;font-size:20px;margin:1px 0;line-height:1;">⇅</div>'
             + badge('B')
             + '<div style="' + BOX + '">'
             +   '<div style="' + ROW + '">' + blank('5em') + '月' + blank('5em') + '日&nbsp;' + ul(day2,'1.5em') + '曜日&nbsp;' + ul(per2,'1.5em') + '時間目</div>'
-            +   '<div style="' + ROW + '">科目 ' + ul(sub2,'5em') + '&emsp;' + ul(oppTeacher,'4em') + '先生</div>'
+            +   subjTeacherRows(sub2, oppTeacher, ROW)
             +   '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>'
             + '</div>'
             + '<div style="border-top:1.5px solid #000;margin-top:5px;padding-top:4px;' + ROW + '">氏名 ' + blank('7em') + '&emsp;&emsp;' + blank('5em') + '月' + blank('5em') + '日</div>'
@@ -7209,7 +7340,7 @@
             + '<div style="' + BOX + '">'
             + classRow
             +   '<div style="' + ROW + '">' + blank('5em') + '月' + blank('5em') + '日&nbsp;' + ul(p.day,'1.5em') + '曜日&nbsp;' + ul(p.period,'1.5em') + '時間目</div>'
-            +   '<div style="' + ROW + '">科目 ' + ul(p.subject,'5em') + '&emsp;' + ul(boxInfo.teacher,'4em') + '先生</div>'
+            +   subjTeacherRows(p.subject, boxInfo.teacher, ROW)
             +   '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>'
             + '</div>';
         }
@@ -7267,7 +7398,7 @@
             + '<div style="' + BOX + '">'
             + classRow
             +   '<div style="' + ROW + '">' + blank('5em') + '月' + blank('5em') + '日&nbsp;' + ul(p.day,'1.5em') + '曜日&nbsp;' + ul(p.period,'1.5em') + '時間目</div>'
-            +   '<div style="' + ROW + '">科目 ' + ul(p.subject,'5em') + '&emsp;' + ul(boxInfo.teacher,'4em') + '先生</div>'
+            +   subjTeacherRows(p.subject, boxInfo.teacher, ROW)
             +   '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>'
             + '</div>';
         }
@@ -7307,7 +7438,7 @@
           return badge(labels[idx] || String(idx+1))
             + '<div style="' + BOX + '">'
             +   '<div style="' + ROW + '"><b>' + mv.text + '</b></div>'
-            +   '<div style="' + ROW + '">担当 ' + ul((mv.teachers||[]).join('・'),'6em') + '先生</div>'
+            +   teacherRow(mv.teachers || [])
             +   '<div style="' + ROW + '">' + mv.from + ' ➔ <b>' + mv.to + '</b>&emsp;実施日 ' + blank('3em') + '月' + blank('3em') + '日</div>'
             +   '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>'
             + '</div>';
@@ -7366,6 +7497,104 @@
     });
 
 
+    // ===== 複数人の交換案（A⇔B⇔C／A⇔B・A⇔C／A⇔B＋C）：全員の時間割ツールチップ =====
+    const PLAN_COLORS = { 1:["#1e88e5","#e3f2fd"], 2:["#fb8c00","#fff3e0"], 3:["#43a047","#e8f5e9"], 4:["#8e24aa","#f3e5f5"] };
+    const PLAN_NUM = { 1:"①", 2:"②", 3:"③", 4:"④" };
+
+    // moves: [{ names:[教員...], lesson, toDay, toPeriod }]（配列の順番＝番号①②③④＝色）
+    function buildPlanJson(moves){
+      const panes = [];
+      const byKey = new Map();
+      const legend = moves.map(function(m, i){
+        const n = i + 1;
+        const names = (m.names && m.names.length) ? m.names : [m.lesson.teacher];
+        const key = names.slice().sort().join('|');
+        let pane = byKey.get(key);
+        if (!pane) { pane = { names: names, moves: [] }; byKey.set(key, pane); panes.push(pane); }
+        pane.moves.push({ n: n, fd: m.lesson.day, fp: m.lesson.period, td: m.toDay, tp: m.toPeriod });
+        return {
+          n: n,
+          who: names.join('・'),
+          text: stripHtmlTags(renderLessonTextBase(m.lesson)),
+          to: formatSlot(m.toDay, m.toPeriod)
+        };
+      });
+      return JSON.stringify({ panes: panes, legend: legend });
+    }
+
+    // 移動案セル：番号付きの移動案＋ホバーで全員の時間割
+    // lineMode: "slot"（教員：元→先） / "lesson"（授業名 ➔ 先）
+    function planCellHtml(moves, lineMode, infoConflict){
+      const lines = moves.map(function(m, i){
+        const n = i + 1;
+        const names = (m.names && m.names.length) ? m.names : [m.lesson.teacher];
+        const num = '<span class="plan-num plan-c' + n + '">' + n + '</span>';
+        if (lineMode === "lesson") {
+          return num + escapeHtmlAttr(stripHtmlTags(renderLessonTextBase(m.lesson))) + "（" + escapeHtmlAttr(names.join('・')) + "） ➔ " + formatSlot(m.toDay, m.toPeriod);
+        }
+        return num + escapeHtmlAttr(names.join('・')) + "：" + formatSlot(m.lesson.day, m.lesson.period) + " → " + formatSlot(m.toDay, m.toPeriod);
+      });
+      return lines.join("<br>") + (infoConflict ? "<br>" + INFO_WARN_HTML : "");
+    }
+
+    // 担当者名：マウスを乗せると交換に関わる全員（3〜4人）の時間割を表示
+    function planNameSpan(label, planJson){
+      return '<span class="teacher-name plan-tip" data-plan="' + escapeHtmlAttr(planJson) + '">' + escapeHtmlAttr(label) + '</span>';
+    }
+
+    function markPlanCell(pane, day, period, n, isTo){
+      const td = pane.querySelector('td[data-ttday="' + day + '"][data-ttperiod="' + period + '"]');
+      if (!td) return;
+      const col = PLAN_COLORS[n] || PLAN_COLORS[1];
+      // 移動元の色を優先（同じコマが「移動先」かつ「移動元」の場合）
+      if (!isTo || !td.classList.contains('plan-from')) {
+        td.style.setProperty('--pc', col[0]);
+        td.style.setProperty('--pcbg', col[1]);
+      }
+      td.classList.add(isTo ? 'plan-to' : 'plan-from');
+      let box = td.querySelector('.plan-badges');
+      if (!box) { box = document.createElement('span'); box.className = 'plan-badges'; td.appendChild(box); }
+      const b = document.createElement('span');
+      b.className = 'plan-badge plan-c' + n + (isTo ? ' to' : '');
+      b.textContent = (PLAN_NUM[n] || n) + (isTo ? '先' : '元');
+      box.appendChild(b);
+    }
+
+    function showPlanTooltip(el){
+      let plan = null;
+      try { plan = JSON.parse(el.dataset.plan || ""); } catch (e) { plan = null; }
+      showPlanTooltipData(plan);
+    }
+
+    function showPlanTooltipData(plan){
+      if (!plan || !plan.panes || !plan.panes.length) return;
+
+      let html = '<div class="plan-legend">';
+      plan.legend.forEach(function(l){
+        html += '<span class="plan-legend-row"><span class="plan-num plan-c' + l.n + '">' + l.n + '</span>'
+          + escapeHtmlAttr(l.who) + '：' + escapeHtmlAttr(l.text) + ' ➔ <b>' + escapeHtmlAttr(l.to) + '</b></span>';
+      });
+      html += '<span class="plan-key">色付き実線＝移動する授業（元）／点線枠＝移動先のコマ（先）。番号は上の移動案に対応</span></div>';
+      html += '<div class="tt-tip-panes multi">';
+      plan.panes.forEach(function(p, i){
+        const n0 = p.moves[0].n;
+        const nums = p.moves.map(function(m){ return PLAN_NUM[m.n] || m.n; }).join('');
+        html += '<div class="tt-tip-pane plan-c' + n0 + '" data-pane="' + i + '">'
+          + '<div class="tt-tip-label plan-label">' + nums + ' ' + escapeHtmlAttr(p.names.join('・')) + '</div>'
+          + buildTeacherTimetableHTML(p.names) + '</div>';
+      });
+      html += '</div>';
+
+      timetableTooltip.innerHTML = html;
+      timetableTooltip.classList.remove('hidden');
+      plan.panes.forEach(function(p, i){
+        const pane = timetableTooltip.querySelector('.tt-tip-pane[data-pane="' + i + '"]');
+        if (!pane) return;
+        p.moves.forEach(function(m){ markPlanCell(pane, m.fd, m.fp, m.n, false); });
+        p.moves.forEach(function(m){ markPlanCell(pane, m.td, m.tp, m.n, true); });
+      });
+    }
+
     // ===== 右上ツールチップ（ホバー／クリック固定）：相手の時間割＋自分の時間割 =====
     function highlightTooltipCells(container, hlDay, hlPeriod, selfDay, selfPeriod){
       if (hlDay && hlPeriod) {
@@ -7386,6 +7615,22 @@
 
       let selfNames = getSelfNamesSelected();
       if (!selfNames.length && teacherSelectA.value) selfNames = [teacherSelectA.value];
+
+      // A⇔B（1対1・一括交換）も A⇔B⇔C と同じ「元／先」の色分け表示にする
+      if (selfNames.length && selfDay && selfPeriod && hlDay && hlPeriod) {
+        const findLesson = function(ns, d, p){
+          return lessons.find(function(l){ return ns.indexOf(l.teacher) !== -1 && l.day === d && String(l.period) === String(p); });
+        };
+        const myL  = findLesson(selfNames, selfDay, selfPeriod);
+        const oppL = findLesson(names, hlDay, hlPeriod);
+        if (myL && oppL) {
+          showPlanTooltipData(JSON.parse(buildPlanJson([
+            { names: selfNames, lesson: myL,  toDay: oppL.day, toPeriod: oppL.period },
+            { names: names,     lesson: oppL, toDay: myL.day,  toPeriod: myL.period }
+          ])));
+          return;
+        }
+      }
 
       const oppHtml  = buildTeacherTimetableHTML(names);
       const selfHtml = selfNames.length ? buildTeacherTimetableHTML(selfNames) : "";
@@ -7414,6 +7659,12 @@
     }
 
     document.addEventListener('mouseover', (e) => {
+      const planEl = e.target.closest('.plan-tip');
+      if (planEl) {
+        if (pinnedTeachers && pinnedTeachers.length) return;
+        showPlanTooltip(planEl);
+        return;
+      }
       const span = e.target.closest('.teacher-name');
       if (!span) return;
       if (pinnedTeachers && pinnedTeachers.length) return;
@@ -7423,13 +7674,29 @@
     });
 
     document.addEventListener('mouseout', (e) => {
-      const span = e.target.closest('.teacher-name');
+      const span = e.target.closest('.teacher-name, .plan-tip');
       if (!span) return;
+      // 同じ要素の内側での移動は無視（ちらつき防止）
+      if (e.relatedTarget && span.contains(e.relatedTarget)) return;
       if (pinnedTeachers && pinnedTeachers.length) return;
       timetableTooltip.classList.add('hidden');
     });
 
     document.addEventListener('click', (e) => {
+      const planEl = e.target.closest('.plan-tip');
+      if (planEl) {
+        const planKey = 'plan@' + (planEl.dataset.plan || '');
+        if (pinnedTeachers && pinnedKey === planKey) {
+          pinnedTeachers = null;
+          pinnedKey = null;
+          timetableTooltip.classList.add('hidden');
+          return;
+        }
+        pinnedTeachers = ['plan'];
+        pinnedKey = planKey;
+        showPlanTooltip(planEl);
+        return;
+      }
       const span = e.target.closest('.teacher-name');
       if (!span) return;
       const names = namesFromSpan(span);
