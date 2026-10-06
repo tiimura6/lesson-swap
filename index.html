@@ -4322,7 +4322,7 @@
       }
 
       d.slice(1).forEach(r => {
-        const teacher = r[iT];
+        const teacher = normalizeTeacherName(r[iT]);
         if (!teacher) return;
 
         trainingTeachers.add(teacher);
@@ -4351,6 +4351,13 @@
     }
 
     // ===== 授業データ =====
+    // 教員名の表記ゆれを統一（外部CSVを読み込んだ場合も適用）
+    const TEACHER_NAME_ALIASES = { "高橋": "髙橋" };
+    function normalizeTeacherName(n){
+      const t = String(n == null ? "" : n).trim();
+      return Object.prototype.hasOwnProperty.call(TEACHER_NAME_ALIASES, t) ? TEACHER_NAME_ALIASES[t] : t;
+    }
+
     function parseLessonsCore(text){
       const d = parseCSV(text);
       if(d.length<2) return [];
@@ -4365,7 +4372,7 @@
       const iGrp   = h.indexOf('group');
 
       return d.slice(1).map(r => ({
-        teacher : r[iT],
+        teacher : normalizeTeacherName(r[iT]),
         grade   : parseGrade(r[iG]),
         class   : parseClass(r[iC]),
         course  : normalizeCourse(r[iCourse]),
@@ -7672,24 +7679,65 @@
         blocks += '<div style="' + sep + 'page-break-inside:avoid;">' + blockHtml + '</div>';
       });
 
-      const html = '<!DOCTYPE html>'
-        + '<html><head><meta charset="UTF-8"><title>授業変更連絡</title>'
-        + '<style>'
-        + '* { box-sizing:border-box; margin:0; padding:0; }'
-        + 'body { background:#fff; color:#000; margin:8mm; font-family:"Hiragino Kaku Gothic ProN","Meiryo",sans-serif; }'
+      // 印刷ページ上部の操作バー（印刷時は非表示）。iPad等で自動印刷が開かない場合はここから印刷
+      const toolbar = '<div class="print-toolbar">'
+        + '<button type="button" class="pt-print" onclick="window.print()">🖨 印刷する</button>'
+        + '<button type="button" class="pt-close" onclick="(window.__closePrint ? window.__closePrint() : window.close())">閉じる</button>'
+        + '<span class="pt-hint">印刷画面が自動で開かないときは「印刷する」を押してください。iPadでは、共有ボタン（□↑）→「プリント」でも印刷できます。</span>'
+        + '</div>';
+      const printCss = '* { box-sizing:border-box; margin:0; padding:0; }'
+        + 'body { background:#fff; color:#000; margin:8mm; font-family:"Hiragino Kaku Gothic ProN","Meiryo",sans-serif; -webkit-text-size-adjust:100%; }'
         + 'b { font-weight:bold; }'
-        + '@media print { body { margin:4mm; } div { page-break-inside:avoid; } }'
-        + '</style></head>'
-        + '<body>' + blocks + '</body></html>';
+        + '.print-toolbar { position:sticky; top:0; z-index:10; display:flex; flex-wrap:wrap; align-items:center; gap:8px; background:#fffde7; border:1px solid #f9a825; border-radius:6px; padding:8px 10px; margin-bottom:10px; }'
+        + '.print-toolbar button { font-size:16px; padding:8px 16px; border-radius:6px; border:1px solid #999; background:#fff; cursor:pointer; }'
+        + '.print-toolbar .pt-print { background:#1565c0; color:#fff; border-color:#1565c0; font-weight:700; }'
+        + '.print-toolbar .pt-hint { font-size:12px; color:#555; }'
+        + '@media print { body { margin:4mm; } .print-toolbar { display:none !important; } div { page-break-inside:avoid; } }';
+
+      const html = '<!DOCTYPE html>'
+        + '<html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>授業変更連絡</title>'
+        + '<style>' + printCss + '</style></head>'
+        + '<body>' + toolbar + blocks
+        // 自動で印刷画面を開く（対応していない端末では何も起きないので、上のボタンを使う）
+        + '<script>(function(){var done=false;function go(){if(done)return;done=true;setTimeout(function(){try{window.print();}catch(e){}},400);}'
+        + 'if(document.readyState==="complete"){go();}else{window.addEventListener("load",go);}})();<\/script>'
+        + '</body></html>';
 
       const printWindow = window.open('', '_blank');
-      printWindow.document.open();
-      printWindow.document.write(html);
-      printWindow.document.close();
-      printWindow.onload = function() {
-        printWindow.print();
-      };
+      if (printWindow && printWindow.document) {
+        printWindow.document.open();
+        printWindow.document.write(html);
+        printWindow.document.close();
+        try { printWindow.focus(); } catch (e) {}
+      } else {
+        // ポップアップがブロックされた場合：このページの上に印刷用の画面を重ねて表示
+        showInPagePrintOverlay(printCss, toolbar, blocks);
+      }
     });
+
+    function showInPagePrintOverlay(printCss, toolbar, blocks){
+      const old = document.getElementById('printOverlay');
+      if (old) old.remove();
+      const oldStyle = document.getElementById('printOverlayStyle');
+      if (oldStyle) oldStyle.remove();
+      const st = document.createElement('style');
+      st.id = 'printOverlayStyle';
+      st.textContent = '#printOverlay { position:fixed; inset:0; z-index:10000; background:#fff; overflow:auto; padding:8mm; color:#000; font-family:"Hiragino Kaku Gothic ProN","Meiryo",sans-serif; }'
+        + '#printOverlay .print-toolbar { position:sticky; top:0; z-index:10; display:flex; flex-wrap:wrap; align-items:center; gap:8px; background:#fffde7; border:1px solid #f9a825; border-radius:6px; padding:8px 10px; margin-bottom:10px; }'
+        + '#printOverlay .print-toolbar button { font-size:16px; padding:8px 16px; border-radius:6px; border:1px solid #999; background:#fff; cursor:pointer; }'
+        + '#printOverlay .print-toolbar .pt-print { background:#1565c0; color:#fff; border-color:#1565c0; font-weight:700; }'
+        + '#printOverlay .print-toolbar .pt-hint { font-size:12px; color:#555; }'
+        + '@media print { body > *:not(#printOverlay) { display:none !important; } #printOverlay { position:static; padding:4mm; overflow:visible; } #printOverlay .print-toolbar { display:none !important; } #printOverlay div { page-break-inside:avoid; } }';
+      document.head.appendChild(st);
+      const ov = document.createElement('div');
+      ov.id = 'printOverlay';
+      ov.innerHTML = toolbar + blocks;
+      document.body.appendChild(ov);
+      window.__closePrint = function(){
+        ov.remove(); st.remove();
+        window.__closePrint = null;
+      };
+    }
 
 
     // ===== 複数人の交換案（A⇔B⇔C／A⇔B・A⇔C／A⇔B＋C）：全員の時間割ツールチップ =====
