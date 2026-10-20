@@ -470,13 +470,48 @@
       cursor: not-allowed;
       box-shadow: none;
     }
+
+    #ttCalendar { display:inline-block; margin:6px 0 10px; padding:8px 10px; background:#fff; border:1px solid #cfd8dc; border-radius:8px; font-size:0.85rem; user-select:none; }
+    #ttCalendar .cal-head { display:flex; align-items:center; gap:6px; margin-bottom:4px; }
+    #ttCalendar .cal-title { font-weight:700; flex:1; text-align:center; }
+    #ttCalendar .cal-nav { border:1px solid #b0bec5; background:#f5f7f8; border-radius:4px; padding:1px 8px; cursor:pointer; font-size:0.85rem; }
+    #ttCalendar table { border-collapse:collapse; width:100%; }
+    #ttCalendar th, #ttCalendar td { width:2.1em; height:2em; text-align:center; padding:0; }
+    #ttCalendar th { font-size:0.75rem; color:#607d8b; font-weight:600; }
+    #ttCalendar th.sun, #ttCalendar td.sun { color:#c62828; }
+    #ttCalendar th.sat, #ttCalendar td.sat { color:#1565c0; }
+    #ttCalendar td span { display:inline-block; width:1.8em; line-height:1.8em; border-radius:50%; }
+    #ttCalendar td.other span { opacity:0.3; }
+    #ttCalendar td.today span { background:#1976d2; color:#fff; font-weight:700; }
+    #ttCalendar td.switch span { background:#ef6c00; color:#fff; font-weight:700; }
+    #ttCalendar td.today.switch span { background:#ef6c00; box-shadow:0 0 0 2px #fff, 0 0 0 4px #1976d2; }
+    #ttCalendar .cal-legend { margin-top:4px; font-size:0.75rem; color:#455a64; line-height:1.6; }
+    #ttCalendar .dot { display:inline-block; width:0.8em; height:0.8em; border-radius:50%; margin-right:3px; vertical-align:-1px; }
+    #ttCalendar #calStatus { margin-top:2px; font-weight:600; font-size:0.8rem; }
+    #ttBadge { cursor:pointer; user-select:none; transition:filter .15s; }
+    #ttBadge:hover { filter:brightness(1.15); }
+    #ttBadge:focus-visible { outline:2px solid #1976d2; outline-offset:2px; }
   </style>
 
   <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 </head><body>
-  <h1>授業の交換先をすぐ見つける君 ©Takahiro Iimura <span id="ttBadge">新時間割</span></h1>
+  <h1>授業の交換先をすぐ見つける君 ©Takahiro Iimura <span id="ttBadge" role="button" tabindex="0" title="クリックで新旧時間割を切り替え">新時間割</span></h1>
   <p id="updateInfo">読み込み中…</p>
+  <div id="ttCalendar" aria-label="カレンダー">
+    <div class="cal-head">
+      <button type="button" class="cal-nav" id="calPrev" aria-label="前の月">◀</button>
+      <span class="cal-title" id="calTitle"></span>
+      <button type="button" class="cal-nav" id="calNext" aria-label="次の月">▶</button>
+      <button type="button" class="cal-nav" id="calToday">今日</button>
+    </div>
+    <table><thead></thead><tbody id="calBody"></tbody></table>
+    <div class="cal-legend">
+      <span><i class="dot" style="background:#1976d2"></i>今日</span>　
+      <span><i class="dot" style="background:#ef6c00"></i>時間割切替日（新時間割の開始）</span>
+    </div>
+    <div id="calStatus"></div>
+  </div>
 <img src="images/photo.png"
      alt="写真"
      style="width:10%; height:auto; float:right; margin-right:100px;">
@@ -627,6 +662,8 @@
   </div>
 
   <script>
+    // 新時間割の開始日（この日の0:00から新時間割）。初期表示の自動切替とカレンダーのハイライトで共用
+    const TIMETABLE_SWITCH_DATE = new Date(2026, 9, 22, 0, 0, 0);
     // ===== CSV設定トグル =====
     const toggleTimetableBtn = document.getElementById('toggleTimetableBtn');
     const timetablePanel = document.getElementById('timetablePanel');
@@ -7959,11 +7996,66 @@
         loadLessonsFromTextJH(EMBEDDED_LESSONS_JH_NEW_CSV, 'new');
       // 初期表示：2026-10-22 0:00（端末のローカル時刻）以降は新時間割、それ以前は旧時間割
       // ※ 新時間割＝10/22〜の時間割 ／ 旧時間割＝10/21までの時間割（手動切替は従来どおり可能）
-      const NEW_TIMETABLE_START = new Date(2026, 9, 22, 0, 0, 0);
-      switchTimetable(new Date() >= NEW_TIMETABLE_START ? 'new' : 'old');
+      switchTimetable(new Date() >= TIMETABLE_SWITCH_DATE ? 'new' : 'old');
       updateTeacherATimetable();
       // 起動時CSVロードを1回分として記録
       recordCsvLoad();
       renderUpdateInfo();
     });
-  </script></body></html>
+  </script>
+  <script>
+  // ===== カレンダー（今日／時間割切替日のハイライト） =====
+  (function(){
+    const WD = ['日','月','火','水','木','金','土'];
+    const sw = TIMETABLE_SWITCH_DATE;
+    let viewY, viewM;
+    const same = (a,b)=> a.getFullYear()===b.getFullYear() && a.getMonth()===b.getMonth() && a.getDate()===b.getDate();
+    function goToday(){ const n=new Date(); viewY=n.getFullYear(); viewM=n.getMonth(); }
+    function render(){
+      const now = new Date();
+      document.getElementById('calTitle').textContent = viewY + '年' + (viewM+1) + '月';
+      document.querySelector('#ttCalendar thead').innerHTML = '<tr>' + WD.map((w,i)=>'<th class="'+(i===0?'sun':i===6?'sat':'')+'">'+w+'</th>').join('') + '</tr>';
+      const first = new Date(viewY, viewM, 1);
+      const start = new Date(viewY, viewM, 1 - first.getDay());
+      const weeks = Math.ceil((first.getDay() + new Date(viewY, viewM+1, 0).getDate())/7);
+      let html = '';
+      for(let r=0;r<weeks;r++){
+        html += '<tr>';
+        for(let c=0;c<7;c++){
+          const d = new Date(start.getFullYear(), start.getMonth(), start.getDate() + r*7 + c);
+          const cls = [];
+          if(c===0) cls.push('sun'); if(c===6) cls.push('sat');
+          if(d.getMonth()!==viewM) cls.push('other');
+          if(same(d,now)) cls.push('today');
+          if(same(d,sw)) cls.push('switch');
+          const title = same(d,sw) ? ' title="新時間割の開始日"' : (same(d,now) ? ' title="今日"' : '');
+          html += '<td class="'+cls.join(' ')+'"'+title+'><span>'+d.getDate()+'</span></td>';
+        }
+        html += '</tr>';
+      }
+      document.getElementById('calBody').innerHTML = html;
+      const t0 = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+      const diff = Math.round((new Date(sw.getFullYear(), sw.getMonth(), sw.getDate()) - t0)/86400000);
+      const label = (sw.getMonth()+1)+'/'+sw.getDate()+'('+WD[sw.getDay()]+')';
+      document.getElementById('calStatus').textContent =
+        diff>0 ? '新時間割（'+label+'〜）まであと'+diff+'日' :
+        diff===0 ? '今日から新時間割です' : '新時間割に切替済み（'+label+'〜）';
+    }
+    function shift(n){ const d=new Date(viewY, viewM+n, 1); viewY=d.getFullYear(); viewM=d.getMonth(); render(); }
+    document.getElementById('calPrev').addEventListener('click',()=>shift(-1));
+    document.getElementById('calNext').addEventListener('click',()=>shift(1));
+    document.getElementById('calToday').addEventListener('click',()=>{ goToday(); render(); });
+    goToday(); render();
+  })();
+  </script>
+
+  <script>
+  // タイトル横のバッジをクリック（またはEnter/Space）で新旧時間割を切り替え
+  (function(){
+    const badge = document.getElementById('ttBadge');
+    const toggle = ()=> switchTimetable(currentTimetable === 'new' ? 'old' : 'new');
+    badge.addEventListener('click', toggle);
+    badge.addEventListener('keydown', e=>{ if(e.key==='Enter' || e.key===' '){ e.preventDefault(); toggle(); } });
+  })();
+  </script>
+</body></html>
