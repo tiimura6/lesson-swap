@@ -498,7 +498,7 @@
 </head><body>
   <h1>授業の交換先をすぐ見つける君 ©Takahiro Iimura <span id="ttBadge" role="button" tabindex="0" title="クリックで新旧時間割を切り替え">新時間割</span></h1>
   <p id="updateInfo">読み込み中…</p>
-  <div id="ttCalendar" aria-label="カレンダー">
+  <div id="ttCalendar" aria-label="カレンダー" style="float:right; margin-right:100px;">
     <div class="cal-head">
       <button type="button" class="cal-nav" id="calPrev" aria-label="前の月">◀</button>
       <span class="cal-title" id="calTitle"></span>
@@ -512,9 +512,6 @@
     </div>
     <div id="calStatus"></div>
   </div>
-<img src="images/photo.png"
-     alt="写真"
-     style="width:10%; height:auto; float:right; margin-right:100px;">
 
   <div class="layout-main">
     <div class="control-column">
@@ -590,23 +587,6 @@
   <hr class="hr" />
 
   <div style="display:flex;flex-direction:column;gap:6px;align-items:flex-start;">
-    <button id="toggleTimetableBtn" type="button" class="btn" aria-controls="timetablePanel" aria-expanded="false">
-      時間割を切り替え
-    </button>
-
-    <div id="timetablePanel" class="hidden" style="padding:10px 14px;background:#f0f4ff;border:1px solid #b0c4ef;border-radius:6px;margin-bottom:4px;width:100%;box-sizing:border-box;">
-      <div style="display:flex;align-items:center;gap:16px;font-size:0.95rem;flex-wrap:wrap;">
-        <strong>時間割：</strong>
-        <label style="cursor:pointer;display:flex;align-items:center;gap:5px;">
-          <input type="radio" name="timetableVersion" value="old" id="ttOld"> 旧時間割
-        </label>
-        <label style="cursor:pointer;display:flex;align-items:center;gap:5px;">
-          <input type="radio" name="timetableVersion" value="new" id="ttNew" checked> 新時間割
-        </label>
-        <span id="timetableVersionLabel" style="margin-left:auto;font-size:0.85em;color:#555;">現在: 新時間割</span>
-      </div>
-    </div>
-
     <button id="toggleCsvBtn" type="button" class="btn" aria-controls="csvPanel" aria-expanded="false">
       管理者用
     </button>
@@ -663,15 +643,8 @@
 
   <script>
     // 新時間割の開始日（この日の0:00から新時間割）。初期表示の自動切替とカレンダーのハイライトで共用
-    const TIMETABLE_SWITCH_DATE = new Date(2026, 9, 22, 0, 0, 0);
+    const TIMETABLE_SWITCH_DATE = new Date(2026, 9, 26, 0, 0, 0);
     // ===== CSV設定トグル =====
-    const toggleTimetableBtn = document.getElementById('toggleTimetableBtn');
-    const timetablePanel = document.getElementById('timetablePanel');
-    toggleTimetableBtn.addEventListener('click', () => {
-      const nowHidden = timetablePanel.classList.toggle('hidden');
-      toggleTimetableBtn.setAttribute('aria-expanded', String(!nowHidden));
-      toggleTimetableBtn.textContent = nowHidden ? '時間割を切り替え' : '時間割を切り替え（閉じる）';
-    });
 
     const toggleCsvBtn = document.getElementById('toggleCsvBtn');
     const csvPanel  = document.getElementById('csvPanel');
@@ -5067,21 +5040,11 @@
         lessonsHS = lessonsHS_old;
         lessonsJH = lessonsJH_old;
       }
-      // ラジオ同期
-      const radio = document.querySelector('input[name="timetableVersion"][value="' + version + '"]');
-      if (radio) radio.checked = true;
-      const label = document.getElementById('timetableVersionLabel');
-      if (label) label.textContent = '現在: ' + (version === 'new' ? '新時間割' : '旧時間割');
       // タイトルバッジ更新
       const badge = document.getElementById('ttBadge');
       if (badge) {
         badge.textContent = version === 'new' ? '新時間割' : '旧時間割';
         badge.className   = version === 'new' ? '' : 'old';
-      }
-      // ボタンテキストにも現在の時間割を反映
-      const ttBtn = document.getElementById('toggleTimetableBtn');
-      if (ttBtn && timetablePanel && !timetablePanel.classList.contains('hidden')) {
-        ttBtn.textContent = '時間割を切り替え（閉じる）';
       }
       rebuildLessons();
       clearTables();
@@ -5105,13 +5068,6 @@
     fileLessonsJH_new && fileLessonsJH_new.addEventListener('change',e=>{
       if(e.target.files[0]) loadLessonsJH(e.target.files[0], 'new');
     });
-    // ラジオボタンで手動切り替え
-    document.querySelectorAll('input[name="timetableVersion"]').forEach(radio => {
-      radio.addEventListener('change', e => {
-        if (e.target.checked) switchTimetable(e.target.value);
-      });
-    });
-
     // ===== 教員選択UI =====
     function filterAndPopulateTeacherOptions(sel, list, term, placeholder, keepValue){
       sel.innerHTML = "<option value=\"\">" + placeholder + "</option>";
@@ -7995,7 +7951,7 @@
       if(typeof EMBEDDED_LESSONS_JH_NEW_CSV !== 'undefined' && EMBEDDED_LESSONS_JH_NEW_CSV.trim().split('\n').length > 1)
         loadLessonsFromTextJH(EMBEDDED_LESSONS_JH_NEW_CSV, 'new');
       // 初期表示：2026-10-22 0:00（端末のローカル時刻）以降は新時間割、それ以前は旧時間割
-      // ※ 新時間割＝10/22〜の時間割 ／ 旧時間割＝10/21までの時間割（手動切替は従来どおり可能）
+      // ※ 新時間割＝10/26〜の時間割 ／ 旧時間割＝10/25までの時間割（手動切替は従来どおり可能）
       switchTimetable(new Date() >= TIMETABLE_SWITCH_DATE ? 'new' : 'old');
       updateTeacherATimetable();
       // 起動時CSVロードを1回分として記録
