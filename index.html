@@ -514,7 +514,7 @@
     #datePickPanel.hidden { display:none; }
     #datePickPanel .dp-title { font-weight:700; font-size:0.95rem; margin-bottom:4px; }
     #datePickPanel .dp-opt { display:flex; align-items:center; gap:6px; margin:2px 0 6px; font-size:0.9rem; cursor:pointer; }
-    #datePickPanel .dp-foot { display:flex; justify-content:flex-end; gap:8px; margin-top:8px; position:sticky; bottom:0; background:#e8f5e9; padding-top:4px; }
+    #datePickPanel .dp-foot { display:flex; justify-content:flex-start; gap:8px; margin-top:8px; position:sticky; bottom:0; background:#e8f5e9; padding-top:4px; }
     #datePickPanel .dp-head { font-weight:600; margin-bottom:6px; font-size:0.85rem; }
     #datePickPanel .dp-plan { font-weight:700; margin:6px 0 2px; font-size:0.85rem; }
     #datePickPanel .dp-row { display:flex; align-items:center; gap:8px; padding:3px 6px; border-radius:4px; border:1px solid transparent; flex-wrap:wrap; }
@@ -570,8 +570,6 @@
       #ttCalendar, #ttCalendar.with-picker { margin-right:0; width:min(400px, 46vw); font-size:1rem; }
     }
     @media (max-width: 700px) {
-      #ttCalendar #datePickPanel { max-height:none; overflow:visible; }
-      #datePickPanel .dp-foot { position:static; }
       #ttCalendar, #ttCalendar.with-picker { float:none; width:auto; max-width:100%; margin:6px 0 10px; font-size:1rem; }
       #ttCalendar td { height:2.4em; }
       table { display:block; overflow-x:auto; -webkit-overflow-scrolling:touch; }
@@ -581,6 +579,14 @@
     @media (min-width: 1400px) {
       body { max-width: 1700px; }
     }
+
+    /* 印刷設定：画面下部に固定表示（ボトムシート） */
+    #datePickPanel { position:fixed; left:0; right:0; bottom:0; z-index:950; margin:0; border-radius:12px 12px 0 0;
+      max-height:42vh; overflow:auto; box-shadow:0 -4px 14px rgba(0,0,0,0.25); padding:8px 16px 10px; box-sizing:border-box; }
+    #datePickPanel.hidden { display:none; }
+    #datePickPanel .dp-foot { position:sticky; bottom:-10px; }
+    body.print-sheet-open { padding-bottom:44vh; }
+    #ttCalendar #datePickPanel { max-height:42vh; }
 </style>
 
   <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
@@ -602,21 +608,21 @@
   <div class="layout-main">
     <div class="control-column">
       <div class="select-with-search">
-        <label>教員A:
+        <label>担当者:
           <select id="teacherSelectA" disabled>
             <option value="">データ読み込み待機中</option>
           </select>
-          <input id="teacherSearchA" class="search-input" type="text" placeholder="名前で絞り込み" aria-label="教員A検索" />
+          <input id="teacherSearchA" class="search-input" type="text" placeholder="名前で絞り込み" aria-label="担当者検索" />
         </label>
       </div>
 
-      <label style="margin-top:0.8rem;">教員B（合同授業の場合）:
+      <label style="margin-top:0.8rem;display:none;">教員B（合同授業の場合）:
         <select id="teacherSelectB" disabled>
           <option value="">教員Bを選択</option>
         </select>
       </label>
 
-      <label style="margin-top:0.8rem;">教員C（合同授業の場合）:
+      <label style="margin-top:0.8rem;display:none;">教員C（合同授業の場合）:
         <select id="teacherSelectC" disabled>
           <option value="">教員Cを選択</option>
         </select>
@@ -624,7 +630,7 @@
 
       <label style="margin-top:0.8rem;">交換したい授業:
         <select id="lessonSelect" disabled>
-          <option value="">教員A（合同授業の場合B・C）を選んでください</option>
+          <option value="">担当者を選んでください</option>
         </select>
       </label>
 
@@ -634,11 +640,11 @@
   </div>
 
   <div id="globalPrintBar" class="print-actions-bar hidden">
+    <button type="button" class="print-btn" id="datePickBtn" aria-expanded="false" aria-controls="datePickPanel">🖨 印刷…</button>
     <div class="print-bar-left">
       <span class="pb-count">✓ 選択 <strong id="printSelectedCount">0</strong> 件</span>
       <button type="button" class="clear-print-btn" id="clearPrintCartBtn">クリア</button>
     </div>
-    <button type="button" class="print-btn" id="datePickBtn" aria-expanded="false" aria-controls="datePickPanel">🖨 印刷…</button>
   </div>
 
   <div id="datePickPanel" class="hidden">
@@ -647,8 +653,8 @@
     <div class="dp-head">実施日（任意）：枠を選んでカレンダーの日付をクリック</div>
     <div id="datePickBody"></div>
     <div class="dp-foot">
-      <button type="button" class="clear-print-btn" id="datePickClose">閉じる</button>
       <button type="button" class="print-btn" id="executePrintBtn">🖨 印刷</button>
+      <button type="button" class="clear-print-btn" id="datePickClose">閉じる</button>
     </div>
   </div>
 
@@ -5761,12 +5767,12 @@
     let allTeacherList = [];
     function enableTeacherSelects(list){
       allTeacherList = list.slice();
-      populateTeacherOptions(teacherSelectA, list, '教員Aを選択');
+      populateTeacherOptions(teacherSelectA, list, '担当者を選択');
       populateTeacherOptions(teacherSelectB, [],  '教員Bを選択');
       populateTeacherOptions(teacherSelectC, [],  '教員Cを選択');
       teacherSearchA.value = '';
       lessonSelect.disabled = true;
-      lessonSelect.innerHTML = '<option value="">教員A（合同授業の場合B・C）を選んでください</option>';
+      lessonSelect.innerHTML = '<option value="">担当者を選んでください</option>';
       clearTables();
       updateTeacherATimetable();
       printCart.clear();
@@ -5794,7 +5800,7 @@
         teacherSelectA,
         allTeacherList,
         term,
-        '教員Aを選択',
+        '担当者を選択',
         prev
       );
 
@@ -6158,7 +6164,7 @@
       const a = teacherSelectA.value;
       if (!a) {
         teacherATimetableContainer.innerHTML =
-          "<h3>教員Aの時間割</h3><p class=\"muted\">教員Aを選択すると時間割と研修・会議予定が表示されます。</p>";
+          "<h3>担当者の時間割</h3><p class=\"muted\">担当者を選択すると時間割と研修・会議予定が表示されます。</p>";
         return;
       }
       const html = buildTeacherTimetableHTML([a], { clickableEmpty: true });
@@ -6847,7 +6853,7 @@
       if(!a){
         lessonSelect.disabled = true;
         lessonSelect.innerHTML =
-          "<option value=\"\">教員A（合同授業の場合B・C）を選んでください</option>";
+          "<option value=\"\">担当者を選んでください</option>";
         return;
       }
 
@@ -8993,18 +8999,18 @@
       if(open){
         showCalendar();
         // 日付の指定欄はカレンダーの中に移し、スクロールしなくても操作できるようにする
-        cal.appendChild(panel); cal.classList.add('with-picker');
+        document.body.classList.add('print-sheet-open');
         try { window.scrollTo({ top: 0, behavior: 'smooth' }); } catch(e) { window.scrollTo(0, 0); }
         const { boxes } = collect();
         active = (boxes.find(b => !dateSel[b.key]) || {}).key || null;
-      } else { active = null; cal.classList.remove('with-picker'); }
+      } else { active = null; document.body.classList.remove('print-sheet-open'); }
       render();
       if(!open) syncCalendar([]);
     });
     const closeBtn = document.getElementById('datePickClose');
     closeBtn && closeBtn.addEventListener('click', () => { if(isOpen()) btn.click(); });
     window.refreshDatePanel = function(){
-      if(printCart.size === 0){ panel.classList.add('hidden'); cal.classList.remove('with-picker'); btn.setAttribute('aria-expanded','false'); btn.textContent = '🖨 印刷…'; active = null; syncCalendar([]); return; }
+      if(printCart.size === 0){ panel.classList.add('hidden'); document.body.classList.remove('print-sheet-open'); btn.setAttribute('aria-expanded','false'); btn.textContent = '🖨 印刷…'; active = null; syncCalendar([]); return; }
       render();
     };
   })();
