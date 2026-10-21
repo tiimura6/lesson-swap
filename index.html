@@ -416,6 +416,10 @@
       cursor: pointer;
     }
     .print-actions-bar {
+      position: sticky;
+      top: 0;
+      z-index: 900;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.18);
       background: #fff9c4;
       border: 1px solid #fbc02d;
       padding: 5px 10px;
@@ -550,7 +554,7 @@
     #ttCalendar #calEvents .ce-sat2 { background:#b2ebf2; color:#006064; }
     #ttCalendar #calEvents ul { margin:2px 0 0 1.1em; padding:0; }
     #ttCalendar #calEvents .ce-none { color:#78909c; }
-    #ttCalendar #calEvents .ce-notes { margin-top:4px; padding-top:3px; border-top:1px dashed #cfd8dc; color:#455a64; font-size:0.75rem; }
+    #ttCalendar #calEvents ul.ce-notes { margin:6px 0 0 1.1em; padding:4px 0 0; border-top:1px dashed #cfd8dc; color:#455a64; font-size:0.85em; }
   
     /* ===== レスポンシブ調整（PCは大きめ、タブレット/スマホは自動縮小） ===== */
     html { font-size: clamp(15px, 0.4vw + 11px, 17px); }
@@ -592,16 +596,6 @@
       <button type="button" class="cal-nav" id="calToday">今日</button>
     </div>
     <table><thead></thead><tbody id="calBody"></tbody></table>
-    <div class="cal-legend">
-      <span><i class="dot" style="background:#1976d2"></i>今日</span>　
-      <span><i class="dot" style="background:#ef6c00"></i>時間割切替日（新時間割の開始）</span><br>
-      <span><i class="dot" style="background:#f8bbd0"></i>授業なし（日曜・祝日・休業日）</span>　
-      <span><i class="dot" style="background:#b2ebf2"></i>第二土曜休業日</span>　
-      <span><i class="dot" style="background:#1565c0;width:0.5em;height:0.5em"></i>高校の行事</span>　
-      <span><i class="dot" style="background:#2e7d32;width:0.5em;height:0.5em"></i>中学の行事</span>　
-      <span><i class="dot" style="background:#fce4ec;box-shadow:inset 0 0 0 2px #f06292"></i>片方のみ授業なし</span>
-    </div>
-    <div id="calStatus"></div>
     <div id="calEvents"></div>
   </div>
 
@@ -8838,7 +8832,7 @@
       const mk = viewY + '-' + String(viewM+1).padStart(2,'0');
       const nts = [];
       SCHOOLS.forEach(([sc]) => (sdata(sc).notes[mk] || []).forEach(t => nts.push(tag(sc) + esc(t))));
-      if(nts.length) html += '<div class="ce-notes">' + nts.join('　') + '</div>';
+      if(nts.length) html += '<ul class="ce-notes">' + nts.map(t => '<li>' + t + '</li>').join('') + '</ul>';
       if(missing.length) html += '<div class="ce-none" style="margin-top:4px;">' + missing.join('・') + 'の行事予定は未登録</div>';
       box.innerHTML = html;
     }
@@ -8881,12 +8875,6 @@
       }
       document.getElementById('calBody').innerHTML = html;
       renderEvents();
-      const t0 = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-      const diff = Math.round((new Date(sw.getFullYear(), sw.getMonth(), sw.getDate()) - t0)/86400000);
-      const label = (sw.getMonth()+1)+'/'+sw.getDate()+'('+WD[sw.getDay()]+')';
-      document.getElementById('calStatus').textContent =
-        diff>0 ? '新時間割（'+label+'〜）まであと'+diff+'日' :
-        diff===0 ? '今日から新時間割です' : '新時間割に切替済み（'+label+'〜）';
     }
     function shift(n){ const d=new Date(viewY, viewM+n, 1); viewY=d.getFullYear(); viewM=d.getMonth(); render(); }
     document.getElementById('calPrev').addEventListener('click',()=>shift(-1));
