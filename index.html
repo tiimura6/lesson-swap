@@ -491,6 +491,56 @@
     #ttBadge { cursor:pointer; user-select:none; transition:filter .15s; }
     #ttBadge:hover { filter:brightness(1.15); }
     #ttBadge:focus-visible { outline:2px solid #1976d2; outline-offset:2px; }
+    #ttCalendar { float:right; margin-right:100px; width:340px; box-sizing:border-box; }
+    #ttCalendar.cal-hidden { display:none !important; }
+    @media (max-width: 700px) {
+      #ttCalendar { float:none; display:block !important; margin:6px 0 10px; width:auto; max-width:100%; box-sizing:border-box; }
+      #ttCalendar.cal-hidden { display:none !important; }
+      #ttCalendar table { width:100%; }
+      #ttCalendar th, #ttCalendar td { width:auto; }
+    }
+    #datePickPanel { background:#e8f5e9; border:1px solid #66bb6a; border-radius:6px; padding:8px 12px; margin:6px 0 10px; font-size:0.9rem; }
+    #datePickPanel.hidden { display:none; }
+    #datePickPanel .dp-head { font-weight:600; margin-bottom:6px; font-size:0.85rem; }
+    #datePickPanel .dp-plan { font-weight:700; margin:6px 0 2px; font-size:0.85rem; }
+    #datePickPanel .dp-row { display:flex; align-items:center; gap:8px; padding:3px 6px; border-radius:4px; border:1px solid transparent; flex-wrap:wrap; }
+    #datePickPanel .dp-row.active { background:#fff; border-color:#2e7d32; box-shadow:0 0 0 2px #a5d6a7; }
+    #datePickPanel .dp-name { flex:1; min-width:10em; }
+    #datePickPanel .dp-set { border:1px solid #2e7d32; background:#fff; border-radius:4px; padding:2px 10px; cursor:pointer; font-size:0.85rem; min-width:7em; }
+    #datePickPanel .dp-row.active .dp-set { background:#2e7d32; color:#fff; }
+    #datePickPanel .dp-clr { border:none; background:none; cursor:pointer; color:#c62828; font-size:1rem; }
+    #datePickPanel .dp-warn { color:#c62828; font-size:0.78rem; font-weight:700; }
+    #ttCalendar.with-picker { width:360px; max-width:100%; box-sizing:border-box; }
+    @media (max-width: 700px) { #ttCalendar.with-picker { width:auto; } }
+    #ttCalendar .hidden { display:none; }
+    #ttCalendar #datePickPanel { margin:8px 0 0; padding:6px 8px; max-height:50vh; overflow:auto; }
+    #ttCalendar td.pickable span { cursor:pointer; }
+    #ttCalendar.picking { box-shadow:0 0 0 3px #66bb6a; }
+    #ttCalendar td.picked span { box-shadow:0 0 0 2px #2e7d32; }
+    #ttCalendar td.picked:not(.today):not(.switch) span { background:#c8e6c9; font-weight:700; }
+    #ttCalendar td.off:not(.today):not(.switch) span { background:#f8bbd0; color:#880e4f; }
+    #ttCalendar td.sat2:not(.today):not(.switch) span { background:#b2ebf2; color:#006064; }
+    #ttCalendar td.ev-hs span, #ttCalendar td.ev-jh span { position:relative; }
+    #ttCalendar td.ev-hs span::after, #ttCalendar td.ev-jh span::before { content:''; position:absolute; bottom:1px; width:4px; height:4px; border-radius:50%; }
+    #ttCalendar td.ev-hs span::after { background:#1565c0; left:50%; margin-left:-2px; }
+    #ttCalendar td.ev-jh span::before { background:#2e7d32; left:50%; margin-left:-2px; }
+    #ttCalendar td.ev-hs.ev-jh span::after { margin-left:1px; }
+    #ttCalendar td.ev-hs.ev-jh span::before { margin-left:-5px; }
+    #ttCalendar td.today.ev-hs span::after, #ttCalendar td.switch.ev-hs span::after, #ttCalendar td.today.ev-jh span::before, #ttCalendar td.switch.ev-jh span::before { background:#fff; }
+    #ttCalendar td.off-part:not(.today):not(.switch) span { background:#fce4ec; box-shadow:inset 0 0 0 2px #f06292; color:#880e4f; }
+    #ttCalendar .ce-tag { display:inline-block; font-size:0.7rem; font-weight:700; color:#fff; border-radius:3px; padding:0 4px; margin-right:4px; line-height:1.4; }
+    #ttCalendar .ce-tag.hs { background:#1565c0; } #ttCalendar .ce-tag.jh { background:#2e7d32; }
+    #ttCalendar td.sel span { outline:2px solid #5e35b1; outline-offset:1px; }
+    #ttCalendar td[data-iso] span { cursor:pointer; }
+    #ttCalendar .cal-school { font-size:0.8rem; padding:1px 2px; }
+    #ttCalendar #calEvents { margin-top:6px; padding:6px 8px; border-top:1px solid #cfd8dc; font-size:0.8rem; line-height:1.5; max-height:14em; overflow:auto; }
+    #ttCalendar #calEvents .ce-date { font-weight:700; }
+    #ttCalendar #calEvents .ce-badge { display:inline-block; font-size:0.72rem; font-weight:700; padding:0 6px; border-radius:8px; margin-left:4px; }
+    #ttCalendar #calEvents .ce-off { background:#f8bbd0; color:#880e4f; }
+    #ttCalendar #calEvents .ce-sat2 { background:#b2ebf2; color:#006064; }
+    #ttCalendar #calEvents ul { margin:2px 0 0 1.1em; padding:0; }
+    #ttCalendar #calEvents .ce-none { color:#78909c; }
+    #ttCalendar #calEvents .ce-notes { margin-top:4px; color:#455a64; font-size:0.75rem; }
   </style>
 
   <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
@@ -498,7 +548,7 @@
 </head><body>
   <h1>授業の交換先をすぐ見つける君 ©Takahiro Iimura <span id="ttBadge" role="button" tabindex="0" title="クリックで新旧時間割を切り替え">新時間割</span></h1>
   <p id="updateInfo">読み込み中…</p>
-  <div id="ttCalendar" aria-label="カレンダー" style="float:right; margin-right:100px;">
+  <div id="ttCalendar" aria-label="カレンダー">
     <div class="cal-head">
       <button type="button" class="cal-nav" id="calPrev" aria-label="前の月">◀</button>
       <span class="cal-title" id="calTitle"></span>
@@ -508,10 +558,17 @@
     <table><thead></thead><tbody id="calBody"></tbody></table>
     <div class="cal-legend">
       <span><i class="dot" style="background:#1976d2"></i>今日</span>　
-      <span><i class="dot" style="background:#ef6c00"></i>時間割切替日（新時間割の開始）</span>
+      <span><i class="dot" style="background:#ef6c00"></i>時間割切替日（新時間割の開始）</span><br>
+      <span><i class="dot" style="background:#f8bbd0"></i>授業なし（日曜・祝日・休業日）</span>　
+      <span><i class="dot" style="background:#b2ebf2"></i>第二土曜休業日</span>　
+      <span><i class="dot" style="background:#1565c0;width:0.5em;height:0.5em"></i>高校の行事</span>　
+      <span><i class="dot" style="background:#2e7d32;width:0.5em;height:0.5em"></i>中学の行事</span>　
+      <span><i class="dot" style="background:#fce4ec;box-shadow:inset 0 0 0 2px #f06292"></i>片方のみ授業なし</span>
     </div>
     <div id="calStatus"></div>
+    <div id="calEvents"></div>
   </div>
+  <button type="button" class="btn" id="calToggleBtn" aria-controls="ttCalendar" aria-expanded="true" style="margin:4px 0;">📅 カレンダーを隠す</button>
 
   <div class="layout-main">
     <div class="control-column">
@@ -555,8 +612,17 @@
       💡 交換案が <strong id="printSelectedCount">0</strong> 件チェックされています。
       <span class="muted">（別の授業やコマに切り替えて追加チェック可能です）</span>
       <button type="button" class="clear-print-btn" id="clearPrintCartBtn">選択をすべてクリア</button>
+      <label style="margin-left:12px;white-space:nowrap;cursor:pointer;">
+        <input type="checkbox" id="printWithTimetables"> 関係する教員の時間割も印刷する
+      </label>
+      <button type="button" class="clear-print-btn" id="datePickBtn" aria-expanded="false" style="margin-left:12px;">実施日をカレンダーで指定</button>
     </div>
     <button type="button" class="print-btn" id="executePrintBtn">選択した案で印刷する</button>
+  </div>
+
+  <div id="datePickPanel" class="hidden">
+    <div class="dp-head">実施日の指定：枠を選んで、カレンダーの日付をクリックしてください（指定した日付が印刷用紙の「月・日」に入ります）</div>
+    <div id="datePickBody"></div>
   </div>
 
   <div id="results1to1" style="margin-top:1.2rem;"></div>
@@ -644,6 +710,307 @@
   <script>
     // 新時間割の開始日（この日の0:00から新時間割）。初期表示の自動切替とカレンダーのハイライトで共用
     const TIMETABLE_SWITCH_DATE = new Date(2026, 9, 26, 0, 0, 0);
+    // ===== 生徒用 年間行事予定（カレンダー表示用） =====
+    // days: 日付 → { e:行事の配列, f:'p'=休業日・授業なし（ピンク）／'c'=第二土曜休業日, c:原本の丸数字 }
+    // notes: 月 → 日付の決まっていない（月末欄の）予定
+    // 高校：2026年度 行事予定（前期・後期）暫定版（2026.4.27現在）より。中学は受領後に JH へ追加します。
+    const SCHOOL_EVENTS = {
+      HS: {"days":{
+      "2026-04-01":{"e":["学年始休業（～5日）"],"f":"p"},
+      "2026-04-02":{"f":"p"},
+      "2026-04-03":{"f":"p"},
+      "2026-04-04":{"f":"p"},
+      "2026-04-05":{"f":"p"},
+      "2026-04-06":{"e":["前期始業式"]},
+      "2026-04-07":{"e":["第79回入学式（2・3年生自宅学習）"]},
+      "2026-04-08":{"e":["対面式","第1回校外実力試験（全学年）","2年臨時LHR（1限）"]},
+      "2026-04-09":{"e":["全校個人写真撮影/LHR","3年（1、2限） 2年（3、4限） 1年（5、6限）","3年卒業アルバム個人写真撮影(1～4限）"]},
+      "2026-04-10":{"e":["新入生オリエンテーション（～13日）","1年自己理解調査（1、2限）"]},
+      "2026-04-11":{"e":["第二土曜休業日"],"f":"c"},
+      "2026-04-12":{"f":"p"},
+      "2026-04-13":{"e":["SNS講話（1年2限）","生徒会オリエンテーション（1年5・6限）"]},
+      "2026-04-14":{"e":["面接週間（～20日）","短縮時程"]},
+      "2026-04-15":{"e":["短縮時程"],"c":"①"},
+      "2026-04-16":{"e":["身体計測(5、6限）7限カット"]},
+      "2026-04-17":{"e":["短縮時程","講習（全学年～9/25 ）"]},
+      "2026-04-18":{"e":["1学年PTA委員会"]},
+      "2026-04-19":{"f":"p"},
+      "2026-04-20":{"e":["短縮時程"]},
+      "2026-04-21":{"e":["学年礼拝（2・3年）"]},
+      "2026-04-22":{"e":["校外学習（全学年）"],"c":"(②)"},
+      "2026-04-23":{"e":["学年礼拝（1年）","内科検診（１年3クラス12:30－13:20）"],"c":"①"},
+      "2026-04-24":{"e":["内科検診(1年3クラス12:30－13:20）"],"c":"②"},
+      "2026-04-25":{"e":["PTA理事会・ PTA監査"]},
+      "2026-04-26":{"f":"p"},
+      "2026-04-27":{"e":["内科検診（１年3クラス12:30－13:20）"],"c":"③"},
+      "2026-04-29":{"e":["昭和の日"],"f":"p"},
+      "2026-05-01":{"e":["第１回全統共通テスト模試（3年希望者）"]},
+      "2026-05-02":{"e":["第１回全統共通テスト模試（3年希望者）"]},
+      "2026-05-03":{"e":["憲法記念日"],"f":"p"},
+      "2026-05-04":{"e":["みどりの日"],"f":"p"},
+      "2026-05-05":{"e":["こどもの日"],"f":"p"},
+      "2026-05-06":{"e":["振替休日"],"f":"p"},
+      "2026-05-07":{"e":["学習到達度テスト（1年1～4限）"]},
+      "2026-05-09":{"e":["2時間授業","第1回授業公開（1・2限）","PTA・後援会総会","学級懇談会"]},
+      "2026-05-10":{"f":"p"},
+      "2026-05-11":{"e":["教育実習前期（～5/30）"]},
+      "2026-05-13":{"e":["学年礼拝(2・3年)","歯科検診（1～4限）"],"c":"①"},
+      "2026-05-14":{"e":["学年礼拝（1年）","1年心臓・結核検診(1～4限)","第1回全統記述模試(3年希望者6・7限理系)"]},
+      "2026-05-15":{"e":["第1回全統記述模試(3年希望者)"]},
+      "2026-05-16":{"e":["第二土曜休業振替休日"],"f":"c"},
+      "2026-05-17":{"f":"p"},
+      "2026-05-18":{"e":["2年PTA委員会・親子進路講演会"]},
+      "2026-05-19":{"e":["生徒総会(4限)","尿検査"],"c":"①"},
+      "2026-05-20":{"c":"④"},
+      "2026-05-21":{"e":["第1回校外模試（1・2年希望者）"]},
+      "2026-05-22":{"e":["3学年PTA委員会・進路講演会","1年結核検診未受検者検診（14：00～14：30）"]},
+      "2026-05-24":{"f":"p"},
+      "2026-05-25":{"e":["演劇鑑賞会","内科検診（2年4クラス12:30～13：20）"],"c":"④"},
+      "2026-05-27":{"e":["内科検診（2年5クラス12:30～13：20）"],"c":"⑤"},
+      "2026-05-28":{"e":["第2回校外実力試験（3年）","1年学年PTA全体会・親子進路講演会"]},
+      "2026-05-29":{"e":["第2回校外実力試験（3年）","3年A文・SGは1～5限通常授業"]},
+      "2026-05-30":{"e":["PTA理事会"]},
+      "2026-05-31":{"f":"p"},
+      "2026-06-01":{"e":["更衣","前期中間試験（～4日）"]},
+      "2026-06-03":{"c":"(②)"},
+      "2026-06-04":{"e":["指定校推薦説明会（3年希望者）"]},
+      "2026-06-06":{"e":["ホームカミングデイ（午後）"]},
+      "2026-06-07":{"f":"p"},
+      "2026-06-08":{"e":["内科検診（3年4クラス12:30～13：20）"],"c":"⑥"},
+      "2026-06-09":{"e":["尿検査"],"c":"②"},
+      "2026-06-10":{"e":["学年礼拝（2・3年）","歯科検診"],"c":"②"},
+      "2026-06-11":{"e":["学年礼拝（1年）","内科検診⑦（3年4クラス12:30～13：20）"]},
+      "2026-06-13":{"e":["第二土曜休業日"],"f":"c"},
+      "2026-06-14":{"f":"p"},
+      "2026-06-17":{"c":"③"},
+      "2026-06-20":{"e":["PTA全体研修会"]},
+      "2026-06-21":{"f":"p"},
+      "2026-06-22":{"e":["キリスト教週間（～27日）"]},
+      "2026-06-23":{"e":["1年心臓病検診未受診者（9：00-10：00）"]},
+      "2026-06-24":{"c":"④"},
+      "2026-06-26":{"e":["キリスト教講演会"]},
+      "2026-06-28":{"f":"p"},
+      "2026-06-29":{"e":["尿検査"],"c":"③"},
+      "2026-07-01":{"e":["学年礼拝（2・3年）"],"c":"①"},
+      "2026-07-02":{"e":["生徒会立会演説会・役員選挙（4限）","学年礼拝（1年）"]},
+      "2026-07-03":{"e":["第2回校外実力試験（1・2年）","第3回校外実力試験（3年）"]},
+      "2026-07-05":{"f":"p"},
+      "2026-07-08":{"e":["第1回共通テスト試験説明会（3年6限）"],"c":"②"},
+      "2026-07-11":{"e":["第二土曜休業日"],"f":"c"},
+      "2026-07-12":{"f":"p"},
+      "2026-07-15":{"c":"③"},
+      "2026-07-18":{"e":["閉講式（2時間授業）"]},
+      "2026-07-19":{"f":"p"},
+      "2026-07-20":{"e":["海の日"],"f":"p"},
+      "2026-07-21":{"e":["夏期休業（～8/27)","夏期講習・学習室開放・図書館開館","（～7/29、除土日曜）","三者面談（3年～29日、除土日曜）"],"f":"p"},
+      "2026-07-22":{"f":"p"},
+      "2026-07-23":{"f":"p"},
+      "2026-07-24":{"f":"p"},
+      "2026-07-25":{"e":["夏季休暇指定日","豪州短期留学プログラム（～8/8）","（Summer Festival at ICJH（9:00～12:00））"],"f":"p"},
+      "2026-07-26":{"e":["第2回全統共通テスト模試（3年希望者 茨大工）"],"f":"p"},
+      "2026-07-27":{"f":"p"},
+      "2026-07-28":{"f":"p"},
+      "2026-07-29":{"f":"p"},
+      "2026-07-30":{"f":"p"},
+      "2026-07-31":{"e":["学校見学会（午前）"],"f":"p"},
+      "2026-08-01":{"e":["学校見学会（午前）"],"f":"p"},
+      "2026-08-02":{"e":["学校見学会（午前）"],"f":"p"},
+      "2026-08-03":{"f":"p"},
+      "2026-08-04":{"f":"p"},
+      "2026-08-05":{"f":"p"},
+      "2026-08-06":{"f":"p"},
+      "2026-08-07":{"f":"p"},
+      "2026-08-08":{"f":"p"},
+      "2026-08-09":{"f":"p"},
+      "2026-08-10":{"f":"p"},
+      "2026-08-11":{"e":["山の日","部活動体験会"],"f":"p"},
+      "2026-08-12":{"f":"p"},
+      "2026-08-13":{"f":"p"},
+      "2026-08-14":{"f":"p"},
+      "2026-08-15":{"f":"p"},
+      "2026-08-16":{"f":"p"},
+      "2026-08-17":{"e":["夏期講習・学習室開放・図書館開館","（～8/26、除土日曜）"],"f":"p"},
+      "2026-08-18":{"f":"p"},
+      "2026-08-19":{"f":"p"},
+      "2026-08-20":{"f":"p"},
+      "2026-08-21":{"f":"p"},
+      "2026-08-22":{"f":"p"},
+      "2026-08-23":{"f":"p"},
+      "2026-08-24":{"f":"p"},
+      "2026-08-25":{"e":["第2回全統記述模試（3年希望）"],"f":"p"},
+      "2026-08-26":{"e":["第2回校外模試（1・2年希望）","第2回全統記述模試（3年希望）"],"f":"p"},
+      "2026-08-27":{"f":"p"},
+      "2026-08-28":{"e":["開講式"]},
+      "2026-08-30":{"f":"p"},
+      "2026-09-02":{"e":["学年礼拝(2・3年）"],"c":"④"},
+      "2026-09-03":{"e":["学年礼拝（1年）"]},
+      "2026-09-06":{"f":"p"},
+      "2026-09-07":{"e":["前期末試験（～10日）"]},
+      "2026-09-09":{"c":"（④）"},
+      "2026-09-10":{"e":["授業評価","第2回共通テスト説明会（3年希望者）"]},
+      "2026-09-12":{"e":["第二土曜休業日"],"f":"c"},
+      "2026-09-13":{"e":["Autumn Australia Program(～9/21)"],"f":"p"},
+      "2026-09-16":{"e":["第4回校外実力試験（3年）"],"c":"①"},
+      "2026-09-17":{"e":["第4回校外実力試験（3年 午前）","１学年PTA親子進路講演会（3・4現）"]},
+      "2026-09-18":{"e":["プレテスト準備（７限カット）"]},
+      "2026-09-19":{"e":["中学生対象プレテスト（中高生自宅学習）"],"f":"p"},
+      "2026-09-20":{"f":"p"},
+      "2026-09-21":{"e":["敬老の日"],"f":"p"},
+      "2026-09-22":{"e":["国民の休日"],"f":"p"},
+      "2026-09-23":{"e":["秋分の日"],"f":"p"},
+      "2026-09-24":{"e":["3時間授業（プレテスト採点）"]},
+      "2026-09-26":{"e":["PTA理事会"]},
+      "2026-09-27":{"f":"p"},
+      "2026-09-28":{"e":["前期終業式(4時間授業）"]},
+      "2026-09-29":{"e":["期末休業（～30日）"],"f":"p"},
+      "2026-09-30":{"f":"p"},
+      "2026-10-01":{"e":["更衣","後期始業式","3年特別編成授業Ⅰ期・前半（～12/22）"]},
+      "2026-10-04":{"f":"p"},
+      "2026-10-05":{"e":["三者面談（1・2年3時間授業）","学園防災避難訓練"]},
+      "2026-10-06":{"e":["三者面談（1・2年3時間授業）"]},
+      "2026-10-07":{"e":["三者面談（1・2年3時間授業）"],"c":"②"},
+      "2026-10-08":{"e":["三者面談（1・2年3時間授業）"]},
+      "2026-10-09":{"e":["3年進研記述模試（ＳＡ特進+希望者）","後期講習（1・2年～3/19）"]},
+      "2026-10-10":{"e":["第二土曜休業日"],"f":"c"},
+      "2026-10-11":{"f":"p"},
+      "2026-10-12":{"e":["スポーツの日"],"f":"p"},
+      "2026-10-14":{"e":["学年礼拝（2・3年）"],"c":"③"},
+      "2026-10-15":{"e":["学年礼拝（1年）"]},
+      "2026-10-16":{"e":["模擬授業ガイダンス（2年6，7限）"]},
+      "2026-10-17":{"e":["全校休業日"],"f":"p"},
+      "2026-10-18":{"f":"p"},
+      "2026-10-20":{"e":["2年英語プレゼンテーション発表会（3・4限）"]},
+      "2026-10-21":{"c":"④"},
+      "2026-10-22":{"e":["短縮時程"]},
+      "2026-10-24":{"e":["第2回授業公開（1・3年1・2限 2年1限）","2学年PTA・親子進路講演会（2・3限）","2学年海外研修旅行・修学旅行説明会（4限）"]},
+      "2026-10-25":{"f":"p"},
+      "2026-10-28":{"e":["金融リテラシー講座（3年7限）"],"c":"①"},
+      "2026-10-29":{"e":["第3回校外実力試験（2年 午前）","第5回校外実力試験（3年 午前）"]},
+      "2026-10-30":{"e":["第3回校外実力試験（1・2年）","第5回校外実力試験（3年）"]},
+      "2026-10-31":{"e":["学園祭準備"]},
+      "2026-11-01":{"f":"p"},
+      "2026-11-02":{"e":["学園祭生徒会企画・学園祭準備","さわやかマナーアップキャンペーン"]},
+      "2026-11-03":{"e":["文化の日","学園祭"]},
+      "2026-11-04":{"e":["学園祭振替休日"],"f":"p"},
+      "2026-11-08":{"f":"p"},
+      "2026-11-11":{"e":["創立記念礼拝（2・3年）","全統プレ共通テスト模試（3年希望者）"],"c":"②"},
+      "2026-11-12":{"e":["創立記念礼拝（1年）","全統プレ共通テスト模試（3年希望者）"]},
+      "2026-11-13":{"e":["県民の日"],"f":"p"},
+      "2026-11-14":{"e":["第二土曜休業日"],"f":"c"},
+      "2026-11-15":{"f":"p"},
+      "2026-11-16":{"e":["1・2年後期中間試験（～20日）","3年学年末試験（～20日）"]},
+      "2026-11-18":{"e":["創立記念休業日"],"f":"p"},
+      "2026-11-22":{"f":"p"},
+      "2026-11-23":{"e":["勤労感謝の日"],"f":"p"},
+      "2026-11-25":{"e":["学園ツリー点灯式"],"c":"③"},
+      "2026-11-26":{"e":["1年校内英語暗唱大会・ハレルヤ練習（5・6限）"]},
+      "2026-11-28":{"e":["3時間授業（2年）","海外研修旅行結団式(4限)","第1回中学入試（1・3年自宅学習）"]},
+      "2026-11-29":{"f":"p"},
+      "2026-11-30":{"e":["2年海外研修旅行（7泊8日）","クリスマス礼拝讃美歌練習（2年高入部）"]},
+      "2026-12-01":{"e":["3年三者面談（～21日除日曜）","2年修学旅行結団式（4限）"]},
+      "2026-12-02":{"e":["2年修学旅行（3泊4日）"],"c":"④"},
+      "2026-12-06":{"f":"p"},
+      "2026-12-07":{"e":["第3回共通テスト説明会（3年希望者）","2年高入部生自宅学習"]},
+      "2026-12-08":{"e":["2年海外研修旅行代休"]},
+      "2026-12-09":{"e":["2年一貫部生自宅学習"],"c":"①"},
+      "2026-12-11":{"e":["中学入試会場準備（3時間授業）"]},
+      "2026-12-12":{"e":["第二土曜休業日","第2回中学校入試"],"f":"c"},
+      "2026-12-13":{"f":"p"},
+      "2026-12-14":{"e":["指定校推薦合格者に対する指導（3年7限）"]},
+      "2026-12-16":{"c":"②"},
+      "2026-12-17":{"e":["クリスマス礼拝讃美歌練習（1年）"]},
+      "2026-12-19":{"e":["学園クリスマス"]},
+      "2026-12-20":{"e":["東進共通テスト本番レベル模試","（3年希望者校外会場）"],"f":"p"},
+      "2026-12-21":{"e":["クリスマス礼拝讃美歌練習（2、3年）","クリスマス礼拝リハーサル"]},
+      "2026-12-22":{"e":["クリスマス礼拝","閉講式"]},
+      "2026-12-23":{"e":["冬季休業（～1/7）","冬期講習・学習室開放・図書館開館（～28日）"],"f":"p"},
+      "2026-12-24":{"f":"p"},
+      "2026-12-25":{"f":"p"},
+      "2026-12-26":{"f":"p"},
+      "2026-12-27":{"f":"p"},
+      "2026-12-28":{"f":"p"},
+      "2026-12-29":{"f":"p"},
+      "2026-12-30":{"f":"p"},
+      "2026-12-31":{"f":"p"},
+      "2027-01-01":{"e":["元日"],"f":"p"},
+      "2027-01-02":{"f":"p"},
+      "2027-01-03":{"f":"p"},
+      "2027-01-04":{"f":"p"},
+      "2027-01-05":{"f":"p"},
+      "2027-01-06":{"f":"p"},
+      "2027-01-07":{"f":"p"},
+      "2027-01-08":{"e":["開講式","推薦入試会場準備(4時間授業)"]},
+      "2027-01-09":{"e":["第二土曜休業日","推薦入試"],"f":"c"},
+      "2027-01-10":{"f":"p"},
+      "2027-01-11":{"e":["成人の日"],"f":"p"},
+      "2027-01-12":{"e":["3年特別編成授業Ⅰ期・後半（～1/23）"]},
+      "2027-01-13":{"e":["学年礼拝（2年）"],"c":"③"},
+      "2027-01-14":{"e":["学年礼拝（1年）","第4回校外実力試験（2年午前）"]},
+      "2027-01-15":{"e":["第4回校外実力試験（1・2年）","第4回共通テスト説明会（3年希望者）"]},
+      "2027-01-16":{"e":["全校休業日","大学入試共通テスト"],"f":"p"},
+      "2027-01-17":{"e":["大学入試共通テスト"],"f":"p"},
+      "2027-01-18":{"e":["一般入試会場準備（3時間授業）","共通テスト自己採点（3年）"]},
+      "2027-01-19":{"e":["一般入試（中高生自宅学習）"]},
+      "2027-01-20":{"e":["一般入試採点（中高生自宅学習）"]},
+      "2027-01-22":{"e":["特進・一貫SA選考試験"]},
+      "2027-01-24":{"f":"p"},
+      "2027-01-25":{"e":["3年特別編成授業Ⅱ期・前半（～2/24）"]},
+      "2027-01-27":{"c":"④"},
+      "2027-01-28":{"e":["第3回校外模試（2年希望者）"]},
+      "2027-01-29":{"e":["第3回校外模試（1・2年希望者）"]},
+      "2027-01-30":{"e":["3年PTA委員会"]},
+      "2027-01-31":{"f":"p"},
+      "2027-02-03":{"e":["学年礼拝（2年）"],"c":"②"},
+      "2027-02-04":{"e":["学年礼拝（1年）"]},
+      "2027-02-06":{"e":["第1回新入生招集日"]},
+      "2027-02-07":{"f":"p"},
+      "2027-02-10":{"c":"①"},
+      "2027-02-11":{"e":["建国記念の日"],"f":"p"},
+      "2027-02-13":{"e":["第二土曜休業日"],"f":"c"},
+      "2027-02-14":{"f":"p"},
+      "2027-02-15":{"e":["1・2年学年末試験（～18日）"]},
+      "2027-02-17":{"c":"（②）"},
+      "2027-02-19":{"e":["推薦入試振替休日"],"f":"p"},
+      "2027-02-20":{"e":["PTA理事会"]},
+      "2027-02-21":{"f":"p"},
+      "2027-02-22":{"e":["3年特別編成授業Ⅱ期・後半（～3/11）"]},
+      "2027-02-23":{"e":["天皇誕生日"],"f":"p"},
+      "2027-02-24":{"e":["食育講座（1年5限）"],"c":"③"},
+      "2027-02-25":{"e":["共通テスト早期対策模試（2年希望者）"]},
+      "2027-02-26":{"e":["共通テスト早期対策模試（2年希望者）"]},
+      "2027-02-27":{"e":["卒業記念礼拝"]},
+      "2027-02-28":{"f":"p"},
+      "2027-03-01":{"e":["第77回卒業証書授与式"]},
+      "2027-03-02":{"e":["古典芸能鑑賞会（1・2年 5・6限）"]},
+      "2027-03-03":{"e":["学年礼拝（2年）","生徒指導講話（1年・薬物 3・4限）"],"c":"④"},
+      "2027-03-04":{"e":["学年礼拝（1年）","生徒指導講話（2年・交通安全 4限）"]},
+      "2027-03-06":{"e":["第3回授業公開（1、2限） ※２年探究発表会","2学年PTA委員会/2学年PTA親子進路講演会","1学年PTA委員会"]},
+      "2027-03-07":{"f":"p"},
+      "2027-03-09":{"e":["中学校卒業式"]},
+      "2027-03-10":{"e":["探究「マイ・プロ発表会」"],"c":"①"},
+      "2027-03-11":{"e":["4時間授業"]},
+      "2027-03-12":{"e":["クラスマッチ（1・2年）"]},
+      "2027-03-13":{"e":["第二土曜休業日"],"f":"c"},
+      "2027-03-14":{"f":"p"},
+      "2027-03-15":{"e":["進路別ガイダンス"]},
+      "2027-03-17":{"c":"②"},
+      "2027-03-18":{"e":["クラスマッチ予備日（1・2年）"]},
+      "2027-03-19":{"e":["1・2年校内弁論大会（1・2限）"]},
+      "2027-03-20":{"e":["修了式","第2回新入生招集日"]},
+      "2027-03-21":{"e":["春分の日"],"f":"p"},
+      "2027-03-22":{"e":["振替休日"],"f":"p"},
+      "2027-03-23":{"e":["学年末休業（～31日）","春期講習（～26日学習指導部）"],"f":"p"},
+      "2027-03-24":{"f":"p"},
+      "2027-03-25":{"f":"p"},
+      "2027-03-26":{"f":"p"},
+      "2027-03-27":{"f":"p"},
+      "2027-03-28":{"f":"p"},
+      "2027-03-29":{"f":"p"},
+      "2027-03-30":{"f":"p"},
+      "2027-03-31":{"f":"p"}
+    },"notes":{"2026-04":["新入生図書館オリエンテーション","構成的グループエンカウンター（1年高入生対象）（中旬）","避難経路の確認"],"2026-06":["小論文模試(3年)","PTA大学見学会"],"2026-07":["野球応援","PTA大学見学会（茨城キリスト教大学）"],"2026-08":["看護体験（希望者）"],"2026-09":["小論文模試（1・2年）"],"2026-10":["図書館読書週間展示","高校生におけるライフプラン教育（2年）"],"2026-12":["図書館クリスマス展示","駿台プレ共通テスト模試（3年希望者）自宅受験"],"2027-01":["小論文模試（１・２年）","冬期講習（3年希望者）","※高校入試日程は変更の可能性があります"],"2027-02":["学校環境衛生検査","図書館年間貸出上位者表彰"],"2027-03":["国際理解講演会（1・2年 5・6限)","カナダ短期留学プログラム"]}},
+      JH: { days:{}, notes:{} }
+    };
     // ===== CSV設定トグル =====
 
     const toggleCsvBtn = document.getElementById('toggleCsvBtn');
@@ -677,6 +1044,7 @@
 
     // 印刷保持用カート構造
     let printCart = new Map();
+    const dateSel = {};   // カレンダーで指定した実施日 { 枠キー: {m, d, iso} }
 
     const globalPrintBar = document.getElementById('globalPrintBar');
     const printSelectedCount = document.getElementById('printSelectedCount');
@@ -5031,7 +5399,20 @@
     fetchGitHubInfo();
     fetchPrintCount(); // _printCountText と renderUpdateInfo の定義後に呼び出す
 
+    // 時間割の切替で選択がリセットされないよう、教員A・B・C／交換したい授業を切替後に復元する
+    function restoreTeacherSelection(prev) {
+      if (!prev || !prev.a) return;
+      const has = (sel, v) => !!v && Array.from(sel.options).some(o => o.value === v);
+      const fire = sel => sel.dispatchEvent(new Event('change', { bubbles: true }));
+      if (!has(teacherSelectA, prev.a)) return;   // 切替先に存在しない教員は復元しない
+      teacherSelectA.value = prev.a; fire(teacherSelectA);
+      if (has(teacherSelectB, prev.b)) { teacherSelectB.value = prev.b; fire(teacherSelectB); }
+      if (has(teacherSelectC, prev.c)) { teacherSelectC.value = prev.c; fire(teacherSelectC); }
+      if (has(lessonSelect, prev.l)) { lessonSelect.value = prev.l; fire(lessonSelect); }
+    }
+
     function switchTimetable(version) {
+      const prevSel = { a: teacherSelectA.value, b: teacherSelectB.value, c: teacherSelectC.value, l: lessonSelect.value };
       currentTimetable = version;
       if (version === 'new') {
         lessonsHS = lessonsHS_new.length ? lessonsHS_new : lessonsHS_old;
@@ -5049,6 +5430,7 @@
       rebuildLessons();
       clearTables();
       updateTeacherATimetable();
+      restoreTeacherSelection(prevSel);
     }
 
     fileTrainings && fileTrainings.addEventListener('change',e=>{
@@ -6271,6 +6653,7 @@
       } else {
         globalPrintBar.classList.add('hidden');
       }
+      if (window.refreshDatePanel) window.refreshDatePanel();
     }
 
     function syncCheckboxesState() {
@@ -7336,30 +7719,23 @@
     bindTableCheckboxes(results1to1Div);
     bindTableCheckboxes(results3wayDiv);
 
-    executePrintBtn && executePrintBtn.addEventListener('click', () => {
-      if (!printCart.size) {
-        alert("印刷したい交換案のチェックボックスを選択してください。");
-        return;
-      }
-
-      // ── 印刷回数カウントアップ ────────────────────────────
-      fetch(COUNTER_HIT_URL)
-        .then(r => r.json())
-        .then(data => {
-          const n = typeof data.value === 'number' ? data.value : null;
-          if (n !== null) {
-            _printCountText = '累計授業交換数: ' + n + '回';
-            renderUpdateInfo();
-          }
-        })
-        .catch(() => {});
-
+    // 交換案の用紙（スリップ）をまとめて作る。dateSel＝カレンダーで指定した実施日、reg＝日付指定が必要な枠を集める配列（省略可）
+    function renderSlipBlocks(items, dateSel, reg) {
       // ── 共通ヘルパー ──────────────────────────────────────
       function ul(text, w) {
         return '<span style="display:inline-block;min-width:' + (w||'3em') + ';border-bottom:1.5px solid #000;text-align:center;padding:0 1px;vertical-align:bottom;">' + text + '</span>';
       }
       function blank(w) {
         return '<span style="display:inline-block;width:' + (w||'3em') + ';border-bottom:1.5px solid #000;vertical-align:bottom;">&nbsp;</span>';
+      }
+
+      // 実施日（月・日）。カレンダーで指定済みなら記入済みで、未指定なら空欄で出力。reg を渡すと、日付指定が必要な枠の一覧を集める
+      function dateInputs(item, label, day, period, subject, w) {
+        const key = (item.pId || '') + '|' + label + '|' + day + period;
+        if (reg) reg.push({ key: key, pId: item.pId || '', label: label, day: day, period: period, subject: subject || '' });
+        const sel = dateSel && dateSel[key];
+        w = w || '5em';
+        return sel ? ul(sel.m, w) + '月' + ul(sel.d, w) + '日' : blank(w) + '月' + blank(w) + '日';
       }
 
       // 授業テキスト「【高】月3限2年7組（文）論表」をパース
@@ -7478,14 +7854,14 @@
             + '<div style="' + ROW + '">' + ul(grade,'2em') + '年 ' + ul(classNum,'2em') + '組 &nbsp;' + bunriDisp + '</div>'
             + badge('A')
             + '<div style="' + BOX + '">'
-            +   '<div style="' + ROW + '">' + blank('5em') + '月' + blank('5em') + '日&nbsp;' + ul(day1,'1.5em') + '曜日&nbsp;' + ul(per1,'1.5em') + '時間目</div>'
+            +   '<div style="' + ROW + '">' + dateInputs(item, 'A', day1, per1, sub1) + '&nbsp;' + ul(day1,'1.5em') + '曜日&nbsp;' + ul(per1,'1.5em') + '時間目</div>'
             +   subjTeacherRows(sub1, teacher, ROW)
             +   '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>'
             + '</div>'
             + '<div style="text-align:center;font-size:20px;margin:1px 0;line-height:1;">⇅</div>'
             + badge('B')
             + '<div style="' + BOX + '">'
-            +   '<div style="' + ROW + '">' + blank('5em') + '月' + blank('5em') + '日&nbsp;' + ul(day2,'1.5em') + '曜日&nbsp;' + ul(per2,'1.5em') + '時間目</div>'
+            +   '<div style="' + ROW + '">' + dateInputs(item, 'B', day2, per2, sub2) + '&nbsp;' + ul(day2,'1.5em') + '曜日&nbsp;' + ul(per2,'1.5em') + '時間目</div>'
             +   subjTeacherRows(sub2, oppTeacher, ROW)
             +   '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>'
             + '</div>'
@@ -7518,7 +7894,7 @@
           return badge(badgeLabel)
             + '<div style="' + BOX + '">'
             + classRow
-            +   '<div style="' + ROW + '">' + blank('5em') + '月' + blank('5em') + '日&nbsp;' + ul(p.day,'1.5em') + '曜日&nbsp;' + ul(p.period,'1.5em') + '時間目</div>'
+            +   '<div style="' + ROW + '">' + dateInputs(item, badgeLabel, p.day, p.period, p.subject) + '&nbsp;' + ul(p.day,'1.5em') + '曜日&nbsp;' + ul(p.period,'1.5em') + '時間目</div>'
             +   subjTeacherRows(p.subject, boxInfo.teacher, ROW)
             +   '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>'
             + '</div>';
@@ -7576,7 +7952,7 @@
           return badge(badgeLabel)
             + '<div style="' + BOX + '">'
             + classRow
-            +   '<div style="' + ROW + '">' + blank('5em') + '月' + blank('5em') + '日&nbsp;' + ul(p.day,'1.5em') + '曜日&nbsp;' + ul(p.period,'1.5em') + '時間目</div>'
+            +   '<div style="' + ROW + '">' + dateInputs(item, badgeLabel, p.day, p.period, p.subject) + '&nbsp;' + ul(p.day,'1.5em') + '曜日&nbsp;' + ul(p.period,'1.5em') + '時間目</div>'
             +   subjTeacherRows(p.subject, boxInfo.teacher, ROW)
             +   '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>'
             + '</div>';
@@ -7618,7 +7994,7 @@
             + '<div style="' + BOX + '">'
             +   '<div style="' + ROW + '"><b>' + mv.text + '</b></div>'
             +   teacherRow(mv.teachers || [])
-            +   '<div style="' + ROW + '">' + mv.from + ' ➔ <b>' + mv.to + '</b>&emsp;実施日 ' + blank('3em') + '月' + blank('3em') + '日</div>'
+            +   '<div style="' + ROW + '">' + mv.from + ' ➔ <b>' + mv.to + '</b>&emsp;実施日 ' + dateInputs(item, labels[idx] || String(idx+1), String(mv.from).charAt(0), (String(mv.from).match(/\d+/) || [''])[0], mv.text, '3em') + '</div>'
             +   '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>'
             + '</div>';
         }
@@ -7638,7 +8014,6 @@
       }
 
       // ── 印刷ページ組み立て ────────────────────────────────
-      const items = Array.from(printCart.values());
       let blocks = '';
       items.forEach((item, idx) => {
         const sep = idx > 0 ? 'border-top:2px dashed #aaa;padding-top:14px;margin-top:14px;' : '';
@@ -7656,9 +8031,42 @@
         blocks += '<div style="' + sep + 'page-break-inside:avoid;">' + blockHtml + '</div>';
       });
 
+      return blocks;
+    }
+
+    executePrintBtn && executePrintBtn.addEventListener('click', () => {
+      if (!printCart.size) {
+        alert("印刷したい交換案のチェックボックスを選択してください。");
+        return;
+      }
+
+      // ── 印刷回数カウントアップ ────────────────────────────
+      fetch(COUNTER_HIT_URL)
+        .then(r => r.json())
+        .then(data => {
+          const n = typeof data.value === 'number' ? data.value : null;
+          if (n !== null) {
+            _printCountText = '累計授業交換数: ' + n + '回';
+            renderUpdateInfo();
+          }
+        })
+        .catch(() => {});
+
+      const items = Array.from(printCart.values());
+      const blocks0 = renderSlipBlocks(items, dateSel, null);
+
+      // ── 関係する教員の個人時間割（印刷者が希望した場合のみ表示） ──
+      const withTT = !!(document.getElementById('printWithTimetables') || {}).checked;
+      const ttSection = buildPrintTimetablesSection(items, withTT);
+      const blocks = blocks0 + ttSection;
+
       // 印刷ページ上部の操作バー（印刷時は非表示）。iPad等で自動印刷が開かない場合はここから印刷
+      const ttOption = ttSection
+        ? '<label class="pt-opt"><input type="checkbox" id="ptTTchk"' + (withTT ? ' checked' : '') + ' onchange="var e=document.getElementById(\'ptTT\');if(e){e.style.display=this.checked?\'\':\'none\';}"> 関係する教員の時間割も載せる</label>'
+        : '';
       const toolbar = '<div class="print-toolbar">'
         + '<button type="button" class="pt-print" onclick="window.print()">🖨 印刷する</button>'
+        + ttOption
         + '<button type="button" class="pt-close" onclick="(window.__closePrint ? window.__closePrint() : window.close())">閉じる</button>'
         + '<span class="pt-hint">印刷画面が自動で開かないときは「印刷する」を押してください。iPadでは、共有ボタン（□↑）→「プリント」でも印刷できます。</span>'
         + '</div>';
@@ -7669,6 +8077,8 @@
         + '.print-toolbar button { font-size:16px; padding:8px 16px; border-radius:6px; border:1px solid #999; background:#fff; cursor:pointer; }'
         + '.print-toolbar .pt-print { background:#1565c0; color:#fff; border-color:#1565c0; font-weight:700; }'
         + '.print-toolbar .pt-hint { font-size:12px; color:#555; }'
+        + '.print-toolbar .pt-opt { font-size:14px; cursor:pointer; white-space:nowrap; }'
+        + PRINT_TT_CSS
         + '@media print { body { margin:4mm; } .print-toolbar { display:none !important; } div { page-break-inside:avoid; } }';
 
       const html = '<!DOCTYPE html>'
@@ -7692,6 +8102,102 @@
       }
     });
 
+    // ===== 印刷用：関係する教員の個人時間割 =====
+    const PRINT_TT_CSS =
+        '.ptt { margin-top:14px; border-top:2px dashed #aaa; padding-top:10px; }'
+      + '.ptt-head { font-size:14px; font-weight:bold; margin-bottom:2px; }'
+      + '.ptt-legend { font-size:10px; color:#333; margin-bottom:6px; }'
+      + '.ptt-grid { display:grid; grid-template-columns:1fr 1fr; gap:8px 10px; }'
+      + '.ptt-one { page-break-inside:avoid; break-inside:avoid; }'
+      + '.ptt .tt-title { font-size:11px; font-weight:bold; margin:0 0 1px; }'
+      + '.ptt .tt-table { border-collapse:collapse; width:100%; table-layout:fixed; font-size:8.5px; }'
+      + '.ptt .tt-table th, .ptt .tt-table td { border:1px solid #555; padding:1px 2px; vertical-align:top; word-break:break-all; }'
+      + '.ptt .tt-table th { background:#eee; text-align:center; font-weight:700; }'
+      + '.ptt .tt-table col.tt-col-period { width:1.8em; }'
+      + '.ptt .tt-cell { height:calc(4 * 1.15em); line-height:1.15; overflow:hidden; }'
+      + '.ptt .tt-lesson { display:block; }'
+      + '.ptt .tt-line { display:block; white-space:nowrap; overflow:hidden; }'
+      + '.ptt .tt-line2 { display:block; overflow:hidden; white-space:normal; }'
+      + '.ptt .tt-training { color:#444; font-style:italic; }'
+      + '.ptt .tt-more { color:#555; }'
+      + '.ptt .tt-school { display:inline-block; font-size:0.85em; line-height:1.1; color:#fff; background:#777; border-radius:2px; padding:0 2px; margin-right:1px; -webkit-print-color-adjust:exact; print-color-adjust:exact; }'
+      + '.ptt .tt-school.hs { background:#1565c0; } .ptt .tt-school.jh { background:#2e7d32; }'
+      + '.ptt .tt-table td.mv-from { background:#ffe0b2; box-shadow:inset 0 0 0 2px #e65100; -webkit-print-color-adjust:exact; print-color-adjust:exact; }'
+      + '.ptt .tt-table td.mv-to { box-shadow:inset 0 0 0 2px #1565c0; background:#e3f2fd; -webkit-print-color-adjust:exact; print-color-adjust:exact; }'
+      + '.ptt .mv-note { display:block; font-weight:bold; font-size:0.95em; line-height:1.1; }'
+      + '.ptt td.mv-from .mv-note { color:#bf360c; } .ptt td.mv-to .mv-note { color:#0d47a1; }';
+
+    // 印刷カートの全交換案から、関係する教員と「移動元／移動先」を集めて、教員ごとの時間割を並べる
+    function buildPrintTimetablesSection(items, visible){
+      const DAY_EN = {"月":"Mon","火":"Tue","水":"Wed","木":"Thu","金":"Fri","土":"Sat"};
+      const known = new Set(lessons.map(l => l.teacher));
+      const order = [];
+      const moves = new Map(); // 教員名 -> [{fd,fp,td,tp}]
+      const splitNames = v => (Array.isArray(v) ? v : String(v == null ? "" : v).split(/[・|、,\s]+/))
+        .map(x => String(x).trim()).filter(Boolean);
+      const addNames = v => splitNames(v).forEach(n => { if (known.has(n) && order.indexOf(n) < 0) order.push(n); });
+      const addMove = (names, mv) => {
+        if (!mv) return;
+        splitNames(names).forEach(n => {
+          if (!known.has(n)) return;
+          if (!moves.has(n)) moves.set(n, []);
+          moves.get(n).push(mv);
+        });
+      };
+      const SLOT = /([月火水木金土])(\d+)限/;
+      // 「【高】月3限2年7組 論表 ➔ 火2限」形式
+      const parseMoveText = (t) => {
+        const m = String(t || "").match(/^【(?:高|中)】([月火水木金土])(\d+)限.*?➔\s*([月火水木金土])(\d+)限/);
+        return m ? { fd: DAY_EN[m[1]], fp: +m[2], td: DAY_EN[m[3]], tp: +m[4] } : null;
+      };
+      const slotMove = (from, to) => {
+        const a = SLOT.exec(from || ""), b = SLOT.exec(to || "");
+        return (a && b) ? { fd: DAY_EN[a[1]], fp: +a[2], td: DAY_EN[b[1]], tp: +b[2] } : null;
+      };
+
+      items.forEach(it => {
+        addNames(it.originTeacher); addNames(it.myTeachers); addNames(it.oppNames);
+        if (it.swap3way) ["b1","b2","b3"].forEach(k => it.swap3way[k] && addNames(it.swap3way[k].teacher));
+        if (it.swapchain) ["me","mainB","block","partner"].forEach(k => it.swapchain[k] && addNames(it.swapchain[k].teacher));
+        if (it.swapgroup && it.swapgroup.moves) it.swapgroup.moves.forEach(mv => addNames(mv.teachers));
+
+        // 移動元／移動先を印付けできる形式（1対1・同時移動）のみ
+        if (it.swapgroup && it.swapgroup.moves) {
+          it.swapgroup.moves.forEach(mv => addMove(mv.teachers, slotMove(mv.from, mv.to)));
+        } else if (!it.swap3way && !it.swapchain) {
+          addMove(it.myTeachers || it.originTeacher, parseMoveText(it.myMove));
+          const opp = String(it.oppMove || "");
+          if (opp.indexOf(" / ") < 0) addMove(it.oppNames, parseMoveText(opp));
+        }
+      });
+      if (!order.length) return "";
+
+      const blocksHtml = order.map(name => {
+        const html = buildTeacherTimetableHTML([name], {});
+        const box = document.createElement('div');
+        box.innerHTML = html;
+        (moves.get(name) || []).forEach(mv => {
+          const fromTd = box.querySelector('td[data-ttday="' + mv.fd + '"][data-ttperiod="' + mv.fp + '"]');
+          const toTd   = box.querySelector('td[data-ttday="' + mv.td + '"][data-ttperiod="' + mv.tp + '"]');
+          const jp = d => (DAY_JA_OUT[d] || d);
+          const note = (td, cls, text) => {
+            if (!td) return;
+            td.classList.add(cls);
+            const n = document.createElement('span'); n.className = 'mv-note'; n.textContent = text;
+            (td.querySelector('.tt-cell') || td).appendChild(n);
+          };
+          note(fromTd, 'mv-from', '➔' + jp(mv.td) + mv.tp + '限');
+          note(toTd,   'mv-to',   '←' + jp(mv.fd) + mv.fp + '限');
+        });
+        return '<div class="ptt-one">' + box.innerHTML + '</div>';
+      }).join('');
+
+      return '<div class="ptt" id="ptTT"' + (visible ? '' : ' style="display:none;"') + '>'
+        + '<div class="ptt-head">関係する教員の時間割（参考）</div>'
+        + '<div class="ptt-legend">橙＝移動元の授業（➔移動先）／青＝移動先のコマ（←移動元）。印を付けられるのは1対1・同時移動の交換案のみです。</div>'
+        + '<div class="ptt-grid">' + blocksHtml + '</div></div>';
+    }
+
     function showInPagePrintOverlay(printCss, toolbar, blocks){
       const old = document.getElementById('printOverlay');
       if (old) old.remove();
@@ -7704,6 +8210,8 @@
         + '#printOverlay .print-toolbar button { font-size:16px; padding:8px 16px; border-radius:6px; border:1px solid #999; background:#fff; cursor:pointer; }'
         + '#printOverlay .print-toolbar .pt-print { background:#1565c0; color:#fff; border-color:#1565c0; font-weight:700; }'
         + '#printOverlay .print-toolbar .pt-hint { font-size:12px; color:#555; }'
+        + '#printOverlay .print-toolbar .pt-opt { font-size:14px; cursor:pointer; white-space:nowrap; }'
+        + PRINT_TT_CSS
         + '@media print { body > *:not(#printOverlay) { display:none !important; } #printOverlay { position:static; padding:4mm; overflow:visible; } #printOverlay .print-toolbar { display:none !important; } #printOverlay div { page-break-inside:avoid; } }';
       document.head.appendChild(st);
       const ov = document.createElement('div');
@@ -7965,6 +8473,58 @@
     const WD = ['日','月','火','水','木','金','土'];
     const sw = TIMETABLE_SWITCH_DATE;
     let viewY, viewM;
+    let selectedISO = null;
+    const SCHOOLS = [ ['HS','高校','hs'], ['JH','中学','jh'] ];
+    const sdata = sc => (SCHOOL_EVENTS[sc]) || { days:{}, notes:{} };
+    const registered = () => SCHOOLS.filter(x => Object.keys(sdata(x[0]).days).length > 0).map(x => x[0]);
+    function esc(t){ return String(t).replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
+    // その日の高校・中学の行事と授業有無をまとめる
+    function dayInfo(iso){
+      const dow = new Date(iso + 'T00:00:00').getDay();
+      const reg = registered();
+      const ev = [], offBy = {}, sat2By = {};
+      SCHOOLS.forEach(([sc]) => {
+        const dd = sdata(sc).days[iso];
+        (dd && dd.e || []).forEach(t => ev.push({ s: sc, t: t }));
+        offBy[sc] = dow === 0 || !!(dd && dd.f === 'p');
+        sat2By[sc] = !!(dd && dd.f === 'c');
+      });
+      const basis = reg.length ? reg : ['HS'];
+      return {
+        ev: ev, offBy: offBy, sat2By: sat2By,
+        off:     dow === 0 || basis.every(sc => offBy[sc]),
+        offPart: dow !== 0 && !basis.every(sc => offBy[sc]) && basis.some(sc => offBy[sc]),
+        sat2:    basis.every(sc => sat2By[sc]) && basis.length > 0
+      };
+    }
+    window.ttDayInfo = dayInfo;
+    const tag = sc => '<span class="ce-tag ' + (sc === 'JH' ? 'jh' : 'hs') + '">' + (sc === 'JH' ? '中' : '高') + '</span>';
+    function renderEvents(){
+      const box = document.getElementById('calEvents');
+      const reg = registered();
+      let html = '';
+      const missing = SCHOOLS.filter(x => reg.indexOf(x[0]) < 0).map(x => x[1]);
+      if(selectedISO){
+        const info = dayInfo(selectedISO);
+        const dt = new Date(selectedISO + 'T00:00:00');
+        html = '<div><span class="ce-date">' + (dt.getMonth()+1) + '/' + dt.getDate() + '(' + WD[dt.getDay()] + ')</span>';
+        if(info.off) html += '<span class="ce-badge ce-off">授業なし</span>';
+        else SCHOOLS.forEach(([sc,nm]) => { if(info.offBy[sc] && reg.indexOf(sc) >= 0) html += '<span class="ce-badge ce-off">' + nm + 'のみ授業なし</span>'; });
+        SCHOOLS.forEach(([sc,nm]) => { if(info.sat2By[sc]) html += '<span class="ce-badge ce-sat2">' + nm + '：第二土曜休業日</span>'; });
+        html += '</div>';
+        html += info.ev.length
+          ? '<ul>' + info.ev.map(x => '<li>' + tag(x.s) + esc(x.t) + '</li>').join('') + '</ul>'
+          : '<div class="ce-none">行事の予定はありません</div>';
+      } else {
+        html = '<div class="ce-none">日付をクリックすると、その日の行事予定を表示します。</div>';
+      }
+      const mk = viewY + '-' + String(viewM+1).padStart(2,'0');
+      const nts = [];
+      SCHOOLS.forEach(([sc]) => (sdata(sc).notes[mk] || []).forEach(t => nts.push(tag(sc) + esc(t))));
+      if(nts.length) html += '<div class="ce-notes"><b>' + (viewM+1) + '月（日付の決まっていない予定）</b>：' + nts.join('　') + '</div>';
+      if(missing.length) html += '<div class="ce-none" style="margin-top:4px;">※' + missing.join('・') + 'の行事予定は未登録です（日曜のみ授業なしで表示）。</div>';
+      box.innerHTML = html;
+    }
     const same = (a,b)=> a.getFullYear()===b.getFullYear() && a.getMonth()===b.getMonth() && a.getDate()===b.getDate();
     function goToday(){ const n=new Date(); viewY=n.getFullYear(); viewM=n.getMonth(); }
     function render(){
@@ -7984,12 +8544,26 @@
           if(d.getMonth()!==viewM) cls.push('other');
           if(same(d,now)) cls.push('today');
           if(same(d,sw)) cls.push('switch');
-          const title = same(d,sw) ? ' title="新時間割の開始日"' : (same(d,now) ? ' title="今日"' : '');
-          html += '<td class="'+cls.join(' ')+'"'+title+'><span>'+d.getDate()+'</span></td>';
+          const iso = d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+          if(window.ttPickedISO && window.ttPickedISO.has(iso)) cls.push('picked');
+          if(window.ttPicking) cls.push('pickable');
+          const info = dayInfo(iso);
+          if(info.off) cls.push('off'); else if(info.offPart) cls.push('off-part'); else if(info.sat2) cls.push('sat2');
+          if(info.ev.some(x => x.s === 'HS')) cls.push('ev-hs');
+          if(info.ev.some(x => x.s === 'JH')) cls.push('ev-jh');
+          if(selectedISO===iso) cls.push('sel');
+          const tips = [];
+          if(same(d,sw)) tips.push('新時間割の開始日');
+          if(same(d,now)) tips.push('今日');
+          if(info.off && !info.ev.length) tips.push('授業なし');
+          info.ev.forEach(x => tips.push((x.s === 'JH' ? '【中】' : '【高】') + x.t));
+          const title = tips.length ? ' title="'+tips.join('\n').replace(/&/g,'&amp;').replace(/"/g,'&quot;')+'"' : '';
+          html += '<td class="'+cls.join(' ')+'" data-iso="'+iso+'"'+title+'><span>'+d.getDate()+'</span></td>';
         }
         html += '</tr>';
       }
       document.getElementById('calBody').innerHTML = html;
+      renderEvents();
       const t0 = new Date(now.getFullYear(), now.getMonth(), now.getDate());
       const diff = Math.round((new Date(sw.getFullYear(), sw.getMonth(), sw.getDate()) - t0)/86400000);
       const label = (sw.getMonth()+1)+'/'+sw.getDate()+'('+WD[sw.getDay()]+')';
@@ -8001,6 +8575,17 @@
     document.getElementById('calPrev').addEventListener('click',()=>shift(-1));
     document.getElementById('calNext').addEventListener('click',()=>shift(1));
     document.getElementById('calToday').addEventListener('click',()=>{ goToday(); render(); });
+    document.getElementById('calBody').addEventListener('click', e=>{
+      const td = e.target.closest('td[data-iso]');
+      if(!td) return;
+      selectedISO = td.dataset.iso;
+      if(!window.ttPicking || !window.onCalendarDatePick){ render(); return; }
+      const [y,m,dd] = td.dataset.iso.split('-').map(Number);
+      render();
+      window.onCalendarDatePick(new Date(y, m-1, dd));
+    });
+    window.ttCalRerender = render;
+    (function(){ const n = new Date(); selectedISO = n.getFullYear()+'-'+String(n.getMonth()+1).padStart(2,'0')+'-'+String(n.getDate()).padStart(2,'0'); })();
     goToday(); render();
   })();
   </script>
@@ -8012,6 +8597,128 @@
     const toggle = ()=> switchTimetable(currentTimetable === 'new' ? 'old' : 'new');
     badge.addEventListener('click', toggle);
     badge.addEventListener('keydown', e=>{ if(e.key==='Enter' || e.key===' '){ e.preventDefault(); toggle(); } });
+  })();
+  </script>
+
+  <script>
+  // カレンダーの表示／非表示（選択を記憶。未選択のときはスマホ幅=非表示、PC幅=表示）
+  (function(){
+    const cal = document.getElementById('ttCalendar');
+    const btn = document.getElementById('calToggleBtn');
+    const KEY = 'ttCalendarHidden';
+    let hidden;
+    try { const v = localStorage.getItem(KEY); hidden = (v === null) ? window.matchMedia('(max-width: 700px)').matches : v === '1'; }
+    catch(e){ hidden = window.matchMedia('(max-width: 700px)').matches; }
+    function apply(){
+      cal.classList.toggle('cal-hidden', hidden);
+      btn.textContent = hidden ? '📅 カレンダーを表示' : '📅 カレンダーを隠す';
+      btn.setAttribute('aria-expanded', String(!hidden));
+    }
+    btn.addEventListener('click', ()=>{ hidden = !hidden; try{ localStorage.setItem(KEY, hidden ? '1' : '0'); }catch(e){} apply(); });
+    apply();
+  })();
+  </script>
+
+  <script>
+  // ===== 実施日の指定（カレンダーの日付クリック → 印刷用紙の「月・日」に自動入力） =====
+  (function(){
+    const btn   = document.getElementById('datePickBtn');
+    const panel = document.getElementById('datePickPanel');
+    const body  = document.getElementById('datePickBody');
+    const cal   = document.getElementById('ttCalendar');
+    const WD = ['日','月','火','水','木','金','土'];
+    let active = null;
+    window.ttPickedISO = new Set();
+    window.ttPicking = false;
+
+    function collect(){
+      const items = Array.from(printCart.values());
+      const reg = [];
+      try { renderSlipBlocks(items, dateSel, reg); } catch(e) { return { items: items, boxes: [] }; }
+      const seen = new Set(), boxes = [];
+      reg.forEach(r => { if(!seen.has(r.key)){ seen.add(r.key); boxes.push(r); } });
+      return { items: items, boxes: boxes };
+    }
+    function isOpen(){ return !panel.classList.contains('hidden'); }
+    function syncCalendar(boxes){
+      window.ttPicking = isOpen() && active !== null;
+      const set = new Set();
+      (boxes || []).forEach(b => { if(dateSel[b.key]) set.add(dateSel[b.key].iso); });
+      window.ttPickedISO = set;
+      cal.classList.toggle('picking', window.ttPicking);
+      if(window.ttCalRerender) window.ttCalRerender();
+    }
+    function render(){
+      if(!isOpen()) return;
+      const { items, boxes } = collect();
+      if(!boxes.length){ body.innerHTML = '<div class="muted">印刷する交換案をチェックすると、ここに日付を指定する枠が出ます。</div>'; active = null; syncCalendar([]); return; }
+      if(active && !boxes.some(b => b.key === active)) active = null;
+      const byPlan = new Map();
+      boxes.forEach(b => { if(!byPlan.has(b.pId)) byPlan.set(b.pId, []); byPlan.get(b.pId).push(b); });
+      let html = '', n = 0;
+      byPlan.forEach((list, pId) => {
+        n++;
+        const it = items.find(x => (x.pId || '') === pId) || {};
+        const origin = String(it.originLessonText || '').replace(/<[^>]*>/g,'');
+        html += '<div class="dp-plan">案' + n + (origin ? '：' + origin.replace(/&/g,'&amp;').replace(/</g,'&lt;') : '') + '</div>';
+        list.forEach(b => {
+          const sel = dateSel[b.key];
+          const wdMis = sel && b.day && WD[new Date(sel.iso).getDay()] !== b.day;
+          const offMis = sel && window.ttDayInfo && window.ttDayInfo(sel.iso).offBy[/【中】/.test(origin) ? 'JH' : 'HS'];
+          const lbl = b.label + '　' + (b.day || '') + (b.period || '') + (b.period ? '限' : '') + (b.subject ? '　' + String(b.subject).replace(/</g,'&lt;') : '');
+          html += '<div class="dp-row' + (active === b.key ? ' active' : '') + '" data-key="' + b.key.replace(/"/g,'&quot;') + '">'
+            + '<span class="dp-name">' + lbl + '</span>'
+            + '<button type="button" class="dp-set">' + (sel ? sel.m + '/' + sel.d + '(' + WD[new Date(sel.iso).getDay()] + ')' : '日付を選ぶ') + '</button>'
+            + (sel ? '<button type="button" class="dp-clr" title="クリア">×</button>' : '')
+            + (wdMis ? '<span class="dp-warn">⚠ 曜日が違います（' + b.day + '曜の授業）</span>' : '')
+            + (offMis ? '<span class="dp-warn">⚠ 授業のない日（休業日）です</span>' : '')
+            + '</div>';
+        });
+      });
+      body.innerHTML = html;
+      body.dataset.keys = JSON.stringify(boxes.map(b => b.key));
+      syncCalendar(boxes);
+    }
+    function showCalendar(){
+      if(cal.classList.contains('cal-hidden')){ const t = document.getElementById('calToggleBtn'); if(t) t.click(); }
+    }
+    body.addEventListener('click', e => {
+      const row = e.target.closest('.dp-row'); if(!row) return;
+      const key = row.dataset.key;
+      if(e.target.closest('.dp-clr')){ delete dateSel[key]; render(); return; }
+      active = (active === key) ? null : key;
+      if(active) showCalendar();
+      render();
+    });
+    window.onCalendarDatePick = function(d){
+      if(!active) return;
+      const iso = d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
+      dateSel[active] = { m: d.getMonth()+1, d: d.getDate(), iso: iso };
+      let keys = []; try { keys = JSON.parse(body.dataset.keys || '[]'); } catch(e){}
+      const i = keys.indexOf(active);
+      const next = keys.slice(i + 1).concat(keys.slice(0, i)).find(k => !dateSel[k]);
+      active = next || null;
+      render();
+    };
+    btn.addEventListener('click', () => {
+      const open = panel.classList.toggle('hidden') === false;
+      btn.setAttribute('aria-expanded', String(open));
+      btn.textContent = open ? '実施日の指定を閉じる' : '実施日をカレンダーで指定';
+      if(open){
+        showCalendar();
+        // 日付の指定欄はカレンダーの中に移し、スクロールしなくても操作できるようにする
+        cal.appendChild(panel); cal.classList.add('with-picker');
+        try { window.scrollTo({ top: 0, behavior: 'smooth' }); } catch(e) { window.scrollTo(0, 0); }
+        const { boxes } = collect();
+        active = (boxes.find(b => !dateSel[b.key]) || {}).key || null;
+      } else { active = null; cal.classList.remove('with-picker'); }
+      render();
+      if(!open) syncCalendar([]);
+    });
+    window.refreshDatePanel = function(){
+      if(printCart.size === 0){ panel.classList.add('hidden'); cal.classList.remove('with-picker'); btn.setAttribute('aria-expanded','false'); btn.textContent = '実施日をカレンダーで指定'; active = null; syncCalendar([]); return; }
+      render();
+    };
   })();
   </script>
 </body></html>
