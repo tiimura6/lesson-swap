@@ -418,38 +418,45 @@
     .print-actions-bar {
       background: #fff9c4;
       border: 1px solid #fbc02d;
-      padding: 12px 15px;
-      margin: 15px 0;
+      padding: 5px 10px;
+      margin: 8px 0;
       border-radius: 6px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 15px;
+      flex-wrap: wrap;
+      gap: 6px 10px;
     }
     .print-bar-left {
-      font-size: 0.95rem;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px 10px;
+      font-size: 0.85rem;
       color: #333;
     }
+    .print-bar-left .pb-opt { display:inline-flex; align-items:center; gap:4px; white-space: nowrap; cursor: pointer; font-size: 0.82rem; }
     .print-btn {
-      padding: 10px 18px;
+      padding: 6px 16px;
       background: #ff9800;
       color: #fff;
       border: none;
       border-radius: 6px;
       font-weight: bold;
+      font-size: 0.9rem;
       cursor: pointer;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.15);
     }
     .print-btn:hover { background: #f57c00; }
     .clear-print-btn {
-      padding: 6px 10px;
+      padding: 3px 9px;
       background: #fff;
       color: #666;
       border: 1px solid #ccc;
       border-radius: 4px;
-      font-size: 0.8rem;
+      font-size: 0.78rem;
       cursor: pointer;
-      margin-left: 10px;
+      margin-left: 0;
     }
     .clear-print-btn:hover { background: #f5f5f5; }
     
@@ -540,7 +547,7 @@
     #ttCalendar #calEvents .ce-sat2 { background:#b2ebf2; color:#006064; }
     #ttCalendar #calEvents ul { margin:2px 0 0 1.1em; padding:0; }
     #ttCalendar #calEvents .ce-none { color:#78909c; }
-    #ttCalendar #calEvents .ce-notes { margin-top:4px; color:#455a64; font-size:0.75rem; }
+    #ttCalendar #calEvents .ce-notes { margin-top:4px; padding-top:3px; border-top:1px dashed #cfd8dc; color:#455a64; font-size:0.75rem; }
   </style>
 
   <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
@@ -599,9 +606,6 @@
         </select>
       </label>
 
-      <p class="muted" style="margin-top:0.8rem;">
-        ※教員A時間割の「自分の授業」または「空きコマ」をクリックすると、連動して候補を表示します。
-      </p>
     </div>
 
     <div id="teacherATimetableContainer"></div>
@@ -609,19 +613,16 @@
 
   <div id="globalPrintBar" class="print-actions-bar hidden">
     <div class="print-bar-left">
-      💡 交換案が <strong id="printSelectedCount">0</strong> 件チェックされています。
-      <span class="muted">（別の授業やコマに切り替えて追加チェック可能です）</span>
-      <button type="button" class="clear-print-btn" id="clearPrintCartBtn">選択をすべてクリア</button>
-      <label style="margin-left:12px;white-space:nowrap;cursor:pointer;">
-        <input type="checkbox" id="printWithTimetables"> 関係する教員の時間割も印刷する
-      </label>
-      <button type="button" class="clear-print-btn" id="datePickBtn" aria-expanded="false" style="margin-left:12px;">実施日をカレンダーで指定</button>
+      <span class="pb-count">✓ 選択 <strong id="printSelectedCount">0</strong> 件</span>
+      <button type="button" class="clear-print-btn" id="clearPrintCartBtn">クリア</button>
+      <label class="pb-opt"><input type="checkbox" id="printWithTimetables"> 時間割も印刷</label>
+      <button type="button" class="clear-print-btn" id="datePickBtn" aria-expanded="false">📅 実施日を指定</button>
     </div>
-    <button type="button" class="print-btn" id="executePrintBtn">選択した案で印刷する</button>
+    <button type="button" class="print-btn" id="executePrintBtn">🖨 印刷</button>
   </div>
 
   <div id="datePickPanel" class="hidden">
-    <div class="dp-head">実施日の指定：枠を選んで、カレンダーの日付をクリックしてください（指定した日付が印刷用紙の「月・日」に入ります）</div>
+    <div class="dp-head">枠を選んで、カレンダーの日付をクリック</div>
     <div id="datePickBody"></div>
   </div>
 
@@ -671,28 +672,24 @@
     <p><strong>② 高校CSV（旧）</strong></p>
     <label>高校の授業CSVを読み込む（旧時間割）:
       <input type="file" id="fileLessonsHS" accept=".csv" />
-      <br><span class="muted">読み込み時に旧・高校データを更新</span>
     </label>
     <p class="muted" style="font-size:0.82em;margin-top:4px;">列名: <code>teacher, grade, class, course, day, period, subject, group</code></p>
 
     <p><strong>③ 中学CSV（旧）</strong></p>
     <label>中学の授業CSVを読み込む（旧時間割）:
       <input type="file" id="fileLessonsJH" accept=".csv" />
-      <br><span class="muted">読み込み時に旧・中学データを更新</span>
     </label>
     <p class="muted" style="font-size:0.82em;margin-top:4px;">列名: <code>teacher, grade, class, course, day, period, subject, group</code></p>
 
     <p><strong>④ 高校CSV（新）</strong></p>
     <label>高校の授業CSVを読み込む（新時間割）:
       <input type="file" id="fileLessonsHS_new" accept=".csv" />
-      <br><span class="muted">読み込むと「新時間割」へ自動切り替え</span>
     </label>
     <p class="muted" style="font-size:0.82em;margin-top:4px;">列名: <code>teacher, grade, class, course, day, period, subject, group</code></p>
 
     <p><strong>⑤ 中学CSV（新）</strong></p>
     <label>中学の授業CSVを読み込む（新時間割）:
       <input type="file" id="fileLessonsJH_new" accept=".csv" />
-      <br><span class="muted">読み込むと「新時間割」へ自動切り替え</span>
     </label>
     <p class="muted" style="font-size:0.82em;margin-top:4px;">列名: <code>teacher, grade, class, course, day, period, subject, group</code></p>
   </div>
@@ -712,7 +709,7 @@
     const TIMETABLE_SWITCH_DATE = new Date(2026, 9, 26, 0, 0, 0);
     // ===== 生徒用 年間行事予定（カレンダー表示用） =====
     // days: 日付 → { e:行事の配列, f:'p'=休業日・授業なし（ピンク）／'c'=第二土曜休業日, c:原本の丸数字 }
-    // notes: 月 → 日付の決まっていない（月末欄の）予定
+    // notes: 月 → 月末欄の予定（日付なし）
     // 高校：2026年度 行事予定（前期・後期）暫定版（2026.4.27現在）より。中学は受領後に JH へ追加します。
     const SCHOOL_EVENTS = {
       HS: {"days":{
@@ -8516,13 +8513,13 @@
           ? '<ul>' + info.ev.map(x => '<li>' + tag(x.s) + esc(x.t) + '</li>').join('') + '</ul>'
           : '<div class="ce-none">行事の予定はありません</div>';
       } else {
-        html = '<div class="ce-none">日付をクリックすると、その日の行事予定を表示します。</div>';
+        html = '';
       }
       const mk = viewY + '-' + String(viewM+1).padStart(2,'0');
       const nts = [];
       SCHOOLS.forEach(([sc]) => (sdata(sc).notes[mk] || []).forEach(t => nts.push(tag(sc) + esc(t))));
-      if(nts.length) html += '<div class="ce-notes"><b>' + (viewM+1) + '月（日付の決まっていない予定）</b>：' + nts.join('　') + '</div>';
-      if(missing.length) html += '<div class="ce-none" style="margin-top:4px;">※' + missing.join('・') + 'の行事予定は未登録です（日曜のみ授業なしで表示）。</div>';
+      if(nts.length) html += '<div class="ce-notes">' + nts.join('　') + '</div>';
+      if(missing.length) html += '<div class="ce-none" style="margin-top:4px;">' + missing.join('・') + 'の行事予定は未登録</div>';
       box.innerHTML = html;
     }
     const same = (a,b)=> a.getFullYear()===b.getFullYear() && a.getMonth()===b.getMonth() && a.getDate()===b.getDate();
@@ -8703,7 +8700,7 @@
     btn.addEventListener('click', () => {
       const open = panel.classList.toggle('hidden') === false;
       btn.setAttribute('aria-expanded', String(open));
-      btn.textContent = open ? '実施日の指定を閉じる' : '実施日をカレンダーで指定';
+      btn.textContent = open ? '📅 実施日を閉じる' : '📅 実施日を指定';
       if(open){
         showCalendar();
         // 日付の指定欄はカレンダーの中に移し、スクロールしなくても操作できるようにする
@@ -8716,7 +8713,7 @@
       if(!open) syncCalendar([]);
     });
     window.refreshDatePanel = function(){
-      if(printCart.size === 0){ panel.classList.add('hidden'); cal.classList.remove('with-picker'); btn.setAttribute('aria-expanded','false'); btn.textContent = '実施日をカレンダーで指定'; active = null; syncCalendar([]); return; }
+      if(printCart.size === 0){ panel.classList.add('hidden'); cal.classList.remove('with-picker'); btn.setAttribute('aria-expanded','false'); btn.textContent = '📅 実施日を指定'; active = null; syncCalendar([]); return; }
       render();
     };
   })();
