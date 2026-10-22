@@ -6455,6 +6455,7 @@
         label: map.get(key)
       }));
 
+      const prevClassKey = classTtSelect.value; // 新旧切替などで一覧を作り直しても、選択中のクラスを維持する
       classTtSelect.innerHTML = "";
       if (!classTtOptions.length) {
         const op = document.createElement('option');
@@ -6486,6 +6487,10 @@
       classTtExcelBtn.disabled = true; // Excelボタン無効
       classTtTableContainer.innerHTML = "";
       currentClassTtLabel = "";
+      if (prevClassKey && classTtOptions.some(o => o.key === prevClassKey)) {
+        classTtSelect.value = prevClassKey;
+        renderClassTimetable();
+      }
     }
 
     function renderClassTimetable(){
