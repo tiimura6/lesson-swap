@@ -599,6 +599,132 @@
     .control-column { flex:0 0 100%; max-width:none; min-width:0; }
     #teacherATimetableContainer { flex:1 1 480px; max-width:880px; min-width:300px; }
     .layout-main { margin-bottom:0.6rem; padding-right:12px; }
+
+    /* 画面切り替えタブ */
+    #viewTabs { display:flex; flex-wrap:wrap; gap:4px; margin:4px 0 10px; border-bottom:2px solid #cfd8dc; }
+    #viewTabs .vtab { border:1px solid #cfd8dc; border-bottom:none; background:#f5f7f8; color:#455a64; padding:6px 14px;
+      border-radius:8px 8px 0 0; cursor:pointer; font-size:0.95rem; font-weight:600; margin-bottom:-2px; }
+    #viewTabs .vtab:hover { background:#eceff1; }
+    #viewTabs .vtab.active { background:#fff; color:#1565c0; border-color:#90a4ae; border-bottom:2px solid #fff; }
+    .view.hidden { display:none; }
+    .coming-soon { padding:24px 8px; }
+    @media (max-width:700px) { #viewTabs .vtab { padding:6px 10px; font-size:0.85rem; } }
+
+    /* ===== 清掃当番表（タブ内） ===== */
+    #viewClean h2.sc-title { font-size: 1.4rem; margin-bottom: 0.4rem;}
+    #viewClean fieldset { border: 1px solid #ccc; padding: 10px 12px; margin-top: 1rem;}
+    #viewClean legend { padding: 0 4px; font-weight: bold;}
+    #viewClean label { display: inline-block; margin-top: 0.4rem; font-size: 0.9rem;}
+    #viewClean input[type="text"], #viewClean input[type="number"], #viewClean select {
+      padding: 3px 4px;
+      margin-left: 4px;
+      font-size: 0.9rem;}
+    #viewClean button {
+      margin-top: 0.6rem;
+      padding: 4px 10px;
+      font-size: 0.9rem;
+      cursor: pointer;}
+    #viewClean table {
+      border-collapse: collapse;
+      margin-top: 0.6rem;
+      width: 100%;
+      max-width: 1200px;}
+    #viewClean th, #viewClean td {
+      border: 1px solid #ccc;
+      padding: 4px 6px;
+      font-size: 0.85rem;
+      text-align: left;
+      vertical-align: top;}
+    #viewClean th { background: #f2f2f2;}
+    #viewClean .list-table tbody tr:nth-child(odd) { background: #fafafa;}
+    #viewClean #scheduleArea {
+      margin-top: 1.2rem;
+      padding: 12px;
+      border: 1px solid #999;
+      background: #fff;
+      display: inline-block;
+      width: calc(100% - 2px);
+      box-sizing: border-box;
+      max-width: 1200px;}
+    #viewClean #scheduleArea table tbody tr:nth-child(odd) { background: #f9f9f9;}
+    #viewClean #placeSummaryArea {
+      margin-top: 1.2rem;
+      padding: 12px;
+      border: 1px solid #999;
+      background: #fff;
+      display: inline-block;
+      width: calc(100% - 2px);
+      box-sizing: border-box;
+      max-width: 1200px;}
+    #viewClean .view-title { font-weight: bold; margin-bottom: 0.3rem;}
+    #viewClean .hint { font-size: 0.85rem; color: #555; margin-top: 6px;}
+    #viewClean .alert-hint { font-size: 0.85rem; color: #d9534f; font-weight: bold; margin-top: 6px; line-height: 1.4;}
+    #viewClean .gender-cell { display: flex; gap: 4px; align-items: center;}
+    #viewClean .gender-btn {
+      padding: 3px 8px;
+      font-size: 0.8rem;
+      border: 1px solid #999;
+      background: #f8f8f8;
+      cursor: pointer;}
+    #viewClean .gender-btn.selected-none { background: #e0e0e0; color: #000; border-color: #999;}
+    #viewClean .gender-btn.selected-m { background: #007bff; color: #fff; border-color: #007bff;}
+    #viewClean .gender-btn.selected-f { background: #ff69b4; color: #fff; border-color: #ff69b4;}
+    #viewClean .weekday-group {
+      display: inline-flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-left: 4px;
+      font-size: 0.85rem;}
+    #viewClean .weekday-group label { margin: 0;}
+    #viewClean #studentTable { width: 100%; max-width: 100%;}
+    #viewClean #studentTable thead { display: none;}
+    #viewClean #studentTable tbody { display: flex; flex-wrap: wrap;}
+    #viewClean #studentTable tbody tr {
+      display: block;
+      width: 140px;
+      margin: 2px;
+      border: 1px solid #ddd;
+      padding: 4px;
+      box-sizing: border-box;
+      background: #fff;}
+    #viewClean #studentTable tbody td { display: block; border: none; padding: 2px 0;}
+    #viewClean #studentTable tbody tr:nth-child(odd) { background: #fff;}
+    #viewClean #genderBatchButtons { display: none; margin-top: 4px;}
+    #viewClean .place-edit-input {
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 0.85rem;
+      padding: 3px 4px;
+      margin: 0;}
+    #viewClean .place-edit-select {
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 0.85rem;
+      padding: 3px 4px;
+      margin: 0;}
+    #viewClean .weekday-mini {
+      display: inline-flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+      font-size: 0.82rem;
+      line-height: 1.2;}
+    #viewClean .weekday-mini label { margin: 0;}
+    #viewClean .row-note { font-size: 0.78rem; color: #666; margin-top: 2px;}
+    #viewClean #swapPanel {
+      margin-top: 10px;
+      padding: 10px;
+      border: 1px dashed #999;
+      background: #fafafa;}
+    #viewClean #swapPanel .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      margin-top: 6px;}
+    #viewClean #swapPanel select { min-width: 160px;}
+    #viewClean { font-size:1rem; }
+    #viewClean .sc-title { font-size:1.25rem; margin:4px 0; }
 </style>
 
   <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
@@ -606,6 +732,13 @@
 </head><body>
   <h1>授業の交換先をすぐ見つける君 ©Takahiro Iimura <span id="ttBadge" role="button" tabindex="0" title="クリックで新旧時間割を切り替え">新時間割</span></h1>
   <p id="updateInfo">読み込み中…</p>
+  <nav id="viewTabs" role="tablist" aria-label="画面切り替え">
+    <button type="button" role="tab" class="vtab active" data-view="home" aria-selected="true">🏠 ホーム</button>
+    <button type="button" role="tab" class="vtab" data-view="class" aria-selected="false">📋 クラス別時間割</button>
+    <button type="button" role="tab" class="vtab" data-view="clean" aria-selected="false">🧹 清掃当番自動作成君</button>
+  </nav>
+
+  <div id="viewHome" class="view">
   <div id="ttCalendar" aria-label="カレンダー">
     <div class="cal-head">
       <button type="button" class="cal-nav" id="calPrev" aria-label="前の月">◀</button>
@@ -672,13 +805,13 @@
 
   <div id="results1to1" style="margin-top:1.2rem;"></div>
   <div id="results3way"  style="margin-top:1.2rem;"></div>
+  </div><!-- /viewHome -->
 
-  <hr class="hr" />
-
-  <button id="toggleClassTtBtn" type="button" class="btn" aria-controls="classTtPanel" aria-expanded="false">
-    クラス別時間割を表示
+  <div id="viewClass" class="view hidden">
+  <button id="toggleClassTtBtn" type="button" class="btn" aria-controls="classTtPanel" aria-expanded="true" style="display:none;">
+    クラス別時間割を非表示
   </button>
-  <div id="classTtPanel" class="hidden">
+  <div id="classTtPanel">
     <div id="classTtControls">
       <label>クラス選択:
         <select id="classTtSelect">
@@ -693,6 +826,205 @@
       </button>
     </div>
     <div id="classTtTableContainer" class="class-tt-container"></div>
+  </div>
+  </div><!-- /viewClass -->
+
+  <div id="viewClean" class="view hidden">
+<h2 class="sc-title">🧹 清掃当番表をすぐにつくる君</h2>
+
+  <fieldset>
+    <legend>1. 生徒情報の設定</legend>
+    <div>
+      <label>
+        生徒数
+        <select id="studentCountSelect">
+          <option value="">選択してください</option>
+          <option value="1">1</option><option value="2">2</option>
+          <option value="3">3</option><option value="4">4</option>
+          <option value="5">5</option><option value="6">6</option>
+          <option value="7">7</option><option value="8">8</option>
+          <option value="9">9</option><option value="10">10</option>
+          <option value="11">11</option><option value="12">12</option>
+          <option value="13">13</option><option value="14">14</option>
+          <option value="15">15</option><option value="16">16</option>
+          <option value="17">17</option><option value="18">18</option>
+          <option value="19">19</option><option value="20">20</option>
+          <option value="21">21</option><option value="22">22</option>
+          <option value="23">23</option><option value="24">24</option>
+          <option value="25">25</option><option value="26">26</option>
+          <option value="27">27</option><option value="28">28</option>
+          <option value="29">29</option><option value="30">30</option>
+          <option value="31">31</option><option value="32">32</option>
+          <option value="33">33</option><option value="34">34</option>
+          <option value="35">35</option><option value="36">36</option>
+          <option value="37">37</option><option value="38">38</option>
+          <option value="39">39</option><option value="40">40</option>
+          <option value="41">41</option><option value="42">42</option>
+          <option value="43">43</option><option value="44">44</option>
+          <option value="45">45</option><option value="46">46</option>
+          <option value="47">47</option><option value="48">48</option>
+          <option value="49">49</option><option value="50">50</option>
+        </select>
+      </label>
+      <button type="button" onclick="applyStudentCount()">追加</button>
+    </div>
+
+    <div id="genderBatchButtons">
+      <button type="button" onclick="setAllStudentsGender('M')">すべて男子</button>
+      <button type="button" onclick="setAllStudentsGender('F')">すべて女子</button>
+      <button type="button" onclick="setAllStudentsGender('')">一括クリア</button>
+    </div>
+
+    <div class="hint">※ 混合グループを作らない設定のため、全員の性別を選択してください。</div>
+
+    <table class="list-table" id="studentTable">
+      <thead><tr><th>生徒番号</th><th>性別</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </fieldset>
+
+  <fieldset>
+    <legend>2. 清掃箇所の設定（追加）</legend>
+
+    <div style="margin-bottom:4px;">
+      <label>
+        エリア
+        <select id="placeAreaSelect">
+          <option value="">指定なし</option>
+          <option value="高校エリア">高校エリア</option>
+          <option value="中学エリア">中学エリア</option>
+        </select>
+      </label>
+    </div>
+
+    <label>
+      清掃箇所(プルダウン)
+      <select id="placeNameSelect1" class="place-name-select">
+        <option value="">選択なし</option>
+      </select>
+    </label>
+    <br>
+
+    <label>
+      清掃箇所(自由入力)
+      <input type="text" id="placeNameInput" style="margin-left:4px; width:280px;" />
+    </label>
+    <br>
+
+    <label>
+      担当教員(任意)
+      <input type="text" id="placeTeacherInput" />
+    </label>
+    <br>
+
+    <label>
+      割り当て人数
+      <input type="number" id="placeWorkerCountInput" min="1" max="50" placeholder="自動" style="width: 60px;" /> 人
+      <span class="hint" style="margin-left: 5px;">※空欄（未指定）の場合は生徒数から自動で均等に割り振ります</span>
+    </label>
+    <br>
+
+    <label>
+      性別制限
+      <select id="placeGenderLimitSelect" style="margin-left:4px;">
+        <option value="AUTO">自動（名称から判定）</option>
+        <option value="ANY">どちらでも可</option>
+        <option value="M">男子のみ</option>
+        <option value="F">女子のみ</option>
+      </select>
+    </label>
+    <br>
+
+    <label>
+      曜日
+      <span class="weekday-group">
+        <label><input type="checkbox" class="weekday-checkbox" value="毎日">毎日</label>
+        <label><input type="checkbox" class="weekday-checkbox" value="月">月</label>
+        <label><input type="checkbox" class="weekday-checkbox" value="火">火</label>
+        <label><input type="checkbox" class="weekday-checkbox" value="水">水</label>
+        <label><input type="checkbox" class="weekday-checkbox" value="木">木</label>
+        <label><input type="checkbox" class="weekday-checkbox" value="金">金</label>
+        <label><input type="checkbox" class="weekday-checkbox" value="土">土</label>
+      </span>
+    </label>
+    <br>
+
+    <button type="button" onclick="addPlace()">掃除箇所を追加</button>
+    <button type="button" onclick="addNoDutyPlace()">「掃除なし」を追加</button>
+
+    <div class="hint">※ 追加後は、下の「3. 清掃箇所一覧（編集可）」から、箇所名・人数・担当者・曜日等を編集できます。</div>
+  </fieldset>
+
+  <fieldset>
+    <legend>3. 清掃箇所一覧（編集可）</legend>
+
+    <table class="list-table" id="placeTable">
+      <thead>
+        <tr>
+          <th style="width:110px;">エリア</th>
+          <th>清掃箇所</th>
+          <th style="width:140px;">担当教員</th>
+          <th style="width:85px;">人数</th>
+          <th style="width:110px;">制限</th>
+          <th style="width:240px;">曜日（編集可）</th>
+          <th style="width:60px;">削除</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </fieldset>
+
+  <fieldset>
+    <legend>4. 当番表の作成</legend>
+
+    <div style="margin-top:4px;">
+      <label>
+        ローテ数
+        <input type="number" id="rotationCountInput" min="1" max="200" step="1" style="width:90px;" />
+      </label>
+      <span class="hint" style="display:inline-block; margin-left:6px;">
+        ※未入力なら「清掃箇所(枠)の総数」と同じ
+      </span>
+    </div>
+
+    <button type="button" onclick="generateSchedule()">当番表を作成</button>
+    <button type="button" onclick="downloadScheduleAsImage()">当番表を画像で保存</button>
+    <div class="hint">※ 入力内容や作成された当番表は自動で保存・復元されます。</div>
+    <div id="proposalHintArea" class="alert-hint" style="display:none;"></div>
+  </fieldset>
+
+  <div id="scheduleArea">
+    <div class="view-title">当番表（混合グループなし／同一グループ内は同一清掃箇所）</div>
+    <div id="scheduleInner"></div>
+
+    <div id="swapPanel" style="display:none;">
+      <div class="view-title">生徒の入れ替え（当番表作成後）</div>
+      <div class="hint">
+        ※「役割（所属グループ）」を入れ替えます。<br>
+        ※ 混合グループを禁止しているため、男女の入れ替えはできません（同一性別のみ）。
+      </div>
+
+      <div class="row">
+        <label>生徒A
+          <select id="swapStudentA"></select>
+        </label>
+        <label>生徒B
+          <select id="swapStudentB"></select>
+        </label>
+        <button type="button" onclick="swapStudents()">入れ替え</button>
+        <button type="button" onclick="resetSwapOverrides()">入れ替えをリセット（再計算）</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="placeSummaryArea">
+    <div class="view-title">清掃箇所別の表（掃除箇所名／担当教員名／清掃曜日）</div>
+    <div id="placeSummaryInner"></div>
+  </div>
+
+  
+
+  
   </div>
 
   <hr class="hr" />
@@ -737,6 +1069,763 @@
     </label>
     <p class="muted" style="font-size:0.82em;margin-top:4px;">列名: <code>teacher, grade, class, course, day, period, subject, group</code></p>
   </div>
+
+
+  <script>
+  // ===== 画面（タブ）切り替え =====
+  (function(){
+    const tabs = Array.from(document.querySelectorAll('#viewTabs .vtab'));
+    const views = { home: 'viewHome', 'class': 'viewClass', clean: 'viewClean' };
+    function show(name, push){
+      if(!views[name]) name = 'home';
+      tabs.forEach(t => { const on = t.dataset.view === name; t.classList.toggle('active', on); t.setAttribute('aria-selected', String(on)); });
+      Object.keys(views).forEach(k => document.getElementById(views[k]).classList.toggle('hidden', k !== name));
+      const tip = document.getElementById('teacherTimetableTooltip'); if(tip) tip.classList.add('hidden');
+      if(push){ try{ history.replaceState(null, '', name === 'home' ? location.pathname + location.search : '#' + name); }catch(e){} }
+    }
+    tabs.forEach(t => t.addEventListener('click', () => show(t.dataset.view, true)));
+    show((location.hash || '').replace('#',''), false);
+  })();
+  </script>
+
+  <script>
+  // ===== 清掃当番表（独立スコープで動作。他の画面と変数名が衝突しないよう関数で包む） =====
+  (function(){
+
+    // ===============================
+    // プリセット掃除箇所（高校エリアのみ）
+    // ===============================
+    const PRESET_GROUPS = [
+      { label:'4号館関係', items:[
+        '4号館2階女子トイレ','4号館2階女子更衣室','4号館2階男子トイレ','4号館2階男子更衣室',
+        '4号館2階ホール・ホール脇廊下','4号館海側階段(1～3階)','4号館海側階段(3～4階)',
+        '4号館3階セミナールーム','4号館3階ラーニングスペース','4号館3階女子トイレ',
+        '4号館3階男子トイレ','4号館4階セミナールーム','4号館4階ラーニングスペース',
+        '4号館4階女子トイレ','4号館4階男子トイレ','4号館山側全階段','4号館入口','特4A','ホール脇手洗い場',
+      ]},
+      { label:'3号館関係', items:[
+        '3号館1階女子トイレ','3号館1階男子トイレ','3号館中央階段(1～2階)','3号館昇降口',
+        '3号館2階女子トイレ','3号館中央階段(2～3階)','教室・廊下・3号館2階エレベーター前',
+        '3号館2階男子トイレ','3号館海側全階段','教室・廊下・3号館3階エレベーター前',
+        '3号館中央階段（3～4階）','3号館3階女子トイレ','3号館3階男子トイレ',
+        '教室・廊下・3号館4階エレベーター前','3号館4階女子トイレ','3号館4階男子トイレ',
+        '特3A','特3B','特3C',
+      ]},
+      { label:'国際教育館関係', items:[
+        '国際教育館1階(オーストラリア教室・アメリカ教室)',
+        '国際教育館2階 手洗い場・男子トイレ',
+        '国際教育館2階（学習室2)',
+        '国際教育館2階（学習室3)',
+        '国際教育館3階(情報教室・手洗い場・女子トイレ)',
+        '国際教育館4階(特別教室K1～K3)',
+        '国際教育館4階 手洗い場・男子トイレ',
+        '国際教育館全階段'
+      ]},
+      { label:'その他', items:[
+        '教室','廊下','高校音楽室・音楽室前廊下(5号館)','手洗い場','美術室・美術室前廊下',
+        '1年生職員室・職員室前廊下','2年生職員室・職員室前廊下','保健室・保健室前廊下',
+        '宗教部室前男子トイレ・2号館3階廊下(小礼拝堂～職員室4)','図書館','小礼拝堂','大教室(学習室1)',
+        '特1A','教育相談室前女子トイレ(2号館3階)','3年職員室・職員室前廊下',
+        '5号館(家庭科実習室・理科実験室)・6号館(化学室)','1号館3階男子トイレ','大会議室','進路室',
+        '1号館3階女子トイレ','1号館山側外階段','1号館玄関・昇降口','図書館前廊下～2号館出入口'
+      ]}
+    ];
+
+    const PASTEL_COLORS = [
+      '#FFCDD2','#F8BBD0','#E1BEE7','#D1C4E9','#C5CAE9',
+      '#BBDEFB','#B3E5FC','#B2EBF2','#B2DFDB','#C8E6C9',
+      '#DCEDC8','#F0F4C3','#FFF9C4','#FFECB3','#FFE0B2',
+      '#FFCCBC','#D7CCC8','#F5F5F5','#CFD8DC','#E6EE9C',
+      '#FFCCFF','#E0F7FA','#FCE4EC','#E8EAF6','#F3E5F5',
+      '#EDE7F6','#E0F2F1','#F1F8E9','#FFF3E0','#FFE4E1',
+      '#E6E6FA','#F0FFF0','#FFF5EE','#F5FFFA','#F0FFFF',
+      '#FFF0F5','#FAFAD2','#F5DEB3','#E0FFFF','#F4F9FF'
+    ];
+    const placeColorMap = {};
+    function hashString(str){
+      let h=0;
+      for(let i=0;i<str.length;i++){
+        h=((h<<5)-h)+str.charCodeAt(i); h|=0;
+      }
+      return h>>>0;
+    }
+    function getColorForPlaceName(name){
+      if(!name) return '#FFFFFF';
+      if(name === '掃除なし') return '#FFFFFF';
+      if(placeColorMap[name]) return placeColorMap[name];
+      const idx=hashString(name)%PASTEL_COLORS.length;
+      const c=PASTEL_COLORS[idx]; placeColorMap[name]=c; return c;
+    }
+
+    let currentStudents = [];
+    let places = []; 
+    let activeSlots = []; 
+    let isLoading = false; 
+
+    let lastSchedule = null;            
+    let lastPeriodCount = 0;
+    let lastSlotGender = null;          
+    let lastDefaultStudentToSlot = null;
+    let lastEffectiveStudentToSlot = null;
+
+    const WEEKDAY_ALL = ['月','火','水','木','金','土'];
+    function normalizeWeekdaysArray(weekdays){
+      if(!Array.isArray(weekdays) || weekdays.length===0) return ['毎日'];
+      if(weekdays.includes('なし')) return ['なし'];
+      if(weekdays.includes('毎日')) return ['毎日'];
+      return weekdays;
+    }
+    function weekdaysLabel(place){
+      const w = normalizeWeekdaysArray(place.weekdays || []);
+      if(w.length===1 && w[0]==='毎日') return '毎日';
+      if(w.length===1 && w[0]==='なし') return 'なし';
+      return w.join('・');
+    }
+    function weekdaySuffixForCell(place){
+      const w = normalizeWeekdaysArray(place.weekdays || []);
+      if(w.length===1 && (w[0]==='毎日' || w[0]==='なし')) return '';
+      return `（${w.join('・')}）`;
+    }
+    function placeDisplayName(place){
+      if(!place) return '';
+      return `${place.name}${weekdaySuffixForCell(place)}`;
+    }
+
+    const STORAGE_KEY = 'seisou_touban_app_v6_proposal';
+    let _saveTimer = null;
+
+    function requestAutoSave(){
+      if (isLoading) return; 
+      clearTimeout(_saveTimer);
+      _saveTimer = setTimeout(() => { saveAll(true); }, 250);
+    }
+
+    function safeJsonParse(raw){ try { return JSON.parse(raw); } catch { return null; } }
+
+    function getRotationCountFromUI(defaultValue){
+      const inp = document.getElementById('rotationCountInput');
+      if(!inp) return defaultValue;
+      const raw = (inp.value || '').trim();
+      if(!raw) return defaultValue;
+      const n = parseInt(raw,10);
+      if(!Number.isFinite(n) || n < 1) return defaultValue;
+      return Math.min(n, 200);
+    }
+
+    function getUiState(){
+      const students = collectStudentsFromTable();
+      const studentCount = document.getElementById('studentCountSelect')?.value || '';
+      const placesCopy = places.map(p => ({
+        area: p.area || '', name: p.name || '', teacher: p.teacher || '',
+        workerCount: p.workerCount, genderLimit: p.genderLimit || 'ANY',
+        weekdays: Array.isArray(p.weekdays) ? p.weekdays : ['毎日']
+      }));
+      const rotationCount = (document.getElementById('rotationCountInput')?.value || '').trim();
+      return {
+        version: 6, savedAt: new Date().toISOString(), studentCount, students, places: placesCopy,
+        areaDefault: document.getElementById('placeAreaSelect')?.value || '高校エリア', rotationCount,
+        lastSchedule, lastPeriodCount, lastSlotGender, lastDefaultStudentToSlot, lastEffectiveStudentToSlot, activeSlots
+      };
+    }
+
+    function applyUiState(state){
+      if(!state || typeof state !== 'object') throw '保存データが不正です。';
+      isLoading = true; 
+
+      const areaSel = document.getElementById('placeAreaSelect');
+      if(areaSel){
+        areaSel.value = state.areaDefault || '高校エリア'; populatePlaceNameSelects(areaSel.value);
+      }
+      const rc = document.getElementById('rotationCountInput');
+      if(rc) rc.value = (state.rotationCount ?? '').toString();
+
+      const students = Array.isArray(state.students) ? state.students : [];
+      const tbody = document.querySelector('#studentTable tbody');
+      if(tbody){
+        tbody.innerHTML = '';
+        students.forEach(s => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td><input type="text" class="student-id" maxlength="2" value="${escapeHtml(s.id)}" style="width:50px;" /></td>
+            <td>
+              <div class="gender-cell">
+                <button type="button" class="gender-btn" data-g="NONE" onclick="setGender(this)">未選択</button>
+                <button type="button" class="gender-btn" data-g="M" onclick="setGender(this)">男子</button>
+                <button type="button" class="gender-btn" data-g="F" onclick="setGender(this)">女子</button>
+                <input type="hidden" class="student-gender" value="${escapeHtml(s.gender || '')}">
+              </div>
+            </td>
+          `;
+          tbody.appendChild(tr);
+          const cell = tr.querySelector('.gender-cell');
+          const hidden = cell.querySelector('.student-gender');
+          const btnNone = cell.querySelector('.gender-btn[data-g="NONE"]');
+          const btnM = cell.querySelector('.gender-btn[data-g="M"]');
+          const btnF = cell.querySelector('.gender-btn[data-g="F"]');
+          if(hidden.value === 'M') btnM.classList.add('selected-m');
+          else if(hidden.value === 'F') btnF.classList.add('selected-f');
+          else { hidden.value=''; btnNone.classList.add('selected-none'); }
+        });
+      }
+      const sel = document.getElementById('studentCountSelect');
+      if(sel) sel.value = String(students.length);
+      const batchDiv=document.getElementById('genderBatchButtons');
+      if(batchDiv) batchDiv.style.display = students.length ? 'block' : 'none';
+
+      places.length = 0;
+      const pls = Array.isArray(state.places) ? state.places : [];
+      pls.forEach(p=>{
+        places.push({
+          area: p.area || '', name: p.name || '', teacher: p.teacher || '',
+          workerCount: p.workerCount, genderLimit: p.genderLimit || 'ANY',
+          weekdays: Array.isArray(p.weekdays) ? p.weekdays : ['毎日']
+        });
+      });
+
+      renderPlaceTable(); renderPlaceSummary();
+
+      lastSchedule = state.lastSchedule || null;
+      lastPeriodCount = state.lastPeriodCount || 0;
+      lastSlotGender = state.lastSlotGender || null;
+      lastDefaultStudentToSlot = state.lastDefaultStudentToSlot || null;
+      lastEffectiveStudentToSlot = state.lastEffectiveStudentToSlot || null;
+      activeSlots = state.activeSlots || [];
+      currentStudents = students;
+
+      if(lastSchedule && lastEffectiveStudentToSlot){ renderScheduleFromLast(); }
+      
+      setTimeout(() => { isLoading = false; }, 100); 
+    }
+
+    function saveAll(silent=false){
+      if (isLoading) return;
+      try{
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(getUiState()));
+        if(!silent) alert('保存しました。');
+      }catch(e) { if(!silent) alert('保存に失敗しました: ' + e); }
+    }
+
+    function loadAll(silent=false){
+      const raw = localStorage.getItem(STORAGE_KEY); if(!raw) return false;
+      const state = safeJsonParse(raw); if(!state) return false;
+      try{ applyUiState(state); return true; }catch(e){ return false; }
+    }
+
+    function setupAutoSaveHandlers(){
+      document.addEventListener('input', (e)=>{
+        const t = e.target; if(!t) return;
+        if(t.classList && t.classList.contains('student-id')) requestAutoSave();
+        if(t.id === 'placeNameInput' || t.id === 'placeTeacherInput' || t.id === 'rotationCountInput') requestAutoSave();
+        if(t.classList && (t.classList.contains('place-edit-name') || t.classList.contains('place-edit-teacher') || t.classList.contains('place-edit-workers'))) {
+          const idx = parseInt(t.getAttribute('data-idx'),10);
+          if(!isNaN(idx) && places[idx]){
+            if(t.classList.contains('place-edit-name')) places[idx].name = t.value.trim();
+            if(t.classList.contains('place-edit-teacher')) places[idx].teacher = t.value.trim();
+            if(t.classList.contains('place-edit-workers')) {
+              let val = parseInt(t.value, 10); places[idx].workerCount = (isNaN(val) || val < 1) ? null : val;
+            }
+            renderPlaceSummary(); requestAutoSave();
+          }
+        }
+      });
+      document.addEventListener('change', (e)=>{
+        const t = e.target; if(!t) return;
+        if(t.id === 'placeAreaSelect' || t.id === 'placeNameSelect1' || t.id === 'placeGenderLimitSelect') requestAutoSave();
+        if(t.classList && (t.classList.contains('place-edit-area') || t.classList.contains('place-edit-gender') || t.classList.contains('place-edit-weekday'))) {
+          const idx = parseInt(t.getAttribute('data-idx'),10);
+          if(!isNaN(idx) && places[idx]){
+            if(t.classList.contains('place-edit-area')) places[idx].area = t.value || '';
+            if(t.classList.contains('place-edit-gender')) places[idx].genderLimit = t.value || 'ANY';
+            if(t.classList.contains('place-edit-weekday')) {
+              if(places[idx].name === '掃除なし'){
+                places[idx].weekdays = ['なし']; renderPlaceTable(); renderPlaceSummary(); return;
+              }
+              const checked = Array.from(document.querySelectorAll(`.place-edit-weekday[data-idx="${idx}"]`)).filter(cb => cb.checked).map(cb => cb.value);
+              if(checked.includes('毎日')){
+                places[idx].weekdays = ['毎日'];
+                Array.from(document.querySelectorAll(`.place-edit-weekday[data-idx="${idx}"]`)).forEach(cb=>{ if(cb.value !== '毎日') cb.checked = true; });
+              }else{
+                const onlyWeek = checked.filter(v=>WEEKDAY_ALL.includes(v));
+                if(onlyWeek.length === 0){
+                  places[idx].weekdays = ['毎日'];
+                  Array.from(document.querySelectorAll(`.place-edit-weekday[data-idx="${idx}"]`)).forEach(cb=>{ cb.checked = true; });
+                }else{
+                  places[idx].weekdays = normalizeWeekdaysArray(onlyWeek);
+                  const every = document.querySelector(`.place-edit-weekday[data-idx="${idx}"][value="毎日"]`); if(every) every.checked = false;
+                }
+              }
+            }
+            renderPlaceSummary(); requestAutoSave();
+          }
+        }
+      });
+      window.addEventListener('beforeunload', ()=>{ saveAll(true); });
+    }
+
+    function escapeHtml(s){
+      return String(s ?? '').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'","&#39;");
+    }
+
+    function snapshotStudentTable(){
+      const rows=document.querySelectorAll('#studentTable tbody tr'); const data=[];
+      rows.forEach(row=>{
+        const idInput=row.querySelector('.student-id'); const genderHidden=row.querySelector('.student-gender');
+        data.push({ idRaw: idInput ? idInput.value.trim() : '', gender: genderHidden ? genderHidden.value : '' });
+      });
+      return data;
+    }
+
+    function applyStudentCount(){
+      const select=document.getElementById('studentCountSelect'); let n=parseInt(select.value,10);
+      if(!n){ alert('生徒数を選択してください。'); return; }
+      if(n<1) n=1; if(n>50) n=50;
+      const oldData=snapshotStudentTable(); const tbody=document.querySelector('#studentTable tbody'); tbody.innerHTML='';
+      for(let i=1;i<=n;i++){
+        const defaultId=String(i).padStart(2,'0'); const prev=oldData[i-1]||{idRaw:defaultId,gender:''};
+        const idValue=prev.idRaw||defaultId; const gender=prev.gender||'';
+        const tr=document.createElement('tr');
+        tr.innerHTML=`
+          <td><input type="text" class="student-id" maxlength="2" value="${escapeHtml(idValue)}" style="width:50px;" /></td>
+          <td>
+            <div class="gender-cell">
+              <button type="button" class="gender-btn" data-g="NONE" onclick="setGender(this)">未選択</button>
+              <button type="button" class="gender-btn" data-g="M" onclick="setGender(this)">男子</button>
+              <button type="button" class="gender-btn" data-g="F" onclick="setGender(this)">女子</button>
+              <input type="hidden" class="student-gender" value="${escapeHtml(gender)}">
+            </div>
+          </td>
+        `;
+        tbody.appendChild(tr);
+        const cell=tr.querySelector('.gender-cell'); const hidden=cell.querySelector('.student-gender');
+        const btnNone=cell.querySelector('.gender-btn[data-g="NONE"]'); const btnM=cell.querySelector('.gender-btn[data-g="M"]'); const btnF=cell.querySelector('.gender-btn[data-g="F"]');
+        if(hidden.value==='M') btnM.classList.add('selected-m');
+        else if(hidden.value==='F') btnF.classList.add('selected-f');
+        else { hidden.value=''; if(btnNone) btnNone.classList.add('selected-none'); }
+      }
+      if(document.getElementById('genderBatchButtons')) document.getElementById('genderBatchButtons').style.display='block';
+      requestAutoSave();
+    }
+
+    function setGender(btn){
+      const cell=btn.closest('.gender-cell'); if(!cell) return;
+      const hidden=cell.querySelector('.student-gender'); const buttons=cell.querySelectorAll('.gender-btn');
+      buttons.forEach(b=>b.classList.remove('selected-none','selected-m','selected-f'));
+      const g=btn.getAttribute('data-g');
+      if(g==='NONE'){ hidden.value=''; btn.classList.add('selected-none'); }
+      else if(g==='M'){ hidden.value='M'; btn.classList.add('selected-m'); }
+      else if(g==='F'){ hidden.value='F'; btn.classList.add('selected-f'); }
+      requestAutoSave();
+    }
+
+    function setAllStudentsGender(g){
+      document.querySelectorAll('#studentTable tbody tr').forEach(row=>{
+        const cell=row.querySelector('.gender-cell'); if(!cell) return;
+        const hidden=cell.querySelector('.student-gender'); const buttons=cell.querySelectorAll('.gender-btn');
+        buttons.forEach(b=>b.classList.remove('selected-none','selected-m','selected-f'));
+        if(g==='M'){ hidden.value='M'; const btn=cell.querySelector('.gender-btn[data-g="M"]'); if(btn) btn.classList.add('selected-m'); }
+        else if(g==='F'){ hidden.value='F'; const btn=cell.querySelector('.gender-btn[data-g="F"]'); if(btn) btn.classList.add('selected-f'); }
+        else { hidden.value=''; const btn=cell.querySelector('.gender-btn[data-g="NONE"]'); if(btn) btn.classList.add('selected-none'); }
+      });
+      requestAutoSave();
+    }
+
+    function collectStudentsFromTable(){
+      const rows=document.querySelectorAll('#studentTable tbody tr'); const students=[]; const usedIds=new Set();
+      for(const row of rows){
+        const idInput=row.querySelector('.student-id'); const genderHidden=row.querySelector('.student-gender'); if(!idInput||!genderHidden) continue;
+        const idRaw=idInput.value.trim(); const gender=genderHidden.value; if(!idRaw && !gender) continue;
+        if(!idRaw) throw '生徒番号が未入力の行があります。';
+        if(!/^[0-9]{1,2}$/.test(idRaw)) throw '生徒番号は1〜2桁の数字で入力してください: ' + idRaw;
+        const num=parseInt(idRaw,10); if(num<=0) throw '生徒番号は1以上の数字にしてください: ' + idRaw;
+        const id=String(num).padStart(2,'0'); if(usedIds.has(id)) throw '生徒番号が重複しています: ' + id;
+        usedIds.add(id); students.push({id, gender});
+      }
+      return students;
+    }
+
+    function inferGenderLimitFromName(name){
+      const hasFemale = name.includes('女子'); const hasMale = name.includes('男子');
+      if(hasFemale && !hasMale) return 'F'; if(hasMale && !hasFemale) return 'M';
+      return 'ANY';
+    }
+
+    function addPlace(){
+      const areaSelect=document.getElementById('placeAreaSelect'); const nameInput=document.getElementById('placeNameInput');
+      const teacherInput=document.getElementById('placeTeacherInput'); const workerCountInput=document.getElementById('placeWorkerCountInput');
+      const sel1=document.getElementById('placeNameSelect1'); const genderSel=document.getElementById('placeGenderLimitSelect');
+      const area=areaSelect.value.trim(); let name=nameInput.value.trim(); const teacher=teacherInput.value.trim();
+      let workerCount = null;
+      if(workerCountInput.value.trim() !== '') {
+        workerCount = parseInt(workerCountInput.value, 10); if(isNaN(workerCount) || workerCount < 1) workerCount = 1;
+      }
+      if(!name && sel1 && sel1.value) name = sel1.value;
+      const weekdayChecks=document.querySelectorAll('.weekday-checkbox'); let weekdays=[];
+      weekdayChecks.forEach(cb=>{ if(cb.checked) weekdays.push(cb.value); });
+      if(!name){ alert('清掃箇所を指定してください。'); return; }
+      if(weekdays.length===0){ alert('曜日を選択してください。'); return; }
+      if(weekdays.includes('毎日') && weekdays.length>1) weekdays=['毎日'];
+      let genderLimit='ANY'; const selected = genderSel ? genderSel.value : 'AUTO';
+      if(selected==='AUTO') genderLimit=inferGenderLimitFromName(name);
+      else if(selected==='M') genderLimit='M'; else if(selected==='F') genderLimit='F';
+
+      places.push({ area, name, teacher, workerCount, genderLimit, weekdays: normalizeWeekdaysArray(weekdays) });
+      renderPlaceTable(); renderPlaceSummary(); resetWeekdayToEveryday();
+      if(sel1) sel1.value=''; nameInput.value=''; workerCountInput.value=''; if(genderSel) genderSel.value='AUTO';
+      requestAutoSave();
+    }
+
+    function addNoDutyPlace(){
+      places.push({ area:'', name:'掃除なし', teacher:'', workerCount: 1, genderLimit:'ANY', weekdays:['なし'] });
+      renderPlaceTable(); renderPlaceSummary(); requestAutoSave();
+    }
+
+    function removePlace(index){
+      if(index<0 || index>=places.length) return; places.splice(index,1);
+      renderPlaceTable(); renderPlaceSummary(); requestAutoSave();
+    }
+
+    // 曜日編集
+    function renderWeekdayEditor(p, idx){
+      if(p.name === '掃除なし') return `<div>なし</div><div class="row-note">※固定</div>`;
+      const w = normalizeWeekdaysArray(p.weekdays || ['毎日']); const checkedSet = new Set(w.length===1 && w[0]==='毎日' ? ['毎日', ...WEEKDAY_ALL] : w);
+      const mk = (val, label) => `<label><input type="checkbox" class="place-edit-weekday" data-idx="${idx}" value="${val}" ${checkedSet.has(val) ? 'checked' : ''}>${label}</label>`;
+      return `<div class="weekday-mini">${mk('毎日','毎日')} ${mk('月','月')} ${mk('火','火')} ${mk('水','水')} ${mk('木','木')} ${mk('金','金')} ${mk('土','土')}</div>`;
+    }
+
+    function renderPlaceTable(){
+      const tbody=document.querySelector('#placeTable tbody'); tbody.innerHTML='';
+      places.forEach((p,idx)=>{
+        const tr=document.createElement('tr');
+        const areaHtml = `<select class="place-edit-select place-edit-area" data-idx="${idx}"><option value="" ${p.area===''?'selected':''}>指定なし</option><option value="高校エリア" ${p.area==='高校エリア'?'selected':''}>高校エリア</option><option value="中学エリア" ${p.area==='中学エリア'?'selected':''}>中学エリア</option></select>`;
+        const nameHtml = `<input type="text" class="place-edit-input place-edit-name" data-idx="${idx}" value="${escapeHtml(p.name || '')}" />`;
+        const teacherHtml = `<input type="text" class="place-edit-input place-edit-teacher" data-idx="${idx}" value="${escapeHtml(p.teacher || '')}" />`;
+        const workersHtml = `<input type="number" class="place-edit-input place-edit-workers" data-idx="${idx}" min="1" max="50" value="${p.workerCount === null ? '' : p.workerCount}" placeholder="自動" style="text-align:center;" />`;
+        const genderHtml = `<select class="place-edit-select place-edit-gender" data-idx="${idx}"><option value="ANY" ${p.genderLimit==='ANY'?'selected':''}>不可指定</option><option value="M" ${p.genderLimit==='M'?'selected':''}>男子のみ</option><option value="F" ${p.genderLimit==='F'?'selected':''}>女子のみ</option></select>`;
+        tr.innerHTML = `<td>${areaHtml}</td><td>${nameHtml}</td><td>${teacherHtml}</td><td>${workersHtml}</td><td>${genderHtml}</td><td>${renderWeekdayEditor(p, idx)}</td><td><button type="button" onclick="removePlace(${idx})">削除</button></td>`;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function populatePlaceNameSelects(area){
+      const sel=document.getElementById('placeNameSelect1'); if(!sel) return;
+      sel.innerHTML='<option value="">選択なし</option>'; if(area!=='高校エリア') return;
+      PRESET_GROUPS.forEach(group=>{
+        const og=document.createElement('optgroup'); og.label=group.label;
+        group.items.forEach(name=>{ const opt=document.createElement('option'); opt.value=name; opt.textContent=name; og.appendChild(opt); });
+        sel.appendChild(og);
+      });
+    }
+
+    function updatePlaceNameInputFromSelect1(){
+      const sel=document.getElementById('placeNameSelect1'); const nameInput=document.getElementById('placeNameInput');
+      if(sel && nameInput) nameInput.value = sel.value || ''; requestAutoSave();
+    }
+
+    function resetWeekdayToEveryday(){ document.querySelectorAll('.weekday-checkbox').forEach(cb=>{ cb.checked=true; }); }
+
+    function getSlotGenderLimit(slot){ const p = places[slot.placeIdx]; return p ? p.genderLimit : 'ANY'; }
+
+    function calcEffectiveWorkerCounts(totalStudents, forceSafety = false) {
+      let fixedTotal = 0; let autoPlaces = [];
+      places.forEach((p, idx) => {
+        if (!forceSafety && p.workerCount !== null && p.workerCount > 0) fixedTotal += p.workerCount;
+        else autoPlaces.push(idx);
+      });
+
+      if (fixedTotal > totalStudents) {
+        autoPlaces = places.map((_, i) => i); fixedTotal = 0;
+      }
+
+      let remaining = totalStudents - fixedTotal; const counts = new Array(places.length).fill(0);
+      places.forEach((p, idx) => { if (!autoPlaces.includes(idx)) counts[idx] = p.workerCount; });
+
+      if (autoPlaces.length > 0) {
+        let base = Math.floor(remaining / autoPlaces.length); let extra = remaining % autoPlaces.length;
+        autoPlaces.forEach(idx => { counts[idx] = base + (extra > 0 ? 1 : 0); if(extra > 0) extra--; });
+      } else if (remaining > 0) {
+        let extraIdx = places.findIndex(p => p.name === '掃除なし'); if (extraIdx === -1) extraIdx = places.length - 1;
+        counts[extraIdx] += remaining;
+      }
+
+      for(let i=0; i<counts.length; i++) { if(counts[i] <= 0) counts[i] = 1; }
+      return counts;
+    }
+
+    function generateSlots(effectiveCounts){
+      const slots = [];
+      effectiveCounts.forEach((count, placeIdx) => { for(let i=0; i<count; i++) slots.push({ slotId: slots.length, placeIdx, subIdx: i }); });
+      return slots;
+    }
+
+    function decideSlotGendersStrict(students, slots, relaxGender = false){
+      const male = students.filter(s=>s.gender==='M').length; const female = students.filter(s=>s.gender==='F').length;
+      let mReq = 0, fReq = 0;
+      slots.forEach(slot => {
+        const gl = relaxGender ? 'ANY' : getSlotGenderLimit(slot);
+        if(gl === 'M') mReq++; else if(gl === 'F') fReq++;
+      });
+
+      if (male < mReq || female < fReq) {
+        if (!relaxGender) return decideSlotGendersStrict(students, slots, true); 
+        throw '生徒の男女比率と清掃箇所の条件が一致しません。';
+      }
+
+      let targetM = Math.round(slots.length * (male / (male + female || 1)));
+      if(targetM < mReq) targetM = mReq; if(targetM > (slots.length - fReq)) targetM = slots.length - fReq;
+
+      const slotGenders = new Array(slots.length).fill(null); let mLeft = targetM;
+      for(let i=0; i<slots.length; i++){
+        if(mLeft > 0){ slotGenders[i] = 'M'; mLeft--; } else slotGenders[i] = 'F';
+      }
+      return { slotGenders, relaxed: relaxGender };
+    }
+
+    // 💡 修正箇所：引数ミスをなくし、再帰処理(条件緩和)の際にも必ず「slotGenders」を渡すよう完全修正
+    function assignSlotsToPlaces(slotGenders, periodCount, relaxedPenalty = false){
+      const n = activeSlots.length; const P = periodCount;
+      const visited = Array.from({length:n}, ()=> new Set()); const prevPlace = Array.from({length:n}, ()=> -1);
+
+      function mcmfAssign(costFn){
+        const S = 0, slotBase = 1, pBase = slotBase + n, T = pBase + n, V = T + 1; const G = Array.from({length:V}, ()=>[]);
+        function addEdge(u,v,cap,cost){ G[u].push({to:v, rev:G[v].length, cap, cost}); G[v].push({to:u, rev:G[u].length-1, cap:0, cost:-cost}); }
+        for(let i=0; i<n; i++) addEdge(S, slotBase+i, 1, 0); for(let i=0; i<n; i++) addEdge(pBase+i, T, 1, 0);
+        for(let si=0; si<n; si++) {
+          for(let pi=0; pi<n; pi++) {
+            const c = costFn(si, pi); if(c !== Infinity) addEdge(slotBase+si, pBase+pi, 1, c);
+          }
+        }
+        let flow = 0; const potential = new Array(V).fill(0);
+        function dijkstra(){
+          const dist = new Array(V).fill(Infinity), prevv = new Array(V).fill(-1), preve = new Array(V).fill(-1);
+          dist[S] = 0; const used = new Array(V).fill(false);
+          for(;;){
+            let v = -1; for(let i=0; i<V; i++) if(!used[i] && dist[i] < Infinity && (v===-1 || dist[i] < dist[v])) v=i;
+            if(v === -1) break; used[v] = true;
+            for(let ei=0; ei<G[v].length; ei++){
+              const e = G[v][ei]; if(e.cap<=0) continue;
+              const nd = dist[v] + e.cost + potential[v] - potential[e.to];
+              if(nd < dist[e.to]){ dist[e.to] = nd; prevv[e.to] = v; preve[e.to] = ei; }
+            }
+          }
+          if(dist[T] === Infinity) return null;
+          for(let v=0; v<V; v++) if(dist[v]<Infinity) potential[v]+=dist[v];
+          return {prevv, preve};
+        }
+        while(flow < n){
+          const res = dijkstra(); if(!res) break;
+          let addf = 1, v = T; while(v !== S){ const u = res.prevv[v], ei = res.preve[v]; addf = Math.min(addf, G[u][ei].cap); v = u; }
+          v = T; while(v !== S){ const u = res.prevv[v], ei = res.preve[v], e = G[u][ei]; e.cap -= addf; G[v][e.rev].cap += addf; v = u; }
+          flow += addf;
+        }
+        if(flow !== n) return null;
+        const assign = new Array(n).fill(-1);
+        for(let si=0; si<n; si++){
+          for(const e of G[slotBase+si]){ if(e.to >= pBase && e.to < pBase+n && G[e.to][e.rev].cap > 0){ assign[si] = e.to - pBase; break; } }
+        }
+        return assign;
+      }
+
+      const schedule = [];
+      for(let period=0; period<P; period++){
+        const costFn = (si, pi) => {
+          const slot = activeSlots[si]; const actualPlaceIdx = activeSlots[pi].placeIdx;
+          // 性別制限は「行き先の清掃箇所」の制限で判定する（元ファイルは出発側の枠で判定しており、男子のみの箇所に女子が入っていた）
+          const gl = getSlotGenderLimit(activeSlots[pi]);
+          if(gl !== 'ANY' && slotGenders[si] !== gl && !relaxedPenalty) return Infinity; 
+
+          let c = 0;
+          if(gl !== 'ANY' && slotGenders[si] !== gl) c += 10000; 
+          if(prevPlace[si] === actualPlaceIdx) c += relaxedPenalty ? 50 : 5000; 
+          if(visited[si].has(actualPlaceIdx)) c += relaxedPenalty ? 5 : 300;
+          return c;
+        };
+
+        let assign = mcmfAssign(costFn);
+        if(!assign && !relaxedPenalty) {
+          // 💡 再計算を指示する際に「slotGenders」配列が脱落していた致命的設計バグを修正
+          return assignSlotsToPlaces(slotGenders, periodCount, true);
+        }
+        if(!assign) throw "割当失敗";
+        schedule.push(assign.map(tIdx => activeSlots[tIdx].placeIdx));
+        for(let si=0; si<n; si++){ prevPlace[si] = schedule[period][si]; visited[si].add(schedule[period][si]); }
+      }
+      return { schedule, relaxedCondition: relaxedPenalty };
+    }
+
+    // 生徒を枠に割り当てる（性別が一致する枠へ、生徒番号順に1人ずつ）。
+    // ※ 提供されたファイルにはこの関数が含まれていなかったため、仕様（枠の性別に合わせて生徒を配置）に沿って補完
+    function distributeStudentsToSlotsStrict(students, slotGenders){
+      const sorted = [...students].sort((x, y) => x.id.localeCompare(y.id));
+      const map = {}; const used = new Set();
+      sorted.forEach(st => {
+        const si = slotGenders.findIndex((g, i) => !used.has(i) && g === st.gender);
+        if(si >= 0){ map[st.id] = si; used.add(si); }
+      });
+      sorted.forEach(st => {
+        if(map[st.id] !== undefined) return;
+        const si = slotGenders.findIndex((g, i) => !used.has(i));
+        if(si >= 0){ map[st.id] = si; used.add(si); }
+      });
+      return map;
+    }
+
+    function generateSchedule(){
+      let students; try { students = collectStudentsFromTable(); } catch(e){ alert(e); return; }
+      if(students.length === 0 || places.length === 0){ alert('生徒情報または清掃箇所がありません。'); return; }
+
+      const hintArea = document.getElementById('proposalHintArea');
+      hintArea.style.display = 'none'; hintArea.innerHTML = '';
+
+      let effectiveCounts; let isAdjustedMode = false;
+      try {
+        effectiveCounts = calcEffectiveWorkerCounts(students.length, false);
+      } catch(err) {
+        effectiveCounts = calcEffectiveWorkerCounts(students.length, true); isAdjustedMode = true;
+      }
+
+      activeSlots = generateSlots(effectiveCounts); currentStudents = students;
+
+      let slotGenderRes = decideSlotGendersStrict(currentStudents, activeSlots);
+      let studentToSlot = distributeStudentsToSlotsStrict(currentStudents, slotGenderRes.slotGenders);
+
+      let assignRes;
+      try {
+        assignRes = assignSlotsToPlaces(slotGenderRes.slotGenders, getRotationCountFromUI(activeSlots.length), false);
+      } catch(e) {
+        alert("パズルの作成ができませんでした。生徒数や配置を見直してください。"); return;
+      }
+
+      lastSchedule = assignRes.schedule; lastPeriodCount = lastSchedule.length;
+      lastSlotGender = slotGenderRes.slotGenders; lastDefaultStudentToSlot = studentToSlot; lastEffectiveStudentToSlot = {...studentToSlot};
+
+      if (isAdjustedMode || slotGenderRes.relaxed || assignRes.relaxedCondition) {
+        hintArea.style.display = 'block';
+        hintArea.innerHTML = "【💡 システムによる自動調整の提案】<br>" +
+          (isAdjustedMode ? "・指定された人数では全員を配置できないため、各箇所の人数を自動で均等に再調整しました。<br>" : "") +
+          (slotGenderRes.relaxed ? "・男女比と箇所の制限を成立させるため、一部の箇所の性別制限を自動調整しました。<br>" : "") +
+          (assignRes.relaxedCondition ? "・ローテーションが詰まるのを防ぐため、連続担当のルールを一部緩和して作成しました。<br>" : "");
+      }
+
+      renderScheduleFromLast(); saveAll(true);
+    }
+
+    function buildStudentViewTable(schedule, periodCount, students, studentToSlot){
+      const table=document.createElement('table'); const thead=document.createElement('thead'); const trHead=document.createElement('tr');
+      const th0=document.createElement('th'); th0.textContent='生徒番号'; trHead.appendChild(th0);
+      for(let p=0; p<periodCount; p++){ const th=document.createElement('th'); th.textContent=`ローテ${p+1}`; trHead.appendChild(th); }
+      thead.appendChild(trHead); table.appendChild(thead);
+      
+      const studentsAll = [...students].sort((a, b) => {
+        const sa = (studentToSlot && studentToSlot[a.id] !== undefined) ? studentToSlot[a.id] : -1;
+        const sb = (studentToSlot && studentToSlot[b.id] !== undefined) ? studentToSlot[b.id] : -1;
+        return sa - sb || a.id.localeCompare(b.id);
+      });
+
+      const tbody=document.createElement('tbody');
+      studentsAll.forEach(s=>{
+        const slotId = studentToSlot[s.id]; 
+        if (slotId === undefined) return; 
+        
+        const tr=document.createElement('tr');
+        const tdId=document.createElement('td'); tdId.textContent = s.gender === 'M' ? `${s.id}(男子)` : `${s.id}(女子)`; tr.appendChild(tdId);
+        for(let period=0; period<periodCount; period++){
+          const td=document.createElement('td'); const placeIdx = schedule[period][slotId]; const place = places[placeIdx];
+          // 💡 スペース分離のない完全な記述
+          td.textContent = placeDisplayName(place); td.style.backgroundColor = place ? getColorForPlaceName(place.name) : '#FFFFFF'; tr.appendChild(td);
+        }
+        tbody.appendChild(tr);
+      });
+      table.appendChild(tbody); return table;
+    }
+
+    function buildPlaceSummaryTable(){
+      const table = document.createElement('table'); const thead = document.createElement('thead'); const tr = document.createElement('tr');
+      ['掃除箇所名','担当教員名','設定人数','清掃曜日'].forEach(t=>{ const th=document.createElement('th'); th.textContent=t; tr.appendChild(th); });
+      thead.appendChild(tr); table.appendChild(thead);
+      const tbody = document.createElement('tbody');
+      places.forEach(p=>{
+        const tr=document.createElement('tr'); const tdName=document.createElement('td');
+        tdName.textContent = p.name || ''; tdName.style.backgroundColor = getColorForPlaceName(p.name); tr.appendChild(tdName);
+        const tdTeacher=document.createElement('td'); tdTeacher.textContent = p.teacher || ''; tr.appendChild(tdTeacher);
+        const tdWorkers=document.createElement('td'); tdWorkers.textContent = p.workerCount === null ? '自動 (均等)' : (p.workerCount + ' 人'); tr.appendChild(tdWorkers);
+        const tdDays=document.createElement('td'); tdDays.textContent = weekdaysLabel(p); tr.appendChild(tdDays);
+        tbody.appendChild(tr);
+      });
+      table.appendChild(tbody); return table;
+    }
+
+    function renderPlaceSummary(){ const box = document.getElementById('placeSummaryInner'); if(box) { box.innerHTML = ''; box.appendChild(buildPlaceSummaryTable()); } }
+    
+    function renderScheduleFromLast(){
+      if (!lastSchedule || !lastEffectiveStudentToSlot) return;
+      const inner=document.getElementById('scheduleInner'); inner.innerHTML='';
+      inner.appendChild(buildStudentViewTable(lastSchedule, lastPeriodCount, currentStudents, lastEffectiveStudentToSlot));
+      if(document.getElementById('swapPanel')) document.getElementById('swapPanel').style.display = 'block'; populateSwapSelects();
+    }
+
+    function populateSwapSelects(){
+      const selA = document.getElementById('swapStudentA'); const selB = document.getElementById('swapStudentB'); if(!selA || !selB || currentStudents.length === 0) return;
+      const list = [...currentStudents].sort((a,b)=>a.id.localeCompare(b.id)); const keepA = selA.value, keepB = selB.value; selA.innerHTML = ''; selB.innerHTML = '';
+      list.forEach(s=>{
+        const txt = `${s.id}（${s.gender === 'M' ? '男子' : '女子'} / 枠:${Number(lastEffectiveStudentToSlot[s.id])+1}）`;
+        const optA = document.createElement('option'); optA.value = s.id; optA.textContent = txt; selA.appendChild(optA);
+        const optB = document.createElement('option'); optB.value = s.id; optB.textContent = txt; selB.appendChild(optB);
+      });
+      if(keepA) selA.value = keepA; if(keepB) selB.value = keepB;
+      if(selA.value === selB.value && selB.options.length > 1) selB.selectedIndex = (selB.selectedIndex + 1) % selB.options.length;
+    }
+
+    function swapStudents(){
+      if(!lastSchedule || !lastEffectiveStudentToSlot) return;
+      const aId = document.getElementById('swapStudentA').value; const bId = document.getElementById('swapStudentB').value;
+      if(aId === bId){ alert('異なる2名を選択してください。'); return; }
+      const a = currentStudents.find(s=>s.id===aId); const b = currentStudents.find(s=>s.id===bId);
+      if(a.gender !== b.gender){ alert('男女の入れ替えはできません。'); return; }
+      const sa = lastEffectiveStudentToSlot[aId]; const sb = lastEffectiveStudentToSlot[bId];
+      lastEffectiveStudentToSlot[aId] = sb; lastEffectiveStudentToSlot[bId] = sa;
+      renderScheduleFromLast(); saveAll(true);
+    }
+
+    function resetSwapOverrides(){ if(!lastDefaultStudentToSlot) return; lastEffectiveStudentToSlot = {...lastDefaultStudentToSlot}; renderScheduleFromLast(); saveAll(true); }
+
+    function downloadScheduleAsImage(){
+      const target=document.getElementById('scheduleArea'); const inner=document.getElementById('scheduleInner');
+      if(!target || !inner || !inner.innerHTML.trim()){ alert('当番表を作成してください。'); return; }
+      html2canvas(target).then(canvas=>{ const link=document.createElement('a'); link.href=canvas.toDataURL('image/png'); link.download='seisou_touban.png'; link.click(); });
+    }
+
+    document.addEventListener('DOMContentLoaded',()=>{
+      const areaSel=document.getElementById('placeAreaSelect');
+      if(areaSel){
+        areaSel.value='高校エリア'; populatePlaceNameSelects(areaSel.value);
+        areaSel.addEventListener('change', ()=>{
+          populatePlaceNameSelects(areaSel.value);
+          if(document.getElementById('placeNameInput')) document.getElementById('placeNameInput').value='';
+          if(document.getElementById('placeNameSelect1')) document.getElementById('placeNameSelect1').value='';
+          saveAll(true);
+        });
+      }
+      resetWeekdayToEveryday();
+      const weekdayChecks=document.querySelectorAll('.weekday-checkbox'); const everyCb=Array.from(weekdayChecks).find(cb=>cb.value==='毎日');
+      if(everyCb){ everyCb.addEventListener('change', ()=>{ const checked=everyCb.checked; weekdayChecks.forEach(cb=>{ if(cb.value!=='毎日') cb.checked=checked; }); saveAll(true); }); }
+      if(document.getElementById('placeNameSelect1')) document.getElementById('placeNameSelect1').addEventListener('change', updatePlaceNameInputFromSelect1);
+      setupAutoSaveHandlers(); 
+      loadAll(true); 
+      renderPlaceSummary();
+    });
+  
+    window.applyStudentCount = applyStudentCount;
+    window.setAllStudentsGender = setAllStudentsGender;
+    window.addPlace = addPlace;
+    window.addNoDutyPlace = addNoDutyPlace;
+    window.generateSchedule = generateSchedule;
+    window.downloadScheduleAsImage = downloadScheduleAsImage;
+    window.swapStudents = swapStudents;
+    window.resetSwapOverrides = resetSwapOverrides;
+    window.setGender = setGender;
+    window.removePlace = removePlace;
+  })();
+  </script>
 
   <div id="teacherTimetableTooltip" class="hidden"></div>
 
@@ -8381,7 +9470,6 @@
         + '<button type="button" class="pt-print" onclick="window.print()">🖨 印刷する</button>'
         + ttOption
         + '<button type="button" class="pt-close" onclick="(window.__closePrint ? window.__closePrint() : window.close())">閉じる</button>'
-        + '<span class="pt-hint">印刷画面が自動で開かないときは「印刷する」を押してください。iPadでは、共有ボタン（□↑）→「プリント」でも印刷できます。</span>'
         + '</div>';
       const printCss = '* { box-sizing:border-box; margin:0; padding:0; }'
         + 'body { background:#fff; color:#000; margin:8mm; font-family:"Hiragino Kaku Gothic ProN","Meiryo",sans-serif; -webkit-text-size-adjust:100%; }'
@@ -8881,7 +9969,7 @@
           if(info.ev.some(x => x.s === 'HS')) cls.push('ev-hs');
           if(info.ev.some(x => x.s === 'JH')) cls.push('ev-jh');
           if(selectedISO===iso) cls.push('sel');
-          if(window.ttPickWd != null && c===window.ttPickWd) cls.push('wd-hl');
+          if(window.ttPickWd != null && c===window.ttPickWd && !(info.offBy[window.ttPickSchool||'HS'] || info.sat2By[window.ttPickSchool||'HS'])) cls.push('wd-hl');
           const tips = [];
           if(same(d,sw)) tips.push('新時間割の開始日');
           if(same(d,now)) tips.push('今日');
@@ -8953,6 +10041,8 @@
       const ab = (boxes || []).find(b => b.key === active);
       const wi = ab && ab.day ? WD.indexOf(ab.day) : -1;
       window.ttPickWd = (window.ttPicking && wi >= 0) ? wi : null;
+      const it = ab ? Array.from(printCart.values()).find(x => (x.pId || '') === ab.pId) : null;
+      window.ttPickSchool = /【中】/.test(String((it && it.originLessonText) || '').replace(/<[^>]*>/g,'')) ? 'JH' : 'HS';
       cal.classList.toggle('picking', window.ttPicking);
       if(window.ttCalRerender) window.ttCalRerender();
     }
