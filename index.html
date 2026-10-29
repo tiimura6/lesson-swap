@@ -725,6 +725,26 @@
     #viewClean #swapPanel select { min-width: 160px;}
     #viewClean { font-size:1rem; }
     #viewClean .sc-title { font-size:1.25rem; margin:4px 0; }
+    #ttCalendar .cal-heading { font-weight:700; font-size:0.95em; color:#37474f; margin:0 0 6px; padding-bottom:4px; border-bottom:1px solid #cfd8dc; text-align:center; }
+
+    #ttCalendar #calEvents { max-height:none; }
+    #ttCalendar .dtt { margin-top:8px; padding-top:6px; border-top:1px solid #cfd8dc; }
+    #ttCalendar .dtt-head { display:flex; flex-wrap:wrap; align-items:center; gap:4px; margin-bottom:4px; }
+    #ttCalendar .dtt-title { font-weight:700; margin-right:4px; }
+    #ttCalendar .dtt-sep { width:6px; }
+    #ttCalendar .dtt-chip { border:1px solid #b0bec5; background:#f5f7f8; border-radius:12px; padding:1px 10px; cursor:pointer; font-size:0.85em; }
+    #ttCalendar .dtt-chip.on { background:#1565c0; border-color:#1565c0; color:#fff; font-weight:700; }
+    #ttCalendar .dtt-status { font-size:0.85em; color:#455a64; margin:2px 0 4px; font-weight:600; }
+    #ttCalendar .dtt-scroll { overflow-x:auto; }
+    #ttCalendar .dtt-table { border-collapse:collapse; width:100%; font-size:0.8em; }
+    #ttCalendar .dtt-table th, #ttCalendar .dtt-table td { border:1px solid #cfd8dc; padding:2px 4px; text-align:center; height:auto; width:auto; line-height:1.3; }
+    #ttCalendar .dtt-table thead th { background:#eceff1; color:#37474f; font-size:1em; }
+    #ttCalendar .dtt-table tbody th { background:#f5f7f8; white-space:nowrap; font-size:1em; }
+    #ttCalendar .dtt-table td { white-space:nowrap; }
+    #ttCalendar .dtt-tch { display:block; font-size:0.82em; color:#607d8b; white-space:normal; width:5.5em; margin:0 auto; line-height:1.25; }
+    #ttCalendar .dtt-time { display:block; font-weight:400; font-size:0.8em; color:#607d8b; }
+    #ttCalendar .dtt-sat { background:#fff3e0; }
+    #ttCalendar .dtt-note { font-size:0.78em; color:#78909c; margin-top:3px; }
 </style>
 
   <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
@@ -740,6 +760,7 @@
 
   <div id="viewHome" class="view">
   <div id="ttCalendar" aria-label="カレンダー">
+    <div class="cal-heading">年間行事予定（生徒用）</div>
     <div class="cal-head">
       <button type="button" class="cal-nav" id="calPrev" aria-label="前の月">◀</button>
       <span class="cal-title" id="calTitle"></span>
@@ -1840,6 +1861,12 @@
   <script>
     // 新時間割の開始日（この日の0:00から新時間割）。初期表示の自動切替とカレンダーのハイライトで共用
     const TIMETABLE_SWITCH_DATE = new Date(2026, 9, 26, 0, 0, 0);
+    // 時程表（日課表：平常／水曜／土曜／短縮）。periods＝各限の開始・終了、extra＝HR・昼休み・清掃など。
+    // 高校：「日課表（平常時程と短縮時程）」より。中学の時程表は未受領のため空（受領後に JH へ同じ形式で入力）。
+    const BELL_SCHEDULE = {
+      HS: {"normal":{"periods":[{"p":1,"s":"9:00","e":"9:50"},{"p":2,"s":"10:00","e":"10:50"},{"p":3,"s":"11:00","e":"11:50"},{"p":4,"s":"12:00","e":"12:50"},{"p":5,"s":"13:30","e":"14:20"},{"p":6,"s":"14:30","e":"15:20"},{"p":7,"s":"15:45","e":"16:35"}],"extra":[{"n":"HR・礼拝","s":"8:35","e":"8:50"},{"n":"昼休み","s":"12:50","e":"13:30"},{"n":"清掃","s":"15:25","e":"15:40"}]},"wed":{"periods":[{"p":1,"s":"9:00","e":"9:50"},{"p":2,"s":"10:00","e":"10:50"},{"p":3,"s":"11:00","e":"11:50"},{"p":4,"s":"12:00","e":"12:50"},{"p":5,"s":"13:30","e":"14:20"},{"p":6,"s":"14:30","e":"15:20"},{"p":7,"s":"15:30","e":"16:20"}],"extra":[{"n":"HR・礼拝","s":"8:35","e":"8:50"},{"n":"昼休み","s":"12:50","e":"13:30"},{"n":"清掃","s":"16:25","e":"16:40"}]},"short":{"periods":[{"p":1,"s":"9:00","e":"9:45"},{"p":2,"s":"9:55","e":"10:40"},{"p":3,"s":"10:50","e":"11:35"},{"p":4,"s":"11:45","e":"12:30"},{"p":5,"s":"13:10","e":"13:55"},{"p":6,"s":"14:05","e":"14:50"},{"p":7,"s":"15:00","e":"15:45"}],"extra":[{"n":"HR・礼拝","s":"8:35","e":"8:50"},{"n":"昼休み","s":"12:30","e":"13:10"},{"n":"清掃","s":"14:55","e":"15:10"},{"n":"清掃","s":"15:50","e":"16:05"}]},"sat":{"periods":[{"p":1,"s":"9:00","e":"9:50"},{"p":2,"s":"10:00","e":"10:50"},{"p":3,"s":"11:00","e":"11:50"},{"p":4,"s":"12:00","e":"12:50"}],"extra":[{"n":"HR・礼拝","s":"8:35","e":"8:50"},{"n":"清掃","s":"12:55","e":"13:10"}]}},
+      JH: null
+    };
     // ===== 生徒用 年間行事予定（カレンダー表示用） =====
     // days: 日付 → { e:行事の配列, f:'p'=休業日・授業なし（ピンク）／'c'=第二土曜休業日, c:原本の丸数字 }
     // notes: 月 → 月末欄の予定（日付なし）
@@ -9921,6 +9948,81 @@
     }
     window.ttDayInfo = dayInfo;
     const tag = sc => '<span class="ce-tag ' + (sc === 'JH' ? 'jh' : 'hs') + '">' + (sc === 'JH' ? '中' : '高') + '</span>';
+
+    // ===== その日の授業の予定（高校・中学のクラス別時間割をその日の曜日で表示） =====
+    const dayTT = { school:'HS', grade:1 };
+    const DOW_KEY = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+    function lessonsFor(sc, iso){
+      const useNew = new Date(iso + 'T00:00:00') >= TIMETABLE_SWITCH_DATE;
+      const pick = (nw, od) => (useNew && nw.length) ? nw : od;
+      return sc === 'HS' ? pick(lessonsHS_new, lessonsHS_old) : pick(lessonsJH_new, lessonsJH_old);
+    }
+    function bellFor(sc, short, dow){
+      const b = BELL_SCHEDULE[sc]; if(!b) return null;
+      if(short && b.short) return b.short;
+      if(dow === 6 && b.sat) return b.sat;
+      if(dow === 3 && b.wed) return b.wed;
+      return b.normal || null;
+    }
+    function dayTTHtml(iso, info){
+      const sc = dayTT.school, nm = sc === 'HS' ? '高校' : '中学';
+      const dow = new Date(iso + 'T00:00:00').getDay();
+      const all = lessonsFor(sc, iso);
+      const grades = [1,2,3];
+      if(grades.indexOf(dayTT.grade) < 0) dayTT.grade = 1;
+      const chip = (kind, val, label, on) => '<button type="button" class="dtt-chip' + (on ? ' on' : '') + '" data-k="' + kind + '" data-v="' + val + '">' + label + '</button>';
+      let h = '<div class="dtt"><div class="dtt-head"><span class="dtt-title">授業の予定</span>'
+        + chip('school','HS','高校',sc==='HS') + chip('school','JH','中学',sc==='JH') + '<span class="dtt-sep"></span>'
+        + grades.map(g => chip('grade',g,g+'年',dayTT.grade===g)).join('') + '</div>';
+      const evs = info.ev.filter(x => x.s === sc).map(x => x.t);
+      const isShort = evs.some(t => /短縮/.test(t));
+      if(dow === 0 || info.offBy[sc] || info.sat2By[sc]){
+        return h + '<div class="ce-none">' + nm + '：授業なし</div></div>';
+      }
+      let subDay = dow, subNote = '';
+      const sm = evs.map(t => /土曜(\d)限の授業を水3限/.exec(t)).filter(Boolean)[0];
+      const satP = sm ? parseInt(sm[1], 10) : 0;
+      const dk = DOW_KEY[dow];
+      const rows = all.filter(l => l.grade === dayTT.grade);
+      const classes = Array.from(new Set(rows.map(l => l.class))).filter(c => !Number.isNaN(c)).sort((a,b) => a-b);
+      if(!classes.length) return h + '<div class="ce-none">' + nm + '：この学年の授業データがありません</div></div>';
+      const bellObj = bellFor(sc, isShort, dow);
+      const bell = bellObj ? bellObj.periods : [];
+      const tm = p => { const b = bell.find(x => x.p === p); return b ? '<span class="dtt-time">' + esc(b.s) + '〜' + esc(b.e) + '</span>' : ''; };
+      const label = l => { let t = (l.subject || '').trim(); if(l.course === '文') t += '(文)'; else if(l.course === '理') t += '(理)'; return t; };
+      const status = [];
+      if(isShort) status.push('短縮日');
+      if(satP) status.push('3限は土曜' + satP + '限の授業');
+      h += '<div class="dtt-status">' + nm + '・' + WD[dow] + '曜' + (status.length ? '（' + status.join('／') + '）' : '') + '</div>';
+      h += '<div class="dtt-scroll"><table class="dtt-table"><thead><tr><th></th>' + classes.map(c => '<th>' + c + '組</th>').join('') + '</tr></thead><tbody>';
+      for(let p = 1; p <= 7; p++){
+        const useSat = (satP && p === 3);
+        const day = useSat ? 'Sat' : dk, per = useSat ? satP : p;
+        if(bell.length && !bell.some(x => x.p === p)) continue; // 時程にない限（土曜の5限以降など）は表示しない
+        const any = rows.some(l => l.day === day && l.period === per);
+        if(!any && !useSat && p === 7) continue;
+        h += '<tr><th>' + p + '限' + tm(p) + '</th>' + classes.map(c => {
+          const ls = rows.filter(l => l.class === c && l.day === day && l.period === per);
+          if(!ls.length) return '<td></td>';
+          const subj = Array.from(new Set(ls.map(label))).join('/');
+          const tch = Array.from(new Set(ls.map(l => l.teacher))).join('・');
+          return '<td' + (useSat ? ' class="dtt-sat"' : '') + '>' + esc(subj) + (tch ? '<span class="dtt-tch">' + esc(tch) + '</span>' : '') + '</td>';
+        }).join('') + '</tr>';
+      }
+      h += '</tbody></table></div>';
+      if(!bell.length) h += '<div class="dtt-note">※ ' + nm + 'の時程表（各限の時刻）は未登録です</div>';
+      else if(bellObj.extra && bellObj.extra.length){
+        const g = new Map();
+        bellObj.extra.forEach(x => { if(!g.has(x.n)) g.set(x.n, []); g.get(x.n).push(x.s + '〜' + x.e); });
+        h += '<div class="dtt-note">' + Array.from(g).map(([n, v]) => esc(n) + ' ' + v.join('・')).join('　／　') + '</div>';
+      }
+      return h + '</div>';
+    }
+    document.getElementById('calEvents').addEventListener('click', e => {
+      const b = e.target.closest('.dtt-chip'); if(!b) return;
+      if(b.dataset.k === 'school') dayTT.school = b.dataset.v; else dayTT.grade = parseInt(b.dataset.v, 10);
+      renderEvents();
+    });
     function renderEvents(){
       const box = document.getElementById('calEvents');
       const reg = registered();
@@ -9940,6 +10042,7 @@
       } else {
         html = '';
       }
+      if(selectedISO) html += dayTTHtml(selectedISO, dayInfo(selectedISO));
       const mk = viewY + '-' + String(viewM+1).padStart(2,'0');
       const nts = [];
       SCHOOLS.forEach(([sc]) => (sdata(sc).notes[mk] || []).forEach(t => nts.push(tag(sc) + esc(t))));
