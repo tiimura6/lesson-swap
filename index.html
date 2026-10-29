@@ -785,6 +785,49 @@
     .mv-notes { font-size:0.85rem; color:#455a64; margin-top:8px; padding-left:1.2em; }
     .mv-sel { padding:5px; font-size:16px; }
     @media (max-width:700px) { .mv-table { font-size:0.75rem; } }
+
+    /* ===== 見やすさ・スマホ/タブレット対応（表の大きさを揃え、はみ出す文字は自動で縮小） ===== */
+    .class-tt-container { display:block; max-width:820px; box-sizing:border-box; }
+    .class-tt-table { max-width:none; }
+    .class-tt-table thead th:first-child { width:14.5%; min-width:3.2em; }
+    .class-tt-table thead th:not(:first-child) { width:14.2%; }
+    .class-tt-table td { height:4.4em; }
+    .class-tt-subject, .class-tt-teacher { overflow-wrap:anywhere; word-break:normal; }
+    table.mv-table { table-layout:fixed; width:max-content; }
+    .mv-table thead th:first-child, .mv-table tbody th { width:3.6em; min-width:3.6em; max-width:3.6em; }
+    .mv-table thead th:not(:first-child), .mv-table td { width:6.4em; min-width:6.4em; max-width:6.4em; overflow:hidden; }
+    .mv-table td { height:4.6em; }
+    .mv-table td span { white-space:nowrap; }
+    .mv-table tr.mv-satrow td { max-width:none; }
+    #viewTabs { flex-wrap:nowrap; overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; }
+    #viewTabs::-webkit-scrollbar { display:none; }
+    #viewTabs .vtab { flex:0 0 auto; white-space:nowrap; }
+    @media (pointer:coarse) {
+      select, input[type=text], input[type=search], input[type=password], input:not([type]) { font-size:16px; }
+      .btn, button { min-height:40px; }
+      input[type=checkbox] { width:20px; height:20px; }
+      #viewTabs .vtab { min-height:44px; }
+    }
+    @media (max-width:700px) {
+      body { margin:12px; }
+      h1 { font-size:1.25rem; }
+      table.rt, table.rt thead, table.rt tbody, table.rt tr, table.rt td { display:block; width:100%; max-width:none; box-sizing:border-box; }
+      table.rt { border:none; margin-top:0.4rem; }
+      table.rt thead { display:none; }
+      table.rt tr { border:1px solid #cfd8dc; border-radius:8px; margin:0 0 8px; padding:6px 10px; background:#fff; box-shadow:0 1px 2px rgba(0,0,0,.06); }
+      table.rt td { border:none; padding:3px 0; display:flex; gap:8px; align-items:baseline; text-align:left !important; font-size:0.92rem; word-break:break-word; }
+      table.rt td::before { content:attr(data-label); flex:0 0 5.2em; font-weight:700; font-size:0.78rem; color:#546e7a; }
+      table.rt td.rt-empty { display:none; }
+      table.rt tr { position:relative; padding-left:44px; }
+      table.rt td.print-checkbox-col { position:absolute; left:6px; top:6px; width:34px; padding:0; display:block; }
+      table.rt td.print-checkbox-col::before { display:none; }
+      table.rt td.print-checkbox-col input { width:26px; height:26px; margin:0; }
+      .mv-scroll { max-height:70vh; }
+      .class-tt-table td { height:4em; }
+    }
+    @media (min-width:701px) and (max-width:1100px) {
+      table.rt td, table.rt th { padding:8px 8px; }
+    }
 </style>
 
   <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
@@ -1961,6 +2004,54 @@
     });
     $('mvBody').addEventListener('input', e => { if(e.target.id === 'mvQ'){ q = e.target.value; render(); } });
     $('mvBody').addEventListener('change', e => { if(e.target.id === 'mvRoom'){ room = e.target.value; render(); } });
+  })();
+  </script>
+
+
+  <script>
+  // ===== 表の見やすさ補助：スマホ用カード表示のラベル付与／はみ出す文字の自動縮小 =====
+  (function(){
+    function labelTables(){
+      document.querySelectorAll('table').forEach(t => {
+        if(t.dataset.rt) return;
+        const hc = t.querySelector('thead th.print-checkbox-col');
+        if(!hc) return;
+        const ths = Array.from(t.querySelectorAll('thead th'));
+        if(!t.tBodies.length || !t.tBodies[0].rows.length) return;
+        const seen = {}, cnt = {};
+        ths.forEach(h => { const k = h.textContent.trim(); cnt[k] = (cnt[k]||0)+1; });
+        const labels = ths.map(h => { const k = h.textContent.trim(); seen[k] = (seen[k]||0)+1; return cnt[k] > 1 ? k + seen[k] : k; });
+        Array.from(t.tBodies[0].rows).forEach(r => {
+          Array.from(r.cells).forEach((c, i) => {
+            if(labels[i] && !c.dataset.label) c.dataset.label = labels[i];
+            if(!c.querySelector('input') && !c.textContent.trim()) c.classList.add('rt-empty');
+          });
+        });
+        t.classList.add('rt'); t.dataset.rt = '1';
+      });
+    }
+    function shrink(el, minPx, maxLines){
+      el.style.fontSize = '';
+      if(!el.offsetParent) return;
+      const cs = getComputedStyle(el); let fs = parseFloat(cs.fontSize);
+      const lh = () => { const l = parseFloat(getComputedStyle(el).lineHeight); return isNaN(l) ? fs * 1.25 : l; };
+      const over = () => maxLines ? el.scrollHeight > lh() * maxLines + 1 : el.scrollWidth > el.clientWidth + 1;
+      let n = 0;
+      while(over() && fs > minPx && n++ < 20){ fs -= 0.5; el.style.fontSize = fs + 'px'; }
+    }
+    function fitAll(){
+      labelTables();
+      document.querySelectorAll('.tt-table .tt-line, .tt-table .tt-line2').forEach(e => shrink(e, 8, 0));
+      document.querySelectorAll('.class-tt-table .class-tt-subject').forEach(e => shrink(e, 8, 2));
+      document.querySelectorAll('.class-tt-table .class-tt-teacher').forEach(e => shrink(e, 8, 3));
+      document.querySelectorAll('.mv-table td span').forEach(e => shrink(e, 7, 0));
+    }
+    let tm = null;
+    function sched(){ clearTimeout(tm); tm = setTimeout(fitAll, 120); }
+    new MutationObserver(sched).observe(document.body, { childList:true, subtree:true, attributes:true, attributeFilter:['class'] });
+    window.addEventListener('resize', sched);
+    window.addEventListener('orientationchange', sched);
+    sched();
   })();
   </script>
 
@@ -10078,18 +10169,18 @@
         else SCHOOLS.forEach(([sc,nm]) => { if(info.offBy[sc] && reg.indexOf(sc) >= 0) html += '<span class="ce-badge ce-off">' + nm + 'のみ授業なし</span>'; });
         SCHOOLS.forEach(([sc,nm]) => { if(info.sat2By[sc]) html += '<span class="ce-badge ce-sat2">' + nm + '：第二土曜休業日</span>'; });
         html += '</div>';
+        html += worshipHtml(selectedISO);
         html += info.ev.length
           ? '<ul>' + info.ev.map(x => '<li>' + tag(x.s) + esc(x.t) + '</li>').join('') + '</ul>'
           : '<div class="ce-none">行事の予定はありません</div>';
       } else {
         html = '';
       }
-      if(selectedISO) html += worshipHtml(selectedISO);
-      if(selectedISO) html += dayTTHtml(selectedISO, dayInfo(selectedISO));
       const mk = viewY + '-' + String(viewM+1).padStart(2,'0');
       const nts = [];
       SCHOOLS.forEach(([sc]) => (sdata(sc).notes[mk] || []).forEach(t => nts.push(tag(sc) + esc(t))));
       if(nts.length) html += '<ul class="ce-notes">' + nts.map(t => '<li>' + t + '</li>').join('') + '</ul>';
+      if(selectedISO) html += dayTTHtml(selectedISO, dayInfo(selectedISO));
       if(missing.length) html += '<div class="ce-none" style="margin-top:4px;">' + missing.join('・') + 'の行事予定は未登録</div>';
       box.innerHTML = html;
     }
