@@ -740,6 +740,15 @@
     #ttCalendar .dtt-table tbody th { background:#f5f7f8; white-space:nowrap; font-size:1em; }
     #ttCalendar .dtt-table td { white-space:nowrap; }
     #ttCalendar .dtt-tch { display:block; font-size:0.82em; color:#607d8b; white-space:normal; width:5.5em; margin:0 auto; line-height:1.25; }
+    #ttCalendar .dtt-table tr.dtt-extra th, #ttCalendar .dtt-table tr.dtt-extra td { background:#f1f3f4; color:#607d8b; font-size:0.92em; padding-top:1px; padding-bottom:1px; }
+    #ttCalendar .dtt-table tr.dtt-extra td { text-align:center; letter-spacing:0.3em; }
+    #ttCalendar .dtt-table tr.dtt-extra td.dtt-worship { background:#f3e5f5; color:#4a148c; letter-spacing:0; text-align:left; white-space:normal; padding:3px 6px; line-height:1.5; }
+    #ttCalendar td.dtt-worship span { width:auto; line-height:1.5; border-radius:0; }
+    #ttCalendar td.dtt-worship span.ce-bible { border-radius:8px; }
+    #ttCalendar .dtt-worship .dw-i { display:inline-block; margin-right:12px; white-space:nowrap; }
+    #ttCalendar .dtt-worship .dw-i i { font-style:normal; font-size:0.85em; color:#7b1fa2; margin-right:4px; }
+    #ttCalendar .dtt-worship .dw-i b { color:#000; }
+    #ttCalendar .dtt-table tr.dtt-extra:has(td.dtt-worship) th { background:#f3e5f5; color:#6a1b9a; }
     #ttCalendar .dtt-table tr.dtt-now th, #ttCalendar .dtt-table tr.dtt-now td { background:#c8e6c9 !important; }
     #ttCalendar .dtt-table tr.dtt-now td { box-shadow:inset 0 2px 0 #2e7d32, inset 0 -2px 0 #2e7d32; }
     #ttCalendar .dtt-nowtag { display:block; font-size:0.75em; font-weight:700; color:#1b5e20; }
@@ -10036,13 +10045,13 @@
     const sdata = sc => (SCHOOL_EVENTS[sc]) || { days:{}, notes:{} };
     // 礼拝予定（月ごとの礼拝予定表より）h:讃美歌 v:聖句 b:[新|旧, 聖書のページ]
     const WORSHIP = {"2026-10-01":{"h":"59"},"2026-10-02":{"h":"Ⅱ188","v":"旧約聖書物語","c":"中１-１"},"2026-10-03":{"h":"Ⅱ197","v":"詩編23編","b":["旧",854],"c":"高２-６"},"2026-10-05":{"h":"452","v":"ローマの信徒への手紙12章9節～10節","b":["新",292],"c":"高３-１"},"2026-10-06":{"h":"453","v":"詩編121編7～8節","b":["旧",969],"c":"高２-８"},"2026-10-07":{"h":"21の57","v":"ローマの信徒への手紙12章2節","b":["新",291],"c":"高２-９"},"2026-10-08":{"h":"453","v":"コリントの信徒への手紙Ⅱ4章18節","b":["新",330],"c":"高１-１"},"2026-10-09":{"h":"501(E)","v":"ヘブライ人への手紙4章1～2節,9節～10節","b":["新",404],"c":"高１-２"},"2026-10-13":{"h":"503","v":"ヨハネによる福音書14章18節","b":["新",197],"c":"高１-３"},"2026-10-14":{"h":"501(E)","v":"ローマの信徒への手紙12章19節","b":["新",292],"c":"高１-４"},"2026-10-15":{"h":"Ⅱ197","v":"エフェソの信徒への手紙4章32節","b":["新",357],"c":"高１-５"},"2026-10-16":{"h":"Ⅱ188","v":"申命記30章14節","b":["旧",329],"c":"高１-６"},"2026-10-19":{"h":"21の57","v":"エレミヤ書29章7節","b":["旧",1230],"c":"高１-７"},"2026-10-20":{"h":"267","v":"コヘレトの言葉3章9節","b":["旧",1037],"c":"高３-４"},"2026-10-21":{"h":"536","v":"ヤコブの手紙5章16節","b":["新",427],"c":"高１-８"},"2026-10-22":{"h":"Ⅱ188","v":"詩編119編105節","b":["旧",964],"c":"高３-７"},"2026-10-23":{"v":"詩編135編","b":["旧",975],"c":"高３-６"},"2026-10-24":{"h":"453","v":"マタイによる福音書6章34節","b":["新",11],"c":"高３-５"},"2026-10-26":{"h":"21の57","v":"詩編139編12節","b":["旧",980],"c":"高３-３"},"2026-10-27":{"h":"267","v":"ミカ書7章8節","b":["旧",1457],"c":"中２-２"},"2026-10-28":{"h":"536","v":"マタイによる福音書25章40節","b":["新",51],"c":"高３-４"},"2026-10-29":{"h":"501(E)","v":"詩編37編5節","b":["旧",868],"c":"高１-９"},"2026-10-30":{"v":"詩編40編1～2節","b":["旧",873],"c":"中２-１"},"2026-10-31":{"h":"501(E)","v":"創世記2章7節","b":["旧",2],"c":"高２-１"}};
-    function worshipHtml(iso){
+    function worshipInline(iso){
       const w = WORSHIP[iso]; if(!w) return '';
-      let h = '<div class="ce-worship"><div class="ce-wtitle">⛪ 礼拝</div>';
-      if(w.c) h += '<div>小礼拝堂：<b>' + esc(w.c) + '</b></div>';
-      if(w.h){ const m = /^21の(.+)$/.exec(w.h); const m2 = /^Ⅱ(\d+)$/.exec(w.h); h += '<div>' + (m ? '讃美歌21' : m2 ? '讃美歌第二編' : '讃美歌') + '：<b>' + esc(m ? m[1] : m2 ? m2[1] : w.h) + '</b></div>'; }
-      if(w.v) h += '<div>聖句：<b>' + esc(w.v) + '</b>' + (w.b ? '<span class="ce-bible">' + (w.b[0] === '新' ? '新約' : '旧約') + ' ' + w.b[1] + '頁</span>' : '') + '</div>';
-      return h + '</div>';
+      const parts = [];
+      if(w.c) parts.push('<span class="dw-i"><i>小礼拝堂</i><b>' + esc(w.c) + '</b></span>');
+      if(w.h){ const m = /^21の(.+)$/.exec(w.h), m2 = /^Ⅱ(\d+)$/.exec(w.h); parts.push('<span class="dw-i"><i>' + (m ? '讃美歌21' : m2 ? '讃美歌第二編' : '讃美歌') + '</i><b>' + esc(m ? m[1] : m2 ? m2[1] : w.h) + '</b></span>'); }
+      if(w.v) parts.push('<span class="dw-i"><i>聖句</i><b>' + esc(w.v) + '</b>' + (w.b ? '<span class="ce-bible">' + (w.b[0] === '新' ? '新約' : '旧約') + ' ' + w.b[1] + '頁</span>' : '') + '</span>');
+      return parts.join('');
     }
     const registered = () => SCHOOLS.filter(x => Object.keys(sdata(x[0]).days).length > 0).map(x => x[0]);
     function esc(t){ return String(t).replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
@@ -10069,7 +10078,7 @@
     const tag = sc => '<span class="ce-tag ' + (sc === 'JH' ? 'jh' : 'hs') + '">' + (sc === 'JH' ? '中' : '高') + '</span>';
 
     // ===== その日の授業の予定（高校・中学のクラス別時間割をその日の曜日で表示） =====
-    const dayTT = { school:'HS', grade:1, open:false };
+    const dayTT = { school:'HS', grade:1, open:true };
     const DOW_KEY = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
     function lessonsFor(sc, iso){
       const useNew = new Date(iso + 'T00:00:00') >= TIMETABLE_SWITCH_DATE;
@@ -10110,42 +10119,47 @@
       const bell = bellObj ? bellObj.periods : [];
       const tm = p => { const b = bell.find(x => x.p === p); return b ? '<span class="dtt-time">' + esc(b.s) + '〜' + esc(b.e) + '</span>' : ''; };
       const label = l => { let t = (l.subject || '').trim(); if(l.course === '文') t += '(文)'; else if(l.course === '理') t += '(理)'; return t; };
-      // 今日を表示中なら、現在の時刻に合う限（休み時間中は次の限）をハイライト
-      let nowP = 0, nowKind = '';
+      // 時程の全項目（各限＋HR・昼休み・清掃）を開始時刻順に並べる
+      const mm = str => { const a = String(str).split(':'); return parseInt(a[0],10)*60 + parseInt(a[1],10); };
+      const entries = bell.length ? bell.map(x => ({ kind:'p', p:x.p, s:x.s, e:x.e })) : [1,2,3,4,5,6,7].map(p => ({ kind:'p', p:p, s:'0:0'+p, e:'0:0'+p }));
+      if(bellObj && bellObj.extra) bellObj.extra.forEach((x, i) => entries.push({ kind:'x', n:x.n, s:x.s, e:x.e, i:i }));
+      entries.sort((a, b) => mm(a.s) - mm(b.s));
+      // 今日を表示中なら、現在の時刻に合う項目（休み時間中は次の項目）をハイライト
+      let nowEnt = null, nowKind = '';
       const todayD = new Date();
       if(iso === todayD.getFullYear() + '-' + String(todayD.getMonth()+1).padStart(2,'0') + '-' + String(todayD.getDate()).padStart(2,'0') && bell.length){
-        const mm = str => { const a = String(str).split(':'); return parseInt(a[0],10)*60 + parseInt(a[1],10); };
         const nm_ = todayD.getHours()*60 + todayD.getMinutes();
-        const cur = bell.find(x => mm(x.s) <= nm_ && nm_ < mm(x.e));
-        if(cur){ nowP = cur.p; nowKind = '授業中'; }
-        else { const nx = bell.filter(x => mm(x.s) > nm_).sort((a,b) => mm(a.s) - mm(b.s))[0]; if(nx){ nowP = nx.p; nowKind = '次'; } }
+        const cur = entries.find(x => mm(x.s) <= nm_ && nm_ < mm(x.e));
+        if(cur){ nowEnt = cur; nowKind = cur.kind === 'p' ? '授業中' : '今'; }
+        else { const nx = entries.find(x => mm(x.s) > nm_); if(nx){ nowEnt = nx; nowKind = '次'; } }
       }
       const status = [];
       if(isShort) status.push('短縮日');
       if(satP) status.push('3限は土曜' + satP + '限の授業');
       h += '<div class="dtt-status">' + nm + '・' + WD[dow] + '曜' + (status.length ? '（' + status.join('／') + '）' : '') + '</div>';
       h += '<div class="dtt-scroll"><table class="dtt-table"><thead><tr><th></th>' + classes.map(c => '<th>' + c + '組</th>').join('') + '</tr></thead><tbody>';
-      for(let p = 1; p <= 7; p++){
+      entries.forEach(en => {
+        const isNow = nowEnt === en;
+        const tag_ = isNow ? '<span class="dtt-nowtag">' + nowKind + '</span>' : '';
+        if(en.kind === 'x'){
+          h += '<tr class="dtt-extra' + (isNow ? ' dtt-now' : '') + '"><th>' + esc(en.n) + '<span class="dtt-time">' + esc(en.s) + '〜' + esc(en.e) + '</span>' + tag_ + '</th>' + (/礼拝/.test(en.n) && worshipInline(iso) ? '<td class="dtt-worship" colspan="' + classes.length + '">' + worshipInline(iso) + '</td>' : '<td colspan="' + classes.length + '">' + esc(en.n) + '</td>') + '</tr>';
+          return;
+        }
+        const p = en.p;
         const useSat = (satP && p === 3);
         const day = useSat ? 'Sat' : dk, per = useSat ? satP : p;
-        if(bell.length && !bell.some(x => x.p === p)) continue; // 時程にない限（土曜の5限以降など）は表示しない
         const any = rows.some(l => l.day === day && l.period === per);
-        if(!any && !useSat && p === 7) continue;
-        h += '<tr' + (p === nowP ? ' class="dtt-now"' : '') + '><th>' + p + '限' + tm(p) + (p === nowP ? '<span class="dtt-nowtag">' + nowKind + '</span>' : '') + '</th>' + classes.map(c => {
+        if(!any && !useSat && p === 7) return;
+        h += '<tr' + (isNow ? ' class="dtt-now"' : '') + '><th>' + p + '限' + tm(p) + tag_ + '</th>' + classes.map(c => {
           const ls = rows.filter(l => l.class === c && l.day === day && l.period === per);
           if(!ls.length) return '<td></td>';
           const subj = Array.from(new Set(ls.map(label))).join('/');
           const tch = Array.from(new Set(ls.map(l => l.teacher))).join('・');
           return '<td' + (useSat ? ' class="dtt-sat"' : '') + '>' + esc(subj) + (tch ? '<span class="dtt-tch">' + esc(tch) + '</span>' : '') + '</td>';
         }).join('') + '</tr>';
-      }
+      });
       h += '</tbody></table></div>';
       if(!bell.length) h += '<div class="dtt-note">※ ' + nm + 'の時程表（各限の時刻）は未登録です</div>';
-      else if(bellObj.extra && bellObj.extra.length){
-        const g = new Map();
-        bellObj.extra.forEach(x => { if(!g.has(x.n)) g.set(x.n, []); g.get(x.n).push(x.s + '〜' + x.e); });
-        h += '<div class="dtt-note">' + Array.from(g).map(([n, v]) => esc(n) + ' ' + v.join('・')).join('　／　') + '</div>';
-      }
       return h + '</div>';
     }
     // 開いている間は1分ごとに更新して、現在の限のハイライトを移動させる
@@ -10169,7 +10183,6 @@
         else SCHOOLS.forEach(([sc,nm]) => { if(info.offBy[sc] && reg.indexOf(sc) >= 0) html += '<span class="ce-badge ce-off">' + nm + 'のみ授業なし</span>'; });
         SCHOOLS.forEach(([sc,nm]) => { if(info.sat2By[sc]) html += '<span class="ce-badge ce-sat2">' + nm + '：第二土曜休業日</span>'; });
         html += '</div>';
-        html += worshipHtml(selectedISO);
         html += info.ev.length
           ? '<ul>' + info.ev.map(x => '<li>' + tag(x.s) + esc(x.t) + '</li>').join('') + '</ul>'
           : '<div class="ce-none">行事の予定はありません</div>';
