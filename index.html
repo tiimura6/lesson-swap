@@ -745,6 +745,13 @@
     #ttCalendar .dtt-time { display:block; font-weight:400; font-size:0.8em; color:#607d8b; }
     #ttCalendar .dtt-sat { background:#fff3e0; }
     #ttCalendar .dtt-note { font-size:0.78em; color:#78909c; margin-top:3px; }
+
+    /* PC・タブレット：担当者の時間割とカレンダーを左右半分ずつ */
+    @media (min-width: 701px) {
+      #ttCalendar, #ttCalendar.with-picker { width: calc(50% - 8px); max-width: none; margin-right: 0; box-sizing: border-box; font-size: clamp(1rem, 0.9rem + 0.35vw, 1.2rem); }
+      .layout-main { padding-right: 16px; }
+      #teacherATimetableContainer { flex: 1 1 0; max-width: none; min-width: 0; }
+    }
 </style>
 
   <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
