@@ -796,7 +796,15 @@
     @media (max-width:700px) { .mv-table { font-size:0.75rem; } }
 
     /* ===== 見やすさ・スマホ/タブレット対応（表の大きさを揃え、はみ出す文字は自動で縮小） ===== */
-    .class-tt-container { display:block; max-width:820px; box-sizing:border-box; }
+    .class-tt-container { display:block; max-width:none; width:100%; box-sizing:border-box; }
+    #viewClass #classTtPanel { margin-top:6px; padding:12px 14px; border-color:#cfd8dc; border-radius:8px; background:#fff; }
+    #viewClass .class-tt-table { font-size:1rem; }
+    #viewClass .class-tt-table th { font-size:1rem; padding:6px; }
+    #viewClass .class-tt-table td { height:5.2em; padding:6px; }
+    #viewClass .class-tt-subject { font-size:1.02rem; }
+    #viewClass .class-tt-header { font-size:1.15rem; margin-bottom:8px; }
+    @media (max-width:700px){ #viewClass .class-tt-table { font-size:0.82rem; } #viewClass .class-tt-table td { height:4.2em; padding:3px; } #viewClass .class-tt-subject { font-size:0.85rem; } #viewClass .class-tt-table th { font-size:0.82rem; padding:3px; } }
+    .class-tt-container:empty { display:none; }
     .class-tt-table { max-width:none; }
     .class-tt-table thead th:first-child { width:14.5%; min-width:3.2em; }
     .class-tt-table thead th:not(:first-child) { width:14.2%; }
@@ -939,6 +947,26 @@
       #viewHome #ttCalendar { font-size:1.1rem; }
       #homeDayCol #calEvents { font-size:1rem; padding:10px 10px; }
       #homeDayCol #calEvents .dtt-table th, #homeDayCol #calEvents .dtt-table td { padding:4px 3px; }
+    }
+
+    /* ===== 授業交換：ホームと同じく カレンダー（左）＋ 交換の操作・結果（右） ===== */
+    #swapBoard { display:grid; grid-template-columns:minmax(340px, 460px) minmax(0, 1fr); gap:18px; align-items:start; margin-top:6px; }
+    #swapCalSlot { min-width:0; }
+    #swapMain { min-width:0; }
+    #viewSwap #ttCalendar, #viewSwap #ttCalendar.with-picker { float:none; display:block !important; width:auto; max-width:none; margin:0; font-size:1.25rem; padding:12px 14px; box-sizing:border-box; }
+    #viewSwap #ttCalendar th, #viewSwap #ttCalendar td { height:2.5em; width:auto; }
+    #viewSwap #ttCalendar td span { width:2.1em; line-height:2.1em; }
+    #viewSwap #ttCalendar #calEvents { font-size:0.85rem; max-height:none; }
+    #viewSwap .layout-main { padding-right:0; margin-top:0; }
+    #viewSwap #teacherATimetableContainer { flex:1 1 0; max-width:none; min-width:0; }
+    #viewSwap #teacherATimetableContainer table { font-size:0.95rem; }
+    #viewSwap #teacherATimetableContainer h3 { font-size:1.15rem; }
+    #viewSwap .control-column select, #viewSwap .control-column input { font-size:1rem; min-height:34px; }
+    #viewSwap .control-column label { font-size:1.05rem; }
+    @media (max-width: 900px) {
+      #swapBoard { grid-template-columns:minmax(0, 1fr); }
+      #swapCalSlot { position:static; }
+      #viewSwap #ttCalendar { font-size:1.1rem; }
     }
 
     /* ===== Apple風デザイン（空き教室・清掃当番・試験監督の3タブ共通） ===== */
@@ -1210,6 +1238,8 @@
     .pin-dots i.on { background:#1d1d1f; transform:scale(1.08); }
     .pin-dots input { position:absolute; inset:-12px -20px; width:calc(100% + 40px); height:calc(100% + 24px); opacity:0; border:none; font-size:16px; color:transparent; background:transparent; caret-color:transparent; }
     .pin-dots.shake { animation:shake .38s; }
+    .pin-hint { font-size:0.78rem; color:#8e8e93; margin:-2px 0 4px; }
+    .pin-box.is-confirm .pin-hint { display:none; }
     .pin-err { color:#ff3b30; font-size:0.85rem; min-height:1.3em; }
     .pin-cancel { margin-top:10px; border:none; background:none; color:#0071e3; font-weight:600; font-size:0.95rem; cursor:pointer; padding:8px 14px; border-radius:980px; font-family:inherit; }
     .pin-cancel:hover { background:#f2f2f7; }
@@ -1224,14 +1254,37 @@
     .pin-no { background:#f2f2f7; color:#1d1d1f; }
     .pin-no:hover { background:#e8e8ed; }
 
+    /* ===== 試験監督：学年ごとの作成・対象クラス ===== */
+    #viewExam .ep-gseg { display:inline-flex; gap:2px; padding:3px; background:#ececf0; border-radius:10px; }
+    #viewExam .ep-gbtn { position:relative; border:none; background:transparent; border-radius:8px; padding:6px 16px; font:600 0.95rem inherit; font-family:inherit; color:#1d1d1f; cursor:pointer; }
+    #viewExam .ep-gbtn.on { background:#fff; box-shadow:0 1px 3px rgba(0,0,0,.14); color:#0071e3; }
+    #viewExam .ep-gdot { position:absolute; top:4px; right:5px; width:6px; height:6px; border-radius:50%; background:#c7c7cc; }
+    #viewExam .ep-gdot.done { background:#34c759; }
+    #viewExam .ep-gnote { display:block; flex-basis:100%; font-size:0.8rem; margin-top:4px; }
+    #viewExam .ep-qtq { width:10em; min-height:36px; border:none; border-radius:10px; background:#f2f2f7; padding:6px 10px; font-size:15px; font-family:inherit; }
+    #viewExam .ep-subhint { font-size:0.8rem; margin:-2px 0 8px; line-height:1.5; }
+    #viewExam .ep-d-cls { display:block; width:100%; margin-top:3px; border:none; border-radius:6px; padding:2px 4px; font-size:0.72rem; font-family:inherit; background:#f2f2f7; color:#6e6e73; cursor:pointer; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    #viewExam .ep-d-cls.dim { opacity:.45; }
+    #viewExam .ep-d-cls.part { background:#fff4e5; color:#b25e00; font-weight:700; opacity:1; }
+    #viewExam td.ep-na { color:#c7c7cc; background:#fafafa; }
+    .ep-clspop { position:absolute; z-index:9500; background:#fff; border-radius:14px; box-shadow:0 10px 40px rgba(0,0,0,.18), 0 0 0 1px rgba(0,0,0,.05); padding:12px; font-family:-apple-system, BlinkMacSystemFont, "Hiragino Sans", "Meiryo", sans-serif; animation:popIn .18s ease both; }
+    .ep-clspop-h { font-weight:700; font-size:0.9rem; margin-bottom:8px; }
+    .ep-clspop-h small { font-weight:400; color:#6e6e73; }
+    .ep-clspop-b { display:grid; grid-template-columns:repeat(auto-fill, minmax(70px, 1fr)); gap:4px 8px; max-height:40vh; overflow:auto; }
+    .ep-clspop-b label { display:flex; align-items:center; gap:4px; font-size:0.9rem; padding:3px 0; cursor:pointer; }
+    .ep-clspop-f { display:flex; justify-content:flex-end; gap:6px; margin-top:10px; }
+    .ep-clspop-f button { border:none; border-radius:980px; padding:6px 14px; font:600 0.85rem inherit; font-family:inherit; background:#f2f2f7; cursor:pointer; }
+    .ep-clspop-f button.pri { background:#0071e3; color:#fff; }
+
     /* ===== 試験監督：設定・試験日と科目 ===== */
     #viewExam .ep-set-grid { display:grid; grid-template-columns:minmax(260px, 340px) minmax(0, 1fr); gap:16px; margin-top:10px; }
     #viewExam .ep-sub-h { display:flex; align-items:center; flex-wrap:wrap; gap:8px; font-weight:650; font-size:0.95rem; margin:0 0 8px; }
     #viewExam .ep-sub-h .ap-link { margin:0 0 0 auto; font-size:0.85rem; }
     #viewExam table.ep-times { width:100%; margin:0; }
-    #viewExam .ep-times th { width:3.2em; color:var(--ap-text); font-size:0.9rem; background:#fafafc; }
+    #viewExam .ep-times th { width:3.2em; color:var(--ap-text); font-size:0.9rem; background:#fafafc; white-space:nowrap; }
     #viewExam .ep-times td { padding:6px 8px; white-space:nowrap; }
     #viewExam .ep-times input[type=time] { width:7.4em; padding:4px 6px; min-height:32px; font-size:14px; }
+    @media (max-width:480px){ #viewExam .ep-times th { width:2.6em; padding:4px; } #viewExam .ep-times td { padding:6px 4px; } #viewExam .ep-times input[type=time] { width:6.6em; } }
     #viewExam .ep-len { color:var(--ap-sub); font-size:0.85rem; width:3.5em; }
     #viewExam .ep-times tr.ep-brk th, #viewExam .ep-times tr.ep-brk td { background:#fbfbfd; padding:3px 8px; }
     #viewExam .ep-brk label { margin:0; font-size:0.82rem; color:var(--ap-sub); gap:6px; }
@@ -1255,17 +1308,26 @@
     #viewExam .ep-empty { text-align:center; color:var(--ap-sub); padding:22px 0; }
     @media (max-width:800px) { #viewExam .ep-set-grid { grid-template-columns:minmax(0, 1fr); } #viewExam .ep-dgrid input[type=text] { width:6.5em; } }
 
-    /* ===== ホームの時間割：使用教室・空き教室 ===== */
+    /* ===== ホームの時間割：移動教室 ===== */
     #calEvents .dtt-table td .dtt-room { display:block; margin-top:2px; font-size:0.78em; color:#0050a8; line-height:1.3; }
     #calEvents .dtt-table td .dtt-room b { display:block; font-weight:700; word-break:keep-all; overflow-wrap:anywhere; }
     #calEvents .dtt-table td.dtt-me .dtt-room { color:#8a5a00; }
-    #calEvents .dtt-table th.dtt-freeh { background:#e9f8ee; color:#1a7f37; white-space:nowrap; }
-    #calEvents .dtt-table td.dtt-free { background:#f4fbf6; text-align:left; min-width:9em; max-width:14em; vertical-align:middle; }
-    #calEvents .dtt-table td.dtt-free span { display:inline-block; background:#e9f8ee; color:#1a7f37; border-radius:980px; padding:1px 7px; margin:1px 2px; font-size:0.78em; font-weight:700; white-space:nowrap; }
-    #calEvents .dtt-table td.dtt-free i { color:#aeaeb2; font-style:normal; }
+    #calEvents .dtt-table td.dtt-move { background:#e8f2ff; box-shadow:inset 3px 0 0 #0071e3; }
+    #calEvents .dtt-table td.dtt-move.dtt-me { box-shadow:inset 0 0 0 2px #f5a623, inset 5px 0 0 #0071e3; }
+    #calEvents .dtt-table td .dtt-room em { display:inline-block; font-style:normal; font-size:0.85em; font-weight:700; color:#fff; background:#0071e3; border-radius:4px; padding:0 5px; margin-bottom:1px; }
+    #calEvents .dtt-legend { display:flex; align-items:center; gap:6px; margin:6px 2px 0; font-size:0.78rem; color:#6e6e73; }
+    #calEvents .dtt-legend-sw { width:14px; height:12px; border-radius:3px; background:#e8f2ff; box-shadow:inset 3px 0 0 #0071e3; }
 
     /* ===== クラス別時間割：授業場所 ===== */
     .class-tt-room { display:block; margin-top:3px; font-size:0.78em; font-weight:700; color:#0050a8; line-height:1.3; }
+
+    /* ===== 累計カウンター ===== */
+    .tt-counter { display:inline-flex; align-items:baseline; gap:3px; font:600 0.78rem -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Meiryo", sans-serif; color:#6e6e73; background:#f2f2f7; border-radius:980px; padding:4px 11px; white-space:nowrap; vertical-align:middle; letter-spacing:0; }
+    .tt-counter b { font-size:1.05rem; color:#1d1d1f; font-variant-numeric:tabular-nums; }
+    .tt-cbar { display:flex; justify-content:flex-end; margin:0 0 6px; }
+    h2.sc-title .tt-counter { margin-left:8px; }
+    #viewExam .ap-head .tt-counter { margin-left:auto; }
+    #classTtControls .tt-counter { margin-left:auto; }
 
     /* ===== 大学検索 ===== */
     #viewUniv .univ-bar { display:flex; flex-wrap:wrap; align-items:center; gap:6px 8px; margin:2px 2px 8px; font-family:-apple-system, BlinkMacSystemFont, "Hiragino Sans", "Meiryo", sans-serif; }
@@ -1274,7 +1336,6 @@
     #viewUniv .univ-link:hover { background:#e8e8ed; }
     #viewUniv .univ-frame-wrap { position:relative; border-radius:16px; overflow:hidden; box-shadow:0 0 0 1px #e5e5ea, 0 4px 16px rgba(0,0,0,.05); background:#fff; }
     #viewUniv iframe { display:block; width:100%; height:calc(100vh - 190px); min-height:420px; border:0; }
-    @media (max-width:600px){ #viewUniv .univ-long { display:none; } #viewUniv .univ-title { font-size:1rem; } #viewUniv .univ-link { padding:6px 11px; } }
     #viewUniv .univ-fs { background:#1d1d1f; color:#fff; }
     #viewUniv .univ-fs:hover { background:#000; }
     #viewUniv .univ-frame-wrap:fullscreen, #viewUniv .univ-frame-wrap.univ-max { border-radius:0; box-shadow:none; }
@@ -1351,6 +1412,39 @@
     setInterval(flush, 60000);
   })();
   </script>
+  <script>
+  // ===== 累計カウンター（GASのスクリプトプロパティに保存。全端末で共通） =====
+  (function(){
+    const C = {};   // key -> number
+    const url = () => { try { return localStorage.getItem('cloud_gas_url') || window.TT_GAS_URL || ''; } catch(e){ return window.TT_GAS_URL || ''; } };
+    function jsonp(params){
+      const u = url(); if(!u) return Promise.reject(new Error('nourl'));
+      return new Promise((resolve, reject) => {
+        const cb = '__ttCnt' + Date.now() + Math.floor(Math.random() * 1e6), sc = document.createElement('script');
+        let done = false;
+        const fin = () => { clearTimeout(t); try { delete window[cb]; } catch(e){ window[cb] = undefined; } sc.remove(); };
+        const t = setTimeout(() => { if(done) return; done = true; fin(); reject(new Error('timeout')); }, 10000);
+        window[cb] = d => { if(done) return; done = true; fin(); resolve(d || {}); };
+        sc.onerror = () => { if(done) return; done = true; fin(); reject(new Error('network')); };
+        sc.src = u + (u.indexOf('?') >= 0 ? '&' : '?') + Object.keys(params).map(k => encodeURIComponent(k) + '=' + encodeURIComponent(params[k])).join('&') + '&callback=' + cb;
+        document.head.appendChild(sc);
+      });
+    }
+    function paint(){
+      document.querySelectorAll('.tt-counter[data-key]').forEach(el => {
+        const b = el.querySelector('b'), v = C[el.dataset.key];
+        if(b) b.textContent = v == null ? '—' : String(v);
+      });
+    }
+    const apply = d => { if(d && d.ok && d.counts){ Object.assign(C, d.counts); paint(); } };
+    window.ttCount = function(key){
+      if(C[key] != null){ C[key]++; paint(); }   // 先に表示を進める
+      jsonp({ action:'count_hit', key }).then(apply, () => {});
+    };
+    window.ttCountRefresh = function(){ jsonp({ action:'count_get' }).then(apply, () => {}); };
+    window.addEventListener('DOMContentLoaded', () => { paint(); setTimeout(window.ttCountRefresh, 1200); });
+  })();
+  </script>
   <h1>飯村システム <span id="ttBadge" role="button" tabindex="0" title="クリックで新旧時間割を切り替え">新時間割</span><span id="opBox" class="op-box"><span class="op-ico" aria-hidden="true">👤</span><select id="opSel" aria-label="操作者"><option value="">操作者を選択</option></select><input id="opQ" type="search" placeholder="🔍 名前" aria-label="操作者を名前で検索" autocomplete="off"></span></h1>
   <p id="designedBy">designed by Takahiro Iimura</p>
   <p id="updateInfo">読み込み中…</p>
@@ -1361,8 +1455,9 @@
       <div class="pin-title" id="pinTitle"></div>
       <div class="pin-sub" id="pinSub"></div>
       <div class="pin-dots" id="pinDots"><i></i><i></i><i></i><i></i>
-        <input id="pinIn" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="4" autocomplete="off" aria-label="PIN（4桁）">
+        <input id="pinIn" type="text" inputmode="numeric" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="PIN（4桁の数字）">
       </div>
+      <div class="pin-hint">4桁の数字（全角・半角どちらでも入力できます）</div>
       <div class="pin-err" id="pinErr" aria-live="polite"></div>
       <div class="pin-confirm" id="pinConfirm" hidden>
         <div class="pin-who" id="pinWho"></div>
@@ -1376,11 +1471,11 @@
   </div>
   <nav id="viewTabs" role="tablist" aria-label="画面切り替え">
     <button type="button" role="tab" class="vtab active" data-view="home" aria-selected="true">🏠 ホーム</button>
+    <button type="button" role="tab" class="vtab" data-view="univ" aria-selected="false">🎓 大学検索</button>
     <button type="button" role="tab" class="vtab" data-view="swap" aria-selected="false">🔁 授業交換</button>
     <button type="button" role="tab" class="vtab" data-view="class" aria-selected="false">📋 クラス別時間割</button>
     <button type="button" role="tab" class="vtab" data-view="clean" aria-selected="false">🧹 清掃当番作成</button>
     <button type="button" role="tab" class="vtab" data-view="exam" aria-selected="false">📝 試験監督割当</button>
-    <button type="button" role="tab" class="vtab" data-view="univ" aria-selected="false">🎓 大学検索</button>
   </nav>
 
   <div id="viewHome" class="view">
@@ -1405,7 +1500,10 @@
   </div><!-- /viewHome -->
 
   <div id="viewSwap" class="view hidden">
+  <div id="swapBoard">
   <div id="swapCalSlot"></div>
+  <div id="swapMain">
+  <div class="tt-cbar"><span class="tt-counter" id="swapCounter">累計授業交換数 <b id="swapCounterVal">…</b>回</span></div>
   <div class="layout-main">
     <div class="control-column">
       <div class="select-with-search">
@@ -1461,6 +1559,8 @@
 
   <div id="results1to1" style="margin-top:1.2rem;"></div>
   <div id="results3way"  style="margin-top:1.2rem;"></div>
+  </div><!-- /swapMain -->
+  </div><!-- /swapBoard -->
   </div><!-- /viewSwap -->
 
   <div id="viewClass" class="view hidden">
@@ -1483,6 +1583,7 @@
       <button id="classTtExcelBtn" type="button" class="btn btn-excel" disabled>
         Excelファイルとしてダウンロード
       </button>
+      <span class="tt-counter" data-key="classdl">累計ダウンロード数 <b>…</b>回</span>
     </div>
     <div id="classTtTableContainer" class="class-tt-container"></div>
   </div>
@@ -1490,43 +1591,16 @@
 
 
   <div id="viewClean" class="view hidden">
-<h2 class="sc-title">🧹 清掃当番作成</h2>
+<h2 class="sc-title">🧹 清掃当番作成 <span class="tt-counter" data-key="clean">累計作成数 <b>…</b>回</span></h2>
 
   <fieldset>
     <legend><span class="ap-num">1</span>生徒</legend>
     <div>
       <label>
         生徒数
-        <select id="studentCountSelect">
-          <option value="">選択してください</option>
-          <option value="1">1</option><option value="2">2</option>
-          <option value="3">3</option><option value="4">4</option>
-          <option value="5">5</option><option value="6">6</option>
-          <option value="7">7</option><option value="8">8</option>
-          <option value="9">9</option><option value="10">10</option>
-          <option value="11">11</option><option value="12">12</option>
-          <option value="13">13</option><option value="14">14</option>
-          <option value="15">15</option><option value="16">16</option>
-          <option value="17">17</option><option value="18">18</option>
-          <option value="19">19</option><option value="20">20</option>
-          <option value="21">21</option><option value="22">22</option>
-          <option value="23">23</option><option value="24">24</option>
-          <option value="25">25</option><option value="26">26</option>
-          <option value="27">27</option><option value="28">28</option>
-          <option value="29">29</option><option value="30">30</option>
-          <option value="31">31</option><option value="32">32</option>
-          <option value="33">33</option><option value="34">34</option>
-          <option value="35">35</option><option value="36">36</option>
-          <option value="37">37</option><option value="38">38</option>
-          <option value="39">39</option><option value="40">40</option>
-          <option value="41">41</option><option value="42">42</option>
-          <option value="43">43</option><option value="44">44</option>
-          <option value="45">45</option><option value="46">46</option>
-          <option value="47">47</option><option value="48">48</option>
-          <option value="49">49</option><option value="50">50</option>
-        </select>
+        <input type="text" id="studentCountSelect" maxlength="2" inputmode="numeric" placeholder="1〜50" style="width:6em">
       </label>
-      <button type="button" onclick="applyStudentCount()">追加</button>
+      <button type="button" onclick="applyStudentCount()">反映</button>
     </div>
 
     <div id="genderBatchButtons">
@@ -1688,13 +1762,13 @@
   </div>
 
   <div id="viewExam" class="view hidden">
-    <div class="ap-head"><h2 class="ap-title">試験監督</h2><span class="ap-badge" id="epTtNote"></span></div>
+    <div class="ap-head"><h2 class="ap-title">試験監督</h2><span class="ap-badge" id="epTtNote"></span><span class="tt-counter" data-key="exam">累計作成数 <b>…</b>回</span></div>
 
     <section class="ap-card">
       <div class="ap-card-h"><span class="ap-num">1</span>設定</div>
       <div class="ap-bar">
         <select id="epSchool" aria-label="校種"><option value="HS">高校</option><option value="JH">中学</option></select>
-        <span id="epGrades" class="ap-chips"></span>
+        <span id="epGrades" class="ep-gseg" role="group" aria-label="作成する学年"></span><span id="epGradeNote" class="ap-sub ep-gnote"></span>
       </div>
       <div class="ep-set-grid">
         <div>
@@ -1713,6 +1787,7 @@
 
     <section class="ap-card">
       <div class="ap-card-h"><span class="ap-num">2</span>試験日と科目</div>
+      <div class="ap-sub ep-subhint">科目名は自由に入力できます（例：模試 英語、実力テスト）。授業の科目名と同じときだけ、その科目の先生を巡回に回します。「全クラス」を押すと一部のクラスだけの試験にできます。</div>
       <div class="ap-bar"><div class="ap-seg" id="epGTab"></div></div>
       <div id="epDates"></div>
       <div class="ap-bar">
@@ -1749,6 +1824,7 @@
     <section class="ap-card">
       <div class="ap-card-h"><span class="ap-num">4</span>不在の先生</div>
       <div class="ap-bar">
+        <input type="search" id="epQTq" class="ep-qtq" placeholder="🔍 名前で検索" aria-label="先生を名前で検索" autocomplete="off">
         <select id="epQT" aria-label="先生"></select>
         <select id="epQD" aria-label="日付"></select>
         <div class="ap-seg" id="epQMode">
@@ -1793,9 +1869,8 @@
   <div id="viewUniv" class="view hidden">
     <div class="univ-bar">
       <span class="univ-title">🎓 大学検索</span>
+      <span class="tt-counter" data-key="univ">累計検索数 <b>…</b>回</span>
       <button type="button" id="univFs" class="univ-link univ-fs" title="大きな画面で表示（Escで戻る）">⤢ 全画面</button>
-      <a id="univOpen" class="univ-link" href="https://tiimura6.github.io/searchuniv/" target="_blank" rel="noopener">新しいタブで開く ↗</a>
-      <a class="univ-link" href="https://claude.ai/artifact/GzAVzQUAWgyCGh6NuWaSnM" target="_blank" rel="noopener"><span class="univ-long">AIおすすめ付き（</span>Claude版<span class="univ-long">）</span> ↗</a>
     </div>
     <div class="univ-frame-wrap" id="univWrap"><button type="button" class="univ-close" id="univClose">✕ 全画面を閉じる</button><div class="univ-loading" id="univLoading"><span class="spin"></span>読み込み中…</div><iframe id="univFrame" title="大学検索（Searchuniv）" loading="lazy"></iframe></div>
   </div><!-- /viewUniv -->
@@ -2132,8 +2207,10 @@
 
     function applyStudentCount(){
       const select=document.getElementById('studentCountSelect'); let n=parseInt(select.value,10);
-      if(!n){ alert('生徒数を選択してください。'); return; }
-      if(n<1) n=1; if(n>50) n=50;
+      const z=String(select.value||'').replace(/[０-９]/g,ch=>String.fromCharCode(ch.charCodeAt(0)-0xFEE0)); n=parseInt(z,10);
+      if(!n || n<1){ alert('生徒数を1〜50の数字で入力してください。'); select.focus(); return; }
+      if(n>50){ alert('生徒数は最大50人までです。50人で作成します。'); n=50; }
+      select.value=String(n);
       const oldData=snapshotStudentTable(); const tbody=document.querySelector('#studentTable tbody'); tbody.innerHTML='';
       for(let i=1;i<=n;i++){
         const defaultId=String(i).padStart(2,'0'); const prev=oldData[i-1]||{idRaw:defaultId,gender:''};
@@ -2462,6 +2539,7 @@
       }
 
       renderScheduleFromLast(); saveAll(true);
+      if(window.ttCount) window.ttCount('clean');
     }
 
     function buildStudentViewTable(schedule, periodCount, students, studentToSlot){
@@ -2570,6 +2648,7 @@
     });
   
     window.applyStudentCount = applyStudentCount;
+    (function(){ const el=document.getElementById('studentCountSelect'); if(el) el.addEventListener('keydown', e=>{ if(e.key==='Enter' && !e.isComposing){ e.preventDefault(); applyStudentCount(); } }); })();
     window.setAllStudentsGender = setAllStudentsGender;
     window.addPlace = addPlace;
     window.addNoDutyPlace = addNoDutyPlace;
@@ -7554,7 +7633,7 @@
 
     // 画像としてダウンロード
     classTtDownloadBtn.addEventListener('click', () => {
-      if (window.ttLog) window.ttLog('クラス別時間割：画像で保存', currentClassTtLabel);
+      if (window.ttLog) window.ttLog('クラス別時間割：画像で保存', currentClassTtLabel); if (window.ttCount) window.ttCount('classdl');
       if (!currentClassTtLabel) return;
       if (!window.html2canvas) {
         alert("画像出力用ライブラリ（html2canvas）の読み込みに失敗しました。");
@@ -7578,7 +7657,7 @@
 
     // ===== Excelファイルとしてダウンロードの実装 =====
     classTtExcelBtn.addEventListener('click', () => {
-      if (window.ttLog) window.ttLog('クラス別時間割：Excelで保存', currentClassTtLabel);
+      if (window.ttLog) window.ttLog('クラス別時間割：Excelで保存', currentClassTtLabel); if (window.ttCount) window.ttCount('classdl');
       if (!currentClassTtLabel) return;
       if (!window.XLSX) {
         alert("Excel出力用ライブラリ（SheetJS）の読み込みに失敗しました。");
@@ -7680,7 +7759,9 @@
       const el = document.getElementById('updateInfo');
       if (!el) return;
       const base = '最終更新: ' + APP_LAST_UPDATED + '　｜　累計更新回数: ' + APP_UPDATE_COUNT + '回';
-      el.textContent = base + (_printCountText ? '　｜　' + _printCountText : '');
+      el.textContent = base;
+      const sv = document.getElementById('swapCounterVal'), m = /(\d+)/.exec(_printCountText || '');
+      if(sv) sv.textContent = m ? m[1] : '…';
     }
 
     // GitHub APIからdeployments数と最終アップロード日時を取得
@@ -8061,14 +8142,14 @@
       }
 
       if (!hasAny) {
-        return "<h3>" + teacherNames.join("・") + " の時間割</h3><p class=\"muted\">授業・研修データがありません</p>";
+        return "<h3>" + teacherNames.map(t => t + " 先生").join("・") + "の時間割</h3><p class=\"muted\">授業・研修データがありません</p>";
       }
 
       // 中学・高校の区別を常に表示（高＝青、中＝緑）
       const showSchool = true;
       const MAX_LINES = 4; // 1コマに表示する最大行数（授業1件=2行、研修・会議1件=最大2行）
 
-      const titleText = teacherNames.join("・") + " の時間割";
+      const titleText = teacherNames.map(t => t + " 先生").join("・") + "の時間割";
       let html = "<h3 class=\"tt-title\" title=\"" + escapeHtmlAttr(titleText) + "\">" + titleText + "</h3>";
       html += "<table class=\"tt-table\"><colgroup><col class=\"tt-col-period\">";
       DAYS_FOR_TT.forEach(() => { html += "<col>"; });
@@ -10907,14 +10988,14 @@
           });
         });
         mine.sort((a, b) => a.p - b.p);
-        h += '<div class="dtt-mine"><b>👤 ' + esc(op) + '</b>' + (mine.length
+        h += '<div class="dtt-mine"><b>👤 ' + esc(op) + ' 先生</b>' + (mine.length
           ? mine.map(m => '<button type="button" class="dtt-mine-chip" data-sc="' + m.sc + '" data-g="' + m.g + '">' + esc(m.t) + '</button>').join('')
           : '<span class="none">この日の授業なし</span>') + '</div>';
       }
       // 移動教室一覧（高校・新時間割の期間のみ）
       const MR = (sc === 'HS' && window.ttMoveRooms && new Date(iso + 'T00:00:00') >= TIMETABLE_SWITCH_DATE) ? window.ttMoveRooms : null;
-      const colN = classes.length + (MR ? 1 : 0);
-      h += '<div class="dtt-scroll"><table class="dtt-table"><thead><tr><th></th>' + classes.map(c => '<th>' + c + '組</th>').join('') + (MR ? '<th class="dtt-freeh">空き教室</th>' : '') + '</tr></thead><tbody>';
+      const colN = classes.length;
+      h += '<div class="dtt-scroll"><table class="dtt-table"><thead><tr><th></th>' + classes.map(c => '<th>' + c + '組</th>').join('') + '</tr></thead><tbody>';
       entries.forEach(en => {
         const isNow = nowEnt === en;
         const tag_ = isNow ? '<span class="dtt-nowtag">' + nowKind + '</span>' : '';
@@ -10933,13 +11014,14 @@
           const subj = Array.from(new Set(ls.map(label))).join('/');
           const tch = Array.from(new Set(ls.map(l => l.teacher))).join('・');
           const me = window.ttOperator && ls.some(l => l.teacher === window.ttOperator);
-          const cl = (useSat ? 'dtt-sat' : '') + (me ? ' dtt-me' : '');
           const rooms = MR ? MR.roomsOf(day, per, dayTT.grade, c) : [];
+          const cl = (useSat ? 'dtt-sat' : '') + (me ? ' dtt-me' : '') + (rooms.length ? ' dtt-move' : '');
           return '<td' + (cl ? ' class="' + cl.trim() + '"' : '') + '>' + esc(subj) + (tch ? '<span class="dtt-tch">' + esc(tch) + '</span>' : '')
-            + (rooms.length ? '<span class="dtt-room">' + rooms.map(r => '<b>📍' + esc(r) + '</b>').join('') + '</span>' : '') + '</td>';
-        }).join('') + (MR ? (() => { const fr = MR.freeRooms(day, per); return '<td class="dtt-free">' + (fr.length ? fr.map(r => '<span>' + esc(r) + '</span>').join('') : '<i>—</i>') + '</td>'; })() : '') + '</tr>';
+            + (rooms.length ? '<span class="dtt-room"><em>移動</em>' + rooms.map(r => '<b>📍' + esc(r) + '</b>').join('') + '</span>' : '') + '</td>';
+        }).join('') + '</tr>';
       });
       h += '</tbody></table></div>';
+      if(MR) h += '<div class="dtt-legend"><span class="dtt-legend-sw"></span>移動教室（📍＝授業を行う教室）</div>';
       if(!bell.length) h += '<div class="dtt-note">※ ' + nm + 'の時程表（各限の時刻）は未登録です</div>';
       return h + '</div>';
     }
@@ -11197,9 +11279,13 @@
         school:'HS', grades:[1,2,3], maxSlots:3, dates:[], seed:1, partOnV2:true,
         rules:{ perClass:1, reserve:0, mode:'balanced', maxPerDay:2, avoidConsec:true, excludeAuthors:true,
                 avoidKenshu:true, avoidMeeting:false, avoidTeaching:true, includePart:true, includeOther:false },
-        teachers:{}, unavail:[], result:null
+        teachers:{}, unavail:[], result:null, plans:{}, cur:1
       };
     }
+    // 学年ごとの作成：学年ごとに持つ設定（時間の区切り・時限数・試験日と科目・対象クラス・結果）
+    const PLAN_FIELDS = ['maxSlots', 'times', 'classSlots', 'dates', 'result', 'seed'];
+    const planKey = (sc, g) => sc + '|' + g;
+    function newPlan(){ return { maxSlots:3, dates:[], classSlots:{}, result:null, seed:1 }; }
     function load(){
       let s = null; try { s = JSON.parse(localStorage.getItem(LS_KEY) || 'null'); } catch(e){}
       const d = defaults();
@@ -11212,10 +11298,31 @@
       o.unavail = Array.isArray(s.unavail) ? s.unavail : [];
       o.dates = Array.isArray(s.dates) ? s.dates : [];
       o.grades = Array.isArray(s.grades) ? s.grades : [1,2,3];
+      if(!s.plans || typeof s.plans !== 'object'){
+        // 旧形式（全学年まとめて）→ 学年ごとに分ける
+        o.plans = {};
+        [1,2,3].forEach(g => {
+          const ds = o.dates.filter(d => d.subj && Array.isArray(d.subj[g]) && d.subj[g].some(x => String(x || '').trim()))
+            .map(d => ({ iso:d.iso, wd:d.wd, subj:{ [g]: d.subj[g].slice() } }));
+          o.plans[planKey(o.school, g)] = { maxSlots:o.maxSlots, times:o.times, classSlots:Object.assign({}, o.classSlots || {}),
+            dates:ds, result:(o.grades.length === 1 && o.grades[0] === g) ? o.result : null, seed:o.seed || 1 };
+        });
+        o.cur = (o.gtab && o.grades.indexOf(+o.gtab) >= 0) ? +o.gtab : (o.grades[0] || 1);
+      }
+      o.cur = [1,2,3].indexOf(+o.cur) >= 0 ? +o.cur : 1;
       return o;
     }
     let S = load();
-    function save(){ try { localStorage.setItem(LS_KEY, JSON.stringify(S)); } catch(e){} }
+    function stash(){ const pl = {}; PLAN_FIELDS.forEach(f => { if(S[f] !== undefined) pl[f] = S[f]; }); S.plans[planKey(S.school, S.cur)] = pl; }
+    function usePlan(g){
+      S.cur = g;
+      const pl = S.plans[planKey(S.school, g)] || newPlan();
+      PLAN_FIELDS.forEach(f => { if(f === 'times') { if(pl.times) S.times = pl.times; else delete S.times; } else S[f] = pl[f] !== undefined ? pl[f] : newPlan()[f]; });
+      S.dates = Array.isArray(S.dates) ? S.dates : []; S.classSlots = S.classSlots || {};
+      S.grades = [g]; S.gtab = g;
+    }
+    usePlan(S.cur);
+    function save(){ stash(); try { localStorage.setItem(LS_KEY, JSON.stringify(S)); } catch(e){} }
 
     // ---------- 日付 ----------
     const isoOf = d => d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
@@ -11288,12 +11395,13 @@
       return { s: hm(st), e: hm(st + EXAM_LEN) };
     }
     // 試験の時間の区切り（全日程で共通。①設定で変更）
-    function slotTime(d, k){
-      const t = (S.times && S.times[k-1]) || {};
+    function slotTime(d, k){ return timesAt(S.times, k); }
+    function timesAt(times, k){
+      const t = (times && times[k-1]) || {};
       if(t.s && t.e) return { s: t.s, e: t.e };
       // 時間を変えた後に時限を増やした場合は、前の時限の終了＋休憩15分から50分
-      if(S.times && S.times.length && k > 1){
-        const pe = toMin(slotTime(d, k - 1).e);
+      if(times && times.length && k > 1){
+        const pe = toMin(timesAt(times, k - 1).e);
         if(!isNaN(pe)) return { s: hm(pe + EXAM_BREAK), e: hm(pe + EXAM_BREAK + EXAM_LEN) };
       }
       const df = defaultSlotTime(k);
@@ -11310,6 +11418,28 @@
     const halfOf = s => { const a = toMin(s.start); return isNaN(a) ? (s.k <= 4 ? 'am' : 'pm') : (a < 12 * 60 ? 'am' : 'pm'); };
     const slotsLabel = v => v === 'all' ? '終日' : v === 'am' ? '午前' : v === 'pm' ? '午後' : (Array.isArray(v) ? v.join('・') + '限' : '');
     function subjAt(d, g, k){ const a = (d.subj && d.subj[g]) || []; return String(a[k-1] || '').trim(); }
+    // 一部のクラスだけの試験：対象クラスの配列（未指定＝全クラス）
+    function clsAt(d, g, k){ const a = d.cls && d.cls[g] && d.cls[g][k]; return Array.isArray(a) && a.length ? a.map(Number) : null; }
+    // 他の学年で作成済みの割当（同じ時間の重複を防ぎ、回数を合算する）
+    function otherPlans(){
+      return [1,2,3].filter(g => g !== S.cur).map(g => ({ g, pl: S.plans[planKey(S.school, g)] })).filter(x => x.pl);
+    }
+    function otherBusy(){
+      const busy = {}, cnt = {}, day = {}, grades = {}, sigs = [];
+      otherPlans().forEach(({ g, pl }) => {
+        (pl.dates || []).forEach(d => { for(let k = 1; k <= (pl.maxSlots || 3); k++) if(subjAt(d, g, k)){ (grades[d.iso] = grades[d.iso] || new Set()).add(g); break; } });
+        const A = pl.result && pl.result.assign; if(!A) return;
+        sigs.push(g + ':' + (pl.result.at || 0));
+        Object.keys(A).forEach(key => {
+          const t = A[key], q = key.split('|'), iso = q[0], k = +q[1], tm = timesAt(pl.times, k);
+          (busy[t] = busy[t] || []).push({ iso, a: toMin(tm.s), b: toMin(tm.e), label: g + '年 ' + tm.s + '〜' });
+          if(!pl.result.added) cnt[t] = (cnt[t] || 0) + 1;
+          const dd = (day[t] = day[t] || {}); dd[iso] = (dd[iso] || 0) + 1;
+        });
+      });
+      return { busy, cnt, day, grades, sig: sigs.join(',') };
+    }
+    let OB = { busy:{}, cnt:{}, day:{}, grades:{}, sig:'' };
     function examGradesOnDate(d){
       return S.grades.filter(g => { for(let k = 1; k <= S.maxSlots; k++) if(subjAt(d, g, k)) return true; return false; });
     }
@@ -11317,13 +11447,13 @@
       const out = [];
       sortDates();
       S.dates.forEach(d => {
-        const dayGrades = examGradesOnDate(d);
+        const dayGrades = examGradesOnDate(d).concat(Array.from(OB.grades[d.iso] || []));
         for(let k = 1; k <= S.maxSlots; k++){
           const gs = S.grades.filter(g => subjAt(d, g, k));
           if(!gs.length) continue;
-          const subj = {}; gs.forEach(g => subj[g] = subjAt(d, g, k));
+          const subj = {}, cls = {}; gs.forEach(g => { subj[g] = subjAt(d, g, k); cls[g] = clsAt(d, g, k); });
           const tm = slotTime(d, k);
-          out.push({ key: d.iso + '|' + k, iso: d.iso, wd: d.wd || wdOfIso(d.iso), k, grades: gs, dayGrades, subj,
+          out.push({ key: d.iso + '|' + k, iso: d.iso, wd: d.wd || wdOfIso(d.iso), k, grades: gs, dayGrades, subj, cls,
                      start: tm.s, end: tm.e, periods: overlapPeriods(d, k) });
         }
       });
@@ -11335,6 +11465,9 @@
         if(u.t === t && (u.iso === '*' || u.iso === s.iso) && (u.slots === 'all' || u.slots === halfOf(s) || (Array.isArray(u.slots) && u.slots.indexOf(s.k) >= 0)))
           return u.reason + (u.memo ? '（' + u.memo + '）' : '');
       }
+      const a0 = toMin(s.start), b0 = toMin(s.end);
+      const ob = (OB.busy[t] || []).find(x => x.iso === s.iso && x.a < b0 && x.b > a0);
+      if(ob) return '他学年の監督（' + ob.label + '）';
       if(r.avoidKenshu && s.periods.some(p => evLabels(t, s.wd, p).some(x => /研修/.test(x)))) return '研修';
       if(r.avoidTeaching){
         const ls = [].concat.apply([], s.periods.map(p => IX.byTSlot.get(t + '|' + s.wd + '|' + p) || []));
@@ -11346,6 +11479,7 @@
       return '';
     }
     function buildModel(){
+      OB = otherBusy();
       const IX = buildIdx();
       const slots = buildSlots();
       const P = pool(IX);
@@ -11373,6 +11507,7 @@
         });
         s.grades.forEach(g => (classes[g] || []).forEach(c => {
           if(s.k > classSlotsOf(g, c)) return;   // このクラスはこの時限に試験なし
+          if(s.cls[g] && s.cls[g].indexOf(c) < 0) return;   // 一部のクラスだけの試験
           for(let i = 0; i < (+r.perClass || 1); i++) positions.push({ key: s.key + '|' + g + '|' + c + '|' + i, s, g, c, i });
         }));
         for(let i = 0; i < (+r.reserve || 0); i++) positions.push({ key: s.key + '|R|0|' + i, s, g: 'R', c: 0, i });
@@ -11402,7 +11537,7 @@
     function solve(M, locks, seed){
       const r = S.rules, maxDay = +r.maxPerDay || 2, N = M.positions.length, rnd = rng(seed);
       const prev = {}, cap = {};
-      M.P.forEach(t => { const c = tc(t); prev[t] = +c.prev || 0; cap[t] = (c.cap === '' || c.cap == null || isNaN(+c.cap)) ? Infinity : +c.cap; });
+      M.P.forEach(t => { const c = tc(t); prev[t] = (+c.prev || 0) + (OB.cnt[t] || 0); cap[t] = (c.cap === '' || c.cap == null || isNaN(+c.cap)) ? Infinity : +c.cap; });
       const asg = new Array(N).fill(null), cnt = {}, at = {}, locked = new Array(N).fill(false);
       const sc = new Map();
       const SC = (i, t) => { const k = i + '|' + (t || ''); let v = sc.get(k); if(v === undefined){ v = staticCost(M, M.positions[i], t); sc.set(k, v); } return v; };
@@ -11415,7 +11550,7 @@
       const canPut = (t, p) => {
         if(!p.s.allowed.has(t)) return false;
         const ds = daySet(t, p.s.iso);
-        if(ds.has(p.s.k) || ds.size >= maxDay) return false;
+        if(ds.has(p.s.k) || ds.size + ((OB.day[t] && OB.day[t][p.s.iso]) || 0) >= maxDay) return false;
         return (cnt[t] || 0) < (cap[t] === undefined ? Infinity : cap[t]);
       };
 
@@ -11488,7 +11623,7 @@
     }
 
     function sig(){
-      return JSON.stringify({ s:S.school, g:S.grades, m:S.maxSlots, tm:S.times || null, cs:S.classSlots || {}, d:S.dates.map(x => ({ iso:x.iso, subj:x.subj })), r:S.rules, u:S.unavail,
+      return JSON.stringify({ s:S.school, g:S.grades, m:S.maxSlots, tm:S.times || null, cs:S.classSlots || {}, d:S.dates.map(x => ({ iso:x.iso, subj:x.subj, cls:x.cls || null })), r:S.rules, u:S.unavail,
         t:Object.keys(S.teachers).sort().map(k => [k, !!S.teachers[k].off, S.teachers[k].cap || '']), tt:currentTT() });
     }
 
@@ -11513,6 +11648,7 @@
         M.positions.forEach((p, i) => { if(best.asg[i]) assign[p.key] = best.asg[i]; });
         S.result = { assign, locks, at: Date.now(), tt: currentTT(), sig: sig(), seed: S.seed, added: false };
         save();
+        if(window.ttCount) window.ttCount('exam');
         if(window.ttLog) window.ttLog('試験監督：' + (alt ? '別案で作成' : '自動作成'), Object.keys(assign).length + '/' + M.positions.length + '枠 ' + S.dates.map(d => md(d.iso)).join('・'));
         busy.textContent = '';
         if(!viewTab || (viewTab !== 'T' && S.grades.indexOf(+viewTab) < 0)) viewTab = null;
@@ -11579,7 +11715,7 @@
         cls.forEach(c => {
           let inner = '';
           for(let i = 0; i < per; i++){ const p = posMap.get(s.key + '|' + g + '|' + c + '|' + i); if(p) inner += cellHtml(M, p, T, plain); }
-          h += '<td>' + inner + '</td>';
+          h += inner ? '<td>' + inner + '</td>' : '<td class="ep-na">—</td>';
         });
         if(reserve){
           let inner = '';
@@ -11607,7 +11743,7 @@
       let h = '<div class="ep-scroll"><table class="ep-tv"><thead><tr><th>教員</th>';
       let lastIso = null;
       M.slots.forEach(s => { h += '<th>' + (s.iso !== lastIso ? md(s.iso) + '<br>' : '<br>') + s.k + '限' + (s.start ? '<br><small>' + esc(s.start) + '</small>' : '') + '</th>'; lastIso = s.iso; });
-      h += '<th>回数</th><th>うち予備</th><th>累計込</th></tr></thead><tbody>';
+      h += '<th>回数</th><th>うち予備</th><th>他学年</th><th>累計込</th></tr></thead><tbody>';
       names.forEach(t => {
         const n = T.cnt[t] || 0;
         const rc = mx !== mn ? (n === mx ? ' class="hi"' : n === mn ? ' class="lo"' : '') : '';
@@ -11618,7 +11754,7 @@
           else if(s.block.has(t)) h += '<td class="na" title="' + esc(s.block.get(t)) + '">' + esc(shortReason(s.block.get(t))) + '</td>';
           else h += '<td></td>';
         });
-        h += '<td class="cnt">' + n + '</td><td>' + (T.res[t] || '') + '</td><td>' + ((+tc(t).prev || 0) + n) + '</td></tr>';
+        h += '<td class="cnt">' + n + '</td><td>' + (T.res[t] || '') + '</td><td>' + (OB.cnt[t] || '') + '</td><td>' + ((+tc(t).prev || 0) + (OB.cnt[t] || 0) + n) + '</td></tr>';
       });
       return h + '</tbody></table></div>';
     }
@@ -11634,7 +11770,10 @@
       const seen = new Map();
       M.positions.forEach(p => {
         const t = T.A[p.key]; if(!t) return;
-        if(p.s.block.has(t)) out.push('⚠ ' + md(p.s.iso) + ' ' + p.s.k + '限 ' + esc(t) + '：' + esc(p.s.block.get(t)) + ' なのに割り当てられています（手動固定）');
+        if(p.s.block.has(t)){
+          const why = p.s.block.get(t);
+          out.push('⚠ ' + md(p.s.iso) + ' ' + p.s.k + '限 ' + esc(t) + '：' + esc(why) + (/^他学年/.test(why) ? ' と重なっています。「自動作成」で作り直すか、セルをタップして変更してください' : ' なのに割り当てられています（手動固定）'));
+        }
         const k = p.s.key + '|' + t;
         if(seen.has(k)) out.push('⚠ ' + md(p.s.iso) + ' ' + p.s.k + '限 ' + esc(t) + ' が同じ時間に重複しています');
         seen.set(k, 1);
@@ -11648,6 +11787,7 @@
     }
     function renderResult(){
       const box = $('epResult');
+      renderGrades();
       if(!S.result){ box.innerHTML = ''; return; }
       const M = buildModel(), T = tally(M);
       const stale = S.result.sig !== sig();
@@ -11743,11 +11883,11 @@
         });
         XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(aoa), schoolJa(S.school) + g + '年');
       });
-      const head = ['教員'].concat(M.slots.map(s => md(s.iso) + ' ' + s.k + '限')).concat(['回数','うち予備','累計込']);
+      const head = ['教員'].concat(M.slots.map(s => md(s.iso) + ' ' + s.k + '限')).concat(['回数','うち予備','他学年','累計込']);
       const rows = [head];
       teacherRows(M, T).forEach(t => {
         const n = T.cnt[t] || 0;
-        rows.push([t].concat(M.slots.map(s => (T.byT[t] && T.byT[t][s.key]) || (s.block.has(t) ? '(' + shortReason(s.block.get(t)) + ')' : ''))).concat([n, T.res[t] || 0, (+tc(t).prev || 0) + n]));
+        rows.push([t].concat(M.slots.map(s => (T.byT[t] && T.byT[t][s.key]) || (s.block.has(t) ? '(' + shortReason(s.block.get(t)) + ')' : ''))).concat([n, T.res[t] || 0, OB.cnt[t] || 0, (+tc(t).prev || 0) + (OB.cnt[t] || 0) + n]));
       });
       XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(rows), '教員別');
       XLSX.writeFile(wb, '試験監督割当_' + stamp() + '.xlsx');
@@ -11777,7 +11917,13 @@
 
     // ---------- 描画：設定 ----------
     function renderGrades(){
-      $('epGrades').innerHTML = [1,2,3].map(g => '<label><input type="checkbox" class="ep-g" value="' + g + '"' + (S.grades.indexOf(g) >= 0 ? ' checked' : '') + '>' + g + '年</label>').join('');
+      $('epGrades').innerHTML = [1,2,3].map(g => {
+        const pl = g === S.cur ? { result:S.result, dates:S.dates } : (S.plans[planKey(S.school, g)] || {});
+        const st = pl.result ? '<i class="ep-gdot done" title="作成済み"></i>' : ((pl.dates || []).length ? '<i class="ep-gdot" title="入力中"></i>' : '');
+        return '<button type="button" class="ep-gbtn' + (g === S.cur ? ' on' : '') + '" data-g="' + g + '" aria-pressed="' + (g === S.cur) + '">' + g + '年' + st + '</button>';
+      }).join('');
+      const others = otherPlans().filter(x => x.pl.result && x.pl.result.assign);
+      $('epGradeNote').textContent = others.length ? '作成済みの ' + others.map(x => x.g + '年').join('・') + ' の割当と重ならないように作成し、回数も合算します' : '学年ごとに作成します（作成済みの学年とは重ならないように割り当てます）';
     }
     const RULE_IDS = { epPerClass:'perClass', epReserve:'reserve', epMaxPerDay:'maxPerDay', epMode:'mode', epAvoidKenshu:'avoidKenshu',
       epAvoidTeaching:'avoidTeaching', epExcludeAuthors:'excludeAuthors', epAvoidConsec:'avoidConsec', epIncludePart:'includePart', epIncludeOther:'includeOther' };
@@ -11810,7 +11956,7 @@
     }
     // ① 設定：クラスごとの時限数
     function renderClassSlots(){
-      const opts = v => { let o = ''; for(let k = 1; k <= S.maxSlots; k++) o += '<option value="' + k + '"' + (k === v ? ' selected' : '') + '>' + k + '</option>'; return o; };
+      const opts = v => { let o = ''; for(let k = 1; k <= 8; k++) o += '<option value="' + k + '"' + (k === v ? ' selected' : '') + '>' + k + '</option>'; return o; };
       let h = '';
       S.grades.forEach(g => {
         const cls = classesOf(g); if(!cls.length) return;
@@ -11828,7 +11974,7 @@
       sortDates();
       if(!S.gtab || S.grades.indexOf(+S.gtab) < 0) S.gtab = S.grades[0] || 1;
       const g = +S.gtab;
-      $('epGTab').innerHTML = S.grades.map(x => '<button type="button" data-g="' + x + '"' + (x === g ? ' class="on"' : '') + '>' + schoolJa(S.school) + x + '年</button>').join('');
+      $('epGTab').innerHTML = ''; if($('epGTab').parentElement) $('epGTab').parentElement.style.display = 'none';
       if(!S.dates.length){ $('epDates').innerHTML = '<div class="ep-empty">「＋ 試験日を追加」から始めてください</div>'; return; }
       const dl = '<datalist id="epDL' + g + '">' + subjectsOf(g).map(x => '<option value="' + esc(x) + '">').join('') + '</datalist>';
       let h = dl + '<div class="ep-scroll"><table class="ep-dgrid"><thead><tr><th>試験日</th>';
@@ -11836,16 +11982,29 @@
       h += '<th></th></tr></thead><tbody>';
       S.dates.forEach(d => {
         h += '<tr data-iso="' + d.iso + '"><td class="ep-dcell"><input type="date" class="ep-d-iso" value="' + d.iso + '"><span class="ep-wd">' + md(d.iso).replace(/^.*(\(.\))$/, '$1') + '</span></td>';
-        for(let k = 1; k <= S.maxSlots; k++) h += '<td><input type="text" class="ep-d-sub" data-g="' + g + '" data-k="' + k + '" list="epDL' + g + '" placeholder="—" value="' + esc(subjAt(d, g, k)) + '"></td>';
+        for(let k = 1; k <= S.maxSlots; k++){
+          const cl = clsAt(d, g, k), has = !!subjAt(d, g, k);
+          h += '<td><input type="text" class="ep-d-sub" data-g="' + g + '" data-k="' + k + '" list="epDL' + g + '" placeholder="科目を入力" autocomplete="off" value="' + esc(subjAt(d, g, k)) + '">'
+            + '<button type="button" class="ep-d-cls' + (cl ? ' part' : '') + (has ? '' : ' dim') + '" data-g="' + g + '" data-k="' + k + '" title="対象クラスを選ぶ">' + (cl ? cl.join('・') + '組のみ' : '全クラス') + '</button></td>';
+        }
         h += '<td><button type="button" class="ap-del ep-d-del" aria-label="この日を削除">✕</button></td></tr>';
       });
       $('epDates').innerHTML = h + '</tbody></table></div>';
     }
-    let qMode = 'all', qIso = null;
+    let qMode = 'all', qIso = null, qtNames = [];
+    // 不在の先生：名前の一部（ひらがな・カタカナ・全角半角を問わず）で絞り込み
+    const qNorm = v => String(v || '').normalize('NFKC').replace(/\s+/g, '').replace(/[\u30a1-\u30f6]/g, ch => String.fromCharCode(ch.charCodeAt(0) - 0x60)).toLowerCase();
+    function fillQT(names){
+      if(names) qtNames = names;
+      const q = qNorm($('epQTq') ? $('epQTq').value : ''), curT = $('epQT').value;
+      const list = q ? qtNames.filter(t => qNorm(t).indexOf(q) >= 0) : qtNames;
+      $('epQT').innerHTML = '<option value="">' + (q ? (list.length ? '候補 ' + list.length + '人' : '該当なし') : '先生を選択') + '</option>'
+        + list.map(t => '<option' + (t === curT || list.length === 1 ? ' selected' : '') + '>' + esc(t) + '</option>').join('');
+      return list;
+    }
     function renderUnavail(){
       const IX = buildIdx(), names = allCandidates(IX);
-      const curT = $('epQT').value;
-      $('epQT').innerHTML = '<option value="">先生を選択</option>' + names.map(t => '<option' + (t === curT ? ' selected' : '') + '>' + esc(t) + '</option>').join('');
+      fillQT(names);
       const isoQ = (qIso && (qIso === '*' || S.dates.some(d => d.iso === qIso))) ? qIso : (S.dates[0] ? S.dates[0].iso : '*');
       $('epQD').innerHTML = S.dates.map(d => '<option value="' + d.iso + '"' + (d.iso === isoQ ? ' selected' : '') + '>' + md(d.iso) + '</option>').join('')
         + '<option value="*"' + (isoQ === '*' ? ' selected' : '') + '>全日程</option>';
@@ -11882,12 +12041,12 @@
     // ---------- イベント ----------
     let tmr = null;
     const later = () => { clearTimeout(tmr); tmr = setTimeout(() => { save(); renderResult(); }, 500); };
-    $('epSchool').addEventListener('change', e => { S.school = e.target.value; S.result = null; save(); refreshAll(); });
+    $('epSchool').addEventListener('change', e => { stash(); S.school = e.target.value; usePlan(S.cur); viewTab = null; save(); refreshAll(); });
     $('epMaxSlots').addEventListener('change', e => { S.maxSlots = +e.target.value; save(); renderSettings(); renderDateGrid(); renderUnavail(); renderResult(); });
-    $('epGrades').addEventListener('change', e => {
-      const g = +e.target.value;
-      if(e.target.checked){ if(S.grades.indexOf(g) < 0) S.grades.push(g); } else S.grades = S.grades.filter(x => x !== g);
-      S.grades.sort((a, b) => a - b); viewTab = null; save(); renderClassSlots(); renderDateGrid(); renderResult();
+    $('epGrades').addEventListener('click', e => {
+      const b = e.target.closest('button[data-g]'); if(!b) return;
+      const g = +b.dataset.g; if(g === S.cur) return;
+      stash(); usePlan(g); viewTab = null; save(); refreshAll();
     });
     Object.keys(RULE_IDS).forEach(id => $(id).addEventListener('change', e => {
       const el = e.target, k = RULE_IDS[id];
@@ -11928,11 +12087,19 @@
     // クラスごとの時限数
     $('epClassSlots').addEventListener('change', e => {
       const el = e.target; S.classSlots = S.classSlots || {};
+      // 時間の区切りより多い時限を選んだら、区切り（全体の時限数）を自動で増やす。他のクラスの時限数は変えない
+      const want = +el.value;
+      if(want > S.maxSlots){
+        const old = S.maxSlots;
+        S.grades.forEach(g => classesOf(g).forEach(c => { const key = g + '|' + c; if(!S.classSlots[key]) S.classSlots[key] = old; }));
+        S.maxSlots = Math.min(8, want); $('epMaxSlots').value = String(S.maxSlots);
+        Object.keys(S.classSlots).forEach(k => { if(+S.classSlots[k] === S.maxSlots) delete S.classSlots[k]; });
+      }
       const setOne = (g, c, v) => { const key = g + '|' + c; if(!v || v === S.maxSlots) delete S.classSlots[key]; else S.classSlots[key] = v; };
       if(el.classList.contains('ep-cs-one')) setOne(+el.dataset.g, +el.dataset.c, +el.value);
       else if(el.classList.contains('ep-cs-all') && el.value) classesOf(+el.dataset.g).forEach(c => setOne(+el.dataset.g, c, +el.value));
       else return;
-      save(); renderClassSlots(); renderResult();
+      save(); renderSettings(); renderDateGrid(); renderUnavail(); renderResult();
     });
     // 試験日と科目
     $('epGTab').addEventListener('click', e => { const b = e.target.closest('button[data-g]'); if(!b) return; S.gtab = +b.dataset.g; save(); renderDateGrid(); });
@@ -11957,15 +12124,47 @@
       const d = S.dates.find(x => x.iso === el.closest('tr').dataset.iso); if(!d) return;
       const v = el.value;
       if(!v || S.dates.some(x => x !== d && x.iso === v)){ el.value = d.iso; return; }
-      S.unavail.forEach(u => { if(u.iso === d.iso) u.iso = v; });
+      if(!otherPlans().some(x => (x.pl.dates || []).some(dd => dd.iso === d.iso))) S.unavail.forEach(u => { if(u.iso === d.iso) u.iso = v; });
       d.iso = v; d.wd = wdOfIso(v) === 'Sun' ? 'Mon' : wdOfIso(v);
       save(); renderDateGrid(); renderUnavail(); renderResult();
     });
+    // 対象クラスの選択（一部のクラスだけの試験）
+    let clsPop = null;
+    function closeClsPop(){ if(clsPop){ clsPop.remove(); clsPop = null; } }
+    function openClsPop(btn){
+      closeClsPop();
+      const iso = btn.closest('tr').dataset.iso, g = +btn.dataset.g, k = +btn.dataset.k;
+      const d = S.dates.find(x => x.iso === iso); if(!d) return;
+      const all = classesOf(g), cur = clsAt(d, g, k);
+      const pop = document.createElement('div'); pop.className = 'ep-clspop'; pop.setAttribute('role', 'dialog');
+      pop.innerHTML = '<div class="ep-clspop-h">' + md(iso) + ' ' + k + '限 ' + esc(subjAt(d, g, k) || '') + '<br><small>試験を行うクラス</small></div>'
+        + '<div class="ep-clspop-b">' + all.map(c => '<label><input type="checkbox" value="' + c + '"' + (!cur || cur.indexOf(c) >= 0 ? ' checked' : '') + '>' + g + '-' + c + '</label>').join('') + '</div>'
+        + '<div class="ep-clspop-f"><button type="button" data-a="all">全クラス</button><button type="button" data-a="ok" class="pri">決定</button></div>';
+      document.body.appendChild(pop); clsPop = pop;
+      const r = btn.getBoundingClientRect(), w = Math.min(280, window.innerWidth - 16);
+      pop.style.width = w + 'px';
+      pop.style.left = Math.max(8, Math.min(window.innerWidth - w - 8, r.left + window.scrollX)) + 'px';
+      pop.style.top = (r.bottom + window.scrollY + 4) + 'px';
+      pop.addEventListener('click', ev => {
+        const a = ev.target.closest('button[data-a]'); if(!a) return;
+        if(a.dataset.a === 'all') pop.querySelectorAll('input').forEach(x => x.checked = true);
+        const sel = Array.from(pop.querySelectorAll('input:checked')).map(x => +x.value);
+        if(a.dataset.a === 'ok'){
+          if(!sel.length){ pop.querySelector('.ep-clspop-h small').textContent = '1クラス以上選んでください'; return; }
+          d.cls = d.cls || {}; d.cls[g] = d.cls[g] || {};
+          if(sel.length === all.length) delete d.cls[g][k]; else d.cls[g][k] = sel;
+          closeClsPop(); save(); renderDateGrid(); renderResult();
+        }
+      });
+    }
+    document.addEventListener('mousedown', e => { if(clsPop && !clsPop.contains(e.target) && !e.target.closest('.ep-d-cls')) closeClsPop(); });
+    document.addEventListener('keydown', e => { if(e.key === 'Escape') closeClsPop(); });
     $('epDates').addEventListener('click', e => {
+      const cb = e.target.closest('.ep-d-cls'); if(cb){ openClsPop(cb); return; }
       const b = e.target.closest('.ep-d-del'); if(!b) return;
       const iso = b.closest('tr').dataset.iso;
       S.dates = S.dates.filter(x => x.iso !== iso);
-      S.unavail = S.unavail.filter(u => u.iso !== iso);
+      if(!otherPlans().some(x => (x.pl.dates || []).some(d => d.iso === iso))) S.unavail = S.unavail.filter(u => u.iso !== iso);
       save(); renderDateGrid(); renderUnavail(); renderResult();
     });
     $('epQMode').addEventListener('click', e => {
@@ -11975,6 +12174,8 @@
       $('epQSlots').classList.toggle('hidden', qMode !== 'k');
     });
     $('epQD').addEventListener('change', e => { qIso = e.target.value; });
+    $('epQTq').addEventListener('input', () => fillQT());
+    $('epQTq').addEventListener('keydown', e => { if(e.key === 'Enter' && !e.isComposing){ e.preventDefault(); const l = fillQT(); if(l.length) $('epQT').value = l[0]; } });
     $('epQAdd').addEventListener('click', () => {
       const t = $('epQT').value; if(!t){ $('epQT').focus(); return; }
       const iso = $('epQD').value || '*';
@@ -11989,7 +12190,7 @@
       S.unavail.push({ t, iso, slots, reason: $('epQR').value, memo: '' });
       if(window.ttLog) window.ttLog('試験監督：不在を登録', t + ' ' + (iso === '*' ? '全日程' : md(iso)) + ' ' + slotsLabel(slots) + ' ' + $('epQR').value);
       qIso = iso;
-      save(); renderUnavail(); $('epQT').value = ''; renderResult();
+      $('epQTq').value = ''; save(); renderUnavail(); $('epQT').value = ''; renderResult();
     });
     $('epUnList').addEventListener('click', e => {
       const b = e.target.closest('.ep-un-del'); if(!b) return;
@@ -12133,7 +12334,7 @@
       flow.step = 'confirm'; flow.first = '';
       const name = flow.name, subs = subjectsOf(name);
       pTitle.textContent = 'はじめての利用'; pErr.textContent = ''; pin.value = ''; dots(); pin.blur();
-      document.getElementById('pinWho').textContent = name + ' さん';
+      document.getElementById('pinWho').textContent = name + ' 先生';
       document.getElementById('pinWhoSub').textContent = subs.length ? '担当：' + subs.slice(0, 3).join('・') + (subs.length > 3 ? ' ほか' : '') : '';
       setConfirm(true); pm.classList.remove('hidden');
       setTimeout(() => document.getElementById('pinYes').focus(), 60);
@@ -12141,7 +12342,7 @@
     document.getElementById('pinYes').addEventListener('click', () => {
       if(!flow || flow.step !== 'confirm') return;
       setConfirm(false); flow.step = 'set1';
-      showPin('PINを設定', flow.name + ' さんの4桁のPINを決めてください');
+      showPin('PINを設定', flow.name + ' 先生のPINを4桁の数字で決めてください');
     });
     document.getElementById('pinNo').addEventListener('click', closePin);
     function dots(){ const n = pin.value.length; pDots.querySelectorAll('i').forEach((d, i) => d.classList.toggle('on', i < n)); }
@@ -12154,12 +12355,12 @@
       if(!name){ apply('', true); return; }
       if(name === window.ttOperator){ fill(''); return; }
       flow = { name, mode: 'local', step: 'ask', busy: true };
-      showPin(name + ' さん', '確認中…');
+      showPin(name + ' 先生', '確認中…');
       const decide = (mode, exists) => {
         if(!flow || flow.name !== name) return;
         flow.mode = mode; flow.busy = false;
         if(mode === 'server' && !exists){ const m = localPins(); if(m[name]){ delete m[name]; try { localStorage.setItem(K_PINS, JSON.stringify(m)); } catch(e){} } }
-        if(exists){ flow.step = 'ask'; showPin(name + ' さん', 'PIN（4桁）を入力してください'); }
+        if(exists){ flow.step = 'ask'; showPin(name + ' 先生', '4桁の数字のPINを入力してください'); }
         else startSetup();
       };
       gas('pin_status', { name }).then(d => d.ok ? decide('server', !!d.exists) : decide('local', !!localPins()[name]),
@@ -12171,19 +12372,19 @@
     }
     function submitPin(){
       if(!flow || flow.busy || flow.step === 'confirm') return;
-      const v = pin.value;
+      const v = toHalf(pin.value).replace(/\D/g, '');
       if(!/^\d{4}$/.test(v)) return;
       const name = flow.name;
-      if(flow.step === 'set1'){ flow.first = v; flow.step = 'set2'; showPin('PINを設定', '確認のため、もう一度入力してください'); return; }
+      if(flow.step === 'set1'){ flow.first = v; flow.step = 'set2'; showPin('PINを設定', '確認のため、同じ4桁の数字をもう一度入力してください'); return; }
       if(flow.step === 'set2'){
-        if(v !== flow.first){ flow.step = 'set1'; flow.first = ''; showPin('PINを設定', name + ' さんのPIN（4桁）を決めてください'); fail('一致しませんでした。最初からやり直してください'); return; }
+        if(v !== flow.first){ flow.step = 'set1'; flow.first = ''; showPin('PINを設定', name + ' 先生のPINを4桁の数字で決めてください'); fail('一致しませんでした。最初からやり直してください'); return; }
         saveLocalPin(name, v);
         if(flow.mode !== 'server'){ done(name); return; }
         flow.busy = true; pSub.textContent = '保存中…';
         gas('pin_set', { name, pin: v }).then(d => {
           if(d.ok){ done(name); return; }
           flow.busy = false;
-          if(d.error === 'exists'){ flow.step = 'ask'; showPin(name + ' さん', 'PIN（4桁）を入力してください'); fail('すでにPINが設定されています'); }
+          if(d.error === 'exists'){ flow.step = 'ask'; showPin(name + ' 先生', '4桁の数字のPINを入力してください'); fail('すでにPINが設定されています'); }
           else fail('保存できませんでした');
         }, () => { flow.busy = false; done(name); });
         return;
@@ -12192,14 +12393,14 @@
       if(flow.mode === 'server'){
         flow.busy = true; pSub.textContent = '確認中…';
         gas('pin_check', { name, pin: v }).then(d => {
-          flow.busy = false; pSub.textContent = 'PIN（4桁）を入力してください';
+          flow.busy = false; pSub.textContent = '4桁の数字のPINを入力してください';
           if(d.ok){ saveLocalPin(name, v); done(name); return; }
           if(window.ttLog) window.ttLog('PIN認証に失敗', name);
           if(d.error === 'locked') fail('5回間違えたため、5分間ロック中です');
           else if(d.error === 'nopin') startSetup();
           else fail('PINが違います' + (d.left != null ? '（あと' + d.left + '回）' : ''));
         }, () => {
-          flow.busy = false; pSub.textContent = 'PIN（4桁）を入力してください';
+          flow.busy = false; pSub.textContent = '4桁の数字のPINを入力してください';
           const h = localPins()[name];
           if(h && h === lh(name, v)) done(name); else fail(h ? 'PINが違います' : 'サーバーに接続できません');
         });
@@ -12208,7 +12409,14 @@
       if(localPins()[name] === lh(name, v)) done(name);
       else { if(window.ttLog) window.ttLog('PIN認証に失敗', name); fail('PINが違います'); }
     }
-    pin.addEventListener('input', () => { pin.value = pin.value.replace(/\D/g, '').slice(0, 4); dots(); if(pin.value.length === 4) setTimeout(submitPin, 120); });
+    // 全角数字（日本語入力オン）でも受け付ける：０-９ → 0-9
+    const toHalf = v => String(v || '').replace(/[０-９]/g, ch => String.fromCharCode(ch.charCodeAt(0) - 0xFEE0));
+    function onPinInput(){
+      pin.value = toHalf(pin.value).replace(/\D/g, '').slice(0, 4); dots();
+      if(pin.value.length === 4) setTimeout(submitPin, 120);
+    }
+    pin.addEventListener('input', e => { if(e.isComposing) { dots(); return; } onPinInput(); });
+    pin.addEventListener('compositionend', () => setTimeout(onPinInput, 0));
     document.getElementById('pinForm').addEventListener('submit', e => { e.preventDefault(); submitPin(); });
     document.getElementById('pinCancel').addEventListener('click', closePin);
     pDots.addEventListener('click', () => pin.focus());
@@ -12239,7 +12447,7 @@
         const m = localPins(); delete m[cur]; try { localStorage.setItem(K_PINS, JSON.stringify(m)); } catch(e){}
         apply('', false);
         const g = document.getElementById('opGate'), t = g && g.querySelector('span:last-child');
-        if(t){ if(!t.dataset.orig) t.dataset.orig = t.innerHTML; t.innerHTML = cur.replace(/[&<>"]/g, '') + ' さんのPINがリセットされました。上の <b>👤 操作者</b> を選び直してください'; }
+        if(t){ if(!t.dataset.orig) t.dataset.orig = t.innerHTML; t.innerHTML = cur.replace(/[&<>"]/g, '') + ' 先生のPINがリセットされました。上の <b>👤 操作者</b> を選び直してください'; }
       }, () => {});
     }
     setGate(!window.ttOperator);
@@ -12250,7 +12458,7 @@
   // ===== 大学検索タブ（Searchuniv を埋め込み） =====
   (function(){
     const PAGES = 'https://tiimura6.github.io/searchuniv/', LOCAL = 'searchuniv.html';
-    const fr = document.getElementById('univFrame'), ld = document.getElementById('univLoading'), open = document.getElementById('univOpen');
+    const fr = document.getElementById('univFrame'), ld = document.getElementById('univLoading');
     const wrap = document.getElementById('univWrap'), fsBtn = document.getElementById('univFs'), view = document.getElementById('viewUniv');
     // 埋め込み時だけ Searchuniv の見た目を飯村システムに合わせる（同じドメインなので外から整える。Searchuniv 本体は変更しない）
     const EMBED_CSS = `
@@ -12271,6 +12479,17 @@
       d.documentElement.classList.add('ttEmbed');
       const st = d.createElement('style'); st.id = 'ttEmbedCss'; st.textContent = EMBED_CSS;
       (d.head || d.documentElement).appendChild(st);
+      watchSearch(d);
+    }
+    // 累計検索数：検索欄に入力して1.5秒止まったら1回（同じ言葉は数えない）
+    function watchSearch(d){
+      let last = '', tm = null;
+      const hit = v => { v = String(v || '').trim(); if(!v || v === last) return; last = v; if(window.ttCount) window.ttCount('univ'); if(window.ttLog) window.ttLog('大学検索', v.slice(0, 40)); };
+      ['mq', 'q'].forEach(id => {
+        const el = d.getElementById(id); if(!el) return;
+        el.addEventListener('input', () => { clearTimeout(tm); tm = setTimeout(() => hit(el.value), 1500); });
+        el.addEventListener('keydown', e => { if(e.key === 'Enter' && !e.isComposing){ clearTimeout(tm); hit(el.value); } });
+      });
     }
     // タブの下の画面いっぱいに広げ、スクロールは中の1本だけにする
     const isMax = () => document.fullscreenElement === wrap || wrap.classList.contains('univ-max');
@@ -12290,7 +12509,7 @@
       fr.addEventListener('load', () => {
         let ok = false;
         try { ok = /Searchuniv/i.test((fr.contentDocument && fr.contentDocument.title) || ''); } catch(e){}
-        if(!ok && fr.getAttribute('src') !== LOCAL){ fr.setAttribute('src', LOCAL); open.href = LOCAL; return; }
+        if(!ok && fr.getAttribute('src') !== LOCAL){ fr.setAttribute('src', LOCAL); return; }
         inject(); fit();
         ld.style.display = 'none';
       });
