@@ -1,6 +1,12 @@
 <!DOCTYPE html><html lang="ja"><head>
   <meta charset="UTF-8" />
   <title>飯村システム</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="apple-mobile-web-app-title" content="飯村システム">
+  <meta name="theme-color" content="#0071e3">
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <style>
     body { font-family: system-ui, sans-serif; margin: 20px; }
@@ -742,10 +748,11 @@
     #calEvents .dtt-tch { display:block; font-size:0.82em; color:#607d8b; white-space:normal; width:5.5em; margin:0 auto; line-height:1.25; }
     #calEvents .dtt-table tr.dtt-extra th, #calEvents .dtt-table tr.dtt-extra td { background:#f1f3f4; color:#607d8b; font-size:0.92em; padding-top:1px; padding-bottom:1px; }
     #calEvents .dtt-table tr.dtt-extra td { text-align:center; letter-spacing:0.3em; }
-    #calEvents .dtt-table tr.dtt-extra td.dtt-worship { background:#f3e5f5; color:#4a148c; letter-spacing:0; text-align:left; white-space:normal; padding:3px 6px; line-height:1.5; }
+    #calEvents .dtt-table tr.dtt-extra td.dtt-worship { background:#f3e5f5; color:#4a148c; letter-spacing:0; text-align:center; white-space:normal; padding:3px 6px; line-height:1.5; }
     #ttCalendar td.dtt-worship span { width:auto; line-height:1.5; border-radius:0; }
     #ttCalendar td.dtt-worship span.ce-bible { border-radius:8px; }
-    #calEvents .dtt-worship .dw-i { display:inline-block; margin-right:12px; white-space:nowrap; }
+    #calEvents .dtt-worship .dw-i { display:inline-block; margin:0 6px; white-space:nowrap; }
+    #calEvents .dtt-worship .dw-wrap { position:sticky; text-align:center; box-sizing:border-box; }
     #calEvents .dtt-worship .dw-i i { font-style:normal; font-size:0.85em; color:#7b1fa2; margin-right:4px; }
     #calEvents .dtt-worship .dw-i b { color:#000; }
     #calEvents .dtt-table tr.dtt-extra:has(td.dtt-worship) th { background:#f3e5f5; color:#6a1b9a; }
@@ -10885,8 +10892,19 @@
       if(w.c) parts.push('<span class="dw-i"><i>小礼拝堂</i><b>' + esc(w.c) + '</b></span>');
       if(w.h){ const m = /^21の(.+)$/.exec(w.h), m2 = /^Ⅱ(\d+)$/.exec(w.h); parts.push('<span class="dw-i"><i>' + (m ? '讃美歌21' : m2 ? '讃美歌第二編' : '讃美歌') + '</i><b>' + esc(m ? m[1] : m2 ? m2[1] : w.h) + '</b></span>'); }
       if(w.v) parts.push('<span class="dw-i"><i>聖句</i><b>' + esc(w.v) + '</b>' + (w.b ? '<span class="ce-bible">' + (w.b[0] === '新' ? '新約' : '旧約') + ' ' + w.b[1] + '頁</span>' : '') + '</span>');
-      return parts.join('');
+      return parts.length ? '<div class="dw-wrap">' + parts.join('') + '</div>' : '';
     }
+    // 礼拝の行：表が横にはみ出しても、見えている範囲の中央にそろえる
+    function fitWorship(){
+      document.querySelectorAll('#calEvents td.dtt-worship .dw-wrap').forEach(w => {
+        const sc = w.closest('.dtt-scroll'), th = w.closest('tr').querySelector('th');
+        if(!sc || !th){ w.style.width = ''; return; }
+        const vis = sc.clientWidth - th.offsetWidth - 14;
+        w.style.width = vis > 120 && vis < w.closest('td').clientWidth ? vis + 'px' : '';
+        w.style.left = th.offsetWidth + 'px';
+      });
+    }
+    window.addEventListener('resize', () => { clearTimeout(fitWorship.t); fitWorship.t = setTimeout(fitWorship, 120); });
     const registered = () => SCHOOLS.filter(x => Object.keys(sdata(x[0]).days).length > 0).map(x => x[0]);
     function esc(t){ return String(t).replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
     // その日の高校・中学の行事と授業有無をまとめる
@@ -11071,7 +11089,7 @@
       if(nts.length) html += '<ul class="ce-notes">' + nts.map(t => '<li>' + t + '</li>').join('') + '</ul>';
       if(selectedISO) html += dayTTHtml(selectedISO, dayInfo(selectedISO));
       if(missing.length) html += '<div class="ce-none" style="margin-top:4px;">' + missing.join('・') + 'の行事予定は未登録</div>';
-      box.innerHTML = html;
+      box.innerHTML = html; fitWorship();
     }
     const same = (a,b)=> a.getFullYear()===b.getFullYear() && a.getMonth()===b.getMonth() && a.getDate()===b.getDate();
     function goToday(){ const n=new Date(); viewY=n.getFullYear(); viewM=n.getMonth(); }
