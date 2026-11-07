@@ -3459,41 +3459,6 @@
 "cat": "private"
 },
 {
-"name": "関西福祉大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.kusw.ac.jp/",
-"cat": "private"
-},
-{
-"name": "関西福祉科学大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.fuksi-kagk-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "阪南大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.hannan-u.ac.jp/index.html",
-"cat": "private"
-},
-{
-"name": "高野山大学",
-"type": "私立",
-"pref": "和歌山県",
-"hp": "https://www.koyasan-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "龍谷大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "https://www.ryukoku.ac.jp/",
-"cat": "private"
-},
-{
 "name": "くらしき作陽大学",
 "type": "私立",
 "pref": "岡山県",
@@ -4266,6 +4231,36 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "関西福祉大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "関西福祉科学大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "阪南大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "高野山大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "龍谷大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "就実大学",
 "need": [
@@ -18124,6 +18119,126 @@
 },
 {
 "name": "岡山商科大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "関西福祉大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "関西福祉大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "関西福祉大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "関西福祉大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "関西福祉科学大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "関西福祉科学大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "関西福祉科学大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "関西福祉科学大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "阪南大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "阪南大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "阪南大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "阪南大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "高野山大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "高野山大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "高野山大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "高野山大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "龍谷大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "龍谷大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "龍谷大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "龍谷大学",
 "need": [
 "scholar"
 ]

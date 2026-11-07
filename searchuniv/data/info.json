@@ -98566,5 +98566,803 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3776/nyushi/keizai/",
 "https://manabi.benesse.ne.jp/daigaku/school/3776/gakuhi/"
 ]
+},
+"関西福祉大学": {
+"faculties": [
+"社会福祉学部",
+"教育学部",
+"看護学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"difficulty": "2026-11-07",
+"kyotsu": "2026-11-07",
+"methods": "2026-11-07",
+"subjects": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"scholar": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "社会福祉学部",
+"d": [
+"社会福祉学科"
+]
+},
+{
+"f": "教育学部",
+"d": [
+"児童教育学科",
+"保健教育学科（2027年4月設置予定）"
+]
+},
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+}
+],
+"difficulty": {
+"hensachi": "35.0〜45.0",
+"kyotei": "50%〜70%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "2教科型・3教科型・5教科基準型・6教科型・前期共テ＋を実施",
+"kyoka": [
+2,
+6
+],
+"note": null
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜前期（2教科型・共通テスト併用型）",
+"kyotsu": "課さない（併用型は利用）",
+"niji": "英語・国語・数学・生物・情報から2科目選択",
+"content": null,
+"req": "高等学校卒業（見込）等",
+"url": "https://www.kusw.ac.jp/examination/generalexam1"
+},
+{
+"kubun": "一般",
+"name": "一般選抜後期",
+"kyotsu": "課さない",
+"niji": "小論文型または科目試験型（看護は科目試験型のみ）",
+"content": null,
+"req": "高等学校卒業（見込）等",
+"url": "https://www.kusw.ac.jp/examination/generalexam3"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜（前期・後期）",
+"kyotsu": "2〜6教科",
+"niji": null,
+"content": null,
+"req": "個別試験なし",
+"url": "https://passnavi.obunsha.co.jp/univ/4385/difficulty/"
+}
+]
+},
+"subjects": {
+"year": "2027年度入試",
+"rows": [
+{
+"f": "全学部",
+"kubun": "一般",
+"name": "一般選抜前期（2教科型）",
+"n": 2,
+"subj": "英語・国語・数学・生物・情報から2科目選択（各100点）",
+"kt": null,
+"eng": null
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜前期（2教科型・共テ併用型）",
+"apply": "12/1〜1/20",
+"exam": "1/26・1/27",
+"result": "2/12",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜後期",
+"apply": "2/1〜2/26",
+"exam": "3/3",
+"result": "3/10",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 前期",
+"apply": "12/1〜2/1",
+"exam": "1/16・1/17（共テ）",
+"result": null,
+"proc": null,
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 後期",
+"apply": "2/1〜3/1",
+"exam": "1/16・1/17（共テ）",
+"result": null,
+"proc": null,
+"fee": null
+}
+]
+},
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "社会福祉学部 社会福祉学科",
+"admission": 200000,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1368100,
+"four_year": null
+},
+{
+"f": "教育学部 児童教育学科",
+"admission": 200000,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1358940,
+"four_year": null
+},
+{
+"f": "教育学部 保健教育学科",
+"admission": 200000,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1438940,
+"four_year": null
+},
+{
+"f": "看護学部 看護学科",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1878670,
+"four_year": null
+}
+]
+},
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "関西福祉大学30周年記念特待生制度",
+"kind": "減免",
+"target": "全学部",
+"amount": "授業料半額免除",
+"timing": "入試時",
+"cond": "一般選抜前期（2教科型・共テ併用型）受験者上位1〜30位の合格者"
+}
+]
+},
+"access": "兵庫県赤穂市新田380-3",
+"careers": "社会福祉士、保育士、幼稚園・小学校教諭、看護師、保健師など。",
+"_via": "external-ai",
+"sources": [
+"https://www.kusw.ac.jp/",
+"https://www.kusw.ac.jp/students/grant",
+"https://www.kusw.ac.jp/examination/generalexam1",
+"https://www.kusw.ac.jp/examination/generalexam3",
+"https://www.kusw.ac.jp/topics/topics-23949",
+"https://passnavi.obunsha.co.jp/univ/4385/difficulty/"
+]
+},
+"関西福祉科学大学": {
+"faculties": [
+"社会福祉学部",
+"心理科学部",
+"健康福祉学部",
+"保健医療学部",
+"教育学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"difficulty": "2026-11-07",
+"kyotsu": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "社会福祉学部",
+"d": [
+"福祉創造学科"
+]
+},
+{
+"f": "心理科学部",
+"d": [
+"心理科学科"
+]
+},
+{
+"f": "健康福祉学部",
+"d": [
+"健康科学科",
+"福祉栄養学科"
+]
+},
+{
+"f": "保健医療学部",
+"d": [
+"リハビリテーション学科（理学療法学専攻、作業療法学専攻、言語聴覚学専攻）"
+]
+},
+{
+"f": "教育学部",
+"d": [
+"教育学科"
+]
+}
+],
+"difficulty": {
+"hensachi": "BF〜37.5",
+"kyotei": "43%〜52%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "共通テスト利用選抜を実施",
+"kyoka": [
+null,
+null
+],
+"note": null
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜A（第1日程・第2日程）・一般選抜B",
+"kyotsu": "課さない",
+"niji": "1科目型・2科目型",
+"content": null,
+"req": "一般選抜A出願者は一般選抜Bの検定料免除",
+"url": "https://www.fuksi-kagk-u.ac.jp/nyushi/nyugaku/general.html"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜A（第1日程・第2日程）",
+"apply": "1/5〜1/20",
+"exam": "2/1（第1）・2/2（第2）",
+"result": "2/10（通知発送）",
+"proc": "入学金2/17・授業料等3/3",
+"fee": 30000
+},
+{
+"kubun": "一般",
+"name": "一般選抜B",
+"apply": "2/9〜2/22",
+"exam": "3/4",
+"result": "3/12（通知発送）",
+"proc": "3/18",
+"fee": 30000
+}
+]
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "社会福祉学部・心理科学部・健康福祉学部・教育学部",
+"admission": 200000,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1450000,
+"four_year": 5200000
+},
+{
+"f": "健康福祉学部 福祉栄養学科",
+"admission": 200000,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1600000,
+"four_year": 5800000
+},
+{
+"f": "保健医療学部 リハビリテーション学科",
+"admission": 200000,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1850000,
+"four_year": 6800000
+}
+]
+},
+"access": "大阪府柏原市旭ケ丘3-11-1",
+"careers": "社会福祉士、精神保健福祉士、公認心理師、管理栄養士、理学療法士、作業療法士、言語聴覚士、教員など。",
+"_via": "external-ai",
+"sources": [
+"https://www.fuksi-kagk-u.ac.jp/",
+"https://www.fuksi-kagk-u.ac.jp/nyushi/nyugaku/general.html",
+"https://www.fuksi-kagk-u.ac.jp/nyushi/nyugaku/niv9hl0000000teh-att/exam_guide_2027.pdf",
+"https://search.keinet.ne.jp/2546/general/border_rate",
+"https://passnavi.obunsha.co.jp/univ/4255/difficulty/"
+]
+},
+"阪南大学": {
+"faculties": [
+"経済学部",
+"経営学部",
+"総合情報学部",
+"国際学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"difficulty": "2026-11-07",
+"kyotsu": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "経済学部",
+"d": [
+"経済学科"
+]
+},
+{
+"f": "経営学部",
+"d": [
+"経営学科"
+]
+},
+{
+"f": "総合情報学部",
+"d": [
+"総合情報学科"
+]
+},
+{
+"f": "国際学部",
+"d": [
+"国際観光学科",
+"国際コミュニケーション学科"
+]
+}
+],
+"difficulty": {
+"hensachi": "37.5〜40.0",
+"kyotei": "49%〜64%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "大学入学共通テスト利用（前期2教科型・3教科型など）を実施",
+"kyoka": [
+2,
+3
+],
+"note": null
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般入試（前期・後期）",
+"kyotsu": "課さない",
+"niji": "国語・英語・選択科目",
+"content": null,
+"req": "前期は2/1〜2/4の試験日自由選択（複数日受験可）",
+"url": "https://www.hannan-u.ac.jp/entrance/exam/b4uvf80000002yca-att/heigan_youkou.pdf"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用（前期2教科型・3教科型等）",
+"kyotsu": "2〜3教科",
+"niji": null,
+"content": null,
+"req": "高等学校卒業（見込）等",
+"url": "https://www.hannan-u.ac.jp/entrance/exam/b4uvf80000000ep5-att/a1776738872563.pdf"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般入試 前期",
+"apply": "1/5〜1/25",
+"exam": "2/1・2/2・2/3・2/4",
+"result": null,
+"proc": null,
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般入試 後期",
+"apply": "2/5〜3/2",
+"exam": "3/7",
+"result": null,
+"proc": "3/23",
+"fee": null
+}
+]
+},
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "全学部（経済・経営・総合情報・国際）",
+"admission": 210000,
+"tuition": 800000,
+"facility": 280000,
+"practical": 0,
+"other": 54500,
+"first_year": 1344500,
+"four_year": null
+}
+]
+},
+"access": "大阪府松原市天美東5-4-33",
+"careers": "一般企業、流通・サービス、金融、IT関連、観光・航空業界、公務員など。",
+"_via": "external-ai",
+"sources": [
+"https://www.hannan-u.ac.jp/index.html",
+"https://www.hannan-u.ac.jp/entrance/exam/b4uvf80000000ep5-att/a1776738872563.pdf",
+"https://www.hannan-u.ac.jp/entrance/exam/b4uvf80000002yca-att/heigan_youkou.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/3653/gakuhi/",
+"https://search.keinet.ne.jp/2543/general/border_rate",
+"https://passnavi.obunsha.co.jp/univ/4340/difficulty/"
+]
+},
+"高野山大学": {
+"faculties": [
+"文学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "文学部",
+"d": [
+"密教学科"
+]
+}
+],
+"access": "和歌山県伊都郡高野町高野山385",
+"careers": "寺院・宗教関係、一般企業、福祉、教育関連など。",
+"_via": "external-ai",
+"sources": [
+"https://www.koyasan-u.ac.jp/",
+"https://www.koyasan-u.ac.jp/admission/"
+]
+},
+"龍谷大学": {
+"faculties": [
+"文学部",
+"経済学部",
+"経営学部",
+"法学部",
+"政策学部",
+"国際学部",
+"社会学部",
+"心理学部",
+"先端理工学部",
+"農学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"difficulty": "2026-11-07",
+"kyotsu": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "文学部",
+"d": [
+"真宗学科",
+"仏教学科",
+"哲学科",
+"歴史学科",
+"日本語日本文学科",
+"英語英米文学科"
+]
+},
+{
+"f": "経済学部",
+"d": [
+"現代経済学科",
+"国際経済学科"
+]
+},
+{
+"f": "経営学部",
+"d": [
+"経営学科"
+]
+},
+{
+"f": "法学部",
+"d": [
+"法律学科"
+]
+},
+{
+"f": "政策学部",
+"d": [
+"政策学科"
+]
+},
+{
+"f": "国際学部",
+"d": [
+"国際文化学科",
+"グローバルスタディーズ学科"
+]
+},
+{
+"f": "社会学部",
+"d": [
+"社会学科",
+"コミュニティマネジメント学科",
+"現代福祉学科"
+]
+},
+{
+"f": "心理学部",
+"d": [
+"心理学科"
+]
+},
+{
+"f": "先端理工学部",
+"d": [
+"数理・情報科学課程",
+"知能情報メディア課程",
+"電子情報通信課程",
+"機械工学・ロボティクス課程",
+"応用化学課程",
+"環境生態工学課程"
+]
+},
+{
+"f": "農学部",
+"d": [
+"植物生命科学科",
+"資源生物科学科",
+"食品栄養学科",
+"食料農業システム学科"
+]
+}
+],
+"difficulty": {
+"hensachi": "40.0〜52.5",
+"kyotei": "53%〜79%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "共通テスト利用入試（前期・中期・後期）を実施",
+"kyoka": [
+null,
+null
+],
+"note": null
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜入試（前期日程・中期日程・後期日程）",
+"kyotsu": "課さない（併用方式あり）",
+"niji": "各学部指定科目",
+"content": null,
+"req": "前期は3日間・中期は2日間受験可",
+"url": "https://www.ryukoku.ac.jp/admission/nyushi/pdf/youkou/2027_youkou_p06.pdf"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用入試（前期日程・中期日程・後期日程）",
+"kyotsu": "指定教科・科目",
+"niji": null,
+"content": null,
+"req": "大学独自試験なし",
+"url": "https://www.ryukoku.ac.jp/admission/nyushi/pdf/guide/2027_guide_p06.pdf"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜入試 前期日程",
+"apply": "1/4〜1/18",
+"exam": "1/29・1/30・1/31",
+"result": "2/12",
+"proc": "手続Ⅰ 2/18・手続Ⅱ 3/10",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜入試 中期日程",
+"apply": "1/4〜2/2",
+"exam": "2/14・2/15",
+"result": "2/26",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜入試 後期日程",
+"apply": "2/4〜3/1",
+"exam": "3/10",
+"result": "3/18",
+"proc": "3/24（一括）",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用入試 前期日程",
+"apply": "1/4〜1/17",
+"exam": "1/16・1/17（共テ）",
+"result": "2/12",
+"proc": "手続Ⅰ 2/18・手続Ⅱ 3/10",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用入試 中期日程",
+"apply": "1/4〜2/3",
+"exam": "1/16・1/17（共テ）",
+"result": "2/26",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用入試 後期日程",
+"apply": "2/4〜3/7",
+"exam": "1/16・1/17（共テ）",
+"result": "3/18",
+"proc": "3/24（一括）",
+"fee": null
+}
+]
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "法学部・経済学部・経営学部・政策学部・社会学部",
+"admission": 260000,
+"tuition": 861000,
+"facility": 0,
+"practical": 0,
+"other": null,
+"first_year": null,
+"four_year": null
+},
+{
+"f": "国際学部（グローバルスタディーズ学科）",
+"admission": 260000,
+"tuition": 1031000,
+"facility": null,
+"practical": null,
+"other": 200000,
+"first_year": 1525000,
+"four_year": null
+},
+{
+"f": "農学部（食料農業システム学科）",
+"admission": 260000,
+"tuition": 999000,
+"facility": 0,
+"practical": 35900,
+"other": null,
+"first_year": null,
+"four_year": null
+},
+{
+"f": "農学部（植物生命科学・資源生物科学）",
+"admission": 260000,
+"tuition": 1159000,
+"facility": 0,
+"practical": 143600,
+"other": null,
+"first_year": null,
+"four_year": null
+},
+{
+"f": "農学部（食品栄養学科）",
+"admission": 260000,
+"tuition": 1179000,
+"facility": 0,
+"practical": 193600,
+"other": null,
+"first_year": null,
+"four_year": null
+},
+{
+"f": "先端理工学部",
+"admission": 260000,
+"tuition": 1239000,
+"facility": 0,
+"practical": 143600,
+"other": 33000,
+"first_year": 1675600,
+"four_year": null
+}
+]
+},
+"access": "深草キャンパス（京都市伏見区深草塚本町67）・大宮キャンパス・瀬田キャンパス",
+"careers": "一般企業、金融、公務員、教員、IT・メーカー、農業・食品関連など。",
+"_via": "external-ai",
+"sources": [
+"https://www.ryukoku.ac.jp/",
+"https://admission-nyushi.ryukoku.ac.jp/",
+"https://www.ryukoku.ac.jp/admission/nyushi/pdf/guide/2027_guide_p06.pdf",
+"https://www.ryukoku.ac.jp/admission/nyushi/pdf/youkou/2027_youkou_p06.pdf",
+"https://www.ryukoku.ac.jp/admission/nyushi/pdf/youkou/2027_youkou_p14.pdf",
+"https://www.ryukoku.ac.jp/admission/guidance/pdf/2027/dl_01_261019.pdf",
+"https://search.keinet.ne.jp/2505/outline/expense",
+"https://search.keinet.ne.jp/2505/general/border_rate",
+"https://passnavi.obunsha.co.jp/univ/4060/difficulty/?facultyID=005"
+]
 }
 }
