@@ -33,7 +33,13 @@ with sync_playwright() as p:
     pg = b.new_page(viewport={'width': 1300, 'height': 900}); errs = []
     pg.on('pageerror', lambda e: errs.append(str(e)))
     pg.goto(U + 'index.html'); pg.wait_for_timeout(2500)
-    pg.fill('#mq', '獣医'); pg.wait_for_timeout(300)
+    y0 = pg.evaluate("document.getElementById('f-kei').getBoundingClientRect().top")
+    pg.type('#mq', '獣医'); pg.wait_for_timeout(300)
+    check(pg.locator('.ritem').count() == 0, '単体：入力途中では一覧を出さない')
+    pg.click('#mgo'); pg.wait_for_timeout(300)
+    y1 = pg.evaluate("document.getElementById('f-kei').getBoundingClientRect().top")
+    check(abs(y1 - y0) < 2, '単体：検索しても入力欄・絞り込みの位置が動かない（%d→%d）' % (y0, y1))
+    check(pg.evaluate("document.querySelector('.ritem').getBoundingClientRect().top > document.getElementById('f-kei').getBoundingClientRect().top"), '単体：一覧は絞り込みの下に出る')
     n = pg.locator('.ritem').count(); check(5 <= n <= 30, '単体：「獣医」の検索結果 %d件' % n)
     h = pg.evaluate("document.querySelector('.ritem').getBoundingClientRect().height"); check(h > 20, '単体：結果の行が見える（高さ %dpx）' % h)
     pg.locator('.ritem').first.click(); pg.wait_for_timeout(500)
@@ -50,7 +56,7 @@ with sync_playwright() as p:
     check(pg.evaluate('SearchunivModule.apiVersion') == 1, 'モジュール：apiVersion=1')
     check(pg.evaluate('typeof CSS.escape') == 'function', 'モジュール：ブラウザ標準の名前（CSS など）を隠さない')
     sr = "document.getElementById('host').shadowRoot"
-    pg.evaluate(sr + ".getElementById('mq').value='獣医'; " + sr + ".getElementById('mq').dispatchEvent(new Event('input'))"); pg.wait_for_timeout(400)
+    pg.evaluate(sr + ".getElementById('mq').value='獣医'; " + sr + ".getElementById('mgo').click()"); pg.wait_for_timeout(400)
     n2 = pg.evaluate(sr + ".querySelectorAll('.ritem').length"); check(n2 == n, 'モジュール：検索結果が単体と同じ %d件' % n2)
     h2 = pg.evaluate(sr + ".querySelector('.ritem').getBoundingClientRect().height"); check(h2 > 20, 'モジュール：結果の行が見える（高さ %dpx）' % h2)
     pg.locator('#host .ritem').first.click(); pg.wait_for_timeout(500)

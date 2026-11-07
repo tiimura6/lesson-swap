@@ -298,7 +298,7 @@ ul.mini li{font-size:12.5px;margin:2px 0}
 <section id="v-map" hidden>
   <div class="sgrid">
     <div class="sleft">
-      <div class="sbar"><input type="search" id="mq" placeholder="大学名・学部・学科・学問（例：看護、心理、建築）・地域で検索" autocomplete="off"><button class="btn" id="mreset">全国</button></div>
+      <div class="sbar"><input type="search" id="mq" placeholder="大学名・学部・学科・学問（例：看護、心理、建築）・地域で検索" autocomplete="off"><button class="btn" id="mgo" type="button">検索</button><button class="btn" id="mreset">全国</button></div>
       <p class="upd" id="updline"></p>
       <div class="sfilt">
         <select id="f-kyoka" aria-label="共通テスト科目数"><option value="">共テ教科数：すべて</option><option value="le3">3教科以下</option><option value="4-5">4〜5教科</option><option value="ge6">6教科以上</option><option value="none">共テ利用なし</option></select>
@@ -1083,7 +1083,7 @@ $("kt-go").onclick=async()=>{
 };
 
 // ===== 更新日時（検索欄の下に表示）=====
-const BUILD=/*BUILD*/{"built":"2026-11-07 12:55","schedule":"2026-11-06","diffyear":"2027年度入試用"}/*END_BUILD*/;
+const BUILD=/*BUILD*/{"built":"2026-11-07 13:23","schedule":"2026-11-06","diffyear":"2027年度入試用"}/*END_BUILD*/;
 (function(){ const el=$("updline"); if(!el||!BUILD.built) return; const d=s=>s?s.replace(/-/g,"/"):"";
   el.textContent="更新 "+d(BUILD.built)+"・"+items.length+"校｜入試日程の確認 "+d((BUILD.schedule||BUILD.built).slice(0,10))+"（一般選抜は12月下旬に更新）"; el.title="難易度：河合塾「"+(BUILD.diffyear||"2027年度入試用")+"」"; })();
 $("univlist").innerHTML=items.map(x=>'<option value="'+esc(x.name)+'">').join("");
@@ -1640,12 +1640,15 @@ function renderResults(){
   ROOT.querySelectorAll("#jmap .dot").forEach(c=>{ const n=c.querySelector("title").textContent; c.classList.toggle("dim", set.size>0 && !set.has(n)); });
   applyKindDots(); MATCH=set.size?set:(filtersActive()?new Set():null); if($("labels")&&$("labels").childNodes.length+ROOT.querySelectorAll("#jmap .dot").length) placeLabels();
 }
-$("mq").addEventListener("input",()=>{ CUR_SEL=null; $("hl").innerHTML=""; $("mpanel").innerHTML=""; renderResults(); });
+// 一覧は「検索」ボタンかEnterで出す（入力途中に一覧が出て画面が動かないように）。空にしたときだけすぐ消す
+function runSearch(){ CUR_SEL=null; $("hl").innerHTML=""; $("mpanel").innerHTML=""; renderResults(); }
+$("mq").addEventListener("input",()=>{ if(!$("mq").value.trim()) runSearch(); });
+$("mgo").onclick=runSearch;
 [$("msort"),$("f-eng"),$("f-kei"),$("f-kyoka"),$("f-rl"),$("f-meth"),...ROOT.querySelectorAll(".fk")].forEach(el=>el.addEventListener("change",()=>{
   // 学校を選んだ後は検索欄にその校名が入っているので、絞り込みを変えたら校名を消して一覧に戻す
   if($("mpanel").innerHTML&&items.some(x=>x.name===$("mq").value)) $("mq").value="";
   $("mpanel").innerHTML=""; renderResults(); }));
-$("mq").addEventListener("keydown",e=>{ if(e.key==="Enter"){ const l=searchUnivs($("mq").value); if(l.length) selectUniv(l[0].name); } });
+$("mq").addEventListener("keydown",e=>{ if(e.key!=="Enter"||e.isComposing||e.keyCode===229) return; e.preventDefault(); const v=$("mq").value.trim(); if(items.some(x=>x.name===v)) selectUniv(v); else runSearch(); });
 $("mreset").onclick=()=>{ MATCH=null; LAST_LIST=[]; CUR_SEL=null; $("uov").hidden=true; lockScroll(false); renderSearchNews(); ROOT.querySelectorAll(".fk").forEach(e=>e.checked=true); applyKindDots(); $("f-eng").value=""; $("f-kei").value=""; $("f-kyoka").value=""; $("f-rl").value=""; $("f-meth").value=""; ROOT.querySelectorAll(".fk").forEach(e=>e.checked=true); $("hl").innerHTML=""; $("mpanel").innerHTML=""; $("mresults").innerHTML=""; $("mcount").textContent=""; $("mq").value=""; ROOT.querySelectorAll("#jmap .dot.dim").forEach(c=>c.classList.remove("dim")); setVB(HOME_VB); };
 NAV.listen(()=>{ if(NAV.get()==="map") requestAnimationFrame(()=>scaleMarks()); });
 

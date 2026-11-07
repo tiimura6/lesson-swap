@@ -25,7 +25,7 @@ with sync_playwright() as p:
     J = pg.evaluate
     pg.goto(U + 'searchuniv/index.html'); pg.wait_for_function('document.querySelector("#updline").textContent.length>0'); pg.wait_for_timeout(2500)
     def search(q):
-        J('(q)=>{const e=document.getElementById("mq"); e.value=q; e.dispatchEvent(new Event("input"))}', q); pg.wait_for_timeout(350)
+        J('(q)=>{const e=document.getElementById("mq"); e.value=q; document.getElementById("mgo").click()}', q); pg.wait_for_timeout(350)
         return J('document.querySelectorAll(".ritem").length')
 
     G = '検索・地図'

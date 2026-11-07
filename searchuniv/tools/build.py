@@ -77,7 +77,7 @@ THEME_IIMURA = """
 .su-body main,.su-body.wide main{max-width:none;margin:0;padding:0 0 24px}
 .sright{top:8px}
 @media (min-width:861px){ .sleft{max-height:calc(100vh - 170px)} }
-.sleft > *{order:3} .sleft > .sbar{order:0} .sleft > .mcount{order:1} .sleft > .mresults{order:2;flex-shrink:0;margin-bottom:6px} .mresults:empty{display:none}
+.mresults:empty{display:none}
 button.btn,select,input[type=search]{border-radius:10px}
 .uov,#wmodal{z-index:9500}   /* 親ページの固定ヘッダーより手前に */
 """

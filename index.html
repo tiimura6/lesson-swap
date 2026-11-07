@@ -12578,6 +12578,7 @@
       const hit = v => { v = String(v || '').trim(); if(!v || v === last) return; last = v; if(window.ttCount) window.ttCount('univ'); log('大学検索', v.slice(0, 40)); };
       el.addEventListener('input', () => { clearTimeout(tm); tm = setTimeout(() => hit(el.value), 1500); });
       el.addEventListener('keydown', e => { if(e.key === 'Enter' && !e.isComposing){ clearTimeout(tm); hit(el.value); } });
+      const btn = host.shadowRoot.getElementById('mgo'); if(btn) btn.addEventListener('click', () => { clearTimeout(tm); hit(el.value); });
     }
     // Searchuniv の中で起きたエラーも操作ログに残す（原因の特定用）
     window.addEventListener('error', e => { if(String(e.filename || '').includes('su-module.js')) log('大学検索エラー', (e.message || '').slice(0, 80)); });
