@@ -52,7 +52,7 @@ with sync_playwright() as p:
     ck(G, '大学の丸が9px以上（クリックしやすい）', r >= 9 or J('dotR' in 'x') , '%dpx' % r)
     ck(G, '市町村の表示なし', 'const SHOW_MUNI=false' in tpl)
     ck(G, '空いた所をクリックで選択解除・ホバーで大学名', 'clearSelection' in tpl and 'ctip' in tpl)
-    ck(G, '最新ニュースを左上に流して表示', J('!document.getElementById("nticker").hidden && document.querySelectorAll("#nt-track .nt-i").length>0 && getComputedStyle(document.getElementById("nt-track")).animationName==="ntscroll"'))
+    ck(G, '最新ニュースをタイトルと同じ行に流して表示', J('document.getElementById("nticker").closest(".hrow") && !document.getElementById("nticker").hidden && document.querySelectorAll("#nt-track .nt-i").length>0 && getComputedStyle(document.getElementById("nt-track")).animationName==="ntscroll"'))
     ck(G, '更新日時を検索欄の下に表示', '更新' in J('document.getElementById("updline").textContent'), J('document.getElementById("updline").textContent')[:30])
     ck(G, '詳しいデータは後から読み込む（ページを軽く）', J('typeof Searchuniv')=='object' and 'fetch(BASE+"detail.json")' in tpl)
 

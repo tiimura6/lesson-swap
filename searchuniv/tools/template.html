@@ -108,6 +108,7 @@ body.wide main,body.wide header{max-width:1320px}
 .stu-memo{display:flex;flex-direction:column;gap:3px;font-size:12px;color:var(--muted)}.stu-memo textarea{font-family:inherit;font-size:13.5px;border:1px solid var(--line);border-radius:8px;padding:7px 9px;background:var(--bg);color:var(--ink);resize:vertical}
 #stu-list{margin-left:auto}
 .dlbox{border:1px solid var(--line);border-radius:12px;padding:8px 14px;margin:6px 0 10px;background:var(--panel)}.dlbox.urgent{border:1.5px solid #c0392b;background:color-mix(in srgb,#c0392b 5%,var(--panel))}.dlbox h3{margin:0 0 4px;font-size:14px}.dlbox.urgent h3{color:#c0392b}.dlbox li.hot{color:#c0392b;font-weight:700}.dlbox li.near b{color:#1f4e79}
+.hrow{display:flex;align-items:center;gap:14px;flex-wrap:wrap}.hrow h1{margin:0;flex-shrink:0}.hrow .nticker{flex:1;min-width:260px}
 .nticker{display:flex;align-items:center;gap:8px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:5px 10px;overflow:hidden;font-size:12.5px}
 .nticker[hidden]{display:none}.nt-h{flex-shrink:0;font-weight:700;color:var(--accent);font-size:12px}
 .nt-vp{flex:1;overflow:hidden;white-space:nowrap;-webkit-mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent);mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent)}
@@ -115,7 +116,6 @@ body.wide main,body.wide header{max-width:1320px}
 .nt-run{display:inline-flex;align-items:center;padding-right:2em}.nt-i{color:var(--ink);text-decoration:none}.nt-i:hover{text-decoration:underline}.nt-i b{color:var(--accent);margin-right:3px}.nt-i .imp{color:var(--ng);margin-right:2px}
 .nt-d{color:var(--muted);font-size:11px;margin-left:5px}.nt-sep{color:var(--line);margin:0 10px}
 @keyframes ntscroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-@media (prefers-reduced-motion:reduce){.nt-track{animation:none}.nt-vp{overflow-x:auto}}
 .ktbox{margin-top:16px;border:1px solid var(--line);border-radius:12px;padding:10px 14px;background:var(--panel)}
 .ktbox>summary{cursor:pointer;font-weight:700}
 @media print{ #v-plan .mintro,.xbtn,.psel,.prow,#plan-print,.star{display:none !important} }
@@ -310,7 +310,7 @@ ul.mini li{font-size:12.5px;margin:2px 0}
 </head>
 <body>
 <header>
-  <h1>Searchuniv <span class="byline">designed by Takahiro Iimura</span></h1>
+  <div class="hrow"><h1>Searchuniv <span class="byline">designed by Takahiro Iimura</span></h1><div class="nticker" id="nticker" hidden><span class="nt-h">📰 最新ニュース</span><div class="nt-vp"><div class="nt-track" id="nt-track"></div></div></div></div>
   <nav class="tabs"><a href="#map" data-v="map">検索</a><a href="#ai" data-v="ai">面談</a><a href="#plan" data-v="plan">比較<span id="ccount" class="ccount"></span></a><a href="#trend" data-v="trend">出題内容</a></nav>
 </header>
 <main>
@@ -318,7 +318,6 @@ ul.mini li{font-size:12.5px;margin:2px 0}
 <section id="v-map" hidden>
   <div class="sgrid">
     <div class="sleft">
-      <div class="nticker" id="nticker" hidden><span class="nt-h">📰 最新ニュース</span><div class="nt-vp"><div class="nt-track" id="nt-track"></div></div></div>
       <div class="sbar"><input type="search" id="mq" placeholder="大学名・学部・学科・学問（例：看護、心理、建築）・地域で検索" autocomplete="off"><button class="btn" id="mgo" type="button">検索</button><button class="btn" id="mreset">全国</button></div>
       <p class="upd" id="updline"></p>
       <div class="sfilt">

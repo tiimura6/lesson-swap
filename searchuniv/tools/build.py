@@ -73,7 +73,7 @@ def main():
 THEME_IIMURA = """
 :host{color-scheme:light;--bg:#f5f5f7;--panel:#fff;--ink:#1d1d1f;--muted:#6e6e73;--line:#e5e5ea;--accent:#0071e3;--accent-soft:#e8f1fc}
 .su-body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Meiryo",sans-serif;-webkit-font-smoothing:antialiased;background:transparent}
-.su-body>header{display:none}
+.su-body>header{display:none}   /* 見出しと最新ニュースは飯村システム側の帯に出す */
 .su-body main,.su-body.wide main{max-width:none;margin:0;padding:0 0 24px}
 .sright{top:8px}
 @media (min-width:861px){ .sleft{max-height:calc(100vh - 170px)} }
