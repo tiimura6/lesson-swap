@@ -2367,41 +2367,6 @@
 "cat": "private"
 },
 {
-"name": "日本赤十字豊田看護大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.rctoyota.ac.jp/",
-"cat": "private"
-},
-{
-"name": "星城大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.seijoh-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "朝日大学",
-"type": "私立",
-"pref": "岐阜県",
-"hp": "https://www.asahi-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "東海学園大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.tokaigakuen-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "東海学院大学",
-"type": "私立",
-"pref": "岐阜県",
-"hp": "https://www.tokaigakuin-u.ac.jp/",
-"cat": "private"
-},
-{
 "name": "松本大学",
 "type": "私立",
 "pref": "長野県",
@@ -3199,6 +3164,36 @@
 "長野県立大学": 1
 },
 "enrich": [
+{
+"name": "日本赤十字豊田看護大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "星城大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "朝日大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "東海学園大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "東海学院大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "至学館大学",
 "need": [
@@ -21455,6 +21450,126 @@
 },
 {
 "name": "身延山大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "日本赤十字豊田看護大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "日本赤十字豊田看護大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "日本赤十字豊田看護大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "日本赤十字豊田看護大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "星城大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "星城大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "星城大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "星城大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "朝日大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "朝日大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "朝日大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "朝日大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "東海学園大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "東海学園大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "東海学園大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "東海学園大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "東海学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "東海学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "東海学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "東海学院大学",
 "need": [
 "scholar"
 ]
