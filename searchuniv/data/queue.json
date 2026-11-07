@@ -2577,41 +2577,6 @@
 "cat": "private"
 },
 {
-"name": "静岡産業大学",
-"type": "私立",
-"pref": "静岡県",
-"hp": "https://www.ssu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "静岡福祉大学",
-"type": "私立",
-"pref": "静岡県",
-"hp": "https://www.suw.ac.jp/",
-"cat": "private"
-},
-{
-"name": "静岡英和学院大学",
-"type": "私立",
-"pref": "静岡県",
-"hp": "https://www.shizuoka-eiwa.ac.jp/university/",
-"cat": "private"
-},
-{
-"name": "高岡法科大学",
-"type": "私立",
-"pref": "富山県",
-"hp": "https://www.takaoka.ac.jp/",
-"cat": "private"
-},
-{
-"name": "びわこリハビリテーション専門職大学",
-"type": "私立",
-"pref": "滋賀県",
-"hp": "https://aino.ac.jp/professional/",
-"cat": "senmon"
-},
-{
 "name": "びわこ学院大学",
 "type": "私立",
 "pref": "滋賀県",
@@ -3402,6 +3367,36 @@
 "長野県立大学": 1
 },
 "enrich": [
+{
+"name": "静岡産業大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "静岡福祉大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "静岡英和学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "高岡法科大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "びわこリハビリテーション専門職大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "京都産業大学",
 "need": [
@@ -20788,6 +20783,126 @@
 },
 {
 "name": "京都芸術大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "静岡産業大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "静岡産業大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "静岡産業大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "静岡産業大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "静岡福祉大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "静岡福祉大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "静岡福祉大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "静岡福祉大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "静岡英和学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "静岡英和学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "静岡英和学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "静岡英和学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "高岡法科大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "高岡法科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "高岡法科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "高岡法科大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "びわこリハビリテーション専門職大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "びわこリハビリテーション専門職大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "びわこリハビリテーション専門職大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "びわこリハビリテーション専門職大学",
 "need": [
 "scholar"
 ]
