@@ -2626,13 +2626,6 @@
 "cat": "private"
 },
 {
-"name": "京都ノートルダム女子大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "https://www.notredame.ac.jp/",
-"cat": "private"
-},
-{
 "name": "京都先端科学大学",
 "type": "私立",
 "pref": "京都府",
@@ -2714,41 +2707,6 @@
 "type": "私立",
 "pref": "京都府",
 "hp": "https://www.kyoto-art.ac.jp/",
-"cat": "private"
-},
-{
-"name": "京都華頂大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "https://www.kyotokacho-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "京都薬科大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "https://www.kyoto-phu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "佛教大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "https://www.bukkyo-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "兵庫医科大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.hyo-med.ac.jp/",
-"cat": "private"
-},
-{
-"name": "兵庫大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.hyogo-dai.ac.jp/",
 "cat": "private"
 },
 {
@@ -3549,6 +3507,30 @@
 "長野県立大学": 1
 },
 "enrich": [
+{
+"name": "京都薬科大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "佛教大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "兵庫医科大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "兵庫大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "大手前大学",
 "need": [
@@ -20368,6 +20350,102 @@
 "need": [
 "scholar"
 ]
+},
+{
+"name": "京都薬科大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "京都薬科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "京都薬科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "京都薬科大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "佛教大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "佛教大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "佛教大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "佛教大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "兵庫医科大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "兵庫医科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "兵庫医科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "兵庫医科大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "兵庫大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "兵庫大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "兵庫大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "兵庫大学",
+"need": [
+"scholar"
+]
 }
 ],
 "complete": true,
@@ -20407,6 +20485,14 @@
 {
 "name": "桃山学院教育大学",
 "reason": "2025年4月に桃山学院大学と統合（桃山学院大学 人間教育学部として募集）"
+},
+{
+"name": "京都華頂大学",
+"reason": "2027年度以降の学生募集を停止（学校法人佛教教育学園 2025年11月理事会決定）"
+},
+{
+"name": "京都ノートルダム女子大学",
+"reason": "2026年度以降の学生募集を停止（京都市の資料で確認）"
 }
 ]
 }

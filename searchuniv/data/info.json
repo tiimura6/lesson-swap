@@ -113839,5 +113839,668 @@ null
 "https://passnavi.obunsha.co.jp/univ/4203/top/",
 "https://www.best-shingaku.net/special/fa_p015nyushicalendar_list.php?daigakucode=3673"
 ]
+},
+"京都薬科大学": {
+"faculties": [
+"薬学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"difficulty": "2026-11-07",
+"kyotsu": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "薬学部",
+"d": [
+"薬学科（6年制）"
+]
+}
+],
+"difficulty": {
+"hensachi": "52.5〜55.0",
+"kyotei": "69%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "一般選抜 共通テスト利用（前期）を実施",
+"kyoka": [
+null,
+null
+],
+"note": null
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜 前期（3教科型）・後期（2教科型）",
+"kyotsu": "課さない",
+"niji": "前期：3教科、後期：3教科から2教科選択",
+"content": null,
+"req": "高等学校卒業（見込）等",
+"url": "https://www.kyoto-phu.ac.jp/admission/undergraduate/exam.html"
+},
+{
+"kubun": "共テ利用",
+"name": "一般選抜 共通テスト利用（前期）",
+"kyotsu": "指定教科・科目",
+"niji": null,
+"content": null,
+"req": "高等学校卒業（見込）等",
+"url": "https://www.kyoto-phu.ac.jp/admission/undergraduate/exam.html"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 前期（3教科型）",
+"apply": null,
+"exam": "2/3",
+"result": null,
+"proc": "入学金2/22・授業料等3/18",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期（2教科型）",
+"apply": null,
+"exam": "2/19",
+"result": null,
+"proc": "入学金3/10・授業料等3/18",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "一般選抜 共通テスト利用（前期）",
+"apply": "1/5〜1/14",
+"exam": "1/16・1/17（共テ）",
+"result": null,
+"proc": null,
+"fee": null
+}
+]
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "薬学部 薬学科（6年制）",
+"admission": 400000,
+"tuition": 1800000,
+"facility": 0,
+"practical": 0,
+"other": 65000,
+"first_year": 2265000,
+"four_year": null
+}
+]
+},
+"access": "京都府京都市山科区御陵中内町5",
+"careers": "薬剤師（病院、薬局）、製薬企業、公務員・研究職など。",
+"_via": "external-ai",
+"sources": [
+"https://www.kyoto-phu.ac.jp/",
+"https://www.kyoto-phu.ac.jp/admission/undergraduate/exam.html",
+"https://www.kyoto-phu.ac.jp/news/nid00000237.html",
+"https://passnavi.obunsha.co.jp/univ/3960/difficulty/",
+"https://search.keinet.ne.jp/2494/general/border_rate",
+"https://manabi.benesse.ne.jp/daigaku/school/3599/gakuhi/"
+]
+},
+"佛教大学": {
+"faculties": [
+"仏教学部",
+"文学部",
+"歴史学部",
+"教育学部",
+"社会学部",
+"社会福祉学部",
+"保健医療技術学部",
+"看護学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"difficulty": "2026-11-07",
+"kyotsu": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "仏教学部",
+"d": [
+"仏教学科"
+]
+},
+{
+"f": "文学部",
+"d": [
+"日本文学科",
+"中国学科",
+"英米学科"
+]
+},
+{
+"f": "歴史学部",
+"d": [
+"歴史学科",
+"歴史文化学科"
+]
+},
+{
+"f": "教育学部",
+"d": [
+"教育学科",
+"幼児教育学科",
+"臨床心理学科"
+]
+},
+{
+"f": "社会学部",
+"d": [
+"現代社会学科",
+"公共政策学科"
+]
+},
+{
+"f": "社会福祉学部",
+"d": [
+"社会福祉学科"
+]
+},
+{
+"f": "保健医療技術学部",
+"d": [
+"理学療法学科",
+"作業療法学科"
+]
+},
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+}
+],
+"difficulty": {
+"hensachi": "37.5〜50.0",
+"kyotei": "51%〜71%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "大学入学共通テスト利用選抜（前期・後期）および併用方式を実施",
+"kyoka": [
+2,
+3
+],
+"note": "全学部・学科への併願が可能"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜（A日程・B日程・C日程）",
+"kyotsu": "課さない",
+"niji": "2科目入試・3科目入試",
+"content": null,
+"req": "全国各地に試験会場を設定",
+"url": "https://www.bukkyo-u.ac.jp/admission/design/file/exam/2027_youkou-commendatory_a_b_c_common.pdf"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜（前期・後期）",
+"kyotsu": "指定教科・科目",
+"niji": null,
+"content": null,
+"req": "個別の学力検査等は実施しない",
+"url": "https://www.bukkyo-u.ac.jp/admission/design/file/exam/2027_youkou-commendatory_a_b_c_common.pdf"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 B日程",
+"apply": "1/6〜1/20",
+"exam": "1/31・2/1",
+"result": "2/12",
+"proc": "1次2/18・2次3/12",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 A日程",
+"apply": "1/6〜1/20",
+"exam": "2/2・2/3",
+"result": "2/12",
+"proc": "1次2/18・2次3/12",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 C日程",
+"apply": "2/10〜2/24",
+"exam": "3/5",
+"result": "3/12",
+"proc": "3/18",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 前期",
+"apply": "1/6〜1/28",
+"exam": "1/16・1/17（共テ）",
+"result": "2/12",
+"proc": "1次2/18・2次3/12",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 後期",
+"apply": "2/10〜2/26",
+"exam": "1/16・1/17（共テ）",
+"result": "3/12",
+"proc": "3/18",
+"fee": null
+}
+]
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "仏教学部・文学部・歴史学部・社会学部・社会福祉学部",
+"admission": 250000,
+"tuition": null,
+"facility": null,
+"practical": 0,
+"other": null,
+"first_year": 1245500,
+"four_year": null
+},
+{
+"f": "教育学部",
+"admission": 250000,
+"tuition": null,
+"facility": null,
+"practical": 0,
+"other": null,
+"first_year": 1325500,
+"four_year": null
+},
+{
+"f": "保健医療技術学部・看護学部",
+"admission": 250000,
+"tuition": null,
+"facility": null,
+"practical": 0,
+"other": null,
+"first_year": 1875500,
+"four_year": null
+}
+]
+},
+"access": "紫野キャンパス（京都市北区紫野北花ノ坊町96）・二条キャンパス",
+"careers": "小学校・中学校・高校教諭、保育士、社会福祉士、理学療法士、作業療法士、看護師、一般企業、公務員など。",
+"_via": "external-ai",
+"sources": [
+"https://www.bukkyo-u.ac.jp/",
+"https://www.bukkyo-u.ac.jp/admission/design/file/exam/2027_youkou-commendatory_a_b_c_common.pdf",
+"https://www.bukkyo-u.ac.jp/admission/design/file/fresher/2027_shiori.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/3606/gakuhi/",
+"https://passnavi.obunsha.co.jp/univ/4030/difficulty/",
+"https://search.keinet.ne.jp/2501/general/border_rate"
+]
+},
+"兵庫医科大学": {
+"faculties": [
+"医学部",
+"薬学部",
+"看護学部",
+"リハビリテーション学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"difficulty": "2026-11-07",
+"kyotsu": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "医学部",
+"d": [
+"医学科（6年制）"
+]
+},
+{
+"f": "薬学部",
+"d": [
+"医療薬学科（6年制）"
+]
+},
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+},
+{
+"f": "リハビリテーション学部",
+"d": [
+"理学療法学科",
+"作業療法学科"
+]
+}
+],
+"difficulty": {
+"hensachi": "37.5〜62.5",
+"kyotei": "48%〜71%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "薬学部・看護学部・リハビリテーション学部で共通テスト利用（前期）を実施",
+"kyoka": [
+null,
+null
+],
+"note": null
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "医学部 一般選抜（A 4科目型・B 英語資格試験活用型）",
+"kyotsu": "課さない",
+"niji": "1次試験（大阪・東京・福岡）・2次試験（西宮）",
+"content": null,
+"req": "高等学校卒業（見込）等",
+"url": "https://www.hyo-med.ac.jp/admission/outline/nishinomiya/"
+},
+{
+"kubun": "一般",
+"name": "看護・リハビリテーション学部 一般選抜（前期A・B日程、後期日程）",
+"kyotsu": "課さない",
+"niji": "各学科指定科目",
+"content": null,
+"req": "2学科まで同時出願可（50,000円）",
+"url": "https://www.hyo-med.ac.jp/admission/outline/kobe/general-first-2subjects/"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "医学部 一般選抜A（4科目型）",
+"apply": "12/14〜1/20",
+"exam": "1次2/4・2次2/17または2/18",
+"result": null,
+"proc": null,
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "看護・リハ 一般選抜 前期B日程",
+"apply": "1/4〜1/18",
+"exam": "2/3",
+"result": "2/12",
+"proc": "1次2/19・2次3/10",
+"fee": 35000
+},
+{
+"kubun": "一般",
+"name": "看護・リハ 一般選抜 後期日程",
+"apply": "2/12〜2/26",
+"exam": "3/5",
+"result": "3/11",
+"proc": "3/17",
+"fee": 35000
+}
+]
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "医学部 医学科（6年制）",
+"admission": 2000000,
+"tuition": 6500000,
+"facility": 0,
+"practical": 0,
+"other": 0,
+"first_year": 8500000,
+"four_year": null
+},
+{
+"f": "薬学部 医療薬学科（6年制）",
+"admission": 200000,
+"tuition": 1900000,
+"facility": 0,
+"practical": 0,
+"other": 0,
+"first_year": 2100000,
+"four_year": null
+},
+{
+"f": "看護学部 看護学科",
+"admission": 200000,
+"tuition": 1650000,
+"facility": 0,
+"practical": 0,
+"other": 0,
+"first_year": 1850000,
+"four_year": null
+},
+{
+"f": "リハビリテーション学部",
+"admission": 200000,
+"tuition": 1550000,
+"facility": 0,
+"practical": 0,
+"other": 0,
+"first_year": 1750000,
+"four_year": null
+}
+]
+},
+"access": "西宮キャンパス（兵庫県西宮市武庫川町1-1）・神戸キャンパス（ポートアイランド）",
+"careers": "医師、薬剤師、看護師、保健師、理学療法士、作業療法士など。",
+"_via": "external-ai",
+"sources": [
+"https://www.hyo-med.ac.jp/",
+"https://www.hyo-med.ac.jp/admission/outline/nishinomiya/",
+"https://www.hyo-med.ac.jp/admission/outline/kobe/general-first-2subjects/",
+"https://www.hyo-med.ac.jp/admission/outline/kobe/general-second/",
+"https://manabi.benesse.ne.jp/daigaku/school/3711/gakuhi/",
+"https://passnavi.obunsha.co.jp/univ/4550/difficulty/"
+]
+},
+"兵庫大学": {
+"faculties": [
+"現代ビジネス学部",
+"健康科学部",
+"教育学部",
+"看護学部",
+"生涯福祉学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"difficulty": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "現代ビジネス学部",
+"d": [
+"現代ビジネス学科"
+]
+},
+{
+"f": "健康科学部",
+"d": [
+"栄養マネジメント学科",
+"健康スポーツ学科"
+]
+},
+{
+"f": "教育学部",
+"d": [
+"教育学科"
+]
+},
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+},
+{
+"f": "生涯福祉学部",
+"d": [
+"社会福祉学科"
+]
+}
+],
+"difficulty": {
+"hensachi": "35.0〜40.0",
+"kyotei": null,
+"year": "2027年度入試用"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般入試（Ⅰ期3科目型・2科目型、Ⅱ期）",
+"kyotsu": "課さない",
+"niji": "各学部指定科目",
+"content": null,
+"req": "高等学校卒業（見込）等",
+"url": "https://juken.hyogo-dai.ac.jp/exam/system/general/"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般入試 Ⅰ期",
+"apply": "12/21〜1/21",
+"exam": "1/30・1/31",
+"result": "2/10",
+"proc": null,
+"fee": null
+}
+]
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "現代ビジネス学部 現代ビジネス学科",
+"admission": 200000,
+"tuition": 780000,
+"facility": null,
+"practical": 0,
+"other": null,
+"first_year": 1247300,
+"four_year": null
+},
+{
+"f": "教育学部 教育学科",
+"admission": 200000,
+"tuition": 890000,
+"facility": null,
+"practical": 0,
+"other": null,
+"first_year": 1357300,
+"four_year": null
+},
+{
+"f": "生涯福祉学部 社会福祉学科",
+"admission": 200000,
+"tuition": 990000,
+"facility": null,
+"practical": 0,
+"other": null,
+"first_year": 1457300,
+"four_year": null
+},
+{
+"f": "健康科学部 健康スポーツ学科",
+"admission": 200000,
+"tuition": 960000,
+"facility": null,
+"practical": 0,
+"other": null,
+"first_year": 1487300,
+"four_year": null
+},
+{
+"f": "健康科学部 栄養マネジメント学科",
+"admission": 200000,
+"tuition": 890000,
+"facility": null,
+"practical": 0,
+"other": null,
+"first_year": 1547300,
+"four_year": null
+},
+{
+"f": "看護学部 看護学科",
+"admission": 200000,
+"tuition": 1350000,
+"facility": null,
+"practical": 0,
+"other": null,
+"first_year": 1819370,
+"four_year": null
+}
+]
+},
+"access": "兵庫県加古川市平岡町新在家2301",
+"careers": "一般企業、公務員、教員、保育士、管理栄養士、社会福祉士、看護師、保健師など。",
+"_via": "external-ai",
+"sources": [
+"https://www.hyogo-dai.ac.jp/",
+"https://juken.hyogo-dai.ac.jp/exam/system/general/",
+"https://manabi.benesse.ne.jp/daigaku/school/3712/gakuhi/",
+"https://passnavi.obunsha.co.jp/univ/4545/difficulty/"
+]
 }
 }
