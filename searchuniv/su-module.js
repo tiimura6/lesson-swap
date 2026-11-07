@@ -707,25 +707,6 @@ function moneyBlock(f){
   if((M.scholarships||[]).length&&!((f.scholar||{}).rows||[]).length) rows.push(["大学独自の奨学金",'<ul class="mini">'+M.scholarships.map(x=>'<li><b>'+esc(x.name||"")+'</b> '+esc(x.what||"")+'</li>').join("")+'</ul>']);
   return '<details class="xb" open><summary>費用と奨学金（目安）'+(M.year?'<span class="sub2">'+esc(M.year)+'</span>':'')+'</summary><div class="fwarn">大学によって、学費に施設・教育充実費や実習費、諸会費を含めたり含めなかったりします。✓は含む、✕は含まない、?は出典に書かれていない項目です。比べるときは同じ項目どうしで見てください。</div>'+feeRowsBlock(M)+'<dl class="mrows">'+rows.map(([k,v])=>'<dt>'+k+'</dt><dd>'+v+'</dd>').join("")+'</dl>'+(M.note?'<div class="enote">※'+esc(M.note)+'</div>':'')+'</details>';
 }
-// 誤りの報告：db の reports に保存し、自動収集の最初に再確認する
-function reportBox(name){
-  return '<details class="xb rep"><summary>情報の誤りを報告</summary><div class="repf" data-univ="'+esc(name)+'"><select class="rep-f">'+
-    INFO_KEYS.map(([k,l])=>'<option value="'+k+'">'+l+'</option>').join("")+'<option value="other">その他</option></select>'+
-    '<input class="rep-t" placeholder="どこがどう違うか（例：推薦の評定基準は4.0ではなく3.8）"><button type="button" class="btn rep-go">送る</button><span class="rep-s sub2"></span></div></details>';
-}
-function bindReport(root){
-  root.querySelectorAll(".repf").forEach(f=>{ const b=f.querySelector(".rep-go"); b.onclick=async()=>{
-    const st=f.querySelector(".rep-s"), t=f.querySelector(".rep-t").value.trim(); if(!t){ st.textContent="内容を入れてください"; return; }
-    if(!db){ let P=null; try{ P=window.parent!==window&&window.parent.ttLog?window.parent:null; }catch(e){}
-      if(P){ P.ttLog("大学情報の誤り報告",f.dataset.univ+"｜"+f.querySelector(".rep-f").value+"｜"+t); st.textContent="飯村システムの操作ログに記録しました。"; f.querySelector(".rep-t").value=""; }
-      else st.textContent="この画面からは送れません（Claudeのアーティファクト版から送れます）"; return; }
-    b.disabled=true; st.textContent="送信中…";
-    try{ const id=new Date().toISOString().replace(/[^0-9]/g,"").slice(0,14)+"-"+Math.random().toString(36).slice(2,6);
-      await db.doc("reports/"+id).set({univ:f.dataset.univ,field:f.querySelector(".rep-f").value,text:t.slice(0,500),date:new Date().toISOString().slice(0,10),status:"open"});
-      st.textContent="受け付けました。次の自動収集で再確認します。"; f.querySelector(".rep-t").value=""; }
-    catch(e){ st.textContent="送れませんでした（権限がない可能性）"; }
-    b.disabled=false; }; });
-}
 function sourceBlock(name){
   const f=INFO[name]||{}, e=EXAM[name]||{};
   const src=[...new Set([...(f.sources||[]),...(e.sources||[])])].filter(u=>/^https?:/.test(u));
@@ -972,7 +953,7 @@ $("kt-go").onclick=async()=>{
 };
 
 // ===== 更新日時（検索欄の下に表示）=====
-const BUILD=/*BUILD*/{"built":"2026-11-07 18:27","schedule":"2026-11-07","diffyear":"2027年度入試用"}/*END_BUILD*/;
+const BUILD=/*BUILD*/{"built":"2026-11-07 18:30","schedule":"2026-11-07","diffyear":"2027年度入試用"}/*END_BUILD*/;
 (function(){ const el=$("updline"); if(!el||!BUILD.built) return; const d=s=>s?s.replace(/-/g,"/"):"";
   el.textContent="更新 "+d(BUILD.built)+"・"+items.length+"校｜入試日程の確認 "+d((BUILD.schedule||BUILD.built).slice(0,10))+"（一般選抜は12月下旬に更新）"; el.title="難易度：河合塾「"+(BUILD.diffyear||"2027年度入試用")+"」"; })();
 $("univlist").innerHTML=items.map(x=>'<option value="'+esc(x.name)+'">').join("");
@@ -1408,7 +1389,7 @@ function selectUniv(name,keepView){
   const lb=document.createElementNS(SVGNS,"text"); lb.setAttribute("x",pt[0]+4); lb.setAttribute("y",pt[1]+1.8); lb.setAttribute("class","lbl"); lb.textContent=x.name;
   hl.append(ring,dot,lb); scaleMarks();
   if(!keepView) setVB([pt[0]-60,pt[1]-45,120,90]);
-  $("mpanel").innerHTML='<div class="box"><div class="ph"><h3>'+badge(x)+' '+esc(x.name)+' '+fullTag(x.name)+viaTag(x.name)+'</h3>'+starBtn(x.name)+'<button type="button" class="tbtn" data-trend="'+esc(x.name)+'">出題内容</button>'+hpLink(x.name)+'</div><div class="meta">'+metaPrefix(x)+esc(x.pref)+'</div><ul class="pfeat">'+x.feats.map(f=>'<li>'+esc(f)+'</li>').join("")+'</ul>'+facTabs(x)+'<div class="fbody">'+univBody(x)+'</div>'+reportBox(x.name)+'</div>';
+  $("mpanel").innerHTML='<div class="box"><div class="ph"><h3>'+badge(x)+' '+esc(x.name)+' '+fullTag(x.name)+viaTag(x.name)+'</h3>'+starBtn(x.name)+'<button type="button" class="tbtn" data-trend="'+esc(x.name)+'">出題内容</button>'+hpLink(x.name)+'</div><div class="meta">'+metaPrefix(x)+esc(x.pref)+'</div><ul class="pfeat">'+x.feats.map(f=>'<li>'+esc(f)+'</li>').join("")+'</ul>'+facTabs(x)+'<div class="fbody">'+univBody(x)+'</div>'+'</div>';
   MATCH=null; LAST_LIST=[]; CUR_SEL=name; renderSearchNews();
   try{ window.dispatchEvent(new CustomEvent("searchuniv:select",{detail:{name}})); }catch(e){}
   $("mresults").innerHTML=""; $("mcount").textContent=""; if(!filtersActive()) ROOT.querySelectorAll("#jmap .dot.dim").forEach(c=>c.classList.remove("dim"));
@@ -1416,7 +1397,6 @@ function selectUniv(name,keepView){
   if(false) $("mpanel").scrollIntoView({behavior:"smooth",block:"start"});
   bindStars($("mpanel"));
   $("mpanel").querySelectorAll("[data-trend]").forEach(b=>b.onclick=()=>openTrend(b.dataset.trend));
-  bindReport($("mpanel"));
   bindFacTabs(x);
 }
 // ===== 大学の画面の学部タブ：学部を選ぶと、その学部に関係する情報だけに絞って表示 =====
@@ -1910,7 +1890,7 @@ return API;
 }
 
 window.SearchunivModule=Object.freeze({
-  apiVersion:1, build:{"built":"2026-11-07 18:27","schedule":"2026-11-07","diffyear":"2027年度入試用"},
+  apiVersion:1, build:{"built":"2026-11-07 18:30","schedule":"2026-11-07","diffyear":"2027年度入試用"},
   // host 要素の Shadow DOM に Searchuniv を作る。opts: {base, theme, view, onView(v), onError(e)}
   mount(host,opts){
     opts=opts||{}; if(host.__su) return host.__su;

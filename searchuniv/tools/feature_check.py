@@ -50,7 +50,7 @@ with sync_playwright() as p:
     ck(G, '比較候補ボタンが分かりやすい表示', '比較に追加' in J('document.querySelector("#mpanel .cbtn").textContent'))
     ck(G, '出題内容へ飛ぶボタン', J('!!document.querySelector("#mpanel [data-trend]")'))
     ck(G, '情報の充実度の表示', J('!!document.querySelector("#mpanel .full")'), J('(document.querySelector("#mpanel .full")||{}).textContent'))
-    ck(G, '誤りを報告する欄', J('!!document.querySelector("#mpanel .rep")'))
+    ck(G, '誤りを報告する欄は出さない（先生の依頼で削除）', J('!document.querySelector("#mpanel .rep")'))
     J('document.getElementById("uclose").click()'); pg.wait_for_timeout(200)
     J('Searchuniv.selectUniv("東北大学")'); pg.wait_for_timeout(700)
     others = J('[...document.querySelectorAll("#labels .ulbl")].filter(t=>getComputedStyle(t).display!=="none"&&t.textContent!=="東北大学").length')
