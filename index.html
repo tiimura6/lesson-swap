@@ -1366,19 +1366,20 @@
     .ttg-seg button[aria-selected="true"] { background:#fff; box-shadow:0 1px 3px rgba(0,0,0,.14); }
     /* ===== 大学検索（Searchuniv を Shadow DOM で組み込み。中のCSSはここから影響を受けない） ===== */
     #viewUniv .univ-bar { display:flex; flex-wrap:wrap; align-items:center; gap:6px 8px; margin:2px 2px 8px; font-family:-apple-system, BlinkMacSystemFont, "Hiragino Sans", "Meiryo", sans-serif; }
-    #viewUniv .univ-ticker { flex:1; min-width:240px; display:flex; align-items:center; gap:8px; background:#fff; border-radius:10px; box-shadow:0 0 0 1px #e5e5ea; padding:5px 10px; overflow:hidden; font:0.8rem -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Meiryo", sans-serif; }
-    #viewUniv .univ-ticker[hidden] { display:none; }
-    #viewUniv .ut-h { flex-shrink:0; font-weight:700; color:#0071e3; }
-    #viewUniv .ut-vp { flex:1; overflow:hidden; white-space:nowrap; -webkit-mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent); mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent); }
-    #viewUniv .ut-track { display:inline-flex; animation:utscroll var(--ut-dur,120s) linear infinite; }
-    #viewUniv .univ-ticker:hover .ut-track { animation-play-state:paused; }
-    #viewUniv .ut-run { display:inline-flex; align-items:center; padding-right:2em; }
-    #viewUniv .ut-i { color:#1d1d1f; text-decoration:none; } #viewUniv .ut-i:hover { text-decoration:underline; }
-    #viewUniv .ut-i b { color:#0071e3; margin-right:3px; } #viewUniv .ut-i .imp { color:#c0392b; margin-right:2px; }
-    #viewUniv .ut-d { color:#6e6e73; font-size:0.72rem; margin-left:5px; } #viewUniv .ut-sep { color:#d2d2d7; margin:0 10px; }
+    #viewUniv .univ-sp { flex:1; }
+    #univTicker.univ-ticker { display:flex; margin:6px 0 8px; align-items:center; gap:8px; background:#fff; border-radius:10px; box-shadow:0 0 0 1px #e5e5ea; padding:5px 10px; overflow:hidden; font:0.8rem -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Meiryo", sans-serif; }
+    #univTicker.univ-ticker[hidden] { display:none; }
+    #univTicker .ut-h { flex-shrink:0; font-weight:700; color:#0071e3; }
+    #univTicker .ut-vp { flex:1; overflow:hidden; white-space:nowrap; -webkit-mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent); mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent); }
+    #univTicker .ut-track { display:inline-flex; animation:utscroll var(--ut-dur,120s) linear infinite; }
+    #univTicker.univ-ticker:hover .ut-track { animation-play-state:paused; }
+    #univTicker .ut-run { display:inline-flex; align-items:center; padding-right:2em; }
+    #univTicker .ut-i { color:#1d1d1f; text-decoration:none; } #univTicker .ut-i:hover { text-decoration:underline; }
+    #univTicker .ut-i b { color:#0071e3; margin-right:3px; } #univTicker .ut-i .imp { color:#c0392b; margin-right:2px; }
+    #univTicker .ut-d { color:#6e6e73; font-size:0.72rem; margin-left:5px; } #univTicker .ut-sep { color:#d2d2d7; margin:0 10px; }
     @keyframes utscroll { from { transform:translateX(0); } to { transform:translateX(-50%); } }
     /* 端末で「視差効果を減らす」設定でも、ニュースはゆっくり流す（先生の希望。全体の動きを止める設定より優先） */
-    @media (prefers-reduced-motion: reduce) { #viewUniv .ut-track { animation-duration:var(--ut-dur,120s) !important; animation-iteration-count:infinite !important; } }
+    @media (prefers-reduced-motion: reduce) { #univTicker .ut-track { animation-duration:var(--ut-dur,120s) !important; animation-iteration-count:infinite !important; } }
     #viewUniv .univ-seg { display:inline-flex; gap:2px; padding:3px; background:#ececf0; border-radius:10px; max-width:100%; overflow-x:auto; }
     #viewUniv .univ-seg button { border:none; background:transparent; border-radius:8px; padding:6px 14px; font:600 0.9rem -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Meiryo", sans-serif; color:#1d1d1f; white-space:nowrap; cursor:pointer; }
     #viewUniv .univ-seg button[aria-selected="true"] { background:#fff; box-shadow:0 1px 3px rgba(0,0,0,.14); }
@@ -1513,6 +1514,7 @@
       <button type="button" id="pinCancel" class="pin-cancel">キャンセル</button>
     </form>
   </div>
+  <div class="univ-ticker" id="univTicker" hidden><span class="ut-h">📰 大学の最新ニュース</span><div class="ut-vp"><div class="ut-track" id="univTickerTrack"></div></div></div>
   <nav id="viewTabs" role="tablist" aria-label="画面切り替え">
     <button type="button" role="tab" class="vtab active" data-view="home" aria-selected="true">🏠 ホーム</button>
     <button type="button" role="tab" class="vtab" data-view="swap" aria-selected="false">🔁 授業・時間割</button>
@@ -1927,7 +1929,7 @@
         <button type="button" role="tab" data-sub="plan" aria-selected="false">⚖ 大学比較<span class="univ-badge" hidden></span></button>
         <button type="button" role="tab" data-sub="trend" aria-selected="false">📚 出題内容</button>
       </div>
-      <div class="univ-ticker" id="univTicker" hidden><span class="ut-h">📰 最新ニュース</span><div class="ut-vp"><div class="ut-track" id="univTickerTrack"></div></div></div>
+      <span class="univ-sp"></span>
       <span class="tt-counter" data-key="univ">累計検索数 <b>…</b>回</span>
     </div>
     <div class="univ-msg" id="univMsg"><span class="spin"></span>読み込み中…</div>
@@ -12700,7 +12702,7 @@
     }
     window.addEventListener('storage', e => { if(e.key === K_CANDS) badge(); });
     badge();
-    // 最新ニュースを見出しの行に自動でゆっくり流す（新しい順15件・マウスを乗せると止まる）
+    // 大学の最新ニュースを、全体のタブの上に自動でゆっくり流す（どの画面でも表示）（新しい順15件・マウスを乗せると止まる）
     function ticker(){
       const box = document.getElementById('univTicker'), tr = document.getElementById('univTickerTrack'); if(!box || !tr) return;
       const esc = t => String(t == null ? '' : t).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -12710,7 +12712,7 @@
         tr.innerHTML = '<span class="ut-run">' + one + '</span><span class="ut-run" aria-hidden="true">' + one + '</span>';
         box.hidden = false;
         const setDur = () => { const w = tr.firstChild.getBoundingClientRect().width; if(w) tr.style.setProperty('--ut-dur', Math.max(40, Math.round(w / 35)) + 's'); };
-        requestAnimationFrame(setDur); window.addEventListener('tt:view', e => { if(SUB[e.detail]) requestAnimationFrame(setDur); });
+        requestAnimationFrame(setDur);
       }).catch(() => {});
     }
     ticker();
