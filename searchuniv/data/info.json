@@ -127231,7 +127231,7 @@ null
 3,
 5
 ],
-"note": "2027年度よりC方式（前期）に4教科型を新設"
+"note": "2027年度よりC方式（前期）に4教科型を導入"
 },
 "methods": {
 "year": "2027年度入試",
@@ -127243,7 +127243,7 @@ null
 "niji": "各方式指定科目",
 "content": null,
 "req": "F方式・K方式はA方式との併願が必要",
-"url": "https://law.meijo-u.ac.jp/guide/admission.html"
+"url": "https://www.meijo-u.ac.jp/admissions/assets/pdf/pamphlet/2027/guide2027.pdf"
 },
 {
 "kubun": "共テ利用",
@@ -127252,7 +127252,7 @@ null
 "niji": null,
 "content": null,
 "req": "個別試験なし",
-"url": "https://law.meijo-u.ac.jp/guide/admission.html"
+"url": "https://www.meijo-u.ac.jp/admissions/assets/pdf/pamphlet/2027/guide2027.pdf"
 }
 ]
 },
@@ -127261,38 +127261,65 @@ null
 "rows": [
 {
 "kubun": "一般",
-"name": "一般選抜（A・F・K方式）",
+"name": "3教科型 A方式",
 "apply": "12/17〜1/14",
-"exam": "2/1〜2/4",
+"exam": "2/1〜2/4（学部により異なる）",
 "result": "2/20",
-"proc": "1次2/26・2次3/10",
+"proc": "1次2/26・最終3/10（延納3/24）",
 "fee": null
 },
 {
 "kubun": "一般",
-"name": "一般選抜（B方式）",
+"name": "共通テストプラス型 F方式",
+"apply": "12/17〜1/14",
+"exam": "2/1〜2/4（A方式と併願）",
+"result": "2/20",
+"proc": "1次2/26・最終3/10（延納3/24）",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "傾斜配点型 K方式",
+"apply": "12/17〜1/14",
+"exam": "2/1〜2/4（A方式と併願）",
+"result": "2/20",
+"proc": "1次2/26・最終3/10（延納3/24）",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "数学重視型（スタンダード・英語外部試験利用）",
+"apply": "12/17〜1/14",
+"exam": "2/2〜2/3",
+"result": "2/20",
+"proc": "1次2/26・最終3/10（延納3/24）",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "2教科型 B方式（情報工・理工・薬は3教科/3科目型）",
 "apply": "12/17〜2/5",
 "exam": "2/21",
 "result": "3/6",
-"proc": "1次3/11・2次3/24",
+"proc": "1次3/11・最終3/24",
 "fee": null
 },
 {
 "kubun": "共テ利用",
-"name": "共通テスト利用型C方式（前期）",
+"name": "共通テスト利用型 C方式（前期）",
 "apply": "12/17〜1/14",
 "exam": "1/16・1/17（共テ）",
 "result": "2/20",
-"proc": "1次2/26・2次3/10",
+"proc": "1次2/26・最終3/10（延納3/24）",
 "fee": null
 },
 {
 "kubun": "共テ利用",
-"name": "共通テスト利用型C方式（後期）",
+"name": "共通テスト利用型 C方式（後期）",
 "apply": "2/12〜2/26",
 "exam": "1/16・1/17（共テ）",
 "result": "3/16",
-"proc": null,
+"proc": "3/24（一括）",
 "fee": null
 }
 ]
@@ -127302,71 +127329,71 @@ null
 "rows": [
 {
 "f": "法学部・経営学部・経済学部",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
+"admission": 200000,
+"tuition": 718000,
+"facility": 194000,
+"practical": 0,
+"other": 0,
 "first_year": 1112000,
-"four_year": null
+"four_year": 3848000
 },
 {
 "f": "人間学部",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
+"admission": 200000,
+"tuition": 730000,
+"facility": 247000,
+"practical": 0,
+"other": 0,
 "first_year": 1177000,
-"four_year": null
+"four_year": 4108000
 },
 {
 "f": "都市情報学部",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
+"admission": 200000,
+"tuition": 902000,
+"facility": 247000,
+"practical": 0,
+"other": 0,
 "first_year": 1349000,
 "four_year": null
 },
 {
 "f": "外国語学部",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
+"admission": 200000,
+"tuition": 945000,
+"facility": 247000,
+"practical": 0,
+"other": 0,
 "first_year": 1392000,
 "four_year": null
 },
 {
 "f": "情報工学部・理工学部",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
+"admission": 200000,
+"tuition": 1010000,
+"facility": 248000,
+"practical": 86000,
+"other": 0,
 "first_year": 1544000,
 "four_year": null
 },
 {
 "f": "農学部",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
+"admission": 200000,
+"tuition": 1008000,
+"facility": 291000,
+"practical": 86000,
+"other": 0,
 "first_year": 1585000,
 "four_year": null
 },
 {
 "f": "薬学部（6年制）",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
+"admission": 200000,
+"tuition": 1453000,
+"facility": 337000,
+"practical": 210000,
+"other": 0,
 "first_year": 2200000,
 "four_year": null
 }
@@ -127377,10 +127404,14 @@ null
 "_via": "external-ai",
 "sources": [
 "https://law.meijo-u.ac.jp/guide/admission.html",
-"https://www.meijo-u.ac.jp/admissions/pass/formalities.html",
 "https://manabi.benesse.ne.jp/daigaku/school/3549/gakuhi/",
 "https://passnavi.obunsha.co.jp/univ/3850/difficulty/",
-"https://search.keinet.ne.jp/2462/general/border_rate"
+"https://search.keinet.ne.jp/2462/general/border_rate",
+"https://search.keinet.ne.jp/2462/outline/expense",
+"https://www.meijo-u.ac.jp/admissions/assets/pdf/pamphlet/2027/guide2027.pdf",
+"https://www.meijo-u.ac.jp/admissions/kitare2027/",
+"https://www.meijo-u.ac.jp/admissions/pass/formalities.html",
+"https://www.meijo-u.ac.jp/campus/tuition/pdf/2025_.pdf"
 ]
 },
 "大同大学": {

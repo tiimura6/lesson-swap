@@ -1,0 +1,307 @@
+[
+ {
+  "name": "名城大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "愛知県名古屋市天白区",
+  "pref_name": "愛知県",
+  "city": "名古屋市天白区",
+  "hp": "https://www.meijo-u.ac.jp/",
+  "reading": "めいじょうだいがく",
+  "features": [
+   "法・経営・経済・外国語・人間・都市情報・情報工・理工・農・薬（6年制）の10学部を擁する東海地区最大級の総合大学。",
+   "2027年度一般選抜では文系5学部のA・F・K方式が4日間に拡大し、理系5学部を対象に「数学重視型」を新設。",
+   "共通テスト利用型C方式（前期）には4教科型が新設され、後期日程も実施。"
+  ],
+  "memo": "偏差値は45.0〜57.5、共テ得点率は56%〜77%（河合塾Kei-Net）。薬学部（6年制）の6年間学費総額は1,250万円（2025年度以降入学生）。",
+  "info": {
+   "faculties": [
+    "法学部",
+    "経営学部",
+    "経済学部",
+    "外国語学部",
+    "人間学部",
+    "都市情報学部",
+    "情報工学部",
+    "理工学部",
+    "農学部",
+    "薬学部"
+   ],
+   "departments": [
+    {
+     "f": "法学部",
+     "d": [
+      "法学科",
+      "応用実務法学科"
+     ]
+    },
+    {
+     "f": "経営学部",
+     "d": [
+      "経営学科",
+      "国際経営学科"
+     ]
+    },
+    {
+     "f": "経済学部",
+     "d": [
+      "経済学科",
+      "産業社会学科"
+     ]
+    },
+    {
+     "f": "外国語学部",
+     "d": [
+      "国際英語学科"
+     ]
+    },
+    {
+     "f": "人間学部",
+     "d": [
+      "人間学科"
+     ]
+    },
+    {
+     "f": "都市情報学部",
+     "d": [
+      "都市情報学科"
+     ]
+    },
+    {
+     "f": "情報工学部",
+     "d": [
+      "情報工学科"
+     ]
+    },
+    {
+     "f": "理工学部",
+     "d": [
+      "数学科",
+      "情報工学科",
+      "電気電子工学科",
+      "材料機能工学科",
+      "応用化学科",
+      "機械工学科",
+      "交通機械工学科",
+      "メカトロニクス工学科",
+      "社会基盤デザイン工学科",
+      "環境創造工学科",
+      "建築学科"
+     ]
+    },
+    {
+     "f": "農学部",
+     "d": [
+      "生物資源学科",
+      "応用生物化学科",
+      "生物環境科学科"
+     ]
+    },
+    {
+     "f": "薬学部",
+     "d": [
+      "薬学科（6年制）"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "45.0〜57.5",
+    "kyotei": "56%〜77%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "共通テスト利用型C方式（前期・後期）および共通テストプラス型F方式を実施",
+    "kyoka": [
+     3,
+     5
+    ],
+    "note": "2027年度よりC方式（前期）に4教科型を導入"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A方式・F方式・K方式・数学重視型・B方式）",
+      "kyotsu": "課さない（F方式は利用）",
+      "niji": "各方式指定科目",
+      "content": null,
+      "req": "F方式・K方式はA方式との併願が必要",
+      "url": "https://www.meijo-u.ac.jp/admissions/assets/pdf/pamphlet/2027/guide2027.pdf"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用型C方式（前期・後期）",
+      "kyotsu": "3〜5教科",
+      "niji": null,
+      "content": null,
+      "req": "個別試験なし",
+      "url": "https://www.meijo-u.ac.jp/admissions/assets/pdf/pamphlet/2027/guide2027.pdf"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "3教科型 A方式",
+      "apply": "12/17〜1/14",
+      "exam": "2/1〜2/4（学部により異なる）",
+      "result": "2/20",
+      "proc": "1次2/26・最終3/10（延納3/24）",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "共通テストプラス型 F方式",
+      "apply": "12/17〜1/14",
+      "exam": "2/1〜2/4（A方式と併願）",
+      "result": "2/20",
+      "proc": "1次2/26・最終3/10（延納3/24）",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "傾斜配点型 K方式",
+      "apply": "12/17〜1/14",
+      "exam": "2/1〜2/4（A方式と併願）",
+      "result": "2/20",
+      "proc": "1次2/26・最終3/10（延納3/24）",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "数学重視型（スタンダード・英語外部試験利用）",
+      "apply": "12/17〜1/14",
+      "exam": "2/2〜2/3",
+      "result": "2/20",
+      "proc": "1次2/26・最終3/10（延納3/24）",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "2教科型 B方式（情報工・理工・薬は3教科/3科目型）",
+      "apply": "12/17〜2/5",
+      "exam": "2/21",
+      "result": "3/6",
+      "proc": "1次3/11・最終3/24",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用型 C方式（前期）",
+      "apply": "12/17〜1/14",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/20",
+      "proc": "1次2/26・最終3/10（延納3/24）",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用型 C方式（後期）",
+      "apply": "2/12〜2/26",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/16",
+      "proc": "3/24（一括）",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "法学部・経営学部・経済学部",
+      "admission": 200000,
+      "tuition": 718000,
+      "facility": 194000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1112000,
+      "four_year": 3848000
+     },
+     {
+      "f": "人間学部",
+      "admission": 200000,
+      "tuition": 730000,
+      "facility": 247000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1177000,
+      "four_year": 4108000
+     },
+     {
+      "f": "都市情報学部",
+      "admission": 200000,
+      "tuition": 902000,
+      "facility": 247000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1349000,
+      "four_year": null
+     },
+     {
+      "f": "外国語学部",
+      "admission": 200000,
+      "tuition": 945000,
+      "facility": 247000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1392000,
+      "four_year": null
+     },
+     {
+      "f": "情報工学部・理工学部",
+      "admission": 200000,
+      "tuition": 1010000,
+      "facility": 248000,
+      "practical": 86000,
+      "other": 0,
+      "first_year": 1544000,
+      "four_year": null
+     },
+     {
+      "f": "農学部",
+      "admission": 200000,
+      "tuition": 1008000,
+      "facility": 291000,
+      "practical": 86000,
+      "other": 0,
+      "first_year": 1585000,
+      "four_year": null
+     },
+     {
+      "f": "薬学部（6年制）",
+      "admission": 200000,
+      "tuition": 1453000,
+      "facility": 337000,
+      "practical": 210000,
+      "other": 0,
+      "first_year": 2200000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "天白キャンパス（名古屋市天白区塩釜口1-501）・八事キャンパス・ナゴヤドーム前キャンパス",
+   "careers": "一般企業、公務員、メーカー、IT・情報通信、建設・建築士、薬剤師など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.meijo-u.ac.jp/admissions/assets/pdf/pamphlet/2027/guide2027.pdf",
+    "https://www.meijo-u.ac.jp/admissions/kitare2027/",
+    "https://www.meijo-u.ac.jp/admissions/pass/formalities.html",
+    "https://www.meijo-u.ac.jp/campus/tuition/pdf/2025_.pdf",
+    "https://search.keinet.ne.jp/2462/outline/expense",
+    "https://search.keinet.ne.jp/2462/general/border_rate"
+   ]
+  },
+  "sources": [
+   "https://www.meijo-u.ac.jp/admissions/assets/pdf/pamphlet/2027/guide2027.pdf",
+   "https://www.meijo-u.ac.jp/admissions/kitare2027/",
+   "https://www.meijo-u.ac.jp/admissions/pass/formalities.html",
+   "https://www.meijo-u.ac.jp/campus/tuition/pdf/2025_.pdf",
+   "https://search.keinet.ne.jp/2462/outline/expense",
+   "https://search.keinet.ne.jp/2462/general/border_rate"
+  ]
+ }
+]
