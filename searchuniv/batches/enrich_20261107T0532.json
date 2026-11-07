@@ -1,0 +1,183 @@
+[
+ {
+  "name": "東京大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "前期日程",
+      "apply": "1/25〜2/3",
+      "exam": "2/25・2/26",
+      "result": "3/10",
+      "proc": "",
+      "note": "第1段階選抜合格者発表2/10。理科三類は2/27に面接。後期日程なし。入学手続締切・検定料は選抜要項に記載なし（募集要項で確認）"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜",
+      "apply": "〜11/6登",
+      "exam": "12/12",
+      "result": "2/10",
+      "proc": "2/17",
+      "note": "Kei-Net表記どおり（出願は締切日のみ）。1次（書類）発表12/1、2次で共通テストを課す。文学部の2次は12/12・12/13、工学部は12/12・12/13（指定日）。"
+     }
+    ]
+   },
+   "sources": [
+    "https://www.u-tokyo.ac.jp/content/400243934.pdf"
+   ]
+  }
+ },
+ {
+  "name": "京都大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "前期日程",
+      "apply": "1/25〜2/3",
+      "exam": "2/25〜2/27",
+      "result": "3/10",
+      "proc": "",
+      "note": "第1段階選抜合格者発表2/10。2/27は医学部医学科の面接のみ。学部により試験日が異なる。後期日程なし。入学手続締切・検定料は選抜要項に記載なし"
+     }
+    ]
+   },
+   "sources": [
+    "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/senbatsuyokoR9_all-22d87b752c22c5b9d7bcb8ef94505625.pdf"
+   ]
+  }
+ },
+ {
+  "name": "大阪大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "前期日程",
+      "apply": "1/25〜2/3",
+      "exam": "2/25・2/26",
+      "result": "3/9",
+      "proc": "",
+      "note": "Web出願登録1/22〜2/2、出願書類受理1/25〜2/3。第1段階選抜発表2/10。2/26は医学科・歯学部（面接）、薬学部（小論文・面接）のみ。後期日程なし。入学手続締切・検定料は選抜要項に記載なし"
+     }
+    ]
+   },
+   "sources": [
+    "https://www.osaka-u.ac.jp/ja/admissions/faculty/general/files/R9_senbatsuyoukou.pdf/@@download/file"
+   ]
+  }
+ },
+ {
+  "name": "名古屋大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "前期日程",
+      "apply": "1/22〜2/2",
+      "exam": "2/25・2/26",
+      "result": "3/10",
+      "proc": "3/15",
+      "note": "出願はインターネット出願登録・検定料納入の期間。医学部医学科は2/27に面接"
+     },
+     {
+      "kubun": "一般",
+      "name": "後期日程（医学部医学科のみ）",
+      "apply": "1/25〜2/3",
+      "exam": "3/12",
+      "result": "3/20",
+      "proc": "3/27",
+      "note": "後期は医学部医学科のみ実施"
+     }
+    ]
+   },
+   "sources": [
+    "https://www.nagoya-u.ac.jp/admissions/exam/upload/r9_senbatsuyoko.pdf"
+   ]
+  }
+ },
+ {
+  "name": "北海道大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "前期日程",
+      "apply": "1/25〜2/3",
+      "exam": "2/25",
+      "result": "3/8",
+      "proc": "3/15",
+      "fee": 17000,
+      "note": "第1段階選抜結果発表2/9。医学部医学科・歯学部は2/26まで。入学手続期間3/8〜3/15"
+     },
+     {
+      "kubun": "一般",
+      "name": "後期日程",
+      "apply": "1/25〜2/3",
+      "exam": "3/12",
+      "result": "3/20",
+      "proc": "3/27",
+      "fee": 17000,
+      "note": "第1段階選抜結果発表2/26。医学部・歯学部は後期なし（文・教育・法・経済・理・薬・工・農・獣医・水産で実施）"
+     }
+    ]
+   },
+   "sources": [
+    "https://www.hokudai.ac.jp/admission/R09_admission.pdf"
+   ]
+  }
+ },
+ {
+  "name": "一橋大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "前期日程",
+      "apply": "1/25〜2/3",
+      "exam": "2/25・2/26",
+      "result": "3/10",
+      "proc": "3/15",
+      "fee": 17000,
+      "note": "第1段階選抜合格者発表2/10。検定料のほかサービス利用料700円"
+     },
+     {
+      "kubun": "一般",
+      "name": "後期日程",
+      "apply": "1/25〜2/3",
+      "exam": "3/12",
+      "result": "3/23",
+      "proc": "3/27",
+      "fee": 17000,
+      "note": "経済学部・ソーシャル・データサイエンス学部のみ。第1段階選抜合格者発表2/22"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（共テあり）",
+      "apply": "〜1/29着",
+      "exam": "2/8",
+      "result": "2/10",
+      "proc": "2/18",
+      "note": "Kei-Net表記（出願は締切日のみ、必着）。1次（共通テスト）発表2/5、2次試験2/8。全5学部同一日程。"
+     }
+    ]
+   },
+   "sources": [
+    "https://juken.hit-u.ac.jp/admission/info/guidelines/files/R9ippan_youkou.pdf"
+   ]
+  }
+ }
+]

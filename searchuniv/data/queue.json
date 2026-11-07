@@ -1,55 +1,6 @@
 {
  "add": [
   {
-   "name": "青森公立大学",
-   "type": "公立",
-   "pref": "青森県",
-   "hp": "http://www.nebuta.ac.jp/",
-   "cat": "public"
-  },
-  {
-   "name": "青森県立保健大学",
-   "type": "公立",
-   "pref": "青森県",
-   "hp": "http://www.auhw.ac.jp/",
-   "cat": "public"
-  },
-  {
-   "name": "三条市立大学",
-   "type": "公立",
-   "pref": "新潟県",
-   "hp": "https://www.sanjo-u.ac.jp/",
-   "cat": "public"
-  },
-  {
-   "name": "公立小松大学",
-   "type": "公立",
-   "pref": "石川県",
-   "hp": "https://www.komatsu-u.ac.jp/",
-   "cat": "public"
-  },
-  {
-   "name": "公立諏訪東京理科大学",
-   "type": "公立",
-   "pref": "長野県",
-   "hp": "https://www.sus.ac.jp/",
-   "cat": "public"
-  },
-  {
-   "name": "名古屋市立大学",
-   "type": "公立",
-   "pref": "愛知県",
-   "hp": "http://www.nagoya-cu.ac.jp/",
-   "cat": "public"
-  },
-  {
-   "name": "富山県立大学",
-   "type": "公立",
-   "pref": "富山県",
-   "hp": "http://www.pu-toyama.ac.jp/",
-   "cat": "public"
-  },
-  {
    "name": "山梨県立大学",
    "type": "公立",
    "pref": "山梨県",
@@ -4842,6 +4793,76 @@
   {
    "name": "北海道大学",
    "op": "enrich"
+  },
+  {
+   "name": "青森公立大学",
+   "op": "add"
+  },
+  {
+   "name": "青森県立保健大学",
+   "op": "add"
+  },
+  {
+   "name": "三条市立大学",
+   "op": "add"
+  },
+  {
+   "name": "公立小松大学",
+   "op": "add"
+  },
+  {
+   "name": "公立諏訪東京理科大学",
+   "op": "add"
+  },
+  {
+   "name": "名古屋市立大学",
+   "op": "add"
+  },
+  {
+   "name": "富山県立大学",
+   "op": "add"
+  },
+  {
+   "name": "東京大学",
+   "op": "enrich",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "京都大学",
+   "op": "enrich",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "大阪大学",
+   "op": "enrich",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "名古屋大学",
+   "op": "enrich",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "北海道大学",
+   "op": "enrich",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "一橋大学",
+   "op": "enrich",
+   "need": [
+    "schedule_dates"
+   ]
   }
  ],
  "failed": [],
@@ -4864,65 +4885,11 @@
   "札幌市立大学": 1,
   "東北公益文科大学": 1,
   "東北農林専門職大学": 1,
-  "秋田公立美術大学": 1
+  "秋田公立美術大学": 1,
+  "東北大学": 1,
+  "九州大学": 1
  },
  "enrich": [
-  {
-   "name": "東京大学",
-   "keinet": "1120",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "京都大学",
-   "keinet": "1280",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "大阪大学",
-   "keinet": "1295",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "東北大学",
-   "keinet": "1050",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "名古屋大学",
-   "keinet": "1250",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "九州大学",
-   "keinet": "1405",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "北海道大学",
-   "keinet": "1025",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "一橋大学",
-   "keinet": "1165",
-   "need": [
-    "schedule_dates"
-   ]
-  },
   {
    "name": "東京科学大学",
    "keinet": "1150",
@@ -14689,6 +14656,76 @@
    "keinet": "1340",
    "need": [
     "method_urls"
+   ]
+  },
+  {
+   "name": "東北大学",
+   "keinet": "1050",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "九州大学",
+   "keinet": "1405",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "青森公立大学",
+   "keinet": "1513",
+   "need": [
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "青森県立保健大学",
+   "keinet": "1516",
+   "need": [
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "三条市立大学",
+   "keinet": "1551",
+   "need": [
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "公立小松大学",
+   "keinet": "1548",
+   "need": [
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "公立諏訪東京理科大学",
+   "keinet": "1567",
+   "need": [
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "名古屋市立大学",
+   "keinet": "1585",
+   "need": [
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "富山県立大学",
+   "keinet": "1545",
+   "need": [
+    "extra",
+    "partners"
    ]
   }
  ],
