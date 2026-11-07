@@ -1,20 +1,6 @@
 {
  "add": [
   {
-   "name": "福岡女子大学",
-   "type": "公立",
-   "pref": "福岡県",
-   "hp": "http://www.fwu.ac.jp/",
-   "cat": "public"
-  },
-  {
-   "name": "福岡県立大学",
-   "type": "公立",
-   "pref": "福岡県",
-   "hp": "http://www.fukuoka-pu.ac.jp/",
-   "cat": "public"
-  },
-  {
    "name": "長崎県立大学",
    "type": "公立",
    "pref": "長崎県",
@@ -3413,6 +3399,68 @@
    "need": [
     "schedule_dates"
    ]
+  },
+  {
+   "name": "獨協大学",
+   "keinet": "2156",
+   "passnavi": 2050,
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "芝浦工業大学",
+   "keinet": "2219",
+   "passnavi": 2450,
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "東京都市大学",
+   "keinet": "2282",
+   "passnavi": 3080,
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "東京電機大学",
+   "keinet": "2259",
+   "passnavi": 2850,
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "法政大学",
+   "keinet": "2279",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "関西大学",
+   "keinet": "2533",
+   "passnavi": 4240,
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "西南学院大学",
+   "keinet": "2705",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "成城大学",
+   "keinet": "2229",
+   "passnavi": 2550,
+   "need": [
+    "fees"
+   ]
   }
  ],
  "failed": [],
@@ -5793,14 +5841,6 @@
    ]
   },
   {
-   "name": "獨協大学",
-   "keinet": "2156",
-   "passnavi": 2050,
-   "need": [
-    "fees"
-   ]
-  },
-  {
    "name": "駒澤大学",
    "keinet": "2216",
    "passnavi": 2430,
@@ -5812,30 +5852,6 @@
    "name": "専修大学",
    "keinet": "2233",
    "passnavi": 2590,
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "芝浦工業大学",
-   "keinet": "2219",
-   "passnavi": 2450,
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "東京都市大学",
-   "keinet": "2282",
-   "passnavi": 3080,
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "東京電機大学",
-   "keinet": "2259",
-   "passnavi": 2850,
    "need": [
     "fees"
    ]
@@ -23232,13 +23248,6 @@
    ]
   },
   {
-   "name": "法政大学",
-   "keinet": "2279",
-   "need": [
-    "fees"
-   ]
-  },
-  {
    "name": "沖縄県立芸術大学",
    "keinet": "1705",
    "need": [
@@ -23269,34 +23278,27 @@
    ]
   },
   {
-   "name": "関西大学",
-   "keinet": "2533",
-   "passnavi": 4240,
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "西南学院大学",
-   "keinet": "2705",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "成城大学",
-   "keinet": "2229",
-   "passnavi": 2550,
-   "need": [
-    "fees"
-   ]
-  },
-  {
    "name": "成城大学",
    "keinet": "2229",
    "passnavi": 2550,
    "need": [
     "schedule_dates"
+   ]
+  },
+  {
+   "name": "福岡女子大学",
+   "keinet": "1690",
+   "need": [
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "福岡県立大学",
+   "keinet": "1685",
+   "need": [
+    "extra",
+    "partners"
    ]
   }
  ],
