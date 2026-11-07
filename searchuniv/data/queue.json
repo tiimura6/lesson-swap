@@ -2507,41 +2507,6 @@
 "cat": "private"
 },
 {
-"name": "金城大学",
-"type": "私立",
-"pref": "石川県",
-"hp": "https://www.kinjo.ac.jp/ku/",
-"cat": "private"
-},
-{
-"name": "金城学院大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.kinjo-u.ac.jp/pc/index.html",
-"cat": "private"
-},
-{
-"name": "金沢医科大学",
-"type": "私立",
-"pref": "石川県",
-"hp": "https://www.kanazawa-med.ac.jp/",
-"cat": "private"
-},
-{
-"name": "金沢学院大学",
-"type": "私立",
-"pref": "石川県",
-"hp": "https://www.kanazawa-gu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "金沢工業大学",
-"type": "私立",
-"pref": "石川県",
-"hp": "https://www.kanazawa-it.ac.jp/",
-"cat": "private"
-},
-{
 "name": "金沢星稜大学",
 "type": "私立",
 "pref": "石川県",
@@ -3339,6 +3304,36 @@
 "長野県立大学": 1
 },
 "enrich": [
+{
+"name": "金城大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "金城学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "金沢医科大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "金沢学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "金沢工業大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "びわこ学院大学",
 "need": [
@@ -20995,6 +20990,126 @@
 },
 {
 "name": "京都光華女子大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "金城大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "金城大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "金城大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "金城大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "金城学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "金城学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "金城学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "金城学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "金沢医科大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "金沢医科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "金沢医科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "金沢医科大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "金沢学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "金沢学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "金沢学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "金沢学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "金沢工業大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "金沢工業大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "金沢工業大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "金沢工業大学",
 "need": [
 "scholar"
 ]
