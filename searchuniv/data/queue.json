@@ -2178,41 +2178,6 @@
 "cat": "private"
 },
 {
-"name": "愛知文教大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.abu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "愛知東邦大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.aichi-toho.ac.jp/",
-"cat": "private"
-},
-{
-"name": "愛知淑徳大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.aasa.ac.jp/",
-"cat": "private"
-},
-{
-"name": "愛知産業大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.asu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "敬和学園大学",
-"type": "私立",
-"pref": "新潟県",
-"hp": "https://www.keiwa-c.ac.jp/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -3117,6 +3082,30 @@
 "高岡法科大学": 1
 },
 "enrich": [
+{
+"name": "愛知東邦大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "愛知淑徳大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "愛知産業大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "敬和学園大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "愛知大学",
 "need": [
@@ -22057,6 +22046,102 @@
 "need": [
 "scholar"
 ]
+},
+{
+"name": "愛知東邦大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "愛知東邦大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "愛知東邦大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "愛知東邦大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "愛知淑徳大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "愛知淑徳大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "愛知淑徳大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "愛知淑徳大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "愛知産業大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "愛知産業大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "愛知産業大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "愛知産業大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "敬和学園大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "敬和学園大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "敬和学園大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "敬和学園大学",
+"need": [
+"scholar"
+]
 }
 ],
 "complete": true,
@@ -22108,6 +22193,10 @@
 {
 "name": "愛知工科大学",
 "reason": "2027年度以降の学生募集を停止（大学のFAQ・改善報告書で確認）"
+},
+{
+"name": "愛知文教大学",
+"reason": "2027年度以降の学生募集を停止（進学情報サイト2件で確認）"
 }
 ]
 }

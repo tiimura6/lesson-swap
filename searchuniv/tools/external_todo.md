@@ -418,7 +418,7 @@
 - 愛知学院大学（私立・愛知県）公式サイト：https://www.agu.ac.jp/
 - 愛知工業大学（私立・愛知県）公式サイト：https://www.ait.ac.jp/index.html
 - ※愛知工科大学：2027年度から募集停止（頼まない）
-- 愛知文教大学（私立・愛知県）公式サイト：https://www.abu.ac.jp/
+- ※愛知文教大学：2027年度から募集停止（頼まない）
 - 愛知東邦大学（私立・愛知県）公式サイト：https://www.aichi-toho.ac.jp/
 - 愛知淑徳大学（私立・愛知県）公式サイト：https://www.aasa.ac.jp/
 - 愛知産業大学（私立・愛知県）公式サイト：https://www.asu.ac.jp/
