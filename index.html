@@ -1336,22 +1336,13 @@
     #viewExam .ap-head .tt-counter { margin-left:auto; }
     #classTtControls .tt-counter { margin-left:auto; }
 
-    /* ===== 大学検索 ===== */
+    /* ===== 大学検索（Searchuniv を Shadow DOM で組み込み。中のCSSはここから影響を受けない） ===== */
     #viewUniv .univ-bar { display:flex; flex-wrap:wrap; align-items:center; gap:6px 8px; margin:2px 2px 8px; font-family:-apple-system, BlinkMacSystemFont, "Hiragino Sans", "Meiryo", sans-serif; }
     #viewUniv .univ-title { font-size:1.1rem; font-weight:700; margin-right:auto; }
-    #viewUniv .univ-link { border:none; cursor:pointer; font-family:inherit; font-size:0.85rem; font-weight:600; color:#0071e3; text-decoration:none; background:#f2f2f7; border-radius:980px; padding:6px 14px; }
-    #viewUniv .univ-link:hover { background:#e8e8ed; }
-    #viewUniv .univ-frame-wrap { position:relative; border-radius:16px; overflow:hidden; box-shadow:0 0 0 1px #e5e5ea, 0 4px 16px rgba(0,0,0,.05); background:#fff; }
-    #viewUniv iframe { display:block; width:100%; height:calc(100vh - 190px); min-height:420px; border:0; }
-    #viewUniv .univ-fs { background:#1d1d1f; color:#fff; }
-    #viewUniv .univ-fs:hover { background:#000; }
-    #viewUniv .univ-frame-wrap:fullscreen, #viewUniv .univ-frame-wrap.univ-max { border-radius:0; box-shadow:none; }
-    #viewUniv .univ-frame-wrap.univ-max { position:fixed; inset:0; z-index:9000; }
-    #viewUniv .univ-frame-wrap:fullscreen iframe, #viewUniv .univ-frame-wrap.univ-max iframe { height:100% !important; min-height:0; }
-    #viewUniv .univ-close { display:none; position:absolute; top:8px; right:10px; z-index:2; border:none; border-radius:980px; padding:7px 14px; font:600 0.85rem -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif; background:rgba(29,29,31,.82); color:#fff; cursor:pointer; backdrop-filter:blur(8px); }
-    #viewUniv .univ-frame-wrap:fullscreen .univ-close, #viewUniv .univ-frame-wrap.univ-max .univ-close { display:block; }
+    #viewUniv .univ-msg { display:flex; align-items:center; justify-content:center; gap:8px; min-height:240px; color:#6e6e73; background:#fff; border-radius:16px; box-shadow:0 0 0 1px #e5e5ea; padding:20px; text-align:center; flex-wrap:wrap; }
+    #viewUniv .univ-msg[hidden] { display:none; }
+    #viewUniv .univ-msg button, #viewUniv .univ-msg a { border:none; cursor:pointer; font:600 0.85rem -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif; color:#0071e3; background:#f2f2f7; border-radius:980px; padding:6px 14px; text-decoration:none; }
     .vtab .univ-badge { display:inline-block; min-width:18px; margin-left:5px; padding:0 5px; border-radius:980px; background:#0071e3; color:#fff; font-size:0.72rem; font-weight:700; line-height:18px; text-align:center; }
-    #viewUniv .univ-loading { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:#6e6e73; background:#fff; pointer-events:none; }
 </style>
 
   <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
@@ -1482,6 +1473,9 @@
     <button type="button" role="tab" class="vtab" data-view="swap" aria-selected="false">🔁 授業交換</button>
     <button type="button" role="tab" class="vtab" data-view="class" aria-selected="false">📋 クラス別時間割</button>
     <button type="button" role="tab" class="vtab" data-view="univ" aria-selected="false">🎓 大学検索</button>
+    <button type="button" role="tab" class="vtab" data-view="univ-ai" aria-selected="false">🗣 進路面談</button>
+    <button type="button" role="tab" class="vtab" data-view="univ-plan" aria-selected="false">⚖ 大学比較</button>
+    <button type="button" role="tab" class="vtab" data-view="univ-trend" aria-selected="false">📚 出題内容</button>
     <button type="button" role="tab" class="vtab" data-view="clean" aria-selected="false">🧹 清掃当番作成</button>
     <button type="button" role="tab" class="vtab" data-view="exam" aria-selected="false">📝 試験監督割当</button>
   </nav>
@@ -1876,11 +1870,11 @@
 
   <div id="viewUniv" class="view hidden">
     <div class="univ-bar">
-      <span class="univ-title">🎓 大学検索</span>
+      <span class="univ-title" id="univTitle">🎓 大学検索</span>
       <span class="tt-counter" data-key="univ">累計検索数 <b>…</b>回</span>
-      <button type="button" id="univFs" class="univ-link univ-fs" title="大きな画面で表示（Escで戻る）">⤢ 全画面</button>
     </div>
-    <div class="univ-frame-wrap" id="univWrap"><button type="button" class="univ-close" id="univClose">✕ 全画面を閉じる</button><div class="univ-loading" id="univLoading"><span class="spin"></span>読み込み中…</div><iframe id="univFrame" title="大学検索（Searchuniv）" loading="lazy"></iframe></div>
+    <div class="univ-msg" id="univMsg"><span class="spin"></span>読み込み中…</div>
+    <div id="univHost"></div>
   </div><!-- /viewUniv -->
 
   <hr class="hr" />
@@ -1893,7 +1887,7 @@
   // ===== 画面（タブ）切り替え =====
   (function(){
     const tabs = Array.from(document.querySelectorAll('#viewTabs .vtab'));
-    const views = { home: 'viewHome', swap: 'viewSwap', 'class': 'viewClass', clean: 'viewClean', exam: 'viewExam', univ: 'viewUniv' };
+    const views = { home: 'viewHome', swap: 'viewSwap', 'class': 'viewClass', clean: 'viewClean', exam: 'viewExam', univ: 'viewUniv', 'univ-ai': 'viewUniv', 'univ-plan': 'viewUniv', 'univ-trend': 'viewUniv' };
     // カレンダーは1つだけ。ホームでは「カレンダー（左）＋その日の予定と時間割（右）」を大きく、
     // 授業交換タブでは従来どおり右上に小さく表示（印刷の実施日指定に使うため）
     function placeCalendar(name){
@@ -1914,12 +1908,13 @@
       if(!views[name]) name = 'home';
       tabs.forEach(t => { const on = t.dataset.view === name; t.classList.toggle('active', on); t.setAttribute('aria-selected', String(on)); });
       placeCalendar(name);
-      Object.keys(views).forEach(k => document.getElementById(views[k]).classList.toggle('hidden', k !== name));
+      new Set(Object.values(views)).forEach(id => document.getElementById(id).classList.toggle('hidden', id !== views[name]));
       const shown = document.getElementById(views[name]);
       if(shown && !firstShow){ shown.classList.remove('view-enter'); void shown.offsetWidth; shown.classList.add('view-enter'); clearTimeout(shown.__enterT); shown.__enterT = setTimeout(() => shown.classList.remove('view-enter'), 900); }
       const tip = document.getElementById('teacherTimetableTooltip'); if(tip) tip.classList.add('hidden');
       firstShow = false;
       if(push){ try{ history.replaceState(null, '', name === 'home' ? location.pathname + location.search : '#' + name); }catch(e){} }
+      try { window.dispatchEvent(new CustomEvent('tt:view', { detail: name })); } catch(e){}
     }
     tabs.forEach(t => t.addEventListener('click', () => show(t.dataset.view, true)));
     show((location.hash || '').replace('#',''), false);
@@ -12477,123 +12472,93 @@
   })();
   </script>
   <script>
-  // ===== 大学検索タブ（Searchuniv を埋め込み） =====
+  // ===== 大学検索・進路面談・大学比較・出題内容（Searchuniv を直接組み込み） =====
+  // Searchuniv 本体はこのリポジトリの searchuniv/ フォルダ（su-module.js は searchuniv/tools/build.py が自動生成）。タブを開いたときに読み込む。
+  // 不具合を防ぐ仕組み：Shadow DOM でCSS・IDを分離／URL(#)を使わない／apiVersion の確認／読み込み失敗・時間切れ時は再試行ボタン／エラーは操作ログへ
   (function(){
-    const PAGES = /^https?:$/.test(location.protocol) && !/github\.io$/.test(location.hostname) && !/^(localhost|127\.0\.0\.1)$/.test(location.hostname) ? 'https://tiimura6.github.io/searchuniv/' : (/^https?:$/.test(location.protocol) ? new URL('../searchuniv/', location.href).href : 'https://tiimura6.github.io/searchuniv/');
+    const API_VERSION = 1;
+    const SUB = { univ: 'map', 'univ-ai': 'ai', 'univ-plan': 'plan', 'univ-trend': 'trend' };
+    const TAB = { map: 'univ', ai: 'univ-ai', plan: 'univ-plan', trend: 'univ-trend' };
+    const TITLE = { map: '🎓 大学検索', ai: '🗣 進路面談', plan: '⚖ 大学比較', trend: '📚 出題内容' };
+    const BASE = /^https?:$/.test(location.protocol) ? new URL('searchuniv/', location.href).href : 'https://tiimura6.github.io/lesson-swap/searchuniv/';
     const K_CANDS = 'searchuniv:cands';
-    const fr = document.getElementById('univFrame'), ld = document.getElementById('univLoading');
-    const wrap = document.getElementById('univWrap'), fsBtn = document.getElementById('univFs'), view = document.getElementById('viewUniv');
-    // 埋め込み時だけ Searchuniv の見た目を飯村システムに合わせる（同じドメインなので外から整える。Searchuniv 本体は変更しない）
-    const EMBED_CSS = `
-      html.ttEmbed{color-scheme:light;--bg:#f5f5f7;--panel:#fff;--ink:#1d1d1f;--muted:#6e6e73;--line:#e5e5ea;--accent:#0071e3;--accent-soft:#e8f1fc}
-      html.ttEmbed body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Meiryo",sans-serif;-webkit-font-smoothing:antialiased}
-      html.ttEmbed header{position:sticky;top:0;z-index:500;max-width:none!important;margin:0;padding:8px 12px;display:flex;justify-content:center;background:rgba(255,255,255,.86);-webkit-backdrop-filter:saturate(180%) blur(14px);backdrop-filter:saturate(180%) blur(14px);border-bottom:1px solid #e5e5ea}
-      html.ttEmbed header h1,html.ttEmbed header .sub{display:none}
-      html.ttEmbed .tabs{margin:0;display:inline-flex;gap:2px;padding:3px;background:#ececf0;border-radius:10px;max-width:100%;overflow-x:auto}
-      html.ttEmbed .tabs a{border:none;background:transparent;border-radius:8px;padding:6px 16px;font-weight:600;color:#1d1d1f;white-space:nowrap}
-      html.ttEmbed .tabs a.on{background:#fff;color:#1d1d1f!important;box-shadow:0 1px 3px rgba(0,0,0,.14)}
-      html.ttEmbed main{padding-top:6px}
-      @media (min-width:861px){ html.ttEmbed .sleft{max-height:calc(100vh - 70px)} }
-      html.ttEmbed .sleft > *{order:3}
-      html.ttEmbed .sleft > .sbar{order:0}
-      html.ttEmbed .sleft > .mcount{order:1}
-      html.ttEmbed .sleft > .mresults{order:2; flex-shrink:0; margin-bottom:6px}
-      html.ttEmbed .mresults:empty{display:none}
-      html.ttEmbed .sright{top:60px}
-      html.ttEmbed button.btn,html.ttEmbed select,html.ttEmbed input[type=search]{border-radius:10px}
-      html.ttEmbed .uov{z-index:700}`;
-    function inject(){
-      let d = null; try { d = fr.contentDocument; } catch(e){}
-      if(!d || !d.documentElement || d.getElementById('ttEmbedCss')) return;
-      d.documentElement.classList.add('ttEmbed');
-      const st = d.createElement('style'); st.id = 'ttEmbedCss'; st.textContent = EMBED_CSS;
-      (d.head || d.documentElement).appendChild(st);
-      watchSearch(d);
+    const host = document.getElementById('univHost'), msg = document.getElementById('univMsg'), title = document.getElementById('univTitle');
+    let api = null, loading = null, want = 'map';
+    const log = (a, d) => { try { if(window.ttLog) window.ttLog(a, d); } catch(e){} };
+
+    function showErr(e){
+      msg.hidden = false;
+      msg.innerHTML = '大学検索を読み込めませんでした（' + String(e && e.message || e).replace(/[<>&]/g, '') + '）。<button type="button" id="univRetry">もう一度読み込む</button><a href="' + BASE + '" target="_blank" rel="noopener">別のタブで開く</a>';
+      document.getElementById('univRetry').onclick = () => { msg.innerHTML = '<span class="spin"></span>読み込み中…'; load().catch(() => {}); };
+      log('大学検索エラー', String(e && e.message || e).slice(0, 80));
     }
-    // 累計検索数：検索欄に入力して1.5秒止まったら1回（同じ言葉は数えない）
-    function watchSearch(d){
-      let last = '', tm = null;
-      const hit = v => { v = String(v || '').trim(); if(!v || v === last) return; last = v; if(window.ttCount) window.ttCount('univ'); if(window.ttLog) window.ttLog('大学検索', v.slice(0, 40)); };
-      ['mq', 'q'].forEach(id => {
-        const el = d.getElementById(id); if(!el) return;
-        el.addEventListener('input', () => { clearTimeout(tm); tm = setTimeout(() => hit(el.value), 1500); });
-        el.addEventListener('keydown', e => { if(e.key === 'Enter' && !e.isComposing){ clearTimeout(tm); hit(el.value); } });
+    function addScript(){
+      return new Promise((res, rej) => {
+        if(window.SearchunivModule) return res();
+        const sc = document.createElement('script');
+        sc.src = BASE + 'su-module.js?h=' + Math.floor(Date.now() / 36e5);   // 1時間ごとに最新を取りに行く
+        sc.onload = res; sc.onerror = () => { sc.remove(); rej(new Error('ファイルを取得できない')); };
+        document.head.appendChild(sc);
+        setTimeout(() => rej(new Error('時間切れ')), 25000);
       });
     }
-    // ===== Searchuniv との連携（同じサイトなので window.Searchuniv を直接呼べる）=====
-    const tabBtn = document.querySelector('#viewTabs [data-view=univ]');
+    function load(){
+      if(api) return Promise.resolve(api);
+      if(loading) return loading;
+      loading = addScript().then(() => {
+        const M = window.SearchunivModule;
+        if(!M || M.apiVersion !== API_VERSION) throw new Error('版が合わない（' + (M && M.apiVersion) + '）');
+        api = M.mount(host, { base: BASE, theme: 'iimura', view: want, onView: syncTab, onError: e => log('大学検索エラー', String(e).slice(0, 80)) });
+        msg.hidden = true; bind(); return api;
+      }).catch(e => { loading = null; api = null; showErr(e); throw e; });
+      return loading;
+    }
+    // Searchuniv の中で画面が変わったら（例：「出題内容」ボタン）、上のタブも合わせる
+    function syncTab(v){
+      title.textContent = TITLE[v] || TITLE.map;
+      const t = document.querySelector('#viewTabs [data-view="' + (TAB[v] || 'univ') + '"]');
+      if(t && t.getAttribute('aria-selected') !== 'true') t.click();
+    }
+    window.addEventListener('tt:view', e => {
+      const v = SUB[e.detail]; if(!v) return;
+      want = v; title.textContent = TITLE[v];
+      load().then(a => { if(a.view() !== v) a.showView(v); }).catch(() => {});
+    });
+    // 比較候補の件数を「大学比較」タブに表示（保存場所は Searchuniv と共通）
+    const planTab = document.querySelector('#viewTabs [data-view="univ-plan"]');
     function cands(){ try { return JSON.parse(localStorage.getItem(K_CANDS) || '[]'); } catch(e){ return []; } }
     function badge(){
-      if(!tabBtn) return; let b = tabBtn.querySelector('.univ-badge');
-      const n = cands().length;
+      if(!planTab) return; let b = planTab.querySelector('.univ-badge'); const n = cands().length;
       if(!n){ if(b) b.remove(); return; }
-      if(!b){ b = document.createElement('span'); b.className = 'univ-badge'; tabBtn.appendChild(b); }
+      if(!b){ b = document.createElement('span'); b.className = 'univ-badge'; planTab.appendChild(b); }
       b.textContent = n; b.title = '比較候補 ' + n + '校';
-    }
-    let pending = null, linked = false;
-    function api(){ try { return fr.contentWindow && fr.contentWindow.Searchuniv; } catch(e){ return null; } }
-    function link(){
-      const w = fr.contentWindow; if(!w || linked) return; linked = true;
-      w.addEventListener('searchuniv:select', e => { const n = e.detail && e.detail.name; if(n && window.ttLog) window.ttLog('大学を表示', n); });
-      w.addEventListener('searchuniv:cands', badge);
-      if(pending){ const n = pending; pending = null; const a = api(); if(a) a.selectUniv(n); }
     }
     window.addEventListener('storage', e => { if(e.key === K_CANDS) badge(); });
     badge();
-    // 他の画面から使う窓口：ttUniv.open('京都大学') で大学検索タブを開いてその大学を表示。ttUniv.candidates() で比較候補の一覧
+    let bound = false;
+    function bind(){
+      if(bound) return; bound = true;
+      window.addEventListener('searchuniv:select', e => { const n = e.detail && e.detail.name; if(n) log('大学を表示', n); });
+      window.addEventListener('searchuniv:cands', badge);
+      // 累計検索数：検索欄に入力して1.5秒止まったら1回（同じ言葉は数えない）
+      const el = host.shadowRoot && host.shadowRoot.getElementById('mq'); if(!el) return;
+      let last = '', tm = null;
+      const hit = v => { v = String(v || '').trim(); if(!v || v === last) return; last = v; if(window.ttCount) window.ttCount('univ'); log('大学検索', v.slice(0, 40)); };
+      el.addEventListener('input', () => { clearTimeout(tm); tm = setTimeout(() => hit(el.value), 1500); });
+      el.addEventListener('keydown', e => { if(e.key === 'Enter' && !e.isComposing){ clearTimeout(tm); hit(el.value); } });
+    }
+    // Searchuniv の中で起きたエラーも操作ログに残す（原因の特定用）
+    window.addEventListener('error', e => { if(String(e.filename || '').includes('su-module.js')) log('大学検索エラー', (e.message || '').slice(0, 80)); });
+    // 他の画面から使う窓口：ttUniv.open('京都大学') で大学検索を開いてその大学を表示
     window.ttUniv = Object.freeze({
-      open(name){ if(tabBtn) tabBtn.click(); start(); const a = linked && api(); if(a) a.selectUniv(name); else pending = name; },
+      open(name){ const t = document.querySelector('#viewTabs [data-view="univ"]'); if(t) t.click(); load().then(a => a.selectUniv(name)).catch(() => {}); },
+      show(v){ const t = document.querySelector('#viewTabs [data-view="' + (TAB[v] || 'univ') + '"]'); if(t) t.click(); },
       candidates: cands
     });
-    // タブの下の画面いっぱいに広げ、スクロールは中の1本だけにする
-    const isMax = () => document.fullscreenElement === wrap || wrap.classList.contains('univ-max');
-    function fit(){
-      if(isMax() || view.classList.contains('hidden')) return;
-      const top = fr.getBoundingClientRect().top + window.scrollY;
-      let h = Math.max(420, Math.round(window.innerHeight - top - 12));
-      fr.style.height = h + 'px';
-      const extra = document.documentElement.scrollHeight - window.innerHeight;   // 下の余白ぶんページがはみ出すなら詰める
-      if(extra > 0 && h > 420){ h = Math.max(420, h - extra); fr.style.height = h + 'px'; }
-    }
-    window.addEventListener('resize', fit);
-    let started = false;
-    function start(){
-      requestAnimationFrame(fit);
-      if(started) return; started = true;
-      fr.addEventListener('load', () => {
-        let ok = false;
-        try { ok = /Searchuniv/i.test((fr.contentDocument && fr.contentDocument.title) || ''); } catch(e){}
-        if(!ok){ ld.style.display = 'flex'; ld.style.pointerEvents = 'auto'; ld.innerHTML = '大学検索を読み込めませんでした。<a href="' + PAGES + '" target="_blank" rel="noopener" style="margin-left:6px">別のタブで開く</a>'; return; }
-        inject(); fit(); link();
-        ld.style.display = 'none';
-      });
-      fr.setAttribute('src', PAGES);
-      setTimeout(() => { ld.style.display = 'none'; }, 12000);
-    }
-    // 全画面（対応ブラウザは本物の全画面、iPhone等は画面いっぱいの表示）
-    function enterMax(){
-      if(wrap.requestFullscreen){ wrap.requestFullscreen().catch(() => setMax(true)); }
-      else setMax(true);
-      if(window.ttLog) window.ttLog('大学検索を全画面表示', '');
-    }
-    function setMax(on){
-      wrap.classList.toggle('univ-max', on);
-      document.documentElement.style.overflow = on ? 'hidden' : '';
-      if(!on) fit();
-    }
-    function exitMax(){
-      if(document.fullscreenElement === wrap && document.exitFullscreen) document.exitFullscreen();
-      setMax(false);
-    }
-    fsBtn.addEventListener('click', () => { start(); isMax() ? exitMax() : enterMax(); });
-    document.getElementById('univClose').addEventListener('click', exitMax);
-    document.addEventListener('fullscreenchange', () => { if(document.fullscreenElement !== wrap){ setTimeout(fit, 60); setTimeout(fit, 350); } });
-    document.addEventListener('keydown', e => { if(e.key === 'Escape' && wrap.classList.contains('univ-max')) setMax(false); });
-    const tab = document.querySelector('#viewTabs [data-view=univ]');
-    if(tab) tab.addEventListener('click', () => setTimeout(start, 0));
-    const hm = (location.hash || '').match(/^#univ(?:=(.+))?$/);
-    if(hm) window.addEventListener('DOMContentLoaded', () => { if(hm[1]) window.ttUniv.open(decodeURIComponent(hm[1])); else start(); });
-    window.addEventListener('hashchange', () => { const m = (location.hash || '').match(/^#univ=(.+)$/); if(m) window.ttUniv.open(decodeURIComponent(m[1])); });
+    // #univ=大学名 で直接開く（#univ・#univ-ai などはタブの仕組みが処理する）
+    const openHash = () => { const m = (location.hash || '').match(/^#univ=(.+)$/); if(m) window.ttUniv.open(decodeURIComponent(m[1])); };
+    window.addEventListener('hashchange', openHash);
+    window.addEventListener('DOMContentLoaded', () => setTimeout(() => { openHash(); const c = (location.hash || '').slice(1); if(SUB[c] && !api) window.dispatchEvent(new CustomEvent('tt:view', { detail: c })); }, 0));
   })();
   </script>
 </body></html>
