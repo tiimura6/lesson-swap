@@ -3529,41 +3529,6 @@
 "cat": "private"
 },
 {
-"name": "就実大学",
-"type": "私立",
-"pref": "岡山県",
-"hp": "https://www.shujitsu.ac.jp/web/index.html",
-"cat": "private"
-},
-{
-"name": "山口学芸大学",
-"type": "私立",
-"pref": "山口県",
-"hp": "https://www.y-gakugei.ac.jp/",
-"cat": "private"
-},
-{
-"name": "山陽学園大学",
-"type": "私立",
-"pref": "岡山県",
-"hp": "https://www.sguc.ac.jp/",
-"cat": "private"
-},
-{
-"name": "岡山医療専門職大学",
-"type": "私立",
-"pref": "岡山県",
-"hp": "https://opu.ac.jp/",
-"cat": "senmon"
-},
-{
-"name": "岡山商科大学",
-"type": "私立",
-"pref": "岡山県",
-"hp": "https://www.osu.ac.jp/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -4301,6 +4266,36 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "就実大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "山口学芸大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "山陽学園大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "岡山医療専門職大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "岡山商科大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "吉備国際大学",
 "need": [
@@ -18009,6 +18004,126 @@
 },
 {
 "name": "安田女子大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "就実大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "就実大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "就実大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "就実大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "山口学芸大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "山口学芸大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "山口学芸大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "山口学芸大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "山陽学園大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "山陽学園大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "山陽学園大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "山陽学園大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "岡山医療専門職大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "岡山医療専門職大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "岡山医療専門職大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "岡山医療専門職大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "岡山商科大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "岡山商科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "岡山商科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "岡山商科大学",
 "need": [
 "scholar"
 ]
