@@ -29,6 +29,9 @@ with sync_playwright() as p:
         return J('document.querySelectorAll(".ritem").length')
 
     G = '検索・地図'
+    J('(()=>{const s=document.getElementById("f-kyoka"); s.value="le3"; s.dispatchEvent(new Event("change"))})()'); pg.wait_for_timeout(400)
+    ck(G, '共テ教科数の絞り込みは学部・方式ごとに表示（勘違い防止）', J('document.querySelectorAll(".ritem .kyf").length') == J('document.querySelectorAll(".ritem").length') > 0 and J('document.querySelectorAll(".ritem .kypart").length') > 0)
+    J('(()=>{const s=document.getElementById("f-kyoka"); s.value=""; s.dispatchEvent(new Event("change"))})()'); pg.wait_for_timeout(300)
     ck(G, '設置区分のチェックが最初から全部オン', J('[...document.querySelectorAll(".fk")].every(e=>e.checked)'), J('document.querySelectorAll(".fk").length'))
     ck(G, '共テ教科数・R:L・系統・入試方式・英語外部試験の絞り込み', all(J('!!document.getElementById("%s")' % i) for i in ('f-kyoka', 'f-rl', 'f-kei', 'f-meth', 'f-eng')))
     n = search('獣医'); vis = J('[...document.querySelectorAll("#jmap .dot")].filter(c=>getComputedStyle(c).display!=="none").length')
