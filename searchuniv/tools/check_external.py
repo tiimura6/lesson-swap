@@ -18,6 +18,7 @@ def deep_clean(o):
     if isinstance(o, dict): return {k: deep_clean(v) for k, v in o.items()}
     if isinstance(o, list): return [deep_clean(v) for v in o]
     if isinstance(o, str) and ('http' in o) and (o.startswith('[') or 'google.com/search' in o): return clean_url(o)
+    if isinstance(o, str) and o.startswith('http') and 'utm_' in o: return re.sub(r'[?&]utm_[^#]*', '', o)  # 広告の追跡用の文字を外す
     return o
 # 数字の項目は、その数字が載っているページ（学費ページ・河合塾など）が出典に無ければ取り込まない
 NEED_SRC = {'money': r'gakuhi|tuition|fee|noufu|nofu|gakuhi|expense|cost|passnavi|keinet|manabi|学費|納付',
