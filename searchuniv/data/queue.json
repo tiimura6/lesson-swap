@@ -3249,34 +3249,6 @@
 "cat": "private"
 },
 {
-"name": "神戸女子大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.yg.kobe-wu.ac.jp/wu/index.html",
-"cat": "private"
-},
-{
-"name": "神戸女学院大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.kobe-c.ac.jp/",
-"cat": "private"
-},
-{
-"name": "神戸学院大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.kobegakuin.ac.jp/",
-"cat": "private"
-},
-{
-"name": "神戸常盤大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.kobe-tokiwa.ac.jp/univ/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -4014,6 +3986,30 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "神戸女子大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "神戸女学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "神戸学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "神戸常盤大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "畿央大学",
 "need": [
@@ -18892,6 +18888,102 @@
 },
 {
 "name": "神戸国際大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "神戸女子大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "神戸女子大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "神戸女子大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "神戸女子大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "神戸女学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "神戸女学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "神戸女学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "神戸女学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "神戸学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "神戸学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "神戸学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "神戸学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "神戸常盤大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "神戸常盤大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "神戸常盤大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "神戸常盤大学",
 "need": [
 "scholar"
 ]

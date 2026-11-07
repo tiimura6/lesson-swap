@@ -1,0 +1,919 @@
+[
+ {
+  "name": "神戸女子大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "兵庫県神戸市須磨区",
+  "pref_name": "兵庫県",
+  "city": "神戸市須磨区",
+  "hp": "https://www.yg.kobe-wu.ac.jp/wu/index.html",
+  "reading": "こうべじょしだいがく",
+  "features": [
+   "文学・教育・家政・健康福祉・看護・心理の6学部を擁する女子総合大学。",
+   "一般入試は前期A・B・C（1/23〜2/13）と後期（3/7）を実施し、検定料フリーパス制度あり。",
+   "須磨キャンパスとポートアイランドキャンパスの2拠点で専門教育を展開。"
+  ],
+  "memo": "偏差値は35.0〜47.5、共テ得点率55%〜72%。看護学部は45.0〜47.5・共テ72%と高め。",
+  "info": {
+   "faculties": [
+    "文学部",
+    "教育学部",
+    "家政学部",
+    "健康福祉学部",
+    "看護学部",
+    "心理学部"
+   ],
+   "departments": [
+    {
+     "f": "文学部",
+     "d": [
+      "日本語日本文学科",
+      "英語英米文学科",
+      "国際教養学科",
+      "史学科"
+     ]
+    },
+    {
+     "f": "教育学部",
+     "d": [
+      "教育学科"
+     ]
+    },
+    {
+     "f": "家政学部",
+     "d": [
+      "家政学科",
+      "管理栄養士養成課程"
+     ]
+    },
+    {
+     "f": "健康福祉学部",
+     "d": [
+      "健康福祉学科（ウェルビーイング社会福祉学専攻、ウェルネススポーツ栄養学専攻）"
+     ]
+    },
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    },
+    {
+     "f": "心理学部",
+     "d": [
+      "心理学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜47.5",
+    "kyotei": "55%〜72%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "大学入学共通テスト利用入試（前期・後期）を実施",
+    "kyoka": [
+     2,
+     3
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般入試（前期A・B・C、後期）",
+      "kyotsu": "課さない",
+      "niji": "2科目型・3科目型",
+      "content": null,
+      "req": "高等学校卒業（見込）等の女子",
+      "url": "https://www.kobe-wu.ac.jp/exam/2027/system/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試（前期・後期）",
+      "kyotsu": "指定教科・科目",
+      "niji": null,
+      "content": null,
+      "req": "個別試験なし",
+      "url": "https://www.kobe-wu.ac.jp/exam/2027/system/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般入試 前期A・B",
+      "apply": "12/14〜1/13",
+      "exam": "1/23（A）・1/24（B）",
+      "result": "1/31",
+      "proc": "1次2/9",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試 前期C",
+      "apply": "1/14〜2/4",
+      "exam": "2/13",
+      "result": "2/21",
+      "proc": "1次2/26",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試 後期",
+      "apply": "2/10〜2/24",
+      "exam": "3/7",
+      "result": "3/14",
+      "proc": "3/26",
+      "fee": 35000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試 前期",
+      "apply": "12/14〜2/10",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/21",
+      "proc": null,
+      "fee": 5000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試 後期",
+      "apply": "2/10〜3/3",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/14",
+      "proc": null,
+      "fee": 5000
+     }
+    ]
+   },
+   "money": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "心理学部 心理学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1425000,
+      "four_year": null
+     },
+     {
+      "f": "健康福祉学部 健康福祉学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1485000,
+      "four_year": null
+     },
+     {
+      "f": "看護学部 看護学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1885000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "須磨キャンパス（神戸市須磨区東須磨青山2-1）・ポートアイランドキャンパス（神戸市中央区港島中町4-7-2）",
+   "careers": "一般企業、公務員、教員、保育士、管理栄養士、看護師、保健師、社会福祉士など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.yg.kobe-wu.ac.jp/wu/index.html",
+    "https://www.kobe-wu.ac.jp/exam/2027/schedule/",
+    "https://www.kobe-wu.ac.jp/exam/2027/system/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3703/gakuhi/",
+    "https://passnavi.obunsha.co.jp/univ/4470/difficulty/",
+    "https://passnavi.obunsha.co.jp/univ/4470/schedule/"
+   ]
+  },
+  "sources": [
+   "https://www.yg.kobe-wu.ac.jp/wu/index.html",
+   "https://www.kobe-wu.ac.jp/exam/2027/schedule/",
+   "https://www.kobe-wu.ac.jp/exam/2027/system/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3703/gakuhi/",
+   "https://passnavi.obunsha.co.jp/univ/4470/difficulty/",
+   "https://passnavi.obunsha.co.jp/univ/4470/schedule/"
+  ]
+ },
+ {
+  "name": "神戸女学院大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "兵庫県西宮市",
+  "pref_name": "兵庫県",
+  "city": "西宮市",
+  "hp": "https://www.kobe-c.ac.jp/",
+  "reading": "こうべじょがくいんだいがく",
+  "features": [
+   "国際・文学・音楽・心理・生命環境の5学部を擁する伝統ある女子大学。",
+   "一般選抜前期A・B・C日程（1/28・1/29・2/16）は第2次手続締切が3/25で併願しやすい。",
+   "共通テスト利用（スカラシップ5科目型）で基準得点率を満たすと最大4年間授業料・教育充実費半額。"
+  ],
+  "memo": "偏差値はBF〜42.5、共テ得点率53%〜69%。英語・国際・心理・音楽分野に強み。",
+  "info": {
+   "faculties": [
+    "国際学部",
+    "文学部",
+    "音楽学部",
+    "心理学部",
+    "生命環境学部"
+   ],
+   "departments": [
+    {
+     "f": "国際学部",
+     "d": [
+      "英語学科",
+      "グローバル・スタディーズ学科"
+     ]
+    },
+    {
+     "f": "文学部",
+     "d": [
+      "総合文化学科"
+     ]
+    },
+    {
+     "f": "音楽学部",
+     "d": [
+      "音楽学科（音楽表現専攻、音楽キャリアデザイン専攻）"
+     ]
+    },
+    {
+     "f": "心理学部",
+     "d": [
+      "心理学科"
+     ]
+    },
+    {
+     "f": "生命環境学部",
+     "d": [
+      "生命環境学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜42.5",
+    "kyotei": "53%〜69%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "大学入学共通テストを利用する入学試験（2科目型・3科目型・スカラシップ5科目型）",
+    "kyoka": [
+     2,
+     5
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期A・B・C日程、後期日程）",
+      "kyotsu": "課さない",
+      "niji": "2科目型・3科目型・音楽実技",
+      "content": null,
+      "req": "高等学校卒業（見込）等の女子",
+      "url": "https://www.kobe-c.ac.jp/admissions/info/ippann_zenki/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テストを利用する入学試験（2科目・3科目・スカラシップ5科目型）",
+      "kyotsu": "2〜5教科",
+      "niji": null,
+      "content": null,
+      "req": "個別試験なし",
+      "url": "https://m.kobe-c.ac.jp/admission/system/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期A日程・B日程",
+      "apply": "12/21〜1/18",
+      "exam": "1/28（A）・1/29（B）",
+      "result": "2/10",
+      "proc": "1次2/24・2次3/25",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期C日程",
+      "apply": "12/21〜2/3",
+      "exam": "2/16",
+      "result": "3/1",
+      "proc": "1次3/8・2次3/25",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期日程",
+      "apply": "2/10〜3/1",
+      "exam": "3/9",
+      "result": "3/18",
+      "proc": "3/25（一括）",
+      "fee": 35000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テストを利用する入学試験",
+      "apply": "12/21〜2/9",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/22",
+      "proc": "3/25（一括）",
+      "fee": 15000
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "国際学部・文学部",
+      "admission": 200000,
+      "tuition": 916000,
+      "facility": 293000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1409000,
+      "four_year": null
+     },
+     {
+      "f": "心理学部・生命環境学部",
+      "admission": 200000,
+      "tuition": null,
+      "facility": null,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1507000,
+      "four_year": null
+     },
+     {
+      "f": "音楽学部 音楽キャリアデザイン専攻",
+      "admission": 200000,
+      "tuition": null,
+      "facility": null,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1600000,
+      "four_year": null
+     },
+     {
+      "f": "音楽学部 音楽表現専攻",
+      "admission": 200000,
+      "tuition": null,
+      "facility": null,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1894000,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "共通テスト利用入試（スカラシップ5科目型）",
+      "kind": "減免",
+      "target": "全学部",
+      "amount": "授業料・教育充実費を最大4年間半額免除",
+      "timing": "入試時",
+      "cond": "共通テスト5科目の基準得点率を満たした入学者全員"
+     }
+    ]
+   },
+   "access": "兵庫県西宮市岡田山4-1",
+   "careers": "一般企業、航空・観光・語学関連、教員、音楽指導者、心理職など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.kobe-c.ac.jp/",
+    "https://www.kobe-c.ac.jp/admissions/info/ippann_zenki/",
+    "https://www.kobe-c.ac.jp/admissions/upload/kobe-c_nyushi_guide.pdf",
+    "https://m.kobe-c.ac.jp/admission/system/",
+    "https://www.kobe-c.ac.jp/admissions/info/fee/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3702/gakuhi/",
+    "https://passnavi.obunsha.co.jp/univ/4460/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.kobe-c.ac.jp/",
+   "https://www.kobe-c.ac.jp/admissions/info/ippann_zenki/",
+   "https://www.kobe-c.ac.jp/admissions/upload/kobe-c_nyushi_guide.pdf",
+   "https://m.kobe-c.ac.jp/admission/system/",
+   "https://www.kobe-c.ac.jp/admissions/info/fee/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3702/gakuhi/",
+   "https://passnavi.obunsha.co.jp/univ/4460/difficulty/"
+  ]
+ },
+ {
+  "name": "神戸学院大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "兵庫県神戸市西区",
+  "pref_name": "兵庫県",
+  "city": "神戸市西区",
+  "hp": "https://www.kobegakuin.ac.jp/",
+  "reading": "こうべがくいんだいがく",
+  "features": [
+   "法・経済・経営・人文・心理・現代社会・グローバルコミュニケーション・総合リハ・栄養・薬の10学部を擁する。",
+   "一般選抜前期（2/1・2/2・2/7・2/8）や中期・後期、共通テスト利用・併用型を実施。",
+   "ポートアイランドキャンパス（法・経済・経営・現代社会・薬等）と有瀬キャンパスを展開。"
+  ],
+  "memo": "偏差値は35.0〜47.5、共テ得点率45%〜76%。学部数が多く文理・医療系まで幅広く併願できる。",
+  "info": {
+   "faculties": [
+    "法学部",
+    "経済学部",
+    "経営学部",
+    "人文学部",
+    "心理学部",
+    "現代社会学部",
+    "グローバル・コミュニケーション学部",
+    "総合リハビリテーション学部",
+    "栄養学部",
+    "薬学部"
+   ],
+   "departments": [
+    {
+     "f": "法学部",
+     "d": [
+      "法律学科"
+     ]
+    },
+    {
+     "f": "経済学部",
+     "d": [
+      "経済学科"
+     ]
+    },
+    {
+     "f": "経営学部",
+     "d": [
+      "経営学科"
+     ]
+    },
+    {
+     "f": "人文学部",
+     "d": [
+      "人文学科"
+     ]
+    },
+    {
+     "f": "心理学部",
+     "d": [
+      "心理学科"
+     ]
+    },
+    {
+     "f": "現代社会学部",
+     "d": [
+      "現代社会学科",
+      "社会防災学科"
+     ]
+    },
+    {
+     "f": "グローバル・コミュニケーション学部",
+     "d": [
+      "グローバル・コミュニケーション学科"
+     ]
+    },
+    {
+     "f": "総合リハビリテーション学部",
+     "d": [
+      "理学療法学科",
+      "作業療法学科",
+      "社会リハビリテーション学科"
+     ]
+    },
+    {
+     "f": "栄養学部",
+     "d": [
+      "栄養学科"
+     ]
+    },
+    {
+     "f": "薬学部",
+     "d": [
+      "薬学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜47.5",
+    "kyotei": "45%〜76%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "1〜4科目型および共通テスト併用方式（前期共テ＋・中期共テ＋）を実施",
+    "kyoka": [
+     1,
+     4
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期・中期・後期）",
+      "kyotsu": "課さない",
+      "niji": "各学部指定科目",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://passnavi.obunsha.co.jp/univ/4440/schedule/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試（1〜4科目型・併用型）",
+      "kyotsu": "1〜4教科",
+      "niji": null,
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://passnavi.obunsha.co.jp/univ/4440/difficulty/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期",
+      "apply": "12/14〜1/18",
+      "exam": "2/1・2/2・2/7・2/8",
+      "result": "2/19",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期",
+      "apply": "2/12〜2/24",
+      "exam": "3/9",
+      "result": "3/16",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用 前期",
+      "apply": "12/14〜1/22",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/19",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用 後期",
+      "apply": "2/12〜2/24",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/16",
+      "proc": "3/23",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "法学部・経済学部・経営学部（経営・会計）",
+      "admission": 200000,
+      "tuition": null,
+      "facility": null,
+      "practical": 0,
+      "other": null,
+      "first_year": 1264300,
+      "four_year": null
+     },
+     {
+      "f": "経営学部（データサイエンス）",
+      "admission": 200000,
+      "tuition": null,
+      "facility": null,
+      "practical": 0,
+      "other": null,
+      "first_year": 1324300,
+      "four_year": null
+     },
+     {
+      "f": "人文学部",
+      "admission": 200000,
+      "tuition": null,
+      "facility": null,
+      "practical": 0,
+      "other": null,
+      "first_year": 1296300,
+      "four_year": null
+     },
+     {
+      "f": "現代社会学部",
+      "admission": 200000,
+      "tuition": 840000,
+      "facility": 230000,
+      "practical": 0,
+      "other": 60300,
+      "first_year": 1330300,
+      "four_year": null
+     },
+     {
+      "f": "心理学部",
+      "admission": 200000,
+      "tuition": null,
+      "facility": null,
+      "practical": 0,
+      "other": null,
+      "first_year": 1363300,
+      "four_year": null
+     },
+     {
+      "f": "総合リハビリテーション学部（社会リハビリテーション）",
+      "admission": 200000,
+      "tuition": null,
+      "facility": null,
+      "practical": 0,
+      "other": null,
+      "first_year": 1416300,
+      "four_year": null
+     },
+     {
+      "f": "総合リハビリテーション学部（理学療法・作業療法）",
+      "admission": 200000,
+      "tuition": null,
+      "facility": null,
+      "practical": 0,
+      "other": null,
+      "first_year": 2016300,
+      "four_year": null
+     },
+     {
+      "f": "栄養学部（管理栄養学専攻）",
+      "admission": 200000,
+      "tuition": null,
+      "facility": null,
+      "practical": 0,
+      "other": null,
+      "first_year": 1583300,
+      "four_year": null
+     },
+     {
+      "f": "栄養学部（臨床検査学専攻）",
+      "admission": 200000,
+      "tuition": null,
+      "facility": null,
+      "practical": 0,
+      "other": null,
+      "first_year": 1783300,
+      "four_year": null
+     },
+     {
+      "f": "薬学部 薬学科（6年制）",
+      "admission": 250000,
+      "tuition": 1405000,
+      "facility": 440000,
+      "practical": 0,
+      "other": 52700,
+      "first_year": 2147700,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "有瀬キャンパス（神戸市西区伊川谷町有瀬518）・ポートアイランドキャンパス（神戸市中央区港島1-1-3）",
+   "careers": "一般企業、公務員、教員、薬剤師、管理栄養士、理学療法士、作業療法士など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.kobegakuin.ac.jp/",
+    "https://www.kobegakuin.ac.jp/support/tuition/2024.html",
+    "https://shingakunet.com/gakko/SC000318/gakuhi/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3699/gakuhi/",
+    "https://search.keinet.ne.jp/2563/general/border_rate",
+    "https://passnavi.obunsha.co.jp/univ/4440/difficulty/",
+    "https://passnavi.obunsha.co.jp/univ/4440/schedule/"
+   ]
+  },
+  "sources": [
+   "https://www.kobegakuin.ac.jp/",
+   "https://www.kobegakuin.ac.jp/support/tuition/2024.html",
+   "https://shingakunet.com/gakko/SC000318/gakuhi/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3699/gakuhi/",
+   "https://search.keinet.ne.jp/2563/general/border_rate",
+   "https://passnavi.obunsha.co.jp/univ/4440/difficulty/",
+   "https://passnavi.obunsha.co.jp/univ/4440/schedule/"
+  ]
+ },
+ {
+  "name": "神戸常盤大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "兵庫県神戸市長田区",
+  "pref_name": "兵庫県",
+  "city": "神戸市長田区",
+  "hp": "https://www.kobe-tokiwa.ac.jp/univ/",
+  "reading": "こうべときわだいがく",
+  "features": [
+   "教育・保健科学・看護の3学部を擁し、医療検査・診療放射線・口腔保健・看護・保育を学ぶ。",
+   "一般選抜は前期（2/2）・中期（2/20）・後期（3/9）の3日程を実施。",
+   "共通テスト利用選抜（1次・2次）は個別試験なしで判定。"
+  ],
+  "memo": "偏差値はBF〜42.5、共テ得点率49%〜63%。医療系国家資格の取得を目指す生徒に向く。",
+  "info": {
+   "faculties": [
+    "教育学部",
+    "保健科学部",
+    "看護学部"
+   ],
+   "departments": [
+    {
+     "f": "教育学部",
+     "d": [
+      "こども教育学科"
+     ]
+    },
+    {
+     "f": "保健科学部",
+     "d": [
+      "医療検査学科",
+      "診療放射線学科",
+      "口腔保健学科"
+     ]
+    },
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜42.5",
+    "kyotei": "49%〜63%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "大学入学共通テスト利用選抜（1次・2次）を実施",
+    "kyoka": [
+     2,
+     3
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期・中期・後期）",
+      "kyotsu": "課さない",
+      "niji": "各学科指定科目（後期は基礎力検査・面接）",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://kobe-tokiwa.jp/prospective/assets/pdf/guide2027.pdf"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（1次・2次）",
+      "kyotsu": "指定教科・科目",
+      "niji": null,
+      "content": null,
+      "req": "個別試験なし",
+      "url": "https://kobe-tokiwa.jp/prospective/assets/pdf/guide2027.pdf"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期",
+      "apply": "12/21〜1/25",
+      "exam": "2/2",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 中期",
+      "apply": "2/8〜2/16",
+      "exam": "2/20",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期",
+      "apply": "2/18〜3/7",
+      "exam": "3/9",
+      "result": "3/13",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 1次",
+      "apply": "1/5〜2/5",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/26",
+      "proc": "3/9",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 2次",
+      "apply": "2/18〜3/1",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/13",
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "教育学部 こども教育学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1363000,
+      "four_year": null
+     },
+     {
+      "f": "保健科学部 口腔保健学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1503000,
+      "four_year": null
+     },
+     {
+      "f": "保健科学部 医療検査学科・診療放射線学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1813000,
+      "four_year": null
+     },
+     {
+      "f": "看護学部 看護学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1893000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "兵庫県神戸市長田区大谷町2-6-2",
+   "careers": "看護師、保健師、臨床検査技師、診療放射線技師、歯科衛生士、幼稚園教諭・保育士など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.kobe-tokiwa.ac.jp/univ/",
+    "https://kobe-tokiwa.jp/prospective/assets/pdf/guide2027.pdf",
+    "https://kobe-tokiwa.jp/prospective/assets/pdf/p24-25.pdf",
+    "https://manabi.benesse.ne.jp/daigaku/school/3724/gakuhi/",
+    "https://search.keinet.ne.jp/2594/general/border_rate",
+    "https://passnavi.obunsha.co.jp/univ/4475/difficulty/",
+    "https://passnavi.obunsha.co.jp/univ/4475/schedule/"
+   ]
+  },
+  "sources": [
+   "https://www.kobe-tokiwa.ac.jp/univ/",
+   "https://kobe-tokiwa.jp/prospective/assets/pdf/guide2027.pdf",
+   "https://kobe-tokiwa.jp/prospective/assets/pdf/p24-25.pdf",
+   "https://manabi.benesse.ne.jp/daigaku/school/3724/gakuhi/",
+   "https://search.keinet.ne.jp/2594/general/border_rate",
+   "https://passnavi.obunsha.co.jp/univ/4475/difficulty/",
+   "https://passnavi.obunsha.co.jp/univ/4475/schedule/"
+  ]
+ }
+]
