@@ -3389,41 +3389,6 @@
 "cat": "private"
 },
 {
-"name": "藍野大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://univ.aino.ac.jp/",
-"cat": "private"
-},
-{
-"name": "近畿大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.kindai.ac.jp/",
-"cat": "private"
-},
-{
-"name": "追手門学院大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.otemon.ac.jp/",
-"cat": "private"
-},
-{
-"name": "鈴鹿医療科学大学",
-"type": "私立",
-"pref": "三重県",
-"hp": "https://www.suzuka-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "鈴鹿大学",
-"type": "私立",
-"pref": "三重県",
-"hp": "https://www.suzuka.ac.jp/",
-"cat": "private"
-},
-{
 "name": "長浜バイオ大学",
 "type": "私立",
 "pref": "滋賀県",
@@ -4196,6 +4161,36 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "藍野大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "近畿大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "追手門学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "鈴鹿医療科学大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "鈴鹿大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "くらしき作陽大学",
 "need": [
@@ -18354,6 +18349,126 @@
 },
 {
 "name": "倉敷芸術科学大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "藍野大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "藍野大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "藍野大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "藍野大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "近畿大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "近畿大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "近畿大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "近畿大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "追手門学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "追手門学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "追手門学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "追手門学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "鈴鹿医療科学大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "鈴鹿医療科学大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "鈴鹿医療科学大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "鈴鹿医療科学大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "鈴鹿大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "鈴鹿大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "鈴鹿大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "鈴鹿大学",
 "need": [
 "scholar"
 ]
