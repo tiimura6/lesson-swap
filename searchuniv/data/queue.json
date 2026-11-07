@@ -1,55 +1,6 @@
 {
 "add": [
 {
-"name": "新潟県立看護大学",
-"type": "公立",
-"pref": "新潟県",
-"hp": "http://www.niigata-cn.ac.jp/",
-"cat": "public"
-},
-{
-"name": "石川県立大学",
-"type": "公立",
-"pref": "石川県",
-"hp": "http://www.ishikawa-pu.ac.jp/",
-"cat": "public"
-},
-{
-"name": "石川県立看護大学",
-"type": "公立",
-"pref": "石川県",
-"hp": "http://www.ishikawa-nu.ac.jp/",
-"cat": "public"
-},
-{
-"name": "福井県立大学",
-"type": "公立",
-"pref": "福井県",
-"hp": "http://www.fpu.ac.jp/",
-"cat": "public"
-},
-{
-"name": "都留文科大学",
-"type": "公立",
-"pref": "山梨県",
-"hp": "http://www.tsuru.ac.jp/",
-"cat": "public"
-},
-{
-"name": "金沢美術工芸大学",
-"type": "公立",
-"pref": "石川県",
-"hp": "http://www.kanazawa-bidai.ac.jp/",
-"cat": "public"
-},
-{
-"name": "長岡造形大学",
-"type": "公立",
-"pref": "新潟県",
-"hp": "http://www.nagaoka-id.ac.jp/",
-"cat": "public"
-},
-{
 "name": "長野大学",
 "type": "公立",
 "pref": "長野県",
@@ -4611,6 +4562,48 @@
 "need": [
 "schedule_dates"
 ]
+},
+{
+"name": "新潟県立看護大学",
+"op": "add"
+},
+{
+"name": "長岡造形大学",
+"op": "add"
+},
+{
+"name": "都留文科大学",
+"op": "add"
+},
+{
+"name": "石川県立大学",
+"op": "add"
+},
+{
+"name": "石川県立看護大学",
+"op": "add"
+},
+{
+"name": "金沢美術工芸大学",
+"op": "add"
+},
+{
+"name": "福井県立大学",
+"op": "add"
+},
+{
+"name": "令和健康科学大学",
+"op": "enrich",
+"need": [
+"verify"
+]
+},
+{
+"name": "活水女子大学",
+"op": "enrich",
+"need": [
+"verify"
+]
 }
 ],
 "failed": [],
@@ -4635,57 +4628,15 @@
 "東北農林専門職大学": 1,
 "秋田公立美術大学": 1,
 "東北大学": 1,
-"九州大学": 1
+"九州大学": 1,
+"九州看護福祉大学": 1,
+"別府大学": 1,
+"南九州大学": 1,
+"宮崎国際大学": 1,
+"沖縄国際大学": 1,
+"沖縄大学": 1
 },
 "enrich": [
-{
-"name": "九州看護福祉大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "令和健康科学大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "別府大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "南九州大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "宮崎国際大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "沖縄国際大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "沖縄大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "活水女子大学",
-"need": [
-"verify"
-]
-},
 {
 "name": "熊本保健科学大学",
 "need": [
@@ -16898,6 +16849,98 @@
 "name": "宮崎国際大学",
 "need": [
 "scholar"
+]
+},
+{
+"name": "新潟県立看護大学",
+"keinet": "1543",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "長岡造形大学",
+"keinet": "1546",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "都留文科大学",
+"keinet": "1560",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "石川県立大学",
+"keinet": "1547",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "石川県立看護大学",
+"keinet": "1549",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "金沢美術工芸大学",
+"keinet": "1550",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "福井県立大学",
+"keinet": "1555",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "九州看護福祉大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "別府大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "南九州大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "宮崎国際大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "沖縄国際大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "沖縄大学",
+"need": [
+"verify"
 ]
 }
 ],
