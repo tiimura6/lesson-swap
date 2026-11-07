@@ -1367,8 +1367,9 @@
     /* ===== 大学検索（Searchuniv を Shadow DOM で組み込み。中のCSSはここから影響を受けない） ===== */
     #viewUniv .univ-bar { display:flex; flex-wrap:wrap; align-items:center; gap:6px 8px; margin:2px 2px 8px; font-family:-apple-system, BlinkMacSystemFont, "Hiragino Sans", "Meiryo", sans-serif; }
     #viewUniv .univ-sp { flex:1; }
-    #univTicker.univ-ticker { display:flex; margin:-8px 0 10px; align-items:center; gap:8px; background:#fff; border-radius:10px; box-shadow:0 0 0 1px #e5e5ea; padding:5px 10px; overflow:hidden; font:0.8rem -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Meiryo", sans-serif; }
+    #univTicker.univ-ticker { display:flex; float:right; width:50%; box-sizing:border-box; margin:-6px 0 6px 16px; align-items:center; gap:8px; background:#fff; border-radius:10px; box-shadow:0 0 0 1px #e5e5ea; padding:5px 10px; overflow:hidden; font:0.8rem -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Meiryo", sans-serif; }
     #univTicker.univ-ticker[hidden] { display:none; }
+    @media (max-width:760px){ #univTicker.univ-ticker { float:none; width:auto; margin:-6px 0 8px; } }
     #univTicker .ut-h { flex-shrink:0; font-weight:700; color:#0071e3; }
     #univTicker .ut-vp { flex:1; overflow:hidden; white-space:nowrap; -webkit-mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent); mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent); }
     #univTicker .ut-track { display:inline-flex; animation:utscroll var(--ut-dur,120s) linear infinite; }
