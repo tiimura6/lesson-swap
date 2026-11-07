@@ -3529,41 +3529,6 @@
 "cat": "private"
 },
 {
-"name": "吉備国際大学",
-"type": "私立",
-"pref": "岡山県",
-"hp": "https://kiui.jp/pc/",
-"cat": "private"
-},
-{
-"name": "四国大学",
-"type": "私立",
-"pref": "徳島県",
-"hp": "https://www.shikoku-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "四国学院大学",
-"type": "私立",
-"pref": "香川県",
-"hp": "https://www.sg-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "宇部フロンティア大学",
-"type": "私立",
-"pref": "山口県",
-"hp": "https://www.frontier-u.jp/",
-"cat": "private"
-},
-{
-"name": "安田女子大学",
-"type": "私立",
-"pref": "広島県",
-"hp": "https://www.yasuda-u.ac.jp/",
-"cat": "private"
-},
-{
 "name": "就実大学",
 "type": "私立",
 "pref": "岡山県",
@@ -4336,6 +4301,36 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "吉備国際大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "四国大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "四国学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "宇部フロンティア大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "安田女子大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "広島国際大学",
 "need": [
@@ -17894,6 +17889,126 @@
 },
 {
 "name": "広島文教大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "吉備国際大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "吉備国際大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "吉備国際大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "吉備国際大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "四国大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "四国大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "四国大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "四国大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "四国学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "四国学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "四国学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "四国学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "宇部フロンティア大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "宇部フロンティア大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "宇部フロンティア大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "宇部フロンティア大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "安田女子大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "安田女子大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "安田女子大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "安田女子大学",
 "need": [
 "scholar"
 ]
