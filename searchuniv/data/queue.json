@@ -2787,41 +2787,6 @@
 "cat": "private"
 },
 {
-"name": "大手前大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.otemae.ac.jp/",
-"cat": "private"
-},
-{
-"name": "大谷大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "https://www.otani.ac.jp/",
-"cat": "private"
-},
-{
-"name": "大阪人間科学大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.ohs.ac.jp/",
-"cat": "private"
-},
-{
-"name": "大阪体育大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.ouhs.jp/",
-"cat": "private"
-},
-{
-"name": "大阪保健医療大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.ohsu.ac.jp/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -3584,6 +3549,36 @@
 "長野県立大学": 1
 },
 "enrich": [
+{
+"name": "大手前大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "大谷大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "大阪人間科学大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "大阪体育大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "大阪保健医療大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "四日市大学",
 "need": [
@@ -20250,6 +20245,126 @@
 },
 {
 "name": "大和大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大手前大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大手前大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大手前大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大手前大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大谷大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大谷大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大谷大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大谷大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大阪人間科学大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大阪人間科学大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪人間科学大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪人間科学大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大阪体育大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大阪体育大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪体育大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪体育大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大阪保健医療大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大阪保健医療大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪保健医療大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪保健医療大学",
 "need": [
 "scholar"
 ]

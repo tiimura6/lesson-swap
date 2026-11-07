@@ -113174,5 +113174,670 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3677/gakuhi/",
 "https://passnavi.obunsha.co.jp/univ/4357/difficulty/?facultyID=010"
 ]
+},
+"大手前大学": {
+"faculties": [
+"国際日本学部",
+"現代社会学部",
+"建築＆芸術学部",
+"健康栄養学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"kyotsu": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "国際日本学部",
+"d": [
+"国際日本学科"
+]
+},
+{
+"f": "現代社会学部",
+"d": [
+"現代社会学科"
+]
+},
+{
+"f": "建築＆芸術学部",
+"d": [
+"建築＆芸術学科"
+]
+},
+{
+"f": "健康栄養学部",
+"d": [
+"管理栄養学科"
+]
+}
+],
+"kyotsu": {
+"kamoku": "大学入学共通テスト利用入試（A日程・B日程）を実施",
+"kyoka": [
+null,
+null
+],
+"note": null
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜入試（A日程・B日程・ファイナルチャレンジ入試）",
+"kyotsu": "課さない",
+"niji": "各学部指定科目",
+"content": null,
+"req": "A日程は1/26・1/27の自由選択制",
+"url": "https://telemail.jp/shingaku/university/10001567/examination/general"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用入試（A日程・B日程）",
+"kyotsu": "指定教科・科目",
+"niji": null,
+"content": null,
+"req": "高等学校卒業（見込）等",
+"url": "https://telemail.jp/shingaku/university/10001567/examination/general"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜入試 A日程",
+"apply": "12/7〜1/18",
+"exam": "1/26・1/27（自由選択）",
+"result": "2/10",
+"proc": "3/1",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜入試 B日程",
+"apply": "12/7〜2/12",
+"exam": "2/26・2/27",
+"result": "3/4",
+"proc": "3/17",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜入試 ファイナルチャレンジ入試",
+"apply": "2/19〜3/4",
+"exam": "3/11",
+"result": "3/12",
+"proc": "3/24",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用入試 A日程",
+"apply": "12/7〜1/22",
+"exam": "1/16・1/17（共テ）",
+"result": "2/11",
+"proc": "3/1",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用入試 B日程",
+"apply": "12/7〜2/19",
+"exam": "1/16・1/17（共テ）",
+"result": "3/4",
+"proc": "3/17",
+"fee": null
+}
+]
+},
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "全学部（国際日本・現代社会・建築＆芸術・健康栄養）",
+"admission": 240000,
+"tuition": 920000,
+"facility": 240000,
+"practical": 0,
+"other": 150000,
+"first_year": 1550000,
+"four_year": null
+}
+]
+},
+"access": "さくら夙川キャンパス（兵庫県西宮市御茶家所町6-42）・大阪大手前キャンパス",
+"careers": "一般企業、公務員、建築士、デザイナー、管理栄養士、航空・観光関連など。",
+"_via": "external-ai",
+"sources": [
+"https://www.otemae.ac.jp/",
+"https://telemail.jp/shingaku/university/10001567/examination/general",
+"https://shingakunet.com/gakko/SC000397/nanido/",
+"https://shingakunet.com/gakko/SC000397/gakuhi/"
+]
+},
+"大谷大学": {
+"faculties": [
+"文学部",
+"社会学部",
+"教育学部",
+"国際学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"kyotsu": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "文学部",
+"d": [
+"真宗学科",
+"仏教学科",
+"哲学科",
+"歴史学科",
+"文学科"
+]
+},
+{
+"f": "社会学部",
+"d": [
+"社会学科",
+"コミュニティデザイン学科"
+]
+},
+{
+"f": "教育学部",
+"d": [
+"教育学科"
+]
+},
+{
+"f": "国際学部",
+"d": [
+"国際文化学科",
+"京都文化学科（2027年4月設置予定・届出中）"
+]
+}
+],
+"kyotsu": {
+"kamoku": "共通テスト利用入試を実施",
+"kyoka": [
+null,
+null
+],
+"note": null
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般入試［第1期］・［第2期］",
+"kyotsu": "課さない",
+"niji": "各学部指定科目",
+"content": null,
+"req": "第1期は全国9会場で実施",
+"url": "https://www.otani.ac.jp/admission/exam/general-1.html"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般入試［第1期］",
+"apply": "12/16〜1/15",
+"exam": "2/4・2/5（本学は2/6も）",
+"result": "2/13",
+"proc": "1次2/25・2次3/8",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般入試［第2期］",
+"apply": "2/4〜2/17",
+"exam": "2/26・2/27（地方は2/26）",
+"result": "3/4",
+"proc": "3/11",
+"fee": null
+}
+]
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "文学部・社会学部・国際学部",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1228000,
+"four_year": null
+},
+{
+"f": "教育学部",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1328000,
+"four_year": null
+}
+]
+},
+"access": "京都府京都市北区小山上総町",
+"careers": "一般企業、公務員、教員（小・中・高）、保育士、宗教関係など。",
+"_via": "external-ai",
+"sources": [
+"https://www.otani.ac.jp/",
+"https://www.otani.ac.jp/admission/exam/general-1.html",
+"https://www.otani.ac.jp/admission/exam/general-2.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3591/gakuhi/",
+"https://shingakunet.com/gakko/SC000400/nanido/",
+"https://shingakunet.com/gakko/SC000400/gakuhi/"
+]
+},
+"大阪人間科学大学": {
+"faculties": [
+"人間科学部",
+"心理学部",
+"保健医療学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"difficulty": "2026-11-07",
+"kyotsu": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "人間科学部",
+"d": [
+"社会創造学科",
+"社会福祉学科",
+"医療福祉学科",
+"子ども教育学科"
+]
+},
+{
+"f": "心理学部",
+"d": [
+"心理学科"
+]
+},
+{
+"f": "保健医療学部",
+"d": [
+"理学療法学科",
+"作業療法学科",
+"言語聴覚学科"
+]
+}
+],
+"difficulty": {
+"hensachi": "35.0〜37.5",
+"kyotei": null,
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "共通テスト利用選抜（前期・中期・後期）を実施",
+"kyoka": [
+null,
+null
+],
+"note": "一般選抜と一括出願可能"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜（前期・中期・後期）",
+"kyotsu": "課さない",
+"niji": "国語必須＋英語・数学・日本史探究・生物等から選択",
+"content": null,
+"req": "オープンキャンパス参加で検定料5,000円減額",
+"url": "https://www.ohs.ac.jp/assets/pdf/admissions/guide/2027_nyushiguide.pdf"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜（前期・中期・後期）",
+"kyotsu": "指定教科・科目",
+"niji": null,
+"content": null,
+"req": "一般選抜との一括出願可能",
+"url": "https://www.ohs.ac.jp/admissions/charge/"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 前期",
+"apply": "1/5〜1/14",
+"exam": "1/23",
+"result": "1/28",
+"proc": "2/5",
+"fee": 30000
+},
+{
+"kubun": "一般",
+"name": "一般選抜 中期",
+"apply": "1/15〜1/28",
+"exam": "2/6",
+"result": "2/10",
+"proc": "2/19",
+"fee": 30000
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期",
+"apply": "2/12〜2/25",
+"exam": "3/6",
+"result": "3/11",
+"proc": null,
+"fee": 30000
+}
+]
+},
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "人間科学部（社会創造学科）・心理学部（心理学科）",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1300000,
+"four_year": null
+},
+{
+"f": "人間科学部 社会福祉学科",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1310000,
+"four_year": null
+},
+{
+"f": "人間科学部 子ども教育学科",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1326000,
+"four_year": null
+},
+{
+"f": "人間科学部 医療福祉学科",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1690000,
+"four_year": null
+},
+{
+"f": "保健医療学部（理学療法・作業療法・言語聴覚学科）",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1800000,
+"four_year": null
+}
+]
+},
+"access": "大阪府摂津市正雀1-4-1",
+"careers": "社会福祉士、精神保健福祉士、公認心理師、保育士、幼稚園・小学校教諭、理学療法士、作業療法士、言語聴覚士など。",
+"_via": "external-ai",
+"sources": [
+"https://www.ohs.ac.jp/",
+"https://www.ohs.ac.jp/admissions/charge/",
+"https://www.ohs.ac.jp/assets/pdf/admissions/guide/2027_nyushiguide.pdf",
+"https://passnavi.obunsha.co.jp/univ/4155/difficulty/?facultyID=005",
+"https://shingakunet.com/gakko/SC003359/gakuhi/"
+]
+},
+"大阪体育大学": {
+"faculties": [
+"スポーツ科学部",
+"教育学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "スポーツ科学部",
+"d": [
+"スポーツ科学科"
+]
+},
+{
+"f": "教育学部",
+"d": [
+"教育学科"
+]
+}
+],
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜（2教科型・高得点重視型）",
+"kyotsu": "課さない",
+"niji": "各学部指定科目",
+"content": null,
+"req": "高等学校卒業（見込）等",
+"url": "https://telemail.jp/shingaku/university/10001564/examination/general"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜（2教科型・高得点重視型）",
+"apply": "12/21〜1/13",
+"exam": "1/30",
+"result": "2/12",
+"proc": "3/5",
+"fee": null
+}
+]
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "スポーツ科学部・教育学部",
+"admission": 200000,
+"tuition": 960000,
+"facility": 0,
+"practical": 0,
+"other": 396000,
+"first_year": 1556000,
+"four_year": 5549000
+}
+]
+},
+"access": "大阪府泉南郡熊取町朝代台1-1",
+"careers": "保健体育教員、小学校教諭、スポーツ指導者、トレーナー、一般企業、公務員（警察・消防）など。",
+"_via": "external-ai",
+"sources": [
+"https://www.ouhs.jp/",
+"https://telemail.jp/shingaku/university/10001564/examination/general",
+"https://shingakunet.com/gakko/SC000394/nanido/",
+"https://www.best-shingaku.net/smt/gakuhi2263.html",
+"https://www.gakuhi-navi.com/school/4665"
+]
+},
+"大阪保健医療大学": {
+"faculties": [
+"保健医療学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"difficulty": "2026-11-07",
+"kyotsu": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"scholar": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "保健医療学部",
+"d": [
+"リハビリテーション学科（理学療法学専攻、作業療法学専攻、言語聴覚学専攻）"
+]
+}
+],
+"difficulty": {
+"hensachi": "37.5〜42.5",
+"kyotei": null,
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "大学入学共通テスト併用選抜を実施",
+"kyoka": [
+null,
+null
+],
+"note": null
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜（前期）／チャレンジ（特待生）選抜（A・B日程）",
+"kyotsu": "課さない（共テ併用あり）",
+"niji": "各専攻指定科目",
+"content": null,
+"req": "A・B両日程の受験可",
+"url": "https://ohsu.ac.jp/assets/files/examination/application/gaiyou.pdf"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期",
+"kyotsu": "課さない",
+"niji": "各専攻指定科目",
+"content": null,
+"req": "高等学校卒業（見込）等",
+"url": "https://www.best-shingaku.net/special/fa_p015nyushicalendar_list.php?daigakucode=3673"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 前期B日程",
+"apply": "〜1/14",
+"exam": "1/24",
+"result": null,
+"proc": null,
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期",
+"apply": null,
+"exam": "2/14",
+"result": null,
+"proc": null,
+"fee": null
+}
+]
+},
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "保健医療学部 リハビリテーション学科",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1990000,
+"four_year": null
+}
+]
+},
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "チャレンジ（特待生）選抜 授業料減免制度",
+"kind": "減免",
+"target": "保健医療学部",
+"amount": "4年間の授業料免除（508万円）、2年間の授業料免除（244万円）、または初年度授業料＋施設設備費免除（162万円）",
+"timing": "入試時",
+"cond": "一般選抜（前期）／チャレンジ（特待生）選抜の成績上位者"
+}
+]
+},
+"access": "大阪府大阪市北区天満1-9-27",
+"careers": "理学療法士、作業療法士、言語聴覚士として医療機関・福祉施設など。",
+"_via": "external-ai",
+"sources": [
+"https://www.ohsu.ac.jp/",
+"https://ohsu.ac.jp/assets/files/examination/application/gaiyou.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/3673/gakuhi/",
+"https://passnavi.obunsha.co.jp/univ/4203/top/",
+"https://www.best-shingaku.net/special/fa_p015nyushicalendar_list.php?daigakucode=3673"
+]
 }
 }
