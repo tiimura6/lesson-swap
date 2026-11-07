@@ -35,7 +35,7 @@ def _nz(v):
     v = re.sub(r'【[^】]*】|(当日|締切日)?消印有効|最終日|(郵送)?必着', '', v).replace('～', '〜')
     v = re.sub(r'・(\d{1,2})日', r'・\1', v)
     if '／書類郵送' in v or '／郵送' in v: v = v.split('／')[0]
-    for a, b in (('Web出願：', ''), ('第1次振込：', '1次'), ('まで', ''), ('登録・支払：', ''), ('入学金等支払期限・入学手続締切日：', ''), ('入学金等支払期限：', '入学金'), ('入学金支払期限：', '入学金'),
+    for a, b in (('Web出願：', ''), ('ネット出願：', ''), ('郵送：', ''), ('第1次振込：', '1次'), ('まで', ''), ('登録・支払：', ''), ('入学金等支払期限・入学手続締切日：', ''), ('入学金等支払期限：', '入学金'), ('入学金支払期限：', '入学金'),
                  ('／入学手続締切日：', '・手続'), ('第1次発表：', '1次'), ('第1次選考結果：', '1次'), ('／合格発表：', '・最終'), ('第1次選考：', '1次'), ('第1次：', '1次'),
                  ('／第2次選考（オンライン面接）：', '・2次'), ('／第2次：', '・2次'), ('1次手続：', '1次'), ('／2次手続：', '・2次'), ('／', '・')):
         v = v.replace(a, b)
@@ -148,8 +148,9 @@ def main(path):
         # 既存校の補完：今の日程に日付のそろった行が無い・学費に初年度の額が無いときは、外部AIの値で置き換える
         if not new:
             cur = INFO.get(n, {})
-            if info.get('schedule') and not [z for z in (cur.get('schedule') or {}).get('rows', []) if z.get('apply') and z.get('result')]:
-                info['schedule_replace'] = {**(cur.get('schedule') or {}), **info.pop('schedule')}; notes.append(f'{n}: 日程を置き換え（今は日付のそろった行が無い）')
+            full = lambda rows: [z for z in rows or [] if isinstance(z, dict) and z.get('apply') and z.get('result')]
+            if info.get('schedule') and len(full((cur.get('schedule') or {}).get('rows'))) < max(1, len(full(info['schedule'].get('rows')))):
+                info['schedule_replace'] = {**(cur.get('schedule') or {}), **info.pop('schedule')}; notes.append(f'{n}: 日程を置き換え（日付のそろった行が今より多い）')
             have_rows = [z for z in (cur.get('money') or {}).get('rows', []) if z.get('first_year')]
             if info.get('money') and not have_rows:
                 info['money_replace'] = {**(cur.get('money') or {}), **info.pop('money')}; notes.append(f'{n}: 学費を置き換え（今は学部別の額が無い）')
