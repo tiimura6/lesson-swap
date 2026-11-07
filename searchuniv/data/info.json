@@ -104146,46 +104146,68 @@ null
 "year": "2026年度",
 "rows": [
 {
-"f": "国際学部・文学部",
+"f": "文学部 総合文化学科",
 "admission": 200000,
 "tuition": 916000,
 "facility": 293000,
-"practical": 0,
-"other": 0,
+"practical": null,
+"other": null,
 "first_year": 1409000,
 "four_year": null
 },
 {
-"f": "心理学部・生命環境学部",
+"f": "国際学部",
 "admission": 200000,
-"tuition": null,
-"facility": null,
-"practical": 0,
-"other": 0,
+"tuition": 916000,
+"facility": 293000,
+"practical": null,
+"other": null,
+"first_year": 1409000,
+"four_year": null
+},
+{
+"f": "心理学部 心理学科",
+"admission": 200000,
+"tuition": 978000,
+"facility": 329000,
+"practical": null,
+"other": null,
+"first_year": 1507000,
+"four_year": null
+},
+{
+"f": "生命環境学部 生命環境学科",
+"admission": 200000,
+"tuition": 978000,
+"facility": 329000,
+"practical": null,
+"other": null,
 "first_year": 1507000,
 "four_year": null
 },
 {
 "f": "音楽学部 音楽キャリアデザイン専攻",
 "admission": 200000,
-"tuition": null,
-"facility": null,
-"practical": 0,
-"other": 0,
+"tuition": 1050000,
+"facility": 350000,
+"practical": null,
+"other": null,
 "first_year": 1600000,
 "four_year": null
 },
 {
 "f": "音楽学部 音楽表現専攻",
 "admission": 200000,
-"tuition": null,
-"facility": null,
-"practical": 0,
-"other": 0,
+"tuition": 1151000,
+"facility": 543000,
+"practical": null,
+"other": null,
 "first_year": 1894000,
 "four_year": null
 }
-]
+],
+"note": "2026年度入学者（Kei-Net）。facility は教育充実費等。学生自治会費3,800円・家庭会費7,000円・めぐみ会費10,000円は入学後に徴収、履修科目により実験実習料が別途必要。",
+"source": "https://search.keinet.ne.jp/2565/outline/expense"
 },
 "scholar": {
 "year": "2027年度",
@@ -110584,6 +110606,453 @@ null
 "https://www.yukioka-u.ac.jp/assets/images/entrance/pdf/admission_2027.pdf",
 "https://passnavi.obunsha.co.jp/univ/4212/difficulty/",
 "https://search.keinet.ne.jp/2596/general/border_rate"
+]
+},
+"静岡文化芸術大学": {
+"faculties": [
+"文化政策学部",
+"デザイン学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"students": "2026-11-07",
+"founded": "2026-11-07",
+"access": "2026-11-07",
+"kyotsu": "2026-11-07",
+"licenses": "2026-11-07",
+"careers": "2026-11-07"
+},
+"departments": [
+{
+"f": "文化政策学部",
+"d": [
+"国際文化学科",
+"文化政策学科",
+"芸術文化学科"
+]
+},
+{
+"f": "デザイン学部",
+"d": [
+"デザイン学科"
+]
+}
+],
+"students": {
+"count": 1456,
+"year": 2025
+},
+"founded": "2000年4月 開学（2010年4月 公立大学法人に移行）",
+"access": "浜松市中央区中央2-1-1（キャンパスは1か所）",
+"kyotsu": {
+"kamoku": "2,3〜3,4教科3〜4科目（学科・日程により異なる）",
+"kyoka": [
+2,
+4
+],
+"rl": [
+"1:1"
+],
+"rl_text": "全学科・日程でR:L=1:1（配点は学科・日程により125:125〜50:50）",
+"note": "デザイン学科は前期で数学型・実技型・ポートフォリオ型、後期は実技（600点）",
+"year": "2027年度入試"
+},
+"licenses": [
+"中学校教諭一種（国語・英語・社会）",
+"高等学校教諭一種（国語・英語・公民）",
+"社会調査士",
+"司書",
+"学芸員",
+"一級建築士（受験資格）",
+"二級建築士（受験資格）",
+"木造建築士（受験資格）"
+],
+"careers": "2024年度卒は就職が中心（国際文化76.6%・文化政策93.2%・芸術文化90.4%・デザイン83.4%が就職）。",
+"sources": [
+"https://search.keinet.ne.jp/1571",
+"https://search.keinet.ne.jp/1571/outline/department",
+"https://search.keinet.ne.jp/1571/outline/licential",
+"https://search.keinet.ne.jp/1571/outline/admission_employment",
+"https://search.keinet.ne.jp/1571/general/exam_subject",
+"https://search.keinet.ne.jp/1571/recommend/exam_rec"
+]
+},
+"静岡県立大学": {
+"faculties": [
+"国際関係学部",
+"経営情報学部",
+"薬学部",
+"看護学部",
+"食品栄養科学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"students": "2026-11-07",
+"founded": "2026-11-07",
+"access": "2026-11-07",
+"kyotsu": "2026-11-07",
+"licenses": "2026-11-07",
+"careers": "2026-11-07"
+},
+"departments": [
+{
+"f": "国際関係学部",
+"d": [
+"国際関係学科（国際公共政策・国際開発・共生社会の専門プログラム）",
+"国際言語文化学科（グローバル・コミュニケーション、比較文化、日本研究、アジア研究、ヨーロッパ研究の専門プログラム）"
+]
+},
+{
+"f": "経営情報学部",
+"d": [
+"経営情報学科（経営・総合政策・データサイエンス・観光マネジメントのメジャー）"
+]
+},
+{
+"f": "薬学部",
+"d": [
+"薬学科（6年制）",
+"薬科学科（4年制）"
+]
+},
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+},
+{
+"f": "食品栄養科学部",
+"d": [
+"食品生命科学科",
+"栄養生命科学科",
+"環境生命科学科"
+]
+}
+],
+"students": {
+"count": 2938,
+"year": 2025
+},
+"founded": "1987年4月 開学（前身の静岡薬科大学は1953年）",
+"access": "草薙キャンパス：静岡市駿河区谷田52-1／小鹿キャンパス（看護学部）：静岡市駿河区小鹿2-2-1",
+"kyotsu": {
+"kamoku": "国際関係3教科3科目／経営情報4,5教科5〜6科目／薬5教科7科目／看護5教科6科目／食品栄養3〜5教科5〜7科目",
+"kyoka": [
+3,
+5
+],
+"rl": [
+"7:3",
+"1:1",
+"6:1",
+"2:1",
+"3:2"
+],
+"rl_text": "国際関係140:60（7:3）、経営情報100:100・後期50:50（1:1）、薬300:50（6:1）、看護200:100（2:1）、食品栄養150:100（3:2）",
+"note": "薬学部は中期日程。二次は国際関係が英語、経営情報が英語・数学（後期は面接）、薬が物理・化学、看護が面接、食品栄養が化学（後期は面接）",
+"year": "2027年度入試"
+},
+"licenses": [
+"高等学校教諭一種（国語・英語・数学・情報・商業・理科）",
+"社会調査士",
+"薬剤師（受験資格）",
+"臨床検査技師（受験資格）",
+"看護師（受験資格）",
+"保健師（受験資格）",
+"養護教諭二種",
+"管理栄養士（受験資格）",
+"栄養士",
+"栄養教諭一種",
+"食品衛生監視員",
+"技術士補（一部試験免除）"
+],
+"careers": "2024年度卒は国際関係・経営情報・看護・薬学科で就職が9割前後（看護95.0%・薬学科95.9%）。薬科学科は93.3%が進学、食品栄養科学部の各学科は35〜46%が進学。",
+"sources": [
+"https://search.keinet.ne.jp/univtop/1570",
+"https://search.keinet.ne.jp/1570/outline/department",
+"https://search.keinet.ne.jp/1570/outline/licential",
+"https://search.keinet.ne.jp/1570/outline/admission_employment",
+"https://search.keinet.ne.jp/1570/general/exam_subject"
+]
+},
+"三重県立看護大学": {
+"faculties": [
+"看護学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"students": "2026-11-07",
+"founded": "2026-11-07",
+"access": "2026-11-07",
+"kyotsu": "2026-11-07",
+"licenses": "2026-11-07",
+"careers": "2026-11-07"
+},
+"departments": [
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+}
+],
+"students": {
+"count": 409,
+"year": 2025
+},
+"founded": "1997年4月 開学",
+"access": "津市夢が丘1-1-1（キャンパスは1か所）",
+"kyotsu": {
+"kamoku": "6教科6科目",
+"kyoka": [
+6
+],
+"rl": [
+"1:1"
+],
+"rl_text": "R50:L50（1:1）",
+"note": "前期の二次は英語・数学または国語・面接。後期は面接のみで共テ750点満点",
+"year": "2027年度入試"
+},
+"licenses": [
+"看護師（受験資格）",
+"保健師（受験資格）",
+"助産師（受験資格）",
+"養護教諭二種"
+],
+"careers": "2024年度卒（96名）は就職95.9%・進学3.1%。",
+"sources": [
+"https://search.keinet.ne.jp/1586",
+"https://search.keinet.ne.jp/1586/outline/department",
+"https://search.keinet.ne.jp/1586/outline/licential",
+"https://search.keinet.ne.jp/1586/outline/admission_employment",
+"https://search.keinet.ne.jp/1586/general/exam_subject"
+]
+},
+"京都市立芸術大学": {
+"faculties": [
+"美術学部",
+"音楽学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"students": "2026-11-07",
+"founded": "2026-11-07",
+"access": "2026-11-07",
+"kyotsu": "2026-11-07",
+"licenses": "2026-11-07",
+"careers": "2026-11-07"
+},
+"departments": [
+{
+"f": "美術学部",
+"d": [
+"美術科（日本画・油画・彫刻・版画・構想設計）",
+"デザイン科（総合デザイン・デザインB）",
+"工芸科（陶磁器・漆工・染織）",
+"総合芸術学科"
+]
+},
+{
+"f": "音楽学部",
+"d": [
+"音楽学科（作曲・指揮・ピアノ・弦楽・管・打楽・声楽・音楽学の7専攻）"
+]
+}
+],
+"students": {
+"count": 827,
+"year": 2025
+},
+"founded": "1969年 京都市立芸術大学（起源は1880年の京都府画学校）",
+"access": "京都市下京区下之町57-1（2023年10月に京都駅東側へ移転）",
+"kyotsu": {
+"kamoku": "美術2教科〜5教科（美術・工芸・総合芸術4教科4科目、デザイン5教科5科目）／音楽2〜3教科2〜3科目",
+"kyoka": [
+2,
+5
+],
+"rl": [
+"7:3"
+],
+"rl_text": "全学部でR140:L60（7:3）",
+"note": "美術学部は前期、音楽学部は後期。個別は実技中心（美術750点、音楽1300点）。美術科・工芸科は共テ600点を500点に換算",
+"year": "2027年度入試"
+},
+"licenses": [
+"中学校教諭一種（美術・音楽）",
+"高等学校教諭一種（美術・工芸・音楽）",
+"学芸員"
+],
+"careers": "2024年度卒は進学と「その他」（制作・演奏活動など区分外）が多い。美術学部は就職約33%・進学約30%、音楽学部は就職15.3%・進学42.3%。",
+"sources": [
+"https://search.keinet.ne.jp/1590",
+"https://search.keinet.ne.jp/1590/outline/department",
+"https://search.keinet.ne.jp/1590/outline/licential",
+"https://search.keinet.ne.jp/1590/outline/admission_employment",
+"https://search.keinet.ne.jp/1590/general/exam_subject"
+]
+},
+"京都府立医科大学": {
+"faculties": [
+"医学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"students": "2026-11-07",
+"founded": "2026-11-07",
+"access": "2026-11-07",
+"kyotsu": "2026-11-07",
+"licenses": "2026-11-07",
+"careers": "2026-11-07"
+},
+"departments": [
+{
+"f": "医学部",
+"d": [
+"医学科（6年制）",
+"看護学科"
+]
+}
+],
+"students": {
+"count": 1008,
+"year": 2025
+},
+"founded": "1921年 京都府立医科大学（起源は1872年の療病院、1952年 新制大学）",
+"access": "河原町キャンパス：京都市上京区河原町通広小路上る梶井町465／広小路キャンパス（看護）：京都市上京区／下鴨キャンパス（医学科1年次・看護1〜2年次）：京都市左京区下鴨半木町1-5",
+"kyotsu": {
+"kamoku": "6教科（医学科は理系型、看護学科は6教科6〜7科目）",
+"kyoka": [
+6
+],
+"rl": [
+"1:1"
+],
+"rl_text": "医学科R50:L50、看護学科R100:L100（いずれも1:1）",
+"note": "前期のみ掲載。医学科の共テ:二次は500:600",
+"year": "2027年度入試"
+},
+"licenses": [
+"医師（受験資格）",
+"看護師（受験資格）",
+"保健師（受験資格）",
+"助産師（受験資格）",
+"養護教諭二種"
+],
+"careers": "看護学科の2024年度卒は就職89.3%・進学8.3%。医学科卒業生は統計上「その他」（臨床研修など）に区分。",
+"sources": [
+"https://search.keinet.ne.jp/1600",
+"https://search.keinet.ne.jp/1600/outline/department",
+"https://search.keinet.ne.jp/1600/outline/licential",
+"https://search.keinet.ne.jp/1600/outline/admission_employment",
+"https://search.keinet.ne.jp/1600/general/exam_subject"
+]
+},
+"京都府立大学": {
+"faculties": [
+"文学部",
+"社会科学部",
+"生命理工情報学部",
+"農学食科学部",
+"環境科学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"students": "2026-11-07",
+"founded": "2026-11-07",
+"access": "2026-11-07",
+"kyotsu": "2026-11-07",
+"licenses": "2026-11-07",
+"careers": "2026-11-07"
+},
+"departments": [
+{
+"f": "文学部",
+"d": [
+"日本・中国文化学科",
+"国際文化交流学科",
+"歴史学科"
+]
+},
+{
+"f": "社会科学部",
+"d": [
+"公共政策学科",
+"福祉社会学科"
+]
+},
+{
+"f": "生命理工情報学部",
+"d": [
+"生命化学科",
+"理工情報学科"
+]
+},
+{
+"f": "農学食科学部",
+"d": [
+"農学生命科学科",
+"栄養科学科",
+"和食文化科学科"
+]
+},
+{
+"f": "環境科学部",
+"d": [
+"森林科学科",
+"環境デザイン学科"
+]
+}
+],
+"students": {
+"count": 2004,
+"year": 2025
+},
+"founded": "1949年4月 西京大学として発足（1959年 京都府立大学に改称、起源は1895年の京都府簡易農学校）",
+"access": "下鴨キャンパス：京都市左京区下鴨半木町1-5／精華キャンパス：相楽郡精華町",
+"kyotsu": {
+"kamoku": "3教科3科目〜6教科（学科・日程により異なる）",
+"kyoka": [
+3,
+6
+],
+"rl": [
+"4:1"
+],
+"rl_text": "全学科・日程でR:L=4:1（配点は160:40など）",
+"note": "和食文化科学科は文系型（A）と理系型（B）で二次科目が異なる",
+"year": "2027年度入試"
+},
+"licenses": [
+"中学校教諭一種（国語・英語・社会・理科）",
+"高等学校教諭一種（国語・英語・地理歴史・公民・福祉・理科・農業）",
+"学芸員",
+"社会調査士",
+"社会教育主事",
+"社会福祉士（受験資格）",
+"認定心理士",
+"栄養教諭一種",
+"管理栄養士（受験資格）",
+"栄養士",
+"食品衛生監視員",
+"一級建築士（受験資格）",
+"二級建築士（受験資格）"
+],
+"careers": "2024年度卒（再編前の学科）は、文系の学科で就職が7〜9割、公共政策92.7%。生命分子化学80.0%・環境情報60.7%など理系の学科は大学院進学が多い。",
+"sources": [
+"https://search.keinet.ne.jp/1595",
+"https://search.keinet.ne.jp/1595/outline/department",
+"https://search.keinet.ne.jp/1595/outline/licential",
+"https://search.keinet.ne.jp/1595/outline/admission_employment",
+"https://search.keinet.ne.jp/1595/general/exam_subject"
 ]
 }
 }

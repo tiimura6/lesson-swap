@@ -1,55 +1,6 @@
 {
 "add": [
 {
-"name": "長野県立大学",
-"type": "公立",
-"pref": "長野県",
-"hp": "http://www.u-nagano.ac.jp/",
-"cat": "public"
-},
-{
-"name": "静岡文化芸術大学",
-"type": "公立",
-"pref": "静岡県",
-"hp": "http://www.suac.ac.jp/",
-"cat": "public"
-},
-{
-"name": "静岡県立大学",
-"type": "公立",
-"pref": "静岡県",
-"hp": "http://www.u-shizuoka-ken.ac.jp/",
-"cat": "public"
-},
-{
-"name": "三重県立看護大学",
-"type": "公立",
-"pref": "三重県",
-"hp": "http://www.mcn.ac.jp/",
-"cat": "public"
-},
-{
-"name": "京都市立芸術大学",
-"type": "公立",
-"pref": "京都府",
-"hp": "http://www.kcua.ac.jp/",
-"cat": "public"
-},
-{
-"name": "京都府立医科大学",
-"type": "公立",
-"pref": "京都府",
-"hp": "http://www.kpu-m.ac.jp/",
-"cat": "public"
-},
-{
-"name": "京都府立大学",
-"type": "公立",
-"pref": "京都府",
-"hp": "http://www.kpu.ac.jp/",
-"cat": "public"
-},
-{
 "name": "兵庫県立大学",
 "type": "公立",
 "pref": "兵庫県",
@@ -341,6 +292,13 @@
 "type": "公立",
 "pref": "秋田県",
 "hp": "http://www.akibi.ac.jp/",
+"cat": "public"
+},
+{
+"name": "長野県立大学",
+"type": "公立",
+"pref": "長野県",
+"hp": "http://www.u-nagano.ac.jp/",
 "cat": "public"
 },
 {
@@ -3673,6 +3631,30 @@
 {
 "name": "長野県看護大学",
 "op": "add"
+},
+{
+"name": "静岡文化芸術大学",
+"op": "add"
+},
+{
+"name": "静岡県立大学",
+"op": "add"
+},
+{
+"name": "三重県立看護大学",
+"op": "add"
+},
+{
+"name": "京都市立芸術大学",
+"op": "add"
+},
+{
+"name": "京都府立医科大学",
+"op": "add"
+},
+{
+"name": "京都府立大学",
+"op": "add"
 }
 ],
 "failed": [],
@@ -3703,7 +3685,8 @@
 "南九州大学": 1,
 "宮崎国際大学": 1,
 "沖縄国際大学": 1,
-"沖縄大学": 1
+"沖縄大学": 1,
+"長野県立大学": 1
 },
 "enrich": [
 {
@@ -3936,54 +3919,6 @@
 },
 {
 "name": "森ノ宮医療大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "神戸女子大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "神戸女学院大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "神戸学院大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "神戸常盤大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "畿央大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "皇學館大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "相愛大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "神戸医療未来大学",
 "need": [
 "verify"
 ]
@@ -19876,6 +19811,102 @@
 "name": "大阪行岡医療大学",
 "need": [
 "scholar"
+]
+},
+{
+"name": "神戸女子大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "神戸女学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "神戸学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "神戸常盤大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "畿央大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "皇學館大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "相愛大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "神戸医療未来大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "静岡文化芸術大学",
+"keinet": "1571",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "静岡県立大学",
+"keinet": "1570",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "三重県立看護大学",
+"keinet": "1586",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "京都市立芸術大学",
+"keinet": "1590",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "京都府立医科大学",
+"keinet": "1600",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "京都府立大学",
+"keinet": "1595",
+"need": [
+"extra",
+"partners"
 ]
 }
 ],
