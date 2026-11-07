@@ -712,11 +712,14 @@ function csvParse(t){ const rows=[]; let r=[],f="",q=false; t=t.replace(/^﻿/,"
   for(let i=0;i<t.length;i++){ const c=t[i]; if(q){ if(c==='"'){ if(t[i+1]==='"'){ f+='"'; i++; } else q=false; } else f+=c; }
     else if(c==='"') q=true; else if(c===','){ r.push(f); f=""; } else if(c==='\n'||c==='\r'){ if(c==='\r'&&t[i+1]==='\n') i++; r.push(f); rows.push(r); r=[]; f=""; } else f+=c; }
   if(f!==""||r.length){ r.push(f); rows.push(r); } return rows.filter(x=>x.some(v=>v!=="")); }
-$("stu-exp").onclick=()=>{ const all=stuAll(), ids=Object.keys(all).sort((a,b)=>a.localeCompare(b,"ja",{numeric:true})); if(!ids.length){ stuMsg("保存済みの生徒がいません。"); return; }
+$("stu-exp").onclick=async()=>{ const all=stuAll(), ids=Object.keys(all).sort((a,b)=>a.localeCompare(b,"ja",{numeric:true})); if(!ids.length){ stuMsg("保存済みの生徒がいません。"); return; }
   const fs=stuFields(), keys=fs.map(stuFieldKey), heads=["クラス[_c]","番号[_n]","更新日[_updated]","担当[_teacher]",...fs.map(e=>stuLabel(e)+"["+stuFieldKey(e)+"]")];
   const lines=[heads.map(csvCell).join(",")].concat(ids.map(id=>{ const d=all[id], m=id.match(/^(.*)-(\d+)$/)||[,id,""]; return [m[1],m[2],(d._updated||"").slice(0,10),d._teacher||"",...keys.map(k=>d[k]||"")].map(csvCell).join(","); }));
-  const blob=new Blob(["﻿"+lines.join("\r\n")],{type:"text/csv"}), a=document.createElement("a");
-  a.href=URL.createObjectURL(blob); a.download="進路面談_"+(stuTeacher()||"記録")+"_"+new Date().toISOString().slice(0,10)+".csv"; BODY.appendChild(a); a.click(); setTimeout(()=>{ URL.revokeObjectURL(a.href); a.remove(); },500);
+  const fname="進路面談_"+(stuTeacher()||"記録")+"_"+new Date().toISOString().slice(0,10)+".csv", data="\uFEFF"+lines.join("\r\n");
+  // Claude のアーティファクト版では downloads 機能で保存（ふつうのリンクは使えないため）
+  let dl=null; try{ dl=(window.claude&&claude.use)?await claude.use("downloads"):null; }catch(e){}
+  if(dl){ try{ await dl.save({filename:fname,data}); stuMsg(ids.length+"人分を書き出しました。"); }catch(e){ stuMsg("書き出しを中止しました。"); } return; }
+  const a=document.createElement("a"); a.href=URL.createObjectURL(new Blob([data],{type:"text/csv"})); a.download=fname; BODY.appendChild(a); a.click(); setTimeout(()=>{ URL.revokeObjectURL(a.href); a.remove(); },500);
   stuMsg(ids.length+"人分を書き出しました。"); };
 $("stu-imp").onchange=async e=>{ const file=e.target.files[0]; if(!file) return; e.target.value="";
   try{ const rows=csvParse(await file.text()); if(rows.length<2) throw new Error("中身がありません");
