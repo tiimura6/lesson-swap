@@ -88301,5 +88301,194 @@
 "https://search.keinet.ne.jp/1544/outline/admission_employment",
 "https://search.keinet.ne.jp/1544/general/exam_subject"
 ]
+},
+"鹿児島国際大学": {
+"faculties": [
+"経済学部",
+"福祉社会学部",
+"国際文化学部",
+"看護学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"access": "2026-11-07",
+"licenses": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "経済学部",
+"d": [
+"経済学科",
+"経営学科"
+]
+},
+{
+"f": "福祉社会学部",
+"d": [
+"社会福祉学科",
+"児童学科"
+]
+},
+{
+"f": "国際文化学部",
+"d": [
+"国際文化学科",
+"音楽学科"
+]
+},
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+}
+],
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜",
+"kyotsu": "課さない",
+"niji": "学科試験（3教科）、面接（看護学科のみ）",
+"content": null,
+"req": "高等学校卒業または2027年3月卒業見込みの者",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3966/nyushi/hoshiki/ippan/"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜（経済・福祉社会・国際文化・看護）",
+"apply": "1/4〜1/27",
+"exam": "2/5",
+"result": "2/18",
+"proc": "3/10",
+"fee": null
+}
+]
+},
+"access": "坂之上キャンパス：JR指宿枕崎線「坂之上駅」徒歩約15分",
+"licenses": [
+"看護師国家試験受験資格（看護学科）",
+"保健師国家試験受験資格（看護学科）",
+"社会福祉士受験資格（社会福祉学科）",
+"保育士・幼稚園教諭一種（児童学科）",
+"中学校・高等学校教諭一種免許状"
+],
+"careers": "地元金融機関、一般企業（流通・サービス・IT）、病院・医療施設、福祉施設、公務員、教員など。",
+"_via": "external-ai",
+"sources": [
+"https://www.iuk.ac.jp/",
+"https://manabi.benesse.ne.jp/daigaku/school/3966/nyushi/hoshiki/ippan/"
+]
+},
+"鹿児島純心大学": {
+"faculties": [
+"人間教育学部",
+"看護栄養学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"access": "2026-11-07",
+"licenses": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "人間教育学部",
+"d": [
+"教育・心理学科"
+]
+},
+{
+"f": "看護栄養学部",
+"d": [
+"看護学科",
+"健康栄養学科"
+]
+}
+],
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜（前期）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": "高等学校卒業または2027年3月卒業見込みの者",
+"url": "https://www.k-junshin.ac.jp/jundai/ouen/exam/"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜（A日程）",
+"kyotsu": "指定教科科目",
+"niji": null,
+"content": null,
+"req": "令和9年度大学入学共通テスト受験者",
+"url": "https://www.k-junshin.ac.jp/jundai/ouen/exam/"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 A日程",
+"apply": "1/6〜2/1",
+"exam": "大学入学共通テスト",
+"result": "2/15",
+"proc": "3/10",
+"fee": null
+}
+]
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "看護学科",
+"admission": 350000,
+"tuition": 800000,
+"facility": 395000,
+"practical": 150000,
+"other": 25000,
+"first_year": 1720000,
+"four_year": null
+}
+]
+},
+"access": "川内キャンパス：JR鹿児島本線・九州新幹線「川内駅」よりスクールバス運行",
+"licenses": [
+"看護師国家試験受験資格（看護学科）",
+"保健師国家試験受験資格（看護学科選択制）",
+"管理栄養士国家試験受験資格（健康栄養学科）",
+"栄養教諭一種・公認心理師受験資格対応（教育・心理学科）",
+"小学校教諭一種・幼稚園教諭一種・特別支援学校教諭一種（教育・心理学科）"
+],
+"careers": "病院・医療機関、小学校・特別支援学校・幼稚園・保育所、給食管理・食品関連企業、福祉施設、公務員など。",
+"_via": "external-ai",
+"sources": [
+"https://www.k-junshin.ac.jp/jundai/",
+"https://www.k-junshin.ac.jp/jundai/ouen/exam/",
+"https://search.keinet.ne.jp/2791/outline/expense",
+"https://manabi.benesse.ne.jp/daigaku/school/3967/nyushi/"
+]
 }
 }

@@ -4082,20 +4082,6 @@
 "cat": "private"
 },
 {
-"name": "鹿児島国際大学",
-"type": "私立",
-"pref": "鹿児島県",
-"hp": "https://www.iuk.ac.jp/",
-"cat": "private"
-},
-{
-"name": "鹿児島純心大学",
-"type": "私立",
-"pref": "鹿児島県",
-"hp": "https://www.k-junshin.ac.jp/jundai/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -4757,6 +4743,18 @@
 "九州大学": 1
 },
 "enrich": [
+{
+"name": "鹿児島国際大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "鹿児島純心大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "鎮西学院大学",
 "need": [
@@ -16507,6 +16505,54 @@
 "keinet": "1105",
 "need": [
 "schedule_dates"
+]
+},
+{
+"name": "鹿児島国際大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "鹿児島国際大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "鹿児島国際大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "鹿児島国際大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "鹿児島純心大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "鹿児島純心大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "鹿児島純心大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "鹿児島純心大学",
+"need": [
+"scholar"
 ]
 }
 ],

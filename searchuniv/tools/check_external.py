@@ -55,7 +55,7 @@ def main(path):
         # 日程：2027-02-06 → 2/6 に揃え、日付が1つも無い行は落とす
         sc = info.get('schedule')
         if isinstance(sc, dict) and isinstance(sc.get('rows'), list):
-            iso = lambda s: re.sub(r'20\d\d-0?(\d{1,2})-0?(\d{1,2})', r'\1/\2', s) if isinstance(s, str) else s
+            iso = lambda s: re.sub(r'20\d\d[-/]0?(\d{1,2})[-/]0?(\d{1,2})', r'\1/\2', s).replace('～', '〜') if isinstance(s, str) else s
             rows = [{k: (iso(v) if k in ('apply', 'exam', 'result', 'proc') else v) for k, v in z.items()} for z in sc['rows'] if isinstance(z, dict)]
             kept = [z for z in rows if any(z.get(k) for k in ('apply', 'exam', 'result', 'proc'))]
             if len(kept) < len(rows): notes.append(f'{n}: 日付の無い日程の行を {len(rows) - len(kept)} 件落とした')
