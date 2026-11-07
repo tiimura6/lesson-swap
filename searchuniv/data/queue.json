@@ -2367,41 +2367,6 @@
 "cat": "private"
 },
 {
-"name": "松本大学",
-"type": "私立",
-"pref": "長野県",
-"hp": "https://www.matsumoto-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "松本歯科大学",
-"type": "私立",
-"pref": "長野県",
-"hp": "https://www.mdu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "松本看護大学",
-"type": "私立",
-"pref": "長野県",
-"hp": "https://www.matsutan.jp/nursing",
-"cat": "private"
-},
-{
-"name": "桜花学園大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.ohkagakuen-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "椙山女学園大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.sugiyama-u.ac.jp/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -3164,6 +3129,36 @@
 "長野県立大学": 1
 },
 "enrich": [
+{
+"name": "松本大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "松本歯科大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "松本看護大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "桜花学園大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "椙山女学園大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "日本赤十字豊田看護大学",
 "need": [
@@ -21570,6 +21565,126 @@
 },
 {
 "name": "東海学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "松本大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "松本大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "松本大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "松本大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "松本歯科大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "松本歯科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "松本歯科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "松本歯科大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "松本看護大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "松本看護大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "松本看護大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "松本看護大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "桜花学園大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "桜花学園大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "桜花学園大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "桜花学園大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "椙山女学園大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "椙山女学園大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "椙山女学園大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "椙山女学園大学",
 "need": [
 "scholar"
 ]
