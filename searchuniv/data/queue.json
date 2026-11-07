@@ -2969,41 +2969,6 @@
 "cat": "private"
 },
 {
-"name": "大阪樟蔭女子大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.osaka-shoin.ac.jp/univ/",
-"cat": "private"
-},
-{
-"name": "大阪歯科大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.osaka-dent.ac.jp/",
-"cat": "private"
-},
-{
-"name": "大阪河﨑リハビリテーション大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.kawasakigakuen.ac.jp/index.html",
-"cat": "private"
-},
-{
-"name": "大阪物療大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.butsuryo.ac.jp/",
-"cat": "private"
-},
-{
-"name": "大阪産業大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.osaka-sandai.ac.jp/",
-"cat": "private"
-},
-{
 "name": "大阪経済大学",
 "type": "私立",
 "pref": "大阪府",
@@ -3776,6 +3741,36 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "大阪樟蔭女子大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "大阪歯科大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "大阪河﨑リハビリテーション大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "大阪物療大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "大阪産業大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "太成学院大学",
 "need": [
@@ -19644,6 +19639,126 @@
 },
 {
 "name": "姫路獨協大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大阪樟蔭女子大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大阪樟蔭女子大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪樟蔭女子大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪樟蔭女子大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大阪歯科大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大阪歯科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪歯科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪歯科大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大阪河﨑リハビリテーション大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大阪河﨑リハビリテーション大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪河﨑リハビリテーション大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪河﨑リハビリテーション大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大阪物療大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大阪物療大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪物療大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪物療大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大阪産業大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大阪産業大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪産業大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪産業大学",
 "need": [
 "scholar"
 ]
