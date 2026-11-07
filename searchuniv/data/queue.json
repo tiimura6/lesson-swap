@@ -2437,41 +2437,6 @@
 "cat": "private"
 },
 {
-"name": "浜松学院大学",
-"type": "私立",
-"pref": "静岡県",
-"hp": "https://www.hamagaku.ac.jp/",
-"cat": "private"
-},
-{
-"name": "清泉女学院大学",
-"type": "私立",
-"pref": "長野県",
-"hp": "https://www.seisen-jc.ac.jp/",
-"cat": "private"
-},
-{
-"name": "福井医療大学",
-"type": "私立",
-"pref": "福井県",
-"hp": "https://www.fukui-hsu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "福井工業大学",
-"type": "私立",
-"pref": "福井県",
-"hp": "https://www.fukui-ut.ac.jp/",
-"cat": "private"
-},
-{
-"name": "聖隷クリストファー大学",
-"type": "私立",
-"pref": "静岡県",
-"hp": "https://www.seirei.ac.jp/index.php",
-"cat": "private"
-},
-{
 "name": "至学館大学",
 "type": "私立",
 "pref": "愛知県",
@@ -3269,6 +3234,36 @@
 "長野県立大学": 1
 },
 "enrich": [
+{
+"name": "浜松学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "清泉女学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "福井医療大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "福井工業大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "聖隷クリストファー大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "金沢星稜大学",
 "need": [
@@ -21225,6 +21220,126 @@
 },
 {
 "name": "静岡理工科大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "浜松学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "浜松学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "浜松学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "浜松学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "清泉女学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "清泉女学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "清泉女学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "清泉女学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "福井医療大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "福井医療大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "福井医療大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "福井医療大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "福井工業大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "福井工業大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "福井工業大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "福井工業大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "聖隷クリストファー大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "聖隷クリストファー大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "聖隷クリストファー大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "聖隷クリストファー大学",
 "need": [
 "scholar"
 ]
