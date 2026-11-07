@@ -21,7 +21,7 @@ def deep_clean(o):
     if isinstance(o, str) and o.startswith('http') and 'utm_' in o: return re.sub(r'[?&]utm_[^#]*', '', o)  # 広告の追跡用の文字を外す
     return o
 # 数字の項目は、その数字が載っているページ（学費ページ・河合塾など）が出典に無ければ取り込まない
-NEED_SRC = {'money': r'gakuhi|tuition|fee|noufu|nofu|gakuhi|expense|cost|passnavi|keinet|manabi|学費|納付',
+NEED_SRC = {'money': r'academicpay|gakunou|gakuno|gakuhi|tuition|fee|noufu|nofu|gakuhi|expense|cost|passnavi|keinet|manabi|学費|納付',
             'difficulty': r'keinet|passnavi|manabi', 'fdiff': r'keinet|passnavi|manabi'}
 def main(path):
     raw = open(path, encoding='utf-8').read().strip()
@@ -79,6 +79,14 @@ def main(path):
                     for k in ks:
                         if row[k] == 0: row[k] = None
                     notes.append(f"{n}: 学費「{row.get('f')}」は内訳の合計が初年度の額と合わない")
+        # 入試方式のリンクが大学のトップページなら外す（入試の資料ではない）
+        hp = (r.get('hp') or '').rstrip('/')
+        for row in ((info.get('methods') or {}).get('list') or []):
+            if isinstance(row, dict) and hp and (row.get('url') or '').rstrip('/') == hp: row['url'] = None
+        # 6年制の行の four_year は「4年間合計」と誤解されるので外す（6年間の総額は特色・メモに書く）
+        for row in ((info.get('money') or {}).get('rows') or []):
+            if isinstance(row, dict) and row.get('four_year') and re.search(r'6年', str(row.get('f', ''))):
+                notes.append(f"{n}: 学費「{row.get('f')}」の総額 {row['four_year']:,} 円は6年間分なので four_year から外した"); row['four_year'] = None
         # 中身が空の入れ物（rows/list/events が空）は落とす
         for k in list(info):
             v = info[k]

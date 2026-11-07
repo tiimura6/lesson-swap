@@ -3599,41 +3599,6 @@
 "cat": "private"
 },
 {
-"name": "岡山学院大学",
-"type": "私立",
-"pref": "岡山県",
-"hp": "https://www.owc.ac.jp/",
-"cat": "private"
-},
-{
-"name": "岡山理科大学",
-"type": "私立",
-"pref": "岡山県",
-"hp": "https://www.ous.ac.jp/",
-"cat": "private"
-},
-{
-"name": "川崎医療福祉大学",
-"type": "私立",
-"pref": "岡山県",
-"hp": "https://w.kawasaki-m.ac.jp/",
-"cat": "private"
-},
-{
-"name": "川崎医科大学",
-"type": "私立",
-"pref": "岡山県",
-"hp": "https://m.kawasaki-m.ac.jp/",
-"cat": "private"
-},
-{
-"name": "広島修道大学",
-"type": "私立",
-"pref": "広島県",
-"hp": "https://www.shudo-u.ac.jp/",
-"cat": "private"
-},
-{
 "name": "広島国際大学",
 "type": "私立",
 "pref": "広島県",
@@ -4406,6 +4371,36 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "岡山学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "岡山理科大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "川崎医療福祉大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "川崎医科大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "広島修道大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "松山大学",
 "need": [
@@ -17664,6 +17659,126 @@
 },
 {
 "name": "環太平洋大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "岡山学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "岡山学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "岡山学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "岡山学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "岡山理科大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "岡山理科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "岡山理科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "岡山理科大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "川崎医療福祉大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "川崎医療福祉大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "川崎医療福祉大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "川崎医療福祉大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "川崎医科大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "川崎医科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "川崎医科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "川崎医科大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "広島修道大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "広島修道大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "広島修道大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "広島修道大学",
 "need": [
 "scholar"
 ]
