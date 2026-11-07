@@ -1,20 +1,6 @@
 {
 "add": [
 {
-"name": "島根県立大学",
-"type": "公立",
-"pref": "島根県",
-"hp": "http://www.u-shimane.ac.jp/",
-"cat": "public"
-},
-{
-"name": "広島市立大学",
-"type": "公立",
-"pref": "広島県",
-"hp": "http://www.hiroshima-cu.ac.jp/",
-"cat": "public"
-},
-{
 "name": "愛媛県立医療技術大学",
 "type": "公立",
 "pref": "愛媛県",
@@ -2788,19 +2774,104 @@
 "need": [
 "schedule_dates"
 ]
+},
+{
+"name": "神戸大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "東京外国語大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "お茶の水女子大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "神戸大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "筑波大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "茨城大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "千葉大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "埼玉大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "横浜国立大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "東京外国語大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "お茶の水女子大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "千葉大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "島根県立大学",
+"op": "add"
+},
+{
+"name": "広島市立大学",
+"op": "add"
 }
 ],
 "failed": [],
 "fail_count": {
 "室蘭工業大学": 1,
 "東京科学大学": 2,
-"神戸大学": 1,
-"筑波大学": 1,
-"茨城大学": 1,
-"千葉大学": 2,
-"埼玉大学": 1,
-"横浜国立大学": 1,
-"東京外国語大学": 1,
 "三重大学": 1,
 "国立看護大学校": 1,
 "電動モビリティシステム専門職大学": 1,
@@ -4506,27 +4577,6 @@
 ]
 },
 {
-"name": "神戸大学",
-"keinet": "1310",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "東京外国語大学",
-"keinet": "1130",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "お茶の水女子大学",
-"keinet": "1110",
-"need": [
-"schedule_dates"
-]
-},
-{
 "name": "東京学芸大学",
 "keinet": "1135",
 "need": [
@@ -5906,62 +5956,6 @@
 },
 {
 "name": "電動モビリティシステム専門職大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "神戸大学",
-"keinet": "1310",
-"need": [
-"fees"
-]
-},
-{
-"name": "筑波大学",
-"keinet": "1085",
-"need": [
-"fees"
-]
-},
-{
-"name": "茨城大学",
-"keinet": "1075",
-"need": [
-"fees"
-]
-},
-{
-"name": "千葉大学",
-"keinet": "1105",
-"need": [
-"fees"
-]
-},
-{
-"name": "埼玉大学",
-"keinet": "1100",
-"need": [
-"fees"
-]
-},
-{
-"name": "横浜国立大学",
-"keinet": "1170",
-"need": [
-"fees"
-]
-},
-{
-"name": "東京外国語大学",
-"keinet": "1130",
-"need": [
-"fees"
-]
-},
-{
-"name": "お茶の水女子大学",
-"keinet": "1110",
 "need": [
 "fees"
 ]
@@ -16047,13 +16041,6 @@
 ]
 },
 {
-"name": "千葉大学",
-"keinet": "1105",
-"need": [
-"schedule_dates"
-]
-},
-{
 "name": "鹿児島国際大学",
 "need": [
 "methods"
@@ -23218,6 +23205,24 @@
 "name": "郡山女子大学",
 "need": [
 "scholar"
+]
+},
+{
+"name": "島根県立大学",
+"keinet": "1647",
+"need": [
+"extra",
+"partners",
+"licenses"
+]
+},
+{
+"name": "広島市立大学",
+"keinet": "1658",
+"need": [
+"extra",
+"partners",
+"licenses"
 ]
 }
 ],
