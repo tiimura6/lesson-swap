@@ -1338,11 +1338,15 @@
 
     /* ===== 大学検索（Searchuniv を Shadow DOM で組み込み。中のCSSはここから影響を受けない） ===== */
     #viewUniv .univ-bar { display:flex; flex-wrap:wrap; align-items:center; gap:6px 8px; margin:2px 2px 8px; font-family:-apple-system, BlinkMacSystemFont, "Hiragino Sans", "Meiryo", sans-serif; }
-    #viewUniv .univ-title { font-size:1.1rem; font-weight:700; margin-right:auto; }
+    #viewUniv .univ-sp { flex:1; }
+    #viewUniv .univ-seg { display:inline-flex; gap:2px; padding:3px; background:#ececf0; border-radius:10px; max-width:100%; overflow-x:auto; }
+    #viewUniv .univ-seg button { border:none; background:transparent; border-radius:8px; padding:6px 14px; font:600 0.9rem -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Meiryo", sans-serif; color:#1d1d1f; white-space:nowrap; cursor:pointer; }
+    #viewUniv .univ-seg button[aria-selected="true"] { background:#fff; box-shadow:0 1px 3px rgba(0,0,0,.14); }
     #viewUniv .univ-msg { display:flex; align-items:center; justify-content:center; gap:8px; min-height:240px; color:#6e6e73; background:#fff; border-radius:16px; box-shadow:0 0 0 1px #e5e5ea; padding:20px; text-align:center; flex-wrap:wrap; }
     #viewUniv .univ-msg[hidden] { display:none; }
     #viewUniv .univ-msg button, #viewUniv .univ-msg a { border:none; cursor:pointer; font:600 0.85rem -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif; color:#0071e3; background:#f2f2f7; border-radius:980px; padding:6px 14px; text-decoration:none; }
-    .vtab .univ-badge { display:inline-block; min-width:18px; margin-left:5px; padding:0 5px; border-radius:980px; background:#0071e3; color:#fff; font-size:0.72rem; font-weight:700; line-height:18px; text-align:center; }
+    .univ-badge[hidden] { display:none !important; }
+    .univ-seg .univ-badge, .vtab .univ-badge { display:inline-block; min-width:18px; margin-left:5px; padding:0 5px; border-radius:980px; background:#0071e3; color:#fff; font-size:0.72rem; font-weight:700; line-height:18px; text-align:center; }
 </style>
 
   <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
@@ -1472,10 +1476,7 @@
     <button type="button" role="tab" class="vtab active" data-view="home" aria-selected="true">🏠 ホーム</button>
     <button type="button" role="tab" class="vtab" data-view="swap" aria-selected="false">🔁 授業交換</button>
     <button type="button" role="tab" class="vtab" data-view="class" aria-selected="false">📋 クラス別時間割</button>
-    <button type="button" role="tab" class="vtab" data-view="univ" aria-selected="false">🎓 大学検索</button>
-    <button type="button" role="tab" class="vtab" data-view="univ-ai" aria-selected="false">🗣 進路面談</button>
-    <button type="button" role="tab" class="vtab" data-view="univ-plan" aria-selected="false">⚖ 大学比較</button>
-    <button type="button" role="tab" class="vtab" data-view="univ-trend" aria-selected="false">📚 出題内容</button>
+    <button type="button" role="tab" class="vtab" data-view="univ" aria-selected="false">🎓 大学・進路</button>
     <button type="button" role="tab" class="vtab" data-view="clean" aria-selected="false">🧹 清掃当番作成</button>
     <button type="button" role="tab" class="vtab" data-view="exam" aria-selected="false">📝 試験監督割当</button>
   </nav>
@@ -1870,7 +1871,13 @@
 
   <div id="viewUniv" class="view hidden">
     <div class="univ-bar">
-      <span class="univ-title" id="univTitle">🎓 大学検索</span>
+      <div class="univ-seg" id="univSeg" role="tablist" aria-label="大学・進路の画面">
+        <button type="button" role="tab" data-sub="map" aria-selected="true">🎓 大学検索</button>
+        <button type="button" role="tab" data-sub="ai" aria-selected="false">🗣 進路面談</button>
+        <button type="button" role="tab" data-sub="plan" aria-selected="false">⚖ 大学比較<span class="univ-badge" hidden></span></button>
+        <button type="button" role="tab" data-sub="trend" aria-selected="false">📚 出題内容</button>
+      </div>
+      <span class="univ-sp"></span>
       <span class="tt-counter" data-key="univ">累計検索数 <b>…</b>回</span>
     </div>
     <div class="univ-msg" id="univMsg"><span class="spin"></span>読み込み中…</div>
@@ -1906,7 +1913,7 @@
     let firstShow = true;
     function show(name, push){
       if(!views[name]) name = 'home';
-      tabs.forEach(t => { const on = t.dataset.view === name; t.classList.toggle('active', on); t.setAttribute('aria-selected', String(on)); });
+      tabs.forEach(t => { const on = views[t.dataset.view] === views[name]; t.classList.toggle('active', on); t.setAttribute('aria-selected', String(on)); });
       placeCalendar(name);
       new Set(Object.values(views)).forEach(id => document.getElementById(id).classList.toggle('hidden', id !== views[name]));
       const shown = document.getElementById(views[name]);
@@ -12472,17 +12479,21 @@
   })();
   </script>
   <script>
-  // ===== 大学検索・進路面談・大学比較・出題内容（Searchuniv を直接組み込み） =====
+  // ===== 大学・進路タブ（大学検索・進路面談・大学比較・出題内容。Searchuniv を直接組み込み） =====
   // Searchuniv 本体はこのリポジトリの searchuniv/ フォルダ（su-module.js は searchuniv/tools/build.py が自動生成）。タブを開いたときに読み込む。
   // 不具合を防ぐ仕組み：Shadow DOM でCSS・IDを分離／URL(#)を使わない／apiVersion の確認／読み込み失敗・時間切れ時は再試行ボタン／エラーは操作ログへ
   (function(){
     const API_VERSION = 1;
     const SUB = { univ: 'map', 'univ-ai': 'ai', 'univ-plan': 'plan', 'univ-trend': 'trend' };
     const TAB = { map: 'univ', ai: 'univ-ai', plan: 'univ-plan', trend: 'univ-trend' };
-    const TITLE = { map: '🎓 大学検索', ai: '🗣 進路面談', plan: '⚖ 大学比較', trend: '📚 出題内容' };
     const BASE = /^https?:$/.test(location.protocol) ? new URL('searchuniv/', location.href).href : 'https://tiimura6.github.io/lesson-swap/searchuniv/';
     const K_CANDS = 'searchuniv:cands';
-    const host = document.getElementById('univHost'), msg = document.getElementById('univMsg'), title = document.getElementById('univTitle');
+    const host = document.getElementById('univHost'), msg = document.getElementById('univMsg'), seg = document.getElementById('univSeg');
+    const mainTab = document.querySelector('#viewTabs [data-view="univ"]');
+    function mark(v){ seg.querySelectorAll('[data-sub]').forEach(b => b.setAttribute('aria-selected', String(b.dataset.sub === v))); }
+    seg.querySelectorAll('[data-sub]').forEach(b => b.addEventListener('click', () => go(b.dataset.sub)));
+    // 画面内の切り替え（URL は #univ / #univ-ai などにして、再読み込みしても同じ画面に戻る）
+    function go(v){ want = v; mark(v); try { history.replaceState(null, '', '#' + (TAB[v] || 'univ')); } catch(e){} load().then(a => { if(a.view() !== v) a.showView(v); }).catch(() => {}); }
     let api = null, loading = null, want = 'map';
     const log = (a, d) => { try { if(window.ttLog) window.ttLog(a, d); } catch(e){} };
 
@@ -12515,23 +12526,23 @@
     }
     // Searchuniv の中で画面が変わったら（例：「出題内容」ボタン）、上のタブも合わせる
     function syncTab(v){
-      title.textContent = TITLE[v] || TITLE.map;
-      const t = document.querySelector('#viewTabs [data-view="' + (TAB[v] || 'univ') + '"]');
-      if(t && t.getAttribute('aria-selected') !== 'true') t.click();
+      want = v; mark(v);
+      try { history.replaceState(null, '', '#' + (TAB[v] || 'univ')); } catch(e){}
+      if(mainTab && mainTab.getAttribute('aria-selected') !== 'true') mainTab.click();
     }
     window.addEventListener('tt:view', e => {
-      const v = SUB[e.detail]; if(!v) return;
-      want = v; title.textContent = TITLE[v];
+      let v = SUB[e.detail]; if(!v) return;
+      if(e.detail === 'univ' && api) v = want;   // タブに戻ったときは前回の画面のまま
+      want = v; mark(v);
       load().then(a => { if(a.view() !== v) a.showView(v); }).catch(() => {});
     });
     // 比較候補の件数を「大学比較」タブに表示（保存場所は Searchuniv と共通）
-    const planTab = document.querySelector('#viewTabs [data-view="univ-plan"]');
+    const planBadge = seg.querySelector('[data-sub="plan"] .univ-badge');
     function cands(){ try { return JSON.parse(localStorage.getItem(K_CANDS) || '[]'); } catch(e){ return []; } }
     function badge(){
-      if(!planTab) return; let b = planTab.querySelector('.univ-badge'); const n = cands().length;
-      if(!n){ if(b) b.remove(); return; }
-      if(!b){ b = document.createElement('span'); b.className = 'univ-badge'; planTab.appendChild(b); }
-      b.textContent = n; b.title = '比較候補 ' + n + '校';
+      const n = cands().length;
+      [planBadge, mainTab && (mainTab.querySelector('.univ-badge') || mainTab.appendChild(Object.assign(document.createElement('span'), { className: 'univ-badge' })))].forEach(b => {
+        if(!b) return; b.hidden = !n; b.textContent = n; b.title = '比較候補 ' + n + '校'; });
     }
     window.addEventListener('storage', e => { if(e.key === K_CANDS) badge(); });
     badge();
@@ -12551,8 +12562,8 @@
     window.addEventListener('error', e => { if(String(e.filename || '').includes('su-module.js')) log('大学検索エラー', (e.message || '').slice(0, 80)); });
     // 他の画面から使う窓口：ttUniv.open('京都大学') で大学検索を開いてその大学を表示
     window.ttUniv = Object.freeze({
-      open(name){ const t = document.querySelector('#viewTabs [data-view="univ"]'); if(t) t.click(); load().then(a => a.selectUniv(name)).catch(() => {}); },
-      show(v){ const t = document.querySelector('#viewTabs [data-view="' + (TAB[v] || 'univ') + '"]'); if(t) t.click(); },
+      open(name){ if(mainTab) mainTab.click(); mark('map'); load().then(a => a.selectUniv(name)).catch(() => {}); },
+      show(v){ if(mainTab) mainTab.click(); go(SUB[TAB[v]] ? v : 'map'); },
       candidates: cands
     });
     // #univ=大学名 で直接開く（#univ・#univ-ai などはタブの仕組みが処理する）

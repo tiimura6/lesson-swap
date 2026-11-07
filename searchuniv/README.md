@@ -19,7 +19,7 @@
 
 ## 飯村システム（tiimura6/lesson-swap）との統合（2026-11-07〜）
 - このフォルダは飯村システムのリポジトリ `tiimura6/lesson-swap` の `searchuniv/`。旧リポジトリ `tiimura6/searchuniv` は更新を止めた。
-- 飯村システムの「🎓 大学検索／🗣 進路面談／⚖ 大学比較／📚 出題内容」の4タブは、このフォルダの `su-module.js` を直接読み込んで表示する（iframe ではない）。
+- 飯村システムの「🎓 大学・進路」タブ（中に4画面）は、このフォルダの `su-module.js` を直接読み込んで表示する（iframe ではない）。
 - `su-module.js` は `tools/build.py` が `index.html` と同じテンプレートから自動生成する。直接編集しない。
 - 不具合を防ぐ仕組み：
   - Shadow DOM の中で動くので、CSS・要素ID が飯村システムと混ざらない。

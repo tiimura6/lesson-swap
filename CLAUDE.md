@@ -4,7 +4,7 @@ GitHub Pages: https://tiimura6.github.io/lesson-swap/
 
 ## 構成
 - `index.html`：飯村システム本体（授業交換・クラス別時間割・清掃当番・試験監督割当など）。1ファイル構成。
-- `searchuniv/`：大学検索アプリ Searchuniv 一式（2026-11-07 に tiimura6/searchuniv から統合）。飯村システムの「🎓 大学検索／🗣 進路面談／⚖ 大学比較／📚 出題内容」の4タブの中身。
+- `searchuniv/`：大学検索アプリ Searchuniv 一式（2026-11-07 に tiimura6/searchuniv から統合）。飯村システムの「🎓 大学・進路」タブの中身（中で 大学検索／進路面談／大学比較／出題内容 を切り替える）。
   - 画面とロジックの元：`searchuniv/tools/template.html`。データ：`searchuniv/data/*.json`。
   - `python3 searchuniv/tools/build.py` で `searchuniv/index.html`（単体ページ）・`searchuniv/su-module.js`（飯村システム用）・`detail.json` などを生成する。生成物は直接編集しない。
   - データ収集の手順は `searchuniv/PIPELINE.md`（毎時の定期実行「Searchuniv データ拡充」がこれに従う）。
@@ -13,7 +13,7 @@ GitHub Pages: https://tiimura6.github.io/lesson-swap/
 ## Searchuniv を直すとき（不具合を防ぐ決まり）
 1. `searchuniv/tools/template.html` か `searchuniv/tools/build.py` を直す。
 2. `cd searchuniv && python3 tools/build.py && python3 tools/smoke_test.py` を実行し、「すべて合格」を確認してからコミットする。不合格なら生成物をコミットしない。
-3. 飯村システム側の読み込み部分は `index.html` の「大学検索・進路面談・大学比較・出題内容（Searchuniv を直接組み込み）」の script。`SearchunivModule.apiVersion`（いまは 1）・`mount()` の引数・`Searchuniv` の関数名を変えるときは、両方を同時に直す。
+3. 飯村システム側の読み込み部分は `index.html` の「大学・進路タブ（…Searchuniv を直接組み込み）」の script。`SearchunivModule.apiVersion`（いまは 1）・`mount()` の引数・`Searchuniv` の関数名を変えるときは、両方を同時に直す。
 4. Searchuniv の中は Shadow DOM。飯村システムの CSS・要素ID と混ざらない。Searchuniv 側で `location.hash` や `document.getElementById` を直接使わない（`NAV`・`ROOT` を使う）。モジュールの最上位の名前は `SU_` で始める。
 5. 比較候補は localStorage の `searchuniv:cands`（両方で共通）。
 

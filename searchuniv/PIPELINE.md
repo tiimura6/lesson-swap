@@ -39,7 +39,7 @@ Searchuniv に全国の大学を少しずつ追加し、既存校の空欄（研
 - `python3 tools/build.py` の後、コミットの前に必ず `python3 tools/smoke_test.py` を実行する。単体ページ（index.html）と飯村システム用モジュール（su-module.js）の両方を確かめる。
 - 「不合格」が出たら、生成物（index.html・detail.json・su-module.js）はコミットしない（`git checkout -- index.html detail.json su-module.js`）。データ（data/・batches/）だけコミットし、報告に不合格の項目を書く。
 - playwright が無い環境では構文チェックだけになる。その場合も「NG」が出たらコミットしない。
-- `su-module.js` は飯村システム（tiimura6/lesson-swap の「大学検索」など4タブ）が直接読み込む。`window.SearchunivModule.apiVersion`（いまは 1）と `mount()` の引数・`Searchuniv` の関数名を変えるときは、lesson-swap 側も同時に直す。
+- `su-module.js` は飯村システム（tiimura6/lesson-swap の「大学・進路」タブ）が直接読み込む。`window.SearchunivModule.apiVersion`（いまは 1）と `mount()` の引数・`Searchuniv` の関数名を変えるときは、lesson-swap 側も同時に直す。
 
 ## 1回の実行でやること
 1. リポジトリ `tiimura6/lesson-swap`（飯村システム）を用意する（add_repo を access "push" で呼び、案内どおり clone）。Searchuniv 一式はその中の `searchuniv/` フォルダにある。以下のコマンドとパスはすべて `searchuniv/` に cd してから実行する。リポジトリ直下の index.html（飯村システム本体）は触らない。
