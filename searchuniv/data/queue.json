@@ -3179,41 +3179,6 @@
 "cat": "private"
 },
 {
-"name": "武庫川女子大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.mukogawa-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "流通科学大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.umds.ac.jp/",
-"cat": "private"
-},
-{
-"name": "滋慶医療科学大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.juhs.ac.jp/",
-"cat": "private"
-},
-{
-"name": "甲南大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.konan-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "甲南女子大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.konan-wu.ac.jp/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -3951,6 +3916,36 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "武庫川女子大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "流通科学大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "滋慶医療科学大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "甲南大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "甲南女子大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "東大阪大学",
 "need": [
@@ -19069,6 +19064,126 @@
 },
 {
 "name": "森ノ宮医療大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "武庫川女子大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "武庫川女子大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "武庫川女子大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "武庫川女子大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "流通科学大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "流通科学大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "流通科学大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "流通科学大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "滋慶医療科学大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "滋慶医療科学大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "滋慶医療科学大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "滋慶医療科学大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "甲南大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "甲南大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "甲南大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "甲南大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "甲南女子大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "甲南女子大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "甲南女子大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "甲南女子大学",
 "need": [
 "scholar"
 ]
