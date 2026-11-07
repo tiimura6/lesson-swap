@@ -2437,41 +2437,6 @@
 "cat": "private"
 },
 {
-"name": "至学館大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.sgk.ac.jp/",
-"cat": "private"
-},
-{
-"name": "藤田医科大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.fujita-hu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "豊橋創造大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.sozo.ac.jp/index.php",
-"cat": "private"
-},
-{
-"name": "豊田工業大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.toyota-ti.ac.jp/",
-"cat": "private"
-},
-{
-"name": "身延山大学",
-"type": "私立",
-"pref": "山梨県",
-"hp": "https://www.min.ac.jp/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -3234,6 +3199,36 @@
 "長野県立大学": 1
 },
 "enrich": [
+{
+"name": "至学館大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "藤田医科大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "豊橋創造大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "豊田工業大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "身延山大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "浜松学院大学",
 "need": [
@@ -21340,6 +21335,126 @@
 },
 {
 "name": "聖隷クリストファー大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "至学館大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "至学館大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "至学館大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "至学館大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "藤田医科大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "藤田医科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "藤田医科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "藤田医科大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "豊橋創造大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "豊橋創造大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "豊橋創造大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "豊橋創造大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "豊田工業大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "豊田工業大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "豊田工業大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "豊田工業大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "身延山大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "身延山大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "身延山大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "身延山大学",
 "need": [
 "scholar"
 ]
