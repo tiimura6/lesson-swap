@@ -130970,5 +130970,617 @@ null
 "https://passnavi.obunsha.co.jp/univ/3567/difficulty/",
 "https://www.shingakunavi.ne.jp/%E5%A4%A7%E5%AD%A6-%E9%80%B2%E5%AD%A6/%E4%B8%AD%E9%83%A8%E5%AD%A6%E9%99%A2%E5%A4%A7%E5%AD%A6/%E9%A1%98%E6%9B%B8-%E5%85%A5%E8%A9%A6/"
 ]
+},
+"人間環境大学": {
+"faculties": [
+"心理学部",
+"環境科学部",
+"看護学部",
+"総合心理学部",
+"総合環境学部",
+"松山看護学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"difficulty": "2026-11-07",
+"kyotsu": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "心理学部",
+"d": [
+"心理学科",
+"犯罪心理学科"
+]
+},
+{
+"f": "環境科学部",
+"d": [
+"環境科学科"
+]
+},
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+},
+{
+"f": "総合心理学部",
+"d": [
+"総合心理学科",
+"総合犯罪心理学科"
+]
+},
+{
+"f": "総合環境学部",
+"d": [
+"環境情報学科"
+]
+},
+{
+"f": "松山看護学部",
+"d": [
+"看護学科"
+]
+}
+],
+"difficulty": {
+"hensachi": "35.0〜47.5",
+"kyotei": "41%〜60%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "共通テスト利用入試（I期 A・B方式、II期）を実施",
+"kyoka": [
+null,
+null
+],
+"note": null
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般入試（I期 A・B方式、II期、III期、IV期）",
+"kyotsu": "課さない",
+"niji": "各学部指定科目",
+"content": null,
+"req": "I期は2/2・2/6の試験日自由選択制",
+"url": "https://telemail.jp/shingaku/university/10001771/examination/general"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用入試（I期 A・B方式、II期）",
+"kyotsu": "指定教科・科目",
+"niji": null,
+"content": null,
+"req": "高等学校卒業（見込）等",
+"url": "https://telemail.jp/shingaku/university/10001771/examination/general"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般入試 I期（A方式・B方式）",
+"apply": "1/4〜1/22",
+"exam": "2/2・2/6（自由選択）",
+"result": "2/15",
+"proc": "1次2/22・2次3/10",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般入試 II期",
+"apply": "1/4〜2/16",
+"exam": "2/23",
+"result": "3/2",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般入試 III期",
+"apply": "1/4〜3/3",
+"exam": "3/10",
+"result": "3/16",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般入試 IV期",
+"apply": "3/4〜3/17",
+"exam": "3/24",
+"result": "3/25",
+"proc": "3/27",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用入試 I期（A方式・B方式）",
+"apply": "1/4〜1/27",
+"exam": "1/16・1/17（共テ）",
+"result": "2/15",
+"proc": "1次2/22・2次3/10",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用入試 II期",
+"apply": "1/4〜3/3",
+"exam": "1/16・1/17（共テ）",
+"result": "3/16",
+"proc": null,
+"fee": null
+}
+]
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "心理学部",
+"admission": 200000,
+"tuition": 700000,
+"facility": 480000,
+"practical": 0,
+"other": 0,
+"first_year": 1380000,
+"four_year": null
+},
+{
+"f": "環境科学部",
+"admission": 200000,
+"tuition": 700000,
+"facility": 530000,
+"practical": 0,
+"other": 0,
+"first_year": 1430000,
+"four_year": null
+},
+{
+"f": "看護学部",
+"admission": 200000,
+"tuition": 950000,
+"facility": 645000,
+"practical": 0,
+"other": 0,
+"first_year": 1795000,
+"four_year": null
+},
+{
+"f": "総合心理学部",
+"admission": 200000,
+"tuition": 700000,
+"facility": 380000,
+"practical": 0,
+"other": 0,
+"first_year": 1280000,
+"four_year": null
+},
+{
+"f": "総合環境学部",
+"admission": 200000,
+"tuition": 700000,
+"facility": 430000,
+"practical": 0,
+"other": 0,
+"first_year": 1330000,
+"four_year": null
+},
+{
+"f": "松山看護学部",
+"admission": 250000,
+"tuition": 950000,
+"facility": 550000,
+"practical": 0,
+"other": 0,
+"first_year": 1750000,
+"four_year": null
+}
+]
+},
+"access": "岡崎キャンパス（愛知県岡崎市本宿町字上三本松6-2）・大府キャンパス・松山キャンパス",
+"careers": "公認心理師、臨床心理士、看護師、保健師、環境関連企業、公務員など。",
+"_via": "external-ai",
+"sources": [
+"https://www.uhe.ac.jp/exam/entrance/environment.html",
+"https://www.uhe.ac.jp/exam/expenses.html",
+"https://telemail.jp/shingaku/university/10001771/examination/general",
+"https://search.keinet.ne.jp/2471/outline/expense",
+"https://search.keinet.ne.jp/2471/general/border_rate"
+]
+},
+"仁愛大学": {
+"faculties": [
+"心理学部",
+"ビジネスコミュニケーション学部",
+"栄養・子ども学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"kyotsu": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "心理学部",
+"d": [
+"心理学科"
+]
+},
+{
+"f": "ビジネスコミュニケーション学部",
+"d": [
+"ビジネスコミュニケーション学科"
+]
+},
+{
+"f": "栄養・子ども学部",
+"d": [
+"健康栄養学科",
+"子ども教育学科"
+]
+}
+],
+"kyotsu": {
+"kamoku": "大学入学共通テスト利用選抜（I期〜IV期）を実施",
+"kyoka": [
+null,
+null
+],
+"note": "本学独自の試験は行わない"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜（前期・後期）",
+"kyotsu": "課さない",
+"niji": "各学科指定科目",
+"content": null,
+"req": "1回の試験で4学科併願が可能",
+"url": "https://www.jindai.ac.jp/exam/info/general"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜（I期〜IV期）",
+"kyotsu": "指定教科・科目",
+"niji": null,
+"content": null,
+"req": "本学独自の試験は行わない",
+"url": "https://www.jindai.ac.jp/exam/info/common"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜前期",
+"apply": "1/5〜1/25",
+"exam": "2/1",
+"result": "2/7",
+"proc": "1次2/18・2次3/10",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜後期",
+"apply": "2/15〜2/26",
+"exam": "3/4",
+"result": "3/11",
+"proc": "1次3/19・2次3/26",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 I期",
+"apply": "1/5〜1/25",
+"exam": "1/16・1/17（共テ）",
+"result": "2/7",
+"proc": "1次2/18・2次3/10",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 II期",
+"apply": "2/1〜2/12",
+"exam": "1/16・1/17（共テ）",
+"result": "2/19",
+"proc": "1次3/1・2次3/10",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 III期",
+"apply": "2/15〜2/26",
+"exam": "1/16・1/17（共テ）",
+"result": "3/11",
+"proc": "1次3/19・2次3/26",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 IV期",
+"apply": "3/1〜3/12",
+"exam": "1/16・1/17（共テ）",
+"result": "3/19",
+"proc": "3/26（一括）",
+"fee": null
+}
+]
+},
+"access": "福井県越前市大手町3-1-1",
+"careers": "公認心理師、管理栄養士、小学校教諭、幼稚園教諭、保育士、一般企業、公務員など。",
+"_via": "external-ai",
+"sources": [
+"https://www.jindai.ac.jp/exam/info/general",
+"https://www.jindai.ac.jp/exam/info/general-second",
+"https://www.jindai.ac.jp/exam/info/common",
+"https://www.jindai.ac.jp/jdmainwp/wp-content/uploads/2026/07/fule_guidelines2027.pdf"
+]
+},
+"佐久大学": {
+"faculties": [
+"看護学部",
+"人間福祉学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+},
+{
+"f": "人間福祉学部",
+"d": [
+"人間福祉学科"
+]
+}
+],
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜（前期・後期）",
+"kyotsu": "課さない",
+"niji": "各学部指定科目",
+"content": null,
+"req": "高等学校卒業（見込）等",
+"url": "https://sakura.saku.ac.jp/special/exam/"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 前期",
+"apply": "1/6〜1/29",
+"exam": null,
+"result": null,
+"proc": null,
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期",
+"apply": "2/22〜3/5",
+"exam": null,
+"result": null,
+"proc": null,
+"fee": null
+}
+]
+},
+"access": "長野県佐久市岩村田2384",
+"careers": "看護師、保健師、社会福祉士、精神保健福祉士など。",
+"_via": "external-ai",
+"sources": [
+"https://sakura.saku.ac.jp/special/exam/"
+]
+},
+"修文大学": {
+"faculties": [
+"健康栄養学部",
+"看護学部",
+"医療科学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "健康栄養学部",
+"d": [
+"管理栄養学科"
+]
+},
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+},
+{
+"f": "医療科学部",
+"d": [
+"臨床検査学科"
+]
+}
+],
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜（前期・後期）",
+"kyotsu": "課さない",
+"niji": "各学部指定科目",
+"content": null,
+"req": "高等学校卒業（見込）等",
+"url": "https://www.shubun.ac.jp/exam/common/"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 前期",
+"apply": "1/4〜1/21",
+"exam": "1/29・1/30",
+"result": null,
+"proc": null,
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期",
+"apply": "2/1〜2/24",
+"exam": "3/5",
+"result": null,
+"proc": null,
+"fee": null
+}
+]
+},
+"access": "愛知県一宮市日光町6",
+"careers": "管理栄養士、看護師、保健師、臨床検査技師など。",
+"_via": "external-ai",
+"sources": [
+"https://www.shubun.ac.jp/exam/common/"
+]
+},
+"健康科学大学": {
+"faculties": [
+"健康科学部",
+"看護学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"kyotsu": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "健康科学部",
+"d": [
+"リハビリテーション学科（理学療法学専攻、作業療法学専攻）",
+"人間コミュニケーション学科"
+]
+},
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+}
+],
+"kyotsu": {
+"kamoku": "大学入学共通テスト利用選抜を実施",
+"kyoka": [
+null,
+null
+],
+"note": null
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜（I期・II期）",
+"kyotsu": "課さない",
+"niji": "各学部指定科目",
+"content": null,
+"req": "高等学校卒業（見込）等",
+"url": "https://www.kenkoudai.ac.jp/admissions/3884/"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜（I期等）",
+"kyotsu": "指定教科・科目",
+"niji": null,
+"content": null,
+"req": "高等学校卒業（見込）等",
+"url": "https://www.kenkoudai.ac.jp/admissions/3884/"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 I期",
+"apply": "12/28〜1/15",
+"exam": null,
+"result": null,
+"proc": null,
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 II期",
+"apply": "1/12〜2/8",
+"exam": null,
+"result": null,
+"proc": null,
+"fee": null
+}
+]
+},
+"access": "富士山キャンパス（山梨県南都留郡富士河口湖町小立7187）・桂川キャンパス（山梨県都留市四日市場909-2）",
+"careers": "理学療法士、作業療法士、社会福祉士、精神保健福祉士、看護師、保健師など。",
+"_via": "external-ai",
+"sources": [
+"https://www.kenkoudai.ac.jp/admissions/3884/",
+"https://www.kenkoudai.ac.jp/admissions/24553/"
+]
 }
 }

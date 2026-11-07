@@ -1849,41 +1849,6 @@
 "cat": "senmon"
 },
 {
-"name": "人間環境大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.uhe.ac.jp/",
-"cat": "private"
-},
-{
-"name": "仁愛大学",
-"type": "私立",
-"pref": "福井県",
-"hp": "https://www.jindai.ac.jp/",
-"cat": "private"
-},
-{
-"name": "佐久大学",
-"type": "私立",
-"pref": "長野県",
-"hp": "https://www.saku.ac.jp/",
-"cat": "private"
-},
-{
-"name": "修文大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.shubun.ac.jp/",
-"cat": "private"
-},
-{
-"name": "健康科学大学",
-"type": "私立",
-"pref": "山梨県",
-"hp": "https://www.kenkoudai.ac.jp/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -2824,6 +2789,36 @@
 "名城大学": 1
 },
 "enrich": [
+{
+"name": "人間環境大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "仁愛大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "佐久大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "修文大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "健康科学大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "一宮研伸大学",
 "need": [
@@ -22951,6 +22946,126 @@
 },
 {
 "name": "中部学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "人間環境大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "人間環境大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "人間環境大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "人間環境大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "仁愛大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "仁愛大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "仁愛大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "仁愛大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "佐久大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "佐久大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "佐久大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "佐久大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "修文大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "修文大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "修文大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "修文大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "健康科学大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "健康科学大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "健康科学大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "健康科学大学",
 "need": [
 "scholar"
 ]
