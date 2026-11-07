@@ -3076,7 +3076,9 @@
 "https://mypage.atpress.ne.jp/smart/news/5101596",
 "https://search.keinet.ne.jp/1050/outline/licential",
 "https://search.keinet.ne.jp/1050/outline/admission_employment",
-"https://search.keinet.ne.jp/1050/general/exam_subject"
+"https://search.keinet.ne.jp/1050/general/exam_subject",
+"https://admissions.tohoku.ac.jp/ja/20260716/",
+"https://telemail.jp/shingaku/university/10003359/examination/general"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -3507,7 +3509,9 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
-"oc": "2026-11-07"
+"oc": "2026-11-07",
+"schedule": "2026-11-07",
+"_via": "2026-11-07"
 },
 "money": {
 "year": "2026年度",
@@ -3716,7 +3720,33 @@
 "events": [],
 "url": "https://search.keinet.ne.jp/1050/outline/opencampus",
 "note": "2026年は7/29・30に川内・青葉山・星陵キャンパスで実施（申込不要、終了）。工学部は3/28に東京（学術総合センター）でも実施。2027年度の日程は未発表"
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜（前期日程）",
+"fee": null,
+"apply": "1/25〜2/3",
+"exam": "2/25・2/26",
+"result": "3/9",
+"proc": "3/15",
+"note": "必要書類2月3日（水）必着／全日程受験必須"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（後期日程）",
+"fee": null,
+"apply": "1/25〜2/3",
+"exam": "3/12",
+"result": "3/22",
+"proc": "3/27",
+"note": "実施学部：経済学部（文系・理系）、理学部（数学系・物理系・化学系・地球科学系）／必要書類2月3日（水）必着"
 }
+]
+},
+"_via": "external-ai"
 },
 "名古屋大学": {
 "difficulty": {
@@ -26825,7 +26855,8 @@
 "https://search.keinet.ne.jp/2293/outline/licential",
 "https://search.keinet.ne.jp/2293/outline/admission_employment",
 "https://www.waseda.jp/inst/admission/assets/uploads/2026/05/2027_ippan.pdf",
-"https://www.waseda.jp/inst/admission/undergraduate/system/general/"
+"https://www.waseda.jp/inst/admission/undergraduate/system/general/",
+"https://admission.waseda.jp/youkou/waseda-2027.pdf"
 ],
 "licenses": [
 "教員免許（小・中・高 各教科）",
@@ -28084,12 +28115,113 @@
 "rows": [
 {
 "kubun": "一般",
-"name": "一般選抜",
+"name": "一般選抜（政治経済学部）",
+"fee": null,
 "apply": "1/6〜1/19",
-"exam": null,
-"result": null,
-"proc": null,
-"fee": null
+"exam": "2/20",
+"result": "3/1",
+"proc": "1次3/8"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（法学部）",
+"fee": null,
+"apply": "1/6〜1/19",
+"exam": "2/15",
+"result": "2/28",
+"proc": "1次3/8"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（教育学部 A～D方式）",
+"fee": null,
+"apply": "1/6〜1/19",
+"exam": "2/19",
+"result": "3/2",
+"proc": "1次3/10",
+"note": "C方式1次発表：2月12日（金）"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（商学部 地歴・公民型／数学型）",
+"fee": null,
+"apply": "1/6〜1/19",
+"exam": "2/21",
+"result": "3/3",
+"proc": "1次3/10"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（社会科学部 総合問題型／数学型）",
+"fee": null,
+"apply": "1/6〜1/19",
+"exam": "2/22",
+"result": "3/3",
+"proc": "1次3/10"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（国際教養学部）",
+"fee": null,
+"apply": "1/6〜1/19",
+"exam": "2/13",
+"result": "2/24",
+"proc": "1次3/4"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（文化構想学部 一般／英語4技能／共テ利用）",
+"fee": null,
+"apply": "1/6〜1/19",
+"exam": "2/12",
+"result": "2/20",
+"proc": "1次3/4"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（文学部 一般／英語4技能／共テ利用）",
+"fee": null,
+"apply": "1/6〜1/19",
+"exam": "2/17",
+"result": "2/26",
+"proc": "1次3/4"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（基幹理工・創造理工・先進理工学部）",
+"fee": null,
+"apply": "1/6〜1/19",
+"exam": "2/16",
+"result": "2/27",
+"proc": "1次3/5",
+"note": "創造理工建築学科のみ空間表現2月17日（水）"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（人間科学部 国英型／数英型／数学選抜方式）",
+"fee": null,
+"apply": "1/6〜1/19",
+"exam": "2/18",
+"result": "2/27",
+"proc": "1次3/5"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（スポーツ科学部）",
+"fee": null,
+"apply": "1/6〜1/19",
+"exam": "2/23",
+"result": "3/3",
+"proc": "1次3/10"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用入試（政治経済・法・社会科学・国際教養・人間科学・スポーツ科学）",
+"fee": null,
+"apply": "1/6〜1/19",
+"exam": "1/16・17日（共テ）",
+"result": "政治経済・法・国際教養：2/10・社会科学：2/11・人間科学：2/15・スポーツ科学：2/16",
+"proc": "1次政治経済2/22、法・社会科学・国際教養2/18、人間科学・スポーツ科学2/24"
 }
 ]
 },
@@ -28314,7 +28446,8 @@
 "https://www.keio.ac.jp/ja/press-releases/",
 "https://mypage.atpress.ne.jp/smart/news/5101596",
 "https://www.keio.ac.jp/ja/admissions/faculty/examinations/general-admissions/",
-"https://www.keio.ac.jp/fixed-files/2027_ippan_youkou.pdf"
+"https://www.keio.ac.jp/fixed-files/2027_ippan_youkou.pdf",
+"https://www.agaroot.jp/agaroot-medical/column/keio-tuition/"
 ],
 "kyotsu": {
 "kamoku": "共通テスト利用なし",
@@ -28465,7 +28598,7 @@
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
 "schedule": "2026-11-07",
-"money": "2026-11-06",
+"money": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -28688,7 +28821,7 @@
 ]
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "total4": 4160000,
 "total4_note": "文・法・経済・商：入学金＋授業料4年（施設/教育充実費・在籍基本料等含まず）",
 "admission": 200000,
@@ -28714,6 +28847,30 @@
 {
 "name": "慶應義塾創立150年記念奨学金（海外学習支援）",
 "what": "給付。経済的理由で海外学習参加が難しい学生に年額10万〜30万円"
+}
+],
+"rows": [
+{
+"f": "医学部",
+"admission": 200000,
+"tuition": 3040000,
+"facility": 350000,
+"practical": 190000,
+"other": 63350,
+"first_year": 3843350,
+"four_year": null,
+"note": "6年間総額：22,719,600円（2027年度公表値）"
+},
+{
+"f": "理工学部",
+"admission": 200000,
+"tuition": null,
+"facility": null,
+"practical": 0,
+"other": null,
+"first_year": 2093350,
+"four_year": null,
+"note": "2027年度初年度納入金合計。内訳詳細（授業料・施設費等）は要項p.40参照"
 }
 ]
 },
@@ -28900,7 +29057,8 @@
 "https://adm.sophia.ac.jp/jpn/gakubu_ippan_ad/teap_riyohoshiki/",
 "https://adm.sophia.ac.jp/jpn/gakubu_ippan_ad/gakubugakkashiken_kyoutsuu_heiyougata/",
 "https://adm.sophia.ac.jp/jpn/gakubu_ippan_ad/kyoutsuu_riyouhoshiki/",
-"https://fst.sophia.ac.jp/exam/tuitionfee"
+"https://fst.sophia.ac.jp/exam/tuitionfee",
+"https://xn--8pr038b9h2am7a.com/jochi/"
 ],
 "kyotsu": {
 "kamoku": "3教科3科目（併用方式・3教科型）〜4教科4科目（4教科型）",
@@ -30241,6 +30399,47 @@
 "first_year": 1765000,
 "four_year": null,
 "note": "その他は在籍料（年額60,000円）。他学部の2027年度全学部一覧は未確認"
+},
+{
+"f": "神学部・文学部（新聞学科除く）・総合人間科学部（心理・看護除く）・法学部・経済学部・外国語学部・総合グローバル学部",
+"admission": 200000,
+"tuition": 936000,
+"facility": 210000,
+"practical": 0,
+"other": 62650,
+"first_year": 1408650,
+"four_year": null,
+"note": "その他：在籍料60,000円（各学期30,000円）、学生教育研究災害傷害保険料2,650円"
+},
+{
+"f": "文学部（新聞学科）",
+"admission": 200000,
+"tuition": 978000,
+"facility": 210000,
+"practical": 0,
+"other": 62650,
+"first_year": 1450650,
+"four_year": null
+},
+{
+"f": "総合人間科学部（心理学科）",
+"admission": 200000,
+"tuition": 1018000,
+"facility": 210000,
+"practical": 0,
+"other": 62650,
+"first_year": 1490650,
+"four_year": null
+},
+{
+"f": "総合人間科学部（看護学科）",
+"admission": 200000,
+"tuition": 1472000,
+"facility": 210000,
+"practical": 0,
+"other": 62650,
+"first_year": 1944650,
+"four_year": null
 }
 ]
 },

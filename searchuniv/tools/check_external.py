@@ -34,7 +34,7 @@ def _nz(v):
     v = re.sub(r'（[月火水木金土日・祝]+）', '', v); v = re.sub(r'\s*\d{1,2}(:\d\d|時頃|時まで|時)(〜\d{1,2}:\d\d)?', '', v)
     v = re.sub(r'【[^】]*】|(当日|締切日)?消印有効', '', v).replace('～', '〜')
     if '／書類郵送' in v or '／郵送' in v: v = v.split('／')[0]
-    for a, b in (('Web出願：', ''), ('登録・支払：', ''), ('入学金等支払期限・入学手続締切日：', ''), ('入学金等支払期限：', '入学金'), ('入学金支払期限：', '入学金'),
+    for a, b in (('Web出願：', ''), ('第1次振込：', '1次'), ('まで', ''), ('登録・支払：', ''), ('入学金等支払期限・入学手続締切日：', ''), ('入学金等支払期限：', '入学金'), ('入学金支払期限：', '入学金'),
                  ('／入学手続締切日：', '・手続'), ('第1次発表：', '1次'), ('第1次選考結果：', '1次'), ('／合格発表：', '・最終'), ('第1次選考：', '1次'), ('第1次：', '1次'),
                  ('／第2次選考（オンライン面接）：', '・2次'), ('／第2次：', '・2次'), ('1次手続：', '1次'), ('／2次手続：', '・2次'), ('／', '・')):
         v = v.replace(a, b)
@@ -149,8 +149,14 @@ def main(path):
             cur = INFO.get(n, {})
             if info.get('schedule') and not [z for z in (cur.get('schedule') or {}).get('rows', []) if z.get('apply') and z.get('result')]:
                 info['schedule_replace'] = {**(cur.get('schedule') or {}), **info.pop('schedule')}; notes.append(f'{n}: 日程を置き換え（今は日付のそろった行が無い）')
-            if info.get('money') and not [z for z in (cur.get('money') or {}).get('rows', []) if z.get('first_year')]:
+            have_rows = [z for z in (cur.get('money') or {}).get('rows', []) if z.get('first_year')]
+            if info.get('money') and not have_rows:
                 info['money_replace'] = {**(cur.get('money') or {}), **info.pop('money')}; notes.append(f'{n}: 学費を置き換え（今は学部別の額が無い）')
+            elif info.get('money') and have_rows:
+                fs = {z.get('f') for z in have_rows}; add = [z for z in info['money'].get('rows', []) if z.get('f') not in fs]
+                info.pop('money')
+                if add:
+                    info['money_replace'] = {**cur['money'], 'rows': cur['money']['rows'] + add}; notes.append(f'{n}: 学費に {len(add)} 区分を追加')
         info = {k: v for k, v in info.items() if v not in (None, '', [], {})}
         info['_via'] = 'external-ai'
         r2 = {k: v for k, v in r.items() if k in ('name', 'cat', 'type', 'pref', 'pref_name', 'city', 'hp', 'reading', 'features', 'memo', 'aliases', 'latlng')}
