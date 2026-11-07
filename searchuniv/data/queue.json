@@ -3669,41 +3669,6 @@
 "cat": "private"
 },
 {
-"name": "松山大学",
-"type": "私立",
-"pref": "愛媛県",
-"hp": "https://www.matsuyama-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "松山東雲女子大学",
-"type": "私立",
-"pref": "愛媛県",
-"hp": "https://college.shinonome.ac.jp/",
-"cat": "private"
-},
-{
-"name": "梅光学院大学",
-"type": "私立",
-"pref": "山口県",
-"hp": "https://www.baiko.ac.jp/university/",
-"cat": "private"
-},
-{
-"name": "比治山大学",
-"type": "私立",
-"pref": "広島県",
-"hp": "https://www.hijiyama-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "環太平洋大学",
-"type": "私立",
-"pref": "岡山県",
-"hp": "https://www.ipu-japan.ac.jp/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -4441,6 +4406,36 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "松山大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "松山東雲女子大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "梅光学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "比治山大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "環太平洋大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "広島経済大学",
 "need": [
@@ -17549,6 +17544,126 @@
 },
 {
 "name": "東亜大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "松山大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "松山大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "松山大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "松山大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "松山東雲女子大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "松山東雲女子大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "松山東雲女子大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "松山東雲女子大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "梅光学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "梅光学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "梅光学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "梅光学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "比治山大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "比治山大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "比治山大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "比治山大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "環太平洋大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "環太平洋大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "環太平洋大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "環太平洋大学",
 "need": [
 "scholar"
 ]

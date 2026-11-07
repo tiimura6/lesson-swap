@@ -1,0 +1,886 @@
+[
+ {
+  "name": "松山大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "愛媛県松山市",
+  "pref_name": "愛媛県",
+  "city": "松山市",
+  "hp": "https://www.matsuyama-u.ac.jp/",
+  "reading": "まつやまだいがく",
+  "features": [
+   "経済・経営・人文・法・薬・情報の6学部を擁する四国最大級の私立総合大学。",
+   "一般選抜Ⅰ期は1/25に全国14都府県で実施され、併願しやすい。",
+   "情報学部は2027年度も設置されており、文理融合の教育を展開。"
+  ],
+  "memo": "偏差値は35.0〜40.0、共テ51%前後。Ⅰ期の出願締切が1/8と早いため注意。",
+  "info": {
+   "faculties": [
+    "経済学部",
+    "経営学部",
+    "人文学部",
+    "法学部",
+    "薬学部",
+    "情報学部"
+   ],
+   "departments": [
+    {
+     "f": "経済学部",
+     "d": [
+      "経済学科"
+     ]
+    },
+    {
+     "f": "経営学部",
+     "d": [
+      "経営学科"
+     ]
+    },
+    {
+     "f": "人文学部",
+     "d": [
+      "英語英米文学科",
+      "社会学科",
+      "グローバル・コミュニケーション学科"
+     ]
+    },
+    {
+     "f": "法学部",
+     "d": [
+      "法学科"
+     ]
+    },
+    {
+     "f": "薬学部",
+     "d": [
+      "医療薬学科"
+     ]
+    },
+    {
+     "f": "情報学部",
+     "d": [
+      "情報学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜40.0",
+    "kyotei": "51%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "大学入学共通テスト利用選抜を実施",
+    "kyoka": [
+     null,
+     null
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（Ⅰ期・Ⅱ期）",
+      "kyotsu": "課さない",
+      "niji": "各学部指定科目",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://nyushi.matsuyama-u.ac.jp/admission/overview/general01/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（前期・後期）",
+      "kyotsu": "指定教科・科目",
+      "niji": null,
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.matsuyama-u.ac.jp/ebook/2027_nyusiyoukou/pageindices/index49.html"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅰ期（文系・情報）",
+      "apply": "12/21〜1/8",
+      "exam": "1/25",
+      "result": "2/3",
+      "proc": "2/10",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅰ期（薬学部）",
+      "apply": "12/21〜1/8",
+      "exam": "1/25",
+      "result": "1/29",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅱ期",
+      "apply": "12/21〜1/22",
+      "exam": "2/9",
+      "result": "2/22",
+      "proc": "3/8",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 前期",
+      "apply": "12/21〜2/1",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/22",
+      "proc": "3/8",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 後期",
+      "apply": "2/12〜3/3",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/12",
+      "proc": "3/23",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "経済学部・経営学部・人文学部・法学部",
+      "admission": 200000,
+      "tuition": 680000,
+      "facility": 200000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1080000,
+      "four_year": null
+     },
+     {
+      "f": "情報学部",
+      "admission": 200000,
+      "tuition": 880000,
+      "facility": 300000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1380000,
+      "four_year": null
+     },
+     {
+      "f": "薬学部",
+      "admission": 200000,
+      "tuition": 1400000,
+      "facility": 400000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 2000000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "愛媛県松山市文京町4-2",
+   "careers": "一般企業、公務員、教員、薬剤師、IT関連など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.matsuyama-u.ac.jp/",
+    "https://nyushi.matsuyama-u.ac.jp/admission/overview/general01/",
+    "https://www.matsuyama-u.ac.jp/ebook/2027_nyusiyoukou/pageindices/index49.html",
+    "https://www.matsuyama-u.ac.jp/life/gakuhi/about/",
+    "https://shingakunet.com/gakko/SC000301/gakuhi/",
+    "https://passnavi.obunsha.co.jp/univ/4880/difficulty/?facultyID=005",
+    "https://telemail.jp/shingaku/university/10201674/examination/general"
+   ]
+  },
+  "sources": [
+   "https://www.matsuyama-u.ac.jp/",
+   "https://nyushi.matsuyama-u.ac.jp/admission/overview/general01/",
+   "https://www.matsuyama-u.ac.jp/ebook/2027_nyusiyoukou/pageindices/index49.html",
+   "https://www.matsuyama-u.ac.jp/life/gakuhi/about/",
+   "https://shingakunet.com/gakko/SC000301/gakuhi/",
+   "https://passnavi.obunsha.co.jp/univ/4880/difficulty/?facultyID=005",
+   "https://telemail.jp/shingaku/university/10201674/examination/general"
+  ]
+ },
+ {
+  "name": "松山東雲女子大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "愛媛県松山市",
+  "pref_name": "愛媛県",
+  "city": "松山市",
+  "hp": "https://college.shinonome.ac.jp/",
+  "reading": "まつやましののめじょしだいがく",
+  "features": [
+   "人文科学部心理子ども学科を擁し、心理・保育・児童教育を学ぶ女子大学。",
+   "総合型選抜や学校推薦型選抜など早期の入試区分が充実。",
+   "初年度納入金は122万円（入学金25万円含む）。"
+  ],
+  "memo": "偏差値はBF〜35.0。心理・保育・教育分野を少人数で学びたい女子生徒に向く。",
+  "info": {
+   "faculties": [
+    "人文科学部"
+   ],
+   "departments": [
+    {
+     "f": "人文科学部",
+     "d": [
+      "心理子ども学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜35.0",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "書類審査・面接等",
+      "req": "本学所定条件",
+      "url": "https://college.shinonome.ac.jp/admission/univ01/schedule/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（指定校・公募）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "書類審査・面接等",
+      "req": "学校長推薦等",
+      "url": "https://college.shinonome.ac.jp/admission/univ01/schedule/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅰ期",
+      "apply": "9/1〜9/18",
+      "exam": "10/3",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 前期",
+      "apply": "11/1〜11/9",
+      "exam": "11/14",
+      "result": null,
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "人文科学部 心理子ども学科",
+      "admission": 250000,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1220000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "愛媛県松山市桑原3-2-1",
+   "careers": "保育士、幼稚園・小学校教諭、心理職、一般企業など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://college.shinonome.ac.jp/",
+    "https://college.shinonome.ac.jp/admission/univ01/schedule/",
+    "https://shingakunet.com/gakko/SC000302/gakuhi/",
+    "https://passnavi.obunsha.co.jp/univ/4885/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://college.shinonome.ac.jp/",
+   "https://college.shinonome.ac.jp/admission/univ01/schedule/",
+   "https://shingakunet.com/gakko/SC000302/gakuhi/",
+   "https://passnavi.obunsha.co.jp/univ/4885/difficulty/"
+  ]
+ },
+ {
+  "name": "梅光学院大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "山口県下関市",
+  "pref_name": "山口県",
+  "city": "下関市",
+  "hp": "https://www.baiko.ac.jp/university/",
+  "reading": "ばいこうがくいんだいがく",
+  "features": [
+   "国際学部と子ども学部を擁し、希望者全員参加型の留学制度を実施。",
+   "学費は毎月8万円の月払い制（7月開始）で、初年度納入金77万円（2026年度）。",
+   "ANAエアラインスクールとの教育連携など航空・観光業界への就職支援が充実。"
+  ],
+  "memo": "偏差値はBF〜35.0。月払い学費と全員留学制度が大きな特徴。",
+  "info": {
+   "faculties": [
+    "国際学部",
+    "子ども学部"
+   ],
+   "departments": [
+    {
+     "f": "国際学部",
+     "d": [
+      "国際ビジネス・コミュニケーション学科"
+     ]
+    },
+    {
+     "f": "子ども学部",
+     "d": [
+      "子ども未来学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜35.0",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "大学入学共通テスト利用選抜（前期・中期・後期）を実施",
+    "kyoka": [
+     null,
+     null
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A日程等）",
+      "kyotsu": "課さない",
+      "niji": "各学部指定科目",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.baiko.ac.jp/university/burger_editor/burger_editor/dl/390__44Kk44Oz44K-44O844ON44OD44OI5Ye66aGY44K544K-44O844OI44Ks44Kk44OJXzIwMjc-d-.pdf"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（前期・中期・後期）",
+      "kyotsu": "指定教科・科目",
+      "niji": null,
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://passnavi.obunsha.co.jp/univ/4830/schedule/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "apply": "1/7〜1/27",
+      "exam": "2/5",
+      "result": "2/12",
+      "proc": "2/19",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 前期",
+      "apply": null,
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 中期",
+      "apply": null,
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/1",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 後期",
+      "apply": null,
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/24",
+      "proc": "3/26",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "全学部（国際学部・子ども学部）",
+      "admission": 50000,
+      "tuition": 720000,
+      "facility": 0,
+      "practical": 0,
+      "other": 0,
+      "first_year": 770000,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "グローバルスカラシップ",
+      "kind": "給付",
+      "target": "全学部",
+      "amount": "240,000円",
+      "timing": "入学前予約",
+      "cond": "入学前に英検2級以上に合格し申請"
+     }
+    ]
+   },
+   "access": "山口県下関市向洋町1-1-1",
+   "careers": "航空・観光業界、一般企業、保育士、幼稚園・小学校教諭など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.baiko.ac.jp/university/",
+    "https://www.baiko.ac.jp/university/burger_editor/burger_editor/dl/390__44Kk44Oz44K-44O844ON44OD44OI5Ye66aGY44K544K-44O844OI44Ks44Kk44OJXzIwMjc-d-.pdf",
+    "https://shingakunet.com/gakko/SC000496/",
+    "https://passnavi.obunsha.co.jp/univ/4830/top/",
+    "https://passnavi.obunsha.co.jp/univ/4830/schedule/"
+   ]
+  },
+  "sources": [
+   "https://www.baiko.ac.jp/university/",
+   "https://www.baiko.ac.jp/university/burger_editor/burger_editor/dl/390__44Kk44Oz44K-44O844ON44OD44OI5Ye66aGY44K544K-44O844OI44Ks44Kk44OJXzIwMjc-d-.pdf",
+   "https://shingakunet.com/gakko/SC000496/",
+   "https://passnavi.obunsha.co.jp/univ/4830/top/",
+   "https://passnavi.obunsha.co.jp/univ/4830/schedule/"
+  ]
+ },
+ {
+  "name": "比治山大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "広島県広島市東区",
+  "pref_name": "広島県",
+  "city": "広島市東区",
+  "hp": "https://www.hijiyama-u.ac.jp/",
+  "reading": "ひじやまだいがく",
+  "features": [
+   "現代文化学部と健康栄養学部を擁し、2027年4月に美術学科（構想中）等の改編を予定。",
+   "一般選抜A・B・C日程は1/6〜1/23の同時出願が可能で、第2志望学科の検定料が無料。",
+   "B・C日程は福山・三次・周南・松江・松山など地方会場でも受験可能。"
+  ],
+  "memo": "偏差値はBF〜37.5、共テ47%〜53%。一般選抜A・B・C日程の併願がしやすい。",
+  "info": {
+   "faculties": [
+    "現代文化学部",
+    "健康栄養学部"
+   ],
+   "departments": [
+    {
+     "f": "現代文化学部",
+     "d": [
+      "言語文化学科",
+      "社会デザイン学科（2027年4月名称変更予定）",
+      "社会臨床心理学科",
+      "子ども発達教育学科",
+      "美術学科（2027年4月設置予定・構想中）"
+     ]
+    },
+    {
+     "f": "健康栄養学部",
+     "d": [
+      "管理栄養学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜37.5",
+    "kyotei": "47%〜53%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "大学入学共通テスト利用選抜（A・B・C日程）を実施",
+    "kyoka": [
+     null,
+     null
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A日程・B日程・C日程）",
+      "kyotsu": "課さない",
+      "niji": "各学科指定科目",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.hijiyama-u.ac.jp/exam/page411.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（A日程・B日程・C日程）",
+      "kyotsu": "指定教科・科目",
+      "niji": null,
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://telemail.jp/shingaku/university/10001660/examination/general"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "apply": "1/6〜1/23",
+      "exam": "2/1",
+      "result": "2/12",
+      "proc": "一次2/26・二次3/23",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程",
+      "apply": "1/6〜1/23",
+      "exam": "2/2",
+      "result": "2/12",
+      "proc": "一次2/26・二次3/23",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 C日程",
+      "apply": "1/6〜1/23",
+      "exam": "2/4",
+      "result": "2/12",
+      "proc": "一次2/26・二次3/23",
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 A日程",
+      "apply": "1/6〜1/29",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 B日程",
+      "apply": "2/15〜2/26",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/9",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 C日程",
+      "apply": "3/1〜3/13",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/18",
+      "proc": "3/26",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "現代文化学部 言語文化学科・社会デザイン学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1231250,
+      "four_year": null
+     },
+     {
+      "f": "現代文化学部 子ども発達教育学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1271250,
+      "four_year": null
+     },
+     {
+      "f": "現代文化学部 社会臨床心理学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1291250,
+      "four_year": null
+     },
+     {
+      "f": "健康栄養学部 管理栄養学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1351250,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "広島県広島市東区牛田新町4-1-1",
+   "careers": "一般企業、公務員、保育士、幼稚園・小学校教諭、管理栄養士など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.hijiyama-u.ac.jp/",
+    "https://www.hijiyama-u.ac.jp/exam/page411.html",
+    "https://telemail.jp/shingaku/university/10001660/examination/general",
+    "https://shingakunet.com/gakko/SC000502/gakuhi/",
+    "https://passnavi.obunsha.co.jp/univ/4725/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.hijiyama-u.ac.jp/",
+   "https://www.hijiyama-u.ac.jp/exam/page411.html",
+   "https://telemail.jp/shingaku/university/10001660/examination/general",
+   "https://shingakunet.com/gakko/SC000502/gakuhi/",
+   "https://passnavi.obunsha.co.jp/univ/4725/difficulty/"
+  ]
+ },
+ {
+  "name": "環太平洋大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "岡山県岡山市東区",
+  "pref_name": "岡山県",
+  "city": "岡山市東区",
+  "hp": "https://www.ipu-japan.ac.jp/",
+  "reading": "かんたいへいようだいがく",
+  "features": [
+   "次世代教育・体育・経済経営・国際経済経営の4学部を擁し、2027年4月にデザイン経営学科等を開設予定。",
+   "一般入試A1（オンライン受験）・A2（東京・岡山・福岡会場）など柔軟な受験方式を用意。",
+   "2次手続締切は3/4（A日程）に設定されており、国公立大との併願もしやすい。"
+  ],
+  "memo": "偏差値はBF〜40.0、共テ47%。オンライン（CBT）受験や3月最終日程まで実施。",
+  "info": {
+   "faculties": [
+    "次世代教育学部",
+    "体育学部",
+    "経済経営学部",
+    "国際経済経営学部"
+   ],
+   "departments": [
+    {
+     "f": "次世代教育学部",
+     "d": [
+      "こども発達学科",
+      "教育学科（2027年4月設置予定）"
+     ]
+    },
+    {
+     "f": "体育学部",
+     "d": [
+      "体育学科",
+      "競技スポーツ科学科",
+      "健康科学科"
+     ]
+    },
+    {
+     "f": "経済経営学部",
+     "d": [
+      "現代経営学科"
+     ]
+    },
+    {
+     "f": "国際経済経営学部",
+     "d": [
+      "デザイン経営学科（2027年4月開設予定）"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜40.0",
+    "kyotei": "47%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "共通テスト利用入試（A・B・最終）を実施",
+    "kyoka": [
+     null,
+     null
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般入試（A1・A2・B・最終）",
+      "kyotsu": "課さない",
+      "niji": "各学部指定科目",
+      "content": null,
+      "req": "A1はオンライン受験",
+      "url": "https://ipu-japan.ac.jp/dp/2027/application_requirements_Ver2/pageindices/index7.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試（A・B・最終）",
+      "kyotsu": "指定教科・科目",
+      "niji": null,
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://telemail.jp/shingaku/university/10001835/examination/general"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般入試 A1（オンライン）",
+      "apply": "12/25〜1/22",
+      "exam": "1/27",
+      "result": "2/9",
+      "proc": "2/18（2次3/4）",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試 A2",
+      "apply": "12/25〜1/22",
+      "exam": "2/3",
+      "result": "2/9",
+      "proc": "2/18（2次3/4）",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試 B",
+      "apply": "2/9〜2/22",
+      "exam": "3/2",
+      "result": "3/5",
+      "proc": "3/11",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試 最終",
+      "apply": "3/3〜3/15",
+      "exam": "3/17",
+      "result": "3/20",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試 A",
+      "apply": "12/25〜1/22",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/9",
+      "proc": "2/18（2次3/4）",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試 B",
+      "apply": "2/9〜2/22",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/5",
+      "proc": "3/11",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試 最終",
+      "apply": "3/3〜3/15",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/20",
+      "proc": "3/23",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "次世代教育学部・経済経営学部・国際経済経営学部",
+      "admission": 300000,
+      "tuition": 800000,
+      "facility": 200000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1300000,
+      "four_year": null
+     },
+     {
+      "f": "体育学部（体育学科・競技スポーツ科学科）",
+      "admission": 300000,
+      "tuition": 800000,
+      "facility": 300000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1400000,
+      "four_year": null
+     },
+     {
+      "f": "体育学部 健康科学科",
+      "admission": 300000,
+      "tuition": 1400000,
+      "facility": 200000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1900000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "岡山県岡山市東区瀬戸町観音寺721",
+   "careers": "教員（小・中・高・体育）、保育士、柔道整復師、一般企業、公務員など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.ipu-japan.ac.jp/",
+    "https://ipu-japan.ac.jp/dp/2027/application_requirements_Ver2/pageindices/index7.html",
+    "https://telemail.jp/shingaku/university/10001835/examination/general",
+    "https://passnavi.obunsha.co.jp/univ/4667/schedule/",
+    "https://shingakunet.com/gakko/SC005058/gakuhi/",
+    "https://shingakunet.com/gakko/SC005058/nanido/gakubu_17/"
+   ]
+  },
+  "sources": [
+   "https://www.ipu-japan.ac.jp/",
+   "https://ipu-japan.ac.jp/dp/2027/application_requirements_Ver2/pageindices/index7.html",
+   "https://telemail.jp/shingaku/university/10001835/examination/general",
+   "https://passnavi.obunsha.co.jp/univ/4667/schedule/",
+   "https://shingakunet.com/gakko/SC005058/gakuhi/",
+   "https://shingakunet.com/gakko/SC005058/nanido/gakubu_17/"
+  ]
+ }
+]
