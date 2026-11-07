@@ -3249,41 +3249,6 @@
 "cat": "private"
 },
 {
-"name": "畿央大学",
-"type": "私立",
-"pref": "奈良県",
-"hp": "https://www.kio.ac.jp/",
-"cat": "private"
-},
-{
-"name": "皇學館大学",
-"type": "私立",
-"pref": "三重県",
-"hp": "https://www.kogakkan-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "相愛大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.soai.ac.jp/",
-"cat": "private"
-},
-{
-"name": "神戸医療未来大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.kinwu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "神戸国際大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.kobe-kiu.ac.jp/",
-"cat": "private"
-},
-{
 "name": "神戸女子大学",
 "type": "私立",
 "pref": "兵庫県",
@@ -4049,6 +4014,36 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "畿央大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "皇學館大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "相愛大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "神戸医療未来大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "神戸国際大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "種智院大学",
 "need": [
@@ -18777,6 +18772,126 @@
 },
 {
 "name": "花園大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "畿央大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "畿央大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "畿央大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "畿央大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "皇學館大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "皇學館大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "皇學館大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "皇學館大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "相愛大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "相愛大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "相愛大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "相愛大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "神戸医療未来大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "神戸医療未来大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "神戸医療未来大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "神戸医療未来大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "神戸国際大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "神戸国際大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "神戸国際大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "神戸国際大学",
 "need": [
 "scholar"
 ]

@@ -1,0 +1,779 @@
+[
+ {
+  "name": "畿央大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "奈良県北葛城郡広陵町",
+  "pref_name": "奈良県",
+  "city": "北葛城郡広陵町",
+  "hp": "https://www.kio.ac.jp/",
+  "reading": "きおうだいがく",
+  "features": [
+   "健康科学部と教育学部の2学部を擁し、医療・栄養・建築・教員を養成。",
+   "原則として各種実習費を徴収せず、学修用ノートPCを大学が準備する。",
+   "一般選抜前期（A・B・C日程）は1/23〜1/26に実施され、2次手続は3/11。"
+  ],
+  "memo": "偏差値は40.0〜47.5、共テ得点率は58%〜75%。1次手続時の入学申込金は入学金の半額13万円。",
+  "info": {
+   "faculties": [
+    "健康科学部",
+    "教育学部"
+   ],
+   "departments": [
+    {
+     "f": "健康科学部",
+     "d": [
+      "理学療法学科",
+      "看護医療学科",
+      "健康栄養学科",
+      "人間環境デザイン学科"
+     ]
+    },
+    {
+     "f": "教育学部",
+     "d": [
+      "現代教育学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "40.0〜47.5",
+    "kyotei": "58%〜75%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "大学入学共通テスト利用選抜（前期C2・C3・C4日程、後期日程）を実施",
+    "kyoka": [
+     2,
+     4
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期A・B・C日程、後期日程）",
+      "kyotsu": "課さない",
+      "niji": "2科目型・3科目型",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.kio.ac.jp/admission/info/admission/admission3/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（前期日程・後期日程）",
+      "kyotsu": "2〜4教科",
+      "niji": null,
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.kio.ac.jp/admission/info/2020schedule/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期（A・B・C日程）",
+      "apply": "12/21〜1/15",
+      "exam": "1/23（A）・1/24（B）・1/26（C）",
+      "result": "2/4",
+      "proc": "1次2/19・2次3/11",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期日程",
+      "apply": "2/15〜3/3",
+      "exam": "3/10",
+      "result": "3/13",
+      "proc": "3/24",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 前期日程",
+      "apply": "12/16〜2/1",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "1次2/24・2次3/11",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 後期日程",
+      "apply": "2/15〜3/3",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/13",
+      "proc": "3/24",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "健康科学部 理学療法学科・看護医療学科",
+      "admission": 260000,
+      "tuition": 860000,
+      "facility": 750000,
+      "practical": 0,
+      "other": 30000,
+      "first_year": 1900000,
+      "four_year": 7210000
+     },
+     {
+      "f": "健康科学部 健康栄養学科",
+      "admission": 260000,
+      "tuition": 860000,
+      "facility": 420000,
+      "practical": 0,
+      "other": 30000,
+      "first_year": 1570000,
+      "four_year": 5890000
+     },
+     {
+      "f": "健康科学部 人間環境デザイン学科",
+      "admission": 260000,
+      "tuition": 860000,
+      "facility": 320000,
+      "practical": 0,
+      "other": 30000,
+      "first_year": 1470000,
+      "four_year": 5490000
+     },
+     {
+      "f": "教育学部 現代教育学科",
+      "admission": 260000,
+      "tuition": 860000,
+      "facility": 320000,
+      "practical": 0,
+      "other": 30000,
+      "first_year": 1470000,
+      "four_year": 5490000
+     }
+    ]
+   },
+   "access": "奈良県北葛城郡広陵町馬見中4-2-2",
+   "careers": "理学療法士、看護師、管理栄養士、建築・デザイン関連、小学校・幼稚園教諭、保育士など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.kio.ac.jp/",
+    "https://www.kio.ac.jp/admission/info/2020schedule/",
+    "https://www.kio.ac.jp/admission/info/admission/admission3/",
+    "https://www.kio.ac.jp/admission/info/admission/admission5/",
+    "https://www.kio.ac.jp/admission/info/exam-results/",
+    "https://www.kio.ac.jp/admission/info/tuition-scholarship/",
+    "https://passnavi.obunsha.co.jp/univ/4585/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.kio.ac.jp/",
+   "https://www.kio.ac.jp/admission/info/2020schedule/",
+   "https://www.kio.ac.jp/admission/info/admission/admission3/",
+   "https://www.kio.ac.jp/admission/info/admission/admission5/",
+   "https://www.kio.ac.jp/admission/info/exam-results/",
+   "https://www.kio.ac.jp/admission/info/tuition-scholarship/",
+   "https://passnavi.obunsha.co.jp/univ/4585/difficulty/"
+  ]
+ },
+ {
+  "name": "皇學館大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "三重県伊勢市",
+  "pref_name": "三重県",
+  "city": "伊勢市",
+  "hp": "https://www.kogakkan-u.ac.jp/",
+  "reading": "こうがっかんだいがく",
+  "features": [
+   "文学部・教育学部・現代日本社会学部の3学部を擁する伝統校。",
+   "一般前期入試は3科目型・2科目型・得意科目重視型など多彩な方式を用意。",
+   "神道学科をはじめ日本文化や教員養成（国語・社会・数学・理科等）に強み。"
+  ],
+  "memo": "偏差値は35.0〜42.5、共テ得点率は40%〜64%。必要諸経費が別途5.4万〜7.7万円かかる。",
+  "info": {
+   "faculties": [
+    "文学部",
+    "教育学部",
+    "現代日本社会学部"
+   ],
+   "departments": [
+    {
+     "f": "文学部",
+     "d": [
+      "神道学科",
+      "国文学科",
+      "国史学科",
+      "コミュニケーション学科"
+     ]
+    },
+    {
+     "f": "教育学部",
+     "d": [
+      "教育学科"
+     ]
+    },
+    {
+     "f": "現代日本社会学部",
+     "d": [
+      "現代日本社会学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜42.5",
+    "kyotei": "40%〜64%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "共通テスト利用選抜および共通テスト併用方式（2科目＋テ1・1科目＋テ2）を実施",
+    "kyoka": [
+     2,
+     4
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 一般前期入試（3科目型・2科目型・得意科目）",
+      "kyotsu": "課さない",
+      "niji": "各学部指定科目",
+      "content": null,
+      "req": "最大3日で50,000円（8併願可能）",
+      "url": "https://www.kogakkan-u.ac.jp/cms/assets/files/md7066_1.pdf"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（3科目型・4科目型等）",
+      "kyotsu": "3〜4教科",
+      "niji": null,
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://passnavi.obunsha.co.jp/univ/3860/difficulty/"
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "文学部（神道・国文・国史・コミュニケーション）",
+      "admission": 200000,
+      "tuition": 735000,
+      "facility": 355000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1290000,
+      "four_year": null
+     },
+     {
+      "f": "教育学部 教育学科",
+      "admission": 200000,
+      "tuition": 735000,
+      "facility": 425000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1360000,
+      "four_year": null
+     },
+     {
+      "f": "現代日本社会学部 現代日本社会学科",
+      "admission": 200000,
+      "tuition": 735000,
+      "facility": 375000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1310000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "三重県伊勢市神田久志本町1704",
+   "careers": "小学校・中学校・高校教諭、神職、公務員、一般企業など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.kogakkan-u.ac.jp/",
+    "https://www.kogakkan-u.ac.jp/cms/assets/files/md7066_1.pdf",
+    "https://search.keinet.ne.jp/2473/general/border_rate",
+    "https://search.keinet.ne.jp/2473/outline/expense",
+    "https://passnavi.obunsha.co.jp/univ/3860/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.kogakkan-u.ac.jp/",
+   "https://www.kogakkan-u.ac.jp/cms/assets/files/md7066_1.pdf",
+   "https://search.keinet.ne.jp/2473/general/border_rate",
+   "https://search.keinet.ne.jp/2473/outline/expense",
+   "https://passnavi.obunsha.co.jp/univ/3860/difficulty/"
+  ]
+ },
+ {
+  "name": "相愛大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "大阪府大阪市住之江区",
+  "pref_name": "大阪府",
+  "city": "大阪市住之江区",
+  "hp": "https://www.soai.ac.jp/",
+  "reading": "そうあいだいがく",
+  "features": [
+   "音楽学部・人文学部・人間発達学部の3学部を擁する仏教系総合大学。",
+   "一般選抜A入試（2/1・2/2）は2/12合格発表、2/22・3/12手続締切。",
+   "総合型選抜入試合格者は入学金（25万円）が半額免除される。"
+  ],
+  "memo": "偏差値はBF〜37.5、共テ得点率48%〜49%。音楽・管理栄養・子ども教育分野に特色。",
+  "info": {
+   "faculties": [
+    "音楽学部",
+    "人文学部",
+    "人間発達学部"
+   ],
+   "departments": [
+    {
+     "f": "音楽学部",
+     "d": [
+      "音楽学科"
+     ]
+    },
+    {
+     "f": "人文学部",
+     "d": [
+      "人文学科"
+     ]
+    },
+    {
+     "f": "人間発達学部",
+     "d": [
+      "子ども発達学科",
+      "発達栄養学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜37.5",
+    "kyotei": "48%〜49%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "共通テスト利用（2教科・3教科）を実施",
+    "kyoka": [
+     2,
+     3
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A入試",
+      "kyotsu": "課さない",
+      "niji": "各学部指定科目",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.soai.ac.jp/examinee/pdf/2026/nyushi-nittei-2027.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "推薦入試",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "書類・面接等",
+      "req": "学校長推薦等",
+      "url": "https://www.soai.ac.jp/examinee/pdf/2026/nyushi-nittei-2027.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（A入試・B入試）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "書類・面接等",
+      "req": "合格者は入学金半額免除",
+      "url": "https://www.soai.ac.jp/examinee/pdf/2026/nyushi-nittei-2027.pdf"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 A入試",
+      "apply": "9/1〜9/9",
+      "exam": "9/20",
+      "result": "10/1",
+      "proc": "10/9（2次12/16）",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 B入試",
+      "apply": "9/29〜10/7",
+      "exam": "10/18",
+      "result": "11/2",
+      "proc": "11/13（2次12/16）",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "推薦入試",
+      "apply": "11/1〜11/10",
+      "exam": "11/21・11/22",
+      "result": "12/1",
+      "proc": "12/11（2次1/29）",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A入試",
+      "apply": "1/7〜1/19",
+      "exam": "2/1・2/2",
+      "result": "2/12",
+      "proc": "2/22（2次3/12）",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "人文学部 人文学科",
+      "admission": 250000,
+      "tuition": 860000,
+      "facility": 240000,
+      "practical": 0,
+      "other": 52900,
+      "first_year": 1402900,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "大阪府大阪市住之江区南港中4-4-1",
+   "careers": "音楽指導者、管理栄養士、保育士、幼稚園・小学校教諭、一般企業など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.soai.ac.jp/",
+    "https://www.soai.ac.jp/examinee/pdf/2026/nyushi-guide.pdf",
+    "https://www.soai.ac.jp/examinee/pdf/2026/nyushi-nittei-2027.pdf",
+    "https://www.soai.ac.jp/examinee/tuition-scholarships/tuition.html",
+    "https://passnavi.obunsha.co.jp/univ/4300/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.soai.ac.jp/",
+   "https://www.soai.ac.jp/examinee/pdf/2026/nyushi-guide.pdf",
+   "https://www.soai.ac.jp/examinee/pdf/2026/nyushi-nittei-2027.pdf",
+   "https://www.soai.ac.jp/examinee/tuition-scholarships/tuition.html",
+   "https://passnavi.obunsha.co.jp/univ/4300/difficulty/"
+  ]
+ },
+ {
+  "name": "神戸医療未来大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "兵庫県神崎郡福崎町",
+  "pref_name": "兵庫県",
+  "city": "神崎郡福崎町",
+  "hp": "https://www.kinwu.ac.jp/",
+  "reading": "こうべいりょうみらいだいがく",
+  "features": [
+   "人間社会学部（未来社会・経営データビジネス）と健康スポーツ学部を擁する。",
+   "福崎キャンパスのほか、大阪天王寺・姫路にも学びの拠点を展開。",
+   "人間社会学部は初年度132万3,300円、健康スポーツ学部は144万3,300円。"
+  ],
+  "memo": "偏差値はBF〜37.5。指定校推薦は入学金全額（20万円）免除の特典がある。",
+  "info": {
+   "faculties": [
+    "人間社会学部",
+    "健康スポーツ学部"
+   ],
+   "departments": [
+    {
+     "f": "人間社会学部",
+     "d": [
+      "未来社会学科",
+      "経営データビジネス学科"
+     ]
+    },
+    {
+     "f": "健康スポーツ学部",
+     "d": [
+      "健康スポーツコミュニケーション学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜37.5",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "推薦",
+      "name": "指定校推薦入試・教員推薦入試",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "書類・面接等",
+      "req": "指定校は入学金全額免除、教員推薦は半額免除",
+      "url": "https://www.kinwu.ac.jp/exam/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "1期",
+      "apply": "10/14〜10/23",
+      "exam": "11/7・11/8",
+      "result": null,
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "人間社会学部（未来社会学科・経営データビジネス学科）",
+      "admission": 200000,
+      "tuition": 750000,
+      "facility": 330000,
+      "practical": 0,
+      "other": 43300,
+      "first_year": 1323300,
+      "four_year": null
+     },
+     {
+      "f": "健康スポーツ学部 健康スポーツコミュニケーション学科",
+      "admission": 200000,
+      "tuition": 840000,
+      "facility": 360000,
+      "practical": 0,
+      "other": 43300,
+      "first_year": 1443300,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "兵庫県神崎郡福崎町高岡1966-5（姫路・大阪天王寺キャンパスあり）",
+   "careers": "社会福祉士、精神保健福祉士、一般企業、スポーツ指導者、教員など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.kinwu.ac.jp/",
+    "https://www.kinwu.ac.jp/exam/",
+    "https://search.keinet.ne.jp/2592/outline/expense",
+    "https://passnavi.obunsha.co.jp/univ/4395/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.kinwu.ac.jp/",
+   "https://www.kinwu.ac.jp/exam/",
+   "https://search.keinet.ne.jp/2592/outline/expense",
+   "https://passnavi.obunsha.co.jp/univ/4395/difficulty/"
+  ]
+ },
+ {
+  "name": "神戸国際大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "兵庫県神戸市東灘区",
+  "pref_name": "兵庫県",
+  "city": "神戸市東灘区",
+  "hp": "https://www.kobe-kiu.ac.jp/",
+  "reading": "こうべこくさいだいがく",
+  "features": [
+   "経済学部とリハビリテーション学部（理学療法学科）の2学部を擁する。",
+   "一般選抜は前期（2/2・2/3）・中期（2/22）・後期（3/11）を実施。",
+   "特待生制度合格者は入学金・授業料50%減免に加え減免後の授業料50%分を奨学金支給。"
+  ],
+  "memo": "偏差値はBF〜37.5、共テ得点率は49%〜56%。初年度納付金は経済127.7万円・理学療法194.7万円。",
+  "info": {
+   "faculties": [
+    "経済学部",
+    "リハビリテーション学部"
+   ],
+   "departments": [
+    {
+     "f": "経済学部",
+     "d": [
+      "経済経営学科",
+      "国際文化ビジネス・観光学科"
+     ]
+    },
+    {
+     "f": "リハビリテーション学部",
+     "d": [
+      "理学療法学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜37.5",
+    "kyotei": "49%〜56%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "大学入学共通テスト利用入試（前期・中期・後期）を実施",
+    "kyoka": [
+     null,
+     null
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期・中期・後期）",
+      "kyotsu": "課さない",
+      "niji": "各学部指定科目",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://passnavi.obunsha.co.jp/univ/4570/schedule/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試（前期・中期・後期）",
+      "kyotsu": "指定教科・科目",
+      "niji": null,
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://passnavi.obunsha.co.jp/univ/4570/schedule/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期",
+      "apply": "12/7〜1/21",
+      "exam": "2/2・2/3",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 中期",
+      "apply": "1/25〜2/15",
+      "exam": "2/22",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期",
+      "apply": "2/12〜3/4",
+      "exam": "3/11",
+      "result": "3/19",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試 前期",
+      "apply": "12/7〜1/21",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/16",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試 中期",
+      "apply": "1/25〜2/15",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/4",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試 後期",
+      "apply": "2/12〜3/4",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/19",
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "経済学部（経済経営学科・国際文化ビジネス・観光学科）",
+      "admission": 250000,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1277000,
+      "four_year": null
+     },
+     {
+      "f": "リハビリテーション学部 理学療法学科",
+      "admission": 250000,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1947000,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "特待生制度",
+      "kind": "減免",
+      "target": "全学部",
+      "amount": "入学金・授業料50%減免（最長4年間）＋減免後授業料の50%を奨学金支給（初年度）",
+      "timing": "入試時",
+      "cond": "特待生対象入試での成績優秀合格者"
+     }
+    ]
+   },
+   "access": "兵庫県神戸市東灘区向洋町中9-1-6",
+   "careers": "一般企業、観光・ホテル業界、理学療法士など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.kobe-kiu.ac.jp/",
+    "https://www.kobe-kiu.ac.jp/news/612191/",
+    "https://shingakunet.com/gakko/SC000320/gakuhi/",
+    "https://passnavi.obunsha.co.jp/univ/4570/difficulty/",
+    "https://passnavi.obunsha.co.jp/univ/4570/schedule/",
+    "https://search.keinet.ne.jp/2575/general/border_rate"
+   ]
+  },
+  "sources": [
+   "https://www.kobe-kiu.ac.jp/",
+   "https://www.kobe-kiu.ac.jp/news/612191/",
+   "https://shingakunet.com/gakko/SC000320/gakuhi/",
+   "https://passnavi.obunsha.co.jp/univ/4570/difficulty/",
+   "https://passnavi.obunsha.co.jp/univ/4570/schedule/",
+   "https://search.keinet.ne.jp/2575/general/border_rate"
+  ]
+ }
+]
