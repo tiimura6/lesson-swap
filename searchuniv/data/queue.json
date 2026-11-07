@@ -3109,41 +3109,6 @@
 "cat": "private"
 },
 {
-"name": "常磐会学園大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.sftokiwakai.ac.jp/",
-"cat": "private"
-},
-{
-"name": "平安女学院大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "http://www.heian.ac.jp/",
-"cat": "private"
-},
-{
-"name": "成安造形大学",
-"type": "私立",
-"pref": "滋賀県",
-"hp": "https://www.seian.ac.jp/",
-"cat": "private"
-},
-{
-"name": "摂南大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.setsunan.ac.jp/",
-"cat": "private"
-},
-{
-"name": "明治国際医療大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "https://www.meiji-u.ac.jp/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -3881,6 +3846,36 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "常磐会学園大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "平安女学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "成安造形大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "摂南大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "明治国際医療大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "宝塚医療大学",
 "need": [
@@ -19299,6 +19294,126 @@
 },
 {
 "name": "帝塚山学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "常磐会学園大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "常磐会学園大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "常磐会学園大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "常磐会学園大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "平安女学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "平安女学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "平安女学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "平安女学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "成安造形大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "成安造形大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "成安造形大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "成安造形大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "摂南大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "摂南大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "摂南大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "摂南大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "明治国際医療大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "明治国際医療大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "明治国際医療大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "明治国際医療大学",
 "need": [
 "scholar"
 ]
