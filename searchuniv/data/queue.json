@@ -4012,34 +4012,6 @@
 "cat": "private"
 },
 {
-"name": "日本文理大学",
-"type": "私立",
-"pref": "大分県",
-"hp": "https://www.nbu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "日本経済大学",
-"type": "私立",
-"pref": "福岡県",
-"hp": "https://www.jue.ac.jp/",
-"cat": "private"
-},
-{
-"name": "日本赤十字九州国際看護大学",
-"type": "私立",
-"pref": "福岡県",
-"hp": "https://www.jrckicn.ac.jp/",
-"cat": "private"
-},
-{
-"name": "沖縄キリスト教学院大学",
-"type": "私立",
-"pref": "沖縄県",
-"hp": "https://www.ocjc.ac.jp/",
-"cat": "private"
-},
-{
 "name": "沖縄国際大学",
 "type": "私立",
 "pref": "沖縄県",
@@ -4072,13 +4044,6 @@
 "type": "私立",
 "pref": "熊本県",
 "hp": "https://www.kumagaku.ac.jp/",
-"cat": "private"
-},
-{
-"name": "産業医科大学",
-"type": "私立",
-"pref": "福岡県",
-"hp": "https://www.uoeh-u.ac.jp/index.html",
 "cat": "private"
 },
 {
@@ -4743,6 +4708,36 @@
 "九州大学": 1
 },
 "enrich": [
+{
+"name": "日本文理大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "日本経済大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "日本赤十字九州国際看護大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "沖縄キリスト教学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "産業医科大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "鹿児島国際大学",
 "need": [
@@ -16551,6 +16546,126 @@
 },
 {
 "name": "鹿児島純心大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "日本文理大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "日本文理大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "日本文理大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "日本文理大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "日本経済大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "日本経済大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "日本経済大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "日本経済大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "日本赤十字九州国際看護大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "日本赤十字九州国際看護大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "日本赤十字九州国際看護大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "日本赤十字九州国際看護大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "沖縄キリスト教学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "沖縄キリスト教学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "沖縄キリスト教学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "沖縄キリスト教学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "産業医科大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "産業医科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "産業医科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "産業医科大学",
 "need": [
 "scholar"
 ]
