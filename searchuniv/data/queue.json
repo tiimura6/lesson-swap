@@ -2640,41 +2640,6 @@
 "cat": "private"
 },
 {
-"name": "京都産業大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "https://www.kyoto-su.ac.jp/",
-"cat": "private"
-},
-{
-"name": "京都看護大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "https://www.kyotokango.ac.jp/index.php",
-"cat": "private"
-},
-{
-"name": "京都精華大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "https://www.kyoto-seika.ac.jp/",
-"cat": "private"
-},
-{
-"name": "京都美術工芸大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "https://www.kyobi.ac.jp/",
-"cat": "private"
-},
-{
-"name": "京都芸術大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "https://www.kyoto-art.ac.jp/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -3437,6 +3402,36 @@
 "長野県立大学": 1
 },
 "enrich": [
+{
+"name": "京都産業大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "京都看護大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "京都精華大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "京都美術工芸大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "京都芸術大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "京都医療科学大学",
 "need": [
@@ -20673,6 +20668,126 @@
 },
 {
 "name": "京都橘大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "京都産業大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "京都産業大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "京都産業大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "京都産業大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "京都看護大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "京都看護大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "京都看護大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "京都看護大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "京都精華大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "京都精華大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "京都精華大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "京都精華大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "京都美術工芸大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "京都美術工芸大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "京都美術工芸大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "京都美術工芸大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "京都芸術大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "京都芸術大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "京都芸術大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "京都芸術大学",
 "need": [
 "scholar"
 ]
