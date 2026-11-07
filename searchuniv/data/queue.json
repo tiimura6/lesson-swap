@@ -1,20 +1,6 @@
 {
  "add": [
   {
-   "name": "宮崎県立看護大学",
-   "type": "公立",
-   "pref": "宮崎県",
-   "hp": "http://www.mpu.ac.jp/",
-   "cat": "public"
-  },
-  {
-   "name": "沖縄県立看護大学",
-   "type": "公立",
-   "pref": "沖縄県",
-   "hp": "http://www.okinawa-nurs.ac.jp/",
-   "cat": "public"
-  },
-  {
    "name": "沖縄県立芸術大学",
    "type": "公立",
    "pref": "沖縄県",
@@ -3278,6 +3264,92 @@
    "need": [
     "schedule_dates"
    ]
+  },
+  {
+   "name": "立教大学",
+   "keinet": "2290",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "中央大学",
+   "keinet": "2242",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "法政大学",
+   "keinet": "2279",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "立命館大学",
+   "keinet": "2504",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "関西学院大学",
+   "keinet": "2558",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "南山大学",
+   "keinet": "2460",
+   "passnavi": 3820,
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "成蹊大学",
+   "keinet": "2228",
+   "passnavi": 2540,
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "立教大学",
+   "keinet": "2290",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "中央大学",
+   "keinet": "2242",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "同志社大学",
+   "keinet": "2498",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "立命館大学",
+   "keinet": "2504",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "関西学院大学",
+   "keinet": "2558",
+   "need": [
+    "fees"
+   ]
   }
  ],
  "failed": [],
@@ -3311,7 +3383,12 @@
   "国際教養大学": 1,
   "豊橋技術科学大学": 2,
   "早稲田大学": 2,
-  "慶應義塾大学": 1
+  "慶應義塾大学": 1,
+  "青山学院大学": 1,
+  "同志社大学": 1,
+  "関西大学": 1,
+  "西南学院大学": 1,
+  "法政大学": 1
  },
  "enrich": [
   {
@@ -4995,86 +5072,6 @@
    ]
   },
   {
-   "name": "青山学院大学",
-   "keinet": "2200",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "立教大学",
-   "keinet": "2290",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "中央大学",
-   "keinet": "2242",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "法政大学",
-   "keinet": "2279",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "同志社大学",
-   "keinet": "2498",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "立命館大学",
-   "keinet": "2504",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "関西学院大学",
-   "keinet": "2558",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "関西大学",
-   "keinet": "2533",
-   "passnavi": 4240,
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "南山大学",
-   "keinet": "2460",
-   "passnavi": 3820,
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "西南学院大学",
-   "keinet": "2705",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "成蹊大学",
-   "keinet": "2228",
-   "passnavi": 2540,
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
    "name": "成城大学",
    "keinet": "2229",
    "passnavi": 2550,
@@ -5745,48 +5742,6 @@
    "keinet": "1510",
    "need": [
     "schedule_dates"
-   ]
-  },
-  {
-   "name": "立教大学",
-   "keinet": "2290",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "中央大学",
-   "keinet": "2242",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "法政大学",
-   "keinet": "2279",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "同志社大学",
-   "keinet": "2498",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "立命館大学",
-   "keinet": "2504",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "関西学院大学",
-   "keinet": "2558",
-   "need": [
-    "fees"
    ]
   },
   {
@@ -23289,6 +23244,42 @@
    "need": [
     "extra",
     "partners"
+   ]
+  },
+  {
+   "name": "青山学院大学",
+   "keinet": "2200",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "同志社大学",
+   "keinet": "2498",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "関西大学",
+   "keinet": "2533",
+   "passnavi": 4240,
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "西南学院大学",
+   "keinet": "2705",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "法政大学",
+   "keinet": "2279",
+   "need": [
+    "fees"
    ]
   }
  ],
