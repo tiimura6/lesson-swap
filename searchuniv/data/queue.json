@@ -1,20 +1,6 @@
 {
 "add": [
 {
-"name": "愛媛県立医療技術大学",
-"type": "公立",
-"pref": "愛媛県",
-"hp": "http://www.epu.ac.jp/",
-"cat": "public"
-},
-{
-"name": "新見公立大学",
-"type": "公立",
-"pref": "岡山県",
-"hp": "https://www.niimi-u.ac.jp/",
-"cat": "public"
-},
-{
 "name": "県立広島大学",
 "type": "公立",
 "pref": "広島県",
@@ -2866,6 +2852,77 @@
 {
 "name": "広島市立大学",
 "op": "add"
+},
+{
+"name": "東京学芸大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "東京農工大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "電気通信大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "東京都立大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "横浜市立大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "宇都宮大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "群馬大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "東京藝術大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪公立大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "愛媛県立医療技術大学",
+"op": "add"
+},
+{
+"name": "新見公立大学",
+"op": "add"
 }
 ],
 "failed": [],
@@ -2893,7 +2950,10 @@
 "長野県立大学": 1,
 "びわこ成蹊スポーツ大学": 1,
 "高岡法科大学": 1,
-"名城大学": 1
+"名城大学": 1,
+"高崎経済大学": 1,
+"茨城県立医療大学": 1,
+"国際教養大学": 1
 },
 "enrich": [
 {
@@ -4574,90 +4634,6 @@
 "name": "九州産業大学",
 "need": [
 "verify"
-]
-},
-{
-"name": "東京学芸大学",
-"keinet": "1135",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "東京農工大学",
-"keinet": "1160",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "電気通信大学",
-"keinet": "1115",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "東京都立大学",
-"keinet": "1532",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "横浜市立大学",
-"keinet": "1540",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "宇都宮大学",
-"keinet": "1090",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "群馬大学",
-"keinet": "1095",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "高崎経済大学",
-"keinet": "1520",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "東京藝術大学",
-"keinet": "1140",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "茨城県立医療大学",
-"keinet": "1519",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "大阪公立大学",
-"keinet": "1615",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "国際教養大学",
-"keinet": "1521",
-"need": [
-"schedule_dates"
 ]
 },
 {
@@ -23223,6 +23199,43 @@
 "extra",
 "partners",
 "licenses"
+]
+},
+{
+"name": "高崎経済大学",
+"keinet": "1520",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "茨城県立医療大学",
+"keinet": "1519",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "国際教養大学",
+"keinet": "1521",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "愛媛県立医療技術大学",
+"keinet": "1668",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "新見公立大学",
+"keinet": "1649",
+"need": [
+"extra",
+"partners"
 ]
 }
 ],
