@@ -64,7 +64,7 @@ def main(path):
         # year 以外がすべて空（null）の項目は落とす
         for k in list(info):
             v = info[k]
-            if isinstance(v, dict) and not any(x not in (None, '', [], {}) for z, x in v.items() if z != 'year'):
+            if isinstance(v, dict) and not any(x not in (None, '', [], {}) and not (isinstance(x, list) and all(y is None for y in x)) for z, x in v.items() if z != 'year'):
                 info.pop(k)
         # 方式名の「※…」は見づらいので（…）に直す
         for k, z in (('schedule', 'rows'), ('methods', 'list'), ('subjects', 'rows')):

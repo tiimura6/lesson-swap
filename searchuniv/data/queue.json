@@ -3788,41 +3788,6 @@
 "cat": "private"
 },
 {
-"name": "福山大学",
-"type": "私立",
-"pref": "広島県",
-"hp": "https://www.fukuyama-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "福山平成大学",
-"type": "私立",
-"pref": "広島県",
-"hp": "https://www.heisei-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "美作大学",
-"type": "私立",
-"pref": "岡山県",
-"hp": "https://mimasaka.jp/",
-"cat": "private"
-},
-{
-"name": "聖カタリナ大学",
-"type": "私立",
-"pref": "愛媛県",
-"hp": "https://www.catherine.ac.jp/",
-"cat": "private"
-},
-{
-"name": "至誠館大学",
-"type": "私立",
-"pref": "山口県",
-"hp": "https://www.shiseikan.ac.jp/",
-"cat": "private"
-},
-{
 "name": "高松大学",
 "type": "私立",
 "pref": "香川県",
@@ -4567,6 +4532,36 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "福山大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "福山平成大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "美作大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "聖カタリナ大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "至誠館大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "久留米大学",
 "need": [
@@ -17169,6 +17164,126 @@
 },
 {
 "name": "九州産業大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "福山大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "福山大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "福山大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "福山大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "福山平成大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "福山平成大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "福山平成大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "福山平成大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "美作大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "美作大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "美作大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "美作大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "聖カタリナ大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "聖カタリナ大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "聖カタリナ大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "聖カタリナ大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "至誠館大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "至誠館大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "至誠館大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "至誠館大学",
 "need": [
 "scholar"
 ]
