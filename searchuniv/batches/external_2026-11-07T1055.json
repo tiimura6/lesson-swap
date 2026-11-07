@@ -1,0 +1,806 @@
+[
+ {
+  "name": "新潟経営大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "新潟県加茂市",
+  "pref_name": "新潟県",
+  "city": "加茂市",
+  "hp": "https://www.niigataum.ac.jp/",
+  "reading": "にいがたけいえいだいがく",
+  "features": [
+   "経営情報学部（経営情報学科・スポーツマネジメント学科）を擁する単科大学。",
+   "一般選抜は学力総合（前期2/6・後期2/27）および大学入学共通テスト利用（1期〜4期）を実施。",
+   "初年度納入金は約126万円（4年間総額約438万円）と比較的抑えられている。"
+  ],
+  "memo": "偏差値はBF〜35.0（河合塾）。少人数制で地域ビジネスやスポーツマネジメントを学ぶ。",
+  "info": {
+   "faculties": [
+    "経営情報学部"
+   ],
+   "departments": [
+    {
+     "f": "経営情報学部",
+     "d": [
+      "経営情報学科",
+      "スポーツマネジメント学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜35.0",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "大学入学共通テスト利用（1期〜4期）を実施",
+    "kyoka": [
+     null,
+     null
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 学力総合（前期・後期）",
+      "kyotsu": "課さない",
+      "niji": "各学科指定科目",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.niigataum.ac.jp/examinee/admission/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用（1期〜4期）",
+      "kyotsu": "指定教科・科目",
+      "niji": null,
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.niigataum.ac.jp/examinee/admission/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 学力総合（前期）",
+      "apply": "1/5〜1/29",
+      "exam": "2/6",
+      "result": "2/12",
+      "proc": "2/26",
+      "fee": 33000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 学力総合（後期）",
+      "apply": "1/30〜2/19",
+      "exam": "2/27",
+      "result": "3/4",
+      "proc": "3/18",
+      "fee": 33000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用（1期）",
+      "apply": "1/5〜1/29",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "2/26",
+      "fee": 20000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用（2期）",
+      "apply": "1/30〜2/19",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/4",
+      "proc": "3/18",
+      "fee": 20000
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "経営情報学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1260000,
+      "four_year": 4380000
+     }
+    ]
+   },
+   "access": "新潟県加茂市希望ヶ丘2909-2",
+   "careers": "一般企業、公務員、スポーツ関連企業・指導者など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.niigataum.ac.jp/examinee/admission/",
+    "https://www.niigataum.ac.jp/wp-content/uploads/2026/06/60ccb300371dd3ab771fd28557837784.pdf",
+    "https://passnavi.obunsha.co.jp/univ/3385/schedule/",
+    "https://www.best-shingaku.net/smt/gakuhi998.html"
+   ]
+  },
+  "sources": [
+   "https://www.niigataum.ac.jp/examinee/admission/",
+   "https://www.niigataum.ac.jp/wp-content/uploads/2026/06/60ccb300371dd3ab771fd28557837784.pdf",
+   "https://passnavi.obunsha.co.jp/univ/3385/schedule/",
+   "https://www.best-shingaku.net/smt/gakuhi998.html"
+  ]
+ },
+ {
+  "name": "新潟薬科大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "新潟県新潟市秋葉区",
+  "pref_name": "新潟県",
+  "city": "新潟市秋葉区",
+  "hp": "https://www.nupals.ac.jp/",
+  "reading": "にいがたやっかだいがく",
+  "features": [
+   "2027年4月に「新潟科学大学」へ名称変更予定。薬・医療技術・看護・食農情報の4学部体制。",
+   "薬学部薬学科（6年制）の初年度納付金は240万円（入学金30万円・授業料120万円・施設設備資金90万円）。",
+   "一般選抜（個別方式AB日程）は2/2・2/3の試験日自由選択制で、新潟・長野・宮城の3会場で実施。"
+  ],
+  "memo": "偏差値はBF〜35.0、共テ得点率は35%〜40%（Kei-Net・パスナビ）。6年制薬学部の総額は約1,290万円。",
+  "info": {
+   "faculties": [
+    "薬学部",
+    "医療技術学部",
+    "看護学部",
+    "食農情報学部"
+   ],
+   "departments": [
+    {
+     "f": "薬学部",
+     "d": [
+      "薬学科（6年制）"
+     ]
+    },
+    {
+     "f": "医療技術学部",
+     "d": [
+      "臨床検査学科",
+      "救急救命学科"
+     ]
+    },
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    },
+    {
+     "f": "食農情報学部",
+     "d": [
+      "食品生物化学科",
+      "食農ビジネス学科",
+      "グリーン・デジタル学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜35.0",
+    "kyotei": "35%〜40%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "大学入学共通テスト利用方式（A〜C日程）を実施",
+    "kyoka": [
+     null,
+     null
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜試験（個別方式AB日程）",
+      "kyotsu": "課さない",
+      "niji": "各学科指定科目",
+      "content": null,
+      "req": "2/2・2/3の試験日自由選択制（新潟・長野・宮城会場）",
+      "url": "https://telemail.jp/shingaku/university/10000091/examination/general"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜試験（大学入学共通テスト利用方式A・B・C日程）",
+      "kyotsu": "指定教科・科目",
+      "niji": null,
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://telemail.jp/shingaku/university/10000091/examination/general"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜試験（個別方式AB日程）",
+      "apply": "1/4〜1/21",
+      "exam": "2/2・2/3（自由選択）",
+      "result": "2/12",
+      "proc": "2/19",
+      "fee": 33000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用方式 A日程",
+      "apply": "1/4〜2/3",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "2/19",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用方式 B日程",
+      "apply": "2/4〜2/25",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/9",
+      "proc": "3/15",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用方式 C日程",
+      "apply": "2/26〜3/16",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/24",
+      "proc": "3/29",
+      "fee": null
+     }
+    ]
+   },
+   "access": "新津キャンパス（新潟市秋葉区東島265-1）・新津駅東キャンパス",
+   "careers": "薬剤師、臨床検査技師、救急救命士、看護師、食品・バイオ関連企業など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://telemail.jp/shingaku/university/10000091/examination/general",
+    "https://passnavi.obunsha.co.jp/univ/3400/difficulty/",
+    "https://search.keinet.ne.jp/2334/general/border_rate",
+    "https://up-j.shigaku.go.jp/department/category06/00000000370002001.html",
+    "https://igakubu-note.jp/18494"
+   ]
+  },
+  "sources": [
+   "https://telemail.jp/shingaku/university/10000091/examination/general",
+   "https://passnavi.obunsha.co.jp/univ/3400/difficulty/",
+   "https://search.keinet.ne.jp/2334/general/border_rate",
+   "https://up-j.shigaku.go.jp/department/category06/00000000370002001.html",
+   "https://igakubu-note.jp/18494"
+  ]
+ },
+ {
+  "name": "新潟青陵大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "新潟県新潟市中央区",
+  "pref_name": "新潟県",
+  "city": "新潟市中央区",
+  "hp": "https://www.n-seiryo.ac.jp/",
+  "reading": "にいがたせいりょうだいがく",
+  "features": [
+   "看護学部と福祉心理子ども学部の2学部を擁し、看護・福祉・心理・保育の専門職を養成。",
+   "一般選抜（2/6試験）は全学科で国語が必須（古文・漢文除く）で、看護は2科目選択、福祉心理子どもは1科目選択。",
+   "共通テスト利用選抜と特待生選抜は本学独自試験なしで出願可能。"
+  ],
+  "memo": "偏差値は35.0〜47.5、共テ得点率は54%〜65%（Kei-Net・パスナビ）。臨床心理・子ども発達は47.5。",
+  "info": {
+   "faculties": [
+    "看護学部",
+    "福祉心理子ども学部"
+   ],
+   "departments": [
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    },
+    {
+     "f": "福祉心理子ども学部",
+     "d": [
+      "社会福祉学科",
+      "臨床心理学科",
+      "子ども発達学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜47.5",
+    "kyotei": "54%〜65%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "大学入学共通テスト利用選抜を実施",
+    "kyoka": [
+     null,
+     null
+    ],
+    "note": "独自試験なし"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "kyotsu": "課さない",
+      "niji": "看護：国語必須＋2科目選択、福祉心理子ども：国語必須＋1科目選択",
+      "content": null,
+      "req": "学内併願制度あり",
+      "url": "https://www.n-seiryo.ac.jp/entrance/nsu/type/general/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜",
+      "kyotsu": "指定教科・科目",
+      "niji": null,
+      "content": null,
+      "req": "本学独自試験なし",
+      "url": "https://www.n-seiryo.ac.jp/entrance/nsu/type/general/"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "看護学部 看護学科",
+      "kubun": "一般",
+      "name": "一般選抜",
+      "n": 3,
+      "subj": "国語（古文・漢文除く）必須＋英語・数学・生物基礎から2科目選択",
+      "kt": null,
+      "eng": "なし"
+     },
+     {
+      "f": "福祉心理子ども学部",
+      "kubun": "一般",
+      "name": "一般選抜",
+      "n": 2,
+      "subj": "国語（古文・漢文除く）必須＋英語・数学・公共から1科目選択",
+      "kt": null,
+      "eng": "なし"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "apply": "1/8〜1/26",
+      "exam": "2/6",
+      "result": "2/18",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜",
+      "apply": "1/8〜1/26",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/18",
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "看護学部 看護学科",
+      "admission": 200000,
+      "tuition": 1180000,
+      "facility": 350000,
+      "practical": 250000,
+      "other": 40000,
+      "first_year": 2020000,
+      "four_year": null
+     },
+     {
+      "f": "福祉心理子ども学部（社会福祉・臨床心理・子ども発達）",
+      "admission": 200000,
+      "tuition": 840000,
+      "facility": 350000,
+      "practical": 30000,
+      "other": 40000,
+      "first_year": 1460000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "新潟県新潟市中央区水道町1-5939",
+   "careers": "看護師、保健師、社会福祉士、精神保健福祉士、公認心理師、保育士、幼稚園・小学校教諭など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.n-seiryo.ac.jp/entrance/nsu/type/general/",
+    "https://www.n-seiryo.ac.jp/entrance/nsu/money/",
+    "https://search.keinet.ne.jp/2339/general/border_rate",
+    "https://passnavi.obunsha.co.jp/univ/3395/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.n-seiryo.ac.jp/entrance/nsu/type/general/",
+   "https://www.n-seiryo.ac.jp/entrance/nsu/money/",
+   "https://search.keinet.ne.jp/2339/general/border_rate",
+   "https://passnavi.obunsha.co.jp/univ/3395/difficulty/"
+  ]
+ },
+ {
+  "name": "新潟食料農業大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "新潟県胎内市",
+  "pref_name": "新潟県",
+  "city": "胎内市",
+  "hp": "https://nafu.ac.jp/",
+  "reading": "にいがたしょくりょうのうぎょうだいがく",
+  "features": [
+   "食料産業学部食料産業学科を擁し、アグリ・フード・ビジネスの3コースで食と農を一体的に学ぶ。",
+   "一般選抜（2/4試験）や特待生選抜試験で得点上位10名程度は1年次学費全額（160万円）免除。",
+   "初年度納入金は155万円（入学金10万円・授業料等145万円）。"
+  ],
+  "memo": "特待生制度による1年次学費全額免除が魅力。胎内キャンパスと新潟キャンパスの2拠点を展開。",
+  "info": {
+   "faculties": [
+    "食料産業学部"
+   ],
+   "departments": [
+    {
+     "f": "食料産業学部",
+     "d": [
+      "食料産業学科"
+     ]
+    }
+   ],
+   "kyotsu": {
+    "kamoku": "大学入学共通テスト利用選抜を実施",
+    "kyoka": [
+     null,
+     null
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "kyotsu": "課さない",
+      "niji": "独自試験",
+      "content": null,
+      "req": "特待生選抜を兼ねる",
+      "url": "https://nafu.ac.jp/exam/guide/general.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜",
+      "kyotsu": "指定教科・科目",
+      "niji": null,
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://nafu.ac.jp/exam/guide.html"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "apply": "12/15〜1/25",
+      "exam": "2/4",
+      "result": "2/12",
+      "proc": "2/12〜3/23",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "食料産業学部 食料産業学科",
+      "admission": 100000,
+      "tuition": 1450000,
+      "facility": 0,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1550000,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "特待生制度",
+      "kind": "免除",
+      "target": "食料産業学部",
+      "amount": "入学金を含む1年次の学費全額（1,600,000円）を免除",
+      "timing": "入試時",
+      "cond": "一般選抜および特待生選抜試験の得点上位10名程度"
+     }
+    ]
+   },
+   "access": "胎内キャンパス（新潟県胎内市平根台2416）・新潟キャンパス",
+   "careers": "食品メーカー、農業・アグリビジネス、商社、流通・小売、公務員など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://nafu.ac.jp/exam/guide.html",
+    "https://nafu.ac.jp/exam/guide/general.html",
+    "https://nafu.ac.jp/exam/expense.html"
+   ]
+  },
+  "sources": [
+   "https://nafu.ac.jp/exam/guide.html",
+   "https://nafu.ac.jp/exam/guide/general.html",
+   "https://nafu.ac.jp/exam/expense.html"
+  ]
+ },
+ {
+  "name": "日本福祉大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "愛知県知多郡美浜町",
+  "pref_name": "愛知県",
+  "city": "知多郡美浜町",
+  "hp": "https://www.n-fukushi.ac.jp/",
+  "reading": "にほんふくしだいがく",
+  "features": [
+   "社会福祉・経済・国際・看護・健康科学・教育・心理・工・スポーツ科学に加え、2027年4月に総合政策学部を設置予定。",
+   "一般入学試験【前期日程】（2/3〜2/5自由選択）は全国各地に試験会場を設置し、A方式（3教科型）上位25%に授業料・入学金半額減免の奨学制度あり。",
+   "1出願（検定料25,000円）で全学部・学科・専攻・専修に出願可能。"
+  ],
+  "memo": "偏差値は35.0〜45.0、共テ得点率は41%〜69%（Kei-Net・パスナビ）。福祉分野の伝統校。",
+  "info": {
+   "faculties": [
+    "社会福祉学部",
+    "経済学部",
+    "国際学部",
+    "看護学部",
+    "健康科学部",
+    "教育・心理学部",
+    "工学部",
+    "スポーツ科学部",
+    "総合政策学部"
+   ],
+   "departments": [
+    {
+     "f": "社会福祉学部",
+     "d": [
+      "社会福祉学科"
+     ]
+    },
+    {
+     "f": "経済学部",
+     "d": [
+      "経済学科"
+     ]
+    },
+    {
+     "f": "国際学部",
+     "d": [
+      "国際学科"
+     ]
+    },
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    },
+    {
+     "f": "健康科学部",
+     "d": [
+      "リハビリテーション学科（理学療法学専攻、作業療法学専攻）"
+     ]
+    },
+    {
+     "f": "教育・心理学部",
+     "d": [
+      "こども学科",
+      "心理学科",
+      "学校教育学科"
+     ]
+    },
+    {
+     "f": "工学部",
+     "d": [
+      "工学科"
+     ]
+    },
+    {
+     "f": "スポーツ科学部",
+     "d": [
+      "スポーツ科学科"
+     ]
+    },
+    {
+     "f": "総合政策学部",
+     "d": [
+      "総合政策学科（2027年4月設置予定）"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜45.0",
+    "kyotei": "41%〜69%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "共通テストプラス方式および共通テスト利用入試を実施",
+    "kyoka": [
+     null,
+     null
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般入学試験【前期日程】A方式（3教科型）・B方式（2教科型）・共通テストプラス方式",
+      "kyotsu": "課さない（共テプラスは利用）",
+      "niji": "各方式指定科目",
+      "content": null,
+      "req": "2/3〜2/5の自由選択制、全国会場で実施",
+      "url": "https://www.n-fukushi.ac.jp/ad/admissions/system/ippan-zenki/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入学試験【中期日程】",
+      "kyotsu": "課さない",
+      "niji": "各学部指定科目",
+      "content": null,
+      "req": "本学・東京・富山・松本会場で実施",
+      "url": "https://www.n-fukushi.ac.jp/ad/admissions/system/ippan-chuki/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般入学試験【前期日程】",
+      "apply": "1/4〜1/21",
+      "exam": "2/3・2/4・2/5（自由選択）",
+      "result": "2/13",
+      "proc": "1次2/26・2次3/24",
+      "fee": 25000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入学試験【中期日程】",
+      "apply": "2/1〜2/17",
+      "exam": "2/21",
+      "result": "2/27",
+      "proc": "1次3/11・2次3/24",
+      "fee": 25000
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "社会福祉学部・教育・心理学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1362660,
+      "four_year": null
+     },
+     {
+      "f": "経済学部・国際学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1372660,
+      "four_year": null
+     },
+     {
+      "f": "スポーツ科学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1547660,
+      "four_year": null
+     },
+     {
+      "f": "工学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1612660,
+      "four_year": null
+     },
+     {
+      "f": "健康科学部 リハビリテーション学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1916700,
+      "four_year": null
+     },
+     {
+      "f": "看護学部 看護学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1996700,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "学費減免制度（一般入試前期A方式）",
+      "kind": "減免",
+      "target": "全学部",
+      "amount": "1年次の授業料と入学金の半額を減免（2年次以降もGPA上位25%以内で継続）",
+      "timing": "入試時",
+      "cond": "一般入学試験【前期日程】A方式（3教科型）合格者の成績上位25%"
+     }
+    ]
+   },
+   "access": "美浜キャンパス（愛知県知多郡美浜町奥田）・半田キャンパス・東海キャンパス・名古屋キャンパス",
+   "careers": "社会福祉士、精神保健福祉士、公認心理師、保育士、教員、看護師、理学療法士、作業療法士、一般企業、公務員など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.n-fukushi.ac.jp/ad/admissions/",
+    "https://www.n-fukushi.ac.jp/ad/admissions/system/ippan-zenki/",
+    "https://www.n-fukushi.ac.jp/ad/admissions/system/ippan-chuki/",
+    "https://www.n-fukushi.ac.jp/ad/lp/admissions-topics/",
+    "https://passnavi.obunsha.co.jp/univ/3830/difficulty/",
+    "https://search.keinet.ne.jp/2461/general/border_rate",
+    "https://shingakunet.com/gakko/SC000492/gakuhi/"
+   ]
+  },
+  "sources": [
+   "https://www.n-fukushi.ac.jp/ad/admissions/",
+   "https://www.n-fukushi.ac.jp/ad/admissions/system/ippan-zenki/",
+   "https://www.n-fukushi.ac.jp/ad/admissions/system/ippan-chuki/",
+   "https://www.n-fukushi.ac.jp/ad/lp/admissions-topics/",
+   "https://passnavi.obunsha.co.jp/univ/3830/difficulty/",
+   "https://search.keinet.ne.jp/2461/general/border_rate",
+   "https://shingakunet.com/gakko/SC000492/gakuhi/"
+  ]
+ }
+]

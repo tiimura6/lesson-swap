@@ -2297,76 +2297,6 @@
 "cat": "private"
 },
 {
-"name": "新潟リハビリテーション大学",
-"type": "私立",
-"pref": "新潟県",
-"hp": "https://nur.ac.jp/",
-"cat": "private"
-},
-{
-"name": "新潟医療福祉大学",
-"type": "私立",
-"pref": "新潟県",
-"hp": "https://www.nuhw.ac.jp/",
-"cat": "private"
-},
-{
-"name": "新潟国際情報大学",
-"type": "私立",
-"pref": "新潟県",
-"hp": "https://www.nuis.ac.jp/",
-"cat": "private"
-},
-{
-"name": "新潟工科大学",
-"type": "私立",
-"pref": "新潟県",
-"hp": "https://www.niit.ac.jp/",
-"cat": "private"
-},
-{
-"name": "新潟産業大学",
-"type": "私立",
-"pref": "新潟県",
-"hp": "https://www.nsu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "新潟経営大学",
-"type": "私立",
-"pref": "新潟県",
-"hp": "https://www.niigataum.ac.jp/",
-"cat": "private"
-},
-{
-"name": "新潟薬科大学",
-"type": "私立",
-"pref": "新潟県",
-"hp": "https://www.nupals.ac.jp/",
-"cat": "private"
-},
-{
-"name": "新潟青陵大学",
-"type": "私立",
-"pref": "新潟県",
-"hp": "https://www.n-seiryo.ac.jp/",
-"cat": "private"
-},
-{
-"name": "新潟食料農業大学",
-"type": "私立",
-"pref": "新潟県",
-"hp": "https://nafu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "日本福祉大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.n-fukushi.ac.jp/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -3129,6 +3059,66 @@
 "長野県立大学": 1
 },
 "enrich": [
+{
+"name": "新潟経営大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "新潟薬科大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "新潟青陵大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "新潟食料農業大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "日本福祉大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "新潟リハビリテーション大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "新潟医療福祉大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "新潟国際情報大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "新潟工科大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "新潟産業大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "松本大学",
 "need": [
@@ -21685,6 +21675,246 @@
 },
 {
 "name": "椙山女学園大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "新潟リハビリテーション大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "新潟リハビリテーション大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "新潟リハビリテーション大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "新潟リハビリテーション大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "新潟医療福祉大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "新潟医療福祉大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "新潟医療福祉大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "新潟医療福祉大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "新潟国際情報大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "新潟国際情報大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "新潟国際情報大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "新潟国際情報大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "新潟工科大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "新潟工科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "新潟工科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "新潟工科大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "新潟産業大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "新潟産業大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "新潟産業大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "新潟産業大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "新潟経営大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "新潟経営大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "新潟経営大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "新潟経営大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "新潟薬科大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "新潟薬科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "新潟薬科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "新潟薬科大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "新潟青陵大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "新潟青陵大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "新潟青陵大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "新潟青陵大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "新潟食料農業大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "新潟食料農業大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "新潟食料農業大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "新潟食料農業大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "日本福祉大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "日本福祉大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "日本福祉大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "日本福祉大学",
 "need": [
 "scholar"
 ]

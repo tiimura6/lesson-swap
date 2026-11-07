@@ -21,7 +21,7 @@ def deep_clean(o):
     if isinstance(o, str) and o.startswith('http') and 'utm_' in o: return re.sub(r'[?&]utm_[^#]*', '', o)  # 広告の追跡用の文字を外す
     return o
 # 数字の項目は、その数字が載っているページ（学費ページ・河合塾など）が出典に無ければ取り込まない
-NEED_SRC = {'money': r'academicpay|gakunou|gakuno|gakuhi|tuition|fee|noufu|nofu|gakuhi|expense|cost|passnavi|keinet|manabi|学費|納付',
+NEED_SRC = {'money': r'academicpay|gakunou|gakuno|gakuhi|tuition|fee|noufu|nofu|expense|cost|schoolexpenses|payment|/money|学費|納付',
             'difficulty': r'keinet|passnavi|manabi', 'fdiff': r'keinet|passnavi|manabi'}
 def main(path):
     raw = open(path, encoding='utf-8').read().strip()
@@ -97,6 +97,19 @@ def main(path):
         r2 = {k: v for k, v in r.items() if k in ('name', 'cat', 'type', 'pref', 'pref_name', 'city', 'hp', 'reading', 'features', 'memo', 'aliases', 'latlng')}
         r2['info'] = info; r2['sources'] = src; r2['info']['sources'] = src
         out.append(r2); notes.append(f'{n}: OK（{"新規" if new else "既存校の補完"}・項目 {len(info)-1}・出典 {len(src)}）')
+    # 日程の使い回し検出：同じ（出願・発表）の組が3校以上に出たら、作り話の疑いがあるので落とす
+    from collections import Counter
+    key = lambda z: (str(z.get('apply') or '').replace(' ', ''), str(z.get('result') or '').replace(' ', ''))
+    cnt = Counter(t for r2 in out for t in {key(z) for z in ((r2['info'].get('schedule') or {}).get('rows') or []) if isinstance(z, dict) and z.get('apply')})
+    dup = {t for t, c in cnt.items() if c >= 3}
+    for r2 in out:
+        sc = r2['info'].get('schedule')
+        if not sc or not dup: continue
+        rows = [z for z in sc.get('rows') or [] if key(z) not in dup]
+        if len(rows) < len(sc.get('rows') or []):
+            notes.append(f"{r2['name']}: 他校と同じ日程の行を {len(sc['rows']) - len(rows)} 件落とした（使い回しの疑い）")
+            sc['rows'] = rows
+            if not rows and not sc.get('url'): r2['info'].pop('schedule')
     # 取り込んだ新規校は、裏取りと足りない項目の収集を自動収集の列に入れる
     newn = [r['name'] for r in out if r['name'] not in cards]
     if newn:
