@@ -1478,9 +1478,9 @@
   </div>
   <nav id="viewTabs" role="tablist" aria-label="画面切り替え">
     <button type="button" role="tab" class="vtab active" data-view="home" aria-selected="true">🏠 ホーム</button>
-    <button type="button" role="tab" class="vtab" data-view="univ" aria-selected="false">🎓 大学検索</button>
     <button type="button" role="tab" class="vtab" data-view="swap" aria-selected="false">🔁 授業交換</button>
     <button type="button" role="tab" class="vtab" data-view="class" aria-selected="false">📋 クラス別時間割</button>
+    <button type="button" role="tab" class="vtab" data-view="univ" aria-selected="false">🎓 大学検索</button>
     <button type="button" role="tab" class="vtab" data-view="clean" aria-selected="false">🧹 清掃当番作成</button>
     <button type="button" role="tab" class="vtab" data-view="exam" aria-selected="false">📝 試験監督割当</button>
   </nav>
@@ -11048,9 +11048,10 @@
     document.getElementById('calEvents').addEventListener('click', e => {
       if(e.target.closest('.dtt-toggle')){ dayTT.open = !dayTT.open; renderEvents(); return; }
       const mc = e.target.closest('.dtt-mine-chip');
-      if(mc){ dayTT.school = mc.dataset.sc; dayTT.grade = parseInt(mc.dataset.g, 10); renderEvents(); return; }
+      if(mc){ const ch = dayTT.school !== mc.dataset.sc; dayTT.school = mc.dataset.sc; dayTT.grade = parseInt(mc.dataset.g, 10); ch ? render() : renderEvents(); return; }
       const b = e.target.closest('.dtt-chip'); if(!b) return;
-      if(b.dataset.k === 'school') dayTT.school = b.dataset.v; else dayTT.grade = parseInt(b.dataset.v, 10);
+      if(b.dataset.k === 'school'){ dayTT.school = b.dataset.v; render(); return; }
+      dayTT.grade = parseInt(b.dataset.v, 10);
       renderEvents();
     });
     // 操作者が選ばれたら（jump）、その日の操作者の最初の授業の校種・学年に表示を合わせる
@@ -11073,19 +11074,20 @@
         const info = dayInfo(selectedISO);
         const dt = new Date(selectedISO + 'T00:00:00');
         html = '<div><span class="ce-date">' + (dt.getMonth()+1) + '/' + dt.getDate() + '(' + WD[dt.getDay()] + ')</span>';
-        if(info.off) html += '<span class="ce-badge ce-off">授業なし</span>';
-        else SCHOOLS.forEach(([sc,nm]) => { if(info.offBy[sc] && reg.indexOf(sc) >= 0) html += '<span class="ce-badge ce-off">' + nm + 'のみ授業なし</span>'; });
-        SCHOOLS.forEach(([sc,nm]) => { if(info.sat2By[sc]) html += '<span class="ce-badge ce-sat2">' + nm + '：第二土曜休業日</span>'; });
+        const ssc = dayTT.school, evS = info.ev.filter(x => x.s === ssc);
+        if(info.offBy[ssc] && reg.indexOf(ssc) >= 0) html += '<span class="ce-badge ce-off">授業なし</span>';
+        if(info.sat2By[ssc]) html += '<span class="ce-badge ce-sat2">第二土曜休業日</span>';
         html += '</div>';
-        html += info.ev.length
-          ? '<ul>' + info.ev.map(x => '<li>' + tag(x.s) + esc(x.t) + '</li>').join('') + '</ul>'
+        html += evS.length
+          ? '<ul>' + evS.map(x => '<li>' + tag(x.s) + esc(x.t) + '</li>').join('') + '</ul>'
           : '<div class="ce-none">行事の予定はありません</div>';
       } else {
         html = '';
       }
       const mk = viewY + '-' + String(viewM+1).padStart(2,'0');
       const nts = [];
-      SCHOOLS.forEach(([sc]) => (sdata(sc).notes[mk] || []).forEach(t => nts.push(tag(sc) + esc(t))));
+      // 月間・週間の予定は、授業の予定で開いている校種（高校／中学）のものだけ表示
+      SCHOOLS.filter(([sc]) => !dayTT.school || sc === dayTT.school).forEach(([sc]) => (sdata(sc).notes[mk] || []).forEach(t => nts.push(tag(sc) + esc(t))));
       if(nts.length) html += '<ul class="ce-notes">' + nts.map(t => '<li>' + t + '</li>').join('') + '</ul>';
       if(selectedISO) html += dayTTHtml(selectedISO, dayInfo(selectedISO));
       if(missing.length) html += '<div class="ce-none" style="margin-top:4px;">' + missing.join('・') + 'の行事予定は未登録</div>';
@@ -11113,17 +11115,18 @@
           const iso = d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
           if(window.ttPickedISO && window.ttPickedISO.has(iso)) cls.push('picked');
           if(window.ttPicking) cls.push('pickable');
-          const info = dayInfo(iso);
-          if(info.off) cls.push('off'); else if(info.offPart) cls.push('off-part'); else if(info.sat2) cls.push('sat2');
-          if(info.ev.some(x => x.s === 'HS')) cls.push('ev-hs');
-          if(info.ev.some(x => x.s === 'JH')) cls.push('ev-jh');
+          const info = dayInfo(iso), ssc = dayTT.school;
+          // 開いている校種（高校／中学）の予定だけを印にする
+          const evS = info.ev.filter(x => x.s === ssc);
+          if(info.offBy[ssc] && registered().indexOf(ssc) >= 0) cls.push('off'); else if(info.sat2By[ssc]) cls.push('sat2');
+          if(evS.length) cls.push(ssc === 'JH' ? 'ev-jh' : 'ev-hs');
           if(selectedISO===iso) cls.push('sel');
           if(window.ttPickWd != null && c===window.ttPickWd && !(info.offBy[window.ttPickSchool||'HS'] || info.sat2By[window.ttPickSchool||'HS'])) cls.push('wd-hl');
           const tips = [];
           if(same(d,sw)) tips.push('新時間割の開始日');
           if(same(d,now)) tips.push('今日');
-          if(info.off && !info.ev.length) tips.push('授業なし');
-          info.ev.forEach(x => tips.push((x.s === 'JH' ? '【中】' : '【高】') + x.t));
+          if(info.offBy[ssc] && !evS.length) tips.push('授業なし');
+          evS.forEach(x => tips.push((x.s === 'JH' ? '【中】' : '【高】') + x.t));
           const title = tips.length ? ' title="'+tips.join('\n').replace(/&/g,'&amp;').replace(/"/g,'&quot;')+'"' : '';
           html += '<td class="'+cls.join(' ')+'" data-iso="'+iso+'"'+title+'><span>'+d.getDate()+'</span></td>';
         }
@@ -12488,7 +12491,12 @@
       html.ttEmbed .tabs a{border:none;background:transparent;border-radius:8px;padding:6px 16px;font-weight:600;color:#1d1d1f;white-space:nowrap}
       html.ttEmbed .tabs a.on{background:#fff;color:#1d1d1f!important;box-shadow:0 1px 3px rgba(0,0,0,.14)}
       html.ttEmbed main{padding-top:6px}
-      html.ttEmbed .sleft{max-height:calc(100vh - 70px)}
+      @media (min-width:861px){ html.ttEmbed .sleft{max-height:calc(100vh - 70px)} }
+      html.ttEmbed .sleft > *{order:3}
+      html.ttEmbed .sleft > .sbar{order:0}
+      html.ttEmbed .sleft > .mcount{order:1}
+      html.ttEmbed .sleft > .mresults{order:2; flex-shrink:0; margin-bottom:6px}
+      html.ttEmbed .mresults:empty{display:none}
       html.ttEmbed .sright{top:60px}
       html.ttEmbed button.btn,html.ttEmbed select,html.ttEmbed input[type=search]{border-radius:10px}`;
     function inject(){
