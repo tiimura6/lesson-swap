@@ -1351,6 +1351,7 @@
     #viewUniv .univ-msg[hidden] { display:none; }
     #viewUniv .univ-msg button, #viewUniv .univ-msg a { border:none; cursor:pointer; font:600 0.85rem -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif; color:#0071e3; background:#f2f2f7; border-radius:980px; padding:6px 14px; text-decoration:none; }
     .univ-badge[hidden] { display:none !important; }
+    .univ-badge.urgent { background:#c0392b !important; }
     .univ-seg .univ-badge, .vtab .univ-badge { display:inline-block; min-width:18px; margin-left:5px; padding:0 5px; border-radius:980px; background:#0071e3; color:#fff; font-size:0.72rem; font-weight:700; line-height:18px; text-align:center; }
 </style>
 
@@ -12541,7 +12542,7 @@
         const M = window.SearchunivModule;
         if(!M || M.apiVersion !== API_VERSION) throw new Error('版が合わない（' + (M && M.apiVersion) + '）');
         api = M.mount(host, { base: BASE, theme: 'iimura', view: want, onView: syncTab, onError: e => log('大学検索エラー', String(e).slice(0, 80)) });
-        msg.hidden = true; bind(); return api;
+        msg.hidden = true; bind(); badge(); return api;
       }).catch(e => { loading = null; api = null; showErr(e); throw e; });
       return loading;
     }
@@ -12564,6 +12565,9 @@
       const n = cands().length;
       [planBadge, mainTab && (mainTab.querySelector('.univ-badge') || mainTab.appendChild(Object.assign(document.createElement('span'), { className: 'univ-badge' })))].forEach(b => {
         if(!b) return; b.hidden = !n; b.textContent = n; b.title = '比較候補 ' + n + '校'; });
+      // 比較候補のうち14日以内に出願締切が来るものがあれば赤くする
+      let urgent = 0; try { urgent = api && api.urgentCount ? api.urgentCount(14) : 0; } catch(e){}
+      document.querySelectorAll('#viewTabs .univ-badge, #univSeg .univ-badge').forEach(b => { b.classList.toggle('urgent', urgent > 0); if(urgent) b.title += '（14日以内に出願締切 ' + urgent + '件）'; });
     }
     window.addEventListener('storage', e => { if(e.key === K_CANDS) badge(); });
     badge();

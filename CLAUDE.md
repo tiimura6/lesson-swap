@@ -15,7 +15,7 @@ GitHub Pages: https://tiimura6.github.io/lesson-swap/
 2. `cd searchuniv && python3 tools/build.py && python3 tools/smoke_test.py` を実行し、「すべて合格」を確認してからコミットする。不合格なら生成物をコミットしない。画面や機能を変えたときは `python3 tools/feature_check.py`（先生から依頼された改良点59項目の確認）も通す。
 3. 飯村システム側の読み込み部分は `index.html` の「大学・進路タブ（…Searchuniv を直接組み込み）」の script。`SearchunivModule.apiVersion`（いまは 1）・`mount()` の引数・`Searchuniv` の関数名を変えるときは、両方を同時に直す。
 4. Searchuniv の中は Shadow DOM。飯村システムの CSS・要素ID と混ざらない。Searchuniv 側で `location.hash` や `document.getElementById` を直接使わない（`NAV`・`ROOT` を使う）。モジュールの最上位の名前は `SU_` で始める。
-5. 比較候補は localStorage の `searchuniv:cands`（両方で共通）。
+5. 比較候補は localStorage の `searchuniv:cands`（両方で共通）。進路面談の生徒の記録は `searchuniv:students:<操作者名>`（クラス＋出席番号がキー、個人名は持たない）。CSV の列名は「表示名[項目ID]」で、読み込みは[]の中で照合する。
 
 ## コミット
 作者は `tiimura6 <tiimura6@icc.ac.jp>`。

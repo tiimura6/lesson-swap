@@ -101,6 +101,13 @@ body.wide main,body.wide header{max-width:1320px}
 .est{color:var(--muted);font-style:italic}.na2{color:var(--muted);font-size:11px}
 .st{display:inline-block;font-size:10.5px;font-weight:700;border-radius:999px;padding:0 7px;margin-left:4px;border:1px solid var(--line);color:var(--muted)}
 .st.soon{color:#1f4e79;border-color:#1f4e79}.st.hot{color:#fff;background:#c0392b;border-color:#c0392b}.st.done{opacity:.7}
+.stu{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:10px 14px;margin:6px 0 10px;display:flex;flex-direction:column;gap:8px}
+.sturow{display:flex;flex-wrap:wrap;gap:8px;align-items:flex-end}.sturow label{display:flex;flex-direction:column;gap:3px;font-size:12px;color:var(--muted)}
+.sturow input{width:6.5em;font-family:inherit;font-size:14px;border:1px solid var(--line);border-radius:8px;padding:7px 9px;background:var(--bg);color:var(--ink)}
+.stu-sp{flex:1}.stu-imp{display:inline-flex !important;flex-direction:row !important;align-items:center;cursor:pointer;font-size:13px !important;color:var(--ink) !important;border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:7px 10px}
+.stu-memo{display:flex;flex-direction:column;gap:3px;font-size:12px;color:var(--muted)}.stu-memo textarea{font-family:inherit;font-size:13.5px;border:1px solid var(--line);border-radius:8px;padding:7px 9px;background:var(--bg);color:var(--ink);resize:vertical}
+#stu-list{margin-left:auto}
+.dlbox{border:1px solid var(--line);border-radius:12px;padding:8px 14px;margin:6px 0 10px;background:var(--panel)}.dlbox.urgent{border:1.5px solid #c0392b;background:color-mix(in srgb,#c0392b 5%,var(--panel))}.dlbox h3{margin:0 0 4px;font-size:14px}.dlbox.urgent h3{color:#c0392b}.dlbox li.hot{color:#c0392b;font-weight:700}.dlbox li.near b{color:#1f4e79}
 .ktbox{margin-top:16px;border:1px solid var(--line);border-radius:12px;padding:10px 14px;background:var(--panel)}
 .ktbox>summary{cursor:pointer;font-weight:700}
 @media print{ #v-plan .mintro,.xbtn,.psel,.prow,#plan-print,.star{display:none !important} }
@@ -334,7 +341,22 @@ ul.mini li{font-size:12.5px;margin:2px 0}
   <div id="plan-out"></div>
 </section>
 <section id="v-ai" hidden>
-  <p class="mintro">希望と成績から<b>挑戦校・実力相応校・安全校</b>を出します（個人名は入力しない・保存しない）。</p>
+  <p class="mintro">希望と成績から<b>挑戦校・実力相応校・安全校</b>を出します。個人名は入れず、<b>クラスと出席番号</b>で記録を保存・呼び出しできます。</p>
+  <div class="stu" id="stu">
+    <div class="sturow">
+      <label>クラス<input id="stu-c" placeholder="例：3A" autocomplete="off"></label>
+      <label>番号<input id="stu-n" inputmode="numeric" placeholder="例：12" autocomplete="off"></label>
+      <button type="button" class="btn" id="stu-load">呼び出す</button>
+      <button type="button" class="btn ok" id="stu-save">保存</button>
+      <button type="button" class="btn" id="stu-new">新しい生徒</button>
+      <span class="stu-sp"></span>
+      <button type="button" class="btn" id="stu-exp">CSVに書き出す</button>
+      <label class="btn stu-imp">CSVを読み込む<input type="file" id="stu-imp" accept=".csv,text/csv" hidden></label>
+    </div>
+    <label class="stu-memo">面談メモ（個人名・家庭の事情など特定につながることは書かない）<textarea id="stu-memo" rows="2" placeholder="例：英語の外部試験を12月に受験予定。地元志向。"></textarea></label>
+    <div class="sturow"><span id="stu-msg" class="sub2"></span><select id="stu-list" aria-label="保存済みの生徒"><option value="">保存済みの生徒（0人）</option></select></div>
+    <div id="stu-dl"></div>
+  </div>
   <form id="aiform" class="aiform" onsubmit="return false">
     <div class="airow">
       <label>目指している職業<input id="ai-job" placeholder="例：臨床心理士、英語教員"></label>
@@ -819,6 +841,7 @@ function mrows(m,kinds,isGen){ const L=((m||{}).list||[]).filter(r=>kinds.includ
   return L.slice(0,4).map(r=>'<div class="cm"><b>'+esc(r.name||"")+'</b>'+(isGen?[r.kyotsu&&("共テ "+r.kyotsu),r.niji&&("個別 "+r.niji),r.haiten&&("配点 "+r.haiten)]:[r.content&&("選考 "+r.content),r.kyotsu&&("共テ "+r.kyotsu),r.req&&("条件 "+r.req)]).filter(Boolean).map(t=>'<div class="sub2">'+esc(t)+'</div>').join("")+'</div>').join("")+(L.length>4?'<div class="sub2">ほか'+(L.length-4)+'方式</div>':''); }
 function renderPlan(){
   const el=$("plan-out"); if(!el) return;
+  const dlh=deadlineBox(CANDS,"比較候補の出願締切");
   if(!CANDS.length){ el.innerHTML='<div class="msheet">まだ候補がありません。検索で大学を選んで「☆候補」を押すか、面談タブの結果から追加してください。</div>'; return; }
   if(!PLAN_SEL) PLAN_SEL=new Set(CANDS); for(const n of [...PLAN_SEL]) if(!CANDS.includes(n)) PLAN_SEL.delete(n);
   const sel=CANDS.filter(n=>PLAN_SEL.has(n)).map(n=>items.find(x=>x.name===n)).filter(Boolean);
@@ -871,12 +894,73 @@ function renderPlan(){
     h+='<div class="msheet" style="margin-top:12px"><h2>一般選抜の倍率の推移</h2>'+ratioChart(cmp.map(x=>x.name))+'<div class="enote">※倍率の種類（実質倍率・志願倍率）が大学で違う場合があります。各大学の詳細で種類を確認してください。</div></div>';
   }
   h+=hs;
-  el.innerHTML=h;
+  el.innerHTML=dlh+h;
   el.querySelectorAll(".psel").forEach(c=>c.onchange=()=>{ if(c.checked) PLAN_SEL.add(c.value); else PLAN_SEL.delete(c.value); renderPlan(); });
   el.querySelectorAll(".xbtn").forEach(b=>b.onclick=()=>{ toggleCand(b.dataset.star); renderPlan(); });
   const upd=()=>{ let fee=0,n=0; el.querySelectorAll(".prow").forEach(c=>{ if(c.checked){ const o=rows[+c.dataset.i]; if(o.r.fee!=null){ fee+=o.r.fee; n++; } } }); const t=$("ptotal"); if(t) t.textContent="チェックした "+n+" 件の検定料合計："+yen0(fee); };
   el.querySelectorAll(".prow").forEach(c=>c.onchange=upd); upd();
 }
+
+// ===== 出願締切のお知らせ（比較候補・生徒の志望校）=====
+function deadlines(names){
+  const T=todayMd(), out=[];
+  for(const n of [...new Set(names)].filter(Boolean)){ const rows=((INFO[n]||{}).schedule||{}).rows||[];
+    for(const r of rows){ const ae=mdLast(r.apply); if(ae==null||ae<T) continue; out.push({univ:n,r,days:dayNo(ae)-dayNo(T)}); } }
+  return out.sort((a,b)=>a.days-b.days);
+}
+function deadlineBox(names,title){
+  if(!names||!names.length) return "";
+  const L=deadlines(names).slice(0,8);
+  const none=names.filter(n=>!(((INFO[n]||{}).schedule||{}).rows||[]).some(r=>r.apply));
+  if(!L.length&&!none.length) return "";
+  const urgent=L.some(z=>z.days<=14);
+  return '<div class="dlbox'+(urgent?' urgent':'')+'"><h3>⏰ '+esc(title)+'（近い順）</h3>'+(L.length?'<ul class="mini">'+L.map(z=>'<li class="'+(z.days<=14?'hot':z.days<=45?'near':'')+'"><b>あと'+z.days+'日</b>　'+esc(z.univ)+'「'+esc(z.r.kubun+"・"+z.r.name)+'」出願 '+esc(z.r.apply)+(z.r.exam?'／試験 '+esc(z.r.exam):'')+'</li>').join("")+'</ul>':'<div class="sub2">これから出願締切が来る方式は登録されていません。</div>')+
+    (none.length?'<div class="sub2">出願期間が未登録：'+esc(none.join("、"))+'（自動収集で集めています。募集要項で確認を）</div>':'')+'</div>';
+}
+
+// ===== 生徒の記録（クラス＋出席番号。この端末に保存し、CSVで書き出し・読み込み）=====
+// 飯村システムの中では操作者（先生）ごとに分けて保存する。個人名は保存しない。
+function stuTeacher(){ try{ return String(window.ttOperator||localStorage.getItem("ttOperator")||""); }catch(e){ return ""; } }
+function stuKeyLS(){ return "searchuniv:students:"+(stuTeacher()||"_"); }
+function stuAll(){ try{ return JSON.parse(localStorage.getItem(stuKeyLS())||"{}"); }catch(e){ return {}; } }
+function stuPut(all){ try{ localStorage.setItem(stuKeyLS(),JSON.stringify(all)); return true; }catch(e){ return false; } }
+function stuFields(){ return [...ROOT.querySelectorAll("#aiform input, #aiform select, #stbox input, #stbox select, #ktbox input, #ktbox select, #stu-memo")].filter(e=>e.type!=="file"); }
+function stuFieldKey(e){ return e.id||((e.className||"").split(" ")[0]+":"+e.value); }
+function stuLabel(e){ const l=e.closest("label"); let t=""; if(l){ const c=l.cloneNode(true); c.querySelectorAll("input,select,textarea").forEach(x=>x.remove()); t=c.textContent.trim(); } if(e.type==="checkbox") t=(t||e.value); if(!t) t=e.placeholder||""; return t.replace(/\s+/g," ").slice(0,24); }
+function stuId(c,n){ c=String(c||"").normalize("NFKC").trim().toUpperCase(); n=String(n||"").normalize("NFKC").replace(/[^0-9]/g,""); return c&&n?c+"-"+(+n):""; }
+function stuMsg(t){ $("stu-msg").textContent=t; }
+function stuRefresh(){ const all=stuAll(), ids=Object.keys(all).sort((a,b)=>a.localeCompare(b,"ja",{numeric:true}));
+  $("stu-list").innerHTML='<option value="">保存済みの生徒（'+ids.length+'人）'+(stuTeacher()?'・'+esc(stuTeacher())+' 先生':'')+'</option>'+ids.map(i=>'<option value="'+esc(i)+'">'+esc(i)+'　'+esc((all[i]._updated||"").slice(0,10))+'</option>').join(""); }
+function stuCollect(){ const d={}; for(const e of stuFields()) d[stuFieldKey(e)]=e.type==="checkbox"?(e.checked?"1":""):e.value; return d; }
+function stuApply(d){ for(const e of stuFields()){ const k=stuFieldKey(e); if(!(k in d)) { if(e.type==="checkbox") e.checked=e.defaultChecked; else e.value=""; continue; } if(e.type==="checkbox") e.checked=d[k]==="1"||d[k]===true; else e.value=d[k]; } stuDeadlines(); }
+function stuDeadlines(){ const names=[1,2,3,4,5].map(i=>($("st-u"+i).value||"").trim()).filter(n=>items.some(x=>x.name===n)); $("stu-dl").innerHTML=deadlineBox(names,"この生徒の志望校の出願締切"); }
+$("stu-save").onclick=()=>{ const id=stuId($("stu-c").value,$("stu-n").value); if(!id){ stuMsg("クラスと番号を入れてください。"); return; }
+  const all=stuAll(); all[id]=Object.assign(stuCollect(),{_updated:new Date().toISOString(),_teacher:stuTeacher()}); stuMsg(stuPut(all)?id+" を保存しました。":"保存できませんでした（ブラウザの保存領域がいっぱい・無効の可能性）"); stuRefresh(); $("stu-list").value=id; };
+$("stu-load").onclick=()=>{ const id=stuId($("stu-c").value,$("stu-n").value); const d=stuAll()[id]; if(!d){ stuMsg(id?id+" の記録はありません。":"クラスと番号を入れてください。"); return; } stuApply(d); stuMsg(id+" を呼び出しました（"+(d._updated||"").slice(0,10)+" 保存）。"); };
+$("stu-list").onchange=()=>{ const id=$("stu-list").value; if(!id) return; const m=id.match(/^(.*)-(\d+)$/); if(m){ $("stu-c").value=m[1]; $("stu-n").value=m[2]; } $("stu-load").click(); };
+$("stu-new").onclick=()=>{ $("stu-c").value=""; $("stu-n").value=""; stuApply({}); $("ai-out").innerHTML=""; $("st-out").innerHTML=""; $("kt-out").innerHTML=""; stuMsg("入力を空にしました（保存済みの記録は残っています）。"); };
+[1,2,3,4,5].forEach(i=>$("st-u"+i).addEventListener("change",stuDeadlines));
+// CSV（Excel・Googleスプレッドシートで開ける。1行目に項目名、[]の中が読み込み用の名前）
+function csvCell(v){ v=String(v==null?"":v); return /[",\n\r]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v; }
+function csvParse(t){ const rows=[]; let r=[],f="",q=false; t=t.replace(/^﻿/,"");
+  for(let i=0;i<t.length;i++){ const c=t[i]; if(q){ if(c==='"'){ if(t[i+1]==='"'){ f+='"'; i++; } else q=false; } else f+=c; }
+    else if(c==='"') q=true; else if(c===','){ r.push(f); f=""; } else if(c==='\n'||c==='\r'){ if(c==='\r'&&t[i+1]==='\n') i++; r.push(f); rows.push(r); r=[]; f=""; } else f+=c; }
+  if(f!==""||r.length){ r.push(f); rows.push(r); } return rows.filter(x=>x.some(v=>v!=="")); }
+$("stu-exp").onclick=()=>{ const all=stuAll(), ids=Object.keys(all).sort((a,b)=>a.localeCompare(b,"ja",{numeric:true})); if(!ids.length){ stuMsg("保存済みの生徒がいません。"); return; }
+  const fs=stuFields(), keys=fs.map(stuFieldKey), heads=["クラス[_c]","番号[_n]","更新日[_updated]","担当[_teacher]",...fs.map(e=>stuLabel(e)+"["+stuFieldKey(e)+"]")];
+  const lines=[heads.map(csvCell).join(",")].concat(ids.map(id=>{ const d=all[id], m=id.match(/^(.*)-(\d+)$/)||[,id,""]; return [m[1],m[2],(d._updated||"").slice(0,10),d._teacher||"",...keys.map(k=>d[k]||"")].map(csvCell).join(","); }));
+  const blob=new Blob(["﻿"+lines.join("\r\n")],{type:"text/csv"}), a=document.createElement("a");
+  a.href=URL.createObjectURL(blob); a.download="進路面談_"+(stuTeacher()||"記録")+"_"+new Date().toISOString().slice(0,10)+".csv"; BODY.appendChild(a); a.click(); setTimeout(()=>{ URL.revokeObjectURL(a.href); a.remove(); },500);
+  stuMsg(ids.length+"人分を書き出しました。"); };
+$("stu-imp").onchange=async e=>{ const file=e.target.files[0]; if(!file) return; e.target.value="";
+  try{ const rows=csvParse(await file.text()); if(rows.length<2) throw new Error("中身がありません");
+    const keys=rows[0].map(h=>{ const m=h.match(/\[([^\]]+)\]\s*$/); return m?m[1]:h.trim(); });
+    const ci=keys.indexOf("_c"), ni=keys.indexOf("_n"); if(ci<0||ni<0) throw new Error("クラス・番号の列がありません（このアプリで書き出したCSVを使ってください）");
+    const all=stuAll(); let n=0;
+    for(const r of rows.slice(1)){ const id=stuId(r[ci],r[ni]); if(!id) continue; const d={}; keys.forEach((k,j)=>{ if(k!=="_c"&&k!=="_n") d[k]=r[j]||""; }); d._updated=d._updated||new Date().toISOString(); all[id]=d; n++; }
+    stuPut(all); stuRefresh(); stuMsg(n+"人分を読み込みました（同じクラス・番号は上書き）。"); }
+  catch(err){ stuMsg("読み込めませんでした："+err.message); } };
+stuRefresh();
 
 // ===== 共テ自己採点モード =====
 // 二段階選抜（足切り）の記載があるか。倍率の記載があれば返す
@@ -1735,6 +1819,7 @@ const API = Object.freeze({
   candidates: ()=>CANDS.slice(),
   showView: (v)=>NAV.set(v),
   view: ()=>NAV.get()||"map",
+  urgentCount: (days)=>deadlines(CANDS).filter(z=>z.days<=(days||14)).length,
 });
 window.Searchuniv = API;
 return API;

@@ -74,7 +74,7 @@ with sync_playwright() as p:
 
     G = '面談'
     J('Searchuniv.showView("ai")'); pg.wait_for_timeout(400)
-    ck(G, '生徒名の入力欄なし（個人を特定しない）', not J('!!document.querySelector("#v-ai input[id*=name]")') and '個人名は入力しない' in J('document.getElementById("v-ai").innerText'))
+    ck(G, '生徒名の入力欄なし（個人を特定しない）', not J('!!document.querySelector("#v-ai input[id*=name]")') and '個人名は入れず' in J('document.getElementById("v-ai").innerText'))
     ck(G, '河合・進研の模試を選べる', J('[...document.querySelectorAll("#ai-moshi option")].map(o=>o.textContent).join()').count('模試') >= 2)
     J('document.getElementById("ai-study").value="心理"; document.getElementById("ai-level").value="55"; document.getElementById("ai-go").click()'); pg.wait_for_timeout(600)
     bands = J('[...new Set([...document.querySelectorAll("#ai-out .band")].map(e=>e.textContent))]')
@@ -92,6 +92,11 @@ with sync_playwright() as p:
     kt = J('document.getElementById("kt-out").innerText')
     ck(G, '共テ後の出願判断（ボーダー・足切り・前後期の組み合わせ）', 'ボーダー' in kt and '二段階選抜' in kt and '組み合わせ案' in kt)
 
+    J('document.getElementById("stu-c").value="3A"; document.getElementById("stu-n").value="7"; document.getElementById("ai-study").value="教育"; document.getElementById("stu-save").click(); document.getElementById("stu-new").click(); document.getElementById("stu-c").value="3a"; document.getElementById("stu-n").value="７"; document.getElementById("stu-load").click()')
+    ck(G, 'クラス・出席番号で記録を保存・呼び出し', J('document.getElementById("ai-study").value') == '教育')
+    ck(G, 'CSVの書き出し・読み込み', J('!!document.getElementById("stu-exp") && !!document.getElementById("stu-imp")'))
+    J('document.getElementById("st-u1").value="茨城キリスト教大学"; document.getElementById("st-u1").dispatchEvent(new Event("change"))')
+    ck(G, '生徒の志望校の出願締切を表示', 'あと' in J('document.getElementById("stu-dl").innerText'))
     G = '比較'
     J('localStorage.setItem("searchuniv:cands", JSON.stringify(["東北大学","早稲田大学"]))'); pg.reload(); pg.wait_for_timeout(2500)
     J('Searchuniv.showView("plan")'); pg.wait_for_timeout(600)
@@ -99,6 +104,7 @@ with sync_playwright() as p:
     for w in ('一般', '共テ利用', '推薦', '総合型', '共通テストの科目', '英語外部試験', '倍率'):
         ck(G, '比較の行：' + w, w in pl)
     ck(G, '倍率の年度比較のグラフ', 'ratioChart' in tpl)
+    ck(G, '比較候補の出願締切を表示', J('!!document.querySelector("#plan-out .dlbox")'))
 
     G = '出題内容'
     J('Searchuniv.openTrend("京都大学")'); pg.wait_for_timeout(600)
