@@ -60,6 +60,11 @@ def main(path):
             kept = [z for z in rows if any(z.get(k) for k in ('apply', 'exam', 'result', 'proc'))]
             if len(kept) < len(rows): notes.append(f'{n}: 日付の無い日程の行を {len(rows) - len(kept)} 件落とした')
             sc['rows'] = kept
+        # year 以外がすべて空（null）の項目は落とす
+        for k in list(info):
+            v = info[k]
+            if isinstance(v, dict) and not any(x not in (None, '', [], {}) for z, x in v.items() if z != 'year'):
+                info.pop(k)
         # 中身が空の入れ物（rows/list/events が空）は落とす
         for k in list(info):
             v = info[k]

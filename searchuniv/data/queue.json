@@ -4131,41 +4131,6 @@
 "cat": "private"
 },
 {
-"name": "鎮西学院大学",
-"type": "私立",
-"pref": "長崎県",
-"hp": "https://www.wesleyan.ac.jp/",
-"cat": "private"
-},
-{
-"name": "長崎国際大学",
-"type": "私立",
-"pref": "長崎県",
-"hp": "https://www1.niu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "長崎外国語大学",
-"type": "私立",
-"pref": "長崎県",
-"hp": "https://www.nagasaki-gaigo.ac.jp/",
-"cat": "private"
-},
-{
-"name": "長崎純心大学",
-"type": "私立",
-"pref": "長崎県",
-"hp": "https://www.n-junshin.ac.jp/univ/",
-"cat": "private"
-},
-{
-"name": "長崎総合科学大学",
-"type": "私立",
-"pref": "長崎県",
-"hp": "https://www.nias.ac.jp/",
-"cat": "private"
-},
-{
 "name": "鹿児島国際大学",
 "type": "私立",
 "pref": "鹿児島県",
@@ -4785,6 +4750,36 @@
 "九州大学": 1
 },
 "enrich": [
+{
+"name": "鎮西学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "長崎国際大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "長崎外国語大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "長崎純心大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "長崎総合科学大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "純真学園大学",
 "need": [
@@ -16355,6 +16350,126 @@
 },
 {
 "name": "西日本工業大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "鎮西学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "鎮西学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "鎮西学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "鎮西学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "長崎国際大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "長崎国際大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "長崎国際大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "長崎国際大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "長崎外国語大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "長崎外国語大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "長崎外国語大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "長崎外国語大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "長崎純心大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "長崎純心大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "長崎純心大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "長崎純心大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "長崎総合科学大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "長崎総合科学大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "長崎総合科学大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "長崎総合科学大学",
 "need": [
 "scholar"
 ]
