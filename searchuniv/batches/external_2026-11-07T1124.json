@@ -1,0 +1,826 @@
+[
+ {
+  "name": "名城大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "愛知県名古屋市天白区",
+  "pref_name": "愛知県",
+  "city": "名古屋市天白区",
+  "hp": "https://www.meijo-u.ac.jp/",
+  "reading": "めいじょうだいがく",
+  "features": [
+   "法・経営・経済・外国語・人間・都市情報・情報工・理工・農・薬（6年制）の10学部を擁する東海地区最大級の総合大学。",
+   "2027年度一般選抜では文系5学部のA・F・K方式が4日間に拡大し、理系5学部を対象に「数学重視型」を新設。",
+   "共通テスト利用型C方式（前期）には4教科型が新設され、後期日程も実施。"
+  ],
+  "memo": "偏差値は45.0〜57.5、共テ得点率は56%〜77%（河合塾Kei-Net・パスナビ）。薬学部（6年制）の6年間学費総額は1,190万円。",
+  "info": {
+   "faculties": [
+    "法学部",
+    "経営学部",
+    "経済学部",
+    "外国語学部",
+    "人間学部",
+    "都市情報学部",
+    "情報工学部",
+    "理工学部",
+    "農学部",
+    "薬学部"
+   ],
+   "departments": [
+    {
+     "f": "法学部",
+     "d": [
+      "法学科",
+      "応用実務法学科"
+     ]
+    },
+    {
+     "f": "経営学部",
+     "d": [
+      "経営学科",
+      "国際経営学科"
+     ]
+    },
+    {
+     "f": "経済学部",
+     "d": [
+      "経済学科",
+      "産業社会学科"
+     ]
+    },
+    {
+     "f": "外国語学部",
+     "d": [
+      "国際英語学科"
+     ]
+    },
+    {
+     "f": "人間学部",
+     "d": [
+      "人間学科"
+     ]
+    },
+    {
+     "f": "都市情報学部",
+     "d": [
+      "都市情報学科"
+     ]
+    },
+    {
+     "f": "情報工学部",
+     "d": [
+      "情報工学科"
+     ]
+    },
+    {
+     "f": "理工学部",
+     "d": [
+      "数学科",
+      "情報工学科",
+      "電気電子工学科",
+      "材料機能工学科",
+      "応用化学科",
+      "機械工学科",
+      "交通機械工学科",
+      "メカトロニクス工学科",
+      "社会基盤デザイン工学科",
+      "環境創造工学科",
+      "建築学科"
+     ]
+    },
+    {
+     "f": "農学部",
+     "d": [
+      "生物資源学科",
+      "応用生物化学科",
+      "生物環境科学科"
+     ]
+    },
+    {
+     "f": "薬学部",
+     "d": [
+      "薬学科（6年制）"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "45.0〜57.5",
+    "kyotei": "56%〜77%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "共通テスト利用型C方式（前期・後期）および共通テストプラス型F方式を実施",
+    "kyoka": [
+     3,
+     5
+    ],
+    "note": "2027年度よりC方式（前期）に4教科型を新設"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A方式・F方式・K方式・数学重視型・B方式）",
+      "kyotsu": "課さない（F方式は利用）",
+      "niji": "各方式指定科目",
+      "content": null,
+      "req": "F方式・K方式はA方式との併願が必要",
+      "url": "https://law.meijo-u.ac.jp/guide/admission.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用型C方式（前期・後期）",
+      "kyotsu": "3〜5教科",
+      "niji": null,
+      "content": null,
+      "req": "個別試験なし",
+      "url": "https://law.meijo-u.ac.jp/guide/admission.html"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A・F・K方式）",
+      "apply": "12/17〜1/14",
+      "exam": "2/1〜2/4",
+      "result": "2/20",
+      "proc": "1次2/26・2次3/10",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（B方式）",
+      "apply": "12/17〜2/5",
+      "exam": "2/21",
+      "result": "3/6",
+      "proc": "1次3/11・2次3/24",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用型C方式（前期）",
+      "apply": "12/17〜1/14",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/20",
+      "proc": "1次2/26・2次3/10",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用型C方式（後期）",
+      "apply": "2/12〜2/26",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/16",
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "法学部・経営学部・経済学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1112000,
+      "four_year": null
+     },
+     {
+      "f": "人間学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1177000,
+      "four_year": null
+     },
+     {
+      "f": "都市情報学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1349000,
+      "four_year": null
+     },
+     {
+      "f": "外国語学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1392000,
+      "four_year": null
+     },
+     {
+      "f": "情報工学部・理工学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1544000,
+      "four_year": null
+     },
+     {
+      "f": "農学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1585000,
+      "four_year": null
+     },
+     {
+      "f": "薬学部（6年制）",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 2200000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "天白キャンパス（名古屋市天白区塩釜口1-501）・八事キャンパス・ナゴヤドーム前キャンパス",
+   "careers": "一般企業、公務員、メーカー、IT・情報通信、建設・建築士、薬剤師など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://law.meijo-u.ac.jp/guide/admission.html",
+    "https://www.meijo-u.ac.jp/admissions/pass/formalities.html",
+    "https://manabi.benesse.ne.jp/daigaku/school/3549/gakuhi/",
+    "https://passnavi.obunsha.co.jp/univ/3850/difficulty/",
+    "https://search.keinet.ne.jp/2462/general/border_rate"
+   ]
+  },
+  "sources": [
+   "https://law.meijo-u.ac.jp/guide/admission.html",
+   "https://www.meijo-u.ac.jp/admissions/pass/formalities.html",
+   "https://manabi.benesse.ne.jp/daigaku/school/3549/gakuhi/",
+   "https://passnavi.obunsha.co.jp/univ/3850/difficulty/",
+   "https://search.keinet.ne.jp/2462/general/border_rate"
+  ]
+ },
+ {
+  "name": "大同大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "愛知県名古屋市南区",
+  "pref_name": "愛知県",
+  "city": "名古屋市南区",
+  "hp": "https://www.daido-it.ac.jp/",
+  "reading": "だいどうだいがく",
+  "features": [
+   "工学部・情報学部・建築学部の3学部を擁する理工・情報系大学。",
+   "共通テストプラスA方式（1/23）・B方式（1/24）や特別奨励生・M方式（12/19）などを実施。",
+   "初年度納入金は建築・工・情報（情報システム・情報デザイン）が166万1,300円、総合情報学科が142万1,300円。"
+  ],
+  "memo": "偏差値はBF〜42.5（パスナビ）。",
+  "info": {
+   "faculties": [
+    "工学部",
+    "情報学部",
+    "建築学部"
+   ],
+   "departments": [
+    {
+     "f": "工学部",
+     "d": [
+      "機械工学科",
+      "機械システム工学科",
+      "電気電子工学科"
+     ]
+    },
+    {
+     "f": "情報学部",
+     "d": [
+      "情報システム学科",
+      "情報デザイン学科",
+      "総合情報学科"
+     ]
+    },
+    {
+     "f": "建築学部",
+     "d": [
+      "建築学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜42.5",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "共通テストプラスA方式・B方式を実施",
+    "kyoka": [
+     null,
+     null
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "学力系一般選抜（特別奨励生・M方式、前期A・B方式）",
+      "kyotsu": "課さない",
+      "niji": "各学部指定科目",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.daido-news.jp/admission/nyushi/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テストプラスA方式・B方式",
+      "kyotsu": "指定教科・科目",
+      "niji": "個別試験あり",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.daido-news.jp/admission/entrance_exam/type/heiyou/plus.html"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "特別奨励生・M方式",
+      "apply": "12/1〜12/10",
+      "exam": "12/19",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テストプラスA方式・B方式",
+      "apply": "12/28〜1/14",
+      "exam": "1/23（A）・1/24（B）",
+      "result": "2/13",
+      "proc": "入学金2/22・授業料3/5",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "工学部・建築学部・情報学部（情報システム・情報デザイン）",
+      "admission": 300000,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1661300,
+      "four_year": null
+     },
+     {
+      "f": "情報学部 総合情報学科",
+      "admission": 300000,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1421300,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "愛知県名古屋市南区滝春町10-3",
+   "careers": "自動車・機械・電機メーカー、IT・情報通信、建設・建築士など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.daido-news.jp/admission/nyushi/",
+    "https://www.daido-news.jp/admission/entrance_exam/type/heiyou/plus.html",
+    "https://www.daido-it.ac.jp/life/tuition/guide/",
+    "https://passnavi.obunsha.co.jp/univ/3680/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.daido-news.jp/admission/nyushi/",
+   "https://www.daido-news.jp/admission/entrance_exam/type/heiyou/plus.html",
+   "https://www.daido-it.ac.jp/life/tuition/guide/",
+   "https://passnavi.obunsha.co.jp/univ/3680/difficulty/"
+  ]
+ },
+ {
+  "name": "富山国際大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "富山県富山市",
+  "pref_name": "富山県",
+  "city": "富山市",
+  "hp": "https://www.tuins.ac.jp/",
+  "reading": "とやまこくさいだいがく",
+  "features": [
+   "現代社会学部（現代社会学科）と子ども育成学部（子ども育成学科）の2学部を擁する。",
+   "一般選抜や共通テスト利用選抜（2/13合格発表）を実施。",
+   "初年度納入金は現代社会学部127万5,300円、子ども育成学部128万3,300円（入学金20万円含む）。"
+  ],
+  "memo": "偏差値はBF〜37.5、共テ得点率は39%（パスナビ）。",
+  "info": {
+   "faculties": [
+    "現代社会学部",
+    "子ども育成学部"
+   ],
+   "departments": [
+    {
+     "f": "現代社会学部",
+     "d": [
+      "現代社会学科"
+     ]
+    },
+    {
+     "f": "子ども育成学部",
+     "d": [
+      "子ども育成学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜37.5",
+    "kyotei": "39%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "大学入学共通テスト利用選抜を実施",
+    "kyoka": [
+     null,
+     null
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜",
+      "kyotsu": "指定教科・科目",
+      "niji": null,
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://telemail.jp/shingaku/university/10001843/examination/general"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜",
+      "apply": "1/4〜2/3",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/13",
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "現代社会学部 現代社会学科",
+      "admission": 200000,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1275300,
+      "four_year": null
+     },
+     {
+      "f": "子ども育成学部 子ども育成学科",
+      "admission": 200000,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1283300,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "東黒牧キャンパス（富山市東黒牧65-1）・呉羽キャンパス",
+   "careers": "一般企業、公務員、観光・航空関連、小学校教諭、幼稚園教諭、保育士など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://telemail.jp/shingaku/university/10001843/examination/general",
+    "https://manabi.benesse.ne.jp/daigaku/school/3417/gakuhi/",
+    "https://passnavi.obunsha.co.jp/univ/3460/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://telemail.jp/shingaku/university/10001843/examination/general",
+   "https://manabi.benesse.ne.jp/daigaku/school/3417/gakuhi/",
+   "https://passnavi.obunsha.co.jp/univ/3460/difficulty/"
+  ]
+ },
+ {
+  "name": "山梨学院大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "山梨県甲府市",
+  "pref_name": "山梨県",
+  "city": "甲府市",
+  "hp": "https://www.ygu.ac.jp/",
+  "reading": "やまなしがくいんだいがく",
+  "features": [
+   "法・経営・健康栄養・国際リベラルアーツ・スポーツ科学の5学部を擁する総合大学。",
+   "一般選抜は前期・中期（2/15）・後期（3/5）を実施し、共通テスト利用選抜（2/13発表・2/25手続）も用意。",
+   "2026年度初年度納入金は法・経営・健康栄養が149万6,000円、スポーツ科学が159万6,000円、国際リベラルアーツが189万6,000円。"
+  ],
+  "memo": "偏差値は35.0〜37.5、共テ得点率は51%〜69%（パスナビ）。",
+  "info": {
+   "faculties": [
+    "法学部",
+    "経営学部",
+    "健康栄養学部",
+    "国際リベラルアーツ学部",
+    "スポーツ科学部"
+   ],
+   "departments": [
+    {
+     "f": "法学部",
+     "d": [
+      "法学科"
+     ]
+    },
+    {
+     "f": "経営学部",
+     "d": [
+      "経営学科"
+     ]
+    },
+    {
+     "f": "健康栄養学部",
+     "d": [
+      "管理栄養学科"
+     ]
+    },
+    {
+     "f": "国際リベラルアーツ学部",
+     "d": [
+      "国際リベラルアーツ学科"
+     ]
+    },
+    {
+     "f": "スポーツ科学部",
+     "d": [
+      "スポーツ科学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜37.5",
+    "kyotei": "51%〜69%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "2教科型・3教科型（共テ利用）を実施",
+    "kyoka": [
+     2,
+     3
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期・中期・後期）",
+      "kyotsu": "課さない",
+      "niji": "各学部指定科目",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.ygu.ac.jp/wp_ygu/wp-content/uploads/2026/06/2027Schedule.pdf"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜",
+      "kyotsu": "2〜3教科",
+      "niji": null,
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://telemail.jp/shingaku/university/10001461/examination/general"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（中期）",
+      "apply": null,
+      "exam": "2/15",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（後期）",
+      "apply": "2/16〜3/1",
+      "exam": "3/5",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜",
+      "apply": "1/4〜1/29",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/13",
+      "proc": "2/25",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "法学部・経営学部・健康栄養学部",
+      "admission": 200000,
+      "tuition": 916000,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1496000,
+      "four_year": null
+     },
+     {
+      "f": "スポーツ科学部",
+      "admission": 200000,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1596000,
+      "four_year": null
+     },
+     {
+      "f": "国際リベラルアーツ学部",
+      "admission": 200000,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1896000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "山梨県甲府市酒折2-4-5",
+   "careers": "一般企業、公務員（警察・消防・行政）、管理栄養士、スポーツ指導者など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.ygu.ac.jp/wp_ygu/wp-content/uploads/2026/06/2027Schedule.pdf",
+    "https://telemail.jp/shingaku/university/10001461/examination/general",
+    "https://manabi.benesse.ne.jp/daigaku/school/3453/gakuhi/",
+    "https://passnavi.obunsha.co.jp/univ/3420/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.ygu.ac.jp/wp_ygu/wp-content/uploads/2026/06/2027Schedule.pdf",
+   "https://telemail.jp/shingaku/university/10001461/examination/general",
+   "https://manabi.benesse.ne.jp/daigaku/school/3453/gakuhi/",
+   "https://passnavi.obunsha.co.jp/univ/3420/difficulty/"
+  ]
+ },
+ {
+  "name": "山梨英和大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "山梨県甲府市",
+  "pref_name": "山梨県",
+  "city": "甲府市",
+  "hp": "https://www.yamanashi-eiwa.ac.jp/",
+  "reading": "やまなしえいわだいがく",
+  "features": [
+   "人間文化学部人間文化学科を擁し、心理・メディア・国際教養の3領域を学ぶ。",
+   "大学入学共通テスト利用選抜は1期・2期・3期の3日程を実施。",
+   "初年度納付金は119万円（入学金15万円・授業料70万円・教育充実費34万円、諸経費別途）。"
+  ],
+  "memo": "偏差値は37.5、共テ得点率は48%（パスナビ）。",
+  "info": {
+   "faculties": [
+    "人間文化学部"
+   ],
+   "departments": [
+    {
+     "f": "人間文化学部",
+     "d": [
+      "人間文化学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "37.5",
+    "kyotei": "48%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "大学入学共通テスト利用選抜（1期・2期・3期）を実施",
+    "kyoka": [
+     null,
+     null
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "kyotsu": "課さない",
+      "niji": "独自試験",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.yamanashi-eiwa.ac.jp/navi/adinfo/ippan/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（1期・2期・3期）",
+      "kyotsu": "指定教科・科目",
+      "niji": null,
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.yamanashi-eiwa.ac.jp/navi/adinfo/center/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 1期",
+      "apply": "1/8〜1/29",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/13",
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 2期",
+      "apply": "2/2〜2/26",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/9",
+      "proc": "3/17",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 3期",
+      "apply": "3/2〜3/16",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/23",
+      "proc": "3/26",
+      "fee": null
+     }
+    ]
+   },
+   "access": "山梨県甲府市横根町888",
+   "careers": "一般企業、公務員、心理職、IT・メディア関連など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.yamanashi-eiwa.ac.jp/navi/adinfo/ippan/",
+    "https://www.yamanashi-eiwa.ac.jp/navi/adinfo/center/",
+    "https://up-j.shigaku.go.jp/department/category06/00000000399101001.html",
+    "https://passnavi.obunsha.co.jp/univ/3417/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.yamanashi-eiwa.ac.jp/navi/adinfo/ippan/",
+   "https://www.yamanashi-eiwa.ac.jp/navi/adinfo/center/",
+   "https://up-j.shigaku.go.jp/department/category06/00000000399101001.html",
+   "https://passnavi.obunsha.co.jp/univ/3417/difficulty/"
+  ]
+ }
+]

@@ -2038,41 +2038,6 @@
 "cat": "private"
 },
 {
-"name": "名城大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.meijo-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "大同大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.daido-it.ac.jp/",
-"cat": "private"
-},
-{
-"name": "富山国際大学",
-"type": "私立",
-"pref": "富山県",
-"hp": "https://www.tuins.ac.jp/",
-"cat": "private"
-},
-{
-"name": "山梨学院大学",
-"type": "私立",
-"pref": "山梨県",
-"hp": "https://www.ygu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "山梨英和大学",
-"type": "私立",
-"pref": "山梨県",
-"hp": "https://www.yamanashi-eiwa.ac.jp/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -2977,6 +2942,36 @@
 "高岡法科大学": 1
 },
 "enrich": [
+{
+"name": "名城大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "大同大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "富山国際大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "山梨学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "山梨英和大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "名古屋産業大学",
 "need": [
@@ -22484,6 +22479,126 @@
 },
 {
 "name": "名古屋音楽大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "名城大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "名城大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "名城大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "名城大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大同大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大同大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大同大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大同大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "富山国際大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "富山国際大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "富山国際大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "富山国際大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "山梨学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "山梨学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "山梨学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "山梨学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "山梨英和大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "山梨英和大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "山梨英和大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "山梨英和大学",
 "need": [
 "scholar"
 ]
