@@ -3039,41 +3039,6 @@
 "cat": "private"
 },
 {
-"name": "太成学院大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.tgu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "奈良大学",
-"type": "私立",
-"pref": "奈良県",
-"hp": "https://www.nara-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "奈良学園大学",
-"type": "私立",
-"pref": "奈良県",
-"hp": "https://www.naragakuen-u.jp/",
-"cat": "private"
-},
-{
-"name": "姫路大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://koutoku.ac.jp/himeji/",
-"cat": "private"
-},
-{
-"name": "姫路獨協大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.himeji-du.ac.jp/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -3811,6 +3776,36 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "太成学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "奈良大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "奈良学園大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "姫路大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "姫路獨協大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "大阪観光大学",
 "need": [
@@ -19529,6 +19524,126 @@
 },
 {
 "name": "天理大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "太成学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "太成学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "太成学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "太成学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "奈良大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "奈良大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "奈良大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "奈良大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "奈良学園大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "奈良学園大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "奈良学園大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "奈良学園大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "姫路大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "姫路大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "姫路大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "姫路大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "姫路獨協大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "姫路獨協大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "姫路獨協大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "姫路獨協大学",
 "need": [
 "scholar"
 ]
