@@ -2108,41 +2108,6 @@
 "cat": "private"
 },
 {
-"name": "岡崎女子大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.okazaki.ac.jp/",
-"cat": "private"
-},
-{
-"name": "常葉大学",
-"type": "私立",
-"pref": "静岡県",
-"hp": "https://www.tokoha-u.ac.jp/index.html",
-"cat": "private"
-},
-{
-"name": "愛知みずほ大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.mizuho-c.ac.jp/",
-"cat": "private"
-},
-{
-"name": "愛知医療学院大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://amcr.ac.jp/",
-"cat": "private"
-},
-{
-"name": "愛知医科大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.aichi-med-u.ac.jp/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -3047,6 +3012,36 @@
 "高岡法科大学": 1
 },
 "enrich": [
+{
+"name": "岡崎女子大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "常葉大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "愛知みずほ大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "愛知医療学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "愛知医科大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "岐阜保健大学",
 "need": [
@@ -22254,6 +22249,126 @@
 },
 {
 "name": "岐阜聖徳学園大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "岡崎女子大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "岡崎女子大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "岡崎女子大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "岡崎女子大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "常葉大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "常葉大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "常葉大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "常葉大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "愛知みずほ大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "愛知みずほ大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "愛知みずほ大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "愛知みずほ大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "愛知医療学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "愛知医療学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "愛知医療学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "愛知医療学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "愛知医科大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "愛知医科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "愛知医科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "愛知医科大学",
 "need": [
 "scholar"
 ]
