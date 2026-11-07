@@ -3109,41 +3109,6 @@
 "cat": "private"
 },
 {
-"name": "宝塚医療大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.tumh.ac.jp/",
-"cat": "private"
-},
-{
-"name": "宝塚大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.takara-univ.ac.jp/",
-"cat": "private"
-},
-{
-"name": "嵯峨美術大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "https://www.kyoto-saga.ac.jp/",
-"cat": "private"
-},
-{
-"name": "帝塚山大学",
-"type": "私立",
-"pref": "奈良県",
-"hp": "https://www.tezukayama-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "帝塚山学院大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.tezuka-gu.ac.jp/",
-"cat": "private"
-},
-{
 "name": "常磐会学園大学",
 "type": "私立",
 "pref": "大阪府",
@@ -3916,6 +3881,36 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "宝塚医療大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "宝塚大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "嵯峨美術大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "帝塚山大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "帝塚山学院大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "武庫川女子大学",
 "need": [
@@ -19184,6 +19179,126 @@
 },
 {
 "name": "甲南女子大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "宝塚医療大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "宝塚医療大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "宝塚医療大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "宝塚医療大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "宝塚大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "宝塚大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "宝塚大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "宝塚大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "嵯峨美術大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "嵯峨美術大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "嵯峨美術大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "嵯峨美術大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "帝塚山大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "帝塚山大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "帝塚山大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "帝塚山大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "帝塚山学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "帝塚山学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "帝塚山学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "帝塚山学院大学",
 "need": [
 "scholar"
 ]
