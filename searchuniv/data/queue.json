@@ -3039,41 +3039,6 @@
 "cat": "private"
 },
 {
-"name": "大阪観光大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.tourism.ac.jp/index.html",
-"cat": "private"
-},
-{
-"name": "大阪電気通信大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.osakac.ac.jp/",
-"cat": "private"
-},
-{
-"name": "大阪青山大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.osaka-aoyama.ac.jp/",
-"cat": "private"
-},
-{
-"name": "大阪音楽大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.daion.ac.jp/",
-"cat": "private"
-},
-{
-"name": "天理大学",
-"type": "私立",
-"pref": "奈良県",
-"hp": "https://www.tenri-u.ac.jp/",
-"cat": "private"
-},
-{
 "name": "太成学院大学",
 "type": "私立",
 "pref": "大阪府",
@@ -3846,6 +3811,36 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "大阪観光大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "大阪電気通信大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "大阪青山大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "大阪音楽大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "天理大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "常磐会学園大学",
 "need": [
@@ -19414,6 +19409,126 @@
 },
 {
 "name": "明治国際医療大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大阪観光大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大阪観光大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪観光大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪観光大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大阪電気通信大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大阪電気通信大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪電気通信大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪電気通信大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大阪青山大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大阪青山大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪青山大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪青山大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大阪音楽大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大阪音楽大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪音楽大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪音楽大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "天理大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "天理大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "天理大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "天理大学",
 "need": [
 "scholar"
 ]
