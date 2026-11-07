@@ -4,6 +4,7 @@
 - 出典URL（sources）が無い学校、cat/features/memo が足りない新規校は取り込まない。
 - 2027年度以外の入試日程・入試方式は落とす（学費は2026年度まで可）。
 - 取り込むデータには info._via = "external-ai" を付け、自動収集が大学公式で裏取りする。"""
+from urllib.parse import unquote
 import json, os, re, sys, datetime
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CATS = {'national', 'public', 'private', 'daigakkou', 'senmon'}
@@ -100,7 +101,8 @@ def main(path):
             # 大学自身の募集要項PDF（学費が載っている）も学費の裏付けとして認める
             dom = re.sub(r'^https?://(www\.)?', '', (r.get('hp') or '')).split('/')[0]
             own_pdf = k == 'money' and dom and any(dom in u and re.search(r'bo(s|sh)yu|yoko|youkou|guide', u, re.I) for u in src)
-            if info.get(k) and not own_pdf and not any(re.search(pat, u, re.I) for u in src):
+            if k == 'money' and dom and any(dom in u and re.search(r'\.pdf', u, re.I) and re.search(r'campuslife|gakubu', u, re.I) for u in src): own_pdf = True
+            if info.get(k) and not own_pdf and not any(re.search(pat, unquote(u), re.I) for u in src):
                 notes.append(f'{n}: {k} は裏付けのページが出典に無いので取り込まない'); info.pop(k)
         # 日程：2027-02-06 → 2/6 に揃え、日付が1つも無い行は落とす
         sc = info.get('schedule')
