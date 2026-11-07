@@ -1,20 +1,6 @@
 {
  "add": [
   {
-   "name": "北九州市立大学",
-   "type": "公立",
-   "pref": "福岡県",
-   "hp": "http://www.kitakyu-u.ac.jp/",
-   "cat": "public"
-  },
-  {
-   "name": "名桜大学",
-   "type": "公立",
-   "pref": "沖縄県",
-   "hp": "http://www.meio-u.ac.jp/",
-   "cat": "public"
-  },
-  {
    "name": "大分県立看護科学大学",
    "type": "公立",
    "pref": "大分県",
@@ -3122,6 +3108,84 @@
    "need": [
     "schedule_dates"
    ]
+  },
+  {
+   "name": "北九州市立大学",
+   "op": "add"
+  },
+  {
+   "name": "名桜大学",
+   "op": "add"
+  },
+  {
+   "name": "早稲田大学",
+   "op": "enrich",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "慶應義塾大学",
+   "op": "enrich",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "信州大学",
+   "op": "enrich",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "静岡大学",
+   "op": "enrich",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "広島大学",
+   "op": "enrich",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "岡山大学",
+   "op": "enrich",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "熊本大学",
+   "op": "enrich",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "奈良女子大学",
+   "op": "enrich",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "長岡技術科学大学",
+   "op": "enrich",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "豊橋技術科学大学",
+   "op": "enrich",
+   "need": [
+    "fees"
+   ]
   }
  ],
  "failed": [],
@@ -3153,8 +3217,8 @@
   "高崎経済大学": 1,
   "茨城県立医療大学": 1,
   "国際教養大学": 1,
-  "豊橋技術科学大学": 1,
-  "早稲田大学": 1,
+  "豊橋技術科学大学": 2,
+  "早稲田大学": 2,
   "慶應義塾大学": 1
  },
  "enrich": [
@@ -5627,20 +5691,6 @@
    ]
   },
   {
-   "name": "早稲田大学",
-   "keinet": "2293",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "慶應義塾大学",
-   "keinet": "2210",
-   "need": [
-    "fees"
-   ]
-  },
-  {
    "name": "上智大学",
    "keinet": "2221",
    "need": [
@@ -6036,62 +6086,6 @@
   },
   {
    "name": "電動モビリティシステム専門職大学",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "信州大学",
-   "keinet": "1225",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "静岡大学",
-   "keinet": "1230",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "広島大学",
-   "keinet": "1360",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "岡山大学",
-   "keinet": "1355",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "熊本大学",
-   "keinet": "1440",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "奈良女子大学",
-   "keinet": "1330",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "長岡技術科学大学",
-   "keinet": "1175",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "豊橋技術科学大学",
-   "keinet": "1245",
    "need": [
     "fees"
    ]
@@ -23251,6 +23245,13 @@
    ]
   },
   {
+   "name": "慶應義塾大学",
+   "keinet": "2210",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
    "name": "豊橋技術科学大学",
    "keinet": "1245",
    "need": [
@@ -23265,10 +23266,19 @@
    ]
   },
   {
-   "name": "慶應義塾大学",
-   "keinet": "2210",
+   "name": "北九州市立大学",
+   "keinet": "1675",
    "need": [
-    "schedule_dates"
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "名桜大学",
+   "keinet": "1710",
+   "need": [
+    "extra",
+    "partners"
    ]
   }
  ],
