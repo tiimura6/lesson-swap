@@ -21,13 +21,57 @@ def deep_clean(o):
     if isinstance(o, str) and o.startswith('http') and 'utm_' in o: return re.sub(r'[?&]utm_[^#]*', '', o)  # 広告の追跡用の文字を外す
     return o
 # 数字の項目は、その数字が載っているページ（学費ページ・河合塾など）が出典に無ければ取り込まない
-NEED_SRC = {'money': r'academicpay|gakunou|gakuno|gakuhi|tuition|fee|noufu|nofu|expense|cost|schoolexpenses|payment|/money|学費|納付',
+NEED_SRC = {'money': r'academicpay|gakunou|gakuno|gakuhi|tuition|fee|noufu|nofu|expense|cost|schoolexpenses|schoolfee|suito|payment|/money|学費|納付',
             'difficulty': r'keinet|passnavi|manabi', 'fdiff': r'keinet|passnavi|manabi'}
+
+# 補完依頼で返ってくる別の形（日程が方式名をキーにした辞書、学費が departments の辞書）をいつもの形に直す
+def _nz(v):
+    if not isinstance(v, str) or '未確認' in v: return None, None
+    v = v.replace('※大学入学共通テスト', '（共テ）')
+    extra = None
+    if '※' in v: v, extra = v.split('※', 1)
+    v = re.sub(r'(20\d\d年)?(\d{1,2})月(\d{1,2})日', r'\2/\3', v)
+    v = re.sub(r'（[月火水木金土日・祝]+）', '', v); v = re.sub(r'\s*\d{1,2}(:\d\d|時頃|時まで|時)(〜\d{1,2}:\d\d)?', '', v)
+    v = re.sub(r'【[^】]*】|(当日|締切日)?消印有効', '', v).replace('～', '〜')
+    if '／書類郵送' in v or '／郵送' in v: v = v.split('／')[0]
+    for a, b in (('Web出願：', ''), ('登録・支払：', ''), ('入学金等支払期限・入学手続締切日：', ''), ('入学金等支払期限：', '入学金'), ('入学金支払期限：', '入学金'),
+                 ('／入学手続締切日：', '・手続'), ('第1次発表：', '1次'), ('第1次選考結果：', '1次'), ('／合格発表：', '・最終'), ('第1次選考：', '1次'), ('第1次：', '1次'),
+                 ('／第2次選考（オンライン面接）：', '・2次'), ('／第2次：', '・2次'), ('1次手続：', '1次'), ('／2次手続：', '・2次'), ('／', '・')):
+        v = v.replace(a, b)
+    v = re.sub(r'\s+', '', v).strip('・')
+    return (v or None), (extra.strip() if extra else None)
+def normalize_shape(r):
+    info = r.get('info') or {}
+    sc = info.get('schedule')
+    if isinstance(sc, dict) and 'rows' not in sc:
+        rows = []
+        for k, v in sc.items():
+            if not isinstance(v, dict): continue
+            row = {'kubun': '共テ利用' if '共通テスト利用' in k else '一般', 'name': k, 'fee': None}
+            notes = [v['note']] if v.get('note') else []
+            for a, b in (('apply', 'apply'), ('exam', 'exam'), ('result', 'result'), ('procedure', 'proc'), ('proc', 'proc')):
+                if b in row and row[b]: continue
+                x, e = _nz(v.get(a)); row[b] = x
+                if e: notes.append(e)
+            if notes: row['note'] = '／'.join(notes)
+            rows.append(row)
+        info['schedule'] = {'year': '2027年度入試', 'rows': rows}
+    mo = info.get('money')
+    if isinstance(mo, dict) and isinstance(mo.get('departments'), dict):
+        rows = []
+        for f, v in mo['departments'].items():
+            row = {'f': f, 'admission': v.get('admission'), 'tuition': v.get('tuition'), 'facility': v.get('facility'),
+                   'practical': v.get('practical', v.get('practice', 0)), 'other': v.get('other'), 'first_year': v.get('first_year', v.get('first_year_total')), 'four_year': None}
+            if v.get('note'): row['note'] = v['note']
+            rows.append(row)
+        info['money'] = {'year': mo.get('year'), 'rows': rows}
+    return r
 def main(path):
     raw = open(path, encoding='utf-8').read().strip()
     raw = re.sub(r'^```(json)?|```$', '', raw, flags=re.M).strip()
     data = json.loads(raw); data = data if isinstance(data, list) else [data]
     data = deep_clean(data)
+    data = [normalize_shape(x) if isinstance(x, dict) else x for x in data]
     cards = {c[0] for c in json.load(open(os.path.join(ROOT, 'data', 'cards.json'), encoding='utf-8'))}
     INFO = json.load(open(os.path.join(ROOT, 'data', 'info.json'), encoding='utf-8'))
     q = json.load(open(os.path.join(ROOT, 'data', 'queue.json'), encoding='utf-8'))
@@ -104,9 +148,9 @@ def main(path):
         if not new:
             cur = INFO.get(n, {})
             if info.get('schedule') and not [z for z in (cur.get('schedule') or {}).get('rows', []) if z.get('apply') and z.get('result')]:
-                info['schedule_replace'] = info.pop('schedule'); notes.append(f'{n}: 日程を置き換え（今は日付のそろった行が無い）')
+                info['schedule_replace'] = {**(cur.get('schedule') or {}), **info.pop('schedule')}; notes.append(f'{n}: 日程を置き換え（今は日付のそろった行が無い）')
             if info.get('money') and not [z for z in (cur.get('money') or {}).get('rows', []) if z.get('first_year')]:
-                info['money_replace'] = info.pop('money'); notes.append(f'{n}: 学費を置き換え（今は学部別の額が無い）')
+                info['money_replace'] = {**(cur.get('money') or {}), **info.pop('money')}; notes.append(f'{n}: 学費を置き換え（今は学部別の額が無い）')
         info = {k: v for k, v in info.items() if v not in (None, '', [], {})}
         info['_via'] = 'external-ai'
         r2 = {k: v for k, v in r.items() if k in ('name', 'cat', 'type', 'pref', 'pref_name', 'city', 'hp', 'reading', 'features', 'memo', 'aliases', 'latlng')}
