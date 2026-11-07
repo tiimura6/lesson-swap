@@ -382,11 +382,11 @@
 - 同朋大学（私立・愛知県）公式サイト：https://www.doho.ac.jp/
 - 名古屋商科大学（私立・愛知県）公式サイト：https://www.nucba.ac.jp/
 - 名古屋外国語大学（私立・愛知県）公式サイト：https://www.nufs.ac.jp/
-- 名古屋女子大学（私立・愛知県）公式サイト：https://www.nagoya-wu.ac.jp/
+- ※名古屋女子大学：2025年4月に名古屋葵大学へ校名変更（取り込み済み）
 - 名古屋学芸大学（私立・愛知県）公式サイト：https://www.nuas.ac.jp/
 - 名古屋学院大学（私立・愛知県）公式サイト：https://www.ngu.jp/
 - 名古屋文理大学（私立・愛知県）公式サイト：https://www.nagoya-bunri.ac.jp/
-- 名古屋柳城女子大学（私立・愛知県）公式サイト：https://www.ryujo-u.ac.jp/
+- ※名古屋柳城女子大学：2026年度から募集停止（頼まない）
 
 ## 依頼33
 - 名古屋産業大学（私立・愛知県）公式サイト：https://www.nagoya-su.ac.jp/

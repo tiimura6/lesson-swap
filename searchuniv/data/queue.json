@@ -1968,41 +1968,6 @@
 "cat": "private"
 },
 {
-"name": "名古屋女子大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.nagoya-wu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "名古屋学芸大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.nuas.ac.jp/",
-"cat": "private"
-},
-{
-"name": "名古屋学院大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.ngu.jp/",
-"cat": "private"
-},
-{
-"name": "名古屋文理大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.nagoya-bunri.ac.jp/",
-"cat": "private"
-},
-{
-"name": "名古屋柳城女子大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.ryujo-u.ac.jp/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -2907,6 +2872,30 @@
 "高岡法科大学": 1
 },
 "enrich": [
+{
+"name": "名古屋葵大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "名古屋学芸大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "名古屋学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "名古屋文理大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "北陸大学",
 "need": [
@@ -22717,6 +22706,102 @@
 "need": [
 "scholar"
 ]
+},
+{
+"name": "名古屋葵大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "名古屋葵大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "名古屋葵大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "名古屋葵大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "名古屋学芸大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "名古屋学芸大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "名古屋学芸大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "名古屋学芸大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "名古屋学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "名古屋学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "名古屋学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "名古屋学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "名古屋文理大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "名古屋文理大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "名古屋文理大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "名古屋文理大学",
+"need": [
+"scholar"
+]
 }
 ],
 "complete": true,
@@ -22772,6 +22857,10 @@
 {
 "name": "愛知文教大学",
 "reason": "2027年度以降の学生募集を停止（進学情報サイト2件で確認）"
+},
+{
+"name": "名古屋柳城女子大学",
+"reason": "2026年度以降の学生募集を停止（日本の学校で確認）"
 }
 ]
 }

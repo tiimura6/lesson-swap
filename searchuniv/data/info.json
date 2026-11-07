@@ -128762,5 +128762,716 @@ null
 "https://search.keinet.ne.jp/2452/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/3750/difficulty/"
 ]
+},
+"名古屋葵大学": {
+"faculties": [
+"健康科学部",
+"医療科学部",
+"児童教育学部",
+"生活環境学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"difficulty": "2026-11-07",
+"kyotsu": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "健康科学部",
+"d": [
+"健康栄養学科（管理栄養士・フードサイエンス）",
+"看護学科"
+]
+},
+{
+"f": "医療科学部",
+"d": [
+"理学療法学科"
+]
+},
+{
+"f": "児童教育学部",
+"d": [
+"児童教育学科"
+]
+},
+{
+"f": "生活環境学部",
+"d": [
+"生活環境学科"
+]
+}
+],
+"difficulty": {
+"hensachi": "35.0〜47.5",
+"kyotei": "46%〜67%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "共通テスト利用（Ⅰ期・Ⅱ期）および共通テストプラスを実施",
+"kyoka": [
+1,
+3
+],
+"note": "共通テストプラスは一般選抜Ⅰ期の受験が必須"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜（Ⅰ期・Ⅱ期・共通テストプラス）",
+"kyotsu": "課さない（プラスは利用）",
+"niji": "各学部指定科目",
+"content": null,
+"req": "Ⅰ期は1/31・2/1・2/2の試験日自由選択制",
+"url": "https://nyusi.nagoya-aoi.ac.jp/admissions/calendar/"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜（Ⅰ期・Ⅱ期）",
+"kyotsu": "1〜3科目",
+"niji": null,
+"content": null,
+"req": "個別試験なし",
+"url": "https://nyusi.nagoya-aoi.ac.jp/admissions/calendar/"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅰ期",
+"apply": "12/21〜1/20",
+"exam": "1/31・2/1・2/2（自由選択）",
+"result": "2/16",
+"proc": "1次2/25・2次3/5",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期",
+"apply": null,
+"exam": null,
+"result": "3/10",
+"proc": "3/17",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅰ期・共通テストプラス",
+"apply": "12/22〜1/22",
+"exam": "1/16・1/17（共テ）",
+"result": "2/16",
+"proc": "1次2/25・2次3/5",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅱ期",
+"apply": null,
+"exam": "1/16・1/17（共テ）",
+"result": "3/10",
+"proc": "3/17",
+"fee": null
+}
+]
+},
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "生活環境学部 生活環境学科",
+"admission": 150000,
+"tuition": 745000,
+"facility": 380000,
+"practical": 20000,
+"other": 68580,
+"first_year": 1363580,
+"four_year": null
+},
+{
+"f": "児童教育学部 児童教育学科",
+"admission": 150000,
+"tuition": 755000,
+"facility": 380000,
+"practical": 30000,
+"other": 69940,
+"first_year": 1384940,
+"four_year": null
+},
+{
+"f": "健康科学部 健康栄養学科",
+"admission": 150000,
+"tuition": 760000,
+"facility": 380000,
+"practical": 50000,
+"other": 69940,
+"first_year": 1409940,
+"four_year": null
+},
+{
+"f": "医療科学部 理学療法学科",
+"admission": 150000,
+"tuition": 800000,
+"facility": 380000,
+"practical": 330000,
+"other": 85580,
+"first_year": 1745580,
+"four_year": null
+},
+{
+"f": "健康科学部 看護学科",
+"admission": 150000,
+"tuition": 820000,
+"facility": 380000,
+"practical": 350000,
+"other": 85580,
+"first_year": 1785580,
+"four_year": null
+}
+]
+},
+"access": "愛知県名古屋市瑞穂区汐路町3-40",
+"careers": "管理栄養士、看護師、保健師、理学療法士、小学校教諭、幼稚園教諭、保育士、一般企業など。",
+"_via": "external-ai",
+"sources": [
+"https://nyusi.nagoya-aoi.ac.jp/",
+"https://nyusi.nagoya-aoi.ac.jp/admissions/calendar/",
+"https://nyusi.nagoya-aoi.ac.jp/admissions/gakuhi/",
+"https://passnavi.obunsha.co.jp/univ/3800/difficulty/"
+]
+},
+"名古屋学芸大学": {
+"faculties": [
+"管理栄養学部",
+"メディア造形学部",
+"ヒューマンケア学部",
+"看護学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"difficulty": "2026-11-07",
+"kyotsu": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "管理栄養学部",
+"d": [
+"管理栄養学科"
+]
+},
+{
+"f": "メディア造形学部",
+"d": [
+"映像メディア学科",
+"デザイン学科",
+"ファッション造形学科"
+]
+},
+{
+"f": "ヒューマンケア学部",
+"d": [
+"子どもケア学科"
+]
+},
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+}
+],
+"difficulty": {
+"hensachi": "45.0〜57.5",
+"kyotei": null,
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "共通テスト利用（前期・後期）および前期プラス共通テストを実施",
+"kyoka": [
+null,
+null
+],
+"note": null
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜（前期2科目型・3科目型、前期プラス共通テスト、後期）",
+"kyotsu": "課さない（プラスは利用）",
+"niji": "各学部指定科目",
+"content": null,
+"req": "前期は2/6・2/7・2/8の複数日出願可（フリーパス制度あり）",
+"url": "https://passnavi.obunsha.co.jp/univ/3763/schedule/"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜（前期・後期）",
+"kyotsu": "指定教科・科目",
+"niji": null,
+"content": null,
+"req": "個別試験なし",
+"url": "https://passnavi.obunsha.co.jp/univ/3763/schedule/"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 前期",
+"apply": "1/5〜1/21",
+"exam": "2/6・2/7・2/8",
+"result": "2/19",
+"proc": "3/1",
+"fee": 35000
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期",
+"apply": "2/16〜2/22",
+"exam": "3/4",
+"result": null,
+"proc": null,
+"fee": 35000
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 前期",
+"apply": "1/5〜1/21",
+"exam": "1/16・1/17（共テ）",
+"result": "2/19",
+"proc": "3/1",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 後期",
+"apply": "2/16〜3/8",
+"exam": "1/16・1/17（共テ）",
+"result": null,
+"proc": null,
+"fee": null
+}
+]
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "管理栄養学部 管理栄養学科",
+"admission": 200000,
+"tuition": 775000,
+"facility": 380000,
+"practical": 50000,
+"other": 29000,
+"first_year": 1434000,
+"four_year": null
+},
+{
+"f": "ヒューマンケア学部 子どもケア学科",
+"admission": 200000,
+"tuition": 800000,
+"facility": 380000,
+"practical": 90000,
+"other": 0,
+"first_year": 1470000,
+"four_year": null
+},
+{
+"f": "メディア造形学部（映像メディア・デザイン・ファッション造形）",
+"admission": 200000,
+"tuition": 1000000,
+"facility": 400000,
+"practical": 0,
+"other": 0,
+"first_year": 1600000,
+"four_year": null
+},
+{
+"f": "看護学部 看護学科",
+"admission": 200000,
+"tuition": 1060000,
+"facility": 300000,
+"practical": 0,
+"other": 0,
+"first_year": 1560000,
+"four_year": null
+}
+]
+},
+"access": "愛知県日進市岩崎町竹ノ山57",
+"careers": "管理栄養士、看護師、保健師、保育士、幼稚園教諭、映像・デザイン・ファッション関連企業など。",
+"_via": "external-ai",
+"sources": [
+"https://www.nuas.ac.jp/profile/campuslife/expense/index.html",
+"https://search.keinet.ne.jp/2435/outline/expense",
+"https://passnavi.obunsha.co.jp/univ/3763/schedule/",
+"https://passnavi.obunsha.co.jp/univ/3763/difficulty/"
+]
+},
+"名古屋学院大学": {
+"faculties": [
+"経済学部",
+"現代社会学部",
+"商学部",
+"経営学部",
+"法学部",
+"外国語学部",
+"国際文化学部",
+"スポーツ健康学部",
+"リハビリテーション学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"difficulty": "2026-11-07",
+"kyotsu": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "経済学部",
+"d": [
+"経済学科"
+]
+},
+{
+"f": "現代社会学部",
+"d": [
+"現代社会学科"
+]
+},
+{
+"f": "商学部",
+"d": [
+"商学科"
+]
+},
+{
+"f": "経営学部",
+"d": [
+"データ経営学科"
+]
+},
+{
+"f": "法学部",
+"d": [
+"法学科"
+]
+},
+{
+"f": "外国語学部",
+"d": [
+"英米語学科"
+]
+},
+{
+"f": "国際文化学部",
+"d": [
+"グローバル文化学科",
+"国際協力・共生学科",
+"国際日本学科"
+]
+},
+{
+"f": "スポーツ健康学部",
+"d": [
+"スポーツ健康学科"
+]
+},
+{
+"f": "リハビリテーション学部",
+"d": [
+"理学療法学科"
+]
+}
+],
+"difficulty": {
+"hensachi": "35.0〜45.0",
+"kyotei": "46%〜65%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "共通テスト利用（2教科型・3教科型）および共通テスト＋を実施",
+"kyoka": [
+2,
+3
+],
+"note": null
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般入試（前期・中期・後期）",
+"kyotsu": "課さない",
+"niji": "各学部指定科目",
+"content": null,
+"req": "前期は1/30に全国10会場で実施",
+"url": "https://www.ngu.jp/admissions/admission/overview/selection_of_entrants/"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用入試（2教科型・3教科型）",
+"kyotsu": "2〜3教科",
+"niji": null,
+"content": null,
+"req": "個別試験なし",
+"url": "https://www.ngu.jp/admissions/admission/overview/selection_of_entrants/"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般入試（前期）",
+"apply": "1/7〜1/21",
+"exam": "1/30・1/31・2/1",
+"result": "2/10",
+"proc": "1次2/25・2次3/11",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般入試（中期）",
+"apply": "2/1〜2/17",
+"exam": "2/26",
+"result": "3/4",
+"proc": "1次3/11・2次3/17",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般入試（後期）",
+"apply": "2/19〜3/5",
+"exam": "3/12",
+"result": "3/17",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用入試",
+"apply": "1/7〜1/21",
+"exam": "1/16・1/17（共テ）",
+"result": "2/10",
+"proc": "1次2/25・2次3/11",
+"fee": null
+}
+]
+},
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "経済・現代社会・商・法学部",
+"admission": 250000,
+"tuition": 710000,
+"facility": 320000,
+"practical": 0,
+"other": 8500,
+"first_year": 1288500,
+"four_year": null
+},
+{
+"f": "外国語学部",
+"admission": 280000,
+"tuition": 810000,
+"facility": 300000,
+"practical": 0,
+"other": 8500,
+"first_year": 1398500,
+"four_year": null
+},
+{
+"f": "国際文化学部",
+"admission": 280000,
+"tuition": 830000,
+"facility": 300000,
+"practical": 0,
+"other": 8500,
+"first_year": 1418500,
+"four_year": null
+},
+{
+"f": "リハビリテーション学部 理学療法学科",
+"admission": 280000,
+"tuition": 870000,
+"facility": 370000,
+"practical": 300000,
+"other": 8500,
+"first_year": 1828500,
+"four_year": null
+}
+]
+},
+"access": "名古屋キャンパスしろとり（名古屋市熱田区熱田西町1-25）・瀬戸キャンパス",
+"careers": "一般企業、公務員、教員、理学療法士、スポーツ指導者など。",
+"_via": "external-ai",
+"sources": [
+"https://www.ngu.jp/admissions/admission/overview/selection_of_entrants/",
+"https://www.ngu.jp/admissions/admission/schedule/",
+"https://www.ngu.jp/campuslife/fees/fees01/",
+"https://search.keinet.ne.jp/2453/outline/expense",
+"https://search.keinet.ne.jp/2453/general/border_rate",
+"https://passnavi.obunsha.co.jp/univ/3760/difficulty/"
+]
+},
+"名古屋文理大学": {
+"faculties": [
+"健康生活学部",
+"情報メディア学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"difficulty": "2026-11-07",
+"kyotsu": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "健康生活学部",
+"d": [
+"健康栄養学科",
+"フードビジネス学科"
+]
+},
+{
+"f": "情報メディア学部",
+"d": [
+"情報メディア学科"
+]
+}
+],
+"difficulty": {
+"hensachi": "BF〜40.0",
+"kyotei": "40%〜73%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "大学入学共通テスト利用入試（前期3科目型・2科目型）を実施",
+"kyoka": [
+2,
+3
+],
+"note": null
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般入試（前期3科目型・2科目型、後期）",
+"kyotsu": "課さない",
+"niji": "各方式指定科目",
+"content": null,
+"req": "高等学校卒業（見込）等",
+"url": "https://www.nagoya-bunri.ac.jp/admission/exam-2/regular-01/"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用入試（前期3科目型・2科目型）",
+"kyotsu": "2〜3科目",
+"niji": null,
+"content": null,
+"req": "個別試験なし",
+"url": "https://www.nagoya-bunri.ac.jp/admission/exam-2/center-01/"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般入試（前期）",
+"apply": "1/8〜1/21",
+"exam": "1/28・1/29",
+"result": "2/13",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般入試（後期）",
+"apply": "2/1〜2/24",
+"exam": "3/2",
+"result": "3/9",
+"proc": "3/18",
+"fee": null
+}
+]
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "健康生活学部 健康栄養学科",
+"admission": 200000,
+"tuition": 750000,
+"facility": 440000,
+"practical": 90000,
+"other": 0,
+"first_year": 1480000,
+"four_year": null
+},
+{
+"f": "健康生活学部 フードビジネス学科",
+"admission": 200000,
+"tuition": 750000,
+"facility": 420000,
+"practical": 60000,
+"other": 0,
+"first_year": 1430000,
+"four_year": null
+}
+]
+},
+"access": "愛知県稲沢市稲沢町前田365",
+"careers": "管理栄養士、食品メーカー、IT・情報通信、メディア・クリエイティブ関連、一般企業など。",
+"_via": "external-ai",
+"sources": [
+"https://www.nagoya-bunri.ac.jp/admission/exam-2/regular-01/",
+"https://www.nagoya-bunri.ac.jp/admission/exam-2/regular-03/",
+"https://www.nagoya-bunri.ac.jp/admission/exam-2/center-01/",
+"https://search.keinet.ne.jp/2468/outline/expense",
+"https://search.keinet.ne.jp/2468/general/border_rate",
+"https://passnavi.obunsha.co.jp/univ/3815/difficulty/"
+]
 }
 }
