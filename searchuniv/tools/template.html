@@ -108,6 +108,14 @@ body.wide main,body.wide header{max-width:1320px}
 .stu-memo{display:flex;flex-direction:column;gap:3px;font-size:12px;color:var(--muted)}.stu-memo textarea{font-family:inherit;font-size:13.5px;border:1px solid var(--line);border-radius:8px;padding:7px 9px;background:var(--bg);color:var(--ink);resize:vertical}
 #stu-list{margin-left:auto}
 .dlbox{border:1px solid var(--line);border-radius:12px;padding:8px 14px;margin:6px 0 10px;background:var(--panel)}.dlbox.urgent{border:1.5px solid #c0392b;background:color-mix(in srgb,#c0392b 5%,var(--panel))}.dlbox h3{margin:0 0 4px;font-size:14px}.dlbox.urgent h3{color:#c0392b}.dlbox li.hot{color:#c0392b;font-weight:700}.dlbox li.near b{color:#1f4e79}
+.nticker{display:flex;align-items:center;gap:8px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:5px 10px;overflow:hidden;font-size:12.5px}
+.nticker[hidden]{display:none}.nt-h{flex-shrink:0;font-weight:700;color:var(--accent);font-size:12px}
+.nt-vp{flex:1;overflow:hidden;white-space:nowrap;-webkit-mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent);mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent)}
+.nt-track{display:inline-flex;animation:ntscroll var(--nt-dur,60s) linear infinite}.nticker:hover .nt-track,.nticker:focus-within .nt-track{animation-play-state:paused}
+.nt-run{display:inline-flex;align-items:center;padding-right:2em}.nt-i{color:var(--ink);text-decoration:none}.nt-i:hover{text-decoration:underline}.nt-i b{color:var(--accent);margin-right:3px}.nt-i .imp{color:var(--ng);margin-right:2px}
+.nt-d{color:var(--muted);font-size:11px;margin-left:5px}.nt-sep{color:var(--line);margin:0 10px}
+@keyframes ntscroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.nt-track{animation:none}.nt-vp{overflow-x:auto}}
 .ktbox{margin-top:16px;border:1px solid var(--line);border-radius:12px;padding:10px 14px;background:var(--panel)}
 .ktbox>summary{cursor:pointer;font-weight:700}
 @media print{ #v-plan .mintro,.xbtn,.psel,.prow,#plan-print,.star{display:none !important} }
@@ -310,6 +318,7 @@ ul.mini li{font-size:12.5px;margin:2px 0}
 <section id="v-map" hidden>
   <div class="sgrid">
     <div class="sleft">
+      <div class="nticker" id="nticker" hidden><span class="nt-h">📰 最新ニュース</span><div class="nt-vp"><div class="nt-track" id="nt-track"></div></div></div>
       <div class="sbar"><input type="search" id="mq" placeholder="大学名・学部・学科・学問（例：看護、心理、建築）・地域で検索" autocomplete="off"><button class="btn" id="mgo" type="button">検索</button><button class="btn" id="mreset">全国</button></div>
       <p class="upd" id="updline"></p>
       <div class="sfilt">
@@ -1589,6 +1598,16 @@ function cardNews(name){
   const ns=newsFor(name); if(!ns.length) return "";
   return '<div class="cnews"><div class="h">最新ニュース</div><ul class="mini">'+ns.map(n=>newsLi(n,false)).join("")+'</ul></div>';
 }
+// 最新ニュースを検索画面の左上にゆっくり流す（新しい順・最大15件。マウスを乗せると止まる）
+function renderTicker(){
+  const box=$("nticker"), tr=$("nt-track"); if(!box||!tr) return;
+  const L=NEWS.slice().sort((a,b)=>(b.date||"").localeCompare(a.date||"")||(b.addedAt||"").localeCompare(a.addedAt||"")).slice(0,15);
+  if(!L.length){ box.hidden=true; return; }
+  const one=L.map(n=>'<a class="nt-i" href="'+esc(n.url||"#")+'" target="_blank" rel="noopener">'+(n.important?'<span class="imp">★</span>':'')+'<b>'+esc(n.univ||"")+'</b> '+esc(n.title||"")+'<span class="nt-d">'+esc((n.date||"").slice(5).replace("-","/"))+'</span></a>').join('<span class="nt-sep">｜</span>');
+  tr.innerHTML='<span class="nt-run">'+one+'</span><span class="nt-run" aria-hidden="true">'+one+'</span>';
+  box.hidden=false;
+  requestAnimationFrame(()=>{ const w=tr.firstChild.getBoundingClientRect().width; tr.style.setProperty("--nt-dur",Math.max(40,Math.round(w/35))+"s"); });   // 1秒に約35px
+}
 function newsLi(n,withU){ return '<li>'+(n.important?'<span class="imp">★重要</span> ':'')+(withU?'<b class="nu2">'+esc(n.univ||"")+'</b> ':'')+'<a href="'+esc(n.url||"#")+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">'+esc(n.title||"")+'</a> <span class="sub2">'+esc(n.source||"")+' '+esc(n.date||"")+'</span>'+(n.summary?'<div class="nsum">'+esc(n.summary)+'</div>':'')+'</li>'; }
 // 検索結果に出てきた大学の最新ニュース／選択中の大学のニュース
 function renderSearchNews(){
@@ -1607,13 +1626,13 @@ function renderSearchNews(){
   try{
     db = (window.claude && claude.use) ? await claude.use("db") : null;
     if(!db){ clearTimeout(timer);
-      try{ const r=await fetch(BASE+"news.json",{cache:"no-cache"}); if(r.ok){ NEWS=await r.json(); newsState="ok"; renderSearchNews(); return; } }catch(e){}
+      try{ const r=await fetch(BASE+"news.json",{cache:"no-cache"}); if(r.ok){ NEWS=await r.json(); newsState="ok"; renderSearchNews(); renderTicker(); return; } }catch(e){}
       newsState="off"; renderSearchNews(); return; }
     db.collection("news").orderBy("date","desc").limit(500).onSnapshot(snap=>{
       clearTimeout(timer);
       const docs = snap.docs || snap;
       NEWS = docs.map(d=>{ const data = typeof d.data==="function" ? d.data() : (d.data||d); return Object.assign({id:d.id}, data); });
-      newsState="ok"; renderSearchNews();
+      newsState="ok"; renderSearchNews(); renderTicker();
     }, err=>{ clearTimeout(timer); newsState="off"; renderSearchNews(); });
   }catch(e){ clearTimeout(timer); newsState="off"; renderSearchNews(); }
 })();
