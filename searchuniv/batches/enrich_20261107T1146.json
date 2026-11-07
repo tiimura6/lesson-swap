@@ -1,0 +1,223 @@
+[
+ {
+  "name": "大同大学",
+  "info": {
+   "_via_replace": "external-ai-verified",
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "体験授業総合型",
+      "apply": "10/1〜10/8",
+      "exam": "10/17",
+      "result": "11/2",
+      "proc": "入学金11/20",
+      "fee": null,
+      "note": "体験授業は9/12（出願8/18〜9/2）"
+     },
+     {
+      "kubun": "推薦",
+      "name": "一般推薦（専願）",
+      "apply": "11/10〜11/19",
+      "exam": "11/28",
+      "result": "12/5",
+      "proc": "12/18",
+      "fee": null,
+      "note": ""
+     },
+     {
+      "kubun": "一般",
+      "name": "特別奨励生・M方式",
+      "apply": "12/1〜12/10",
+      "exam": "12/19",
+      "result": "12/26",
+      "proc": "入学金2/22・授業料3/5",
+      "fee": null,
+      "note": ""
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テストプラスA方式・B方式",
+      "apply": "12/28〜1/14",
+      "exam": "1/23（A）・1/24（B）",
+      "result": "2/13",
+      "proc": "入学金2/22・授業料3/5",
+      "fee": null,
+      "note": ""
+     },
+     {
+      "kubun": "一般",
+      "name": "中期",
+      "apply": "2/3〜2/18",
+      "exam": "2/27",
+      "result": "3/6",
+      "proc": "3/12",
+      "fee": null,
+      "note": ""
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用ファイナル",
+      "apply": "2/19〜3/9",
+      "exam": "共テ",
+      "result": "3/13",
+      "proc": "3/18",
+      "fee": null,
+      "note": ""
+     }
+    ]
+   },
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "工学部・建築学部・情報学部（情報システム・情報デザイン）",
+      "admission": 300000,
+      "tuition": 940000,
+      "facility": 345000,
+      "practical": null,
+      "other": 56300,
+      "first_year": 1641300,
+      "four_year": null,
+      "note": "学費1,585,000円＋諸費用56,300円（後援会・学生会・大学祭・保険）。2年次の学費は1,315,000円（2027年度予定）"
+     },
+     {
+      "f": "情報学部 総合情報学科",
+      "admission": 300000,
+      "tuition": 720000,
+      "facility": 325000,
+      "practical": null,
+      "other": 56300,
+      "first_year": 1401300,
+      "four_year": null,
+      "note": "学費1,345,000円＋諸費用56,300円。2年次の学費は1,075,000円（2027年度予定）"
+     }
+    ]
+   },
+   "scholar_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "入学時特別奨励生（第一種・第二種）",
+      "kind": "減免",
+      "target": "全学部",
+      "amount": "第一種：授業料全額／第二種：授業料半額（入学初年度）",
+      "timing": "入試時（M方式・前期・共テ利用前期の成績上位）",
+      "cond": "入試で特に優秀な成績"
+     },
+     {
+      "name": "学業優秀奨励生（2026年度以降の入学生）",
+      "kind": "給付",
+      "target": "全学部",
+      "amount": "第一種：授業料全額／第二種：授業料半額／第三種：年12万円",
+      "timing": "在学中（2〜4年次、年1回）",
+      "cond": "前年度の学業成績が学科上位"
+     },
+     {
+      "name": "入学時スポーツ特別奨学生",
+      "kind": "給付",
+      "target": "全学部",
+      "amount": "第一種：年60万円／第二種：入学金相当",
+      "timing": "入試時（クラブ推薦）",
+      "cond": "高校での競技歴と学業成績が優秀"
+     },
+     {
+      "name": "在学生スポーツ特別奨学生",
+      "kind": "給付",
+      "target": "全学部",
+      "amount": "年22万円",
+      "timing": "在学中",
+      "cond": "入学後の競技成績が優秀・顧問と監督の推薦"
+     },
+     {
+      "name": "一般貸与奨学生",
+      "kind": "貸与",
+      "target": "全学部",
+      "amount": "月3万円（無利子）",
+      "timing": "在学中",
+      "cond": "経済的理由で修学困難・他団体の奨学生でないこと"
+     },
+     {
+      "name": "緊急時貸与奨学生",
+      "kind": "貸与",
+      "target": "全学部",
+      "amount": "授業料・施設費の年額の1/2（無利子、1学期限り）",
+      "timing": "在学中（延納期間中に募集）",
+      "cond": "延納許可と教育ローン申請の上で納付が困難な見込み"
+     }
+    ],
+    "note": ""
+   },
+   "sources": [
+    "https://www.daido-news.jp/admission/entrance_exam/schedule/",
+    "https://www.daido-news.jp/admission/entrance_exam/tetsuzuki/",
+    "https://www.daido-news.jp/admission/entrance_exam/payment",
+    "https://www.daido-it.ac.jp/life/tuition/syougakukin/"
+   ]
+  }
+ },
+ {
+  "name": "名城大学",
+  "info": {
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "入試成績優秀奨学生",
+      "kind": "減免",
+      "target": "全学部",
+      "amount": "授業料年額の1/2（入学年度のみ）",
+      "timing": "入試時（一般選抜A方式の学部成績上位、約500名）",
+      "cond": "A方式の合格通知で対象者に通知"
+     },
+     {
+      "name": "きたれ！創造型実学応援校友会奨学金",
+      "kind": "給付",
+      "target": "全学部",
+      "amount": "月3万円（年36万円）",
+      "timing": "入試時（3教科型A方式の合格者）",
+      "cond": "東海4県以外の43都道府県の自宅から転居して入学し、生計維持者と別居して通学（2027・2028年度入学者）"
+     },
+     {
+      "name": "学業優秀奨学生",
+      "kind": "給付",
+      "target": "全学部",
+      "amount": "授業料年額の1/2",
+      "timing": "在学中（新4年次）",
+      "cond": "各学科1人（薬学科2人）、成績基準あり"
+     },
+     {
+      "name": "学業優秀奨励制度",
+      "kind": "給付",
+      "target": "全学部",
+      "amount": "3万円相当の金品",
+      "timing": "在学中（新3年次、薬学科は新5年次）",
+      "cond": "単位数と平均点80点以上"
+     },
+     {
+      "name": "修学援助B奨学生",
+      "kind": "給付",
+      "target": "全学部",
+      "amount": "年30万円",
+      "timing": "在学中（随時）",
+      "cond": "家計急変・家計基準あり"
+     },
+     {
+      "name": "大規模自然災害経済支援奨学生",
+      "kind": "減免",
+      "target": "全学部",
+      "amount": "授業料等の年額または1/2（出願者は検定料・入学金も免除）",
+      "timing": "出願時・在学中",
+      "cond": "災害救助法適用等の大規模災害による家計急変"
+     }
+    ],
+    "note": ""
+   },
+   "sources": [
+    "https://www.meijo-u.ac.jp/campus/support/scholarship01/",
+    "https://www.meijo-u.ac.jp/admissions/ippan2027/"
+   ]
+  }
+ }
+]

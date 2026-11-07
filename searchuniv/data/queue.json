@@ -1,55 +1,6 @@
 {
 "add": [
 {
-"name": "福知山公立大学",
-"type": "公立",
-"pref": "京都府",
-"hp": "http://www.fukuchiyama.ac.jp/",
-"cat": "public"
-},
-{
-"name": "下関市立大学",
-"type": "公立",
-"pref": "山口県",
-"hp": "http://www.shimonoseki-cu.ac.jp/",
-"cat": "public"
-},
-{
-"name": "公立鳥取環境大学",
-"type": "公立",
-"pref": "鳥取県",
-"hp": "http://www.kankyo-u.ac.jp/",
-"cat": "public"
-},
-{
-"name": "叡啓大学",
-"type": "公立",
-"pref": "広島県",
-"hp": "https://www.pu-hiroshima.ac.jp/site/eikei-univ/",
-"cat": "public"
-},
-{
-"name": "周南公立大学",
-"type": "公立",
-"pref": "山口県",
-"hp": "https://www.shunan-u.ac.jp/",
-"cat": "public"
-},
-{
-"name": "尾道市立大学",
-"type": "公立",
-"pref": "広島県",
-"hp": "http://www.onomichi-u.ac.jp/",
-"cat": "public"
-},
-{
-"name": "山口県立大学",
-"type": "公立",
-"pref": "山口県",
-"hp": "http://www.yamaguchi-pu.ac.jp/",
-"cat": "public"
-},
-{
 "name": "山陽小野田市立山口東京理科大学",
 "type": "公立",
 "pref": "山口県",
@@ -2836,6 +2787,41 @@
 "need": [
 "scholar"
 ]
+},
+{
+"name": "福知山公立大学",
+"op": "add"
+},
+{
+"name": "下関市立大学",
+"op": "add"
+},
+{
+"name": "公立鳥取環境大学",
+"op": "add"
+},
+{
+"name": "叡啓大学",
+"op": "add"
+},
+{
+"name": "周南公立大学",
+"op": "add"
+},
+{
+"name": "尾道市立大学",
+"op": "add"
+},
+{
+"name": "山口県立大学",
+"op": "add"
+},
+{
+"name": "大同大学",
+"op": "enrich",
+"need": [
+"verify"
+]
 }
 ],
 "failed": [],
@@ -2869,7 +2855,8 @@
 "沖縄大学": 1,
 "長野県立大学": 1,
 "びわこ成蹊スポーツ大学": 1,
-"高岡法科大学": 1
+"高岡法科大学": 1,
+"名城大学": 1
 },
 "enrich": [
 {
@@ -2922,18 +2909,6 @@
 },
 {
 "name": "名古屋外国語大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "名城大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "大同大学",
 "need": [
 "verify"
 ]
@@ -22801,6 +22776,68 @@
 "name": "名古屋文理大学",
 "need": [
 "scholar"
+]
+},
+{
+"name": "福知山公立大学",
+"keinet": "1597",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "下関市立大学",
+"keinet": "1665",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "公立鳥取環境大学",
+"keinet": "1646",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "叡啓大学",
+"keinet": "1660",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "周南公立大学",
+"keinet": "1666",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "尾道市立大学",
+"keinet": "1653",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "山口県立大学",
+"keinet": "1663",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "名城大学",
+"need": [
+"verify"
 ]
 }
 ],

@@ -127141,7 +127141,8 @@ null
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"scholar": "2026-11-07"
 },
 "departments": [
 {
@@ -127411,8 +127412,64 @@ null
 "https://www.meijo-u.ac.jp/admissions/assets/pdf/pamphlet/2027/guide2027.pdf",
 "https://www.meijo-u.ac.jp/admissions/kitare2027/",
 "https://www.meijo-u.ac.jp/admissions/pass/formalities.html",
-"https://www.meijo-u.ac.jp/campus/tuition/pdf/2025_.pdf"
-]
+"https://www.meijo-u.ac.jp/campus/tuition/pdf/2025_.pdf",
+"https://www.meijo-u.ac.jp/campus/support/scholarship01/",
+"https://www.meijo-u.ac.jp/admissions/ippan2027/"
+],
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "入試成績優秀奨学生",
+"kind": "減免",
+"target": "全学部",
+"amount": "授業料年額の1/2（入学年度のみ）",
+"timing": "入試時（一般選抜A方式の学部成績上位、約500名）",
+"cond": "A方式の合格通知で対象者に通知"
+},
+{
+"name": "きたれ！創造型実学応援校友会奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "月3万円（年36万円）",
+"timing": "入試時（3教科型A方式の合格者）",
+"cond": "東海4県以外の43都道府県の自宅から転居して入学し、生計維持者と別居して通学（2027・2028年度入学者）"
+},
+{
+"name": "学業優秀奨学生",
+"kind": "給付",
+"target": "全学部",
+"amount": "授業料年額の1/2",
+"timing": "在学中（新4年次）",
+"cond": "各学科1人（薬学科2人）、成績基準あり"
+},
+{
+"name": "学業優秀奨励制度",
+"kind": "給付",
+"target": "全学部",
+"amount": "3万円相当の金品",
+"timing": "在学中（新3年次、薬学科は新5年次）",
+"cond": "単位数と平均点80点以上"
+},
+{
+"name": "修学援助B奨学生",
+"kind": "給付",
+"target": "全学部",
+"amount": "年30万円",
+"timing": "在学中（随時）",
+"cond": "家計急変・家計基準あり"
+},
+{
+"name": "大規模自然災害経済支援奨学生",
+"kind": "減免",
+"target": "全学部",
+"amount": "授業料等の年額または1/2（出願者は検定料・入学金も免除）",
+"timing": "出願時・在学中",
+"cond": "災害救助法適用等の大規模災害による家計急変"
+}
+],
+"note": ""
+}
 },
 "大同大学": {
 "faculties": [
@@ -127430,7 +127487,8 @@ null
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"scholar": "2026-11-07"
 },
 "departments": [
 {
@@ -127496,13 +127554,34 @@ null
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "総合型",
+"name": "体験授業総合型",
+"apply": "10/1〜10/8",
+"exam": "10/17",
+"result": "11/2",
+"proc": "入学金11/20",
+"fee": null,
+"note": "体験授業は9/12（出願8/18〜9/2）"
+},
+{
+"kubun": "推薦",
+"name": "一般推薦（専願）",
+"apply": "11/10〜11/19",
+"exam": "11/28",
+"result": "12/5",
+"proc": "12/18",
+"fee": null,
+"note": ""
+},
+{
 "kubun": "一般",
 "name": "特別奨励生・M方式",
 "apply": "12/1〜12/10",
 "exam": "12/19",
-"result": null,
-"proc": null,
-"fee": null
+"result": "12/26",
+"proc": "入学金2/22・授業料3/5",
+"fee": null,
+"note": ""
 },
 {
 "kubun": "共テ利用",
@@ -127511,44 +127590,125 @@ null
 "exam": "1/23（A）・1/24（B）",
 "result": "2/13",
 "proc": "入学金2/22・授業料3/5",
-"fee": null
+"fee": null,
+"note": ""
+},
+{
+"kubun": "一般",
+"name": "中期",
+"apply": "2/3〜2/18",
+"exam": "2/27",
+"result": "3/6",
+"proc": "3/12",
+"fee": null,
+"note": ""
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用ファイナル",
+"apply": "2/19〜3/9",
+"exam": "共テ",
+"result": "3/13",
+"proc": "3/18",
+"fee": null,
+"note": ""
 }
 ]
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
 "f": "工学部・建築学部・情報学部（情報システム・情報デザイン）",
 "admission": 300000,
-"tuition": null,
-"facility": null,
+"tuition": 940000,
+"facility": 345000,
 "practical": null,
-"other": null,
-"first_year": 1661300,
-"four_year": null
+"other": 56300,
+"first_year": 1641300,
+"four_year": null,
+"note": "学費1,585,000円＋諸費用56,300円（後援会・学生会・大学祭・保険）。2年次の学費は1,315,000円（2027年度予定）"
 },
 {
 "f": "情報学部 総合情報学科",
 "admission": 300000,
-"tuition": null,
-"facility": null,
+"tuition": 720000,
+"facility": 325000,
 "practical": null,
-"other": null,
-"first_year": 1421300,
-"four_year": null
+"other": 56300,
+"first_year": 1401300,
+"four_year": null,
+"note": "学費1,345,000円＋諸費用56,300円。2年次の学費は1,075,000円（2027年度予定）"
 }
 ]
 },
 "access": "愛知県名古屋市南区滝春町10-3",
 "careers": "自動車・機械・電機メーカー、IT・情報通信、建設・建築士など。",
-"_via": "external-ai",
+"_via": "external-ai-verified",
 "sources": [
 "https://www.daido-news.jp/admission/nyushi/",
 "https://www.daido-news.jp/admission/entrance_exam/type/heiyou/plus.html",
 "https://www.daido-it.ac.jp/life/tuition/guide/",
-"https://passnavi.obunsha.co.jp/univ/3680/difficulty/"
-]
+"https://passnavi.obunsha.co.jp/univ/3680/difficulty/",
+"https://www.daido-news.jp/admission/entrance_exam/schedule/",
+"https://www.daido-news.jp/admission/entrance_exam/tetsuzuki/",
+"https://www.daido-news.jp/admission/entrance_exam/payment",
+"https://www.daido-it.ac.jp/life/tuition/syougakukin/"
+],
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "入学時特別奨励生（第一種・第二種）",
+"kind": "減免",
+"target": "全学部",
+"amount": "第一種：授業料全額／第二種：授業料半額（入学初年度）",
+"timing": "入試時（M方式・前期・共テ利用前期の成績上位）",
+"cond": "入試で特に優秀な成績"
+},
+{
+"name": "学業優秀奨励生（2026年度以降の入学生）",
+"kind": "給付",
+"target": "全学部",
+"amount": "第一種：授業料全額／第二種：授業料半額／第三種：年12万円",
+"timing": "在学中（2〜4年次、年1回）",
+"cond": "前年度の学業成績が学科上位"
+},
+{
+"name": "入学時スポーツ特別奨学生",
+"kind": "給付",
+"target": "全学部",
+"amount": "第一種：年60万円／第二種：入学金相当",
+"timing": "入試時（クラブ推薦）",
+"cond": "高校での競技歴と学業成績が優秀"
+},
+{
+"name": "在学生スポーツ特別奨学生",
+"kind": "給付",
+"target": "全学部",
+"amount": "年22万円",
+"timing": "在学中",
+"cond": "入学後の競技成績が優秀・顧問と監督の推薦"
+},
+{
+"name": "一般貸与奨学生",
+"kind": "貸与",
+"target": "全学部",
+"amount": "月3万円（無利子）",
+"timing": "在学中",
+"cond": "経済的理由で修学困難・他団体の奨学生でないこと"
+},
+{
+"name": "緊急時貸与奨学生",
+"kind": "貸与",
+"target": "全学部",
+"amount": "授業料・施設費の年額の1/2（無利子、1学期限り）",
+"timing": "在学中（延納期間中に募集）",
+"cond": "延納許可と教育ローン申請の上で納付が困難な見込み"
+}
+],
+"note": ""
+}
 },
 "富山国際大学": {
 "faculties": [
@@ -129472,6 +129632,484 @@ null
 "https://search.keinet.ne.jp/2468/outline/expense",
 "https://search.keinet.ne.jp/2468/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/3815/difficulty/"
+]
+},
+"福知山公立大学": {
+"faculties": [
+"地域経営学部",
+"情報学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"students": "2026-11-07",
+"access": "2026-11-07",
+"kyotsu": "2026-11-07",
+"licenses": "2026-11-07",
+"careers": "2026-11-07"
+},
+"departments": [
+{
+"f": "地域経営学部",
+"d": [
+"地域経営学科"
+]
+},
+{
+"f": "情報学部",
+"d": [
+"情報学科"
+]
+}
+],
+"students": {
+"count": 885,
+"year": 2025
+},
+"access": "京都府福知山市字堀3370",
+"kyotsu": {
+"kamoku": "3教科3科目〜6教科7科目（学部・方式で異なる）",
+"kyoka": [
+3,
+4,
+5,
+6
+],
+"rl": [
+"1:1"
+],
+"rl_text": "全方式でR:L=1:1（R100:L100）",
+"note": "地域経営学部前期は6教科型・3教科型、情報学部前期は6教科型・4教科型",
+"year": "2027年度入試"
+},
+"licenses": [
+"社会調査士",
+"社会福祉主事任用資格",
+"中学校教諭一種（数学）",
+"高等学校教諭一種（数学・情報）"
+],
+"careers": "2024年度卒は地域経営学科の93.4%、情報学科の78.8%が就職。情報学科は18.8%が進学。",
+"sources": [
+"https://search.keinet.ne.jp/1597",
+"https://search.keinet.ne.jp/1597/outline/department",
+"https://search.keinet.ne.jp/1597/outline/licential",
+"https://search.keinet.ne.jp/1597/outline/admission_employment",
+"https://search.keinet.ne.jp/1597/general/exam_subject"
+]
+},
+"下関市立大学": {
+"faculties": [
+"経済学部",
+"看護学部",
+"データサイエンス学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"students": "2026-11-07",
+"founded": "2026-11-07",
+"access": "2026-11-07",
+"kyotsu": "2026-11-07",
+"licenses": "2026-11-07",
+"careers": "2026-11-07"
+},
+"departments": [
+{
+"f": "経済学部",
+"d": [
+"経済学科",
+"国際商学科",
+"公共マネジメント学科"
+]
+},
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+},
+{
+"f": "データサイエンス学部",
+"d": [
+"データサイエンス学科"
+]
+}
+],
+"students": {
+"count": 2099,
+"year": 2025
+},
+"founded": "1962年4月 開学（前身は1956年開学の下関商業短期大学）",
+"access": "山口県下関市大学町二丁目1番1号",
+"kyotsu": {
+"kamoku": "2教科2科目〜5教科5科目（学部・方式で異なる）",
+"kyoka": [
+2,
+3,
+4,
+5
+],
+"rl": [
+"7:3"
+],
+"rl_text": "全方式でR:L=7:3（R140:L60）",
+"note": "経済学部前期はA方式（4教科）・B方式（2〜3教科）",
+"year": "2027年度入試"
+},
+"licenses": [
+"中学校教諭一種（社会・数学）",
+"高等学校教諭一種（地理歴史・公民・数学・情報）",
+"養護教諭一種・二種",
+"看護師国家試験受験資格",
+"保健師国家試験受験資格",
+"社会調査士"
+],
+"careers": "2024年度卒の経済学部は各学科とも就職が93〜95%。",
+"sources": [
+"https://search.keinet.ne.jp/1665",
+"https://search.keinet.ne.jp/1665/outline/department",
+"https://search.keinet.ne.jp/1665/outline/licential",
+"https://search.keinet.ne.jp/1665/outline/admission_employment",
+"https://search.keinet.ne.jp/1665/general/exam_subject"
+]
+},
+"公立鳥取環境大学": {
+"faculties": [
+"経営学部",
+"環境学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"students": "2026-11-07",
+"founded": "2026-11-07",
+"access": "2026-11-07",
+"kyotsu": "2026-11-07",
+"licenses": "2026-11-07",
+"careers": "2026-11-07"
+},
+"departments": [
+{
+"f": "経営学部",
+"d": [
+"経営学科"
+]
+},
+{
+"f": "環境学部",
+"d": [
+"環境学科"
+]
+}
+],
+"students": {
+"count": 1326,
+"year": 2025
+},
+"founded": "2001年4月 鳥取環境大学として開学（2015年に公立鳥取環境大学へ改称）",
+"access": "鳥取県鳥取市若葉台北一丁目1番1号",
+"kyotsu": {
+"kamoku": "2〜5教科3〜6科目（学部・方式で異なる）",
+"kyoka": [
+2,
+3,
+4,
+5
+],
+"rl": [
+"1:1"
+],
+"rl_text": "全方式でR:L=1:1（R100:L100）",
+"note": "",
+"year": "2027年度入試"
+},
+"licenses": [
+"中学校教諭一種（理科）",
+"高等学校教諭一種（理科）"
+],
+"careers": "2024年度卒は経営学科の93.9%、環境学科の86.7%が就職。",
+"sources": [
+"https://search.keinet.ne.jp/1646",
+"https://search.keinet.ne.jp/1646/outline/department",
+"https://search.keinet.ne.jp/1646/outline/licential",
+"https://search.keinet.ne.jp/1646/outline/admission_employment",
+"https://search.keinet.ne.jp/1646/general/exam_subject"
+]
+},
+"叡啓大学": {
+"faculties": [
+"ソーシャルシステムデザイン学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"students": "2026-11-07",
+"founded": "2026-11-07",
+"access": "2026-11-07",
+"kyotsu": "2026-11-07",
+"careers": "2026-11-07"
+},
+"departments": [
+{
+"f": "ソーシャルシステムデザイン学部",
+"d": [
+"ソーシャルシステムデザイン学科"
+]
+}
+],
+"students": {
+"count": 384,
+"year": 2025
+},
+"founded": "2021年 開学",
+"access": "広島県広島市中区幟町1-5",
+"kyotsu": {
+"kamoku": "4〜5教科5科目",
+"kyoka": [
+4,
+5
+],
+"rl": [
+"1:1"
+],
+"rl_text": "R:L=1:1（R100:L100）",
+"note": "共通テストは1次選考のみに利用",
+"year": "2027年度入試"
+},
+"careers": "2024年度卒（58人）の93.2%が就職、3.4%が進学。",
+"sources": [
+"https://search.keinet.ne.jp/1660",
+"https://search.keinet.ne.jp/1660/outline/department",
+"https://search.keinet.ne.jp/1660/outline/licential",
+"https://search.keinet.ne.jp/1660/outline/admission_employment",
+"https://search.keinet.ne.jp/1660/general/exam_subject"
+]
+},
+"周南公立大学": {
+"faculties": [
+"経済経営学部",
+"人間健康科学部",
+"情報科学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"students": "2026-11-07",
+"founded": "2026-11-07",
+"access": "2026-11-07",
+"kyotsu": "2026-11-07",
+"licenses": "2026-11-07",
+"careers": "2026-11-07"
+},
+"departments": [
+{
+"f": "経済経営学部",
+"d": [
+"経済経営学科"
+]
+},
+{
+"f": "人間健康科学部",
+"d": [
+"スポーツ健康科学科",
+"看護学科",
+"福祉学科"
+]
+},
+{
+"f": "情報科学部",
+"d": [
+"情報科学科"
+]
+}
+],
+"students": {
+"count": 1740,
+"year": 2025
+},
+"founded": "2022年4月 開学（前身は1971年開学の徳山大学）",
+"access": "山口県周南市学園台843-4-2",
+"kyotsu": {
+"kamoku": "3教科3科目〜4教科5科目（学部・方式で異なる）",
+"kyoka": [
+3,
+4
+],
+"rl": [
+"4:1"
+],
+"rl_text": "全方式でR:L=4:1（R160:L40）",
+"note": "福祉学科は英語が選択",
+"year": "2027年度入試"
+},
+"licenses": [
+"小学校教諭二種",
+"中学校教諭一種（社会・保健体育）",
+"高等学校教諭一種（地理歴史・公民・商業・保健体育・情報）",
+"健康運動実践指導者受験資格",
+"養護教諭二種",
+"看護師国家試験受験資格",
+"保健師国家試験受験資格",
+"保育士",
+"社会福祉士国家試験受験資格"
+],
+"careers": "2024年度卒（旧経済学部・福祉情報学部）は85〜91%が就職。",
+"sources": [
+"https://search.keinet.ne.jp/1666",
+"https://search.keinet.ne.jp/1666/outline/department",
+"https://search.keinet.ne.jp/1666/outline/licential",
+"https://search.keinet.ne.jp/1666/outline/admission_employment",
+"https://search.keinet.ne.jp/1666/general/exam_subject"
+]
+},
+"尾道市立大学": {
+"faculties": [
+"芸術文化学部",
+"経済情報学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"students": "2026-11-07",
+"founded": "2026-11-07",
+"access": "2026-11-07",
+"kyotsu": "2026-11-07",
+"licenses": "2026-11-07",
+"careers": "2026-11-07"
+},
+"departments": [
+{
+"f": "芸術文化学部",
+"d": [
+"日本文学科",
+"美術学科"
+]
+},
+{
+"f": "経済情報学部",
+"d": [
+"経済情報学科"
+]
+}
+],
+"students": {
+"count": 1375,
+"year": 2025
+},
+"founded": "2001年4月 尾道大学として開学（前身は1946年の尾道市立女子専門学校。2012年に尾道市立大学へ改称）",
+"access": "広島県尾道市久山田町1600番地2",
+"kyotsu": {
+"kamoku": "2〜3教科3科目",
+"kyoka": [
+2,
+3
+],
+"rl": [
+"4:1"
+],
+"rl_text": "全方式でR:L=4:1（R160:L40、または R80:L20）",
+"note": "",
+"year": "2027年度入試"
+},
+"licenses": [
+"中学校教諭一種（国語・美術）",
+"高等学校教諭一種（国語・美術・情報・商業）",
+"学芸員"
+],
+"careers": "2024年度卒は経済情報学科の91.7%、日本文学科の83.9%が就職。美術学科は20.8%が進学。",
+"sources": [
+"https://search.keinet.ne.jp/1653",
+"https://search.keinet.ne.jp/1653/outline/department",
+"https://search.keinet.ne.jp/1653/outline/licential",
+"https://search.keinet.ne.jp/1653/outline/admission_employment",
+"https://search.keinet.ne.jp/1653/general/exam_subject"
+]
+},
+"山口県立大学": {
+"faculties": [
+"国際文化学部",
+"社会福祉学部",
+"看護栄養学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"students": "2026-11-07",
+"founded": "2026-11-07",
+"access": "2026-11-07",
+"kyotsu": "2026-11-07",
+"licenses": "2026-11-07",
+"careers": "2026-11-07"
+},
+"departments": [
+{
+"f": "国際文化学部",
+"d": [
+"国際文化学科",
+"文化創造学科",
+"情報社会学科"
+]
+},
+{
+"f": "社会福祉学部",
+"d": [
+"社会福祉学科"
+]
+},
+{
+"f": "看護栄養学部",
+"d": [
+"看護学科",
+"栄養学科"
+]
+}
+],
+"students": {
+"count": 1339,
+"year": 2025
+},
+"founded": "1975年 山口女子大学として開学（1996年に山口県立大学へ改称し共学化。起源は1941年の山口県立女子専門学校）",
+"access": "山口県山口市桜畠6-2-1",
+"kyotsu": {
+"kamoku": "3教科3科目〜5教科5科目（学部・方式で異なる）",
+"kyoka": [
+3,
+4,
+5
+],
+"rl": [
+"5:2",
+"4:1",
+"1:1"
+],
+"rl_text": "国際文化学科R250:L100、文化創造・情報社会学科R200:L50、社会福祉・看護栄養学部R100:L100",
+"note": "",
+"year": "2027年度入試"
+},
+"licenses": [
+"中学校教諭一種（英語・国語）",
+"高等学校教諭一種（英語・国語・情報・福祉・家庭）",
+"特別支援学校教諭一種",
+"養護教諭一種・二種",
+"栄養教諭一種",
+"学校図書館司書教諭",
+"司書",
+"学芸員",
+"社会福祉士国家試験受験資格",
+"精神保健福祉士国家試験受験資格",
+"看護師国家試験受験資格",
+"保健師国家試験受験資格",
+"管理栄養士国家試験受験資格",
+"栄養士",
+"食品衛生監視員任用資格"
+],
+"careers": "2024年度卒は各学科とも86〜98%が就職（栄養学科97.6%、社会福祉学科92.9%）。",
+"sources": [
+"https://search.keinet.ne.jp/1663",
+"https://search.keinet.ne.jp/1663/outline/department",
+"https://search.keinet.ne.jp/1663/outline/licential",
+"https://search.keinet.ne.jp/1663/outline/admission_employment",
+"https://search.keinet.ne.jp/1663/general/exam_subject"
 ]
 }
 }
