@@ -118,6 +118,7 @@ body.wide main,body.wide header{max-width:1320px}
 @keyframes ntscroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 .mlink{color:inherit;text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--accent) 45%,transparent);text-underline-offset:2px}.mlink:hover{color:var(--accent)}.mli{display:inline-block;margin-left:4px;font-size:10px;font-weight:700;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:0 3px;vertical-align:1px;text-decoration:none}
 .ftabs{display:flex;gap:4px;overflow-x:auto;padding:2px 0 6px;margin:4px 0 6px;border-bottom:1px solid var(--line);scrollbar-width:thin}.ftab{flex:0 0 auto;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:4px 12px;font:inherit;font-size:12.5px;cursor:pointer;white-space:nowrap}.ftab.on{background:var(--accent);border-color:var(--accent);color:#fff}.fnote{font-size:12px;color:var(--muted);margin:2px 0 6px}
+.fchips{display:flex;flex-wrap:wrap;gap:3px 5px;margin-top:3px}.fc{font-size:10.5px;border-radius:999px;padding:0 7px;border:1px solid}.fc.in{color:#2a7f62;border-color:#2a7f62}.fc.ex{color:#b42318;border-color:#b42318}.fc.unk{color:var(--muted);border-color:var(--line)}.fwarn{font-size:11.5px;color:#7a5a00;background:color-mix(in srgb,#c99700 10%,var(--panel));border-radius:8px;padding:5px 9px;margin:4px 0 6px}.xt.fees td{white-space:nowrap}
 .kyf{color:var(--ink) !important}.kyf b{color:var(--accent);font-weight:600}.kypart{display:inline-block;margin-left:6px;font-size:10.5px;font-weight:700;color:#9a6b00;border:1px solid #c99700;border-radius:999px;padding:0 6px}
 .sbar select#mby{flex:0 0 auto;max-width:9.5em;font-family:inherit;font-size:13px;border:1px solid var(--line);border-radius:8px;padding:7px 6px;background:var(--panel);color:var(--ink)}
 .skind{display:inline-block;margin-left:6px;font-size:10.5px;font-weight:700;border-radius:999px;padding:0 6px;border:1px solid}.skind.g{color:#2a7f62;border-color:#2a7f62}.skind.l{color:#6b7280;border-color:#9ca3af}
@@ -452,7 +453,7 @@ function infoBlock(name){
   if(f.kyotsu&&f.kyotsu.kamoku) rows.push(["共通テスト",kyotsuText(f)+(f.kyotsu.note?'<div class="sub2">'+esc(f.kyotsu.note)+'</div>':'')]);
   if(d && (d.hensachi||d.kyotei)) rows.push(["難易度",[d.hensachi?"偏差値 "+esc(d.hensachi):"",d.kyotei?"共テ "+esc(d.kyotei):""].filter(Boolean).join("／")]);
   const t=f.tuition;
-  if(t && t.amount!=null) rows.push(["初年度納付金", "<b>"+yen(t.amount)+"</b>"+(t.label?'<span class="sub2">（'+esc(t.label)+'）</span>':"")]);
+  if(t && t.amount!=null) rows.push(["初年度納付金（目安）", "<b>"+yen(t.amount)+"</b>"+(t.label?'<span class="sub2">（'+esc(t.label)+'）</span>':"")]);
   const st=f.students;
   const scale=[st&&st.count?("学生 約"+Number(st.count).toLocaleString("ja-JP")+"人"+(st.note?"（"+esc(st.note)+"）":"")):"", f.founded?esc(f.founded):""].filter(Boolean).join("／");
   if(scale) rows.push(["規模・創立",scale]);
@@ -780,15 +781,31 @@ function scholarBlock(f){
     (ts.length>1?'<div class="sfilt2"><select class="subj-f"><option value="">すべての学部</option>'+ts.map(t=>'<option>'+esc(t)+'</option>').join("")+'</select><span class="sub2">「全学部」の制度はどの学部でも使えます</span></div>':'')+
     '<div class="tblw"><table class="xt subj"><thead><tr><th>対象</th><th>制度</th><th>金額・内容</th><th>申込の時期</th><th>主な条件</th></tr></thead><tbody>'+body+'</tbody></table></div>'+(S.note?'<div class="enote">※'+esc(S.note)+'</div>':'')+'</details>';
 }
+// 学費に何が含まれているかを、出典の書き方から読み取って示す（大学ごとに含める費用が違うため）
+const FEE_ITEMS=[["入学金",/入学金/],["授業料",/授業料/],["施設・教育充実費",/施設|設備|教育充実|教育環境|維持費|充実費/],["実験実習費",/実習|実験/],["諸会費など",/諸会費|諸経費|会費|委託徴収|後援会|同窓会|保険|情報教育費/]];
+function feeIncl(t){ t=String(t||""); const exc=[], inc=[];
+  const ex=(t.match(/[（(]([^）)]*?)(含まず|含まない|除く|別途)[^）)]*[）)]/g)||[]).join(" ")+" "+(t.match(/([^、。（(]*?)(は含まず|は含まない|は別途|を除く)/g)||[]).join(" ");
+  const body=t.replace(/[（(][^）)]*?(含まず|含まない|除く|別途)[^）)]*[）)]/g,"");
+  for(const [k,re] of FEE_ITEMS){ if(re.test(ex)) exc.push(k); else if(re.test(body)) inc.push(k); }
+  return {inc,exc,unk:FEE_ITEMS.map(z=>z[0]).filter(k=>!inc.includes(k)&&!exc.includes(k))}; }
+function feeChips(t){ const r=feeIncl(t); if(!r.inc.length&&!r.exc.length) return '<div class="fchips"><span class="fc unk">内訳の記載なし（何が含まれるか未確認）</span></div>';
+  return '<div class="fchips">'+r.inc.map(k=>'<span class="fc in">✓ '+k+'</span>').join("")+r.exc.map(k=>'<span class="fc ex">✕ '+k+'（含まない）</span>').join("")+r.unk.map(k=>'<span class="fc unk">? '+k+'</span>').join("")+'</div>'; }
+function feeRowsBlock(M){ const R=(M&&M.rows)||[]; if(!R.length) return "";
+  const c=v=>v==null||v===""?'<span class="na2">—</span>':(typeof v==="number"?yen0(v):esc(v));
+  return '<div class="tblw"><table class="xt fees"><thead><tr><th>学部・学科</th><th>入学金</th><th>授業料（年）</th><th>施設・教育充実費（年）</th><th>実習費など（年）</th><th>初年度合計</th><th>4年間（目安）</th></tr></thead><tbody>'+
+    R.map(r=>'<tr><th>'+esc(r.f||"全学部")+(r.note?'<div class="sub2">'+esc(r.note)+'</div>':'')+'</th><td>'+c(r.admission)+'</td><td>'+c(r.tuition)+'</td><td>'+c(r.facility)+'</td><td>'+c(r.practical!=null?r.practical:r.other)+'</td><td><b>'+c(r.first_year)+'</b></td><td>'+c(r.four_year)+'</td></tr>').join("")+'</tbody></table></div>'; }
 function moneyBlock(f){
   const M=f.money; if(!M) return "";
   const rows=[];
-  if(M.total4!=null) rows.push(["卒業までの学費",'約'+man(M.total4)+(M.total4_note?'<span class="sub2">（'+esc(M.total4_note)+'）</span>':'')]);
+  const T=f.tuition;
+  if(T&&T.amount!=null) rows.push(["初年度の目安",'<b>約'+man(T.amount)+'</b>'+(T.label?'<span class="sub2">（'+esc(T.label)+'）</span>':'')+feeChips(T.label)]);
+  if(M.total4!=null) rows.push(["卒業までの目安",'約'+man(M.total4)+(M.total4_note?'<span class="sub2">（'+esc(M.total4_note)+'）</span>':'')+feeChips(M.total4_note)]);
   if(M.admission!=null) rows.push(["入学金",yen0(M.admission)]);
-  if(M.annual!=null) rows.push(["年間の授業料等",yen0(M.annual)]);
+  const an=((M.note||"").match(/annual[^。]*/)||[""])[0];
+  if(M.annual!=null) rows.push(["年間の授業料等",yen0(M.annual)+(an?feeChips(an.replace(/^annual/,"")):"")]);
   rows.push(["一人暮らし",'生活費の目安 4年で約'+man(LIVING.month*12*4)+'<span class="sub2">（'+esc(LIVING.label)+'）</span>']);
   if((M.scholarships||[]).length&&!((f.scholar||{}).rows||[]).length) rows.push(["大学独自の奨学金",'<ul class="mini">'+M.scholarships.map(x=>'<li><b>'+esc(x.name||"")+'</b> '+esc(x.what||"")+'</li>').join("")+'</ul>']);
-  return '<details class="xb" open><summary>費用と奨学金'+(M.year?'<span class="sub2">'+esc(M.year)+'</span>':'')+'</summary><dl class="mrows">'+rows.map(([k,v])=>'<dt>'+k+'</dt><dd>'+v+'</dd>').join("")+'</dl>'+(M.note?'<div class="enote">※'+esc(M.note)+'</div>':'')+'</details>';
+  return '<details class="xb" open><summary>費用と奨学金（目安）'+(M.year?'<span class="sub2">'+esc(M.year)+'</span>':'')+'</summary><div class="fwarn">大学によって、学費に施設・教育充実費や実習費、諸会費を含めたり含めなかったりします。✓は含む、✕は含まない、?は出典に書かれていない項目です。比べるときは同じ項目どうしで見てください。</div>'+feeRowsBlock(M)+'<dl class="mrows">'+rows.map(([k,v])=>'<dt>'+k+'</dt><dd>'+v+'</dd>').join("")+'</dl>'+(M.note?'<div class="enote">※'+esc(M.note)+'</div>':'')+'</details>';
 }
 // 誤りの報告：db の reports に保存し、自動収集の最初に再確認する
 function reportBox(name){
@@ -1527,6 +1544,7 @@ function facRecord(name,fac){
   if(g.eng&&g.eng.rows) g.eng.rows=g.eng.rows.filter(r=>keep([r.name,r.faculties,r.note].join(" ")));
   if(g.licenses) g.licenses=g.licenses.filter(keep);
   if(g.research) g.research=g.research.filter(keep);
+  if(g.money&&g.money.rows){ const mine=g.money.rows.filter(r=>m(r.f||'')==='mine'); g.money.rows=mine.length?mine:g.money.rows.filter(r=>m(r.f||'')==='common'); }
   if(g.careers) g.careers=String(g.careers).split(/(?<=。)/).filter(keep).join("");
   if(g.scholar&&g.scholar.rows) g.scholar.rows=g.scholar.rows.filter(r=>/全学部/.test(r.target||"全学部")||keep(r.target||""));
   return g;

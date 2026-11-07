@@ -67,6 +67,7 @@ Searchuniv に全国の大学を少しずつ追加し、既存校の空欄（研
 - **学部・学科（info.departments）**：`tools/DEPT_SPEC.md` の形で、学部ごとの学科・課程と、その下の専攻・コース・言語別まで Kei-Net `/outline/department` から集める（batch のキーは departments_full）。enrich の need に departments があるときも同じ手順。
 - **学部別難易度・入試日程・費用（info.fdiff / info.schedule / info.money）**：`tools/EXTRA_SPEC.md` の形。新規追加の回では集めず、追加した学校を enrich に `{name, keinet, need:["extra","partners"]}` で積んでおき、enrich の回で集める（need に extra があるとき）。
 - **英語外部試験（info.eng）**：`tools/ENG_SPEC.md` の形。enrich の need に eng があるとき集める。旺文社パスナビの `https://passnavi.obunsha.co.jp/univ/{passnavi}/eiken/` が1回でほぼ全学部取れて最も効率がよい（enrich 項目に passnavi があればそのIDを使う。無ければ WebSearch「大学名 英検 利用入試 パスナビ」）。Kei-Net の科目ページは外部試験の詳細がポップアップで読めない。記載が無いときは rows を空にし summary に「記載なし（利用しないとは限らない）」と書く。
+- **学部別の学費の内訳（need に fees）**：`tools/EXTRA_SPEC.md` の「学部別の学費の内訳（money.rows）」の形で、学部・学科ごとに入学金・授業料・施設費・実習費・諸会費・初年度合計を集める（含む項目が大学で違うため、0 と「記載なし（null）」を区別）。大学公式を最優先。`money_replace` に既存項目＋rows を入れる。
 - **奨学金・学費減免（need に scholar）**：`tools/SCHOLAR_SPEC.md` の形で、大学独自の奨学金・特待生・減免を制度ごとに、対象の学部・学科・金額・申込の時期・条件まで集める。大学公式を最優先。既存があれば `scholar_replace`。
 - **方式ごとの公式リンク（need に method_urls）**：data/info.json のその校の methods.list（と schedule.rows・subjects.rows）の各行に、大学公式の募集要項PDF・入試要項ページの `url` を足す。行の中身は変えず、url だけを足した全行を `methods_replace`（など）に入れる。公式で確認できない行は url を付けない。
 - **学部・方式ごとの入試科目（need に subjects）**：`tools/SUBJECT_SPEC.md` の形で、学部×方式ごとの教科数・科目・配点・共テ・英語外部試験を集める（私立の多様な方式を網羅する）。大学公式を最優先。既存があれば `subjects_replace`。1回あたり2校まで（行数が多いため）。
