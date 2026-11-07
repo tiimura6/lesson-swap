@@ -2710,41 +2710,6 @@
 "cat": "private"
 },
 {
-"name": "千里金蘭大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.kinran.ac.jp/",
-"cat": "private"
-},
-{
-"name": "同志社女子大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "https://www.dwc.doshisha.ac.jp/",
-"cat": "private"
-},
-{
-"name": "和歌山リハビリテーション専門職大学",
-"type": "私立",
-"pref": "和歌山県",
-"hp": "https://wakayama.kyowa.ac.jp/",
-"cat": "senmon"
-},
-{
-"name": "和歌山信愛大学",
-"type": "私立",
-"pref": "和歌山県",
-"hp": "https://www.wsu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "四天王寺大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.shitennoji.ac.jp/ibu/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -3507,6 +3472,36 @@
 "長野県立大学": 1
 },
 "enrich": [
+{
+"name": "千里金蘭大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "同志社女子大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "和歌山リハビリテーション専門職大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "和歌山信愛大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "四天王寺大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "京都薬科大学",
 "need": [
@@ -20443,6 +20438,126 @@
 },
 {
 "name": "兵庫大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "千里金蘭大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "千里金蘭大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "千里金蘭大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "千里金蘭大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "同志社女子大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "同志社女子大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "同志社女子大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "同志社女子大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "和歌山リハビリテーション専門職大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "和歌山リハビリテーション専門職大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "和歌山リハビリテーション専門職大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "和歌山リハビリテーション専門職大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "和歌山信愛大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "和歌山信愛大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "和歌山信愛大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "和歌山信愛大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "四天王寺大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "四天王寺大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "四天王寺大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "四天王寺大学",
 "need": [
 "scholar"
 ]

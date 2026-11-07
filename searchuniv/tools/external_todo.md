@@ -480,7 +480,7 @@
 - びわこリハビリテーション専門職大学（私立・滋賀県）公式サイト：https://aino.ac.jp/professional/
 - びわこ学院大学（私立・滋賀県）公式サイト：https://www.biwakogakuin.ac.jp/
 - びわこ成蹊スポーツ大学（私立・滋賀県）公式サイト：https://biwako-seikei.jp/
-- 京都ノートルダム女子大学（私立・京都府）公式サイト：https://www.notredame.ac.jp/
+- 京都ノートルダム女子大学（私立・京都府）公式サイト：https://www.notredame.ac.jp/　※2026年度から募集停止・除外済み（頼まない）
 - 京都先端科学大学（私立・京都府）公式サイト：https://www.kuas.ac.jp/
 - 京都光華女子大学（私立・京都府）公式サイト：https://www.koka.ac.jp/
 
@@ -497,7 +497,7 @@
 - 京都芸術大学（私立・京都府）公式サイト：https://www.kyoto-art.ac.jp/
 
 ## 依頼42
-- 京都華頂大学（私立・京都府）公式サイト：https://www.kyotokacho-u.ac.jp/
+- 京都華頂大学（私立・京都府）公式サイト：https://www.kyotokacho-u.ac.jp/　※2027年度から募集停止・除外済み（頼まない）
 - 京都薬科大学（私立・京都府）公式サイト：https://www.kyoto-phu.ac.jp/
 - 佛教大学（私立・京都府）公式サイト：https://www.bukkyo-u.ac.jp/
 - 兵庫医科大学（私立・兵庫県）公式サイト：https://www.hyo-med.ac.jp/
@@ -571,7 +571,7 @@
 ## 依頼48
 - 東大阪大学（私立・大阪府）公式サイト：https://www.higashiosaka.ac.jp/
 - 桃山学院大学（私立・大阪府）公式サイト：https://www.andrew.ac.jp/
-- 桃山学院教育大学（私立・大阪府）公式サイト：https://www.andrew-edu.ac.jp/
+- 桃山学院教育大学（私立・大阪府）公式サイト：https://www.andrew-edu.ac.jp/　※桃山学院大学に統合・除外済み（頼まない）
 - 梅花女子大学（私立・大阪府）公式サイト：https://www.baika.ac.jp/
 - 森ノ宮医療大学（私立・大阪府）公式サイト：https://www.morinomiya-u.ac.jp/
 - 武庫川女子大学（私立・兵庫県）公式サイト：https://www.mukogawa-u.ac.jp/
@@ -581,7 +581,7 @@
 - 甲南女子大学（私立・兵庫県）公式サイト：https://www.konan-wu.ac.jp/
 
 ## 依頼49
-- 甲子園大学（私立・兵庫県）公式サイト：https://www.koshien.ac.jp/
+- 甲子園大学（私立・兵庫県）公式サイト：https://www.koshien.ac.jp/　※2027年度から募集停止・除外済み（頼まない）
 - 畿央大学（私立・奈良県）公式サイト：https://www.kio.ac.jp/
 - 皇學館大学（私立・三重県）公式サイト：https://www.kogakkan-u.ac.jp/
 - 相愛大学（私立・大阪府）公式サイト：https://www.soai.ac.jp/
@@ -594,7 +594,7 @@
 
 ## 依頼50
 - 神戸松蔭女子学院大学（私立・兵庫県）公式サイト：https://www.shoin.ac.jp/
-- 神戸海星女子学院大学（私立・兵庫県）公式サイト：https://www.kaisei.ac.jp/
+- 神戸海星女子学院大学（私立・兵庫県）公式サイト：https://www.kaisei.ac.jp/　※募集停止・除外済み（頼まない）
 - 神戸芸術工科大学（私立・兵庫県）公式サイト：https://www.kobe-du.ac.jp/
 - 神戸薬科大学（私立・兵庫県）公式サイト：https://www.kobepharma-u.ac.jp/
 - 神戸親和大学（私立・兵庫県）公式サイト：https://www.kobe-shinwa.ac.jp/
