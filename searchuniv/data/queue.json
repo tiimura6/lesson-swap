@@ -2038,41 +2038,6 @@
 "cat": "private"
 },
 {
-"name": "名古屋産業大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.nagoya-su.ac.jp/",
-"cat": "private"
-},
-{
-"name": "名古屋経済大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.nagoya-ku.ac.jp/",
-"cat": "private"
-},
-{
-"name": "名古屋芸術大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.nua.ac.jp/",
-"cat": "private"
-},
-{
-"name": "名古屋造形大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.nzu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "名古屋音楽大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.meion.ac.jp/",
-"cat": "private"
-},
-{
 "name": "名城大学",
 "type": "私立",
 "pref": "愛知県",
@@ -3012,6 +2977,36 @@
 "高岡法科大学": 1
 },
 "enrich": [
+{
+"name": "名古屋産業大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "名古屋経済大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "名古屋芸術大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "名古屋造形大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "名古屋音楽大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "岡崎女子大学",
 "need": [
@@ -22369,6 +22364,126 @@
 },
 {
 "name": "愛知医科大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "名古屋産業大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "名古屋産業大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "名古屋産業大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "名古屋産業大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "名古屋経済大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "名古屋経済大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "名古屋経済大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "名古屋経済大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "名古屋芸術大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "名古屋芸術大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "名古屋芸術大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "名古屋芸術大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "名古屋造形大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "名古屋造形大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "名古屋造形大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "名古屋造形大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "名古屋音楽大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "名古屋音楽大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "名古屋音楽大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "名古屋音楽大学",
 "need": [
 "scholar"
 ]
