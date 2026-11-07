@@ -71,6 +71,14 @@ def main(path):
             for row in ((info.get(k) or {}).get(z) or []):
                 if isinstance(row, dict) and isinstance(row.get("name"), str) and "※" in row["name"]:
                     row['name'] = re.sub(r'\s*※\s*(.+)$', r'（\1）', row['name'])
+        # 学費：内訳の合計が初年度の額と合わない行は、0 を「不明（null）」に直す（抜けている費目がある）
+        for row in ((info.get('money') or {}).get('rows') or []):
+            if isinstance(row, dict) and isinstance(row.get('first_year'), (int, float)):
+                ks = ('admission', 'tuition', 'facility', 'practical', 'other')
+                if all(isinstance(row.get(k), (int, float)) for k in ks) and sum(row[k] for k in ks) != row['first_year']:
+                    for k in ks:
+                        if row[k] == 0: row[k] = None
+                    notes.append(f"{n}: 学費「{row.get('f')}」は内訳の合計が初年度の額と合わない")
         # 中身が空の入れ物（rows/list/events が空）は落とす
         for k in list(info):
             v = info[k]
