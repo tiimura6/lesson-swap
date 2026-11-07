@@ -2857,41 +2857,6 @@
 "cat": "private"
 },
 {
-"name": "大阪大谷大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.osaka-ohtani.ac.jp/",
-"cat": "private"
-},
-{
-"name": "大阪女学院大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.wilmina.ac.jp/oj/",
-"cat": "private"
-},
-{
-"name": "大阪学院大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.osaka-gu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "大阪工業大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.oit.ac.jp/",
-"cat": "private"
-},
-{
-"name": "大阪成蹊大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://univ.osaka-seikei.jp/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -3654,6 +3619,36 @@
 "長野県立大学": 1
 },
 "enrich": [
+{
+"name": "大阪大谷大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "大阪女学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "大阪学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "大阪工業大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "大阪成蹊大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "大阪信愛学院大学",
 "need": [
@@ -20020,6 +20015,126 @@
 },
 {
 "name": "大阪国際工科専門職大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大阪大谷大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大阪大谷大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪大谷大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪大谷大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大阪女学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大阪女学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪女学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪女学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大阪学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大阪学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大阪工業大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大阪工業大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪工業大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪工業大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大阪成蹊大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大阪成蹊大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪成蹊大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪成蹊大学",
 "need": [
 "scholar"
 ]
