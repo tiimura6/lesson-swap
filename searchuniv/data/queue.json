@@ -1849,41 +1849,6 @@
 "cat": "senmon"
 },
 {
-"name": "一宮研伸大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.ikc.ac.jp/",
-"cat": "private"
-},
-{
-"name": "中京大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.chukyo-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "中京学院大学",
-"type": "私立",
-"pref": "岐阜県",
-"hp": "https://www.chukyogakuin-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "中部大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.chubu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "中部学院大学",
-"type": "私立",
-"pref": "岐阜県",
-"hp": "https://www.chubu-gu.ac.jp/",
-"cat": "private"
-},
-{
 "name": "人間環境大学",
 "type": "私立",
 "pref": "愛知県",
@@ -2859,6 +2824,36 @@
 "名城大学": 1
 },
 "enrich": [
+{
+"name": "一宮研伸大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "中京大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "中京学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "中部大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "中部学院大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "名古屋葵大学",
 "need": [
@@ -22838,6 +22833,126 @@
 "name": "名城大学",
 "need": [
 "verify"
+]
+},
+{
+"name": "一宮研伸大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "一宮研伸大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "一宮研伸大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "一宮研伸大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "中京大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "中京大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "中京大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "中京大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "中京学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "中京学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "中京学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "中京学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "中部大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "中部大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "中部大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "中部大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "中部学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "中部学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "中部学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "中部学院大学",
+"need": [
+"scholar"
 ]
 }
 ],

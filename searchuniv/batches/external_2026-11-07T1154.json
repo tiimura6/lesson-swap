@@ -1,0 +1,914 @@
+[
+ {
+  "name": "一宮研伸大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "愛知県一宮市",
+  "pref_name": "愛知県",
+  "city": "一宮市",
+  "hp": "https://www.ikc.ac.jp/",
+  "reading": "いちのみやけんしんだいがく",
+  "features": [
+   "看護学部看護学科を擁し、看護師・保健師を養成する看護単科大学。",
+   "一般選抜は2/6と3/6の2日程を実施し、大学入学共通テスト利用選抜（1期・2期）も用意。",
+   "初年度納入金は175万円（入学金25万円・授業料70万円・施設教育充実費等40万円・実習費40万円）。"
+  ],
+  "memo": "偏差値はBF〜35.0、共テ得点率は38%（河合塾Kei-Net・パスナビ）。",
+  "info": {
+   "faculties": [
+    "看護学部"
+   ],
+   "departments": [
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜35.0",
+    "kyotei": "38%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "大学入学共通テスト利用選抜（1期・2期）を実施",
+    "kyoka": [
+     null,
+     null
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（1期・2期）",
+      "kyotsu": "課さない",
+      "niji": "独自試験",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.ikc.ac.jp/exam/calendar/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（1期・2期）",
+      "kyotsu": "指定教科・科目",
+      "niji": null,
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.ikc.ac.jp/exam/calendar/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 1期",
+      "apply": "1/6〜1/28",
+      "exam": "2/6",
+      "result": "2/12",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 2期",
+      "apply": "2/1〜3/1",
+      "exam": "3/6",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜",
+      "apply": "1/6〜1/28",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "看護学部 看護学科",
+      "admission": 250000,
+      "tuition": 700000,
+      "facility": 400000,
+      "practical": 400000,
+      "other": 0,
+      "first_year": 1750000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "愛知県一宮市常願通5-4-1",
+   "careers": "看護師、保健師として医療機関・保健所など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.ikc.ac.jp/exam/calendar/",
+    "https://telemail.jp/shingaku/university/10001852/examination/general",
+    "https://search.keinet.ne.jp/2430/outline/expense",
+    "https://search.keinet.ne.jp/2430/general/border_rate",
+    "https://passnavi.obunsha.co.jp/univ/3656/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.ikc.ac.jp/exam/calendar/",
+   "https://telemail.jp/shingaku/university/10001852/examination/general",
+   "https://search.keinet.ne.jp/2430/outline/expense",
+   "https://search.keinet.ne.jp/2430/general/border_rate",
+   "https://passnavi.obunsha.co.jp/univ/3656/difficulty/"
+  ]
+ },
+ {
+  "name": "中京大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "愛知県名古屋市昭和区",
+  "pref_name": "愛知県",
+  "city": "名古屋市昭和区",
+  "hp": "https://www.chukyo-u.ac.jp/",
+  "reading": "ちゅうきょうだいがく",
+  "features": [
+   "文・国際・心理・法・総合政策・経済・経営・現代社会・工・スポーツ科学の10学部を擁する総合大学。",
+   "一般選抜は前期A方式、全問マークシートM方式（2/7・2/8）、共通テスト利用方式（前期・後期）を実施。",
+   "名古屋キャンパス（八事）と豊田キャンパスの2拠点を展開。"
+  ],
+  "memo": "偏差値は42.5〜57.5、共テ得点率は58%〜81%（河合塾Kei-Net・パスナビ）。",
+  "info": {
+   "faculties": [
+    "文学部",
+    "国際学部",
+    "心理学部",
+    "法学部",
+    "総合政策学部",
+    "経済学部",
+    "経営学部",
+    "現代社会学部",
+    "工学部",
+    "スポーツ科学部"
+   ],
+   "departments": [
+    {
+     "f": "文学部",
+     "d": [
+      "日本文学科",
+      "歴史文化学科",
+      "言語表現学科"
+     ]
+    },
+    {
+     "f": "国際学部",
+     "d": [
+      "国際学科",
+      "言語文化学科"
+     ]
+    },
+    {
+     "f": "心理学部",
+     "d": [
+      "心理学科"
+     ]
+    },
+    {
+     "f": "法学部",
+     "d": [
+      "法律学科"
+     ]
+    },
+    {
+     "f": "総合政策学部",
+     "d": [
+      "総合政策学科"
+     ]
+    },
+    {
+     "f": "経済学部",
+     "d": [
+      "経済学科"
+     ]
+    },
+    {
+     "f": "経営学部",
+     "d": [
+      "経営学科"
+     ]
+    },
+    {
+     "f": "現代社会学部",
+     "d": [
+      "現代社会学科",
+      "コミュニティ学科"
+     ]
+    },
+    {
+     "f": "工学部",
+     "d": [
+      "機械システム工学科",
+      "電気電子工学科",
+      "情報工学科",
+      "メディア工学科"
+     ]
+    },
+    {
+     "f": "スポーツ科学部",
+     "d": [
+      "スポーツ健康科学科",
+      "競技スポーツ科学科",
+      "スポーツマネジメント学科",
+      "トレーナー学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "42.5〜57.5",
+    "kyotei": "58%〜81%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "共通テスト利用方式（前期・後期／2〜5科目型・競技実績2科目型）を実施",
+    "kyoka": [
+     2,
+     5
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期A方式・全問マークシートM方式）",
+      "kyotsu": "課さない",
+      "niji": "各方式指定科目",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://nc.chukyo-u.ac.jp/news/detail/?nid=11254"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用方式（前期・後期）",
+      "kyotsu": "2〜5科目",
+      "niji": null,
+      "content": null,
+      "req": "個別試験なし",
+      "url": "https://nc.chukyo-u.ac.jp/nyushi/detail/?nid=kyoutu"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "前期A方式",
+      "apply": "12/17〜1/19",
+      "exam": "2/3（学部により異なる）",
+      "result": "2/20",
+      "proc": "1次2/25・最終3/10",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "全問マークシートM方式",
+      "apply": "12/17〜1/19",
+      "exam": "2/7・2/8",
+      "result": "2/20",
+      "proc": "1次2/25・最終3/10",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用方式（前期日程）",
+      "apply": "12/17〜1/28",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/20",
+      "proc": "1次2/25・最終3/10",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用方式（後期日程）",
+      "apply": "2/17〜3/4（競技実績は2/25）",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/19",
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "法学部・経済学部・経営学部・現代社会学部",
+      "admission": 200000,
+      "tuition": 826000,
+      "facility": 284000,
+      "practical": 0,
+      "other": 50000,
+      "first_year": 1360000,
+      "four_year": null
+     },
+     {
+      "f": "総合政策学部",
+      "admission": 200000,
+      "tuition": 846000,
+      "facility": 284000,
+      "practical": 0,
+      "other": 50000,
+      "first_year": 1380000,
+      "four_year": null
+     },
+     {
+      "f": "文学部",
+      "admission": 200000,
+      "tuition": 846000,
+      "facility": 284000,
+      "practical": 10000,
+      "other": 51000,
+      "first_year": 1391000,
+      "four_year": null
+     },
+     {
+      "f": "心理学部",
+      "admission": 200000,
+      "tuition": 881000,
+      "facility": 329000,
+      "practical": 15000,
+      "other": 50000,
+      "first_year": 1475000,
+      "four_year": null
+     },
+     {
+      "f": "国際学部",
+      "admission": 200000,
+      "tuition": 876000,
+      "facility": 384000,
+      "practical": 0,
+      "other": 50000,
+      "first_year": 1510000,
+      "four_year": null
+     },
+     {
+      "f": "スポーツ科学部",
+      "admission": 200000,
+      "tuition": 911000,
+      "facility": 404000,
+      "practical": 25000,
+      "other": 50000,
+      "first_year": 1590000,
+      "four_year": null
+     },
+     {
+      "f": "工学部",
+      "admission": 200000,
+      "tuition": 956000,
+      "facility": 399000,
+      "practical": 60000,
+      "other": 50000,
+      "first_year": 1665000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "名古屋キャンパス（名古屋市昭和区八事本町101-2）・豊田キャンパス（愛知県豊田市貝津町床立101）",
+   "careers": "一般企業、公務員、金融・商社、IT・情報通信、メーカー、教員、スポーツ指導者など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://nc.chukyo-u.ac.jp/news/detail/?nid=11254",
+    "https://nc.chukyo-u.ac.jp/nyushi/detail/?nid=kyoutu",
+    "https://nc.chukyo-u.ac.jp/nyushi/nyugaku/schedule/",
+    "https://search.keinet.ne.jp/2446/outline/expense",
+    "https://search.keinet.ne.jp/2446/general/border_rate",
+    "https://passnavi.obunsha.co.jp/univ/3690/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://nc.chukyo-u.ac.jp/news/detail/?nid=11254",
+   "https://nc.chukyo-u.ac.jp/nyushi/detail/?nid=kyoutu",
+   "https://nc.chukyo-u.ac.jp/nyushi/nyugaku/schedule/",
+   "https://search.keinet.ne.jp/2446/outline/expense",
+   "https://search.keinet.ne.jp/2446/general/border_rate",
+   "https://passnavi.obunsha.co.jp/univ/3690/difficulty/"
+  ]
+ },
+ {
+  "name": "中京学院大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "岐阜県中津川市",
+  "pref_name": "岐阜県",
+  "city": "中津川市",
+  "hp": "https://www.chukyogakuin-u.ac.jp/",
+  "reading": "ちゅうきょうがくいんだいがく",
+  "features": [
+   "2027年4月1日より「YIC中京学院大学」へ名称変更し、岐阜県多治見市の新キャンパスへ移転・一元化。",
+   "経営学部と看護学部の2学部を擁し、実践的なビジネス教育と看護教育を展開。",
+   "初年度納付金は経営学部138万円、看護学部174万円（入学金20万円含む）。"
+  ],
+  "memo": "2027年4月に「YIC中京学院大学」へ名称変更予定。偏差値はBF〜35.0（パスナビ）。2027年度入試の出願書類は「中京学院大学」で作成。",
+  "info": {
+   "faculties": [
+    "経営学部",
+    "看護学部"
+   ],
+   "departments": [
+    {
+     "f": "経営学部",
+     "d": [
+      "経営学科"
+     ]
+    },
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜35.0",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "大学共通テスト選抜を実施",
+    "kyoka": [
+     null,
+     null
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "共テ利用",
+      "name": "大学共通テスト選抜",
+      "kyotsu": "指定教科・科目",
+      "niji": null,
+      "content": null,
+      "req": "令和9年度大学入学共通テスト受験者",
+      "url": "https://secondhome.chukyogakuin-u.ac.jp/admissions/kyotsu/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "共テ利用",
+      "name": "大学共通テスト選抜",
+      "apply": "2/15〜2/26",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/8",
+      "proc": null,
+      "fee": 10000
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "経営学部 経営学科",
+      "admission": 200000,
+      "tuition": 660000,
+      "facility": 400000,
+      "practical": 120000,
+      "other": 0,
+      "first_year": 1380000,
+      "four_year": 4920000
+     },
+     {
+      "f": "看護学部 看護学科",
+      "admission": 200000,
+      "tuition": 900000,
+      "facility": 400000,
+      "practical": 240000,
+      "other": 0,
+      "first_year": 1740000,
+      "four_year": 6360000
+     }
+    ]
+   },
+   "access": "中津川キャンパス（経営学部）・瑞浪キャンパス（看護学部）。2027年4月に多治見市の新キャンパスへ移転予定（大学の発表）",
+   "careers": "一般企業、公務員、看護師、保健師など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.chukyogakuin-u.ac.jp/outline/future-vision/agreement-20260819/",
+    "https://secondhome.chukyogakuin-u.ac.jp/admissions/kyotsu/",
+    "https://www.chukyogakuin-u.ac.jp/admissions/school-expenses/",
+    "https://passnavi.obunsha.co.jp/univ/3565/difficulty/?facultyID=010"
+   ]
+  },
+  "sources": [
+   "https://www.chukyogakuin-u.ac.jp/outline/future-vision/agreement-20260819/",
+   "https://secondhome.chukyogakuin-u.ac.jp/admissions/kyotsu/",
+   "https://www.chukyogakuin-u.ac.jp/admissions/school-expenses/",
+   "https://passnavi.obunsha.co.jp/univ/3565/difficulty/?facultyID=010"
+  ]
+ },
+ {
+  "name": "中部大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "愛知県春日井市",
+  "pref_name": "愛知県",
+  "city": "春日井市",
+  "hp": "https://www.chubu.ac.jp/",
+  "reading": "ちゅうぶだいがく",
+  "features": [
+   "工・理工・経営情報・国際関係・人文・応用生物・生命健康科学・現代教育の8学部を擁する一拠点総合大学。",
+   "一般選抜は前期・後期（3/4試験・3/12発表）に加え、共通テスト利用入試（前期・後期）を実施。",
+   "就職率99%以上を継続する手厚いキャリア支援が強み。"
+  ],
+  "memo": "偏差値は35.0〜55.0、共テ得点率は53%〜79%（パスナビ）。",
+  "info": {
+   "faculties": [
+    "工学部",
+    "理工学部",
+    "経営情報学部",
+    "国際関係学部",
+    "人文学部",
+    "応用生物学部",
+    "生命健康科学部",
+    "現代教育学部"
+   ],
+   "departments": [
+    {
+     "f": "工学部",
+     "d": [
+      "機械工学科",
+      "電気電子システム工学科",
+      "建築学科",
+      "都市建設工学科",
+      "応用化学科",
+      "情報工学科",
+      "ロボット理工学科",
+      "宇宙航空理工学科"
+     ]
+    },
+    {
+     "f": "理工学部",
+     "d": [
+      "数理・物理サイエンス学科",
+      "AIロボティクス学科",
+      "宇宙航空学科"
+     ]
+    },
+    {
+     "f": "経営情報学部",
+     "d": [
+      "経営総合学科"
+     ]
+    },
+    {
+     "f": "国際関係学部",
+     "d": [
+      "国際学科"
+     ]
+    },
+    {
+     "f": "人文学部",
+     "d": [
+      "日本語日本文化学科",
+      "英語英米文化学科",
+      "心理学科",
+      "歴史地理学科",
+      "メディア情報社会学科"
+     ]
+    },
+    {
+     "f": "応用生物学部",
+     "d": [
+      "応用生物化学科",
+      "環境生物科学科",
+      "食品栄養科学科"
+     ]
+    },
+    {
+     "f": "生命健康科学部",
+     "d": [
+      "生命医科学科",
+      "保健看護学科",
+      "理学療法学科",
+      "作業療法学科",
+      "臨床工学科",
+      "スポーツ保健医療学科"
+     ]
+    },
+    {
+     "f": "現代教育学部",
+     "d": [
+      "幼児教育学科",
+      "現代教育学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜55.0",
+    "kyotei": "53%〜79%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "共通テスト利用入試（前期：2・3・5教科型、後期：2教科型）を実施",
+    "kyoka": [
+     2,
+     5
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期入試・後期入試）",
+      "kyotsu": "課さない",
+      "niji": "各学部指定科目",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://adm.chubu.ac.jp/wps/wp-content/uploads/2026/09/admissions-entrance-exams-guide-dream2027-yoko.pdf"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試（前期・後期）",
+      "kyotsu": "2〜5教科",
+      "niji": null,
+      "content": null,
+      "req": "個別試験は課さない",
+      "url": "https://adm.chubu.ac.jp/wps/wp-content/uploads/2026/09/entrance-exams-schedule-2027.pdf"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期入試",
+      "apply": "2/18〜2/24",
+      "exam": "3/4",
+      "result": "3/12",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試（前期）",
+      "apply": null,
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/17",
+      "proc": "2/24",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "現代教育学部",
+      "admission": 280000,
+      "tuition": 720000,
+      "facility": 370000,
+      "practical": 0,
+      "other": 54660,
+      "first_year": 1424660,
+      "four_year": null
+     },
+     {
+      "f": "経営情報学部 経営総合学科",
+      "admission": 280000,
+      "tuition": 730000,
+      "facility": 370000,
+      "practical": 0,
+      "other": 53300,
+      "first_year": 1433300,
+      "four_year": null
+     },
+     {
+      "f": "人文学部・国際関係学部",
+      "admission": 280000,
+      "tuition": 770000,
+      "facility": 370000,
+      "practical": 0,
+      "other": 53300,
+      "first_year": 1473300,
+      "four_year": null
+     },
+     {
+      "f": "生命健康科学部 スポーツ保健医療学科",
+      "admission": 280000,
+      "tuition": 880000,
+      "facility": 410000,
+      "practical": 0,
+      "other": 53300,
+      "first_year": 1623300,
+      "four_year": null
+     },
+     {
+      "f": "工学部・理工学部・応用生物学部",
+      "admission": 280000,
+      "tuition": 930000,
+      "facility": 410000,
+      "practical": 0,
+      "other": 53300,
+      "first_year": 1673300,
+      "four_year": null
+     },
+     {
+      "f": "生命健康科学部 臨床工学科",
+      "admission": 280000,
+      "tuition": 930000,
+      "facility": 410000,
+      "practical": 30000,
+      "other": 55370,
+      "first_year": 1705370,
+      "four_year": null
+     },
+     {
+      "f": "生命健康科学部（保健看護学科・理学療法学科）",
+      "admission": 280000,
+      "tuition": 960000,
+      "facility": 430000,
+      "practical": 30000,
+      "other": 55300,
+      "first_year": 1755300,
+      "four_year": null
+     },
+     {
+      "f": "生命健康科学部 作業療法学科",
+      "admission": 280000,
+      "tuition": 960000,
+      "facility": 430000,
+      "practical": 30000,
+      "other": 55370,
+      "first_year": 1755370,
+      "four_year": null
+     },
+     {
+      "f": "生命健康科学部 生命医科学科",
+      "admission": 280000,
+      "tuition": 990000,
+      "facility": 500000,
+      "practical": 80000,
+      "other": 55370,
+      "first_year": 1905370,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "愛知県春日井市松本町1200",
+   "careers": "大手メーカー、IT・情報通信、建設・建築士、公務員、教員、看護師、理学療法士、作業療法士、臨床工学技士など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://adm.chubu.ac.jp/wps/wp-content/uploads/2026/09/admissions-entrance-exams-guide-dream2027-yoko.pdf",
+    "https://adm.chubu.ac.jp/wps/wp-content/uploads/2026/09/entrance-exams-schedule-2027.pdf",
+    "https://search.keinet.ne.jp/2448/outline/expense",
+    "https://passnavi.obunsha.co.jp/univ/3710/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://adm.chubu.ac.jp/wps/wp-content/uploads/2026/09/admissions-entrance-exams-guide-dream2027-yoko.pdf",
+   "https://adm.chubu.ac.jp/wps/wp-content/uploads/2026/09/entrance-exams-schedule-2027.pdf",
+   "https://search.keinet.ne.jp/2448/outline/expense",
+   "https://passnavi.obunsha.co.jp/univ/3710/difficulty/"
+  ]
+ },
+ {
+  "name": "中部学院大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "岐阜県関市",
+  "pref_name": "岐阜県",
+  "city": "関市",
+  "hp": "https://www.chubu-gu.ac.jp/",
+  "reading": "ちゅうぶがくいんだいがく",
+  "features": [
+   "看護リハビリテーション・教育・スポーツ健康科学・人間福祉の4学部を擁する。",
+   "一般入試（A日程等）および大学入学共通テスト利用入試（前期・中期・後期）を実施。",
+   "初年度納入金は看護リハビリテーション学部182万9,500円、他3学部は140万9,500円。"
+  ],
+  "memo": "偏差値はBF〜37.5、共テ得点率は40%〜53%（パスナビ）。",
+  "info": {
+   "faculties": [
+    "看護リハビリテーション学部",
+    "教育学部",
+    "スポーツ健康科学部",
+    "人間福祉学部"
+   ],
+   "departments": [
+    {
+     "f": "看護リハビリテーション学部",
+     "d": [
+      "理学療法学科",
+      "看護学科"
+     ]
+    },
+    {
+     "f": "教育学部",
+     "d": [
+      "子ども教育学科"
+     ]
+    },
+    {
+     "f": "スポーツ健康科学部",
+     "d": [
+      "スポーツ健康科学科"
+     ]
+    },
+    {
+     "f": "人間福祉学部",
+     "d": [
+      "人間福祉学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜37.5",
+    "kyotei": "40%〜53%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "大学入学共通テスト利用入試（前期・中期・後期）を実施",
+    "kyoka": [
+     null,
+     null
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般入試（A日程等）",
+      "kyotsu": "課さない",
+      "niji": "各学部指定科目",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.shingakunavi.ne.jp/%E5%A4%A7%E5%AD%A6-%E9%80%B2%E5%AD%A6/%E4%B8%AD%E9%83%A8%E5%AD%A6%E9%99%A2%E5%A4%A7%E5%AD%A6/%E9%A1%98%E6%9B%B8-%E5%85%A5%E8%A9%A6/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試（前期・中期・後期）",
+      "kyotsu": "指定教科・科目",
+      "niji": null,
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.shingakunavi.ne.jp/%E5%A4%A7%E5%AD%A6-%E9%80%B2%E5%AD%A6/%E4%B8%AD%E9%83%A8%E5%AD%A6%E9%99%A2%E5%A4%A7%E5%AD%A6/%E9%A1%98%E6%9B%B8-%E5%85%A5%E8%A9%A6/"
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "教育学部・スポーツ健康科学部・人間福祉学部",
+      "admission": 200000,
+      "tuition": 600000,
+      "facility": 557500,
+      "practical": 0,
+      "other": 52000,
+      "first_year": 1409500,
+      "four_year": null
+     },
+     {
+      "f": "看護リハビリテーション学部",
+      "admission": 200000,
+      "tuition": 800000,
+      "facility": 557500,
+      "practical": 220000,
+      "other": 52000,
+      "first_year": 1829500,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "関キャンパス（岐阜県関市桐ヶ丘2-1）・各務原キャンパス",
+   "careers": "看護師、保健師、理学療法士、小学校教諭、幼稚園教諭、保育士、社会福祉士、スポーツ指導者など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://search.keinet.ne.jp/2413/outline/expense",
+    "https://passnavi.obunsha.co.jp/univ/3567/difficulty/",
+    "https://www.shingakunavi.ne.jp/%E5%A4%A7%E5%AD%A6-%E9%80%B2%E5%AD%A6/%E4%B8%AD%E9%83%A8%E5%AD%A6%E9%99%A2%E5%A4%A7%E5%AD%A6/%E9%A1%98%E6%9B%B8-%E5%85%A5%E8%A9%A6/"
+   ]
+  },
+  "sources": [
+   "https://search.keinet.ne.jp/2413/outline/expense",
+   "https://passnavi.obunsha.co.jp/univ/3567/difficulty/",
+   "https://www.shingakunavi.ne.jp/%E5%A4%A7%E5%AD%A6-%E9%80%B2%E5%AD%A6/%E4%B8%AD%E9%83%A8%E5%AD%A6%E9%99%A2%E5%A4%A7%E5%AD%A6/%E9%A1%98%E6%9B%B8-%E5%85%A5%E8%A9%A6/"
+  ]
+ }
+]
