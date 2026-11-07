@@ -1,20 +1,6 @@
 {
  "add": [
   {
-   "name": "大分県立看護科学大学",
-   "type": "公立",
-   "pref": "大分県",
-   "hp": "http://www.oita-nhs.ac.jp/",
-   "cat": "public"
-  },
-  {
-   "name": "宮崎公立大学",
-   "type": "公立",
-   "pref": "宮崎県",
-   "hp": "http://www.miyazaki-mu.ac.jp/",
-   "cat": "public"
-  },
-  {
    "name": "宮崎県立看護大学",
    "type": "公立",
    "pref": "宮崎県",
@@ -3186,6 +3172,112 @@
    "need": [
     "fees"
    ]
+  },
+  {
+   "name": "大分県立看護科学大学",
+   "op": "add"
+  },
+  {
+   "name": "宮崎公立大学",
+   "op": "add"
+  },
+  {
+   "name": "上智大学",
+   "op": "enrich",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "東京理科大学",
+   "op": "enrich",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "国際基督教大学（ICU）",
+   "op": "enrich",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "学習院大学",
+   "op": "enrich",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "明治大学",
+   "op": "enrich",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "上智大学",
+   "op": "enrich",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "東京理科大学",
+   "op": "enrich",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "国際基督教大学（ICU）",
+   "op": "enrich",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "学習院大学",
+   "op": "enrich",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "明治大学",
+   "op": "enrich",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "青山学院大学",
+   "op": "enrich",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "慶應義塾大学",
+   "op": "enrich",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "豊橋技術科学大学",
+   "op": "enrich",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "早稲田大学",
+   "op": "enrich",
+   "need": [
+    "schedule_dates"
+   ]
   }
  ],
  "failed": [],
@@ -4903,41 +4995,6 @@
    ]
   },
   {
-   "name": "上智大学",
-   "keinet": "2221",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "東京理科大学",
-   "keinet": "2262",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "国際基督教大学（ICU）",
-   "keinet": "2214",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "学習院大学",
-   "keinet": "2204",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "明治大学",
-   "keinet": "2286",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
    "name": "青山学院大学",
    "keinet": "2200",
    "need": [
@@ -5688,48 +5745,6 @@
    "keinet": "1510",
    "need": [
     "schedule_dates"
-   ]
-  },
-  {
-   "name": "上智大学",
-   "keinet": "2221",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "東京理科大学",
-   "keinet": "2262",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "国際基督教大学（ICU）",
-   "keinet": "2214",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "学習院大学",
-   "keinet": "2204",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "明治大学",
-   "keinet": "2286",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "青山学院大学",
-   "keinet": "2200",
-   "need": [
-    "fees"
    ]
   },
   {
@@ -23245,27 +23260,6 @@
    ]
   },
   {
-   "name": "慶應義塾大学",
-   "keinet": "2210",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "豊橋技術科学大学",
-   "keinet": "1245",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "早稲田大学",
-   "keinet": "2293",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
    "name": "北九州市立大学",
    "keinet": "1675",
    "need": [
@@ -23276,6 +23270,22 @@
   {
    "name": "名桜大学",
    "keinet": "1710",
+   "need": [
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "大分県立看護科学大学",
+   "keinet": "1702",
+   "need": [
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "宮崎公立大学",
+   "keinet": "1703",
    "need": [
     "extra",
     "partners"

@@ -30256,7 +30256,8 @@
 "https://search.keinet.ne.jp/1245/outline/campus",
 "https://search.keinet.ne.jp/1245/outline/department",
 "https://phys.org/rss-feed/partners/toyohashi-university-of-technology/",
-"https://passnavi.obunsha.co.jp/univ/0520/expense/"
+"https://passnavi.obunsha.co.jp/univ/0520/expense/",
+"https://passnavi.obunsha.co.jp/univ/0520/schedule/"
 ],
 "kyotsu": {
 "kamoku": "6教科8科目（工学部学際共創課程前期）",
@@ -30337,7 +30338,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-06",
+"schedule": "2026-11-07",
 "money": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
@@ -30360,13 +30361,23 @@
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "一般",
+"name": "一般選抜（前期日程）",
+"apply": "1/25〜2/3",
+"exam": "2/25",
+"result": "3/8",
+"proc": null,
+"fee": null,
+"note": "工学部。共通テスト1/16・17。手続締切・検定料・後期日程は出典に掲載なし"
+},
+{
 "kubun": "推薦",
 "name": "学校推薦型（普通科・理数に関する学科等、専願）",
 "apply": "〜11/9（登録）",
 "exam": "11/26",
 "result": "12/11",
 "proc": "1/19",
-"note": "普通・理数科以外の学科は履修条件あり。一般選抜の日程は未取得"
+"note": "普通・理数科以外の学科は履修条件あり"
 }
 ]
 },
@@ -33016,7 +33027,8 @@
 "https://adm.sophia.ac.jp/jpn/gakubu_ippan_ad/gakubugakkashiken_kyoutsuu_heiyougata/",
 "https://adm.sophia.ac.jp/jpn/gakubu_ippan_ad/kyoutsuu_riyouhoshiki/",
 "https://fst.sophia.ac.jp/exam/tuitionfee",
-"https://xn--8pr038b9h2am7a.com/jochi/"
+"https://xn--8pr038b9h2am7a.com/jochi/",
+"https://piloti.sophia.ac.jp/assets/uploads/2025/12/2877bbf583065e11ffec298e581685ef.pdf"
 ],
 "kyotsu": {
 "kamoku": "3教科3科目（併用方式・3教科型）〜4教科4科目（4教科型）",
@@ -34318,7 +34330,7 @@
 ]
 },
 "money": {
-"year": "2026～2027年度参考（理工学部公式ページ掲載額）",
+"year": "2026年度入学者（大学公式2026年度学費資料・Kei-Net）",
 "total4": 3944000,
 "total4_note": "文（新聞以外）・神・外国語・法・経済・総合グローバルなど：入学金＋授業料4年（施設/教育充実費・在籍料等含まず）",
 "admission": 200000,
@@ -34348,18 +34360,7 @@
 ],
 "rows": [
 {
-"f": "理工学部",
-"admission": 200000,
-"tuition": 1165000,
-"facility": 340000,
-"practical": 0,
-"other": 60000,
-"first_year": 1765000,
-"four_year": null,
-"note": "その他は在籍料（年額60,000円）。他学部の2027年度全学部一覧は未確認"
-},
-{
-"f": "神学部・文学部（新聞学科除く）・総合人間科学部（心理・看護除く）・法学部・経済学部・外国語学部・総合グローバル学部",
+"f": "文学部（哲・史・国文・英文・ドイツ文・フランス文）",
 "admission": 200000,
 "tuition": 936000,
 "facility": 210000,
@@ -34367,7 +34368,7 @@
 "other": 62650,
 "first_year": 1408650,
 "four_year": null,
-"note": "その他：在籍料60,000円（各学期30,000円）、学生教育研究災害傷害保険料2,650円"
+"note": "2026年度入学者。その他は在籍料60,000円＋学生教育研究災害傷害保険料2,650円"
 },
 {
 "f": "文学部（新聞学科）",
@@ -34377,27 +34378,118 @@
 "practical": 0,
 "other": 62650,
 "first_year": 1450650,
-"four_year": null
+"four_year": null,
+"note": "2026年度入学者。その他は在籍料60,000円＋学生教育研究災害傷害保険料2,650円"
+},
+{
+"f": "神学部",
+"admission": 200000,
+"tuition": 936000,
+"facility": 210000,
+"practical": 0,
+"other": 62650,
+"first_year": 1408650,
+"four_year": null,
+"note": "2026年度入学者。その他は在籍料60,000円＋学生教育研究災害傷害保険料2,650円"
+},
+{
+"f": "外国語学部",
+"admission": 200000,
+"tuition": 936000,
+"facility": 210000,
+"practical": 0,
+"other": 62650,
+"first_year": 1408650,
+"four_year": null,
+"note": "2026年度入学者。その他は在籍料60,000円＋学生教育研究災害傷害保険料2,650円"
+},
+{
+"f": "総合人間科学部（教育・社会・社会福祉）",
+"admission": 200000,
+"tuition": 936000,
+"facility": 210000,
+"practical": 0,
+"other": 62650,
+"first_year": 1408650,
+"four_year": null,
+"note": "2026年度入学者。その他は在籍料60,000円＋学生教育研究災害傷害保険料2,650円"
 },
 {
 "f": "総合人間科学部（心理学科）",
 "admission": 200000,
-"tuition": 1018000,
+"tuition": 1020000,
 "facility": 210000,
 "practical": 0,
 "other": 62650,
-"first_year": 1490650,
-"four_year": null
+"first_year": 1492650,
+"four_year": null,
+"note": "2026年度入学者。その他は在籍料60,000円＋学生教育研究災害傷害保険料2,650円"
 },
 {
 "f": "総合人間科学部（看護学科）",
 "admission": 200000,
-"tuition": 1472000,
+"tuition": 1318000,
+"facility": 350000,
+"practical": 24000,
+"other": 62650,
+"first_year": 1954650,
+"four_year": null,
+"note": "2026年度入学者。その他は在籍料60,000円＋学生教育研究災害傷害保険料2,650円"
+},
+{
+"f": "国際教養学部",
+"admission": 200000,
+"tuition": 1142000,
+"facility": 234000,
+"practical": 0,
+"other": 62650,
+"first_year": 1638650,
+"four_year": null,
+"note": "2026年度入学者。その他は在籍料60,000円＋学生教育研究災害傷害保険料2,650円。Kei-Net掲載額。大学公式資料では初年度のオリエンテーション・デイ費用を含めた初年度合計1,668,650円"
+},
+{
+"f": "総合グローバル学部",
+"admission": 200000,
+"tuition": 936000,
 "facility": 210000,
 "practical": 0,
 "other": 62650,
-"first_year": 1944650,
-"four_year": null
+"first_year": 1408650,
+"four_year": null,
+"note": "2026年度入学者。その他は在籍料60,000円＋学生教育研究災害傷害保険料2,650円"
+},
+{
+"f": "法学部",
+"admission": 200000,
+"tuition": 936000,
+"facility": 210000,
+"practical": 0,
+"other": 62650,
+"first_year": 1408650,
+"four_year": null,
+"note": "2026年度入学者。その他は在籍料60,000円＋学生教育研究災害傷害保険料2,650円"
+},
+{
+"f": "経済学部",
+"admission": 200000,
+"tuition": 936000,
+"facility": 210000,
+"practical": 0,
+"other": 62650,
+"first_year": 1408650,
+"four_year": null,
+"note": "2026年度入学者。その他は在籍料60,000円＋学生教育研究災害傷害保険料2,650円"
+},
+{
+"f": "理工学部",
+"admission": 200000,
+"tuition": 1266000,
+"facility": 340000,
+"practical": 84000,
+"other": 62650,
+"first_year": 1952650,
+"four_year": null,
+"note": "2026年度入学者。その他は在籍料60,000円＋学生教育研究災害傷害保険料2,650円"
 }
 ]
 },
@@ -36168,7 +36260,8 @@
 "https://haltasaki.github.io/indexJ.html",
 "https://www.univ.gakushuin.ac.jp/admissions/faculty-exam/",
 "https://www.univ.gakushuin.ac.jp/admissions/docs/schedule-1%20.pdf",
-"https://www.univ.gakushuin.ac.jp/admissions/docs/2027schoolfees_1.others.pdf"
+"https://www.univ.gakushuin.ac.jp/admissions/docs/2027schoolfees_1.others.pdf",
+"https://search.keinet.ne.jp/2204/topics/12"
 ],
 "kyotsu": {
 "kamoku": "3教科3科目（多くの学科）〜5教科6科目（経済学部6科目型など）",
@@ -36932,8 +37025,8 @@
 "fee": null,
 "apply": "1/7〜1/15",
 "exam": "1/16・17日（共テ）",
-"result": "2/17",
-"proc": "3/1",
+"result": "経済：2/15・文、理：2/17・法：2/19・国際社会科：2/20",
+"proc": "文、理：2/26・経済、法、国際社会科：3/1",
 "note": "延納分納入締切：3月18日（木）"
 }
 ]
@@ -37230,7 +37323,8 @@
 "https://www.city.numazu.shizuoka.jp/shisei/pr/press/pdf/2024/20240830_1.pdf",
 "https://www.meiji.ac.jp/exam/information/guidelines/2027-meiji_guidelines.pdf",
 "https://www.meiji.ac.jp/suito/mkmht000002b7evj-att/2027gakubu.pdf",
-"https://jukushiru.com/article/post-37816/"
+"https://jukushiru.com/article/post-37816/",
+"https://www.meiji.ac.jp/koho/guidebook/univ/guide2027_11admission.pdf"
 ],
 "kyotsu": {
 "kamoku": "1教科1科目（国際日本学部併用）〜6教科7科目（政経7科目型）",
@@ -38278,107 +38372,117 @@
 {
 "kubun": "一般",
 "name": "一般選抜（全学部統一入学試験）",
-"fee": null,
+"fee": 35000,
 "apply": "1/7〜1/18",
 "exam": "2/5",
 "result": "2/12〜2/17",
 "proc": "2027年2月下旬〜3月上旬",
-"note": "学部により異なる／学部により異なる"
+"note": "学部により異なる／学部により異なる。検定料：同一学部内（統一入試は他学部・方式含む）の2方式目以降は1方式20,000円"
 },
 {
 "kubun": "一般",
 "name": "一般選抜（学部別：理工学部）",
-"fee": null,
+"fee": 35000,
 "apply": "1/7〜1/21",
 "exam": "2/7",
 "result": "2/15",
-"proc": "2/24"
+"proc": "2/24",
+"note": "検定料：同一学部内（統一入試は他学部・方式含む）の2方式目以降は1方式20,000円"
 },
 {
 "kubun": "一般",
 "name": "一般選抜（学部別：情報コミュニケーション学部）",
-"fee": null,
+"fee": 35000,
 "apply": "1/7〜1/21",
 "exam": "2/8",
 "result": "2/15",
-"proc": "2027年3月上旬（目安）"
+"proc": "2027年3月上旬（目安）",
+"note": "検定料：同一学部内（統一入試は他学部・方式含む）の2方式目以降は1方式20,000円"
 },
 {
 "kubun": "一般",
 "name": "一般選抜（学部別：国際日本学部）",
-"fee": null,
+"fee": 35000,
 "apply": "1/7〜1/21",
 "exam": "2/9",
 "result": "2/16",
-"proc": "3/1"
+"proc": "3/1",
+"note": "検定料：同一学部内（統一入試は他学部・方式含む）の2方式目以降は1方式20,000円"
 },
 {
 "kubun": "一般",
 "name": "一般選抜（学部別：経営学部）",
-"fee": null,
+"fee": 35000,
 "apply": "1/7〜1/21",
 "exam": "2/10",
 "result": "2/17",
-"proc": "2027年3月上旬（目安）"
+"proc": "2027年3月上旬（目安）",
+"note": "検定料：同一学部内（統一入試は他学部・方式含む）の2方式目以降は1方式20,000円"
 },
 {
 "kubun": "一般",
 "name": "一般選抜（学部別：政治経済学部）",
-"fee": null,
+"fee": 35000,
 "apply": "1/7〜1/21",
 "exam": "2/11",
 "result": "2/18",
-"proc": "2027年3月上旬（目安）"
+"proc": "2027年3月上旬（目安）",
+"note": "検定料：同一学部内（統一入試は他学部・方式含む）の2方式目以降は1方式20,000円"
 },
 {
 "kubun": "一般",
 "name": "一般選抜（学部別：文学部）",
-"fee": null,
+"fee": 35000,
 "apply": "1/7〜1/25",
 "exam": "2/13",
 "result": "2/20",
-"proc": "2027年3月上旬（目安）"
+"proc": "2027年3月上旬（目安）",
+"note": "検定料：同一学部内（統一入試は他学部・方式含む）の2方式目以降は1方式20,000円"
 },
 {
 "kubun": "一般",
 "name": "一般選抜（学部別：法学部）",
-"fee": null,
+"fee": 35000,
 "apply": "1/7〜1/25",
 "exam": "2/14",
 "result": "2/21",
-"proc": "2027年3月上旬（目安）"
+"proc": "2027年3月上旬（目安）",
+"note": "検定料：同一学部内（統一入試は他学部・方式含む）の2方式目以降は1方式20,000円"
 },
 {
 "kubun": "一般",
 "name": "一般選抜（学部別：農学部）",
-"fee": null,
+"fee": 35000,
 "apply": "1/7〜1/25",
 "exam": "2/15",
 "result": "2/22",
-"proc": "3/1"
+"proc": "3/1",
+"note": "検定料：同一学部内（統一入試は他学部・方式含む）の2方式目以降は1方式20,000円"
 },
 {
 "kubun": "一般",
 "name": "一般選抜（学部別：商学部）",
-"fee": null,
+"fee": 35000,
 "apply": "1/7〜1/25",
 "exam": "2/16",
 "result": "2/24",
-"proc": "2027年3月上旬（目安）"
+"proc": "2027年3月上旬（目安）",
+"note": "検定料：同一学部内（統一入試は他学部・方式含む）の2方式目以降は1方式20,000円"
 },
 {
 "kubun": "一般",
 "name": "一般選抜（学部別：総合数理学部）",
-"fee": null,
+"fee": 35000,
 "apply": "1/7〜1/25",
 "exam": "2/17",
 "result": "2/24",
-"proc": "2027年3月上旬（目安）"
+"proc": "2027年3月上旬（目安）",
+"note": "検定料：同一学部内（統一入試は他学部・方式含む）の2方式目以降は1方式20,000円"
 },
 {
 "kubun": "共テ利用",
 "name": "一般選抜（大学入学共通テスト利用 前期日程）",
-"fee": null,
+"fee": 18000,
 "apply": "1/7〜1/15",
 "exam": "1/16・17日（共テ）",
 "result": "2027年2月中旬〜3月上旬",
@@ -38388,7 +38492,7 @@
 {
 "kubun": "共テ利用",
 "name": "一般選抜（大学入学共通テスト利用 後期日程：商・理工［機械除く］・総合数理）",
-"fee": null,
+"fee": 18000,
 "apply": "2/22〜3/1",
 "exam": "1/16・17日（共テ）",
 "result": "2027年3月中旬",
@@ -38903,7 +39007,7 @@
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
 "schedule": "2026-11-07",
-"money": "2026-11-06",
+"money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "eng": "2026-11-07",
@@ -39441,6 +39545,184 @@
 {
 "name": "青山学院大学学業成績優秀者表彰制度",
 "what": "給付。前年度成績優秀な2〜4年生に年額5万〜20万円"
+}
+],
+"rows": [
+{
+"f": "文学部（英米文学科）",
+"admission": 200000,
+"tuition": 833000,
+"facility": 229000,
+"practical": 25000,
+"other": 129200,
+"first_year": 1416200,
+"four_year": null,
+"note": "2026年度入学者。実習費は教育活動料。その他は諸会費49,200円＋在籍基本料80,000円。教職課程料7,000円は希望者のみ別途"
+},
+{
+"f": "文学部（フランス文学科・日本文学科）",
+"admission": 200000,
+"tuition": 833000,
+"facility": 229000,
+"practical": 25000,
+"other": 130000,
+"first_year": 1417000,
+"four_year": null,
+"note": "2026年度入学者。実習費は教育活動料。その他は諸会費50,000円＋在籍基本料80,000円。教職課程料7,000円は希望者のみ別途"
+},
+{
+"f": "文学部（史学科）",
+"admission": 200000,
+"tuition": 833000,
+"facility": 229000,
+"practical": 25000,
+"other": 131000,
+"first_year": 1418000,
+"four_year": null,
+"note": "2026年度入学者。実習費は教育活動料。その他は諸会費51,000円＋在籍基本料80,000円。教職課程料7,000円は希望者のみ別途"
+},
+{
+"f": "文学部（比較芸術学科）",
+"admission": 200000,
+"tuition": 833000,
+"facility": 229000,
+"practical": 25000,
+"other": 131000,
+"first_year": 1418000,
+"four_year": null,
+"note": "2026年度入学者。実習費は教育活動料。その他は諸会費51,000円＋在籍基本料80,000円"
+},
+{
+"f": "教育人間科学部（教育学科）",
+"admission": 200000,
+"tuition": 833000,
+"facility": 229000,
+"practical": 30000,
+"other": 130000,
+"first_year": 1422000,
+"four_year": null,
+"note": "2026年度入学者。実習費は教育活動料。その他は諸会費50,000円＋在籍基本料80,000円。教職課程料7,000円は希望者のみ別途"
+},
+{
+"f": "教育人間科学部（心理学科）",
+"admission": 200000,
+"tuition": 833000,
+"facility": 229000,
+"practical": 45000,
+"other": 131000,
+"first_year": 1438000,
+"four_year": null,
+"note": "2026年度入学者。実習費は教育活動料。その他は諸会費51,000円＋在籍基本料80,000円"
+},
+{
+"f": "総合文化政策学部",
+"admission": 200000,
+"tuition": 833000,
+"facility": 239000,
+"practical": 35000,
+"other": 132000,
+"first_year": 1439000,
+"four_year": null,
+"note": "2026年度入学者。実習費は教育活動料。その他は諸会費52,000円＋在籍基本料80,000円"
+},
+{
+"f": "地球社会共生学部",
+"admission": 200000,
+"tuition": 1007000,
+"facility": 281000,
+"practical": 60000,
+"other": 132000,
+"first_year": 1680000,
+"four_year": null,
+"note": "2026年度入学者。実習費は教育活動料。その他は諸会費52,000円＋在籍基本料80,000円"
+},
+{
+"f": "国際政治経済学部",
+"admission": 200000,
+"tuition": 843000,
+"facility": 239000,
+"practical": 45000,
+"other": 132000,
+"first_year": 1459000,
+"four_year": null,
+"note": "2026年度入学者。実習費は教育活動料。その他は諸会費52,000円＋在籍基本料80,000円"
+},
+{
+"f": "法学部",
+"admission": 200000,
+"tuition": 833000,
+"facility": 229000,
+"practical": 35000,
+"other": 132000,
+"first_year": 1429000,
+"four_year": null,
+"note": "2026年度入学者。実習費は教育活動料。その他は諸会費52,000円＋在籍基本料80,000円"
+},
+{
+"f": "経済学部",
+"admission": 200000,
+"tuition": 833000,
+"facility": 229000,
+"practical": 30000,
+"other": 131000,
+"first_year": 1423000,
+"four_year": null,
+"note": "2026年度入学者。実習費は教育活動料。その他は諸会費51,000円＋在籍基本料80,000円"
+},
+{
+"f": "経営学部",
+"admission": 200000,
+"tuition": 833000,
+"facility": 229000,
+"practical": 35000,
+"other": 132000,
+"first_year": 1429000,
+"four_year": null,
+"note": "2026年度入学者。実習費は教育活動料。その他は諸会費52,000円＋在籍基本料80,000円"
+},
+{
+"f": "理工学部（物理科学・数理サイエンス・化学・生命科学・電気電子工・機械創造工・情報テクノロジー）",
+"admission": 200000,
+"tuition": 1181000,
+"facility": 323000,
+"practical": 95000,
+"other": 131000,
+"first_year": 1930000,
+"four_year": null,
+"note": "2026年度入学者。実習費は教育活動料。その他は諸会費51,000円＋在籍基本料80,000円。教職課程料7,000円は希望者のみ別途"
+},
+{
+"f": "理工学部（経営システム工学科）",
+"admission": 200000,
+"tuition": 1181000,
+"facility": 323000,
+"practical": 95000,
+"other": 131000,
+"first_year": 1930000,
+"four_year": null,
+"note": "2026年度入学者。実習費は教育活動料。その他は諸会費51,000円＋在籍基本料80,000円"
+},
+{
+"f": "コミュニティ人間科学部",
+"admission": 200000,
+"tuition": 917000,
+"facility": 281000,
+"practical": 50000,
+"other": 132000,
+"first_year": 1580000,
+"four_year": null,
+"note": "2026年度入学者。実習費は教育活動料。その他は諸会費52,000円＋在籍基本料80,000円"
+},
+{
+"f": "社会情報学部",
+"admission": 200000,
+"tuition": 1007000,
+"facility": 281000,
+"practical": 60000,
+"other": 132000,
+"first_year": 1680000,
+"four_year": null,
+"note": "2026年度入学者。実習費は教育活動料。その他は諸会費52,000円＋在籍基本料80,000円。教職課程料7,000円は希望者のみ別途"
 }
 ]
 },
@@ -139976,6 +140258,122 @@ null
 "https://search.keinet.ne.jp/1710/general/exam_subject",
 "https://search.keinet.ne.jp/1710/general/border_rate",
 "https://www.meio-u.ac.jp/about/history/"
+]
+},
+"大分県立看護科学大学": {
+"difficulty": {
+"hensachi": "45.0",
+"kyotei": "51%〜60%",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-07",
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"students": "2026-11-07",
+"founded": "2026-11-07",
+"access": "2026-11-07",
+"kyotsu": "2026-11-07",
+"licenses": "2026-11-07",
+"careers": "2026-11-07"
+},
+"faculties": [
+"看護学部"
+],
+"departments": [
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+}
+],
+"students": {
+"count": 330,
+"year": 2025
+},
+"founded": "1998年開学（2006年 公立大学法人化）",
+"access": "大分市廻栖野のキャンパス：JR大分駅からバス「看護大学前」下車（または「富士見が丘南」下車徒歩5分）",
+"kyotsu": {
+"kamoku": "4教科4科目〜6教科6科目",
+"kyoka": [
+4,
+5,
+6
+],
+"rl": [
+"1:1"
+],
+"rl_text": "前期・後期ともR:L=1:1",
+"note": "前期5〜6教科6科目、後期4教科4科目。個別は小論文・面接",
+"year": "2027年度入試"
+},
+"licenses": [
+"看護師国家試験受験資格",
+"養護教諭一種免許"
+],
+"careers": "2024年度卒業者85人のうち就職70人（82.3%）、進学14人（16.5%）。",
+"sources": [
+"https://search.keinet.ne.jp/1702",
+"https://search.keinet.ne.jp/1702/outline/department",
+"https://search.keinet.ne.jp/1702/general/exam_subject",
+"https://search.keinet.ne.jp/1702/general/border_rate",
+"https://search.keinet.ne.jp/1702/outline/licential",
+"https://search.keinet.ne.jp/1702/outline/admission_employment",
+"https://manabi.benesse.ne.jp/daigaku/school/2328/opencampus/"
+]
+},
+"宮崎公立大学": {
+"difficulty": {
+"hensachi": "45.0",
+"kyotei": "59%〜68%",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-07",
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"students": "2026-11-07",
+"kyotsu": "2026-11-07",
+"licenses": "2026-11-07"
+},
+"faculties": [
+"人文学部"
+],
+"departments": [
+{
+"f": "人文学部",
+"d": [
+"国際文化学科",
+"国際情報学科"
+]
+}
+],
+"students": {
+"count": 898,
+"year": 2025
+},
+"kyotsu": {
+"kamoku": "3教科3科目",
+"kyoka": [
+3
+],
+"rl": [
+"3:2"
+],
+"rl_text": "全日程でR:L=3:2（R150・L100）",
+"note": "英語・国語必須、数・理・地公・情から1",
+"year": "2027年度入試"
+},
+"licenses": [
+"中学校・高等学校教諭一種（英語）（国際文化学科）",
+"高等学校教諭一種（情報）（国際情報学科・開設予定）"
+],
+"sources": [
+"https://search.keinet.ne.jp/1703/outline/department",
+"https://search.keinet.ne.jp/1703/general/exam_subject",
+"https://search.keinet.ne.jp/1703/general/border_rate",
+"https://manabi.benesse.ne.jp/daigaku/school/2335/gakubu/gakubudt/02.html"
 ]
 }
 }
