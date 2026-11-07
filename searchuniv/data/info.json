@@ -45691,7 +45691,8 @@
 "https://www.seikei.ac.jp/university/news_topics/research/index_2.html",
 "https://digitalpr.jp/r/117785",
 "https://search.keinet.ne.jp/2228/outline/licential",
-"https://search.keinet.ne.jp/2228/outline/admission_employment"
+"https://search.keinet.ne.jp/2228/outline/admission_employment",
+"https://www.seikei.ac.jp/university/s-net/pdf/2027_admission_guidelines.pdf"
 ],
 "licenses": [
 "教員免許（中・高 英語・国語・社会・数学・理科ほか）",
@@ -45932,41 +45933,105 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-06",
+"schedule": "2026-11-07",
 "money": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"qtrend": "2026-11-07"
+"qtrend": "2026-11-07",
+"_via": "2026-11-07"
 },
 "schedule": {
-"year": "年度表記なし（Kei-Net掲載、出願締切・発表・手続日は11月以降掲載予定）／検定料は2026年度入試",
+"year": "2027年度入試",
 "rows": [
 {
 "kubun": "一般",
-"name": "2教科全学統一",
-"exam": "2/3",
-"fee": 35000,
-"note": "法学部・理工学部の例。受験料に割引制度あり"
+"name": "一般選抜 学部個別入試（A方式：理工学部）",
+"fee": null,
+"apply": "1/5〜1/26",
+"exam": "2/10",
+"result": "2/19",
+"proc": "3/1",
+"note": "延期申請者：3月24日（水）消印有効"
 },
 {
 "kubun": "一般",
-"name": "3教科学部個別",
+"name": "一般選抜 学部個別入試（A方式：経営学部）",
+"fee": null,
+"apply": "1/5〜1/26",
+"exam": "2/11",
+"result": "2/19",
+"proc": "3/1",
+"note": "延期申請者：3月24日（水）消印有効"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 学部個別入試（A方式：文学部）",
+"fee": null,
+"apply": "1/5〜1/26",
+"exam": "2/12",
+"result": "2/19",
+"proc": "3/1",
+"note": "延期申請者：3月24日（水）消印有効"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 学部個別入試（A方式：経済学部・国際共創学部）",
+"fee": null,
+"apply": "1/5〜1/26",
+"exam": "2/13",
+"result": "2/20",
+"proc": "3/1",
+"note": "延期申請者：3月24日（水）消印有効"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 学部個別入試（A方式：法学部）",
+"fee": null,
+"apply": "1/5〜1/26",
 "exam": "2/14",
-"fee": 35000,
-"note": "学部により異なる（法学部2/14、理工学部2/10）"
+"result": "2/20",
+"proc": "3/1",
+"note": "延期申請者：3月24日（水）消印有効"
 },
 {
-"kubun": "共テ利用",
-"name": "共通テスト利用 5科目国公併願",
+"kubun": "一般",
+"name": "一般選抜 全学部統一入試（E方式 2教科型）",
+"fee": null,
+"apply": "1/5〜1/20",
 "exam": "2/3",
-"fee": 25000,
-"note": "法学部の例（共通テスト併用の受験料）。理工学部は実施なし"
+"result": "2/9",
+"proc": "2/26",
+"note": "延期申請者：3月16日（火）消印有効"
 },
 {
 "kubun": "共テ利用",
-"name": "共通テスト利用 3教科型",
-"fee": 15000,
-"note": "個別試験なし。受験料に割引制度あり"
+"name": "一般選抜 共通テスト利用入試（C方式 3教科型）",
+"fee": null,
+"apply": "1/5〜1/15",
+"exam": "1/16・17（共テ）",
+"result": "2/9",
+"proc": "2/16",
+"note": "延期申請者：3月16日（火）消印有効"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 奨学金付入試（S方式 4教科6科目型：理工学部）",
+"fee": null,
+"apply": "1/5〜1/20",
+"exam": "1/16・17（共テ）",
+"result": "2/9",
+"proc": "3/11",
+"note": "延期申請者：3月24日（水）消印有効"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 国公立併願アシスト入試（P方式 共通テスト・独自併用5科目型）",
+"fee": null,
+"apply": "1/5〜1/20",
+"exam": "1/16・17",
+"result": "2/9",
+"proc": "3/11",
+"note": "共通テスト、および2月3日（水）※独自試験／延期申請者：3月24日（水）消印有効"
 }
 ]
 },
@@ -46087,7 +46152,8 @@
 }
 ],
 "note": "河合塾Kei-Netの英語の入試対策情報に基づく。試験時間は学部で異なる。"
-}
+},
+"_via": "external-ai"
 },
 "成城大学": {
 "difficulty": {
@@ -46124,7 +46190,8 @@
 "https://search.keinet.ne.jp/2229/outline/expense",
 "https://digitalpr.jp/r/105617",
 "https://search.keinet.ne.jp/2229/outline/licential",
-"https://search.keinet.ne.jp/2229/outline/admission_employment"
+"https://search.keinet.ne.jp/2229/outline/admission_employment",
+"https://admission.seijo.ac.jp/application/files/1517/7828/4324/seijo_2027_A4.pdf"
 ],
 "licenses": [
 "教員免許（中・高 国語・英語・社会・独仏語）",
@@ -46315,34 +46382,62 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-06",
+"schedule": "2026-11-07",
 "money": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"qtrend": "2026-11-07"
+"qtrend": "2026-11-07",
+"_via": "2026-11-07"
 },
 "schedule": {
-"year": "年度表記なし（Kei-Net掲載、出願締切・発表・手続日は11月以降掲載予定）／検定料は2026年度入試",
+"year": "2027年度入試",
 "rows": [
 {
 "kubun": "一般",
-"name": "全学部統一選抜",
+"name": "一般選抜 全学部統一選抜（S方式）",
+"fee": null,
+"apply": "1/5〜1/22",
 "exam": "2/2",
-"fee": 35000,
-"note": "法学部・経済学部の例。Kei-Net受験料ページの備考に「S方式は30,000円」。受験料に割引制度あり"
+"result": "第1回：2/15・第2回：3/1・第3回：3/8",
+"proc": "第1期（入学金）：3/3・第2期：3/11",
+"note": "第2回・3回合格者は要項参照"
 },
 {
 "kubun": "一般",
-"name": "3教科型学部別",
-"exam": "2/3〜2/6から選択",
-"fee": 35000,
-"note": "学部により異なる（法学部2/3〜6、経済学部2/3・2/4・2/6から選択）"
+"name": "一般選抜 学部別選抜（A方式）",
+"fee": null,
+"apply": "1/5〜1/22",
+"exam": "2/3〜2/6",
+"result": "第1回：2/15・第2回：3/1・第3回：3/8・第4回：3/15",
+"proc": "第1期（入学金）：3/4・第2期：3/11",
+"note": "学科により異なる"
 },
 {
 "kubun": "共テ利用",
-"name": "共通テスト利用（3教科型前期・後期、国公併願型等）",
-"fee": 15000,
-"note": "個別試験なし。受験料に割引制度あり"
+"name": "大学入学共通テスト利用選抜（B方式 前期日程）",
+"fee": null,
+"apply": "1/5〜1/15",
+"exam": "1/16・17（共テ）",
+"result": "第1回：2/15・第2回：3/1",
+"proc": "3/11"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜（B方式 後期日程：法・文芸）",
+"fee": null,
+"apply": "2/15〜2/25",
+"exam": "1/16・17（共テ）",
+"result": "3/8",
+"proc": "3/15"
+},
+{
+"kubun": "共テ利用",
+"name": "国公立大学併願型 大学入学共通テスト利用選抜（N方式）",
+"fee": null,
+"apply": "1/5〜1/15",
+"exam": "1/16・17（共テ）",
+"result": "2/15",
+"proc": "3/11"
 }
 ]
 },
@@ -46437,7 +46532,8 @@
 }
 ],
 "note": "河合塾Kei-Netの英語の入試対策情報に基づく。"
-}
+},
+"_via": "external-ai"
 },
 "明治学院大学": {
 "difficulty": {
@@ -46479,7 +46575,10 @@
 "https://search.keinet.ne.jp/2287/outline/expense",
 "https://nrid.nii.ac.jp/ja/nrid/1000040252944",
 "https://search.keinet.ne.jp/2287/outline/licential",
-"https://search.keinet.ne.jp/2287/outline/admission_employment"
+"https://search.keinet.ne.jp/2287/outline/admission_employment",
+"https://www.meijigakuin.ac.jp/admission/information/general_a/",
+"https://www.meijigakuin.ac.jp/admission/information/general_b/",
+"https://www.meijigakuin.ac.jp/admission/guidelines/guide_ippan/pageindices/index59.html"
 ],
 "licenses": [
 "教員免許（幼・小・中・高・特別支援）",
@@ -46731,51 +46830,189 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-06",
-"money": "2026-11-06",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"qtrend": "2026-11-07"
+"qtrend": "2026-11-07",
+"_via": "2026-11-07"
 },
 "schedule": {
-"year": "年度表記なし（Kei-Net掲載、出願締切・発表・手続日は11月以降掲載予定）／検定料は2026年度入試",
+"year": "2027年度入試",
 "rows": [
 {
 "kubun": "一般",
-"name": "全学日程（3教科型・英語外部検定試験利用型）",
-"exam": "2/1",
-"fee": 35000,
-"note": "法学部・心理学部の例。受験料に割引制度あり"
+"name": "一般入学試験（A日程）",
+"fee": null,
+"apply": "1/6〜1/20",
+"exam": "2/3・4・6・7",
+"result": "学科により異なる",
+"proc": "2/25",
+"note": "学科により異なる"
 },
 {
 "kubun": "一般",
-"name": "A日程（3教科型）",
-"exam": "2/3",
-"fee": 35000,
-"note": "学部・学科により異なる（法律2/3、消費情報環境法2/4、政治2/6、グローバル法2/7、心理2/7、教育発達2/3）"
-},
-{
-"kubun": "一般",
-"name": "B日程",
+"name": "一般入学試験（B日程）",
+"fee": null,
+"apply": "2/8〜2/18",
 "exam": "3/2",
-"fee": 35000,
-"note": "法学部の例。心理学部は実施なし"
-},
-{
-"kubun": "共テ利用",
-"name": "共通テスト利用（前期）",
-"fee": 15000,
-"note": "個別試験なし。受験料に割引制度あり"
+"result": "3/13",
+"proc": "3/16"
 }
 ]
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度（予定）",
 "total4": 3664000,
 "total4_note": "法（法律）・経済・社会学部等：入学金＋初年度授業料×4（施設設備費・実習費・諸会費含まず）",
 "admission": 200000,
 "annual": 866000,
-"note": "施設設備費238,500円（主な文系学科）。初年度合計：法（法律）1,346,590円、経済（経済・経営）1,357,410円、社会1,335,090円、心理（心理）1,405,590円、情報数理1,667,590円（授業料1,020,000円）。"
+"note": "施設設備費238,500円（主な文系学科）。初年度合計：法（法律）1,346,590円、経済（経済・経営）1,357,410円、社会1,335,090円、心理（心理）1,405,590円、情報数理1,667,590円（授業料1,020,000円）。",
+"rows": [
+{
+"f": "文学部（英文学科）",
+"admission": 200000,
+"tuition": 866000,
+"facility": 195000,
+"practical": 0,
+"other": 80890,
+"first_year": 1341890,
+"four_year": null,
+"note": "施設費175,000円＋設備費20,000円"
+},
+{
+"f": "文学部（フランス文学科）",
+"admission": 200000,
+"tuition": 866000,
+"facility": 195000,
+"practical": 0,
+"other": 72790,
+"first_year": 1333790,
+"four_year": null
+},
+{
+"f": "文学部（芸術学科）",
+"admission": 200000,
+"tuition": 932000,
+"facility": 195000,
+"practical": 0,
+"other": 92590,
+"first_year": 1419590,
+"four_year": null
+},
+{
+"f": "経済学部（経済学科・経営学科）",
+"admission": 200000,
+"tuition": 866000,
+"facility": 195000,
+"practical": 30000,
+"other": 66410,
+"first_year": 1357410,
+"four_year": null
+},
+{
+"f": "経済学部（国際経営学科）",
+"admission": 200000,
+"tuition": 866000,
+"facility": 195000,
+"practical": 250000,
+"other": 66410,
+"first_year": 1577410,
+"four_year": null,
+"note": "実験実習料に1年次カリキュラム留学費用積立金200,000円を含む"
+},
+{
+"f": "社会学部（社会学科・社会福祉学科）",
+"admission": 200000,
+"tuition": 866000,
+"facility": 195000,
+"practical": 0,
+"other": 74090,
+"first_year": 1335090,
+"four_year": null
+},
+{
+"f": "法学部（法律学科・消費情報環境法学科）",
+"admission": 200000,
+"tuition": 866000,
+"facility": 195000,
+"practical": 0,
+"other": 85590,
+"first_year": 1346590,
+"four_year": null
+},
+{
+"f": "法学部（政治学科）",
+"admission": 200000,
+"tuition": 866000,
+"facility": 195000,
+"practical": 0,
+"other": 76590,
+"first_year": 1337590,
+"four_year": null
+},
+{
+"f": "法学部（グローバル法学科）",
+"admission": 200000,
+"tuition": 866000,
+"facility": 195000,
+"practical": 233000,
+"other": 71400,
+"first_year": 1565400,
+"four_year": null,
+"note": "実験実習料に1年次カリキュラム留学費用積立金200,000円を含む"
+},
+{
+"f": "国際学部（国際学科）",
+"admission": 200000,
+"tuition": 916000,
+"facility": 195000,
+"practical": 0,
+"other": 69400,
+"first_year": 1380400,
+"four_year": null
+},
+{
+"f": "国際学部（国際キャリア学科）",
+"admission": 200000,
+"tuition": 1036000,
+"facility": 195000,
+"practical": 0,
+"other": 114400,
+"first_year": 1545400,
+"four_year": null
+},
+{
+"f": "心理学部（心理学科）",
+"admission": 200000,
+"tuition": 896000,
+"facility": 225000,
+"practical": 0,
+"other": 84590,
+"first_year": 1405590,
+"four_year": null
+},
+{
+"f": "心理学部（教育発達学科）",
+"admission": 200000,
+"tuition": 896000,
+"facility": 225000,
+"practical": 0,
+"other": 164590,
+"first_year": 1485590,
+"four_year": null
+},
+{
+"f": "情報数理学部（情報数理学科）",
+"admission": 200000,
+"tuition": 1020000,
+"facility": 275000,
+"practical": 60000,
+"other": 112590,
+"first_year": 1667590,
+"four_year": null
+}
+]
 },
 "ratios": {
 "kind": "実質倍率（受験者÷合格者。受験者未判明時は志願者÷合格者）",
@@ -46876,7 +47113,8 @@
 }
 ],
 "note": "河合塾Kei-Netの英語の入試対策情報に基づく。"
-}
+},
+"_via": "external-ai"
 },
 "獨協大学": {
 "difficulty": {
@@ -47398,7 +47636,8 @@
 "https://search.keinet.ne.jp/2213/outline/expense",
 "https://www.nichibun.ac.jp/ja/events/uploads/symposium/2025/07/11/Shunya_YOSHIMI_profile.pdf",
 "https://search.keinet.ne.jp/2213/outline/licential",
-"https://search.keinet.ne.jp/2213/outline/admission_employment"
+"https://search.keinet.ne.jp/2213/outline/admission_employment",
+"https://web-pamphlet.jp/kokugakuin/2027p/pageindices/index144.html"
 ],
 "licenses": [
 "教員免許（幼・小・中・高・特別支援）",
@@ -47670,11 +47909,12 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-06",
+"schedule": "2026-11-07",
 "money": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"qtrend": "2026-11-07"
+"qtrend": "2026-11-07",
+"_via": "2026-11-07"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -47788,41 +48028,34 @@
 "note": "1行に一般選抜A日程3教科のボーダー偏差値(hen)と共テ利用V方式（3科目型がある学科は3科目型）のボーダー得点率(kt)を併記。A日程最高得点・特色型・英語外部・B日程は省略。法学部の区分（法律・法律専門職・政治）はKei-Net表記どおり。"
 },
 "schedule": {
-"year": "年度表記なし（Kei-Net掲載、出願締切・発表・手続日は11月以降掲載予定）／検定料は2026年度入試",
+"year": "2027年度入試",
 "rows": [
 {
-"kubun": "一般",
-"name": "A日程（3教科型）",
-"exam": "2/2",
-"fee": 35000,
-"note": "文学部・法学部の例。受験料に割引制度あり"
-},
-{
-"kubun": "一般",
-"name": "A日程（最高得点）",
-"exam": "2/3",
-"fee": 35000,
-"note": ""
-},
-{
-"kubun": "一般",
-"name": "A日程（特色型・英語外部検定利用）",
-"exam": "2/4",
-"fee": 35000,
-"note": ""
-},
-{
-"kubun": "一般",
-"name": "B日程",
-"exam": "3/2",
-"fee": 35000,
-"note": ""
-},
-{
 "kubun": "共テ利用",
-"name": "共通テスト利用 V方式",
-"fee": 18000,
-"note": "個別試験なし。受験料に割引制度あり"
+"name": "大学入学共通テスト利用入試（V方式）",
+"fee": null,
+"apply": "1/4〜1/15",
+"exam": "1/16・17（共テ）",
+"result": "2/15",
+"proc": "1次2/15〜2/19・2次2/24〜3/8"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（A日程）",
+"fee": null,
+"apply": "1/4〜1/21",
+"exam": "2/2・3・4",
+"result": "2/15",
+"proc": "1次2/15〜2/19・2次2/24〜3/8"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（B日程）",
+"fee": null,
+"apply": "1/4〜2/19",
+"exam": "3/2",
+"result": "3/13",
+"proc": "3/13〜3/18"
 }
 ]
 },
@@ -47925,7 +48158,8 @@
 }
 ],
 "note": "河合塾Kei-Netの英語の入試対策情報に基づく。学部別の区分は出典になし。"
-}
+},
+"_via": "external-ai"
 },
 "武蔵大学": {
 "difficulty": {
@@ -49328,7 +49562,8 @@
 "https://www.jef.or.jp/Ken_Sakamura_2018_3-4.pdf",
 "https://search.keinet.ne.jp/2265/outline/licential",
 "https://search.keinet.ne.jp/2265/outline/admission_employment",
-"https://www.toyo.ac.jp/nyushi/admission/general/"
+"https://www.toyo.ac.jp/nyushi/admission/general/",
+"https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/home/exam_schedule_2027.pdf"
 ],
 "licenses": [
 "教員免許（幼・小・中・高・特別支援・栄養・養護）",
@@ -50003,10 +50238,55 @@
 "kubun": "一般",
 "name": "一般入試（前期）",
 "fee": null,
-"apply": null,
+"apply": "1/4〜1/28",
 "exam": "2/8〜2/11",
 "result": "2/20",
-"proc": null
+"proc": "2/26"
+},
+{
+"kubun": "一般",
+"name": "一般入試（後期）",
+"fee": null,
+"apply": "1/4〜2/25",
+"exam": "3/5",
+"result": "3/15",
+"proc": "3/23"
+},
+{
+"kubun": "一般",
+"name": "多面的評価入試（前期）",
+"fee": null,
+"apply": "1/4〜1/15",
+"exam": "2/1",
+"result": "2/6",
+"proc": "2/26"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用入試（前期）",
+"fee": null,
+"apply": "1/4〜1/15",
+"exam": "1/16・17（共テ）",
+"result": "2/16",
+"proc": "2/26"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用入試（後期①）",
+"fee": null,
+"apply": "1/4〜2/25",
+"exam": "1/16・17（共テ）",
+"result": "3/15",
+"proc": "3/23"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用入試（後期②）",
+"fee": null,
+"apply": "1/4〜3/8",
+"exam": "1/16・17（共テ）",
+"result": "3/19",
+"proc": "3/23"
 }
 ]
 },
