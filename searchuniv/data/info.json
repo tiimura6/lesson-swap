@@ -49149,31 +49149,90 @@
 ]
 },
 "money": {
-"year": "2026年度参考",
+"year": "2026年度",
 "total4": 3400000,
 "total4_note": "全学部共通：入学金＋初年度授業料×4（施設設備費・諸会費含まず）",
 "admission": 200000,
 "annual": 800000,
-"note": "授業料は全学部800,000円。施設設備費240,000円（文系）・340,000円（理工）。初年度合計：文系各学部1,271,300円、理工1,371,300円（諸会費31,300円含む）。",
+"note": "授業料は全学部800,000円。施設設備費240,000円（文系）・340,000円（理工）。初年度合計：文系各学部1,271,300円、理工1,371,300円（諸会費31,300円含む）。 その他は諸会費31,300円。前期分を分納する場合は入学手続延期手数料33,000円が必要（Kei-Net 2026年度入学者用）。",
 "rows": [
 {
-"f": "人文学部・外国語学部・経済学部・経営学部・法学部・総合政策学部・国際教養学部",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": 0,
-"other": null,
+"f": "外国語学部",
+"admission": 200000,
+"tuition": 800000,
+"facility": 240000,
+"practical": null,
+"other": 31300,
 "first_year": 1271300,
-"four_year": null,
-"note": "学会費やその他の費用が別途必要な場合あり"
+"four_year": null
+},
+{
+"f": "人文学部",
+"admission": 200000,
+"tuition": 800000,
+"facility": 240000,
+"practical": null,
+"other": 31300,
+"first_year": 1271300,
+"four_year": null
+},
+{
+"f": "国際教養学部",
+"admission": 200000,
+"tuition": 800000,
+"facility": 240000,
+"practical": null,
+"other": 31300,
+"first_year": 1271300,
+"four_year": null
+},
+{
+"f": "法学部",
+"admission": 200000,
+"tuition": 800000,
+"facility": 240000,
+"practical": null,
+"other": 31300,
+"first_year": 1271300,
+"four_year": null
+},
+{
+"f": "総合政策学部",
+"admission": 200000,
+"tuition": 800000,
+"facility": 240000,
+"practical": null,
+"other": 31300,
+"first_year": 1271300,
+"four_year": null
+},
+{
+"f": "経済学部",
+"admission": 200000,
+"tuition": 800000,
+"facility": 240000,
+"practical": null,
+"other": 31300,
+"first_year": 1271300,
+"four_year": null
+},
+{
+"f": "経営学部",
+"admission": 200000,
+"tuition": 800000,
+"facility": 240000,
+"practical": null,
+"other": 31300,
+"first_year": 1271300,
+"four_year": null
 },
 {
 "f": "理工学部",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": 0,
-"other": null,
+"admission": 200000,
+"tuition": 800000,
+"facility": 340000,
+"practical": null,
+"other": 31300,
 "first_year": 1371300,
 "four_year": null
 }
@@ -49999,7 +50058,7 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "schedule": "2026-11-07",
-"money": "2026-11-06",
+"money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
@@ -50106,7 +50165,59 @@
 "total4_note": "文・法・経済・経営学部：入学金＋初年度授業料×4（施設/教育充実費含まず）",
 "admission": 200000,
 "annual": 855000,
-"note": "施設/教育充実費300,000円（文系）・520,000円（理工）。初年度合計：文・法・経済・経営1,355,000円、国際共創1,455,000円、理工1,800,000円（授業料1,080,000円）。"
+"note": "施設/教育充実費300,000円（文系）・520,000円（理工）。初年度合計：文・法・経済・経営1,355,000円、国際共創1,455,000円、理工1,800,000円（授業料1,080,000円）。 別途 同窓会費36,600円とノートパソコンの準備が必要（Kei-Net 2026年度入学者用）。",
+"rows": [
+{
+"f": "経済学部",
+"admission": 200000,
+"tuition": 855000,
+"facility": 300000,
+"practical": null,
+"other": null,
+"first_year": 1355000,
+"four_year": null
+},
+{
+"f": "経営学部（総合経営学科）",
+"admission": 200000,
+"tuition": 855000,
+"facility": 300000,
+"practical": null,
+"other": null,
+"first_year": 1355000,
+"four_year": null
+},
+{
+"f": "法学部",
+"admission": 200000,
+"tuition": 855000,
+"facility": 300000,
+"practical": null,
+"other": null,
+"first_year": 1355000,
+"four_year": null
+},
+{
+"f": "国際共創学部",
+"admission": 200000,
+"tuition": 955000,
+"facility": 300000,
+"practical": null,
+"other": null,
+"first_year": 1455000,
+"four_year": null
+},
+{
+"f": "理工学部",
+"admission": 200000,
+"tuition": 1080000,
+"facility": 520000,
+"practical": null,
+"other": null,
+"first_year": 1800000,
+"four_year": null
+}
+]
 },
 "ratios": {
 "kind": "実質倍率（受験者÷合格者。受験者未判明時は志願者÷合格者）",
@@ -50643,7 +50754,8 @@
 "https://search.keinet.ne.jp/2287/outline/admission_employment",
 "https://www.meijigakuin.ac.jp/admission/information/general_a/",
 "https://www.meijigakuin.ac.jp/admission/information/general_b/",
-"https://www.meijigakuin.ac.jp/admission/guidelines/guide_ippan/pageindices/index59.html"
+"https://www.meijigakuin.ac.jp/admission/guidelines/guide_ippan/pageindices/index59.html",
+"https://search.keinet.ne.jp/2287/topics/12"
 ],
 "licenses": [
 "教員免許（幼・小・中・高・特別支援）",
@@ -50907,13 +51019,23 @@
 "rows": [
 {
 "kubun": "一般",
+"name": "一般入学試験（全学部日程）",
+"fee": null,
+"apply": "1/6〜1/20",
+"exam": "2/1",
+"result": "2/16",
+"proc": "2/25",
+"note": "全学部・全学科"
+},
+{
+"kubun": "一般",
 "name": "一般入学試験（A日程）",
 "fee": null,
 "apply": "1/6〜1/20",
 "exam": "2/3・4・6・7",
-"result": "学科により異なる",
+"result": "2/17・2/18（試験日により異なる）",
 "proc": "2/25",
-"note": "学科により異なる"
+"note": "学科により異なる（2/3・2/4試験→2/17発表、2/6・2/7試験→2/18発表）"
 },
 {
 "kubun": "一般",
@@ -50923,6 +51045,26 @@
 "exam": "3/2",
 "result": "3/13",
 "proc": "3/16"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用入学試験（前期）",
+"fee": null,
+"apply": "1/6〜1/15",
+"exam": "1/16・17（共テ）",
+"result": "2/16",
+"proc": "2/25",
+"note": "法学部グローバル法学科を除く全学部"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用入学試験（後期）",
+"fee": null,
+"apply": "2/8〜2/26",
+"exam": "1/16・17（共テ）",
+"result": "3/13",
+"proc": "3/16",
+"note": "対象：文（英文）、経済（経済・国際経営）、社会（社会）"
 }
 ]
 },
@@ -51975,7 +52117,7 @@
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
 "schedule": "2026-11-07",
-"money": "2026-11-06",
+"money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
@@ -52130,7 +52272,70 @@
 "total4_note": "文・法・経済学部：入学金＋初年度授業料×4（施設/教育充実費・諸会費含まず）",
 "admission": 240000,
 "annual": 830000,
-"note": "施設/教育充実費220,000円（文・法・経済）。初年度合計：文1,315,300円、法1,318,300円、経済1,317,300円、人間開発1,375,300円（授業料850,000円）、観光まちづくり1,325,300円。"
+"note": "施設/教育充実費220,000円（文・法・経済）。初年度合計：文1,315,300円、法1,318,300円、経済1,317,300円、人間開発1,375,300円（授業料850,000円）、観光まちづくり1,325,300円。 履修する授業により別途費用あり（Kei-Net 2026年度入学者用）。",
+"rows": [
+{
+"f": "文学部",
+"admission": 240000,
+"tuition": 830000,
+"facility": 220000,
+"practical": null,
+"other": 25300,
+"first_year": 1315300,
+"four_year": null,
+"note": "その他は諸会費。中国文学科は中国学会費2,000円を別途徴収"
+},
+{
+"f": "神道文化学部",
+"admission": 240000,
+"tuition": 830000,
+"facility": 220000,
+"practical": null,
+"other": 25300,
+"first_year": 1315300,
+"four_year": null
+},
+{
+"f": "法学部",
+"admission": 240000,
+"tuition": 830000,
+"facility": 220000,
+"practical": null,
+"other": 28300,
+"first_year": 1318300,
+"four_year": null
+},
+{
+"f": "経済学部",
+"admission": 240000,
+"tuition": 830000,
+"facility": 220000,
+"practical": null,
+"other": 27300,
+"first_year": 1317300,
+"four_year": null
+},
+{
+"f": "人間開発学部",
+"admission": 240000,
+"tuition": 850000,
+"facility": 260000,
+"practical": null,
+"other": 25300,
+"first_year": 1375300,
+"four_year": null
+},
+{
+"f": "観光まちづくり学部",
+"admission": 240000,
+"tuition": 800000,
+"facility": 260000,
+"practical": null,
+"other": 25300,
+"first_year": 1325300,
+"four_year": null
+}
+]
 },
 "ratios": {
 "kind": "実質倍率（受験者÷合格者。受験者未判明時は志願者÷合格者）",
@@ -52464,7 +52669,7 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "schedule": "2026-11-07",
-"money": "2026-11-06",
+"money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
@@ -52526,7 +52731,51 @@
 "total4_note": "人文・経済学部：入学金＋初年度授業料×4（施設/教育充実費・諸会費含まず）",
 "admission": 240000,
 "annual": 800000,
-"note": "施設/教育充実費320,000円（全学部）。初年度合計：人文・経済1,389,100円、社会1,409,100円（授業料820,000円）、国際教養1,589,100円（授業料1,000,000円）。諸会費29,100円含む。"
+"note": "施設/教育充実費320,000円（全学部）。初年度合計：人文・経済1,389,100円、社会1,409,100円（授業料820,000円）、国際教養1,589,100円（授業料1,000,000円）。諸会費29,100円含む。 その他は諸会費（Kei-Net 2026年度入学者用）。",
+"rows": [
+{
+"f": "人文学部",
+"admission": 240000,
+"tuition": 800000,
+"facility": 320000,
+"practical": null,
+"other": 29100,
+"first_year": 1389100,
+"four_year": null
+},
+{
+"f": "経済学部",
+"admission": 240000,
+"tuition": 800000,
+"facility": 320000,
+"practical": null,
+"other": 29100,
+"first_year": 1389100,
+"four_year": null
+},
+{
+"f": "社会学部",
+"admission": 240000,
+"tuition": 820000,
+"facility": 320000,
+"practical": null,
+"other": 29100,
+"first_year": 1409100,
+"four_year": null,
+"note": "グローバル・データサイエンスコースはコース指導料 年60,000円が別途必要"
+},
+{
+"f": "国際教養学部",
+"admission": 240000,
+"tuition": 1000000,
+"facility": 320000,
+"practical": null,
+"other": 29100,
+"first_year": 1589100,
+"four_year": null,
+"note": "経済経営学専攻でロンドン大学とのPDPを履修する場合は別途PDP授業料等が必要"
+}
+]
 },
 "ratios": {
 "kind": "実質倍率（受験者÷合格者。受験者未判明時は志願者÷合格者）",
@@ -52654,7 +52903,8 @@
 "https://chs.nihon-u.ac.jp/wp-content/uploads/2025/12/R6_02古川隆久.pdf",
 "https://search.keinet.ne.jp/2267/outline/licential",
 "https://search.keinet.ne.jp/2267/outline/admission_employment",
-"https://www.med.nihon-u.ac.jp/examinee/guidance.php"
+"https://www.med.nihon-u.ac.jp/examinee/guidance.php",
+"https://www.nihon-u.ac.jp/assets/ippan_i_260519.pdf"
 ],
 "licenses": [
 "医師・歯科医師・薬剤師・獣医師 国家試験受験資格",
@@ -53031,7 +53281,7 @@
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
 "schedule": "2026-11-07",
-"money": "2026-11-06",
+"money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
@@ -53438,7 +53688,7 @@
 "apply": "1/5〜1/22",
 "exam": "2/1",
 "result": "2/8〜2/17",
-"proc": null,
+"proc": "2/24（二段階手続の最終締切3/11）",
 "note": "医学部第2次：2月11日（木）／芸術学部専門試験併用型：2月2日～8日／学部により異なる"
 },
 {
@@ -53448,7 +53698,7 @@
 "apply": "1/5〜2/25",
 "exam": "3/4",
 "result": "3/12〜3/15",
-"proc": null,
+"proc": "3/26",
 "note": "医学部第2次：3月17日（水）／医学部第2次：3月23日（火）"
 },
 {
@@ -53499,7 +53749,409 @@
 "total4_note": "法学部：入学金＋初年度授業料×4（施設/教育充実費・実習費・校友会費等含まず）",
 "admission": 260000,
 "annual": 810000,
-"note": "初年度合計：法1,260,000円、経済・商1,240,000円、文理（哲・英文・ドイツ文）1,290,000円、理工（土木工など）1,730,000円（授業料1,150,000円）、生産工1,660,000円、薬2,450,000円、医6,350,000円、歯6,900,000円。校友会費・後援会費等は別途。"
+"note": "初年度合計：法1,260,000円、経済・商1,240,000円、文理（哲・英文・ドイツ文）1,290,000円、理工（土木工など）1,730,000円（授業料1,150,000円）、生産工1,660,000円、薬2,450,000円、医6,350,000円、歯6,900,000円。校友会費・後援会費等は別途。 別途 校友会費 毎年1万円、後援会費・維持会費等 毎年1〜4万円。履修により履修費・実習費が別途必要（Kei-Net 2026年度入学者用）。",
+"rows": [
+{
+"f": "文理学部（哲・英文・ドイツ文）",
+"admission": 260000,
+"tuition": 830000,
+"facility": 190000,
+"practical": 10000,
+"other": null,
+"first_year": 1290000,
+"four_year": null
+},
+{
+"f": "文理学部（史・国文）",
+"admission": 260000,
+"tuition": 830000,
+"facility": 190000,
+"practical": 20000,
+"other": null,
+"first_year": 1300000,
+"four_year": null
+},
+{
+"f": "文理学部（中国語中国文化・社会・教育）",
+"admission": 260000,
+"tuition": 830000,
+"facility": 190000,
+"practical": 25000,
+"other": null,
+"first_year": 1305000,
+"four_year": null
+},
+{
+"f": "文理学部（社会福祉）",
+"admission": 260000,
+"tuition": 830000,
+"facility": 200000,
+"practical": 60000,
+"other": null,
+"first_year": 1350000,
+"four_year": null
+},
+{
+"f": "文理学部（体育）",
+"admission": 260000,
+"tuition": 830000,
+"facility": 220000,
+"practical": 80000,
+"other": null,
+"first_year": 1390000,
+"four_year": null
+},
+{
+"f": "文理学部（心理）",
+"admission": 260000,
+"tuition": 830000,
+"facility": 220000,
+"practical": 70000,
+"other": null,
+"first_year": 1380000,
+"four_year": null
+},
+{
+"f": "文理学部（地理）",
+"admission": 260000,
+"tuition": 1060000,
+"facility": 240000,
+"practical": 60000,
+"other": null,
+"first_year": 1620000,
+"four_year": null
+},
+{
+"f": "文理学部（地球科学）",
+"admission": 260000,
+"tuition": 1100000,
+"facility": 240000,
+"practical": 60000,
+"other": null,
+"first_year": 1660000,
+"four_year": null
+},
+{
+"f": "文理学部（数学）",
+"admission": 260000,
+"tuition": 1100000,
+"facility": 240000,
+"practical": 70000,
+"other": null,
+"first_year": 1670000,
+"four_year": null
+},
+{
+"f": "文理学部（情報科学）",
+"admission": 260000,
+"tuition": 1100000,
+"facility": 240000,
+"practical": 80000,
+"other": null,
+"first_year": 1680000,
+"four_year": null
+},
+{
+"f": "文理学部（物理）",
+"admission": 260000,
+"tuition": 1100000,
+"facility": 240000,
+"practical": 110000,
+"other": null,
+"first_year": 1710000,
+"four_year": null
+},
+{
+"f": "文理学部（生命科学・化学）",
+"admission": 260000,
+"tuition": 1100000,
+"facility": 240000,
+"practical": 140000,
+"other": null,
+"first_year": 1740000,
+"four_year": null
+},
+{
+"f": "国際関係学部",
+"admission": 260000,
+"tuition": 890000,
+"facility": 200000,
+"practical": null,
+"other": null,
+"first_year": 1350000,
+"four_year": null
+},
+{
+"f": "法学部",
+"admission": 260000,
+"tuition": 810000,
+"facility": 190000,
+"practical": null,
+"other": null,
+"first_year": 1260000,
+"four_year": null
+},
+{
+"f": "経済学部",
+"admission": 260000,
+"tuition": 810000,
+"facility": 170000,
+"practical": null,
+"other": null,
+"first_year": 1240000,
+"four_year": null
+},
+{
+"f": "商学部",
+"admission": 260000,
+"tuition": 810000,
+"facility": 170000,
+"practical": null,
+"other": null,
+"first_year": 1240000,
+"four_year": null
+},
+{
+"f": "工学部",
+"admission": 260000,
+"tuition": 1100000,
+"facility": 220000,
+"practical": 80000,
+"other": null,
+"first_year": 1660000,
+"four_year": null
+},
+{
+"f": "生産工学部",
+"admission": 260000,
+"tuition": 1100000,
+"facility": 220000,
+"practical": 80000,
+"other": null,
+"first_year": 1660000,
+"four_year": null
+},
+{
+"f": "理工学部（数学科以外）",
+"admission": 260000,
+"tuition": 1150000,
+"facility": 220000,
+"practical": 100000,
+"other": null,
+"first_year": 1730000,
+"four_year": null
+},
+{
+"f": "理工学部（数学）",
+"admission": 260000,
+"tuition": 1150000,
+"facility": 220000,
+"practical": 60000,
+"other": null,
+"first_year": 1690000,
+"four_year": null
+},
+{
+"f": "生物資源科学部（バイオサイエンス・動物・海洋生物・森林・環境・アグリサイエンス・食品開発・獣医保健看護）",
+"admission": 260000,
+"tuition": 1050000,
+"facility": 200000,
+"practical": 150000,
+"other": null,
+"first_year": 1660000,
+"four_year": null
+},
+{
+"f": "生物資源科学部（獣医）",
+"admission": 260000,
+"tuition": 1500000,
+"facility": 350000,
+"practical": 300000,
+"other": null,
+"first_year": 2410000,
+"four_year": null
+},
+{
+"f": "生物資源科学部（食品ビジネス・国際共生）",
+"admission": 260000,
+"tuition": 850000,
+"facility": 170000,
+"practical": 100000,
+"other": null,
+"first_year": 1380000,
+"four_year": null
+},
+{
+"f": "医学部",
+"admission": 1000000,
+"tuition": 2500000,
+"facility": 2500000,
+"practical": 350000,
+"other": null,
+"first_year": 6350000,
+"four_year": null
+},
+{
+"f": "歯学部",
+"admission": 600000,
+"tuition": 3500000,
+"facility": 2800000,
+"practical": null,
+"other": null,
+"first_year": 6900000,
+"four_year": null
+},
+{
+"f": "松戸歯学部",
+"admission": 600000,
+"tuition": 3500000,
+"facility": 2800000,
+"practical": null,
+"other": null,
+"first_year": 6900000,
+"four_year": null
+},
+{
+"f": "薬学部",
+"admission": 400000,
+"tuition": 1400000,
+"facility": 650000,
+"practical": null,
+"other": null,
+"first_year": 2450000,
+"four_year": null
+},
+{
+"f": "芸術学部（写真）",
+"admission": 260000,
+"tuition": 1110000,
+"facility": 400000,
+"practical": 100000,
+"other": null,
+"first_year": 1870000,
+"four_year": null
+},
+{
+"f": "芸術学部（映画〈映像表現・理論〉）",
+"admission": 260000,
+"tuition": 1140000,
+"facility": 400000,
+"practical": 100000,
+"other": null,
+"first_year": 1900000,
+"four_year": null
+},
+{
+"f": "芸術学部（映画〈監督、撮影・録音〉）",
+"admission": 260000,
+"tuition": 1140000,
+"facility": 400000,
+"practical": 150000,
+"other": null,
+"first_year": 1950000,
+"four_year": null
+},
+{
+"f": "芸術学部（映画〈演技〉）",
+"admission": 260000,
+"tuition": 1140000,
+"facility": 400000,
+"practical": 80000,
+"other": null,
+"first_year": 1880000,
+"four_year": null
+},
+{
+"f": "芸術学部（美術）",
+"admission": 260000,
+"tuition": 1100000,
+"facility": 400000,
+"practical": 120000,
+"other": null,
+"first_year": 1880000,
+"four_year": null
+},
+{
+"f": "芸術学部（音楽）",
+"admission": 260000,
+"tuition": 1110000,
+"facility": 400000,
+"practical": 120000,
+"other": null,
+"first_year": 1890000,
+"four_year": null
+},
+{
+"f": "芸術学部（文芸）",
+"admission": 260000,
+"tuition": 1040000,
+"facility": 400000,
+"practical": 50000,
+"other": null,
+"first_year": 1750000,
+"four_year": null
+},
+{
+"f": "芸術学部（演劇）",
+"admission": 260000,
+"tuition": 1110000,
+"facility": 400000,
+"practical": 70000,
+"other": null,
+"first_year": 1840000,
+"four_year": null
+},
+{
+"f": "芸術学部（放送）",
+"admission": 260000,
+"tuition": 1140000,
+"facility": 400000,
+"practical": 100000,
+"other": null,
+"first_year": 1900000,
+"four_year": null
+},
+{
+"f": "芸術学部（デザイン）",
+"admission": 260000,
+"tuition": 1100000,
+"facility": 400000,
+"practical": 90000,
+"other": null,
+"first_year": 1850000,
+"four_year": null
+},
+{
+"f": "スポーツ科学部",
+"admission": 260000,
+"tuition": 800000,
+"facility": 300000,
+"practical": 100000,
+"other": null,
+"first_year": 1460000,
+"four_year": null
+},
+{
+"f": "危機管理学部",
+"admission": 260000,
+"tuition": 860000,
+"facility": 200000,
+"practical": null,
+"other": null,
+"first_year": 1320000,
+"four_year": null
+},
+{
+"f": "法学部第二部（法律）",
+"admission": 160000,
+"tuition": 470000,
+"facility": 100000,
+"practical": null,
+"other": null,
+"first_year": 730000,
+"four_year": null
+}
+]
 },
 "ratios": {
 "kind": "実質倍率（受験者÷合格者。受験者未判明時は志願者÷合格者）",
@@ -53976,7 +54628,7 @@
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
 "schedule": "2026-11-07",
-"money": "2026-11-06",
+"money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
@@ -54361,7 +55013,209 @@
 "total4_note": "文・法・経済・経営学部等：入学金＋初年度授業料×4（施設/教育充実費・実習費・諸会費含まず）",
 "admission": 250000,
 "annual": 790000,
-"note": "施設/教育充実費220,000円（同学部）。初年度合計：法・経済・経営・文（主な学科）1,265,000円、国際・国際観光1,335,000円、理工1,690,000円（授業料1,090,000円）、生命科学・食環境科学1,715,000円、情報連携1,675,000円。第2部・イブニングは初年度710,000円。"
+"note": "施設/教育充実費220,000円（同学部）。初年度合計：法・経済・経営・文（主な学科）1,265,000円、国際・国際観光1,335,000円、理工1,690,000円（授業料1,090,000円）、生命科学・食環境科学1,715,000円、情報連携1,675,000円。第2部・イブニングは初年度710,000円。 その他は諸会費5,000円。史学科は学会費6,000円、履修科目・コースにより各種実習料が別途必要（Kei-Net 2026年度入学者用）。",
+"rows": [
+{
+"f": "文学部（哲・東洋思想文化・日本文学文化・英米文・史・教育〈人間発達〉・国際文化コミュニケーション）",
+"admission": 250000,
+"tuition": 790000,
+"facility": 220000,
+"practical": null,
+"other": 5000,
+"first_year": 1265000,
+"four_year": null
+},
+{
+"f": "文学部（教育〈初等教育〉）",
+"admission": 250000,
+"tuition": 900000,
+"facility": 250000,
+"practical": null,
+"other": 5000,
+"first_year": 1405000,
+"four_year": null
+},
+{
+"f": "社会学部（社会）",
+"admission": 250000,
+"tuition": 790000,
+"facility": 220000,
+"practical": null,
+"other": 5000,
+"first_year": 1265000,
+"four_year": null
+},
+{
+"f": "社会学部（国際社会・社会心理）",
+"admission": 250000,
+"tuition": 790000,
+"facility": 235000,
+"practical": null,
+"other": 5000,
+"first_year": 1280000,
+"four_year": null
+},
+{
+"f": "社会学部（メディアコミュニケーション）",
+"admission": 250000,
+"tuition": 790000,
+"facility": 230000,
+"practical": null,
+"other": 5000,
+"first_year": 1275000,
+"four_year": null
+},
+{
+"f": "国際観光学部",
+"admission": 250000,
+"tuition": 860000,
+"facility": 220000,
+"practical": null,
+"other": 5000,
+"first_year": 1335000,
+"four_year": null
+},
+{
+"f": "福祉社会デザイン学部（社会福祉・子ども支援）",
+"admission": 250000,
+"tuition": 830000,
+"facility": 240000,
+"practical": 40000,
+"other": 5000,
+"first_year": 1365000,
+"four_year": null
+},
+{
+"f": "福祉社会デザイン学部（人間環境デザイン）",
+"admission": 250000,
+"tuition": 890000,
+"facility": 300000,
+"practical": 100000,
+"other": 5000,
+"first_year": 1545000,
+"four_year": null
+},
+{
+"f": "国際学部",
+"admission": 250000,
+"tuition": 860000,
+"facility": 220000,
+"practical": null,
+"other": 5000,
+"first_year": 1335000,
+"four_year": null
+},
+{
+"f": "法学部",
+"admission": 250000,
+"tuition": 790000,
+"facility": 220000,
+"practical": null,
+"other": 5000,
+"first_year": 1265000,
+"four_year": null
+},
+{
+"f": "経済学部",
+"admission": 250000,
+"tuition": 790000,
+"facility": 220000,
+"practical": null,
+"other": 5000,
+"first_year": 1265000,
+"four_year": null
+},
+{
+"f": "経営学部",
+"admission": 250000,
+"tuition": 790000,
+"facility": 220000,
+"practical": null,
+"other": 5000,
+"first_year": 1265000,
+"four_year": null
+},
+{
+"f": "理工学部",
+"admission": 250000,
+"tuition": 1090000,
+"facility": 260000,
+"practical": 85000,
+"other": 5000,
+"first_year": 1690000,
+"four_year": null
+},
+{
+"f": "生命科学部",
+"admission": 250000,
+"tuition": 1020000,
+"facility": 360000,
+"practical": 80000,
+"other": 5000,
+"first_year": 1715000,
+"four_year": null
+},
+{
+"f": "食環境科学部",
+"admission": 250000,
+"tuition": 1020000,
+"facility": 360000,
+"practical": 80000,
+"other": 5000,
+"first_year": 1715000,
+"four_year": null
+},
+{
+"f": "健康スポーツ科学部（健康スポーツ科学）",
+"admission": 250000,
+"tuition": 870000,
+"facility": 300000,
+"practical": 80000,
+"other": 5000,
+"first_year": 1505000,
+"four_year": null
+},
+{
+"f": "健康スポーツ科学部（栄養科学）",
+"admission": 250000,
+"tuition": 920000,
+"facility": 300000,
+"practical": 80000,
+"other": 5000,
+"first_year": 1555000,
+"four_year": null
+},
+{
+"f": "総合情報学部",
+"admission": 250000,
+"tuition": 1030000,
+"facility": 260000,
+"practical": 40000,
+"other": 5000,
+"first_year": 1585000,
+"four_year": null
+},
+{
+"f": "情報連携学部",
+"admission": 250000,
+"tuition": 1100000,
+"facility": 320000,
+"practical": null,
+"other": 5000,
+"first_year": 1675000,
+"four_year": null
+},
+{
+"f": "第2部・イブニングコース（文・社会・法・経済・経営・国際〈地域総合〉）",
+"admission": 180000,
+"tuition": 430000,
+"facility": 100000,
+"practical": null,
+"other": null,
+"first_year": 710000,
+"four_year": null
+}
+]
 },
 "ratios": {
 "kind": "志願者÷合格者（受験者数が出典に無いため）",
@@ -140524,6 +141378,158 @@ null
 "https://search.keinet.ne.jp/1706/general/exam_subject",
 "https://search.keinet.ne.jp/1706/outline/admission_employment",
 "https://www.okinawa-nurs.ac.jp/wp-content/uploads/2024/04/沖縄県立看護大学_大学案内2024_見開き.pdf"
+]
+},
+"沖縄県立芸術大学": {
+"faculties": [
+"美術工芸学部",
+"音楽学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"students": "2026-11-07",
+"founded": "2026-11-07",
+"access": "2026-11-07",
+"kyotsu": "2026-11-07",
+"licenses": "2026-11-07",
+"careers": "2026-11-07"
+},
+"departments": [
+{
+"f": "美術工芸学部",
+"d": [
+"美術学科 絵画",
+"美術学科 彫刻",
+"美術学科 芸術学",
+"デザイン工芸学科 デザイン",
+"デザイン工芸学科 工芸"
+]
+},
+{
+"f": "音楽学部",
+"d": [
+"音楽学科 音楽表現専攻",
+"音楽学科 音楽文化専攻",
+"音楽学科 琉球芸能専攻"
+]
+}
+],
+"students": {
+"count": 491,
+"year": 2025
+},
+"founded": "1986年4月開学（2021年 公立大学法人化）",
+"access": "首里当蔵キャンパス（那覇市首里当蔵町）と首里崎山キャンパス（那覇市首里崎山町：彫刻・デザイン・工芸）",
+"kyotsu": {
+"kamoku": "3教科3科目",
+"kyoka": [
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "全専攻でR:L=1:1（芸術学は英語200点、他は100点）",
+"note": "個別は実技・面接中心（芸術学は小論文または実技、音楽文化は小論文）。多くの専攻で共テ300点：個別700点",
+"year": "2027年度入試"
+},
+"licenses": [
+"中学校教諭一種（美術・音楽）",
+"高等学校教諭一種（美術・音楽・工芸）",
+"学芸員"
+],
+"careers": "2024年度学部卒業者99人のうち就職53人・進学29人（美術24人中就職13・進学2、デザイン工芸39人中就職27・進学9、音楽36人中就職13・進学18）。",
+"sources": [
+"https://search.keinet.ne.jp/1705",
+"https://search.keinet.ne.jp/1705/outline/department",
+"https://search.keinet.ne.jp/1705/general/exam_subject",
+"https://search.keinet.ne.jp/1705/outline/admission_employment",
+"https://search.keinet.ne.jp/1705/outline/licential"
+]
+},
+"熊本県立大学": {
+"faculties": [
+"文学部",
+"総合管理学部",
+"環境共生学部",
+"半導体学部（2027年4月設置予定）"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"students": "2026-11-07",
+"founded": "2026-11-07",
+"access": "2026-11-07",
+"kyotsu": "2026-11-07",
+"licenses": "2026-11-07",
+"careers": "2026-11-07"
+},
+"departments": [
+{
+"f": "文学部",
+"d": [
+"日本語日本文学科",
+"グローバル・スタディーズ学科"
+]
+},
+{
+"f": "総合管理学部",
+"d": [
+"総合管理学科"
+]
+},
+{
+"f": "環境共生学部",
+"d": [
+"環境共生学科 環境資源学専攻",
+"環境共生学科 居住環境学専攻",
+"環境共生学科 食健康環境学専攻"
+]
+},
+{
+"f": "半導体学部",
+"d": [
+"半導体学科"
+]
+}
+],
+"students": {
+"count": 2114,
+"year": 2025
+},
+"founded": "1947年 熊本県立女子専門学校として創立、1949年 熊本女子大学開学、1994年 熊本県立大学に改称",
+"access": "月出キャンパス（熊本市東区月出3丁目）",
+"kyotsu": {
+"kamoku": "4教科4科目〜6教科6科目",
+"kyoka": [
+4,
+5,
+6
+],
+"rl": [
+"4:1"
+],
+"rl_text": "全学科でR:L=4:1",
+"note": "総合管理A方式は6教科、B方式は4教科。半導体学科・環境共生学部は理型の指定。英語の配点は学科で異なる（100〜250点）",
+"year": "2027年度入試"
+},
+"licenses": [
+"中学校・高等学校教諭一種（国語・英語・社会/公民・情報・商業・理科・家庭・農業）",
+"栄養教諭一種",
+"管理栄養士国家試験受験資格",
+"栄養士",
+"一級・二級建築士受験資格",
+"食品衛生監視員",
+"社会調査士",
+"社会福祉主事"
+],
+"careers": "2024年度学部卒業者475人のうち就職415人・進学26人（総合管理学科は280人中就職257人）。",
+"sources": [
+"https://search.keinet.ne.jp/1700",
+"https://search.keinet.ne.jp/1700/outline/department",
+"https://search.keinet.ne.jp/1700/general/exam_subject",
+"https://search.keinet.ne.jp/1700/outline/admission_employment",
+"https://search.keinet.ne.jp/1700/outline/licential"
 ]
 }
 }

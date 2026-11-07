@@ -1,20 +1,6 @@
 {
  "add": [
   {
-   "name": "沖縄県立芸術大学",
-   "type": "公立",
-   "pref": "沖縄県",
-   "hp": "http://www.okigei.ac.jp/",
-   "cat": "public"
-  },
-  {
-   "name": "熊本県立大学",
-   "type": "公立",
-   "pref": "熊本県",
-   "hp": "http://www.pu-kumamoto.ac.jp/index.php",
-   "cat": "public"
-  },
-  {
    "name": "福岡女子大学",
    "type": "公立",
    "pref": "福岡県",
@@ -3350,6 +3336,83 @@
    "need": [
     "fees"
    ]
+  },
+  {
+   "name": "沖縄県立芸術大学",
+   "type": "公立",
+   "pref": "沖縄県",
+   "hp": "http://www.okigei.ac.jp/",
+   "cat": "public"
+  },
+  {
+   "name": "熊本県立大学",
+   "type": "公立",
+   "pref": "熊本県",
+   "hp": "http://www.pu-kumamoto.ac.jp/index.php",
+   "cat": "public"
+  },
+  {
+   "name": "成蹊大学",
+   "keinet": "2228",
+   "passnavi": 2540,
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "南山大学",
+   "keinet": "2460",
+   "passnavi": 3820,
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "國學院大學",
+   "keinet": "2213",
+   "passnavi": 2400,
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "武蔵大学",
+   "keinet": "2281",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "東洋大学",
+   "keinet": "2265",
+   "passnavi": 2910,
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "日本大学",
+   "keinet": "2267",
+   "passnavi": 2930,
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "明治学院大学",
+   "keinet": "2287",
+   "passnavi": 3130,
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "日本大学",
+   "keinet": "2267",
+   "passnavi": 2930,
+   "need": [
+    "schedule_dates"
+   ]
   }
  ],
  "failed": [],
@@ -3384,11 +3447,12 @@
   "豊橋技術科学大学": 2,
   "早稲田大学": 2,
   "慶應義塾大学": 1,
-  "青山学院大学": 1,
-  "同志社大学": 1,
-  "関西大学": 1,
-  "西南学院大学": 1,
-  "法政大学": 1
+  "青山学院大学": 2,
+  "同志社大学": 2,
+  "関西大学": 2,
+  "西南学院大学": 2,
+  "法政大学": 1,
+  "成城大学": 2
  },
  "enrich": [
   {
@@ -5072,22 +5136,6 @@
    ]
   },
   {
-   "name": "成城大学",
-   "keinet": "2229",
-   "passnavi": 2550,
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "明治学院大学",
-   "keinet": "2287",
-   "passnavi": 3130,
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
    "name": "國學院大學",
    "keinet": "2213",
    "passnavi": 2400,
@@ -5098,14 +5146,6 @@
   {
    "name": "武蔵大学",
    "keinet": "2281",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "日本大学",
-   "keinet": "2267",
-   "passnavi": 2930,
    "need": [
     "schedule_dates"
    ]
@@ -5745,45 +5785,6 @@
    ]
   },
   {
-   "name": "関西大学",
-   "keinet": "2533",
-   "passnavi": 4240,
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "南山大学",
-   "keinet": "2460",
-   "passnavi": 3820,
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "西南学院大学",
-   "keinet": "2705",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "成蹊大学",
-   "keinet": "2228",
-   "passnavi": 2540,
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "成城大学",
-   "keinet": "2229",
-   "passnavi": 2550,
-   "need": [
-    "fees"
-   ]
-  },
-  {
    "name": "明治学院大学",
    "keinet": "2287",
    "passnavi": 3130,
@@ -5795,37 +5796,6 @@
    "name": "獨協大学",
    "keinet": "2156",
    "passnavi": 2050,
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "國學院大學",
-   "keinet": "2213",
-   "passnavi": 2400,
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "武蔵大学",
-   "keinet": "2281",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "日本大学",
-   "keinet": "2267",
-   "passnavi": 2930,
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "東洋大学",
-   "keinet": "2265",
-   "passnavi": 2910,
    "need": [
     "fees"
    ]
@@ -23247,20 +23217,6 @@
    ]
   },
   {
-   "name": "青山学院大学",
-   "keinet": "2200",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "同志社大学",
-   "keinet": "2498",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
    "name": "関西大学",
    "keinet": "2533",
    "passnavi": 4240,
@@ -23280,6 +23236,67 @@
    "keinet": "2279",
    "need": [
     "fees"
+   ]
+  },
+  {
+   "name": "沖縄県立芸術大学",
+   "keinet": "1705",
+   "need": [
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "熊本県立大学",
+   "keinet": "1700",
+   "need": [
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "青山学院大学",
+   "keinet": "2200",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "同志社大学",
+   "keinet": "2498",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "関西大学",
+   "keinet": "2533",
+   "passnavi": 4240,
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "西南学院大学",
+   "keinet": "2705",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "成城大学",
+   "keinet": "2229",
+   "passnavi": 2550,
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "成城大学",
+   "keinet": "2229",
+   "passnavi": 2550,
+   "need": [
+    "schedule_dates"
    ]
   }
  ],
