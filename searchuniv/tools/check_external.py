@@ -26,7 +26,7 @@ NEED_SRC = {'money': r'academicpay|gakunou|gakuno|gakuhi|tuition|fee|noufu|nofu|
 
 # 補完依頼で返ってくる別の形（日程が方式名をキーにした辞書、学費が departments の辞書）をいつもの形に直す
 def _nz(v):
-    if not isinstance(v, str) or '未確認' in v: return None, None
+    if not isinstance(v, str) or re.search(r'未確認|要項にて|要確認', v): return None, None
     v = v.replace('※大学入学共通テスト', '（共テ）')
     extra = None
     if '※' in v: v, extra = v.split('※', 1)
@@ -63,7 +63,7 @@ def normalize_shape(r):
             row = {'f': f, 'admission': v.get('admission'), 'tuition': v.get('tuition'), 'facility': v.get('facility'),
                    'practical': v.get('practical', v.get('practice', 0)), 'other': v.get('other'), 'first_year': v.get('first_year', v.get('first_year_total')), 'four_year': None}
             if v.get('note'): row['note'] = v['note']
-            rows.append(row)
+            if row['first_year']: rows.append(row)  # 初年度の合計が無い行は載せない
         info['money'] = {'year': mo.get('year'), 'rows': rows}
     return r
 def main(path):
