@@ -41,6 +41,11 @@ Searchuniv に全国の大学を少しずつ追加し、既存校の空欄（研
 - playwright が無い環境では構文チェックだけになる。その場合も「NG」が出たらコミットしない。
 - `su-module.js` は飯村システム（tiimura6/lesson-swap の「大学・進路」タブ）が直接読み込む。`window.SearchunivModule.apiVersion`（いまは 1）と `mount()` の引数・`Searchuniv` の関数名を変えるときは、lesson-swap 側も同時に直す。
 
+## 載せない学校（2026-11-07 先生の方針）
+- **一般の高校生に受験資格がない学校は載せない**。例：大学院のみの大学（〇〇大学院大学など）、公務員の研修機関（税務大学校・警察大学校・消防大学校・自治大学校など、採用後の職員だけが入る学校）。
+- 新規追加の前に、その学校に「高校卒業（見込み）者が出願できる入試」があるかを公式サイトで確かめ、無ければ batch に入れずに `data/queue.json` の `excluded` に `{name, reason}` を足して `add` から外す。
+- 高校生が受験できる大学校（防衛大学校・防衛医科大学校・気象大学校・海上保安大学校・水産大学校・国立看護大学校・航空保安大学校・職業能力開発大学校・農業大学校など）や、通信制の大学は載せてよい。
+
 ## 1回の実行でやること
 1. リポジトリ `tiimura6/lesson-swap`（飯村システム）を用意する（add_repo を access "push" で呼び、案内どおり clone）。Searchuniv 一式はその中の `searchuniv/` フォルダにある。以下のコマンドとパスはすべて `searchuniv/` に cd してから実行する。リポジトリ直下の index.html（飯村システム本体）は触らない。
 2. `data/queue.json` を読み（add の各項目は `{name,type,pref,hp,cat}`。cat と hp はそのまま batch に使う。名前に括弧付きの区分（例「（通信制のみ）」「（大学院のみ）」）がある学校は、その名前をそのまま batch の name に使い、項目に note があれば従う）、`add` の先頭から最大 **7校**、`enrich` の先頭から最大 **8校** を選ぶ（enrich の各項目は `{name, keinet, need}`。`need` に挙がった項目だけを集める：licenses は `/outline/licential`、careers は `/outline/admission_employment`、research は `outline/department/{コード}` の概要・特色）。両方空のときは、`complete` が true なら「全件完了」と報告してこの定期実行（名前「Searchuniv データ拡充」）を update_trigger で無効化する。`complete` が false なら何も変更せず「待機中（キュー準備中）」と報告して終わる（無効化しない）。
