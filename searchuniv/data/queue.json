@@ -3942,41 +3942,6 @@
 "cat": "private"
 },
 {
-"name": "九州看護福祉大学",
-"type": "私立",
-"pref": "熊本県",
-"hp": "https://www.kyushu-ns.ac.jp/",
-"cat": "private"
-},
-{
-"name": "令和健康科学大学",
-"type": "私立",
-"pref": "福岡県",
-"hp": "https://www.rhs-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "別府大学",
-"type": "私立",
-"pref": "大分県",
-"hp": "https://www.beppu-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "南九州大学",
-"type": "私立",
-"pref": "宮崎県",
-"hp": "https://www.nankyudai.ac.jp/index.html",
-"cat": "private"
-},
-{
-"name": "宮崎国際大学",
-"type": "私立",
-"pref": "宮崎県",
-"hp": "https://www.mic.ac.jp/",
-"cat": "private"
-},
-{
 "name": "宮崎産業経営大学",
 "type": "私立",
 "pref": "宮崎県",
@@ -4673,6 +4638,36 @@
 "九州大学": 1
 },
 "enrich": [
+{
+"name": "九州看護福祉大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "令和健康科学大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "別府大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "南九州大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "宮崎国際大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "沖縄国際大学",
 "need": [
@@ -16781,6 +16776,126 @@
 },
 {
 "name": "熊本学園大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "九州看護福祉大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "九州看護福祉大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "九州看護福祉大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "九州看護福祉大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "令和健康科学大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "令和健康科学大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "令和健康科学大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "令和健康科学大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "別府大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "別府大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "別府大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "別府大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "南九州大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "南九州大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "南九州大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "南九州大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "宮崎国際大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "宮崎国際大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "宮崎国際大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "宮崎国際大学",
 "need": [
 "scholar"
 ]

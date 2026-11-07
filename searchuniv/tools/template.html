@@ -305,6 +305,9 @@ ul.mini li{font-size:12.5px;margin:2px 0}
 .et .prev{font-size:11px;color:var(--muted);margin-left:4px}
 .fmt{margin-top:8px;font-size:12.5px}
 .enote,.na{margin-top:6px;font-size:11.5px;color:var(--muted)}
+/* 大学の個別ページでは※の注・細かい説明を出さない（見づらくなるため） */
+.uov .enote,.uov .fwarn{display:none}
+.vtag{font-size:11px;font-weight:600;color:#9a6b00;border:1px solid #d9b45a;border-radius:999px;padding:0 7px;margin-left:4px;vertical-align:middle}
 .src{margin-top:6px;font-size:11px;color:var(--muted)}
 .src a{color:var(--accent)}
 .listview .hp{font-size:12.5px;font-weight:500;margin-left:10px;color:var(--accent);white-space:nowrap}
@@ -1125,6 +1128,7 @@ function filled(v){ if(v==null||v==="") return false; if(Array.isArray(v)) retur
   if(typeof v==="object"){ for(const k of ["rows","list","events"]) if(Array.isArray(v[k])) return v[k].length>0; return Object.keys(v).length>0; } return true; }
 function fullness(name){ const f=INFO[name]||{}; const miss=INFO_KEYS.filter(([k])=>!filled(f[k])).map(z=>z[1]);
   return {pct:Math.round(100*(INFO_KEYS.length-miss.length)/INFO_KEYS.length),miss}; }
+function viaTag(name){ const f=(typeof INFO!=='undefined'&&INFO[name])||null; return f&&f._via==='external-ai'?'<span class="vtag" title="他のAIで集めた情報を含み、大学公式での確認待ち">確認待ち</span>':''; }
 function fullTag(name){ if(!DETAIL_READY) return ""; const z=fullness(name); const c=z.pct>=80?"hi":z.pct>=50?"mid":"lo";
   return '<span class="full '+c+'" title="未登録：'+esc(z.miss.join("、")||"なし")+'">情報 '+z.pct+'%</span>'; }
 // ===== 受験戦略案（第1〜第3志望）=====
@@ -1507,7 +1511,7 @@ function selectUniv(name,keepView){
   const lb=document.createElementNS(SVGNS,"text"); lb.setAttribute("x",pt[0]+4); lb.setAttribute("y",pt[1]+1.8); lb.setAttribute("class","lbl"); lb.textContent=x.name;
   hl.append(ring,dot,lb); scaleMarks();
   if(!keepView) setVB([pt[0]-60,pt[1]-45,120,90]);
-  $("mpanel").innerHTML='<div class="box"><div class="ph"><h3>'+badge(x)+' '+esc(x.name)+' '+fullTag(x.name)+'</h3>'+starBtn(x.name)+'<button type="button" class="tbtn" data-trend="'+esc(x.name)+'">出題内容</button>'+hpLink(x.name)+'</div><div class="meta">'+metaPrefix(x)+esc(x.pref)+'</div><ul class="pfeat">'+x.feats.map(f=>'<li>'+esc(f)+'</li>').join("")+'</ul>'+facTabs(x)+'<div class="fbody">'+univBody(x)+'</div>'+reportBox(x.name)+'</div>';
+  $("mpanel").innerHTML='<div class="box"><div class="ph"><h3>'+badge(x)+' '+esc(x.name)+' '+fullTag(x.name)+viaTag(x.name)+'</h3>'+starBtn(x.name)+'<button type="button" class="tbtn" data-trend="'+esc(x.name)+'">出題内容</button>'+hpLink(x.name)+'</div><div class="meta">'+metaPrefix(x)+esc(x.pref)+'</div><ul class="pfeat">'+x.feats.map(f=>'<li>'+esc(f)+'</li>').join("")+'</ul>'+facTabs(x)+'<div class="fbody">'+univBody(x)+'</div>'+reportBox(x.name)+'</div>';
   MATCH=null; LAST_LIST=[]; CUR_SEL=name; renderSearchNews();
   try{ window.dispatchEvent(new CustomEvent("searchuniv:select",{detail:{name}})); }catch(e){}
   $("mresults").innerHTML=""; $("mcount").textContent=""; if(!filtersActive()) ROOT.querySelectorAll("#jmap .dot.dim").forEach(c=>c.classList.remove("dim"));
