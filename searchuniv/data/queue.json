@@ -4131,41 +4131,6 @@
 "cat": "private"
 },
 {
-"name": "純真学園大学",
-"type": "私立",
-"pref": "福岡県",
-"hp": "https://www.junshin-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "聖マリア学院大学",
-"type": "私立",
-"pref": "福岡県",
-"hp": "https://www.st-mary.ac.jp/",
-"cat": "private"
-},
-{
-"name": "西九州大学",
-"type": "私立",
-"pref": "佐賀県",
-"hp": "https://www.nisikyu-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "西南女学院大学",
-"type": "私立",
-"pref": "福岡県",
-"hp": "https://www.seinan-jo.ac.jp/",
-"cat": "private"
-},
-{
-"name": "西日本工業大学",
-"type": "私立",
-"pref": "福岡県",
-"hp": "https://www3.nishitech.ac.jp/",
-"cat": "private"
-},
-{
 "name": "鎮西学院大学",
 "type": "私立",
 "pref": "長崎県",
@@ -4820,6 +4785,36 @@
 "九州大学": 1
 },
 "enrich": [
+{
+"name": "純真学園大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "聖マリア学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "西九州大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "西南女学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "西日本工業大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "福岡国際医療福祉大学",
 "need": [
@@ -16240,6 +16235,126 @@
 },
 {
 "name": "筑紫女学園大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "純真学園大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "純真学園大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "純真学園大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "純真学園大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "聖マリア学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "聖マリア学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "聖マリア学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "聖マリア学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "西九州大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "西九州大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "西九州大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "西九州大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "西南女学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "西南女学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "西南女学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "西南女学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "西日本工業大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "西日本工業大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "西日本工業大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "西日本工業大学",
 "need": [
 "scholar"
 ]
