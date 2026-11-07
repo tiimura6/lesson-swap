@@ -1336,6 +1336,11 @@
     #viewExam .ap-head .tt-counter { margin-left:auto; }
     #classTtControls .tt-counter { margin-left:auto; }
 
+    /* ===== 授業・時間割タブの中の切り替え（授業交換／クラス別時間割） ===== */
+    .ttg-bar { display:flex; margin:2px 2px 8px; }
+    .ttg-seg { display:inline-flex; gap:2px; padding:3px; background:#ececf0; border-radius:10px; max-width:100%; overflow-x:auto; }
+    .ttg-seg button { border:none; background:transparent; border-radius:8px; padding:6px 14px; font:600 0.9rem -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Meiryo", sans-serif; color:#1d1d1f; white-space:nowrap; cursor:pointer; }
+    .ttg-seg button[aria-selected="true"] { background:#fff; box-shadow:0 1px 3px rgba(0,0,0,.14); }
     /* ===== 大学検索（Searchuniv を Shadow DOM で組み込み。中のCSSはここから影響を受けない） ===== */
     #viewUniv .univ-bar { display:flex; flex-wrap:wrap; align-items:center; gap:6px 8px; margin:2px 2px 8px; font-family:-apple-system, BlinkMacSystemFont, "Hiragino Sans", "Meiryo", sans-serif; }
     #viewUniv .univ-sp { flex:1; }
@@ -1474,8 +1479,7 @@
   </div>
   <nav id="viewTabs" role="tablist" aria-label="画面切り替え">
     <button type="button" role="tab" class="vtab active" data-view="home" aria-selected="true">🏠 ホーム</button>
-    <button type="button" role="tab" class="vtab" data-view="swap" aria-selected="false">🔁 授業交換</button>
-    <button type="button" role="tab" class="vtab" data-view="class" aria-selected="false">📋 クラス別時間割</button>
+    <button type="button" role="tab" class="vtab" data-view="swap" aria-selected="false">🔁 授業・時間割</button>
     <button type="button" role="tab" class="vtab" data-view="univ" aria-selected="false">🎓 大学・進路</button>
     <button type="button" role="tab" class="vtab" data-view="clean" aria-selected="false">🧹 清掃当番作成</button>
     <button type="button" role="tab" class="vtab" data-view="exam" aria-selected="false">📝 試験監督割当</button>
@@ -1503,6 +1507,10 @@
   </div><!-- /viewHome -->
 
   <div id="viewSwap" class="view hidden">
+  <div class="ttg-bar"><div class="ttg-seg" role="tablist" aria-label="授業・時間割の画面">
+    <button type="button" role="tab" data-go="swap" aria-selected="true">🔁 授業交換</button>
+    <button type="button" role="tab" data-go="class" aria-selected="false">📋 クラス別時間割</button>
+  </div></div>
   <div id="swapBoard">
   <div id="swapCalSlot"></div>
   <div id="swapMain">
@@ -1567,6 +1575,10 @@
   </div><!-- /viewSwap -->
 
   <div id="viewClass" class="view hidden">
+  <div class="ttg-bar"><div class="ttg-seg" role="tablist" aria-label="授業・時間割の画面">
+    <button type="button" role="tab" data-go="swap" aria-selected="false">🔁 授業交換</button>
+    <button type="button" role="tab" data-go="class" aria-selected="true">📋 クラス別時間割</button>
+  </div></div>
   <button id="toggleClassTtBtn" type="button" class="btn" aria-controls="classTtPanel" aria-expanded="true" style="display:none;">
     クラス別時間割を非表示
   </button>
@@ -1910,10 +1922,14 @@
         if(window.ttSetDayTT) window.ttSetDayTT(true);
       }
     }
+    // 1つのタブの中で切り替える画面のまとまり（授業交換とクラス別時間割）
+    const GROUP = { swap: 'tt', 'class': 'tt' };
     let firstShow = true;
     function show(name, push){
       if(!views[name]) name = 'home';
-      tabs.forEach(t => { const on = views[t.dataset.view] === views[name]; t.classList.toggle('active', on); t.setAttribute('aria-selected', String(on)); });
+      const grp = n => GROUP[n] || views[n];
+      tabs.forEach(t => { const on = grp(t.dataset.view) === grp(name); t.classList.toggle('active', on); t.setAttribute('aria-selected', String(on)); });
+      if(GROUP[name] === 'tt'){ try { localStorage.setItem('ttLastSub', name); } catch(e){} }
       placeCalendar(name);
       new Set(Object.values(views)).forEach(id => document.getElementById(id).classList.toggle('hidden', id !== views[name]));
       const shown = document.getElementById(views[name]);
@@ -1923,7 +1939,12 @@
       if(push){ try{ history.replaceState(null, '', name === 'home' ? location.pathname + location.search : '#' + name); }catch(e){} }
       try { window.dispatchEvent(new CustomEvent('tt:view', { detail: name })); } catch(e){}
     }
-    tabs.forEach(t => t.addEventListener('click', () => show(t.dataset.view, true)));
+    tabs.forEach(t => t.addEventListener('click', () => {
+      let v = t.dataset.view;
+      if(GROUP[v] === 'tt'){ let last = ''; try { last = localStorage.getItem('ttLastSub') || ''; } catch(e){} if(GROUP[last] === 'tt') v = last; }   // 前回の画面に戻る
+      show(v, true);
+    }));
+    document.querySelectorAll('.ttg-seg [data-go]').forEach(b => b.addEventListener('click', () => show(b.dataset.go, true)));
     show((location.hash || '').replace('#',''), false);
   })();
   </script>

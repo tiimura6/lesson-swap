@@ -3,7 +3,7 @@
 GitHub Pages: https://tiimura6.github.io/lesson-swap/
 
 ## 構成
-- `index.html`：飯村システム本体（授業交換・クラス別時間割・清掃当番・試験監督割当など）。1ファイル構成。
+- `index.html`：飯村システム本体。1ファイル構成。タブは ホーム／授業・時間割（中で 授業交換／クラス別時間割 を切り替え）／大学・進路／清掃当番作成／試験監督割当。1つのタブで複数画面を切り替える仕組みはタブ切替 script の `GROUP`（授業・時間割）と、大学・進路の script（Searchuniv）。
 - `searchuniv/`：大学検索アプリ Searchuniv 一式（2026-11-07 に tiimura6/searchuniv から統合）。飯村システムの「🎓 大学・進路」タブの中身（中で 大学検索／進路面談／大学比較／出題内容 を切り替える）。
   - 画面とロジックの元：`searchuniv/tools/template.html`。データ：`searchuniv/data/*.json`。
   - `python3 searchuniv/tools/build.py` で `searchuniv/index.html`（単体ページ）・`searchuniv/su-module.js`（飯村システム用）・`detail.json` などを生成する。生成物は直接編集しない。
