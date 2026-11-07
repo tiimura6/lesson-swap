@@ -1,20 +1,6 @@
 {
  "add": [
   {
-   "name": "高知県立大学",
-   "type": "公立",
-   "pref": "高知県",
-   "hp": "http://www.u-kochi.ac.jp/",
-   "cat": "public"
-  },
-  {
-   "name": "九州歯科大学",
-   "type": "公立",
-   "pref": "福岡県",
-   "hp": "http://www.kyu-dent.ac.jp/",
-   "cat": "public"
-  },
-  {
    "name": "北九州市立大学",
    "type": "公立",
    "pref": "福岡県",
@@ -3079,6 +3065,63 @@
   {
    "name": "高知工科大学",
    "op": "add"
+  },
+  {
+   "name": "高知県立大学",
+   "op": "add"
+  },
+  {
+   "name": "九州歯科大学",
+   "op": "add"
+  },
+  {
+   "name": "信州大学",
+   "op": "enrich",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "静岡大学",
+   "op": "enrich",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "広島大学",
+   "op": "enrich",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "岡山大学",
+   "op": "enrich",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "熊本大学",
+   "op": "enrich",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "奈良女子大学",
+   "op": "enrich",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "長岡技術科学大学",
+   "op": "enrich",
+   "need": [
+    "schedule_dates"
+   ]
   }
  ],
  "failed": [],
@@ -3109,7 +3152,10 @@
   "名城大学": 1,
   "高崎経済大学": 1,
   "茨城県立医療大学": 1,
-  "国際教養大学": 1
+  "国際教養大学": 1,
+  "豊橋技術科学大学": 1,
+  "早稲田大学": 1,
+  "慶應義塾大学": 1
  },
  "enrich": [
   {
@@ -4790,76 +4836,6 @@
    "name": "九州産業大学",
    "need": [
     "verify"
-   ]
-  },
-  {
-   "name": "信州大学",
-   "keinet": "1225",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "静岡大学",
-   "keinet": "1230",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "広島大学",
-   "keinet": "1360",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "岡山大学",
-   "keinet": "1355",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "熊本大学",
-   "keinet": "1440",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "奈良女子大学",
-   "keinet": "1330",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "長岡技術科学大学",
-   "keinet": "1175",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "豊橋技術科学大学",
-   "keinet": "1245",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "早稲田大学",
-   "keinet": "2293",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "慶應義塾大学",
-   "keinet": "2210",
-   "need": [
-    "schedule_dates"
    ]
   },
   {
@@ -23256,6 +23232,43 @@
    "need": [
     "extra",
     "partners"
+   ]
+  },
+  {
+   "name": "高知県立大学",
+   "keinet": "1670",
+   "need": [
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "九州歯科大学",
+   "keinet": "1680",
+   "need": [
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "豊橋技術科学大学",
+   "keinet": "1245",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "早稲田大学",
+   "keinet": "2293",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "慶應義塾大学",
+   "keinet": "2210",
+   "need": [
+    "schedule_dates"
    ]
   }
  ],
