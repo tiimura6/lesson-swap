@@ -1,20 +1,6 @@
 {
 "add": [
 {
-"name": "山陽小野田市立山口東京理科大学",
-"type": "公立",
-"pref": "山口県",
-"hp": "http://www.socu.ac.jp/",
-"cat": "public"
-},
-{
-"name": "岡山県立大学",
-"type": "公立",
-"pref": "岡山県",
-"hp": "http://www.oka-pu.ac.jp/",
-"cat": "public"
-},
-{
 "name": "島根県立大学",
 "type": "公立",
 "pref": "島根県",
@@ -2751,6 +2737,98 @@
 "op": "enrich",
 "need": [
 "verify"
+]
+},
+{
+"name": "山陽小野田市立山口東京理科大学",
+"op": "add"
+},
+{
+"name": "岡山県立大学",
+"op": "add"
+},
+{
+"name": "東京大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "京都大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "東北大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "名古屋大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "九州大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "北海道大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "一橋大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "東京科学大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "東北大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "九州大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "東京科学大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
 ]
 }
 ],
@@ -5834,69 +5912,6 @@
 },
 {
 "name": "電動モビリティシステム専門職大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "東京大学",
-"keinet": "1120",
-"need": [
-"fees"
-]
-},
-{
-"name": "京都大学",
-"keinet": "1280",
-"need": [
-"fees"
-]
-},
-{
-"name": "大阪大学",
-"keinet": "1295",
-"need": [
-"fees"
-]
-},
-{
-"name": "東北大学",
-"keinet": "1050",
-"need": [
-"fees"
-]
-},
-{
-"name": "名古屋大学",
-"keinet": "1250",
-"need": [
-"fees"
-]
-},
-{
-"name": "九州大学",
-"keinet": "1405",
-"need": [
-"fees"
-]
-},
-{
-"name": "北海道大学",
-"keinet": "1025",
-"need": [
-"fees"
-]
-},
-{
-"name": "一橋大学",
-"keinet": "1165",
-"need": [
-"fees"
-]
-},
-{
-"name": "東京科学大学",
-"keinet": "1150",
 "need": [
 "fees"
 ]
@@ -15446,20 +15461,6 @@
 ]
 },
 {
-"name": "東北大学",
-"keinet": "1050",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "九州大学",
-"keinet": "1405",
-"need": [
-"schedule_dates"
-]
-},
-{
 "name": "青森公立大学",
 "keinet": "1513",
 "need": [
@@ -16049,13 +16050,6 @@
 "need": [
 "extra",
 "partners"
-]
-},
-{
-"name": "東京科学大学",
-"keinet": "1150",
-"need": [
-"schedule_dates"
 ]
 },
 {
@@ -23068,6 +23062,24 @@
 "name": "健康科学大学",
 "need": [
 "scholar"
+]
+},
+{
+"name": "山陽小野田市立山口東京理科大学",
+"keinet": "1661",
+"need": [
+"extra",
+"partners",
+"licenses"
+]
+},
+{
+"name": "岡山県立大学",
+"keinet": "1648",
+"need": [
+"extra",
+"partners",
+"careers"
 ]
 }
 ],
