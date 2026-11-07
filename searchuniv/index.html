@@ -117,7 +117,7 @@ body.wide main,body.wide header{max-width:1320px}
 .nt-d{color:var(--muted);font-size:11px;margin-left:5px}.nt-sep{color:var(--line);margin:0 10px}
 @keyframes ntscroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 .mlink{color:inherit;text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--accent) 45%,transparent);text-underline-offset:2px}.mlink:hover{color:var(--accent)}.mli{display:inline-block;margin-left:4px;font-size:10px;font-weight:700;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:0 3px;vertical-align:1px;text-decoration:none}
-.ftabs{display:flex;gap:4px;overflow-x:auto;padding:2px 0 6px;margin:4px 0 6px;border-bottom:1px solid var(--line);scrollbar-width:thin}.ftab{flex:0 0 auto;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:4px 12px;font:inherit;font-size:12.5px;cursor:pointer;white-space:nowrap}.ftab.on{background:var(--accent);border-color:var(--accent);color:#fff}.fnote{font-size:12px;color:var(--muted);margin:2px 0 6px}
+.ftabs{display:flex;gap:4px;overflow-x:auto;padding:2px 0 6px;margin:4px 0 6px;border-bottom:1px solid var(--line);scrollbar-width:thin}.ftab{flex:0 0 auto;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:4px 12px;font:inherit;font-size:12.5px;cursor:pointer;white-space:nowrap}.ftab.on{background:var(--accent);border-color:var(--accent);color:#fff}.fnote{font-size:12px;color:var(--muted);margin:2px 0 6px}.dtabs{display:flex;gap:4px;overflow-x:auto;padding:0 0 6px;margin:0 0 4px}.dtab{flex:0 0 auto;border:1px dashed var(--line);background:var(--bg);color:var(--ink);border-radius:8px;padding:3px 10px;font:inherit;font-size:12px;cursor:pointer;white-space:nowrap}.dtab.on{border-style:solid;border-color:var(--accent);color:var(--accent);font-weight:700;background:var(--panel)}.fsum{border:1.5px solid var(--accent);border-radius:10px;padding:8px 12px;margin:4px 0 8px;background:var(--panel)}.fsh{font-weight:700;color:var(--accent);font-size:13px;margin-bottom:2px}
 .fchips{display:flex;flex-wrap:wrap;gap:3px 5px;margin-top:3px}.fc{font-size:10.5px;border-radius:999px;padding:0 7px;border:1px solid}.fc.in{color:#2a7f62;border-color:#2a7f62}.fc.ex{color:#b42318;border-color:#b42318}.fc.unk{color:var(--muted);border-color:var(--line)}.fwarn{font-size:11.5px;color:#7a5a00;background:color-mix(in srgb,#c99700 10%,var(--panel));border-radius:8px;padding:5px 9px;margin:4px 0 6px}.xt.fees td{white-space:nowrap}
 .kyf{color:var(--ink) !important}.kyf b{color:var(--accent);font-weight:600}.kypart{display:inline-block;margin-left:6px;font-size:10.5px;font-weight:700;color:#9a6b00;border:1px solid #c99700;border-radius:999px;padding:0 6px}
 .sbar select#mby{flex:0 0 auto;max-width:9.5em;font-family:inherit;font-size:13px;border:1px solid var(--line);border-radius:8px;padding:7px 6px;background:var(--panel);color:var(--ink)}
@@ -1255,7 +1255,7 @@ $("kt-go").onclick=async()=>{
 };
 
 // ===== 更新日時（検索欄の下に表示）=====
-const BUILD=/*BUILD*/{"built":"2026-11-07 15:03","schedule":"2026-11-07","diffyear":"2027年度入試用"}/*END_BUILD*/;
+const BUILD=/*BUILD*/{"built":"2026-11-07 15:09","schedule":"2026-11-07","diffyear":"2027年度入試用"}/*END_BUILD*/;
 (function(){ const el=$("updline"); if(!el||!BUILD.built) return; const d=s=>s?s.replace(/-/g,"/"):"";
   el.textContent="更新 "+d(BUILD.built)+"・"+items.length+"校｜入試日程の確認 "+d((BUILD.schedule||BUILD.built).slice(0,10))+"（一般選抜は12月下旬に更新）"; el.title="難易度：河合塾「"+(BUILD.diffyear||"2027年度入試用")+"」"; })();
 $("univlist").innerHTML=items.map(x=>'<option value="'+esc(x.name)+'">').join("");
@@ -1733,21 +1733,50 @@ function facRecord(name,fac){
   if(g.scholar&&g.scholar.rows) g.scholar.rows=g.scholar.rows.filter(r=>/全学部/.test(r.target||"全学部")||keep(r.target||""));
   return g;
 }
-function facBody(x,fac){
-  const name=x.name, orig=INFO[name]; INFO[name]=facRecord(name,fac);
-  let h=""; try{
-    const R=INFO[name], fd=((R.fdiff||{}).rows||[]);
-    h='<div class="fnote">「'+esc(fac)+'」に関係する情報だけを表示しています。学部名の書かれていない情報は全学部共通として残しています。</div>'+
-      scheduleBlock(R,x)+guideBlock(x).replace('指導のポイント','指導のポイント（大学全体）')+infoBlock(name)+examBlock(name)+subjectsBlock(name)+fdiffBlock(R)+
-      (fd.length?'':'<div class="enote">※この学部の学科別の難易度はまだ登録されていません。</div>')+ratiosBlock(name)+engBlock(R)+moneyBlock(R)+scholarBlock(R)+ocBlock(R);
+// 学部の中の学科（学科タブ用）。学部・学科の一覧と学科別難易度の両方から作る
+function depStem(t){ return String(t||"").split(" ")[0].replace(/(学科|課程|専攻|コース|学類|学系|系)$/,""); }
+function depListOf(name,fac){
+  const f=INFO[name]||{}, out=[];
+  const g=(Array.isArray(f.departments)?f.departments.find(d=>d.f===fac):null);
+  for(const t of (g&&g.d)||[]){ const k=t.split(" ")[0]; if(k.length>=2&&!out.some(o=>depStem(o)===depStem(k))) out.push(k); }
+  for(const r of ((f.fdiff||{}).rows||[]).filter(r=>r.f===fac)){ const k=String(r.d||"").split(" ")[0]; if(k.length>=2&&!out.some(o=>depStem(o).startsWith(depStem(k))||depStem(k).startsWith(depStem(o)))) out.push(k); }
+  return out.length>1?out:[];
+}
+function depHit(t,dep,deps){ t=String(t||""); const st=depStem(dep); if(st&&t.includes(st)) return "mine"; return deps.some(o=>o!==dep&&depStem(o)&&t.includes(depStem(o)))?"other":"common"; }
+function facBody(x,fac,dep){
+  const name=x.name, orig=INFO[name], rec=facRecord(name,fac), deps=depListOf(name,fac);
+  if(dep){ const k=t=>depHit(t,dep,deps)!=="other";
+    if(rec.fdiff&&rec.fdiff.rows){ const st=depStem(dep); rec.fdiff.rows=rec.fdiff.rows.filter(r=>{ const d=depStem(r.d); return d&&(st.startsWith(d)||d.startsWith(st)); }); }
+    if(rec.subjects&&rec.subjects.rows) rec.subjects.rows=rec.subjects.rows.filter(r=>k(r.f));
+    if(rec.schedule&&rec.schedule.rows) rec.schedule.rows=rec.schedule.rows.filter(r=>k((r.name||"")+" "+(r.note||"")));
+    if(rec.methods&&rec.methods.list) rec.methods.list=rec.methods.list.filter(r=>k([r.name,r.note,r.niji].join(" ")));
+    if(Array.isArray(rec.departments)) rec.departments=rec.departments.map(g=>Object.assign({},g,{d:(g.d||[]).filter(t=>depStem(t.split(" ")[0])===depStem(dep))}));
+    if(rec.licenses) rec.licenses=rec.licenses.filter(k);
+  }
+  INFO[name]=rec; let h="";
+  try{
+    const R=rec, fd=((R.fdiff||{}).rows||[]), sj=((R.subjects||{}).rows||[]), ml=((R.methods||{}).list||[]);
+    const tabs=deps.length?'<div class="dtabs" role="tablist" aria-label="学科"><button type="button" class="dtab'+(dep?'':' on')+'" data-dep="">'+esc(fac)+'全体</button>'+deps.map(d=>'<button type="button" class="dtab'+(d===dep?' on':'')+'" data-dep="'+esc(d)+'">'+esc(d)+'</button>').join("")+'</div>':"";
+    // 要点：偏差値・入試区分・試験科目を最初にまとめる
+    const hs=fd.map(r=>parseFloat(r.hen)).filter(v=>v>0), ks=fd.map(r=>parseFloat(r.kt)).filter(v=>v>0);
+    const kub=[...new Set(ml.map(r=>r.kubun).concat(sj.map(r=>r.kubun)).filter(Boolean))];
+    const sum='<div class="fsum"><div class="fsh">'+esc(dep||fac)+' の要点</div><table class="it">'+
+      '<tr><th>偏差値</th><td>'+(hs.length?'<b>'+Math.min(...hs)+(Math.max(...hs)!==Math.min(...hs)?'〜'+Math.max(...hs):'')+'</b>':'<span class="na2">未登録</span>')+(ks.length?'　共テ得点率 '+Math.min(...ks)+'%'+(Math.max(...ks)!==Math.min(...ks)?'〜'+Math.max(...ks)+'%':''):'')+'</td></tr>'+
+      '<tr><th>入試区分</th><td>'+(kub.length?kub.map(k=>'<span class="ktag" style="background:'+(KUBUN_COLOR[k]||"#4b5563")+'">'+esc(k)+'</span>').join(""):'<span class="na2">未登録</span>')+'</td></tr>'+
+      '<tr><th>試験科目</th><td>'+(sj.length?'<ul class="mini">'+sj.slice(0,6).map(r=>'<li><b>'+esc(r.kubun+"・"+r.name)+'</b>'+(r.n?'（'+r.n+'教科）':'')+' '+esc(r.subj||r.kt||"")+'</li>').join("")+'</ul>':(ml.filter(r=>r.niji||r.kyotsu).slice(0,4).map(r=>'<div><b>'+esc(r.kubun+"・"+r.name)+'</b> '+esc([r.kyotsu?'共テ '+r.kyotsu:'',r.niji?'個別 '+r.niji:''].filter(Boolean).join('／'))+'</div>').join("")||'<span class="na2">未登録（自動収集で集めています）</span>'))+'</td></tr>'+
+      '</table></div>';
+    h=tabs+'<div class="fnote">「'+esc(dep?fac+" "+dep:fac)+'」に関係する情報だけを表示しています。学部・学科名の書かれていない情報は共通として残しています。指導のポイントは「大学全体」に表示しています。</div>'+
+      sum+fdiffBlock(R)+(fd.length?'':'<div class="enote">※この'+(dep?'学科':'学部')+'の学科別の難易度はまだ登録されていません。</div>')+subjectsBlock(name)+examBlock(name)+scheduleBlock(R,x)+ratiosBlock(name)+engBlock(R)+infoBlock(name)+moneyBlock(R)+scholarBlock(R)+ocBlock(R);
   } finally { INFO[name]=orig; }
   return h;
 }
 function bindFacTabs(x){
   const box=$("mpanel"), tabs=box.querySelector(".ftabs"); if(!tabs) return; const body=box.querySelector(".fbody");
   tabs.onclick=e=>{ const b=e.target.closest(".ftab"); if(!b) return; tabs.querySelectorAll(".ftab").forEach(t=>t.classList.toggle("on",t===b));
-    const fac=b.dataset.fac; body.innerHTML=fac?facBody(x,fac):univBody(x);
-    bindStars(box); box.querySelectorAll("[data-trend]").forEach(t=>t.onclick=()=>openTrend(t.dataset.trend)); };
+    const fac=b.dataset.fac; const draw=dep=>{ body.innerHTML=fac?facBody(x,fac,dep):univBody(x);
+      bindStars(box); box.querySelectorAll("[data-trend]").forEach(t=>t.onclick=()=>openTrend(t.dataset.trend));
+      const dt=body.querySelector(".dtabs"); if(dt) dt.onclick=ev=>{ const d=ev.target.closest(".dtab"); if(d) draw(d.dataset.dep); }; };
+    draw(""); };
 }
 function passFilters(x){
   const kf=$("f-kyoka").value, rf=$("f-rl").value;
