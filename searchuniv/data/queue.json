@@ -3249,13 +3249,6 @@
 "cat": "private"
 },
 {
-"name": "甲子園大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.koshien.ac.jp/",
-"cat": "private"
-},
-{
 "name": "畿央大学",
 "type": "私立",
 "pref": "奈良県",
@@ -3316,41 +3309,6 @@
 "type": "私立",
 "pref": "兵庫県",
 "hp": "https://www.kobe-tokiwa.ac.jp/univ/",
-"cat": "private"
-},
-{
-"name": "種智院大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "http://www.shuchiin.ac.jp/",
-"cat": "private"
-},
-{
-"name": "羽衣国際大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.hagoromo.ac.jp/",
-"cat": "private"
-},
-{
-"name": "聖泉大学",
-"type": "私立",
-"pref": "滋賀県",
-"hp": "https://www.seisen.ac.jp/",
-"cat": "private"
-},
-{
-"name": "芦屋大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.ashiya-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "花園大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "https://www.hanazono.ac.jp/",
 "cat": "private"
 },
 {
@@ -4091,6 +4049,36 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "種智院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "羽衣国際大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "聖泉大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "芦屋大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "花園大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "神戸松蔭女子学院大学",
 "need": [
@@ -18672,6 +18660,126 @@
 "need": [
 "scholar"
 ]
+},
+{
+"name": "種智院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "種智院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "種智院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "種智院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "羽衣国際大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "羽衣国際大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "羽衣国際大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "羽衣国際大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "聖泉大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "聖泉大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "聖泉大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "聖泉大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "芦屋大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "芦屋大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "芦屋大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "芦屋大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "花園大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "花園大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "花園大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "花園大学",
+"need": [
+"scholar"
+]
 }
 ],
 "complete": true,
@@ -18703,6 +18811,10 @@
 {
 "name": "神戸海星女子学院大学",
 "reason": "2024年度以降の学生募集を停止（2027年度入試なし）"
+},
+{
+"name": "甲子園大学",
+"reason": "2026年度入学生を最後に学生募集を停止（2027年度入試なし）。神戸新聞 2026/7/23"
 }
 ]
 }
