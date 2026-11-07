@@ -117,6 +117,8 @@ body.wide main,body.wide header{max-width:1320px}
 .nt-d{color:var(--muted);font-size:11px;margin-left:5px}.nt-sep{color:var(--line);margin:0 10px}
 @keyframes ntscroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 .kyf{color:var(--ink) !important}.kyf b{color:var(--accent);font-weight:600}.kypart{display:inline-block;margin-left:6px;font-size:10.5px;font-weight:700;color:#9a6b00;border:1px solid #c99700;border-radius:999px;padding:0 6px}
+.sbar select#mby{flex:0 0 auto;max-width:9.5em;font-family:inherit;font-size:13px;border:1px solid var(--line);border-radius:8px;padding:7px 6px;background:var(--panel);color:var(--ink)}
+.skind{display:inline-block;margin-left:6px;font-size:10.5px;font-weight:700;border-radius:999px;padding:0 6px;border:1px solid}.skind.g{color:#2a7f62;border-color:#2a7f62}.skind.l{color:#6b7280;border-color:#9ca3af}
 .xt.subj th.sf{white-space:nowrap;vertical-align:top;color:var(--ink);font-weight:600;background:color-mix(in srgb,var(--accent) 5%,transparent)}.xt.subj td.sn{white-space:nowrap}.sfilt2{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:4px 0}
 .ktbox{margin-top:16px;border:1px solid var(--line);border-radius:12px;padding:10px 14px;background:var(--panel)}
 .ktbox>summary{cursor:pointer;font-weight:700}
@@ -320,7 +322,7 @@ ul.mini li{font-size:12.5px;margin:2px 0}
 <section id="v-map" hidden>
   <div class="sgrid">
     <div class="sleft">
-      <div class="sbar"><input type="search" id="mq" placeholder="大学名・学部・学科・学問（例：看護、心理、建築）・地域で検索" autocomplete="off"><button class="btn" id="mgo" type="button">検索</button><button class="btn" id="mreset">全国</button></div>
+      <div class="sbar"><select id="mby" aria-label="何で探すか" title="何で探すか"><option value="">すべてから</option><option value="name">大学名</option><option value="fac">学部・学科・学問</option><option value="pref">地域・都道府県</option><option value="lic">資格・就職</option><option value="res">研究・特色</option><option value="sch">奨学金</option></select><input type="search" id="mq" placeholder="大学名・学部・学科・学問（例：看護、心理、建築）・地域で検索" autocomplete="off"><button class="btn" id="mgo" type="button">検索</button><button class="btn" id="mreset">全国</button></div>
       <p class="upd" id="updline"></p>
       <div class="sfilt">
         <select id="f-kyoka" aria-label="共通テスト科目数"><option value="">共テ教科数：すべて</option><option value="le3">3教科以下</option><option value="4-5">4〜5教科</option><option value="ge6">6教科以上</option><option value="none">共テ利用なし</option></select>
@@ -762,6 +764,17 @@ function scheduleBlock(f,x){
     rows.map(tr).join("")+estRows+'</tbody></table></div>'+
     ((est.length||rows.some(r=>!(r.apply&&r.result&&r.proc)))?'<div class="enote">※「未掲載」は大学・河合塾などでまだ公表を確認できていない項目（自動収集で順次補います）。「例年」は国公立の標準的な日程の目安で、実際の日付は大学の募集要項で確認してください。</div>':'<div class="enote">※出願前に必ず大学の募集要項で確認してください。</div>')+'</details>';
 }
+// 奨学金（学部・学科ごと）。info.scholar があれば学部別に、無ければ money.scholarships を出す
+function scholarText(f){ const a=((f.scholar||{}).rows||[]).map(r=>[r.name,r.kind,r.target,r.amount,r.cond,r.timing].join(" ")); const b=(((f.money||{}).scholarships)||[]).map(r=>(r.name||"")+" "+(r.what||"")); return a.concat(b).join(" "); }
+function scholarBlock(f){
+  const S=f.scholar; if(!S||!(S.rows||[]).length) return "";
+  const ts=[...new Set(S.rows.map(r=>r.target||"全学部"))].sort((a,b)=>(a==="全学部"?-1:b==="全学部"?1:a.localeCompare(b,"ja")));
+  const body=ts.map(t=>{ const R=S.rows.filter(r=>(r.target||"全学部")===t);
+    return R.map((r,i)=>'<tr data-f="'+esc(t)+'">'+(i===0?'<th rowspan="'+R.length+'" class="sf">'+esc(t)+'</th>':'')+'<td><b>'+esc(r.name||"")+'</b>'+(r.kind?'<span class="skind '+(/給付|減免|免除/.test(r.kind)?'g':'l')+'">'+esc(r.kind)+'</span>':'')+'</td><td>'+esc(r.amount||"")+'</td><td>'+esc(r.timing||"")+'</td><td>'+esc(r.cond||"")+'</td></tr>').join(""); }).join("");
+  return '<details class="xb" open><summary>奨学金・学費の減免（学部・学科別、'+S.rows.length+'件）'+(S.year?'<span class="sub2">'+esc(S.year)+'</span>':'')+'</summary>'+
+    (ts.length>1?'<div class="sfilt2"><select class="subj-f"><option value="">すべての学部</option>'+ts.map(t=>'<option>'+esc(t)+'</option>').join("")+'</select><span class="sub2">「全学部」の制度はどの学部でも使えます</span></div>':'')+
+    '<div class="tblw"><table class="xt subj"><thead><tr><th>対象</th><th>制度</th><th>金額・内容</th><th>申込の時期</th><th>主な条件</th></tr></thead><tbody>'+body+'</tbody></table></div>'+(S.note?'<div class="enote">※'+esc(S.note)+'</div>':'')+'</details>';
+}
 function moneyBlock(f){
   const M=f.money; if(!M) return "";
   const rows=[];
@@ -769,7 +782,7 @@ function moneyBlock(f){
   if(M.admission!=null) rows.push(["入学金",yen0(M.admission)]);
   if(M.annual!=null) rows.push(["年間の授業料等",yen0(M.annual)]);
   rows.push(["一人暮らし",'生活費の目安 4年で約'+man(LIVING.month*12*4)+'<span class="sub2">（'+esc(LIVING.label)+'）</span>']);
-  if((M.scholarships||[]).length) rows.push(["大学独自の奨学金",'<ul class="mini">'+M.scholarships.map(x=>'<li><b>'+esc(x.name||"")+'</b> '+esc(x.what||"")+'</li>').join("")+'</ul>']);
+  if((M.scholarships||[]).length&&!((f.scholar||{}).rows||[]).length) rows.push(["大学独自の奨学金",'<ul class="mini">'+M.scholarships.map(x=>'<li><b>'+esc(x.name||"")+'</b> '+esc(x.what||"")+'</li>').join("")+'</ul>']);
   return '<details class="xb" open><summary>費用と奨学金'+(M.year?'<span class="sub2">'+esc(M.year)+'</span>':'')+'</summary><dl class="mrows">'+rows.map(([k,v])=>'<dt>'+k+'</dt><dd>'+v+'</dd>').join("")+'</dl>'+(M.note?'<div class="enote">※'+esc(M.note)+'</div>':'')+'</details>';
 }
 // 誤りの報告：db の reports に保存し、自動収集の最初に再確認する
@@ -856,7 +869,7 @@ function ocBlock(f){ const O=f.oc; if(!O) return "";
   const ev=(O.events||[]);
   return '<details class="xb" open><summary>オープンキャンパス'+(O.year?'<span class="sub2">'+esc(O.year)+'</span>':'')+'</summary>'+(ev.length?'<div class="tblw"><table class="xt"><thead><tr><th>日程</th><th>形式</th><th>内容</th></tr></thead><tbody>'+ev.map(e=>'<tr><td>'+esc(e.date||"")+'</td><td>'+esc(e.type||"")+'</td><td>'+esc(e.title||"")+(e.note?'<div class="sub2">'+esc(e.note)+'</div>':'')+'</td></tr>').join("")+'</tbody></table></div>':'')+
     (O.note?'<div class="enote">'+esc(O.note)+'</div>':'')+(O.url?'<a href="'+esc(O.url)+'" target="_blank" rel="noopener">大学のオープンキャンパス情報 ↗</a>':'')+'</details>'; }
-function extraBlocks(name){ const f=INFO[name]||{}; return subjectsBlock(name)+ocBlock(f)+fdiffBlock(f)+ratiosBlock(name)+engBlock(f)+moneyBlock(f)+sourceBlock(name); }
+function extraBlocks(name){ const f=INFO[name]||{}; return subjectsBlock(name)+ocBlock(f)+fdiffBlock(f)+ratiosBlock(name)+engBlock(f)+moneyBlock(f)+scholarBlock(f)+sourceBlock(name); }
 
 // ===== 比較タブ：横並び比較・日程・受験料・手続締切 =====
 let PLAN_SEL=null;   // 比較・日程に入れる大学（候補の中から）
@@ -1564,27 +1577,29 @@ function keiHits(x,label){ const re=KEI[label], f=INFO[x.name]||{};
 }
 $("f-kei").insertAdjacentHTML("beforeend",Object.keys(KEI).map(k=>'<option value="'+k+'">'+k+'</option>').join(""));
 function searchUnivs(q){
-  q=q.trim();
+  q=q.trim(); const by=($("mby")||{}).value||""; const on=k=>!by||by===k;
   const kq=KIND_Q[q.normalize("NFKC").replace(/\s/g,"")];
   const rq=REGION_Q[q.normalize("NFKC").replace(/\s|地方|地域/g,"")];
-  if(rq) return items.filter(x=>rq.some(p=>x.pref.startsWith(p))&&passFilters(x)).sort((a,b)=>(PRIO[a.cat]??20)-(PRIO[b.cat]??20)||a.pref.localeCompare(b.pref,"ja"));
-  if(kq) return items.filter(x=>kq.includes(kindOf(x))&&passFilters(x)).sort((a,b)=>(PRIO[a.cat]??20)-(PRIO[b.cat]??20)||a.pref.localeCompare(b.pref,"ja"));
+  if(rq&&on("pref")) return items.filter(x=>rq.some(p=>x.pref.startsWith(p))&&passFilters(x)).sort((a,b)=>(PRIO[a.cat]??20)-(PRIO[b.cat]??20)||a.pref.localeCompare(b.pref,"ja"));
+  if(kq&&!by) return items.filter(x=>kq.includes(kindOf(x))&&passFilters(x)).sort((a,b)=>(PRIO[a.cat]??20)-(PRIO[b.cat]??20)||a.pref.localeCompare(b.pref,"ja"));
   if(!q){ return filtersActive()? items.filter(passFilters).sort((a,b)=>(PRIO[a.cat]??20)-(PRIO[b.cat]??20)) : []; }
   const a=nz(q), h=toHira(q.normalize("NFKC")).replace(/\s/g,"");
   const words=(typeof concepts==="function"?concepts(q.normalize("NFKC")).flat():[]).filter(w=>w!==q);
   return items.map(x=>{
     const f=INFO[x.name]||{}; let sc=0;
-    if(isCorrect(q,x.name)) sc+=100;
-    if(nz(x.name).includes(a)) sc+=50;
-    const r=READ[x.name]||""; if(h&&r.startsWith(stripKanaSuffix(h))) sc+=40;
-    if((ALIASES[x.name]||[]).some(al=>nz(al).includes(a))) sc+=30;
-    if(x.pref.includes(q)) sc+=20;
-    if(kindOf(x)===q) sc+=15;
-    const FL=facList(f);
-    if(FL.some(t=>t.includes(q))) sc+=12;
-    else if(words.length&&FL.some(t=>words.some(w=>w.length>=2&&t.includes(w)))) sc+=9;
-    const etc=(f.research||[]).join("")+(f.licenses||[]).join("")+(f.careers||"");
-    if(etc.includes(q)) sc+=6; else if(words.some(w=>w.length>=2&&etc.includes(w))) sc+=4;
+    if(on("name")){ if(isCorrect(q,x.name)) sc+=100;
+      if(nz(x.name).includes(a)) sc+=50;
+      const r=READ[x.name]||""; if(h&&r.startsWith(stripKanaSuffix(h))) sc+=40;
+      if((ALIASES[x.name]||[]).some(al=>nz(al).includes(a))) sc+=30; }
+    if(on("pref")&&x.pref.includes(q)) sc+=20;
+    if(!by&&kindOf(x)===q) sc+=15;
+    if(on("fac")){ const FL=facList(f);
+      if(FL.some(t=>t.includes(q))) sc+=12;
+      else if(words.length&&FL.some(t=>words.some(w=>w.length>=2&&t.includes(w)))) sc+=9; }
+    const hit=(txt,p1,p2)=>{ if(txt.includes(q)) sc+=p1; else if(words.some(w=>w.length>=2&&txt.includes(w))) sc+=p2; };
+    if(on("lic")) hit((f.licenses||[]).join(" ")+" "+(f.careers||""),6,4);
+    if(on("res")) hit((f.research||[]).join(" ")+" "+x.feats.join(" ")+" "+(f.notable||[]).map(n=>typeof n==="string"?n:(n.name||"")+(n.field||"")).join(" "),6,4);
+    if(by==="sch") hit(scholarText(f),10,6);
     // 系統名による加点はしない（「獣医」で農学系の全大学が出てしまうため）
     return {x,sc};
   }).filter(o=>o.sc>0&&passFilters(o.x)).sort((p,q2)=>q2.sc-p.sc||(PRIO[p.x.cat]??20)-(PRIO[q2.x.cat]??20)).map(o=>o.x);
@@ -1620,6 +1635,7 @@ function renderResults(){
 function runSearch(){ CUR_SEL=null; $("hl").innerHTML=""; $("mpanel").innerHTML=""; renderResults(); }
 $("mq").addEventListener("input",()=>{ if(!$("mq").value.trim()) runSearch(); });
 $("mgo").onclick=runSearch;
+$("mby").addEventListener("change",()=>{ const ph={"":"大学名・学部・学科・学問（例：看護、心理、建築）・地域で検索",name:"大学名（例：茨城、早稲田、いばらき）",fac:"学部・学科・学問（例：看護、心理、建築、獣医）",pref:"地域・都道府県（例：東北、茨城、関西）",lic:"資格・就職先（例：教員免許、看護師、公務員）",res:"研究・特色（例：AI、宇宙、昆虫）",sch:"奨学金（例：給付、授業料免除、特待生）"}; $("mq").placeholder=ph[$("mby").value]||ph[""]; if($("mq").value.trim()) runSearch(); });
 [$("msort"),$("f-eng"),$("f-kei"),$("f-kyoka"),$("f-rl"),$("f-meth"),...ROOT.querySelectorAll(".fk")].forEach(el=>el.addEventListener("change",()=>{
   // 学校を選んだ後は検索欄にその校名が入っているので、絞り込みを変えたら校名を消して一覧に戻す
   if($("mpanel").innerHTML&&items.some(x=>x.name===$("mq").value)) $("mq").value="";
