@@ -3389,41 +3389,6 @@
 "cat": "private"
 },
 {
-"name": "長浜バイオ大学",
-"type": "私立",
-"pref": "滋賀県",
-"hp": "https://www.nagahama-i-bio.ac.jp/",
-"cat": "private"
-},
-{
-"name": "関西医療大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.kansai.ac.jp/",
-"cat": "private"
-},
-{
-"name": "関西医科大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.kmu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "関西国際大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.kuins.ac.jp/",
-"cat": "private"
-},
-{
-"name": "関西看護医療大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.kki.ac.jp/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -4161,6 +4126,36 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "長浜バイオ大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "関西医療大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "関西医科大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "関西国際大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "関西看護医療大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "藍野大学",
 "need": [
@@ -18469,6 +18464,126 @@
 },
 {
 "name": "鈴鹿大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "長浜バイオ大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "長浜バイオ大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "長浜バイオ大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "長浜バイオ大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "関西医療大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "関西医療大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "関西医療大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "関西医療大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "関西医科大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "関西医科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "関西医科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "関西医科大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "関西国際大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "関西国際大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "関西国際大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "関西国際大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "関西看護医療大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "関西看護医療大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "関西看護医療大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "関西看護医療大学",
 "need": [
 "scholar"
 ]
