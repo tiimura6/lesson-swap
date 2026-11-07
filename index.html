@@ -1350,6 +1350,7 @@
     #viewUniv .univ-frame-wrap:fullscreen iframe, #viewUniv .univ-frame-wrap.univ-max iframe { height:100% !important; min-height:0; }
     #viewUniv .univ-close { display:none; position:absolute; top:8px; right:10px; z-index:2; border:none; border-radius:980px; padding:7px 14px; font:600 0.85rem -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif; background:rgba(29,29,31,.82); color:#fff; cursor:pointer; backdrop-filter:blur(8px); }
     #viewUniv .univ-frame-wrap:fullscreen .univ-close, #viewUniv .univ-frame-wrap.univ-max .univ-close { display:block; }
+    .vtab .univ-badge { display:inline-block; min-width:18px; margin-left:5px; padding:0 5px; border-radius:980px; background:#0071e3; color:#fff; font-size:0.72rem; font-weight:700; line-height:18px; text-align:center; }
     #viewUniv .univ-loading { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:#6e6e73; background:#fff; pointer-events:none; }
 </style>
 
@@ -12478,7 +12479,8 @@
   <script>
   // ===== 大学検索タブ（Searchuniv を埋め込み） =====
   (function(){
-    const PAGES = 'https://tiimura6.github.io/searchuniv/', LOCAL = 'searchuniv.html';
+    const PAGES = /^https?:$/.test(location.protocol) && !/github\.io$/.test(location.hostname) && !/^(localhost|127\.0\.0\.1)$/.test(location.hostname) ? 'https://tiimura6.github.io/searchuniv/' : (/^https?:$/.test(location.protocol) ? new URL('../searchuniv/', location.href).href : 'https://tiimura6.github.io/searchuniv/');
+    const K_CANDS = 'searchuniv:cands';
     const fr = document.getElementById('univFrame'), ld = document.getElementById('univLoading');
     const wrap = document.getElementById('univWrap'), fsBtn = document.getElementById('univFs'), view = document.getElementById('viewUniv');
     // 埋め込み時だけ Searchuniv の見た目を飯村システムに合わせる（同じドメインなので外から整える。Searchuniv 本体は変更しない）
@@ -12498,7 +12500,8 @@
       html.ttEmbed .sleft > .mresults{order:2; flex-shrink:0; margin-bottom:6px}
       html.ttEmbed .mresults:empty{display:none}
       html.ttEmbed .sright{top:60px}
-      html.ttEmbed button.btn,html.ttEmbed select,html.ttEmbed input[type=search]{border-radius:10px}`;
+      html.ttEmbed button.btn,html.ttEmbed select,html.ttEmbed input[type=search]{border-radius:10px}
+      html.ttEmbed .uov{z-index:700}`;
     function inject(){
       let d = null; try { d = fr.contentDocument; } catch(e){}
       if(!d || !d.documentElement || d.getElementById('ttEmbedCss')) return;
@@ -12517,6 +12520,31 @@
         el.addEventListener('keydown', e => { if(e.key === 'Enter' && !e.isComposing){ clearTimeout(tm); hit(el.value); } });
       });
     }
+    // ===== Searchuniv との連携（同じサイトなので window.Searchuniv を直接呼べる）=====
+    const tabBtn = document.querySelector('#viewTabs [data-view=univ]');
+    function cands(){ try { return JSON.parse(localStorage.getItem(K_CANDS) || '[]'); } catch(e){ return []; } }
+    function badge(){
+      if(!tabBtn) return; let b = tabBtn.querySelector('.univ-badge');
+      const n = cands().length;
+      if(!n){ if(b) b.remove(); return; }
+      if(!b){ b = document.createElement('span'); b.className = 'univ-badge'; tabBtn.appendChild(b); }
+      b.textContent = n; b.title = '比較候補 ' + n + '校';
+    }
+    let pending = null, linked = false;
+    function api(){ try { return fr.contentWindow && fr.contentWindow.Searchuniv; } catch(e){ return null; } }
+    function link(){
+      const w = fr.contentWindow; if(!w || linked) return; linked = true;
+      w.addEventListener('searchuniv:select', e => { const n = e.detail && e.detail.name; if(n && window.ttLog) window.ttLog('大学を表示', n); });
+      w.addEventListener('searchuniv:cands', badge);
+      if(pending){ const n = pending; pending = null; const a = api(); if(a) a.selectUniv(n); }
+    }
+    window.addEventListener('storage', e => { if(e.key === K_CANDS) badge(); });
+    badge();
+    // 他の画面から使う窓口：ttUniv.open('京都大学') で大学検索タブを開いてその大学を表示。ttUniv.candidates() で比較候補の一覧
+    window.ttUniv = Object.freeze({
+      open(name){ if(tabBtn) tabBtn.click(); start(); const a = linked && api(); if(a) a.selectUniv(name); else pending = name; },
+      candidates: cands
+    });
     // タブの下の画面いっぱいに広げ、スクロールは中の1本だけにする
     const isMax = () => document.fullscreenElement === wrap || wrap.classList.contains('univ-max');
     function fit(){
@@ -12535,8 +12563,8 @@
       fr.addEventListener('load', () => {
         let ok = false;
         try { ok = /Searchuniv/i.test((fr.contentDocument && fr.contentDocument.title) || ''); } catch(e){}
-        if(!ok && fr.getAttribute('src') !== LOCAL){ fr.setAttribute('src', LOCAL); return; }
-        inject(); fit();
+        if(!ok){ ld.style.display = 'flex'; ld.style.pointerEvents = 'auto'; ld.innerHTML = '大学検索を読み込めませんでした。<a href="' + PAGES + '" target="_blank" rel="noopener" style="margin-left:6px">別のタブで開く</a>'; return; }
+        inject(); fit(); link();
         ld.style.display = 'none';
       });
       fr.setAttribute('src', PAGES);
@@ -12563,7 +12591,9 @@
     document.addEventListener('keydown', e => { if(e.key === 'Escape' && wrap.classList.contains('univ-max')) setMax(false); });
     const tab = document.querySelector('#viewTabs [data-view=univ]');
     if(tab) tab.addEventListener('click', () => setTimeout(start, 0));
-    if((location.hash || '') === '#univ') window.addEventListener('DOMContentLoaded', start);
+    const hm = (location.hash || '').match(/^#univ(?:=(.+))?$/);
+    if(hm) window.addEventListener('DOMContentLoaded', () => { if(hm[1]) window.ttUniv.open(decodeURIComponent(hm[1])); else start(); });
+    window.addEventListener('hashchange', () => { const m = (location.hash || '').match(/^#univ=(.+)$/); if(m) window.ttUniv.open(decodeURIComponent(m[1])); });
   })();
   </script>
 </body></html>
