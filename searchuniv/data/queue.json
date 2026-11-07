@@ -1,55 +1,6 @@
 {
 "add": [
 {
-"name": "兵庫県立大学",
-"type": "公立",
-"pref": "兵庫県",
-"hp": "http://www.u-hyogo.ac.jp/",
-"cat": "public"
-},
-{
-"name": "和歌山県立医科大学",
-"type": "公立",
-"pref": "和歌山県",
-"hp": "http://www.wakayama-med.ac.jp/",
-"cat": "public"
-},
-{
-"name": "奈良県立医科大学",
-"type": "公立",
-"pref": "奈良県",
-"hp": "http://www.naramed-u.ac.jp/",
-"cat": "public"
-},
-{
-"name": "奈良県立大学",
-"type": "公立",
-"pref": "奈良県",
-"hp": "http://www.narapu.ac.jp/",
-"cat": "public"
-},
-{
-"name": "滋賀県立大学",
-"type": "公立",
-"pref": "滋賀県",
-"hp": "https://www.usp.ac.jp/",
-"cat": "public"
-},
-{
-"name": "神戸市外国語大学",
-"type": "公立",
-"pref": "兵庫県",
-"hp": "http://www.kobe-cufs.ac.jp/",
-"cat": "public"
-},
-{
-"name": "神戸市看護大学",
-"type": "公立",
-"pref": "兵庫県",
-"hp": "http://www.kobe-ccn.ac.jp/",
-"cat": "public"
-},
-{
 "name": "福知山公立大学",
 "type": "公立",
 "pref": "京都府",
@@ -3025,6 +2976,146 @@
 {
 "name": "京都府立大学",
 "op": "add"
+},
+{
+"name": "兵庫県立大学",
+"op": "add"
+},
+{
+"name": "和歌山県立医科大学",
+"op": "add"
+},
+{
+"name": "奈良県立医科大学",
+"op": "add"
+},
+{
+"name": "奈良県立大学",
+"op": "add"
+},
+{
+"name": "滋賀県立大学",
+"op": "add"
+},
+{
+"name": "神戸市外国語大学",
+"op": "add"
+},
+{
+"name": "神戸市看護大学",
+"op": "add"
+},
+{
+"name": "びわこ学院大学",
+"op": "enrich",
+"need": [
+"verify"
+]
+},
+{
+"name": "京都先端科学大学",
+"op": "enrich",
+"need": [
+"verify"
+]
+},
+{
+"name": "静岡福祉大学",
+"op": "enrich",
+"need": [
+"verify"
+]
+},
+{
+"name": "静岡福祉大学",
+"op": "enrich",
+"need": [
+"methods"
+]
+},
+{
+"name": "静岡福祉大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "静岡福祉大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "静岡福祉大学",
+"op": "enrich",
+"need": [
+"scholar"
+]
+},
+{
+"name": "静岡英和学院大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "びわこ学院大学",
+"op": "enrich",
+"need": [
+"methods"
+]
+},
+{
+"name": "びわこ学院大学",
+"op": "enrich",
+"need": [
+"scholar"
+]
+},
+{
+"name": "京都先端科学大学",
+"op": "enrich",
+"need": [
+"methods"
+]
+},
+{
+"name": "京都先端科学大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "京都先端科学大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "京都先端科学大学",
+"op": "enrich",
+"need": [
+"scholar"
+]
+},
+{
+"name": "京都光華女子大学",
+"op": "enrich",
+"need": [
+"methods"
+]
+},
+{
+"name": "京都光華女子大学",
+"op": "enrich",
+"need": [
+"scholar"
+]
 }
 ],
 "failed": [],
@@ -3056,7 +3147,9 @@
 "宮崎国際大学": 1,
 "沖縄国際大学": 1,
 "沖縄大学": 1,
-"長野県立大学": 1
+"長野県立大学": 1,
+"びわこ成蹊スポーツ大学": 1,
+"高岡法科大学": 1
 },
 "enrich": [
 {
@@ -3300,49 +3393,7 @@
 ]
 },
 {
-"name": "びわこ学院大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "びわこ成蹊スポーツ大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "京都先端科学大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "京都光華女子大学",
-"need": [
-"verify"
-]
-},
-{
 "name": "静岡産業大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "静岡福祉大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "静岡英和学院大学",
-"need": [
-"verify"
-]
-},
-{
-"name": "高岡法科大学",
 "need": [
 "verify"
 ]
@@ -20768,30 +20819,6 @@
 ]
 },
 {
-"name": "静岡福祉大学",
-"need": [
-"methods"
-]
-},
-{
-"name": "静岡福祉大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "静岡福祉大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "静岡福祉大学",
-"need": [
-"scholar"
-]
-},
-{
 "name": "静岡英和学院大学",
 "need": [
 "methods"
@@ -20801,12 +20828,6 @@
 "name": "静岡英和学院大学",
 "need": [
 "schedule_dates"
-]
-},
-{
-"name": "静岡英和学院大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -20866,12 +20887,6 @@
 {
 "name": "びわこ学院大学",
 "need": [
-"methods"
-]
-},
-{
-"name": "びわこ学院大学",
-"need": [
 "schedule_dates"
 ]
 },
@@ -20882,12 +20897,6 @@
 ]
 },
 {
-"name": "びわこ学院大学",
-"need": [
-"scholar"
-]
-},
-{
 "name": "びわこ成蹊スポーツ大学",
 "need": [
 "methods"
@@ -20912,36 +20921,6 @@
 ]
 },
 {
-"name": "京都先端科学大学",
-"need": [
-"methods"
-]
-},
-{
-"name": "京都先端科学大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "京都先端科学大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "京都先端科学大学",
-"need": [
-"scholar"
-]
-},
-{
-"name": "京都光華女子大学",
-"need": [
-"methods"
-]
-},
-{
 "name": "京都光華女子大学",
 "need": [
 "schedule_dates"
@@ -20951,12 +20930,6 @@
 "name": "京都光華女子大学",
 "need": [
 "fees"
-]
-},
-{
-"name": "京都光華女子大学",
-"need": [
-"scholar"
 ]
 },
 {
@@ -21917,6 +21890,87 @@
 "name": "日本福祉大学",
 "need": [
 "scholar"
+]
+},
+{
+"name": "びわこ成蹊スポーツ大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "京都光華女子大学",
+"need": [
+"verify"
+],
+"note": "2026年4月に京都光華大学へ名称変更・共学化。公式で学部構成（社会学部 社会共創学科など）を確かめ departments_full で直し、入試科目も確認"
+},
+{
+"name": "静岡英和学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "高岡法科大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "兵庫県立大学",
+"keinet": "1627",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "和歌山県立医科大学",
+"keinet": "1645",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "奈良県立医科大学",
+"keinet": "1635",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "奈良県立大学",
+"keinet": "1640",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "滋賀県立大学",
+"keinet": "1587",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "神戸市外国語大学",
+"keinet": "1620",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "神戸市看護大学",
+"keinet": "1619",
+"need": [
+"extra",
+"partners"
 ]
 }
 ],
