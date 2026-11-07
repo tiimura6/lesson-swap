@@ -3179,41 +3179,6 @@
 "cat": "private"
 },
 {
-"name": "東大阪大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.higashiosaka.ac.jp/",
-"cat": "private"
-},
-{
-"name": "桃山学院大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.andrew.ac.jp/",
-"cat": "private"
-},
-{
-"name": "桃山学院教育大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.andrew-edu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "梅花女子大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.baika.ac.jp/",
-"cat": "private"
-},
-{
-"name": "森ノ宮医療大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.morinomiya-u.ac.jp/",
-"cat": "private"
-},
-{
 "name": "武庫川女子大学",
 "type": "私立",
 "pref": "兵庫県",
@@ -3986,6 +3951,30 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "東大阪大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "桃山学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "梅花女子大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "森ノ宮医療大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "神戸女子大学",
 "need": [
@@ -18987,6 +18976,102 @@
 "need": [
 "scholar"
 ]
+},
+{
+"name": "東大阪大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "東大阪大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "東大阪大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "東大阪大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "桃山学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "桃山学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "桃山学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "桃山学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "梅花女子大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "梅花女子大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "梅花女子大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "梅花女子大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "森ノ宮医療大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "森ノ宮医療大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "森ノ宮医療大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "森ノ宮医療大学",
+"need": [
+"scholar"
+]
 }
 ],
 "complete": true,
@@ -19022,6 +19107,10 @@
 {
 "name": "甲子園大学",
 "reason": "2026年度入学生を最後に学生募集を停止（2027年度入試なし）。神戸新聞 2026/7/23"
+},
+{
+"name": "桃山学院教育大学",
+"reason": "2025年4月に桃山学院大学と統合（桃山学院大学 人間教育学部として募集）"
 }
 ]
 }
