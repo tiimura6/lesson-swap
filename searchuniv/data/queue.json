@@ -3459,41 +3459,6 @@
 "cat": "private"
 },
 {
-"name": "くらしき作陽大学",
-"type": "私立",
-"pref": "岡山県",
-"hp": "https://www.ksu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "エリザベト音楽大学",
-"type": "私立",
-"pref": "広島県",
-"hp": "https://www.eum.ac.jp/",
-"cat": "private"
-},
-{
-"name": "ノートルダム清心女子大学",
-"type": "私立",
-"pref": "岡山県",
-"hp": "https://www.ndsu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "中国学園大学",
-"type": "私立",
-"pref": "岡山県",
-"hp": "https://www.cjc.ac.jp/",
-"cat": "private"
-},
-{
-"name": "倉敷芸術科学大学",
-"type": "私立",
-"pref": "岡山県",
-"hp": "https://www.kusa.ac.jp/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -4231,6 +4196,36 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "くらしき作陽大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "エリザベト音楽大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "ノートルダム清心女子大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "中国学園大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "倉敷芸術科学大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "関西福祉大学",
 "need": [
@@ -18239,6 +18234,126 @@
 },
 {
 "name": "龍谷大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "くらしき作陽大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "くらしき作陽大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "くらしき作陽大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "くらしき作陽大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "エリザベト音楽大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "エリザベト音楽大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "エリザベト音楽大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "エリザベト音楽大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "ノートルダム清心女子大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "ノートルダム清心女子大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "ノートルダム清心女子大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "ノートルダム清心女子大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "中国学園大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "中国学園大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "中国学園大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "中国学園大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "倉敷芸術科学大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "倉敷芸術科学大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "倉敷芸術科学大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "倉敷芸術科学大学",
 "need": [
 "scholar"
 ]
