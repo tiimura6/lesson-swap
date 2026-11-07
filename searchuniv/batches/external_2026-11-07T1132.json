@@ -1,0 +1,898 @@
+[
+ {
+  "name": "北陸大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "石川県金沢市",
+  "pref_name": "石川県",
+  "city": "金沢市",
+  "hp": "https://www.hokuriku-u.ac.jp/",
+  "reading": "ほくりくだいがく",
+  "features": [
+   "薬学部（6年制）・医療保健学部・経済経営学部・国際コミュニケーション学部の4学部を擁する。",
+   "本学独自方式A日程（2/1〜2/3）は選抜日自由選択制で、特待生を認定する入学者選抜を実施。",
+   "共通テスト利用方式（A日程等）や本学独自方式B日程（2/23）も設定。"
+  ],
+  "memo": "偏差値はBF〜35.0、共テ得点率は40%〜49%（河合塾Kei-Net・パスナビ）。薬学部（6年制）は初年度215万円。",
+  "info": {
+   "faculties": [
+    "薬学部",
+    "医療保健学部",
+    "経済経営学部",
+    "国際コミュニケーション学部"
+   ],
+   "departments": [
+    {
+     "f": "薬学部",
+     "d": [
+      "薬学科（6年制）"
+     ]
+    },
+    {
+     "f": "医療保健学部",
+     "d": [
+      "理学療法学科",
+      "医療技術学科"
+     ]
+    },
+    {
+     "f": "経済経営学部",
+     "d": [
+      "経済学科",
+      "マネジメント学科"
+     ]
+    },
+    {
+     "f": "国際コミュニケーション学部",
+     "d": [
+      "国際コミュニケーション学科",
+      "心理社会学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜35.0",
+    "kyotei": "40%〜49%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "一般選抜（大学入学共通テスト利用方式 A日程等）を実施",
+    "kyoka": [
+     3,
+     3
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（本学独自方式 A日程・B日程）",
+      "kyotsu": "課さない",
+      "niji": "各学部指定科目",
+      "content": null,
+      "req": "A日程は2/1〜2/3の選抜日自由選択制（特待生認定対象）",
+      "url": "https://www.hokuriku-u.ac.jp/admission/exam/classification/dokuji.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜（大学入学共通テスト利用方式 A日程等）",
+      "kyotsu": "指定教科・科目",
+      "niji": null,
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.hokuriku-u.ac.jp/admission/exam/classification/ippan.html"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（本学独自方式 A日程）",
+      "apply": "12/21〜1/25",
+      "exam": "2/1・2/2・2/3（自由選択）",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（本学独自方式 B日程）",
+      "apply": "2/1〜2/16",
+      "exam": "2/23",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜（共通テスト利用方式 A日程）",
+      "apply": "12/21〜1/25",
+      "exam": "1/16・1/17（共テ）",
+      "result": null,
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "経済経営学部（経済・マネジメント）",
+      "admission": 200000,
+      "tuition": 1020000,
+      "facility": 0,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1220000,
+      "four_year": null
+     },
+     {
+      "f": "国際コミュニケーション学部（心理社会学科）",
+      "admission": 200000,
+      "tuition": 1100000,
+      "facility": 0,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1300000,
+      "four_year": null
+     },
+     {
+      "f": "国際コミュニケーション学部（国際コミュニケーション学科）",
+      "admission": 200000,
+      "tuition": 1120000,
+      "facility": 0,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1320000,
+      "four_year": null
+     },
+     {
+      "f": "医療保健学部（理学療法・医療技術）",
+      "admission": 200000,
+      "tuition": 1500000,
+      "facility": 0,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1700000,
+      "four_year": null
+     },
+     {
+      "f": "薬学部 薬学科（6年制）",
+      "admission": 200000,
+      "tuition": 1950000,
+      "facility": 0,
+      "practical": 0,
+      "other": 0,
+      "first_year": 2150000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "太陽が丘キャンパス（石川県金沢市太陽が丘1-1）・薬学キャンパス",
+   "careers": "薬剤師、理学療法士、臨床検査技師、一般企業、公務員など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.hokuriku-u.ac.jp/admission/exam/classification/dokuji.html",
+    "https://www.hokuriku-u.ac.jp/admission/exam/classification/ippan.html",
+    "https://search.keinet.ne.jp/2361/outline/expense",
+    "https://search.keinet.ne.jp/2361/general/border_rate",
+    "https://passnavi.obunsha.co.jp/univ/3510/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.hokuriku-u.ac.jp/admission/exam/classification/dokuji.html",
+   "https://www.hokuriku-u.ac.jp/admission/exam/classification/ippan.html",
+   "https://search.keinet.ne.jp/2361/outline/expense",
+   "https://search.keinet.ne.jp/2361/general/border_rate",
+   "https://passnavi.obunsha.co.jp/univ/3510/difficulty/"
+  ]
+ },
+ {
+  "name": "北陸学院大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "石川県金沢市",
+  "pref_name": "石川県",
+  "city": "金沢市",
+  "hp": "https://www.hokurikugakuin.ac.jp/univ/",
+  "reading": "ほくりくがくいんだいがく",
+  "features": [
+   "社会学部（社会マネジメント学科）と健康科学部（栄養学科）を擁する。",
+   "一般選抜は第Ⅰ期（1/29）・第Ⅱ期（2/6）・C日程（2/19）・D日程（3/12）の4日程を実施。",
+   "共通テスト利用制もA日程・B日程・C日程の3日程を用意。"
+  ],
+  "memo": "偏差値はBF〜35.0、共テ得点率は35%〜45%（河合塾Kei-Net・パスナビ）。",
+  "info": {
+   "faculties": [
+    "社会学部",
+    "健康科学部"
+   ],
+   "departments": [
+    {
+     "f": "社会学部",
+     "d": [
+      "社会マネジメント学科"
+     ]
+    },
+    {
+     "f": "健康科学部",
+     "d": [
+      "栄養学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜35.0",
+    "kyotei": "35%〜45%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "一般選抜［大学入学共通テスト利用制］（A・B・C日程）を実施",
+    "kyoka": [
+     3,
+     3
+    ],
+    "note": "共通テスト3科目と書類審査で選考"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（第Ⅰ期・第Ⅱ期・C日程・D日程）",
+      "kyotsu": "課さない",
+      "niji": "各学部指定科目",
+      "content": null,
+      "req": "第Ⅰ期は石川・富山・福井会場で実施",
+      "url": "https://www.hokurikugakuin.ac.jp/univ/exam/info/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜［大学入学共通テスト利用制］（A・B・C日程）",
+      "kyotsu": "3科目",
+      "niji": null,
+      "content": null,
+      "req": "調査書・共通テスト成績で選考",
+      "url": "https://www.hokurikugakuin.ac.jp/univ/exam/info/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 第Ⅰ期",
+      "apply": "12/15〜1/24",
+      "exam": "1/29",
+      "result": "2/9",
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 第Ⅱ期",
+      "apply": "12/15〜2/1",
+      "exam": "2/6",
+      "result": "2/16",
+      "proc": "3/3",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 C日程",
+      "apply": "2/5〜2/15",
+      "exam": "2/19",
+      "result": "2/26",
+      "proc": "3/10",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 D日程",
+      "apply": "2/26〜3/9",
+      "exam": "3/12",
+      "result": "3/17",
+      "proc": "3/24",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜［共通テスト利用制］A日程",
+      "apply": "12/15〜1/29",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/9",
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜［共通テスト利用制］B日程",
+      "apply": "2/5〜2/18",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/26",
+      "proc": "3/10",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜［共通テスト利用制］C日程",
+      "apply": "2/26〜3/11",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/17",
+      "proc": "3/24",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "社会学部",
+      "admission": 200000,
+      "tuition": 1060000,
+      "facility": 0,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1260000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "石川県金沢市三小牛町イ11",
+   "careers": "一般企業、公務員、管理栄養士、栄養教諭など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.hokurikugakuin.ac.jp/univ/exam/info/",
+    "https://www.hokurikugakuin.ac.jp/univ/wp_univ/wp-content/themes/hgu/downloads/pdf/2027_application_information.pdf",
+    "https://www.hokurikugakuin.ac.jp/univ/exam/payment/",
+    "https://search.keinet.ne.jp/2360/general/border_rate",
+    "https://passnavi.obunsha.co.jp/univ/3512/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.hokurikugakuin.ac.jp/univ/exam/info/",
+   "https://www.hokurikugakuin.ac.jp/univ/wp_univ/wp-content/themes/hgu/downloads/pdf/2027_application_information.pdf",
+   "https://www.hokurikugakuin.ac.jp/univ/exam/payment/",
+   "https://search.keinet.ne.jp/2360/general/border_rate",
+   "https://passnavi.obunsha.co.jp/univ/3512/difficulty/"
+  ]
+ },
+ {
+  "name": "同朋大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "愛知県名古屋市中村区",
+  "pref_name": "愛知県",
+  "city": "名古屋市中村区",
+  "hp": "https://www.doho.ac.jp/",
+  "reading": "どうほうだいがく",
+  "features": [
+   "文学部（仏教学科・日本文学科）と社会福祉学部（社会福祉学科）を擁する大学。",
+   "一般選抜は1期A（1/30）・1期B（1/31）・2期（2/6）・3期（2/20）・4期（3/13）と多彩な日程を実施。",
+   "大学入学共通テスト利用選抜（2期・3期・4期）も全学部で実施。"
+  ],
+  "memo": "偏差値はBF〜35.0（パスナビ）。初年度納入金は123万円（入学金19万円・授業料70万円・教育充実費34万円）。",
+  "info": {
+   "faculties": [
+    "文学部",
+    "社会福祉学部"
+   ],
+   "departments": [
+    {
+     "f": "文学部",
+     "d": [
+      "仏教学科",
+      "日本文学科"
+     ]
+    },
+    {
+     "f": "社会福祉学部",
+     "d": [
+      "社会福祉学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜35.0",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "大学入学共通テスト利用選抜（2期・3期・4期）を実施",
+    "kyoka": [
+     null,
+     null
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（1期A・1期B・2期・3期・4期）",
+      "kyotsu": "課さない",
+      "niji": "1〜3科目（3期は共テ併用判定制度あり）",
+      "content": null,
+      "req": "1期Aは3科目型と2科目型のダブル判定可",
+      "url": "https://www.doho.ac.jp/examination/application/ippan/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（2期・3期・4期）",
+      "kyotsu": "指定教科・科目",
+      "niji": null,
+      "content": null,
+      "req": "個別試験なし",
+      "url": "https://www.doho.ac.jp/examination/application/ippan/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 1期（A方式）",
+      "apply": "1/5〜1/20",
+      "exam": "1/30",
+      "result": "2/4",
+      "proc": "2/5〜3/12",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 1期（B方式）",
+      "apply": "1/5〜1/20",
+      "exam": "1/31",
+      "result": "2/4",
+      "proc": "2/5〜3/12",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 2期",
+      "apply": "1/13〜2/1",
+      "exam": "2/6",
+      "result": "2/12",
+      "proc": "2/13〜3/12",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 3期",
+      "apply": "2/1〜2/16",
+      "exam": "2/20",
+      "result": "2/26",
+      "proc": "2/27〜3/12",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 4期",
+      "apply": "2/9〜3/9",
+      "exam": "3/13",
+      "result": "3/16",
+      "proc": "3/17〜3/25",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 2期",
+      "apply": "1/13〜2/1",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "2/13〜3/12",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 3期",
+      "apply": "2/1〜2/16",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/26",
+      "proc": "2/27〜3/12",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 4期",
+      "apply": "2/23〜3/9",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/16",
+      "proc": "3/17〜3/25",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "文学部・社会福祉学部",
+      "admission": 190000,
+      "tuition": 700000,
+      "facility": 340000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1230000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "愛知県名古屋市中村区稲葉地町7-1",
+   "careers": "社会福祉士、精神保健福祉士、保育士、中高教諭、一般企業、公務員など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.doho.ac.jp/examination/application/ippan/",
+    "https://www.doho.ac.jp/examination/tuition/",
+    "https://search.keinet.ne.jp/2449/outline/expense",
+    "https://passnavi.obunsha.co.jp/univ/3720/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.doho.ac.jp/examination/application/ippan/",
+   "https://www.doho.ac.jp/examination/tuition/",
+   "https://search.keinet.ne.jp/2449/outline/expense",
+   "https://passnavi.obunsha.co.jp/univ/3720/difficulty/"
+  ]
+ },
+ {
+  "name": "名古屋商科大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "愛知県日進市",
+  "pref_name": "愛知県",
+  "city": "日進市",
+  "hp": "https://www.nucba.ac.jp/",
+  "reading": "なごやしょうかだいがく",
+  "features": [
+   "国際認証AACSBを取得したビジネス系総合大学（経済・経営・商・国際・経営管理課程）。",
+   "一般入試前期A（2/2〜2/4）・前期M（2/5）・共通テストプラス・共通テスト利用（2・3・5科目型）・後期（3/5）を実施。",
+   "一般入試前期A・Mは成績優秀者奨学金の対象。"
+  ],
+  "memo": "偏差値は35.0〜42.5、共テ得点率は43%〜57%（河合塾Kei-Net・パスナビ）。",
+  "info": {
+   "faculties": [
+    "経済学部",
+    "経営学部",
+    "商学部",
+    "国際学部",
+    "経営管理課程"
+   ],
+   "departments": [
+    {
+     "f": "経済学部",
+     "d": [
+      "経済学科",
+      "総合政策学科"
+     ]
+    },
+    {
+     "f": "経営学部",
+     "d": [
+      "経営学科",
+      "経営情報学科"
+     ]
+    },
+    {
+     "f": "商学部",
+     "d": [
+      "マーケティング学科",
+      "会計学科"
+     ]
+    },
+    {
+     "f": "国際学部",
+     "d": [
+      "国際学科",
+      "英米学科"
+     ]
+    },
+    {
+     "f": "経営管理課程",
+     "d": [
+      "経営管理"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜42.5",
+    "kyotei": "43%〜57%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "共通テスト利用（2・3・5科目型）および共通テストプラス入試を実施",
+    "kyoka": [
+     2,
+     5
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般入試（前期A・前期M・後期）",
+      "kyotsu": "課さない",
+      "niji": "各方式指定科目（Mはオールマークシート3教科型）",
+      "content": null,
+      "req": "前期A・Mは成績優秀者奨学金の対象",
+      "url": "https://www.nucba.ac.jp/press/admission/entry-26580.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用（2・3・5科目型）・共通テストプラス",
+      "kyotsu": "2〜5科目",
+      "niji": "プラスは前期A1科目",
+      "content": null,
+      "req": "全学部・全学科との併願が可能",
+      "url": "https://www.nucba.ac.jp/press/admission/entry-26580.html"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般入試 前期A",
+      "apply": "1/4〜1/25",
+      "exam": "2/2・2/3・2/4",
+      "result": "2/16",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試 前期M",
+      "apply": "1/4〜1/25",
+      "exam": "2/5",
+      "result": "2/16",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試 後期（2教科型）",
+      "apply": null,
+      "exam": "3/5",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用（2・3・5科目型）",
+      "apply": "1/4〜1/28",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/16",
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "経済学部・経営学部・商学部",
+      "admission": 270000,
+      "tuition": 687000,
+      "facility": 410000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1367000,
+      "four_year": null
+     },
+     {
+      "f": "国際学部・経営管理課程",
+      "admission": 270000,
+      "tuition": 717000,
+      "facility": 410000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1397000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "日進キャンパス（愛知県日進市米野木町三ヶ峯4-4）・名古屋キャンパス",
+   "careers": "一般企業、金融・商社、会計士・税理士、IT・情報関連、公務員など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.nucba.ac.jp/press/admission/entry-26580.html",
+    "https://www.nucba.ac.jp/admission/exam.html",
+    "https://search.keinet.ne.jp/2456/outline/expense",
+    "https://search.keinet.ne.jp/2456/general/border_rate",
+    "https://passnavi.obunsha.co.jp/univ/3790/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.nucba.ac.jp/press/admission/entry-26580.html",
+   "https://www.nucba.ac.jp/admission/exam.html",
+   "https://search.keinet.ne.jp/2456/outline/expense",
+   "https://search.keinet.ne.jp/2456/general/border_rate",
+   "https://passnavi.obunsha.co.jp/univ/3790/difficulty/"
+  ]
+ },
+ {
+  "name": "名古屋外国語大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "愛知県日進市",
+  "pref_name": "愛知県",
+  "city": "日進市",
+  "hp": "https://www.nufs.ac.jp/",
+  "reading": "なごやがいこくごだいがく",
+  "features": [
+   "世界教養・総合英語・地球社会の3学部を擁する東海地区を代表する外国語大学。",
+   "一般選抜前期A方式（2/3・2/4）、前期M3・M2方式（2/1・2/2）、前期共通テストプラス方式、後期（3/6）を実施。",
+   "共通テスト利用前期【3教科】【5教科】および後期【2教科】も用意。"
+  ],
+  "memo": "偏差値は42.5〜57.5、共テ得点率は63%〜77%（河合塾Kei-Net・パスナビ）。",
+  "info": {
+   "faculties": [
+    "世界教養学部",
+    "総合英語学部",
+    "地球社会学部"
+   ],
+   "departments": [
+    {
+     "f": "世界教養学部",
+     "d": [
+      "世界教養学科",
+      "フランス語学科",
+      "中国語学科",
+      "国際日本学科"
+     ]
+    },
+    {
+     "f": "総合英語学部",
+     "d": [
+      "英米語学科",
+      "国際英語コミュニケーション学科",
+      "英語教育学科"
+     ]
+    },
+    {
+     "f": "地球社会学部",
+     "d": [
+      "英語キャリア学科",
+      "グローバルビジネス学科",
+      "グローバル共生学科",
+      "国際教養学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "42.5〜57.5",
+    "kyotei": "63%〜77%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "共通テスト利用前期【3教科】【5教科】・後期【2教科】・前期共通テストプラス方式を実施",
+    "kyoka": [
+     2,
+     5
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期A方式・前期M3/M2方式・後期）",
+      "kyotsu": "課さない",
+      "niji": "各方式指定科目（M3/M2はオールマークシート）",
+      "content": null,
+      "req": "前期A方式・M方式はそれぞれ2日間の試験日自由選択制",
+      "url": "https://www.nagoyagaidai.com/nyushi/schedule/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜（共通テスト利用前期【3教科・5教科】・後期【2教科】）",
+      "kyotsu": "2〜5教科",
+      "niji": null,
+      "content": null,
+      "req": "個別試験なし",
+      "url": "https://www.nagoyagaidai.com/nyushi/schedule/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期A方式",
+      "apply": "1/5〜1/19",
+      "exam": "2/3・2/4",
+      "result": "2/18",
+      "proc": "1次2/26・2次3/9",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期M3・M2方式",
+      "apply": "1/5〜1/19",
+      "exam": "2/1・2/2",
+      "result": "2/18",
+      "proc": "1次2/26・2次3/9",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期",
+      "apply": "2/19〜2/27",
+      "exam": "3/6",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用前期【3教科・5教科】",
+      "apply": "1/5〜1/25",
+      "exam": "1/16・1/17（共テ）",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用後期【2教科】",
+      "apply": "2/19〜3/10",
+      "exam": "1/16・1/17（共テ）",
+      "result": null,
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "全学部（世界教養・総合英語・地球社会）",
+      "admission": 200000,
+      "tuition": 870000,
+      "facility": 400000,
+      "practical": 0,
+      "other": 19000,
+      "first_year": 1489000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "愛知県日進市岩崎町竹ノ山57",
+   "careers": "航空・観光・ホテル業界、商社、メーカー、英語教員、公務員など。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.nagoyagaidai.com/nyushi/schedule/",
+    "https://www.nagoyagaidai.com/nyushi/schedule/ippan_zenki_a/",
+    "https://www.nagoyagaidai.com/wp/wp-content/themes/wp-templ/assets/pdf/nyushi/yoko/2027/suisen/2027_ippan_all.pdf",
+    "https://search.keinet.ne.jp/2452/outline/expense",
+    "https://search.keinet.ne.jp/2452/general/border_rate",
+    "https://passnavi.obunsha.co.jp/univ/3750/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.nagoyagaidai.com/nyushi/schedule/",
+   "https://www.nagoyagaidai.com/nyushi/schedule/ippan_zenki_a/",
+   "https://www.nagoyagaidai.com/wp/wp-content/themes/wp-templ/assets/pdf/nyushi/yoko/2027/suisen/2027_ippan_all.pdf",
+   "https://search.keinet.ne.jp/2452/outline/expense",
+   "https://search.keinet.ne.jp/2452/general/border_rate",
+   "https://passnavi.obunsha.co.jp/univ/3750/difficulty/"
+  ]
+ }
+]

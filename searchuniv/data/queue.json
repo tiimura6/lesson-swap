@@ -1968,41 +1968,6 @@
 "cat": "private"
 },
 {
-"name": "北陸大学",
-"type": "私立",
-"pref": "石川県",
-"hp": "https://www.hokuriku-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "北陸学院大学",
-"type": "私立",
-"pref": "石川県",
-"hp": "https://www.hokurikugakuin.ac.jp/univ/",
-"cat": "private"
-},
-{
-"name": "同朋大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.doho.ac.jp/",
-"cat": "private"
-},
-{
-"name": "名古屋商科大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.nucba.ac.jp/",
-"cat": "private"
-},
-{
-"name": "名古屋外国語大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.nufs.ac.jp/",
-"cat": "private"
-},
-{
 "name": "名古屋女子大学",
 "type": "私立",
 "pref": "愛知県",
@@ -2942,6 +2907,36 @@
 "高岡法科大学": 1
 },
 "enrich": [
+{
+"name": "北陸大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "北陸学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "同朋大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "名古屋商科大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "名古屋外国語大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "名城大学",
 "need": [
@@ -22599,6 +22594,126 @@
 },
 {
 "name": "山梨英和大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "北陸大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "北陸大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "北陸大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "北陸大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "北陸学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "北陸学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "北陸学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "北陸学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "同朋大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "同朋大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "同朋大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "同朋大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "名古屋商科大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "名古屋商科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "名古屋商科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "名古屋商科大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "名古屋外国語大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "名古屋外国語大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "名古屋外国語大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "名古屋外国語大学",
 "need": [
 "scholar"
 ]
