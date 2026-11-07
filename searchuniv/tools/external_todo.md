@@ -745,3 +745,359 @@
 - 東京通信大学（通信制のみ）（私立・東京都）公式サイト：https://www.internet.ac.jp/
 - ビジネス・ブレークスルー大学（通信制のみ）（私立・東京都）公式サイト：
 - サイバー大学（通信制のみ）（私立・福岡県）公式サイト：https://www.cyber-u.ac.jp/
+
+## 補完依頼（既存校の日程・学費の穴埋め。2026-11-07 作成、主要校から順）
+既存校なので cat/features/memo は不要。日程（全方式・4つの日付）と、私立は学費（学部別の内訳）だけを集めてもらう。
+
+### 補完1
+- 東北大学（国立・宮城県仙台市）公式サイト：https://www.tohoku.ac.jp/ ／ 必要：日程
+- 九州大学（国立・福岡県福岡市）公式サイト：https://www.kyushu-u.ac.jp/ ／ 必要：日程
+- 神戸大学（国立・兵庫県神戸市）公式サイト：https://www.kobe-u.ac.jp/ ／ 必要：日程
+- 早稲田大学（私立・東京都新宿区ほか）公式サイト：https://www.waseda.jp/ ／ 必要：日程・学費
+- 慶應義塾大学（私立・東京都港区・神奈川県横浜市・藤沢市ほか）公式サイト：https://www.keio.ac.jp/ ／ 必要：日程・学費
+
+### 補完2
+- 上智大学（私立・東京都千代田区）公式サイト：https://www.sophia.ac.jp/ ／ 必要：日程・学費
+- 東京理科大学（私立・東京都新宿区・葛飾区・千葉県野田市）公式サイト：https://www.tus.ac.jp/ ／ 必要：日程・学費
+- 国際基督教大学（ICU）（私立・東京都三鷹市）公式サイト：https://www.icu.ac.jp/ ／ 必要：日程・学費
+- 学習院大学（私立・東京都豊島区（目白））公式サイト：https://www.univ.gakushuin.ac.jp/ ／ 必要：日程・学費
+- 明治大学（私立・東京都千代田区（駿河台）ほか）公式サイト：https://www.meiji.ac.jp/ ／ 必要：日程・学費
+
+### 補完3
+- 青山学院大学（私立・東京都渋谷区・神奈川県相模原市）公式サイト：https://www.aoyama.ac.jp/ ／ 必要：日程・学費
+- 立教大学（私立・東京都豊島区（池袋）・埼玉県新座市）公式サイト：https://www.rikkyo.ac.jp/ ／ 必要：日程・学費
+- 中央大学（私立・東京都文京区（茗荷谷）・八王子市・新宿区（市ヶ谷）ほか）公式サイト：https://www.chuo-u.ac.jp/ ／ 必要：日程・学費
+- 法政大学（私立・東京都千代田区（市ヶ谷）・町田市（多摩）・小金井市）公式サイト：https://www.hosei.ac.jp/ ／ 必要：日程・学費
+- 同志社大学（私立・京都府京都市・京田辺市）公式サイト：https://www.doshisha.ac.jp/ ／ 必要：日程・学費
+
+### 補完4
+- 立命館大学（私立・京都府京都市・滋賀県草津市・大阪府茨木市）公式サイト：https://www.ritsumei.ac.jp/ ／ 必要：日程・学費
+- 関西学院大学（私立・兵庫県西宮市・三田市）公式サイト：https://www.kwansei.ac.jp/ ／ 必要：日程・学費
+- 関西大学（私立・大阪府吹田市（千里山）ほか）公式サイト：https://www.kansai-u.ac.jp/ ／ 必要：日程・学費
+- 南山大学（私立・愛知県名古屋市）公式サイト：https://www.nanzan-u.ac.jp/ ／ 必要：日程・学費
+- 西南学院大学（私立・福岡県福岡市）公式サイト：https://www.seinan-gu.ac.jp/ ／ 必要：日程・学費
+
+### 補完5
+- 成蹊大学（私立・東京都武蔵野市（吉祥寺））公式サイト：https://www.seikei.ac.jp/university/ ／ 必要：日程・学費
+- 成城大学（私立・東京都世田谷区）公式サイト：https://www.seijo.ac.jp/ ／ 必要：日程・学費
+- 明治学院大学（私立・東京都港区（白金）・神奈川県横浜市）公式サイト：https://www.meijigakuin.ac.jp/ ／ 必要：日程・学費
+- 獨協大学（私立・埼玉県草加市）公式サイト：https://www.dokkyo.ac.jp/ ／ 必要：学費
+- 國學院大學（私立・東京都渋谷区・神奈川県横浜市）公式サイト：https://www.kokugakuin.ac.jp/ ／ 必要：日程・学費
+
+### 補完6
+- 武蔵大学（私立・東京都練馬区）公式サイト：https://www.musashi.ac.jp/ ／ 必要：日程・学費
+- 日本大学（私立・東京都千代田区ほか）公式サイト：https://www.nihon-u.ac.jp/ ／ 必要：日程・学費
+- 東洋大学（私立・東京都文京区（白山）ほか）公式サイト：https://www.toyo.ac.jp/ ／ 必要：日程・学費
+- 駒澤大学（私立・東京都世田谷区）公式サイト：https://www.komazawa-u.ac.jp/ ／ 必要：日程・学費
+- 専修大学（私立・東京都千代田区（神田）・神奈川県川崎市（生田））公式サイト：https://www.senshu-u.ac.jp/ ／ 必要：日程・学費
+
+### 補完7
+- 芝浦工業大学（私立・東京都江東区（豊洲）・埼玉県さいたま市（大宮））公式サイト：https://www.shibaura-it.ac.jp/ ／ 必要：日程・学費
+- 東京都市大学（私立・東京都世田谷区・神奈川県横浜市）公式サイト：https://www.tcu.ac.jp/ ／ 必要：日程・学費
+- 東京電機大学（私立・東京都足立区（千住）・埼玉県鳩山町）公式サイト：https://www.dendai.ac.jp/ ／ 必要：日程・学費
+- 工学院大学（私立・東京都新宿区・八王子市）公式サイト：https://www.kogakuin.ac.jp/ ／ 必要：日程・学費
+- 東京農業大学（私立・東京都世田谷区・神奈川県厚木市・北海道網走市）公式サイト：https://www.nodai.ac.jp/ ／ 必要：日程・学費
+
+### 補完8
+- 北里大学（私立・東京都港区・神奈川県相模原市・青森県十和田市）公式サイト：https://www.kitasato-u.ac.jp/ ／ 必要：日程・学費
+- 自治医科大学（私立・栃木県下野市）公式サイト：https://www.jichi.ac.jp/ ／ 必要：学費
+- 国際医療福祉大学（私立・栃木県大田原市・千葉県成田市ほか）公式サイト：https://www.iuhw.ac.jp/ ／ 必要：学費
+- 順天堂大学（私立・東京都文京区・千葉県印西市ほか）公式サイト：https://www.juntendo.ac.jp/ ／ 必要：日程・学費
+- 東京慈恵会医科大学（私立・東京都港区）公式サイト：https://www.jikei.ac.jp/ ／ 必要：日程・学費
+
+### 補完9
+- 日本医科大学（私立・東京都文京区）公式サイト：https://www.nms.ac.jp/ ／ 必要：日程・学費
+- 獨協医科大学（私立・栃木県壬生町）公式サイト：https://www.dokkyomed.ac.jp/ ／ 必要：日程・学費
+- 津田塾大学（私立・東京都小平市・渋谷区（千駄ヶ谷））公式サイト：https://www.tsuda.ac.jp/ ／ 必要：日程・学費
+- 東京女子大学（私立・東京都杉並区）公式サイト：https://www.twcu.ac.jp/ ／ 必要：日程・学費
+- 日本女子大学（私立・東京都文京区（目白））公式サイト：https://www.jwu.ac.jp/ ／ 必要：日程・学費
+
+### 補完10
+- 聖心女子大学（私立・東京都渋谷区（広尾））公式サイト：https://www.u-sacred-heart.ac.jp/ ／ 必要：学費
+- 立命館アジア太平洋大学（APU）（私立・大分県別府市）公式サイト：https://www.apu.ac.jp/ ／ 必要：日程・学費
+- 神田外語大学（私立・千葉県千葉市（幕張））公式サイト：https://www.kandagaigo.ac.jp/kuis/ ／ 必要：日程・学費
+- 関西外国語大学（私立・大阪府枚方市）公式サイト：https://www.kansaigaidai.ac.jp/ ／ 必要：日程・学費
+- 茨城キリスト教大学（私立・茨城県日立市）公式サイト：https://www.icc.ac.jp/ ／ 必要：学費
+
+### 補完11
+- 常磐大学（私立・茨城県水戸市）公式サイト：https://www.tokiwa.ac.jp/ ／ 必要：学費
+- 流通経済大学（私立・茨城県龍ケ崎市）公式サイト：https://www.rku.ac.jp/ ／ 必要：日程・学費
+- 国際ファッション専門職大学（私立（専門職大学）・東京都新宿区・大阪府大阪市・愛知県名古屋市）公式サイト：https://www.piif.ac.jp/ ／ 必要：学費
+- 情報経営イノベーション専門職大学（iU）（私立（専門職大学）・東京都墨田区）公式サイト：https://www.i-u.ac.jp/ ／ 必要：学費
+- 東京国際工科専門職大学（私立（専門職大学）・東京都新宿区）公式サイト：https://www.iput.ac.jp/tokyo/ ／ 必要：学費
+
+### 補完12
+- 開志専門職大学（私立（専門職大学）・新潟県新潟市）公式サイト：https://www.kaishi-pu.ac.jp/ ／ 必要：日程・学費
+- 高知リハビリテーション専門職大学（私立（専門職大学）・高知県土佐市）公式サイト：https://kochireha.ac.jp/ ／ 必要：学費
+- 東京保健医療専門職大学（私立（専門職大学）・東京都江東区）公式サイト：https://www.tpu.ac.jp/ ／ 必要：学費
+- 名古屋国際工科専門職大学（私立（専門職大学）・愛知県名古屋市）公式サイト：https://www.iput.ac.jp/nagoya/ ／ 必要：学費
+- 電動モビリティシステム専門職大学（私立（専門職大学）・山形県飯豊町）公式サイト： ／ 必要：日程・学費
+
+### 補完13
+- 筑波技術大学（国立・茨城県つくば市）公式サイト：http://www.tsukuba-tech.ac.jp/ ／ 必要：日程
+- 埼玉県立大学（公立・埼玉県越谷市）公式サイト：http://www.spu.ac.jp/ ／ 必要：日程
+- 群馬県立県民健康科学大学（公立・群馬県前橋市）公式サイト：http://www.gchs.ac.jp/ ／ 必要：日程
+- 公立千歳科学技術大学（公立・北海道千歳市）公式サイト：https://www.chitose.ac.jp/ ／ 必要：日程
+- 弘前大学（国立・青森県弘前市）公式サイト：http://www.hirosaki-u.ac.jp/ ／ 必要：日程
+
+### 補完14
+- 徳島大学（国立・徳島県徳島市）公式サイト：http://www.tokushima-u.ac.jp/ ／ 必要：日程
+- 愛媛大学（国立・愛媛県松山市）公式サイト：http://www.ehime-u.ac.jp/ ／ 必要：日程
+- 香川大学（国立・香川県高松市）公式サイト：http://www.kagawa-u.ac.jp/ ／ 必要：日程
+- 高知大学（国立・高知県高知市）公式サイト：http://www.kochi-u.ac.jp/JA/ ／ 必要：日程
+- 鳥取大学（国立・鳥取県鳥取市）公式サイト：http://www.tottori-u.ac.jp/ ／ 必要：日程
+
+### 補完15
+- 鳴門教育大学（国立・徳島県鳴門市）公式サイト：http://www.naruto-u.ac.jp/ ／ 必要：日程
+- 九州工業大学（国立・福岡県北九州市戸畑区）公式サイト：http://www.kyutech.ac.jp/ ／ 必要：日程
+- 佐賀大学（国立・佐賀県佐賀市）公式サイト：http://www.saga-u.ac.jp/ ／ 必要：日程
+- 大分大学（国立・大分県大分市）公式サイト：http://www.oita-u.ac.jp/ ／ 必要：日程
+- 宮崎大学（国立・宮崎県宮崎市）公式サイト：http://www.miyazaki-u.ac.jp/ ／ 必要：日程
+
+### 補完16
+- 琉球大学（国立・沖縄県中頭郡西原町）公式サイト：http://www.u-ryukyu.ac.jp/ ／ 必要：日程
+- 福岡教育大学（国立・福岡県宗像市）公式サイト：http://www.fukuoka-edu.ac.jp/ ／ 必要：日程
+- 長崎大学（国立・長崎県長崎市）公式サイト：http://www.nagasaki-u.ac.jp/ ／ 必要：日程
+- 鹿児島大学（国立・鹿児島県鹿児島市）公式サイト：http://www.kagoshima-u.ac.jp/ ／ 必要：日程
+- 室蘭工業大学（国立・北海道室蘭市）公式サイト：http://www.muroran-it.ac.jp/index-j.html ／ 必要：日程
+
+### 補完17
+- 三重大学（国立・三重県津市）公式サイト：http://www.mie-u.ac.jp/ ／ 必要：日程
+- 鹿屋体育大学（国立・鹿児島県鹿屋市）公式サイト：http://www.nifs-k.ac.jp/ ／ 必要：日程
+- 宮城大学（公立・宮城県黒川郡大和町）公式サイト：http://www.myu.ac.jp/ ／ 必要：日程
+- 名寄市立大学（公立・北海道名寄市）公式サイト：https://www.nayoro.ac.jp/ ／ 必要：日程
+- 山形県立米沢栄養大学（公立・山形県米沢市）公式サイト：http://www.u.yone.ac.jp/ ／ 必要：日程
+
+### 補完18
+- 旭川市立大学（公立・北海道旭川市）公式サイト：https://www.asahikawa-u.ac.jp/ ／ 必要：日程
+- 山形県立保健医療大学（公立・山形県山形市）公式サイト：http://www.yachts.ac.jp/ ／ 必要：日程
+- 岩手県立大学（公立・岩手県滝沢市）公式サイト：http://www.iwate-pu.ac.jp/ ／ 必要：日程
+- 秋田県立大学（公立・秋田県秋田市）公式サイト：http://www.akita-pu.ac.jp/ ／ 必要：日程
+- 釧路公立大学（公立・北海道釧路市）公式サイト：http://www.kushiro-pu.ac.jp/ ／ 必要：日程
+
+### 補完19
+- 青森公立大学（公立・青森県青森市）公式サイト：http://www.nebuta.ac.jp/ ／ 必要：日程
+- 青森県立保健大学（公立・青森県青森市）公式サイト：http://www.auhw.ac.jp/ ／ 必要：日程
+- 三条市立大学（公立・新潟県三条市）公式サイト：https://www.sanjo-u.ac.jp/ ／ 必要：日程
+- 公立小松大学（公立・石川県小松市）公式サイト：https://www.komatsu-u.ac.jp/ ／ 必要：日程
+- 公立諏訪東京理科大学（公立・長野県茅野市）公式サイト：https://www.sus.ac.jp/ ／ 必要：日程
+
+### 補完20
+- 名古屋市立大学（公立・愛知県名古屋市瑞穂区）公式サイト：http://www.nagoya-cu.ac.jp/ ／ 必要：日程
+- 富山県立大学（公立・富山県射水市）公式サイト：http://www.pu-toyama.ac.jp/ ／ 必要：日程
+- 福岡国際医療福祉大学（私立・福岡県福岡市早良区）公式サイト：https://fiuhw.takagigakuen.ac.jp/ ／ 必要：日程・学費
+- 福岡大学（私立・福岡県福岡市城南区）公式サイト：https://www.fukuoka-u.ac.jp/ ／ 必要：日程・学費
+- 福岡女学院大学（私立・福岡県福岡市南区）公式サイト：https://www.fukujo.ac.jp/ ／ 必要：日程・学費
+
+### 補完21
+- 福岡女学院看護大学（私立・福岡県古賀市）公式サイト：https://www.fukujo.ac.jp/ns/ ／ 必要：日程・学費
+- 福岡工業大学（私立・福岡県福岡市東区）公式サイト：https://www.fit.ac.jp/ ／ 必要：日程・学費
+- 福岡歯科大学（私立・福岡県福岡市早良区）公式サイト：https://www.fdcnet.ac.jp/col/index.php ／ 必要：日程・学費
+- 福岡看護大学（私立・福岡県福岡市早良区）公式サイト：https://www.fdcnet.ac.jp/ncol/index.php ／ 必要：日程・学費
+- 第一工科大学（私立・鹿児島県霧島市）公式サイト：https://www.daiichi-koudai.ac.jp/ ／ 必要：日程・学費
+
+### 補完22
+- 第一薬科大学（私立・福岡県福岡市南区）公式サイト：https://www.daiichi-cps.ac.jp/ ／ 必要：日程・学費
+- 筑紫女学園大学（私立・福岡県太宰府市）公式サイト：https://www.chikushi-u.ac.jp/ ／ 必要：日程・学費
+- 純真学園大学（私立・福岡県福岡市南区）公式サイト：https://www.junshin-u.ac.jp/ ／ 必要：日程・学費
+- 聖マリア学院大学（私立・福岡県久留米市）公式サイト：https://www.st-mary.ac.jp/ ／ 必要：日程・学費
+- 西九州大学（私立・佐賀県神埼市）公式サイト：https://www.nisikyu-u.ac.jp/ ／ 必要：日程・学費
+
+### 補完23
+- 西南女学院大学（私立・福岡県北九州市小倉北区）公式サイト：https://www.seinan-jo.ac.jp/ ／ 必要：日程・学費
+- 西日本工業大学（私立・福岡県京都郡苅田町）公式サイト：https://www3.nishitech.ac.jp/ ／ 必要：学費
+- 鎮西学院大学（私立・長崎県諫早市）公式サイト：https://www.wesleyan.ac.jp/ ／ 必要：日程・学費
+- 長崎国際大学（私立・長崎県佐世保市）公式サイト：https://www1.niu.ac.jp/ ／ 必要：日程・学費
+- 長崎外国語大学（私立・長崎県長崎市）公式サイト：https://www.nagasaki-gaigo.ac.jp/ ／ 必要：日程
+
+### 補完24
+- 長崎純心大学（私立・長崎県長崎市）公式サイト：https://www.n-junshin.ac.jp/univ/ ／ 必要：日程
+- 長崎総合科学大学（私立・長崎県長崎市）公式サイト：https://www.nias.ac.jp/ ／ 必要：日程
+- 山梨県立大学（公立・山梨県甲府市）公式サイト：http://www.yamanashi-ken.ac.jp/ ／ 必要：日程
+- 岐阜県立看護大学（公立・岐阜県羽島市）公式サイト：http://www.gifu-cn.ac.jp/ ／ 必要：日程
+- 岐阜薬科大学（公立・岐阜県岐阜市）公式サイト：http://www.gifu-pu.ac.jp/ ／ 必要：日程
+
+### 補完25
+- 愛知県立大学（公立・愛知県長久手市）公式サイト：http://www.aichi-pu.ac.jp/ ／ 必要：日程
+- 愛知県立芸術大学（公立・愛知県長久手市）公式サイト：http://www.aichi-fam-u.ac.jp/ ／ 必要：日程
+- 敦賀市立看護大学（公立・福井県敦賀市）公式サイト：http://tsuruga-nu.ac.jp/ ／ 必要：日程
+- 新潟県立大学（公立・新潟県新潟市東区）公式サイト：http://www.unii.ac.jp/ ／ 必要：日程
+- 鹿児島国際大学（私立・鹿児島県鹿児島市）公式サイト：https://www.iuk.ac.jp/ ／ 必要：学費
+
+### 補完26
+- 日本文理大学（私立・大分県大分市）公式サイト：https://www.nbu.ac.jp/ ／ 必要：日程・学費
+- 日本経済大学（私立・福岡県太宰府市）公式サイト：https://www.jue.ac.jp/ ／ 必要：日程
+- 日本赤十字九州国際看護大学（私立・福岡県宗像市）公式サイト：https://www.jrckicn.ac.jp/ ／ 必要：日程・学費
+- 沖縄キリスト教学院大学（私立・沖縄県中頭郡西原町）公式サイト：https://www.ocjc.ac.jp/ ／ 必要：日程・学費
+- 産業医科大学（私立・福岡県北九州市八幡西区）公式サイト：https://www.uoeh-u.ac.jp/ ／ 必要：日程
+
+### 補完27
+- 沖縄国際大学（私立・沖縄県宜野湾市）公式サイト：https://www.okiu.ac.jp/ ／ 必要：日程
+- 沖縄大学（私立・沖縄県那覇市）公式サイト：https://www.okinawa-u.ac.jp/ ／ 必要：日程
+- 活水女子大学（私立・長崎県長崎市）公式サイト：https://www.kwassui.ac.jp/university/ ／ 必要：日程・学費
+- 熊本保健科学大学（私立・熊本県熊本市北区）公式サイト：https://www.kumamoto-hsu.ac.jp/ ／ 必要：学費
+- 熊本学園大学（私立・熊本県熊本市中央区）公式サイト：https://www.kumagaku.ac.jp/ ／ 必要：学費
+
+### 補完28
+- 九州看護福祉大学（私立・熊本県玉名市）公式サイト：https://www.kyushu-ns.ac.jp/ ／ 必要：日程・学費
+- 令和健康科学大学（私立・福岡県福岡市東区）公式サイト：https://www.rhs-u.ac.jp/ ／ 必要：日程・学費
+- 別府大学（私立・大分県別府市）公式サイト：https://www.beppu-u.ac.jp/ ／ 必要：日程・学費
+- 南九州大学（私立・宮崎県宮崎市）公式サイト：https://www.nankyudai.ac.jp/ ／ 必要：学費
+- 宮崎国際大学（私立・宮崎県宮崎市）公式サイト：https://www.mic.ac.jp/ ／ 必要：日程・学費
+
+### 補完29
+- 新潟県立看護大学（公立・新潟県上越市）公式サイト：http://www.niigata-cn.ac.jp/ ／ 必要：日程
+- 長岡造形大学（公立・新潟県長岡市）公式サイト：http://www.nagaoka-id.ac.jp/ ／ 必要：日程
+- 都留文科大学（公立・山梨県都留市）公式サイト：http://www.tsuru.ac.jp/ ／ 必要：日程
+- 石川県立大学（公立・石川県野々市市）公式サイト：http://www.ishikawa-pu.ac.jp/ ／ 必要：日程
+- 石川県立看護大学（公立・石川県かほく市）公式サイト：http://www.ishikawa-nu.ac.jp/ ／ 必要：日程
+
+### 補完30
+- 金沢美術工芸大学（公立・石川県金沢市）公式サイト：http://www.kanazawa-bidai.ac.jp/ ／ 必要：日程
+- 福井県立大学（公立・福井県永平寺町）公式サイト：http://www.fpu.ac.jp/ ／ 必要：日程
+- 久留米大学（私立・福岡県久留米市）公式サイト：https://www.kurume-u.ac.jp/ ／ 必要：日程・学費
+- 九州共立大学（私立・福岡県北九州市八幡西区）公式サイト：https://www.kyukyo-u.ac.jp/ ／ 必要：学費
+- 福山大学（私立・広島県福山市）公式サイト：https://www.fukuyama-u.ac.jp/ ／ 必要：日程
+
+### 補完31
+- 宮崎産業経営大学（私立・宮崎県宮崎市）公式サイト：https://www.miyasankei-u.ac.jp/ ／ 必要：日程・学費
+- 尚絅大学（私立・熊本県熊本市中央区）公式サイト：https://www.shokei-gakuen.ac.jp/univ/ ／ 必要：日程・学費
+- 崇城大学（私立・熊本県熊本市西区）公式サイト：https://www.sojo-u.ac.jp/top.html ／ 必要：日程・学費
+- 平成音楽大学（私立・熊本県上益城郡御船町）公式サイト：https://www.heisei-music.ac.jp/ ／ 必要：日程・学費
+- 志學館大学（私立・鹿児島県鹿児島市）公式サイト：https://www.shigakukan.ac.jp/ ／ 必要：日程・学費
+
+### 補完32
+- 長野大学（公立・長野県上田市）公式サイト：http://www.nagano.ac.jp/ ／ 必要：日程
+- 長野県看護大学（公立・長野県駒ヶ根市）公式サイト：http://www.nagano-nurs.ac.jp/index.html ／ 必要：日程
+- 松山東雲女子大学（私立・愛媛県松山市）公式サイト：https://college.shinonome.ac.jp/ ／ 必要：日程
+- 岡山学院大学（私立・岡山県倉敷市）公式サイト：https://www.owc.ac.jp/ ／ 必要：学費
+- 川崎医療福祉大学（私立・岡山県倉敷市）公式サイト：https://w.kawasaki-m.ac.jp/ ／ 必要：学費
+
+### 補完33
+- 広島文化学園大学（私立・広島県広島市安佐南区）公式サイト：https://www.hbg.ac.jp/ ／ 必要：日程
+- 四国大学（私立・徳島県徳島市）公式サイト：https://www.shikoku-u.ac.jp/ ／ 必要：日程
+- 宇部フロンティア大学（私立・山口県宇部市）公式サイト：https://www.frontier-u.jp/ ／ 必要：日程
+- 山口学芸大学（私立・山口県山口市）公式サイト：https://www.y-gakugei.ac.jp/ ／ 必要：学費
+- 岡山医療専門職大学（私立・岡山県岡山市北区）公式サイト：https://opu.ac.jp/ ／ 必要：学費
+
+### 補完34
+- 阪南大学（私立・大阪府松原市）公式サイト：https://www.hannan-u.ac.jp/index.html ／ 必要：日程
+- 高野山大学（私立・和歌山県伊都郡高野町）公式サイト：https://www.koyasan-u.ac.jp/ ／ 必要：日程・学費
+- 関西看護医療大学（私立・兵庫県淡路市）公式サイト：https://www.kki.ac.jp/ ／ 必要：学費
+- 神戸薬科大学（私立・兵庫県神戸市東灘区）公式サイト：https://www.kobepharma-u.ac.jp/ ／ 必要：日程
+- 種智院大学（私立・京都府京都市伏見区）公式サイト：http://www.shuchiin.ac.jp/ ／ 必要：学費
+
+### 補完35
+- 花園大学（私立・京都府京都市中京区）公式サイト：https://www.hanazono.ac.jp/ ／ 必要：日程
+- 皇學館大学（私立・三重県伊勢市）公式サイト：https://www.kogakkan-u.ac.jp/ ／ 必要：日程
+- 神戸医療未来大学（私立・兵庫県神崎郡福崎町）公式サイト：https://www.kinwu.ac.jp/ ／ 必要：日程
+- 東大阪大学（私立・大阪府東大阪市）公式サイト：https://www.higashiosaka.ac.jp/ ／ 必要：日程
+- 森ノ宮医療大学（私立・大阪府大阪市住之江区）公式サイト：https://www.morinomiya-u.ac.jp/ ／ 必要：学費
+
+### 補完36
+- 武庫川女子大学（私立・兵庫県西宮市）公式サイト：https://www.mukogawa-u.ac.jp/ ／ 必要：日程
+- 成安造形大学（私立・滋賀県大津市）公式サイト：https://www.seian.ac.jp/ ／ 必要：学費
+- 摂南大学（私立・大阪府寝屋川市）公式サイト：https://www.setsunan.ac.jp/ ／ 必要：日程
+- 大阪観光大学（私立・大阪府泉南郡熊取町）公式サイト：https://www.tourism.ac.jp/index.html ／ 必要：日程
+- 大阪電気通信大学（私立・大阪府寝屋川市）公式サイト：https://www.osakac.ac.jp/ ／ 必要：日程
+
+### 補完37
+- 大阪青山大学（私立・大阪府箕面市）公式サイト：https://www.osaka-aoyama.ac.jp/ ／ 必要：学費
+- 大阪音楽大学（私立・大阪府豊中市）公式サイト：https://www.daion.ac.jp/ ／ 必要：日程
+- 天理大学（私立・奈良県天理市）公式サイト：https://www.tenri-u.ac.jp/ ／ 必要：学費
+- 奈良大学（私立・奈良県奈良市）公式サイト：https://www.nara-u.ac.jp/ ／ 必要：学費
+- 姫路大学（私立・兵庫県姫路市）公式サイト：https://koutoku.ac.jp/himeji/ ／ 必要：日程
+
+### 補完38
+- 大阪河﨑リハビリテーション大学（私立・大阪府貝塚市）公式サイト：https://www.kawasakigakuen.ac.jp/index.html ／ 必要：日程
+- 大阪総合保育大学（私立・大阪府大阪市東住吉区）公式サイト：https://jonan.jp/soho/ ／ 必要：日程
+- 静岡文化芸術大学（公立・静岡県浜松市中央区）公式サイト：http://www.suac.ac.jp/ ／ 必要：日程
+- 静岡県立大学（公立・静岡県静岡市駿河区）公式サイト：http://www.u-shizuoka-ken.ac.jp/ ／ 必要：日程
+- 三重県立看護大学（公立・三重県津市）公式サイト：http://www.mcn.ac.jp/ ／ 必要：日程
+
+### 補完39
+- 京都市立芸術大学（公立・京都府京都市下京区）公式サイト：http://www.kcua.ac.jp/ ／ 必要：日程
+- 京都府立医科大学（公立・京都府京都市上京区）公式サイト：http://www.kpu-m.ac.jp/ ／ 必要：日程
+- 京都府立大学（公立・京都府京都市左京区）公式サイト：http://www.kpu.ac.jp/ ／ 必要：日程
+- 大阪国際大学（私立・大阪府守口市）公式サイト：https://www.oiu.ac.jp/ ／ 必要：日程
+- 大阪学院大学（私立・大阪府吹田市）公式サイト：https://www.osaka-gu.ac.jp/ ／ 必要：日程
+
+### 補完40
+- 四日市大学（私立・三重県四日市市）公式サイト：https://www.yokkaichi-u.ac.jp/ ／ 必要：日程
+- 四日市看護医療大学（私立・三重県四日市市）公式サイト：https://www.y-nm.ac.jp/ ／ 必要：学費
+- 園田学園女子大学（私立・兵庫県尼崎市）公式サイト：https://www.sonoda-u.ac.jp/ ／ 必要：日程
+- 大和大学（私立・大阪府吹田市）公式サイト：https://www.yamato-u.ac.jp/ ／ 必要：日程
+- 大阪保健医療大学（私立・大阪府大阪市北区）公式サイト：https://www.ohsu.ac.jp/ ／ 必要：日程
+
+### 補完41
+- 京都薬科大学（私立・京都府京都市山科区）公式サイト：https://www.kyoto-phu.ac.jp/ ／ 必要：日程
+- 静岡産業大学（私立・静岡県磐田市）公式サイト：https://www.ssu.ac.jp/ ／ 必要：日程・学費
+- 静岡英和学院大学（私立・静岡県静岡市駿河区）公式サイト：https://www.shizuoka-eiwa.ac.jp/university/ ／ 必要：日程
+- 高岡法科大学（私立・富山県高岡市）公式サイト：https://www.takaoka.ac.jp/ ／ 必要：日程・学費
+- びわこリハビリテーション専門職大学（私立・滋賀県東近江市）公式サイト：https://aino.ac.jp/professional/ ／ 必要：日程・学費
+
+### 補完42
+- びわこ学院大学（私立・滋賀県東近江市）公式サイト：https://www.biwakogakuin.ac.jp/ ／ 必要：日程・学費
+- びわこ成蹊スポーツ大学（私立・滋賀県大津市）公式サイト：https://biwako-seikei.jp/ ／ 必要：日程・学費
+- 京都光華女子大学（私立・京都府京都市右京区）公式サイト：https://www.koka.ac.jp/ ／ 必要：日程・学費
+- 金城学院大学（私立・愛知県名古屋市守山区）公式サイト：https://www.kinjo-u.ac.jp/pc/index.html ／ 必要：学費
+- 金沢学院大学（私立・石川県金沢市）公式サイト：https://www.kanazawa-gu.ac.jp/ ／ 必要：日程
+
+### 補完43
+- 金沢工業大学（私立・石川県野々市市）公式サイト：https://www.kanazawa-it.ac.jp/ ／ 必要：日程
+- 長岡大学（私立・新潟県長岡市）公式サイト：https://www.nagaokauniv.ac.jp/ ／ 必要：日程
+- 長野保健医療大学（私立・長野県長野市）公式サイト：https://shitoku.ac.jp/ ／ 必要：日程
+- 清泉女学院大学（私立・長野県長野市）公式サイト：https://www.seisen-jc.ac.jp/ ／ 必要：日程
+- 身延山大学（私立・山梨県南巨摩郡身延町）公式サイト：https://www.min.ac.jp/ ／ 必要：日程・学費
+
+### 補完44
+- 星城大学（私立・愛知県東海市）公式サイト：https://www.seijoh-u.ac.jp/ ／ 必要：学費
+- 朝日大学（私立・岐阜県瑞穂市）公式サイト：https://www.asahi-u.ac.jp/ ／ 必要：日程
+- 新潟リハビリテーション大学（私立・新潟県村上市）公式サイト：https://nur.ac.jp/ ／ 必要：日程・学費
+- 新潟医療福祉大学（私立・新潟県新潟市北区）公式サイト：https://www.nuhw.ac.jp/ ／ 必要：日程・学費
+- 新潟国際情報大学（私立・新潟県新潟市西区）公式サイト：https://www.nuis.ac.jp/ ／ 必要：学費
+
+### 補完45
+- 新潟工科大学（私立・新潟県柏崎市）公式サイト：https://www.niit.ac.jp/ ／ 必要：日程・学費
+- 新潟産業大学（私立・新潟県柏崎市）公式サイト：https://www.nsu.ac.jp/ ／ 必要：日程・学費
+- 新潟薬科大学（私立・新潟県新潟市秋葉区）公式サイト：https://www.nupals.ac.jp/ ／ 必要：学費
+- 兵庫県立大学（公立・兵庫県神戸市西区）公式サイト：http://www.u-hyogo.ac.jp/ ／ 必要：日程
+- 滋賀県立大学（公立・滋賀県彦根市）公式サイト：https://www.usp.ac.jp/ ／ 必要：日程
+
+### 補完46
+- 和歌山県立医科大学（公立・和歌山県和歌山市）公式サイト：http://www.wakayama-med.ac.jp/ ／ 必要：日程
+- 奈良県立医科大学（公立・奈良県橿原市）公式サイト：http://www.naramed-u.ac.jp/ ／ 必要：日程
+- 奈良県立大学（公立・奈良県奈良市）公式サイト：http://www.narapu.ac.jp/ ／ 必要：日程
+- 神戸市外国語大学（公立・兵庫県神戸市西区）公式サイト：http://www.kobe-cufs.ac.jp/ ／ 必要：日程
+- 神戸市看護大学（公立・兵庫県神戸市西区）公式サイト：http://www.kobe-ccn.ac.jp/ ／ 必要：日程
+
+### 補完47
+- 愛知淑徳大学（私立・愛知県長久手市）公式サイト：https://www.aasa.ac.jp/ ／ 必要：学費
+- 愛知産業大学（私立・愛知県岡崎市）公式サイト：https://www.asu.ac.jp/ ／ 必要：日程・学費
+- 敬和学園大学（私立・新潟県新発田市）公式サイト：https://www.keiwa-c.ac.jp/ ／ 必要：学費
+- 岐阜保健大学（私立・岐阜県岐阜市）公式サイト：https://www.gifuhoken.ac.jp/ ／ 必要：学費
+- 岐阜協立大学（私立・岐阜県大垣市）公式サイト：https://www.gku.ac.jp/ ／ 必要：学費
+
+### 補完48
+- 岐阜女子大学（私立・岐阜県岐阜市）公式サイト：https://www.gijodai.jp/ ／ 必要：学費
+- 愛知みずほ大学（私立・愛知県名古屋市瑞穂区）公式サイト：https://www.mizuho-c.ac.jp/ ／ 必要：学費
+- 山梨英和大学（私立・山梨県甲府市）公式サイト：https://www.yamanashi-eiwa.ac.jp/ ／ 必要：学費
+- 北陸大学（私立・石川県金沢市）公式サイト：https://www.hokuriku-u.ac.jp/ ／ 必要：日程
+- 福知山公立大学（公立・京都府福知山市）公式サイト：http://www.fukuchiyama.ac.jp/ ／ 必要：日程
+
+### 補完49
+- 下関市立大学（公立・山口県下関市）公式サイト：http://www.shimonoseki-cu.ac.jp/ ／ 必要：日程
+- 公立鳥取環境大学（公立・鳥取県鳥取市）公式サイト：http://www.kankyo-u.ac.jp/ ／ 必要：日程
+- 叡啓大学（公立・広島県広島市中区）公式サイト：https://www.pu-hiroshima.ac.jp/site/eikei-univ/ ／ 必要：日程
+- 周南公立大学（公立・山口県周南市）公式サイト：https://www.shunan-u.ac.jp/ ／ 必要：日程
+- 尾道市立大学（公立・広島県尾道市）公式サイト：http://www.onomichi-u.ac.jp/ ／ 必要：日程
+
+### 補完50
+- 山口県立大学（公立・山口県山口市）公式サイト：http://www.yamaguchi-pu.ac.jp/ ／ 必要：日程
+- 中部学院大学（私立・岐阜県関市）公式サイト：https://www.chubu-gu.ac.jp/ ／ 必要：日程
+- 仁愛大学（私立・福井県越前市）公式サイト：https://www.jindai.ac.jp/ ／ 必要：学費
+- 佐久大学（私立・長野県佐久市）公式サイト：https://www.saku.ac.jp/ ／ 必要：日程・学費
+- 修文大学（私立・愛知県一宮市）公式サイト：https://www.shubun.ac.jp/ ／ 必要：日程・学費
+
+### 補完51
+- 健康科学大学（私立・山梨県南都留郡富士河口湖町）公式サイト：https://www.kenkoudai.ac.jp/ ／ 必要：日程・学費

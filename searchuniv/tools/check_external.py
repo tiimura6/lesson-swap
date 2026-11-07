@@ -29,6 +29,7 @@ def main(path):
     data = json.loads(raw); data = data if isinstance(data, list) else [data]
     data = deep_clean(data)
     cards = {c[0] for c in json.load(open(os.path.join(ROOT, 'data', 'cards.json'), encoding='utf-8'))}
+    INFO = json.load(open(os.path.join(ROOT, 'data', 'info.json'), encoding='utf-8'))
     q = json.load(open(os.path.join(ROOT, 'data', 'queue.json'), encoding='utf-8'))
     excl = {e['name'] for e in q.get('excluded', [])}
     out, notes = [], []
@@ -99,6 +100,13 @@ def main(path):
             v = info[k]
             if isinstance(v, dict) and any(isinstance(v.get(z), list) for z in ('rows', 'list', 'events')) and not any(v.get(z) for z in ('rows', 'list', 'events')) and not v.get('url'):
                 info.pop(k)
+        # 既存校の補完：今の日程に日付のそろった行が無い・学費に初年度の額が無いときは、外部AIの値で置き換える
+        if not new:
+            cur = INFO.get(n, {})
+            if info.get('schedule') and not [z for z in (cur.get('schedule') or {}).get('rows', []) if z.get('apply') and z.get('result')]:
+                info['schedule_replace'] = info.pop('schedule'); notes.append(f'{n}: 日程を置き換え（今は日付のそろった行が無い）')
+            if info.get('money') and not [z for z in (cur.get('money') or {}).get('rows', []) if z.get('first_year')]:
+                info['money_replace'] = info.pop('money'); notes.append(f'{n}: 学費を置き換え（今は学部別の額が無い）')
         info = {k: v for k, v in info.items() if v not in (None, '', [], {})}
         info['_via'] = 'external-ai'
         r2 = {k: v for k, v in r.items() if k in ('name', 'cat', 'type', 'pref', 'pref_name', 'city', 'hp', 'reading', 'features', 'memo', 'aliases', 'latlng')}
