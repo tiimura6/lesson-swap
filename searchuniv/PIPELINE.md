@@ -48,7 +48,7 @@ Searchuniv に全国の大学を少しずつ追加し、既存校の空欄（研
 
 ## 外部AIのデータの裏取り（2026-11-07〜）
 - 先生が他のAIで集めたデータは `tools/check_external.py` を通して取り込み、info に `_via: "external-ai"` が付いている。
-- 毎回の補完の前に、`_via` が external-ai の学校を1校選び、大学公式で入試日程・入試方式・学費・奨学金を確かめる。合っていれば `_via` を `"external-ai-verified"` にする（`_via_replace`）。違っていれば `*_replace` で直し、報告に「外部AIの誤り」として書く。
+- enrich の need に **verify** がある学校（＝外部AIで取り込んだ学校）は、大学公式で入試日程・入試方式・学費・奨学金を確かめる。合っていれば `_via` を `"external-ai-verified"` にする（`_via_replace`）。違っていれば `*_replace` で直し、報告に「外部AIの誤り」として書く。
 
 ## 1回の実行でやること
 1. リポジトリ `tiimura6/lesson-swap`（飯村システム）を用意する（add_repo を access "push" で呼び、案内どおり clone）。Searchuniv 一式はその中の `searchuniv/` フォルダにある。以下のコマンドとパスはすべて `searchuniv/` に cd してから実行する。リポジトリ直下の index.html（飯村システム本体）は触らない。

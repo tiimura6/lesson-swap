@@ -7,10 +7,26 @@
 import json, os, re, sys, datetime
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CATS = {'national', 'public', 'private', 'daigakkou', 'senmon'}
+URLRE = re.compile(r'https?://[^\s\]\)"]+')
+def clean_url(u):
+    """[https://a](https://www.google.com/search?q=https://a) のような書き方から、実際のURLを取り出す"""
+    if not isinstance(u, str): return u
+    urls = URLRE.findall(u)
+    urls = [re.sub(r'^https://www\.google\.com/search\?q=', '', x) for x in urls]
+    return urls[0] if urls else u
+def deep_clean(o):
+    if isinstance(o, dict): return {k: deep_clean(v) for k, v in o.items()}
+    if isinstance(o, list): return [deep_clean(v) for v in o]
+    if isinstance(o, str) and ('http' in o) and (o.startswith('[') or 'google.com/search' in o): return clean_url(o)
+    return o
+# 数字の項目は、その数字が載っているページ（学費ページ・河合塾など）が出典に無ければ取り込まない
+NEED_SRC = {'money': r'gakuhi|tuition|fee|noufu|nofu|gakuhi|expense|cost|passnavi|keinet|manabi|学費|納付',
+            'difficulty': r'keinet|passnavi|manabi', 'fdiff': r'keinet|passnavi|manabi'}
 def main(path):
     raw = open(path, encoding='utf-8').read().strip()
     raw = re.sub(r'^```(json)?|```$', '', raw, flags=re.M).strip()
     data = json.loads(raw); data = data if isinstance(data, list) else [data]
+    data = deep_clean(data)
     cards = {c[0] for c in json.load(open(os.path.join(ROOT, 'data', 'cards.json'), encoding='utf-8'))}
     q = json.load(open(os.path.join(ROOT, 'data', 'queue.json'), encoding='utf-8'))
     excl = {e['name'] for e in q.get('excluded', [])}
@@ -33,11 +49,28 @@ def main(path):
         y = str((info.get('money') or {}).get('year', ''))
         if info.get('money') and y and not re.search(r'202[67]', y): notes.append(f'{n}: 学費が {y} のため落とした'); info.pop('money')
         # 空の項目は落とす
+        for k, pat in NEED_SRC.items():
+            if info.get(k) and not any(re.search(pat, u, re.I) for u in src):
+                notes.append(f'{n}: {k} は裏付けのページが出典に無いので取り込まない'); info.pop(k)
+        # 中身が空の入れ物（rows/list/events が空）は落とす
+        for k in list(info):
+            v = info[k]
+            if isinstance(v, dict) and any(isinstance(v.get(z), list) for z in ('rows', 'list', 'events')) and not any(v.get(z) for z in ('rows', 'list', 'events')) and not v.get('url'):
+                info.pop(k)
         info = {k: v for k, v in info.items() if v not in (None, '', [], {})}
         info['_via'] = 'external-ai'
         r2 = {k: v for k, v in r.items() if k in ('name', 'cat', 'type', 'pref', 'pref_name', 'city', 'hp', 'reading', 'features', 'memo', 'aliases', 'latlng')}
         r2['info'] = info; r2['sources'] = src; r2['info']['sources'] = src
         out.append(r2); notes.append(f'{n}: OK（{"新規" if new else "既存校の補完"}・項目 {len(info)-1}・出典 {len(src)}）')
+    # 取り込んだ新規校は、裏取りと足りない項目の収集を自動収集の列に入れる
+    newn = [r['name'] for r in out if r['name'] not in cards]
+    if newn:
+        have = {(e.get('name'), tuple(e.get('need', []))) for e in q['enrich']}
+        ver = [{'name': n, 'need': ['verify']} for n in newn if (n, ('verify',)) not in have]
+        rest = [{'name': n, 'need': [k]} for n in newn for k in ('methods', 'schedule_dates', 'fees', 'scholar') if (n, (k,)) not in have]
+        q['enrich'] = ver + q['enrich'] + rest   # 裏取り(verify)は先頭、足りない項目の収集は後ろ
+        json.dump(q, open(os.path.join(ROOT, 'data', 'queue.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+        notes.append(f'新規 {len(newn)} 校の裏取りと補完（入試方式・日程・学費・奨学金）を自動収集の列に追加')
     stamp = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H%M')
     dst = os.path.join(ROOT, 'batches', f'external_{stamp}.json')
     json.dump(out, open(dst, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
