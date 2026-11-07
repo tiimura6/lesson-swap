@@ -26856,7 +26856,9 @@
 "https://search.keinet.ne.jp/2293/outline/admission_employment",
 "https://www.waseda.jp/inst/admission/assets/uploads/2026/05/2027_ippan.pdf",
 "https://www.waseda.jp/inst/admission/undergraduate/system/general/",
-"https://admission.waseda.jp/youkou/waseda-2027.pdf"
+"https://admission.waseda.jp/youkou/waseda-2027.pdf",
+"https://www.waseda.jp/inst/admission/undergraduate/fees/",
+"https://www.waseda.jp/inst/admission/assets/uploads/2024/09/2025_Sep_gakuhi_gakubu.pdf"
 ],
 "licenses": [
 "教員免許（小・中・高 各教科）",
@@ -27722,7 +27724,7 @@
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
 "schedule": "2026-11-07",
-"money": "2026-11-06",
+"money": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -28226,7 +28228,7 @@
 ]
 },
 "money": {
-"year": "2026年度",
+"year": "2025年度の額（2027年度は未確認・参考）",
 "total4": 4564000,
 "total4_note": "文学部：入学金＋授業料4年（実習費・諸会費等含まず）",
 "admission": 200000,
@@ -28252,6 +28254,209 @@
 {
 "name": "校友会給付奨学金",
 "what": "給付。修学上特に経済的に困難な人に年額40万円（1年間）、35名"
+}
+],
+"rows": [
+{
+"f": "政治経済学部",
+"admission": 200000,
+"tuition": 1081000,
+"facility": null,
+"practical": 3900,
+"other": 7000,
+"first_year": 1291900,
+"four_year": null,
+"note": "その他：学生読書室図書費500円、学会入会金2,000円、学会年会費1,500円、学生健康増進互助会費3,000円"
+},
+{
+"f": "法学部",
+"admission": 200000,
+"tuition": 1040000,
+"facility": null,
+"practical": 0,
+"other": 10700,
+"first_year": 1250700,
+"four_year": null
+},
+{
+"f": "教育学部（教育学・国語国文・社会科）",
+"admission": 200000,
+"tuition": 1040000,
+"facility": null,
+"practical": 4300,
+"other": 4000,
+"first_year": 1248300,
+"four_year": null
+},
+{
+"f": "教育学部（教育心理学専修）",
+"admission": 200000,
+"tuition": 1040000,
+"facility": null,
+"practical": 31650,
+"other": 4000,
+"first_year": 1275650,
+"four_year": null
+},
+{
+"f": "教育学部（初等教育学専攻）",
+"admission": 200000,
+"tuition": 1040000,
+"facility": null,
+"practical": 34300,
+"other": 4000,
+"first_year": 1278300,
+"four_year": null
+},
+{
+"f": "教育学部（英語英文学科）",
+"admission": 200000,
+"tuition": 1051000,
+"facility": null,
+"practical": 16600,
+"other": 4000,
+"first_year": 1271600,
+"four_year": null
+},
+{
+"f": "教育学部（理学科 生物学・地球科学専修）",
+"admission": 200000,
+"tuition": 1544000,
+"facility": null,
+"practical": 92650,
+"other": 4000,
+"first_year": 1840650,
+"four_year": null
+},
+{
+"f": "教育学部（数学科）",
+"admission": 200000,
+"tuition": 1544000,
+"facility": null,
+"practical": 8050,
+"other": 4000,
+"first_year": 1756050,
+"four_year": null
+},
+{
+"f": "教育学部（複合文化学科）",
+"admission": 200000,
+"tuition": 1040000,
+"facility": null,
+"practical": 8700,
+"other": 4000,
+"first_year": 1252700,
+"four_year": null
+},
+{
+"f": "商学部",
+"admission": 200000,
+"tuition": 1051000,
+"facility": null,
+"practical": 8800,
+"other": 5800,
+"first_year": 1265600,
+"four_year": null
+},
+{
+"f": "社会科学部",
+"admission": 200000,
+"tuition": 1051000,
+"facility": null,
+"practical": 0,
+"other": 5800,
+"first_year": 1256800,
+"four_year": null
+},
+{
+"f": "国際教養学部",
+"admission": 200000,
+"tuition": 1490000,
+"facility": null,
+"practical": 0,
+"other": 3000,
+"first_year": 1693000,
+"four_year": null
+},
+{
+"f": "文化構想学部・文学部",
+"admission": 200000,
+"tuition": 1091000,
+"facility": null,
+"practical": 0,
+"other": 4000,
+"first_year": 1295000,
+"four_year": null
+},
+{
+"f": "基幹理工学部",
+"admission": 200000,
+"tuition": 1584000,
+"facility": null,
+"practical": 60000,
+"other": 3000,
+"first_year": 1847000,
+"four_year": null
+},
+{
+"f": "創造理工学部（建築・社会環境工・環境資源工）",
+"admission": 200000,
+"tuition": 1584000,
+"facility": null,
+"practical": 96000,
+"other": 3000,
+"first_year": 1883000,
+"four_year": null
+},
+{
+"f": "創造理工学部（総合機械工）",
+"admission": 200000,
+"tuition": 1584000,
+"facility": null,
+"practical": 98000,
+"other": 3000,
+"first_year": 1885000,
+"four_year": null
+},
+{
+"f": "創造理工学部（経営システム工）",
+"admission": 200000,
+"tuition": 1584000,
+"facility": null,
+"practical": 80000,
+"other": 3000,
+"first_year": 1867000,
+"four_year": null
+},
+{
+"f": "先進理工学部",
+"admission": 200000,
+"tuition": 1584000,
+"facility": null,
+"practical": 100000,
+"other": 3000,
+"first_year": 1887000,
+"four_year": null
+},
+{
+"f": "人間科学部",
+"admission": 200000,
+"tuition": 1465000,
+"facility": null,
+"practical": 27000,
+"other": 3000,
+"first_year": 1695000,
+"four_year": null
+},
+{
+"f": "スポーツ科学部",
+"admission": 200000,
+"tuition": 1490000,
+"facility": null,
+"practical": 39000,
+"other": 7000,
+"first_year": 1736000,
+"four_year": null
 }
 ]
 },
@@ -28447,7 +28652,8 @@
 "https://mypage.atpress.ne.jp/smart/news/5101596",
 "https://www.keio.ac.jp/ja/admissions/faculty/examinations/general-admissions/",
 "https://www.keio.ac.jp/fixed-files/2027_ippan_youkou.pdf",
-"https://www.agaroot.jp/agaroot-medical/column/keio-tuition/"
+"https://www.agaroot.jp/agaroot-medical/column/keio-tuition/",
+"https://www.keio.ac.jp/ja/admissions/fees/"
 ],
 "kyotsu": {
 "kamoku": "共通テスト利用なし",
@@ -44544,7 +44750,8 @@
 "https://search.keinet.ne.jp/2460/outline/admission_employment",
 "https://www.nanzan-u.ac.jp/admission/nyushi/shubetsu/shuyo.html",
 "https://www.nanzan-u.ac.jp/admission/ippansenbatsu/",
-"https://shingakunet.com/gakko/SC000480/gakuhi/"
+"https://shingakunet.com/gakko/SC000480/gakuhi/",
+"https://www.nanzan-u.ac.jp/campuslife/tuition/"
 ],
 "licenses": [
 "教員免許（中・高 英語・独仏中西語・国語・社会・宗教ほか）",

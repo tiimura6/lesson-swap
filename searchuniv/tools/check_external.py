@@ -154,9 +154,13 @@ def main(path):
                 info['money_replace'] = {**(cur.get('money') or {}), **info.pop('money')}; notes.append(f'{n}: 学費を置き換え（今は学部別の額が無い）')
             elif info.get('money') and have_rows:
                 fs = {z.get('f') for z in have_rows}; add = [z for z in info['money'].get('rows', []) if z.get('f') not in fs]
+                ks = ('admission', 'tuition', 'facility', 'practical', 'other')
+                better = {z['f']: z for z in info['money'].get('rows', []) if z.get('f') in fs and sum(z.get(k) is not None for k in ks) > 2}
+                rows = [better[z['f']] if z.get('f') in better and sum(z.get(k) is not None for k in ks) <= 2 else z for z in cur['money']['rows']]
+                upg = sum(1 for a, b in zip(rows, cur['money']['rows']) if a is not b)
                 info.pop('money')
-                if add:
-                    info['money_replace'] = {**cur['money'], 'rows': cur['money']['rows'] + add}; notes.append(f'{n}: 学費に {len(add)} 区分を追加')
+                if add or upg:
+                    info['money_replace'] = {**cur['money'], 'rows': rows + add}; notes.append(f'{n}: 学費に {len(add)} 区分を追加・{upg} 区分に内訳を補った')
         info = {k: v for k, v in info.items() if v not in (None, '', [], {})}
         info['_via'] = 'external-ai'
         r2 = {k: v for k, v in r.items() if k in ('name', 'cat', 'type', 'pref', 'pref_name', 'city', 'hp', 'reading', 'features', 'memo', 'aliases', 'latlng')}
