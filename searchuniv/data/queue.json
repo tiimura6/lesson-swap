@@ -3599,41 +3599,6 @@
 "cat": "private"
 },
 {
-"name": "広島国際大学",
-"type": "私立",
-"pref": "広島県",
-"hp": "https://www.hirokoku-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "広島女学院大学",
-"type": "私立",
-"pref": "広島県",
-"hp": "https://www.hju.ac.jp/",
-"cat": "private"
-},
-{
-"name": "広島工業大学",
-"type": "私立",
-"pref": "広島県",
-"hp": "https://www.it-hiroshima.ac.jp/",
-"cat": "private"
-},
-{
-"name": "広島文化学園大学",
-"type": "私立",
-"pref": "広島県",
-"hp": "https://www.hbg.ac.jp/",
-"cat": "private"
-},
-{
-"name": "広島文教大学",
-"type": "私立",
-"pref": "広島県",
-"hp": "https://www.h-bunkyo.ac.jp/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -4371,6 +4336,36 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "広島国際大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "広島女学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "広島工業大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "広島文化学園大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "広島文教大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "岡山学院大学",
 "need": [
@@ -17779,6 +17774,126 @@
 },
 {
 "name": "広島修道大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "広島国際大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "広島国際大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "広島国際大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "広島国際大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "広島女学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "広島女学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "広島女学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "広島女学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "広島工業大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "広島工業大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "広島工業大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "広島工業大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "広島文化学園大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "広島文化学園大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "広島文化学園大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "広島文化学園大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "広島文教大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "広島文教大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "広島文教大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "広島文教大学",
 "need": [
 "scholar"
 ]
