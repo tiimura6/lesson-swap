@@ -2577,34 +2577,6 @@
 "cat": "private"
 },
 {
-"name": "びわこ学院大学",
-"type": "私立",
-"pref": "滋賀県",
-"hp": "https://www.biwakogakuin.ac.jp/",
-"cat": "private"
-},
-{
-"name": "びわこ成蹊スポーツ大学",
-"type": "私立",
-"pref": "滋賀県",
-"hp": "https://biwako-seikei.jp/",
-"cat": "private"
-},
-{
-"name": "京都先端科学大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "https://www.kuas.ac.jp/",
-"cat": "private"
-},
-{
-"name": "京都光華女子大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "https://www.koka.ac.jp/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -3367,6 +3339,30 @@
 "長野県立大学": 1
 },
 "enrich": [
+{
+"name": "びわこ学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "びわこ成蹊スポーツ大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "京都先端科学大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "京都光華女子大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "静岡産業大学",
 "need": [
@@ -20903,6 +20899,102 @@
 },
 {
 "name": "びわこリハビリテーション専門職大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "びわこ学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "びわこ学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "びわこ学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "びわこ学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "びわこ成蹊スポーツ大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "びわこ成蹊スポーツ大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "びわこ成蹊スポーツ大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "びわこ成蹊スポーツ大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "京都先端科学大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "京都先端科学大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "京都先端科学大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "京都先端科学大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "京都光華女子大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "京都光華女子大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "京都光華女子大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "京都光華女子大学",
 "need": [
 "scholar"
 ]
