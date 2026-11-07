@@ -3669,41 +3669,6 @@
 "cat": "private"
 },
 {
-"name": "広島経済大学",
-"type": "私立",
-"pref": "広島県",
-"hp": "https://www.hue.ac.jp/",
-"cat": "private"
-},
-{
-"name": "広島都市学園大学",
-"type": "私立",
-"pref": "広島県",
-"hp": "https://www.hcu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "徳島文理大学",
-"type": "私立",
-"pref": "徳島県",
-"hp": "https://www.bunri-u.ac.jp/index.html",
-"cat": "private"
-},
-{
-"name": "日本赤十字広島看護大学",
-"type": "私立",
-"pref": "広島県",
-"hp": "https://www.jrchcn.ac.jp/",
-"cat": "private"
-},
-{
-"name": "東亜大学",
-"type": "私立",
-"pref": "山口県",
-"hp": "https://www.toua-u.ac.jp/",
-"cat": "private"
-},
-{
 "name": "松山大学",
 "type": "私立",
 "pref": "愛媛県",
@@ -4476,6 +4441,36 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "広島経済大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "広島都市学園大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "徳島文理大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "日本赤十字広島看護大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "東亜大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "高松大学",
 "need": [
@@ -17434,6 +17429,126 @@
 },
 {
 "name": "中村学園大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "広島経済大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "広島経済大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "広島経済大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "広島経済大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "広島都市学園大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "広島都市学園大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "広島都市学園大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "広島都市学園大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "徳島文理大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "徳島文理大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "徳島文理大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "徳島文理大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "日本赤十字広島看護大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "日本赤十字広島看護大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "日本赤十字広島看護大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "日本赤十字広島看護大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "東亜大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "東亜大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "東亜大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "東亜大学",
 "need": [
 "scholar"
 ]
