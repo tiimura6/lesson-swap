@@ -1,55 +1,6 @@
 {
 "add": [
 {
-"name": "宮崎産業経営大学",
-"type": "私立",
-"pref": "宮崎県",
-"hp": "https://www.miyasankei-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "尚絅大学",
-"type": "私立",
-"pref": "熊本県",
-"hp": "https://www.shokei-gakuen.ac.jp/univ/",
-"cat": "private"
-},
-{
-"name": "崇城大学",
-"type": "私立",
-"pref": "熊本県",
-"hp": "https://www.sojo-u.ac.jp/top.html",
-"cat": "private"
-},
-{
-"name": "平成音楽大学",
-"type": "私立",
-"pref": "熊本県",
-"hp": "https://www.heisei-music.ac.jp/",
-"cat": "private"
-},
-{
-"name": "志學館大学",
-"type": "私立",
-"pref": "鹿児島県",
-"hp": "https://www.shigakukan.ac.jp/",
-"cat": "private"
-},
-{
-"name": "長野大学",
-"type": "公立",
-"pref": "長野県",
-"hp": "http://www.nagano.ac.jp/",
-"cat": "public"
-},
-{
-"name": "長野県看護大学",
-"type": "公立",
-"pref": "長野県",
-"hp": "http://www.nagano-nurs.ac.jp/index.html",
-"cat": "public"
-},
-{
 "name": "長野県立大学",
 "type": "公立",
 "pref": "長野県",
@@ -4499,6 +4450,34 @@
 "need": [
 "verify"
 ]
+},
+{
+"name": "宮崎産業経営大学",
+"op": "add"
+},
+{
+"name": "尚絅大学",
+"op": "add"
+},
+{
+"name": "崇城大学",
+"op": "add"
+},
+{
+"name": "平成音楽大学",
+"op": "add"
+},
+{
+"name": "志學館大学",
+"op": "add"
+},
+{
+"name": "長野大学",
+"op": "add"
+},
+{
+"name": "長野県看護大学",
+"op": "add"
 }
 ],
 "failed": [],
@@ -16887,6 +16866,62 @@
 {
 "name": "福井県立大学",
 "keinet": "1555",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "宮崎産業経営大学",
+"keinet": "2777",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "尚絅大学",
+"keinet": "2753",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "崇城大学",
+"keinet": "2751",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "平成音楽大学",
+"keinet": "2756",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "志學館大学",
+"keinet": "2789",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "長野大学",
+"keinet": "1563",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "長野県看護大学",
+"keinet": "1562",
 "need": [
 "extra",
 "partners"
