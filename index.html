@@ -467,6 +467,29 @@
       margin-left: 0;
     }
     .clear-print-btn:hover { background: #f5f5f5; }
+    .pb-list { display:flex; flex-wrap:wrap; gap:4px 6px; width:100%; max-height:7.5em; overflow-y:auto; }
+    .pb-list:empty { display:none; }
+    .pb-item { display:inline-flex; align-items:center; gap:2px; max-width:100%; background:#fff; border:1px solid #fbc02d; border-radius:999px; padding:1px 2px 1px 9px; font-size:0.78rem; color:#333; }
+    .pb-txt { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:34em; }
+    .pb-x { border:none; background:transparent; color:#b23; font-size:0.95rem; line-height:1; cursor:pointer; padding:2px 6px; border-radius:999px; }
+    .pb-x:hover { background:#fde7e9; }
+    /* 保存した記録 */
+    .rec-btn { border:none; cursor:pointer; font:600 0.82rem -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Meiryo", sans-serif; color:#0071e3; background:#f2f2f7; border-radius:980px; padding:5px 12px; margin-left:6px; white-space:nowrap; }
+    .rec-btn:hover { background:#e8e8ed; }
+    .ttg-bar .rec-btn { margin-left:auto; align-self:center; }
+    #recModal { position:fixed; inset:0; z-index:9800; background:rgba(0,0,0,.35); display:flex; align-items:flex-start; justify-content:center; padding:6vh 12px; }
+    #recModal[hidden] { display:none; }
+    #recModal .rec-box { background:#fff; border-radius:14px; width:min(720px,100%); max-height:86vh; overflow:auto; box-shadow:0 10px 30px rgba(0,0,0,.25); padding:14px 18px; font-family:-apple-system, BlinkMacSystemFont, "Hiragino Sans", "Meiryo", sans-serif; }
+    #recModal h3 { margin:0 0 4px; font-size:1.05rem; }
+    #recModal .rec-note { font-size:0.8rem; color:#6e6e73; margin:0 0 10px; }
+    #recModal .rec-row { border-top:1px solid #e5e5ea; padding:8px 0; display:flex; gap:8px; align-items:flex-start; flex-wrap:wrap; }
+    #recModal .rec-main { flex:1; min-width:220px; }
+    #recModal .rec-title { font-weight:700; }
+    #recModal .rec-meta { font-size:0.78rem; color:#6e6e73; }
+    #recModal .rec-prev { font-size:0.78rem; color:#333; margin-top:2px; }
+    #recModal .rec-acts button { border:1px solid #d2d2d7; background:#fff; border-radius:8px; padding:4px 10px; margin-left:4px; cursor:pointer; font:inherit; font-size:0.82rem; }
+    #recModal .rec-acts .rec-open { background:#0071e3; border-color:#0071e3; color:#fff; }
+    #recModal .rec-close { float:right; border:none; background:#f2f2f7; border-radius:999px; width:30px; height:30px; cursor:pointer; font-size:1rem; }
     
     /* Excelダウンロードボタン用追加スタイル */
     .btn-excel {
@@ -1511,7 +1534,7 @@
   <div class="ttg-bar"><div class="ttg-seg" role="tablist" aria-label="授業・時間割の画面">
     <button type="button" role="tab" data-go="swap" aria-selected="true">🔁 授業交換</button>
     <button type="button" role="tab" data-go="class" aria-selected="false">📋 クラス別時間割</button>
-  </div></div>
+  </div><button type="button" class="rec-btn" data-rec-open="swap">📁 保存した授業交換</button></div>
   <div id="swapBoard">
   <div id="swapCalSlot"></div>
   <div id="swapMain">
@@ -1555,7 +1578,9 @@
     <div class="print-bar-left">
       <span class="pb-count">✓ 選択 <strong id="printSelectedCount">0</strong> 件</span>
       <button type="button" class="clear-print-btn" id="clearPrintCartBtn">クリア</button>
+      <button type="button" class="clear-print-btn" id="savePrintCartBtn" title="選んだ授業交換を名前を付けて保存（あとで開き直して印刷・編集できる）">💾 保存</button>
     </div>
+    <div class="pb-list" id="printCartList" aria-label="選択中の授業"></div>
   </div>
 
   <div id="datePickPanel" class="hidden">
@@ -1607,7 +1632,7 @@
 
 
   <div id="viewClean" class="view hidden">
-<h2 class="sc-title">🧹 清掃当番作成 <span class="tt-counter" data-key="clean">累計作成数 <b>…</b>回</span></h2>
+<h2 class="sc-title">🧹 清掃当番作成 <span class="tt-counter" data-key="clean">累計作成数 <b>…</b>回</span><button type="button" class="rec-btn" data-rec-save="clean">💾 保存</button><button type="button" class="rec-btn" data-rec-open="clean">📁 保存した清掃当番</button></h2>
 
   <fieldset>
     <legend><span class="ap-num">1</span>生徒</legend>
@@ -1778,7 +1803,7 @@
   </div>
 
   <div id="viewExam" class="view hidden">
-    <div class="ap-head"><h2 class="ap-title">試験監督</h2><span class="ap-badge" id="epTtNote"></span><span class="tt-counter" data-key="exam">累計作成数 <b>…</b>回</span></div>
+    <div class="ap-head"><h2 class="ap-title">試験監督</h2><span class="ap-badge" id="epTtNote"></span><span class="tt-counter" data-key="exam">累計作成数 <b>…</b>回</span><button type="button" class="rec-btn" data-rec-save="exam">💾 保存</button><button type="button" class="rec-btn" data-rec-open="exam">📁 保存した試験監督</button></div>
 
     <section class="ap-card">
       <div class="ap-card-h"><span class="ap-num">1</span>設定</div>
@@ -9074,9 +9099,32 @@
       lessonSelect.disabled = (list.length + jointExtra === 0);
     }
 
+    // 選択中の授業を印刷バーに一覧表示し、1つずつ外せるようにする
+    function cartLabel(it){
+      const t = s => String(s || '').replace(/\s+/g, ' ').trim();
+      const a = t(it.originLessonText), b = t(it.oppMove || it.myMove);
+      return (a + (b ? ' ⇄ ' + b : '') + (it.oppNames ? '（' + t(it.oppNames) + '）' : '')) || it.pId;
+    }
+    function renderCartList(){
+      const box = document.getElementById('printCartList'); if(!box) return;
+      const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+      box.innerHTML = Array.from(printCart.values()).map(it => { const l = cartLabel(it);
+        return '<span class="pb-item" title="' + esc(l) + '"><span class="pb-txt">' + esc(l) + '</span><button type="button" class="pb-x" data-pid="' + esc(it.pId) + '" aria-label="この授業を外す">×</button></span>'; }).join('');
+    }
+    document.getElementById('printCartList') && document.getElementById('printCartList').addEventListener('click', e => {
+      const x = e.target.closest('.pb-x'); if(!x) return;
+      printCart.delete(x.dataset.pid); syncCheckboxesState(); updatePrintBarUI();
+    });
+    // 保存した記録から開き直すための窓口
+    window.ttPrintCart = {
+      items: () => Array.from(printCart.values()).map(it => JSON.parse(JSON.stringify(it))),
+      load: arr => { printCart.clear(); (arr || []).forEach(it => it && it.pId && printCart.set(it.pId, it)); syncCheckboxesState(); updatePrintBarUI(); },
+      label: cartLabel
+    };
     function updatePrintBarUI() {
       if(!printSelectedCount || !globalPrintBar) return;
       printSelectedCount.textContent = printCart.size;
+      renderCartList();
       if (printCart.size > 0) {
         globalPrintBar.classList.remove('hidden');
       } else {
@@ -12498,6 +12546,75 @@
     }
     setGate(!window.ttOperator);
     window.addEventListener('DOMContentLoaded', () => setTimeout(init, 0));
+  })();
+  </script>
+  <div id="recModal" hidden role="dialog" aria-modal="true" aria-labelledby="recTitle"><div class="rec-box"><button type="button" class="rec-close" id="recClose" aria-label="閉じる">×</button><h3 id="recTitle">保存した記録</h3><p class="rec-note" id="recNote"></p><div id="recList"></div></div></div>
+  <script>
+  // ===== 保存した記録（授業交換・清掃当番・試験監督）=====
+  // この端末のブラウザに、操作者（先生）ごとに保存する。名前を付けて何件でも残し、あとで開き直して印刷・編集できる。
+  (function(){
+    const TYPES = {
+      swap:  { label: '授業交換', tab: 'swap' },
+      clean: { label: '清掃当番', tab: 'clean', key: 'seisou_touban_app_v6_proposal' },
+      exam:  { label: '試験監督', tab: 'exam',  key: 'examProctor_v1' }
+    };
+    const MAX = 60;   // 種類ごとの上限（古いものから消える）
+    const op = () => { try { return String(window.ttOperator || localStorage.getItem('ttOperator') || ''); } catch(e){ return ''; } };
+    const K = () => 'ttRecords:' + (op() || '_');
+    const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    function all(){ try { return JSON.parse(localStorage.getItem(K()) || '[]'); } catch(e){ return []; } }
+    function put(list){ try { localStorage.setItem(K(), JSON.stringify(list)); return true; } catch(e){ alert('保存できませんでした（ブラウザの保存領域がいっぱいの可能性）。古い記録を削除してください。'); return false; } }
+    const stamp = d => { const t = new Date(d); return (t.getMonth()+1) + '/' + t.getDate() + ' ' + String(t.getHours()).padStart(2,'0') + ':' + String(t.getMinutes()).padStart(2,'0'); };
+    function snapshot(type){
+      if(type === 'swap'){ const it = window.ttPrintCart ? window.ttPrintCart.items() : []; return it.length ? { items: it } : null; }
+      const raw = localStorage.getItem(TYPES[type].key); return raw ? { raw } : null;
+    }
+    function preview(type, data){
+      if(type === 'swap') return (data.items || []).slice(0, 3).map(it => window.ttPrintCart ? window.ttPrintCart.label(it) : it.pId).join(' ／ ') + ((data.items || []).length > 3 ? ' ほか' : '');
+      return '';
+    }
+    function save(type){
+      const data = snapshot(type);
+      if(!data){ alert(type === 'swap' ? '印刷用に選んだ授業がありません。' : 'まだ保存する内容がありません。'); return; }
+      const n = type === 'swap' ? data.items.length : 0;
+      const def = TYPES[type].label + ' ' + stamp(Date.now()) + (n ? '（' + n + '件）' : '');
+      const title = prompt('名前を付けて保存します（例：11/12 出張分）', def); if(title === null) return;
+      const list = all(); const now = new Date().toISOString();
+      list.unshift({ id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), type, title: (title || def).slice(0, 60), created: now, updated: now, op: op(), data });
+      const same = list.filter(r => r.type === type); if(same.length > MAX){ const drop = new Set(same.slice(MAX).map(r => r.id)); for(let i = list.length - 1; i >= 0; i--) if(drop.has(list[i].id)) list.splice(i, 1); }
+      if(put(list)){ if(window.ttLog) window.ttLog('記録を保存', TYPES[type].label + '：' + title); flash(type); }
+    }
+    function flash(type){ const b = document.querySelector('[data-rec-open="' + type + '"]'); if(!b) return; const t = b.textContent; b.textContent = '✓ 保存しました'; setTimeout(() => b.textContent = t, 1500); }
+    function open(type){
+      const m = document.getElementById('recModal'), list = all().filter(r => r.type === type);
+      document.getElementById('recTitle').textContent = '保存した' + TYPES[type].label + '（' + list.length + '件）' + (op() ? '・' + op() + ' 先生' : '');
+      document.getElementById('recNote').textContent = type === 'swap'
+        ? '「開く」で印刷用の選択に戻します（今の選択は置き換わります）。開いたあと授業を足したり外したりして、もう一度「💾 保存」すると新しい記録として残ります。'
+        : '「開く」でその時点の状態に戻します（今の入力は置き換わり、画面を読み込み直します）。必要なら先に今の状態を保存してください。';
+      document.getElementById('recList').innerHTML = list.length ? list.map(r => '<div class="rec-row" data-id="' + esc(r.id) + '"><div class="rec-main"><div class="rec-title">' + esc(r.title) + '</div><div class="rec-meta">保存 ' + esc(stamp(r.updated || r.created)) + (r.op ? '・' + esc(r.op) : '') + '</div>' + (preview(type, r.data) ? '<div class="rec-prev">' + esc(preview(type, r.data)) + '</div>' : '') + '</div><div class="rec-acts"><button type="button" class="rec-open">開く</button><button type="button" class="rec-ren">名前を変える</button><button type="button" class="rec-del">削除</button></div></div>').join('')
+        : '<p class="rec-note">まだ保存した記録はありません。' + (type === 'swap' ? '授業を選んで、黄色い印刷バーの「💾 保存」を押すと残せます。' : '「💾 保存」を押すと今の状態を残せます。') + '</p>';
+      m.hidden = false; m.dataset.type = type;
+    }
+    function close(){ document.getElementById('recModal').hidden = true; }
+    document.getElementById('recClose').onclick = close;
+    document.getElementById('recModal').addEventListener('click', e => {
+      if(e.target.id === 'recModal'){ close(); return; }
+      const row = e.target.closest('.rec-row'); if(!row) return;
+      const list = all(), i = list.findIndex(r => r.id === row.dataset.id); if(i < 0) return; const r = list[i], type = r.type;
+      if(e.target.closest('.rec-del')){ if(!confirm('「' + r.title + '」を削除します。元に戻せません。')) return; list.splice(i, 1); put(list); open(type); return; }
+      if(e.target.closest('.rec-ren')){ const t = prompt('新しい名前', r.title); if(!t) return; r.title = t.slice(0, 60); r.updated = new Date().toISOString(); put(list); open(type); return; }
+      if(e.target.closest('.rec-open')){
+        if(type === 'swap'){ if(window.ttPrintCart) window.ttPrintCart.load(r.data.items); close(); const t = document.querySelector('#viewTabs [data-view="swap"]'); if(t) t.click(); if(window.ttLog) window.ttLog('記録を開く', '授業交換：' + r.title); return; }
+        try { localStorage.setItem(TYPES[type].key, r.data.raw); } catch(err){ alert('開けませんでした。'); return; }
+        if(window.ttLog) window.ttLog('記録を開く', TYPES[type].label + '：' + r.title);
+        location.hash = '#' + TYPES[type].tab; location.reload();
+      }
+    });
+    document.addEventListener('keydown', e => { if(e.key === 'Escape' && !document.getElementById('recModal').hidden) close(); });
+    document.querySelectorAll('[data-rec-open]').forEach(b => b.addEventListener('click', () => open(b.dataset.recOpen)));
+    document.querySelectorAll('[data-rec-save]').forEach(b => b.addEventListener('click', () => save(b.dataset.recSave)));
+    const sp = document.getElementById('savePrintCartBtn'); if(sp) sp.addEventListener('click', () => save('swap'));
+    window.ttRecords = Object.freeze({ save, open, list: type => all().filter(r => !type || r.type === type) });
   })();
   </script>
   <script>

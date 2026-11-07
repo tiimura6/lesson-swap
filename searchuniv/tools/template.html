@@ -385,8 +385,8 @@ ul.mini li{font-size:12.5px;margin:2px 0}
       <div class="strow"><b>第1志望</b><input id="st-u1" list="univlist" placeholder="大学名"><input id="st-f1" placeholder="学部・学科（任意）"></div>
       <div class="strow"><b>第2志望</b><input id="st-u2" list="univlist" placeholder="大学名"><input id="st-f2" placeholder="学部・学科（任意）"></div>
       <div class="strow"><b>第3志望</b><input id="st-u3" list="univlist" placeholder="大学名"><input id="st-f3" placeholder="学部・学科（任意）"></div>
-      <div class="strow"><b>滑り止め</b><input id="st-u4" list="univlist" placeholder="大学名（空欄なら自動で候補を出す）"><input id="st-f4" placeholder="学部・学科（任意）"></div>
-      <div class="strow"><b>滑り止め</b><input id="st-u5" list="univlist" placeholder="大学名（任意）"><input id="st-f5" placeholder="学部・学科（任意）"></div>
+      <div class="strow"><b>安全校</b><input id="st-u4" list="univlist" placeholder="大学名（空欄なら自動で候補を出す）"><input id="st-f4" placeholder="学部・学科（任意）"></div>
+      <div class="strow"><b>安全校</b><input id="st-u5" list="univlist" placeholder="大学名（任意）"><input id="st-f5" placeholder="学部・学科（任意）"></div>
       <div class="airow">
         <label>評定平均（任意）<input id="st-hyotei" inputmode="decimal" placeholder="例：4.1"></label>
         <label>得意な教科（任意）<input id="st-good" placeholder="例：英語、国語"></label>
@@ -1092,7 +1092,7 @@ function stEligible(o,ctx){
   if(hm&&ctx.hyotei==null) why.push("評定"+hm[1]+"以上が条件");
   return {ok:true,why:why.join("・")};
 }
-// 滑り止めの自動候補：第1志望の系統に近く、学力の目安が本人より下で、追加の科目が少なく、試験日が重ならない方式を持つ大学
+// 安全校の自動候補：第1志望の系統に近く、学力の目安が本人より下で、追加の科目が少なく、試験日が重ならない方式を持つ大学
 function safetySuggest(plan,core,ctx0){
   const S=studentInput(); const hen=S.hen; const first=plan[0]; if(!first) return "";
   const picked=new Set(plan.map(q=>q.p.name));
@@ -1109,8 +1109,8 @@ function safetySuggest(plan,core,ctx0){
   }
   res.sort((a,b)=>a.best.extra-b.best.extra||(b.mid||0)-(a.mid||0));
   const top=res.slice(0,5);
-  if(!top.length) return '<div class="stplan"><h3>滑り止めの候補（自動）</h3><div class="sub2">条件に合う候補が見つかりませんでした'+(hen==null?'（模試の偏差値を入れると絞り込めます）':'')+'。</div></div>';
-  return '<div class="stplan"><h3>滑り止めの候補（自動）</h3><div class="sub2">第1志望'+(first.p.fac?'の「'+esc(first.p.fac)+'」':'')+'に近い分野で、'+(hen!=null?'難易度の目安が本人より3以上低く、':'')+'追加の科目が少なく、試験日が重ならない方式がある大学です。</div>'+
+  if(!top.length) return '<div class="stplan"><h3>安全校の候補（自動）</h3><div class="sub2">条件に合う候補が見つかりませんでした'+(hen==null?'（模試の偏差値を入れると絞り込めます）':'')+'。</div></div>';
+  return '<div class="stplan"><h3>安全校の候補（自動）</h3><div class="sub2">第1志望'+(first.p.fac?'の「'+esc(first.p.fac)+'」':'')+'に近い分野で、'+(hen!=null?'難易度の目安が本人より3以上低く、':'')+'追加の科目が少なく、試験日が重ならない方式がある大学です。</div>'+
     top.map(z=>'<div class="stroute"><span class="tag safe">候補</span>'+badge(z.x)+'<b>'+esc(z.x.name)+'</b> '+starBtn(z.x.name)+'<span class="sub2">　'+esc(z.best.o.r.kubun+"・"+z.best.o.r.name)+(z.mid!=null?'　偏差値の目安 '+z.mid:'')+(z.best.o.sched&&z.best.o.sched.exam?'　試験 '+esc(z.best.o.sched.exam):'')+'</span><div>'+[...z.best.o.own].map(k=>'<span class="subj'+(core.has(k)?' common':' extra')+'">'+esc(k)+'</span>').join("")+'</div></div>').join("")+'</div>';
 }
 function stPlan(){
@@ -1175,7 +1175,7 @@ function stPlan(){
     (o.own.size?'<div>'+subjTags(o.own)+'</div>':'')+(m.e&&m.e.why?'<div class="warn">条件：'+esc(m.e.why)+'</div>':'')+'</div>'; };
   let h='<div class="stplan"><h3>受験戦略案</h3><div class="sub2">登録データ（入試方式・日程・条件）から規則に沿って組み立てた案です。最終判断は募集要項と本人・保護者との相談で。</div></div>';
   for(const q of plan){ const x=items.find(i=>i.name===q.p.name);
-    h+='<div class="stplan"><h3>'+(q.p.safety?'滑り止め':'第'+q.p.rank+'志望')+'　'+bandTag(x)+badge(x)+esc(q.p.name)+(q.p.fac?'<span class="sub2">（'+esc(q.p.fac)+'）</span>':'')+' <button type="button" class="tbtn" data-trend="'+esc(q.p.name)+'">出題内容</button></h3>';
+    h+='<div class="stplan"><h3>'+(q.p.safety?'安全校':'第'+q.p.rank+'志望')+'　'+bandTag(x)+badge(x)+esc(q.p.name)+(q.p.fac?'<span class="sub2">（'+esc(q.p.fac)+'）</span>':'')+' <button type="button" class="tbtn" data-trend="'+esc(q.p.name)+'">出題内容</button></h3>';
     if(q.note){ h+='<div class="sub2">'+esc(q.note)+'</div></div>'; continue; }
     if(q.main) h+=line(q.main,q.p.rank===1?"main":"safe",q.p.rank===1?"本命":"メイン");
     else h+='<div class="warn">条件に合う一般選抜・共テ利用が見つかりません（共テの有無・教科数の設定を確認）。</div>';
