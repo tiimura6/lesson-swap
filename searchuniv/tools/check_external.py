@@ -83,6 +83,10 @@ def main(path):
         hp = (r.get('hp') or '').rstrip('/')
         for row in ((info.get('methods') or {}).get('list') or []):
             if isinstance(row, dict) and hp and (row.get('url') or '').rstrip('/') == hp: row['url'] = None
+        # 「入学金除く」の行の入学金 0 は「0円」と誤解されるので不明（null）にする
+        for row in ((info.get('money') or {}).get('rows') or []):
+            if isinstance(row, dict) and '入学金除' in str(row.get('f', '')) and row.get('admission') == 0:
+                row['admission'] = None; notes.append(f"{n}: 学費「{row.get('f')}」は入学金を含まない額（入学金は不明として扱う）")
         # 6年制の行の four_year は「4年間合計」と誤解されるので外す（6年間の総額は特色・メモに書く）
         for row in ((info.get('money') or {}).get('rows') or []):
             if isinstance(row, dict) and row.get('four_year') and re.search(r'6年', str(row.get('f', ''))):

@@ -2108,41 +2108,6 @@
 "cat": "private"
 },
 {
-"name": "岐阜保健大学",
-"type": "私立",
-"pref": "岐阜県",
-"hp": "https://www.gifuhoken.ac.jp/",
-"cat": "private"
-},
-{
-"name": "岐阜医療科学大学",
-"type": "私立",
-"pref": "岐阜県",
-"hp": "https://www.u-gifu-ms.ac.jp/",
-"cat": "private"
-},
-{
-"name": "岐阜協立大学",
-"type": "私立",
-"pref": "岐阜県",
-"hp": "https://www.gku.ac.jp/",
-"cat": "private"
-},
-{
-"name": "岐阜女子大学",
-"type": "私立",
-"pref": "岐阜県",
-"hp": "https://www.gijodai.jp/",
-"cat": "private"
-},
-{
-"name": "岐阜聖徳学園大学",
-"type": "私立",
-"pref": "岐阜県",
-"hp": "https://www.shotoku.ac.jp/",
-"cat": "private"
-},
-{
 "name": "岡崎女子大学",
 "type": "私立",
 "pref": "愛知県",
@@ -3082,6 +3047,36 @@
 "高岡法科大学": 1
 },
 "enrich": [
+{
+"name": "岐阜保健大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "岐阜医療科学大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "岐阜協立大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "岐阜女子大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "岐阜聖徳学園大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "愛知東邦大学",
 "need": [
@@ -22139,6 +22134,126 @@
 },
 {
 "name": "敬和学園大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "岐阜保健大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "岐阜保健大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "岐阜保健大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "岐阜保健大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "岐阜医療科学大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "岐阜医療科学大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "岐阜医療科学大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "岐阜医療科学大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "岐阜協立大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "岐阜協立大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "岐阜協立大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "岐阜協立大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "岐阜女子大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "岐阜女子大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "岐阜女子大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "岐阜女子大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "岐阜聖徳学園大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "岐阜聖徳学園大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "岐阜聖徳学園大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "岐阜聖徳学園大学",
 "need": [
 "scholar"
 ]
