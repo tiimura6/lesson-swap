@@ -1,55 +1,6 @@
 {
 "add": [
 {
-"name": "山梨県立大学",
-"type": "公立",
-"pref": "山梨県",
-"hp": "http://www.yamanashi-ken.ac.jp/",
-"cat": "public"
-},
-{
-"name": "岐阜県立看護大学",
-"type": "公立",
-"pref": "岐阜県",
-"hp": "http://www.gifu-cn.ac.jp/",
-"cat": "public"
-},
-{
-"name": "岐阜薬科大学",
-"type": "公立",
-"pref": "岐阜県",
-"hp": "http://www.gifu-pu.ac.jp/",
-"cat": "public"
-},
-{
-"name": "愛知県立大学",
-"type": "公立",
-"pref": "愛知県",
-"hp": "http://www.aichi-pu.ac.jp/",
-"cat": "public"
-},
-{
-"name": "愛知県立芸術大学",
-"type": "公立",
-"pref": "愛知県",
-"hp": "http://www.aichi-fam-u.ac.jp/",
-"cat": "public"
-},
-{
-"name": "敦賀市立看護大学",
-"type": "公立",
-"pref": "福井県",
-"hp": "http://tsuruga-nu.ac.jp/",
-"cat": "public"
-},
-{
-"name": "新潟県立大学",
-"type": "公立",
-"pref": "新潟県",
-"hp": "http://www.unii.ac.jp/",
-"cat": "public"
-},
-{
 "name": "新潟県立看護大学",
 "type": "公立",
 "pref": "新潟県",
@@ -4723,16 +4674,72 @@
 "need": [
 "schedule_dates"
 ]
+},
+{
+"name": "山梨県立大学",
+"op": "add"
+},
+{
+"name": "岐阜県立看護大学",
+"op": "add"
+},
+{
+"name": "岐阜薬科大学",
+"op": "add"
+},
+{
+"name": "愛知県立大学",
+"op": "add"
+},
+{
+"name": "愛知県立芸術大学",
+"op": "add"
+},
+{
+"name": "敦賀市立看護大学",
+"op": "add"
+},
+{
+"name": "新潟県立大学",
+"op": "add"
+},
+{
+"name": "筑波大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "茨城大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "埼玉大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "横浜国立大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
+]
 }
 ],
 "failed": [],
 "fail_count": {
 "室蘭工業大学": 1,
-"東京科学大学": 1,
+"東京科学大学": 2,
 "神戸大学": 1,
 "筑波大学": 1,
 "茨城大学": 1,
-"千葉大学": 1,
+"千葉大学": 2,
 "埼玉大学": 1,
 "横浜国立大学": 1,
 "東京外国語大学": 1,
@@ -4871,50 +4878,8 @@
 ]
 },
 {
-"name": "東京科学大学",
-"keinet": "1150",
-"need": [
-"schedule_dates"
-]
-},
-{
 "name": "神戸大学",
 "keinet": "1310",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "筑波大学",
-"keinet": "1085",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "茨城大学",
-"keinet": "1075",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "千葉大学",
-"keinet": "1105",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "埼玉大学",
-"keinet": "1100",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "横浜国立大学",
-"keinet": "1170",
 "need": [
 "schedule_dates"
 ]
@@ -16472,6 +16437,76 @@
 "name": "長崎総合科学大学",
 "need": [
 "scholar"
+]
+},
+{
+"name": "山梨県立大学",
+"keinet": "1561",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "岐阜県立看護大学",
+"keinet": "1564",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "岐阜薬科大学",
+"keinet": "1565",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "愛知県立大学",
+"keinet": "1575",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "愛知県立芸術大学",
+"keinet": "1580",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "敦賀市立看護大学",
+"keinet": "1556",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "新潟県立大学",
+"keinet": "1544",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "東京科学大学",
+"keinet": "1150",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "千葉大学",
+"keinet": "1105",
+"need": [
+"schedule_dates"
 ]
 }
 ],
