@@ -46,6 +46,10 @@ Searchuniv に全国の大学を少しずつ追加し、既存校の空欄（研
 - 新規追加の前に、その学校に「高校卒業（見込み）者が出願できる入試」があるかを公式サイトで確かめ、無ければ batch に入れずに `data/queue.json` の `excluded` に `{name, reason}` を足して `add` から外す。
 - 高校生が受験できる大学校（防衛大学校・防衛医科大学校・気象大学校・海上保安大学校・水産大学校・国立看護大学校・航空保安大学校・職業能力開発大学校・農業大学校など）や、通信制の大学は載せてよい。
 
+## 外部AIのデータの裏取り（2026-11-07〜）
+- 先生が他のAIで集めたデータは `tools/check_external.py` を通して取り込み、info に `_via: "external-ai"` が付いている。
+- 毎回の補完の前に、`_via` が external-ai の学校を1校選び、大学公式で入試日程・入試方式・学費・奨学金を確かめる。合っていれば `_via` を `"external-ai-verified"` にする（`_via_replace`）。違っていれば `*_replace` で直し、報告に「外部AIの誤り」として書く。
+
 ## 1回の実行でやること
 1. リポジトリ `tiimura6/lesson-swap`（飯村システム）を用意する（add_repo を access "push" で呼び、案内どおり clone）。Searchuniv 一式はその中の `searchuniv/` フォルダにある。以下のコマンドとパスはすべて `searchuniv/` に cd してから実行する。リポジトリ直下の index.html（飯村システム本体）は触らない。
 2. `data/queue.json` を読み（add の各項目は `{name,type,pref,hp,cat}`。cat と hp はそのまま batch に使う。名前に括弧付きの区分（例「（通信制のみ）」「（大学院のみ）」）がある学校は、その名前をそのまま batch の name に使い、項目に note があれば従う）、`add` の先頭から最大 **7校**、`enrich` の先頭から最大 **8校** を選ぶ（enrich の各項目は `{name, keinet, need}`。`need` に挙がった項目だけを集める：licenses は `/outline/licential`、careers は `/outline/admission_employment`、research は `outline/department/{コード}` の概要・特色）。両方空のときは、`complete` が true なら「全件完了」と報告してこの定期実行（名前「Searchuniv データ拡充」）を update_trigger で無効化する。`complete` が false なら何も変更せず「待機中（キュー準備中）」と報告して終わる（無効化しない）。

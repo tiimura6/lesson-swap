@@ -78,6 +78,12 @@ def main(path):
                 if empty(e.get(k)) and not empty(v): e[k] = v
     for n, o in [('cards', cards), ('info', info), ('exam', exam), ('hp', hp), ('readings', read), ('aliases', alias), ('coords', coords), ('guide', guide)]:
         W(n, o)
+    # 取り込んだ学校は「新規追加」の待ち行列から外す（他のAIで集めた学校を自動収集が二重に集めないように）
+    try:
+        q = L('queue'); before = len(q.get('add', []))
+        q['add'] = [e for e in q.get('add', []) if e.get('name') not in names]
+        if len(q['add']) != before: W('queue', q)
+    except Exception: pass
     print('追加 %d校 / 既存校の空欄を %d 項目補完 / 合計 %d校' % (added, filled, len(cards)))
     for p in problems: print('  要確認:', p)
 if __name__ == '__main__':

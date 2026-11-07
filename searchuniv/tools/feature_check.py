@@ -84,6 +84,11 @@ with sync_playwright() as p:
     J('document.getElementById("uclose").click(); Searchuniv.selectUniv("明治大学")'); pg.wait_for_timeout(700)
     mt = J('[...document.querySelectorAll("#mpanel details.xb")].map(d=>d.innerText).find(t=>t.startsWith("費用と奨学金"))||""')
     ck(G, '学費は目安として表示し、施設費などを含むか（✓／✕／?）を示す', '目安' in mt and '施設・教育充実費' in mt and '含まない' in mt)
+    dups = J('''(async()=>{ const bad=[]; const names=[...new Set([...document.querySelectorAll("#univlist option")].map(o=>o.value))];
+      for(const n of names){ Searchuniv.selectUniv(n); await new Promise(r=>setTimeout(r,60)); const L=[...document.querySelectorAll("#mpanel .ftab")].slice(1).map(b=>b.textContent.replace(/学部/g,"").replace(/\\s/g,""));
+        for(let i=0;i<L.length;i++) for(let j=i+1;j<L.length;j++) if(L[i]===L[j]) bad.push(n+":"+L[i]); }
+      return bad; })()''')
+    ck(G, '学部タブに同じ学部が重ならない（全校）', not dups, dups[:5])
     ck(G, '海外協定校の世界地図（拡大できる）', J('!!document.getElementById("wmodal") && !document.getElementById("wmodal").hidden'), '京都大学')
     pg.keyboard.press('Escape')
     ck(G, 'オープンキャンパス欄（データがある学校）', 'ocBlock' in tpl, 'データあり %d校' % sum(1 for v in json.load(open(os.path.join(HERE, 'data', 'info.json'), encoding='utf-8')).values() if v.get('oc')))

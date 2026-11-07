@@ -1017,7 +1017,8 @@ function sourceBlock(name){
   const old=(Date.now()-new Date(last).getTime())>183*864e5;
   const host=u=>{ try{ return new URL(u).hostname.replace(/^www\./,""); }catch(_){ return u; } };
   const fz=DETAIL_READY?fullness(name):null;
-  return (fz&&fz.miss.length?'<div class="enote">未登録の項目：'+esc(fz.miss.join("、"))+'（自動収集で順次補います）</div>':'')+'<details class="xb src"><summary>出典と確認日<span class="sub2'+(old?' oldmark':'')+'">確認日 '+esc(last.replace(/-/g,"/"))+(old?'（半年以上前：要確認）':'')+'</span></summary>'+
+  const via=f._via==='external-ai'?'<div class="enote" style="color:#9a6b00">※この大学の一部の情報は他のAIで集めたもので、大学公式での確認待ちです（自動収集が順に確認します）。</div>':'';
+  return via+(fz&&fz.miss.length?'<div class="enote">未登録の項目：'+esc(fz.miss.join("、"))+'（自動収集で順次補います）</div>':'')+'<details class="xb src"><summary>出典と確認日<span class="sub2'+(old?' oldmark':'')+'">確認日 '+esc(last.replace(/-/g,"/"))+(old?'（半年以上前：要確認）':'')+'</span></summary>'+
     (src.length?'<ul class="mini">'+src.slice(0,30).map(u=>'<li><a href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(host(u))+'</a> <span class="sub2">'+esc(decodeURI(u).replace(/^https?:\/\/[^/]+/,"").slice(0,60))+'</span></li>').join("")+'</ul>':'<div class="sub2">出典の記録なし</div>')+
     '<div class="enote">※年度表示のない項目は '+esc(DATA_DATE.replace(/-/g,"/"))+' 時点で集めた情報です。出願前に必ず大学の募集要項で確認してください。</div></details>';
 }
@@ -1255,7 +1256,7 @@ $("kt-go").onclick=async()=>{
 };
 
 // ===== 更新日時（検索欄の下に表示）=====
-const BUILD=/*BUILD*/{"built":"2026-11-07 15:09","schedule":"2026-11-07","diffyear":"2027年度入試用"}/*END_BUILD*/;
+const BUILD=/*BUILD*/{"built":"2026-11-07 15:26","schedule":"2026-11-07","diffyear":"2027年度入試用"}/*END_BUILD*/;
 (function(){ const el=$("updline"); if(!el||!BUILD.built) return; const d=s=>s?s.replace(/-/g,"/"):"";
   el.textContent="更新 "+d(BUILD.built)+"・"+items.length+"校｜入試日程の確認 "+d((BUILD.schedule||BUILD.built).slice(0,10))+"（一般選抜は12月下旬に更新）"; el.title="難易度：河合塾「"+(BUILD.diffyear||"2027年度入試用")+"」"; })();
 $("univlist").innerHTML=items.map(x=>'<option value="'+esc(x.name)+'">').join("");
@@ -1703,9 +1704,15 @@ function selectUniv(name,keepView){
 }
 // ===== 大学の画面の学部タブ：学部を選ぶと、その学部に関係する情報だけに絞って表示 =====
 function univBody(x){ return scheduleBlock(INFO[x.name]||{},x)+guideBlock(x)+'<div class="newsslot">'+cardNews(x.name)+'</div>'+infoBlock(x.name)+partnerBlock(x.name)+examBlock(x.name)+extraBlocks(x.name); }
-function facListOf(name){ const f=INFO[name]||{}; const a=(Array.isArray(f.departments)?f.departments.map(g=>g.f):[]).concat(f.faculties||[]); return [...new Set(a.filter(Boolean))]; }
+// 学部の一覧（タブ用）。学部・学科一覧を基本にし、faculties は表記ゆれ（「医」と「医学部」、「理学部」と「理学部第一部」、「（昼間）」付きなど）を同じ学部として重ねない
+function facKey(t){ return String(t||"").replace(/[\s　]/g,"").replace(/学部/g,""); }
+function facListOf(name){ const f=INFO[name]||{}, out=[];
+  for(const g of (Array.isArray(f.departments)?f.departments:[])){ if(g.f&&!out.includes(g.f)) out.push(g.f); }
+  for(const k of (f.faculties||[])){ if(!k) continue; const a=facKey(k); if(out.some(o=>{ const b=facKey(o); return a===b||a.startsWith(b)||b.startsWith(a); })) continue; out.push(k); }
+  return out; }
+function facLabel(name,fac){ if(/学部|学群|学域|学環|学類|学院|学科|課程|専攻|部$/.test(fac)) return fac; const k=facKey(fac); const hit=((INFO[name]||{}).faculties||[]).find(x=>facKey(x)===k); return hit||fac; }
 function facTabs(x){ const L=facListOf(x.name); if(L.length<2) return "";
-  return '<div class="ftabs" role="tablist" aria-label="学部"><button type="button" class="ftab on" data-fac="">大学全体</button>'+L.map(f=>'<button type="button" class="ftab" data-fac="'+esc(f)+'">'+esc(f)+'</button>').join("")+'</div>'; }
+  return '<div class="ftabs" role="tablist" aria-label="学部"><button type="button" class="ftab on" data-fac="">大学全体</button>'+L.map(f=>'<button type="button" class="ftab" data-fac="'+esc(f)+'">'+esc(facLabel(x.name,f))+'</button>').join("")+'</div>'; }
 // その学部に関係する文か（学部名・学部名の短縮形・学科名で判定）。どの学部名も含まない文は「全学部共通」
 function facMatcher(name,fac){
   const f=INFO[name]||{}, all=facListOf(name), stem=s=>s.replace(/(学部|学群|学域|学環|学類|学院)$/,"");
