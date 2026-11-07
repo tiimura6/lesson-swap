@@ -1,20 +1,6 @@
 {
  "add": [
   {
-   "name": "長崎県立大学",
-   "type": "公立",
-   "pref": "長崎県",
-   "hp": "http://sun.ac.jp/",
-   "cat": "public"
-  },
-  {
-   "name": "札幌医科大学",
-   "type": "公立",
-   "pref": "北海道",
-   "hp": "http://web.sapmed.ac.jp/",
-   "cat": "public"
-  },
-  {
    "name": "札幌市立大学",
    "type": "公立",
    "pref": "北海道",
@@ -3461,6 +3447,95 @@
    "need": [
     "fees"
    ]
+  },
+  {
+   "name": "明治学院大学",
+   "keinet": "2287",
+   "passnavi": 3130,
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "駒澤大学",
+   "keinet": "2216",
+   "passnavi": 2430,
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "専修大学",
+   "keinet": "2233",
+   "passnavi": 2590,
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "工学院大学",
+   "keinet": "2212",
+   "passnavi": 2390,
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "東京農業大学",
+   "keinet": "2260",
+   "passnavi": 2860,
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "北里大学",
+   "keinet": "2205",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "自治医科大学",
+   "keinet": "2122",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "国際医療福祉大学",
+   "keinet": "2125",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "順天堂大学",
+   "keinet": "2220",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "獨協医科大学",
+   "keinet": "2123",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "津田塾大学",
+   "keinet": "2243",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "東京女子大学",
+   "keinet": "2254",
+   "need": [
+    "fees"
+   ]
   }
  ],
  "failed": [],
@@ -3472,7 +3547,6 @@
   "電動モビリティシステム専門職大学": 1,
   "北海道教育大学": 1,
   "総合研究大学院大学（大学院のみ）": 1,
-  "札幌医科大学": 1,
   "札幌市立大学": 1,
   "東北公益文科大学": 1,
   "東北農林専門職大学": 1,
@@ -5833,74 +5907,6 @@
    ]
   },
   {
-   "name": "明治学院大学",
-   "keinet": "2287",
-   "passnavi": 3130,
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "駒澤大学",
-   "keinet": "2216",
-   "passnavi": 2430,
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "専修大学",
-   "keinet": "2233",
-   "passnavi": 2590,
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "工学院大学",
-   "keinet": "2212",
-   "passnavi": 2390,
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "東京農業大学",
-   "keinet": "2260",
-   "passnavi": 2860,
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "北里大学",
-   "keinet": "2205",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "自治医科大学",
-   "keinet": "2122",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "国際医療福祉大学",
-   "keinet": "2125",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "順天堂大学",
-   "keinet": "2220",
-   "need": [
-    "fees"
-   ]
-  },
-  {
    "name": "東京慈恵会医科大学",
    "keinet": "2253",
    "need": [
@@ -5910,27 +5916,6 @@
   {
    "name": "日本医科大学",
    "keinet": "2268",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "獨協医科大学",
-   "keinet": "2123",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "津田塾大学",
-   "keinet": "2243",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "東京女子大学",
-   "keinet": "2254",
    "need": [
     "fees"
    ]
@@ -23296,6 +23281,22 @@
   {
    "name": "福岡県立大学",
    "keinet": "1685",
+   "need": [
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "札幌医科大学",
+   "keinet": "1505",
+   "need": [
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "長崎県立大学",
+   "keinet": "1695",
    "need": [
     "extra",
     "partners"
