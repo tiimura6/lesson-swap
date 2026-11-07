@@ -1,20 +1,6 @@
 {
 "add": [
 {
-"name": "県立広島大学",
-"type": "公立",
-"pref": "広島県",
-"hp": "http://www.pu-hiroshima.ac.jp/",
-"cat": "public"
-},
-{
-"name": "福山市立大学",
-"type": "公立",
-"pref": "広島県",
-"hp": "http://www.fcu.ac.jp/",
-"cat": "public"
-},
-{
 "name": "香川県立保健医療大学",
 "type": "公立",
 "pref": "香川県",
@@ -2922,6 +2908,98 @@
 },
 {
 "name": "新見公立大学",
+"op": "add"
+},
+{
+"name": "東京学芸大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "東京農工大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "電気通信大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "東京都立大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "横浜市立大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "宇都宮大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "群馬大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "高崎経済大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "高崎経済大学",
+"op": "enrich",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "東京海洋大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "東京藝術大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "茨城県立医療大学",
+"op": "enrich",
+"need": [
+"fees"
+]
+},
+{
+"name": "県立広島大学",
+"op": "add"
+},
+{
+"name": "福山市立大学",
 "op": "add"
 }
 ],
@@ -5932,83 +6010,6 @@
 },
 {
 "name": "電動モビリティシステム専門職大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "東京学芸大学",
-"keinet": "1135",
-"need": [
-"fees"
-]
-},
-{
-"name": "東京農工大学",
-"keinet": "1160",
-"need": [
-"fees"
-]
-},
-{
-"name": "電気通信大学",
-"keinet": "1115",
-"need": [
-"fees"
-]
-},
-{
-"name": "東京都立大学",
-"keinet": "1532",
-"need": [
-"fees"
-]
-},
-{
-"name": "横浜市立大学",
-"keinet": "1540",
-"need": [
-"fees"
-]
-},
-{
-"name": "宇都宮大学",
-"keinet": "1090",
-"need": [
-"fees"
-]
-},
-{
-"name": "群馬大学",
-"keinet": "1095",
-"need": [
-"fees"
-]
-},
-{
-"name": "高崎経済大学",
-"keinet": "1520",
-"need": [
-"fees"
-]
-},
-{
-"name": "東京海洋大学",
-"keinet": "1152",
-"need": [
-"fees"
-]
-},
-{
-"name": "東京藝術大学",
-"keinet": "1140",
-"need": [
-"fees"
-]
-},
-{
-"name": "茨城県立医療大学",
-"keinet": "1519",
 "need": [
 "fees"
 ]
@@ -23202,13 +23203,6 @@
 ]
 },
 {
-"name": "高崎経済大学",
-"keinet": "1520",
-"need": [
-"schedule_dates"
-]
-},
-{
 "name": "茨城県立医療大学",
 "keinet": "1519",
 "need": [
@@ -23233,6 +23227,22 @@
 {
 "name": "新見公立大学",
 "keinet": "1649",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "県立広島大学",
+"keinet": "1656",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "福山市立大学",
+"keinet": "1659",
 "need": [
 "extra",
 "partners"
