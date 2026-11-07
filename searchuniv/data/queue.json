@@ -3319,41 +3319,6 @@
 "cat": "private"
 },
 {
-"name": "神戸松蔭女子学院大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.shoin.ac.jp/",
-"cat": "private"
-},
-{
-"name": "神戸海星女子学院大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.kaisei.ac.jp/",
-"cat": "private"
-},
-{
-"name": "神戸芸術工科大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.kobe-du.ac.jp/",
-"cat": "private"
-},
-{
-"name": "神戸薬科大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.kobepharma-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "神戸親和大学",
-"type": "私立",
-"pref": "兵庫県",
-"hp": "https://www.kobe-shinwa.ac.jp/",
-"cat": "private"
-},
-{
 "name": "種智院大学",
 "type": "私立",
 "pref": "京都府",
@@ -4126,6 +4091,30 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "神戸松蔭女子学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "神戸芸術工科大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "神戸薬科大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "神戸親和大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "長浜バイオ大学",
 "need": [
@@ -18587,6 +18576,102 @@
 "need": [
 "scholar"
 ]
+},
+{
+"name": "神戸松蔭女子学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "神戸松蔭女子学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "神戸松蔭女子学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "神戸松蔭女子学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "神戸芸術工科大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "神戸芸術工科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "神戸芸術工科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "神戸芸術工科大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "神戸薬科大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "神戸薬科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "神戸薬科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "神戸薬科大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "神戸親和大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "神戸親和大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "神戸親和大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "神戸親和大学",
+"need": [
+"scholar"
+]
 }
 ],
 "complete": true,
@@ -18614,6 +18699,10 @@
 {
 "name": "総合研究大学院大学（大学院のみ）",
 "reason": "大学院のみで学部が無く、一般の高校生には受験資格がないため（2026-11-07 先生の方針で除外）"
+},
+{
+"name": "神戸海星女子学院大学",
+"reason": "2024年度以降の学生募集を停止（2027年度入試なし）"
 }
 ]
 }
