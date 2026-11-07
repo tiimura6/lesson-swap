@@ -2178,41 +2178,6 @@
 "cat": "private"
 },
 {
-"name": "愛知大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.aichi-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "愛知学泉大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.gakusen.ac.jp/",
-"cat": "private"
-},
-{
-"name": "愛知学院大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.agu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "愛知工業大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.ait.ac.jp/index.html",
-"cat": "private"
-},
-{
-"name": "愛知工科大学",
-"type": "私立",
-"pref": "愛知県",
-"hp": "https://www.aut.ac.jp/",
-"cat": "private"
-},
-{
 "name": "愛知文教大学",
 "type": "私立",
 "pref": "愛知県",
@@ -3152,6 +3117,30 @@
 "高岡法科大学": 1
 },
 "enrich": [
+{
+"name": "愛知大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "愛知学泉大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "愛知学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "愛知工業大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "新潟経営大学",
 "need": [
@@ -21972,6 +21961,102 @@
 "extra",
 "partners"
 ]
+},
+{
+"name": "愛知大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "愛知大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "愛知大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "愛知大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "愛知学泉大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "愛知学泉大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "愛知学泉大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "愛知学泉大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "愛知学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "愛知学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "愛知学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "愛知学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "愛知工業大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "愛知工業大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "愛知工業大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "愛知工業大学",
+"need": [
+"scholar"
+]
 }
 ],
 "complete": true,
@@ -22019,6 +22104,10 @@
 {
 "name": "京都ノートルダム女子大学",
 "reason": "2026年度以降の学生募集を停止（京都市の資料で確認）"
+},
+{
+"name": "愛知工科大学",
+"reason": "2027年度以降の学生募集を停止（大学のFAQ・改善報告書で確認）"
 }
 ]
 }
