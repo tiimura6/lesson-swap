@@ -62,6 +62,8 @@ with sync_playwright() as p:
         ck(G, k, w in t)
     J('document.getElementById("uclose").click(); Searchuniv.selectUniv("京都大学")'); pg.wait_for_timeout(700)
     J('document.querySelector("#mpanel .wmapwrap") && document.querySelector("#mpanel .wmapwrap").click()'); pg.wait_for_timeout(400)
+    sch = J('(document.querySelector("#mpanel .sch")||{innerText:""}).innerText')
+    ck(G, '入試日程（出願・試験日・合格発表・手続締切）を上の方に表示', all(w in sch for w in ('出願', '試験日', '合格発表', '手続締切')) and J('(()=>{const a=document.querySelector("#mpanel .sch"), g=document.querySelector("#mpanel .guide"); return !!a && (!g || (a.compareDocumentPosition(g) & 4))})()'))
     ck(G, '海外協定校の世界地図（拡大できる）', J('!!document.getElementById("wmodal") && !document.getElementById("wmodal").hidden'), '京都大学')
     pg.keyboard.press('Escape')
     ck(G, 'オープンキャンパス欄（データがある学校）', 'ocBlock' in tpl, 'データあり %d校' % sum(1 for v in json.load(open(os.path.join(HERE, 'data', 'info.json'), encoding='utf-8')).values() if v.get('oc')))

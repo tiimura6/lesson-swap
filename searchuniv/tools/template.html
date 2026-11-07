@@ -96,6 +96,11 @@ body.wide main,body.wide header{max-width:1320px}
 .full.hi{color:#2a7f62;border-color:#2a7f62}.full.mid{color:#9a6b00;border-color:#c99700}.full.lo{color:#b42318;border-color:#b42318}
 .repf{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:6px}.repf .rep-t{flex:1;min-width:220px;font-family:inherit;font-size:13px;border:1px solid var(--line);border-radius:8px;padding:7px 10px;background:var(--panel);color:var(--ink)}
 .ngtxt{color:#b42318}
+.sch{border-color:var(--accent)}.sch>summary{font-size:13px}
+.xt.sched td:nth-child(n+2){white-space:nowrap}.xt.sched tr.past td{opacity:.5}
+.est{color:var(--muted);font-style:italic}.na2{color:var(--muted);font-size:11px}
+.st{display:inline-block;font-size:10.5px;font-weight:700;border-radius:999px;padding:0 7px;margin-left:4px;border:1px solid var(--line);color:var(--muted)}
+.st.soon{color:#1f4e79;border-color:#1f4e79}.st.hot{color:#fff;background:#c0392b;border-color:#c0392b}.st.done{opacity:.7}
 .ktbox{margin-top:16px;border:1px solid var(--line);border-radius:12px;padding:10px 14px;background:var(--panel)}
 .ktbox>summary{cursor:pointer;font-weight:700}
 @media print{ #v-plan .mintro,.xbtn,.psel,.prow,#plan-print,.star{display:none !important} }
@@ -688,10 +693,28 @@ function fdiffBlock(f){
   return '<details class="xb"><summary>学部・学科別の難易度（'+rows.length+'件）'+(F.year?'<span class="sub2">'+esc(F.year)+'</span>':'')+'</summary><div class="tblw"><table class="xt"><thead><tr><th>学部</th><th>学科など</th><th>日程・方式</th><th>河合 偏差値</th><th>共テ得点率</th>'+(hasBn?'<th>ベネッセ</th>':'')+'</tr></thead><tbody>'+
     rows.map(r=>'<tr><td>'+esc(r.f||"")+'</td><td>'+esc(r.d||"")+'</td><td>'+esc(r.m||"")+'</td><td>'+esc(r.hen||"")+'</td><td>'+esc(r.kt||"")+'</td>'+(hasBn?'<td>'+esc(r.bn||"")+'</td>':'')+'</tr>').join("")+'</tbody></table></div>'+(F.note?'<div class="enote">※'+esc(F.note)+'</div>':'')+'</details>';
 }
-function scheduleBlock(f){
-  const S=f.schedule; if(!S||!(S.rows||[]).length) return "";
-  return '<details class="xb" open><summary>入試日程'+(S.year?'<span class="sub2">'+esc(S.year)+(staleYear(S.year)?'（前年度の情報）':'')+'</span>':'')+'</summary><div class="tblw"><table class="xt"><thead><tr><th>方式</th><th>出願</th><th>試験日</th><th>発表</th><th>手続締切</th><th>検定料</th></tr></thead><tbody>'+
-    S.rows.map(r=>'<tr><td><span class="ktag" style="background:'+(KUBUN_COLOR[r.kubun]||"#4b5563")+'">'+esc(r.kubun||"")+'</span>'+esc(r.name||"")+(r.note?'<div class="sub2">'+esc(r.note)+'</div>':'')+'</td><td>'+esc(r.apply||"")+'</td><td>'+esc(r.exam||"")+'</td><td>'+esc(r.result||"")+'</td><td>'+esc(r.proc||"")+'</td><td>'+(r.fee!=null?yen0(r.fee):"")+'</td></tr>').join("")+'</tbody></table></div></details>';
+// 入試日程：出願・試験・合格発表・手続締切を大学の画面の上の方にまとめて出す
+const NAT_TYPICAL={"前期":{apply:"1月下旬〜2月上旬",exam:"2/25〜",result:"3/6〜3/10頃",proc:"3/15頃"},"後期":{apply:"1月下旬〜2月上旬",exam:"3/12〜",result:"3/20〜3/23頃",proc:"3/27頃"}};
+function todayMd(){ const t=new Date(); const m=t.getMonth()+1; return (m>=4?m:m+12)*100+t.getDate(); }
+function scheduleBlock(f,x){
+  const S=f.schedule||{}, rows=(S.rows||[]).slice(), ord={"一般":0,"共テ利用":1,"推薦":2,"総合型":3};
+  rows.sort((a,b)=>(ord[a.kubun]??9)-(ord[b.kubun]??9));
+  // 国公立で前期・後期の日付が無いときは、例年の目安を薄く出す
+  const pub=x&&typeKey(x)==="pub", est=[];
+  if(pub) for(const k of ["前期","後期"]){ const r=rows.find(z=>z.kubun==="一般"&&(z.name||"").includes(k)); if(!r||!(r.apply&&r.result&&r.proc)) est.push(k); }
+  if(!rows.length&&!est.length) return '<details class="xb sch" open><summary>入試日程（出願・試験・合格発表・手続締切）</summary><div class="sub2">まだ登録されていません（自動収集で集めています）。出願前に必ず大学の募集要項で確認してください。</div></details>';
+  const T=todayMd(), dd=v=>{ const a=dayNo(v), b=dayNo(T); return a==null?null:a-b; };
+  const cell=(v,k,r)=>{ if(v) return esc(v); if(r&&pub&&r.kubun==="一般"){ const t=Object.keys(NAT_TYPICAL).find(z=>(r.name||"").includes(z)); if(t) return '<span class="est">'+NAT_TYPICAL[t][k]+'（例年）</span>'; } return '<span class="na2">未掲載</span>'; };
+  const stat=r=>{ const ae=mdLast(r.apply), pe=mdLast(r.proc), ex=md(r.exam);
+    if(pe!=null&&pe<T) return '<span class="st done">終了</span>';
+    if(ae!=null&&ae>=T){ const n=dd(ae); return '<span class="st soon'+(n<=14?' hot':'')+'">出願締切まで'+n+'日</span>'; }
+    if(ex!=null&&ex>=T){ return '<span class="st">試験まで'+dd(ex)+'日</span>'; }
+    return ""; };
+  const tr=r=>'<tr class="'+(mdLast(r.proc)!=null&&mdLast(r.proc)<T?'past':'')+'"><td><span class="ktag" style="background:'+(KUBUN_COLOR[r.kubun]||"#4b5563")+'">'+esc(r.kubun||"")+'</span>'+esc(r.name||"")+' '+stat(r)+(r.note?'<div class="sub2">'+esc(r.note)+'</div>':'')+'</td><td>'+cell(r.apply,"apply",r)+'</td><td>'+cell(r.exam,"exam",r)+'</td><td>'+cell(r.result,"result",r)+'</td><td>'+cell(r.proc,"proc",r)+'</td><td>'+(r.fee!=null?yen0(r.fee):'<span class="na2">—</span>')+'</td></tr>';
+  const estRows=est.filter(k=>!rows.some(z=>z.kubun==="一般"&&(z.name||"").includes(k))).map(k=>'<tr class="estrow"><td><span class="ktag" style="background:'+KUBUN_COLOR["一般"]+'">一般</span>'+k+'日程<span class="sub2">（例年の目安）</span></td><td><span class="est">'+NAT_TYPICAL[k].apply+'</span></td><td><span class="est">'+NAT_TYPICAL[k].exam+'</span></td><td><span class="est">'+NAT_TYPICAL[k].result+'</span></td><td><span class="est">'+NAT_TYPICAL[k].proc+'</span></td><td><span class="est">17,000円</span></td></tr>').join("");
+  return '<details class="xb sch" open><summary>入試日程（出願・試験・合格発表・手続締切）'+(S.year?'<span class="sub2">'+esc(S.year.length>24?S.year.slice(0,24)+"…":S.year)+(staleYear(S.year)?'（前年度の情報）':'')+'</span>':'')+'</summary><div class="tblw"><table class="xt sched"><thead><tr><th>方式</th><th>出願</th><th>試験日</th><th>合格発表</th><th>手続締切</th><th>検定料</th></tr></thead><tbody>'+
+    rows.map(tr).join("")+estRows+'</tbody></table></div>'+
+    ((est.length||rows.some(r=>!(r.apply&&r.result&&r.proc)))?'<div class="enote">※「未掲載」は大学・河合塾などでまだ公表を確認できていない項目（自動収集で順次補います）。「例年」は国公立の標準的な日程の目安で、実際の日付は大学の募集要項で確認してください。</div>':'<div class="enote">※出願前に必ず大学の募集要項で確認してください。</div>')+'</details>';
 }
 function moneyBlock(f){
   const M=f.money; if(!M) return "";
@@ -787,7 +810,7 @@ function ocBlock(f){ const O=f.oc; if(!O) return "";
   const ev=(O.events||[]);
   return '<details class="xb" open><summary>オープンキャンパス'+(O.year?'<span class="sub2">'+esc(O.year)+'</span>':'')+'</summary>'+(ev.length?'<div class="tblw"><table class="xt"><thead><tr><th>日程</th><th>形式</th><th>内容</th></tr></thead><tbody>'+ev.map(e=>'<tr><td>'+esc(e.date||"")+'</td><td>'+esc(e.type||"")+'</td><td>'+esc(e.title||"")+(e.note?'<div class="sub2">'+esc(e.note)+'</div>':'')+'</td></tr>').join("")+'</tbody></table></div>':'')+
     (O.note?'<div class="enote">'+esc(O.note)+'</div>':'')+(O.url?'<a href="'+esc(O.url)+'" target="_blank" rel="noopener">大学のオープンキャンパス情報 ↗</a>':'')+'</details>'; }
-function extraBlocks(name){ const f=INFO[name]||{}; return ocBlock(f)+fdiffBlock(f)+ratiosBlock(name)+scheduleBlock(f)+engBlock(f)+moneyBlock(f)+sourceBlock(name); }
+function extraBlocks(name){ const f=INFO[name]||{}; return ocBlock(f)+fdiffBlock(f)+ratiosBlock(name)+engBlock(f)+moneyBlock(f)+sourceBlock(name); }
 
 // ===== 比較タブ：横並び比較・日程・受験料・手続締切 =====
 let PLAN_SEL=null;   // 比較・日程に入れる大学（候補の中から）
@@ -1337,7 +1360,7 @@ function selectUniv(name,keepView){
   const lb=document.createElementNS(SVGNS,"text"); lb.setAttribute("x",pt[0]+4); lb.setAttribute("y",pt[1]+1.8); lb.setAttribute("class","lbl"); lb.textContent=x.name;
   hl.append(ring,dot,lb); scaleMarks();
   if(!keepView) setVB([pt[0]-60,pt[1]-45,120,90]);
-  $("mpanel").innerHTML='<div class="box"><div class="ph"><h3>'+badge(x)+' '+esc(x.name)+' '+fullTag(x.name)+'</h3>'+starBtn(x.name)+'<button type="button" class="tbtn" data-trend="'+esc(x.name)+'">出題内容</button>'+hpLink(x.name)+'</div><div class="meta">'+metaPrefix(x)+esc(x.pref)+'</div><ul class="pfeat">'+x.feats.map(f=>'<li>'+esc(f)+'</li>').join("")+'</ul>'+guideBlock(x)+'<div class="newsslot">'+cardNews(x.name)+'</div>'+infoBlock(x.name)+partnerBlock(x.name)+examBlock(x.name)+extraBlocks(x.name)+reportBox(x.name)+'</div>';
+  $("mpanel").innerHTML='<div class="box"><div class="ph"><h3>'+badge(x)+' '+esc(x.name)+' '+fullTag(x.name)+'</h3>'+starBtn(x.name)+'<button type="button" class="tbtn" data-trend="'+esc(x.name)+'">出題内容</button>'+hpLink(x.name)+'</div><div class="meta">'+metaPrefix(x)+esc(x.pref)+'</div><ul class="pfeat">'+x.feats.map(f=>'<li>'+esc(f)+'</li>').join("")+'</ul>'+scheduleBlock(INFO[x.name]||{},x)+guideBlock(x)+'<div class="newsslot">'+cardNews(x.name)+'</div>'+infoBlock(x.name)+partnerBlock(x.name)+examBlock(x.name)+extraBlocks(x.name)+reportBox(x.name)+'</div>';
   MATCH=null; LAST_LIST=[]; CUR_SEL=name; renderSearchNews();
   try{ window.dispatchEvent(new CustomEvent("searchuniv:select",{detail:{name}})); }catch(e){}
   $("mresults").innerHTML=""; $("mcount").textContent=""; if(!filtersActive()) ROOT.querySelectorAll("#jmap .dot.dim").forEach(c=>c.classList.remove("dim"));
