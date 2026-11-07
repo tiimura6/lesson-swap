@@ -116,6 +116,7 @@ body.wide main,body.wide header{max-width:1320px}
 .nt-run{display:inline-flex;align-items:center;padding-right:2em}.nt-i{color:var(--ink);text-decoration:none}.nt-i:hover{text-decoration:underline}.nt-i b{color:var(--accent);margin-right:3px}.nt-i .imp{color:var(--ng);margin-right:2px}
 .nt-d{color:var(--muted);font-size:11px;margin-left:5px}.nt-sep{color:var(--line);margin:0 10px}
 @keyframes ntscroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.mlink{color:inherit;text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--accent) 45%,transparent);text-underline-offset:2px}.mlink:hover{color:var(--accent)}.mli{display:inline-block;margin-left:4px;font-size:10px;font-weight:700;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:0 3px;vertical-align:1px;text-decoration:none}
 .kyf{color:var(--ink) !important}.kyf b{color:var(--accent);font-weight:600}.kypart{display:inline-block;margin-left:6px;font-size:10.5px;font-weight:700;color:#9a6b00;border:1px solid #c99700;border-radius:999px;padding:0 6px}
 .sbar select#mby{flex:0 0 auto;max-width:9.5em;font-family:inherit;font-size:13px;border:1px solid var(--line);border-radius:8px;padding:7px 6px;background:var(--panel);color:var(--ink)}
 .skind{display:inline-block;margin-left:6px;font-size:10.5px;font-weight:700;border-radius:999px;padding:0 6px;border:1px solid}.skind.g{color:#2a7f62;border-color:#2a7f62}.skind.l{color:#6b7280;border-color:#9ca3af}
@@ -484,7 +485,7 @@ function subjectsBlock(name){
   const S=(INFO[name]||{}).subjects; if(!S||!(S.rows||[]).length) return "";
   const fs=[...new Set(S.rows.map(r=>r.f||""))];
   const body=fs.map(f=>{ const R=S.rows.filter(r=>(r.f||"")===f);
-    return R.map((r,i)=>'<tr data-f="'+esc(f)+'">'+(i===0?'<th rowspan="'+R.length+'" class="sf">'+esc(f||"（全学部共通）")+'</th>':'')+'<td><span class="ktag" style="background:'+(KUBUN_COLOR[r.kubun]||"#4b5563")+'">'+esc(r.kubun||"")+'</span>'+esc(r.name||"")+'</td><td class="sn">'+(r.n?'<b>'+esc(r.n)+'</b>教科':'')+'</td><td>'+esc(r.subj||"")+(r.note?'<div class="sub2">'+esc(r.note)+'</div>':'')+'</td><td>'+esc(r.kt||"")+'</td><td>'+esc(r.eng||"")+'</td></tr>').join(""); }).join("");
+    return R.map((r,i)=>'<tr data-f="'+esc(f)+'">'+(i===0?'<th rowspan="'+R.length+'" class="sf">'+esc(f||"（全学部共通）")+'</th>':'')+'<td><span class="ktag" style="background:'+(KUBUN_COLOR[r.kubun]||"#4b5563")+'">'+esc(r.kubun||"")+'</span>'+mlink(r,r.name||"")+'</td><td class="sn">'+(r.n?'<b>'+esc(r.n)+'</b>教科':'')+'</td><td>'+esc(r.subj||"")+(r.note?'<div class="sub2">'+esc(r.note)+'</div>':'')+'</td><td>'+esc(r.kt||"")+'</td><td>'+esc(r.eng||"")+'</td></tr>').join(""); }).join("");
   const mins=S.rows.filter(r=>+r.n).map(r=>+r.n);
   return '<details class="xb" open><summary>学部・方式ごとの入試科目（'+S.rows.length+'通り）'+(S.year?'<span class="sub2">'+esc(S.year)+'</span>':'')+'</summary>'+
     (fs.length>1?'<div class="sfilt2"><select class="subj-f"><option value="">すべての学部</option>'+fs.map(f=>'<option>'+esc(f)+'</option>').join("")+'</select>'+(mins.length?'<span class="sub2">最少 '+Math.min(...mins)+'教科〜最多 '+Math.max(...mins)+'教科（学部・方式で違う）</span>':'')+'</div>':'')+
@@ -492,19 +493,22 @@ function subjectsBlock(name){
 }
 ROOT.addEventListener("change",e=>{ const sel=e.target.closest&&e.target.closest(".subj-f"); if(!sel) return; const box=sel.closest("details");
   box.querySelectorAll("tr[data-f]").forEach(tr=>tr.hidden=!!sel.value&&tr.dataset.f!==sel.value); });
+// 方式名に募集要項・入試ページへのリンクを付ける（url が集まった方式だけ。PDFはその旨を表示）
+function mlink(r,label){ const u=r&&r.url; label=esc(label); if(!u||!/^https?:\/\//.test(u)) return label;
+  return '<a class="mlink" href="'+esc(u)+'" target="_blank" rel="noopener" title="募集要項・入試ページを開く">'+label+'<span class="mli">'+(/\.pdf(\?|#|$)/i.test(u)?'PDF':'↗')+'</span></a>'; }
 function methodsHTML(name){
   const m=(INFO[name]||{}).methods; if(!m||!(m.list||[]).length) return "";
   let h='<div class="meth"><div class="exam-h">入試方式'+(m.year?'<span class="yr">（'+esc(m.year)+'）</span>':'')+'</div>';
   if(m.summary) h+='<div class="msum">'+esc(m.summary)+'</div>';
   for(const r of m.list){
     const parts=[];
-    if(hiddenShitei(r)){ h+='<div class="mrow"><div class="mh"><span class="ktag" style="background:'+(KUBUN_COLOR[r.kubun]||"#4b5563")+'">'+esc(r.kubun||"")+'</span>'+esc(r.name||"")+'</div><div class="md"><span><b>内容</b> 非公開（在籍高校に届く要項で確認）</span></div></div>'; continue; }
+    if(hiddenShitei(r)){ h+='<div class="mrow"><div class="mh"><span class="ktag" style="background:'+(KUBUN_COLOR[r.kubun]||"#4b5563")+'">'+esc(r.kubun||"")+'</span>'+mlink(r,r.name||"")+'</div><div class="md"><span><b>内容</b> 非公開（在籍高校に届く要項で確認）</span></div></div>'; continue; }
     if(r.kyotsu) parts.push('<span><b>共テ</b> '+esc(r.kyotsu)+'</span>');
     if(r.niji) parts.push('<span><b>'+(/国立|公立/.test((items.find(x=>x.name===name)||{}).type||"")?"二次":"個別")+'</b> '+esc(r.niji)+'</span>');
     if(r.content) parts.push('<span><b>選考</b> '+esc(r.content)+'</span>');
     if(r.haiten) parts.push('<span><b>配点</b> '+esc(r.haiten)+'</span>');
     if(r.req) parts.push('<span><b>条件</b> '+esc(r.req)+'</span>');
-    h+='<div class="mrow"><div class="mh"><span class="ktag" style="background:'+(KUBUN_COLOR[r.kubun]||"#4b5563")+'">'+esc(r.kubun||"")+'</span>'+esc(r.name||"")+'</div>'+(parts.length?'<div class="md">'+parts.join("")+'</div>':'')+(r.note?'<div class="mn">'+esc(r.note)+'</div>':'')+'</div>';
+    h+='<div class="mrow"><div class="mh"><span class="ktag" style="background:'+(KUBUN_COLOR[r.kubun]||"#4b5563")+'">'+esc(r.kubun||"")+'</span>'+mlink(r,r.name||"")+'</div>'+(parts.length?'<div class="md">'+parts.join("")+'</div>':'')+(r.note?'<div class="mn">'+esc(r.note)+'</div>':'')+'</div>';
   }
   if(m.note) h+='<div class="enote">※'+esc(m.note)+'</div>';
   return h+'</div>';
@@ -758,7 +762,7 @@ function scheduleBlock(f,x){
     if(ae!=null&&ae>=T){ const n=dd(ae); return '<span class="st soon'+(n<=14?' hot':'')+'">出願締切まで'+n+'日</span>'; }
     if(ex!=null&&ex>=T){ return '<span class="st">試験まで'+dd(ex)+'日</span>'; }
     return ""; };
-  const tr=r=>'<tr class="'+(mdLast(r.proc)!=null&&mdLast(r.proc)<T?'past':'')+'"><td><span class="ktag" style="background:'+(KUBUN_COLOR[r.kubun]||"#4b5563")+'">'+esc(r.kubun||"")+'</span>'+esc(r.name||"")+' '+stat(r)+(r.note?'<div class="sub2">'+esc(r.note)+'</div>':'')+'</td><td>'+cell(r.apply,"apply",r)+'</td><td>'+cell(r.exam,"exam",r)+'</td><td>'+cell(r.result,"result",r)+'</td><td>'+cell(r.proc,"proc",r)+'</td><td>'+(r.fee!=null?yen0(r.fee):'<span class="na2">—</span>')+'</td></tr>';
+  const tr=r=>'<tr class="'+(mdLast(r.proc)!=null&&mdLast(r.proc)<T?'past':'')+'"><td><span class="ktag" style="background:'+(KUBUN_COLOR[r.kubun]||"#4b5563")+'">'+esc(r.kubun||"")+'</span>'+mlink(r,r.name||"")+' '+stat(r)+(r.note?'<div class="sub2">'+esc(r.note)+'</div>':'')+'</td><td>'+cell(r.apply,"apply",r)+'</td><td>'+cell(r.exam,"exam",r)+'</td><td>'+cell(r.result,"result",r)+'</td><td>'+cell(r.proc,"proc",r)+'</td><td>'+(r.fee!=null?yen0(r.fee):'<span class="na2">—</span>')+'</td></tr>';
   const estRows=est.filter(k=>!rows.some(z=>z.kubun==="一般"&&(z.name||"").includes(k))).map(k=>'<tr class="estrow"><td><span class="ktag" style="background:'+KUBUN_COLOR["一般"]+'">一般</span>'+k+'日程<span class="sub2">（例年の目安）</span></td><td><span class="est">'+NAT_TYPICAL[k].apply+'</span></td><td><span class="est">'+NAT_TYPICAL[k].exam+'</span></td><td><span class="est">'+NAT_TYPICAL[k].result+'</span></td><td><span class="est">'+NAT_TYPICAL[k].proc+'</span></td><td><span class="est">17,000円</span></td></tr>').join("");
   return '<details class="xb sch" open><summary>入試日程（出願・試験・合格発表・手続締切）'+(S.year?'<span class="sub2">'+esc(S.year.length>24?S.year.slice(0,24)+"…":S.year)+(staleYear(S.year)?'（前年度の情報）':'')+'</span>':'')+'</summary><div class="tblw"><table class="xt sched"><thead><tr><th>方式</th><th>出願</th><th>試験日</th><th>合格発表</th><th>手続締切</th><th>検定料</th></tr></thead><tbody>'+
     rows.map(tr).join("")+estRows+'</tbody></table></div>'+
