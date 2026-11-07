@@ -3739,41 +3739,6 @@
 "cat": "private"
 },
 {
-"name": "高松大学",
-"type": "私立",
-"pref": "香川県",
-"hp": "https://www.takamatsu-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "高知健康科学大学",
-"type": "私立",
-"pref": "高知県",
-"hp": "https://ko-ken-k3.ac.jp/",
-"cat": "private"
-},
-{
-"name": "高知学園大学",
-"type": "私立",
-"pref": "高知県",
-"hp": "https://kochi-gu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "鳥取看護大学",
-"type": "私立",
-"pref": "鳥取県",
-"hp": "https://www.tcn.ac.jp/",
-"cat": "private"
-},
-{
-"name": "中村学園大学",
-"type": "私立",
-"pref": "福岡県",
-"hp": "https://www.nakamura-u.ac.jp/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -4511,6 +4476,36 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "高松大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "高知健康科学大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "高知学園大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "鳥取看護大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "中村学園大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "福山大学",
 "need": [
@@ -17319,6 +17314,126 @@
 },
 {
 "name": "至誠館大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "高松大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "高松大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "高松大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "高松大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "高知健康科学大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "高知健康科学大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "高知健康科学大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "高知健康科学大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "高知学園大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "高知学園大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "高知学園大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "高知学園大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "鳥取看護大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "鳥取看護大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "鳥取看護大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "鳥取看護大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "中村学園大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "中村学園大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "中村学園大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "中村学園大学",
 "need": [
 "scholar"
 ]
