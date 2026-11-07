@@ -3858,41 +3858,6 @@
 "cat": "private"
 },
 {
-"name": "久留米大学",
-"type": "私立",
-"pref": "福岡県",
-"hp": "https://www.kurume-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "久留米工業大学",
-"type": "私立",
-"pref": "福岡県",
-"hp": "https://www.kurume-it.ac.jp/",
-"cat": "private"
-},
-{
-"name": "九州ルーテル学院大学",
-"type": "私立",
-"pref": "熊本県",
-"hp": "https://www.klc.ac.jp/",
-"cat": "private"
-},
-{
-"name": "九州共立大学",
-"type": "私立",
-"pref": "福岡県",
-"hp": "https://www.kyukyo-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "九州医療科学大学",
-"type": "私立",
-"pref": "宮崎県",
-"hp": "https://www.phoenix.ac.jp/",
-"cat": "private"
-},
-{
 "name": "九州国際大学",
 "type": "私立",
 "pref": "福岡県",
@@ -4637,6 +4602,36 @@
 "沖縄大学": 1
 },
 "enrich": [
+{
+"name": "久留米大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "久留米工業大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "九州ルーテル学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "九州共立大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "九州医療科学大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "熊本保健科学大学",
 "need": [
@@ -16941,6 +16936,126 @@
 "name": "沖縄大学",
 "need": [
 "verify"
+]
+},
+{
+"name": "久留米大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "久留米大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "久留米大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "久留米大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "久留米工業大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "久留米工業大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "久留米工業大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "久留米工業大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "九州ルーテル学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "九州ルーテル学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "九州ルーテル学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "九州ルーテル学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "九州共立大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "九州共立大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "九州共立大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "九州共立大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "九州医療科学大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "九州医療科学大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "九州医療科学大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "九州医療科学大学",
+"need": [
+"scholar"
 ]
 }
 ],

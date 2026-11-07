@@ -66,6 +66,11 @@ def main(path):
             v = info[k]
             if isinstance(v, dict) and not any(x not in (None, '', [], {}) for z, x in v.items() if z != 'year'):
                 info.pop(k)
+        # 方式名の「※…」は見づらいので（…）に直す
+        for k, z in (('schedule', 'rows'), ('methods', 'list'), ('subjects', 'rows')):
+            for row in ((info.get(k) or {}).get(z) or []):
+                if isinstance(row, dict) and isinstance(row.get("name"), str) and "※" in row["name"]:
+                    row['name'] = re.sub(r'\s*※\s*(.+)$', r'（\1）', row['name'])
         # 中身が空の入れ物（rows/list/events が空）は落とす
         for k in list(info):
             v = info[k]
