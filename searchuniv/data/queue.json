@@ -1765,13 +1765,6 @@
 "cat": "private"
 },
 {
-"name": "石巻専修大学",
-"type": "私立",
-"pref": "宮城県",
-"hp": "https://www.senshu-u.ac.jp/ishinomaki/",
-"cat": "private"
-},
-{
 "name": "福島学院大学",
 "type": "私立",
 "pref": "福島県",
@@ -2867,6 +2860,12 @@
 "名城大学": 1
 },
 "enrich": [
+{
+"name": "石巻専修大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "人間環境大学",
 "need": [
@@ -23080,6 +23079,30 @@
 "extra",
 "partners",
 "careers"
+]
+},
+{
+"name": "石巻専修大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "石巻専修大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "石巻専修大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "石巻専修大学",
+"need": [
+"scholar"
 ]
 }
 ],

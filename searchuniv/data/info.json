@@ -135770,5 +135770,139 @@ null
 "https://search.keinet.ne.jp/1648/general/border_rate",
 "https://search.keinet.ne.jp/1648/outline/campus"
 ]
+},
+"石巻専修大学": {
+"faculties": [
+"理工学部",
+"経営学部",
+"人間学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"difficulty": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "理工学部",
+"d": [
+"創造工学科",
+"生物科学科"
+]
+},
+{
+"f": "経営学部",
+"d": [
+"経営学科"
+]
+},
+{
+"f": "人間学部",
+"d": [
+"人間文化学科",
+"人間教育学科"
+]
+}
+],
+"difficulty": {
+"hensachi": "BF〜35.0",
+"kyotei": "38%〜47%",
+"year": "2027年度入試用"
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜A日程",
+"apply": "1/4〜1/15",
+"exam": "1/16・1/17（共テ）",
+"result": "2/10",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜C日程",
+"apply": "2/10〜2/25",
+"exam": "1/16・1/17（共テ）",
+"result": "3/5",
+"proc": null,
+"fee": null
+}
+]
+},
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "理工学部 生物科学科",
+"admission": 230000,
+"tuition": 968000,
+"facility": 353000,
+"practical": 0,
+"other": 30000,
+"first_year": 1581000,
+"four_year": null
+},
+{
+"f": "経営学部 経営学科",
+"admission": 230000,
+"tuition": 700000,
+"facility": 243000,
+"practical": 0,
+"other": 30000,
+"first_year": 1203000,
+"four_year": null
+},
+{
+"f": "経営学部 情報マネジメント系",
+"admission": 230000,
+"tuition": 700000,
+"facility": 280000,
+"practical": 0,
+"other": 30000,
+"first_year": 1240000,
+"four_year": null
+},
+{
+"f": "人間学部 人間文化学科",
+"admission": 230000,
+"tuition": 700000,
+"facility": 313000,
+"practical": 0,
+"other": 30000,
+"first_year": 1273000,
+"four_year": null
+},
+{
+"f": "人間学部 人間教育学科",
+"admission": 230000,
+"tuition": 710000,
+"facility": 333000,
+"practical": 0,
+"other": 30000,
+"first_year": 1303000,
+"four_year": null
+}
+]
+},
+"access": "宮城県石巻市南境新水戸1番地（JR石巻駅よりバス等）",
+"careers": "2026年3月卒業生 就職決定率100%、公務員就職者30名（教員・保育士・幼稚園教諭含む）",
+"_via": "external-ai",
+"sources": [
+"https://www.senshu-u.ac.jp/ishinomaki/admission/senbatsu/seido/dnc_test_A.html",
+"https://www.senshu-u.ac.jp/ishinomaki/admission/senbatsu/seido/dnc_test_C.html",
+"https://www.senshu-u.ac.jp/ishinomaki/career/careersupport/data.html",
+"https://search.keinet.ne.jp/2054/outline/expense",
+"https://search.keinet.ne.jp/2054/general/border_rate",
+"https://passnavi.obunsha.co.jp/univ/1740/difficulty/",
+"https://passnavi.obunsha.co.jp/univ/1740/expense/"
+]
 }
 }
