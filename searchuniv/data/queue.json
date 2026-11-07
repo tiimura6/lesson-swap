@@ -1765,41 +1765,6 @@
 "cat": "private"
 },
 {
-"name": "福島学院大学",
-"type": "私立",
-"pref": "福島県",
-"hp": "http://www.fukushima-college.ac.jp/",
-"cat": "private"
-},
-{
-"name": "秋田看護福祉大学",
-"type": "私立",
-"pref": "秋田県",
-"hp": "https://www.well.ac.jp/",
-"cat": "private"
-},
-{
-"name": "育英館大学",
-"type": "私立",
-"pref": "北海道",
-"hp": "https://www.ikueikan.ac.jp/",
-"cat": "private"
-},
-{
-"name": "藤女子大学",
-"type": "私立",
-"pref": "北海道",
-"hp": "https://www.fujijoshi.ac.jp/",
-"cat": "private"
-},
-{
-"name": "郡山女子大学",
-"type": "私立",
-"pref": "福島県",
-"hp": "https://www.koriyama-kgc.ac.jp/",
-"cat": "private"
-},
-{
 "name": "酪農学園大学",
 "type": "私立",
 "pref": "北海道",
@@ -2860,6 +2825,36 @@
 "名城大学": 1
 },
 "enrich": [
+{
+"name": "福島学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "秋田看護福祉大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "育英館大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "藤女子大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "郡山女子大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "石巻専修大学",
 "need": [
@@ -23101,6 +23096,126 @@
 },
 {
 "name": "石巻専修大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "福島学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "福島学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "福島学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "福島学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "秋田看護福祉大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "秋田看護福祉大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "秋田看護福祉大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "秋田看護福祉大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "育英館大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "育英館大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "育英館大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "育英館大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "藤女子大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "藤女子大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "藤女子大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "藤女子大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "郡山女子大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "郡山女子大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "郡山女子大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "郡山女子大学",
 "need": [
 "scholar"
 ]
