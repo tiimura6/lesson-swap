@@ -2640,41 +2640,6 @@
 "cat": "private"
 },
 {
-"name": "京都医療科学大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "https://www.kyoto-msc.jp/",
-"cat": "private"
-},
-{
-"name": "京都外国語大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "https://www.kufs.ac.jp/",
-"cat": "private"
-},
-{
-"name": "京都女子大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "https://www.kyoto-wu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "京都文教大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "https://www.kbu.ac.jp/kbu/",
-"cat": "private"
-},
-{
-"name": "京都橘大学",
-"type": "私立",
-"pref": "京都府",
-"hp": "https://www.tachibana-u.ac.jp/",
-"cat": "private"
-},
-{
 "name": "京都産業大学",
 "type": "私立",
 "pref": "京都府",
@@ -3472,6 +3437,36 @@
 "長野県立大学": 1
 },
 "enrich": [
+{
+"name": "京都医療科学大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "京都外国語大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "京都女子大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "京都文教大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "京都橘大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "千里金蘭大学",
 "need": [
@@ -20558,6 +20553,126 @@
 },
 {
 "name": "四天王寺大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "京都医療科学大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "京都医療科学大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "京都医療科学大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "京都医療科学大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "京都外国語大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "京都外国語大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "京都外国語大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "京都外国語大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "京都女子大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "京都女子大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "京都女子大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "京都女子大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "京都文教大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "京都文教大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "京都文教大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "京都文教大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "京都橘大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "京都橘大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "京都橘大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "京都橘大学",
 "need": [
 "scholar"
 ]
