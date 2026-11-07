@@ -2857,41 +2857,6 @@
 "cat": "private"
 },
 {
-"name": "大阪信愛学院大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.osgu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "大阪医科薬科大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.omp.ac.jp/",
-"cat": "private"
-},
-{
-"name": "大阪商業大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://ouc.daishodai.ac.jp/",
-"cat": "private"
-},
-{
-"name": "大阪国際大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.oiu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "大阪国際工科専門職大学",
-"type": "私立",
-"pref": "大阪府",
-"hp": "https://www.iput.ac.jp/osaka",
-"cat": "senmon"
-},
-{
 "name": "大阪大谷大学",
 "type": "私立",
 "pref": "大阪府",
@@ -3689,6 +3654,36 @@
 "長野県立大学": 1
 },
 "enrich": [
+{
+"name": "大阪信愛学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "大阪医科薬科大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "大阪商業大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "大阪国際大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "大阪国際工科専門職大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "大阪経済大学",
 "need": [
@@ -19907,6 +19902,126 @@
 "need": [
 "extra",
 "partners"
+]
+},
+{
+"name": "大阪信愛学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大阪信愛学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪信愛学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪信愛学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大阪医科薬科大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大阪医科薬科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪医科薬科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪医科薬科大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大阪商業大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大阪商業大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪商業大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪商業大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大阪国際大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大阪国際大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪国際大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪国際大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "大阪国際工科専門職大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "大阪国際工科専門職大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪国際工科専門職大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪国際工科専門職大学",
+"need": [
+"scholar"
 ]
 }
 ],

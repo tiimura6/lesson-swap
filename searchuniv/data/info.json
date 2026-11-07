@@ -111054,5 +111054,678 @@ null
 "https://search.keinet.ne.jp/1595/outline/admission_employment",
 "https://search.keinet.ne.jp/1595/general/exam_subject"
 ]
+},
+"大阪信愛学院大学": {
+"faculties": [
+"教育学部",
+"看護学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"difficulty": "2026-11-07",
+"kyotsu": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "教育学部",
+"d": [
+"教育学科（こども教育コース、初等教育コース）"
+]
+},
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+}
+],
+"difficulty": {
+"hensachi": "35.0〜40.0",
+"kyotei": "56%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "大学入学共通テスト利用型を実施",
+"kyoka": [
+null,
+null
+],
+"note": null
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜（前期・後期）",
+"kyotsu": "課さない",
+"niji": "各学部指定科目",
+"content": null,
+"req": "高等学校卒業（見込）等",
+"url": "https://www.osgu.ac.jp/admissions/guidelines/ippan_early/"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用型",
+"kyotsu": "指定教科・科目",
+"niji": null,
+"content": null,
+"req": "高等学校卒業（見込）等",
+"url": "https://www.best-shingaku.net/special/fa_p015nyushicalendar_list.php?daigakucode=3682"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 前期",
+"apply": "1/6〜1/20",
+"exam": "1/27",
+"result": "2/5（通知発送）",
+"proc": "1次2/22・2次3/12",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期",
+"apply": "2/9〜3/1",
+"exam": "3/7",
+"result": "3/12",
+"proc": null,
+"fee": null
+}
+]
+},
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "教育学部 教育学科",
+"admission": 250000,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1450810,
+"four_year": null
+},
+{
+"f": "看護学部 看護学科",
+"admission": 250000,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1951520,
+"four_year": null
+}
+]
+},
+"access": "大阪府大阪市城東区古市2-7-30",
+"careers": "保育士、幼稚園教諭、小学校教諭、看護師、保健師など。",
+"_via": "external-ai",
+"sources": [
+"https://www.osgu.ac.jp/",
+"https://www.osgu.ac.jp/admissions/guidelines/ippan_early/",
+"https://www.best-shingaku.net/special/fa_p015nyushicalendar_list.php?daigakucode=3682",
+"https://shingakunet.com/gakko/SC006744/gakuhi/",
+"https://passnavi.obunsha.co.jp/univ/4183/difficulty/"
+]
+},
+"大阪医科薬科大学": {
+"faculties": [
+"医学部",
+"薬学部",
+"看護学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"difficulty": "2026-11-07",
+"kyotsu": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "医学部",
+"d": [
+"医学科（6年制）"
+]
+},
+{
+"f": "薬学部",
+"d": [
+"薬学科（6年制）"
+]
+},
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+}
+],
+"difficulty": {
+"hensachi": "45.0〜67.5",
+"kyotei": "59%〜87%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "医学部・薬学部（3教科4科目／5教科7科目）・看護学部で共通テスト利用を実施",
+"kyoka": [
+3,
+5
+],
+"note": null
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "医学部 一般選抜（前期・後期・大阪府地域枠）",
+"kyotsu": "課さない",
+"niji": "1次学力試験・2次面接小論文等",
+"content": null,
+"req": "大阪府地域枠は認可申請中",
+"url": "https://www.ompu.ac.jp/admission/undergraduate/medical/qt931k0000005db0-att/cc9f84000000fmbf.pdf"
+},
+{
+"kubun": "一般",
+"name": "薬学部 一般入学試験（A・B 2科目型/3科目型）",
+"kyotsu": "課さない",
+"niji": "化学・英語・数学等",
+"content": null,
+"req": "高等学校卒業（見込）等",
+"url": "https://www.ompu.ac.jp/admission/undergraduate/pharm/qt931k0000000uii-att/of2vmg000000pnnt.pdf"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用入学試験（薬・医・看護）",
+"kyotsu": "3〜5教科",
+"niji": null,
+"content": null,
+"req": "薬・看護は個別試験なし",
+"url": "https://www.ompu.ac.jp/admission/undergraduate/qt931k000000803s-att/hvetv40000005r2s.pdf"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "薬学部 一般入学試験A",
+"apply": "1/6〜1/22",
+"exam": "2/1",
+"result": "2/6",
+"proc": "1次2/12・2次3/16",
+"fee": 35000
+},
+{
+"kubun": "一般",
+"name": "薬学部 一般入学試験B（2科目型・3科目型）",
+"apply": "1/6〜2/9",
+"exam": "2/16",
+"result": "2/26",
+"proc": "1次3/11・2次3/16",
+"fee": 35000
+},
+{
+"kubun": "共テ利用",
+"name": "薬学部 大学入学共通テスト利用（3教科型・5教科型）",
+"apply": "1/6〜1/20",
+"exam": "1/16・1/17（共テ）",
+"result": "2/18",
+"proc": "1次2/25・2次3/16",
+"fee": 20000
+},
+{
+"kubun": "一般",
+"name": "看護学部 一般選抜",
+"apply": "12/9〜1/15",
+"exam": "2/6・2/7",
+"result": null,
+"proc": "1次2/26・2次3/12",
+"fee": 35000
+}
+]
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "医学部 医学科（6年制）",
+"admission": 1000000,
+"tuition": 1880000,
+"facility": 1260000,
+"practical": 345000,
+"other": 1500000,
+"first_year": 5985000,
+"four_year": null
+}
+]
+},
+"access": "本部キャンパス（大阪府高槻市大学町2-7）・阿武山キャンパス（薬学部）",
+"careers": "医師、薬剤師、看護師、保健師など。",
+"_via": "external-ai",
+"sources": [
+"https://www.omp.ac.jp/",
+"https://www.ompu.ac.jp/admission/undergraduate/medical/qt931k0000005db0-att/cc9f84000000fmbf.pdf",
+"https://www.ompu.ac.jp/admission/undergraduate/pharm/qt931k0000000uii-att/of2vmg000000pnnt.pdf",
+"https://www.ompu.ac.jp/admission/undergraduate/qt931k000000805t-att/afif3u000000ft3b.pdf",
+"https://www.ompu.ac.jp/admission/undergraduate/qt931k000000803s-att/hvetv40000005r2s.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/3627/gakuhi/",
+"https://passnavi.obunsha.co.jp/univ/4070/difficulty/"
+]
+},
+"大阪商業大学": {
+"faculties": [
+"経済学部",
+"総合経営学部",
+"公共学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"difficulty": "2026-11-07",
+"kyotsu": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"scholar": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "経済学部",
+"d": [
+"経済学科"
+]
+},
+{
+"f": "総合経営学部",
+"d": [
+"経営学科",
+"商学科"
+]
+},
+{
+"f": "公共学部",
+"d": [
+"公共学科"
+]
+}
+],
+"difficulty": {
+"hensachi": "35.0〜45.0",
+"kyotei": "52%〜57%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "3科目判定方式（前期・後期）を実施",
+"kyoka": [
+3,
+3
+],
+"note": null
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般入学試験（前期・後期 ベスト2科目方式）",
+"kyotsu": "課さない",
+"niji": "高得点2科目判定",
+"content": null,
+"req": "前期は2/1・2/2の自由選択制",
+"url": "https://telemail.jp/shingaku/university/10001558/examination/general"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用（前期・後期 3科目判定方式）",
+"kyotsu": "3科目",
+"niji": null,
+"content": null,
+"req": "高等学校卒業（見込）等",
+"url": "https://telemail.jp/shingaku/university/10001558/examination/general"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般入学試験 前期（ベスト2科目方式）",
+"apply": "1/4〜1/21",
+"exam": "2/1・2/2",
+"result": "2/13",
+"proc": "3/3",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般入学試験 後期（ベスト2科目方式）",
+"apply": "2/13〜2/24",
+"exam": "3/4・3/5",
+"result": "3/12",
+"proc": "3/18",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用 前期（3科目判定方式）",
+"apply": "1/4〜1/21",
+"exam": "1/16・1/17（共テ）",
+"result": "2/13",
+"proc": "3/3",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用 後期（3科目判定方式）",
+"apply": "2/13〜2/24",
+"exam": "1/16・1/17（共テ）",
+"result": "3/12",
+"proc": "3/18",
+"fee": null
+}
+]
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "全学部（経済・総合経営・公共）",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": 0,
+"other": null,
+"first_year": 1320000,
+"four_year": 4550000
+}
+]
+},
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "共通テスト利用入試成績優秀者給付",
+"kind": "給付",
+"target": "全学部",
+"amount": "740,000円（授業料相当額）",
+"timing": "入試時",
+"cond": "大学入学共通テスト利用 前期・後期の成績優秀者"
+}
+]
+},
+"access": "大阪府東大阪市御厨栄町4-1-10",
+"careers": "一般企業、金融・商社、公務員など。",
+"_via": "external-ai",
+"sources": [
+"https://ouc.daishodai.ac.jp/",
+"https://telemail.jp/shingaku/university/10001558/examination/general",
+"https://www.best-shingaku.net/smt/gakuhi2259.html",
+"https://passnavi.obunsha.co.jp/univ/4180/difficulty/"
+]
+},
+"大阪国際大学": {
+"faculties": [
+"グローバルビジネス学部",
+"国際教養学部",
+"人間科学部",
+"経営経済学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"difficulty": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"scholar": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "グローバルビジネス学部",
+"d": [
+"グローバルビジネス学科"
+]
+},
+{
+"f": "国際教養学部",
+"d": [
+"国際コミュニケーション学科"
+]
+},
+{
+"f": "人間科学部",
+"d": [
+"人間健康科学科",
+"スポーツ行動学科",
+"心理コミュニケーション学科"
+]
+},
+{
+"f": "経営経済学部",
+"d": [
+"経営学科",
+"経済学科"
+]
+}
+],
+"difficulty": {
+"hensachi": "35.0〜40.0",
+"kyotei": null,
+"year": "2027年度入試用"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜（前期日程・後期日程・ラストチャレンジ日程）",
+"kyotsu": "課さない",
+"niji": "各学部指定科目",
+"content": null,
+"req": "前期2日間連続受験で検定料割引あり",
+"url": "https://oiuvoice.com/assets/pdf/examination/2027-nyushiguide.pdf"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 前期日程",
+"apply": null,
+"exam": "2/5・2/6",
+"result": null,
+"proc": null,
+"fee": 30000
+}
+]
+},
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "全学部（グローバルビジネス・国際教養・人間科学・経営経済）",
+"admission": 280000,
+"tuition": 1140000,
+"facility": 0,
+"practical": 0,
+"other": 65000,
+"first_year": 1485000,
+"four_year": null
+}
+]
+},
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "特待生制度",
+"kind": "減免",
+"target": "全学部",
+"amount": "最長4年間授業料全額または半額免除",
+"timing": "入試時",
+"cond": "一般選抜の科目試験において所定の得点を獲得した者"
+}
+]
+},
+"access": "大阪府守口市藤田町6-21-57",
+"careers": "一般企業、観光・エアライン業界、スポーツ指導者、教員、公務員など。",
+"_via": "external-ai",
+"sources": [
+"https://www.oiu.ac.jp/",
+"https://oiuvoice.com/examination/expense/",
+"https://oiuvoice.com/examination/personnel/",
+"https://oiuvoice.com/assets/pdf/examination/2027-nyushiguide.pdf",
+"https://passnavi.obunsha.co.jp/univ/4140/difficulty/?facultyID=020"
+]
+},
+"大阪国際工科専門職大学": {
+"faculties": [
+"工科学部"
+],
+"_checked": {
+"faculties": "2026-11-07",
+"departments": "2026-11-07",
+"difficulty": "2026-11-07",
+"methods": "2026-11-07",
+"schedule": "2026-11-07",
+"money": "2026-11-07",
+"access": "2026-11-07",
+"careers": "2026-11-07",
+"_via": "2026-11-07"
+},
+"departments": [
+{
+"f": "工科学部",
+"d": [
+"情報工学科（AI戦略コース、IoTシステムコース、ロボット開発コース）",
+"デジタルエンタテインメント学科（ゲームプロデュースコース、CGアニメーションコース）"
+]
+}
+],
+"difficulty": {
+"hensachi": "35.0",
+"kyotei": null,
+"year": "2027年度入試用"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜〈専願・併願〉（第2回・第3回）",
+"kyotsu": "課さない",
+"niji": "学科指定選考",
+"content": null,
+"req": "専願・併願選択可",
+"url": "https://www.iput.ac.jp/admission/general/"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜〈専願・併願〉（第1回〜第4回）",
+"kyotsu": "課さない",
+"niji": null,
+"content": "書類・面接等",
+"req": "専願・併願選択可",
+"url": "https://www.iput.ac.jp/admission/comprehensive/"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜 第3回",
+"apply": "10/26〜11/21",
+"exam": "11/29",
+"result": null,
+"proc": null,
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 第2回",
+"apply": "2/1〜2/9",
+"exam": "2/14",
+"result": "2/18",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 第3回",
+"apply": "2/15〜3/2",
+"exam": "3/7",
+"result": "3/10",
+"proc": null,
+"fee": null
+}
+]
+},
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "工科学部 情報工学科（大阪キャンパス）",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1810000,
+"four_year": null
+},
+{
+"f": "工科学部 デジタルエンタテインメント学科（大阪キャンパス）",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1890000,
+"four_year": null
+}
+]
+},
+"access": "大阪キャンパス（大阪府大阪市北区梅田3-3-1）",
+"careers": "IT・AIエンジニア、IoT・ロボット開発者、ゲームクリエイター、CGアニメーターなど。",
+"_via": "external-ai",
+"sources": [
+"https://www.iput.ac.jp/osaka",
+"https://www.iput.ac.jp/admission/general/",
+"https://www.iput.ac.jp/admission/comprehensive/",
+"https://passnavi.obunsha.co.jp/univ/9215/expense/",
+"https://search.keinet.ne.jp/2113/general/border_rate"
+]
 }
 }
