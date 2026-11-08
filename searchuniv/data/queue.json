@@ -1373,41 +1373,6 @@
 "cat": "private"
 },
 {
-"name": "札幌国際大学",
-"type": "私立",
-"pref": "北海道",
-"hp": "https://www.siu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "札幌大学",
-"type": "私立",
-"pref": "北海道",
-"hp": "https://www.sapporo-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "札幌大谷大学",
-"type": "私立",
-"pref": "北海道",
-"hp": "https://www.sapporo-otani.ac.jp/",
-"cat": "private"
-},
-{
-"name": "札幌学院大学",
-"type": "私立",
-"pref": "北海道",
-"hp": "https://www.sgu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "東北医科薬科大学",
-"type": "私立",
-"pref": "宮城県",
-"hp": "https://www.tohoku-mpu.ac.jp/",
-"cat": "private"
-},
-{
 "name": "東北学院大学",
 "type": "私立",
 "pref": "宮城県",
@@ -3941,6 +3906,36 @@
 "静岡県立農林環境専門職大学": 1
 },
 "enrich": [
+{
+"name": "札幌国際大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "札幌大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "札幌大谷大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "札幌学院大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "東北医科薬科大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "日本医療大学",
 "need": [
@@ -23688,6 +23683,126 @@
 "need": [
 "extra",
 "partners"
+]
+},
+{
+"name": "札幌国際大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "札幌国際大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "札幌国際大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "札幌国際大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "札幌大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "札幌大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "札幌大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "札幌大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "札幌大谷大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "札幌大谷大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "札幌大谷大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "札幌大谷大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "札幌学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "札幌学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "札幌学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "札幌学院大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "東北医科薬科大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "東北医科薬科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "東北医科薬科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "東北医科薬科大学",
+"need": [
+"scholar"
 ]
 }
 ],

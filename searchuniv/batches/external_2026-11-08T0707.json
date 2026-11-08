@@ -1,0 +1,983 @@
+[
+ {
+  "name": "札幌国際大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "北海道札幌市",
+  "pref_name": "北海道",
+  "city": "札幌市",
+  "hp": "https://www.siu.ac.jp/",
+  "reading": "さっぽろこくさいだいがく",
+  "features": [
+   "国際教育、観光ビジネス、心理、スポーツなど現代社会のニーズに即した実学領域を展開する。",
+   "観光立国・北海道をフィールドとする実践型インターンシップやグローバル研修制度を整備している。",
+   "少人数担任制指導のもと資格取得やキャリア形成を1年次から体系的に支援している。"
+  ],
+  "memo": "偏差値はBF〜35.0、共テ得点率は35%〜38%（河合塾Kei-Net）。",
+  "info": {
+   "faculties": [
+    "人文学部",
+    "観光学部",
+    "スポーツ人間学部"
+   ],
+   "departments": [
+    {
+     "f": "人文学部",
+     "d": [
+      "国際教養学科",
+      "心理学科臨床心理専攻",
+      "心理学科子ども心理専攻"
+     ]
+    },
+    {
+     "f": "観光学部",
+     "d": [
+      "観光ビジネス学科"
+     ]
+    },
+    {
+     "f": "スポーツ人間学部",
+     "d": [
+      "スポーツビジネス学科",
+      "スポーツ指導学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜35.0",
+    "kyotei": "35%〜38%",
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（1期）",
+      "kyotsu": "課さない",
+      "niji": "国語・英語等から選択",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.siu.ac.jp/pamphlet/nyushi_guide2027/pageindices/index3.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（2期）",
+      "kyotsu": "課さない",
+      "niji": "国語・英語等から選択",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.siu.ac.jp/pamphlet/nyushi_guide2027/pageindices/index3.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（3期）",
+      "kyotsu": "課さない",
+      "niji": "小論文・面接等",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.siu.ac.jp/pamphlet/nyushi_guide2027/pageindices/index3.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（1期）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.siu.ac.jp/pamphlet/nyushi_guide2027/pageindices/index3.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（2期）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.siu.ac.jp/pamphlet/nyushi_guide2027/pageindices/index3.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（3期）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.siu.ac.jp/pamphlet/nyushi_guide2027/pageindices/index3.html"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（1期）",
+      "apply": "1/5〜1/21",
+      "exam": "2/1",
+      "result": "2/6",
+      "proc": "2/18",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（2期）",
+      "apply": "2/1〜2/12",
+      "exam": "2/19",
+      "result": "2/25",
+      "proc": "3/5",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（3期）",
+      "apply": "2/22〜3/5",
+      "exam": "3/11",
+      "result": "3/13",
+      "proc": "3/23",
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（1期）",
+      "apply": "1/5〜1/23",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/5",
+      "proc": "2/18",
+      "fee": 15000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（2期）",
+      "apply": "2/1〜2/12",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/25",
+      "proc": "3/5",
+      "fee": 15000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（3期）",
+      "apply": "2/22〜3/5",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/13",
+      "proc": "3/23",
+      "fee": 15000
+     }
+    ]
+   },
+   "money": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "人文学部",
+      "admission": 200000,
+      "tuition": 720000,
+      "facility": 300000,
+      "practical": 0,
+      "other": 40000,
+      "first_year": 1260000,
+      "four_year": null
+     },
+     {
+      "f": "観光学部",
+      "admission": 200000,
+      "tuition": 720000,
+      "facility": 300000,
+      "practical": 0,
+      "other": 40000,
+      "first_year": 1260000,
+      "four_year": null
+     },
+     {
+      "f": "スポーツ人間学部",
+      "admission": 200000,
+      "tuition": 720000,
+      "facility": 300000,
+      "practical": 0,
+      "other": 40000,
+      "first_year": 1260000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "札幌市営地下鉄東豊線「福住駅」または東西線「南郷18丁目駅」より中央バス「札幌国際大学前」下車徒歩約5分",
+   "careers": "観光・ホテル・航空・ブライダル業界、スポーツ関連企業、福祉・教育機関、一般企業、公務員等。",
+   "_via": "external-ai",
+   "sources": [
+    "https://search.keinet.ne.jp/2016",
+    "https://search.keinet.ne.jp/2016/outline/campus",
+    "https://search.keinet.ne.jp/2016/general/border_rate",
+    "https://passnavi.obunsha.co.jp/univ/1535/schedule/",
+    "https://www.siu.ac.jp/pamphlet/nyushi_guide2027/pageindices/index3.html"
+   ]
+  },
+  "sources": [
+   "https://search.keinet.ne.jp/2016",
+   "https://search.keinet.ne.jp/2016/outline/campus",
+   "https://search.keinet.ne.jp/2016/general/border_rate",
+   "https://passnavi.obunsha.co.jp/univ/1535/schedule/",
+   "https://www.siu.ac.jp/pamphlet/nyushi_guide2027/pageindices/index3.html"
+  ]
+ },
+ {
+  "name": "札幌大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "北海道札幌市",
+  "pref_name": "北海道",
+  "city": "札幌市",
+  "hp": "https://www.sapporo-u.ac.jp/",
+  "reading": "さっぽろだいがく",
+  "features": [
+   "1学群8専攻の地域共創学群制を敷き専門分野を横断した学修環境を構築している。",
+   "ウポポイ等と連携したアイヌ文化研究や地域共創・産学官連携プログラムを推進している。",
+   "道内屈指の課外活動規模と就職支援ネットワークにより高い地域就職実績を堅持している。"
+  ],
+  "memo": "偏差値はBF〜35.0、共テ得点率は42%〜50%（河合塾Kei-Net）。",
+  "info": {
+   "faculties": [
+    "地域共創学群"
+   ],
+   "departments": [
+    {
+     "f": "地域共創学群",
+     "d": [
+      "経済学専攻",
+      "経営学専攻",
+      "法学専攻",
+      "英語専攻",
+      "歴史文化専攻",
+      "日本語・日本文化専攻",
+      "スポーツ文化専攻",
+      "リベラルアーツ専攻"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜35.0",
+    "kyotei": "42%〜50%",
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A日程）",
+      "kyotsu": "課さない",
+      "niji": "国語・英語・地歴・数学から2科目選択",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.sapporo-u.ac.jp/prospect/admission/general/general-exam.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（B日程）",
+      "kyotsu": "課さない",
+      "niji": "国語・英語・地歴・数学等から選択",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.sapporo-u.ac.jp/prospect/admission/general/general-exam.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（A日程）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.sapporo-u.ac.jp/prospect/admission/general/general-exam.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（B日程）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.sapporo-u.ac.jp/prospect/admission/general/general-exam.html"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A日程）",
+      "apply": "1/6〜1/25",
+      "exam": "2/2",
+      "result": "2/22",
+      "proc": "3/11",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（B日程）",
+      "apply": "2/10〜2/26",
+      "exam": "3/7",
+      "result": "3/18",
+      "proc": "3/25",
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（A日程）",
+      "apply": "1/6〜1/27",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/22",
+      "proc": "3/11",
+      "fee": 10000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（B日程）",
+      "apply": "2/10〜2/26",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/18",
+      "proc": "3/25",
+      "fee": 10000
+     }
+    ]
+   },
+   "money": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "地域共創学群",
+      "admission": 200000,
+      "tuition": 770000,
+      "facility": 130000,
+      "practical": 0,
+      "other": 42500,
+      "first_year": 1142500,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "札幌市営地下鉄南北線「澄川駅」「南平岸駅」「真駒内駅」または東豊線「月寒中央駅」より中央バス「札大南門」下車すぐ",
+   "careers": "北海道内自治体公務員、警察官・消防官、地方銀行・信用金庫、流通・小売り、教員、IT企業等。",
+   "_via": "external-ai",
+   "sources": [
+    "https://search.keinet.ne.jp/2002",
+    "https://search.keinet.ne.jp/2002/outline/campus",
+    "https://search.keinet.ne.jp/2002/outline/expense",
+    "https://search.keinet.ne.jp/2002/general/border_rate",
+    "https://www.sapporo-u.ac.jp/prospect/admission/general/general-exam.html",
+    "https://passnavi.obunsha.co.jp/univ/1520/schedule/"
+   ]
+  },
+  "sources": [
+   "https://search.keinet.ne.jp/2002",
+   "https://search.keinet.ne.jp/2002/outline/campus",
+   "https://search.keinet.ne.jp/2002/outline/expense",
+   "https://search.keinet.ne.jp/2002/general/border_rate",
+   "https://www.sapporo-u.ac.jp/prospect/admission/general/general-exam.html",
+   "https://passnavi.obunsha.co.jp/univ/1520/schedule/"
+  ]
+ },
+ {
+  "name": "札幌大谷大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "北海道札幌市",
+  "pref_name": "北海道",
+  "city": "札幌市",
+  "hp": "https://www.sapporo-otani.ac.jp/",
+  "reading": "さっぽろおおたにだいがく",
+  "features": [
+   "親鸞の仏教精神に基づく人間教育を行い芸術・地域社会分野の専門性を培う。",
+   "2027年4月に札幌芸術大学への校名変更および芸術学部デザイン学科新設を予定している。",
+   "北海道唯一の音楽・美術専門高等教育機関として多くの教育者・演奏家・クリエイターを輩出している。"
+  ],
+  "memo": "偏差値はBF〜35.0、共テ得点率は40%〜48%（河合塾Kei-Net）。2027年4月に札幌芸術大学へ名称変更予定。",
+  "info": {
+   "faculties": [
+    "社会学部",
+    "芸術学部"
+   ],
+   "departments": [
+    {
+     "f": "社会学部",
+     "d": [
+      "地域社会学科"
+     ]
+    },
+    {
+     "f": "芸術学部",
+     "d": [
+      "音楽学科",
+      "美術学科",
+      "デザイン学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜35.0",
+    "kyotei": "40%〜48%",
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（Ⅰ期）",
+      "kyotsu": "課さない",
+      "niji": "学科試験（国語等）・実技・面接等",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.sapporo-otani.ac.jp/admission/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（Ⅱ期）",
+      "kyotsu": "課さない",
+      "niji": "学科試験・小論文・実技等",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.sapporo-otani.ac.jp/admission/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（Ⅰ期）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない（芸術系は実技等有）",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.sapporo-otani.ac.jp/admission/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（Ⅱ期）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない（芸術系は実技等有）",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.sapporo-otani.ac.jp/admission/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（Ⅰ期）",
+      "apply": "1/8〜1/27",
+      "exam": "2/6",
+      "result": "2/19",
+      "proc": "3/11",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（Ⅱ期）",
+      "apply": "2/15〜3/3",
+      "exam": "3/10",
+      "result": "3/16",
+      "proc": "3/24",
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（Ⅰ期）",
+      "apply": "1/8〜1/27",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/19",
+      "proc": "3/11",
+      "fee": 10000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（Ⅱ期）",
+      "apply": "2/15〜3/3",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/16",
+      "proc": "3/24",
+      "fee": 10000
+     }
+    ]
+   },
+   "money": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "社会学部",
+      "admission": 200000,
+      "tuition": 750000,
+      "facility": 250000,
+      "practical": 0,
+      "other": 35000,
+      "first_year": 1235000,
+      "four_year": null
+     },
+     {
+      "f": "芸術学部",
+      "admission": 200000,
+      "tuition": 950000,
+      "facility": 350000,
+      "practical": 100000,
+      "other": 35000,
+      "first_year": 1635000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "札幌市営地下鉄東豊線「東区役所前駅」または「環状通東駅」より徒歩約7分",
+   "careers": "音楽家・演奏家、デザイナー・造形作家、中学校・高等学校教員、自治体公務員、一般企業等。",
+   "_via": "external-ai",
+   "sources": [
+    "https://search.keinet.ne.jp/2024",
+    "https://search.keinet.ne.jp/2024/outline/campus",
+    "https://search.keinet.ne.jp/2024/outline/expense",
+    "https://telemail.jp/shingaku/university/10100162/examination/general",
+    "https://www.sapporo-otani.ac.jp/access/"
+   ]
+  },
+  "sources": [
+   "https://search.keinet.ne.jp/2024",
+   "https://search.keinet.ne.jp/2024/outline/campus",
+   "https://search.keinet.ne.jp/2024/outline/expense",
+   "https://telemail.jp/shingaku/university/10100162/examination/general",
+   "https://www.sapporo-otani.ac.jp/access/"
+  ]
+ },
+ {
+  "name": "札幌学院大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "北海道江別市",
+  "pref_name": "北海道",
+  "city": "江別市",
+  "hp": "https://www.sgu.ac.jp/",
+  "reading": "さっぽろがくいんだいがく",
+  "features": [
+   "江別と新札幌の2キャンパス体制により文系・社会科学および心理分野の高度教育を展開する。",
+   "公務員採用試験や資格取得に向けた学内無料講座など徹底した就職支援プログラムを誇る。",
+   "地域連携実習や産学連携PBLプログラムを豊富に導入し社会課題解決型人材を養成する。"
+  ],
+  "memo": "偏差値は35.0〜40.0（BF除く）、共テ得点率は39%〜61%（河合塾Kei-Net）。",
+  "info": {
+   "faculties": [
+    "人文学部",
+    "法学部",
+    "経済経営学部",
+    "心理学部"
+   ],
+   "departments": [
+    {
+     "f": "人文学部",
+     "d": [
+      "人間科学科",
+      "英語英米文学科",
+      "こども発達学科"
+     ]
+    },
+    {
+     "f": "法学部",
+     "d": [
+      "法律学科"
+     ]
+    },
+    {
+     "f": "経済経営学部",
+     "d": [
+      "経済学科",
+      "経営学科"
+     ]
+    },
+    {
+     "f": "心理学部",
+     "d": [
+      "臨床心理学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜40.0",
+    "kyotei": "39%〜61%",
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般入学試験（A日程）",
+      "kyotsu": "課さない",
+      "niji": "国語・外国語・選択科目",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.sgu.ac.jp/entrance/exam/ge-exam.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入学試験（B日程）",
+      "kyotsu": "課さない",
+      "niji": "国語・外国語・選択科目",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.sgu.ac.jp/entrance/exam/ge-exam.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入学試験（A日程）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.sgu.ac.jp/entrance/exam/ge-exam.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入学試験（B日程）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.sgu.ac.jp/entrance/exam/ge-exam.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入学試験（C日程）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.sgu.ac.jp/entrance/exam/ge-exam.html"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般入学試験（A日程）",
+      "apply": "1/7〜1/20",
+      "exam": "2/3・2/4",
+      "result": "2/18",
+      "proc": "3/8",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入学試験（B日程）",
+      "apply": "2/1〜2/24",
+      "exam": "3/8",
+      "result": "3/16",
+      "proc": "3/25",
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用（A日程）",
+      "apply": "1/7〜1/28",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/18",
+      "proc": "3/8",
+      "fee": 10000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用（B日程）",
+      "apply": "2/1〜2/24",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/16",
+      "proc": "3/25",
+      "fee": 10000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用（C日程）",
+      "apply": "3/1〜3/17",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/25",
+      "proc": "3/29",
+      "fee": 10000
+     }
+    ]
+   },
+   "money": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "人文学部",
+      "admission": 120000,
+      "tuition": 750000,
+      "facility": 270000,
+      "practical": 0,
+      "other": 33000,
+      "first_year": 1173000,
+      "four_year": null
+     },
+     {
+      "f": "法学部",
+      "admission": 120000,
+      "tuition": 750000,
+      "facility": 270000,
+      "practical": 0,
+      "other": 33000,
+      "first_year": 1173000,
+      "four_year": null
+     },
+     {
+      "f": "経済経営学部",
+      "admission": 120000,
+      "tuition": 750000,
+      "facility": 270000,
+      "practical": 0,
+      "other": 33000,
+      "first_year": 1173000,
+      "four_year": null
+     },
+     {
+      "f": "心理学部",
+      "admission": 120000,
+      "tuition": 750000,
+      "facility": 270000,
+      "practical": 0,
+      "other": 33000,
+      "first_year": 1173000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "江別キャンパス：JR函館本線「大麻駅」南口より徒歩約9分／新札幌キャンパス：JR「新札幌駅」・地下鉄東西線「新さっぽろ駅」より徒歩約5分",
+   "careers": "北海道・東北の自治体公務員、警察官・消防官、地域金融機関（北洋銀行・北海道銀行等）、一般企業、福祉施設等。",
+   "_via": "external-ai",
+   "sources": [
+    "https://search.keinet.ne.jp/2003",
+    "https://search.keinet.ne.jp/2003/outline/expense",
+    "https://search.keinet.ne.jp/2003/general/border_rate",
+    "https://search.keinet.ne.jp/2003/outline/campus",
+    "https://www.sgu.ac.jp/entrance/exam/ge-exam.html",
+    "https://telemail.jp/shingaku/university/10000005/examination/general"
+   ]
+  },
+  "sources": [
+   "https://search.keinet.ne.jp/2003",
+   "https://search.keinet.ne.jp/2003/outline/expense",
+   "https://search.keinet.ne.jp/2003/general/border_rate",
+   "https://search.keinet.ne.jp/2003/outline/campus",
+   "https://www.sgu.ac.jp/entrance/exam/ge-exam.html",
+   "https://telemail.jp/shingaku/university/10000005/examination/general"
+  ]
+ },
+ {
+  "name": "東北医科薬科大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "宮城県仙台市",
+  "pref_name": "宮城県",
+  "city": "仙台市",
+  "hp": "https://www.tohoku-mpu.ac.jp/",
+  "reading": "とうほくいかやっかだいがく",
+  "features": [
+   "東北地方唯一の私立医学部および伝統ある薬学部を擁し地域医療の中核的担い手を育成する。",
+   "修学資金制度や東北各県定着枠を設け東北の地域医療を支える医師・薬剤師の育成を推進する。",
+   "2つの附属病院と連携した臨床実習基盤を備え2027年4月に看護学部の新設を予定している。"
+  ],
+  "memo": "偏差値は35.0〜67.5、共テ得点率は41%〜82%（河合塾Kei-Net）。医学部医学科（6年制）の6年間総額は37,000,000円、薬学部薬学科（6年制）の6年間総額は約12,400,000円。",
+  "info": {
+   "faculties": [
+    "医学部",
+    "薬学部"
+   ],
+   "departments": [
+    {
+     "f": "医学部",
+     "d": [
+      "医学科"
+     ]
+    },
+    {
+     "f": "薬学部",
+     "d": [
+      "薬学科",
+      "生命薬科学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜67.5",
+    "kyotei": "41%〜82%",
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "医学部 一般選抜",
+      "kyotsu": "課さない",
+      "niji": "数学・理科・英語・小論文・面接",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.tohoku-mpu.ac.jp/med/admission/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "医学部 大学入学共通テスト利用選抜",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "面接・小論文",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.tohoku-mpu.ac.jp/med/admission/"
+     },
+     {
+      "kubun": "一般",
+      "name": "薬学部 一般選抜（前期）",
+      "kyotsu": "課さない",
+      "niji": "数学・理科・外国語",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.tohoku-mpu.ac.jp/pha/admission/"
+     },
+     {
+      "kubun": "一般",
+      "name": "薬学部 一般選抜（後期）",
+      "kyotsu": "課さない",
+      "niji": "理科・外国語",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.tohoku-mpu.ac.jp/pha/admission/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "薬学部 大学入学共通テスト利用選抜（前期）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.tohoku-mpu.ac.jp/pha/admission/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "薬学部 大学入学共通テスト利用選抜（後期）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.tohoku-mpu.ac.jp/pha/admission/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "医学部 一般選抜",
+      "apply": "12/24〜1/15",
+      "exam": "＜1次＞2/4・＜2次＞2/20〜2/21",
+      "result": "＜1次＞2/12・＜2次＞2/25",
+      "proc": "3/5",
+      "fee": 60000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "医学部 共通テスト利用選抜",
+      "apply": "1/5〜1/22",
+      "exam": "＜1次＞共テ・＜2次＞3/3",
+      "result": "＜1次＞2/12・＜2次＞3/10",
+      "proc": "3/18",
+      "fee": 17000
+     },
+     {
+      "kubun": "一般",
+      "name": "薬学部 一般選抜（前期）",
+      "apply": "12/24〜1/15",
+      "exam": "2/4",
+      "result": "2/12",
+      "proc": "2/22",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "薬学部 一般選抜（後期）",
+      "apply": "2/8〜2/19",
+      "exam": "3/6",
+      "result": "3/10",
+      "proc": "3/18",
+      "fee": 35000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "薬学部 共通テスト利用選抜（前期）",
+      "apply": "12/24〜1/15",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "2/22",
+      "fee": 15000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "薬学部 共通テスト利用選抜（後期）",
+      "apply": "2/8〜2/19",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/10",
+      "proc": "3/18",
+      "fee": 15000
+     }
+    ]
+   },
+   "money": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "医学部（医学科・6年制）",
+      "admission": 1000000,
+      "tuition": 3000000,
+      "facility": 1200000,
+      "practical": 0,
+      "other": 1800000,
+      "first_year": 7000000,
+      "four_year": null
+     },
+     {
+      "f": "薬学部（薬学科・6年制）",
+      "admission": 400000,
+      "tuition": 1400000,
+      "facility": 600000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 2400000,
+      "four_year": null
+     },
+     {
+      "f": "薬学部（生命薬科学科・4年制）",
+      "admission": 400000,
+      "tuition": 1200000,
+      "facility": 430000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 2030000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "小松島キャンパス：JR仙山線「東照宮駅」より徒歩約15分、仙台市営地下鉄南北線「台原駅」より徒歩約15分／福室キャンパス：JR仙石線「陸前高砂駅」より徒歩約7分",
+   "careers": "大学病院・地域基幹病院医師（臨床研修医）、病院薬剤師、調剤薬局薬剤師、製薬企業研究職、公務員等。",
+   "_via": "external-ai",
+   "sources": [
+    "https://search.keinet.ne.jp/2059",
+    "https://search.keinet.ne.jp/2059/outline/expense",
+    "https://search.keinet.ne.jp/2059/general/border_rate",
+    "https://search.keinet.ne.jp/2059/outline/campus",
+    "https://telemail.jp/shingaku/university/10000183/examination/general",
+    "https://manabi.benesse.ne.jp/daigaku/school/3072/gakuhi/"
+   ]
+  },
+  "sources": [
+   "https://search.keinet.ne.jp/2059",
+   "https://search.keinet.ne.jp/2059/outline/expense",
+   "https://search.keinet.ne.jp/2059/general/border_rate",
+   "https://search.keinet.ne.jp/2059/outline/campus",
+   "https://telemail.jp/shingaku/university/10000183/examination/general",
+   "https://manabi.benesse.ne.jp/daigaku/school/3072/gakuhi/"
+  ]
+ }
+]
