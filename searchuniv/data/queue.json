@@ -1,20 +1,6 @@
 {
 "add": [
 {
-"name": "こども教育宝仙大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://hosen.ac.jp/",
-"cat": "private"
-},
-{
-"name": "ものつくり大学",
-"type": "私立",
-"pref": "埼玉県",
-"hp": "https://www.iot.ac.jp/",
-"cat": "private"
-},
-{
 "name": "グローバルBiz専門職大学",
 "type": "私立",
 "pref": "神奈川県",
@@ -3818,6 +3804,87 @@
 },
 {
 "name": "SBC東京医療大学"
+},
+{
+"name": "国立看護大学校",
+"need": [
+"fees"
+]
+},
+{
+"name": "職業能力開発総合大学校",
+"keinet": "5040",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "職業能力開発総合大学校",
+"keinet": "5040",
+"need": [
+"fees"
+]
+},
+{
+"name": "航空保安大学校",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "航空保安大学校",
+"need": [
+"fees"
+]
+},
+{
+"name": "茨城県立農業大学校",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "茨城県立農業大学校",
+"need": [
+"fees"
+]
+},
+{
+"name": "航空大学校",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "航空大学校",
+"need": [
+"fees"
+]
+},
+{
+"name": "職業能力開発大学校（ポリテクカレッジ）",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "職業能力開発大学校（ポリテクカレッジ）",
+"need": [
+"fees"
+]
+},
+{
+"name": "国際ファッション専門職大学",
+"keinet": "2102",
+"need": [
+"fees"
+]
+},
+{
+"name": "こども教育宝仙大学"
+},
+{
+"name": "ものつくり大学"
 }
 ],
 "failed": [
@@ -5572,37 +5639,6 @@
 ]
 },
 {
-"name": "職業能力開発総合大学校",
-"keinet": "5040",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "航空保安大学校",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "茨城県立農業大学校",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "航空大学校",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "職業能力開発大学校（ポリテクカレッジ）",
-"need": [
-"schedule_dates"
-]
-},
-{
 "name": "開志専門職大学",
 "keinet": "2343",
 "need": [
@@ -6019,13 +6055,6 @@
 ]
 },
 {
-"name": "国際ファッション専門職大学",
-"keinet": "2102",
-"need": [
-"fees"
-]
-},
-{
 "name": "情報経営イノベーション専門職大学（iU）",
 "keinet": "2106",
 "need": [
@@ -6069,43 +6098,6 @@
 },
 {
 "name": "電動モビリティシステム専門職大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "国立看護大学校",
-"need": [
-"fees"
-]
-},
-{
-"name": "職業能力開発総合大学校",
-"keinet": "5040",
-"need": [
-"fees"
-]
-},
-{
-"name": "航空保安大学校",
-"need": [
-"fees"
-]
-},
-{
-"name": "茨城県立農業大学校",
-"need": [
-"fees"
-]
-},
-{
-"name": "航空大学校",
-"need": [
-"fees"
-]
-},
-{
-"name": "職業能力開発大学校（ポリテクカレッジ）",
 "need": [
 "fees"
 ]
@@ -23441,6 +23433,22 @@
 "name": "かなざわ食マネジメント専門職大学",
 "need": [
 "scholar"
+]
+},
+{
+"name": "こども教育宝仙大学",
+"keinet": "2303",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "ものつくり大学",
+"keinet": "2169",
+"need": [
+"extra",
+"partners"
 ]
 }
 ],

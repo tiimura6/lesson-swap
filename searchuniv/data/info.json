@@ -72617,7 +72617,8 @@
 "https://telemail.jp/shingaku/university/10003532",
 "https://www.nippon.com/en/news/yjj2026040900662",
 "https://www.nicjp.niad.ac.jp/en/institute/shocho000001.html",
-"https://www.ncn.ac.jp/examination/nursing/020/020_exam.html"
+"https://www.ncn.ac.jp/examination/nursing/020/020_exam.html",
+"https://www.ncn.ac.jp/nursing/050/05_life.html"
 ],
 "departments": [
 {
@@ -72629,7 +72630,8 @@
 ],
 "_checked": {
 "departments": "2026-11-06",
-"schedule": "2026-11-08"
+"schedule": "2026-11-08",
+"money": "2026-11-08"
 },
 "schedule": {
 "year": "2027年度入試（大学公式。出願期間・手続締切は学生募集要項で後日公開）",
@@ -72641,6 +72643,25 @@
 "exam": "1次2/6、2次（面接）2/13",
 "result": "1次2/10、最終2/18",
 "note": "Web出願。指定校制学校推薦型選抜（若干名）も実施"
+}
+]
+},
+"money": {
+"year": "大学公式（令和8年度現在）",
+"admission": 282000,
+"annual": 615800,
+"note": "annualは授業料535,800円＋環境保全料80,000円。授業料は来年度以降改定の可能性あり。保健師・助産科目の履修者は4年次に300,000円（予定）。テキスト等約20万円（4年間）など別途。学生寮なし",
+"rows": [
+{
+"f": "看護学部 看護学科",
+"admission": 282000,
+"tuition": 535800,
+"facility": 80000,
+"practical": null,
+"other": null,
+"first_year": 897800,
+"four_year": null,
+"note": "facilityは環境保全料（年額）。first_yearは入学料＋授業料＋環境保全料で算出"
 }
 ]
 }
@@ -72661,7 +72682,11 @@
 "news": [],
 "notable": [],
 "sources": [
-"https://search.keinet.ne.jp/5040/general/border_rate"
+"https://search.keinet.ne.jp/5040/general/border_rate",
+"https://search.keinet.ne.jp/5040/general/schedule",
+"https://search.keinet.ne.jp/5040/general/exam_fee",
+"https://search.keinet.ne.jp/5040/outline/expense",
+"https://manabi.benesse.ne.jp/daigaku/school/4362/nyushi/"
 ],
 "methods": {
 "year": "2027年度入試",
@@ -72706,7 +72731,94 @@
 }
 ],
 "_checked": {
-"departments": "2026-11-06"
+"departments": "2026-11-06",
+"schedule": "2026-11-08",
+"money": "2026-11-08"
+},
+"schedule": {
+"year": "2027年度入試（Kei-Net・ベネッセ マナビジョン）",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜",
+"apply": "2026/10/1〜10/9",
+"exam": "10/17",
+"result": "11/13",
+"proc": "12/11",
+"note": "マナビジョン掲載"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜",
+"apply": "2026/10/1〜10/14",
+"exam": "10/24",
+"result": "11/20",
+"proc": "12/11",
+"note": "マナビジョン掲載"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（機械・電気・電子情報・建築工学）",
+"apply": "〜1/25（消印有効）",
+"exam": "2/12",
+"result": "2/26",
+"proc": "3/10",
+"fee": 22500,
+"note": "出願開始日は資料で食い違い（マナビジョンの日程表は1/4〜、同ページの別欄は1/12〜1/23）。検定料はKei-Netの2026年度入試の額"
+}
+]
+},
+"money": {
+"year": "2024年度（Kei-Net）",
+"admission": 282000,
+"annual": 635800,
+"note": "annualは授業料535,800円＋実習費100,000円。初年度917,800円。保険・学生自治会費、教科書代、インターンシップの交通費・宿泊費が別途",
+"rows": [
+{
+"f": "機械工学専攻",
+"admission": 282000,
+"tuition": 535800,
+"facility": null,
+"practical": 100000,
+"other": null,
+"first_year": 917800,
+"four_year": null,
+"note": "2024年度入学者用（Kei-Net）"
+},
+{
+"f": "電気工学専攻",
+"admission": 282000,
+"tuition": 535800,
+"facility": null,
+"practical": 100000,
+"other": null,
+"first_year": 917800,
+"four_year": null,
+"note": "2024年度入学者用（Kei-Net）"
+},
+{
+"f": "電子情報工学専攻",
+"admission": 282000,
+"tuition": 535800,
+"facility": null,
+"practical": 100000,
+"other": null,
+"first_year": 917800,
+"four_year": null,
+"note": "2024年度入学者用（Kei-Net）"
+},
+{
+"f": "建築工学専攻",
+"admission": 282000,
+"tuition": 535800,
+"facility": null,
+"practical": 100000,
+"other": null,
+"first_year": 917800,
+"four_year": null,
+"note": "2024年度入学者用（Kei-Net）"
+}
+]
 }
 },
 "航空保安大学校": {
@@ -72719,7 +72831,9 @@
 "news": [],
 "notable": [],
 "sources": [
-"https://www.jinji.go.jp/kouho_houdo/koumuinhakusyo/hakusho/R6/1-3-01-2.html"
+"https://www.jinji.go.jp/kouho_houdo/koumuinhakusyo/hakusho/R6/1-3-01-2.html",
+"https://www.jinji.go.jp/saiyo/siken/sennmonnsyoku_kousotsu/koudai/koudai_kousotu.html",
+"https://www.cab.mlit.go.jp/asc/faq/index.html"
 ],
 "methods": {
 "year": "2027年度入試（2026年実施）",
@@ -72754,7 +72868,41 @@
 }
 ],
 "_checked": {
-"departments": "2026-11-06"
+"departments": "2026-11-06",
+"schedule": "2026-11-08",
+"money": "2026-11-08"
+},
+"schedule": {
+"year": "2027年度入試（2027年4月入校。2026年実施の航空保安大学校学生採用試験）",
+"rows": [
+{
+"kubun": "一般",
+"name": "航空保安大学校学生採用試験",
+"apply": "7/10〜7/23（インターネット）",
+"exam": "1次9/27、2次11/16〜11/19のうち指定日",
+"result": "1次10/14、最終12/22",
+"note": "人事院が実施。高校卒業後3年以内・2027年3月卒業見込みの人などが対象"
+}
+]
+},
+"money": {
+"year": "大学校公式（給与は令和5年12月現在）",
+"admission": 0,
+"annual": 0,
+"note": "授業料・教科書代・住居費はかからない（入学金の記載なし）。国家公務員として給与月額約17万7千円（航空情報科・航空電子科の学生）＋期末・勤勉手当。原則として学生寮（家賃無料）。食費・光熱費などの生活費は自己負担",
+"rows": [
+{
+"f": "航空情報科・航空電子科",
+"admission": null,
+"tuition": 0,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": null,
+"four_year": null,
+"note": "授業料不要。入学金は記載なし"
+}
+]
 }
 },
 "茨城県立農業大学校": {
@@ -72766,7 +72914,11 @@
 "tuition": null,
 "news": [],
 "notable": [],
-"sources": [],
+"sources": [
+"https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/3nyuushikanren-top.html",
+"https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r9nyuugakuseibosyuuannnai.pdf",
+"https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r9kennkyuukaannnai_.pdf"
+],
 "methods": {
 "year": "令和9年度入学",
 "list": [
@@ -72804,7 +72956,57 @@
 }
 ],
 "_checked": {
-"departments": "2026-11-06"
+"departments": "2026-11-06",
+"schedule": "2026-11-08",
+"money": "2026-11-08"
+},
+"schedule": {
+"year": "2027年度入試（令和9年度入学生募集案内、県公式）",
+"rows": [
+{
+"kubun": "推薦",
+"name": "推薦（養成課程）",
+"apply": "2026/9/28〜10/16",
+"exam": "10/28",
+"result": "11/9",
+"note": "定員の60%程度"
+},
+{
+"kubun": "一般",
+"name": "一般 前期（養成課程）",
+"apply": "2026/11/16〜12/10",
+"exam": "12/17",
+"result": "12/25",
+"note": "定員の40%程度"
+},
+{
+"kubun": "一般",
+"name": "一般 後期（養成課程）",
+"apply": "2027/2/1〜2/25",
+"exam": "3/4",
+"result": "3/10",
+"note": "前期で定員に達した場合は実施しない"
+}
+]
+},
+"money": {
+"year": "令和9年度入学生募集案内（県公式）",
+"admission": 5650,
+"annual": 132400,
+"note": "入学料5,650円・授業料年額132,400円（研究科の募集案内で項目を確認。養成課程の案内にも同じ金額の記載）。授業料は変更・減免の場合あり",
+"rows": [
+{
+"f": "養成課程",
+"admission": 5650,
+"tuition": 132400,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 138050,
+"four_year": null,
+"note": "first_yearは入学料＋授業料で算出"
+}
+]
 }
 },
 "国際ファッション専門職大学": {
@@ -72833,7 +73035,8 @@
 "https://search.keinet.ne.jp/2102/outline/department",
 "https://search.keinet.ne.jp/2102/outline/expense",
 "https://search.keinet.ne.jp/2102/outline/campus",
-"https://search.keinet.ne.jp/2102"
+"https://search.keinet.ne.jp/2102",
+"https://passnavi.obunsha.co.jp/univ/9202/expense/"
 ],
 "kyotsu": {
 "kamoku": "共通テスト利用なし",
@@ -72921,7 +73124,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "schedule": "2026-11-06",
-"money": "2026-11-06",
+"money": "2026-11-08",
 "departments": "2026-11-06",
 "qtrend": "2026-11-07"
 },
@@ -72956,12 +73159,58 @@
 ]
 },
 "money": {
-"year": "2026年度",
-"total4": 5900000,
-"total4_note": "国際ファッション学部（東京）：入学金＋初年度の年額（授業料＋施設費）×4で算出した概算",
+"year": "2027年度（旺文社パスナビ、2026年9月調査）",
+"total4": 5940000,
+"total4_note": "東京：2027年度の入学金＋年額（授業料＋施設費＋実習費）×4で算出した概算",
 "admission": 300000,
-"annual": 1400000,
-"note": "東京：授業料1,020,000円＋施設/教育充実費380,000円、初年度1,700,000円。大阪：初年度1,660,000円、名古屋：初年度1,630,000円。別途教材費年約27,500〜66,500円、必修の海外研修費20万〜60万円"
+"annual": 1410000,
+"note": "東京：授業料1,030,000円＋施設費200,000円＋実習費180,000円、初年度1,710,000円。大阪1,670,000円、名古屋1,640,000円（いずれも2027年度、パスナビ）。別途教材費・教科書代、必修の海外実習費20万〜60万円",
+"rows": [
+{
+"f": "国際ファッション学部 ファッションクリエイション学科（東京）",
+"admission": 300000,
+"tuition": 1030000,
+"facility": 200000,
+"practical": 180000,
+"other": null,
+"first_year": 1710000,
+"four_year": null,
+"note": "practicalは実習費（教育充実費）。諸会費はなし（パスナビ）"
+},
+{
+"f": "国際ファッション学部 ファッションビジネス学科（東京）",
+"admission": 300000,
+"tuition": 1030000,
+"facility": 200000,
+"practical": 180000,
+"other": null,
+"first_year": 1710000,
+"four_year": null,
+"note": "practicalは実習費（教育充実費）。諸会費はなし（パスナビ）"
+},
+{
+"f": "国際ファッション（大阪）学部 大阪ファッションクリエイションビジネス学科",
+"admission": 280000,
+"tuition": 1030000,
+"facility": 180000,
+"practical": 180000,
+"other": null,
+"first_year": 1670000,
+"four_year": null,
+"note": "practicalは実習費（教育充実費）。諸会費はなし（パスナビ）"
+},
+{
+"f": "国際ファッション（愛知）学部 名古屋ファッションクリエイションビジネス学科",
+"admission": 260000,
+"tuition": 1030000,
+"facility": 170000,
+"practical": 180000,
+"other": null,
+"first_year": 1640000,
+"four_year": null,
+"note": "practicalは実習費（教育充実費）。諸会費はなし（パスナビ）"
+}
+]
 },
 "qtrend": {
 "years": "2027年度入試（Kei-Net掲載の個別試験構成）",
@@ -146104,6 +146353,301 @@ null
 "https://kanazawa-pu.ac.jp/application/expense/",
 "https://careetern.com/local_column/detail/20211118",
 "https://manabi.benesse.ne.jp/daigaku/school/3433/"
+]
+},
+"こども教育宝仙大学": {
+"difficulty": {
+"hensachi": "BF",
+"kyotei": "43%",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-08",
+"faculties": "2026-11-08",
+"departments": "2026-11-08",
+"students": "2026-11-08",
+"founded": "2026-11-08",
+"access": "2026-11-08",
+"tuition": "2026-11-08",
+"licenses": "2026-11-08",
+"careers": "2026-11-08",
+"money": "2026-11-08"
+},
+"faculties": [
+"こども教育学部"
+],
+"departments": [
+{
+"f": "こども教育学部",
+"d": [
+"幼児教育学科"
+]
+}
+],
+"students": {
+"count": 349,
+"year": 2025
+},
+"founded": "2009年 こども教育学部を設置（前身は1935年の仏教保育協会保姆養成所、1951年 宝仙学園短期大学保育科）",
+"access": "東京メトロ丸ノ内線・都営大江戸線 中野坂上駅から徒歩8分／JR中野駅南口からバス約6分",
+"tuition": {
+"amount": 1040000,
+"label": "入学金＋授業料",
+"year": 2026
+},
+"licenses": [
+"幼稚園教諭一種免許状",
+"保育士",
+"社会福祉主事（任用資格）",
+"児童厚生一級指導員（保育コース）",
+"オーストラリア保育者資格 CertificateⅢ（保育留学コース）",
+"准学校心理士（こども心理コース）"
+],
+"careers": "2024年度卒業者101人のうち就職90人・進学1人（Kei-Net）。2025年3月卒業生は保育所・公立保育士・幼稚園・福祉施設が中心（大学案内2027）。",
+"money": {
+"year": "2026年度",
+"admission": 200000,
+"annual": 1270000,
+"note": "annualは授業料840,000円＋施設・教育充実費430,000円。初年度1,478,000円（諸会費8,000円含む）",
+"rows": [
+{
+"f": "こども教育学部 幼児教育学科",
+"admission": 200000,
+"tuition": 840000,
+"facility": 430000,
+"practical": null,
+"other": 8000,
+"first_year": 1478000,
+"four_year": null,
+"note": "otherは諸会費。実習費の記載なし（Kei-Net）"
+}
+]
+},
+"sources": [
+"https://search.keinet.ne.jp/2303",
+"https://search.keinet.ne.jp/2303/outline/department",
+"https://search.keinet.ne.jp/2303/outline/campus",
+"https://search.keinet.ne.jp/2303/outline/licential",
+"https://search.keinet.ne.jp/2303/outline/expense",
+"https://search.keinet.ne.jp/2303/outline/admission_employment",
+"https://search.keinet.ne.jp/2303/general/border_rate",
+"https://search.keinet.ne.jp/2303/general/exam_subject",
+"https://www.hosen.ac.jp/contents/wp-content/uploads/2026/03/GUIDEBOOK_low.pdf"
+]
+},
+"ものつくり大学": {
+"difficulty": {
+"hensachi": "37.5",
+"kyotei": null,
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-08",
+"faculties": "2026-11-08",
+"departments": "2026-11-08",
+"students": "2026-11-08",
+"founded": "2026-11-08",
+"access": "2026-11-08",
+"tuition": "2026-11-08",
+"licenses": "2026-11-08",
+"careers": "2026-11-08",
+"money": "2026-11-08"
+},
+"faculties": [
+"技能工芸学部"
+],
+"departments": [
+{
+"f": "技能工芸学部",
+"d": [
+"情報メカトロニクス学科",
+"建設学科"
+]
+}
+],
+"students": {
+"count": 933,
+"year": 2025
+},
+"founded": "2001年 開学（2022年 総合機械学科を情報メカトロニクス学科に変更）",
+"access": "JR高崎線 吹上駅から徒歩約15分（朝日バス「ものつくり大学前」「ものつくり大学入口」下車も可）",
+"tuition": {
+"amount": 1080000,
+"label": "入学金＋授業料",
+"year": 2026
+},
+"licenses": [
+"一級建築士（受験資格・建設学科）",
+"二級建築士（受験資格・建設学科）",
+"木造建築士（受験資格・建設学科）",
+"測量士（建設学科）",
+"測量士補（建設学科）"
+],
+"careers": "2024年度卒業者248人のうち就職207人・進学15人（Kei-Net）。",
+"money": {
+"year": "2026年度",
+"admission": 200000,
+"annual": 1400000,
+"note": "annualは授業料880,000円＋施設/教育充実費260,000円＋実習費260,000円。初年度1,600,000円。保険料別途。授業料等はクォータごとの4回納入",
+"rows": [
+{
+"f": "技能工芸学部（情報メカトロニクス学科・建設学科）",
+"admission": 200000,
+"tuition": 880000,
+"facility": 260000,
+"practical": 260000,
+"other": null,
+"first_year": 1600000,
+"four_year": null,
+"note": "諸会費の記載なし（Kei-Net）"
+}
+]
+},
+"sources": [
+"https://search.keinet.ne.jp/2169",
+"https://search.keinet.ne.jp/2169/outline/department",
+"https://search.keinet.ne.jp/2169/outline/campus",
+"https://search.keinet.ne.jp/2169/outline/licential",
+"https://search.keinet.ne.jp/2169/outline/expense",
+"https://search.keinet.ne.jp/2169/outline/admission_employment",
+"https://search.keinet.ne.jp/2169/general/border_rate",
+"https://search.keinet.ne.jp/2169/general/exam_subject",
+"https://www.univpress.co.jp/wp-content/themes/cnn3.0/pubdata/2026/kimidono/0984.pdf"
+]
+},
+"航空大学校": {
+"schedule": {
+"year": "令和9年度航空大学校学生募集要項（大学校公式）",
+"rows": [
+{
+"kubun": "一般",
+"name": "航空大学校 入学試験",
+"apply": "2026/5/1〜5/25（郵送は消印有効）",
+"exam": "1次7/12（CBT）、2次 身体検査A 9/12〜9/23・B 12/5〜12/7、3次2027/1/19〜2/2（いずれも指定日）",
+"result": "1次7/31、2次12/25、最終2027/2/19",
+"fee": 45000,
+"note": "受験資格は大学2年以上在学（62単位以上）・短大・高専卒業など。高校卒業見込みでは出願できない"
+}
+]
+},
+"_checked": {
+"schedule": "2026-11-08",
+"money": "2026-11-08"
+},
+"money": {
+"year": "令和9年度（大学校公式の募集要項）",
+"admission": 282000,
+"annual": null,
+"note": "授業料（要項に年額・総額の区別の記載なし）：宮崎学科課程1,001,000円、帯広フライト課程・宮崎フライト課程1,202,000円、仙台フライト課程1,403,000円。寄宿料月額1,500円。修学期間24か月",
+"rows": [
+{
+"f": "宮崎学科課程",
+"admission": 282000,
+"tuition": 1001000,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": null,
+"four_year": null,
+"note": "授業料は年額・総額の区別の記載なし"
+},
+{
+"f": "帯広・宮崎フライト課程",
+"admission": null,
+"tuition": 1202000,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": null,
+"four_year": null,
+"note": "課程別の授業料"
+},
+{
+"f": "仙台フライト課程",
+"admission": null,
+"tuition": 1403000,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": null,
+"four_year": null,
+"note": "課程別の授業料"
+}
+]
+},
+"sources": [
+"https://www.kouku-dai.ac.jp/02_enter/r09nyugaku/r09bosyuuyoukou.pdf"
+]
+},
+"職業能力開発大学校（ポリテクカレッジ）": {
+"schedule": {
+"year": "2027年度入試（令和9年度・2027年4月入校、九州職業能力開発大学校の例）",
+"rows": [
+{
+"kubun": "推薦",
+"name": "推薦（専門学科・総合学科対象）",
+"apply": "2026/10/1〜10/9",
+"exam": "10/17",
+"result": "10/29",
+"fee": 18000,
+"note": "校により異なる（九州職業能力開発大学校の例）。受験料のほか事務手数料537円"
+},
+{
+"kubun": "推薦",
+"name": "推薦（全学科対象Ⅰ）",
+"apply": "2026/10/29〜11/6",
+"exam": "11/14",
+"result": "11/27",
+"fee": 18000,
+"note": "九州職業能力開発大学校の例"
+},
+{
+"kubun": "推薦",
+"name": "推薦（全学科対象Ⅱ）",
+"apply": "2026/11/26〜12/7",
+"exam": "12/12",
+"result": "12/22",
+"fee": 18000,
+"note": "九州職業能力開発大学校の例"
+},
+{
+"kubun": "一般",
+"name": "一般入試",
+"apply": "2027/1/14〜2/2（予定）",
+"exam": "2/10",
+"result": "2/22",
+"fee": 18000,
+"note": "九州職業能力開発大学校の例。入校手続は通知で指定された期日まで"
+}
+]
+},
+"_checked": {
+"schedule": "2026-11-08",
+"money": "2026-11-08"
+},
+"money": {
+"year": "令和8年4月1日現在（高齢・障害・求職者雇用支援機構）",
+"admission": 169200,
+"annual": 390000,
+"note": "専門課程。入校料169,200円、授業料年額390,000円。教科書・実習服・工具類、保険、自治会費などが別途（九州職業能力開発大学校では諸経費約7〜13万円、令和4年度）",
+"rows": [
+{
+"f": "専門課程",
+"admission": 169200,
+"tuition": 390000,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 559200,
+"four_year": null,
+"note": "first_yearは入校料＋授業料で算出"
+}
+]
+},
+"sources": [
+"https://www.jeed.go.jp/js/kousotsusya/polytech_co/nyukou/index.html",
+"https://www3.jeed.go.jp/fukuoka/college/admission/exam/",
+"https://www3.jeed.go.jp/fukuoka/college/admission/admission/tuition.html"
 ]
 }
 }
