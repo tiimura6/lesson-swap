@@ -1,20 +1,6 @@
 {
  "add": [
   {
-   "name": "東北農林専門職大学",
-   "type": "公立",
-   "pref": "山形県",
-   "hp": "https://tpuaf.ac.jp/university/",
-   "cat": "senmon"
-  },
-  {
-   "name": "秋田公立美術大学",
-   "type": "公立",
-   "pref": "秋田県",
-   "hp": "http://www.akibi.ac.jp/",
-   "cat": "public"
-  },
-  {
    "name": "長野県立大学",
    "type": "公立",
    "pref": "長野県",
@@ -3596,6 +3582,80 @@
    "need": [
     "fees"
    ]
+  },
+  {
+   "name": "秋田公立美術大学",
+   "type": "公立",
+   "pref": "秋田県",
+   "hp": "http://www.akibi.ac.jp/",
+   "cat": "public"
+  },
+  {
+   "name": "東北農林専門職大学",
+   "type": "公立",
+   "pref": "山形県",
+   "hp": "https://tpuaf.ac.jp/university/",
+   "cat": "senmon"
+  },
+  {
+   "name": "青山学院大学",
+   "keinet": "2200",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "武蔵大学",
+   "keinet": "2281",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "東洋大学",
+   "keinet": "2265",
+   "passnavi": 2910,
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "専修大学",
+   "keinet": "2233",
+   "passnavi": 2590,
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "西南学院大学",
+   "keinet": "2705",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "駒澤大学",
+   "keinet": "2216",
+   "passnavi": 2430,
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "東京慈恵会医科大学",
+   "keinet": "2253",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "東京都市大学",
+   "keinet": "2282",
+   "passnavi": 3080,
+   "need": [
+    "schedule_dates"
+   ]
   }
  ],
  "failed": [
@@ -3623,8 +3683,6 @@
   "電動モビリティシステム専門職大学": 1,
   "北海道教育大学": 1,
   "総合研究大学院大学（大学院のみ）": 1,
-  "東北農林専門職大学": 1,
-  "秋田公立美術大学": 1,
   "東北大学": 1,
   "九州大学": 1,
   "九州看護福祉大学": 1,
@@ -3643,15 +3701,12 @@
   "豊橋技術科学大学": 2,
   "早稲田大学": 2,
   "慶應義塾大学": 1,
-  "青山学院大学": 2,
   "同志社大学": 3,
   "関西大学": 3,
-  "西南学院大学": 2,
   "法政大学": 1,
   "成城大学": 2,
   "國學院大學": 1,
-  "駒澤大学": 1,
-  "東京都市大学": 1
+  "日本医科大学": 1
  },
  "enrich": [
   {
@@ -5335,45 +5390,8 @@
    ]
   },
   {
-   "name": "武蔵大学",
-   "keinet": "2281",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "東洋大学",
-   "keinet": "2265",
-   "passnavi": 2910,
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "専修大学",
-   "keinet": "2233",
-   "passnavi": 2590,
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
    "name": "順天堂大学",
    "keinet": "2220",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "東京慈恵会医科大学",
-   "keinet": "2253",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "日本医科大学",
-   "keinet": "2268",
    "need": [
     "schedule_dates"
    ]
@@ -23211,13 +23229,6 @@
    ]
   },
   {
-   "name": "西南学院大学",
-   "keinet": "2705",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
    "name": "沖縄県立芸術大学",
    "keinet": "1705",
    "need": [
@@ -23231,13 +23242,6 @@
    "need": [
     "extra",
     "partners"
-   ]
-  },
-  {
-   "name": "青山学院大学",
-   "keinet": "2200",
-   "need": [
-    "schedule_dates"
    ]
   },
   {
@@ -23306,17 +23310,24 @@
    ]
   },
   {
-   "name": "駒澤大学",
-   "keinet": "2216",
-   "passnavi": 2430,
+   "name": "秋田公立美術大学",
+   "keinet": "1522",
    "need": [
-    "schedule_dates"
+    "extra",
+    "partners"
    ]
   },
   {
-   "name": "東京都市大学",
-   "keinet": "2282",
-   "passnavi": 3080,
+   "name": "東北農林専門職大学",
+   "keinet": "1529",
+   "need": [
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "日本医科大学",
+   "keinet": "2268",
    "need": [
     "schedule_dates"
    ]
