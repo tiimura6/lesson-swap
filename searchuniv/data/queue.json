@@ -1,20 +1,6 @@
 {
 "add": [
 {
-"name": "グローバルBiz専門職大学",
-"type": "私立",
-"pref": "神奈川県",
-"hp": "https://gpu.ac.jp/",
-"cat": "senmon"
-},
-{
-"name": "デジタルハリウッド大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.dhw.ac.jp/",
-"cat": "private"
-},
-{
 "name": "ビューティ＆ウェルネス専門職大学",
 "type": "私立",
 "pref": "神奈川県",
@@ -3815,6 +3801,96 @@
 },
 {
 "name": "ものつくり大学"
+},
+{
+"name": "芸術文化観光専門職大学",
+"keinet": "1628",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "筑波技術大学",
+"keinet": "1080",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "前橋工科大学",
+"keinet": "1523",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "千葉県立保健医療大学",
+"keinet": "1528",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "情報経営イノベーション専門職大学（iU）",
+"keinet": "2106",
+"need": [
+"fees"
+]
+},
+{
+"name": "東京国際工科専門職大学",
+"keinet": "2113",
+"need": [
+"fees"
+]
+},
+{
+"name": "開志専門職大学",
+"keinet": "2343",
+"need": [
+"fees"
+]
+},
+{
+"name": "高知リハビリテーション専門職大学",
+"keinet": "2690",
+"need": [
+"fees"
+]
+},
+{
+"name": "東京保健医療専門職大学",
+"keinet": "2114",
+"need": [
+"fees"
+]
+},
+{
+"name": "筑波技術大学",
+"keinet": "1080",
+"need": [
+"fees"
+]
+},
+{
+"name": "前橋工科大学",
+"keinet": "1523",
+"need": [
+"fees"
+]
+},
+{
+"name": "千葉県立保健医療大学",
+"keinet": "1528",
+"need": [
+"fees"
+]
+},
+{
+"name": "グローバルBiz専門職大学"
+},
+{
+"name": "デジタルハリウッド大学"
 }
 ],
 "failed": [
@@ -3838,7 +3914,7 @@
 "室蘭工業大学": 1,
 "東京科学大学": 2,
 "三重大学": 1,
-"電動モビリティシステム専門職大学": 1,
+"電動モビリティシステム専門職大学": 2,
 "北海道教育大学": 1,
 "総合研究大学院大学（大学院のみ）": 1,
 "東北大学": 1,
@@ -3861,7 +3937,8 @@
 "同志社大学": 3,
 "関西大学": 3,
 "法政大学": 1,
-"日本ウェルネススポーツ大学": 1
+"日本ウェルネススポーツ大学": 1,
+"静岡県立農林環境専門職大学": 1
 },
 "enrich": [
 {
@@ -5629,54 +5706,6 @@
 ]
 },
 {
-"name": "開志専門職大学",
-"keinet": "2343",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "芸術文化観光専門職大学",
-"keinet": "1628",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "静岡県立農林環境専門職大学",
-"keinet": "1572",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "電動モビリティシステム専門職大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "筑波技術大学",
-"keinet": "1080",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "前橋工科大学",
-"keinet": "1523",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "千葉県立保健医療大学",
-"keinet": "1528",
-"need": [
-"schedule_dates"
-]
-},
-{
 "name": "埼玉県立大学",
 "keinet": "1526",
 "need": [
@@ -6042,89 +6071,6 @@
 "keinet": "1510",
 "need": [
 "schedule_dates"
-]
-},
-{
-"name": "情報経営イノベーション専門職大学（iU）",
-"keinet": "2106",
-"need": [
-"fees"
-]
-},
-{
-"name": "東京国際工科専門職大学",
-"keinet": "2113",
-"need": [
-"fees"
-]
-},
-{
-"name": "開志専門職大学",
-"keinet": "2343",
-"need": [
-"fees"
-]
-},
-{
-"name": "高知リハビリテーション専門職大学",
-"keinet": "2690",
-"need": [
-"fees"
-]
-},
-{
-"name": "東京保健医療専門職大学",
-"keinet": "2114",
-"need": [
-"fees"
-]
-},
-{
-"name": "名古屋国際工科専門職大学",
-"keinet": "2113",
-"need": [
-"fees"
-]
-},
-{
-"name": "電動モビリティシステム専門職大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "芸術文化観光専門職大学",
-"keinet": "1628",
-"need": [
-"fees"
-]
-},
-{
-"name": "静岡県立農林環境専門職大学",
-"keinet": "1572",
-"need": [
-"fees"
-]
-},
-{
-"name": "筑波技術大学",
-"keinet": "1080",
-"need": [
-"fees"
-]
-},
-{
-"name": "前橋工科大学",
-"keinet": "1523",
-"need": [
-"fees"
-]
-},
-{
-"name": "千葉県立保健医療大学",
-"keinet": "1528",
-"need": [
-"fees"
 ]
 },
 {
@@ -23679,6 +23625,69 @@
 "name": "札幌保健医療大学",
 "need": [
 "scholar"
+]
+},
+{
+"name": "開志専門職大学",
+"keinet": "2343",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "静岡県立農林環境専門職大学",
+"keinet": "1572",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "電動モビリティシステム専門職大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "名古屋国際工科専門職大学",
+"keinet": "2113",
+"need": [
+"fees"
+]
+},
+{
+"name": "電動モビリティシステム専門職大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "芸術文化観光専門職大学",
+"keinet": "1628",
+"need": [
+"fees"
+]
+},
+{
+"name": "静岡県立農林環境専門職大学",
+"keinet": "1572",
+"need": [
+"fees"
+]
+},
+{
+"name": "グローバルBiz専門職大学",
+"keinet": "2197",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "デジタルハリウッド大学",
+"keinet": "2194",
+"need": [
+"extra",
+"partners"
 ]
 }
 ],
