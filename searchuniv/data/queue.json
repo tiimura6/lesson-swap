@@ -1,34 +1,6 @@
 {
 "add": [
 {
-"name": "ヤマザキ動物看護大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://univ.yamazaki.ac.jp/univ/",
-"cat": "private"
-},
-{
-"name": "ルーテル学院大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.luther.ac.jp/",
-"cat": "private"
-},
-{
-"name": "三育学院大学",
-"type": "私立",
-"pref": "千葉県",
-"hp": "https://www.saniku.ac.jp/",
-"cat": "private"
-},
-{
-"name": "上武大学",
-"type": "私立",
-"pref": "群馬県",
-"hp": "https://www.jobu.ac.jp/",
-"cat": "private"
-},
-{
 "name": "中央学院大学",
 "type": "私立",
 "pref": "千葉県",
@@ -1369,6 +1341,13 @@
 "type": "私立",
 "pref": "茨城県",
 "hp": "https://www.nihonwellness.jp/",
+"cat": "private"
+},
+{
+"name": "ルーテル学院大学",
+"type": "私立",
+"pref": "東京都",
+"hp": "https://www.luther.ac.jp/",
 "cat": "private"
 }
 ],
@@ -3841,6 +3820,62 @@
 "need": [
 "fees"
 ]
+},
+{
+"name": "群馬県立県民健康科学大学",
+"keinet": "1524",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "公立はこだて未来大学",
+"keinet": "1507",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "公立千歳科学技術大学",
+"keinet": "1509",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "群馬県立県民健康科学大学",
+"keinet": "1524",
+"need": [
+"fees"
+]
+},
+{
+"name": "公立はこだて未来大学",
+"keinet": "1507",
+"need": [
+"fees"
+]
+},
+{
+"name": "開志専門職大学",
+"keinet": "2343",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "埼玉県立大学",
+"keinet": "1526",
+"need": [
+"fees"
+]
+},
+{
+"name": "名古屋国際工科専門職大学",
+"keinet": "2113",
+"need": [
+"fees"
+]
 }
 ],
 "failed": [
@@ -3858,13 +3893,27 @@
 "need": [
 "schedule_dates"
 ]
+},
+{
+"name": "電動モビリティシステム専門職大学",
+"need": [
+"schedule_dates"
+],
+"reason": "2025年度入学者から募集停止（既存の出典）。Kei-Net等に日程・学費の掲載なし"
+},
+{
+"name": "電動モビリティシステム専門職大学",
+"need": [
+"fees"
+],
+"reason": "2025年度入学者から募集停止（既存の出典）。Kei-Net等に日程・学費の掲載なし"
 }
 ],
 "fail_count": {
 "室蘭工業大学": 1,
 "東京科学大学": 2,
 "三重大学": 1,
-"電動モビリティシステム専門職大学": 2,
+"電動モビリティシステム専門職大学": 3,
 "北海道教育大学": 1,
 "総合研究大学院大学（大学院のみ）": 1,
 "東北大学": 1,
@@ -3890,7 +3939,8 @@
 "日本ウェルネススポーツ大学": 1,
 "静岡県立農林環境専門職大学": 1,
 "埼玉県立大学": 1,
-"名古屋国際工科専門職大学": 1
+"名古屋国際工科専門職大学": 1,
+"ルーテル学院大学": 1
 },
 "enrich": [
 {
@@ -5754,27 +5804,6 @@
 ]
 },
 {
-"name": "群馬県立県民健康科学大学",
-"keinet": "1524",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "公立はこだて未来大学",
-"keinet": "1507",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "公立千歳科学技術大学",
-"keinet": "1509",
-"need": [
-"schedule_dates"
-]
-},
-{
 "name": "北海道教育大学",
 "keinet": "1030",
 "need": [
@@ -6091,20 +6120,6 @@
 "keinet": "1510",
 "need": [
 "schedule_dates"
-]
-},
-{
-"name": "群馬県立県民健康科学大学",
-"keinet": "1524",
-"need": [
-"fees"
-]
-},
-{
-"name": "公立はこだて未来大学",
-"keinet": "1507",
-"need": [
-"fees"
 ]
 },
 {
@@ -23620,25 +23635,6 @@
 ]
 },
 {
-"name": "開志専門職大学",
-"keinet": "2343",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "電動モビリティシステム専門職大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "電動モビリティシステム専門職大学",
-"need": [
-"fees"
-]
-},
-{
 "name": "グローバルBiz専門職大学",
 "keinet": "2197",
 "need": [
@@ -24039,20 +24035,6 @@
 ]
 },
 {
-"name": "埼玉県立大学",
-"keinet": "1526",
-"need": [
-"fees"
-]
-},
-{
-"name": "名古屋国際工科専門職大学",
-"keinet": "2113",
-"need": [
-"fees"
-]
-},
-{
 "name": "フェリス女学院大学",
 "keinet": "2320",
 "passnavi": "3360",
@@ -24064,6 +24046,30 @@
 {
 "name": "ビューティ＆ウェルネス専門職大学",
 "keinet": "2344",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "ヤマザキ動物看護大学",
+"keinet": "2326",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "三育学院大学",
+"keinet": "2132",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "上武大学",
+"keinet": "2135",
 "need": [
 "extra",
 "partners"
