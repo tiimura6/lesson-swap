@@ -1,20 +1,6 @@
 {
  "add": [
   {
-   "name": "長野県立大学",
-   "type": "公立",
-   "pref": "長野県",
-   "hp": "http://www.u-nagano.ac.jp/",
-   "cat": "public"
-  },
-  {
-   "name": "つくば国際大学",
-   "type": "私立",
-   "pref": "茨城県",
-   "hp": "https://www.ktt.ac.jp/tiu/",
-   "cat": "private"
-  },
-  {
    "name": "アール医療専門職大学",
    "type": "私立",
    "pref": "茨城県",
@@ -3656,6 +3642,79 @@
    "need": [
     "schedule_dates"
    ]
+  },
+  {
+   "name": "成城大学",
+   "keinet": "2229",
+   "passnavi": 2550,
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "國學院大學",
+   "keinet": "2213",
+   "passnavi": 2400,
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "順天堂大学",
+   "keinet": "2220",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "獨協医科大学",
+   "keinet": "2123",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "津田塾大学",
+   "keinet": "2243",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "日本女子大学",
+   "keinet": "2272",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "立命館アジア太平洋大学（APU）",
+   "keinet": "2766",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "神田外語大学",
+   "keinet": "2172",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "聖心女子大学",
+   "keinet": "2230",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "長野県立大学",
+   "keinet": "1566"
+  },
+  {
+   "name": "つくば国際大学",
+   "keinet": "2110"
   }
  ],
  "failed": [
@@ -3691,7 +3750,6 @@
   "宮崎国際大学": 1,
   "沖縄国際大学": 1,
   "沖縄大学": 1,
-  "長野県立大学": 1,
   "びわこ成蹊スポーツ大学": 1,
   "高岡法科大学": 1,
   "名城大学": 1,
@@ -3704,9 +3762,9 @@
   "同志社大学": 3,
   "関西大学": 3,
   "法政大学": 1,
-  "成城大学": 2,
-  "國學院大學": 1,
-  "日本医科大学": 1
+  "日本医科大学": 2,
+  "東京女子大学": 1,
+  "関西外国語大学": 1
  },
  "enrich": [
   {
@@ -5390,62 +5448,6 @@
    ]
   },
   {
-   "name": "順天堂大学",
-   "keinet": "2220",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "獨協医科大学",
-   "keinet": "2123",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "津田塾大学",
-   "keinet": "2243",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "東京女子大学",
-   "keinet": "2254",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "日本女子大学",
-   "keinet": "2272",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "立命館アジア太平洋大学（APU）",
-   "keinet": "2766",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "神田外語大学",
-   "keinet": "2172",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "関西外国語大学",
-   "keinet": "2535",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
    "name": "流通経済大学",
    "keinet": "2109",
    "need": [
@@ -5936,13 +5938,6 @@
    "keinet": "1510",
    "need": [
     "schedule_dates"
-   ]
-  },
-  {
-   "name": "聖心女子大学",
-   "keinet": "2230",
-   "need": [
-    "fees"
    ]
   },
   {
@@ -23245,14 +23240,6 @@
    ]
   },
   {
-   "name": "成城大学",
-   "keinet": "2229",
-   "passnavi": 2550,
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
    "name": "福岡女子大学",
    "keinet": "1690",
    "need": [
@@ -23302,14 +23289,6 @@
    ]
   },
   {
-   "name": "國學院大學",
-   "keinet": "2213",
-   "passnavi": 2400,
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
    "name": "秋田公立美術大学",
    "keinet": "1522",
    "need": [
@@ -23330,6 +23309,36 @@
    "keinet": "2268",
    "need": [
     "schedule_dates"
+   ]
+  },
+  {
+   "name": "東京女子大学",
+   "keinet": "2254",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "関西外国語大学",
+   "keinet": "2535",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "長野県立大学",
+   "keinet": "1566",
+   "need": [
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "つくば国際大学",
+   "keinet": "2110",
+   "need": [
+    "extra",
+    "partners"
    ]
   }
  ],
