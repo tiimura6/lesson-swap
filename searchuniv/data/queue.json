@@ -1,34 +1,6 @@
 {
 "add": [
 {
-"name": "人間総合科学大学",
-"type": "私立",
-"pref": "埼玉県",
-"hp": "https://www.human.ac.jp/",
-"cat": "private"
-},
-{
-"name": "作新学院大学",
-"type": "私立",
-"pref": "栃木県",
-"hp": "https://www.sakushin-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "共愛学園前橋国際大学",
-"type": "私立",
-"pref": "群馬県",
-"hp": "https://www.kyoai.ac.jp/",
-"cat": "private"
-},
-{
-"name": "共栄大学",
-"type": "私立",
-"pref": "埼玉県",
-"hp": "https://www.kyoei.ac.jp/",
-"cat": "private"
-},
-{
 "name": "共立女子大学",
 "type": "私立",
 "pref": "東京都",
@@ -3883,6 +3855,69 @@
 "need": [
 "schedule_dates"
 ]
+},
+{
+"name": "公立千歳科学技術大学",
+"keinet": "1509",
+"need": [
+"fees"
+]
+},
+{
+"name": "北海道教育大学",
+"keinet": "1030",
+"need": [
+"fees"
+]
+},
+{
+"name": "宮城教育大学",
+"keinet": "1055",
+"need": [
+"fees"
+]
+},
+{
+"name": "小樽商科大学",
+"keinet": "1010",
+"need": [
+"fees"
+]
+},
+{
+"name": "山形大学",
+"keinet": "1065",
+"need": [
+"fees"
+]
+},
+{
+"name": "山形大学",
+"keinet": "1065",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "岩手大学",
+"keinet": "1045",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "岩手大学",
+"keinet": "1045",
+"need": [
+"fees"
+]
+},
+{
+"name": "帯広畜産大学",
+"keinet": "1015",
+"need": [
+"fees"
+]
 }
 ],
 "failed": [
@@ -3951,7 +3986,8 @@
 "公立千歳科学技術大学": 1,
 "宮城教育大学": 1,
 "小樽商科大学": 1,
-"山形大学": 1
+"山形大学": 1,
+"帯広畜産大学": 1
 },
 "enrich": [
 {
@@ -5815,20 +5851,6 @@
 ]
 },
 {
-"name": "岩手大学",
-"keinet": "1045",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "帯広畜産大学",
-"keinet": "1015",
-"need": [
-"schedule_dates"
-]
-},
-{
 "name": "弘前大学",
 "keinet": "1040",
 "need": [
@@ -6096,27 +6118,6 @@
 "keinet": "1510",
 "need": [
 "schedule_dates"
-]
-},
-{
-"name": "山形大学",
-"keinet": "1065",
-"need": [
-"fees"
-]
-},
-{
-"name": "岩手大学",
-"keinet": "1045",
-"need": [
-"fees"
-]
-},
-{
-"name": "帯広畜産大学",
-"keinet": "1015",
-"need": [
-"fees"
 ]
 },
 {
@@ -24049,36 +24050,8 @@
 ]
 },
 {
-"name": "公立千歳科学技術大学",
-"keinet": "1509",
-"need": [
-"fees"
-]
-},
-{
-"name": "北海道教育大学",
-"keinet": "1030",
-"need": [
-"fees"
-]
-},
-{
-"name": "宮城教育大学",
-"keinet": "1055",
-"need": [
-"fees"
-]
-},
-{
-"name": "小樽商科大学",
-"keinet": "1010",
-"need": [
-"fees"
-]
-},
-{
-"name": "山形大学",
-"keinet": "1065",
+"name": "帯広畜産大学",
+"keinet": "1015",
 "need": [
 "schedule_dates"
 ]
