@@ -919,7 +919,7 @@ function scaleMarks(){
   const k=curVB[2]/HOME_VB[2];
   ROOT.querySelectorAll("#jmap .dot").forEach(c=>c.setAttribute("r",dotR().toFixed(3)));
   ROOT.querySelectorAll("#jmap .hl,#jmap .pulse").forEach(c=>c.setAttribute("r",(3.4*k).toFixed(3)));
-  const l=ROOT.querySelector("#jmap .lbl"); if(l){ l.setAttribute("font-size",(14*k).toFixed(3)); const c=ROOT.querySelector("#jmap .hl"); l.setAttribute("x",(+c.getAttribute("cx")+5*k).toFixed(2)); l.setAttribute("y",(+c.getAttribute("cy")+3*k).toFixed(2)); }
+  const l=ROOT.querySelector("#jmap .lbl"); if(l){ const m=$("jmap").getScreenCTM(), pp=(m&&m.a)||1/k; l.setAttribute("font-size",(12/pp).toFixed(3)); const c=ROOT.querySelector("#jmap .hl"); l.setAttribute("x",(+c.getAttribute("cx")+6/pp).toFixed(2)); l.setAttribute("y",(+c.getAttribute("cy")+4/pp).toFixed(2)); }
   scheduleLabels();
 }
 // 拡大・移動の最中は名前を並べ直さず、止まってから1回だけ並べ直す（軽くするため）
@@ -1307,7 +1307,7 @@ $("kt-go").onclick=async()=>{
 };
 
 // ===== 更新日時（検索欄の下に表示）=====
-const BUILD=/*BUILD*/{"built":"2026-11-08 21:33","schedule":"2026-11-08","diffyear":"2027年度入試用"}/*END_BUILD*/;
+const BUILD=/*BUILD*/{"built":"2026-11-08 22:01","schedule":"2026-11-08","diffyear":"2027年度入試用"}/*END_BUILD*/;
 (function(){ const el=$("updline"); if(!el||!BUILD.built) return; const d=s=>s?s.replace(/-/g,"/"):"";
   el.textContent="更新 "+d(BUILD.built)+"・"+items.length+"校｜入試日程の確認 "+d((BUILD.schedule||BUILD.built).slice(0,10))+"（一般選抜は12月下旬に更新）"; el.title="難易度：河合塾「"+(BUILD.diffyear||"2027年度入試用")+"」"; })();
 $("univlist").innerHTML=items.map(x=>'<option value="'+esc(x.name)+'">').join("");
@@ -1611,10 +1611,12 @@ function placeCities(boxes, ppu, inView, outside){
 function placeLabels(){
   const g=$("labels"); if(!g) return; g.innerHTML="";
   const svg=$("jmap"); const W=svg.clientWidth||800; const ctm=svg.getScreenCTM(); const ppu=(ctm&&ctm.a)||W/curVB[2];
-  const fs=(innerWidth<600?16:19)/ppu, pad=2/ppu, k=curVB[2]/HOME_VB[2], r=dotR();
+  const fs=11/ppu, pad=2/ppu, k=curVB[2]/HOME_VB[2], r=dotR();
   const sel=$("mq").value; const [vx,vy,vw,vh]=curVB;
   const inView=([cx,cy])=>cx>=vx&&cx<=vx+vw&&cy>=vy&&cy<=vy+vh;
   const order=items.filter(x=>MAP.dots[x.name]&&x.name!==sel&&inView(MAP.dots[x.name])&&kindVisible(x)&&(!MATCH||MATCH.has(x.name))&&!CUR_SEL).sort((a,b)=>(PRIO[a.cat]??20)-(PRIO[b.cat]??20));
+  // 短大・専門の地図と同じく、ある程度拡大して地図の範囲の大学が70校以下になってから名前を出す（全国表示では点だけ）
+  if(order.length>70){ placeCities([], ppu, inView, ()=>false); return; }
   const cell=(innerWidth<600?80:90)/ppu;
   // 表示枠（はみ出し防止）と、凡例・ズームボタンの下を避ける
   const m=svg.getScreenCTM(); const inv=m?m.inverse():null;
@@ -2315,7 +2317,7 @@ return API;
 }
 
 window.SearchunivModule=Object.freeze({
-  apiVersion:1, build:{"built":"2026-11-08 21:33","schedule":"2026-11-08","diffyear":"2027年度入試用"},
+  apiVersion:1, build:{"built":"2026-11-08 22:01","schedule":"2026-11-08","diffyear":"2027年度入試用"},
   // host 要素の Shadow DOM に Searchuniv を作る。opts: {base, theme, view, onView(v), onError(e)}
   mount(host,opts){
     opts=opts||{}; if(host.__su) return host.__su;

@@ -23,6 +23,12 @@ svg.drag{cursor:grabbing}
 .dot.hl{stroke:#1d1d1f;stroke-width:2.5}
 .lbl{font-size:11px;paint-order:stroke;stroke:#fff;stroke-width:3px;stroke-linejoin:round;fill:#1d1d1f;pointer-events:none}
 .lbl.hl{font-weight:700;fill:#0071e3}
+.rail path{fill:none;stroke-linejoin:round;stroke-linecap:round;vector-effect:non-scaling-stroke;pointer-events:none}
+.rail .r-hw{stroke:#2e7d32;stroke-width:1.8px;stroke-opacity:.85}.rail .r-shin{stroke:#c62828;stroke-width:2.2px}.rail .r-jr{stroke:#1e5aa8;stroke-width:1.3px}.rail .r-other{stroke:#8fb3dc;stroke-width:.9px}
+.layers{position:absolute;left:8px;top:8px;display:flex;gap:4px}
+.layers button{border:none;border-radius:8px;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.2);font:600 12px inherit;font-family:inherit;padding:6px 10px;cursor:pointer;color:#1d1d1f}
+.layers button[aria-pressed="true"]{background:#1f4e79;color:#fff}
+.lkey{display:inline-flex;gap:8px;align-items:center}.lkey i{display:inline-block;width:14px;height:0;border-top:3px solid;margin-right:3px;vertical-align:3px}
 .zoom{position:absolute;right:8px;top:8px;display:flex;flex-direction:column;gap:4px}
 .zoom button{width:32px;height:32px;border:none;border-radius:8px;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.2);font-size:18px;cursor:pointer}
 .legend{position:absolute;left:8px;bottom:8px;background:rgba(255,255,255,.9);border-radius:8px;padding:4px 8px;font-size:12px;display:flex;gap:10px}
@@ -56,17 +62,31 @@ function mount(host, opt){
     '<span class="seg" id="kind"><button type="button" data-k="" class="on">すべて</button><button type="button" data-k="短大">短大（' + nT + '）</button><button type="button" data-k="専門">専門学校（' + nS + '）</button></span>' +
     '<select id="pref" aria-label="都道府県"><option value="">全国</option>' + PREFS.map(p => '<option>' + p + '</option>').join('') + '</select>' +
     '<span class="cnt" id="cnt"></span></div>' +
-    '<div class="wrap"><div><div class="mapbox"><svg id="map" viewBox="' + HOME.join(' ') + '" role="img" aria-label="短大・専門学校の地図"><g class="pref" id="prefs"></g><g id="dots"></g><g id="lbls"></g></svg>' +
+    '<div class="wrap"><div><div class="mapbox"><svg id="map" viewBox="' + HOME.join(' ') + '" role="img" aria-label="短大・専門学校の地図"><g class="pref" id="prefs"></g><g class="rail" id="rail"></g><g id="dots"></g><g id="lbls"></g></svg>' +
+    '<div class="layers"><button type="button" id="tgrail" aria-pressed="false">🚃 鉄道</button><button type="button" id="tgroad" aria-pressed="false">🛣 高速道路</button></div>' +
     '<div class="zoom"><button type="button" id="zin" aria-label="拡大">＋</button><button type="button" id="zout" aria-label="縮小">－</button><button type="button" id="zhome" aria-label="全国を表示" style="font-size:13px">全</button></div>' +
-    '<div class="legend"><span><i style="background:#d4553a"></i>短大</span><span><i style="background:#2a7f62"></i>専門学校</span></div></div>' +
+    '<div class="legend"><span><i style="background:#d4553a"></i>短大</span><span><i style="background:#2a7f62"></i>専門学校</span><span class="lkey" id="rkey"></span></div></div>' +
     '<div class="card" id="card" hidden></div>' +
     '<div class="note">学校名と所在地は文部科学省「学校コード一覧」（' + ESC((DATA.source || '').replace(/^.*?（/, '').replace(/）$/, '')) + '）から。地図の位置は所在地の町・市区町村の代表地点の目安です。' +
-    (nS ? '' : '専門学校は自動収集で順に追加しています。') + '入試・学費などは各学校の公式サイトで確認してください。<a href="' + ESC(DATA.source_url || '#') + '" target="_blank" rel="noopener">学校コード一覧 ↗</a></div></div>' +
+    (nS ? '' : '専門学校は自動収集で順に追加しています。') + '入試・学費などは各学校の公式サイトで確認してください。<a href="' + ESC(DATA.source_url || '#') + '" target="_blank" rel="noopener">学校コード一覧 ↗</a><span id="rcred"></span></div></div>' +
     '<div class="list" id="list"></div></div></div>';
   const $ = id => root.getElementById(id);
   const svg = $('map');
   $('prefs').innerHTML = (DATA.prefs || []).map(p => '<path d="' + p.d + '"/>').join('');
   let vb = HOME.slice(), kind = '', sel = null;
+  // 鉄道・高速道路（大学検索の地図と同じデータ。表示する・しないは大学検索と共通でこの端末に覚える）
+  const LY = { rail: false, road: false };
+  try { LY.rail = localStorage.getItem('searchuniv:rail') === '1'; LY.road = localStorage.getItem('searchuniv:road') === '1'; } catch(e){}
+  function drawRail(){
+    const R = DATA.rail, H = DATA.road, P = [], key = [], cred = [];
+    if(H && LY.road){ P.push('<path class="r-hw" d="' + H.hw + '"/>'); key.push('<span><i style="border-color:#2e7d32"></i>高速道路</span>'); cred.push(H.credit); }
+    if(R && LY.rail){ ['other', 'jr', 'shin'].filter(k => R[k]).forEach(k => P.push('<path class="r-' + k + '" d="' + R[k] + '"/>')); key.push('<span><i style="border-color:#c62828"></i>新幹線</span><span><i style="border-color:#1e5aa8"></i>JR</span><span><i style="border-color:#8fb3dc"></i>私鉄など</span>'); cred.push(R.credit); }
+    $('rail').innerHTML = P.join('');
+    [['tgrail', R, 'rail'], ['tgroad', H, 'road']].forEach(([id, D, k]) => { const b = $(id); b.hidden = !D; b.setAttribute('aria-pressed', LY[k] ? 'true' : 'false'); });
+    $('rkey').innerHTML = key.join(''); $('rcred').textContent = cred.length ? '　鉄道・道路の出典：' + cred.join('／') : '';
+  }
+  [['tgrail', 'rail'], ['tgroad', 'road']].forEach(([id, k]) => { $(id).onclick = () => { LY[k] = !LY[k]; try { localStorage.setItem('searchuniv:' + k, LY[k] ? '1' : '0'); } catch(e){} drawRail(); }; });
+  drawRail();
   const pts = S.filter(s => s.xy);
   const dotsG = $('dots');
   dotsG.innerHTML = pts.map(s => '<circle class="dot ' + (s.kind === '短大' ? 't' : 's') + '" data-i="' + s.i + '" cx="' + s.xy[0] + '" cy="' + s.xy[1] + '" r="2"><title>' + ESC(s.name) + '</title></circle>').join('');

@@ -16,6 +16,9 @@ for s in d['schools']:
     S.append({'kind': s['kind'], 'type': s['type'], 'name': s['name'], 'addr': s['addr'], 'pref': s['pref'], 'xy': xy})
 built = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).strftime('%Y-%m-%d %H:%M')
 data = {'source': d.get('source', ''), 'source_url': d.get('source_url', ''), 'built': built, 'prefs': prefs, 'schools': S}
+for k in ('rail', 'road'):
+    f = P('data', 'map_' + k + '.json')
+    if os.path.exists(f): data[k] = json.load(open(f, encoding='utf-8'))
 t = open(P('tools', 'ts_template.js'), encoding='utf-8').read()
 js = re.sub(r'/\*TSDATA\*/.*?/\*END_TSDATA\*/', lambda m: '/*TSDATA*/' + json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/') + '/*END_TSDATA*/', t, count=1, flags=re.S)
 open(P('ts-module.js'), 'w', encoding='utf-8').write(js)
