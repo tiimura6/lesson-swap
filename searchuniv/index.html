@@ -1367,12 +1367,13 @@ function setVB(target){
 }
 const PRIO={teidai:0,kanto:1,souke:2,march:3,chiho:4,kankan:5,chuken:6,iryo:7,rikou:8,joshi:9,kokusai:10,ibaraki:1,daigakkou:11,senmon:12,national:13,public:14,private:15};
 function shortName(n){ return n.replace(/（.*?）/g,""); }
-// 大学の点の半径：地図の縮尺に合わせつつ、画面上で直径9px以上（スマホでも押しやすく）
-function dotR(){ const k=curVB[2]/HOME_VB[2]; const m=$("jmap").getScreenCTM(); const ppu=(m&&m.a)||1; return Math.max(3.2*k, 4.6/ppu); }
+// 大学の点の半径：短大・専門の地図と同じく、どの縮尺でも画面上で半径3.2px（押しやすさは透明な太い縁で確保）
+function mapPpu(){ const m=$("jmap").getScreenCTM(); return (m&&m.a)||($("jmap").clientWidth||800)/curVB[2]; }
+function dotR(){ return 3.2/mapPpu(); }
 function scaleMarks(){
   const k=curVB[2]/HOME_VB[2];
   ROOT.querySelectorAll("#jmap .dot").forEach(c=>c.setAttribute("r",dotR().toFixed(3)));
-  ROOT.querySelectorAll("#jmap .hl,#jmap .pulse").forEach(c=>c.setAttribute("r",(3.4*k).toFixed(3)));
+  ROOT.querySelectorAll("#jmap .hl,#jmap .pulse").forEach(c=>c.setAttribute("r",(5/mapPpu()).toFixed(3)));   // 選んだ大学は半径5px（短大・専門と同じ）
   const l=ROOT.querySelector("#jmap .lbl"); if(l){ const m=$("jmap").getScreenCTM(), pp=(m&&m.a)||1/k; l.setAttribute("font-size",(12/pp).toFixed(3)); const c=ROOT.querySelector("#jmap .hl"); l.setAttribute("x",(+c.getAttribute("cx")+6/pp).toFixed(2)); l.setAttribute("y",(+c.getAttribute("cy")+4/pp).toFixed(2)); }
   scheduleLabels();
 }
@@ -1761,7 +1762,7 @@ $("kt-go").onclick=async()=>{
 };
 
 // ===== 更新日時（検索欄の下に表示）=====
-const BUILD=/*BUILD*/{"built":"2026-11-08 22:01","schedule":"2026-11-08","diffyear":"2027年度入試用"}/*END_BUILD*/;
+const BUILD=/*BUILD*/{"built":"2026-11-08 22:31","schedule":"2026-11-08","diffyear":"2027年度入試用"}/*END_BUILD*/;
 (function(){ const el=$("updline"); if(!el||!BUILD.built) return; const d=s=>s?s.replace(/-/g,"/"):"";
   el.textContent="更新 "+d(BUILD.built)+"・"+items.length+"校｜入試日程の確認 "+d((BUILD.schedule||BUILD.built).slice(0,10))+"（一般選抜は12月下旬に更新）"; el.title="難易度：河合塾「"+(BUILD.diffyear||"2027年度入試用")+"」"; })();
 $("univlist").innerHTML=items.map(x=>'<option value="'+esc(x.name)+'">').join("");

@@ -56,7 +56,8 @@ with sync_playwright() as p:
     others = J('[...document.querySelectorAll("#labels .ulbl")].filter(t=>getComputedStyle(t).display!=="none"&&t.textContent!=="東北大学").length')
     ck(G, '選択中は他の大学名を地図に出さない', others == 0, others)
     r = J('(()=>{const c=document.querySelector("#jmap .dot"); const b=c.getBoundingClientRect(); return Math.round(b.width)})()')
-    ck(G, '大学の丸が9px以上（クリックしやすい）', r >= 9 or J('dotR' in 'x') , '%dpx' % r)
+    # 2026-11-08〜 丸の大きさは短大・専門の地図と同じ（半径3.2px）。押しやすさは透明な太い縁（14px）で確保
+    ck(G, '大学の丸が短大・専門と同じ大きさで、押せる範囲は広い', 5 <= r <= 8 and 'stroke:transparent;stroke-width:14px' in tpl, '%dpx' % r)
     ck(G, '市町村の表示なし', 'const SHOW_MUNI=false' in tpl)
     ck(G, '空いた所をクリックで選択解除・ホバーで大学名', 'clearSelection' in tpl and 'ctip' in tpl)
     ck(G, '最新ニュースをタイトルと同じ行に流して表示', J('document.getElementById("nticker").closest(".hrow") && !document.getElementById("nticker").hidden && document.querySelectorAll("#nt-track .nt-i").length>0 && getComputedStyle(document.getElementById("nt-track")).animationName==="ntscroll"'))
