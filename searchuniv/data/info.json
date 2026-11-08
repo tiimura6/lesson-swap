@@ -81775,7 +81775,8 @@
 "https://search.keinet.ne.jp/1015/outline/licential",
 "https://search.keinet.ne.jp/1015/outline/admission_employment",
 "https://search.keinet.ne.jp/1015/general/exam_subject",
-"https://search.keinet.ne.jp/1015/outline/expense"
+"https://search.keinet.ne.jp/1015/outline/expense",
+"https://passnavi.obunsha.co.jp/univ/0050/schedule/"
 ],
 "departments": [
 {
@@ -81828,7 +81829,7 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "money": "2026-11-08",
-"schedule": "2026-11-06",
+"schedule": "2026-11-08",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -81883,6 +81884,24 @@
 "result": "12/8",
 "proc": "12/23",
 "note": "出願期間は締切日のみ掲載"
+},
+{
+"kubun": "一般",
+"name": "一般 前期",
+"apply": "1/25〜2/3",
+"exam": "2/25",
+"result": "3/6",
+"proc": "3/15",
+"note": "共テ1/16・17（パスナビ 2027年度入試）"
+},
+{
+"kubun": "一般",
+"name": "一般 後期",
+"apply": "1/25〜2/3",
+"exam": "3/12",
+"result": "3/20",
+"proc": "3/27",
+"note": "共同獣医学課程は3/12、畜産科学課程は3/13（パスナビ 2027年度入試）"
 }
 ]
 },
@@ -82020,7 +82039,10 @@
 "https://search.keinet.ne.jp/1040",
 "https://search.keinet.ne.jp/1040/outline/department",
 "https://search.keinet.ne.jp/1040/outline/licential",
-"https://search.keinet.ne.jp/1040/outline/admission_employment"
+"https://search.keinet.ne.jp/1040/outline/admission_employment",
+"https://passnavi.obunsha.co.jp/univ/0080/schedule/",
+"https://nyushi.hirosaki-u.ac.jp/wp-content/uploads/2026/04/r9_sbyk_zantei.pdf",
+"https://nyushi.hirosaki-u.ac.jp/wp-content/uploads/2026/07/03_R9_bsyk_abro.pdf"
 ],
 "departments": [
 {
@@ -82415,11 +82437,12 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"money": "2026-11-06",
+"money": "2026-11-08",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"qtrend": "2026-11-07"
+"qtrend": "2026-11-07",
+"schedule": "2026-11-08"
 },
 "money": {
 "year": "2026年度",
@@ -82440,6 +82463,19 @@
 {
 "name": "弘前大学基金「弘前大学生活協同組合学生支援金給付事業」",
 "what": "家計基準で国の給付型奨学金の対象外となり貸与型を利用・申請中の学生約30名に10万円を1回給付"
+}
+],
+"rows": [
+{
+"f": "全学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 817800,
+"four_year": null,
+"note": "2027年度入学者の予定額。合計は入学金＋授業料（大学公式 令和9年度募集要項）"
 }
 ]
 },
@@ -82500,6 +82536,29 @@
 }
 ],
 "note": "問題冊子に対象学部・試験時間の記載なし。英語・数学等は未確認"
+},
+"schedule": {
+"rows": [
+{
+"kubun": "一般",
+"name": "一般 前期",
+"apply": "1/25〜2/3",
+"exam": "2/25",
+"result": "3/6",
+"proc": "3/15",
+"note": "教育学部・医学部医学科は2/25・2/26。インターネット出願登録・検定料払込は1/21〜（大学公式 令和9年度選抜要項〈暫定〉・パスナビ）"
+},
+{
+"kubun": "一般",
+"name": "一般 後期",
+"apply": "1/25〜2/3",
+"exam": "3/12",
+"result": "3/20",
+"proc": "3/27",
+"note": "人文社会科学部・教育学部（小学校コース）・理工学部・農学生命科学部のみ（パスナビ 2027年度入試）"
+}
+],
+"year": "2027年度入試"
 }
 },
 "旭川医科大学": {
@@ -82520,7 +82579,9 @@
 ],
 "sources": [
 "https://search.keinet.ne.jp/1005",
-"https://search.keinet.ne.jp/1005/outline/department"
+"https://search.keinet.ne.jp/1005/outline/department",
+"https://passnavi.obunsha.co.jp/univ/0060/schedule/",
+"https://search.keinet.ne.jp/1005/outline/expense"
 ],
 "departments": [
 {
@@ -82560,8 +82621,8 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"money": "2026-11-06",
-"schedule": "2026-11-06",
+"money": "2026-11-08",
+"schedule": "2026-11-08",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06"
@@ -82572,7 +82633,20 @@
 "total4_note": "入学金＋授業料6年（医学科、施設費等含まず）。看護学科（4年制）は4年計2,425,200円",
 "admission": 282000,
 "annual": 535800,
-"note": "大学独自制度は貸与型のみ掲載：看護学科学生向け奨学資金（月額35,000円・最長48か月）、医学科学生向け奨学資金（月額70,000円・最長72か月）。いずれも大学病院勤務等の条件で返還免除あり（Kei-Net、2026年度情報）"
+"note": "大学独自制度は貸与型のみ掲載：看護学科学生向け奨学資金（月額35,000円・最長48か月）、医学科学生向け奨学資金（月額70,000円・最長72か月）。いずれも大学病院勤務等の条件で返還免除あり（Kei-Net、2026年度情報）",
+"rows": [
+{
+"f": "医学部（医学科・看護学科）",
+"admission": 282000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 817800,
+"four_year": null,
+"note": "合計は入学金＋授業料（Kei-Net 2026年度）"
+}
+]
 },
 "schedule": {
 "year": "2027年度入試",
@@ -82594,6 +82668,24 @@
 "result": "12/17",
 "proc": "12/23",
 "note": ""
+},
+{
+"kubun": "一般",
+"name": "一般 前期",
+"apply": "1/25〜2/3",
+"exam": "2/25",
+"result": "3/8",
+"proc": "",
+"note": "医学科は2/25・2/26、看護学科は2/25。手続締切は未掲載（パスナビ 2027年度入試）"
+},
+{
+"kubun": "一般",
+"name": "一般 後期",
+"apply": "1/25〜2/3",
+"exam": "3/12",
+"result": "3/23",
+"proc": "",
+"note": "看護学科のみ。手続締切は未掲載（パスナビ 2027年度入試）"
 }
 ]
 },
@@ -82732,7 +82824,10 @@
 "https://search.keinet.ne.jp/1070/outline/licential",
 "https://search.keinet.ne.jp/1070/outline/admission_employment",
 "https://search.keinet.ne.jp/1070/general/exam_subject",
-"https://search.keinet.ne.jp/1070/general/border_rate"
+"https://search.keinet.ne.jp/1070/general/border_rate",
+"https://passnavi.obunsha.co.jp/univ/0140/schedule/",
+"https://nyushi.adb.fukushima-u.ac.jp/schedule/Files/2026/05/03_ippan.pdf",
+"https://search.keinet.ne.jp/1070/outline/expense"
 ],
 "departments": [
 {
@@ -82983,8 +83078,8 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"money": "2026-11-06",
-"schedule": "2026-11-06",
+"money": "2026-11-08",
+"schedule": "2026-11-08",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06"
@@ -83147,6 +83242,19 @@
 "name": "しのぶ育英奨学金",
 "what": "意欲・成績・人物に優れ経済的に困難な2〜4年生約10名に月額5万円を1年間給付（2026年度実施情報、書類・面接選考）"
 }
+],
+"rows": [
+{
+"f": "全学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 817800,
+"four_year": null,
+"note": "諸会費等が別途。合計は入学金＋授業料（Kei-Net 2026年度）"
+}
 ]
 },
 "schedule": {
@@ -83169,6 +83277,24 @@
 "result": "2/9",
 "proc": "2/17",
 "note": "教育学部。理工学部は試験日1/27"
+},
+{
+"kubun": "一般",
+"name": "一般 前期",
+"apply": "1/25〜2/3",
+"exam": "2/25",
+"result": "3/6",
+"proc": "3/15",
+"note": "教育・政経・理工・食農の各学部（パスナビ 2027年度入試）"
+},
+{
+"kubun": "一般",
+"name": "一般 後期",
+"apply": "1/25〜2/3",
+"exam": "3/12",
+"result": "3/20",
+"proc": "3/27",
+"note": "教育・政経・理工・食農の各学部（パスナビ 2027年度入試）"
 }
 ]
 },
@@ -83352,7 +83478,8 @@
 "https://search.keinet.ne.jp/1060/outline/licential",
 "https://search.keinet.ne.jp/1060/outline/admission_employment",
 "https://search.keinet.ne.jp/1060/general/exam_subject",
-"https://search.keinet.ne.jp/1060/general/border_rate"
+"https://search.keinet.ne.jp/1060/general/border_rate",
+"https://search.keinet.ne.jp/1060/outline/expense"
 ],
 "departments": [
 {
@@ -83614,7 +83741,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"money": "2026-11-06",
+"money": "2026-11-08",
 "schedule": "2026-11-06",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
@@ -83931,6 +84058,19 @@
 {
 "name": "秋田大学学業奨励金",
 "what": "前年度成績等で学部長が推薦した2〜4年生（医学科は2〜6年生）約16名に8万円を給付（2026年度実施情報）"
+}
+],
+"rows": [
+{
+"f": "全学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 817800,
+"four_year": null,
+"note": "合計は入学金＋授業料（Kei-Net 2026年度）"
 }
 ]
 },
@@ -153214,6 +153354,688 @@ null
 "https://search.keinet.ne.jp/2167/outline/expense",
 "https://search.keinet.ne.jp/2167/general/border_rate",
 "https://search.keinet.ne.jp/2167/general/exam_result"
+]
+},
+"共立女子大学": {
+"difficulty": {
+"hensachi": "35.0〜47.5",
+"kyotei": "59%〜75%",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-08",
+"faculties": "2026-11-08",
+"departments": "2026-11-08",
+"founded": "2026-11-08",
+"access": "2026-11-08",
+"tuition": "2026-11-08",
+"money": "2026-11-08",
+"research": "2026-11-08",
+"licenses": "2026-11-08",
+"careers": "2026-11-08"
+},
+"faculties": [
+"文芸学部",
+"国際学部",
+"ビジネス学部",
+"建築・デザイン学部",
+"看護学部",
+"児童学部",
+"家政学部"
+],
+"departments": [
+{
+"f": "文芸学部",
+"d": [
+"文芸学科"
+]
+},
+{
+"f": "国際学部",
+"d": [
+"国際学科"
+]
+},
+{
+"f": "ビジネス学部",
+"d": [
+"ビジネス学科"
+]
+},
+{
+"f": "建築・デザイン学部",
+"d": [
+"建築・デザイン学科"
+]
+},
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+},
+{
+"f": "児童学部",
+"d": [
+"児童学科"
+]
+},
+{
+"f": "家政学部",
+"d": [
+"被服学科",
+"食物栄養学科（食物学専攻・管理栄養士専攻）"
+]
+}
+],
+"founded": "1886年 共立女子職業学校創立、1949年 大学開学",
+"access": "神田一ツ橋キャンパス（東京都千代田区一ツ橋・神田神保町）（Kei-Net）",
+"tuition": {
+"amount": 880000,
+"label": "入学金＋授業料（文芸学部）",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 150000,
+"annual": null,
+"note": "学科により初年度129万〜192万円。全学科で同窓会会費5万円が別途（Kei-Net）",
+"rows": [
+{
+"f": "文芸学部 文芸学科",
+"admission": 150000,
+"tuition": 730000,
+"facility": 410000,
+"practical": null,
+"other": null,
+"first_year": 1290000,
+"four_year": null,
+"note": "同窓会会費5万円は別途（Kei-Net 2026年度）"
+},
+{
+"f": "国際学部 国際学科",
+"admission": 150000,
+"tuition": 770000,
+"facility": 410000,
+"practical": null,
+"other": null,
+"first_year": 1330000,
+"four_year": null,
+"note": "同窓会会費5万円は別途（Kei-Net 2026年度）"
+},
+{
+"f": "ビジネス学部 ビジネス学科",
+"admission": 150000,
+"tuition": 800000,
+"facility": 410000,
+"practical": null,
+"other": null,
+"first_year": 1360000,
+"four_year": null,
+"note": "同窓会会費5万円は別途（Kei-Net 2026年度）"
+},
+{
+"f": "建築・デザイン学部 建築・デザイン学科",
+"admission": 150000,
+"tuition": 850000,
+"facility": 410000,
+"practical": 60000,
+"other": null,
+"first_year": 1470000,
+"four_year": null,
+"note": "同窓会会費5万円は別途（Kei-Net 2026年度）"
+},
+{
+"f": "看護学部 看護学科",
+"admission": 150000,
+"tuition": 1180000,
+"facility": 410000,
+"practical": 180000,
+"other": null,
+"first_year": 1920000,
+"four_year": null,
+"note": "同窓会会費5万円は別途（Kei-Net 2026年度）"
+},
+{
+"f": "児童学部 児童学科",
+"admission": 150000,
+"tuition": 810000,
+"facility": 410000,
+"practical": 60000,
+"other": null,
+"first_year": 1430000,
+"four_year": null,
+"note": "同窓会会費5万円は別途（Kei-Net 2026年度）"
+},
+{
+"f": "家政学部 被服学科",
+"admission": 150000,
+"tuition": 810000,
+"facility": 410000,
+"practical": 60000,
+"other": null,
+"first_year": 1430000,
+"four_year": null,
+"note": "同窓会会費5万円は別途（Kei-Net 2026年度）"
+},
+{
+"f": "家政学部 食物栄養学科 食物学専攻",
+"admission": 150000,
+"tuition": 830000,
+"facility": 410000,
+"practical": 60000,
+"other": null,
+"first_year": 1450000,
+"four_year": null,
+"note": "同窓会会費5万円は別途（Kei-Net 2026年度）"
+},
+{
+"f": "家政学部 食物栄養学科 管理栄養士専攻",
+"admission": 150000,
+"tuition": 830000,
+"facility": 410000,
+"practical": 70000,
+"other": null,
+"first_year": 1460000,
+"four_year": null,
+"note": "同窓会会費5万円は別途（Kei-Net 2026年度）"
+}
+]
+},
+"research": [
+"文学・芸術",
+"国際関係",
+"ビジネス",
+"建築・デザイン",
+"看護学",
+"児童学",
+"被服学",
+"食物・栄養学"
+],
+"licenses": [
+"中学校・高校教諭一種（国語・英語・社会・地理歴史・公民・家庭・情報など、学科による）",
+"学校図書館司書教諭",
+"司書（文芸）",
+"学芸員",
+"一級・二級建築士受験資格（建築・デザイン）",
+"看護師国家試験受験資格",
+"保健師国家試験受験資格",
+"養護教諭二種（看護）",
+"保育士（児童）",
+"幼稚園教諭一種（児童）",
+"小学校教諭一種（児童）",
+"衣料管理士1級（被服）",
+"食品衛生監視員（食物栄養）",
+"フードスペシャリスト（食物学専攻）",
+"管理栄養士国家試験受験資格（管理栄養士専攻）",
+"栄養士",
+"栄養教諭一種（管理栄養士専攻）"
+],
+"careers": "2024年度卒業者の就職率は学部により90.0〜94.0%（Kei-Net）。看護師国家試験合格率は2026年97.2%（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2206",
+"https://search.keinet.ne.jp/2206/outline/department",
+"https://search.keinet.ne.jp/2206/outline/licential",
+"https://search.keinet.ne.jp/2206/outline/admission_employment",
+"https://search.keinet.ne.jp/2206/outline/expense",
+"https://search.keinet.ne.jp/2206/general/exam_result",
+"https://search.keinet.ne.jp/2206/general/border_rate"
+]
+},
+"創価大学": {
+"difficulty": {
+"hensachi": "35.0〜47.5",
+"kyotei": "47%〜65%",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-08",
+"faculties": "2026-11-08",
+"departments": "2026-11-08",
+"students": "2026-11-08",
+"founded": "2026-11-08",
+"access": "2026-11-08",
+"tuition": "2026-11-08",
+"money": "2026-11-08",
+"research": "2026-11-08",
+"licenses": "2026-11-08",
+"careers": "2026-11-08"
+},
+"faculties": [
+"文学部",
+"教育学部",
+"国際教養学部",
+"法学部",
+"経済経営学部",
+"理工学部",
+"看護学部"
+],
+"departments": [
+{
+"f": "文学部",
+"d": [
+"人間学科"
+]
+},
+{
+"f": "教育学部",
+"d": [
+"心理・教育学科",
+"児童教育学科"
+]
+},
+{
+"f": "国際教養学部",
+"d": [
+"国際教養学科"
+]
+},
+{
+"f": "法学部",
+"d": [
+"法律政治学科"
+]
+},
+{
+"f": "経済経営学部",
+"d": [
+"ビジネス学科"
+]
+},
+{
+"f": "理工学部",
+"d": [
+"グリーンテクノロジー学科",
+"生命理工学科",
+"情報システム工学科"
+]
+},
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+}
+],
+"students": {
+"count": 5618,
+"year": 2025
+},
+"founded": "1971年 開学",
+"access": "東京都八王子市丹木町のキャンパス（Kei-Net）",
+"tuition": {
+"amount": 1150000,
+"label": "入学金＋授業料（法・経済経営学部）",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 200000,
+"annual": null,
+"note": "学部により初年度117万〜162万円（諸会費1.9万円を含む）。文・教育・理工で教職課程希望者は課程登録費2.5万円が別途（Kei-Net）",
+"rows": [
+{
+"f": "文学部 人間学科",
+"admission": 200000,
+"tuition": 970000,
+"facility": null,
+"practical": null,
+"other": 19000,
+"first_year": 1189000,
+"four_year": null,
+"note": "other は諸会費等（Kei-Net 2026年度）"
+},
+{
+"f": "教育学部",
+"admission": 200000,
+"tuition": 970000,
+"facility": null,
+"practical": null,
+"other": 19000,
+"first_year": 1189000,
+"four_year": null,
+"note": "other は諸会費等（Kei-Net 2026年度）"
+},
+{
+"f": "国際教養学部",
+"admission": 200000,
+"tuition": 1210000,
+"facility": null,
+"practical": null,
+"other": 19000,
+"first_year": 1429000,
+"four_year": null,
+"note": "other は諸会費等。留学に伴う費用は自己負担（Kei-Net 2026年度）"
+},
+{
+"f": "法学部 法律政治学科",
+"admission": 200000,
+"tuition": 950000,
+"facility": null,
+"practical": null,
+"other": 19000,
+"first_year": 1169000,
+"four_year": null,
+"note": "other は諸会費等（Kei-Net 2026年度）"
+},
+{
+"f": "経済経営学部 ビジネス学科",
+"admission": 200000,
+"tuition": 950000,
+"facility": null,
+"practical": null,
+"other": 19000,
+"first_year": 1169000,
+"four_year": null,
+"note": "other は諸会費等（Kei-Net 2026年度）"
+},
+{
+"f": "理工学部",
+"admission": 200000,
+"tuition": 1280000,
+"facility": null,
+"practical": 90000,
+"other": 19000,
+"first_year": 1589000,
+"four_year": null,
+"note": "other は諸会費等（Kei-Net 2026年度）"
+},
+{
+"f": "看護学部",
+"admission": 200000,
+"tuition": 1240000,
+"facility": null,
+"practical": 160000,
+"other": 19000,
+"first_year": 1619000,
+"four_year": null,
+"note": "other は諸会費等。保険料年4,500円が別途（Kei-Net 2026年度）"
+}
+]
+},
+"research": [
+"人間学",
+"心理・教育",
+"国際教養",
+"法律・政治",
+"ビジネス",
+"環境・エネルギー技術",
+"生命理工",
+"情報システム工学",
+"看護学"
+],
+"licenses": [
+"中学校・高校教諭一種（国語・社会・英語・地理歴史・公民・理科・数学・情報、学科による）",
+"社会福祉士受験資格（人間）",
+"公認心理師受験資格（心理・教育）",
+"幼稚園教諭一種（児童教育）",
+"小学校教諭一種（児童教育）",
+"特別支援学校教諭一種（児童教育）",
+"看護師国家試験受験資格"
+],
+"careers": "2024年度卒業者の就職率は文83.1%・経済89.4%・看護92.0%など。理工学部は進学42.1%（Kei-Net）。看護師国家試験合格率は2026年97.1%（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2234",
+"https://search.keinet.ne.jp/2234/outline/department",
+"https://search.keinet.ne.jp/2234/outline/licential",
+"https://search.keinet.ne.jp/2234/outline/admission_employment",
+"https://search.keinet.ne.jp/2234/outline/expense",
+"https://search.keinet.ne.jp/2234/general/exam_result",
+"https://search.keinet.ne.jp/2234/general/border_rate"
+]
+},
+"十文字学園女子大学": {
+"difficulty": {
+"hensachi": "37.5〜42.5",
+"kyotei": "44%〜57%",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-08",
+"faculties": "2026-11-08",
+"departments": "2026-11-08",
+"founded": "2026-11-08",
+"access": "2026-11-08",
+"tuition": "2026-11-08",
+"money": "2026-11-08",
+"research": "2026-11-08",
+"careers": "2026-11-08"
+},
+"faculties": [
+"文学部",
+"教育学部",
+"心理学部",
+"社会情報デザイン学部",
+"人間生活学部"
+],
+"departments": [
+{
+"f": "文学部",
+"d": [
+"文芸文化学科"
+]
+},
+{
+"f": "教育学部",
+"d": [
+"幼児教育学科",
+"児童教育学科"
+]
+},
+{
+"f": "心理学部",
+"d": [
+"心理学科"
+]
+},
+{
+"f": "社会情報デザイン学部",
+"d": [
+"社会情報デザイン学科"
+]
+},
+{
+"f": "人間生活学部",
+"d": [
+"健康栄養学科",
+"食物栄養学科",
+"食品開発学科",
+"人間福祉学科（社会福祉・保育専攻、社会福祉・介護福祉専攻）"
+]
+}
+],
+"founded": "1922年 文華高等女学校開校、1996年 大学開学",
+"access": "埼玉県新座市菅沢のキャンパス（Kei-Net）",
+"tuition": {
+"amount": 1000000,
+"label": "入学金＋授業料（心理・文芸文化・社会情報デザイン・人間福祉）",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 250000,
+"annual": null,
+"note": "2026年度の学部名で掲載（2027年度に改組予定）。other は保険料（2025年度実績）（Kei-Net）",
+"rows": [
+{
+"f": "教育人文学部 幼児教育・児童教育",
+"admission": 250000,
+"tuition": 770000,
+"facility": 350000,
+"practical": null,
+"other": 64660,
+"first_year": 1434660,
+"four_year": null,
+"note": "other は諸会費等6万円＋保険料4,660円（Kei-Net 2026年度）"
+},
+{
+"f": "教育人文学部 心理・文芸文化",
+"admission": 250000,
+"tuition": 750000,
+"facility": 350000,
+"practical": null,
+"other": 64660,
+"first_year": 1414660,
+"four_year": null,
+"note": "other は諸会費等6万円＋保険料4,660円（Kei-Net 2026年度）"
+},
+{
+"f": "社会情報デザイン学部",
+"admission": 250000,
+"tuition": 750000,
+"facility": 350000,
+"practical": null,
+"other": 64660,
+"first_year": 1414660,
+"four_year": null,
+"note": "other は諸会費等6万円＋保険料4,660円（Kei-Net 2026年度）"
+},
+{
+"f": "人間生活学部 健康栄養・食物栄養・食品開発",
+"admission": 250000,
+"tuition": 800000,
+"facility": 400000,
+"practical": null,
+"other": 64660,
+"first_year": 1514660,
+"four_year": null,
+"note": "other は諸会費等6万円＋保険料4,660円（Kei-Net 2026年度）"
+},
+{
+"f": "人間生活学部 人間福祉",
+"admission": 250000,
+"tuition": 750000,
+"facility": 350000,
+"practical": null,
+"other": 64660,
+"first_year": 1414660,
+"four_year": null,
+"note": "other は諸会費等6万円＋保険料4,660円（Kei-Net 2026年度）"
+}
+]
+},
+"research": [
+"文芸文化",
+"幼児教育",
+"児童教育",
+"心理学",
+"社会情報デザイン",
+"健康栄養",
+"食物栄養",
+"食品開発",
+"社会福祉・介護福祉"
+],
+"careers": "2024年度卒業者の就職率は教育人文88.5%・社会情報デザイン85.6%・人間生活94.9%（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2161",
+"https://search.keinet.ne.jp/2161/outline/department",
+"https://search.keinet.ne.jp/2161/outline/admission_employment",
+"https://search.keinet.ne.jp/2161/outline/expense",
+"https://search.keinet.ne.jp/2161/general/border_rate"
+]
+},
+"千葉商科大学": {
+"difficulty": {
+"hensachi": "37.5〜50.0",
+"kyotei": "52%〜66%",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-08",
+"faculties": "2026-11-08",
+"departments": "2026-11-08",
+"students": "2026-11-08",
+"founded": "2026-11-08",
+"access": "2026-11-08",
+"tuition": "2026-11-08",
+"money": "2026-11-08",
+"research": "2026-11-08",
+"licenses": "2026-11-08"
+},
+"faculties": [
+"人間社会学部",
+"総合政策学部",
+"サービス創造学部",
+"商経学部"
+],
+"departments": [
+{
+"f": "人間社会学部",
+"d": [
+"人間社会学科"
+]
+},
+{
+"f": "総合政策学部",
+"d": [
+"経済学科",
+"政策情報学科"
+]
+},
+{
+"f": "サービス創造学部",
+"d": [
+"サービス創造学科"
+]
+},
+{
+"f": "商経学部",
+"d": [
+"商学科",
+"経営学科"
+]
+}
+],
+"students": {
+"count": 6179,
+"year": 2025
+},
+"founded": "1927年 巣鴨学園創設、1950年 大学開学",
+"access": "市川キャンパス（千葉県市川市国府台）（Kei-Net）",
+"tuition": {
+"amount": 1059000,
+"label": "入学金＋授業料",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 140000,
+"annual": null,
+"note": "全学部同額（Kei-Net）",
+"rows": [
+{
+"f": "全学部",
+"admission": 140000,
+"tuition": 919000,
+"facility": 240000,
+"practical": null,
+"other": 24860,
+"first_year": 1323860,
+"four_year": null,
+"note": "other は諸会費等（Kei-Net 2026年度）"
+}
+]
+},
+"research": [
+"人間社会学",
+"経済学",
+"政策情報",
+"サービス産業",
+"商学",
+"経営学"
+],
+"licenses": [
+"社会福祉主事（人間社会）",
+"高校教諭一種（商業）（商・経営）",
+"高校教諭一種（情報）（商）"
+],
+"sources": [
+"https://search.keinet.ne.jp/2179",
+"https://search.keinet.ne.jp/2179/outline/department",
+"https://search.keinet.ne.jp/2179/outline/licential",
+"https://search.keinet.ne.jp/2179/outline/expense",
+"https://search.keinet.ne.jp/2179/general/exam_result",
+"https://search.keinet.ne.jp/2179/general/border_rate"
 ]
 }
 }
