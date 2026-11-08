@@ -1387,41 +1387,6 @@
 "cat": "private"
 },
 {
-"name": "日本医療大学",
-"type": "私立",
-"pref": "北海道",
-"hp": "https://www.jhu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "日本赤十字北海道看護大学",
-"type": "私立",
-"pref": "北海道",
-"hp": "https://www.rchokkaido-cn.ac.jp/",
-"cat": "private"
-},
-{
-"name": "日本赤十字秋田看護大学",
-"type": "私立",
-"pref": "秋田県",
-"hp": "https://www.rcakita.ac.jp/",
-"cat": "private"
-},
-{
-"name": "星槎道都大学",
-"type": "私立",
-"pref": "北海道",
-"hp": "https://www.seisadohto.ac.jp/",
-"cat": "private"
-},
-{
-"name": "札幌保健医療大学",
-"type": "私立",
-"pref": "北海道",
-"hp": "https://www.sapporo-hokeniryou-u.ac.jp/",
-"cat": "private"
-},
-{
 "name": "札幌国際大学",
 "type": "私立",
 "pref": "北海道",
@@ -3899,6 +3864,36 @@
 "日本ウェルネススポーツ大学": 1
 },
 "enrich": [
+{
+"name": "日本医療大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "日本赤十字北海道看護大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "日本赤十字秋田看護大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "星槎道都大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "札幌保健医療大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "東北福祉大学",
 "need": [
@@ -23562,6 +23557,126 @@
 },
 {
 "name": "盛岡大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "日本医療大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "日本医療大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "日本医療大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "日本医療大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "日本赤十字北海道看護大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "日本赤十字北海道看護大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "日本赤十字北海道看護大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "日本赤十字北海道看護大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "日本赤十字秋田看護大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "日本赤十字秋田看護大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "日本赤十字秋田看護大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "日本赤十字秋田看護大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "星槎道都大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "星槎道都大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "星槎道都大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "星槎道都大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "札幌保健医療大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "札幌保健医療大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "札幌保健医療大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "札幌保健医療大学",
 "need": [
 "scholar"
 ]

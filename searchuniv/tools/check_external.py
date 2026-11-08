@@ -44,6 +44,7 @@ def _nz(v):
     return (v or None), (extra.strip() if extra else None)
 def normalize_shape(r):
     info = r.get('info') or {}
+    info.pop('ic', None)  # 最寄りの高速ICは載せない（2026-11-08 先生の指示）
     sc = info.get('schedule')
     if isinstance(sc, dict) and 'rows' not in sc:
         rows = []

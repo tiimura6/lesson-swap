@@ -1,0 +1,880 @@
+[
+ {
+  "name": "日本医療大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "北海道札幌市",
+  "pref_name": "北海道",
+  "city": "札幌市",
+  "hp": "https://www.jhu.ac.jp/",
+  "reading": "にほんいりょうだいがく",
+  "features": [
+   "医療と福祉の総合教育を推進し附属病院や提携医療機関での豊富な臨地実習を展開している。",
+   "看護・リハビリ・放射線・臨床検査・臨床工学の多職種連携教育を体系的に実施している。",
+   "2026年4月にヒューマンデザイン学部を開設し医療DXや共生社会を担う実務人材を育成する。"
+  ],
+  "memo": "偏差値は35.0〜40.0（BF除く）、共テ得点率は35%〜49%（河合塾Kei-Net）。",
+  "info": {
+   "faculties": [
+    "保健医療学部",
+    "ヒューマンデザイン学部"
+   ],
+   "departments": [
+    {
+     "f": "保健医療学部",
+     "d": [
+      "看護学科",
+      "リハビリテーション学科理学療法学専攻",
+      "リハビリテーション学科作業療法学専攻",
+      "診療放射線学科",
+      "臨床検査学科",
+      "臨床工学科"
+     ]
+    },
+    {
+     "f": "ヒューマンデザイン学部",
+     "d": [
+      "医療DXマネジメント学科",
+      "共生社会デザイン学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜40.0",
+    "kyotei": "35%〜49%",
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期）",
+      "kyotsu": "課さない",
+      "niji": "国語・数学・英語・理科から学科指定科目",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://admissions.jhu.ac.jp/admissions/page.php?id=88"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（後期）",
+      "kyotsu": "課さない",
+      "niji": "国語または数学・面接等",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://admissions.jhu.ac.jp/admissions/page.php?id=88"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（前期）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://admissions.jhu.ac.jp/admissions/page.php?id=88"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（中期）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://admissions.jhu.ac.jp/admissions/page.php?id=88"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（後期）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://admissions.jhu.ac.jp/admissions/page.php?id=88"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期）",
+      "apply": "1/5〜1/22",
+      "exam": "2/2",
+      "result": "2/12",
+      "proc": "2/26",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（後期）",
+      "apply": "2/24〜3/4",
+      "exam": "3/11",
+      "result": "3/19",
+      "proc": "3/25",
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（前期）",
+      "apply": "1/5〜1/29",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "2/26",
+      "fee": 15000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（中期）",
+      "apply": "2/15〜2/24",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/4",
+      "proc": "3/25",
+      "fee": 15000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（後期）",
+      "apply": "2/24〜3/4",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/19",
+      "proc": "3/25",
+      "fee": 15000
+     }
+    ]
+   },
+   "money": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "保健医療学部",
+      "admission": 300000,
+      "tuition": 1500000,
+      "facility": 100000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1900000,
+      "four_year": null
+     },
+     {
+      "f": "ヒューマンデザイン学部（医療DXマネジメント学科）",
+      "admission": 300000,
+      "tuition": 1200000,
+      "facility": 100000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1600000,
+      "four_year": null
+     },
+     {
+      "f": "ヒューマンデザイン学部（共生社会デザイン学科）",
+      "admission": 300000,
+      "tuition": 800000,
+      "facility": 100000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1200000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "月寒本キャンパス：札幌市営地下鉄東西線「南郷13丁目駅」より徒歩約10分、東豊線「福住駅」より徒歩約13分",
+   "careers": "総合病院・大学病院の看護師、理学療法士、作業療法士、診療放射線技師、臨床検査技師、臨床工学技士、社会福祉施設等。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.jhu.ac.jp/",
+    "https://search.keinet.ne.jp/2033",
+    "https://search.keinet.ne.jp/2033/outline/expense",
+    "https://search.keinet.ne.jp/2033/general/border_rate",
+    "https://search.keinet.ne.jp/2033/outline/campus",
+    "https://admissions.jhu.ac.jp/admissions/page.php?id=88",
+    "https://admissions.jhu.ac.jp/admissions/page.php?id=92",
+    "https://tsushin.jhu.ac.jp/access.html"
+   ]
+  },
+  "sources": [
+   "https://www.jhu.ac.jp/",
+   "https://search.keinet.ne.jp/2033",
+   "https://search.keinet.ne.jp/2033/outline/expense",
+   "https://search.keinet.ne.jp/2033/general/border_rate",
+   "https://search.keinet.ne.jp/2033/outline/campus",
+   "https://admissions.jhu.ac.jp/admissions/page.php?id=88",
+   "https://admissions.jhu.ac.jp/admissions/page.php?id=92",
+   "https://tsushin.jhu.ac.jp/access.html"
+  ]
+ },
+ {
+  "name": "日本赤十字北海道看護大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "北海道北見市",
+  "pref_name": "北海道",
+  "city": "北見市",
+  "hp": "https://www.rchokkaido-cn.ac.jp/",
+  "reading": "にほんせきじゅうじほっかいどうかんごだいがく",
+  "features": [
+   "日本赤十字社が北海道北見市に設置した道東唯一の4年制赤十字看護大学である。",
+   "災害救護や赤十字精神に基づく人道教育を重視し高度な看護実践能力を養成する。",
+   "全国の赤十字病院ネットワークを活かした豊富な実習先と高い就職実績を確立している。"
+  ],
+  "memo": "偏差値はBF（河合塾Kei-Net）、共テ得点率は42%（河合塾Kei-Net）。",
+  "info": {
+   "faculties": [
+    "看護学部"
+   ],
+   "departments": [
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF",
+    "kyotei": "42%",
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般型選抜（A日程）",
+      "kyotsu": "課さない",
+      "niji": "国語・英語・数学または理科・面接",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.rchokkaido-cn.ac.jp/admissions/faculty.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般型選抜（B日程）",
+      "kyotsu": "課さない",
+      "niji": "小論文・面接等",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.rchokkaido-cn.ac.jp/admissions/faculty.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（前期）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "面接",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.rchokkaido-cn.ac.jp/admissions/faculty.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（赤十字6看護大学連携併願）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.rchokkaido-cn.ac.jp/admissions/faculty.html"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般型選抜（A日程）",
+      "apply": "1/6〜1/21",
+      "exam": "2/2",
+      "result": "2/12",
+      "proc": "2/19",
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（前期）",
+      "apply": "1/6〜1/21",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "2/19",
+      "fee": 15000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（赤十字6看護大学連携併願）",
+      "apply": "2/1〜2/19",
+      "exam": "1/16・1/17（共テ）",
+      "result": null,
+      "proc": null,
+      "fee": 20000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般型選抜（B日程）",
+      "apply": "2/16〜3/5",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": 30000
+     }
+    ]
+   },
+   "money": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "看護学部",
+      "admission": 300000,
+      "tuition": 850000,
+      "facility": 300000,
+      "practical": 300000,
+      "other": 0,
+      "first_year": 1750000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "JR石北本線「北見駅」より北海道北見バス「日赤看護大学」行きで約15分、終点下車",
+   "careers": "北見赤十字病院、旭川赤十字病院をはじめとする全国の赤十字病院、自治体病院、保健師等。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.rchokkaido-cn.ac.jp/",
+    "https://search.keinet.ne.jp/2020",
+    "https://search.keinet.ne.jp/2020/outline/expense",
+    "https://search.keinet.ne.jp/2020/general/border_rate",
+    "https://www.rchokkaido-cn.ac.jp/admissions/faculty.html",
+    "https://www.rchokkaido-cn.ac.jp/upload/i0yxruqE/220428_220428_car.pdf",
+    "https://www.jrc.ac.jp/download_file/6234fbc0-26e0-478d-8405-13ddf4e4bd2a/1844/"
+   ]
+  },
+  "sources": [
+   "https://www.rchokkaido-cn.ac.jp/",
+   "https://search.keinet.ne.jp/2020",
+   "https://search.keinet.ne.jp/2020/outline/expense",
+   "https://search.keinet.ne.jp/2020/general/border_rate",
+   "https://www.rchokkaido-cn.ac.jp/admissions/faculty.html",
+   "https://www.rchokkaido-cn.ac.jp/upload/i0yxruqE/220428_220428_car.pdf",
+   "https://www.jrc.ac.jp/download_file/6234fbc0-26e0-478d-8405-13ddf4e4bd2a/1844/"
+  ]
+ },
+ {
+  "name": "日本赤十字秋田看護大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "秋田県秋田市",
+  "pref_name": "秋田県",
+  "city": "秋田市",
+  "hp": "https://www.rcakita.ac.jp/",
+  "reading": "にほんせきじゅうじあきたかんごだいがく",
+  "features": [
+   "2025年4月に日本赤十字東北看護大学へ校名変更し東北広域の赤十字教育拠点として発展。",
+   "赤十字の基本理念である「人道（ヒューマニティ）」に基づき災害看護や国際救援教育を重視する。",
+   "秋田赤十字病院に隣接し実践的な高度臨床実習環境と極めて高い国家試験合格率を誇る。"
+  ],
+  "memo": "偏差値はBF〜35.0、共テ得点率は45%〜50%（河合塾Kei-Net）。2025年4月に日本赤十字東北看護大学へ名称変更。",
+  "info": {
+   "faculties": [
+    "看護学部"
+   ],
+   "departments": [
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜35.0",
+    "kyotei": "45%〜50%",
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "kyotsu": "課さない",
+      "niji": "国語・英語・数学・面接",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.redcross.ac.jp/examination/faculty/thecommontest/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（Ⅰ-B）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.redcross.ac.jp/examination/faculty/thecommontest/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "apply": "1/6〜1/25",
+      "exam": "2/2",
+      "result": "2/12",
+      "proc": "2/19",
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（Ⅰ-B）",
+      "apply": "12/24〜1/15",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/12",
+      "proc": "3/19",
+      "fee": 15000
+     }
+    ]
+   },
+   "money": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "看護学部",
+      "admission": 300000,
+      "tuition": 850000,
+      "facility": 300000,
+      "practical": 300000,
+      "other": 0,
+      "first_year": 1750000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "JR奥羽本線・羽越本線「秋田駅」東口より秋田中央交通バス「日赤病院前」下車徒歩約3分",
+   "careers": "秋田赤十字病院をはじめとする全国の赤十字病院、公立・中核病院看護師、保健師、養護教諭等。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.rcakita.ac.jp/",
+    "https://search.keinet.ne.jp/2073",
+    "https://search.keinet.ne.jp/2073/outline/expense",
+    "https://passnavi.obunsha.co.jp/univ/1818/schedule/",
+    "https://www.redcross.ac.jp/examination/faculty/thecommontest/",
+    "https://up-j.shigaku.go.jp/department/category06/00000000269206001.html"
+   ]
+  },
+  "sources": [
+   "https://www.rcakita.ac.jp/",
+   "https://search.keinet.ne.jp/2073",
+   "https://search.keinet.ne.jp/2073/outline/expense",
+   "https://passnavi.obunsha.co.jp/univ/1818/schedule/",
+   "https://www.redcross.ac.jp/examination/faculty/thecommontest/",
+   "https://up-j.shigaku.go.jp/department/category06/00000000269206001.html"
+  ]
+ },
+ {
+  "name": "星槎道都大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "北海道北広島市",
+  "pref_name": "北海道",
+  "city": "北広島市",
+  "hp": "https://www.seisadohto.ac.jp/",
+  "reading": "せいさどうとだいがく",
+  "features": [
+   "社会福祉、経営、美術、建築の4分野を展開し「人を認め、人を排除しない」教育を理念とする。",
+   "北海道内の私立大学で唯一の美術学部・建築学科を擁し実践的なプロフェッショナルを育成する。",
+   "北広島市と包括連携協定を締結し地域活性化プロジェクトや地域産業連携に積極的に参画する。"
+  ],
+  "memo": "偏差値はBF〜35.0、共テ得点率は38%〜48%（河合塾Kei-Net）。",
+  "info": {
+   "faculties": [
+    "社会福祉学部",
+    "経営学部",
+    "美術学部"
+   ],
+   "departments": [
+    {
+     "f": "社会福祉学部",
+     "d": [
+      "社会福祉学科"
+     ]
+    },
+    {
+     "f": "経営学部",
+     "d": [
+      "経営学科"
+     ]
+    },
+    {
+     "f": "美術学部",
+     "d": [
+      "デザイン学科",
+      "建築学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜35.0",
+    "kyotei": "38%〜48%",
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般入試（A日程）",
+      "kyotsu": "課さない",
+      "niji": "国語・英語・数学・実技等から選択",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.seisadohto.ac.jp/admission/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試（B日程）",
+      "kyotsu": "課さない",
+      "niji": "国語・英語・実技等から選択",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.seisadohto.ac.jp/admission/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試（C日程）",
+      "kyotsu": "課さない",
+      "niji": "作文・面接等",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.seisadohto.ac.jp/admission/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試（A日程）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.seisadohto.ac.jp/admission/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試（B日程）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.seisadohto.ac.jp/admission/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試（C日程）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.seisadohto.ac.jp/admission/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試（D日程）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.seisadohto.ac.jp/admission/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般入試（A日程）",
+      "apply": "1/7〜1/21",
+      "exam": "2/2・2/3",
+      "result": "2/17",
+      "proc": "2/26",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試（B日程）",
+      "apply": "2/22〜3/1",
+      "exam": "3/5",
+      "result": "3/12",
+      "proc": "3/23",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試（C日程）",
+      "apply": "3/4〜3/9",
+      "exam": "3/16",
+      "result": "3/23",
+      "proc": "3/26",
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用（A日程）",
+      "apply": "1/7〜1/28",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/17",
+      "proc": "2/26",
+      "fee": 10000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用（B日程）",
+      "apply": "1/29〜2/9",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/24",
+      "proc": "3/2",
+      "fee": 10000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用（C日程）",
+      "apply": "2/12〜3/1",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/12",
+      "proc": "3/23",
+      "fee": 10000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用（D日程）",
+      "apply": "3/3〜3/12",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/23",
+      "proc": "3/26",
+      "fee": 10000
+     }
+    ]
+   },
+   "access": "JR千歳線「北広島駅」西口より無料スクールバスで約8分",
+   "careers": "社会福祉施設・社会福祉協議会、建設会社・設計事務所、デザイン・広告関連企業、一般企業、公務員等。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.seisadohto.ac.jp/",
+    "https://search.keinet.ne.jp/2004",
+    "https://search.keinet.ne.jp/2004/outline/campus",
+    "https://passnavi.obunsha.co.jp/univ/1540/schedule/",
+    "https://telemail.jp/shingaku/university/10000219/examination/general",
+    "https://www.seisadohto.ac.jp/access/",
+    "https://www.seisadohto.ac.jp/admission/campus_life/festival/"
+   ]
+  },
+  "sources": [
+   "https://www.seisadohto.ac.jp/",
+   "https://search.keinet.ne.jp/2004",
+   "https://search.keinet.ne.jp/2004/outline/campus",
+   "https://passnavi.obunsha.co.jp/univ/1540/schedule/",
+   "https://telemail.jp/shingaku/university/10000219/examination/general",
+   "https://www.seisadohto.ac.jp/access/",
+   "https://www.seisadohto.ac.jp/admission/campus_life/festival/"
+  ]
+ },
+ {
+  "name": "札幌保健医療大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "北海道札幌市",
+  "pref_name": "北海道",
+  "city": "札幌市",
+  "hp": "https://www.sapporo-hokeniryou-u.ac.jp/",
+  "reading": "さっぽろほけんいりょうだいがく",
+  "features": [
+   "看護学科と栄養学科を擁し「医療×食」の連携による地域包括ケア実践教育を展開している。",
+   "充実した実習施設と担任制による個別指導で高い国家試験合格率と就職率を実現している。",
+   "地域医療現場や福祉施設と連携した多職種協働型のシミュレーション教育を推進している。"
+  ],
+  "memo": "偏差値はBF〜35.0、共テ得点率は42%〜46%（河合塾Kei-Net）。",
+  "info": {
+   "faculties": [
+    "保健医療学部"
+   ],
+   "departments": [
+    {
+     "f": "保健医療学部",
+     "d": [
+      "看護学科",
+      "栄養学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜35.0",
+    "kyotei": "42%〜46%",
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期・A日程）",
+      "kyotsu": "課さない",
+      "niji": "国語・英語・数学または理科",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.sapporo-hokeniryou-u.ac.jp/admission/faculty"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期・B日程）",
+      "kyotsu": "課さない",
+      "niji": "国語・生物基礎",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.sapporo-hokeniryou-u.ac.jp/admission/faculty"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（後期）",
+      "kyotsu": "課さない",
+      "niji": "国語・英語・数学または理科",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.sapporo-hokeniryou-u.ac.jp/admission/faculty"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（前期）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.sapporo-hokeniryou-u.ac.jp/admission/faculty"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（中期）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.sapporo-hokeniryou-u.ac.jp/admission/faculty"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（後期）",
+      "kyotsu": "大学入学共通テスト指定教科科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "高等学校卒業（見込）等",
+      "url": "https://www.sapporo-hokeniryou-u.ac.jp/admission/faculty"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期・A日程）",
+      "apply": "1/12〜1/22",
+      "exam": "2/4",
+      "result": "2/18",
+      "proc": "2/26",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期・B日程）",
+      "apply": "1/12〜1/22",
+      "exam": "2/5",
+      "result": "2/18",
+      "proc": "2/26",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（後期）",
+      "apply": "2/26〜3/5",
+      "exam": "3/12",
+      "result": "3/18",
+      "proc": "3/25",
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（前期）",
+      "apply": "1/12〜1/22",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/18",
+      "proc": "2/26",
+      "fee": 10000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（中期）",
+      "apply": "2/15〜2/22",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/1",
+      "proc": "3/8",
+      "fee": 10000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（後期）",
+      "apply": "3/1〜3/5",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/18",
+      "proc": "3/25",
+      "fee": 10000
+     }
+    ]
+   },
+   "money": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "保健医療学部（看護学科）",
+      "admission": 300000,
+      "tuition": 1250000,
+      "facility": 200000,
+      "practical": 150000,
+      "other": 24760,
+      "first_year": 1924760,
+      "four_year": null
+     },
+     {
+      "f": "保健医療学部（栄養学科）",
+      "admission": 300000,
+      "tuition": 850000,
+      "facility": 200000,
+      "practical": 100000,
+      "other": 23370,
+      "first_year": 1473370,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "札幌市営地下鉄東豊線「新道東駅」より中央バスまたは通学無料バスで約15〜20分",
+   "careers": "総合病院・公立病院の看護師・保健師、受託給食企業、福祉施設、食品企業の管理栄養士・栄養士等。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.sapporo-hokeniryou-u.ac.jp/",
+    "https://search.keinet.ne.jp/2025",
+    "https://search.keinet.ne.jp/2025/outline/expense",
+    "https://search.keinet.ne.jp/2025/general/border_rate",
+    "https://search.keinet.ne.jp/2025/outline/campus",
+    "https://www.sapporo-hokeniryou-u.ac.jp/admission/faculty",
+    "https://www.sapporo-hokeniryou-u.ac.jp/admission/schedule",
+    "https://www.sapporo-hokeniryou-u.ac.jp/uploads/files/career/%E5%85%A5%E5%AD%A6%E8%A9%A6%E9%A8%93%E6%A6%82%E8%A6%81%E3%83%BB%E7%8A%B6%E6%B3%81.pdf"
+   ]
+  },
+  "sources": [
+   "https://www.sapporo-hokeniryou-u.ac.jp/",
+   "https://search.keinet.ne.jp/2025",
+   "https://search.keinet.ne.jp/2025/outline/expense",
+   "https://search.keinet.ne.jp/2025/general/border_rate",
+   "https://search.keinet.ne.jp/2025/outline/campus",
+   "https://www.sapporo-hokeniryou-u.ac.jp/admission/faculty",
+   "https://www.sapporo-hokeniryou-u.ac.jp/admission/schedule",
+   "https://www.sapporo-hokeniryou-u.ac.jp/uploads/files/career/%E5%85%A5%E5%AD%A6%E8%A9%A6%E9%A8%93%E6%A6%82%E8%A6%81%E3%83%BB%E7%8A%B6%E6%B3%81.pdf"
+  ]
+ }
+]
