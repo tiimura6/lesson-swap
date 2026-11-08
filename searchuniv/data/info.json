@@ -56921,7 +56921,8 @@
 "https://search.keinet.ne.jp/2219/outline/expense",
 "https://phys.org/rss-feed/partners/shibaura-institute-of-technology/",
 "https://search.keinet.ne.jp/2219/outline/licential",
-"https://search.keinet.ne.jp/2219/outline/admission_employment"
+"https://search.keinet.ne.jp/2219/outline/admission_employment",
+"https://manabi.benesse.ne.jp/daigaku/school/3251/nyushi/index.html"
 ],
 "licenses": [
 "教員免許（中・高 数学・理科・技術、高 工業・情報）",
@@ -57246,41 +57247,64 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-06",
+"schedule": "2026-11-08",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07"
 },
 "schedule": {
-"year": "年度表記なし（Kei-Net掲載、出願締切・発表・手続日は11月以降掲載予定）／検定料は2026年度入試",
+"year": "2027年度入試（日程はマナビジョン掲載）／検定料は2026年度入試",
 "rows": [
 {
 "kubun": "一般",
 "name": "前期日程（A方式・B方式）",
+"apply": "1/7〜1/15",
 "exam": "2/1〜2/3（学科・コースごとに指定日）",
+"result": "2/14",
+"proc": "2/20",
 "fee": 35000,
-"note": "学部・学科により異なる（工学部 基幹機械・電気ロボット・情報工学2/1、先進機械・化学生命・情報通信2/2、環境物質・先端電子・土木2/3）。受験料に割引制度あり"
+"note": "学部・学科により試験日が異なる（例：工学部 基幹機械コース2/1、先進機械コース2/2、環境・物質工学コース2/3）。受験料に割引制度あり"
 },
 {
 "kubun": "一般",
 "name": "全学統一日程（A・B）",
+"apply": "1/7〜1/15",
 "exam": "2/4",
+"result": "2/14",
+"proc": "2/20",
 "fee": 35000,
 "note": ""
 },
 {
 "kubun": "一般",
 "name": "後期日程",
+"apply": "2/5〜2/15",
 "exam": "2/21",
+"result": "3/1",
+"proc": "3/5",
 "fee": 35000,
 "note": ""
 },
 {
 "kubun": "共テ利用",
-"name": "共通テスト利用（3教科4科目型・6教科8科目型、前期・後期）",
+"name": "共通テスト利用 前期（3教科型・6教科型）",
+"apply": "1/7〜1/15",
+"exam": "共通テスト",
+"result": "2/14",
+"proc": "2/20",
 "fee": 20000,
 "note": "個別試験なし。受験料に割引制度あり"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 後期（3教科型・6教科型）",
+"apply": "2/5〜2/15",
+"exam": "共通テスト",
+"result": "3/1",
+"proc": "3/5",
+"fee": 20000,
+"note": "個別試験なし"
 }
 ]
 },
@@ -57989,7 +58013,8 @@
 "https://search.keinet.ne.jp/2259/outline/expense",
 "https://passnavi.obunsha.co.jp/univ/2850/difficulty/",
 "https://search.keinet.ne.jp/2259/outline/licential",
-"https://search.keinet.ne.jp/2259/outline/admission_employment"
+"https://search.keinet.ne.jp/2259/outline/admission_employment",
+"https://manabi.benesse.ne.jp/daigaku/school/3291/nyushi/index.html"
 ],
 "licenses": [
 "教員免許（中・高 数学・理科・技術、高 工業・情報）",
@@ -58236,33 +58261,53 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-06",
+"schedule": "2026-11-08",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06"
 },
 "schedule": {
-"year": "年度表記なし（Kei-Net掲載、出願締切・発表・手続日は11月以降掲載予定）／検定料は2026年度入試",
+"year": "2027年度入試（日程はマナビジョン掲載）／検定料は2026年度入試",
 "rows": [
 {
 "kubun": "一般",
 "name": "一般選抜 前期（英語外部試験利用含む）",
+"apply": "1/7〜1/20",
 "exam": "2/1〜2/5から選択",
+"result": "2/12",
+"proc": "2/19",
 "fee": 33000,
-"note": "工学部・システムデザイン工学部の例。受験料に割引制度あり"
+"note": "システムデザイン工・未来科学・工・理工学部共通。受験料に割引制度あり"
 },
 {
 "kubun": "一般",
 "name": "一般選抜 後期（英語外部試験利用含む）",
-"exam": "2/27・2/28から選択",
+"apply": "2/12〜2/18",
+"exam": "2/27・2/28",
+"result": "3/8",
+"proc": "3/15",
 "fee": 33000,
-"note": ""
+"note": "工学部第二部は出願2/12〜2/19・試験3/1・発表3/8・手続3/15"
 },
 {
 "kubun": "共テ利用",
-"name": "共通テスト利用",
+"name": "共通テスト利用 前期",
+"apply": "1/7〜1/15",
+"exam": "共通テスト",
+"result": "2/12",
+"proc": "2/19",
 "fee": 15000,
-"note": "個別試験なし。受験料に割引制度あり"
+"note": "個別試験なし。受験料に割引制度あり。工学部第二部は出願1/21〜2/10・発表2/21・手続3/3"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 後期",
+"apply": "2/25〜3/9",
+"exam": "共通テスト",
+"result": "3/19",
+"proc": "3/25",
+"fee": 15000,
+"note": "共通テスト受験後に出願"
 }
 ]
 },
@@ -58403,7 +58448,8 @@
 "https://search.keinet.ne.jp/2212/outline/expense",
 "https://www.atpress.ne.jp/smart/news/8645356",
 "https://search.keinet.ne.jp/2212/outline/licential",
-"https://search.keinet.ne.jp/2212/outline/admission_employment"
+"https://search.keinet.ne.jp/2212/outline/admission_employment",
+"https://manabi.benesse.ne.jp/daigaku/school/3244/nyushi/index.html"
 ],
 "licenses": [
 "教員免許（中・高 数学・理科・技術、高 工業・情報）",
@@ -58664,48 +58710,74 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-06",
+"schedule": "2026-11-08",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07"
 },
 "schedule": {
-"year": "年度表記なし（Kei-Net掲載、出願締切・発表・手続日は11月以降掲載予定）／検定料は2026年度入試",
+"year": "2027年度入試（日程はマナビジョン掲載）／検定料は2026年度入試",
 "rows": [
 {
 "kubun": "一般",
 "name": "S日程（全学統一）",
+"apply": "1/6〜1/20",
 "exam": "1/28",
+"result": "2/3",
+"proc": "2/20",
 "fee": 33000,
-"note": "工学部・情報学部の例。受験料に割引制度あり"
+"note": "先進工学部機械理工学科（航空理工学専攻）は発表2/26・手続3/5。受験料に割引制度あり"
 },
 {
 "kubun": "一般",
-"name": "A日程（前期）・英語外部試験利用",
+"name": "A日程（前期）・英語外部試験利用日程",
+"apply": "1/6〜1/25",
 "exam": "2/5〜2/8から選択",
+"result": "2/12",
+"proc": "2/20",
 "fee": 33000,
-"note": ""
+"note": "航空理工学専攻は発表2/26・手続3/5"
 },
 {
 "kubun": "一般",
-"name": "B日程（中期）",
+"name": "B日程（中期・本学型／共通テストプラス型）",
+"apply": "2/1〜2/16",
 "exam": "2/22",
+"result": "2/26",
+"proc": "3/5",
 "fee": 33000,
-"note": "B日程共通テスト＋型も33,000円"
+"note": "航空理工学専攻は発表3/18・手続3/23"
 },
 {
 "kubun": "一般",
 "name": "M日程（後期）",
-"exam": "3/8",
+"apply": "2/17〜3/2",
+"exam": "3/8（一部3/8〜10）",
+"result": "3/18",
+"proc": "3/23",
 "fee": 33000,
 "note": ""
 },
 {
 "kubun": "共テ利用",
-"name": "共通テスト利用（前期3教科型・4教科型、後期）",
+"name": "共通テスト利用 前期（3教科型・4教科型）",
+"apply": "1/6〜1/15",
+"exam": "共通テスト",
+"result": "2/12",
+"proc": "2/20",
 "fee": 15000,
-"note": "個別試験なし。先進工学部航空理工学専攻は日程が異なる"
+"note": "個別試験なし。航空理工学専攻は発表2/26・手続3/5"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 後期",
+"apply": "2/17〜3/9",
+"exam": "共通テスト",
+"result": "3/18",
+"proc": "3/23",
+"fee": 15000,
+"note": "個別試験なし"
 }
 ]
 },
@@ -58847,7 +58919,8 @@
 "https://digitalpr.jp/cl4/45",
 "https://www.city.yokote.lg.jp/_res/projects/default_project/_page_/001/010/552/hakkou_meibo_r7.10.10.pdf",
 "https://search.keinet.ne.jp/2260/outline/licential",
-"https://search.keinet.ne.jp/2260/outline/admission_employment"
+"https://search.keinet.ne.jp/2260/outline/admission_employment",
+"https://manabi.benesse.ne.jp/daigaku/school/3292/nyushi/index.html"
 ],
 "licenses": [
 "教員免許（中・高 理科、高 農業ほか）",
@@ -59138,30 +59211,58 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-06",
+"schedule": "2026-11-08",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06"
 },
 "schedule": {
-"year": "年度表記なし（Kei-Net掲載、出願締切・発表・手続日は11月以降掲載予定）",
+"year": "2027年度入試（日程はマナビジョン掲載）",
 "rows": [
 {
 "kubun": "一般",
 "name": "一般選抜 A日程",
-"exam": "2/3〜2/5から選択",
-"note": "応用生物科学部・国際食料情報学部の例。検定料は未取得"
+"apply": "1/4〜1/25",
+"exam": "2/3〜2/5から1日選択",
+"result": "2/12",
+"proc": "2/25",
+"note": "全学部共通。検定料は未取得"
 },
 {
 "kubun": "一般",
 "name": "一般選抜 B日程",
+"apply": "2/1〜3/1",
 "exam": "3/3",
+"result": "3/10",
+"proc": "3/17",
 "note": ""
 },
 {
 "kubun": "共テ利用",
-"name": "共通テスト利用（3科目型・4科目型・2科目型 Ⅰ期／3科目型Ⅱ期）",
-"note": "個別試験なし"
+"name": "共通テスト利用 Ⅰ期（3科目型・4科目型・2科目型）",
+"apply": "1/4〜1/25",
+"exam": "共通テスト",
+"result": "2/12",
+"proc": "2/25",
+"note": "個別試験なし。2科目型は地域創成科学科・醸造科学科に設定なし"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅱ期（3科目型）",
+"apply": "2/1〜2/26",
+"exam": "共通テスト",
+"result": "3/10",
+"proc": "3/17",
+"note": ""
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅲ期",
+"apply": "3/1〜3/11",
+"exam": "共通テスト",
+"result": "3/17",
+"proc": "3/19",
+"note": "生物産業学部（自然資源経営・食香粧化学・北方圏農学・海洋水産）のみ"
 }
 ]
 },
@@ -59420,7 +59521,8 @@
 "https://digitalpr.jp/c/668/3",
 "https://www.amed.go.jp/news/topics/20151005.html",
 "https://search.keinet.ne.jp/2205/outline/licential",
-"https://search.keinet.ne.jp/2205/outline/admission_employment"
+"https://search.keinet.ne.jp/2205/outline/admission_employment",
+"https://manabi.benesse.ne.jp/daigaku/school/3237/nyushi/"
 ],
 "licenses": [
 "医師・薬剤師・獣医師 国家試験受験資格",
@@ -59687,7 +59789,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-06",
+"schedule": "2026-11-08",
 "money": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
@@ -59861,31 +59963,61 @@
 "note": "1行に一般選抜主方式（前期または一般）のボーダー偏差値(hen)と共テ利用主方式のボーダー得点率(kt)を併記（m欄に方式名）。中期・後期・医学部相模原市枠は省略。薬学部・看護学部は共テ方式の値なし。医療衛生学部の学科名は学費ページの表記（保健衛生・医療工・リハビリテーション）で補足。"
 },
 "schedule": {
-"year": "年度表記なし（Kei-Net掲載、出願締切・発表・手続日は11月以降掲載予定）",
+"year": "2027年度入試（日程はマナビジョン掲載）",
 "rows": [
 {
 "kubun": "一般",
 "name": "一般選抜（薬学部）",
+"apply": "12/24〜1/13",
 "exam": "2/1",
+"result": "2/10",
+"proc": "2/17",
 "note": "検定料は未取得"
 },
 {
 "kubun": "一般",
 "name": "一般選抜（医学部）",
+"apply": "12/24〜1/19",
 "exam": "1次2/2、2次2/13〜2/15から指定",
-"note": "相模原市枠は2次2/13・2/14"
+"result": "2/17",
+"proc": "2/24",
+"note": "相模原市修学資金枠も同日程（2次2/13・2/14）"
 },
 {
 "kubun": "一般",
-"name": "一般選抜 前期・中期（理学部）",
-"exam": "2/3（前期）・2/13（中期）",
-"note": "学部により異なる"
+"name": "一般選抜 前期（理学部）",
+"apply": "12/24〜1/19",
+"exam": "2/3",
+"result": "2/12",
+"proc": "2/19",
+"note": "学部により異なる（理学部物理学科の例）。獣医学部前期は出願〜1/13・試験2/1・発表2/8・手続2/16"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 中期（理学部）",
+"apply": "12/24〜1/25",
+"exam": "2/13",
+"result": "2/22",
+"proc": "3/1",
+"note": "理学部物理学科の例"
 },
 {
 "kubun": "共テ利用",
-"name": "共通テスト利用 前期・後期",
-"exam": "理学部後期3/2、医学部は2次試験あり（前期2/13〜15、後期3/6）",
-"note": "理学部・医学部の例"
+"name": "共通テスト利用 前期",
+"apply": "12/24〜1/19",
+"exam": "共通テスト",
+"result": "2/12",
+"proc": "2/19",
+"note": "理学部物理学科の例。医学部前期は出願〜1/15・2次2/13〜15・発表2/17・手続2/24。薬学部は実施なし"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 後期",
+"apply": "12/24〜1/15（医学部）／2/12〜3/2（獣医学部）",
+"exam": "共通テスト（医学部は2次3/6）",
+"result": "3/10（医）／3/15（獣医）",
+"proc": "3/17（医）／3/23（獣医）",
+"note": "学部により異なる"
 }
 ]
 },
@@ -62664,7 +62796,7 @@
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
 "schedule": "2026-11-06",
-"money": "2026-11-06",
+"money": "2026-11-08",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -62713,7 +62845,31 @@
 "year": "2026年度",
 "admission": 1000000,
 "annual": 2500000,
-"note": "医学科初年度350万円（入学金100万・授業料250万）。2年次以降の額はKei-Netに記載がないため6年合計は未記載。別途学生会経費10万円・保護者会費21万円。看護学科初年度150万円（入学金50万・授業料100万、実習費含む）"
+"note": "医学科初年度350万円（入学金100万・授業料250万）。2年次以降の額はKei-Netに記載がないため6年合計は未記載。別途学生会経費10万円・保護者会費21万円。看護学科初年度150万円（入学金50万・授業料100万、実習費含む）",
+"rows": [
+{
+"f": "医学部医学科",
+"admission": 1000000,
+"tuition": 2500000,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 3500000,
+"four_year": null,
+"note": "6年制。別途 学生会経費10万円（在学期間分）・保護者会費21万円"
+},
+{
+"f": "医学部看護学科",
+"admission": 500000,
+"tuition": 1000000,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1500000,
+"four_year": null,
+"note": "実習費は授業料に含む。別途 学生会経費6万円・保護者会費2万4千円・同窓会費6万4千円（2025年度実績）"
+}
+]
 },
 "eng": {
 "year": "2026年度入試（パスナビ掲載の前年度情報）",
@@ -63013,7 +63169,7 @@
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
 "schedule": "2026-11-06",
-"money": "2026-11-06",
+"money": "2026-11-08",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -63111,7 +63267,31 @@
 "year": "2026年度",
 "admission": 1500000,
 "annual": 3000000,
-"note": "医学部初年度450万円（入学金150万・授業料250万・施設/教育充実費50万）。annualは授業料＋施設費。2年次以降の額はKei-Netに記載がないため6年合計は未記載。別途保険・学友会費・父母会費・同窓会費。医療健康科学部初年度1,745,370円"
+"note": "医学部初年度450万円（入学金150万・授業料250万・施設/教育充実費50万）。annualは授業料＋施設費。2年次以降の額はKei-Netに記載がないため6年合計は未記載。別途保険・学友会費・父母会費・同窓会費。医療健康科学部初年度1,745,370円",
+"rows": [
+{
+"f": "医学部医学科",
+"admission": 1500000,
+"tuition": 2500000,
+"facility": 500000,
+"practical": null,
+"other": null,
+"first_year": 4500000,
+"four_year": null,
+"note": "6年制。別途 保険料7,800円・学友会費6万円・父母会費9万円・同窓会費14万円"
+},
+{
+"f": "医療健康科学部看護学科",
+"admission": 400000,
+"tuition": 1050000,
+"facility": 250000,
+"practical": null,
+"other": 45370,
+"first_year": 1745370,
+"four_year": null,
+"note": ""
+}
+]
 },
 "eng": {
 "year": "2027年度入試（一般選抜は2026年度情報）",
@@ -65456,7 +65636,7 @@
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
 "schedule": "2026-11-06",
-"money": "2026-11-06",
+"money": "2026-11-08",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -65887,7 +66067,141 @@
 "total4_note": "文学部：入学金＋初年度の年額（授業料＋施設費）×4で算出した概算（諸会費含まず）",
 "admission": 200000,
 "annual": 1090000,
-"note": "annualは文学部の授業料770,000円＋施設/教育充実費320,000円。初年度：文・人間社会1,339,660円、国際文化1,389,660円（別途1年次必修の留学費用約43〜95万円）、理1,641,460〜1,659,660円、食科学1,671,660円、建築デザイン1,604,660円"
+"note": "annualは文学部の授業料770,000円＋施設/教育充実費320,000円。初年度：文・人間社会1,339,660円、国際文化1,389,660円（別途1年次必修の留学費用約43〜95万円）、理1,641,460〜1,659,660円、食科学1,671,660円、建築デザイン1,604,660円",
+"rows": [
+{
+"f": "文学部",
+"admission": 200000,
+"tuition": 770000,
+"facility": 320000,
+"practical": null,
+"other": 49660,
+"first_year": 1339660,
+"four_year": null,
+"note": ""
+},
+{
+"f": "国際文化学部",
+"admission": 200000,
+"tuition": 820000,
+"facility": 320000,
+"practical": null,
+"other": 49660,
+"first_year": 1389660,
+"four_year": null,
+"note": "別途1年次必修のスタディ・アブロード・プログラム費用約43万〜95万円"
+},
+{
+"f": "理学部（数物情報科学科）",
+"admission": 200000,
+"tuition": 1070000,
+"facility": 320000,
+"practical": 1800,
+"other": 49660,
+"first_year": 1641460,
+"four_year": null,
+"note": ""
+},
+{
+"f": "理学部（化学生命科学科）",
+"admission": 200000,
+"tuition": 1070000,
+"facility": 320000,
+"practical": 20000,
+"other": 49660,
+"first_year": 1659660,
+"four_year": null,
+"note": ""
+},
+{
+"f": "家政学部（児童学科）",
+"admission": 200000,
+"tuition": 870000,
+"facility": 320000,
+"practical": 600,
+"other": 49660,
+"first_year": 1440260,
+"four_year": null,
+"note": ""
+},
+{
+"f": "家政学部（被服学科）",
+"admission": 200000,
+"tuition": 870000,
+"facility": 320000,
+"practical": 10000,
+"other": 49660,
+"first_year": 1449660,
+"four_year": null,
+"note": ""
+},
+{
+"f": "家政学部（家政経済学科）",
+"admission": 200000,
+"tuition": 770000,
+"facility": 320000,
+"practical": null,
+"other": 49660,
+"first_year": 1339660,
+"four_year": null,
+"note": ""
+},
+{
+"f": "食科学部（食科学科）",
+"admission": 200000,
+"tuition": 1080000,
+"facility": 320000,
+"practical": 22000,
+"other": 49660,
+"first_year": 1671660,
+"four_year": null,
+"note": ""
+},
+{
+"f": "食科学部（栄養学科）",
+"admission": 200000,
+"tuition": 1080000,
+"facility": 320000,
+"practical": 22000,
+"other": 49730,
+"first_year": 1671730,
+"four_year": null,
+"note": ""
+},
+{
+"f": "建築デザイン学部",
+"admission": 200000,
+"tuition": 1030000,
+"facility": 320000,
+"practical": 5000,
+"other": 49660,
+"first_year": 1604660,
+"four_year": null,
+"note": ""
+},
+{
+"f": "人間社会学部（現代社会・社会福祉・教育学科）",
+"admission": 200000,
+"tuition": 770000,
+"facility": 320000,
+"practical": null,
+"other": 49660,
+"first_year": 1339660,
+"four_year": null,
+"note": ""
+},
+{
+"f": "人間社会学部（心理学科）",
+"admission": 200000,
+"tuition": 770000,
+"facility": 320000,
+"practical": 1400,
+"other": 49660,
+"first_year": 1341060,
+"four_year": null,
+"note": ""
+}
+]
 },
 "eng": {
 "year": "2027年度入試（一般選抜は2026年度情報）",
@@ -143144,6 +143458,216 @@ null
 "https://search.keinet.ne.jp/1505/outline/admission_employment",
 "https://search.keinet.ne.jp/general/exam_subject/1505",
 "https://search.keinet.ne.jp/1505/outline/expense"
+]
+},
+"東北公益文科大学": {
+"faculties": [
+"公益学部",
+"国際学部"
+],
+"_checked": {
+"faculties": "2026-11-08",
+"departments": "2026-11-08",
+"students": "2026-11-08",
+"founded": "2026-11-08",
+"access": "2026-11-08",
+"tuition": "2026-11-08",
+"kyotsu": "2026-11-08",
+"research": "2026-11-08",
+"licenses": "2026-11-08",
+"careers": "2026-11-08",
+"money": "2026-11-08"
+},
+"departments": [
+{
+"f": "公益学部",
+"d": [
+"公益学科（経済・経営コース／政策コース／地域福祉コース／観光・まちづくりコース／メディア情報コース）"
+]
+},
+{
+"f": "国際学部",
+"d": [
+"国際コミュニケーション学科"
+]
+}
+],
+"students": {
+"count": 918,
+"year": 2026
+},
+"founded": "2001年 開学（学校法人）。2026年4月 公立大学法人化",
+"access": "酒田キャンパス：JR酒田駅から市営バス「大学前」下車",
+"tuition": {
+"amount": 817800,
+"label": "入学金（県内者）＋授業料",
+"year": 2027
+},
+"kyotsu": {
+"kamoku": "前期は3,4教科4科目、後期は1,2〜2教科2科目",
+"kyoka": [],
+"rl": [
+"1:1"
+],
+"rl_text": "全方式でR:L=1:1",
+"note": "Kei-Netの科目数表示による。公益後期は英語が他教科との選択",
+"year": "2027年度入試"
+},
+"research": [
+"法学・政治学・政策学",
+"経済学・経営学・会計学",
+"社会福祉学",
+"観光学・メディア学",
+"情報工学",
+"国際関係学・国際文化学"
+],
+"licenses": [
+"社会福祉士国家試験受験資格（公益学部）",
+"社会福祉主事任用資格（公益学部）"
+],
+"careers": "2025年度卒業者235人のうち就職216人・進学6人。主な就職先は国家公務員一般職、鶴岡市・酒田市職員、山形県警察、山形銀行、荘内銀行など（パスナビ）。",
+"money": {
+"year": "2027年度",
+"admission": 282000,
+"annual": 535800,
+"note": "入学金は山形県内282,000円・県外564,000円。初年度合計（諸会費10,000円含む）県内827,800円・県外1,109,800円。別途保険料（4年分4,660円）",
+"rows": [
+{
+"f": "公益学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": 0,
+"practical": 0,
+"other": 10000,
+"first_year": 827800,
+"four_year": null,
+"note": "県内者。県外者は入学金564,000円・初年度1,109,800円。施設費なし"
+},
+{
+"f": "国際学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": 0,
+"practical": 0,
+"other": 10000,
+"first_year": 827800,
+"four_year": null,
+"note": "県内者。県外者は入学金564,000円・初年度1,109,800円。施設費なし。2年次の留学費用は別"
+}
+]
+},
+"sources": [
+"https://search.keinet.ne.jp/1530",
+"https://search.keinet.ne.jp/1530/outline/department",
+"https://search.keinet.ne.jp/1530/outline/campus",
+"https://search.keinet.ne.jp/1530/general/exam_subject",
+"https://passnavi.obunsha.co.jp/univ/1827/top/",
+"https://passnavi.obunsha.co.jp/univ/1827/department/",
+"https://passnavi.obunsha.co.jp/univ/1827/shinro/",
+"https://passnavi.obunsha.co.jp/univ/1827/expense/",
+"https://manabi.benesse.ne.jp/daigaku/school/2036/"
+]
+},
+"札幌市立大学": {
+"faculties": [
+"デザイン学部",
+"看護学部"
+],
+"_checked": {
+"faculties": "2026-11-08",
+"departments": "2026-11-08",
+"students": "2026-11-08",
+"founded": "2026-11-08",
+"access": "2026-11-08",
+"tuition": "2026-11-08",
+"kyotsu": "2026-11-08",
+"licenses": "2026-11-08",
+"careers": "2026-11-08",
+"money": "2026-11-08"
+},
+"departments": [
+{
+"f": "デザイン学部",
+"d": [
+"デザイン学科"
+]
+},
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+}
+],
+"students": {
+"count": 739,
+"year": 2025
+},
+"founded": "2006年 開学（前身は1965年開校の札幌市立高等看護学院、1991年開校の札幌市立高等専門学校）",
+"access": "芸術の森キャンパス（デザイン）：地下鉄真駒内駅から中央バス「札幌市立大学前」下車徒歩3分／桑園キャンパス（看護）：JR桑園駅から徒歩3分",
+"tuition": {
+"amount": 676800,
+"label": "入学金（札幌市内）＋授業料",
+"year": 2026
+},
+"kyotsu": {
+"kamoku": "看護4教科4科目、デザイン6教科7科目",
+"kyoka": [
+4,
+6
+],
+"rl": [
+"1:1"
+],
+"rl_text": "両学部でR:L=1:1",
+"note": "前期日程のみ掲載",
+"year": "2027年度入試"
+},
+"licenses": [
+"看護師国家試験受験資格",
+"学芸員",
+"一級建築士受験資格",
+"二級建築士受験資格"
+],
+"careers": "2024年度卒業者：看護学科81人中就職77人・進学4人、デザイン学科87人中就職67人・進学16人。看護師国家試験合格率96.4%（2026年）。",
+"money": {
+"year": "2026年度",
+"admission": 141000,
+"annual": 535800,
+"note": "入学金は札幌市内141,000円・市外282,000円。初年度合計 市内676,800円・市外817,800円（設備・実習費、保険料、諸会費は別途）",
+"rows": [
+{
+"f": "デザイン学部",
+"admission": 141000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 676800,
+"four_year": null,
+"note": "札幌市内者。市外者は入学金282,000円・初年度817,800円。設備・実習費・諸会費は別途（金額記載なし）"
+},
+{
+"f": "看護学部",
+"admission": 141000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 676800,
+"four_year": null,
+"note": "札幌市内者。市外者は入学金282,000円・初年度817,800円。設備・実習費・諸会費は別途（金額記載なし）"
+}
+]
+},
+"sources": [
+"https://search.keinet.ne.jp/1506",
+"https://search.keinet.ne.jp/1506/outline/department",
+"https://search.keinet.ne.jp/1506/outline/campus",
+"https://search.keinet.ne.jp/1506/outline/licential",
+"https://search.keinet.ne.jp/1506/outline/admission_employment",
+"https://search.keinet.ne.jp/1506/general/exam_subject",
+"https://search.keinet.ne.jp/1506/outline/expense"
 ]
 }
 }

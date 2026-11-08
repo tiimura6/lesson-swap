@@ -1,20 +1,6 @@
 {
  "add": [
   {
-   "name": "札幌市立大学",
-   "type": "公立",
-   "pref": "北海道",
-   "hp": "http://www.scu.ac.jp/",
-   "cat": "public"
-  },
-  {
-   "name": "東北公益文科大学",
-   "type": "公立",
-   "pref": "山形県",
-   "hp": "https://www.koeki-u.ac.jp/",
-   "cat": "public"
-  },
-  {
    "name": "東北農林専門職大学",
    "type": "公立",
    "pref": "山形県",
@@ -3536,9 +3522,99 @@
    "need": [
     "fees"
    ]
+  },
+  {
+   "name": "東北公益文科大学",
+   "type": "公立",
+   "pref": "山形県",
+   "hp": "https://www.koeki-u.ac.jp/",
+   "cat": "public"
+  },
+  {
+   "name": "札幌市立大学",
+   "type": "公立",
+   "pref": "北海道",
+   "hp": "http://www.scu.ac.jp/",
+   "cat": "public"
+  },
+  {
+   "name": "芝浦工業大学",
+   "keinet": "2219",
+   "passnavi": 2450,
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "東京電機大学",
+   "keinet": "2259",
+   "passnavi": 2850,
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "工学院大学",
+   "keinet": "2212",
+   "passnavi": 2390,
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "東京農業大学",
+   "keinet": "2260",
+   "passnavi": 2860,
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "北里大学",
+   "keinet": "2205",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "東京慈恵会医科大学",
+   "keinet": "2253",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "日本医科大学",
+   "keinet": "2268",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "日本女子大学",
+   "keinet": "2272",
+   "need": [
+    "fees"
+   ]
   }
  ],
- "failed": [],
+ "failed": [
+  {
+   "name": "同志社大学",
+   "keinet": "2498",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "関西大学",
+   "keinet": "2533",
+   "passnavi": 4240,
+   "need": [
+    "schedule_dates"
+   ]
+  }
+ ],
  "fail_count": {
   "室蘭工業大学": 1,
   "東京科学大学": 2,
@@ -3547,8 +3623,6 @@
   "電動モビリティシステム専門職大学": 1,
   "北海道教育大学": 1,
   "総合研究大学院大学（大学院のみ）": 1,
-  "札幌市立大学": 1,
-  "東北公益文科大学": 1,
   "東北農林専門職大学": 1,
   "秋田公立美術大学": 1,
   "東北大学": 1,
@@ -3570,11 +3644,14 @@
   "早稲田大学": 2,
   "慶應義塾大学": 1,
   "青山学院大学": 2,
-  "同志社大学": 2,
-  "関西大学": 2,
+  "同志社大学": 3,
+  "関西大学": 3,
   "西南学院大学": 2,
   "法政大学": 1,
-  "成城大学": 2
+  "成城大学": 2,
+  "國學院大學": 1,
+  "駒澤大学": 1,
+  "東京都市大学": 1
  },
  "enrich": [
   {
@@ -5258,14 +5335,6 @@
    ]
   },
   {
-   "name": "國學院大學",
-   "keinet": "2213",
-   "passnavi": 2400,
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
    "name": "武蔵大学",
    "keinet": "2281",
    "need": [
@@ -5281,64 +5350,9 @@
    ]
   },
   {
-   "name": "駒澤大学",
-   "keinet": "2216",
-   "passnavi": 2430,
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
    "name": "専修大学",
    "keinet": "2233",
    "passnavi": 2590,
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "芝浦工業大学",
-   "keinet": "2219",
-   "passnavi": 2450,
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "東京都市大学",
-   "keinet": "2282",
-   "passnavi": 3080,
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "東京電機大学",
-   "keinet": "2259",
-   "passnavi": 2850,
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "工学院大学",
-   "keinet": "2212",
-   "passnavi": 2390,
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "東京農業大学",
-   "keinet": "2260",
-   "passnavi": 2860,
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "北里大学",
-   "keinet": "2205",
    "need": [
     "schedule_dates"
    ]
@@ -5904,27 +5918,6 @@
    "keinet": "1510",
    "need": [
     "schedule_dates"
-   ]
-  },
-  {
-   "name": "東京慈恵会医科大学",
-   "keinet": "2253",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "日本医科大学",
-   "keinet": "2268",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "日本女子大学",
-   "keinet": "2272",
-   "need": [
-    "fees"
    ]
   },
   {
@@ -23218,14 +23211,6 @@
    ]
   },
   {
-   "name": "関西大学",
-   "keinet": "2533",
-   "passnavi": 4240,
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
    "name": "西南学院大学",
    "keinet": "2705",
    "need": [
@@ -23251,13 +23236,6 @@
   {
    "name": "青山学院大学",
    "keinet": "2200",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "同志社大学",
-   "keinet": "2498",
    "need": [
     "schedule_dates"
    ]
@@ -23300,6 +23278,47 @@
    "need": [
     "extra",
     "partners"
+   ]
+  },
+  {
+   "name": "東北公益文科大学",
+   "keinet": "1530",
+   "passnavi": 1827,
+   "need": [
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "札幌市立大学",
+   "keinet": "1506",
+   "need": [
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "國學院大學",
+   "keinet": "2213",
+   "passnavi": 2400,
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "駒澤大学",
+   "keinet": "2216",
+   "passnavi": 2430,
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "東京都市大学",
+   "keinet": "2282",
+   "passnavi": 3080,
+   "need": [
+    "schedule_dates"
    ]
   }
  ],
