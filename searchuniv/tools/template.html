@@ -118,6 +118,9 @@ body.wide main,body.wide header{max-width:1320px}
 @keyframes ntscroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 .mlink{color:inherit;text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--accent) 45%,transparent);text-underline-offset:2px}.mlink:hover{color:var(--accent)}.mli{display:inline-block;margin-left:4px;font-size:10px;font-weight:700;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:0 3px;vertical-align:1px;text-decoration:none}
 .ftabs{display:flex;gap:4px;overflow-x:auto;padding:2px 0 6px;margin:4px 0 6px;border-bottom:1px solid var(--line);scrollbar-width:thin}.ftab{flex:0 0 auto;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:4px 12px;font:inherit;font-size:12.5px;cursor:pointer;white-space:nowrap}.ftab.on{background:var(--accent);border-color:var(--accent);color:#fff}.fnote{font-size:12px;color:var(--muted);margin:2px 0 6px}.dtabs{display:flex;gap:4px;overflow-x:auto;padding:0 0 6px;margin:0 0 4px}.dtab{flex:0 0 auto;border:1px dashed var(--line);background:var(--bg);color:var(--ink);border-radius:8px;padding:3px 10px;font:inherit;font-size:12px;cursor:pointer;white-space:nowrap}.dtab.on{border-style:solid;border-color:var(--accent);color:var(--accent);font-weight:700;background:var(--panel)}.fsum{border:1.5px solid var(--accent);border-radius:10px;padding:8px 12px;margin:4px 0 8px;background:var(--panel)}.fsh{font-weight:700;color:var(--accent);font-size:13px;margin-bottom:2px}
+.usec{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 10px;margin:18px 0 6px;padding:0 0 4px 10px;border-left:4px solid var(--accent);border-bottom:1px solid var(--line)}.usec:first-child{margin-top:6px}.usec span{font-weight:800;font-size:14.5px;color:var(--ink)}.usec small{font-size:11.5px;color:var(--muted)}
+.fov{width:100%;border-collapse:collapse;font-size:12.5px}.fov th,.fov td{border-bottom:1px solid var(--line);padding:5px 6px;text-align:left;vertical-align:top}.fov thead th{background:var(--bg);font-size:11.5px;color:var(--muted);white-space:nowrap}.fov tr.fov-f>th{white-space:nowrap}.fov tr.fov-d>th{font-weight:400;padding-left:18px;color:var(--muted)}.fov tr.fov-d td{color:var(--muted)}.fov a.fgo{color:var(--accent);font-weight:700;text-decoration:none;border-bottom:1px dashed currentColor;cursor:pointer}.fov tr.fov-d a.fgo{font-weight:400}.fov .ktag{font-size:10.5px}.fov details{margin:0;font-size:12px;color:var(--ink)}.fov details summary{cursor:pointer;color:var(--accent)}.fov ul.mini{margin:4px 0 0}.fov details.fdeps{margin-top:2px;font-weight:400}.fov details.fdeps summary{font-size:11.5px}.fov details.fdeps li{white-space:normal}.fov .nb{white-space:nowrap}
+.umoved{font-size:12.5px;color:var(--muted);border:1px dashed var(--line);border-radius:10px;padding:7px 12px;margin:8px 0}
 .fchips{display:flex;flex-wrap:wrap;gap:3px 5px;margin-top:3px}.fc{font-size:10.5px;border-radius:999px;padding:0 7px;border:1px solid}.fc.in{color:#2a7f62;border-color:#2a7f62}.fc.ex{color:#b42318;border-color:#b42318}.fc.unk{color:var(--muted);border-color:var(--line)}.fwarn{font-size:11.5px;color:#7a5a00;background:color-mix(in srgb,#c99700 10%,var(--panel));border-radius:8px;padding:5px 9px;margin:4px 0 6px}.xt.fees td{white-space:nowrap}
 .kyf{color:var(--ink) !important}.kyf b{color:var(--accent);font-weight:600}.kypart{display:inline-block;margin-left:6px;font-size:10.5px;font-weight:700;color:#9a6b00;border:1px solid #c99700;border-radius:999px;padding:0 6px}
 .sbar select#mby{flex:0 0 auto;max-width:9.5em;font-family:inherit;font-size:13px;border:1px solid var(--line);border-radius:8px;padding:7px 6px;background:var(--panel);color:var(--ink)}
@@ -1526,7 +1529,67 @@ function selectUniv(name,keepView){
   bindFacTabs(x);
 }
 // ===== 大学の画面の学部タブ：学部を選ぶと、その学部に関係する情報だけに絞って表示 =====
-function univBody(x){ return scheduleBlock(INFO[x.name]||{},x)+guideBlock(x)+'<div class="newsslot">'+cardNews(x.name)+'</div>'+infoBlock(x.name)+partnerBlock(x.name)+examBlock(x.name)+extraBlocks(x.name); }
+function univBodyAll(x){ return scheduleBlock(INFO[x.name]||{},x)+guideBlock(x)+'<div class="newsslot">'+cardNews(x.name)+'</div>'+infoBlock(x.name)+partnerBlock(x.name)+examBlock(x.name)+extraBlocks(x.name); }
+// 学部が2つ以上ある大学の「大学全体」：全学部に共通する情報だけを残し、学部・学科ごとに違う入試の細かい情報は学部タブへ回す
+function commonRecord(name){
+  const f=INFO[name]||{}, all=facListOf(name), moved={};
+  const m=facMatcher(name,all[0]), com=t=>m(t)==="common";
+  const g=JSON.parse(JSON.stringify(f));
+  const filt=(o,key,fn,label)=>{ if(!o||!Array.isArray(o[key])) return; const n=o[key].length; o[key]=o[key].filter(fn); if(o[key].length<n) moved[label]=(moved[label]||0)+(n-o[key].length); };
+  filt(g.schedule,"rows",r=>com((r.name||"")+" "+(r.note||"")),"入試日程");
+  filt(g.methods,"list",r=>com([r.name,r.note,r.niji,r.content,r.req].join(" ")),"入試方式");
+  filt(g.subjects,"rows",r=>!r.f||com(r.f),"入試科目");
+  if(g.fdiff&&(g.fdiff.rows||[]).length){ moved["学部・学科別の難易度"]=g.fdiff.rows.length; delete g.fdiff; }
+  filt(g.ratios,"rows",r=>com(r.unit||""),"入試倍率");
+  filt(g.eng,"rows",r=>com([r.name,r.faculties,r.note].join(" ")),"英語外部試験");
+  filt(g.money,"rows",r=>!r.f||com(r.f),"学部別の学費");
+  filt(g,"licenses",com,"取得できる資格"); filt(g,"research",com,"研究分野");
+  if(g.careers){ const a=String(g.careers).split(/(?<=。)/), k=a.filter(com); if(k.length<a.length){ moved["主な進路"]=a.length-k.length; g.careers=k.join(""); } }
+  filt(g.scholar,"rows",r=>/全学部|全学/.test(r.target||"全学部")||com(r.target||""),"奨学金");
+  return {rec:g,moved};
+}
+// 各学部・学科のページの「要点」（偏差値・共テ得点率・入試区分・試験科目）と学費を、大学全体の最初に一覧で
+const KUBUN_ORD={"一般":0,"共テ利用":1,"推薦":2,"総合型":3,"その他":4};
+function facOverview(x){
+  const name=x.name, L=facListOf(name); if(L.length<2) return "";
+  const rng=(arr,suf)=>{ arr=arr.filter(v=>v>0); if(!arr.length) return ""; const a=Math.min(...arr), b=Math.max(...arr); return a+(b!==a?"〜"+b:"")+(suf||""); };
+  const na='<span class="na2">未登録</span>';
+  let anyFee=false;
+  const rows=L.map(fac=>{
+    const R=facRecord(name,fac), fd=((R.fdiff||{}).rows||[]), sj=((R.subjects||{}).rows||[]), ml=((R.methods||{}).list||[]);
+    const kub=[...new Set(ml.map(r=>r.kubun).concat(sj.map(r=>r.kubun),((R.schedule||{}).rows||[]).map(r=>r.kubun)).filter(Boolean))].sort((a,b)=>(KUBUN_ORD[a]??9)-(KUBUN_ORD[b]??9));
+    const fr=((R.money||{}).rows||[]).filter(r=>r.f&&facMatcher(name,fac)(r.f)==="mine").map(r=>+r.first_year).filter(v=>v>0);
+    const fee=fr.length?(Math.min(...fr)===Math.max(...fr)?man(fr[0]):man(Math.min(...fr))+"〜"+man(Math.max(...fr))):""; if(fee) anyFee=true;
+    const subj=sj.length?sj.map(r=>'<li><b>'+esc((r.kubun||"")+"・"+(r.name||""))+'</b>'+(r.n?'（'+esc(r.n)+'教科）':'')+' '+esc(r.subj||r.kt||"")+'</li>'):ml.filter(r=>r.niji||r.kyotsu).map(r=>'<li><b>'+esc((r.kubun||"")+"・"+(r.name||""))+'</b> '+esc([r.kyotsu?'共テ '+r.kyotsu:'',r.niji?'個別 '+r.niji:''].filter(Boolean).join('／'))+'</li>');
+    const subjH=subj.length?'<details><summary>'+subj.length+'通り</summary><ul class="mini">'+subj.join("")+'</ul></details>':na;
+    const deps=depListOf(name,fac), dl=deps.map(d=>{ const st=depStem(d); const dr=fd.filter(r=>{ const k=depStem(r.d); return k&&(st.startsWith(k)||k.startsWith(st)); });
+      const hv=rng(dr.map(r=>parseFloat(r.hen))), kv=rng(dr.map(r=>parseFloat(r.kt)),"%");
+      return '<li><a class="fgo" data-gofac="'+esc(fac)+'" data-godep="'+esc(d)+'">'+esc(d)+'</a> <span class="nb">'+(hv?'偏差値 '+hv:'')+(kv?'　共テ '+kv:'')+(!hv&&!kv?'<span class="na2">未登録</span>':'')+'</span></li>'; });
+    const hen=rng(fd.map(r=>parseFloat(r.hen))), kt=rng(fd.map(r=>parseFloat(r.kt)),"%");
+    return '<tr class="fov-f"><th><a class="fgo" data-gofac="'+esc(fac)+'">'+esc(facLabel(name,fac))+'</a>'+(dl.length?'<details class="fdeps"><summary>学科別（'+dl.length+'）</summary><ul class="mini">'+dl.join("")+'</ul></details>':'')+'</th><td class="nb">'+(hen?'<b>'+hen+'</b>':na)+'</td><td class="nb">'+(kt||na)+'</td><td>'+(kub.length?kub.map(k=>'<span class="ktag" style="background:'+(KUBUN_COLOR[k]||"#4b5563")+'">'+esc(k)+'</span>').join(""):na)+'</td><td class="nb">'+(fee||'<span class="na2">共通・下記</span>')+'</td><td>'+subjH+'</td></tr>';
+  }).join("");
+  return '<div class="tblw"><table class="fov"><thead><tr><th>学部・学科</th><th>偏差値</th><th>共テ得点率</th><th>入試区分</th><th>初年度学費</th><th>試験科目</th></tr></thead><tbody>'+rows+'</tbody></table></div>'+
+    '<div class="enote">※偏差値・共テ得点率は学部・学科別の難易度（河合塾など）から。「未登録」は自動収集でまだ集まっていない項目です。'+(anyFee?'':'学費は学部による違いが登録されていないため、下の「学費・奨学金」を見てください。')+'</div>';
+}
+function usec(t,sub){ return '<div class="usec"><span>'+t+'</span>'+(sub?'<small>'+sub+'</small>':'')+'</div>'; }
+function univBody(x){
+  const name=x.name; if(facListOf(name).length<2) return univBodyAll(x);
+  const ov=facOverview(x), {rec,moved}=commonRecord(name), orig=INFO[name];
+  const mv=(k,label)=>moved[k]&&!(k==="入試日程"?(rec.schedule||{}).rows||[]:k==="入試科目"?(rec.subjects||{}).rows||[]:k==="英語外部試験"?(rec.eng||{}).rows||[]:[]).length?'<div class="umoved">'+label+'は学部・学科ごとに異なるため、上の学部タブ（または「学部・学科の要点」の学部名）で確認してください。</div>':'';
+  const keys=Object.keys(moved);
+  INFO[name]=rec; let h="";
+  try{
+    const sch=((rec.schedule||{}).rows||[]).length||!moved["入試日程"]?scheduleBlock(rec,x):mv("入試日程","入試日程（出願・試験・合格発表・手続締切）");
+    h=usec("学部・学科の要点","各学部・学科のページの要点をまとめています。名前を押すとそのページへ")+ov+
+      usec("指導のポイント")+guideBlock(x).replace('<div class="gh">指導のポイント</div>','')+'<div class="newsslot">'+cardNews(name)+'</div>'+
+      usec("大学の基本情報","所在地・規模・学部構成・進路など")+infoBlock(name)+partnerBlock(name)+
+      usec("入試（全学部共通）","大学全体の倍率と、どの学部にも共通する方式・日程だけ")+(keys.length?'<div class="fnote">学部ごとに異なる情報（'+keys.map(esc).join("・")+'）は、各学部のタブに分けて表示しています。</div>':'')+
+        sch+examBlock(name)+(((rec.subjects||{}).rows||[]).length?subjectsBlock(name):mv("入試科目","学部・方式ごとの入試科目"))+ratiosBlock(name)+(((rec.eng||{}).rows||[]).length||!moved["英語外部試験"]?engBlock(rec):mv("英語外部試験","英語外部試験の利用"))+
+      usec("学費・奨学金（全学部共通）")+moneyBlock(rec)+scholarBlock(rec)+
+      usec("オープンキャンパス・出典")+ocBlock(rec)+sourceBlock(name);
+  } finally { INFO[name]=orig; }
+  return h;
+}
 // 学部の一覧（タブ用）。学部・学科一覧を基本にし、faculties は表記ゆれ（「医」と「医学部」、「理学部」と「理学部第一部」、「（昼間）」付きなど）を同じ学部として重ねない
 function facKey(t){ return String(t||"").replace(/[\s　]/g,"").replace(/学部/g,""); }
 function facListOf(name){ const f=INFO[name]||{}, out=[];
@@ -1596,12 +1659,18 @@ function facBody(x,fac,dep){
       '<tr><th>試験科目</th><td>'+(sj.length?'<ul class="mini">'+sj.slice(0,6).map(r=>'<li><b>'+esc(r.kubun+"・"+r.name)+'</b>'+(r.n?'（'+r.n+'教科）':'')+' '+esc(r.subj||r.kt||"")+'</li>').join("")+'</ul>':(ml.filter(r=>r.niji||r.kyotsu).slice(0,4).map(r=>'<div><b>'+esc(r.kubun+"・"+r.name)+'</b> '+esc([r.kyotsu?'共テ '+r.kyotsu:'',r.niji?'個別 '+r.niji:''].filter(Boolean).join('／'))+'</div>').join("")||'<span class="na2">未登録（自動収集で集めています）</span>'))+'</td></tr>'+
       '</table></div>';
     h=tabs+'<div class="fnote">「'+esc(dep?fac+" "+dep:fac)+'」に関係する情報だけを表示しています。学部・学科名の書かれていない情報は共通として残しています。指導のポイントは「大学全体」に表示しています。</div>'+
-      sum+fdiffBlock(R)+(fd.length?'':'<div class="enote">※この'+(dep?'学科':'学部')+'の学科別の難易度はまだ登録されていません。</div>')+subjectsBlock(name)+examBlock(name)+scheduleBlock(R,x)+ratiosBlock(name)+engBlock(R)+infoBlock(name)+moneyBlock(R)+scholarBlock(R)+ocBlock(R);
+      sum+scheduleBlock(R,x)+fdiffBlock(R)+(fd.length?'':'<div class="enote">※この'+(dep?'学科':'学部')+'の学科別の難易度はまだ登録されていません。</div>')+subjectsBlock(name)+examBlock(name)+ratiosBlock(name)+engBlock(R)+infoBlock(name)+moneyBlock(R)+scholarBlock(R)+ocBlock(R);
   } finally { INFO[name]=orig; }
   return h;
 }
 function bindFacTabs(x){
   const box=$("mpanel"), tabs=box.querySelector(".ftabs"); if(!tabs) return; const body=box.querySelector(".fbody");
+  // 「学部・学科の要点」の名前から、その学部（学科）のページへ
+  body.addEventListener("click",e=>{ const a=e.target.closest&&e.target.closest("[data-gofac]"); if(!a) return; e.preventDefault(); e.stopPropagation();
+    const t=[...tabs.querySelectorAll(".ftab")].find(b=>b.dataset.fac===a.dataset.gofac); if(!t) return; const dep=a.dataset.godep||"";
+    t.click(); if(dep){ const d=[...body.querySelectorAll(".dtab")].find(z=>z.dataset.dep===dep); if(d) d.click(); }
+    try{ tabs.scrollIntoView({block:"nearest"}); }catch(_){}
+  });
   tabs.onclick=e=>{ const b=e.target.closest(".ftab"); if(!b) return; tabs.querySelectorAll(".ftab").forEach(t=>t.classList.toggle("on",t===b));
     const fac=b.dataset.fac; const draw=dep=>{ body.innerHTML=fac?facBody(x,fac,dep):univBody(x);
       bindStars(box); box.querySelectorAll("[data-trend]").forEach(t=>t.onclick=()=>openTrend(t.dataset.trend));
