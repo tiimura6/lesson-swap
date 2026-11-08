@@ -1,0 +1,8 @@
+{
+ "note": "専門学校（文部科学省「学校コード一覧」の 学校種 H1(専修)）を WebFetch で少しずつ読み取るための進み具合。PIPELINE.md「短大・専門の専門学校データ」を参照。",
+ "files": [
+  {"id": "east1", "url": "https://www.mext.go.jp/content/20260825-mxt_chousa01-000011635_2-1.csv", "length": null, "offset": 0, "after": "", "done": false},
+  {"id": "east2", "url": "https://www.mext.go.jp/content/20260825-mxt_chousa01-000011635_2-2.csv", "length": 534075, "offset": 0, "after": "", "done": false},
+  {"id": "west", "url": "https://www.mext.go.jp/content/20260825-mxt_chousa01-000011635_4.csv", "length": null, "offset": 0, "after": "", "done": false}
+ ]
+}

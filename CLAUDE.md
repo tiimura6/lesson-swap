@@ -10,6 +10,8 @@ GitHub Pages: https://tiimura6.github.io/lesson-swap/
   - データ収集の手順は `searchuniv/PIPELINE.md`（毎時の定期実行「Searchuniv データ拡充」がこれに従う）。
   - Claude のアーティファクト版（slug 8174544a-a178-4a35-a835-6e4a0156f302）も `searchuniv/` の生成物から公開する（index.html・detail.json・world.json・muni.json）。
 
+- 「🏫 短大・専門」タブ（`#ts`、`index.html` の「短大・専門タブ」script）：短期大学・専門学校の名前と場所だけの地図。`searchuniv/ts-module.js`（`TanSenModule.mount(host)`、Shadow DOM）を読み込む。元は `searchuniv/tools/ts_template.js`、データは `searchuniv/data/ts_raw/*.txt`（文部科学省「学校コード一覧」）→ `python3 tools/ts_import.py`（座標）→ `python3 tools/build_ts.py`。専門学校は定期実行が少しずつ読み取る（PIPELINE.md）。
+
 ## Searchuniv を直すとき（不具合を防ぐ決まり）
 1. `searchuniv/tools/template.html` か `searchuniv/tools/build.py` を直す。
 2. `cd searchuniv && python3 tools/build.py && python3 tools/smoke_test.py` を実行し、「すべて合格」を確認してからコミットする。不合格なら生成物をコミットしない。画面や機能を変えたときは `python3 tools/feature_check.py`（先生から依頼された改良点59項目の確認）も通す。

@@ -1392,9 +1392,9 @@
     #viewUniv .univ-seg { display:inline-flex; gap:2px; padding:3px; background:#ececf0; border-radius:10px; max-width:100%; overflow-x:auto; }
     #viewUniv .univ-seg button { border:none; background:transparent; border-radius:8px; padding:6px 14px; font:600 0.9rem -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Meiryo", sans-serif; color:#1d1d1f; white-space:nowrap; cursor:pointer; }
     #viewUniv .univ-seg button[aria-selected="true"] { background:#fff; box-shadow:0 1px 3px rgba(0,0,0,.14); }
-    #viewUniv .univ-msg { display:flex; align-items:center; justify-content:center; gap:8px; min-height:240px; color:#6e6e73; background:#fff; border-radius:16px; box-shadow:0 0 0 1px #e5e5ea; padding:20px; text-align:center; flex-wrap:wrap; }
-    #viewUniv .univ-msg[hidden] { display:none; }
-    #viewUniv .univ-msg button, #viewUniv .univ-msg a { border:none; cursor:pointer; font:600 0.85rem -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif; color:#0071e3; background:#f2f2f7; border-radius:980px; padding:6px 14px; text-decoration:none; }
+    #viewUniv .univ-msg, #viewTS .univ-msg { display:flex; align-items:center; justify-content:center; gap:8px; min-height:240px; color:#6e6e73; background:#fff; border-radius:16px; box-shadow:0 0 0 1px #e5e5ea; padding:20px; text-align:center; flex-wrap:wrap; }
+    #viewUniv .univ-msg[hidden], #viewTS .univ-msg[hidden] { display:none; }
+    #viewUniv .univ-msg button, #viewUniv .univ-msg a, #viewTS .univ-msg button { border:none; cursor:pointer; font:600 0.85rem -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif; color:#0071e3; background:#f2f2f7; border-radius:980px; padding:6px 14px; text-decoration:none; }
     .univ-badge[hidden] { display:none !important; }
     .univ-badge.urgent { background:#c0392b !important; }
     .univ-seg .univ-badge, .vtab .univ-badge { display:inline-block; min-width:18px; margin-left:5px; padding:0 5px; border-radius:980px; background:#0071e3; color:#fff; font-size:0.72rem; font-weight:700; line-height:18px; text-align:center; }
@@ -1540,6 +1540,7 @@
     <button type="button" role="tab" class="vtab active" data-view="home" aria-selected="true">🏠 ホーム</button>
     <button type="button" role="tab" class="vtab" data-view="swap" aria-selected="false">🔁 授業・時間割</button>
     <button type="button" role="tab" class="vtab" data-view="univ" aria-selected="false">🎓 大学・進路</button>
+    <button type="button" role="tab" class="vtab" data-view="ts" aria-selected="false">🏫 短大・専門</button>
     <button type="button" role="tab" class="vtab" data-view="clean" aria-selected="false">🧹 清掃当番作成</button>
     <button type="button" role="tab" class="vtab" data-view="exam" aria-selected="false">📝 試験監督割当</button>
   </nav>
@@ -1666,6 +1667,10 @@
   </div><!-- /viewClass -->
 
 
+  <div id="viewTS" class="view hidden">
+    <div class="univ-msg" id="tsMsg"><span class="spin"></span>読み込み中…</div>
+    <div id="tsHost"></div>
+  </div>
   <div id="viewClean" class="view hidden">
 <h2 class="sc-title">🧹 清掃当番作成 <span class="tt-counter" data-key="clean">累計作成数 <b>…</b>回</span><button type="button" class="rec-btn" data-rec-save="clean">💾 保存</button><button type="button" class="rec-btn" data-rec-open="clean">📁 保存した清掃当番</button></h2>
 
@@ -1968,7 +1973,7 @@
   // ===== 画面（タブ）切り替え =====
   (function(){
     const tabs = Array.from(document.querySelectorAll('#viewTabs .vtab'));
-    const views = { home: 'viewHome', swap: 'viewSwap', 'class': 'viewClass', clean: 'viewClean', exam: 'viewExam', univ: 'viewUniv', 'univ-ai': 'viewUniv', 'univ-plan': 'viewUniv', 'univ-trend': 'viewUniv', 'univ-kyotsu': 'viewUniv' };
+    const views = { home: 'viewHome', swap: 'viewSwap', 'class': 'viewClass', clean: 'viewClean', exam: 'viewExam', univ: 'viewUniv', 'univ-ai': 'viewUniv', 'univ-plan': 'viewUniv', 'univ-trend': 'viewUniv', 'univ-kyotsu': 'viewUniv', ts: 'viewTS' };
     // カレンダーは1つだけ。ホームでは「カレンダー（左）＋その日の予定と時間割（右）」を大きく、
     // 授業交換タブでは従来どおり右上に小さく表示（印刷の実施日指定に使うため）
     function placeCalendar(name){
@@ -12702,6 +12707,39 @@
     document.querySelectorAll('[data-rec-save]').forEach(b => b.addEventListener('click', () => save(b.dataset.recSave)));
     const sp = document.getElementById('savePrintCartBtn'); if(sp) sp.addEventListener('click', () => save('swap'));
     window.ttRecords = Object.freeze({ save, open, list: type => all().filter(r => !type || r.type === type) });
+  })();
+  </script>
+  <script>
+  // ===== 短大・専門タブ（短期大学・専門学校の名前と場所だけを地図に。searchuniv/ts-module.js を Shadow DOM の中に表示） =====
+  // 中身は searchuniv/tools/ts_template.js と data/tanki_senmon.json から searchuniv/tools/build_ts.py が作る。タブを開いたときに読み込む。
+  (function(){
+    const BASE = /^https?:$/.test(location.protocol) ? new URL('searchuniv/', location.href).href : 'https://tiimura6.github.io/lesson-swap/searchuniv/';
+    const host = document.getElementById('tsHost'), msg = document.getElementById('tsMsg');
+    let api = null, loading = null;
+    const log = (a, d) => { try { if(window.ttLog) window.ttLog(a, d); } catch(e){} };
+    function load(){
+      if(api) return Promise.resolve(api);
+      if(loading) return loading;
+      loading = new Promise((res, rej) => {
+        if(window.TanSenModule) return res();
+        const sc = document.createElement('script');
+        sc.src = BASE + 'ts-module.js?h=' + Math.floor(Date.now() / 36e5);
+        sc.onload = res; sc.onerror = () => { sc.remove(); rej(new Error('ファイルを取得できない')); };
+        document.head.appendChild(sc); setTimeout(() => rej(new Error('時間切れ')), 25000);
+      }).then(() => {
+        const M = window.TanSenModule;
+        if(!M || M.apiVersion !== 1) throw new Error('版が合わない');
+        api = M.mount(host, { onLog: log }); msg.hidden = true; return api;
+      }).catch(e => {
+        loading = null; msg.hidden = false;
+        msg.innerHTML = '短大・専門の地図を読み込めませんでした（' + String(e && e.message || e).replace(/[<>&]/g, '') + '）。<button type="button" id="tsRetry">もう一度読み込む</button>';
+        document.getElementById('tsRetry').onclick = () => { msg.innerHTML = '<span class="spin"></span>読み込み中…'; load().catch(() => {}); };
+        log('短大・専門エラー', String(e && e.message || e).slice(0, 80)); throw e;
+      });
+      return loading;
+    }
+    window.addEventListener('tt:view', e => { if(e.detail === 'ts') load().catch(() => {}); });
+    if((location.hash || '') === '#ts') load().catch(() => {});
   })();
   </script>
   <script>

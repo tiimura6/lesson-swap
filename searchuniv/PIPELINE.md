@@ -31,6 +31,14 @@ Searchuniv に全国の大学を少しずつ追加し、既存校の空欄（研
 - 日付は「1/25〜2/3」のように月日で書く（画面が年度から年を付けて「2027/1/25〜2/3」と表示する）。年を書く場合は「2027/1/25」の形にする。
 - 共通テストの画面は `data/kyotsu_test.json`（出典は大学入試センター）。新しい年度の実施要項・受験案内が出たら（例年6〜7月）、fy・日程・時間割・科目・検定料・リンクを新しい年度に書き換え、平均点・志願者数は最終発表の後に1年分足す。確認日（checked）も更新する。
 
+## 短大・専門の専門学校データ（飯村システム「🏫 短大・専門」タブ。2026-11-08〜、全ファイル読み終わるまで毎回）
+- 地図に出すのは名前と場所だけ。短期大学は `data/ts_raw/tandai.txt`（取り込み済み 292校）。専門学校は文部科学省「学校コード一覧」の CSV を WebFetch で少しずつ読む（このCSVは直接ダウンロードできない環境のため）。
+- 進み具合は `data/ts_raw/senmon_progress.json`。done でない最初のファイルについて、`WebFetch(url, offset)` で次のように頼む：「学校種が H1(専修) で本分校が 1(本) の行のうち、学校名に『高等専修学校』を含まない行だけを『学校コード|設置区分|学校名|学校所在地』の形で省略せずそのまま出力。最大150行。150行を超えるときは150行で止めて最後に『つづきあり』と書く。属性情報廃止年月日が入っている行は除く。」（after に学校コードがあれば「学校コード ○○ より後の行だけ」と付ける）。
+- 出力をそのまま `data/ts_raw/senmon_<id>.txt` に足す（同じ学校コードは重複させない）。「つづきあり」なら after に最後の学校コードを入れて同じ offset で続ける。無ければ after を空にし、offset を WebFetch の注記にある次の offset にする（注記が無ければそのファイルは読み終わり＝done:true、length も記録）。
+- この作業は1回あたり WebFetch 10回まで（大学の追加・補完の60回に含める）。読み取った内容は CSV の文字どおりに写し、推測で直さない。
+- 最後に `python3 tools/ts_import.py && python3 tools/build_ts.py` を実行し（座標は geolonia の住所データ）、`data/ts_raw/`・`data/tanki_senmon.json`・`data/ts_coords.json`・`ts-module.js`・`ts.html` もコミットする。`node --check ts-module.js` がエラーなら ts-module.js はコミットしない。
+- 3ファイルとも done になったら、この節の作業は終わり（報告に「専門学校 ○校で完了」と書く）。
+
 ## 先生からの誤り報告（毎回最初に処理）
 - 画面の「情報の誤りを報告」欄は 2026-11-07 に先生の依頼で削除した。db の `reports` に open の記録が残っていれば、下の手順で処理する（新しい報告は来ない）。
 - 公開ページの「情報の誤りを報告」から、アーティファクトの db の `reports` コレクションに `{univ, field, text, date, status:"open"}` が入る（field は difficulty / fdiff / methods / schedule / money / kyotsu / ratios / eng / oc / qtrend / departments / access / other）。
@@ -67,6 +75,7 @@ Searchuniv に全国の大学を少しずつ追加し、既存校の空欄（研
 7. コミットして main にプッシュ（コミットメッセージ例「データ拡充: 〇校追加・〇校補完」）。
 8. 公開ページを更新：mcp__claude-artifacts__get_artifact で現在の version を確認 → list_files → publish_files（slug、base_version、files=[{"as":"index.html","path":"<clone先>/index.html"},{"as":"detail.json","path":"<clone先>/detail.json"},{"as":"world.json","path":"<clone先>/world.json"},{"as":"muni.json","path":"<clone先>/muni.json"}]（4ファイルとも必ず送る。detail.json を送らないと詳細データが古いままになる）、mode "patch"）。
 9. 追加・補完した件数と、残りの件数を短く報告。
+10. 「短大・専門の専門学校データ」の節がまだ終わっていなければ、その作業もする（WebFetch 10回まで）。
 
 ## 集め方（1校あたり）
 （2026-11-08 先生の指示で「最寄りの高速IC（info.ic）」は集めない・載せない。）
