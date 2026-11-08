@@ -79,6 +79,10 @@ with sync_playwright() as p:
     J('document.getElementById("uclose").click(); Searchuniv.selectUniv("茨城キリスト教大学")'); pg.wait_for_timeout(700)
     J('document.querySelector("#mpanel .ftab[data-fac]:not([data-fac=\'\'])") && document.querySelector("#mpanel .ftab[data-fac]:not([data-fac=\'\'])").click()'); pg.wait_for_timeout(300)
     ck(G, '学部・方式ごとの入試科目（私立の多様な方式、学部タブ）', '学部・方式ごとの入試科目' in J('document.getElementById("mpanel").innerText'))
+    ck(G, '日付に年を表示（例 2027/1/25）', 'function withYear' in tpl and 'withYear(v,' in tpl)
+    ck(G, '前の年度の入試情報は4月から色を変える（更新で戻る）', 'function staleYear' in tpl and 'CUR_FY' in tpl and '.stag{' in tpl)
+    ck(G, '志望校を学部・学科・入試区分まで選ぶ', all(('id="st-%s1"' % k) in tpl for k in 'fdm') and 'function stFill' in tpl)
+    ck(G, '共通テストの画面（日程・時間割・科目・検定料・公式リンク）', 'id="v-kyotsu"' in tpl and os.path.exists(os.path.join(HERE,'data','kyotsu_test.json')))
     ck(G, '奨学金を学部・学科ごとに表示する仕組み', 'function scholarBlock' in tpl and 'scholar' in open(os.path.join(HERE,'tools','build.py'),encoding='utf-8').read())
     J('document.getElementById("uclose").click(); Searchuniv.selectUniv("東北大学")'); pg.wait_for_timeout(700)
     J('[...document.querySelectorAll("#mpanel .ftab")].find(b=>b.textContent==="医学部").click()'); pg.wait_for_timeout(300)
@@ -150,7 +154,7 @@ with sync_playwright() as p:
     ck(G, 'タブ：授業・時間割と大学・進路にまとめた', '授業・時間割' in tabs and '大学・進路' in tabs and '進路面談' not in tabs and 'クラス別時間割' not in tabs, tabs)
     pg2.evaluate('document.querySelector("#viewTabs [data-view=univ]").click()'); pg2.wait_for_timeout(3000)
     ck(G, 'iframe ではなく直接組み込み', pg2.evaluate('!document.querySelector("#viewUniv iframe") && !!document.getElementById("univHost").shadowRoot'))
-    ck(G, '大学・進路の中で4画面を切り替え', pg2.evaluate('document.querySelectorAll("#univSeg [data-sub]").length') == 4)
+    ck(G, '大学・進路の中で5画面を切り替え（共通テストを含む）', pg2.evaluate('document.querySelectorAll("#univSeg [data-sub]").length') == 5 and pg2.evaluate('!!document.querySelector("#univSeg [data-sub=kyotsu]")'))
     ck(G, 'エラーなし（飯村システム）', not e2, e2[:2])
 
     G = '自動収集・運用'

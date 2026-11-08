@@ -1949,6 +1949,7 @@
         <button type="button" role="tab" data-sub="ai" aria-selected="false">🗣 進路面談</button>
         <button type="button" role="tab" data-sub="plan" aria-selected="false">⚖ 大学比較<span class="univ-badge" hidden></span></button>
         <button type="button" role="tab" data-sub="trend" aria-selected="false">📚 出題内容</button>
+        <button type="button" role="tab" data-sub="kyotsu" aria-selected="false">📝 共通テスト</button>
       </div>
       <span class="univ-sp"></span>
       <span class="tt-counter" data-key="univ">累計検索数 <b>…</b>回</span>
@@ -1967,7 +1968,7 @@
   // ===== 画面（タブ）切り替え =====
   (function(){
     const tabs = Array.from(document.querySelectorAll('#viewTabs .vtab'));
-    const views = { home: 'viewHome', swap: 'viewSwap', 'class': 'viewClass', clean: 'viewClean', exam: 'viewExam', univ: 'viewUniv', 'univ-ai': 'viewUniv', 'univ-plan': 'viewUniv', 'univ-trend': 'viewUniv' };
+    const views = { home: 'viewHome', swap: 'viewSwap', 'class': 'viewClass', clean: 'viewClean', exam: 'viewExam', univ: 'viewUniv', 'univ-ai': 'viewUniv', 'univ-plan': 'viewUniv', 'univ-trend': 'viewUniv', 'univ-kyotsu': 'viewUniv' };
     // カレンダーは1つだけ。ホームでは「カレンダー（左）＋その日の予定と時間割（右）」を大きく、
     // 授業交換タブでは従来どおり右上に小さく表示（印刷の実施日指定に使うため）
     function placeCalendar(name){
@@ -12709,8 +12710,8 @@
   // 不具合を防ぐ仕組み：Shadow DOM でCSS・IDを分離／URL(#)を使わない／apiVersion の確認／読み込み失敗・時間切れ時は再試行ボタン／エラーは操作ログへ
   (function(){
     const API_VERSION = 1;
-    const SUB = { univ: 'map', 'univ-ai': 'ai', 'univ-plan': 'plan', 'univ-trend': 'trend' };
-    const TAB = { map: 'univ', ai: 'univ-ai', plan: 'univ-plan', trend: 'univ-trend' };
+    const SUB = { univ: 'map', 'univ-ai': 'ai', 'univ-plan': 'plan', 'univ-trend': 'trend', 'univ-kyotsu': 'kyotsu' };
+    const TAB = { map: 'univ', ai: 'univ-ai', plan: 'univ-plan', trend: 'univ-trend', kyotsu: 'univ-kyotsu' };
     const BASE = /^https?:$/.test(location.protocol) ? new URL('searchuniv/', location.href).href : 'https://tiimura6.github.io/lesson-swap/searchuniv/';
     const K_CANDS = 'searchuniv:cands';
     const host = document.getElementById('univHost'), msg = document.getElementById('univMsg'), seg = document.getElementById('univSeg');
@@ -12780,7 +12781,7 @@
       const esc = t => String(t == null ? '' : t).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
       fetch(BASE + 'news.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : []).then(L => {
         L = (L || []).slice().sort((a, b) => (b.date || '').localeCompare(a.date || '')).slice(0, 15); if(!L.length) return;
-        const one = L.map(n => '<a class="ut-i" href="' + esc(n.url || '#') + '" target="_blank" rel="noopener">' + (n.important ? '<span class="imp">★</span>' : '') + '<b>' + esc(n.univ) + '</b> ' + esc(n.title) + '<span class="ut-d">' + esc((n.date || '').slice(5).replace('-', '/')) + '</span></a>').join('<span class="ut-sep">｜</span>');
+        const one = L.map(n => '<a class="ut-i" href="' + esc(n.url || '#') + '" target="_blank" rel="noopener">' + (n.important ? '<span class="imp">★</span>' : '') + '<b>' + esc(n.univ) + '</b> ' + esc(n.title) + '<span class="ut-d">' + esc((n.date || '').replace(/-/g, '/')) + '</span></a>').join('<span class="ut-sep">｜</span>');
         tr.innerHTML = '<span class="ut-run">' + one + '</span><span class="ut-run" aria-hidden="true">' + one + '</span>';
         box.hidden = false;
         const setDur = () => { const w = tr.firstChild.getBoundingClientRect().width; if(w) tr.style.setProperty('--ut-dur', Math.max(40, Math.round(w / 35)) + 's'); };

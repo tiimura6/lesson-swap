@@ -16,7 +16,10 @@ GitHub Pages: https://tiimura6.github.io/lesson-swap/
 3. 飯村システム側の読み込み部分は `index.html` の「大学・進路タブ（…Searchuniv を直接組み込み）」の script。`SearchunivModule.apiVersion`（いまは 1）・`mount()` の引数・`Searchuniv` の関数名を変えるときは、両方を同時に直す。
 4. Searchuniv の中は Shadow DOM。飯村システムの CSS・要素ID と混ざらない。Searchuniv 側で `location.hash` や `document.getElementById` を直接使わない（`NAV`・`ROOT` を使う）。モジュールの最上位の名前は `SU_` で始める。
 5. 大学の画面：学部が2つ以上ある大学の「大学全体」は、最初に「学部・学科の要点」（各学部・学科タブの要点の一覧）、続いて 指導のポイント／大学の基本情報／入試（全学部共通）／学費・奨学金（全学部共通）／オープンキャンパス・出典。学部名を含む日程・方式・科目・学科別難易度・学部別学費などは `commonRecord()` で学部タブへ回す（学部タブは `facRecord()`）。
-6. 比較候補は localStorage の `searchuniv:cands`（両方で共通）。進路面談の生徒の記録は `searchuniv:students:<操作者名>`（クラス＋出席番号がキー、個人名は持たない）。CSV の列名は「表示名[項目ID]」で、読み込みは[]の中で照合する。
+6. 日付は `withYear()` で年を付けて表示し、入試年度（`CUR_FY`。4月で切り替わる）より古い年度の入試情報は `staleYear()` でオレンジ色＋「更新待ち」の印。自動収集で year が新しくなると戻る。動作確認は localStorage `searchuniv:today` に日付を入れる。
+7. 進路面談の志望校は 大学（st-uN）＞学部（st-fN）＞学科（st-dN）＞入試区分・方式（st-mN、値は「区分|方式名」）。`stFill()` が選択肢を作り、`stRoutes(name,fac,dep,meth)` がその募集単位の方式だけで戦略を作る。
+8. 「共通テスト」画面（Searchuniv の view `kyotsu`、飯村システムの #univ-kyotsu）は `searchuniv/data/kyotsu_test.json`（大学入試センターの資料）から作る。
+9. 比較候補は localStorage の `searchuniv:cands`（両方で共通）。進路面談の生徒の記録は `searchuniv:students:<操作者名>`（クラス＋出席番号がキー、個人名は持たない）。CSV の列名は「表示名[項目ID]」で、読み込みは[]の中で照合する。
 
 ## 操作者
 - タイトル横の「👤 操作者」で選ぶ（localStorage `ttOperator`）。PINは `opPins`／GAS。
