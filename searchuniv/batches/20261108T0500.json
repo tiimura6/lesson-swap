@@ -1,0 +1,778 @@
+[
+ {
+  "name": "日本国際学園大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "茨城県つくば市",
+  "pref_name": "茨城県",
+  "city": "つくば市",
+  "features": [
+   "経営情報学部ビジネスデザイン学科の1学部1学科で、国際教養・現代ビジネス・国際エアライン・国際ホテル・AI・情報・コンテンツデザイン・公務員・日本文化・ビジネスの8モデルから学ぶ（大学公式）",
+   "つくば（茨城県）と仙台（宮城県、2024年開設）の2キャンパスで、キャンパスごとに学ぶ内容が異なる",
+   "2024年4月に筑波学院大学から改称。キャンパスアドバイザー制度で入学前から就職まで個別に支援する"
+  ],
+  "memo": "一般選抜は英語・国語から1科目（100点）＋英語資格・検定試験（10点）。出願締切1/21、試験1/30（Kei-Net）。初年度納付金1,428,452円（2026年度、Kei-Net）。共テ利用入試はKei-Net・パスナビに掲載なし。",
+  "reading": "にほんこくさいがくえん",
+  "aliases": [
+   "筑波学院大学"
+  ],
+  "hp": "https://www.japan-iu.ac.jp/",
+  "info": {
+   "difficulty": {
+    "hensachi": "37.5",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "faculties": [
+    "経営情報学部"
+   ],
+   "departments_full": [
+    {
+     "f": "経営情報学部",
+     "d": [
+      "ビジネスデザイン学科"
+     ]
+    }
+   ],
+   "students": {
+    "count": 348,
+    "year": 2025
+   },
+   "founded": "1996年 東京家政学院筑波女子大学として開学（2005年 筑波学院大学、2024年 現校名に改称）",
+   "access": "つくばキャンパス：つくばエクスプレス つくば駅から徒歩7分／仙台キャンパス：仙台市地下鉄南北線 五橋駅からすぐ（JR仙台駅から徒歩約10分）",
+   "tuition": {
+    "amount": 960000,
+    "label": "入学金＋授業料",
+    "year": 2026
+   },
+   "schedule": {
+    "year": "2027年度入試（Kei-Net、ページに年度表示なし）",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "apply": "〜1/21（消印有効）",
+      "exam": "1/30",
+      "result": "2/8",
+      "proc": "2/25",
+      "note": "英語・国語から1科目＋英語資格・検定試験"
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "admission": 250000,
+    "annual": 1090000,
+    "note": "annualは授業料710,000円＋施設/教育充実費350,000円＋実習費30,000円。初年度1,428,452円（諸会費88,452円含む）。授業内容により別途費用",
+    "rows": [
+     {
+      "f": "経営情報学部 ビジネスデザイン学科",
+      "admission": 250000,
+      "tuition": 710000,
+      "facility": 350000,
+      "practical": 30000,
+      "other": 88452,
+      "first_year": 1428452,
+      "four_year": null,
+      "note": "otherは諸会費"
+     }
+    ]
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2111",
+    "https://search.keinet.ne.jp/2111/outline/department",
+    "https://search.keinet.ne.jp/2111/general/exam_subject",
+    "https://search.keinet.ne.jp/2111/general/schedule",
+    "https://search.keinet.ne.jp/2111/outline/expense",
+    "https://passnavi.obunsha.co.jp/univ/1867/difficulty/",
+    "https://www.japan-iu.ac.jp/",
+    "https://www.japan-iu.ac.jp/access/"
+   ]
+  },
+  "guide": {
+   "fit": "経営・情報・デザイン・英語などを幅広く試しながら、エアライン・ホテル・公務員など進路に合わせたモデルを選びたい生徒。",
+   "ask": [
+    "つくばと仙台のどちらのキャンパスで学びたいか",
+    "8つのモデルのうち関心があるものはどれか",
+    "一般選抜で英語と国語のどちらで受けるか"
+   ],
+   "caution": "キャンパスごとに学ぶ内容が異なるため、希望のモデルがどちらのキャンパスで学べるか公式で確認する。"
+  },
+  "exam": {
+   "format": "総合型選抜・学校推薦型選抜・一般選抜を実施。一般は英語・国語から1科目＋英語資格・検定試験。",
+   "sources": [
+    "https://search.keinet.ne.jp/2111/general/exam_subject"
+   ]
+  }
+ },
+ {
+  "name": "SBC東京医療大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "千葉県浦安市",
+  "pref_name": "千葉県",
+  "city": "浦安市",
+  "features": [
+   "健康科学部に理学療法学科・整復医療・トレーナー学科・看護学科を置く医療系大学（2006年に了德寺大学として開学）",
+   "理学療法・整復医療・トレーナー学科は首都圏の附属クリニック（整形外科）5か所で臨床実習を行う（大学公式）",
+   "4年間の学納金は580万円で全学科同額。スカラシップ選抜の成績上位者は1年次の授業料等70万円が免除（大学公式）"
+  ],
+  "memo": "一般兼スカラシップ選抜はA・B日程（1/30・1/31）、英・数・国・理から2科目＋面接・志望理由書。総合型はⅠ〜Ⅳ期、学校推薦型（公募制・指定校）は11/22試験（2027年度、大学公式）。初年度160万円。",
+  "reading": "えすびーしーとうきょういりょう",
+  "aliases": [
+   "了德寺大学"
+  ],
+  "hp": "https://www.sbctmu.ac.jp/",
+  "info": {
+   "difficulty": {
+    "hensachi": "37.5〜40.0",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "faculties": [
+    "健康科学部"
+   ],
+   "departments_full": [
+    {
+     "f": "健康科学部",
+     "d": [
+      "理学療法学科",
+      "整復医療・トレーナー学科",
+      "看護学科"
+     ]
+    }
+   ],
+   "students": {
+    "count": 1035,
+    "year": 2025
+   },
+   "founded": "2006年 了德寺大学として開学",
+   "access": "千葉県浦安市明海のキャンパス：最寄駅はJR京葉線 新浦安駅",
+   "tuition": {
+    "amount": 900000,
+    "label": "入学金＋授業料",
+    "year": 2024
+   },
+   "licenses": [
+    "理学療法士（受験資格）",
+    "柔道整復師（受験資格）",
+    "看護師（受験資格）",
+    "保健師（受験資格）",
+    "養護教諭一種・二種（看護学科）",
+    "中学校・高等学校教諭一種（保健体育）（整復医療・トレーナー学科）"
+   ],
+   "schedule": {
+    "year": "2027年度入試（大学公式）",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型Ⅰ期（基礎力評価型・小論文型）",
+      "apply": "2026/9/1〜9/10（Web）",
+      "exam": "1次9/19・9/20、2次10/16",
+      "result": "1次10/2、2次11/2",
+      "proc": "11/13"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型Ⅱ期",
+      "apply": "2026/9/1〜9/24（Web）",
+      "exam": "10/4",
+      "result": "11/2",
+      "proc": "11/13"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型Ⅲ期（基礎力評価型）",
+      "apply": "2026/9/24〜10/18（Web）",
+      "exam": "10/25",
+      "result": "11/2",
+      "proc": "11/13"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型（公募制・指定校）",
+      "apply": "2026/11/1〜11/15（Web）",
+      "exam": "11/22",
+      "result": "12/1",
+      "proc": "12/17"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般兼スカラシップ選抜 A日程",
+      "apply": "2026/12/22〜1/21（Web）",
+      "exam": "1/30",
+      "result": "2/8",
+      "proc": "2/17",
+      "note": "2科目型。全学科共通"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般兼スカラシップ選抜 B日程",
+      "apply": "2026/12/22〜1/21（Web）",
+      "exam": "1/31",
+      "result": "2/8",
+      "proc": "2/17"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型Ⅳ期",
+      "apply": "2027/2/8〜3/2（Web）",
+      "exam": "3/9",
+      "result": "3/12",
+      "proc": "3/18"
+     }
+    ]
+   },
+   "money": {
+    "year": "2024年度入学生より",
+    "total4": 5800000,
+    "total4_note": "大学公式の4年間合計（全学科共通）",
+    "admission": 200000,
+    "annual": 1400000,
+    "note": "annualは授業料70万円＋施設拡充費45万円＋実習設備維持費25万円。初年度160万円。別途 学友会費4年間4万円・保険（理学療法・整復約5千円、看護約2万5千円）、理学療法学科は臨床実習の保険料・積立費など約18万円（予定）",
+    "rows": [
+     {
+      "f": "健康科学部（全学科共通）",
+      "admission": 200000,
+      "tuition": 700000,
+      "facility": 450000,
+      "practical": 250000,
+      "other": null,
+      "first_year": 1600000,
+      "four_year": 5800000,
+      "note": "practicalは実習設備維持費。学友会費・保険料等は別途"
+     }
+    ]
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2144",
+    "https://search.keinet.ne.jp/2144/outline/department",
+    "https://search.keinet.ne.jp/2144/general/exam_subject",
+    "https://search.keinet.ne.jp/2144/general/schedule",
+    "https://search.keinet.ne.jp/2144/outline/licential",
+    "https://passnavi.obunsha.co.jp/univ/2238/difficulty/",
+    "https://www.sbctmu.ac.jp/admissions/overview/",
+    "https://www.sbctmu.ac.jp/admissions/tuition/",
+    "https://www.sbctmu.ac.jp/features/"
+   ]
+  },
+  "guide": {
+   "fit": "理学療法士・柔道整復師（スポーツトレーナー）・看護師など医療職の国家資格をめざし、附属クリニックでの実習を重視したい生徒。",
+   "ask": [
+    "理学療法・整復医療・看護のどの職種をめざすか",
+    "スカラシップ選抜（授業料等免除）に挑戦するか",
+    "総合型・推薦・一般のどの時期に受けるか"
+   ],
+   "caution": "学費は全学科同額だが、理学療法学科は臨床実習の費用が別途約18万円（予定）かかる。"
+  },
+  "exam": {
+   "format": "総合型Ⅰ〜Ⅳ期・学校推薦型（公募制・指定校）・一般兼スカラシップ選抜（A・B日程）を実施。共テ利用はKei-Net・大学公式の入試概要に記載なし。",
+   "sources": [
+    "https://www.sbctmu.ac.jp/admissions/overview/"
+   ]
+  }
+ },
+ {
+  "name": "日本医科大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試（医学部はKei-Net・パスナビ。医療健康科学部は大学公式）",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "医学部 一般前期",
+      "exam": "1次2/1、2次2/10・2/12から選択",
+      "fee": 60000,
+      "note": "検定料は2026年度入試の額（割引あり）。県地域枠前期も同日程、東京都地域枠は2次2/10",
+      "apply": "2026/12/21〜1/21（消印有効）",
+      "result": "1次2/8、2次2/16",
+      "proc": "2/19"
+     },
+     {
+      "kubun": "一般",
+      "name": "医学部 一般後期",
+      "exam": "1次2/28、2次3/9",
+      "fee": 60000,
+      "note": "検定料は2026年度入試の額",
+      "apply": "2027/2/1〜2/19（消印有効）",
+      "result": "1次3/6、2次3/15",
+      "proc": "3/18"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "医学部 共テグローバル特別",
+      "exam": "1次2/1、2次2/10・2/12から選択",
+      "fee": 60000,
+      "note": "検定料は2026年度入試の額",
+      "apply": "2026/12/21〜1/21（消印有効）",
+      "result": "1次2/8、2次2/16",
+      "proc": "2/19"
+     },
+     {
+      "kubun": "一般",
+      "name": "医療健康科学部 一般",
+      "exam": "1次2/2（共テ利用可）、2次2/10（2/9の場合あり）",
+      "fee": 30000,
+      "note": "2027年度要項（大学公式）。併願は2区分45,000円・3区分50,000円",
+      "apply": "2026/12/14〜1/20",
+      "result": "1次2/6、2次2/15",
+      "proc": "2/22"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "医療健康科学部 共テA・B方式",
+      "exam": "1次 共テ、2次2/10（2/9の場合あり）",
+      "fee": 30000,
+      "note": "2027年度要項（大学公式）。A・B併願は40,000円",
+      "apply": "2026/12/14〜1/20",
+      "result": "1次2/6、2次2/15",
+      "proc": "2/22"
+     }
+    ]
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2268/general/schedule",
+    "https://passnavi.obunsha.co.jp/univ/2940/schedule/"
+   ]
+  }
+ },
+ {
+  "name": "東京女子大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試（出願・発表・手続はパスナビ、試験日はKei-Netと一致）",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般 個別学力試験型（英語圏文化・歴史文化・経済経営・心理）",
+      "apply": "1/4〜1/18",
+      "exam": "2/3",
+      "result": "2/12",
+      "proc": "2/18",
+      "fee": 35000,
+      "note": "検定料は2027年度（大学公式）。2学科目以降は1学科10,000円"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 個別学力試験型（哲学・日本文学文化・国際社会・社会コミュニケーション・情報数理科学）",
+      "apply": "1/4〜1/18",
+      "exam": "2/4",
+      "result": "2/12",
+      "proc": "2/18",
+      "fee": 35000,
+      "note": "検定料は2027年度（大学公式）。2学科目以降は1学科10,000円"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 英語外部検定利用型（英語圏文化・歴史文化・経済経営・心理）",
+      "apply": "1/4〜1/18",
+      "exam": "2/3",
+      "result": "2/12",
+      "proc": "3/1",
+      "fee": 35000,
+      "note": "検定料は2027年度（大学公式）。2学科目以降は1学科10,000円。出願に英語資格が必要"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 英語外部検定利用型（哲学・日本文学文化・国際社会・社会コミュニケーション・情報数理科学）",
+      "apply": "1/4〜1/18",
+      "exam": "2/4",
+      "result": "2/12",
+      "proc": "3/1",
+      "fee": 35000,
+      "note": "検定料は2027年度（大学公式）。2学科目以降は1学科10,000円。出願に英語資格が必要"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "前期共テ単独3教科型",
+      "apply": "1/4〜1/15",
+      "exam": "",
+      "result": "2/12",
+      "proc": "2/18",
+      "fee": 15000,
+      "note": "個別試験なし"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "前期共テ単独5科目型",
+      "apply": "1/4〜1/24",
+      "exam": "",
+      "result": "2/12",
+      "proc": "3/10",
+      "fee": 15000,
+      "note": "個別試験なし"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "前期共テ単独2科目型（経済経営・心理・社会コミュニケーション・情報数理科学）",
+      "apply": "1/4〜1/24",
+      "exam": "",
+      "result": "2/12",
+      "proc": "3/1",
+      "fee": 15000,
+      "note": "個別試験なし"
+     },
+     {
+      "kubun": "共テ併用",
+      "name": "前期共通テスト併用GCP Link型",
+      "apply": "1/4〜1/24",
+      "exam": "2/11（個別）",
+      "result": "2/19",
+      "proc": "3/10",
+      "fee": 35000,
+      "note": "検定料は2027年度（大学公式）。出願に英語資格が必要"
+     },
+     {
+      "kubun": "共テ併用",
+      "name": "共テ後期併用型（哲学・日本文学文化・国際社会・情報数理科学）",
+      "apply": "2/15〜3/1",
+      "exam": "3/10",
+      "result": "3/12",
+      "proc": "3/16",
+      "fee": 15000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共テ後期単独型（英語圏文化・歴史文化・経済経営・心理・社会コミュニケーション）",
+      "apply": "2/15〜3/1",
+      "exam": "",
+      "result": "3/12",
+      "proc": "3/16",
+      "fee": 15000,
+      "note": "個別試験なし"
+     }
+    ]
+   },
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/2800/schedule/",
+    "https://search.keinet.ne.jp/2254/general/schedule"
+   ]
+  }
+ },
+ {
+  "name": "立命館アジア太平洋大学（APU）",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "total4": 5400000,
+    "total4_note": "入学金＋授業料×4で算出した概算（諸会費・寮費含まず）",
+    "admission": 200000,
+    "annual": 1300000,
+    "note": "3学部同額。初年度1,540,000円（諸会費40,000円含む）。寮費はKei-Netに記載なし",
+    "rows": [
+     {
+      "f": "サステイナビリティ観光学部",
+      "admission": 200000,
+      "tuition": 1300000,
+      "facility": null,
+      "practical": null,
+      "other": 40000,
+      "first_year": 1540000,
+      "four_year": null,
+      "note": "otherは諸会費。施設費・実習費の記載なし（Kei-Net）"
+     },
+     {
+      "f": "アジア太平洋学部",
+      "admission": 200000,
+      "tuition": 1300000,
+      "facility": null,
+      "practical": null,
+      "other": 40000,
+      "first_year": 1540000,
+      "four_year": null,
+      "note": "otherは諸会費。施設費・実習費の記載なし（Kei-Net）"
+     },
+     {
+      "f": "国際経営学部",
+      "admission": 200000,
+      "tuition": 1300000,
+      "facility": null,
+      "practical": null,
+      "other": 40000,
+      "first_year": 1540000,
+      "four_year": null,
+      "note": "otherは諸会費。施設費・実習費の記載なし（Kei-Net）"
+     }
+    ]
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2766/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "関西外国語大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "total4": 4850000,
+    "total4_note": "入学金＋初年度の年額（授業料＋施設費）×4で算出した概算（諸会費含まず）",
+    "admission": 250000,
+    "annual": 1150000,
+    "note": "全学部同額。授業料800,000円＋施設/教育充実費350,000円、初年度1,420,300円（諸会費20,300円含む）",
+    "rows": [
+     {
+      "f": "外国語学部",
+      "admission": 250000,
+      "tuition": 800000,
+      "facility": 350000,
+      "practical": null,
+      "other": 20300,
+      "first_year": 1420300,
+      "four_year": null,
+      "note": "otherは諸会費"
+     },
+     {
+      "f": "英語キャリア学部",
+      "admission": 250000,
+      "tuition": 800000,
+      "facility": 350000,
+      "practical": null,
+      "other": 20300,
+      "first_year": 1420300,
+      "four_year": null,
+      "note": "otherは諸会費"
+     },
+     {
+      "f": "英語国際学部",
+      "admission": 250000,
+      "tuition": 800000,
+      "facility": 350000,
+      "practical": null,
+      "other": 20300,
+      "first_year": 1420300,
+      "four_year": null,
+      "note": "otherは諸会費"
+     },
+     {
+      "f": "国際共生学部",
+      "admission": 250000,
+      "tuition": 800000,
+      "facility": 350000,
+      "practical": null,
+      "other": 20300,
+      "first_year": 1420300,
+      "four_year": null,
+      "note": "otherは諸会費"
+     }
+    ]
+   },
+   "schedule_replace": {
+    "year": "2027年度入試（パスナビ。検定料は未掲載）",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般 前期1科目S方式",
+      "apply": "12/24〜1/13",
+      "exam": "1/26",
+      "result": "2/13",
+      "proc": "3/1",
+      "note": "全学部共通"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 前期A・B・C方式",
+      "apply": "12/24〜1/13",
+      "exam": "1/27（外国語学部・英語国際学部）、1/28（英語キャリア学部・国際共生学部）",
+      "result": "2/13",
+      "proc": "3/1",
+      "note": "外国語学部英米語学科は1/27・1/28。学部により異なる"
+     },
+     {
+      "kubun": "共テ併用",
+      "name": "共テプラス方式（前期）",
+      "apply": "12/24〜1/13",
+      "exam": "個別は前期A・B・C方式と同日",
+      "result": "2/13",
+      "proc": "3/1",
+      "note": "前期A・B・C方式への出願が必要"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共テ 前期",
+      "apply": "12/24〜1/30",
+      "exam": "",
+      "result": "2/13",
+      "proc": "3/1",
+      "note": "個別試験なし"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 後期",
+      "apply": "2/10〜3/1",
+      "exam": "3/7",
+      "result": "3/17",
+      "proc": "3/23"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共テ 後期",
+      "apply": "2/10〜3/10",
+      "exam": "",
+      "result": "3/17",
+      "proc": "3/23",
+      "note": "個別試験なし"
+     }
+    ]
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2535/outline/expense",
+    "https://passnavi.obunsha.co.jp/univ/4260/schedule/"
+   ]
+  }
+ },
+ {
+  "name": "気象大学校",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試（2027年4月入校。令和8年度 気象大学校学生採用試験）",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "気象大学校学生採用試験",
+      "apply": "2026/8/20〜9/7（インターネット、受信有効）",
+      "exam": "1次10/24・10/25、2次12/11",
+      "result": "1次12/4、最終2027/1/14",
+      "note": "人事院が実施。最終発表日は変更の可能性あり"
+     }
+    ]
+   },
+   "money_replace": {
+    "year": "大学公式（時点表示なし）",
+    "admission": 0,
+    "annual": 0,
+    "note": "入学金・授業料・学生寮費は無料（教科書代・食費は自己負担）。気象庁職員（国家公務員）として給与 月額およそ20万円（地域手当含む）＋期末勤勉手当",
+    "rows": [
+     {
+      "f": "大学部",
+      "admission": 0,
+      "tuition": 0,
+      "facility": 0,
+      "practical": null,
+      "other": null,
+      "first_year": 0,
+      "four_year": null,
+      "note": "入学金・授業料・寮費無料。教科書代・食費は自己負担"
+     }
+    ]
+   },
+   "sources": [
+    "https://www.jinji.go.jp/saiyo/siken/sennmonnsyoku_kousotsu/kidai/kisyoudai.html",
+    "https://www.mc-jma.go.jp/mcjma/educational/life.htm"
+   ]
+  }
+ },
+ {
+  "name": "海上保安大学校",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試（2027年4月入校。2026年実施の海上保安大学校学生採用試験）",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "海上保安大学校学生採用試験",
+      "apply": "8/20〜9/7（インターネット、受信有効）",
+      "exam": "1次10/24・10/25、2次12/11",
+      "result": "1次12/4、最終2027/1/14",
+      "note": "人事院が実施。人事院ページの受付期間の年表記は「2026（令和7）年」と食い違いがあるが、試験日程は気象大学校学生採用試験（2026年実施）と同じ。最終発表日は変更の可能性あり"
+     }
+    ]
+   },
+   "money_replace": {
+    "year": "大学公式（時点表示なし）",
+    "admission": 0,
+    "annual": 0,
+    "note": "入学金・寄付金・授業料は不要。国家公務員として毎月約16万円＋期末・勤勉手当。制服・寝具類は貸与。寮生活",
+    "rows": [
+     {
+      "f": "本科",
+      "admission": 0,
+      "tuition": 0,
+      "facility": 0,
+      "practical": null,
+      "other": null,
+      "first_year": 0,
+      "four_year": null,
+      "note": "入学金・寄付金・授業料不要"
+     }
+    ]
+   },
+   "sources": [
+    "https://www.jinji.go.jp/saiyo/siken/sennmonnsyoku_kousotsu/kaidai/kaidai.html",
+    "https://www.kaiho.mlit.go.jp/recruitment/enter/jcga.html"
+   ]
+  }
+ },
+ {
+  "name": "水産大学校",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試（マナビジョン。検定料は未掲載）",
+    "rows": [
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（A・B・C各区分）",
+      "apply": "2026/10/16〜10/27（郵送必着）",
+      "exam": "11/14",
+      "result": "12/4",
+      "note": "5学科共通"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "apply": "2027/1/8〜1/22（郵送消印有効）",
+      "exam": "2/11",
+      "result": "2/26",
+      "proc": "3/23",
+      "note": "5学科共通"
+     }
+    ]
+   },
+   "money_replace": {
+    "year": "2025年度（令和7年度入学者、最新の掲載）",
+    "admission": 282000,
+    "annual": 535800,
+    "note": "入学料282,000円・授業料年額535,800円（予定）。別途 教科書代など約3万円、後援会費6万円、学生自治会費2.8万円（4年分）、大学祭参加費1.2万円。施設費なし",
+    "rows": [
+     {
+      "f": "全学科（水産流通経営・海洋生産管理・海洋機械工・食品科学・生物生産）",
+      "admission": 282000,
+      "tuition": 535800,
+      "facility": 0,
+      "practical": null,
+      "other": 100000,
+      "first_year": 917800,
+      "four_year": null,
+      "note": "otherは後援会費・学生自治会費・大学祭参加費。施設費なし。教科書代など約3万円は別途"
+     }
+    ]
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/4816/nyushi/",
+    "https://search.keinet.ne.jp/5030/outline/expense",
+    "https://www.fish-u.ac.jp/campus/seikatsu/jyugyouryou.html"
+   ]
+  }
+ },
+ {
+  "name": "国立看護大学校",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試（大学公式。出願期間・手続締切は学生募集要項で後日公開）",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "apply": "",
+      "exam": "1次2/6、2次（面接）2/13",
+      "result": "1次2/10、最終2/18",
+      "note": "Web出願。指定校制学校推薦型選抜（若干名）も実施"
+     }
+    ]
+   },
+   "sources": [
+    "https://www.ncn.ac.jp/examination/nursing/020/020_exam.html"
+   ]
+  }
+ }
+]

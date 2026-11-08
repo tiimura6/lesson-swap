@@ -1,20 +1,6 @@
 {
  "add": [
   {
-   "name": "日本国際学園大学",
-   "type": "私立",
-   "pref": "茨城県",
-   "hp": "https://www.japan-iu.ac.jp/",
-   "cat": "private"
-  },
-  {
-   "name": "SBC東京医療大学",
-   "type": "私立",
-   "pref": "千葉県",
-   "hp": "https://www.sbctmu.ac.jp/",
-   "cat": "private"
-  },
-  {
    "name": "こども教育宝仙大学",
    "type": "私立",
    "pref": "東京都",
@@ -3775,6 +3761,91 @@
   {
    "name": "アール医療専門職大学",
    "keinet": "2115"
+  },
+  {
+   "name": "日本医科大学",
+   "keinet": "2268",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "東京女子大学",
+   "keinet": "2254",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "立命館アジア太平洋大学（APU）",
+   "keinet": "2766",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "関西外国語大学",
+   "keinet": "2535",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "関西外国語大学",
+   "keinet": "2535",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "気象大学校",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "気象大学校",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "海上保安大学校",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "海上保安大学校",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "水産大学校",
+   "keinet": "5030",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "水産大学校",
+   "keinet": "5030",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "国立看護大学校",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "日本国際学園大学"
+  },
+  {
+   "name": "SBC東京医療大学"
   }
  ],
  "failed": [
@@ -3798,7 +3869,6 @@
   "室蘭工業大学": 1,
   "東京科学大学": 2,
   "三重大学": 1,
-  "国立看護大学校": 1,
   "電動モビリティシステム専門職大学": 1,
   "北海道教育大学": 1,
   "総合研究大学院大学（大学院のみ）": 1,
@@ -3822,10 +3892,6 @@
   "同志社大学": 3,
   "関西大学": 3,
   "法政大学": 1,
-  "日本医科大学": 2,
-  "東京女子大学": 1,
-  "関西外国語大学": 2,
-  "立命館アジア太平洋大学（APU）": 1,
   "日本ウェルネススポーツ大学": 1
  },
  "enrich": [
@@ -5510,31 +5576,6 @@
    ]
   },
   {
-   "name": "気象大学校",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "海上保安大学校",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "水産大学校",
-   "keinet": "5030",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "国立看護大学校",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
    "name": "職業能力開発総合大学校",
    "keinet": "5040",
    "need": [
@@ -6032,25 +6073,6 @@
   },
   {
    "name": "電動モビリティシステム専門職大学",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "気象大学校",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "海上保安大学校",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "水産大学校",
-   "keinet": "5030",
    "need": [
     "fees"
    ]
@@ -23290,20 +23312,6 @@
    ]
   },
   {
-   "name": "日本医科大学",
-   "keinet": "2268",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "東京女子大学",
-   "keinet": "2254",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
    "name": "長野県立大学",
    "keinet": "1566",
    "need": [
@@ -23320,29 +23328,24 @@
    ]
   },
   {
-   "name": "立命館アジア太平洋大学（APU）",
-   "keinet": "2766",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "関西外国語大学",
-   "keinet": "2535",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "関西外国語大学",
-   "keinet": "2535",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
    "name": "アール医療専門職大学",
    "keinet": "2115",
+   "need": [
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "日本国際学園大学",
+   "keinet": "2111",
+   "need": [
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "SBC東京医療大学",
+   "keinet": "2144",
    "need": [
     "extra",
     "partners"
