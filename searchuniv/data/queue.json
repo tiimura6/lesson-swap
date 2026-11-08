@@ -1,20 +1,6 @@
 {
 "add": [
 {
-"name": "ビューティ＆ウェルネス専門職大学",
-"type": "私立",
-"pref": "神奈川県",
-"hp": "https://www.b-w.ac.jp/",
-"cat": "senmon"
-},
-{
-"name": "フェリス女学院大学",
-"type": "私立",
-"pref": "神奈川県",
-"hp": "https://www.ferris.ac.jp/",
-"cat": "private"
-},
-{
 "name": "ヤマザキ動物看護大学",
 "type": "私立",
 "pref": "東京都",
@@ -3779,6 +3765,82 @@
 },
 {
 "name": "デジタルハリウッド大学"
+},
+{
+"name": "ビューティ＆ウェルネス専門職大学"
+},
+{
+"name": "フェリス女学院大学"
+},
+{
+"name": "芸術文化観光専門職大学",
+"keinet": "1628",
+"need": [
+"fees"
+]
+},
+{
+"name": "静岡県立農林環境専門職大学",
+"keinet": "1572",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "静岡県立農林環境専門職大学",
+"keinet": "1572",
+"need": [
+"fees"
+]
+},
+{
+"name": "埼玉県立大学",
+"keinet": "1526",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "川崎市立看護大学",
+"keinet": "1541",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "川崎市立看護大学",
+"keinet": "1541",
+"need": [
+"fees"
+]
+},
+{
+"name": "神奈川県立保健福祉大学",
+"keinet": "1542",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "神奈川県立保健福祉大学",
+"keinet": "1542",
+"need": [
+"fees"
+]
+},
+{
+"name": "群馬県立女子大学",
+"keinet": "1525",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "群馬県立女子大学",
+"keinet": "1525",
+"need": [
+"fees"
+]
 }
 ],
 "failed": [
@@ -3826,7 +3888,9 @@
 "関西大学": 3,
 "法政大学": 1,
 "日本ウェルネススポーツ大学": 1,
-"静岡県立農林環境専門職大学": 1
+"静岡県立農林環境専門職大学": 1,
+"埼玉県立大学": 1,
+"名古屋国際工科専門職大学": 1
 },
 "enrich": [
 {
@@ -5690,34 +5754,6 @@
 ]
 },
 {
-"name": "埼玉県立大学",
-"keinet": "1526",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "川崎市立看護大学",
-"keinet": "1541",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "神奈川県立保健福祉大学",
-"keinet": "1542",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "群馬県立女子大学",
-"keinet": "1525",
-"need": [
-"schedule_dates"
-]
-},
-{
 "name": "群馬県立県民健康科学大学",
 "keinet": "1524",
 "need": [
@@ -6055,34 +6091,6 @@
 "keinet": "1510",
 "need": [
 "schedule_dates"
-]
-},
-{
-"name": "埼玉県立大学",
-"keinet": "1526",
-"need": [
-"fees"
-]
-},
-{
-"name": "川崎市立看護大学",
-"keinet": "1541",
-"need": [
-"fees"
-]
-},
-{
-"name": "神奈川県立保健福祉大学",
-"keinet": "1542",
-"need": [
-"fees"
-]
-},
-{
-"name": "群馬県立女子大学",
-"keinet": "1525",
-"need": [
-"fees"
 ]
 },
 {
@@ -23619,41 +23627,13 @@
 ]
 },
 {
-"name": "静岡県立農林環境専門職大学",
-"keinet": "1572",
-"need": [
-"schedule_dates"
-]
-},
-{
 "name": "電動モビリティシステム専門職大学",
 "need": [
 "schedule_dates"
 ]
 },
 {
-"name": "名古屋国際工科専門職大学",
-"keinet": "2113",
-"need": [
-"fees"
-]
-},
-{
 "name": "電動モビリティシステム専門職大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "芸術文化観光専門職大学",
-"keinet": "1628",
-"need": [
-"fees"
-]
-},
-{
-"name": "静岡県立農林環境専門職大学",
-"keinet": "1572",
 "need": [
 "fees"
 ]
@@ -24056,6 +24036,37 @@
 "name": "尚絅学院大学",
 "need": [
 "scholar"
+]
+},
+{
+"name": "埼玉県立大学",
+"keinet": "1526",
+"need": [
+"fees"
+]
+},
+{
+"name": "名古屋国際工科専門職大学",
+"keinet": "2113",
+"need": [
+"fees"
+]
+},
+{
+"name": "フェリス女学院大学",
+"keinet": "2320",
+"passnavi": "3360",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "ビューティ＆ウェルネス専門職大学",
+"keinet": "2344",
+"need": [
+"extra",
+"partners"
 ]
 }
 ],
