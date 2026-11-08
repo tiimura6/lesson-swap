@@ -215,6 +215,16 @@ body.noscroll{overflow:hidden}
 @media (max-width:860px){.sgrid{grid-template-columns:1fr}.sleft{max-height:none;overflow:visible}.sright{position:static}}
 .mapwrap{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden;margin-top:6px}
 #jmap{width:100%;height:auto;display:block;max-height:72vh}
+#jmap #rail path{fill:none;stroke-linejoin:round;stroke-linecap:round;vector-effect:non-scaling-stroke;pointer-events:none}
+#jmap #rail .r-hw{stroke:#2e7d32;stroke-width:1.8px;stroke-opacity:.85}
+#jmap #rail .r-shin{stroke:#c62828;stroke-width:2.2px}
+#jmap #rail .r-jr{stroke:#1e5aa8;stroke-width:1.3px}
+#jmap #rail .r-other{stroke:#8fb3dc;stroke-width:.9px}
+.layerctl{position:absolute;left:8px;top:8px;display:flex;gap:4px}
+.ltog[aria-pressed="true"]{background:#1f4e79;color:#fff;border-color:#1f4e79}
+.layercredit{position:absolute;right:8px;bottom:4px;max-width:52%;text-align:right;font-size:9px;line-height:1.3;color:var(--muted);background:rgba(255,255,255,.75);padding:1px 4px;border-radius:3px}
+.railcredit{position:absolute;left:8px;top:44px;max-width:60%;font-size:10px;color:var(--muted);background:rgba(255,255,255,.75);padding:1px 4px;border-radius:3px}
+.railkey i{display:inline-block;width:14px;height:0;border-top:2px solid;vertical-align:middle;margin:0 2px 0 6px}
 #jmap path{fill:var(--bg);stroke:var(--muted);stroke-width:.8px;stroke-linejoin:round;vector-effect:non-scaling-stroke}
 #jmap .dot{fill:var(--accent);opacity:.45;cursor:pointer}
 #jmap .dot:hover{opacity:1}
@@ -341,8 +351,8 @@ ul.mini li{font-size:12.5px;margin:2px 0}
       <div id="uov" class="uov" hidden><div class="uovbox"><button type="button" class="uclose" id="uclose" aria-label="閉じる">×</button><div id="mpanel" class="mpanel"></div></div></div>
     </div>
     <div class="sright">
-      <div class="mapwrap"><svg id="jmap" viewBox="170 0 490 450" role="img" aria-label="日本地図"><g id="prefs"></g><g id="muni" transform="scale(0.1)"></g><g id="mlabels"></g><g id="dots"></g><g id="labels"></g><g id="hl"></g></svg>
-        <div class="legend"><span><i style="background:#1f4e79"></i>国立</span><span><i style="background:#2a7f62"></i>公立</span><span><i style="background:#b0532a"></i>私立</span><span><i style="background:#4b5563"></i>大学校</span><span><i style="background:#b8860b"></i>専門職大学</span></div><div class="zoomctl"><button class="btn" id="zin" title="拡大">＋</button><button class="btn" id="zout" title="縮小">−</button></div></div>
+      <div class="mapwrap"><svg id="jmap" viewBox="170 0 490 450" role="img" aria-label="日本地図"><g id="prefs"></g><g id="muni" transform="scale(0.1)"></g><g id="rail"></g><g id="mlabels"></g><g id="dots"></g><g id="labels"></g><g id="hl"></g></svg>
+        <div class="legend"><span><i style="background:#1f4e79"></i>国立</span><span><i style="background:#2a7f62"></i>公立</span><span><i style="background:#b0532a"></i>私立</span><span><i style="background:#4b5563"></i>大学校</span><span><i style="background:#b8860b"></i>専門職大学</span></div><div class="layerctl"><button type="button" class="btn ltog" id="tgrail" aria-pressed="false" title="鉄道の路線を表示・非表示">🚃 鉄道</button><button type="button" class="btn ltog" id="tgroad" aria-pressed="false" title="高速道路を表示・非表示">🛣 高速道路</button></div><div id="railcredit" class="railcredit" hidden></div><div id="layercredit" class="layercredit" hidden></div><div class="zoomctl"><button class="btn" id="zin" title="拡大">＋</button><button class="btn" id="zout" title="縮小">−</button></div></div>
     </div>
   </div>
 </section>
@@ -674,9 +684,22 @@ const MAP = /*MAP_DATA*/{}/*END_MAP*/;
 const HOME_VB=[170,0,490,450];
 let mapReady=false, curVB=HOME_VB.slice(), vbAnim=null;
 const SVGNS="http://www.w3.org/2000/svg";
+// 鉄道の路線・高速道路（国土数値情報 N02・N06 を加工）。表示する・しないはこの端末に覚える
+const LAYERS={rail:false,road:false}; try{ LAYERS.rail=localStorage.getItem("searchuniv:rail")==="1"; LAYERS.road=localStorage.getItem("searchuniv:road")==="1"; }catch(e){}
+function drawRail(){
+  const g=$("rail"), cr=$("railcredit"); if(!g) return;
+  const R=MAP.rail, H=MAP.road, P=[], key=[], cred=[];
+  if(H&&LAYERS.road){ P.push('<path class="r-hw" d="'+H.hw+'"/>'); key.push('<i style="border-color:#2e7d32"></i>高速道路'); cred.push(H.credit); }
+  if(R&&LAYERS.rail){ ['other','jr','shin'].filter(k=>R[k]).forEach(k=>P.push('<path class="r-'+k+'" d="'+R[k]+'"/>')); key.push('<i style="border-color:#c62828"></i>新幹線<i style="border-color:#1e5aa8"></i>JR<i style="border-color:#8fb3dc"></i>私鉄・地下鉄など'); cred.push(R.credit); }
+  g.innerHTML=P.join("");
+  [["tgrail",R,"rail"],["tgroad",H,"road"]].forEach(([id,D,k])=>{ const b=$(id); if(!b) return; b.hidden=!D; b.setAttribute("aria-pressed",LAYERS[k]?"true":"false"); });
+  if(cr){ cr.hidden=!P.length; cr.innerHTML='<span class="railkey">'+key.join("")+'</span>'; }
+  const lc=$("layercredit"); if(lc){ lc.hidden=!P.length; lc.innerHTML='出典：'+cred.map(esc).join("<br>"); }
+}
+function bindRail(){ [["tgrail","rail"],["tgroad","road"]].forEach(([id,k])=>{ const b=$(id); if(b) b.onclick=()=>{ LAYERS[k]=!LAYERS[k]; try{ localStorage.setItem("searchuniv:"+k,LAYERS[k]?"1":"0"); }catch(e){} drawRail(); }; }); drawRail(); }
 function initMap(){
   if(mapReady) return; mapReady=true;
-  const g=$("prefs"); g.innerHTML=MAP.prefs.map(p=>'<path d="'+p.d+'"/>').join("");
+  const g=$("prefs"); g.innerHTML=MAP.prefs.map(p=>'<path d="'+p.d+'"/>').join(""); bindRail();
   const dg=$("dots");
   for(const x of items){ const pt=MAP.dots[x.name]; if(!pt) continue;
     const c=document.createElementNS(SVGNS,"circle"); c.setAttribute("cx",pt[0]); c.setAttribute("cy",pt[1]); c.setAttribute("r",1.6); c.setAttribute("class","dot"); c.style.fill=KIND_COLOR[kindOf(x)];

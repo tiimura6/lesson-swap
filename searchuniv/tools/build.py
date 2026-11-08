@@ -43,7 +43,7 @@ def main():
         'CARDS': ('/*CARDS*/', '/*END_CARDS*/', '[\n' + ',\n'.join(json.dumps(c, ensure_ascii=False) for c in cards) + '\n]'),
         'EXAM': ('/*EXAM_DATA*/', '/*END_EXAM*/', J({n: exam[n] for n in names if n in exam})),
         'INFO': ('/*INFO_DATA*/', '/*END_INFO*/', J({n: {k: v for k, v in info[n].items() if k not in LAZY} for n in names if n in info})),
-        'MAP': ('/*MAP_DATA*/', '/*END_MAP*/', J({'prefs': prefs, 'dots': dots})),
+        'MAP': ('/*MAP_DATA*/', '/*END_MAP*/', J({'prefs': prefs, 'dots': dots, **{k: D('map_' + k) for k in ('rail', 'road') if os.path.exists(os.path.join(ROOT, 'data', 'map_' + k + '.json'))}})),
         'HP': ('/*HP*/', '/*END_HP*/', J({n: hp[n] for n in names if hp.get(n)})),
         'READ': ('/*READ*/', '/*END_READ*/', J({n: read[n] for n in names if n in read})),
         'ALIAS': ('/*ALIAS*/', '/*END_ALIAS*/', J(alias)),
