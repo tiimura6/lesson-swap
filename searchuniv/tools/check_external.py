@@ -44,6 +44,9 @@ def _nz(v):
     return (v or None), (extra.strip() if extra else None)
 def normalize_shape(r):
     info = r.get('info') or {}
+    for key, sub in (('schedule', 'rows'), ('methods', 'list')):
+        for z in ((info.get(key) or {}).get(sub) or []) if isinstance(info.get(key), dict) else []:
+            if isinstance(z, dict) and z.get('kubun') in ('共通テスト', '共テ', '共通テスト利用'): z['kubun'] = '共テ利用'
     info.pop('ic', None)  # 最寄りの高速ICは載せない（2026-11-08 先生の指示）
     sc = info.get('schedule')
     if isinstance(sc, dict) and 'rows' not in sc:
@@ -71,6 +74,7 @@ def normalize_shape(r):
     return r
 def main(path):
     raw = open(path, encoding='utf-8').read().strip()
+    raw = re.sub(r'\[span_\d+\]\((?:start|end)_span\)', '', raw)  # Gemini の引用マークを取り除く
     raw = re.sub(r'^```(json)?|```$', '', raw, flags=re.M).strip()
     data = json.loads(raw); data = data if isinstance(data, list) else [data]
     data = deep_clean(data)
