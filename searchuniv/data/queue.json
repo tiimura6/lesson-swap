@@ -1303,27 +1303,6 @@
 "cat": "private"
 },
 {
-"name": "医療創生大学",
-"type": "私立",
-"pref": "福島県",
-"hp": "https://www.isu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "天使大学",
-"type": "私立",
-"pref": "北海道",
-"hp": "https://www.tenshi.ac.jp/",
-"cat": "private"
-},
-{
-"name": "奥羽大学",
-"type": "私立",
-"pref": "福島県",
-"hp": "https://www.ohu-u.ac.jp/",
-"cat": "private"
-},
-{
 "name": "宮城学院女子大学",
 "type": "私立",
 "pref": "宮城県",
@@ -3871,6 +3850,24 @@
 "静岡県立農林環境専門職大学": 1
 },
 "enrich": [
+{
+"name": "医療創生大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "天使大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "奥羽大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "東北学院大学",
 "need": [
@@ -23916,6 +23913,78 @@
 },
 {
 "name": "東北生活文化大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "医療創生大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "医療創生大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "医療創生大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "医療創生大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "天使大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "天使大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "天使大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "天使大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "奥羽大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "奥羽大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "奥羽大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "奥羽大学",
 "need": [
 "scholar"
 ]
