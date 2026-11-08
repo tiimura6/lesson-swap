@@ -1533,6 +1533,7 @@
       <div class="pin-err" id="opNewErr" aria-live="polite"></div>
       <button type="submit" class="pin-yes">この名前で作成</button>
       <div class="opn-list" id="opNewList" hidden>この端末で作成した名前<ul></ul></div>
+      <div class="pin-sub" style="font-size:0.78rem;margin-top:6px">作成した名前は、ほかの端末の一覧にも出ます（スプレッドシート経由）。</div>
       <button type="button" id="opNewCancel" class="pin-cancel">キャンセル</button>
     </form>
   </div>
@@ -12393,7 +12394,20 @@
       const part = t => (typeof isParttimeTeacher === 'function') ? isParttimeTeacher(t) : false;
       const base = Array.from(set).sort((a, b) => (part(a) - part(b)) || coll.compare(a, b));
       // 名簿（時間割）に名前が無い人が「＋ 新規作成」で決めた名前は、最後に並べる
-      return base.concat(customNames().filter(n => !set.has(n)).sort(coll.compare));
+      const extra = Array.from(new Set(customNames().concat(sharedNames()))).filter(n => !set.has(n)).sort(coll.compare);
+      return base.concat(extra);
+    }
+    // ---------- 他の端末で新規作成された操作者（GAS の op_names。スプレッドシート「新規作成した操作者」の「使用中」の名前） ----------
+    // GAS に op_names が無い（古い版の）ときは何もしない。前回の一覧はこの端末に覚えておき、つながらないときに使う
+    const K_SHARED = 'opSharedNames';
+    function sharedNames(){ try { const a = JSON.parse(localStorage.getItem(K_SHARED) || '[]'); return Array.isArray(a) ? a.filter(x => typeof x === 'string' && x) : []; } catch(e){ return []; } }
+    function loadShared(){
+      gas('op_names', {}).then(d => {
+        if(!d || !d.ok || !Array.isArray(d.names)) return;
+        const a = d.names.map(x => String(x || '').trim()).filter(x => x && x.length <= 20);
+        try { localStorage.setItem(K_SHARED, JSON.stringify(a)); } catch(e){}
+        names = allNames(); if(!flow) fill('');
+      }, () => {});
     }
     // ---------- 新規作成した操作者（この端末に保存） ----------
     const K_CUSTOM = 'opCustomNames', NEW = '__op_new__';
@@ -12619,7 +12633,7 @@
       if(e.key === 'Escape'){ q.value = ''; fill(''); }
     });
     function init(){
-      names = allNames(); fill(''); box.classList.toggle('set', !!window.ttOperator);
+      names = allNames(); fill(''); box.classList.toggle('set', !!window.ttOperator); loadShared();
       setGate(!window.ttOperator);
       if(window.ttRenderEvents) window.ttRenderEvents();
       if(window.ttOperator) apply(window.ttOperator);

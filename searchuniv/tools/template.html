@@ -709,6 +709,7 @@ function renderKyotsuTest(){
   h+=usec("出題教科・科目","教科ごとの科目・選び方・試験時間・配点（センターの配点。大学ごとの配点は募集要項で）")+tb(["教科","科目","選び方","試験時間","配点"],K.subjects||[]);
   h+=usec("検定料")+tb(["受験教科数","成績閲覧を希望しない","成績閲覧を希望する"],K.fees||[])+(K.fee_note?'<div class="enote">※'+esc(K.fee_note)+'</div>':'');
   if((K.notes||[]).length) h+=usec("指導の注意点")+'<ul class="mini">'+K.notes.map(t=>'<li>'+esc(t)+'</li>').join("")+'</ul>';
+  if(K.applicants_now){ const A=K.applicants_now; h+=usec(A.label,A.when)+tb(["区分","人数","前年同時点との差"],A.rows)+'<div class="enote">※'+esc(A.note||"")+'　出典：<a href="'+esc(A.url||"#")+'" target="_blank" rel="noopener">'+esc(A.source||"")+'</a></div>'; }
   if(K.stats) h+=usec("志願者数・受験者数の推移")+tb(K.stats.head,K.stats.rows);
   if(K.averages) h+=usec("科目別の平均点",K.averages.note||"")+tb(K.averages.head,K.averages.rows);
   h+=usec("公式サイトへのリンク")+'<ul class="ktlinks">'+(K.links||[]).map(([l,u])=>'<li><a href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(l)+' ↗</a></li>').join("")+'</ul>';

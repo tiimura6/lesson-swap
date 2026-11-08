@@ -10,7 +10,7 @@ GitHub Pages: https://tiimura6.github.io/lesson-swap/
   - データ収集の手順は `searchuniv/PIPELINE.md`（毎時の定期実行「Searchuniv データ拡充」がこれに従う）。
   - Claude のアーティファクト版（slug 8174544a-a178-4a35-a835-6e4a0156f302）も `searchuniv/` の生成物から公開する（index.html・detail.json・world.json・muni.json）。
 
-- 「🏫 短大・専門」タブ（`#ts`、`index.html` の「短大・専門タブ」script）：短期大学・専門学校の名前と場所だけの地図。`searchuniv/ts-module.js`（`TanSenModule.mount(host)`、Shadow DOM）を読み込む。元は `searchuniv/tools/ts_template.js`、データは `searchuniv/data/ts_raw/*.txt`（文部科学省「学校コード一覧」）→ `python3 tools/ts_import.py`（座標）→ `python3 tools/build_ts.py`。専門学校は定期実行が少しずつ読み取る（PIPELINE.md）。
+- 「🏫 短大・専門」タブ（`#ts`、`index.html` の「短大・専門タブ」script）：短期大学・専門学校の名前と場所だけの地図。`searchuniv/ts-module.js`（`TanSenModule.mount(host)`、Shadow DOM）を読み込む。元は `searchuniv/tools/ts_template.js`、データは `searchuniv/data/ts_raw/*.txt`（文部科学省「学校コード一覧」）→ `python3 tools/ts_import.py`（座標）→ `python3 tools/build_ts.py`。専門学校は定期実行が少しずつ読み取る（PIPELINE.md）。アーティファクト版「短大・専門学校マップ」（slug 54b601c1-ec32-4c21-9a37-793f9e5745ab）は ts.html と ts-module.js から公開する。
 
 ## Searchuniv を直すとき（不具合を防ぐ決まり）
 1. `searchuniv/tools/template.html` か `searchuniv/tools/build.py` を直す。
@@ -27,6 +27,7 @@ GitHub Pages: https://tiimura6.github.io/lesson-swap/
 - タイトル横の「👤 操作者」で選ぶ（localStorage `ttOperator`）。PINは `opPins`／GAS。
 - 時間割に名前が無い人は、一覧の最後の「＋ 新規作成」（または検索欄で該当なしのまま Enter）で名前を決める。作成した名前はこの端末の localStorage `opCustomNames` に保存し、一覧の最後に並ぶ（新規作成の画面から削除できる）。作成後は通常どおり初回PINを設定する。
 - 作成・削除は操作ログ（`操作者を新規作成`／`新規作成した操作者を削除`、内容＝名前）で GAS の log シートに送られる。スプレッドシート「飯村システム」の「新規作成した操作者」シートが log・pins シートから数式で一覧にする（名前・作成日時・作成した人・端末・Googleアカウント・PIN設定日時・最終操作日時・操作回数・状態）。この操作名を変えるときは、そのシートの数式も直す。
+- 他の端末で作成された名前は、GAS の `action=op_names`（`gas/op_names.gs` を GAS に追加・再デプロイしたもの）から読み、localStorage `opSharedNames` に覚えて一覧に出す。GAS が古い版なら何もしない。
 
 ## 保存した記録（授業交換・清掃当番・試験監督）
 - `index.html` の「保存した記録」script（`window.ttRecords`）。localStorage の `ttRecords:<操作者名>` に、名前付きの記録を種類ごとに最大60件残す。
