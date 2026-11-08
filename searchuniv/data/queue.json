@@ -1,20 +1,6 @@
 {
  "add": [
   {
-   "name": "アール医療専門職大学",
-   "type": "私立",
-   "pref": "茨城県",
-   "hp": "https://a-ru.ac.jp/university/",
-   "cat": "senmon"
-  },
-  {
-   "name": "日本ウェルネススポーツ大学",
-   "type": "私立",
-   "pref": "茨城県",
-   "hp": "https://www.nihonwellness.jp/",
-   "cat": "private"
-  },
-  {
    "name": "日本国際学園大学",
    "type": "私立",
    "pref": "茨城県",
@@ -1643,6 +1629,13 @@
    "hp": "https://www.cyber-u.ac.jp/",
    "cat": "private",
    "note": "高校からの通常の進学先ではない（括弧内の理由）。カードの memo にもその旨を書く。"
+  },
+  {
+   "name": "日本ウェルネススポーツ大学",
+   "type": "私立",
+   "pref": "茨城県",
+   "hp": "https://www.nihonwellness.jp/",
+   "cat": "private"
   }
  ],
  "done": [
@@ -3715,6 +3708,73 @@
   {
    "name": "つくば国際大学",
    "keinet": "2110"
+  },
+  {
+   "name": "流通経済大学",
+   "keinet": "2109",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "防衛大学校",
+   "keinet": "5010",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "防衛医科大学校",
+   "keinet": "5060",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "神田外語大学",
+   "keinet": "2172",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "茨城キリスト教大学",
+   "keinet": "2107",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "常磐大学",
+   "keinet": "2108",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "流通経済大学",
+   "keinet": "2109",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "防衛大学校",
+   "keinet": "5010",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "防衛医科大学校",
+   "keinet": "5060",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "アール医療専門職大学",
+   "keinet": "2115"
   }
  ],
  "failed": [
@@ -3764,7 +3824,9 @@
   "法政大学": 1,
   "日本医科大学": 2,
   "東京女子大学": 1,
-  "関西外国語大学": 1
+  "関西外国語大学": 2,
+  "立命館アジア太平洋大学（APU）": 1,
+  "日本ウェルネススポーツ大学": 1
  },
  "enrich": [
   {
@@ -5448,27 +5510,6 @@
    ]
   },
   {
-   "name": "流通経済大学",
-   "keinet": "2109",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "防衛大学校",
-   "keinet": "5010",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
-   "name": "防衛医科大学校",
-   "keinet": "5060",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
    "name": "気象大学校",
    "need": [
     "schedule_dates"
@@ -5941,48 +5982,6 @@
    ]
   },
   {
-   "name": "立命館アジア太平洋大学（APU）",
-   "keinet": "2766",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "神田外語大学",
-   "keinet": "2172",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "関西外国語大学",
-   "keinet": "2535",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "茨城キリスト教大学",
-   "keinet": "2107",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "常磐大学",
-   "keinet": "2108",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "流通経済大学",
-   "keinet": "2109",
-   "need": [
-    "fees"
-   ]
-  },
-  {
    "name": "国際ファッション専門職大学",
    "keinet": "2102",
    "need": [
@@ -6033,20 +6032,6 @@
   },
   {
    "name": "電動モビリティシステム専門職大学",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "防衛大学校",
-   "keinet": "5010",
-   "need": [
-    "fees"
-   ]
-  },
-  {
-   "name": "防衛医科大学校",
-   "keinet": "5060",
    "need": [
     "fees"
    ]
@@ -23319,13 +23304,6 @@
    ]
   },
   {
-   "name": "関西外国語大学",
-   "keinet": "2535",
-   "need": [
-    "schedule_dates"
-   ]
-  },
-  {
    "name": "長野県立大学",
    "keinet": "1566",
    "need": [
@@ -23336,6 +23314,35 @@
   {
    "name": "つくば国際大学",
    "keinet": "2110",
+   "need": [
+    "extra",
+    "partners"
+   ]
+  },
+  {
+   "name": "立命館アジア太平洋大学（APU）",
+   "keinet": "2766",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "関西外国語大学",
+   "keinet": "2535",
+   "need": [
+    "fees"
+   ]
+  },
+  {
+   "name": "関西外国語大学",
+   "keinet": "2535",
+   "need": [
+    "schedule_dates"
+   ]
+  },
+  {
+   "name": "アール医療専門職大学",
+   "keinet": "2115",
    "need": [
     "extra",
     "partners"
