@@ -1492,41 +1492,6 @@
 "cat": "private"
 },
 {
-"name": "東北福祉大学",
-"type": "私立",
-"pref": "宮城県",
-"hp": "https://www.tfu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "東北芸術工科大学",
-"type": "私立",
-"pref": "山形県",
-"hp": "https://www.tuad.ac.jp/",
-"cat": "private"
-},
-{
-"name": "東日本国際大学",
-"type": "私立",
-"pref": "福島県",
-"hp": "https://www.shk-ac.jp/",
-"cat": "private"
-},
-{
-"name": "柴田学園大学",
-"type": "私立",
-"pref": "青森県",
-"hp": "https://univ.shibata.ac.jp/",
-"cat": "private"
-},
-{
-"name": "盛岡大学",
-"type": "私立",
-"pref": "岩手県",
-"hp": "https://morioka-u.ac.jp/",
-"cat": "private"
-},
-{
 "name": "放送大学（通信制のみ）",
 "type": "私立",
 "pref": "千葉県",
@@ -3934,6 +3899,36 @@
 "日本ウェルネススポーツ大学": 1
 },
 "enrich": [
+{
+"name": "東北福祉大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "東北芸術工科大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "東日本国際大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "柴田学園大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "盛岡大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "酪農学園大学",
 "need": [
@@ -23449,6 +23444,126 @@
 "need": [
 "extra",
 "partners"
+]
+},
+{
+"name": "東北福祉大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "東北福祉大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "東北福祉大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "東北福祉大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "東北芸術工科大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "東北芸術工科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "東北芸術工科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "東北芸術工科大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "東日本国際大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "東日本国際大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "東日本国際大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "東日本国際大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "柴田学園大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "柴田学園大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "柴田学園大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "柴田学園大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "盛岡大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "盛岡大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "盛岡大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "盛岡大学",
+"need": [
+"scholar"
 ]
 }
 ],
