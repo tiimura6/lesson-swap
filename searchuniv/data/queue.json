@@ -1303,27 +1303,6 @@
 "cat": "private"
 },
 {
-"name": "宮城学院女子大学",
-"type": "私立",
-"pref": "宮城県",
-"hp": "https://www.mgu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "富士大学",
-"type": "私立",
-"pref": "岩手県",
-"hp": "http://www.fuji-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "尚絅学院大学",
-"type": "私立",
-"pref": "宮城県",
-"hp": "https://www.shokei.jp/",
-"cat": "private"
-},
-{
 "name": "岩手保健医療大学",
 "type": "私立",
 "pref": "岩手県",
@@ -3850,6 +3829,24 @@
 "静岡県立農林環境専門職大学": 1
 },
 "enrich": [
+{
+"name": "宮城学院女子大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "富士大学",
+"need": [
+"verify"
+]
+},
+{
+"name": "尚絅学院大学",
+"need": [
+"verify"
+]
+},
 {
 "name": "医療創生大学",
 "need": [
@@ -23985,6 +23982,78 @@
 },
 {
 "name": "奥羽大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "宮城学院女子大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "宮城学院女子大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "宮城学院女子大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "宮城学院女子大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "富士大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "富士大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "富士大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "富士大学",
+"need": [
+"scholar"
+]
+},
+{
+"name": "尚絅学院大学",
+"need": [
+"methods"
+]
+},
+{
+"name": "尚絅学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "尚絅学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "尚絅学院大学",
 "need": [
 "scholar"
 ]
