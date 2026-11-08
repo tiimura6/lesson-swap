@@ -63,6 +63,7 @@ Searchuniv に全国の大学を少しずつ追加し、既存校の空欄（研
 9. 追加・補完した件数と、残りの件数を短く報告。
 
 ## 集め方（1校あたり）
+（2026-11-08 先生の指示で「最寄りの高速IC（info.ic）」は集めない・載せない。）
 主な出典は河合塾 Kei-Net。大学ごとの4桁コードがある（例：筑波 1085、茨城 1065）。コードが分からなければ WebSearch で「〇〇大学 Kei-Net」を1回検索して特定する。次のページを WebFetch で開く（検索結果に出ていなくても直接開けることが多い）：
 - `https://search.keinet.ne.jp/{コード}`（大学トップ：所在地・キャンパス・沿革）
 - `https://search.keinet.ne.jp/outline/department/{コード}`（学部・学科、学生数、概要・特色）
@@ -76,7 +77,6 @@ Searchuniv に全国の大学を少しずつ追加し、既存校の空欄（研
 - **奨学金・学費減免（need に scholar）**：`tools/SCHOLAR_SPEC.md` の形で、大学独自の奨学金・特待生・減免を制度ごとに、対象の学部・学科・金額・申込の時期・条件まで集める。大学公式を最優先。既存があれば `scholar_replace`。
 - **方式ごとの公式リンク（need に method_urls）**：data/info.json のその校の methods.list（と schedule.rows・subjects.rows）の各行に、大学公式の募集要項PDF・入試要項ページの `url` を足す。行の中身は変えず、url だけを足した全行を `methods_replace`（など）に入れる。公式で確認できない行は url を付けない。
 - **学部・方式ごとの入試科目（need に subjects）**：`tools/SUBJECT_SPEC.md` の形で、学部×方式ごとの教科数・科目・配点・共テ・英語外部試験を集める（私立の多様な方式を網羅する）。大学公式を最優先。既存があれば `subjects_replace`。1回あたり2校まで（行数が多いため）。
-- **最寄りの高速IC（info.ic）**：2026-11-08 先生の依頼。新規追加・補完でその学校を扱うたびに、info.ic が空なら大学公式の「アクセス」「交通案内」ページで車の案内を確認し、主なキャンパスの最寄りIC を「常磐道 水戸IC から約15分（水戸キャンパス）」の形で1〜2行入れる（キャンパスが複数なら「／」で区切る）。公式に車の案内が無い場合は書かない（推測で最寄りICを決めない）。最寄駅は従来どおり info.access に入れる。
 - **出願・試験・合格発表・手続締切の補完（need に schedule_dates）**：一般選抜・共通テスト利用の各方式について、出願期間（apply）・試験日（exam）・合格発表日（result）・入学手続締切（proc）・検定料（fee）を埋める。**大学公式の入試ガイド・募集要項・入試日程ページを最優先**（PDFが読めなければ公式の日程ページ）、次に Kei-Net `/{コード}/general/schedule`・`/general/exam_fee`、旺文社パスナビの入試日程。2027年度入試の日付だけを使い、前年度の日付は入れない（掲載前なら書かずに done へ）。国公立の前期・後期は大学ごとの実際の日付を入れる（例年の目安で埋めない）。既存の行は残したまま空欄だけを埋めた全行を `info.schedule_replace` に入れる。学部で違う場合は代表的な日付を入れ、note に「学部により異なる（○○学部の例）」と書く。year は「2027年度入試」、出典URLを sources に足す。
 - **一般選抜の日程の取り直し（need に schedule_general）**：Kei-Net `/{コード}/general/schedule`（出願・試験・発表・手続）と `/{コード}/general/exam_fee`（検定料）、推薦は `/recommend/exam_rec`。`tools/EXTRA_SPEC.md` の schedule の形で、一般・共テ利用・推薦・総合型の全行を作り、batch では `info.schedule_replace` に入れる（既存の日程を置き換える）。year は「2027年度入試」。まだ掲載が無ければ書かずに done へ。
 - **入試倍率の推移（info.ratios）**：`tools/RATIO_SPEC.md` の形。大学公式の入試結果（過去数年分）、Kei-Net `/general/exam_result`、パスナビの入試結果から。enrich の need に ratios があるとき集める。既にある2年分を延ばすときは、過去3〜5年分そろえた ratios を `info.ratios_replace` に入れて置き換える。
@@ -117,7 +117,6 @@ Searchuniv に全国の大学を少しずつ追加し、既存校の空欄（研
     "students": {"count": 5800, "year": 2025},
     "founded": "1949年 新制大学",
     "access": "文京町キャンパス：JR弘前駅からバス約15分",
-    "ic": "東北道 大鰐弘前IC から約30分（文京町キャンパス）",
     "tuition": {"amount": 817800, "label": "入学金＋授業料", "year": 2026},
     "research": ["白神山地の生態系研究", "..."],
     "kyotsu": {"kamoku": "5教科7科目〜6教科8科目", "kyoka": [5, 6], "rl": ["1:1"], "rl_text": "全学部でR:L=1:1", "note": "", "year": "2027年度入試"},

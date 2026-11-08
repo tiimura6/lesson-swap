@@ -602,7 +602,6 @@ function infoBlock(name){
   const scale=[st&&st.count?("学生 約"+Number(st.count).toLocaleString("ja-JP")+"人"+(st.note?"（"+esc(st.note)+"）":"")):"", f.founded?esc(f.founded):""].filter(Boolean).join("／");
   if(scale) rows.push(["規模・創立",scale]);
   if(f.access) rows.push(["最寄駅・アクセス",esc(f.access)]);
-  if(f.ic) rows.push(["車（最寄りの高速IC）",esc(f.ic)]);
   if(Array.isArray(f.departments)&&f.departments.length) rows.push(["学部・学科",'<div class="depts">'+f.departments.map(g=>{ const d=(g.d||[]); if(!d.length) return '<div class="dl"><b>'+esc(g.f)+'</b></div>';
       // 「学科 専攻」をまとめ、学科ごとに専攻・コースを並べる
       const by=new Map(); for(const t of d){ const i=t.indexOf(" "); const k=i>0?t.slice(0,i):t, v=i>0?t.slice(i+1):""; if(!by.has(k)) by.set(k,[]); if(v) by.get(k).push(v); }
@@ -1198,7 +1197,7 @@ $("kt-go").onclick=async()=>{
 };
 
 // ===== 更新日時（検索欄の下に表示）=====
-const BUILD=/*BUILD*/{"built":"2026-11-08 15:40","schedule":"2026-11-08","diffyear":"2027年度入試用"}/*END_BUILD*/;
+const BUILD=/*BUILD*/{"built":"2026-11-08 15:41","schedule":"2026-11-08","diffyear":"2027年度入試用"}/*END_BUILD*/;
 (function(){ const el=$("updline"); if(!el||!BUILD.built) return; const d=s=>s?s.replace(/-/g,"/"):"";
   el.textContent="更新 "+d(BUILD.built)+"・"+items.length+"校｜入試日程の確認 "+d((BUILD.schedule||BUILD.built).slice(0,10))+"（一般選抜は12月下旬に更新）"; el.title="難易度：河合塾「"+(BUILD.diffyear||"2027年度入試用")+"」"; })();
 $("univlist").innerHTML=items.map(x=>'<option value="'+esc(x.name)+'">').join("");
@@ -1246,7 +1245,7 @@ function needsTrip(o){ return !(o.r.kubun==="共テ利用"&&(!o.r.niji||/なし|
 function tripOf(name){ const km=kmBetween(HOME.ll,LL[name]); if(km==null) return {km:null,fare:null,stay:0};
   return {km, fare:km<40?1500:Math.round(km*2*24/100)*100, stay:km>=150?1:0}; }
 // 情報の充実度（主要12項目のうち登録済みの割合）
-const INFO_KEYS=[["difficulty","難易度"],["fdiff","学部別難易度"],["methods","入試方式"],["schedule","入試日程"],["money","費用"],["kyotsu","共テ科目"],["ratios","倍率の推移"],["eng","英語外部試験"],["oc","オープンキャンパス"],["qtrend","出題内容"],["departments","学部・学科"],["access","アクセス"],["ic","最寄りIC"]];
+const INFO_KEYS=[["difficulty","難易度"],["fdiff","学部別難易度"],["methods","入試方式"],["schedule","入試日程"],["money","費用"],["kyotsu","共テ科目"],["ratios","倍率の推移"],["eng","英語外部試験"],["oc","オープンキャンパス"],["qtrend","出題内容"],["departments","学部・学科"],["access","アクセス"]];
 function filled(v){ if(v==null||v==="") return false; if(Array.isArray(v)) return v.length>0;
   if(typeof v==="object"){ for(const k of ["rows","list","events"]) if(Array.isArray(v[k])) return v[k].length>0; return Object.keys(v).length>0; } return true; }
 function fullness(name){ const f=INFO[name]||{}; const miss=INFO_KEYS.filter(([k])=>!filled(f[k])).map(z=>z[1]);
@@ -2135,7 +2134,7 @@ return API;
 }
 
 window.SearchunivModule=Object.freeze({
-  apiVersion:1, build:{"built":"2026-11-08 15:40","schedule":"2026-11-08","diffyear":"2027年度入試用"},
+  apiVersion:1, build:{"built":"2026-11-08 15:41","schedule":"2026-11-08","diffyear":"2027年度入試用"},
   // host 要素の Shadow DOM に Searchuniv を作る。opts: {base, theme, view, onView(v), onError(e)}
   mount(host,opts){
     opts=opts||{}; if(host.__su) return host.__su;
