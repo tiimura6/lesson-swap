@@ -1,4 +1,4 @@
-> **2026-11-07〜 置き場所の変更**：Searchuniv は飯村システム（GitHub `tiimura6/lesson-swap`）の `searchuniv/` フォルダに統合した。データ収集・修正・公開はすべてここで行う。旧リポジトリ `tiimura6/searchuniv` はもう更新しない（転送用のページだけ残す）。
+> **2026-11-07〜 置き場所の変更**：Searchuniv は飯村システム（GitHub `tiimura6/lesson-swap`）の `searchuniv/` フォルダに統合した。データ収集・修正・公開はすべてここで行う。旧リポジトリ `tiimura6/searchuniv` は 2026-11-08 に削除した。参照・push しないこと。
 
 # データ拡充パイプライン（定期実行用の手順書）
 

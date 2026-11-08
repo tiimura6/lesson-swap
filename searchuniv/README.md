@@ -18,7 +18,7 @@
 - 全国の大学の追加と空欄の補完は、`PIPELINE.md` の手順で定期実行が少しずつ進める。
 
 ## 飯村システム（tiimura6/lesson-swap）との統合（2026-11-07〜）
-- このフォルダは飯村システムのリポジトリ `tiimura6/lesson-swap` の `searchuniv/`。旧リポジトリ `tiimura6/searchuniv` は更新を止めた。
+- このフォルダは飯村システムのリポジトリ `tiimura6/lesson-swap` の `searchuniv/`。旧リポジトリ `tiimura6/searchuniv` は 2026-11-08 に先生の依頼で削除した（転送ページも無くなる）。
 - 飯村システムの「🎓 大学・進路」タブ（中に4画面）は、このフォルダの `su-module.js` を直接読み込んで表示する（iframe ではない）。
 - `su-module.js` は `tools/build.py` が `index.html` と同じテンプレートから自動生成する。直接編集しない。
 - 不具合を防ぐ仕組み：
