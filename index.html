@@ -1280,6 +1280,14 @@
     .pin-q { font-size:0.95rem; color:#1d1d1f; margin-bottom:16px; }
     .pin-yes, .pin-no { display:block; width:100%; border:none; border-radius:12px; padding:12px 14px; font-size:1rem; font-weight:700; font-family:inherit; cursor:pointer; }
     .pin-yes { background:#0071e3; color:#fff; margin-bottom:8px; }
+    /* 操作者の新規作成（名簿に名前が無い人） */
+    .opn-in { display:block; width:100%; box-sizing:border-box; margin:16px 0 6px; border:1px solid #d2d2d7; border-radius:12px; padding:11px 14px; font-size:17px; font-family:inherit; text-align:center; color:#1d1d1f; }
+    .opn-in:focus { outline:none; border-color:#0071e3; box-shadow:0 0 0 3px rgba(0,113,227,.2); }
+    .opn-list { text-align:left; margin:10px 0 2px; font-size:0.85rem; color:#6e6e73; }
+    .opn-list ul { list-style:none; margin:4px 0 0; padding:0; max-height:9em; overflow:auto; }
+    .opn-list li { display:flex; align-items:center; justify-content:space-between; gap:8px; padding:4px 2px; border-top:1px solid #f2f2f7; color:#1d1d1f; }
+    .opn-list button { border:none; background:none; color:#ff3b30; font-family:inherit; font-size:0.82rem; cursor:pointer; padding:2px 6px; border-radius:6px; }
+    .opn-list button:hover { background:#fff0ef; }
     .pin-yes:hover { background:#0077ed; }
     .pin-no { background:#f2f2f7; color:#1d1d1f; }
     .pin-no:hover { background:#e8e8ed; }
@@ -1495,7 +1503,7 @@
   <h1>飯村システム <span id="ttBadge" role="button" tabindex="0" title="クリックで新旧時間割を切り替え">新時間割</span><span id="opBox" class="op-box"><span class="op-ico" aria-hidden="true">👤</span><select id="opSel" aria-label="操作者"><option value="">操作者を選択</option></select><input id="opQ" type="search" placeholder="🔍 名前" aria-label="操作者を名前で検索" autocomplete="off"></span></h1>
   <p id="designedBy">designed by Takahiro Iimura</p>
   <p id="updateInfo">読み込み中…</p>
-  <div id="opGate" class="op-gate" role="status"><span class="op-gate-arrow" aria-hidden="true">↑</span><span>はじめに、上の <b>👤 操作者</b> を選んでください</span></div>
+  <div id="opGate" class="op-gate" role="status"><span class="op-gate-arrow" aria-hidden="true">↑</span><span>はじめに、上の <b>👤 操作者</b> を選んでください（一覧に名前が無い方は「＋ 新規作成」）</span></div>
   <div id="pinModal" class="pin-modal hidden" role="dialog" aria-modal="true" aria-labelledby="pinTitle">
     <form class="pin-box" id="pinForm" autocomplete="off">
       <div class="pin-ico" aria-hidden="true">🔑</div>
@@ -1514,6 +1522,18 @@
         <button type="button" id="pinNo" class="pin-no">いいえ、選び直す</button>
       </div>
       <button type="button" id="pinCancel" class="pin-cancel">キャンセル</button>
+    </form>
+  </div>
+  <div id="opNewModal" class="pin-modal hidden" role="dialog" aria-modal="true" aria-labelledby="opNewTitle">
+    <form class="pin-box" id="opNewForm" autocomplete="off">
+      <div class="pin-ico" aria-hidden="true">👤</div>
+      <div class="pin-title" id="opNewTitle">操作者を新規作成</div>
+      <div class="pin-sub">一覧に名前が無い方は、ここで名前を決めてください（「先生」は付けなくてかまいません）</div>
+      <input id="opNewIn" class="opn-in" type="text" maxlength="20" placeholder="例：山田 太郎" aria-label="新しい操作者の名前" autocomplete="off">
+      <div class="pin-err" id="opNewErr" aria-live="polite"></div>
+      <button type="submit" class="pin-yes">この名前で作成</button>
+      <div class="opn-list" id="opNewList" hidden>この端末で作成した名前<ul></ul></div>
+      <button type="button" id="opNewCancel" class="pin-cancel">キャンセル</button>
     </form>
   </div>
   <nav id="viewTabs" role="tablist" aria-label="画面切り替え">
@@ -12365,15 +12385,22 @@
        typeof lessonsJH_old !== 'undefined' ? lessonsJH_old : [], typeof lessonsJH_new !== 'undefined' ? lessonsJH_new : []]
         .forEach(a => a.forEach(l => { if(l.teacher) set.add(l.teacher); }));
       const part = t => (typeof isParttimeTeacher === 'function') ? isParttimeTeacher(t) : false;
-      return Array.from(set).sort((a, b) => (part(a) - part(b)) || coll.compare(a, b));
+      const base = Array.from(set).sort((a, b) => (part(a) - part(b)) || coll.compare(a, b));
+      // 名簿（時間割）に名前が無い人が「＋ 新規作成」で決めた名前は、最後に並べる
+      return base.concat(customNames().filter(n => !set.has(n)).sort(coll.compare));
     }
+    // ---------- 新規作成した操作者（この端末に保存） ----------
+    const K_CUSTOM = 'opCustomNames', NEW = '__op_new__';
+    function customNames(){ try { const a = JSON.parse(localStorage.getItem(K_CUSTOM) || '[]'); return Array.isArray(a) ? a.filter(x => typeof x === 'string' && x) : []; } catch(e){ return []; } }
+    function saveCustom(a){ try { localStorage.setItem(K_CUSTOM, JSON.stringify(a)); } catch(e){} }
     function fill(filter){
       const f = String(filter || '').trim();
       const list = f ? names.filter(n => n.indexOf(f) >= 0) : names;
       const cur = window.ttOperator;
       sel.innerHTML = '<option value="">' + (f ? (list.length ? '候補 ' + list.length + '件' : '該当なし') : '操作者を選択') + '</option>'
         + list.map(n => '<option' + (n === cur ? ' selected' : '') + '>' + n.replace(/</g, '&lt;') + '</option>').join('')
-        + (cur && list.indexOf(cur) < 0 ? '<option selected>' + cur.replace(/</g, '&lt;') + '</option>' : '');
+        + (cur && list.indexOf(cur) < 0 ? '<option selected>' + cur.replace(/</g, '&lt;') + '</option>' : '')
+        + '<option value="' + NEW + '">＋ 新規作成（名前を決める）</option>';
       return list;
     }
     function setGate(on){
@@ -12531,14 +12558,58 @@
     pDots.addEventListener('click', () => pin.focus());
     pm.addEventListener('keydown', e => { if(e.key === 'Escape') closePin(); });
 
-    sel.addEventListener('change', () => { q.value = ''; requestOperator(sel.value); });
+    // ---------- 新規作成の画面 ----------
+    const nm = document.getElementById('opNewModal'), nIn = document.getElementById('opNewIn'), nErr = document.getElementById('opNewErr'), nList = document.getElementById('opNewList');
+    const esc = v => String(v).replace(/[&<>"]/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;' })[c]);
+    function paintCustom(){
+      const a = customNames();
+      nList.hidden = !a.length;
+      nList.querySelector('ul').innerHTML = a.map((n, i) => '<li><span>' + esc(n) + '</span><button type="button" data-i="' + i + '">削除</button></li>').join('');
+    }
+    function openNew(prefill){
+      fill('');
+      nIn.value = prefill || ''; nErr.textContent = ''; paintCustom();
+      nm.classList.remove('hidden'); setTimeout(() => nIn.focus(), 60);
+    }
+    function closeNew(){ nm.classList.add('hidden'); nIn.blur(); fill(''); }
+    document.getElementById('opNewForm').addEventListener('submit', e => {
+      e.preventDefault();
+      let v = String(nIn.value || '').replace(/[\u0000-\u001f<>"]/g, '').replace(/\s+/g, ' ').trim().replace(/\s*先生$/, '');
+      if(!v){ nErr.textContent = '名前を入力してください'; nIn.focus(); return; }
+      if(v.length > 20){ nErr.textContent = '20文字以内で入力してください'; nIn.focus(); return; }
+      if(v === NEW){ nErr.textContent = 'この名前は使えません'; return; }
+      const a = customNames();
+      if(names.indexOf(v) < 0 && a.indexOf(v) < 0){ a.push(v); saveCustom(a); if(window.ttLog) window.ttLog('操作者を新規作成', v); }
+      names = allNames();
+      closeNew();
+      requestOperator(v);   // 続けてPINの設定（初回）
+    });
+    nList.addEventListener('click', e => {
+      const b = e.target.closest('button[data-i]'); if(!b) return;
+      const a = customNames(), n = a[+b.dataset.i]; if(n == null) return;
+      if(!confirm('「' + n + '」をこの端末の一覧から削除しますか？（保存した記録は消えません）')) return;
+      a.splice(+b.dataset.i, 1); saveCustom(a);
+      if(window.ttLog) window.ttLog('新規作成した操作者を削除', n);
+      names = allNames();
+      if(window.ttOperator === n) apply('', true);
+      paintCustom(); fill('');
+    });
+    document.getElementById('opNewCancel').addEventListener('click', closeNew);
+    nm.addEventListener('keydown', e => { if(e.key === 'Escape') closeNew(); });
+    nm.addEventListener('click', e => { if(e.target === nm) closeNew(); });
+
+    sel.addEventListener('change', () => {
+      const v = sel.value, typed = q.value.trim(); q.value = '';
+      if(v === NEW){ openNew(typed); return; }
+      requestOperator(v);
+    });
     q.addEventListener('input', () => {
       const list = fill(q.value);
       if(list.length === 1){ const n = list[0]; q.value = ''; q.blur(); requestOperator(n); }
     });
     q.addEventListener('blur', () => setTimeout(() => { if(document.activeElement !== sel && !flow){ q.value = ''; fill(''); } }, 200));
     q.addEventListener('keydown', e => {
-      if(e.key === 'Enter'){ const list = fill(q.value); if(list.length){ q.value = ''; q.blur(); requestOperator(list[0]); } }
+      if(e.key === 'Enter'){ const list = fill(q.value); const t = q.value.trim(); if(list.length){ q.value = ''; q.blur(); requestOperator(list[0]); } else if(t){ q.value = ''; q.blur(); openNew(t); } }
       if(e.key === 'Escape'){ q.value = ''; fill(''); }
     });
     function init(){
