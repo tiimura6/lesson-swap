@@ -79261,7 +79261,10 @@
 "https://search.keinet.ne.jp/1020/outline/admission_employment",
 "https://search.keinet.ne.jp/1020/general/exam_subject",
 "https://search.keinet.ne.jp/1020/recommend/exam_ao",
-"https://search.keinet.ne.jp/1020/recommend/exam_result"
+"https://search.keinet.ne.jp/1020/recommend/exam_result",
+"https://koho5.office.kitami-it.ac.jp/admission/wp-content/uploads/2026/06/R09senbatsuyoukou.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/1020/nyushi/",
+"https://manabi.benesse.ne.jp/daigaku/school/1020/gakuhi/"
 ],
 "methods": {
 "year": "2027年度入試",
@@ -79348,15 +79351,15 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"money": "2026-11-06",
-"schedule": "2026-11-06",
+"money": "2026-11-08",
+"schedule": "2026-11-08",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07"
 },
 "money": {
-"year": "2025年度",
+"year": "2026年度",
 "total4": 2425200,
 "total4_note": "入学金＋授業料4年（施設費等含まず）",
 "admission": 282000,
@@ -79375,6 +79378,19 @@
 "name": "北見工業大学地元就職奨学金",
 "what": "卒業後地元賛助企業に3年以上勤務を誓約した4年生に月額3万円を1年間給付"
 }
+],
+"rows": [
+{
+"f": "工学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": 0,
+"practical": null,
+"other": null,
+"first_year": 817800,
+"four_year": null,
+"note": "全学同額。施設費なし。合計は入学料＋授業料（マナビジョン 2026年度入学者）"
+}
 ]
 },
 "schedule": {
@@ -79388,6 +79404,24 @@
 "result": "12/16",
 "proc": "12/23",
 "note": "出願期間は締切日のみ掲載。Kei-Netに「一部前年度情報を含む」と注記"
+},
+{
+"kubun": "一般",
+"name": "一般 前期",
+"apply": "1/25〜2/3",
+"exam": "個別試験なし（共通テストのみ）",
+"result": "3/6",
+"proc": "3/15",
+"note": "工学部 先進工学科（大学公式 令和9年度選抜要項・マナビジョン）"
+},
+{
+"kubun": "一般",
+"name": "一般 後期",
+"apply": "1/25〜2/3",
+"exam": "3/12",
+"result": "3/20",
+"proc": "3/27",
+"note": "試験会場は東京・北見工業大学・札幌・大阪（大学公式 令和9年度選抜要項・マナビジョン）"
 }
 ]
 },
@@ -79526,7 +79560,9 @@
 "https://search.keinet.ne.jp/1055/outline/licential",
 "https://search.keinet.ne.jp/1055/outline/admission_employment",
 "https://search.keinet.ne.jp/1055/general/exam_subject",
-"https://search.keinet.ne.jp/1055/recommend/exam_result"
+"https://search.keinet.ne.jp/1055/recommend/exam_result",
+"https://manabi.benesse.ne.jp/daigaku/school/1075/nyushi/index.html",
+"https://telemail.jp/shingaku/university/10003358/examination/general"
 ],
 "methods": {
 "year": "2027年度入試",
@@ -79683,7 +79719,7 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "money": "2026-11-06",
-"schedule": "2026-11-06",
+"schedule": "2026-11-08",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -79714,6 +79750,24 @@
 "result": "12/10",
 "proc": "12/18",
 "note": "教育学部（初等教育・特別支援教育専攻）。出願期間は締切日のみ掲載"
+},
+{
+"kubun": "一般",
+"name": "一般 前期",
+"apply": "1/25〜2/3",
+"exam": "2/25",
+"result": "3/9",
+"proc": "3/15",
+"note": "初等教育・中等教育・特別支援教育専攻（マナビジョン・テレメール、2026年9月時点。テレメールではネット出願1/18〜）"
+},
+{
+"kubun": "一般",
+"name": "一般 後期",
+"apply": "1/25〜2/3",
+"exam": "3/12",
+"result": "3/23",
+"proc": "3/27",
+"note": "初等教育専攻のみ（マナビジョン・テレメール）"
 }
 ]
 },
@@ -79879,7 +79933,9 @@
 "https://search.keinet.ne.jp/1010",
 "https://search.keinet.ne.jp/1010/outline/department",
 "https://search.keinet.ne.jp/1010/outline/licential",
-"https://search.keinet.ne.jp/1010/general/exam_subject"
+"https://search.keinet.ne.jp/1010/general/exam_subject",
+"https://manabi.benesse.ne.jp/daigaku/school/1010/nyushi/index.html",
+"https://telemail.jp/shingaku/university/10003347/examination/general"
 ],
 "departments": [
 {
@@ -79928,7 +79984,7 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "money": "2026-11-06",
-"schedule": "2026-11-06",
+"schedule": "2026-11-08",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -79971,6 +80027,24 @@
 "result": "12/10",
 "proc": "2/17",
 "note": ""
+},
+{
+"kubun": "一般",
+"name": "一般 前期（昼間・夜間主）",
+"apply": "1/25〜2/3",
+"exam": "2/25",
+"result": "3/6",
+"proc": "3/15",
+"note": "試験地は北海道・宮城県（マナビジョン・テレメール、2026年9月時点）"
+},
+{
+"kubun": "一般",
+"name": "一般 後期（昼間）",
+"apply": "1/25〜2/3",
+"exam": "個別試験なし（共通テストのみ）",
+"result": "3/20",
+"proc": "3/27",
+"note": "夜間主コースは後期なし（マナビジョン・テレメール）"
 }
 ]
 },
@@ -152074,6 +152148,438 @@ null
 "https://search.keinet.ne.jp/2135/outline/admission_employment",
 "https://search.keinet.ne.jp/2135/outline/expense",
 "https://www.jobu.ac.jp/"
+]
+},
+"中央学院大学": {
+"difficulty": {
+"hensachi": "35.0〜37.5",
+"kyotei": "36%〜54%",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-08",
+"faculties": "2026-11-08",
+"departments": "2026-11-08",
+"students": "2026-11-08",
+"founded": "2026-11-08",
+"access": "2026-11-08",
+"tuition": "2026-11-08",
+"money": "2026-11-08",
+"research": "2026-11-08",
+"licenses": "2026-11-08",
+"careers": "2026-11-08"
+},
+"faculties": [
+"現代教養学部",
+"法学部",
+"商学部"
+],
+"departments": [
+{
+"f": "現代教養学部",
+"d": [
+"現代教養学科"
+]
+},
+{
+"f": "法学部",
+"d": [
+"法学科"
+]
+},
+{
+"f": "商学部",
+"d": [
+"商学科"
+]
+}
+],
+"students": {
+"count": 2747,
+"year": 2025
+},
+"founded": "1966年 開学（商学部）",
+"access": "我孫子キャンパス（千葉県我孫子市久寺家451）：JR我孫子駅からスクールバス、または徒歩約20分",
+"tuition": {
+"amount": 1020000,
+"label": "入学金＋授業料",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 260000,
+"annual": 1108160,
+"note": "全学部同額（Kei-Net）",
+"rows": [
+{
+"f": "全学部（現代教養・法・商）",
+"admission": 260000,
+"tuition": 760000,
+"facility": 300000,
+"practical": null,
+"other": 48160,
+"first_year": 1368160,
+"four_year": null,
+"note": "otherは諸会費（Kei-Net 2026年度）"
+}
+]
+},
+"research": [
+"現代教養",
+"法学",
+"商学"
+],
+"licenses": [
+"中学校教諭一種（社会）",
+"高等学校教諭一種（地理歴史・公民）",
+"高等学校教諭一種（情報・商業）（商学部）"
+],
+"careers": "2024年度卒業者の就職率は現代教養学部80.0%・法学部82.5%・商学部89.2%（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2181",
+"https://search.keinet.ne.jp/2181/outline/department",
+"https://search.keinet.ne.jp/2181/outline/campus",
+"https://search.keinet.ne.jp/2181/general/border_rate",
+"https://search.keinet.ne.jp/2181/general/exam_result",
+"https://search.keinet.ne.jp/2181/outline/licential",
+"https://search.keinet.ne.jp/2181/outline/admission_employment",
+"https://search.keinet.ne.jp/2181/outline/expense",
+"https://www.cgu.ac.jp/"
+]
+},
+"亀田医療大学": {
+"difficulty": {
+"hensachi": "35.0",
+"kyotei": "",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-08",
+"faculties": "2026-11-08",
+"departments": "2026-11-08",
+"students": "2026-11-08",
+"founded": "2026-11-08",
+"access": "2026-11-08",
+"tuition": "2026-11-08",
+"money": "2026-11-08",
+"research": "2026-11-08",
+"licenses": "2026-11-08",
+"careers": "2026-11-08"
+},
+"faculties": [
+"看護学部"
+],
+"departments": [
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+}
+],
+"students": {
+"count": 245,
+"year": 2025
+},
+"founded": "2012年 開学",
+"access": "横渚キャンパス（千葉県鴨川市横渚462）：JR安房鴨川駅から徒歩約12分。木更津・姉ヶ崎・君津・久留里駅からスクールバス",
+"tuition": {
+"amount": 700000,
+"label": "授業料（入学金不要）",
+"year": 2025
+},
+"money": {
+"year": "2025年度",
+"admission": 0,
+"annual": 1280000,
+"note": "入学金は不要。別途、教科書代約6万円、ユニフォーム・聴診器など約6万円。保険料4,500〜9,000円は任意（Kei-Net）",
+"rows": [
+{
+"f": "看護学部 看護学科",
+"admission": 0,
+"tuition": 700000,
+"facility": 300000,
+"practical": 200000,
+"other": 80000,
+"first_year": 1280000,
+"four_year": null,
+"note": "入学金不要。otherは諸会費。教科書代・実習用品代は別途（Kei-Net 2025年度）"
+}
+]
+},
+"research": [
+"看護学"
+],
+"licenses": [
+"看護師（受験資格）",
+"保健師（受験資格）",
+"養護教諭二種"
+],
+"careers": "2024年度卒業者74人のうち就職95.9%・進学2.7%（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2128",
+"https://search.keinet.ne.jp/2128/outline/department",
+"https://search.keinet.ne.jp/2128/outline/campus",
+"https://search.keinet.ne.jp/2128/general/border_rate",
+"https://search.keinet.ne.jp/2128/general/exam_result",
+"https://search.keinet.ne.jp/2128/outline/licential",
+"https://search.keinet.ne.jp/2128/outline/admission_employment",
+"https://search.keinet.ne.jp/2128/outline/expense",
+"https://www.kameda.ac.jp/"
+]
+},
+"二松学舎大学": {
+"difficulty": {
+"hensachi": "40.0〜55.0",
+"kyotei": "62%〜73%",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-08",
+"faculties": "2026-11-08",
+"departments": "2026-11-08",
+"students": "2026-11-08",
+"founded": "2026-11-08",
+"access": "2026-11-08",
+"tuition": "2026-11-08",
+"money": "2026-11-08",
+"research": "2026-11-08",
+"licenses": "2026-11-08",
+"careers": "2026-11-08"
+},
+"faculties": [
+"文学部",
+"国際政治経済学部"
+],
+"departments": [
+{
+"f": "文学部",
+"d": [
+"国文学科",
+"国際日本・中国学科",
+"都市文化デザイン学科",
+"歴史文化学科"
+]
+},
+{
+"f": "国際政治経済学部",
+"d": [
+"国際政治経済学科",
+"国際経営学科"
+]
+}
+],
+"students": {
+"count": 3227,
+"year": 2025
+},
+"founded": "1949年 新制大学（1877年 漢学塾二松学舎）",
+"access": "九段キャンパス（東京都千代田区三番町・九段南）：九段下駅から徒歩8分、半蔵門駅から徒歩10分、飯田橋駅・市ケ谷駅から徒歩15分",
+"tuition": {
+"amount": 1060000,
+"label": "入学金＋授業料",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 200000,
+"annual": 1217660,
+"note": "文学部・国際政治経済学部とも同額（Kei-Net）",
+"rows": [
+{
+"f": "文学部・国際政治経済学部",
+"admission": 200000,
+"tuition": 860000,
+"facility": 280000,
+"practical": null,
+"other": 77660,
+"first_year": 1417660,
+"four_year": null,
+"note": "otherは諸会費（Kei-Net 2026年度）"
+}
+]
+},
+"research": [
+"日本文学・国語学",
+"中国学・漢文",
+"都市文化",
+"歴史学",
+"国際政治経済",
+"国際経営"
+],
+"licenses": [
+"中学校・高等学校教諭一種（国語）",
+"高等学校教諭一種（書道）",
+"中学校・高等学校教諭一種（中国語）",
+"中学校教諭一種（社会）",
+"高等学校教諭一種（地理歴史・公民）",
+"学校図書館司書教諭",
+"司書",
+"学芸員"
+],
+"careers": "2024年度卒業者は文学部で就職79.3%・進学5.4%、国際政治経済学部で就職81.4%・進学2.8%（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2266",
+"https://search.keinet.ne.jp/2266/outline/department",
+"https://search.keinet.ne.jp/2266/outline/campus",
+"https://search.keinet.ne.jp/2266/general/border_rate",
+"https://search.keinet.ne.jp/2266/general/exam_result",
+"https://search.keinet.ne.jp/2266/outline/licential",
+"https://search.keinet.ne.jp/2266/outline/admission_employment",
+"https://search.keinet.ne.jp/2266/outline/expense",
+"https://www.nishogakusha-u.ac.jp/"
+]
+},
+"亜細亜大学": {
+"difficulty": {
+"hensachi": "35.0〜42.5",
+"kyotei": "41%〜72%",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-08",
+"faculties": "2026-11-08",
+"departments": "2026-11-08",
+"students": "2026-11-08",
+"founded": "2026-11-08",
+"access": "2026-11-08",
+"tuition": "2026-11-08",
+"money": "2026-11-08",
+"research": "2026-11-08",
+"licenses": "2026-11-08",
+"careers": "2026-11-08"
+},
+"faculties": [
+"国際関係学部",
+"社会学部",
+"法学部",
+"経済学部",
+"経営学部",
+"健康スポーツ科学部"
+],
+"departments": [
+{
+"f": "国際関係学部",
+"d": [
+"国際関係学科",
+"多文化コミュニケーション学科"
+]
+},
+{
+"f": "社会学部",
+"d": [
+"現代社会学科"
+]
+},
+{
+"f": "法学部",
+"d": [
+"法律学科"
+]
+},
+{
+"f": "経済学部",
+"d": [
+"経済学科"
+]
+},
+{
+"f": "経営学部",
+"d": [
+"経営学科",
+"ホスピタリティ・マネジメント学科",
+"データサイエンス学科"
+]
+},
+{
+"f": "健康スポーツ科学部",
+"d": [
+"健康スポーツ科学科"
+]
+}
+],
+"students": {
+"count": 6691,
+"year": 2025
+},
+"founded": "1955年 開学（1941年 興亜専門学校）",
+"access": "武蔵野キャンパス（東京都武蔵野市境5-8）：JR武蔵境駅から徒歩12分、またはバス",
+"tuition": {
+"amount": 1010000,
+"label": "入学金＋授業料（法・経済・経営学部）",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 150000,
+"annual": 1146000,
+"note": "法・経済・経営学部の例。国際関係・社会学部は初年度1,336,000円、健康スポーツ科学部は1,386,000円。留学に参加する場合は費用が別途（Kei-Net）",
+"rows": [
+{
+"f": "国際関係学部・社会学部",
+"admission": 150000,
+"tuition": 900000,
+"facility": 260000,
+"practical": null,
+"other": 26000,
+"first_year": 1336000,
+"four_year": null,
+"note": "otherは諸会費。国際関係学科は留学必須で留学費用は別途（Kei-Net 2026年度）"
+},
+{
+"f": "法学部・経済学部・経営学部",
+"admission": 150000,
+"tuition": 860000,
+"facility": 260000,
+"practical": null,
+"other": 26000,
+"first_year": 1296000,
+"four_year": null,
+"note": "otherは諸会費（Kei-Net 2026年度）"
+},
+{
+"f": "健康スポーツ科学部",
+"admission": 150000,
+"tuition": 950000,
+"facility": 260000,
+"practical": null,
+"other": 26000,
+"first_year": 1386000,
+"four_year": null,
+"note": "otherは諸会費（Kei-Net 2026年度）"
+}
+]
+},
+"research": [
+"国際関係・多文化コミュニケーション",
+"現代社会",
+"法律学",
+"経済学",
+"経営・ホスピタリティ・データサイエンス",
+"健康スポーツ科学"
+],
+"licenses": [
+"中学校・高等学校教諭一種（英語）（国際関係学科）",
+"中学校教諭一種（社会）",
+"高等学校教諭一種（公民）",
+"高等学校教諭一種（商業）（経営学科）",
+"中学校・高等学校教諭一種（保健体育）（健康スポーツ科学科）",
+"社会調査士（現代社会学科）",
+"学校図書館司書教諭",
+"司書",
+"社会教育主事"
+],
+"careers": "2024年度卒業者の就職率は国際関係学部81.4%・法学部89.5%・経済学部86.9%・経営学部86.2%・都市創造学部83.5%（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2199",
+"https://search.keinet.ne.jp/2199/outline/department",
+"https://search.keinet.ne.jp/2199/outline/campus",
+"https://search.keinet.ne.jp/2199/general/border_rate",
+"https://search.keinet.ne.jp/2199/general/exam_result",
+"https://search.keinet.ne.jp/2199/outline/licential",
+"https://search.keinet.ne.jp/2199/outline/admission_employment",
+"https://search.keinet.ne.jp/2199/outline/expense",
+"https://www.asia-u.ac.jp/"
 ]
 }
 }

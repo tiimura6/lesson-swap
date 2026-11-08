@@ -1,34 +1,6 @@
 {
 "add": [
 {
-"name": "中央学院大学",
-"type": "私立",
-"pref": "千葉県",
-"hp": "https://www.cgu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "亀田医療大学",
-"type": "私立",
-"pref": "千葉県",
-"hp": "http://www.kameda.ac.jp/",
-"cat": "private"
-},
-{
-"name": "二松学舎大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.nishogakusha-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "亜細亜大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.asia-u.ac.jp/",
-"cat": "private"
-},
-{
 "name": "人間総合科学大学",
 "type": "私立",
 "pref": "埼玉県",
@@ -3876,6 +3848,41 @@
 "need": [
 "fees"
 ]
+},
+{
+"name": "北見工業大学",
+"keinet": "1020",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "北見工業大学",
+"keinet": "1020",
+"need": [
+"fees"
+]
+},
+{
+"name": "宮城教育大学",
+"keinet": "1055",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "小樽商科大学",
+"keinet": "1010",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "北海道教育大学",
+"keinet": "1030",
+"need": [
+"schedule_dates"
+]
 }
 ],
 "failed": [
@@ -3914,7 +3921,7 @@
 "東京科学大学": 2,
 "三重大学": 1,
 "電動モビリティシステム専門職大学": 3,
-"北海道教育大学": 1,
+"北海道教育大学": 2,
 "総合研究大学院大学（大学院のみ）": 1,
 "東北大学": 1,
 "九州大学": 1,
@@ -3940,7 +3947,11 @@
 "静岡県立農林環境専門職大学": 1,
 "埼玉県立大学": 1,
 "名古屋国際工科専門職大学": 1,
-"ルーテル学院大学": 1
+"ルーテル学院大学": 1,
+"公立千歳科学技術大学": 1,
+"宮城教育大学": 1,
+"小樽商科大学": 1,
+"山形大学": 1
 },
 "enrich": [
 {
@@ -5804,41 +5815,6 @@
 ]
 },
 {
-"name": "北海道教育大学",
-"keinet": "1030",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "北見工業大学",
-"keinet": "1020",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "宮城教育大学",
-"keinet": "1055",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "小樽商科大学",
-"keinet": "1010",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "山形大学",
-"keinet": "1065",
-"need": [
-"schedule_dates"
-]
-},
-{
 "name": "岩手大学",
 "keinet": "1045",
 "need": [
@@ -6120,41 +6096,6 @@
 "keinet": "1510",
 "need": [
 "schedule_dates"
-]
-},
-{
-"name": "公立千歳科学技術大学",
-"keinet": "1509",
-"need": [
-"fees"
-]
-},
-{
-"name": "北海道教育大学",
-"keinet": "1030",
-"need": [
-"fees"
-]
-},
-{
-"name": "北見工業大学",
-"keinet": "1020",
-"need": [
-"fees"
-]
-},
-{
-"name": "宮城教育大学",
-"keinet": "1055",
-"need": [
-"fees"
-]
-},
-{
-"name": "小樽商科大学",
-"keinet": "1010",
-"need": [
-"fees"
 ]
 },
 {
@@ -24073,6 +24014,73 @@
 "need": [
 "extra",
 "partners"
+]
+},
+{
+"name": "中央学院大学",
+"keinet": "2181",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "亀田医療大学",
+"keinet": "2128",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "二松学舎大学",
+"keinet": "2266",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "亜細亜大学",
+"keinet": "2199",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "公立千歳科学技術大学",
+"keinet": "1509",
+"need": [
+"fees"
+]
+},
+{
+"name": "北海道教育大学",
+"keinet": "1030",
+"need": [
+"fees"
+]
+},
+{
+"name": "宮城教育大学",
+"keinet": "1055",
+"need": [
+"fees"
+]
+},
+{
+"name": "小樽商科大学",
+"keinet": "1010",
+"need": [
+"fees"
+]
+},
+{
+"name": "山形大学",
+"keinet": "1065",
+"need": [
+"schedule_dates"
 ]
 }
 ],
