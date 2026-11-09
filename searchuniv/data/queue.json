@@ -1,41 +1,6 @@
 {
 "add": [
 {
-"name": "平成国際大学",
-"type": "私立",
-"pref": "埼玉県",
-"hp": "http://www.hiu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "恵泉女学園大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.keisen.ac.jp/",
-"cat": "private"
-},
-{
-"name": "愛国学園大学",
-"type": "私立",
-"pref": "千葉県",
-"hp": "https://aikoku-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "拓殖大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.takushoku-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "敬愛大学",
-"type": "私立",
-"pref": "千葉県",
-"hp": "https://www.u-keiai.ac.jp/",
-"cat": "private"
-},
-{
 "name": "文京学院大学",
 "type": "私立",
 "pref": "東京都",
@@ -3592,6 +3557,48 @@
 "need": [
 "fees"
 ]
+},
+{
+"name": "長崎大学",
+"keinet": "1435",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "鹿児島大学",
+"keinet": "1465",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "高知大学",
+"keinet": "1395",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大分大学",
+"keinet": "1445",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "山梨大学",
+"keinet": "1215",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "島根大学",
+"keinet": "1345",
+"need": [
+"schedule_dates"
+]
 }
 ],
 "failed": [
@@ -3623,6 +3630,22 @@
 "fees"
 ],
 "reason": "2025年度入学者から募集停止（既存の出典）。Kei-Net等に日程・学費の掲載なし"
+},
+{
+"name": "富山大学",
+"keinet": "1190",
+"need": [
+"schedule_dates"
+],
+"reason": "パスナビ・Kei-Net とも2027年度の一般選抜日程が未掲載（2026-11-09時点）"
+},
+{
+"name": "浜松医科大学",
+"keinet": "1235",
+"need": [
+"schedule_dates"
+],
+"reason": "手続締切がパスナビに掲載なし、Kei-Net は12月下旬掲載予定（2026-11-09時点）"
 }
 ],
 "fail_count": {
@@ -3666,14 +3689,15 @@
 "上越教育大学": 1,
 "千葉科学大学": 1,
 "名古屋工業大学": 2,
-"富山大学": 2,
+"富山大学": 3,
 "山梨大学": 2,
-"浜松医科大学": 2,
+"浜松医科大学": 3,
 "島根大学": 2,
 "学習院女子大学": 1,
 "高知大学": 1,
 "大分大学": 1,
-"川村学園女子大学": 1
+"川村学園女子大学": 1,
+"福岡教育大学": 1
 },
 "enrich": [
 {
@@ -6561,27 +6585,6 @@
 "name": "九州産業大学",
 "need": [
 "verify"
-]
-},
-{
-"name": "福岡教育大学",
-"keinet": "1420",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "長崎大学",
-"keinet": "1435",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "鹿児島大学",
-"keinet": "1465",
-"need": [
-"schedule_dates"
 ]
 },
 {
@@ -26428,20 +26431,6 @@
 ]
 },
 {
-"name": "高知大学",
-"keinet": "1395",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "大分大学",
-"keinet": "1445",
-"need": [
-"schedule_dates"
-]
-},
-{
 "name": "尚美学園大学",
 "keinet": "2165",
 "need": [
@@ -26481,29 +26470,40 @@
 ]
 },
 {
-"name": "富山大学",
-"keinet": "1190",
+"name": "平成国際大学",
+"keinet": "2162",
 "need": [
-"schedule_dates"
+"extra",
+"partners"
 ]
 },
 {
-"name": "山梨大学",
-"keinet": "1215",
+"name": "愛国学園大学",
+"keinet": "2191",
 "need": [
-"schedule_dates"
+"extra",
+"partners"
 ]
 },
 {
-"name": "浜松医科大学",
-"keinet": "1235",
+"name": "拓殖大学",
+"keinet": "2237",
 "need": [
-"schedule_dates"
+"extra",
+"partners"
 ]
 },
 {
-"name": "島根大学",
-"keinet": "1345",
+"name": "敬愛大学",
+"keinet": "2180",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "福岡教育大学",
+"keinet": "1420",
 "need": [
 "schedule_dates"
 ]
@@ -26566,6 +26566,10 @@
 {
 "name": "名古屋柳城女子大学",
 "reason": "2026年度以降の学生募集を停止（日本の学校で確認）"
+},
+{
+"name": "恵泉女学園大学",
+"reason": "2024年度入学者から学生募集を停止（大学の発表 digitalpr.jp/r/69452 で確認）"
 }
 ]
 }
