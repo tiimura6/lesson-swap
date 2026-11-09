@@ -1,34 +1,6 @@
 {
 "add": [
 {
-"name": "東京工科大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.teu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "東京工芸大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.t-kougei.ac.jp/",
-"cat": "private"
-},
-{
-"name": "東京情報デザイン専門職大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.tid.ac.jp/",
-"cat": "senmon"
-},
-{
-"name": "東京情報大学",
-"type": "私立",
-"pref": "千葉県",
-"hp": "https://www.tuis.ac.jp/",
-"cat": "private"
-},
-{
 "name": "東京成徳大学",
 "type": "私立",
 "pref": "東京都",
@@ -4021,6 +3993,34 @@
 "need": [
 "fees"
 ]
+},
+"東京工科大学",
+"東京工芸大学",
+"東京情報デザイン専門職大学",
+"東京情報大学",
+{
+"name": "令和健康科学大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "令和健康科学大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "別府大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "別府大学",
+"need": [
+"fees"
+]
 }
 ],
 "failed": [
@@ -4079,7 +4079,7 @@
 "総合研究大学院大学（大学院のみ）": 1,
 "東北大学": 1,
 "九州大学": 1,
-"九州看護福祉大学": 1,
+"九州看護福祉大学": 2,
 "別府大学": 1,
 "南九州大学": 1,
 "宮崎国際大学": 1,
@@ -16256,18 +16256,6 @@
 {
 "name": "九州看護福祉大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "九州看護福祉大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "九州看護福祉大学",
-"need": [
 "scholar"
 ]
 },
@@ -16280,18 +16268,6 @@
 {
 "name": "令和健康科学大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "令和健康科学大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "令和健康科学大学",
-"need": [
 "scholar"
 ]
 },
@@ -16299,18 +16275,6 @@
 "name": "別府大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "別府大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "別府大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -26715,6 +26679,49 @@
 "need": [
 "extra",
 "partners"
+]
+},
+{
+"name": "東京工科大学",
+"keinet": "2251",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "東京工芸大学",
+"keinet": "2297",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "東京情報デザイン専門職大学",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "東京情報大学",
+"keinet": "2184",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "九州看護福祉大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "九州看護福祉大学",
+"need": [
+"fees"
 ]
 }
 ],
