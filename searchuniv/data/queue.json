@@ -1,34 +1,6 @@
 {
 "add": [
 {
-"name": "東京女子医科大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.twmu.ac.jp/univ/",
-"cat": "private"
-},
-{
-"name": "東京家政大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.tokyo-kasei.ac.jp/",
-"cat": "private"
-},
-{
-"name": "東京家政学院大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.kasei-gakuin.ac.jp/",
-"cat": "private"
-},
-{
-"name": "東京富士大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.fuji.ac.jp/",
-"cat": "private"
-},
-{
 "name": "東京工科大学",
 "type": "私立",
 "pref": "東京都",
@@ -4015,6 +3987,40 @@
 "need": [
 "fees"
 ]
+},
+"東京女子医科大学",
+"東京家政大学",
+"東京家政学院大学",
+"東京富士大学",
+{
+"name": "活水女子大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "活水女子大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "熊本保健科学大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "熊本学園大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "熊本学園大学",
+"need": [
+"fees"
+]
 }
 ],
 "failed": [
@@ -4078,7 +4084,7 @@
 "南九州大学": 1,
 "宮崎国際大学": 1,
 "沖縄国際大学": 2,
-"沖縄大学": 1,
+"沖縄大学": 2,
 "びわこ成蹊スポーツ大学": 1,
 "高岡法科大学": 1,
 "名城大学": 1,
@@ -4119,7 +4125,8 @@
 "山形県立保健医療大学": 1,
 "岩手県立大学": 1,
 "長崎総合科学大学": 2,
-"日本経済大学": 1
+"日本経済大学": 1,
+"熊本保健科学大学": 1
 },
 "enrich": [
 {
@@ -16201,18 +16208,6 @@
 {
 "name": "沖縄大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "沖縄大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "沖縄大学",
-"need": [
 "scholar"
 ]
 },
@@ -16220,18 +16215,6 @@
 "name": "活水女子大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "活水女子大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "活水女子大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -16249,18 +16232,6 @@
 {
 "name": "熊本保健科学大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "熊本保健科学大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "熊本保健科学大学",
-"need": [
 "scholar"
 ]
 },
@@ -16268,18 +16239,6 @@
 "name": "熊本学園大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "熊本学園大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "熊本学園大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -26704,6 +26663,59 @@
 "fees"
 ],
 "note": "Kei-Netの学費ページに辿れず、マナビジョンは内訳なし（2026-11-09）"
+},
+{
+"name": "沖縄大学",
+"need": [
+"schedule_dates"
+],
+"note": "Kei-Netのコードが検索で見つからず（2026-11-09）。大学公式で確認する"
+},
+{
+"name": "沖縄大学",
+"need": [
+"fees"
+],
+"note": "Kei-Netのコードが検索で見つからず（2026-11-09）。大学公式で確認する"
+},
+{
+"name": "熊本保健科学大学",
+"need": [
+"schedule_dates"
+],
+"note": "Kei-Netは出願・発表・手続日を11月以降に掲載予定（2026-11-09時点）。入学手続締切が未確認"
+},
+{
+"name": "東京女子医科大学",
+"keinet": "2255",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "東京家政大学",
+"keinet": "2248",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "東京家政学院大学",
+"keinet": "2249",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "東京富士大学",
+"keinet": "2198",
+"need": [
+"extra",
+"partners"
+]
 }
 ],
 "complete": true,

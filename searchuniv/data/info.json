@@ -111415,14 +111415,15 @@
 "_checked": {
 "faculties": "2026-11-07",
 "departments": "2026-11-07",
-"money": "2026-11-07",
+"money": "2026-11-09",
 "scholar": "2026-11-07",
 "access": "2026-11-07",
 "licenses": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"schedule": "2026-11-09"
 },
 "departments": [
 {
@@ -111456,64 +111457,64 @@
 "money": {
 "year": "2026年度",
 "admission": 250000,
+"note": "2026年度入学者。合計に委託徴収金（保険料・学友自治会費・父母会費・同窓会費。2025年度実績33,660〜34,370円）、教科書・PC代は含まない。看護は電子教科書代が別途（Kei-Net・大学公式）",
 "rows": [
 {
 "f": "国際文化学部 国際文化学科",
 "admission": 250000,
-"tuition": 997000,
-"facility": null,
+"tuition": 631000,
+"facility": 366000,
 "practical": null,
-"other": 33660,
-"first_year": null,
+"other": null,
+"first_year": 1247000,
 "four_year": null,
-"note": "授業料は公式の「年間授業料等」。other は委託徴収金（保険料・学友自治会費・父母会費・同窓会費）"
-},
-{
-"f": "健康生活学部 食生活健康学科",
-"admission": 250000,
-"tuition": 1096000,
-"facility": null,
-"practical": null,
-"other": 33660,
-"first_year": null,
-"four_year": null,
-"note": "授業料は公式の「年間授業料等」。実験実習費は年度により変動"
-},
-{
-"f": "健康生活学部 生活デザイン学科",
-"admission": 250000,
-"tuition": 1032000,
-"facility": null,
-"practical": null,
-"other": 33660,
-"first_year": null,
-"four_year": null,
-"note": "授業料は公式の「年間授業料等」"
-},
-{
-"f": "健康生活学部 子ども学科",
-"admission": 250000,
-"tuition": 1027000,
-"facility": null,
-"practical": null,
-"other": 33660,
-"first_year": null,
-"four_year": null,
-"note": "授業料は公式の「年間授業料等」"
+"note": "Kei-Net。授業料＋施設費は公式の「年間授業料等」997,000円と一致"
 },
 {
 "f": "看護学部 看護学科",
 "admission": 250000,
-"tuition": 1477000,
-"facility": null,
-"practical": null,
-"other": 34370,
-"first_year": null,
+"tuition": 967000,
+"facility": 386000,
+"practical": 124000,
+"other": null,
+"first_year": 1727000,
 "four_year": null,
-"note": "授業料は公式の「年間授業料等」。別に電子教科書代（13万円程度）"
+"note": "Kei-Net。別に電子教科書代"
+},
+{
+"f": "健康生活学部 食生活健康学科",
+"admission": 250000,
+"tuition": 662000,
+"facility": 386000,
+"practical": 47500,
+"other": null,
+"first_year": 1345500,
+"four_year": null,
+"note": "Kei-Net"
+},
+{
+"f": "健康生活学部 生活デザイン学科",
+"admission": 250000,
+"tuition": 631000,
+"facility": 366000,
+"practical": 33000,
+"other": null,
+"first_year": 1280000,
+"four_year": null,
+"note": "Kei-Net"
+},
+{
+"f": "健康生活学部 子ども学科",
+"admission": 250000,
+"tuition": 631000,
+"facility": 366000,
+"practical": 28000,
+"other": null,
+"first_year": 1275000,
+"four_year": null,
+"note": "Kei-Net"
 }
-],
-"note": "2026年度入学者。公式ページに初年度合計の記載なし（入学金＋年間授業料等＋委託徴収金で計算できる）"
+]
 },
 "scholar": {
 "year": "2027年度",
@@ -111543,13 +111544,70 @@
 "https://kwassui.ac.jp/university/campuslife/gakuhisyogakukin.html",
 "https://manabi.benesse.ne.jp/daigaku/school/3916/",
 "https://kwassui.ac.jp/lib/pdf/joho/zigyou2021.pdf",
-"https://univ-journal.jp/245154/"
+"https://univ-journal.jp/245154/",
+"https://search.keinet.ne.jp/2739/general/schedule",
+"https://search.keinet.ne.jp/2739/general/exam_fee",
+"https://search.keinet.ne.jp/2739/outline/expense"
 ],
 "students": {
 "count": 864,
 "year": 2025
 },
-"founded": "1981年開学（前身：活水女子短期大学［1950年開学］、活水女学校［1879年創立］）"
+"founded": "1981年開学（前身：活水女子短期大学［1950年開学］、活水女学校［1879年創立］）",
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 A方式",
+"apply": "〜1/25（消印）",
+"exam": "2/6",
+"result": "2/15",
+"proc": "3/10",
+"fee": null,
+"note": "全学部同じ日程（看護学部のみ手続締切2/24）。検定料は2027年度分が未確認（2026年度入試は一般30,000円・共テ利用14,000円、割引あり）（Kei-Net）"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 B方式",
+"apply": "〜2/17（消印）",
+"exam": "3/2",
+"result": "3/5",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 A日程",
+"apply": "〜2/10（消印）",
+"exam": null,
+"result": "2/26",
+"proc": "3/10",
+"fee": null,
+"note": "看護学部は2/20に個別試験あり（Kei-Net）"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 B日程",
+"apply": "〜2/17（消印）",
+"exam": null,
+"result": "3/5",
+"proc": "3/23",
+"fee": null,
+"note": "看護学部は3/2に個別試験あり（Kei-Net）"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 C日程",
+"apply": "〜3/11（消印）",
+"exam": null,
+"result": "3/18",
+"proc": "3/26",
+"fee": null,
+"note": "国際文化学部・健康生活学部のみ（Kei-Net）"
+}
+]
+}
 },
 "熊本保健科学大学": {
 "faculties": [
@@ -111565,7 +111623,8 @@
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"money": "2026-11-09"
 },
 "departments": [
 {
@@ -111658,13 +111717,32 @@
 "https://www.kumamoto-hsu.ac.jp/feature/",
 "https://manabi.benesse.ne.jp/daigaku/school/3938/gakubu/gakubudt/64.html",
 "https://www.kumamoto-hsu.ac.jp/about/history.html",
-"https://search.keinet.ne.jp/2757"
+"https://search.keinet.ne.jp/2757",
+"https://search.keinet.ne.jp/2757/outline/expense"
 ],
 "students": {
 "count": 1567,
 "year": 2025
 },
-"founded": "2003年開学（前身：銀杏学園短期大学、1959年衛生検査技師養成所創立）"
+"founded": "2003年開学（前身：銀杏学園短期大学、1959年衛生検査技師養成所創立）",
+"money": {
+"year": "2026年度",
+"admission": 250000,
+"note": "合計に委託徴収金（学友会費・後援会費・同窓会費・保険料等。2025年度実績85,000円）は含まない。教科書・白衣などは別途（Kei-Net 2026年度入学者用）",
+"rows": [
+{
+"f": "保健科学部（全学科）",
+"admission": 250000,
+"tuition": 850000,
+"facility": 300000,
+"practical": 250000,
+"other": null,
+"first_year": 1650000,
+"four_year": null,
+"note": "Kei-Netは学科別の内訳なし"
+}
+]
+}
 },
 "熊本学園大学": {
 "faculties": [
@@ -111677,13 +111755,14 @@
 "faculties": "2026-11-07",
 "departments": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-09",
 "access": "2026-11-07",
 "licenses": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"money": "2026-11-09"
 },
 "departments": [
 {
@@ -111759,7 +111838,8 @@
 "exam": "2/7〜2/9",
 "result": "2/20",
 "proc": "3/1",
-"fee": null
+"fee": null,
+"note": "検定料は2027年度分が未確認（2026年度入試は一般30,000円・共テ利用15,000円・共通テスト＋10,000円、割引あり）。社会福祉学部ライフ・ウェルネス学科の実技型は試験日2/9（Kei-Net）"
 },
 {
 "kubun": "一般",
@@ -111778,6 +111858,16 @@
 "result": "2/20",
 "proc": "3/1",
 "fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト＋（共通テスト＋個別試験）",
+"apply": "1/6〜1/26",
+"exam": "2/7〜2/9",
+"result": "2/20",
+"proc": "3/1",
+"fee": null,
+"note": "一般前期の出願が必須（Kei-Net）"
 },
 {
 "kubun": "共テ利用",
@@ -111812,13 +111902,78 @@
 "https://nyugaku.kumagaku.ac.jp/gaiyou/youkou/zenki/",
 "https://manabi.benesse.ne.jp/daigaku/school/3932/",
 "https://www.80th.kumagaku.ac.jp/history_03",
-"https://ja.wikipedia.org/wiki/%E7%86%8A%E6%9C%AC%E5%AD%A6%E5%9C%92%E5%A4%A7%E5%AD%A6"
+"https://ja.wikipedia.org/wiki/%E7%86%8A%E6%9C%AC%E5%AD%A6%E5%9C%92%E5%A4%A7%E5%AD%A6",
+"https://search.keinet.ne.jp/2752/outline/expense",
+"https://search.keinet.ne.jp/2752/general/schedule",
+"https://search.keinet.ne.jp/2752/general/exam_fee"
 ],
 "students": {
 "count": 4865,
 "year": 2025
 },
-"founded": "1954年 新制・熊本商科大学開学（1994年熊本学園大学に改称／前身：東洋語学専門学校、1942年創立）"
+"founded": "1954年 新制・熊本商科大学開学（1994年熊本学園大学に改称／前身：東洋語学専門学校、1942年創立）",
+"money": {
+"year": "2026年度",
+"admission": 200000,
+"note": "Kei-Net 2026年度入学者用。社会福祉学部第二部は4回分納",
+"rows": [
+{
+"f": "外国語学部",
+"admission": 200000,
+"tuition": 695000,
+"facility": 180000,
+"practical": null,
+"other": 21000,
+"first_year": 1096000,
+"four_year": null,
+"note": "other は諸会費"
+},
+{
+"f": "社会福祉学部",
+"admission": 200000,
+"tuition": 695000,
+"facility": 180000,
+"practical": null,
+"other": 21000,
+"first_year": 1096000,
+"four_year": null,
+"note": "other は諸会費"
+},
+{
+"f": "経済学部",
+"admission": 200000,
+"tuition": 695000,
+"facility": 180000,
+"practical": null,
+"other": 21000,
+"first_year": 1096000,
+"four_year": null,
+"note": "other は諸会費"
+},
+{
+"f": "商学部",
+"admission": 200000,
+"tuition": 695000,
+"facility": 180000,
+"practical": null,
+"other": 21000,
+"first_year": 1096000,
+"four_year": null,
+"note": "other は諸会費"
+},
+{
+"f": "社会福祉学部 第二部",
+"admission": 160000,
+"tuition": 403000,
+"facility": 112000,
+"practical": null,
+"other": 12000,
+"first_year": 687000,
+"four_year": null,
+"note": "other は諸会費。4回分納"
+}
+]
+}
 },
 "九州看護福祉大学": {
 "faculties": [
@@ -203581,6 +203736,281 @@ null
 "https://search.keinet.ne.jp/2256/outline/admission_employment",
 "https://search.keinet.ne.jp/2256/general/exam_result",
 "https://search.keinet.ne.jp/2256/general/exam_subject"
+]
+},
+"東京女子医科大学": {
+"faculties": [
+"医学部",
+"看護学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "医学部",
+"d": [
+"医学科"
+]
+},
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+}
+],
+"students": {
+"count": 1041,
+"year": 2025
+},
+"founded": "1952年 大学開校（1900年 東京女醫學校創立）",
+"access": "河田町キャンパス（新宿区河田町）：都営地下鉄若松河田駅または牛込柳町駅から徒歩5分、曙橋駅から徒歩8分。新宿駅などから都営バス「東京女子医大前」下車（Kei-Net）",
+"licenses": [
+"医師国家試験受験資格",
+"看護師国家試験受験資格",
+"保健師国家試験受験資格",
+"養護教諭二種免許"
+],
+"careers": "2024年度の看護学部卒業者79人のうち就職71人・進学7人。医学部卒業者111人は全員「その他」（臨床研修などが含まれる場合がある）（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2255",
+"https://search.keinet.ne.jp/2255/outline/department",
+"https://search.keinet.ne.jp/2255/outline/campus",
+"https://search.keinet.ne.jp/2255/outline/licential",
+"https://search.keinet.ne.jp/2255/outline/admission_employment",
+"https://search.keinet.ne.jp/2255/general/exam_result",
+"https://search.keinet.ne.jp/2255/recommend/exam_rec"
+]
+},
+"東京家政大学": {
+"faculties": [
+"人文学部",
+"子ども支援学部",
+"児童学部",
+"健康科学部",
+"栄養学部",
+"共創デザイン学部",
+"社会デザイン学環",
+"文化情報学環"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "人文学部",
+"d": [
+"英語コミュニケーション学科",
+"心理カウンセリング学科",
+"教育福祉学科"
+]
+},
+{
+"f": "子ども支援学部",
+"d": [
+"子ども支援学科"
+]
+},
+{
+"f": "児童学部",
+"d": [
+"児童学科",
+"初等教育学科"
+]
+},
+{
+"f": "健康科学部",
+"d": [
+"看護学科",
+"リハビリテーション学科（作業療法学専攻・理学療法学専攻）"
+]
+},
+{
+"f": "栄養学部",
+"d": [
+"栄養学科",
+"管理栄養学科"
+]
+},
+{
+"f": "共創デザイン学部",
+"d": [
+"服飾美術学科",
+"造形表現学科"
+]
+},
+{
+"f": "社会デザイン学環",
+"d": []
+},
+{
+"f": "文化情報学環",
+"d": []
+}
+],
+"students": {
+"count": 6161,
+"year": 2025
+},
+"founded": "1949年 大学設置（1881年 裁縫私塾として創立）",
+"access": "板橋キャンパス（板橋区加賀、人文・児童・栄養・共創デザイン・社会デザイン・文化情報）：JR十条駅から徒歩5分。狭山キャンパス（埼玉県狭山市、子ども支援・健康科学）：西武池袋線稲荷山公園駅から徒歩3分（Kei-Net）",
+"licenses": [
+"小学校教諭一種免許",
+"中学校・高等学校教諭一種免許（英語・社会/公民・家庭・美術）",
+"幼稚園教諭一種免許",
+"特別支援学校教諭免許",
+"養護教諭一種免許",
+"栄養教諭免許",
+"保育士",
+"栄養士",
+"管理栄養士国家試験受験資格",
+"看護師国家試験受験資格",
+"保健師国家試験受験資格",
+"助産師国家試験受験資格",
+"理学療法士国家試験受験資格",
+"作業療法士国家試験受験資格",
+"公認心理師受験資格",
+"社会福祉士国家試験受験資格",
+"精神保健福祉士国家試験受験資格",
+"衣料管理士",
+"司書",
+"学芸員",
+"認定心理士",
+"フードスペシャリスト"
+],
+"careers": "2024年度の学士課程卒業者1,420人のうち就職1,346人・進学33人（Kei-Net。人文・子ども支援・健康科学・共創デザイン学部の合計）。",
+"sources": [
+"https://search.keinet.ne.jp/2248",
+"https://search.keinet.ne.jp/2248/outline/department",
+"https://search.keinet.ne.jp/2248/outline/campus",
+"https://search.keinet.ne.jp/2248/outline/licential",
+"https://search.keinet.ne.jp/2248/outline/admission_employment",
+"https://search.keinet.ne.jp/2248/general/exam_result"
+]
+},
+"東京家政学院大学": {
+"faculties": [
+"人間栄養学部",
+"現代生活学部",
+"生活共創学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "人間栄養学部",
+"d": [
+"人間栄養学科"
+]
+},
+{
+"f": "現代生活学部",
+"d": [
+"現代家政学科"
+]
+},
+{
+"f": "生活共創学部",
+"d": [
+"生活学科（生活イノベーション・住環境デザイン・食科学）",
+"こども教育学科"
+]
+}
+],
+"students": {
+"count": 1048,
+"year": 2025
+},
+"founded": "1925年 東京家政学院設立（1923年 家政研究所設置）",
+"access": "千代田三番町キャンパス（千代田区三番町、人間栄養・現代生活）：JR・地下鉄市ヶ谷駅または東京メトロ半蔵門駅から徒歩8分。町田キャンパス（町田市相原町、生活共創）：JR相原駅からバス「東京家政学院前」下車（Kei-Net）",
+"licenses": [
+"管理栄養士国家試験受験資格",
+"栄養士",
+"栄養教諭一種・二種免許",
+"中学校・高等学校教諭一種免許（家庭）",
+"小学校教諭一種免許",
+"幼稚園教諭一種免許",
+"特別支援学校教諭一種免許",
+"保育士",
+"一級建築士受験資格",
+"二級建築士受験資格",
+"木造建築士受験資格",
+"食品衛生監視員",
+"フードスペシャリスト",
+"社会福祉主事",
+"学芸員"
+],
+"careers": "2024年度の卒業者は人間栄養学部135人中就職118人、現代生活学部251人中就職204人（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2249",
+"https://search.keinet.ne.jp/2249/outline/department",
+"https://search.keinet.ne.jp/2249/outline/campus",
+"https://search.keinet.ne.jp/2249/outline/licential",
+"https://search.keinet.ne.jp/2249/outline/admission_employment",
+"https://search.keinet.ne.jp/2249/general/exam_result"
+]
+},
+"東京富士大学": {
+"faculties": [
+"経営学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"careers": "2026-11-09",
+"kyotsu": "2026-11-09"
+},
+"departments": [
+{
+"f": "経営学部",
+"d": [
+"経営学科",
+"イベントプロデュース学科"
+]
+}
+],
+"students": {
+"count": 863,
+"year": 2025
+},
+"founded": "1943年 東亜学院として創立",
+"access": "新宿区高田馬場：JR・西武・東京メトロ高田馬場駅から徒歩3分、西武新宿線下落合駅から徒歩8分（Kei-Net）",
+"careers": "2024年度の経営学部卒業者224人のうち就職188人・進学3人（Kei-Net）。",
+"kyotsu": {
+"kamoku": "2科目（英・数・国・理・地公・情から。英か国を含む）",
+"note": "経営学部の共通テスト方式（Kei-Net）",
+"year": "2027年度入試"
+},
+"sources": [
+"https://search.keinet.ne.jp/2198",
+"https://search.keinet.ne.jp/2198/outline/department",
+"https://search.keinet.ne.jp/2198/outline/campus",
+"https://search.keinet.ne.jp/2198/outline/admission_employment",
+"https://search.keinet.ne.jp/2198/general/exam_result",
+"https://search.keinet.ne.jp/2198/general/exam_subject"
 ]
 }
 }
