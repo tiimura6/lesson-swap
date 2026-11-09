@@ -1,0 +1,931 @@
+[
+ {
+  "name": "文京学院大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都文京区",
+  "pref_name": "東京都",
+  "city": "文京区",
+  "reading": "ぶんきょうがくいん",
+  "aliases": [],
+  "hp": "https://www.bgu.ac.jp/",
+  "features": [
+   "外国語・経営・保健医療技術・人間・ヒューマン・データサイエンスの5学部を置く（Kei-Net）",
+   "本郷キャンパス（外国語・経営・ヒューマン・データサイエンス）とふじみ野キャンパス（保健医療技術・人間）に分かれる（Kei-Net）",
+   "1924年に本郷で開設された島田裁縫伝習所が源流（Kei-Net）"
+  ],
+  "memo": "保健医療技術学部で理学療法士・作業療法士・臨床検査技師・看護師の受験資格、人間学部で保育士・幼小教員免許や社会福祉士などが取れる。2027年4月に外国語・経営学部の一部で名称変更予定（Kei-Net）。",
+  "guide": {
+   "fit": "医療専門職（理学療法・作業療法・臨床検査・看護）、保育・福祉・心理、英語とビジネス、データサイエンスを学びたい生徒。",
+   "ask": [
+    "本郷とふじみ野のどちらのキャンパスで学ぶ学部か",
+    "取りたい資格（国家試験受験資格・教員免許・保育士など）は何か",
+    "2027年度の学科名の変更を確認したか"
+   ],
+   "caution": "保健医療技術学部は初年度納入金が約192万〜197万円と他学部より高い（2026年度、Kei-Net）。"
+  },
+  "info": {
+   "difficulty": {
+    "hensachi": "35.0〜40.0",
+    "kyotei": "35%〜65%",
+    "year": "2027年度入試用"
+   },
+   "faculties": [
+    "外国語学部",
+    "経営学部",
+    "保健医療技術学部",
+    "人間学部",
+    "ヒューマン・データサイエンス学部"
+   ],
+   "departments_full": [
+    {
+     "f": "外国語学部",
+     "d": [
+      "グローバルビジネス専攻",
+      "グローバル教養専攻"
+     ]
+    },
+    {
+     "f": "経営学部",
+     "d": [
+      "ビジネス・プロデュース学科",
+      "マーケティング・デザイン学科"
+     ]
+    },
+    {
+     "f": "保健医療技術学部",
+     "d": [
+      "理学療法学科",
+      "作業療法学科",
+      "臨床検査学科",
+      "看護学科"
+     ]
+    },
+    {
+     "f": "人間学部",
+     "d": [
+      "児童発達学科",
+      "人間福祉学科",
+      "心理学科"
+     ]
+    },
+    {
+     "f": "ヒューマン・データサイエンス学部",
+     "d": [
+      "ヒューマン・データサイエンス学科"
+     ]
+    }
+   ],
+   "founded": "1924年 島田裁縫伝習所を開設",
+   "access": "本郷キャンパス（文京区向丘1-19-1）、ふじみ野キャンパス（埼玉県ふじみ野市亀久保1196）（Kei-Net）",
+   "tuition": {
+    "amount": 1158000,
+    "label": "入学金＋授業料（外国語・経営）",
+    "year": 2026
+   },
+   "money": {
+    "year": "2026年度",
+    "admission": 270000,
+    "annual": null,
+    "note": "学部・学科で異なる。各学科とも新入生特別研修費8,000円を含む（Kei-Net）",
+    "rows": [
+     {
+      "f": "外国語学部",
+      "admission": 270000,
+      "tuition": 888000,
+      "facility": 230000,
+      "practical": 20000,
+      "other": 21730,
+      "first_year": 1437730,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度）"
+     },
+     {
+      "f": "経営学部",
+      "admission": 270000,
+      "tuition": 888000,
+      "facility": 230000,
+      "practical": 20000,
+      "other": 21730,
+      "first_year": 1437730,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度）"
+     },
+     {
+      "f": "保健医療技術学部 理学療法学科・作業療法学科",
+      "admission": 270000,
+      "tuition": 982000,
+      "facility": 420000,
+      "practical": 220000,
+      "other": 21890,
+      "first_year": 1921890,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度）"
+     },
+     {
+      "f": "保健医療技術学部 臨床検査学科",
+      "admission": 270000,
+      "tuition": 982000,
+      "facility": 420000,
+      "practical": 220000,
+      "other": 25890,
+      "first_year": 1925890,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度）"
+     },
+     {
+      "f": "保健医療技術学部 看護学科",
+      "admission": 270000,
+      "tuition": 1022000,
+      "facility": 420000,
+      "practical": 220000,
+      "other": 25890,
+      "first_year": 1965890,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度）"
+     },
+     {
+      "f": "人間学部 児童発達学科・人間福祉学科",
+      "admission": 270000,
+      "tuition": 888000,
+      "facility": 230000,
+      "practical": 30000,
+      "other": 21730,
+      "first_year": 1447730,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度）"
+     },
+     {
+      "f": "人間学部 心理学科",
+      "admission": 270000,
+      "tuition": 888000,
+      "facility": 230000,
+      "practical": 50000,
+      "other": 21730,
+      "first_year": 1467730,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度）"
+     },
+     {
+      "f": "ヒューマン・データサイエンス学部",
+      "admission": 270000,
+      "tuition": 888000,
+      "facility": 230000,
+      "practical": 40000,
+      "other": 21730,
+      "first_year": 1457730,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度）"
+     }
+    ]
+   },
+   "research": [],
+   "licenses": [
+    "中学校・高校教諭一種（英語）",
+    "理学療法士国家試験受験資格",
+    "作業療法士国家試験受験資格",
+    "臨床検査技師国家試験受験資格",
+    "看護師・保健師国家試験受験資格",
+    "保育士",
+    "幼稚園・小学校教諭一種",
+    "社会福祉士・精神保健福祉士・介護福祉士国家試験受験資格",
+    "公認心理師受験資格（大学院等での要件あり）",
+    "認定心理士",
+    "社会調査士"
+   ],
+   "careers": "",
+   "notable": [],
+   "news": [],
+   "sources": [
+    "https://search.keinet.ne.jp/2159",
+    "https://search.keinet.ne.jp/2159/outline/department",
+    "https://search.keinet.ne.jp/2159/outline/expense",
+    "https://search.keinet.ne.jp/2159/general/border_rate",
+    "https://search.keinet.ne.jp/2159/outline/licential"
+   ]
+  }
+ },
+ {
+  "name": "文化学園大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都渋谷区",
+  "pref_name": "東京都",
+  "city": "渋谷区",
+  "reading": "ぶんかがくえん",
+  "aliases": [
+   "文化女子大学"
+  ],
+  "hp": "https://bwu.bunka.ac.jp/index.php",
+  "features": [
+   "国際文化・服装・造形の3学部6学科で、ファッションとデザインを中心に学ぶ（Kei-Net）",
+   "1964年に文化女子大学として開学し、2011年に文化学園大学へ改称、2012年に男女共学化（Kei-Net）",
+   "キャンパスは渋谷区代々木（新都心キャンパス）（Kei-Net）"
+  ],
+  "memo": "服装学部はファッションクリエイション・ファッション社会の2学科。造形学部の建築・インテリア学科で一級・二級建築士の受験資格が得られる（Kei-Net）。初年度納入金は約137万〜160万円（2026年度、Kei-Net）。",
+  "guide": {
+   "fit": "ファッションの制作・ビジネス、デザイン・美術、建築・インテリア、国際文化・観光に関心がある生徒。",
+   "ask": [
+    "ファッション・デザインの中で作る側と社会・ビジネス側のどちらに関心があるか",
+    "教員免許（家庭・美術）や建築士の受験資格を取りたいか",
+    "実習費など入学後の費用を家庭で確認したか"
+   ],
+   "caution": "国際文化・観光学科以外は入学金が350,000円で、実習費も学部で異なる（Kei-Net）。"
+  },
+  "info": {
+   "difficulty": {
+    "hensachi": "35.0〜40.0",
+    "kyotei": "44%〜64%",
+    "year": "2027年度入試用"
+   },
+   "faculties": [
+    "国際文化学部",
+    "服装学部",
+    "造形学部"
+   ],
+   "departments_full": [
+    {
+     "f": "国際文化学部",
+     "d": [
+      "国際文化・観光学科",
+      "国際ファッション文化学科"
+     ]
+    },
+    {
+     "f": "服装学部",
+     "d": [
+      "ファッションクリエイション学科",
+      "ファッション社会学科"
+     ]
+    },
+    {
+     "f": "造形学部",
+     "d": [
+      "デザイン・造形学科",
+      "建築・インテリア学科"
+     ]
+    }
+   ],
+   "students": {
+    "count": 3244,
+    "year": 2025
+   },
+   "founded": "1950年 文化女子短期大学創立、1964年 文化女子大学開学（2011年 現校名）",
+   "access": "新都心キャンパス（東京都渋谷区代々木3-22-1）（Kei-Net）",
+   "tuition": {
+    "amount": 1100000,
+    "label": "入学金＋授業料（服装・造形）",
+    "year": 2026
+   },
+   "money": {
+    "year": "2026年度",
+    "admission": 350000,
+    "annual": null,
+    "note": "入学金は国際文化・観光学科のみ200,000円。その他は健診・保険費（Kei-Net）",
+    "rows": [
+     {
+      "f": "国際文化学部 国際文化・観光学科",
+      "admission": 200000,
+      "tuition": 730000,
+      "facility": 370000,
+      "practical": 49400,
+      "other": 24900,
+      "first_year": 1374300,
+      "four_year": null,
+      "note": "other は諸会費23,400円＋健診・保険費1,500円（Kei-Net 2026年度）"
+     },
+     {
+      "f": "国際文化学部 国際ファッション文化学科",
+      "admission": 350000,
+      "tuition": 750000,
+      "facility": 370000,
+      "practical": 79400,
+      "other": 24900,
+      "first_year": 1574300,
+      "four_year": null,
+      "note": "other は諸会費23,400円＋健診・保険費1,500円（Kei-Net 2026年度）"
+     },
+     {
+      "f": "服装学部",
+      "admission": 350000,
+      "tuition": 750000,
+      "facility": 370000,
+      "practical": 75000,
+      "other": 24900,
+      "first_year": 1569900,
+      "four_year": null,
+      "note": "other は諸会費23,400円＋健診・保険費1,500円（Kei-Net 2026年度）"
+     },
+     {
+      "f": "造形学部",
+      "admission": 350000,
+      "tuition": 750000,
+      "facility": 370000,
+      "practical": 110000,
+      "other": 24900,
+      "first_year": 1604900,
+      "four_year": null,
+      "note": "other は諸会費23,400円＋健診・保険費1,500円（Kei-Net 2026年度）"
+     }
+    ]
+   },
+   "research": [],
+   "licenses": [
+    "中学校・高校教諭一種（家庭）",
+    "中学校・高校教諭一種（美術）",
+    "衣料管理士1級（受験資格）",
+    "一級・二級・木造建築士（受験資格）",
+    "社会調査士",
+    "司書",
+    "学芸員"
+   ],
+   "careers": "",
+   "notable": [],
+   "news": [],
+   "sources": [
+    "https://search.keinet.ne.jp/univtop/2278",
+    "https://search.keinet.ne.jp/2278/outline/department",
+    "https://search.keinet.ne.jp/2278/outline/expense",
+    "https://search.keinet.ne.jp/2278/general/border_rate",
+    "https://search.keinet.ne.jp/2278/outline/licential"
+   ]
+  }
+ },
+ {
+  "name": "文教大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "埼玉県越谷市",
+  "pref_name": "埼玉県",
+  "city": "越谷市",
+  "reading": "ぶんきょう",
+  "aliases": [
+   "立正女子大学"
+  ],
+  "hp": "https://www.bunkyo.ac.jp/",
+  "features": [
+   "文・教育・人間科学（越谷）、国際・経営（東京あだち）、健康栄養・情報（湘南）の7学部を3キャンパスに置く（Kei-Net）",
+   "教育学部は教科別・発達別に分かれ、小学校・中高の教員免許が取れる（Kei-Net）",
+   "1966年に立正女子大学として開学し、1976年に文教大学へ改称（Kei-Net）"
+  ],
+  "memo": "偏差値は教育学部が45.0〜57.5で学内で最も高い（2027年度入試用、Kei-Net）。キャンパスが埼玉（越谷）・東京（足立区）・神奈川（茅ヶ崎）に分かれるため、学部ごとの所在地を必ず確認する。",
+  "guide": {
+   "fit": "小学校・中高の教員を目指す生徒、心理・福祉、国際・観光、経営、管理栄養士、情報・メディアを学びたい生徒。",
+   "ask": [
+    "志望学部のキャンパス（越谷・東京あだち・湘南）に通えるか",
+    "教員志望なら小学校か中高のどの教科か",
+    "心理系なら臨床心理学科と心理学科のどちらが合うか"
+   ],
+   "caution": "文学部外国語学科は初年度に留学費用250,000円が加わる（2026年度、Kei-Net）。"
+  },
+  "info": {
+   "difficulty": {
+    "hensachi": "35.0〜57.5",
+    "kyotei": "46%〜81%",
+    "year": "2027年度入試用"
+   },
+   "faculties": [
+    "文学部",
+    "教育学部",
+    "人間科学部",
+    "国際学部",
+    "経営学部",
+    "健康栄養学部",
+    "情報学部"
+   ],
+   "departments_full": [
+    {
+     "f": "文学部",
+     "d": [
+      "日本語日本文学科",
+      "英米語英米文学科",
+      "中国語中国文学科",
+      "外国語学科"
+     ]
+    },
+    {
+     "f": "教育学部",
+     "d": [
+      "学校教育課程（国語）",
+      "学校教育課程（社会）",
+      "学校教育課程（数学）",
+      "学校教育課程（理科）",
+      "学校教育課程（音楽）",
+      "学校教育課程（美術）",
+      "学校教育課程（体育）",
+      "学校教育課程（家庭）",
+      "学校教育課程（英語）",
+      "発達教育課程（特別支援教育）",
+      "発達教育課程（初等連携教育）",
+      "発達教育課程（児童心理教育）",
+      "発達教育課程（幼児心理教育）"
+     ]
+    },
+    {
+     "f": "人間科学部",
+     "d": [
+      "人間科学科",
+      "臨床心理学科",
+      "心理学科"
+     ]
+    },
+    {
+     "f": "国際学部",
+     "d": [
+      "国際理解学科",
+      "国際観光学科"
+     ]
+    },
+    {
+     "f": "経営学部",
+     "d": [
+      "経営学科"
+     ]
+    },
+    {
+     "f": "健康栄養学部",
+     "d": [
+      "管理栄養学科"
+     ]
+    },
+    {
+     "f": "情報学部",
+     "d": [
+      "情報システム学科",
+      "データサイエンス学科",
+      "メディア表現学科"
+     ]
+    }
+   ],
+   "students": {
+    "count": 8713,
+    "year": 2025
+   },
+   "founded": "1966年 立正女子大学開学（1976年 文教大学に改称）",
+   "access": "越谷キャンパス（越谷市南荻島3337：文・教育・人間科学）、東京あだちキャンパス（足立区花畑5-6-1：国際・経営）、湘南キャンパス（茅ヶ崎市行谷1100：健康栄養・情報）（Kei-Net）",
+   "tuition": {
+    "amount": 1067000,
+    "label": "入学金＋授業料（文・国際・経営・情報・人間科学）",
+    "year": 2026
+   },
+   "money": {
+    "year": "2026年度",
+    "admission": 280000,
+    "annual": null,
+    "note": "学部で異なる。卒業要件外の免許・資格費用や演習費は別途の場合あり（Kei-Net）",
+    "rows": [
+     {
+      "f": "文学部（日本語日本文・英米語英米文・中国語中国文）",
+      "admission": 280000,
+      "tuition": 787000,
+      "facility": 270000,
+      "practical": null,
+      "other": null,
+      "first_year": 1337000,
+      "four_year": null,
+      "note": "Kei-Net 2026年度"
+     },
+     {
+      "f": "文学部 外国語学科",
+      "admission": 280000,
+      "tuition": 807000,
+      "facility": 270000,
+      "practical": null,
+      "other": 250000,
+      "first_year": 1607000,
+      "four_year": null,
+      "note": "other は第1留学費用（Kei-Net 2026年度）"
+     },
+     {
+      "f": "教育学部",
+      "admission": 280000,
+      "tuition": 862000,
+      "facility": 270000,
+      "practical": null,
+      "other": null,
+      "first_year": 1412000,
+      "four_year": null,
+      "note": "Kei-Net 2026年度"
+     },
+     {
+      "f": "国際学部",
+      "admission": 280000,
+      "tuition": 787000,
+      "facility": 270000,
+      "practical": null,
+      "other": null,
+      "first_year": 1337000,
+      "four_year": null,
+      "note": "Kei-Net 2026年度"
+     },
+     {
+      "f": "経営学部",
+      "admission": 280000,
+      "tuition": 787000,
+      "facility": 270000,
+      "practical": null,
+      "other": null,
+      "first_year": 1337000,
+      "four_year": null,
+      "note": "Kei-Net 2026年度"
+     },
+     {
+      "f": "健康栄養学部",
+      "admission": 280000,
+      "tuition": 857000,
+      "facility": 270000,
+      "practical": 130000,
+      "other": null,
+      "first_year": 1537000,
+      "four_year": null,
+      "note": "Kei-Net 2026年度"
+     },
+     {
+      "f": "情報学部",
+      "admission": 280000,
+      "tuition": 787000,
+      "facility": 270000,
+      "practical": null,
+      "other": null,
+      "first_year": 1337000,
+      "four_year": null,
+      "note": "Kei-Net 2026年度"
+     },
+     {
+      "f": "人間科学部",
+      "admission": 280000,
+      "tuition": 787000,
+      "facility": 270000,
+      "practical": null,
+      "other": null,
+      "first_year": 1337000,
+      "four_year": null,
+      "note": "Kei-Net 2026年度"
+     }
+    ]
+   },
+   "research": [],
+   "licenses": [
+    "小学校教諭一種",
+    "中学校・高校教諭一種（教科は学科による）",
+    "特別支援学校教諭一種",
+    "幼稚園教諭一種",
+    "保育士",
+    "学校図書館司書教諭",
+    "司書",
+    "栄養教諭一種",
+    "管理栄養士国家試験受験資格",
+    "社会福祉士・精神保健福祉士国家試験受験資格",
+    "社会調査士",
+    "認定心理士"
+   ],
+   "careers": "",
+   "notable": [],
+   "news": [],
+   "sources": [
+    "https://search.keinet.ne.jp/2158",
+    "https://search.keinet.ne.jp/outline/department/2158",
+    "https://search.keinet.ne.jp/2158/outline/expense",
+    "https://search.keinet.ne.jp/general/border_rate/2158",
+    "https://search.keinet.ne.jp/2158/outline/licential"
+   ]
+  }
+ },
+ {
+  "name": "文星芸術大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "栃木県宇都宮市",
+  "pref_name": "栃木県",
+  "city": "宇都宮市",
+  "reading": "ぶんせいげいじゅつ",
+  "aliases": [],
+  "hp": "https://geidai.bunsei.ac.jp/",
+  "features": [
+   "美術学部美術学科の1学部1学科の芸術大学（入学定員95名、Kei-Net）",
+   "1999年開学。学校法人宇都宮学園が設置（Kei-Net）",
+   "キャンパスは宇都宮市上戸祭（Kei-Net）"
+  ],
+  "memo": "取得できる資格は高校教諭一種（美術）と学芸員（Kei-Net）。初年度納入金は1,717,660円で、画材・材料費は別途（2026年度、Kei-Net）。",
+  "guide": {
+   "fit": "栃木県内で美術・デザインの実技を学びたい生徒。",
+   "ask": [
+    "学びたい分野（絵画・デザインなど）が大学で学べるか",
+    "実技試験やポートフォリオの準備状況",
+    "画材費など入学後の費用を家庭で確認したか"
+   ],
+   "caution": "共通テスト利用の得点率ボーダーは38%（2027年度入試用、Kei-Net）。一般方式のボーダーは示されていない。"
+  },
+  "info": {
+   "difficulty": {
+    "hensachi": "35.0",
+    "kyotei": "38%",
+    "year": "2027年度入試用"
+   },
+   "faculties": [
+    "美術学部"
+   ],
+   "departments_full": [
+    {
+     "f": "美術学部",
+     "d": [
+      "美術学科"
+     ]
+    }
+   ],
+   "students": {
+    "count": 429,
+    "year": 2025
+   },
+   "founded": "1999年 開学（1989年 宇都宮文星短期大学開学）",
+   "access": "栃木県宇都宮市上戸祭4-8-15（Kei-Net）",
+   "tuition": {
+    "amount": 1140000,
+    "label": "入学金＋授業料",
+    "year": 2026
+   },
+   "money": {
+    "year": "2026年度",
+    "admission": 300000,
+    "annual": null,
+    "note": "教科書代・画材費は別途（Kei-Net）",
+    "rows": [
+     {
+      "f": "美術学部 美術学科",
+      "admission": 300000,
+      "tuition": 840000,
+      "facility": 400000,
+      "practical": 100000,
+      "other": 77660,
+      "first_year": 1717660,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度）"
+     }
+    ]
+   },
+   "research": [],
+   "licenses": [
+    "高校教諭一種（美術）",
+    "学芸員"
+   ],
+   "careers": "",
+   "notable": [],
+   "news": [],
+   "sources": [
+    "https://search.keinet.ne.jp/2127",
+    "https://search.keinet.ne.jp/2127/outline/department",
+    "https://search.keinet.ne.jp/2127/outline/expense",
+    "https://search.keinet.ne.jp/2127/general/border_rate",
+    "https://search.keinet.ne.jp/2127/outline/licential"
+   ]
+  }
+ },
+ {
+  "name": "名古屋工業大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般 前期",
+      "apply": "1/25〜2/3",
+      "exam": "2/25",
+      "result": "3/6",
+      "proc": "3/15",
+      "note": "創造工学教育課程は2/25・2/26（マナビジョン・パスナビ 2027年度入試）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 後期",
+      "apply": "1/25〜2/3",
+      "exam": "3/12",
+      "result": "3/20",
+      "proc": "3/27",
+      "note": "創造工学教育課程は3/12・3/13（マナビジョン・パスナビ 2027年度入試）"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型Ⅰ（共テなし・女子対象含む）",
+      "apply": "〜11/4（消印有効）",
+      "exam": "11/21",
+      "result": "12/11",
+      "proc": "12/21",
+      "note": "1次（書類）発表11/13、試験日は2次。出願期間は締切日のみ掲載"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型Ⅱ（共テあり）",
+      "apply": "〜1/22（消印有効）",
+      "exam": "1/29",
+      "result": "2/9",
+      "proc": "2/17",
+      "note": ""
+     }
+    ]
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/1280/nyushi/gokaku-happyo/"
+   ]
+  }
+ },
+ {
+  "name": "福岡教育大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般 前期",
+      "apply": "1/25〜2/3",
+      "exam": "2/25・2/26",
+      "result": "3/6",
+      "proc": "3/15",
+      "note": "共通テスト1/16・17（パスナビ 2027年度入試）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 後期",
+      "apply": "1/25〜2/3",
+      "exam": "3/12・3/13",
+      "result": "3/20",
+      "proc": "3/27",
+      "note": "初等・中等・特別支援教育教員養成課程（パスナビ）"
+     }
+    ]
+   },
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/0810/schedule/"
+   ]
+  }
+ },
+ {
+  "name": "室蘭工業大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般 前期",
+      "apply": "1/25〜2/3",
+      "exam": "2/25",
+      "result": "3/6",
+      "proc": "3/15",
+      "note": "創造工学科・システム理化学科（夜間主コースも同日程）（マナビジョン 2027年度入試）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 後期",
+      "apply": "1/25〜2/3",
+      "exam": "共通テスト",
+      "result": "3/20",
+      "proc": "3/27",
+      "note": "個別試験なし（マナビジョン 2027年度入試）"
+     }
+    ]
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/1055/nyushi/gokaku-happyo/index.html"
+   ]
+  }
+ },
+ {
+  "name": "秋田県立大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "apply": "9/1〜9/7",
+      "exam": "9/26",
+      "result": "11/2",
+      "proc": "11/12",
+      "note": "全2学部9学科で実施"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（推薦選抜Ⅰ・Ⅱ）",
+      "apply": "11/4〜11/10",
+      "exam": "11/28",
+      "result": "12/9",
+      "proc": "",
+      "note": "指定校推薦もあり（手続締切日は未確認）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期日程",
+      "apply": "1/25〜2/3",
+      "exam": "1/16・17（共テ）、2/25（個別）",
+      "result": "3/6",
+      "proc": "3/15",
+      "note": "全学科共通（マナビジョン 2027年度入試）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期日程",
+      "apply": "1/25〜2/3",
+      "exam": "1/16・17（共テ）、3/12（個別）",
+      "result": "3/20",
+      "proc": "3/27",
+      "note": ""
+     }
+    ]
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/2028/nyushi/gokaku-happyo/index.html"
+   ]
+  }
+ },
+ {
+  "name": "釧路公立大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "前期日程",
+      "apply": "1/25〜2/3",
+      "exam": "共通テスト（1/16・17）",
+      "result": "3/5",
+      "proc": "3/5〜3/15",
+      "note": "個別学力検査なし（共通テスト・調査書で判定）"
+     },
+     {
+      "kubun": "一般",
+      "name": "中期日程",
+      "apply": "1/25〜2/3",
+      "exam": "3/8",
+      "result": "3/21",
+      "proc": "3/21〜3/27",
+      "note": ""
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜",
+      "apply": "11/2〜11/10",
+      "exam": "11/21",
+      "result": "12/8",
+      "proc": "12/8〜12/17",
+      "note": "2026年11〜12月実施（令和9年度入試）、出願11/10必着"
+     }
+    ]
+   },
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/1010/schedule/"
+   ]
+  }
+ },
+ {
+  "name": "山形県立米沢栄養大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般 前期",
+      "apply": "1/25〜2/3",
+      "exam": "2/25",
+      "result": "3/3",
+      "proc": "3/15",
+      "note": "令和9年度よりインターネット出願導入予定（募集人員24名）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 後期",
+      "apply": "1/25〜2/3",
+      "exam": "3/12",
+      "result": "3/20",
+      "proc": "3/26",
+      "note": "令和9年度よりインターネット出願導入予定（募集人員4名）"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜・社会人選抜",
+      "apply": "11/2〜11/9",
+      "exam": "11/19",
+      "result": "12/1",
+      "proc": "12/10",
+      "note": "募集人員14名（社会人選抜若干名は内数）"
+     }
+    ]
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/2033/nyushi/index.html"
+   ]
+  }
+ },
+ {
+  "name": "旭川市立大学",
+  "info": {
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/2008/nyushi/gokaku-happyo/index.html"
+   ]
+  }
+ }
+]
