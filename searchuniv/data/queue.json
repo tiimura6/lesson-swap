@@ -1,34 +1,6 @@
 {
 "add": [
 {
-"name": "埼玉医科大学",
-"type": "私立",
-"pref": "埼玉県",
-"hp": "https://www.saitama-med.ac.jp/",
-"cat": "private"
-},
-{
-"name": "埼玉学園大学",
-"type": "私立",
-"pref": "埼玉県",
-"hp": "https://www.saigaku.ac.jp/",
-"cat": "private"
-},
-{
-"name": "埼玉工業大学",
-"type": "私立",
-"pref": "埼玉県",
-"hp": "https://www.sit.ac.jp/",
-"cat": "private"
-},
-{
-"name": "多摩大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.tama.ac.jp/",
-"cat": "private"
-},
-{
 "name": "多摩美術大学",
 "type": "私立",
 "pref": "東京都",
@@ -3512,6 +3484,32 @@
 "need": [
 "fees"
 ]
+},
+"埼玉医科大学",
+"埼玉学園大学",
+"埼玉工業大学",
+"多摩大学",
+{
+"name": "鳥取大学",
+"keinet": "1340",
+"need": [
+"fees"
+]
+},
+{
+"name": "鹿児島大学",
+"keinet": "1465",
+"need": [
+"fees"
+]
+},
+{
+"name": "鳥取大学",
+"keinet": "1340",
+"need": [
+"schedule_dates"
+],
+"note": "Kei-Net日程は12月下旬掲載予定（2026-11-09確認）"
 }
 ],
 "failed": [
@@ -3588,7 +3586,8 @@
 "名古屋工業大学": 1,
 "富山大学": 1,
 "山梨大学": 1,
-"浜松医科大学": 1
+"浜松医科大学": 1,
+"島根大学": 1
 },
 "enrich": [
 {
@@ -6479,13 +6478,6 @@
 ]
 },
 {
-"name": "島根大学",
-"keinet": "1345",
-"need": [
-"schedule_dates"
-]
-},
-{
 "name": "徳島大学",
 "keinet": "1370",
 "need": [
@@ -6508,13 +6500,6 @@
 {
 "name": "高知大学",
 "keinet": "1395",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "鳥取大学",
-"keinet": "1340",
 "need": [
 "schedule_dates"
 ]
@@ -6671,13 +6656,6 @@
 ]
 },
 {
-"name": "鳥取大学",
-"keinet": "1340",
-"need": [
-"fees"
-]
-},
-{
 "name": "鳴門教育大学",
 "need": [
 "fees"
@@ -6727,13 +6705,6 @@
 {
 "name": "長崎大学",
 "keinet": "1435",
-"need": [
-"fees"
-]
-},
-{
-"name": "鹿児島大学",
-"keinet": "1465",
 "need": [
 "fees"
 ]
@@ -26455,6 +26426,45 @@
 "need": [
 "extra",
 "partners"
+]
+},
+{
+"name": "埼玉医科大学",
+"keinet": "2150",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "埼玉学園大学",
+"keinet": "2164",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "埼玉工業大学",
+"keinet": "2149",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "多摩大学",
+"keinet": "2239",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "島根大学",
+"keinet": "1345",
+"need": [
+"schedule_dates"
 ]
 }
 ],
