@@ -31,8 +31,9 @@ def split_addr(addr, ja):
     if not m: return None, None, addr
     pref = m.group(1); rest = addr[len(pref):]
     cities = sorted(ja.get(pref, []), key=len, reverse=True)
+    K = lambda t: t.replace('ヶ', 'ケ').replace('ヵ', 'カ')
     for c in cities:
-        if rest.startswith(c): return pref, c, rest[len(c):]
+        if K(rest).startswith(K(c)): return pref, c, rest[len(c):]
     # 郡名を省いた書き方など
     for c in cities:
         short = re.sub(r'^.+?郡', '', c)
@@ -58,7 +59,9 @@ def geocode(pref, city, rest):
 def main():
     ja = get(BASE + '/ja.json') or {}
     coords = json.load(open(P('data', 'ts_coords.json'), encoding='utf-8')) if os.path.exists(P('data', 'ts_coords.json')) else {}
-    out = []; miss = []
+    out = []; miss = []; seen = set(); skipped = []
+    # 専修学校のうち、予備校・高等課程（高等学院など）は専門学校ではないので地図に出さない
+    NOT_SENMON = re.compile(r'予備|ゼミナール|河合塾|駿台|高等学院|高等学園|高等専修|高等部|学習センター|視力障害者福祉センター')
     for f in sorted(glob.glob(P('data', 'ts_raw', '*.txt'))):
         kind = '短大' if os.path.basename(f).startswith('tandai') else '専門'
         for line in open(f, encoding='utf-8'):
@@ -66,7 +69,14 @@ def main():
             if not line or line.startswith('#'): continue
             a = line.split('|')
             if len(a) < 4: continue
-            code, typ, name, addr = [x.strip() for x in a[:4]]
+            code, typ, name, addr = [x.strip().strip('\u3000') for x in a[:4]]
+            if code in seen: continue
+            seen.add(code)
+            if kind == '専門' and NOT_SENMON.search(name): skipped.append(name); continue
+            # 「宮城県仙台市宮城野区宮城県仙台市宮城野区…」「半田市半田市…」のような重なりを1つにする
+            addr = re.sub(r'^((?:東京都|北海道|京都府|大阪府|.{2,3}?県).+?[市区町村])\1', r'\1', addr)
+            addr = re.sub(r'^((?:東京都|北海道|京都府|大阪府|.{2,3}?県))\1', r'\1', addr)
+            addr = re.sub(r'([^\d０-９]{2,}?[市区町村])\1', r'\1', addr)
             pref, city, rest = split_addr(addr, ja)
             key = code
             if key not in coords:
@@ -77,11 +87,11 @@ def main():
             out.append({'code': code, 'kind': kind, 'type': {'1': '国立', '2': '公立', '3': '私立'}.get(typ[:1], typ), 'name': name, 'addr': addr,
                         'pref': pref or '', 'city': city or '', 'll': c['ll'] if c else None})
     json.dump(coords, open(P('data', 'ts_coords.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
-    json.dump({'source': '文部科学省「学校コード一覧」（令和8年5月1日時点・暫定版）', 'source_url': 'https://www.mext.go.jp/b_menu/toukei/mext_01087.html',
+    json.dump({'source': '文部科学省「学校コード一覧」（令和8年5月1日時点・暫定版）。石川・福井・山梨・長野・岐阜の専門学校は各県の専修学校名簿など', 'source_url': 'https://www.mext.go.jp/b_menu/toukei/mext_01087.html',
                'schools': out}, open(P('data', 'tanki_senmon.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
     k = {}
     for s in out: k[s['kind']] = k.get(s['kind'], 0) + 1
-    print('短大・専門：', k, '／座標なし', len(miss), miss[:10])
+    print('短大・専門：', k, '／座標なし', len(miss), miss[:10], '／専門学校でないため除外', len(skipped))
     how = {}
     for v in coords.values(): how[v['how']] = how.get(v['how'], 0) + 1
     print('座標の精度：', how)

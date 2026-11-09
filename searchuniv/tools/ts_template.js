@@ -67,7 +67,7 @@ function mount(host, opt){
     '<div class="zoom"><button type="button" id="zin" aria-label="拡大">＋</button><button type="button" id="zout" aria-label="縮小">－</button><button type="button" id="zhome" aria-label="全国を表示" style="font-size:13px">全</button></div>' +
     '<div class="legend"><span><i style="background:#d4553a"></i>短大</span><span><i style="background:#2a7f62"></i>専門学校</span><span class="lkey" id="rkey"></span></div></div>' +
     '<div class="card" id="card" hidden></div>' +
-    '<div class="note">学校名と所在地は文部科学省「学校コード一覧」（' + ESC((DATA.source || '').replace(/^.*?（/, '').replace(/）$/, '')) + '）から。地図の位置は所在地の町・市区町村の代表地点の目安です。' +
+    '<div class="note">学校名と所在地の出典：' + ESC(DATA.source || '') + '。予備校・高等課程だけの専修学校は載せていません。地図の位置は所在地の町・市区町村の代表地点の目安です。' +
     (nS ? '' : '専門学校は自動収集で順に追加しています。') + '入試・学費などは各学校の公式サイトで確認してください。<a href="' + ESC(DATA.source_url || '#') + '" target="_blank" rel="noopener">学校コード一覧 ↗</a><span id="rcred"></span></div></div>' +
     '<div class="list" id="list"></div></div></div>';
   const $ = id => root.getElementById(id);

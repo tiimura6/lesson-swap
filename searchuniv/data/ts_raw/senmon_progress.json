@@ -1,8 +1,9 @@
 {
- "note": "専門学校（文部科学省「学校コード一覧」の 学校種 H1(専修)）を WebFetch で少しずつ読み取るための進み具合。PIPELINE.md「短大・専門の専門学校データ」を参照。",
- "files": [
-  {"id": "east1", "url": "https://www.mext.go.jp/content/20260825-mxt_chousa01-000011635_2-1.csv", "length": null, "offset": 0, "after": "", "done": false},
-  {"id": "east2", "url": "https://www.mext.go.jp/content/20260825-mxt_chousa01-000011635_2-2.csv", "length": 534075, "offset": 0, "after": "", "done": false},
-  {"id": "west", "url": "https://www.mext.go.jp/content/20260825-mxt_chousa01-000011635_4.csv", "length": null, "offset": 0, "after": "", "done": false}
+ "note": "2026-11-09 に全国分を取り込み済み。文部科学省「学校コード一覧」（令和8年5月1日時点・暫定版）の CSV を WebFetch で読み取り（senmon_e1a/e1b/e1c/e2/wa/wb/wc.txt）。東日本の CSV は WebFetch で読める長さを超えて石川〜岐阜（17〜21）が読めなかったため、各県の専修学校名簿から（senmon_pref_a/b.txt）。",
+ "done": true,
+ "known_gaps": [
+  "東京都の公立専門学校（学校コード H1132…）が CSV の読み取りで出てこなかった",
+  "読み取りの区切り目で行が抜けている可能性（件数は文部科学省の統計より少なめ）",
+  "住所が名簿の文字の並びからの推定で2つ目の出典が無い8校は # で外している（senmon_pref_a/b.txt）"
  ]
 }
