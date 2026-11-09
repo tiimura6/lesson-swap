@@ -1,34 +1,6 @@
 {
 "add": [
 {
-"name": "日本獣医生命科学大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.nvlu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "日本社会事業大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.jcsw.ac.jp/",
-"cat": "private"
-},
-{
-"name": "日本薬科大学",
-"type": "私立",
-"pref": "埼玉県",
-"hp": "https://www.nichiyaku.ac.jp/",
-"cat": "private"
-},
-{
-"name": "日本赤十字看護大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.redcross.ac.jp/",
-"cat": "private"
-},
-{
 "name": "明星大学",
 "type": "私立",
 "pref": "東京都",
@@ -3808,6 +3780,94 @@
 "need": [
 "schedule_dates"
 ]
+},
+{
+"name": "福岡工業大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "福岡工業大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "福岡歯科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "福岡歯科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "福岡看護大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "福岡看護大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "第一工科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "第一工科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "第一薬科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "第一薬科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "日本獣医生命科学大学",
+"type": "私立",
+"pref": "東京都",
+"hp": "https://www.nvlu.ac.jp/",
+"cat": "private"
+},
+{
+"name": "日本社会事業大学",
+"type": "私立",
+"pref": "東京都",
+"hp": "https://www.jcsw.ac.jp/",
+"cat": "private"
+},
+{
+"name": "日本薬科大学",
+"type": "私立",
+"pref": "埼玉県",
+"hp": "https://www.nichiyaku.ac.jp/",
+"cat": "private"
+},
+{
+"name": "日本赤十字看護大学",
+"type": "私立",
+"pref": "東京都",
+"hp": "https://www.redcross.ac.jp/",
+"cat": "private"
 }
 ],
 "failed": [
@@ -15648,18 +15708,6 @@
 {
 "name": "福岡工業大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "福岡工業大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "福岡工業大学",
-"need": [
 "scholar"
 ]
 },
@@ -15667,18 +15715,6 @@
 "name": "福岡歯科大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "福岡歯科大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "福岡歯科大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -15696,18 +15732,6 @@
 {
 "name": "福岡看護大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "福岡看護大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "福岡看護大学",
-"need": [
 "scholar"
 ]
 },
@@ -15715,18 +15739,6 @@
 "name": "第一工科大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "第一工科大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "第一工科大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -15739,18 +15751,6 @@
 "name": "第一薬科大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "第一薬科大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "第一薬科大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -26591,6 +26591,38 @@
 {
 "name": "日本歯科大学",
 "keinet": "2269",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "日本獣医生命科学大学",
+"keinet": "2271",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "日本社会事業大学",
+"keinet": "2270",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "日本薬科大学",
+"keinet": "2168",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "日本赤十字看護大学",
+"keinet": "2274",
 "need": [
 "extra",
 "partners"
