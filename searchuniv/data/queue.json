@@ -1,34 +1,6 @@
 {
 "add": [
 {
-"name": "昭和大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.showa-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "昭和女子大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.swu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "昭和薬科大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.shoyaku.ac.jp/",
-"cat": "private"
-},
-{
-"name": "昭和音楽大学",
-"type": "私立",
-"pref": "神奈川県",
-"hp": "https://www.tosei-showa-music.ac.jp/",
-"cat": "private"
-},
-{
 "name": "杉野服飾大学",
 "type": "私立",
 "pref": "東京都",
@@ -3925,6 +3897,79 @@
 },
 {
 "name": "西南女学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "昭和大学",
+"type": "私立",
+"pref": "東京都",
+"hp": "https://www.showa-u.ac.jp/",
+"cat": "private"
+},
+{
+"name": "昭和女子大学",
+"cat": "private"
+},
+{
+"name": "昭和薬科大学",
+"cat": "private"
+},
+{
+"name": "昭和音楽大学",
+"cat": "private"
+},
+{
+"name": "西日本工業大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "西日本工業大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "鎮西学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "鎮西学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "長崎国際大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "長崎外国語大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "長崎外国語大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "長崎純心大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "長崎純心大学",
 "need": [
 "fees"
 ]
@@ -15888,18 +15933,6 @@
 {
 "name": "西日本工業大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "西日本工業大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "西日本工業大学",
-"need": [
 "scholar"
 ]
 },
@@ -15907,18 +15940,6 @@
 "name": "鎮西学院大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "鎮西学院大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "鎮西学院大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -15936,18 +15957,6 @@
 {
 "name": "長崎国際大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "長崎国際大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "長崎国際大学",
-"need": [
 "scholar"
 ]
 },
@@ -15955,18 +15964,6 @@
 "name": "長崎外国語大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "長崎外国語大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "長崎外国語大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -15979,18 +15976,6 @@
 "name": "長崎純心大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "長崎純心大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "長崎純心大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -26655,6 +26640,45 @@
 {
 "name": "星薬科大学",
 "keinet": "2280",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "長崎国際大学",
+"need": [
+"schedule_dates"
+],
+"note": "Kei-Netは出願・発表・手続日を11月以降に掲載予定（2026-11-09時点）"
+},
+{
+"name": "昭和医科大学",
+"keinet": "2223",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "昭和女子大学",
+"keinet": "2224",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "昭和薬科大学",
+"keinet": "2225",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "昭和音楽大学",
+"keinet": "2313",
 "need": [
 "extra",
 "partners"
