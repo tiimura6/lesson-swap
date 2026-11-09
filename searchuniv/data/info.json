@@ -105777,7 +105777,9 @@
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"schedule": "2026-11-09",
+"money": "2026-11-09"
 },
 "departments": [
 {
@@ -105820,13 +105822,202 @@
 "sources": [
 "https://www.chikushi-u.ac.jp/",
 "https://passnavi.obunsha.co.jp/univ/4980/top/",
-"https://xn--psstg18ce16c.com/daigaku/chikushi-jogakuen/"
+"https://xn--psstg18ce16c.com/daigaku/chikushi-jogakuen/",
+"https://manabi.benesse.ne.jp/daigaku/school/3882/nyushi/index.html",
+"https://search.keinet.ne.jp/2708/general/schedule",
+"https://search.keinet.ne.jp/2708/outline/expense"
 ],
 "students": {
 "count": 1792,
 "year": 2026
 },
-"founded": "1988年開学（前身：私立筑紫高等女学校、1907年創立）"
+"founded": "1988年開学（前身：私立筑紫高等女学校、1907年創立）",
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜 CJ課題型",
+"apply": "9/14〜10/5",
+"exam": "10/10",
+"result": "11/3",
+"proc": "11/20",
+"note": "社会福祉専攻は対象外"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 自己探究型（1回目）",
+"apply": "9/14〜10/5",
+"exam": "10/10",
+"result": "11/3",
+"proc": "11/20",
+"note": ""
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 公募推薦（専願制）",
+"apply": "11/2〜11/9",
+"exam": "11/14",
+"result": "12/1",
+"proc": "12/18",
+"note": ""
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 自己探究型（2回目）",
+"apply": "12/4〜12/14",
+"exam": "12/19",
+"result": "12/25",
+"proc": "1/15",
+"note": ""
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 公募推薦（併願制）",
+"apply": "12/4〜12/14",
+"exam": "12/19",
+"result": "12/25",
+"proc": "1/15",
+"note": ""
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期日程",
+"apply": "1/6〜1/22",
+"exam": "1/31",
+"result": "2/16",
+"proc": "2/26",
+"note": ""
+},
+{
+"kubun": "一般",
+"name": "一般選抜 共テ併用前期日程",
+"apply": "1/6〜1/22",
+"exam": "1/31",
+"result": "2/16",
+"proc": "2/26",
+"note": ""
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 1期（1科目型・3科目型）",
+"apply": "1/6〜1/29",
+"exam": "共通テスト",
+"result": "2/16",
+"proc": "2/26",
+"note": ""
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 2期（1科目型・3科目型）",
+"apply": "2/12〜2/22",
+"exam": "共通テスト",
+"result": "2/26",
+"proc": "3/9",
+"note": ""
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期日程",
+"apply": "2/15〜2/25",
+"exam": "3/2",
+"result": "3/9",
+"proc": "3/19",
+"note": ""
+},
+{
+"kubun": "一般",
+"name": "一般選抜 共テ併用後期日程",
+"apply": "2/15〜2/25",
+"exam": "3/2",
+"result": "3/9",
+"proc": "3/19",
+"note": ""
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 自己探究型（3回目）",
+"apply": "2/22〜3/8",
+"exam": "3/11",
+"result": "3/18",
+"proc": "3/25",
+"note": ""
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 3期（1科目型・3科目型）",
+"apply": "3/1〜3/12",
+"exam": "共通テスト",
+"result": "3/18",
+"proc": "3/26",
+"note": ""
+}
+],
+"note": "2027年度は人文科学部（仮称：心理・共生デザイン学科、教育・社会福祉学科、人文学科）として募集。全学科同一日程。検定料は出典に記載なし（マナビジョン 2027年度入試、Kei-Net の一般選抜日程とも一致）"
+},
+"money": {
+"year": "2026年度",
+"admission": 150000,
+"annual": null,
+"note": "教科書代が半期2〜3万円、教育実習・学外実習・資格取得の諸経費は別途。2027年度の人文科学部（仮称）の学費は未掲載（Kei-Net 2026年度入学者用）",
+"rows": [
+{
+"f": "文学部（日本語・日本文学科、アジア文化学科）",
+"admission": 150000,
+"tuition": 720000,
+"facility": 240000,
+"practical": null,
+"other": 17160,
+"first_year": 1127160,
+"four_year": null,
+"note": "other は諸会費"
+},
+{
+"f": "文学部（英語学科）",
+"admission": 150000,
+"tuition": 720000,
+"facility": 252000,
+"practical": null,
+"other": 17160,
+"first_year": 1139160,
+"four_year": null,
+"note": ""
+},
+{
+"f": "現代社会学部（現代社会学科）",
+"admission": 150000,
+"tuition": 720000,
+"facility": 240000,
+"practical": null,
+"other": 17160,
+"first_year": 1127160,
+"four_year": null,
+"note": ""
+},
+{
+"f": "人間科学部（心理・社会福祉）",
+"admission": 150000,
+"tuition": 720000,
+"facility": 240000,
+"practical": null,
+"other": 17160,
+"first_year": 1127160,
+"four_year": null,
+"note": ""
+},
+{
+"f": "人間科学部（初等教育・幼児保育）",
+"admission": 150000,
+"tuition": 750000,
+"facility": 260000,
+"practical": null,
+"other": 17160,
+"first_year": 1177160,
+"four_year": null,
+"note": ""
+}
+]
+}
 },
 "純真学園大学": {
 "faculties": [
@@ -105836,14 +106027,15 @@
 "faculties": "2026-11-07",
 "departments": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-09",
 "scholar": "2026-11-07",
 "access": "2026-11-07",
 "licenses": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"money": "2026-11-09"
 },
 "departments": [
 {
@@ -105883,15 +106075,61 @@
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "総合型",
+"name": "総合型選抜",
+"apply": "8/28〜9/4",
+"exam": "10/3",
+"result": "11/2",
+"proc": "11/27",
+"note": "郵送"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募）",
+"apply": "11/2〜11/13",
+"exam": "11/21",
+"result": "12/4",
+"proc": "12/23",
+"note": ""
+},
+{
 "kubun": "一般",
 "name": "一般選抜 一期",
-"apply": null,
+"apply": "1/5〜1/27",
 "exam": "2/6",
 "result": "2/19",
-"proc": null,
-"fee": null
+"proc": "3/5",
+"note": ""
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅰ期",
+"apply": "1/5〜1/27",
+"exam": "共通テスト",
+"result": "2/19",
+"proc": "3/5",
+"note": ""
+},
+{
+"kubun": "一般",
+"name": "一般選抜 二期",
+"apply": "2/17〜2/25",
+"exam": "3/4",
+"result": "3/12",
+"proc": "3/24",
+"note": ""
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅱ期",
+"apply": "2/17〜2/25",
+"exam": "共通テスト",
+"result": "3/12",
+"proc": "3/24",
+"note": ""
 }
-]
+],
+"note": "保健医療学部の全4学科（看護・放射線技術科学・検査科学・医療工学）で同一日程。検定料は出典に記載なし（マナビジョン 2027年度入試）"
 },
 "scholar": {
 "year": "2027年度",
@@ -105923,13 +106161,67 @@
 "https://www.junshin-u.ac.jp/assets/files/d14_03_04.pdf",
 "https://www.junshin-u.ac.jp/about/message/",
 "https://www.junshin-u.ac.jp/about/history/",
-"http://www.junshin-u.ac.jp/assets/files/jikotenken-r04.pdf"
+"http://www.junshin-u.ac.jp/assets/files/jikotenken-r04.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/3898/nyushi/index.html",
+"https://passnavi.obunsha.co.jp/univ/4947/expense/"
 ],
 "students": {
 "count": 1147,
 "year": null
 },
-"founded": "2011年開学（源流：純真女子短期大学、1957年開学／学校法人純真女子学園、1956年設立）"
+"founded": "2011年開学（源流：純真女子短期大学、1957年開学／学校法人純真女子学園、1956年設立）",
+"money": {
+"year": "2027年度",
+"admission": 250000,
+"annual": null,
+"note": "実習費に学生活動支援費を含む。諸会費は後援会費1万円＋学生保険掛金7,000円（委託徴収）。教科書代は別途。入学時最小限納入金は看護・放射線技術科学977,000円、検査科学・医療工学927,000円（パスナビ、2026年9月調査）",
+"rows": [
+{
+"f": "保健医療学部（看護学科）",
+"admission": 250000,
+"tuition": 900000,
+"facility": 350000,
+"practical": 170000,
+"other": 17000,
+"first_year": 1687000,
+"four_year": null,
+"note": ""
+},
+{
+"f": "保健医療学部（放射線技術科学科）",
+"admission": 250000,
+"tuition": 900000,
+"facility": 350000,
+"practical": 170000,
+"other": 17000,
+"first_year": 1687000,
+"four_year": null,
+"note": ""
+},
+{
+"f": "保健医療学部（検査科学科）",
+"admission": 250000,
+"tuition": 900000,
+"facility": 200000,
+"practical": 220000,
+"other": 17000,
+"first_year": 1587000,
+"four_year": null,
+"note": ""
+},
+{
+"f": "保健医療学部（医療工学科）",
+"admission": 250000,
+"tuition": 900000,
+"facility": 250000,
+"practical": 170000,
+"other": 17000,
+"first_year": 1587000,
+"four_year": null,
+"note": ""
+}
+]
+}
 },
 "聖マリア学院大学": {
 "faculties": [
@@ -105944,7 +106236,9 @@
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"schedule": "2026-11-09",
+"money": "2026-11-09"
 },
 "departments": [
 {
@@ -106008,13 +106302,130 @@
 "https://www.st-mary.ac.jp/wordpress/wp-content/uploads/2026/09/NursingFacultyExaminationGuide_r9-1.pdf",
 "https://passnavi.obunsha.co.jp/univ/4957/top/",
 "https://www.st-mary.ac.jp/about/history/",
-"https://www.st-mary.ac.jp/wordpress/wp-content/uploads/2026/04/201504.pdf"
+"https://www.st-mary.ac.jp/wordpress/wp-content/uploads/2026/04/201504.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/3895/nyushi/index.html",
+"https://search.keinet.ne.jp/2724/outline/expense"
 ],
 "students": {
 "count": 326,
 "year": null
 },
-"founded": "2006年開学（前身：聖マリア学院短期大学、1986年開学／起源：聖マリア病院附属高等看護学院、1973年開設）"
+"founded": "2006年開学（前身：聖マリア学院短期大学、1986年開学／起源：聖マリア病院附属高等看護学院、1973年開設）",
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜 前期",
+"apply": "10/1〜10/8",
+"exam": "10/17",
+"result": "11/2",
+"proc": "11/12",
+"note": ""
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 公募前期",
+"apply": "11/2〜11/12",
+"exam": "11/21",
+"result": "12/1",
+"proc": "12/10",
+"note": ""
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 後期",
+"apply": "12/1〜12/10",
+"exam": "12/18",
+"result": "12/24",
+"proc": "1/12",
+"note": ""
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 公募後期",
+"apply": "12/1〜12/10",
+"exam": "12/18",
+"result": "12/24",
+"proc": "1/12",
+"note": ""
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅰ期",
+"apply": "1/6〜1/28",
+"exam": "2/9",
+"result": "2/17",
+"proc": "3/11",
+"note": ""
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅰ期",
+"apply": "1/6〜1/28",
+"exam": "共通テスト",
+"result": "2/17",
+"proc": "3/11",
+"note": ""
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期",
+"apply": "2/15〜2/25",
+"exam": "3/4",
+"result": "3/10",
+"proc": "3/18",
+"note": ""
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅱ期",
+"apply": "2/15〜2/25",
+"exam": "共通テスト",
+"result": "3/10",
+"proc": "3/18",
+"note": ""
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅲ期",
+"apply": "3/2〜3/15",
+"exam": "3/19",
+"result": "3/24",
+"proc": "3/30",
+"note": ""
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅲ期",
+"apply": "3/2〜3/15",
+"exam": "共通テスト",
+"result": "3/24",
+"proc": "3/30",
+"note": ""
+}
+],
+"note": "看護学部 看護学科。検定料は出典に記載なし（マナビジョン 2027年度入試）"
+},
+"money": {
+"year": "2026年度",
+"admission": 260000,
+"annual": null,
+"note": "学外実習の旅費、実習着・聴診器・教科書・保険料、入学前の抗体価検査・予防接種、パソコンは別途。国際看護コースの海外実習費、グローバルスタディーズコースの海外語学研修費は自己負担（Kei-Net 2026年度入学者用）",
+"rows": [
+{
+"f": "看護学部（看護学科）",
+"admission": 260000,
+"tuition": 980000,
+"facility": 300000,
+"practical": 240000,
+"other": null,
+"first_year": 1780000,
+"four_year": null,
+"note": ""
+}
+]
+}
 },
 "西九州大学": {
 "faculties": [
@@ -106032,7 +106443,9 @@
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "founded": "2026-11-09",
-"students": "2026-11-09"
+"students": "2026-11-09",
+"schedule": "2026-11-09",
+"money": "2026-11-09"
 },
 "departments": [
 {
@@ -106085,12 +106498,167 @@
 "https://www.nisikyu-u.ac.jp/about/greeting.html",
 "https://kotobank.jp/word/%E8%A5%BF%E4%B9%9D%E5%B7%9E%E5%A4%A7%E5%AD%A6-165822",
 "https://www.nisikyu-u.ac.jp/uploads/ck/root/files/%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA/%E8%87%AA%E5%B7%B1%E7%82%B9%E6%A4%9C%E8%A9%95%E4%BE%A1/%E8%87%AA%E5%B7%B1%E7%82%B9%E6%A4%9C%E8%A9%95%E4%BE%A1%E5%A0%B1%E5%91%8A%E6%9B%B8/tenkenhyoukasyo.pdf",
-"https://www.nisikyu-u.ac.jp/nagahara/info/pdf/finance18.pdf"
+"https://www.nisikyu-u.ac.jp/nagahara/info/pdf/finance18.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/3906/nyushi/index.html",
+"https://search.keinet.ne.jp/2727/general/schedule",
+"https://search.keinet.ne.jp/2727/outline/expense"
 ],
 "founded": "1968年開学（佐賀家政大学、1974年西九州大学に改称／前身：佐賀栄養専門学院、1946年開学）",
 "students": {
 "count": 1772,
 "year": null
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 学校長推薦Ⅰ期・スポーツ特別推薦",
+"apply": "11/2〜11/6",
+"exam": "11/14",
+"result": "12/1",
+"proc": "12/8",
+"note": ""
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 学校長推薦Ⅱ期",
+"apply": "11/30〜12/4",
+"exam": "12/12",
+"result": "12/22",
+"proc": "1/5",
+"note": ""
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅰ期",
+"apply": "1/6〜1/26",
+"exam": "2/6",
+"result": "2/17",
+"proc": "2/25",
+"note": ""
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 Ⅰ期",
+"apply": "1/6〜1/26",
+"exam": "共通テスト",
+"result": "2/17",
+"proc": "2/25",
+"note": ""
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期",
+"apply": "2/15〜2/19",
+"exam": "2/27",
+"result": "3/9",
+"proc": "3/15",
+"note": ""
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 Ⅱ期",
+"apply": "2/15〜2/19",
+"exam": "共通テスト",
+"result": "3/9",
+"proc": "3/15",
+"note": ""
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅲ期",
+"apply": "3/5〜3/11",
+"exam": "3/16",
+"result": "3/23",
+"proc": "3/26",
+"note": ""
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 Ⅲ期",
+"apply": "3/5〜3/11",
+"exam": "共通テスト",
+"result": "3/23",
+"proc": "3/26",
+"note": ""
+}
+],
+"note": "全学部同一日程。総合型選抜は出願期間が複数（9/1〜9/17、9/24〜10/8、11/2〜11/12、11/30〜12/10、1/6〜3/4）あるが出典で試験日との対応が示されていないため行に入れていない。検定料は出典に記載なし（マナビジョン 2027年度入試、Kei-Net の一般選抜日程とも一致）"
+},
+"money": {
+"year": "2026年度",
+"admission": 200000,
+"annual": null,
+"note": "免許・資格により実習費等を別途徴収する場合あり。教科書・教材費5万〜15万円程度、賠償保険への加入が必須。看護学科は看護学校総合補償制度（年4,500〜9,000円程度）に原則加入（Kei-Net 2026年度入学者用）",
+"rows": [
+{
+"f": "子ども学部",
+"admission": 200000,
+"tuition": 650000,
+"facility": 270000,
+"practical": null,
+"other": 58300,
+"first_year": 1178300,
+"four_year": null,
+"note": "other は諸会費"
+},
+{
+"f": "リハビリテーション学部",
+"admission": 200000,
+"tuition": 850000,
+"facility": 480000,
+"practical": null,
+"other": 60370,
+"first_year": 1590370,
+"four_year": null,
+"note": ""
+},
+{
+"f": "看護学部",
+"admission": 200000,
+"tuition": 900000,
+"facility": 480000,
+"practical": null,
+"other": 58300,
+"first_year": 1638300,
+"four_year": null,
+"note": ""
+},
+{
+"f": "健康栄養学部",
+"admission": 200000,
+"tuition": 650000,
+"facility": 390000,
+"practical": null,
+"other": 58300,
+"first_year": 1298300,
+"four_year": null,
+"note": ""
+},
+{
+"f": "健康福祉学部",
+"admission": 200000,
+"tuition": 650000,
+"facility": 270000,
+"practical": null,
+"other": 58300,
+"first_year": 1178300,
+"four_year": null,
+"note": ""
+},
+{
+"f": "デジタル社会共創学環",
+"admission": 200000,
+"tuition": 650000,
+"facility": 270000,
+"practical": null,
+"other": 58300,
+"first_year": 1178300,
+"four_year": null,
+"note": ""
+}
+]
 }
 },
 "西南女学院大学": {
@@ -106102,11 +106670,12 @@
 "faculties": "2026-11-07",
 "departments": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-09",
 "access": "2026-11-07",
 "licenses": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"money": "2026-11-09"
 },
 "departments": [
 {
@@ -106160,33 +106729,106 @@
 "year": "2027年度入試",
 "rows": [
 {
-"kubun": "一般",
-"name": "一般選抜（前期）",
-"apply": "1/4〜1/21",
-"exam": null,
-"result": null,
-"proc": null,
-"fee": null
+"kubun": "総合型",
+"name": "総合型選抜 総合型エントリー①",
+"apply": "7/31〜9/3",
+"exam": "9/12",
+"result": "11/2",
+"proc": "11/18",
+"note": "郵送"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 スポーツ文化活動①",
+"apply": "9/23〜10/8",
+"exam": "10/17",
+"result": "11/2",
+"proc": "11/18",
+"note": "福祉学科・人文学部"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 小論文・面接Ⅰ期",
+"apply": "10/26〜11/5",
+"exam": "11/13",
+"result": "12/1",
+"proc": "12/15",
+"note": ""
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 公募推薦①",
+"apply": "10/26〜11/5",
+"exam": "11/13",
+"result": "12/1",
+"proc": "12/15",
+"note": ""
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 特別推薦",
+"apply": "10/26〜11/5",
+"exam": "11/14",
+"result": "12/1",
+"proc": "12/15",
+"note": "福祉学科・人文学部"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 総合型エントリー②",
+"apply": "11/4〜11/19",
+"exam": "11/28",
+"result": "12/24",
+"proc": "1/8",
+"note": "郵送"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 総合型基礎学力・小論文・面接Ⅱ期・スポーツ文化活動②",
+"apply": "11/30〜12/16",
+"exam": "12/19",
+"result": "12/24",
+"proc": "1/8",
+"note": ""
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 公募推薦②",
+"apply": "11/30〜12/16",
+"exam": "12/19",
+"result": "12/24",
+"proc": "1/8",
+"note": ""
 },
 {
 "kubun": "一般",
-"name": "一般選抜（後期）",
-"apply": "2/1〜2/22",
-"exam": null,
-"result": null,
-"proc": null,
-"fee": null
+"name": "一般選抜 前期",
+"apply": "1/4〜1/21",
+"exam": "1/30",
+"result": "2/9",
+"proc": "2/19",
+"note": ""
 },
 {
 "kubun": "共テ利用",
-"name": "大学入学共通テスト利用選抜（A日程）",
+"name": "共通テスト利用 A日程",
 "apply": "1/4〜1/28",
-"exam": null,
+"exam": "共通テスト",
+"result": "2/9",
+"proc": "2/23",
+"note": ""
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期",
+"apply": null,
+"exam": "3/2",
 "result": null,
 "proc": null,
-"fee": null
+"note": "出願・発表・手続はKei-Netで11月以降掲載予定"
 }
-]
+],
+"note": "保健福祉学部・人文学部の全学科で同一日程（スポーツ文化活動・特別推薦は看護学科を除く）。共通テスト利用B〜D日程は2027年度の日程が未掲載。検定料は出典に記載なし（マナビジョン 2027年度入試、Kei-Net）"
 },
 "access": "北九州市小倉北区井堀：JR「南小倉駅」または「小倉駅」より西鉄バス運行",
 "licenses": [
@@ -106198,8 +106840,63 @@
 "_via": "external-ai",
 "sources": [
 "https://www.seinan-jo.ac.jp/",
-"https://www.seinan-jo.ac.jp/nyushi/web/"
+"https://www.seinan-jo.ac.jp/nyushi/web/",
+"https://manabi.benesse.ne.jp/daigaku/school/3879/nyushi/index.html",
+"https://search.keinet.ne.jp/2717/general/schedule",
+"https://search.keinet.ne.jp/2717/outline/expense"
+],
+"money": {
+"year": "2026年度",
+"admission": 250000,
+"annual": null,
+"note": "学友会入会金500円・学友会費年7,200円・後援会入会金2,000円・後援会費年20,000円は委託納入金として別途（Kei-Net 2026年度入学者用）",
+"rows": [
+{
+"f": "人文学部",
+"admission": 190000,
+"tuition": 700000,
+"facility": 124000,
+"practical": 50000,
+"other": null,
+"first_year": 1064000,
+"four_year": null,
+"note": ""
+},
+{
+"f": "保健福祉学部（看護学科）",
+"admission": 250000,
+"tuition": 972000,
+"facility": 329000,
+"practical": 168000,
+"other": null,
+"first_year": 1719000,
+"four_year": null,
+"note": ""
+},
+{
+"f": "保健福祉学部（福祉学科）",
+"admission": 250000,
+"tuition": 685000,
+"facility": 292000,
+"practical": 56000,
+"other": null,
+"first_year": 1283000,
+"four_year": null,
+"note": ""
+},
+{
+"f": "保健福祉学部（栄養学科）",
+"admission": 250000,
+"tuition": 685000,
+"facility": 184000,
+"practical": 60000,
+"other": null,
+"first_year": 1179000,
+"four_year": null,
+"note": "出典の表記どおり"
+}
 ]
+}
 },
 "西日本工業大学": {
 "faculties": [
@@ -200655,6 +201352,613 @@ null
 "https://search.keinet.ne.jp/2274/outline/admission_employment",
 "https://search.keinet.ne.jp/2274/outline/expense",
 "https://search.keinet.ne.jp/2274/general/exam_result"
+]
+},
+"明星大学": {
+"faculties": [
+"教育学部",
+"心理学部",
+"人文学部",
+"経済学部",
+"経営学部",
+"建築学部",
+"理工学部",
+"デザイン学部",
+"情報学部",
+"データサイエンス学環"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"tuition": "2026-11-09",
+"money": "2026-11-09",
+"research": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "教育学部",
+"d": [
+"小学校教員",
+"教科（国語・社会・数学・理科・音楽・美術・保健体育・英語）",
+"保育・幼児教育"
+]
+},
+{
+"f": "心理学部",
+"d": [
+"心理学科"
+]
+},
+{
+"f": "人文学部",
+"d": [
+"国際コミュニケーション学科",
+"日本文化学科",
+"人間社会学科",
+"社会福祉学科"
+]
+},
+{
+"f": "経済学部",
+"d": [
+"経済学科"
+]
+},
+{
+"f": "経営学部",
+"d": [
+"経営学科"
+]
+},
+{
+"f": "建築学部",
+"d": [
+"建築学科"
+]
+},
+{
+"f": "理工学部",
+"d": [
+"物理学",
+"化学・生命科学",
+"機械工学",
+"電気・情報通信"
+]
+},
+{
+"f": "デザイン学部",
+"d": [
+"デザイン学科"
+]
+},
+{
+"f": "情報学部",
+"d": [
+"情報学科"
+]
+},
+{
+"f": "データサイエンス学環",
+"d": []
+}
+],
+"students": {
+"count": 8582,
+"year": 2025
+},
+"founded": "1964年 開学（理工学部）",
+"access": "日野校：東京都日野市程久保（Kei-Net）",
+"tuition": {
+"amount": 1010000,
+"label": "入学金＋授業料（経済・経営学部）",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 230000,
+"annual": null,
+"note": "施設/教育充実費等に実験・実習費や保険料を含む。教科書代・ノートパソコンは別途（Kei-Net 2026年度入学者用）",
+"rows": [
+{
+"f": "教育学部",
+"admission": 230000,
+"tuition": 870000,
+"facility": 370000,
+"practical": null,
+"other": 18600,
+"first_year": 1488600,
+"four_year": null,
+"note": ""
+},
+{
+"f": "心理学部（心理学科）",
+"admission": 230000,
+"tuition": 870000,
+"facility": 370000,
+"practical": null,
+"other": 18600,
+"first_year": 1488600,
+"four_year": null,
+"note": ""
+},
+{
+"f": "人文学部",
+"admission": 230000,
+"tuition": 840000,
+"facility": 370000,
+"practical": null,
+"other": 18600,
+"first_year": 1458600,
+"four_year": null,
+"note": ""
+},
+{
+"f": "経済学部（経済学科）",
+"admission": 230000,
+"tuition": 780000,
+"facility": 350000,
+"practical": null,
+"other": 18600,
+"first_year": 1378600,
+"four_year": null,
+"note": ""
+},
+{
+"f": "経営学部（経営学科）",
+"admission": 230000,
+"tuition": 780000,
+"facility": 350000,
+"practical": null,
+"other": 18600,
+"first_year": 1378600,
+"four_year": null,
+"note": ""
+},
+{
+"f": "建築学部（建築学科）",
+"admission": 230000,
+"tuition": 990000,
+"facility": 420000,
+"practical": null,
+"other": 18600,
+"first_year": 1658600,
+"four_year": null,
+"note": ""
+},
+{
+"f": "理工学部",
+"admission": 230000,
+"tuition": 990000,
+"facility": 420000,
+"practical": null,
+"other": 18600,
+"first_year": 1658600,
+"four_year": null,
+"note": ""
+},
+{
+"f": "デザイン学部（デザイン学科）",
+"admission": 230000,
+"tuition": 990000,
+"facility": 420000,
+"practical": null,
+"other": 18600,
+"first_year": 1658600,
+"four_year": null,
+"note": ""
+},
+{
+"f": "情報学部（情報学科）",
+"admission": 230000,
+"tuition": 970000,
+"facility": 420000,
+"practical": null,
+"other": 18600,
+"first_year": 1638600,
+"four_year": null,
+"note": ""
+},
+{
+"f": "データサイエンス学環",
+"admission": 230000,
+"tuition": 970000,
+"facility": 420000,
+"practical": null,
+"other": 18600,
+"first_year": 1638600,
+"four_year": null,
+"note": ""
+}
+]
+},
+"research": [
+"教員養成（小学校・中高教科・保育）",
+"心理学",
+"国際コミュニケーション・日本文化",
+"経済学・経営学",
+"建築学",
+"物理学・化学・機械・電気情報通信",
+"デザイン",
+"情報学・データサイエンス"
+],
+"licenses": [
+"幼稚園教諭一種",
+"小学校教諭一種",
+"特別支援学校教諭一種",
+"中学校・高校教諭一種（国語・社会/地理歴史/公民・数学・理科・音楽・美術・保健体育・英語・情報）",
+"保育士",
+"学校図書館司書教諭",
+"公認心理師受験資格",
+"認定心理士",
+"社会福祉士受験資格",
+"一級・二級・木造建築士受験資格",
+"測量士・測量士補",
+"社会調査士",
+"司書",
+"学芸員"
+],
+"careers": "2024年度卒業者の就職者比率は学部により77.7%（心理）〜93.3%（経営）。教育学部は卒業者371人のうち就職291人（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2289",
+"https://search.keinet.ne.jp/2289/outline/department",
+"https://search.keinet.ne.jp/2289/outline/licential",
+"https://search.keinet.ne.jp/2289/outline/admission_employment",
+"https://search.keinet.ne.jp/2289/outline/expense",
+"https://search.keinet.ne.jp/2289/general/exam_result"
+]
+},
+"明治薬科大学": {
+"faculties": [
+"薬学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"tuition": "2026-11-09",
+"money": "2026-11-09",
+"research": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "薬学部",
+"d": [
+"薬学科",
+"生命創薬科学科"
+]
+}
+],
+"students": {
+"count": 2391,
+"year": 2025
+},
+"founded": "1902年 東京薬学専門学校として設立（1946年 新制大学）",
+"access": "清瀬キャンパス：東京都清瀬市野塩（Kei-Net）",
+"tuition": {
+"amount": 1740000,
+"label": "入学金＋授業料（薬学科）",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 400000,
+"annual": null,
+"note": "外部委託の実験・実習・演習は別途費用がかかる場合あり（Kei-Net 2026年度入学者用）",
+"rows": [
+{
+"f": "薬学部（薬学科）",
+"admission": 400000,
+"tuition": 1340000,
+"facility": 580000,
+"practical": null,
+"other": 37500,
+"first_year": 2357500,
+"four_year": null,
+"note": ""
+},
+{
+"f": "薬学部（生命創薬科学科）",
+"admission": 400000,
+"tuition": 1100000,
+"facility": 500000,
+"practical": null,
+"other": 37500,
+"first_year": 2037500,
+"four_year": null,
+"note": ""
+}
+]
+},
+"research": [
+"薬学（薬剤師養成）",
+"生命科学・創薬科学"
+],
+"licenses": [
+"薬剤師国家試験受験資格（薬学科）",
+"臨床検査技師国家試験受験資格",
+"食品衛生監視員"
+],
+"careers": "2024年度卒業者は薬学部350人のうち就職290人（82.9%）、進学47人（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2288",
+"https://search.keinet.ne.jp/2288/outline/department",
+"https://search.keinet.ne.jp/2288/outline/licential",
+"https://search.keinet.ne.jp/2288/outline/admission_employment",
+"https://search.keinet.ne.jp/2288/outline/expense",
+"https://search.keinet.ne.jp/2288/general/exam_result"
+]
+},
+"明海大学": {
+"faculties": [
+"外国語学部",
+"ホスピタリティ・ツーリズム学部",
+"経済学部",
+"不動産学部",
+"歯学部",
+"保健医療学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"tuition": "2026-11-09",
+"money": "2026-11-09",
+"research": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "外国語学部",
+"d": [
+"日本語学科",
+"英米語学科",
+"中国語学科"
+]
+},
+{
+"f": "ホスピタリティ・ツーリズム学部",
+"d": [
+"ホスピタリティ・ツーリズム学科（グローバル・マネジメント専攻・観光専攻）"
+]
+},
+{
+"f": "経済学部",
+"d": [
+"経済学科"
+]
+},
+{
+"f": "不動産学部",
+"d": [
+"不動産学科"
+]
+},
+{
+"f": "歯学部",
+"d": [
+"歯学科"
+]
+},
+{
+"f": "保健医療学部",
+"d": [
+"口腔保健学科"
+]
+}
+],
+"students": {
+"count": 4135,
+"year": 2025
+},
+"founded": "1970年 城西歯科大学として開学（1988年 明海大学に改称）",
+"access": "浦安キャンパス：千葉県浦安市明海／坂戸キャンパス（歯学部）：埼玉県坂戸市けやき台（Kei-Net）",
+"tuition": {
+"amount": 928000,
+"label": "入学金＋授業料（歯学部以外）",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 230000,
+"annual": null,
+"note": "歯学部は指定器具材料費（6年間で190万円程度）等が別途、口腔保健学科も指定器具材料費等が別途（Kei-Net 2026年度入学者用）",
+"rows": [
+{
+"f": "外国語学部",
+"admission": 230000,
+"tuition": 698000,
+"facility": 240000,
+"practical": null,
+"other": 37300,
+"first_year": 1205300,
+"four_year": null,
+"note": ""
+},
+{
+"f": "ホスピタリティ・ツーリズム学部（観光専攻）",
+"admission": 230000,
+"tuition": 698000,
+"facility": 340000,
+"practical": null,
+"other": 37300,
+"first_year": 1305300,
+"four_year": null,
+"note": "出典の表記は「観光、経営情報」"
+},
+{
+"f": "ホスピタリティ・ツーリズム学部（グローバル・マネジメント専攻）",
+"admission": 230000,
+"tuition": 698000,
+"facility": 440000,
+"practical": null,
+"other": 37300,
+"first_year": 1405300,
+"four_year": null,
+"note": ""
+},
+{
+"f": "経済学部（経済学科）",
+"admission": 230000,
+"tuition": 698000,
+"facility": 240000,
+"practical": null,
+"other": 37300,
+"first_year": 1205300,
+"four_year": null,
+"note": ""
+},
+{
+"f": "不動産学部（不動産学科）",
+"admission": 230000,
+"tuition": 698000,
+"facility": 240000,
+"practical": null,
+"other": 37300,
+"first_year": 1205300,
+"four_year": null,
+"note": ""
+},
+{
+"f": "歯学部（歯学科）",
+"admission": 400000,
+"tuition": 950000,
+"facility": 1180000,
+"practical": null,
+"other": 32000,
+"first_year": 2562000,
+"four_year": null,
+"note": "坂戸キャンパス"
+},
+{
+"f": "保健医療学部（口腔保健学科）",
+"admission": 230000,
+"tuition": 698000,
+"facility": 440000,
+"practical": null,
+"other": 37300,
+"first_year": 1405300,
+"four_year": null,
+"note": ""
+}
+]
+},
+"research": [
+"日本語・英米語・中国語",
+"観光・ホスピタリティ",
+"経済学",
+"不動産学",
+"歯学",
+"口腔保健（歯科衛生）"
+],
+"licenses": [
+"中学校・高校教諭一種（国語・英語・中国語）",
+"歯科医師国家試験受験資格（歯学部）",
+"歯科衛生士国家試験受験資格（口腔保健学科）",
+"社会福祉主事"
+],
+"careers": "2024年度卒業者の就職者比率は外国語85.6%、ホスピタリティ・ツーリズム89.7%、経済81.6%、不動産91.8%、保健医療91.6%（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2151",
+"https://search.keinet.ne.jp/2151/outline/department",
+"https://search.keinet.ne.jp/2151/outline/licential",
+"https://search.keinet.ne.jp/2151/outline/admission_employment",
+"https://search.keinet.ne.jp/outline/expense/2151",
+"https://search.keinet.ne.jp/2151/general/exam_result"
+]
+},
+"星薬科大学": {
+"faculties": [
+"薬学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"tuition": "2026-11-09",
+"money": "2026-11-09",
+"research": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "薬学部",
+"d": [
+"薬学科",
+"創薬科学科"
+]
+}
+],
+"students": {
+"count": 1745,
+"year": 2025
+},
+"founded": "1950年 星薬科大学設立（1941年 星薬学専門学校）",
+"access": "東京都品川区荏原のキャンパス（Kei-Net）",
+"tuition": {
+"amount": 1700000,
+"label": "入学金＋授業料（薬学科）",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 400000,
+"annual": null,
+"note": "「その他」は保険料。病院・薬局での実務実習などで実習費等を別途徴収する場合あり（Kei-Net 2026年度入学者用）",
+"rows": [
+{
+"f": "薬学部（薬学科）",
+"admission": 400000,
+"tuition": 1300000,
+"facility": 630000,
+"practical": null,
+"other": 71850,
+"first_year": 2401850,
+"four_year": null,
+"note": "6年制。other は諸会費68,000円＋保険料3,850円"
+},
+{
+"f": "薬学部（創薬科学科）",
+"admission": 400000,
+"tuition": 1000000,
+"facility": 630000,
+"practical": null,
+"other": 70650,
+"first_year": 2100650,
+"four_year": null,
+"note": "4年制。other は諸会費68,000円＋保険料2,650円"
+}
+]
+},
+"research": [
+"薬学（薬剤師養成）",
+"創薬科学"
+],
+"licenses": [
+"薬剤師国家試験受験資格（薬学科）"
+],
+"careers": "2024年度卒業者は薬学部300人のうち就職264人（就職者比率91.0%）、進学20人（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2280",
+"https://search.keinet.ne.jp/2280/outline/department",
+"https://search.keinet.ne.jp/2280/outline/licential",
+"https://search.keinet.ne.jp/2280/outline/admission_employment",
+"https://search.keinet.ne.jp/2280/outline/expense",
+"https://search.keinet.ne.jp/2280/general/exam_result"
 ]
 }
 }

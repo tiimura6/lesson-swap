@@ -1,34 +1,6 @@
 {
 "add": [
 {
-"name": "明星大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.meisei-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "明治薬科大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.my-pharm.ac.jp/",
-"cat": "private"
-},
-{
-"name": "明海大学",
-"type": "私立",
-"pref": "千葉県",
-"hp": "https://www.meikai.ac.jp/",
-"cat": "private"
-},
-{
-"name": "星薬科大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.hoshi.ac.jp/site/index.php",
-"cat": "private"
-},
-{
 "name": "昭和大学",
 "type": "私立",
 "pref": "東京都",
@@ -3868,6 +3840,94 @@
 "pref": "東京都",
 "hp": "https://www.redcross.ac.jp/",
 "cat": "private"
+},
+{
+"name": "明星大学",
+"type": "私立",
+"pref": "東京都",
+"hp": "https://www.meisei-u.ac.jp/",
+"cat": "private"
+},
+{
+"name": "明治薬科大学",
+"type": "私立",
+"pref": "東京都",
+"hp": "https://www.my-pharm.ac.jp/",
+"cat": "private"
+},
+{
+"name": "明海大学",
+"type": "私立",
+"pref": "千葉県",
+"hp": "https://www.meikai.ac.jp/",
+"cat": "private"
+},
+{
+"name": "星薬科大学",
+"type": "私立",
+"pref": "東京都",
+"hp": "https://www.hoshi.ac.jp/site/index.php",
+"cat": "private"
+},
+{
+"name": "筑紫女学園大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "筑紫女学園大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "純真学園大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "純真学園大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "聖マリア学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "聖マリア学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "西九州大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "西九州大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "西南女学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "西南女学院大学",
+"need": [
+"fees"
+]
 }
 ],
 "failed": [
@@ -15768,18 +15828,6 @@
 {
 "name": "筑紫女学園大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "筑紫女学園大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "筑紫女学園大学",
-"need": [
 "scholar"
 ]
 },
@@ -15787,18 +15835,6 @@
 "name": "純真学園大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "純真学園大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "純真学園大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -15816,18 +15852,6 @@
 {
 "name": "聖マリア学院大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "聖マリア学院大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "聖マリア学院大学",
-"need": [
 "scholar"
 ]
 },
@@ -15835,18 +15859,6 @@
 "name": "西九州大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "西九州大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "西九州大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -15859,18 +15871,6 @@
 "name": "西南女学院大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "西南女学院大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "西南女学院大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -26623,6 +26623,38 @@
 {
 "name": "日本赤十字看護大学",
 "keinet": "2274",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "明星大学",
+"keinet": "2289",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "明治薬科大学",
+"keinet": "2288",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "明海大学",
+"keinet": "2151",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "星薬科大学",
+"keinet": "2280",
 "need": [
 "extra",
 "partners"
