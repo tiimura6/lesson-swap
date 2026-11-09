@@ -94060,7 +94060,8 @@
 "https://search.keinet.ne.jp/1390/general/border_rate",
 "https://search.keinet.ne.jp/1390/general/exam_subject",
 "https://search.keinet.ne.jp/1390/outline/admission_employment",
-"https://search.keinet.ne.jp/1390/outline/expense"
+"https://search.keinet.ne.jp/1390/outline/expense",
+"https://www.ehime-u.ac.jp/wp-content/uploads/2026/04/00_2027_senbatsu.pdf"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -94345,7 +94346,8 @@
 "fdiff": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"schedule": "2026-11-09"
 },
 "departments": [
 {
@@ -94532,6 +94534,65 @@
 "first_year": 471660,
 "four_year": null,
 "note": "施設費なし。other は設備/実習/諸会費等（保険料・後援会費含む）。教科書代は別途（Kei-Net 2026年度入学者用）"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般 前期",
+"apply": "1/25〜2/3",
+"exam": "2/25",
+"result": "3/6",
+"proc": "3/15",
+"note": "教育学部・医学部は2/25・2/26。医学科の第1段階選抜発表2/10。手続は郵送のみ3/6〜3/15。出願期間は要項の表の読み取り（大学公式 令和9年度入学者選抜要項）"
+},
+{
+"kubun": "一般",
+"name": "一般 後期",
+"apply": "〜2/3",
+"exam": "3/12",
+"result": "3/20",
+"proc": "3/27",
+"note": "手続は郵送3/20〜3/27、持参3/26〜3/27（大学公式 令和9年度入学者選抜要項）"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型Ⅰ（共テなし）",
+"apply": "11/1〜11/6",
+"exam": "11/22",
+"result": "12/4",
+"proc": "12/16",
+"note": "出願情報登録10/16〜11/6。医学部は11/21・11/22"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型Ⅱ（共テあり）",
+"apply": "12/7〜12/11",
+"exam": "1/30",
+"result": "2/8",
+"proc": "2/17",
+"note": "出願情報登録11/20〜12/11。選抜期日は工学部などの例（学部により異なる）"
+},
+{
+"kubun": "総合",
+"name": "総合型Ⅰ（共テなし）",
+"apply": "9/18〜9/25",
+"exam": "10/17",
+"result": "11/4",
+"proc": "11/16",
+"note": "教育・社会共創・工学部の例（教育・社会共創は10/17・10/18）。医学部は出願9/1〜9/11、1次10/3・2次10/24〜25"
+},
+{
+"kubun": "総合",
+"name": "総合型Ⅱ（共テあり）",
+"apply": "11/1〜11/6",
+"exam": "11/22",
+"result": "2/8",
+"proc": "2/17",
+"note": "教育・工学部の例（学部により異なる）。法文・農学部は出願12/7〜12/11、選抜1/30"
 }
 ]
 }
@@ -96267,7 +96328,8 @@
 "sources": [
 "https://www.kyutech.ac.jp/media/001/202606/houkokusho2804.pdf",
 "https://www.nicjp.niad.ac.jp/en/institute/daigaku000074.html",
-"https://search.keinet.ne.jp/1415/outline/expense"
+"https://search.keinet.ne.jp/1415/outline/expense",
+"https://www.kyutech.ac.jp/archives/015/202606/R9_senbatsuyoko.pdf"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -96405,7 +96467,8 @@
 "fdiff": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"schedule": "2026-11-09"
 },
 "departments": [
 {
@@ -96540,6 +96603,56 @@
 "note": "施設費なし。other は設備/実習/諸会費等（保険料・後援会費を含む）（Kei-Net 2026年度入学者用）"
 }
 ]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般 前期",
+"apply": "1/25〜2/3",
+"exam": "2/25",
+"result": "3/8",
+"proc": "",
+"note": "工学部・情報工学部とも同日程、試験は戸畑キャンパス。手続締切は要項に記載なし（大学公式 令和9年度入学者選抜要項）"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型",
+"apply": "11/2〜11/6",
+"exam": "11/26または11/27",
+"result": "12/4",
+"proc": "",
+"note": "いずれか1日。工学部は戸畑、情報工学部は飯塚キャンパス"
+},
+{
+"kubun": "総合",
+"name": "総合型Ⅰ（共テなし）",
+"apply": "9/1〜9/7",
+"exam": "9/19・10/17または10/18",
+"result": "11/2",
+"proc": "",
+"note": "第1次9/19（予備日9/26、発表10/2）、第2次10/17または10/18"
+},
+{
+"kubun": "総合",
+"name": "総合型Ⅱ（共テあり）",
+"apply": "12/3〜12/9",
+"exam": "1/30または1/31",
+"result": "2/9",
+"proc": "",
+"note": "第1次は書類（発表12/25）"
+},
+{
+"kubun": "総合",
+"name": "総合型（IB）",
+"apply": "1/19〜1/21",
+"exam": "2/2",
+"result": "2/9",
+"proc": "",
+"note": "主にオンライン"
+}
+]
 }
 },
 "佐賀大学": {
@@ -96559,7 +96672,8 @@
 "licenses": "2026-11-06",
 "careers": "2026-11-06",
 "ratios": "2026-11-06",
-"qtrend": "2026-11-07"
+"qtrend": "2026-11-07",
+"schedule": "2026-11-09"
 },
 "faculties": [
 "経済学部",
@@ -96651,7 +96765,8 @@
 "https://search.keinet.ne.jp/1425/outline/department",
 "https://search.keinet.ne.jp/1425/outline/admission_employment",
 "https://search.keinet.ne.jp/1425/outline/licential",
-"https://search.keinet.ne.jp/1425/general/border_rate"
+"https://search.keinet.ne.jp/1425/general/border_rate",
+"https://www.sao.saga-u.ac.jp/PDF/R9/2027senbatuyoko.pdf"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -96749,6 +96864,65 @@
 }
 ],
 "note": "試験時間は問題冊子に記載なし。一般選抜は未確認"
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般 前期",
+"apply": "1/25〜2/3",
+"exam": "2/25",
+"result": "3/6",
+"proc": "3/15",
+"note": "医学部は2/25・2/26。手続期間3/7〜3/15。事前登録1/18〜（大学公式 2027年度入学者選抜要項）"
+},
+{
+"kubun": "一般",
+"name": "一般 後期",
+"apply": "",
+"exam": "3/12",
+"result": "3/20",
+"proc": "3/27",
+"note": "手続期間3/21〜3/27。出願期間は要項の表から読み取れず（大学公式）"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型Ⅰ",
+"apply": "11/1〜11/6",
+"exam": "11/27",
+"result": "12/7",
+"proc": "1/21",
+"note": "経済・理工・農学部の例。手続1/18〜1/21。事前登録10/25〜"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型Ⅱ（医学部医学科 一般枠）",
+"apply": "11/1〜11/6",
+"exam": "11/28",
+"result": "2/9",
+"proc": "2/17",
+"note": "手続2/11〜2/17"
+},
+{
+"kubun": "総合",
+"name": "総合型Ⅰ（理工学部）",
+"apply": "11/1〜11/6",
+"exam": "11/28",
+"result": "12/7",
+"proc": "1/21",
+"note": "手続1/18〜1/21。教育・芸術地域デザイン学部は出願9/10〜9/17、試験10/9、発表11/2"
+},
+{
+"kubun": "総合",
+"name": "総合型Ⅱ（共テ・書類）",
+"apply": "1/18〜1/28",
+"exam": "",
+"result": "2/9",
+"proc": "2/17",
+"note": "教育・経済・理工・農学部、コスメティックサイエンス学環。個別試験なし（共通テストと書類審査）"
+}
+]
 }
 },
 "大分大学": {
@@ -96960,7 +97134,8 @@
 "licenses": "2026-11-06",
 "careers": "2026-11-06",
 "ratios": "2026-11-06",
-"qtrend": "2026-11-07"
+"qtrend": "2026-11-07",
+"schedule": "2026-11-09"
 },
 "departments": [
 {
@@ -97026,7 +97201,8 @@
 "https://search.keinet.ne.jp/1455",
 "https://search.keinet.ne.jp/1455/outline/department",
 "https://search.keinet.ne.jp/1455/outline/licential",
-"https://search.keinet.ne.jp/1455/outline/admission_employment"
+"https://search.keinet.ne.jp/1455/outline/admission_employment",
+"https://www.miyazaki-u.ac.jp/exam/R9_senbatsuyoukou2027.pdf"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -97119,6 +97295,56 @@
 }
 ],
 "note": "試験時間は問題冊子に記載なし。出題意図は大学サイト（一般選抜における試験問題・解答例・出題意図）で公開"
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般 前期",
+"apply": "1/25〜2/3",
+"exam": "2/25・2/26",
+"result": "",
+"proc": "",
+"note": "工学部・農学部・地域資源創成学部・医学部看護学科は2/25のみ。合格発表・手続締切は要項の表から対応を読み取れず（大学公式 令和9年度入学者選抜要項）"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型Ⅰ（共テなし）",
+"apply": "11/2〜11/5",
+"exam": "11/16・11/17",
+"result": "12/4",
+"proc": "",
+"note": "工学部・農学部農学科の例。地域資源創成学部は11/21、教育学部は11/18"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型Ⅱ（共テあり）",
+"apply": "12/16〜12/18",
+"exam": "1/21・1/22",
+"result": "2/10",
+"proc": "",
+"note": "教育学部の例。医学部看護学科は出願11/2〜11/5・選抜11/24、医学科地域枠・獣医学科は出願12/2〜12/4・選抜12/16"
+},
+{
+"kubun": "総合",
+"name": "総合型Ⅰ（工学部）",
+"apply": "9/24〜9/28",
+"exam": "11/16",
+"result": "12/4",
+"proc": "",
+"note": "第1次発表10/20。農学部農学科は出願9/1〜9/3、第2次9/28・9/29、発表11/2"
+},
+{
+"kubun": "総合",
+"name": "総合型Ⅱ（農学部農学科）",
+"apply": "1/20〜1/26",
+"exam": "",
+"result": "2/10",
+"proc": "",
+"note": "書類選考"
+}
+]
 }
 },
 "琉球大学": {
@@ -97137,7 +97363,8 @@
 "research": "2026-11-06",
 "licenses": "2026-11-06",
 "careers": "2026-11-06",
-"ratios": "2026-11-06"
+"ratios": "2026-11-06",
+"schedule": "2026-11-09"
 },
 "faculties": [
 "人文社会学部",
@@ -97234,7 +97461,8 @@
 "https://search.keinet.ne.jp/1475/outline/department",
 "https://search.keinet.ne.jp/1475/outline/licential",
 "https://search.keinet.ne.jp/1475/general/border_rate",
-"https://search.keinet.ne.jp/1475/outline/admission_employment"
+"https://search.keinet.ne.jp/1475/outline/admission_employment",
+"https://www.u-ryukyu.ac.jp/wp-content/uploads/2026/08/R9nyushinittei.pdf"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -97321,6 +97549,56 @@
 }
 ],
 "note": "河合塾Kei-Net掲載の一般選抜入試結果（2025・2026年度入試）。unitは出典の学科表記"
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般 前期",
+"apply": "1/25〜2/3",
+"exam": "2/25・2/26",
+"result": "3/6",
+"proc": "3/15",
+"note": "試験日は学部により異なる。インターネット出願登録1/22〜2/3。手続3/8〜3/15（大学公式 令和9年度入試日程）"
+},
+{
+"kubun": "一般",
+"name": "一般 後期",
+"apply": "",
+"exam": "3/12",
+"result": "3/20",
+"proc": "3/27",
+"note": "教育学部は実施なし。手続3/23〜3/27。出願期間は資料から読み取れず"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型Ⅰ（共テなし）",
+"apply": "11/1〜11/6",
+"exam": "12/2",
+"result": "12/11",
+"proc": "12/25",
+"note": "国際地域創造・教育・農学部。手続12/14〜12/25"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型Ⅱ（共テあり）",
+"apply": "",
+"exam": "2/9",
+"result": "",
+"proc": "",
+"note": "人文社会・教育・理・医・工学部。出願期間・発表日は資料から読み取れず"
+},
+{
+"kubun": "総合",
+"name": "総合型Ⅰ（教育学部）",
+"apply": "9/1〜9/3",
+"exam": "9/8・9/29",
+"result": "11/1",
+"proc": "11/13",
+"note": "第1次9/8（発表9/16）、第2次9/29。手続11/5〜11/13"
+}
+]
 }
 },
 "福岡教育大学": {
@@ -194645,6 +194923,537 @@ null
 "https://search.keinet.ne.jp/2236/outline/licential",
 "https://search.keinet.ne.jp/2236/outline/admission_employment",
 "https://search.keinet.ne.jp/2236/general/exam_result"
+]
+},
+"日本栄養大学": {
+"difficulty": {
+"hensachi": "35.0〜50.0",
+"kyotei": "50%〜80%",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-09",
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"tuition": "2026-11-09",
+"money": "2026-11-09",
+"research": "2026-11-09",
+"licenses": "2026-11-09"
+},
+"faculties": [
+"栄養学部"
+],
+"departments": [
+{
+"f": "栄養学部",
+"d": [
+"実践栄養学科",
+"保健栄養学科（栄養イノベーション）",
+"保健栄養学科（保健養護）",
+"食文化栄養学科"
+]
+}
+],
+"students": {
+"count": 1718,
+"year": 2025
+},
+"founded": "1933年 家庭食養研究会発足、1961年 女子栄養大学設置（2026年 日本栄養大学に改称・共学化）",
+"access": "坂戸キャンパス：埼玉県坂戸市千代田3-9-21（Kei-Net）",
+"tuition": {
+"amount": 1155000,
+"label": "入学金＋授業料",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 275000,
+"annual": null,
+"note": "「その他」は調理学実習費と学用品費。教科書代・資格取得の経費・抗体検査費用は別途。タブレットが必要（Kei-Net）",
+"rows": [
+{
+"f": "栄養学部 実践栄養学科",
+"admission": 275000,
+"tuition": 880000,
+"facility": 542000,
+"practical": 280000,
+"other": 192500,
+"first_year": 2169500,
+"four_year": null,
+"note": "other は諸会費40,000円＋調理学実習費・学用品費152,500円。Kei-Netの表記は2025年度入学者（Kei-Net）"
+},
+{
+"f": "栄養学部 保健栄養学科（栄養イノベーション）",
+"admission": 275000,
+"tuition": 880000,
+"facility": 542000,
+"practical": 280000,
+"other": 196000,
+"first_year": 2173000,
+"four_year": null,
+"note": "other は諸会費40,000円＋調理学実習費・学用品費156,000円（Kei-Net 2026年度）"
+},
+{
+"f": "栄養学部 保健栄養学科（保健養護）",
+"admission": 275000,
+"tuition": 880000,
+"facility": 542000,
+"practical": 280000,
+"other": 119000,
+"first_year": 2096000,
+"four_year": null,
+"note": "other は諸会費40,000円＋調理学実習費・学用品費79,000円（Kei-Net 2026年度）"
+},
+{
+"f": "栄養学部 食文化栄養学科",
+"admission": 261000,
+"tuition": 817000,
+"facility": 542000,
+"practical": 258000,
+"other": 180900,
+"first_year": 2058900,
+"four_year": null,
+"note": "other は諸会費40,000円＋調理学実習費・学用品費140,900円（Kei-Net 2026年度）"
+}
+]
+},
+"research": [
+"実践栄養学（管理栄養士養成）",
+"栄養イノベーション・臨床検査",
+"保健養護（養護教諭養成）",
+"食文化栄養"
+],
+"licenses": [
+"管理栄養士受験資格・栄養士（実践栄養・栄養イノベーション）",
+"栄養教諭一種（実践栄養）",
+"食品衛生監視員（実践栄養・栄養イノベーション）",
+"中学・高校教諭一種（家庭）、臨床検査技師受験資格、バイオ技術者認定試験（栄養イノベーション）",
+"養護教諭一種、中学・高校教諭一種（保健）、高校教諭一種（看護）（保健養護）"
+],
+"sources": [
+"https://search.keinet.ne.jp/2226",
+"https://search.keinet.ne.jp/2226/outline/department",
+"https://search.keinet.ne.jp/2226/outline/licential",
+"https://search.keinet.ne.jp/2226/outline/expense",
+"https://search.keinet.ne.jp/2226/general/exam_result",
+"https://search.keinet.ne.jp/2226/general/border_rate"
+]
+},
+"女子美術大学": {
+"difficulty": {
+"hensachi": "35.0〜52.5",
+"kyotei": "46%〜71%",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-09",
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"tuition": "2026-11-09",
+"money": "2026-11-09",
+"research": "2026-11-09",
+"licenses": "2026-11-09"
+},
+"faculties": [
+"芸術学部"
+],
+"departments": [
+{
+"f": "芸術学部",
+"d": [
+"美術学科（洋画）",
+"美術学科（日本画）",
+"美術学科（立体アート）",
+"美術学科（美術教育）",
+"美術学科（国際芸術文化）",
+"デザイン・工芸学科（ヴィジュアルデザイン）",
+"デザイン・工芸学科（プロダクトデザイン）",
+"デザイン・工芸学科（環境デザイン）",
+"デザイン・工芸学科（工芸）",
+"アート・デザイン表現学科（メディア表現）",
+"アート・デザイン表現学科（ヒーリング表現）",
+"アート・デザイン表現学科（ファッション表現）",
+"アート・デザイン表現学科（スペース表現）",
+"アート・デザイン表現学科（クリエイティブ・プロデュース表現）",
+"共創デザイン学科"
+]
+}
+],
+"students": {
+"count": 2841,
+"year": 2025
+},
+"founded": "1900年 私立女子美術学校設立許可（1949年 女子美術大学発足）",
+"access": "相模原キャンパス：神奈川県相模原市南区麻溝台1900（美術、デザイン・工芸）／杉並キャンパス：東京都杉並区和田1-49-8（アート・デザイン表現、共創デザイン）（Kei-Net）",
+"tuition": {
+"amount": 1458000,
+"label": "入学金＋授業料",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 220000,
+"annual": null,
+"note": "全専攻で入学金220,000円・授業料1,238,000円・施設/教育充実費440,000円・諸会費10,160円。実習費は専攻により38,200〜71,200円（Kei-Net）",
+"rows": [
+{
+"f": "美術学科 洋画",
+"admission": 220000,
+"tuition": 1238000,
+"facility": 440000,
+"practical": 68000,
+"other": 10160,
+"first_year": 1976160,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度）"
+},
+{
+"f": "美術学科 日本画",
+"admission": 220000,
+"tuition": 1238000,
+"facility": 440000,
+"practical": 55000,
+"other": 10160,
+"first_year": 1963160,
+"four_year": null,
+"note": "（Kei-Net 2026年度）"
+},
+{
+"f": "美術学科 立体アート",
+"admission": 220000,
+"tuition": 1238000,
+"facility": 440000,
+"practical": 71200,
+"other": 10160,
+"first_year": 1979360,
+"four_year": null,
+"note": "（Kei-Net 2026年度）"
+},
+{
+"f": "美術学科 美術教育",
+"admission": 220000,
+"tuition": 1238000,
+"facility": 440000,
+"practical": 44000,
+"other": 10160,
+"first_year": 1952160,
+"four_year": null,
+"note": "（Kei-Net 2026年度）"
+},
+{
+"f": "美術学科 国際芸術文化",
+"admission": 220000,
+"tuition": 1238000,
+"facility": 440000,
+"practical": 38200,
+"other": 10160,
+"first_year": 1946360,
+"four_year": null,
+"note": "（Kei-Net 2026年度）"
+},
+{
+"f": "デザイン・工芸学科 ヴィジュアルデザイン",
+"admission": 220000,
+"tuition": 1238000,
+"facility": 440000,
+"practical": 50000,
+"other": 10160,
+"first_year": 1958160,
+"four_year": null,
+"note": "（Kei-Net 2026年度）"
+},
+{
+"f": "デザイン・工芸学科 環境デザイン",
+"admission": 220000,
+"tuition": 1238000,
+"facility": 440000,
+"practical": 54000,
+"other": 10160,
+"first_year": 1962160,
+"four_year": null,
+"note": "（Kei-Net 2026年度）"
+},
+{
+"f": "デザイン・工芸学科 プロダクトデザイン",
+"admission": 220000,
+"tuition": 1238000,
+"facility": 440000,
+"practical": 58000,
+"other": 10160,
+"first_year": 1966160,
+"four_year": null,
+"note": "（Kei-Net 2026年度）"
+},
+{
+"f": "デザイン・工芸学科 工芸",
+"admission": 220000,
+"tuition": 1238000,
+"facility": 440000,
+"practical": 68000,
+"other": 10160,
+"first_year": 1976160,
+"four_year": null,
+"note": "（Kei-Net 2026年度）"
+},
+{
+"f": "アート・デザイン表現学科",
+"admission": 220000,
+"tuition": 1238000,
+"facility": 440000,
+"practical": 68200,
+"other": 10160,
+"first_year": 1976360,
+"four_year": null,
+"note": "実習費に個人用ノートパソコン代を含む（Kei-Net 2026年度）"
+},
+{
+"f": "共創デザイン学科",
+"admission": 220000,
+"tuition": 1238000,
+"facility": 440000,
+"practical": 60000,
+"other": 10160,
+"first_year": 1968160,
+"four_year": null,
+"note": "実習費に個人用iPad代を含む（Kei-Net 2026年度）"
+}
+]
+},
+"research": [
+"洋画・日本画・立体アート",
+"美術教育・国際芸術文化",
+"ヴィジュアル・プロダクト・環境デザイン、工芸",
+"メディア・ヒーリング・ファッション・スペース表現",
+"共創デザイン"
+],
+"licenses": [
+"中学・高校教諭一種（美術）（共創デザイン学科以外）",
+"高校教諭一種（工芸）（デザイン・工芸学科）",
+"学芸員（共創デザイン学科以外）",
+"一級・二級・木造建築士受験資格（環境デザイン）"
+],
+"sources": [
+"https://search.keinet.ne.jp/2227",
+"https://search.keinet.ne.jp/2227/outline/department",
+"https://search.keinet.ne.jp/2227/outline/licential",
+"https://search.keinet.ne.jp/2227/outline/expense",
+"https://search.keinet.ne.jp/2227/general/exam_result",
+"https://search.keinet.ne.jp/2227/general/border_rate"
+]
+},
+"宇都宮共和大学": {
+"difficulty": {
+"hensachi": "BF〜37.5",
+"kyotei": "46%〜49%",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-09",
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"tuition": "2026-11-09",
+"money": "2026-11-09",
+"research": "2026-11-09",
+"licenses": "2026-11-09"
+},
+"faculties": [
+"子ども生活学部",
+"シティライフ学部"
+],
+"departments": [
+{
+"f": "子ども生活学部",
+"d": [
+"子ども生活学科"
+]
+},
+{
+"f": "シティライフ学部",
+"d": [
+"シティライフ学科"
+]
+}
+],
+"students": {
+"count": 392,
+"year": 2025
+},
+"founded": "1900年 須賀学園（共和裁縫女学校）創立、1999年 那須大学都市経済学部創設（2006年 シティライフ学部に改称）",
+"access": "宇都宮シティキャンパス：栃木県宇都宮市大通り1-3-18（シティライフ学部）／長坂キャンパス：宇都宮市下荒針町長坂3829（子ども生活学部）（Kei-Net）",
+"tuition": {
+"amount": 850000,
+"label": "入学金＋授業料",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 200000,
+"annual": null,
+"note": "保険料などは別途（Kei-Net）",
+"scholarships": [
+{
+"name": "須賀スカラーシップダイヤモンド奨学金",
+"what": "前年度成績優秀な2〜4年生若干名に年間授業料の全額または半額相当を給付（面接選考）"
+},
+{
+"name": "須賀スカラーシップホテル・観光奨学金",
+"what": "シティライフ学部でホテル・観光コースのゼミに所属し県内就職を希望する2〜4年生原則1名に授業料半額相当を給付"
+},
+{
+"name": "須賀スカラーシップ知識力奨学金",
+"what": "指定の資格試験の受験料実費相当を給付（同一試験3回まで）"
+},
+{
+"name": "授業料・入学金特待制度",
+"what": "特待制度のある入試区分で基準を満たした新入生に授業料（4年間）・入学金の全額または半額相当を給付"
+}
+],
+"rows": [
+{
+"f": "子ども生活学部",
+"admission": 200000,
+"tuition": 650000,
+"facility": 370000,
+"practical": 90000,
+"other": null,
+"first_year": 1310000,
+"four_year": null,
+"note": "（Kei-Net 2026年度）"
+},
+{
+"f": "シティライフ学部",
+"admission": 200000,
+"tuition": 650000,
+"facility": 270000,
+"practical": null,
+"other": null,
+"first_year": 1120000,
+"four_year": null,
+"note": "（Kei-Net 2026年度）"
+}
+]
+},
+"research": [
+"保育・幼児教育",
+"まちづくり・経済・ホテル観光"
+],
+"licenses": [
+"保育士・幼稚園教諭一種（子ども生活学部）",
+"中学校教諭一種（社会）・高校教諭一種（公民）（シティライフ学部）",
+"社会福祉主事（両学部）"
+],
+"sources": [
+"https://search.keinet.ne.jp/2126",
+"https://search.keinet.ne.jp/2126/outline/department",
+"https://search.keinet.ne.jp/2126/outline/licential",
+"https://search.keinet.ne.jp/2126/outline/expense",
+"https://search.keinet.ne.jp/2126/outline/scholarship",
+"https://search.keinet.ne.jp/2126/general/exam_result",
+"https://search.keinet.ne.jp/2126/general/border_rate"
+]
+},
+"実践女子大学": {
+"difficulty": {
+"hensachi": "40.0〜50.0",
+"kyotei": "54%〜72%",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-09",
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"research": "2026-11-09",
+"licenses": "2026-11-09"
+},
+"faculties": [
+"文学部",
+"人間社会学部",
+"国際学部",
+"食科学部",
+"生活科学部",
+"環境デザイン学部"
+],
+"departments": [
+{
+"f": "文学部",
+"d": [
+"国文学科",
+"英文学科",
+"美学美術史学科"
+]
+},
+{
+"f": "人間社会学部",
+"d": [
+"人間社会学科",
+"ビジネス社会学科",
+"社会デザイン学科"
+]
+},
+{
+"f": "国際学部",
+"d": [
+"国際学科"
+]
+},
+{
+"f": "食科学部",
+"d": [
+"食科学科（食デザイン）",
+"食科学科（健康栄養）",
+"管理栄養学科"
+]
+},
+{
+"f": "生活科学部",
+"d": [
+"生活学科（生活心理）",
+"生活学科（幼児保育）",
+"現代生活学科"
+]
+},
+{
+"f": "環境デザイン学部",
+"d": [
+"環境デザイン学科"
+]
+}
+],
+"founded": "1882年 下田学校創設、1899年 実践女学校創立、1949年 実践女子大学設立",
+"access": "渋谷キャンパス：東京都渋谷区東1-1-49（文・人間社会・国際）／日野キャンパス：東京都日野市大坂上4-1-1（食科学・生活科学・環境デザイン）（Kei-Net）",
+"research": [
+"国文学・英文学・美学美術史",
+"社会学・ビジネス・社会デザイン",
+"国際学",
+"食デザイン・健康栄養・管理栄養",
+"生活心理・幼児保育・現代生活",
+"環境デザイン（建築・衣料）"
+],
+"licenses": [
+"中学・高校教諭一種（国語・英語・美術・社会/公民・家庭）、高校教諭一種（書道）",
+"小学校教諭一種・幼稚園教諭一種・保育士（生活学科 幼児保育）",
+"管理栄養士受験資格・栄養士・栄養教諭（管理栄養学科、食科学科 健康栄養）",
+"公認心理師受験資格・認定心理士（人間社会学部、生活学科 生活心理）",
+"一級・二級建築士受験資格、衣料管理士1級受験資格（環境デザイン学科）",
+"司書・学芸員（文学部・人間社会学部）、学校図書館司書教諭、社会調査士、フードスペシャリスト"
+],
+"sources": [
+"https://search.keinet.ne.jp/2218",
+"https://search.keinet.ne.jp/2218/outline/department",
+"https://search.keinet.ne.jp/2218/outline/licential",
+"https://search.keinet.ne.jp/2218/general/exam_result",
+"https://search.keinet.ne.jp/2218/general/border_rate"
 ]
 }
 }

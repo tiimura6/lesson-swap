@@ -1,41 +1,6 @@
 {
 "add": [
 {
-"name": "女子栄養大学",
-"type": "私立",
-"pref": "埼玉県",
-"hp": "https://www.eiyo.ac.jp/",
-"cat": "private"
-},
-{
-"name": "女子美術大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.joshibi.ac.jp/",
-"cat": "private"
-},
-{
-"name": "学習院女子大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.gwc.gakushuin.ac.jp/",
-"cat": "private"
-},
-{
-"name": "宇都宮共和大学",
-"type": "私立",
-"pref": "栃木県",
-"hp": "http://www.kyowa-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "実践女子大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.jissen.ac.jp/",
-"cat": "private"
-},
-{
 "name": "尚美学園大学",
 "type": "私立",
 "pref": "埼玉県",
@@ -578,6 +543,13 @@
 "type": "私立",
 "pref": "千葉県",
 "hp": "https://www.cis.ac.jp/",
+"cat": "private"
+},
+{
+"name": "学習院女子大学",
+"type": "私立",
+"pref": "東京都",
+"hp": "https://www.gwc.gakushuin.ac.jp/",
 "cat": "private"
 }
 ],
@@ -3527,6 +3499,56 @@
 "need": [
 "fees"
 ]
+},
+{
+"name": "女子栄養大学",
+"type": "私立",
+"pref": "埼玉県",
+"hp": "https://www.eiyo.ac.jp/",
+"cat": "private",
+"note": "2026年4月に日本栄養大学へ名称変更・共学化（Kei-Net）。日本栄養大学として追加"
+},
+{
+"name": "徳島大学",
+"keinet": "1370",
+"need": [
+"schedule_dates"
+],
+"note": "Kei-Net日程は12月下旬掲載予定（2026-11-09確認）。公式の令和9年度要項は検索で見つからず"
+},
+{
+"name": "愛媛大学",
+"keinet": "1390",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "九州工業大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "佐賀大学",
+"keinet": "1425",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "宮崎大学",
+"keinet": "1455",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "琉球大学",
+"keinet": "1475",
+"need": [
+"schedule_dates"
+]
 }
 ],
 "failed": [
@@ -3604,7 +3626,10 @@
 "富山大学": 1,
 "山梨大学": 1,
 "浜松医科大学": 1,
-"島根大学": 1
+"島根大学": 1,
+"学習院女子大学": 1,
+"高知大学": 1,
+"大分大学": 1
 },
 "enrich": [
 {
@@ -6492,61 +6517,6 @@
 "name": "九州産業大学",
 "need": [
 "verify"
-]
-},
-{
-"name": "徳島大学",
-"keinet": "1370",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "愛媛大学",
-"keinet": "1390",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "高知大学",
-"keinet": "1395",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "九州工業大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "佐賀大学",
-"keinet": "1425",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "大分大学",
-"keinet": "1445",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "宮崎大学",
-"keinet": "1455",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "琉球大学",
-"keinet": "1475",
-"need": [
-"schedule_dates"
 ]
 },
 {
@@ -26477,6 +26447,59 @@
 "need": [
 "extra",
 "partners"
+]
+},
+{
+"name": "日本栄養大学",
+"keinet": "2226",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "女子美術大学",
+"keinet": "2227",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "宇都宮共和大学",
+"keinet": "2126",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "実践女子大学",
+"keinet": "2218",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "実践女子大学",
+"keinet": "2218",
+"need": [
+"fees"
+]
+},
+{
+"name": "高知大学",
+"keinet": "1395",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大分大学",
+"keinet": "1445",
+"need": [
+"schedule_dates"
 ]
 }
 ],
