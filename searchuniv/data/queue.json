@@ -1,34 +1,6 @@
 {
 "add": [
 {
-"name": "国立音楽大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.kunitachi.ac.jp/",
-"cat": "private"
-},
-{
-"name": "国際武道大学",
-"type": "私立",
-"pref": "千葉県",
-"hp": "https://www.budo-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "城西国際大学",
-"type": "私立",
-"pref": "千葉県",
-"hp": "https://www.jiu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "城西大学",
-"type": "私立",
-"pref": "埼玉県",
-"hp": "https://www.josai.ac.jp/",
-"cat": "private"
-},
-{
 "name": "埼玉医科大学",
 "type": "私立",
 "pref": "埼玉県",
@@ -3470,6 +3442,76 @@
 "need": [
 "fees"
 ]
+},
+{
+"name": "奈良教育大学",
+"keinet": "1325",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "滋賀医科大学",
+"keinet": "1275",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "山口大学",
+"keinet": "1365",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "奈良教育大学",
+"keinet": "1325",
+"need": [
+"fees"
+]
+},
+{
+"name": "滋賀医科大学",
+"keinet": "1275",
+"need": [
+"fees"
+]
+},
+{
+"name": "滋賀大学",
+"keinet": "1270",
+"need": [
+"fees"
+]
+},
+{
+"name": "山口大学",
+"keinet": "1365",
+"need": [
+"fees"
+]
+},
+{
+"name": "島根大学",
+"keinet": "1345",
+"need": [
+"fees"
+]
+},
+{
+"name": "徳島大学",
+"keinet": "1370",
+"need": [
+"fees"
+]
+},
+{
+"name": "愛媛大学",
+"keinet": "1390",
+"need": [
+"fees"
+]
 }
 ],
 "failed": [
@@ -6437,27 +6479,6 @@
 ]
 },
 {
-"name": "奈良教育大学",
-"keinet": "1325",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "滋賀医科大学",
-"keinet": "1275",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "山口大学",
-"keinet": "1365",
-"need": [
-"schedule_dates"
-]
-},
-{
 "name": "島根大学",
 "keinet": "1345",
 "need": [
@@ -6634,55 +6655,6 @@
 "keinet": "1510",
 "need": [
 "schedule_dates"
-]
-},
-{
-"name": "奈良教育大学",
-"keinet": "1325",
-"need": [
-"fees"
-]
-},
-{
-"name": "滋賀医科大学",
-"keinet": "1275",
-"need": [
-"fees"
-]
-},
-{
-"name": "滋賀大学",
-"keinet": "1270",
-"need": [
-"fees"
-]
-},
-{
-"name": "山口大学",
-"keinet": "1365",
-"need": [
-"fees"
-]
-},
-{
-"name": "島根大学",
-"keinet": "1345",
-"need": [
-"fees"
-]
-},
-{
-"name": "徳島大学",
-"keinet": "1370",
-"need": [
-"fees"
-]
-},
-{
-"name": "愛媛大学",
-"keinet": "1390",
-"need": [
-"fees"
 ]
 },
 {
@@ -26448,6 +26420,38 @@
 {
 "name": "国士舘大学",
 "keinet": "2215",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "国立音楽大学",
+"keinet": "2209",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "国際武道大学",
+"keinet": "2173",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "城西国際大学",
+"keinet": "2175",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "城西大学",
+"keinet": "2152",
 "need": [
 "extra",
 "partners"
