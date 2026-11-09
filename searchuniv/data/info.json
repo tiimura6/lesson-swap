@@ -94558,7 +94558,8 @@
 "note": "Kei-Net・大学公式ページが取得できず、一般選抜・推薦・総合型とも未確認"
 },
 "sources": [
-"https://jpcup.niad.ac.jp/cn/institute/0516.html"
+"https://jpcup.niad.ac.jp/cn/institute/0516.html",
+"https://search.keinet.ne.jp/1380/outline/expense"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -94730,7 +94731,8 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "departments": "2026-11-06",
-"ratios": "2026-11-06"
+"ratios": "2026-11-06",
+"money": "2026-11-09"
 },
 "departments": [
 {
@@ -94859,6 +94861,82 @@
 }
 ],
 "note": "河合塾Kei-Net掲載の一般選抜入試結果（2025・2026年度入試）。unitは出典の学科表記。Kei-Netコードは一覧に無く検索で判明した1380を使用。教育・創造工は2026年度に募集区分が変わったため両年は厳密には比較不可。医学部前期はKei-Net値(2025:3.3)と大学公式2025年度実施状況からの計算値(医学科3.5)が一致しないため未収録"
+},
+"money": {
+"year": "2026年度",
+"total4": 2425200,
+"total4_note": "入学金＋授業料4年（諸会費等含まず）。医学部医学科は6年で3,496,800円",
+"admission": 282000,
+"annual": 535800,
+"note": "全学部共通。ノートパソコンが別途必要（Kei-Net）",
+"rows": [
+{
+"f": "教育学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": 0,
+"practical": null,
+"other": null,
+"first_year": 817800,
+"four_year": null,
+"note": "施設費なし。設備/実習/諸会費等・保険料・後援会費は記載なし（Kei-Net 2026年度入学者用）"
+},
+{
+"f": "法学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": 0,
+"practical": null,
+"other": null,
+"first_year": 817800,
+"four_year": null,
+"note": "施設費なし。設備/実習/諸会費等・保険料・後援会費は記載なし（Kei-Net 2026年度入学者用）"
+},
+{
+"f": "経済学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": 0,
+"practical": null,
+"other": null,
+"first_year": 817800,
+"four_year": null,
+"note": "施設費なし。設備/実習/諸会費等・保険料・後援会費は記載なし（Kei-Net 2026年度入学者用）"
+},
+{
+"f": "医学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": 0,
+"practical": null,
+"other": null,
+"first_year": 817800,
+"four_year": null,
+"note": "施設費なし。設備/実習/諸会費等・保険料・後援会費は記載なし（Kei-Net 2026年度入学者用）"
+},
+{
+"f": "創造工学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": 0,
+"practical": null,
+"other": null,
+"first_year": 817800,
+"four_year": null,
+"note": "施設費なし。設備/実習/諸会費等・保険料・後援会費は記載なし（Kei-Net 2026年度入学者用）"
+},
+{
+"f": "農学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": 0,
+"practical": null,
+"other": null,
+"first_year": 817800,
+"four_year": null,
+"note": "施設費なし。設備/実習/諸会費等・保険料・後援会費は記載なし（Kei-Net 2026年度入学者用）"
+}
+]
 }
 },
 "高知大学": {
@@ -94914,7 +94992,8 @@
 "https://search.keinet.ne.jp/1395/outline/department",
 "https://search.keinet.ne.jp/1395/outline/campus",
 "https://search.keinet.ne.jp/1395/general/border_rate",
-"https://search.keinet.ne.jp/1395/outline/admission_employment"
+"https://search.keinet.ne.jp/1395/outline/admission_employment",
+"https://manabi.benesse.ne.jp/daigaku/school/1415/gakuhi/index.html"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -95177,7 +95256,8 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "departments": "2026-11-06",
-"ratios": "2026-11-06"
+"ratios": "2026-11-06",
+"money": "2026-11-09"
 },
 "departments": [
 {
@@ -95325,6 +95405,82 @@
 }
 ],
 "note": "河合塾Kei-Net掲載の一般選抜入試結果（2025・2026年度入試）。unitは出典の学科表記"
+},
+"money": {
+"year": "2027年度",
+"total4": 2425200,
+"total4_note": "入学金＋授業料4年（諸会費等含まず）。医学部医学科は6年で3,496,800円",
+"admission": 282000,
+"annual": 535800,
+"note": "全学共通の入学料・授業料（2027年度予定額）。施設費・諸会費は記載なし（マナビジョン）",
+"rows": [
+{
+"f": "人文社会科学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": 0,
+"practical": null,
+"other": null,
+"first_year": null,
+"four_year": null,
+"note": "入学料・授業料は2027年度予定額。施設費・その他の費用は記載なし（ベネッセ マナビジョン）"
+},
+{
+"f": "地域協働学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": 0,
+"practical": null,
+"other": null,
+"first_year": null,
+"four_year": null,
+"note": "入学料・授業料は2027年度予定額。施設費・その他の費用は記載なし（ベネッセ マナビジョン）"
+},
+{
+"f": "教育学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": 0,
+"practical": null,
+"other": null,
+"first_year": null,
+"four_year": null,
+"note": "入学料・授業料は2027年度予定額。施設費・その他の費用は記載なし（ベネッセ マナビジョン）"
+},
+{
+"f": "理工学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": 0,
+"practical": null,
+"other": null,
+"first_year": null,
+"four_year": null,
+"note": "入学料・授業料は2027年度予定額。施設費・その他の費用は記載なし（ベネッセ マナビジョン）"
+},
+{
+"f": "農林海洋科学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": 0,
+"practical": null,
+"other": null,
+"first_year": null,
+"four_year": null,
+"note": "入学料・授業料は2027年度予定額。施設費・その他の費用は記載なし（ベネッセ マナビジョン）"
+},
+{
+"f": "医学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": 0,
+"practical": null,
+"other": null,
+"first_year": null,
+"four_year": null,
+"note": "入学料・授業料は2027年度予定額。施設費・その他の費用は記載なし（ベネッセ マナビジョン）"
+}
+]
 }
 },
 "鳥取大学": {
@@ -95924,7 +96080,8 @@
 "note": "一般選抜（前期・後期）・推薦・総合型とも未確認（Kei-Net のページを開けなかったため）"
 },
 "sources": [
-"https://www.mext.go.jp/content/20211126-mxt_hojinka-000019165_f68-2.pdf"
+"https://www.mext.go.jp/content/20211126-mxt_hojinka-000019165_f68-2.pdf",
+"https://search.keinet.ne.jp/1375/outline/expense"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -95963,7 +96120,8 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "departments": "2026-11-06",
-"ratios": "2026-11-06"
+"ratios": "2026-11-06",
+"money": "2026-11-09"
 },
 "departments": [
 {
@@ -96061,6 +96219,27 @@
 }
 ],
 "note": "河合塾Kei-Net掲載の一般選抜入試結果（2025・2026年度入試）。unitは出典の学科表記。Kei-Netコードは一覧に無く、検索で判明した1375を使用"
+},
+"money": {
+"year": "2025年度",
+"total4": 2425200,
+"total4_note": "入学金＋授業料4年（諸会費等含まず）",
+"admission": 282000,
+"annual": 535800,
+"note": "保険料が別途必要（Kei-Net）",
+"rows": [
+{
+"f": "学校教育学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": 0,
+"practical": null,
+"other": null,
+"first_year": 817800,
+"four_year": null,
+"note": "施設費なし。保険料は別途（金額の記載なし）（Kei-Net 2025年度入学者用）"
+}
+]
 }
 },
 "九州工業大学": {
@@ -96087,7 +96266,8 @@
 },
 "sources": [
 "https://www.kyutech.ac.jp/media/001/202606/houkokusho2804.pdf",
-"https://www.nicjp.niad.ac.jp/en/institute/daigaku000074.html"
+"https://www.nicjp.niad.ac.jp/en/institute/daigaku000074.html",
+"https://search.keinet.ne.jp/1415/outline/expense"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -96224,7 +96404,8 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "departments": "2026-11-06",
-"ratios": "2026-11-06"
+"ratios": "2026-11-06",
+"money": "2026-11-09"
 },
 "departments": [
 {
@@ -96327,6 +96508,38 @@
 }
 ],
 "note": "河合塾Kei-Net掲載の一般選抜入試結果（2025・2026年度入試）。unitは出典の学科表記。Kei-Netコードは一覧に無く検索で判明した1415を使用。2026年度に工学部の募集単位が工学1〜5類から類別に改組されたため、2025年の学科別値は比較不可で未収録"
+},
+"money": {
+"year": "2026年度",
+"total4": 2425200,
+"total4_note": "入学金＋授業料4年（諸会費等含まず）",
+"admission": 282000,
+"annual": 535800,
+"note": "初年度は設備/実習/諸会費等82,300円（保険料・後援会費を含む）が別途。ノートパソコンの購入が必要（Kei-Net）",
+"rows": [
+{
+"f": "工学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": 0,
+"practical": null,
+"other": 82300,
+"first_year": 900100,
+"four_year": null,
+"note": "施設費なし。other は設備/実習/諸会費等（保険料・後援会費を含む）（Kei-Net 2026年度入学者用）"
+},
+{
+"f": "情報工学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": 0,
+"practical": null,
+"other": 82300,
+"first_year": 900100,
+"four_year": null,
+"note": "施設費なし。other は設備/実習/諸会費等（保険料・後援会費を含む）（Kei-Net 2026年度入学者用）"
+}
+]
 }
 },
 "佐賀大学": {
@@ -193529,6 +193742,909 @@ null
 "https://search.keinet.ne.jp/2239/outline/licential",
 "https://search.keinet.ne.jp/2239/outline/admission_employment",
 "https://search.keinet.ne.jp/2239/general/exam_result"
+]
+},
+"多摩美術大学": {
+"faculties": [
+"美術学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"tuition": "2026-11-09",
+"money": "2026-11-09",
+"research": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "美術学部",
+"d": [
+"絵画学科 日本画専攻",
+"絵画学科 油画専攻",
+"絵画学科 版画・プリントメディア専攻",
+"彫刻学科",
+"工芸学科",
+"グラフィックデザイン学科",
+"生産デザイン学科 プロダクトデザイン専攻",
+"生産デザイン学科 テキスタイルデザイン専攻",
+"建築・環境デザイン学科",
+"情報デザイン学科 メディア芸術専攻",
+"情報デザイン学科 情報デザイン専攻",
+"芸術学科",
+"統合デザイン学科",
+"演劇舞踊デザイン学科 演劇舞踊専攻",
+"演劇舞踊デザイン学科 劇場美術デザイン専攻"
+]
+}
+],
+"students": {
+"count": 4447,
+"year": 2025
+},
+"founded": "1935年 多摩帝国美術学校として創設（1953年 大学設置）",
+"access": "八王子キャンパス（八王子市鑓水）、上野毛キャンパス（世田谷区上野毛）（Kei-Net）",
+"tuition": {
+"amount": 1477000,
+"label": "入学金＋授業料",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 230000,
+"annual": null,
+"note": "授業料1,247,000円・施設/教育充実費等400,000円は全学科共通。実習費・預り金が学科で異なる（Kei-Net。一部学科は2025年度の額）",
+"rows": [
+{
+"f": "美術学部 絵画学科 日本画専攻",
+"admission": 230000,
+"tuition": 1247000,
+"facility": 400000,
+"practical": 48000,
+"other": 119000,
+"first_year": 2044000,
+"four_year": null,
+"note": "other は諸会費＋預り金（Kei-Net）（2026年度）"
+},
+{
+"f": "美術学部 絵画学科 油画専攻",
+"admission": 230000,
+"tuition": 1247000,
+"facility": 400000,
+"practical": 38000,
+"other": 45000,
+"first_year": 1960000,
+"four_year": null,
+"note": "other は諸会費＋預り金（Kei-Net）（2026年度）"
+},
+{
+"f": "美術学部 絵画学科 版画専攻",
+"admission": 230000,
+"tuition": 1247000,
+"facility": 400000,
+"practical": 38000,
+"other": 91500,
+"first_year": 2006500,
+"four_year": null,
+"note": "other は諸会費＋預り金（Kei-Net）（2026年度）"
+},
+{
+"f": "美術学部 彫刻学科",
+"admission": 230000,
+"tuition": 1247000,
+"facility": 400000,
+"practical": 63000,
+"other": 119000,
+"first_year": 2059000,
+"four_year": null,
+"note": "other は諸会費＋預り金（Kei-Net）（2026年度）"
+},
+{
+"f": "美術学部 工芸学科",
+"admission": 230000,
+"tuition": 1247000,
+"facility": 400000,
+"practical": 48000,
+"other": 70000,
+"first_year": 1995000,
+"four_year": null,
+"note": "other は諸会費＋預り金（Kei-Net）（2025年度）"
+},
+{
+"f": "美術学部 グラフィックデザイン学科・情報デザイン学科 情報デザイン専攻",
+"admission": 230000,
+"tuition": 1247000,
+"facility": 400000,
+"practical": 38000,
+"other": 30000,
+"first_year": 1945000,
+"four_year": null,
+"note": "other は諸会費＋預り金（Kei-Net）（2025年度）"
+},
+{
+"f": "美術学部 生産デザイン学科 プロダクトデザイン専攻",
+"admission": 230000,
+"tuition": 1247000,
+"facility": 400000,
+"practical": 38000,
+"other": 90000,
+"first_year": 2005000,
+"four_year": null,
+"note": "other は諸会費＋預り金（Kei-Net）（2025年度）"
+},
+{
+"f": "美術学部 生産デザイン学科 テキスタイルデザイン専攻・演劇舞踊デザイン学科",
+"admission": 230000,
+"tuition": 1247000,
+"facility": 400000,
+"practical": 38000,
+"other": 80000,
+"first_year": 1995000,
+"four_year": null,
+"note": "other は諸会費＋預り金（Kei-Net）（2025年度）"
+},
+{
+"f": "美術学部 建築・環境デザイン学科",
+"admission": 230000,
+"tuition": 1247000,
+"facility": 400000,
+"practical": 38000,
+"other": 70000,
+"first_year": 1985000,
+"four_year": null,
+"note": "other は諸会費＋預り金（Kei-Net）（2025年度）"
+},
+{
+"f": "美術学部 芸術学科",
+"admission": 230000,
+"tuition": 1247000,
+"facility": 400000,
+"practical": 32000,
+"other": 48000,
+"first_year": 1957000,
+"four_year": null,
+"note": "other は諸会費＋預り金（Kei-Net）（2025年度）"
+},
+{
+"f": "美術学部 統合デザイン学科",
+"admission": 230000,
+"tuition": 1247000,
+"facility": 400000,
+"practical": 38000,
+"other": 50000,
+"first_year": 1965000,
+"four_year": null,
+"note": "other は諸会費＋預り金（Kei-Net）（2025年度）"
+}
+]
+},
+"research": [
+"絵画・彫刻・工芸などの美術表現",
+"グラフィック・プロダクト・テキスタイル・情報デザイン",
+"建築・環境デザイン、演劇舞踊・劇場美術デザイン、芸術学"
+],
+"licenses": [
+"中学校教諭一種（美術）",
+"高校教諭一種（美術）",
+"高校教諭一種（情報）（情報デザイン専攻）",
+"学芸員",
+"一級・二級建築士受験資格（建築・環境デザイン学科）"
+],
+"careers": "2024年度の美術学部卒業者979人のうち進学114人（11.6%）、就職506人（53.0%）（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2241",
+"https://search.keinet.ne.jp/2241/outline/department",
+"https://search.keinet.ne.jp/2241/outline/expense",
+"https://search.keinet.ne.jp/2241/outline/licential",
+"https://search.keinet.ne.jp/2241/outline/admission_employment",
+"https://search.keinet.ne.jp/2241/general/exam_result"
+]
+},
+"大妻女子大学": {
+"faculties": [
+"文学部",
+"比較文化学部",
+"社会情報学部",
+"人間共生学部",
+"家政学部",
+"データサイエンス学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"tuition": "2026-11-09",
+"money": "2026-11-09",
+"research": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "文学部",
+"d": [
+"日本文学科",
+"英語英文学科",
+"コミュニケーション文化学科"
+]
+},
+{
+"f": "比較文化学部",
+"d": [
+"比較文化学科"
+]
+},
+{
+"f": "社会情報学部",
+"d": [
+"社会情報学科 社会生活情報学専攻",
+"社会情報学科 環境デザイン専攻",
+"社会情報学科 情報デザイン専攻"
+]
+},
+{
+"f": "人間共生学部",
+"d": [
+"社会学科",
+"心理学科",
+"福祉学科",
+"共生デザイン学科"
+]
+},
+{
+"f": "家政学部",
+"d": [
+"被服学科",
+"食物学科 食物学専攻",
+"食物学科 管理栄養士専攻",
+"児童学科 児童学専攻",
+"児童学科 児童教育専攻",
+"ライフデザイン学科"
+]
+},
+{
+"f": "データサイエンス学部",
+"d": [
+"データサイエンス学科"
+]
+}
+],
+"students": {
+"count": 6808,
+"year": 2025
+},
+"founded": "1908年 裁縫・手芸の家塾として創設（1949年 大学設置）",
+"access": "千代田キャンパス（千代田区三番町）、多摩キャンパス（多摩市唐木田）（Kei-Net）",
+"tuition": {
+"amount": 895000,
+"label": "入学金＋授業料（文学部）",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 150000,
+"annual": null,
+"note": "学部・学科で異なる。実験実習の材料費は実費、資格の課程履修費は別途（Kei-Net）",
+"rows": [
+{
+"f": "文学部",
+"admission": 150000,
+"tuition": 745000,
+"facility": 470000,
+"practical": null,
+"other": 35250,
+"first_year": 1400250,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）。実験実習材料費・課程履修費は別途"
+},
+{
+"f": "比較文化学部",
+"admission": 150000,
+"tuition": 775000,
+"facility": 470000,
+"practical": null,
+"other": 35250,
+"first_year": 1430250,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）。実験実習材料費・課程履修費は別途"
+},
+{
+"f": "社会情報学部",
+"admission": 150000,
+"tuition": 815000,
+"facility": 480000,
+"practical": null,
+"other": 35250,
+"first_year": 1480250,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）。実験実習材料費・課程履修費は別途"
+},
+{
+"f": "人間共生学部",
+"admission": 150000,
+"tuition": 805000,
+"facility": 470000,
+"practical": null,
+"other": 35250,
+"first_year": 1460250,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）。実験実習材料費・課程履修費は別途"
+},
+{
+"f": "家政学部 被服学科",
+"admission": 150000,
+"tuition": 775000,
+"facility": 480000,
+"practical": null,
+"other": 35250,
+"first_year": 1440250,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）。実験実習材料費・課程履修費は別途"
+},
+{
+"f": "家政学部 食物学科 食物学専攻",
+"admission": 150000,
+"tuition": 805000,
+"facility": 480000,
+"practical": null,
+"other": 35250,
+"first_year": 1470250,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）。実験実習材料費・課程履修費は別途"
+},
+{
+"f": "家政学部 食物学科 管理栄養士専攻",
+"admission": 150000,
+"tuition": 895000,
+"facility": 480000,
+"practical": null,
+"other": 35250,
+"first_year": 1560250,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）。実験実習材料費・課程履修費は別途"
+},
+{
+"f": "家政学部 児童学科",
+"admission": 150000,
+"tuition": 855000,
+"facility": 470000,
+"practical": null,
+"other": 35250,
+"first_year": 1510250,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）。実験実習材料費・課程履修費は別途"
+},
+{
+"f": "家政学部 ライフデザイン学科",
+"admission": 150000,
+"tuition": 765000,
+"facility": 470000,
+"practical": null,
+"other": 35250,
+"first_year": 1420250,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）。実験実習材料費・課程履修費は別途"
+},
+{
+"f": "データサイエンス学部",
+"admission": 150000,
+"tuition": 875000,
+"facility": 480000,
+"practical": null,
+"other": 35250,
+"first_year": 1540250,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）。実験実習材料費・課程履修費は別途"
+}
+]
+},
+"research": [
+"日本文学・英語英文・コミュニケーション文化・比較文化",
+"社会情報・環境デザイン・情報デザイン、データサイエンス",
+"被服・食物・児童・ライフデザイン、社会・心理・福祉"
+],
+"licenses": [
+"中学・高校教諭一種（国語・英語・理科・家庭）",
+"高校教諭一種（情報）",
+"小学校教諭一種",
+"幼稚園教諭一種",
+"保育士",
+"栄養士",
+"管理栄養士受験資格",
+"栄養教諭",
+"公認心理師受験資格",
+"社会福祉士受験資格",
+"精神保健福祉士受験資格",
+"介護福祉士受験資格",
+"二級建築士受験資格",
+"衣料管理士1級",
+"司書",
+"学芸員"
+],
+"careers": "2024年度の学士課程卒業者（学部別）の就職率は文85.5%、比較文化85.3%、社会情報92.8%、家政89.9%、人間関係89.9%（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2202",
+"https://search.keinet.ne.jp/2202/outline/department",
+"https://search.keinet.ne.jp/2202/outline/expense",
+"https://search.keinet.ne.jp/2202/outline/licential",
+"https://search.keinet.ne.jp/2202/outline/admission_employment",
+"https://search.keinet.ne.jp/2202/general/exam_result"
+]
+},
+"大東文化大学": {
+"faculties": [
+"文学部",
+"外国語学部",
+"社会学部",
+"国際関係学部",
+"法学部",
+"経済学部",
+"経営学部",
+"スポーツ・健康科学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"tuition": "2026-11-09",
+"money": "2026-11-09",
+"research": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "文学部",
+"d": [
+"日本文学科",
+"中国文学科",
+"英米文学科",
+"教育学科",
+"書道学科",
+"歴史文化学科"
+]
+},
+{
+"f": "外国語学部",
+"d": [
+"中国語学科",
+"英語学科",
+"日本語学科"
+]
+},
+{
+"f": "社会学部",
+"d": [
+"社会学科"
+]
+},
+{
+"f": "国際関係学部",
+"d": [
+"国際関係学科",
+"国際文化学科"
+]
+},
+{
+"f": "法学部",
+"d": [
+"法律学科",
+"政治学科"
+]
+},
+{
+"f": "経済学部",
+"d": [
+"社会経済学科",
+"現代経済学科"
+]
+},
+{
+"f": "経営学部",
+"d": [
+"経営学科"
+]
+},
+{
+"f": "スポーツ・健康科学部",
+"d": [
+"スポーツ科学科",
+"健康科学科",
+"看護学科"
+]
+}
+],
+"students": {
+"count": 12019,
+"year": 2025
+},
+"founded": "1923年 大東文化学院として創設（1949年 東京文政大学開学、1953年 大東文化大学に改称）",
+"access": "東京板橋キャンパス（板橋区高島平）、埼玉東松山キャンパス（東松山市岩殿）（Kei-Net）",
+"tuition": {
+"amount": 980000,
+"label": "入学金＋授業料（法・経済・経営・社会）",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 230000,
+"annual": null,
+"note": "学部・学科で異なる。文・外国語は2025年度入学者用の額。資格課程履修料などは別途（Kei-Net）",
+"rows": [
+{
+"f": "文学部（日本文・中国文・英米文・歴史文化）",
+"admission": 230000,
+"tuition": 770000,
+"facility": 271000,
+"practical": null,
+"other": 24900,
+"first_year": 1295900,
+"four_year": null,
+"note": "other は諸会費（Kei-Net）（2025年度）"
+},
+{
+"f": "文学部 教育学科",
+"admission": 230000,
+"tuition": 790000,
+"facility": 295000,
+"practical": null,
+"other": 23900,
+"first_year": 1338900,
+"four_year": null,
+"note": "other は諸会費（Kei-Net）（2025年度）"
+},
+{
+"f": "文学部 書道学科",
+"admission": 230000,
+"tuition": 900000,
+"facility": 271000,
+"practical": 80000,
+"other": 24900,
+"first_year": 1505900,
+"four_year": null,
+"note": "other は諸会費（Kei-Net）（2025年度）"
+},
+{
+"f": "外国語学部",
+"admission": 230000,
+"tuition": 770000,
+"facility": 271000,
+"practical": null,
+"other": 24900,
+"first_year": 1295900,
+"four_year": null,
+"note": "other は諸会費（Kei-Net）（2025年度）"
+},
+{
+"f": "社会学部",
+"admission": 230000,
+"tuition": 750000,
+"facility": 271000,
+"practical": null,
+"other": 24900,
+"first_year": 1275900,
+"four_year": null,
+"note": "other は諸会費（Kei-Net）（2026年度）"
+},
+{
+"f": "国際関係学部",
+"admission": 230000,
+"tuition": 770000,
+"facility": 271000,
+"practical": null,
+"other": 24900,
+"first_year": 1295900,
+"four_year": null,
+"note": "other は諸会費（Kei-Net）（2026年度）"
+},
+{
+"f": "法学部",
+"admission": 230000,
+"tuition": 750000,
+"facility": 271000,
+"practical": null,
+"other": 22900,
+"first_year": 1273900,
+"four_year": null,
+"note": "other は諸会費（Kei-Net）（2026年度）"
+},
+{
+"f": "経済学部",
+"admission": 230000,
+"tuition": 750000,
+"facility": 271000,
+"practical": null,
+"other": 20900,
+"first_year": 1271900,
+"four_year": null,
+"note": "other は諸会費（Kei-Net）（2026年度）"
+},
+{
+"f": "経営学部",
+"admission": 230000,
+"tuition": 750000,
+"facility": 271000,
+"practical": null,
+"other": 20900,
+"first_year": 1271900,
+"four_year": null,
+"note": "other は諸会費（Kei-Net）（2026年度）"
+},
+{
+"f": "スポーツ・健康科学部 スポーツ科学科",
+"admission": 230000,
+"tuition": 845000,
+"facility": 336000,
+"practical": 50000,
+"other": 24900,
+"first_year": 1485900,
+"four_year": null,
+"note": "other は諸会費（Kei-Net）（2026年度）"
+},
+{
+"f": "スポーツ・健康科学部 健康科学科",
+"admission": 230000,
+"tuition": 995000,
+"facility": 336000,
+"practical": 250000,
+"other": 24900,
+"first_year": 1835900,
+"four_year": null,
+"note": "other は諸会費（Kei-Net）（2026年度）"
+},
+{
+"f": "スポーツ・健康科学部 看護学科",
+"admission": 230000,
+"tuition": 1030000,
+"facility": 380000,
+"practical": 350000,
+"other": 24900,
+"first_year": 2014900,
+"four_year": null,
+"note": "other は諸会費（Kei-Net）（2026年度）"
+}
+]
+},
+"research": [
+"日本・中国・英米文学、書道、歴史文化、教育",
+"中国語・英語・日本語、国際関係・国際文化",
+"法律・政治・経済・経営、社会学、スポーツ科学・健康科学・看護"
+],
+"licenses": [
+"中学・高校教諭一種（国語・英語・社会/地理歴史・公民・中国語・保健体育・理科）",
+"高校教諭一種（書道・商業）",
+"小学校教諭一種",
+"幼稚園教諭一種",
+"保育士",
+"養護教諭二種",
+"看護師受験資格",
+"保健師受験資格",
+"臨床検査技師受験資格",
+"社会教育主事",
+"司書",
+"学芸員"
+],
+"careers": "2024年度の学士課程卒業者（学部別）の就職率は84.5〜94.7%（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2235",
+"https://search.keinet.ne.jp/2235/outline/department",
+"https://search.keinet.ne.jp/2235/outline/expense",
+"https://search.keinet.ne.jp/2235/outline/licential",
+"https://search.keinet.ne.jp/2235/outline/admission_employment",
+"https://search.keinet.ne.jp/2235/general/exam_result"
+]
+},
+"大正大学": {
+"faculties": [
+"文学部",
+"臨床心理学部",
+"仏教学部",
+"表現学部",
+"地域創生学部",
+"人間学部",
+"情報科学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"tuition": "2026-11-09",
+"money": "2026-11-09",
+"research": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "文学部",
+"d": [
+"日本文学科",
+"人文学科",
+"歴史学科"
+]
+},
+{
+"f": "臨床心理学部",
+"d": [
+"臨床心理学科"
+]
+},
+{
+"f": "仏教学部",
+"d": [
+"仏教学科"
+]
+},
+{
+"f": "表現学部",
+"d": [
+"表現文化学科",
+"メディア表現学科"
+]
+},
+{
+"f": "地域創生学部",
+"d": [
+"地域創生学科",
+"公共政策学科"
+]
+},
+{
+"f": "人間学部",
+"d": [
+"人間科学科",
+"社会福祉学科"
+]
+},
+{
+"f": "情報科学部",
+"d": [
+"グリーンデジタル情報学科",
+"デジタル文化財情報学科"
+]
+}
+],
+"students": {
+"count": 4783,
+"year": 2025
+},
+"founded": "1926年 大正大学設立（1949年 新制大学）",
+"access": "東京都豊島区西巣鴨のキャンパス（Kei-Net）",
+"tuition": {
+"amount": 1150000,
+"label": "入学金＋授業料（文・仏教・臨床心理など）",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 200000,
+"annual": null,
+"note": "学部・学科で異なる。授業料・施設設備費は分納可。情報科学部は演習・実習費用が別途（Kei-Net）",
+"rows": [
+{
+"f": "文学部",
+"admission": 200000,
+"tuition": 950000,
+"facility": 250000,
+"practical": null,
+"other": 12500,
+"first_year": 1412500,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）"
+},
+{
+"f": "臨床心理学部",
+"admission": 200000,
+"tuition": 950000,
+"facility": 250000,
+"practical": null,
+"other": 12500,
+"first_year": 1412500,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）"
+},
+{
+"f": "仏教学部",
+"admission": 200000,
+"tuition": 950000,
+"facility": 250000,
+"practical": null,
+"other": 12500,
+"first_year": 1412500,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）"
+},
+{
+"f": "表現学部",
+"admission": 200000,
+"tuition": 1000000,
+"facility": 250000,
+"practical": null,
+"other": 12500,
+"first_year": 1462500,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）"
+},
+{
+"f": "地域創生学部",
+"admission": 200000,
+"tuition": 1000000,
+"facility": 250000,
+"practical": null,
+"other": 12500,
+"first_year": 1462500,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）"
+},
+{
+"f": "人間学部 人間科学科",
+"admission": 200000,
+"tuition": 950000,
+"facility": 250000,
+"practical": null,
+"other": 12500,
+"first_year": 1412500,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）"
+},
+{
+"f": "人間学部 社会福祉学科",
+"admission": 200000,
+"tuition": 1000000,
+"facility": 250000,
+"practical": null,
+"other": 12500,
+"first_year": 1462500,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）"
+},
+{
+"f": "情報科学部",
+"admission": 200000,
+"tuition": 1200000,
+"facility": 250000,
+"practical": null,
+"other": 12500,
+"first_year": 1662500,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）"
+}
+]
+},
+"research": [
+"日本文学・人文学・歴史学、仏教学",
+"臨床心理学、人間科学・社会福祉",
+"表現文化・メディア表現、地域創生・公共政策、デジタル情報・デジタル文化財"
+],
+"licenses": [
+"中学・高校教諭一種（国語・英語・社会/地理歴史・公民・宗教）",
+"高校教諭一種（書道）",
+"公認心理師受験資格",
+"社会福祉士受験資格",
+"精神保健福祉士受験資格",
+"認定心理士",
+"社会調査士",
+"司書",
+"学芸員"
+],
+"careers": "2024年度の学士課程卒業者（学部別）の就職率は74.4〜92.1%（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2236",
+"https://search.keinet.ne.jp/2236/outline/department",
+"https://search.keinet.ne.jp/2236/outline/expense",
+"https://search.keinet.ne.jp/2236/outline/licential",
+"https://search.keinet.ne.jp/2236/outline/admission_employment",
+"https://search.keinet.ne.jp/2236/general/exam_result"
 ]
 }
 }

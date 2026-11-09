@@ -1,34 +1,6 @@
 {
 "add": [
 {
-"name": "多摩美術大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.tamabi.ac.jp/index_j.htm",
-"cat": "private"
-},
-{
-"name": "大妻女子大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.otsuma.ac.jp/",
-"cat": "private"
-},
-{
-"name": "大東文化大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.daito.ac.jp/",
-"cat": "private"
-},
-{
-"name": "大正大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.tais.ac.jp/",
-"cat": "private"
-},
-{
 "name": "女子栄養大学",
 "type": "私立",
 "pref": "埼玉県",
@@ -3510,6 +3482,51 @@
 "schedule_dates"
 ],
 "note": "Kei-Net日程は12月下旬掲載予定（2026-11-09確認）"
+},
+"多摩美術大学",
+"大妻女子大学",
+"大東文化大学",
+"大正大学",
+{
+"name": "香川大学",
+"need": [
+"schedule_dates"
+],
+"keinet": "1380",
+"note": "Kei-Net日程は12月下旬掲載予定（2026-11-09確認）"
+},
+{
+"name": "鳴門教育大学",
+"need": [
+"schedule_dates"
+],
+"keinet": "1375",
+"note": "Kei-Net日程は12月下旬掲載予定（2026-11-09確認）"
+},
+{
+"name": "香川大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "高知大学",
+"keinet": "1395",
+"need": [
+"fees"
+]
+},
+{
+"name": "鳴門教育大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "九州工業大学",
+"need": [
+"fees"
+]
 }
 ],
 "failed": [
@@ -6492,20 +6509,8 @@
 ]
 },
 {
-"name": "香川大学",
-"need": [
-"schedule_dates"
-]
-},
-{
 "name": "高知大学",
 "keinet": "1395",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "鳴門教育大学",
 "need": [
 "schedule_dates"
 ]
@@ -6640,31 +6645,6 @@
 "keinet": "1510",
 "need": [
 "schedule_dates"
-]
-},
-{
-"name": "香川大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "高知大学",
-"keinet": "1395",
-"need": [
-"fees"
-]
-},
-{
-"name": "鳴門教育大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "九州工業大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -26465,6 +26445,38 @@
 "keinet": "1345",
 "need": [
 "schedule_dates"
+]
+},
+{
+"name": "多摩美術大学",
+"keinet": "2241",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "大妻女子大学",
+"keinet": "2202",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "大東文化大学",
+"keinet": "2235",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "大正大学",
+"keinet": "2236",
+"need": [
+"extra",
+"partners"
 ]
 }
 ],
