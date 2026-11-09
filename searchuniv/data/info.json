@@ -110598,7 +110598,7 @@
 "_checked": {
 "faculties": "2026-11-07",
 "departments": "2026-11-07",
-"money": "2026-11-07",
+"money": "2026-11-09",
 "access": "2026-11-07",
 "licenses": "2026-11-07",
 "careers": "2026-11-07",
@@ -110634,7 +110634,41 @@
 "practical": null,
 "other": 43300,
 "first_year": 1143300,
-"four_year": null
+"four_year": null,
+"note": "大学公式。Kei-Net（2026年度入学者用）では授業料660,000円・諸会費40,000円・保険料3,300円で初年度1,103,300円"
+},
+{
+"f": "経済学部（兵庫）",
+"admission": 190000,
+"tuition": 660000,
+"facility": 210000,
+"practical": null,
+"other": 43300,
+"first_year": 1103300,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用。other は諸会費40,000円＋保険料3,300円。Kei-Netの表記は「経済(兵庫)(商)」"
+},
+{
+"f": "経営学部（東京）経営・グローバルビジネス・芸創プロデュース学科",
+"admission": 200000,
+"tuition": 660000,
+"facility": 450000,
+"practical": null,
+"other": 43300,
+"first_year": 1353300,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用。other は諸会費40,000円＋保険料3,300円。グローバルビジネス学科は留学プログラム費用が別途"
+},
+{
+"f": "経営学部（東京）デジタルビジネス・マネジメント学科",
+"admission": 200000,
+"tuition": 920000,
+"facility": 600000,
+"practical": null,
+"other": 43300,
+"first_year": 1763300,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用。other は諸会費40,000円＋保険料3,300円"
 }
 ]
 },
@@ -110650,7 +110684,8 @@
 "https://www.jue.ac.jp/juken/entry_tuition_fukuoka/",
 "https://manabi.benesse.ne.jp/daigaku/school/3880/",
 "https://search.keinet.ne.jp/2706",
-"https://search.keinet.ne.jp/2706/general/schedule"
+"https://search.keinet.ne.jp/2706/general/schedule",
+"https://search.keinet.ne.jp/2706/outline/expense"
 ],
 "students": {
 "count": 6236,
@@ -110721,7 +110756,9 @@
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"schedule": "2026-11-09",
+"money": "2026-11-09"
 },
 "departments": [
 {
@@ -110744,13 +110781,94 @@
 "https://www.jrckicn.ac.jp/faculty/faculty11/",
 "https://www.jrckicn.ac.jp/students/",
 "https://manabi.benesse.ne.jp/daigaku/school/3893/",
-"https://www.jrckicn.ac.jp/graduate/graduate-course/history/"
+"https://www.jrckicn.ac.jp/graduate/graduate-course/history/",
+"https://search.keinet.ne.jp/2721/general/schedule",
+"https://search.keinet.ne.jp/2721/general/exam_fee",
+"https://search.keinet.ne.jp/2721/outline/expense"
 ],
 "students": {
 "count": 425,
 "year": 2025
 },
-"founded": "2001年開学"
+"founded": "2001年開学",
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅰ期",
+"apply": "〜1/21（消印）",
+"exam": "2/3",
+"result": "2/12",
+"proc": "2/26",
+"fee": null,
+"note": "検定料は2027年度分が未確認（2026年度入試は一般30,000円・共テ利用15,000円・6看護大学連携併願20,000円、割引あり）（Kei-Net）"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期",
+"apply": "〜2/26（消印）",
+"exam": "3/8",
+"result": "3/12",
+"proc": "3/18",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅰ期",
+"apply": "〜1/21（消印）",
+"exam": null,
+"result": "2/12",
+"proc": "2/26",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 6大学連携併願",
+"apply": "〜2/19（消印）",
+"exam": null,
+"result": "3/2",
+"proc": "3/9",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅱ期",
+"apply": "〜2/26（消印）",
+"exam": null,
+"result": "3/12",
+"proc": "3/18",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅲ期",
+"apply": "〜3/11（消印）",
+"exam": null,
+"result": "3/18",
+"proc": "3/25",
+"fee": null
+}
+]
+},
+"money": {
+"year": "2026年度",
+"admission": 300000,
+"note": "テキスト代・実習服代等は別途実費（Kei-Net 2026年度入学者用）",
+"rows": [
+{
+"f": "看護学部",
+"admission": 300000,
+"tuition": 1100000,
+"facility": 200000,
+"practical": 200000,
+"other": null,
+"first_year": 1800000,
+"four_year": null,
+"note": "諸会費は記載なし"
+}
+]
+}
 },
 "沖縄キリスト教学院大学": {
 "faculties": [
@@ -110765,7 +110883,9 @@
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"schedule": "2026-11-09",
+"money": "2026-11-09"
 },
 "departments": [
 {
@@ -110799,13 +110919,59 @@
 "https://www.ocjc.ac.jp/",
 "https://www.ocjc.ac.jp/campuslife/support/scholar/",
 "https://manabi.benesse.ne.jp/daigaku/school/3979/",
-"https://search.keinet.ne.jp/2804"
+"https://search.keinet.ne.jp/2804",
+"https://search.keinet.ne.jp/2804/general/schedule",
+"https://search.keinet.ne.jp/2804/general/exam_fee",
+"https://search.keinet.ne.jp/2804/general/exam_subject",
+"https://search.keinet.ne.jp/2804/outline/expense"
 ],
 "students": {
 "count": 542,
 "year": 2025
 },
-"founded": "2004年開学（前身：沖縄キリスト教短期大学［1959年開学］、沖縄キリスト教学院［1957年創設］）"
+"founded": "2004年開学（前身：沖縄キリスト教短期大学［1959年開学］、沖縄キリスト教学院［1957年創設］）",
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 前期",
+"apply": "〜1/22（消印）",
+"exam": "2/8",
+"result": "2/17",
+"proc": "2/25",
+"fee": null,
+"note": "検定料は2027年度分が未確認（2026年度入試は一般30,000円、割引あり）。人文学部（英語コミュニケーション・観光文化）共通（Kei-Net）"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期",
+"apply": "〜3/1（必着）",
+"exam": "3/5",
+"result": "3/10",
+"proc": "3/15",
+"fee": null
+}
+]
+},
+"money": {
+"year": "2026年度",
+"admission": 130000,
+"note": "実習費は実習予定年度に希望者のみ、教職科目履修料は履修者のみ別途（Kei-Net 2026年度入学者用）",
+"rows": [
+{
+"f": "人文学部",
+"admission": 130000,
+"tuition": 660000,
+"facility": 160000,
+"practical": null,
+"other": 24660,
+"first_year": 974660,
+"four_year": null,
+"note": "other は諸会費"
+}
+]
+}
 },
 "産業医科大学": {
 "faculties": [
@@ -110817,7 +110983,7 @@
 "departments": "2026-11-07",
 "methods": "2026-11-07",
 "schedule": "2026-11-07",
-"money": "2026-11-07",
+"money": "2026-11-09",
 "scholar": "2026-11-07",
 "access": "2026-11-07",
 "licenses": "2026-11-07",
@@ -110879,9 +111045,10 @@
 "tuition": 3115000,
 "facility": 1300000,
 "practical": 500000,
-"other": 0,
-"first_year": 5915000,
-"four_year": null
+"other": 257800,
+"first_year": 6172800,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）"
 },
 {
 "f": "医学部（修学資金貸与適用後の実質負担額）",
@@ -110889,31 +111056,57 @@
 "tuition": 535800,
 "facility": 1300000,
 "practical": 0,
-"other": 0,
-"first_year": 2117800,
-"four_year": null
+"other": 257800,
+"first_year": 2375600,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）"
 },
 {
-"f": "産業保健学部（学生納入金定額）",
+"f": "産業保健学部 看護学科（学生納入金定額）",
 "admission": 282000,
 "tuition": 765000,
 "facility": 170000,
 "practical": 80000,
-"other": 0,
-"first_year": 1297000,
-"four_year": null
+"other": 135370,
+"first_year": 1432370,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）"
 },
 {
-"f": "産業保健学部（修学資金貸与適用後の実質負担額）",
+"f": "産業保健学部 産業衛生科学科（学生納入金定額）",
+"admission": 282000,
+"tuition": 765000,
+"facility": 170000,
+"practical": 80000,
+"other": 134660,
+"first_year": 1431660,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）"
+},
+{
+"f": "産業保健学部 看護学科（修学資金貸与適用後の実質負担額）",
 "admission": 282000,
 "tuition": 535800,
 "facility": 170000,
 "practical": 80000,
-"other": 0,
-"first_year": 1067800,
-"four_year": null
+"other": 135370,
+"first_year": 1203170,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）"
+},
+{
+"f": "産業保健学部 産業衛生科学科（修学資金貸与適用後の実質負担額）",
+"admission": 282000,
+"tuition": 535800,
+"facility": 170000,
+"practical": 80000,
+"other": 134660,
+"first_year": 1202460,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度入学者用）"
 }
-]
+],
+"note": "修学資金の貸与で入学者全員に学生納入金の一部が貸与される（医学部3,797,200円、産業保健学部229,200円）（Kei-Net）"
 },
 "scholar": {
 "year": "2027年度",
@@ -110949,7 +111142,8 @@
 "https://www.uoeh-u.ac.jp/University/College/kokai/tuition.html",
 "https://www.uoeh-u.ac.jp/library/nyusi/R9_igaku_ippan_bosyuyoko.pdf",
 "https://manabi.benesse.ne.jp/daigaku/school/3877/",
-"https://www.uoeh-u.ac.jp/University/Corporation/50th_uoeh.html"
+"https://www.uoeh-u.ac.jp/University/Corporation/50th_uoeh.html",
+"https://search.keinet.ne.jp/2723/outline/expense"
 ],
 "students": {
 "count": 1012,
@@ -110968,7 +111162,7 @@
 "faculties": "2026-11-07",
 "departments": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-09",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "licenses": "2026-11-07",
@@ -111030,11 +111224,12 @@
 {
 "kubun": "一般",
 "name": "一般選抜試験（前期日程）",
-"apply": null,
-"exam": null,
+"apply": "1/4〜1/7（郵消）",
+"exam": "2/1",
 "result": "2/10",
-"proc": null,
-"fee": null
+"proc": "3/11",
+"fee": null,
+"note": "全学部・学科同じ日程。検定料は未確認（マナビジョン）"
 }
 ]
 },
@@ -111066,7 +111261,8 @@
 "https://www.okiu.ac.jp/admissions/examination_system/ippan",
 "https://www.okiu.ac.jp/information/school_expenses/freshman",
 "https://www.okiu.ac.jp/information/number/student",
-"https://kotobank.jp/word/%E6%B2%96%E7%B8%84%E5%9B%BD%E9%9A%9B%E5%A4%A7%E5%AD%A6-165514"
+"https://kotobank.jp/word/%E6%B2%96%E7%B8%84%E5%9B%BD%E9%9A%9B%E5%A4%A7%E5%AD%A6-165514",
+"https://manabi.benesse.ne.jp/daigaku/school/3977/nyushi/"
 ],
 "students": {
 "count": 5280,
@@ -203176,6 +203372,215 @@ null
 "https://search.keinet.ne.jp/2327/outline/admission_employment",
 "https://search.keinet.ne.jp/2327/outline/campus",
 "https://search.keinet.ne.jp/2327/general/exam_result"
+]
+},
+"東京医科大学": {
+"faculties": [
+"医学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "医学部",
+"d": [
+"医学科",
+"看護学科"
+]
+}
+],
+"students": {
+"count": 1103,
+"year": 2025
+},
+"founded": "1946年 大学設立認可（1918年 東京医学専門学校として設立認可）",
+"access": "新宿キャンパス（新宿区新宿、医学部1・2年・看護学科）：東京メトロ新宿御苑前駅から徒歩7分。西新宿キャンパス（新宿区西新宿、医学部3〜6年・看護学科）：東京メトロ西新宿駅から徒歩1分。ほかに八王子キャンパス・茨城キャンパス（阿見町）で臨床実習など（Kei-Net）",
+"licenses": [
+"医師国家試験受験資格",
+"看護師国家試験受験資格",
+"保健師国家試験受験資格",
+"養護教諭二種免許"
+],
+"careers": "2024年度の医学部卒業者186人のうち就職73人、進学6人（Kei-Net。医学科卒業生の臨床研修は「その他」に含まれる場合がある）。",
+"sources": [
+"https://search.keinet.ne.jp/2246",
+"https://search.keinet.ne.jp/2246/outline/department",
+"https://search.keinet.ne.jp/2246/outline/campus",
+"https://search.keinet.ne.jp/2246/outline/licential",
+"https://search.keinet.ne.jp/2246/outline/admission_employment",
+"https://search.keinet.ne.jp/2246/general/exam_result",
+"https://search.keinet.ne.jp/2246/recommend/exam_rec"
+]
+},
+"東京基督教大学": {
+"faculties": [
+"神学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "神学部",
+"d": [
+"神学・国際教養学科"
+]
+}
+],
+"students": {
+"count": 94,
+"year": 2025
+},
+"founded": "1990年 神学部開設（1881年 偕成伝道女学校として設立）",
+"access": "千葉県印西市内野：北総線千葉ニュータウン中央駅からちばレインボーバス「電話局」下車徒歩7分（Kei-Net）",
+"careers": "2024年度卒業者45人のうち進学17人（37.8%）、就職9人（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2183",
+"https://search.keinet.ne.jp/2183/outline/department",
+"https://search.keinet.ne.jp/2183/outline/campus",
+"https://search.keinet.ne.jp/2183/outline/admission_employment",
+"https://search.keinet.ne.jp/2183/general/exam_result"
+]
+},
+"東京国際大学": {
+"faculties": [
+"言語コミュニケーション学部",
+"人間社会学部",
+"国際関係学部",
+"経済学部",
+"商学部",
+"医療健康学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "言語コミュニケーション学部",
+"d": [
+"英語コミュニケーション学科"
+]
+},
+{
+"f": "人間社会学部",
+"d": [
+"心理カウンセリング学科",
+"人間スポーツ学科",
+"スポーツ科学科"
+]
+},
+{
+"f": "国際関係学部",
+"d": [
+"国際関係学科",
+"国際メディア学科"
+]
+},
+{
+"f": "経済学部",
+"d": [
+"現代経済専攻",
+"ビジネスエコノミクス専攻"
+]
+},
+{
+"f": "商学部",
+"d": [
+"マーケティング学科",
+"経営学科"
+]
+},
+{
+"f": "医療健康学部",
+"d": [
+"理学療法学科"
+]
+}
+],
+"students": {
+"count": 7477,
+"year": 2025
+},
+"founded": "1965年 国際商科大学として創学（1986年 東京国際大学に校名変更）",
+"access": "川越第1キャンパス（埼玉県川越市的場北：人間社会・国際関係（国際メディア）・商・医療健康）、池袋キャンパス（東京都豊島区東池袋：言語コミュニケーション・国際関係（国際関係）・経済など）（Kei-Net）",
+"licenses": [
+"中学校・高等学校教諭一種（英語）",
+"中学校・高等学校教諭一種（保健体育）",
+"公認心理師（受験資格）",
+"認定心理士",
+"健康運動実践指導者（受験資格）",
+"理学療法士国家試験受験資格",
+"社会福祉主事任用資格"
+],
+"careers": "2024年度学士課程卒業者1,355人のうち就職1,213人、進学61人（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2148",
+"https://search.keinet.ne.jp/2148/outline/department",
+"https://search.keinet.ne.jp/2148/outline/licential",
+"https://search.keinet.ne.jp/2148/outline/admission_employment",
+"https://search.keinet.ne.jp/2148/general/exam_result",
+"https://search.keinet.ne.jp/2148/general/exam_subject"
+]
+},
+"東京女子体育大学": {
+"faculties": [
+"体育学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "体育学部",
+"d": [
+"体育学科"
+]
+}
+],
+"students": {
+"count": 1064,
+"year": 2025
+},
+"founded": "1962年 大学創設（1902年 私立東京女子体操学校として設立）",
+"access": "東京都国立市富士見台：JR南武線西国立駅・矢川駅から徒歩約8分、JR国立駅からバス「富士見台四丁目」下車徒歩約3分（Kei-Net）",
+"licenses": [
+"中学校教諭一種（保健体育）",
+"高等学校教諭一種（保健体育）",
+"健康運動実践指導者（受験資格）"
+],
+"careers": "2024年度卒業者294人のうち進学10人、就職率86.1%（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2256",
+"https://search.keinet.ne.jp/2256/outline/department",
+"https://search.keinet.ne.jp/2256/outline/campus",
+"https://search.keinet.ne.jp/2256/outline/licential",
+"https://search.keinet.ne.jp/2256/outline/admission_employment",
+"https://search.keinet.ne.jp/2256/general/exam_result",
+"https://search.keinet.ne.jp/2256/general/exam_subject"
 ]
 }
 }

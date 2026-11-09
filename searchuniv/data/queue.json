@@ -1,34 +1,6 @@
 {
 "add": [
 {
-"name": "東京医科大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.tokyo-med.ac.jp/",
-"cat": "private"
-},
-{
-"name": "東京国際大学",
-"type": "私立",
-"pref": "埼玉県",
-"hp": "https://www.tiu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "東京基督教大学",
-"type": "私立",
-"pref": "千葉県",
-"hp": "https://www.tci.ac.jp/",
-"cat": "private"
-},
-{
-"name": "東京女子体育大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.twcpe.ac.jp/",
-"cat": "private"
-},
-{
 "name": "東京女子医科大学",
 "type": "私立",
 "pref": "東京都",
@@ -3997,6 +3969,52 @@
 "need": [
 "schedule_dates"
 ]
+},
+"東京医科大学",
+"東京基督教大学",
+"東京国際大学",
+"東京女子体育大学",
+{
+"name": "日本赤十字九州国際看護大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "日本赤十字九州国際看護大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "沖縄キリスト教学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "沖縄キリスト教学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "産業医科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "沖縄国際大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "日本経済大学",
+"need": [
+"fees"
+]
 }
 ],
 "failed": [
@@ -4059,7 +4077,7 @@
 "別府大学": 1,
 "南九州大学": 1,
 "宮崎国際大学": 1,
-"沖縄国際大学": 1,
+"沖縄国際大学": 2,
 "沖縄大学": 1,
 "びわこ成蹊スポーツ大学": 1,
 "高岡法科大学": 1,
@@ -4100,7 +4118,7 @@
 "宮城大学": 1,
 "山形県立保健医療大学": 1,
 "岩手県立大学": 1,
-"長崎総合科学大学": 1,
+"長崎総合科学大学": 2,
 "日本経済大学": 1
 },
 "enrich": [
@@ -16135,18 +16153,6 @@
 {
 "name": "日本赤十字九州国際看護大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "日本赤十字九州国際看護大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "日本赤十字九州国際看護大学",
-"need": [
 "scholar"
 ]
 },
@@ -16154,18 +16160,6 @@
 "name": "沖縄キリスト教学院大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "沖縄キリスト教学院大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "沖縄キリスト教学院大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -16183,18 +16177,6 @@
 {
 "name": "産業医科大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "産業医科大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "産業医科大学",
-"need": [
 "scholar"
 ]
 },
@@ -16202,18 +16184,6 @@
 "name": "沖縄国際大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "沖縄国際大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "沖縄国際大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -26651,18 +26621,6 @@
 ]
 },
 {
-"name": "長崎総合科学大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "日本経済大学",
-"need": [
-"fees"
-]
-},
-{
 "name": "杉野服飾大学",
 "keinet": "2222",
 "need": [
@@ -26693,6 +26651,59 @@
 "extra",
 "partners"
 ]
+},
+{
+"name": "東京医科大学",
+"keinet": "2246",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "東京基督教大学",
+"keinet": "2183",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "東京国際大学",
+"keinet": "2148",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "東京女子体育大学",
+"keinet": "2256",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "産業医科大学",
+"need": [
+"schedule_dates"
+],
+"note": "Kei-Netは出願・発表・手続日を11月以降に掲載予定（2026-11-09時点）"
+},
+{
+"name": "沖縄国際大学",
+"need": [
+"fees"
+],
+"note": "学部別の学費ページに辿れず（2026-11-09）"
+},
+{
+"name": "長崎総合科学大学",
+"need": [
+"fees"
+],
+"note": "Kei-Netの学費ページに辿れず、マナビジョンは内訳なし（2026-11-09）"
 }
 ],
 "complete": true,
