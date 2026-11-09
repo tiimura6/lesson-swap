@@ -1,34 +1,6 @@
 {
 "add": [
 {
-"name": "東京成徳大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.tsu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "東京有明医療大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.tau.ac.jp/",
-"cat": "private"
-},
-{
-"name": "東京未来大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.tokyomirai.ac.jp/",
-"cat": "private"
-},
-{
-"name": "東京歯科大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.tdc.ac.jp/",
-"cat": "private"
-},
-{
 "name": "東京神学大学",
 "type": "私立",
 "pref": "東京都",
@@ -4021,6 +3993,34 @@
 "need": [
 "fees"
 ]
+},
+"東京成徳大学",
+"東京有明医療大学",
+"東京未来大学",
+"東京歯科大学",
+{
+"name": "南九州大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "南九州大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "久留米大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "久留米大学",
+"need": [
+"fees"
+]
 }
 ],
 "failed": [
@@ -4082,7 +4082,7 @@
 "九州看護福祉大学": 2,
 "別府大学": 1,
 "南九州大学": 1,
-"宮崎国際大学": 1,
+"宮崎国際大学": 2,
 "沖縄国際大学": 2,
 "沖縄大学": 2,
 "びわこ成蹊スポーツ大学": 1,
@@ -16292,18 +16292,6 @@
 {
 "name": "南九州大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "南九州大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "南九州大学",
-"need": [
 "scholar"
 ]
 },
@@ -16311,18 +16299,6 @@
 "name": "宮崎国際大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "宮崎国際大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "宮崎国際大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -16483,18 +16459,6 @@
 "name": "久留米大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "久留米大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "久留米大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -26720,6 +26684,50 @@
 },
 {
 "name": "九州看護福祉大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "東京成徳大学",
+"keinet": "2189",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "東京有明医療大学",
+"keinet": "2324",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "東京未来大学",
+"keinet": "2302",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "東京歯科大学",
+"keinet": "2252",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "宮崎国際大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "宮崎国際大学",
 "need": [
 "fees"
 ]

@@ -112452,7 +112452,8 @@
 "licenses": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"money": "2026-11-09"
 },
 "departments": [
 {
@@ -112584,9 +112585,51 @@
 "https://www.nankyudai.ac.jp/examinfo/current-year/",
 "https://www.nankyudai.ac.jp/wp/wp-content/uploads/2025/05/12_n.pdf",
 "https://www.nankyudai.ac.jp/annai/idea/",
-"https://www.nankyudai.ac.jp/gakuen/history/"
+"https://www.nankyudai.ac.jp/gakuen/history/",
+"https://passnavi.obunsha.co.jp/univ/5150/schedule/",
+"https://search.keinet.ne.jp/2776/outline/expense"
 ],
-"founded": "1967年開学"
+"founded": "1967年開学",
+"money": {
+"year": "2026年度",
+"admission": 250000,
+"note": "Kei-Net 2026年度入学者用（授業料に施設設備費・実験実習費を含む）。2027年度は大学公式の入試情報ページで入学手続時納入金（入学金＋1年次前期分）が環境園芸学科・地域創成学科820,000円、子ども教育学科740,000円、管理栄養学科890,000円、委託徴収金47,000円（保護者会費・学友会費・同窓会費）と掲載。地域創成学科の2026年度内訳はKei-Netに掲載なし",
+"rows": [
+{
+"f": "人間発達学部 子ども教育学科",
+"admission": 250000,
+"tuition": 1016000,
+"facility": 0,
+"practical": 0,
+"other": 47000,
+"first_year": 1313000,
+"four_year": null,
+"note": "授業料に施設設備費・実験実習費を含む（Kei-Net 2026年度）"
+},
+{
+"f": "環境園芸学部 環境園芸学科",
+"admission": 250000,
+"tuition": 1178000,
+"facility": 0,
+"practical": 0,
+"other": 47000,
+"first_year": 1475000,
+"four_year": null,
+"note": "授業料に施設設備費・実験実習費を含む（Kei-Net 2026年度）"
+},
+{
+"f": "健康栄養学部 管理栄養学科",
+"admission": 250000,
+"tuition": 1320000,
+"facility": 0,
+"practical": 0,
+"other": 47000,
+"first_year": 1617000,
+"four_year": null,
+"note": "授業料に施設設備費・実験実習費を含む（Kei-Net 2026年度）"
+}
+]
+}
 },
 "宮崎国際大学": {
 "faculties": [
@@ -114609,12 +114652,13 @@
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-09",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"money": "2026-11-09"
 },
 "departments": [
 {
@@ -114711,22 +114755,124 @@
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "一般",
+"name": "前期一般選抜（医学部医学科）",
+"apply": "12/15〜1/7",
+"exam": "一次：2/1、二次：2/13",
+"result": "一次：2/8、最終：2/19",
+"proc": "入学申込：3/3、手続：3/19",
+"fee": 60000,
+"note": "大学公式"
+},
+{
+"kubun": "一般",
+"name": "前期一般選抜（医学部看護学科）",
+"apply": "12/15〜1/20",
+"exam": "2/5",
+"result": "2/19",
+"proc": null,
+"fee": 32000,
+"note": "大学公式"
+},
+{
+"kubun": "一般",
+"name": "前期一般選抜（文・人間健康・法・経済・商学部）",
+"apply": "1/4〜1/20",
+"exam": "2/1・2/9・2/10",
+"result": "2/19",
+"proc": "入学申込：3/3、手続：3/23",
+"fee": 32000,
+"note": "単願32,000円、併願42,000円、3併願52,000円（以降1併願ごとに＋10,000円）。九州・山口・広島・沖縄に学外会場あり（大学公式）"
+},
+{
+"kubun": "一般",
+"name": "後期一般選抜（医学部医学科）",
+"apply": "2/6〜2/25",
+"exam": "一次：3/8、二次：3/16",
+"result": "一次：3/12、最終：3/19",
+"proc": "3/24",
+"fee": 60000,
+"note": "大学公式"
+},
+{
+"kubun": "一般",
+"name": "後期一般選抜（医学部医療検査学科）",
+"apply": "2/12〜3/3",
+"exam": "3/9",
+"result": "3/15",
+"proc": "3/23",
+"fee": 32000,
+"note": "大学公式"
+},
+{
+"kubun": "一般",
+"name": "後期一般選抜（文・人間健康・法・経済・商学部）",
+"apply": "2/12〜2/25",
+"exam": "3/9",
+"result": "3/15",
+"proc": "3/23",
+"fee": 32000,
+"note": "単願32,000円、併願42,000円、3併願52,000円（大学公式）"
+},
+{
 "kubun": "共テ利用",
 "name": "共通テスト利用選抜（A日程）（医学部医学科）",
 "apply": "12/15〜1/7",
+"exam": "一次：1/16・1/17（共テ）、二次：2/13",
+"result": "一次：2/8、二次：2/19",
+"proc": "入学申込：3/3、手続：3/19",
+"fee": 30000,
+"note": "大学公式"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜（A日程）（医学部看護学科）",
+"apply": "12/15〜1/26",
+"exam": "1/16・1/17（共テ）",
+"result": "2/19",
+"proc": "入学申込：3/3、手続：3/16",
+"fee": 15000,
+"note": "大学公式"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜（A日程）（文・人間健康・法・経済・商学部）",
+"apply": "1/4〜1/26",
 "exam": "1/16・1/17（共テ）",
 "result": null,
-"proc": null,
-"fee": null
+"proc": "入学申込：3/3、手続：3/23",
+"fee": 15000,
+"note": "単願15,000円、併願25,000円、3併願35,000円（最大8併願）。合格発表日は日程表に記載なし（大学公式）"
 },
 {
 "kubun": "共テ利用",
 "name": "共通テスト利用選抜（B日程）（医学部医学科）",
 "apply": "2/6〜2/25",
+"exam": "一次：1/16・1/17（共テ）、二次：3/16",
+"result": "一次：3/12、二次：3/19",
+"proc": "3/24",
+"fee": 30000,
+"note": "大学公式"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜（B日程）（医学部看護学科）",
+"apply": "2/12〜3/3",
+"exam": "1/16・1/17（共テ）",
+"result": "3/15",
+"proc": "3/23",
+"fee": 15000,
+"note": "大学公式"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜（B日程）（文・人間健康・法・経済・商学部）",
+"apply": "2/12〜2/25",
 "exam": "1/16・1/17（共テ）",
 "result": null,
 "proc": null,
-"fee": null
+"fee": 15000,
+"note": "単願15,000円、併願25,000円、3併願35,000円。発表・手続は日程表に記載なし（大学公式）"
 }
 ]
 },
@@ -114742,13 +114888,90 @@
 "https://passnavi.obunsha.co.jp/univ/4930/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3875/",
 "https://www.kurume-u.ac.jp/about/history/",
-"https://100th.kurume-u.ac.jp/history/"
+"https://100th.kurume-u.ac.jp/history/",
+"https://best.kurume-u.ac.jp/admissions/type/exam-second/",
+"https://best.kurume-u.ac.jp/admissions/type/common/a/",
+"https://best.kurume-u.ac.jp/admissions/type/common/b/",
+"https://best.kurume-u.ac.jp/expense/tuition/"
 ],
 "students": {
 "count": 6838,
 "year": 2025
 },
-"founded": "1950年 新制大学開学（前身：九州医学専門学校 1928年設立・久留米医科大学 1946年設置）"
+"founded": "1950年 新制大学開学（前身：九州医学専門学校 1928年設立・久留米医科大学 1946年設置）",
+"money": {
+"year": "2027年度",
+"admission": 200000,
+"note": "大学公式「学費」（2027年度入学者用）。初年度合計・総計は大学公式の表の値で、表示した内訳のほかに委託徴収金などを含む。法学部は学外研修費、看護学科の保健師課程選抜者は4年次に実習委託料が別途必要",
+"rows": [
+{
+"f": "医学部 医学科",
+"admission": 1000000,
+"tuition": 2700000,
+"facility": 5500000,
+"practical": null,
+"other": null,
+"first_year": 9313000,
+"four_year": 36378000,
+"note": "facility は施設拡充維持料1,500,000円＋教育充実料4,000,000円（教育充実料は2年次2,000,000円、3年次以降1,000,000円）。総計は6年"
+},
+{
+"f": "医学部 看護学科",
+"admission": 300000,
+"tuition": 930000,
+"facility": 240000,
+"practical": 250000,
+"other": null,
+"first_year": 1783000,
+"four_year": 6119000,
+"note": "facility は教育充実料"
+},
+{
+"f": "医学部 医療検査学科",
+"admission": 300000,
+"tuition": 930000,
+"facility": 150000,
+"practical": 250000,
+"other": null,
+"first_year": 1694000,
+"four_year": 5748000,
+"note": "facility は教育充実料"
+},
+{
+"f": "文学部・法学部・経済学部・商学部",
+"admission": 200000,
+"tuition": 710000,
+"facility": 180000,
+"practical": null,
+"other": null,
+"first_year": 1147000,
+"four_year": 3889000,
+"note": "facility は教育充実料"
+},
+{
+"f": "人間健康学部 心理学科・教育・福祉学科",
+"admission": 200000,
+"tuition": 730000,
+"facility": 230000,
+"practical": null,
+"other": null,
+"first_year": 1217000,
+"four_year": 4169000,
+"note": "facility は教育充実料"
+},
+{
+"f": "人間健康学部 スポーツ医科学科",
+"admission": 200000,
+"tuition": 810000,
+"facility": 250000,
+"practical": null,
+"other": null,
+"first_year": 1317000,
+"four_year": 4569000,
+"note": "facility は教育充実料"
+}
+]
+}
 },
 "久留米工業大学": {
 "faculties": [
@@ -204441,6 +204664,225 @@ null
 "https://search.keinet.ne.jp/2184/outline/licential",
 "https://search.keinet.ne.jp/2184/outline/admission_employment",
 "https://search.keinet.ne.jp/2184/general/exam_result"
+]
+},
+"東京成徳大学": {
+"faculties": [
+"応用心理学部",
+"子ども学部",
+"国際学部",
+"経営学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "応用心理学部",
+"d": [
+"臨床心理学科",
+"健康・スポーツ心理学科"
+]
+},
+{
+"f": "子ども学部",
+"d": [
+"子ども学科"
+]
+},
+{
+"f": "国際学部",
+"d": [
+"国際学科"
+]
+},
+{
+"f": "経営学部",
+"d": [
+"経営学科"
+]
+}
+],
+"students": {
+"count": 1870,
+"year": 2025
+},
+"founded": "1993年 東京成徳大学設立（1965年 東京成徳短期大学開学）",
+"access": "東京キャンパス（北区十条台）：JR十条駅から徒歩5分、JR東十条駅から徒歩10分（Kei-Net）",
+"licenses": [
+"公認心理師（受験資格）",
+"認定心理士",
+"社会調査士",
+"社会福祉主事（任用資格）",
+"児童福祉司（任用資格）",
+"保育士",
+"幼稚園教諭一種免許",
+"小学校教諭一種免許"
+],
+"careers": "2024年度の学士課程卒業者462人のうち進学13人・就職400人（Kei-Net。4学部の合計）。",
+"sources": [
+"https://search.keinet.ne.jp/2189",
+"https://search.keinet.ne.jp/2189/outline/department",
+"https://search.keinet.ne.jp/2189/outline/campus",
+"https://search.keinet.ne.jp/2189/outline/licential",
+"https://search.keinet.ne.jp/2189/outline/admission_employment",
+"https://search.keinet.ne.jp/2189/general/exam_result"
+]
+},
+"東京有明医療大学": {
+"faculties": [
+"看護学部",
+"保健医療学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+},
+{
+"f": "保健医療学部",
+"d": [
+"鍼灸学科",
+"柔道整復学科"
+]
+}
+],
+"students": {
+"count": 541,
+"year": 2025
+},
+"founded": "2009年 開学（1956年 日本中央鍼灸専門学校・東京高等柔道整復学校設立）",
+"access": "有明キャンパス（江東区有明）：りんかい線東雲駅から徒歩13分、国際展示場駅から徒歩15分、ゆりかもめ有明テニスの森駅から徒歩10分（Kei-Net）",
+"licenses": [
+"看護師国家試験受験資格",
+"保健師国家試験受験資格",
+"養護教諭二種免許",
+"はり師・きゅう師国家試験受験資格",
+"柔道整復師国家試験受験資格",
+"健康運動実践指導者受験資格"
+],
+"careers": "2024年度の卒業者は看護学部54人のうち就職52人、保健医療学部68人のうち進学8人・就職54人（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2324",
+"https://search.keinet.ne.jp/2324/outline/department",
+"https://search.keinet.ne.jp/2324/outline/campus",
+"https://search.keinet.ne.jp/2324/outline/licential",
+"https://search.keinet.ne.jp/2324/outline/admission_employment",
+"https://search.keinet.ne.jp/2324/general/exam_result",
+"https://search.keinet.ne.jp/2324/general/exam_subject"
+]
+},
+"東京未来大学": {
+"faculties": [
+"こども心理学部",
+"モチベーション行動科学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "こども心理学部",
+"d": [
+"こども心理学科（こども保育・教育専攻・心理専攻）"
+]
+},
+{
+"f": "モチベーション行動科学部",
+"d": [
+"モチベーション行動科学科"
+]
+}
+],
+"students": {
+"count": 1548,
+"year": 2025
+},
+"founded": "2007年 開学",
+"access": "堀切キャンパス（足立区千住曙町）：東武堀切駅から徒歩2分、京成関屋駅から徒歩8分、北千住駅から徒歩15分（Kei-Net）",
+"licenses": [
+"保育士",
+"幼稚園教諭一種免許",
+"小学校教諭一種免許",
+"公認心理師（受験資格）",
+"認定心理士",
+"中学校教諭一種免許（社会）",
+"高等学校教諭一種免許（公民）",
+"社会調査士",
+"社会福祉主事（任用資格）",
+"児童福祉司（任用資格）"
+],
+"careers": "2024年度の学士課程卒業者355人のうち進学13人・就職320人（Kei-Net。2学部の合計）。",
+"sources": [
+"https://search.keinet.ne.jp/2302",
+"https://search.keinet.ne.jp/2302/outline/department",
+"https://search.keinet.ne.jp/2302/outline/campus",
+"https://search.keinet.ne.jp/2302/outline/licential",
+"https://search.keinet.ne.jp/2302/outline/admission_employment",
+"https://search.keinet.ne.jp/2302/general/exam_result",
+"https://passnavi.obunsha.co.jp/univ/2868/bairitsu/"
+]
+},
+"東京歯科大学": {
+"faculties": [
+"歯学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "歯学部",
+"d": [
+"歯学科"
+]
+}
+],
+"students": {
+"count": 830,
+"year": 2025
+},
+"founded": "1952年 新制大学（1890年 高山歯科医学院創立、1946年 旧制大学）",
+"access": "水道橋キャンパス（千代田区三崎町・神田駿河台）：JR水道橋駅から徒歩すぐ〜5分、JR御茶ノ水駅から徒歩5分。千葉キャンパス（千葉市美浜区）：京成稲毛駅から徒歩15分。市川キャンパス（市川市）：JR市川駅から京成バス（Kei-Net）",
+"licenses": [
+"歯科医師国家試験受験資格"
+],
+"careers": "歯科医師国家試験（2026年度）は新卒127人中123人合格（96.9%）、全体133人中125人合格（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2252",
+"https://search.keinet.ne.jp/2252/outline/department",
+"https://search.keinet.ne.jp/2252/outline/campus",
+"https://search.keinet.ne.jp/2252/outline/admission_employment",
+"https://search.keinet.ne.jp/2252/general/exam_result"
 ]
 }
 }
