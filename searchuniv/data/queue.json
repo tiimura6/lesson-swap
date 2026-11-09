@@ -1,34 +1,6 @@
 {
 "add": [
 {
-"name": "日本工業大学",
-"type": "私立",
-"pref": "埼玉県",
-"hp": "https://www.nit.ac.jp/",
-"cat": "private"
-},
-{
-"name": "日本文化大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.nihonbunka-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "日本映画大学",
-"type": "私立",
-"pref": "神奈川県",
-"hp": "https://www.eiga.ac.jp/",
-"cat": "private"
-},
-{
-"name": "日本歯科大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.ndu.ac.jp/",
-"cat": "private"
-},
-{
 "name": "日本獣医生命科学大学",
 "type": "私立",
 "pref": "東京都",
@@ -3740,6 +3712,102 @@
 "need": [
 "schedule_dates"
 ]
+},
+{
+"name": "日本工業大学",
+"type": "私立",
+"pref": "埼玉県",
+"hp": "https://www.nit.ac.jp/",
+"cat": "private"
+},
+{
+"name": "日本文化大学",
+"type": "私立",
+"pref": "東京都",
+"hp": "https://www.nihonbunka-u.ac.jp/",
+"cat": "private"
+},
+{
+"name": "日本映画大学",
+"type": "私立",
+"pref": "神奈川県",
+"hp": "https://www.eiga.ac.jp/",
+"cat": "private"
+},
+{
+"name": "日本歯科大学",
+"type": "私立",
+"pref": "東京都",
+"hp": "https://www.ndu.ac.jp/",
+"cat": "private"
+},
+{
+"name": "秋田県立大学",
+"keinet": "1517",
+"need": [
+"fees"
+]
+},
+{
+"name": "釧路公立大学",
+"keinet": "1510",
+"need": [
+"fees"
+]
+},
+{
+"name": "青森公立大学",
+"keinet": "1513",
+"need": [
+"fees"
+]
+},
+{
+"name": "三条市立大学",
+"keinet": "1551",
+"need": [
+"fees"
+]
+},
+{
+"name": "公立小松大学",
+"keinet": "1548",
+"need": [
+"fees"
+]
+},
+{
+"name": "公立諏訪東京理科大学",
+"keinet": "1567",
+"need": [
+"fees"
+]
+},
+{
+"name": "名古屋市立大学",
+"keinet": "1585",
+"need": [
+"fees"
+]
+},
+{
+"name": "富山県立大学",
+"keinet": "1545",
+"need": [
+"fees"
+]
+},
+{
+"name": "福岡国際医療福祉大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "福岡女学院看護大学",
+"need": [
+"schedule_dates"
+]
 }
 ],
 "failed": [
@@ -6730,62 +6798,6 @@
 "name": "九州産業大学",
 "need": [
 "verify"
-]
-},
-{
-"name": "秋田県立大学",
-"keinet": "1517",
-"need": [
-"fees"
-]
-},
-{
-"name": "釧路公立大学",
-"keinet": "1510",
-"need": [
-"fees"
-]
-},
-{
-"name": "青森公立大学",
-"keinet": "1513",
-"need": [
-"fees"
-]
-},
-{
-"name": "三条市立大学",
-"keinet": "1551",
-"need": [
-"fees"
-]
-},
-{
-"name": "公立小松大学",
-"keinet": "1548",
-"need": [
-"fees"
-]
-},
-{
-"name": "公立諏訪東京理科大学",
-"keinet": "1567",
-"need": [
-"fees"
-]
-},
-{
-"name": "名古屋市立大学",
-"keinet": "1585",
-"need": [
-"fees"
-]
-},
-{
-"name": "富山県立大学",
-"keinet": "1545",
-"need": [
-"fees"
 ]
 },
 {
@@ -15588,12 +15600,6 @@
 {
 "name": "福岡国際医療福祉大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "福岡国際医療福祉大学",
-"need": [
 "scholar"
 ]
 },
@@ -15625,12 +15631,6 @@
 "name": "福岡女学院看護大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "福岡女学院看護大学",
-"need": [
-"schedule_dates"
 ]
 },
 {
@@ -26559,6 +26559,38 @@
 {
 "name": "日本女子体育大学",
 "keinet": "2273",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "日本工業大学",
+"keinet": "2157",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "日本文化大学",
+"keinet": "2277",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "日本映画大学",
+"keinet": "2328",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "日本歯科大学",
+"keinet": "2269",
 "need": [
 "extra",
 "partners"

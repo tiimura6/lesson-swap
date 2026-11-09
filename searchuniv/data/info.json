@@ -101336,7 +101336,8 @@
 "https://manabi.benesse.ne.jp/daigaku/school/2028/nyushi/seibutushigen/",
 "https://onikanri.singeki.com/akita-kenritsu-daigaku-senmonjuku-guide/",
 "https://www.toshin.com/nyushi_info/schedule/?univ_type=%E5%9B%BD%E5%85%AC%E7%AB%8B&univ_pref_area=%E5%9C%B0%E6%96%B9%E3%82%92%E9%81%B8%E6%8A%9E%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84&univ_pref%5B0%5D=%E7%A7%8B%E7%94%B0&univ_name=%E7%A7%8B%E7%94%B0%E7%9C%8C%E7%AB%8B%E5%A4%A7%E5%AD%A6&department=&department_class=&univ_group=0&test_date_start=&test_date_end=&application_deadline_start=&application_deadline_end=&passing_announcement_start=&passing_announcement_end=&procedure_deadline_start=&procedure_deadline_end=&sort=Departments.application_deadline&direction=desc",
-"https://manabi.benesse.ne.jp/daigaku/school/2028/nyushi/gokaku-happyo/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/2028/nyushi/gokaku-happyo/index.html",
+"https://search.keinet.ne.jp/1517/outline/expense"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -101516,34 +101517,34 @@
 ]
 },
 "money": {
-"year": "",
+"year": "2026年度",
 "total4": 2425200,
 "total4_note": "入学料（県内282,000円）＋授業料4年分（535,800円×4）",
 "admission": 282000,
 "annual": 535800,
-"note": "大学公式サイトおよび大学ポートレート・マナビジョンで入学料県内者282,000円・県外者423,000円・授業料年額535,800円を確認（入学検定料17,000円。後援会費50,000円は加入任意、掲載年度表記はスニペット未確認）",
+"note": "入学料は県内者282,000円・県外者423,000円、授業料年額535,800円。Kei-Net（2026年度入学者用）では後援会費50,000円（保険料を含む）を含め初年度合計は県内者867,800円・県外者1,008,800円（ノートパソコン別途）。大学公式の案内では後援会費は任意加入。",
 "rows": [
 {
 "f": "システム科学技術学部",
 "admission": 282000,
 "tuition": 535800,
-"facility": null,
+"facility": 0,
 "practical": null,
-"other": 0,
-"first_year": 817800,
-"four_year": 2425200,
-"note": "県外者は初年度958,800円・4年間2,566,200円。任意加入の後援会費50,000円は含まず"
+"other": 50000,
+"first_year": 867800,
+"four_year": null,
+"note": "施設費なし。other は後援会費50,000円（保険料を含む）。県外者は入学金423,000円・初年度1,008,800円。ノートパソコンが別途必要（Kei-Net 2026年度入学者用）"
 },
 {
 "f": "生物資源科学部",
 "admission": 282000,
 "tuition": 535800,
-"facility": null,
+"facility": 0,
 "practical": null,
-"other": 0,
-"first_year": 817800,
-"four_year": 2425200,
-"note": "県外者は初年度958,800円・4年間2,566,200円。任意加入の後援会費50,000円は含まず"
+"other": 50000,
+"first_year": 867800,
+"four_year": null,
+"note": "施設費なし。other は後援会費50,000円（保険料を含む）。県外者は入学金423,000円・初年度1,008,800円。ノートパソコンが別途必要（Kei-Net 2026年度入学者用）"
 }
 ]
 },
@@ -104185,7 +104186,7 @@
 ]
 },
 "money": {
-"year": "2026年度（令和7年4月現在公式額）",
+"year": "2026年度",
 "total4": 2331200,
 "total4_note": "入学金（富山県の住民188,000円）＋授業料4年（535,800円×4）。その他の者（県外者）は入学金282,000円で4年間計2,425,200円。別途、学生教育研究災害傷害保険料・後援会費等の諸経費が必要。",
 "admission": 188000,
@@ -104196,34 +104197,34 @@
 "f": "工学部",
 "admission": 188000,
 "tuition": 535800,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 723800,
-"four_year": 2331200,
-"note": "入学金＋授業料のみの額（県外者は入学金282,000円・初年度817,800円・4年計2,425,200円）。別途、保険料（4か年分4,660円）・後援会費等が必要。"
+"facility": 0,
+"practical": 40000,
+"other": 54660,
+"first_year": 818460,
+"four_year": null,
+"note": "施設費なし。practical は設備/実習/諸会費等40,000円、other は保険料4,660円＋後援会費50,000円。県外者は入学金282,000円・初年度912,460円。教科書代・実習経費・ノートパソコンは別途（Kei-Net 2026年度入学者用。入学金以外は2025年度額）"
 },
 {
 "f": "情報工学部",
 "admission": 188000,
 "tuition": 535800,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 723800,
-"four_year": 2331200,
-"note": "入学金＋授業料のみの額（県外者は入学金282,000円・初年度817,800円・4年計2,425,200円）。別途、保険料（4か年分4,660円）・後援会費等が必要。"
+"facility": 0,
+"practical": 40000,
+"other": 54660,
+"first_year": 818460,
+"four_year": null,
+"note": "施設費なし。practical は設備/実習/諸会費等40,000円、other は保険料4,660円＋後援会費50,000円。県外者は入学金282,000円・初年度912,460円。教科書代・実習経費・ノートパソコンは別途（Kei-Net 2026年度入学者用。入学金以外は2025年度額）"
 },
 {
 "f": "看護学部",
 "admission": 188000,
 "tuition": 535800,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 723800,
-"four_year": 2331200,
-"note": "入学金＋授業料のみの額（県外者は入学金282,000円・初年度817,800円・4年計2,425,200円）。別途、保険料（4か年分5,370円）・後援会費等が必要。"
+"facility": 0,
+"practical": 30000,
+"other": 55370,
+"first_year": 809170,
+"four_year": null,
+"note": "施設費なし。practical は設備/実習/諸会費等30,000円、other は保険料5,370円＋後援会費50,000円。県外者は入学金282,000円・初年度903,170円。教科書代・実習経費は別途（Kei-Net 2026年度入学者用。入学金以外は2025年度額）"
 }
 ]
 },
@@ -104243,7 +104244,8 @@
 "_via": "2026-11-07",
 "students": "2026-11-09",
 "founded": "2026-11-09",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"schedule": "2026-11-09"
 },
 "departments": [
 {
@@ -104279,7 +104281,8 @@
 "https://passnavi.obunsha.co.jp/univ/5032/top/",
 "https://odangozemi.com/fukuoka-shidai-gakusei-ranking/",
 "https://www.weblio.jp/content/%E7%A6%8F%E5%B2%A1%E5%9B%BD%E9%9A%9B%E5%8C%BB%E7%99%82%E7%A6%8F%E7%A5%89%E5%A4%A7%E5%AD%A6",
-"https://search.keinet.ne.jp/2730/outline/expense"
+"https://search.keinet.ne.jp/2730/outline/expense",
+"https://manabi.benesse.ne.jp/daigaku/school/3900/nyushi/gokaku-happyo/"
 ],
 "students": {
 "count": 1335,
@@ -104315,6 +104318,57 @@
 "note": "教育後援会費45,000円・海外研修積立金50,000円が入学手続時に別途必要。教科書代・臨地実習費・国家試験対策費も別途（Kei-Net 2026年度入学者用）"
 }
 ]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜 A方式・B方式",
+"apply": "9/16〜9/30",
+"exam": "10/10",
+"result": "11/2",
+"proc": "11/9",
+"note": "全学科同日程"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制）",
+"apply": "11/2〜11/11",
+"exam": "11/21",
+"result": "12/1",
+"proc": "12/14",
+"note": ""
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期",
+"apply": "12/17〜1/14",
+"exam": "1/26・1/27",
+"result": "2/5",
+"proc": "2/15",
+"note": ""
+},
+{
+"kubun": "共テ利用",
+"name": "一般選抜 共通テスト利用",
+"apply": "12/17〜1/14",
+"exam": "共通テスト",
+"result": "2/18",
+"proc": "2/24",
+"note": ""
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期",
+"apply": "2/12〜2/22",
+"exam": "3/2",
+"result": "3/12",
+"proc": "3/18",
+"note": ""
+}
+],
+"note": "看護学科・医療学部の各学科とも同じ日程。検定料は出典に記載なし（マナビジョン 2027年度入試）"
 }
 },
 "福岡大学": {
@@ -104819,7 +104873,8 @@
 "_via": "2026-11-07",
 "students": "2026-11-09",
 "founded": "2026-11-09",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"schedule": "2026-11-09"
 },
 "departments": [
 {
@@ -104847,7 +104902,8 @@
 "https://passnavi.obunsha.co.jp/univ/5051/top/",
 "https://odangozemi.com/fukuoka-shidai-gakusei-ranking/",
 "https://ns.fukujo.ac.jp/burger_editor/burger_editor/dl/42__ZGlzY2xvc3VyZV9qb3Nob3U-d-.pdf",
-"https://search.keinet.ne.jp/2725/outline/expense"
+"https://search.keinet.ne.jp/2725/outline/expense",
+"https://manabi.benesse.ne.jp/daigaku/school/3896/nyushi/gokaku-happyo/"
 ],
 "students": {
 "count": 413,
@@ -104872,6 +104928,66 @@
 "note": "other は諸会費18,000円＋保険料4,720円（Kei-Net 2026年度入学者用）"
 }
 ]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜",
+"apply": "9/14〜9/30",
+"exam": "10/10",
+"result": "11/2",
+"proc": "11/13",
+"note": ""
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募・離島）",
+"apply": "11/1〜11/9",
+"exam": "11/14",
+"result": "12/1",
+"proc": "12/17",
+"note": ""
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期日程",
+"apply": "12/21〜1/24",
+"exam": "2/1",
+"result": "2/13",
+"proc": "2/25",
+"note": ""
+},
+{
+"kubun": "共テ利用",
+"name": "一般選抜 共通テスト利用 前期日程",
+"apply": "12/21〜1/24",
+"exam": "共通テスト",
+"result": "2/13",
+"proc": "2/25",
+"note": ""
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期日程",
+"apply": "2/15〜2/25",
+"exam": "3/9",
+"result": "3/17",
+"proc": "3/24",
+"note": ""
+},
+{
+"kubun": "共テ利用",
+"name": "一般選抜 共通テスト利用 後期日程",
+"apply": "2/15〜3/14",
+"exam": "共通テスト",
+"result": "3/20",
+"proc": "3/24",
+"note": ""
+}
+],
+"note": "検定料は出典に記載なし（マナビジョン 2027年度入試）"
 }
 },
 "福岡工業大学": {
@@ -199327,6 +199443,342 @@ null
 "https://search.keinet.ne.jp/2273/general/border_rate",
 "https://search.keinet.ne.jp/2273/outline/expense",
 "https://search.keinet.ne.jp/2273/outline/admission_employment"
+]
+},
+"日本工業大学": {
+"difficulty": {
+"hensachi": "35.0〜40.0",
+"kyotei": "38%〜54%",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-09",
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"tuition": "2026-11-09",
+"money": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"faculties": [
+"基幹工学部",
+"先進工学部",
+"建築学部"
+],
+"departments": [
+{
+"f": "基幹工学部",
+"d": [
+"機械工学科",
+"電気情報工学科",
+"環境生命化学科"
+]
+},
+{
+"f": "先進工学部",
+"d": [
+"ロボティクス学科",
+"情報メディア工学科",
+"データサイエンス学科"
+]
+},
+{
+"f": "建築学部",
+"d": [
+"建築学科",
+"生活環境デザイン学科"
+]
+}
+],
+"students": {
+"count": 3727,
+"year": 2025
+},
+"founded": "1908年 東京工科学校開校（1967年 日本工業大学開学）",
+"access": "埼玉キャンパス（埼玉県南埼玉郡宮代町学園台4-1）（Kei-Net）",
+"tuition": {
+"amount": 1600000,
+"label": "入学金＋授業料",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 200000,
+"annual": null,
+"note": "全学部同額。ノートパソコンが別途必要（Kei-Net 2026年度入学者用）",
+"rows": [
+{
+"f": "基幹工学部",
+"admission": 200000,
+"tuition": 1400000,
+"facility": null,
+"practical": null,
+"other": 50730,
+"first_year": 1650730,
+"four_year": null,
+"note": "other は諸会費。施設費・実習費の欄は記載なし（Kei-Net 2026年度入学者用）"
+},
+{
+"f": "先進工学部",
+"admission": 200000,
+"tuition": 1400000,
+"facility": null,
+"practical": null,
+"other": 50730,
+"first_year": 1650730,
+"four_year": null,
+"note": "other は諸会費。施設費・実習費の欄は記載なし（Kei-Net 2026年度入学者用）"
+},
+{
+"f": "建築学部",
+"admission": 200000,
+"tuition": 1400000,
+"facility": null,
+"practical": null,
+"other": 50730,
+"first_year": 1650730,
+"four_year": null,
+"note": "other は諸会費。施設費・実習費の欄は記載なし（Kei-Net 2026年度入学者用）"
+}
+]
+},
+"licenses": [
+"中学校教諭一種（数学）（機械工・電気情報工・情報メディア工・建築・生活環境デザイン）",
+"中学校教諭一種（技術）（データサイエンス・環境生命化学以外）",
+"高校教諭一種（工業）（データサイエンス以外）",
+"高校教諭一種（情報）（データサイエンス）",
+"一級・二級・木造建築士受験資格（建築・生活環境デザイン）",
+"バイオ技術者認定試験（環境生命化学）"
+],
+"careers": "2024年度卒業者の就職者の比率は基幹工85.4%・先進工84.6%・建築86.8%、進学は6.9%〜10.3%（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2157",
+"https://search.keinet.ne.jp/2157/outline/department",
+"https://search.keinet.ne.jp/2157/outline/licential",
+"https://search.keinet.ne.jp/2157/outline/expense",
+"https://search.keinet.ne.jp/2157/outline/admission_employment",
+"https://search.keinet.ne.jp/2157/general/border_rate"
+]
+},
+"日本文化大学": {
+"faculties": [
+"法学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"tuition": "2026-11-09",
+"money": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "法学部",
+"d": [
+"法学科"
+]
+}
+],
+"founded": "1978年 法学部認可・開学",
+"access": "八王子キャンパス（東京都八王子市片倉町977番地）（Kei-Net）",
+"tuition": {
+"amount": 1150000,
+"label": "入学金＋授業料",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 320000,
+"annual": null,
+"note": "Kei-Net 2026年度入学者用",
+"rows": [
+{
+"f": "法学部 法学科",
+"admission": 320000,
+"tuition": 830000,
+"facility": 250000,
+"practical": 40000,
+"other": null,
+"first_year": 1440000,
+"four_year": null,
+"note": "諸会費の欄は記載なし（Kei-Net 2026年度入学者用）"
+}
+]
+},
+"licenses": [
+"中学校教諭一種（社会）",
+"高校教諭一種（地理歴史・公民）"
+],
+"careers": "大学公式は「警察官実就職率17年連続ナンバーワン」（大学通信の調査）と掲げる。行政書士・宅建・FPなどの資格講座がある（大学公式）。",
+"sources": [
+"https://search.keinet.ne.jp/2277",
+"https://search.keinet.ne.jp/2277/outline/department",
+"https://search.keinet.ne.jp/2277/outline/licential",
+"https://search.keinet.ne.jp/2277/outline/expense",
+"https://passnavi.obunsha.co.jp/univ/3020/department/",
+"https://nihonbunka-u.ac.jp/about/feature/"
+]
+},
+"日本映画大学": {
+"difficulty": {
+"hensachi": "BF",
+"kyotei": "",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-09",
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"tuition": "2026-11-09",
+"money": "2026-11-09",
+"careers": "2026-11-09"
+},
+"faculties": [
+"映画学部"
+],
+"departments": [
+{
+"f": "映画学部",
+"d": [
+"映画学科"
+]
+}
+],
+"students": {
+"count": 450,
+"year": 2025
+},
+"founded": "1975年 横浜放送映画専門学院開校（2011年 日本映画大学開学）",
+"access": "新百合ヶ丘キャンパス（川崎市麻生区万福寺1-16-30）、白山キャンパス（川崎市麻生区白山2-1-1）（Kei-Net）",
+"tuition": {
+"amount": 1300000,
+"label": "入学金＋授業料",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 300000,
+"annual": null,
+"note": "Kei-Net 2026年度入学者用",
+"rows": [
+{
+"f": "映画学部 映画学科",
+"admission": 300000,
+"tuition": 1000000,
+"facility": 400000,
+"practical": 180000,
+"other": null,
+"first_year": 1880000,
+"four_year": null,
+"note": "諸会費の欄は記載なし（Kei-Net 2026年度入学者用）"
+}
+]
+},
+"careers": "2024年度卒業者84人のうち進学3.6%・就職70.2%・その他26.2%（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2328",
+"https://search.keinet.ne.jp/2328/outline/department",
+"https://search.keinet.ne.jp/2328/outline/expense",
+"https://search.keinet.ne.jp/2328/outline/admission_employment",
+"https://search.keinet.ne.jp/2328/general/border_rate"
+]
+},
+"日本歯科大学": {
+"difficulty": {
+"hensachi": "45.0〜47.5",
+"kyotei": "69%〜71%",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-09",
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"tuition": "2026-11-09",
+"money": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"faculties": [
+"生命歯学部",
+"新潟生命歯学部"
+],
+"departments": [
+{
+"f": "生命歯学部",
+"d": [
+"生命歯学科"
+]
+},
+{
+"f": "新潟生命歯学部",
+"d": [
+"生命歯学科"
+]
+}
+],
+"students": {
+"count": 1173,
+"year": 2025
+},
+"founded": "1907年 私立共立歯科医学校創立",
+"access": "東京キャンパス（千代田区富士見1-9-20）、新潟キャンパス（新潟市中央区浜浦町1-8）（Kei-Net）",
+"tuition": {
+"amount": 4400000,
+"label": "入学金＋授業料（生命歯学部）",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 600000,
+"annual": null,
+"note": "諸会費は一部2024年度実績（Kei-Net 2026年度入学者用）",
+"rows": [
+{
+"f": "生命歯学部 生命歯学科（東京）",
+"admission": 600000,
+"tuition": 3800000,
+"facility": 1330000,
+"practical": null,
+"other": 35000,
+"first_year": 5765000,
+"four_year": null,
+"note": "6年制。other は諸会費（Kei-Net 2026年度入学者用）"
+},
+{
+"f": "新潟生命歯学部 生命歯学科（新潟）",
+"admission": 600000,
+"tuition": 2400000,
+"facility": 1000000,
+"practical": null,
+"other": 35000,
+"first_year": 4035000,
+"four_year": null,
+"note": "6年制。other は諸会費（Kei-Net 2026年度入学者用）"
+}
+]
+},
+"licenses": [
+"歯科医師国家試験受験資格"
+],
+"careers": "歯科医師国家試験（2026年）合格率：生命歯学部62.7%（新卒70.9%）、新潟生命歯学部78.6%（新卒84.8%）。2024年度卒業者は全員「その他」（臨床研修など）の表示（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2269",
+"https://search.keinet.ne.jp/2269/outline/department",
+"https://search.keinet.ne.jp/2269/outline/expense",
+"https://search.keinet.ne.jp/2269/outline/admission_employment",
+"https://search.keinet.ne.jp/2269/general/border_rate"
 ]
 }
 }
