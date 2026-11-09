@@ -1,0 +1,1159 @@
+[
+ {
+  "name": "立正大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都",
+  "pref_name": "東京都",
+  "city": null,
+  "hp": "https://www.ris.ac.jp/",
+  "reading": "りっしょうだいがく",
+  "features": [
+   "9学部16学科を擁する総合大学で、品川と熊谷にキャンパスがある。",
+   "一般選抜や共通テスト利用では、複数併願が可能な検定料定額制度がある。",
+   "成績上位150名に年額100万円を給付する特別奨学生制度を設けている。"
+  ],
+  "memo": "2月試験前期は1日3学部まで検定料一律35,000円。英語外部試験利用は2/4・2/5のみ対応のため日程に注意。",
+  "info": {
+   "faculties": [
+    "心理学部",
+    "法学部",
+    "経営学部",
+    "経済学部",
+    "文学部",
+    "仏教学部",
+    "データサイエンス学部",
+    "地球環境科学部",
+    "社会福祉学部"
+   ],
+   "departments": [
+    {
+     "f": "心理学部",
+     "d": [
+      "臨床心理学科",
+      "対人・社会心理学科"
+     ]
+    },
+    {
+     "f": "法学部",
+     "d": [
+      "法学科"
+     ]
+    },
+    {
+     "f": "経営学部",
+     "d": [
+      "経営学科"
+     ]
+    },
+    {
+     "f": "経済学部",
+     "d": [
+      "経済学科（経済学コース・金融コース）"
+     ]
+    },
+    {
+     "f": "文学部",
+     "d": [
+      "哲学科",
+      "史学科",
+      "社会学科",
+      "文学科（日本語日本文学専攻コース・英語英米文学専攻コース）"
+     ]
+    },
+    {
+     "f": "仏教学部",
+     "d": [
+      "仏教学科",
+      "宗学科（日本宗教・文化コース・法華仏教コース）"
+     ]
+    },
+    {
+     "f": "データサイエンス学部",
+     "d": [
+      "データサイエンス学科"
+     ]
+    },
+    {
+     "f": "地球環境科学部",
+     "d": [
+      "環境システム学科",
+      "地理学科"
+     ]
+    },
+    {
+     "f": "社会福祉学部",
+     "d": [
+      "子ども教育福祉学科（保育・幼児教育コース・初等教育コース・子ども心理コース）"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜50.0",
+    "kyotei": "40%〜74%",
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "全学部一般選抜（2月試験（前期・後期）・3月試験）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://admissions.ris.ac.jp/examination/undergraduate/general/index.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "全学部一般選抜 英語外部試験利用方式（2月4日・5日）",
+      "kyotsu": "課さない",
+      "niji": "本学「外国語（英語）」の受験必須（当日素点と外部試験換算得点の高い方を採用）",
+      "content": null,
+      "req": null,
+      "url": "https://admissions.ris.ac.jp/topics/eigogaibushiken/index.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（前期・後期）",
+      "kyotsu": null,
+      "niji": "本学での個別学力検査は課さない",
+      "content": null,
+      "req": null,
+      "url": "https://admissions.ris.ac.jp/examination/undergraduate/kyotsu/index.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（文化・スポーツ型／探究実践型（後期）ほか）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "文化・スポーツ型は個別説明・面談への出席必須",
+      "req": "高校・中等教育学校卒業見込または2026年3月卒業者等",
+      "url": "https://admissions.ris.ac.jp/examination/undergraduate/sogo/index.html"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "全学部一般選抜 2月試験（前期）",
+      "apply": "1/4〜1/18",
+      "exam": "2/1・2/3・2/4・2/5",
+      "result": "2/15",
+      "proc": "2/20",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "全学部一般選抜 2月試験（後期）",
+      "apply": "1/21〜2/9",
+      "exam": "2/21",
+      "result": "2/27",
+      "proc": "3/5",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "全学部一般選抜 3月試験",
+      "apply": "2/8〜2/17",
+      "exam": "3/4",
+      "result": "3/10",
+      "proc": "3/16",
+      "fee": 35000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（前期）",
+      "apply": "1/4〜1/15",
+      "exam": "共通テスト利用（個別試験なし）",
+      "result": "2/15",
+      "proc": "2/20",
+      "fee": 10000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（後期）",
+      "apply": "2/12〜3/2",
+      "exam": "共通テスト利用（個別試験なし）",
+      "result": null,
+      "proc": "3/23",
+      "fee": 10000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 文化・スポーツ型（11月試験）",
+      "apply": "10/22〜10/28",
+      "exam": "11/22",
+      "result": "12/1",
+      "proc": "12/11",
+      "fee": 35000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（12月試験：経営・仏教・データサイエンス・地球環境・社会福祉）",
+      "apply": "11/17〜11/25",
+      "exam": "12/5",
+      "result": "12/11",
+      "proc": "1/5",
+      "fee": 35000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 探究実践型（後期）",
+      "apply": "2/17〜2/24",
+      "exam": "3/6",
+      "result": "3/12",
+      "proc": "3/23",
+      "fee": 35000
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "立正大学特別奨学生［TOP150］",
+      "kind": "給付",
+      "target": "全学部一般選抜2月試験（前期：2/3・4・5）上位100名、共通テスト利用選抜（前期）上位50名",
+      "amount": "年額100万円（1年次のみ）",
+      "timing": "入試時",
+      "cond": "対象入試での成績上位者"
+     },
+     {
+      "name": "立正未来エール奨学生",
+      "kind": "給付",
+      "target": "全学部一般選抜（2月試験（前期））出願予定者で国の給付奨学金対象外（世帯年収400万〜950万円未満）",
+      "amount": "年額25万円（4年間・計100万円）",
+      "timing": "入学前予約",
+      "cond": "提出書類による意欲・家計状況審査（入試合否には影響しない）"
+     }
+    ]
+   },
+   "eng": {
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "英語外部試験利用方式（全学部一般選抜 2/4・2/5）",
+      "use": "得点換算",
+      "level": null,
+      "tests": "英検（CSEスコア）、GTEC、IELTS Academic、TEAP（PBT）"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-07-19",
+      "type": "来場",
+      "title": "来校型オープンキャンパス（品川・熊谷キャンパス）"
+     },
+     {
+      "date": "2026-08-15",
+      "type": "来場",
+      "title": "来校型オープンキャンパス（品川・熊谷キャンパス）"
+     },
+     {
+      "date": "2026-08-16",
+      "type": "来場",
+      "title": "来校型オープンキャンパス（品川・熊谷キャンパス）"
+     },
+     {
+      "date": "2026-12-13",
+      "type": "オンライン",
+      "title": "LIVE配信イベント 一般選抜対策"
+     }
+    ],
+    "url": "https://admissions.ris.ac.jp/event/opencampus/index.html"
+   },
+   "access": "品川キャンパス（JR山手線 大崎駅・五反田駅から徒歩5分）、熊谷キャンパス",
+   "licenses": [
+    "認定心理士（心理学部 臨床心理学科）",
+    "中学校教諭一種免許状（社会）（心理学部 臨床心理学科）"
+   ],
+   "_via": "external-ai",
+   "sources": [
+    "https://www.ris.ac.jp/",
+    "https://admissions.ris.ac.jp/",
+    "https://admissions.ris.ac.jp/examination/undergraduate/general/index.html",
+    "https://admissions.ris.ac.jp/examination/undergraduate/kyotsu/index.html",
+    "https://admissions.ris.ac.jp/examination/undergraduate/sogo/index.html",
+    "https://admissions.ris.ac.jp/examination/undergraduate/sogo/qp44fr0000000c40-att/sogo_calspo_2027.pdf",
+    "https://admissions.ris.ac.jp/examination/undergraduate/qp44fr00000006q1-att/2027sogo_application_documents01.pdf",
+    "https://admissions.ris.ac.jp/topics/risshonavi/index.html",
+    "https://admissions.ris.ac.jp/topics/eigogaibushiken/index.html",
+    "https://admissions.ris.ac.jp/important/disaster_support_exam.html",
+    "https://admissions.ris.ac.jp/news/20261001-001.html",
+    "https://admissions.ris.ac.jp/event/opencampus/index.html",
+    "https://keizai.ris.ac.jp/news/202607oc/02/",
+    "https://keizai.ris.ac.jp/news/202608oc/",
+    "https://www.ris.ac.jp/introduction/outline_of_university/index.html",
+    "https://www.ris.ac.jp/introduction/index.html",
+    "https://www.ris.ac.jp/faculty_graduate_school/psychology/index.html",
+    "https://www.ris.ac.jp/campus_life/tuition_scholarship/tuition_and_economical_support/tuition/index.html",
+    "https://search.keinet.ne.jp/2291/general/border_rate",
+    "https://passnavi.obunsha.co.jp/univ/3170/department/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3323/gakuhi/",
+    "https://shingakunet.com/gakko/SC000561/gakubugakka/00000000000141909/",
+    "https://www.best-shingaku.net/smt/gakuhi67.html",
+    "https://telemail.jp/shingaku/university/10010949/scholarship"
+   ]
+  },
+  "sources": [
+   "https://www.ris.ac.jp/",
+   "https://admissions.ris.ac.jp/",
+   "https://admissions.ris.ac.jp/examination/undergraduate/general/index.html",
+   "https://admissions.ris.ac.jp/examination/undergraduate/kyotsu/index.html",
+   "https://admissions.ris.ac.jp/examination/undergraduate/sogo/index.html",
+   "https://admissions.ris.ac.jp/examination/undergraduate/sogo/qp44fr0000000c40-att/sogo_calspo_2027.pdf",
+   "https://admissions.ris.ac.jp/examination/undergraduate/qp44fr00000006q1-att/2027sogo_application_documents01.pdf",
+   "https://admissions.ris.ac.jp/topics/risshonavi/index.html",
+   "https://admissions.ris.ac.jp/topics/eigogaibushiken/index.html",
+   "https://admissions.ris.ac.jp/important/disaster_support_exam.html",
+   "https://admissions.ris.ac.jp/news/20261001-001.html",
+   "https://admissions.ris.ac.jp/event/opencampus/index.html",
+   "https://keizai.ris.ac.jp/news/202607oc/02/",
+   "https://keizai.ris.ac.jp/news/202608oc/",
+   "https://www.ris.ac.jp/introduction/outline_of_university/index.html",
+   "https://www.ris.ac.jp/introduction/index.html",
+   "https://www.ris.ac.jp/faculty_graduate_school/psychology/index.html",
+   "https://www.ris.ac.jp/campus_life/tuition_scholarship/tuition_and_economical_support/tuition/index.html",
+   "https://search.keinet.ne.jp/2291/general/border_rate",
+   "https://passnavi.obunsha.co.jp/univ/3170/department/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3323/gakuhi/",
+   "https://shingakunet.com/gakko/SC000561/gakubugakka/00000000000141909/",
+   "https://www.best-shingaku.net/smt/gakuhi67.html",
+   "https://telemail.jp/shingaku/university/10010949/scholarship"
+  ]
+ },
+ {
+  "name": "秀明大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "千葉県",
+  "pref_name": "千葉県",
+  "city": null,
+  "hp": "https://www.shumei-u.ac.jp/",
+  "reading": "しゅうめいだいがく",
+  "features": [
+   "学校教師・看護・総合経営など5学部を擁する大学である。",
+   "学校教師学部では2027年度教員採用試験で正規合格率80.0%を達成した。",
+   "一般選抜は1期から4期まであり、共通テスト利用も4日程を実施する。"
+  ],
+  "memo": "2027年度は資格・探究総合型が1〜3月までA〜D日程で実施。学校教師学部は教員採用実績が高く教職志望に向く。",
+  "info": {
+   "faculties": [
+    "学校教師学部",
+    "看護学部",
+    "総合経営学部",
+    "グローバルマネジメント学部",
+    "観光ビジネス学部"
+   ],
+   "departments": [
+    {
+     "f": "学校教師学部",
+     "d": [
+      "中等教育教員養成課程（国語専修・社会専修・数学専修・理科専修・英語専修・保健体育専修）",
+      "初等教育"
+     ]
+    },
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    },
+    {
+     "f": "総合経営学部",
+     "d": [
+      "企業経営学科"
+     ]
+    },
+    {
+     "f": "グローバルマネジメント学部",
+     "d": [
+      "グローバルマネジメント学科"
+     ]
+    },
+    {
+     "f": "観光ビジネス学部",
+     "d": [
+      "観光ビジネス学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜42.5",
+    "kyotei": "48%〜61%",
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（1期〜4期）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/3210/nyushi/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（A日程〜D日程）",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/3210/nyushi/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "資格・探究総合型選抜（A〜D日程：総合経営・グローバルマネジメント・観光ビジネスのみ）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/3210/nyushi/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 1期",
+      "apply": "1/4〜1/14",
+      "exam": "1/24・1/31",
+      "result": "2/5",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 2期",
+      "apply": "1/15〜1/28",
+      "exam": "2/7",
+      "result": "2/12",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 3期",
+      "apply": "1/29〜2/12",
+      "exam": "2/21",
+      "result": "2/26",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 4期",
+      "apply": "2/15〜3/9",
+      "exam": "3/15",
+      "result": "3/16",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 A日程",
+      "apply": "1/4〜1/14",
+      "exam": "1/24・1/31",
+      "result": "2/5",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 B日程",
+      "apply": "1/15〜1/28",
+      "exam": "2/7",
+      "result": "2/12",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 C日程",
+      "apply": "1/29〜2/12",
+      "exam": "2/21",
+      "result": "2/26",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 D日程",
+      "apply": "2/15〜3/9",
+      "exam": "3/15",
+      "result": "3/16",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "資格・探究総合型選抜 A日程",
+      "apply": "1/4〜1/14",
+      "exam": "1/24・1/31",
+      "result": "2/5",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "資格・探究総合型選抜 B日程",
+      "apply": "1/15〜1/28",
+      "exam": "2/7",
+      "result": "2/12",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "資格・探究総合型選抜 C日程",
+      "apply": "1/29〜2/12",
+      "exam": "2/21",
+      "result": "2/26",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "資格・探究総合型選抜 D日程",
+      "apply": "2/15〜3/9",
+      "exam": "3/15",
+      "result": "3/16",
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "careers": "学校教師学部では2027年3月卒業予定者の教員採用選考2次試験において正規合格率80.0%（135名中108名）で全国21自治体に合格者を出している。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.shumei-u.ac.jp/",
+    "https://www.shumei-u.ac.jp/62900",
+    "https://search.keinet.ne.jp/2186/general/border_rate",
+    "https://manabi.benesse.ne.jp/daigaku/school/3210/nyushi/",
+    "https://shingakunet.com/gakko/SC000501/gakuhi/"
+   ]
+  },
+  "sources": [
+   "https://www.shumei-u.ac.jp/",
+   "https://www.shumei-u.ac.jp/62900",
+   "https://search.keinet.ne.jp/2186/general/border_rate",
+   "https://manabi.benesse.ne.jp/daigaku/school/3210/nyushi/",
+   "https://shingakunet.com/gakko/SC000501/gakuhi/"
+  ]
+ },
+ {
+  "name": "神奈川歯科大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "神奈川県横須賀市",
+  "pref_name": "神奈川県",
+  "city": "横須賀市",
+  "hp": "https://www.kdu.ac.jp/",
+  "reading": "かながわしかだいがく",
+  "features": [
+   "神奈川県横須賀市稲岡町にキャンパスを置く私立の歯科大学である。",
+   "歯学部歯学科を設置し、歯科医療分野の専門教育を行っている。",
+   "初年度納入金は395万円で、一般選抜や共通テスト利用を実施する。"
+  ],
+  "memo": "初年度納入金は395万円で、教科書・白衣・実習器材等は各自別途購入が必要。一般選抜は2/6実施で出願締切が2/1必着。",
+  "info": {
+   "faculties": [
+    "歯学部"
+   ],
+   "departments": [
+    {
+     "f": "歯学部",
+     "d": [
+      "歯学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0",
+    "kyotei": "55%",
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（歯学科）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://telemail.jp/shingaku/university/10001051/examination/general"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（歯学科）",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://search.keinet.ne.jp/2308/general/border_rate"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（歯学科）",
+      "apply": "1/7〜2/1",
+      "exam": "2/6",
+      "result": "2/10",
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "歯学部 歯学科",
+      "admission": 600000,
+      "tuition": 2850000,
+      "facility": 500000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 3950000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "横須賀キャンパス（神奈川県横須賀市稲岡町82番地）",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.kdu.ac.jp/",
+    "https://graduate.kdu.ac.jp/essential/pdf/2027_recruitment.pdf",
+    "https://search.keinet.ne.jp/2308/general/border_rate",
+    "https://manabi.benesse.ne.jp/daigaku/school/3364/gakuhi/",
+    "https://telemail.jp/shingaku/university/10001051/examination/general",
+    "https://school.js88.com/scl_dai/2024100/"
+   ]
+  },
+  "sources": [
+   "https://www.kdu.ac.jp/",
+   "https://graduate.kdu.ac.jp/essential/pdf/2027_recruitment.pdf",
+   "https://search.keinet.ne.jp/2308/general/border_rate",
+   "https://manabi.benesse.ne.jp/daigaku/school/3364/gakuhi/",
+   "https://telemail.jp/shingaku/university/10001051/examination/general",
+   "https://school.js88.com/scl_dai/2024100/"
+  ]
+ },
+ {
+  "name": "神奈川工科大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "神奈川県",
+  "pref_name": "神奈川県",
+  "city": null,
+  "hp": "https://www.kait.jp/",
+  "reading": "かながわこうかだいがく",
+  "features": [
+   "工学部・情報学部・健康医療科学部の3学部を展開する理系大学である。",
+   "一般A日程は3日間から試験日を自由に選択して受験できる。",
+   "総合型選抜は適性検査・探究活動発表・理工系女子など多様な方式がある。"
+  ],
+  "memo": "一般A日程は1/30〜2/1から試験日自由選択制。健康医療科学部は学科により初年度学費が異なるため要確認。",
+  "info": {
+   "faculties": [
+    "工学部",
+    "情報学部",
+    "健康医療科学部"
+   ],
+   "departments": [
+    {
+     "f": "工学部",
+     "d": [
+      "機械工学科"
+     ]
+    },
+    {
+     "f": "情報学部",
+     "d": [
+      "情報工学科",
+      "情報ネットワーク・コミュニケーション学科",
+      "情報メディア学科",
+      "情報システム学科"
+     ]
+    },
+    {
+     "f": "健康医療科学部",
+     "d": []
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜40.0",
+    "kyotei": "35%〜39%",
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般A日程入試（試験日自由選択）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://op.kait.jp/admission/general/general_a/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://search.keinet.ne.jp/2305/general/border_rate"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（指定校制・一般公募制・4年制国公立大学併願型指定校制）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://op.kait.jp/wp/wp-content/themes/op.kait.jp_new/pdf/2027_nyushischedule.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（適性検査・課題レポート・探究活動発表・理工系女子特別選抜・スポーツ実績評価・専願1科目・併願2科目方式）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://op.kait.jp/wp/wp-content/themes/op.kait.jp_new/pdf/2027_nyushischedule.pdf"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般A日程入試",
+      "apply": "12/19〜1/26",
+      "exam": "1/30・1/31・2/1（自由選択）",
+      "result": null,
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.kait.jp/",
+    "https://op.kait.jp/admission/general/general_a/",
+    "https://op.kait.jp/wp/wp-content/themes/op.kait.jp_new/pdf/2027_nyushischedule.pdf",
+    "https://search.keinet.ne.jp/2305/general/border_rate",
+    "https://shingakunet.com/gakko/SC000327/gakuhi/"
+   ]
+  },
+  "sources": [
+   "https://www.kait.jp/",
+   "https://op.kait.jp/admission/general/general_a/",
+   "https://op.kait.jp/wp/wp-content/themes/op.kait.jp_new/pdf/2027_nyushischedule.pdf",
+   "https://search.keinet.ne.jp/2305/general/border_rate",
+   "https://shingakunet.com/gakko/SC000327/gakuhi/"
+  ]
+ },
+ {
+  "name": "神奈川大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "神奈川県",
+  "pref_name": "神奈川県",
+  "city": null,
+  "hp": "https://www.kanagawa-u.ac.jp/",
+  "reading": "かながわだいがく",
+  "features": [
+   "文系・理系あわせて11学部を擁する大規模な総合大学である。",
+   "前期全学統一型は全国21会場で実施し、2併願目の検定料割引がある。",
+   "総合型・公募制自己推薦では入学手続が一次・二次の2段階になっている。"
+  ],
+  "memo": "前期全学統一型は2併願目0円制度あり。総合型・公募推薦の二次手続締切は1/26で、一般出願と並行確認を。",
+  "info": {
+   "faculties": [
+    "法学部",
+    "経済学部",
+    "経営学部",
+    "外国語学部",
+    "国際日本学部",
+    "人間科学部",
+    "理学部",
+    "工学部",
+    "化学生命学部",
+    "情報学部",
+    "建築学部"
+   ],
+   "departments": [
+    {
+     "f": "法学部",
+     "d": [
+      "法律学科"
+     ]
+    },
+    {
+     "f": "経済学部",
+     "d": [
+      "経済学科",
+      "経済データ分析学科",
+      "現代ビジネス学科"
+     ]
+    },
+    {
+     "f": "経営学部",
+     "d": []
+    },
+    {
+     "f": "外国語学部",
+     "d": []
+    },
+    {
+     "f": "国際日本学部",
+     "d": []
+    },
+    {
+     "f": "人間科学部",
+     "d": []
+    },
+    {
+     "f": "理学部",
+     "d": []
+    },
+    {
+     "f": "工学部",
+     "d": []
+    },
+    {
+     "f": "化学生命学部",
+     "d": []
+    },
+    {
+     "f": "情報学部",
+     "d": []
+    },
+    {
+     "f": "建築学部",
+     "d": []
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜52.5",
+    "kyotei": "55%〜76%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": [
+     3,
+     4
+    ],
+    "note": "前期・後期とも3教科型と4教科型（文系型・理系型など）を実施"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期全学統一型（文系型・理系型ほか）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/3362/nyushi/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期3科目型（文系型・理系型ほか）",
+      "kyotsu": "課さない",
+      "niji": "3科目",
+      "content": null,
+      "req": null,
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/3362/nyushi/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期得意科目型",
+      "kyotsu": "課さない",
+      "niji": "2科目",
+      "content": null,
+      "req": null,
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/3362/nyushi/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期2科目型",
+      "kyotsu": "課さない",
+      "niji": "2科目",
+      "content": null,
+      "req": null,
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/3362/nyushi/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（前期・後期／3教科型・4教科型）",
+      "kyotsu": "3教科または4教科",
+      "niji": "個別試験なし",
+      "content": null,
+      "req": null,
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/3362/nyushi/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "公募制自己推薦入学試験",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.kanagawa-u.ac.jp/admissions/faculty/about_application/recommend/file/koubo_youko2027.pdf?20260707"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（総合評価型・適性検査型）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/3362/nyushi/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "前期全学統一型",
+      "apply": "1/6〜1/20",
+      "exam": "2/4",
+      "result": "2/18",
+      "proc": "2/25",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "前期3科目型",
+      "apply": "1/6〜1/20",
+      "exam": "2/6〜2/8",
+      "result": "2/18",
+      "proc": "2/25",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "前期得意科目型",
+      "apply": "1/6〜1/20",
+      "exam": "2/7",
+      "result": "2/18",
+      "proc": "2/25",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "後期2科目型",
+      "apply": "2/12〜2/19",
+      "exam": "3/4",
+      "result": "3/13",
+      "proc": "3/17",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 前期（3教科型・4教科型）",
+      "apply": "1/6〜1/15",
+      "exam": "共通テスト利用（個別試験なし）",
+      "result": "2/13",
+      "proc": "2/25",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 後期（3教科型・4教科型）",
+      "apply": "2/12〜2/19",
+      "exam": "共通テスト利用（個別試験なし）",
+      "result": "3/13",
+      "proc": "3/17",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（総合評価型）",
+      "apply": "9/11〜9/18",
+      "exam": "10/11",
+      "result": "11/1",
+      "proc": "11/16（一次）／1/26（二次）",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（適性検査型）",
+      "apply": "10/29〜11/5",
+      "exam": "11/22",
+      "result": "12/1",
+      "proc": "12/14（一次）／1/26（二次）",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "公募制自己推薦入学試験",
+      "apply": null,
+      "exam": "11/1",
+      "result": "11/6",
+      "proc": "11/20（一次）／1/26（二次）",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "法学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1259800,
+      "four_year": null
+     },
+     {
+      "f": "経済学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1259800,
+      "four_year": null
+     },
+     {
+      "f": "経営学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1376300,
+      "four_year": null
+     },
+     {
+      "f": "外国語学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1376300,
+      "four_year": null
+     },
+     {
+      "f": "国際日本学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1376300,
+      "four_year": null
+     },
+     {
+      "f": "人間科学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1260300,
+      "four_year": null
+     },
+     {
+      "f": "理学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1743300,
+      "four_year": null
+     },
+     {
+      "f": "工学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1743300,
+      "four_year": null
+     },
+     {
+      "f": "化学生命学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1743300,
+      "four_year": null
+     },
+     {
+      "f": "情報学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1743300,
+      "four_year": null
+     },
+     {
+      "f": "建築学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1746300,
+      "four_year": null
+     }
+    ]
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.kanagawa-u.ac.jp/",
+    "https://www.kanagawa-u.ac.jp/admissions/faculty/about_application/recommend/file/koubo_youko2027.pdf?20260707",
+    "https://search.keinet.ne.jp/2306/general/border_rate",
+    "https://manabi.benesse.ne.jp/daigaku/school/3362/nyushi/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3362/gakuhi/"
+   ]
+  },
+  "sources": [
+   "https://www.kanagawa-u.ac.jp/",
+   "https://www.kanagawa-u.ac.jp/admissions/faculty/about_application/recommend/file/koubo_youko2027.pdf?20260707",
+   "https://search.keinet.ne.jp/2306/general/border_rate",
+   "https://manabi.benesse.ne.jp/daigaku/school/3362/nyushi/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3362/gakuhi/"
+  ]
+ }
+]

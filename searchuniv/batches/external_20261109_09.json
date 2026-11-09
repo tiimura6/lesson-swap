@@ -1,0 +1,1591 @@
+[
+ {
+  "name": "聖徳大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "千葉県松戸市",
+  "pref_name": "千葉県",
+  "city": "松戸市",
+  "hp": "https://www.seitoku-u.ac.jp/",
+  "reading": "せいとくだいがく",
+  "features": [
+   "松戸駅東口徒歩5分のキャンパスに6学部を設置する女性総合大学。",
+   "教育・福祉・看護・栄養・音楽など多様な資格や教員免許を取得可能。",
+   "一般A・共テ利用Aや総合型Dで二段階納入制度を利用できる。"
+  ],
+  "memo": "総合型A-1は確認面談が必要（看護除く）。看護は公募後期、心理は総合型基礎Ⅱ期を未実施で注意。",
+  "info": {
+   "faculties": [
+    "教育学部",
+    "心理・福祉学部",
+    "文学部",
+    "人間栄養学部",
+    "看護学部",
+    "音楽学部"
+   ],
+   "departments": [
+    {
+     "f": "教育学部",
+     "d": [
+      "児童学科",
+      "教育学科 小学校教員養成コース",
+      "教育学科 特別支援教育コース"
+     ]
+    },
+    {
+     "f": "心理・福祉学部",
+     "d": [
+      "心理学科",
+      "社会福祉学科"
+     ]
+    },
+    {
+     "f": "文学部",
+     "d": [
+      "文学科 教養デザインコース",
+      "文学科 国際文化コミュニケーションコース",
+      "文学科 日本語・日本文学コース",
+      "文学科 書道文化コース",
+      "文学科 歴史文化コース",
+      "文学科 図書館情報コース"
+     ]
+    },
+    {
+     "f": "人間栄養学部",
+     "d": [
+      "人間栄養学科"
+     ]
+    },
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    },
+    {
+     "f": "音楽学部",
+     "d": [
+      "音楽学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜42.5",
+    "kyotei": "48%〜63%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": null,
+    "note": "A・B・C日程を実施。心理・福祉学部は1〜2教科2科目。看護学部は面接、音楽学部は音楽実技等・面接を課す。"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（面接方式）A-1・A-2・B・C・D日程",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "面接方式（A-1日程は6〜8月の事前確認面談およびエントリーシート提出が必要※看護学部除く）",
+      "req": "C日程は専願制",
+      "url": "https://ouen.seitoku.ac.jp/exam2027/overview.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅰ期・Ⅱ期",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "心理・福祉学部心理学科はⅡ期を実施しない",
+      "url": "https://ouen.seitoku.ac.jp/exam2027/overview.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（基礎学力テスト方式）C日程・D日程",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "基礎学力テスト",
+      "req": "C日程は併願制、D日程は二段階納入制度の利用申請可",
+      "url": "https://ouen.seitoku.ac.jp/exam2027/overview.html"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（指定校制）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "指定校推薦対象者",
+      "url": "https://ouen.seitoku.ac.jp/exam2027/overview.html"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募制）前期日程・後期日程",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "後期日程は看護学部未実施",
+      "url": "https://ouen.seitoku.ac.jp/exam2027/overview.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程・B日程・C日程",
+      "kyotsu": "課さない",
+      "niji": "個別学力試験（学部・学科指定科目、音楽学部は実技あり）",
+      "content": null,
+      "req": "A日程は二段階納入制度の利用申請可（サテライト試験場実施※書道・看護除く）",
+      "url": "https://ouen.seitoku.ac.jp/exam2027/overview.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 A日程・B日程・C日程",
+      "kyotsu": "共通テスト利用（心理・福祉学部は1〜2教科2科目）",
+      "niji": "原則課さない（看護学部は面接、音楽学部は音楽実技等・面接を課す）",
+      "content": null,
+      "req": "A日程は二段階納入制度の利用申請可",
+      "url": "https://ouen.seitoku.ac.jp/exam2027/overview.html"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "心理・福祉学部 心理学科・社会福祉学科",
+      "kubun": "一般",
+      "name": "一般選抜",
+      "n": 2,
+      "subj": "国語（現代の国語・言語文化※近代以降）100点、地歴（日史・世史）・数学（ⅠA）・理科（化基・生基）・英語から計2教科（200点満点）",
+      "kt": "課さない",
+      "eng": null
+     },
+     {
+      "f": "心理・福祉学部 心理学科・社会福祉学科",
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（2教科型）",
+      "n": 2,
+      "subj": "個別学力試験なし",
+      "kt": "国語（近代以降の文章）100点＋地歴・数ⅠA・理科（基礎2分野）・英語（リスニング含む）・情報Ⅰから1科目100点（計200点）",
+      "eng": null
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（面接方式）A-1日程",
+      "apply": "9/1〜9/7",
+      "exam": "9/13",
+      "result": "11/2(内定9/18)",
+      "proc": "11/13",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（面接方式）A-2日程",
+      "apply": "9/8〜9/19",
+      "exam": "9/27",
+      "result": "11/2(内定10/2)",
+      "proc": "11/13",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（面接方式）B日程",
+      "apply": "9/14〜10/5",
+      "exam": "10/11",
+      "result": "11/2(内定10/17)",
+      "proc": "11/13",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（面接方式）C日程",
+      "apply": "10/23〜11/9",
+      "exam": "11/15",
+      "result": "11/21",
+      "proc": "11/30",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（面接方式）D日程",
+      "apply": "12/1〜12/8",
+      "exam": "12/13",
+      "result": "12/18",
+      "proc": "1/8",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅰ期",
+      "apply": "2/1〜2/10",
+      "exam": "2/16",
+      "result": "2/20",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅱ期（心理学科除く）",
+      "apply": "2/18〜3/4",
+      "exam": "3/9",
+      "result": "3/12",
+      "proc": "3/19",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（基礎学力テスト方式）C日程",
+      "apply": "10/23〜11/9",
+      "exam": "11/15",
+      "result": "11/21",
+      "proc": "12/4",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（基礎学力テスト方式）D日程",
+      "apply": "12/1〜12/8",
+      "exam": "12/13",
+      "result": "12/18",
+      "proc": "1/8(二段階納入2回目3/5)",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（指定校制・公募制前期）",
+      "apply": "11/2〜11/9",
+      "exam": "11/15",
+      "result": "12/1",
+      "proc": "12/15",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募制後期（看護除く））",
+      "apply": "12/1〜12/8",
+      "exam": "12/13",
+      "result": "12/18",
+      "proc": "1/8",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "apply": "12/14〜1/18",
+      "exam": "1/24",
+      "result": "1/29",
+      "proc": "2/12(二段階納入2回目2/19)",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程",
+      "apply": "2/1〜2/10",
+      "exam": "2/16",
+      "result": "2/20",
+      "proc": "3/1",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 C日程",
+      "apply": "2/18〜3/4",
+      "exam": "3/9",
+      "result": "3/12",
+      "proc": "3/19",
+      "fee": 35000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 A日程",
+      "apply": "12/14〜1/18",
+      "exam": "1/16・1/17(看護・音楽は1/24に個別)",
+      "result": "2/9",
+      "proc": "2/16(二段階納入2回目2/24)",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 B日程",
+      "apply": "2/1〜2/10",
+      "exam": "1/16・1/17(看護・音楽は2/16に個別)",
+      "result": "2/20",
+      "proc": "3/1",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 C日程",
+      "apply": "2/18〜3/4",
+      "exam": "1/16・1/17(看護・音楽は3/9に個別)",
+      "result": "3/12",
+      "proc": "3/19",
+      "fee": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "〈得点基準明示型〉成績優秀者奨学制度",
+      "kind": "減免",
+      "target": "対象入試受験者（前期型入試の入学手続者も挑戦可能）",
+      "amount": "S特待：入学金相当額＋100万円、A特待：入学金相当額＋70万円、B特待：入学金相当額＋35万円（1年次秋学期以降の学費に充当、継続基準により最大4年間）",
+      "timing": "入試時",
+      "cond": "入試での得点率が規定基準を満たすこと（2年次以降は継続基準あり）"
+     },
+     {
+      "name": "グローバル教育プログラム特待制度",
+      "kind": "減免",
+      "target": "入学手続者・志願者（入学前まで申請可能）",
+      "amount": "授業料・施設費・教育充実費への充当",
+      "timing": "入学前予約",
+      "cond": "英検・TOEIC L&R+S&W・TOEFL iBT・GTECのいずれかで指定の級・スコアを取得し、3年次進級前等の継続審査を満たすこと"
+     },
+     {
+      "name": "高校成績特待制度",
+      "kind": "減免",
+      "target": "前期型入試受験者",
+      "amount": "授業料・施設費・教育充実費への充当",
+      "timing": "入試時",
+      "cond": "出願時における高等学校全体の学習成績の状況が適用基準を満たすこと"
+     },
+     {
+      "name": "聖徳大学入学サポート奨学金",
+      "kind": "減免",
+      "target": "前期型入試の合格者",
+      "amount": "1年次秋学期以降の学費（授業料・施設費・教育充実費）への充当",
+      "timing": "入試時",
+      "cond": "主たる家計支持者の給与収入合計841万円以下または総所得合計355万円以下"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-03-22",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-04-26",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-05-24",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-06-21",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-07-05",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-07-20",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-08-02",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-08-16",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-09-06",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-10-04",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-11-07",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-11-21",
+      "type": "来場",
+      "title": "来校型オープンキャンパス（聖徳祭同時開催）"
+     },
+     {
+      "date": "2026-11-22",
+      "type": "来場",
+      "title": "来校型オープンキャンパス（聖徳祭同時開催）"
+     },
+     {
+      "date": "2026-12-06",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     }
+    ],
+    "url": "https://ouen.seitoku.ac.jp/event/open_campus/"
+   },
+   "access": "千葉県松戸市岩瀬550（JR常磐線・地下鉄千代田線・京成松戸線「松戸」駅東口より徒歩5分）",
+   "licenses": [
+    "幼稚園教諭一種免許状（児童学科）",
+    "小学校教諭一種免許状（教育学科・児童学科）",
+    "特別支援学校教諭一種免許状［病弱］（教育学科）",
+    "中学校教諭一種免許状［家庭］（人間栄養学科）",
+    "高等学校教諭一種免許状［国語・英語・地理歴史・書道・福祉・家庭・保健・音楽］（文学科・社会福祉学科・人間栄養学科・音楽学科）",
+    "養護教諭一種免許状（社会福祉学科）",
+    "介護福祉士受験資格（社会福祉学科）",
+    "管理栄養士国家試験受験資格・栄養教諭一種免許状（人間栄養学科）",
+    "学校図書館司書教諭・学芸員・社会福祉主事・社会教育主事［任用］（各該当学科）"
+   ],
+   "careers": "銀行・一般企業、公務員、小・中・高・特別支援学校教員、幼稚園教諭、保育士、福祉施設、病院（看護師・管理栄養士）などへ就職する。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.seitoku-u.ac.jp/",
+    "https://ouen.seitoku.ac.jp/exam2027/overview.html",
+    "https://ouen.seitoku.ac.jp/exam2025/",
+    "https://ouen.seitoku.ac.jp/exam/cmn/pdf/entrance_exam_guide/2027/admissions_guide_2027.pdf?260617",
+    "https://ouen.seitoku.ac.jp/finew/exam/22015/",
+    "https://ouen.seitoku.ac.jp/exam2025/scholarship.html",
+    "https://ouen.seitoku.ac.jp/event/open_campus/",
+    "https://www.seitoku-u.ac.jp/career/",
+    "https://search.keinet.ne.jp/2176",
+    "https://search.keinet.ne.jp/2176/general/border_rate",
+    "https://search.keinet.ne.jp/2176/outline/campus",
+    "https://search.keinet.ne.jp/2176/outline/expense",
+    "https://passnavi.obunsha.co.jp/univ/2150/difficulty/?facultyID=010",
+    "https://passnavi.obunsha.co.jp/univ/2150/subject/",
+    "https://passnavi.obunsha.co.jp/univ/2150/subject/?facultyID=010",
+    "https://manabi.benesse.ne.jp/daigaku/school/3198/opencampus/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3198/syusyoku/"
+   ]
+  },
+  "sources": [
+   "https://www.seitoku-u.ac.jp/",
+   "https://ouen.seitoku.ac.jp/exam2027/overview.html",
+   "https://ouen.seitoku.ac.jp/exam2025/",
+   "https://ouen.seitoku.ac.jp/exam/cmn/pdf/entrance_exam_guide/2027/admissions_guide_2027.pdf?260617",
+   "https://ouen.seitoku.ac.jp/finew/exam/22015/",
+   "https://ouen.seitoku.ac.jp/exam2025/scholarship.html",
+   "https://ouen.seitoku.ac.jp/event/open_campus/",
+   "https://www.seitoku-u.ac.jp/career/",
+   "https://search.keinet.ne.jp/2176",
+   "https://search.keinet.ne.jp/2176/general/border_rate",
+   "https://search.keinet.ne.jp/2176/outline/campus",
+   "https://search.keinet.ne.jp/2176/outline/expense",
+   "https://passnavi.obunsha.co.jp/univ/2150/difficulty/?facultyID=010",
+   "https://passnavi.obunsha.co.jp/univ/2150/subject/",
+   "https://passnavi.obunsha.co.jp/univ/2150/subject/?facultyID=010",
+   "https://manabi.benesse.ne.jp/daigaku/school/3198/opencampus/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3198/syusyoku/"
+  ]
+ },
+ {
+  "name": "聖学院大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "埼玉県上尾市",
+  "pref_name": "埼玉県",
+  "city": "上尾市",
+  "hp": "https://www.seigakuin.jp/",
+  "reading": "せいがくいんだいがく",
+  "features": [
+   "埼玉県上尾市にキャンパスを置き、宮原駅・日進駅から徒歩15分で通学可。",
+   "政治経済・人文・心理福祉の3学部5学科で少人数対話型の教育を実践。",
+   "英語資格を活かす特待方式合格で入学金28万円が免除される制度を用意。"
+  ],
+  "memo": "総合型は多様な方式で4期制を実施。グローバル特待は英検2級以上で専願・入学金免除。",
+  "info": {
+   "faculties": [
+    "政治経済学部",
+    "人文学部",
+    "心理福祉学部"
+   ],
+   "departments": [
+    {
+     "f": "政治経済学部",
+     "d": [
+      "政治経済学科"
+     ]
+    },
+    {
+     "f": "人文学部",
+     "d": [
+      "国際文化学科",
+      "日本文化学科",
+      "子ども教育学科"
+     ]
+    },
+    {
+     "f": "心理福祉学部",
+     "d": [
+      "心理福祉学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜35.0",
+    "kyotei": "43%〜48%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": null,
+    "note": "大学入学共通テスト利用選抜（前期・中期・後期）を実施し、個別学力試験は課さない。"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 課題方式自己表現入試",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "レポート作成60分＋口頭試問＋面接15分",
+      "req": "併願可",
+      "url": "https://www.seigakuin-univ.ac.jp/session/123/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 英語特別入試（グローバル特待方式）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "面接15分（英語による自己紹介を含む）",
+      "req": "専願、英検2級以上等（合格すると入学金28万円免除）",
+      "url": "https://www.seigakuin-univ.ac.jp/admissions/examinations/global/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 英語特別入試",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "面接15分（英語による自己紹介を含む）",
+      "req": "併願可、英検準2級相当（CEFR A2）以上のスコア",
+      "url": "https://www.seigakuin-univ.ac.jp/session/123/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 講義方式入試",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.seigakuin-univ.ac.jp/session/123/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 指定校制推薦入試",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "専願、2027年3月卒業見込み等で出願基準を満たす者",
+      "url": "https://www.seigakuin-univ.ac.jp/admissions/examinations/designated/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 公募制推薦入試",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "専願、2027年3月卒業見込み等で出願基準を満たす者",
+      "url": "https://www.seigakuin-univ.ac.jp/admissions/examinations/public/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "クリスチャン推薦入試",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "専願",
+      "url": "https://www.seigakuin-univ.ac.jp/admissions/examinations/christian/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "kyotsu": "課さない",
+      "niji": "国語・英語・選択1科目（日本史探究・世界史探究・数ⅠA・数Ⅰ）",
+      "content": null,
+      "req": null,
+      "url": "https://www.seigakuin-univ.ac.jp/admissions/examinations/general_a/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程・C日程・D日程",
+      "kyotsu": "課さない",
+      "niji": "国語・英語（200点満点と高得点上位1科目100点満点で判定）",
+      "content": null,
+      "req": null,
+      "url": "https://www.seigakuin-univ.ac.jp/admissions/examinations/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（前期・中期・後期）",
+      "kyotsu": "共通テスト利用",
+      "niji": "課さない",
+      "content": null,
+      "req": null,
+      "url": "https://www.seigakuin-univ.ac.jp/admissions/examinations/general_common/"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "全学部 全学科",
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "n": 3,
+      "subj": "国語・英語・選択（日本史探究・世界史探究・数ⅠA・数Ⅰから1）の計3科目（300点満点と高得点上位2科目200点満点で判定）",
+      "kt": "課さない",
+      "eng": null
+     },
+     {
+      "f": "全学部 全学科",
+      "kubun": "一般",
+      "name": "一般選抜 B・C・D日程",
+      "n": 2,
+      "subj": "国語・英語（200点満点と高得点上位1科目100点満点で判定）",
+      "kt": "課さない",
+      "eng": null
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 英語特別入試（1〜4期）",
+      "apply": null,
+      "exam": "9/12・10/17・12/19・3/16",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 課題方式自己表現入試",
+      "apply": null,
+      "exam": "10/17・12/19・3/16",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 指定校制推薦入試",
+      "apply": null,
+      "exam": "11/14",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 公募制推薦入試",
+      "apply": null,
+      "exam": "12/5",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "クリスチャン推薦入試 1期",
+      "apply": "11/2〜11/9",
+      "exam": "11/14",
+      "result": "12/1",
+      "proc": "12/1〜12/14",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "クリスチャン推薦入試 2期",
+      "apply": "1/25〜2/15",
+      "exam": "2/20",
+      "result": "2/24",
+      "proc": "2/24〜3/8",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "apply": "12/21〜1/18",
+      "exam": "1/22",
+      "result": "2/1",
+      "proc": "2/1〜2/24",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程",
+      "apply": null,
+      "exam": "1/23",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 C日程",
+      "apply": "1/25〜2/15",
+      "exam": "2/20",
+      "result": null,
+      "proc": null,
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 D日程",
+      "apply": "2/22〜3/9",
+      "exam": "3/16",
+      "result": "3/18",
+      "proc": "3/18〜3/24",
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 前期",
+      "apply": "12/21〜1/22",
+      "exam": "1/16・1/17(個別なし)",
+      "result": "2/12",
+      "proc": "2/12〜2/24",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 中期",
+      "apply": "1/25〜2/17",
+      "exam": "1/16・1/17(個別なし)",
+      "result": "3/1",
+      "proc": "3/1〜3/10",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 後期",
+      "apply": "2/18〜3/11",
+      "exam": "1/16・1/17(個別なし)",
+      "result": "3/18",
+      "proc": "3/18〜3/24",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "政治経済学部 政治経済学科",
+      "admission": 280000,
+      "tuition": 780000,
+      "facility": 335000,
+      "practical": 0,
+      "other": 84000,
+      "first_year": 1479000,
+      "four_year": null
+     },
+     {
+      "f": "人文学部 国際文化学科",
+      "admission": 280000,
+      "tuition": 780000,
+      "facility": 335000,
+      "practical": 0,
+      "other": 84000,
+      "first_year": 1479000,
+      "four_year": null
+     },
+     {
+      "f": "人文学部 日本文化学科",
+      "admission": 280000,
+      "tuition": 780000,
+      "facility": 335000,
+      "practical": 0,
+      "other": 86000,
+      "first_year": 1481000,
+      "four_year": null
+     },
+     {
+      "f": "人文学部 子ども教育学科",
+      "admission": 280000,
+      "tuition": 830000,
+      "facility": 335000,
+      "practical": 0,
+      "other": 84000,
+      "first_year": 1529000,
+      "four_year": null
+     },
+     {
+      "f": "心理福祉学部 心理福祉学科",
+      "admission": 280000,
+      "tuition": 830000,
+      "facility": 335000,
+      "practical": 0,
+      "other": 84000,
+      "first_year": 1529000,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "英語特別入試（グローバル特待方式）入学金免除",
+      "kind": "減免",
+      "target": "2027年度 英語特別入試（グローバル特待方式）合格者",
+      "amount": "入学金28万円免除",
+      "timing": "入試時",
+      "cond": "専願、英検2級以上等"
+     }
+    ]
+   },
+   "eng": {
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "英語特別入試（グローバル特待方式）",
+      "use": "出願資格",
+      "level": "英検2級以上",
+      "tests": "実用英語技能検定等"
+     },
+     {
+      "kubun": "総合型",
+      "name": "英語特別入試",
+      "use": "出願資格",
+      "level": "英検準2級相当（CEFR A2）以上",
+      "tests": "実用英語技能検定等"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-07-18",
+      "type": "来場",
+      "title": "夏のオープンキャンパス"
+     },
+     {
+      "date": "2026-08-01",
+      "type": "来場",
+      "title": "夏のオープンキャンパス"
+     },
+     {
+      "date": "2026-08-11",
+      "type": "来場",
+      "title": "夏のオープンキャンパス"
+     },
+     {
+      "date": "2026-08-15",
+      "type": "来場",
+      "title": "夏のオープンキャンパス"
+     }
+    ],
+    "url": "https://www.seigakuin-univ.ac.jp/session/203/"
+   },
+   "access": "埼玉県上尾市戸崎1-1（JR高崎線「宮原」駅より徒歩約15分またはスクールバス約5分、JR埼京線「日進」駅徒歩約15分、「西大宮」駅よりスクールバス約10分）",
+   "licenses": [
+    "中学校教諭一種免許状［国語］（日本文化学科）",
+    "高等学校教諭一種免許状［国語］（日本文化学科）",
+    "小学校教諭一種免許状（子ども教育学科）",
+    "幼稚園教諭一種免許状（子ども教育学科）",
+    "保育士資格（子ども教育学科）"
+   ],
+   "careers": "小学校・中学校・高校教員、幼稚園教諭、保育士、児童福祉施設職員、公務員、一般企業などへ就職する。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.seigakuin.jp/",
+    "https://www.seigakuin-univ.ac.jp/admissions/examinations/",
+    "https://www.seigakuin-univ.ac.jp/uploads/2026/07/%E8%81%96%E5%AD%A6%E9%99%A2%E5%A4%A7%E5%AD%A6%20%E5%85%A5%E8%A9%A6%E8%A6%81%E9%A0%852027.pdf",
+    "https://www.seigakuin-univ.ac.jp/session/123/",
+    "https://www.seigakuin-univ.ac.jp/admissions/examinations/global/",
+    "https://www.seigakuin-univ.ac.jp/admissions/examinations/self_expression/",
+    "https://www.seigakuin-univ.ac.jp/admissions/examinations/designated/",
+    "https://www.seigakuin-univ.ac.jp/admissions/examinations/public/",
+    "https://www.seigakuin-univ.ac.jp/admissions/examinations/christian/",
+    "https://www.seigakuin-univ.ac.jp/admissions/examinations/general_a/",
+    "https://www.seigakuin-univ.ac.jp/admissions/examinations/general_c/",
+    "https://www.seigakuin-univ.ac.jp/admissions/examinations/general_d/",
+    "https://www.seigakuin-univ.ac.jp/admissions/examinations/general_common/",
+    "https://www.seigakuin-univ.ac.jp/session/203/",
+    "https://www.seigakuin-univ.ac.jp/access/",
+    "https://www.seigakuin-univ.ac.jp/faculty/humanities/csd/",
+    "https://www.seigakuin-univ.ac.jp/faculty/humanities/csd/achievements/",
+    "https://search.keinet.ne.jp/2154",
+    "https://search.keinet.ne.jp/2154/general/border_rate",
+    "https://search.keinet.ne.jp/2154/outline/campus",
+    "https://search.keinet.ne.jp/2154/outline/expense",
+    "https://passnavi.obunsha.co.jp/univ/2020/difficulty/",
+    "https://passnavi.obunsha.co.jp/univ/2020/department/?facultyID=010",
+    "https://manabi.benesse.ne.jp/daigaku/school/3152/gakuhi/",
+    "https://www.best-shingaku.net/smt/gakuhi898.html"
+   ]
+  },
+  "sources": [
+   "https://www.seigakuin.jp/",
+   "https://www.seigakuin-univ.ac.jp/admissions/examinations/",
+   "https://www.seigakuin-univ.ac.jp/uploads/2026/07/%E8%81%96%E5%AD%A6%E9%99%A2%E5%A4%A7%E5%AD%A6%20%E5%85%A5%E8%A9%A6%E8%A6%81%E9%A0%852027.pdf",
+   "https://www.seigakuin-univ.ac.jp/session/123/",
+   "https://www.seigakuin-univ.ac.jp/admissions/examinations/global/",
+   "https://www.seigakuin-univ.ac.jp/admissions/examinations/self_expression/",
+   "https://www.seigakuin-univ.ac.jp/admissions/examinations/designated/",
+   "https://www.seigakuin-univ.ac.jp/admissions/examinations/public/",
+   "https://www.seigakuin-univ.ac.jp/admissions/examinations/christian/",
+   "https://www.seigakuin-univ.ac.jp/admissions/examinations/general_a/",
+   "https://www.seigakuin-univ.ac.jp/admissions/examinations/general_c/",
+   "https://www.seigakuin-univ.ac.jp/admissions/examinations/general_d/",
+   "https://www.seigakuin-univ.ac.jp/admissions/examinations/general_common/",
+   "https://www.seigakuin-univ.ac.jp/session/203/",
+   "https://www.seigakuin-univ.ac.jp/access/",
+   "https://www.seigakuin-univ.ac.jp/faculty/humanities/csd/",
+   "https://www.seigakuin-univ.ac.jp/faculty/humanities/csd/achievements/",
+   "https://search.keinet.ne.jp/2154",
+   "https://search.keinet.ne.jp/2154/general/border_rate",
+   "https://search.keinet.ne.jp/2154/outline/campus",
+   "https://search.keinet.ne.jp/2154/outline/expense",
+   "https://passnavi.obunsha.co.jp/univ/2020/difficulty/",
+   "https://passnavi.obunsha.co.jp/univ/2020/department/?facultyID=010",
+   "https://manabi.benesse.ne.jp/daigaku/school/3152/gakuhi/",
+   "https://www.best-shingaku.net/smt/gakuhi898.html"
+  ]
+ },
+ {
+  "name": "聖マリアンナ医科大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "神奈川県川崎市宮前区",
+  "pref_name": "神奈川県",
+  "city": "川崎市宮前区",
+  "hp": "https://www.marianna-u.ac.jp/",
+  "reading": "せいまりあんないかだいがく",
+  "features": [
+   "神奈川県川崎市宮前区にキャンパスを置く医学部医学科の単科大学。",
+   "国際認証基準に準拠した融合型カリキュラムと診療参加型臨床実習を実施。",
+   "2026年医師国家試験新卒合格率は91.3％と高い実績を挙げている。"
+  ],
+  "memo": "総合型選抜は未実施。一般前期・後期および共テ利用は2次試験（適性検査・小論文・面接）が必須。",
+  "info": {
+   "faculties": [
+    "医学部"
+   ],
+   "departments": [
+    {
+     "f": "医学部",
+     "d": [
+      "医学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "62.5",
+    "kyotei": "81%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "4教科6科目",
+    "kyoka": [
+     4,
+     4
+    ],
+    "note": "第1次試験は大学入学共通テスト（4教科6科目）、第2次試験として適性検査、小論文、面接を課す。"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "現役・全日制のみ、全体の評定平均値3.8以上等",
+      "url": "https://www.marianna-u.ac.jp/univ/ent_info/pdf/selection_guidelines_2027.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期・後期）",
+      "kyotsu": "課さない",
+      "niji": "第1次試験および第2次試験",
+      "content": null,
+      "req": null,
+      "url": "https://www.marianna-u.ac.jp/univ/ent_info/ent_general.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜",
+      "kyotsu": "4教科6科目",
+      "niji": "第2次試験（適性検査・小論文・面接）",
+      "content": null,
+      "req": "2027年大学入学共通テスト受験者",
+      "url": "https://www.marianna-u.ac.jp/univ/ent_info/pdf/selection_guidelines_2027.pdf"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "医学部 医学科",
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜",
+      "n": 4,
+      "subj": "第2次試験：適性検査・小論文・面接",
+      "kt": "4教科6科目",
+      "eng": null
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期）",
+      "apply": "12/14〜1/20(書類1/21必着)",
+      "exam": "1次2/4・2次2/13または2/14",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（後期）",
+      "apply": "2/15〜2/20",
+      "exam": "1次3/2・2次3/12",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜",
+      "apply": "12/14〜1/14",
+      "exam": "1/16・1/17(共テ)・3/12(2次)",
+      "result": "3/18",
+      "proc": "3/24",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "医学部 医学科",
+      "admission": 1500000,
+      "tuition": 3700000,
+      "facility": 1770000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 6970000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "神奈川県川崎市宮前区菅生2-16-1（小田急線「向ヶ丘遊園」駅・「生田」駅等からバス、東急田園都市線「あざみ野」駅からバス「聖マリアンナ医大」下車）",
+   "licenses": [
+    "医師国家試験受験資格（医学科）"
+   ],
+   "careers": "医師国家試験に合格し、臨床研修医を経て医師として医療・研究分野で活躍する。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.marianna-u.ac.jp/",
+    "https://www.marianna-u.ac.jp/univ/ent_info/ent_general.html",
+    "https://www.marianna-u.ac.jp/univ/ent_info/pdf/selection_guidelines_2027.pdf",
+    "https://search.keinet.ne.jp/2314",
+    "https://search.keinet.ne.jp/2314/general/border_rate",
+    "https://search.keinet.ne.jp/2314/outline/expense",
+    "https://passnavi.obunsha.co.jp/univ/3300/difficulty/?facultyID=005",
+    "https://passnavi.obunsha.co.jp/univ/3300/department/",
+    "https://passnavi.obunsha.co.jp/univ/3300/schedule/",
+    "https://shoronbun-campus.com/posts/daigaku-marianna-sogo/",
+    "https://ishin-kai.info/column/information/862/",
+    "https://form.epr-kk.co.jp/university_union/uu-019/"
+   ]
+  },
+  "sources": [
+   "https://www.marianna-u.ac.jp/",
+   "https://www.marianna-u.ac.jp/univ/ent_info/ent_general.html",
+   "https://www.marianna-u.ac.jp/univ/ent_info/pdf/selection_guidelines_2027.pdf",
+   "https://search.keinet.ne.jp/2314",
+   "https://search.keinet.ne.jp/2314/general/border_rate",
+   "https://search.keinet.ne.jp/2314/outline/expense",
+   "https://passnavi.obunsha.co.jp/univ/3300/difficulty/?facultyID=005",
+   "https://passnavi.obunsha.co.jp/univ/3300/department/",
+   "https://passnavi.obunsha.co.jp/univ/3300/schedule/",
+   "https://shoronbun-campus.com/posts/daigaku-marianna-sogo/",
+   "https://ishin-kai.info/column/information/862/",
+   "https://form.epr-kk.co.jp/university_union/uu-019/"
+  ]
+ },
+ {
+  "name": "群馬医療福祉大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "群馬県前橋市",
+  "pref_name": "群馬県",
+  "city": "前橋市",
+  "hp": "https://www.shoken-gakuen.jp/university/",
+  "reading": "ぐんまいりょうふくしだいがく",
+  "features": [
+   "前橋・藤岡・本町の3キャンパスで福祉・看護・リハビリ・医療技術を学ぶ。",
+   "一般選抜は2月3日・4日の両日受験が可能で、高崎駅からバスで通学。",
+   "社会福祉・リハビリ・医療技術・看護の4学部で医療と福祉の専門職を養成。"
+  ],
+  "memo": "一般選抜は両日受験可（2/3・2/4）。キャンパスが学部等により前橋・藤岡・本町に分かれるため注意。",
+  "info": {
+   "faculties": [
+    "社会福祉学部",
+    "リハビリテーション学部",
+    "医療技術学部",
+    "看護学部"
+   ],
+   "departments": [
+    {
+     "f": "社会福祉学部",
+     "d": [
+      "社会福祉・心理福祉",
+      "子ども福祉"
+     ]
+    },
+    {
+     "f": "リハビリテーション学部",
+     "d": [
+      "理学療法専攻",
+      "作業療法専攻"
+     ]
+    },
+    {
+     "f": "医療技術学部",
+     "d": [
+      "臨床検査学専攻",
+      "臨床工学専攻"
+     ]
+    },
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜45.0",
+    "kyotei": "49%〜64%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": null,
+    "note": "全4学部で大学入学共通テスト利用選抜を実施。"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.shoken-gakuen.jp/university/staff/admission/sougou/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜【公募】",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.shoken-gakuen.jp/university/staff/admission/suisen-koubo/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "kyotsu": "課さない",
+      "niji": "両日受験可",
+      "content": null,
+      "req": null,
+      "url": "https://www.shoken-gakuen.jp/university/staff/admission/ippan/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜",
+      "kyotsu": "共通テスト利用",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://search.keinet.ne.jp/2140/general/border_rate"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（1月出願期間）",
+      "apply": "1/5〜1/25",
+      "exam": "2/3・2/4",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（2月出願期間）",
+      "apply": "2/8〜2/17",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": "https://www.shoken-gakuen.jp/university/examinee/opencampus/fukushi.php"
+   },
+   "access": "前橋キャンパス：群馬県前橋市川曲町191-1（JR「井野」駅東口徒歩25分、JR「高崎」駅・「前橋」駅よりスクールバス、JR「新前橋」駅よりバス）／藤岡キャンパス：JR「群馬藤岡」駅西口徒歩5分／本町キャンパス：JR「前橋」駅徒歩10分",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.shoken-gakuen.jp/university/",
+    "https://www.shoken-gakuen.jp/university/staff/admission/sougou/",
+    "https://www.shoken-gakuen.jp/university/staff/admission/suisen-koubo/",
+    "https://www.shoken-gakuen.jp/university/staff/admission/ippan/",
+    "https://www.shoken-gakuen.jp/university/examinee/admission/gakuhi.html",
+    "https://www.shoken-gakuen.jp/university/examinee/opencampus/fukushi.php",
+    "https://search.keinet.ne.jp/2140",
+    "https://search.keinet.ne.jp/2140/outline/department",
+    "https://search.keinet.ne.jp/2140/outline/campus",
+    "https://search.keinet.ne.jp/2140/general/border_rate",
+    "https://manabi.benesse.ne.jp/daigaku/school/3138/opencampus/"
+   ]
+  },
+  "sources": [
+   "https://www.shoken-gakuen.jp/university/",
+   "https://www.shoken-gakuen.jp/university/staff/admission/sougou/",
+   "https://www.shoken-gakuen.jp/university/staff/admission/suisen-koubo/",
+   "https://www.shoken-gakuen.jp/university/staff/admission/ippan/",
+   "https://www.shoken-gakuen.jp/university/examinee/admission/gakuhi.html",
+   "https://www.shoken-gakuen.jp/university/examinee/opencampus/fukushi.php",
+   "https://search.keinet.ne.jp/2140",
+   "https://search.keinet.ne.jp/2140/outline/department",
+   "https://search.keinet.ne.jp/2140/outline/campus",
+   "https://search.keinet.ne.jp/2140/general/border_rate",
+   "https://manabi.benesse.ne.jp/daigaku/school/3138/opencampus/"
+  ]
+ },
+ {
+  "name": "群馬パース大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "群馬県高崎市",
+  "pref_name": "群馬県",
+  "city": "高崎市",
+  "hp": "https://www.paz.ac.jp/",
+  "reading": "ぐんまぱーすだいがく",
+  "features": [
+   "JR高崎問屋町駅徒歩4〜10分に位置する医療系3学部7学科の大学。",
+   "一般前期は全国7会場で実施し、共テ利用との同時出願で検定料を割引。",
+   "一般選抜では英検・GTEC・TEAPなどの英語外部検定試験を活用可。"
+  ],
+  "memo": "総合型Ⅰ・推薦Ⅰ・Ⅱは専願、総合型Ⅱは併願可で第3志望まで出願可。検査技術・放射線は理科1科目必須。",
+  "info": {
+   "faculties": [
+    "看護学部",
+    "リハビリテーション学部",
+    "医療技術学部"
+   ],
+   "departments": [
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    },
+    {
+     "f": "リハビリテーション学部",
+     "d": [
+      "理学療法学科",
+      "作業療法学科",
+      "言語聴覚学科"
+     ]
+    },
+    {
+     "f": "医療技術学部",
+     "d": [
+      "検査技術学科",
+      "放射線学科",
+      "臨床工学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "37.5〜42.5",
+    "kyotei": "43%〜58%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": null,
+    "note": "大学入学共通テスト利用選抜（前期・後期）を実施。個別試験は課さず、一般選抜との同時出願で検定料割引（合計40,000円）あり。"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜Ⅰ",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "基礎学力試験（100点）・グループディスカッション［看護］または面接［リハビリ・医療技術］（100点）・書類審査調査書（50点）",
+      "req": "専願制、評定平均値の出願基準なし、合格者は特待生選抜を検定料無料で受験可",
+      "url": "https://www.paz.ac.jp/document_request/_pdf/2027boshuyoko.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜Ⅱ",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "基礎学力試験（100点）・面接（100点）・調査書（30点）",
+      "req": "他大学併願可、学内第3志望学科まで出願可、評定平均値の出願基準なし",
+      "url": "https://www.paz.ac.jp/juken/admissions/admission_office_2.php"
+     },
+     {
+      "kubun": "総合型",
+      "name": "特待生選抜（12月総合型）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "基礎学力試験（100点）・面接（100点）・調査書（30点）",
+      "req": "併願可・所得制限なし、総合型・学校推薦型合格者は検定料無料",
+      "url": "https://www.paz.ac.jp/juken/admissions/scholarship_selection_12.php"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜Ⅰ（指定校制）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "専願、指定校の2027年3月卒業見込み者等",
+      "url": "https://www.paz.ac.jp/juken/admissions/recommendation_1.php"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜Ⅱ",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "専願",
+      "url": "https://www.paz.ac.jp/document_request/_pdf/2027boshuyoko.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期・後期）",
+      "kyotsu": "課さない",
+      "niji": "2科目（200点満点・120分・マークシート式、英語外部検定試験活用可）",
+      "content": null,
+      "req": "前期は群馬・東京・新潟・長野・宇都宮・仙台・富山の7会場で実施",
+      "url": "https://www.paz.ac.jp/juken/admissions/general_admission.php"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（前期・後期）",
+      "kyotsu": "共通テスト利用",
+      "niji": "課さない",
+      "content": null,
+      "req": "一般選抜との同時出願で入学検定料8,000円割引（合計40,000円）",
+      "url": "https://www.paz.ac.jp/juken/admissions/kyotsutest.php"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "看護学部 看護学科・リハビリテーション学部 全学科・医療技術学部 臨床工学科",
+      "kubun": "一般",
+      "name": "一般選抜（前期・後期）",
+      "n": 2,
+      "subj": "国語（現代の国語・言語文化※古文漢文除く）、数学（数ⅠA※Aは図形の性質・場合の数と確率）、英語（英コミⅠ・Ⅱ、論表Ⅰ）、理科（物理基礎・化学基礎・生物基礎から2科目または物理・化学・生物から1科目）から2科目（各100点・計200点）",
+      "kt": "課さない",
+      "eng": "英検・GTEC・TEAPの基準スコアにより80点または100点とみなし、当日英語得点と比較し高い方を採用"
+     },
+     {
+      "f": "医療技術学部 検査技術学科・放射線学科",
+      "kubun": "一般",
+      "name": "一般選抜（前期・後期）",
+      "n": 2,
+      "subj": "国語・数学・英語から1科目（100点）＋理科（物理基礎・化学基礎・生物基礎から2科目または物理・化学・生物から1科目）（100点）の計2科目200点",
+      "kt": "課さない",
+      "eng": "英検・GTEC・TEAPの基準スコアにより80点または100点とみなし、当日英語得点と比較し高い方を採用"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜Ⅰ",
+      "apply": "9/18〜10/2",
+      "exam": "10/10",
+      "result": "11/2",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "特待生選抜（12月総合型）",
+      "apply": "11/20〜12/4",
+      "exam": "12/12",
+      "result": "12/18",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期）",
+      "apply": "1/4〜1/27",
+      "exam": "2/6",
+      "result": "2/12",
+      "proc": "3/1",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（後期）",
+      "apply": "2/8〜2/26",
+      "exam": "3/6",
+      "result": "3/11",
+      "proc": "3/25",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（前期）",
+      "apply": "1/4〜2/3(同時出願1/4〜1/26)",
+      "exam": "1/16・1/17(個別なし)",
+      "result": "2/18",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（後期）",
+      "apply": "2/8〜3/3(同時出願2/8〜2/26)",
+      "exam": "1/16・1/17(個別なし)",
+      "result": "3/11",
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "特待生選抜（12月総合型）",
+      "kind": "減免",
+      "target": "特待生選抜（12月総合型）合格者（特待生A・B計20名、総合型・学校推薦型合格者は検定料無料）",
+      "amount": null,
+      "timing": "入試時",
+      "cond": "基礎学力試験・面接・調査書による選考（所得制限なし・併願可）"
+     }
+    ]
+   },
+   "eng": {
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期・後期）",
+      "use": "得点換算",
+      "level": "英検準1級以上/GTEC1180以上/TEAP309以上は100点（CEFR B2以上）、英検2級/GTEC930-1179/TEAP225-308は80点（CEFR B1）",
+      "tests": "実用英語技能検定（従来型・CBT・S-CBT・S-Interview）、GTEC（Advanced・CBT）、TEAP（4技能総合点）"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": "https://www.paz.ac.jp/opencampus/"
+   },
+   "access": "群馬県高崎市問屋町1-7-1（JR上越線・JR両毛線「高崎問屋町」駅問屋口より1・2号館徒歩10分、4号館徒歩4分）",
+   "licenses": [
+    "看護師国家試験受験資格（看護学科）",
+    "保健師国家試験受験資格［定員20名の選択制］（看護学科）",
+    "助産師国家試験受験資格［定員6名の選択制］（看護学科）",
+    "第1種衛生管理者免許・養護教諭二種免許状［保健師免許取得後申請］（看護学科）",
+    "理学療法士国家試験受験資格・初級パラスポーツ指導員（理学療法学科）",
+    "作業療法士国家試験受験資格（作業療法学科）",
+    "言語聴覚士国家試験受験資格（言語聴覚学科）",
+    "臨床検査技師国家試験受験資格・遺伝子分析科学認定士（初級）受験資格・健康食品管理士受験資格（検査技術学科）",
+    "診療放射線技師国家試験受験資格・第1種／第2種放射線取扱主任者（放射線学科）",
+    "臨床工学技士国家試験受験資格・第1種／第2種ME技術者（臨床工学科）"
+   ],
+   "careers": "群馬県や関東近県をはじめ各地の病院・医療センターでの医療専門職や大学院進学へ進む。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.paz.ac.jp/",
+    "https://www.paz.ac.jp/document_request/_pdf/2027boshuyoko.pdf",
+    "https://www.paz.ac.jp/juken/admissions/general_admission.php",
+    "https://www.paz.ac.jp/juken/admissions/kyotsutest.php",
+    "https://www.paz.ac.jp/juken/admissions/admission_office_2.php",
+    "https://www.paz.ac.jp/juken/admissions/recommendation_1.php",
+    "https://www.paz.ac.jp/juken/admissions/scholarship_selection_12.php",
+    "https://www.paz.ac.jp/juken/admissions/scholarship.php",
+    "https://www.paz.ac.jp/opencampus/",
+    "https://www.paz.ac.jp/opencampus/index_2026spring.php",
+    "https://search.keinet.ne.jp/2133",
+    "https://search.keinet.ne.jp/2133/general/border_rate",
+    "https://passnavi.obunsha.co.jp/univ/1949/difficulty/",
+    "https://passnavi.obunsha.co.jp/univ/1949/shinro/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3140/nyushi/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3140/syusyoku/",
+    "https://onikanri.singeki.com/sougougata-a019231/",
+    "https://aoskillpass.com/nyushi/gunma-paz-heigan-2027/",
+    "https://www.shinronozukan.com/university/gunma-paz/suisen/s0947"
+   ]
+  },
+  "sources": [
+   "https://www.paz.ac.jp/",
+   "https://www.paz.ac.jp/document_request/_pdf/2027boshuyoko.pdf",
+   "https://www.paz.ac.jp/juken/admissions/general_admission.php",
+   "https://www.paz.ac.jp/juken/admissions/kyotsutest.php",
+   "https://www.paz.ac.jp/juken/admissions/admission_office_2.php",
+   "https://www.paz.ac.jp/juken/admissions/recommendation_1.php",
+   "https://www.paz.ac.jp/juken/admissions/scholarship_selection_12.php",
+   "https://www.paz.ac.jp/juken/admissions/scholarship.php",
+   "https://www.paz.ac.jp/opencampus/",
+   "https://www.paz.ac.jp/opencampus/index_2026spring.php",
+   "https://search.keinet.ne.jp/2133",
+   "https://search.keinet.ne.jp/2133/general/border_rate",
+   "https://passnavi.obunsha.co.jp/univ/1949/difficulty/",
+   "https://passnavi.obunsha.co.jp/univ/1949/shinro/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3140/nyushi/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3140/syusyoku/",
+   "https://onikanri.singeki.com/sougougata-a019231/",
+   "https://aoskillpass.com/nyushi/gunma-paz-heigan-2027/",
+   "https://www.shinronozukan.com/university/gunma-paz/suisen/s0947"
+  ]
+ }
+]

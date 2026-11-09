@@ -1,0 +1,1035 @@
+[
+ {
+  "name": "鶴見大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "神奈川県横浜市鶴見区",
+  "pref_name": "神奈川県",
+  "city": "横浜市鶴見区",
+  "hp": "https://www.tsurumi-u.ac.jp/",
+  "reading": "つるみだいがく",
+  "features": [
+   "JR鶴見駅西口徒歩5分、総持寺隣接の緑豊かなキャンパス。",
+   "文学部と歯学部の2学部を擁し、実践的な専門教育を行う。",
+   "図書館司書や学芸員など資格取得と専門職就職に強みを持つ。"
+  ],
+  "memo": "公募推薦は文学部のみで歯学部は未実施。文学部共テ利用や歯学部一般1期は特待生選抜を兼ねるため日程確認が必須。",
+  "info": {
+   "faculties": [
+    "文学部",
+    "歯学部"
+   ],
+   "departments": [
+    {
+     "f": "文学部",
+     "d": [
+      "日本文学科",
+      "英語英米文学科",
+      "文化財学科",
+      "ドキュメンテーション学科"
+     ]
+    },
+    {
+     "f": "歯学部",
+     "d": [
+      "歯学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜37.5",
+    "kyotei": "38%〜47%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "国語・地歴・数学・理科・英語・情報から学科指定の1〜3教科",
+    "kyoka": [
+     1,
+     3
+    ],
+    "note": "文学部は1〜3教科、歯学部は英語・数学・理科の3教科に加え課題作文と面接を課す"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "推薦",
+      "name": "文学部 学校推薦型選抜（指定校推薦）1期・2期",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "詳細は本学指定の高等学校へ通知（附属高校推薦を含む）",
+      "req": "指定校推薦対象者",
+      "url": "https://support.tsurumi-u.ac.jp/bungakubu_overview/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "文学部 学校推薦型選抜（一般公募推薦）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "調査書・小論文・面接の総合判定",
+      "req": "学科別推薦基準（2027年3月卒業見込み等、評定平均3.0〜3.5以上や活動・検定要件等）",
+      "url": "https://support.tsurumi-u.ac.jp/bungakubu_overview/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "文学部 総合型選抜 1期（課題型）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "課題の解答・出願書類（調査書等）・面接の総合判定",
+      "req": "大学入学資格者でエントリーおよび面談実施者（ドキュメンテーション学科はエントリーのみ必須）、専願",
+      "url": "https://support.tsurumi-u.ac.jp/bungakubu_overview/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "文学部 総合型選抜 1期（基礎学力試験型）",
+      "kyotsu": "課さない",
+      "niji": "学科指定科目（国語・英語・歴史総合から1〜2教科）、面接（英語英米文は自己評価書）",
+      "content": "基礎学力試験・面接等（英語英米文学科は自己評価書）",
+      "req": "大学入学資格者（併願可）",
+      "url": "https://support.tsurumi-u.ac.jp/bungakubu_overview/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "文学部 総合型選抜 1期（英語検定試験利用型・英語英米文学科）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "出願書類（検定関係証明書等）・面接の総合判定",
+      "req": "英語英米文学科志望者、専願",
+      "url": "https://support.tsurumi-u.ac.jp/bungakubu_overview/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "文学部 総合型選抜 2期",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "課題の解答・出願書類（調査書等）・面接の総合判定",
+      "req": "大学入学資格者、専願",
+      "url": "https://support.tsurumi-u.ac.jp/bungakubu_overview/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "文学部 総合型選抜 3期",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "課題作文・出願書類（調査書等）・面接の総合判定",
+      "req": "大学入学資格者（併願可）",
+      "url": "https://support.tsurumi-u.ac.jp/bungakubu_overview/"
+     },
+     {
+      "kubun": "一般",
+      "name": "文学部 一般選抜（個別選抜型）1期",
+      "kyotsu": "課さない",
+      "niji": "学科指定の個別学力試験（国語・英語・地歴等）",
+      "content": null,
+      "req": "大学入学資格者（同一学科の両日受験可）",
+      "url": "https://support.tsurumi-u.ac.jp/bungakubu_overview/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "文学部 大学入学共通テスト利用選抜 1期・2期",
+      "kyotsu": "1〜3教科（学科により異なる）",
+      "niji": "課さない",
+      "content": null,
+      "req": "2027年1月実施の共通テスト指定科目受験者",
+      "url": "https://support.tsurumi-u.ac.jp/bungakubu_overview/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "文学部 奨学特待生選抜",
+      "kyotsu": "2教科（国語・英語）",
+      "niji": "課さない",
+      "content": null,
+      "req": "指定校推薦・公募推薦の合格者は出願不可",
+      "url": "https://support.tsurumi-u.ac.jp/bungakubu_overview/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "歯学部 学校推薦型選抜（指定校推薦・同窓会推薦）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "指定校推薦（附属高校推薦含む）・同窓会推薦による選考（一般公募推薦は未実施）",
+      "req": "指定高校または同窓会推薦対象者（合格手続完了者は新入生特待奨学生選抜試験の受験資格あり）",
+      "url": "https://support.tsurumi-u.ac.jp/shigaku_overview/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "歯学部 総合型選抜 1期〜4期",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "自己評価書・小論文・面接等（旧公募推薦等を統合）",
+      "req": "1・2・4期は専願（1〜3期合格手続完了者は新入生特待奨学生選抜試験の受験資格あり）",
+      "url": "https://support.tsurumi-u.ac.jp/shigaku_overview/"
+     },
+     {
+      "kubun": "一般",
+      "name": "歯学部 一般選抜（個別選抜型）1期〜3期",
+      "kyotsu": "課さない",
+      "niji": "英語または数学から1教科、理科1科目、小論文、面接",
+      "content": null,
+      "req": "大学入学資格者（1・2期は両日受験可、1期は新入生特待奨学生選抜試験を兼ねる）",
+      "url": "https://support.tsurumi-u.ac.jp/shigaku_overview/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "歯学部 大学入学共通テスト利用選抜 1期・2期",
+      "kyotsu": "3教科（英語・数学・理科）",
+      "niji": "課題作文（出願時提出）・面接（Web）",
+      "content": null,
+      "req": "共通テスト指定科目受験者",
+      "url": "https://support.tsurumi-u.ac.jp/shigaku_overview/"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "文学部 日本文学科",
+      "kubun": "一般",
+      "name": "一般選抜 1期",
+      "n": 1,
+      "subj": "国語（現代の国語・言語文化※漢文除く）100点",
+      "kt": "課さない",
+      "eng": null
+     },
+     {
+      "f": "文学部 英語英米文学科",
+      "kubun": "一般",
+      "name": "一般選抜 1期",
+      "n": 1,
+      "subj": "外国語（英コミⅠ・Ⅱ、論表Ⅰ）100点",
+      "kt": "課さない",
+      "eng": null
+     },
+     {
+      "f": "文学部 ドキュメンテーション学科",
+      "kubun": "一般",
+      "name": "一般選抜 1期",
+      "n": 1,
+      "subj": "国語（現代の国語・言語文化※漢文除く）または英語（英コミⅠ・Ⅱ、論表Ⅰ）から1科目100点",
+      "kt": "課さない",
+      "eng": null
+     },
+     {
+      "f": "文学部 日本文学科",
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 1期・2期",
+      "n": 2,
+      "subj": "個別学力試験なし",
+      "kt": "国語（漢文除く）300点、英語（リスニング含む）150点",
+      "eng": null
+     },
+     {
+      "f": "文学部 英語英米文学科",
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 1期・2期",
+      "n": 1,
+      "subj": "個別学力試験なし",
+      "kt": "英語（リスニング含む）200点",
+      "eng": null
+     },
+     {
+      "f": "文学部 文化財学科",
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 1期・2期",
+      "n": 3,
+      "subj": "個別学力試験なし",
+      "kt": "国語200点、英語（リスニング含む）200点、歴史総合・日本史探究または世界史探究から1科目100点",
+      "eng": null
+     },
+     {
+      "f": "文学部 ドキュメンテーション学科",
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 1期・2期",
+      "n": 2,
+      "subj": "個別学力試験なし",
+      "kt": "国語（漢文除く）200点、英語（リスニング含む）200点、数ⅠA200点、情報Ⅰ200点から高得点2教科",
+      "eng": null
+     },
+     {
+      "f": "文学部 全学科",
+      "kubun": "共テ利用",
+      "name": "奨学特待生選抜",
+      "n": 2,
+      "subj": "個別学力試験なし",
+      "kt": "国語（200点換算）、英語（200点）",
+      "eng": null
+     },
+     {
+      "f": "歯学部 歯学科",
+      "kubun": "一般",
+      "name": "一般選抜（個別選抜型）1〜3期",
+      "n": 2,
+      "subj": "英語（英コミⅠ・Ⅱ、論表Ⅰ）または数学（数Ⅰ・Ⅱ）から1教科100点、理科（物理・化学・生物から1科目）100点、小論文、面接",
+      "kt": "課さない",
+      "eng": null
+     },
+     {
+      "f": "歯学部 歯学科",
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 1期・2期",
+      "n": 3,
+      "subj": "課題作文（出願時提出）、面接（Web）",
+      "kt": "英語（リスニング含む）100点、数学（数ⅠA・数ⅡBCから1）100点、理科（基礎2科目または発展1科目）100点",
+      "eng": null
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "文学部 総合型選抜 1期（課題型・英語検定試験利用型）",
+      "apply": "9/7〜9/15(書類9/17必着)",
+      "exam": "9/27",
+      "result": "11/2(内定10/1)",
+      "proc": "11/12",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "文学部 総合型選抜 1期（基礎学力試験型）",
+      "apply": "9/7〜9/15(書類9/17必着)",
+      "exam": "9/27",
+      "result": "11/2(内定10/1)",
+      "proc": "12/25",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "文学部 総合型選抜 2期",
+      "apply": "11/24〜12/6(書類12/8必着)",
+      "exam": "12/13",
+      "result": "12/16",
+      "proc": "12/25",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "文学部 総合型選抜 3期",
+      "apply": "2/18〜3/2(書類3/3必着)",
+      "exam": "3/10",
+      "result": "3/12",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "文学部 学校推薦型選抜（一般公募推薦）",
+      "apply": "11/1〜11/11(書類11/13必着)",
+      "exam": "11/22",
+      "result": "12/1",
+      "proc": "12/11",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "文学部 学校推薦型選抜（指定校推薦）1期",
+      "apply": null,
+      "exam": "11/22",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "文学部 学校推薦型選抜（指定校推薦）2期",
+      "apply": null,
+      "exam": "12/13",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "文学部 一般選抜（個別選抜型）1期",
+      "apply": "12/21〜1/19(書類必着)",
+      "exam": "2/1・2/2",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "文学部 大学入学共通テスト利用選抜 1期",
+      "apply": "12/21〜1/20(書類1/22必着)",
+      "exam": "1/16・1/17(個別なし)",
+      "result": "2/10",
+      "proc": "2/22",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "文学部 大学入学共通テスト利用選抜 2期",
+      "apply": "2/18〜3/2(書類3/3必着)",
+      "exam": "1/16・1/17(個別なし)",
+      "result": "3/12",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "歯学部 学校推薦型選抜（指定校推薦）1期",
+      "apply": null,
+      "exam": "11/8",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "歯学部 学校推薦型選抜（指定校推薦）2期",
+      "apply": null,
+      "exam": "12/6",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "歯学部 総合型選抜 1〜3期",
+      "apply": null,
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "歯学部 総合型選抜 4期",
+      "apply": "2/18〜3/3(書類3/4必着)",
+      "exam": "3/11",
+      "result": "3/13",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "歯学部 一般選抜（個別選抜型）1期",
+      "apply": "12/21〜1/17(書類1/19必着)",
+      "exam": "1/26・1/27",
+      "result": "2/2",
+      "proc": "2/15",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "歯学部 一般選抜（個別選抜型）2期",
+      "apply": "2/1〜2/15(書類2/17必着)",
+      "exam": "2/24・2/25",
+      "result": "3/2",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "歯学部 一般選抜（個別選抜型）3期",
+      "apply": "2/18〜3/3(書類3/4必着)",
+      "exam": "3/11",
+      "result": "3/13",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "歯学部 大学入学共通テスト利用選抜 1期",
+      "apply": "12/21〜1/24(書類1/26必着)",
+      "exam": "2/3(個別:作文・面接)",
+      "result": "2/10",
+      "proc": "2/22",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "歯学部 大学入学共通テスト利用選抜 2期",
+      "apply": "2/18〜3/3(書類3/4必着)",
+      "exam": "3/11(個別:作文・面接)",
+      "result": "3/13",
+      "proc": "3/23",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "文学部 日本文学科",
+      "admission": 360000,
+      "tuition": 710000,
+      "facility": 280000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1350000,
+      "four_year": 4320000
+     },
+     {
+      "f": "文学部 英語英米文学科",
+      "admission": 360000,
+      "tuition": 710000,
+      "facility": 280000,
+      "practical": 0,
+      "other": 0,
+      "first_year": 1350000,
+      "four_year": 4320000
+     },
+     {
+      "f": "文学部 文化財学科",
+      "admission": 360000,
+      "tuition": 710000,
+      "facility": 350000,
+      "practical": 60000,
+      "other": 0,
+      "first_year": 1480000,
+      "four_year": 4840000
+     },
+     {
+      "f": "文学部 ドキュメンテーション学科",
+      "admission": 360000,
+      "tuition": 710000,
+      "facility": 350000,
+      "practical": 50000,
+      "other": 0,
+      "first_year": 1470000,
+      "four_year": 4800000
+     },
+     {
+      "f": "歯学部 歯学科",
+      "admission": 500000,
+      "tuition": 1950000,
+      "facility": 800000,
+      "practical": 0,
+      "other": 250000,
+      "first_year": 3500000,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "文学部 奨学特待生",
+      "kind": "減免",
+      "target": "文学部 奨学特待生選抜受験者（日文・英文は全額・半額各3名、文化財・ドキュは各2名）",
+      "amount": "入学金を除く学納金（授業料・施設維持費・実験実習費）の全額または半額免除（原則4年間継続）",
+      "timing": "入試時",
+      "cond": "共テ国語（200点換算）・英語（200点）の合計280点以上から成績順（2年次以降は条件あり）"
+     },
+     {
+      "name": "歯学部 新入生特待奨学生",
+      "kind": "減免",
+      "target": "一般選抜（個別選抜型）1期志願者、指定校・総合型1〜3期合格手続完了後の受験者",
+      "amount": null,
+      "timing": "入試時",
+      "cond": "1月27日実施の一般選抜（個別選抜型）1期を特待生選抜試験として実施"
+     }
+    ]
+   },
+   "eng": {
+    "rows": [
+     {
+      "kubun": "推薦",
+      "name": "英語英米文学科 学校推薦型選抜（一般公募推薦）",
+      "use": "出願資格",
+      "level": "英検準2級以上、GTEC510点以上、TOEIC L&R325点以上等（該当条件の一つ）",
+      "tests": "実用英語技能検定、GTEC、TOEIC L&R"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-05-31",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-07-05",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-08-23",
+      "type": "来場",
+      "title": "オープンキャンパス・歯学部体験入学"
+     },
+     {
+      "date": "2026-09-05",
+      "type": "来場",
+      "title": "オープンキャンパスmini"
+     }
+    ],
+    "url": "https://support.tsurumi-u.ac.jp/information/10259/"
+   },
+   "access": "横浜市鶴見区鶴見2-1-3（JR京浜東北線「鶴見」駅西口徒歩5分、京急線「京急鶴見」駅徒歩7分）",
+   "licenses": [
+    "学芸員（文化財学科）",
+    "司書（ドキュメンテーション学科）"
+   ],
+   "careers": "文学部は公務員や図書館司書、学芸員資格を活かした企業就職・進学など、歯学部は歯科医師としての進路を目指す。"
+  },
+  "sources": [
+   "https://www.tsurumi-u.ac.jp/",
+   "https://support.tsurumi-u.ac.jp/bungakubu_overview/",
+   "https://support.tsurumi-u.ac.jp/shigaku_overview/",
+   "https://support.tsurumi-u.ac.jp/youkou/",
+   "https://support.tsurumi-u.ac.jp/scholarship/",
+   "https://www.tsurumi-u.ac.jp/site/campus/fee.html",
+   "https://www.tsurumi-u.ac.jp/site/about/accessmap-index.html",
+   "https://support.tsurumi-u.ac.jp/information/9550/",
+   "https://support.tsurumi-u.ac.jp/information/9898/",
+   "https://support.tsurumi-u.ac.jp/information/10259/",
+   "https://support.tsurumi-u.ac.jp/information/10328/",
+   "https://support.tsurumi-u.ac.jp/qa/",
+   "https://passnavi.obunsha.co.jp/univ/3320/difficulty/",
+   "https://passnavi.obunsha.co.jp/univ/3320/subject/",
+   "https://passnavi.obunsha.co.jp/univ/3320/subject/?facultyID=010",
+   "https://passnavi.obunsha.co.jp/univ/3320/subject/?facultyID=005",
+   "https://search.keinet.ne.jp/2316/general/border_rate",
+   "https://manabi.benesse.ne.jp/daigaku/school/3373/gakuhi/"
+  ]
+ },
+ {
+  "name": "高崎商科大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": null,
+  "pref_name": "群馬県",
+  "city": null,
+  "hp": "https://www.tuc.ac.jp/",
+  "reading": "たかさきしょうかだいがく",
+  "features": [],
+  "memo": null,
+  "info": {
+   "faculties": [
+    "商学部"
+   ],
+   "departments": [
+    {
+     "f": "商学部",
+     "d": [
+      "経営",
+      "会計"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "37.5〜40.0",
+    "kyotei": "52%〜59%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": [
+     2,
+     4
+    ],
+    "note": "共通テスト利用選抜は2科目型・3科目型・4科目型を実施"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（専願制）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "専願制",
+      "url": "https://www.tuc.ac.jp/admissions/faculty/sougo_a/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（併願制）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "併願制（1次試験・2次試験あり）",
+      "url": "https://www.tuc.ac.jp/admissions/faculty/sougo_b/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期・2科目型／3科目型／4科目型）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.tuc.ac.jp/admissions/faculty/examination/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（前期・2科目型／3科目型／4科目型）",
+      "kyotsu": "2〜4科目",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.tuc.ac.jp/admissions/faculty/examination/"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": []
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（専願制・11〜1月日程）",
+      "apply": "11/23〜12/7(書類11/30〜12/7必着)",
+      "exam": "12/13",
+      "result": "12/21",
+      "proc": "12/21〜1/13",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（併願制・9〜1月日程）",
+      "apply": "9/10〜9/28(書類9/17〜9/28必着)",
+      "exam": "1次10/3・2次10/17",
+      "result": "1次10/9・2次11/2",
+      "proc": "11/2〜1/22",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期）",
+      "apply": "12/28〜1/29(書類1/4〜1/29必着)",
+      "exam": "2/4",
+      "result": "2/12",
+      "proc": "2/12〜2/26",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（2027年1〜3月日程）",
+      "apply": "1/25〜2/26(書類2/1〜2/26必着)",
+      "exam": "3/4",
+      "result": "3/12",
+      "proc": "3/12〜3/24",
+      "fee": null
+     }
+    ]
+   },
+   "money": null,
+   "scholar": {
+    "year": "2027年度",
+    "rows": []
+   },
+   "eng": {
+    "rows": []
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": null
+   },
+   "access": null,
+   "licenses": [],
+   "careers": null
+  },
+  "sources": [
+   "https://www.tuc.ac.jp/",
+   "https://www.tuc.ac.jp/admissions/faculty/examination/",
+   "https://www.tuc.ac.jp/admissions/faculty/sougo_a/",
+   "https://www.tuc.ac.jp/admissions/faculty/sougo_b/",
+   "https://passnavi.obunsha.co.jp/univ/1953/difficulty/?facultyID=005",
+   "https://passnavi.obunsha.co.jp/univ/1953/top/"
+  ]
+ },
+ {
+  "name": "高崎健康福祉大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": null,
+  "pref_name": "群馬県",
+  "city": null,
+  "hp": "https://www.takasaki-u.ac.jp/",
+  "reading": "たかさきけんこうふくしだいがく",
+  "features": [],
+  "memo": null,
+  "info": {
+   "faculties": [
+    "人間発達学部",
+    "健康福祉学部",
+    "保健医療学部",
+    "薬学部",
+    "農学部"
+   ],
+   "departments": [
+    {
+     "f": "人間発達学部",
+     "d": [
+      "心理",
+      "子ども教育"
+     ]
+    },
+    {
+     "f": "健康福祉学部",
+     "d": [
+      "医療情報",
+      "社会福祉",
+      "健康栄養"
+     ]
+    },
+    {
+     "f": "保健医療学部",
+     "d": [
+      "看護",
+      "理学療法"
+     ]
+    },
+    {
+     "f": "薬学部",
+     "d": []
+    },
+    {
+     "f": "農学部",
+     "d": []
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜45.0",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": null,
+    "note": "共通テスト利用（前期）を実施"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": []
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": []
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": []
+   },
+   "money": null,
+   "scholar": {
+    "year": "2027年度",
+    "rows": []
+   },
+   "eng": {
+    "rows": []
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": null
+   },
+   "access": null,
+   "licenses": [],
+   "careers": null
+  },
+  "sources": [
+   "https://www.takasaki-u.ac.jp/",
+   "https://passnavi.obunsha.co.jp/univ/1952/difficulty/",
+   "https://passnavi.obunsha.co.jp/univ/1952/top/"
+  ]
+ },
+ {
+  "name": "高千穂大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": null,
+  "pref_name": "東京都",
+  "city": null,
+  "hp": "https://www.takachiho.jp/",
+  "reading": "たかちほだいがく",
+  "features": [],
+  "memo": null,
+  "info": {
+   "faculties": [],
+   "departments": [],
+   "difficulty": null,
+   "kyotsu": null,
+   "methods": {
+    "year": "2027年度入試",
+    "list": []
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": []
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": []
+   },
+   "money": null,
+   "scholar": {
+    "year": "2027年度",
+    "rows": []
+   },
+   "eng": {
+    "rows": []
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": null
+   },
+   "access": null,
+   "licenses": [],
+   "careers": null
+  },
+  "sources": []
+ },
+ {
+  "name": "駿河台大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": null,
+  "pref_name": "埼玉県",
+  "city": null,
+  "hp": "https://www.surugadai.ac.jp/",
+  "reading": "するがだいだいがく",
+  "features": [],
+  "memo": null,
+  "info": {
+   "faculties": [],
+   "departments": [],
+   "difficulty": null,
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": null,
+    "note": "共通テスト利用型（1期・2期・3期）を実施"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用型（1期・2期・3期）",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.surugadai.ac.jp/exam/type/common-test.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般A-1方式",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.surugadai.ac.jp/exam/type/a.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般A-2方式",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.surugadai.ac.jp/exam/type/a.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般B方式",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.surugadai.ac.jp/exam/type/b.html"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": []
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用型（1期）",
+      "apply": "12/17〜1/22",
+      "exam": "1/16・1/17",
+      "result": "2/10(追加2/25)",
+      "proc": "1次2/25・2次3/3(追加3/5)",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用型（2期）",
+      "apply": "1/25〜2/12",
+      "exam": "1/16・1/17",
+      "result": "2/25",
+      "proc": "3/5",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用型（3期）",
+      "apply": "2/15〜2/26",
+      "exam": "1/16・1/17",
+      "result": "3/10",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般A-1方式",
+      "apply": "12/17〜1/22",
+      "exam": "1/29",
+      "result": "2/5(追加2/25)",
+      "proc": "1次2/25・2次3/3(追加3/5)",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般A-2方式",
+      "apply": "12/17〜1/22",
+      "exam": "1/30",
+      "result": "2/5(追加2/25)",
+      "proc": "1次2/25・2次3/3(追加3/5)",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般B方式",
+      "apply": "1/25〜2/12",
+      "exam": "2/18",
+      "result": "2/25",
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": null,
+   "scholar": {
+    "year": "2027年度",
+    "rows": []
+   },
+   "eng": {
+    "rows": []
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": null
+   },
+   "access": null,
+   "licenses": [],
+   "careers": null
+  },
+  "sources": [
+   "https://www.surugadai.ac.jp/",
+   "https://www.surugadai.ac.jp/exam/type/common-test.html",
+   "https://www.surugadai.ac.jp/exam/type/a.html",
+   "https://www.surugadai.ac.jp/exam/type/b.html"
+  ]
+ }
+]

@@ -1,0 +1,1119 @@
+[
+ {
+  "name": "松蔭大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "神奈川県厚木市",
+  "pref_name": "神奈川県",
+  "city": "厚木市",
+  "hp": "https://www.shoin-u.ac.jp/",
+  "reading": "しょういんだいがく",
+  "features": [
+   "厚木森の里と厚木ステーションの2キャンパスで実学中心の教育を展開。",
+   "経営・コミュニケーション・観光メディア・看護の4学部9学科を擁する。",
+   "一般Ⅰ期・共テⅠ期で学費免除のあるスカラシップ特待生入試を実施。"
+  ],
+  "memo": "スカラシップ特待生は一般Ⅰ期と共テ利用Ⅰ期で対象。日程ごとに試験会場や科目が異なるため要注意。",
+  "info": {
+   "faculties": [
+    "経営文化学部",
+    "コミュニケーション文化学部",
+    "観光メディア文化学部",
+    "看護学部"
+   ],
+   "departments": [
+    {
+     "f": "経営文化学部",
+     "d": [
+      "ビジネスマネジメント学科",
+      "経営法学科"
+     ]
+    },
+    {
+     "f": "コミュニケーション文化学部",
+     "d": [
+      "異文化コミュニケーション学科",
+      "日本文化コミュニケーション学科",
+      "生活心理学科",
+      "子ども学科"
+     ]
+    },
+    {
+     "f": "観光メディア文化学部",
+     "d": [
+      "観光文化学科",
+      "メディア情報文化学科"
+     ]
+    },
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    }
+   ],
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": [],
+    "note": "2027年度共通テスト利用選抜の詳細な教科・科目は未確認"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜第Ⅰ期（A日程・B日程／スカラシップ特待生入試含む）",
+      "kyotsu": "課さない",
+      "niji": "国語・外国語(英語)・調査書",
+      "content": null,
+      "req": null,
+      "url": "https://www.shoin-u.ac.jp/exam/info-general/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜第Ⅱ期",
+      "kyotsu": "課さない",
+      "niji": "国語または外国語(英語)・面接・調査書",
+      "content": null,
+      "req": null,
+      "url": "https://www.shoin-u.ac.jp/exam/info-general/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜第Ⅲ期",
+      "kyotsu": "課さない",
+      "niji": "小論文・面接・調査書",
+      "content": null,
+      "req": null,
+      "url": "https://www.shoin-u.ac.jp/exam/info-general/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜第Ⅰ期（スカラシップ特待生入試含む）",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": "令和9年度大学入学共通テストの本学利用教科・科目受験者",
+      "url": "https://www.shoin-u.ac.jp/exam/info-center/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜第Ⅱ期",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": "令和9年度大学入学共通テストの本学利用教科・科目受験者",
+      "url": "https://www.shoin-u.ac.jp/exam/info-center/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜第Ⅰ期",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "推薦書・調査書、面接試験",
+      "req": null,
+      "url": "https://www.shoin-u.ac.jp/exam/info-recommendation/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜第Ⅱ期",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "推薦書・調査書、面接試験",
+      "req": null,
+      "url": "https://www.shoin-u.ac.jp/exam/info-recommendation/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（前期・後期）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "事前登録のうえ内定を得て出願",
+      "url": "https://www.shoin-u.ac.jp/exam/info-ao/"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "全学部",
+      "kubun": "一般",
+      "name": "一般選抜第Ⅰ期（A・B日程）",
+      "n": 2,
+      "subj": "国語・外国語(英語)・調査書（配点未確認）",
+      "kt": null,
+      "eng": null
+     },
+     {
+      "f": "全学部",
+      "kubun": "一般",
+      "name": "一般選抜第Ⅱ期",
+      "n": 1,
+      "subj": "国語または外国語(英語)・面接・調査書（配点未確認）",
+      "kt": null,
+      "eng": null
+     },
+     {
+      "f": "全学部",
+      "kubun": "一般",
+      "name": "一般選抜第Ⅲ期",
+      "n": null,
+      "subj": "小論文・面接・調査書（配点未確認）",
+      "kt": null,
+      "eng": null
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜第Ⅰ期 A日程",
+      "apply": "1/6〜1/24（窓口1/25）",
+      "exam": "1/27",
+      "result": "2/2",
+      "proc": "1次 2/2〜2/8、2次 3/13〜3/25",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜第Ⅰ期 B日程",
+      "apply": "1/6〜1/24（窓口1/25）",
+      "exam": "2/2",
+      "result": "2/4",
+      "proc": "1次 2/4〜2/10、2次 3/13〜3/25",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜第Ⅱ期",
+      "apply": "1/29〜2/8（窓口2/9）",
+      "exam": "2/12",
+      "result": "2/16",
+      "proc": "1次 2/16〜2/22、2次 3/13〜3/25",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜第Ⅲ期",
+      "apply": "2/12〜2/21（窓口2/22）",
+      "exam": "2/26",
+      "result": "3/2",
+      "proc": "1次 3/2〜3/8、2次 3/13〜3/25",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜第Ⅰ期",
+      "apply": "1/6〜2/1必着",
+      "exam": "1/16・1/17（共通テスト）",
+      "result": "2/6",
+      "proc": "1次 2/6〜2/17、2次 3/13〜3/25",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜第Ⅱ期",
+      "apply": "2/2〜2/15必着",
+      "exam": "1/16・1/17（共通テスト）",
+      "result": "2/20",
+      "proc": "1次 2/20〜3/3、2次 3/13〜3/25",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜第Ⅰ期",
+      "apply": "11/1〜11/9（窓口11/10）",
+      "exam": "11/13",
+      "result": "12/1",
+      "proc": "1次 12/1〜12/7、2次 3/13〜3/25",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜第Ⅱ期",
+      "apply": "11/27〜12/9（窓口12/10）",
+      "exam": "12/14",
+      "result": "12/19",
+      "proc": "1次 12/19〜12/25、2次 3/13〜3/25",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 前期",
+      "apply": "登録9/1〜10/13（出願は内定時通知）",
+      "exam": null,
+      "result": "11/1",
+      "proc": "1次 11/1〜11/9、2次 3/13〜3/25",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 後期",
+      "apply": "登録11/1〜3/4（出願は内定時通知）",
+      "exam": null,
+      "result": "出願手続終了後",
+      "proc": "合格通知書受取後5日以内",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "経営文化学部 ビジネスマネジメント学科",
+      "admission": 330000,
+      "tuition": 690000,
+      "facility": 70000,
+      "practical": 70000,
+      "other": 151000,
+      "first_year": 1311000,
+      "four_year": null
+     },
+     {
+      "f": "経営文化学部 経営法学科",
+      "admission": 330000,
+      "tuition": 690000,
+      "facility": 70000,
+      "practical": 70000,
+      "other": 151000,
+      "first_year": 1311000,
+      "four_year": null
+     },
+     {
+      "f": "コミュニケーション文化学部 異文化コミュニケーション学科",
+      "admission": 330000,
+      "tuition": 690000,
+      "facility": 70000,
+      "practical": 70000,
+      "other": 151000,
+      "first_year": 1311000,
+      "four_year": null
+     },
+     {
+      "f": "コミュニケーション文化学部 日本文化コミュニケーション学科",
+      "admission": 330000,
+      "tuition": 690000,
+      "facility": 70000,
+      "practical": 70000,
+      "other": 151000,
+      "first_year": 1311000,
+      "four_year": null
+     },
+     {
+      "f": "コミュニケーション文化学部 生活心理学科",
+      "admission": 330000,
+      "tuition": 690000,
+      "facility": 70000,
+      "practical": 70000,
+      "other": 151000,
+      "first_year": 1311000,
+      "four_year": null
+     },
+     {
+      "f": "コミュニケーション文化学部 子ども学科",
+      "admission": 330000,
+      "tuition": 690000,
+      "facility": 70000,
+      "practical": 70000,
+      "other": 151000,
+      "first_year": 1311000,
+      "four_year": null
+     },
+     {
+      "f": "観光メディア文化学部 観光文化学科",
+      "admission": 330000,
+      "tuition": 690000,
+      "facility": 70000,
+      "practical": 70000,
+      "other": 151000,
+      "first_year": 1311000,
+      "four_year": null
+     },
+     {
+      "f": "観光メディア文化学部 メディア情報文化学科",
+      "admission": 330000,
+      "tuition": 690000,
+      "facility": 70000,
+      "practical": 70000,
+      "other": 151000,
+      "first_year": 1311000,
+      "four_year": null
+     },
+     {
+      "f": "看護学部 看護学科",
+      "admission": 330000,
+      "tuition": 880000,
+      "facility": 200000,
+      "practical": 200000,
+      "other": null,
+      "first_year": null,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "スカラシップ特待生",
+      "kind": "減免",
+      "target": "一般選抜第Ⅰ期・共通テスト利用選抜第Ⅰ期対象",
+      "amount": "初年度1,240,000円（入学金・授業料・実験実習費・教育充実費・学習費）免除",
+      "timing": "入試時",
+      "cond": "進級時に見直しあり"
+     },
+     {
+      "name": "Bスカラシップ（文系学部）",
+      "kind": "減免",
+      "target": "文系学部",
+      "amount": "初年度授業料690,000円の半額（345,000円）免除",
+      "timing": "入試時",
+      "cond": null
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-08-22",
+      "type": "来場",
+      "title": "第7回オープンキャンパス"
+     },
+     {
+      "date": "2026-09-12",
+      "type": "来場",
+      "title": "第8回オープンキャンパス"
+     },
+     {
+      "date": "2027-03-13",
+      "type": "来場",
+      "title": "第9回オープンキャンパス（1・2年生対象）"
+     }
+    ],
+    "url": "https://www.shoin-u.ac.jp/opencampus/"
+   },
+   "access": "厚木森の里キャンパス（本厚木駅・厚木バスセンター9番のりばからバス約20分「通信研究所前」下車、または厚木ステーションキャンパス発直通バス約15分）、厚木ステーションキャンパス",
+   "licenses": [
+    "中学校教諭一種免許状（社会：ビジネスマネジメント学科／英語：異文化コミュニケーション学科／国語：日本文化コミュニケーション学科）",
+    "高等学校教諭一種免許状（公民・地理歴史：ビジネスマネジメント学科／英語：異文化コミュニケーション学科／国語：日本文化コミュニケーション学科／情報：メディア情報文化学科）",
+    "幼稚園教諭一種免許状（子ども学科）",
+    "保育士（生活心理学科・子ども学科）",
+    "看護師国家試験受験資格（看護学部）"
+   ],
+   "careers": "一般企業の経営管理・営業・国際部門や金融保険、商社、企業法務、国家・地方公務員、NPO、医療・教育・保育関連などへ進む。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.shoin-u.ac.jp/",
+    "https://www.shoin-u.ac.jp/exam/info-center/",
+    "https://www.shoin-u.ac.jp/exam/info-general/",
+    "https://www.shoin-u.ac.jp/exam/info-recommendation/",
+    "https://www.shoin-u.ac.jp/exam/info-ao/",
+    "https://www.shoin-u.ac.jp/exam/tuition/",
+    "https://www.shoin-u.ac.jp/exam/scholarship/",
+    "https://www.shoin-u.ac.jp/job/qualification/",
+    "https://www.shoin-u.ac.jp/access/",
+    "https://www.shoin-u.ac.jp/opencampus/",
+    "https://www.shoin-u.ac.jp/faculty/tourism-culture/",
+    "https://www.shoin-u.ac.jp/faculty/business-management/",
+    "https://www.shoin-u.ac.jp/faculty/management-law/",
+    "https://www.shoin-u.ac.jp/cms_wp/wp-content/uploads/2026%E5%AD%A6%E5%89%87.pdf",
+    "https://passnavi.obunsha.co.jp/univ/3282/department/",
+    "https://search.keinet.ne.jp/2322/outline/expense"
+   ]
+  },
+  "sources": [
+   "https://www.shoin-u.ac.jp/",
+   "https://www.shoin-u.ac.jp/exam/info-center/",
+   "https://www.shoin-u.ac.jp/exam/info-general/",
+   "https://www.shoin-u.ac.jp/exam/info-recommendation/",
+   "https://www.shoin-u.ac.jp/exam/info-ao/",
+   "https://www.shoin-u.ac.jp/exam/tuition/",
+   "https://www.shoin-u.ac.jp/exam/scholarship/",
+   "https://www.shoin-u.ac.jp/job/qualification/",
+   "https://www.shoin-u.ac.jp/access/",
+   "https://www.shoin-u.ac.jp/opencampus/",
+   "https://www.shoin-u.ac.jp/faculty/tourism-culture/",
+   "https://www.shoin-u.ac.jp/faculty/business-management/",
+   "https://www.shoin-u.ac.jp/faculty/management-law/",
+   "https://www.shoin-u.ac.jp/cms_wp/wp-content/uploads/2026%E5%AD%A6%E5%89%87.pdf",
+   "https://passnavi.obunsha.co.jp/univ/3282/department/",
+   "https://search.keinet.ne.jp/2322/outline/expense"
+  ]
+ },
+ {
+  "name": "東都大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "埼玉県深谷市",
+  "pref_name": "埼玉県",
+  "city": "深谷市",
+  "hp": "https://www.tohto.ac.jp/",
+  "reading": "とうとだいがく",
+  "features": [
+   "ヒューマンケアを基盤に看護・医療・栄養の専門人材を養成する。",
+   "深谷・幕張・沼津の3キャンパスで4学部を展開している。",
+   "一般Ⅰ期での育英制度や2年次以降の特待生制度で授業料半額支援。"
+  ],
+  "memo": "一般選抜Ⅰ期に初年度授業料半額給付の育英制度あり。学科やキャンパスで学費や試験日が異なるため要注意。",
+  "info": {
+   "faculties": [
+    "ヒューマンケア学部",
+    "管理栄養学部",
+    "幕張ヒューマンケア学部",
+    "沼津ヒューマンケア学部"
+   ],
+   "departments": [
+    {
+     "f": "ヒューマンケア学部",
+     "d": [
+      "看護学科"
+     ]
+    },
+    {
+     "f": "管理栄養学部",
+     "d": [
+      "管理栄養学科"
+     ]
+    },
+    {
+     "f": "幕張ヒューマンケア学部",
+     "d": [
+      "看護学科",
+      "理学療法学科",
+      "臨床工学科",
+      "健康科学科"
+     ]
+    },
+    {
+     "f": "沼津ヒューマンケア学部",
+     "d": [
+      "看護学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜35.0",
+    "kyotei": "35%〜44%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": [],
+    "note": "2027年度共通テスト利用選抜の詳細な教科・科目は未確認"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（Ⅰ期ほか）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.tohto.ac.jp/admissions/about/payment/ikuei/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（Ⅰ期・Ⅱ期）",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.tohto.ac.jp/admissions/about/outline/center-test/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（Ⅰ期〜Ⅶ期）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.tohto.ac.jp/admissions/about/outline/ao/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅰ期",
+      "apply": "9/1〜9/7必着",
+      "exam": "9/12",
+      "result": "11/2",
+      "proc": "11/25消印有効",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅱ期",
+      "apply": "9/14〜9/25必着",
+      "exam": "10/3",
+      "result": "11/2",
+      "proc": "11/25消印有効",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅲ期",
+      "apply": "11/1〜11/9必着",
+      "exam": "11/14",
+      "result": "11/16",
+      "proc": "11/25消印有効",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅳ期",
+      "apply": "12/4〜12/14必着",
+      "exam": "12/19",
+      "result": "12/21",
+      "proc": "1/4消印有効",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅴ期",
+      "apply": "1/28〜2/5必着",
+      "exam": null,
+      "result": "2/15",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅵ期",
+      "apply": "2/18〜2/26必着",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅶ期",
+      "apply": "3/2〜3/10必着",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 Ⅰ期",
+      "apply": "1/4〜1/31必着",
+      "exam": "共通テスト",
+      "result": null,
+      "proc": "2/16消印有効",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 Ⅱ期",
+      "apply": "2/18〜3/10必着",
+      "exam": "共通テスト",
+      "result": null,
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "幕張ヒューマンケア学部 健康科学科",
+      "admission": 250000,
+      "tuition": 800000,
+      "facility": 300000,
+      "practical": 100000,
+      "other": 9370,
+      "first_year": 1459370,
+      "four_year": null
+     },
+     {
+      "f": "幕張ヒューマンケア学部 看護学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1759370,
+      "four_year": null
+     },
+     {
+      "f": "幕張ヒューマンケア学部 理学療法学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1759370,
+      "four_year": null
+     },
+     {
+      "f": "幕張ヒューマンケア学部 臨床工学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1759370,
+      "four_year": null
+     },
+     {
+      "f": "ヒューマンケア学部 看護学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": null,
+      "four_year": null
+     },
+     {
+      "f": "管理栄養学部 管理栄養学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": null,
+      "four_year": null
+     },
+     {
+      "f": "沼津ヒューマンケア学部 看護学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": null,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "成績優秀者育英制度",
+      "kind": "給付",
+      "target": "一般選抜Ⅰ期合格者の各学科上位",
+      "amount": "入学初年度授業料の半額相当額",
+      "timing": "入試時",
+      "cond": "一般選抜Ⅰ期における成績優秀者"
+     },
+     {
+      "name": "特待生制度（2〜4年次）",
+      "kind": "減免",
+      "target": "1年以上在学する各学年在籍者の3%以内",
+      "amount": "当該年度1年間の授業料の50%免除",
+      "timing": "在学中",
+      "cond": "学業成績および人物・識見が特に優れた者"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-08-22",
+      "type": "来場",
+      "title": "オープンキャンパス（〜2027年3月20日期間中の初回）"
+     }
+    ],
+    "url": "https://www.tohto.ac.jp/news/5062/"
+   },
+   "access": "幕張キャンパス1・2号館（JR京葉線・武蔵野線「海浜幕張駅」徒歩6〜8分、JR「幕張駅」・京成「京成幕張駅」等からバス）、深谷キャンパス、沼津キャンパス",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.tohto.ac.jp/",
+    "https://www.tohto.ac.jp/admissions/about/outline/ao/",
+    "https://www.tohto.ac.jp/admissions/about/outline/center-test/",
+    "https://www.tohto.ac.jp/admissions/about/payment/nursing_physiotherapy_rinko/",
+    "https://www.tohto.ac.jp/admissions/result/",
+    "https://www.tohto.ac.jp/admissions/about/payment/tokutai/",
+    "https://www.tohto.ac.jp/admissions/about/payment/ikuei/",
+    "https://www.tohto.ac.jp/news/5062/",
+    "https://www.tohto.ac.jp/wp-content/uploads/2025/06/2026%E5%A4%A7%E5%AD%A6%E6%A1%88%E5%86%85full__compressed-%E5%9C%A7%E7%B8%AE-%E5%9C%A7%E7%B8%AE.pdf",
+    "https://www.tohto.ac.jp/wp-content/uploads/sites/5/2025/08/R8WebGuide_Hennyu.pdf",
+    "https://search.keinet.ne.jp/2142/general/border_rate",
+    "https://search.keinet.ne.jp/2142/outline/expense",
+    "https://passnavi.obunsha.co.jp/univ/2035/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.tohto.ac.jp/",
+   "https://www.tohto.ac.jp/admissions/about/outline/ao/",
+   "https://www.tohto.ac.jp/admissions/about/outline/center-test/",
+   "https://www.tohto.ac.jp/admissions/about/payment/nursing_physiotherapy_rinko/",
+   "https://www.tohto.ac.jp/admissions/result/",
+   "https://www.tohto.ac.jp/admissions/about/payment/tokutai/",
+   "https://www.tohto.ac.jp/admissions/about/payment/ikuei/",
+   "https://www.tohto.ac.jp/news/5062/",
+   "https://www.tohto.ac.jp/wp-content/uploads/2025/06/2026%E5%A4%A7%E5%AD%A6%E6%A1%88%E5%86%85full__compressed-%E5%9C%A7%E7%B8%AE-%E5%9C%A7%E7%B8%AE.pdf",
+   "https://www.tohto.ac.jp/wp-content/uploads/sites/5/2025/08/R8WebGuide_Hennyu.pdf",
+   "https://search.keinet.ne.jp/2142/general/border_rate",
+   "https://search.keinet.ne.jp/2142/outline/expense",
+   "https://passnavi.obunsha.co.jp/univ/2035/difficulty/"
+  ]
+ },
+ {
+  "name": "東邦音楽大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "埼玉県",
+  "pref_name": "埼玉県",
+  "city": null,
+  "hp": "https://www.toho-music.ac.jp/",
+  "reading": "とうほうおんがくだいがく",
+  "features": [
+   "楽器演奏の基礎知識と技能を基に、表現力と専門性を深める音楽大学。",
+   "ソロに加え室内楽・吹奏楽・オーケストラなどアンサンブル活動を重視。",
+   "音楽療法やパフォーマンス総合芸術文化など多彩な専攻・コースを設置。"
+  ],
+  "memo": "2027年度要項は公式サイトで公開済み。専攻により学費や別途受講費（教職課程等）が異なるため注意。",
+  "info": {
+   "faculties": [
+    "音楽学部"
+   ],
+   "departments": [
+    {
+     "f": "音楽学部",
+     "d": [
+      "音楽学科（音楽療法）",
+      "音楽学科（パフォーマンス総合芸術文化）"
+     ]
+    }
+   ],
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "音楽学部 音楽学科（コース詳細未確認・授業料133万円）",
+      "admission": 250000,
+      "tuition": 1330000,
+      "facility": 425000,
+      "practical": 0,
+      "other": 55660,
+      "first_year": 2060660,
+      "four_year": null
+     },
+     {
+      "f": "音楽学部 音楽学科（コース詳細未確認・授業料140万円）",
+      "admission": 250000,
+      "tuition": 1400000,
+      "facility": 500000,
+      "practical": 0,
+      "other": 55660,
+      "first_year": 2205660,
+      "four_year": null
+     },
+     {
+      "f": "音楽学部 音楽学科（音楽療法）",
+      "admission": 250000,
+      "tuition": 1100000,
+      "facility": 400000,
+      "practical": 0,
+      "other": 55660,
+      "first_year": 1805660,
+      "four_year": null
+     },
+     {
+      "f": "音楽学部 音楽学科（パフォーマンス総合芸術文化）",
+      "admission": 250000,
+      "tuition": 1100000,
+      "facility": 350000,
+      "practical": 0,
+      "other": 120660,
+      "first_year": 1820660,
+      "four_year": null
+     }
+    ]
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.toho-music.ac.jp/",
+    "https://www.toho-music.ac.jp/wp-content/uploads/2026/08/2027_toho_college.pdf",
+    "https://search.keinet.ne.jp/2155/outline/expense"
+   ]
+  },
+  "sources": [
+   "https://www.toho-music.ac.jp/",
+   "https://www.toho-music.ac.jp/wp-content/uploads/2026/08/2027_toho_college.pdf",
+   "https://search.keinet.ne.jp/2155/outline/expense"
+  ]
+ },
+ {
+  "name": "東邦大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都",
+  "pref_name": "東京都",
+  "city": null,
+  "hp": "https://www.toho-u.ac.jp/",
+  "reading": "とうほうだいがく",
+  "features": [
+   "医・薬・理・看護・健康科学の5学部を擁する自然科学・医療系大学。",
+   "大森（東京）と習志野（千葉）にキャンパスを展開している。",
+   "2027年度入試の学生募集要項を学部別に公式サイトで公表している。"
+  ],
+  "memo": "医学部と他学部で試験会場や日程、学費が大きく異なる。健康科学部一般は面接と筆記の両方受験が必須。",
+  "info": {
+   "faculties": [
+    "医学部",
+    "薬学部",
+    "理学部",
+    "看護学部",
+    "健康科学部"
+   ],
+   "departments": [
+    {
+     "f": "医学部",
+     "d": []
+    },
+    {
+     "f": "薬学部",
+     "d": []
+    },
+    {
+     "f": "理学部",
+     "d": []
+    },
+    {
+     "f": "看護学部",
+     "d": []
+    },
+    {
+     "f": "健康科学部",
+     "d": []
+    }
+   ],
+   "difficulty": {
+    "hensachi": "40.0〜65.0",
+    "kyotei": "56%〜76%",
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "医学部 一般入試",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.toho-u.ac.jp/med/info_exam/sum.html"
+     },
+     {
+      "kubun": "推薦",
+      "name": "医学部 学校推薦型選抜（公募制・付属校制等）",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.toho-u.ac.jp/info_exam/med_2027suisen-kobo.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "医学部 総合入試・同窓生子女入試",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.toho-u.ac.jp/info_exam/med_2027suisen-kobo.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "健康科学部 一般入試",
+      "kyotsu": "課さない",
+      "niji": "面接（口頭試問含む）・筆記試験",
+      "content": null,
+      "req": null,
+      "url": "https://www.toho-u.ac.jp/info_exam/hs_2027ippan.pdf"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "健康科学部 共通テスト利用入試・共通テスト利用入試＋",
+      "kyotsu": null,
+      "niji": "面接（口頭試問含む）",
+      "content": null,
+      "req": null,
+      "url": "https://www.toho-u.ac.jp/info_exam/hs_2027ippan.pdf"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "医学部 一般入試（約70名枠）",
+      "apply": "12/14〜1/26必着（窓口1/25・26）",
+      "exam": "1次 2/7、2次 2/15または2/16",
+      "result": "1次 2/10、2次 2/18",
+      "proc": "2/25",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "医学部（約5名枠）",
+      "apply": "12/14〜2/15必着",
+      "exam": "1次 2/23、2次 3/3",
+      "result": "1次 2/26、2次 3/4",
+      "proc": "3/10",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "健康科学部 一般入試",
+      "apply": "12/14〜1/15必着",
+      "exam": "面接 1/26・筆記 2/1",
+      "result": null,
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "医学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 4800000,
+      "four_year": null
+     },
+     {
+      "f": "薬学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 2230000,
+      "four_year": null
+     },
+     {
+      "f": "理学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1632000,
+      "four_year": null
+     },
+     {
+      "f": "看護学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 2200000,
+      "four_year": null
+     },
+     {
+      "f": "健康科学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1750000,
+      "four_year": null
+     }
+    ]
+   },
+   "access": "大森キャンパス、習志野キャンパス（最寄り駅未確認）",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.toho-u.ac.jp/",
+    "https://www.toho-u.ac.jp/med/info_exam/sum.html",
+    "https://www.toho-u.ac.jp/info_exam/med_2027suisen-kobo.pdf",
+    "https://www.toho-u.ac.jp/info_exam/hs_2027ippan.pdf",
+    "https://www.toho-u.ac.jp/info_exam/fee_nyusi.html",
+    "https://search.keinet.ne.jp/2264/general/border_rate",
+    "https://manabi.benesse.ne.jp/daigaku/school/3295/gakuhi/"
+   ]
+  },
+  "sources": [
+   "https://www.toho-u.ac.jp/",
+   "https://www.toho-u.ac.jp/med/info_exam/sum.html",
+   "https://www.toho-u.ac.jp/info_exam/med_2027suisen-kobo.pdf",
+   "https://www.toho-u.ac.jp/info_exam/hs_2027ippan.pdf",
+   "https://www.toho-u.ac.jp/info_exam/fee_nyusi.html",
+   "https://search.keinet.ne.jp/2264/general/border_rate",
+   "https://manabi.benesse.ne.jp/daigaku/school/3295/gakuhi/"
+  ]
+ },
+ {
+  "name": "東海大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都",
+  "pref_name": "東京都",
+  "city": null,
+  "hp": "https://www.u-tokai.ac.jp/",
+  "reading": "とうかいだいがく",
+  "features": [
+   "2027年度入試から新設の特待生試験「プレトク」を導入する。",
+   "河合塾Kei-Netで偏差値35.0〜65.0と幅広い学部群を擁する。",
+   "一般選抜の共通テスト得点率は38%〜83%となっている。"
+  ],
+  "memo": "2027年度新設の特待生試験「プレトク」で学費免除または20万円減免あり。公式要項で詳細を要確認。",
+  "info": {
+   "difficulty": {
+    "hensachi": "35.0〜65.0",
+    "kyotei": "38%〜83%",
+    "year": "2027年度入試用"
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "特待生試験「プレトク」・「ゼントク」（学費免除タイプ）",
+      "kind": "減免",
+      "target": "2027年度入試受験者（詳細未確認）",
+      "amount": "入学金＋4年間の授業料を原則全額免除",
+      "timing": "入試時",
+      "cond": null
+     },
+     {
+      "name": "特待生試験「プレトク」・「ゼントク」（入学奨励タイプ）",
+      "kind": "減免",
+      "target": "2027年度入試受験者（詳細未確認）",
+      "amount": "入学手続時の授業料から20万円減免",
+      "timing": "入試時",
+      "cond": null
+     }
+    ]
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.u-tokai.ac.jp/",
+    "https://search.keinet.ne.jp/2245/general/border_rate",
+    "https://www.u-presscenter.jp/article/121607"
+   ]
+  },
+  "sources": [
+   "https://www.u-tokai.ac.jp/",
+   "https://search.keinet.ne.jp/2245/general/border_rate",
+   "https://www.u-presscenter.jp/article/121607"
+  ]
+ }
+]

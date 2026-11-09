@@ -1,0 +1,1257 @@
+[
+ {
+  "name": "岩手保健医療大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "岩手県盛岡市",
+  "pref_name": "岩手県",
+  "city": "盛岡市",
+  "hp": "https://www.iwate-uhms.ac.jp/",
+  "reading": "いわてほけんいりょうだいがく",
+  "features": [
+   "看護学部看護学科の単科大学で、少人数アドバイザー制度で学生を支援。",
+   "看護師に加え、定員20名の選抜で保健師の受験資格も取得できる。",
+   "盛岡駅から徒歩5分の立地にあり、卒業生の就職率は100%を達成。"
+  ],
+  "memo": "2027年度より総合型選抜を新設（10名）し一般C日程は廃止。一般A日程対象の特待生あり。",
+  "info": {
+   "faculties": [
+    "看護学部"
+   ],
+   "departments": [
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "実施なし",
+    "kyoka": null,
+    "note": "2027年度入学者選抜区分に共通テスト利用選抜は含まれない"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜入学試験",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "合格時入学確約（専願）、高卒（見込）等",
+      "url": "https://www.iwate-uhms.ac.jp/admission/admission-info/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜入学試験（一般推薦）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "小論文（90分・200点）、面接（100点）",
+      "req": "2027年3月卒業見込、出身高校長推薦、専願（入学確約）、全体評定3.5以上",
+      "url": "https://www.iwate-uhms.ac.jp/admission/admission-info/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜入学試験（地域特別推薦Ⅰ）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "小論文（90分・200点）、面接（100点）",
+      "req": "2027年3月卒業見込、岩手県在住または県内高校在籍、高校長推薦、専願（入学確約）",
+      "url": "https://www.iwate-uhms.ac.jp/admission/admission-info/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜入学試験（地域特別推薦Ⅱ）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "小論文（90分・200点）、面接（100点）",
+      "req": "2027年3月卒業見込、岩手県以外の東北・北海道の高校在籍、高校長推薦、専願（入学確約）",
+      "url": "https://www.iwate-uhms.ac.jp/admission/admission-info/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜入学試験 A日程",
+      "kyotsu": "課さない",
+      "niji": "国語100・英語100・選択100（数ⅠA・化基・生基から1）・面接100",
+      "content": null,
+      "req": "高卒（見込）等",
+      "url": "https://www.iwate-uhms.ac.jp/admission/admission-info/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜入学試験 B日程",
+      "kyotsu": "課さない",
+      "niji": "国語100・英語100・選択100（数ⅠA・化基・生基から1）・面接100",
+      "content": null,
+      "req": "高卒（見込）等",
+      "url": "https://www.iwate-uhms.ac.jp/admission/admission-info/"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "看護学部 看護学科",
+      "kubun": "一般",
+      "name": "一般選抜入学試験 A日程",
+      "n": 3,
+      "subj": "国語100（現代の国語・言語文化近代以降）・英語100・選択100（数ⅠA/化基/生基から1）・面接100",
+      "kt": "",
+      "eng": null
+     },
+     {
+      "f": "看護学部 看護学科",
+      "kubun": "一般",
+      "name": "一般選抜入学試験 B日程",
+      "n": 3,
+      "subj": "国語100（現代の国語・言語文化近代以降）・英語100・選択100（数ⅠA/化基/生基から1）・面接100",
+      "kt": "",
+      "eng": null
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜入学試験",
+      "apply": "10/1〜10/16",
+      "exam": "10/24",
+      "result": "11/2",
+      "proc": "11/4〜11/13",
+      "fee": 30000
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜入学試験（一般・地域特別Ⅰ・Ⅱ）",
+      "apply": "11/4〜11/16",
+      "exam": "11/21",
+      "result": "12/1",
+      "proc": "12/2〜12/11",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜入学試験 A日程",
+      "apply": "1/12〜1/29",
+      "exam": "2/6",
+      "result": "2/10",
+      "proc": "2/12〜2/26",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜入学試験 B日程",
+      "apply": "3/1〜3/10",
+      "exam": "3/16",
+      "result": "3/18",
+      "proc": "3/19〜3/26",
+      "fee": 30000
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "看護学部 看護学科",
+      "admission": 250000,
+      "tuition": 900000,
+      "facility": 250000,
+      "practical": 200000,
+      "other": null,
+      "first_year": 1600000,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "入学時特待生Ａ",
+      "kind": "減免",
+      "target": "看護学部 看護学科",
+      "amount": "450,000円免除（施設設備費25万円＋実験実習費20万円・1年間）",
+      "timing": "入試時",
+      "cond": "一般選抜入試（A日程）合格・入学者のうち成績上位者（3名以内）"
+     },
+     {
+      "name": "入学時特待生Ｂ",
+      "kind": "減免",
+      "target": "看護学部 看護学科",
+      "amount": "225,000円免除（施設設備費・実験実習費の半額・1年間）",
+      "timing": "入試時",
+      "cond": "一般選抜入試（A日程）合格・入学者のうち特待生Aを除く成績上位者（7名以内）"
+     },
+     {
+      "name": "特待生（2〜4年生）",
+      "kind": "減免",
+      "target": "看護学部 看護学科",
+      "amount": "450,000円免除（施設設備費25万円＋実験実習費20万円）",
+      "timing": "在学中",
+      "cond": "2〜4年次ごとに前年度の学業成績上位者（2名以内）"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-06-20",
+      "type": "来場",
+      "title": "第1回オープンキャンパス"
+     },
+     {
+      "date": "2026-07-18",
+      "type": "来場",
+      "title": "第2回オープンキャンパス"
+     },
+     {
+      "date": "2026-09-05",
+      "type": "来場",
+      "title": "第3回オープンキャンパス"
+     },
+     {
+      "date": "2026-10-17",
+      "type": "来場",
+      "title": "第4回オープンキャンパス"
+     },
+     {
+      "date": "2027-03-13",
+      "type": "来場",
+      "title": "第5回オープンキャンパス"
+     }
+    ],
+    "url": "https://www.iwate-uhms.ac.jp/open-campus/"
+   },
+   "access": "盛岡キャンパス：JR盛岡駅から徒歩5分（岩手県盛岡市盛岡駅西通1-6-30）",
+   "licenses": [
+    "看護師国家試験受験資格（看護学科）",
+    "保健師国家試験受験資格・定員20名（看護学科）",
+    "養護教諭二種免許・保健師免許取得後に申請可能（看護学科）",
+    "第一種衛生管理者・保健師免許取得後に申請可能（看護学科）"
+   ],
+   "careers": "卒業生の就職率は100%で、岩手県内や東北・首都圏の医療機関・市町村保健センターへ就職し、助産科や養護教諭特別別科への進学実績もある。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.iwate-uhms.ac.jp/",
+    "https://www.iwate-uhms.ac.jp/admission/admission-info/",
+    "https://www.iwate-uhms.ac.jp/dir/wp-content/uploads/2026/02/%E4%BB%A4%E5%92%8C9%EF%BC%882027%EF%BC%89%E5%B9%B4%E5%BA%A6%E5%85%A5%E5%AD%A6%E8%80%85%E9%81%B8%E6%8A%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf",
+    "https://www.iwate-uhms.ac.jp/admission/expense/",
+    "https://www.iwate-uhms.ac.jp/open-campus/",
+    "https://www.iwate-uhms.ac.jp/path/acquisition/",
+    "https://www.iwate-uhms.ac.jp/path/support/",
+    "https://www.iwate-uhms.ac.jp/ouen/",
+    "https://ce-subsc.jp/entry/iuhms",
+    "https://ce-subsc.jp/entry/iuhms/download/exam_guide",
+    "https://search.keinet.ne.jp/2044/general/border_rate",
+    "https://search.keinet.ne.jp/2044/outline/campus",
+    "https://passnavi.obunsha.co.jp/univ/1711/difficulty/",
+    "https://passnavi.obunsha.co.jp/univ/1711/subject/",
+    "https://passnavi.obunsha.co.jp/univ/1711/opencampus/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3059/gakuhi/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3059/nyushi/hoshiki/ippan/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3059/nyushi/hoshiki/gakkou-suisen/"
+   ]
+  },
+  "sources": [
+   "https://www.iwate-uhms.ac.jp/",
+   "https://www.iwate-uhms.ac.jp/admission/admission-info/",
+   "https://www.iwate-uhms.ac.jp/dir/wp-content/uploads/2026/02/%E4%BB%A4%E5%92%8C9%EF%BC%882027%EF%BC%89%E5%B9%B4%E5%BA%A6%E5%85%A5%E5%AD%A6%E8%80%85%E9%81%B8%E6%8A%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf",
+   "https://www.iwate-uhms.ac.jp/admission/expense/",
+   "https://www.iwate-uhms.ac.jp/open-campus/",
+   "https://www.iwate-uhms.ac.jp/path/acquisition/",
+   "https://www.iwate-uhms.ac.jp/path/support/",
+   "https://www.iwate-uhms.ac.jp/ouen/",
+   "https://ce-subsc.jp/entry/iuhms",
+   "https://ce-subsc.jp/entry/iuhms/download/exam_guide",
+   "https://search.keinet.ne.jp/2044/general/border_rate",
+   "https://search.keinet.ne.jp/2044/outline/campus",
+   "https://passnavi.obunsha.co.jp/univ/1711/difficulty/",
+   "https://passnavi.obunsha.co.jp/univ/1711/subject/",
+   "https://passnavi.obunsha.co.jp/univ/1711/opencampus/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3059/gakuhi/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3059/nyushi/hoshiki/ippan/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3059/nyushi/hoshiki/gakkou-suisen/"
+  ]
+ },
+ {
+  "name": "岩手医科大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "岩手県紫波郡矢巾町",
+  "pref_name": "岩手県",
+  "city": "紫波郡矢巾町",
+  "hp": "https://www.iwate-med.ac.jp/",
+  "reading": "いわていかだいがく",
+  "features": [
+   "医・歯・薬・看護の4学部を矢巾キャンパスに集約した医療系総合大学。",
+   "医学部地域枠や看護学部奨学金など、地域医療と連動した修学支援が充実。",
+   "2027年度入学生から医学部に新基準の学納金減免制度を導入している。"
+  ],
+  "memo": "薬学部は総合型選抜を実施せず。医学部地域枠C・Dは事前貸与候補応募が必須。",
+  "info": {
+   "faculties": [
+    "医学部",
+    "歯学部",
+    "薬学部",
+    "看護学部"
+   ],
+   "departments": [
+    {
+     "f": "医学部",
+     "d": [
+      "医学科"
+     ]
+    },
+    {
+     "f": "歯学部",
+     "d": [
+      "歯学科"
+     ]
+    },
+    {
+     "f": "薬学部",
+     "d": [
+      "薬学科"
+     ]
+    },
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜62.5",
+    "kyotei": "41%〜48%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "歯学部（共テ利用）：3教科3〜4科目（300点）＋個別面接50点、薬学部（共テ利用）：3教科3〜4科目（500点・数学必須）。医学部・看護学部は実施なし",
+    "kyoka": [
+     3,
+     3
+    ],
+    "note": "共通テスト利用選抜は歯学部・薬学部のみで実施"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "医学部 一般選抜（一般・地域枠C・地域枠D）",
+      "kyotsu": "課さない",
+      "niji": "1次：英語・数学・理科2科目、2次：面接等",
+      "content": null,
+      "req": "一般と地域枠C・Dの併願不可。地域枠C・Dは11/6必着で奨学金貸与候補生への事前応募および卒後県内勤務要件あり",
+      "url": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "医学部 学校推薦型選抜（公募制・地域枠A・地域枠B・秋田県地域枠）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "専願。公募制は評定4.0以上（1校2名以内）、地域枠Aは岩手県枠・評定4.3以上、地域枠Bは東北枠・評定4.0以上、秋田県地域枠は県内校・評定4.0以上（各地域枠は卒後勤務要件あり）",
+      "url": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "医学部 総合型選抜（地域医療医師育成特別枠）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "基礎学力試験（350点）、面接（100点）",
+      "req": "2025年3月以降卒または見込、評定3.8以上、圭陵会正会員の推薦、専願・卒後関連病院等通算7年以上勤務",
+      "url": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "歯学部 総合型選抜",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "理解度テスト（100点）、面接（50点）",
+      "req": null,
+      "url": null
+     },
+     {
+      "kubun": "一般",
+      "name": "歯学部 一般選抜（前期・後期）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "歯学部 大学入学共通テスト利用選抜（前期・後期）",
+      "kyotsu": "3教科",
+      "niji": null,
+      "content": null,
+      "req": "個別試験として面接あり",
+      "url": null
+     },
+     {
+      "kubun": "一般",
+      "name": "歯学部 医学部入学試験利用選抜",
+      "kyotsu": "課さない",
+      "niji": "医学部学科試験＋個別面接",
+      "content": null,
+      "req": "医学部一般選抜の受験が必要",
+      "url": null
+     },
+     {
+      "kubun": "一般",
+      "name": "薬学部 一般選抜（前期・後期）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "薬学部 大学入学共通テスト利用選抜（前期・後期）",
+      "kyotsu": "3教科",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "看護学部 総合型選抜",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "面接（100点・集団討論含む）、活動報告書（100点）",
+      "req": null,
+      "url": null
+     },
+     {
+      "kubun": "一般",
+      "name": "看護学部 一般選抜（前期・後期）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": null
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "医学部 医学科",
+      "kubun": "一般",
+      "name": "一般選抜（一般・地域枠C・D）",
+      "n": 3,
+      "subj": "1次：英語・数学・理科2科目、2次：面接等（配点未確認）",
+      "kt": "",
+      "eng": null
+     },
+     {
+      "f": "歯学部 歯学科",
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（前期・後期）",
+      "n": 3,
+      "subj": "共通テスト300点・個別面接50点",
+      "kt": "3教科3〜4科目",
+      "eng": null
+     },
+     {
+      "f": "薬学部 薬学科",
+      "kubun": "一般",
+      "name": "一般選抜（前期・後期）",
+      "n": 2,
+      "subj": "個別2教科200点・面接",
+      "kt": "",
+      "eng": null
+     },
+     {
+      "f": "薬学部 薬学科",
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（前期・後期）",
+      "n": 3,
+      "subj": "共通テスト500点",
+      "kt": "3教科3〜4科目（数学1科目必須）",
+      "eng": null
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "推薦",
+      "name": "医学部 学校推薦型選抜（公募制・地域枠A/B・秋田枠）",
+      "apply": "11/2〜11/11",
+      "exam": "11/21",
+      "result": "12/2",
+      "proc": "12/11",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "医学部 総合型選抜（地域医療医師育成特別枠）",
+      "apply": "11/2〜11/11",
+      "exam": "11/21",
+      "result": "12/2",
+      "proc": "12/11",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "医学部 一般選抜（一般・地域枠C・地域枠D）",
+      "apply": "12/4〜1/8",
+      "exam": "1次 2/3、2次 2/12・13（選択）",
+      "result": "1次 2/9、最終 2/18",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "歯学部 総合型選抜",
+      "apply": "10/1〜10/9",
+      "exam": "10/24",
+      "result": "11/2",
+      "proc": "11/11",
+      "fee": 40000
+     },
+     {
+      "kubun": "一般",
+      "name": "歯学部 一般選抜 前期",
+      "apply": "12/4〜1/20",
+      "exam": "2/1",
+      "result": "2/9",
+      "proc": "2/17",
+      "fee": 40000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "歯学部 大学入学共通テスト利用選抜 前期",
+      "apply": "12/4〜1/20",
+      "exam": "1/16・17（共テ）、2/1（個別面接）",
+      "result": "2/9",
+      "proc": "2/17",
+      "fee": 20000
+     },
+     {
+      "kubun": "一般",
+      "name": "歯学部 医学部入学試験利用選抜",
+      "apply": "12/4〜1/8",
+      "exam": "2/3・3/8",
+      "result": "3/12",
+      "proc": "3/18",
+      "fee": 20000
+     },
+     {
+      "kubun": "一般",
+      "name": "歯学部 一般選抜 後期",
+      "apply": "2/17〜3/1",
+      "exam": "3/8",
+      "result": "3/12",
+      "proc": "3/18",
+      "fee": 40000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "歯学部 大学入学共通テスト利用選抜 後期",
+      "apply": "2/17〜3/1",
+      "exam": "1/16・17（共テ）、3/8（個別面接）",
+      "result": "3/12",
+      "proc": "3/18",
+      "fee": 20000
+     },
+     {
+      "kubun": "一般",
+      "name": "薬学部 一般選抜 前期",
+      "apply": "12/4〜1/20",
+      "exam": "2/1",
+      "result": "2/9",
+      "proc": "2/17",
+      "fee": 35000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "薬学部 大学入学共通テスト利用選抜 前期",
+      "apply": "12/4〜1/20",
+      "exam": "1/16・17（共テのみ）",
+      "result": "2/9",
+      "proc": "2/17",
+      "fee": 15000
+     },
+     {
+      "kubun": "一般",
+      "name": "薬学部 一般選抜 後期",
+      "apply": "2/17〜3/1",
+      "exam": "3/8",
+      "result": "3/12",
+      "proc": "3/18",
+      "fee": 35000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "薬学部 大学入学共通テスト利用選抜 後期",
+      "apply": "2/17〜3/1",
+      "exam": "1/16・17（共テのみ）",
+      "result": "3/12",
+      "proc": "3/18",
+      "fee": 15000
+     },
+     {
+      "kubun": "総合型",
+      "name": "看護学部 総合型選抜",
+      "apply": "10/1〜10/9",
+      "exam": "10/24",
+      "result": "11/2",
+      "proc": "11/11",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "看護学部 一般選抜 前期",
+      "apply": "12/4〜1/20",
+      "exam": "2/1",
+      "result": "2/9",
+      "proc": "2/17",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "看護学部 一般選抜 後期",
+      "apply": "2/17〜3/1",
+      "exam": "3/8",
+      "result": "3/12",
+      "proc": "3/18",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "医学部 医学科",
+      "admission": 2000000,
+      "tuition": 2500000,
+      "facility": null,
+      "practical": null,
+      "other": 400000,
+      "first_year": 9400000,
+      "four_year": null
+     },
+     {
+      "f": "歯学部 歯学科",
+      "admission": 600000,
+      "tuition": 2500000,
+      "facility": 3000000,
+      "practical": null,
+      "other": null,
+      "first_year": 6100000,
+      "four_year": null
+     },
+     {
+      "f": "薬学部 薬学科",
+      "admission": 350000,
+      "tuition": 1300000,
+      "facility": 400000,
+      "practical": null,
+      "other": null,
+      "first_year": 2175000,
+      "four_year": null
+     },
+     {
+      "f": "看護学部 看護学科",
+      "admission": 250000,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1650000,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "医学部学納金減免制度（令和9年度入学生対象）",
+      "kind": "減免",
+      "target": "医学部 医学科",
+      "amount": "第1学年学納金（入学金・諸会費除く）の全額または半額減免（2年次以降も成績により減免）",
+      "timing": "入試時",
+      "cond": "第1学年は一般選抜（地域枠C含み地域枠D除く）の成績上位者（地域枠Cは修学資金控除後が減免対象）"
+     },
+     {
+      "name": "学納金減免制度（特待生A・B）",
+      "kind": "減免",
+      "target": "全学部",
+      "amount": "特待生A：初年度490万円・次年度以降370万円等／特待生B：初年度400万円・次年度以降280万円等（学部別設定あり）",
+      "timing": "入試時",
+      "cond": "進級時成績上位3分の1以内を維持（授業料・施設設備費・教育充実費が減免対象）"
+     },
+     {
+      "name": "育英奨学金",
+      "kind": "給付",
+      "target": "全学部",
+      "amount": "年額180,000円",
+      "timing": "在学中",
+      "cond": "経済的事情により修学困難で学業成績等を審査（全学年6名以内）"
+     },
+     {
+      "name": "看護学部向け奨学金（令和9年4月1日以降）",
+      "kind": "貸与",
+      "target": "看護学部 看護学科",
+      "amount": "年額720,000円（最長4年・卒業後本法人で貸与期間と同期間勤務で返還免除）",
+      "timing": "在学中",
+      "cond": "卒業後本法人に看護師等で勤務意思があり人物・学業優秀（各学年5名以内）"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-07-25",
+      "type": "来場",
+      "title": "オープンキャンパス2026（1日目）"
+     },
+     {
+      "date": "2026-07-26",
+      "type": "来場",
+      "title": "オープンキャンパス2026（2日目）"
+     }
+    ],
+    "url": "https://www.iwate-med.ac.jp/news/n3-event/260722-nyushi/"
+   },
+   "access": "矢巾キャンパス：JR矢幅駅から徒歩15分、または岩手県交通バス「医大矢巾キャンパス」下車（岩手県紫波郡矢巾町医大通1-1-1）",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.iwate-med.ac.jp/",
+    "https://www.iwate-med.ac.jp/news/n3-event/260722-nyushi/",
+    "https://www.imu-admission.jp/wp/wp-content/uploads/2026/09/07_shutugantetuduki.pdf",
+    "https://www.imu-admission.jp/med-genmen/",
+    "https://www.imu-admission.jp/education/school_life/study-support/",
+    "https://www.imu-admission.jp/education/school_life/gl_gakunou_genmen/",
+    "https://www.imu-admission.jp/guidelines/gl_study-support/",
+    "https://www.imu-admission.jp/guidelines/gl_gakunoukin/",
+    "https://search.keinet.ne.jp/2041",
+    "https://search.keinet.ne.jp/2041/outline/campus",
+    "https://search.keinet.ne.jp/2041/outline/expense",
+    "https://search.keinet.ne.jp/2041/general/border_rate",
+    "https://passnavi.obunsha.co.jp/univ/1710/difficulty/",
+    "https://passnavi.obunsha.co.jp/univ/1710/schedule/",
+    "https://telemail.jp/shingaku/university/10001108/examination/general",
+    "https://manabi.benesse.ne.jp/daigaku/school/3056/gakuhi/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3056/nyushi/shi/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3056/nyushi/yaku/"
+   ]
+  },
+  "sources": [
+   "https://www.iwate-med.ac.jp/",
+   "https://www.iwate-med.ac.jp/news/n3-event/260722-nyushi/",
+   "https://www.imu-admission.jp/wp/wp-content/uploads/2026/09/07_shutugantetuduki.pdf",
+   "https://www.imu-admission.jp/med-genmen/",
+   "https://www.imu-admission.jp/education/school_life/study-support/",
+   "https://www.imu-admission.jp/education/school_life/gl_gakunou_genmen/",
+   "https://www.imu-admission.jp/guidelines/gl_study-support/",
+   "https://www.imu-admission.jp/guidelines/gl_gakunoukin/",
+   "https://search.keinet.ne.jp/2041",
+   "https://search.keinet.ne.jp/2041/outline/campus",
+   "https://search.keinet.ne.jp/2041/outline/expense",
+   "https://search.keinet.ne.jp/2041/general/border_rate",
+   "https://passnavi.obunsha.co.jp/univ/1710/difficulty/",
+   "https://passnavi.obunsha.co.jp/univ/1710/schedule/",
+   "https://telemail.jp/shingaku/university/10001108/examination/general",
+   "https://manabi.benesse.ne.jp/daigaku/school/3056/gakuhi/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3056/nyushi/shi/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3056/nyushi/yaku/"
+  ]
+ },
+ {
+  "name": "弘前医療福祉大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "青森県弘前市",
+  "pref_name": "青森県",
+  "city": "弘前市",
+  "hp": "https://www.hirosakiuhw.jp/",
+  "reading": "ひろさきいりょうふくしだいがく",
+  "features": [
+   "ホスピタリティー精神を基盤に看護・リハビリ分野の専門職を育成。",
+   "看護学科と医療技術学科（作業療法学・言語聴覚学の2専攻）を設置。",
+   "返還不要の特待生制度で最大年額117万円を最長4年間給付する支援あり。"
+  ],
+  "memo": "一般・共テ利用・推薦・総合型と入試区分が多様。一般・共テとも調査書等を評価に含む。",
+  "info": {
+   "faculties": [
+    "保健学部"
+   ],
+   "departments": [
+    {
+     "f": "保健学部",
+     "d": [
+      "看護学科",
+      "医療技術学科 作業療法学専攻",
+      "医療技術学科 言語聴覚学専攻"
+     ]
+    }
+   ],
+   "kyotsu": {
+    "kamoku": "共通テスト利用選抜（A・B・C日程）では指定科目の成績300点＋調査書100点で総合判定",
+    "kyoka": null,
+    "note": "個別学力検査は課さない"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅰ期",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "探究学習型は一次選考通過発表あり",
+      "req": null,
+      "url": "https://www.hirosakiuhw.jp/entrance/schedule/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅱ期",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "資格・検定・ボランティア型は書類40点・小論文30点・面接30点",
+      "req": null,
+      "url": "https://www.hirosakiuhw.jp/entrance/schedule/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（指定校推薦）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "指定校に通知",
+      "url": "https://www.hirosakiuhw.jp/entrance/schedule/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募推薦Ⅰ期・Ⅱ期）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "書類100点・小論文100点・面接50点",
+      "req": null,
+      "url": "https://www.hirosakiuhw.jp/entrance/schedule/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期日程・後期日程",
+      "kyotsu": "課さない",
+      "niji": "学力検査200点・面接・調査書50点",
+      "content": null,
+      "req": null,
+      "url": "https://www.hirosakiuhw.jp/entrance/schedule/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 A日程・B日程・C日程",
+      "kyotsu": "指定科目（300点）",
+      "niji": null,
+      "content": null,
+      "req": "個別学力検査は課さず調査書100点と合わせて判定",
+      "url": "https://www.hirosakiuhw.jp/entrance/schedule/"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "保健学部 看護学科・医療技術学科",
+      "kubun": "一般",
+      "name": "一般選抜 前期日程・後期日程",
+      "n": null,
+      "subj": "学力検査200点、面接・調査書50点",
+      "kt": "",
+      "eng": null
+     },
+     {
+      "f": "保健学部 看護学科・医療技術学科",
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 A・B・C日程",
+      "n": null,
+      "subj": "共通テスト指定科目300点、調査書100点",
+      "kt": "指定科目（300点）",
+      "eng": null
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅰ期",
+      "apply": "9/1〜9/11",
+      "exam": "10/10",
+      "result": "11/2",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅱ期",
+      "apply": "12/1〜12/11",
+      "exam": "12/19",
+      "result": "12/24",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（指定校推薦）",
+      "apply": "11/2〜11/9",
+      "exam": "11/14",
+      "result": "12/1",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募推薦Ⅰ期）",
+      "apply": "11/2〜11/9",
+      "exam": "11/14",
+      "result": "12/1",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募推薦Ⅱ期）",
+      "apply": "12/1〜12/11",
+      "exam": "12/19",
+      "result": "12/24",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期日程",
+      "apply": "1/12〜1/29",
+      "exam": "2/6",
+      "result": "2/17",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期日程",
+      "apply": "2/12〜2/24",
+      "exam": "3/4",
+      "result": "3/10",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 A日程",
+      "apply": "1/12〜1/29",
+      "exam": "個別試験なし",
+      "result": "2/17",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 B日程",
+      "apply": "2/12〜2/24",
+      "exam": "個別試験なし",
+      "result": "3/10",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 C日程",
+      "apply": "3/5〜3/18",
+      "exam": "個別試験なし",
+      "result": "3/24",
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "保健学部 看護学科・医療技術学科（作業療法学専攻・言語聴覚学専攻）",
+      "admission": 250000,
+      "tuition": 870000,
+      "facility": 300000,
+      "practical": null,
+      "other": null,
+      "first_year": 1420000,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "特待生A",
+      "kind": "給付",
+      "target": "保健学部",
+      "amount": "年額117万円（最長4年間・授業料および教育充実費として給付・返還不要）",
+      "timing": "入試時",
+      "cond": "特待生選考による採用"
+     },
+     {
+      "name": "特待生（半額相当）",
+      "kind": "給付",
+      "target": "保健学部",
+      "amount": "年額58万5千円（最長4年間・授業料および教育充実費として給付・返還不要）",
+      "timing": "入試時",
+      "cond": "特待生選考による採用"
+     },
+     {
+      "name": "学内貸与奨学金",
+      "kind": "貸与",
+      "target": "全学部",
+      "amount": "5万円〜10万円（無利子・卒業または修了までに返還）",
+      "timing": "在学中",
+      "cond": "安定的な学修環境確保支援"
+     }
+    ]
+   },
+   "access": "小比内キャンパス：弘南鉄道運動公園前駅から徒歩3分、JR・弘南鉄道弘前駅から弘南バス「医療福祉大学前」下車（青森県弘前市小比内3-18-1）",
+   "licenses": [
+    "看護師国家試験受験資格（看護学科）",
+    "保健師国家試験受験資格（看護学科）",
+    "作業療法士国家試験受験資格（医療技術学科 作業療法学専攻）",
+    "言語聴覚士国家試験受験資格（医療技術学科 言語聴覚学専攻）"
+   ],
+   "careers": "看護学科卒業生は病院・診療所・訪問看護ステーション・介護老人保健施設などへ、医療技術学科卒業生はリハビリテーション関連の医療・福祉施設へ進んでいる。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.hirosakiuhw.jp/",
+    "https://www.hirosakiuhw.jp/entrance/schedule/",
+    "https://www.hirosakiuhw.jp/entrance/gakuhi/",
+    "https://www.hirosakiuhw.jp/entrance/scholarship/",
+    "https://www.hirosakiuhw.jp/info/no1662/",
+    "https://search.keinet.ne.jp/2032/outline/campus",
+    "https://passnavi.obunsha.co.jp/univ/1695/department/"
+   ]
+  },
+  "sources": [
+   "https://www.hirosakiuhw.jp/",
+   "https://www.hirosakiuhw.jp/entrance/schedule/",
+   "https://www.hirosakiuhw.jp/entrance/gakuhi/",
+   "https://www.hirosakiuhw.jp/entrance/scholarship/",
+   "https://www.hirosakiuhw.jp/info/no1662/",
+   "https://search.keinet.ne.jp/2032/outline/campus",
+   "https://passnavi.obunsha.co.jp/univ/1695/department/"
+  ]
+ },
+ {
+  "name": "弘前学院大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "青森県弘前市",
+  "pref_name": "青森県",
+  "city": "弘前市",
+  "hp": "https://www.hirogaku.ac.jp/",
+  "reading": "ひろさきがくいんだいがく",
+  "features": [
+   "1886年創立の伝統を持ち、文・社会福祉・看護の3学部を擁する大学。",
+   "入学金全額・半額免除やハンドベル所属者授業料10%免除等の支援がある。",
+   "総合型選抜はⅠ〜Ⅳ期の4回実施され、小論文や面接を中心に評価する。"
+  ],
+  "memo": "総合型（未来デザイン入試）は評定を出願要件とせず、小論文課題が出願前から公開される。",
+  "info": {
+   "faculties": [
+    "文学部",
+    "社会福祉学部",
+    "看護学部"
+   ],
+   "departments": [
+    {
+     "f": "文学部",
+     "d": []
+    },
+    {
+     "f": "社会福祉学部",
+     "d": [
+      "社会福祉学科"
+     ]
+    },
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    }
+   ],
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（未来デザイン入試）Ⅰ期〜Ⅳ期",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "未来目標シート10点・事前提出小論文（600字程度）35点・面接（対面またはオンライン）35点・調査書20点",
+      "req": "学習成績の状況を出願要件としない",
+      "url": "https://www.hirogaku.ac.jp/admissions/undergraduate_entrance_selection/comprehensive/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（未来デザイン入試）Ⅰ期",
+      "apply": "9/1〜10/13",
+      "exam": "10/17",
+      "result": "11/2",
+      "proc": "11/13",
+      "fee": 20000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（未来デザイン入試）Ⅱ期",
+      "apply": "11/24〜12/14",
+      "exam": "12/19",
+      "result": "12/26",
+      "proc": "1/8",
+      "fee": 20000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（未来デザイン入試）Ⅲ期",
+      "apply": "12/21〜1/18",
+      "exam": "1/23",
+      "result": "2/1",
+      "proc": "2/18",
+      "fee": 20000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（未来デザイン入試）Ⅳ期",
+      "apply": "2/5〜3/6",
+      "exam": "3/11",
+      "result": "3/17",
+      "proc": "3/27",
+      "fee": 20000
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "文学部",
+      "admission": 280000,
+      "tuition": 650000,
+      "facility": 280000,
+      "practical": 0,
+      "other": null,
+      "first_year": 1210000,
+      "four_year": null
+     },
+     {
+      "f": "社会福祉学部 社会福祉学科",
+      "admission": 280000,
+      "tuition": 700000,
+      "facility": 280000,
+      "practical": 0,
+      "other": null,
+      "first_year": 1260000,
+      "four_year": null
+     },
+     {
+      "f": "看護学部 看護学科",
+      "admission": 280000,
+      "tuition": 900000,
+      "facility": 280000,
+      "practical": null,
+      "other": null,
+      "first_year": 1460000,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "入学金免除制度（A区分・B区分）",
+      "kind": "減免",
+      "target": "全学部",
+      "amount": "A区分：入学金全額免除（280,000円）／B区分：入学金半額免除（140,000円）",
+      "timing": "入試時",
+      "cond": "選考基準を満たせば選出（人数制限なし）"
+     },
+     {
+      "name": "検定料免除制度",
+      "kind": "減免",
+      "target": "全学部",
+      "amount": "検定料（16,000円〜30,000円）全額免除",
+      "timing": "入試時",
+      "cond": "免除基準を満たす場合"
+     },
+     {
+      "name": "ハンドベル・クワイア所属学生授業料免除制度",
+      "kind": "減免",
+      "target": "全学部",
+      "amount": "授業料の10％免除",
+      "timing": "在学中",
+      "cond": "ハンドベル・クワイア在籍、学業・人物優秀、礼拝・行事演奏・練習80％以上参加（毎年度12名以内）"
+     },
+     {
+      "name": "特待生制度・学内奨学金",
+      "kind": "減免",
+      "target": "全学部",
+      "amount": "授業料等免除または貸与",
+      "timing": "入学後",
+      "cond": "入学後に選考"
+     }
+    ]
+   },
+   "access": "稔町キャンパス：弘南鉄道弘前学院大前駅から徒歩4分（青森県弘前市稔町13-1、看護学部は同20-7）",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.hirogaku.ac.jp/",
+    "https://www.hirogaku.ac.jp/admissions/undergraduate_entrance_selection/comprehensive/",
+    "https://www.hirogaku.ac.jp/support/college_life/school-fees/",
+    "https://www.hirogaku.ac.jp/support/college_life/tuition_support/",
+    "https://www.hirogaku.ac.jp/support/college_life/scholarship/",
+    "https://search.keinet.ne.jp/2030/outline/campus",
+    "https://onikanri.singeki.com/sougougata-a016071/"
+   ]
+  },
+  "sources": [
+   "https://www.hirogaku.ac.jp/",
+   "https://www.hirogaku.ac.jp/admissions/undergraduate_entrance_selection/comprehensive/",
+   "https://www.hirogaku.ac.jp/support/college_life/school-fees/",
+   "https://www.hirogaku.ac.jp/support/college_life/tuition_support/",
+   "https://www.hirogaku.ac.jp/support/college_life/scholarship/",
+   "https://search.keinet.ne.jp/2030/outline/campus",
+   "https://onikanri.singeki.com/sougougata-a016071/"
+  ]
+ }
+]

@@ -1,0 +1,731 @@
+[
+ {
+  "name": "田園調布学園大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "神奈川県川崎市麻生区",
+  "pref_name": "神奈川県",
+  "city": "川崎市麻生区",
+  "hp": "https://www.dcu.ac.jp/",
+  "reading": "でんえんちょうふがくえんだいがく",
+  "features": [
+   "約10名の学生に教員1名が付く少人数アドバイザー制度がある。",
+   "福祉・保育・心理の専門職と国家資格の取得に特化している。",
+   "実習や地域での実践を通じて現場で生きる力を身につける。"
+  ],
+  "memo": "合格・手続後も権利を保ったまま、一般A日程で授業料最大半額減免に挑戦できる。",
+  "info": {
+   "faculties": [
+    "人間福祉学部",
+    "子ども教育学部",
+    "人間科学部"
+   ],
+   "departments": [
+    {
+     "f": "人間福祉学部",
+     "d": [
+      "社会福祉学科 社会福祉専攻",
+      "社会福祉学科 介護福祉専攻",
+      "共生社会学科"
+     ]
+    },
+    {
+     "f": "子ども教育学部",
+     "d": [
+      "子ども教育学科"
+     ]
+    },
+    {
+     "f": "人間科学部",
+     "d": [
+      "心理学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜37.5（BF除く35.0〜37.5）",
+    "kyotei": "35%〜55%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "共通テスト受験科目のうち高得点2教科2科目",
+    "kyoka": [
+     2,
+     2
+    ],
+    "note": "各100点満点に換算し計200点満点。個別試験なしで書類審査と総合評価"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "個別試験型＜A日程＞（学費減免チャレンジ）",
+      "kyotsu": "課さない",
+      "niji": "国語・英語の2科目（英語外部試験利用可）＋書類審査（志望理由書・調査書）",
+      "content": null,
+      "req": null,
+      "url": "https://www.dcu.ac.jp/other/exam/individual/index.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "個別試験型＜B日程＞（学費減免チャレンジ）",
+      "kyotsu": "課さない",
+      "niji": "国語・英語の2科目（英語外部試験利用可）＋書類審査（志望理由書・調査書）",
+      "content": null,
+      "req": null,
+      "url": "https://www.dcu.ac.jp/other/exam/individual/index.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "個別試験型＜全学併願入試＞",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.dcu.ac.jp/other/exam/individual/index.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用型＜Ⅰ期・Ⅱ期・Ⅲ期＞",
+      "kyotsu": "2教科",
+      "niji": "課さない",
+      "content": "書類審査（志望理由書・調査書）と共通テスト高得点2教科2科目",
+      "req": null,
+      "url": "https://www.dcu.ac.jp/admission/schedule/index.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "自己推薦型選抜（Ⅰ期〜Ⅳ期）",
+      "kyotsu": "課さない",
+      "niji": "課さない",
+      "content": "調査書・自己推薦書（面接で確認）、面接（100点・15分程度）",
+      "req": "高校卒業または2027年3月卒業見込み等（他大学との併願可）",
+      "url": "https://www.dcu.ac.jp/admission/guidelines/document/2027_jiko_suisen_bosyu.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "活動型（Ⅰ期〜Ⅶ期）",
+      "kyotsu": "課さない",
+      "niji": "課さない",
+      "content": "書類審査（志望理由書・調査書・活動報告書・活動証明書等）等（Ⅰ期は一次・二次試験あり）",
+      "req": null,
+      "url": "https://www.dcu.ac.jp/other/exam/integrated/index.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "探求型",
+      "kyotsu": "課さない",
+      "niji": "課さない",
+      "content": null,
+      "req": null,
+      "url": "https://www.dcu.ac.jp/other/exam/integrated/index.html"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（指定校型・公募型）",
+      "kyotsu": "課さない",
+      "niji": "課さない",
+      "content": "書類審査（志望理由書・自己PR・調査書等）等",
+      "req": "2027年3月卒業見込みで学校長が推薦する者（専願制）",
+      "url": "https://www.dcu.ac.jp/admission/guidelines/document/2027_koubo_suisen_bosyu.pdf"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "全学部・学科",
+      "kubun": "一般",
+      "name": "個別試験型＜A日程・B日程＞",
+      "n": 2,
+      "subj": "国語（現代の国語・言語文化※古文漢文除く）、英語（英語コミュニケーションⅠ・Ⅱ、論理・表現Ⅰ※リスニングなし）＋書類審査（志望理由書・調査書）",
+      "kt": null,
+      "eng": "英検準2級70点・2級80点・準1級以上100点換算（GTEC・TEAP・IELTS・TOEIC等も同等換算）"
+     },
+     {
+      "f": "全学部・学科",
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用型＜Ⅰ期・Ⅱ期・Ⅲ期＞",
+      "n": 2,
+      "subj": "書類審査（志望理由書・調査書）＋共通テスト200点換算",
+      "kt": "共通テスト受験科目のうち高得点2教科2科目（各100点換算）",
+      "eng": null
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "個別試験型＜A日程＞",
+      "apply": "12/28〜1/26（書類1/28必着）",
+      "exam": "2/1",
+      "result": "2/3",
+      "proc": "一括・分納Ⅰ:2/19、分納Ⅱ:3/23",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "個別試験型＜B日程＞",
+      "apply": "12/28〜2/2（書類2/5必着）",
+      "exam": "2/12",
+      "result": "2/15",
+      "proc": "一括・分納Ⅰ:3/8、分納Ⅱ:3/23",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "個別試験型＜全学併願入試＞",
+      "apply": "2/1〜3/2（書類3/4必着）",
+      "exam": "3/9",
+      "result": "3/11",
+      "proc": "3/23",
+      "fee": 35000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用型＜Ⅰ期＞",
+      "apply": "12/28〜2/2（書類2/5必着）",
+      "exam": "個別試験なし",
+      "result": "2/15",
+      "proc": "一括・分納Ⅰ:3/8、分納Ⅱ:3/23",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用型＜Ⅱ期＞",
+      "apply": "2/1〜2/18（書類2/23必着）",
+      "exam": "個別試験なし",
+      "result": "3/3",
+      "proc": "一括・分納Ⅰ:3/12、分納Ⅱ:3/23",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用型＜Ⅲ期＞",
+      "apply": "2/1〜2/25（書類3/2必着）",
+      "exam": "個別試験なし",
+      "result": "3/11",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "自己推薦型選抜Ⅰ期",
+      "apply": "9/1〜10/13（書類10/15必着）",
+      "exam": "10/18",
+      "result": "11/2",
+      "proc": "11/13",
+      "fee": 35000
+     },
+     {
+      "kubun": "総合型",
+      "name": "自己推薦型選抜Ⅱ期",
+      "apply": "11/2〜11/17（書類11/19必着）",
+      "exam": "11/22",
+      "result": "12/1",
+      "proc": "12/11",
+      "fee": 35000
+     },
+     {
+      "kubun": "総合型",
+      "name": "自己推薦型選抜Ⅲ期",
+      "apply": "11/2〜12/15（書類12/17必着）",
+      "exam": "12/20",
+      "result": "12/22",
+      "proc": "1/5",
+      "fee": 35000
+     },
+     {
+      "kubun": "総合型",
+      "name": "自己推薦型選抜Ⅳ期",
+      "apply": "2/1〜3/2（書類3/4必着）",
+      "exam": "3/9",
+      "result": "3/11",
+      "proc": "3/23",
+      "fee": 35000
+     },
+     {
+      "kubun": "総合型",
+      "name": "活動型＜Ⅰ期＞",
+      "apply": "9/1〜9/10（書類9/11必着）",
+      "exam": "一次9/17、二次10/18",
+      "result": "一次9/24、合格11/2",
+      "proc": "11/13",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "活動型＜Ⅱ期＞",
+      "apply": "9/1〜10/13（書類10/15必着）",
+      "exam": "10/18",
+      "result": "11/2",
+      "proc": "11/13",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "活動型＜Ⅲ期＞",
+      "apply": "11/2〜11/17（書類11/19必着）",
+      "exam": "11/22",
+      "result": "12/1",
+      "proc": "12/11",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "活動型＜Ⅳ期＞",
+      "apply": "11/2〜12/15（書類12/17必着）",
+      "exam": "12/20",
+      "result": "12/22",
+      "proc": "1/5",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "活動型＜Ⅴ期＞",
+      "apply": "12/28〜1/26（書類1/28必着）",
+      "exam": "2/1",
+      "result": "2/3",
+      "proc": "2/19",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "活動型＜Ⅵ期＞",
+      "apply": "12/28〜2/2（書類2/5必着）",
+      "exam": "2/12",
+      "result": "2/15",
+      "proc": "2/25",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "活動型＜Ⅶ期＞",
+      "apply": "2/1〜2/23（書類2/25必着）",
+      "exam": "3/1",
+      "result": "3/3",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "探求型＜Ⅲ期＞",
+      "apply": "11/2〜11/17（書類11/19必着）",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "探求型＜Ⅳ期＞",
+      "apply": "11/2〜12/15（書類12/17必着）",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "学部共通（人間福祉学部・子ども教育学部・人間科学部）",
+      "admission": 300000,
+      "tuition": 700000,
+      "facility": 440000,
+      "practical": 0,
+      "other": 70000,
+      "first_year": 1510000,
+      "four_year": 5160000
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "学費減免チャレンジ入試（減免SS・入学金割引）",
+      "kind": "減免",
+      "target": "総合型選抜Ⅰ期の成績上位者（減免SS）／受験者（入学金割引）",
+      "amount": "在学期間中の授業料最大100%減免、入学金一律10万円割引",
+      "timing": "入試時",
+      "cond": "総合型選抜Ⅰ期での選抜"
+     },
+     {
+      "name": "学費減免チャレンジ入試（減免S1・学費減免生）",
+      "kind": "減免",
+      "target": "一般選抜 個別試験型A日程・B日程の成績上位者（他選抜の入学手続完了者もA日程受験可）",
+      "amount": "在学期間中の授業料最大50%（約140万円）減免",
+      "timing": "入試時",
+      "cond": "A・B日程での成績上位選抜（手続完了者のA日程受験は検定料15,000円）"
+     },
+     {
+      "name": "調布学園西村一郎奨学金",
+      "kind": "給付",
+      "target": "在学生（経済支援・学業成績優秀の2種類）",
+      "amount": "当該年度の授業料半額給付",
+      "timing": "在学中",
+      "cond": "調布学園西村一郎奨学金規程に基づく選考"
+     }
+    ]
+   },
+   "eng": {
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "個別試験型＜A日程・B日程＞",
+      "use": "得点換算",
+      "level": "英検準2級:70点、2級:80点、準1級以上:100点（他試験も同等基準で換算）",
+      "tests": "英検、GTEC、TEAP、IELTS、TOEICなど"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-07-19",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     }
+    ],
+    "url": "https://www.dcu.ac.jp/opencampus/opencampus01/index.html"
+   },
+   "access": "神奈川県川崎市麻生区東百合丘3-4-1（小田急線「新百合ヶ丘駅」からバス約10〜15分、東急田園都市線「たまプラーザ駅」「あざみ野駅」からバス約16〜18分）",
+   "licenses": [
+    "社会福祉士受験資格（社会福祉学科社会福祉専攻・共生社会学科）",
+    "精神保健福祉士受験資格（社会福祉学科社会福祉専攻）",
+    "スクールソーシャルワーク教育課程修了者資格（社会福祉学科社会福祉専攻）",
+    "中学校教諭一種免許状（社会）（共生社会学科）",
+    "高等学校教諭一種免許状（公民・福祉）（共生社会学科）",
+    "特別支援学校教諭一種免許状（知的障害者・肢体不自由者）（共生社会学科）",
+    "小学校教諭一種免許状（子ども教育学科）",
+    "幼稚園教諭一種免許状（子ども教育学科）",
+    "保育士（子ども教育学科）",
+    "准学校心理士（子ども教育学科・共生社会学科）",
+    "公認心理師[学部課程]・認定心理士・認定心理士[心理調査]・社会教育士[養成課程]（心理学科）",
+    "児童指導員任用資格・社会福祉主事任用資格（子ども教育学科・心理学科）"
+   ],
+   "careers": "福祉・保育・心理の専門職や教員養成に強みを持ち、子ども教育学部では2026年3月卒業生のうち14名が公務員保育職に採用された。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.dcu.ac.jp/",
+    "https://www.dcu.ac.jp/school/composition/index.html",
+    "https://www.dcu.ac.jp/school/welfare/care/index.html",
+    "https://www.dcu.ac.jp/school/welfare/social/index.html",
+    "https://www.dcu.ac.jp/school/welfare/psychology/index.html",
+    "https://www.dcu.ac.jp/school/child/future/index.html",
+    "https://www.dcu.ac.jp/school/child/future/news.html",
+    "https://www.dcu.ac.jp/school/child/future/news_detail.html?CN=270895",
+    "https://www.dcu.ac.jp/school/child/future/news_detail.html?CN=270877",
+    "https://www.dcu.ac.jp/school/human/mind/index.html",
+    "https://www.dcu.ac.jp/lp/feature/",
+    "https://www.dcu.ac.jp/other/exam/index.html",
+    "https://www.dcu.ac.jp/other/exam/individual/index.html",
+    "https://www.dcu.ac.jp/other/exam/integrated/index.html",
+    "https://www.dcu.ac.jp/admission/schedule/index.html",
+    "https://www.dcu.ac.jp/admission/system/index.html",
+    "https://www.dcu.ac.jp/admission/challenge/index.html",
+    "https://www.dcu.ac.jp/admission/guidelines/document/2027_jiko_suisen_bosyu.pdf",
+    "https://www.dcu.ac.jp/admission/guidelines/document/2027_koubo_suisen_bosyu.pdf",
+    "https://www.dcu.ac.jp/admission/guidelines/document/2027_document.pdf",
+    "https://www.dcu.ac.jp/opencampus/opencampus01/index.html",
+    "https://search.keinet.ne.jp/2318/general/border_rate",
+    "https://passnavi.obunsha.co.jp/univ/3325/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.dcu.ac.jp/",
+   "https://www.dcu.ac.jp/school/composition/index.html",
+   "https://www.dcu.ac.jp/school/welfare/care/index.html",
+   "https://www.dcu.ac.jp/school/welfare/social/index.html",
+   "https://www.dcu.ac.jp/school/welfare/psychology/index.html",
+   "https://www.dcu.ac.jp/school/child/future/index.html",
+   "https://www.dcu.ac.jp/school/child/future/news.html",
+   "https://www.dcu.ac.jp/school/child/future/news_detail.html?CN=270895",
+   "https://www.dcu.ac.jp/school/child/future/news_detail.html?CN=270877",
+   "https://www.dcu.ac.jp/school/human/mind/index.html",
+   "https://www.dcu.ac.jp/lp/feature/",
+   "https://www.dcu.ac.jp/other/exam/index.html",
+   "https://www.dcu.ac.jp/other/exam/individual/index.html",
+   "https://www.dcu.ac.jp/other/exam/integrated/index.html",
+   "https://www.dcu.ac.jp/admission/schedule/index.html",
+   "https://www.dcu.ac.jp/admission/system/index.html",
+   "https://www.dcu.ac.jp/admission/challenge/index.html",
+   "https://www.dcu.ac.jp/admission/guidelines/document/2027_jiko_suisen_bosyu.pdf",
+   "https://www.dcu.ac.jp/admission/guidelines/document/2027_koubo_suisen_bosyu.pdf",
+   "https://www.dcu.ac.jp/admission/guidelines/document/2027_document.pdf",
+   "https://www.dcu.ac.jp/opencampus/opencampus01/index.html",
+   "https://search.keinet.ne.jp/2318/general/border_rate",
+   "https://passnavi.obunsha.co.jp/univ/3325/difficulty/"
+  ]
+ },
+ {
+  "name": "産業能率大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都",
+  "pref_name": "東京都",
+  "city": null,
+  "hp": "https://www.sanno.ac.jp/",
+  "reading": "さんぎょうのうりつだいがく",
+  "features": [
+   "経営学部と情報マネジメント学部の2学部で構成されている。",
+   "スカラシップ選抜では国公立大学並みの授業料水準で学べる。",
+   "一般選抜や共テ利用は3月11日まで入学金の返還期限がある。"
+  ],
+  "memo": "一般選抜や共テ利用は3月11日までの二次手続・入学金返還期限があり併願しやすい。",
+  "info": {
+   "faculties": [
+    "経営学部",
+    "情報マネジメント学部"
+   ],
+   "departments": [
+    {
+     "f": "経営学部",
+     "d": []
+    },
+    {
+     "f": "情報マネジメント学部",
+     "d": [
+      "現代マネジメント学科"
+     ]
+    }
+   ],
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": [
+     2,
+     5
+    ],
+    "note": "大学入学共通テスト利用方式に「2・3・4教科型」と「5教科型」がある（個別試験なし）"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期3教科",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.sanno.ac.jp/exam/system/general/1st.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期2教科",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.sanno.ac.jp/exam/system/general/1stbasic.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 英語4技能試験利用方式",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.sanno.ac.jp/exam/system/general/1stplus1.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.sanno.ac.jp/exam/system/general/3rd.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "スカラシップ選抜（国公立大学併願タイプ）",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.sanno.ac.jp/exam/system/general/spu.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用方式（2・3・4教科型）",
+      "kyotsu": "2〜4教科",
+      "niji": "課さない",
+      "content": null,
+      "req": null,
+      "url": "https://www.sanno.ac.jp/exam/system/general/commontest.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用方式（5教科型）",
+      "kyotsu": "5教科",
+      "niji": "課さない",
+      "content": null,
+      "req": null,
+      "url": "https://www.sanno.ac.jp/exam/system/general/commontest.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "AO方式Ⅰ期・Ⅱ期（現代マネジメント学科）",
+      "kyotsu": "課さない",
+      "niji": "課さない",
+      "content": null,
+      "req": "本学を第一志望とし、高校卒業または2027年3月卒業見込み等",
+      "url": "https://www.sanno.ac.jp/exam/system/special/ao_im.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（年内入試要項掲載）",
+      "kyotsu": "課さない",
+      "niji": "課さない",
+      "content": null,
+      "req": "高校卒業または2027年3月卒業見込み等",
+      "url": "https://www.sanno.ac.jp/exam/2026yoko_nennai2026.pdf"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期3教科",
+      "apply": "1/3〜1/29",
+      "exam": "2/1",
+      "result": "2/4",
+      "proc": "一次:2/5〜2/19、二次(入学金返還期限):3/11",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 英語4技能試験利用方式",
+      "apply": "1/3〜2/10",
+      "exam": "2/12",
+      "result": "2/16",
+      "proc": "一次:2/17〜3/2、二次(入学金返還期限):3/11",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期",
+      "apply": "1/3〜3/4",
+      "exam": "3/6",
+      "result": "3/12",
+      "proc": "3/13〜3/24",
+      "fee": 35000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用方式（2・3・4教科型）",
+      "apply": "経営学部:1/3〜1/15、情報マネジメント学部:1/3〜1/29",
+      "exam": "1/16・1/17（個別試験なし）",
+      "result": "2/9",
+      "proc": "一次:2/10〜2/19、二次(入学金返還制度):3/11",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用方式（5教科型）",
+      "apply": "1/3〜3/9",
+      "exam": "1/16・1/17（個別試験なし）",
+      "result": "3/12",
+      "proc": "3/13〜3/24",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "スカラシップ選抜（国公立大学併願タイプ）",
+      "apply": null,
+      "exam": null,
+      "result": null,
+      "proc": "最終(二次)手続期限:3/11",
+      "fee": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "スカラシップ選抜（国公立大学併願タイプ）",
+      "kind": "減免",
+      "target": "スカラシップ選抜合格・入学者",
+      "amount": "授業料が国立大学標準額と同額の535,800円（2年次以降も一定条件で減免）",
+      "timing": "入試時",
+      "cond": "スカラシップ選抜での合格および2年次以降の継続条件達成"
+     },
+     {
+      "name": "学業優秀者対象給付奨学金（2〜4年次生）",
+      "kind": "給付",
+      "target": "2〜4年次生（各学科各学年1名以内・計9名以内）",
+      "amount": "300,000円／200,000円",
+      "timing": "在学中",
+      "cond": "学業・人物ともに極めて優れ他の模範となり得る者等"
+     },
+     {
+      "name": "家計急変対応給付奨学金",
+      "kind": "給付",
+      "target": "1〜4年次生（原則3名以内）",
+      "amount": "授業料半額相当額以内",
+      "timing": "在学中",
+      "cond": "修学意欲がありながら家計急変により学費支弁が困難な者（同一事由1回限り）"
+     },
+     {
+      "name": "留学奨学金",
+      "kind": "給付",
+      "target": "1〜4年次生（若干名）",
+      "amount": "留学した年度の授業料半額相当額（半年間）",
+      "timing": "在学中",
+      "cond": "出国前申請／帰国後審査"
+     }
+    ]
+   },
+   "eng": {
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 英語4技能試験利用方式",
+      "use": "判定に利用",
+      "level": null,
+      "tests": null
+     }
+    ]
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.sanno.ac.jp/",
+    "https://www.sanno.ac.jp/exam/schedulelist/entranceexam_schedule.html",
+    "https://www.sanno.ac.jp/exam/2026yoko_nennai2026.pdf",
+    "https://www.sanno.ac.jp/exam/system/general/1st.html",
+    "https://www.sanno.ac.jp/exam/system/general/1stbasic.html",
+    "https://www.sanno.ac.jp/exam/system/general/1stplus1.html",
+    "https://www.sanno.ac.jp/exam/system/general/3rd.html",
+    "https://www.sanno.ac.jp/exam/system/general/commontest.html",
+    "https://www.sanno.ac.jp/exam/system/general/spu.html",
+    "https://www.sanno.ac.jp/exam/system/special/ao_im.html",
+    "https://www.sanno.ac.jp/undergraduate/campuslife/scholarship2.html"
+   ]
+  },
+  "sources": [
+   "https://www.sanno.ac.jp/",
+   "https://www.sanno.ac.jp/exam/schedulelist/entranceexam_schedule.html",
+   "https://www.sanno.ac.jp/exam/2026yoko_nennai2026.pdf",
+   "https://www.sanno.ac.jp/exam/system/general/1st.html",
+   "https://www.sanno.ac.jp/exam/system/general/1stbasic.html",
+   "https://www.sanno.ac.jp/exam/system/general/1stplus1.html",
+   "https://www.sanno.ac.jp/exam/system/general/3rd.html",
+   "https://www.sanno.ac.jp/exam/system/general/commontest.html",
+   "https://www.sanno.ac.jp/exam/system/general/spu.html",
+   "https://www.sanno.ac.jp/exam/system/special/ao_im.html",
+   "https://www.sanno.ac.jp/undergraduate/campuslife/scholarship2.html"
+  ]
+ }
+]

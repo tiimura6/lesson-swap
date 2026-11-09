@@ -1,0 +1,969 @@
+[
+ {
+  "name": "湘南医療大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "神奈川県横浜市戸塚区",
+  "pref_name": "神奈川県",
+  "city": "横浜市戸塚区",
+  "hp": "https://sums.ac.jp/",
+  "reading": "しょうなんいりょうだいがく",
+  "features": [
+   "横浜市戸塚区に保健医療学部と薬学部を置く医療系大学。",
+   "ふれあいグループ病院への就職で返済免除となる奨学金あり。",
+   "一般選抜は高得点2科目判定で、英語外部試験の得点換算あり。"
+  ],
+  "memo": "一般選抜は学力試験に看護10点・リハ20点の面接が加わる。共テ利用は指定科目1科目未受験で無資格になる点に注意。",
+  "info": {
+   "faculties": [
+    "保健医療学部",
+    "薬学部"
+   ],
+   "departments": [
+    {
+     "f": "保健医療学部",
+     "d": [
+      "看護学科",
+      "リハビリテーション学科 理学療法学専攻",
+      "リハビリテーション学科 作業療法学専攻"
+     ]
+    },
+    {
+     "f": "薬学部",
+     "d": [
+      "医療薬学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜40.0",
+    "kyotei": "35%〜56%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "薬学部は化学必須＋数学・理科・英語から1科目。保健医療学部は国・数・理・英から2科目選択。",
+    "kyoka": [
+     1,
+     2
+    ],
+    "note": "国語「近代以降の文章」は110点配点を100点に換算。指定科目を1科目でも未受験の場合は無資格。"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（Ⅰ期・Ⅱ期・Ⅲ期）",
+      "kyotsu": "課さない",
+      "niji": "学力試験2教科（200点）＋面接（看護10点・リハ20点・薬なし）",
+      "content": null,
+      "req": null,
+      "url": "https://sums.ac.jp/examinee-support/admission/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（Ⅰ期・Ⅱ期）",
+      "kyotsu": "1〜2教科2科目",
+      "niji": "課さない",
+      "content": null,
+      "req": null,
+      "url": "https://sums.ac.jp/examinee-support/admission/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（Ⅲ期等）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://sums.ac.jp/examinee-support/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（特定地域指定型Ⅰ期・Ⅱ期）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "小論文、面接",
+      "req": null,
+      "url": "https://sums.ac.jp/examinee-support/information/info_20260717-02.html"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（離島・過疎地域型Ⅰ期・Ⅱ期）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "小論文、面接",
+      "req": null,
+      "url": "https://sums.ac.jp/examinee-support/information/info_20260717-01.html"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "保健医療学部 看護学科",
+      "kubun": "一般",
+      "name": "一般選抜（Ⅰ期・Ⅱ期）",
+      "n": 2,
+      "subj": "国・数Ⅰ・生物基礎・外から2科目選択（各100点）、面接（10点）、調査書（10点）計220点",
+      "kt": null,
+      "eng": "英検等の得点換算あり"
+     },
+     {
+      "f": "保健医療学部 リハビリテーション学科",
+      "kubun": "一般",
+      "name": "一般選抜（Ⅰ期・Ⅱ期・Ⅲ期）",
+      "n": 2,
+      "subj": "国・数Ⅰ・生物基礎・外から2科目選択（各100点）、面接（20点）、調査書（10点）計230点",
+      "kt": null,
+      "eng": "英検等の得点換算あり"
+     },
+     {
+      "f": "薬学部 医療薬学科",
+      "kubun": "一般",
+      "name": "一般選抜（Ⅰ期・Ⅱ期・Ⅲ期）",
+      "n": 2,
+      "subj": "化学基礎・化学必須（100点）、数ⅠAⅡBまたは外から1科目（100点）計200点",
+      "kt": null,
+      "eng": "英検等の得点換算あり"
+     },
+     {
+      "f": "保健医療学部（看護・リハビリテーション）",
+      "kubun": "共テ利用",
+      "name": "共通テスト利用（Ⅰ期・Ⅱ期）",
+      "n": 2,
+      "subj": "個別試験なし",
+      "kt": "国（近代以降100換算）・数（ⅠまたはⅠA）・理（基礎2または発展1）・英から2科目（計200点）",
+      "eng": null
+     },
+     {
+      "f": "薬学部 医療薬学科",
+      "kubun": "共テ利用",
+      "name": "共通テスト利用（Ⅰ期・Ⅱ期）",
+      "n": 2,
+      "subj": "個別試験なし",
+      "kt": "化学必須（100点）、数（ⅠA・ⅡBC）・理（物理・生物）・英から1科目（100点）計200点",
+      "eng": null
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜Ⅲ期",
+      "apply": "2026/10/26〜11/9",
+      "exam": "2026/11/15",
+      "result": "2026/11/18",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜Ⅰ期（特定地域指定型・離島過疎地域型）",
+      "apply": "2026/11/1〜11/9",
+      "exam": "2026/11/15",
+      "result": "2026/12/2",
+      "proc": "2026/12/15",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜Ⅱ期（特定地域指定型・離島過疎地域型）",
+      "apply": "2026/12/1〜12/11",
+      "exam": "2026/12/20",
+      "result": "2026/12/23",
+      "proc": "2027/1/5",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅰ期",
+      "apply": "2027/1/4〜1/22",
+      "exam": "2027/1/30・1/31・2/1（2/1は薬学部のみ）",
+      "result": "2027/2/3",
+      "proc": "2027/2/26",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅱ期",
+      "apply": "2027/2/1〜2/19",
+      "exam": "2027/2/27・2/28（2/28は薬学部のみ）",
+      "result": "2027/3/3",
+      "proc": "2027/3/16",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅲ期（リハビリテーション・薬学部のみ）",
+      "apply": "2027/2/22〜3/5",
+      "exam": "2027/3/14",
+      "result": "2027/3/17",
+      "proc": "2027/3/26",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用Ⅰ期",
+      "apply": "2027/1/18〜2/5",
+      "exam": "2027/1/16・1/17（共通テスト）",
+      "result": "2027/2/10",
+      "proc": "2027/3/2",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用Ⅱ期",
+      "apply": "2027/2/8〜2/19",
+      "exam": "2027/1/16・1/17（共通テスト）",
+      "result": "2027/2/24",
+      "proc": "2027/3/16",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "薬学部 医療薬学科",
+      "admission": 330000,
+      "tuition": 1300000,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 2020000,
+      "four_year": null
+     },
+     {
+      "f": "保健医療学部 看護学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1710000,
+      "four_year": null
+     },
+     {
+      "f": "保健医療学部 リハビリテーション学科（理学療法学専攻・作業療法学専攻）",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1760000,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "name": "ふれあいグループ奨学金（奨学資金・返済免除条件有）",
+      "kind": "貸与",
+      "target": "薬学部・保健医療学部（経済的理由があり卒業後グループ施設に就業する意思が確実な学生）",
+      "amount": "月額50,000円（薬最長6年・保健医療最長4年）",
+      "timing": "在学中",
+      "cond": "卒業後ふれあいグループ病院施設等に薬学部6年・保健医療学部4年勤務で貸与額・利息を全額返済免除"
+     },
+     {
+      "name": "ふれあいグループ奨学金（修学資金・返済免除条件無）",
+      "kind": "貸与",
+      "target": "保健医療学部",
+      "amount": "月額30,000円（最長4年）",
+      "timing": "在学中",
+      "cond": "卒業後1〜6年で返済。グループ病院施設に返済期間以上勤務で利息免除"
+     }
+    ]
+   },
+   "eng": {
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（保健医療学部・薬学部）",
+      "use": "得点換算",
+      "level": "英検準1級またはCSEスコア2300／英検2級またはCSEスコア1950",
+      "tests": "英語資格・検定試験（英検など）"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": "https://sums.ac.jp/examinee-support/event/"
+   },
+   "access": "東戸塚キャンパス（JR横須賀線 東戸塚駅西口より徒歩約15分／シャトルバスあり）",
+   "licenses": [
+    "薬剤師（薬学部 医療薬学科）",
+    "看護師（保健医療学部 看護学科）",
+    "理学療法士（保健医療学部 リハビリテーション学科 理学療法学専攻）",
+    "作業療法士（保健医療学部 リハビリテーション学科 作業療法学専攻）"
+   ],
+   "careers": null
+  },
+  "sources": [
+   "https://sums.ac.jp/",
+   "https://sums.ac.jp/examinee-support/",
+   "https://sums.ac.jp/examinee-support/admission/",
+   "https://sums.ac.jp/examinee-support/information/info_20260717-01.html",
+   "https://sums.ac.jp/examinee-support/information/info_20260717-02.html",
+   "https://sums.ac.jp/examinee-support/download/info20250925/tuition-scholar.pdf",
+   "https://sums.ac.jp/html/campus_life/school_expenses/",
+   "https://sums.ac.jp/examinee-support/event/",
+   "https://sums.ac.jp/html/topics/2505/250509-01.html",
+   "https://passnavi.obunsha.co.jp/univ/3283/difficulty/",
+   "https://passnavi.obunsha.co.jp/univ/3283/subject/",
+   "https://passnavi.obunsha.co.jp/univ/3283/eiken/"
+  ]
+ },
+ {
+  "name": "清泉女子大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都品川区",
+  "pref_name": "東京都",
+  "city": "品川区",
+  "hp": "https://www.seisen-u.ac.jp/",
+  "reading": "せいせんじょしだいがく",
+  "features": [
+   "総合文化学部と地球市民学部の2学部を設置する女子大学。",
+   "総合型11月期特待方式で授業料・施設費免除の特典がある。",
+   "一般前・中・後期や高大接続入試、共テ2〜5科目方式を実施。"
+  ],
+  "memo": "総合文化・地球市民の2学部体制。一般前期は3教科・高得点2教科・英検利用が、共テ利用は2〜5科目方式が揃う。",
+  "info": {
+   "faculties": [
+    "総合文化学部",
+    "地球市民学部"
+   ],
+   "departments": [
+    {
+     "f": "総合文化学部",
+     "d": [
+      "日本文化",
+      "国際文化",
+      "文化史"
+     ]
+    },
+    {
+     "f": "地球市民学部",
+     "d": [
+      "地域共生",
+      "ソーシャルデザイン"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜37.5",
+    "kyotei": "52%〜62%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": [
+     2,
+     5
+    ],
+    "note": "2科目・3科目・4科目・5科目方式を実施。"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期：3教科・高得点2教科・英検）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.seisen-u.ac.jp/admissions/guidance/internet_application.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試（中期：2教科・英検）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.seisen-u.ac.jp/admissions/guidance/internet_application.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（後期）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.seisen-u.ac.jp/admissions/guidance/internet_application.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試（前期・後期：2〜5科目方式）",
+      "kyotsu": "2〜5科目",
+      "niji": "課さない",
+      "content": null,
+      "req": null,
+      "url": "https://www.seisen-u.ac.jp/admissions/guidance/internet_application.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（11月期）基礎学力1教科＜特待＞方式",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "基礎学力1教科",
+      "req": null,
+      "url": "https://www.seisen-u.ac.jp/admissions/ao/shogakusei.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "高大接続入試（第1次・第2次）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://seisen-u.ac.jp/admissions/ao/kodai.html"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": []
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期）",
+      "apply": "2026/12/14〜2027/1/19（Web登録）",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試（中期）",
+      "apply": "2027/1/20〜2/5（Web登録）",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（後期）",
+      "apply": "2027/1/30〜2/20（Web登録）",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試（前期）",
+      "apply": "2026/12/14〜2027/1/29（Web登録）",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試（後期）",
+      "apply": "2027/1/30〜3/5（Web登録）",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "高大接続入試（第1次）",
+      "apply": "2026/12/18〜2027/1/8",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "高大接続入試（第2次）",
+      "apply": "2027/1/9〜3/9",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": null,
+    "rows": []
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "総合型選抜（11月期）基礎学力1教科＜特待＞方式",
+      "kind": "減免",
+      "target": "同方式の特待合格者",
+      "amount": "授業料および施設費の全額または半額免除",
+      "timing": "入試時",
+      "cond": "総合型選抜（11月期）基礎学力1教科＜特待＞方式での選考"
+     }
+    ]
+   },
+   "eng": {
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "前期英検・中期英検",
+      "use": "判定に利用",
+      "level": null,
+      "tests": "英検"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": null
+   },
+   "access": null,
+   "licenses": [],
+   "careers": null
+  },
+  "sources": [
+   "https://www.seisen-u.ac.jp/",
+   "https://www.seisen-u.ac.jp/admissions/guidance/internet_application.html",
+   "https://www.seisen-u.ac.jp/admissions/ao/shogakusei.html",
+   "https://seisen-u.ac.jp/admissions/ao/kodai.html",
+   "https://www.seisen-u.ac.jp/overview/information/syugakusien.html",
+   "https://passnavi.obunsha.co.jp/univ/2570/difficulty/"
+  ]
+ },
+ {
+  "name": "清和大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "千葉県",
+  "pref_name": "千葉県",
+  "city": null,
+  "hp": "http://www.seiwa-univ.ac.jp/",
+  "reading": "せいわだいがく",
+  "features": [
+   "千葉県にキャンパスを置く法学部単科の私立大学。",
+   "学力特待生制度では入学料全額と授業料の一部・全額を給付。",
+   "学校推薦型選抜（指定校制・併設校制）から特待生応募が可能。"
+  ],
+  "memo": "学校推薦型（指定校・併設校制）でも学力特待生選考に出願でき、A〜C特待で入学料と4年分の授業料相当を給付。",
+  "info": {
+   "faculties": [
+    "法学部"
+   ],
+   "departments": [
+    {
+     "f": "法学部",
+     "d": []
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": [],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（指定校制・併設校制）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.seiwa-univ.ac.jp/exam/img/2027_application_guidelines.pdf"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": []
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": []
+   },
+   "money": {
+    "year": null,
+    "rows": []
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "学力特待生制度（A特待生）",
+      "kind": "給付",
+      "target": "学力特待生選考エントリー者（指定校制・併設校制からの応募可）",
+      "amount": "入学料全額＋4年間の授業料全額相当（返還義務なし）",
+      "timing": "入試時",
+      "cond": "学力特待生制度エントリーシート提出・選考合格"
+     },
+     {
+      "name": "学力特待生制度（B特待生）",
+      "kind": "給付",
+      "target": "学力特待生選考エントリー者（指定校制・併設校制からの応募可）",
+      "amount": "入学料全額＋4年間の授業料半額相当（返還義務なし）",
+      "timing": "入試時",
+      "cond": "学力特待生制度エントリーシート提出・選考合格"
+     },
+     {
+      "name": "学力特待生制度（C特待生）",
+      "kind": "給付",
+      "target": "学力特待生選考エントリー者（指定校制・併設校制からの応募可）",
+      "amount": "入学料全額＋4年間の授業料1/4相当（返還義務なし）",
+      "timing": "入試時",
+      "cond": "学力特待生制度エントリーシート提出・選考合格"
+     }
+    ]
+   },
+   "eng": {
+    "rows": []
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": null
+   },
+   "access": null,
+   "licenses": [],
+   "careers": null
+  },
+  "sources": [
+   "https://www.seiwa-univ.ac.jp/exam/img/2027_application_guidelines.pdf",
+   "https://www.seiwa-univ.ac.jp/exam/aid.html",
+   "https://passnavi.obunsha.co.jp/univ/2155/top/"
+  ]
+ },
+ {
+  "name": "淑徳大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "千葉県",
+  "pref_name": "千葉県",
+  "city": null,
+  "hp": "https://www.shukutoku.ac.jp/",
+  "reading": "しゅくとくだいがく",
+  "features": [
+   "総合福祉・看護栄養・教育・人文など7学部を擁する総合大学。",
+   "一般選抜はA・B日程を実施し、共通テスト利用入試も導入。",
+   "国の修学支援新制度対象校で、提携教育ローンも案内している。"
+  ],
+  "memo": "7学部を擁し、看護栄養学部や人文学部歴史学科など幅広い系統で一般A・B日程（看護栄養はA）と共テ利用を実施。",
+  "info": {
+   "faculties": [
+    "総合福祉学部",
+    "コミュニティ政策学部",
+    "看護栄養学部",
+    "教育学部",
+    "地域創生学部",
+    "経営学部",
+    "人文学部"
+   ],
+   "departments": [
+    {
+     "f": "総合福祉学部",
+     "d": [
+      "社会（社会福祉）",
+      "社会（福祉教職）",
+      "教育（学校教育）",
+      "教育（健康教育）",
+      "実践心理"
+     ]
+    },
+    {
+     "f": "コミュニティ政策学部",
+     "d": [
+      "コミュニティ政策"
+     ]
+    },
+    {
+     "f": "看護栄養学部",
+     "d": [
+      "看護",
+      "栄養"
+     ]
+    },
+    {
+     "f": "教育学部",
+     "d": [
+      "こども教育"
+     ]
+    },
+    {
+     "f": "地域創生学部",
+     "d": [
+      "地域創生"
+     ]
+    },
+    {
+     "f": "経営学部",
+     "d": [
+      "経営",
+      "観光経営"
+     ]
+    },
+    {
+     "f": "人文学部",
+     "d": [
+      "歴史",
+      "表現",
+      "人間科学"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜45.0",
+    "kyotei": "46%〜63%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": [],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A日程・B日程 ※看護栄養学部はA日程）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://passnavi.obunsha.co.jp/univ/2140/difficulty/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜",
+      "kyotsu": null,
+      "niji": "課さない",
+      "content": null,
+      "req": null,
+      "url": "https://passnavi.obunsha.co.jp/univ/2140/difficulty/"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": []
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": []
+   },
+   "money": {
+    "year": null,
+    "rows": []
+   },
+   "scholar": {
+    "year": null,
+    "rows": []
+   },
+   "eng": {
+    "rows": []
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": null
+   },
+   "access": null,
+   "licenses": [],
+   "careers": null
+  },
+  "sources": [
+   "https://www.shukutoku.ac.jp/",
+   "https://www.shukutoku.ac.jp/campuslife/fees/loan.html",
+   "https://www.shukutoku.ac.jp/campuslife/fees/newscholarship.html",
+   "https://passnavi.obunsha.co.jp/univ/2140/difficulty/"
+  ]
+ },
+ {
+  "name": "浦和大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "埼玉県",
+  "pref_name": "埼玉県",
+  "city": null,
+  "hp": "https://www.urawa.ac.jp/",
+  "reading": "うらわだいがく",
+  "features": [
+   "こども学部と社会学部の2学部を設置する埼玉県の私立大学。",
+   "総合型・学校推薦型・一般・共テ利用など多様な選抜を実施。",
+   "条件該当で授業料年額715,000円が半額免除される支援あり。"
+  ],
+  "memo": "2027年度要項で経済支援による授業料半額免除や同窓生子女制度を掲載。選抜区分も総合型6期まで幅広く設定。",
+  "info": {
+   "faculties": [
+    "こども学部",
+    "社会学部"
+   ],
+   "departments": [
+    {
+     "f": "こども学部",
+     "d": []
+    },
+    {
+     "f": "社会学部",
+     "d": [
+      "総合福祉",
+      "現代社会"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜35.0",
+    "kyotei": "37%〜42%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": [],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（6など）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.urawa.ac.jp/uradai-days/admission/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（Ⅲなど）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.urawa.ac.jp/uradai-days/admission/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（Ⅰ期・Ⅱ期）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.urawa.ac.jp/uradai-days/admission/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜",
+      "kyotsu": null,
+      "niji": "課さない",
+      "content": null,
+      "req": null,
+      "url": "https://passnavi.obunsha.co.jp/univ/1962/difficulty/"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": []
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 6",
+      "apply": null,
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 Ⅲ",
+      "apply": null,
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅱ",
+      "apply": null,
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": null,
+    "rows": []
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "学費支援制度（授業料半額免除）",
+      "kind": "減免",
+      "target": "経済的理由により学費納付が困難で意欲と能力がある学生",
+      "amount": "年間授業料715,000円の半額（357,500円）免除",
+      "timing": "在学中",
+      "cond": "家計基準（父母等の収入合算額）および学業成績（入学後に基準通知）に該当すること"
+     },
+     {
+      "name": "九里育英振興会奨学金",
+      "kind": "貸与",
+      "target": "経済的理由により学資の支弁が困難な学生",
+      "amount": null,
+      "timing": "在学中",
+      "cond": "修学を奨励する貸与制度"
+     }
+    ]
+   },
+   "eng": {
+    "rows": []
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": null
+   },
+   "access": null,
+   "licenses": [],
+   "careers": null
+  },
+  "sources": [
+   "https://www.urawa.ac.jp/",
+   "https://www.urawa.ac.jp/uradai-days/admission/",
+   "https://www.urawa.ac.jp/boshu_yoko/pageindices/index30.html",
+   "https://www.urawa.ac.jp/admission/support.html",
+   "https://passnavi.obunsha.co.jp/univ/1962/difficulty/"
+  ]
+ }
+]

@@ -1,0 +1,963 @@
+[
+ {
+  "name": "相模女子大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "神奈川県相模原市南区",
+  "pref_name": "神奈川県",
+  "city": "相模原市南区",
+  "hp": "https://www.sagami-wu.ac.jp/",
+  "reading": "さがみじょしだいがく",
+  "features": [
+   "学芸・人間社会・栄養科学の3学部を擁する相模原市の女子総合大学。",
+   "2025年卒業生の大学就職決定率は98.7%に達している。",
+   "一般選抜や総合型で年額70万円や30万円の独自給付奨学金がある。"
+  ],
+  "memo": "2回目以降の出願は検定料が17,000円に減免。一般A・B日程に年額70万円の特別奨学生チャレンジがある。",
+  "info": {
+   "faculties": [
+    "学芸学部",
+    "人間社会学部",
+    "栄養科学部"
+   ],
+   "departments": [
+    {
+     "f": "学芸学部",
+     "d": [
+      "日本語日本文学科",
+      "国際コミュニケーション学科",
+      "子ども教育学科",
+      "メディア情報学科",
+      "生活デザイン学科"
+     ]
+    },
+    {
+     "f": "人間社会学部",
+     "d": [
+      "社会マネジメント学科",
+      "地域クリエーション学科"
+     ]
+    },
+    {
+     "f": "栄養科学部",
+     "d": [
+      "健康栄養学科",
+      "管理栄養学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜40.0",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A日程・B日程・C日程）",
+      "kyotsu": "課さない",
+      "niji": "A日程は選択2科目（最大120分）、B・C日程は1科目入試",
+      "content": null,
+      "req": null,
+      "url": "https://www.sagami-wu.ac.jp/exam/exam-info/admission-list/general/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募制）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "遠方居住者（神奈川・東京島嶼部除く）はオンライン面接実施",
+      "req": "出身学校長の推薦を受けた2026年3月卒または2027年3月卒見込で学科所定評定平均値を満たす女子（専願制）。栄養科学部は所定の理科基礎科目履修が必要",
+      "url": "https://www.sagami-wu.ac.jp/exam/exam-info/admission-list/recommendation2/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（アピールシート／部活動等シート／調査書／基礎学力／探究シート方式）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "調査書方式は作文等を課す（方式により異なる）",
+      "req": "高校・中等教育学校卒業または2027年3月卒見込、高卒認定合格者等の女子（調査書・基礎学力方式は調査書提出可能者、探究シート方式は2024年度以降卒業者等）",
+      "url": "https://www.sagami-wu.ac.jp/exam/exam-info/admission-list/ao/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程（特別奨学生チャレンジ）",
+      "apply": "1/8〜1/18",
+      "exam": "1/23",
+      "result": "1/30",
+      "proc": "2/5",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程 1科目入試（特別奨学生チャレンジ）",
+      "apply": "1/15〜2/1",
+      "exam": "2/5",
+      "result": "2/13",
+      "proc": "2/19",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 C日程 1科目入試",
+      "apply": "2/3〜2/10",
+      "exam": "2/17",
+      "result": "2/20",
+      "proc": "2/26",
+      "fee": 35000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 11月（アピールシート／部活動等シート／調査書方式）",
+      "apply": "10/23〜10/30",
+      "exam": "11/7",
+      "result": null,
+      "proc": null,
+      "fee": 35000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 12月（アピールシート／部活動等シート／調査書／基礎学力方式）",
+      "apply": "11/30〜12/7",
+      "exam": "12/12",
+      "result": null,
+      "proc": null,
+      "fee": 35000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 3月（管理栄養学科除く：アピールシート／部活動等シート／調査書方式）",
+      "apply": "2/15〜2/25",
+      "exam": "3/2",
+      "result": null,
+      "proc": null,
+      "fee": 35000
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "特別奨学生チャレンジ",
+      "kind": "給付",
+      "target": "全学部学科（一般選抜A・B日程合わせて最大30名）",
+      "amount": "年額700,000円（4年間継続で最大280万円）",
+      "timing": "入試時",
+      "cond": "一般選抜A・B日程の成績優秀者（申込不要、2年次以降は成績基準あり）"
+     },
+     {
+      "name": "地方学生支援特別奨学金制度",
+      "kind": "給付",
+      "target": "神奈川・東京（島嶼部除く）以外の出身で自宅外通学者（上限30名）",
+      "amount": "年額300,000円（入学年度のみ）",
+      "timing": "入試時",
+      "cond": "推薦（公募・指定校）・同窓生推薦A・一般Aで希望した成績優秀者"
+     },
+     {
+      "name": "総合型選抜（基礎学力方式）給付奨学金制度",
+      "kind": "給付",
+      "target": "全学部学科（若干名）",
+      "amount": "年額300,000円（入学年度のみ）",
+      "timing": "入試時",
+      "cond": "10月の総合型選抜（基礎学力方式）の成績優秀者（申込不要）"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-04-25",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-05-31",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-06-21",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-08-01",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-08-22",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-09-27",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     }
+    ],
+    "url": "https://www.sagami-wu.ac.jp/news/2026oc_news1/"
+   },
+   "access": "相模原市南区文京キャンパス（小田急線 相模大野駅から徒歩10分）",
+   "licenses": [
+    "栄養士（栄養科学部 健康栄養学科）",
+    "管理栄養士国家試験受験資格※実務経験1年以上（栄養科学部 健康栄養学科）",
+    "中学校・高等学校教諭一種免許状（家庭・保健体育）（栄養科学部 健康栄養学科）",
+    "フードスペシャリスト・専門フードスペシャリスト受験資格（栄養科学部 健康栄養学科）",
+    "食品衛生監視員・食品衛生管理者・社会福祉主事 任用資格（栄養科学部 健康栄養学科）",
+    "情報処理士（栄養科学部 健康栄養学科）"
+   ],
+   "careers": "2025年卒業生の大学全体の就職決定率は98.7%（2026年5月1日現在）である。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.sagami-wu.ac.jp/",
+    "https://www.sagami-wu.ac.jp/exam/exam-info/youkou/",
+    "https://www.sagami-wu.ac.jp/exam/exam-info/admission-list/general/",
+    "https://www.sagami-wu.ac.jp/exam/exam-info/admission-list/ao/",
+    "https://www.sagami-wu.ac.jp/exam/exam-info/admission-list/recommendation2/",
+    "https://www.sagami-wu.ac.jp/exam/exam-info/admission-list/society/",
+    "https://www.sagami-wu.ac.jp/exam/exam-info/admission-list/scholarship/",
+    "https://www.sagami-wu.ac.jp/exam/exam-info/fee/",
+    "https://www.sagami-wu.ac.jp/media/2027_so_suisen_etc_saisin2.pdf",
+    "https://www.sagami-wu.ac.jp/media/chousasyohousiki2027.pdf",
+    "https://www.sagami-wu.ac.jp/news/2027_onlinetest/",
+    "https://www.sagami-wu.ac.jp/news/2026oc_news1/",
+    "https://www.sagami-wu.ac.jp/news/20260927ocnews2/",
+    "https://www.sagami-wu.ac.jp/university/access/",
+    "https://www.sagami-wu.ac.jp/nutritional-sciences/health/",
+    "https://www.sagami-wu.ac.jp/work/numerical-value/",
+    "https://search.keinet.ne.jp/2311/general/border_rate",
+    "https://telemail.jp/shingaku/university/10000004/examination/general",
+    "https://www.best-shingaku.net/smt/news404p83.html"
+   ]
+  },
+  "sources": [
+   "https://www.sagami-wu.ac.jp/",
+   "https://www.sagami-wu.ac.jp/exam/exam-info/youkou/",
+   "https://www.sagami-wu.ac.jp/exam/exam-info/admission-list/general/",
+   "https://www.sagami-wu.ac.jp/exam/exam-info/admission-list/ao/",
+   "https://www.sagami-wu.ac.jp/exam/exam-info/admission-list/recommendation2/",
+   "https://www.sagami-wu.ac.jp/exam/exam-info/admission-list/society/",
+   "https://www.sagami-wu.ac.jp/exam/exam-info/admission-list/scholarship/",
+   "https://www.sagami-wu.ac.jp/exam/exam-info/fee/",
+   "https://www.sagami-wu.ac.jp/media/2027_so_suisen_etc_saisin2.pdf",
+   "https://www.sagami-wu.ac.jp/media/chousasyohousiki2027.pdf",
+   "https://www.sagami-wu.ac.jp/news/2027_onlinetest/",
+   "https://www.sagami-wu.ac.jp/news/2026oc_news1/",
+   "https://www.sagami-wu.ac.jp/news/20260927ocnews2/",
+   "https://www.sagami-wu.ac.jp/university/access/",
+   "https://www.sagami-wu.ac.jp/nutritional-sciences/health/",
+   "https://www.sagami-wu.ac.jp/work/numerical-value/",
+   "https://search.keinet.ne.jp/2311/general/border_rate",
+   "https://telemail.jp/shingaku/university/10000004/examination/general",
+   "https://www.best-shingaku.net/smt/news404p83.html"
+  ]
+ },
+ {
+  "name": "目白大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都新宿区",
+  "pref_name": "東京都",
+  "city": "新宿区",
+  "hp": "https://www.mejiro.ac.jp/",
+  "reading": "めじろだいがく",
+  "features": [
+   "東京都新宿区に本部を置き、多様な文系・専門分野を学べる私立大学。",
+   "一般Bや共テ利用で外部英語検定試験併用方式と検定料割引がある。",
+   "総合型選抜はS・A・B・C日程など早期合格の機会が充実している。"
+  ],
+  "memo": "公募推薦は専願で入学辞退不可。一般B日程は外部英語検定試験併用方式との同時出願で検定料の優遇割引がある。",
+  "info": {
+   "faculties": [
+    "心理学部",
+    "外国語学部",
+    "社会学部"
+   ],
+   "departments": [
+    {
+     "f": "心理学部",
+     "d": [
+      "心理カウンセリング学科"
+     ]
+    },
+    {
+     "f": "外国語学部",
+     "d": [
+      "英米語学科"
+     ]
+    },
+    {
+     "f": "社会学部",
+     "d": [
+      "社会情報学科",
+      "地域社会学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜47.5",
+    "kyotei": "49%〜68%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": [],
+    "note": "国語は近代以降の文章のみ（110点を100点換算）。英語はR:L=4:1（英米語学科は1:1）、外部英語検定試験スコアのみなし換算あり。地歴公民と理科基礎は2科目合計を1科目とみなす"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "全学部統一選抜",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.mejiro.ac.jp/univ/jyukensei/admission/exam/all_unified/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A日程・B日程・3月日程／B日程は外部英語検定試験併用方式含む）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.mejiro.ac.jp/univ/jyukensei/admission/exam/general/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（外部英語検定試験併用方式含む）",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.mejiro.ac.jp/univ/jyukensei/admission/exam/center/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募推薦）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "学校長の推薦が得られ、合格した場合に入学を確約できる者（入学辞退不可）。2027年3月卒業見込み等",
+      "url": "https://www.mejiro.ac.jp/univ/jyukensei/admission/exam/recommendation/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（S・A・B・C日程ほか）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "小論文、個別面接など学科により異なる（S・A・C日程は対面選考実施）",
+      "req": null,
+      "url": "https://www.mejiro.ac.jp/univ/jyukensei/admission/exam/comprehensive/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "全学部統一選抜",
+      "apply": "1/5〜1/14",
+      "exam": "1/31",
+      "result": "2/12",
+      "proc": "1次 2/19／2次 3/5",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "apply": "1/5〜1/20",
+      "exam": "2/4",
+      "result": "2/12",
+      "proc": "1次 2/19／2次 3/5",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程（外部英語検定試験併用方式含む）",
+      "apply": "2/5〜2/13",
+      "exam": "2/19",
+      "result": "2/26",
+      "proc": "3/5",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（3月日程）",
+      "apply": "2/24〜2/27",
+      "exam": "3/5",
+      "result": "3/12",
+      "proc": "3/17",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（1月出願・外部英語検定試験併用方式含む）",
+      "apply": "1/5〜1/20",
+      "exam": "1/16〜1/17",
+      "result": "2/12",
+      "proc": "1次 2/19／2次 3/5",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（2月出願）",
+      "apply": "2/5〜2/18",
+      "exam": "1/16〜1/17",
+      "result": "2/26",
+      "proc": "3/5",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（2〜3月出願）",
+      "apply": "2/24〜3/6",
+      "exam": "1/16〜1/17",
+      "result": "3/12",
+      "proc": "3/17",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（11月試験）",
+      "apply": "11/2〜11/6",
+      "exam": "11/15",
+      "result": "12/1",
+      "proc": "1次 12/8／2次 2/25",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（12月試験）",
+      "apply": "12/1〜12/8",
+      "exam": "12/12",
+      "result": "12/18",
+      "proc": "1次 1/5／2次 2/25",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（9月選考日程）",
+      "apply": "エントリー 9/3〜9/10（出願 10/2〜10/8）",
+      "exam": "9/20",
+      "result": "10/2",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（10月2次選考日程）",
+      "apply": "エントリー 9/10〜9/17（出願 10/2〜10/5）",
+      "exam": "10/11",
+      "result": "1次 10/2",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（12月選考・C日程等）",
+      "apply": "12/1〜12/8",
+      "exam": "12/13",
+      "result": "12/18",
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "eng": {
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜B日程 外部英語検定試験併用方式",
+      "use": "判定に利用",
+      "level": null,
+      "tests": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 外部英語検定試験併用方式",
+      "use": "得点換算",
+      "level": null,
+      "tests": null
+     }
+    ]
+   },
+   "access": "新宿キャンパス（東京都新宿区中落合4-31-1）",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.mejiro.ac.jp/",
+    "https://www.mejiro.ac.jp/univ/jyukensei/admission/admission_schedule/",
+    "https://www.mejiro.ac.jp/univ/jyukensei/admission/exam/general/",
+    "https://www.mejiro.ac.jp/univ/jyukensei/admission/exam/all_unified/",
+    "https://www.mejiro.ac.jp/univ/jyukensei/admission/exam/center/",
+    "https://www.mejiro.ac.jp/univ/jyukensei/admission/exam/recommendation/",
+    "https://www.mejiro.ac.jp/univ/jyukensei/admission/exam/comprehensive/",
+    "https://www.mejiro.ac.jp/univ/jyukensei/admission/comprehensive_guide/",
+    "https://www.mejiro.ac.jp/univ/jyukensei/admission/admission_fee/",
+    "https://www.mejiro.ac.jp/univ/jyukensei/pdf/univ_sogo_yokou_2027.pdf",
+    "https://www.mejiro.ac.jp/univ/jyukensei/pdf/exam2027_recommend_special_admissions.pdf",
+    "https://www.mejiro.ac.jp/univ/campuslife/tuition/",
+    "https://search.keinet.ne.jp/2160/general/border_rate",
+    "https://search.keinet.ne.jp/2160/outline/expense",
+    "https://passnavi.obunsha.co.jp/univ/2085/department/?facultyID=010"
+   ]
+  },
+  "sources": [
+   "https://www.mejiro.ac.jp/",
+   "https://www.mejiro.ac.jp/univ/jyukensei/admission/admission_schedule/",
+   "https://www.mejiro.ac.jp/univ/jyukensei/admission/exam/general/",
+   "https://www.mejiro.ac.jp/univ/jyukensei/admission/exam/all_unified/",
+   "https://www.mejiro.ac.jp/univ/jyukensei/admission/exam/center/",
+   "https://www.mejiro.ac.jp/univ/jyukensei/admission/exam/recommendation/",
+   "https://www.mejiro.ac.jp/univ/jyukensei/admission/exam/comprehensive/",
+   "https://www.mejiro.ac.jp/univ/jyukensei/admission/comprehensive_guide/",
+   "https://www.mejiro.ac.jp/univ/jyukensei/admission/admission_fee/",
+   "https://www.mejiro.ac.jp/univ/jyukensei/pdf/univ_sogo_yokou_2027.pdf",
+   "https://www.mejiro.ac.jp/univ/jyukensei/pdf/exam2027_recommend_special_admissions.pdf",
+   "https://www.mejiro.ac.jp/univ/campuslife/tuition/",
+   "https://search.keinet.ne.jp/2160/general/border_rate",
+   "https://search.keinet.ne.jp/2160/outline/expense",
+   "https://passnavi.obunsha.co.jp/univ/2085/department/?facultyID=010"
+  ]
+ },
+ {
+  "name": "白鴎大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "栃木県小山市",
+  "pref_name": "栃木県",
+  "city": "小山市",
+  "hp": "https://hakuoh.jp/",
+  "reading": "はくおうだいがく",
+  "features": [
+   "栃木県小山市に2キャンパスを置き、教育・法・経営の3学部を擁する。",
+   "2027年度総合型選抜では出願資格から欠席日数の条件を撤廃した。",
+   "公募推薦は他大学との併願ができ、手続締切も1月20日と遅め。"
+  ],
+  "memo": "2027年度より総合型・学校推薦型で配点変更と資格・活動歴加点を導入。公募推薦は併願可で手続締切は1/20。",
+  "info": {
+   "faculties": [
+    "教育学部",
+    "法学部",
+    "経営学部"
+   ],
+   "departments": [
+    {
+     "f": "教育学部",
+     "d": [
+      "児童教育専攻",
+      "スポーツ健康専攻",
+      "英語教育専攻",
+      "心理学専攻"
+     ]
+    },
+    {
+     "f": "法学部",
+     "d": [
+      "法律学科"
+     ]
+    },
+    {
+     "f": "経営学部",
+     "d": [
+      "経営学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "37.5〜40.0",
+    "kyotei": "49%〜64%",
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://hakuoh.jp/admission/admission_02_09.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://search.keinet.ne.jp/2124/general/border_rate"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（一般公募推薦（併願）・指定校等）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "配点は調査書30点、英語40点、面接30点（指定校は40点）、資格・活動歴加点。一般公募推薦は他大学併願可",
+      "req": null,
+      "url": "https://hakuoh.jp/admission/admission_02_03.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "書類審査20点、英語40点、面接40点、資格・活動歴加点",
+      "req": "2027年度より欠席日数の出願条件を撤廃",
+      "url": "https://jukensei.hakuoh.jp/news/sougou2027/"
+     },
+     {
+      "kubun": "一般",
+      "name": "学業特待12月選抜",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "試験科目にエントリーシート含む出願書類審査（配点20点）を追加",
+      "req": null,
+      "url": "https://jukensei.hakuoh.jp/media/2027_shinkamoku.pdf"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "apply": "1/15〜1/28",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（一般公募推薦 併願ほか）",
+      "apply": "10/19〜11/4",
+      "exam": null,
+      "result": null,
+      "proc": "1/20（一般公募推薦 併願）",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "apply": "9/24〜10/5",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "access": "本キャンパス（法・経営：栃木県小山市駅東通り2-2-2）、大行寺キャンパス（教育：栃木県小山市大行寺1117）",
+   "_via": "external-ai",
+   "sources": [
+    "https://hakuoh.jp/",
+    "https://jukensei.hakuoh.jp/news/sougou2027/",
+    "https://jukensei.hakuoh.jp/news/gakkosuisen2026-11-50597/",
+    "https://jukensei.hakuoh.jp/media/2027_shinkamoku.pdf",
+    "https://hakuoh.jp/admission/admission_02_03.html",
+    "https://hakuoh.jp/admission/admission_02_09.html",
+    "https://hakuoh.jp/admission/pdf/tokubetu_youkou_2027.pdf",
+    "https://search.keinet.ne.jp/2124",
+    "https://search.keinet.ne.jp/2124/general/border_rate"
+   ]
+  },
+  "sources": [
+   "https://hakuoh.jp/",
+   "https://jukensei.hakuoh.jp/news/sougou2027/",
+   "https://jukensei.hakuoh.jp/news/gakkosuisen2026-11-50597/",
+   "https://jukensei.hakuoh.jp/media/2027_shinkamoku.pdf",
+   "https://hakuoh.jp/admission/admission_02_03.html",
+   "https://hakuoh.jp/admission/admission_02_09.html",
+   "https://hakuoh.jp/admission/pdf/tokubetu_youkou_2027.pdf",
+   "https://search.keinet.ne.jp/2124",
+   "https://search.keinet.ne.jp/2124/general/border_rate"
+  ]
+ },
+ {
+  "name": "白百合女子大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都調布市",
+  "pref_name": "東京都",
+  "city": "調布市",
+  "hp": "https://www.shirayuri.ac.jp/",
+  "reading": "しらゆりじょしだいがく",
+  "features": [
+   "東京都調布市にキャンパスを置く、文学部と人間総合学部の女子大学。",
+   "総合型選抜では事前課題方式と基礎学力方式の同時出願が可能である。",
+   "総合型選抜の二次入学手続締切はすべて2月5日に設定されている。"
+  ],
+  "memo": "総合型選抜は複数出願や事前課題・基礎学力方式の同時出願が可能。二次手続締切が2/5で一般入試と併用しやすい。",
+  "info": {
+   "faculties": [
+    "文学部",
+    "人間総合学部"
+   ],
+   "departments": [
+    {
+     "f": "文学部",
+     "d": [
+      "国語国文学科",
+      "フランス語フランス文学科",
+      "英語英文学科"
+     ]
+    },
+    {
+     "f": "人間総合学部",
+     "d": [
+      "児童文化学科",
+      "発達心理学科",
+      "初等教育学科"
+     ]
+    }
+   ],
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.shirayuri.ac.jp/admission/exam/general/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（事前課題方式・基礎学力方式・講義受講方式ほか）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "複数の入試を出願可能。事前課題方式と基礎学力方式は同時出願可能",
+      "req": null,
+      "url": "https://www.shirayuri.ac.jp/admission/uploads/yoko_sougougata2027.pdf"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（11月上旬発表日程）",
+      "apply": null,
+      "exam": null,
+      "result": "11/2",
+      "proc": "一次 11/11／二次 2/5",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（11月下旬発表日程）",
+      "apply": null,
+      "exam": null,
+      "result": "11/26",
+      "proc": "一次 12/4／二次 2/5",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（12月発表日程・講義受講方式ほか）",
+      "apply": null,
+      "exam": null,
+      "result": "12/16",
+      "proc": "一次 12/23／二次 2/5",
+      "fee": null
+     }
+    ]
+   },
+   "access": "調布キャンパス（東京都調布市緑ヶ丘1-25）",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.shirayuri.ac.jp/",
+    "https://www.shirayuri.ac.jp/admission/exam/general/",
+    "https://www.shirayuri.ac.jp/admission/uploads/yoko_sougougata2027.pdf",
+    "https://www.shirayuri.ac.jp/campus/support_highschool/",
+    "https://www.shirayuri.ac.jp/campus/loan/",
+    "https://search.keinet.ne.jp/2217",
+    "https://search.keinet.ne.jp/2217/general/border_rate"
+   ]
+  },
+  "sources": [
+   "https://www.shirayuri.ac.jp/",
+   "https://www.shirayuri.ac.jp/admission/exam/general/",
+   "https://www.shirayuri.ac.jp/admission/uploads/yoko_sougougata2027.pdf",
+   "https://www.shirayuri.ac.jp/campus/support_highschool/",
+   "https://www.shirayuri.ac.jp/campus/loan/",
+   "https://search.keinet.ne.jp/2217",
+   "https://search.keinet.ne.jp/2217/general/border_rate"
+  ]
+ },
+ {
+  "name": "白梅学園大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都小平市",
+  "pref_name": "東京都",
+  "city": "小平市",
+  "hp": "https://daigaku.shiraume.ac.jp/",
+  "reading": "しらうめがくえんだいがく",
+  "features": [
+   "東京都小平市にキャンパスを置き、子ども学科などを擁する私立大学。",
+   "2027年度より子ども学科の入学定員を140名予定へ増員申請中。",
+   "一般選抜や3日程の共通テスト利用、特待生チャレンジ入試を実施する。"
+  ],
+  "memo": "2027年度一般選抜Ⅰ期は試験日が1/26から2/1に変更されたため注意。子ども学科は一般・共テで増員予定。",
+  "info": {
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": [
+     2,
+     3
+    ],
+    "note": "A日程は3教科型、B・C日程は2教科型"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（Ⅰ期・Ⅱ期・Ⅲ期）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://daigaku.shiraume.ac.jp/admissions/n-guidance/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（A日程：3教科型／B・C日程：2教科型）",
+      "kyotsu": "A日程は3教科、B・C日程は2教科",
+      "niji": "本学独自の教科・科目テストは実施しない",
+      "content": null,
+      "req": null,
+      "url": "https://daigaku.shiraume.ac.jp/cms_source/media/2026/07/01yoko2027.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "自己推薦方式",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://daigaku.shiraume.ac.jp/cms_source/media/2026/07/01yoko2027.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "白梅特待生チャレンジ入試",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://daigaku.shiraume.ac.jp/cms_source/media/2026/07/01yoko2027.pdf"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅰ期（変更後日程）",
+      "apply": "1/5〜1/15",
+      "exam": "2/1",
+      "result": "2/6",
+      "proc": "2/6〜2/16",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅱ期",
+      "apply": "1/5〜2/9",
+      "exam": "2/18",
+      "result": "2/25",
+      "proc": "3/5",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 A日程（3教科型）",
+      "apply": "1/5〜1/15",
+      "exam": "共通テスト利用（個別試験なし）",
+      "result": "2/6",
+      "proc": "2/16",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 B日程（2教科型）",
+      "apply": "1/5〜2/13",
+      "exam": "共通テスト利用（個別試験なし）",
+      "result": "2/26",
+      "proc": "3/8",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 C日程（2教科型）",
+      "apply": "1/5〜2/24",
+      "exam": "共通テスト利用（個別試験なし）",
+      "result": "3/8",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "自己推薦方式",
+      "apply": "9/1〜10/14",
+      "exam": "10/24",
+      "result": "11/4",
+      "proc": "11/4〜11/18",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "白梅特待生チャレンジ入試",
+      "apply": null,
+      "exam": "12/13・12/19・3/8",
+      "result": null,
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "access": "東京都小平市小川町1-830",
+   "_via": "external-ai",
+   "sources": [
+    "https://daigaku.shiraume.ac.jp/",
+    "https://daigaku.shiraume.ac.jp/admissions/n-guidance/",
+    "https://daigaku.shiraume.ac.jp/cms_source/media/2026/07/01yoko2027.pdf",
+    "https://juken.shiraume.ac.jp/wp-content/themes/shiraume/img/examination/2027%E5%85%A5%E8%A9%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+    "https://daigaku.shiraume.ac.jp/guarantor/welfare/",
+    "https://search.keinet.ne.jp/2301/outline/opencampus",
+    "https://manabi.benesse.ne.jp/daigaku/school/3335/nyushi/"
+   ]
+  },
+  "sources": [
+   "https://daigaku.shiraume.ac.jp/",
+   "https://daigaku.shiraume.ac.jp/admissions/n-guidance/",
+   "https://daigaku.shiraume.ac.jp/cms_source/media/2026/07/01yoko2027.pdf",
+   "https://juken.shiraume.ac.jp/wp-content/themes/shiraume/img/examination/2027%E5%85%A5%E8%A9%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+   "https://daigaku.shiraume.ac.jp/guarantor/welfare/",
+   "https://search.keinet.ne.jp/2301/outline/opencampus",
+   "https://manabi.benesse.ne.jp/daigaku/school/3335/nyushi/"
+  ]
+ }
+]

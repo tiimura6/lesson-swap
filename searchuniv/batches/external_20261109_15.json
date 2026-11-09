@@ -1,0 +1,1165 @@
+[
+ {
+  "name": "武蔵野大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都江東区・西東京市",
+  "pref_name": "東京都",
+  "city": "江東区・西東京市",
+  "hp": "https://www.musashino-u.ac.jp/",
+  "reading": "むさしのだいがく",
+  "features": [
+   "有明と武蔵野の2キャンパスに多様な学部を設置",
+   "全学部統一や一般Aで得点偏差値換算や共テ併用が可能",
+   "英語外部検定みなし得点や2段階学費手続に対応"
+  ],
+  "memo": "首都圏外向けの予約型奨学金や、英語外部検定（基準以上でみなし得点換算・当日受験との高得点採用）の活用が有効。",
+  "info": {
+   "faculties": [
+    "文学部",
+    "グローバル学部",
+    "法学部",
+    "経済学部",
+    "経営学部",
+    "アントレプレナーシップ学部",
+    "データサイエンス学部",
+    "国際データサイエンス学部",
+    "人間科学部",
+    "ウェルビーイング学部",
+    "工学部",
+    "教育学部",
+    "薬学部",
+    "看護学部"
+   ],
+   "departments": [
+    {
+     "f": "文学部",
+     "d": [
+      "日本文学文化学科"
+     ]
+    },
+    {
+     "f": "グローバル学部",
+     "d": [
+      "グローバルコミュニケーション学科",
+      "日本語コミュニケーション学科",
+      "グローバルビジネス学科"
+     ]
+    },
+    {
+     "f": "法学部",
+     "d": []
+    },
+    {
+     "f": "経済学部",
+     "d": []
+    },
+    {
+     "f": "経営学部",
+     "d": []
+    },
+    {
+     "f": "アントレプレナーシップ学部",
+     "d": []
+    },
+    {
+     "f": "データサイエンス学部",
+     "d": [
+      "データサイエンス学科"
+     ]
+    },
+    {
+     "f": "国際データサイエンス学部",
+     "d": [
+      "データサイエンス学科（通信制）"
+     ]
+    },
+    {
+     "f": "人間科学部",
+     "d": [
+      "人間科学科",
+      "社会福祉学科"
+     ]
+    },
+    {
+     "f": "ウェルビーイング学部",
+     "d": [
+      "ウェルビーイング学科"
+     ]
+    },
+    {
+     "f": "工学部",
+     "d": [
+      "サステナビリティ学科",
+      "数理工学科",
+      "建築デザイン学科"
+     ]
+    },
+    {
+     "f": "教育学部",
+     "d": [
+      "教育学科",
+      "幼児教育学科"
+     ]
+    },
+    {
+     "f": "薬学部",
+     "d": [
+      "薬学科"
+     ]
+    },
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "40.0〜52.5",
+    "kyotei": "48%〜74%",
+    "year": null
+   },
+   "kyotsu": {
+    "kamoku": "英語はリーディング100点・リスニング100点（免除時はリーディングを200点換算）。データサイエンス・数理工学・薬学の数学は数ⅠAと数ⅡBCをあわせて1科目。日本文学文化学科の国語は古典必須。",
+    "kyoka": null,
+    "note": "英語外部検定活用方式は基準スコア以上で190点（配点400点時は380点）に換算（グローバルビジネス学科を除く）"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜Ⅰ期（面接型）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "1次書類選考、2次面接・口頭試問等（他大学との併願可）",
+      "req": null,
+      "url": "https://www.musashino-u.ac.jp/admission/faculty/detail/ao.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜II期（基礎学力型・奨学金対象）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "1次・2次選考（申請型奨学金対象入試、第2志望制あり）",
+      "req": null,
+      "url": "https://www.musashino-u.ac.jp/admission/faculty/detail/musashino_scholarship.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜Ⅲ期（オンライン面接型）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "オンライン面接（通信教育部国際データサイエンス学部対象、併願可）",
+      "req": null,
+      "url": "https://www.musashino-u.ac.jp/admission/faculty/detail/so12.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "全学部統一選抜",
+      "kyotsu": "課さない（共通テスト併用型オプションあり）",
+      "niji": "マークシート方式（各60分、科目得点を偏差値換算）",
+      "content": null,
+      "req": null,
+      "url": "https://www.musashino-u.ac.jp/admission/faculty/detail/general_s.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜A日程",
+      "kyotsu": "課さない（共通テスト併用型オプションあり）",
+      "niji": "大学独自試験（科目得点を偏差値換算）",
+      "content": null,
+      "req": null,
+      "url": "https://www.musashino-u.ac.jp/admission/faculty/detail/general_a.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜C日程",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.musashino-u.ac.jp/admission/faculty/schedule.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（前期・中期・後期）",
+      "kyotsu": "令和9年度大学入学共通テスト利用",
+      "niji": "課さない",
+      "content": null,
+      "req": null,
+      "url": "https://www.musashino-u.ac.jp/admission/faculty/detail/center_a.html"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜Ⅰ期（面接型）",
+      "apply": "9/1〜9/10",
+      "exam": "1次：書類選考、2次：10/18",
+      "result": "1次：10/9、2次：11/2",
+      "proc": "11/2〜11/12（一括）",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜II期（基礎学力型・奨学金対象）",
+      "apply": "10/28〜11/10",
+      "exam": "1次：11/29、2次：12/13",
+      "result": "1次：12/4（2次：未確認）",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜Ⅲ期（オンライン面接型）",
+      "apply": null,
+      "exam": "2/21",
+      "result": "3/3",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "全学部統一選抜",
+      "apply": "12/14〜1/8",
+      "exam": "1/24",
+      "result": "1/30",
+      "proc": "一括：1/30〜2/8、2段階：1次1/30〜2/8・2次2/9〜2/24",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜A日程",
+      "apply": "12/14〜1/15",
+      "exam": "2/4・2/5・2/6（学部により異なる）",
+      "result": "2/16",
+      "proc": "2/16〜2/24（一括）",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜C日程",
+      "apply": "12/14〜2/17",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用前期選抜",
+      "apply": "12/14〜1/15",
+      "exam": "独自試験なし（共テ：1/16・1/17）",
+      "result": "2/16",
+      "proc": "一括：2/16〜2/24、2段階：1次2/16〜2/24・2次2/25〜3/9",
+      "fee": 15000
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "文学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1222600,
+      "four_year": null
+     },
+     {
+      "f": "グローバル学部（グローバルコミュニケーション学科）",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1423600,
+      "four_year": null
+     },
+     {
+      "f": "グローバル学部（日本語コミュニケーション学科）",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1347600,
+      "four_year": null
+     },
+     {
+      "f": "グローバル学部（グローバルビジネス学科）",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1400600,
+      "four_year": null
+     },
+     {
+      "f": "法学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1274600,
+      "four_year": null
+     },
+     {
+      "f": "経済学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1222600,
+      "four_year": null
+     },
+     {
+      "f": "経営学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1222600,
+      "four_year": null
+     },
+     {
+      "f": "アントレプレナーシップ学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1389600,
+      "four_year": null
+     },
+     {
+      "f": "データサイエンス学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1583600,
+      "four_year": null
+     },
+     {
+      "f": "人間科学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1274600,
+      "four_year": null
+     },
+     {
+      "f": "ウェルビーイング学部（ウェルビーイング学科）",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1541600,
+      "four_year": null
+     },
+     {
+      "f": "工学部（サステナビリティ学科）",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1580000,
+      "four_year": null
+     },
+     {
+      "f": "工学部（数理工学科）",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1714600,
+      "four_year": null
+     },
+     {
+      "f": "工学部（建築デザイン学科）",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1606600,
+      "four_year": null
+     },
+     {
+      "f": "教育学部（教育学科）",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1371600,
+      "four_year": null
+     },
+     {
+      "f": "教育学部（幼児教育学科）",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1320600,
+      "four_year": null
+     },
+     {
+      "f": "薬学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 2172600,
+      "four_year": null
+     },
+     {
+      "f": "看護学部",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1922600,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "武蔵野大学予約型奨学金制度「2050年のあなたへ。奨学金」",
+      "kind": "給付",
+      "target": "埼玉県・千葉県・東京都・神奈川県以外の高校等に在籍し、全学部統一・一般A・共テ利用前期を受験・合格・入学する者",
+      "amount": null,
+      "timing": "入学前予約",
+      "cond": "経済的理由により入学が困難で、所定書類提出のうえ選考採用され入学すること"
+     },
+     {
+      "name": "申請型奨学金（総合型選抜II期）",
+      "kind": null,
+      "target": "総合型選抜II期（基礎学力型・奨学金対象）出願・採用者",
+      "amount": null,
+      "timing": "入試時",
+      "cond": "採用時は入学手続時に奨学金を反映した納入金で手続可能"
+     }
+    ]
+   },
+   "eng": {
+    "rows": [
+     {
+      "kubun": "総合型・一般・共テ利用",
+      "name": "英語外部検定活用方式",
+      "use": "得点換算",
+      "level": null,
+      "tests": "実用英語技能検定（準2級〜1級、S-CBT・S-Interview可）、GTEC（Advanced・CBT）、TEAP等（2024年8月1日以降取得分、グローバルビジネス学科は上限あり・共テ利用不可）"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-06-14",
+      "type": "来場",
+      "title": "オープンキャンパス（武蔵野キャンパス）"
+     },
+     {
+      "date": "2026-08-08",
+      "type": "来場",
+      "title": "オープンキャンパス（武蔵野キャンパス）"
+     },
+     {
+      "date": "2026-08-22",
+      "type": "来場",
+      "title": "オープンキャンパス（有明キャンパス）"
+     }
+    ],
+    "url": "https://www.musashino-u.ac.jp/admission/faculty/event/weboc/dijesto.html"
+   },
+   "access": "有明キャンパス（東京都江東区有明3-3-3）：りんかい線国際展示場駅徒歩7分、ゆりかもめ東京ビッグサイト駅徒歩6分、東京駅より都営バス約30分。武蔵野キャンパス（東京都西東京市新町1-1-20）：JR吉祥寺駅・三鷹駅・武蔵境駅よりバス約7〜15分、西武新宿線田無駅徒歩15分。",
+   "licenses": [
+    "認定心理士（人間科学科）",
+    "社会福祉主事任用資格（人間科学科・社会福祉学科）",
+    "児童指導員任用資格（人間科学科・社会福祉学科）",
+    "司書（人間科学科・社会福祉学科）",
+    "スクールソーシャルワーク教育課程（社会福祉学科）",
+    "公認心理師受験資格（人間科学科）",
+    "精神保健福祉士受験資格（人間科学科）",
+    "社会福祉士受験資格（社会福祉学科）"
+   ],
+   "careers": "確認できた人間科学部（2025年度）では情報通信、小売、サービス、福祉施設、公務員等へ就職し、就職率は人間科学科93.5%（進学率9.2%）、社会福祉学科99.1%。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.musashino-u.ac.jp/",
+    "https://www.musashino-u.ac.jp/admission/faculty/schedule.html",
+    "https://www.musashino-u.ac.jp/admission/pdf/2027admission.pdf",
+    "https://www.musashino-u.ac.jp/news/pdf/2027%E5%B9%B4%E5%BA%A6%E5%85%A5%E5%AD%A6%E8%A9%A6%E9%A8%93%E8%A6%81%E9%A0%85.pdf",
+    "https://www.musashino-u.ac.jp/admission/faculty/detail/ao.html",
+    "https://www.musashino-u.ac.jp/admission/faculty/detail/musashino_scholarship.html",
+    "https://www.musashino-u.ac.jp/admission/faculty/detail/so12.html",
+    "https://www.musashino-u.ac.jp/admission/faculty/detail/general_s.html",
+    "https://www.musashino-u.ac.jp/admission/faculty/detail/general_a.html",
+    "https://www.musashino-u.ac.jp/admission/faculty/detail/center_a.html",
+    "https://www.musashino-u.ac.jp/admission/faculty/detail/center_b.html",
+    "https://www.musashino-u.ac.jp/admission/faculty/detail/center_c.html",
+    "https://www.musashino-u.ac.jp/admission/faculty/detail/general_center.html",
+    "https://www.musashino-u.ac.jp/admission/faculty/point/utilize_english.html",
+    "https://www.musashino-u.ac.jp/admission/faculty/point/fee_discount.html",
+    "https://www.musashino-u.ac.jp/admission/faculty/point/2050_bursary.html",
+    "https://www.musashino-u.ac.jp/admission/pdf/4794e093a6ed8a75c9b86ce57a6ea4e0.pdf",
+    "https://www.musashino-u.ac.jp/admission/student_support_site/",
+    "https://www.musashino-u.ac.jp/student-life/2026%28%E4%BB%A4%E5%92%8C8%29%E5%B9%B4%E5%BA%A6%E5%AD%A6%E8%B2%BB%E3%81%9D%E3%81%AE%E4%BB%96%E7%B4%8D%E5%85%A5%E9%87%91%28%E5%AD%A6%E9%83%A8%29.pdf",
+    "https://www.musashino-u.ac.jp/student-life/fees/fees/approach_fee.html",
+    "https://www.musashino-u.ac.jp/guide/",
+    "https://www.musashino-u.ac.jp/musashino/",
+    "https://www.musashino-u.ac.jp/ariake/",
+    "https://www.musashino-u.ac.jp/admission/faculty/event/weboc/dijesto.html",
+    "https://emc.musashino-u.ac.jp/news/2026/06/%E3%80%8C%E4%B8%BB%E4%BA%BA%E5%85%AC%E3%81%AB%E3%81%AA%E3%82%8C%E3%82%8B%E7%92%B0%E5%A2%83%E3%81%AB%E9%A3%9B%E3%81%B3%E8%BE%BC%E3%82%82%E3%81%86%EF%BC%81%E3%80%8D%E5%AD%A6%E7%94%9F%E3%81%9F%E3%81%A1/",
+    "https://search.keinet.ne.jp/2285/general/border_rate",
+    "https://search.keinet.ne.jp/2285/outline/expense",
+    "https://manabi.benesse.ne.jp/daigaku/school/3316/gakuhi/",
+    "https://up-j.shigaku.go.jp/department/category04/00000000267601003.html"
+   ]
+  },
+  "sources": [
+   "https://www.musashino-u.ac.jp/",
+   "https://www.musashino-u.ac.jp/admission/faculty/schedule.html",
+   "https://www.musashino-u.ac.jp/admission/pdf/2027admission.pdf",
+   "https://www.musashino-u.ac.jp/news/pdf/2027%E5%B9%B4%E5%BA%A6%E5%85%A5%E5%AD%A6%E8%A9%A6%E9%A8%93%E8%A6%81%E9%A0%85.pdf",
+   "https://www.musashino-u.ac.jp/admission/faculty/detail/ao.html",
+   "https://www.musashino-u.ac.jp/admission/faculty/detail/musashino_scholarship.html",
+   "https://www.musashino-u.ac.jp/admission/faculty/detail/so12.html",
+   "https://www.musashino-u.ac.jp/admission/faculty/detail/general_s.html",
+   "https://www.musashino-u.ac.jp/admission/faculty/detail/general_a.html",
+   "https://www.musashino-u.ac.jp/admission/faculty/detail/center_a.html",
+   "https://www.musashino-u.ac.jp/admission/faculty/detail/center_b.html",
+   "https://www.musashino-u.ac.jp/admission/faculty/detail/center_c.html",
+   "https://www.musashino-u.ac.jp/admission/faculty/detail/general_center.html",
+   "https://www.musashino-u.ac.jp/admission/faculty/point/utilize_english.html",
+   "https://www.musashino-u.ac.jp/admission/faculty/point/fee_discount.html",
+   "https://www.musashino-u.ac.jp/admission/faculty/point/2050_bursary.html",
+   "https://www.musashino-u.ac.jp/admission/pdf/4794e093a6ed8a75c9b86ce57a6ea4e0.pdf",
+   "https://www.musashino-u.ac.jp/admission/student_support_site/",
+   "https://www.musashino-u.ac.jp/student-life/2026%28%E4%BB%A4%E5%92%8C8%29%E5%B9%B4%E5%BA%A6%E5%AD%A6%E8%B2%BB%E3%81%9D%E3%81%AE%E4%BB%96%E7%B4%8D%E5%85%A5%E9%87%91%28%E5%AD%A6%E9%83%A8%29.pdf",
+   "https://www.musashino-u.ac.jp/student-life/fees/fees/approach_fee.html",
+   "https://www.musashino-u.ac.jp/guide/",
+   "https://www.musashino-u.ac.jp/musashino/",
+   "https://www.musashino-u.ac.jp/ariake/",
+   "https://www.musashino-u.ac.jp/admission/faculty/event/weboc/dijesto.html",
+   "https://emc.musashino-u.ac.jp/news/2026/06/%E3%80%8C%E4%B8%BB%E4%BA%BA%E5%85%AC%E3%81%AB%E3%81%AA%E3%82%8C%E3%82%8B%E7%92%B0%E5%A2%83%E3%81%AB%E9%A3%9B%E3%81%B3%E8%BE%BC%E3%82%82%E3%81%86%EF%BC%81%E3%80%8D%E5%AD%A6%E7%94%9F%E3%81%9F%E3%81%A1/",
+   "https://search.keinet.ne.jp/2285/general/border_rate",
+   "https://search.keinet.ne.jp/2285/outline/expense",
+   "https://manabi.benesse.ne.jp/daigaku/school/3316/gakuhi/",
+   "https://up-j.shigaku.go.jp/department/category04/00000000267601003.html"
+  ]
+ },
+ {
+  "name": "横浜薬科大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "神奈川県横浜市",
+  "pref_name": "神奈川県",
+  "city": "横浜市",
+  "hp": "https://www.hamayaku.ac.jp/",
+  "reading": "よこはまやっかだいがく",
+  "features": [
+   "薬学部に6年制3学科と4年制の薬科学科を設置",
+   "一般選抜は1〜3月に複数回あり全国複数会場で実施",
+   "共通テスト利用選抜は前期・後期の日程を実施"
+  ],
+  "memo": "6年制（健康・漢方・臨床）と4年制（薬科学）で修業年限や進路が異なるため志望学科の確認が必須。",
+  "info": {
+   "faculties": [
+    "薬学部"
+   ],
+   "departments": [
+    {
+     "f": "薬学部",
+     "d": [
+      "健康薬学科",
+      "漢方薬学科",
+      "臨床薬学科",
+      "薬科学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0",
+    "kyotei": "42%〜45%",
+    "year": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.hamayaku.ac.jp/news/2026/09/post-623.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（1月・2月・3月試験）",
+      "kyotsu": "課さない",
+      "niji": "数学（数A・数B指定範囲）、理科（化学・生物等）ほか",
+      "content": null,
+      "req": null,
+      "url": "https://www.hamayaku.ac.jp/nyuushi/entrance/assets/pdf/r9/admissions_guide-r9.pdf"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜",
+      "kyotsu": "令和9年度大学入学共通テスト利用",
+      "niji": "課さない",
+      "content": null,
+      "req": null,
+      "url": "https://www.hamayaku.ac.jp/nyuushi/entrance/assets/pdf/r9/admissions_guide-r9.pdf"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（1月試験・全4学科）",
+      "apply": "12/18〜1/17",
+      "exam": "1/23〜1/25",
+      "result": "2/5",
+      "proc": "2/15",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（2月試験・全4学科）",
+      "apply": "1/18〜2/5",
+      "exam": "2/14〜2/15",
+      "result": "2/25",
+      "proc": "3/4",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（3月試験・全4学科）",
+      "apply": "2/1〜2/25",
+      "exam": "3/7〜3/8",
+      "result": "3/16",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（前期・全4学科）",
+      "apply": "12/18〜2/1",
+      "exam": "独自試験なし",
+      "result": "2/12",
+      "proc": "2/19",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（後期・全4学科）",
+      "apply": "2/2〜3/5",
+      "exam": "独自試験なし",
+      "result": "3/16",
+      "proc": "3/23",
+      "fee": null
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-04-25",
+      "type": "来場",
+      "title": "オープンキャンパス（コラボ企画開始）"
+     }
+    ],
+    "url": "https://www.hamayaku.ac.jp/news/cat10/"
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.hamayaku.ac.jp/",
+    "https://www.hamayaku.ac.jp/nyuushi/entrance/assets/pdf/r9/admissions_guide-r9.pdf",
+    "https://www.hamayaku.ac.jp/news/2026/09/post-623.html",
+    "https://www.hamayaku.ac.jp/news/cat10/",
+    "https://search.keinet.ne.jp/2323/general/border_rate",
+    "https://search.keinet.ne.jp/2323/outline/expense",
+    "https://manabi.benesse.ne.jp/daigaku/school/3381/nyushi/hoshiki/ippan/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3381/nyushi/hoshiki/kyotsu-test/"
+   ]
+  },
+  "sources": [
+   "https://www.hamayaku.ac.jp/",
+   "https://www.hamayaku.ac.jp/nyuushi/entrance/assets/pdf/r9/admissions_guide-r9.pdf",
+   "https://www.hamayaku.ac.jp/news/2026/09/post-623.html",
+   "https://www.hamayaku.ac.jp/news/cat10/",
+   "https://search.keinet.ne.jp/2323/general/border_rate",
+   "https://search.keinet.ne.jp/2323/outline/expense",
+   "https://manabi.benesse.ne.jp/daigaku/school/3381/nyushi/hoshiki/ippan/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3381/nyushi/hoshiki/kyotsu-test/"
+  ]
+ },
+ {
+  "name": "横浜美術大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "神奈川県",
+  "pref_name": "神奈川県",
+  "city": null,
+  "hp": "https://www.yokohama-art.ac.jp/",
+  "reading": "よこはまびじゅつだいがく",
+  "features": [
+   "美術学部美術・デザイン学科の単科構成",
+   "一般選抜で共テ・学科選択・デッサン選択を実施",
+   "神奈川県にキャンパスを置く私立の美術系大学"
+  ],
+  "memo": "公式の2027年度入試日程・募集要項が未確認のため、出願前に大学公式サイトで最新情報の確認が必須。",
+  "info": {
+   "faculties": [
+    "美術学部"
+   ],
+   "departments": [
+    {
+     "f": "美術学部",
+     "d": [
+      "美術・デザイン学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0",
+    "kyotei": "66%",
+    "year": null
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.yokohama-art.ac.jp/",
+    "https://search.keinet.ne.jp/2325/general/border_rate",
+    "https://manabi.benesse.ne.jp/daigaku/school/3382/gakuhi/"
+   ]
+  },
+  "sources": [
+   "https://www.yokohama-art.ac.jp/",
+   "https://search.keinet.ne.jp/2325/general/border_rate",
+   "https://manabi.benesse.ne.jp/daigaku/school/3382/gakuhi/"
+  ]
+ },
+ {
+  "name": "横浜商科大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "神奈川県",
+  "pref_name": "神奈川県",
+  "city": null,
+  "hp": "https://www.shodai.ac.jp/",
+  "reading": "よこはましょうかだいがく",
+  "features": [
+   "商学部を擁しつるみキャンパスで商業等を学ぶ",
+   "総合型選抜は体験レポート型・適性・論述等を実施",
+   "一般選抜は2月・3月に実施し共テ利用選抜も用意"
+  ],
+  "memo": "総合型（体験レポート型）はオープンキャンパスや個別相談会の対象講座受講が関わるため早めの確認が必要。",
+  "info": {
+   "faculties": [
+    "商学部"
+   ],
+   "departments": [
+    {
+     "f": "商学部",
+     "d": [
+      "商学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜40.0(BF除く)",
+    "kyotei": "48%〜53%",
+    "year": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（専願制：体験レポート型等）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "体験レポート型（対象講座受講等）ほか",
+      "req": "専願制",
+      "url": "https://www.shodai.ac.jp/gm/pdf/2026/2027_req_A.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 適性検査型（併願制）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "適性検査（併願可）",
+      "req": "併願可",
+      "url": "https://www.shodai.ac.jp/gm/pdf/2026/2027_req_A.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 論述検査型（併願制）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "論述検査（併願可）",
+      "req": "併願可",
+      "url": "https://www.shodai.ac.jp/gm/pdf/2026/2027_req_A.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（2月・3月試験）",
+      "kyotsu": "課さない",
+      "niji": "大学独自試験（国語は古文・漢文を除く日程あり）",
+      "content": null,
+      "req": null,
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/3378/nyushi/hoshiki/ippan/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜",
+      "kyotsu": "大学入学共通テスト利用",
+      "niji": "課さない",
+      "content": null,
+      "req": null,
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/3378/nyushi/hoshiki/ippan/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 A-Ⅰ期",
+      "apply": "9/1〜9/16",
+      "exam": "9/27",
+      "result": "11/2",
+      "proc": "11/13",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 A-Ⅱ期",
+      "apply": "9/17〜10/7",
+      "exam": "10/18",
+      "result": "11/2",
+      "proc": "11/13",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 B期",
+      "apply": "10/26〜11/11",
+      "exam": "11/22",
+      "result": "11/26または11/28",
+      "proc": "12/4",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 C期",
+      "apply": "11/16〜11/26",
+      "exam": "12/6",
+      "result": "12/18",
+      "proc": "1/8",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 D期",
+      "apply": "11/23〜12/10",
+      "exam": "12/20",
+      "result": "12/24",
+      "proc": "1/8",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 E期",
+      "apply": "1/4〜1/21",
+      "exam": "2/2",
+      "result": "2/8",
+      "proc": "2/22",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 F期",
+      "apply": "2/3〜2/22",
+      "exam": "3/3",
+      "result": "3/5",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（2/1試験）",
+      "apply": "1/4〜1/21",
+      "exam": "2/1",
+      "result": "2/8",
+      "proc": "2/22",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（2/2試験）",
+      "apply": "1/4〜1/21",
+      "exam": "2/2",
+      "result": "2/8",
+      "proc": "2/22",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（3/3試験）",
+      "apply": "2/3〜2/22",
+      "exam": "3/3",
+      "result": "3/5",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用（1月出願）",
+      "apply": "1/4〜1/25",
+      "exam": "独自試験なし",
+      "result": "2/8",
+      "proc": "2/22",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用（2月出願）",
+      "apply": "2/3〜2/26",
+      "exam": "独自試験なし",
+      "result": "3/5",
+      "proc": "3/12",
+      "fee": null
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-06-14",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-07-18",
+      "type": "来場",
+      "title": "個別相談会（体験レポート型対象講座含む）"
+     },
+     {
+      "date": "2026-07-26",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-08-02",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-08-16",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-08-30",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-09-19",
+      "type": "来場",
+      "title": "個別相談会（体験レポート型対象講座含む）"
+     },
+     {
+      "date": "2026-10-10",
+      "type": "来場",
+      "title": "個別相談会（体験レポート型対象講座含む）"
+     },
+     {
+      "date": "2026-11-07",
+      "type": "来場",
+      "title": "個別相談会（体験レポート型対象講座含む）"
+     },
+     {
+      "date": "2026-11-28",
+      "type": "来場",
+      "title": "個別相談会（体験レポート型対象講座含む）"
+     },
+     {
+      "date": "2026-12-12",
+      "type": "来場",
+      "title": "個別相談会（体験レポート型対象講座含む）"
+     }
+    ],
+    "url": "https://www.shodai.ac.jp/gm/pdf/2026/2027_req_A.pdf"
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.shodai.ac.jp/",
+    "https://www.shodai.ac.jp/gm/pdf/2026/2027_req_A.pdf",
+    "https://search.keinet.ne.jp/2321/general/border_rate",
+    "https://manabi.benesse.ne.jp/daigaku/school/3378/nyushi/hoshiki/ippan/",
+    "https://up-j.shigaku.go.jp/department/category06/00000000320301001.html"
+   ]
+  },
+  "sources": [
+   "https://www.shodai.ac.jp/",
+   "https://www.shodai.ac.jp/gm/pdf/2026/2027_req_A.pdf",
+   "https://search.keinet.ne.jp/2321/general/border_rate",
+   "https://manabi.benesse.ne.jp/daigaku/school/3378/nyushi/hoshiki/ippan/",
+   "https://up-j.shigaku.go.jp/department/category06/00000000320301001.html"
+  ]
+ },
+ {
+  "name": "横浜創英大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "神奈川県",
+  "pref_name": "神奈川県",
+  "city": null,
+  "hp": "https://www.soei.ac.jp/",
+  "reading": "よこはまそうえいだいがく",
+  "features": [
+   "看護学部看護学科と幼児教育学科を設置する大学",
+   "総合型選抜を複数期実施し一般選抜は2月に2回実施",
+   "試験会場を神奈川県内に設けて入試を実施"
+  ],
+  "memo": "公式の全学科2027年度要項や学費ページが未確認のため、出願前に大学公式サイトで必ず確認すること。",
+  "info": {
+   "faculties": [
+    "看護学部"
+   ],
+   "departments": [
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    },
+    {
+     "f": null,
+     "d": [
+      "幼児教育学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜37.5",
+    "kyotei": null,
+    "year": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（I期・II期ほか）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.soei.ac.jp/wp-content/uploads/2025/05/1P_kango2027.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（I期・II期）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.soei.ac.jp/wp-content/uploads/2025/05/1P_kango2027.pdf"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 I期（看護学科）",
+      "apply": "9/1〜9/14",
+      "exam": "9/19",
+      "result": "11/2",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 II期（看護学科）",
+      "apply": "9/24〜10/9",
+      "exam": "10/17",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 I期（看護学科・幼児教育学科）",
+      "apply": "1/7〜1/29",
+      "exam": "2/6",
+      "result": "2/12",
+      "proc": "2/22",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 II期（看護学科・幼児教育学科）",
+      "apply": "2/9〜2/22",
+      "exam": "2/27",
+      "result": "3/5",
+      "proc": "3/16",
+      "fee": null
+     }
+    ]
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.soei.ac.jp/",
+    "https://www.soei.ac.jp/wp-content/uploads/2025/05/1P_kango2027.pdf",
+    "https://search.keinet.ne.jp/2329/general/border_rate",
+    "https://manabi.benesse.ne.jp/daigaku/school/3384/nyushi/hoshiki/ippan/"
+   ]
+  },
+  "sources": [
+   "https://www.soei.ac.jp/",
+   "https://www.soei.ac.jp/wp-content/uploads/2025/05/1P_kango2027.pdf",
+   "https://search.keinet.ne.jp/2329/general/border_rate",
+   "https://manabi.benesse.ne.jp/daigaku/school/3384/nyushi/hoshiki/ippan/"
+  ]
+ }
+]

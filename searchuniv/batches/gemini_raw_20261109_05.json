@@ -1,0 +1,1083 @@
+[
+ {
+  "name": "仙台白百合女子大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "宮城県仙台市泉区",
+  "pref_name": "宮城県",
+  "city": "仙台市泉区",
+  "hp": "https://sendai-shirayuri.ac.jp/",
+  "reading": "せんだいしらゆりじょしだいがく",
+  "features": [
+   "東北地区唯一の4年制カトリック大学で、宮城県仙台市泉区にキャンパスを置く。",
+   "2027年4月から男女共学化し「仙台白百合大学」へ名称変更を予定している。",
+   "人間学部に子ども教育・心理福祉・健康栄養・国際系の4学科を擁する。"
+  ],
+  "memo": "2027年4月から共学化・仙台白百合大学へ改称予定。推薦は専願で全体評定3.2以上。",
+  "info": {
+   "faculties": [
+    "人間学部"
+   ],
+   "departments": [
+    {
+     "f": "人間学部",
+     "d": [
+      "子ども教育学科 学校教育コース",
+      "子ども教育学科 幼児教育コース",
+      "心理福祉学科 心理コース",
+      "心理福祉学科 福祉コース",
+      "健康栄養学科",
+      "グローバル・スタディーズ学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF",
+    "kyotei": "39%〜47%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": null,
+    "note": "大学入学共通テスト利用選抜（A・B・C日程）を実施"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜〔Ⅰ〜Ⅲ期〕",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "口頭発表方式（プレゼンテーション）等あり",
+      "req": null,
+      "url": "https://sendai-shirayuri.ac.jp/admission/ao"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募・指定校・カトリック高等学校・姉妹校等）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "本学第一志望（専願）、全体評定3.2以上、学校長推薦（姉妹校特別等は共通テスト指定科目受験）",
+      "url": "https://sendai-shirayuri.ac.jp/admission/recommend"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜〔A日程〕",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "高卒（2027年3月卒業見込含む）等",
+      "url": "https://sendai-shirayuri.ac.jp/admission/general_a"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜〔B日程〕",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://sendai-shirayuri.ac.jp/admission/summary"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜〔C日程〕",
+      "kyotsu": "課さない",
+      "niji": "書類20・小論文50（基礎学力を問う出題含む・60分）・個別面接30",
+      "content": null,
+      "req": "高卒（2027年3月卒業見込含む）等",
+      "url": "https://sendai-shirayuri.ac.jp/admission/general_c"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜〔A・B・C日程〕",
+      "kyotsu": "共通テスト利用",
+      "niji": null,
+      "content": null,
+      "req": "2027年度大学入学共通テストで指定教科・科目を受験",
+      "url": "https://sendai-shirayuri.ac.jp/admission/general_center"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "人間学部（全学科）",
+      "kubun": "一般",
+      "name": "一般選抜〔C日程〕",
+      "n": null,
+      "subj": "書類20・小論文50（基礎学力を問う出題含む・60分）・個別面接30",
+      "kt": "",
+      "eng": null
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜〔Ⅱ期〕",
+      "apply": "10/9〜10/29",
+      "exam": "11/7",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜〔指定校・姉妹校〕",
+      "apply": "11/2〜11/9",
+      "exam": "11/14",
+      "result": "12/1",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜〔A日程〕",
+      "apply": "1/5〜1/26",
+      "exam": "2/5",
+      "result": "2/15",
+      "proc": null,
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜〔A日程〕",
+      "apply": "1/5〜1/26",
+      "exam": "大学入学共通テスト",
+      "result": "2/15",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜〔B日程〕",
+      "apply": "2/8〜2/22",
+      "exam": "3/3",
+      "result": "3/9",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜〔B日程〕",
+      "apply": "2/8〜2/22",
+      "exam": "大学入学共通テスト",
+      "result": "3/9",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜〔C日程〕",
+      "apply": "2/24〜3/5",
+      "exam": "3/15",
+      "result": "3/19",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜〔C日程〕",
+      "apply": "2/24〜3/5",
+      "exam": "大学入学共通テスト",
+      "result": "3/19",
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "人間学部 子ども教育学科・心理福祉学科・グローバル・スタディーズ学科",
+      "admission": 240000,
+      "tuition": 760000,
+      "facility": 240000,
+      "practical": 0,
+      "other": null,
+      "first_year": 1240000,
+      "four_year": null
+     },
+     {
+      "f": "人間学部 健康栄養学科",
+      "admission": 240000,
+      "tuition": 760000,
+      "facility": 240000,
+      "practical": 20000,
+      "other": null,
+      "first_year": 1260000,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": null,
+    "rows": [
+     {
+      "name": "スカラーシップ",
+      "kind": "減免",
+      "target": "全学部",
+      "amount": "入学年次学納金（入学金・授業料）の半額免除（2年次以降は毎年度審査）",
+      "timing": "入試時",
+      "cond": "学科指定の入学試験および在学中の学業成績において特に優れた学生"
+     },
+     {
+      "name": "リエゾン・ファミリア制度",
+      "kind": "減免",
+      "target": "全学部",
+      "amount": "入学金（半額・全額）免除",
+      "timing": "入試時",
+      "cond": "仙台白百合短期大学・仙台白百合女子大学の卒業生および在学生の二親等以内の親族で入学予定者"
+     },
+     {
+      "name": "カトリック高等学校奨学金",
+      "kind": "給付",
+      "target": "全学部",
+      "amount": "1年次のみ一定額給付",
+      "timing": "入試時",
+      "cond": "本学指定のカトリック高校から学校推薦型選抜〔カトリック高等学校〕で入学した学生"
+     },
+     {
+      "name": "さくら基金",
+      "kind": "給付",
+      "target": "全学部",
+      "amount": "生活支援金5万円給付（入学時1度のみ）",
+      "timing": "入学後",
+      "cond": "宮城県内外で一人暮らしを始める新入学生（入学後申込）"
+     },
+     {
+      "name": "仙台白百合女子大学奨学金",
+      "kind": "給付",
+      "target": "全学部",
+      "amount": "給付（金額要確認）",
+      "timing": "在学中",
+      "cond": "学業成績・学習態度ともに優れ経済的理由により学業継続困難な学生"
+     },
+     {
+      "name": "学業成績優秀者奨励金",
+      "kind": "給付",
+      "target": "全学部",
+      "amount": "奨励金給付（金額要確認）",
+      "timing": "在学中",
+      "cond": "学業成績において特に優れた学生"
+     },
+     {
+      "name": "留学奨学金",
+      "kind": "給付",
+      "target": "全学部",
+      "amount": "給付（金額要確認）",
+      "timing": "在学中",
+      "cond": "本学が協定を結んだ海外の大学等へ留学し留学先納付金が別途必要な学生"
+     }
+    ]
+   },
+   "eng": {
+    "rows": []
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2027-03-20",
+      "type": "来場",
+      "title": "2026年度 第6回オープンキャンパス"
+     }
+    ],
+    "url": "https://sendai-shirayuri.ac.jp/admission/open_campus"
+   },
+   "access": "仙台市泉区本田町6-1（交通アクセス詳細未確認）",
+   "licenses": [
+    "保育士（人間学部 子ども教育学科 幼児教育コース）",
+    "幼稚園教諭一種免許状（人間学部 子ども教育学科 幼児教育コース）",
+    "小学校教諭一種免許状（人間学部 子ども教育学科 学校教育コース）",
+    "中学校教諭一種免許状・英語（人間学部 子ども教育学科 学校教育コース、グローバル・スタディーズ学科）",
+    "中学校教諭一種免許状・社会（人間学部 グローバル・スタディーズ学科）",
+    "高等学校教諭一種免許状・英語（人間学部 グローバル・スタディーズ学科）",
+    "高等学校教諭一種免許状・公民（人間学部 グローバル・スタディーズ学科）",
+    "社会福祉士国家試験受験資格（人間学部 心理福祉学科 福祉コース）",
+    "精神保健福祉士国家試験受験資格（人間学部 心理福祉学科 福祉コース）",
+    "認定心理士（人間学部 心理福祉学科 心理コース）",
+    "公認心理師国家試験受験資格必要科目（人間学部 心理福祉学科 心理コース）",
+    "栄養士（人間学部 健康栄養学科）",
+    "管理栄養士国家試験受験資格（人間学部 健康栄養学科）",
+    "社会教育主事・社会福祉主事（人間学部 子ども教育学科）"
+   ],
+   "careers": null
+  },
+  "sources": [
+   "https://sendai-shirayuri.ac.jp/",
+   "https://sendai-shirayuri.ac.jp/admission/summary",
+   "https://sendai-shirayuri.ac.jp/admission/general_a",
+   "https://sendai-shirayuri.ac.jp/admission/general_c",
+   "https://sendai-shirayuri.ac.jp/admission/general_center",
+   "https://sendai-shirayuri.ac.jp/admission/recommend",
+   "https://sendai-shirayuri.ac.jp/admission/ao",
+   "https://sendai-shirayuri.ac.jp/admission/open_campus",
+   "https://sendai-shirayuri.ac.jp/admission/juken_support",
+   "https://sendai-shirayuri.ac.jp/admission/news/article/175",
+   "https://sendai-shirayuri.ac.jp/admission/news/article/178",
+   "https://sendai-shirayuri.ac.jp/pdf/admission/2027/admission_ib_guidelines2027.pdf",
+   "https://sendai-shirayuri.ac.jp/campuslife/bursary",
+   "https://sendai-shirayuri.ac.jp/faculty/shikaku",
+   "https://search.keinet.ne.jp/2062",
+   "https://search.keinet.ne.jp/2062/general/border_rate",
+   "https://search.keinet.ne.jp/2062/outline/licential",
+   "https://passnavi.obunsha.co.jp/univ/1755/department/",
+   "https://passnavi.obunsha.co.jp/univ/1755/shinro/",
+   "https://telemail.jp/shingaku/university/10000222/open-campus/10000222c001"
+  ]
+ },
+ {
+  "name": "仙台大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "宮城県柴田郡柴田町",
+  "pref_name": "宮城県",
+  "city": "柴田郡柴田町",
+  "hp": "https://www.sendaidaigaku.jp/",
+  "reading": "せんだいだいがく",
+  "features": [
+   "東北唯一の体育学部を擁し、宮城県柴田町で体育・スポーツ科学を学ぶ大学。",
+   "体育・健康福祉・スポーツ栄養・情報マスメディア・現代武道の学科を展開。",
+   "一般前期A方式は全国9会場で実施し、本学は2/6・7の自由選択制を採用。"
+  ],
+  "memo": "2027年度総合型・一般前期は本学で複数日程実施。指定クラブのスポーツ奨学生制度あり。",
+  "info": {
+   "faculties": [
+    "体育学部"
+   ],
+   "departments": [
+    {
+     "f": "体育学部",
+     "d": [
+      "体育学科",
+      "健康福祉学科",
+      "スポーツ栄養学科",
+      "スポーツ情報マスメディア学科",
+      "現代武道学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0",
+    "kyotei": "36%〜41%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": null,
+    "note": "大学入学共通テスト利用選抜（前期・後期）を実施"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（一般総合）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "実技試験重視型など",
+      "req": null,
+      "url": "https://www.sendaidaigaku.jp/dnt2/_sendaidaigaku/access/nic_img/5/files/2027_sogo_ip.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（スポーツ総合）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "実技試験重視型・競技実績重視型など",
+      "req": null,
+      "url": "https://www.sendaidaigaku.jp/dnt2/_sendaidaigaku/access/nic_img/5/files/2027_sogo_sp.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "同窓生推薦（Ⅰ〜Ⅳ期）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.sendaidaigaku.jp/dnt2/_sendaidaigaku/access/nic_img/5/files/2027_sogo_ip.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜前期（A方式）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "本学は2/6・7自由選択、地方会場（札幌・東京・青森・秋田・盛岡・山形・郡山・新潟）は2/6のみ実施",
+      "url": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜前期（B方式）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "試験地は宮城県（本学）のみ",
+      "url": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜後期",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "試験地は宮城県（本学）のみ",
+      "url": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（前期・後期）",
+      "kyotsu": "共通テスト利用",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": null
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": []
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（一般総合・スポーツ総合 Ⅰ期）",
+      "apply": "9/7〜10/1",
+      "exam": "10/17・18の指定日（競技実績重視型10/24、実技試験重視型10/25）",
+      "result": "11/2",
+      "proc": null,
+      "fee": 33000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（実技試験重視型 Ⅱ期）",
+      "apply": "10/26〜11/6",
+      "exam": "11/20",
+      "result": "12/1",
+      "proc": null,
+      "fee": 33000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（Ⅱ期）",
+      "apply": "11/24〜12/4",
+      "exam": "12/12",
+      "result": "12/18",
+      "proc": null,
+      "fee": 33000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（Ⅲ期）",
+      "apply": "2/1〜2/12",
+      "exam": "2/22",
+      "result": "2/26",
+      "proc": null,
+      "fee": 33000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（Ⅳ期）",
+      "apply": "2/18〜3/4",
+      "exam": "3/10",
+      "result": "3/15",
+      "proc": null,
+      "fee": 33000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜前期（A方式）",
+      "apply": "1/7〜1/22",
+      "exam": "2/6・2/7（自由選択）",
+      "result": "2/12",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜前期（B方式）",
+      "apply": "1/7〜1/22",
+      "exam": "2/7",
+      "result": "2/12",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（前期）",
+      "apply": "1/7〜1/29",
+      "exam": "大学入学共通テスト",
+      "result": "2/12",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜後期",
+      "apply": "2/18〜3/4",
+      "exam": "3/10",
+      "result": "3/15",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（後期）",
+      "apply": "2/18〜3/4",
+      "exam": "大学入学共通テスト",
+      "result": "3/15",
+      "proc": "3/23",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "体育学部（全学科）",
+      "admission": 250000,
+      "tuition": 810000,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1500000,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": null,
+    "rows": [
+     {
+      "name": "仙台大学スポーツ奨学生",
+      "kind": "減免",
+      "target": "体育学部",
+      "amount": "上限：1年次生1,110,000円（3年間免除）、2年次生以上1,050,000円（1年間免除）（10名程度）",
+      "timing": "在学中",
+      "cond": "本学指定のサークルに所属し競技成績優秀、学業成績・人物ともに優れ今後の活躍が期待できる学生"
+     },
+     {
+      "name": "仙台大学給付型奨学生制度",
+      "kind": "給付",
+      "target": "体育学部",
+      "amount": "年額360,000円（単年度・3名程度）",
+      "timing": "在学中",
+      "cond": "2〜4年生で勉学意欲・人物ともに優良かつ経済的困窮状態のため修学困難な学部学生"
+     }
+    ]
+   },
+   "eng": {
+    "rows": []
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": null
+   },
+   "access": "船岡キャンパス：JR船岡駅から徒歩10分（宮城県柴田郡柴田町船岡南2-2-18）",
+   "licenses": [],
+   "careers": null
+  },
+  "sources": [
+   "https://www.sendaidaigaku.jp/",
+   "https://www.sendaidaigaku.jp/dnt2/_sendaidaigaku/access/nic_img/5/files/2027_sogo_ip.pdf",
+   "https://www.sendaidaigaku.jp/dnt2/_sendaidaigaku/access/nic_img/5/files/2027_sogo_sp.pdf",
+   "https://www.sendaidaigaku.jp/gakubu-gakusei.html?name=gakuhi",
+   "https://www.sendaidaigaku.jp/info_shogakukin.html",
+   "https://search.keinet.ne.jp/2055/general/border_rate",
+   "https://search.keinet.ne.jp/2055/outline/campus",
+   "https://manabi.benesse.ne.jp/daigaku/school/3067/gakuhi/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3067/nyushi/hoshiki/ippan/",
+   "https://telemail.jp/shingaku/university/10000041/examination/general",
+   "https://up-j.shigaku.go.jp/department/category06/00000000062501001.html"
+  ]
+ },
+ {
+  "name": "ノースアジア大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "秋田県",
+  "pref_name": "秋田県",
+  "city": null,
+  "hp": "https://www.nau.ac.jp/",
+  "reading": "のーすあじあだいがく",
+  "features": [
+   "秋田県にキャンパスを置き、経済学部と総合政策学部の2学部を擁する大学。",
+   "一般選抜はネット出願に対応し、秋田・大館・仙台の3会場で試験を実施。",
+   "学校推薦型選抜向けの学業奨学生制度など授業料減免の修学支援を用意。"
+  ],
+  "memo": "一般選抜や総合型・推薦の日程は公式要項で確認。推薦で学業奨学生試験（小テスト）あり。",
+  "info": {
+   "faculties": [
+    "経済学部",
+    "総合政策学部"
+   ],
+   "departments": [
+    {
+     "f": "経済学部",
+     "d": []
+    },
+    {
+     "f": "総合政策学部",
+     "d": []
+    }
+   ],
+   "difficulty": {
+    "hensachi": null,
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": null,
+    "note": "大学入学共通テスト利用選抜（前期・中期・後期）を実施"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（Ⅰ期・Ⅱ期）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.nau.ac.jp/examination/entrance"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "学業奨学生制度［Ⅱ種］申込み者対象に学業奨学生試験（小テスト）あり",
+      "url": "https://www.nau.ac.jp/examination/entrance"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "試験地：秋田、大館、仙台",
+      "url": "https://www.nau.ac.jp/examination/entrance"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（前期・中期・後期）",
+      "kyotsu": "共通テスト利用",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.nau.ac.jp/examination/entrance"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": []
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅰ期",
+      "apply": "9/14〜10/2",
+      "exam": "10/10",
+      "result": "11/2",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（経済学部・総合政策学部）",
+      "apply": "1/12〜1/29",
+      "exam": "2/6",
+      "result": "2/19",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 前期",
+      "apply": "1/12〜2/4",
+      "exam": "大学入学共通テスト",
+      "result": "2/19",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 中期",
+      "apply": "2/8〜2/19",
+      "exam": "大学入学共通テスト",
+      "result": "3/1",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 後期",
+      "apply": "2/22〜3/9",
+      "exam": "大学入学共通テスト",
+      "result": "3/18",
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "全学部（経済学部・総合政策学部）",
+      "admission": 200000,
+      "tuition": 668000,
+      "facility": 225000,
+      "practical": null,
+      "other": 87500,
+      "first_year": 1180500,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": null,
+    "rows": [
+     {
+      "name": "学業奨学生制度［Ⅱ種］",
+      "kind": "減免",
+      "target": "全学部",
+      "amount": "初年度授業料の半額（334,000円）を免除",
+      "timing": "入試時",
+      "cond": "学校推薦型選抜において申込み、学業奨学生試験（小テスト）を受験した者の中から特に成績が優れた者を選抜"
+     }
+    ]
+   },
+   "eng": {
+    "rows": []
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": null
+   },
+   "access": null,
+   "licenses": [],
+   "careers": null
+  },
+  "sources": [
+   "https://www.nau.ac.jp/",
+   "https://www.nau.ac.jp/examination/entrance",
+   "https://manabi.benesse.ne.jp/daigaku/school/3081/gakuhi/",
+   "https://telemail.jp/shingaku/university/10001052/examination/general"
+  ]
+ },
+ {
+  "name": "麻布大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "神奈川県",
+  "pref_name": "神奈川県",
+  "city": null,
+  "hp": "https://www.azabu-u.ac.jp/",
+  "reading": "あざぶだいがく",
+  "features": [
+   "獣医学部と生命・環境科学部の2学部を神奈川県に構える生命科学系大学。",
+   "獣医学部に獣医・獣医保健看護・動物応用科学の3学科を設置している。",
+   "生命・環境科学部に臨床検査技術・食品生命科学・環境科学の3学科を置く。"
+  ],
+  "memo": "獣医学科は一般B日程67名・D日程8名など日程が分かれる。詳細日程・方式は要項で要確認。",
+  "info": {
+   "faculties": [
+    "獣医学部",
+    "生命・環境科学部"
+   ],
+   "departments": [
+    {
+     "f": "獣医学部",
+     "d": [
+      "獣医学科",
+      "獣医保健看護学科",
+      "動物応用科学科"
+     ]
+    },
+    {
+     "f": "生命・環境科学部",
+     "d": [
+      "臨床検査技術学科",
+      "食品生命科学科",
+      "環境科学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": null,
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": null,
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（B日程・D日程）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "獣医学科募集人員はB日程67名、D日程8名（他日程・他学科は公式要項で要確認）",
+      "url": null
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": []
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程（獣医学科）",
+      "apply": null,
+      "exam": "2/3",
+      "result": "2/12",
+      "proc": "2/18",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "獣医学部 獣医学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 2569740,
+      "four_year": null
+     },
+     {
+      "f": "獣医学部 獣医保健看護学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1666660,
+      "four_year": null
+     },
+     {
+      "f": "獣医学部 動物応用科学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1816660,
+      "four_year": null
+     },
+     {
+      "f": "生命・環境科学部 臨床検査技術学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1816660,
+      "four_year": null
+     },
+     {
+      "f": "生命・環境科学部 食品生命科学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1816660,
+      "four_year": null
+     },
+     {
+      "f": "生命・環境科学部 環境科学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1816660,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": null,
+    "rows": []
+   },
+   "eng": {
+    "rows": []
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": null
+   },
+   "access": null,
+   "licenses": [],
+   "careers": null
+  },
+  "sources": [
+   "https://www.azabu-u.ac.jp/",
+   "https://vets-select.com/entrance-exam/azabu-2027/",
+   "https://shingakunet.com/gakko/SC000541/gakuhi/"
+  ]
+ },
+ {
+  "name": "麗澤大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "千葉県",
+  "pref_name": "千葉県",
+  "city": null,
+  "hp": "https://www.reitaku-u.ac.jp/",
+  "reading": "れいたくだいがく",
+  "features": [
+   "外国語・国際・経済・経営・工学の5学部を千葉県に擁する総合大学。",
+   "各学部に多様な専攻を備え、語学・国際交流からAI・工学まで学べる。",
+   "2027年度は入学金26万円、授業料は文系83万円・工学部109万円。"
+  ],
+  "memo": "2027年度学部入試の日程・方式詳細は大学公式の入試要項で最新情報を要確認。",
+  "info": {
+   "faculties": [
+    "外国語学部",
+    "国際学部",
+    "経済学部",
+    "経営学部",
+    "工学部"
+   ],
+   "departments": [
+    {
+     "f": "外国語学部",
+     "d": [
+      "外国語学科 英語コミュニケーション専攻",
+      "外国語学科 英語・リベラルアーツ専攻",
+      "外国語学科 中国語・アジアグローバル専攻"
+     ]
+    },
+    {
+     "f": "国際学部",
+     "d": [
+      "国際学科 日本学・国際コミュニケーション（JIC）専攻",
+      "国際学科 国際交流・国際協力（IEC）専攻"
+     ]
+    },
+    {
+     "f": "経済学部",
+     "d": [
+      "経済学科 経済専攻"
+     ]
+    },
+    {
+     "f": "経営学部",
+     "d": [
+      "経営学科 ビジネスデザイン専攻",
+      "経営学科 AI・ビジネス専攻"
+     ]
+    },
+    {
+     "f": "工学部",
+     "d": [
+      "工学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": null,
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": null,
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": []
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": []
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": []
+   },
+   "money": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "外国語学部・国際学部・経済学部・経営学部",
+      "admission": 260000,
+      "tuition": 830000,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": null,
+      "four_year": null
+     },
+     {
+      "f": "工学部",
+      "admission": 260000,
+      "tuition": 1090000,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": null,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": null,
+    "rows": []
+   },
+   "eng": {
+    "rows": []
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": null
+   },
+   "access": null,
+   "licenses": [],
+   "careers": null
+  },
+  "sources": [
+   "https://www.reitaku-u.ac.jp/",
+   "https://www.reitaku-u.ac.jp/admissions/tuition/",
+   "https://shingakunet.com/gakko/SC000154/gakuhi/"
+  ]
+ }
+]

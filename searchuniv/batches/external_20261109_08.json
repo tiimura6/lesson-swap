@@ -1,0 +1,896 @@
+[
+ {
+  "name": "跡見学園女子大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": null,
+  "pref_name": "東京都",
+  "city": null,
+  "hp": "https://www.atomi.ac.jp/univ/",
+  "reading": "あとみがくえんじょしだいがく",
+  "features": [
+   "文京・新座の両キャンパスがあり、秋には大学祭と同時開催のイベントも行う。",
+   "観光コミュニティ学部などを設置し、公務員やメディア等の進路を目指せる。",
+   "一般選抜全学統一方式は最大5学科併願可で、英語外部検定試験も活用できる。"
+  ],
+  "memo": "総合型はⅠ〜Ⅲ期、公募・指定校推薦、一般全学統一（S〜C日程等）、共テ利用を実施。日程確認が重要。",
+  "info": {
+   "faculties": [
+    "観光コミュニティ学部"
+   ],
+   "departments": [
+    {
+     "f": "観光コミュニティ学部",
+     "d": [
+      "まちづくり学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜40.0",
+    "kyotei": "48%〜57%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": null,
+    "note": "一般選抜／大学入学共通テスト利用方式を実施"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅰ期【併願制】",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "併願制",
+      "url": "https://www.atomi.ac.jp/univ/news/detail/19897/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅲ期［一般型・英語検定試験利用型］【併願制】",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "併願制",
+      "url": "https://www.atomi.ac.jp/univ/atomi_exam_sogo_2027/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募推薦 Ⅰ期・Ⅱ期／指定校推薦）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.atomi.ac.jp/univ/about/information/number_of_staff/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜／全学統一方式（S日程・C日程等）",
+      "kyotsu": "課さない",
+      "niji": "マークシート方式による学力試験（英語外部検定試験活用可）",
+      "content": null,
+      "req": "最大5学科併願可能・他大学併願可能",
+      "url": "https://www.atomi.ac.jp/univ/wordpress/wp-content/uploads/2026/07/4738220792e27f722a73303d453c1f56.pdf"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜／大学入学共通テスト利用方式（Ⅰ期等）",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.atomi.ac.jp/univ/about/information/number_of_staff/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅰ期【併願制】",
+      "apply": "9/14〜10/2(消印有効)",
+      "exam": "10/11",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅲ期［一般型・英語検定試験利用型］【併願制】",
+      "apply": "2/19〜3/3(消印有効)",
+      "exam": "3/9",
+      "result": "3/12",
+      "proc": "3/12〜3/18(消印有効)",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "公募推薦 Ⅰ期",
+      "apply": null,
+      "exam": null,
+      "result": null,
+      "proc": "12/1〜12/7",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "指定校推薦 Ⅰ期",
+      "apply": null,
+      "exam": null,
+      "result": null,
+      "proc": "12/1〜12/7",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜／全学統一方式 S日程",
+      "apply": null,
+      "exam": "1/24",
+      "result": null,
+      "proc": "一次1/27〜2/17",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜／全学統一方式 C日程",
+      "apply": null,
+      "exam": "3/9",
+      "result": null,
+      "proc": "3/12〜3/18",
+      "fee": null
+     }
+    ]
+   },
+   "eng": {
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜／全学統一方式",
+      "use": "判定に利用",
+      "level": null,
+      "tests": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅲ期［英語検定試験利用型］",
+      "use": null,
+      "level": null,
+      "tests": null
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-03-14",
+      "type": "来場",
+      "title": "オープンキャンパス（文京）"
+     },
+     {
+      "date": "2026-03-28",
+      "type": "来場",
+      "title": "オープンキャンパス（新座）"
+     },
+     {
+      "date": "2026-07-12",
+      "type": "来場",
+      "title": "オープンキャンパス（新座）"
+     },
+     {
+      "date": "2026-09-13",
+      "type": "来場",
+      "title": "オープンキャンパス（新座）"
+     },
+     {
+      "date": "2026-10-24",
+      "type": "来場",
+      "title": "オープンキャンパス（文京・紫祭同時開催）"
+     },
+     {
+      "date": "2026-10-25",
+      "type": "来場",
+      "title": "オープンキャンパス（文京・紫祭同時開催）"
+     }
+    ],
+    "url": "https://www.atomi.ac.jp/univ/news/detail/19950/"
+   },
+   "access": "文京キャンパス、新座キャンパス（埼玉県新座市中野1-9-6）",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.atomi.ac.jp/univ/",
+    "https://www.atomi.ac.jp/univ/atomi_exam_sogo_2027/",
+    "https://www.atomi.ac.jp/univ/news/detail/19897/",
+    "https://www.atomi.ac.jp/univ/wordpress/wp-content/uploads/2026/07/4738220792e27f722a73303d453c1f56.pdf",
+    "https://www.atomi.ac.jp/univ/about/information/number_of_staff/",
+    "https://www.atomi.ac.jp/univ/life/supports/expenses/",
+    "https://www.atomi.ac.jp/univ/life/supports/",
+    "https://www.atomi.ac.jp/univ/news/detail/19950/",
+    "https://www.atomi.ac.jp/univ/wordpress/wp-content/uploads/2026/09/bd9fc8abff6eb6b48bc4c6cedf2fdf3d.pdf",
+    "https://www.atomi.ac.jp/univ/activity/detail/18333/",
+    "https://www.atomi.ac.jp/univ/faculty/tourist_community/community/",
+    "https://search.keinet.ne.jp/2147/general/border_rate",
+    "https://search.keinet.ne.jp/2147/outline/opencampus",
+    "https://passnavi.obunsha.co.jp/univ/1960/opencampus/",
+    "https://passnavi.obunsha.co.jp/univ/1960/subject/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3147/gakuhi/"
+   ]
+  },
+  "sources": [
+   "https://www.atomi.ac.jp/univ/",
+   "https://www.atomi.ac.jp/univ/atomi_exam_sogo_2027/",
+   "https://www.atomi.ac.jp/univ/news/detail/19897/",
+   "https://www.atomi.ac.jp/univ/wordpress/wp-content/uploads/2026/07/4738220792e27f722a73303d453c1f56.pdf",
+   "https://www.atomi.ac.jp/univ/about/information/number_of_staff/",
+   "https://www.atomi.ac.jp/univ/life/supports/expenses/",
+   "https://www.atomi.ac.jp/univ/life/supports/",
+   "https://www.atomi.ac.jp/univ/news/detail/19950/",
+   "https://www.atomi.ac.jp/univ/wordpress/wp-content/uploads/2026/09/bd9fc8abff6eb6b48bc4c6cedf2fdf3d.pdf",
+   "https://www.atomi.ac.jp/univ/activity/detail/18333/",
+   "https://www.atomi.ac.jp/univ/faculty/tourist_community/community/",
+   "https://search.keinet.ne.jp/2147/general/border_rate",
+   "https://search.keinet.ne.jp/2147/outline/opencampus",
+   "https://passnavi.obunsha.co.jp/univ/1960/opencampus/",
+   "https://passnavi.obunsha.co.jp/univ/1960/subject/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3147/gakuhi/"
+  ]
+ },
+ {
+  "name": "足利大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "栃木県足利市",
+  "pref_name": "栃木県",
+  "city": "足利市",
+  "hp": "https://www.ashitech.ac.jp/",
+  "reading": "あしかがだいがく",
+  "features": [
+   "大前・本城の2キャンパスを備え、JR両毛線や東武線からアクセスできる。",
+   "工学部と看護学部を設置し、看工連携の視点を持つ看護職や技術者を養成。",
+   "入学辞退時は3月末までの手続で入学金以外の納入金を返還する制度がある。"
+  ],
+  "memo": "総合型・推薦・一般A〜D・共テ利用A〜Cまで多彩。学校推薦型（工学部）は原則専願のため注意。",
+  "info": {
+   "faculties": [
+    "工学部",
+    "看護学部"
+   ],
+   "departments": [
+    {
+     "f": "工学部",
+     "d": []
+    },
+    {
+     "f": "看護学部",
+     "d": []
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜35.0",
+    "kyotei": "39%〜47%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": null,
+    "note": "工学部は大学入学共通テスト利用選抜A・B・C、看護学部はA・Bを実施"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "工学部 総合型選抜（第1期〜第4期・スポーツ選抜・基礎学力テスト型）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://ashikaga.ac.jp/exam_site/wp-content/themes/inspiro-child/assets/img/sougou2027kogaku.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "工学部 学校推薦型選抜",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "調査書・志望理由書・個人面接・口頭試問等",
+      "req": "2027年3月卒業見込みで学校長が推薦する者（原則専願）",
+      "url": "https://ashikaga.ac.jp/exam_site/koukousuisen.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A・B・C・D（工学部・看護学部）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://ashikaga.ac.jp/exam_site/schedule/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（工学部A〜C／看護学部A・B）",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://ashikaga.ac.jp/exam_site/schedule/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "工学部 総合型選抜 第1期",
+      "apply": "9/1〜10/11",
+      "exam": "10/14",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "工学部 総合型選抜 第2期",
+      "apply": "9/24〜11/8",
+      "exam": "11/11",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "工学部 総合型選抜 第3期",
+      "apply": "10/28〜12/6",
+      "exam": "12/9",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "工学部 総合型選抜 第4期",
+      "apply": "2/12〜2/26(書類3/1必着)",
+      "exam": "3/4",
+      "result": "3/9",
+      "proc": "3/19",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A（工学部・看護学部）",
+      "apply": "12/21〜1/24(書類1/27必着)",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B（工学部・看護学部）",
+      "apply": "1/22〜2/7(書類2/10必着)",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 C（工学部・看護学部）",
+      "apply": "2/12〜2/26(書類3/1必着)",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 D（工学部・看護学部）",
+      "apply": "2/22〜3/16(書類3/19必着)",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 A（工学部・看護学部）",
+      "apply": "12/21〜1/26(書類1/29必着)",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": 15000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 B（工学部・看護学部）",
+      "apply": "1/22〜2/7(書類2/10必着)",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": 15000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 C（工学部）",
+      "apply": "2/12〜2/28(書類3/3必着)",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "工学部",
+      "admission": 270000,
+      "tuition": 1260000,
+      "facility": 0,
+      "practical": 0,
+      "other": 65000,
+      "first_year": 1595000,
+      "four_year": 5500000
+     },
+     {
+      "f": "看護学部",
+      "admission": 270000,
+      "tuition": 1460000,
+      "facility": 0,
+      "practical": 0,
+      "other": 65000,
+      "first_year": 1795000,
+      "four_year": 6280000
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-03-22",
+      "type": "来場",
+      "title": "工学部体験型オープンキャンパス"
+     },
+     {
+      "date": "2026-05-10",
+      "type": "来場",
+      "title": "工学部体験型オープンキャンパス"
+     }
+    ],
+    "url": "https://ashikaga.ac.jp/opencampus-engineering20260322/"
+   },
+   "access": "大前キャンパス：栃木県足利市大前町268-1（JR両毛線「山前」駅徒歩約20分、「山前」駅・東武伊勢崎線「足利市」駅よりスクールバス）／本城キャンパス（看護学部）：JR両毛線「足利」駅徒歩約17分",
+   "licenses": [
+    "看護師国家試験受験資格（看護学部）",
+    "保健師国家試験受験資格［定員80名の選択制］（看護学部）",
+    "養護教諭一種免許状［選択制］（看護学部）",
+    "第2種ME技術者（看護学部）",
+    "養護教諭二種免許状［卒業後］（看護学部）",
+    "第一種衛生管理者［卒業後］（看護学部）"
+   ],
+   "careers": "工学部は建築関連等の民間企業や公務員・教員など、看護学部は看護師や保健師・養護教諭などの専門職を目指す。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.ashitech.ac.jp/",
+    "https://ashikaga.ac.jp/exam_site/schedule/",
+    "https://ashikaga.ac.jp/exam_site/wp-content/themes/inspiro-child/assets/img/sougou2027kogaku.pdf",
+    "https://ashikaga.ac.jp/exam_site/ao_kougaku/",
+    "https://ashikaga.ac.jp/exam_site/koukousuisen.html",
+    "https://ashikaga.ac.jp/exam_site/kenteiryou/",
+    "https://ashikaga.ac.jp/exam_site/engineering_tuition/",
+    "https://ashikaga.ac.jp/exam_site/nursing_tuition/",
+    "https://ashikaga.ac.jp/scholarships/",
+    "https://ashikaga.ac.jp/opencampus-engineering20260322/",
+    "https://ashikaga.ac.jp/access/",
+    "https://ashikaga.ac.jp/calc-nursing/",
+    "https://ashikaga.ac.jp/academics-nursing/",
+    "https://ashikaga.ac.jp/career-support-nursing/",
+    "https://ashikaga.ac.jp/academics-engineering-old/",
+    "https://search.keinet.ne.jp/2120/general/border_rate",
+    "https://search.keinet.ne.jp/2120/outline/campus",
+    "https://passnavi.obunsha.co.jp/univ/1890/difficulty/",
+    "https://passnavi.obunsha.co.jp/univ/1890/subject/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3119/gakuhi/"
+   ]
+  },
+  "sources": [
+   "https://www.ashitech.ac.jp/",
+   "https://ashikaga.ac.jp/exam_site/schedule/",
+   "https://ashikaga.ac.jp/exam_site/wp-content/themes/inspiro-child/assets/img/sougou2027kogaku.pdf",
+   "https://ashikaga.ac.jp/exam_site/ao_kougaku/",
+   "https://ashikaga.ac.jp/exam_site/koukousuisen.html",
+   "https://ashikaga.ac.jp/exam_site/kenteiryou/",
+   "https://ashikaga.ac.jp/exam_site/engineering_tuition/",
+   "https://ashikaga.ac.jp/exam_site/nursing_tuition/",
+   "https://ashikaga.ac.jp/scholarships/",
+   "https://ashikaga.ac.jp/opencampus-engineering20260322/",
+   "https://ashikaga.ac.jp/access/",
+   "https://ashikaga.ac.jp/calc-nursing/",
+   "https://ashikaga.ac.jp/academics-nursing/",
+   "https://ashikaga.ac.jp/career-support-nursing/",
+   "https://ashikaga.ac.jp/academics-engineering-old/",
+   "https://search.keinet.ne.jp/2120/general/border_rate",
+   "https://search.keinet.ne.jp/2120/outline/campus",
+   "https://passnavi.obunsha.co.jp/univ/1890/difficulty/",
+   "https://passnavi.obunsha.co.jp/univ/1890/subject/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3119/gakuhi/"
+  ]
+ },
+ {
+  "name": "西武文理大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": null,
+  "pref_name": "埼玉県",
+  "city": null,
+  "hp": "https://www.bunri-c.ac.jp/",
+  "reading": "せいぶぶんりだいがく",
+  "features": [
+   "サービス経営学部と看護学部の2学部を設置する埼玉県の私立大学。",
+   "2027年度入試では追加検定料不要で別試験日に振替する特別措置を実施。",
+   "2027年度入学者選抜要項を公開し、両学部の入試日程や要項を案内している。"
+  ],
+  "memo": "2027年度入学者選抜要項を公開済み。追加検定料なしでの別試験日振替の特別措置も設けられている。",
+  "info": {
+   "faculties": [
+    "サービス経営学部",
+    "看護学部"
+   ],
+   "departments": [
+    {
+     "f": "サービス経営学部",
+     "d": []
+    },
+    {
+     "f": "看護学部",
+     "d": []
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.bunri-c.ac.jp/",
+    "https://juken.bunri-c.ac.jp/news/news-4203/",
+    "https://juken.bunri-c.ac.jp/news/news-2698/",
+    "https://passnavi.obunsha.co.jp/univ/2025/difficulty/",
+    "https://search.keinet.ne.jp/2163/general/border_rate"
+   ]
+  },
+  "sources": [
+   "https://www.bunri-c.ac.jp/",
+   "https://juken.bunri-c.ac.jp/news/news-4203/",
+   "https://juken.bunri-c.ac.jp/news/news-2698/",
+   "https://passnavi.obunsha.co.jp/univ/2025/difficulty/",
+   "https://search.keinet.ne.jp/2163/general/border_rate"
+  ]
+ },
+ {
+  "name": "育英大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": null,
+  "pref_name": "群馬県",
+  "city": null,
+  "hp": "https://www.ikuei-g.ac.jp/university/",
+  "reading": "いくえいだいがく",
+  "features": [
+   "教育学部において児童教育・スポーツ教育・英語教育の3分野を学べる。",
+   "2027年度入試は総合型・学校推薦型（指定・公募・特別）・一般選抜を実施。",
+   "共通テスト利用選抜は2教科型と3教科型を設置し、幅広く出願が可能。"
+  ],
+  "memo": "総合型は9月、学校推薦型は11月に実施。共通テスト利用のボーダーは2教科型・3教科型で45%〜53%。",
+  "info": {
+   "faculties": [
+    "教育学部"
+   ],
+   "departments": [
+    {
+     "f": "教育学部",
+     "d": [
+      "児童教育",
+      "スポーツ教育",
+      "英語教育"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜37.5",
+    "kyotei": "45%〜53%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": [
+     2,
+     3
+    ],
+    "note": "大学入学共通テスト利用選抜は2教科型・3教科型を実施"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.ikuei-g.ac.jp/university/entrance/exam/exam-schedule/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（指定・公募・特別）",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.ikuei-g.ac.jp/university/entrance/exam/exam-schedule/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.ikuei-g.ac.jp/university/entrance/exam/exam-schedule/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（2教科型・3教科型）",
+      "kyotsu": "2〜3教科",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://passnavi.obunsha.co.jp/univ/1938/difficulty/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "apply": "9/1〜9/7",
+      "exam": "9/13",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（指定・公募・特別）",
+      "apply": "11/2〜11/6",
+      "exam": "11/14",
+      "result": null,
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "教育学部",
+      "admission": 250000,
+      "tuition": 750000,
+      "facility": 370000,
+      "practical": null,
+      "other": null,
+      "first_year": 1370000,
+      "four_year": null
+     }
+    ]
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.ikuei-g.ac.jp/university/",
+    "https://www.ikuei-g.ac.jp/university/entrance/exam/exam-schedule/",
+    "https://www.ikuei-g.ac.jp/university/entrance/exam/exam-about/",
+    "https://search.keinet.ne.jp/2134/general/border_rate",
+    "https://passnavi.obunsha.co.jp/univ/1938/top/",
+    "https://passnavi.obunsha.co.jp/univ/1938/difficulty/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3142/gakuhi/"
+   ]
+  },
+  "sources": [
+   "https://www.ikuei-g.ac.jp/university/",
+   "https://www.ikuei-g.ac.jp/university/entrance/exam/exam-schedule/",
+   "https://www.ikuei-g.ac.jp/university/entrance/exam/exam-about/",
+   "https://search.keinet.ne.jp/2134/general/border_rate",
+   "https://passnavi.obunsha.co.jp/univ/1938/top/",
+   "https://passnavi.obunsha.co.jp/univ/1938/difficulty/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3142/gakuhi/"
+  ]
+ },
+ {
+  "name": "聖路加国際大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": null,
+  "pref_name": "東京都",
+  "city": null,
+  "hp": "https://university.luke.ac.jp/",
+  "reading": "せいるかこくさいだいがく",
+  "features": [
+   "看護学部看護学科を擁し、看護学への強い志向と英語力を持つ人材を養成。",
+   "一般選抜はA・B方式に加え、個別試験を課さない共テ利用C方式を実施。",
+   "学校推薦型選抜（指定校）では英語の評定平均値3.7以上等を要件とする。"
+  ],
+  "memo": "指定校推薦は全体評定4.0かつ英語3.7以上が必要。一般A・Bは1次と2次試験、C方式は共テ3科目。",
+  "info": {
+   "faculties": [
+    "看護学部"
+   ],
+   "departments": [
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "55.0〜60.0",
+    "kyotei": "82%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "必須1科目・選択2科目の計3科目（Ⅰ・Ⅱ・Ⅲから選択）",
+    "kyoka": [
+     3,
+     3
+    ],
+    "note": "一般選抜C方式は個別学力検査を課さない。過年度成績不可。"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": "2027年3月卒業見込みまたは卒業後5年未満で全体の評定平均値4.0以上等",
+      "url": "https://university.luke.ac.jp/admission/entrance/application/ipbbqg00000001cz-att/rdjvqc000000151k.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（指定校）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "提出書類審査（15点）・小論文（120分・200点※英語による問題含む）・面接",
+      "req": "専願、2027年3月卒業見込み、全体評定平均値4.0以上かつ英語評定平均値3.7以上、学校長推薦",
+      "url": "https://university.luke.ac.jp/admission/entrance/application/ipbbqg00000001cz-att/rdjvqc0000003ldb.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A方式・B方式）",
+      "kyotsu": null,
+      "niji": "1次試験（2/1）および2次試験（2/8）を実施",
+      "content": null,
+      "req": null,
+      "url": "https://university.luke.ac.jp/admission/entrance/application/ipbbqg0000000amf-att/rdjvqc0000001xg4.pdf"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜（C方式）",
+      "kyotsu": "必須1科目・選択2科目の計3科目",
+      "niji": "課さない",
+      "content": null,
+      "req": "2027年大学入学共通テスト受験者（過年度成績不可）",
+      "url": "https://university.luke.ac.jp/admission/entrance/application/ipbbqg0000000amf-att/rdjvqc0000001xg4.pdf"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "看護学部 看護学科",
+      "kubun": "共テ利用",
+      "name": "一般選抜（C方式）",
+      "n": null,
+      "subj": "個別学力検査なし",
+      "kt": "必須1科目・選択2科目の計3科目（Ⅰ・Ⅱ・Ⅲから選択）",
+      "eng": null
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（指定校）",
+      "apply": "11/2〜11/6(消印有効)",
+      "exam": "11/19",
+      "result": "12/1(発送)",
+      "proc": "12/11",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A方式・B方式）",
+      "apply": "12/18〜1/19(消印有効)",
+      "exam": "1次2/1・2次2/8",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜（C方式）",
+      "apply": "12/18〜1/19(消印有効)",
+      "exam": "1/16・1/17(共テ・個別なし)",
+      "result": null,
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-06-06",
+      "type": "来場",
+      "title": "看護学部オープンキャンパス"
+     },
+     {
+      "date": "2026-07-30",
+      "type": "来場",
+      "title": "看護学部オープンキャンパス"
+     },
+     {
+      "date": "2026-07-31",
+      "type": "来場",
+      "title": "看護学部オープンキャンパス"
+     }
+    ],
+    "url": "https://university.luke.ac.jp/admission/news/2026/rdjvqc0000003fax.html"
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://university.luke.ac.jp/",
+    "https://university.luke.ac.jp/admission/entrance/application/ipbbqg00000001cz-att/rdjvqc000000151k.pdf",
+    "https://university.luke.ac.jp/admission/entrance/application/ipbbqg00000001cz-att/rdjvqc0000003ldb.pdf",
+    "https://university.luke.ac.jp/admission/entrance/application/ipbbqg0000000amf-att/rdjvqc0000001xg4.pdf",
+    "https://university.luke.ac.jp/campuslife/tuition/scholarship.html",
+    "https://university.luke.ac.jp/admission/news/2026/rdjvqc0000003fax.html",
+    "https://university.luke.ac.jp/admission/event/2026/rdjvqc0000003aep.html",
+    "https://university.luke.ac.jp/admission/event/2026/copy_of_rdjvqc0000002wb7.html",
+    "https://search.keinet.ne.jp/2232/general/border_rate",
+    "https://passnavi.obunsha.co.jp/univ/2580/difficulty/",
+    "https://passnavi.obunsha.co.jp/univ/2580/top/"
+   ]
+  },
+  "sources": [
+   "https://university.luke.ac.jp/",
+   "https://university.luke.ac.jp/admission/entrance/application/ipbbqg00000001cz-att/rdjvqc000000151k.pdf",
+   "https://university.luke.ac.jp/admission/entrance/application/ipbbqg00000001cz-att/rdjvqc0000003ldb.pdf",
+   "https://university.luke.ac.jp/admission/entrance/application/ipbbqg0000000amf-att/rdjvqc0000001xg4.pdf",
+   "https://university.luke.ac.jp/campuslife/tuition/scholarship.html",
+   "https://university.luke.ac.jp/admission/news/2026/rdjvqc0000003fax.html",
+   "https://university.luke.ac.jp/admission/event/2026/rdjvqc0000003aep.html",
+   "https://university.luke.ac.jp/admission/event/2026/copy_of_rdjvqc0000002wb7.html",
+   "https://search.keinet.ne.jp/2232/general/border_rate",
+   "https://passnavi.obunsha.co.jp/univ/2580/difficulty/",
+   "https://passnavi.obunsha.co.jp/univ/2580/top/"
+  ]
+ }
+]

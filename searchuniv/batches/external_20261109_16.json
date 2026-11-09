@@ -1,0 +1,737 @@
+[
+ {
+  "name": "植草学園大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "千葉県千葉市若葉区",
+  "pref_name": "千葉県",
+  "city": "千葉市若葉区",
+  "hp": "https://www.uekusa.ac.jp/",
+  "reading": "うえくさがくえんだいがく",
+  "features": [
+   "保育・教育やリハ、看護の専門職を養成。",
+   "新入生特待制度で入学金・授業料免除あり。",
+   "千葉医療センター内にも実習拠点を設置。"
+  ],
+  "memo": "検索上限で一部日程・英語外部試験の詳細未確認。共テ利用は検定料無料、特待制度あり。",
+  "info": {
+   "faculties": [
+    "発達教育学部",
+    "保健医療学部",
+    "看護学部"
+   ],
+   "departments": [
+    {
+     "f": "発達教育学部",
+     "d": [
+      "発達支援教育学科"
+     ]
+    },
+    {
+     "f": "保健医療学部",
+     "d": [
+      "リハビリテーション学科 理学療法学専攻",
+      "リハビリテーション学科 作業療法学専攻"
+     ]
+    },
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜37.5",
+    "kyotei": "42%〜51%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "英語・国語・数学・理科から選択（学科により2〜3教科）",
+    "kyoka": [
+     2,
+     3
+    ],
+    "note": "発達教育・保健医療は200点満点(2教科)、看護は300点満点(3教科)を確認。共テ利用は検定料無料。"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜入学試験（A日程・B日程）",
+      "kyotsu": "課さない",
+      "niji": "1教科または2教科＋面接（学科・方式により異なる）",
+      "content": null,
+      "req": "高等学校卒業（2027年3月卒業見込み含む）等",
+      "url": "https://www.uekusa.ac.jp/entrance_exam/admission_guide/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入学試験（A日程・B日程）",
+      "kyotsu": "2〜3教科",
+      "niji": "なし（本学での学力試験なし）",
+      "content": null,
+      "req": "高等学校卒業（見込み含む）等かつ2027年度共通テストの指定科目受験",
+      "url": "https://www.uekusa.ac.jp/entrance_exam/admission_guide/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜入学試験（公募制等）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "小論文＋面接",
+      "req": "併願可・1浪まで、評定平均値基準あり（発達教育3.0以上、保健医療・看護3.3以上）",
+      "url": "https://www.uekusa.ac.jp/entrance_exam/admission_guide/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜入学試験（1〜4期（4期は発達教育学部のみ））",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "小論文（または探究プレゼン・作文選択）＋面接＋資格等の加点（発達教育）",
+      "req": "出願前の事前相談必須、評定要件なし、併願可",
+      "url": "https://www.uekusa.ac.jp/entrance_exam/admission_guide/"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "発達教育学部 発達支援教育学科",
+      "kubun": "一般",
+      "name": "A日程（1教科方式）",
+      "n": 1,
+      "subj": "面接100点＋国語(近代以降の文章)または英語コミュニケーションⅠ・Ⅱから1科目100点（計200点）",
+      "kt": null,
+      "eng": null
+     },
+     {
+      "f": "全学部",
+      "kubun": "共テ利用",
+      "name": "A日程・B日程",
+      "n": 3,
+      "subj": "本学個別試験なし",
+      "kt": "英語・国語(近代以降の文章)・数ⅠA・理科から2〜3教科（発達教育・保健医療200点、看護300点）",
+      "eng": null
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜入学試験 1期",
+      "apply": "9/1〜9/11",
+      "exam": "9/19",
+      "result": null,
+      "proc": null,
+      "fee": 35000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜入学試験 3期",
+      "apply": "11/2〜12/7",
+      "exam": "12/12",
+      "result": "12/15",
+      "proc": null,
+      "fee": 35000
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜入学試験（公募推薦）",
+      "apply": "11/1〜11/11",
+      "exam": "11/19",
+      "result": "12/1",
+      "proc": null,
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜入学試験 A日程",
+      "apply": "1/5〜1/25",
+      "exam": "2/2",
+      "result": "2/5",
+      "proc": null,
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜入学試験 B日程",
+      "apply": "2/5〜2/22",
+      "exam": null,
+      "result": "3/3",
+      "proc": "3/3〜3/11",
+      "fee": 35000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入学試験 A日程",
+      "apply": "12/16〜1/13",
+      "exam": "本学個別試験なし",
+      "result": "2/5",
+      "proc": "〜2/12",
+      "fee": 0
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入学試験 B日程",
+      "apply": "2/8〜2/22",
+      "exam": "本学個別試験なし",
+      "result": "3/3",
+      "proc": "3/3〜3/12",
+      "fee": 0
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "発達教育学部 発達支援教育学科",
+      "admission": 270000,
+      "tuition": 800000,
+      "facility": 320000,
+      "practical": 0,
+      "other": 30300,
+      "first_year": 1420300,
+      "four_year": null
+     },
+     {
+      "f": "保健医療学部 リハビリテーション学科（理学療法学専攻・作業療法学専攻）",
+      "admission": 270000,
+      "tuition": 850000,
+      "facility": 750000,
+      "practical": 0,
+      "other": 30370,
+      "first_year": 1900370,
+      "four_year": null
+     },
+     {
+      "f": "看護学部 看護学科",
+      "admission": 270000,
+      "tuition": 850000,
+      "facility": 660000,
+      "practical": 0,
+      "other": 29500,
+      "first_year": 1809500,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "新入生対象スカラシップ制度",
+      "kind": "減免",
+      "target": "一般選抜A日程・共通テスト利用A日程の合格者",
+      "amount": "入学金27万円＋最大4年間の授業料（年80〜85万円）全額免除",
+      "timing": "入試時",
+      "cond": "対象入試における合格者の成績上位20％以内"
+     },
+     {
+      "name": "在学生対象スカラシップ制度",
+      "kind": "給付",
+      "target": "各年次（卒業年次および新入生対象スカラシップ適用者を除く）",
+      "amount": "翌年度に200,000円を給付",
+      "timing": "在学中",
+      "cond": "各年次の成績上位5％以内"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-08-23",
+      "type": "来場",
+      "title": "2026年8月23日オープンキャンパス"
+     },
+     {
+      "date": "2026-12-19",
+      "type": "来場",
+      "title": "2026年12月19日miniオープンキャンパス"
+     }
+    ],
+    "url": "https://www.uekusa.ac.jp/open_campus/3683/"
+   },
+   "access": "千葉若葉キャンパスは千葉都市モノレール千城台北駅から徒歩10分、看護キャンパスはJR東千葉駅から徒歩9分。",
+   "licenses": [
+    "小学校教諭一種免許状（発達支援教育学科）",
+    "特別支援学校教諭一種免許状（発達支援教育学科）",
+    "幼稚園教諭一種免許状（発達支援教育学科）",
+    "保育士（発達支援教育学科）",
+    "認定心理士・准学校心理士・社会福祉主事任用資格・児童指導員任用資格（発達支援教育学科）",
+    "理学療法士受験資格（リハビリテーション学科理学療法学専攻）",
+    "作業療法士受験資格（リハビリテーション学科作業療法学専攻）",
+    "音楽療法士・トレーナー・おもちゃインストラクター等（保健医療学部）",
+    "看護師・保健師受験資格（看護学科）"
+   ],
+   "careers": "小学校や児童福祉施設、病院、一般企業など専門資格を活かした分野へ就職している。",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.uekusa.ac.jp/entrance_exam/admission_guide/",
+    "https://www.uekusa.ac.jp/wp/wp-content/uploads/2026/08/mini_guidebook2027.pdf",
+    "https://www.uekusa.ac.jp/wp/wp-content/uploads/2026/08/examinationannda_guidelines_20260824.pdf",
+    "https://www.uekusa.ac.jp/entrance_exam/application/",
+    "https://www.uekusa.ac.jp/entrance_exam/admission_guide/scholarship/",
+    "https://www.uekusa.ac.jp/school_life/tuition/",
+    "https://www.uekusa.ac.jp/open_campus/3683/",
+    "https://www.uekusa.ac.jp/open_campus/3677/",
+    "https://www.uekusa.ac.jp/academics/dev_ed/",
+    "https://www.uekusa.ac.jp/wp/wp-content/uploads/2026/07/r6_uekusa_shinro.pdf",
+    "https://www.uekusa.ac.jp/wp/wp-content/uploads/2026/08/r7_uekusa_shinro_hoken-sagyou.pdf",
+    "https://search.keinet.ne.jp/2141/general/border_rate",
+    "https://search.keinet.ne.jp/2141/outline/campus",
+    "https://search.keinet.ne.jp/2141/outline/expense",
+    "https://passnavi.obunsha.co.jp/univ/2089/difficulty/",
+    "https://passnavi.obunsha.co.jp/univ/2089/department/",
+    "https://passnavi.obunsha.co.jp/univ/2089/subject/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3217/gakuhi/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3217/nyushi/",
+    "https://shingakunet.com/gakko/SC005283/nanido/",
+    "https://shingakunet.com/gakko/SC005283/gakuhi/",
+    "https://www.sanpou-s.net/school/detail/1453/exam/",
+    "https://aoaoi.jp/preparation/uekusa/"
+   ]
+  },
+  "sources": [
+   "https://www.uekusa.ac.jp/entrance_exam/admission_guide/",
+   "https://www.uekusa.ac.jp/wp/wp-content/uploads/2026/08/mini_guidebook2027.pdf",
+   "https://www.uekusa.ac.jp/wp/wp-content/uploads/2026/08/examinationannda_guidelines_20260824.pdf",
+   "https://www.uekusa.ac.jp/entrance_exam/application/",
+   "https://www.uekusa.ac.jp/entrance_exam/admission_guide/scholarship/",
+   "https://www.uekusa.ac.jp/school_life/tuition/",
+   "https://www.uekusa.ac.jp/open_campus/3683/",
+   "https://www.uekusa.ac.jp/open_campus/3677/",
+   "https://www.uekusa.ac.jp/academics/dev_ed/",
+   "https://www.uekusa.ac.jp/wp/wp-content/uploads/2026/07/r6_uekusa_shinro.pdf",
+   "https://www.uekusa.ac.jp/wp/wp-content/uploads/2026/08/r7_uekusa_shinro_hoken-sagyou.pdf",
+   "https://search.keinet.ne.jp/2141/general/border_rate",
+   "https://search.keinet.ne.jp/2141/outline/campus",
+   "https://search.keinet.ne.jp/2141/outline/expense",
+   "https://passnavi.obunsha.co.jp/univ/2089/difficulty/",
+   "https://passnavi.obunsha.co.jp/univ/2089/department/",
+   "https://passnavi.obunsha.co.jp/univ/2089/subject/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3217/gakuhi/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3217/nyushi/",
+   "https://shingakunet.com/gakko/SC005283/nanido/",
+   "https://shingakunet.com/gakko/SC005283/gakuhi/",
+   "https://www.sanpou-s.net/school/detail/1453/exam/",
+   "https://aoaoi.jp/preparation/uekusa/"
+  ]
+ },
+ {
+  "name": "桜美林大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": null,
+  "pref_name": "東京都",
+  "city": null,
+  "hp": "https://www.obirin.ac.jp/",
+  "reading": "おうびりんだいがく",
+  "features": [
+   "多様な7学群を設置する総合大学。",
+   "総合型基礎力評価方式で英語検定活用可。",
+   "国際学生向けの授業料減免制度を実施。"
+  ],
+  "memo": "検索回数上限に達し公式の入試日程・学費明細・アクセス・資格・進路等の詳細が未取得。",
+  "info": {
+   "faculties": [
+    "リベラルアーツ学群",
+    "教育探究科学群",
+    "グローバル・コミュニケーション学群",
+    "ビジネスマネジメント学群",
+    "健康福祉学群",
+    "芸術文化学群",
+    "航空学群"
+   ],
+   "departments": [
+    {
+     "f": "リベラルアーツ学群",
+     "d": [
+      "人文領域",
+      "社会領域",
+      "自然領域"
+     ]
+    },
+    {
+     "f": "教育探究科学群",
+     "d": []
+    },
+    {
+     "f": "グローバル・コミュニケーション学群",
+     "d": []
+    },
+    {
+     "f": "ビジネスマネジメント学群",
+     "d": []
+    },
+    {
+     "f": "健康福祉学群",
+     "d": []
+    },
+    {
+     "f": "芸術文化学群",
+     "d": []
+    },
+    {
+     "f": "航空学群",
+     "d": []
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜47.5",
+    "kyotei": "38%〜70%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": [],
+    "note": "共通テスト利用（3科目型・4科目型・5科目型）や併用型（2科目型テ＋・3科目型テ＋）を実施。"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（2科目型・3科目型・2科目型テ＋・3科目型テ＋・後期等）",
+      "kyotsu": "方式により課さない、または共通テスト併用",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://admissions.obirin.ac.jp/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（3科目型・4科目型・5科目型）",
+      "kyotsu": "3〜5科目",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://admissions.obirin.ac.jp/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜基礎力評価方式",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "基礎力審査（マークシート式80分・学群指定の2科目選択、各100点満点）",
+      "req": null,
+      "url": "https://admissions.obirin.ac.jp/events/10184/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（後期）",
+      "apply": "2/24〜3/3",
+      "exam": "3/10",
+      "result": "3/15",
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "国際学生奨学生選抜",
+      "kind": "減免",
+      "target": "国際学生（1年次入学者）",
+      "amount": "最大4年間、各学期の授業料を10〜100％減免",
+      "timing": "入試時",
+      "cond": "国際学生奨学生選抜の合格者"
+     }
+    ]
+   },
+   "eng": {
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜基礎力評価方式",
+      "use": "得点換算",
+      "level": null,
+      "tests": "英語資格・検定試験（級・スコアによるみなし点活用で英語受験任意）"
+     }
+    ]
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://admissions.obirin.ac.jp/events/10184/",
+    "https://admissions.obirin.ac.jp/admissions/%E5%9B%BD%E9%9A%9B%E5%AD%A6%E7%94%9F%E9%81%B8%E6%8A%9C%EF%BC%88%E5%A5%A8%E5%AD%A6%E7%94%9F%E3%83%BB%E7%B7%A8%E5%85%A5%E5%AD%A6%E5%90%AB%E3%82%80%EF%BC%89-2/",
+    "https://search.keinet.ne.jp/2203/general/border_rate",
+    "https://search.keinet.ne.jp/2203/outline/expense",
+    "https://passnavi.obunsha.co.jp/univ/2300/difficulty/",
+    "https://shingakunet.com/gakko/SC000268/nanido/gakubu_80/",
+    "https://www.best-shingaku.net/special/fa_p015nyushicalendar_list.php?daigakucode=3234"
+   ]
+  },
+  "sources": [
+   "https://admissions.obirin.ac.jp/events/10184/",
+   "https://admissions.obirin.ac.jp/admissions/%E5%9B%BD%E9%9A%9B%E5%AD%A6%E7%94%9F%E9%81%B8%E6%8A%9C%EF%BC%88%E5%A5%A8%E5%AD%A6%E7%94%9F%E3%83%BB%E7%B7%A8%E5%85%A5%E5%AD%A6%E5%90%AB%E3%82%80%EF%BC%89-2/",
+   "https://search.keinet.ne.jp/2203/general/border_rate",
+   "https://search.keinet.ne.jp/2203/outline/expense",
+   "https://passnavi.obunsha.co.jp/univ/2300/difficulty/",
+   "https://shingakunet.com/gakko/SC000268/nanido/gakubu_80/",
+   "https://www.best-shingaku.net/special/fa_p015nyushicalendar_list.php?daigakucode=3234"
+  ]
+ },
+ {
+  "name": "桐蔭横浜大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": null,
+  "pref_name": "神奈川県",
+  "city": null,
+  "hp": "https://toin.ac.jp/univ/",
+  "reading": "とういんよこはまだいがく",
+  "features": [
+   "2027年度から入学金を10万円へ改定。",
+   "2027年度は一般・総合型の検定料も減額。",
+   "その他の特色は検索上限のため詳細未確認。"
+  ],
+  "memo": "2027年度は入学金半額(10万円)・検定料減額。検索上限で日程・学費等未取得。",
+  "info": {
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜入試",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://toin.ac.jp/ouen/update/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜入試",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://toin.ac.jp/ouen/update/"
+     }
+    ]
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://toin.ac.jp/ouen/update/"
+   ]
+  },
+  "sources": [
+   "https://toin.ac.jp/ouen/update/"
+  ]
+ },
+ {
+  "name": "ぐんま未来大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "群馬県みどり市",
+  "pref_name": "群馬県",
+  "city": "みどり市",
+  "hp": "https://www.gmu.ac.jp/",
+  "reading": "ぐんまみらい",
+  "features": [
+   "2026年4月に「ぐんま未来大学」へ改称。",
+   "看護学科と栄養学科を設置を確認済み。",
+   "一般Ⅰ期優秀者への授業料給付制度あり。"
+  ],
+  "memo": "2026年4月「ぐんま未来大学」へ改称。検索上限で日程・学費等未取得。",
+  "info": {
+   "departments": [
+    {
+     "f": null,
+     "d": [
+      "看護学科",
+      "栄養学科"
+     ]
+    }
+   ],
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅰ期",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.gmu.ac.jp/information/61296.html"
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "2027年度入学者対象奨学生制度",
+      "kind": "給付",
+      "target": "看護学科・栄養学科の一般選抜Ⅰ期受験者",
+      "amount": "1年間の授業料相当額を給付",
+      "timing": "入試時",
+      "cond": "2027年度一般選抜Ⅰ期において優秀な成績を収めた者"
+     }
+    ]
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.gmu.ac.jp/information/57062.html",
+    "https://www.gmu.ac.jp/information/61296.html",
+    "https://www.gmu.ac.jp/admission/infection/",
+    "https://www.kyodo.co.jp/news/2025-04-25_3933883/"
+   ]
+  },
+  "sources": [
+   "https://www.gmu.ac.jp/information/57062.html",
+   "https://www.gmu.ac.jp/information/61296.html",
+   "https://www.gmu.ac.jp/admission/infection/",
+   "https://www.kyodo.co.jp/news/2025-04-25_3933883/"
+  ],
+  "aliases": [
+   "桐生大学"
+  ]
+ },
+ {
+  "name": "桐朋学園大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": null,
+  "pref_name": "東京都",
+  "city": null,
+  "hp": "https://www.tohomusic.ac.jp/",
+  "reading": "とうほうがくえんだいがく",
+  "features": [
+   "ピアノ・弦管打楽器・声楽等を学ぶ音大。",
+   "総合型（特待生）で授業料等の免除あり。",
+   "高校2年次対象の飛び入学選抜も実施。"
+  ],
+  "memo": "検索上限により学費・偏差値・出願期間・発表日・手続締切・検定料等の詳細が未取得。",
+  "info": {
+   "departments": [
+    {
+     "f": null,
+     "d": [
+      "ピアノ",
+      "弦楽器",
+      "管楽器",
+      "打楽器",
+      "ハープ",
+      "古楽器",
+      "声楽",
+      "指揮",
+      "作曲",
+      "ミュージコロジー"
+     ]
+    }
+   ],
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/sougougata2027/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（総合型入試A日程・B日程）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "高校卒業（2027年3月卒業見込み含む）等かつ本学専願",
+      "url": "https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/sougougata2027/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（特待生）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "一次試験：書類審査、二次試験：専攻実技・面接",
+      "req": "2027年3月高校卒業見込で専願、コンクール・演奏活動で顕著な実績を有する者",
+      "url": "https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/tokutai2027/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（飛び入学）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "高校2年（中等教育学校5年）在学で2027年3月31日において満17歳以下の者",
+      "url": "https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/tobikyu2027/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（総合型入試A日程）",
+      "apply": null,
+      "exam": "10/31〜11/1",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "apply": null,
+      "exam": "2/9〜2/13",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（総合型入試B日程）",
+      "apply": null,
+      "exam": "3/20",
+      "result": null,
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "総合型選抜（特待生）学納金免除",
+      "kind": "減免",
+      "target": "総合型選抜（特待生）合格者",
+      "amount": "初年度の授業料全額または一部の学納金を免除",
+      "timing": "入試時",
+      "cond": "入試成績により決定。翌年度以降は入学後の実技試験等の成績により毎年審査"
+     }
+    ]
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/sougougata2027/",
+    "https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/tokutai2027/",
+    "https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/tobikyu2027/"
+   ]
+  },
+  "sources": [
+   "https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/sougougata2027/",
+   "https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/tokutai2027/",
+   "https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/tobikyu2027/"
+  ]
+ }
+]

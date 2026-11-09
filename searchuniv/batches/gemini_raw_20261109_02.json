@@ -1,0 +1,942 @@
+[
+ {
+  "name": "北洋大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "北海道苫小牧市",
+  "pref_name": "北海道",
+  "city": "苫小牧市",
+  "hp": "https://hokuyo.ac.jp/",
+  "reading": "ほくようだいがく",
+  "features": [
+   "キャリア創造学科に国際経営・国際コミュニケーション・観光の3コースを設置。",
+   "コースをまたぐトリプルメジャーや、海外協定大学への交換留学（学費不要）が可能。",
+   "登録日本語教員を養成し、人物・学業優秀者向けの北洋大学特別奨学金がある。"
+  ],
+  "memo": "一般・推薦・総合型を実施。2027年度の試験日・合格発表等の未確認項目は公式要項で要確認。",
+  "info": {
+   "faculties": [
+    "国際文化学部"
+   ],
+   "departments": [
+    {
+     "f": "国際文化学部",
+     "d": [
+      "キャリア創造学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": null,
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": null,
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型Ａ日程",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型Ｃ日程",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型公募Ａ",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "1教科・面接",
+      "req": null,
+      "url": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型公募Ｂ",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 Ａ日程",
+      "kyotsu": "課さない",
+      "niji": "1教科",
+      "content": null,
+      "req": null,
+      "url": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 Ｂ日程",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 ＬＣ",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": null
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "国際文化学部 キャリア創造学科",
+      "kubun": "一般",
+      "name": "一般 Ａ日程",
+      "n": 1,
+      "subj": "個別1教科（科目・配点詳細未確認）",
+      "kt": "",
+      "eng": null
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型Ａ日程",
+      "apply": "9/15〜10/13",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型Ｃ日程",
+      "apply": "2/16〜3/1",
+      "exam": null,
+      "result": null,
+      "proc": "3/26",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型公募Ａ",
+      "apply": null,
+      "exam": null,
+      "result": null,
+      "proc": "12/10",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型公募Ｂ",
+      "apply": "11/17〜12/7",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 Ａ日程",
+      "apply": "1/8〜2/1",
+      "exam": null,
+      "result": null,
+      "proc": "2/25",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 Ｂ日程",
+      "apply": "2/16〜3/1",
+      "exam": null,
+      "result": null,
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 ＬＣ",
+      "apply": "3/2〜3/15",
+      "exam": null,
+      "result": "3/23",
+      "proc": "3/26",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "国際文化学部 キャリア創造学科",
+      "admission": 200000,
+      "tuition": 680000,
+      "facility": 230000,
+      "practical": 20000,
+      "other": null,
+      "first_year": 1130000,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": null,
+    "rows": [
+     {
+      "name": "北洋大学特別奨学金Ⅰ種",
+      "kind": "給付",
+      "target": "全学部",
+      "amount": "年額5万円〜10万円給付（1か年）",
+      "timing": "在学中",
+      "cond": "各学年3名以内"
+     },
+     {
+      "name": "北洋大学特別奨学金Ⅱ種",
+      "kind": "減免",
+      "target": "全学部",
+      "amount": "年間授業料の4分の1額減免（4か年・毎年更新）",
+      "timing": null,
+      "cond": null
+     }
+    ]
+   },
+   "eng": {
+    "rows": []
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-08-08",
+      "type": "来場",
+      "title": "オープンキャンパス（PM）"
+     },
+     {
+      "date": "2026-08-22",
+      "type": "来場",
+      "title": "オープンキャンパス（PM）"
+     },
+     {
+      "date": "2026-09-12",
+      "type": "来場",
+      "title": "オープンキャンパス（開催中止）"
+     },
+     {
+      "date": "2026-10-10",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     }
+    ],
+    "url": "https://hokuyo.ac.jp/applicants/opencampus/"
+   },
+   "access": "JR苫小牧駅・錦岡駅から道南バス「北洋大学」下車（北海道苫小牧市錦西町3-2-1）",
+   "licenses": [
+    "登録日本語教員（国家資格）養成（キャリア創造学科）"
+   ],
+   "careers": null
+  },
+  "sources": [
+   "https://hokuyo.ac.jp/",
+   "https://hokuyo.ac.jp/applicants/tuition/",
+   "https://hokuyo.ac.jp/applicants/scholarship/",
+   "https://hokuyo.ac.jp/applicants/opencampus/",
+   "https://hokuyo.ac.jp/news/2437/",
+   "https://search.keinet.ne.jp/2018/outline/expense",
+   "https://search.keinet.ne.jp/2018/outline/campus",
+   "https://passnavi.obunsha.co.jp/univ/1545/department/",
+   "https://passnavi.obunsha.co.jp/univ/1545/scholarship/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3018/nyushi/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3018/nyushi/hoshiki/gakkou-suisen/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3018/nyushi/hoshiki/ippan/"
+  ]
+ },
+ {
+  "name": "北海商科大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "北海道札幌市豊平区",
+  "pref_name": "北海道",
+  "city": "札幌市豊平区",
+  "hp": "https://www.hokkai.ac.jp/",
+  "reading": "ほっかいしょうかだいがく",
+  "features": [
+   "札幌都心に近い都市型キャンパスで、地下鉄東豊線「学園前」駅直結の好立地にある。",
+   "商学部（商学科・観光産業学科）を擁し、隣接する北海学園大学の共有施設も利用可。",
+   "一般・共テⅠ期の上位合格者は、1年次授業料等の全額または半額が免除される。"
+  ],
+  "memo": "一般〔3教科型〕と〔2教科型〕の併願は検定料2万円割引。成績優秀者奨学金は申込不要。",
+  "info": {
+   "faculties": [
+    "商学部"
+   ],
+   "departments": [
+    {
+     "f": "商学部",
+     "d": [
+      "商学科",
+      "観光産業学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜37.5",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "共通テスト利用選抜Ⅰ期は2〜3教科3科目（600点）、Ⅱ期は2教科2科目（400点）",
+    "kyoka": [
+     2,
+     3
+    ],
+    "note": "共通テスト利用選抜は個別試験を課さない"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜〔Ⅰ期〕",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "小論文、面接、その他",
+      "req": "自己推薦（特記すべき活動等）、自己推薦書、試験日までに事前指導に参加",
+      "url": "https://www.hokkai.ac.jp/nyugaku/nyugaku01-2/gaiyou/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜〔Ⅱ期〕",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "小論文、面接、その他",
+      "req": "単願、自己推薦（特記すべき活動等）、自己推薦書、試験日までに事前指導に参加",
+      "url": "https://www.hokkai.ac.jp/nyugaku/nyugaku01-2/gaiyou/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜〔3教科型〕",
+      "kyotsu": "課さない",
+      "niji": "個別3教科（300点）",
+      "content": null,
+      "req": "2教科型との併願は検定料2万円割引",
+      "url": "https://www.hokkai.ac.jp/nyugaku/nyugaku01-03/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜〔2教科型〕",
+      "kyotsu": "課さない",
+      "niji": "個別2教科（200点）",
+      "content": null,
+      "req": "3教科型との併願は検定料2万円割引",
+      "url": "https://www.hokkai.ac.jp/nyugaku/nyugaku01-03/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜〔Ⅰ期〕",
+      "kyotsu": "2〜3教科（3科目）",
+      "niji": null,
+      "content": null,
+      "req": "個別試験は課さない",
+      "url": "https://www.hokkai.ac.jp/nyugaku/nyugaku01-2/gaiyou/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜〔Ⅱ期〕",
+      "kyotsu": "2教科（2科目）",
+      "niji": null,
+      "content": null,
+      "req": "個別試験は課さない",
+      "url": "https://www.hokkai.ac.jp/nyugaku/nyugaku01-2/gaiyou/"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "商学部（商学科・観光産業学科）",
+      "kubun": "一般",
+      "name": "一般選抜〔3教科型〕",
+      "n": 3,
+      "subj": "個別3教科300点（科目・配点詳細未確認）",
+      "kt": "",
+      "eng": null
+     },
+     {
+      "f": "商学部（商学科・観光産業学科）",
+      "kubun": "一般",
+      "name": "一般選抜〔2教科型〕",
+      "n": 2,
+      "subj": "個別2教科200点（科目・配点詳細未確認）",
+      "kt": "",
+      "eng": null
+     },
+     {
+      "f": "商学部（商学科・観光産業学科）",
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜〔Ⅰ期〕",
+      "n": 3,
+      "subj": "共通テスト3科目600点",
+      "kt": "2〜3教科3科目（科目詳細未確認）",
+      "eng": null
+     },
+     {
+      "f": "商学部（商学科・観光産業学科）",
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜〔Ⅱ期〕",
+      "n": 2,
+      "subj": "共通テスト2科目400点",
+      "kt": "2教科2科目（科目詳細未確認）",
+      "eng": null
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜〔Ⅰ期〕",
+      "apply": null,
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜〔3教科型〕",
+      "apply": "1/4〜2/1",
+      "exam": "2/8",
+      "result": "2/17",
+      "proc": null,
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜〔2教科型〕",
+      "apply": "1/4〜2/1",
+      "exam": "2/8",
+      "result": "2/17",
+      "proc": null,
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜〔Ⅰ期〕",
+      "apply": "1/4〜2/1",
+      "exam": "個別試験なし（共通テスト）",
+      "result": "2/17",
+      "proc": "2/26",
+      "fee": 12000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜〔Ⅱ期〕",
+      "apply": "2/17〜3/10",
+      "exam": "個別試験なし（共通テスト）",
+      "result": "3/13",
+      "proc": "3/19",
+      "fee": 12000
+     }
+    ]
+   },
+   "money": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "商学部（商学科・観光産業学科）",
+      "admission": 220000,
+      "tuition": 872000,
+      "facility": 100000,
+      "practical": null,
+      "other": 30000,
+      "first_year": 1222000,
+      "four_year": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": null,
+    "rows": [
+     {
+      "name": "入学者選抜 成績優秀者奨学金",
+      "kind": "減免",
+      "target": "全学部",
+      "amount": "1年次授業料等全額（1,002,000円）または半額（501,000円）免除",
+      "timing": "入試時",
+      "cond": "一般〔3教科型〕〔2教科型〕および共テ利用〔Ⅰ期〕合格者のうち得点率80%以上または上位10%程度（申込不要・修学支援新制度と併用不可）"
+     },
+     {
+      "name": "特別奨学金（入学試験成績優秀者）",
+      "kind": "給付",
+      "target": "全学部",
+      "amount": "年額300,000円（月額2.5万円・1年次）",
+      "timing": "入試時",
+      "cond": "一般選抜または共テ利用選抜で極めて優秀な成績を収めた入学者（2名）"
+     }
+    ]
+   },
+   "eng": {
+    "rows": []
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-06-14",
+      "type": "来場",
+      "title": "第1回オープンキャンパス"
+     },
+     {
+      "date": "2027-03-28",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": null,
+      "type": "オンライン",
+      "title": "WEBオープンキャンパス（通年開催）"
+     }
+    ],
+    "url": "https://hokkai-oc.com/open-campus/"
+   },
+   "access": "豊平キャンパス：地下鉄東豊線「学園前」駅直結、さっぽろ駅から地下鉄で6分（北海道札幌市豊平区豊平6条6-10）",
+   "licenses": [],
+   "careers": "イオン北海道、アインファーマシーズ、トランスコスモス、北海道職員、ANAテレマート、東京都、国税専門官、北海道旅客鉄道などの就職実績がある。"
+  },
+  "sources": [
+   "https://www.hokkai.ac.jp/",
+   "https://www.hokkai.ac.jp/nyugaku/nyugaku01-2/gaiyou/",
+   "https://www.hokkai.ac.jp/nyugaku/nyugaku01-03/",
+   "https://www.hokkai.ac.jp/nyugaku/nyugaku01-07/",
+   "https://www.hokkai.ac.jp/nyugaku/nyugaku01-08/",
+   "https://www.hokkai.ac.jp/daigaku/daigaku05/daigaku05-01/08_03/",
+   "https://www.hokkai.ac.jp/news/2026/03/26/260326/",
+   "https://hokkai-oc.com/web_entry/PDF/all/01_0_youkou2027.pdf",
+   "https://hokkai-oc.com/open-campus/",
+   "https://search.keinet.ne.jp/2009/general/border_rate",
+   "https://passnavi.obunsha.co.jp/univ/1600/difficulty/",
+   "https://passnavi.obunsha.co.jp/univ/1600/shinro/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3010/nyushi/hoshiki/sougou/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3010/nyushi/hoshiki/ippan/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3010/nyushi/hoshiki/kyotsu-test/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3010/nyushi/shou/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3010/gakuhi/",
+   "https://manabi.benesse.ne.jp/daigaku/OpenCampusSearch/kaijo/hokkaido/",
+   "https://manabi.benesse.ne.jp/daigaku/OpenCampusSearch/web/shiritsu/keizai/",
+   "https://telemail.jp/shingaku/university/10001056/examination/general"
+  ]
+ },
+ {
+  "name": "北海道千歳リハビリテーション大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "北海道",
+  "pref_name": "北海道",
+  "city": null,
+  "hp": "https://www.chitose-reha.ac.jp/",
+  "reading": "ほっかいどうちとせりはびりてーしょんだいがく",
+  "features": [
+   "健康科学部リハビリテーション学科に理学療法学・作業療法学の2専攻を設置。",
+   "2027年度入試からインターネット出願（WEB出願）を導入している。",
+   "3/31までの入学辞退届提出で、入学金を含む納付金の全額返還制度がある。"
+  ],
+  "memo": "令和9年度からWEB出願開始。学費・推薦・総合型等の未確認情報は公式サイトで要確認。",
+  "info": {
+   "faculties": [
+    "健康科学部"
+   ],
+   "departments": [
+    {
+     "f": "健康科学部",
+     "d": [
+      "リハビリテーション学科 理学療法学専攻",
+      "リハビリテーション学科 作業療法学専攻"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜35.0",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": null,
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般 前期",
+      "kyotsu": "課さない",
+      "niji": "個別2教科（200点）",
+      "content": null,
+      "req": null,
+      "url": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 後期",
+      "kyotsu": "課さない",
+      "niji": "個別2教科（200点）",
+      "content": null,
+      "req": null,
+      "url": null
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "健康科学部 リハビリテーション学科 理学療法学専攻",
+      "kubun": "一般",
+      "name": "一般 前期",
+      "n": 2,
+      "subj": "個別2教科200点（国語は古文・漢文除く、数Aは場合の数と確率・数学と人間の活動・図形の性質、生物は生物基礎等）",
+      "kt": "",
+      "eng": null
+     },
+     {
+      "f": "健康科学部 リハビリテーション学科 理学療法学専攻",
+      "kubun": "一般",
+      "name": "一般 後期",
+      "n": 2,
+      "subj": "個別2教科200点（国語は古文・漢文除く、数Aは場合の数と確率・数学と人間の活動・図形の性質、生物は生物基礎等）",
+      "kt": "",
+      "eng": null
+     },
+     {
+      "f": "健康科学部 リハビリテーション学科 作業療法学専攻",
+      "kubun": "一般",
+      "name": "一般 前期",
+      "n": 2,
+      "subj": "個別2教科200点（国語は古文・漢文除く、数Aは場合の数と確率・数学と人間の活動・図形の性質、生物は生物基礎等）",
+      "kt": "",
+      "eng": null
+     },
+     {
+      "f": "健康科学部 リハビリテーション学科 作業療法学専攻",
+      "kubun": "一般",
+      "name": "一般 後期",
+      "n": 2,
+      "subj": "個別2教科200点（国語は古文・漢文除く、数Aは場合の数と確率・数学と人間の活動・図形の性質、生物は生物基礎等）",
+      "kt": "",
+      "eng": null
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般 前期（理学療法学専攻・作業療法学専攻）",
+      "apply": "1/5〜1/29",
+      "exam": "2/4",
+      "result": "2/12",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 後期（理学療法学専攻・作業療法学専攻）",
+      "apply": "2/1〜2/26",
+      "exam": "3/4",
+      "result": "3/9",
+      "proc": "3/19",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": null,
+    "rows": []
+   },
+   "scholar": {
+    "year": null,
+    "rows": []
+   },
+   "eng": {
+    "rows": []
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": null
+   },
+   "access": null,
+   "licenses": [],
+   "careers": null
+  },
+  "sources": [
+   "https://www.chitose-reha.ac.jp/",
+   "https://www.chitose-reha.ac.jp/examination/qa/",
+   "https://search.keinet.ne.jp/2011/general/border_rate",
+   "https://passnavi.obunsha.co.jp/univ/1621/top/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3027/nyushi/hoshiki/ippan/"
+  ]
+ },
+ {
+  "name": "北海道武蔵女子大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "北海道札幌市北区",
+  "pref_name": "北海道",
+  "city": "札幌市北区",
+  "hp": "https://www.hmu.ac.jp/",
+  "reading": "ほっかいどうむさしじょしだいがく",
+  "features": [
+   "札幌市北区にキャンパスを構え、経営学部経営学科を設置する私立大学。",
+   "一般選抜（経営）は個別3教科300点満点で選抜を行う（募集人員30名）。",
+   "河合塾の入試難易度では経営学部のボーダー偏差値は35.0となっている。"
+  ],
+  "memo": "一般選抜（経営）の日程を確認済み。学費・推薦・総合型等の未確認情報は公式要項で要確認。",
+  "info": {
+   "faculties": [
+    "経営学部"
+   ],
+   "departments": [
+    {
+     "f": "経営学部",
+     "d": [
+      "経営学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": null,
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般 経営",
+      "kyotsu": "課さない",
+      "niji": "個別3教科（300点）",
+      "content": null,
+      "req": null,
+      "url": null
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "経営学部 経営学科",
+      "kubun": "一般",
+      "name": "一般 経営",
+      "n": 3,
+      "subj": "個別3教科300点（科目・配点詳細未確認）",
+      "kt": "",
+      "eng": null
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般 経営",
+      "apply": "1/7〜1/29",
+      "exam": "2/12",
+      "result": "2/22",
+      "proc": "3/3",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": null,
+    "rows": []
+   },
+   "scholar": {
+    "year": null,
+    "rows": []
+   },
+   "eng": {
+    "rows": []
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": null
+   },
+   "access": "札幌市北区北22条西13丁目（最寄り駅未確認）",
+   "licenses": [],
+   "careers": null
+  },
+  "sources": [
+   "https://www.hmu.ac.jp/",
+   "https://www.hmu.ac.jp/news-exam/24723/",
+   "https://passnavi.obunsha.co.jp/univ/1638/difficulty/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3028/nyushi/hoshiki/ippan/"
+  ]
+ },
+ {
+  "name": "北翔大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "北海道",
+  "pref_name": "北海道",
+  "city": null,
+  "hp": "https://www.hokusho-u.ac.jp/",
+  "reading": "ほくしょうだいがく",
+  "features": [
+   "生涯スポーツ学部（生涯スポーツ学科）と教育文化学部の2学部を擁する大学。",
+   "教育文化学部には教育学科・芸術学科・心理カウンセリング学科の3学科を設置。",
+   "2027年度総合型選抜では各学科で実技・小論文・面接・調査書等で選考を行う。"
+  ],
+  "memo": "2027年度総合型第3期の日程・選考を確認済み。学費・一般・推薦等は公式要項で要確認。",
+  "info": {
+   "faculties": [
+    "生涯スポーツ学部",
+    "教育文化学部"
+   ],
+   "departments": [
+    {
+     "f": "生涯スポーツ学部",
+     "d": [
+      "生涯スポーツ学科"
+     ]
+    },
+    {
+     "f": "教育文化学部",
+     "d": [
+      "教育学科",
+      "芸術学科",
+      "心理カウンセリング学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": null,
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": null,
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型（生涯スポーツ学科）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "実技、面接、調査書、その他",
+      "req": null,
+      "url": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型（教育学科）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "小論文、実技、面接、調査書、その他",
+      "req": "単願（詳細未確認）",
+      "url": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型（芸術学科）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "実技、面接、調査書、その他",
+      "req": "単願・選択科目により制限あり",
+      "url": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型（心理カウンセリング学科）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "面接、調査書、その他",
+      "req": "単願（詳細未確認）",
+      "url": null
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": []
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型（生涯スポーツ学科・教育学科・芸術学科・心理カウンセリング学科 第3期方式）",
+      "apply": "12/1〜1/7",
+      "exam": "12月〜1/13（学校指定）",
+      "result": "2/3",
+      "proc": "3/24",
+      "fee": null
+     }
+    ]
+   },
+   "money": {
+    "year": null,
+    "rows": []
+   },
+   "scholar": {
+    "year": null,
+    "rows": []
+   },
+   "eng": {
+    "rows": []
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": null
+   },
+   "access": null,
+   "licenses": [],
+   "careers": null
+  },
+  "sources": [
+   "https://www.hokusho-u.ac.jp/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3017/nyushi/hoshiki/sougou/"
+  ]
+ }
+]
