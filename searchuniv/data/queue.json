@@ -1,27 +1,6 @@
 {
 "add": [
 {
-"name": "千葉工業大学",
-"type": "私立",
-"pref": "千葉県",
-"hp": "https://www.it-chiba.ac.jp/",
-"cat": "private"
-},
-{
-"name": "千葉科学大学",
-"type": "私立",
-"pref": "千葉県",
-"hp": "https://www.cis.ac.jp/",
-"cat": "private"
-},
-{
-"name": "千葉経済大学",
-"type": "私立",
-"pref": "千葉県",
-"hp": "https://www.cku.ac.jp/",
-"cat": "private"
-},
-{
 "name": "和光大学",
 "type": "私立",
 "pref": "東京都",
@@ -704,6 +683,13 @@
 "type": "私立",
 "pref": "東京都",
 "hp": "https://www.luther.ac.jp/",
+"cat": "private"
+},
+{
+"name": "千葉科学大学",
+"type": "私立",
+"pref": "千葉県",
+"hp": "https://www.cis.ac.jp/",
 "cat": "private"
 }
 ],
@@ -3386,6 +3372,69 @@
 "need": [
 "schedule_dates"
 ]
+},
+{
+"name": "千葉工業大学",
+"keinet": "2178",
+"need": [
+"add"
+]
+},
+{
+"name": "千葉経済大学",
+"keinet": "2177",
+"need": [
+"add"
+]
+},
+{
+"name": "秋田大学",
+"keinet": "1060",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "上越教育大学",
+"keinet": "1185",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "上越教育大学",
+"keinet": "1185",
+"need": [
+"fees"
+]
+},
+{
+"name": "名古屋工業大学",
+"keinet": "1255",
+"need": [
+"fees"
+]
+},
+{
+"name": "富山大学",
+"keinet": "1190",
+"need": [
+"fees"
+]
+},
+{
+"name": "山梨大学",
+"keinet": "1215",
+"need": [
+"fees"
+]
+},
+{
+"name": "岐阜大学",
+"keinet": "1260",
+"need": [
+"fees"
+]
 }
 ],
 "failed": [
@@ -3457,7 +3506,11 @@
 "山形大学": 1,
 "帯広畜産大学": 1,
 "秋田大学": 1,
-"上越教育大学": 1
+"上越教育大学": 1,
+"千葉科学大学": 1,
+"名古屋工業大学": 1,
+"富山大学": 1,
+"山梨大学": 1
 },
 "enrich": [
 {
@@ -6348,27 +6401,6 @@
 ]
 },
 {
-"name": "名古屋工業大学",
-"keinet": "1255",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "富山大学",
-"keinet": "1190",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "山梨大学",
-"keinet": "1215",
-"need": [
-"schedule_dates"
-]
-},
-{
 "name": "浜松医科大学",
 "keinet": "1235",
 "need": [
@@ -6580,41 +6612,6 @@
 "keinet": "1510",
 "need": [
 "schedule_dates"
-]
-},
-{
-"name": "上越教育大学",
-"keinet": "1185",
-"need": [
-"fees"
-]
-},
-{
-"name": "名古屋工業大学",
-"keinet": "1255",
-"need": [
-"fees"
-]
-},
-{
-"name": "富山大学",
-"keinet": "1190",
-"need": [
-"fees"
-]
-},
-{
-"name": "山梨大学",
-"keinet": "1215",
-"need": [
-"fees"
-]
-},
-{
-"name": "岐阜大学",
-"keinet": "1260",
-"need": [
-"fees"
 ]
 },
 {
@@ -24484,20 +24481,6 @@
 ]
 },
 {
-"name": "秋田大学",
-"keinet": "1060",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "上越教育大学",
-"keinet": "1185",
-"need": [
-"schedule_dates"
-]
-},
-{
 "name": "十文字学園女子大学",
 "keinet": "2161",
 "need": [
@@ -26426,6 +26409,43 @@
 "name": "湘南工科大学",
 "need": [
 "scholar"
+]
+},
+{
+"name": "千葉工業大学",
+"keinet": "2178",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "千葉経済大学",
+"keinet": "2177",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "名古屋工業大学",
+"keinet": "1255",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "富山大学",
+"keinet": "1190",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "山梨大学",
+"keinet": "1215",
+"need": [
+"schedule_dates"
 ]
 }
 ],

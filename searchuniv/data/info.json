@@ -83479,7 +83479,8 @@
 "https://search.keinet.ne.jp/1060/outline/admission_employment",
 "https://search.keinet.ne.jp/1060/general/exam_subject",
 "https://search.keinet.ne.jp/1060/general/border_rate",
-"https://search.keinet.ne.jp/1060/outline/expense"
+"https://search.keinet.ne.jp/1060/outline/expense",
+"https://www.akita-u.ac.jp/honbu/exam/pdf/2027/2027_selection.pdf"
 ],
 "departments": [
 {
@@ -83742,7 +83743,7 @@
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
 "money": "2026-11-08",
-"schedule": "2026-11-06",
+"schedule": "2026-11-09",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06"
@@ -84094,6 +84095,24 @@
 "result": "2/10",
 "proc": "2/17",
 "note": "教育文化学部・国際資源学部。医学科は試験日1/21（地域枠は1/21・1/22）"
+},
+{
+"kubun": "一般",
+"name": "一般 前期",
+"apply": "1/25〜2/3（必着）",
+"exam": "2/25",
+"result": "3/7",
+"proc": "3/14〜3/15（必着）",
+"note": "教育文化学部・医学部医学科は2/25・2/26（教育文化の2/26は実技検査受験者のみ）。医学科の第1段階選抜発表2/10（大学公式 令和9年度入学者選抜要項）"
+},
+{
+"kubun": "一般",
+"name": "一般 後期",
+"apply": "",
+"exam": "3/12",
+"result": "3/21",
+"proc": "3/26〜3/27（必着）",
+"note": "出願期間は要項の抜粋で確認できず（大学公式 令和9年度入学者選抜要項）"
 }
 ]
 },
@@ -84264,7 +84283,9 @@
 "https://search.keinet.ne.jp/1185/outline/admission_employment",
 "https://search.keinet.ne.jp/1185/general/exam_subject",
 "https://search.keinet.ne.jp/1185/general/border_rate",
-"https://search.keinet.ne.jp/1185/recommend/exam_rec"
+"https://search.keinet.ne.jp/1185/recommend/exam_rec",
+"https://www.juen.ac.jp/020ad_news/2026/files/R09g-senbatuyoko.pdf",
+"https://search.keinet.ne.jp/1185/outline/expense"
 ],
 "departments": [
 {
@@ -84299,8 +84320,8 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"money": "2026-11-06",
-"schedule": "2026-11-06",
+"money": "2026-11-09",
+"schedule": "2026-11-09",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06"
@@ -84317,11 +84338,40 @@
 "name": "上越教育大学くびきの奨学金",
 "what": "授業料免除の選考基準に該当し免除不許可・未申請・半額免除となった学生のうち困窮度の高い前期・後期各6名程度に8万円を1回給付（2026年度実施情報）"
 }
+],
+"rows": [
+{
+"f": "学校教育学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 817800,
+"four_year": null,
+"note": "実習経費・ノートパソコン・保険料・後援会費は別途（金額記載なし）。合計は入学金＋授業料（Kei-Net 2025年度）"
+}
 ]
 },
 "schedule": {
 "year": "2027年度入試",
 "rows": [
+{
+"kubun": "一般",
+"name": "一般 前期",
+"apply": "1/25〜2/3",
+"exam": "2/25",
+"result": "3/8",
+"note": "ネット出願登録・検定料支払は2/3 15時まで、書類は2/3 17時必着。手続締切は選抜要項に記載なし（大学公式 令和9年度入学者選抜要項）"
+},
+{
+"kubun": "一般",
+"name": "一般 後期",
+"apply": "1/25〜2/3",
+"exam": "3/12",
+"result": "3/23",
+"note": "出願期間は前期と共通（大学公式 令和9年度入学者選抜要項）"
+},
 {
 "kubun": "推薦",
 "name": "学校推薦型（共テあり）",
@@ -84450,7 +84500,9 @@
 "https://search.keinet.ne.jp/1255/outline/licential",
 "https://search.keinet.ne.jp/outline/admission_employment/1255",
 "https://search.keinet.ne.jp/1255/general/exam_subject",
-"https://search.keinet.ne.jp/1255/general/border_rate"
+"https://search.keinet.ne.jp/1255/general/border_rate",
+"https://passnavi.obunsha.co.jp/univ/0510/schedule/",
+"https://passnavi.obunsha.co.jp/univ/0510/expense/"
 ],
 "departments": [
 {
@@ -84608,14 +84660,14 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"money": "2026-11-06",
-"schedule": "2026-11-06",
+"money": "2026-11-09",
+"schedule": "2026-11-09",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06"
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "total4": 2853840,
 "total4_note": "入学金＋授業料4年（施設費等含まず）",
 "admission": 282000,
@@ -84642,11 +84694,53 @@
 "name": "基金学生プロジェクト支援",
 "what": "学外コンペティション等に参加する個人に2万円、グループに10万円を給付"
 }
+],
+"rows": [
+{
+"f": "工学部（昼間部）",
+"admission": 282000,
+"tuition": 642960,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 924960,
+"four_year": null,
+"note": "2027年度予定額。諸費用は別途の場合あり（パスナビ）"
+},
+{
+"f": "工学部（夜間主コース）",
+"admission": 141000,
+"tuition": 321480,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 462480,
+"four_year": null,
+"note": "2027年度予定額（パスナビ）"
+}
 ]
 },
 "schedule": {
 "year": "2027年度入試",
 "rows": [
+{
+"kubun": "一般",
+"name": "一般 前期",
+"apply": "1/25〜2/3",
+"exam": "2/25",
+"result": "",
+"proc": "",
+"note": "創造工学教育課程は2/25・2/26。合格発表・手続締切は公式・パスナビで未確認（パスナビ 2027年度入試）"
+},
+{
+"kubun": "一般",
+"name": "一般 後期",
+"apply": "1/25〜2/3",
+"exam": "3/12",
+"result": "",
+"proc": "",
+"note": "創造工学教育課程は3/12・3/13。合格発表・手続締切は公式・パスナビで未確認（パスナビ 2027年度入試）"
+},
 {
 "kubun": "推薦",
 "name": "学校推薦型Ⅰ（共テなし・女子対象含む）",
@@ -84870,7 +84964,8 @@
 "https://search.keinet.ne.jp/1190/outline/licential",
 "https://search.keinet.ne.jp/1190/outline/admission_employment/tab_career_overview",
 "https://search.keinet.ne.jp/1190/general/exam_subject",
-"https://search.keinet.ne.jp/1190/general/border_rate"
+"https://search.keinet.ne.jp/1190/general/border_rate",
+"https://search.keinet.ne.jp/1190/outline/expense"
 ],
 "departments": [
 {
@@ -85266,7 +85361,7 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"money": "2026-11-06",
+"money": "2026-11-09",
 "schedule": "2026-11-06",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
@@ -85295,6 +85390,19 @@
 {
 "name": "富山大学芸術文化学部学生海外留学・研修補助事業",
 "what": "芸術文化学部生の自費留学・語学研修等に2万5,000〜5万円を1回給付"
+}
+],
+"rows": [
+{
+"f": "全学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 817800,
+"four_year": null,
+"note": "授業料は2025年度の額。保険料は別途（Kei-Net 2026年度）"
 }
 ]
 },
@@ -85536,7 +85644,8 @@
 "https://search.keinet.ne.jp/1215/outline/licential",
 "https://search.keinet.ne.jp/1215/outline/admission_employment/tab_career_overview",
 "https://search.keinet.ne.jp/1215/general/exam_subject",
-"https://search.keinet.ne.jp/1215/general/border_rate"
+"https://search.keinet.ne.jp/1215/general/border_rate",
+"https://search.keinet.ne.jp/1215/outline/expense"
 ],
 "departments": [
 {
@@ -85836,7 +85945,7 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"money": "2026-11-06",
+"money": "2026-11-09",
 "schedule": "2026-11-06",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
@@ -85857,6 +85966,63 @@
 {
 "name": "特別待遇学生の授業料減免",
 "what": "学業・人物ともに優秀で学長推薦を受けた各学部最終学年17名の前期授業料全額（267,900円）を免除"
+}
+],
+"rows": [
+{
+"f": "教育学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": 64000,
+"first_year": 881800,
+"four_year": null,
+"note": "other は設備/実習/諸会費等の一括額（後援会費含む）。保険料は別途（Kei-Net 2026年度）"
+},
+{
+"f": "工学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": 50000,
+"first_year": 867800,
+"four_year": null,
+"note": "other は設備/実習/諸会費等の一括額（後援会費含む）。保険料は別途（Kei-Net 2026年度）"
+},
+{
+"f": "生命環境学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": 48000,
+"first_year": 865800,
+"four_year": null,
+"note": "other は設備/実習/諸会費等の一括額（後援会費含む）。保険料は別途（Kei-Net 2026年度）"
+},
+{
+"f": "医学部医学科",
+"admission": 282000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": 110000,
+"first_year": 927800,
+"four_year": null,
+"note": "other は設備/実習/諸会費等の一括額（後援会費含む）。保険料は別途（Kei-Net 2026年度）"
+},
+{
+"f": "医学部看護学科",
+"admission": 282000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": 66600,
+"first_year": 884400,
+"four_year": null,
+"note": "other は設備/実習/諸会費等の一括額（後援会費含む）。保険料は別途（Kei-Net 2026年度）"
 }
 ]
 },
@@ -86068,7 +86234,8 @@
 "https://search.keinet.ne.jp/1260/outline/licential",
 "https://search.keinet.ne.jp/1260/outline/admission_employment/tab_career_overview",
 "https://search.keinet.ne.jp/general/exam_subject/1260",
-"https://search.keinet.ne.jp/1260/general/border_rate"
+"https://search.keinet.ne.jp/1260/general/border_rate",
+"https://search.keinet.ne.jp/1260/outline/expense"
 ],
 "departments": [
 {
@@ -86299,7 +86466,7 @@
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
 "schedule": "2026-11-06",
-"money": "2026-11-06",
+"money": "2026-11-09",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06"
@@ -86665,7 +86832,20 @@
 "what": "6か月未満の海外研修を行う学生に成績基準を満たせば1回9万円を給付"
 }
 ],
-"note": "共同獣医学科は鳥取大学での実習等の経費が別途必要。保険料等は別途"
+"note": "共同獣医学科は鳥取大学での実習等の経費が別途必要。保険料等は別途",
+"rows": [
+{
+"f": "全学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 817800,
+"four_year": null,
+"note": "実習費・諸会費・保険料は別途（金額記載なし）。共同獣医学科は鳥取大学での実習等の経費が別途（Kei-Net 2026年度）"
+}
+]
 },
 "eng": {
 "year": "2027年度入試",
@@ -190866,6 +191046,216 @@ null
 "https://www.shonan-it.ac.jp/media/shogakukinguide2026.11.pdf",
 "https://search.keinet.ne.jp/2310/general/border_rate",
 "https://www.gender.go.jp/c-challenge/kyouryoku/shiritsu/056.html"
+]
+},
+"千葉工業大学": {
+"difficulty": {
+"hensachi": "40.0〜52.5",
+"kyotei": "59%〜82%",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-09",
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"tuition": "2026-11-09",
+"money": "2026-11-09",
+"research": "2026-11-09",
+"licenses": "2026-11-09"
+},
+"faculties": [
+"工学部",
+"宇宙・半導体工学部",
+"創造工学部",
+"先進工学部",
+"情報変革科学部",
+"未来変革科学部"
+],
+"departments": [
+{
+"f": "工学部",
+"d": [
+"機械工学科",
+"電気電子工学科",
+"情報通信システム工学科",
+"応用化学科"
+]
+},
+{
+"f": "宇宙・半導体工学部",
+"d": [
+"宇宙・半導体工学科"
+]
+},
+{
+"f": "創造工学部",
+"d": [
+"建築学科",
+"都市環境工学科",
+"デザイン科学科"
+]
+},
+{
+"f": "先進工学部",
+"d": [
+"未来ロボティクス学科",
+"生命科学科",
+"知能メディア工学科"
+]
+},
+{
+"f": "情報変革科学部",
+"d": [
+"情報工学科",
+"認知情報科学科",
+"高度応用情報科学科"
+]
+},
+{
+"f": "未来変革科学部",
+"d": [
+"デジタル変革科学科",
+"経営デザイン科学科"
+]
+}
+],
+"students": {
+"count": 9560,
+"year": 2025
+},
+"founded": "1942年 興亜工業大学として創立（1946年 千葉工業大学に改称）",
+"access": "新習志野キャンパス（1・2年、習志野市芝園）、津田沼キャンパス（3・4年、習志野市津田沼）（Kei-Net）",
+"tuition": {
+"amount": 1640000,
+"label": "入学金＋授業料",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 250000,
+"annual": null,
+"note": "全学部同額（Kei-Net）。施設費等の記載なし",
+"rows": [
+{
+"f": "全学部",
+"admission": 250000,
+"tuition": 1390000,
+"facility": null,
+"practical": null,
+"other": 34500,
+"first_year": 1674500,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度）"
+}
+]
+},
+"research": [
+"機械・電気電子・情報通信・応用化学",
+"宇宙・半導体工学",
+"建築・都市環境・デザイン",
+"ロボティクス・生命科学・知能メディア",
+"情報工学・認知情報科学",
+"デジタル変革・経営デザイン"
+],
+"licenses": [
+"高校教諭一種（工業）（機械工・電気電子工・都市環境工）",
+"中学・高校教諭一種（理科）（応用化学）",
+"中学・高校教諭一種（数学）、高校教諭一種（情報）（情報変革科学部）",
+"高校教諭一種（情報）（経営デザイン科学）",
+"一級・二級・木造建築士受験資格（建築）",
+"二級・木造建築士受験資格（都市環境工・デザイン科学）",
+"測量士・測量士補（都市環境工）"
+],
+"sources": [
+"https://search.keinet.ne.jp/2178",
+"https://search.keinet.ne.jp/2178/outline/department",
+"https://search.keinet.ne.jp/2178/outline/licential",
+"https://search.keinet.ne.jp/2178/outline/expense",
+"https://search.keinet.ne.jp/2178/general/exam_result",
+"https://search.keinet.ne.jp/2178/general/border_rate"
+]
+},
+"千葉経済大学": {
+"difficulty": {
+"hensachi": "37.5〜40.0",
+"kyotei": "",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-09",
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"tuition": "2026-11-09",
+"money": "2026-11-09",
+"research": "2026-11-09",
+"licenses": "2026-11-09"
+},
+"faculties": [
+"経済学部"
+],
+"departments": [
+{
+"f": "経済学部",
+"d": [
+"経済学科",
+"経営学科"
+]
+}
+],
+"students": {
+"count": 1191,
+"year": 2025
+},
+"founded": "1934年 千葉女子商業学校創設、1988年 大学開学",
+"access": "千葉市稲毛区轟町のキャンパス（Kei-Net）",
+"tuition": {
+"amount": 920000,
+"label": "入学金＋授業料",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 210000,
+"annual": null,
+"note": "施設費・教育充実費には諸費を含む。ノートパソコンが必要（Kei-Net）",
+"rows": [
+{
+"f": "経済学部",
+"admission": 210000,
+"tuition": 710000,
+"facility": 287000,
+"practical": null,
+"other": 29000,
+"first_year": 1236000,
+"four_year": null,
+"note": "facility は施設費・教育充実費、other は諸会費（Kei-Net 2026年度）"
+}
+]
+},
+"research": [
+"経済学",
+"経営学"
+],
+"licenses": [
+"中学校教諭一種（社会）",
+"高校教諭一種（公民）",
+"司書",
+"学芸員",
+"社会福祉主事"
+],
+"sources": [
+"https://search.keinet.ne.jp/2177",
+"https://search.keinet.ne.jp/2177/outline/department",
+"https://search.keinet.ne.jp/2177/outline/licential",
+"https://search.keinet.ne.jp/2177/outline/expense",
+"https://search.keinet.ne.jp/2177/general/exam_result",
+"https://search.keinet.ne.jp/2177/general/border_rate"
 ]
 }
 }
