@@ -1,34 +1,6 @@
 {
 "add": [
 {
-"name": "日本体育大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.nittai.ac.jp/",
-"cat": "private"
-},
-{
-"name": "日本保健医療大学",
-"type": "私立",
-"pref": "埼玉県",
-"hp": "https://www.jhsu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "日本医療科学大学",
-"type": "私立",
-"pref": "埼玉県",
-"hp": "https://www.nims.ac.jp/",
-"cat": "private"
-},
-{
-"name": "日本女子体育大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.jwcpe.ac.jp/",
-"cat": "private"
-},
-{
 "name": "日本工業大学",
 "type": "私立",
 "pref": "埼玉県",
@@ -3620,6 +3592,154 @@
 "need": [
 "schedule_dates"
 ]
+},
+{
+"name": "日本体育大学",
+"type": "私立",
+"pref": "東京都",
+"hp": "https://www.nittai.ac.jp/",
+"cat": "private"
+},
+{
+"name": "日本保健医療大学",
+"type": "私立",
+"pref": "埼玉県",
+"hp": "https://www.jhsu.ac.jp/",
+"cat": "private"
+},
+{
+"name": "日本医療科学大学",
+"type": "私立",
+"pref": "埼玉県",
+"hp": "https://www.nims.ac.jp/",
+"cat": "private"
+},
+{
+"name": "日本女子体育大学",
+"type": "私立",
+"pref": "東京都",
+"hp": "https://www.jwcpe.ac.jp/",
+"cat": "private"
+},
+{
+"name": "三重大学",
+"keinet": "1265",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "鹿屋体育大学",
+"keinet": "1470",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "宮城大学",
+"keinet": "1514",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "青森県立保健大学",
+"keinet": "1516",
+"need": [
+"fees"
+]
+},
+{
+"name": "福岡国際医療福祉大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "福岡大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "福岡大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "福岡女学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "福岡女学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "福岡女学院看護大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "名寄市立大学",
+"keinet": "1508",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "名寄市立大学",
+"keinet": "1508",
+"need": [
+"fees"
+]
+},
+{
+"name": "山形県立米沢栄養大学",
+"keinet": "1527",
+"need": [
+"fees"
+]
+},
+{
+"name": "旭川市立大学",
+"keinet": "1501",
+"need": [
+"fees"
+]
+},
+{
+"name": "山形県立保健医療大学",
+"keinet": "1511",
+"need": [
+"fees"
+]
+},
+{
+"name": "山形県立保健医療大学",
+"keinet": "1511",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "岩手県立大学",
+"keinet": "1512",
+"need": [
+"fees"
+]
+},
+{
+"name": "岩手県立大学",
+"keinet": "1512",
+"need": [
+"schedule_dates"
+]
 }
 ],
 "failed": [
@@ -6613,48 +6733,6 @@
 ]
 },
 {
-"name": "名寄市立大学",
-"keinet": "1508",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "名寄市立大学",
-"keinet": "1508",
-"need": [
-"fees"
-]
-},
-{
-"name": "山形県立米沢栄養大学",
-"keinet": "1527",
-"need": [
-"fees"
-]
-},
-{
-"name": "旭川市立大学",
-"keinet": "1501",
-"need": [
-"fees"
-]
-},
-{
-"name": "山形県立保健医療大学",
-"keinet": "1511",
-"need": [
-"fees"
-]
-},
-{
-"name": "岩手県立大学",
-"keinet": "1512",
-"need": [
-"fees"
-]
-},
-{
 "name": "秋田県立大学",
 "keinet": "1517",
 "need": [
@@ -6671,13 +6749,6 @@
 {
 "name": "青森公立大学",
 "keinet": "1513",
-"need": [
-"fees"
-]
-},
-{
-"name": "青森県立保健大学",
-"keinet": "1516",
 "need": [
 "fees"
 ]
@@ -15523,12 +15594,6 @@
 {
 "name": "福岡国際医療福祉大学",
 "need": [
-"fees"
-]
-},
-{
-"name": "福岡国際医療福祉大学",
-"need": [
 "scholar"
 ]
 },
@@ -15541,18 +15606,6 @@
 {
 "name": "福岡大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "福岡大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "福岡大学",
-"need": [
 "scholar"
 ]
 },
@@ -15560,18 +15613,6 @@
 "name": "福岡女学院大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "福岡女学院大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "福岡女学院大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -15590,12 +15631,6 @@
 "name": "福岡女学院看護大学",
 "need": [
 "schedule_dates"
-]
-},
-{
-"name": "福岡女学院看護大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -26486,34 +26521,47 @@
 "keinet": "1265",
 "need": [
 "schedule_dates"
-]
+],
+"note": "一般選抜の日程のみ未掲載（2026-11-09時点）"
 },
 {
 "name": "鹿屋体育大学",
 "keinet": "1470",
 "need": [
 "schedule_dates"
+],
+"note": "一般選抜の日程のみ未掲載（2026-11-09時点）"
+},
+{
+"name": "日本体育大学",
+"keinet": "2275",
+"need": [
+"extra",
+"partners"
 ]
 },
 {
-"name": "宮城大学",
-"keinet": "1514",
+"name": "日本保健医療大学",
+"keinet": "2129",
 "need": [
-"schedule_dates"
+"extra",
+"partners"
 ]
 },
 {
-"name": "山形県立保健医療大学",
-"keinet": "1511",
+"name": "日本医療科学大学",
+"keinet": "2143",
 "need": [
-"schedule_dates"
+"extra",
+"partners"
 ]
 },
 {
-"name": "岩手県立大学",
-"keinet": "1512",
+"name": "日本女子体育大学",
+"keinet": "2273",
 "need": [
-"schedule_dates"
+"extra",
+"partners"
 ]
 }
 ],

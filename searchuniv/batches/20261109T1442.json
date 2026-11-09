@@ -1,0 +1,1016 @@
+[
+ {
+  "name": "日本体育大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都世田谷区",
+  "pref_name": "東京都",
+  "city": "世田谷区",
+  "reading": "にっぽんたいいく",
+  "aliases": [
+   "日体大"
+  ],
+  "hp": "https://www.nittai.ac.jp/",
+  "features": [
+   "児童スポーツ教育・保健医療・体育・スポーツ文化・スポーツマネジメントの5学部10学科を置く（Kei-Net）",
+   "東京・世田谷キャンパスと横浜・健志台キャンパスの2拠点で学ぶ（Kei-Net）",
+   "1891年創立の体育会が源流で、1949年に新制大学の体育学部を設置（Kei-Net）"
+  ],
+  "memo": "ほぼ全学科で中学・高校の保健体育の教員免許が取れ、救急医療学科は救急救命士、整復医療学科は柔道整復師の受験資格につながる。体育学部の定員が大きい（体育学科800名）。",
+  "guide": {
+   "fit": "保健体育の教員、スポーツ指導・マネジメント、救急救命士・柔道整復師、小学校・幼稚園教員や保育士をめざす生徒。",
+   "ask": [
+    "世田谷と横浜・健志台のどちらで学ぶ学部か",
+    "取りたい免許・資格（保健体育教員・救急救命士など）",
+    "実技を課す入試方式に対応できるか"
+   ],
+   "caution": "保健医療学部は初年度納入金が約190万〜205万円と他学部より高い（2025年度、Kei-Net）。"
+  },
+  "info": {
+   "difficulty": {
+    "hensachi": "35.0〜50.0",
+    "kyotei": "56%〜75%",
+    "year": "2027年度入試用"
+   },
+   "faculties": [
+    "児童スポーツ教育学部",
+    "保健医療学部",
+    "体育学部",
+    "スポーツ文化学部",
+    "スポーツマネジメント学部"
+   ],
+   "departments_full": [
+    {
+     "f": "児童スポーツ教育学部",
+     "d": [
+      "児童スポーツ教育学科",
+      "幼児教育保育学科"
+     ]
+    },
+    {
+     "f": "保健医療学部",
+     "d": [
+      "整復医療学科",
+      "救急医療学科"
+     ]
+    },
+    {
+     "f": "体育学部",
+     "d": [
+      "体育学科",
+      "健康学科"
+     ]
+    },
+    {
+     "f": "スポーツ文化学部",
+     "d": [
+      "武道教育学科",
+      "スポーツ国際学科"
+     ]
+    },
+    {
+     "f": "スポーツマネジメント学部",
+     "d": [
+      "スポーツマネジメント学科",
+      "スポーツライフマネジメント学科"
+     ]
+    }
+   ],
+   "students": {
+    "count": 7847,
+    "year": 2025
+   },
+   "founded": "1891年 体育会を創立（1949年 日本体育大学体育学部設置）",
+   "access": "東京・世田谷キャンパス（世田谷区深沢7-1-1）、横浜・健志台キャンパス（横浜市青葉区鴨志田町1221-1）（Kei-Net）",
+   "tuition": {
+    "amount": 1100000,
+    "label": "入学金＋授業料（体育学部など）",
+    "year": 2025
+   },
+   "money": {
+    "year": "2025年度",
+    "admission": 300000,
+    "annual": null,
+    "note": "学部・学科で異なる。学外集中実技の費用は別途。スポーツ文化学部は海外実習の実費が別途（Kei-Net）",
+    "rows": [
+     {
+      "f": "児童スポーツ教育学部",
+      "admission": 300000,
+      "tuition": 800000,
+      "facility": 450000,
+      "practical": null,
+      "other": 48000,
+      "first_year": 1598000,
+      "four_year": null,
+      "note": "other は諸会費38,000円＋健康管理費10,000円（日本体育大学（Kei-Net 2025年度入学者用））"
+     },
+     {
+      "f": "保健医療学部 整復医療学科",
+      "admission": 300000,
+      "tuition": 900000,
+      "facility": 550000,
+      "practical": 100000,
+      "other": 48000,
+      "first_year": 1898000,
+      "four_year": null,
+      "note": "other は諸会費38,000円＋健康管理費10,000円（日本体育大学（Kei-Net 2025年度入学者用））"
+     },
+     {
+      "f": "保健医療学部 救急医療学科",
+      "admission": 300000,
+      "tuition": 900000,
+      "facility": 550000,
+      "practical": 250000,
+      "other": 48000,
+      "first_year": 2048000,
+      "four_year": null,
+      "note": "other は諸会費38,000円＋健康管理費10,000円（日本体育大学（Kei-Net 2025年度入学者用））"
+     },
+     {
+      "f": "体育学部",
+      "admission": 300000,
+      "tuition": 800000,
+      "facility": 450000,
+      "practical": null,
+      "other": 48000,
+      "first_year": 1598000,
+      "four_year": null,
+      "note": "other は諸会費38,000円＋健康管理費10,000円（日本体育大学（Kei-Net 2025年度入学者用））"
+     },
+     {
+      "f": "スポーツ文化学部",
+      "admission": 300000,
+      "tuition": 800000,
+      "facility": 450000,
+      "practical": null,
+      "other": 48000,
+      "first_year": 1598000,
+      "four_year": null,
+      "note": "other は諸会費38,000円＋健康管理費10,000円（日本体育大学（Kei-Net 2025年度入学者用））。海外での実習は実費"
+     },
+     {
+      "f": "スポーツマネジメント学部",
+      "admission": 300000,
+      "tuition": 800000,
+      "facility": 450000,
+      "practical": null,
+      "other": 48000,
+      "first_year": 1598000,
+      "four_year": null,
+      "note": "other は諸会費38,000円＋健康管理費10,000円（日本体育大学（Kei-Net 2025年度入学者用））"
+     }
+    ]
+   },
+   "research": [],
+   "licenses": [
+    "小学校教諭一種（児童スポーツ教育学科）",
+    "幼稚園教諭一種・保育士（幼児教育保育学科）",
+    "中学校・高校教諭一種（保健体育）",
+    "養護教諭一種（救急医療学科・健康学科）",
+    "特別支援学校教諭一種（体育学科）",
+    "柔道整復師国家試験受験資格（整復医療学科）",
+    "救急救命士国家試験受験資格（救急医療学科）",
+    "社会福祉士国家試験受験資格（健康学科）",
+    "健康運動指導士受験資格（体育学科・健康学科）",
+    "社会福祉主事"
+   ],
+   "careers": "2024年度卒業者の就職者の比率は学部別に76.0%（保健医療）〜85.6%（スポーツマネジメント）（Kei-Net）。",
+   "notable": [],
+   "news": [],
+   "sources": [
+    "https://search.keinet.ne.jp/2275",
+    "https://search.keinet.ne.jp/2275/outline/department",
+    "https://search.keinet.ne.jp/2275/outline/licential",
+    "https://search.keinet.ne.jp/2275/general/border_rate",
+    "https://search.keinet.ne.jp/2275/outline/expense",
+    "https://search.keinet.ne.jp/2275/outline/admission_employment"
+   ]
+  }
+ },
+ {
+  "name": "日本保健医療大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "埼玉県幸手市",
+  "pref_name": "埼玉県",
+  "city": "幸手市",
+  "reading": "にほんほけんいりょう",
+  "aliases": [],
+  "hp": "https://www.jhsu.ac.jp/",
+  "features": [
+   "保健医療学部に看護学科と理学療法学科（各定員45名）を置く小規模な医療系大学（Kei-Net）",
+   "看護学科は幸手北キャンパス、理学療法学科は幸手南キャンパスで学ぶ（Kei-Net）",
+   "2010年に看護学科で開学し、2017年に理学療法学科を設置（Kei-Net）"
+  ],
+  "memo": "看護学科で看護師・保健師の受験資格と養護教諭二種、理学療法学科で理学療法士の受験資格がめざせる。学部全体の学生数は313名（2025年度）。",
+  "guide": {
+   "fit": "看護師・保健師・理学療法士をめざし、少人数の環境で学びたい生徒。",
+   "ask": [
+    "看護と理学療法のどちらを志望するか",
+    "通学する幸手北・幸手南キャンパスへの交通手段",
+    "共通テスト利用と一般選抜のどちらで受けるか"
+   ],
+   "caution": ""
+  },
+  "info": {
+   "difficulty": {
+    "hensachi": "BF〜35.0",
+    "kyotei": "37%〜38%",
+    "year": "2027年度入試用"
+   },
+   "faculties": [
+    "保健医療学部"
+   ],
+   "departments_full": [
+    {
+     "f": "保健医療学部",
+     "d": [
+      "看護学科",
+      "理学療法学科"
+     ]
+    }
+   ],
+   "students": {
+    "count": 313,
+    "year": 2025
+   },
+   "founded": "2010年 開学",
+   "access": "幸手北キャンパス（幸手市幸手1961-2・看護）、幸手南キャンパス（幸手市平須賀2-555・理学療法）（Kei-Net）",
+   "research": [],
+   "licenses": [
+    "看護師国家試験受験資格",
+    "保健師国家試験受験資格",
+    "養護教諭二種（看護学科）",
+    "理学療法士国家試験受験資格",
+    "社会福祉主事"
+   ],
+   "careers": "",
+   "notable": [],
+   "news": [],
+   "sources": [
+    "https://search.keinet.ne.jp/2129",
+    "https://search.keinet.ne.jp/2129/outline/department",
+    "https://search.keinet.ne.jp/2129/general/border_rate",
+    "https://search.keinet.ne.jp/2129/outline/licential"
+   ]
+  }
+ },
+ {
+  "name": "日本医療科学大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "埼玉県入間郡毛呂山町",
+  "pref_name": "埼玉県",
+  "city": "入間郡毛呂山町",
+  "reading": "にほんいりょうかがく",
+  "aliases": [],
+  "hp": "https://www.nims.ac.jp/",
+  "features": [
+   "保健医療学部に診療放射線・リハビリテーション（理学療法学・作業療法学）・看護・臨床工・臨床検査の各学科を置く（Kei-Net）",
+   "1960年設立の城西レントゲン技術専門学校が源流で、2007年に大学として開学（Kei-Net）",
+   "キャンパスは東武越生線川角駅から徒歩約10分（Kei-Net）"
+  ],
+  "memo": "各学科で診療放射線技師・理学療法士・作業療法士・看護師・保健師・臨床工学技士・臨床検査技師の受験資格がめざせる。診療放射線学科がボーダー最上位（偏差値40.0、共テ55%）。",
+  "guide": {
+   "fit": "診療放射線技師・リハビリ職・看護師・臨床工学技士・臨床検査技師など医療専門職をめざす生徒。",
+   "ask": [
+    "めざす医療職（国家資格）はどれか",
+    "実習が多いことや費用（初年度約190万円）を家庭と共有したか",
+    "通学方法（川角駅から徒歩約10分）"
+   ],
+   "caution": "リハビリテーション学科は実習時の宿泊費の積立金が別途必要（Kei-Net）。"
+  },
+  "info": {
+   "difficulty": {
+    "hensachi": "35.0〜40.0",
+    "kyotei": "35%〜55%",
+    "year": "2027年度入試用"
+   },
+   "faculties": [
+    "保健医療学部"
+   ],
+   "departments_full": [
+    {
+     "f": "保健医療学部",
+     "d": [
+      "診療放射線学科",
+      "リハビリテーション学科 理学療法学専攻",
+      "リハビリテーション学科 作業療法学専攻",
+      "看護学科",
+      "臨床工学科",
+      "臨床検査学科"
+     ]
+    }
+   ],
+   "students": {
+    "count": 1557,
+    "year": 2025
+   },
+   "founded": "2007年 開学（1960年 城西レントゲン技術専門学校設立）",
+   "access": "埼玉県入間郡毛呂山町下川原1276、東武越生線川角駅から徒歩約10分（Kei-Net）",
+   "tuition": {
+    "amount": 1160000,
+    "label": "入学金＋授業料",
+    "year": 2026
+   },
+   "money": {
+    "year": "2026年度",
+    "admission": 260000,
+    "annual": null,
+    "note": "リハビリテーション学科は実習積立金が別途。教材費・白衣・予防接種費等が別途（Kei-Net）",
+    "rows": [
+     {
+      "f": "保健医療学部 診療放射線学科",
+      "admission": 260000,
+      "tuition": 900000,
+      "facility": 360000,
+      "practical": 330000,
+      "other": 63000,
+      "first_year": 1913000,
+      "four_year": null,
+      "note": "other は諸会費43,000円＋研修費20,000円（Kei-Net 2026年度入学者用）。教材費・白衣・予防接種費等は別途"
+     },
+     {
+      "f": "保健医療学部 リハビリテーション学科・看護学科・臨床工学科・臨床検査学科",
+      "admission": 260000,
+      "tuition": 900000,
+      "facility": 350000,
+      "practical": 330000,
+      "other": 63000,
+      "first_year": 1903000,
+      "four_year": null,
+      "note": "other は諸会費43,000円＋研修費20,000円（Kei-Net 2026年度入学者用）。教材費・白衣・予防接種費等は別途"
+     }
+    ]
+   },
+   "research": [],
+   "licenses": [
+    "診療放射線技師国家試験受験資格",
+    "理学療法士国家試験受験資格",
+    "作業療法士国家試験受験資格",
+    "看護師・保健師国家試験受験資格",
+    "養護教諭二種（看護学科）",
+    "臨床工学技士国家試験受験資格",
+    "臨床検査技師国家試験受験資格"
+   ],
+   "careers": "",
+   "notable": [],
+   "news": [],
+   "sources": [
+    "https://search.keinet.ne.jp/2143",
+    "https://search.keinet.ne.jp/2143/outline/department",
+    "https://search.keinet.ne.jp/2143/outline/campus",
+    "https://search.keinet.ne.jp/2143/outline/licential",
+    "https://search.keinet.ne.jp/2143/general/border_rate",
+    "https://search.keinet.ne.jp/2143/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "日本女子体育大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都世田谷区",
+  "pref_name": "東京都",
+  "city": "世田谷区",
+  "reading": "にほんじょしたいいく",
+  "aliases": [
+   "日女体"
+  ],
+  "hp": "https://www.jwcpe.ac.jp/",
+  "features": [
+   "体育学部の1学部にスポーツ科学・ダンス・健康スポーツ・子ども運動の4学科を置く女子大学（Kei-Net）",
+   "1922年創立の二階堂体操塾が源流（Kei-Net）",
+   "キャンパスは世田谷区北烏山の1か所（Kei-Net）"
+  ],
+  "memo": "ダンス学科（定員100名）を置くのが特色。初年度納入金は152万2,500円（2026年度、教育実習・学外実習は別途、Kei-Net）。2024年度卒業者の就職者の比率は79.9%。",
+  "guide": {
+   "fit": "スポーツ科学・ダンス・健康づくり・子どもの運動指導を学びたい女子生徒。",
+   "ask": [
+    "4学科のうちどの分野（競技・ダンス・健康・子ども）に関心があるか",
+    "実技を課す入試への準備状況",
+    "教員免許など取りたい資格"
+   ],
+   "caution": ""
+  },
+  "info": {
+   "difficulty": {
+    "hensachi": "BF〜35.0",
+    "kyotei": "45%〜57%",
+    "year": "2027年度入試用"
+   },
+   "faculties": [
+    "体育学部"
+   ],
+   "departments_full": [
+    {
+     "f": "体育学部",
+     "d": [
+      "スポーツ科学科",
+      "ダンス学科",
+      "健康スポーツ学科",
+      "子ども運動学科"
+     ]
+    }
+   ],
+   "students": {
+    "count": 1842,
+    "year": 2025
+   },
+   "founded": "1922年 二階堂体操塾を創立（1965年 体育学部開学）",
+   "access": "東京都世田谷区北烏山8-19-1（Kei-Net）",
+   "tuition": {
+    "amount": 1070000,
+    "label": "入学金＋授業料",
+    "year": 2026
+   },
+   "money": {
+    "year": "2026年度",
+    "admission": 300000,
+    "annual": null,
+    "note": "教育実習・学外実習を含む科目は必要額を別途徴収（Kei-Net）",
+    "rows": [
+     {
+      "f": "体育学部",
+      "admission": 300000,
+      "tuition": 770000,
+      "facility": 360000,
+      "practical": 70000,
+      "other": 22500,
+      "first_year": 1522500,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度入学者用）"
+     }
+    ]
+   },
+   "research": [],
+   "licenses": [],
+   "careers": "2024年度卒業者463名のうち就職者の比率79.9%、進学4.3%（Kei-Net）。",
+   "notable": [],
+   "news": [],
+   "sources": [
+    "https://search.keinet.ne.jp/2273",
+    "https://search.keinet.ne.jp/2273/outline/department",
+    "https://search.keinet.ne.jp/2273/general/border_rate",
+    "https://search.keinet.ne.jp/2273/outline/expense",
+    "https://search.keinet.ne.jp/2273/outline/admission_employment"
+   ]
+  }
+ },
+ {
+  "name": "三重大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型Ⅰ（人文・教育〈音楽・美術・保健体育〉・工〈電気電子・応用化学〉・医〈看護〉・生物資源）",
+      "apply": "8/26〜9/7",
+      "exam": "10/12",
+      "result": "11/2",
+      "proc": "12/24",
+      "note": "工学部・生物資源学部の試験日は9/27（マナビジョン 2027年度入試）"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型Ⅱ（共テ）（工〈機械・情報〉・医〈医学科〉）",
+      "apply": "8/26〜9/7",
+      "exam": "10/12",
+      "result": "2/10",
+      "proc": "2/17",
+      "note": "工学部の試験日は9/27"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型Ⅰ（共テなし）",
+      "apply": "11/2〜11/9",
+      "exam": "11/21",
+      "result": "12/11",
+      "proc": "",
+      "note": "人文・教育・工・生物資源"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型Ⅱ（共テ）",
+      "apply": "12/11〜12/22",
+      "exam": "共通テスト",
+      "result": "2/10",
+      "proc": "",
+      "note": "教育・医の例（教育の三重県共テ・南部共テは2/7に試験）。工学部は1/19〜1/25出願、生物資源学部は11/2〜11/9出願・11/21試験"
+     }
+    ],
+    "note": "一般選抜（前期・後期）の日程はマナビジョンで未掲載（2026-11-09時点）"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/1285/nyushi/gokaku-happyo/"
+   ]
+  }
+ },
+ {
+  "name": "鹿屋体育大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型（ACEアスリート・ACEサポーター）",
+      "apply": "8/25〜9/11",
+      "exam": "10/7",
+      "result": "11/2",
+      "proc": "2/17",
+      "note": "スポーツ総合課程・武道課程（マナビジョン 2027年度入試）"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜",
+      "apply": "10/26〜11/5",
+      "exam": "11/19〜11/20",
+      "result": "12/1",
+      "proc": "2/17",
+      "note": "スポーツ総合課程・武道課程"
+     }
+    ],
+    "note": "一般選抜（前期A・前期B・武道課程前期）の日程はマナビジョンで未掲載（2026-11-09時点）"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/1490/nyushi/gokaku-happyo/"
+   ]
+  }
+ },
+ {
+  "name": "宮城大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般 前期",
+      "apply": "1/25〜2/3",
+      "exam": "2/25",
+      "result": "3/6",
+      "proc": "3/15",
+      "note": "看護学群は2/25・2/26。出願は期間内必着（大学公式 令和9年度日程）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 後期",
+      "apply": "1/25〜2/3",
+      "exam": "3/12",
+      "result": "3/20",
+      "proc": "3/27",
+      "note": "看護学群は3/12・3/13（大学公式）"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "apply": "9/1〜9/8",
+      "exam": "10/17",
+      "result": "11/2",
+      "proc": "11/11",
+      "note": "1次は書類（9/30発表）、試験日は2次。マナビジョンではネット出願8/25〜9/8（大学公式）"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（共テあり）",
+      "apply": "11/18〜11/25",
+      "exam": "12/19",
+      "result": "2/9",
+      "proc": "2/17",
+      "note": "3学群とも。出願期間・試験日はマナビジョン、発表・手続は大学公式"
+     }
+    ]
+   },
+   "sources": [
+    "https://www.myu.ac.jp/admissions/colleges/fixed/",
+    "https://manabi.benesse.ne.jp/daigaku/school/2023/nyushi/gokaku-happyo/index.html"
+   ]
+  }
+ },
+ {
+  "name": "青森県立保健大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "total4": 2368800,
+    "total4_note": "入学金（県内）＋授業料4年（225,600＋535,800×4）。県外者は入学金338,400円",
+    "admission": 225600,
+    "annual": 535800,
+    "note": "県外者の入学金は338,400円。初年度合計（県内）は看護852,400円・理学療法853,400円・社会福祉835,400円・栄養827,400円。保険料・実験実習経費は別途。パソコンの準備を推奨（Kei-Net）",
+    "rows": [
+     {
+      "f": "健康科学部 看護学科",
+      "admission": 225600,
+      "tuition": 535800,
+      "facility": 0,
+      "practical": null,
+      "other": 91000,
+      "first_year": 852400,
+      "four_year": null,
+      "note": "設備/実習/諸会費等41,000円。other は設備/実習/諸会費等＋後援会費50,000円。保険料・実験実習経費は別途。入学金・授業料は2025年度の額（Kei-Net 2026年度入学者用）。県外者は入学金338,400円"
+     },
+     {
+      "f": "健康科学部 理学療法学科",
+      "admission": 225600,
+      "tuition": 535800,
+      "facility": 0,
+      "practical": null,
+      "other": 92000,
+      "first_year": 853400,
+      "four_year": null,
+      "note": "設備/実習/諸会費等42,000円。other は設備/実習/諸会費等＋後援会費50,000円。保険料・実験実習経費は別途。入学金・授業料は2025年度の額（Kei-Net 2026年度入学者用）。県外者は入学金338,400円"
+     },
+     {
+      "f": "健康科学部 社会福祉学科",
+      "admission": 225600,
+      "tuition": 535800,
+      "facility": 0,
+      "practical": null,
+      "other": 74000,
+      "first_year": 835400,
+      "four_year": null,
+      "note": "設備/実習/諸会費等24,000円。other は設備/実習/諸会費等＋後援会費50,000円。保険料・実験実習経費は別途。入学金・授業料は2025年度の額（Kei-Net 2026年度入学者用）。県外者は入学金338,400円"
+     },
+     {
+      "f": "健康科学部 栄養学科",
+      "admission": 225600,
+      "tuition": 535800,
+      "facility": 0,
+      "practical": null,
+      "other": 66000,
+      "first_year": 827400,
+      "four_year": null,
+      "note": "設備/実習/諸会費等16,000円。other は設備/実習/諸会費等＋後援会費50,000円。保険料・実験実習経費は別途。入学金・授業料は2025年度の額（Kei-Net 2026年度入学者用）。県外者は入学金338,400円"
+     }
+    ]
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/1516/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "福岡国際医療福祉大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "admission": 300000,
+    "annual": null,
+    "note": "教育後援会費45,000円・海外研修積立金50,000円が入学手続時に別途必要。教科書代・臨地実習費・国家試験対策費も別途（Kei-Net 2026年度入学者用）",
+    "rows": [
+     {
+      "f": "医療学部 看護学科",
+      "admission": 300000,
+      "tuition": 900000,
+      "facility": 360000,
+      "practical": 50000,
+      "other": null,
+      "first_year": 1610000,
+      "four_year": null,
+      "note": "保健師履修コースは履修費50,000円が別途。教育後援会費45,000円・海外研修積立金50,000円が入学手続時に別途必要。教科書代・臨地実習費・国家試験対策費も別途（Kei-Net 2026年度入学者用）"
+     },
+     {
+      "f": "医療学部（看護学科以外）",
+      "admission": 300000,
+      "tuition": 900000,
+      "facility": 300000,
+      "practical": 50000,
+      "other": null,
+      "first_year": 1550000,
+      "four_year": null,
+      "note": "教育後援会費45,000円・海外研修積立金50,000円が入学手続時に別途必要。教科書代・臨地実習費・国家試験対策費も別途（Kei-Net 2026年度入学者用）"
+     }
+    ]
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2730/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "福岡大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "admission": 200000,
+    "annual": null,
+    "note": "学部で異なる。教科書代（3万〜5万円、医学部は8万〜10万円）とパソコンが別途必要（Kei-Net）",
+    "rows": [
+     {
+      "f": "人文学部",
+      "admission": 200000,
+      "tuition": 770000,
+      "facility": 190000,
+      "practical": null,
+      "other": 26710,
+      "first_year": 1186710,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度入学者用）。教科書代は別途"
+     },
+     {
+      "f": "法学部",
+      "admission": 200000,
+      "tuition": 770000,
+      "facility": 190000,
+      "practical": null,
+      "other": 26710,
+      "first_year": 1186710,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度入学者用）。教科書代は別途"
+     },
+     {
+      "f": "経済学部",
+      "admission": 200000,
+      "tuition": 770000,
+      "facility": 190000,
+      "practical": null,
+      "other": 26710,
+      "first_year": 1186710,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度入学者用）。教科書代は別途"
+     },
+     {
+      "f": "商学部",
+      "admission": 200000,
+      "tuition": 770000,
+      "facility": 190000,
+      "practical": null,
+      "other": 26710,
+      "first_year": 1186710,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度入学者用）。教科書代は別途"
+     },
+     {
+      "f": "商学部第二部",
+      "admission": 100000,
+      "tuition": 330000,
+      "facility": 90000,
+      "practical": null,
+      "other": 22370,
+      "first_year": 542370,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度入学者用）。教科書代は別途"
+     },
+     {
+      "f": "理学部",
+      "admission": 200000,
+      "tuition": 1050000,
+      "facility": 400000,
+      "practical": null,
+      "other": 26710,
+      "first_year": 1676710,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度入学者用）。教科書代は別途"
+     },
+     {
+      "f": "工学部",
+      "admission": 200000,
+      "tuition": 1050000,
+      "facility": 400000,
+      "practical": null,
+      "other": 26710,
+      "first_year": 1676710,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度入学者用）。教科書代は別途"
+     },
+     {
+      "f": "医学部 医学科",
+      "admission": 1000000,
+      "tuition": 3912000,
+      "facility": 3688000,
+      "practical": null,
+      "other": 26710,
+      "first_year": 8626710,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度入学者用）。教科書代は別途（8万〜10万円）。6年制"
+     },
+     {
+      "f": "医学部 看護学科",
+      "admission": 200000,
+      "tuition": 1100000,
+      "facility": 500000,
+      "practical": null,
+      "other": 26710,
+      "first_year": 1826710,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度入学者用）。教科書代は別途（8万〜10万円）"
+     },
+     {
+      "f": "薬学部",
+      "admission": 200000,
+      "tuition": 1370000,
+      "facility": 300000,
+      "practical": null,
+      "other": 26710,
+      "first_year": 1896710,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度入学者用）。教科書代は別途。6年制"
+     },
+     {
+      "f": "スポーツ科学部",
+      "admission": 200000,
+      "tuition": 840000,
+      "facility": 370000,
+      "practical": null,
+      "other": 26710,
+      "first_year": 1436710,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度入学者用）。教科書代は別途"
+     }
+    ]
+   },
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般 系統別日程",
+      "apply": "12/18〜1/12",
+      "exam": "2/2",
+      "result": "2/23",
+      "proc": "2/28",
+      "note": "ネット出願。学部により異なる（人文・法・経済・商・工・薬の例、マナビジョン 2027年度入試）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 前期日程",
+      "apply": "12/18〜1/12",
+      "exam": "2/3〜2/6のうち学科指定日・2/11",
+      "result": "2/23",
+      "proc": "2/28",
+      "note": "試験日は学科ごと（経済・薬2/3、商2/4、人文文化・工機械2/5、法律2/6）と2/11"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共テ 前期日程併用型",
+      "apply": "12/18〜1/12",
+      "exam": "一般前期と同日",
+      "result": "2/23",
+      "proc": "2/28",
+      "note": ""
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共テ利用 Ⅰ期",
+      "apply": "12/18〜1/12",
+      "exam": "共通テスト",
+      "result": "2/23",
+      "proc": "2/28",
+      "note": ""
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共テ利用 Ⅱ期",
+      "apply": "12/18〜1/20",
+      "exam": "共通テスト",
+      "result": "2/23",
+      "proc": "3/8",
+      "note": "後期日程・Ⅲ期は今回未確認"
+     }
+    ]
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2712/outline/expense",
+    "https://manabi.benesse.ne.jp/daigaku/school/3886/nyushi/gokaku-happyo/"
+   ]
+  }
+ },
+ {
+  "name": "福岡女学院大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "admission": 210000,
+    "annual": null,
+    "note": "3学部共通の初年度1,204,000円。子ども発達学科は実習費30,000円が別途（Kei-Net）",
+    "rows": [
+     {
+      "f": "人文学部",
+      "admission": 210000,
+      "tuition": 725000,
+      "facility": 250000,
+      "practical": null,
+      "other": 19000,
+      "first_year": 1204000,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度入学者用）。宿泊・日帰り研修費は別途"
+     },
+     {
+      "f": "人間関係学部",
+      "admission": 210000,
+      "tuition": 725000,
+      "facility": 250000,
+      "practical": null,
+      "other": 19000,
+      "first_year": 1204000,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度入学者用）。宿泊・日帰り研修費は別途。子ども発達学科は実習費30,000円が別途"
+     },
+     {
+      "f": "国際キャリア学部",
+      "admission": 210000,
+      "tuition": 725000,
+      "facility": 250000,
+      "practical": null,
+      "other": 19000,
+      "first_year": 1204000,
+      "four_year": null,
+      "note": "other は諸会費（Kei-Net 2026年度入学者用）。宿泊・日帰り研修費は別途"
+     }
+    ]
+   },
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般 前期",
+      "apply": "1/6〜1/20",
+      "exam": "1/30",
+      "result": "2/16",
+      "proc": "2/25",
+      "note": "ネット出願。全学部共通（マナビジョン 2027年度入試）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 後期",
+      "apply": "2/1〜2/24",
+      "exam": "3/5",
+      "result": "3/12",
+      "proc": "3/26",
+      "note": ""
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共テ前期プラス",
+      "apply": "1/6〜1/20",
+      "exam": "1/30",
+      "result": "2/16",
+      "proc": "2/25",
+      "note": ""
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共テ単独 Ⅰ期（2科目型・3科目型）",
+      "apply": "1/6〜1/25",
+      "exam": "共通テスト",
+      "result": "2/16",
+      "proc": "2/25",
+      "note": ""
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共テ単独 Ⅱ期（2科目型・3科目型）",
+      "apply": "1/26〜2/9",
+      "exam": "共通テスト",
+      "result": "2/25",
+      "proc": "3/11",
+      "note": ""
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共テ単独 Ⅲ期（2科目型・3科目型）",
+      "apply": "2/11〜3/3",
+      "exam": "共通テスト",
+      "result": "3/12",
+      "proc": "3/26",
+      "note": ""
+     }
+    ]
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2715/outline/expense",
+    "https://manabi.benesse.ne.jp/daigaku/school/3889/nyushi/gokaku-happyo/"
+   ]
+  }
+ },
+ {
+  "name": "福岡女学院看護大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "admission": 300000,
+    "annual": null,
+    "note": "実習服・教科書などは別途（Kei-Net）",
+    "rows": [
+     {
+      "f": "看護学部 看護学科",
+      "admission": 300000,
+      "tuition": 1100000,
+      "facility": 200000,
+      "practical": 200000,
+      "other": 22720,
+      "first_year": 1822720,
+      "four_year": null,
+      "note": "other は諸会費18,000円＋保険料4,720円（Kei-Net 2026年度入学者用）"
+     }
+    ]
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2725/outline/expense"
+   ]
+  }
+ }
+]
