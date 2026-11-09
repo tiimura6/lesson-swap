@@ -107694,7 +107694,7 @@
 "faculties": "2026-11-07",
 "departments": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-09",
 "money": "2026-11-07",
 "scholar": "2026-11-07",
 "access": "2026-11-07",
@@ -107736,11 +107736,57 @@
 "rows": [
 {
 "kubun": "一般",
-"name": "一般入試等（一次・二次手続）",
-"apply": null,
+"name": "一般選抜 Ⅰ期",
+"apply": "〜1/27（必着）",
+"exam": "2/6・2/7（選択）",
+"result": "2/18",
+"proc": "2/26",
+"fee": null,
+"note": "検定料は2027年度分が未確認（2026年度入試は一般28,000円・共テ利用13,000円、一般は併願割引あり）。全学部共通の日程（Kei-Net）"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期",
+"apply": "〜3/1（必着）",
+"exam": "3/7",
+"result": "3/11",
+"proc": "3/18",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅲ期",
+"apply": "〜3/21（必着）",
+"exam": "3/22",
+"result": "3/24",
+"proc": "3/26",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅰ期",
+"apply": "〜1/27（必着）",
 "exam": null,
-"result": null,
-"proc": "一次：2/26、二次：3/12",
+"result": "2/18",
+"proc": "2/26",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅱ期",
+"apply": "〜3/1（必着）",
+"exam": null,
+"result": "3/11",
+"proc": "3/18",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅲ期",
+"apply": "〜3/21（必着）",
+"exam": null,
+"result": "3/24",
+"proc": "3/26",
 "fee": null
 }
 ]
@@ -107794,7 +107840,9 @@
 "https://www.nias.ac.jp/nyuusijouhou/nyushi/univgakuhi",
 "https://www.nias.ac.jp/files/uploads/society.pdf",
 "https://manabi.benesse.ne.jp/daigaku/school/3918/",
-"https://www.nias.ac.jp/administration/publicinfo/outline"
+"https://www.nias.ac.jp/administration/publicinfo/outline",
+"https://search.keinet.ne.jp/2738/general/schedule",
+"https://search.keinet.ne.jp/2738/general/exam_fee"
 ],
 "students": {
 "count": 745,
@@ -110005,13 +110053,14 @@
 "faculties": "2026-11-07",
 "departments": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-09",
 "access": "2026-11-07",
 "licenses": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"money": "2026-11-09"
 },
 "departments": [
 {
@@ -110066,7 +110115,27 @@
 "exam": "2/5",
 "result": "2/18",
 "proc": "3/10",
+"fee": null,
+"note": "検定料は2027年度分が未確認（2026年度入試は一般30,000円・共テ利用15,000円、併願割引あり）。全学部同じ日程（Kei-Net）"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 前期",
+"apply": "〜1/27",
+"exam": null,
+"result": "2/18",
+"proc": "3/10",
 "fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 後期",
+"apply": "〜3/11",
+"exam": null,
+"result": "3/19",
+"proc": "3/24",
+"fee": null,
+"note": "看護学部は3/16に試験あり（Kei-Net）"
 }
 ]
 },
@@ -110085,13 +110154,67 @@
 "https://manabi.benesse.ne.jp/daigaku/school/3966/nyushi/hoshiki/ippan/",
 "https://www.iuk.ac.jp/jyukensei-site/number.html",
 "https://www.iuk.ac.jp/gaiyou/about/",
-"https://www.gakkou.net/daigaku/view/outline_10204.html"
+"https://www.gakkou.net/daigaku/view/outline_10204.html",
+"https://search.keinet.ne.jp/2788/general/schedule",
+"https://search.keinet.ne.jp/2788/general/exam_fee",
+"https://search.keinet.ne.jp/2788/outline/expense"
 ],
 "students": {
 "count": 2857,
 "year": 2025
 },
-"founded": "1960年 鹿児島経済大学として開学（2000年現校名に改称。前身：旧制鹿児島高等商業学校、1932年創立）"
+"founded": "1960年 鹿児島経済大学として開学（2000年現校名に改称。前身：旧制鹿児島高等商業学校、1932年創立）",
+"money": {
+"year": "2026年度",
+"admission": 155000,
+"note": "学費は4回に分けて納入（入学手続時・6月・10月・12月）。福祉社会学部は学会費10,000円が別途（Kei-Net 2026年度入学者用）",
+"rows": [
+{
+"f": "経済学部",
+"admission": 155000,
+"tuition": 650000,
+"facility": 306000,
+"practical": null,
+"other": 31660,
+"first_year": 1142660,
+"four_year": null,
+"note": "other は諸会費"
+},
+{
+"f": "福祉社会学部",
+"admission": 155000,
+"tuition": 650000,
+"facility": 306000,
+"practical": null,
+"other": 31660,
+"first_year": 1142660,
+"four_year": null,
+"note": "other は諸会費。学会費10,000円が別途"
+},
+{
+"f": "国際文化学部",
+"admission": 155000,
+"tuition": 650000,
+"facility": 306000,
+"practical": null,
+"other": 31660,
+"first_year": 1142660,
+"four_year": null,
+"note": "other は諸会費"
+},
+{
+"f": "看護学部",
+"admission": 250000,
+"tuition": 850000,
+"facility": 360000,
+"practical": 300000,
+"other": 31660,
+"first_year": 1791660,
+"four_year": null,
+"note": "other は諸会費"
+}
+]
+}
 },
 "鹿児島純心大学": {
 "faculties": [
@@ -110102,8 +110225,8 @@
 "faculties": "2026-11-07",
 "departments": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
-"money": "2026-11-07",
+"schedule": "2026-11-09",
+"money": "2026-11-09",
 "access": "2026-11-07",
 "licenses": "2026-11-07",
 "careers": "2026-11-07",
@@ -110153,28 +110276,92 @@
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "一般",
+"name": "一般選抜 前期",
+"apply": "〜1/31",
+"exam": "2/10",
+"result": "2/15",
+"proc": "3/10",
+"fee": null,
+"note": "検定料は2027年度分が未確認。人間教育学部・看護栄養学部とも同じ日程（Kei-Net）"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期（人間教育学部）",
+"apply": "〜3/10",
+"exam": "3/17",
+"result": "3/18",
+"proc": "3/25",
+"fee": null
+},
+{
 "kubun": "共テ利用",
 "name": "共通テスト利用選抜 A日程",
 "apply": "1/6〜2/1",
 "exam": "大学入学共通テスト",
 "result": "2/15",
 "proc": "3/10",
-"fee": null
+"fee": null,
+"note": "Kei-Net では出願締切1/31（登録）。看護栄養学部は2/10に個別試験あり（Kei-Net）"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 B日程",
+"apply": "〜2/24",
+"exam": null,
+"result": "3/5",
+"proc": "3/15",
+"fee": null,
+"note": "看護栄養学部は3/4に個別試験あり（Kei-Net）"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 C日程",
+"apply": "〜3/10",
+"exam": null,
+"result": "3/18",
+"proc": "3/25",
+"fee": null,
+"note": "看護栄養学部は3/17に個別試験あり（Kei-Net）"
 }
 ]
 },
 "money": {
 "year": "2026年度",
+"note": "学外実習費は別途（Kei-Net 2026年度入学者用）",
 "rows": [
 {
-"f": "看護学科",
+"f": "人間教育学部 教育・心理学科",
+"admission": 200000,
+"tuition": 600000,
+"facility": 355000,
+"practical": 65000,
+"other": 25000,
+"first_year": 1245000,
+"four_year": null,
+"note": "other は図書館費"
+},
+{
+"f": "看護栄養学部 看護学科",
 "admission": 350000,
 "tuition": 800000,
 "facility": 395000,
 "practical": 150000,
 "other": 25000,
 "first_year": 1720000,
-"four_year": null
+"four_year": null,
+"note": "other は図書館費"
+},
+{
+"f": "看護栄養学部 健康栄養学科",
+"admission": 300000,
+"tuition": 600000,
+"facility": 385000,
+"practical": 85000,
+"other": 25000,
+"first_year": 1395000,
+"four_year": null,
+"note": "other は図書館費"
 }
 ]
 },
@@ -110195,7 +110382,8 @@
 "https://manabi.benesse.ne.jp/daigaku/school/3967/nyushi/",
 "https://manabi.benesse.ne.jp/daigaku/school/3967/",
 "https://www.weblio.jp/content/%E9%B9%BF%E5%85%90%E5%B3%B6%E7%B4%94%E5%BF%83%E5%A4%A7%E5%AD%A6",
-"https://ja.wikipedia.org/wiki/%E9%B9%BF%E5%85%90%E5%B3%B6%E7%B4%94%E5%BF%83%E5%A4%A7%E5%AD%A6"
+"https://ja.wikipedia.org/wiki/%E9%B9%BF%E5%85%90%E5%B3%B6%E7%B4%94%E5%BF%83%E5%A4%A7%E5%AD%A6",
+"https://search.keinet.ne.jp/2791/general/schedule"
 ],
 "students": {
 "count": 573,
@@ -110218,7 +110406,9 @@
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"schedule": "2026-11-09",
+"money": "2026-11-09"
 },
 "departments": [
 {
@@ -110268,13 +110458,137 @@
 "https://www.nbu.ac.jp/exam/pdf/nbu_guide2025.pdf",
 "https://www.nbu.ac.jp/guide/study_capacity/",
 "https://www.nbu.ac.jp/s_life/anniversary/",
-"https://www.nbu.ac.jp/guide/chairman/"
+"https://www.nbu.ac.jp/guide/chairman/",
+"https://search.keinet.ne.jp/2764/general/schedule",
+"https://search.keinet.ne.jp/2764/general/exam_fee",
+"https://search.keinet.ne.jp/2764/outline/expense"
 ],
 "students": {
 "count": 2344,
 "year": 2026
 },
-"founded": "1967年 大分工業大学として開学（後に日本文理大学へ改称。学園創立：1947年）"
+"founded": "1967年 大分工業大学として開学（後に日本文理大学へ改称。学園創立：1947年）",
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 2科目型 前期",
+"apply": "〜1/29（必着）",
+"exam": "2/5",
+"result": "2/20",
+"proc": "3/15",
+"fee": null,
+"note": "検定料は2027年度分が未確認（2026年度入試は一般30,000円・共テ利用15,000円、併願割引あり）。全学部・学環同じ日程（Kei-Net）"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 2科目型 後期",
+"apply": "〜3/10（必着）",
+"exam": "3/16",
+"result": "3/20",
+"proc": "3/29",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 併用型 1期",
+"apply": "〜1/29（必着）",
+"exam": "2/5",
+"result": "2/20",
+"proc": "3/15",
+"fee": null,
+"note": "共テと個別試験の併用（検定料30,000円＝2026年度）"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 併用型 2期",
+"apply": "〜3/10（必着）",
+"exam": "3/16",
+"result": "3/20",
+"proc": "3/29",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 3科目型・5科目型 1期",
+"apply": "〜2/3（必着）",
+"exam": null,
+"result": "2/20",
+"proc": "3/15",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 3科目型・5科目型 2期",
+"apply": "〜3/5（必着）",
+"exam": null,
+"result": "3/13",
+"proc": "3/29",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 3科目型・5科目型 3期",
+"apply": "〜3/15（必着）",
+"exam": null,
+"result": "3/20",
+"proc": "3/29",
+"fee": null
+}
+]
+},
+"money": {
+"year": "2026年度",
+"admission": 200000,
+"note": "入学前教育（eラーニング）の対象者は入学手続時に3,000〜5,000円程度が別途（Kei-Net 2026年度入学者用）",
+"rows": [
+{
+"f": "経営経済学部",
+"admission": 200000,
+"tuition": 680000,
+"facility": 350000,
+"practical": null,
+"other": 37660,
+"first_year": 1267660,
+"four_year": null,
+"note": "other は諸会費"
+},
+{
+"f": "工学部",
+"admission": 200000,
+"tuition": 890000,
+"facility": 350000,
+"practical": null,
+"other": 34660,
+"first_year": 1474660,
+"four_year": null,
+"note": "other は諸会費"
+},
+{
+"f": "保健医療学部",
+"admission": 200000,
+"tuition": 850000,
+"facility": 350000,
+"practical": null,
+"other": 35370,
+"first_year": 1435370,
+"four_year": null,
+"note": "other は諸会費"
+},
+{
+"f": "社会デザイン学環",
+"admission": 200000,
+"tuition": 936000,
+"facility": 180000,
+"practical": null,
+"other": 34660,
+"first_year": 1350660,
+"four_year": null,
+"note": "other は諸会費"
+}
+]
+}
 },
 "日本経済大学": {
 "faculties": [
@@ -110290,7 +110604,8 @@
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"schedule": "2026-11-09"
 },
 "departments": [
 {
@@ -110334,13 +110649,65 @@
 "https://www.jue.ac.jp/",
 "https://www.jue.ac.jp/juken/entry_tuition_fukuoka/",
 "https://manabi.benesse.ne.jp/daigaku/school/3880/",
-"https://search.keinet.ne.jp/2706"
+"https://search.keinet.ne.jp/2706",
+"https://search.keinet.ne.jp/2706/general/schedule"
 ],
 "students": {
 "count": 6236,
 "year": 2025
 },
-"founded": "1968年 第一経済大学として開学（2007年福岡経済大学、2010年現校名に改称。法人設立：1956年）"
+"founded": "1968年 第一経済大学として開学（2007年福岡経済大学、2010年現校名に改称。法人設立：1956年）",
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般生 1期",
+"apply": "〜2/3（必着）",
+"exam": "2/13",
+"result": "2/22",
+"proc": "3/15",
+"fee": null,
+"note": "検定料は2027年度分が未確認。経済（福岡・兵庫）・経営（福岡・東京）とも同じ日程（Kei-Net）"
+},
+{
+"kubun": "一般",
+"name": "一般生 2期",
+"apply": "〜3/3（必着）",
+"exam": "3/13",
+"result": "3/19",
+"proc": "3/26",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 1期",
+"apply": "〜2/3（必着）",
+"exam": null,
+"result": "2/22",
+"proc": "3/15",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 2期",
+"apply": "〜3/3（必着）",
+"exam": null,
+"result": "3/15",
+"proc": "3/26",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 3期",
+"apply": "〜3/18（必着）",
+"exam": null,
+"result": "3/20",
+"proc": "3/26",
+"fee": null
+}
+]
+}
 },
 "日本赤十字九州国際看護大学": {
 "faculties": [
@@ -202547,6 +202914,268 @@ null
 "https://search.keinet.ne.jp/2313/outline/licential",
 "https://search.keinet.ne.jp/2313/outline/admission_employment",
 "https://search.keinet.ne.jp/2313/general/exam_result"
+]
+},
+"杉野服飾大学": {
+"faculties": [
+"服飾学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "服飾学部",
+"d": [
+"服飾学科",
+"服飾表現学科",
+"服飾文化学科"
+]
+}
+],
+"students": {
+"count": 728,
+"year": 2025
+},
+"founded": "1964年 大学設置（1926年 杉野芳子ドレスメーカースクールとして創立）",
+"access": "目黒キャンパス（東京都品川区上大崎、服飾・服飾文化・服飾表現1年）：JR・東急・東京メトロ・都営の目黒駅から徒歩3分。日野キャンパス（東京都日野市百草、服飾表現2年以降）：京王・多摩モノレール高幡不動駅などからバス（Kei-Net）",
+"licenses": [
+"中学校教諭一種（家庭）",
+"高等学校教諭一種（家庭）",
+"学芸員"
+],
+"careers": "2024年度卒業者162人のうち就職127人（78.4%）、進学5人（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2222",
+"https://search.keinet.ne.jp/2222/outline/department",
+"https://search.keinet.ne.jp/2222/outline/licential",
+"https://search.keinet.ne.jp/2222/outline/admission_employment",
+"https://search.keinet.ne.jp/2222/outline/campus",
+"https://search.keinet.ne.jp/2222/general/exam_result"
+]
+},
+"杏林大学": {
+"faculties": [
+"外国語学部",
+"総合政策学部",
+"医学部",
+"保健学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "外国語学部",
+"d": [
+"英語学科",
+"観光交流文化学科",
+"日中韓言語文化学科（2027年4月 中国語学科から改組予定）"
+]
+},
+{
+"f": "総合政策学部",
+"d": [
+"法律政治学科",
+"経済経営学科"
+]
+},
+{
+"f": "医学部",
+"d": [
+"医学科"
+]
+},
+{
+"f": "保健学部",
+"d": [
+"臨床検査技術学科",
+"健康福祉学科 健康福祉学専攻",
+"健康福祉学科 健康スポーツ学専攻",
+"看護学科 看護学専攻",
+"看護学科 看護養護教育学専攻",
+"臨床工学科",
+"救急救命学科",
+"リハビリテーション学科 理学療法学専攻",
+"リハビリテーション学科 作業療法学専攻",
+"リハビリテーション学科 言語聴覚療法学専攻",
+"診療放射線技術学科",
+"臨床心理学科"
+]
+}
+],
+"students": {
+"count": 5852,
+"year": 2025
+},
+"founded": "1966年 学校法人設立、1970年 医学部開設",
+"access": "三鷹キャンパス（東京都三鷹市新川、医・保健の看護学と臨床心理）：JR三鷹駅・吉祥寺駅などから小田急バス「杏林大学病院前」。井の頭キャンパス（東京都三鷹市下連雀、外国語・総合政策・保健の看護学以外）：JR三鷹駅・吉祥寺駅から小田急バス「杏林大学井の頭キャンパス」（Kei-Net）",
+"licenses": [
+"医師（受験資格）",
+"看護師（受験資格）",
+"保健師（受験資格）",
+"助産師（受験資格）",
+"臨床検査技師（受験資格）",
+"細胞検査士（受験資格）",
+"臨床工学技士（受験資格）",
+"救急救命士（受験資格）",
+"理学療法士（受験資格）",
+"作業療法士（受験資格）",
+"言語聴覚士（受験資格）",
+"診療放射線技師（受験資格）",
+"公認心理師（受験資格）",
+"社会福祉士（受験資格）",
+"精神保健福祉士（受験資格）",
+"養護教諭一種",
+"中学校・高等学校教諭一種（英語・社会/公民・保健）",
+"食品衛生監視員",
+"社会福祉主事"
+],
+"careers": "2024年度卒業者の就職者比率は外国語学部87.6%、総合政策学部87.3%、保健学部83.9%。2026年度の国家試験合格率は医師（新卒）99.0%、看護師（看護学専攻）99.0%、保健師100%（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2208",
+"https://search.keinet.ne.jp/2208/outline/department",
+"https://search.keinet.ne.jp/2208/outline/licential",
+"https://search.keinet.ne.jp/2208/outline/admission_employment",
+"https://search.keinet.ne.jp/2208/outline/campus",
+"https://search.keinet.ne.jp/2208/general/exam_result"
+]
+},
+"東京医療保健大学": {
+"faculties": [
+"医療保健学部",
+"東が丘看護学部",
+"立川看護学部",
+"千葉看護学部",
+"和歌山看護学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"founded": "2026-11-09",
+"access": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "医療保健学部",
+"d": [
+"看護学科",
+"医療保健学科 管理栄養学専攻",
+"医療保健学科 臨床検査学専攻",
+"医療保健学科 医療情報学専攻",
+"医療保健学科 臨床工学専攻"
+]
+},
+{
+"f": "東が丘看護学部",
+"d": [
+"看護学科"
+]
+},
+{
+"f": "立川看護学部",
+"d": [
+"看護学科"
+]
+},
+{
+"f": "千葉看護学部",
+"d": [
+"看護学科"
+]
+},
+{
+"f": "和歌山看護学部",
+"d": [
+"看護学科"
+]
+}
+],
+"students": {
+"count": 2692,
+"year": 2025
+},
+"founded": "2005年 開学",
+"access": "世田谷キャンパス（東京都世田谷区）：東急上町駅から徒歩3分。五反田キャンパス（東京都品川区）：五反田駅から徒歩8分。国立病院機構キャンパス（東京都目黒区、東が丘看護）：東急駒沢大学駅から徒歩10分。立川キャンパス（東京都立川市、立川看護）：JR立川駅から徒歩15分。船橋キャンパス（千葉県船橋市、千葉看護）：西船橋駅から徒歩12分。和歌山看護は和歌山市内の雄湊キャンパス（1・2年）と日赤和歌山医療センターキャンパス（3・4年）（Kei-Net）",
+"licenses": [
+"看護師（受験資格）",
+"保健師（受験資格）",
+"管理栄養士（受験資格）",
+"栄養士",
+"臨床検査技師（受験資格）",
+"臨床工学技士（受験資格）",
+"養護教諭一種・二種",
+"栄養教諭一種",
+"食品衛生監視員",
+"フードスペシャリスト",
+"社会福祉主事"
+],
+"careers": "2024年度卒業者の就職者比率は医療保健学部91.5%、東が丘看護学部93.5%、立川看護学部97.3%、千葉看護学部96.5%、和歌山看護学部93.4%（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2195",
+"https://search.keinet.ne.jp/2195/outline/department",
+"https://search.keinet.ne.jp/2195/outline/licential",
+"https://search.keinet.ne.jp/2195/outline/admission_employment",
+"https://search.keinet.ne.jp/2195/outline/campus",
+"https://search.keinet.ne.jp/2195/general/exam_result"
+]
+},
+"東京医療学院大学": {
+"faculties": [
+"保健医療学部"
+],
+"_checked": {
+"faculties": "2026-11-09",
+"departments": "2026-11-09",
+"students": "2026-11-09",
+"access": "2026-11-09",
+"licenses": "2026-11-09",
+"careers": "2026-11-09"
+},
+"departments": [
+{
+"f": "保健医療学部",
+"d": [
+"看護学科",
+"リハビリテーション学科 理学療法学専攻",
+"リハビリテーション学科 作業療法学専攻"
+]
+}
+],
+"students": {
+"count": 755,
+"year": 2025
+},
+"access": "東京都多摩市落合：京王・小田急・多摩モノレールの多摩センター駅から徒歩20分、またはバス「東京医療学院大学前」下車すぐ（Kei-Net）",
+"licenses": [
+"看護師（受験資格）",
+"助産師（受験資格）",
+"理学療法士（受験資格）",
+"作業療法士（受験資格）"
+],
+"careers": "2024年度卒業者200人のうち就職179人（89.5%）。2026年度の国家試験合格率は看護師（新卒）95.2%、助産師100%（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/general/exam_result/2327",
+"https://search.keinet.ne.jp/2327/outline/department",
+"https://search.keinet.ne.jp/2327/outline/licential",
+"https://search.keinet.ne.jp/2327/outline/admission_employment",
+"https://search.keinet.ne.jp/2327/outline/campus",
+"https://search.keinet.ne.jp/2327/general/exam_result"
 ]
 }
 }

@@ -1,34 +1,6 @@
 {
 "add": [
 {
-"name": "杉野服飾大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.sugino-fc.ac.jp/",
-"cat": "private"
-},
-{
-"name": "杏林大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.kyorin-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "東京医療保健大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.thcu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "東京医療学院大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.u-ths.ac.jp/",
-"cat": "private"
-},
-{
 "name": "東京医科大学",
 "type": "私立",
 "pref": "東京都",
@@ -3973,6 +3945,58 @@
 "need": [
 "fees"
 ]
+},
+"杉野服飾大学",
+"杏林大学",
+"東京医療保健大学",
+"東京医療学院大学",
+{
+"name": "長崎総合科学大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "鹿児島国際大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "鹿児島国際大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "鹿児島純心大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "鹿児島純心大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "日本文理大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "日本文理大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "日本経済大学",
+"need": [
+"schedule_dates"
+]
 }
 ],
 "failed": [
@@ -4075,7 +4099,9 @@
 "鹿屋体育大学": 1,
 "宮城大学": 1,
 "山形県立保健医療大学": 1,
-"岩手県立大学": 1
+"岩手県立大学": 1,
+"長崎総合科学大学": 1,
+"日本経済大学": 1
 },
 "enrich": [
 {
@@ -15993,18 +16019,6 @@
 {
 "name": "長崎総合科学大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "長崎総合科学大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "長崎総合科学大学",
-"need": [
 "scholar"
 ]
 },
@@ -16073,18 +16087,6 @@
 {
 "name": "鹿児島国際大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "鹿児島国際大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "鹿児島国際大学",
-"need": [
 "scholar"
 ]
 },
@@ -16092,18 +16094,6 @@
 "name": "鹿児島純心大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "鹿児島純心大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "鹿児島純心大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -16121,18 +16111,6 @@
 {
 "name": "日本文理大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "日本文理大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "日本文理大学",
-"need": [
 "scholar"
 ]
 },
@@ -16140,18 +16118,6 @@
 "name": "日本経済大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "日本経済大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "日本経済大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -26679,6 +26645,50 @@
 {
 "name": "昭和音楽大学",
 "keinet": "2313",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "長崎総合科学大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "日本経済大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "杉野服飾大学",
+"keinet": "2222",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "杏林大学",
+"keinet": "2208",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "東京医療保健大学",
+"keinet": "2195",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "東京医療学院大学",
+"keinet": "2327",
 "need": [
 "extra",
 "partners"
