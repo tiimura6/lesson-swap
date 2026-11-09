@@ -1,41 +1,6 @@
 {
 "add": [
 {
-"name": "尚美学園大学",
-"type": "私立",
-"pref": "埼玉県",
-"hp": "https://www.shobi-u.ac.jp/",
-"cat": "private"
-},
-{
-"name": "川村学園女子大学",
-"type": "私立",
-"pref": "千葉県",
-"hp": "https://www.kgwu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "帝京大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.teikyo-u.ac.jp/index.html",
-"cat": "private"
-},
-{
-"name": "帝京平成大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.thu.ac.jp/",
-"cat": "private"
-},
-{
-"name": "帝京科学大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.ntu.ac.jp/",
-"cat": "private"
-},
-{
 "name": "平成国際大学",
 "type": "私立",
 "pref": "埼玉県",
@@ -551,6 +516,14 @@
 "pref": "東京都",
 "hp": "https://www.gwc.gakushuin.ac.jp/",
 "cat": "private"
+},
+{
+"name": "川村学園女子大学",
+"type": "私立",
+"pref": "千葉県",
+"hp": "https://www.kgwu.ac.jp/",
+"cat": "private",
+"note": "2027年度から学生募集停止との報道あり（公式で未確認）。Kei-Net のページが開けない。公式で確認し、募集停止なら excluded へ"
 }
 ],
 "done": [
@@ -3549,6 +3522,76 @@
 "need": [
 "schedule_dates"
 ]
+},
+{
+"name": "佐賀大学",
+"keinet": "1425",
+"need": [
+"fees"
+]
+},
+{
+"name": "大分大学",
+"keinet": "1445",
+"need": [
+"fees"
+]
+},
+{
+"name": "宮崎大学",
+"keinet": "1455",
+"need": [
+"fees"
+]
+},
+{
+"name": "琉球大学",
+"keinet": "1475",
+"need": [
+"fees"
+]
+},
+{
+"name": "福岡教育大学",
+"keinet": "1420",
+"need": [
+"fees"
+]
+},
+{
+"name": "長崎大学",
+"keinet": "1435",
+"need": [
+"fees"
+]
+},
+{
+"name": "室蘭工業大学",
+"keinet": "1035",
+"need": [
+"fees"
+]
+},
+{
+"name": "三重大学",
+"keinet": "1265",
+"need": [
+"fees"
+]
+},
+{
+"name": "鹿屋体育大学",
+"keinet": "1470",
+"need": [
+"fees"
+]
+},
+{
+"name": "宮城大学",
+"keinet": "1514",
+"need": [
+"fees"
+]
 }
 ],
 "failed": [
@@ -3622,14 +3665,15 @@
 "秋田大学": 1,
 "上越教育大学": 1,
 "千葉科学大学": 1,
-"名古屋工業大学": 1,
-"富山大学": 1,
-"山梨大学": 1,
-"浜松医科大学": 1,
-"島根大学": 1,
+"名古屋工業大学": 2,
+"富山大学": 2,
+"山梨大学": 2,
+"浜松医科大学": 2,
+"島根大学": 2,
 "学習院女子大学": 1,
 "高知大学": 1,
-"大分大学": 1
+"大分大学": 1,
+"川村学園女子大学": 1
 },
 "enrich": [
 {
@@ -6615,76 +6659,6 @@
 "keinet": "1510",
 "need": [
 "schedule_dates"
-]
-},
-{
-"name": "佐賀大学",
-"keinet": "1425",
-"need": [
-"fees"
-]
-},
-{
-"name": "大分大学",
-"keinet": "1445",
-"need": [
-"fees"
-]
-},
-{
-"name": "宮崎大学",
-"keinet": "1455",
-"need": [
-"fees"
-]
-},
-{
-"name": "琉球大学",
-"keinet": "1475",
-"need": [
-"fees"
-]
-},
-{
-"name": "福岡教育大学",
-"keinet": "1420",
-"need": [
-"fees"
-]
-},
-{
-"name": "長崎大学",
-"keinet": "1435",
-"need": [
-"fees"
-]
-},
-{
-"name": "室蘭工業大学",
-"keinet": "1035",
-"need": [
-"fees"
-]
-},
-{
-"name": "三重大学",
-"keinet": "1265",
-"need": [
-"fees"
-]
-},
-{
-"name": "鹿屋体育大学",
-"keinet": "1470",
-"need": [
-"fees"
-]
-},
-{
-"name": "宮城大学",
-"keinet": "1514",
-"need": [
-"fees"
 ]
 },
 {
@@ -26287,34 +26261,6 @@
 ]
 },
 {
-"name": "名古屋工業大学",
-"keinet": "1255",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "富山大学",
-"keinet": "1190",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "山梨大学",
-"keinet": "1215",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "浜松医科大学",
-"keinet": "1235",
-"need": [
-"schedule_dates"
-]
-},
-{
 "name": "和光大学",
 "keinet": "2292",
 "need": [
@@ -26411,13 +26357,6 @@
 ]
 },
 {
-"name": "島根大学",
-"keinet": "1345",
-"need": [
-"schedule_dates"
-]
-},
-{
 "name": "多摩美術大学",
 "keinet": "2241",
 "need": [
@@ -26498,6 +26437,73 @@
 {
 "name": "大分大学",
 "keinet": "1445",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "尚美学園大学",
+"keinet": "2165",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "帝京大学",
+"keinet": "2244",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "帝京平成大学",
+"keinet": "2182",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "帝京科学大学",
+"keinet": "2383",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "名古屋工業大学",
+"keinet": "1255",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "富山大学",
+"keinet": "1190",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "山梨大学",
+"keinet": "1215",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "浜松医科大学",
+"keinet": "1235",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "島根大学",
+"keinet": "1345",
 "need": [
 "schedule_dates"
 ]
