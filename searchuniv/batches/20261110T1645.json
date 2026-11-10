@@ -1,0 +1,178 @@
+[
+ {
+  "name": "花園大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "apply": "12/15〜1/20",
+      "exam": "1/30",
+      "result": "2/5",
+      "proc": "3/16",
+      "fee": 35000,
+      "note": "文学部・社会福祉学部はAB日程（1/30・1/31から選択）、教育学部初等教育学科・文学部日本文学科書道コースはA日程。一般選抜は1出願35,000円、同時出願の2出願目以降は1件10,000円（A＋B日程で45,000円）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程",
+      "apply": "12/15〜1/20",
+      "exam": "1/31",
+      "result": "2/5",
+      "proc": "3/16",
+      "fee": 35000,
+      "note": "教育学部初等教育学科ほか（文学部・社会福祉学部はAB日程）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 C日程",
+      "apply": "1/21〜2/12",
+      "exam": "2/20",
+      "result": "2/26",
+      "proc": "3/16",
+      "fee": 35000,
+      "note": "手続締切はKei-Net"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 C日程【個性重視型】",
+      "apply": "1/21〜2/12",
+      "exam": "2/20",
+      "result": "2/26",
+      "proc": "3/16",
+      "fee": 35000,
+      "note": "文学部・社会福祉学部。手続締切はKei-Net"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 D日程",
+      "apply": "2/13〜2/25",
+      "exam": "3/4",
+      "result": "3/9",
+      "proc": "3/16",
+      "fee": 35000,
+      "note": "手続締切はKei-Net"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用方式 前期",
+      "apply": "12/15〜2/1",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "3/16",
+      "fee": 35000,
+      "note": "本学独自試験なし。2出願45,000円・3出願55,000円・6出願85,000円。一般選抜（A・B・Cいずれか）と同時出願で共テ1学科分が無料（共通テストパック）"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用方式 後期",
+      "apply": "2/2〜3/3",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/9",
+      "proc": "3/16",
+      "fee": 35000
+     }
+    ]
+   },
+   "sources": [
+    "https://www.hanazono.ac.jp/wp/wp-content/uploads/2026/07/2027Application-Guidelines.pdf",
+    "https://search.keinet.ne.jp/general/schedule_sp/2502"
+   ]
+  }
+ },
+ {
+  "name": "芦屋大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "apply": "1/8〜1/21",
+      "exam": "2/2",
+      "result": "2/9",
+      "proc": "2/23",
+      "fee": null,
+      "note": "環境教育学部・経営教育学部とも同日程。試験会場は本学"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程",
+      "apply": "2/3〜2/10",
+      "exam": "2/17",
+      "result": "2/24",
+      "proc": "3/9",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 C日程",
+      "apply": "2/18〜3/1",
+      "exam": "3/11",
+      "result": "3/16",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 スポーツ・芸術文化入試 D日程",
+      "apply": "2/18〜3/1",
+      "exam": "3/11",
+      "result": null,
+      "proc": null,
+      "fee": 30000
+     }
+    ]
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "経営教育学部（経営教育学科・児童教育学科）",
+      "admission": 300000,
+      "tuition": 750000,
+      "facility": 450000,
+      "practical": null,
+      "other": null,
+      "first_year": 1500000,
+      "four_year": null
+     }
+    ],
+    "note": "Kei-Net（2026年度入学者用）。Kei-Netでは経営教育・臨床教育（教育）とも同額。教育職員免許状取得に必要な費用・諸費用などを別途徴収"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3691/nyushi/gokaku-happyo/",
+    "https://search.keinet.ne.jp/2555/general/schedule",
+    "https://search.keinet.ne.jp/2555/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "種智院大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "人文学部（仏教学科・社会福祉学科）",
+      "admission": 200000,
+      "tuition": 750000,
+      "facility": 220000,
+      "practical": null,
+      "other": null,
+      "first_year": 1170000,
+      "four_year": null
+     }
+    ],
+    "note": "Kei-Net（2026年度入学者用）。実習費・学会費等を別途徴収"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2496/outline/expense",
+    "https://manabi.benesse.ne.jp/daigaku/school/3601/nyushi/gokaku-happyo/index.html"
+   ]
+  }
+ }
+]
