@@ -5103,6 +5103,60 @@
 "need": [
 "fees"
 ]
+},
+{
+"name": "大阪電気通信大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪青山大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "大阪青山大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "大阪音楽大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "天理大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "太成学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "太成学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "奈良大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "奈良大学",
+"need": [
+"fees"
+]
 }
 ],
 "failed": [
@@ -18898,18 +18952,6 @@
 {
 "name": "大阪電気通信大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "大阪電気通信大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "大阪電気通信大学",
-"need": [
 "scholar"
 ]
 },
@@ -18917,18 +18959,6 @@
 "name": "大阪青山大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "大阪青山大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "大阪青山大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -18946,18 +18976,6 @@
 {
 "name": "大阪音楽大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "大阪音楽大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "大阪音楽大学",
-"need": [
 "scholar"
 ]
 },
@@ -18965,18 +18983,6 @@
 "name": "天理大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "天理大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "天理大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -18989,18 +18995,6 @@
 "name": "太成学院大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "太成学院大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "太成学院大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -19013,18 +19007,6 @@
 "name": "奈良大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "奈良大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "奈良大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -26749,6 +26731,27 @@
 "fees"
 ],
 "note": "Kei-Netコード・公式学費ページが検索で見つからず（2026-11-10）"
+},
+{
+"name": "大阪電気通信大学",
+"need": [
+"schedule_dates"
+],
+"note": "一般前期・中期・後期は補完。共通テスト利用の日程と2027年度検定料は Kei-Net・マナビジョンに無く未確認（2026-11-10）"
+},
+{
+"name": "大阪音楽大学",
+"need": [
+"schedule_dates"
+],
+"note": "一般選抜は補完。推薦の発表・手続と一般の検定料は未確認（2026-11-10）"
+},
+{
+"name": "天理大学",
+"need": [
+"schedule_dates"
+],
+"note": "日程はKei-Net・マナビジョンで確認済み。2027年度の検定料が未確認（Kei-Netは2026年度入試の値）（2026-11-10）"
 }
 ],
 "complete": true,

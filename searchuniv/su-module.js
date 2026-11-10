@@ -1485,7 +1485,7 @@ $("kt-go").onclick=async()=>{
 };
 
 // ===== 更新日時（検索欄の下に表示）=====
-const BUILD=/*BUILD*/{"built":"2026-11-11 06:43","schedule":"2026-11-10","diffyear":"2027年度入試用"}/*END_BUILD*/;
+const BUILD=/*BUILD*/{"built":"2026-11-11 07:50","schedule":"2026-11-10","diffyear":"2027年度入試用"}/*END_BUILD*/;
 (function(){ const el=$("updline"); if(!el||!BUILD.built) return; const d=s=>s?s.replace(/-/g,"/"):"";
   el.textContent="更新 "+d(BUILD.built)+"・"+items.length+"校｜入試日程の確認 "+d((BUILD.schedule||BUILD.built).slice(0,10))+"（一般選抜は12月下旬に更新）"; el.title="難易度：河合塾「"+(BUILD.diffyear||"2027年度入試用")+"」"; })();
 $("univlist").innerHTML=items.map(x=>'<option value="'+esc(x.name)+'">').join("");
@@ -2495,7 +2495,7 @@ return API;
 }
 
 window.SearchunivModule=Object.freeze({
-  apiVersion:1, build:{"built":"2026-11-11 06:43","schedule":"2026-11-10","diffyear":"2027年度入試用"},
+  apiVersion:1, build:{"built":"2026-11-11 07:50","schedule":"2026-11-10","diffyear":"2027年度入試用"},
   // host 要素の Shadow DOM に Searchuniv を作る。opts: {base, theme, view, onView(v), onError(e)}
   mount(host,opts){
     opts=opts||{}; if(host.__su) return host.__su;
