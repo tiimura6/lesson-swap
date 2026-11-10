@@ -125641,8 +125641,8 @@ null
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
 "subjects": "2026-11-07",
-"schedule": "2026-11-07",
-"money": "2026-11-07",
+"schedule": "2026-11-10",
+"money": "2026-11-10",
 "scholar": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -125739,7 +125739,7 @@ null
 "apply": "12/1〜1/20",
 "exam": "1/26・1/27",
 "result": "2/12",
-"proc": null,
+"proc": "3/24まで延納可（公式）",
 "fee": null
 },
 {
@@ -125756,8 +125756,8 @@ null
 "name": "大学入学共通テスト利用選抜 前期",
 "apply": "12/1〜2/1",
 "exam": "1/16・1/17（共テ）",
-"result": null,
-"proc": null,
+"result": "2/12",
+"proc": "3/24まで延納可（公式）",
 "fee": null
 },
 {
@@ -125765,11 +125765,12 @@ null
 "name": "大学入学共通テスト利用選抜 後期",
 "apply": "2/1〜3/1",
 "exam": "1/16・1/17（共テ）",
-"result": null,
+"result": "3/10",
 "proc": null,
 "fee": null
 }
-]
+],
+"note": "入学検定料は公式ページに金額記載なし（早期出願割引5,000円・前年度出願者は一律10,000円）。手続は3月24日まで猶予との記載"
 },
 "money": {
 "year": "2027年度",
@@ -125777,42 +125778,46 @@ null
 {
 "f": "社会福祉学部 社会福祉学科",
 "admission": 200000,
-"tuition": null,
-"facility": null,
+"tuition": 780000,
+"facility": 230000,
 "practical": null,
-"other": null,
-"first_year": 1368100,
-"four_year": null
+"other": 108100,
+"first_year": 1318100,
+"four_year": null,
+"note": "施設費は教育充実費。諸費は2026年度入学生実績（教育後援会・学友会・校友会費・保険料など）。資格課程の履修費・実習諸費は別"
 },
 {
 "f": "教育学部 児童教育学科",
 "admission": 200000,
-"tuition": null,
-"facility": null,
+"tuition": 850000,
+"facility": 200000,
 "practical": null,
-"other": null,
+"other": 108940,
 "first_year": 1358940,
-"four_year": null
+"four_year": null,
+"note": "施設費は教育充実費。諸費は2026年度入学生実績（教育後援会・学友会・校友会費・保険料など）。資格課程の履修費・実習諸費は別"
 },
 {
 "f": "教育学部 保健教育学科",
 "admission": 200000,
-"tuition": null,
-"facility": null,
+"tuition": 870000,
+"facility": 260000,
 "practical": null,
-"other": null,
+"other": 108940,
 "first_year": 1438940,
-"four_year": null
+"four_year": null,
+"note": "施設費は教育充実費。諸費は2026年度入学生実績（教育後援会・学友会・校友会費・保険料など）。資格課程の履修費・実習諸費は別"
 },
 {
 "f": "看護学部 看護学科",
-"admission": null,
-"tuition": null,
-"facility": null,
+"admission": 200000,
+"tuition": 885000,
+"facility": 665000,
 "practical": null,
-"other": null,
-"first_year": 1878670,
-"four_year": null
+"other": 108670,
+"first_year": 1858670,
+"four_year": null,
+"note": "施設費は教育充実費。諸費は2026年度入学生実績（教育後援会・学友会・校友会費・保険料など）。資格課程の履修費・実習諸費は別（保健師課程6万円・助産師課程20万円など）"
 }
 ]
 },
@@ -125840,7 +125845,10 @@ null
 "https://www.kusw.ac.jp/topics/topics-23949",
 "https://passnavi.obunsha.co.jp/univ/4385/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3715/",
-"https://kotobank.jp/word/%E9%96%A2%E8%A5%BF%E7%A6%8F%E7%A5%89%E5%A4%A7%E5%AD%A6-174886"
+"https://kotobank.jp/word/%E9%96%A2%E8%A5%BF%E7%A6%8F%E7%A5%89%E5%A4%A7%E5%AD%A6-174886",
+"https://www.kusw.ac.jp/examination2",
+"https://www.kusw.ac.jp/examination/centerexam",
+"https://www.kusw.ac.jp/examination/generalexam2"
 ],
 "students": {
 "count": 1398,
@@ -125862,8 +125870,8 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
-"money": "2026-11-07",
+"schedule": "2026-11-10",
+"money": "2026-11-10",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
@@ -125950,41 +125958,62 @@ null
 "result": "3/12（通知発送）",
 "proc": "3/18",
 "fee": 30000
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 前期",
+"apply": "1/5〜1/20",
+"exam": "1/16・1/17（共テ）",
+"result": "2/22（通知発送）",
+"proc": "入学金3/1",
+"fee": 10000
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 後期",
+"apply": "2/17〜3/2",
+"exam": "1/16・1/17（共テ）",
+"result": "3/12（通知発送）",
+"proc": "入学金3/18",
+"fee": 10000
 }
 ]
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
-"f": "社会福祉学部・心理科学部・健康福祉学部・教育学部",
+"f": "社会福祉学部 福祉創造学科・心理科学部 心理科学科・健康福祉学部 健康科学科・教育学部 教育学科",
 "admission": 200000,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 1450000,
-"four_year": 5200000
+"tuition": 1000000,
+"facility": 250000,
+"practical": 0,
+"other": 28000,
+"first_year": 1478000,
+"four_year": null,
+"note": "諸会費は学友会費（入会金2,000円・年会費6,000円）と教育後援会費20,000円。資格課程の実習費は履修者のみ別途。施設費は教育充実費"
 },
 {
 "f": "健康福祉学部 福祉栄養学科",
 "admission": 200000,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 1600000,
-"four_year": 5800000
+"tuition": 1200000,
+"facility": 200000,
+"practical": 0,
+"other": 28000,
+"first_year": 1628000,
+"four_year": null,
+"note": "諸会費は学友会費（入会金2,000円・年会費6,000円）と教育後援会費20,000円。資格課程の実習費は履修者のみ別途"
 },
 {
 "f": "保健医療学部 リハビリテーション学科",
 "admission": 200000,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 1850000,
-"four_year": 6800000
+"tuition": 1200000,
+"facility": 450000,
+"practical": 0,
+"other": 28000,
+"first_year": 1878000,
+"four_year": null,
+"note": "諸会費は学友会費（入会金2,000円・年会費6,000円）と教育後援会費20,000円。資格課程の実習費は履修者のみ別途（公式の初年度合計表示は1,878,100円、内訳の合計は1,878,000円）"
 }
 ]
 },
@@ -125998,7 +126027,9 @@ null
 "https://search.keinet.ne.jp/2546/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/4255/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3656/",
-"https://search.keinet.ne.jp/2546"
+"https://search.keinet.ne.jp/2546",
+"https://www.fuksi-kagk-u.ac.jp/campuslife/fee.html",
+"https://www.fuksi-kagk-u.ac.jp/nyushi/nyugaku/center.html"
 ],
 "students": {
 "count": 1846,
@@ -126019,7 +126050,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-10",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -126098,20 +126129,39 @@ null
 "name": "一般入試 前期",
 "apply": "1/5〜1/25",
 "exam": "2/1・2/2・2/3・2/4",
-"result": null,
-"proc": null,
-"fee": null
+"result": "2/17",
+"proc": "1次（入学金）3/1・2次3/23",
+"fee": 10000
 },
 {
 "kubun": "一般",
 "name": "一般入試 後期",
 "apply": "2/5〜3/2",
 "exam": "3/7",
-"result": null,
+"result": "3/13",
 "proc": "3/23",
-"fee": null
+"fee": 10000
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用入試 前期（2教科型・3教科型）",
+"apply": "1/5〜2/1",
+"exam": "1/16・1/17（共テ）",
+"result": "2/17",
+"proc": "1次（入学金）3/1・2次3/23",
+"fee": 10000
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用入試 後期",
+"apply": "2/5〜3/2",
+"exam": "1/16・1/17（共テ）",
+"result": "3/13",
+"proc": "3/23",
+"fee": 10000
 }
-]
+],
+"note": "一般前期の検定料は1日程スタンダード方式10,000円（高得点科目重視・資格利用は各+5,000円、1日程最大20,000円）。共テ前期は2教科型・3教科型の同時出願20,000円"
 },
 "money": {
 "year": "2027年度",
@@ -126139,7 +126189,8 @@ null
 "https://search.keinet.ne.jp/2543/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/4340/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3653/",
-"https://www.hannan-u.ac.jp/corp/st9plj0000001nq7.html"
+"https://www.hannan-u.ac.jp/corp/st9plj0000001nq7.html",
+"https://www.hannan-u.ac.jp/entrance/information/2026/b4uvf80000002ggs-att/ihm6cm00000010vb.pdf"
 ],
 "students": {
 "count": 4448,
@@ -126158,7 +126209,9 @@ null
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "founded": "2026-11-09",
-"students": "2026-11-09"
+"students": "2026-11-09",
+"schedule": "2026-11-10",
+"money": "2026-11-10"
 },
 "departments": [
 {
@@ -126178,12 +126231,99 @@ null
 "https://ja.wikipedia.org/wiki/%E9%AB%98%E9%87%8E%E5%B1%B1%E5%A4%A7%E5%AD%A6",
 "https://www.koyasan-u.ac.jp/notice/news/detail/6277/",
 "https://www.koyasan-u.ac.jp/notice/news/detail/4780/",
-"https://www.koyasan-u.ac.jp/info/about/"
+"https://www.koyasan-u.ac.jp/info/about/",
+"https://www.koyasan-u.ac.jp/pdf/2027%E5%B9%B4%E5%BA%A6%E5%AF%86%E6%95%99%E5%AD%A6%E7%A7%91%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf",
+"https://www.koyasan-u.ac.jp/campuslife/tuition/"
 ],
 "founded": "1949年 新制大学開学（1926年大学令による設立認可／前身：古義大学林、1886年創設）",
 "students": {
 "count": 303,
 "year": 2026
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜Ⅰ期",
+"apply": "1/8〜1/23",
+"exam": "2/2",
+"result": "2/12",
+"proc": "2/12〜2/26",
+"fee": 30000
+},
+{
+"kubun": "一般",
+"name": "一般選抜Ⅱ期",
+"apply": "2/5〜2/24",
+"exam": "3/6",
+"result": "3/12",
+"proc": "3/12〜3/25",
+"fee": 30000
+},
+{
+"kubun": "一般",
+"name": "一般選抜Ⅲ期",
+"apply": "3/1〜3/12",
+"exam": "3/20",
+"result": "3/22",
+"proc": "3/22〜3/30",
+"fee": 30000
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅰ期（一般・寺院後継者）",
+"apply": "9/11〜10/5",
+"exam": "10/17",
+"result": "11/2",
+"proc": "11/2〜11/16",
+"fee": 30000
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅱ期（一般・寺院後継者）",
+"apply": "11/5〜11/22",
+"exam": "12/5",
+"result": "12/10",
+"proc": "12/10〜12/23",
+"fee": 30000
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅲ期（一般・寺院後継者）",
+"apply": "1/8〜1/23",
+"exam": "2/2",
+"result": "2/12",
+"proc": "2/12〜2/26",
+"fee": 30000
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（併設校）",
+"apply": "11/1〜11/13",
+"exam": "11/22",
+"result": "12/1",
+"proc": "12/1〜12/15",
+"fee": null
+}
+],
+"note": "共通テスト利用選抜は募集要項に記載なし。指定校推薦の日程は非公開"
+},
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "文学部 密教学科",
+"admission": 200000,
+"tuition": 760000,
+"facility": 220000,
+"practical": 0,
+"other": 81360,
+"first_year": 1261360,
+"four_year": null,
+"note": "施設費は教育充実費。諸経費（学友会入会金・学友会費・同窓会費・保険）は1年次のみ。2年次以降は授業料のみ年380,000円×2"
+}
+]
 }
 },
 "龍谷大学": {
@@ -126205,7 +126345,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-10",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -126336,7 +126476,7 @@ null
 "exam": "1/29・1/30・1/31",
 "result": "2/12",
 "proc": "手続Ⅰ 2/18・手続Ⅱ 3/10",
-"fee": null
+"fee": 35000
 },
 {
 "kubun": "一般",
@@ -126344,8 +126484,8 @@ null
 "apply": "1/4〜2/2",
 "exam": "2/14・2/15",
 "result": "2/26",
-"proc": null,
-"fee": null
+"proc": "手続Ⅰ 3/3・手続Ⅱ 3/10",
+"fee": 35000
 },
 {
 "kubun": "一般",
@@ -126354,7 +126494,7 @@ null
 "exam": "3/10",
 "result": "3/18",
 "proc": "3/24（一括）",
-"fee": null
+"fee": 35000
 },
 {
 "kubun": "共テ利用",
@@ -126363,7 +126503,7 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "2/12",
 "proc": "手続Ⅰ 2/18・手続Ⅱ 3/10",
-"fee": null
+"fee": 20000
 },
 {
 "kubun": "共テ利用",
@@ -126372,7 +126512,7 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "2/26",
 "proc": null,
-"fee": null
+"fee": 20000
 },
 {
 "kubun": "共テ利用",
@@ -126381,9 +126521,10 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "3/18",
 "proc": "3/24（一括）",
-"fee": null
+"fee": 20000
 }
-]
+],
+"note": "検定料：一般選抜は同一試験日の1出願目35,000円、2出願目以降+10,000円。共テ利用は同一日程2出願まで20,000円、5出願まで30,000円、6出願目以降+7,000円"
 },
 "money": {
 "year": "2026年度",
@@ -126462,7 +126603,8 @@ null
 "https://www.ryukoku.ac.jp/admission/guidance/pdf/2027/dl_01_261019.pdf",
 "https://search.keinet.ne.jp/2505/outline/expense",
 "https://search.keinet.ne.jp/2505/general/border_rate",
-"https://passnavi.obunsha.co.jp/univ/4060/difficulty/?facultyID=005"
+"https://passnavi.obunsha.co.jp/univ/4060/difficulty/?facultyID=005",
+"https://www.ryukoku.ac.jp/admission/nyushi/pdf/guide/2027_guide.pdf"
 ]
 },
 "くらしき作陽大学": {
@@ -126647,7 +126789,7 @@ null
 "departments": "2026-11-07",
 "methods": "2026-11-07",
 "schedule": "2026-11-07",
-"money": "2026-11-07",
+"money": "2026-11-10",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
@@ -126707,21 +126849,34 @@ null
 "f": "音楽学部 演奏学科",
 "admission": 300000,
 "tuition": 1300000,
-"facility": null,
-"practical": null,
-"other": null,
+"facility": 300000,
+"practical": 0,
+"other": 3000,
 "first_year": 1900000,
-"four_year": null
+"four_year": 6700000,
+"note": "諸会費（年3,000円）は公式の年間合計に含まれない。中・高教職課程は2年次以降毎年10万円の履修費"
 },
 {
-"f": "音楽学部 音楽文化学科",
+"f": "音楽学部 音楽文化学科（音楽文化専修）",
+"admission": 300000,
+"tuition": 1300000,
+"facility": 300000,
+"practical": 0,
+"other": 3000,
+"first_year": 1900000,
+"four_year": 6700000,
+"note": "諸会費（年3,000円）は公式の年間合計に含まれない。中・高教職課程は2年次以降毎年10万円の履修費"
+},
+{
+"f": "音楽学部 音楽文化学科（幼児音楽教育専修）",
 "admission": 300000,
 "tuition": 850000,
-"facility": null,
-"practical": null,
-"other": null,
+"facility": 300000,
+"practical": 25000,
+"other": 3000,
 "first_year": 1475000,
-"four_year": null
+"four_year": 5000000,
+"note": "諸会費（年3,000円）は公式の年間合計に含まれない"
 }
 ]
 },
@@ -126736,7 +126891,8 @@ null
 "https://up-j.shigaku.go.jp/department/category06/00000000617001001.html",
 "https://search.keinet.ne.jp/2632/outline/department",
 "https://www.eum.ac.jp/about/history/",
-"https://www.weblio.jp/content/%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%83%88%E9%9F%B3%E6%A5%BD%E5%A4%A7%E5%AD%A6"
+"https://www.weblio.jp/content/%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%83%88%E9%9F%B3%E6%A5%BD%E5%A4%A7%E5%AD%A6",
+"https://www.eum.ac.jp/faculty/tuition_fee/"
 ],
 "students": {
 "count": 201,
@@ -126757,7 +126913,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-10",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -126857,8 +127013,8 @@ null
 "name": "共通テスト利用選抜 後期（2教科型・1教科型）",
 "apply": "2/13〜3/10",
 "exam": "1/16・1/17（共テ）",
-"result": null,
-"proc": null,
+"result": "3/18",
+"proc": "3/19〜3/25",
 "fee": null
 }
 ]
