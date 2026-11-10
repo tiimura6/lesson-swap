@@ -1,0 +1,73 @@
+[
+{"name": "皇學館大学", "info": {"schedule_replace": {"year": "2027年度入試", "rows": [
+ {"kubun": "一般", "name": "一般選抜 前期入試（1/29・1/30）3科目型・2科目型", "apply": "1/6〜1/22", "exam": "1/29・1/30（自由選択）", "result": "2/7", "proc": "2/15（2次3/8）", "fee": 30000, "note": "試験日を1日追加するごとに10,000円。全学部"},
+ {"kubun": "一般", "name": "一般選抜 前期入試（1/31）得意2科目型", "apply": "1/6〜1/22", "exam": "1/31", "result": "2/7", "proc": "2/15（2次3/8）", "fee": 30000, "note": "試験日を1日追加するごとに10,000円"},
+ {"kubun": "一般", "name": "一般選抜 中期入試", "apply": "〜2/22（必着）", "exam": "2/28", "result": "3/4", "proc": "3/11", "fee": null, "note": "出願締切・発表・手続はKei-Net"},
+ {"kubun": "一般", "name": "一般選抜 後期入試", "apply": "〜3/8（必着）", "exam": "3/11", "result": "3/16", "proc": "3/19", "fee": null, "note": "出願締切・発表・手続はKei-Net"},
+ {"kubun": "共テ利用", "name": "共通テスト併用型（1/29・1/30入試＋共テ2科目／1/31入試＋共テ2科目）", "apply": "1/6〜1/22", "exam": "1/29・1/30または1/31＋共テ（1/16・1/17）", "result": "2/7", "proc": "2/15（2次3/8）", "fee": 30000, "note": "Kei-Netでは「2科目＋テ1」は全学部、「1科目＋テ2」は文・教育（教育）・現代日本社会"},
+ {"kubun": "共テ利用", "name": "共通テスト利用入試 前期（教育学部は3科目型・4科目型）", "apply": "〜2/2（必着）", "exam": "1/16・1/17（共テ）", "result": "2/7", "proc": "2/15", "fee": null, "note": "日程はKei-Net"},
+ {"kubun": "共テ利用", "name": "共通テスト利用入試 中期", "apply": "〜2/22（必着）", "exam": "1/16・1/17（共テ）", "result": "3/4", "proc": "3/11", "fee": null, "note": "日程はKei-Net"},
+ {"kubun": "共テ利用", "name": "共通テスト利用入試 後期", "apply": "〜3/8（必着）", "exam": "1/16・1/17（共テ）", "result": "3/16", "proc": "3/19", "fee": null, "note": "日程はKei-Net"}
+]}, "sources": ["https://www.kogakkan-u.ac.jp/campusview/admissions/pdf/schedule/r9_p26.pdf", "https://www.kogakkan-u.ac.jp/campusview/admissions/pdf/schedule/r9_p27.pdf", "https://search.keinet.ne.jp/2473/general/schedule"]}},
+{"name": "相愛大学", "info": {"schedule_replace": {"year": "2027年度入試", "rows": [
+ {"kubun": "総合型", "name": "総合型選抜 A入試", "apply": "9/1〜9/9", "exam": "9/20", "result": "10/1", "proc": "10/9（2次12/16）", "fee": 30000, "note": "音楽学部は35,000円"},
+ {"kubun": "総合型", "name": "総合型選抜 B入試", "apply": "9/29〜10/7", "exam": "10/18", "result": "11/2", "proc": "11/13（2次12/16）", "fee": 30000, "note": "音楽学部は35,000円"},
+ {"kubun": "推薦", "name": "推薦入試", "apply": "11/1〜11/10", "exam": "11/21・11/22", "result": "12/1", "proc": "12/11（2次1/29）", "fee": 30000, "note": "音楽学部は35,000円"},
+ {"kubun": "一般", "name": "一般選抜 A入試", "apply": "1/7〜1/19", "exam": "2/1・2/2", "result": "2/12", "proc": "2/22（2次3/12）", "fee": 30000, "note": "音楽学部は35,000円（2/1・2/2の両日）。人文・人間発達学部は2/1。同一学科の2回目以降は15,000円（音楽は17,500円）"},
+ {"kubun": "一般", "name": "一般選抜 B入試", "apply": "〜2/10（消印有効）", "exam": "2/21", "result": "3/2", "proc": "3/12", "fee": 30000, "note": "音楽学部は35,000円"},
+ {"kubun": "一般", "name": "一般選抜 C入試", "apply": "〜3/1（消印有効）", "exam": "3/7", "result": "3/16", "proc": "3/29", "fee": 30000, "note": "音楽学部は出願3/23（必着）・試験3/25・発表3/26・手続3/29、検定料35,000円"},
+ {"kubun": "共テ利用", "name": "共通テスト利用 A入試", "apply": "〜1/22（必着）", "exam": "1/16・1/17（共テ）", "result": "2/12", "proc": "2/22", "fee": 15000, "note": "人文学部・人間発達学部（管理栄養は2教科型・3教科型）"},
+ {"kubun": "共テ利用", "name": "共通テスト利用 B入試", "apply": "〜2/10（消印有効）", "exam": "1/16・1/17（共テ）", "result": "3/2", "proc": "3/12", "fee": 15000},
+ {"kubun": "共テ利用", "name": "共通テスト利用 C入試", "apply": "〜3/1（消印有効）", "exam": "1/16・1/17（共テ）", "result": "3/16", "proc": "3/29", "fee": 15000}
+]}, "money_replace": {"year": "2026年度", "note": "大学公式の学費ページ（表に年度の明記なし、2026-11-10確認）。授業料・施設費は前期・後期の合計。諸費（後援会・保護者会・学生会・同窓会費など）を含む。人間発達学部は実験実習費を含む。2年次以降は維持費が別途", "source": "https://www.soai.ac.jp/examinee/tuition-scholarships/tuition.html", "rows": [
+ {"f": "音楽学部 演奏コース", "admission": 350000, "tuition": 1240000, "facility": 460000, "practical": null, "other": 57400, "first_year": 2107400, "four_year": null},
+ {"f": "音楽学部 音楽創造コース", "admission": 350000, "tuition": 1160000, "facility": 380000, "practical": null, "other": 57400, "first_year": 1947400, "four_year": null},
+ {"f": "音楽学部 音楽文化コース", "admission": 350000, "tuition": 1040000, "facility": 340000, "practical": null, "other": 57400, "first_year": 1787400, "four_year": null},
+ {"f": "人文学部 人文学科", "admission": 250000, "tuition": 860000, "facility": 240000, "practical": null, "other": 52900, "first_year": 1402900, "four_year": null},
+ {"f": "人間発達学部 管理栄養学科", "admission": 280000, "tuition": 1040000, "facility": 280000, "practical": null, "other": 52900, "first_year": 1652900, "four_year": null, "note": "実験実習費を含む"}
+]}, "sources": ["https://search.keinet.ne.jp/2539/general/schedule", "https://www.soai.ac.jp/examinee/tuition-scholarships/tuition.html"]}},
+{"name": "神戸医療未来大学", "info": {"schedule_replace": {"year": "2027年度入試", "rows": [
+ {"kubun": "総合型", "name": "総合型選抜（総合型・スポーツ型）1期A日程", "apply": "9/8〜9/17", "exam": "9/26", "result": "11/2", "proc": "11/16", "fee": 33000, "note": "検定料のほかWEB出願のシステム手数料1,000円"},
+ {"kubun": "総合型", "name": "総合型選抜（総合型・スポーツ型）1期B日程", "apply": "9/29〜10/8", "exam": "10/17", "result": null, "proc": null, "fee": 33000},
+ {"kubun": "総合型", "name": "総合型選抜 2期", "apply": "12/1〜12/10", "exam": "12/19", "result": "12/26", "proc": "1/18", "fee": 33000},
+ {"kubun": "総合型", "name": "総合型選抜 3期", "apply": "1/7〜3/11", "exam": "個別実施", "result": "個別発表", "proc": null, "fee": 33000},
+ {"kubun": "推薦", "name": "学校推薦型選抜（公募制・教員推薦）1期", "apply": "11/2〜11/12", "exam": "11/21", "result": "12/1", "proc": "12/14", "fee": 33000},
+ {"kubun": "推薦", "name": "学校推薦型選抜（公募制・教員推薦）2期", "apply": "11/16〜12/10", "exam": "12/19", "result": "12/26", "proc": "1/18", "fee": 33000},
+ {"kubun": "一般", "name": "一般選抜 1期", "apply": "12/21〜1/21", "exam": "2/1", "result": "2/6", "proc": "2/18", "fee": 33000, "note": "健康スポーツ学部・人間社会学部共通。共通テスト利用選抜は募集要項に記載なし"},
+ {"kubun": "一般", "name": "一般選抜 2期", "apply": "2/1〜2/11", "exam": "2/20", "result": "2/27", "proc": "3/11", "fee": 33000}
+]}, "sources": ["https://www.kinwu.ac.jp/exam/", "https://www.kinwu.ac.jp/wp-content/themes/kobeiryoumirai/assets/files/exam/boshu_youkou2027.pdf", "https://passnavi.obunsha.co.jp/univ/4395/schedule/"]}},
+{"name": "神戸国際大学", "info": {"schedule_replace": {"year": "2027年度入試", "rows": [
+ {"kubun": "一般", "name": "一般選抜 前期", "apply": "12/7〜1/21", "exam": "2/2・2/3", "result": "2/16", "proc": "2/25（2次3/5）", "fee": 30000, "note": "2日間受験しても30,000円。出願は消印有効（持参は1/22）"},
+ {"kubun": "一般", "name": "一般選抜 中期", "apply": "1/25〜2/15", "exam": "2/22", "result": "3/4", "proc": "3/12（一括）", "fee": 30000},
+ {"kubun": "一般", "name": "一般選抜 後期", "apply": "2/12〜3/4", "exam": "3/11", "result": "3/19", "proc": "3/25（一括）", "fee": 30000, "note": "A方式・B方式から選択"},
+ {"kubun": "共テ利用", "name": "大学入学共通テスト利用入試 前期", "apply": "12/7〜1/21", "exam": "1/16・1/17（共テ）", "result": "2/16", "proc": "2/25（2次3/5）", "fee": 10000, "note": "同学部・同学科の一般入試と同時出願なら無料"},
+ {"kubun": "共テ利用", "name": "大学入学共通テスト利用入試 中期", "apply": "1/25〜2/15", "exam": "1/16・1/17（共テ）", "result": "3/4", "proc": "3/12", "fee": 10000},
+ {"kubun": "共テ利用", "name": "大学入学共通テスト利用入試 後期", "apply": "2/12〜3/4", "exam": "1/16・1/17（共テ）", "result": "3/19", "proc": "3/25（一括）", "fee": 10000}
+]}, "money_replace": {"year": "2027年度", "note": "令和9年度入学試験要項。facility は教育充実費、other は委託徴収費（金額は2026年度実績）。実習費の記載なし。授業料はスライド制", "source": "https://www.kobe-kiu.ac.jp/wp-content/themes/kiu/pdf/application_guide_2027.pdf", "rows": [
+ {"f": "経済学部（経済経営学科・国際文化ビジネス・観光学科）", "admission": 250000, "tuition": 770000, "facility": 210000, "practical": null, "other": 47000, "first_year": 1277000, "four_year": 4302000},
+ {"f": "リハビリテーション学部 理学療法学科", "admission": 250000, "tuition": 1200000, "facility": 450000, "practical": null, "other": 47000, "first_year": 1947000, "four_year": 7132000, "note": "教育充実費は2年次以降500,000円"}
+]}, "sources": ["https://www.kobe-kiu.ac.jp/wp-content/themes/kiu/pdf/application_guide_2027.pdf"]}},
+{"name": "神戸女子大学", "info": {"schedule_replace": {"year": "2027年度入試", "rows": [
+ {"kubun": "一般", "name": "一般入試 前期A・B", "apply": "12/14〜1/13", "exam": "1/23（A）・1/24（B）", "result": "1/31", "proc": "1次2/9", "fee": 35000},
+ {"kubun": "一般", "name": "一般入試 前期C", "apply": "1/14〜2/4", "exam": "2/13", "result": "2/21", "proc": "1次2/26", "fee": 35000},
+ {"kubun": "一般", "name": "一般入試 後期", "apply": "2/10〜2/24", "exam": "3/7", "result": "3/14", "proc": "3/26", "fee": 35000},
+ {"kubun": "共テ利用", "name": "大学入学共通テスト利用入試 前期", "apply": "12/14〜2/10", "exam": "1/16・1/17（共テ）", "result": "2/21", "proc": "3/4", "fee": 5000, "note": "手続締切はパスナビ"},
+ {"kubun": "共テ利用", "name": "大学入学共通テスト利用入試 後期", "apply": "2/10〜3/3", "exam": "1/16・1/17（共テ）", "result": "3/14", "proc": "3/26", "fee": 5000, "note": "手続締切はパスナビ"}
+]}, "money_replace": {"year": "2027年度", "note": "大学公式（入試情報2027 奨学金・学納金）。facility は教育・施設充実費、other は学友会費5,000円＋教育後援会費30,000円。学外実習費・同窓会終身会費は別", "source": "https://www.kobe-wu.ac.jp/exam/2027/scholarship-fee/", "rows": [
+ {"f": "文学部（日本語日本文学科・英語英米文学科・国際教養学科・史学科）", "admission": 200000, "tuition": 880000, "facility": 240000, "practical": null, "other": 35000, "first_year": 1355000, "four_year": null},
+ {"f": "教育学部 教育学科", "admission": 200000, "tuition": 880000, "facility": 310000, "practical": null, "other": 35000, "first_year": 1425000, "four_year": null},
+ {"f": "家政学部 家政学科", "admission": 200000, "tuition": 880000, "facility": 350000, "practical": null, "other": 35000, "first_year": 1465000, "four_year": null},
+ {"f": "家政学部 管理栄養士養成課程", "admission": 200000, "tuition": 880000, "facility": 390000, "practical": null, "other": 35000, "first_year": 1505000, "four_year": null},
+ {"f": "健康福祉学部 健康福祉学科", "admission": 200000, "tuition": 880000, "facility": 370000, "practical": null, "other": 35000, "first_year": 1485000, "four_year": null},
+ {"f": "看護学部 看護学科", "admission": 200000, "tuition": 1030000, "facility": 620000, "practical": null, "other": 35000, "first_year": 1885000, "four_year": null},
+ {"f": "心理学部 心理学科", "admission": 200000, "tuition": 880000, "facility": 310000, "practical": null, "other": 35000, "first_year": 1425000, "four_year": null}
+]}, "sources": ["https://www.kobe-wu.ac.jp/exam/2027/scholarship-fee/", "https://passnavi.obunsha.co.jp/univ/4470/schedule/"]}},
+{"name": "神戸女学院大学", "info": {"money_replace": {"year": "2026年度", "note": "大学公式「学部の学費・諸会費（2026年度）」。facility は教育充実費、other は諸会費（自治会入会金800円・自治会費3,000円・家庭会費7,000円・めぐみ会入会金10,000円、高等学部出身者はめぐみ会入会金不要）。実験実習料・教育実習料は別途。2027年度は未掲載", "source": "https://www.kobe-c.ac.jp/campuslife/gakuhi/", "rows": [
+ {"f": "文学部 総合文化学科", "admission": 200000, "tuition": 916000, "facility": 293000, "practical": null, "other": 20800, "first_year": 1429800, "four_year": null},
+ {"f": "国際学部", "admission": 200000, "tuition": 916000, "facility": 293000, "practical": null, "other": 20800, "first_year": 1429800, "four_year": null},
+ {"f": "心理学部 心理学科", "admission": 200000, "tuition": 978000, "facility": 329000, "practical": null, "other": 20800, "first_year": 1527800, "four_year": null},
+ {"f": "生命環境学部 生命環境学科", "admission": 200000, "tuition": 978000, "facility": 329000, "practical": null, "other": 20800, "first_year": 1527800, "four_year": null},
+ {"f": "音楽学部 音楽キャリアデザイン専攻", "admission": 200000, "tuition": 1050000, "facility": 350000, "practical": null, "other": 20800, "first_year": 1620800, "four_year": null},
+ {"f": "音楽学部 音楽表現専攻", "admission": 200000, "tuition": 1151000, "facility": 543000, "practical": null, "other": 20800, "first_year": 1914800, "four_year": null}
+]}, "sources": ["https://www.kobe-c.ac.jp/campuslife/gakuhi/", "https://www.kobe-c.ac.jp/admissions/info/fee/"]}}
+]
