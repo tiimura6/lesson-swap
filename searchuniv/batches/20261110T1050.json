@@ -1,0 +1,407 @@
+[
+ {
+  "name": "四国大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅰ期",
+      "apply": "12/18〜1/20",
+      "exam": "2/1",
+      "result": "2/8",
+      "proc": "3/3",
+      "fee": null,
+      "note": "Kei-Net・マナビジョンとも試験日2/1（以前の登録2/3から修正）。全学部共通"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅱ期",
+      "apply": "1/21〜2/11",
+      "exam": "2/20",
+      "result": "2/26",
+      "proc": "3/11",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅲ期",
+      "apply": "2/12〜2/28",
+      "exam": "3/5",
+      "result": "3/9",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 前期",
+      "apply": "1/4〜2/11",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/26",
+      "proc": "3/11",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 中期",
+      "apply": "2/12〜2/28",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/9",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 後期",
+      "apply": "3/1〜3/9",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/19",
+      "proc": "3/26",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜",
+      "apply": "11/1〜11/12",
+      "exam": "11/22",
+      "result": "12/1",
+      "proc": "1/7",
+      "fee": null
+     }
+    ]
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "文学部 日本文学科",
+      "admission": 280000,
+      "tuition": 700000,
+      "facility": 220000,
+      "practical": 108000,
+      "other": null,
+      "first_year": 1308000,
+      "four_year": null
+     },
+     {
+      "f": "文学部 書道文化学科",
+      "admission": 280000,
+      "tuition": 700000,
+      "facility": 220000,
+      "practical": 108000,
+      "other": 80000,
+      "first_year": 1388000,
+      "four_year": null,
+      "note": "other は Kei-Net の「その他」"
+     },
+     {
+      "f": "文学部 国際文化学科",
+      "admission": 280000,
+      "tuition": 700000,
+      "facility": 220000,
+      "practical": 108000,
+      "other": 40000,
+      "first_year": 1348000,
+      "four_year": null,
+      "note": "other は Kei-Net の「その他」"
+     },
+     {
+      "f": "経営情報学部",
+      "admission": 280000,
+      "tuition": 700000,
+      "facility": 220000,
+      "practical": 108000,
+      "other": 100000,
+      "first_year": 1408000,
+      "four_year": null,
+      "note": "other は Kei-Net の「その他」"
+     },
+     {
+      "f": "生活科学部 人間生活科学科",
+      "admission": 280000,
+      "tuition": 700000,
+      "facility": 220000,
+      "practical": 108000,
+      "other": 100000,
+      "first_year": 1408000,
+      "four_year": null,
+      "note": "other は Kei-Net の「その他」"
+     },
+     {
+      "f": "生活科学部 健康栄養学科",
+      "admission": 280000,
+      "tuition": 700000,
+      "facility": 220000,
+      "practical": 108000,
+      "other": 120000,
+      "first_year": 1428000,
+      "four_year": null,
+      "note": "other は Kei-Net の「その他」"
+     },
+     {
+      "f": "生活科学部 児童学科",
+      "admission": 280000,
+      "tuition": 700000,
+      "facility": 220000,
+      "practical": 108000,
+      "other": 80000,
+      "first_year": 1388000,
+      "four_year": null,
+      "note": "other は Kei-Net の「その他」"
+     },
+     {
+      "f": "デジタル創生学部 デジタル創生学科",
+      "admission": 280000,
+      "tuition": 760000,
+      "facility": 220000,
+      "practical": 108000,
+      "other": 160000,
+      "first_year": 1528000,
+      "four_year": null,
+      "note": "other は Kei-Net の「その他」"
+     },
+     {
+      "f": "看護学部 看護学科",
+      "admission": 280000,
+      "tuition": 940000,
+      "facility": 220000,
+      "practical": 108000,
+      "other": 120000,
+      "first_year": 1668000,
+      "four_year": null,
+      "note": "other は Kei-Net の「その他」。臨地実習経費は別"
+     }
+    ],
+    "note": "初年度合計に研修部費・委託徴収金（前期19,000円・後期15,000円）は含まない（Kei-Net）"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2664/general/schedule",
+    "https://manabi.benesse.ne.jp/daigaku/school/3831/nyushi/gokaku-happyo/",
+    "https://search.keinet.ne.jp/2664/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "四国学院大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜",
+      "apply": "11/1〜11/11",
+      "exam": "11/19",
+      "result": "12/1",
+      "proc": "12/15",
+      "fee": null,
+      "note": "課外活動・特別推薦・専門/総合学科の日程（公募は11/1〜11/11と11/30〜12/15の2回）"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 C日程",
+      "apply": "11/30〜12/18",
+      "exam": "12/19・12/20",
+      "result": "12/22",
+      "proc": "1/12",
+      "fee": null,
+      "note": "手続締切は掲載順から対応"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "apply": "1/5〜1/29",
+      "exam": "2/6",
+      "result": "2/12",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程",
+      "apply": "1/30〜2/15",
+      "exam": "2/22",
+      "result": "3/1",
+      "proc": "3/22",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 C日程",
+      "apply": "3/2〜3/12",
+      "exam": "3/16",
+      "result": "3/18",
+      "proc": "3/22",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 A日程",
+      "apply": "1/5〜1/29",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 B日程",
+      "apply": "1/30〜2/15",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/1",
+      "proc": "3/22",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 C日程",
+      "apply": "3/2〜3/12",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/18",
+      "proc": "3/22",
+      "fee": null
+     }
+    ]
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3841/nyushi/gokaku-happyo/"
+   ]
+  }
+ },
+ {
+  "name": "宇部フロンティア大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "apply": "1/5〜1/14",
+      "exam": "2/2〜2/3",
+      "result": "2/16",
+      "proc": "3/1",
+      "fee": null,
+      "note": "看護・心理学部共通。B・C日程の2027年度日程は未掲載"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 前期",
+      "apply": "1/5〜1/22",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/16",
+      "proc": "3/1",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 中期",
+      "apply": "1/25〜2/10",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/26",
+      "proc": "3/11",
+      "fee": null
+     }
+    ]
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3821/nyushi/gokaku-happyo/"
+   ]
+  }
+ },
+ {
+  "name": "就実大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（自己アピール型）",
+      "apply": "9/1〜9/10",
+      "exam": "1次9/19・2次10/17",
+      "result": "1次10/2・最終11/2",
+      "proc": "1/8（一括手続）",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期",
+      "apply": "1/5〜1/20",
+      "exam": "2/1・2/2",
+      "result": "2/12",
+      "proc": "2/19",
+      "fee": null,
+      "note": "教育・心理・経営・薬学部はA日程2/1・B日程2/2（人文科学部は2/1〜2/2）"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 A",
+      "apply": "1/5〜1/20",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "2/19",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 B",
+      "apply": "2/12〜2/19",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/4",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（後期）",
+      "apply": "3/4〜3/11",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/18",
+      "proc": "3/24",
+      "fee": null
+     }
+    ]
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3784/nyushi/gokaku-happyo/"
+   ]
+  }
+ },
+ {
+  "name": "広島工業大学",
+  "info": {
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "工学部（臨床工学コース除く）・情報学部・環境学部",
+      "admission": 250000,
+      "tuition": 1145000,
+      "facility": 220000,
+      "practical": 0,
+      "other": 25000,
+      "first_year": 1640000,
+      "four_year": null
+     },
+     {
+      "f": "工学部 電子情報工学科（臨床工学コース）",
+      "admission": 250000,
+      "tuition": 1145000,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1740000,
+      "four_year": null,
+      "note": "2027年度の施設費等の内訳は未確認（2026年度はKei-Netで施設/教育充実費等320,000円・諸会費25,000円、他学科より施設等が10万円高い）"
+     }
+    ]
+   },
+   "sources": [
+    "https://www.pref.hiroshima.lg.jp/site/daigakuportal/d11.html",
+    "https://search.keinet.ne.jp/2634/outline/expense"
+   ]
+  }
+ }
+]
