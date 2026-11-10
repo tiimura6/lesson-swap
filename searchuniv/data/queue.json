@@ -1,34 +1,6 @@
 {
 "add": [
 {
-"name": "東洋学園大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.tyg.jp/",
-"cat": "private"
-},
-{
-"name": "東洋英和女学院大学",
-"type": "私立",
-"pref": "神奈川県",
-"hp": "https://www.toyoeiwa.ac.jp/daigaku/",
-"cat": "private"
-},
-{
-"name": "武蔵野学院大学",
-"type": "私立",
-"pref": "埼玉県",
-"hp": "https://www.musashino.ac.jp/mgu/",
-"cat": "private"
-},
-{
-"name": "武蔵野美術大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.musabi.ac.jp/",
-"cat": "private"
-},
-{
 "name": "武蔵野音楽大学",
 "type": "私立",
 "pref": "東京都",
@@ -4024,6 +3996,58 @@
 },
 {
 "name": "熊本保健科学大学",
+"need": [
+"schedule_dates"
+]
+},
+"東洋学園大学",
+"東洋英和女学院大学",
+"武蔵野学院大学",
+"武蔵野美術大学",
+{
+"name": "沖縄大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "沖縄大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "九州看護福祉大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "九州看護福祉大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "宮崎国際大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "宮崎国際大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "長崎国際大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "産業医科大学",
 "need": [
 "schedule_dates"
 ]
@@ -26532,20 +26556,6 @@
 ]
 },
 {
-"name": "沖縄大学",
-"need": [
-"schedule_dates"
-],
-"note": "Kei-Netのコードが検索で見つからず（2026-11-09）。大学公式で確認する"
-},
-{
-"name": "沖縄大学",
-"need": [
-"fees"
-],
-"note": "Kei-Netのコードが検索で見つからず（2026-11-09）。大学公式で確認する"
-},
-{
 "name": "東京女子医科大学",
 "keinet": "2255",
 "need": [
@@ -26609,18 +26619,6 @@
 ]
 },
 {
-"name": "九州看護福祉大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "九州看護福祉大学",
-"need": [
-"fees"
-]
-},
-{
 "name": "東京成徳大学",
 "keinet": "2189",
 "need": [
@@ -26650,18 +26648,6 @@
 "need": [
 "extra",
 "partners"
-]
-},
-{
-"name": "宮崎国際大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "宮崎国際大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -26734,18 +26720,36 @@
 ]
 },
 {
-"name": "長崎国際大学",
+"name": "東洋学園大学",
+"keinet": "2185",
 "need": [
-"schedule_dates"
-],
-"note": "Kei-Net日程ページを開けず、公式の2027年度一般選抜日程を未確認（2026-11-10）"
+"extra",
+"partners"
+]
 },
 {
-"name": "産業医科大学",
+"name": "東洋英和女学院大学",
+"keinet": "2319",
 "need": [
-"schedule_dates"
-],
-"note": "Kei-Net日程ページを開けず、公式の2027年度募集要項を未確認（2026-11-10）"
+"extra",
+"partners"
+]
+},
+{
+"name": "武蔵野学院大学",
+"keinet": "2146",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "武蔵野美術大学",
+"keinet": "2284",
+"need": [
+"extra",
+"partners"
+]
 }
 ],
 "complete": true,
