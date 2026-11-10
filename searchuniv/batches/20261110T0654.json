@@ -1,0 +1,642 @@
+[
+ {
+  "name": "中村学園大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "栄養科学部 栄養科学科",
+      "admission": 260000,
+      "tuition": 910000,
+      "facility": 390000,
+      "practical": 40000,
+      "other": 15160,
+      "first_year": 1615160,
+      "four_year": null
+     },
+     {
+      "f": "栄養科学部 フード・マネジメント学科",
+      "admission": 260000,
+      "tuition": 860000,
+      "facility": 360000,
+      "practical": 40000,
+      "other": 15160,
+      "first_year": 1535160,
+      "four_year": null
+     },
+     {
+      "f": "教育学部 児童幼児教育学科",
+      "admission": 260000,
+      "tuition": 880000,
+      "facility": 270000,
+      "practical": 32000,
+      "other": 15160,
+      "first_year": 1457160,
+      "four_year": null
+     },
+     {
+      "f": "流通科学部 流通科学科",
+      "admission": 260000,
+      "tuition": 790000,
+      "facility": 210000,
+      "practical": 40000,
+      "other": 15160,
+      "first_year": 1315160,
+      "four_year": null
+     }
+    ],
+    "note": "Kei-Net（2026年度入学者用）の内訳。別途テキスト代2〜3万円程度、免許・資格の課程費1〜3万円程度など"
+   },
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期日程（A方式）",
+      "apply": "12/16〜1/21",
+      "exam": "2/1・2/2",
+      "result": "2/19",
+      "proc": "3/1",
+      "fee": null,
+      "note": "出願期間はパスナビ（8月末判明分）の値。マナビジョンは一般前期・共テ前期の出願開始を1/6、後期を2/16からとしている（募集要項で確認）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期日程（B方式）",
+      "apply": "12/16〜1/21",
+      "exam": "2/9",
+      "result": "2/19",
+      "proc": "3/1",
+      "fee": null,
+      "note": "出願期間はパスナビ（8月末判明分）の値。マナビジョンは一般前期・共テ前期の出願開始を1/6、後期を2/16からとしている（募集要項で確認）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期日程",
+      "apply": "1/27〜2/26",
+      "exam": "3/4",
+      "result": "3/13",
+      "proc": "3/23",
+      "fee": null,
+      "note": "出願期間はパスナビ（8月末判明分）の値。マナビジョンは一般前期・共テ前期の出願開始を1/6、後期を2/16からとしている（募集要項で確認）"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 前期日程",
+      "apply": "12/16〜1/26",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/19",
+      "proc": "3/1",
+      "fee": null,
+      "note": "出願期間はパスナビ（8月末判明分）の値。マナビジョンは一般前期・共テ前期の出願開始を1/6、後期を2/16からとしている（募集要項で確認）"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 後期日程",
+      "apply": "1/27〜3/2",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/13",
+      "proc": "3/23",
+      "fee": null,
+      "note": "出願期間はパスナビ（8月末判明分）の値。マナビジョンは一般前期・共テ前期の出願開始を1/6、後期を2/16からとしている（募集要項で確認）"
+     }
+    ]
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2710/outline/expense",
+    "https://passnavi.obunsha.co.jp/univ/5000/schedule/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3884/nyushi/"
+   ]
+  }
+ },
+ {
+  "name": "広島経済大学",
+  "info": {
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "全学部（経済・経営・メディアビジネス）",
+      "admission": 150000,
+      "tuition": 800000,
+      "facility": 220000,
+      "practical": 0,
+      "other": 16500,
+      "first_year": 1186500,
+      "four_year": null,
+      "note": "施設費。諸納付金は1年次16,500円（2・3年次15,000円、4年次44,000円）。全学部同額"
+     }
+    ]
+   },
+   "sources": [
+    "https://www.hue.ac.jp/entrance/fee.html"
+   ]
+  }
+ },
+ {
+  "name": "徳島文理大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般入試 Ⅰ期A日程",
+      "apply": "1/5〜1/26",
+      "exam": "2/2",
+      "result": "2/16",
+      "proc": "2/26",
+      "fee": 27000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試 Ⅰ期B日程",
+      "apply": "1/5〜1/26",
+      "exam": "2/3",
+      "result": "2/16",
+      "proc": "2/26",
+      "fee": 27000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試 Ⅱ期",
+      "apply": "1/28〜2/12",
+      "exam": "2/19〜2/25",
+      "result": "3/5",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試 Ⅲ期",
+      "apply": "2/15〜2/25",
+      "exam": "3/3〜3/9",
+      "result": "3/19",
+      "proc": "3/25",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試 Ⅰ期",
+      "apply": "1/5〜1/29",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/16",
+      "proc": "2/26",
+      "fee": 15000,
+      "note": "入学金は2/26、学費等は3/10まで"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試 Ⅱ期",
+      "apply": "2/1〜2/15",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/27",
+      "proc": "3/12",
+      "fee": 15000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試 Ⅲ期",
+      "apply": "3/1〜3/8",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/19",
+      "proc": "3/25",
+      "fee": 15000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜入試 Ⅳ期",
+      "apply": "1/5〜1/26",
+      "exam": "出願後〜1/31（面接）",
+      "result": "2/16",
+      "proc": "2/26",
+      "fee": null
+     }
+    ]
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "文学部 文化財学科（香川）",
+      "admission": 280000,
+      "tuition": 670000,
+      "facility": 200000,
+      "practical": 120000,
+      "other": null,
+      "first_year": 1270000,
+      "four_year": null,
+      "note": ""
+     },
+     {
+      "f": "文学部 日本文学科・英語英米文化学科（香川）",
+      "admission": 280000,
+      "tuition": 670000,
+      "facility": 200000,
+      "practical": 100000,
+      "other": null,
+      "first_year": 1250000,
+      "four_year": null,
+      "note": ""
+     },
+     {
+      "f": "総合政策学部 総合政策学科（徳島）・経営学科（香川）",
+      "admission": 280000,
+      "tuition": 700000,
+      "facility": 200000,
+      "practical": 120000,
+      "other": null,
+      "first_year": 1300000,
+      "four_year": null,
+      "note": ""
+     },
+     {
+      "f": "理工学部（香川）",
+      "admission": 280000,
+      "tuition": 920000,
+      "facility": 250000,
+      "practical": 160000,
+      "other": null,
+      "first_year": 1610000,
+      "four_year": null,
+      "note": ""
+     },
+     {
+      "f": "薬学部・香川薬学部 薬学科",
+      "admission": 400000,
+      "tuition": 1120000,
+      "facility": 500000,
+      "practical": 250000,
+      "other": null,
+      "first_year": 2270000,
+      "four_year": null,
+      "note": ""
+     },
+     {
+      "f": "保健福祉学部 口腔保健学科・理学療法学科（徳島）",
+      "admission": 280000,
+      "tuition": 850000,
+      "facility": 300000,
+      "practical": 200000,
+      "other": null,
+      "first_year": 1630000,
+      "four_year": null,
+      "note": ""
+     },
+     {
+      "f": "保健福祉学部 看護学科（徳島）・診療放射線学科（香川）",
+      "admission": 280000,
+      "tuition": 920000,
+      "facility": 300000,
+      "practical": 200000,
+      "other": null,
+      "first_year": 1700000,
+      "four_year": null,
+      "note": ""
+     },
+     {
+      "f": "保健福祉学部 人間福祉学科（徳島）",
+      "admission": 280000,
+      "tuition": 670000,
+      "facility": 200000,
+      "practical": 120000,
+      "other": null,
+      "first_year": 1270000,
+      "four_year": null,
+      "note": ""
+     },
+     {
+      "f": "保健福祉学部 臨床工学科（香川）",
+      "admission": 280000,
+      "tuition": 920000,
+      "facility": 250000,
+      "practical": 160000,
+      "other": null,
+      "first_year": 1610000,
+      "four_year": null,
+      "note": ""
+     },
+     {
+      "f": "音楽学部 音楽学科",
+      "admission": 300000,
+      "tuition": 1110000,
+      "facility": 500000,
+      "practical": 170000,
+      "other": null,
+      "first_year": 2080000,
+      "four_year": null,
+      "note": ""
+     },
+     {
+      "f": "人間生活学部 食物栄養学科・児童学科・人間生活学科",
+      "admission": 280000,
+      "tuition": 670000,
+      "facility": 200000,
+      "practical": 100000,
+      "other": null,
+      "first_year": 1250000,
+      "four_year": null,
+      "note": ""
+     },
+     {
+      "f": "人間生活学部 心理学科・メディアデザイン学科・建築デザイン学科",
+      "admission": 280000,
+      "tuition": 670000,
+      "facility": 200000,
+      "practical": 120000,
+      "other": null,
+      "first_year": 1270000,
+      "four_year": null,
+      "note": ""
+     }
+    ],
+    "note": "Kei-Net（2026年度入学者用）。実習費は図書費を含む。全学科で別途 協力費（前・後期各16,500円）・研修部費（各1,650円）・研修部入会金1,000円。総合政策・経営・食物栄養・児童・メディアデザイン・建築デザインは学科特別費（前・後期各26,000円）"
+   },
+   "sources": [
+    "https://jyuken.bunri-u.ac.jp/admissions/calendar.html",
+    "https://jyuken.bunri-u.ac.jp/admissions/ex-admissions/exam-common.html",
+    "https://jyuken.bunri-u.ac.jp/admissions/ex-admissions/exam-general.html",
+    "https://search.keinet.ne.jp/2665/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "日本赤十字広島看護大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "apply": "10/1〜10/14",
+      "exam": "11/15",
+      "result": "12/4",
+      "proc": "12/11",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募・地域特別・赤十字特別）",
+      "apply": "11/1〜11/7",
+      "exam": "11/14",
+      "result": "12/4",
+      "proc": "12/11",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "apply": "1/4〜1/13",
+      "exam": "2/1",
+      "result": "2/12",
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 前期",
+      "apply": "1/4〜1/26",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 後期",
+      "apply": "2/15〜2/24",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/5",
+      "proc": "3/12",
+      "fee": null
+     }
+    ]
+   },
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "看護学部 看護学科",
+      "admission": 100000,
+      "tuition": 1200000,
+      "facility": 300000,
+      "practical": 50000,
+      "other": 15000,
+      "first_year": 1665000,
+      "four_year": null
+     }
+    ],
+    "note": "入学金・授業料・初年度合計は広島県の大学ポータルで確認（施設設備費・実習費などの内訳は未確認）"
+   },
+   "sources": [
+    "https://www.jrchcn.ac.jp/site/examination/35.html",
+    "https://www.pref.hiroshima.lg.jp/site/daigakuportal-new/nyuugakukin.html"
+   ]
+  }
+ },
+ {
+  "name": "東亜大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期",
+      "apply": "1/5〜1/22",
+      "exam": "2/6",
+      "result": "2/19",
+      "proc": "3/4",
+      "fee": 20000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期",
+      "apply": "1/25〜2/12",
+      "exam": "2/20",
+      "result": "3/5",
+      "proc": "3/16",
+      "fee": 20000,
+      "note": "小論文・面接"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試 前期",
+      "apply": "1/5〜1/29",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/19",
+      "proc": "3/3",
+      "fee": 10000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試 後期",
+      "apply": "2/1〜2/22",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/5",
+      "proc": "3/16",
+      "fee": 10000
+     }
+    ]
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "人間科学部 心理臨床・子ども学科",
+      "admission": 240000,
+      "tuition": 620000,
+      "facility": 200000,
+      "practical": 60000,
+      "other": 71300,
+      "first_year": 1191300,
+      "four_year": null
+     },
+     {
+      "f": "人間科学部 国際教養学科",
+      "admission": 240000,
+      "tuition": 600000,
+      "facility": 140000,
+      "practical": 50000,
+      "other": 71300,
+      "first_year": 1101300,
+      "four_year": null
+     },
+     {
+      "f": "人間科学部 スポーツ健康学科（柔道整復コース以外）",
+      "admission": 240000,
+      "tuition": 660000,
+      "facility": 270000,
+      "practical": 60000,
+      "other": 71300,
+      "first_year": 1301300,
+      "four_year": null
+     },
+     {
+      "f": "人間科学部 スポーツ健康学科（柔道整復コース）",
+      "admission": 240000,
+      "tuition": 780000,
+      "facility": 420000,
+      "practical": 100000,
+      "other": 71300,
+      "first_year": 1611300,
+      "four_year": null
+     },
+     {
+      "f": "医療学部 医療工学科",
+      "admission": 240000,
+      "tuition": 780000,
+      "facility": 420000,
+      "practical": 100000,
+      "other": 71300,
+      "first_year": 1611300,
+      "four_year": null
+     },
+     {
+      "f": "医療学部 健康栄養学科",
+      "admission": 240000,
+      "tuition": 680000,
+      "facility": 250000,
+      "practical": 100000,
+      "other": 71300,
+      "first_year": 1341300,
+      "four_year": null
+     },
+     {
+      "f": "芸術学部 アート・デザイン学科",
+      "admission": 240000,
+      "tuition": 840000,
+      "facility": 240000,
+      "practical": 140000,
+      "other": 71300,
+      "first_year": 1531300,
+      "four_year": null
+     },
+     {
+      "f": "芸術学部 トータルビューティ学科",
+      "admission": 240000,
+      "tuition": 620000,
+      "facility": 160000,
+      "practical": 140000,
+      "other": 71300,
+      "first_year": 1231300,
+      "four_year": null
+     }
+    ],
+    "note": "大学公式の学費ページ（年度表記なし）と一致。その他は教育災害傷害保険料5,300円（4年分）・課外活動費6,000円・教育後援会費40,000円・同窓会費20,000円"
+   },
+   "sources": [
+    "https://www.toua-u.ac.jp/admissions/examination-system/",
+    "https://www.toua-u.ac.jp/admissions/fee/"
+   ]
+  }
+ },
+ {
+  "name": "松山大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅰ期（文系・情報）",
+      "apply": "12/21〜1/8",
+      "exam": "1/25",
+      "result": "2/3",
+      "proc": "2/10",
+      "fee": 30000,
+      "note": "検定料は1学科30,000円（同一制度内の併願で加算、最大80,000円）。薬学部Ⅰ期・Ⅱ期同時出願は45,000円"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅰ期（薬学部）",
+      "apply": "12/21〜1/8",
+      "exam": "1/25",
+      "result": "1/29",
+      "proc": null,
+      "fee": null,
+      "note": "検定料：薬学部Ⅰ期・Ⅱ期を同時出願すると45,000円"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅱ期",
+      "apply": "12/21〜1/22",
+      "exam": "2/9",
+      "result": "2/22",
+      "proc": "3/8",
+      "fee": 30000,
+      "note": "検定料は1学科30,000円（同一制度内の併願で加算、最大80,000円）。薬学部Ⅰ期・Ⅱ期同時出願は45,000円"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 前期",
+      "apply": "12/21〜2/1",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/22",
+      "proc": "3/8",
+      "fee": 15000,
+      "note": "検定料は1学科15,000円（併願で加算、最大75,000円）"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 後期",
+      "apply": "2/12〜3/3",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/12",
+      "proc": "3/23",
+      "fee": 15000,
+      "note": "検定料は1学科15,000円（併願で加算、最大75,000円）"
+     }
+    ]
+   },
+   "sources": [
+    "https://nyushi.matsuyama-u.ac.jp/admission/overview/general01/",
+    "https://nyushi.matsuyama-u.ac.jp/admission/overview/common01/",
+    "https://nyushi.matsuyama-u.ac.jp/admission/overview/common02/",
+    "https://www.matsuyama-u.ac.jp/ebook/2027_nyusiyoukou/pageindices/index41.html"
+   ]
+  }
+ }
+]
