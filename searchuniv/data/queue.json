@@ -1,38 +1,6 @@
 {
 "add": [
 {
-"name": "八洲学園大学（通信制のみ）",
-"type": "私立",
-"pref": "神奈川県",
-"hp": "https://www.yashima.ac.jp/",
-"cat": "private",
-"note": "高校からの通常の進学先ではない（括弧内の理由）。カードの memo にもその旨を書く。"
-},
-{
-"name": "東京通信大学（通信制のみ）",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.internet.ac.jp/",
-"cat": "private",
-"note": "高校からの通常の進学先ではない（括弧内の理由）。カードの memo にもその旨を書く。"
-},
-{
-"name": "ビジネス・ブレークスルー大学（通信制のみ）",
-"type": "私立",
-"pref": "東京都",
-"hp": "",
-"cat": "private",
-"note": "高校からの通常の進学先ではない（括弧内の理由）。カードの memo にもその旨を書く。"
-},
-{
-"name": "サイバー大学（通信制のみ）",
-"type": "私立",
-"pref": "福岡県",
-"hp": "https://www.cyber-u.ac.jp/",
-"cat": "private",
-"note": "高校からの通常の進学先ではない（括弧内の理由）。カードの memo にもその旨を書く。"
-},
-{
 "name": "日本ウェルネススポーツ大学",
 "type": "私立",
 "pref": "茨城県",
@@ -4070,6 +4038,70 @@
 },
 {
 "name": "九州栄養福祉大学",
+"need": [
+"fees"
+]
+},
+"八洲学園大学（通信制のみ）",
+"東京通信大学（通信制のみ）",
+"ビジネス・ブレークスルー大学（通信制のみ）",
+"サイバー大学（通信制のみ）",
+{
+"name": "九州産業大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "九州産業大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "福山大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "福山大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "福山平成大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "福山平成大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "美作大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "美作大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "聖カタリナ大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "聖カタリナ大学",
 "need": [
 "fees"
 ]
@@ -16645,18 +16677,6 @@
 {
 "name": "九州産業大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "九州産業大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "九州産業大学",
-"need": [
 "scholar"
 ]
 },
@@ -16664,18 +16684,6 @@
 "name": "福山大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "福山大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "福山大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -16693,18 +16701,6 @@
 {
 "name": "福山平成大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "福山平成大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "福山平成大学",
-"need": [
 "scholar"
 ]
 },
@@ -16712,18 +16708,6 @@
 "name": "美作大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "美作大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "美作大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -16736,18 +16720,6 @@
 "name": "聖カタリナ大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "聖カタリナ大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "聖カタリナ大学",
-"need": [
-"fees"
 ]
 },
 {
