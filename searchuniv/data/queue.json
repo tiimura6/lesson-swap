@@ -4275,6 +4275,66 @@
 "need": [
 "fees"
 ]
+},
+{
+"name": "岡山理科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "川崎医療福祉大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "川崎医療福祉大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "川崎医科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "川崎医科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "広島修道大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "広島修道大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "広島国際大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "広島女学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "広島工業大学",
+"need": [
+"schedule_dates"
+]
 }
 ],
 "failed": [
@@ -4402,7 +4462,10 @@
 "九州国際大学": 2,
 "九州共立大学": 1,
 "広島都市学園大学": 1,
-"岡山学院大学": 1
+"岡山学院大学": 2,
+"岡山理科大学": 1,
+"広島国際大学": 1,
+"広島女学院大学": 1
 },
 "enrich": [
 {
@@ -17100,12 +17163,6 @@
 {
 "name": "岡山学院大学",
 "need": [
-"fees"
-]
-},
-{
-"name": "岡山学院大学",
-"need": [
 "scholar"
 ]
 },
@@ -17113,18 +17170,6 @@
 "name": "岡山理科大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "岡山理科大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "岡山理科大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -17142,18 +17187,6 @@
 {
 "name": "川崎医療福祉大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "川崎医療福祉大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "川崎医療福祉大学",
-"need": [
 "scholar"
 ]
 },
@@ -17161,18 +17194,6 @@
 "name": "川崎医科大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "川崎医科大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "川崎医科大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -17185,18 +17206,6 @@
 "name": "広島修道大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "広島修道大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "広島修道大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -17209,18 +17218,6 @@
 "name": "広島国際大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "広島国際大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "広島国際大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -17233,18 +17230,6 @@
 "name": "広島女学院大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "広島女学院大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "広島女学院大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -17257,12 +17242,6 @@
 "name": "広島工業大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "広島工業大学",
-"need": [
-"schedule_dates"
 ]
 },
 {
@@ -26710,6 +26689,30 @@
 "name": "岡山学院大学",
 "need": [
 "schedule_dates"
+]
+},
+{
+"name": "岡山学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "岡山理科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "広島国際大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "広島女学院大学",
+"need": [
+"fees"
 ]
 }
 ],
