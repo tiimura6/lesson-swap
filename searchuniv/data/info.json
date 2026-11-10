@@ -126620,8 +126620,8 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
-"money": "2026-11-07",
+"schedule": "2026-11-10",
+"money": "2026-11-10",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
@@ -126686,6 +126686,42 @@ null
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "一般",
+"name": "一般選抜 Ⅰ期",
+"apply": "1/6〜1/20",
+"exam": "2/2・2/3",
+"result": "2/15",
+"proc": "2/22",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期",
+"apply": "2/22〜3/5",
+"exam": "3/10",
+"result": "3/19",
+"proc": "3/26",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 Ⅰ期（音楽学部以外）",
+"apply": "1/6〜2/5",
+"exam": "1/16・1/17（共テ）",
+"result": "2/15",
+"proc": "2/22",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 Ⅱ期（音楽学部以外）",
+"apply": "2/22〜3/9",
+"exam": "1/16・1/17（共テ）",
+"result": "3/19",
+"proc": "3/26",
+"fee": null
+},
+{
 "kubun": "総合型",
 "name": "総合型選抜（Ⅲ期方式）",
 "apply": "1/6〜1/20",
@@ -126703,7 +126739,8 @@ null
 "proc": "3/26",
 "fee": 30000
 }
-]
+],
+"note": "一般選抜・共テ利用の2027年度検定料は未確認（2026年度は一般30,000円・共テ利用15,000円〔音楽学部は30,000円〕）。共テ利用は音楽学部では実施なし"
 },
 "money": {
 "year": "2026年度",
@@ -126711,8 +126748,8 @@ null
 {
 "f": "子ども教育学部 子ども教育学科",
 "admission": 250000,
-"tuition": null,
-"facility": null,
+"tuition": 700000,
+"facility": 300000,
 "practical": null,
 "other": null,
 "first_year": 1250000,
@@ -126722,9 +126759,9 @@ null
 "f": "食文化学部 食マネジメント学科",
 "admission": 250000,
 "tuition": 740000,
-"facility": 0,
-"practical": 0,
-"other": 300000,
+"facility": 300000,
+"practical": null,
+"other": null,
 "first_year": 1290000,
 "four_year": null
 },
@@ -126732,33 +126769,55 @@ null
 "f": "食文化学部 栄養学科",
 "admission": 250000,
 "tuition": 740000,
-"facility": 0,
-"practical": 0,
-"other": 400000,
+"facility": 400000,
+"practical": null,
+"other": null,
 "first_year": 1390000,
-"four_year": null
+"four_year": null,
+"note": "実習材料費14,000〜15,000円程度が別途"
 },
 {
 "f": "健康スポーツ教育学部 健康スポーツ教育学科",
 "admission": 250000,
-"tuition": null,
-"facility": null,
+"tuition": 700000,
+"facility": 440000,
 "practical": null,
 "other": null,
 "first_year": 1390000,
 "four_year": null
 },
 {
-"f": "音楽学部 音楽学科",
-"admission": null,
-"tuition": null,
-"facility": null,
+"f": "音楽学部 音楽学科（教育文化）",
+"admission": 250000,
+"tuition": 1000000,
+"facility": 620000,
 "practical": null,
 "other": null,
 "first_year": 1870000,
 "four_year": null
+},
+{
+"f": "音楽学部 音楽学科（演奏芸術）",
+"admission": 250000,
+"tuition": 1128000,
+"facility": 620000,
+"practical": null,
+"other": null,
+"first_year": 1998000,
+"four_year": null
+},
+{
+"f": "音楽学部 音楽学科（モスクワ音楽院特別演奏）",
+"admission": 250000,
+"tuition": 1200000,
+"facility": 620000,
+"practical": null,
+"other": null,
+"first_year": 2070000,
+"four_year": null
 }
-]
+],
+"note": "施設費は施設・教育充実費等。全学科で後援会費30,000円・同窓会費15,000円・保険料4,010円・学生会費・パソコン代が別途（Kei-Net）"
 },
 "access": "岡山県倉敷市玉島長尾3515",
 "careers": "音楽指導者、管理栄養士、保育士、幼稚園・小学校教諭、スポーツ指導者など。",
@@ -126772,7 +126831,10 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3782/nyushi/hoshiki/sougou/",
 "https://passnavi.obunsha.co.jp/univ/4680/difficulty/",
 "https://passnavi.obunsha.co.jp/univ/4680/top/",
-"https://search.keinet.ne.jp/2618"
+"https://search.keinet.ne.jp/2618",
+"https://manabi.benesse.ne.jp/daigaku/school/3782/nyushi/gokaku-happyo/",
+"https://search.keinet.ne.jp/2618/outline/expense",
+"https://search.keinet.ne.jp/2618/general/exam_fee"
 ],
 "students": {
 "count": 860,
@@ -127094,8 +127156,8 @@ null
 "departments": "2026-11-07",
 "difficulty": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
-"money": "2026-11-07",
+"schedule": "2026-11-10",
+"money": "2026-11-10",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
@@ -127147,57 +127209,71 @@ null
 {
 "kubun": "一般",
 "name": "一般選抜 Ⅰ期",
-"apply": "9/1〜9/9",
-"exam": "9/26",
-"result": "10/3",
-"proc": "1次10/5〜10/19・2次10/5〜12/7",
-"fee": null
+"apply": "1/6〜1/18（消印有効）",
+"exam": "2/1",
+"result": "2/10",
+"proc": "2/12〜2/25",
+"fee": 30000
 },
 {
 "kubun": "一般",
 "name": "一般選抜 Ⅱ期",
-"apply": "2/2〜2/12",
+"apply": "2/2〜2/12（消印有効）",
 "exam": "2/27",
 "result": "3/5",
 "proc": "3/8〜3/12",
-"fee": null
+"fee": 30000
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅲ期",
+"apply": "2/25〜3/8（必着）",
+"exam": "3/13",
+"result": "3/18",
+"proc": "3/19〜3/24",
+"fee": 30000
 }
-]
+],
+"note": "以前の行（Ⅰ期9月・Ⅱ期2月）は3年次編入学の日程だったため、1年次入学の一般選抜に置き換えた。共通テスト利用選抜は公式の令和9年度要項に記載が見当たらない"
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
 "f": "現代生活学部 人間栄養学科",
 "admission": 250000,
 "tuition": 500000,
-"facility": 300000,
-"practical": 0,
-"other": 200000,
+"facility": 500000,
+"practical": null,
+"other": null,
 "first_year": 1250000,
-"four_year": null
+"four_year": null,
+"note": "施設費は教育充実費200,000円＋施設設備費300,000円。実験・実習費は別途、諸経費約10万円が別途。学友会費・後援会費・同窓会費は別"
 },
 {
 "f": "子ども学部 子ども学科",
 "admission": 250000,
 "tuition": 500000,
-"facility": 200000,
-"practical": 0,
-"other": 200000,
+"facility": 400000,
+"practical": null,
+"other": null,
 "first_year": 1150000,
-"four_year": null
+"four_year": null,
+"note": "施設費は教育充実費200,000円＋施設設備費200,000円。実験・実習費、学友会費・後援会費・同窓会費は別"
 },
 {
 "f": "国際教養学部 国際教養学科",
 "admission": 250000,
 "tuition": 590000,
-"facility": 200000,
-"practical": 0,
-"other": 200000,
+"facility": 400000,
+"practical": null,
+"other": null,
 "first_year": 1240000,
-"four_year": null
+"four_year": null,
+"note": "施設費は教育充実費200,000円＋施設設備費200,000円。実験・実習費、学友会費・後援会費・同窓会費は別"
 }
-]
+],
+"note": "令和9年度（2027年度）入学者選抜要項の学費表から。本学卒業生（見込み含む）は入学料免除。合計は内訳からの計算値"
 },
 "access": "岡山県岡山市北区庭瀬83",
 "careers": "管理栄養士、保育士、幼稚園教諭、一般企業など。",
@@ -127209,7 +127285,8 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3788/gakuhi/",
 "https://passnavi.obunsha.co.jp/univ/4695/difficulty/",
 "https://passnavi.obunsha.co.jp/univ/4695/top/",
-"https://www.cjc.ac.jp/chugokugakuen/"
+"https://www.cjc.ac.jp/chugokugakuen/",
+"https://admission.cjc.ac.jp/assets/img/admissions/about_r09.pdf"
 ],
 "students": {
 "count": 451,
@@ -127227,8 +127304,8 @@ null
 "departments": "2026-11-07",
 "difficulty": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
-"money": "2026-11-07",
+"schedule": "2026-11-10",
+"money": "2026-11-10",
 "scholar": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -127290,10 +127367,20 @@ null
 "apply": "1/5〜1/21",
 "exam": "2/4（前期A）・2/5（前期B）",
 "result": "2/12",
-"proc": null,
+"proc": "2/24",
 "fee": 35000
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期",
+"apply": "2/12〜2/26",
+"exam": "3/7",
+"result": "3/15",
+"proc": "3/23",
+"fee": null
 }
-]
+],
+"note": "前期A・Bは併願割引あり（1試験分の検定料で両方受験可）。共通テスト利用選抜の掲載なし（マナビジョン）"
 },
 "money": {
 "year": "2026年度",
@@ -127306,7 +127393,8 @@ null
 "practical": 235000,
 "other": 0,
 "first_year": 1820000,
-"four_year": null
+"four_year": null,
+"note": "制作の道具類・個人作品の材料費は個人負担"
 },
 {
 "f": "生命科学部 環境生命科学科",
@@ -127316,7 +127404,8 @@ null
 "practical": 225000,
 "other": 0,
 "first_year": 1760000,
-"four_year": null
+"four_year": null,
+"note": "資格取得に伴う費用（実習諸経費含む）が別途"
 },
 {
 "f": "生命科学部 生命医科学科",
@@ -127326,7 +127415,8 @@ null
 "practical": 250000,
 "other": 0,
 "first_year": 1785000,
-"four_year": null
+"four_year": null,
+"note": "資格取得に伴う費用（実習諸経費含む）が別途"
 },
 {
 "f": "生命科学部 動物生命科学科",
@@ -127346,9 +127436,11 @@ null
 "practical": 160000,
 "other": 0,
 "first_year": 1650000,
-"four_year": null
+"four_year": null,
+"note": "資格取得・病院実習・講習会・受験登録の費用が別途"
 }
-]
+],
+"note": "全学科共通で1年次後期に交友会費・課外活動等の費用35,000円が別途（Kei-Net）。2027年度額は未掲載"
 },
 "scholar": {
 "year": "2027年度",
@@ -127376,7 +127468,9 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3781/gakuhi/",
 "https://passnavi.obunsha.co.jp/univ/4675/difficulty/?facultyID=015",
 "https://manabi.benesse.ne.jp/daigaku/school/3781/",
-"https://www.kusa.ac.jp/about-university/outline/"
+"https://www.kusa.ac.jp/about-university/outline/",
+"https://manabi.benesse.ne.jp/daigaku/school/3781/nyushi/index.html",
+"https://search.keinet.ne.jp/2623/outline/expense"
 ],
 "students": {
 "count": 1362,
@@ -127395,8 +127489,8 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
-"money": "2026-11-07",
+"schedule": "2026-11-10",
+"money": "2026-11-10",
 "scholar": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -127462,11 +127556,11 @@ null
 "rows": [
 {
 "kubun": "一般",
-"name": "一般選抜入試 前期日程",
+"name": "一般選抜入試 前期日程（2科目・3科目方式）",
 "apply": "12/16〜1/22",
 "exam": "2/2",
 "result": "2/12",
-"proc": null,
+"proc": "2/22",
 "fee": null
 },
 {
@@ -127475,16 +127569,16 @@ null
 "apply": "1/27〜2/15",
 "exam": "2/19",
 "result": "2/26",
-"proc": null,
+"proc": "3/8",
 "fee": null
 },
 {
 "kubun": "一般",
-"name": "一般選抜入試 後期日程",
+"name": "一般選抜入試 後期日程（小論文・2科目方式）",
 "apply": "2/17〜3/1",
 "exam": "3/5",
 "result": "3/12",
-"proc": null,
+"proc": "3/23",
 "fee": null
 },
 {
@@ -127493,7 +127587,7 @@ null
 "apply": "12/16〜1/22",
 "exam": "1/16・1/17（共テ）",
 "result": "2/12",
-"proc": null,
+"proc": "2/22",
 "fee": null
 },
 {
@@ -127502,7 +127596,7 @@ null
 "apply": "1/27〜2/15",
 "exam": "1/16・1/17（共テ）",
 "result": "2/26",
-"proc": null,
+"proc": "3/8",
 "fee": null
 },
 {
@@ -127511,10 +127605,11 @@ null
 "apply": "2/17〜3/1",
 "exam": "1/16・1/17（共テ）",
 "result": "3/12",
-"proc": null,
+"proc": "3/23",
 "fee": null
 }
-]
+],
+"note": "看護学部・医療保健学部とも同じ日程。検定料は未確認"
 },
 "money": {
 "year": "2027年度",
@@ -127532,24 +127627,27 @@ null
 {
 "f": "医療保健学部 健康科学科",
 "admission": 250000,
-"tuition": null,
-"facility": null,
+"tuition": 950000,
+"facility": 300000,
 "practical": null,
 "other": 0,
 "first_year": 1500000,
-"four_year": null
+"four_year": null,
+"note": "内訳はKei-Net掲載の2026年度額（初年度合計は2027年度と同額）"
 },
 {
 "f": "看護学部 看護学科",
 "admission": 250000,
-"tuition": null,
-"facility": null,
-"practical": null,
+"tuition": 1150000,
+"facility": 300000,
+"practical": 150000,
 "other": 0,
 "first_year": 1850000,
-"four_year": null
+"four_year": null,
+"note": "内訳はKei-Net掲載の2026年度額（初年度合計は2027年度と同額）"
 }
-]
+],
+"note": "教科書代・ユニフォーム代・保険料などは実費。ノートパソコン等の準備が必要（Kei-Net）"
 },
 "scholar": {
 "year": "2027年度",
@@ -127576,7 +127674,9 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3667/",
 "https://aino.ac.jp/history/",
 "https://univ.aino.ac.jp/summary/history.php",
-"https://univ.aino.ac.jp/file/oneself/oneself_result01_02.pdf"
+"https://univ.aino.ac.jp/file/oneself/oneself_result01_02.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/3667/nyushi/gokaku-happyo/index.html",
+"https://search.keinet.ne.jp/2540/outline/expense"
 ],
 "students": {
 "count": 1191,
@@ -127609,7 +127709,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-10",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -127792,7 +127892,7 @@ null
 "apply": "1/3〜1/23",
 "exam": "1/30・1/31",
 "result": "2/10",
-"proc": "2/17（一括・分割1次）",
+"proc": "一括・分割1次2/17・分割2次3/11",
 "fee": null
 },
 {
@@ -127801,7 +127901,7 @@ null
 "apply": "1/3〜2/3",
 "exam": "2/13・2/14",
 "result": "2/24",
-"proc": null,
+"proc": "一括・分割1次3/4・分割2次3/11",
 "fee": null
 },
 {
@@ -127810,7 +127910,7 @@ null
 "apply": "2/3〜3/1",
 "exam": "3/8・3/9",
 "result": "3/19",
-"proc": null,
+"proc": "3/26（産業理工学部は3/24）",
 "fee": null
 },
 {
@@ -127819,7 +127919,7 @@ null
 "apply": "1/3〜1/15",
 "exam": "1/16・1/17（共テ）",
 "result": "2/17",
-"proc": null,
+"proc": "一括・分割1次3/4・分割2次3/11",
 "fee": null
 },
 {
@@ -127828,7 +127928,7 @@ null
 "apply": "1/3〜2/10",
 "exam": "1/16・1/17（共テ）",
 "result": "2/24",
-"proc": null,
+"proc": "一括・分割1次3/4・分割2次3/11",
 "fee": null
 },
 {
@@ -127837,10 +127937,11 @@ null
 "apply": "2/3〜3/9",
 "exam": "1/16・1/17（共テ）",
 "result": "3/19",
-"proc": null,
+"proc": "3/26（産業理工学部は3/24）",
 "fee": null
 }
-]
+],
+"note": "学部により異なる（法・経営・建築・薬・文芸・情報など東大阪等の例。前期B日程は経済・理工・総合社会・国際・農が2/11・2/12）。医学部は別日程。共通テスト併用方式（A日程）は発表2/17・手続3/4。2027年度の検定料は未確認"
 },
 "money": {
 "year": "2026年度",
@@ -127949,7 +128050,8 @@ null
 "https://passnavi.obunsha.co.jp/univ/4270/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3647/",
 "https://www.toshin.com/daigaku/kinki",
-"https://www.kindai.ac.jp/about-kindai/corporation/history/"
+"https://www.kindai.ac.jp/about-kindai/corporation/history/",
+"https://search.keinet.ne.jp/2536/topics/12"
 ],
 "students": {
 "count": 35875,
