@@ -4863,6 +4863,54 @@
 "need": [
 "fees"
 ]
+},
+{
+"name": "神戸女学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "神戸学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "神戸学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "神戸常盤大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "神戸常盤大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "東大阪大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "桃山学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "桃山学院大学",
+"need": [
+"fees"
+]
 }
 ],
 "failed": [
@@ -5018,7 +5066,9 @@
 "聖泉大学": 1,
 "皇學館大学": 1,
 "神戸医療未来大学": 1,
-"神戸女学院大学": 1
+"神戸女学院大学": 1,
+"東大阪大学": 1,
+"梅花女子大学": 1
 },
 "enrich": [
 {
@@ -18376,12 +18426,6 @@
 {
 "name": "神戸女学院大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "神戸女学院大学",
-"need": [
 "scholar"
 ]
 },
@@ -18389,18 +18433,6 @@
 "name": "神戸学院大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "神戸学院大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "神戸学院大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -18418,18 +18450,6 @@
 {
 "name": "神戸常盤大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "神戸常盤大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "神戸常盤大学",
-"need": [
 "scholar"
 ]
 },
@@ -18437,18 +18457,6 @@
 "name": "東大阪大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "東大阪大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "東大阪大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -18461,18 +18469,6 @@
 "name": "桃山学院大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "桃山学院大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "桃山学院大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -18485,12 +18481,6 @@
 "name": "梅花女子大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "梅花女子大学",
-"need": [
-"schedule_dates"
 ]
 },
 {
@@ -26738,6 +26728,18 @@
 "fees"
 ],
 "note": "公式は2026年度のみ（諸会費20,800円を足して更新済み）。2027年度は未掲載（2026-11-10）"
+},
+{
+"name": "東大阪大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "梅花女子大学",
+"need": [
+"schedule_dates"
+]
 }
 ],
 "complete": true,

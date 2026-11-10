@@ -132701,8 +132701,8 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
-"money": "2026-11-07",
+"schedule": "2026-11-10",
+"money": "2026-11-10",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07"
@@ -132813,16 +132813,25 @@ null
 "rows": [
 {
 "kubun": "一般",
-"name": "一般選抜 前期",
+"name": "一般選抜 前期日程",
 "apply": "12/14〜1/18",
-"exam": "2/1・2/2・2/7・2/8",
+"exam": "2/1・2/2",
 "result": "2/19",
-"proc": null,
+"proc": "3/1",
 "fee": null
 },
 {
 "kubun": "一般",
-"name": "一般選抜 後期",
+"name": "一般選抜 中期日程",
+"apply": "12/14〜1/18",
+"exam": "2/7・2/8",
+"result": "2/19",
+"proc": "3/1",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期日程",
 "apply": "2/12〜2/24",
 "exam": "3/9",
 "result": "3/16",
@@ -132831,55 +132840,89 @@ null
 },
 {
 "kubun": "共テ利用",
-"name": "大学入学共通テスト利用 前期",
+"name": "大学入学共通テスト利用 前期日程（1〜4科目型）",
 "apply": "12/14〜1/22",
 "exam": "1/16・1/17（共テ）",
 "result": "2/19",
-"proc": null,
-"fee": null
+"proc": "3/1",
+"fee": null,
+"note": "プラス型は一般選抜前期・中期と同じ日程"
 },
 {
 "kubun": "共テ利用",
-"name": "大学入学共通テスト利用 後期",
+"name": "大学入学共通テスト利用 後期日程（1〜4科目型）",
 "apply": "2/12〜2/24",
 "exam": "1/16・1/17（共テ）",
 "result": "3/16",
 "proc": "3/23",
-"fee": null
+"fee": null,
+"note": "プラス型は一般選抜後期と同じ日程"
 }
 ]
 },
 "money": {
 "year": "2026年度",
+"note": "河合塾Kei-Net「学費」（2026年度入学者用）。facility は施設/教育充実費等、other は諸会費。グローバル・コミュニケーション学部英語コースは別に外部英語試験料8,085円。2027年度は未確認",
+"source": "https://search.keinet.ne.jp/2563/outline/expense",
 "rows": [
 {
-"f": "法学部・経済学部・経営学部（経営・会計）",
+"f": "法学部 法律学科",
 "admission": 200000,
-"tuition": null,
-"facility": null,
-"practical": 0,
-"other": null,
+"tuition": 780000,
+"facility": 230000,
+"practical": null,
+"other": 54300,
 "first_year": 1264300,
 "four_year": null
 },
 {
-"f": "経営学部（データサイエンス）",
+"f": "経済学部 経済学科",
 "admission": 200000,
-"tuition": null,
-"facility": null,
-"practical": 0,
-"other": null,
+"tuition": 780000,
+"facility": 230000,
+"practical": null,
+"other": 54300,
+"first_year": 1264300,
+"four_year": null
+},
+{
+"f": "経営学部 経営学科（経営・会計）",
+"admission": 200000,
+"tuition": 780000,
+"facility": 230000,
+"practical": null,
+"other": 54300,
+"first_year": 1264300,
+"four_year": null
+},
+{
+"f": "経営学部 経営学科（データサイエンス）",
+"admission": 200000,
+"tuition": 840000,
+"facility": 230000,
+"practical": null,
+"other": 54300,
 "first_year": 1324300,
 "four_year": null
 },
 {
-"f": "人文学部",
+"f": "人文学部 人文学科",
 "admission": 200000,
-"tuition": null,
-"facility": null,
-"practical": 0,
-"other": null,
+"tuition": 810000,
+"facility": 230000,
+"practical": null,
+"other": 56300,
 "first_year": 1296300,
+"four_year": null
+},
+{
+"f": "心理学部 心理学科",
+"admission": 200000,
+"tuition": 810000,
+"facility": 310000,
+"practical": null,
+"other": 43300,
+"first_year": 1363300,
 "four_year": null
 },
 {
@@ -132887,58 +132930,68 @@ null
 "admission": 200000,
 "tuition": 840000,
 "facility": 230000,
-"practical": 0,
+"practical": null,
 "other": 60300,
 "first_year": 1330300,
 "four_year": null
 },
 {
-"f": "心理学部",
+"f": "グローバル・コミュニケーション学部（英語）",
 "admission": 200000,
-"tuition": null,
-"facility": null,
-"practical": 0,
-"other": null,
-"first_year": 1363300,
+"tuition": 860000,
+"facility": 230000,
+"practical": null,
+"other": 54300,
+"first_year": 1352385,
+"four_year": null
+},
+{
+"f": "グローバル・コミュニケーション学部（中国語・日本語）",
+"admission": 200000,
+"tuition": 860000,
+"facility": 230000,
+"practical": null,
+"other": 54300,
+"first_year": 1344300,
+"four_year": null
+},
+{
+"f": "総合リハビリテーション学部（理学療法・作業療法）",
+"admission": 250000,
+"tuition": 1320000,
+"facility": 400000,
+"practical": null,
+"other": 46300,
+"first_year": 2016300,
 "four_year": null
 },
 {
 "f": "総合リハビリテーション学部（社会リハビリテーション）",
 "admission": 200000,
-"tuition": null,
-"facility": null,
-"practical": 0,
-"other": null,
+"tuition": 870000,
+"facility": 300000,
+"practical": null,
+"other": 46300,
 "first_year": 1416300,
 "four_year": null
 },
 {
-"f": "総合リハビリテーション学部（理学療法・作業療法）",
-"admission": 200000,
-"tuition": null,
-"facility": null,
-"practical": 0,
-"other": null,
-"first_year": 2016300,
-"four_year": null
-},
-{
-"f": "栄養学部（管理栄養学専攻）",
-"admission": 200000,
-"tuition": null,
-"facility": null,
-"practical": 0,
-"other": null,
+"f": "栄養学部（管理栄養学）",
+"admission": 250000,
+"tuition": 850000,
+"facility": 440000,
+"practical": null,
+"other": 43300,
 "first_year": 1583300,
 "four_year": null
 },
 {
-"f": "栄養学部（臨床検査学専攻）",
-"admission": 200000,
-"tuition": null,
-"facility": null,
-"practical": 0,
-"other": null,
+"f": "栄養学部（臨床検査学）",
+"admission": 250000,
+"tuition": 1050000,
+"facility": 440000,
+"practical": null,
+"other": 43300,
 "first_year": 1783300,
 "four_year": null
 },
@@ -132947,7 +133000,7 @@ null
 "admission": 250000,
 "tuition": 1405000,
 "facility": 440000,
-"practical": 0,
+"practical": null,
 "other": 52700,
 "first_year": 2147700,
 "four_year": null
@@ -132964,7 +133017,9 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3699/gakuhi/",
 "https://search.keinet.ne.jp/2563/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/4440/difficulty/",
-"https://passnavi.obunsha.co.jp/univ/4440/schedule/"
+"https://passnavi.obunsha.co.jp/univ/4440/schedule/",
+"https://manabi.benesse.ne.jp/daigaku/school/3699/nyushi/gokaku-happyo/",
+"https://search.keinet.ne.jp/2563/outline/expense"
 ]
 },
 "神戸常盤大学": {
@@ -132979,8 +133034,8 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
-"money": "2026-11-07",
+"schedule": "2026-11-10",
+"money": "2026-11-10",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07"
@@ -133051,8 +133106,8 @@ null
 "name": "一般選抜 前期",
 "apply": "12/21〜1/25",
 "exam": "2/2",
-"result": null,
-"proc": null,
+"result": "2/9",
+"proc": "2/19",
 "fee": null
 },
 {
@@ -133060,8 +133115,8 @@ null
 "name": "一般選抜 中期",
 "apply": "2/8〜2/16",
 "exam": "2/20",
-"result": null,
-"proc": null,
+"result": "2/26",
+"proc": "3/9",
 "fee": null
 },
 {
@@ -133070,7 +133125,7 @@ null
 "apply": "2/18〜3/7",
 "exam": "3/9",
 "result": "3/13",
-"proc": null,
+"proc": "3/19",
 "fee": null
 },
 {
@@ -133088,52 +133143,63 @@ null
 "apply": "2/18〜3/1",
 "exam": "1/16・1/17（共テ）",
 "result": "3/13",
-"proc": null,
+"proc": "3/19",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 プラス自己PR型",
+"apply": "2/18〜3/1",
+"exam": "1/16・1/17（共テ）＋書類",
+"result": "3/13",
+"proc": "3/19",
 "fee": null
 }
 ]
 },
 "money": {
 "year": "2026年度",
+"note": "河合塾Kei-Net「学費」（2026年度入学者用）。facility は施設/教育充実費等、practical は実習費、other は諸会費。2027年度は未確認",
+"source": "https://search.keinet.ne.jp/2594/outline/expense",
 "rows": [
 {
 "f": "教育学部 こども教育学科",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 1363000,
-"four_year": null
-},
-{
-"f": "保健科学部 口腔保健学科",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 1503000,
+"admission": 200000,
+"tuition": 820000,
+"facility": 250000,
+"practical": 50000,
+"other": 54000,
+"first_year": 1374000,
 "four_year": null
 },
 {
 "f": "保健科学部 医療検査学科・診療放射線学科",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 1813000,
+"admission": 250000,
+"tuition": 920000,
+"facility": 350000,
+"practical": 250000,
+"other": 60000,
+"first_year": 1830000,
+"four_year": null
+},
+{
+"f": "保健科学部 口腔保健学科",
+"admission": 240000,
+"tuition": 800000,
+"facility": 300000,
+"practical": 120000,
+"other": 60000,
+"first_year": 1520000,
 "four_year": null
 },
 {
 "f": "看護学部 看護学科",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 1893000,
+"admission": 250000,
+"tuition": 1000000,
+"facility": 350000,
+"practical": 250000,
+"other": 60000,
+"first_year": 1910000,
 "four_year": null
 }
 ]
@@ -133148,7 +133214,10 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3724/gakuhi/",
 "https://search.keinet.ne.jp/2594/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/4475/difficulty/",
-"https://passnavi.obunsha.co.jp/univ/4475/schedule/"
+"https://passnavi.obunsha.co.jp/univ/4475/schedule/",
+"https://manabi.benesse.ne.jp/daigaku/school/3724/nyushi/gokaku-happyo/",
+"https://telemail.jp/shingaku/university/10001694/examination/general",
+"https://search.keinet.ne.jp/2594/outline/expense"
 ]
 },
 "東大阪大学": {
@@ -133160,7 +133229,7 @@ null
 "departments": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-10",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -133212,19 +133281,64 @@ null
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜入試（公募）Ⅰ期",
-"apply": null,
+"apply": "11/12〜11/19",
 "exam": "11/29",
-"result": null,
-"proc": null,
+"result": "12/8",
+"proc": "12/23",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜入試（公募）Ⅱ期",
+"apply": "11/26〜12/3",
+"exam": "12/12",
+"result": "12/22",
+"proc": "1/13",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜入試 Ⅰ期",
+"apply": "1/7〜1/15",
+"exam": "1/24",
+"result": "2/3",
+"proc": "2/12",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜入試 Ⅱ期",
+"apply": "1/26〜2/5",
+"exam": "2/13",
+"result": "2/22",
+"proc": "3/5",
 "fee": null
 },
 {
 "kubun": "一般",
 "name": "一般選抜入試 Ⅲ期",
-"apply": null,
-"exam": "3/12",
+"apply": "2/26〜3/12",
+"exam": "3/17",
 "result": "3/17",
 "proc": "3/24",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 Ⅰ期",
+"apply": "1/26〜2/5",
+"exam": "1/16・1/17（共テ）",
+"result": "2/22",
+"proc": "3/5",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 Ⅱ期",
+"apply": "2/16〜2/24",
+"exam": "1/16・1/17（共テ）",
+"result": "3/5",
+"proc": "3/15",
 "fee": null
 }
 ]
@@ -133252,7 +133366,9 @@ null
 "https://www.best-shingaku.net/special/fa_p015nyushicalendar_list.php?daigakucode=3664",
 "https://www.best-shingaku.net/smt/rank2284.html",
 "https://shingakunet.com/gakko/SC003648/",
-"https://manabi.benesse.ne.jp/daigaku/school/3664/gakuhi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3664/gakuhi/",
+"https://manabi.benesse.ne.jp/daigaku/school/3664/nyushi/gokaku-happyo/",
+"https://telemail.jp/shingaku/university/10001659/examination/general"
 ]
 },
 "桃山学院大学": {
@@ -133272,8 +133388,8 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
-"money": "2026-11-07",
+"schedule": "2026-11-10",
+"money": "2026-11-10",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07"
@@ -133374,7 +133490,7 @@ null
 "apply": "12/14〜1/8",
 "exam": "1/19・1/20・2/9・2/10",
 "result": "2/18",
-"proc": null,
+"proc": "3/11",
 "fee": null
 },
 {
@@ -133383,7 +133499,7 @@ null
 "apply": "1/9〜1/27",
 "exam": "2/9・2/10",
 "result": "2/18",
-"proc": null,
+"proc": "3/11",
 "fee": null
 },
 {
@@ -133400,8 +133516,8 @@ null
 "name": "大学入学共通テスト利用入試［前期］",
 "apply": "12/14〜1/27",
 "exam": "1/16・1/17（共テ）",
-"result": null,
-"proc": null,
+"result": "2/18",
+"proc": "3/11",
 "fee": null
 },
 {
@@ -133409,8 +133525,8 @@ null
 "name": "大学入学共通テスト利用入試［後期］",
 "apply": "2/18〜3/3",
 "exam": "1/16・1/17（共テ）",
-"result": null,
-"proc": null,
+"result": "3/18",
+"proc": "3/24",
 "fee": null
 },
 {
@@ -133419,32 +133535,44 @@ null
 "apply": "3/4〜3/24",
 "exam": "1/16・1/17（共テ）",
 "result": "3/27",
-"proc": null,
+"proc": "3/30",
 "fee": null
 }
 ]
 },
 "money": {
 "year": "2026年度",
+"note": "河合塾Kei-Net「学費」（2026年度入学者用）。施設費・実習費は記載なし、other は諸会費。ノートパソコン・指定用品等は別途",
+"source": "https://search.keinet.ne.jp/2544/outline/expense",
 "rows": [
 {
-"f": "社会学部・経済学部・経営学部・法学部・国際教養学部・人間教育学部・ビジネスデザイン学部",
+"f": "社会学部・経済学部・経営学部・法学部・国際教養学部・ビジネスデザイン学部",
 "admission": 230000,
 "tuition": 1069000,
-"facility": 0,
-"practical": 0,
-"other": 0,
-"first_year": 1299000,
+"facility": null,
+"practical": null,
+"other": 20000,
+"first_year": 1319000,
+"four_year": null
+},
+{
+"f": "人間教育学部",
+"admission": 230000,
+"tuition": 1150000,
+"facility": null,
+"practical": null,
+"other": 20000,
+"first_year": 1400000,
 "four_year": null
 },
 {
 "f": "工学部",
 "admission": 230000,
 "tuition": 1365000,
-"facility": 0,
-"practical": 0,
-"other": 0,
-"first_year": 1595000,
+"facility": null,
+"practical": null,
+"other": 20000,
+"first_year": 1615000,
 "four_year": null
 }
 ]
@@ -133458,7 +133586,9 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3654/gakuhi/",
 "https://www.best-shingaku.net/smt/gakuhi2287.html",
 "https://passnavi.obunsha.co.jp/univ/4350/difficulty/",
-"https://www.shinronozukan.com/university/momoyama-gakuin/general-selection"
+"https://www.shinronozukan.com/university/momoyama-gakuin/general-selection",
+"https://manabi.benesse.ne.jp/daigaku/school/3654/nyushi/gokaku-happyo/",
+"https://search.keinet.ne.jp/2544/outline/expense"
 ]
 },
 "梅花女子大学": {
