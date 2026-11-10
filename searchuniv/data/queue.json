@@ -4221,6 +4221,60 @@
 "need": [
 "schedule_dates"
 ]
+},
+{
+"name": "松山大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "松山東雲女子大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "松山東雲女子大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "梅光学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "梅光学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "比治山大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "比治山大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "環太平洋大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "環太平洋大学",
+"need": [
+"fees"
+]
 }
 ],
 "failed": [
@@ -4347,7 +4401,8 @@
 "産業医科大学": 1,
 "九州国際大学": 2,
 "九州共立大学": 1,
-"広島都市学園大学": 1
+"広島都市学園大学": 1,
+"岡山学院大学": 1
 },
 "enrich": [
 {
@@ -16985,12 +17040,6 @@
 {
 "name": "松山大学",
 "need": [
-"fees"
-]
-},
-{
-"name": "松山大学",
-"need": [
 "scholar"
 ]
 },
@@ -16998,18 +17047,6 @@
 "name": "松山東雲女子大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "松山東雲女子大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "松山東雲女子大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -17027,18 +17064,6 @@
 {
 "name": "梅光学院大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "梅光学院大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "梅光学院大学",
-"need": [
 "scholar"
 ]
 },
@@ -17046,18 +17071,6 @@
 "name": "比治山大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "比治山大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "比治山大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -17070,18 +17083,6 @@
 "name": "環太平洋大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "環太平洋大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "環太平洋大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -17094,12 +17095,6 @@
 "name": "岡山学院大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "岡山学院大学",
-"need": [
-"schedule_dates"
 ]
 },
 {
@@ -26710,6 +26705,12 @@
 "fees"
 ],
 "note": "マナビジョンは合計のみ。Kei-Net学費ページ（2647）に辿れず（2026-11-10）。子ども教育学科の合計は追加済み"
+},
+{
+"name": "岡山学院大学",
+"need": [
+"schedule_dates"
+]
 }
 ],
 "complete": true,

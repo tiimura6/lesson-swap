@@ -1,0 +1,516 @@
+[
+ {
+  "name": "松山大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "人文学部・法学部・経済学部・経営学部",
+      "admission": 200000,
+      "tuition": 680000,
+      "facility": 200000,
+      "practical": null,
+      "other": null,
+      "first_year": 1080000,
+      "four_year": null,
+      "note": "別に諸会費等の委託徴収が約44,660円"
+     },
+     {
+      "f": "情報学部",
+      "admission": 200000,
+      "tuition": 880000,
+      "facility": 300000,
+      "practical": null,
+      "other": null,
+      "first_year": 1380000,
+      "four_year": null,
+      "note": "別に諸会費等の委託徴収が約44,660円"
+     },
+     {
+      "f": "薬学部 医療薬学科",
+      "admission": 200000,
+      "tuition": 1400000,
+      "facility": 400000,
+      "practical": 0,
+      "other": null,
+      "first_year": 2000000,
+      "four_year": null,
+      "note": "授業料に実験実習費を含む。別に諸会費等の委託徴収が約46,840円"
+     }
+    ],
+    "note": "Kei-Net（2026年度入学者用）の内訳。人文・経済・経営・情報は指定要件のノートPCが必要"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2688/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "松山東雲女子大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅰ期",
+      "apply": "9/1〜9/18",
+      "exam": "10/3",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 前期",
+      "apply": "11/1〜11/9",
+      "exam": "11/14",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "apply": "1/4〜1/22",
+      "exam": "2/1",
+      "result": "2/9",
+      "proc": "2/18",
+      "fee": null,
+      "note": "検定料はKei-Netの2026年度入試で一般30,000円・共テ利用15,000円（2027年度は募集要項で確認）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程",
+      "apply": "1/29〜2/10",
+      "exam": "2/18",
+      "result": "2/25",
+      "proc": "3/5",
+      "fee": null,
+      "note": "検定料はKei-Netの2026年度入試で一般30,000円・共テ利用15,000円（2027年度は募集要項で確認）"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 A日程",
+      "apply": "1/4〜1/22",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/9",
+      "proc": "2/18",
+      "fee": null,
+      "note": "検定料はKei-Netの2026年度入試で一般30,000円・共テ利用15,000円（2027年度は募集要項で確認）"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 B日程",
+      "apply": "1/29〜2/10",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/25",
+      "proc": "3/5",
+      "fee": null,
+      "note": "検定料はKei-Netの2026年度入試で一般30,000円・共テ利用15,000円（2027年度は募集要項で確認）"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 C日程",
+      "apply": "2/19〜3/4",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/11",
+      "proc": "3/17",
+      "fee": null,
+      "note": "検定料はKei-Netの2026年度入試で一般30,000円・共テ利用15,000円（2027年度は募集要項で確認）"
+     }
+    ]
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "人文科学部 心理子ども学科",
+      "admission": 250000,
+      "tuition": 700000,
+      "facility": 270000,
+      "practical": null,
+      "other": null,
+      "first_year": 1220000,
+      "four_year": null,
+      "note": "入学後に諸会費等として年間28,600〜34,000円程度を別途徴収。テキスト代・学外実習費は実費"
+     }
+    ],
+    "note": "Kei-Net（2026年度入学者用）の内訳"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3853/nyushi/hoshiki/ippan/",
+    "https://search.keinet.ne.jp/2689/general/schedule",
+    "https://search.keinet.ne.jp/2689/general/exam_fee",
+    "https://search.keinet.ne.jp/2689/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "梅光学院大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "apply": "1/7〜1/27",
+      "exam": "2/5",
+      "result": "2/12",
+      "proc": "2/19",
+      "fee": null,
+      "note": "検定料はKei-Netの2026年度入試で一般30,000円・共テ利用15,000円（2027年度は募集要項で確認）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程",
+      "apply": "1/7〜2/17",
+      "exam": "2/22",
+      "result": "3/1",
+      "proc": "3/12",
+      "fee": null,
+      "note": "検定料はKei-Netの2026年度入試で一般30,000円・共テ利用15,000円（2027年度は募集要項で確認）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 C日程",
+      "apply": "3/5〜3/17",
+      "exam": "3/23",
+      "result": "3/24",
+      "proc": "3/26",
+      "fee": null,
+      "note": "検定料はKei-Netの2026年度入試で一般30,000円・共テ利用15,000円（2027年度は募集要項で確認）。試験会場は山口のみ"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 前期",
+      "apply": "1/7〜1/27",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "2/19",
+      "fee": null,
+      "note": "検定料はKei-Netの2026年度入試で一般30,000円・共テ利用15,000円（2027年度は募集要項で確認）"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 中期",
+      "apply": "1/7〜2/17",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/1",
+      "proc": "3/12",
+      "fee": null,
+      "note": "検定料はKei-Netの2026年度入試で一般30,000円・共テ利用15,000円（2027年度は募集要項で確認）"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 後期",
+      "apply": "3/5〜3/17",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/24",
+      "proc": "3/26",
+      "fee": null,
+      "note": "検定料はKei-Netの2026年度入試で一般30,000円・共テ利用15,000円（2027年度は募集要項で確認）"
+     }
+    ]
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "全学部（国際学部・子ども学部）",
+      "admission": 50000,
+      "tuition": 700000,
+      "facility": 20000,
+      "practical": null,
+      "other": null,
+      "first_year": 770000,
+      "four_year": null,
+      "note": "施設費は教育充実費10,000円＋施設費10,000円。学費は7月〜翌3月の月払い"
+     }
+    ],
+    "note": "Kei-Net・マナビジョン（2026年度入学者用）"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3818/nyushi/hoshiki/ippan/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3818/nyushi/hoshiki/kyotsu-test/",
+    "https://search.keinet.ne.jp/2653/general/exam_fee",
+    "https://search.keinet.ne.jp/2653/outline/expense",
+    "https://manabi.benesse.ne.jp/daigaku/school/3818/gakuhi/"
+   ]
+  }
+ },
+ {
+  "name": "比治山大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "apply": "1/6〜1/23",
+      "exam": "2/1",
+      "result": "2/12",
+      "proc": "一次2/26・二次3/23",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程",
+      "apply": "1/6〜1/23",
+      "exam": "2/2",
+      "result": "2/12",
+      "proc": "一次2/26・二次3/23",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 C日程",
+      "apply": "1/6〜1/23",
+      "exam": "2/4",
+      "result": "2/12",
+      "proc": "一次2/26・二次3/23",
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 A日程",
+      "apply": "1/6〜1/29",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "2/26",
+      "fee": null,
+      "note": "検定料はKei-Netの2026年度入試で15,000円（2027年度は募集要項で確認）"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 B日程",
+      "apply": "2/15〜2/26",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/9",
+      "proc": "3/23",
+      "fee": null,
+      "note": "検定料はKei-Netの2026年度入試で15,000円（2027年度は募集要項で確認）"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 C日程",
+      "apply": "3/1〜3/13",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/18",
+      "proc": "3/26",
+      "fee": null,
+      "note": "検定料はKei-Netの2026年度入試で15,000円（2027年度は募集要項で確認）"
+     }
+    ]
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "現代文化学部 言語文化学科・マスコミュニケーション学科",
+      "admission": 190000,
+      "tuition": 810000,
+      "facility": 220000,
+      "practical": null,
+      "other": 11250,
+      "first_year": 1231250,
+      "four_year": null
+     },
+     {
+      "f": "現代文化学部 社会臨床心理学科",
+      "admission": 190000,
+      "tuition": 870000,
+      "facility": 220000,
+      "practical": null,
+      "other": 11250,
+      "first_year": 1291250,
+      "four_year": null
+     },
+     {
+      "f": "現代文化学部 子ども発達教育学科",
+      "admission": 190000,
+      "tuition": 850000,
+      "facility": 220000,
+      "practical": null,
+      "other": 11250,
+      "first_year": 1271250,
+      "four_year": null
+     },
+     {
+      "f": "健康栄養学部 健康栄養学科",
+      "admission": 190000,
+      "tuition": 930000,
+      "facility": 220000,
+      "practical": null,
+      "other": 11250,
+      "first_year": 1351250,
+      "four_year": null
+     }
+    ],
+    "note": "Kei-Net（2026年度入学者用）の内訳。実験実習費は必要に応じて追加徴収、保険料4,660円（2025年度実績）が別途"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2641/outline/expense",
+    "https://search.keinet.ne.jp/2641/general/exam_fee"
+   ]
+  }
+ },
+ {
+  "name": "環太平洋大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般入試 A1（オンライン）",
+      "apply": "12/25〜1/22",
+      "exam": "1/27",
+      "result": "2/9",
+      "proc": "2/18（2次3/4）",
+      "fee": 10000,
+      "note": "一般と共テ利用を同時に出願しても検定料は1回分（10,000円）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試 A2",
+      "apply": "12/25〜1/22",
+      "exam": "2/3",
+      "result": "2/9",
+      "proc": "2/18（2次3/4）",
+      "fee": 10000,
+      "note": "一般と共テ利用を同時に出願しても検定料は1回分（10,000円）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試 B",
+      "apply": "2/9〜2/22",
+      "exam": "3/2",
+      "result": "3/5",
+      "proc": "3/11",
+      "fee": 10000,
+      "note": "一般と共テ利用を同時に出願しても検定料は1回分（10,000円）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試 最終",
+      "apply": "3/3〜3/15",
+      "exam": "3/17",
+      "result": "3/20",
+      "proc": "3/23",
+      "fee": 10000,
+      "note": "一般と共テ利用を同時に出願しても検定料は1回分（10,000円）"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試 A",
+      "apply": "12/25〜1/22",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/9",
+      "proc": "2/18（2次3/4）",
+      "fee": 10000,
+      "note": "一般と共テ利用を同時に出願しても検定料は1回分（10,000円）"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試 B",
+      "apply": "2/9〜2/22",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/5",
+      "proc": "3/11",
+      "fee": 10000,
+      "note": "一般と共テ利用を同時に出願しても検定料は1回分（10,000円）"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試 最終",
+      "apply": "3/3〜3/15",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/20",
+      "proc": "3/23",
+      "fee": 10000,
+      "note": "一般と共テ利用を同時に出願しても検定料は1回分（10,000円）"
+     }
+    ]
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "次世代教育学部（教育経営学科・こども発達学科）",
+      "admission": 300000,
+      "tuition": 800000,
+      "facility": 200000,
+      "practical": null,
+      "other": 167820,
+      "first_year": 1467820,
+      "four_year": null,
+      "note": "教員免許取得希望者は教育実習費等が別途"
+     },
+     {
+      "f": "経済経営学部 現代経営学科",
+      "admission": 300000,
+      "tuition": 800000,
+      "facility": 200000,
+      "practical": null,
+      "other": 177820,
+      "first_year": 1477820,
+      "four_year": null
+     },
+     {
+      "f": "体育学部 体育学科",
+      "admission": 300000,
+      "tuition": 800000,
+      "facility": 300000,
+      "practical": null,
+      "other": 184320,
+      "first_year": 1584320,
+      "four_year": null,
+      "note": "教員免許取得希望者は約30,000円が別途"
+     },
+     {
+      "f": "体育学部 競技スポーツ科学科",
+      "admission": 300000,
+      "tuition": 800000,
+      "facility": 300000,
+      "practical": null,
+      "other": 179420,
+      "first_year": 1579420,
+      "four_year": null
+     },
+     {
+      "f": "体育学部 健康科学科",
+      "admission": 300000,
+      "tuition": 1400000,
+      "facility": 200000,
+      "practical": null,
+      "other": 137820,
+      "first_year": 2037820,
+      "four_year": null,
+      "note": "実習用白衣・実習セットの購入が別途"
+     },
+     {
+      "f": "国際経済経営学部（千葉）",
+      "admission": 300000,
+      "tuition": 800000,
+      "facility": 200000,
+      "practical": null,
+      "other": 140000,
+      "first_year": 1440000,
+      "four_year": null,
+      "note": "諸会費は前年度の額を参考"
+     }
+    ],
+    "note": "Kei-Net（2026年度入学者用）の内訳。施設費は教育充実費＋施設設備費。ノートPC・教科書等の購入が別途"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3789/nyushi/",
+    "https://search.keinet.ne.jp/2626/general/exam_fee",
+    "https://search.keinet.ne.jp/2626/outline/expense"
+   ]
+  }
+ }
+]
