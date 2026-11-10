@@ -23,6 +23,8 @@ GitHub Pages: https://tiimura6.github.io/lesson-swap/
 8. 「共通テスト」画面（Searchuniv の view `kyotsu`、飯村システムの #univ-kyotsu）は `searchuniv/data/kyotsu_test.json`（大学入試センターの資料）から作る。
 9. 比較候補は localStorage の `searchuniv:cands`（両方で共通）。進路面談の生徒の記録は `searchuniv:students:<操作者名>`（クラス＋出席番号がキー、個人名は持たない）。CSV の列名は「表示名[項目ID]」で、読み込みは[]の中で照合する。
 
+10. 検索画面の項目ごとの検索（学部・学科 `#q-fac`／学問 `#q-study`／将来の職業 `#q-job`／地域 `#q-area`）は、入力した項目すべてに合う学校だけを `passFilters()` の `xHits()` で残す（大学名・キーワード欄 `#mq` とも組み合わせ可）。職業と資格・学部学科の対応表は template.html の `JOBS`。
+
 ## 操作者
 - タイトル横の「👤 操作者」で選ぶ（localStorage `ttOperator`）。PINは `opPins`／GAS。
 - 時間割に名前が無い人は、一覧の最後の「＋ 新規作成」（または検索欄で該当なしのまま Enter）で名前を決める。作成した名前はこの端末の localStorage `opCustomNames` に保存し、一覧の最後に並ぶ（新規作成の画面から削除できる）。作成後は通常どおり初回PINを設定する。

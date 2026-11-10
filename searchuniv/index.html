@@ -67,6 +67,7 @@ body.wide main,body.wide header{max-width:1320px}
 .sbar{display:flex;gap:8px}
 .sbar input{flex:1;font-family:inherit;font-size:14px;border:1px solid var(--line);border-radius:8px;padding:9px 10px;background:var(--panel);color:var(--ink)}
 .sfilt{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.sfields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;margin:8px 0 2px}.sfields label{display:flex;flex-direction:column;gap:2px;font-size:11.5px;font-weight:600;color:var(--muted);min-width:0}.sfields input,.sfields select{width:100%;min-width:0;box-sizing:border-box;font-family:inherit;font-size:13.5px;border:1px solid var(--line);border-radius:8px;padding:7px 8px;background:var(--panel);color:var(--ink)}.sfields input:not(:placeholder-shown),.sfields select.on{border-color:var(--accent);background:var(--accent-soft)}.rf.xh{color:var(--ink)}.rf.xh b{color:var(--accent);font-weight:600;margin-right:2px}
 .sfilt select{font-family:inherit;font-size:12.5px;border:1px solid var(--line);border-radius:8px;padding:6px 8px;background:var(--panel);color:var(--ink)}
 .chk{font-size:12.5px;display:flex;align-items:center;gap:4px;cursor:pointer}
 .kchk{display:flex;flex-wrap:wrap;gap:4px 12px;width:100%}
@@ -348,7 +349,13 @@ ul.mini li{font-size:12.5px;margin:2px 0}
 <section id="v-map" hidden>
   <div class="sgrid">
     <div class="sleft">
-      <div class="sbar"><select id="mby" aria-label="何で探すか" title="何で探すか"><option value="">すべてから</option><option value="name">大学名</option><option value="fac">学部・学科・学問</option><option value="pref">地域・都道府県</option><option value="lic">資格・就職</option><option value="res">研究・特色</option><option value="sch">奨学金</option></select><input type="search" id="mq" placeholder="大学名・学部・学科・学問（例：看護、心理、建築）・地域で検索" autocomplete="off"><button class="btn" id="mgo" type="button">検索</button><button class="btn" id="mreset">全国</button></div>
+      <div class="sbar"><select id="mby" aria-label="何で探すか" title="何で探すか"><option value="">すべてから</option><option value="name">大学名</option><option value="fac">学部・学科・学問</option><option value="pref">地域・都道府県</option><option value="lic">資格・就職</option><option value="res">研究・特色</option><option value="sch">奨学金</option></select><input type="search" id="mq" placeholder="大学名・キーワード（例：早稲田、教員免許、AI）" autocomplete="off"><button class="btn" id="mgo" type="button">検索</button><button class="btn" id="mreset">全国</button></div>
+      <div class="sfields" role="group" aria-label="項目ごとに探す">
+        <label>学部・学科<input type="search" id="q-fac" placeholder="例：法学部、看護学科" autocomplete="off"></label>
+        <label>学問<input type="search" id="q-study" list="dl-study" placeholder="例：心理学、AI、国際関係" autocomplete="off"></label>
+        <label>将来の職業<input type="search" id="q-job" list="dl-job" placeholder="例：法曹、教員、薬剤師" autocomplete="off"></label>
+        <label>地域<select id="q-area"><option value="">全国</option></select></label>
+      </div><datalist id="dl-study"></datalist><datalist id="dl-job"></datalist>
       <p class="upd" id="updline"></p>
       <div class="sfilt">
         <select id="f-kyoka" aria-label="共通テスト科目数"><option value="">共テ教科数：すべて</option><option value="le3">3教科以下</option><option value="4-5">4〜5教科</option><option value="ge6">6教科以上</option><option value="none">共テ利用なし</option></select>
@@ -1939,7 +1946,7 @@ $("kt-go").onclick=async()=>{
 };
 
 // ===== 更新日時（検索欄の下に表示）=====
-const BUILD=/*BUILD*/{"built":"2026-11-11 07:50","schedule":"2026-11-10","diffyear":"2027年度入試用"}/*END_BUILD*/;
+const BUILD=/*BUILD*/{"built":"2026-11-11 08:16","schedule":"2026-11-10","diffyear":"2027年度入試用"}/*END_BUILD*/;
 (function(){ const el=$("updline"); if(!el||!BUILD.built) return; const d=s=>s?s.replace(/-/g,"/"):"";
   el.textContent="更新 "+d(BUILD.built)+"・"+items.length+"校｜入試日程の確認 "+d((BUILD.schedule||BUILD.built).slice(0,10))+"（一般選抜は12月下旬に更新）"; el.title="難易度：河合塾「"+(BUILD.diffyear||"2027年度入試用")+"」"; })();
 $("univlist").innerHTML=items.map(x=>'<option value="'+esc(x.name)+'">').join("");
@@ -2548,6 +2555,7 @@ function passFilters(x){
     if(ef==="kansan"&&!L.some(r=>/換算|加点|みなし/.test(r.use||""))) return false;
     if(ef==="ippan"&&!L.some(r=>r.kubun==="一般"||r.kubun==="共テ利用")) return false; }
   const kf2=$("f-kei").value; if(kf2&&!keiHits(x,kf2).length) return false;
+  if(xActive()&&!xHits(x)) return false;
   const mf=$("f-meth").value; if(mf){ const L=(((INFO[x.name]||{}).methods)||{}).list||[]; if(!L.length&&!/^n/.test(mf)) return false;
     const ok={kouki:()=>L.some(r=>/後期/.test(r.name)), nijiH:()=>L.some(r=>r.kubun==="一般"&&r.kn&&r.kn[1]>r.kn[0]), ktH:()=>L.some(r=>r.kubun==="一般"&&r.kn&&r.kn[0]>r.kn[1]),
       suisen:()=>L.some(r=>r.kubun==="推薦"&&/公募|学校推薦型/.test(r.name)&&!/指定校/.test(r.name)), sk_nokt:()=>L.some(r=>(r.kubun==="推薦"||r.kubun==="総合型")&&/課さない|不要|^なし|共テなし|利用しない/.test(r.kyotsu||"")&&!/記載なし|未確認/.test(r.kyotsu||"")),
@@ -2590,7 +2598,7 @@ function kindGroup(x){ const k=kindOf(x); return (k==="国立"||k==="公立"||k=
 function kindVisible(x){ const on=kindsOn(); return on.size===4||on.has(kindGroup(x)); }
 function applyKindDots(){ const by=new Map(items.map(x=>[x.name,x])); ROOT.querySelectorAll("#jmap .dot").forEach(c=>{ const x=by.get(c.querySelector("title").textContent); c.classList.toggle("off", !!x&&!kindVisible(x)); }); }
 function kindsOn(){ return new Set([...ROOT.querySelectorAll(".fk:checked")].map(e=>e.value)); }
-function filtersActive(){ return $("f-eng").value||$("f-kei").value||$("f-kyoka").value||$("f-rl").value||$("f-meth").value||kindsOn().size<4; }
+function filtersActive(){ return xActive()||$("f-eng").value||$("f-kei").value||$("f-kyoka").value||$("f-rl").value||$("f-meth").value||kindsOn().size<4; }
 const REGION_Q={"北海道":["北海道"],"東北":["青森","岩手","宮城","秋田","山形","福島"],"北海道・東北":["北海道","青森","岩手","宮城","秋田","山形","福島"],"関東":["茨城","栃木","群馬","埼玉","千葉","東京","神奈川"],"首都圏":["埼玉","千葉","東京","神奈川"],"北陸":["新潟","富山","石川","福井"],"甲信越":["山梨","長野","新潟"],"東海":["岐阜","静岡","愛知","三重"],"中部":["新潟","富山","石川","福井","山梨","長野","岐阜","静岡","愛知"],"近畿":["三重","滋賀","京都","大阪","兵庫","奈良","和歌山"],"関西":["滋賀","京都","大阪","兵庫","奈良","和歌山"],"中国":["鳥取","島根","岡山","広島","山口"],"四国":["徳島","香川","愛媛","高知"],"中国・四国":["鳥取","島根","岡山","広島","山口","徳島","香川","愛媛","高知"],"九州":["福岡","佐賀","長崎","熊本","大分","宮崎","鹿児島"],"九州・沖縄":["福岡","佐賀","長崎","熊本","大分","宮崎","鹿児島","沖縄"],"沖縄":["沖縄"]};
 const KIND_Q={"国立":["国立"],"国立大学":["国立"],"公立":["公立"],"公立大学":["公立"],"国公立":["国立","公立"],"国公立大学":["国立","公立"],"私立":["私立"],"私立大学":["私立"],"大学校":["大学校"],"専門職大学":["専門職大学"],"専門職":["専門職大学"]};
 const KEI={
@@ -2622,6 +2630,116 @@ function keiHits(x,label){ const re=KEI[label], f=INFO[x.name]||{};
   if(x.cat==="daigakkou"&&(re.test(x.name)||(x.feats||[]).some(t=>re.test(t)))) return [x.feats&&x.feats[0]||x.name];
   return [];
 }
+// ===== 項目ごとの検索（学部・学科／学問／将来の職業／地域）2026-11-11 先生の依頼 =====
+// 入力した項目は「すべて」に合う学校だけを出す（大学名・キーワード欄とも組み合わせられる）。どれか1つ入っていれば一覧と地図に出す。
+// 職業 → 資格（licenses）・学部学科名（fac）・主な進路（careers）・大学校名（nm）のどれかに当たれば該当
+const JOBS=[
+ {k:"法曹（弁護士・裁判官・検察官）",a:["法曹","弁護士","裁判官","検察官","検事","司法書士","行政書士","弁理士","法律家"],lic:/法曹|司法/,fac:/(?<!療)法学|法律|法科/},
+ {k:"医師",a:["医師","医者","ドクター","外科医","内科医","小児科医","精神科医"],lic:/(?<![歯獣])医師/,fac:/(^|[^獣歯])医学(科|類|部(?!\s*(保健|看護|検査|放射線|生命|医療|総合)))/},
+ {k:"歯科医師",a:["歯科医師","歯科医","歯医者"],lic:/歯科医師/,fac:/歯学(科|類|部(?!\s*口腔))/},
+ {k:"獣医師",a:["獣医師","獣医"],lic:/獣医師/,fac:/獣医(?!保健|学部\s*(獣医保健|動物|グリーン))/},
+ {k:"薬剤師",a:["薬剤師"],lic:/薬剤師/,fac:/薬学(科|類)|薬学部(?!\s*\S*(科学|創薬|生命))/},
+ {k:"看護師",a:["看護師","看護"],lic:/看護師/,fac:/看護/},
+ {k:"保健師",a:["保健師"],lic:/保健師/,fac:/看護/},
+ {k:"助産師",a:["助産師"],lic:/助産/,fac:/看護|助産/},
+ {k:"理学療法士",a:["理学療法士","理学療法","PT"],lic:/理学療法/,fac:/理学療法/},
+ {k:"作業療法士",a:["作業療法士","作業療法","OT"],lic:/作業療法/,fac:/作業療法/},
+ {k:"言語聴覚士",a:["言語聴覚士","言語聴覚"],lic:/言語聴覚/,fac:/言語聴覚/},
+ {k:"視能訓練士",a:["視能訓練士"],lic:/視能/,fac:/視能/},
+ {k:"臨床検査技師",a:["臨床検査技師","臨床検査"],lic:/臨床検査/,fac:/臨床検査|検査技術/},
+ {k:"診療放射線技師",a:["診療放射線技師","放射線技師"],lic:/放射線/,fac:/放射線/},
+ {k:"臨床工学技士",a:["臨床工学技士","臨床工学"],lic:/臨床工学/,fac:/臨床工学|医療工学/},
+ {k:"救急救命士",a:["救急救命士"],lic:/救急救命/,fac:/救急救命/},
+ {k:"柔道整復師",a:["柔道整復師"],lic:/柔道整復/,fac:/柔道整復|整復/},
+ {k:"鍼灸師",a:["鍼灸師","はり師","きゅう師","鍼灸"],lic:/はり師|鍼灸/,fac:/鍼灸/},
+ {k:"歯科衛生士",a:["歯科衛生士"],lic:/歯科衛生/,fac:/口腔保健|歯科衛生/},
+ {k:"管理栄養士・栄養士",a:["管理栄養士","栄養士","栄養教諭"],lic:/栄養/,fac:/栄養/},
+ {k:"公認心理師・臨床心理士",a:["公認心理師","臨床心理士","心理士","カウンセラー","心理職"],lic:/公認心理師|臨床心理/,fac:/心理/},
+ {k:"社会福祉士・精神保健福祉士",a:["社会福祉士","精神保健福祉士","ソーシャルワーカー","ケースワーカー"],lic:/社会福祉士|精神保健福祉/,fac:/福祉/},
+ {k:"介護福祉士",a:["介護福祉士","介護"],lic:/介護福祉/,fac:/介護|福祉/},
+ {k:"保育士",a:["保育士","保育"],lic:/保育士/,fac:/保育|幼児|こども|子ども/},
+ {k:"幼稚園教諭",a:["幼稚園教諭","幼稚園の先生","幼稚園"],lic:/幼稚園/,fac:/幼児|保育|こども|子ども|初等/},
+ {k:"小学校教諭",a:["小学校教諭","小学校の先生","小学校教員"],lic:/小学校/,fac:/初等|小学校|学校教育|子ども教育|こども教育|児童教育/},
+ {k:"中学・高校の教員",a:["教員","教師","先生","中学校教諭","高校教諭","中学校の先生","高校の先生","教諭"],lic:/教員免許|中学校|高等学校|中・高|教職/,fac:/教育/},
+ {k:"養護教諭",a:["養護教諭","保健室の先生"],lic:/養護教諭/,fac:/養護/},
+ {k:"特別支援学校教諭",a:["特別支援学校教諭","特別支援"],lic:/特別支援/,fac:/特別支援/},
+ {k:"公務員",a:["公務員","国家公務員","地方公務員","市役所","県庁","役所"],fac:/(?<!療)法学|法律|行政|政策|政治|公共/},
+ {k:"警察官・消防官",a:["警察官","警察","消防官","消防士","消防"],car:/警察|消防/,fac:/危機管理|警察|消防|(?<!療)法学|法律/},
+ {k:"自衛官",a:["自衛官","自衛隊"],nm:/防衛/,car:/自衛/},
+ {k:"海上保安官",a:["海上保安官","海上保安"],nm:/海上保安/},
+ {k:"気象予報士",a:["気象予報士","気象"],nm:/気象/,fac:/気象|地球|大気/},
+ {k:"パイロット・航空管制官",a:["パイロット","航空管制官","管制官","整備士"],nm:/航空/,fac:/航空|操縦/},
+ {k:"外交官・国際機関",a:["外交官","国連","国際機関","国際公務員"],fac:/国際|外国語|政治|グローバル/},
+ {k:"公認会計士・税理士",a:["公認会計士","会計士","税理士"],car:/会計士|税理士/,fac:/会計|商学|経営|経済/},
+ {k:"銀行・金融",a:["銀行","銀行員","金融","証券","保険"],car:/金融|銀行|証券|保険/,fac:/経済|経営|商学|金融/},
+ {k:"経営者・起業",a:["経営者","起業","社長","起業家"],fac:/経営|商学|ビジネス|マネジメント/},
+ {k:"記者・アナウンサー・マスコミ",a:["記者","アナウンサー","マスコミ","新聞","テレビ","放送","編集者","出版"],car:/マスコミ|新聞|放送|出版/,fac:/メディア|ジャーナリズム|社会学|放送|新聞/},
+ {k:"通訳・翻訳",a:["通訳","翻訳","通訳者","翻訳家"],fac:/外国語|英語|英米|通訳|翻訳|言語/},
+ {k:"客室乗務員・ホテル・観光",a:["客室乗務員","CA","キャビンアテンダント","グランドスタッフ","ホテル","旅行","観光"],fac:/観光|ホスピタリティ|外国語|英語/},
+ {k:"学芸員",a:["学芸員","博物館"],lic:/学芸員/,fac:/文化財|史学|美術史|考古|博物館/},
+ {k:"司書",a:["司書","図書館"],lic:/司書/,fac:/図書館/},
+ {k:"建築士",a:["建築士","建築家","一級建築士"],lic:/建築士/,fac:/建築/},
+ {k:"ITエンジニア・プログラマー",a:["ITエンジニア","SE","システムエンジニア","プログラマー","プログラマ","データサイエンティスト","AIエンジニア","ホワイトハッカー"],fac:/情報|コンピュータ|データ|知能|ソフトウェア|AI|サイバー/},
+ {k:"エンジニア・技術者",a:["エンジニア","技術者","研究開発","メーカー"],fac:/工学|理工|機械|電気|電子|情報|材料|化学/},
+ {k:"研究者",a:["研究者","研究職","科学者"],fac:/理学|理工|工学|農学|医学|薬学|生命|数理|物理/},
+ {k:"測量士・土木",a:["測量士","土木","ゼネコン"],lic:/測量/,fac:/土木|社会基盤|都市|測量/},
+ {k:"農業・食品",a:["農業","農家","食品","食品衛生監視員"],lic:/食品衛生/,fac:/農|生物資源|畜産|食品/},
+ {k:"デザイナー",a:["デザイナー","デザイン"],fac:/デザイン|芸術|美術/},
+ {k:"ゲーム・アニメ・映像クリエイター",a:["ゲームクリエイター","ゲーム","アニメ","アニメーター","映像","クリエイター","CG"],fac:/ゲーム|アニメ|映像|メディア|デジタル/},
+ {k:"音楽家",a:["音楽家","演奏家","歌手","作曲家","音楽"],fac:/音楽/},
+ {k:"スポーツ指導者・トレーナー",a:["トレーナー","スポーツトレーナー","コーチ","体育教員","スポーツ"],lic:/健康運動|アスレティック|トレーナー/,fac:/スポーツ|体育|健康/}];
+const STUDY_DL=["心理学","法学","政治学","経済学","経営学","商学","会計","国際関係","社会学","メディア","観光","教育学","保育","文学","歴史学","哲学","言語学","英語","外国語","数学","物理学","化学","生物学","地学","宇宙","AI","データサイエンス","情報","機械","電気・電子","建築","土木","材料","環境","農学","水産","獣医","食品","栄養","看護","医学","歯学","薬学","リハビリテーション","福祉","スポーツ","デザイン","美術","音楽","映像"];
+(function(){ const A=$("q-area"); if(A){ const pr=["北海道","青森","岩手","宮城","秋田","山形","福島","茨城","栃木","群馬","埼玉","千葉","東京","神奈川","新潟","富山","石川","福井","山梨","長野","岐阜","静岡","愛知","三重","滋賀","京都","大阪","兵庫","奈良","和歌山","鳥取","島根","岡山","広島","山口","徳島","香川","愛媛","高知","福岡","佐賀","長崎","熊本","大分","宮崎","鹿児島","沖縄"];
+    A.insertAdjacentHTML("beforeend",'<optgroup label="地方">'+["北海道・東北","関東","首都圏","北陸","甲信越","東海","近畿","中国・四国","九州・沖縄"].map(r=>'<option value="'+r+'">'+r+'</option>').join("")+'</optgroup><optgroup label="都道府県">'+pr.map(p=>'<option value="'+p+'">'+p+(p==="北海道"?"":p==="東京"?"都":/^(京都|大阪)$/.test(p)?"府":"県")+'</option>').join("")+'</optgroup>'); }
+  if($("dl-job")) $("dl-job").innerHTML=JOBS.map(j=>'<option value="'+esc(j.k)+'">').join("");
+  if($("dl-study")) $("dl-study").innerHTML=[...STUDY_DL,...Object.keys(KEI)].map(w=>'<option value="'+esc(w)+'">').join(""); })();
+function xVals(){ const g=id=>(($(id)||{}).value||"").normalize("NFKC").trim(); return {fac:g("q-fac"),study:g("q-study"),job:g("q-job"),area:g("q-area")}; }
+function xActive(){ const v=xVals(); return !!(v.fac||v.study||v.job||v.area); }
+function xLabels(){ const v=xVals(); return [v.fac&&"学部・学科「"+v.fac+"」",v.study&&"学問「"+v.study+"」",v.job&&"職業「"+v.job+"」",v.area&&"地域「"+v.area+"」"].filter(Boolean); }
+function xSyn(q){ try{ return concepts(q).flat().filter(w=>w.length>=2); }catch(e){ return []; } }
+function cut(t,w){ t=String(t); if(t.length<=34) return t; const i=Math.max(0,t.indexOf(w)-10); return (i>0?"…":"")+t.slice(i,i+32)+"…"; }
+function jobsFor(q){ const n=q.replace(/\s/g,"").replace(/(になりたい|を目指す|志望)$/,"");
+  const ex=JOBS.filter(j=>j.k===n); if(ex.length) return ex;
+  // 入力に含まれる呼び名のうち一番長いものを採る（「獣医師」で「医師」まで拾わない）
+  const L=JOBS.map(j=>[j,Math.max(0,...j.a.filter(w=>n.includes(w)).map(w=>w.length))]).filter(z=>z[1]>0);
+  if(L.length){ const m=Math.max(...L.map(z=>z[1])); return L.filter(z=>z[1]===m).map(z=>z[0]); }
+  return n.length>=2?JOBS.filter(j=>j.a.some(w=>w.includes(n))||j.k.includes(n)):[]; }
+// 「法学」が「理学療法学」に当たらないようにする部分一致
+function has(t,w){ t=String(t); let i=t.indexOf(w); while(i>=0){ if(!(w[0]==="法"&&t[i-1]==="療")) return true; i=t.indexOf(w,i+1); } return false; }
+function xFac(x,q){ const FL=facList(INFO[x.name]||{}); const st=q.replace(/(学部|学科|学類|学群|学域|専攻|コース|課程)$/,"");
+  const ws=[...new Set([q,st].filter(w=>w.length>=2||w===q))]; return FL.filter(t=>ws.some(w=>has(t,w))); }
+// 入力した言葉そのもの（例「国際関係」）が学部・学科名や研究分野に5校以上あれば、それだけで探す。少なければ関連語（国際・グローバルなど）まで広げる
+var XS_Q=null, XS_EXACT=false;
+function xStudyRaw(x,q,wide){ const f=INFO[x.name]||{};
+  const st=q.replace(/(学問|学)$/,""), key=[...new Set([q,st].filter(w=>w.length>=2||w===q))], ws=wide?[...new Set([...key,...xSyn(q)])]:key;
+  const fac=facList(f).filter(t=>ws.some(w=>has(t,w)));
+  const sub=fac.length?[]:[...(f.research||[]),...(x.feats||[])].filter(t=>key.some(w=>has(t,w))).map(t=>cut(t,st));
+  return {fac,sub}; }
+function xStudy(x,q){
+  if(KEI[q]) return {fac:keiHits(x,q),sub:[]};
+  if(XS_Q!==q){ XS_Q=q; XS_EXACT=items.filter(y=>{ const h=xStudyRaw(y,q,false); return h.fac.length||h.sub.length; }).length>=5; }
+  return xStudyRaw(x,q,!XS_EXACT); }
+function xJob(x,q){ const f=INFO[x.name]||{}, FL=facList(f), L=f.licenses||[], C=f.careers||"", J=jobsFor(q); const lic=[],fac=[],car=[];
+  if(J.length){ for(const j of J){ if(j.lic) L.filter(t=>j.lic.test(t)).forEach(t=>lic.push(t)); if(j.fac) FL.filter(t=>j.fac.test(t)).forEach(t=>fac.push(t));
+      if(j.car&&j.car.test(C)) car.push(cut(C,(C.match(j.car)||[""])[0])); if(j.nm&&j.nm.test(x.name)) fac.push(x.name); } }
+  else { const st=q.replace(/(士|師|官|員|者|家)$/,""), ws=[q,st].filter(w=>w.length>=2);
+    L.filter(t=>ws.some(w=>t.includes(w))).forEach(t=>lic.push(t)); if(ws.some(w=>C.includes(w))) car.push(cut(C,st));
+    const sy=xSyn(q).filter(w=>w!==q); if(sy.length) FL.filter(t=>sy.some(w=>t.includes(w))).forEach(t=>fac.push(t)); }
+  const u=a=>[...new Set(a)]; return {lic:u(lic),fac:u(fac),car:u(car)}; }
+function xArea(x,a){ const r=REGION_Q[a]; return r?r.some(p=>x.pref.startsWith(p)):x.pref.startsWith(a); }
+var XH_KEY="", XH=new Map();
+function xHits(x){ const v=xVals(), key=JSON.stringify(v); if(key!==XH_KEY){ XH_KEY=key; XH=new Map(); }
+  if(XH.has(x.name)) return XH.get(x.name);
+  let out={sc:0,parts:[]}, ok=true;
+  if(ok&&v.area){ if(xArea(x,v.area)) out.sc+=1; else ok=false; }
+  if(ok&&v.fac){ const h=xFac(x,v.fac); if(h.length){ out.sc+=3; out.parts.push(["学部",h]); } else ok=false; }
+  if(ok&&v.study){ const h=xStudy(x,v.study); if(h.fac.length){ out.sc+=3; out.parts.push(["学問",h.fac]); } else if(h.sub.length){ out.sc+=1; out.parts.push(["研究",h.sub]); } else ok=false; }
+  if(ok&&v.job){ const h=xJob(x,v.job); if(h.lic.length||h.fac.length||h.car.length){ out.sc+=(h.lic.length?4:0)+(h.fac.length?3:0)+(h.car.length?1:0);
+      if(h.lic.length) out.parts.push(["資格",h.lic]); if(h.fac.length) out.parts.push(["学部",h.fac]); if(h.car.length) out.parts.push(["進路",h.car]); } else ok=false; }
+  const r=ok?out:null; XH.set(x.name,r); return r; }
+function xHitHTML(x){ if(!xActive()) return ""; const h=xHits(x); if(!h||!h.parts.length) return "";
+  const seen=new Set(); return h.parts.map(([k,a])=>{ const b=a.filter(t=>!seen.has(t)); b.forEach(t=>seen.add(t)); if(!b.length) return "";
+    return '<span class="rf xh"><b>'+k+'</b>'+esc(b.slice(0,3).join("・"))+(b.length>3?" ほか":"")+'</span>'; }).join(""); }
 $("f-kei").insertAdjacentHTML("beforeend",Object.keys(KEI).map(k=>'<option value="'+k+'">'+k+'</option>').join(""));
 function searchUnivs(q){
   q=q.trim(); const by=($("mby")||{}).value||""; const on=k=>!by||by===k;
@@ -2629,7 +2747,7 @@ function searchUnivs(q){
   const rq=REGION_Q[q.normalize("NFKC").replace(/\s|地方|地域/g,"")];
   if(rq&&on("pref")) return items.filter(x=>rq.some(p=>x.pref.startsWith(p))&&passFilters(x)).sort((a,b)=>(PRIO[a.cat]??20)-(PRIO[b.cat]??20)||a.pref.localeCompare(b.pref,"ja"));
   if(kq&&!by) return items.filter(x=>kq.includes(kindOf(x))&&passFilters(x)).sort((a,b)=>(PRIO[a.cat]??20)-(PRIO[b.cat]??20)||a.pref.localeCompare(b.pref,"ja"));
-  if(!q){ return filtersActive()? items.filter(passFilters).sort((a,b)=>(PRIO[a.cat]??20)-(PRIO[b.cat]??20)) : []; }
+  if(!q){ return filtersActive()? items.filter(passFilters).sort((a,b)=>((xHits(b)||{sc:0}).sc-(xHits(a)||{sc:0}).sc)||(PRIO[a.cat]??20)-(PRIO[b.cat]??20)) : []; }
   const a=nz(q), h=toHira(q.normalize("NFKC")).replace(/\s/g,"");
   const words=(typeof concepts==="function"?concepts(q.normalize("NFKC")).flat():[]).filter(w=>w!==q);
   return items.map(x=>{
@@ -2659,7 +2777,8 @@ function renderResults(){
   const mfv=$("f-meth").value, noM=mfv&&!/^n/.test(mfv)?items.filter(x=>!((((INFO[x.name]||{}).methods)||{}).list||[]).length).length:0;
   const noS=/^n/.test(mfv)?items.filter(x=>!subjRows(x).length).length:0;
   let msg=(qv||filtersActive())?(list.length?list.length+"件"+(list.length>200?"（上位200件を表示）":""):"該当なし"):"";
-  if(!list.length&&qv&&filtersActive()) msg+="：検索語「"+qv+"」と絞り込みの両方に合う学校がありません。検索語を消すと絞り込みだけで探せます。";
+  if(!list.length&&xActive()) msg+="：入力した項目（"+xLabels().join("・")+"）のすべてに合う学校がありません。項目を減らすと広く探せます。";
+  else if(!list.length&&qv&&filtersActive()) msg+="：検索語「"+qv+"」と絞り込みの両方に合う学校がありません。検索語を消すと絞り込みだけで探せます。";
   if(noK) msg+="（共テ情報が未登録の"+noK+"校は対象外）";
   if(noM) msg+="（入試方式が未登録の"+noM+"校は対象外）";
   if(noS) msg+="（学部・方式ごとの入試科目は集めている途中で、未登録の"+noS+"校は対象外）";
@@ -2670,7 +2789,7 @@ function renderResults(){
   const facHit=x=>{ const f=INFO[x.name]||{}; let h=kv?keiHits(x,kv):[]; if(!h.length&&qv&&!isCorrect(qv,x.name)&&!nz(x.name).includes(nz(qv))){ const ws=[qv,...(typeof concepts==="function"?concepts(qv).flat():[])].filter(w=>w.length>=2); const ex=facList(f).filter(t=>t.includes(qv)); h=ex.length?ex:facList(f).filter(t=>ws.some(w=>t.includes(w))); }
     return h.length?'<span class="rf">'+esc(h.slice(0,3).map(t=>/学部|学群|学域|学環|学院|学類$/.test(t.replace(/（.*$/,""))?t.replace(/（.*$/,""):t).join("・")+(h.length>3?" ほか":""))+'</span>':""; };
   const so=$("msort").value; if(so){ const hv=x=>midHensachi(x.name); list=list.slice().sort(so==="pref"?(a,b)=>a.pref.localeCompare(b.pref,"ja"):(a,b)=>{ const A=hv(a),B=hv(b); if(A==null&&B==null) return 0; if(A==null) return 1; if(B==null) return -1; return so==="hd"?B-A:A-B; }); }
-  $("mresults").innerHTML=list.slice(0,200).map(x=>{ const m=midHensachi(x.name); return '<button class="ritem" data-n="'+esc(x.name)+'">'+badge(x)+'<span class="rn">'+esc(x.name)+facHit(x)+kyHitHTML(x)+'</span><span class="rp">'+(m!=null?'<span class="rh">偏差値'+m+'</span>':'')+bandTag(x)+esc(x.pref)+'</span></button>'; }).join("");
+  $("mresults").innerHTML=list.slice(0,200).map(x=>{ const m=midHensachi(x.name); return '<button class="ritem" data-n="'+esc(x.name)+'">'+badge(x)+'<span class="rn">'+esc(x.name)+(xHitHTML(x)||facHit(x))+kyHitHTML(x)+'</span><span class="rp">'+(m!=null?'<span class="rh">偏差値'+m+'</span>':'')+bandTag(x)+esc(x.pref)+'</span></button>'; }).join("");
   $("mresults").querySelectorAll(".ritem").forEach(b=>b.onclick=()=>selectUniv(b.dataset.n));
   LAST_LIST=(qv||filtersActive())?list:[]; renderSearchNews();
   // 地図上で候補の点を強調
@@ -2687,8 +2806,15 @@ $("mby").addEventListener("change",()=>{ const ph={"":"大学名・学部・学�
   // 学校を選んだ後は検索欄にその校名が入っているので、絞り込みを変えたら校名を消して一覧に戻す
   if($("mpanel").innerHTML&&items.some(x=>x.name===$("mq").value)) $("mq").value="";
   $("mpanel").innerHTML=""; renderResults(); }));
+["q-fac","q-study","q-job"].forEach(id=>{ const el=$(id);
+  el.addEventListener("keydown",e=>{ if(e.key!=="Enter"||e.isComposing||e.keyCode===229) return; e.preventDefault(); xGo(); });
+  el.addEventListener("input",()=>{ if(!el.value.trim()) xGo(); });
+  el.addEventListener("change",()=>{ if(el.value.trim()) xGo(); }); });
+$("q-area").addEventListener("change",()=>{ $("q-area").classList.toggle("on",!!$("q-area").value); xGo(); });
+// 項目ごとの検索を変えたら、選択中の大学を閉じて一覧に戻す
+function xGo(){ if(items.some(x=>x.name===$("mq").value)) $("mq").value=""; $("uov").hidden=true; lockScroll(false); runSearch(); }
 $("mq").addEventListener("keydown",e=>{ if(e.key!=="Enter"||e.isComposing||e.keyCode===229) return; e.preventDefault(); const v=$("mq").value.trim(); if(items.some(x=>x.name===v)) selectUniv(v); else runSearch(); });
-$("mreset").onclick=()=>{ MATCH=null; LAST_LIST=[]; CUR_SEL=null; $("uov").hidden=true; lockScroll(false); renderSearchNews(); ROOT.querySelectorAll(".fk").forEach(e=>e.checked=true); applyKindDots(); $("f-eng").value=""; $("f-kei").value=""; $("f-kyoka").value=""; $("f-rl").value=""; $("f-meth").value=""; ROOT.querySelectorAll(".fk").forEach(e=>e.checked=true); $("hl").innerHTML=""; $("mpanel").innerHTML=""; $("mresults").innerHTML=""; $("mcount").textContent=""; $("mq").value=""; ROOT.querySelectorAll("#jmap .dot.dim").forEach(c=>c.classList.remove("dim")); setVB(HOME_VB); };
+$("mreset").onclick=()=>{ MATCH=null; LAST_LIST=[]; CUR_SEL=null; $("uov").hidden=true; lockScroll(false); renderSearchNews(); ROOT.querySelectorAll(".fk").forEach(e=>e.checked=true); applyKindDots(); $("f-eng").value=""; $("f-kei").value=""; $("f-kyoka").value=""; $("f-rl").value=""; $("f-meth").value=""; ROOT.querySelectorAll(".fk").forEach(e=>e.checked=true); $("hl").innerHTML=""; $("mpanel").innerHTML=""; $("mresults").innerHTML=""; $("mcount").textContent=""; $("mq").value=""; ["q-fac","q-study","q-job","q-area"].forEach(id=>$(id).value=""); $("q-area").classList.remove("on"); ROOT.querySelectorAll("#jmap .dot.dim").forEach(c=>c.classList.remove("dim")); setVB(HOME_VB); };
 NAV.listen(()=>{ if(NAV.get()==="map") requestAnimationFrame(()=>scaleMarks()); });
 
 

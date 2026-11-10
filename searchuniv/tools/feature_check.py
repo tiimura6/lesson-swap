@@ -40,6 +40,12 @@ with sync_playwright() as p:
     nn = search('茨城'); J('document.getElementById("mby").value="pref"; document.getElementById("mby").dispatchEvent(new Event("change"))'); np_ = search('茨城')
     J('document.getElementById("mby").value=""; document.getElementById("mby").dispatchEvent(new Event("change"))')
     ck(G, '何で探すか（大学名・学部・地域・資格・研究・奨学金）を指定できる', J('document.querySelectorAll("#mby option").length') >= 7 and nn != np_, '大学名%d件・地域%d件' % (nn, np_))
+    def xs(**kw):
+        J('(kw)=>{for(const id of ["q-fac","q-study","q-job","q-area"]) document.getElementById(id).value=kw[id]||""; document.getElementById("mq").value=""; document.getElementById("mgo").click()}', {k.replace('_','-'):v for k,v in kw.items()}); pg.wait_for_timeout(400)
+        return J('document.querySelectorAll(".ritem").length'), J('document.getElementById("mresults").innerText')
+    n1, t1 = xs(q_job='法曹'); n2, t2 = xs(q_job='獣医師', q_area='関東'); n3, _ = xs(q_fac='看護学科', q_area='茨城'); n4, _ = xs(q_study='心理学')
+    ck(G, '項目ごとに検索（学部・学科／学問／将来の職業／地域）', n1 > 30 and '理学療法' not in t1 and 3 <= n2 <= 10 and '医学部 医学科' not in t2 and 1 <= n3 <= 10 and n4 > 20, '法曹%d・獣医師×関東%d・看護学科×茨城%d・心理学%d' % (n1, n2, n3, n4) + ('' if '理学療法' not in t1 else '｜' + [l for l in t1.split(chr(10)) if '理学療法' in l][0]))
+    xs()
     ck(G, '学科・専攻の言葉で探せる（例：理学療法）', search('理学療法') > 0, J('document.querySelectorAll(".ritem").length'))
     ck(G, '地方で探せる（例：東北）', search('東北') > 3)
     search('看護'); J('(()=>{const s=document.getElementById("msort"); s.value="hd"; s.dispatchEvent(new Event("change"))})()'); pg.wait_for_timeout(300)
