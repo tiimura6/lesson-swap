@@ -114983,8 +114983,8 @@
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
-"money": "2026-11-07",
+"schedule": "2026-11-10",
+"money": "2026-11-10",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
@@ -115093,8 +115093,29 @@
 "apply": "1/4〜1/27",
 "exam": "1/16・1/17（共テ）",
 "result": "2/15",
-"proc": null,
-"fee": null
+"proc": "2/26",
+"fee": null,
+"note": "手続締切はKei-Net"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 中期",
+"apply": "〜2/22",
+"exam": "1/16・1/17（共テ）",
+"result": "3/9",
+"proc": "3/18",
+"fee": null,
+"note": "出願締切は消印有効（Kei-Net）"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 後期",
+"apply": "〜3/12",
+"exam": "1/16・1/17（共テ）",
+"result": "3/24",
+"proc": "3/30",
+"fee": null,
+"note": "出願締切は消印有効（Kei-Net）"
 }
 ]
 },
@@ -115109,9 +115130,12 @@
 "practical": 0,
 "other": 28300,
 "first_year": 1528300,
-"four_year": null
+"four_year": null,
+"note": "other は諸会費。Kei-Net（2026年度入学者用）も同額"
 }
-]
+],
+"admission": 220000,
+"note": "別途パソコンの購入費用が必要（大学推奨機種で18万〜30万円）（Kei-Net）"
 },
 "access": "久留米市上津町2228-66",
 "careers": "製造業、建設・設備、情報通信、教育関連など。",
@@ -115125,7 +115149,9 @@
 "https://passnavi.obunsha.co.jp/univ/4940/expense/",
 "https://www.kurume-it.ac.jp/daigaku/gaiyo_soshiki.html",
 "https://www.kurume-it.ac.jp/daigaku/gaiyo_enkaku.html",
-"https://kougyoudaigaku.jp/corporate/history.html"
+"https://kougyoudaigaku.jp/corporate/history.html",
+"https://search.keinet.ne.jp/2704/general/schedule",
+"https://search.keinet.ne.jp/2704/outline/expense"
 ],
 "students": {
 "count": 1187,
@@ -115144,7 +115170,7 @@
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
 "schedule": "2026-11-07",
-"money": "2026-11-07",
+"money": "2026-11-10",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
@@ -115286,7 +115312,9 @@
 "first_year": 1126000,
 "four_year": 3904000
 }
-]
+],
+"admission": 200000,
+"note": "Kei-Net（2026年度入学者用）は施設/教育充実費等246,000円として同じ初年度合計1,126,000円を掲載。ほかに預り金（学生自治会費・保険料等、2025年度実績31,400円）を前期授業料納付時に納める。教科書代・実習時の費用が別途必要（Kei-Net）"
 },
 "access": "熊本市中央区黒髪3-12-16",
 "careers": "保育士、幼稚園・小学校教諭、心理職、一般企業など。",
@@ -115300,7 +115328,9 @@
 "https://passnavi.obunsha.co.jp/univ/5095/top/",
 "https://manabi.benesse.ne.jp/daigaku/school/3935/gakubu/gakubudt/02.html",
 "https://search.keinet.ne.jp/2754",
-"https://www.shidaikyo.or.jp/newspaper/rensai/daigakuhayuku/post-111.html"
+"https://www.shidaikyo.or.jp/newspaper/rensai/daigakuhayuku/post-111.html",
+"https://search.keinet.ne.jp/2754/outline/expense",
+"https://manabi.benesse.ne.jp/daigaku/school/3935/nyushi/index.html"
 ],
 "students": {
 "count": 712,
@@ -115327,7 +115357,8 @@
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"money": "2026-11-10"
 },
 "departments": [
 {
@@ -115487,13 +115518,44 @@
 "https://manabi.benesse.ne.jp/daigaku/school/3871/nyushi/keizai/",
 "https://www.kyukyo-u.ac.jp/introduction/information/student/detail/",
 "https://search.keinet.ne.jp/2700",
-"https://www.weblio.jp/content/%E4%B9%9D%E5%B7%9E%E5%85%B1%E7%AB%8B%E5%A4%A7%E5%AD%A6"
+"https://www.weblio.jp/content/%E4%B9%9D%E5%B7%9E%E5%85%B1%E7%AB%8B%E5%A4%A7%E5%AD%A6",
+"https://manabi.benesse.ne.jp/daigaku/school/3871/gakuhi/"
 ],
 "students": {
 "count": 2915,
 "year": 2026
 },
-"founded": "1965年開学（前身：福原高等学院、1947年創立）"
+"founded": "1965年開学（前身：福原高等学院、1947年創立）",
+"money": {
+"year": "2026年度",
+"admission": null,
+"annual": null,
+"note": "マナビジョンは学部ごとの初年度納入金の合計のみ掲載（入学金・授業料・施設費・学友会費などを含む）。内訳は未確認",
+"rows": [
+{
+"f": "経済学部",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1124160,
+"four_year": null,
+"note": "2026年度入学者（マナビジョン）"
+},
+{
+"f": "スポーツ学部",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1376160,
+"four_year": null,
+"note": "2026年度入学者（マナビジョン）"
+}
+]
+}
 },
 "九州医療科学大学": {
 "faculties": [
@@ -115508,8 +115570,8 @@
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
-"money": "2026-11-07",
+"schedule": "2026-11-10",
+"money": "2026-11-10",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
@@ -115587,27 +115649,30 @@
 "name": "一般選抜 前期",
 "apply": "1/5〜1/25",
 "exam": "2/1・2/2・2/3",
-"result": null,
-"proc": null,
-"fee": null
+"result": "2/10",
+"proc": "2/26",
+"fee": null,
+"note": "A方式2/1、B2科目2/2、C1科目2/3。全学部同日程（Kei-Net）"
 },
 {
 "kubun": "一般",
 "name": "一般選抜 中期",
 "apply": "1/26〜2/8",
 "exam": "2/13",
-"result": null,
-"proc": null,
-"fee": null
+"result": "2/22",
+"proc": "3/12",
+"fee": null,
+"note": "Kei-Net"
 },
 {
 "kubun": "一般",
 "name": "一般選抜 後期",
 "apply": "2/22〜3/11",
 "exam": "3/16",
-"result": null,
-"proc": null,
-"fee": null
+"result": "3/23",
+"proc": "3/26",
+"fee": null,
+"note": "Kei-Net"
 },
 {
 "kubun": "共テ利用",
@@ -115617,27 +115682,80 @@
 "result": "2/10",
 "proc": "2/26",
 "fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 中期",
+"apply": "〜2/14",
+"exam": "1/16・1/17（共テ）",
+"result": "2/22",
+"proc": "3/12",
+"fee": null,
+"note": "出願締切は登録締切（Kei-Net）"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 後期",
+"apply": "〜3/9",
+"exam": "1/16・1/17（共テ）",
+"result": "3/13",
+"proc": "3/26",
+"fee": null,
+"note": "出願締切は登録締切（Kei-Net）"
 }
 ]
 },
 "money": {
 "year": "2026年度",
+"admission": 300000,
+"annual": null,
+"note": "Kei-Net 2026年度入学者用。救命救急コースでライフセーバー等の資格取得を希望する場合は別途費用",
 "rows": [
 {
 "f": "薬学部 薬学科",
 "admission": 300000,
-"tuition": null,
-"facility": null,
+"tuition": 1150000,
+"facility": 350000,
 "practical": null,
 "other": null,
 "first_year": 1800000,
 "four_year": null
 },
 {
-"f": "生命医科学部・社会福祉学部・臨床心理学部・動物生命薬科学科",
+"f": "薬学部 動物生命薬科学科",
 "admission": 300000,
-"tuition": null,
-"facility": null,
+"tuition": 900000,
+"facility": 350000,
+"practical": null,
+"other": null,
+"first_year": 1550000,
+"four_year": null
+},
+{
+"f": "生命医科学部 生命医科学科",
+"admission": 300000,
+"tuition": 900000,
+"facility": 350000,
+"practical": null,
+"other": null,
+"first_year": 1550000,
+"four_year": null
+},
+{
+"f": "社会福祉学部 スポーツ健康福祉学科",
+"admission": 300000,
+"tuition": 900000,
+"facility": 350000,
+"practical": null,
+"other": null,
+"first_year": 1550000,
+"four_year": null
+},
+{
+"f": "臨床心理学部 臨床心理学科",
+"admission": 300000,
+"tuition": 900000,
+"facility": 350000,
 "practical": null,
 "other": null,
 "first_year": 1550000,
@@ -115655,7 +115773,9 @@
 "https://passnavi.obunsha.co.jp/univ/5145/difficulty/",
 "https://passnavi.obunsha.co.jp/univ/5145/schedule/",
 "https://www.phoenix.ac.jp/outline/student",
-"https://ja.wikipedia.org/wiki/%E4%B9%9D%E5%B7%9E%E5%8C%BB%E7%99%82%E7%A7%91%E5%AD%A6%E5%A4%A7%E5%AD%A6"
+"https://ja.wikipedia.org/wiki/%E4%B9%9D%E5%B7%9E%E5%8C%BB%E7%99%82%E7%A7%91%E5%AD%A6%E5%A4%A7%E5%AD%A6",
+"https://search.keinet.ne.jp/2779/general/schedule",
+"https://search.keinet.ne.jp/2779/outline/expense"
 ],
 "students": {
 "count": 899,
@@ -204883,6 +205003,440 @@ null
 "https://search.keinet.ne.jp/2252/outline/campus",
 "https://search.keinet.ne.jp/2252/outline/admission_employment",
 "https://search.keinet.ne.jp/2252/general/exam_result"
+]
+},
+"東京神学大学": {
+"faculties": [
+"神学部"
+],
+"_checked": {
+"faculties": "2026-11-10",
+"departments": "2026-11-10",
+"students": "2026-11-10",
+"access": "2026-11-10",
+"tuition": "2026-11-10",
+"money": "2026-11-10",
+"schedule": "2026-11-10",
+"research": "2026-11-10",
+"careers": "2026-11-10"
+},
+"departments": [
+{
+"f": "神学部",
+"d": [
+"神学科"
+]
+}
+],
+"students": {
+"count": 34,
+"year": 2025
+},
+"access": "三鷹キャンパス：東京都三鷹市大沢3-10-30。JR中央線武蔵境駅または三鷹駅からバスで「西野」下車、徒歩5分（パスナビ）",
+"tuition": {
+"amount": 830000,
+"label": "入学金＋授業料",
+"year": 2027
+},
+"money": {
+"year": "2027年度",
+"admission": 290000,
+"annual": null,
+"note": "大学公式 2027年度学生募集要項。施設費は入学時のみ。諸費は神学会費3,300円・学生教育研究災害傷害保険料2,650円・コピーテキスト代1,000円",
+"rows": [
+{
+"f": "神学部 神学科",
+"admission": 290000,
+"tuition": 540000,
+"facility": 240000,
+"practical": 0,
+"other": 6950,
+"first_year": 1076950,
+"four_year": null,
+"note": "other は神学会費・保険料・コピーテキスト代（大学公式）"
+}
+]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜（2月選抜）",
+"apply": "1/12〜1/19",
+"exam": "2/16",
+"result": "2/19",
+"proc": "3/5",
+"fee": 26000,
+"note": "出願は消印有効。小論文・面接・書類審査（大学公式）"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（3月選抜）",
+"apply": "2/2〜2/9",
+"exam": "3/9",
+"result": "3/11",
+"proc": "3/18",
+"fee": 26000,
+"note": "大学公式"
+}
+]
+},
+"research": [
+"神学（聖書学・組織神学・実践神学など牧師養成の学び）"
+],
+"careers": "例年、卒業生の多くが大学院（神学研究科）に進学し、牧師を目指す（2025年度卒業者20名中15名が進学）（パスナビ）。",
+"sources": [
+"https://www.tuts.ac.jp/wordpress/wp-content/uploads/2026/07/2027年度神学部神学科学生募集要項.pdf",
+"https://passnavi.obunsha.co.jp/univ/2830/top/",
+"https://passnavi.obunsha.co.jp/univ/2830/location/",
+"https://passnavi.obunsha.co.jp/univ/2830/shinro/",
+"https://passnavi.obunsha.co.jp/univ/2830/suisen/"
+]
+},
+"東京福祉大学": {
+"difficulty": {
+"hensachi": "35.0〜37.5",
+"kyotei": "36%〜50%",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-10",
+"faculties": "2026-11-10",
+"departments": "2026-11-10",
+"students": "2026-11-10",
+"founded": "2026-11-10",
+"access": "2026-11-10",
+"tuition": "2026-11-10",
+"money": "2026-11-10",
+"research": "2026-11-10",
+"licenses": "2026-11-10"
+},
+"faculties": [
+"教育学部",
+"心理学部",
+"保育児童学部",
+"社会福祉学部"
+],
+"departments": [
+{
+"f": "教育学部",
+"d": [
+"教育学科"
+]
+},
+{
+"f": "心理学部",
+"d": [
+"心理学科"
+]
+},
+{
+"f": "保育児童学部",
+"d": [
+"保育児童学科"
+]
+},
+{
+"f": "社会福祉学部",
+"d": [
+"社会福祉学科"
+]
+}
+],
+"students": {
+"count": 3955,
+"year": 2025
+},
+"founded": "2000年 東京福祉大学開学（2027年4月 開智大学に名称変更予定）",
+"access": "池袋キャンパス：東京都豊島区南池袋2-14-7／王子キャンパス：東京都北区堀船2-1-11／伊勢崎キャンパス：群馬県伊勢崎市山王町2020-1（Kei-Net）",
+"tuition": {
+"amount": 1005000,
+"label": "入学金＋授業料",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 200000,
+"annual": null,
+"note": "資格・教員免許の取得に必要な実習費・研修費・資格申請料などは別途（Kei-Net 2026年度入学者用）",
+"rows": [
+{
+"f": "全学部（教育・心理・保育児童・社会福祉）",
+"admission": 200000,
+"tuition": 805000,
+"facility": 320000,
+"practical": null,
+"other": 120000,
+"first_year": 1445000,
+"four_year": null,
+"note": "other は諸会費（Kei-Net）"
+}
+]
+},
+"research": [
+"教育学（小学校・養護教諭など教員養成）",
+"心理学（公認心理師・精神保健福祉士）",
+"保育・幼児教育",
+"社会福祉学（社会福祉士・介護福祉士）"
+],
+"licenses": [
+"小学校教諭一種、養護教諭一種（教育・社会福祉）",
+"中学・高校教諭一種（保健・英語・情報・公民・福祉など学部により異なる）",
+"特別支援学校教諭一種（社会福祉）",
+"保育士、幼稚園教諭一種（保育児童）",
+"社会福祉士・精神保健福祉士・公認心理師受験資格（心理・社会福祉）",
+"介護福祉士受験資格（社会福祉）"
+],
+"sources": [
+"https://search.keinet.ne.jp/2138",
+"https://search.keinet.ne.jp/2138/outline/department",
+"https://search.keinet.ne.jp/2138/outline/licential",
+"https://search.keinet.ne.jp/2138/outline/expense",
+"https://search.keinet.ne.jp/2138/general/border_rate",
+"https://search.keinet.ne.jp/2138/general/exam_result"
+]
+},
+"東京純心大学": {
+"difficulty": {
+"hensachi": "35.0",
+"kyotei": "45%",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-10",
+"faculties": "2026-11-10",
+"departments": "2026-11-10",
+"students": "2026-11-10",
+"founded": "2026-11-10",
+"access": "2026-11-10",
+"tuition": "2026-11-10",
+"money": "2026-11-10",
+"research": "2026-11-10",
+"licenses": "2026-11-10",
+"careers": "2026-11-10"
+},
+"faculties": [
+"看護学部"
+],
+"departments": [
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+}
+],
+"students": {
+"count": 324,
+"year": 2025
+},
+"founded": "1967年 東京純心女子短期大学開学、1996年 東京純心女子大学開学、2015年 東京純心大学に改称・看護学部設置（2027年4月 東京純心看護大学に名称変更予定）",
+"access": "八王子キャンパス：東京都八王子市滝山町2-600（Kei-Net）",
+"tuition": {
+"amount": 1300000,
+"label": "入学金＋授業料",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 200000,
+"annual": null,
+"note": "実習費に感染症抗体検査・傷害保険・実習着1着などを含む。入学後に電子テキスト・書籍テキスト・教材・ノートパソコンなどの費用が必要（Kei-Net 2026年度入学者）",
+"rows": [
+{
+"f": "看護学部 看護学科",
+"admission": 200000,
+"tuition": 1100000,
+"facility": 290000,
+"practical": 240000,
+"other": 110640,
+"first_year": 1940640,
+"four_year": null,
+"note": "other は諸会費110,000円＋学費システム管理費640円（Kei-Net）"
+}
+]
+},
+"research": [
+"看護学（看護師・保健師養成）"
+],
+"licenses": [
+"看護師受験資格",
+"保健師受験資格",
+"養護教諭二種"
+],
+"careers": "2024年度卒業の看護学部は卒業者59人のうち就職51人・進学3人（Kei-Net）。",
+"sources": [
+"https://search.keinet.ne.jp/2295",
+"https://search.keinet.ne.jp/2295/outline/department",
+"https://search.keinet.ne.jp/2295/outline/licential",
+"https://search.keinet.ne.jp/2295/outline/admission_employment",
+"https://search.keinet.ne.jp/2295/outline/expense",
+"https://search.keinet.ne.jp/2295/general/border_rate",
+"https://search.keinet.ne.jp/2295/general/exam_result"
+]
+},
+"東京経済大学": {
+"difficulty": {
+"hensachi": "45.0〜50.0",
+"kyotei": "62%〜73%",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-10",
+"faculties": "2026-11-10",
+"departments": "2026-11-10",
+"students": "2026-11-10",
+"founded": "2026-11-10",
+"access": "2026-11-10",
+"tuition": "2026-11-10",
+"money": "2026-11-10",
+"research": "2026-11-10",
+"licenses": "2026-11-10"
+},
+"faculties": [
+"経済学部",
+"経営学部",
+"コミュニケーション学部",
+"現代法学部",
+"キャリアデザインプログラム"
+],
+"departments": [
+{
+"f": "経済学部",
+"d": [
+"経済学科",
+"国際経済学科"
+]
+},
+{
+"f": "経営学部",
+"d": [
+"経営学科",
+"流通マーケティング学科"
+]
+},
+{
+"f": "コミュニケーション学部",
+"d": [
+"メディア社会学科",
+"国際コミュニケーション学科"
+]
+},
+{
+"f": "現代法学部",
+"d": [
+"現代法学科"
+]
+},
+{
+"f": "キャリアデザインプログラム",
+"d": []
+}
+],
+"students": {
+"count": 6788,
+"year": 2025
+},
+"founded": "1900年 大倉商業学校開校、1949年 東京経済大学開学",
+"access": "国分寺キャンパス：東京都国分寺市南町1-7-34（Kei-Net）",
+"tuition": {
+"amount": 968000,
+"label": "入学金＋授業料（経済・経営学部）",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 150000,
+"annual": null,
+"note": "Kei-Net。メディア社会学科のみ2025年度入学者用の掲載",
+"rows": [
+{
+"f": "コミュニケーション学部 メディア社会学科",
+"admission": 150000,
+"tuition": 894000,
+"facility": 270000,
+"practical": null,
+"other": 55500,
+"first_year": 1369500,
+"four_year": null,
+"note": "2025年度入学者用（Kei-Net）"
+},
+{
+"f": "コミュニケーション学部 国際コミュニケーション学科",
+"admission": 150000,
+"tuition": 924000,
+"facility": 270000,
+"practical": null,
+"other": 55500,
+"first_year": 1399500,
+"four_year": null,
+"note": "other は諸会費（Kei-Net 2026年度）"
+},
+{
+"f": "現代法学部",
+"admission": 150000,
+"tuition": 847000,
+"facility": 270000,
+"practical": null,
+"other": 55500,
+"first_year": 1322500,
+"four_year": null,
+"note": "Kei-Net 2026年度"
+},
+{
+"f": "経済学部",
+"admission": 150000,
+"tuition": 818000,
+"facility": 270000,
+"practical": null,
+"other": 55500,
+"first_year": 1293500,
+"four_year": null,
+"note": "Kei-Net 2026年度"
+},
+{
+"f": "経営学部",
+"admission": 150000,
+"tuition": 818000,
+"facility": 270000,
+"practical": null,
+"other": 55500,
+"first_year": 1293500,
+"four_year": null,
+"note": "Kei-Net 2026年度"
+},
+{
+"f": "キャリアデザインプログラム",
+"admission": 150000,
+"tuition": 848000,
+"facility": 270000,
+"practical": null,
+"other": 55500,
+"first_year": 1323500,
+"four_year": null,
+"note": "Kei-Net 2026年度"
+}
+]
+},
+"research": [
+"経済学・国際経済",
+"経営学・流通マーケティング",
+"メディア社会学・国際コミュニケーション",
+"現代法学"
+],
+"licenses": [
+"中学教諭一種（社会）、高校教諭一種（公民）（現代法・経済・キャリアデザイン）",
+"高校教諭一種（地理歴史）（経済・キャリアデザイン）",
+"社会調査士（コミュニケーション・キャリアデザイン）"
+],
+"sources": [
+"https://search.keinet.ne.jp/2250",
+"https://search.keinet.ne.jp/2250/outline/department",
+"https://search.keinet.ne.jp/2250/outline/licential",
+"https://search.keinet.ne.jp/2250/outline/expense",
+"https://search.keinet.ne.jp/2250/general/border_rate",
+"https://search.keinet.ne.jp/2250/general/exam_result"
 ]
 }
 }
