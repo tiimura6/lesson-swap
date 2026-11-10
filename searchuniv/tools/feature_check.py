@@ -163,6 +163,7 @@ with sync_playwright() as p:
     ck(G, '出典の信頼度（大学HP＞Kei-Net・パスナビ、複数一致）', '出典の信頼度' in pipe)
     ck(G, '全校がそろってから再確認を始める', '`add` が空になったら' in pipe)
     ck(G, '誤り報告を毎回最初に処理', '誤り報告' in pipe)
+    ck(G, '毎回、確認日の古い学校を再確認（最新情報への更新）', '最新情報への更新' in pipe and '_checked' in pipe)
     ck(G, '公開前の自動テストが必須', 'smoke_test.py' in pipe)
     b.close()
 srv.shutdown()
