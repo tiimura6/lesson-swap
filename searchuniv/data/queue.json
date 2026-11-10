@@ -1,34 +1,6 @@
 {
 "add": [
 {
-"name": "日本ウェルネススポーツ大学",
-"type": "私立",
-"pref": "茨城県",
-"hp": "https://www.nihonwellness.jp/",
-"cat": "private"
-},
-{
-"name": "ルーテル学院大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.luther.ac.jp/",
-"cat": "private"
-},
-{
-"name": "千葉科学大学",
-"type": "私立",
-"pref": "千葉県",
-"hp": "https://www.cis.ac.jp/",
-"cat": "private"
-},
-{
-"name": "学習院女子大学",
-"type": "私立",
-"pref": "東京都",
-"hp": "https://www.gwc.gakushuin.ac.jp/",
-"cat": "private"
-},
-{
 "name": "川村学園女子大学",
 "type": "私立",
 "pref": "千葉県",
@@ -4105,6 +4077,99 @@
 "need": [
 "fees"
 ]
+},
+{
+"name": "日本ウェルネススポーツ大学",
+"type": "私立",
+"pref": "茨城県",
+"hp": "https://www.nihonwellness.jp/",
+"cat": "private"
+},
+{
+"name": "千葉科学大学",
+"type": "私立",
+"pref": "千葉県",
+"hp": "https://www.cis.ac.jp/",
+"cat": "private"
+},
+{
+"name": "九州共立大学",
+"need": [
+"fees"
+],
+"note": "学部別の内訳がマナビジョンは合計のみ、Kei-Net学費ページに辿れず（2026-11-10）"
+},
+{
+"name": "至誠館大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "至誠館大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "高松大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "高松大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "高知健康科学大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "高知健康科学大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "高知学園大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "高知学園大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "鳥取看護大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "鳥取看護大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "広島経済大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "広島都市学園大学",
+"need": [
+"schedule_dates"
+]
 }
 ],
 "failed": [
@@ -4230,8 +4295,9 @@
 "熊本保健科学大学": 1,
 "長崎国際大学": 1,
 "産業医科大学": 1,
-"九州国際大学": 1,
-"九州共立大学": 1
+"九州国際大学": 2,
+"九州共立大学": 1,
+"広島都市学園大学": 1
 },
 "enrich": [
 {
@@ -16737,18 +16803,6 @@
 {
 "name": "至誠館大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "至誠館大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "至誠館大学",
-"need": [
 "scholar"
 ]
 },
@@ -16756,18 +16810,6 @@
 "name": "高松大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "高松大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "高松大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -16785,18 +16827,6 @@
 {
 "name": "高知健康科学大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "高知健康科学大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "高知健康科学大学",
-"need": [
 "scholar"
 ]
 },
@@ -16804,18 +16834,6 @@
 "name": "高知学園大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "高知学園大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "高知学園大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -16828,18 +16846,6 @@
 "name": "鳥取看護大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "鳥取看護大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "鳥取看護大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -16876,12 +16882,6 @@
 "name": "広島経済大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "広島経済大学",
-"need": [
-"schedule_dates"
 ]
 },
 {
@@ -16900,18 +16900,6 @@
 "name": "広島都市学園大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "広島都市学園大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "広島都市学園大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -26688,20 +26676,6 @@
 ]
 },
 {
-"name": "九州国際大学",
-"need": [
-"fees"
-],
-"note": "看護学部の学費が Kei-Net に未掲載（他学部は内訳あり）（2026-11-10）"
-},
-{
-"name": "九州共立大学",
-"need": [
-"fees"
-],
-"note": "学部別の内訳がマナビジョンは合計のみ、Kei-Net学費ページに辿れず（2026-11-10）"
-},
-{
 "name": "武蔵野音楽大学",
 "keinet": "2283",
 "need": [
@@ -26716,6 +26690,36 @@
 "extra",
 "partners"
 ]
+},
+{
+"name": "日本ウェルネススポーツ大学",
+"keinet": "2112",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "千葉科学大学",
+"keinet": "2193",
+"need": [
+"extra",
+"partners"
+]
+},
+{
+"name": "九州国際大学",
+"need": [
+"fees"
+],
+"note": "看護学部の学費が見つからず（2026-11-10 2回目）"
+},
+{
+"name": "広島都市学園大学",
+"need": [
+"fees"
+],
+"note": "マナビジョンは合計のみ。Kei-Net学費ページ（2647）に辿れず（2026-11-10）。子ども教育学科の合計は追加済み"
 }
 ],
 "complete": true,
@@ -26779,6 +26783,14 @@
 {
 "name": "恵泉女学園大学",
 "reason": "2024年度入学者から学生募集を停止（大学の発表 digitalpr.jp/r/69452 で確認）"
+},
+{
+"name": "ルーテル学院大学",
+"reason": "2025年度以降の学生募集を停止（学校法人が2024-03-25に発表。クリスチャントゥデイ 2024-03-26 の記事で確認。公式サイトは開けず未確認）"
+},
+{
+"name": "学習院女子大学",
+"reason": "2026年4月に国際文化交流学部が学習院大学へ統合・共学化（テレメール記事で確認。学習院女子大学の入試案内ページは学習院大学 国際文化交流学部のページへ転送される）"
 }
 ]
 }

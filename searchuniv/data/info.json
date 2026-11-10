@@ -115855,7 +115855,8 @@
 "https://search.keinet.ne.jp/2700",
 "https://www.weblio.jp/content/%E4%B9%9D%E5%B7%9E%E5%85%B1%E7%AB%8B%E5%A4%A7%E5%AD%A6",
 "https://manabi.benesse.ne.jp/daigaku/school/3871/gakuhi/",
-"https://search.keinet.ne.jp/2700/general/schedule"
+"https://search.keinet.ne.jp/2700/general/schedule",
+"https://search.keinet.ne.jp/2700/outline/expense"
 ],
 "students": {
 "count": 2915,
@@ -115866,29 +115867,27 @@
 "year": "2026年度",
 "admission": null,
 "annual": null,
-"note": "マナビジョンは学部ごとの初年度納入金の合計のみ掲載（入学金・授業料・施設費・学友会費などを含む）。内訳は未確認",
+"note": "内訳は Kei-Net（2026年度入学者用）。別途、制服代24,420〜29,920円、スポーツ学部はトレーニングウェア代18,000円。マナビジョンの初年度納入金（学友会費など含む）は経済学部1,124,160円・スポーツ学部1,376,160円で Kei-Net の合計と異なる",
 "rows": [
 {
 "f": "経済学部",
-"admission": null,
-"tuition": null,
-"facility": null,
+"admission": 200000,
+"tuition": 562000,
+"facility": 288000,
 "practical": null,
-"other": null,
-"first_year": 1124160,
-"four_year": null,
-"note": "2026年度入学者（マナビジョン）"
+"other": 46160,
+"first_year": 1096160,
+"four_year": null
 },
 {
 "f": "スポーツ学部",
-"admission": null,
-"tuition": null,
-"facility": null,
+"admission": 220000,
+"tuition": 720000,
+"facility": 360000,
 "practical": null,
-"other": null,
-"first_year": 1376160,
-"four_year": null,
-"note": "2026年度入学者（マナビジョン）"
+"other": 46160,
+"first_year": 1346160,
+"four_year": null
 }
 ]
 }
@@ -117864,7 +117863,7 @@
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
 "schedule": "2026-11-07",
-"money": "2026-11-07",
+"money": "2026-11-10",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
@@ -117998,12 +117997,13 @@
 {
 "f": "現代社会学部 現代社会学科",
 "admission": 200000,
-"tuition": null,
-"facility": null,
+"tuition": 600000,
+"facility": 450000,
 "practical": null,
-"other": 23000,
+"other": 46000,
 "first_year": 1296000,
-"four_year": null
+"four_year": null,
+"note": "内訳は Kei-Net（2026年度入学者用：入学金200,000円・授業料600,000円・施設/教育充実費等450,000円・諸会費46,000円、初年度合計1,296,000円で2027年度と同額）"
 }
 ]
 },
@@ -118019,7 +118019,8 @@
 "https://www.shiseikan.ac.jp/fees",
 "https://passnavi.obunsha.co.jp/univ/4833/difficulty/",
 "https://search.keinet.ne.jp/2655/outline/department",
-"https://www.weblio.jp/content/%E8%87%B3%E8%AA%A0%E9%A4%A8%E5%A4%A7%E5%AD%A6"
+"https://www.weblio.jp/content/%E8%87%B3%E8%AA%A0%E9%A4%A8%E5%A4%A7%E5%AD%A6",
+"https://search.keinet.ne.jp/2655/outline/expense"
 ],
 "students": {
 "count": 649,
@@ -118760,7 +118761,7 @@
 "departments": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-10",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -118829,7 +118830,7 @@
 "apply": "12/14〜1/22",
 "exam": "2/6",
 "result": "2/12",
-"proc": null,
+"proc": "2/24",
 "fee": null
 },
 {
@@ -118893,7 +118894,8 @@
 "https://www.takamatsu-u.ac.jp/exam/application-requirements/gaiyou/",
 "https://www.takamatsu-u.ac.jp/wp-content/uploads/2026/06/2027nyushi_gaiyo.pdf",
 "https://search.keinet.ne.jp/2677/outline/expense",
-"https://passnavi.obunsha.co.jp/univ/4865/schedule/"
+"https://passnavi.obunsha.co.jp/univ/4865/schedule/",
+"https://manabi.benesse.ne.jp/daigaku/school/3842/nyushi/"
 ]
 },
 "高知健康科学大学": {
@@ -118905,7 +118907,7 @@
 "departments": "2026-11-07",
 "difficulty": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-10",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -118962,12 +118964,96 @@
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "総合型",
+"name": "総合型選抜 第1回",
+"apply": "9/7〜9/30",
+"exam": "10/24",
+"result": "11/5",
+"proc": "11/20",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募）第1回",
+"apply": "11/2〜11/10",
+"exam": "11/14",
+"result": "12/1",
+"proc": "12/18",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募）第2回",
+"apply": "11/24〜12/8",
+"exam": "12/12",
+"result": "12/18",
+"proc": "1/8",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 第2回",
+"apply": "11/24〜12/8",
+"exam": "12/12",
+"result": "12/18",
+"proc": "1/8",
+"fee": null
+},
+{
 "kubun": "一般",
 "name": "一般選抜試験（独自試験）A日程",
-"apply": "1/12〜",
+"apply": "1/12〜2/5",
 "exam": "2/13",
 "result": "2/19",
 "proc": "3/5",
+"fee": null,
+"note": "郵送必着。総合型第3回も同日程"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 B日程",
+"apply": "2/15〜2/26",
+"exam": "3/4",
+"result": "3/10",
+"proc": "3/25",
+"fee": null,
+"note": "郵送必着"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 C日程",
+"apply": "3/1〜3/12",
+"exam": "3/17",
+"result": "3/19",
+"proc": "3/26",
+"fee": null,
+"note": "郵送必着"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 A日程",
+"apply": "1/12〜2/5",
+"exam": "1/16・1/17（共テ）",
+"result": "2/19",
+"proc": "3/5",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 B日程",
+"apply": "2/15〜2/26",
+"exam": "1/16・1/17（共テ）",
+"result": "3/10",
+"proc": "3/25",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 C日程",
+"apply": "3/1〜3/12",
+"exam": "1/16・1/17（共テ）",
+"result": "3/19",
+"proc": "3/26",
 "fee": null
 }
 ]
@@ -118999,7 +119085,8 @@
 "https://search.keinet.ne.jp/2692/outline/expense",
 "https://passnavi.obunsha.co.jp/univ/4888/top/",
 "https://manabi.benesse.ne.jp/daigaku/school/3865/",
-"https://kochi-kyosei.pref.kochi.lg.jp/kyosei/page/dtl.php?ID=278"
+"https://kochi-kyosei.pref.kochi.lg.jp/kyosei/page/dtl.php?ID=278",
+"https://manabi.benesse.ne.jp/daigaku/school/3865/nyushi/"
 ],
 "students": {
 "count": 117,
@@ -119118,7 +119205,7 @@
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-10",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -119179,7 +119266,7 @@
 "apply": "1/13〜1/29",
 "exam": "2/7",
 "result": "2/14",
-"proc": null,
+"proc": "3/1",
 "fee": null
 },
 {
@@ -119188,7 +119275,7 @@
 "apply": "2/1〜2/12",
 "exam": "2/21",
 "result": "2/28",
-"proc": null,
+"proc": "3/15",
 "fee": null
 },
 {
@@ -119206,7 +119293,7 @@
 "apply": "2/1〜2/12",
 "exam": "1/16・1/17（共テ）",
 "result": "2/28",
-"proc": null,
+"proc": "3/15",
 "fee": null
 },
 {
@@ -119215,7 +119302,7 @@
 "apply": "2/22〜3/1",
 "exam": "1/16・1/17（共テ）",
 "result": "3/13",
-"proc": null,
+"proc": "3/19",
 "fee": null
 }
 ]
@@ -119453,7 +119540,7 @@
 "departments": "2026-11-07",
 "difficulty": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-10",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -119516,11 +119603,49 @@
 "rows": [
 {
 "kubun": "一般",
-"name": "一般選抜 1期",
+"name": "一般選抜 1期（高得点2教科型・3教科型）",
 "apply": "1/4〜1/22",
-"exam": "2/6",
+"exam": "2/6・2/7",
 "result": "2/19",
 "proc": "3/2",
+"fee": null,
+"note": "試験日自由選択。全学部"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 国公立受験生支援",
+"apply": "1/4〜1/22",
+"exam": "2/6・2/7",
+"result": "2/19",
+"proc": "3/9",
+"fee": null,
+"note": "経済学部のみ"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 2期",
+"apply": "2/12〜2/24",
+"exam": "3/5",
+"result": "3/12",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 1期",
+"apply": "1/4〜1/26",
+"exam": "1/16・1/17（共テ）",
+"result": "2/19",
+"proc": "3/2",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 2期",
+"apply": "2/12〜2/24",
+"exam": "1/16・1/17（共テ）",
+"result": "3/12",
+"proc": "3/23",
 "fee": null
 }
 ]
@@ -119554,7 +119679,8 @@
 "https://passnavi.obunsha.co.jp/univ/4730/schedule/",
 "https://manabi.benesse.ne.jp/daigaku/school/3799/",
 "https://kotobank.jp/word/%E5%BA%83%E5%B3%B6%E7%B5%8C%E6%B8%88%E5%A4%A7%E5%AD%A6-165863",
-"https://my.ebook5.net/edu_career-tasu/hue2025/"
+"https://my.ebook5.net/edu_career-tasu/hue2025/",
+"https://manabi.benesse.ne.jp/daigaku/school/3799/nyushi/"
 ],
 "students": {
 "count": 2993,
@@ -119573,8 +119699,8 @@
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
-"money": "2026-11-07",
+"schedule": "2026-11-10",
+"money": "2026-11-10",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
@@ -119637,20 +119763,65 @@ null
 "rows": [
 {
 "kubun": "一般",
-"name": "一般選抜 後期（子ども教育学科）",
+"name": "一般選抜 前期A",
+"apply": "1/5〜1/27",
+"exam": "2/2",
+"result": "2/16",
+"proc": "3/10",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期B",
+"apply": "1/5〜1/28",
+"exam": "2/3",
+"result": "2/16",
+"proc": "3/10",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期C",
+"apply": "1/5〜1/29",
+"exam": "2/4",
+"result": "2/16",
+"proc": "3/10",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期",
 "apply": "2/8〜3/2",
 "exam": "3/6",
 "result": "3/17",
-"proc": null,
+"proc": "3/24",
 "fee": null
 },
 {
 "kubun": "共テ利用",
-"name": "大学入学共通テスト利用選抜 前期",
+"name": "共通テスト利用選抜 前期",
 "apply": "1/6〜2/3",
 "exam": "1/16・1/17（共テ）",
-"result": null,
-"proc": null,
+"result": "2/16",
+"proc": "3/10",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 中期",
+"apply": "2/5〜3/3",
+"exam": "1/16・1/17（共テ）",
+"result": "3/12",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 後期",
+"apply": "2/19〜3/9",
+"exam": "1/16・1/17（共テ）",
+"result": "3/17",
+"proc": "3/24",
 "fee": null
 }
 ]
@@ -119701,7 +119872,8 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3811/gakuhi/",
 "https://passnavi.obunsha.co.jp/univ/4775/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3811/",
-"https://search.keinet.ne.jp/2647"
+"https://search.keinet.ne.jp/2647",
+"https://manabi.benesse.ne.jp/daigaku/school/3811/nyushi/gokaku-happyo/"
 ],
 "students": {
 "count": 816,
@@ -207289,6 +207461,220 @@ null
 "https://passnavi.obunsha.co.jp/univ/4945/",
 "https://passnavi.obunsha.co.jp/univ/4945/department/",
 "https://passnavi.obunsha.co.jp/univ/4945/expense/"
+]
+},
+"日本ウェルネススポーツ大学": {
+"difficulty": {
+"hensachi": "35.0",
+"kyotei": "",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-10",
+"faculties": "2026-11-10",
+"departments": "2026-11-10",
+"students": "2026-11-10",
+"founded": "2026-11-10",
+"access": "2026-11-10",
+"tuition": "2026-11-10",
+"money": "2026-11-10",
+"research": "2026-11-10",
+"careers": "2026-11-10"
+},
+"faculties": [
+"スポーツプロモーション学部"
+],
+"departments": [
+{
+"f": "スポーツプロモーション学部",
+"d": [
+"スポーツプロモーション学科（生涯スポーツコース／トップスポーツプロモーションコース、3年次から選択）"
+]
+}
+],
+"students": {
+"count": 427,
+"year": 2025
+},
+"founded": "2012年 開学（前身は1998年開校の日本ウェルネススポーツ専門学校）",
+"access": "本校舎：JR布佐駅から徒歩15分（送迎バスあり）。東京サテライト：東武・地下鉄成増駅から徒歩",
+"tuition": {
+"amount": 1000000,
+"label": "入学金＋授業料",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": 220000,
+"annual": null,
+"note": "初年度合計のほかに諸経費等132,000円（2025年度参考）、課外クラブ所属者はスポーツ強化費（年間145,000円）が必要（Kei-Net 2026年度入学者用）",
+"rows": [
+{
+"f": "スポーツプロモーション学部",
+"admission": 220000,
+"tuition": 780000,
+"facility": 300000,
+"practical": null,
+"other": null,
+"first_year": 1300000,
+"four_year": null
+}
+]
+},
+"research": [
+"スポーツプロモーション・スポーツコーディネート",
+"生涯スポーツ・健康づくり",
+"競技スポーツの普及（報道・イベント）"
+],
+"careers": "2024年度卒業者82人のうち就職76人・進学0人（Kei-Net）。2025年度卒業者は88人中就職81人（パスナビ）。",
+"sources": [
+"https://search.keinet.ne.jp/2112",
+"https://search.keinet.ne.jp/2112/outline/department",
+"https://search.keinet.ne.jp/2112/outline/campus",
+"https://search.keinet.ne.jp/2112/outline/expense",
+"https://search.keinet.ne.jp/2112/outline/admission_employment",
+"https://search.keinet.ne.jp/2112/general/border_rate",
+"https://search.keinet.ne.jp/2112/recommend/exam_result",
+"https://passnavi.obunsha.co.jp/univ/1875/department/",
+"https://passnavi.obunsha.co.jp/univ/1875/shinro/"
+]
+},
+"千葉科学大学": {
+"difficulty": {
+"hensachi": "35.0〜50.0",
+"kyotei": "36%〜67%",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-10",
+"faculties": "2026-11-10",
+"departments": "2026-11-10",
+"students": "2026-11-10",
+"founded": "2026-11-10",
+"access": "2026-11-10",
+"tuition": "2026-11-10",
+"money": "2026-11-10",
+"research": "2026-11-10",
+"licenses": "2026-11-10",
+"careers": "2026-11-10"
+},
+"faculties": [
+"薬学部",
+"看護学部",
+"危機管理学部"
+],
+"departments": [
+{
+"f": "薬学部",
+"d": [
+"薬学科"
+]
+},
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+},
+{
+"f": "危機管理学部",
+"d": [
+"危機管理学科",
+"保健医療学科",
+"航空技術危機管理（航空工学・ドローンコース／航空マネジメントコース／パイロットコース）",
+"動物危機管理学科"
+]
+}
+],
+"students": {
+"count": 1223,
+"year": 2025
+},
+"founded": "2004年 開学",
+"access": "JR銚子駅から千葉交通バス「千葉科学大学本部前」「千葉科学大学マリーナ前」下車。JR鹿島神宮駅からスクールバスあり",
+"tuition": {
+"amount": 1037500,
+"label": "入学金＋授業料（危機管理学科）",
+"year": 2026
+},
+"money": {
+"year": "2026年度",
+"admission": null,
+"annual": null,
+"note": "全学科で大学指定のノートパソコン（23万円程度）が別途必要。パイロットコースは米国・国内の訓練費用として1,900万円程度（渡米費・生活費・国家試験費などは別）、航空マネジメントコースは留学費用が別途必要な場合あり（Kei-Net 2026年度入学者用）",
+"rows": [
+{
+"f": "薬学部 薬学科",
+"admission": 300000,
+"tuition": 1220000,
+"facility": 450000,
+"practical": 200000,
+"other": 25000,
+"first_year": 2195000,
+"four_year": null
+},
+{
+"f": "看護学部 看護学科",
+"admission": 250000,
+"tuition": 892500,
+"facility": 367500,
+"practical": 420000,
+"other": 25000,
+"first_year": 1955000,
+"four_year": null
+},
+{
+"f": "危機管理学部 危機管理学科・航空マネジメントコース",
+"admission": 250000,
+"tuition": 787500,
+"facility": 210000,
+"practical": 52500,
+"other": 25000,
+"first_year": 1325000,
+"four_year": null
+},
+{
+"f": "危機管理学部 保健医療学科・動物危機管理学科・航空工学・ドローンコース・パイロットコース",
+"admission": 250000,
+"tuition": 892500,
+"facility": 367500,
+"practical": 210000,
+"other": 25000,
+"first_year": 1745000,
+"four_year": null
+}
+]
+},
+"research": [
+"薬学",
+"看護学",
+"危機管理（防災・安全）",
+"臨床検査・臨床工学・救急救命",
+"動物と食品の安全",
+"航空工学・ドローン"
+],
+"licenses": [
+"薬剤師国家試験受験資格",
+"看護師国家試験受験資格",
+"保健師国家試験受験資格",
+"養護教諭二種免許",
+"臨床検査技師国家試験受験資格",
+"細胞検査士受験資格",
+"臨床工学技士国家試験受験資格",
+"救急救命士国家試験受験資格",
+"操縦士（受験資格）",
+"学芸員",
+"食品衛生監視員（任用資格）"
+],
+"careers": "2024年度卒業者は薬学部29人中就職11人、看護学部81人中就職71人、危機管理学部233人中就職132人・進学22人（Kei-Net）。看護師国家試験の新卒合格率は87.7%（2026年度掲載分）。",
+"sources": [
+"https://search.keinet.ne.jp/2193",
+"https://search.keinet.ne.jp/2193/outline/department",
+"https://search.keinet.ne.jp/2193/outline/campus",
+"https://search.keinet.ne.jp/2193/outline/licential",
+"https://search.keinet.ne.jp/2193/outline/expense",
+"https://search.keinet.ne.jp/2193/outline/admission_employment",
+"https://search.keinet.ne.jp/2193/general/border_rate"
 ]
 }
 }
