@@ -1,0 +1,598 @@
+[
+ {
+  "name": "近畿大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "法学部・経済学部・経営学部・総合社会学部・文芸学部（芸術除く）",
+      "admission": 250000,
+      "tuition": 1105000,
+      "facility": 0,
+      "practical": 0,
+      "other": 4500,
+      "first_year": 1359500,
+      "four_year": null
+     },
+     {
+      "f": "国際学部",
+      "admission": 250000,
+      "tuition": 650000,
+      "facility": 0,
+      "practical": 0,
+      "other": 4500,
+      "first_year": 904500,
+      "four_year": null
+     },
+     {
+      "f": "理工学部・建築学部・情報学部・農学部・生物理工学部・文芸学部（芸術）・薬学部（創薬科学）",
+      "admission": 250000,
+      "tuition": 1462000,
+      "facility": 0,
+      "practical": 0,
+      "other": 4500,
+      "first_year": 1716500,
+      "four_year": null
+     },
+     {
+      "f": "工学部（広島）",
+      "admission": 250000,
+      "tuition": 1398000,
+      "facility": 0,
+      "practical": 0,
+      "other": 4500,
+      "first_year": 1652500,
+      "four_year": null
+     },
+     {
+      "f": "産業理工学部（理系4学科）",
+      "admission": 250000,
+      "tuition": 1264000,
+      "facility": 0,
+      "practical": 0,
+      "other": 4500,
+      "first_year": 1518500,
+      "four_year": null
+     },
+     {
+      "f": "産業理工学部（経営ビジネス学科）",
+      "admission": 250000,
+      "tuition": 889000,
+      "facility": 0,
+      "practical": 0,
+      "other": 4500,
+      "first_year": 1143500,
+      "four_year": null
+     },
+     {
+      "f": "薬学部（医療薬学科）",
+      "admission": 250000,
+      "tuition": 2052000,
+      "facility": 0,
+      "practical": 0,
+      "other": 4500,
+      "first_year": 2306500,
+      "four_year": null
+     },
+     {
+      "f": "看護学部 看護学科",
+      "admission": 250000,
+      "tuition": 1500000,
+      "facility": 0,
+      "practical": 0,
+      "other": 4500,
+      "first_year": 1754500,
+      "four_year": null
+     },
+     {
+      "f": "医学部 医学科",
+      "admission": 1000000,
+      "tuition": 5800000,
+      "facility": 0,
+      "practical": 0,
+      "other": 4500,
+      "first_year": 6804500,
+      "four_year": null
+     }
+    ],
+    "note": "Kei-Net（2026年度入学者用）で確認。2027年度は未掲載。全学部で校友会終身会費20,000円が別途（法学部は学部学生部会費800円、工学部は10,000円も別途）。国際学部は留学費用が別途。ノートパソコン必携"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2536/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "追手門学院大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般入試 前期（1月）",
+      "apply": "12/18〜1/12",
+      "exam": "1/26・1/27・1/28",
+      "result": "2/18",
+      "proc": "一括・分割1次2/26・分割2次3/16",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試 前期（2月）",
+      "apply": "12/18〜1/19",
+      "exam": "2/5・2/6",
+      "result": "2/18",
+      "proc": "一括・分割1次2/26・分割2次3/16",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試 後期",
+      "apply": "2/3〜2/19",
+      "exam": "3/2",
+      "result": "3/11",
+      "proc": "3/19（一括）",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試 最終",
+      "apply": "2/26〜3/12",
+      "exam": "3/20",
+      "result": "3/23",
+      "proc": "3/24・3/25（窓口のみ）",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試 前期",
+      "apply": "12/18〜1/12（2科目）・1/26（3・4科目）",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/18",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試 後期",
+      "apply": "2/3〜2/23",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/11",
+      "proc": "3/19",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試 最終（2科目）",
+      "apply": "2/26〜3/12",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/23",
+      "proc": "3/25",
+      "fee": null
+     }
+    ],
+    "note": "理工学部の例（他学部もおおむね同じ日程）。前期の試験日は方式により1/26〜1/28・2/5〜2/6。検定料は未確認"
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "法学部・文学部・社会学部・経済学部・経営学部・地域創造学部",
+      "admission": 160000,
+      "tuition": 850000,
+      "facility": 200000,
+      "practical": null,
+      "other": 47000,
+      "first_year": 1257000,
+      "four_year": null
+     },
+     {
+      "f": "国際学部",
+      "admission": 160000,
+      "tuition": 850000,
+      "facility": 230000,
+      "practical": null,
+      "other": 47000,
+      "first_year": 1287000,
+      "four_year": null
+     },
+     {
+      "f": "心理学部",
+      "admission": 160000,
+      "tuition": 890000,
+      "facility": 200000,
+      "practical": null,
+      "other": 47000,
+      "first_year": 1297000,
+      "four_year": null
+     },
+     {
+      "f": "理工学部",
+      "admission": 160000,
+      "tuition": 1165000,
+      "facility": 200000,
+      "practical": null,
+      "other": 47000,
+      "first_year": 1572000,
+      "four_year": null
+     }
+    ],
+    "note": "Kei-Net（2026年度入学者用）。実習費の記載なし。国際学部グローバルスタディーズ専攻は語学実習費120万円を入学手続時に別途納入（留学費用に充当）。ノートパソコンが必要"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3626/nyushi/gokaku-happyo/",
+    "https://search.keinet.ne.jp/2532/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "鈴鹿医療科学大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "apply": "1/6〜1/21",
+      "exam": "1/29",
+      "result": "2/10",
+      "proc": "2/22",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程",
+      "apply": "2/12〜2/26",
+      "exam": "3/5",
+      "result": "3/12",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用方式 前期",
+      "apply": "1/6〜1/29",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/10",
+      "proc": "2/22",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用方式 後期",
+      "apply": "2/12〜3/5",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/12",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期2プラス調査書型（共テ）",
+      "apply": "2/12〜3/5",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/12",
+      "proc": "3/23",
+      "fee": null
+     }
+    ],
+    "note": "全学部共通の日程。検定料は未確認"
+   },
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "保健衛生学部 医療福祉学科",
+      "admission": 300000,
+      "tuition": 1050000,
+      "facility": 0,
+      "practical": 0,
+      "other": null,
+      "first_year": 1350000,
+      "four_year": null
+     },
+     {
+      "f": "保健衛生学部 医療栄養学科",
+      "admission": 300000,
+      "tuition": 1250000,
+      "facility": 0,
+      "practical": 0,
+      "other": null,
+      "first_year": 1550000,
+      "four_year": null
+     },
+     {
+      "f": "保健衛生学部（放射線技術科学・臨床検査）",
+      "admission": 300000,
+      "tuition": 1450000,
+      "facility": 0,
+      "practical": 0,
+      "other": null,
+      "first_year": 1750000,
+      "four_year": null
+     },
+     {
+      "f": "保健衛生学部 リハビリテーション学科",
+      "admission": 300000,
+      "tuition": 1500000,
+      "facility": 0,
+      "practical": 0,
+      "other": null,
+      "first_year": 1800000,
+      "four_year": null
+     },
+     {
+      "f": "薬学部 薬学科",
+      "admission": 300000,
+      "tuition": 1900000,
+      "facility": 0,
+      "practical": 0,
+      "other": null,
+      "first_year": 2200000,
+      "four_year": null
+     },
+     {
+      "f": "医用工学部 臨床工学科",
+      "admission": 300000,
+      "tuition": 1450000,
+      "facility": 0,
+      "practical": 0,
+      "other": null,
+      "first_year": 1750000,
+      "four_year": null,
+      "note": "Kei-Net 2026年度入学者用の額"
+     },
+     {
+      "f": "薬学部 薬科学科",
+      "admission": 300000,
+      "tuition": 1450000,
+      "facility": 0,
+      "practical": 0,
+      "other": null,
+      "first_year": 1750000,
+      "four_year": null,
+      "note": "Kei-Net 2026年度入学者用の額"
+     },
+     {
+      "f": "看護学部 看護学科",
+      "admission": 300000,
+      "tuition": 1450000,
+      "facility": 0,
+      "practical": 0,
+      "other": null,
+      "first_year": 1750000,
+      "four_year": null,
+      "note": "Kei-Net 2026年度入学者用の額"
+     },
+     {
+      "f": "保健衛生学部 鍼灸サイエンス学科",
+      "admission": 300000,
+      "tuition": 1500000,
+      "facility": 0,
+      "practical": 0,
+      "other": null,
+      "first_year": 1800000,
+      "four_year": null,
+      "note": "Kei-Net 2026年度入学者用の額"
+     },
+     {
+      "f": "保健衛生学部 救急救命学科",
+      "admission": 300000,
+      "tuition": 1300000,
+      "facility": 0,
+      "practical": 0,
+      "other": null,
+      "first_year": 1600000,
+      "four_year": null,
+      "note": "Kei-Net 2026年度入学者用の額"
+     }
+    ],
+    "note": "施設費・実習費は授業料に含む表示（別項目なし）。入学時に諸会費が別途（2025年度実績：103,370円、薬学科は134,800円）。鍼灸サイエンス学科鍼灸学専攻はアロマテラピー資格費用が別途"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3572/nyushi/gokaku-happyo/",
+    "https://search.keinet.ne.jp/2474/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "鈴鹿大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "apply": "1/18〜1/29",
+      "exam": "2/6",
+      "result": "2/15",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅳ期",
+      "apply": "2/15〜2/26",
+      "exam": "3/6",
+      "result": "3/15",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 Ⅰ期",
+      "apply": "2/1〜2/12",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/1",
+      "proc": "3/10",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 Ⅱ期",
+      "apply": "2/22〜3/8",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/15",
+      "proc": "3/23",
+      "fee": null
+     }
+    ],
+    "note": "両学部共通の日程。検定料は未確認"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3573/nyushi/gokaku-happyo/index.html"
+   ]
+  }
+ },
+ {
+  "name": "長浜バイオ大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期（理科重視型・高得点2教科型・共テ前期併用型）",
+      "apply": "12/24〜1/25",
+      "exam": "2/2・2/3",
+      "result": "2/13",
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 前期A・前期B",
+      "apply": "12/21〜1/29",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/13",
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期（総合評価型・併用型）",
+      "apply": "2/15〜3/1",
+      "exam": "3/11",
+      "result": "3/18",
+      "proc": "3/25",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 後期",
+      "apply": "2/15〜3/11",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/18",
+      "proc": "3/25",
+      "fee": null
+     }
+    ],
+    "note": "全学科共通の日程。検定料は未確認"
+   },
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "バイオサイエンス学部 バイオデータサイエンス学科",
+      "admission": 250000,
+      "tuition": 1250000,
+      "facility": 100000,
+      "practical": null,
+      "other": 70000,
+      "first_year": 1670000,
+      "four_year": null
+     },
+     {
+      "f": "バイオサイエンス学部 アニマルバイオサイエンス学科",
+      "admission": 250000,
+      "tuition": 1250000,
+      "facility": 100000,
+      "practical": null,
+      "other": 70000,
+      "first_year": 1670000,
+      "four_year": null
+     },
+     {
+      "f": "バイオサイエンス学部 フロンティアバイオサイエンス学科（臨床検査学コースを除く）",
+      "admission": 250000,
+      "tuition": 1250000,
+      "facility": 100000,
+      "practical": null,
+      "other": 70000,
+      "first_year": 1670000,
+      "four_year": null
+     },
+     {
+      "f": "バイオサイエンス学部 フロンティアバイオサイエンス学科（臨床検査学コース）",
+      "admission": 250000,
+      "tuition": 1250000,
+      "facility": 100000,
+      "practical": 70000,
+      "other": 70000,
+      "first_year": 1740000,
+      "four_year": null
+     }
+    ],
+    "note": "パスナビ（2027年度・2026年9月調査）。諸会費は学生活動支援費5万円と保護者会費2万円。入学時最小限納入金額995,000円（臨床検査学コース1,030,000円）"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3583/nyushi/gokaku-happyo/index.html",
+    "https://passnavi.obunsha.co.jp/univ/3886/expense/"
+   ]
+  }
+ },
+ {
+  "name": "関西医療大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期（A日程・B日程）",
+      "apply": "1/12〜1/22",
+      "exam": "2/1（A）・2/2（B）",
+      "result": "2/18",
+      "proc": "1次2/26・2次3/5",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期",
+      "apply": "2/16〜2/26",
+      "exam": "3/7",
+      "result": "3/15",
+      "proc": "3/19",
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 前期",
+      "apply": "1/12〜2/2",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/18",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 後期",
+      "apply": "2/16〜2/26",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/15",
+      "proc": "3/19",
+      "fee": null
+     }
+    ],
+    "note": "全学部共通の日程（2027年度入試）。前期の手続は1次2/26。はり灸・スポーツトレーナー学科、ヘルスプロモーション整復学科は後期1科目型もあり"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3665/nyushi/gokaku-happyo/index.html"
+   ]
+  }
+ }
+]
