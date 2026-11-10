@@ -4911,6 +4911,66 @@
 "need": [
 "fees"
 ]
+},
+{
+"name": "森ノ宮医療大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "森ノ宮医療大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "武庫川女子大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "武庫川女子大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "流通科学大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "滋慶医療科学大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "甲南大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "甲南大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "甲南女子大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "甲南女子大学",
+"need": [
+"fees"
+]
 }
 ],
 "failed": [
@@ -5068,7 +5128,9 @@
 "神戸医療未来大学": 1,
 "神戸女学院大学": 1,
 "東大阪大学": 1,
-"梅花女子大学": 1
+"梅花女子大学": 1,
+"流通科学大学": 1,
+"滋慶医療科学大学": 1
 },
 "enrich": [
 {
@@ -18504,18 +18566,6 @@
 {
 "name": "森ノ宮医療大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "森ノ宮医療大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "森ノ宮医療大学",
-"need": [
 "scholar"
 ]
 },
@@ -18523,18 +18573,6 @@
 "name": "武庫川女子大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "武庫川女子大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "武庫川女子大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -18552,18 +18590,6 @@
 {
 "name": "流通科学大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "流通科学大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "流通科学大学",
-"need": [
 "scholar"
 ]
 },
@@ -18571,18 +18597,6 @@
 "name": "滋慶医療科学大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "滋慶医療科学大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "滋慶医療科学大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -18595,18 +18609,6 @@
 "name": "甲南大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "甲南大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "甲南大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -18619,18 +18621,6 @@
 "name": "甲南女子大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "甲南女子大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "甲南女子大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -26740,6 +26730,20 @@
 "need": [
 "schedule_dates"
 ]
+},
+{
+"name": "流通科学大学",
+"need": [
+"fees"
+],
+"note": "マナビジョンは2026年度の合計1,256,140円（入学金200,000円）のみ。Kei-Net・公式の内訳に辿れず（2026-11-10）"
+},
+{
+"name": "滋慶医療科学大学",
+"need": [
+"fees"
+],
+"note": "既存の2027年度内訳（進学ネット由来）を公式・Kei-Net・パスナビで確認できず（2026-11-10）"
 }
 ],
 "complete": true,

@@ -1,0 +1,85 @@
+[
+{"name":"森ノ宮医療大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"一般","name":"一般選抜 前期（A・B・C日程）","apply":"1/5〜1/19","exam":"1/30（A）・1/31（B）・2/1（C）","result":"2/12","proc":"入学金2/17・前期学納金3/10","fee":null},
+  {"kubun":"一般","name":"一般選抜 後期","apply":"2/17〜2/23","exam":"3/3","result":"3/12","proc":"3/19","fee":null},
+  {"kubun":"共テ利用","name":"大学入学共通テスト利用選抜 Ⅰ期","apply":"1/5〜1/21","exam":"1/16・1/17（共テ）","result":"2/12","proc":"入学金2/17・前期学納金3/10","fee":null},
+  {"kubun":"共テ利用","name":"大学入学共通テスト利用選抜 Ⅱ期","apply":"2/10〜2/12","exam":"1/16・1/17（共テ）","result":"2/22","proc":"入学金3/3・前期学納金3/19","fee":null}]},
+ "money_replace":{"year":"2026年度","note":"河合塾Kei-Net「学費」（2026年度入学者用）。学費に学外実習費（臨地・臨床実習費）を含む。教科書代・ユニフォーム等は別途。2027年度は未確認","source":"https://search.keinet.ne.jp/2509/outline/expense","rows":[
+  {"f":"総合リハビリテーション学部","admission":250000,"tuition":1200000,"facility":400000,"practical":null,"other":80000,"first_year":1930000,"four_year":null},
+  {"f":"医療技術学部","admission":250000,"tuition":1200000,"facility":400000,"practical":null,"other":80000,"first_year":1930000,"four_year":null},
+  {"f":"看護学部 看護学科","admission":250000,"tuition":1200000,"facility":400000,"practical":null,"other":80000,"first_year":1930000,"four_year":null}]},
+ "sources":["https://search.keinet.ne.jp/2509/general/schedule","https://manabi.benesse.ne.jp/daigaku/school/3672/nyushi/gokaku-happyo/","https://search.keinet.ne.jp/2509/outline/expense"]}},
+{"name":"武庫川女子大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"一般","name":"一般選抜［前期］","apply":"12/21〜1/11","exam":"1/24・1/25","result":"2/6","proc":"2/26","fee":null},
+  {"kubun":"一般","name":"一般選抜［後期］","apply":"2/6〜2/19","exam":"3/2","result":"3/11","proc":"3/24","fee":null},
+  {"kubun":"共テ利用","name":"共通テスト利用［前期］","apply":"〜1/29","exam":"1/16・1/17（共テ）","result":"2/13","proc":"2/26","fee":null,"note":"音楽学部は共テ利用なし"},
+  {"kubun":"共テ利用","name":"共通テスト利用［後期］","apply":"〜3/10","exam":"1/16・1/17（共テ）","result":"3/18","proc":"3/24","fee":null,"note":"学部により2〜4教科"}]},
+ "money_replace":{"year":"2026年度","note":"河合塾Kei-Net「学費」（2026年度入学者用、「武庫川大学」表記）。facility は施設/教育充実費等、other は諸会費。英語グローバル学科はアメリカ分校留学費用が別途。資格課程履修費等の臨時学費・制服代は別途。2027年度は未確認","source":"https://search.keinet.ne.jp/2576/outline/expense","rows":[
+  {"f":"文学部","admission":200000,"tuition":911000,"facility":212000,"practical":null,"other":14700,"first_year":1337700,"four_year":null},
+  {"f":"教育学部 教育学科","admission":200000,"tuition":1013000,"facility":243000,"practical":null,"other":14700,"first_year":1470700,"four_year":null},
+  {"f":"心理・社会福祉学部","admission":200000,"tuition":1013000,"facility":243000,"practical":null,"other":14700,"first_year":1470700,"four_year":null},
+  {"f":"経営学部 経営学科","admission":200000,"tuition":815000,"facility":212000,"practical":null,"other":14700,"first_year":1241700,"four_year":null},
+  {"f":"建築学部","admission":200000,"tuition":1140000,"facility":317000,"practical":80000,"other":14700,"first_year":1751700,"four_year":null},
+  {"f":"薬学部 薬学科","admission":200000,"tuition":1529000,"facility":383000,"practical":null,"other":14700,"first_year":2126700,"four_year":null},
+  {"f":"薬学部 健康生命薬科学科","admission":200000,"tuition":1151000,"facility":391000,"practical":null,"other":14700,"first_year":1756700,"four_year":null},
+  {"f":"看護学部 看護学科","admission":200000,"tuition":1372000,"facility":347000,"practical":null,"other":14700,"first_year":1933700,"four_year":null},
+  {"f":"食物栄養科学部 食物栄養学科","admission":200000,"tuition":1013000,"facility":264000,"practical":61000,"other":14700,"first_year":1552700,"four_year":null},
+  {"f":"食物栄養科学部 食創造科学科","admission":200000,"tuition":1013000,"facility":264000,"practical":53000,"other":14700,"first_year":1544700,"four_year":null},
+  {"f":"生活環境学部 生活環境学科","admission":200000,"tuition":1013000,"facility":264000,"practical":null,"other":14700,"first_year":1491700,"four_year":null},
+  {"f":"音楽学部 演奏学科","admission":200000,"tuition":1395000,"facility":349000,"practical":null,"other":14700,"first_year":1958700,"four_year":null},
+  {"f":"音楽学部 応用音楽学科","admission":200000,"tuition":1395000,"facility":349000,"practical":20000,"other":14700,"first_year":1978700,"four_year":null},
+  {"f":"健康・スポーツ科学部","admission":200000,"tuition":1013000,"facility":243000,"practical":26000,"other":14700,"first_year":1496700,"four_year":null},
+  {"f":"社会情報学部 社会情報学科","admission":200000,"tuition":1008000,"facility":190000,"practical":null,"other":14700,"first_year":1412700,"four_year":null},
+  {"f":"環境共生学部 環境共生学科","admission":200000,"tuition":1120000,"facility":317000,"practical":null,"other":14700,"first_year":1651700,"four_year":null}]},
+ "sources":["https://search.keinet.ne.jp/general/schedule/2576","https://search.keinet.ne.jp/2576/outline/expense"]}},
+{"name":"流通科学大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"総合型","name":"個性重視型入試（前期型）","apply":"9/16〜10/5","exam":"10/18","result":"11/2","proc":"1次11/20","fee":null},
+  {"kubun":"一般","name":"一般選抜 前期","apply":"12/7〜1/15","exam":"2/3・2/4","result":"2/17","proc":"2/26・2次3/8","fee":null},
+  {"kubun":"一般","name":"一般選抜 中期","apply":"12/7〜1/29","exam":"2/13・2/14","result":"2/19","proc":"3/8","fee":null},
+  {"kubun":"一般","name":"一般選抜 後期","apply":"2/1〜2/24","exam":"3/10","result":"3/17","proc":"3/23","fee":null},
+  {"kubun":"共テ利用","name":"共通テスト利用 前期","apply":"12/7〜1/29","exam":"1/16・1/17（共テ）","result":"2/17","proc":"3/8","fee":null,"note":"商学部・経済学部の例（人間社会学部は未確認）"},
+  {"kubun":"共テ利用","name":"共通テスト利用 後期","apply":"2/1〜2/24","exam":"1/16・1/17（共テ）","result":"3/17","proc":"3/23","fee":null,"note":"商学部・経済学部の例（人間社会学部は未確認）"}]},
+ "sources":["https://manabi.benesse.ne.jp/daigaku/school/3714/nyushi/gokaku-happyo/"]}},
+{"name":"滋慶医療科学大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"一般","name":"一般選抜 Ⅰ期","apply":"1/20〜1/27","exam":"2/3","result":"2/12","proc":"2/26","fee":null},
+  {"kubun":"一般","name":"一般選抜 Ⅱ期","apply":"2/17〜2/24","exam":"3/3","result":"3/12","proc":"3/23","fee":null},
+  {"kubun":"共テ利用","name":"共通テスト利用 Ⅰ期","apply":"1/6〜2/3","exam":"1/16・1/17（共テ）","result":"2/12","proc":"2/26","fee":null},
+  {"kubun":"共テ利用","name":"共通テスト利用 Ⅱ期","apply":"2/17〜3/3","exam":"1/16・1/17（共テ）","result":"3/12","proc":"3/23","fee":null}]},
+ "sources":["https://manabi.benesse.ne.jp/daigaku/school/3680/nyushi/gokaku-happyo/","https://telemail.jp/shingaku/university/10011482/examination/general"]}},
+{"name":"甲南大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"一般","name":"一般選抜 前期日程","apply":"1/3〜1/15","exam":"1/30・1/31・2/1・2/4・2/5（理系は1/30〜2/1）","result":"2/15","proc":"1次2/15〜2/22・2次3/14〜3/22","fee":null},
+  {"kubun":"一般","name":"一般選抜 中期日程","apply":"1/3〜2/5","exam":"2/17・2/18","result":"2/28","proc":"1次2/28〜3/10・2次3/14〜3/22","fee":null},
+  {"kubun":"共テ利用","name":"大学入学共通テスト利用型 前期日程","apply":"1/3〜1/18","exam":"1/16・1/17（共テ）","result":"2/15","proc":"1次2/15〜2/22・2次3/14〜3/22","fee":15000,"note":"検定料は1出願目15,000円、2〜3出願目は合わせて+5,000円、4〜5出願目は合わせて+5,000円"},
+  {"kubun":"共テ利用","name":"大学入学共通テスト利用型 後期日程","apply":"3/1〜3/5","exam":"1/16・1/17（共テ）","result":"3/15","proc":"3/15〜3/22","fee":15000,"note":"検定料は前期日程と同じ併願割引"}]},
+ "money_replace":{"year":"2026年度","note":"河合塾Kei-Net「学費」（2026年度入学者用）。施設費・実習費の欄は空欄（実験・実習科目の履修者は実験実習費が別途）。人間科学科は研究資料費10,000円を含む。ノートパソコンが必要。2027年度は未確認","source":"https://search.keinet.ne.jp/2559/outline/expense","rows":[
+  {"f":"文学部（日本語日本文・英語英米文・社会・歴史文化）","admission":250000,"tuition":936000,"facility":null,"practical":null,"other":32500,"first_year":1218500,"four_year":null},
+  {"f":"文学部 人間科学科","admission":250000,"tuition":936000,"facility":null,"practical":null,"other":42500,"first_year":1228500,"four_year":null},
+  {"f":"グローバル教養学環","admission":250000,"tuition":972000,"facility":null,"practical":null,"other":32500,"first_year":1254500,"four_year":null},
+  {"f":"法学部","admission":250000,"tuition":936000,"facility":null,"practical":null,"other":46500,"first_year":1232500,"four_year":null},
+  {"f":"経済学部","admission":250000,"tuition":936000,"facility":null,"practical":null,"other":52500,"first_year":1238500,"four_year":null},
+  {"f":"経営学部","admission":250000,"tuition":936000,"facility":null,"practical":null,"other":57500,"first_year":1243500,"four_year":null},
+  {"f":"マネジメント創造学部","admission":250000,"tuition":972000,"facility":null,"practical":null,"other":32500,"first_year":1254500,"four_year":null},
+  {"f":"フロンティアサイエンス学部","admission":250000,"tuition":1496000,"facility":null,"practical":null,"other":32500,"first_year":1778500,"four_year":null},
+  {"f":"知能情報学部","admission":250000,"tuition":1321000,"facility":null,"practical":null,"other":32500,"first_year":1603500,"four_year":null},
+  {"f":"理工学部","admission":250000,"tuition":1321000,"facility":null,"practical":null,"other":32500,"first_year":1603500,"four_year":null}]},
+ "sources":["https://search.keinet.ne.jp/2559/outline/expense","https://www.konan-u.ac.jp/news/wp/wp-content/uploads/2026/06/public-relations-department-limited/f2fb451c86d8d0eb7a8036fde11f446a.pdf","https://manabi.benesse.ne.jp/daigaku/school/3696/nyushi/gokaku-happyo/"]}},
+{"name":"甲南女子大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"一般","name":"一般選抜 Ⅰ日程","apply":"12/22〜1/8","exam":"1/20","result":"1/29","proc":"1次2/9・2次3/15","fee":null},
+  {"kubun":"一般","name":"一般選抜 Ⅱ日程","apply":"12/22〜1/8","exam":"1/21","result":"1/29","proc":"1次2/9・2次3/15","fee":null},
+  {"kubun":"一般","name":"一般選抜 Ⅲ日程","apply":"1/19〜2/4","exam":"2/14","result":"2/19","proc":"3/3","fee":null},
+  {"kubun":"一般","name":"一般選抜 Ⅳ日程","apply":"2/4〜2/25","exam":"3/6","result":"3/12","proc":"3/24","fee":null},
+  {"kubun":"共テ利用","name":"大学入学共通テスト利用 Ⅰ日程","apply":"12/22〜1/27","exam":"1/16・1/17（共テ）","result":"2/15","proc":"1次3/3・2次3/15","fee":null,"note":"看護リハビリテーション学部・医療栄養学部は3教科型・4教科型"},
+  {"kubun":"共テ利用","name":"大学入学共通テスト利用 Ⅱ日程（面接プラス）","apply":"2/23〜3/12","exam":"3/17","result":"3/18","proc":"3/24","fee":null}]},
+ "money_replace":{"year":"2026年度","note":"河合塾Kei-Net「学費」（2026年度入学者用）。facility は施設/教育充実費等（子ども教育・看護は実習費を含む）、other は諸会費。制服代・実験実習の実費は別途。2027年度は未確認","source":"https://search.keinet.ne.jp/2561/outline/expense","rows":[
+  {"f":"教育学部・心理学部・社会学部・国際学部","admission":250000,"tuition":760000,"facility":350000,"practical":null,"other":45700,"first_year":1405700,"four_year":null},
+  {"f":"看護リハビリテーション学部 看護学科","admission":250000,"tuition":1000000,"facility":600000,"practical":null,"other":45700,"first_year":1895700,"four_year":null},
+  {"f":"看護リハビリテーション学部 理学療法学科","admission":250000,"tuition":1000000,"facility":680000,"practical":null,"other":45700,"first_year":1975700,"four_year":null},
+  {"f":"医療栄養学部 医療栄養学科","admission":250000,"tuition":1000000,"facility":430000,"practical":null,"other":45700,"first_year":1725700,"four_year":null}]},
+ "sources":["https://search.keinet.ne.jp/2561/general/schedule","https://manabi.benesse.ne.jp/daigaku/school/3697/nyushi/gokaku-happyo/index.html","https://search.keinet.ne.jp/2561/outline/expense"]}}
+]
