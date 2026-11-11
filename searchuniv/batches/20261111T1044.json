@@ -1,0 +1,812 @@
+[
+ {
+  "name": "京都外国語大学",
+  "info": {
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "外国語学部（全9学科）",
+      "admission": 230000,
+      "tuition": 815000,
+      "facility": 415000,
+      "practical": 0,
+      "other": 30000,
+      "first_year": 1490000,
+      "four_year": null,
+      "note": "施設費は教育充実費。諸会費に学園振興協力費10,000円を含む。入学時最小限納入金875,000円"
+     },
+     {
+      "f": "国際貢献学部（グローバルスタディーズ・グローバル観光）",
+      "admission": 230000,
+      "tuition": 847500,
+      "facility": 415000,
+      "practical": 0,
+      "other": 30000,
+      "first_year": 1522500,
+      "four_year": null,
+      "note": "施設費は教育充実費。諸会費に学園振興協力費10,000円を含む。入学時最小限納入金891,250円"
+     }
+    ],
+    "note": "2027年度（旺文社パスナビ、2026年9月調査）。2026年度と同額"
+   },
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/3900/expense/?facultyID=005",
+    "https://passnavi.obunsha.co.jp/univ/3900/expense/?facultyID=010"
+   ]
+  }
+ },
+ {
+  "name": "京都女子大学",
+  "info": {
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "文学部 日本語日本文学科",
+      "admission": 250000,
+      "tuition": 800000,
+      "facility": 278000,
+      "practical": 0,
+      "other": 10000,
+      "first_year": 1338000,
+      "four_year": null
+     },
+     {
+      "f": "文学部 英語文化コミュニケーション学科",
+      "admission": 250000,
+      "tuition": 820000,
+      "facility": 278000,
+      "practical": 0,
+      "other": 10000,
+      "first_year": 1358000,
+      "four_year": null
+     },
+     {
+      "f": "文学部 歴史学科",
+      "admission": 250000,
+      "tuition": 800000,
+      "facility": 278000,
+      "practical": 0,
+      "other": 10000,
+      "first_year": 1338000,
+      "four_year": null
+     },
+     {
+      "f": "発達教育学部 教育学科",
+      "admission": 250000,
+      "tuition": 910000,
+      "facility": 278000,
+      "practical": 15000,
+      "other": 10000,
+      "first_year": 1463000,
+      "four_year": null
+     },
+     {
+      "f": "心理共生学部 心理共生学科",
+      "admission": 250000,
+      "tuition": 850000,
+      "facility": 278000,
+      "practical": 0,
+      "other": 10000,
+      "first_year": 1388000,
+      "four_year": null
+     },
+     {
+      "f": "食科学部 食物栄養学科",
+      "admission": 250000,
+      "tuition": 972000,
+      "facility": 250000,
+      "practical": 35000,
+      "other": 10000,
+      "first_year": 1517000,
+      "four_year": null
+     },
+     {
+      "f": "食科学部 食マネジメント学科",
+      "admission": 250000,
+      "tuition": 885000,
+      "facility": 250000,
+      "practical": 35000,
+      "other": 10000,
+      "first_year": 1430000,
+      "four_year": null
+     },
+     {
+      "f": "家政学部 生活造形学科",
+      "admission": 250000,
+      "tuition": 920000,
+      "facility": 278000,
+      "practical": 25000,
+      "other": 10000,
+      "first_year": 1483000,
+      "four_year": null
+     },
+     {
+      "f": "現代社会学部 現代社会学科（3領域とも）",
+      "admission": 250000,
+      "tuition": 820000,
+      "facility": 278000,
+      "practical": 0,
+      "other": 10000,
+      "first_year": 1358000,
+      "four_year": null
+     },
+     {
+      "f": "法学部 法学科",
+      "admission": 250000,
+      "tuition": 800000,
+      "facility": 278000,
+      "practical": 0,
+      "other": 10000,
+      "first_year": 1338000,
+      "four_year": null
+     },
+     {
+      "f": "データサイエンス学部 データサイエンス学科",
+      "admission": 250000,
+      "tuition": 910000,
+      "facility": 278000,
+      "practical": 0,
+      "other": 10000,
+      "first_year": 1448000,
+      "four_year": null
+     }
+    ],
+    "note": "2027年度（旺文社パスナビ、2026年9月調査）。納入は一括または2段"
+   },
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "推薦",
+      "name": "公募型学校推薦選抜（併願制）",
+      "apply": "11/1〜11/8",
+      "exam": "11/15・11/16",
+      "result": "12/1",
+      "proc": "1次12/11・2次1/19",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期（3科目型・2科目型）",
+      "apply": "12/21〜1/17",
+      "exam": "1/29・1/30（3科目）・1/31（2科目）",
+      "result": "2/15",
+      "proc": "1次2/25・2次3/17",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期",
+      "apply": "2/10〜2/23",
+      "exam": "3/3",
+      "result": "3/12",
+      "proc": "3/17",
+      "fee": 35000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用型選抜（前期）",
+      "apply": "12/21〜1/25",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/19",
+      "proc": "1次2/26・2次3/17",
+      "fee": 15000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用型選抜（後期）",
+      "apply": "2/10〜3/1",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/12",
+      "proc": "3/17",
+      "fee": 15000
+     }
+    ],
+    "note": "大学公式 2027年度学生募集要項。検定料は2出願目以降15,000円（推薦・一般前期）、共テ利用前期は一般前期と併願で10,000円、共テ利用後期は一般後期と併願で10,000円。分納方式の手続は1次・2次"
+   },
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/3930/expense/",
+    "https://www.kyoto-wu.ac.jp/nyushi/daigaku/grd7hl0000004upq-att/eotv8r000000097w.pdf"
+   ]
+  }
+ },
+ {
+  "name": "京都文教大学",
+  "info": {
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "総合社会学部（総合社会学科・実践社会学科）",
+      "admission": 150000,
+      "tuition": 960000,
+      "facility": 300000,
+      "practical": null,
+      "other": 30660,
+      "first_year": 1440660,
+      "four_year": null,
+      "note": "施設費は教育充実費（2年次以降年額360,000円）。諸会費は保険料4,660円（4年分）・教育後援会費20,000円・自治会費6,000円。実習費は別途。入学時最小限納入金797,660円"
+     },
+     {
+      "f": "臨床心理学部 臨床心理学科",
+      "admission": 150000,
+      "tuition": 960000,
+      "facility": 300000,
+      "practical": null,
+      "other": 30660,
+      "first_year": 1440660,
+      "four_year": null,
+      "note": "施設費は教育充実費（2年次以降年額360,000円）。実習費は別途。入学時最小限納入金797,660円"
+     },
+     {
+      "f": "こども教育学部 こども教育学科",
+      "admission": 150000,
+      "tuition": 960000,
+      "facility": 300000,
+      "practical": null,
+      "other": 30660,
+      "first_year": 1440660,
+      "four_year": null,
+      "note": "施設費は教育充実費。諸会費の保険料は5,300円（4年分）とされるが、合計はパスナビの表のとおり。実習費は別途"
+     }
+    ],
+    "note": "2027年度予定（旺文社パスナビ、2026年9月調査）"
+   },
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/3955/expense/"
+   ]
+  }
+ },
+ {
+  "name": "京都橘大学",
+  "info": {
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "デジタルメディア学部 デジタルメディア学科",
+      "admission": 200000,
+      "tuition": 1265000,
+      "facility": 150000,
+      "practical": 0,
+      "other": null,
+      "first_year": 1615000,
+      "four_year": null
+     },
+     {
+      "f": "工学部 ロボティクス学科・情報工学科",
+      "admission": 200000,
+      "tuition": 1235000,
+      "facility": 150000,
+      "practical": 0,
+      "other": null,
+      "first_year": 1585000,
+      "four_year": null
+     },
+     {
+      "f": "工学部 建築デザイン学科",
+      "admission": 200000,
+      "tuition": 1195000,
+      "facility": 150000,
+      "practical": 0,
+      "other": null,
+      "first_year": 1545000,
+      "four_year": null
+     },
+     {
+      "f": "文学部 日本語日本文学科・歴史学科",
+      "admission": 200000,
+      "tuition": 944000,
+      "facility": 50000,
+      "practical": 0,
+      "other": null,
+      "first_year": 1194000,
+      "four_year": null
+     },
+     {
+      "f": "文学部 歴史遺産学科",
+      "admission": 200000,
+      "tuition": 944000,
+      "facility": 70000,
+      "practical": 0,
+      "other": null,
+      "first_year": 1214000,
+      "four_year": null
+     },
+     {
+      "f": "国際学部 国際学科",
+      "admission": 200000,
+      "tuition": 979000,
+      "facility": 50000,
+      "practical": 0,
+      "other": null,
+      "first_year": 1229000,
+      "four_year": null
+     },
+     {
+      "f": "発達教育学部 児童教育学科",
+      "admission": 200000,
+      "tuition": 1007000,
+      "facility": 69000,
+      "practical": 50000,
+      "other": null,
+      "first_year": 1326000,
+      "four_year": null
+     },
+     {
+      "f": "総合心理学部 総合心理学科",
+      "admission": 200000,
+      "tuition": 994000,
+      "facility": 70000,
+      "practical": 0,
+      "other": null,
+      "first_year": 1264000,
+      "four_year": null
+     },
+     {
+      "f": "経済学部・経営学部",
+      "admission": 200000,
+      "tuition": 890000,
+      "facility": 50000,
+      "practical": 0,
+      "other": null,
+      "first_year": 1140000,
+      "four_year": null
+     },
+     {
+      "f": "看護学部 看護学科",
+      "admission": 250000,
+      "tuition": 1240000,
+      "facility": 30000,
+      "practical": 250000,
+      "other": null,
+      "first_year": 1770000,
+      "four_year": null
+     },
+     {
+      "f": "健康科学部 理学療法学科・作業療法学科",
+      "admission": 250000,
+      "tuition": 1240000,
+      "facility": 30000,
+      "practical": 250000,
+      "other": null,
+      "first_year": 1770000,
+      "four_year": null
+     },
+     {
+      "f": "健康科学部 救急救命学科",
+      "admission": 200000,
+      "tuition": 1214000,
+      "facility": 70000,
+      "practical": 150000,
+      "other": null,
+      "first_year": 1634000,
+      "four_year": null
+     },
+     {
+      "f": "健康科学部 臨床検査学科・臨床工学科",
+      "admission": 250000,
+      "tuition": 1200000,
+      "facility": 30000,
+      "practical": 250000,
+      "other": null,
+      "first_year": 1730000,
+      "four_year": null
+     }
+    ],
+    "note": "2027年度（旺文社パスナビ、2026年9月調査）。学会費・学生自治会費・父母の会費などの諸費24,000〜34,000円（予定、学部により異なる）は後期納付金とあわせて代理徴収され、表の合計に含まない。国際英語学部は掲載なし。納入は2段"
+   },
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/3950/expense/"
+   ]
+  }
+ },
+ {
+  "name": "京都産業大学",
+  "info": {
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "経済学部・経営学部・法学部",
+      "admission": 230000,
+      "tuition": 795000,
+      "facility": 128000,
+      "practical": 0,
+      "other": 20500,
+      "first_year": 1173500,
+      "four_year": null
+     },
+     {
+      "f": "現代社会学部 現代社会学科",
+      "admission": 230000,
+      "tuition": 824000,
+      "facility": 162000,
+      "practical": 0,
+      "other": 20500,
+      "first_year": 1236500,
+      "four_year": null
+     },
+     {
+      "f": "現代社会学部 健康スポーツ社会学科・心理学科",
+      "admission": 230000,
+      "tuition": 854000,
+      "facility": 162000,
+      "practical": 0,
+      "other": 20500,
+      "first_year": 1266500,
+      "four_year": null
+     },
+     {
+      "f": "国際関係学部 国際関係学科",
+      "admission": 230000,
+      "tuition": 924000,
+      "facility": 162000,
+      "practical": 0,
+      "other": 20500,
+      "first_year": 1336500,
+      "four_year": null
+     },
+     {
+      "f": "外国語学部・文化学部・アントレプレナーシップ学環",
+      "admission": 230000,
+      "tuition": 854000,
+      "facility": 162000,
+      "practical": 0,
+      "other": 20500,
+      "first_year": 1266500,
+      "four_year": null
+     },
+     {
+      "f": "理学部 数理科学科",
+      "admission": 230000,
+      "tuition": 1055000,
+      "facility": 162000,
+      "practical": 67000,
+      "other": 20500,
+      "first_year": 1534500,
+      "four_year": null
+     },
+     {
+      "f": "理学部 物理科学科・宇宙物理・気象学科",
+      "admission": 230000,
+      "tuition": 1058000,
+      "facility": 172000,
+      "practical": 124000,
+      "other": 20500,
+      "first_year": 1604500,
+      "four_year": null
+     },
+     {
+      "f": "情報理工学部 情報理工学科",
+      "admission": 230000,
+      "tuition": 1058000,
+      "facility": 172000,
+      "practical": 124000,
+      "other": 20500,
+      "first_year": 1604500,
+      "four_year": null
+     },
+     {
+      "f": "生命科学部 環境生命科学科",
+      "admission": 230000,
+      "tuition": 1058000,
+      "facility": 172000,
+      "practical": 124000,
+      "other": 20500,
+      "first_year": 1604500,
+      "four_year": null
+     },
+     {
+      "f": "生命科学部 先端生命科学科",
+      "admission": 230000,
+      "tuition": 1100000,
+      "facility": 200000,
+      "practical": 150000,
+      "other": 20500,
+      "first_year": 1700500,
+      "four_year": null
+     }
+    ],
+    "note": "2027年度（旺文社パスナビ、2026年9月調査）。施設費は教育充実費。別途、学部指定のノート型パソコン（20万円程度）、法学部は法学会費14,000円（入学年度のみ）"
+   },
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期日程（3科目型）",
+      "apply": "1/4〜1/15",
+      "exam": "1/26・1/27・1/28",
+      "result": "2/11",
+      "proc": "1次2/18・2次3/10",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期日程（2科目型）",
+      "apply": "1/4〜1/15",
+      "exam": "1/29",
+      "result": "2/11",
+      "proc": "1次2/18・2次3/10",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 中期日程",
+      "apply": "1/4〜2/5",
+      "exam": "2/16",
+      "result": "2/25",
+      "proc": "1次3/4・2次3/10",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期日程",
+      "apply": "2/19〜3/2",
+      "exam": "3/10",
+      "result": "3/18",
+      "proc": "3/24",
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試 前期",
+      "apply": "1/4〜1/22",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/11",
+      "proc": "1次2/18・2次3/10",
+      "fee": 20000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試 後期",
+      "apply": "2/19〜3/9",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/18",
+      "proc": "3/24",
+      "fee": 20000
+     }
+    ],
+    "note": "大学公式 2027年度入学試験要項。一般選抜の検定料は1出願目30,000円、同一試験日の併願は1件5,000円。共テ利用は3出願目まで20,000円（一般前期と併願なら前期は0円、一般後期と併願なら後期は0円）。共通テストプラスは一般選抜スタンダード型との併願制（併願受験料5,000円）"
+   },
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/3920/expense/",
+    "https://www.kyoto-su.ac.jp/admissions/exam/pdf/adm-yoko.pdf",
+    "https://passnavi.obunsha.co.jp/univ/3920/schedule/"
+   ]
+  }
+ },
+ {
+  "name": "平成音楽大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 第1回",
+      "apply": "9/1〜9/18",
+      "exam": "10/3",
+      "result": "11/2",
+      "proc": "1次11/20・2次12/18",
+      "fee": 35000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 第2回",
+      "apply": "11/23〜12/7",
+      "exam": "12/19",
+      "result": "12/25",
+      "proc": "1次1/15・2次2/12",
+      "fee": 35000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 第3回",
+      "apply": "2/24〜3/8",
+      "exam": "3/20",
+      "result": "3/24",
+      "proc": "3/31",
+      "fee": 35000
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜",
+      "apply": "11/1〜11/11",
+      "exam": "11/25",
+      "result": "12/4",
+      "proc": "1次12/21・2次1/22",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "apply": "1/18〜2/1",
+      "exam": "2/17",
+      "result": "2/26",
+      "proc": "1次3/5・2次3/12",
+      "fee": 35000
+     }
+    ],
+    "note": "大学公式 2027年度（令和9年度）入学者選抜要項。共通テスト利用選抜の記載なし"
+   },
+   "sources": [
+    "https://www.heisei-music.ac.jp/sys/wp-content/uploads/2026/08/170f6f56875e80cc6c9846d84a0340d1.pdf"
+   ]
+  }
+ },
+ {
+  "name": "志學館大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期（英語民間利用方式を含む）",
+      "apply": "12/18〜1/14",
+      "exam": "2/4",
+      "result": "2/19",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期",
+      "apply": "2/4〜3/9",
+      "exam": "3/16",
+      "result": "3/25",
+      "proc": "3/31",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 A方式（3教科型・5教科型）",
+      "apply": "12/18〜1/14",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/19",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 B方式",
+      "apply": "1/18〜2/3",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/19",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 C方式・D方式",
+      "apply": "3/9〜3/23",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/25",
+      "proc": "3/31",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 Ⅰ期（一般）",
+      "apply": "10/27〜11/5",
+      "exam": "11/14",
+      "result": "12/1",
+      "proc": "12/16",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 Ⅱ期（地域枠・共テ）",
+      "apply": "12/13〜1/13",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/19",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（総合型・スポーツ総合型）1回",
+      "apply": "9/5〜10/6",
+      "exam": "10/17",
+      "result": "11/2",
+      "proc": "11/13",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（総合型・スポーツ総合型）2回",
+      "apply": "11/11〜11/26",
+      "exam": "12/5",
+      "result": "12/17",
+      "proc": "1/7",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（総合型・スポーツ総合型）3回",
+      "apply": "1/27〜2/23",
+      "exam": "3/4",
+      "result": "3/15",
+      "proc": "3/23",
+      "fee": null
+     }
+    ],
+    "note": "ベネッセ マナビジョン（2027年度入試、法学部・人間関係学部共通）。検定料は出典に記載なし"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3968/nyushi/index.html"
+   ]
+  }
+ },
+ {
+  "name": "お茶の水女子大学",
+  "story": {
+   "summary": "文教育・理・生活科学・共創工学の4学部からなる国立の女子大学。主プログラムに他のプログラムを組み合わせる「複数プログラム選択履修制度」と少人数教育で、専門を深めることも分野を横断することもできる。共創工学部では、データサイエンスとデザイン思考を軸に、工学と人文学・社会科学を合わせて学べる。",
+   "only": [
+    {
+     "t": "主プログラムに加えて複数のプログラムを組み合わせて学ぶ「複数プログラム選択履修制度」があり、専門を深めることも領域を横断することもできる",
+     "src": "https://www.ocha.ac.jp/limited/kyousou_d/fil/ocha_Pamphlet2026.pdf"
+    },
+    {
+     "t": "共創工学部の文化情報工学科は、歴史・地理・文学などの資料をデジタル化し、データ解析で文化の価値を生み出す手法を学ぶ。文系・理系の志望者が対等な条件で受験できるようにしている",
+     "src": "https://www.ocha.ac.jp/limited/kyousou_d/fil/ocha_Pamphlet2026.pdf"
+    },
+    {
+     "t": "共創工学部の人間環境工学科は人間・マテリアル・環境の3領域で学び、一級・二級・木造建築士の受験資格が得られる",
+     "src": "https://www.ocha.ac.jp/limited/kyousou_d/fil/ocha_Pamphlet2026.pdf"
+    },
+    {
+     "t": "生活科学部は自然科学系の食物栄養学科と人文社会科学系の人間生活学科・心理学科からなる文理融合型の学部で、実験・実習や卒業論文指導を中心に少人数教育を行う",
+     "src": "https://search.keinet.ne.jp/1110/outline/department"
+    }
+   ],
+   "vs": [
+    {
+     "u": "奈良女子大学",
+     "t": "奈良女子大学は工学部が工学科の1学科だが、お茶の水女子大学の共創工学部は人間環境工学科と文化情報工学科の2学科に分かれ、人文学の資料をデータで扱う学科がある",
+     "src": "https://search.keinet.ne.jp/1330/outline/department"
+    }
+   ]
+  }
+ },
+ {
+  "name": "東京学芸大学",
+  "story": {
+   "summary": "教育学部の1学部で、初等・中等・特別支援・養護の4専攻で教員を養成する学校教育教員養成課程と、教員以外の教育支援職を養成する教育支援課程を置く。12の附属学校園が教育実習と研究の場になり、卒業後すぐに教壇に立てるよう実践経験を多く積めるカリキュラムを組んでいる。",
+   "only": [
+    {
+     "t": "附属学校園が幼稚園から高等学校・中等教育学校・特別支援学校まで12校園あり、教育実習の場として年間約1,400人の学生を受け入れている",
+     "src": "https://www.u-gakugei.ac.jp/webimg/gaiyou2025.pdf"
+    },
+    {
+     "t": "教育支援課程（E類）では、スクールカウンセラーやスクールソーシャルワーカー、社会教育関係者など教員以外の教育支援職を、生涯学習・文化遺産教育、カウンセリング、ソーシャルワーク、多文化共生教育など7コースで養成する",
+     "src": "https://search.keinet.ne.jp/1135/outline/department"
+    },
+    {
+     "t": "中等教育専攻（B類）には国語・数学・理科などに加えて書道・情報・技術のコースがあり、初等教育専攻（A類）にはものづくり技術や幼児教育のコースもある",
+     "src": "https://search.keinet.ne.jp/1135/outline/department"
+    },
+    {
+     "t": "教職大学院を「国内最大規模」としている",
+     "src": "https://www.u-gakugei.ac.jp/webimg/gaiyou2025.pdf"
+    }
+   ],
+   "vs": [
+    {
+     "u": "千葉大学",
+     "t": "千葉大学は総合大学の中の教育学部（学校教員養成課程）で教員を養成するが、東京学芸大学は教員養成課程に加えて教員以外の教育支援職を育てる教育支援課程を置く教員養成の単科大学",
+     "src": "https://search.keinet.ne.jp/1105/outline/department"
+    },
+    {
+     "u": "埼玉大学",
+     "t": "埼玉大学の教育学部は学校教員養成課程と養護教諭養成課程で構成されるが、東京学芸大学には特別支援教育専攻と養護教育専攻に加えて、カウンセリングやソーシャルワークを学ぶ教育支援課程がある",
+     "src": "https://search.keinet.ne.jp/1100/outline/department"
+    }
+   ]
+  }
+ }
+]
