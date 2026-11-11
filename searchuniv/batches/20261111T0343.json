@@ -1,0 +1,1025 @@
+[
+ {
+  "name": "大阪成蹊大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A-Ⅰ日程（2科目型・3科目型）",
+      "apply": "12/14〜1/19",
+      "exam": "1/25",
+      "result": "2/12",
+      "proc": "2/25",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A-Ⅱ日程（2科目型・3科目型）",
+      "apply": "12/14〜1/21",
+      "exam": "1/28",
+      "result": "2/12",
+      "proc": "2/25",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A-Ⅲ日程（2科目型・3科目型）",
+      "apply": "12/14〜1/24",
+      "exam": "1/31",
+      "result": "2/12",
+      "proc": "2/25",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程（2科目型・3科目型）",
+      "apply": "12/14〜2/2",
+      "exam": "2/9",
+      "result": "2/19",
+      "proc": "3/5",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 中期日程（2科目型・3科目型）",
+      "apply": "1/14〜2/21",
+      "exam": "2/27",
+      "result": "3/9",
+      "proc": "3/19",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期日程（2科目型）",
+      "apply": "3/1〜3/23",
+      "exam": "3/25",
+      "result": "3/27",
+      "proc": "3/30",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共テプラス方式（A-Ⅰ／A-Ⅱ／A-Ⅲ／B日程）",
+      "apply": "12/14〜1/19（A-Ⅰ）〜2/2（B）",
+      "exam": "1/25・1/28・1/31・2/9（個別）＋共テ",
+      "result": "2/19",
+      "proc": "3/5",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共テプラス方式（中期日程）",
+      "apply": "1/14〜2/21",
+      "exam": "2/27（個別）＋共テ",
+      "result": "3/9",
+      "proc": "3/19",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共テプラス方式（後期日程）",
+      "apply": "3/1〜3/23",
+      "exam": "3/25（個別）＋共テ",
+      "result": "3/27",
+      "proc": "3/30",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 前期（2／3／4／5科目型）",
+      "apply": "12/14〜2/2",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/19",
+      "proc": "3/5",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 中期（2／3／4／5科目型）",
+      "apply": "1/14〜2/21",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/9",
+      "proc": "3/19",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 後期（2／3／4／5科目型）",
+      "apply": "3/1〜3/23",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/27",
+      "proc": "3/30",
+      "fee": null
+     }
+    ],
+    "note": "経済・経営・国際観光学部の例（マナビジョン2027年度入試情報）。検定料は記載なし。共テプラス方式は個別試験日の成績＋共通テスト"
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "経営学部（経営・スポーツマネジメント）",
+      "admission": 250000,
+      "tuition": 795000,
+      "facility": 197000,
+      "practical": null,
+      "other": 42160,
+      "first_year": 1284160,
+      "four_year": null
+     },
+     {
+      "f": "国際観光学部",
+      "admission": 250000,
+      "tuition": 795000,
+      "facility": 197000,
+      "practical": 30000,
+      "other": 42160,
+      "first_year": 1314160,
+      "four_year": null
+     },
+     {
+      "f": "教育学部",
+      "admission": 250000,
+      "tuition": 870000,
+      "facility": 310000,
+      "practical": null,
+      "other": 42160,
+      "first_year": 1472160,
+      "four_year": null,
+      "note": "英語教育コースは前期に実習費32,000円が別途必要"
+     },
+     {
+      "f": "データサイエンス学部",
+      "admission": 250000,
+      "tuition": 1200000,
+      "facility": 204000,
+      "practical": null,
+      "other": 42160,
+      "first_year": 1696160,
+      "four_year": null
+     },
+     {
+      "f": "芸術学部（造形芸術）",
+      "admission": 200000,
+      "tuition": 1272000,
+      "facility": 197000,
+      "practical": null,
+      "other": 42160,
+      "first_year": 1711160,
+      "four_year": null
+     },
+     {
+      "f": "看護学部",
+      "admission": 250000,
+      "tuition": 1260000,
+      "facility": 384000,
+      "practical": null,
+      "other": 45300,
+      "first_year": 1939300,
+      "four_year": null,
+      "note": "実習用ユニフォーム等は別途"
+     }
+    ],
+    "note": "Kei-Net（2026年度入学者用）の内訳。ノートパソコンが別途必要な学部あり。2027年度の内訳は未確認。経済学部の学費はKei-Netに掲載なし"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3662/nyushi/hoshiki/ippan/index.html",
+    "https://manabi.benesse.ne.jp/daigaku/school/3662/nyushi/hoshiki/kyotsu-test/index.html",
+    "https://search.keinet.ne.jp/2513/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "四日市大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "apply": "1/5〜1/28",
+      "exam": "2/3〜2/4",
+      "result": "2/10",
+      "proc": "2/15",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程（数学重視型・2教科型）",
+      "apply": "2/10〜2/18",
+      "exam": "2/20",
+      "result": "2/24",
+      "proc": "3/5",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 C日程（小論文型・2教科型）",
+      "apply": "2/26〜3/5",
+      "exam": "3/6",
+      "result": "3/11",
+      "proc": "3/17",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 Ⅰ期",
+      "apply": "1/5〜1/28",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/10",
+      "proc": "2/15",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 Ⅱ期",
+      "apply": "2/10〜2/18",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/24",
+      "proc": "3/5",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 Ⅲ期",
+      "apply": "2/26〜3/5",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/11",
+      "proc": "3/17",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 Ⅳ期",
+      "apply": "3/12〜3/18",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/20",
+      "proc": "3/26",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型 A（基礎テスト／専門・総合）",
+      "apply": "11/1〜11/5",
+      "exam": "11/7〜11/8",
+      "result": "12/1",
+      "proc": "12/8",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型 B（基礎テスト）",
+      "apply": "12/1〜12/10",
+      "exam": "12/12",
+      "result": "12/16",
+      "proc": "12/21",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 AO・過疎地離島生徒（1回目）",
+      "apply": "9/1〜9/11",
+      "exam": "10/4",
+      "result": "11/1",
+      "proc": "11/10",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 AO・過疎地離島生徒（2回目）",
+      "apply": "11/13〜11/19",
+      "exam": "11/21",
+      "result": "12/1",
+      "proc": "12/8",
+      "fee": null
+     }
+    ],
+    "note": "総合政策学部・環境情報学部で共通の日程（マナビジョン2027年度入試情報）。検定料は記載なし"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3575/nyushi/gokaku-happyo/index.html"
+   ]
+  }
+ },
+ {
+  "name": "四日市看護医療大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期A日程",
+      "apply": "12/25〜1/25",
+      "exam": "2/2",
+      "result": "2/19",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期B日程",
+      "apply": "12/25〜1/25",
+      "exam": "2/3",
+      "result": "2/19",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期日程",
+      "apply": "2/15〜2/24",
+      "exam": "3/3",
+      "result": "3/16",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜 共テ前期日程",
+      "apply": "12/25〜1/29",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/19",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜 共テ後期日程",
+      "apply": "2/15〜2/26",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/16",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型（小論文／基礎）",
+      "apply": "11/1〜11/9",
+      "exam": "11/13（基礎）・11/14（小論文）",
+      "result": "12/1",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（臨床検査学科のみ・1回目）",
+      "apply": "10/1〜10/13",
+      "exam": "10/17",
+      "result": "11/2",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（臨床検査学科のみ・2回目）",
+      "apply": "11/26〜12/8",
+      "exam": "12/12",
+      "result": "12/23",
+      "proc": null,
+      "fee": null
+     }
+    ],
+    "note": "看護学科・臨床検査学科で共通の日程（マナビジョン2027年度入試情報）。検定料は記載なし"
+   },
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "看護医療学部 看護学科",
+      "admission": 200000,
+      "tuition": 1060000,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1815500,
+      "four_year": null
+     },
+     {
+      "f": "看護医療学部 臨床検査学科",
+      "admission": 200000,
+      "tuition": 960000,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1715500,
+      "four_year": null
+     }
+    ],
+    "note": "初年度納入金と入学金はマナビジョン（2027年度入学者）。授業料は同ページの奨学金の記載（看護：授業料相当額年額106万円、臨床検査：授業料の半額相当年額48万円）から。施設費などの内訳は未確認"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3576/nyushi/gokaku-happyo/index.html",
+    "https://manabi.benesse.ne.jp/daigaku/school/3576/gakuhi/"
+   ]
+  }
+ },
+ {
+  "name": "四條畷学園大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "apply": "12/17〜1/21",
+      "exam": "1/31",
+      "result": "2/4",
+      "proc": "2/18",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程",
+      "apply": "1/22〜2/10",
+      "exam": "2/21",
+      "result": "2/26",
+      "proc": "3/11",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜 共テA日程",
+      "apply": "1/18〜2/4",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/18",
+      "proc": "3/4",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜 共テB日程",
+      "apply": "2/8〜2/18",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/4",
+      "proc": "3/11",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 自己PR型（理学療法・作業療法）",
+      "apply": "8/24〜9/17",
+      "exam": "9/27",
+      "result": "11/2",
+      "proc": "11/19",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 基礎学力（1回目）",
+      "apply": "9/3〜10/1",
+      "exam": "10/12",
+      "result": "11/2",
+      "proc": "11/19",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 基礎学力（2回目）",
+      "apply": "10/15〜11/5",
+      "exam": "11/15",
+      "result": "11/19",
+      "proc": "12/3",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 基礎学力（3回目）",
+      "apply": "11/6〜11/26",
+      "exam": "12/6",
+      "result": "12/10",
+      "proc": "12/24",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 授業体験型（理学療法・作業療法）",
+      "apply": "2/10〜2/25",
+      "exam": "3/7",
+      "result": "3/11",
+      "proc": "3/18",
+      "fee": null
+     }
+    ],
+    "note": "リハビリテーション学部（理学療法学・作業療法学専攻）と看護学部で共通（看護学科の総合型は基礎専願・基礎併願）。マナビジョン2027年度入試情報。検定料は記載なし。手続締切はA日程が入学金2/18（授業料等2/25、既存の公式情報）"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3669/nyushi/gokaku-happyo/"
+   ]
+  }
+ },
+ {
+  "name": "鳥取大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型Ⅰ（地域創造学科・生命環境農学科Ⅰ-B/C/D）",
+      "apply": "〜11/6（消印有効）",
+      "exam": "11/21",
+      "result": "12/1",
+      "proc": "12/8",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型Ⅱ（医学部 医学科・生命科学科・保健学科）",
+      "apply": "〜11/9（消印有効）",
+      "exam": "12/5",
+      "result": "2/10",
+      "proc": "2/17",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型Ⅱ（共同獣医学科・生命環境農学科ⅡA/ⅡB）",
+      "apply": "〜12/9（消印有効）",
+      "exam": "2/5（獣医・ⅡBは2/5・2/6）",
+      "result": "2/10",
+      "proc": "2/17",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型Ⅱ（国際地域文化学科・工学部3学科）",
+      "apply": "〜1/22（消印有効）",
+      "exam": "2/5",
+      "result": "2/10",
+      "proc": "2/17",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜Ⅰ（地域創造・教育科学・国際地域文化・生命環境農学）",
+      "apply": "〜9/7（消印有効）",
+      "exam": "1次9/18〜9/29の指定日・2次10/17・10/18",
+      "result": "1次10/7・2次11/2",
+      "proc": "11/9",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜Ⅱ（教育科学・工学部4学科系）",
+      "apply": "〜11/6（消印有効）",
+      "exam": "11/21",
+      "result": "2/10",
+      "proc": "2/17",
+      "fee": null
+     }
+    ],
+    "note": "Kei-Net（2027年度入試）。一般選抜（前期・後期）の日程はKei-Netで12月下旬に掲載予定のため未記載"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/1340/recommend/exam_rec",
+    "https://search.keinet.ne.jp/1340/recommend/exam_ao"
+   ]
+  }
+ },
+ {
+  "name": "鳴門教育大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型Ⅰ（共テを課さない：小学校教育 学校教育実践〔地域教員希望枠〕・算数数学・図画工作美術・技術）",
+      "apply": "〜11/9（必着）",
+      "exam": "11/28",
+      "result": "12/4",
+      "proc": "2/17",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型Ⅱ（共テを課す：幼児教育・国語・英語・社会・理科・音楽・体育保健体育・家庭・特別支援教育）",
+      "apply": "〜11/9（必着）",
+      "exam": "11/28＋共テ",
+      "result": "2/8",
+      "proc": "2/17",
+      "fee": null
+     }
+    ],
+    "note": "Kei-Net（2027年度入試）。2027年度から小学校・中学校教育は専修一括募集、前期46名・後期10名に減り推薦Ⅰ15名・Ⅱ29名に増。一般選抜の日程はKei-Netで12月下旬に掲載予定のため未記載"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/1375/recommend/exam_rec",
+    "https://search.keinet.ne.jp/1375/general/exam_changes"
+   ]
+  }
+ },
+ {
+  "name": "武雄アジア大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "佐賀県武雄市",
+  "pref_name": "佐賀県",
+  "city": "武雄市",
+  "features": [
+   "2026年4月開学。東アジア地域共創学部 東アジア地域共創学科の1学部1学科（入学定員140名）",
+   "地域理解・国際理解・外国語・経済・経営・地域研究・観光・まちづくり・メディアコンテンツの9分野を1年次から段階的に学び、3年次に「観光・地域マネジメント」「東アジア・メディアコンテンツ」のコースを選ぶ",
+   "2年次に国内研修・海外研修（韓国・タイ・台湾の協定校）・インターンシップから1つを選ぶ実践型の学び"
+  ],
+  "memo": "一般選抜は国語・英語の2教科200点（2027年度から地歴公民・数学の選択を廃止）、共テ利用は国語・外国語＋1科目の3教科（パスナビ）。初年度納入金1,210,000円（2027年度、入学金250,000円・授業料650,000円）。",
+  "reading": "たけおあじあ",
+  "aliases": [],
+  "hp": "https://www.ta-u.ac.jp/",
+  "info": {
+   "faculties": [
+    "東アジア地域共創学部"
+   ],
+   "departments_full": [
+    {
+     "f": "東アジア地域共創学部",
+     "d": [
+      "東アジア地域共創学科 観光・地域マネジメントコース",
+      "東アジア地域共創学科 東アジア・メディアコンテンツコース"
+     ]
+    }
+   ],
+   "founded": "2026年4月開学",
+   "access": "武雄市武雄町のキャンパス：JR武雄温泉駅から徒歩約10分",
+   "tuition": {
+    "amount": 900000,
+    "label": "入学金＋授業料",
+    "year": 2027
+   },
+   "kyotsu": {
+    "kamoku": "3教科3科目",
+    "kyoka": [
+     3
+    ],
+    "rl": [],
+    "rl_text": "外国語はリスニングを課す（R:Lの内訳はパスナビに記載なし）",
+    "note": "国語・外国語＋地歴公民・数学・理科・情報から1科目（300点）",
+    "year": "2027年度入試"
+   },
+   "research": [
+    "観光・地域マネジメント",
+    "東アジアのメディアコンテンツ産業",
+    "経済学・経営学",
+    "まちづくり・地域研究"
+   ],
+   "money": {
+    "year": "2027年度",
+    "admission": 250000,
+    "annual": 650000,
+    "rows": [
+     {
+      "f": "東アジア地域共創学部 東アジア地域共創学科",
+      "admission": 250000,
+      "tuition": 650000,
+      "facility": 200000,
+      "practical": null,
+      "other": 110000,
+      "first_year": 1210000,
+      "four_year": null,
+      "note": "otherは諸会費（学生支援費）。別に委託徴収金（保険料）4,660円"
+     }
+    ]
+   },
+   "notable": [],
+   "news": [],
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/5058/department/",
+    "https://passnavi.obunsha.co.jp/univ/5058/expense/",
+    "https://passnavi.obunsha.co.jp/univ/5058/subject/",
+    "https://shingakunet.com/gakko/SC006924/"
+   ]
+  },
+  "guide": {
+   "fit": "観光やまちづくり、東アジアの文化・メディアコンテンツに関心があり、地域や海外での実践を通して学びたい生徒。",
+   "ask": [
+    "観光・地域と、メディアコンテンツのどちらに関心が強いか",
+    "海外研修やインターンシップに参加したいか",
+    "一般選抜の国語・英語2教科で受けるか"
+   ],
+   "caution": "2026年開学のため、卒業生の進路実績はまだない。"
+  },
+  "exam": {
+   "format": "一般選抜（前期・後期）は国語・英語の2教科200点、共テ利用は3教科3科目。",
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/5058/subject/"
+   ]
+  }
+ },
+ {
+  "name": "大阪医療大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "大阪府大阪市東住吉区",
+  "pref_name": "大阪府",
+  "city": "大阪市東住吉区",
+  "features": [
+   "2026年4月開学。医療看護学部に理学療法学科・看護学科（各入学定員40名）を置く",
+   "大阪芸術大学グループの大学で、芸術系科目を取り入れたカリキュラムと少人数教育を特色とする",
+   "長居公園に隣接したキャンパスで、ICTを活用した学習環境と国家試験に向けた独自の学習プログラムを用意"
+  ],
+  "memo": "一般選抜1期は英語・国語必須＋数学か生物（330点、調査書・志望理由書含む）、2期は英・数・国から2科目＋面接。初年度納入金1,980,000円（2026年度、Kei-Net。両学科同額）。",
+  "reading": "おおさかいりょう",
+  "aliases": [],
+  "hp": "https://iryou.osaka-geidai.ac.jp/",
+  "info": {
+   "difficulty": {
+    "hensachi": "35.0",
+    "kyotei": "40%",
+    "year": "2027年度入試用"
+   },
+   "faculties": [
+    "医療看護学部"
+   ],
+   "departments_full": [
+    {
+     "f": "医療看護学部",
+     "d": [
+      "理学療法学科",
+      "看護学科"
+     ]
+    }
+   ],
+   "founded": "2026年4月開学",
+   "access": "大阪市東住吉区矢田のキャンパス：近鉄南大阪線矢田駅から徒歩5分",
+   "tuition": {
+    "amount": 1480000,
+    "label": "入学金＋授業料",
+    "year": 2026
+   },
+   "kyotsu": {
+    "kamoku": "3教科3科目",
+    "kyoka": [
+     3
+    ],
+    "rl": [],
+    "rl_text": "英語はリーディング100点（リスニングの配点はKei-Netに記載なし）",
+    "note": "英語・国語必須＋数学・理科・情報から1科目（300点）",
+    "year": "2027年度入試"
+   },
+   "research": [
+    "理学療法・リハビリテーション",
+    "看護学"
+   ],
+   "licenses": [
+    "理学療法士（受験資格）",
+    "看護師（受験資格）"
+   ],
+   "money": {
+    "year": "2026年度",
+    "admission": 280000,
+    "annual": 1200000,
+    "rows": [
+     {
+      "f": "医療看護学部 理学療法学科",
+      "admission": 280000,
+      "tuition": 1200000,
+      "facility": 300000,
+      "practical": 200000,
+      "other": null,
+      "first_year": 1980000,
+      "four_year": null
+     },
+     {
+      "f": "医療看護学部 看護学科",
+      "admission": 280000,
+      "tuition": 1200000,
+      "facility": 300000,
+      "practical": 200000,
+      "other": null,
+      "first_year": 1980000,
+      "four_year": null
+     }
+    ],
+    "note": "ユニフォーム代・テキスト代などは別途（Kei-Net）"
+   },
+   "notable": [],
+   "news": [],
+   "sources": [
+    "https://search.keinet.ne.jp/2530/outline/department",
+    "https://search.keinet.ne.jp/2530/outline/expense",
+    "https://search.keinet.ne.jp/2530/outline/licential",
+    "https://search.keinet.ne.jp/2530/general/exam_subject",
+    "https://manabi.benesse.ne.jp/daigaku/school/3683/index.html"
+   ]
+  },
+  "guide": {
+   "fit": "理学療法士や看護師を目指し、都市部の少人数の環境で学びたい生徒。",
+   "ask": [
+    "理学療法士と看護師のどちらを目指すか",
+    "一般1期で数学と生物のどちらを選ぶか",
+    "実習費を含む初年度約198万円を家庭と確認したか"
+   ],
+   "caution": "2026年開学のため、国家試験合格率や就職の実績はまだない。"
+  },
+  "exam": {
+   "format": "一般選抜1期・2期と共通テスト利用（3教科3科目）を実施。",
+   "sources": [
+    "https://search.keinet.ne.jp/2530/general/exam_subject"
+   ]
+  }
+ },
+ {
+  "name": "福岡国際音楽大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "福岡県太宰府市",
+  "pref_name": "福岡県",
+  "city": "太宰府市",
+  "features": [
+   "2026年4月開学の福岡県で唯一の音楽大学。音楽学部に音楽表現学科・音楽ビジネス学科を置く（1学年80名）",
+   "九州交響楽団と連携協定を結び、英語・ICT教育にも取り組む",
+   "学生寮を備え、西鉄五条駅から徒歩圏のキャンパス"
+  ],
+  "memo": "一般方式は英・数・国・情から1科目＋面接と、音楽表現学科は実技、音楽ビジネス学科は小論文（Kei-Net）。初年度納入金1,645,000円（2026年度、Kei-Net）。",
+  "reading": "ふくおかこくさいおんがく",
+  "aliases": [],
+  "hp": "https://fukuoka.takagigakuen.ac.jp/",
+  "info": {
+   "difficulty": {
+    "hensachi": "35.0",
+    "kyotei": "40%",
+    "year": "2027年度入試用"
+   },
+   "faculties": [
+    "音楽学部"
+   ],
+   "departments_full": [
+    {
+     "f": "音楽学部",
+     "d": [
+      "音楽表現学科",
+      "音楽ビジネス学科"
+     ]
+    }
+   ],
+   "founded": "2026年4月開学",
+   "access": "太宰府市五条のキャンパス：西鉄太宰府線西鉄五条駅から徒歩7分",
+   "tuition": {
+    "amount": 1200000,
+    "label": "入学金＋授業料",
+    "year": 2026
+   },
+   "kyotsu": {
+    "kamoku": "1教科1科目",
+    "kyoka": [
+     1
+    ],
+    "rl": [],
+    "rl_text": "英語はリーディング（リスニングの配点はKei-Netに記載なし）",
+    "note": "英・数・国・情から1科目（100点）＋個別に面接と実技（音楽表現）または小論文（音楽ビジネス）",
+    "year": "2027年度入試"
+   },
+   "research": [
+    "音楽表現（演奏）",
+    "音楽ビジネス"
+   ],
+   "money": {
+    "year": "2026年度",
+    "admission": 200000,
+    "annual": 1000000,
+    "rows": [
+     {
+      "f": "音楽学部",
+      "admission": 200000,
+      "tuition": 1000000,
+      "facility": 400000,
+      "practical": null,
+      "other": 45000,
+      "first_year": 1645000,
+      "four_year": null,
+      "note": "教科書代は別途"
+     }
+    ]
+   },
+   "notable": [],
+   "news": [],
+   "sources": [
+    "https://search.keinet.ne.jp/2726/outline/department",
+    "https://search.keinet.ne.jp/2726/outline/expense",
+    "https://search.keinet.ne.jp/2726/general/exam_subject",
+    "https://manabi.benesse.ne.jp/daigaku/school/3904/index.html"
+   ]
+  },
+  "guide": {
+   "fit": "演奏など音楽表現を専門的に学びたい生徒や、音楽業界の仕事（ビジネス面）に関心がある生徒。",
+   "ask": [
+    "演奏を学びたいのか、音楽ビジネスを学びたいのか",
+    "実技試験に向けて専門の指導を受けているか",
+    "寮の利用や通学方法を考えているか"
+   ],
+   "caution": "2026年開学のため、卒業生の進路実績はまだない。実技の内容は募集要項で確認する。"
+  },
+  "exam": {
+   "format": "一般方式・共通テスト利用方式とも、音楽表現学科は実技と面接、音楽ビジネス学科は小論文と面接を課す。",
+   "sources": [
+    "https://search.keinet.ne.jp/2726/general/exam_subject"
+   ]
+  }
+ },
+ {
+  "name": "コー・イノベーション大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "岐阜県飛騨市",
+  "pref_name": "岐阜県",
+  "city": "飛騨市",
+  "features": [
+   "2026年4月開学。共創学部 地域共創学科（入学定員120名）の1学部1学科",
+   "「理論」（経済・経営学を中心に地域課題を学ぶ）・「対話」（自己理解・ヒューマンスキル）・「実践」を軸とするカリキュラム",
+   "1年次は飛騨で座学とフィールドワーク、2年次は全国の連携地域で週3日の実践型プログラムに参加する"
+  ],
+  "memo": "共テ利用（前期・中期・後期）は英・数・国から2教科（200点）＋志望理由書（Kei-Net）。初年度納入金1,630,000円（2026年度、Kei-Net）。",
+  "reading": "こーいのべーしょん",
+  "aliases": [
+   "CoIU"
+  ],
+  "hp": "",
+  "info": {
+   "difficulty": {
+    "kyotei": "39%",
+    "year": "2027年度入試用"
+   },
+   "faculties": [
+    "共創学部"
+   ],
+   "departments_full": [
+    {
+     "f": "共創学部",
+     "d": [
+      "地域共創学科"
+     ]
+    }
+   ],
+   "founded": "2026年4月開学",
+   "access": "岐阜県飛騨市古川町（入試広報の所在地）。1年次は飛騨市で学ぶ",
+   "tuition": {
+    "amount": 1280000,
+    "label": "入学金＋授業料",
+    "year": 2026
+   },
+   "kyotsu": {
+    "kamoku": "2教科2科目",
+    "kyoka": [
+     2
+    ],
+    "rl": [
+     "1:1"
+    ],
+    "rl_text": "英語はリーディング50点・リスニング50点",
+    "note": "英語・数学・国語から2教科（200点）",
+    "year": "2027年度入試"
+   },
+   "research": [
+    "地域課題の解決（地域共創）",
+    "経済学・経営学",
+    "フィールドワーク・実践型学習"
+   ],
+   "money": {
+    "year": "2026年度",
+    "admission": 200000,
+    "annual": 1080000,
+    "rows": [
+     {
+      "f": "共創学部 地域共創学科",
+      "admission": 200000,
+      "tuition": 1080000,
+      "facility": 350000,
+      "practical": null,
+      "other": null,
+      "first_year": 1630000,
+      "four_year": null,
+      "note": "授業料は半期ごとの支払いも可"
+     }
+    ]
+   },
+   "notable": [],
+   "news": [],
+   "sources": [
+    "https://search.keinet.ne.jp/2415/outline/department",
+    "https://search.keinet.ne.jp/2415/outline/expense",
+    "https://search.keinet.ne.jp/2415/general/exam_subject",
+    "https://search.keinet.ne.jp/2415/outline/opencampus",
+    "https://passnavi.obunsha.co.jp/univ/3564/department/"
+   ]
+  },
+  "guide": {
+   "fit": "地域の課題に関心があり、教室の外で地域の人と関わりながら経済・経営を学びたい生徒。",
+   "ask": [
+    "1年次の飛騨での生活、2年次の各地での実践に前向きか",
+    "地域でどんな課題に取り組んでみたいか",
+    "共テ利用で英・数・国のどの2教科を使うか"
+   ],
+   "caution": "2026年開学のため、卒業生の進路実績はまだない。学年によって学ぶ場所が変わる点を確認する。"
+  },
+  "exam": {
+   "format": "共通テスト利用（前期・中期・後期、英・数・国から2教科）を実施。",
+   "sources": [
+    "https://search.keinet.ne.jp/2415/general/exam_subject"
+   ]
+  }
+ }
+]
