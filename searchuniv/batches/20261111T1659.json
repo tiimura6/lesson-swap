@@ -1,0 +1,105 @@
+[
+{"name":"福井医療大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"一般","name":"一般選抜（第1次）A日程・B日程","apply":"1/11〜1/25","exam":"2/3（A）・2/4（B）","result":"2/17","proc":"3/9","fee":null},
+  {"kubun":"一般","name":"一般選抜（第2次）","apply":"2/15〜2/26","exam":"3/4","result":"3/15","proc":"3/24","fee":null},
+  {"kubun":"共テ利用","name":"大学入学共通テスト利用選抜 前期","apply":"1/18〜2/1","exam":"1/16・1/17（共テ）","result":"2/17","proc":"3/9","fee":null},
+  {"kubun":"共テ利用","name":"大学入学共通テスト利用選抜 後期","apply":"3/1〜3/11","exam":"1/16・1/17（共テ）","result":"3/19","proc":"3/30","fee":null}],
+  "note":"第1次・共テ前期の合格発表と手続締切はマナビジョン（2027年度）で補完（他は既存と一致）。検定料は未確認"},
+ "money_replace":{"year":"2026年度","rows":[
+  {"f":"保健医療学部 看護学科","admission":250000,"tuition":600000,"facility":200000,"practical":100000,"other":null,"first_year":1150000,"four_year":null},
+  {"f":"保健医療学部 リハビリテーション学科（言語聴覚学専攻）","admission":250000,"tuition":900000,"facility":200000,"practical":150000,"other":null,"first_year":1500000,"four_year":null},
+  {"f":"保健医療学部 リハビリテーション学科（理学療法学専攻・作業療法学専攻）","admission":250000,"tuition":900000,"facility":200000,"practical":200000,"other":null,"first_year":1550000,"four_year":null},
+  {"f":"保健医療学部 リハビリテーション学科（理学療法学専攻 アスレティックトレーナー併修コース）","admission":250000,"tuition":1000000,"facility":300000,"practical":300000,"other":null,"first_year":1850000,"four_year":null}],
+  "note":"Kei-Net（2026年度入学者用）の内訳。初年度合計は2027年度募集要項の額（看護1,150,000円・言語聴覚1,500,000円・理学療法/作業療法1,550,000円）と同じ。諸会費（後援会費・自治会費等）・教科書代・実習衣代は別途"},
+ "sources":["https://manabi.benesse.ne.jp/daigaku/school/3443/nyushi/gokaku-happyo/index.html","https://search.keinet.ne.jp/2371/outline/expense"]}},
+{"name":"福井工業大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"一般","name":"一般選抜Ⅰ期（①〜③日程）","apply":"1/4〜1/21","exam":"2/4（①）・2/5（②）・2/6（③）","result":"2/15","proc":"2/25","fee":null},
+  {"kubun":"一般","name":"一般選抜Ⅱ期","apply":"2/2〜2/18","exam":"2/27","result":"3/10","proc":"3/23","fee":null},
+  {"kubun":"共テ利用","name":"大学入学共通テスト利用選抜Ⅰ期","apply":"1/4〜1/25","exam":"1/16・1/17（共テ）","result":"2/15","proc":"2/25","fee":null},
+  {"kubun":"共テ利用","name":"大学入学共通テスト利用選抜Ⅱ期","apply":"2/2〜2/26","exam":"1/16・1/17（共テ）","result":"3/10","proc":"3/23","fee":null},
+  {"kubun":"共テ利用","name":"大学入学共通テスト利用選抜Ⅲ期","apply":"2/26〜3/15","exam":"1/16・1/17（共テ）","result":"3/18","proc":"3/26","fee":null},
+  {"kubun":"共テ利用","name":"共通テスト＋小論文","apply":"〜3/5","exam":"3/15（小論文）＋共テ","result":"3/18","proc":"3/26","fee":null}],
+  "note":"手続締切と「共通テスト＋小論文」はKei-Net（出願締切・試験日・発表日は既存の2027年度日程と一致）。検定料はKei-Netが2026年度（一般30,000円・共テ10,000円）のため未記入"},
+ "sources":["https://search.keinet.ne.jp/2372/general/schedule"]}},
+{"name":"聖隷クリストファー大学","info":{
+ "money_replace":{"year":"2027年度","rows":[
+  {"f":"社会福祉学部 社会福祉学科","admission":200000,"tuition":1080000,"facility":null,"practical":null,"other":null,"first_year":1280000,"four_year":null,"note":"授業料に施設設備費を含む。実習費は1単位10,000円で別途。保険料・諸会費等約74,730円、購入物品代が別途"},
+  {"f":"国際教育学部 こども教育学科","admission":200000,"tuition":1150000,"facility":null,"practical":null,"other":null,"first_year":1350000,"four_year":null,"note":"授業料に施設設備費を含む。実習費は1単位10,000円で別途。保険料・諸会費等約74,730円、購入物品代が別途"},
+  {"f":"リハビリテーション学部 言語聴覚学科","admission":200000,"tuition":1442000,"facility":null,"practical":null,"other":null,"first_year":1642000,"four_year":null,"note":"授業料に施設設備費・実習費を含む（実習の交通費・宿泊費は除く）。保険料・諸会費等約75,370円が別途"},
+  {"f":"リハビリテーション学部（理学療法学科・作業療法学科）","admission":200000,"tuition":1500000,"facility":null,"practical":null,"other":null,"first_year":1700000,"four_year":null,"note":"授業料に施設設備費・実習費を含む（実習の交通費・宿泊費は除く）。保険料・諸会費等約75,370円が別途"},
+  {"f":"看護学部 看護学科","admission":200000,"tuition":1589000,"facility":null,"practical":null,"other":null,"first_year":1789000,"four_year":null,"note":"授業料に施設設備費・実習費を含む。養護教諭課程の教育実習は約15,000円追加。保険料・諸会費等約75,370円が別途"}],
+  "note":"金額は既存（2027年度）とKei-Net（2026年度入学者用）で同じ。施設費・実習費は授業料に含まれるため別欄は空欄（0ではない）。諸会費・購入物品代はKei-Netの備考（前年度参考）"},
+ "sources":["https://search.keinet.ne.jp/2423/outline/expense"]}},
+{"name":"至学館大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"一般","name":"一般選抜 前期（2科目型・3科目型）","apply":"1/8〜1/22","exam":"1/30・1/31","result":"2/6","proc":"2/15","fee":null},
+  {"kubun":"一般","name":"一般選抜 後期","apply":"2/15〜2/23","exam":"2/28","result":"3/5","proc":"3/12","fee":null},
+  {"kubun":"共テ利用","name":"共通テスト利用 前期プラス型","apply":"1/8〜1/22","exam":"1/30・1/31（個別）＋共テ","result":"2/6","proc":"2/15","fee":null},
+  {"kubun":"共テ利用","name":"共通テスト利用 前期（2科目型・3科目型）","apply":"1/8〜1/29","exam":"1/16・1/17（共テ）","result":"2/6","proc":"2/15","fee":null},
+  {"kubun":"共テ利用","name":"共通テスト利用 後期","apply":"2/15〜2/26","exam":"1/16・1/17（共テ）","result":"3/5","proc":"3/12","fee":null}],
+  "note":"マナビジョン（2027年度）。4学科とも同じ日程。検定料は未確認"},
+ "money_replace":{"year":"2027年度","rows":[
+  {"f":"健康科学部 こども健康・教育学科","admission":200000,"tuition":700000,"facility":440000,"practical":50000,"other":31000,"first_year":1421000,"four_year":null},
+  {"f":"健康科学部 栄養科学科","admission":200000,"tuition":700000,"facility":440000,"practical":70000,"other":31000,"first_year":1441000,"four_year":null},
+  {"f":"健康科学部 体育科学科","admission":200000,"tuition":700000,"facility":440000,"practical":70000,"other":31000,"first_year":1441000,"four_year":null},
+  {"f":"健康科学部 健康スポーツ科学科","admission":200000,"tuition":700000,"facility":440000,"practical":70000,"other":31000,"first_year":1441000,"four_year":null}],
+  "note":"パスナビ（2027年度）。諸会費31,000円は学生会費・教育後援会費・同窓会費。マナビジョンの初年度納入金（1,390,000円／1,410,000円）は委託徴収費（諸会費）を除いた額"},
+ "sources":["https://manabi.benesse.ne.jp/daigaku/school/3533/nyushi/gokaku-happyo/index.html","https://passnavi.obunsha.co.jp/univ/3700/expense/"]}},
+{"name":"藤田医科大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"一般","name":"医学部 一般選抜（前期）","apply":"12/7〜1/22","exam":"1次2/4・2次2/14または2/15","result":"1次2/9・2次2/18","proc":"1次2/24・2次3/10","fee":null},
+  {"kubun":"一般","name":"医療科学部・保健衛生学部 一般前期 A日程","apply":"12/14〜1/21","exam":"2/1","result":"2/5","proc":"2/12","fee":35000},
+  {"kubun":"一般","name":"医療科学部・保健衛生学部 一般前期 B日程（保健衛生学部は未来創生も同日程）","apply":"12/14〜1/28","exam":"2/8","result":"2/13","proc":"2/19","fee":35000},
+  {"kubun":"共テ利用","name":"医療科学部 共通テスト利用前期","apply":"12/14〜1/28","exam":"1/16・1/17（共テ）","result":"2/13","proc":"2/19","fee":20000},
+  {"kubun":"共テ利用","name":"保健衛生学部 共通テスト利用前期","apply":"12/14〜1/28","exam":"1/16・1/17（共テ）","result":"2/15","proc":"2/19","fee":20000},
+  {"kubun":"共テ利用","name":"医療科学部 共通テストプラス","apply":"12/14〜1/28","exam":"一般前期の試験日＋共テ","result":"2/13","proc":"2/19","fee":5000},
+  {"kubun":"共テ利用","name":"医療科学部 共通テスト利用後期","apply":"2/15〜3/10","exam":"1/16・1/17（共テ）","result":"3/13","proc":"3/18","fee":20000}],
+  "note":"医療科学部・保健衛生学部は各学部の2027年度学生募集要項（公式）。proc は学納金納入期限。同じ学科のA・B日程同時出願は検定料計50,000円（保健衛生学部）。医学部の検定料は未確認"},
+ "money_replace":{"year":"2027年度","rows":[
+  {"f":"医学部 医学科（6年制）","admission":1500000,"tuition":2000000,"facility":0,"practical":0,"other":1696000,"first_year":5196000,"four_year":null},
+  {"f":"医学部 医工共創学科（予定）","admission":null,"tuition":null,"facility":null,"practical":null,"other":null,"first_year":930000,"four_year":null},
+  {"f":"医療科学部（医療検査学科・放射線学科）","admission":300000,"tuition":800000,"facility":300000,"practical":250000,"other":156000,"first_year":1806000,"four_year":null,"note":"施設費欄は教育充実費、実習費欄は実験実習教材費、諸会費は委託徴収金（後援会費・学友会費・同窓会費）。2年次以降は年額1,526,000円。教科書・実習着・タブレットPCは別途"},
+  {"f":"保健衛生学部（看護学科・リハビリテーション学科）","admission":300000,"tuition":800000,"facility":300000,"practical":300000,"other":156000,"first_year":1856000,"four_year":null,"note":"施設費欄は教育充実費、実習費欄は実験実習教材費、諸会費は委託徴収金（後援会費入会金80,000円・年会費20,000円・学友会費6,000円・同窓会費50,000円）。教科書・実習着・タブレットPCは別途"}],
+  "note":"医療科学部・保健衛生学部は2027年度学生募集要項（公式）。医学部の行は既存のまま"},
+ "sources":["https://www.fujita-hu.ac.jp/admission/vsfo8q0000007l3n-att/tedb9e000000p7kt.pdf","https://www.fujita-hu.ac.jp/admission/vsfo8q0000007l3n-att/tedb9e000000p7k0.pdf"]}},
+{"name":"中部学院大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"一般","name":"一般選抜 前期","apply":"1/5〜1/22","exam":"2/2〜2/5","result":"2/12","proc":"2/19","fee":null},
+  {"kubun":"一般","name":"一般選抜 3月A方式・3月B方式","apply":"2/11〜3/2","exam":"3/6","result":"3/12","proc":"3/23","fee":null},
+  {"kubun":"共テ利用","name":"共通テスト利用 前期","apply":"1/5〜1/29","exam":"1/16・1/17（共テ）","result":"2/12","proc":"2/19","fee":null},
+  {"kubun":"共テ利用","name":"共通テスト利用 中期","apply":"2/11〜2/26","exam":"1/16・1/17（共テ）","result":"3/12","proc":"3/23","fee":null},
+  {"kubun":"共テ利用","name":"共通テスト利用 後期","apply":"3/3〜3/10","exam":"1/16・1/17（共テ）","result":"3/19","proc":"3/26","fee":null}],
+  "note":"マナビジョン（2027年度）。全学部・学科で同じ日程。検定料は未確認"},
+ "sources":["https://manabi.benesse.ne.jp/daigaku/school/3487/nyushi/gokaku-happyo/"]}},
+{"name":"福島学院大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"総合型","name":"総合型選抜 A日程","apply":"9/1〜9/11","exam":"9/26","result":"11/2","proc":"12/1","fee":null},
+  {"kubun":"総合型","name":"総合型選抜 B日程","apply":"10/1〜10/9","exam":"10/24","result":"11/10","proc":"12/1","fee":null},
+  {"kubun":"総合型","name":"総合型選抜 C日程","apply":"11/2〜11/13","exam":"11/29","result":"12/10","proc":"1/20","fee":null},
+  {"kubun":"推薦","name":"学校推薦型選抜（公募制）","apply":"11/2〜11/6","exam":"11/14","result":"12/1","proc":"12/24","fee":null},
+  {"kubun":"一般","name":"一般選抜 A日程（国語・英語）","apply":"1/12〜2/1","exam":"2/15","result":"2/18","proc":"3/5","fee":null},
+  {"kubun":"一般","name":"一般選抜 B日程（英語・小論文）","apply":"2/16〜3/5","exam":"3/15","result":"3/18","proc":"3/26","fee":null}],
+  "note":"マナビジョン（2027年度）。全学科で同じ日程。共通テスト利用の掲載なし。検定料は未確認"},
+ "sources":["https://manabi.benesse.ne.jp/daigaku/school/3102/nyushi/gokaku-happyo/index.html","https://manabi.benesse.ne.jp/daigaku/school/3102/nyushi/hoshiki/ippan/index.html"]}},
+{"name":"大阪公立大学","story":{
+ "summary":"文・法・経済・商・理・工・農・獣医・医・看護・生活科学の11学部と現代システム科学域をもつ公立の総合大学で、工学部は航空宇宙工・海洋システム工を含む12学科に分かれる。獣医学部ではコンパニオンアニマルを中心とした都市型の獣医学教育を行う。同じ関西の神戸大学や大阪大学と比べると、獣医学部と、食栄養・居住環境・人間福祉を学ぶ生活科学部がある点が違う。",
+ "only":[
+  {"t":"獣医学部（6年制）は国際標準のカリキュラムに加え、大都市大阪ならではのコンパニオンアニマル中心の都市型教育を行い、動物病院での実習や保健所・空港検疫所での職場体験がある","src":"https://search.keinet.ne.jp/1615/outline/department"},
+  {"t":"現代システム科学域は課題解決型のPBLを重視し、学類の枠を超えて学べる「未来デザインコース（FDC）」を置いている","src":"https://search.keinet.ne.jp/1615/outline/department"},
+  {"t":"生活科学部に食栄養・居住環境・人間福祉の3学科があり、暮らしと健康を研究対象にしている","src":"https://search.keinet.ne.jp/1615/outline/department"},
+  {"t":"工学部は航空宇宙工学科・海洋システム工学科を含む12学科に分かれている","src":"https://search.keinet.ne.jp/1615/outline/department"}],
+ "vs":[
+  {"u":"神戸大学","t":"神戸大学は文・国際人間科学・海洋政策科学など11学部で獣医学部・生活科学部は置いていないが、大阪公立大学は獣医学部と生活科学部をもつ","src":"https://search.keinet.ne.jp/1310/outline/department"},
+  {"u":"大阪大学","t":"大阪大学は外国語・歯・薬学部などをもつが農学部・獣医学部は置いておらず、大阪公立大学は農学部（応用生物科学など3学科）と獣医学部で農・獣医系を学べる","src":"https://search.keinet.ne.jp/1295/outline/department"}]}},
+{"name":"国際教養大学","story":{
+ "summary":"秋田県にある公立大学で、国際教養学部国際教養学科の1学部1学科（入学定員175名）。4年間すべての授業を英語で行い、1年間の海外留学が全員に義務づけられている。2年次にグローバル・ビジネス／グローバル・スタディズ／グローバル・コネクティビティの3領域から1つを選び、平均17名ほどの少人数クラスで学ぶ。",
+ "only":[
+  {"t":"4年間すべての授業を英語で行い、1年次は週約20時間の英語集中プログラム（EAP）で学ぶ","src":"https://passnavi.obunsha.co.jp/univ/1025/department/"},
+  {"t":"1年間の海外留学が全員に義務づけられている","src":"https://search.keinet.ne.jp/outline/department/1521"},
+  {"t":"1クラスの平均人数は17名で、米国式の教育を取り入れ、国際色豊かな教員や留学生とのディスカッションを重視している","src":"https://search.keinet.ne.jp/outline/department/1521"},
+  {"t":"2年次にグローバル・ビジネス、グローバル・スタディズ、グローバル・コネクティビティの3領域から専門を選び、領域をまたいで履修できる","src":"https://passnavi.obunsha.co.jp/univ/1025/department/"}],
+ "vs":[
+  {"u":"秋田大学","t":"同じ秋田県の秋田大学は教育文化・国際資源・医学部など5学部に分かれて学ぶが、国際教養大学は国際教養学科1学科の中で3領域から専門を選ぶ","src":"https://search.keinet.ne.jp/1060/outline/department"}]}}
+]
