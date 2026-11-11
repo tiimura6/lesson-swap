@@ -59,6 +59,10 @@ Searchuniv に全国の大学を少しずつ追加し、既存校の空欄（研
 - playwright が無い環境では構文チェックだけになる。その場合も「NG」が出たらコミットしない。
 - `su-module.js` は飯村システム（tiimura6/lesson-swap の「大学・進路」タブ）が直接読み込む。`window.SearchunivModule.apiVersion`（いまは 1）と `mount()` の引数・`Searchuniv` の関数名を変えるときは、lesson-swap 側も同時に直す。
 
+## 新設・募集停止の確認（2026-11-11〜）
+- 年2回（9月：文部科学省の設置認可の後／12月：河合塾 Kei-Net「新設大学・学部」一覧 `https://search.keinet.ne.jp/contents/increase_plan/<年度>/increase_plan.pdf` が出た後）、新しく開学する大学と募集を停止する大学を確かめる。
+- 新設校は `master_list.json` と `queue.json` の `add` に足す（`complete` は false に戻す）。募集停止の大学は報告に書き、先生の判断を待つ（勝手に消さない）。
+
 ## 載せない学校（2026-11-07 先生の方針）
 - **一般の高校生に受験資格がない学校は載せない**。例：大学院のみの大学（〇〇大学院大学など）、公務員の研修機関（税務大学校・警察大学校・消防大学校・自治大学校など、採用後の職員だけが入る学校）。
 - 新規追加の前に、その学校に「高校卒業（見込み）者が出願できる入試」があるかを公式サイトで確かめ、無ければ batch に入れずに `data/queue.json` の `excluded` に `{name, reason}` を足して `add` から外す。
