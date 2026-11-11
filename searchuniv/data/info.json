@@ -3463,7 +3463,8 @@
 "https://search.keinet.ne.jp/1050/general/exam_subject",
 "https://admissions.tohoku.ac.jp/ja/20260716/",
 "https://telemail.jp/shingaku/university/10003359/examination/general",
-"https://passnavi.obunsha.co.jp/univ/0100/expense/"
+"https://passnavi.obunsha.co.jp/univ/0100/expense/",
+"https://www.eng.tohoku.ac.jp/media/files/pdf/contact/ao_2027.pdf"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -3895,7 +3896,7 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "oc": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-11",
 "_via": "2026-11-07"
 },
 "money": {
@@ -4240,6 +4241,26 @@
 "result": "3/22",
 "proc": "3/27",
 "note": "実施学部：経済学部（文系・理系）、理学部（数学系・物理系・化学系・地球科学系）／必要書類2月3日（水）必着"
+},
+{
+"kubun": "総合型",
+"name": "AO入試Ⅱ期（共テなし）",
+"apply": "10/13〜10/16",
+"exam": "11/7（第1次）・11/28（第2次）",
+"result": "12/4",
+"proc": null,
+"fee": null,
+"note": "学部により異なる（工学部の例）。第1次結果11/20"
+},
+{
+"kubun": "総合型",
+"name": "AO入試Ⅲ期（共テあり）",
+"apply": "1/19〜1/22",
+"exam": "2/8（第2次）",
+"result": "2/10",
+"proc": null,
+"fee": null,
+"note": "学部により異なる（工学部の例）。第1次結果2/4"
 }
 ]
 },
@@ -4292,7 +4313,9 @@
 "https://search.keinet.ne.jp/1250/outline/admission_employment",
 "https://search.keinet.ne.jp/1250/general/exam_subject",
 "https://www.nagoya-u.ac.jp/admissions/exam/upload/r9_senbatsuyoko.pdf",
-"https://passnavi.obunsha.co.jp/univ/0490/expense/"
+"https://passnavi.obunsha.co.jp/univ/0490/expense/",
+"https://www.nagoya-u.ac.jp/admissions/exam/upload/R9_application_guide_sui.pdf",
+"https://www.nagoya-u.ac.jp/admissions/exam/upload/R9_ao_application_guide_1.pdf"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -4658,7 +4681,7 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "oc": "2026-11-07",
-"schedule": "2026-11-07"
+"schedule": "2026-11-11"
 },
 "money": {
 "year": "2026年度",
@@ -4983,6 +5006,46 @@
 "result": "3/20",
 "proc": "3/27",
 "note": "後期は医学部医学科のみ実施"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（共通テストを課さない：文学部）",
+"apply": "10/23〜11/5",
+"exam": "11/26（第2次：小論文・面接）",
+"result": "12/9",
+"proc": "2/16",
+"fee": 17000,
+"note": "出願登録・検定料納入の期間。書類は11/2〜11/6必着。第1次選考結果11/18"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（共通テストを課す：文学部以外）",
+"apply": "1/6〜1/21",
+"exam": "2/8（第2次：面接等）",
+"result": "2/10",
+"proc": "2/16",
+"fee": 17000,
+"note": "出願登録・検定料納入の期間。書類は1/19〜1/22必着。第1次選考結果2/5。理・農は第2次なし"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（理学部 化学科・生命理学科：共テなし）",
+"apply": "9/24〜10/6",
+"exam": "化学11/21・生命理10/31（第2次）",
+"result": "化学11/27・生命理11/13",
+"proc": "12/6",
+"fee": 17000,
+"note": "化学科は11/7に小論文（第1次）"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（理学部 数理・物理・地球惑星科学科：共テあり）",
+"apply": "1/6〜1/21",
+"exam": "2/8（第2次：面接）",
+"result": "2/10",
+"proc": "2/16",
+"fee": 17000,
+"note": "第1次選考結果2/5"
 }
 ]
 }
@@ -140140,7 +140203,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-11",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -140186,6 +140249,51 @@ null
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "一般",
+"name": "一般選抜 前期（2科目型・3科目型）",
+"apply": "1/12〜1/29",
+"exam": "2/4・2/5",
+"result": "2/12",
+"proc": "3/5",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期（1科目型）",
+"apply": "2/15〜3/1",
+"exam": "3/5",
+"result": "3/10",
+"proc": "3/24",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 前期（2教科型・3教科型）",
+"apply": "12/21〜1/15",
+"exam": "1/16・1/17（共テ）",
+"result": "2/12",
+"proc": "3/5",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 中期（2教科型・3教科型）",
+"apply": "2/15〜3/1",
+"exam": "1/16・1/17（共テ）",
+"result": "3/10",
+"proc": "3/24",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 後期（1教科型・2教科型）",
+"apply": "3/4〜3/18",
+"exam": "1/16・1/17（共テ）",
+"result": "3/23",
+"proc": "3/26",
+"fee": null
+},
+{
 "kubun": "推薦",
 "name": "学校推薦型選抜入試（公募）",
 "apply": "11/2〜11/10",
@@ -140193,8 +140301,27 @@ null
 "result": null,
 "proc": null,
 "fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（AO中期）",
+"apply": "〜10/13",
+"exam": "10/18",
+"result": "11/12",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（AO後期）",
+"apply": "〜1/21",
+"exam": "1/23",
+"result": "2/12",
+"proc": null,
+"fee": null
 }
-]
+],
+"note": "児童保育学科・乳児保育学科で共通の日程。出典：マナビジョン（2027年度入試情報）。検定料は記載なし"
 },
 "money": {
 "year": "2026年度",
@@ -140219,7 +140346,8 @@ null
 "https://soho.jonan.jp/examinfo/schedule/",
 "https://search.keinet.ne.jp/2553/general/border_rate",
 "https://search.keinet.ne.jp/2553/outline/expense",
-"https://passnavi.obunsha.co.jp/univ/4187/difficulty/"
+"https://passnavi.obunsha.co.jp/univ/4187/difficulty/",
+"https://manabi.benesse.ne.jp/daigaku/school/3670/nyushi/index.html"
 ]
 },
 "大阪芸術大学": {
@@ -140232,7 +140360,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-11",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -140293,14 +140421,92 @@ null
 "rows": [
 {
 "kubun": "一般",
+"name": "一般選抜入学試験（1期）",
+"apply": "11/1〜11/8",
+"exam": "11/14・11/15（学科により指定）",
+"result": "12/1",
+"proc": "12/18",
+"fee": null,
+"note": "試験日：デザイン・写真・映像・文芸・芸術計画・舞台芸術・音楽は前日、アートサイエンス・美術・工芸・建築・キャラクター造形・放送・演奏・初等芸術教育は翌日"
+},
+{
+"kubun": "一般",
 "name": "一般選抜入学試験（2期）",
 "apply": "1/18〜1/28",
 "exam": "2/5・2/6（学科により指定）",
 "result": "2/20",
-"proc": null,
+"proc": "3/3",
+"fee": null,
+"note": "試験日：デザイン・写真・映像・文芸・芸術計画・舞台芸術・音楽は前日、アートサイエンス・美術・工芸・建築・キャラクター造形・放送・演奏・初等芸術教育は翌日"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト＋専門試験（2期）",
+"apply": "1/18〜1/28",
+"exam": "1/16・1/17（共テ）＋2/5・2/6（専門）",
+"result": "2/20",
+"proc": "3/3",
 "fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用入学試験（1期）",
+"apply": "1/18〜1/28",
+"exam": "1/16・1/17（共テ）",
+"result": "2/20",
+"proc": "3/3",
+"fee": null,
+"note": "全15学科"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用入学試験（2期）",
+"apply": "3/1〜3/6",
+"exam": "1/16・1/17（共テ）",
+"result": "3/18",
+"proc": "3/25",
+"fee": null,
+"note": "全15学科"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（スポーツ）",
+"apply": "10/7〜10/9",
+"exam": "11/6",
+"result": "12/1",
+"proc": "12/18",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（1期）",
+"apply": "9/1〜9/6",
+"exam": "9/12・9/13",
+"result": "9/17",
+"proc": "11/17",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（2期）",
+"apply": "10/1〜10/6",
+"exam": "10/11・10/12",
+"result": "10/16",
+"proc": "11/17",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（学外試験）",
+"apply": "9/1〜9/6",
+"exam": "9/20",
+"result": "9/25",
+"proc": "11/17",
+"fee": null,
+"note": "写真・映像・キャラクター造形・文芸・放送・芸術計画学科"
 }
-]
+],
+"note": "出典：マナビジョン（2027年度入試情報）。検定料は記載なし"
 },
 "money": {
 "year": "2027年度",
@@ -140385,7 +140591,9 @@ null
 "https://www.osaka-geidai.ac.jp/nyusi/exam",
 "https://www.osaka-geidai.ac.jp/nyusi/exam/general",
 "https://www.osaka-geidai.ac.jp/nyusi/expense",
-"https://search.keinet.ne.jp/2522/general/border_rate"
+"https://search.keinet.ne.jp/2522/general/border_rate",
+"https://manabi.benesse.ne.jp/daigaku/school/3631/nyushi/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3631/gakuhi/index.html"
 ]
 },
 "大阪行岡医療大学": {
@@ -140397,7 +140605,7 @@ null
 "departments": "2026-11-07",
 "difficulty": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-11",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -140449,7 +140657,8 @@ null
 "exam": "1/17",
 "result": "1/20",
 "proc": null,
-"fee": 30000
+"fee": 30000,
+"note": "マナビジョン（2027年度入試情報）の一般選抜は第1期（2月上旬）・第2期（2月下旬）のみで、この日程は公募推薦3回目と同じ。要公式確認"
 },
 {
 "kubun": "一般",
@@ -140457,8 +140666,9 @@ null
 "apply": "1/26〜2/4",
 "exam": "2/6",
 "result": "2/10",
-"proc": null,
-"fee": 30000
+"proc": "2/24",
+"fee": 30000,
+"note": "第1期（学科型・小論文型）"
 },
 {
 "kubun": "一般",
@@ -140466,8 +140676,39 @@ null
 "apply": "2/16〜2/25",
 "exam": "2/27",
 "result": "3/3",
-"proc": null,
-"fee": 30000
+"proc": "3/17",
+"fee": 30000,
+"note": "第2期（学科型・小論文型）"
+},
+{
+"kubun": "推薦",
+"name": "公募推薦（1回目）",
+"apply": "11/2〜11/12",
+"exam": "11/14",
+"result": "12/2",
+"proc": "12/16",
+"fee": null,
+"note": "学科型・小論文型"
+},
+{
+"kubun": "推薦",
+"name": "公募推薦（2回目）",
+"apply": "12/8〜12/17",
+"exam": "12/19",
+"result": "12/23",
+"proc": "1/13",
+"fee": null,
+"note": "学科型・小論文型"
+},
+{
+"kubun": "推薦",
+"name": "公募推薦（3回目）",
+"apply": "1/5〜1/14",
+"exam": "1/17",
+"result": "1/20",
+"proc": "2/3",
+"fee": null,
+"note": "学科型・小論文型"
 }
 ]
 },
@@ -140494,7 +140735,8 @@ null
 "https://www.yukioka-u.ac.jp/entrance/",
 "https://www.yukioka-u.ac.jp/assets/images/entrance/pdf/admission_2027.pdf",
 "https://passnavi.obunsha.co.jp/univ/4212/difficulty/",
-"https://search.keinet.ne.jp/2596/general/border_rate"
+"https://search.keinet.ne.jp/2596/general/border_rate",
+"https://manabi.benesse.ne.jp/daigaku/school/3675/nyushi/index.html"
 ]
 },
 "静岡文化芸術大学": {
@@ -142289,8 +142531,8 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
-"money": "2026-11-07",
+"schedule": "2026-11-11",
+"money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07"
@@ -142359,35 +142601,92 @@ null
 },
 {
 "kubun": "一般",
+"name": "一般選抜 中期",
+"apply": "1/21〜2/8",
+"exam": "2/13",
+"result": "2/22",
+"proc": "3/8",
+"fee": null
+},
+{
+"kubun": "一般",
 "name": "一般選抜 後期",
 "apply": "2/9〜3/1",
 "exam": "3/7",
 "result": "3/12",
-"proc": null,
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 前期",
+"apply": "1/6〜2/12",
+"exam": "1/16・1/17（共テ）",
+"result": "2/22",
+"proc": "3/8",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 後期",
+"apply": "2/15〜3/5",
+"exam": "1/16・1/17（共テ）",
+"result": "3/12",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型（公募制推薦）",
+"apply": "10/13〜10/30",
+"exam": "11/7",
+"result": "11/17",
+"proc": "12/7",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅱ期",
+"apply": "9/24〜10/9",
+"exam": "10/18",
+"result": "11/2",
+"proc": "11/17",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅲ期",
+"apply": "11/16〜12/4",
+"exam": "12/13",
+"result": "12/22",
+"proc": "1/12",
 "fee": null
 }
-]
+],
+"note": "教育学部・看護学部で共通の日程。出典：マナビジョン（2027年度入試情報）・Kei-Net。検定料は記載なし"
 },
 "money": {
 "year": "2027年度",
+"note": "初年度合計は2027年度（既存）。内訳は河合塾Kei-Net（2026年度入学者用）で、合計が2027年度と同額。マナビジョン（2027年度）の教育学部は諸会費を除く1,450,000円",
+"source": "https://search.keinet.ne.jp/2608/outline/expense",
 "rows": [
 {
 "f": "教育学部 教育学科",
 "admission": 250000,
-"tuition": null,
-"facility": null,
+"tuition": 900000,
+"facility": 260000,
 "practical": null,
-"other": null,
+"other": 40810,
 "first_year": 1450810,
 "four_year": null
 },
 {
 "f": "看護学部 看護学科",
 "admission": 250000,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
+"tuition": 1200000,
+"facility": 380000,
+"practical": 80000,
+"other": 41520,
 "first_year": 1951520,
 "four_year": null
 }
@@ -142401,7 +142700,11 @@ null
 "https://www.osgu.ac.jp/admissions/guidelines/ippan_early/",
 "https://www.best-shingaku.net/special/fa_p015nyushicalendar_list.php?daigakucode=3682",
 "https://shingakunet.com/gakko/SC006744/gakuhi/",
-"https://passnavi.obunsha.co.jp/univ/4183/difficulty/"
+"https://passnavi.obunsha.co.jp/univ/4183/difficulty/",
+"https://manabi.benesse.ne.jp/daigaku/school/3682/nyushi/index.html",
+"https://search.keinet.ne.jp/2608/general/schedule",
+"https://search.keinet.ne.jp/2608/outline/expense",
+"https://manabi.benesse.ne.jp/daigaku/school/3682/gakuhi/index.html"
 ]
 },
 "大阪医科薬科大学": {
@@ -142416,8 +142719,8 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
-"money": "2026-11-07",
+"schedule": "2026-11-11",
+"money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07"
@@ -142492,6 +142795,51 @@ null
 "rows": [
 {
 "kubun": "一般",
+"name": "医学部 一般選抜 前期（一般枠・大阪府地域枠）",
+"apply": "12/9〜1/20",
+"exam": "2/10",
+"result": "2/20",
+"proc": "2/27",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "医学部 一般選抜 後期",
+"apply": "12/9〜2/22",
+"exam": "3/10",
+"result": "3/19",
+"proc": "3/26",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "医学部 共通テスト利用",
+"apply": "12/9〜1/15",
+"exam": "1/16・1/17（共テ）",
+"result": "3/1",
+"proc": "3/8",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "医学部 至誠仁術併願制（共テ）",
+"apply": "12/9〜1/15",
+"exam": "1/16・1/17（共テ）",
+"result": "3/16",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "医学部 公募制推薦（専願制）",
+"apply": "11/1〜11/7",
+"exam": "11/21",
+"result": "12/1",
+"proc": "12/11",
+"fee": null
+},
+{
+"kubun": "一般",
 "name": "薬学部 一般入学試験A",
 "apply": "1/6〜1/22",
 "exam": "2/1",
@@ -142518,18 +142866,58 @@ null
 "fee": 20000
 },
 {
+"kubun": "推薦",
+"name": "薬学部 公募制推薦（併願制・専願制）",
+"apply": "11/1〜11/9",
+"exam": "11/15",
+"result": "12/3",
+"proc": "併願12/14・専願12/21",
+"fee": null
+},
+{
 "kubun": "一般",
 "name": "看護学部 一般選抜",
 "apply": "12/9〜1/15",
 "exam": "2/6・2/7",
-"result": null,
+"result": "2/16",
 "proc": "1次2/26・2次3/12",
-"fee": 35000
+"fee": 35000,
+"note": "2科目・3科目・外部試験利用型。手続は1次2/26（マナビジョン）"
+},
+{
+"kubun": "共テ利用",
+"name": "看護学部 共通テスト利用",
+"apply": "12/9〜1/15",
+"exam": "1/16・1/17（共テ）",
+"result": "2/25",
+"proc": "3/5",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "看護学部 公募制推薦（併願制・専願制）",
+"apply": "11/2〜11/9",
+"exam": "11/23",
+"result": "12/1",
+"proc": "12/11",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "看護学部 至誠仁術専願制",
+"apply": "10/1〜10/8",
+"exam": "11/23",
+"result": "12/1",
+"proc": "12/11",
+"fee": null
 }
-]
+],
+"note": "出典：マナビジョン（2027年度入試情報）。検定料は既存（公式）の値"
 },
 "money": {
 "year": "2026年度",
+"note": "河合塾Kei-Net（2026年度入学者用）。別途、医学部はPA会費前期分50,000円・学友会費15,000円、薬学部は学友会費6,000円・PA会費18,000円・同窓会費20,000円、看護学部はPA会費20,000円・学友会費15,000円",
+"source": "https://search.keinet.ne.jp/2516/outline/expense",
 "rows": [
 {
 "f": "医学部 医学科（6年制）",
@@ -142539,6 +142927,26 @@ null
 "practical": 345000,
 "other": 1500000,
 "first_year": 5985000,
+"four_year": null
+},
+{
+"f": "薬学部 薬学科（6年制）",
+"admission": 400000,
+"tuition": 1200000,
+"facility": 600000,
+"practical": null,
+"other": null,
+"first_year": 2200000,
+"four_year": null
+},
+{
+"f": "看護学部 看護学科",
+"admission": 200000,
+"tuition": 1200000,
+"facility": 300000,
+"practical": 200000,
+"other": null,
+"first_year": 1900000,
 "four_year": null
 }
 ]
@@ -142553,7 +142961,9 @@ null
 "https://www.ompu.ac.jp/admission/undergraduate/qt931k000000805t-att/afif3u000000ft3b.pdf",
 "https://www.ompu.ac.jp/admission/undergraduate/qt931k000000803s-att/hvetv40000005r2s.pdf",
 "https://manabi.benesse.ne.jp/daigaku/school/3627/gakuhi/",
-"https://passnavi.obunsha.co.jp/univ/4070/difficulty/"
+"https://passnavi.obunsha.co.jp/univ/4070/difficulty/",
+"https://manabi.benesse.ne.jp/daigaku/school/3627/nyushi/index.html",
+"https://search.keinet.ne.jp/2516/outline/expense"
 ]
 },
 "大阪商業大学": {
