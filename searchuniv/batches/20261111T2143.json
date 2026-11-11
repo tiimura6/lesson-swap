@@ -1,0 +1,659 @@
+[
+{
+"name": "松本大学",
+"info": {
+"money_replace": {
+"year": "2027年度",
+"rows": [
+{
+"f": "総合経営学部（総合経営・観光ホスピタリティ）",
+"admission": 250000,
+"tuition": 800000,
+"facility": 300000,
+"practical": 0,
+"other": 62010,
+"first_year": 1412010,
+"four_year": null
+},
+{
+"f": "人間健康学部 健康栄養学科",
+"admission": 250000,
+"tuition": 840000,
+"facility": 350000,
+"practical": 100000,
+"other": 62010,
+"first_year": 1602010,
+"four_year": null
+},
+{
+"f": "人間健康学部 スポーツ健康学科",
+"admission": 250000,
+"tuition": 840000,
+"facility": 350000,
+"practical": 0,
+"other": 62010,
+"first_year": 1502010,
+"four_year": null
+},
+{
+"f": "教育学部 学校教育学科",
+"admission": 250000,
+"tuition": 840000,
+"facility": 300000,
+"practical": 50000,
+"other": 62010,
+"first_year": 1502010,
+"four_year": null
+},
+{
+"f": "人間科学群",
+"admission": 250000,
+"tuition": 840000,
+"facility": 300000,
+"practical": 0,
+"other": 62010,
+"first_year": 1452010,
+"four_year": null,
+"note": "2027年4月開設に向けて設置構想中"
+}
+],
+"note": "出典：旺文社パスナビ（2027年度、2026年9月調査時点）。その他は諸会費。入学時最小限納入金額は862,010〜957,010円。詳細は募集要項で確認"
+},
+"sources": [
+"https://passnavi.obunsha.co.jp/univ/3437/expense/"
+]
+}
+},
+{
+"name": "松本看護大学",
+"info": {
+"money_replace": {
+"year": "2027年度",
+"rows": [
+{
+"f": "看護学部 看護学科",
+"admission": 200000,
+"tuition": 880000,
+"facility": 210000,
+"practical": 300000,
+"other": 0,
+"first_year": 1590000,
+"four_year": null
+}
+],
+"note": "出典：旺文社パスナビ（2027年度、2026年9月調査時点）。初年度合計は2026年度と同額で、施設費と諸会費の区分が変わった。入学時最小限納入金額895,000円"
+},
+"sources": [
+"https://passnavi.obunsha.co.jp/univ/3438/expense/"
+]
+}
+},
+{
+"name": "桜花学園大学",
+"info": {
+"money_replace": {
+"year": "2027年度",
+"rows": [
+{
+"f": "教育保育学部 教育保育学科",
+"admission": 200000,
+"tuition": 744000,
+"facility": 420000,
+"practical": 48000,
+"other": 11640,
+"first_year": 1423640,
+"four_year": null
+},
+{
+"f": "国際学部 国際学科",
+"admission": 200000,
+"tuition": 744000,
+"facility": 420000,
+"practical": 48000,
+"other": 11640,
+"first_year": 1423640,
+"four_year": null
+},
+{
+"f": "情報科学部 ソーシャルデータサイエンス学科",
+"admission": 200000,
+"tuition": 780000,
+"facility": 420000,
+"practical": 60000,
+"other": 11640,
+"first_year": 1471640,
+"four_year": null,
+"note": "2027年4月開設"
+}
+],
+"note": "出典：旺文社パスナビ（2027年度、2026年9月調査時点）。施設費は教育充実費、実習費は演習教材費、その他は学生会費と諸保険料（昨年度合計）。ほかに校外教育活動費が必要。入学金以外は入学後に納入"
+},
+"schedule_replace": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜 自己推薦・さくら選抜・グローバル（教育保育学部）",
+"apply": "9/29〜10/6・11/10〜11/17",
+"exam": "10/18・11/28",
+"result": "11/3・12/8",
+"proc": "11/11・12/16",
+"fee": null,
+"note": "国際学部のさくら選抜は6回（9/29〜3/6試験）、グローバルは3回。学部により異なる"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 小論文型・講座参加型・成果物PR型・活動PR型（情報科学部）",
+"apply": "10/6〜10/13・10/27〜11/3・11/17〜11/24・12/18〜12/25",
+"exam": "10/25・11/14・12/6・1/9",
+"result": "11/3・11/25・12/15・1/19",
+"proc": "11/11・12/3・12/23・1/27",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 基礎学力評価型",
+"apply": "11/10〜11/17",
+"exam": "11/29",
+"result": "12/8",
+"proc": "12/16",
+"fee": null,
+"note": "全学部"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 公募制推薦・専門総合公募制",
+"apply": "11/10〜11/17",
+"exam": "11/29",
+"result": "12/8",
+"proc": "12/16",
+"fee": null,
+"note": "全学部（情報科学部はE区分もあり）"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 ⅠA・ⅠB",
+"apply": "1/6〜1/15",
+"exam": "1/31",
+"result": "2/10",
+"proc": "2/18",
+"fee": null,
+"note": "国際学部はⅠBのみ"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ",
+"apply": "1/6〜1/15",
+"exam": "2/1",
+"result": "2/10",
+"proc": "2/18",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅲ",
+"apply": "1/25〜2/3",
+"exam": "2/16",
+"result": "2/23",
+"proc": "3/3",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅳ",
+"apply": "2/22〜3/1",
+"exam": "3/9",
+"result": "3/12",
+"proc": "3/20",
+"fee": null,
+"note": "国際学部・情報科学部のみ"
+},
+{
+"kubun": "共テ利用",
+"name": "一般選抜 共通テスト利用",
+"apply": "1/25〜2/3",
+"exam": "共通テスト",
+"result": "2/23",
+"proc": "3/3",
+"fee": null
+}
+],
+"note": "出典：マナビジョン（2027年度入試）。すべてネット出願。検定料は記載なし"
+},
+"sources": [
+"https://passnavi.obunsha.co.jp/univ/3657/expense/",
+"https://manabi.benesse.ne.jp/daigaku/school/3552/nyushi/gokaku-happyo/index.html"
+]
+}
+},
+{
+"name": "椙山女学園大学",
+"info": {
+"money_replace": {
+"year": "2027年度",
+"rows": [
+{
+"f": "生活科学部 管理栄養学科",
+"admission": 200000,
+"tuition": 785000,
+"facility": 380000,
+"practical": 112000,
+"other": 30660,
+"first_year": 1507660,
+"four_year": null
+},
+{
+"f": "生活科学部 生活環境デザイン学科",
+"admission": 200000,
+"tuition": 785000,
+"facility": 380000,
+"practical": 35000,
+"other": 30660,
+"first_year": 1430660,
+"four_year": null
+},
+{
+"f": "外国語学部（英語英米・国際教養）",
+"admission": 200000,
+"tuition": 735000,
+"facility": 350000,
+"practical": 4000,
+"other": 30660,
+"first_year": 1319660,
+"four_year": null
+},
+{
+"f": "人間関係学部 人間共生学科",
+"admission": 200000,
+"tuition": 735000,
+"facility": 350000,
+"practical": 2000,
+"other": 30660,
+"first_year": 1317660,
+"four_year": null
+},
+{
+"f": "人間関係学部 心理学科",
+"admission": 200000,
+"tuition": 735000,
+"facility": 350000,
+"practical": 9000,
+"other": 30660,
+"first_year": 1324660,
+"four_year": null
+},
+{
+"f": "情報社会学部（情報デザイン・現代社会）",
+"admission": 200000,
+"tuition": 735000,
+"facility": 350000,
+"practical": 7000,
+"other": 30660,
+"first_year": 1322660,
+"four_year": null
+},
+{
+"f": "現代マネジメント学部",
+"admission": 200000,
+"tuition": 735000,
+"facility": 350000,
+"practical": 4000,
+"other": 30660,
+"first_year": 1319660,
+"four_year": null
+},
+{
+"f": "教育学部 子ども発達学科〈保育・初等教育専修〉",
+"admission": 200000,
+"tuition": 785000,
+"facility": 380000,
+"practical": 66000,
+"other": 30660,
+"first_year": 1461660,
+"four_year": null
+},
+{
+"f": "教育学部 子ども発達学科〈初等中等教育専修〉",
+"admission": 200000,
+"tuition": 785000,
+"facility": 380000,
+"practical": 24000,
+"other": 30660,
+"first_year": 1419660,
+"four_year": null
+},
+{
+"f": "看護学部 看護学科",
+"admission": 200000,
+"tuition": 1200000,
+"facility": 500000,
+"practical": 0,
+"other": 29300,
+"first_year": 1929300,
+"four_year": null,
+"note": "実験・実習費は教育充実費に含む"
+}
+],
+"note": "出典：旺文社パスナビ（2027年度）。施設費は教育充実費、実習費は学部教学費・課程履修費、その他は諸会費。入学時最小限納入金額は200,000円（授業料は入学後に納入）"
+},
+"schedule_replace": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜（学科適性・自己表現・椙大共通適性など）",
+"apply": "9/1〜9/11",
+"exam": "9/26または10/3",
+"result": "11/2",
+"proc": "11/6",
+"fee": null,
+"note": "探究活動（子ども発達学科）は出願9/1〜9/14・試験10/3"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 公募推薦Ⅰ",
+"apply": "11/2〜11/6",
+"exam": "11/21・11/22（種類により異なる）",
+"result": "12/1",
+"proc": "12/7",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 公募推薦Ⅱ（表現力）",
+"apply": "12/1〜12/4",
+"exam": "12/12",
+"result": "12/18",
+"proc": "1/6",
+"fee": null,
+"note": "管理栄養・子ども発達・看護は実施なし"
+},
+{
+"kubun": "一般",
+"name": "一般入試A（A2・A3教科型、共テ併用型）",
+"apply": "1/6〜1/22",
+"exam": "1/31・2/1・2/3",
+"result": "2/10",
+"proc": "2/22",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用A（A2・A3・A5教科型）",
+"apply": "1/6〜1/25",
+"exam": "共通テスト",
+"result": "2/10",
+"proc": "2/22",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般入試B（B2教科型・B併用型）",
+"apply": "2/12〜2/26",
+"exam": "3/5",
+"result": "3/12",
+"proc": "3/19",
+"fee": null,
+"note": "管理栄養学科はB2教科型なし"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用B（B2・B3教科型）",
+"apply": "2/12〜2/26",
+"exam": "共通テスト",
+"result": "3/12",
+"proc": "3/19",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 自己アピール",
+"apply": "2/12〜2/26",
+"exam": "3/5",
+"result": "3/12",
+"proc": "3/19",
+"fee": null
+}
+],
+"note": "出典：マナビジョン（2027年度入試）。検定料は記載なし"
+},
+"sources": [
+"https://passnavi.obunsha.co.jp/univ/3670/expense/",
+"https://manabi.benesse.ne.jp/daigaku/school/3530/nyushi/gokaku-happyo/index.html"
+]
+}
+},
+{
+"name": "上武大学",
+"info": {
+"schedule_replace": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜 A方式",
+"apply": "8/3〜8/27（郵送必着）",
+"exam": "9/5・9/6",
+"result": "11/3",
+"proc": "11/17",
+"fee": null,
+"note": "看護学部の手続締切は11/11"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 B（特待生・自己推薦など）",
+"apply": "9/1〜9/25ほか（ネット）",
+"exam": "10/3・11/1・11/28ほか",
+"result": "11/3・11/6・12/3ほか",
+"proc": "11/17・11/20・12/17ほか",
+"fee": null,
+"note": "ビジネス情報学部の自己推薦は6回（最終3/5試験）、看護学部は4回（10/3・10/31・11/28・3/5試験）。学部により異なる"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 公募制",
+"apply": "11/2〜11/6",
+"exam": "11/14",
+"result": "12/1",
+"proc": "12/14",
+"fee": null,
+"note": "看護学部は11/2〜11/6（試験11/15）と11/10〜11/19（試験11/28）の2回"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 全学統一",
+"apply": "12/21〜1/21",
+"exam": "2/2・2/3",
+"result": "2/11",
+"proc": "2/19",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 前期",
+"apply": "12/21〜1/29",
+"exam": "共通テスト",
+"result": "2/18",
+"proc": "2/26",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 中期",
+"apply": "2/1〜2/19",
+"exam": "共通テスト",
+"result": "3/4",
+"proc": "3/11",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 後期",
+"apply": "2/22〜3/1",
+"exam": "共通テスト",
+"result": "3/11",
+"proc": "3/18",
+"fee": null
+}
+],
+"note": "出典：マナビジョン（2027年度入試）。検定料は記載なし"
+},
+"sources": [
+"https://manabi.benesse.ne.jp/daigaku/school/3133/nyushi/gokaku-happyo/index.html"
+]
+}
+},
+{
+"name": "三育学院大学",
+"info": {
+"schedule_replace": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅰ期",
+"apply": "10/5〜10/13",
+"exam": "10/18",
+"result": "11/2",
+"proc": "1/29",
+"fee": 30000
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅱ期",
+"apply": "11/9〜11/16",
+"exam": "11/22",
+"result": "12/1",
+"proc": "1/29",
+"fee": 30000
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅲ期",
+"apply": "11/30〜12/7",
+"exam": "12/13",
+"result": "12/18",
+"proc": "1/29",
+"fee": 30000
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 公募制・キリスト者等・地域推薦 Ⅰ期（指定校も同日程）",
+"apply": "11/9〜11/16",
+"exam": "11/22",
+"result": "12/1",
+"proc": "1/29",
+"fee": 30000
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 公募制・キリスト者等・地域推薦 Ⅱ期",
+"apply": "11/30〜12/7",
+"exam": "12/13",
+"result": "12/18",
+"proc": "1/29",
+"fee": 30000
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅰ期（総合型Ⅳ期も同日程）",
+"apply": "1/25〜2/1",
+"exam": "2/7",
+"result": "2/12",
+"proc": "2/26",
+"fee": 30000
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期（総合型Ⅴ期も同日程）",
+"apply": "2/15〜2/22",
+"exam": "2/28",
+"result": "3/5",
+"proc": "3/26",
+"fee": 30000
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅲ期（総合型Ⅵ期も同日程）",
+"apply": "3/1〜3/8",
+"exam": "3/14",
+"result": "3/18",
+"proc": "3/26",
+"fee": 30000
+}
+],
+"note": "看護学部看護学科。出典：大学公式 2027年度学生募集要項。共通テスト利用の記載なし"
+},
+"sources": [
+"https://www.saniku.ac.jp/admissions/files/2027applicationbook_06.pdf"
+]
+}
+},
+{
+"name": "熊本大学",
+"story": {
+"summary": "熊本大学は文・教育・法・理・工・医・薬の7学部に、文理融合の情報融合学環と共創学環をもつ総合大学。工学部には半導体デバイス工学課程があり、情報融合学環でも2年次に「DS半導体コース」を選べるなど、半導体分野を設計から製造プロセスまで学ぶ道がある。文学部・理学部・工学部は入学後に幅広く学んでから専門のコース・プログラムを選ぶ。",
+"only": [
+{
+"t": "工学部の半導体デバイス工学課程では、集積回路・システムの設計から半導体デバイス・製造プロセスまでを学ぶ",
+"src": "https://search.keinet.ne.jp/1440/outline/department"
+},
+{
+"t": "情報融合学環は文理融合でデータサイエンスの基盤を学び、2年次に「DS総合コース」か「DS半導体コース」を選ぶ",
+"src": "https://search.keinet.ne.jp/1440/outline/department"
+},
+{
+"t": "共創学環は産学官金連携による文理融合型の教育で、3年次に地域イノベーションコースかグローバルイノベーションコースを選ぶ",
+"src": "https://search.keinet.ne.jp/1440/outline/department"
+},
+{
+"t": "法学部は入学時は全員が法学・公共政策学コースに所属し、2年次から成績要件のある法曹コースに進める",
+"src": "https://search.keinet.ne.jp/1440/outline/department"
+}
+],
+"vs": [
+{
+"u": "長崎大学",
+"t": "長崎大学は情報データ科学部を学部として置くが、熊本大学は情報融合学環でデータサイエンスを学び、半導体に特化したコースも選べる",
+"src": "https://search.keinet.ne.jp/1435/outline/department"
+},
+{
+"u": "鹿児島大学",
+"t": "鹿児島大学は水産学部・共同獣医学部をもつが、熊本大学は水産・獣医の学部を置かず、工学部・情報融合学環で半導体分野を学べる",
+"src": "https://search.keinet.ne.jp/1465/outline/department"
+}
+]
+}
+},
+{
+"name": "奈良女子大学",
+"story": {
+"summary": "奈良女子大学は文・理・生活環境・工の4学部をもつ国立の女子大学。工学部は大学が「日本の女子大学史上初の工学部」と紹介する1学科制で、芸術を加えたSTEAM教育とチームで取り組む5つのPBL科目を通して、人間情報か環境デザインの分野で専門性を深める。生活環境学部では食物栄養・心身健康・住環境・文化情報の4学科で、生活の問題を科学的に扱う。",
+"only": [
+{
+"t": "工学部は大学が「日本の女子大学史上初の工学部」と紹介しており、STEAM教育で基礎を学んだうえで人間情報または環境デザインの分野を深める",
+"src": "https://search.keinet.ne.jp/1330/outline/department"
+},
+{
+"t": "工学部では5つのPBL科目で、チームで異分野と連携しながらプロジェクトを進める",
+"src": "https://search.keinet.ne.jp/1330/outline/department"
+},
+{
+"t": "文学部人間科学科に幼稚園・小学校の教員養成を目的とした「子ども教育専修プログラム」がある",
+"src": "https://search.keinet.ne.jp/1330/outline/department"
+},
+{
+"t": "生活環境学部の心身健康学科には生活健康学・スポーツ健康科学・臨床心理学の3コースがある",
+"src": "https://search.keinet.ne.jp/1330/outline/department"
+}
+],
+"vs": [
+{
+"u": "お茶の水女子大学",
+"t": "お茶の水女子大学は共創工学部に人間環境工学科・文化情報工学科の2学科を置くが、奈良女子大学の工学部は工学科の1学科制で、入学後に人間情報か環境デザインの分野を選ぶ",
+"src": "https://search.keinet.ne.jp/1110"
+}
+]
+}
+}
+]
