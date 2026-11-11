@@ -6107,6 +6107,54 @@
 "need": [
 "fees"
 ]
+},
+{
+"name": "東海学園大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "東海学園大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "東海学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "東海学院大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "松本大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "松本歯科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "松本歯科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "松本看護大学",
+"need": [
+"schedule_dates"
+]
 }
 ],
 "failed": [
@@ -6350,7 +6398,9 @@
 "静岡産業大学": 1,
 "大阪女学院大学": 1,
 "大阪商業大学": 1,
-"大阪国際大学": 1
+"大阪国際大学": 1,
+"松本大学": 1,
+"松本看護大学": 1
 },
 "enrich": [
 {
@@ -21112,18 +21162,6 @@
 {
 "name": "東海学園大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "東海学園大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "東海学園大学",
-"need": [
 "scholar"
 ]
 },
@@ -21131,18 +21169,6 @@
 "name": "東海学院大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "東海学院大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "東海学院大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -21160,18 +21186,6 @@
 {
 "name": "松本大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "松本大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "松本大学",
-"need": [
 "scholar"
 ]
 },
@@ -21179,18 +21193,6 @@
 "name": "松本歯科大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "松本歯科大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "松本歯科大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -21203,18 +21205,6 @@
 "name": "松本看護大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "松本看護大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "松本看護大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -26967,6 +26957,18 @@
 "fees"
 ],
 "note": "検索で公式の2027年度学科別学納金を見つけられず（2026-11-11 再）"
+},
+{
+"name": "松本大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "松本看護大学",
+"need": [
+"fees"
+]
 }
 ],
 "complete": false,
