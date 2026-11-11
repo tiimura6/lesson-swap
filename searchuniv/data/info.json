@@ -94743,7 +94743,8 @@
 },
 "sources": [
 "https://jpcup.niad.ac.jp/cn/institute/0516.html",
-"https://search.keinet.ne.jp/1380/outline/expense"
+"https://search.keinet.ne.jp/1380/outline/expense",
+"https://www.kagawa-u.ac.jp/files/7017/8243/1856/2027.pdf"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -94916,7 +94917,8 @@
 "fdiff": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"schedule": "2026-11-11"
 },
 "departments": [
 {
@@ -95121,6 +95123,39 @@
 "note": "施設費なし。設備/実習/諸会費等・保険料・後援会費は記載なし（Kei-Net 2026年度入学者用）"
 }
 ]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅰ（教育・医〈看護〉・創造工・農学部）",
+"apply": "9/1〜9/8",
+"exam": "2次 10/3（看護）・10/17（その他）",
+"result": "最終 11/2",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期日程",
+"apply": "1/25〜2/3",
+"exam": "2/25（医学科は2/25・2/26）",
+"result": "3/6",
+"proc": "3/15",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期日程",
+"apply": null,
+"exam": "3/12（農学部は共テの得点のみ）",
+"result": "3/22",
+"proc": "3/27",
+"fee": null
+}
+],
+"note": "大学公式「2027年度入学者選抜要項」（2026年6月）で確認。共通テストは1/16・1/17。後期日程の出願期間と学校推薦型選抜の日程は要項PDFの表が崩れて読み取れず未記入。検定料は要項に記載なし"
 }
 },
 "高知大学": {
@@ -142978,7 +143013,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-11",
 "money": "2026-11-07",
 "scholar": "2026-11-07",
 "access": "2026-11-07",
@@ -143081,7 +143116,8 @@ null
 "proc": "3/18",
 "fee": null
 }
-]
+],
+"note": "経済・総合経営・公共の3学部共通の日程（マナビジョン2027年度入試で確認）。検定料は方式別の額の掲載なし（マナビジョンの受験アドバイスに「併願入試の検定料は最大10,000円のみ」「共通テスト利用のみ出願の場合は5,000円」とある）"
 },
 "money": {
 "year": "2026年度",
@@ -143118,7 +143154,8 @@ null
 "https://ouc.daishodai.ac.jp/",
 "https://telemail.jp/shingaku/university/10001558/examination/general",
 "https://www.best-shingaku.net/smt/gakuhi2259.html",
-"https://passnavi.obunsha.co.jp/univ/4180/difficulty/"
+"https://passnavi.obunsha.co.jp/univ/4180/difficulty/",
+"https://manabi.benesse.ne.jp/daigaku/school/3638/nyushi/index.html"
 ]
 },
 "大阪国際大学": {
@@ -143133,7 +143170,7 @@ null
 "departments": "2026-11-07",
 "difficulty": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-11",
 "money": "2026-11-07",
 "scholar": "2026-11-07",
 "access": "2026-11-07",
@@ -143194,13 +143231,59 @@ null
 {
 "kubun": "一般",
 "name": "一般選抜 前期日程",
-"apply": null,
-"exam": "2/5・2/6",
-"result": null,
-"proc": null,
+"apply": "1/6〜1/28",
+"exam": "2/5・2/6（自由選択）",
+"result": "2/17",
+"proc": "2/25",
 "fee": 30000
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期日程",
+"apply": "2/15〜2/22",
+"exam": "3/2",
+"result": "3/9",
+"proc": "3/16",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 ラストチャレンジ日程",
+"apply": "3/1〜3/10",
+"exam": "3/16",
+"result": "3/19",
+"proc": "3/25",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（AⅠ・BⅠ・CⅠ・専門総合）",
+"apply": "11/1〜11/6",
+"exam": "11/15",
+"result": "12/2",
+"proc": "12/18",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（AⅡ・BⅡ・CⅡ）",
+"apply": "11/16〜11/26",
+"exam": "12/6",
+"result": "12/14",
+"proc": "12/21",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（AⅢ・BⅢ・CⅢ）",
+"apply": "12/7〜12/15",
+"exam": "12/22",
+"result": "12/26",
+"proc": "1/8",
+"fee": null
 }
-]
+],
+"note": "全学科共通の日程（マナビジョン・テレメール2027年度入試で確認）。ネット出願、必要書類は出願締切日の消印有効。共通テスト利用選抜は掲載なし。後期以降の検定料は未確認"
 },
 "money": {
 "year": "2027年度",
@@ -143238,7 +143321,9 @@ null
 "https://oiuvoice.com/examination/expense/",
 "https://oiuvoice.com/examination/personnel/",
 "https://oiuvoice.com/assets/pdf/examination/2027-nyushiguide.pdf",
-"https://passnavi.obunsha.co.jp/univ/4140/difficulty/?facultyID=020"
+"https://passnavi.obunsha.co.jp/univ/4140/difficulty/?facultyID=020",
+"https://manabi.benesse.ne.jp/daigaku/school/3634/nyushi/gokaku-happyo/index.html",
+"https://telemail.jp/shingaku/university/10001555/examination/general"
 ]
 },
 "大阪国際工科専門職大学": {
@@ -143250,8 +143335,8 @@ null
 "departments": "2026-11-07",
 "difficulty": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
-"money": "2026-11-07",
+"schedule": "2026-11-11",
+"money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07"
@@ -143301,8 +143386,17 @@ null
 "name": "総合型選抜 第3回",
 "apply": "10/26〜11/21",
 "exam": "11/29",
-"result": null,
-"proc": null,
+"result": "12/3（結果発送）",
+"proc": "入学金12/17・学費1/7",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 第1回",
+"apply": null,
+"exam": "1/31",
+"result": "2/4（結果発送）",
+"proc": "入学金2/18・学費3/4",
 "fee": null
 },
 {
@@ -143311,7 +143405,7 @@ null
 "apply": "2/1〜2/9",
 "exam": "2/14",
 "result": "2/18",
-"proc": null,
+"proc": "入学金3/4・学費3/18",
 "fee": null
 },
 {
@@ -143320,35 +143414,40 @@ null
 "apply": "2/15〜3/2",
 "exam": "3/7",
 "result": "3/10",
-"proc": null,
+"proc": "入学金3/17・学費3/24",
 "fee": null
 }
-]
+],
+"note": "日程は東京・名古屋・大阪の3キャンパス共通（2027年度入学試験ガイド）。共通テスト利用入試は実施しない。一般選抜第1回の出願期間と検定料はガイドPDFから読み取れず未記入"
 },
 "money": {
 "year": "2027年度",
 "rows": [
 {
 "f": "工科学部 情報工学科（大阪キャンパス）",
-"admission": null,
-"tuition": null,
-"facility": null,
+"admission": 280000,
+"tuition": 1050000,
+"facility": 480000,
 "practical": null,
 "other": null,
 "first_year": 1810000,
-"four_year": null
+"four_year": null,
+"note": "施設費は設備維持費200,000円＋教育充実費280,000円。教材費（年平均70,000〜98,000円程度）は別途"
 },
 {
 "f": "工科学部 デジタルエンタテインメント学科（大阪キャンパス）",
-"admission": null,
-"tuition": null,
-"facility": null,
+"admission": 280000,
+"tuition": 1080000,
+"facility": 530000,
 "practical": null,
 "other": null,
 "first_year": 1890000,
-"four_year": null
+"four_year": null,
+"note": "施設費は設備維持費200,000円＋教育充実費330,000円。教材費は別途"
 }
-]
+],
+"note": "大学公式「2027年度入学試験ガイド」の大阪キャンパスの学費。学費は年間一括納入",
+"source": "https://www.iput.ac.jp/wp-content/uploads/2026/04/kk_admission-guide_2027.pdf"
 },
 "access": "大阪キャンパス（大阪府大阪市北区梅田3-3-1）",
 "careers": "IT・AIエンジニア、IoT・ロボット開発者、ゲームクリエイター、CGアニメーターなど。",
@@ -143358,7 +143457,8 @@ null
 "https://www.iput.ac.jp/admission/general/",
 "https://www.iput.ac.jp/admission/comprehensive/",
 "https://passnavi.obunsha.co.jp/univ/9215/expense/",
-"https://search.keinet.ne.jp/2113/general/border_rate"
+"https://search.keinet.ne.jp/2113/general/border_rate",
+"https://www.iput.ac.jp/wp-content/uploads/2026/04/kk_admission-guide_2027.pdf"
 ]
 },
 "大阪大谷大学": {
@@ -143374,8 +143474,8 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
-"money": "2026-11-07",
+"schedule": "2026-11-11",
+"money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07"
@@ -143502,42 +143602,59 @@ null
 "proc": "3/24",
 "fee": null
 }
-]
+],
+"note": "検定料は2027年度の額を公式・Kei-Netで確認できず未記入"
 },
 "money": {
 "year": "2026年度",
 "rows": [
 {
-"f": "文学部・人間社会学部",
-"admission": null,
-"tuition": null,
-"facility": null,
+"f": "文学部",
+"admission": 320000,
+"tuition": 910000,
+"facility": 200000,
 "practical": null,
-"other": null,
+"other": 14000,
 "first_year": 1444000,
-"four_year": null
+"four_year": null,
+"note": ""
 },
 {
-"f": "教育学部",
-"admission": null,
-"tuition": null,
-"facility": null,
+"f": "教育学部 教育学科",
+"admission": 320000,
+"tuition": 910000,
+"facility": 210000,
 "practical": null,
-"other": null,
+"other": 14000,
 "first_year": 1454000,
-"four_year": null
+"four_year": null,
+"note": ""
 },
 {
-"f": "薬学部（6年制）",
-"admission": null,
-"tuition": null,
-"facility": null,
+"f": "人間社会学部",
+"admission": 320000,
+"tuition": 910000,
+"facility": 200000,
 "practical": null,
-"other": null,
+"other": 14000,
+"first_year": 1444000,
+"four_year": null,
+"note": ""
+},
+{
+"f": "薬学部 薬学科（6年制）",
+"admission": 400000,
+"tuition": 1410000,
+"facility": 400000,
+"practical": null,
+"other": 14000,
 "first_year": 2224000,
-"four_year": null
+"four_year": null,
+"note": "6年制"
 }
-]
+],
+"note": "内訳は河合塾Kei-Net「学費」（2026年度入学者用）",
+"source": "https://search.keinet.ne.jp/2531/outline/expense"
 },
 "access": "大阪府富田林市錦織北3-11-1",
 "careers": "一般企業、公務員、教員、保育士、薬剤師、スポーツ・福祉関連など。",
@@ -143546,7 +143663,8 @@ null
 "https://www.osaka-ohtani.ac.jp/",
 "https://www.osaka-ohtani.ac.jp/club-oh/exam/univ/schedule.html",
 "https://manabi.benesse.ne.jp/daigaku/school/3643/gakuhi/",
-"https://passnavi.obunsha.co.jp/univ/4220/difficulty/"
+"https://passnavi.obunsha.co.jp/univ/4220/difficulty/",
+"https://search.keinet.ne.jp/2531/outline/expense"
 ]
 },
 "大阪女学院大学": {
@@ -143558,7 +143676,7 @@ null
 "departments": "2026-11-07",
 "difficulty": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-11",
 "money": "2026-11-07",
 "eng": "2026-11-07",
 "access": "2026-11-07",
@@ -143613,7 +143731,8 @@ null
 "proc": "1次2/25・2次3/12",
 "fee": null
 }
-]
+],
+"note": "テレメール（2026年7月1日時点・2027年度入学）で確認。必要書類は1/29消印有効。共通テスト利用選抜の日程は掲載なし。検定料は記載なし"
 },
 "money": {
 "year": "2026年度",
@@ -143649,7 +143768,8 @@ null
 "https://www.oj-navi.net/exam-info/ippansenbatsu",
 "https://www.oj-navi.net/exam-info/university",
 "https://passnavi.obunsha.co.jp/univ/4152/top/",
-"https://xn--psstg18ce16c.com/daigaku/osaka-jogakuin/"
+"https://xn--psstg18ce16c.com/daigaku/osaka-jogakuin/",
+"https://telemail.jp/shingaku/university/10001560/examination/general"
 ]
 },
 "大阪学院大学": {
@@ -143668,7 +143788,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-11",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -143760,14 +143880,105 @@ null
 "rows": [
 {
 "kubun": "一般",
-"name": "一般選抜 前期",
+"name": "一般選抜 前期日程（2教科選択型）",
 "apply": "12/21〜1/19",
-"exam": "1/28・1/29・1/30",
-"result": null,
-"proc": null,
+"exam": "1/28〜1/30",
+"result": "2/4",
+"proc": "2/17",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期日程（3教科選択型・外国語学部英語1教科型）",
+"apply": "1/20〜1/28",
+"exam": "2/8",
+"result": "2/13",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 中期日程（2教科選択型）",
+"apply": "1/29〜2/9",
+"exam": "2/20",
+"result": "2/26",
+"proc": "3/10",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期日程（総合評価型・2教科選択型）",
+"apply": "2/19〜3/4",
+"exam": "3/11",
+"result": "3/16",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 前期日程（2教科型・3教科型）",
+"apply": "12/21〜1/19",
+"exam": "1/16・1/17（共テ）",
+"result": "2/13",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 中期日程（2教科型・3教科型）",
+"apply": "1/29〜2/9",
+"exam": "1/16・1/17（共テ）",
+"result": "2/26",
+"proc": "3/10",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 後期日程（2教科型・3教科型）",
+"apply": "2/19〜3/4",
+"exam": "1/16・1/17（共テ）",
+"result": "3/16",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "公募推薦 前期日程",
+"apply": "10/15〜10/26",
+"exam": "11/5（一部11/5〜11/6）",
+"result": "11/12",
+"proc": "11/26",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "公募推薦 後期日程",
+"apply": "11/24〜12/5",
+"exam": "12/15",
+"result": "12/19",
+"proc": "1/6",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（自己PR）前期",
+"apply": "11/16〜11/25",
+"exam": "12/5",
+"result": "12/8",
+"proc": "12/18",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（自己PR）後期",
+"apply": "12/21〜1/19",
+"exam": "1/28",
+"result": "2/4",
+"proc": "2/17",
 "fee": null
 }
-]
+],
+"note": "全学部共通の日程（外国語学部GlobalStudies専攻の一般選抜は前期日程1/20〜1/28出願・2/8試験のみ）。マナビジョン2027年度入試で確認。ネット出願。検定料は掲載なし"
 },
 "money": {
 "year": "2026年度",
@@ -143803,7 +144014,9 @@ null
 "https://www.ogu.ac.jp/admissions/assets/files/admission/seido/fee.pdf",
 "https://search.keinet.ne.jp/2518/outline/expense",
 "https://shingakunet.com/gakko/SC000383/gakuhi/",
-"https://passnavi.obunsha.co.jp/univ/4090/difficulty/"
+"https://passnavi.obunsha.co.jp/univ/4090/difficulty/",
+"https://manabi.benesse.ne.jp/daigaku/school/3629/nyushi/gokaku-happyo/index.html",
+"https://search.keinet.ne.jp/outline/expense/2518"
 ]
 },
 "大阪工業大学": {
