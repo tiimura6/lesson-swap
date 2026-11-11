@@ -1,0 +1,412 @@
+[
+ {
+  "name": "大阪産業大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "note": "内訳は河合塾Kei-Net「学費」（2026年度入学者用）。諸会費28,400円を含む。実習費は記載なし",
+    "source": "https://search.keinet.ne.jp/2525/outline/expense",
+    "rows": [
+     {
+      "f": "国際学部 国際学科",
+      "admission": 250000,
+      "tuition": 887000,
+      "facility": 60000,
+      "practical": null,
+      "other": 28400,
+      "first_year": 1225400,
+      "four_year": null
+     },
+     {
+      "f": "経済学部 経済学科",
+      "admission": 250000,
+      "tuition": 887000,
+      "facility": 48000,
+      "practical": null,
+      "other": 28400,
+      "first_year": 1213400,
+      "four_year": null
+     },
+     {
+      "f": "経営学部 経営学科",
+      "admission": 250000,
+      "tuition": 887000,
+      "facility": 48000,
+      "practical": null,
+      "other": 28400,
+      "first_year": 1213400,
+      "four_year": null
+     },
+     {
+      "f": "スポーツ健康学部 スポーツ健康学科",
+      "admission": 250000,
+      "tuition": 992000,
+      "facility": 87000,
+      "practical": null,
+      "other": 28400,
+      "first_year": 1357400,
+      "four_year": null
+     },
+     {
+      "f": "情報デザイン学部 情報システム学科",
+      "admission": 250000,
+      "tuition": 1163000,
+      "facility": 145000,
+      "practical": null,
+      "other": 28400,
+      "first_year": 1586400,
+      "four_year": null
+     },
+     {
+      "f": "建築・環境デザイン学部 建築・環境デザイン学科",
+      "admission": 250000,
+      "tuition": 1163000,
+      "facility": 145000,
+      "practical": null,
+      "other": 28400,
+      "first_year": 1586400,
+      "four_year": null
+     },
+     {
+      "f": "システム工学部",
+      "admission": 250000,
+      "tuition": 1163000,
+      "facility": 145000,
+      "practical": null,
+      "other": 28400,
+      "first_year": 1586400,
+      "four_year": null
+     }
+    ]
+   },
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般入試 前期（A・B・C日程）",
+      "apply": "12/18〜1/20",
+      "exam": "1/31（A）・2/1（B）・2/2（C）",
+      "result": "2/15",
+      "proc": "3/2",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試 中期",
+      "apply": "2/1〜2/16",
+      "exam": "2/27",
+      "result": "3/10",
+      "proc": "3/18",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試 後期",
+      "apply": "2/17〜2/24",
+      "exam": "3/6",
+      "result": "3/13",
+      "proc": "3/18",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト入試 前期",
+      "apply": "12/18〜1/20",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/15",
+      "proc": "3/2",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト入試 5教科型",
+      "apply": "12/18〜2/3",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/15",
+      "proc": "3/10",
+      "fee": null
+     }
+    ],
+    "note": "手続締切はKei-Net「入試日程」（出願・試験・発表日が大学公式の2027年度日程と一致）。検定料は未確認"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2525/outline/expense",
+    "https://search.keinet.ne.jp/2525/general/schedule"
+   ]
+  }
+ },
+ {
+  "name": "大阪経済大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "note": "内訳は河合塾Kei-Net「学費」（2026年度入学者用）。その他は情報機器利用料（第1部40,000円・第2部20,000円）、諸会費13,000円を含む。実習科目の履修で別途実習費がかかる場合あり",
+    "source": "https://search.keinet.ne.jp/2519/outline/expense",
+    "rows": [
+     {
+      "f": "経済学部・経営学部（第1部）・情報社会学部",
+      "admission": 190000,
+      "tuition": 710000,
+      "facility": 160000,
+      "practical": null,
+      "other": 53000,
+      "first_year": 1113000,
+      "four_year": null
+     },
+     {
+      "f": "人間科学部",
+      "admission": 190000,
+      "tuition": 710000,
+      "facility": 175000,
+      "practical": null,
+      "other": 53000,
+      "first_year": 1128000,
+      "four_year": null
+     },
+     {
+      "f": "国際共創学部",
+      "admission": 190000,
+      "tuition": 710000,
+      "facility": 260000,
+      "practical": null,
+      "other": 53000,
+      "first_year": 1213000,
+      "four_year": null
+     },
+     {
+      "f": "経営学部（第2部）",
+      "admission": 150000,
+      "tuition": 350000,
+      "facility": 80000,
+      "practical": null,
+      "other": 33000,
+      "first_year": 613000,
+      "four_year": null,
+      "note": "夜間主コース"
+     }
+    ]
+   },
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（1月日程）",
+      "apply": "1/3〜1/18",
+      "exam": "1/27・1/28・1/29",
+      "result": "2/15",
+      "proc": "1次2/15〜2/26・2次2/15〜3/8",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（2月日程）",
+      "apply": "1/3〜1/25",
+      "exam": "2/3・2/4",
+      "result": "2/15",
+      "proc": "1次2/15〜2/26・2次2/15〜3/8",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（3月日程）",
+      "apply": "2/8〜2/25",
+      "exam": "3/5",
+      "result": "3/13",
+      "proc": "3/15〜3/19",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜",
+      "apply": "1/3〜1/25",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/15",
+      "proc": "1次2/15〜2/26・2次2/15〜3/8",
+      "fee": null
+     }
+    ],
+    "note": "3月日程（後期D方式）の出願期間はベネッセ マナビジョン（2027年度入試）。検定料は未確認"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2519/outline/expense",
+    "https://manabi.benesse.ne.jp/daigaku/school/3630/nyushi/hoshiki/ippan/"
+   ]
+  }
+ },
+ {
+  "name": "大阪物療大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "note": "ベネッセ マナビジョン（2026年度入学者）：授業料1,580,000円に施設設備費・実験実習費を含む。このほか諸経費が必要",
+    "source": "https://manabi.benesse.ne.jp/daigaku/school/3674/gakuhi/",
+    "rows": [
+     {
+      "f": "保健医療学部 診療放射線技術学科",
+      "admission": 300000,
+      "tuition": 1580000,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1880000,
+      "four_year": null,
+      "note": "授業料に施設設備費・実験実習費を含む"
+     }
+    ]
+   },
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（2月日程）",
+      "apply": "2/1〜2/18",
+      "exam": "2/21",
+      "result": "2/25",
+      "proc": "3/4（2次3/12）",
+      "fee": 25000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（3月日程）",
+      "apply": "3/1〜3/18",
+      "exam": "3/21",
+      "result": "3/21",
+      "proc": "3/25",
+      "fee": 25000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "apply": "9/1〜9/11",
+      "exam": "9/13",
+      "result": "11/1",
+      "proc": "11/13",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 前期（専願・併願）",
+      "apply": "11/1〜11/27",
+      "exam": "11/29",
+      "result": "12/1",
+      "proc": "12/11",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 後期（専願・併願）",
+      "apply": "11/30〜12/17",
+      "exam": "12/20",
+      "result": "12/23",
+      "proc": "1/8",
+      "fee": null
+     }
+    ],
+    "note": "総合型・推薦の日程はベネッセ マナビジョン（2027年度入学者対象）。共通テスト利用入試は掲載なし"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3674/gakuhi/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3674/nyushi/"
+   ]
+  }
+ },
+ {
+  "name": "大阪河﨑リハビリテーション大学",
+  "info": {
+   "money_replace": {
+    "year": "2027年度",
+    "note": "旺文社パスナビ（2027年度、2026年9月調査）。施設費は教育充実費。別途、親睦会費4年間分12,000円、教科書・白衣・学生保険・臨床実習の宿泊費などが必要。パスナビでは大学名が「和泉大学」（2026年4月に名称変更）と表示",
+    "source": "https://passnavi.obunsha.co.jp/univ/4093/expense/",
+    "rows": [
+     {
+      "f": "リハビリテーション学部 リハビリテーション学科〈理学療法学専攻〉",
+      "admission": 280000,
+      "tuition": 1150000,
+      "facility": 300000,
+      "practical": null,
+      "other": null,
+      "first_year": 1730000,
+      "four_year": null
+     },
+     {
+      "f": "リハビリテーション学部 リハビリテーション学科〈作業療法学専攻〉",
+      "admission": 280000,
+      "tuition": 1150000,
+      "facility": 300000,
+      "practical": null,
+      "other": null,
+      "first_year": 1730000,
+      "four_year": null
+     },
+     {
+      "f": "リハビリテーション学部 リハビリテーション学科〈言語聴覚学専攻〉",
+      "admission": 280000,
+      "tuition": 1150000,
+      "facility": 300000,
+      "practical": null,
+      "other": null,
+      "first_year": 1730000,
+      "four_year": null
+     },
+     {
+      "f": "リハビリテーション学部 リハビリテーション学科〈ヘルスプロモーション専攻〉",
+      "admission": 280000,
+      "tuition": 950000,
+      "facility": 260000,
+      "practical": null,
+      "other": null,
+      "first_year": 1490000,
+      "four_year": null
+     }
+    ]
+   },
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/4093/expense/"
+   ]
+  }
+ },
+ {
+  "name": "大阪大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "前期日程",
+      "apply": "1/25〜2/3",
+      "exam": "2/25・2/26",
+      "result": "3/9",
+      "proc": "",
+      "note": "Web出願登録1/22〜2/2、出願書類受理1/25〜2/3。第1段階選抜発表2/10。2/26は医学科・歯学部（面接）、薬学部（小論文・面接）のみ。後期日程なし。入学手続締切・検定料は選抜要項に記載なし"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（文・人間科・外国語・法・経済・理）",
+      "apply": "11/2〜11/7",
+      "exam": "12/20",
+      "result": "2/9",
+      "proc": "2月中旬",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（医・歯・薬・工・基礎工）",
+      "apply": "11/2〜11/7",
+      "exam": "12/20",
+      "result": "2/9",
+      "proc": "2月中旬",
+      "fee": null,
+      "note": "試験日は歯・工の例。薬学部は2/6、医学部・基礎工学部は共通テストのみ（個別の試験日なし）"
+     }
+    ]
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/1315/nyushi/"
+   ]
+  }
+ }
+]
