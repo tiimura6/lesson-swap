@@ -1,0 +1,89 @@
+[
+{"name":"豊橋創造大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"一般","name":"一般入試前期（A方式・B方式）","apply":"1/4〜1/18","exam":"1/27","result":"2/5","proc":"1次2/12・2次2/26","fee":35000},
+  {"kubun":"一般","name":"一般入試後期","apply":"2/5〜2/23","exam":"3/4","result":"3/11","proc":"3/23","fee":35000},
+  {"kubun":"共テ利用","name":"共通テスト利用方式 一期","apply":"1/4〜1/27","exam":"1/16・1/17（共テ）","result":"2/11","proc":"2/26","fee":15000},
+  {"kubun":"共テ利用","name":"共通テスト利用方式 二期","apply":"2/5〜3/1","exam":"1/16・1/17（共テ）","result":"3/11","proc":"3/23","fee":15000}],
+  "note":"日程はマナビジョン（2027年度）で既存と一致（全学科共通）。検定料はマナビジョンの受験アドバイス：一般は1回35,000円で同一学科の同じ検定料の入試を追加0円で受験可、共テ利用は15,000円で一期・二期の両方を受験可"},
+ "money_replace":{"year":"2026年度","rows":[
+  {"f":"経営学部 経営学科","admission":180000,"tuition":680000,"facility":320000,"practical":60000,"other":null,"first_year":1240000,"four_year":null,"note":"ほかに教科書代約40,000円・学生会費6,000円（2024年度実績）"},
+  {"f":"保健医療学部（理学療法学科・看護学科）","admission":300000,"tuition":800000,"facility":520000,"practical":210000,"other":null,"first_year":1830000,"four_year":null,"note":"ほかに教科書代（理学療法約107,000円・看護約68,000円）、ユニフォーム代、学生会費6,000円、予防接種代、実習の交通費・宿泊費など（2024年度実績）"}],
+  "note":"Kei-Net（2026年度入学者用）の内訳。既存の2027年度合計（経営1,240,000円・保健医療1,830,000円）と同額だが、2027年度の内訳は未確認"},
+ "sources":["https://manabi.benesse.ne.jp/daigaku/school/3550/nyushi/","https://search.keinet.ne.jp/2465sp/outline/expense_sp"]}},
+{"name":"豊田工業大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"推薦","name":"学校推薦型選抜（公募推薦）","apply":"11/1〜11/5（郵送・消印有効）","exam":"11/21","result":"12/2","proc":"12/17","fee":null},
+  {"kubun":"一般","name":"一般選抜〈一般入試〉","apply":"12/14〜1/21","exam":"2/12","result":"2/22","proc":"3/11","fee":null},
+  {"kubun":"共テ利用","name":"大学入学共通テスト利用入試（A方式・B方式）","apply":"12/14〜1/21","exam":"1/16・1/17（共テ）","result":"2/22","proc":"3/11","fee":null}],
+  "note":"マナビジョン・テレメール（2027年度）。検定料は掲載なしで未確認。学費はマナビジョン（2026年度）の初年度納付金1,021,090円が既存の内訳（984,300円）と合わず未更新"},
+ "sources":["https://manabi.benesse.ne.jp/daigaku/school/3537/nyushi/","https://telemail.jp/shingaku/university/10001691/examination/general"]}},
+{"name":"身延山大学","info":{
+ "money_replace":{"year":"2026年度","rows":[
+  {"f":"仏教学部 仏教学科（一般選抜・一般公募制推薦A・B・自己スタイル）","admission":280000,"tuition":630000,"facility":190000,"practical":30000,"other":50000,"first_year":1180000,"four_year":null,"note":"施設費は施設拡充費。その他は暖房費30,000円・研究費10,000円・諸会費10,000円"},
+  {"f":"仏教学部 仏教学科（指定校・社会人・宗門後継者・社会福祉施設後継者推薦）","admission":100000,"tuition":630000,"facility":190000,"practical":30000,"other":50000,"first_year":1000000,"four_year":null,"note":"入学金が180,000円減免"},
+  {"f":"仏教学部 仏教学科（附属身延山高校特別推薦）","admission":0,"tuition":630000,"facility":190000,"practical":30000,"other":50000,"first_year":900000,"four_year":null}],
+  "note":"大学公式の納入金表（年度の記載なし）とKei-Net（2026年度入学者用：初年度1,180,000円）が一致。2027年度は未確認"},
+ "sources":["https://www.min.ac.jp/admission/fee.html","https://search.keinet.ne.jp/2385/outline/expense"]}},
+{"name":"日本赤十字豊田看護大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"一般","name":"大学独自選抜 特待生プラス","apply":"12/21〜1/22（必着）","exam":"1/30","result":"2/5","proc":"2/12","fee":35000},
+  {"kubun":"共テ利用","name":"共通テスト利用選抜 前期A・前期B","apply":"12/21〜1/26（必着）","exam":"1/16・1/17（共テ）","result":"2/9","proc":"2/17","fee":20000},
+  {"kubun":"共テ利用","name":"共通テスト利用選抜 後期（共テ＋面接）","apply":"12/21〜2/19（必着）","exam":"3/2（面接）＋共テ","result":"3/5","proc":"3/11","fee":20000}],
+  "note":"大学公式の令和9年度大学独自選抜の要項。併願の検定料：特待プラス＋共テ1区分50,000円・2区分70,000円・3区分75,000円、共テ2区分40,000円・3区分60,000円。赤十字6看護大学連携併願は学校法人日本赤十字学園の別要項。既存の「一般選抜（1月日程・3月日程）」を公式の区分名に直した"},
+ "money_replace":{"year":"2027年度","rows":[
+  {"f":"看護学部 看護学科","admission":100000,"tuition":1200000,"facility":null,"practical":150000,"other":300000,"first_year":1750000,"four_year":null,"note":"その他は維持運営費。施設設備費の記載なし。保険料・実習着代・教科書代・会費などが別途。2年次以降は年額1,650,000円"}],
+  "note":"大学公式（令和9年度大学独自選抜の要項）の入学時納付金"},
+ "sources":["https://www.rctoyota.ac.jp/rctoyota-info/wp-content/uploads/2026/09/1.R9大学独自選抜_本文0901.pdf"]}},
+{"name":"秋田看護福祉大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"総合型","name":"総合型選抜（第1回）","apply":"10/7〜10/16","exam":"10/24","result":"11/2","proc":"11/16","fee":null},
+  {"kubun":"推薦","name":"学校推薦型選抜（一般公募）","apply":"11/4〜11/13","exam":"11/21","result":"12/1","proc":"12/14","fee":null},
+  {"kubun":"総合型","name":"総合型選抜（第2回）","apply":"11/25〜12/4","exam":"12/12","result":"12/21","proc":"1/8","fee":null},
+  {"kubun":"一般","name":"一般選抜 前期","apply":"1/5〜2/2","exam":"2/7","result":"2/19","proc":"3/5","fee":null},
+  {"kubun":"一般","name":"一般選抜 後期","apply":"2/24〜3/12","exam":"3/16","result":"3/22","proc":"3/26","fee":null},
+  {"kubun":"共テ利用","name":"共通テスト利用 前期","apply":"1/5〜2/5","exam":"1/16・1/17（共テ）","result":"2/19","proc":"3/5","fee":null},
+  {"kubun":"共テ利用","name":"共通テスト利用 後期","apply":"2/24〜3/15","exam":"1/16・1/17（共テ）","result":"3/22","proc":"3/26","fee":null}],
+  "note":"マナビジョン（2027年度）。看護学科・医療福祉学科で同じ日程。検定料は未確認"},
+ "sources":["https://manabi.benesse.ne.jp/daigaku/school/3082/nyushi/gokaku-happyo/"]}},
+{"name":"育英館大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"総合型","name":"総合型 AOⅠ期","apply":"8/3〜8/17","exam":"8/22","result":"11/18","proc":"11/26","fee":null},
+  {"kubun":"総合型","name":"総合型 AOⅡ期","apply":"9/7〜9/18","exam":"9/26","result":"12/23","proc":"1/7","fee":null},
+  {"kubun":"総合型","name":"総合型 自己推薦Ⅰ","apply":"11/2〜11/12","exam":"11/15","result":"11/18","proc":"11/26","fee":null},
+  {"kubun":"推薦","name":"学校推薦 公募制Ⅰ","apply":"11/2〜11/12","exam":"11/15","result":"11/18","proc":"11/26","fee":null},
+  {"kubun":"総合型","name":"総合型 自己推薦Ⅱ","apply":"12/1〜12/16","exam":"12/20","result":"12/23","proc":"1/7","fee":null},
+  {"kubun":"推薦","name":"学校推薦 公募制Ⅱ","apply":"12/1〜12/16","exam":"12/20","result":"12/23","proc":"1/7","fee":null},
+  {"kubun":"総合型","name":"総合型 自己推薦Ⅲ","apply":"1/6〜1/21","exam":"1/31","result":"2/3","proc":"2/12","fee":null},
+  {"kubun":"総合型","name":"総合型 AOⅢ期","apply":"1/12〜1/21","exam":"1/31","result":"2/24","proc":"3/4","fee":null},
+  {"kubun":"総合型","name":"総合型 自己推薦Ⅳ","apply":"2/1〜2/18","exam":"2/26","result":"3/4","proc":"3/12","fee":null},
+  {"kubun":"総合型","name":"総合型 AOⅣ期","apply":"2/12〜2/22","exam":"2/26","result":"3/18","proc":"3/26","fee":null},
+  {"kubun":"総合型","name":"総合型 自己推薦Ⅴ","apply":"2/24〜3/11","exam":"3/15","result":"3/18","proc":"3/26","fee":null},
+  {"kubun":"一般","name":"一般選抜 Ⅰ期","apply":"1/6〜1/21","exam":"1/31","result":"2/3","proc":"2/12","fee":null},
+  {"kubun":"一般","name":"一般選抜 Ⅱ期","apply":"2/1〜2/18","exam":"2/26","result":"3/4","proc":"3/12","fee":null},
+  {"kubun":"共テ利用","name":"共通テスト利用 Ⅰ期","apply":"1/6〜1/21","exam":"1/16・1/17（共テ）","result":"2/3","proc":"2/12","fee":null},
+  {"kubun":"共テ利用","name":"共通テスト利用 Ⅱ期","apply":"1/25〜1/29","exam":"1/16・1/17（共テ）","result":"2/3","proc":"2/12","fee":null},
+  {"kubun":"共テ利用","name":"共通テスト利用 Ⅲ期","apply":"2/9〜2/18","exam":"1/16・1/17（共テ）","result":"2/24","proc":"3/4","fee":null},
+  {"kubun":"共テ利用","name":"共通テスト利用 Ⅳ期","apply":"2/18〜2/25","exam":"1/16・1/17（共テ）","result":"3/4","proc":"3/12","fee":null},
+  {"kubun":"共テ利用","name":"共通テスト利用 Ⅴ期","apply":"3/8〜3/15","exam":"1/16・1/17（共テ）","result":"3/18","proc":"3/26","fee":null}],
+  "note":"マナビジョン（2027年度、情報メディア学部情報メディア学科）。検定料は未確認"},
+ "sources":["https://manabi.benesse.ne.jp/daigaku/school/3023/nyushi/gokaku-happyo/"]}},
+{"name":"会津大学","story":{
+ "summary":"福島県会津若松市にある公立大学で、コンピュータ理工学部コンピュータ理工学科の1学部1学科（入学定員240名）。教員の約4割が外国人という国際的な環境で、講義とワークステーションを使う演習を組み合わせて学び、コンピュータサイエンスやネットワーク、ソフトウェアエンジニアリングなどの分野から卒業後の進路に合わせてカリキュラムを組める。",
+ "only":[
+  {"t":"教員の約4割が外国人で、国際的な環境でコンピュータを学べる","src":"https://search.keinet.ne.jp/1518/outline/department"},
+  {"t":"ワークステーションを24時間自由に使える環境があり、専門科目の多くは講義とワークステーションを使う演習を組み合わせて行う","src":"https://search.keinet.ne.jp/1518/outline/department"},
+  {"t":"コンピュータサイエンス・コンピュータシステム・ネットワーク・応用情報工学・ソフトウェアエンジニアリングの分野から、卒業後の進路に応じて自分のカリキュラムを組める","src":"https://search.keinet.ne.jp/1518/outline/department"}],
+ "vs":[
+  {"u":"公立はこだて未来大学","t":"公立はこだて未来大学はシステム情報科学部で情報アーキテクチャ学科と複雑系知能学科の2学科に分かれるが、会津大学はコンピュータ理工学科1学科の中で分野を選んでカリキュラムを組む","src":"https://search.keinet.ne.jp/1507/outline/department"},
+  {"u":"福島大学","t":"同じ福島県の福島大学は教育・政経・理工・食農の4学部をもつ総合大学で、会津大学はコンピュータ理工学の1学部に絞った大学である","src":"https://search.keinet.ne.jp/1070/outline/department"}]}},
+{"name":"福島県立医科大学","story":{
+ "summary":"福島市にある公立の医療系大学で、医学部（医学科）・看護学部（看護学科）・保健科学部（理学療法・作業療法・診療放射線科学・臨床検査の4学科）をもつ。医学部は基本と発展を繰り返し学ぶ「らせん型カリキュラム」をとり、保健科学部では福島県の地域医療・災害医療に関する科目や他学部との合同授業でチーム医療を学ぶ。",
+ "only":[
+  {"t":"医学部は独自の「らせん型カリキュラム」で基本と発展の内容を繰り返し学び、4年次後期から6年次前期は少人数で各診療科を回る臨床実習を行う","src":"https://search.keinet.ne.jp/1515/outline/department"},
+  {"t":"保健科学部では福島県の地域医療や災害医療に関する科目を学び、学科合同演習や他学部との合同授業でチーム医療を経験できる","src":"https://search.keinet.ne.jp/1515/outline/department"},
+  {"t":"保健科学部の4学科で理学療法士・作業療法士・診療放射線技師・臨床検査技師を養成し、医学部・看護学部とあわせて医療職を1つの大学で育てている","src":"https://search.keinet.ne.jp/1515/outline/department"}],
+ "vs":[
+  {"u":"山形大学","t":"山形大学は医学部に医学科と看護学科を置き、ほかに人文社会科学・工・農学部などをもつ総合大学だが、福島県立医科大学は医療系の3学部に絞り、理学療法・作業療法・診療放射線・臨床検査の学科もそろえる","src":"https://search.keinet.ne.jp/1065/outline/department"},
+  {"u":"弘前大学","t":"弘前大学は医学部の保健学科の中に看護学・放射線技術科学・検査技術科学・理学療法学・作業療法学の専攻を置くが、福島県立医科大学は看護学部と保健科学部（4学科）に分けて学部として置いている","src":"https://search.keinet.ne.jp/1040/outline/department"}]}}
+]
