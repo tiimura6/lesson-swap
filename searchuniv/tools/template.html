@@ -308,6 +308,7 @@ ul.mini li{font-size:12.5px;margin:2px 0}
 .guide{border:1px solid var(--accent);border-radius:10px;padding:8px 12px;margin:6px 0 10px;background:var(--accent-soft);font-size:13px}
 .guide .gh{font-weight:700;color:var(--accent);font-size:13px;margin-bottom:4px}
 .guide .it th{width:7.6em}
+.guide ul.why-plus li::marker{content:"＋ ";color:#2a7f62}.guide ul.why-minus li::marker{content:"△ ";color:#b45309}
 .simlink{color:var(--accent)}
 .exam{border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:4px 0 12px;font-size:13px}
 .exam-h{font-weight:700;font-size:12.5px;color:var(--accent);margin-bottom:6px}
@@ -630,9 +631,95 @@ function guideBlock(x,ctx){
   const sim=[];
   if(sim.length) rows.push(["難易度が近い学校",sim.map(y=>'<a href="#" class="simlink" data-n="'+esc(y.name)+'">'+esc(y.name)+'</a>').join("・")+'<span class="sub2">（偏差値帯の中央が±2.5以内・同じ設置区分、同じ地域を優先）</span>']);
   if(x.memo) rows.push(["メモ",esc(x.memo)]);
+  rows.push(...whyRows(x));
   if(!rows.length) return "";
   return '<div class="guide"><div class="gh">指導のポイント</div><table class="it">'+rows.map(r=>'<tr><th>'+r[0]+'</th><td>'+r[1]+'</td></tr>').join("")+'</table></div>';
 }
+// ===== ほかの大学ではなく、ここを選ぶ理由（2026-11-11 先生の依頼「大学のストーリーを語るため、どうして他の大学ではダメなのかの視点を」）=====
+// 1) 登録データから自動で比べる whyAuto()：同じ分野で難易度が近い「比べられやすい学校」と、学科・資格・学費・協定校・規模・倍率・入試方式を比べ、
+//    この大学だけにある点（＋）と、他校のほうが有利な点（注意）を出す。事実はすべて登録データ（出典つき）の比較。
+// 2) 出典で確かめて集めた GUIDE[name].story（summary／only＝ここだけの点／vs＝他校との違い）。PIPELINE.md の「ストーリー」の手順で集める。
+const WHY_SKIP=new Set(["電動モビリティシステム専門職大学","税務大学校"]);
+function whyKeis(x){ return Object.keys(KEI).filter(k=>k!=="大学校（防衛・公務など）"&&keiHits(x,k).length); }
+function whyRivals(x,n){
+  const m=midHensachi(x.name), keis=whyKeis(x); if(m==null||!keis.length) return [];
+  const r=regionOf(x.pref), g=groupOf(x);
+  return items.filter(y=>y!==x&&!WHY_SKIP.has(y.name)&&y.cat!=="daigakkou").map(y=>{ const ym=midHensachi(y.name); if(ym==null||Math.abs(ym-m)>3) return null;
+      const share=keis.filter(k=>keiHits(y,k).length).length; if(!share) return null; return {y,ym,share}; }).filter(Boolean)
+    .sort((a,b)=>((regionOf(a.y.pref)===r?0:1)-(regionOf(b.y.pref)===r?0:1))||(b.share-a.share)||((groupOf(a.y)===g?0:1)-(groupOf(b.y)===g?0:1))||Math.abs(a.ym-m)-Math.abs(b.ym-m))
+    .slice(0,n||5).map(o=>o.y);
+}
+function whyUnits(name){ const out=new Set();
+  for(const g of (Array.isArray((INFO[name]||{}).departments)?INFO[name].departments:[])){ for(const d of (g.d&&g.d.length?g.d:[g.f])){ const u=String(d||"").split(/[\s　]/)[0]; if(u&&/(学科|学類|学群|課程)$/.test(u.replace(/[（(].*$/,""))) out.add(u.replace(/[（(].*$/,"")); } }
+  return [...out]; }
+function whyBase(u){ return u.replace(/[（(].*$/,"").replace(/(学科|学類|学群|課程|専攻|コース|学部|学域|学環|プログラム|専修)$/,"").replace(/(学科|学類|課程)$/,""); }
+let WHY_FAC=null;
+function whyFacIndex(){ if(WHY_FAC) return WHY_FAC; WHY_FAC=items.filter(y=>!WHY_SKIP.has(y.name)).map(y=>({y,t:facList(INFO[y.name]||{}).join("｜")+"｜"+((INFO[y.name]||{}).faculties||[]).join("｜")})); return WHY_FAC; }
+function whyAuto(x){
+  if(WHY_SKIP.has(x.name)) return null;
+  const f=INFO[x.name]||{}, plus=[], minus=[], rv=whyRivals(x,5), reg=regionOf(x.pref), pref=(x.pref.match(/^(東京都|北海道|京都府|大阪府|.{2,3}?県)/)||[])[1]||"";
+  // 学科名：全国・地方・県で、この名前の学科をもつのがこの大学だけ
+  const idx=whyFacIndex(), uq=[];
+  for(const u of whyUnits(x.name)){ const b=whyBase(u); if(b.length<3) continue;
+    const has=idx.filter(o=>o.t.includes(b)).map(o=>o.y); if(!has.length||has.some(y=>y===x)===false) continue;
+    const others=has.filter(y=>y!==x);
+    if(!others.length) uq.push([0,"「"+u+"」は、登録校（全国）でこの大学だけの学科名"]);
+    else if(!others.some(y=>regionOf(y.pref)===reg)) uq.push([1,"「"+u+"」は、"+reg+"ではこの大学だけ（全国では "+others.slice(0,3).map(y=>y.name).join("・")+(others.length>3?" など":"")+"）"]);
+    else if(pref&&!others.some(y=>y.pref.startsWith(pref))) uq.push([2,"「"+u+"」は、"+pref+"ではこの大学だけ"]);
+  }
+  uq.sort((a,b)=>a[0]-b[0]).slice(0,3).forEach(a=>plus.push(a[1]));
+  // 分野：県内でこの分野を学べる大学
+  if(pref){ for(const k of whyKeis(x)){ const same=items.filter(y=>y!==x&&!WHY_SKIP.has(y.name)&&y.cat!=="daigakkou"&&y.pref.startsWith(pref)&&keiHits(y,k).length);
+      if(!same.length){ plus.push(pref+"で「"+k+"」を学べる大学（登録校）はここだけ"); }
+      else if(groupOf(x)==="pub"&&!same.some(y=>groupOf(y)==="pub")) plus.push(pref+"の国公立で「"+k+"」を学べるのはここだけ（私立は "+same.slice(0,2).map(y=>y.name).join("・")+(same.length>2?" など":"")+"）"); } }
+  if(plus.length>4) plus.length=4;
+  // 比べられやすい学校との比較
+  if(rv.length){
+    const lic=n=>new Set(((LICN.by||{})[n])||[]);
+    const xl=lic(x.name), rl=rv.filter(y=>lic(y.name).size);
+    if(xl.size&&rl.length>=2){ const only=[...xl].filter(c=>!rl.some(y=>lic(y.name).has(c))); if(only.length) plus.push("比べた学校に無い資格："+only.slice(0,4).join("・")); }
+    const cmp=(get,label,unit,lowGood,fmt)=>{ const v=get(x.name); if(v==null) return; const o=rv.map(y=>({y,v:get(y.name)})).filter(a=>a.v!=null); if(o.length<2) return;
+      const all=[v,...o.map(a=>a.v)].sort((a,b)=>a-b), best=lowGood?all[0]:all[all.length-1], worst=lowGood?all[all.length-1]:all[0], F=fmt||(n=>n+unit);
+      const better=o.filter(a=>lowGood?a.v<v:a.v>v).sort((a,b)=>lowGood?a.v-b.v:b.v-a.v);
+      if(v===best&&best!==worst) plus.push(label+"は比べた学校の中で"+(lowGood?"最も低い":"最も多い")+"（"+F(v)+"）");
+      else if(v===worst&&best!==worst) minus.push(label+"は "+better.slice(0,2).map(a=>a.y.name+"（"+F(a.v)+"）").join("・")+" のほうが"+(lowGood?"低い":"多い")+"（この大学 "+F(v)+"）");
+    };
+    cmp(n=>{ const t=(INFO[n]||{}).tuition; return t&&t.amount?t.amount:null; },"初年度の学費","",true,man);
+    cmp(n=>{ const p=(INFO[n]||{}).partners; return p&&p.total?p.total:null; },"海外の協定校","校",false);
+    cmp(n=>{ const s=(INFO[n]||{}).students; return s&&s.count?s.count:null; },"学生数","人",false,n=>n.toLocaleString("ja-JP")+"人");
+    cmp(n=>{ const e=(EXAM[n]||{}).general; return e&&e.ratio?Number(e.ratio):null; },"一般選抜の倍率","倍",true,n=>Number(n).toFixed(1)+"倍");
+    const kub=n=>new Set((((INFO[n]||{}).methods||{}).list||[]).map(r=>r.kubun));
+    const xk=kub(x.name), rk=rv.filter(y=>kub(y.name).size);
+    if(xk.size&&rk.length>=2) for(const k of ["総合型","推薦","共テ利用"]){ const n=rk.filter(y=>kub(y.name).has(k)).length;
+      if(xk.has(k)&&n*2<rk.length) plus.push("「"+k+"」の入試がある（比べた"+rk.length+"校のうち実施は"+n+"校）");
+      else if(!xk.has(k)&&n*2>rk.length) minus.push("「"+k+"」の入試が登録されていない（比べた"+rk.length+"校のうち"+n+"校は実施）"); }
+  }
+  if(plus.length>7) plus.length=7;
+  if(!plus.length&&!minus.length&&!rv.length) return null;
+  return {rv,plus,minus};
+}
+function whyLinks(list){ return list.map(y=>'<a href="#" class="simlink" data-n="'+esc(y.name)+'">'+esc(y.name)+'</a>').join("・"); }
+function whyRows(x){
+  const rows=[], st=(GUIDE[x.name]||{}).story, W=whyAuto(x);
+  if(st){
+    if(st.summary) rows.push(["この大学のストーリー",esc(st.summary)]);
+    const src=u=>u?' <a href="'+esc(u)+'" target="_blank" rel="noopener" class="sub2">出典</a>':'';
+    if((st.only||[]).length) rows.push(["ここだけの点",'<ul class="mini">'+st.only.map(o=>'<li>'+esc(o.t)+src(o.src)+'</li>').join("")+'</ul>']);
+    if((st.vs||[]).length) rows.push(["他校との違い",'<ul class="mini">'+st.vs.map(o=>'<li><b>'+(items.some(y=>y.name===o.u)?'<a href="#" class="simlink" data-n="'+esc(o.u)+'">'+esc(o.u)+'</a>':esc(o.u))+'</b>と比べて：'+esc(o.t)+src(o.src)+'</li>').join("")+'</ul>']);
+  }
+  if(W){
+    if(W.rv.length) rows.push(["比べられやすい学校",whyLinks(W.rv)+'<span class="sub2">（同じ分野で偏差値帯の中央が±3以内。同じ地方を優先）</span>']);
+    if(W.plus.length) rows.push(["ここを選ぶ理由",'<ul class="mini why-plus">'+W.plus.map(t=>'<li>'+esc(t)+'</li>').join("")+'</ul>']);
+    if(W.minus.length) rows.push(["他校のほうが合う場合",'<ul class="mini why-minus">'+W.minus.map(t=>'<li>'+esc(t)+'</li>').join("")+'</ul>']);
+    if(W.plus.length||W.minus.length) rows.push(["",'<span class="sub2">「ここを選ぶ理由」「他校のほうが合う場合」は登録データ（学科名・資格・学費・協定校・学生数・倍率・入試方式）を自動で比べたものです。学科名が違っても同じ内容を学べる学校はあります。</span>']);
+  }
+  return rows;
+}
+// おすすめ・面談用の短い理由（1〜2点）
+function whyShort(x){ const st=(GUIDE[x.name]||{}).story; const a=[];
+  if(st&&st.only&&st.only.length) a.push(st.only[0].t);
+  const W=whyAuto(x); if(W) for(const t of W.plus){ if(a.length>=2) break; a.push(t); }
+  return a; }
 ROOT.addEventListener("click",e=>{ const a=e.target.closest&&e.target.closest(".simlink"); if(!a) return; e.preventDefault(); e.stopPropagation();
   if(NAV.get()==="map") selectUniv(a.dataset.n); else { NAV.set("map"); setTimeout(()=>selectUniv(a.dataset.n),80); } },true);
 const SU_CANDS_KEY = "searchuniv:cands";
@@ -2411,6 +2498,7 @@ function recCard(r,i){
   const facts=[d.hensachi&&("偏差値 "+d.hensachi),d.kyotei&&("共テ "+d.kyotei),t&&t.amount!=null&&("初年度 約"+man(t.amount)),f.kyotsu&&f.kyotsu.kamoku&&("共テ "+f.kyotsu.kamoku)].filter(Boolean);
   const rows=[];
   if(r.fd) rows.push(["判定に使った値",esc((r.fd.bn?"ベネッセ偏差値 ":"河合偏差値 ")+r.fd.mid+"（"+r.fd.label+"）")]);
+  { const ws=whyShort(x); if(ws.length) rows.push(["ここを選ぶ理由",ws.map(esc).join("<br>")]); }
   if(r.why.length) rows.push(["合う理由",r.why.slice(0,3).map(w=>FLD_LABEL[w.fld]+"："+esc(w.item.length>70?w.item.slice(0,70)+"…":w.item)).join("<br>")]);
   const ways=r.wayRows.length?r.wayRows:(m.list||[]);
   if(ways.length) rows.push(["入試方式",ways.slice(0,4).map(w=>'<span class="ktag" style="background:'+(KUBUN_COLOR[w.kubun]||"#4b5563")+'">'+esc(w.kubun)+'</span>'+esc(w.name)+(w.kyotsu?'（共テ '+esc(w.kyotsu)+'）':'')+(w.req?' 条件：'+esc(w.req):'')).join("<br>")]);

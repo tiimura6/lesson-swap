@@ -72,6 +72,19 @@ def main(path):
                 cur.setdefault('_checked', {})[k] = TODAY
         if r.get('guide') and n not in guide:
             guide[n] = {k: r['guide'].get(k) for k in ('fit', 'ask', 'caution') if r['guide'].get(k)}
+        if isinstance(r.get('story'), dict):
+            # この大学を選ぶ理由（ストーリー）：出典つきの項目だけ残し、既存の story を置き換える（tools/STORY_SPEC.md）
+            st = r['story']; isurl = lambda u: isinstance(u, str) and u.startswith('http')
+            only = [o for o in st.get('only') or [] if isinstance(o, dict) and o.get('t') and isurl(o.get('src'))]
+            vs = [o for o in st.get('vs') or [] if isinstance(o, dict) and o.get('u') and o.get('t') and isurl(o.get('src'))]
+            for o in vs:
+                if o['u'] not in names: problems.append(n + ': story.vs の相手校「' + o['u'] + '」が一覧に無い（表示はするがリンクなし）')
+            dropped = len(st.get('only') or []) - len(only) + len(st.get('vs') or []) - len(vs)
+            if dropped: problems.append(n + ': story の出典（src）が無い項目 %d 件を除外' % dropped)
+            if st.get('summary') or only or vs:
+                g = guide.setdefault(n, {})
+                g['story'] = {k: v for k, v in (('summary', st.get('summary', '')), ('only', only), ('vs', vs), ('checked', TODAY)) if v}
+                filled += 1
         if r.get('exam'):
             e = exam.setdefault(n, {})
             for k, v in r['exam'].items():
