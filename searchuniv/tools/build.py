@@ -42,6 +42,41 @@ def licn(info, names):
         if s: by[n] = s
     return {'list': license_names({n: info[n] for n in names if n in info}), 'by': by}
 
+# 情報充足率（2026-11-11 先生の依頼「大学検索に、すべての大学とその情報の収集率を表示」）
+# 項目を足すときはここだけ直す。by は学校ごとに項目の順で '1'（集めた）/'0'（未収集）。ext は外部AI由来で公式未確認の学校。
+FILL_ITEMS = [
+    ('dep', '学部・学科', lambda i, g: i.get('departments') or i.get('faculties')),
+    ('acc', '所在地・アクセス', lambda i, g: i.get('access')),
+    ('fnd', '設立', lambda i, g: i.get('founded')),
+    ('stu', '学生数', lambda i, g: i.get('students')),
+    ('dif', '偏差値・共テ得点率', lambda i, g: (i.get('difficulty') or {}).get('hensachi') or (i.get('difficulty') or {}).get('kyotei')),
+    ('fdf', '学部別の難易度', lambda i, g: i.get('fdiff')),
+    ('kyo', '共テの科目', lambda i, g: (i.get('kyotsu') or {}).get('kamoku') or (i.get('kyotsu') or {}).get('kyoka')),
+    ('met', '入試方式', lambda i, g: (i.get('methods') or {}).get('list')),
+    ('sub', '学部・方式ごとの入試科目', lambda i, g: (i.get('subjects') or {}).get('rows')),
+    ('sch', '入試日程', lambda i, g: (i.get('schedule') or {}).get('rows')),
+    ('rat', '入試倍率', lambda i, g: i.get('ratios')),
+    ('eng', '英語外部試験', lambda i, g: i.get('eng')),
+    ('qtr', '出題内容', lambda i, g: i.get('qtrend')),
+    ('fee', '学費', lambda i, g: i.get('money') or i.get('tuition')),
+    ('scl', '奨学金', lambda i, g: i.get('scholar')),
+    ('res', '研究分野・特色', lambda i, g: i.get('research')),
+    ('lic', '取得できる資格', lambda i, g: i.get('licenses')),
+    ('car', '主な進路', lambda i, g: i.get('careers')),
+    ('oc', 'オープンキャンパス', lambda i, g: i.get('oc')),
+    ('par', '海外協定校', lambda i, g: i.get('partners')),
+    ('gui', '指導のポイント', lambda i, g: g.get('fit') or g.get('ask')),
+    ('sto', 'ここを選ぶ理由（ストーリー）', lambda i, g: g.get('story')),
+]
+
+def fill(info, guide, names):
+    by, ext = {}, []
+    for n in names:
+        i, g = info.get(n) or {}, guide.get(n) or {}
+        by[n] = ''.join('1' if f(i, g) else '0' for _, _, f in FILL_ITEMS)
+        if i.get('_via') == 'external-ai': ext.append(n)
+    return {'items': [[k, l] for k, l, _ in FILL_ITEMS], 'by': by, 'ext': ext}
+
 def main():
     cards = D('cards'); exam = D('exam'); info = D('info'); hp = D('hp')
     read = D('readings'); alias = D('aliases'); coords = D('coords'); prefs = D('map_prefs')
@@ -64,6 +99,7 @@ def main():
         'GUIDE': ('/*GUIDE*/', '/*END_GUIDE*/', J({n: guide[n] for n in names if n in guide})),
         'TOPICS': ('/*TOPICS*/', '/*END_TOPICS*/', J([{k: v for k, v in tp.items()} for tp in D('topics')['topics']] if os.path.exists(os.path.join(ROOT, 'data', 'topics.json')) else [])),
         'LICN': ('/*LICN*/', '/*END_LICN*/', J(licn(info, names))),
+        'FILL': ('/*FILL*/', '/*END_FILL*/', J(fill(info, guide, names))),
         'KTEST': ('/*KTEST*/', '/*END_KTEST*/', J(D('kyotsu_test') if os.path.exists(os.path.join(ROOT, 'data', 'kyotsu_test.json')) else {})),
         'BUILD': ('/*BUILD*/', '/*END_BUILD*/', J({'built': __import__('datetime').datetime.now(__import__('datetime').timezone(__import__('datetime').timedelta(hours=9))).strftime('%Y-%m-%d %H:%M'),
                   'schedule': max([v.get('_checked', {}).get('schedule', '') for v in info.values()] + ['']),

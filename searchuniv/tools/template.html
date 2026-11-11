@@ -184,6 +184,8 @@ body.noscroll{overflow:hidden}
 .band{display:inline-block;font-size:11px;font-weight:700;border-radius:5px;padding:1px 7px;margin-right:6px;color:#fff;vertical-align:1px}
 .band.ch{background:#c0392b}.band.fit{background:#1f4e79}.band.safe{background:#2a7f62}
 .rh{font-size:11px;color:var(--muted);margin-right:6px}
+.rfill{font-size:10.5px;margin-right:6px;padding:0 5px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}.rfill.lo{color:#b45309;border-color:#f3c98b}.rfill.hi{color:#2a7f62;border-color:#9fd3bf}
+.fillout{font-size:12.5px;padding:4px 0 6px}.flsum{margin:2px 0 8px;color:var(--ink)}.flsum b{font-size:15px;color:var(--accent)}.flitems{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:4px 10px;margin-bottom:8px}.flit{display:flex;align-items:center;gap:6px;font-family:inherit;font-size:11.5px;text-align:left;border:1px solid transparent;border-radius:6px;background:none;color:var(--ink);padding:2px 4px;cursor:pointer}.flit:hover,.flit.on{border-color:var(--accent);background:var(--accent-soft)}.flit .flab{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.flit .flval{color:var(--muted);font-variant-numeric:tabular-nums}.flbar{display:inline-block;width:46px;height:6px;border-radius:3px;background:var(--line);overflow:hidden;flex:none}.flbar i{display:block;height:100%;background:var(--accent)}.flbar.lo i{background:#d97706}.flbar.hi i{background:#2a7f62}.flctl{display:flex;flex-wrap:wrap;gap:4px;margin:4px 0 6px}.flctl input,.flctl select{font-family:inherit;font-size:12.5px;border:1px solid var(--line);border-radius:8px;padding:5px 7px;background:var(--panel);color:var(--ink);min-width:0}.flctl input{flex:1 1 140px}.fltbl{max-height:460px;overflow:auto;border:1px solid var(--line);border-radius:8px}.fltbl table{width:100%;border-collapse:collapse;font-size:12px}.fltbl th{position:sticky;top:0;background:var(--bg);text-align:left;font-weight:600;color:var(--muted);padding:4px 6px;border-bottom:1px solid var(--line);white-space:nowrap}.fltbl td{padding:4px 6px;border-bottom:1px solid var(--line);vertical-align:top}.fltbl td.flpct{white-space:nowrap;font-variant-numeric:tabular-nums}.fltbl td.flmiss{color:var(--muted);font-size:11px}.fltbl .flname{font-family:inherit;font-size:12.5px;border:none;background:none;color:var(--accent);padding:0;cursor:pointer;text-align:left}.fltbl .flext{font-size:10px;color:#b45309;margin-left:4px;white-space:nowrap}.flnote{font-size:11px;color:var(--muted);margin-top:4px}
 .mctl{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;margin:10px 2px}
 .mgrp>h2 .band{font-size:13px;padding:3px 10px}
 .tbtn{font-size:12.5px;border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:4px 12px;cursor:pointer;margin-left:6px;color:var(--ink)}
@@ -375,6 +377,7 @@ ul.mini li{font-size:12.5px;margin:2px 0}
         <label>情報が載っている学校だけ<select id="f-theme" aria-label="情報が載っている学校だけ"><option value="">指定しない</option><option value="subjects">一般入試科目</option><option value="schedule">一般入試日程</option><option value="sogo">総合型選抜</option><option value="suisen">学校推薦型選抜</option><option value="eng">英検・TEAP等</option><option value="kyotei">共テ得点率</option><option value="ratio">入試結果（倍率）</option><option value="oc">オープンキャンパス</option><option value="fee">学費</option><option value="scholar">奨学金</option><option value="lic">資格</option></select></label>
       </div></details>
       <p class="upd" id="updline"></p>
+      <details class="sdet fdet" id="fdet"><summary>情報充足率（全校の情報の集まり具合）<span id="fdet-n" class="sdet-n"></span></summary><div id="fill-out" class="fillout"></div></details>
       <div class="sfilt">
         <select id="msort" aria-label="並び順"><option value="hd" selected>並び順：偏差値の高い順</option><option value="ha">偏差値の低い順</option><option value="rel">関連度順</option><option value="pref">地域順</option></select>
         <div class="kchk" role="group" aria-label="種別で表示を切り替え"><label class="chk"><input type="checkbox" class="fk" value="国立" checked><i style="background:#1f4e79"></i>国立</label><label class="chk"><input type="checkbox" class="fk" value="公立" checked><i style="background:#2a7f62"></i>公立</label><label class="chk"><input type="checkbox" class="fk" value="私立" checked><i style="background:#b0532a"></i>私立</label><label class="chk"><input type="checkbox" class="fk" value="その他" checked><i style="background:#4b5563"></i>その他（大学校・専門職大学）</label></div>
@@ -593,6 +596,8 @@ const GUIDE = /*GUIDE*/{}/*END_GUIDE*/;
 // 興味・関心のテーマ辞書（data/topics.json）と、各大学の資格名（表記をそろえたもの。tools/lic_names.py）
 const TOPICS = /*TOPICS*/[]/*END_TOPICS*/;
 const LICN = /*LICN*/{"list":[],"by":{}}/*END_LICN*/;
+// 情報充足率（build.py の FILL_ITEMS から作る。by は学校ごとに項目の順で 1＝集めた／0＝未収集）
+const FILL = /*FILL*/{"items":[],"by":{},"ext":[]}/*END_FILL*/;
 function midHensachi(name){ const d=(INFO[name]||{}).difficulty; if(!d||!d.hensachi) return null; const nums=String(d.hensachi).match(/[\d.]+/g); if(!nums) return null; const v=nums.map(Number); return (Math.min(...v)+Math.max(...v))/2; }
 function groupOf(x){ const k=kindOf(x); return (k==="国立"||k==="公立")?"pub":(k==="私立"?"pri":k); }
 // 同じ分野（学問の系統）の大学を、この大学より難しい／同程度／易しいに分けて示す（生徒の学力が入っていればそれを基準に挑戦〜安全）
@@ -2413,7 +2418,7 @@ function renderResults(){
   const facHit=x=>{ const f=INFO[x.name]||{}; let h=kv?keiHits(x,kv):[]; if(!h.length&&qv&&!isCorrect(qv,x.name)&&!nz(x.name).includes(nz(qv))){ const qws=SQ?SQ.words:[qv]; const ws=[...qws,...qws.flatMap(w=>typeof concepts==="function"?concepts(w).flat():[])].filter(w=>w.length>=2); const ex=facList(f).filter(t=>qws.some(w=>t.includes(w))); h=ex.length?ex:facList(f).filter(t=>ws.some(w=>t.includes(w))); }
     return h.length?'<span class="rf">'+esc(h.slice(0,3).map(t=>/学部|学群|学域|学環|学院|学類$/.test(t.replace(/（.*$/,""))?t.replace(/（.*$/,""):t).join("・")+(h.length>3?" ほか":""))+'</span>':""; };
   const so=$("msort").value; if(so&&so!=="rel"){ const hv=x=>{ const h=listHen(x); return h?h.v:null; }; list=list.slice().sort(so==="pref"?(a,b)=>a.pref.localeCompare(b.pref,"ja"):(a,b)=>{ const A=hv(a),B=hv(b); if(A==null&&B==null) return 0; if(A==null) return 1; if(B==null) return -1; return so==="hd"?B-A:A-B; }); }
-  $("mresults").innerHTML=list.slice(0,200).map(x=>{ const h=listHen(x); return '<button class="ritem" data-n="'+esc(x.name)+'">'+badge(x)+'<span class="rn">'+esc(x.name)+(xHitHTML(x)||topicHitHTML(x)||facHit(x)||fullHitHTML(x))+examHitHTML(x)+kyHitHTML(x)+'</span><span class="rp">'+(h?'<span class="rh"'+(h.fac?' title="'+esc(h.lab)+'の偏差値（学部・学科別）"':' title="大学全体の偏差値の中央値"')+'>偏差値'+h.v+(h.fac?'<small>（学科）</small>':'')+'</span>':'')+bandTag(x)+esc(x.pref)+'</span></button>'; }).join("");
+  $("mresults").innerHTML=list.slice(0,200).map(x=>{ const h=listHen(x); return '<button class="ritem" data-n="'+esc(x.name)+'">'+badge(x)+'<span class="rn">'+esc(x.name)+(xHitHTML(x)||topicHitHTML(x)||facHit(x)||fullHitHTML(x))+examHitHTML(x)+kyHitHTML(x)+'</span><span class="rp">'+(h?'<span class="rh"'+(h.fac?' title="'+esc(h.lab)+'の偏差値（学部・学科別）"':' title="大学全体の偏差値の中央値"')+'>偏差値'+h.v+(h.fac?'<small>（学科）</small>':'')+'</span>':'')+bandTag(x)+fillTag(x)+esc(x.pref)+'</span></button>'; }).join("");
   $("mresults").querySelectorAll(".ritem").forEach(b=>b.onclick=()=>selectUniv(b.dataset.n));
   LAST_LIST=(qv||filtersActive())?list:[]; renderSearchNews();
   // 地図上で候補の点を強調
@@ -2421,6 +2426,42 @@ function renderResults(){
   ROOT.querySelectorAll("#jmap .dot").forEach(c=>{ const n=c.querySelector("title").textContent; c.classList.toggle("dim", set.size>0 && !set.has(n)); });
   applyKindDots(); MATCH=set.size?set:(filtersActive()?new Set():null); if($("labels")&&$("labels").childNodes.length+ROOT.querySelectorAll("#jmap .dot").length) placeLabels();
 }
+// ===== 情報充足率（2026-11-11 先生の依頼「すべての大学とその情報の収集率を表示」）=====
+// 項目は build.py の FILL_ITEMS。大学校など当てはまらない項目がある学校も、同じ項目数で数える。
+const FILL_EXT=new Set(FILL.ext||[]);
+function fillOf(n){ const s=(FILL.by||{})[n]||"", it=FILL.items||[]; const miss=[], have=[]; it.forEach((x,k)=>(s[k]==="1"?have:miss).push(k)); return {p:it.length?Math.round(have.length/it.length*100):0, have, miss}; }
+function fillCls(p){ return p>=80?"hi":p<50?"lo":""; }
+function fillBar(p){ return '<span class="flbar '+fillCls(p)+'"><i style="width:'+p+'%"></i></span>'; }
+function fillTag(x){ if(!(FILL.items||[]).length) return ""; const f=fillOf(x.name); return '<span class="rfill '+fillCls(f.p)+'" title="情報充足率：'+(FILL.items.length)+'項目中'+f.have.length+'項目を収集済み">情報'+f.p+'%</span>'; }
+let FILL_MISS=-1;
+function renderFill(){
+  const out=$("fill-out"); if(!out) return; const it=FILL.items||[];
+  if(!it.length){ out.innerHTML='<div class="flnote">データがありません</div>'; return; }
+  const all=items.map(x=>({x,f:fillOf(x.name)})), N=all.length||1;
+  const avg=Math.round(all.reduce((s,r)=>s+r.f.p,0)/N), full=all.filter(r=>r.f.p===100).length, lo=all.filter(r=>r.f.p<50).length;
+  const per=it.map((v,k)=>Math.round(all.filter(r=>r.f.have.includes(k)).length/N*100));
+  if(!out.dataset.ready){
+    out.innerHTML='<div class="flsum" id="fill-sum"></div><div class="flitems" id="fill-items"></div>'
+      +'<div class="flctl"><input type="search" id="fill-q" placeholder="大学名で絞り込み" autocomplete="off"><select id="fill-k" aria-label="種別"><option value="">種別：すべて</option><option>国立</option><option>公立</option><option>私立</option><option>その他</option></select>'
+      +'<select id="fill-m" aria-label="未収集の項目"><option value="-1">未収集の項目：指定しない</option>'+it.map((v,k)=>'<option value="'+k+'">「'+esc(v[1])+'」が未収集</option>').join("")+'</select>'
+      +'<select id="fill-s" aria-label="並び順"><option value="lo">充足率の低い順</option><option value="hi">充足率の高い順</option><option value="kind">種別順（国立→公立→私立）</option><option value="name">登録順</option></select></div>'
+      +'<div class="flnote" id="fill-cnt"></div><div class="fltbl"><table><thead><tr><th>大学名</th><th>種別</th><th>充足率</th><th>まだ集めていない項目</th></tr></thead><tbody id="fill-body"></tbody></table></div>'
+      +'<div class="flnote">項目（'+it.length+'）：'+it.map(v=>esc(v[1])).join("・")+'。大学校などで当てはまらない項目も同じ数で数えています。「外部AI」は他のAIで集めて公式で未確認の学校。データは定期実行で毎時少しずつ増えます。</div>';
+    out.dataset.ready="1";
+    ["fill-k","fill-s","fill-m"].forEach(id=>$(id).addEventListener("change",()=>{ if(id==="fill-m") FILL_MISS=+$("fill-m").value; renderFill(); }));
+    $("fill-q").addEventListener("input",renderFill);
+    out.addEventListener("click",e=>{ const b=e.target.closest("[data-fi]"); if(b){ const k=+b.dataset.fi; FILL_MISS=FILL_MISS===k?-1:k; $("fill-m").value=String(FILL_MISS); renderFill(); return; }
+      const u=e.target.closest("[data-fu]"); if(u) selectUniv(u.dataset.fu); });
+  }
+  $("fill-sum").innerHTML='全'+all.length+'校・'+it.length+'項目の平均 <b>'+avg+'%</b>（すべてそろった学校 '+full+'校／50%未満 '+lo+'校）';
+  $("fill-items").innerHTML=it.map((v,k)=>'<button type="button" class="flit'+(FILL_MISS===k?' on':'')+'" data-fi="'+k+'" title="押すと「'+esc(v[1])+'」が未収集の学校だけを表示"><span class="flab" title="'+esc(v[1])+'">'+esc(v[1])+'</span>'+fillBar(per[k])+'<span class="flval">'+per[k]+'%</span></button>').join("");
+  const q=nz($("fill-q").value.trim()), kd=$("fill-k").value, so=$("fill-s").value, KO={国立:0,公立:1,私立:2,その他:3};
+  let L=all.filter(r=>(!q||nz(r.x.name).includes(q)||nz(READ[r.x.name]||"").includes(q))&&(!kd||kindGroup(r.x)===kd)&&(FILL_MISS<0||r.f.miss.includes(FILL_MISS)));
+  if(so==="lo") L.sort((a,b)=>a.f.p-b.f.p||a.x.id-b.x.id); else if(so==="hi") L.sort((a,b)=>b.f.p-a.f.p||a.x.id-b.x.id); else if(so==="kind") L.sort((a,b)=>KO[kindGroup(a.x)]-KO[kindGroup(b.x)]||b.f.p-a.f.p||a.x.id-b.x.id);
+  $("fill-cnt").textContent=L.length+"校を表示"+(FILL_MISS>=0?"（「"+it[FILL_MISS][1]+"」が未収集）":"");
+  $("fill-body").innerHTML=L.map(r=>{ const m=r.f.miss.map(k=>it[k][1]); return '<tr><td><button type="button" class="flname" data-fu="'+esc(r.x.name)+'">'+esc(r.x.name)+'</button>'+(FILL_EXT.has(r.x.name)?'<span class="flext">外部AI</span>':'')+'</td><td>'+esc(kindOf(r.x))+'</td><td class="flpct">'+fillBar(r.f.p)+' '+r.f.p+'%</td><td class="flmiss">'+(m.length?esc(m.join("・")):'（すべて収集済み）')+'</td></tr>'; }).join("");
+}
+{ const fd=$("fdet"); if(fd){ const it=FILL.items||[]; if(it.length){ const ps=items.map(x=>fillOf(x.name).p); $("fdet-n").textContent="（"+items.length+"校の平均 "+Math.round(ps.reduce((a,b)=>a+b,0)/(ps.length||1))+"%）"; } fd.addEventListener("toggle",()=>{ if(fd.open) renderFill(); }); } }
 function sdetCount(){ const n=["f-meth","f-kyoka","f-date","f-eng","f-rl","f-ratio","f-fee","f-theme"].filter(id=>$(id).value).length; $("sdet-n").textContent=n?"（"+n+"件指定中）":""; }
 // 一覧は「検索」ボタンかEnterで出す（入力途中に一覧が出て画面が動かないように）。空にしたときだけすぐ消す
 function runSearch(){ CUR_SEL=null; $("hl").innerHTML=""; $("mpanel").innerHTML=""; renderResults(); }
