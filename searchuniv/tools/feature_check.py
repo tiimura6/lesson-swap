@@ -41,10 +41,19 @@ with sync_playwright() as p:
     J('document.getElementById("mby").value=""; document.getElementById("mby").dispatchEvent(new Event("change"))')
     ck(G, '何で探すか（大学名・学部・地域・資格・研究・奨学金）を指定できる', J('document.querySelectorAll("#mby option").length') >= 7 and nn != np_, '大学名%d件・地域%d件' % (nn, np_))
     def xs(**kw):
-        J('(kw)=>{for(const id of ["q-fac","q-study","q-job","q-area"]) document.getElementById(id).value=kw[id]||""; document.getElementById("mq").value=""; document.getElementById("mgo").click()}', {k.replace('_','-'):v for k,v in kw.items()}); pg.wait_for_timeout(400)
+        J('(kw)=>{for(const id of ["q-learn","q-fac","q-study","q-job","q-lic","q-area","f-hmin","f-hmax","f-kt","f-date","f-ratio","f-fee","f-theme"]) document.getElementById(id).value=kw[id]||""; document.getElementById("mq").value=""; document.getElementById("mgo").click()}', {k.replace('_','-'):v for k,v in kw.items()}); pg.wait_for_timeout(400)
         return J('document.querySelectorAll(".ritem").length'), J('document.getElementById("mresults").innerText')
     n1, t1 = xs(q_job='法曹'); n2, t2 = xs(q_job='獣医師', q_area='関東'); n3, _ = xs(q_fac='看護学科', q_area='茨城'); n4, _ = xs(q_study='心理学')
     ck(G, '項目ごとに検索（学部・学科／学問／将来の職業／地域）', n1 > 30 and '理学療法' not in t1 and 3 <= n2 <= 10 and '医学部 医学科' not in t2 and 1 <= n3 <= 10 and n4 > 20, '法曹%d・獣医師×関東%d・看護学科×茨城%d・心理学%d' % (n1, n2, n3, n4) + ('' if '理学療法' not in t1 else '｜' + [l for l in t1.split(chr(10)) if '理学療法' in l][0]))
+    # 2026-11-11 先生の依頼：パスナビの検索項目＋既存の項目＋学びたい内容、一覧は偏差値順
+    hv = lambda: [v for v in J('[...document.querySelectorAll(".ritem")].map(r=>{const m=r.textContent.match(/偏差値([0-9.]+)/); return m?+m[1]:null})') if v is not None]
+    ck(G, '一覧は最初から偏差値の高い順', J('document.getElementById("msort").value') == 'hd')
+    n5, t5 = xs(q_learn='海の生き物'); h5 = hv()
+    ck(G, '学びたい内容（文章）で探せる・偏差値の高い順', 5 <= n5 <= 80 and ('海洋' in t5 or '水産' in t5) and h5 == sorted(h5, reverse=True), '海の生き物%d件' % n5)
+    n6, t6 = xs(q_lic='保育士'); ck(G, '取得できる資格で探せる', n6 > 10 and '保育士' in t6, n6)
+    n7, _ = xs(f_hmin='60'); h7 = hv(); ck(G, '偏差値の範囲で絞り込める', 10 <= n7 <= 300 and min(h7 or [0]) >= 55 and h7 == sorted(h7, reverse=True), '%d件' % n7)
+    n8, _ = xs(f_kt='80-'); n9, _ = xs(f_fee='1000000'); n10, _ = xs(f_theme='scholar')
+    ck(G, 'パスナビの項目（共テ得点率・試験日・倍率・学費・情報が載っている学校）', n8 > 0 and n9 > 0 and n10 > 0 and all(J('!!document.getElementById("%s")' % i) for i in ('f-date', 'f-ratio', 'f-kei', 'f-meth', 'f-eng')), '共テ80%%以上%d・学費100万以内%d・奨学金%d' % (n8, n9, n10))
     xs()
     ck(G, '学科・専攻の言葉で探せる（例：理学療法）', search('理学療法') > 0, J('document.querySelectorAll(".ritem").length'))
     ck(G, '地方で探せる（例：東北）', search('東北') > 3)

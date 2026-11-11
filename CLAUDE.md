@@ -23,7 +23,7 @@ GitHub Pages: https://tiimura6.github.io/lesson-swap/
 8. 「共通テスト」画面（Searchuniv の view `kyotsu`、飯村システムの #univ-kyotsu）は `searchuniv/data/kyotsu_test.json`（大学入試センターの資料）から作る。
 9. 比較候補は localStorage の `searchuniv:cands`（両方で共通）。進路面談の生徒の記録は `searchuniv:students:<操作者名>`（クラス＋出席番号がキー、個人名は持たない）。CSV の列名は「表示名[項目ID]」で、読み込みは[]の中で照合する。
 
-10. 検索画面の項目ごとの検索（学部・学科 `#q-fac`／学問 `#q-study`／将来の職業 `#q-job`／地域 `#q-area`）は、入力した項目すべてに合う学校だけを `passFilters()` の `xHits()` で残す（大学名・キーワード欄 `#mq` とも組み合わせ可）。職業と資格・学部学科の対応表は template.html の `JOBS`。
+10. 検索画面の項目（2026-11-11 先生の依頼でパスナビの検索項目にならった）：学びたい内容 `#q-learn`（文章。`learnGroups()` が言葉を概念に分け、`LEARN_SYN`＋`SYN` で学部・学科名／研究分野／特色と照らす `xLearn()`）／学部・学科 `#q-fac`／学問 `#q-study`／将来の職業 `#q-job`（対応表は `JOBS`）／取得できる資格 `#q-lic`／都道府県・地域 `#q-area`／学部系統 `#f-kei`／偏差値 `#f-hmin`〜`#f-hmax`／共テ得点率 `#f-kt`、「詳しい条件」に 入試方式・共テ教科数・一般入試の試験日 `#f-date`・英語外部試験・R:L・倍率 `#f-ratio`・学費 `#f-fee`・情報が載っている学校だけ `#f-theme`。入力した項目すべてに合う学校だけを `passFilters()`（`xHits()`・`passExtra()`）で残す。偏差値・共テ得点率は学部・学科別（fdiff）があればその値（学部などを入れたときはその言葉を含む行）、無ければ大学全体の中央値で判定する。一覧は最初から偏差値の高い順（`#msort` の既定 hd、学部などを入れたときは `listHen()` の学科の偏差値で並べ「（学科）」と表示）。
 
 ## 操作者
 - タイトル横の「👤 操作者」で選ぶ（localStorage `ttOperator`）。PINは `opPins`／GAS。
