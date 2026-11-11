@@ -957,7 +957,8 @@
 "https://search.keinet.ne.jp/1280/general/exam_subject",
 "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/senbatsuyokoR9_all-22d87b752c22c5b9d7bcb8ef94505625.pdf",
 "https://www.kyoto-u.ac.jp/ja/education-campus/contact/fees/jugyo",
-"https://passnavi.obunsha.co.jp/univ/0560/expense/"
+"https://passnavi.obunsha.co.jp/univ/0560/expense/",
+"https://passnavi.obunsha.co.jp/univ/0560/schedule/?facultyID=015"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -1569,7 +1570,7 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "oc": "2026-11-07",
-"schedule": "2026-11-07"
+"schedule": "2026-11-11"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -138387,7 +138388,7 @@ null
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
 "schedule": "2026-11-07",
-"money": "2026-11-07",
+"money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07"
@@ -138490,34 +138491,39 @@ null
 {
 "f": "人間教育学部 人間教育学科",
 "admission": 300000,
-"tuition": null,
-"facility": null,
+"tuition": 850000,
+"facility": 320000,
 "practical": null,
 "other": 49660,
-"first_year": 1470000,
-"four_year": null
+"first_year": 1519660,
+"four_year": null,
+"note": "教育実習費は別途"
 },
 {
 "f": "保健医療学部 看護学科",
 "admission": 300000,
-"tuition": null,
-"facility": null,
+"tuition": 850000,
+"facility": 650000,
 "practical": null,
 "other": 63000,
-"first_year": 1800000,
-"four_year": null
+"first_year": 1863000,
+"four_year": null,
+"note": "看護師・助産師課程は4年次に300,000円別途"
 },
 {
 "f": "保健医療学部 リハビリテーション学科",
 "admission": 300000,
-"tuition": null,
-"facility": null,
+"tuition": 850000,
+"facility": 650000,
 "practical": null,
 "other": 63000,
-"first_year": 1800000,
-"four_year": null
+"first_year": 1863000,
+"four_year": null,
+"note": ""
 }
-]
+],
+"note": "内訳は河合塾Kei-Net「学費」（2026年度入学者用）。初年度合計は諸会費を含む（マナビジョンの初年度納入金は諸会費を除き人間教育1,470,000円・保健医療1,800,000円）。教科書・ノートパソコン・実習用被服等は別途。看護学科で看護師・助産師課程を選ぶと4年次に300,000円が別途必要（マナビジョン）",
+"source": "https://search.keinet.ne.jp/2591/outline/expense"
 },
 "access": "奈良県生駒郡三郷町立野北3-12-1",
 "careers": "小学校・中学校・高校教諭、保育士、看護師、保健師、理学療法士、作業療法士など。",
@@ -138527,7 +138533,10 @@ null
 "https://www.naragakuen-u.jp/nyushi/examination/schedule/",
 "https://www.naragakuen-u.jp/nyushi/examination/admission/general",
 "https://shingakunet.com/gakko/SC000477/gakuhi/",
-"https://passnavi.obunsha.co.jp/univ/4620/difficulty/"
+"https://passnavi.obunsha.co.jp/univ/4620/difficulty/",
+"https://search.keinet.ne.jp/2591/outline/expense",
+"https://manabi.benesse.ne.jp/daigaku/school/3734/gakuhi/",
+"https://manabi.benesse.ne.jp/daigaku/school/3734/nyushi/gokaku-happyo/index.html"
 ]
 },
 "姫路大学": {
@@ -138540,8 +138549,8 @@ null
 "departments": "2026-11-07",
 "difficulty": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
-"money": "2026-11-07",
+"schedule": "2026-11-11",
+"money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07"
@@ -138585,10 +138594,10 @@ null
 {
 "kubun": "一般",
 "name": "一般選抜（A日程）",
-"apply": null,
+"apply": "12/8〜1/22",
 "exam": "1/30・1/31",
-"result": null,
-"proc": null,
+"result": "2/9",
+"proc": "3/23",
 "fee": null
 },
 {
@@ -138596,11 +138605,30 @@ null
 "name": "一般選抜（B日程）",
 "apply": "1/23〜2/12",
 "exam": "2/21",
-"result": null,
-"proc": "3/2",
+"result": "3/2",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜（C日程）",
+"apply": "2/13〜3/9",
+"exam": "3/14",
+"result": "3/20",
+"proc": "3/26",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜",
+"apply": "12/8〜2/12",
+"exam": "1/16・1/17（共テ）",
+"result": "2/22",
+"proc": "3/9",
 "fee": null
 }
-]
+],
+"note": "教育学部・看護学部で共通の日程（マナビジョン2027年度入試・Kei-Netで確認）。検定料はKei-Netが2026年度入試の値（一般35,000円・共テ利用10,000円、併願割引あり）のため未記入"
 },
 "money": {
 "year": "2026年度",
@@ -138609,23 +138637,27 @@ null
 "f": "教育学部 こども未来学科",
 "admission": 200000,
 "tuition": 900000,
-"facility": null,
+"facility": 250000,
 "practical": null,
 "other": null,
 "first_year": 1350000,
-"four_year": null
+"four_year": null,
+"note": "別途 教育後援会費20,000円・学生会費15,000円"
 },
 {
 "f": "看護学部 看護学科",
 "admission": 200000,
 "tuition": 1100000,
-"facility": null,
-"practical": null,
+"facility": 280000,
+"practical": 300000,
 "other": null,
 "first_year": 1880000,
-"four_year": null
+"four_year": null,
+"note": "別途 教育後援会費20,000円・学生会費15,000円"
 }
-]
+],
+"note": "内訳は河合塾Kei-Net「学費」（2026年度入学者用）。合計のほかに教育後援会費20,000円・学生会費15,000円が別途必要。実習・資格課程の費用は別途",
+"source": "https://search.keinet.ne.jp/2586/outline/expense"
 },
 "access": "兵庫県姫路市大塩町2042-2",
 "careers": "保育士、幼稚園教諭、小学校教諭、看護師、保健師など。",
@@ -138635,7 +138667,10 @@ null
 "https://koutoku.ac.jp/himeji/nyushi_guide/exam-schedule/",
 "https://manabi.benesse.ne.jp/daigaku/school/3722/nyushi/hoshiki/ippan/",
 "https://manabi.benesse.ne.jp/daigaku/school/3722/gakuhi/",
-"https://passnavi.obunsha.co.jp/univ/4397/difficulty/"
+"https://passnavi.obunsha.co.jp/univ/4397/difficulty/",
+"https://search.keinet.ne.jp/2586/general/schedule",
+"https://manabi.benesse.ne.jp/daigaku/school/3722/nyushi/gokaku-happyo/index.html",
+"https://search.keinet.ne.jp/2586/outline/expense"
 ]
 },
 "姫路獨協大学": {
@@ -138650,7 +138685,7 @@ null
 "difficulty": "2026-11-07",
 "methods": "2026-11-07",
 "schedule": "2026-11-07",
-"money": "2026-11-07",
+"money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07"
@@ -138745,45 +138780,51 @@ null
 "rows": [
 {
 "f": "人間社会学群",
-"admission": null,
-"tuition": null,
-"facility": null,
+"admission": 150000,
+"tuition": 820000,
+"facility": 200000,
 "practical": null,
-"other": null,
+"other": 53300,
 "first_year": 1223300,
-"four_year": null
+"four_year": null,
+"note": ""
 },
 {
 "f": "医療保健学部（理学療法・作業療法・言語聴覚療法学科）",
-"admission": null,
-"tuition": null,
-"facility": null,
+"admission": 150000,
+"tuition": 1180000,
+"facility": 400000,
 "practical": null,
-"other": null,
+"other": 53300,
 "first_year": 1783300,
-"four_year": null
+"four_year": null,
+"note": ""
 },
 {
 "f": "医療保健学部 臨床工学科",
-"admission": null,
-"tuition": null,
-"facility": null,
+"admission": 150000,
+"tuition": 1160000,
+"facility": 400000,
 "practical": null,
-"other": null,
+"other": 53300,
 "first_year": 1763300,
-"four_year": null
+"four_year": null,
+"note": ""
 },
 {
 "f": "看護学部 看護学科",
-"admission": null,
-"tuition": null,
-"facility": null,
+"admission": 150000,
+"tuition": 1240000,
+"facility": 400000,
 "practical": null,
-"other": null,
+"other": 53300,
 "first_year": 1843300,
-"four_year": null
+"four_year": null,
+"note": ""
 }
-]
+],
+"note": "内訳は河合塾Kei-Net「学費」（2026年度入学者用）。理学療法・作業療法・言語聴覚療法学科の初年度合計はKei-Netに記載がなく、既存値（1,783,300円）を残す",
+"source": "https://search.keinet.ne.jp/2573/outline/expense"
 },
 "access": "兵庫県姫路市上大野7-2-1",
 "careers": "一般企業、公務員、理学療法士、作業療法士、言語聴覚士、臨床工学技士、看護師など。",
@@ -138794,7 +138835,10 @@ null
 "https://telemail.jp/shingaku/university/10001661/examination/general",
 "https://aoaoi.jp/preparation/himeji-du/",
 "https://shingakunet.com/gakko/SC000504/gakuhi/",
-"https://passnavi.obunsha.co.jp/univ/4540/difficulty/"
+"https://passnavi.obunsha.co.jp/univ/4540/difficulty/",
+"https://search.keinet.ne.jp/2573/outline/expense",
+"https://search.keinet.ne.jp/2573/general/schedule",
+"https://manabi.benesse.ne.jp/daigaku/school/3710/nyushi/gokaku-happyo/index.html"
 ]
 },
 "大阪樟蔭女子大学": {
@@ -138808,8 +138852,8 @@ null
 "departments": "2026-11-07",
 "difficulty": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
-"money": "2026-11-07",
+"schedule": "2026-11-11",
+"money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07"
@@ -138863,22 +138907,25 @@ null
 {
 "kubun": "一般",
 "name": "一般入試A",
-"apply": "1/5〜1/21",
+"apply": "1/5〜2/1",
 "exam": "2/6",
 "result": "2/16",
-"proc": null,
-"fee": null
+"proc": "3/1",
+"fee": null,
+"note": "試験会場は本学・岡山"
 },
 {
 "kubun": "一般",
-"name": "一般入試B",
+"name": "一般入試B（学力型・総合型）",
 "apply": "1/25〜2/26",
 "exam": "3/5",
 "result": "3/13",
-"proc": "3/13〜3/16（一括納入）",
-"fee": null
+"proc": "3/23",
+"fee": null,
+"note": "健康栄養学部は学力型のみ"
 }
-]
+],
+"note": "全学部共通の日程（マナビジョン2027年度入試・Kei-Netで一致）。一般Bは学力型・総合型（健康栄養学部は学力型のみ）。共通テスト利用の日程と2027年度の検定料はKei-Net・マナビジョンに掲載なし"
 },
 "money": {
 "year": "2026年度",
@@ -138932,8 +138979,32 @@ null
 "other": 32010,
 "first_year": 1612010,
 "four_year": null
+},
+{
+"f": "学芸学部 リベラルアーツ学科",
+"admission": 280000,
+"tuition": 995000,
+"facility": 280000,
+"practical": 50000,
+"other": 32010,
+"first_year": 1637010,
+"four_year": null,
+"note": ""
+},
+{
+"f": "健康栄養学部 健康栄養学科（食物栄養）",
+"admission": 280000,
+"tuition": 890000,
+"facility": 280000,
+"practical": 10000,
+"other": 32010,
+"first_year": 1492010,
+"four_year": null,
+"note": ""
 }
-]
+],
+"note": "河合塾Kei-Net「学費」（2026年度入学者用）。諸会費は28,000円＋保険料4,010円（2025年度実績）の合計。資格課程の履修費・教科書・パソコンは別途",
+"source": "https://search.keinet.ne.jp/2526/outline/expense"
 },
 "access": "大阪府東大阪市菱屋西4-2-26",
 "careers": "一般企業、公務員、教員、保育士、管理栄養士、化粧・ファッション関連など。",
@@ -138943,7 +139014,9 @@ null
 "https://cheer.osaka-shoin.ac.jp/admissions/list/",
 "https://cheer.osaka-shoin.ac.jp/news/2026/2905",
 "https://passnavi.obunsha.co.jp/univ/4170/difficulty/?facultyID=005",
-"https://search.keinet.ne.jp/2526/outline/expense"
+"https://search.keinet.ne.jp/2526/outline/expense",
+"https://search.keinet.ne.jp/2526/general/schedule",
+"https://manabi.benesse.ne.jp/daigaku/school/3639/nyushi/gokaku-happyo/index.html"
 ]
 },
 "大阪歯科大学": {
@@ -138959,7 +139032,7 @@ null
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
 "schedule": "2026-11-07",
-"money": "2026-11-07",
+"money": "2026-11-11",
 "scholar": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -139073,19 +139146,44 @@ null
 ]
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
 "f": "歯学部 歯学科（6年制）",
 "admission": 600000,
 "tuition": 3800000,
-"facility": 700000,
+"facility": 1350000,
 "practical": 0,
-"other": 650000,
-"first_year": 5750000,
-"four_year": null
+"other": 640000,
+"first_year": 6390000,
+"four_year": null,
+"note": "入学時最小限納入金額3,815,000円"
+},
+{
+"f": "医療保健学部 口腔保健学科・口腔工学科",
+"admission": 260000,
+"tuition": 840000,
+"facility": null,
+"practical": 480000,
+"other": 40000,
+"first_year": 1620000,
+"four_year": null,
+"note": "施設費の記載なし"
+},
+{
+"f": "看護学部 看護学科",
+"admission": 260000,
+"tuition": 1100000,
+"facility": 240000,
+"practical": 300000,
+"other": 40000,
+"first_year": 1940000,
+"four_year": null,
+"note": ""
 }
-]
+],
+"note": "旺文社パスナビ（2027年度・2026年9月調査）。Kei-Net（2026年度入学者用）と同額。歯学部の施設費は教育充実費65万円を含み、諸会費は委託徴収金4万円＋共済会費60万円。教材費・実習用器具等は別途",
+"source": "https://passnavi.obunsha.co.jp/univ/4160/expense/"
 },
 "scholar": {
 "year": "2027年度",
@@ -139109,7 +139207,9 @@ null
 "https://www.osaka-dent.ac.jp/admission/hs_admission.html",
 "https://www.osaka-dent.ac.jp/admission/nursing_admission.html",
 "https://www.osaka-dent.ac.jp/admission/fees.html",
-"https://passnavi.obunsha.co.jp/univ/4160/difficulty/"
+"https://passnavi.obunsha.co.jp/univ/4160/difficulty/",
+"https://passnavi.obunsha.co.jp/univ/4160/expense/",
+"https://search.keinet.ne.jp/2521/outline/expense"
 ]
 },
 "大阪河﨑リハビリテーション大学": {
