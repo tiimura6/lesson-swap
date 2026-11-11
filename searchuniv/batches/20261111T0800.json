@@ -1,0 +1,616 @@
+[
+ {
+  "name": "大手前大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜入試 A日程",
+      "apply": "12/7〜1/18",
+      "exam": "1/26・1/27（自由選択）",
+      "result": "2/10",
+      "proc": "3/1",
+      "fee": null,
+      "note": "2科目選択・3科目選択方式。建築＆芸術学科の実技方式は1/26のみ"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜入試 B日程",
+      "apply": "12/7〜2/12",
+      "exam": "2/26・2/27",
+      "result": "3/4",
+      "proc": "3/17",
+      "fee": null,
+      "note": "管理栄養・看護学科は3科目選択方式もあり"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜入試 ファイナルチャレンジ入試",
+      "apply": "2/19〜3/4",
+      "exam": "3/11",
+      "result": "3/12",
+      "proc": "3/24",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試 A日程",
+      "apply": "12/7〜1/22",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/11",
+      "proc": "3/1",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試 B日程",
+      "apply": "12/7〜2/19",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/4",
+      "proc": "3/17",
+      "fee": null
+     }
+    ],
+    "note": "日程はマナビジョン（2027年度入試）で確認。基本の検定料は出典に記載なし（一般選抜で3学部まで併願すると追加検定料5,000円）"
+   },
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "国際日本学部・現代社会学部・経営学部",
+      "admission": 240000,
+      "tuition": 830000,
+      "facility": 240000,
+      "practical": null,
+      "other": null,
+      "first_year": 1310000,
+      "four_year": null,
+      "note": "2027年度予定（マナビジョン）"
+     },
+     {
+      "f": "建築＆芸術学部",
+      "admission": 240000,
+      "tuition": 830000,
+      "facility": 390000,
+      "practical": null,
+      "other": null,
+      "first_year": 1460000,
+      "four_year": null,
+      "note": "施設設備費240,000円＋教育充実費150,000円"
+     },
+     {
+      "f": "健康栄養学部",
+      "admission": 240000,
+      "tuition": 890000,
+      "facility": 390000,
+      "practical": null,
+      "other": null,
+      "first_year": 1520000,
+      "four_year": null,
+      "note": "施設設備費240,000円＋教育充実費150,000円"
+     },
+     {
+      "f": "国際看護学部",
+      "admission": 240000,
+      "tuition": 1050000,
+      "facility": 620000,
+      "practical": null,
+      "other": null,
+      "first_year": 1910000,
+      "four_year": null,
+      "note": "教育施設充実費620,000円"
+     }
+    ],
+    "note": "2027年度予定（ベネッセ マナビジョン）。従来の全学部一括1,550,000円（外部AI由来）はマナビジョンと一致しなかったため置き換え。諸会費は出典に記載なし"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3693/nyushi/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3693/gakuhi/"
+   ]
+  }
+ },
+ {
+  "name": "大阪体育大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（2教科型・高得点重視型）",
+      "apply": "12/21〜1/13",
+      "exam": "1/30",
+      "result": "2/12",
+      "proc": "3/5",
+      "fee": null
+     }
+    ],
+    "note": "スポーツ科学部・教育学部で同じ日程（2027年度一般選抜、テレメール）。共通テスト利用選抜の日程と検定料は出典に記載なし"
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "スポーツ科学部・教育学部",
+      "admission": 200000,
+      "tuition": 960000,
+      "facility": 0,
+      "practical": 0,
+      "other": 396000,
+      "first_year": 1556000,
+      "four_year": 5549000
+     }
+    ],
+    "note": "内訳は2026年度。2027年度の初年度納入金（マナビジョン）も両学部1,556,000円（入学金200,000円を含む）で同額"
+   },
+   "sources": [
+    "https://telemail.jp/shingaku/university/10001564/examination/general",
+    "https://manabi.benesse.ne.jp/daigaku/school/3640/gakuhi/"
+   ]
+  }
+ },
+ {
+  "name": "京都薬科大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期（3教科型）",
+      "apply": "1/5〜1/25",
+      "exam": "2/3",
+      "result": "2/15",
+      "proc": "入学金2/22・授業料等3/18",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期（2教科型）",
+      "apply": "1/5〜2/16",
+      "exam": "2/19",
+      "result": "3/3",
+      "proc": "入学金3/10・授業料等3/18",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜 共通テスト利用（前期）",
+      "apply": "1/5〜1/14",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/15",
+      "proc": "2/22",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜 共通テスト利用（後期）",
+      "apply": "2/17〜3/4",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/12",
+      "proc": "3/18",
+      "fee": null
+     }
+    ],
+    "note": "日程はマナビジョン・テレメール（2027年度入試）で一致。検定料は両出典に記載なし"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3599/nyushi/",
+    "https://telemail.jp/shingaku/university/10001712/examination/general"
+   ]
+  }
+ },
+ {
+  "name": "佛教大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "仏教学部・文学部・歴史学部・社会学部・社会福祉学部",
+      "admission": 250000,
+      "tuition": 870000,
+      "facility": 100000,
+      "practical": null,
+      "other": 25500,
+      "first_year": 1245500,
+      "four_year": null
+     },
+     {
+      "f": "教育学部",
+      "admission": 250000,
+      "tuition": 920000,
+      "facility": 130000,
+      "practical": null,
+      "other": 25500,
+      "first_year": 1325500,
+      "four_year": null
+     },
+     {
+      "f": "保健医療技術学部・看護学部",
+      "admission": 250000,
+      "tuition": 1350000,
+      "facility": 250000,
+      "practical": null,
+      "other": 25500,
+      "first_year": 1875500,
+      "four_year": null
+     }
+    ],
+    "note": "2026年度入学者用（河合塾Kei-Net）。資格課程の受講料・実習費などは別途"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2501/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "兵庫医科大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "医学部 一般選抜A（4科目型）",
+      "apply": "12/14〜1/20",
+      "exam": "1次2/4・2次2/17または2/18",
+      "result": "1次2/15・2次2/24",
+      "proc": "3/3",
+      "fee": null,
+      "note": "一般枠・兵庫県推薦枠"
+     },
+     {
+      "kubun": "一般",
+      "name": "医学部 一般選抜B（英語資格試験活用型）",
+      "apply": "12/14〜1/20",
+      "exam": "1次2/4・2次2/27",
+      "result": "1次2/24・2次3/5",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "薬・看護・リハ 一般選抜 前期A日程",
+      "apply": "1/4〜1/18",
+      "exam": "2/2",
+      "result": "2/12",
+      "proc": "2/19",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "薬・看護・リハ 一般選抜 前期B日程",
+      "apply": "1/4〜1/18",
+      "exam": "2/3",
+      "result": "2/12",
+      "proc": "2/19",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "薬学部 一般選抜 中期日程（学力重視型・面接併用型）",
+      "apply": "2/4〜2/12",
+      "exam": "2/17（学力重視）・2/18（面接併用）",
+      "result": "2/24",
+      "proc": "3/10",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "薬・看護・リハ 一般選抜 後期日程",
+      "apply": "2/12〜2/26",
+      "exam": "3/5",
+      "result": "3/11",
+      "proc": "3/17",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "薬・看護・リハ 共通テスト利用 前期日程",
+      "apply": "1/4〜1/15",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "2/19",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "薬・看護・リハ 共通テスト利用 後期日程",
+      "apply": "2/12〜2/26",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/11",
+      "proc": "3/17",
+      "fee": null
+     }
+    ],
+    "note": "テレメール（2027年度一般選抜）とKei-Netで一致。検定料は両出典に記載なし"
+   },
+   "sources": [
+    "https://telemail.jp/shingaku/university/10100228/examination/general",
+    "https://search.keinet.ne.jp/general/schedule_sp/2574"
+   ]
+  }
+ },
+ {
+  "name": "千里金蘭大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期",
+      "apply": "12/14〜1/12",
+      "exam": "1/21",
+      "result": "2/1",
+      "proc": "入学金2/15・前期授業料等2/26",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 中期",
+      "apply": "12/14〜2/2",
+      "exam": "2/7",
+      "result": "2/15",
+      "proc": "入学金2/26・前期授業料等3/22",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期",
+      "apply": "2/3〜3/1",
+      "exam": "3/7",
+      "result": "3/12",
+      "proc": "3/22",
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 前期",
+      "apply": "12/14〜2/2",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/15",
+      "proc": "3/22",
+      "fee": 10000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 後期",
+      "apply": "2/3〜3/8",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/12",
+      "proc": "3/22",
+      "fee": 10000
+     }
+    ],
+    "note": "2027年度募集要項（看護学部・栄養学部）で確認。一般の前期・中期は同時出願可（検定料60,000円）"
+   },
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "教育学部 教育学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1462070,
+      "four_year": null
+     },
+     {
+      "f": "栄養学部 栄養学科",
+      "admission": 200000,
+      "tuition": 800000,
+      "facility": 380000,
+      "practical": 180000,
+      "other": 58000,
+      "first_year": 1618000,
+      "four_year": null,
+      "note": "教育充実費。その他諸経費は同窓会費積立金・後援会費・学友会費"
+     },
+     {
+      "f": "看護学部 看護学科",
+      "admission": 200000,
+      "tuition": 1020000,
+      "facility": 360000,
+      "practical": 300000,
+      "other": 58000,
+      "first_year": 1938000,
+      "four_year": null,
+      "note": "教育充実費。助産師・保健師・養護教諭の課程は別途履修費"
+     }
+    ],
+    "note": "看護・栄養は2027年度募集要項（大学公式）。教育学部は合計のみ"
+   },
+   "sources": [
+    "https://www.kinran.ac.jp/cheer/exam/pdf/nursing_application_2027.pdf",
+    "https://www.kinran.ac.jp/cheer/exam/pdf/dietetics_application_2027.pdf"
+   ]
+  }
+ },
+ {
+  "name": "獨協大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "全学科統一前期",
+      "apply": "1/4〜1/20",
+      "exam": "2/1",
+      "result": "2/13",
+      "proc": "2/22",
+      "fee": 35000,
+      "note": "検定料は2026年度入試の額。受験料に割引制度あり"
+     },
+     {
+      "kubun": "一般",
+      "name": "イブニング",
+      "apply": "1/4〜1/20",
+      "exam": "共テ＋2/1",
+      "result": "2/13",
+      "proc": "2/22",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "学科別／2科目判定型／外検＋プラス",
+      "apply": "1/4〜1/20",
+      "exam": "2/2",
+      "result": "2/13",
+      "proc": "2/22",
+      "fee": 35000,
+      "note": "検定料は2026年度入試の額"
+     },
+     {
+      "kubun": "一般",
+      "name": "全学科統一後期",
+      "apply": "2/13〜2/26",
+      "exam": "共テ＋3/6",
+      "result": "3/11",
+      "proc": "3/15",
+      "fee": 35000,
+      "note": "検定料は2026年度入試の額"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 前期",
+      "apply": "1/4〜1/15",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/13",
+      "proc": "2/22",
+      "fee": 17000,
+      "note": "2志願で17,000円（3志願目から＋5,000円）"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用（国公立併願型・英語資格・情報サイエンス）",
+      "apply": "1/4〜2/3",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/13",
+      "proc": "国公立併願型3/12、ほか2/22",
+      "fee": 17000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 後期",
+      "apply": "2/13〜3/12",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/18",
+      "proc": "3/23",
+      "fee": 17000
+     }
+    ],
+    "note": "テレメール（2027年度一般選抜、外国語学部の例）。出願はネット17:00締切"
+   },
+   "sources": [
+    "https://telemail.jp/shingaku/university/10001450/examination/general"
+   ]
+  }
+ },
+ {
+  "name": "自治医科大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "医学部 一般",
+      "apply": "1/4〜1/20（必着、郵送は1/19消印有効）",
+      "exam": "1次1/25（学力）・1/26（面接）、2次2/3",
+      "result": "1次1/29、2次2/12",
+      "proc": "1回目2/25・2回目3/12",
+      "fee": 20000,
+      "note": "令和9年度（2027年度）募集（大阪府の案内）。受験料20,000円"
+     },
+     {
+      "kubun": "一般",
+      "name": "看護学部 一般",
+      "apply": "〜1/20（消印有効）",
+      "exam": "1/30",
+      "result": "2/5",
+      "proc": "2/16",
+      "fee": 30000,
+      "note": "検定料は2026年度入試の額"
+     },
+     {
+      "kubun": "総合型",
+      "name": "医学部 総合型",
+      "apply": "〜10/20（必着）",
+      "exam": "2次11/18",
+      "result": "1次11/13、2次12/1",
+      "proc": "2/25",
+      "note": "1次は書類審査"
+     }
+    ]
+   },
+   "sources": [
+    "https://www.pref.osaka.lg.jp/moyo/o100030/023931.html"
+   ]
+  }
+ },
+ {
+  "name": "筑波大学",
+  "story": {
+   "summary": "人文・社会から医学・体育・芸術まで9つの学群と総合学域群を置く大学。前期日程の総合選抜で入ると1年次は総合学域群で複数の分野を学び、1年次の終わりに志望と成績で学類・専門学群が決まる。入学時に専門を決めきれない生徒や、体育・芸術を国立大学で学びたい生徒に話せる。",
+   "only": [
+    {
+     "t": "一般選抜前期の「総合選抜」で入学すると1年次は総合学域群に所属し、1年次の終わりに本人の志望と入学後の成績などで2年次以降の学類・専門学群が決まる",
+     "src": "https://search.keinet.ne.jp/1085/outline/department"
+    },
+    {
+     "t": "総合学域群からは体育専門学群と学際サイエンス・デザイン専門学群を除くほぼすべての学類・専門学群に進める",
+     "src": "https://search.keinet.ne.jp/1085/outline/department"
+    },
+    {
+     "t": "学群・学類制をとり、医学群（医学類は6年制）や体育専門学群・芸術専門学群も置く",
+     "src": "https://search.keinet.ne.jp/1085/outline/department"
+    }
+   ],
+   "vs": [
+    {
+     "u": "茨城大学",
+     "t": "同じ茨城県の茨城大学は人文社会科学・教育・理・工・農の5学部と地域未来共創学環で入学時に学部を選ぶが、筑波大学は総合選抜で入学後に専門を決める道があり、医学・体育・芸術の学群も置く",
+     "src": "https://search.keinet.ne.jp/1075/outline/department"
+    }
+   ]
+  }
+ },
+ {
+  "name": "茨城大学",
+  "story": {
+   "summary": "人文社会科学・教育・理・工・農の5学部と地域未来共創学環を置く大学。専門とは別の分野を学ぶ仕組み（人文社会科学部のサブメジャー必修、全学のプラスIプログラム）や、学外実習と組み合わせて社会課題に取り組む学環があり、専門に加えて幅を広げたい生徒や地域の課題に関心がある生徒に話せる。",
+   "only": [
+    {
+     "t": "人文社会科学部では全員が14のサブメジャー（副専攻）から必ず1つを選び、専門とは別の分野やスキルを身につける",
+     "src": "https://search.keinet.ne.jp/1075/outline/department"
+    },
+    {
+     "t": "地域未来共創学環は、関心のある社会課題に合わせて授業を選ぶ課題先行型で、人文社会科学部・工学部・農学部の授業も使い、学外実習と組み合わせて学ぶ",
+     "src": "https://search.keinet.ne.jp/1075/outline/department"
+    },
+    {
+     "t": "工学部は学部4年と大学院博士前期課程2年をつなぐ6年一貫のカリキュラムをとる",
+     "src": "https://search.keinet.ne.jp/1075/outline/department"
+    },
+    {
+     "t": "全学で数理・データサイエンス・AI、サステイナビリティ学、日本語教員養成、アントレプレナーシップなどのプラスIプログラムを選べる",
+     "src": "https://search.keinet.ne.jp/1075/outline/department"
+    }
+   ],
+   "vs": [
+    {
+     "u": "筑波大学",
+     "t": "筑波大学は前期日程の総合選抜で入学し1年次の終わりに学類を決める仕組みがあるが、茨城大学は入学時に学部を決め、副専攻やプラスIプログラムで専門外の分野も学ぶ",
+     "src": "https://search.keinet.ne.jp/1085/outline/department"
+    }
+   ]
+  }
+ }
+]

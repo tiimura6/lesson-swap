@@ -51764,7 +51764,8 @@
 "https://search.keinet.ne.jp/2156/outline/campus",
 "https://search.keinet.ne.jp/2156/outline/expense",
 "https://search.keinet.ne.jp/2156/outline/licential",
-"https://search.keinet.ne.jp/2156/outline/admission_employment"
+"https://search.keinet.ne.jp/2156/outline/admission_employment",
+"https://telemail.jp/shingaku/university/10001450/examination/general"
 ],
 "licenses": [
 "教員免許（中・高 英語・独仏語・社会ほか）",
@@ -52035,7 +52036,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-06",
+"schedule": "2026-11-11",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06"
@@ -52124,57 +52125,77 @@
 "note": "1行に一般選抜全学科統一前期のボーダー偏差値(hen)と共テ利用前期2科目型のボーダー得点率(kt)を併記。3科目学科別・共テ3科目型・国公立併願・後期は省略。"
 },
 "schedule": {
-"year": "年度表記なし（Kei-Net掲載、2026年11月閲覧時点）／検定料は2026年度入試",
+"year": "2027年度入試",
 "rows": [
 {
 "kubun": "一般",
 "name": "全学科統一前期",
-"apply": "〜1/20（消印）",
+"apply": "1/4〜1/20",
 "exam": "2/1",
 "result": "2/13",
 "proc": "2/22",
 "fee": 35000,
-"note": "外国語学部・法学部の例。受験料に割引制度あり"
+"note": "検定料は2026年度入試の額。受験料に割引制度あり"
 },
 {
 "kubun": "一般",
-"name": "3科目学科別",
-"apply": "〜1/20（消印）",
+"name": "イブニング",
+"apply": "1/4〜1/20",
+"exam": "共テ＋2/1",
+"result": "2/13",
+"proc": "2/22",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "学科別／2科目判定型／外検＋プラス",
+"apply": "1/4〜1/20",
 "exam": "2/2",
 "result": "2/13",
 "proc": "2/22",
 "fee": 35000,
-"note": ""
+"note": "検定料は2026年度入試の額"
 },
 {
 "kubun": "一般",
 "name": "全学科統一後期",
-"apply": "〜2/26（消印）",
-"exam": "3/6",
+"apply": "2/13〜2/26",
+"exam": "共テ＋3/6",
 "result": "3/11",
 "proc": "3/15",
 "fee": 35000,
-"note": ""
+"note": "検定料は2026年度入試の額"
 },
 {
 "kubun": "共テ利用",
-"name": "共通テスト利用 前期（2科目型・3科目型）",
-"apply": "〜1/15（消印）",
+"name": "共通テスト利用 前期",
+"apply": "1/4〜1/15",
+"exam": "1/16・1/17（共テ）",
 "result": "2/13",
 "proc": "2/22",
 "fee": 17000,
-"note": "個別試験なし。国公立併願型は出願〜2/3・手続3/12。受験料に割引制度あり"
+"note": "2志願で17,000円（3志願目から＋5,000円）"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用（国公立併願型・英語資格・情報サイエンス）",
+"apply": "1/4〜2/3",
+"exam": "1/16・1/17（共テ）",
+"result": "2/13",
+"proc": "国公立併願型3/12、ほか2/22",
+"fee": 17000
 },
 {
 "kubun": "共テ利用",
 "name": "共通テスト利用 後期",
-"apply": "〜3/12（消印）",
+"apply": "2/13〜3/12",
+"exam": "1/16・1/17（共テ）",
 "result": "3/18",
 "proc": "3/23",
-"fee": 17000,
-"note": "学科により科目型が異なる"
+"fee": 17000
 }
-]
+],
+"note": "テレメール（2027年度一般選抜、外国語学部の例）。出願はネット17:00締切"
 },
 "money": {
 "year": "2026年度",
@@ -60457,7 +60478,8 @@
 "https://jadecom.or.jp/library/magazine/upload/2025/02/25/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%93%E3%83%A5%E3%83%BC%E5%86%92%E9%A0%AD2%E3%83%9A%E3%83%BC%E3%82%B8_1.pdf",
 "https://search.keinet.ne.jp/2122/outline/licential",
 "https://search.keinet.ne.jp/2122/outline/admission_employment",
-"https://passnavi.obunsha.co.jp/univ/1910/expense/"
+"https://passnavi.obunsha.co.jp/univ/1910/expense/",
+"https://www.pref.osaka.lg.jp/moyo/o100030/023931.html"
 ],
 "licenses": [
 "医師国家試験受験資格",
@@ -60601,7 +60623,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-06",
+"schedule": "2026-11-11",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06"
@@ -60632,12 +60654,12 @@
 {
 "kubun": "一般",
 "name": "医学部 一般",
-"apply": "〜1/19（消印有効）",
-"exam": "1次1/25・1/26、2次2/3",
+"apply": "1/4〜1/20（必着、郵送は1/19消印有効）",
+"exam": "1次1/25（学力）・1/26（面接）、2次2/3",
 "result": "1次1/29、2次2/12",
-"proc": "2/25",
+"proc": "1回目2/25・2回目3/12",
 "fee": 20000,
-"note": "検定料は2026年度入試の額。日付はKei-Net（年度表示なし、予定を含む）"
+"note": "令和9年度（2027年度）募集（大阪府の案内）。受験料20,000円"
 },
 {
 "kubun": "一般",
@@ -145934,8 +145956,8 @@ null
 "departments": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
-"money": "2026-11-07",
+"schedule": "2026-11-11",
+"money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07"
@@ -146007,7 +146029,8 @@ null
 "exam": "1/26・1/27（自由選択）",
 "result": "2/10",
 "proc": "3/1",
-"fee": null
+"fee": null,
+"note": "2科目選択・3科目選択方式。建築＆芸術学科の実技方式は1/26のみ"
 },
 {
 "kubun": "一般",
@@ -146016,7 +146039,8 @@ null
 "exam": "2/26・2/27",
 "result": "3/4",
 "proc": "3/17",
-"fee": null
+"fee": null,
+"note": "管理栄養・看護学科は3科目選択方式もあり"
 },
 {
 "kubun": "一般",
@@ -146045,22 +146069,58 @@ null
 "proc": "3/17",
 "fee": null
 }
-]
+],
+"note": "日程はマナビジョン（2027年度入試）で確認。基本の検定料は出典に記載なし（一般選抜で3学部まで併願すると追加検定料5,000円）"
 },
 "money": {
 "year": "2027年度",
 "rows": [
 {
-"f": "全学部（国際日本・現代社会・建築＆芸術・健康栄養）",
+"f": "国際日本学部・現代社会学部・経営学部",
 "admission": 240000,
-"tuition": 920000,
+"tuition": 830000,
 "facility": 240000,
-"practical": 0,
-"other": 150000,
-"first_year": 1550000,
-"four_year": null
+"practical": null,
+"other": null,
+"first_year": 1310000,
+"four_year": null,
+"note": "2027年度予定（マナビジョン）"
+},
+{
+"f": "建築＆芸術学部",
+"admission": 240000,
+"tuition": 830000,
+"facility": 390000,
+"practical": null,
+"other": null,
+"first_year": 1460000,
+"four_year": null,
+"note": "施設設備費240,000円＋教育充実費150,000円"
+},
+{
+"f": "健康栄養学部",
+"admission": 240000,
+"tuition": 890000,
+"facility": 390000,
+"practical": null,
+"other": null,
+"first_year": 1520000,
+"four_year": null,
+"note": "施設設備費240,000円＋教育充実費150,000円"
+},
+{
+"f": "国際看護学部",
+"admission": 240000,
+"tuition": 1050000,
+"facility": 620000,
+"practical": null,
+"other": null,
+"first_year": 1910000,
+"four_year": null,
+"note": "教育施設充実費620,000円"
 }
-]
+],
+"note": "2027年度予定（ベネッセ マナビジョン）。従来の全学部一括1,550,000円（外部AI由来）はマナビジョンと一致しなかったため置き換え。諸会費は出典に記載なし"
 },
 "access": "さくら夙川キャンパス（兵庫県西宮市御茶家所町6-42）・大阪大手前キャンパス",
 "careers": "一般企業、公務員、建築士、デザイナー、管理栄養士、航空・観光関連など。",
@@ -146069,7 +146129,9 @@ null
 "https://www.otemae.ac.jp/",
 "https://telemail.jp/shingaku/university/10001567/examination/general",
 "https://shingakunet.com/gakko/SC000397/nanido/",
-"https://shingakunet.com/gakko/SC000397/gakuhi/"
+"https://shingakunet.com/gakko/SC000397/gakuhi/",
+"https://manabi.benesse.ne.jp/daigaku/school/3693/nyushi/",
+"https://manabi.benesse.ne.jp/daigaku/school/3693/gakuhi/"
 ]
 },
 "大谷大学": {
@@ -146464,8 +146526,8 @@ null
 "faculties": "2026-11-07",
 "departments": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
-"money": "2026-11-07",
+"schedule": "2026-11-11",
+"money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07"
@@ -146510,7 +146572,8 @@ null
 "proc": "3/5",
 "fee": null
 }
-]
+],
+"note": "スポーツ科学部・教育学部で同じ日程（2027年度一般選抜、テレメール）。共通テスト利用選抜の日程と検定料は出典に記載なし"
 },
 "money": {
 "year": "2026年度",
@@ -146525,7 +146588,8 @@ null
 "first_year": 1556000,
 "four_year": 5549000
 }
-]
+],
+"note": "内訳は2026年度。2027年度の初年度納入金（マナビジョン）も両学部1,556,000円（入学金200,000円を含む）で同額"
 },
 "access": "大阪府泉南郡熊取町朝代台1-1",
 "careers": "保健体育教員、小学校教諭、スポーツ指導者、トレーナー、一般企業、公務員（警察・消防）など。",
@@ -146535,7 +146599,8 @@ null
 "https://telemail.jp/shingaku/university/10001564/examination/general",
 "https://shingakunet.com/gakko/SC000394/nanido/",
 "https://www.best-shingaku.net/smt/gakuhi2263.html",
-"https://www.gakuhi-navi.com/school/4665"
+"https://www.gakuhi-navi.com/school/4665",
+"https://manabi.benesse.ne.jp/daigaku/school/3640/gakuhi/"
 ]
 },
 "大阪保健医療大学": {
@@ -146739,7 +146804,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-11",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -146795,18 +146860,18 @@ null
 {
 "kubun": "一般",
 "name": "一般選抜 前期（3教科型）",
-"apply": null,
+"apply": "1/5〜1/25",
 "exam": "2/3",
-"result": null,
+"result": "2/15",
 "proc": "入学金2/22・授業料等3/18",
 "fee": null
 },
 {
 "kubun": "一般",
 "name": "一般選抜 後期（2教科型）",
-"apply": null,
+"apply": "1/5〜2/16",
 "exam": "2/19",
-"result": null,
+"result": "3/3",
 "proc": "入学金3/10・授業料等3/18",
 "fee": null
 },
@@ -146815,11 +146880,21 @@ null
 "name": "一般選抜 共通テスト利用（前期）",
 "apply": "1/5〜1/14",
 "exam": "1/16・1/17（共テ）",
-"result": null,
-"proc": null,
+"result": "2/15",
+"proc": "2/22",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "一般選抜 共通テスト利用（後期）",
+"apply": "2/17〜3/4",
+"exam": "1/16・1/17（共テ）",
+"result": "3/12",
+"proc": "3/18",
 "fee": null
 }
-]
+],
+"note": "日程はマナビジョン・テレメール（2027年度入試）で一致。検定料は両出典に記載なし"
 },
 "money": {
 "year": "2026年度",
@@ -146845,7 +146920,9 @@ null
 "https://www.kyoto-phu.ac.jp/news/nid00000237.html",
 "https://passnavi.obunsha.co.jp/univ/3960/difficulty/",
 "https://search.keinet.ne.jp/2494/general/border_rate",
-"https://manabi.benesse.ne.jp/daigaku/school/3599/gakuhi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3599/gakuhi/",
+"https://manabi.benesse.ne.jp/daigaku/school/3599/nyushi/",
+"https://telemail.jp/shingaku/university/10001712/examination/general"
 ]
 },
 "佛教大学": {
@@ -146866,7 +146943,7 @@ null
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
 "schedule": "2026-11-07",
-"money": "2026-11-07",
+"money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07"
@@ -147020,34 +147097,35 @@ null
 {
 "f": "仏教学部・文学部・歴史学部・社会学部・社会福祉学部",
 "admission": 250000,
-"tuition": null,
-"facility": null,
-"practical": 0,
-"other": null,
+"tuition": 870000,
+"facility": 100000,
+"practical": null,
+"other": 25500,
 "first_year": 1245500,
 "four_year": null
 },
 {
 "f": "教育学部",
 "admission": 250000,
-"tuition": null,
-"facility": null,
-"practical": 0,
-"other": null,
+"tuition": 920000,
+"facility": 130000,
+"practical": null,
+"other": 25500,
 "first_year": 1325500,
 "four_year": null
 },
 {
 "f": "保健医療技術学部・看護学部",
 "admission": 250000,
-"tuition": null,
-"facility": null,
-"practical": 0,
-"other": null,
+"tuition": 1350000,
+"facility": 250000,
+"practical": null,
+"other": 25500,
 "first_year": 1875500,
 "four_year": null
 }
-]
+],
+"note": "2026年度入学者用（河合塾Kei-Net）。資格課程の受講料・実習費などは別途"
 },
 "access": "紫野キャンパス（京都市北区紫野北花ノ坊町96）・二条キャンパス",
 "careers": "小学校・中学校・高校教諭、保育士、社会福祉士、理学療法士、作業療法士、看護師、一般企業、公務員など。",
@@ -147058,7 +147136,8 @@ null
 "https://www.bukkyo-u.ac.jp/admission/design/file/fresher/2027_shiori.pdf",
 "https://manabi.benesse.ne.jp/daigaku/school/3606/gakuhi/",
 "https://passnavi.obunsha.co.jp/univ/4030/difficulty/",
-"https://search.keinet.ne.jp/2501/general/border_rate"
+"https://search.keinet.ne.jp/2501/general/border_rate",
+"https://search.keinet.ne.jp/2501/outline/expense"
 ]
 },
 "兵庫医科大学": {
@@ -147074,7 +147153,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-11",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -147151,29 +147230,76 @@ null
 "name": "医学部 一般選抜A（4科目型）",
 "apply": "12/14〜1/20",
 "exam": "1次2/4・2次2/17または2/18",
-"result": null,
-"proc": null,
+"result": "1次2/15・2次2/24",
+"proc": "3/3",
+"fee": null,
+"note": "一般枠・兵庫県推薦枠"
+},
+{
+"kubun": "一般",
+"name": "医学部 一般選抜B（英語資格試験活用型）",
+"apply": "12/14〜1/20",
+"exam": "1次2/4・2次2/27",
+"result": "1次2/24・2次3/5",
+"proc": "3/12",
 "fee": null
 },
 {
 "kubun": "一般",
-"name": "看護・リハ 一般選抜 前期B日程",
+"name": "薬・看護・リハ 一般選抜 前期A日程",
 "apply": "1/4〜1/18",
-"exam": "2/3",
+"exam": "2/2",
 "result": "2/12",
-"proc": "1次2/19・2次3/10",
-"fee": 35000
+"proc": "2/19",
+"fee": null
 },
 {
 "kubun": "一般",
-"name": "看護・リハ 一般選抜 後期日程",
+"name": "薬・看護・リハ 一般選抜 前期B日程",
+"apply": "1/4〜1/18",
+"exam": "2/3",
+"result": "2/12",
+"proc": "2/19",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "薬学部 一般選抜 中期日程（学力重視型・面接併用型）",
+"apply": "2/4〜2/12",
+"exam": "2/17（学力重視）・2/18（面接併用）",
+"result": "2/24",
+"proc": "3/10",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "薬・看護・リハ 一般選抜 後期日程",
 "apply": "2/12〜2/26",
 "exam": "3/5",
 "result": "3/11",
 "proc": "3/17",
-"fee": 35000
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "薬・看護・リハ 共通テスト利用 前期日程",
+"apply": "1/4〜1/15",
+"exam": "1/16・1/17（共テ）",
+"result": "2/12",
+"proc": "2/19",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "薬・看護・リハ 共通テスト利用 後期日程",
+"apply": "2/12〜2/26",
+"exam": "1/16・1/17（共テ）",
+"result": "3/11",
+"proc": "3/17",
+"fee": null
 }
-]
+],
+"note": "テレメール（2027年度一般選抜）とKei-Netで一致。検定料は両出典に記載なし"
 },
 "money": {
 "year": "2026年度",
@@ -147229,7 +147355,9 @@ null
 "https://www.hyo-med.ac.jp/admission/outline/kobe/general-first-2subjects/",
 "https://www.hyo-med.ac.jp/admission/outline/kobe/general-second/",
 "https://manabi.benesse.ne.jp/daigaku/school/3711/gakuhi/",
-"https://passnavi.obunsha.co.jp/univ/4550/difficulty/"
+"https://passnavi.obunsha.co.jp/univ/4550/difficulty/",
+"https://telemail.jp/shingaku/university/10100228/examination/general",
+"https://search.keinet.ne.jp/general/schedule_sp/2574"
 ]
 },
 "兵庫大学": {
@@ -147404,8 +147532,8 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
-"money": "2026-11-07",
+"schedule": "2026-11-11",
+"money": "2026-11-11",
 "scholar": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -147476,7 +147604,7 @@ null
 "apply": "12/14〜1/12",
 "exam": "1/21",
 "result": "2/1",
-"proc": "2/15",
+"proc": "入学金2/15・前期授業料等2/26",
 "fee": 30000
 },
 {
@@ -147485,7 +147613,7 @@ null
 "apply": "12/14〜2/2",
 "exam": "2/7",
 "result": "2/15",
-"proc": "2/26",
+"proc": "入学金2/26・前期授業料等3/22",
 "fee": 30000
 },
 {
@@ -147504,7 +147632,7 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "2/15",
 "proc": "3/22",
-"fee": null
+"fee": 10000
 },
 {
 "kubun": "共テ利用",
@@ -147513,9 +147641,10 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "3/12",
 "proc": "3/22",
-"fee": null
+"fee": 10000
 }
-]
+],
+"note": "2027年度募集要項（看護学部・栄養学部）で確認。一般の前期・中期は同時出願可（検定料60,000円）"
 },
 "money": {
 "year": "2027年度",
@@ -147532,25 +147661,28 @@ null
 },
 {
 "f": "栄養学部 栄養学科",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 1626140,
-"four_year": null
+"admission": 200000,
+"tuition": 800000,
+"facility": 380000,
+"practical": 180000,
+"other": 58000,
+"first_year": 1618000,
+"four_year": null,
+"note": "教育充実費。その他諸経費は同窓会費積立金・後援会費・学友会費"
 },
 {
 "f": "看護学部 看護学科",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 1954840,
-"four_year": null
+"admission": 200000,
+"tuition": 1020000,
+"facility": 360000,
+"practical": 300000,
+"other": 58000,
+"first_year": 1938000,
+"four_year": null,
+"note": "教育充実費。助産師・保健師・養護教諭の課程は別途履修費"
 }
-]
+],
+"note": "看護・栄養は2027年度募集要項（大学公式）。教育学部は合計のみ"
 },
 "scholar": {
 "year": "2027年度",
@@ -147573,7 +147705,9 @@ null
 "https://www.kinran.ac.jp/cheer/exam/general_01.html",
 "https://telemail.jp/shingaku/university/10001592/examination/general",
 "https://manabi.benesse.ne.jp/daigaku/school/3663/gakuhi/",
-"https://passnavi.obunsha.co.jp/univ/4295/difficulty/"
+"https://passnavi.obunsha.co.jp/univ/4295/difficulty/",
+"https://www.kinran.ac.jp/cheer/exam/pdf/nursing_application_2027.pdf",
+"https://www.kinran.ac.jp/cheer/exam/pdf/dietetics_application_2027.pdf"
 ]
 },
 "同志社女子大学": {
