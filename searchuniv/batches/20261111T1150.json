@@ -1,0 +1,589 @@
+[
+ {
+  "name": "京都看護大学",
+  "info": {
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "看護学部 看護学科",
+      "admission": 200000,
+      "tuition": 1150000,
+      "facility": 300000,
+      "practical": 250000,
+      "other": null,
+      "first_year": 1900000,
+      "four_year": null,
+      "note": "入学時最小限納入金1,050,000円。別に保険代・実習用品・学生支援費など約10万円、テキスト代などが必要"
+     }
+    ],
+    "note": "2027年度（旺文社パスナビ、2026年9月調査）。納入は2段/延納"
+   },
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "apply": "12/21〜1/25",
+      "exam": "1/31",
+      "result": "2/4",
+      "proc": "2/12",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程",
+      "apply": "12/21〜2/8",
+      "exam": "2/14",
+      "result": "2/18",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 C日程",
+      "apply": "12/21〜3/8",
+      "exam": "3/13",
+      "result": "3/17",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 前期",
+      "apply": "12/21〜2/8",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/18",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 後期",
+      "apply": "12/21〜3/8",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/17",
+      "proc": "3/23",
+      "fee": null
+     }
+    ],
+    "note": "旺文社パスナビ（8月末までの判明分）。検定料は出典に記載なし"
+   },
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/3913/expense/?facultyID=005",
+    "https://passnavi.obunsha.co.jp/univ/3913/schedule/"
+   ]
+  }
+ },
+ {
+  "name": "京都精華大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "人文学部 人文学科（歴史・文学・社会コース）",
+      "admission": 200000,
+      "tuition": 1086000,
+      "facility": 0,
+      "practical": 0,
+      "other": 50000,
+      "first_year": 1336000,
+      "four_year": null
+     },
+     {
+      "f": "人文学部 国際教養学科（国際文化・国際日本学コース）",
+      "admission": 200000,
+      "tuition": 1086000,
+      "facility": 0,
+      "practical": 0,
+      "other": 50000,
+      "first_year": 1336000,
+      "four_year": null
+     },
+     {
+      "f": "メディア表現学部 メディア表現学科",
+      "admission": 200000,
+      "tuition": 1186000,
+      "facility": 0,
+      "practical": 0,
+      "other": 50000,
+      "first_year": 1436000,
+      "four_year": null
+     },
+     {
+      "f": "芸術学部 造形学科",
+      "admission": 200000,
+      "tuition": 1550000,
+      "facility": 0,
+      "practical": 0,
+      "other": 50000,
+      "first_year": 1800000,
+      "four_year": null
+     },
+     {
+      "f": "デザイン学部（ビジュアルデザイン・イラスト・プロダクトデザイン・建築学科）",
+      "admission": 200000,
+      "tuition": 1579000,
+      "facility": 0,
+      "practical": 0,
+      "other": 50000,
+      "first_year": 1829000,
+      "four_year": null
+     },
+     {
+      "f": "マンガ学部（キャラクターデザイン・マンガ・アニメーション学科）",
+      "admission": 200000,
+      "tuition": 1579000,
+      "facility": 0,
+      "practical": 0,
+      "other": 50000,
+      "first_year": 1829000,
+      "four_year": null
+     }
+    ],
+    "note": "2026年度（旺文社パスナビ、2026年5月調査。2027年度は未掲載）。一括納入。コースによりノートパソコン購入費などが別に必要"
+   },
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜1期（エントリー方式）",
+      "apply": "エントリー9/1〜9/4・出願9/25〜10/1",
+      "exam": "9/12・9/13",
+      "result": "11/4",
+      "proc": "11/11",
+      "fee": 30000,
+      "note": "エントリー時10,000円＋出願時20,000円"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜2期（エントリー方式）",
+      "apply": "エントリー9/24〜10/1・出願10/16〜10/21",
+      "exam": "10/11",
+      "result": "11/4",
+      "proc": "11/11",
+      "fee": 30000,
+      "note": "エントリー時10,000円＋出願時20,000円"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜3期",
+      "apply": "11/26〜12/2",
+      "exam": "12/13",
+      "result": "12/21",
+      "proc": "1/6",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜1期（2科目／1科目＋実技・鉛筆デッサンなど）",
+      "apply": "〜1/14（消印有効）",
+      "exam": "2/4",
+      "result": "2/16",
+      "proc": "2/25",
+      "fee": null,
+      "note": "人文・メディア表現学部は1期面接（2/3）もあり"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜2期（人文・メディア表現学部）",
+      "apply": "〜3/8（消印有効）",
+      "exam": "3/13",
+      "result": "3/17",
+      "proc": "3/22",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用1期（全学部）",
+      "apply": "〜1/14（消印有効）",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/16",
+      "proc": "2/25",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用2期（人文・メディア表現学部）",
+      "apply": "〜3/8（消印有効）",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/17",
+      "proc": "3/22",
+      "fee": null
+     }
+    ],
+    "note": "総合型は大学公式の2027年度入試ガイド、一般・共テ利用は河合塾Kei-Net（出願開始日の掲載なし）"
+   },
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/3940/expense/",
+    "https://www.kyoto-seika.ac.jp/pdf/2027/guide.pdf",
+    "https://search.keinet.ne.jp/2492/general/schedule"
+   ]
+  }
+ },
+ {
+  "name": "京都芸術大学",
+  "info": {
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "芸術学部 美術工芸学科（アートプロデュースコース）",
+      "admission": 250000,
+      "tuition": 1050000,
+      "facility": 100000,
+      "practical": null,
+      "other": 19660,
+      "first_year": 1419660,
+      "four_year": null
+     },
+     {
+      "f": "芸術学部 美術工芸学科（文化財保存修復・歴史遺産コース）",
+      "admission": 250000,
+      "tuition": 1050000,
+      "facility": 130000,
+      "practical": null,
+      "other": 19660,
+      "first_year": 1449660,
+      "four_year": null
+     },
+     {
+      "f": "芸術学部 美術工芸学科（日本画・油画・染織テキスタイル・総合造形・写真・映像コース）",
+      "admission": 250000,
+      "tuition": 1320000,
+      "facility": 320000,
+      "practical": null,
+      "other": 19660,
+      "first_year": 1909660,
+      "four_year": null
+     },
+     {
+      "f": "芸術学部 プロダクトデザイン学科・情報デザイン学科・映画学科・舞台芸術学科",
+      "admission": 250000,
+      "tuition": 1320000,
+      "facility": 350000,
+      "practical": null,
+      "other": 19660,
+      "first_year": 1939660,
+      "four_year": null
+     },
+     {
+      "f": "芸術学部 キャラクターデザイン学科（キャラクターデザインコース）",
+      "admission": 250000,
+      "tuition": 1320000,
+      "facility": 350000,
+      "practical": null,
+      "other": 19660,
+      "first_year": 1939660,
+      "four_year": null
+     },
+     {
+      "f": "芸術学部 キャラクターデザイン学科（マンガコース）",
+      "admission": 250000,
+      "tuition": 1320000,
+      "facility": 300000,
+      "practical": null,
+      "other": 19660,
+      "first_year": 1889660,
+      "four_year": null
+     },
+     {
+      "f": "芸術学部 空間演出デザイン学科・環境デザイン学科・こども芸術学科",
+      "admission": 250000,
+      "tuition": 1320000,
+      "facility": 300000,
+      "practical": null,
+      "other": 19660,
+      "first_year": 1889660,
+      "four_year": null
+     },
+     {
+      "f": "芸術学部 文芸表現学科",
+      "admission": 250000,
+      "tuition": 1050000,
+      "facility": 100000,
+      "practical": null,
+      "other": 19660,
+      "first_year": 1419660,
+      "four_year": null
+     }
+    ],
+    "note": "2027年度（旺文社パスナビ、2026年9月調査）。諸会費は災害・賠償保険料（4年分）・学生会費・保護者会会費。納入は2段"
+   },
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "apply": "〜1/5",
+      "exam": "1/28",
+      "result": "2/5",
+      "proc": "2/17",
+      "fee": null,
+      "note": "試験会場：本学・東京・名古屋・岡山・福岡"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 1期",
+      "apply": "〜1/31",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/15",
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 2期",
+      "apply": "〜2/26",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/10",
+      "proc": "3/17",
+      "fee": null
+     }
+    ],
+    "note": "河合塾Kei-Net（出願締切のみ掲載）。検定料は出典に記載なし"
+   },
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/3945/expense/?facultyID=005",
+    "https://search.keinet.ne.jp/2493/general/schedule"
+   ]
+  }
+ },
+ {
+  "name": "京都美術工芸大学",
+  "info": {
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "建築学部 建築学科",
+      "admission": 200000,
+      "tuition": 1190000,
+      "facility": 360000,
+      "practical": null,
+      "other": 66760,
+      "first_year": 1816760,
+      "four_year": null,
+      "note": "施設費は教育充実費。入学時最小限納入金1,041,760円"
+     },
+     {
+      "f": "芸術学部 デザイン・工芸学科",
+      "admission": 200000,
+      "tuition": 1190000,
+      "facility": 360000,
+      "practical": null,
+      "other": 66760,
+      "first_year": 1816760,
+      "four_year": null,
+      "note": "施設費は教育充実費。入学時最小限納入金1,041,760円"
+     }
+    ],
+    "note": "2027年度（旺文社パスナビ、2026年9月調査）。納入は2段"
+   },
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期A日程",
+      "apply": "12/21〜1/20",
+      "exam": "1/27",
+      "result": "2/4",
+      "proc": "2/12",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期B日程",
+      "apply": "12/21〜2/3",
+      "exam": "2/11",
+      "result": "2/18",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期",
+      "apply": "2/8〜2/25",
+      "exam": "3/4",
+      "result": "3/11",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 前期",
+      "apply": "12/21〜2/3",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "3/9",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 後期",
+      "apply": "2/8〜3/8",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/11",
+      "proc": "3/23",
+      "fee": null
+     }
+    ],
+    "note": "建築学部・芸術学部とも同じ日程（旺文社パスナビ、8月末までの判明分）。検定料は出典に記載なし"
+   },
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/3953/expense/",
+    "https://passnavi.obunsha.co.jp/univ/3953/schedule/"
+   ]
+  }
+ },
+ {
+  "name": "東北農林専門職大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期（農林業経営学部）",
+      "apply": "1/25〜2/3",
+      "exam": "2/25（個別：小論文・面接）",
+      "result": "3/4",
+      "proc": "3/15",
+      "fee": null
+     }
+    ],
+    "note": "旺文社パスナビ（8月末までの判明分）。共通テスト（1/16・1/17）3教科3科目＋個別。検定料は出典に記載なし"
+   },
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/9103/schedule/",
+    "https://passnavi.obunsha.co.jp/univ/9103/subject/"
+   ]
+  }
+ },
+ {
+  "name": "つくば国際大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 1期（医療保健学部）",
+      "apply": "1/5〜1/27",
+      "exam": "1/30",
+      "result": "2/9",
+      "proc": "2/19",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 2期（医療保健学部）",
+      "apply": "2/10〜2/24",
+      "exam": "2/27",
+      "result": "3/9",
+      "proc": "3/18",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 1期",
+      "apply": "1/5〜2/1",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 2期",
+      "apply": "2/2〜2/24",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/4",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 3期",
+      "apply": "2/25〜3/3",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/12",
+      "proc": "3/23",
+      "fee": null
+     }
+    ],
+    "note": "旺文社パスナビ（8月末までの判明分）。検定料は出典に記載なし"
+   },
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/1865/schedule/"
+   ]
+  }
+ },
+ {
+  "name": "東京農工大学",
+  "story": {
+   "summary": "農学部と工学部の2学部からなる国立大学。農学部では作物・食品・環境・森林や野生動物まで幅広く扱い、共同獣医学科では岩手大学と役割を分けて6年間獣医学を学ぶ。工学部は「欅型教育」を掲げ、バイオ・医工系からロボティクス・AI系まで6学科で専門を深める。",
+   "only": [
+    {
+     "t": "共同獣医学科（6年制）は岩手大学と共同で運営し、小動物診療実習は東京農工大学、産業動物診療実習は岩手大学で行うなど両大学で役割を分担している",
+     "src": "https://www.tuat.ac.jp/documents/tuat/department/agriculture/Veterinary_Medicine.pdf"
+    },
+    {
+     "t": "附属動物医療センター、国際家畜感染症防疫センター、農場（広域都市圏フィールドサイエンス教育研究センター）などの施設がある",
+     "src": "https://www.tuat.ac.jp/documents/tuat/department/agriculture/Veterinary_Medicine.pdf"
+    },
+    {
+     "t": "工学部は「欅（ケヤキ）型教育」を理念とし、6学科をバイオ・医工系／エネルギー・環境・マテリアル系／モビリティ・ロボティクス・コンピュータ・AI系に分けている",
+     "src": "https://search.keinet.ne.jp/1160/outline/department"
+    },
+    {
+     "t": "農学部の地域生態システム学科は森林・野生動物・水資源・農村計画・環境政策まで扱う",
+     "src": "https://search.keinet.ne.jp/1160/outline/department"
+    }
+   ],
+   "vs": [
+    {
+     "u": "電気通信大学",
+     "t": "電気通信大学は入学後に「類」へ進み15の専門教育プログラムに配属される情報理工学域の1学域だが、東京農工大学は工学部の6学科に加えて農学部・獣医学科があり、生命・農・環境の分野と工学を同じ大学で学べる",
+     "src": "https://search.keinet.ne.jp/1115/outline/department"
+    }
+   ]
+  }
+ },
+ {
+  "name": "電気通信大学",
+  "story": {
+   "summary": "情報理工学域の1学域で、1年次は情報学と理工学の基礎を幅広く学び、その後Ⅰ類（情報系）・Ⅱ類（融合系）・Ⅲ類（理工系）を経て15の専門教育プログラムに分かれる。入学後に専門を絞り込めるので、情報と理工のどちらに進むか迷っている生徒にも話しやすい。",
+   "only": [
+    {
+     "t": "1年次は全学共通科目で情報学と理工学の基礎を学び、その後「類」（Ⅰ〜Ⅲ類）に入り、さらに15の専門教育プログラムに配属される",
+     "src": "https://search.keinet.ne.jp/1115/outline/department"
+    },
+    {
+     "t": "Ⅱ類（融合系）では医用工学・ロボティクス・電力スマートグリッドなど、情報と理工学が重なる分野に進む基礎を学ぶ",
+     "src": "https://search.keinet.ne.jp/1115/outline/department"
+    },
+    {
+     "t": "各プログラムのカリキュラムは大学院博士前期課程とのつながりを意識して組まれている",
+     "src": "https://search.keinet.ne.jp/1115/outline/department"
+    },
+    {
+     "t": "社会人や夜間に学びたい人向けの先端工学基礎課程（夜間主コース）がある",
+     "src": "https://search.keinet.ne.jp/1115/outline/department"
+    }
+   ],
+   "vs": [
+    {
+     "u": "東京農工大学",
+     "t": "東京農工大学の工学部は生命工学・応用化学・機械システム工学など6学科で構成されるが、電気通信大学は類に入ってから15のプログラムに分かれ、セキュリティ情報学・メディア情報学・光工学など情報と理工の分野が細かく分かれている",
+     "src": "https://search.keinet.ne.jp/1160/outline/department"
+    }
+   ]
+  }
+ }
+]
