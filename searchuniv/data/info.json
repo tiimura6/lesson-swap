@@ -151133,7 +151133,8 @@ null
 "methods": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"schedule": "2026-11-11"
 },
 "departments": [
 {
@@ -151184,8 +151185,52 @@ null
 "careers": "一般企業、金融・商業、スポーツ指導者、教員、公務員など。",
 "_via": "external-ai",
 "sources": [
-"https://www.ssu.ac.jp/"
-]
+"https://www.ssu.ac.jp/",
+"https://manabi.benesse.ne.jp/daigaku/school/3501/nyushi/hoshiki/ippan/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3501/nyushi/hoshiki/kyotsu-test/index.html"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 2月期（特待生型2月期も同日程）",
+"apply": "1/4〜1/26",
+"exam": "2/4（静岡）",
+"result": "2/15",
+"proc": "3/25",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 1月期（特待生型1月期も同日程）",
+"apply": "1/4〜2/4",
+"exam": "1/16・1/17（共テ）",
+"result": "2/15",
+"proc": "3/25",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 2月期（特待生型2月期も同日程）",
+"apply": "2/5〜2/18",
+"exam": "1/16・1/17（共テ）",
+"result": "3/1",
+"proc": "3/25",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 3月期（特待生型3月期も同日程）",
+"apply": "2/22〜3/4",
+"exam": "1/16・1/17（共テ）",
+"result": "3/19",
+"proc": "3/25",
+"fee": null
+}
+],
+"note": "ベネッセ マナビジョン（2027年度入試情報）。検定料は出典に記載なし。経営学部・スポーツ科学部で同じ日程"
+}
 },
 "静岡福祉大学": {
 "faculties": [
@@ -151496,7 +151541,8 @@ null
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "money": "2026-11-07",
-"scholar": "2026-11-07"
+"scholar": "2026-11-07",
+"schedule": "2026-11-11"
 },
 "departments": [
 {
@@ -151544,7 +151590,8 @@ null
 "sources": [
 "https://www.shizuoka-eiwa.ac.jp/university/",
 "https://www.shizuoka-eiwa.ac.jp/admissions/university/tuition.html",
-"https://www.shizuoka-eiwa.ac.jp/admissions/university/scholarship.html"
+"https://www.shizuoka-eiwa.ac.jp/admissions/university/scholarship.html",
+"https://passnavi.obunsha.co.jp/univ/3572/schedule/"
 ],
 "money": {
 "year": "2027年度",
@@ -151609,6 +151656,50 @@ null
 }
 ],
 "note": "公式ページの日付から2026年度入学者向けの内容。特待生制度どうしは重複適用されない。2027年度版は要確認。"
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜",
+"apply": "1/25〜2/1",
+"exam": "2/6",
+"result": "2/12",
+"proc": "3/4",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 共テ併用型（一般選抜の受験が必要）",
+"apply": "1/25〜2/1",
+"exam": "1/16・1/17（共テ）＋2/6（個別）",
+"result": "2/12",
+"proc": "3/4",
+"fee": "",
+"note": "共テ利用特待生の手続締切は3/25"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 前期",
+"apply": "1/4〜2/1",
+"exam": "1/16・1/17（共テ）",
+"result": "2/12",
+"proc": "3/4",
+"fee": null,
+"note": "共テ利用特待生の手続締切は3/25"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 後期",
+"apply": "3/2〜3/17",
+"exam": "1/16・1/17（共テ）",
+"result": "3/20",
+"proc": "3/25",
+"fee": null
+}
+],
+"note": "旺文社パスナビ（入試ガイド等による8月末までの判明分）。検定料は出典に記載なし。人間社会学部の日程"
 }
 },
 "高岡法科大学": {
@@ -151681,7 +151772,9 @@ null
 "methods": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"money": "2026-11-11",
+"schedule": "2026-11-11"
 },
 "departments": [
 {
@@ -151727,8 +151820,99 @@ null
 "careers": "理学療法士、作業療法士として医療機関・介護福祉施設など。",
 "_via": "external-ai",
 "sources": [
-"https://aino.ac.jp/professional/"
-]
+"https://aino.ac.jp/professional/",
+"https://passnavi.obunsha.co.jp/univ/9218/schedule/",
+"https://passnavi.obunsha.co.jp/univ/9218/expense/",
+"https://passnavi.obunsha.co.jp/univ/9218/suisen/",
+"https://passnavi.obunsha.co.jp/univ/9218/sougou/"
+],
+"money": {
+"year": "2027年度",
+"admission": 250000,
+"rows": [
+{
+"f": "リハビリテーション学部（理学療法学科・作業療法学科・言語聴覚療法学科）",
+"admission": 250000,
+"tuition": 900000,
+"facility": 200000,
+"practical": 100000,
+"other": null,
+"first_year": 1450000,
+"four_year": null,
+"note": "3学科同額。入学時最小限納入金850,000円（2段納入）。諸会費は出典に記載なし"
+}
+],
+"note": "旺文社パスナビ（2026年9月調査、2027年度）"
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制）A",
+"apply": "11/2〜11/10",
+"exam": "11/14",
+"result": "12/1",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制）B",
+"apply": "11/23〜12/7",
+"exam": "12/12",
+"result": "12/18",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 講座参加型（エントリー9/7〜9/21）",
+"apply": "10/1〜10/12",
+"exam": "10/17",
+"result": "11/2",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 面接重視型",
+"apply": "12/21〜1/22",
+"exam": "1/31",
+"result": "2/12",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 A日程",
+"apply": "12/21〜1/22",
+"exam": "1/31",
+"result": "2/12",
+"proc": "2/22",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 B日程",
+"apply": "1/25〜2/15",
+"exam": "2/20",
+"result": "2/26",
+"proc": "3/5",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 C日程",
+"apply": "2/18〜3/1",
+"exam": "3/6",
+"result": "3/12",
+"proc": "3/19",
+"fee": null
+}
+],
+"note": "旺文社パスナビ（入試ガイド等による8月末までの判明分）。検定料は出典に記載なし。推薦・総合型は2026年7月末までの公表分で、手続締切は記載なし"
+}
 },
 "びわこ学院大学": {
 "faculties": [
@@ -151742,7 +151926,9 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"scholar": "2026-11-07"
+"scholar": "2026-11-07",
+"money": "2026-11-11",
+"schedule": "2026-11-11"
 },
 "departments": [
 {
@@ -151837,7 +152023,9 @@ null
 "sources": [
 "https://www.biwakogakuin.ac.jp/",
 "https://www.biwakogakuin.ac.jp/juken/nyuusi",
-"https://www.biwakogakuin.ac.jp/special-scholarship"
+"https://www.biwakogakuin.ac.jp/special-scholarship",
+"https://passnavi.obunsha.co.jp/univ/3889/schedule/",
+"https://passnavi.obunsha.co.jp/univ/3889/expense/"
 ],
 "scholar": {
 "year": "2027年度",
@@ -151860,6 +152048,84 @@ null
 }
 ],
 "note": "本学独自の他の授業料減免制度とは併用できない"
+},
+"money": {
+"year": "2027年度",
+"admission": 200000,
+"rows": [
+{
+"f": "教育福祉学部（子ども学科・スポーツ教育学科）",
+"admission": 200000,
+"tuition": 850000,
+"facility": 280000,
+"practical": null,
+"other": null,
+"first_year": 1330000,
+"four_year": null,
+"note": "2学科同額。入学時最小限納入金765,000円（2段/延納）。諸会費（同窓会費 終身12,000円・学友会費 年15,000円）は納入金に含まない。免許・資格によって課程履修登録（実習）費が必要"
+}
+],
+"note": "旺文社パスナビ（2026年9月調査、2027年度）"
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 前期（1回目）",
+"apply": "12/23〜1/21",
+"exam": "2/2",
+"result": "2/5",
+"proc": "2/16",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期（2回目）",
+"apply": "12/23〜1/21",
+"exam": "2/3",
+"result": "2/5",
+"proc": "2/16",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期",
+"apply": "2/15〜3/4",
+"exam": "3/10",
+"result": "3/11",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 A日程",
+"apply": "12/23〜1/21",
+"exam": "1/16・1/17（共テ）",
+"result": "2/5",
+"proc": "2/16",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 B日程",
+"apply": "1/22〜2/12",
+"exam": "1/16・1/17（共テ）",
+"result": "2/18",
+"proc": "3/4",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 C日程",
+"apply": "2/15〜3/4",
+"exam": "1/16・1/17（共テ）",
+"result": "3/11",
+"proc": "3/23",
+"fee": null
+}
+],
+"note": "旺文社パスナビ（入試ガイド等による8月末までの判明分）。検定料は出典に記載なし"
 }
 },
 "びわこ成蹊スポーツ大学": {
@@ -151873,7 +152139,8 @@ null
 "methods": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"schedule": "2026-11-11"
 },
 "departments": [
 {
@@ -151918,8 +152185,123 @@ null
 "careers": "保健体育教員、スポーツ指導者、トレーナー、スポーツメーカー、一般企業、公務員（警察・消防）など。",
 "_via": "external-ai",
 "sources": [
-"https://biwako-seikei.jp/"
-]
+"https://biwako-seikei.jp/",
+"https://manabi.benesse.ne.jp/daigaku/school/3584/nyushi/hoshiki/ippan/index.html"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 前期A（2科目型・3科目型）",
+"apply": "12/14〜1/19",
+"exam": "1/25（滋賀・大阪・岡山・香川・愛知・兵庫）",
+"result": "2/12",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期B（スポーツ活動型・面接型）",
+"apply": "12/14〜2/2",
+"exam": "2/9（滋賀）",
+"result": "2/19",
+"proc": "3/5",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期B（2科目型・3科目型）",
+"apply": "12/14〜2/2",
+"exam": "2/9（滋賀・大阪）",
+"result": "2/19",
+"proc": "3/5",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 中期（小論型）",
+"apply": "1/14〜2/21",
+"exam": "2/27（滋賀）",
+"result": "3/9",
+"proc": "3/19",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 中期（2科目型・3科目型）",
+"apply": "1/14〜2/21",
+"exam": "2/27（滋賀・大阪）",
+"result": "3/9",
+"proc": "3/19",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期（2科目型）",
+"apply": "3/1〜3/23",
+"exam": "3/25（滋賀・大阪）",
+"result": "3/27",
+"proc": "3/30",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共テ 前期A-Ⅰプラス方式",
+"apply": "12/14〜1/19",
+"exam": "1/25（滋賀・大阪・岡山・香川・愛知・兵庫）",
+"result": "2/12",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共テ 前期A-Ⅱプラス方式",
+"apply": "12/14〜1/21",
+"exam": "1/28（滋賀・大阪）",
+"result": "2/12",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共テ 前期A-Ⅲプラス方式",
+"apply": "12/14〜1/24",
+"exam": "1/31（滋賀・京都・大阪・鳥取・広島・福岡・兵庫）",
+"result": "2/12",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共テ 前期Bプラス方式",
+"apply": "12/14〜2/2",
+"exam": "2/9（滋賀・大阪）",
+"result": "2/19",
+"proc": "3/5",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共テ併用 中期プラス方式",
+"apply": "1/14〜2/21",
+"exam": "2/27（滋賀・大阪）",
+"result": "3/9",
+"proc": "3/19",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共テ併用 後期プラス方式",
+"apply": "3/1〜3/23",
+"exam": "3/25（滋賀・大阪）",
+"result": "3/27",
+"proc": "3/30",
+"fee": null
+}
+],
+"note": "ベネッセ マナビジョン（2027年度入試情報）。検定料は出典に記載なし。スポーツ学部スポーツ学科"
+}
 },
 "京都先端科学大学": {
 "faculties": [
@@ -152312,7 +152694,8 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"scholar": "2026-11-07"
+"scholar": "2026-11-07",
+"schedule": "2026-11-11"
 },
 "departments": [
 {
@@ -152392,7 +152775,9 @@ null
 "https://www.koka.ac.jp/",
 "https://www.koka.ac.jp/admission/exam/about.html",
 "https://gakuen.koka.ac.jp/evolution/qa/",
-"https://www.koka.ac.jp/admission/exam/expenses/scholarship.html"
+"https://www.koka.ac.jp/admission/exam/expenses/scholarship.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3600/nyushi/hoshiki/ippan/index.html",
+"https://search.keinet.ne.jp/2495/general/schedule"
 ],
 "scholar": {
 "year": "2027年度",
@@ -152414,6 +152799,48 @@ null
 "cond": ""
 }
 ]
+},
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 前期日程",
+"apply": "1/4〜1/20",
+"exam": "2/2〜2/3（京都・福井・岡山・沖縄）",
+"result": "2/12",
+"proc": "2/26",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 中期日程",
+"apply": "1/28〜2/15",
+"exam": "2/22（京都）",
+"result": "3/1",
+"proc": "3/15",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期日程",
+"apply": "2/16〜3/2",
+"exam": "3/8（京都）",
+"result": "3/16",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共テ併用 中期日程プラス",
+"apply": "1/28〜2/15",
+"exam": "1/16・1/17（共テ）＋2/22（京都）",
+"result": "3/1",
+"proc": "3/15",
+"fee": null
+}
+],
+"note": "ベネッセ マナビジョン（2027年度入試情報）。検定料は出典に記載なし。全学部同じ日程。2026年4月に京都光華大学へ改称・共学化。共通テスト利用（Ⅰ〜Ⅲ期）の日程は出典に未掲載"
 }
 },
 "金城大学": {
