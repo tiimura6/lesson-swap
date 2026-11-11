@@ -182782,7 +182782,8 @@ null
 "tuition": "2026-11-08",
 "licenses": "2026-11-08",
 "careers": "2026-11-08",
-"money": "2026-11-08"
+"money": "2026-11-08",
+"schedule": "2026-11-11"
 },
 "faculties": [
 "こども教育学部"
@@ -182843,8 +182844,79 @@ null
 "https://search.keinet.ne.jp/2303/outline/admission_employment",
 "https://search.keinet.ne.jp/2303/general/border_rate",
 "https://search.keinet.ne.jp/2303/general/exam_subject",
-"https://www.hosen.ac.jp/contents/wp-content/uploads/2026/03/GUIDEBOOK_low.pdf"
-]
+"https://www.hosen.ac.jp/contents/wp-content/uploads/2026/03/GUIDEBOOK_low.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/3338/nyushi/index.html"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜（R方式・S方式・探究方式）",
+"apply": "9/1〜3/3（8回に分けて受付）",
+"exam": "9/26・9/27、10/11、10/25、11/15、12/20、2/1、2/19、3/8",
+"result": null,
+"proc": null,
+"fee": null,
+"note": "3方式共通の日程。合格発表は11/1・11/17・12/22・2/3・2/21・3/10、手続締切は11/10・11/27・1/6・2/12・3/1・3/18（回ごとの対応は出典に明記なし）"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（1回目）",
+"apply": "11/1〜11/11",
+"exam": "11/15",
+"result": "12/1",
+"proc": "12/9",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（2回目）",
+"apply": "11/12〜12/16",
+"exam": "12/20",
+"result": "12/22",
+"proc": "1/6",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 A日程（Ⅰ類型・Ⅱ類型）",
+"apply": "12/17〜1/27",
+"exam": "2/1",
+"result": "2/3",
+"proc": "2/12",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 A日程（Ⅰ類型・Ⅱ類型）",
+"apply": "12/17〜1/27",
+"exam": "Ⅰ類型2/1／Ⅱ類型は共テのみ（1/16・1/17）",
+"result": "2/10",
+"proc": "2/19",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 B日程（Ⅰ類型・Ⅱ類型）",
+"apply": "1/28〜2/16",
+"exam": "Ⅰ類型2/19／Ⅱ類型は共テのみ（1/16・1/17）",
+"result": "2/21",
+"proc": "3/1",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "C日程（Ⅰ類型・Ⅱ類型）",
+"apply": "2/17〜3/3",
+"exam": "Ⅰ類型3/8／Ⅱ類型は共テ",
+"result": "3/10",
+"proc": "3/18",
+"fee": null
+}
+],
+"note": "こども教育学部幼児教育学科。出典：マナビジョン（2027年度入試情報）。検定料は記載なし"
+}
 },
 "ものつくり大学": {
 "difficulty": {
@@ -182862,7 +182934,8 @@ null
 "tuition": "2026-11-08",
 "licenses": "2026-11-08",
 "careers": "2026-11-08",
-"money": "2026-11-08"
+"money": "2026-11-08",
+"schedule": "2026-11-11"
 },
 "faculties": [
 "技能工芸学部"
@@ -182923,8 +182996,126 @@ null
 "https://search.keinet.ne.jp/2169/outline/admission_employment",
 "https://search.keinet.ne.jp/2169/general/border_rate",
 "https://search.keinet.ne.jp/2169/general/exam_subject",
-"https://www.univpress.co.jp/wp-content/themes/cnn3.0/pubdata/2026/kimidono/0984.pdf"
-]
+"https://www.univpress.co.jp/wp-content/themes/cnn3.0/pubdata/2026/kimidono/0984.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/3167/nyushi/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3167/nyushi/hoshiki/sougou/index.html"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜 体験授業型・探究型（Ⅰ期）",
+"apply": "9/1〜9/11",
+"exam": "9/19・9/20",
+"result": "10/1",
+"proc": null,
+"fee": null,
+"note": "探究型はオンライン。手続締切は出願手続の時期により11/13または12/11"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 体験授業型・探究型（Ⅱ期）",
+"apply": "9/14〜9/25",
+"exam": "体験授業型10/3・10/4／探究型10/12",
+"result": "10/15",
+"proc": null,
+"fee": null,
+"note": "手続締切は出願手続の時期により11/13または12/11"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 特別もの・特別女子・特別資格Ⅰ期／テーマ選択Ⅲ期",
+"apply": "10/19〜11/6",
+"exam": "11/21",
+"result": "12/1",
+"proc": "12/16",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 特別もの・特別女子・特別資格Ⅱ期／テーマ選択Ⅳ期",
+"apply": "11/16〜12/2",
+"exam": "12/12",
+"result": "12/17",
+"proc": "1/18（テーマ選択Ⅳ期は1/8）",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 テーマ選択Ⅴ期",
+"apply": "12/7〜1/4",
+"exam": "1/9",
+"result": "1/14",
+"proc": "1/29",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 特別もの・特別女子・特別資格Ⅲ期",
+"apply": "1/18〜2/9",
+"exam": "2/19",
+"result": "2/26",
+"proc": "3/11",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制）1回目",
+"apply": "11/1〜11/9",
+"exam": "11/21",
+"result": "12/1",
+"proc": "12/16",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制）2回目",
+"apply": "11/16〜12/2",
+"exam": "12/12",
+"result": "12/17",
+"proc": "1/18",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制）3回目",
+"apply": "12/7〜1/4",
+"exam": "1/9",
+"result": "1/14",
+"proc": "1/29",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅰ期（外部利用型・教科選択型・総合学力特待）",
+"apply": "1/5〜1/18",
+"exam": "2/2・2/3",
+"result": "2/11",
+"proc": "2/23（総合学力特待は3/25）",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期（外部利用型・教科選択型・小論文面接型）",
+"apply": "1/18〜2/12",
+"exam": "2/19",
+"result": "2/26",
+"proc": "3/11",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅲ期（外部利用型・教科選択型・小論文面接型・数学特待）",
+"apply": "2/11〜3/1",
+"exam": "3/8",
+"result": "3/11",
+"proc": "3/18（数学特待は3/25）",
+"fee": null
+}
+],
+"note": "情報メカトロニクス学科・建設学科で共通の日程。共通テスト利用入試の記載なし。出典：マナビジョン（2027年度入試情報）。検定料は記載なし"
+}
 },
 "航空大学校": {
 "schedule": {
