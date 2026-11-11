@@ -50,7 +50,9 @@
 "https://search.keinet.ne.jp/1120/general/exam_subject",
 "https://www.u-tokyo.ac.jp/content/400243934.pdf",
 "https://www.u-tokyo.ac.jp/ja/admissions/tuition-fees/e03.html",
-"https://passnavi.obunsha.co.jp/univ/0220/expense/"
+"https://passnavi.obunsha.co.jp/univ/0220/expense/",
+"https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/briefing.html",
+"https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/e01_06_01.html"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -530,7 +532,7 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
-"oc": "2026-11-07"
+"oc": "2026-11-11"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -116340,7 +116342,7 @@
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
 "schedule": "2026-11-10",
-"money": "2026-11-07",
+"money": "2026-11-11",
 "eng": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -116469,10 +116471,10 @@
 ]
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
-"f": "現代ビジネス学部・法学部",
+"f": "法学部・現代ビジネス学部（地域経済・国際社会）",
 "admission": 150000,
 "tuition": 630000,
 "facility": 300000,
@@ -116480,8 +116482,19 @@
 "other": 43410,
 "first_year": 1123410,
 "four_year": null
+},
+{
+"f": "看護学部 看護学科",
+"admission": 300000,
+"tuition": 1100000,
+"facility": 200000,
+"practical": 200000,
+"other": 43250,
+"first_year": 1843250,
+"four_year": null
 }
-]
+],
+"note": "2027年度予定額（パスナビ、2026年9月調査）"
 },
 "eng": {
 "rows": [
@@ -116511,7 +116524,8 @@
 "https://search.keinet.ne.jp/2716",
 "https://kotobank.jp/word/%E4%B9%9D%E5%B7%9E%E5%9B%BD%E9%9A%9B%E5%A4%A7%E5%AD%A6-165562",
 "https://search.keinet.ne.jp/2716/general/schedule",
-"https://manabi.benesse.ne.jp/daigaku/school/3872/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3872/nyushi/",
+"https://passnavi.obunsha.co.jp/univ/4900/expense/"
 ],
 "students": {
 "count": 1742,
@@ -119917,7 +119931,7 @@
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
 "schedule": "2026-11-10",
-"money": "2026-11-10",
+"money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
@@ -120044,13 +120058,13 @@ null
 ]
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
 "f": "健康科学部 看護学科",
 "admission": 250000,
-"tuition": null,
-"facility": null,
+"tuition": 1400000,
+"facility": 200000,
 "practical": null,
 "other": null,
 "first_year": 1850000,
@@ -120060,7 +120074,7 @@ null
 "f": "健康科学部 リハビリテーション学科",
 "admission": 250000,
 "tuition": 1400000,
-"facility": null,
+"facility": 200000,
 "practical": null,
 "other": null,
 "first_year": 1850000,
@@ -120071,12 +120085,13 @@ null
 "admission": 200000,
 "tuition": 840000,
 "facility": 200000,
-"practical": 0,
-"other": 0,
+"practical": null,
+"other": null,
 "first_year": 1240000,
 "four_year": null
 }
-]
+],
+"note": "パスナビ（2026年9月調査、2027年度）。実習費・諸会費は記載なし。入学後にテキスト代・教材費・実習服代・保険料等が約15万円（子ども教育学部は約10万円）、保護者の会の会費等の委託徴収金が別途必要"
 },
 "access": "宇品キャンパス（広島市南区宇品東5-13-18）・西風新都キャンパス",
 "careers": "看護師、理学療法士、作業療法士、保育士、幼稚園・小学校教諭など。",
@@ -120090,7 +120105,8 @@ null
 "https://passnavi.obunsha.co.jp/univ/4775/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3811/",
 "https://search.keinet.ne.jp/2647",
-"https://manabi.benesse.ne.jp/daigaku/school/3811/nyushi/gokaku-happyo/"
+"https://manabi.benesse.ne.jp/daigaku/school/3811/nyushi/gokaku-happyo/",
+"https://passnavi.obunsha.co.jp/univ/4775/expense/"
 ],
 "students": {
 "count": 816,
@@ -123069,7 +123085,7 @@ null
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
 "schedule": "2026-11-10",
-"money": "2026-11-07",
+"money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
@@ -123177,26 +123193,37 @@ null
 "year": "2027年度",
 "rows": [
 {
-"f": "国際文化学部・人間生活学部（生活デザイン・子ども教育）",
+"f": "国際文化学部 国際文化学科",
 "admission": 100000,
-"tuition": null,
-"facility": null,
+"tuition": 1000000,
+"facility": 300000,
 "practical": null,
-"other": null,
-"first_year": 1400000,
+"other": 11000,
+"first_year": 1411000,
+"four_year": null
+},
+{
+"f": "人間生活学部 生活デザイン学科・子ども教育学科",
+"admission": 100000,
+"tuition": 1000000,
+"facility": 300000,
+"practical": null,
+"other": 11000,
+"first_year": 1411000,
 "four_year": null
 },
 {
 "f": "人間生活学部 管理栄養学科",
 "admission": 100000,
-"tuition": null,
-"facility": null,
+"tuition": 1030000,
+"facility": 300000,
 "practical": null,
-"other": null,
-"first_year": 1430000,
+"other": 11000,
+"first_year": 1441000,
 "four_year": null
 }
-]
+],
+"note": "2027年4月にYIC学院大学へ校名変更・共学化予定。2027年度の額（パスナビ、2026年9月調査）。諸会費は協会費8,000円＋学生自治会費3,000円（入学後に納入）。実習費は学科により必要な場合あり（金額記載なし）。公式サイトの学費ページは改組前（人文学部など）の額（入学金250,000円・初年度1,310,000円、管理栄養1,340,000円）"
 },
 "access": "広島県広島市東区牛田東4-13-1",
 "careers": "一般企業、観光・語学関連、管理栄養士、保育士・幼稚園教諭など。",
@@ -123211,7 +123238,9 @@ null
 "https://search.keinet.ne.jp/2636/outline/department",
 "https://www.hju.ac.jp/news/2019/04/70.php",
 "https://search.keinet.ne.jp/2636",
-"https://search.keinet.ne.jp/2636/general/exam_fee"
+"https://search.keinet.ne.jp/2636/general/exam_fee",
+"https://passnavi.obunsha.co.jp/univ/4760/expense/",
+"https://www.hju.ac.jp/examination/expenses/index.php"
 ],
 "students": {
 "count": 639,
@@ -124559,7 +124588,7 @@ null
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
 "schedule": "2026-11-10",
-"money": "2026-11-07",
+"money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
@@ -124641,29 +124670,30 @@ null
 ]
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
 "f": "心理学部 心理学科",
 "admission": 250000,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
+"tuition": 660000,
+"facility": 320000,
+"practical": 30000,
+"other": 26370,
 "first_year": 1286370,
 "four_year": null
 },
 {
 "f": "看護学部 看護学科",
 "admission": 250000,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
+"tuition": 980000,
+"facility": 300000,
+"practical": 170000,
+"other": 26370,
 "first_year": 1726370,
 "four_year": null
 }
-]
+],
+"note": "2027年度（パスナビ、2026年9月調査）。2回に分けて納入"
 },
 "access": "山口県宇部市文京台2-1-1",
 "careers": "看護師、保健師、心理職、福祉施設、一般企業など。",
@@ -124676,7 +124706,8 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3821/",
 "https://www.frontier-u.jp/intro-univ/a-history/",
 "https://search.keinet.ne.jp/2656",
-"https://manabi.benesse.ne.jp/daigaku/school/3821/nyushi/gokaku-happyo/"
+"https://manabi.benesse.ne.jp/daigaku/school/3821/nyushi/gokaku-happyo/",
+"https://passnavi.obunsha.co.jp/univ/4805/expense/"
 ],
 "students": {
 "count": 343,
@@ -125175,7 +125206,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-10",
+"schedule": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
@@ -125245,7 +125276,7 @@ null
 "apply": "2/12〜2/24",
 "exam": "3/3",
 "result": "3/9",
-"proc": null,
+"proc": "3/16",
 "fee": null
 },
 {
@@ -125254,7 +125285,7 @@ null
 "apply": "2/25〜3/11",
 "exam": "3/16",
 "result": "3/19",
-"proc": null,
+"proc": "3/24",
 "fee": null
 },
 {
@@ -125272,7 +125303,7 @@ null
 "apply": "2/12〜2/24",
 "exam": "1/16・1/17（共テ）",
 "result": "3/9",
-"proc": null,
+"proc": "3/16",
 "fee": null
 },
 {
@@ -125281,11 +125312,11 @@ null
 "apply": "2/25〜3/11",
 "exam": "1/16・1/17（共テ）",
 "result": "3/19",
-"proc": null,
+"proc": "3/24",
 "fee": null
 }
 ],
-"note": "2期・3期（共テ中期・後期）の手続締切と検定料は公式の募集要項で確認"
+"note": "教育学部。手続締切はパスナビ・マナビジョン（2027年度入試）。検定料は記載なし（公式の募集要項で確認）"
 },
 "access": "山口県山口市小郡上郷1223",
 "careers": "小学校教諭、幼稚園教諭、保育士など。",
@@ -125299,7 +125330,9 @@ null
 "https://kotobank.jp/word/%E5%B1%B1%E5%8F%A3%E5%AD%A6%E8%8A%B8%E5%A4%A7%E5%AD%A6-178120",
 "https://manabi.benesse.ne.jp/daigaku/school/3822/nyushi/",
 "https://telemail.jp/shingaku/university/10001836/examination/general",
-"https://www.y-gakugei.ac.jp/admission/summary/"
+"https://www.y-gakugei.ac.jp/admission/summary/",
+"https://passnavi.obunsha.co.jp/univ/4834/schedule/",
+"https://manabi.benesse.ne.jp/daigaku/school/3822/nyushi/hoshiki/ippan/"
 ],
 "students": {
 "count": 313,
@@ -126555,7 +126588,7 @@ null
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
 "schedule": "2026-11-10",
-"money": "2026-11-07",
+"money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07"
@@ -126736,60 +126769,112 @@ null
 "note": "検定料：一般選抜は同一試験日の1出願目35,000円、2出願目以降+10,000円。共テ利用は同一日程2出願まで20,000円、5出願まで30,000円、6出願目以降+7,000円"
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
-"f": "法学部・経済学部・経営学部・政策学部・社会学部",
+"f": "文学部（仏教・哲学・日本語日本文学・英語英米文学）",
 "admission": 260000,
 "tuition": 861000,
 "facility": 0,
 "practical": 0,
-"other": null,
-"first_year": null,
+"other": 33000,
+"first_year": 1154000,
 "four_year": null
 },
 {
-"f": "国際学部（グローバルスタディーズ学科）",
+"f": "文学部 歴史学科",
+"admission": 260000,
+"tuition": 896900,
+"facility": 0,
+"practical": 0,
+"other": 33000,
+"first_year": 1189900,
+"four_year": null,
+"note": "パスナビの表の額。文化遺産学専攻は授業料を前期・後期448,450円ずつ納入"
+},
+{
+"f": "心理学部 心理学科",
+"admission": 260000,
+"tuition": 1007000,
+"facility": 0,
+"practical": 0,
+"other": 33000,
+"first_year": 1300000,
+"four_year": null
+},
+{
+"f": "経済学部 経済学科",
+"admission": 260000,
+"tuition": 861000,
+"facility": 0,
+"practical": 0,
+"other": 33000,
+"first_year": 1154000,
+"four_year": null
+},
+{
+"f": "経営学部（経営・商）",
+"admission": 260000,
+"tuition": 861000,
+"facility": 0,
+"practical": 0,
+"other": 31000,
+"first_year": 1152000,
+"four_year": null
+},
+{
+"f": "法学部 法律学科",
+"admission": 260000,
+"tuition": 861000,
+"facility": 0,
+"practical": 0,
+"other": 34000,
+"first_year": 1155000,
+"four_year": null
+},
+{
+"f": "政策学部 政策学科",
+"admission": 260000,
+"tuition": 861000,
+"facility": 0,
+"practical": 15000,
+"other": 34000,
+"first_year": 1170000,
+"four_year": null
+},
+{
+"f": "国際学部 国際文化学科",
+"admission": 260000,
+"tuition": 916000,
+"facility": 0,
+"practical": 0,
+"other": 34000,
+"first_year": 1210000,
+"four_year": null
+},
+{
+"f": "国際学部 グローバルスタディーズ学科",
 "admission": 260000,
 "tuition": 1031000,
-"facility": null,
-"practical": null,
-"other": 200000,
+"facility": 0,
+"practical": 200000,
+"other": 34000,
 "first_year": 1525000,
-"four_year": null
+"four_year": null,
+"note": "実習費は留学実習料"
 },
 {
-"f": "農学部（食料農業システム学科）",
+"f": "社会学部 総合社会学科",
 "admission": 260000,
-"tuition": 999000,
+"tuition": 897000,
 "facility": 0,
-"practical": 35900,
-"other": null,
-"first_year": null,
+"practical": 0,
+"other": 32000,
+"first_year": 1189000,
 "four_year": null
 },
 {
-"f": "農学部（植物生命科学・資源生物科学）",
-"admission": 260000,
-"tuition": 1159000,
-"facility": 0,
-"practical": 143600,
-"other": null,
-"first_year": null,
-"four_year": null
-},
-{
-"f": "農学部（食品栄養学科）",
-"admission": 260000,
-"tuition": 1179000,
-"facility": 0,
-"practical": 193600,
-"other": null,
-"first_year": null,
-"four_year": null
-},
-{
-"f": "先端理工学部",
+"f": "環境サステナビリティ学部・情報学部",
 "admission": 260000,
 "tuition": 1239000,
 "facility": 0,
@@ -126797,8 +126882,59 @@ null
 "other": 33000,
 "first_year": 1675600,
 "four_year": null
+},
+{
+"f": "理工学部（電子情報通信・機械工学・ロボティクス・応用化学）",
+"admission": 260000,
+"tuition": 1239000,
+"facility": 0,
+"practical": 143600,
+"other": 33000,
+"first_year": 1675600,
+"four_year": null
+},
+{
+"f": "理工学部 数理・情報科学課程",
+"admission": 260000,
+"tuition": 1189000,
+"facility": 0,
+"practical": 143600,
+"other": 33000,
+"first_year": 1625600,
+"four_year": null
+},
+{
+"f": "農学部 食品栄養学科",
+"admission": 260000,
+"tuition": 1179000,
+"facility": 0,
+"practical": 193600,
+"other": 31000,
+"first_year": 1663600,
+"four_year": null
+},
+{
+"f": "農学部 食料農業システム学科",
+"admission": 260000,
+"tuition": 999000,
+"facility": 0,
+"practical": 35900,
+"other": 31000,
+"first_year": 1325900,
+"four_year": null
+},
+{
+"f": "農学部（生命科学・農学）",
+"admission": 260000,
+"tuition": 1159000,
+"facility": 0,
+"practical": 143600,
+"other": 31000,
+"first_year": 1593600,
+"four_year": null
 }
-]
+],
+"note": "2027年度予定額（パスナビ、2026年9月調査）。諸会費は学会・学友会・親和会・校友会の会費（委託徴収金）。先端理工学部の掲載はなし（2027年度は情報学部・環境サステナビリティ学部・理工学部で掲載）"
 },
 "access": "深草キャンパス（京都市伏見区深草塚本町67）・大宮キャンパス・瀬田キャンパス",
 "careers": "一般企業、金融、公務員、教員、IT・メーカー、農業・食品関連など。",
@@ -126813,7 +126949,8 @@ null
 "https://search.keinet.ne.jp/2505/outline/expense",
 "https://search.keinet.ne.jp/2505/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/4060/difficulty/?facultyID=005",
-"https://www.ryukoku.ac.jp/admission/nyushi/pdf/guide/2027_guide.pdf"
+"https://www.ryukoku.ac.jp/admission/nyushi/pdf/guide/2027_guide.pdf",
+"https://passnavi.obunsha.co.jp/univ/4060/expense/"
 ]
 },
 "くらしき作陽大学": {
@@ -212468,6 +212605,279 @@ null
 "https://search.keinet.ne.jp/2415/general/exam_subject",
 "https://search.keinet.ne.jp/2415/outline/opencampus",
 "https://passnavi.obunsha.co.jp/univ/3564/department/"
+]
+},
+"西日本看護医療大学": {
+"difficulty": {
+"hensachi": "35.0",
+"year": "2027年度入試用"
+},
+"_checked": {
+"difficulty": "2026-11-11",
+"faculties": "2026-11-11",
+"departments": "2026-11-11",
+"founded": "2026-11-11",
+"tuition": "2026-11-11",
+"kyotsu": "2026-11-11",
+"research": "2026-11-11",
+"licenses": "2026-11-11",
+"money": "2026-11-11"
+},
+"faculties": [
+"看護学部"
+],
+"departments": [
+{
+"f": "看護学部",
+"d": [
+"看護学科"
+]
+}
+],
+"founded": "2026年4月開学",
+"tuition": {
+"amount": 1230000,
+"label": "入学金＋授業料",
+"year": 2026
+},
+"kyotsu": {
+"kamoku": "3教科3科目",
+"kyoka": [
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はリーディング50点・リスニング50点",
+"note": "英語・数学・国語・理科から3教科（各100点、300点）",
+"year": "2027年度入試"
+},
+"research": [
+"看護学",
+"公衆衛生看護（保健師）",
+"学校保健（養護教諭）"
+],
+"licenses": [
+"看護師（受験資格）",
+"保健師（受験資格）",
+"養護教諭一種",
+"養護教諭二種"
+],
+"money": {
+"year": "2026年度",
+"admission": 300000,
+"annual": 930000,
+"rows": [
+{
+"f": "看護学部 看護学科",
+"admission": 300000,
+"tuition": 930000,
+"facility": 240000,
+"practical": 250000,
+"other": 32500,
+"first_year": 1752500,
+"four_year": null,
+"note": "otherは諸会費"
+}
+],
+"note": "教科書代・ユニフォーム・シューズ代・eラーニング使用料は別途。ノートパソコンが必要（Kei-Net）"
+},
+"sources": [
+"https://search.keinet.ne.jp/2722",
+"https://search.keinet.ne.jp/2722/outline/department",
+"https://search.keinet.ne.jp/2722/outline/expense",
+"https://search.keinet.ne.jp/2722/outline/licential",
+"https://search.keinet.ne.jp/2722/general/exam_subject",
+"https://manabi.benesse.ne.jp/daigaku/school/3905/nyushi/kango/index.html"
+]
+},
+"開志創造大学（通信制のみ）": {
+"faculties": [
+"情報デザイン学部"
+],
+"_checked": {
+"faculties": "2026-11-11",
+"departments": "2026-11-11",
+"founded": "2026-11-11",
+"access": "2026-11-11",
+"tuition": "2026-11-11",
+"research": "2026-11-11",
+"money": "2026-11-11"
+},
+"departments": [
+{
+"f": "情報デザイン学部",
+"d": [
+"情報デザイン学科"
+]
+}
+],
+"founded": "2026年4月 学部開設（事業創造大学院大学から改称）",
+"access": "通信教育課程のため通学不要（授業・試験はオンライン）。本部：新潟市中央区米山",
+"tuition": {
+"amount": 280000,
+"label": "入学金＋授業料",
+"year": 2026
+},
+"research": [
+"データサイエンス",
+"生成AI",
+"DX（デジタルトランスフォーメーション）",
+"情報デザイン・ビジネス"
+],
+"money": {
+"year": "2026年度",
+"admission": 30000,
+"annual": 250000,
+"rows": [
+{
+"f": "情報デザイン学部 情報デザイン学科（通信教育課程）",
+"admission": 30000,
+"tuition": 250000,
+"facility": null,
+"practical": null,
+"other": 56000,
+"first_year": 336000,
+"four_year": 1254000,
+"note": "otherは学籍管理料（年24,000円）＋システム利用料（年32,000円）"
+}
+],
+"note": "文部科学省に提出された設置計画書の予定額"
+},
+"sources": [
+"https://passnavi.obunsha.co.jp/univ/3374/top/",
+"https://manabi.benesse.ne.jp/daigaku/school/4253/gakubu/index.html",
+"https://www.dsecchi.mext.go.jp/2508nsecchi/pdf/jigyosouzou_zyouhoudezain_25082508nsecchi_gakusei1.pdf"
+]
+},
+"ZEN大学（通信制のみ）": {
+"faculties": [
+"知能情報社会学部"
+],
+"_checked": {
+"faculties": "2026-11-11",
+"departments": "2026-11-11",
+"founded": "2026-11-11",
+"access": "2026-11-11",
+"tuition": "2026-11-11",
+"research": "2026-11-11",
+"money": "2026-11-11"
+},
+"departments": [
+{
+"f": "知能情報社会学部",
+"d": []
+}
+],
+"founded": "2025年4月開学",
+"access": "インターネットで授業を行うため原則通学不要。本部：逗子市新宿",
+"tuition": {
+"amount": 416000,
+"label": "入学金＋授業料",
+"year": 2027
+},
+"research": [
+"数理",
+"情報・AI",
+"文化・思想",
+"社会・ネットワーク",
+"経済・マーケット",
+"デジタル産業"
+],
+"money": {
+"year": "2027年度",
+"admission": 36000,
+"annual": 380000,
+"rows": [
+{
+"f": "知能情報社会学部",
+"admission": 36000,
+"tuition": 380000,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 416000,
+"four_year": null,
+"note": "入学検定料30,000円"
+}
+]
+},
+"sources": [
+"https://zen.ac.jp/faculty",
+"https://zen.ac.jp/admission",
+"https://passnavi.obunsha.co.jp/univ/3305/top/"
+]
+},
+"太田医療科学大学": {
+"faculties": [
+"健康科学部"
+],
+"_checked": {
+"faculties": "2026-11-11",
+"departments": "2026-11-11",
+"founded": "2026-11-11",
+"tuition": "2026-11-11",
+"research": "2026-11-11",
+"money": "2026-11-11"
+},
+"departments": [
+{
+"f": "健康科学部",
+"d": [
+"リハビリテーション学科 理学療法学専攻",
+"リハビリテーション学科 作業療法学専攻"
+]
+}
+],
+"founded": "2027年4月開学予定",
+"tuition": {
+"amount": 1150000,
+"label": "入学金＋授業料",
+"year": 2027
+},
+"research": [
+"予防理学療法学",
+"スポーツ障害理学療法学",
+"作業療法・子どもの発達支援",
+"健康増進・障がい予防リハビリテーション"
+],
+"money": {
+"year": "2027年度",
+"admission": 250000,
+"annual": 900000,
+"rows": [
+{
+"f": "健康科学部 リハビリテーション学科 理学療法学専攻",
+"admission": 250000,
+"tuition": 900000,
+"facility": 600000,
+"practical": null,
+"other": 110000,
+"first_year": 1860000,
+"four_year": null,
+"note": "facilityは教育充実費、otherは諸会費（予定額）"
+},
+{
+"f": "健康科学部 リハビリテーション学科 作業療法学専攻",
+"admission": 250000,
+"tuition": 900000,
+"facility": 600000,
+"practical": null,
+"other": 110000,
+"first_year": 1860000,
+"four_year": null,
+"note": "facilityは教育充実費、otherは諸会費（予定額）"
+}
+],
+"note": "2026年9月調査時点の予定額（パスナビ）"
+},
+"sources": [
+"https://passnavi.obunsha.co.jp/univ/1939/top/",
+"https://passnavi.obunsha.co.jp/univ/1939/department/",
+"https://passnavi.obunsha.co.jp/univ/1939/expense/",
+"https://passnavi.obunsha.co.jp/univ/1939/subject/",
+"https://www.mext.go.jp/content/20260828-mxt_koutou02-000051788_1.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/3143/index.html"
 ]
 }
 }
