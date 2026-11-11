@@ -29,6 +29,19 @@ CX, CY = _raw(math.radians(138.5), math.radians(36 - 18/60))
 # ページを軽くするため、大学の詳細で開いたときに要る重いデータは別ファイルにして後から読み込む
 LAZY = ('fdiff', 'schedule', 'money', 'partners', 'sources', '_checked', 'notable', 'news', 'access', 'founded', 'students', 'methods', 'eng', 'ratios', 'qtrend', 'oc', 'subjects', 'scholar')
 
+def licn(info, names):
+    """「取得できる資格」の候補（各大学の公式・Kei-Net から集めた licenses の資格名をそろえたもの）と、大学ごとの資格名"""
+    sys.path.insert(0, os.path.join(ROOT, 'tools'))
+    from lic_names import parts, license_names
+    by = {}
+    for n in names:
+        s = []
+        for l in (info.get(n) or {}).get('licenses') or []:
+            for p in parts(l):
+                if p not in s: s.append(p)
+        if s: by[n] = s
+    return {'list': license_names({n: info[n] for n in names if n in info}), 'by': by}
+
 def main():
     cards = D('cards'); exam = D('exam'); info = D('info'); hp = D('hp')
     read = D('readings'); alias = D('aliases'); coords = D('coords'); prefs = D('map_prefs')
@@ -49,6 +62,8 @@ def main():
         'ALIAS': ('/*ALIAS*/', '/*END_ALIAS*/', J(alias)),
         'LL': ('/*LL*/', '/*END_LL*/', J({n: [round(coords[n][0], 3), round(coords[n][1], 3)] for n in names if n in coords})),
         'GUIDE': ('/*GUIDE*/', '/*END_GUIDE*/', J({n: guide[n] for n in names if n in guide})),
+        'TOPICS': ('/*TOPICS*/', '/*END_TOPICS*/', J([{k: v for k, v in tp.items()} for tp in D('topics')['topics']] if os.path.exists(os.path.join(ROOT, 'data', 'topics.json')) else [])),
+        'LICN': ('/*LICN*/', '/*END_LICN*/', J(licn(info, names))),
         'KTEST': ('/*KTEST*/', '/*END_KTEST*/', J(D('kyotsu_test') if os.path.exists(os.path.join(ROOT, 'data', 'kyotsu_test.json')) else {})),
         'BUILD': ('/*BUILD*/', '/*END_BUILD*/', J({'built': __import__('datetime').datetime.now(__import__('datetime').timezone(__import__('datetime').timedelta(hours=9))).strftime('%Y-%m-%d %H:%M'),
                   'schedule': max([v.get('_checked', {}).get('schedule', '') for v in info.values()] + ['']),

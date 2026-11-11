@@ -67,7 +67,7 @@ body.wide main,body.wide header{max-width:1320px}
 .sbar{display:flex;gap:8px}
 .sbar input{flex:1;font-family:inherit;font-size:14px;border:1px solid var(--line);border-radius:8px;padding:9px 10px;background:var(--panel);color:var(--ink)}
 .sfilt{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
-.sfields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;margin:8px 0 2px}.sfields label{display:flex;flex-direction:column;gap:2px;font-size:11.5px;font-weight:600;color:var(--muted);min-width:0}.sfields input,.sfields select{width:100%;min-width:0;box-sizing:border-box;font-family:inherit;font-size:13.5px;border:1px solid var(--line);border-radius:8px;padding:7px 8px;background:var(--panel);color:var(--ink)}.sfields input:not(:placeholder-shown),.sfields select.on{border-color:var(--accent);background:var(--accent-soft)}.sfields label.wide{grid-column:1/-1}.sfields label.learn input{border-color:var(--accent)}.sfields .pair{display:flex;gap:4px;align-items:center}.sfields .pair select{flex:1}.sdet{margin:6px 0 2px;border:1px solid var(--line);border-radius:8px;padding:4px 8px;background:var(--panel)}.sdet summary{cursor:pointer;font-size:12.5px;font-weight:600;color:var(--accent);padding:3px 0}.sdet-n{margin-left:6px;color:var(--ink)}.sdetf{margin-top:4px}.rf.xh{color:var(--ink)}.rf.xh b{color:var(--accent);font-weight:600;margin-right:2px}
+.sfields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;margin:8px 0 2px}.sfields label{display:flex;flex-direction:column;gap:2px;font-size:11.5px;font-weight:600;color:var(--muted);min-width:0}.sfields input,.sfields select{width:100%;min-width:0;box-sizing:border-box;font-family:inherit;font-size:13.5px;border:1px solid var(--line);border-radius:8px;padding:7px 8px;background:var(--panel);color:var(--ink)}.sfields input:not(:placeholder-shown),.sfields select.on{border-color:var(--accent);background:var(--accent-soft)}.sfields label.wide{grid-column:1/-1}.sfields label.learn input{border-color:var(--accent)}.sfields .pair{display:flex;gap:4px;align-items:center}.sfields .pair select{flex:1}.sdet{margin:6px 0 2px;border:1px solid var(--line);border-radius:8px;padding:4px 8px;background:var(--panel)}.sdet summary{cursor:pointer;font-size:12.5px;font-weight:600;color:var(--accent);padding:3px 0}.sdet-n{margin-left:6px;color:var(--ink)}.sdetf{margin-top:4px}.rf.xh{color:var(--ink)}.rf.xh b{color:var(--accent);font-weight:600;margin-right:2px}#tpanels .tpanel{border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:8px 10px;margin:6px 0}.tph{font-size:13px;font-weight:700;color:var(--ink);margin-bottom:6px}.tph small{display:block;font-size:11px;font-weight:400;color:var(--muted)}.tpf{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px}.tpb{display:flex;flex-direction:column;align-items:flex-start;gap:1px;text-align:left;font-family:inherit;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);padding:6px 8px;cursor:pointer}.tpb b{font-size:12.5px;font-weight:600}.tpb span{font-size:11px;color:var(--muted)}.tpb small{font-size:10.5px;color:var(--accent)}.tpb.on{border-color:var(--accent);background:var(--accent-soft)}.tthems{display:flex;flex-wrap:wrap;gap:4px}.tdet .tthems{padding:4px 0 6px}.tthem{font-family:inherit;font-size:12px;border:1px solid var(--accent);color:var(--accent);background:var(--accent-soft);border-radius:999px;padding:2px 9px;cursor:pointer}
 .sfilt select{font-family:inherit;font-size:12.5px;border:1px solid var(--line);border-radius:8px;padding:6px 8px;background:var(--panel);color:var(--ink)}
 .chk{font-size:12.5px;display:flex;align-items:center;gap:4px;cursor:pointer}
 .kchk{display:flex;flex-wrap:wrap;gap:4px 12px;width:100%}
@@ -350,6 +350,7 @@ ul.mini li{font-size:12.5px;margin:2px 0}
   <div class="sgrid">
     <div class="sleft">
       <div class="sbar"><select id="mby" aria-label="何で探すか" title="何で探すか"><option value="">すべてから</option><option value="name">大学名</option><option value="fac">学部・学科・学問</option><option value="pref">地域・都道府県</option><option value="lic">資格・就職</option><option value="res">研究・特色</option><option value="sch">奨学金</option></select><input type="search" id="mq" placeholder="大学名・キーワード（例：早稲田、教員免許、AI）" autocomplete="off"><button class="btn" id="mgo" type="button">検索</button><button class="btn" id="mreset">全国</button></div>
+      <details class="sdet tdet" id="tdet"><summary>興味のテーマから探す<span class="sub2">（ゲーム・宇宙・動物・人の心など。関連して学べる分野まで広げて探します）</span></summary><div class="tthems" id="tlist"></div></details>
       <div class="sfields" role="group" aria-label="項目ごとに探す">
         <label class="wide learn">学びたい内容<input type="search" id="q-learn" placeholder="例：ロボットを作りたい、子どもの心の発達、海の生き物" autocomplete="off"></label>
         <label>学部・学科<input type="search" id="q-fac" placeholder="例：法学部、看護学科" autocomplete="off"></label>
@@ -512,6 +513,7 @@ function infoBlock(name){
   if(f.research && f.research.length) rows.push(["有名な研究分野",'<span class="facs">'+f.research.map(x=>'<span>'+esc(x)+'</span>').join("")+'</span>']);
   if(f.licenses && f.licenses.length) rows.push(["取得できる資格",'<span class="facs">'+f.licenses.map(x=>'<span>'+esc(x)+'</span>').join("")+'</span>']);
   if(f.careers) rows.push(["主な進路",esc(f.careers)]);
+  { const th=topicsOfUniv(name); if(th.length) rows.push(["関連して学べるテーマ",'<span class="facs tthems">'+th.map(t=>'<button type="button" class="tthem" data-k="'+esc(t.k)+'" title="'+esc(t.fs.join("・"))+'">'+esc(t.k)+'</button>').join("")+'</span><span class="sub2">（学部・学科や研究分野から関係しそうなテーマ。押すとそのテーマで検索）</span>']); }
   if(f.news && f.news.length) rows.push(["ニュース",'<ul class="mini">'+f.news.map(x=>'<li>'+esc(x)+'</li>').join("")+'</ul>']);
   if(f.notable && f.notable.length) rows.push(["著名な教員",'<ul class="mini">'+f.notable.map(x=>'<li>'+esc(x)+'</li>').join("")+'</ul>']);
   if(!rows.length) return "";
@@ -587,6 +589,9 @@ function examBlock(name, compact){
 function srcLabel(u){ try{ const h=new URL(u).hostname; if(h.includes("keinet")) return "河合塾Kei-Net"; if(h.includes("obunsha")) return "旺文社パスナビ"; return h.replace(/^www\./,""); }catch(e){ return "リンク"; } }
 
 const GUIDE = /*GUIDE*/{}/*END_GUIDE*/;
+// 興味・関心のテーマ辞書（data/topics.json）と、各大学の資格名（表記をそろえたもの。tools/lic_names.py）
+const TOPICS = /*TOPICS*/[]/*END_TOPICS*/;
+const LICN = /*LICN*/{"list":[],"by":{}}/*END_LICN*/;
 function midHensachi(name){ const d=(INFO[name]||{}).difficulty; if(!d||!d.hensachi) return null; const nums=String(d.hensachi).match(/[\d.]+/g); if(!nums) return null; const v=nums.map(Number); return (Math.min(...v)+Math.max(...v))/2; }
 function groupOf(x){ const k=kindOf(x); return (k==="国立"||k==="公立")?"pub":(k==="私立"?"pri":k); }
 // 同じ分野（学問の系統）の大学を、この大学より難しい／同程度／易しいに分けて示す（生徒の学力が入っていればそれを基準に挑戦〜安全）
@@ -1957,12 +1962,57 @@ const JOBS=[
  {k:"デザイナー",a:["デザイナー","デザイン"],fac:/デザイン|芸術|美術/},
  {k:"ゲーム・アニメ・映像クリエイター",a:["ゲームクリエイター","ゲーム","アニメ","アニメーター","映像","クリエイター","CG"],fac:/ゲーム|アニメ|映像|メディア|デジタル/},
  {k:"音楽家",a:["音楽家","演奏家","歌手","作曲家","音楽"],fac:/音楽/},
- {k:"スポーツ指導者・トレーナー",a:["トレーナー","スポーツトレーナー","コーチ","体育教員","スポーツ"],lic:/健康運動|アスレティック|トレーナー/,fac:/スポーツ|体育|健康/}];
+ {k:"スポーツ指導者・トレーナー",a:["トレーナー","スポーツトレーナー","コーチ","体育教員","スポーツ"],lic:/健康運動|アスレティック|トレーナー/,fac:/スポーツ|体育|健康/},
+ {k:"健康運動指導士・スポーツ指導員",a:["健康運動指導士","健康運動実践指導者","パラスポーツ指導員","インストラクター"],lic:/健康運動|パラスポーツ|スポーツ指導/,fac:/スポーツ|健康|体育/},
+ {k:"歯科技工士",a:["歯科技工士"],lic:/歯科技工/,fac:/歯科技工|口腔/},
+ {k:"愛玩動物看護師（動物看護師）",a:["愛玩動物看護師","動物看護師","動物看護","トリマー"],lic:/愛玩動物|動物看護/,fac:/動物看護|動物医療|愛玩動物/},
+ {k:"動物園・水族館の飼育員",a:["飼育員","動物園","水族館","ドッグトレーナー"],lic:/実験動物|ペット|愛玩動物/,fac:/動物|水産|海洋生物|畜産/},
+ {k:"美容師・ヘアメイク",a:["美容師","ヘアメイク","メイクアップ","エステティシャン","美容"],lic:/美容師/,fac:/美容|化粧|香粧/},
+ {k:"医療事務・診療情報管理士",a:["医療事務","診療情報管理士","医療秘書"],lic:/診療情報|医療事務|医療秘書/,fac:/医療経営|医療福祉|医療情報|診療情報/},
+ {k:"音楽療法士",a:["音楽療法士","音楽療法"],lic:/音楽療法/,fac:/音楽療法|音楽/},
+ {k:"児童指導員・児童福祉司",a:["児童指導員","児童福祉司","児童相談所","放課後児童","学童"],lic:/児童指導員|児童福祉司|児童厚生/,fac:/児童|こども|子ども|福祉/},
+ {k:"社会教育主事・社会教育士",a:["社会教育主事","社会教育士","公民館"],lic:/社会教育/,fac:/教育|生涯学習/},
+ {k:"日本語教師",a:["日本語教師","日本語教員","日本語教育"],lic:/日本語教/,fac:/日本語|言語|国際/},
+ {k:"学校心理士・スクールカウンセラー",a:["スクールカウンセラー","学校心理士"],lic:/学校心理士|公認心理師/,fac:/心理|教育/},
+ {k:"家庭裁判所調査官・法務教官",a:["家庭裁判所調査官","法務教官","刑務官","保護観察官"],fac:/(?<!療)法学|心理|社会学|教育|福祉/},
+ {k:"国税専門官・税務職員",a:["国税専門官","税務署","税務職員"],car:/国税|税務/,fac:/経済|商学|経営|会計|(?<!療)法学/},
+ {k:"労働基準監督官・社会保険労務士",a:["労働基準監督官","社会保険労務士","社労士"],fac:/(?<!療)法学|経済|経営|労働/},
+ {k:"不動産・宅地建物取引士",a:["不動産","宅地建物取引士","宅建"],car:/不動産/,fac:/(?<!療)法学|経済|経営|建築|都市/},
+ {k:"ファイナンシャルプランナー・保険",a:["ファイナンシャルプランナー","FP","保険会社","証券会社"],lic:/ファイナンシャル/,car:/保険|証券/,fac:/経済|経営|商学|金融/},
+ {k:"中小企業診断士・コンサルタント",a:["中小企業診断士","コンサルタント","コンサル"],lic:/中小企業診断/,fac:/経営|商学|経済/},
+ {k:"商社・営業・マーケティング",a:["商社","営業","マーケティング","広告","広報","PR"],car:/商社|広告|卸売/,fac:/経営|商学|経済|マーケティング|国際/},
+ {k:"旅行業・ツアープランナー",a:["旅行会社","ツアープランナー","旅行業務取扱管理者","添乗員","ツアーコンダクター"],lic:/旅行業務|旅程管理/,fac:/観光|ホスピタリティ|ツーリズム/},
+ {k:"ブライダル・イベント",a:["ブライダル","ウェディングプランナー","イベントプランナー"],fac:/観光|ホスピタリティ|ビジネス|経営/},
+ {k:"鉄道・交通の仕事",a:["鉄道","運転士","駅員","交通"],car:/鉄道|運輸/,fac:/交通|機械|電気|土木|都市|経営/},
+ {k:"船員・航海士・機関士",a:["航海士","機関士","船員","船長"],lic:/海技|航海|機関/,fac:/商船|海事|海洋/},
+ {k:"自動車整備士・自動車エンジニア",a:["自動車整備士","整備士","自動車エンジニア","カーデザイナー"],lic:/自動車整備/,fac:/自動車|機械|モビリティ/},
+ {k:"電気主任技術者・電気工事士",a:["電気主任技術者","電験","電気工事士","電気技術者"],lic:/電気主任|電気工事/,fac:/電気|電子|エネルギー/},
+ {k:"無線・放送技術者",a:["無線技術士","無線従事者","放送技術","通信技術者"],lic:/無線/,fac:/電気|電子|通信|情報/},
+ {k:"衛生管理者・作業環境測定士",a:["衛生管理者","作業環境測定士","安全管理"],lic:/衛生管理者|作業環境測定/,fac:/保健|環境|化学|看護/},
+ {k:"化学・素材メーカーの研究職",a:["化学メーカー","素材メーカー","化学者","化粧品開発"],fac:/化学|材料|応用化学|物質/},
+ {k:"バイオ・遺伝子の技術者",a:["バイオ技術者","遺伝子","細胞検査士","バイオ"],lic:/バイオ|遺伝子|細胞検査/,fac:/生命|バイオ|生物|臨床検査/},
+ {k:"食品メーカー・食品開発",a:["食品メーカー","食品開発","フードスペシャリスト","醸造","パティシエ"],lic:/フードスペシャリスト|食品衛生|醸造|健康食品/,fac:/食品|食物|栄養|醸造|発酵/},
+ {k:"造園・環境の技術者",a:["造園","ランドスケープ","環境コンサルタント","自然保護"],lic:/造園|ビオトープ|環境/,fac:/造園|森林|環境|緑地|農/},
+ {k:"宇宙・航空のエンジニア",a:["宇宙","ロケット","JAXA","航空エンジニア","宇宙飛行士"],fac:/航空|宇宙|機械|物理/},
+ {k:"ロボット・AIのエンジニア",a:["ロボット","ロボットエンジニア","AI研究者","ドローン"],fac:/ロボット|知能|機械|情報|人工知能/},
+ {k:"都市計画・まちづくり",a:["都市計画","まちづくり","地域おこし","地域おこし協力隊","コンサル"],fac:/都市|まちづくり|地域|土木|建築/},
+ {k:"インテリアコーディネーター",a:["インテリアコーディネーター","インテリア","家具"],fac:/インテリア|住居|建築|デザイン/},
+ {k:"ファッション・アパレル",a:["ファッションデザイナー","パタンナー","アパレル","スタイリスト","衣料管理士"],lic:/衣料管理/,fac:/ファッション|被服|服飾/},
+ {k:"写真家・映像ディレクター",a:["写真家","カメラマン","映像ディレクター","映画監督","YouTuber","ユーチューバー"],fac:/写真|映像|映画|放送|メディア/},
+ {k:"作家・編集者・出版",a:["作家","小説家","脚本家","編集者","出版社","ライター"],car:/出版|編集/,fac:/文芸|文学|日本語|メディア|創作/},
+ {k:"漫画家・イラストレーター",a:["漫画家","マンガ家","イラストレーター","絵本作家"],fac:/マンガ|漫画|イラスト|キャラクター|美術/},
+ {k:"俳優・ダンサー・舞台スタッフ",a:["俳優","女優","声優","ダンサー","舞台","演出家"],fac:/舞台|演劇|ダンス|パフォーミング|身体表現/},
+ {k:"学芸員・文化財の仕事",a:["文化財","考古学者","修復"],lic:/学芸員/,fac:/文化財|考古|史学|美術史/},
+ {k:"僧侶・神職",a:["僧侶","お坊さん","神職","神主","宗教家","牧師"],fac:/仏教|神道|宗教|キリスト/},
+ {k:"NPO・国際協力",a:["NPO","NGO","国際協力","JICA","青年海外協力隊"],fac:/国際|開発|平和|グローバル/},
+ {k:"政治家・議員秘書",a:["政治家","議員","議員秘書"],fac:/政治|政策|(?<!療)法学/},
+ {k:"データサイエンティスト・アナリスト",a:["データサイエンティスト","データアナリスト","統計"],lic:/統計|データ/,fac:/データ|統計|数理|情報/},
+ {k:"情報セキュリティ技術者",a:["ホワイトハッカー","セキュリティ","情報処理技術者","ITパスポート"],lic:/情報処理|ITパスポート|セキュリティ/,fac:/情報|セキュリティ|コンピュータ/}];
 const STUDY_DL=["心理学","法学","政治学","経済学","経営学","商学","会計","国際関係","社会学","メディア","観光","教育学","保育","文学","歴史学","哲学","言語学","英語","外国語","数学","物理学","化学","生物学","地学","宇宙","AI","データサイエンス","情報","機械","電気・電子","建築","土木","材料","環境","農学","水産","獣医","食品","栄養","看護","医学","歯学","薬学","リハビリテーション","福祉","スポーツ","デザイン","美術","音楽","映像"];
 (function(){ const A=$("q-area"); if(A){ const pr=["北海道","青森","岩手","宮城","秋田","山形","福島","茨城","栃木","群馬","埼玉","千葉","東京","神奈川","新潟","富山","石川","福井","山梨","長野","岐阜","静岡","愛知","三重","滋賀","京都","大阪","兵庫","奈良","和歌山","鳥取","島根","岡山","広島","山口","徳島","香川","愛媛","高知","福岡","佐賀","長崎","熊本","大分","宮崎","鹿児島","沖縄"];
     A.insertAdjacentHTML("beforeend",'<optgroup label="地方">'+["北海道・東北","関東","首都圏","北陸","甲信越","東海","近畿","中国・四国","九州・沖縄"].map(r=>'<option value="'+r+'">'+r+'</option>').join("")+'</optgroup><optgroup label="都道府県">'+pr.map(p=>'<option value="'+p+'">'+p+(p==="北海道"?"":p==="東京"?"都":/^(京都|大阪)$/.test(p)?"府":"県")+'</option>').join("")+'</optgroup>'); }
   if($("dl-job")) $("dl-job").innerHTML=JOBS.map(j=>'<option value="'+esc(j.k)+'">').join("");
-  if($("dl-lic")){ const LIC_DL=["教員免許","小学校教諭","幼稚園教諭","保育士","看護師","保健師","助産師","医師","歯科医師","薬剤師","獣医師","理学療法士","作業療法士","言語聴覚士","臨床検査技師","診療放射線技師","臨床工学技士","管理栄養士","栄養士","社会福祉士","精神保健福祉士","介護福祉士","公認心理師","認定心理士","一級建築士","二級建築士","技術士補","学芸員","司書","社会調査士","食品衛生監視員","測量士補","危険物取扱者","司書教諭","養護教諭","特別支援学校教諭","日本語教員"]; $("dl-lic").innerHTML=LIC_DL.map(w=>'<option value="'+esc(w)+'">').join(""); }
+  if($("dl-lic")){ const LIC_DL=["教員免許","小学校教諭","幼稚園教諭","保育士","看護師","保健師","助産師","医師","歯科医師","薬剤師","獣医師","理学療法士","作業療法士","言語聴覚士","臨床検査技師","診療放射線技師","臨床工学技士","管理栄養士","栄養士","社会福祉士","精神保健福祉士","介護福祉士","公認心理師","認定心理士","一級建築士","二級建築士","技術士補","学芸員","司書","社会調査士","食品衛生監視員","測量士補","危険物取扱者","司書教諭","養護教諭","特別支援学校教諭","日本語教員"]; $("dl-lic").innerHTML=[...new Set([...LIC_DL,...(LICN.list||[])])].map(w=>'<option value="'+esc(w)+'">').join(""); }
   if($("dl-study")) $("dl-study").innerHTML=[...STUDY_DL,...Object.keys(KEI)].map(w=>'<option value="'+esc(w)+'">').join(""); })();
 function xVals(){ const g=id=>(($(id)||{}).value||"").normalize("NFKC").trim(); return {learn:g("q-learn"),fac:g("q-fac"),study:g("q-study"),job:g("q-job"),lic:g("q-lic"),area:g("q-area")}; }
 function xActive(){ const v=xVals(); return !!(v.learn||v.fac||v.study||v.job||v.lic||v.area); }
@@ -2015,6 +2065,8 @@ const LEARN_STOP=/^(こと|もの|ため|よう|仕事|分野|勉強|学問|研�
 function learnGroups(q){ let t=String(q).normalize("NFKC").replace(/(について|に関して|に関する|を|が|に)?(学びたい|勉強したい|研究したい|学べる|学ぶ|作りたい|つくりたい|知りたい|調べたい|やりたい|したい|興味がある|に興味|が好き|関わりたい|携わりたい|守りたい|助けたい|支えたい|治したい|育てたい|伝えたい|使いたい|考えたい|解決したい|なりたい)/g,"、");
   const keys=[...new Set([...Object.keys(LEARN_SYN),...Object.keys(SYN)])].sort((a,b)=>b.length-a.length), G=[];
   for(const k of keys){ if(t.includes(k)){ const syn=LEARN_SYN[k]||SYN[k]||[]; G.push({k,w:[...new Set([...(k.length>=2?[k]:[]),...syn])]}); t=t.split(k).join("、"); } }
+  // 上の言い換えに無い言葉が興味のテーマ（例「推し活」→経営・心理・メディア…）に当たるときは、そのテーマの分野まで広げて1つの概念にする
+  for(const tp of topicsFor(t)){ G.push({k:tp.k,w:[...new Set(tp.f.flatMap(f=>f.w))],topic:tp}); for(const w of tp.say) if(w.length>=2) t=t.split(w).join("、"); }
   t.split(/[、。,，\s・!?！？]+|[のをやとにでがはへも]+/).map(z=>z.trim()).filter(z=>z.length>=2&&!LEARN_STOP.test(z)).forEach(z=>{ const st=z.replace(/(学|する|して|した)$/,""); G.push({k:z,w:[...new Set([z,st].filter(w=>w.length>=2))]}); });
   return G.filter(g=>g.w.length); }
 var XL_Q=null, XL_G=[], XL_NEED=1;
@@ -2023,10 +2075,13 @@ function xlNeed(){ return XL_NEED; }
 function xlSetNeed(){ const n=XL_G.length; XL_NEED=n<=2?n:Math.ceil(n*0.6); if(n>1){ const c=items.filter(y=>xLearn(y,XL_Q)).length; if(c<5) XL_NEED=1; } }
 function xLearn(x,q){ if(XL_Q!==q){ XL_Q=q; XL_G=learnGroups(q); xlSetNeed(); } if(!XL_G.length) return null; const f=INFO[x.name]||{};
   const F=[["学部",facList(f),3],["研究",f.research||[],2],["特色",x.feats||[],1.5]]; let sc=0, got=0; const hits=[];
-  for(const g of XL_G){ let gs=0; for(const [lab,arr,wt] of F){ const it=arr.find(t=>g.w.some(w=>has(t,w))); if(it){ gs+=wt; if(!hits.some(h=>h[1]===it)) hits.push([lab,lab==="学部"?it:cut(it,g.w.find(w=>has(it,w))||"")]); } } if(gs){ got++; sc+=gs; } }
+  for(const g of XL_G){ let gs=0; for(const [lab,arr,wt] of F){ const it=arr.find(t=>g.w.some(w=>twHit(t,w))); if(it){ gs+=wt; if(!hits.some(h=>h[1]===it)) hits.push([lab,lab==="学部"?it:cut(it,(g.w.find(w=>twHit(it,w))||"").split("+")[0])]); } } if(gs){ got++; sc+=gs; } }
   if(got<xlNeed()) return null;
   return {sc:sc*got/XL_G.length,hits}; }
-function xLic(x,q){ const L=(INFO[x.name]||{}).licenses||[]; const st=q.replace(/(の資格|資格|免許|受験資格)$/,""); const ws=[...new Set([q,st].filter(w=>w.length>=2))]; return L.filter(t=>ws.some(w=>t.includes(w))); }
+function xLic(x,q){ const L=(INFO[x.name]||{}).licenses||[]; const st=q.replace(/(の資格|資格|免許|受験資格|国家試験)$/,""); const ws=[...new Set([q,st,...st.split("・")].filter(w=>w.length>=2))];
+  const raw=L.filter(t=>ws.some(w=>t.includes(w))); if(raw.length) return raw;
+  // 表記ゆれ（「高等学校教諭」と「教員免許（中・高）」など）はそろえた資格名で照らす
+  const C=(LICN.by||{})[x.name]||[]; return C.filter(c=>ws.some(w=>c===w||c.includes(w)||(w.length>=3&&w.includes(c)))); }
 var XH_KEY="", XH=new Map();
 function xHits(x){ const v=xVals(), key=JSON.stringify(v); if(key!==XH_KEY){ XH_KEY=key; XH=new Map(); }
   if(XH.has(x.name)) return XH.get(x.name);
@@ -2042,6 +2097,47 @@ function xHits(x){ const v=xVals(), key=JSON.stringify(v); if(key!==XH_KEY){ XH_
 function xHitHTML(x){ if(!xActive()) return ""; const h=xHits(x); if(!h||!h.parts.length) return "";
   const seen=new Set(); return h.parts.map(([k,a])=>{ const b=a.filter(t=>!seen.has(t)); b.forEach(t=>seen.add(t)); if(!b.length) return "";
     return '<span class="rf xh"><b>'+k+'</b>'+esc(b.slice(0,3).join("・"))+(b.length>3?" ほか":"")+'</span>'; }).join(""); }
+// ---- 興味・関心のテーマ（data/topics.json）：生徒のいろいろな言葉を、関連して学べる分野に広げる ----
+// 「美術+教育」のように + でつないだ言葉は、同じ学部・学科名（研究分野）にすべて含まれるときだけ当たる
+function twHit(t,w){ return w.includes("+")?w.split("+").every(p=>has(t,p)):has(t,w); }
+// 検索語に含まれるテーマ。1文字の言葉（海・絵・虫など）は、その言葉だけで区切られているときに限る（「海外」で海にしない）
+function topicsFor(q){ q=String(q||"").normalize("NFKC").trim(); if(!q) return [];
+  const toks=q.split(/[\s、。,，・!?！？]+|[のをやとにでがはへもな]+/).filter(Boolean), low=q.toLowerCase();
+  return TOPICS.filter(t=>t.k===q||t.say.some(w=>w.length>=2?low.includes(w.toLowerCase()):toks.includes(w))); }
+function topicTexts(name){ const f=INFO[name]||{}; return [...facList(f),...(f.research||[])]; }
+// その大学で当たる分野（学部・学科名、研究分野に分野の言葉があるもの）
+function topicFieldHits(name,tp){ const T=topicTexts(name), out=[];
+  tp.f.forEach((f,i)=>{ const it=T.find(t=>f.w.some(w=>twHit(t,w))); if(it) out.push({i,f,it}); }); return out; }
+// 大学の詳細に出す「関連して学べるテーマ」（2分野以上に当たるテーマ）
+var TOU_CACHE=new Map();
+function topicsOfUniv(name){ if(TOU_CACHE.has(name)) return TOU_CACHE.get(name);
+  const r=TOPICS.map(t=>({k:t.k,h:topicFieldHits(name,t)})).filter(z=>z.h.length>=2).sort((a,b)=>b.h.length-a.h.length).slice(0,14).map(z=>({k:z.k,fs:z.h.map(h=>h.f.n)}));
+  TOU_CACHE.set(name,r); return r; }
+// いま選んでいる分野（「関連して学べること」の分野ボタンで絞り込む）
+var TSEL=null;   // {k:テーマ, i:分野の番号}
+function activeTopics(){ const q=($("mq")||{}).value||"", L=xVals().learn; const by=($("mby")||{}).value||"";
+  if(items.some(x=>x.name===q.trim())) return [];
+  const a=(!by||by==="fac"||by==="res")?topicsFor(q):[]; const b=L?topicsFor(L):[];
+  const seen=new Set(); return [...a,...b].filter(t=>!seen.has(t.k)&&seen.add(t.k)); }
+function topicPanelHTML(list){ const TP=activeTopics(); if(!TP.length) return "";
+  const names=new Set(list.map(x=>x.name));
+  return TP.slice(0,3).map(tp=>{ const cnt=tp.f.map((f,i)=>items.filter(x=>names.has(x.name)&&topicFieldHits(x.name,tp).some(h=>h.i===i)).length);
+    return '<div class="tpanel"><div class="tph">「'+esc(tp.k)+'」に関心がある人は、こんな分野でも学べます<small>分野を押すとその分野で学べる学校に絞り込みます</small></div><div class="tpf">'+
+      tp.f.map((f,i)=>'<button type="button" class="tpb'+(TSEL&&TSEL.k===tp.k&&TSEL.i===i?' on':'')+'" data-k="'+esc(tp.k)+'" data-i="'+i+'"><b>'+esc(f.n)+'</b><span>'+esc(f.why||"")+'</span><small>'+cnt[i]+'校</small></button>').join("")+'</div></div>'; }).join(""); }
+function topicHitHTML(x){ const TP=activeTopics(); if(!TP.length) return "";
+  const parts=[]; for(const tp of TP){ const h=topicFieldHits(x.name,tp); if(TSEL&&TSEL.k===tp.k){ const z=h.find(q=>q.i===TSEL.i); if(z) parts.push(z); } else parts.push(...h); }
+  if(!parts.length) return ""; const fs=[...new Set(parts.map(p=>p.f.n))];
+  return '<span class="rf xh"><b>関連</b>'+esc(fs.slice(0,3).join("・"))+(fs.length>3?" ほか":"")+'</span>'; }
+// 何も見つからないときの手がかり：入力した言葉の文字の並びが、学校の説明（特色・学部・研究・資格・進路・メモ）に多く含まれる学校
+function fuzzyUnivs(q){ const P=prefilter(q,"","",60); const mx=P.length?P[0].sc:0; if(!mx) return [];
+  return P.filter(o=>o.sc>=mx*0.6&&passFilters(o.x)).map(o=>o.x); }
+function themeChips(){ return TOPICS.map(t=>'<button type="button" class="tthem" data-k="'+esc(t.k)+'">'+esc(t.k)+'</button>').join(""); }
+if($("tlist")) $("tlist").innerHTML=themeChips();
+ROOT.addEventListener("click",e=>{ const b=e.target.closest&&e.target.closest(".tpb"); if(!b) return;
+  const k=b.dataset.k, i=+b.dataset.i; TSEL=(TSEL&&TSEL.k===k&&TSEL.i===i)?null:{k,i}; renderResults(); });
+ROOT.addEventListener("click",e=>{ const b=e.target.closest&&e.target.closest(".tthem"); if(!b) return; e.preventDefault(); e.stopPropagation();
+  const k=b.dataset.k, go=()=>{ CUR_SEL=null; $("hl").innerHTML=""; $("mpanel").innerHTML=""; $("uov").hidden=true; lockScroll(false); if($("mby")) $("mby").value=""; $("mq").value=k; TSEL=null; renderResults(); };
+  if(NAV.get()==="map") go(); else { NAV.set("map"); setTimeout(go,80); } },true);
 $("f-kei").insertAdjacentHTML("beforeend",Object.keys(KEI).map(k=>'<option value="'+k+'">'+k+'</option>').join(""));
 function searchUnivs(q){
   q=q.trim(); const by=($("mby")||{}).value||""; const on=k=>!by||by===k;
@@ -2049,9 +2145,12 @@ function searchUnivs(q){
   const rq=REGION_Q[q.normalize("NFKC").replace(/\s|地方|地域/g,"")];
   if(rq&&on("pref")) return items.filter(x=>rq.some(p=>x.pref.startsWith(p))&&passFilters(x)).sort((a,b)=>(PRIO[a.cat]??20)-(PRIO[b.cat]??20)||a.pref.localeCompare(b.pref,"ja"));
   if(kq&&!by) return items.filter(x=>kq.includes(kindOf(x))&&passFilters(x)).sort((a,b)=>(PRIO[a.cat]??20)-(PRIO[b.cat]??20)||a.pref.localeCompare(b.pref,"ja"));
-  if(!q){ return filtersActive()? items.filter(passFilters).sort((a,b)=>((xHits(b)||{sc:0}).sc-(xHits(a)||{sc:0}).sc)||(PRIO[a.cat]??20)-(PRIO[b.cat]??20)) : []; }
+  if(!q){ if(TSEL&&!topicsFor(xVals().learn).some(t=>t.k===TSEL.k)) TSEL=null;
+    const tsel=x=>{ if(!TSEL) return true; const tp=TOPICS.find(t=>t.k===TSEL.k); return !!tp&&topicFieldHits(x.name,tp).some(h=>h.i===TSEL.i); };
+    return filtersActive()? items.filter(x=>passFilters(x)&&tsel(x)).sort((a,b)=>((xHits(b)||{sc:0}).sc-(xHits(a)||{sc:0}).sc)||(PRIO[a.cat]??20)-(PRIO[b.cat]??20)) : []; }
   const a=nz(q), h=toHira(q.normalize("NFKC")).replace(/\s/g,"");
   const words=(typeof concepts==="function"?concepts(q.normalize("NFKC")).flat():[]).filter(w=>w!==q);
+  const TQ=items.some(x=>x.name===q)?[]:topicsFor(q); if(TSEL&&!TQ.some(t=>t.k===TSEL.k)&&!topicsFor(xVals().learn).some(t=>t.k===TSEL.k)) TSEL=null;
   return items.map(x=>{
     const f=INFO[x.name]||{}; let sc=0;
     if(on("name")){ if(isCorrect(q,x.name)) sc+=100;
@@ -2067,6 +2166,11 @@ function searchUnivs(q){
     if(on("lic")) hit((f.licenses||[]).join(" ")+" "+(f.careers||""),6,4);
     if(on("res")) hit((f.research||[]).join(" ")+" "+x.feats.join(" ")+" "+(f.notable||[]).map(n=>typeof n==="string"?n:(n.name||"")+(n.field||"")).join(" "),6,4);
     if(by==="sch") hit(scholarText(f),10,6);
+    // 興味のテーマ（例「ゲーム」）：関連する分野を学べる学校も候補に（分野ボタンで選んだときはその分野だけ）
+    if(TSEL){ const tp=TOPICS.find(t=>t.k===TSEL.k); if(!tp||!topicFieldHits(x.name,tp).some(z=>z.i===TSEL.i)) return {x,sc:0}; }
+    // 1分野だけ当たる学校は、学部・学科名などにテーマの言葉そのもの（例「ゲーム」）があるときだけ候補にする（関係の薄い学校を並べない）
+    if(TQ.length&&(!by||by==="fac"||by==="res")){ for(const tp of TQ){ if(TSEL&&TSEL.k===tp.k){ sc+=3; continue; } const h=topicFieldHits(x.name,tp);
+        if(h.length>=2||(h.length&&topicTexts(x.name).some(t=>tp.say.some(w=>w.length>=2&&t.includes(w))))) sc+=h.length*3; } }
     // 系統名による加点はしない（「獣医」で農学系の全大学が出てしまうため）
     return {x,sc};
   }).filter(o=>o.sc>0&&passFilters(o.x)).sort((p,q2)=>q2.sc-p.sc||(PRIO[p.x.cat]??20)-(PRIO[q2.x.cat]??20)).map(o=>o.x);
@@ -2075,6 +2179,7 @@ var LAST_LIST=[], CUR_SEL=null;
 function renderResults(){
   let list=searchUnivs($("mq").value);
   const qv=$("mq").value.trim(), kyF=$("f-kyoka").value||$("f-rl").value;
+  let fuzzy=false; if(!list.length&&qv&&!TSEL&&!activeTopics().length){ list=fuzzyUnivs(qv); fuzzy=list.length>0; }
   const noK=kyF?items.filter(x=>!((INFO[x.name]||{}).kyotsu||{}).kamoku).length:0;
   const mfv=$("f-meth").value, noM=mfv&&!/^n/.test(mfv)?items.filter(x=>!((((INFO[x.name]||{}).methods)||{}).list||[]).length).length:0;
   const noS=/^n/.test(mfv)?items.filter(x=>!subjRows(x).length).length:0;
@@ -2088,12 +2193,14 @@ function renderResults(){
   if(!list.length&&!xActive()&&XF_IDS.some(id=>$(id).value)) msg+=extraMissing();
   const noE=$("f-eng").value?items.filter(x=>!(((INFO[x.name]||{}).eng)||{}).rows).length:0; if(noE) msg+="（英語外部試験が未登録の"+noE+"校は対象外）";
   if(!DETAIL_READY&&($("f-meth").value||$("f-eng").value||$("f-date").value||$("f-ratio").value||$("f-fee").value||$("f-theme").value)) msg="入試方式・英語外部試験のデータを読み込み中…";
+  if(fuzzy) msg=list.length+"件：「"+qv+"」そのものは学部名などに見つからなかったため、学校の説明に近い言葉を含む学校を表示しています";
   $("mcount").textContent=msg;
+  { const tp=topicPanelHTML(list); let el=$("tpanels"); if(!el){ $("mcount").insertAdjacentHTML("afterend",'<div id="tpanels"></div>'); el=$("tpanels"); } el.innerHTML=(qv||xVals().learn)?(tp||(!list.length&&qv?'<div class="tpanel"><div class="tph">興味のテーマから探してみませんか<small>近い言葉が見つからないときは、テーマを押すと関連して学べる分野まで広げて探せます</small></div><div class="tthems">'+themeChips()+'</div></div>':"")):""; }
   const kv=$("f-kei").value;
   const facHit=x=>{ const f=INFO[x.name]||{}; let h=kv?keiHits(x,kv):[]; if(!h.length&&qv&&!isCorrect(qv,x.name)&&!nz(x.name).includes(nz(qv))){ const ws=[qv,...(typeof concepts==="function"?concepts(qv).flat():[])].filter(w=>w.length>=2); const ex=facList(f).filter(t=>t.includes(qv)); h=ex.length?ex:facList(f).filter(t=>ws.some(w=>t.includes(w))); }
     return h.length?'<span class="rf">'+esc(h.slice(0,3).map(t=>/学部|学群|学域|学環|学院|学類$/.test(t.replace(/（.*$/,""))?t.replace(/（.*$/,""):t).join("・")+(h.length>3?" ほか":""))+'</span>':""; };
   const so=$("msort").value; if(so&&so!=="rel"){ const hv=x=>{ const h=listHen(x); return h?h.v:null; }; list=list.slice().sort(so==="pref"?(a,b)=>a.pref.localeCompare(b.pref,"ja"):(a,b)=>{ const A=hv(a),B=hv(b); if(A==null&&B==null) return 0; if(A==null) return 1; if(B==null) return -1; return so==="hd"?B-A:A-B; }); }
-  $("mresults").innerHTML=list.slice(0,200).map(x=>{ const h=listHen(x); return '<button class="ritem" data-n="'+esc(x.name)+'">'+badge(x)+'<span class="rn">'+esc(x.name)+(xHitHTML(x)||facHit(x))+kyHitHTML(x)+'</span><span class="rp">'+(h?'<span class="rh"'+(h.fac?' title="'+esc(h.lab)+'の偏差値（学部・学科別）"':' title="大学全体の偏差値の中央値"')+'>偏差値'+h.v+(h.fac?'<small>（学科）</small>':'')+'</span>':'')+bandTag(x)+esc(x.pref)+'</span></button>'; }).join("");
+  $("mresults").innerHTML=list.slice(0,200).map(x=>{ const h=listHen(x); return '<button class="ritem" data-n="'+esc(x.name)+'">'+badge(x)+'<span class="rn">'+esc(x.name)+(xHitHTML(x)||topicHitHTML(x)||facHit(x))+kyHitHTML(x)+'</span><span class="rp">'+(h?'<span class="rh"'+(h.fac?' title="'+esc(h.lab)+'の偏差値（学部・学科別）"':' title="大学全体の偏差値の中央値"')+'>偏差値'+h.v+(h.fac?'<small>（学科）</small>':'')+'</span>':'')+bandTag(x)+esc(x.pref)+'</span></button>'; }).join("");
   $("mresults").querySelectorAll(".ritem").forEach(b=>b.onclick=()=>selectUniv(b.dataset.n));
   LAST_LIST=(qv||filtersActive())?list:[]; renderSearchNews();
   // 地図上で候補の点を強調
@@ -2120,7 +2227,7 @@ $("q-area").addEventListener("change",()=>{ $("q-area").classList.toggle("on",!!
 // 項目ごとの検索を変えたら、選択中の大学を閉じて一覧に戻す
 function xGo(){ if(items.some(x=>x.name===$("mq").value)) $("mq").value=""; $("uov").hidden=true; lockScroll(false); runSearch(); }
 $("mq").addEventListener("keydown",e=>{ if(e.key!=="Enter"||e.isComposing||e.keyCode===229) return; e.preventDefault(); const v=$("mq").value.trim(); if(items.some(x=>x.name===v)) selectUniv(v); else runSearch(); });
-$("mreset").onclick=()=>{ MATCH=null; LAST_LIST=[]; CUR_SEL=null; $("uov").hidden=true; lockScroll(false); renderSearchNews(); ROOT.querySelectorAll(".fk").forEach(e=>e.checked=true); applyKindDots(); $("f-eng").value=""; $("f-kei").value=""; $("f-kyoka").value=""; $("f-rl").value=""; $("f-meth").value=""; XF_IDS.forEach(id=>$(id).value=""); $("msort").value="hd"; ROOT.querySelectorAll("#v-map .sfields select").forEach(e=>e.classList.remove("on")); sdetCount(); ROOT.querySelectorAll(".fk").forEach(e=>e.checked=true); $("hl").innerHTML=""; $("mpanel").innerHTML=""; $("mresults").innerHTML=""; $("mcount").textContent=""; $("mq").value=""; ["q-learn","q-fac","q-study","q-job","q-lic","q-area"].forEach(id=>$(id).value=""); $("q-area").classList.remove("on"); ROOT.querySelectorAll("#jmap .dot.dim").forEach(c=>c.classList.remove("dim")); setVB(HOME_VB); };
+$("mreset").onclick=()=>{ MATCH=null; TSEL=null; LAST_LIST=[]; CUR_SEL=null; $("uov").hidden=true; lockScroll(false); renderSearchNews(); ROOT.querySelectorAll(".fk").forEach(e=>e.checked=true); applyKindDots(); $("f-eng").value=""; $("f-kei").value=""; $("f-kyoka").value=""; $("f-rl").value=""; $("f-meth").value=""; XF_IDS.forEach(id=>$(id).value=""); $("msort").value="hd"; ROOT.querySelectorAll("#v-map .sfields select").forEach(e=>e.classList.remove("on")); sdetCount(); ROOT.querySelectorAll(".fk").forEach(e=>e.checked=true); $("hl").innerHTML=""; $("mpanel").innerHTML=""; $("mresults").innerHTML=""; $("mcount").textContent=""; $("mq").value=""; ["q-learn","q-fac","q-study","q-job","q-lic","q-area"].forEach(id=>$(id).value=""); $("q-area").classList.remove("on"); ROOT.querySelectorAll("#jmap .dot.dim").forEach(c=>c.classList.remove("dim")); setVB(HOME_VB); };
 NAV.listen(()=>{ if(NAV.get()==="map") requestAnimationFrame(()=>scaleMarks()); });
 
 

@@ -87,6 +87,7 @@ Searchuniv に全国の大学を少しずつ追加し、既存校の空欄（研
 - `https://search.keinet.ne.jp/{コード}`（大学トップ：所在地・キャンパス・沿革）
 - `https://search.keinet.ne.jp/outline/department/{コード}`（学部・学科、学生数、概要・特色）
 - `https://search.keinet.ne.jp/{コード}/outline/licential`（取得可能資格）
+  - 資格名は出典（大学公式・Kei-Net）の正式な名前のまま書く（例「愛玩動物看護師国家試験受験資格」）。検索画面の「取得できる資格」の候補は、ここで集めた資格名から build.py が自動で作る（2026-11-11 先生の依頼）。大学公式で資格一覧のページを見つけたら、Kei-Net に無い資格も足してよい。
 - `https://search.keinet.ne.jp/{コード}/outline/admission_employment`（進学・就職実績）
 - `https://search.keinet.ne.jp/{コード}/general/exam_subject`（共通テストの教科・科目数と英語リーディング:リスニングの配点 → info.kyotsu。R:Lは整数比に約分、例 100:100→"1:1"、160:40→"4:1"）
 - **学部・学科（info.departments）**：`tools/DEPT_SPEC.md` の形で、学部ごとの学科・課程と、その下の専攻・コース・言語別まで Kei-Net `/outline/department` から集める（batch のキーは departments_full）。enrich の need に departments があるときも同じ手順。
