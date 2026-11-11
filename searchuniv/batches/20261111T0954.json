@@ -1,0 +1,844 @@
+[
+ {
+  "name": "京都薬科大学",
+  "info": {
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "薬学部 薬学科（6年制）",
+      "admission": 400000,
+      "tuition": 1800000,
+      "facility": 0,
+      "practical": null,
+      "other": 65000,
+      "first_year": 2265000,
+      "four_year": null,
+      "note": "諸会費は教育後援会費30,000円・学生自治会費20,000円・同窓会入会費15,000円（2026年度の内訳、マナビジョン）。入学時最小限納入金1,365,000円"
+     }
+    ],
+    "note": "2027年度（旺文社パスナビ、2026年9月調査）。2026年度と同額"
+   },
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/3960/expense/?facultyID=005",
+    "https://manabi.benesse.ne.jp/daigaku/school/3599/gakuhi/"
+   ]
+  }
+ },
+ {
+  "name": "兵庫医科大学",
+  "info": {
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "医学部 医学科（6年制）",
+      "admission": 2000000,
+      "tuition": 2200000,
+      "facility": 3300000,
+      "practical": 1000000,
+      "other": 525000,
+      "first_year": 9025000,
+      "four_year": null,
+      "note": "施設費1,300,000円＋教育充実費2,000,000円。諸会費は後援会入会金・会費等（委託徴収）"
+     },
+     {
+      "f": "薬学部 医療薬学科（6年制）",
+      "admission": 200000,
+      "tuition": 1500000,
+      "facility": 400000,
+      "practical": null,
+      "other": 25000,
+      "first_year": 2125000,
+      "four_year": null,
+      "note": "諸会費は学生会費1万円・年会費5,000円・保護者会費1万円"
+     },
+     {
+      "f": "看護学部 看護学科",
+      "admission": 200000,
+      "tuition": 1300000,
+      "facility": 350000,
+      "practical": null,
+      "other": 25000,
+      "first_year": 1875000,
+      "four_year": null,
+      "note": "諸会費は学生会費1万円・年会費5,000円・保護者会費1万円。保健師科目選択者は10万円、助産師科目選択者は30万円を別途（2026年度、Kei-Net）"
+     },
+     {
+      "f": "リハビリテーション学部 理学療法学科",
+      "admission": 200000,
+      "tuition": 1200000,
+      "facility": 350000,
+      "practical": null,
+      "other": 25000,
+      "first_year": 1775000,
+      "four_year": null,
+      "note": "諸会費は学生会費1万円・年会費5,000円・保護者会費1万円"
+     },
+     {
+      "f": "リハビリテーション学部 作業療法学科",
+      "admission": 200000,
+      "tuition": 1200000,
+      "facility": 350000,
+      "practical": null,
+      "other": 25000,
+      "first_year": 1775000,
+      "four_year": null,
+      "note": "諸会費は学生会費1万円・年会費5,000円・保護者会費1万円"
+     }
+    ],
+    "note": "2027年度（旺文社パスナビ、2026年9月調査）。学外実習の交通費・宿泊費は個人負担（Kei-Net）"
+   },
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/4550/expense/",
+    "https://passnavi.obunsha.co.jp/univ/4550/expense/?facultyID=010",
+    "https://passnavi.obunsha.co.jp/univ/4550/expense/?facultyID=015",
+    "https://search.keinet.ne.jp/2574/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "兵庫大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "現代ビジネス学部 現代ビジネス学科",
+      "admission": 200000,
+      "tuition": 980000,
+      "facility": 0,
+      "practical": 0,
+      "other": 67300,
+      "first_year": 1247300,
+      "four_year": null,
+      "note": "授業料に教育充実費を含む（パスナビ）"
+     },
+     {
+      "f": "教育学部 教育学科",
+      "admission": 200000,
+      "tuition": 1090000,
+      "facility": 0,
+      "practical": 0,
+      "other": 67300,
+      "first_year": 1357300,
+      "four_year": null,
+      "note": "授業料に教育充実費を含む（パスナビ）"
+     },
+     {
+      "f": "生涯福祉学部 社会福祉学科",
+      "admission": 200000,
+      "tuition": 1190000,
+      "facility": 0,
+      "practical": 0,
+      "other": 67300,
+      "first_year": 1457300,
+      "four_year": null,
+      "note": "授業料に教育充実費を含む（パスナビ）"
+     },
+     {
+      "f": "健康科学部 健康スポーツ学科",
+      "admission": 200000,
+      "tuition": 1220000,
+      "facility": 0,
+      "practical": 0,
+      "other": 67300,
+      "first_year": 1487300,
+      "four_year": null,
+      "note": "授業料に教育充実費を含む（パスナビ）"
+     },
+     {
+      "f": "健康科学部 栄養マネジメント学科",
+      "admission": 200000,
+      "tuition": 1280000,
+      "facility": 0,
+      "practical": 0,
+      "other": 67300,
+      "first_year": 1547300,
+      "four_year": null,
+      "note": "授業料に教育充実費を含む（パスナビ）。パスナビの表記は「栄養学科」"
+     },
+     {
+      "f": "看護学部 看護学科",
+      "admission": 200000,
+      "tuition": 1550000,
+      "facility": 0,
+      "practical": 0,
+      "other": 69370,
+      "first_year": 1819370,
+      "four_year": null,
+      "note": "授業料に教育充実費を含む（パスナビ）。諸会費に学研災付帯賠償責任保険を含む"
+     }
+    ],
+    "note": "2026年度（旺文社パスナビ、2026年5月調査）。2027年度は未掲載"
+   },
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/4545/expense/"
+   ]
+  }
+ },
+ {
+  "name": "和歌山リハビリテーション専門職大学",
+  "info": {
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "健康科学部 リハビリテーション学科",
+      "admission": 250000,
+      "tuition": 1000000,
+      "facility": 300000,
+      "practical": 200000,
+      "other": null,
+      "first_year": 1750000,
+      "four_year": 6400000,
+      "note": "入学時最小限納入金1,250,000円。教材費・実習用衣服・ジャージ・学校指定のパソコン・保険代などが別途必要"
+     }
+    ],
+    "note": "2027年度（旺文社パスナビ、2026年9月調査）"
+   },
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期",
+      "apply": "1/5〜1/15",
+      "exam": "1/24",
+      "result": "1/29",
+      "proc": "2/26",
+      "fee": 25000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 中期",
+      "apply": "1/29〜2/12",
+      "exam": "2/21",
+      "result": "2/26",
+      "proc": "3/19",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期",
+      "apply": "2/22〜2/26",
+      "exam": "3/5",
+      "result": "3/12",
+      "proc": "3/22",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 第1期",
+      "apply": "1/29〜2/12",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/26",
+      "proc": "3/19",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 第2期",
+      "apply": "2/22〜2/26",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/12",
+      "proc": "3/22",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募）1期",
+      "apply": "11/1〜11/5",
+      "exam": "11/8",
+      "result": "12/1",
+      "proc": "12/18",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募）2期",
+      "apply": "11/24〜12/4",
+      "exam": "12/13",
+      "result": "12/18",
+      "proc": "1/15",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（エントリー）",
+      "apply": "9/1〜9/8",
+      "exam": "9/13",
+      "result": "11/1",
+      "proc": "11/24",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（小論文）1期",
+      "apply": "9/24〜10/2",
+      "exam": "10/11",
+      "result": "11/6",
+      "proc": "11/27",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（小論文）2期",
+      "apply": "10/26〜11/6",
+      "exam": "11/15",
+      "result": "11/20",
+      "proc": "12/11",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（小論文）3期",
+      "apply": "11/24〜12/4",
+      "exam": "12/13",
+      "result": "12/18",
+      "proc": "1/15",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（小論文）4期",
+      "apply": "1/5〜1/15",
+      "exam": "1/24",
+      "result": "1/29",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（小論文）5期",
+      "apply": "1/29〜2/12",
+      "exam": "2/21",
+      "result": "2/26",
+      "proc": "3/19",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（小論文）6期",
+      "apply": "2/22〜2/26",
+      "exam": "3/5",
+      "result": "3/12",
+      "proc": "3/22",
+      "fee": null
+     }
+    ],
+    "note": "理学療法学専攻・作業療法学専攻で同じ日程（マナビジョン、2027年度入試）。一般前期の検定料は既存の公式情報。他の方式の検定料は出典に記載なし"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3748/nyushi/index.html",
+    "https://passnavi.obunsha.co.jp/univ/9219/expense/"
+   ]
+  }
+ },
+ {
+  "name": "和歌山信愛大学",
+  "info": {
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "教育学部 子ども教育学科",
+      "admission": 230000,
+      "tuition": 1230000,
+      "facility": 0,
+      "practical": 0,
+      "other": 15000,
+      "first_year": 1475000,
+      "four_year": 5150000,
+      "note": "入学時最小限納入金860,000円"
+     }
+    ],
+    "note": "2027年度（旺文社パスナビ、2026年9月調査）で既存と一致を確認"
+   },
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅰ期",
+      "apply": "12/21〜1/29",
+      "exam": "2/6",
+      "result": "2/11",
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅱ期",
+      "apply": "2/1〜2/13",
+      "exam": "2/18",
+      "result": "2/25",
+      "proc": "3/10",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅲ期",
+      "apply": "2/24〜3/2",
+      "exam": "3/9",
+      "result": "3/12",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 Ⅰ期（2教科型・5教科型）",
+      "apply": "12/21〜1/29",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/11",
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 Ⅱ期（2教科型・5教科型）",
+      "apply": "2/1〜2/13",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/25",
+      "proc": "3/10",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 Ⅲ期（2教科型・5教科型）",
+      "apply": "2/24〜3/2",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/12",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募）前期",
+      "apply": "10/10〜11/5",
+      "exam": "11/14",
+      "result": "12/1",
+      "proc": "12/11",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募）後期",
+      "apply": "11/16〜12/7",
+      "exam": "12/12",
+      "result": "12/18",
+      "proc": "1/6",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 前期",
+      "apply": "6/6〜8/18",
+      "exam": "9/26",
+      "result": "11/1",
+      "proc": "11/13",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 後期",
+      "apply": "11/16〜12/7",
+      "exam": "12/12",
+      "result": "12/18",
+      "proc": "1/6",
+      "fee": null
+     }
+    ],
+    "note": "マナビジョン（2027年度入試）で確認。検定料は出典に記載なし"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3747/nyushi/",
+    "https://passnavi.obunsha.co.jp/univ/4628/expense/?facultyID=005"
+   ]
+  }
+ },
+ {
+  "name": "四天王寺大学",
+  "info": {
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "文学部・社会学部・経営学部",
+      "admission": 200000,
+      "tuition": 837000,
+      "facility": 360000,
+      "practical": 0,
+      "other": 28000,
+      "first_year": 1425000,
+      "four_year": null,
+      "note": "諸会費は同窓会費と後援会費"
+     },
+     {
+      "f": "教育学部 教育学科",
+      "admission": 200000,
+      "tuition": 857000,
+      "facility": 360000,
+      "practical": 0,
+      "other": 28000,
+      "first_year": 1445000,
+      "four_year": null,
+      "note": "諸会費は同窓会費と後援会費"
+     },
+     {
+      "f": "看護学部 看護学科",
+      "admission": 200000,
+      "tuition": 1220000,
+      "facility": 400000,
+      "practical": 0,
+      "other": 28000,
+      "first_year": 1848000,
+      "four_year": null,
+      "note": "看護師国家試験の実習費は施設費に含む。保健師・助産師・養護教諭一種を選択する場合は別途実習費"
+     }
+    ],
+    "note": "2027年度（旺文社パスナビ、2026年9月調査）で既存と一致を確認"
+   },
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期日程（2科目型・3科目型）",
+      "apply": "12/20〜1/18",
+      "exam": "1/27・1/28",
+      "result": "2/5",
+      "proc": "2/16",
+      "fee": 27000,
+      "note": "2日間受験は2日目の検定料免除"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 中期日程",
+      "apply": "1/20〜2/9",
+      "exam": "2/17",
+      "result": "2/25",
+      "proc": "3/5",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期日程",
+      "apply": "2/12〜3/7",
+      "exam": "3/12",
+      "result": "3/19",
+      "proc": "3/25",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 Ⅰ期",
+      "apply": "12/20〜2/9",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/25",
+      "proc": "3/5",
+      "fee": null,
+      "note": "一般選抜と同時併願なら共テの検定料15,000円を免除（1学部・学科）"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 Ⅱ期",
+      "apply": "2/12〜3/7",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/19",
+      "proc": "3/25",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 推薦前期（2科目型・1科目型）",
+      "apply": "10/23〜11/3",
+      "exam": "11/12・11/13",
+      "result": "12/1",
+      "proc": "12/11",
+      "fee": null,
+      "note": "看護学科は2科目型のみ"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 推薦後期（2科目型・1科目型）",
+      "apply": "11/25〜12/6",
+      "exam": "12/14",
+      "result": "12/23",
+      "proc": "1/26",
+      "fee": null,
+      "note": "看護学科は2科目型のみ"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 オープン",
+      "apply": "9/1〜9/6",
+      "exam": "9/12",
+      "result": "約10日後（教育学部・看護学科は9/30）",
+      "proc": "11/12",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 自由応募型・プレゼン型",
+      "apply": "9/18〜10/6",
+      "exam": "10/17",
+      "result": "11/2",
+      "proc": "11/12",
+      "fee": null,
+      "note": "プレゼン型は文学部国際コミュニケーション学科と教育学部"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 スポーツ型",
+      "apply": "10/6〜10/15",
+      "exam": "10/24",
+      "result": "11/2",
+      "proc": "11/12",
+      "fee": null,
+      "note": "文学部・社会学部・経営学部"
+     }
+    ],
+    "note": "マナビジョン（2027年度入試）で確認。一般前期の検定料は既存の公式情報。他の方式の基本検定料は出典に記載なし"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3648/nyushi/",
+    "https://passnavi.obunsha.co.jp/univ/4280/expense/"
+   ]
+  }
+ },
+ {
+  "name": "尚絅大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 第1回（個別試験）",
+      "apply": "1/18〜1/29",
+      "exam": "2/6",
+      "result": "2/15",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 第2回（個別試験）",
+      "apply": "2/15〜3/1",
+      "exam": "3/6",
+      "result": "3/10",
+      "proc": "3/19",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 第3回（個別試験）",
+      "apply": "3/10〜3/15",
+      "exam": "3/20",
+      "result": "3/25",
+      "proc": "3/30",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜 共通テスト利用 第1回",
+      "apply": "1/18〜1/29",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/15",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜 共通テスト利用 第2回",
+      "apply": "2/15〜3/1",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/10",
+      "proc": "3/19",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜 共通テスト利用 第3回",
+      "apply": "3/10〜3/15",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/25",
+      "proc": "3/30",
+      "fee": null
+     }
+    ],
+    "note": "現代文化学部・生活科学部・こども教育学部で同じ日程（マナビジョン、2027年度入試）。出願は郵送必着。検定料は出典に記載なし"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3934/nyushi/hoshiki/ippan/index.html"
+   ]
+  }
+ },
+ {
+  "name": "崇城大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期（共通テスト併用型を含む）",
+      "apply": "1/7〜1/26",
+      "exam": "2/7・2/8",
+      "result": "2/22",
+      "proc": "3/4",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期",
+      "apply": "2/19〜2/26",
+      "exam": "3/6",
+      "result": "3/18",
+      "proc": "3/24",
+      "fee": null,
+      "note": "工学部（機械・ナノサイエンス・建築・宇宙航空システム）・情報学部・生物生命学部・薬学部。芸術学部と航空整備・航空操縦専攻は実施なし"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 前期",
+      "apply": "1/7〜1/26",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/22",
+      "proc": "3/4",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 後期",
+      "apply": "2/19〜3/8",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/18",
+      "proc": "3/24",
+      "fee": null,
+      "note": "工学部（機械・ナノサイエンス・建築・宇宙航空システム）・情報学部・生物生命学部"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 一般公募制推薦",
+      "apply": "10/28〜11/4",
+      "exam": "11/15",
+      "result": "12/1",
+      "proc": "12/18",
+      "fee": null,
+      "note": "薬学部は離島枠・専願推薦を含む"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（専願志・探究活動アピール・探究活動プログレ・AO）",
+      "apply": "9/9〜9/17",
+      "exam": "10/17",
+      "result": "11/4",
+      "proc": "11/27",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 芸術・実技 前期",
+      "apply": "9/28〜10/2",
+      "exam": "10/18",
+      "result": "11/4",
+      "proc": "11/27",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 芸術・実技 後期",
+      "apply": "1/7〜1/26",
+      "exam": "2/8",
+      "result": "2/22",
+      "proc": "3/4",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 パイロット特別",
+      "apply": "9/9〜10/2",
+      "exam": "11/1〜11/3",
+      "result": "12/1",
+      "proc": "12/18",
+      "fee": null,
+      "note": "工学部航空操縦学専攻のみ"
+     }
+    ],
+    "note": "マナビジョン（2027年度入試・予定）で確認。検定料は出典に記載なし"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3933/nyushi/"
+   ]
+  }
+ },
+ {
+  "name": "横浜国立大学",
+  "story": {
+   "summary": "経済・経営・教育・理工・都市科学の5学部からなる、実学的な色合いの濃い国立大学。2017年に新設した都市科学部では、都市社会共生・建築・都市基盤・環境リスク共生の4学科で、文理にわたる視点から都市を学べる。理工学部は早くから理学と工学の両方の素養を身につけ、学科内の教育プログラムで専門を深める。",
+   "only": [
+    {
+     "t": "都市科学部（2017年4月新設）は都市社会共生・建築・都市基盤・環境リスク共生の4学科で、文理にわたる幅広い視点から都市を学ぶ",
+     "src": "https://www.ynu.ac.jp/academics/"
+    },
+    {
+     "t": "理工学部は3学科の中に10の教育プログラム（EP）を置き、早い段階から理学・工学の両方の素養を身につけてから専門を深める",
+     "src": "https://search.keinet.ne.jp/1170/outline/department"
+    },
+    {
+     "t": "経済学部は前身の横浜高等商業学校以来、理論と実務をバランスよく教える伝統があり、貿易港・横浜を背景に国際色豊かな教育を行う",
+     "src": "https://search.keinet.ne.jp/1170/outline/department"
+    },
+    {
+     "t": "経済学部と経営学部が連携し、英語による専門授業や海外学修を含む副専攻プログラム（GBEEP）を設けている",
+     "src": "https://www.ynu.ac.jp/academics/"
+    }
+   ],
+   "vs": [
+    {
+     "u": "千葉大学",
+     "t": "千葉大学は工学部総合工学科の中のコースとして建築学・都市工学を学ぶが、横浜国立大学は建築・都市基盤に加えて文系寄りの都市社会共生学科も含む都市科学部として独立した学部で学ぶ",
+     "src": "https://search.keinet.ne.jp/1105/outline/department"
+    },
+    {
+     "u": "東京都立大学",
+     "t": "東京都立大学は都市環境学部に地理環境・建築・観光科学・都市政策科学など6学科を置くが、横浜国立大学の都市科学部は都市社会共生・建築・都市基盤・環境リスク共生の4学科で、環境リスクとの共生を学ぶ学科がある",
+     "src": "https://search.keinet.ne.jp/1532/outline/department"
+    }
+   ]
+  }
+ },
+ {
+  "name": "東京外国語大学",
+  "story": {
+   "summary": "言語文化・国際社会・国際日本の3学部からなる外国語の単科大学。言語文化学部は27の専攻言語から、国際社会学部は13の専攻地域から選んで入学し、言語と地域を土台に文化研究や社会科学を学ぶ。1853年の蕃書調所を起源とし、英語を専攻しない学生も英語力を伸ばせる授業がある。",
+   "only": [
+    {
+     "t": "言語文化学部は27の専攻言語で募集し、3年次から「地域コース」か「超域コース」に分かれて言語・文学・文化や通訳・翻訳、言語教育学などを研究する",
+     "src": "https://search.keinet.ne.jp/1130/outline/department"
+    },
+    {
+     "t": "国際社会学部は13の専攻地域で募集し、言語と地域を学びの基本単位に、経済学・政治学・歴史学など6系統の社会科学を学び、3年次から50を超えるゼミに所属する",
+     "src": "https://search.keinet.ne.jp/1130/outline/department"
+    },
+    {
+     "t": "国際日本学部は留学生と日本人学生が英語と日本語で共に学び、日本社会・日本文学・文化・日本語学・日本語教育学を横断して学ぶ",
+     "src": "https://search.keinet.ne.jp/1130/outline/department"
+    },
+    {
+     "t": "1853年のペリー来航をきっかけに設立された蕃書調所を起源とし、英語を専攻しない学生も英語力を伸ばせる英語科目を用意している",
+     "src": "https://www.tufs.ac.jp/tufstoday/topics/tufsfeatured/19012901.html"
+    }
+   ],
+   "vs": [
+    {
+     "u": "大阪大学",
+     "t": "大阪大学は総合大学の外国語学部（外国語学科25専攻語）で言語を学ぶが、東京外国語大学は専攻言語で入る言語文化学部に加え、専攻地域で入って社会科学を学ぶ国際社会学部を選べる",
+     "src": "https://search.keinet.ne.jp/1295/outline/department"
+    }
+   ]
+  }
+ }
+]
