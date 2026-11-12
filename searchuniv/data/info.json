@@ -196004,8 +196004,8 @@ null
 "faculties": "2026-11-09",
 "departments": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-09",
-"money": "2026-11-09",
+"schedule": "2026-11-12",
+"money": "2026-11-12",
 "scholar": "2026-11-09",
 "access": "2026-11-09",
 "_via": "2026-11-09"
@@ -196080,20 +196080,74 @@ null
 "result": "3/17",
 "proc": "3/27",
 "fee": 20000
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅰ期",
+"apply": "1/5〜1/27",
+"exam": "2/4",
+"result": "2/10",
+"proc": "3/8"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期",
+"apply": "2/5〜3/6",
+"exam": "3/11",
+"result": "3/17",
+"proc": "3/27"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用入試 A日程",
+"apply": "1/5〜1/27",
+"exam": "1/16・1/17（共テ）",
+"result": "2/10",
+"proc": "3/8",
+"fee": 16000
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用入試 B日程",
+"apply": "2/5〜3/6",
+"exam": "1/16・1/17（共テ）",
+"result": "3/17",
+"proc": "3/27",
+"fee": 16000
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用入試 C日程",
+"apply": "3/8〜3/20",
+"exam": "1/16・1/17（共テ）",
+"result": "3/25",
+"proc": "3/27",
+"fee": 16000
 }
-]
+],
+"note": "一般選抜はベネッセ マナビジョン（2027年度入試）と河合塾Kei-Netで確認（全学部共通。Ⅰ期の試験会場は本学・青森・八戸、Ⅱ期は本学）。共通テスト利用は大学公式（2027年度）で確認、検定料16,000円（併願割引あり）。一般選抜の検定料は未確認。総合型選抜の行は外部AI由来のまま（未確認）"
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
-"f": "文学部",
+"f": "文学部 英語文化・コミュニケーション学科",
 "admission": 280000,
 "tuition": 650000,
 "facility": 280000,
 "practical": 0,
-"other": null,
-"first_year": 1210000,
+"other": 93660,
+"first_year": 1303660,
+"four_year": null
+},
+{
+"f": "文学部 日本語・日本文学科",
+"admission": 280000,
+"tuition": 650000,
+"facility": 280000,
+"practical": 0,
+"other": 93660,
+"first_year": 1303660,
 "four_year": null
 },
 {
@@ -196102,8 +196156,8 @@ null
 "tuition": 700000,
 "facility": 280000,
 "practical": 0,
-"other": null,
-"first_year": 1260000,
+"other": 93660,
+"first_year": 1353660,
 "four_year": null
 },
 {
@@ -196111,12 +196165,14 @@ null
 "admission": 280000,
 "tuition": 900000,
 "facility": 280000,
-"practical": null,
-"other": null,
-"first_year": 1460000,
-"four_year": null
+"practical": 0,
+"other": 93500,
+"first_year": 1553500,
+"four_year": null,
+"note": "大学公式では実験実習費は1・2年次は大学が全額負担、3・4年次は自己負担"
 }
-]
+],
+"note": "旺文社パスナビ（2027年度、2026年9月時点の調査）。入学金・授業料・施設設備費は大学公式の学費表（年度表記なし）と一致。諸会費の内訳は掲載なし（大学公式では後援会・学友会・同窓会など全学部共通で約10万円）。授業料・施設設備費は前期・後期の2回に分けて納入"
 },
 "scholar": {
 "year": "2027年度",
@@ -196164,7 +196220,11 @@ null
 "https://www.hirogaku.ac.jp/support/college_life/tuition_support/",
 "https://www.hirogaku.ac.jp/support/college_life/scholarship/",
 "https://search.keinet.ne.jp/2030/outline/campus",
-"https://onikanri.singeki.com/sougougata-a016071/"
+"https://onikanri.singeki.com/sougougata-a016071/",
+"https://manabi.benesse.ne.jp/daigaku/school/3045/nyushi/hoshiki/ippan/index.html",
+"https://www.hirogaku.ac.jp/admissions/undergraduate_entrance_selection/common_test/",
+"https://search.keinet.ne.jp/2030/general/schedule",
+"https://passnavi.obunsha.co.jp/univ/1700/expense/"
 ]
 },
 "北洋大学": {
@@ -196176,8 +196236,8 @@ null
 "departments": "2026-11-09",
 "methods": "2026-11-09",
 "subjects": "2026-11-09",
-"schedule": "2026-11-09",
-"money": "2026-11-09",
+"schedule": "2026-11-12",
+"money": "2026-11-12",
 "scholar": "2026-11-09",
 "oc": "2026-11-09",
 "access": "2026-11-09",
@@ -196279,71 +196339,81 @@ null
 "rows": [
 {
 "kubun": "総合型",
-"name": "総合型Ａ日程",
+"name": "総合型選抜 A日程",
 "apply": "9/15〜10/13",
-"exam": null,
-"result": null,
-"proc": null,
-"fee": null
+"exam": "10/17",
+"result": "11/2",
+"proc": "11/19"
 },
 {
 "kubun": "総合型",
-"name": "総合型Ｃ日程",
-"apply": "2/16〜3/1",
-"exam": null,
-"result": null,
-"proc": "3/26",
-"fee": null
-},
-{
-"kubun": "推薦",
-"name": "学校推薦型公募Ａ",
-"apply": null,
-"exam": null,
-"result": null,
-"proc": "12/10",
-"fee": null
-},
-{
-"kubun": "推薦",
-"name": "学校推薦型公募Ｂ",
+"name": "総合型選抜 B日程",
 "apply": "11/17〜12/7",
-"exam": null,
-"result": null,
-"proc": null,
-"fee": null
+"exam": "12/12",
+"result": "12/21",
+"proc": "1/7"
 },
 {
-"kubun": "一般",
-"name": "一般 Ａ日程",
-"apply": "1/8〜2/1",
-"exam": null,
-"result": null,
-"proc": "2/25",
-"fee": null
-},
-{
-"kubun": "一般",
-"name": "一般 Ｂ日程",
+"kubun": "総合型",
+"name": "総合型選抜 C日程",
 "apply": "2/16〜3/1",
-"exam": null,
-"result": null,
-"proc": "3/23",
-"fee": null
+"exam": "3/6",
+"result": "3/12",
+"proc": "3/23"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 LC",
+"apply": "3/2〜3/15",
+"exam": "3/20",
+"result": "3/23",
+"proc": "3/26"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 公募A",
+"apply": "11/2〜11/10",
+"exam": "11/14",
+"result": "11/30",
+"proc": "12/10"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 公募B",
+"apply": "11/17〜12/7",
+"exam": "12/12",
+"result": "12/21",
+"proc": "1/7"
 },
 {
 "kubun": "一般",
-"name": "一般 ＬＣ",
+"name": "一般選抜 A日程",
+"apply": "1/8〜2/1",
+"exam": "2/6",
+"result": "2/12",
+"proc": "2/25"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 B日程",
+"apply": "2/16〜3/1",
+"exam": "3/6",
+"result": "3/12",
+"proc": "3/23"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 LC",
 "apply": "3/2〜3/15",
-"exam": null,
+"exam": "3/20",
 "result": "3/23",
-"proc": "3/26",
-"fee": null
+"proc": "3/26"
 }
-]
+],
+"note": "ベネッセ マナビジョン（2027年度入試）で確認。出願は郵送必着。総合型選抜は7/25・8/8・8/22・9/12・10/10の候補日の試験日も併記されている。外部AI由来の空欄（試験日・発表日・手続締切）を記入。検定料は記載なし"
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
 "f": "国際文化学部 キャリア創造学科",
@@ -196351,11 +196421,13 @@ null
 "tuition": 680000,
 "facility": 230000,
 "practical": 20000,
-"other": null,
-"first_year": 1130000,
-"four_year": null
+"other": 33000,
+"first_year": 1163000,
+"four_year": null,
+"note": "施設費に教育充実費6万円を含む"
 }
-]
+],
+"note": "旺文社パスナビ（2027年度、2026年9月時点の調査）。大学公式の学費表（年度表記なし）でも入学金20万円・授業料68万円・実習費2万円・教育充実費6万円・施設設備費17万円（学費計113万円）で、ほかに諸会費等が約5,000〜33,000円、4年次前期に同窓会費2万円。前期・後期の2回に分けて納入できる"
 },
 "scholar": {
 "year": null,
@@ -196421,7 +196493,8 @@ null
 "https://passnavi.obunsha.co.jp/univ/1545/scholarship/",
 "https://manabi.benesse.ne.jp/daigaku/school/3018/nyushi/",
 "https://manabi.benesse.ne.jp/daigaku/school/3018/nyushi/hoshiki/gakkou-suisen/",
-"https://manabi.benesse.ne.jp/daigaku/school/3018/nyushi/hoshiki/ippan/"
+"https://manabi.benesse.ne.jp/daigaku/school/3018/nyushi/hoshiki/ippan/",
+"https://passnavi.obunsha.co.jp/univ/1545/expense/"
 ]
 },
 "北海商科大学": {
@@ -196435,8 +196508,8 @@ null
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
 "subjects": "2026-11-09",
-"schedule": "2026-11-09",
-"money": "2026-11-09",
+"schedule": "2026-11-12",
+"money": "2026-11-12",
 "scholar": "2026-11-09",
 "oc": "2026-11-09",
 "access": "2026-11-09",
@@ -196569,12 +196642,36 @@ null
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "総合型",
+"name": "総合型選抜〔Ⅰ期〕",
+"apply": "9/16〜10/15",
+"exam": "10/25",
+"result": "11/3",
+"proc": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜〔Ⅱ期〕",
+"apply": "11/6〜12/11",
+"exam": "12/20",
+"result": "12/25",
+"proc": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜〔指定校制・公募制〕",
+"apply": "11/2〜11/18",
+"exam": "11/29",
+"result": "12/5",
+"proc": null
+},
+{
 "kubun": "一般",
 "name": "一般選抜〔3教科型〕",
 "apply": "1/4〜2/1",
 "exam": "2/8",
 "result": "2/17",
-"proc": null,
+"proc": "2/26",
 "fee": 30000
 },
 {
@@ -196583,14 +196680,14 @@ null
 "apply": "1/4〜2/1",
 "exam": "2/8",
 "result": "2/17",
-"proc": null,
+"proc": "2/26",
 "fee": 30000
 },
 {
 "kubun": "共テ利用",
 "name": "大学入学共通テスト利用選抜〔Ⅰ期〕",
 "apply": "1/4〜2/1",
-"exam": "個別試験なし（共通テスト）",
+"exam": "1/16・1/17（共テ）",
 "result": "2/17",
 "proc": "2/26",
 "fee": 12000
@@ -196599,27 +196696,39 @@ null
 "kubun": "共テ利用",
 "name": "大学入学共通テスト利用選抜〔Ⅱ期〕",
 "apply": "2/17〜3/10",
-"exam": "個別試験なし（共通テスト）",
+"exam": "1/16・1/17（共テ）",
 "result": "3/13",
 "proc": "3/19",
 "fee": 12000
 }
-]
+],
+"note": "大学公式「2027年度入学者選抜日程概要」で出願・試験・発表を確認（出願は16:00必着）。手続締切は旺文社パスナビ（2027年度）で一般選抜の2/26を追加。総合型・推薦の手続締切は未確認。検定料は外部AI由来のまま（未確認）"
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
-"f": "商学部（商学科・観光産業学科）",
+"f": "商学部 商学科",
 "admission": 220000,
 "tuition": 872000,
 "facility": 100000,
-"practical": null,
+"practical": 0,
+"other": 30000,
+"first_year": 1222000,
+"four_year": null
+},
+{
+"f": "商学部 観光産業学科",
+"admission": 220000,
+"tuition": 872000,
+"facility": 100000,
+"practical": 0,
 "other": 30000,
 "first_year": 1222000,
 "four_year": null
 }
-]
+],
+"note": "旺文社パスナビ（2027年度、2026年9月時点の調査）。施設費は教育充実費。大学公式の学費ページ（令和7年度入学生）は大学諸費15,000円で年間合計1,207,000円、2年次以降は授業料888,000円・教育充実費120,000円、4年間合計4,276,000円と掲載（諸会費の範囲が違うとみられ、パスナビの初年度合計と15,000円の差）"
 },
 "scholar": {
 "year": null,
@@ -196686,7 +196795,9 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3010/gakuhi/",
 "https://manabi.benesse.ne.jp/daigaku/OpenCampusSearch/kaijo/hokkaido/",
 "https://manabi.benesse.ne.jp/daigaku/OpenCampusSearch/web/shiritsu/keizai/",
-"https://telemail.jp/shingaku/university/10001056/examination/general"
+"https://telemail.jp/shingaku/university/10001056/examination/general",
+"https://passnavi.obunsha.co.jp/univ/1600/schedule/",
+"https://passnavi.obunsha.co.jp/univ/1600/expense/"
 ]
 },
 "北海道千歳リハビリテーション大学": {
@@ -196699,8 +196810,9 @@ null
 "difficulty": "2026-11-09",
 "methods": "2026-11-09",
 "subjects": "2026-11-09",
-"schedule": "2026-11-09",
-"_via": "2026-11-09"
+"schedule": "2026-11-12",
+"_via": "2026-11-09",
+"money": "2026-11-12"
 },
 "departments": [
 {
@@ -196784,24 +196896,75 @@ null
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "総合型",
+"name": "総合型選抜A・B",
+"apply": "9/1〜10/16",
+"exam": "10/24",
+"result": "11/2",
+"proc": null
+},
+{
+"kubun": "推薦",
+"name": "指定校推薦型選抜・学校推薦型選抜Ⅰ期",
+"apply": "11/2〜11/10",
+"exam": "11/14",
+"result": "12/1",
+"proc": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜C",
+"apply": "11/11〜12/8",
+"exam": "12/12",
+"result": "12/18",
+"proc": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜Ⅱ期",
+"apply": "11/11〜12/8",
+"exam": "12/12",
+"result": "12/18",
+"proc": null
+},
+{
 "kubun": "一般",
-"name": "一般 前期（理学療法学専攻・作業療法学専攻）",
+"name": "一般選抜 前期（理学療法学専攻・作業療法学専攻）",
 "apply": "1/5〜1/29",
 "exam": "2/4",
 "result": "2/12",
 "proc": "3/12",
-"fee": null
+"fee": 30000,
+"url": "https://www.chitose-reha.ac.jp/_sys/wp-content/uploads/2026/07/2027ippan_nyuushi.pdf"
 },
 {
 "kubun": "一般",
-"name": "一般 後期（理学療法学専攻・作業療法学専攻）",
+"name": "一般選抜 後期（理学療法学専攻・作業療法学専攻）",
 "apply": "2/1〜2/26",
 "exam": "3/4",
 "result": "3/9",
 "proc": "3/19",
-"fee": null
+"fee": 30000,
+"url": "https://www.chitose-reha.ac.jp/_sys/wp-content/uploads/2026/07/2027ippan_nyuushi.pdf"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 前期",
+"apply": "1/5〜1/29",
+"exam": "1/16・1/17（共テ）",
+"result": "2/12",
+"proc": "3/12"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 後期",
+"apply": "2/1〜2/26",
+"exam": "1/16・1/17（共テ）",
+"result": "3/9",
+"proc": "3/19"
 }
-]
+],
+"note": "大学公式の入試概要（2027年度）で出願・試験・発表を確認（出願は必着）。一般選抜の手続締切と検定料30,000円は2027年度一般選抜募集要項（入学金・授業料の納入期日は前期3/19）。共テ利用の手続締切は旺文社パスナビ。共テ利用と一般選抜を併願すると共テ分の検定料は免除。総合型・推薦の手続締切は未確認"
 },
 "_via": "external-ai",
 "sources": [
@@ -196809,8 +196972,39 @@ null
 "https://www.chitose-reha.ac.jp/examination/qa/",
 "https://search.keinet.ne.jp/2011/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/1621/top/",
-"https://manabi.benesse.ne.jp/daigaku/school/3027/nyushi/hoshiki/ippan/"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3027/nyushi/hoshiki/ippan/",
+"https://www.chitose-reha.ac.jp/examination/",
+"https://www.chitose-reha.ac.jp/_sys/wp-content/uploads/2026/07/2027ippan_nyuushi.pdf",
+"https://passnavi.obunsha.co.jp/univ/1621/schedule/",
+"https://passnavi.obunsha.co.jp/univ/1621/expense/",
+"https://www.chitose-reha.ac.jp/examination/tuition"
+],
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "健康科学部 リハビリテーション学科 理学療法学専攻",
+"admission": 300000,
+"tuition": 1300000,
+"facility": 50000,
+"practical": 0,
+"other": null,
+"first_year": 1650000,
+"four_year": null
+},
+{
+"f": "健康科学部 リハビリテーション学科 作業療法学専攻",
+"admission": 300000,
+"tuition": 1300000,
+"facility": 50000,
+"practical": 0,
+"other": null,
+"first_year": 1650000,
+"four_year": null
+}
+],
+"note": "旺文社パスナビ（2027年度、2026年9月時点の調査）。施設費は教育充実費。諸会費は「―」（学友会費は年2,000円）。大学公式（2026年度）も入学金30万円・授業料130万円・教育充実費5万円で初年度165万円、2年次以降は年135万円。臨床実習の実習費は授業料に含む。ほかに教科書代・教材費・学生保険代などがかかる"
+}
 },
 "北海道武蔵女子大学": {
 "faculties": [
@@ -214030,7 +214224,8 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-12"
 },
 "departments": [
 {
@@ -214195,8 +214390,37 @@ null
 "https://search.keinet.ne.jp/2152/outline/expense",
 "https://search.keinet.ne.jp/2152/outline/licential",
 "https://search.keinet.ne.jp/2152/outline/admission_employment",
-"https://search.keinet.ne.jp/2152/general/exam_result"
-]
+"https://search.keinet.ne.jp/2152/general/exam_result",
+"https://admission.josai.ac.jp/examination/schedule/bnittei2027/",
+"https://admission.josai.ac.jp/examination/schedule/cnittei2027/",
+"https://admission.josai.ac.jp/examination/schedule/index.html"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 B日程",
+"apply": "1/25〜2/12",
+"exam": "2/21",
+"result": "3/1",
+"proc": "3/8",
+"fee": 35000,
+"url": "https://admission.josai.ac.jp/examination/schedule/bnittei2027/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 C日程",
+"apply": "2/15〜3/1",
+"exam": "3/9",
+"result": "3/13",
+"proc": "3/18",
+"fee": 35000,
+"url": "https://admission.josai.ac.jp/examination/schedule/cnittei2027/"
+}
+],
+"note": "大学公式の日程ページ（2027年度）で確認。出願書類は郵送で締切日消印有効、Web出願登録は12/1から。B日程は経済・総合政策・経営・理・薬学部、C日程は経済・総合政策・経営・理（化学・生命科学科）・薬学部。経済・総合政策・経営の3学部は統一入試で最大3学部まで志願でき、検定料は一律35,000円。一般選抜A日程と共通テスト利用選抜（Ⅰ期前期・Ⅰ期後期・Ⅱ期・Ⅲ期）は未確認（次回）"
+}
 },
 "埼玉医科大学": {
 "faculties": [
@@ -214213,7 +214437,8 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-12"
 },
 "departments": [
 {
@@ -214294,8 +214519,49 @@ null
 "https://search.keinet.ne.jp/2150/outline/expense",
 "https://search.keinet.ne.jp/2150/outline/licential",
 "https://search.keinet.ne.jp/2150/outline/admission_employment",
-"https://search.keinet.ne.jp/2150/general/exam_result"
-]
+"https://search.keinet.ne.jp/2150/general/exam_result",
+"https://adm.saitama-med.ac.jp/admission/general/",
+"https://adm.saitama-med.ac.jp/admission/common/",
+"https://manabi.benesse.ne.jp/daigaku/school/3148/nyushi/index.html"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "医学部 一般選抜 前期",
+"apply": "12/14〜1/20",
+"exam": "2/4（1次）・2/14（2次）",
+"result": "2/18",
+"proc": "2/25"
+},
+{
+"kubun": "一般",
+"name": "医学部 一般選抜 後期",
+"apply": "2/1〜2/17",
+"exam": "2/28（1次）・3/7（2次）",
+"result": "3/11",
+"proc": "3/17"
+},
+{
+"kubun": "共テ利用",
+"name": "医学部 大学入学共通テスト利用選抜",
+"apply": "12/14〜1/15",
+"exam": "1/16・1/17（共テ）・3/7（2次）",
+"result": "3/11",
+"proc": "3/17"
+},
+{
+"kubun": "一般",
+"name": "保健医療学部 一般選抜（看護・臨床検査・臨床工・理学療法学科）",
+"apply": "1/4〜1/25",
+"exam": "2/1",
+"result": "2/4",
+"proc": "2/15"
+}
+],
+"note": "医学部は大学公式（2027年度）で確認。1次合格発表は前期2/10・後期3/4・共テ利用3/4、出願書類は前期1/21・後期2/18・共テ利用1/16郵送必着。保健医療学部はベネッセ マナビジョン（2027年度入試）。保健医療学部の共テ利用の日程と検定料は未確認"
+}
 },
 "埼玉学園大学": {
 "faculties": [
