@@ -1,0 +1,485 @@
+[
+ {
+  "name": "石巻専修大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程（3科目型・特待生選抜3科目型）",
+      "apply": "1/4〜1/15",
+      "exam": "1/29",
+      "result": "2/10",
+      "proc": "2/19",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程（1科目型・探究型）",
+      "apply": "2/1〜2/18",
+      "exam": "2/26",
+      "result": "3/5",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 C日程（1科目型）",
+      "apply": "2/18〜3/3",
+      "exam": "3/11",
+      "result": "3/17",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 A日程（高得点3科目）",
+      "apply": "1/4〜1/15",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/10",
+      "proc": "2/19",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 B日程（高得点2科目）",
+      "apply": "2/1〜2/9",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/19",
+      "proc": "3/1",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 C日程（高得点1科目）",
+      "apply": "2/10〜2/25",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/5",
+      "proc": "3/11",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 D日程（高得点1科目）",
+      "apply": "2/22〜3/3",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/17",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 探究型（特待生探究型を含む）",
+      "apply": "9/1〜9/24",
+      "exam": "10/3",
+      "result": "11/1",
+      "proc": "11/9",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 エントリー・公務員志望（1回目）",
+      "apply": "9/1〜10/1",
+      "exam": "10/17",
+      "result": "11/1",
+      "proc": "11/9",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 エントリー・公務員志望（2回目）",
+      "apply": "11/16〜12/1",
+      "exam": "12/12",
+      "result": "12/18",
+      "proc": "1/7",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 エントリー・公務員志望（3回目）",
+      "apply": "2/18〜3/3",
+      "exam": "3/11",
+      "result": "3/17",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 公募推薦",
+      "apply": "11/16〜12/1",
+      "exam": "12/12",
+      "result": "12/18",
+      "proc": "1/7",
+      "fee": null
+     }
+    ],
+    "note": "ベネッセ マナビジョン・テレメール（2027年度入試）。理工・経営・人間の全学部で同じ日程（ネット出願）。検定料は未確認"
+   },
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "理工学部 生物科学科",
+      "admission": 230000,
+      "tuition": 968000,
+      "facility": 260000,
+      "practical": 93000,
+      "other": 30000,
+      "first_year": 1581000,
+      "four_year": null
+     },
+     {
+      "f": "理工学部 創造工学科",
+      "admission": 230000,
+      "tuition": 968000,
+      "facility": 260000,
+      "practical": 93000,
+      "other": 30000,
+      "first_year": 1581000,
+      "four_year": null
+     },
+     {
+      "f": "経営学部 経営学科",
+      "admission": 230000,
+      "tuition": 700000,
+      "facility": 210000,
+      "practical": 33000,
+      "other": 30000,
+      "first_year": 1203000,
+      "four_year": null
+     },
+     {
+      "f": "人間学部 人間教育学科",
+      "admission": 230000,
+      "tuition": 710000,
+      "facility": 260000,
+      "practical": 73000,
+      "other": 30000,
+      "first_year": 1303000,
+      "four_year": null
+     },
+     {
+      "f": "人間学部 人間文化学科",
+      "admission": 230000,
+      "tuition": 700000,
+      "facility": 260000,
+      "practical": 53000,
+      "other": 30000,
+      "first_year": 1273000,
+      "four_year": null
+     }
+    ],
+    "note": "旺文社パスナビ（2027年度・2026年9月調査）。実習費の欄は教育充実費。4分割納入可"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3066/nyushi/gokaku-happyo/",
+    "https://telemail.jp/shingaku/university/10003854/examination/general",
+    "https://passnavi.obunsha.co.jp/univ/1740/expense/"
+   ]
+  }
+ },
+ {
+  "name": "藤女子大学",
+  "info": {
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "文学部（英語文化学科・日本語・日本文学科・文化総合学科）",
+      "admission": 260000,
+      "tuition": 810000,
+      "facility": 220000,
+      "practical": 0,
+      "other": 11000,
+      "first_year": 1301000,
+      "four_year": null
+     },
+     {
+      "f": "ウェルビーイング学部（子ども教育学科）",
+      "admission": 260000,
+      "tuition": 860000,
+      "facility": 250000,
+      "practical": 0,
+      "other": 11000,
+      "first_year": 1381000,
+      "four_year": null
+     }
+    ],
+    "note": "旺文社パスナビ（2027年度・2026年9月調査）。入学時最小限納入金額は文学部786,000円・子ども教育学科826,000円"
+   },
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/1570/expense/"
+   ]
+  }
+ },
+ {
+  "name": "福島学院大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "福祉学部（福祉心理学科・こども学科）",
+      "admission": 150000,
+      "tuition": 800000,
+      "facility": 280000,
+      "practical": null,
+      "other": null,
+      "first_year": 1230000,
+      "four_year": null
+     },
+     {
+      "f": "マネジメント学部（地域マネジメント学科）",
+      "admission": 150000,
+      "tuition": 800000,
+      "facility": 280000,
+      "practical": null,
+      "other": null,
+      "first_year": 1230000,
+      "four_year": null
+     }
+    ],
+    "note": "ベネッセ マナビジョン（2026年度入学者）。施設費の欄は教育充実費。実習費・その他は記載なし。2027年度は未確認"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3102/gakuhi/"
+   ]
+  }
+ },
+ {
+  "name": "淑徳大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "apply": "1/8〜1/21",
+      "exam": "2/2・2/3",
+      "result": "2/12",
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程",
+      "apply": "1/28〜2/16",
+      "exam": "2/25",
+      "result": "3/3",
+      "proc": "3/10",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 C日程",
+      "apply": "2/18〜3/4",
+      "exam": "3/11",
+      "result": "3/18",
+      "proc": "3/24",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 1期",
+      "apply": "1/8〜1/26",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 2期",
+      "apply": "1/28〜2/16",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/3",
+      "proc": "3/10",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 3期",
+      "apply": "2/18〜3/4",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/18",
+      "proc": "3/24",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（1回目）",
+      "apply": "11/2〜11/12",
+      "exam": "11/22（看護・栄養学科は11/21）",
+      "result": "12/1",
+      "proc": "12/17",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（2回目）",
+      "apply": "11/16〜12/3",
+      "exam": "12/13",
+      "result": "12/18",
+      "proc": "1/8",
+      "fee": null
+     }
+    ],
+    "note": "ベネッセ マナビジョン（2027年度入試）。7学部ともおおむね同じ日程。総合型選抜は8/1〜3/4の5回の出願期間があり、看護学科・栄養学科は日程・回数が異なる。推薦の回と日付の対応はページの並び順による。検定料は未確認"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3196/nyushi/gokaku-happyo/"
+   ]
+  }
+ },
+ {
+  "name": "浦和大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅰ期",
+      "apply": "1/4〜1/22",
+      "exam": "2/1",
+      "result": "2/9",
+      "proc": "2/22",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅱ期",
+      "apply": "2/8〜3/1",
+      "exam": "3/10",
+      "result": "3/16",
+      "proc": "3/25",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 Ⅰ期",
+      "apply": "1/4〜1/29",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/9",
+      "proc": "2/22",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 Ⅱ期",
+      "apply": "2/8〜3/5",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/16",
+      "proc": "3/25",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募推薦・専高総合学科推薦）1回目",
+      "apply": "11/2〜11/6",
+      "exam": "11/14",
+      "result": "12/1",
+      "proc": "12/11",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募推薦・専高総合学科推薦）2回目",
+      "apply": "11/24〜12/7",
+      "exam": "12/12",
+      "result": "12/17",
+      "proc": "1/4",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募推薦・専高総合学科推薦）3回目",
+      "apply": "2/5〜2/17",
+      "exam": "2/22",
+      "result": "2/27",
+      "proc": "3/8",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（面接型・体験授業型）",
+      "apply": "9/1〜3/5（6回）",
+      "exam": "9/12・9/26・10/17・12/12・2/4・3/10",
+      "result": "11/2・12/17・2/12・3/16",
+      "proc": "11/13・1/4・2/25・3/25",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（適性診断型）",
+      "apply": "9/1〜12/7（4回）",
+      "exam": "9/12・9/26・10/17・12/12",
+      "result": "11/2・12/17",
+      "proc": "11/13・1/4",
+      "fee": null
+     }
+    ],
+    "note": "ベネッセ マナビジョン（2027年度入試）。社会学部（総合福祉・現代社会）とこども学部（こども・学校教育）の全学科で同じ日程（ネット出願）。検定料は未確認"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3168/nyushi/index.html"
+   ]
+  }
+ },
+ {
+  "name": "武蔵大学",
+  "story": {
+   "summary": "武蔵大学は経済・人文・社会・国際教養の文系4学部が江古田の1つのキャンパスに集まり、1年次から全学生が少人数の授業を受ける「ゼミの武蔵」を掲げる（ゼミは平均13人）。国際教養学部では、ロンドン大学とLSEが内容を管理する授業を学内で英語で受け、留学せずに武蔵大学とロンドン大学の両方の学士号をめざすパラレル・ディグリー・プログラムがある。",
+   "only": [
+    {
+     "t": "1年次から全学生が少人数形式の授業を受け、ゼミは1ゼミ平均13人・約400のテーマから選べる（経済学部は4年間ゼミ必修）",
+     "src": "https://www.univpress.co.jp/wp-content/themes/cnn3.0/pubdata/2027/kimidono/0803.pdf"
+    },
+    {
+     "t": "国際教養学部のパラレル・ディグリー・プログラムでは、ロンドン大学とLSEが内容を管理する授業を武蔵大学の教員が学内で行い、留学せずに両大学の学士号をめざせる",
+     "src": "https://www.musashi.ac.jp/faculty/liberalarts/em/"
+    },
+    {
+     "t": "全学部が江古田キャンパスで学ぶワンキャンパスで、大学独自の奨学金はすべて返還不要の給付型",
+     "src": "https://www.univpress.co.jp/wp-content/themes/cnn3.0/pubdata/2027/kimidono/0803.pdf"
+    }
+   ],
+   "vs": [
+    {
+     "u": "成蹊大学",
+     "t": "成蹊大学は理工学部を含む6学部が吉祥寺のワンキャンパスで学ぶが、武蔵大学は文系4学部の小規模なワンキャンパスで、国際教養学部ではロンドン大学の学位を並行してめざせる",
+     "src": "https://passnavi.obunsha.co.jp/univ/2540/top/"
+    }
+   ]
+  }
+ },
+ {
+  "name": "日本大学",
+  "story": {
+   "summary": "日本大学は16学部86学科に通信教育部・短期大学部を置く総合大学で、医・歯・薬・芸術・生物資源科学から危機管理・スポーツ科学まで、学部の所在地は首都圏のほか静岡県三島市から福島県郡山市まで広がる。一般選抜ではA方式・AN方式とN方式で同じ学部・学科に出願するとN方式の検定料が0円になるなど、1つの大学の中で学部・方式を組み合わせて受験しやすい。",
+   "only": [
+    {
+     "t": "16学部86学科に加え通信教育部・短期大学部・大学院を置き、学部の所在地は関東のほか静岡県三島市から福島県郡山市まで",
+     "src": "https://passnavi.obunsha.co.jp/univ/2930/top/"
+    },
+    {
+     "t": "一般選抜でA方式・AN方式とN方式を同じ学部・学科に同時出願すると、N方式の入学検定料が第1期・第2期とも0円",
+     "src": "https://passnavi.obunsha.co.jp/univ/2930/top/"
+    },
+    {
+     "t": "33か国1地域の131大学・教育機関と交流協定を結び、クラブ・サークルは800を超える",
+     "src": "https://passnavi.obunsha.co.jp/univ/2930/top/"
+    }
+   ],
+   "vs": [
+    {
+     "u": "東洋大学",
+     "t": "東洋大学は文・経済・理工・生命科学など15学部を白山・川越などに置くが、日本大学は医学部・歯学部・松戸歯学部・薬学部などの医療系や芸術学部も含む16学部を持つ",
+     "src": "https://search.keinet.ne.jp/2265/outline/department"
+    }
+   ]
+  }
+ }
+]
