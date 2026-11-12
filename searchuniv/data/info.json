@@ -199520,8 +199520,8 @@ null
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
 "subjects": "2026-11-09",
-"schedule": "2026-11-09",
-"money": "2026-11-09",
+"schedule": "2026-11-12",
+"money": "2026-11-12",
 "scholar": "2026-11-09",
 "oc": "2026-11-09",
 "access": "2026-11-09",
@@ -199588,6 +199588,25 @@ null
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "総合型",
+"name": "総合型選抜（一般・地域枠）",
+"apply": "10/1〜10/23",
+"exam": "10/31",
+"result": "11/9",
+"proc": "11/27",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（一般・専門総合）",
+"apply": "11/2〜11/13",
+"exam": "11/21",
+"result": "12/2",
+"proc": "12/18",
+"fee": null,
+"note": "専願"
+},
+{
 "kubun": "一般",
 "name": "一般選抜 A日程",
 "apply": "1/11〜1/29",
@@ -199623,22 +199642,24 @@ null
 "proc": "3/24",
 "fee": null
 }
-]
+],
+"note": "一般・共テ利用の日程はパスナビとマナビジョン（2027年度）で一致。総合型・推薦はマナビジョン（2027年度）、推薦の出願・試験・発表はパスナビとも一致。検定料は公式・パスナビ・マナビジョンで見つからず空欄"
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
 "f": "商学部 商学科",
 "admission": 180000,
 "tuition": 740000,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": null,
-"four_year": null
+"facility": 240000,
+"practical": 50000,
+"other": 62000,
+"first_year": 1272000,
+"four_year": 4383000
 }
-]
+],
+"note": "パスナビ（2027年度、2026年9月時点）と大学公式「学費・奨学金」の表が一致。実習費は教育充実費、諸会費は委託徴収金（協学会費・学友会入会費・学友会費・同窓会費）。2〜4年次は各1,037,000円で、4年間合計は公式の表から計算。教科書代（平均3万円/年）とノートパソコンは別"
 },
 "scholar": {
 "year": null,
@@ -199701,7 +199722,12 @@ null
 "https://passnavi.obunsha.co.jp/univ/1550/department/",
 "https://manabi.benesse.ne.jp/daigaku/school/3006/nyushi/",
 "https://manabi.benesse.ne.jp/daigaku/school/3006/nyushi/hoshiki/ippan/",
-"https://manabi.benesse.ne.jp/daigaku/school/3006/syusyoku/"
+"https://manabi.benesse.ne.jp/daigaku/school/3006/syusyoku/",
+"https://passnavi.obunsha.co.jp/univ/1550/expense/?facultyID=005",
+"https://passnavi.obunsha.co.jp/univ/1550/schedule/",
+"https://passnavi.obunsha.co.jp/univ/1550/suisen/",
+"https://manabi.benesse.ne.jp/daigaku/school/3006/nyushi/hoshiki/sougou/",
+"https://manabi.benesse.ne.jp/daigaku/school/3006/nyushi/hoshiki/gakkou-suisen/"
 ]
 },
 "八戸工業大学": {
@@ -199717,8 +199743,8 @@ null
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
 "subjects": "2026-11-09",
-"schedule": "2026-11-09",
-"money": "2026-11-09",
+"schedule": "2026-11-12",
+"money": "2026-11-12",
 "scholar": "2026-11-09",
 "eng": "2026-11-09",
 "oc": "2026-11-09",
@@ -199903,9 +199929,9 @@ null
 "kubun": "一般",
 "name": "一般選抜試験 後期",
 "apply": "2/10〜2/19（必着）",
-"exam": null,
+"exam": "3/2",
 "result": "3/10",
-"proc": null,
+"proc": "3/18（必着）",
 "fee": 30000
 },
 {
@@ -199914,7 +199940,7 @@ null
 "apply": "1/5〜1/14（必着）",
 "exam": "1/16・1/17（共テ）",
 "result": "2/12",
-"proc": "一次 3/5",
+"proc": "一次 3/5、最終 3/12",
 "fee": 15000
 },
 {
@@ -199922,8 +199948,8 @@ null
 "name": "大学入学共通テスト利用選抜試験 Ⅱ期",
 "apply": "1/29〜2/9（必着）",
 "exam": "1/16・1/17（共テ）",
-"result": null,
-"proc": null,
+"result": "2/19",
+"proc": "一次 3/5、最終 3/12",
 "fee": 15000
 },
 {
@@ -199931,8 +199957,8 @@ null
 "name": "大学入学共通テスト利用選抜試験 Ⅲ期",
 "apply": "2/24〜3/9（必着）",
 "exam": "1/16・1/17（共テ）",
-"result": null,
-"proc": null,
+"result": "3/12",
+"proc": "3/18（必着）",
 "fee": 15000
 },
 {
@@ -199940,11 +199966,12 @@ null
 "name": "大学入学共通テスト利用選抜試験 Ⅳ期",
 "apply": "3/23〜3/24（必着）",
 "exam": "1/16・1/17（共テ）",
-"result": null,
-"proc": null,
+"result": "3/26",
+"proc": "3/30（必着）",
 "fee": 15000
 }
-]
+],
+"note": "大学公式「入試日程【2027年度（令和9年度）】」と「入学検定料・学納金」で確認（テレメールの一般・共テ利用日程とも一致）。3学部とも同じ日程。2027年4月開設予定の3学部は設置認可後に実施"
 },
 "money": {
 "year": "2027年度",
@@ -199957,9 +199984,10 @@ null
 "practical": 52000,
 "other": 23000,
 "first_year": 1605000,
-"four_year": null
+"four_year": 5717000
 }
-]
+],
+"note": "大学公式「入学検定料・学納金」（2027年度入学生）。諸会費は保護者後援会費15,000円＋学友会費8,000円。2・3年次は各1,364,000円（実験実習費61,000円）、4年次は同窓会費を含め1,384,000円で、4年間合計は公式の表から計算。教科書代・実習用具代・ノートパソコン（約20万円）は別"
 },
 "scholar": {
 "year": "2027年度",
@@ -200032,7 +200060,8 @@ null
 "https://www.mext.go.jp/content/20260930-kyoikushokuin-000052037_4-1.pdf",
 "https://passnavi.obunsha.co.jp/univ/1690/top/",
 "https://passnavi.obunsha.co.jp/univ/1690/difficulty/?facultyID=015",
-"https://manabi.benesse.ne.jp/daigaku/school/3044/gakuhi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3044/gakuhi/",
+"https://telemail.jp/shingaku/university/10000061/examination/general"
 ]
 },
 "八戸学院大学": {
@@ -200046,8 +200075,8 @@ null
 "departments": "2026-11-09",
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-09",
-"money": "2026-11-09",
+"schedule": "2026-11-12",
+"money": "2026-11-12",
 "access": "2026-11-09",
 "careers": "2026-11-09",
 "_via": "2026-11-09"
@@ -200122,24 +200151,61 @@ null
 "year": "2027年度入試",
 "rows": [
 {
-"kubun": "共テ利用",
-"name": "大学入学共通テスト利用選抜",
-"apply": null,
-"exam": "1/16・1/17（大学入学共通テスト）",
-"result": null,
-"proc": null,
+"kubun": "一般",
+"name": "一般選抜 Ⅰ期",
+"apply": "1/13〜1/25",
+"exam": "2/4",
+"result": "2/12",
+"proc": "2/25",
 "fee": null
 },
 {
 "kubun": "一般",
-"name": "一般選抜等（本学実施分）",
-"apply": null,
-"exam": "11/21、2/4、2/18、3/3、3/4、3/10等（要項確認）",
-"result": null,
-"proc": null,
+"name": "一般選抜 Ⅱ期",
+"apply": "2/15〜2/24",
+"exam": "3/4",
+"result": "3/16",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 A日程",
+"apply": "1/13〜1/25",
+"exam": "1/16・1/17（個別試験なし）",
+"result": "2/12",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 B日程",
+"apply": "1/28〜2/8",
+"exam": "1/16・1/17（個別試験なし）",
+"result": "3/3",
+"proc": "3/10",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 C日程",
+"apply": "2/15〜2/24",
+"exam": "1/16・1/17（個別試験なし）",
+"result": "3/16",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 D日程",
+"apply": "3/8〜3/12",
+"exam": "1/16・1/17（個別試験なし）",
+"result": "3/18",
+"proc": "3/25",
 "fee": null
 }
-]
+],
+"note": "パスナビ（8月末までの判明分）。3学部とも同じ日程。検定料は見つからず空欄。総合型・推薦は未記入"
 },
 "money": {
 "year": "2027年度",
@@ -200147,34 +200213,35 @@ null
 {
 "f": "地域共創学部 地域共創学科",
 "admission": 270000,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": null,
-"four_year": null
+"tuition": 670000,
+"facility": 336000,
+"practical": 20000,
+"other": 90000,
+"first_year": 1386000,
+"four_year": 4704000
 },
 {
 "f": "人間健康科学部 人間健康科学科",
 "admission": 270000,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": null,
-"four_year": null
+"tuition": 670000,
+"facility": 346000,
+"practical": 20000,
+"other": 90000,
+"first_year": 1396000,
+"four_year": 4744000
 },
 {
 "f": "看護学部 看護学科",
 "admission": 270000,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": null,
-"four_year": null
+"tuition": 800000,
+"facility": 346000,
+"practical": 328000,
+"other": 90000,
+"first_year": 1834000,
+"four_year": 6292000
 }
-]
+],
+"note": "大学公式「学納金」（2027年度）。施設費の欄は教育費＋施設費（地域共創30万＋3.6万、他31万＋3.6万）。実習費はフィールドワーク活動費2万（1年次のみ）、看護は実習教育費24万と教材諸経費6.8万も含む。諸会費9万は毎年。4年間合計は入学金・1年次・2〜4年次の年額・卒業諸費3万を公式の表から計算"
 },
 "access": "美保野キャンパス：JR本八戸駅から市営バス「八戸学院大学」下車（青森県八戸市美保野13-98）",
 "careers": "地域共創学部では主に公務員（行政事務、警察、消防）や金融機関などを目指せる。",
@@ -200188,7 +200255,8 @@ null
 "https://www.hachinohe-u.ac.jp/faculty/r-manage/point/",
 "https://search.keinet.ne.jp/2029/outline/campus",
 "https://passnavi.obunsha.co.jp/univ/1680/difficulty/",
-"https://manabi.benesse.ne.jp/daigaku/school/3043/hensachi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3043/hensachi/",
+"https://passnavi.obunsha.co.jp/univ/1680/schedule/"
 ]
 },
 "仙台青葉学院大学": {
@@ -200203,7 +200271,7 @@ null
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
 "subjects": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-12",
 "money": "2026-11-09",
 "eng": "2026-11-09",
 "access": "2026-11-09",
@@ -200348,8 +200416,18 @@ null
 "result": "2/26",
 "proc": "一次 3/5、二次 3/19",
 "fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 Ⅲ期",
+"apply": "2/25〜3/2（必着）",
+"exam": "1/16・1/17（個別試験なし）",
+"result": "3/12",
+"proc": "3/19",
+"fee": null
 }
-]
+],
+"note": "一般Ⅰ・Ⅱ期と共テ利用Ⅰ〜Ⅲ期はパスナビ（看護学部）とテレメール（2027年度、2026年7月15日時点）で一致し、看護学部・リハビリテーション学部とも同じ日程。二次手続はテレメール・パスナビに記載なし。検定料は見つからず空欄"
 },
 "money": {
 "year": "2026年度",
@@ -200398,7 +200476,9 @@ null
 "https://passnavi.obunsha.co.jp/univ/1757/top/",
 "https://passnavi.obunsha.co.jp/univ/1757/difficulty/",
 "https://passnavi.obunsha.co.jp/univ/1757/schedule/",
-"https://manabi.benesse.ne.jp/daigaku/school/3077/hensachi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3077/hensachi/",
+"https://passnavi.obunsha.co.jp/univ/1757/schedule/?facultyID=005",
+"https://telemail.jp/shingaku/university/10103924/examination/general"
 ]
 },
 "仙台白百合女子大学": {
@@ -215914,7 +215994,8 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-12"
 },
 "departments": [
 {
@@ -216125,8 +216206,78 @@ null
 "https://search.keinet.ne.jp/2202/outline/expense",
 "https://search.keinet.ne.jp/2202/outline/licential",
 "https://search.keinet.ne.jp/2202/outline/admission_employment",
-"https://search.keinet.ne.jp/2202/general/exam_result"
-]
+"https://search.keinet.ne.jp/2202/general/exam_result",
+"https://www.otsuma.ac.jp/wp-content/uploads/2026/10/nyushi2027_guideline.pdf",
+"https://search.keinet.ne.jp/2202/general/schedule"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜（基礎学力型）",
+"apply": "10/15〜11/6（必着）",
+"exam": "11/15",
+"result": "12/1",
+"proc": "12/7",
+"fee": 35000,
+"url": "https://www.otsuma.ac.jp/wp-content/uploads/2026/10/nyushi2027_guideline.pdf"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制・同窓生子女推薦）",
+"apply": "11/1〜11/6（必着）",
+"exam": "11/21・11/22（学部により異なる）",
+"result": "12/1",
+"proc": "12/7",
+"fee": 35000,
+"url": "https://www.otsuma.ac.jp/wp-content/uploads/2026/10/nyushi2027_guideline.pdf"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 A方式 Ⅰ期",
+"apply": "1/6〜1/20（消印有効）",
+"exam": "2/1・2/2（学科により選択）",
+"result": "2/6",
+"proc": "2/15",
+"fee": 35000,
+"note": "家政学部の被服・食物・児童系は2/2のみ（Kei-Net）",
+"url": "https://www.otsuma.ac.jp/wp-content/uploads/2026/10/nyushi2027_guideline.pdf"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 A方式 Ⅱ期",
+"apply": "1/29〜2/18（消印有効）",
+"exam": "3/1",
+"result": "3/5",
+"proc": "3/12",
+"fee": 35000,
+"url": "https://www.otsuma.ac.jp/wp-content/uploads/2026/10/nyushi2027_guideline.pdf"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 B方式 Ⅰ期（2科目型・3科目型）",
+"apply": "1/6〜1/22（消印有効）",
+"exam": "1/16・1/17（個別試験なし）",
+"result": "2/7",
+"proc": "2/15",
+"fee": 15000,
+"url": "https://www.otsuma.ac.jp/wp-content/uploads/2026/10/nyushi2027_guideline.pdf"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 B方式 Ⅱ期（2科目型・3科目型）",
+"apply": "1/29〜2/20（消印有効）",
+"exam": "1/16・1/17（個別試験なし）",
+"result": "3/5",
+"proc": "3/12",
+"fee": 15000,
+"note": "学部により2科目型・3科目型の一方のみ",
+"url": "https://www.otsuma.ac.jp/wp-content/uploads/2026/10/nyushi2027_guideline.pdf"
+}
+],
+"note": "大学公式「令和9（2027）年度 学生募集要項」で確認し、Kei-Netの一般選抜日程（締切・試験・発表・手続）と一致。併願割引あり"
+}
 },
 "大東文化大学": {
 "faculties": [
@@ -216149,7 +216300,8 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-12"
 },
 "departments": [
 {
@@ -216390,8 +216542,81 @@ null
 "https://search.keinet.ne.jp/2235/outline/expense",
 "https://search.keinet.ne.jp/2235/outline/licential",
 "https://search.keinet.ne.jp/2235/outline/admission_employment",
-"https://search.keinet.ne.jp/2235/general/exam_result"
-]
+"https://search.keinet.ne.jp/2235/general/exam_result",
+"https://passnavi.obunsha.co.jp/univ/2620/schedule/?facultyID=005",
+"https://www.daito.ac.jp/cross/admissions/unified/latter/"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 全学部統一（前期）",
+"apply": "12/21〜1/19",
+"exam": "2/1",
+"result": "2/10",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 3教科",
+"apply": "12/21〜1/21",
+"exam": "2/5〜2/8（日程選択、学科により異なる）",
+"result": "2/15",
+"proc": "2/25",
+"fee": null,
+"note": "文学部の例。書道学科は2/7・2/8なし"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 全学部統一（後期）",
+"apply": "2/2〜2/18",
+"exam": "2/27",
+"result": "3/4",
+"proc": "3/11",
+"fee": null,
+"note": "出願書類は2/19必着（公式）"
+},
+{
+"kubun": "一般",
+"name": "桐門の翼奨学金",
+"apply": "12/21〜1/15",
+"exam": "1/31",
+"result": "2/10",
+"proc": "2/19",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用 前期",
+"apply": "12/21〜1/15",
+"exam": "1/16・1/17（個別試験なし）",
+"result": "2/10",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用 中期",
+"apply": "1/17〜1/27",
+"exam": "1/16・1/17（個別試験なし）",
+"result": "2/15",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用 後期",
+"apply": "2/2〜3/9",
+"exam": "1/16・1/17（個別試験なし）",
+"result": "3/13",
+"proc": "3/18",
+"fee": null
+}
+],
+"note": "パスナビ（文学部、8月末までの判明分）。全学部統一（後期）の出願・試験・発表は大学公式と一致。学部により異なる（文学部の例）。検定料は未確認"
+}
 },
 "大正大学": {
 "faculties": [
