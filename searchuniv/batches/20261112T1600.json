@@ -1,0 +1,696 @@
+[
+ {
+  "name": "札幌学院大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A日程・スカラシップA日程）",
+      "apply": "1/7〜1/20",
+      "exam": "2/3・2/4",
+      "result": "2/18",
+      "proc": "3/8",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（B日程・スカラシップB日程）",
+      "apply": "2/1〜2/24",
+      "exam": "3/8",
+      "result": "3/16",
+      "proc": "3/25",
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（A日程・スカラシップA日程）",
+      "apply": "1/7〜1/28",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/18",
+      "proc": "3/8",
+      "fee": 10000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（B日程・スカラシップB日程）",
+      "apply": "2/1〜2/24",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/16",
+      "proc": "3/25",
+      "fee": 10000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（C日程・スカラシップC日程）",
+      "apply": "3/1〜3/17",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/25",
+      "proc": "3/29",
+      "fee": 10000
+     }
+    ],
+    "note": "ベネッセ マナビジョン（2027年度入試）で全学部共通の日程を確認（既存の日付と一致）。スカラシップ日程は同日に実施。検定料は既存の値（未確認）"
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "心理学部（臨床心理学科）",
+      "admission": 120000,
+      "tuition": 750000,
+      "facility": 270000,
+      "practical": null,
+      "other": 30000,
+      "first_year": 1170000,
+      "four_year": null
+     },
+     {
+      "f": "人文学部",
+      "admission": 120000,
+      "tuition": 750000,
+      "facility": 270000,
+      "practical": null,
+      "other": 30000,
+      "first_year": 1170000,
+      "four_year": null
+     },
+     {
+      "f": "法学部（法律学科）",
+      "admission": 120000,
+      "tuition": 750000,
+      "facility": 270000,
+      "practical": null,
+      "other": 33000,
+      "first_year": 1173000,
+      "four_year": null
+     },
+     {
+      "f": "経済経営学部",
+      "admission": 120000,
+      "tuition": 750000,
+      "facility": 270000,
+      "practical": null,
+      "other": 33000,
+      "first_year": 1173000,
+      "four_year": null
+     }
+    ],
+    "note": "河合塾 Kei-Net（2026年度入学者用）。外部AI由来の値のうち心理・人文学部の諸会費（33,000→30,000円）と初年度合計を訂正、年度表記を2027→2026年度に訂正。実習費は記載なし"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3003/nyushi/index.html",
+    "https://search.keinet.ne.jp/2003/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "東北医科薬科大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "医学部 一般選抜（一般枠・修学資金枠・東北5県定着枠）",
+      "apply": "12/24〜1/15",
+      "exam": "＜1次＞2/4・＜2次＞2/20・2/21（日指定）",
+      "result": "＜1次＞2/12・＜2次＞2/25",
+      "proc": "3/5",
+      "fee": 60000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "医学部 共通テスト利用選抜（一般枠）",
+      "apply": "1/5〜1/22",
+      "exam": "＜1次＞共テ・＜2次＞3/3",
+      "result": "＜1次＞2/12・＜2次＞3/10",
+      "proc": "3/18",
+      "fee": 17000
+     },
+     {
+      "kubun": "一般",
+      "name": "薬学部 一般選抜（前期）",
+      "apply": "12/24〜1/15",
+      "exam": "2/4",
+      "result": "2/12",
+      "proc": "2/22",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "薬学部 一般選抜（後期）",
+      "apply": "2/8〜2/19",
+      "exam": "3/6",
+      "result": "3/10",
+      "proc": "3/18",
+      "fee": 35000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "薬学部 共通テスト利用選抜（前期）",
+      "apply": "12/24〜1/15",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "2/22",
+      "fee": 15000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "薬学部 共通テスト利用選抜（後期）",
+      "apply": "2/8〜2/19",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/10",
+      "proc": "3/18",
+      "fee": 15000
+     }
+    ],
+    "note": "ベネッセ マナビジョン（2027年度入試）とテレメール（2027年度入学、医学部の1次・2次）で確認（既存の日付と一致）。薬学部は薬学科・生命薬科学科で同じ日程。検定料は既存の値（未確認）"
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "医学部（医学科・6年制）",
+      "admission": 1000000,
+      "tuition": 3000000,
+      "facility": 3000000,
+      "practical": null,
+      "other": null,
+      "first_year": 7000000,
+      "four_year": null,
+      "note": "6年制。保護者会費・学生会費・同窓会終身会費（計2.1万円、2025年度実績）と保険料・教科書代が別途"
+     },
+     {
+      "f": "薬学部（薬学科・6年制）",
+      "admission": 400000,
+      "tuition": 1400000,
+      "facility": 600000,
+      "practical": null,
+      "other": null,
+      "first_year": 2400000,
+      "four_year": null,
+      "note": "6年制。諸会費・保険料・教科書代が別途"
+     },
+     {
+      "f": "薬学部（生命薬科学科・4年制）",
+      "admission": 400000,
+      "tuition": 1200000,
+      "facility": 430000,
+      "practical": null,
+      "other": null,
+      "first_year": 2030000,
+      "four_year": null,
+      "note": "諸会費・保険料・教科書代が別途"
+     }
+    ],
+    "note": "河合塾 Kei-Net（2026年度入学者用）。外部AI由来の医学部の内訳（施設費120万＋その他180万）を、施設/教育充実費等300万円に訂正。年度表記を2027→2026年度に訂正。実習費・諸会費は記載なし"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3072/nyushi/",
+    "https://telemail.jp/shingaku/university/10000183/examination/general",
+    "https://search.keinet.ne.jp/2059/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "東北学院大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期日程A日程）",
+      "apply": "1/5〜1/13",
+      "exam": "2/1",
+      "result": "2/12",
+      "proc": "2/22",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期日程B日程）",
+      "apply": "1/5〜1/13",
+      "exam": "2/2",
+      "result": "2/12",
+      "proc": "2/22",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（後期日程）",
+      "apply": "2/10〜2/15",
+      "exam": "3/4",
+      "result": "3/13",
+      "proc": "3/23",
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（前期）",
+      "apply": "1/5〜1/13",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "2/22",
+      "fee": 15000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（後期）",
+      "apply": "2/10〜2/15",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/13",
+      "proc": "3/23",
+      "fee": 15000
+     }
+    ],
+    "note": "ベネッセ マナビジョン（2027年度入試）で全学部共通の日程を確認。大学公式「2027年度 入学者選抜概要」の出願期間とも一致。外部AI由来の出願期間（前期1/6〜、後期2/1〜）を訂正。検定料は既存の値（未確認）"
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "文学部（英文・総合人文・歴史学科）",
+      "admission": 270000,
+      "tuition": 800000,
+      "facility": 230000,
+      "practical": null,
+      "other": 29500,
+      "first_year": 1329500,
+      "four_year": null
+     },
+     {
+      "f": "文学部（教育学科）",
+      "admission": 270000,
+      "tuition": 894000,
+      "facility": 270000,
+      "practical": null,
+      "other": 29500,
+      "first_year": 1463500,
+      "four_year": null
+     },
+     {
+      "f": "国際学部（国際教養学科）",
+      "admission": 270000,
+      "tuition": 894000,
+      "facility": 270000,
+      "practical": null,
+      "other": 29500,
+      "first_year": 1463500,
+      "four_year": null
+     },
+     {
+      "f": "地域総合学部",
+      "admission": 270000,
+      "tuition": 894000,
+      "facility": 270000,
+      "practical": null,
+      "other": 29500,
+      "first_year": 1463500,
+      "four_year": null
+     },
+     {
+      "f": "法学部（法律学科）",
+      "admission": 270000,
+      "tuition": 800000,
+      "facility": 230000,
+      "practical": null,
+      "other": 29500,
+      "first_year": 1329500,
+      "four_year": null
+     },
+     {
+      "f": "経済学部（経済学科）",
+      "admission": 270000,
+      "tuition": 800000,
+      "facility": 230000,
+      "practical": null,
+      "other": 29500,
+      "first_year": 1329500,
+      "four_year": null
+     },
+     {
+      "f": "経営学部（経営学科）",
+      "admission": 270000,
+      "tuition": 800000,
+      "facility": 230000,
+      "practical": null,
+      "other": 29500,
+      "first_year": 1329500,
+      "four_year": null
+     },
+     {
+      "f": "工学部",
+      "admission": 270000,
+      "tuition": 1098000,
+      "facility": 280000,
+      "practical": 70000,
+      "other": 29500,
+      "first_year": 1747500,
+      "four_year": null
+     },
+     {
+      "f": "人間科学部（心理行動科学科）",
+      "admission": 270000,
+      "tuition": 894000,
+      "facility": 270000,
+      "practical": null,
+      "other": 29500,
+      "first_year": 1463500,
+      "four_year": null
+     },
+     {
+      "f": "情報学部（データサイエンス学科）",
+      "admission": 270000,
+      "tuition": 894000,
+      "facility": 270000,
+      "practical": 70000,
+      "other": 29500,
+      "first_year": 1533500,
+      "four_year": null
+     }
+    ],
+    "note": "河合塾 Kei-Net（2026年度入学者用）。外部AI由来の内訳（教育学部・国際学部・地域総合学部の授業料、工学部・情報学部の施設費・実習費など）を訂正。Kei-Netに無い「未来探究科学部」の行は削除。教科書代・PC代・資格の実習費は別途"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3068/nyushi/index.html",
+    "https://www.tohoku-gakuin.ac.jp/pub/www.tohoku-gakuin.ac.jp/admission/info/content/260324-1_3.pdf",
+    "https://search.keinet.ne.jp/2056/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "東北工業大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A日程・課程学科併願型）",
+      "apply": "1/5〜1/20",
+      "exam": "2/4",
+      "result": "2/19",
+      "proc": "3/2",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A日程・課程学科指定型）",
+      "apply": "1/5〜1/20",
+      "exam": "2/5",
+      "result": "2/19",
+      "proc": "3/2",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（B日程）",
+      "apply": "2/8〜2/24",
+      "exam": "3/5",
+      "result": "3/12",
+      "proc": "3/19",
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（1期）",
+      "apply": "1/5〜1/29",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/19",
+      "proc": "3/2",
+      "fee": 15000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（2期）",
+      "apply": "2/8〜2/24",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/12",
+      "proc": "3/19",
+      "fee": 15000
+     }
+    ],
+    "note": "ベネッセ マナビジョン（2027年度入試）で全学部共通の日程を確認。A日程を併願型（2/4）と指定型（2/5）に分けた（日付は既存と一致）。検定料は既存の値（未確認）"
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "工学部",
+      "admission": 250000,
+      "tuition": 1010000,
+      "facility": 320000,
+      "practical": null,
+      "other": 68660,
+      "first_year": 1648660,
+      "four_year": null,
+      "note": "その他は諸会費48,660円＋学生諸費分担金20,000円"
+     },
+     {
+      "f": "建築学部（建築学科）",
+      "admission": 250000,
+      "tuition": 1010000,
+      "facility": 320000,
+      "practical": null,
+      "other": 68660,
+      "first_year": 1648660,
+      "four_year": null,
+      "note": "その他は諸会費48,660円＋学生諸費分担金20,000円"
+     },
+     {
+      "f": "ライフデザイン学部（産業デザイン学科）",
+      "admission": 250000,
+      "tuition": 1010000,
+      "facility": 320000,
+      "practical": null,
+      "other": 68660,
+      "first_year": 1648660,
+      "four_year": null,
+      "note": "その他は諸会費48,660円＋学生諸費分担金20,000円"
+     },
+     {
+      "f": "ライフデザイン学部（生活デザイン学科）",
+      "admission": 250000,
+      "tuition": 770000,
+      "facility": 290000,
+      "practical": null,
+      "other": 68660,
+      "first_year": 1378660,
+      "four_year": null,
+      "note": "その他は諸会費48,660円＋学生諸費分担金20,000円"
+     },
+     {
+      "f": "ライフデザイン学部（経営デザイン学科）",
+      "admission": 250000,
+      "tuition": 710000,
+      "facility": 220000,
+      "practical": null,
+      "other": 68660,
+      "first_year": 1248660,
+      "four_year": null,
+      "note": "その他は諸会費48,660円＋学生諸費分担金20,000円"
+     }
+    ],
+    "note": "河合塾 Kei-Net（2026年度入学者用）。外部AI由来の経営デザイン学科の施設費（270,000→220,000円）と、実習費の0（記載なし）を訂正。年度表記を2027→2026年度に訂正。学外オリエンテーション経費などが別途の場合あり"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3069/nyushi/gokaku-happyo/index.html",
+    "https://search.keinet.ne.jp/2057/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "千葉経済大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A日程・3科目型）",
+      "apply": "1/4〜1/22",
+      "exam": "2/2",
+      "result": "2/3",
+      "proc": "2/10"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（B日程・2科目型）",
+      "apply": "1/26〜2/8",
+      "exam": "2/13",
+      "result": "2/15",
+      "proc": "2/22"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（C日程・一般型／複合型）",
+      "apply": "2/15〜2/25",
+      "exam": "3/3",
+      "result": "3/4",
+      "proc": "3/9"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（一般型9月）",
+      "apply": "9/1〜9/15",
+      "exam": "9/19",
+      "result": "11/2",
+      "proc": "11/17"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（一般型10月・スポーツ）",
+      "apply": "9/28〜10/6",
+      "exam": "10/10",
+      "result": "11/2",
+      "proc": "11/17"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募制）",
+      "apply": "11/24〜11/30",
+      "exam": "12/6",
+      "result": "12/7",
+      "proc": "12/21"
+     }
+    ],
+    "note": "ベネッセ マナビジョン（2027年度入試、経済学部）。共通テスト利用選抜は掲載なし。検定料は未確認"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3200/nyushi/"
+   ]
+  }
+ },
+ {
+  "name": "和光大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期・2科目選択方式）",
+      "apply": "1/5〜1/20",
+      "exam": "1/28",
+      "result": "2/5",
+      "proc": "2/17"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期・英・国方式）",
+      "apply": "1/5〜1/20",
+      "exam": "1/29",
+      "result": "2/5",
+      "proc": "2/17"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（後期・英・国方式）",
+      "apply": "2/1〜2/18",
+      "exam": "2/25",
+      "result": "2/27",
+      "proc": "3/15"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（A日程）",
+      "apply": "1/5〜1/26",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/5",
+      "proc": "2/17"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（B日程）",
+      "apply": "2/1〜2/18",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/27",
+      "proc": "3/15"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（C日程）",
+      "apply": "2/20〜3/8",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/12",
+      "proc": "3/18"
+     }
+    ],
+    "note": "ベネッセ マナビジョン（2027年度入試）。現代人間・表現・経済経営学部の全学科で同じ日程。検定料は未確認"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3324/nyushi/gokaku-happyo/index.html"
+   ]
+  }
+ },
+ {
+  "name": "北里大学",
+  "story": {
+   "summary": "北里大学は北里研究所の創立50周年記念事業として1962年に創設され、学祖・北里柴三郎の精神を受け継ぐ「生命科学の総合大学」。医・薬・看護・医療衛生・健康科学の医療系に加え、獣医・海洋生命科学・理・未来工（データサイエンス）の9学部を相模原・白金・十和田・新潟のキャンパスに置く。医療職だけでなく、動物・海洋・環境・データの分野から生命科学に関わりたい生徒にも話せる大学。",
+   "only": [
+    {
+     "t": "北里研究所の創立50周年記念事業として1962年に創設され、学祖・北里柴三郎（破傷風菌の研究、血清療法の確立など）の精神を受け継ぐ",
+     "src": "https://passnavi.obunsha.co.jp/univ/2320/top/"
+    },
+    {
+     "t": "獣医学部の獣医学科・動物資源科学科は2年次以降を青森県の十和田キャンパスで学ぶ",
+     "src": "https://search.keinet.ne.jp/2205"
+    },
+    {
+     "t": "1972年に設置された水産学部を前身とする海洋生命科学部を置く",
+     "src": "https://search.keinet.ne.jp/2205"
+    },
+    {
+     "t": "2024年に新潟キャンパス（南魚沼市）に健康科学部、2025年に獣医学部グリーン環境創成科学科を新設",
+     "src": "https://passnavi.obunsha.co.jp/univ/2320/top/"
+    }
+   ],
+   "vs": [
+    {
+     "u": "東邦大学",
+     "t": "東邦大学は医・薬・理・看護・健康科学の5学部で構成されるが、北里大学はこれらに近い医療系・理学系の学部に加えて獣医学部・海洋生命科学部・未来工学部を置く",
+     "src": "https://www.toho-u.ac.jp/"
+    },
+    {
+     "u": "日本獣医生命科学大学",
+     "t": "日本獣医生命科学大学は獣医学部・応用生命科学部の2学部の単科色の強い大学だが、北里大学は獣医学部を医・薬・看護などと同じ大学の中に置く",
+     "src": "https://search.keinet.ne.jp/2271/outline/department"
+    }
+   ]
+  }
+ },
+ {
+  "name": "自治医科大学",
+  "story": {
+   "summary": "自治医科大学は、へき地などの医療を確保するために1972年に全国の都道府県が共同で設立した医科大学。各都道府県から毎年2〜3人が入学し、全寮制で6年間学んだあと、原則として出身地に戻って知事が指定する病院で勤務する。入学者全員に学生納付金相当額が貸与され、義務年限を勤めると返還が免除されるため、地元の地域医療を担いたい生徒の選択肢になる。",
+   "only": [
+    {
+     "t": "へき地などの医療の確保と地域住民の福祉の向上のため、全国の都道府県が共同で1972年に設立した",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3122/"
+    },
+    {
+     "t": "医学部には各都道府県から毎年2〜3人が入学し、卒業後は原則として出身の都道府県に戻る",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3122/"
+    },
+    {
+     "t": "入学者全員に学生納付金相当額と入学時の学業準備費が貸与され、卒業後すぐ知事が指定する公立病院などで貸与期間の1.5倍の期間勤務すると返還が免除される",
+     "src": "https://www.pref.yamanashi.jp/imuka/form/jichi.html"
+    },
+    {
+     "t": "医学生は6年間をキャンパス内の学生寮で過ごす全寮制",
+     "src": "https://www.pref.yamanashi.jp/imuka/form/jichi.html"
+    }
+   ],
+   "vs": [
+    {
+     "u": "獨協医科大学",
+     "t": "同じ栃木県の獨協医科大学は医学部の初年度納付金が930万円（2026年度）だが、自治医科大学は入学者全員に学生納付金相当額が貸与され、義務年限を勤めると返還が免除される",
+     "src": "https://search.keinet.ne.jp/2123/outline/expense"
+    }
+   ]
+  }
+ }
+]
