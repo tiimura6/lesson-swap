@@ -1,0 +1,93 @@
+[
+{"name": "天使大学", "info": {
+ "schedule_replace": {"year": "2027年度入試", "rows": [
+  {"kubun": "一般", "name": "一般選抜", "apply": "1/8〜1/22", "exam": "2/6", "result": "2/22", "proc": "3/2"},
+  {"kubun": "共テ利用", "name": "大学入学共通テスト利用選抜", "apply": "1/8〜1/27", "exam": "1/16・1/17（共テ）", "result": "2/22", "proc": "3/2"}],
+  "note": "ベネッセ マナビジョン（2027年度入試）で看護学科・栄養学科共通の日程を確認。既存の出願期間・試験日と一致し、空欄だった合格発表・手続締切を記入（一般の合格発表は2/22）。検定料は記載なし"},
+ "money_replace": {"year": "2026年度", "rows": [
+  {"f": "看護栄養学部 看護学科", "admission": 300000, "tuition": null, "facility": null, "practical": null, "other": null, "first_year": 1876000, "four_year": null},
+  {"f": "看護栄養学部 栄養学科", "admission": 300000, "tuition": null, "facility": null, "practical": null, "other": null, "first_year": 1536000, "four_year": null}],
+  "note": "ベネッセ マナビジョン（2026年度入学者対象）の初年度納入金の合計（入学金30万円を含む）。授業料などの内訳は未確認"},
+ "sources": ["https://manabi.benesse.ne.jp/daigaku/school/3022/nyushi/", "https://manabi.benesse.ne.jp/daigaku/school/3022/gakuhi/"]}},
+{"name": "奥羽大学", "info": {
+ "schedule_replace": {"year": "2027年度入試", "rows": [
+  {"kubun": "一般", "name": "一般選抜（一期）", "apply": "1/5〜1/15", "exam": "1/20", "result": "1/25", "proc": "2/8"},
+  {"kubun": "一般", "name": "一般選抜（二期）", "apply": "2/1〜2/12", "exam": "2/18", "result": "2/25", "proc": "3/9"},
+  {"kubun": "一般", "name": "一般選抜（三期）", "apply": "2/23〜3/5", "exam": "3/12", "result": "3/17", "proc": "3/26"}],
+  "note": "大学公式「2027年度入試」案内（出願・試験・発表）とベネッセ マナビジョン（手続締切）で確認。歯学部・薬学部共通。既存の一期の日付と一致し、二期・三期を追加。検定料・共通テスト利用は記載なし"},
+ "money_replace": {"year": "2027年度", "rows": [
+  {"f": "歯学部 歯学科", "admission": 500000, "tuition": 3500000, "facility": 0, "practical": null, "other": 50000, "first_year": 4050000, "four_year": null},
+  {"f": "薬学部 薬学科", "admission": 200000, "tuition": 1500000, "facility": 0, "practical": null, "other": 40000, "first_year": 1740000, "four_year": null}],
+  "note": "大学公式「2027年度入試」案内の初年度学費で確認（外部AI由来の値と一致）。授業料は入学手続時と後学期（10月）の2回払い。施設維持費・教育充実費は0円。諸会費は教育支援者の会・学友会費など。実習費の記載はなし。教科書・実習器材・白衣等は自己負担"},
+ "_via_replace": "external-ai-verified",
+ "sources": ["https://www.ohu-u.ac.jp/visiter/pdf/exam_2027.pdf", "https://manabi.benesse.ne.jp/daigaku/school/3099/nyushi/hoshiki/ippan/"]}},
+{"name": "宮城学院女子大学", "info": {
+ "schedule_replace": {"year": "2027年度入試", "rows": [
+  {"kubun": "一般", "name": "一般選抜（A日程前期）", "apply": "12/29〜1/22", "exam": "2/4", "result": "2/12", "proc": "2/24"},
+  {"kubun": "一般", "name": "一般選抜（A日程後期）", "apply": "12/29〜1/22", "exam": "2/5", "result": "2/12", "proc": "2/24"},
+  {"kubun": "一般", "name": "一般選抜（B日程）", "apply": "2/8〜2/26", "exam": "3/6", "result": "3/10", "proc": "3/17"},
+  {"kubun": "共テ利用", "name": "共通テスト利用（A日程）", "apply": "12/29〜1/22", "exam": "1/16・1/17（共テ）", "result": "2/12", "proc": "2/24"},
+  {"kubun": "共テ利用", "name": "共通テスト利用（B日程）", "apply": "2/8〜2/26", "exam": "1/16・1/17（共テ）", "result": "3/10", "proc": "3/17"},
+  {"kubun": "共テ利用", "name": "共通テスト利用（C日程）", "apply": "3/1〜3/14", "exam": "1/16・1/17（共テ）", "result": "3/24", "proc": "3/29"}],
+  "note": "ベネッセ マナビジョン（2027年度入試、学芸学部の例）。出願開始は2026/12/29。外部AI由来のB日程（出願期間空欄）を補い、共テ利用を追加。音楽科は実技試験があり、A日程前期2/3〜4・後期2/3と2/5、共テ利用A日程2/3・B日程3/6・C日程3/23（学部により異なる）。検定料は記載なし"},
+ "money_replace": {"year": "2026年度", "rows": [
+  {"f": "教育学部 教育学科（幼児教育専攻）", "admission": 240000, "tuition": 808000, "facility": 220000, "practical": 12000, "other": 43520, "first_year": 1323520, "four_year": null},
+  {"f": "教育学部 教育学科（児童教育専攻）", "admission": 240000, "tuition": 808000, "facility": 220000, "practical": 12000, "other": 25480, "first_year": 1305480, "four_year": null},
+  {"f": "教育学部 教育学科（健康教育専攻）", "admission": 240000, "tuition": 808000, "facility": 220000, "practical": 12000, "other": 32520, "first_year": 1312520, "four_year": null},
+  {"f": "学芸学部 日本文学科", "admission": 240000, "tuition": 780000, "facility": 220000, "practical": 13000, "other": 25980, "first_year": 1278980, "four_year": null},
+  {"f": "学芸学部 英語文化コミュニケーション学科", "admission": 240000, "tuition": 780000, "facility": 220000, "practical": 34000, "other": 27480, "first_year": 1301480, "four_year": null},
+  {"f": "学芸学部 人間文化学科", "admission": 240000, "tuition": 780000, "facility": 220000, "practical": 12000, "other": 34980, "first_year": 1286980, "four_year": null},
+  {"f": "学芸学部 心理行動科学科", "admission": 240000, "tuition": 780000, "facility": 220000, "practical": 30000, "other": 43480, "first_year": 1313480, "four_year": null},
+  {"f": "学芸学部 音楽科", "admission": 240000, "tuition": 1004000, "facility": 623000, "practical": 55000, "other": 24980, "first_year": 1946980, "four_year": null},
+  {"f": "現代ビジネス学部 現代ビジネス学科", "admission": 240000, "tuition": 780000, "facility": 220000, "practical": 30000, "other": 22480, "first_year": 1292480, "four_year": null},
+  {"f": "生活科学部 食品栄養学科", "admission": 240000, "tuition": 892000, "facility": 220000, "practical": 17000, "other": 25250, "first_year": 1394250, "four_year": null},
+  {"f": "生活科学部 生活文化デザイン学科", "admission": 240000, "tuition": 853000, "facility": 220000, "practical": 20000, "other": 23980, "first_year": 1356980, "four_year": null}],
+  "note": "河合塾 Kei-Net（2026年度入学者用）。諸会費の欄は諸会費とその他（合宿研修費・心電図検査費など）の合計。マナビジョン（2026年度）の学科別合計と一致。外部AI由来の年度表記（2027→2026年度）を訂正。音楽科の入学金はマナビジョンでは33万円と記載があり食い違う（合計は同額）。教科書代・資格関係の実習費は別途"},
+ "sources": ["https://manabi.benesse.ne.jp/daigaku/school/3073/nyushi/gakugei/", "https://search.keinet.ne.jp/2061/outline/expense", "https://manabi.benesse.ne.jp/daigaku/school/3073/gakuhi/"]}},
+{"name": "富士大学", "info": {
+ "schedule_replace": {"year": "2027年度入試", "rows": [
+  {"kubun": "一般", "name": "一般選抜（Ⅰ期）", "apply": "1/5〜1/26", "exam": "2/5", "result": "2/11", "proc": "3/12"},
+  {"kubun": "一般", "name": "一般選抜（Ⅱ期）", "apply": "1/27〜2/15", "exam": "2/19", "result": "3/5", "proc": "3/25"},
+  {"kubun": "一般", "name": "一般選抜（Ⅲ期）", "apply": "2/15〜3/5", "exam": "3/12", "result": "3/18", "proc": "3/25"},
+  {"kubun": "共テ利用", "name": "共通テスト利用選抜（Ⅰ期）", "apply": "1/5〜2/5", "exam": "1/16・1/17（共テ）", "result": "2/26", "proc": "3/8"},
+  {"kubun": "共テ利用", "name": "共通テスト利用選抜（Ⅱ期）", "apply": "2/5〜2/24", "exam": "1/16・1/17（共テ）", "result": "3/9", "proc": "3/25"}],
+  "note": "ベネッセ マナビジョン（2027年度入試、経済経営学部の経営法学科・経済学科共通）。外部AI由来の1行（出願1/5〜2/5・試験2/19・発表3/5）は期の違う日付が混ざっていたため、期ごとに分けて訂正。Ⅰ期・Ⅱ期は岩手・宮城会場、Ⅲ期は岩手会場。検定料は記載なし"},
+ "money_replace": {"year": "2027年度", "rows": [
+  {"f": "経済経営学部", "admission": 260000, "tuition": 700000, "facility": 265000, "practical": null, "other": 72500, "first_year": 1297500, "four_year": null}],
+  "note": "ベネッセ マナビジョン（2027年度入学者対象）で確認（外部AI由来の値と一致）。諸会費の欄は図書費2万円と委託徴収金（学友会費・学友会入会金・学術研究会費・後援会費）5万2500円の合計。経済経営学部は2027年4月に経済学部から名称変更予定。実習費の記載はなし"},
+ "sources": ["https://manabi.benesse.ne.jp/daigaku/school/3057/nyushi/hoshiki/ippan/", "https://manabi.benesse.ne.jp/daigaku/school/3057/nyushi/", "https://manabi.benesse.ne.jp/daigaku/school/3057/gakuhi/"]}},
+{"name": "国士舘大学", "info": {
+ "schedule_replace": {"year": "2027年度入試", "rows": [
+  {"kubun": "一般", "name": "一般選抜（前期）", "apply": "1/5〜1/22", "exam": "2/1・2/2", "result": "2/12", "proc": "2/18"},
+  {"kubun": "一般", "name": "一般選抜（デリバリー）", "apply": "1/5〜1/22", "exam": "2/3", "result": "2/12", "proc": "2/18"},
+  {"kubun": "一般", "name": "一般選抜（中期）", "apply": "2/1〜2/15", "exam": "2/20", "result": "2/27", "proc": "3/4"},
+  {"kubun": "一般", "name": "一般選抜（後期）", "apply": "2/16〜2/23", "exam": "3/2", "result": "3/8", "proc": "3/13"},
+  {"kubun": "共テ利用", "name": "共通テスト利用選抜（Ⅰ期）", "apply": "1/5〜1/15", "exam": "1/16・1/17（共テ）", "result": "2/12", "proc": "2/18"},
+  {"kubun": "共テ利用", "name": "共通テスト利用選抜（Ⅱ期）", "apply": "2/16〜2/23", "exam": "1/16・1/17（共テ）", "result": "3/8", "proc": "3/13"}],
+  "note": "ベネッセ マナビジョン（2027年度入試）。学部により異なる（法学部の例）。検定料は記載なし"},
+ "sources": ["https://manabi.benesse.ne.jp/daigaku/school/3247/nyushi/hou/"]}},
+{"name": "国立音楽大学", "info": {
+ "schedule_replace": {"year": "2027年度入試", "rows": [
+  {"kubun": "共テ利用", "name": "共通テスト利用（A日程）", "apply": "1/8〜1/14", "exam": "2/16・2/17（専修により2/15〜2/17）", "result": "2/19", "proc": "2/26"},
+  {"kubun": "一般", "name": "一般選抜（B日程）", "apply": "3/9〜3/15", "exam": "3/20・3/21", "result": "3/23", "proc": "3/25"}],
+  "note": "ベネッセ マナビジョン（2027年度入試）。共テ利用A日程は専修ごとに実技などの試験日が異なる（声楽・音楽教育・幼児音楽教育・電子オルガン2/16〜17、ピアノ・オルガン・弦管打楽器・ジャズ2/15〜16、作曲2/15〜17、音楽デザイン・音楽療法2/16、音楽情報2/17）。同じページにB日程と同じ日付の「一般 ニ日程」（音楽デザイン専修を除く、オンライン会場あり）もあるが方式の中身を確認できず載せない。検定料は記載なし"},
+ "sources": ["https://manabi.benesse.ne.jp/daigaku/school/3241/nyushi/hoshiki/ippan/index.html"]}},
+{"name": "東京慈恵会医科大学", "story": {
+ "summary": "東京慈恵会医科大学は「病気を診ずして病人を診よ」を建学の精神に掲げ、医学部の中に医学科と看護学科を置く医科大学。医学科は6年一貫の統合型カリキュラム、看護学科は専任教員による少人数教育が特色。医師・看護師として「人を診る」医療に関心がある生徒に話せる大学。",
+ "only": [
+  {"t": "建学の精神「病気を診ずして病人を診よ」を掲げ、人を診る教育の伝統を続けている", "src": "https://passnavi.obunsha.co.jp/univ/2790/department/"},
+  {"t": "医学科は6年一貫の統合型カリキュラムで、1年次の総合教育から4〜6年次の臓器・機能別の統合教育へ進む", "src": "https://passnavi.obunsha.co.jp/univ/2790/department/"},
+  {"t": "医学部の中に看護学科を置き、専任教員40名弱による少人数教育を行う", "src": "https://passnavi.obunsha.co.jp/univ/2790/department/"}],
+ "vs": [
+  {"u": "順天堂大学", "t": "順天堂大学は医学部のほかスポーツ健康科学部・国際教養学部など9学部を置くが、東京慈恵会医科大学は医学部（医学科・看護学科）だけの大学", "src": "https://search.keinet.ne.jp/2220"},
+  {"u": "日本医科大学", "t": "日本医科大学は2026年に医療健康科学部看護学科を開設したが、東京慈恵会医科大学は医学部の中に看護学科を置く", "src": "https://www.nms.ac.jp/college/mchs/assets/files/admissions/daigakuannai_kango2026.pdf"}]}},
+{"name": "日本医科大学", "story": {
+ "summary": "日本医科大学は1876年に長谷川泰が開いた医師養成学校「済生学舎」を起源とし、学是は「克己殉公」。東京・神奈川・千葉に4つの附属病院を持ち、2026年には武蔵小杉病院と渡り廊下でつながる校舎に医療健康科学部看護学科を開設した。救急医療・チーム医療に関心がある生徒に話せる大学。",
+ "only": [
+  {"t": "1876年に長谷川泰が設立した医師養成学校「済生学舎」が起源で、2026年に150周年を迎える", "src": "https://www.nms.ac.jp/college/mchs/assets/files/admissions/daigakuannai_kango2026.pdf"},
+  {"t": "付属病院（文京区・特定機能病院）・武蔵小杉病院・多摩永山病院・千葉北総病院の4つの附属病院を持つ", "src": "https://www.nms.ac.jp/college/mchs/assets/files/admissions/daigakuannai_kango2026.pdf"},
+  {"t": "2026年4月開設の医療健康科学部看護学科は、武蔵小杉病院と渡り廊下で結ばれた新校舎で学び、多職種連携や救急・急性期看護の教育に力を入れる", "src": "https://www.nms.ac.jp/college/mchs/assets/files/admissions/daigakuannai_kango2026.pdf"}],
+ "vs": [
+  {"u": "東京慈恵会医科大学", "t": "東京慈恵会医科大学は医学部の中に看護学科を置くが、日本医科大学は看護学科を医療健康科学部として医学部とは別の学部に置く", "src": "https://passnavi.obunsha.co.jp/univ/2790/department/"},
+  {"u": "順天堂大学", "t": "順天堂大学は医療系に加えてスポーツ健康科学部・国際教養学部など9学部を置くが、日本医科大学は医学部と医療健康科学部の2学部で構成される", "src": "https://search.keinet.ne.jp/2220"}]}}
+]
