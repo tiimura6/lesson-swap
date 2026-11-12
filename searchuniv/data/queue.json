@@ -6491,6 +6491,60 @@
 "need": [
 "fees"
 ]
+},
+{
+"name": "名古屋商科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "名古屋商科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "名古屋外国語大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "名古屋葵大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "名古屋葵大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "名古屋学芸大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "名古屋学芸大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "名古屋学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "名古屋学院大学",
+"need": [
+"fees"
+]
 }
 ],
 "failed": [
@@ -6753,7 +6807,8 @@
 "愛知みずほ大学": 1,
 "愛知医療学院大学": 1,
 "愛知医科大学": 1,
-"名古屋産業大学": 1
+"名古屋産業大学": 1,
+"名古屋外国語大学": 1
 },
 "enrich": [
 {
@@ -22172,18 +22227,6 @@
 {
 "name": "名古屋商科大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "名古屋商科大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "名古屋商科大学",
-"need": [
 "scholar"
 ]
 },
@@ -22191,18 +22234,6 @@
 "name": "名古屋外国語大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "名古屋外国語大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "名古屋外国語大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -22220,18 +22251,6 @@
 {
 "name": "名古屋葵大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "名古屋葵大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "名古屋葵大学",
-"need": [
 "scholar"
 ]
 },
@@ -22239,18 +22258,6 @@
 "name": "名古屋学芸大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "名古屋学芸大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "名古屋学芸大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -22263,18 +22270,6 @@
 "name": "名古屋学院大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "名古屋学院大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "名古屋学院大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -27011,6 +27006,13 @@
 "fees"
 ],
 "note": "2027年度の学費内訳が見つからず（2026-11-12）"
+},
+{
+"name": "名古屋外国語大学",
+"need": [
+"fees"
+],
+"note": "検索で2027年度の学部学費（公式・Kei-Net）を見つけられず（2026-11-12）"
 }
 ],
 "complete": false,
