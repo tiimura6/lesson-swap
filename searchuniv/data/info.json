@@ -198310,9 +198310,10 @@ null
 "difficulty": "2026-11-09",
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-12",
 "eng": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"money": "2026-11-12"
 },
 "departments": [
 {
@@ -198401,13 +198402,33 @@ null
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "総合型",
+"name": "総合型選抜（通常枠・特定分野能力枠・起業・スタートアップ人材育成枠）",
+"apply": "11/2〜11/10（正午）",
+"exam": "エントリー選考 9/26（A日程）・9/27（B日程）",
+"result": "12/1",
+"proc": "12/11",
+"fee": 29000,
+"note": "エントリーは無料"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜1期",
+"apply": "11/2〜11/6（正午）",
+"exam": "11/15",
+"result": "12/1",
+"proc": "12/11",
+"fee": 29000,
+"note": "日程はテレメール（2026年7月27日時点）"
+},
+{
 "kubun": "推薦",
 "name": "学校推薦型選抜2期（公募制・指定校制）",
-"apply": null,
-"exam": null,
+"apply": "12/14〜1/13（正午）",
+"exam": "1/24",
 "result": "1/29",
 "proc": "2/12",
-"fee": null
+"fee": 29000
 },
 {
 "kubun": "推薦",
@@ -198416,16 +198437,27 @@ null
 "exam": "1/9",
 "result": "1/20",
 "proc": null,
-"fee": null
+"fee": 29000
 },
 {
 "kubun": "一般",
 "name": "一般選抜1期・一般選抜英語外部検定利用型",
-"apply": null,
-"exam": null,
+"apply": "1/5〜1/20（正午）",
+"exam": "2/2・2/3（受験日選択）",
 "result": "2/15",
 "proc": "3/9",
-"fee": null
+"fee": 29000,
+"note": "検定料は受験日ごと。試験地は北海道・岩手・東京"
+},
+{
+"kubun": "一般",
+"name": "一般選抜2期",
+"apply": "2/15〜2/26（正午）",
+"exam": "3/5",
+"result": "3/16",
+"proc": "3/23",
+"fee": 29000,
+"note": "試験地は北海道・東京"
 },
 {
 "kubun": "共テ利用",
@@ -198433,8 +198465,8 @@ null
 "apply": "1/8〜1/29（正午）",
 "exam": "1/16・1/17（個別試験なし）",
 "result": "2/15",
-"proc": "2/15〜3/9",
-"fee": null
+"proc": "3/9",
+"fee": 15000
 },
 {
 "kubun": "共テ利用",
@@ -198442,8 +198474,8 @@ null
 "apply": "2/5〜2/16（正午）",
 "exam": "1/16・1/17（個別試験なし）",
 "result": "3/1",
-"proc": "3/1〜3/12",
-"fee": null
+"proc": "3/12",
+"fee": 15000
 },
 {
 "kubun": "共テ利用",
@@ -198451,10 +198483,11 @@ null
 "apply": "2/22〜3/8（正午）",
 "exam": "1/16・1/17（個別試験なし）",
 "result": "3/16",
-"proc": "3/16〜3/23",
-"fee": null
+"proc": "3/23",
+"fee": 15000
 }
-]
+],
+"note": "大学公式「2027入学者選抜要項」で総合型・推薦2期・一般の日程と検定料を確認し、マナビジョン・テレメール（2027年度）と一致。全学科で同じ日程"
 },
 "eng": {
 "rows": [
@@ -198476,8 +198509,59 @@ null
 "https://www.do-johodai.ac.jp/examinee/examinfo/expenses/",
 "https://www.do-johodai.ac.jp/_cmswp/wp-content/uploads/2027%E5%85%A5%E5%AD%A6%E6%89%8B%E7%B6%9A%E8%A6%81%E9%A0%85.pdf",
 "https://passnavi.obunsha.co.jp/univ/1620/difficulty/?facultyID=015",
-"https://passnavi.obunsha.co.jp/univ/1620/schedule/?facultyID=010"
-]
+"https://passnavi.obunsha.co.jp/univ/1620/schedule/?facultyID=010",
+"https://www.do-johodai.ac.jp/_cmswp/wp-content/uploads/2027入学者選抜要項.pdf",
+"https://telemail.jp/shingaku/university/10000031/examination/general",
+"https://telemail.jp/shingaku/university/10000031/examination/recommendation",
+"https://manabi.benesse.ne.jp/daigaku/school/3013/nyushi/hoshiki/ippan/",
+"https://manabi.benesse.ne.jp/daigaku/school/3013/gakuhi/"
+],
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "総合情報学部 経営情報学科",
+"admission": 200000,
+"tuition": 1120000,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1320000,
+"four_year": null
+},
+{
+"f": "総合情報学部 システム情報学科",
+"admission": 200000,
+"tuition": 1050000,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1250000,
+"four_year": null
+},
+{
+"f": "総合情報学部 情報理工学科",
+"admission": 200000,
+"tuition": 1120000,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1320000,
+"four_year": null
+},
+{
+"f": "情報メディア学部 情報メディア学科",
+"admission": 200000,
+"tuition": 1020000,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1220000,
+"four_year": null
+}
+],
+"note": "大学公式「2027入学者選抜要項」（2027年度予定）。初年度合計は入学金＋授業料。ほかに入学生諸経費19,010円（同窓会費の半額15,000円・学研災保険4,010円）を入学時に、残りの同窓会費15,000円を1年次後期に納入。施設設備費の項目は記載なし。マナビジョンの初年度納付金（経営情報1,220,000円・情報メディア1,320,000円）とは学科の対応が逆になっており、公式を採用"
+}
 },
 "北海道文教大学": {
 "faculties": [
@@ -198489,7 +198573,7 @@ null
 "faculties": "2026-11-09",
 "departments": "2026-11-09",
 "difficulty": "2026-11-09",
-"money": "2026-11-09",
+"money": "2026-11-12",
 "_via": "2026-11-09",
 "schedule": "2026-11-12"
 },
@@ -198519,10 +198603,40 @@ null
 "year": "2027年度入試用"
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
-"f": "国際学部 国際コミュニケーション学科",
+"f": "人間科学部 健康栄養学科",
+"admission": 200000,
+"tuition": 810000,
+"facility": 200000,
+"practical": 100000,
+"other": 58160,
+"first_year": 1368160,
+"four_year": null
+},
+{
+"f": "人間科学部 こども発達学科",
+"admission": 200000,
+"tuition": 800000,
+"facility": 200000,
+"practical": 50000,
+"other": 58160,
+"first_year": 1308160,
+"four_year": null
+},
+{
+"f": "人間科学部 地域未来学科",
+"admission": 200000,
+"tuition": 800000,
+"facility": 200000,
+"practical": 50000,
+"other": 58160,
+"first_year": 1308160,
+"four_year": null
+},
+{
+"f": "国際学部 国際教養学科・国際コミュニケーション学科",
 "admission": 200000,
 "tuition": 810000,
 "facility": 100000,
@@ -198532,26 +198646,27 @@ null
 "four_year": null
 },
 {
-"f": "医療保健科学部 リハビリテーション学科",
+"f": "医療保健科学部 看護学科",
 "admission": 300000,
-"tuition": 800000,
-"facility": 300000,
-"practical": null,
-"other": null,
-"first_year": null,
+"tuition": 1000000,
+"facility": 200000,
+"practical": 300000,
+"other": 58870,
+"first_year": 1858870,
 "four_year": null
 },
 {
-"f": "人間科学部 こども発達学科",
-"admission": 200000,
+"f": "医療保健科学部 リハビリテーション学科（理学療法学・作業療法学専攻）",
+"admission": 300000,
 "tuition": 800000,
-"facility": 200000,
-"practical": null,
-"other": null,
-"first_year": null,
+"facility": 300000,
+"practical": 200000,
+"other": 58870,
+"first_year": 1658870,
 "four_year": null
 }
-]
+],
+"note": "大学公式「令和9年度学生募集要項」（入学手続時＋後期の合計）。施設費は教育充実費、実習費は実験実習費・演習費。諸会費は後援会費・学友会費・保険料・同窓会費・新入生研修費などの諸経費。臨地・臨床実習の交通費や宿泊費は別途"
 },
 "_via": "external-ai",
 "sources": [
@@ -198559,7 +198674,8 @@ null
 "https://www.do-bunkyodai.ac.jp/department/ot/ot__scholarship",
 "https://search.keinet.ne.jp/2021/outline/expense",
 "https://passnavi.obunsha.co.jp/univ/1635/top/",
-"https://manabi.benesse.ne.jp/daigaku/school/3021/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3021/nyushi/",
+"https://www.do-bunkyodai.ac.jp/wp-content/uploads/2026/07/e2ee813f2bb3f366c13f6c13d0448473.pdf"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -198570,8 +198686,8 @@ null
 "apply": "1/6〜1/26",
 "exam": "2/3",
 "result": "2/12",
-"proc": "2/19",
-"fee": null
+"proc": "2/19（二次 3/5）",
+"fee": 30000
 },
 {
 "kubun": "一般",
@@ -198579,8 +198695,8 @@ null
 "apply": "1/6〜1/26",
 "exam": "2/2",
 "result": "2/12",
-"proc": "2/19",
-"fee": null
+"proc": "2/19（二次 3/5）",
+"fee": 30000
 },
 {
 "kubun": "一般",
@@ -198589,7 +198705,7 @@ null
 "exam": "3/10",
 "result": "3/17",
 "proc": "3/24",
-"fee": null
+"fee": 30000
 },
 {
 "kubun": "共テ利用",
@@ -198597,8 +198713,8 @@ null
 "apply": "1/6〜1/26",
 "exam": "1/16・1/17（共テ）",
 "result": "2/12",
-"proc": "2/19",
-"fee": null
+"proc": "2/19（二次 3/5）",
+"fee": 14000
 },
 {
 "kubun": "共テ利用",
@@ -198607,10 +198723,10 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "3/17",
 "proc": "3/24",
-"fee": null
+"fee": 14000
 }
 ],
-"note": "マナビジョン（2027年度入試）。全学部・学科共通。検定料は未確認"
+"note": "大学公式「令和9年度学生募集要項」で日程と検定料を確認（マナビジョン2027年度と一致）。全学部・学科共通。検定料はネット出願割引で一般27,000円・共テ利用11,000円、同じ区分の2つ目以降の方式は無料。一般A期の試験会場は恵庭（本学）のみ"
 }
 },
 "北海道科学大学": {
@@ -198632,7 +198748,8 @@ null
 "scholar": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"money": "2026-11-12"
 },
 "departments": [
 {
@@ -198740,10 +198857,10 @@ null
 "rows": [
 {
 "kubun": "総合型",
-"name": "総合型選抜 カタライズ（第1回・第2回）",
+"name": "総合型選抜 カタライズ",
 "apply": "9/1〜9/4（書類9/7必着）",
-"exam": "第1回 9/12、第2回 10/3",
-"result": null,
+"exam": "9/12・10/3・10/17（地域創造学部は出願10/1〜10/8・試験10/17）",
+"result": "11/2",
 "proc": "入学金・登録 11/2〜12/11、授業料等 〜2/10",
 "fee": null
 },
@@ -198763,7 +198880,8 @@ null
 "exam": "11/21",
 "result": "12/1",
 "proc": "入学金・登録 12/11、授業料等 2/10",
-"fee": null
+"fee": null,
+"note": "自己推薦型（女子）は工学部・情報科学部"
 },
 {
 "kubun": "一般",
@@ -198803,7 +198921,7 @@ null
 "fee": null
 }
 ],
-"note": "後期・共テ利用の発表日・手続締切はマナビジョン（2027年度入試）で補完"
+"note": "後期・共テ利用の発表日・手続締切、カタライズの試験日・発表日はマナビジョン（2027年度入試）で補完。2027年度の検定料は公式に未掲載（2026年度は一般前期・後期30,000円）"
 },
 "scholar": {
 "year": "2027年度",
@@ -198836,8 +198954,120 @@ null
 "https://search.keinet.ne.jp/2013/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/1610/difficulty/",
 "https://passnavi.obunsha.co.jp/univ/1610/schedule/",
-"https://manabi.benesse.ne.jp/daigaku/school/3012/nyushi/gokaku-happyo/"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3012/nyushi/gokaku-happyo/",
+"https://www.hus.ac.jp/entrance/expenses/faculty/engineering/",
+"https://www.hus.ac.jp/entrance/expenses/faculty/information-science/",
+"https://www.hus.ac.jp/entrance/expenses/faculty/pharm/",
+"https://www.hus.ac.jp/entrance/expenses/faculty/design/",
+"https://www.hus.ac.jp/entrance/expenses/faculty/regional-development/",
+"https://manabi.benesse.ne.jp/daigaku/school/3012/gakuhi/"
+],
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "工学部（全学科）",
+"admission": 200000,
+"tuition": 1400000,
+"facility": 0,
+"practical": 0,
+"other": 62300,
+"first_year": 1662300,
+"four_year": 5909700
+},
+{
+"f": "情報科学部 情報科学科",
+"admission": 200000,
+"tuition": 1400000,
+"facility": 0,
+"practical": 0,
+"other": 62300,
+"first_year": 1662300,
+"four_year": 5909700
+},
+{
+"f": "情報科学部 経営情報学科（2027年4月開設予定）",
+"admission": 200000,
+"tuition": 1250000,
+"facility": 0,
+"practical": 0,
+"other": 62300,
+"first_year": 1512300,
+"four_year": 5309700
+},
+{
+"f": "薬学部 薬学科",
+"admission": 200000,
+"tuition": 1550000,
+"facility": 0,
+"practical": 0,
+"other": 62300,
+"first_year": 1812300,
+"four_year": null
+},
+{
+"f": "保健医療学部 看護学科",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1812300,
+"four_year": null
+},
+{
+"f": "保健医療学部 理学療法学科",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1712300,
+"four_year": null
+},
+{
+"f": "保健医療学部 臨床工学科",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1762300,
+"four_year": null
+},
+{
+"f": "保健医療学部 診療放射線学科",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1862300,
+"four_year": null
+},
+{
+"f": "未来デザイン学部 メディアデザイン学科",
+"admission": 200000,
+"tuition": 1130000,
+"facility": 0,
+"practical": 0,
+"other": 62300,
+"first_year": 1392300,
+"four_year": 4829700
+},
+{
+"f": "地域創造学部 地域創造学科（2027年4月開設予定）",
+"admission": 200000,
+"tuition": 1150000,
+"facility": 0,
+"practical": 0,
+"other": 62300,
+"first_year": 1412300,
+"four_year": 4909700
+}
+],
+"note": "大学公式の学部別学費ページ（2027年度入学生）。授業料に実習費を含む（学外実習の交通費等は除く）。諸会費は協学会費12,000円・学生医療互助会費4,300円・親交会費6,000円・同窓会費40,000円。4年間合計は1年次＋2〜4年次の年額×3で計算。薬学部は6年制（2〜6年次は年額1,965,800円）。保健医療学部はマナビジョン（2027年度）の初年度合計のみ"
+}
 },
 "北星学園大学": {
 "faculties": [
@@ -198854,8 +199084,8 @@ null
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
 "subjects": "2026-11-09",
-"schedule": "2026-11-09",
-"money": "2026-11-09",
+"schedule": "2026-11-12",
+"money": "2026-11-12",
 "scholar": "2026-11-09",
 "oc": "2026-11-09",
 "access": "2026-11-09",
@@ -199076,7 +199306,8 @@ null
 "exam": "2/6（英文・情報科学）、2/7（他学科）",
 "result": "2/22",
 "proc": "3/2（15:00）",
-"fee": null
+"fee": 30000,
+"note": "2学科目以降は1学科につき15,000円。最大8学科まで併願可（英文学科と情報科学科の組合せを除く）"
 },
 {
 "kubun": "一般",
@@ -199085,7 +199316,8 @@ null
 "exam": "3/9",
 "result": "3/16",
 "proc": "3/19（15:00）",
-"fee": null
+"fee": 30000,
+"note": "2学科目以降は1学科につき15,000円。2学科まで併願可"
 },
 {
 "kubun": "共テ利用",
@@ -199094,7 +199326,8 @@ null
 "exam": "1/16・1/17（個別試験なし）",
 "result": "2/22",
 "proc": "3/2（15:00）",
-"fee": null
+"fee": 12000,
+"note": "全学科を併願可（1学科ごとに12,000円、割引なし）"
 },
 {
 "kubun": "共テ利用",
@@ -199103,9 +199336,11 @@ null
 "exam": "1/16・1/17（個別試験なし）",
 "result": "3/16",
 "proc": "3/19（15:00）",
-"fee": null
+"fee": 12000,
+"note": "全学科を併願可（1学科ごとに12,000円、割引なし）"
 }
-]
+],
+"note": "大学公式（入学試験日程・2027年度一般選抜／共通テスト利用選抜要項）で確認し、マナビジョン（2027年度）と一致。総合型・推薦の検定料は未確認"
 },
 "money": {
 "year": "2027年度",
@@ -199113,54 +199348,55 @@ null
 {
 "f": "文学部 英文学科・心理・応用コミュニケーション学科",
 "admission": 230000,
-"tuition": null,
-"facility": null,
+"tuition": 780000,
+"facility": 140000,
 "practical": null,
-"other": null,
+"other": 55010,
 "first_year": 1205010,
-"four_year": null
+"four_year": 4445010
 },
 {
 "f": "経済学部 経済学科・経営情報学科・経済法学科",
 "admission": 230000,
-"tuition": null,
-"facility": null,
+"tuition": 780000,
+"facility": 140000,
 "practical": null,
-"other": null,
+"other": 55010,
 "first_year": 1205010,
-"four_year": null
+"four_year": 4445010
 },
 {
 "f": "社会福祉学部 社会福祉学科・心理学科",
 "admission": 230000,
-"tuition": null,
-"facility": null,
+"tuition": 780000,
+"facility": 140000,
 "practical": null,
-"other": null,
+"other": 55010,
 "first_year": 1205010,
-"four_year": null
+"four_year": 4445010
 },
 {
 "f": "国際学部 グローバル・イノベーション学科",
 "admission": 230000,
-"tuition": null,
-"facility": null,
+"tuition": 880000,
+"facility": 140000,
 "practical": null,
-"other": null,
+"other": 55010,
 "first_year": 1305010,
-"four_year": null
+"four_year": 4845010
 },
 {
-"f": "情報科学部 情報科学科",
+"f": "情報科学部 情報科学科（2027年4月開設）",
 "admission": 230000,
-"tuition": null,
-"facility": null,
+"tuition": 980000,
+"facility": 240000,
 "practical": null,
-"other": null,
+"other": 55010,
 "first_year": 1505010,
-"four_year": null
+"four_year": 5645010
 }
-]
+],
+"note": "大学公式「2027年度 一般選抜／大学入学共通テスト利用選抜 要項」。施設費は教育充実費（入学時＋後期）。諸会費は大学後援会費・学生自治会費・学生医療互助会費・同窓会費・学研災保険料。実習費・課程履修費は履修科目により別途。授業料・教育充実費は入学時に卒業までの額が決まる（物価スライドなし）。4年間合計は1年次＋2〜4年次の年額×3で計算"
 },
 "scholar": {
 "year": null,
@@ -199268,7 +199504,9 @@ null
 "https://passnavi.obunsha.co.jp/univ/1580/subject/",
 "https://passnavi.obunsha.co.jp/univ/1580/opencampus/",
 "https://manabi.benesse.ne.jp/daigaku/school/3008/gakuhi/",
-"https://manabi.benesse.ne.jp/daigaku/school/3008/opencampus/"
+"https://manabi.benesse.ne.jp/daigaku/school/3008/opencampus/",
+"https://entry.hokusei.ac.jp/hgu/wp-content/uploads/2026/08/89e829a3be442efcd6af305b36ba6e33.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/3008/nyushi/gokaku-happyo/index.html"
 ]
 },
 "函館大学": {
@@ -215222,7 +215460,8 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-12"
 },
 "departments": [
 {
@@ -215297,8 +215536,112 @@ null
 "https://search.keinet.ne.jp/2239/outline/expense",
 "https://search.keinet.ne.jp/2239/outline/licential",
 "https://search.keinet.ne.jp/2239/outline/admission_employment",
-"https://search.keinet.ne.jp/2239/general/exam_result"
-]
+"https://search.keinet.ne.jp/2239/general/exam_result",
+"https://manabi.benesse.ne.jp/daigaku/school/3272/nyushi/gokaku-happyo/index.html"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜 探究プレゼン型（経営情報学部）",
+"apply": "9/1〜10/2",
+"exam": "10/10",
+"result": "11/1",
+"proc": "11/10"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 学力検査型（経営情報学部）",
+"apply": "11/1〜11/17",
+"exam": "11/22",
+"result": "12/1",
+"proc": "2/10"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（経営情報学部、5回）",
+"apply": "11/26〜3/11（複数期間）",
+"exam": "12/20・1/28・2/18・3/4・3/17",
+"result": "12/23・2/1・2/20・3/6・3/19",
+"proc": "1/7・2/10・3/1・3/12・3/25"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 コミュニケーション型Ⅰ〜Ⅵ期（グローバルスタディーズ学部）",
+"apply": "出願前の面談あり",
+"exam": "8月〜3月の指定日",
+"result": "Ⅰ期11/1・Ⅱ期12/1・Ⅲ期12/23・Ⅳ期2/5・Ⅴ期3/5・Ⅵ期3/19",
+"proc": "Ⅰ期11/10・Ⅱ期12/15・Ⅲ期1/7・Ⅳ期2/19・Ⅴ期3/22・Ⅵ期3/24"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 公募Ⅰ期",
+"apply": "11/1〜11/17",
+"exam": "11/22",
+"result": "12/1",
+"proc": "12/15"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 公募Ⅱ期",
+"apply": "11/26〜12/14",
+"exam": "12/20",
+"result": "12/23",
+"proc": "1/7"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅰ期",
+"apply": "12/18〜1/20",
+"exam": "1/23・1/24",
+"result": "2/1",
+"proc": "2/15"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期",
+"apply": "12/18〜2/11",
+"exam": "2/16",
+"result": "2/20",
+"proc": "3/2"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅲ期・総合問題",
+"apply": "2/12〜3/2",
+"exam": "3/8",
+"result": "3/12",
+"proc": "3/19"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅰ期",
+"apply": "12/18〜1/28",
+"exam": "1/16・1/17（共テ）",
+"result": "2/11",
+"proc": "2/19",
+"note": "グローバルスタディーズ学部はA・B・C型"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅱ期",
+"apply": "12/18〜2/11",
+"exam": "1/16・1/17（共テ）",
+"result": "2/20",
+"proc": "3/2"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅲ期",
+"apply": "2/12〜3/2",
+"exam": "1/16・1/17（共テ）",
+"result": "3/12",
+"proc": "3/19"
+}
+],
+"note": "ベネッセ マナビジョン（2027年度入試）で確認。一般・共テ利用・推薦は両学部で同じ日程。総合型は学部で方式と日程が大きく異なる。検定料は掲載なし（未確認）"
+}
 },
 "多摩美術大学": {
 "faculties": [
@@ -215314,7 +215657,8 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-12"
 },
 "departments": [
 {
@@ -215497,8 +215841,59 @@ null
 "https://search.keinet.ne.jp/2241/outline/expense",
 "https://search.keinet.ne.jp/2241/outline/licential",
 "https://search.keinet.ne.jp/2241/outline/admission_employment",
-"https://search.keinet.ne.jp/2241/general/exam_result"
-]
+"https://search.keinet.ne.jp/2241/general/exam_result",
+"https://telemail.jp/shingaku/university/10000107/examination/general",
+"https://telemail.jp/shingaku/university/10000107/examination/comprehensive",
+"https://telemail.jp/shingaku/university/10000107/examination/recommendation"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜（絵画〈日本画・版画〉・彫刻・工芸・情報デザイン・演劇舞踊デザイン・生産デザイン〈テキスタイル〉）",
+"apply": "11/1〜11/7（18:00）",
+"exam": "11/21・11/22",
+"result": "12/1〜12/8",
+"proc": "12/10"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（絵画〈油画〉・グラフィックデザイン・建築・環境デザイン・芸術・統合デザイン・生産デザイン〈プロダクト〉）",
+"apply": "11/1〜11/7（18:00）",
+"exam": "11/21・11/22",
+"result": "12/1〜12/8",
+"proc": "12/10"
+},
+{
+"kubun": "一般",
+"name": "一般方式",
+"apply": "1/5〜1/15（18:00）",
+"exam": "2/7〜2/16（学科・専攻により異なる）",
+"result": "2/22",
+"proc": "3/1",
+"note": "例：グラフィックデザイン2/10〜2/12、芸術2/10、統合デザイン2/10・2/15・2/16"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅰ方式（共テ＋実技など）",
+"apply": "1/5〜1/15（18:00）",
+"exam": "1/16・1/17（共テ）＋2/7〜2/16の学科指定日",
+"result": "2/22",
+"proc": "3/1"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅱ方式（共テのみ）",
+"apply": "1/5〜1/23（18:00）",
+"exam": "1/16・1/17（共テ）",
+"result": "2/22",
+"proc": "3/1",
+"note": "生産デザイン〈プロダクト〉・建築・環境デザイン・情報デザイン〈情報デザイン〉・芸術・統合デザイン・演劇舞踊デザイン〈劇場美術〉で実施"
+}
+],
+"note": "テレメール（2026年7月28日時点、2027年度入学）で確認。手続締切は第1次。検定料は掲載なし（未確認）"
+}
 },
 "大妻女子大学": {
 "faculties": [
