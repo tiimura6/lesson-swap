@@ -1,0 +1,101 @@
+[
+{"name":"日本医療大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"一般","name":"一般選抜（前期）","apply":"1/5〜1/22","exam":"2/2","result":"2/12","proc":"2/26","fee":30000},
+  {"kubun":"一般","name":"一般選抜（後期）","apply":"2/24〜3/4","exam":"3/11","result":"3/19","proc":"3/25","fee":30000},
+  {"kubun":"共テ利用","name":"共通テスト利用選抜（前期）","apply":"1/5〜1/29","exam":"1/16・1/17（共テ）","result":"2/12","proc":"2/26","fee":15000},
+  {"kubun":"共テ利用","name":"共通テスト利用選抜（中期）","apply":"2/15〜2/24","exam":"1/16・1/17（共テ）","result":"3/4","proc":"3/12","fee":15000},
+  {"kubun":"共テ利用","name":"共通テスト利用選抜（後期）","apply":"2/24〜3/4","exam":"1/16・1/17（共テ）","result":"3/19","proc":"3/25","fee":15000}],
+  "note":"ベネッセ マナビジョン（2027年度入試）で全学部共通の日程を確認。共テ中期の入学手続締切を3/25→3/12に訂正（外部AIの誤り）。検定料は既存の値（未確認）"},
+ "money_replace":{"year":"2026年度","rows":[
+  {"f":"保健医療学部（看護・リハビリテーション・診療放射線・臨床検査・臨床工学科）","admission":300000,"tuition":1500000,"facility":100000,"practical":0,"other":67500,"first_year":1967500,"four_year":null},
+  {"f":"ヒューマンデザイン学部（医療DXマネジメント学科）","admission":300000,"tuition":1200000,"facility":100000,"practical":0,"other":67500,"first_year":1667500,"four_year":null},
+  {"f":"ヒューマンデザイン学部（共生社会デザイン学科）","admission":300000,"tuition":800000,"facility":100000,"practical":0,"other":67500,"first_year":1267500,"four_year":null}],
+  "note":"旺文社パスナビ（2026年度・2026年5月調査）。入学金・授業料・施設費は河合塾 Kei-Net（2026年度）と一致（Kei-Netは後援会費6万・学友会費3千・保険料4.5千を別途と記載）。2027年度は未掲載。外部AI由来の「2027年度」表記と諸会費0を訂正"},
+ "sources":["https://manabi.benesse.ne.jp/daigaku/school/3026/nyushi/index.html","https://passnavi.obunsha.co.jp/univ/1549/expense/","https://search.keinet.ne.jp/2033/outline/expense"]}},
+{"name":"日本赤十字北海道看護大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"一般","name":"一般型選抜（A日程）","apply":"1/6〜1/21","exam":"2/3","result":"2/15","proc":"2/26","fee":30000},
+  {"kubun":"一般","name":"一般型選抜（B日程）","apply":"2/16〜3/5","exam":"3/12","result":"3/23","proc":"3/30","fee":30000},
+  {"kubun":"共テ利用","name":"共通テスト利用選抜（前期）","apply":"1/6〜1/21","exam":"1/16・1/17（共テ）","result":"2/15","proc":"2/26","fee":15000},
+  {"kubun":"共テ利用","name":"共通テスト利用選抜（後期）","apply":"2/22〜3/15","exam":"1/16・1/17（共テ）","result":"3/23","proc":"3/30","fee":15000},
+  {"kubun":"共テ利用","name":"共通テスト利用選抜（赤十字6看護大学連携併願）","apply":"2/1〜2/19","exam":"1/16・1/17（共テ）","result":"3/3","proc":"3/17","fee":20000}],
+  "note":"ベネッセ マナビジョン（2027年度入試）と河合塾 Kei-Net の入試日程で一致を確認。A日程の試験日・発表・手続（外部AI由来の2/2・2/12・2/19）を訂正し、B日程の日付と共テ後期を追加。検定料は Kei-Net（2026年度入試）の値"},
+ "money_replace":{"year":"2027年度","rows":[
+  {"f":"看護学部（看護学科）","admission":250000,"tuition":1250000,"facility":150000,"practical":150000,"other":null,"first_year":1800000,"four_year":null,"note":"教科書代・後援会費等は別途"}],
+  "note":"旺文社パスナビ（2027年度・2026年9月調査）。河合塾 Kei-Net（2026年度）では同額の内訳に諸会費9万円・保険料2,720円を加えて初年度1,892,720円。外部AI由来の内訳（入学金30万・授業料85万・施設費30万・実習費30万）は誤り"},
+ "sources":["https://manabi.benesse.ne.jp/daigaku/school/3020/nyushi/index.html","https://search.keinet.ne.jp/2020/general/schedule","https://search.keinet.ne.jp/2020/general/exam_fee","https://passnavi.obunsha.co.jp/univ/1548/expense/","https://search.keinet.ne.jp/2020/outline/expense"]}},
+{"name":"日本赤十字秋田看護大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"一般","name":"一般選抜","apply":"1/6〜1/25","exam":"2/2","result":"2/12","proc":"2/19","fee":30000},
+  {"kubun":"共テ利用","name":"共通テスト利用選抜（前期A）","apply":"1/6〜1/28","exam":"1/16・1/17（共テ）","result":"2/12","proc":"2/19","fee":15000,"note":"個別試験なし"},
+  {"kubun":"共テ利用","name":"共通テスト利用選抜（前期B）","apply":"1/6〜1/25","exam":"1/16・1/17（共テ）＋2/2（小論文）","result":"2/12","proc":"2/19","fee":15000},
+  {"kubun":"共テ利用","name":"共通テスト利用選抜（後期）","apply":"2/9〜2/26","exam":"1/16・1/17（共テ）","result":"3/5","proc":"3/15","fee":15000,"note":"個別試験なし"},
+  {"kubun":"共テ利用","name":"共通テスト利用選抜（赤十字6看護大学連携併願）","apply":"2/1〜2/19","exam":"1/16・1/17（共テ）","result":"3/5","proc":"3/15","fee":20000}],
+  "note":"2025年に日本赤十字東北看護大学へ改称。ベネッセ マナビジョン（2027年度入試）と河合塾 Kei-Net の入試日程で一致を確認（一般と前期Bの試験会場は本学・仙台）。外部AI由来の「共テⅠ-B」の行を訂正。検定料は Kei-Net（2026年度入試）の値で、一般と前期Aの併願は割引あり"},
+ "money_replace":{"year":"2026年度","rows":[
+  {"f":"看護学部（看護学科）","admission":300000,"tuition":850000,"facility":300000,"practical":300000,"other":null,"first_year":1750000,"four_year":null,"note":"施設費は維持運営費。保険料・諸会費・テキスト代（約8万円）は別途"}],
+  "note":"旺文社パスナビ（2026年度・2026年5月調査）と河合塾 Kei-Net（2026年度）で一致。2027年度は未掲載"},
+ "sources":["https://manabi.benesse.ne.jp/daigaku/school/3083/nyushi/index.html","https://search.keinet.ne.jp/2073/general/schedule","https://search.keinet.ne.jp/2073/general/exam_fee","https://passnavi.obunsha.co.jp/univ/1818/expense/","https://search.keinet.ne.jp/2073/outline/expense"]}},
+{"name":"星槎道都大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"一般","name":"一般入試（A日程）","apply":"1/7〜1/21","exam":"2/2・2/3","result":"2/17","proc":"2/26","fee":30000,"note":"試験日は2日から自由選択"},
+  {"kubun":"一般","name":"一般入試（B日程）","apply":"2/22〜3/1","exam":"3/5","result":"3/12","proc":"3/23","fee":30000},
+  {"kubun":"一般","name":"一般入試（C日程）","apply":"3/4〜3/9","exam":"3/16","result":"3/23","proc":"3/26","fee":30000},
+  {"kubun":"共テ利用","name":"共通テスト利用（A日程）","apply":"1/7〜1/28","exam":"1/16・1/17（共テ）","result":"2/17","proc":"2/26","fee":10000},
+  {"kubun":"共テ利用","name":"共通テスト利用（B日程）","apply":"1/29〜2/9","exam":"1/16・1/17（共テ）","result":"2/24","proc":"3/2","fee":10000},
+  {"kubun":"共テ利用","name":"共通テスト利用（C日程）","apply":"2/12〜3/1","exam":"1/16・1/17（共テ）","result":"3/12","proc":"3/23","fee":10000},
+  {"kubun":"共テ利用","name":"共通テスト利用（D日程）","apply":"3/3〜3/12","exam":"1/16・1/17（共テ）","result":"3/23","proc":"3/26","fee":10000}],
+  "note":"テレメール（2027年度入学、2026-07-24時点）で全学部同じ日程を確認し、既存の全行と一致。検定料は既存の値（未確認）"},
+ "money_replace":{"year":"2026年度","rows":[
+  {"f":"美術学部（デザイン学科・建築学科）","admission":240000,"tuition":1430000,"facility":0,"practical":0,"other":57730,"first_year":1727730,"four_year":null,"note":"教科書代（デザイン約1万円・建築約4万円）は別途"},
+  {"f":"経営学部（経営学科）","admission":240000,"tuition":1080000,"facility":0,"practical":0,"other":57730,"first_year":1377730,"four_year":null,"note":"教科書代約3万円は別途"},
+  {"f":"社会福祉学部（社会福祉学科）","admission":240000,"tuition":1080000,"facility":0,"practical":0,"other":57730,"first_year":1377730,"four_year":null,"note":"教科書代約3万円は別途"}],
+  "note":"旺文社パスナビ（2026年度・2026年5月調査）と河合塾 Kei-Net（2026年度）で一致。2027年度は未掲載。教職・資格の登録料は別途"},
+ "sources":["https://telemail.jp/shingaku/university/10000219/examination/general","https://passnavi.obunsha.co.jp/univ/1540/expense/","https://search.keinet.ne.jp/2004/outline/expense"]}},
+{"name":"東海大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"一般","name":"一般選抜（個別学科試験）","apply":"1/4〜1/22","exam":"2/7〜2/10","result":"2/18","proc":"2/27","note":"学部により異なる（看護学科・芸術学科専門型・体育学部実技型は2/7・2/8）"},
+  {"kubun":"一般","name":"一般選抜（全学部統一前期）","apply":"1/4〜1/20","exam":"2/2","result":"2/9","proc":"2/18"},
+  {"kubun":"一般","name":"一般選抜（全学部統一後期）","apply":"2/1〜2/14","exam":"2/28","result":"3/6","proc":"3/10"},
+  {"kubun":"一般","name":"一般選抜（医学部医学科）","apply":"1/4〜1/16","exam":"2/2・2/3","result":"2/18","proc":"2/24"},
+  {"kubun":"共テ利用","name":"共通テスト利用選抜（前期）","apply":"1/4〜1/15","exam":"1/16・1/17（共テ）","result":"2/9","proc":"2/18","note":"医学科（神奈川県・静岡県地域枠）は発表2/18・手続2/24、航空宇宙学科航空操縦学専攻は発表2/20・手続2/27"},
+  {"kubun":"共テ利用","name":"共通テスト利用選抜（中期）","apply":"1/18〜2/10","exam":"1/16・1/17（共テ）","result":"2/18","proc":"2/27"},
+  {"kubun":"共テ利用","name":"共通テスト利用選抜（後期）","apply":"2/12〜3/6","exam":"1/16・1/17（共テ）","result":"3/14","proc":"3/18"},
+  {"kubun":"総合型","name":"医学部医学科特別選抜（展学のすすめ）","apply":"10/9〜10/21","exam":"11/8（1次）・11/22（2次）","result":"12/1","proc":"12/11","fee":60000,"note":"1次発表11/14。本選抜は2027年度入試で募集終了","url":"https://www.u-tokai.ac.jp/uploads/2026/07/fb2eb8ddcb6ed821aff8928767b784c8.pdf"}],
+  "note":"一般・共テ利用はベネッセ マナビジョン（2027年度入試）、医学科特別選抜は大学公式の入学試験要項。一般・共テ利用の検定料は未確認"},
+ "sources":["https://manabi.benesse.ne.jp/daigaku/school/3278/nyushi/gokaku-happyo/index.html","https://www.u-tokai.ac.jp/uploads/2026/07/fb2eb8ddcb6ed821aff8928767b784c8.pdf"]}},
+{"name":"高崎健康福祉大学","info":{
+ "schedule_replace":{"year":"2027年度入試","rows":[
+  {"kubun":"一般","name":"一般選抜（A日程）","apply":"12/23〜1/22","exam":"1/31・2/1","result":"2/12","proc":"3/1","fee":30000,"note":"両日受験も同額"},
+  {"kubun":"一般","name":"一般選抜（B日程）","apply":"2/4〜2/19","exam":"2/27","result":"3/5","proc":"3/12","fee":30000},
+  {"kubun":"一般","name":"一般選抜（C日程）","apply":"2/26〜3/7","exam":"3/13","result":"3/17","proc":"3/24","fee":null},
+  {"kubun":"共テ利用","name":"共通テスト利用選抜（前期）","apply":"12/23〜1/27","exam":"1/16・1/17（共テ）","result":"2/18","proc":"3/1","fee":10000},
+  {"kubun":"共テ利用","name":"共通テスト利用選抜（中期）","apply":"1/29〜2/10","exam":"1/16・1/17（共テ）","result":"2/22","proc":"3/12","fee":10000},
+  {"kubun":"共テ利用","name":"共通テスト利用選抜（後期）","apply":"2/22〜3/5","exam":"1/16・1/17（共テ）","result":"3/15","proc":"3/24","fee":10000},
+  {"kubun":"推薦","name":"学校推薦型選抜（公募制・専願）","apply":"11/2〜11/13","exam":"11/21","result":"12/1","proc":"12/10","fee":null},
+  {"kubun":"総合型","name":"総合型選抜（専願型）","apply":"10/1〜10/15","exam":"10/24","result":"11/2","proc":"11/13","fee":null},
+  {"kubun":"総合型","name":"総合型選抜（併願可能型）","apply":"10/1〜10/15","exam":"10/24","result":"11/2","proc":"1/8","fee":null},
+  {"kubun":"総合型","name":"12月総合型選抜","apply":"12/1〜12/11","exam":"12/19","result":"12/23","proc":"1/8","fee":null,"note":"子ども教育・生物生産・社会福祉・医療情報学科のみ"}],
+  "note":"ベネッセ マナビジョンの2027年度入試の日程表（全学部共通）。一般A・共テ前期など同じ時期の一般と共テ利用を同時に出願すると検定料5,000円割引。同ページの受験アドバイス（2026年度入学者対象）の日付とは一部異なるため、日程表の値を採用"},
+ "sources":["https://manabi.benesse.ne.jp/daigaku/school/3136/nyushi/index.html"]}},
+{"name":"東京電機大学","story":{
+ "summary":"東京電機大学は1907年に神田で創立された電機学校を源流とし、建学の精神「実学尊重」と初代学長の言葉「技術は人なり」を掲げる理工系大学。1年次からものづくりをテーマにした実験・実習を重視し、東京千住（足立区）と埼玉鳩山のキャンパスに未来科学・工・理工・システムデザイン工学部と夜間の工学部第二部を置く。2024年3月卒業・修了者の民間企業への就職内定率は99.0％。",
+ "only":[
+  {"t":"1928年に本学の実演室で日本初のテレビ公開実験が行われた","src":"https://dendai.ac.jp/about/gakuen/publicity/download/e5vdec0000008set-att/Compactbook2024.pdf"},
+  {"t":"1958年に日本初の夜間大学院を開設し、現在も夜間の工学部第二部を置く","src":"https://dendai.ac.jp/about/gakuen/publicity/download/e5vdec0000008set-att/Compactbook2024.pdf"},
+  {"t":"理工系大学で唯一の出版局を持ち、文部科学省著作の高校教科書も発行している","src":"https://dendai.ac.jp/about/gakuen/publicity/download/e5vdec0000008set-att/Compactbook2024.pdf"},
+  {"t":"2024年3月卒業・修了者は民間企業就職希望者1,524名のうち1,508名が内定（内定率99.0％）","src":"https://dendai.ac.jp/about/gakuen/publicity/download/e5vdec0000008set-att/Compactbook2024.pdf"}],
+ "vs":[
+  {"u":"芝浦工業大学","t":"芝浦工業大学は豊洲（江東区）と大宮（さいたま市）にキャンパスを置くが、東京電機大学は東京千住（北千住駅から徒歩1分）と埼玉鳩山にキャンパスを置き、夜間に学べる工学部第二部がある","src":"https://search.keinet.ne.jp/2219"},
+  {"u":"東京都市大学","t":"東京都市大学は世田谷・横浜に理工系に加えて都市生活・人間科学・メディア情報などの学部を置くが、東京電機大学は理工系の4学部と夜間の工学部第二部で構成される","src":"https://search.keinet.ne.jp/2282"}]}},
+{"name":"東京都市大学","story":{
+ "summary":"東京都市大学は1929年創立の武蔵高等工科学校を源流とし、2009年に武蔵工業大学と東横学園女子短期大学の統合で現校名となった、理工系を軸とする大学。世田谷キャンパスに理工・情報工・建築都市デザイン・都市生活・人間科学などの学部、横浜キャンパスに環境・メディア情報・デザイン・データ科学の学部を置く。2015年度に始まった東京都市大学オーストラリアプログラム（TAP）では、2年次に約4か月パースの大学へ留学する。",
+ "only":[
+  {"t":"2009年に武蔵工業大学と東横学園女子短期大学が統合して東京都市大学となった","src":"https://search.keinet.ne.jp/2282"},
+  {"t":"TAP（2015年度開始）は1年次の準備教育と2年次の約4か月の留学（パースのエディスコーワン大学・マードック大学）で、累計約2,500名を派遣し、大学は日本の大学で最大級のオーストラリアへの派遣人数としている","src":"https://digitalpr.jp/r/125435"},
+  {"t":"2027年4月に「創発デザイン工学環」の設置を予定している","src":"https://search.keinet.ne.jp/2282"}],
+ "vs":[
+  {"u":"東京電機大学","t":"東京電機大学は理工系の4学部と夜間の工学部第二部を東京千住・埼玉鳩山に置くが、東京都市大学は世田谷・横浜に理工系に加えて都市生活・人間科学・メディア情報などの学部も置く","src":"https://dendai.ac.jp/about/gakuen/publicity/download/e5vdec0000008set-att/Compactbook2024.pdf"},
+  {"u":"工学院大学","t":"工学院大学は新宿・八王子に工・建築・先進工・情報の4学部を置くが、東京都市大学は世田谷・横浜の2キャンパスに理工系と都市生活・人間科学などの学部を置く","src":"https://search.keinet.ne.jp/2212"}]}}
+]
