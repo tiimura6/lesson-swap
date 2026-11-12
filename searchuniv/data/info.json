@@ -176066,11 +176066,11 @@ null
 "faculties": "2026-11-07",
 "departments": "2026-11-07",
 "difficulty": "2026-11-07",
-"money": "2026-11-07",
+"money": "2026-11-12",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"schedule": "2026-11-11"
+"schedule": "2026-11-12"
 },
 "departments": [
 {
@@ -176090,26 +176090,37 @@ null
 "year": "2027年度",
 "rows": [
 {
-"f": "生活科学部（生活科学科）",
+"f": "生活科学部 生活科学科（社会福祉専攻）",
 "admission": 250000,
 "tuition": 780000,
-"facility": 431000,
-"practical": 0,
+"facility": 177000,
+"practical": 254000,
 "other": 18000,
 "first_year": 1479000,
 "four_year": null
 },
 {
-"f": "生活科学部（食物栄養学科）",
+"f": "生活科学部 生活科学科（建築デザイン専攻）",
 "admission": 250000,
 "tuition": 780000,
-"facility": 431000,
-"practical": 0,
+"facility": 177000,
+"practical": 254000,
+"other": 18000,
+"first_year": 1479000,
+"four_year": null
+},
+{
+"f": "生活科学部 食物栄養学科",
+"admission": 250000,
+"tuition": 780000,
+"facility": 177000,
+"practical": 254000,
 "other": 18000,
 "first_year": 1479000,
 "four_year": null
 }
-]
+],
+"note": "旺文社パスナビ（2027年度・2026年9月調査）。実習費の欄は教育充実費、諸会費は学友会費・家族会費。入学時最小限納入金866,000円（2段納入）。他に諸経費が必要"
 },
 "access": "福島県郡山市開成3-25-2（JR東北本線郡山駅よりバス約15分）",
 "careers": "病院・福祉施設の管理栄養士、福祉専門職、住宅・建設設計関連企業、教員、一般企業など。",
@@ -176119,7 +176130,9 @@ null
 "https://passnavi.obunsha.co.jp/univ/1860/difficulty/",
 "https://www.koriyama-kgc.ac.jp/departments/life2021",
 "https://www.koriyama-kgc.ac.jp/departments/tokucho",
-"https://manabi.benesse.ne.jp/daigaku/school/3100/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3100/nyushi/",
+"https://passnavi.obunsha.co.jp/univ/1850/expense/",
+"https://passnavi.obunsha.co.jp/univ/1850/schedule/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -176162,9 +176175,18 @@ null
 },
 {
 "kubun": "一般",
-"name": "一般選抜Ⅰ期",
+"name": "一般選抜Ⅰ期A",
 "apply": "1/5〜1/21",
-"exam": "1/30〜1/31",
+"exam": "1/30",
+"result": "2/8",
+"proc": "2/17",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜Ⅰ期B",
+"apply": "1/5〜1/21",
+"exam": "1/31",
 "result": "2/8",
 "proc": "2/17",
 "fee": null
@@ -176188,7 +176210,7 @@ null
 "fee": null
 }
 ],
-"note": "生活科学部（食物栄養学科・生活科学科 建築デザイン専攻／社会福祉専攻）で共通の日程。出典：マナビジョン（2027年度入試情報）。共通テスト利用・検定料は記載なし"
+"note": "生活科学部（食物栄養学科・生活科学科 建築デザイン専攻／社会福祉専攻）で共通の日程。出典：マナビジョン（2027年度入試情報）。共通テスト利用・検定料は記載なし。一般選抜Ⅰ期はA（1/30）・B（1/31）に分かれる（旺文社パスナビ）"
 }
 },
 "島根県立大学": {
@@ -185398,8 +185420,8 @@ null
 "departments": "2026-11-08",
 "difficulty": "2026-11-08",
 "methods": "2026-11-08",
-"schedule": "2026-11-08",
-"money": "2026-11-08",
+"schedule": "2026-11-12",
+"money": "2026-11-12",
 "access": "2026-11-08",
 "ic": "2026-11-08",
 "careers": "2026-11-08",
@@ -185465,16 +185487,43 @@ null
 "rows": [
 {
 "kubun": "一般",
-"name": "一般選抜（第1期）",
+"name": "第1期学力入試 A日程（獣医学類）",
 "apply": "1/6〜1/19",
-"exam": "2/4・2/5",
+"exam": "2/4",
 "result": "2/13",
 "proc": "2/25",
 "fee": 35000
 },
 {
 "kubun": "一般",
-"name": "一般選抜（第2期）",
+"name": "第1期学力入試 B日程（獣医学類以外）",
+"apply": "1/6〜1/19",
+"exam": "2/5",
+"result": "2/13",
+"proc": "2/25",
+"fee": 35000
+},
+{
+"kubun": "一般",
+"name": "第1期併用型入試 A日程（獣医学類：通常・理科重点）",
+"apply": "1/6〜1/19",
+"exam": "共テ＋2/4",
+"result": "2/13",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "第1期併用型入試 B日程（管理栄養士コース・循環農・食と健康・環境共生・農環境情報）",
+"apply": "1/6〜1/19",
+"exam": "共テ＋2/5",
+"result": "2/13",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "第2期学力入試（獣医学類以外）",
 "apply": "2/1〜2/18",
 "exam": "3/3",
 "result": "3/10",
@@ -185482,27 +185531,76 @@ null
 "fee": 35000
 },
 {
+"kubun": "一般",
+"name": "第2期併用型入試（獣医学類・理科重点）",
+"apply": "2/1〜2/18",
+"exam": "共テ＋3/3",
+"result": "3/10",
+"proc": "3/16",
+"fee": null
+},
+{
 "kubun": "共テ利用",
-"name": "共通テスト利用選抜（第1期）",
+"name": "共通テスト利用入試（前期）",
 "apply": "1/6〜1/22",
 "exam": "1/16・1/17（共テ）",
 "result": "2/13",
 "proc": "2/25",
 "fee": 18000
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用入試（後期）（獣医学類以外）",
+"apply": "2/1〜2/18",
+"exam": "1/16・1/17（共テ）",
+"result": "3/10",
+"proc": "3/16",
+"fee": null
 }
-]
+],
+"note": "テレメール（2027年度一般選抜、2026年4月7日時点）。ネット出願、必要書類は出願締切日必着。検定料は既存の値で、併用型・共テ後期の検定料は未確認"
 },
 "money": {
 "year": "2027年度",
 "rows": [
 {
-"f": "農食環境学群",
+"f": "農食環境学群 循環農学類",
 "admission": 200000,
 "tuition": 890000,
 "facility": 350000,
-"practical": 80000,
-"other": 75000,
-"first_year": 1595000,
+"practical": 100000,
+"other": 20000,
+"first_year": 1560000,
+"four_year": null
+},
+{
+"f": "農食環境学群 食と健康学類",
+"admission": 200000,
+"tuition": 890000,
+"facility": 350000,
+"practical": 100000,
+"other": 20000,
+"first_year": 1560000,
+"four_year": null
+},
+{
+"f": "農食環境学群 環境共生学類",
+"admission": 200000,
+"tuition": 890000,
+"facility": 350000,
+"practical": 100000,
+"other": 25000,
+"first_year": 1565000,
+"four_year": null
+},
+{
+"f": "農食環境学群 農環境情報学類",
+"admission": 200000,
+"tuition": 890000,
+"facility": 350000,
+"practical": 100000,
+"other": 20000,
+"first_year": 1560000,
 "four_year": null
 },
 {
@@ -185525,7 +185623,8 @@ null
 "first_year": 1645000,
 "four_year": null
 }
-]
+],
+"note": "農食環境学群は旺文社パスナビ（2027年度・2026年9月調査、一括納入）。獣医学群の2行は既存の値で、2027年度の内訳は未確認（Kei-Net 2025年度は獣医学類 初年度2,615,000円・獣医保健看護学類 1,645,000円）"
 },
 "access": "JR函館本線「大麻駅」南口より徒歩約15分、JR「新札幌駅」よりバス約10分",
 "careers": "獣医師、農業協同組合・農業関連団体、食品メーカー、公務員、動物病院など。",
@@ -185537,7 +185636,9 @@ null
 "https://search.keinet.ne.jp/2014/outline/expense",
 "https://search.keinet.ne.jp/2014/outline/campus",
 "https://passnavi.obunsha.co.jp/univ/1650/schedule/",
-"https://manabi.benesse.ne.jp/daigaku/school/3016/nyushi/hoshiki/kyotsu-test/"
+"https://manabi.benesse.ne.jp/daigaku/school/3016/nyushi/hoshiki/kyotsu-test/",
+"https://telemail.jp/shingaku/university/10001897/examination/general",
+"https://passnavi.obunsha.co.jp/univ/1650/expense/"
 ]
 },
 "青森中央学院大学": {
@@ -185550,7 +185651,7 @@ null
 "departments": "2026-11-08",
 "difficulty": "2026-11-08",
 "methods": "2026-11-08",
-"schedule": "2026-11-08",
+"schedule": "2026-11-12",
 "money": "2026-11-08",
 "access": "2026-11-08",
 "ic": "2026-11-08",
@@ -185632,10 +185733,10 @@ null
 {
 "kubun": "一般",
 "name": "一般選抜（第2期）",
-"apply": "2/9〜2/27",
-"exam": "3/7",
-"result": "3/14",
-"proc": "3/24",
+"apply": "2/8〜3/8",
+"exam": "3/13",
+"result": "3/19",
+"proc": "3/26",
 "fee": 30000
 },
 {
@@ -185650,13 +185751,23 @@ null
 {
 "kubun": "共テ利用",
 "name": "共通テスト利用選抜（第2期）",
-"apply": "2/9〜3/4",
+"apply": "2/8〜3/8",
 "exam": "1/16・1/17（共テ）",
-"result": "3/14",
-"proc": "3/24",
+"result": "3/19",
+"proc": "3/26",
 "fee": 15000
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜（第3期）",
+"apply": "3/9〜3/20",
+"exam": "1/16・1/17（共テ）",
+"result": "3/26",
+"proc": "4/1",
+"fee": null
 }
-]
+],
+"note": "旺文社パスナビ・河合塾 Kei-Net の入試日程（共テ1/16・17＝2027年度入試）。経営法学部・看護学部で同じ日程。出願締切は消印有効。一般第1期の試験会場は本学・函館・盛岡・秋田。検定料は既存の値（第3期は未確認）"
 },
 "money": {
 "year": "2027年度",
@@ -185692,7 +185803,8 @@ null
 "https://search.keinet.ne.jp/2031/outline/expense",
 "https://passnavi.obunsha.co.jp/univ/1665/schedule/",
 "https://www.aomoricgu.ac.jp/news/g_tp_20260209",
-"https://www.aomoricgu.ac.jp/admissions/exam_nursing/nursing_schedule"
+"https://www.aomoricgu.ac.jp/admissions/exam_nursing/nursing_schedule",
+"https://search.keinet.ne.jp/2031/general/schedule"
 ]
 },
 "青森大学": {
@@ -185707,11 +185819,12 @@ null
 "departments": "2026-11-08",
 "difficulty": "2026-11-08",
 "methods": "2026-11-08",
-"schedule": "2026-11-08",
+"schedule": "2026-11-12",
 "access": "2026-11-08",
 "ic": "2026-11-08",
 "careers": "2026-11-08",
-"_via": "2026-11-08"
+"_via": "2026-11-08",
+"money": "2026-11-12"
 },
 "departments": [
 {
@@ -185790,21 +185903,39 @@ null
 "rows": [
 {
 "kubun": "一般",
+"name": "一般選抜（学部統一方式）（総合経営・ソフトウェア情報）",
+"apply": "1/4〜1/26",
+"exam": "2/5",
+"result": "2/16",
+"proc": "2/25",
+"fee": 30000
+},
+{
+"kubun": "一般",
 "name": "一般選抜（第Ⅰ期日程）",
-"apply": "1/4〜1/22",
-"exam": "2/2",
-"result": "2/12",
-"proc": "2/26",
+"apply": "1/4〜1/26",
+"exam": "2/6",
+"result": "2/16",
+"proc": "2/25",
 "fee": 30000
 },
 {
 "kubun": "一般",
 "name": "一般選抜（第Ⅱ期日程）",
-"apply": "2/5〜2/19",
+"apply": "2/1〜2/21",
 "exam": "2/27",
-"result": "3/6",
-"proc": "3/16",
+"result": "3/5",
+"proc": "3/18",
 "fee": 30000
+},
+{
+"kubun": "一般",
+"name": "一般選抜（第Ⅲ期日程）",
+"apply": "3/1〜3/16",
+"exam": "3/20",
+"result": "3/24",
+"proc": "3/29",
+"fee": null
 },
 {
 "kubun": "共テ利用",
@@ -185818,13 +185949,23 @@ null
 {
 "kubun": "共テ利用",
 "name": "共通テスト利用選抜（中期日程）",
-"apply": "2/6〜2/21",
+"apply": "2/16〜3/3",
 "exam": "1/16・1/17（共テ）",
-"result": "3/6",
-"proc": "3/18",
+"result": "3/10",
+"proc": "3/23",
 "fee": 15000
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜（後期日程）",
+"apply": "3/1〜3/19",
+"exam": "1/16・1/17（共テ）",
+"result": "3/24",
+"proc": "3/29",
+"fee": null
 }
-]
+],
+"note": "旺文社パスナビ・河合塾 Kei-Net の入試日程（共テ1/16・17＝2027年度入試）。総合経営・ソフトウェア情報・薬学部で同じ日程（学部統一方式は薬学部を除く）。検定料は既存の値（第Ⅲ期・共テ後期は未確認）"
 },
 "access": "青森キャンパス：JR「青森駅」より市営バス約35分「青森大学前」下車すぐ",
 "careers": "病院・調剤薬局薬剤師、ITシステムエンジニア、地方公務員、金融・流通企業等。",
@@ -185835,8 +185976,46 @@ null
 "https://passnavi.obunsha.co.jp/univ/1660/schedule/",
 "https://passnavi.obunsha.co.jp/univ/1660/difficulty/",
 "https://www.aomori-u-aplus.jp/2023/02/09/%E5%A4%A7%E5%AD%A6%E5%85%A5%E5%AD%A6%E5%85%B1%E9%80%9A%E3%83%86%E3%82%B9%E3%83%88%E5%88%A9%E7%94%A8%E9%81%B8%E6%8A%9C%E4%B8%AD%E6%9C%9F%E6%97%A5%E7%A8%8B%E5%87%BA%E9%A1%98%E9%96%8B%E5%A7%8B/",
-"https://manabi.benesse.ne.jp/daigaku/school/3041/nyushi/hoshiki/kyotsu-test/"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3041/nyushi/hoshiki/kyotsu-test/",
+"https://search.keinet.ne.jp/2026/general/schedule",
+"https://passnavi.obunsha.co.jp/univ/1660/expense/"
+],
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "総合経営学部 経営学科",
+"admission": 200000,
+"tuition": 690000,
+"facility": 400000,
+"practical": 0,
+"other": 69660,
+"first_year": 1359660,
+"four_year": null
+},
+{
+"f": "ソフトウェア情報学部 ソフトウェア情報学科",
+"admission": 200000,
+"tuition": 980000,
+"facility": 300000,
+"practical": 30000,
+"other": 69660,
+"first_year": 1579660,
+"four_year": null
+},
+{
+"f": "薬学部 薬学科",
+"admission": 200000,
+"tuition": 1300000,
+"facility": 450000,
+"practical": 120000,
+"other": 71840,
+"first_year": 2141840,
+"four_year": null
+}
+],
+"note": "旺文社パスナビ（2027年度・2026年9月調査）。全学部で通信費として年間2,700円程度、薬学部は実務実習費として年間12万円が必要。社会学部は掲載なし"
+}
 },
 "かなざわ食マネジメント専門職大学": {
 "faculties": [
@@ -185848,7 +186027,7 @@ null
 "difficulty": "2026-11-08",
 "methods": "2026-11-08",
 "schedule": "2026-11-08",
-"money": "2026-11-08",
+"money": "2026-11-12",
 "access": "2026-11-08",
 "ic": "2026-11-08",
 "careers": "2026-11-08",
@@ -185935,16 +186114,17 @@ null
 "year": "2027年度",
 "rows": [
 {
-"f": "フードサービスマネジメント学部",
+"f": "フードサービスマネジメント学部 フードサービスマネジメント学科",
 "admission": 200000,
 "tuition": 800000,
-"facility": 150000,
-"practical": 150000,
-"other": 100000,
-"first_year": 1400000,
+"facility": 200000,
+"practical": 300000,
+"other": null,
+"first_year": 1500000,
 "four_year": null
 }
-]
+],
+"note": "旺文社パスナビ（2027年度・2026年9月調査、2段納入、入学時最小限900,000円）。施設費に教育充実費10万円を含む。別に教材費（1年次約10万円）・実習費（実費）・保険代・学友会費（年1万円）が必要"
 },
 "access": "白山キャンパス：JR北陸本線・IRいしかわ鉄道「野々市駅」より徒歩約15分",
 "careers": "外食産業マネージャー、食品メーカーの商品企画・開発・営業、フードビジネス起業など。",
@@ -185955,7 +186135,9 @@ null
 "https://passnavi.obunsha.co.jp/univ/9206/top/",
 "https://kanazawa-pu.ac.jp/application/expense/",
 "https://careetern.com/local_column/detail/20211118",
-"https://manabi.benesse.ne.jp/daigaku/school/3433/"
+"https://manabi.benesse.ne.jp/daigaku/school/3433/",
+"https://passnavi.obunsha.co.jp/univ/9206/expense/",
+"https://passnavi.obunsha.co.jp/univ/9206/schedule/"
 ]
 },
 "こども教育宝仙大学": {
@@ -208654,7 +208836,8 @@ null
 "faculties": "2026-11-09",
 "departments": "2026-11-09",
 "difficulty": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"schedule": "2026-11-12"
 },
 "departments": [
 {
@@ -208673,8 +208856,69 @@ null
 "sources": [
 "https://www.yokohama-art.ac.jp/",
 "https://search.keinet.ne.jp/2325/general/border_rate",
-"https://manabi.benesse.ne.jp/daigaku/school/3382/gakuhi/"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3382/gakuhi/",
+"https://telemail.jp/shingaku/university/10000048/examination/general"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般入学試験A日程（デッサン選択・学科選択）",
+"apply": "1/12〜1/26",
+"exam": "2/3",
+"result": "2/10",
+"proc": "2/22",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "一般入学試験A日程（共通テスト選択）",
+"apply": "1/12〜1/26",
+"exam": "1/16・1/17（共テ）",
+"result": "2/10",
+"proc": "2/22",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般入学試験B日程（デッサン選択・学科選択）",
+"apply": "2/8〜2/16",
+"exam": "2/24",
+"result": "2/26",
+"proc": "3/5",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "一般入学試験B日程（共通テスト選択）",
+"apply": "2/8〜2/16",
+"exam": "1/16・1/17（共テ）",
+"result": "2/26",
+"proc": "3/5",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般入学試験C日程（デッサン選択・学科選択）",
+"apply": "2/25〜3/2",
+"exam": "3/9",
+"result": "3/11",
+"proc": "3/17",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "一般入学試験C日程（共通テスト選択）",
+"apply": "2/25〜3/2",
+"exam": "1/16・1/17（共テ）",
+"result": "3/11",
+"proc": "3/17",
+"fee": null
+}
+],
+"note": "テレメール（2027年度一般選抜、2026年6月1日時点）。美術学部 美術・デザイン学科。ネット出願、必要書類は締切日消印有効。試験地は神奈川県。検定料は未確認"
+}
 },
 "横浜商科大学": {
 "faculties": [
@@ -210424,7 +210668,8 @@ null
 "faculties": "2026-11-09",
 "departments": "2026-11-09",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"schedule": "2026-11-12"
 },
 "departments": [
 {
@@ -210484,8 +210729,42 @@ null
 "sources": [
 "https://www.toho-music.ac.jp/",
 "https://www.toho-music.ac.jp/wp-content/uploads/2026/08/2027_toho_college.pdf",
-"https://search.keinet.ne.jp/2155/outline/expense"
-]
+"https://search.keinet.ne.jp/2155/outline/expense",
+"https://manabi.benesse.ne.jp/daigaku/school/3154/nyushi/"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜（前期）",
+"apply": "1/27〜2/5",
+"exam": "2/14",
+"result": "2/19",
+"proc": "2/26",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜（後期）",
+"apply": "2/24〜3/5",
+"exam": "3/14",
+"result": "3/14",
+"proc": "3/18",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募）",
+"apply": "11/2〜11/9",
+"exam": "11/15",
+"result": "12/1",
+"proc": "12/9",
+"fee": null
+}
+],
+"note": "ベネッセ マナビジョン（2027年度入試情報）。音楽学部 音楽学科。総合型選抜（公募・特定楽器）は9月〜3月に複数回（試験日 9/27・10/25・11/15・12/6・1/17・2/14・3/14）。共通テスト利用・検定料は記載なし"
+}
 },
 "東邦大学": {
 "faculties": [
