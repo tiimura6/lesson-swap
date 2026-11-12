@@ -1,0 +1,683 @@
+[
+ {
+  "name": "仙台白百合女子大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜〔Ⅱ期〕",
+      "apply": "10/9〜10/29",
+      "exam": "11/7",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜〔指定校・姉妹校〕",
+      "apply": "11/2〜11/9",
+      "exam": "11/14",
+      "result": "12/1",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜〔A日程〕",
+      "apply": "1/5〜1/26",
+      "exam": "2/5",
+      "result": "2/15",
+      "proc": "2/19",
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜〔A日程〕",
+      "apply": "1/5〜1/26",
+      "exam": "大学入学共通テスト",
+      "result": "2/15",
+      "proc": "2/19",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜〔B日程〕",
+      "apply": "2/8〜2/22",
+      "exam": "3/3",
+      "result": "3/9",
+      "proc": "3/18",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜〔B日程〕",
+      "apply": "2/8〜2/22",
+      "exam": "大学入学共通テスト",
+      "result": "3/9",
+      "proc": "3/18",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜〔C日程〕",
+      "apply": "2/24〜3/5",
+      "exam": "3/15",
+      "result": "3/19",
+      "proc": "3/25",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜〔C日程〕",
+      "apply": "2/24〜3/5",
+      "exam": "大学入学共通テスト",
+      "result": "3/19",
+      "proc": "3/25",
+      "fee": null
+     }
+    ],
+    "note": "一般・共テ利用の入学手続締切は Kei-Net（入試日程）とテレメール（2027年度、2026年6月時点）で一致。検定料は一般A日程以外は2027年度の掲載が見つからず空欄（Kei-Net の受験料は2026年度入試：一般30,000円・共テ利用15,000円、併願割引あり）"
+   },
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "人間学部 子ども教育学科・心理福祉学科・グローバル・スタディーズ学科",
+      "admission": 240000,
+      "tuition": 760000,
+      "facility": 240000,
+      "practical": 0,
+      "other": null,
+      "first_year": 1240000,
+      "four_year": null
+     },
+     {
+      "f": "人間学部 健康栄養学科",
+      "admission": 240000,
+      "tuition": 760000,
+      "facility": 240000,
+      "practical": 20000,
+      "other": null,
+      "first_year": 1260000,
+      "four_year": null
+     }
+    ],
+    "note": "パスナビ（2027年度、2026年9月調査）でも入学金240,000円・授業料760,000円・施設費240,000円・初年度1,240,000円（4学科とも）。健康栄養学科は1年次後期から食品栄養関係設備費 半期1万円が別にかかる（パスナビ）。冷暖房費は入学後に別途、後援会費1万円は任意。4年間合計は掲載なし"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2062/general/schedule",
+    "https://search.keinet.ne.jp/2062/general/exam_fee",
+    "https://telemail.jp/shingaku/university/10000222/examination/general",
+    "https://passnavi.obunsha.co.jp/univ/1755/expense/"
+   ]
+  }
+ },
+ {
+  "name": "仙台大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（一般総合・スポーツ総合 Ⅰ期）",
+      "apply": "9/7〜10/1",
+      "exam": "10/17・18の指定日（競技実績重視型10/24、実技試験重視型10/25）",
+      "result": "11/2",
+      "proc": null,
+      "fee": 33000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（実技試験重視型 Ⅱ期）",
+      "apply": "10/26〜11/6",
+      "exam": "11/20",
+      "result": "12/1",
+      "proc": null,
+      "fee": 33000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（Ⅱ期）",
+      "apply": "11/24〜12/4",
+      "exam": "12/12",
+      "result": "12/18",
+      "proc": null,
+      "fee": 33000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（Ⅲ期）",
+      "apply": "2/1〜2/12",
+      "exam": "2/22",
+      "result": "2/26",
+      "proc": null,
+      "fee": 33000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（Ⅳ期）",
+      "apply": "2/18〜3/4",
+      "exam": "3/10",
+      "result": "3/15",
+      "proc": null,
+      "fee": 33000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜前期（A方式）",
+      "apply": "1/7〜1/22",
+      "exam": "2/6・2/7（自由選択）",
+      "result": "2/12",
+      "proc": "2/26",
+      "fee": 33000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜前期（B方式）",
+      "apply": "1/7〜1/22",
+      "exam": "2/7",
+      "result": "2/12",
+      "proc": "2/26",
+      "fee": 33000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（前期）",
+      "apply": "1/7〜1/29",
+      "exam": "大学入学共通テスト",
+      "result": "2/12",
+      "proc": "2/26",
+      "fee": 16000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜後期",
+      "apply": "2/18〜3/4",
+      "exam": "3/10",
+      "result": "3/15",
+      "proc": "3/23",
+      "fee": 33000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（後期）",
+      "apply": "2/18〜3/4",
+      "exam": "大学入学共通テスト",
+      "result": "3/15",
+      "proc": "3/23",
+      "fee": 16000
+     }
+    ],
+    "note": "一般選抜・共テ利用の日程と検定料は大学公式の2027年度選抜要項（一般選抜・共通テスト利用選抜）による。一般は第2・第3志望の学科の検定料不要。一般前期A方式は本学のほか東京・札幌・青森・秋田・盛岡・山形・郡山・新潟でも2/6に実施"
+   },
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "体育学部（全学科）",
+      "admission": 250000,
+      "tuition": 810000,
+      "facility": 360000,
+      "practical": 80000,
+      "other": 69730,
+      "first_year": 1500000,
+      "four_year": 5250000,
+      "note": "実習費は実験実習・教具教材費。初年度合計1,500,000円は入学金・授業料・施設設備費・実習費の合計で、諸会費（学友会費15,000円・保護者会費10,000円・同窓会費40,000円・保険料4,730円）は別。2年次以降は年1,250,000円で、4年間合計は公式の表から計算（諸会費を除く）"
+     }
+    ],
+    "note": "大学公式 2027年度一般選抜要項の納付金（全学科共通）。分納可（入学手続時875,000円、10月625,000円）"
+   },
+   "sources": [
+    "https://sendaidaigaku.jp/dnt2/_sendaidaigaku/access/nic_img/5/files/2027_ip.pdf",
+    "https://sendaidaigaku.jp/dnt2/_sendaidaigaku/access/nic_img/5/files/2027_kyotsu.pdf"
+   ]
+  }
+ },
+ {
+  "name": "ノースアジア大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅰ期",
+      "apply": "9/14〜10/2",
+      "exam": "10/10",
+      "result": "11/2",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（経済学部・総合政策学部）",
+      "apply": "1/12〜1/29",
+      "exam": "2/6",
+      "result": "2/19",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 前期",
+      "apply": "1/12〜2/4",
+      "exam": "大学入学共通テスト",
+      "result": "2/19",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 中期",
+      "apply": "2/8〜2/19",
+      "exam": "大学入学共通テスト",
+      "result": "3/1",
+      "proc": "3/19",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 後期",
+      "apply": "2/22〜3/9",
+      "exam": "大学入学共通テスト",
+      "result": "3/18",
+      "proc": "3/26",
+      "fee": null
+     }
+    ],
+    "note": "一般・共テ利用の日程（入学手続締切を含む）は Kei-Net（入試日程）とテレメール（2027年度、2026年7月時点）で一致、一般はマナビジョン（2027年度）とも一致。検定料は2027年度の掲載が見つからず空欄"
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "全学部（経済学部・総合政策学部）",
+      "admission": 200000,
+      "tuition": 668000,
+      "facility": 225000,
+      "practical": null,
+      "other": 87500,
+      "first_year": 1180500,
+      "four_year": null
+     }
+    ],
+    "note": "マナビジョン（2026年度入学者）：その他87,500円は教育資料等諸費63,000円＋課外活動諸費24,500円。学部別の差の記載なし。2027年度の金額は未掲載"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2072/general/schedule",
+    "https://telemail.jp/shingaku/university/10001052/examination/general",
+    "https://manabi.benesse.ne.jp/daigaku/school/3081/nyushi/hoshiki/ippan/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3081/gakuhi/"
+   ]
+  }
+ },
+ {
+  "name": "麻布大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 第Ⅰ期A日程（獣医保健看護・動物応用科学）",
+      "apply": "12/21〜1/19",
+      "exam": "1/30",
+      "result": "2/12",
+      "proc": "2/18",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 第Ⅰ期A日程（生命・環境科学部）",
+      "apply": "12/21〜1/19",
+      "exam": "1/30",
+      "result": "2/8",
+      "proc": "2/15",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 第Ⅰ期B日程（獣医学科）",
+      "apply": "12/21〜1/19",
+      "exam": "2/3",
+      "result": "2/12",
+      "proc": "2/18",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 第Ⅰ期C日程（獣医保健看護・動物応用科学・生命・環境科学部）",
+      "apply": "12/21〜1/19",
+      "exam": "2/4",
+      "result": "2/12",
+      "proc": "2/18",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 第Ⅰ期D日程（全学科）",
+      "apply": "12/21〜1/19",
+      "exam": "2/7",
+      "result": "2/12",
+      "proc": "2/18",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 第Ⅱ期（全学科）",
+      "apply": "2/5〜2/16",
+      "exam": "3/2",
+      "result": "3/8",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 第Ⅰ期（全学科）",
+      "apply": "12/21〜1/15",
+      "exam": "大学入学共通テスト",
+      "result": "2/12",
+      "proc": "2/18",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 第Ⅱ期（全学科）",
+      "apply": "2/5〜2/16",
+      "exam": "大学入学共通テスト",
+      "result": "3/8",
+      "proc": "3/12",
+      "fee": null
+     }
+    ],
+    "note": "マナビジョン（2027年度、出願期間を含む）と Kei-Net（入試日程の締切・試験日・発表・手続）で一致。検定料は2027年度の掲載が見つからず空欄（Kei-Net の受験料は2026年度入試：一般35,000円・共テ利用15,000円、割引あり）"
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "獣医学部 獣医学科",
+      "admission": 250000,
+      "tuition": 1800000,
+      "facility": 450000,
+      "practical": null,
+      "other": 69740,
+      "first_year": 2569740,
+      "four_year": null
+     },
+     {
+      "f": "獣医学部 獣医保健看護学科",
+      "admission": 250000,
+      "tuition": 1050000,
+      "facility": 300000,
+      "practical": null,
+      "other": 66660,
+      "first_year": 1666660,
+      "four_year": null
+     },
+     {
+      "f": "獣医学部 動物応用科学科",
+      "admission": 250000,
+      "tuition": 1200000,
+      "facility": 300000,
+      "practical": null,
+      "other": 66660,
+      "first_year": 1816660,
+      "four_year": null
+     },
+     {
+      "f": "生命・環境科学部 臨床検査技術学科",
+      "admission": 250000,
+      "tuition": 1200000,
+      "facility": 300000,
+      "practical": null,
+      "other": 66660,
+      "first_year": 1816660,
+      "four_year": null
+     },
+     {
+      "f": "生命・環境科学部 食品生命科学科",
+      "admission": 250000,
+      "tuition": 1200000,
+      "facility": 300000,
+      "practical": null,
+      "other": 66660,
+      "first_year": 1816660,
+      "four_year": null
+     },
+     {
+      "f": "生命・環境科学部 環境科学科",
+      "admission": 250000,
+      "tuition": 1200000,
+      "facility": 300000,
+      "practical": null,
+      "other": 66660,
+      "first_year": 1816660,
+      "four_year": null
+     }
+    ],
+    "note": "Kei-Net（2026年度入学者用）の内訳。実習費は記載なし。ノートパソコン必携"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3361/nyushi/hoshiki/ippan/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3361/nyushi/hoshiki/kyotsu-test/",
+    "https://search.keinet.ne.jp/2304/general/schedule",
+    "https://search.keinet.ne.jp/2304/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "大正大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 文系・理系3科目奨学生",
+      "apply": "〜1/14",
+      "exam": "1/23",
+      "result": "1/29",
+      "proc": "2/19",
+      "fee": null,
+      "note": "理系は情報科学部"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅰ期（2科目・3科目・4科目）",
+      "apply": "1/6〜1/20",
+      "exam": "2/1・2/2（方式により2/1、2/1・2、2/2）",
+      "result": "2/10",
+      "proc": "2/17",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅱ期（2科目・3科目）",
+      "apply": "1/6〜2/5",
+      "exam": "2/12",
+      "result": "2/19",
+      "proc": "3/2",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅲ期（2科目・3科目）",
+      "apply": "1/6〜2/26",
+      "exam": "3/5",
+      "result": "3/12",
+      "proc": "3/18",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試 Ⅰ期（基準点型）",
+      "apply": "12/21〜1/15",
+      "exam": "大学入学共通テスト（個別試験なし）",
+      "result": "2/10",
+      "proc": "3/2",
+      "fee": 10000,
+      "note": "Web出願は1/14 16時まで。2学科まで併願可"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試 Ⅱ期",
+      "apply": "〜2/8",
+      "exam": "大学入学共通テスト",
+      "result": "2/19",
+      "proc": "3/2",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試 Ⅲ期",
+      "apply": "〜3/15",
+      "exam": "大学入学共通テスト",
+      "result": "3/19",
+      "proc": "3/26",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 公募制（専願）",
+      "apply": "〜11/9",
+      "exam": "11/21",
+      "result": "12/1",
+      "proc": "12/10",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 公募制（併願）",
+      "apply": "〜12/3",
+      "exam": "12/12",
+      "result": "12/18",
+      "proc": "1/7",
+      "fee": null
+     }
+    ],
+    "note": "一般選抜は Kei-Net（入試日程）とマナビジョン（2027年度、出願期間）で一致。共テ利用Ⅰ期は大学公式（2027年度 共通テスト利用入試Ⅰ期 基準点型の案内）と Kei-Net で一致。Ⅱ期・Ⅲ期・推薦は Kei-Net（2027年度入試）の締切日。全学部同じ日程（情報科学部は理系方式あり）。検定料は共テ利用Ⅰ期以外は空欄"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2236/general/schedule",
+    "https://search.keinet.ne.jp/2236/recommend/exam_rec",
+    "https://manabi.benesse.ne.jp/daigaku/school/3268/nyushi/hoshiki/ippan/",
+    "https://www.tais.ac.jp/wp/wp-content/uploads/2026/05/8f864a78abca2df5fd600d80fe10ab0e.pdf"
+   ]
+  }
+ },
+ {
+  "name": "日本栄養大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 1期",
+      "apply": "1/5〜1/13",
+      "exam": "1/31",
+      "result": "2/4",
+      "proc": "2/10",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 2期",
+      "apply": "1/5〜1/28",
+      "exam": "2/14",
+      "result": "2/25",
+      "proc": "3/10",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜",
+      "apply": "1/5〜1/28",
+      "exam": "大学入学共通テスト",
+      "result": "2/18",
+      "proc": "2/26",
+      "fee": null
+     }
+    ],
+    "note": "栄養学部の全学科共通。マナビジョン（2027年度）と Kei-Net（入試日程）で一致。検定料は2027年度の掲載が見つからず空欄（Kei-Net の受験料は2026年度入試：一般25,000円・共テ利用10,000円、割引あり）"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3257/nyushi/",
+    "https://search.keinet.ne.jp/2226/general/schedule"
+   ]
+  }
+ },
+ {
+  "name": "流通経済大学",
+  "story": {
+   "summary": "流通経済大学は、龍ケ崎（茨城県）と新松戸（千葉県）の2キャンパスに5学部を置く大学。流通情報学部では物流・情報・企業戦略をまとめたロジスティクスを、企業人による実践科目や企業訪問を通して学べる。物流や流通の仕事に関心がある生徒や、強化部でスポーツを続けながら学びたい生徒に話せる大学。",
+   "only": [
+    {
+     "t": "流通情報学部は「流通をコアとした学部」で、流通総合系・物流系・情報系の分野からロジスティクスを学び、企業人による実践科目や企業訪問ができる科目がある",
+     "src": "https://www.rku.ac.jp/faculty/distribution/"
+    },
+    {
+     "t": "経済学部・共創社会学部（地域人間科学科）・法学部は、入学手続のときに龍ケ崎と新松戸のどちらのキャンパスで学ぶかを選べる",
+     "src": "https://passnavi.obunsha.co.jp/univ/1880/top/"
+    },
+    {
+     "t": "サッカー・ラグビー・駅伝などの強化部があり、強化部に入る学生は龍ケ崎キャンパスに所属する",
+     "src": "https://passnavi.obunsha.co.jp/univ/1880/top/"
+    },
+    {
+     "t": "共通テスト利用入試の成績優秀者には、授業料の全額または半額相当の奨学金が給付される",
+     "src": "https://passnavi.obunsha.co.jp/univ/1880/top/"
+    }
+   ],
+   "vs": [
+    {
+     "u": "常磐大学",
+     "t": "常磐大学は水戸市で人間科学・総合政策・看護の3学部を学ぶが、流通経済大学は物流・流通を中心に学ぶ流通情報学部を置き、首都圏寄りの新松戸キャンパスでも学べる",
+     "src": "https://www.rku.ac.jp/faculty/distribution/"
+    }
+   ],
+   "checked": "2026-11-12"
+  }
+ },
+ {
+  "name": "防衛大学校",
+  "story": {
+   "summary": "防衛大学校は将来の幹部自衛官を育てる学校で、学生は特別職の国家公務員として学生手当を受けながら、全員が学生舎で生活する。文系3・理系11の計14学科で一般大学と同様の教育に防衛学と訓練が加わり、卒業生は学士の学位を得て各自衛隊の幹部候補生学校へ進む。自衛隊の幹部として働く道を考える生徒に話せる学校。",
+   "only": [
+    {
+     "t": "学生は特別職の国家公務員で学生手当が支給され、約2,000名の学生全員が学生舎で団体生活を送る",
+     "src": "https://www.mod.go.jp/nda/img/index/doc/Main_Brochure_of_NDA_JP.pdf"
+    },
+    {
+     "t": "本科は文系3・理系11の計14学科で、一般大学と同様の教育に加えて防衛学を学び、4年間で約1,000時間の訓練を行う",
+     "src": "https://www.mod.go.jp/nda/img/index/doc/Main_Brochure_of_NDA_JP.pdf"
+    },
+    {
+     "t": "卒業生は大学改革支援・学位授与機構の審査を経て学士の学位を得て、各自衛隊の幹部候補生学校を経て約1年後に幹部自衛官となる",
+     "src": "https://www.mod.go.jp/nda/img/index/doc/Main_Brochure_of_NDA_JP.pdf"
+    },
+    {
+     "t": "令和7年度から米国の士官学校へ4年間留学する制度を始め、諸外国の士官候補生を招く国際士官候補生会議も主催している",
+     "src": "https://www.mod.go.jp/nda/img/index/doc/Main_Brochure_of_NDA_JP.pdf"
+    }
+   ],
+   "vs": [
+    {
+     "u": "海上保安大学校",
+     "t": "海上保安大学校は航海・機関・情報通信の3専攻で海上保安庁の幹部を育てるが、防衛大学校は人文・社会科学と理工の14学科から選び、陸・海・空の自衛隊の幹部をめざす",
+     "src": "https://www.mod.go.jp/nda/img/index/doc/Main_Brochure_of_NDA_JP.pdf"
+    },
+    {
+     "u": "防衛医科大学校",
+     "t": "防衛医科大学校は医官・看護官を育てる医学科・看護学科を置くが、防衛大学校は文系・理系の14学科で学び、2学年から陸上・海上・航空の要員に分かれる",
+     "src": "https://www.mod.go.jp/nda/img/index/doc/Main_Brochure_of_NDA_JP.pdf"
+    }
+   ],
+   "checked": "2026-11-12"
+  }
+ }
+]
