@@ -186638,8 +186638,8 @@ null
 "departments": "2026-11-08",
 "difficulty": "2026-11-08",
 "methods": "2026-11-08",
-"schedule": "2026-11-08",
-"money": "2026-11-08",
+"schedule": "2026-11-12",
+"money": "2026-11-12",
 "access": "2026-11-08",
 "ic": "2026-11-08",
 "careers": "2026-11-08",
@@ -186762,7 +186762,8 @@ null
 "proc": "3/19",
 "fee": 15000
 }
-]
+],
+"note": "河合塾 Kei-Net の入試日程で全4学部同じ日程を確認（A日程は統一2/3・分割2/4、B日程は面接3/3・3科目3/4）。出願開始日と検定料は既存の値（未確認）"
 },
 "money": {
 "year": "2027年度",
@@ -186771,9 +186772,9 @@ null
 "f": "総合福祉学部（社会福祉学科・福祉行政学科）",
 "admission": 200000,
 "tuition": 733000,
-"facility": 291000,
+"facility": 241000,
 "practical": 0,
-"other": 44200,
+"other": 94200,
 "first_year": 1268200,
 "four_year": null
 },
@@ -186781,19 +186782,20 @@ null
 "f": "総合福祉学部（福祉心理学科）",
 "admission": 200000,
 "tuition": 733000,
-"facility": 326000,
-"practical": 0,
-"other": 44200,
+"facility": 241000,
+"practical": 35000,
+"other": 94200,
 "first_year": 1303200,
-"four_year": null
+"four_year": null,
+"note": "実験実習費は実験設備維持費"
 },
 {
 "f": "教育学部",
 "admission": 200000,
 "tuition": 733000,
-"facility": 291000,
+"facility": 241000,
 "practical": 0,
-"other": 44200,
+"other": 94200,
 "first_year": 1268200,
 "four_year": null
 },
@@ -186801,9 +186803,9 @@ null
 "f": "共生まちづくり学部",
 "admission": 200000,
 "tuition": 733000,
-"facility": 291000,
+"facility": 241000,
 "practical": 0,
-"other": 44200,
+"other": 94200,
 "first_year": 1268200,
 "four_year": null
 },
@@ -186811,23 +186813,25 @@ null
 "f": "健康科学部（保健看護学科・リハビリテーション学科）",
 "admission": 200000,
 "tuition": 1000000,
-"facility": 600000,
-"practical": 100000,
-"other": 44200,
+"facility": 300000,
+"practical": 350000,
+"other": 94200,
 "first_year": 1944200,
-"four_year": null
+"four_year": null,
+"note": "実験実習費は実習費10万円＋実験設備維持費25万円"
 },
 {
 "f": "健康科学部（医療経営管理学科）",
 "admission": 200000,
 "tuition": 733000,
-"facility": 291000,
+"facility": 241000,
 "practical": 0,
-"other": 44200,
+"other": 94200,
 "first_year": 1268200,
 "four_year": null
 }
-]
+],
+"note": "旺文社パスナビ（2027年度・2026年9月調査）。諸会費に教育環境設備費5万円を含む。外部AI由来の内訳（施設費・諸会費の振り分け）を訂正"
 },
 "access": "国見キャンパス：JR仙山線「東北福祉大前駅」より徒歩すぐ",
 "careers": "総合病院・医療福祉施設、地方公務員、公私立学校教員、警察官・消防官、銀行・金融、一般企業など。",
@@ -186839,7 +186843,9 @@ null
 "https://search.keinet.ne.jp/2058/outline/expense",
 "https://search.keinet.ne.jp/2058/outline/campus",
 "https://www.tfu.ac.jp/admissions/2026-kyotsu-test-K.html",
-"https://telemail.jp/shingaku/university/10000068/examination/general"
+"https://telemail.jp/shingaku/university/10000068/examination/general",
+"https://search.keinet.ne.jp/2058/general/schedule",
+"https://passnavi.obunsha.co.jp/univ/1790/expense/"
 ]
 },
 "東北芸術工科大学": {
@@ -186852,8 +186858,8 @@ null
 "departments": "2026-11-08",
 "difficulty": "2026-11-08",
 "methods": "2026-11-08",
-"schedule": "2026-11-08",
-"money": "2026-11-08",
+"schedule": "2026-11-12",
+"money": "2026-11-12",
 "access": "2026-11-08",
 "ic": "2026-11-08",
 "careers": "2026-11-08",
@@ -186969,6 +186975,15 @@ null
 },
 {
 "kubun": "一般",
+"name": "一般選抜［共テ1科目］",
+"apply": "1/6〜1/21",
+"exam": "1/31",
+"result": "2/12",
+"proc": "2/26",
+"fee": null
+},
+{
+"kubun": "一般",
 "name": "一般選抜［後期］",
 "apply": "2/12〜2/26",
 "exam": "3/14",
@@ -187003,52 +187018,65 @@ null
 "proc": "3/24",
 "fee": 15000
 }
-]
+],
+"note": "ベネッセ マナビジョン（2027年度入試）で全方式の日程を確認。専願型・面接型・後期・共テ利用は学科・コースにより実施の有無が異なる。検定料は既存の値（共テ1科目は未確認）"
 },
 "money": {
-"year": "2027年度",
+"year": "2026年度",
 "rows": [
 {
-"f": "デザイン工学部（プロダクト・建築環境・グラフィック・映像）",
+"f": "デザイン工学部（プロダクトデザイン・建築・環境デザイン・グラフィックデザイン・映像）",
 "admission": 275000,
 "tuition": 1320000,
-"facility": 0,
-"practical": 0,
+"facility": null,
+"practical": null,
 "other": 20660,
 "first_year": 1615660,
 "four_year": null
 },
 {
-"f": "デザイン工学部（企画構想学科・コミュニティデザイン学科）",
+"f": "デザイン工学部（企画構想学科）",
+"admission": 275000,
+"tuition": 1220000,
+"facility": null,
+"practical": null,
+"other": 20660,
+"first_year": 1515660,
+"four_year": null
+},
+{
+"f": "芸術学部（美術科・工芸デザイン学科）",
+"admission": 275000,
+"tuition": 1320000,
+"facility": null,
+"practical": null,
+"other": 20660,
+"first_year": 1615660,
+"four_year": null,
+"note": "Kei-Net では2025年度入学者用の表示"
+},
+{
+"f": "芸術学部（文化財保存修復学科）",
 "admission": 275000,
 "tuition": 1200000,
-"facility": 0,
-"practical": 0,
+"facility": null,
+"practical": null,
 "other": 20660,
 "first_year": 1495660,
-"four_year": null
-},
-{
-"f": "芸術学部（美術科・工芸デザイン学科・文化財保存修復学科）",
-"admission": 275000,
-"tuition": 1320000,
-"facility": 0,
-"practical": 0,
-"other": 20660,
-"first_year": 1615660,
 "four_year": null
 },
 {
 "f": "芸術学部（歴史遺産学科・文芸学科）",
 "admission": 275000,
 "tuition": 1135000,
-"facility": 0,
-"practical": 0,
+"facility": null,
+"practical": null,
 "other": 20660,
 "first_year": 1430660,
 "four_year": null
 }
-]
+],
+"note": "河合塾 Kei-Net（2026年度入学者用）。授業料の学科別の額はマナビジョン（2025年度）とも一致。外部AI由来の2027年度の値（企画構想120万円・文化財保存修復132万円）は出典で確認できず訂正。2027年度の額は未確認。個人用具・教材費、推奨パソコン（2025年度309,100円〜）が別途必要"
 },
 "access": "山形キャンパス：JR「山形駅」東口より山交バス「芸術工科大学前」行きで約20分、終点下車",
 "careers": "デザイン制作・広告代理店、Web・映像・ゲーム制作、建築・住宅メーカー、製造業の企画開発、教員、公務員など。",
@@ -187061,7 +187089,9 @@ null
 "https://www.tuad.ac.jp/about/access/",
 "https://www.tuad.ac.jp/adm/information/exam/geb/",
 "https://www.tuad.ac.jp/adm/information/exam/cat/",
-"https://www.tuad.ac.jp/adm/wp-content/uploads/2026/05/2027-tuad_guidelines06.pdf"
+"https://www.tuad.ac.jp/adm/wp-content/uploads/2026/05/2027-tuad_guidelines06.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/3090/nyushi/gokaku-happyo/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3090/gakuhi/index.html"
 ]
 },
 "東日本国際大学": {
@@ -187074,7 +187104,7 @@ null
 "departments": "2026-11-08",
 "difficulty": "2026-11-08",
 "methods": "2026-11-08",
-"schedule": "2026-11-08",
+"schedule": "2026-11-12",
 "money": "2026-11-08",
 "access": "2026-11-08",
 "ic": "2026-11-08",
@@ -187146,7 +187176,7 @@ null
 },
 {
 "kubun": "一般",
-"name": "一般選抜（B方式）",
+"name": "一般選抜（B方式・高得点重視型）",
 "apply": "2/15〜2/25",
 "exam": "3/6",
 "result": "3/12",
@@ -187162,7 +187192,8 @@ null
 "proc": "3/5",
 "fee": 15000
 }
-]
+],
+"note": "テレメール（2027年度一般選抜、2026年7月1日時点）でA方式・B方式の日程を確認（両学部同じ、試験地は福島県）。共通テスト利用選抜の日程と検定料は未確認（既存の値）"
 },
 "money": {
 "year": "2027年度",
@@ -187212,8 +187243,8 @@ null
 "departments": "2026-11-08",
 "difficulty": "2026-11-08",
 "methods": "2026-11-08",
-"schedule": "2026-11-08",
-"money": "2026-11-08",
+"schedule": "2026-11-12",
+"money": "2026-11-12",
 "access": "2026-11-08",
 "ic": "2026-11-08",
 "careers": "2026-11-08",
@@ -187282,21 +187313,31 @@ null
 "kubun": "一般",
 "name": "一般選抜（後期）",
 "apply": "2/16〜2/26",
-"exam": "3/3",
-"result": "3/10",
-"proc": "3/19",
+"exam": "3/2",
+"result": "3/5",
+"proc": "3/17",
 "fee": 30000
 },
 {
 "kubun": "共テ利用",
 "name": "共通テスト利用選抜（前期）",
 "apply": "1/4〜1/29",
-"exam": "1/16・1/17（共テ）",
+"exam": "1/16・1/17（共テ）＋面接2/5",
 "result": "2/16",
 "proc": "2/25",
 "fee": 15000
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜（後期）",
+"apply": "3/8〜3/15",
+"exam": "1/16・1/17（共テ）＋面接3/17",
+"result": "3/20",
+"proc": "3/25",
+"fee": 15000
 }
-]
+],
+"note": "大学公式「令和9年度 学生募集要項」。前期は消印有効、後期は必着。一般後期の日程（外部AI由来）を訂正し、共テ利用後期を追加"
 },
 "money": {
 "year": "2027年度",
@@ -187309,7 +187350,8 @@ null
 "practical": 100000,
 "other": 4000,
 "first_year": 1304000,
-"four_year": null
+"four_year": null,
+"note": "施設費は教育充実費。諸会費は学友会入会金400円＋学友会費3,600円"
 },
 {
 "f": "生活創生学部（こども発達学科）",
@@ -187319,9 +187361,11 @@ null
 "practical": 0,
 "other": 4000,
 "first_year": 1204000,
-"four_year": null
+"four_year": null,
+"note": "実習材料費は都度納入（年間1万円程度）"
 }
-]
+],
+"note": "大学公式「令和9年度 学生募集要項」の納付金（Kei-Net 2026年度とも一致）。免許・資格の課程履修費（年額3万円）、保険料4,010円・同窓会費5,000円が別途"
 },
 "access": "清原キャンパス：JR奥羽本線「弘前駅」より弘南バスで約15分「学園町」下車徒歩8分（または「柴田学園大学前」下車）",
 "careers": "病院・福祉施設の管理栄養士・栄養士、公私立小学校教諭、幼稚園教諭・保育所保育士、食品・流通企業、公務員など。",
@@ -187334,7 +187378,9 @@ null
 "https://univ.shibata.ac.jp/access/",
 "https://univ.shibata.ac.jp/admission/school-expenses/",
 "https://univ.shibata.ac.jp/admission/guidelines/",
-"https://passnavi.obunsha.co.jp/univ/1670/schedule/"
+"https://passnavi.obunsha.co.jp/univ/1670/schedule/",
+"https://univ.shibata.ac.jp/wp-content/uploads/2026/06/R9_daigaku_bosyuyoukou.pdf",
+"https://search.keinet.ne.jp/2027/outline/expense"
 ]
 },
 "盛岡大学": {
@@ -187347,8 +187393,8 @@ null
 "departments": "2026-11-08",
 "difficulty": "2026-11-08",
 "methods": "2026-11-08",
-"schedule": "2026-11-08",
-"money": "2026-11-08",
+"schedule": "2026-11-12",
+"money": "2026-11-12",
 "access": "2026-11-08",
 "ic": "2026-11-08",
 "careers": "2026-11-08",
@@ -187455,7 +187501,7 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "2/16",
 "proc": "3/9",
-"fee": 15000
+"fee": null
 },
 {
 "kubun": "共テ利用",
@@ -187464,7 +187510,7 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "3/8",
 "proc": "3/25",
-"fee": 15000
+"fee": null
 },
 {
 "kubun": "共テ利用",
@@ -187473,9 +187519,10 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "3/18",
 "proc": "3/26",
-"fee": 15000
+"fee": null
 }
-]
+],
+"note": "河合塾 Kei-Net の入試日程で全方式を確認（文学部・栄養科学部同じ。栄養科学部の一般は前期のみ）。出願開始日は既存の値。検定料は一般32,000円（学則）、共テ利用は学則に16,000円（旧センター試験利用の表記）とあり要確認"
 },
 "money": {
 "year": "2027年度",
@@ -187486,8 +187533,8 @@ null
 "tuition": 720000,
 "facility": 270000,
 "practical": 0,
-"other": 50000,
-"first_year": 1300000,
+"other": null,
+"first_year": 1250000,
 "four_year": null
 },
 {
@@ -187495,12 +187542,14 @@ null
 "admission": 260000,
 "tuition": 720000,
 "facility": 270000,
-"practical": 100000,
-"other": 50000,
-"first_year": 1400000,
-"four_year": null
+"practical": 90000,
+"other": null,
+"first_year": 1340000,
+"four_year": null,
+"note": "実験実習費は2〜4年次13万円"
 }
-]
+],
+"note": "初年度合計はマナビジョン（2027年度入学者・参考）、内訳は大学公式の学則（令和8年4月施行）。保険料・学友会費・後援会費・教育実習費等は別途（金額記載なし）。外部AI由来の値（諸会費5万円・栄養の実習費10万円）は確認できず訂正"
 },
 "access": "滝沢キャンパス：JR盛岡駅東口より岩手県北バス「盛岡大学」行きで約40分、またはIGRいわて銀河鉄道「滝沢駅」よりバス約10分",
 "careers": "岩手県内外の公私立学校教員、保育所・幼稚園教諭、病院・給食受託企業の管理栄養士、地方公務員、金融機関など。",
@@ -187513,7 +187562,10 @@ null
 "https://search.keinet.ne.jp/2043/outline/campus",
 "https://morioka-u.ac.jp/nyushi/",
 "https://morioka-u.ac.jp/nyushi/bungakubu/ippan/",
-"https://morioka-u.ac.jp/nyushi/bungakubu/center/"
+"https://morioka-u.ac.jp/nyushi/bungakubu/center/",
+"https://search.keinet.ne.jp/2043/general/schedule",
+"https://manabi.benesse.ne.jp/daigaku/school/3058/gakuhi/index.html",
+"https://morioka-u.ac.jp/c3eac277af092bbbae4c3857321572ea.pdf"
 ]
 },
 "日本医療大学": {
@@ -209754,12 +209806,38 @@ null
 },
 "_checked": {
 "methods": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"schedule": "2026-11-12"
 },
 "_via": "external-ai",
 "sources": [
-"https://toin.ac.jp/ouen/update/"
-]
+"https://toin.ac.jp/ouen/update/",
+"https://manabi.benesse.ne.jp/daigaku/school/3374/nyushi/gokaku-happyo/index.html"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 全学統一前期A方式",
+"apply": "1/5〜1/25",
+"exam": "2/3",
+"result": "2/16",
+"proc": "2/24",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 全学統一前期B方式",
+"apply": "1/5〜1/29",
+"exam": "2/8",
+"result": "2/16",
+"proc": "2/24",
+"fee": null
+}
+],
+"note": "ベネッセ マナビジョン（2027年度入試）。法学部・医用工学部・スポーツ科学部・現代教養学環で同じ日程。後期C方式は2027年度の掲載前、共通テスト利用と検定料は未確認"
+}
 },
 "ぐんま未来大学": {
 "departments": [
@@ -209775,7 +209853,8 @@ null
 "departments": "2026-11-09",
 "methods": "2026-11-09",
 "scholar": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"schedule": "2026-11-12"
 },
 "methods": {
 "year": "2027年度入試",
@@ -209809,8 +209888,60 @@ null
 "https://www.gmu.ac.jp/information/57062.html",
 "https://www.gmu.ac.jp/information/61296.html",
 "https://www.gmu.ac.jp/admission/infection/",
-"https://www.kyodo.co.jp/news/2025-04-25_3933883/"
-]
+"https://www.kyodo.co.jp/news/2025-04-25_3933883/",
+"https://manabi.benesse.ne.jp/daigaku/school/3141/nyushi/gokaku-happyo/index.html"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜Ⅰ期",
+"apply": "1/6〜1/26",
+"exam": "2/4",
+"result": "2/12",
+"proc": "3/8",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜Ⅱ期",
+"apply": "2/4〜2/15",
+"exam": "2/19",
+"result": "2/26",
+"proc": "3/12",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用（前期）",
+"apply": "1/6〜1/26",
+"exam": "1/16・1/17（共テ）",
+"result": "2/12",
+"proc": "3/8",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用（中期）",
+"apply": "2/4〜2/15",
+"exam": "1/16・1/17（共テ）",
+"result": "2/26",
+"proc": "3/12",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用（後期）",
+"apply": "2/23〜3/9",
+"exam": "1/16・1/17（共テ）",
+"result": "3/17",
+"proc": "3/25",
+"fee": null
+}
+],
+"note": "ベネッセ マナビジョン（2027年度入試）。医療保健学部 看護学科・栄養学科で同じ日程（ネット出願）。検定料は未確認"
+}
 },
 "桐朋学園大学": {
 "departments": [

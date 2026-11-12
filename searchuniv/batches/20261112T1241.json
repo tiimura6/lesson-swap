@@ -1,0 +1,624 @@
+[
+ {
+  "name": "東北福祉大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜A日程",
+      "apply": "1/8〜1/19",
+      "exam": "2/3・2/4",
+      "result": "2/15",
+      "proc": "2/24",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜B日程",
+      "apply": "2/12〜2/21",
+      "exam": "3/3・3/4",
+      "result": "3/12",
+      "proc": "3/19",
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（前期）",
+      "apply": "1/8〜1/19",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/15",
+      "proc": "2/24",
+      "fee": 15000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（後期）",
+      "apply": "2/12〜2/21",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/12",
+      "proc": "3/19",
+      "fee": 15000
+     }
+    ],
+    "note": "河合塾 Kei-Net の入試日程で全4学部同じ日程を確認（A日程は統一2/3・分割2/4、B日程は面接3/3・3科目3/4）。出願開始日と検定料は既存の値（未確認）"
+   },
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "総合福祉学部（社会福祉学科・福祉行政学科）",
+      "admission": 200000,
+      "tuition": 733000,
+      "facility": 241000,
+      "practical": 0,
+      "other": 94200,
+      "first_year": 1268200,
+      "four_year": null
+     },
+     {
+      "f": "総合福祉学部（福祉心理学科）",
+      "admission": 200000,
+      "tuition": 733000,
+      "facility": 241000,
+      "practical": 35000,
+      "other": 94200,
+      "first_year": 1303200,
+      "four_year": null,
+      "note": "実験実習費は実験設備維持費"
+     },
+     {
+      "f": "教育学部",
+      "admission": 200000,
+      "tuition": 733000,
+      "facility": 241000,
+      "practical": 0,
+      "other": 94200,
+      "first_year": 1268200,
+      "four_year": null
+     },
+     {
+      "f": "共生まちづくり学部",
+      "admission": 200000,
+      "tuition": 733000,
+      "facility": 241000,
+      "practical": 0,
+      "other": 94200,
+      "first_year": 1268200,
+      "four_year": null
+     },
+     {
+      "f": "健康科学部（保健看護学科・リハビリテーション学科）",
+      "admission": 200000,
+      "tuition": 1000000,
+      "facility": 300000,
+      "practical": 350000,
+      "other": 94200,
+      "first_year": 1944200,
+      "four_year": null,
+      "note": "実験実習費は実習費10万円＋実験設備維持費25万円"
+     },
+     {
+      "f": "健康科学部（医療経営管理学科）",
+      "admission": 200000,
+      "tuition": 733000,
+      "facility": 241000,
+      "practical": 0,
+      "other": 94200,
+      "first_year": 1268200,
+      "four_year": null
+     }
+    ],
+    "note": "旺文社パスナビ（2027年度・2026年9月調査）。諸会費に教育環境設備費5万円を含む。外部AI由来の内訳（施設費・諸会費の振り分け）を訂正"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2058/general/schedule",
+    "https://passnavi.obunsha.co.jp/univ/1790/expense/"
+   ]
+  }
+ },
+ {
+  "name": "東北芸術工科大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜［前期］",
+      "apply": "1/6〜1/21",
+      "exam": "1/31",
+      "result": "2/12",
+      "proc": "2/26",
+      "fee": 33000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜［専願型］",
+      "apply": "1/6〜1/12",
+      "exam": "1/31",
+      "result": "2/12",
+      "proc": "2/26",
+      "fee": 33000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜［共テ1科目］",
+      "apply": "1/6〜1/21",
+      "exam": "1/31",
+      "result": "2/12",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜［後期］",
+      "apply": "2/12〜2/26",
+      "exam": "3/14",
+      "result": "3/19",
+      "proc": "3/24",
+      "fee": 33000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜［面接型］",
+      "apply": "2/12〜2/19",
+      "exam": "3/14",
+      "result": "3/19",
+      "proc": "3/24",
+      "fee": 33000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用［前期］",
+      "apply": "1/6〜1/25",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "2/26",
+      "fee": 15000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用［後期］",
+      "apply": "2/12〜2/26",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/19",
+      "proc": "3/24",
+      "fee": 15000
+     }
+    ],
+    "note": "ベネッセ マナビジョン（2027年度入試）で全方式の日程を確認。専願型・面接型・後期・共テ利用は学科・コースにより実施の有無が異なる。検定料は既存の値（共テ1科目は未確認）"
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "デザイン工学部（プロダクトデザイン・建築・環境デザイン・グラフィックデザイン・映像）",
+      "admission": 275000,
+      "tuition": 1320000,
+      "facility": null,
+      "practical": null,
+      "other": 20660,
+      "first_year": 1615660,
+      "four_year": null
+     },
+     {
+      "f": "デザイン工学部（企画構想学科）",
+      "admission": 275000,
+      "tuition": 1220000,
+      "facility": null,
+      "practical": null,
+      "other": 20660,
+      "first_year": 1515660,
+      "four_year": null
+     },
+     {
+      "f": "芸術学部（美術科・工芸デザイン学科）",
+      "admission": 275000,
+      "tuition": 1320000,
+      "facility": null,
+      "practical": null,
+      "other": 20660,
+      "first_year": 1615660,
+      "four_year": null,
+      "note": "Kei-Net では2025年度入学者用の表示"
+     },
+     {
+      "f": "芸術学部（文化財保存修復学科）",
+      "admission": 275000,
+      "tuition": 1200000,
+      "facility": null,
+      "practical": null,
+      "other": 20660,
+      "first_year": 1495660,
+      "four_year": null
+     },
+     {
+      "f": "芸術学部（歴史遺産学科・文芸学科）",
+      "admission": 275000,
+      "tuition": 1135000,
+      "facility": null,
+      "practical": null,
+      "other": 20660,
+      "first_year": 1430660,
+      "four_year": null
+     }
+    ],
+    "note": "河合塾 Kei-Net（2026年度入学者用）。授業料の学科別の額はマナビジョン（2025年度）とも一致。外部AI由来の2027年度の値（企画構想120万円・文化財保存修復132万円）は出典で確認できず訂正。2027年度の額は未確認。個人用具・教材費、推奨パソコン（2025年度309,100円〜）が別途必要"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3090/nyushi/gokaku-happyo/index.html",
+    "https://search.keinet.ne.jp/2083/outline/expense",
+    "https://manabi.benesse.ne.jp/daigaku/school/3090/gakuhi/index.html"
+   ]
+  }
+ },
+ {
+  "name": "東日本国際大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A方式）",
+      "apply": "1/12〜1/26",
+      "exam": "2/6",
+      "result": "2/18",
+      "proc": "3/5",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（B方式・高得点重視型）",
+      "apply": "2/15〜2/25",
+      "exam": "3/6",
+      "result": "3/12",
+      "proc": "3/25",
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（前期）",
+      "apply": "1/12〜1/26",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/18",
+      "proc": "3/5",
+      "fee": 15000
+     }
+    ],
+    "note": "テレメール（2027年度一般選抜、2026年7月1日時点）でA方式・B方式の日程を確認（両学部同じ、試験地は福島県）。共通テスト利用選抜の日程と検定料は未確認（既存の値）"
+   },
+   "sources": [
+    "https://telemail.jp/shingaku/university/10001073/examination/general"
+   ]
+  }
+ },
+ {
+  "name": "柴田学園大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期）",
+      "apply": "1/4〜1/29",
+      "exam": "2/5",
+      "result": "2/16",
+      "proc": "2/25",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（後期）",
+      "apply": "2/16〜2/26",
+      "exam": "3/2",
+      "result": "3/5",
+      "proc": "3/17",
+      "fee": 30000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（前期）",
+      "apply": "1/4〜1/29",
+      "exam": "1/16・1/17（共テ）＋面接2/5",
+      "result": "2/16",
+      "proc": "2/25",
+      "fee": 15000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（後期）",
+      "apply": "3/8〜3/15",
+      "exam": "1/16・1/17（共テ）＋面接3/17",
+      "result": "3/20",
+      "proc": "3/25",
+      "fee": 15000
+     }
+    ],
+    "note": "大学公式「令和9年度 学生募集要項」。前期は消印有効、後期は必着。一般後期の日程（外部AI由来）を訂正し、共テ利用後期を追加"
+   },
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "生活創生学部（健康栄養学科・フードマネジメント学科）",
+      "admission": 200000,
+      "tuition": 700000,
+      "facility": 300000,
+      "practical": 100000,
+      "other": 4000,
+      "first_year": 1304000,
+      "four_year": null,
+      "note": "施設費は教育充実費。諸会費は学友会入会金400円＋学友会費3,600円"
+     },
+     {
+      "f": "生活創生学部（こども発達学科）",
+      "admission": 200000,
+      "tuition": 700000,
+      "facility": 300000,
+      "practical": 0,
+      "other": 4000,
+      "first_year": 1204000,
+      "four_year": null,
+      "note": "実習材料費は都度納入（年間1万円程度）"
+     }
+    ],
+    "note": "大学公式「令和9年度 学生募集要項」の納付金（Kei-Net 2026年度とも一致）。免許・資格の課程履修費（年額3万円）、保険料4,010円・同窓会費5,000円が別途"
+   },
+   "sources": [
+    "https://univ.shibata.ac.jp/wp-content/uploads/2026/06/R9_daigaku_bosyuyoukou.pdf",
+    "https://search.keinet.ne.jp/2027/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "盛岡大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期）",
+      "apply": "1/4〜1/22",
+      "exam": "2/7",
+      "result": "2/16",
+      "proc": "3/9",
+      "fee": 32000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（後期）",
+      "apply": "2/1〜2/19",
+      "exam": "3/2",
+      "result": "3/8",
+      "proc": "3/25",
+      "fee": 32000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（Ⅰ期）",
+      "apply": "1/4〜1/22",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/16",
+      "proc": "3/9",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（Ⅱ期）",
+      "apply": "2/1〜2/19",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/8",
+      "proc": "3/25",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（Ⅲ期）",
+      "apply": "2/26〜3/9",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/18",
+      "proc": "3/26",
+      "fee": null
+     }
+    ],
+    "note": "河合塾 Kei-Net の入試日程で全方式を確認（文学部・栄養科学部同じ。栄養科学部の一般は前期のみ）。出願開始日は既存の値。検定料は一般32,000円（学則）、共テ利用は学則に16,000円（旧センター試験利用の表記）とあり要確認"
+   },
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "文学部",
+      "admission": 260000,
+      "tuition": 720000,
+      "facility": 270000,
+      "practical": 0,
+      "other": null,
+      "first_year": 1250000,
+      "four_year": null
+     },
+     {
+      "f": "栄養科学部",
+      "admission": 260000,
+      "tuition": 720000,
+      "facility": 270000,
+      "practical": 90000,
+      "other": null,
+      "first_year": 1340000,
+      "four_year": null,
+      "note": "実験実習費は2〜4年次13万円"
+     }
+    ],
+    "note": "初年度合計はマナビジョン（2027年度入学者・参考）、内訳は大学公式の学則（令和8年4月施行）。保険料・学友会費・後援会費・教育実習費等は別途（金額記載なし）。外部AI由来の値（諸会費5万円・栄養の実習費10万円）は確認できず訂正"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2043/general/schedule",
+    "https://manabi.benesse.ne.jp/daigaku/school/3058/gakuhi/index.html",
+    "https://morioka-u.ac.jp/c3eac277af092bbbae4c3857321572ea.pdf"
+   ]
+  }
+ },
+ {
+  "name": "桐蔭横浜大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 全学統一前期A方式",
+      "apply": "1/5〜1/25",
+      "exam": "2/3",
+      "result": "2/16",
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 全学統一前期B方式",
+      "apply": "1/5〜1/29",
+      "exam": "2/8",
+      "result": "2/16",
+      "proc": "2/24",
+      "fee": null
+     }
+    ],
+    "note": "ベネッセ マナビジョン（2027年度入試）。法学部・医用工学部・スポーツ科学部・現代教養学環で同じ日程。後期C方式は2027年度の掲載前、共通テスト利用と検定料は未確認"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3374/nyushi/gokaku-happyo/index.html"
+   ]
+  }
+ },
+ {
+  "name": "ぐんま未来大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅰ期",
+      "apply": "1/6〜1/26",
+      "exam": "2/4",
+      "result": "2/12",
+      "proc": "3/8",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅱ期",
+      "apply": "2/4〜2/15",
+      "exam": "2/19",
+      "result": "2/26",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用（前期）",
+      "apply": "1/6〜1/26",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "3/8",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用（中期）",
+      "apply": "2/4〜2/15",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/26",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用（後期）",
+      "apply": "2/23〜3/9",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/17",
+      "proc": "3/25",
+      "fee": null
+     }
+    ],
+    "note": "ベネッセ マナビジョン（2027年度入試）。医療保健学部 看護学科・栄養学科で同じ日程（ネット出願）。検定料は未確認"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3141/nyushi/gokaku-happyo/index.html"
+   ]
+  }
+ },
+ {
+  "name": "専修大学",
+  "story": {
+   "summary": "専修大学は1880年に経済・法律を学ぶ夜間の専修学校として開校し、「社会知性の開発」をスローガンに掲げる。8学部のうち文・経済・経営・ネットワーク情報・人間科学の5学部は川崎市の生田キャンパス、法・商・国際コミュニケーションの3学部は千代田区神保町の神田キャンパスで学ぶ。",
+   "only": [
+    {
+     "t": "1880年に経済・法律専攻の夜間の専修学校として開校し、1885年から今川小路の校地（現在の神田キャンパスの敷地）に校舎を置いてきた",
+     "src": "https://search.keinet.ne.jp/2233"
+    },
+    {
+     "t": "法・商・国際コミュニケーションの3学部は東京都千代田区神田神保町の神田キャンパス、文・経済・経営・ネットワーク情報・人間科学の5学部は川崎市多摩区の生田キャンパスに置く",
+     "src": "https://search.keinet.ne.jp/2233"
+    },
+    {
+     "t": "2001年設置のネットワーク情報学部、2020年設置の国際コミュニケーション学部（日本語学科・異文化コミュニケーション学科）、文学部ジャーナリズム学科がある",
+     "src": "https://search.keinet.ne.jp/2233"
+    }
+   ],
+   "vs": [
+    {
+     "u": "駒澤大学",
+     "t": "駒澤大学は仏教学部など7学部を主に世田谷区の駒沢キャンパスに置くが、専修大学は8学部を神田（千代田区）と生田（川崎市）の2キャンパスに分けて置く",
+     "src": "https://passnavi.obunsha.co.jp/univ/2430/top/"
+    },
+    {
+     "u": "東洋大学",
+     "t": "東洋大学は理工・生命科学・食環境科学など理系を含む15学部を置くが、専修大学は社会科学・人文を中心にネットワーク情報学部を加えた8学部で構成する",
+     "src": "https://search.keinet.ne.jp/2265/topics/17"
+    }
+   ]
+  }
+ },
+ {
+  "name": "芝浦工業大学",
+  "story": {
+   "summary": "芝浦工業大学は1927年の東京高等工商学校を源流とし、「社会に学び、社会に貢献する技術者の育成」を建学の精神とする理工系大学。2014年に文部科学省のスーパーグローバル大学創成支援（SGU）に採択され、工学部に英語で学ぶ先進国際課程を置く。1・2年は大宮（さいたま市）、工学部・デザイン工学部の3・4年と建築学部は豊洲（江東区）で学ぶ。",
+   "only": [
+    {
+     "t": "2014年に文部科学省のスーパーグローバル大学創成支援事業（SGU）に採択され、2020年に工学部に先進国際課程を開設した",
+     "src": "https://www.shibaura-it.ac.jp/assets/Shibaura_Institute_of_Technology_2025.pdf"
+    },
+    {
+     "t": "工学部は2024年に学科制から課程制（機械工学・物質化学・電気電子工学・情報・通信工学・土木工学・先進国際の6課程）に移行した",
+     "src": "https://www.shibaura-it.ac.jp/assets/Shibaura_Institute_of_Technology_2025.pdf"
+    },
+    {
+     "t": "大宮キャンパスに全室個室の国際学生寮（2013年開設、定員122人）があり、バンコク・スラバヤ・マレーシアに海外サテライトオフィスを置く",
+     "src": "https://www.shibaura-it.ac.jp/assets/Shibaura_Institute_of_Technology_2025.pdf"
+    },
+    {
+     "t": "工学部・デザイン工学部は1・2年を大宮キャンパス、3・4年を豊洲キャンパスで学び、建築学部は全学年が豊洲キャンパス",
+     "src": "https://www.shibaura-it.ac.jp/assets/Shibaura_Institute_of_Technology_2025.pdf"
+    }
+   ],
+   "vs": [
+    {
+     "u": "東京電機大学",
+     "t": "東京電機大学は東京千住（北千住駅から徒歩1分）と埼玉鳩山にキャンパスを置くが、芝浦工業大学は豊洲（江東区）と大宮（さいたま市）にキャンパスを置き、建築学部を独立した学部として持つ",
+     "src": "https://search.keinet.ne.jp/2259/outline/campus"
+    },
+    {
+     "u": "工学院大学",
+     "t": "工学院大学は新宿・八王子にキャンパスを置くが、芝浦工業大学は豊洲・大宮にキャンパスを置き、SGU採択校として工学部に先進国際課程がある",
+     "src": "https://search.keinet.ne.jp/2212/outline/campus"
+    }
+   ]
+  }
+ }
+]

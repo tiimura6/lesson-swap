@@ -6701,6 +6701,60 @@
 "need": [
 "fees"
 ]
+},
+{
+"name": "東北福祉大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "東北福祉大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "東北芸術工科大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "東北芸術工科大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "東日本国際大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "柴田学園大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "柴田学園大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "盛岡大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "盛岡大学",
+"need": [
+"fees"
+]
 }
 ],
 "failed": [
@@ -6977,7 +7031,8 @@
 "かなざわ食マネジメント専門職大学": 1,
 "青森中央学院大学": 1,
 "酪農学園大学": 1,
-"郡山女子大学": 1
+"郡山女子大学": 1,
+"東日本国際大学": 1
 },
 "enrich": [
 {
@@ -23039,18 +23094,6 @@
 {
 "name": "東北福祉大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "東北福祉大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "東北福祉大学",
-"need": [
 "scholar"
 ]
 },
@@ -23058,18 +23101,6 @@
 "name": "東北芸術工科大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "東北芸術工科大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "東北芸術工科大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -23087,18 +23118,6 @@
 {
 "name": "東日本国際大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "東日本国際大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "東日本国際大学",
-"need": [
 "scholar"
 ]
 },
@@ -23106,18 +23125,6 @@
 "name": "柴田学園大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "柴田学園大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "柴田学園大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -23130,18 +23137,6 @@
 "name": "盛岡大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "盛岡大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "盛岡大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -27042,6 +27037,13 @@
 "schedule_dates"
 ],
 "note": "パスナビ（2027年度）で一般A日程・共テ利用の出願・試験日は既存と一致。発表・手続・B日程・検定料が未確認（2026-11-12）"
+},
+{
+"name": "東日本国際大学",
+"need": [
+"fees"
+],
+"note": "検索で公式・Kei-Net・パスナビの2027年度学費内訳を見つけられず（2026-11-12）"
 }
 ],
 "complete": false,
