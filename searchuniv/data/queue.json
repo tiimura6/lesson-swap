@@ -6599,6 +6599,60 @@
 "need": [
 "fees"
 ]
+},
+{
+"name": "人間環境大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "人間環境大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "仁愛大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "佐久大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "佐久大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "修文大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "修文大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "健康科学大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "健康科学大学",
+"need": [
+"fees"
+]
 }
 ],
 "failed": [
@@ -6864,7 +6918,9 @@
 "名古屋産業大学": 1,
 "名古屋外国語大学": 1,
 "一宮研伸大学": 1,
-"中京学院大学": 1
+"中京学院大学": 1,
+"中部学院大学": 1,
+"仁愛大学": 1
 },
 "enrich": [
 {
@@ -22465,12 +22521,6 @@
 {
 "name": "中部学院大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "中部学院大学",
-"need": [
 "scholar"
 ]
 },
@@ -22478,18 +22528,6 @@
 "name": "人間環境大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "人間環境大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "人間環境大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -22507,18 +22545,6 @@
 {
 "name": "仁愛大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "仁愛大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "仁愛大学",
-"need": [
 "scholar"
 ]
 },
@@ -22526,18 +22552,6 @@
 "name": "佐久大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "佐久大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "佐久大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -22550,18 +22564,6 @@
 "name": "修文大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "修文大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "修文大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -22574,18 +22576,6 @@
 "name": "健康科学大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "健康科学大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "健康科学大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -27017,6 +27007,20 @@
 "fees"
 ],
 "note": "検索で公式・Kei-Net・マナビジョンの学費ページを見つけられず、既存（外部AI由来）の内訳は未確認（2026-11-12）"
+},
+{
+"name": "中部学院大学",
+"need": [
+"schedule_dates"
+],
+"note": "日程はマナビジョン（2027年度）で記入済み。検定料はマナビジョンに記載なし（2026-11-12）"
+},
+{
+"name": "仁愛大学",
+"need": [
+"schedule_dates"
+],
+"note": "日程は既存どおり。検定料はマナビジョンに記載なし（2026-11-12）"
 }
 ],
 "complete": false,
