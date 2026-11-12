@@ -6545,6 +6545,60 @@
 "need": [
 "fees"
 ]
+},
+{
+"name": "名古屋文理大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "名古屋文理大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "一宮研伸大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "中京大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "中京大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "中京学院大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "中部大学",
+"need": [
+"schedule_dates"
+]
+},
+{
+"name": "中部大学",
+"need": [
+"fees"
+]
+},
+{
+"name": "中部学院大学",
+"need": [
+"fees"
+]
 }
 ],
 "failed": [
@@ -6808,7 +6862,9 @@
 "愛知医療学院大学": 1,
 "愛知医科大学": 1,
 "名古屋産業大学": 1,
-"名古屋外国語大学": 1
+"名古屋外国語大学": 1,
+"一宮研伸大学": 1,
+"中京学院大学": 1
 },
 "enrich": [
 {
@@ -22287,18 +22343,6 @@
 {
 "name": "名古屋文理大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "名古屋文理大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "名古屋文理大学",
-"need": [
 "scholar"
 ]
 },
@@ -22373,18 +22417,6 @@
 {
 "name": "一宮研伸大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "一宮研伸大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "一宮研伸大学",
-"need": [
 "scholar"
 ]
 },
@@ -22392,18 +22424,6 @@
 "name": "中京大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "中京大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "中京大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -22421,18 +22441,6 @@
 {
 "name": "中京学院大学",
 "need": [
-"schedule_dates"
-]
-},
-{
-"name": "中京学院大学",
-"need": [
-"fees"
-]
-},
-{
-"name": "中京学院大学",
-"need": [
 "scholar"
 ]
 },
@@ -22440,18 +22448,6 @@
 "name": "中部大学",
 "need": [
 "methods"
-]
-},
-{
-"name": "中部大学",
-"need": [
-"schedule_dates"
-]
-},
-{
-"name": "中部大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -22470,12 +22466,6 @@
 "name": "中部学院大学",
 "need": [
 "schedule_dates"
-]
-},
-{
-"name": "中部学院大学",
-"need": [
-"fees"
 ]
 },
 {
@@ -27013,6 +27003,20 @@
 "fees"
 ],
 "note": "検索で2027年度の学部学費（公式・Kei-Net）を見つけられず（2026-11-12）"
+},
+{
+"name": "一宮研伸大学",
+"need": [
+"fees"
+],
+"note": "検索で公式・Kei-Net・マナビジョンの学費ページを見つけられず、既存（外部AI由来）の内訳は未確認（2026-11-12）"
+},
+{
+"name": "中京学院大学",
+"need": [
+"fees"
+],
+"note": "検索で公式・Kei-Net・マナビジョンの学費ページを見つけられず、既存（外部AI由来）の内訳は未確認（2026-11-12）"
 }
 ],
 "complete": false,
