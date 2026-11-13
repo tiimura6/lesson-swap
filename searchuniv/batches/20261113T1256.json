@@ -1,0 +1,790 @@
+[
+ {
+  "name": "相模女子大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程（特別奨学生チャレンジ）",
+      "apply": "1/8〜1/18",
+      "exam": "1/23",
+      "result": "1/30",
+      "proc": "2/5",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程 1科目入試（特別奨学生チャレンジ）",
+      "apply": "1/15〜2/1",
+      "exam": "2/5",
+      "result": "2/13",
+      "proc": "2/19",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 C日程 1科目入試",
+      "apply": "2/3〜2/10",
+      "exam": "2/17",
+      "result": "2/20",
+      "proc": "2/26",
+      "fee": 35000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 11月（アピールシート／部活動等シート／調査書方式）",
+      "apply": "10/23〜10/30",
+      "exam": "11/7",
+      "result": null,
+      "proc": null,
+      "fee": 35000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 12月（アピールシート／部活動等シート／調査書／基礎学力方式）",
+      "apply": "11/30〜12/7",
+      "exam": "12/12",
+      "result": null,
+      "proc": null,
+      "fee": 35000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 3月（管理栄養学科除く：アピールシート／部活動等シート／調査書方式）",
+      "apply": "2/15〜2/25",
+      "exam": "3/2",
+      "result": null,
+      "proc": null,
+      "fee": 35000
+     }
+    ],
+    "note": "一般選抜A〜C日程はKei-Net（出願締切・試験日・発表・手続）と一致。Kei-Netに共通テスト利用の日程・検定料の掲載なし（共通テスト利用方式は「－」）。検定料35,000円はKei-Netでは2026年度入試"
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "学芸学部 日本語日本文学科",
+      "admission": 260000,
+      "tuition": 765000,
+      "facility": 350000,
+      "practical": null,
+      "other": 50000,
+      "first_year": 1375000,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。別途、後援会会費10,000円・学生自治会費20,000円・同窓会費20,000円（初年度合計には含まない）"
+     },
+     {
+      "f": "学芸学部 国際コミュニケーション学科",
+      "admission": 260000,
+      "tuition": 765000,
+      "facility": 350000,
+      "practical": 43020,
+      "other": 50000,
+      "first_year": 1418020,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。別途、後援会会費10,000円・学生自治会費20,000円・同窓会費20,000円（初年度合計には含まない）"
+     },
+     {
+      "f": "学芸学部 子ども教育学科",
+      "admission": 260000,
+      "tuition": 770000,
+      "facility": 390000,
+      "practical": 65000,
+      "other": 50000,
+      "first_year": 1485000,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。別途、後援会会費10,000円・学生自治会費20,000円・同窓会費20,000円（初年度合計には含まない）"
+     },
+     {
+      "f": "学芸学部 メディア情報学科",
+      "admission": 260000,
+      "tuition": 765000,
+      "facility": 350000,
+      "practical": 31000,
+      "other": 50000,
+      "first_year": 1406000,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。別途、後援会会費10,000円・学生自治会費20,000円・同窓会費20,000円（初年度合計には含まない）"
+     },
+     {
+      "f": "学芸学部 生活デザイン学科",
+      "admission": 260000,
+      "tuition": 785000,
+      "facility": 390000,
+      "practical": 70000,
+      "other": 50000,
+      "first_year": 1505000,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。別途、後援会会費10,000円・学生自治会費20,000円・同窓会費20,000円（初年度合計には含まない）"
+     },
+     {
+      "f": "人間社会学部 社会マネジメント学科",
+      "admission": 260000,
+      "tuition": 765000,
+      "facility": 350000,
+      "practical": 92000,
+      "other": 50000,
+      "first_year": 1467000,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。別途、後援会会費10,000円・学生自治会費20,000円・同窓会費20,000円（初年度合計には含まない）"
+     },
+     {
+      "f": "人間社会学部 人間心理学科",
+      "admission": 260000,
+      "tuition": 765000,
+      "facility": 350000,
+      "practical": 5000,
+      "other": 50000,
+      "first_year": 1380000,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。別途、後援会会費10,000円・学生自治会費20,000円・同窓会費20,000円（初年度合計には含まない）"
+     },
+     {
+      "f": "人間社会学部 地域クリエーション学科",
+      "admission": 260000,
+      "tuition": 770000,
+      "facility": 390000,
+      "practical": 48000,
+      "other": 50000,
+      "first_year": 1468000,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。別途、後援会会費10,000円・学生自治会費20,000円・同窓会費20,000円（初年度合計には含まない）"
+     },
+     {
+      "f": "栄養科学部 健康栄養学科",
+      "admission": 260000,
+      "tuition": 785000,
+      "facility": 390000,
+      "practical": 75000,
+      "other": 50000,
+      "first_year": 1510000,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。別途、後援会会費10,000円・学生自治会費20,000円・同窓会費20,000円（初年度合計には含まない）"
+     },
+     {
+      "f": "栄養科学部 管理栄養学科",
+      "admission": 260000,
+      "tuition": 785000,
+      "facility": 390000,
+      "practical": 80000,
+      "other": 50000,
+      "first_year": 1515000,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。別途、後援会会費10,000円・学生自治会費20,000円・同窓会費20,000円（初年度合計には含まない）"
+     }
+    ],
+    "note": "マナビジョンでは2027年度入学者の初年度納入金1,425,000〜1,565,000円（予定、内訳なし）"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2311/general/schedule",
+    "https://search.keinet.ne.jp/2311/general/exam_fee",
+    "https://search.keinet.ne.jp/2311/outline/expense",
+    "https://manabi.benesse.ne.jp/daigaku/school/3367/gakuhi/"
+   ]
+  }
+ },
+ {
+  "name": "目白大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "心理学部 心理カウンセリング学科",
+      "admission": 250000,
+      "tuition": 816000,
+      "facility": 280000,
+      "practical": null,
+      "other": 24160,
+      "first_year": 1370160,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。行事費用・学外実習費用は別途、ノートパソコンが必要。公認心理師対応科目は別途費用"
+     },
+     {
+      "f": "外国語学部",
+      "admission": 250000,
+      "tuition": 828000,
+      "facility": 280000,
+      "practical": null,
+      "other": 24160,
+      "first_year": 1382160,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。行事費用・学外実習費用は別途、ノートパソコンが必要。海外留学・研修費用は別途（英米語学科 約110〜235万円など）"
+     },
+     {
+      "f": "社会学部 社会情報学科",
+      "admission": 250000,
+      "tuition": 805800,
+      "facility": 280000,
+      "practical": null,
+      "other": 24160,
+      "first_year": 1359960,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。行事費用・学外実習費用は別途、ノートパソコンが必要"
+     },
+     {
+      "f": "社会学部 地域社会学科",
+      "admission": 250000,
+      "tuition": 795600,
+      "facility": 280000,
+      "practical": null,
+      "other": 24160,
+      "first_year": 1349760,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。行事費用・学外実習費用は別途、ノートパソコンが必要"
+     },
+     {
+      "f": "経営学部 経営学科",
+      "admission": 250000,
+      "tuition": 798000,
+      "facility": 280000,
+      "practical": null,
+      "other": 24160,
+      "first_year": 1352160,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。行事費用・学外実習費用は別途、ノートパソコンが必要"
+     },
+     {
+      "f": "保健医療学部",
+      "admission": 250000,
+      "tuition": 1020000,
+      "facility": 390000,
+      "practical": 110000,
+      "other": 24000,
+      "first_year": 1794000,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。行事費用・学外実習費用は別途、ノートパソコンが必要"
+     },
+     {
+      "f": "看護学部 看護学科",
+      "admission": 250000,
+      "tuition": 1248000,
+      "facility": 300000,
+      "practical": 110000,
+      "other": 24000,
+      "first_year": 1932000,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。行事費用・学外実習費用は別途、ノートパソコンが必要"
+     },
+     {
+      "f": "人間学部 人間福祉学科",
+      "admission": 250000,
+      "tuition": 816000,
+      "facility": 280000,
+      "practical": null,
+      "other": 24160,
+      "first_year": 1370160,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。行事費用・学外実習費用は別途、ノートパソコンが必要"
+     },
+     {
+      "f": "人間学部 子ども学科・児童教育学科",
+      "admission": 250000,
+      "tuition": 828000,
+      "facility": 280000,
+      "practical": null,
+      "other": 24160,
+      "first_year": 1382160,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。行事費用・学外実習費用は別途、ノートパソコンが必要"
+     },
+     {
+      "f": "メディア学部 メディア学科",
+      "admission": 250000,
+      "tuition": 864000,
+      "facility": 280000,
+      "practical": null,
+      "other": 24160,
+      "first_year": 1418160,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。行事費用・学外実習費用は別途、ノートパソコンが必要"
+     }
+    ]
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2160/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "白鴎大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "apply": "9/24〜10/5",
+      "exam": "10/17",
+      "result": "11/2",
+      "proc": "11/16",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（一般公募推薦 単願）",
+      "apply": "10/19〜11/4",
+      "exam": "11/14",
+      "result": "12/1",
+      "proc": "12/14",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（一般公募推薦 併願）",
+      "apply": "10/19〜11/4",
+      "exam": "11/14",
+      "result": "12/1",
+      "proc": "1/20",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 学業特待（12月）",
+      "apply": "11/16〜12/2",
+      "exam": "12/12",
+      "result": "12/18",
+      "proc": "3/8",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 学業特待（1月）",
+      "apply": "12/18〜1/13",
+      "exam": "1/28",
+      "result": "2/4",
+      "proc": "3/8",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "apply": "1/15〜1/28",
+      "exam": "2/10",
+      "result": "2/15",
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 単独前期 第1回",
+      "apply": "12/18〜1/13",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/4",
+      "proc": "2/17",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 特待単独前期 第1回",
+      "apply": "12/18〜1/13",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/4",
+      "proc": "3/8",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 単独前期 第2回",
+      "apply": "1/22〜2/5",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/25",
+      "proc": "3/8",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 単独後期 第1回",
+      "apply": "2/15〜2/25",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/9",
+      "proc": "3/15",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 単独後期 第2回",
+      "apply": "3/1〜3/10",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/15",
+      "proc": "3/25",
+      "fee": null
+     }
+    ],
+    "note": "ベネッセ マナビジョン（2027年度入試）。経営・法・教育学部で共通。原則ネット出願。検定料は2027年度分が未確認（Kei-Netの2026年度入試では一般方式25,000円・共通テスト利用方式15,000円）"
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "教育学部",
+      "admission": 280000,
+      "tuition": 830000,
+      "facility": 270000,
+      "practical": null,
+      "other": 17000,
+      "first_year": 1397000,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。資格関連科目・海外留学などは別途"
+     },
+     {
+      "f": "法学部 法律学科",
+      "admission": 280000,
+      "tuition": 790000,
+      "facility": 270000,
+      "practical": null,
+      "other": 17000,
+      "first_year": 1357000,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。資格関連科目・海外留学などは別途"
+     },
+     {
+      "f": "経営学部 経営学科",
+      "admission": 280000,
+      "tuition": 790000,
+      "facility": 270000,
+      "practical": null,
+      "other": 17000,
+      "first_year": 1357000,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。資格関連科目・海外留学などは別途"
+     }
+    ]
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3124/nyushi/gokaku-happyo/index.html",
+    "https://search.keinet.ne.jp/2124/general/exam_fee",
+    "https://search.keinet.ne.jp/2124/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "白百合女子大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 事前課題",
+      "apply": "9/15〜9/29",
+      "exam": "10/10",
+      "result": "11/2",
+      "proc": "11/11",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 基礎学力",
+      "apply": "9/15〜10/5",
+      "exam": "10/17",
+      "result": "11/2",
+      "proc": "11/11",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 活動・探究",
+      "apply": "10/27〜11/9",
+      "exam": "11/21",
+      "result": "11/26",
+      "proc": "12/4",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 講義受講",
+      "apply": "11/18〜12/1",
+      "exam": "12/12",
+      "result": "12/16",
+      "proc": "12/23",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期A日程",
+      "apply": "12/14〜1/12",
+      "exam": "1/21",
+      "result": "1/24",
+      "proc": "2/15",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期B日程",
+      "apply": "12/14〜1/22",
+      "exam": "2/3",
+      "result": "2/7",
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期（特別小論文方式・英語仏語資格方式）",
+      "apply": "1/25〜2/24",
+      "exam": "3/8",
+      "result": "3/9",
+      "proc": "3/16",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 前期（英語みなし利用型・3科目型・5科目型）",
+      "apply": "12/14〜1/22",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/7",
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 後期（英語みなし利用型・2科目型）",
+      "apply": "1/25〜2/17",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/26",
+      "proc": "3/5",
+      "fee": null
+     }
+    ],
+    "note": "ベネッセ マナビジョン（2027年度入試）。文学部・人間総合学部の全学科で同じ日程。ネット出願。総合型の入学手続は一次締切（二次は既存の記載で2/5）。検定料は出典に記載なし"
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "文学部",
+      "admission": 240000,
+      "tuition": 740000,
+      "facility": 400000,
+      "practical": null,
+      "other": null,
+      "first_year": 1380000,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。学会費・保険料など約15,000円が別途"
+     },
+     {
+      "f": "人間総合学部 児童文化学科・初等教育学科",
+      "admission": 240000,
+      "tuition": 740000,
+      "facility": 400000,
+      "practical": null,
+      "other": null,
+      "first_year": 1380000,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。学会費・保険料など約15,000円が別途。初等教育学科は実習関連の諸経費（幼児教育コース65,000円・児童教育コース21,000円）"
+     },
+     {
+      "f": "人間総合学部 発達心理学科",
+      "admission": 240000,
+      "tuition": 740000,
+      "facility": 400000,
+      "practical": 30000,
+      "other": null,
+      "first_year": 1410000,
+      "four_year": null,
+      "note": "Kei-Net（2026年度入学者用）。学会費・保険料など約15,000円が別途"
+     }
+    ]
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3259/nyushi/gokaku-happyo/",
+    "https://search.keinet.ne.jp/2217/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "日本社会事業大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "apply": "9/11〜9/24（消印有効・書留）",
+      "exam": "二次 10/17（一次は書類）",
+      "result": "一次 10/9／二次 11/4",
+      "proc": "11/13",
+      "fee": 35000
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募推薦）",
+      "apply": "11/2〜11/11（消印有効・書留）",
+      "exam": "11/21",
+      "result": "12/1",
+      "proc": "12/10",
+      "fee": 35000
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（指定校推薦）",
+      "apply": "非公開（対象校に通知）",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "apply": "1/4〜1/22（ネット出願、書類は消印有効）",
+      "exam": "2/1",
+      "result": "2/5",
+      "proc": "2/19",
+      "fee": 35000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 前期日程",
+      "apply": "1/4〜1/22（ネット出願、書類は消印有効）",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/10",
+      "proc": "2/19",
+      "fee": 17000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 後期日程",
+      "apply": "2/2〜2/18（ネット出願、書類は消印有効）",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/3",
+      "proc": "3/8",
+      "fee": 17000
+     }
+    ],
+    "note": "大学公式「2027年度 入学試験要項」。社会福祉学部（共生社会デザイン学科・ソーシャルワーク学科）共通。検定料は学科併願で総合型・一般45,000円、共テ利用27,000円。テレメール（2027年度）の一般・共テ利用の日程と一致"
+   },
+   "sources": [
+    "https://www.jcsw.ac.jp/img/078a93b30bb40537a59a8b69d8b606192a558dd5.pdf",
+    "https://telemail.jp/shingaku/university/10000198/examination/general"
+   ]
+  }
+ },
+ {
+  "name": "日本薬科大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程（3科目・2科目方式）",
+      "apply": "12/14〜1/19（書類は消印有効）",
+      "exam": "1/24・1/25（自由選択）",
+      "result": "2/2",
+      "proc": "2/25",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程（3科目・2科目方式）",
+      "apply": "1/21〜2/3（書類は消印有効）",
+      "exam": "2/9",
+      "result": "2/16",
+      "proc": "3/5",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 C日程（3科目・2科目方式）",
+      "apply": "2/22〜3/12（書類は消印有効）",
+      "exam": "3/18",
+      "result": "3/23",
+      "proc": "3/29",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 前期（薬学科は特待生選抜も同日程）",
+      "apply": "12/14〜1/15（書類は消印有効）",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/13",
+      "proc": "3/5",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 中期",
+      "apply": "1/16〜2/3（書類は消印有効）",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/13",
+      "proc": "3/5",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 後期",
+      "apply": "2/8〜3/5（書類は消印有効）",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/13",
+      "proc": "3/26",
+      "fee": null
+     }
+    ],
+    "note": "テレメール（2027年度入学、2026年8月7日時点）。薬学部薬学科・薬科学部医療ビジネス薬科学科で同じ日程。試験地は埼玉県・東京都。薬学科の一般3科目方式で特待生Sを選抜。検定料は出典に記載なし"
+   },
+   "sources": [
+    "https://telemail.jp/shingaku/university/10001076/examination/general"
+   ]
+  }
+ },
+ {
+  "name": "群馬県立女子大学",
+  "story": {
+   "summary": "群馬県立女子大学は文学部（国文・英米文化・美学美術史・文化情報の4学科）と国際コミュニケーション学部の2学部で、各学科とも少人数教育を徹底している。美学美術史学科では美学・美術史に実技とアートマネジメントまで学べ、国際コミュニケーション学部は独自の英語プログラム「BELLS」で全員がTOEIC800点をめざす。ことば・文学・美術や英語を少人数で深く学びたい生徒に話せる学校。",
+   "only": [
+    {
+     "t": "国際コミュニケーション学部の独自英語プログラム「BELLS」で、学生全員が卒業までにTOEIC800点の取得をめざす",
+     "src": "https://search.keinet.ne.jp/1525/outline/department"
+    },
+    {
+     "t": "美学美術史学科は美学・美術史・実技・アートマネジメントの4領域を学ぶ（入学定員30名）",
+     "src": "https://search.keinet.ne.jp/1525/outline/department"
+    },
+    {
+     "t": "外交官やNGOのリーダーなど、グローバルに活躍する実務家を講師に迎えた授業がある",
+     "src": "https://search.keinet.ne.jp/1525/outline/department"
+    }
+   ],
+   "vs": [
+    {
+     "u": "高崎経済大学",
+     "t": "同じ群馬県の公立大学の高崎経済大学は経済学部・地域政策学部の2学部だが、群馬県立女子大学は文学・美術史・英語・国際コミュニケーションを少人数で学ぶ",
+     "src": "https://search.keinet.ne.jp/1520"
+    }
+   ]
+  }
+ },
+ {
+  "name": "群馬県立県民健康科学大学",
+  "story": {
+   "summary": "群馬県立県民健康科学大学は看護学部（入学定員80名）と診療放射線学部（入学定員35名）の2学部の県立大学。診療放射線学部では「医療画像情報学」で画像の生成・解析・読影を一元的に学び、「保健医療チーム連携論」でチーム医療を学ぶ。看護は演習・実習を少人数で行う。看護師・保健師や診療放射線技師をめざす生徒に話せる学校。",
+   "only": [
+    {
+     "t": "診療放射線学部があり、「医療画像情報学」で画像生成・画像解析・読影を一元的に学ぶ",
+     "src": "https://search.keinet.ne.jp/1524/outline/department"
+    },
+    {
+     "t": "「保健医療チーム連携論」でチーム医療の重要性を学ぶ",
+     "src": "https://search.keinet.ne.jp/1524/outline/department"
+    },
+    {
+     "t": "看護学部は演習や実習を少人数で行い、看護師・保健師などの基礎的能力の修得をめざす",
+     "src": "https://search.keinet.ne.jp/1524/outline/department"
+    }
+   ],
+   "vs": [
+    {
+     "u": "高崎健康福祉大学",
+     "t": "同じ群馬県の高崎健康福祉大学は薬学部・農学部などを含む5学部の私立大学だが、群馬県立県民健康科学大学は看護学部と診療放射線学部の2学部に絞った県立大学",
+     "src": "https://passnavi.obunsha.co.jp/univ/1952/top/"
+    }
+   ]
+  }
+ }
+]
