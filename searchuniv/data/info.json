@@ -148351,7 +148351,7 @@ null
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
 "schedule": "2026-11-11",
-"money": "2026-11-07",
+"money": "2026-11-13",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07"
@@ -148470,89 +148470,144 @@ null
 "note": "マナビジョン（2027年度入試）で確認。検定料は出典に記載なし"
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
+"admission": 260000,
 "rows": [
 {
-"f": "表象文化学部（英語英文・日本語日本文）・現代社会学部（社会システム）",
+"f": "表象文化学部 英語英文学科",
 "admission": 260000,
-"tuition": null,
-"facility": null,
+"tuition": 766000,
+"facility": 240000,
 "practical": null,
-"other": null,
+"other": 17000,
 "first_year": 1283000,
 "four_year": null
 },
 {
-"f": "学芸学部 国際教養学科",
+"f": "表象文化学部 日本語日本文学科",
 "admission": 260000,
-"tuition": null,
-"facility": null,
+"tuition": 768000,
+"facility": 240000,
 "practical": null,
-"other": null,
-"first_year": 1313000,
+"other": 17000,
+"first_year": 1285000,
 "four_year": null
 },
 {
-"f": "現代社会学部（現代こども）・生活科学部（人間生活）",
+"f": "学芸学部 音楽学科〈演奏専攻〉",
 "admission": 260000,
-"tuition": null,
-"facility": null,
+"tuition": 1219000,
+"facility": 240000,
 "practical": null,
-"other": null,
-"first_year": 1386000,
+"other": 19000,
+"first_year": 1738000,
 "four_year": null
 },
 {
-"f": "生活科学部 食物栄養科学科",
+"f": "学芸学部 音楽学科〈音楽文化専攻〉",
 "admission": 260000,
-"tuition": null,
-"facility": null,
+"tuition": 1121000,
+"facility": 240000,
 "practical": null,
-"other": null,
-"first_year": 1448000,
+"other": 19000,
+"first_year": 1640000,
 "four_year": null
 },
 {
 "f": "学芸学部 メディア創造学科",
 "admission": 260000,
-"tuition": 895000,
-"facility": null,
+"tuition": 1010000,
+"facility": 240000,
 "practical": null,
-"other": null,
+"other": 17000,
 "first_year": 1527000,
 "four_year": null
 },
 {
-"f": "学芸学部 音楽学科",
+"f": "学芸学部 国際教養学科",
 "admission": 260000,
-"tuition": 950000,
-"facility": null,
+"tuition": 796000,
+"facility": 240000,
 "practical": null,
-"other": null,
-"first_year": 1640000,
+"other": 17000,
+"first_year": 1313000,
+"four_year": null,
+"note": "留学費用（留学先により異なる）と渡航費用が別途必要"
+},
+{
+"f": "現代社会学部 社会システム学科",
+"admission": 260000,
+"tuition": 766000,
+"facility": 240000,
+"practical": null,
+"other": 17000,
+"first_year": 1283000,
 "four_year": null
 },
 {
-"f": "看護学部 看護学科",
+"f": "現代社会学部 現代こども学科",
 "admission": 260000,
-"tuition": null,
-"facility": null,
+"tuition": 869000,
+"facility": 240000,
 "practical": null,
-"other": null,
-"first_year": 1803000,
+"other": 17000,
+"first_year": 1386000,
 "four_year": null
 },
 {
 "f": "薬学部 医療薬学科（6年制）",
 "admission": 260000,
-"tuition": null,
-"facility": null,
+"tuition": 1740000,
+"facility": 240000,
 "practical": null,
-"other": null,
+"other": 17000,
 "first_year": 2257000,
+"four_year": null,
+"note": "5年次の病院・薬局実務実習費を含む"
+},
+{
+"f": "看護学部 看護学科",
+"admission": 260000,
+"tuition": 1286000,
+"facility": 240000,
+"practical": null,
+"other": 17000,
+"first_year": 1803000,
+"four_year": null,
+"note": "1〜4年次の学外実習費を含む"
+},
+{
+"f": "生活科学部 人間生活学科",
+"admission": 260000,
+"tuition": 869000,
+"facility": 240000,
+"practical": null,
+"other": 17000,
+"first_year": 1386000,
+"four_year": null
+},
+{
+"f": "生活科学部 食物栄養科学科〈食デザイン専攻〉",
+"admission": 260000,
+"tuition": 931000,
+"facility": 240000,
+"practical": null,
+"other": 17000,
+"first_year": 1448000,
+"four_year": null
+},
+{
+"f": "生活科学部 食物栄養科学科〈管理栄養士専攻〉",
+"admission": 260000,
+"tuition": 1007000,
+"facility": 240000,
+"practical": null,
+"other": 17000,
+"first_year": 1524000,
 "four_year": null
 }
-]
+],
+"note": "パスナビ（2027年度、2026年9月調査）。施設費＝施設/教育充実費、その他＝諸会費。実習費は別項目なし（null）。Kei-Net（2026年度）も同額。2段階で納入"
 },
 "access": "京田辺キャンパス（京都府京田辺市興戸）・今出川キャンパス（京都市上京区玄武町602）",
 "careers": "一般企業、公務員、教員、保育士、薬剤師、看護師、管理栄養士など。",
@@ -148564,7 +148619,8 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3603/gakuhi/",
 "https://passnavi.obunsha.co.jp/univ/4000/difficulty/",
 "https://passnavi.obunsha.co.jp/univ/4000/expense/",
-"https://manabi.benesse.ne.jp/daigaku/school/3603/nyushi/gokaku-happyo/"
+"https://manabi.benesse.ne.jp/daigaku/school/3603/nyushi/gokaku-happyo/",
+"https://search.keinet.ne.jp/2499/outline/expense"
 ]
 },
 "和歌山リハビリテーション専門職大学": {
@@ -220600,7 +220656,8 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "departments": [
 {
@@ -220714,8 +220771,70 @@ null
 "https://search.keinet.ne.jp/2180/outline/licential",
 "https://search.keinet.ne.jp/2180/outline/admission_employment",
 "https://search.keinet.ne.jp/2180/outline/expense",
-"https://search.keinet.ne.jp/2180/general/exam_result"
-]
+"https://search.keinet.ne.jp/2180/general/exam_result",
+"https://manabi.benesse.ne.jp/daigaku/school/3194/nyushi/hoshiki/ippan/index.html",
+"https://search.keinet.ne.jp/general/schedule/2180"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 1期",
+"apply": "12/4〜1/21",
+"exam": "2/1",
+"result": "2/8",
+"proc": "2/22",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 2期",
+"apply": "12/4〜1/21",
+"exam": "2/2",
+"result": "2/8",
+"proc": "2/22",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 3期",
+"apply": "1/18〜2/12",
+"exam": "2/19",
+"result": "2/25",
+"proc": "3/9",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 1期",
+"apply": "〜1/21",
+"exam": "1/16・1/17（共テ）",
+"result": "2/12",
+"proc": "2/24",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 2期",
+"apply": "〜2/15",
+"exam": "1/16・1/17（共テ）",
+"result": "2/25",
+"proc": "3/9",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 3期",
+"apply": "〜3/8",
+"exam": "1/16・1/17（共テ）",
+"result": "3/15",
+"proc": "3/23",
+"fee": null
+}
+],
+"note": "全学部同じ日程。一般はマナビジョン（2027年度入試）とKei-Netで一致。共テ利用はKei-Net（出願開始日の記載なし、締切は必着）。検定料は出典に記載なし"
+}
 },
 "文京学院大学": {
 "difficulty": {
@@ -220732,7 +220851,8 @@ null
 "access": "2026-11-09",
 "tuition": "2026-11-09",
 "money": "2026-11-09",
-"licenses": "2026-11-09"
+"licenses": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "faculties": [
 "外国語学部",
@@ -220901,8 +221021,88 @@ null
 "https://search.keinet.ne.jp/2159/outline/department",
 "https://search.keinet.ne.jp/2159/outline/expense",
 "https://search.keinet.ne.jp/2159/general/border_rate",
-"https://search.keinet.ne.jp/2159/outline/licential"
-]
+"https://search.keinet.ne.jp/2159/outline/licential",
+"https://manabi.benesse.ne.jp/daigaku/school/3158/nyushi/hoshiki/ippan/index.html",
+"https://search.keinet.ne.jp/2159/general/schedule"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 全学統一",
+"apply": "12/16〜1/12",
+"exam": "1/23",
+"result": "2/6",
+"proc": "2/15",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅰ期A日程（保健医療技術学部はⅠ期）",
+"apply": "12/16〜1/20",
+"exam": "2/2",
+"result": "2/10",
+"proc": "2/19",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅰ期B日程（保健医療技術学部を除く）",
+"apply": "12/16〜1/20",
+"exam": "2/3",
+"result": "2/10",
+"proc": "2/19",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期",
+"apply": "12/16〜2/16",
+"exam": "2/26",
+"result": "3/4",
+"proc": "3/11",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅲ期",
+"apply": "12/16〜3/4",
+"exam": "3/11",
+"result": "3/16",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅰ期（3科目型・2科目型）",
+"apply": "〜1/15",
+"exam": "1/16・1/17（共テ）",
+"result": "2/15",
+"proc": "2/22",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅱ期（3科目型・2科目型）",
+"apply": "〜2/10",
+"exam": "1/16・1/17（共テ）",
+"result": "2/25",
+"proc": "3/4",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅲ期（3科目型・2科目型）",
+"apply": "〜3/4",
+"exam": "1/16・1/17（共テ）",
+"result": "3/16",
+"proc": "3/23",
+"fee": null
+}
+],
+"note": "一般はマナビジョン（2027年度入試）とKei-Netで一致（全学部同じ日程。保健医療技術学部はⅠ期が1つ）。共テ利用はKei-Net（出願開始日の記載なし、締切は消印有効。保健医療技術学部は科目型の区別なし）。検定料は出典に記載なし"
+}
 },
 "文化学園大学": {
 "difficulty": {
