@@ -210760,7 +210760,8 @@ null
 "difficulty": "2026-11-09",
 "methods": "2026-11-09",
 "_via": "2026-11-09",
-"schedule": "2026-11-12"
+"schedule": "2026-11-12",
+"money": "2026-11-13"
 },
 "departments": [
 {
@@ -210848,7 +210849,9 @@ null
 "https://www.shukutoku.ac.jp/campuslife/fees/loan.html",
 "https://www.shukutoku.ac.jp/campuslife/fees/newscholarship.html",
 "https://passnavi.obunsha.co.jp/univ/2140/difficulty/",
-"https://manabi.benesse.ne.jp/daigaku/school/3196/nyushi/gokaku-happyo/"
+"https://manabi.benesse.ne.jp/daigaku/school/3196/nyushi/gokaku-happyo/",
+"https://search.keinet.ne.jp/2174/outline/expense",
+"https://manabi.benesse.ne.jp/daigaku/school/3196/gakuhi/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -210927,6 +210930,99 @@ null
 }
 ],
 "note": "ベネッセ マナビジョン（2027年度入試）。7学部ともおおむね同じ日程。総合型選抜は8/1〜3/4の5回の出願期間があり、看護学科・栄養学科は日程・回数が異なる。推薦の回と日付の対応はページの並び順による。検定料は未確認"
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "人文学部",
+"admission": 200000,
+"tuition": 800000,
+"facility": 400000,
+"practical": null,
+"other": 61160,
+"first_year": 1461160,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用。facility は施設/教育充実費等、other は諸会費"
+},
+{
+"f": "教育学部 こども教育学科",
+"admission": 200000,
+"tuition": 800000,
+"facility": 400000,
+"practical": null,
+"other": 61160,
+"first_year": 1461160,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用"
+},
+{
+"f": "地域創生学部 地域創生学科",
+"admission": 200000,
+"tuition": 800000,
+"facility": 400000,
+"practical": null,
+"other": 61160,
+"first_year": 1461160,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用"
+},
+{
+"f": "総合福祉学部",
+"admission": 200000,
+"tuition": 800000,
+"facility": 400000,
+"practical": null,
+"other": 61230,
+"first_year": 1461230,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用"
+},
+{
+"f": "コミュニティ政策学部",
+"admission": 200000,
+"tuition": 800000,
+"facility": 400000,
+"practical": null,
+"other": 61230,
+"first_year": 1461230,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用"
+},
+{
+"f": "経営学部",
+"admission": 200000,
+"tuition": 800000,
+"facility": 400000,
+"practical": null,
+"other": 61160,
+"first_year": 1461160,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用"
+},
+{
+"f": "看護栄養学部 看護学科",
+"admission": 200000,
+"tuition": 1050000,
+"facility": 400000,
+"practical": 200000,
+"other": 64320,
+"first_year": 1914320,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用"
+},
+{
+"f": "看護栄養学部 栄養学科",
+"admission": 200000,
+"tuition": 800000,
+"facility": 400000,
+"practical": 150000,
+"other": 61230,
+"first_year": 1611230,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用。実験・実習費や教科書等の経費は別途、パソコンが必要"
+}
+]
 }
 },
 "浦和大学": {
@@ -210941,7 +211037,8 @@ null
 "methods": "2026-11-09",
 "scholar": "2026-11-09",
 "_via": "2026-11-09",
-"schedule": "2026-11-12"
+"schedule": "2026-11-12",
+"money": "2026-11-13"
 },
 "departments": [
 {
@@ -211030,7 +211127,8 @@ null
 "https://www.urawa.ac.jp/boshu_yoko/pageindices/index30.html",
 "https://www.urawa.ac.jp/admission/support.html",
 "https://passnavi.obunsha.co.jp/univ/1962/difficulty/",
-"https://manabi.benesse.ne.jp/daigaku/school/3168/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3168/nyushi/index.html",
+"https://search.keinet.ne.jp/2166/outline/expense"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -211118,6 +211216,44 @@ null
 }
 ],
 "note": "ベネッセ マナビジョン（2027年度入試）。社会学部（総合福祉・現代社会）とこども学部（こども・学校教育）の全学科で同じ日程（ネット出願）。検定料は未確認"
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "こども学部",
+"admission": 250000,
+"tuition": 715000,
+"facility": 280000,
+"practical": 50000,
+"other": 142000,
+"first_year": 1437000,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用。other は諸会費42,000円＋教育活動・図書・福利厚生等の諸経費100,000円"
+},
+{
+"f": "社会学部 総合福祉学科",
+"admission": 250000,
+"tuition": 715000,
+"facility": 280000,
+"practical": 120000,
+"other": 142000,
+"first_year": 1507000,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用。other は諸会費42,000円＋諸経費100,000円"
+},
+{
+"f": "社会学部 現代社会学科",
+"admission": 250000,
+"tuition": 715000,
+"facility": 280000,
+"practical": null,
+"other": 142000,
+"first_year": 1387000,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用。教員免許状の取得を希望する場合は実習費等が別途必要"
+}
+]
 }
 },
 "洗足学園音楽大学": {
@@ -211464,7 +211600,7 @@ null
 "methods": "2026-11-09",
 "subjects": "2026-11-09",
 "schedule": "2026-11-09",
-"money": "2026-11-09",
+"money": "2026-11-13",
 "scholar": "2026-11-09",
 "oc": "2026-11-09",
 "licenses": "2026-11-09",
@@ -211599,7 +211735,7 @@ null
 ]
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
 "f": "社会学部（人間心理・現代社会・経営社会）",
@@ -211609,17 +211745,30 @@ null
 "practical": 0,
 "other": 29000,
 "first_year": 1449000,
-"four_year": null
+"four_year": null,
+"note": "パスナビ（2026年9月調査、2027年度入学者用）。facility は教育充実費、other は諸会費。一括/延納"
 },
 {
-"f": "メディアコミュニケーション学部（マス・コミュニケーション・情報文化・こどもコミュニケーション）",
+"f": "メディアコミュニケーション学部（マス・コミュニケーション・情報文化）",
 "admission": 260000,
 "tuition": 700000,
 "facility": 460000,
 "practical": 0,
 "other": 29000,
 "first_year": 1449000,
-"four_year": null
+"four_year": null,
+"note": "パスナビ（2026年9月調査、2027年度入学者用）"
+},
+{
+"f": "メディアコミュニケーション学部 こどもコミュニケーション学科",
+"admission": 260000,
+"tuition": 700000,
+"facility": 460000,
+"practical": 10000,
+"other": 29000,
+"first_year": 1459000,
+"four_year": null,
+"note": "パスナビ（2026年9月調査、2027年度入学者用）"
 }
 ]
 },
@@ -211721,7 +211870,8 @@ null
 "https://www.edogawa-u.ac.jp/colleges/d_psychology/license.html",
 "https://passnavi.obunsha.co.jp/univ/2090/difficulty/",
 "https://search.keinet.ne.jp/2170/general/border_rate",
-"https://search.keinet.ne.jp/2170/outline/expense"
+"https://search.keinet.ne.jp/2170/outline/expense",
+"https://passnavi.obunsha.co.jp/univ/2090/expense/"
 ]
 },
 "武蔵野大学": {
@@ -211748,7 +211898,7 @@ null
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
 "schedule": "2026-11-09",
-"money": "2026-11-09",
+"money": "2026-11-13",
 "scholar": "2026-11-09",
 "eng": "2026-11-09",
 "oc": "2026-11-09",
@@ -211991,184 +212141,202 @@ null
 "year": "2026年度",
 "rows": [
 {
-"f": "文学部",
-"admission": null,
-"tuition": null,
-"facility": null,
+"f": "文学部 日本文学文化学科",
+"admission": 230000,
+"tuition": 793000,
+"facility": 183000,
 "practical": null,
-"other": null,
+"other": 16600,
 "first_year": 1222600,
-"four_year": null
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用。facility は施設/教育充実費等、other は諸会費。保険料は入学手続時に納入"
 },
 {
-"f": "グローバル学部（グローバルコミュニケーション学科）",
-"admission": null,
-"tuition": null,
-"facility": null,
+"f": "教育学部 教育学科",
+"admission": 230000,
+"tuition": 896000,
+"facility": 229000,
 "practical": null,
-"other": null,
+"other": 16600,
+"first_year": 1371600,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用"
+},
+{
+"f": "教育学部 幼児教育学科",
+"admission": 230000,
+"tuition": 845000,
+"facility": 229000,
+"practical": null,
+"other": 16600,
+"first_year": 1320600,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用"
+},
+{
+"f": "グローバル学部 グローバルコミュニケーション学科",
+"admission": 230000,
+"tuition": 914000,
+"facility": 263000,
+"practical": null,
+"other": 16600,
 "first_year": 1423600,
-"four_year": null
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用"
 },
 {
-"f": "グローバル学部（日本語コミュニケーション学科）",
-"admission": null,
-"tuition": null,
-"facility": null,
+"f": "グローバル学部 日本語コミュニケーション学科",
+"admission": 230000,
+"tuition": 843000,
+"facility": 258000,
 "practical": null,
-"other": null,
+"other": 16600,
 "first_year": 1347600,
-"four_year": null
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用"
 },
 {
-"f": "グローバル学部（グローバルビジネス学科）",
-"admission": null,
-"tuition": null,
-"facility": null,
+"f": "グローバル学部 グローバルビジネス学科",
+"admission": 230000,
+"tuition": 896000,
+"facility": 258000,
 "practical": null,
-"other": null,
+"other": 16600,
 "first_year": 1400600,
-"four_year": null
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用"
+},
+{
+"f": "ウェルビーイング学部 ウェルビーイング学科",
+"admission": 230000,
+"tuition": 1020000,
+"facility": 275000,
+"practical": null,
+"other": 16600,
+"first_year": 1541600,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用"
 },
 {
 "f": "法学部",
-"admission": null,
-"tuition": null,
-"facility": null,
+"admission": 230000,
+"tuition": 845000,
+"facility": 183000,
 "practical": null,
-"other": null,
+"other": 16600,
 "first_year": 1274600,
-"four_year": null
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用"
 },
 {
-"f": "経済学部",
-"admission": null,
-"tuition": null,
-"facility": null,
+"f": "経済学部 経済学科",
+"admission": 230000,
+"tuition": 793000,
+"facility": 183000,
 "practical": null,
-"other": null,
+"other": 16600,
 "first_year": 1222600,
-"four_year": null
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用"
 },
 {
 "f": "経営学部",
-"admission": null,
-"tuition": null,
-"facility": null,
+"admission": 230000,
+"tuition": 793000,
+"facility": 183000,
 "practical": null,
-"other": null,
+"other": 16600,
 "first_year": 1222600,
-"four_year": null
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用"
 },
 {
-"f": "アントレプレナーシップ学部",
-"admission": null,
-"tuition": null,
-"facility": null,
+"f": "アントレプレナーシップ学部 アントレプレナーシップ学科",
+"admission": 230000,
+"tuition": 793000,
+"facility": 350000,
 "practical": null,
-"other": null,
+"other": 16600,
 "first_year": 1389600,
-"four_year": null
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用。全員入寮で寮費は別途"
 },
 {
-"f": "データサイエンス学部",
-"admission": null,
-"tuition": null,
-"facility": null,
+"f": "工学部 サステナビリティ学科",
+"admission": 230000,
+"tuition": 1051000,
+"facility": 283000,
 "practical": null,
-"other": null,
-"first_year": 1583600,
-"four_year": null
+"other": 16600,
+"first_year": 1580600,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用"
+},
+{
+"f": "工学部 数理工学科",
+"admission": 230000,
+"tuition": 1133000,
+"facility": 335000,
+"practical": null,
+"other": 16600,
+"first_year": 1714600,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用"
+},
+{
+"f": "工学部 建築デザイン学科",
+"admission": 230000,
+"tuition": 1020000,
+"facility": 340000,
+"practical": null,
+"other": 16600,
+"first_year": 1606600,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用"
+},
+{
+"f": "薬学部 薬学科",
+"admission": 230000,
+"tuition": 1442000,
+"facility": 484000,
+"practical": null,
+"other": 16600,
+"first_year": 2172600,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用（6年制）"
+},
+{
+"f": "看護学部 看護学科",
+"admission": 230000,
+"tuition": 1257000,
+"facility": 309000,
+"practical": 110000,
+"other": 16600,
+"first_year": 1922600,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用"
 },
 {
 "f": "人間科学部",
-"admission": null,
-"tuition": null,
-"facility": null,
+"admission": 230000,
+"tuition": 845000,
+"facility": 183000,
 "practical": null,
-"other": null,
+"other": 16600,
 "first_year": 1274600,
-"four_year": null
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用"
 },
 {
-"f": "ウェルビーイング学部（ウェルビーイング学科）",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 1541600,
-"four_year": null
-},
-{
-"f": "工学部（サステナビリティ学科）",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 1580000,
-"four_year": null
-},
-{
-"f": "工学部（数理工学科）",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 1714600,
-"four_year": null
-},
-{
-"f": "工学部（建築デザイン学科）",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 1606600,
-"four_year": null
-},
-{
-"f": "教育学部（教育学科）",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 1371600,
-"four_year": null
-},
-{
-"f": "教育学部（幼児教育学科）",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 1320600,
-"four_year": null
-},
-{
-"f": "薬学部",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 2172600,
-"four_year": null
-},
-{
-"f": "看護学部",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 1922600,
-"four_year": null
+"f": "データサイエンス学部 データサイエンス学科",
+"admission": 230000,
+"tuition": 999000,
+"facility": 268000,
+"practical": 70000,
+"other": 16600,
+"first_year": 1583600,
+"four_year": null,
+"note": "Kei-Net 2026年度入学者用。実験実習を伴う授業は別途実験実習料、ノートパソコンが必要"
 }
 ]
 },
@@ -225830,7 +225998,8 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "departments": [
 {
@@ -225896,8 +226065,54 @@ null
 "https://search.keinet.ne.jp/2280/outline/licential",
 "https://search.keinet.ne.jp/2280/outline/admission_employment",
 "https://search.keinet.ne.jp/2280/outline/expense",
-"https://search.keinet.ne.jp/2280/general/exam_result"
-]
+"https://search.keinet.ne.jp/2280/general/exam_result",
+"https://manabi.benesse.ne.jp/daigaku/school/3312/nyushi/index.html"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 A（薬学科のみ）・B（薬学科・創薬科学科）",
+"apply": "11/2〜11/11",
+"exam": "11/29",
+"result": "12/4",
+"proc": "12/11",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 B方式",
+"apply": "1/3〜1/18",
+"exam": "2/2",
+"result": "2/10",
+"proc": "2/18",
+"fee": null,
+"note": "薬学科と創薬科学科の両方には出願できない"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 共テS方式（共テ＋個別）",
+"apply": "1/3〜1/15",
+"exam": "2/3",
+"result": "2/10",
+"proc": "2/18",
+"fee": null,
+"note": "薬学科と創薬科学科の両方には出願できない"
+},
+{
+"kubun": "共テ利用",
+"name": "一般選抜 共テA方式",
+"apply": "1/3〜1/15",
+"exam": "1/16・1/17（共テ）",
+"result": "2/10",
+"proc": "2/18",
+"fee": null,
+"note": "両学科に出願できる"
+}
+],
+"note": "ベネッセ マナビジョン（2027年度入試）。薬学科・創薬科学科で同じ日程。検定料は掲載なし"
+}
 },
 "昭和医科大学": {
 "faculties": [
@@ -225913,7 +226128,8 @@ null
 "founded": "2026-11-09",
 "access": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "departments": [
 {
@@ -225974,8 +226190,88 @@ null
 "https://search.keinet.ne.jp/2223/outline/department",
 "https://search.keinet.ne.jp/2223/outline/licential",
 "https://search.keinet.ne.jp/2223/outline/admission_employment",
-"https://search.keinet.ne.jp/2223/general/exam_result"
-]
+"https://search.keinet.ne.jp/2223/general/exam_result",
+"https://manabi.benesse.ne.jp/daigaku/school/3254/nyushi/index.html"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜（歯・薬・保健医療学部）",
+"apply": "9/1〜9/15",
+"exam": "10/3",
+"result": "11/1",
+"proc": "11/9",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募）",
+"apply": "11/1〜11/8",
+"exam": "11/14",
+"result": "12/1",
+"proc": "12/8",
+"fee": null,
+"note": "全学部共通"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅰ期（医学部、地域枠を含む）",
+"apply": "12/7〜1/21",
+"exam": "2/5",
+"result": "2/15",
+"proc": "2/22",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅰ期（歯・薬・保健医療学部）",
+"apply": "12/7〜1/21",
+"exam": "2/6",
+"result": "2/12",
+"proc": "2/19",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期（医学部）",
+"apply": "2/1〜2/23",
+"exam": "3/6",
+"result": "3/15",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期（歯・薬・保健医療学部）",
+"apply": "2/1〜2/23",
+"exam": "3/7",
+"result": "3/9",
+"proc": "3/16",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "一般選抜 共通テスト利用（歯・保健医療学部）",
+"apply": "12/7〜1/21",
+"exam": "2/6",
+"result": "2/12",
+"proc": "2/19",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "一般選抜 共テ・共テ併用（薬学部）",
+"apply": "12/7〜1/21",
+"exam": "2/4・2/6",
+"result": "2/12",
+"proc": "2/19",
+"fee": null
+}
+],
+"note": "ベネッセ マナビジョン（2027年度入試。ページに「詳細は未定」の注記あり）。保健医療学部は全学科・専攻で同じ日程。検定料は掲載なし"
+}
 },
 "昭和女子大学": {
 "faculties": [
