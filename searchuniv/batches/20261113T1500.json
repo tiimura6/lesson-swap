@@ -1,0 +1,60 @@
+[
+ {"name": "聖路加国際大学", "info": {
+  "schedule_replace": {"year": "2027年度入試", "rows": [
+   {"kubun": "総合型", "name": "総合型選抜", "apply": "9/1〜9/5", "exam": "9/19", "result": "11/4", "proc": "11/13", "fee": null},
+   {"kubun": "推薦", "name": "学校推薦型選抜（公募制）", "apply": "11/2〜11/6(消印有効)", "exam": "11/19", "result": "12/1", "proc": "12/11", "fee": null},
+   {"kubun": "推薦", "name": "学校推薦型選抜（指定校）", "apply": "11/2〜11/6(消印有効)", "exam": "11/19", "result": "12/1(発送)", "proc": "12/11", "fee": null},
+   {"kubun": "一般", "name": "一般選抜（A方式）", "apply": "12/18〜1/19（15:00、書類は消印有効）", "exam": "1次2/1・2次2/8", "result": "1次2/5・2次2/12", "proc": "2/19", "fee": null},
+   {"kubun": "一般", "name": "一般選抜（B方式）", "apply": "12/18〜1/19（15:00、書類は消印有効）", "exam": "2/16", "result": "2/24", "proc": "3/3", "fee": null},
+   {"kubun": "共テ利用", "name": "一般選抜（C方式・共通テスト利用型）", "apply": "12/18〜1/19（15:00、書類は消印有効）", "exam": "1/16・1/17(共テ・個別なし)", "result": "2/12", "proc": "2/19", "fee": null}],
+   "note": "テレメール（2027年度一般選抜）とマナビジョン（2027年度入試）で一致。ネット出願のみ。試験地は東京都。検定料は出典に記載なし"},
+  "sources": ["https://telemail.jp/shingaku/university/10011014/examination/general", "https://manabi.benesse.ne.jp/daigaku/school/3265/nyushi/gokaku-happyo/"]}},
+ {"name": "育英大学", "info": {
+  "schedule_replace": {"year": "2027年度入試", "rows": [
+   {"kubun": "総合型", "name": "総合型選抜", "apply": "9/1〜9/7", "exam": "9/13", "result": null, "proc": null, "fee": 30000},
+   {"kubun": "推薦", "name": "学校推薦型選抜（指定・公募・特別）", "apply": "11/2〜11/6", "exam": "11/14", "result": null, "proc": null, "fee": 30000},
+   {"kubun": "一般", "name": "一般選抜 I期・スカラシップI期", "apply": "1/10〜1/29（ネット。書類は1/29必着）", "exam": "2/4", "result": "2/12", "proc": "3/12", "fee": 30000},
+   {"kubun": "一般", "name": "一般選抜 II期・スカラシップII期", "apply": "2/1〜3/4（書類は3/4必着）", "exam": "3/9", "result": "3/12", "proc": "3/24", "fee": 30000},
+   {"kubun": "共テ利用", "name": "共通テスト利用選抜 I期・国公立併願特待生I期", "apply": "1/12〜1/29（書類は1/29必着）", "exam": "1/16・1/17（共テ）", "result": "2/12", "proc": "3/12", "fee": 10000},
+   {"kubun": "共テ利用", "name": "共通テスト利用選抜 II期・国公立併願特待生II期", "apply": "2/1〜3/4（書類は3/4必着）", "exam": "1/16・1/17（共テ）", "result": "3/12", "proc": "3/24", "fee": 10000},
+   {"kubun": "共テ利用", "name": "共通テスト利用選抜 III期・国公立併願特待生III期", "apply": "3/5〜3/15（書類は3/15必着）", "exam": "1/16・1/17（共テ）", "result": "3/17", "proc": "3/24", "fee": 10000}],
+   "note": "日程はテレメール（2027年度入学、2026年4月時点）。一般I期の試験地は岩手・宮城・群馬・東京・新潟・長野、II期は群馬。検定料は大学公式「授業料その他費用に関する規程」（通常の入学試験30,000円、共通テスト利用10,000円）"},
+  "money_replace": {"year": "2026年度", "rows": [
+   {"f": "教育学部", "admission": 250000, "tuition": 750000, "facility": 370000, "practical": null, "other": null, "first_year": 1370000, "four_year": null, "note": "公式の学費規程（授業料は2026年度入学者から適用）とマナビジョン（2026年度）で一致。施設設備費（マナビジョンでは教育振興費）。実験実習費は実習内容に応じて別に定める。学生会費・後援会費などは別途"}]},
+  "sources": ["https://telemail.jp/shingaku/university/10011346/examination/general", "https://www.ikuei-g.ac.jp/university/wp/wp-content/uploads/2026/08/8d90455ab45f57d91b3b7d611f5bdb32.pdf", "https://manabi.benesse.ne.jp/daigaku/school/3142/gakuhi/"]}},
+ {"name": "文星芸術大学", "info": {
+  "schedule_replace": {"year": "2027年度入試", "rows": [
+   {"kubun": "総合型", "name": "総合型選抜 探究活動型", "apply": "9/1〜9/18", "exam": "9/26", "result": "10/1", "proc": "10/23", "fee": null},
+   {"kubun": "総合型", "name": "総合型選抜 体験授業型（1回目）", "apply": "9/7〜9/28", "exam": "10/3", "result": "10/7", "proc": "10/30", "fee": null},
+   {"kubun": "総合型", "name": "総合型選抜 オンライン", "apply": "9/14〜9/30", "exam": "10/17", "result": "10/21", "proc": "11/13", "fee": null},
+   {"kubun": "推薦", "name": "学校推薦型選抜 公募型", "apply": "10/19〜11/13", "exam": "11/19", "result": "11/24", "proc": "12/11", "fee": null},
+   {"kubun": "総合型", "name": "総合型選抜 体験授業型（2回目）", "apply": "11/9〜11/27", "exam": "12/12", "result": "12/16", "proc": "1/15", "fee": null},
+   {"kubun": "一般", "name": "一般選抜 1期", "apply": "12/21〜1/22", "exam": "1/30", "result": "2/3", "proc": "2/26", "fee": null},
+   {"kubun": "共テ利用", "name": "一般選抜 共テ前期", "apply": "1/12〜1/29", "exam": "1/16・1/17（共テ）", "result": "2/16", "proc": "3/18", "fee": null},
+   {"kubun": "共テ利用", "name": "一般選抜 共テ後期", "apply": "2/1〜2/19", "exam": "1/16・1/17（共テ）", "result": "3/8", "proc": "3/18", "fee": null},
+   {"kubun": "一般", "name": "一般選抜 2期", "apply": "1/25〜2/19", "exam": "3/4", "result": "3/8", "proc": "3/18", "fee": null}],
+   "note": "美術学部美術学科。ベネッセ マナビジョン（2027年度入試）。ネット出願。検定料は出典に記載なし"},
+  "sources": ["https://manabi.benesse.ne.jp/daigaku/school/3126/nyushi/gokaku-happyo/"]}},
+ {"name": "日本体育大学", "info": {
+  "schedule_replace": {"year": "2027年度入試", "rows": [
+   {"kubun": "一般", "name": "一般選抜（各学部・学科の個別試験）", "apply": "12/25〜1/6", "exam": "2/1〜2/2（武道教育学科・幼児教育保育コースは2/2）", "result": "2/9", "proc": "2/15", "fee": null},
+   {"kubun": "共テ利用", "name": "一般選抜 共テ（全学科。整復医療・救急医療学科は個別試験2/1〜2/2あり）", "apply": "12/25〜1/6", "exam": "1/16・1/17（共テ）", "result": "2/9", "proc": "2/15", "fee": null}],
+   "note": "ベネッセ マナビジョン（2027年度入試）掲載分。全学部同じ出願期間・発表日。ネット出願。検定料と、掲載のない他の日程は未確認"},
+  "sources": ["https://manabi.benesse.ne.jp/daigaku/school/3307/nyushi/gokaku-happyo/"]}},
+ {"name": "芸術文化観光専門職大学", "story": {
+  "summary": "芸術文化観光専門職大学は兵庫県豊岡市にある県立の専門職大学で、芸術文化・観光学部1学部（入学定員80名）。1年次に演劇的手法の「コミュニケーション演習」などの基礎を学び、2年次から芸術文化と観光の一方を主専攻、もう一方を副専攻にして、授業の1/3（800時間）以上の実習で企画運営・マネジメントまで身につける。舞台芸術と観光の両方を地域づくりに生かしたい生徒に話せる学校。",
+  "only": [
+   {"t": "2年次から芸術文化分野と観光分野のどちらかを主専攻、もう一方を副専攻として両方を学ぶ", "src": "https://search.keinet.ne.jp/1628/outline/department"},
+   {"t": "授業の1/3（800時間）以上が実習で、舞台芸術実習・劇場プロデュース実習・海外実習などがある", "src": "https://search.keinet.ne.jp/1628/outline/department"},
+   {"t": "1年次は演劇的手法を用いた「コミュニケーション演習」を学ぶ", "src": "https://search.keinet.ne.jp/1628/outline/department"}],
+  "vs": [
+   {"u": "和歌山大学", "t": "和歌山大学は観光学部を含む5学部の国立大学だが、芸術文化観光専門職大学は1学部で芸術文化と観光を主専攻・副専攻として組み合わせ、実習が授業の1/3以上を占める", "src": "https://search.keinet.ne.jp/1335/outline/campus"}]}},
+ {"name": "静岡県立農林環境専門職大学", "story": {
+  "summary": "静岡県立農林環境専門職大学は2020年4月に「農林業分野では全国初の専門職大学」として開学した静岡県磐田市の県立大学で、生産環境経営学部（入学定員24名）。農林業の生産技術に加えて経営管理・加工・流通・販売まで学び、2年次から栽培・林業・畜産のコースに分かれ、農林業経営体での長期の臨地実務実習がある。農業や林業を経営する側に立ちたい生徒に話せる学校。",
+  "only": [
+   {"t": "農林業分野では全国初の専門職大学として2020年4月に開学した", "src": "https://search.keinet.ne.jp/1572/outline/department"},
+   {"t": "2年次から「栽培」「林業」「畜産」の3コースに分かれ、農林業経営体で長期の臨地実務実習を行う", "src": "https://search.keinet.ne.jp/1572/outline/department"},
+   {"t": "生産技術だけでなく企業的な経営管理・経営戦略や加工・流通・販売まで学ぶ", "src": "https://search.keinet.ne.jp/1572/outline/department"}],
+  "vs": [
+   {"u": "静岡大学", "t": "静岡大学は農学部を含む7学部の国立大学だが、静岡県立農林環境専門職大学は1学部・入学定員24名で、農林業の経営と長期の臨地実務実習に重点を置く", "src": "https://search.keinet.ne.jp/1230"}]}}
+]
