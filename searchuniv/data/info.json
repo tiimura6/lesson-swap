@@ -143914,7 +143914,7 @@ null
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
 "schedule": "2026-11-11",
-"money": "2026-11-07",
+"money": "2026-11-13",
 "scholar": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -144024,15 +144024,16 @@ null
 "rows": [
 {
 "f": "全学部（経済・総合経営・公共）",
-"admission": null,
+"admission": 220000,
 "tuition": null,
 "facility": null,
-"practical": 0,
-"other": null,
-"first_year": 1320000,
-"four_year": 4550000
+"practical": null,
+"other": 65000,
+"first_year": 1325000,
+"four_year": null
 }
-]
+],
+"note": "マナビジョン（2026年度入学者）：入学金220,000円・学費1,040,000円（授業料・施設費の内訳なし）・その他納入金65,000円・合計1,325,000円。学部別の内訳と2027年度の額は公式・Kei-Net・パスナビで見つからず"
 },
 "scholar": {
 "year": "2027年度",
@@ -144055,7 +144056,8 @@ null
 "https://telemail.jp/shingaku/university/10001558/examination/general",
 "https://www.best-shingaku.net/smt/gakuhi2259.html",
 "https://passnavi.obunsha.co.jp/univ/4180/difficulty/",
-"https://manabi.benesse.ne.jp/daigaku/school/3638/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3638/nyushi/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3638/gakuhi/"
 ]
 },
 "大阪国際大学": {
@@ -144071,7 +144073,7 @@ null
 "difficulty": "2026-11-07",
 "methods": "2026-11-07",
 "schedule": "2026-11-11",
-"money": "2026-11-07",
+"money": "2026-11-13",
 "scholar": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -144189,16 +144191,47 @@ null
 "year": "2027年度",
 "rows": [
 {
-"f": "全学部（グローバルビジネス・国際教養・人間科学・経営経済）",
+"f": "経営経済学部 経営学科・経済学科",
 "admission": 280000,
-"tuition": 1140000,
-"facility": 0,
+"tuition": 880000,
+"facility": 285000,
 "practical": 0,
 "other": 65000,
-"first_year": 1485000,
+"first_year": 1510000,
+"four_year": null
+},
+{
+"f": "人間科学部 心理コミュニケーション学科・人間健康科学科",
+"admission": 280000,
+"tuition": 880000,
+"facility": 280000,
+"practical": 0,
+"other": 65000,
+"first_year": 1505000,
+"four_year": null
+},
+{
+"f": "人間科学部 スポーツ行動学科",
+"admission": 280000,
+"tuition": 880000,
+"facility": 305000,
+"practical": 0,
+"other": 65000,
+"first_year": 1530000,
+"four_year": null
+},
+{
+"f": "国際教養学部 国際コミュニケーション学科・国際観光学科",
+"admission": 280000,
+"tuition": 880000,
+"facility": 285000,
+"practical": 0,
+"other": 65000,
+"first_year": 1510000,
 "four_year": null
 }
-]
+],
+"note": "パスナビ（2027年度、2026年9月調査）。施設費に教育充実費を含む。other は諸会費。入学時最小限納入金額は925,000〜937,500円（2段階の分納）。グローバルビジネス学部はパスナビの学費表に掲載なし。4年間合計は掲載なし"
 },
 "scholar": {
 "year": "2027年度",
@@ -144223,7 +144256,8 @@ null
 "https://oiuvoice.com/assets/pdf/examination/2027-nyushiguide.pdf",
 "https://passnavi.obunsha.co.jp/univ/4140/difficulty/?facultyID=020",
 "https://manabi.benesse.ne.jp/daigaku/school/3634/nyushi/gokaku-happyo/index.html",
-"https://telemail.jp/shingaku/university/10001555/examination/general"
+"https://telemail.jp/shingaku/university/10001555/examination/general",
+"https://passnavi.obunsha.co.jp/univ/4140/expense/"
 ]
 },
 "大阪国際工科専門職大学": {
@@ -217170,7 +217204,8 @@ null
 "tuition": "2026-11-09",
 "money": "2026-11-09",
 "research": "2026-11-09",
-"licenses": "2026-11-09"
+"licenses": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "faculties": [
 "芸術学部"
@@ -217356,8 +217391,79 @@ null
 "https://search.keinet.ne.jp/2227/outline/licential",
 "https://search.keinet.ne.jp/2227/outline/expense",
 "https://search.keinet.ne.jp/2227/general/exam_result",
-"https://search.keinet.ne.jp/2227/general/border_rate"
-]
+"https://search.keinet.ne.jp/2227/general/border_rate",
+"https://manabi.benesse.ne.jp/daigaku/school/3258/nyushi/gokaku-happyo/index.html"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜",
+"apply": "9/1〜9/10",
+"exam": "10/18",
+"result": "11/2",
+"proc": "11/12",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制）",
+"apply": "11/1〜11/9",
+"exam": "11/22",
+"result": "12/1",
+"proc": "12/15",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 A日程",
+"apply": "1/5〜1/15",
+"exam": "2/1〜2/2（洋画・日本画・立体アート専攻）／2/2（その他の専攻・学科）",
+"result": "2/12",
+"proc": "2/24",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅰ方式（共テ＋実技）",
+"apply": "1/5〜1/15",
+"exam": "2/1（洋画・日本画・立体アート専攻）／2/2（その他の専攻・学科）",
+"result": "2/12",
+"proc": "2/24",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅱ方式 第Ⅰ期",
+"apply": "1/5〜1/15",
+"exam": "大学入学共通テスト",
+"result": "2/12",
+"proc": "2/24",
+"fee": null,
+"note": "美術教育・国際芸術文化・プロダクトデザイン・環境デザイン・工芸専攻、共創デザイン学科"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 B日程",
+"apply": "2/20〜3/2",
+"exam": "3/15",
+"result": "3/17",
+"proc": "3/26",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅱ方式 第Ⅱ期",
+"apply": "2/20〜3/3",
+"exam": "大学入学共通テスト",
+"result": "3/17",
+"proc": "3/26",
+"fee": null
+}
+],
+"note": "芸術学部の日程（マナビジョン 2027年度入試）。検定料の掲載なし"
+}
 },
 "宇都宮共和大学": {
 "difficulty": {
@@ -217375,7 +217481,8 @@ null
 "tuition": "2026-11-09",
 "money": "2026-11-09",
 "research": "2026-11-09",
-"licenses": "2026-11-09"
+"licenses": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "faculties": [
 "子ども生活学部",
@@ -217470,8 +217577,78 @@ null
 "https://search.keinet.ne.jp/2126/outline/expense",
 "https://search.keinet.ne.jp/2126/outline/scholarship",
 "https://search.keinet.ne.jp/2126/general/exam_result",
-"https://search.keinet.ne.jp/2126/general/border_rate"
-]
+"https://search.keinet.ne.jp/2126/general/border_rate",
+"https://manabi.benesse.ne.jp/daigaku/school/3125/nyushi/gokaku-happyo/"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜",
+"apply": null,
+"exam": "10/3・11/7・12/12・1/23",
+"result": "11/2・12/1・12/18・1/29",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制）",
+"apply": "11/2〜11/13",
+"exam": "11/21",
+"result": "12/1",
+"proc": "12/11",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 特待生",
+"apply": "11/22〜11/30",
+"exam": "12/5",
+"result": "12/14",
+"proc": "12/25",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅰ期",
+"apply": "1/12〜1/29",
+"exam": "2/6",
+"result": "2/16",
+"proc": "2/26",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅰ期",
+"apply": "1/4〜1/29",
+"exam": "大学入学共通テスト",
+"result": "2/16",
+"proc": "2/26",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期",
+"apply": "2/5〜2/19",
+"exam": "2/27",
+"result": "3/9",
+"proc": "3/19",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅱ期",
+"apply": "2/15〜3/4",
+"exam": "大学入学共通テスト",
+"result": "3/9",
+"proc": "3/19",
+"fee": null
+}
+],
+"note": "シティライフ学部・子ども生活学部とも同じ日程（マナビジョン 2027年度入試）。ネット出願。総合型の出願期間と検定料は掲載なし"
+}
 },
 "実践女子大学": {
 "difficulty": {
