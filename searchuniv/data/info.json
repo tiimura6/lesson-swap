@@ -146868,7 +146868,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-13",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -146943,8 +146943,8 @@ null
 "name": "一般選抜 前期",
 "apply": "1/5〜1/14",
 "exam": "1/23",
-"result": "1/28",
-"proc": "2/5",
+"result": "2/4",
+"proc": "2/12",
 "fee": 30000
 },
 {
@@ -146958,14 +146958,69 @@ null
 },
 {
 "kubun": "一般",
-"name": "一般選抜 後期",
+"name": "一般選抜 後期（A方式・B方式）",
 "apply": "2/12〜2/25",
 "exam": "3/6",
 "result": "3/11",
-"proc": null,
+"proc": "3/17",
 "fee": 30000
+},
+{
+"kubun": "一般",
+"name": "一般選抜 ファイナル",
+"apply": "2/26〜3/17",
+"exam": "3/20",
+"result": "3/20",
+"proc": "3/25",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 前期",
+"apply": "1/5〜1/14",
+"exam": "1/16・1/17（共テ）",
+"result": "2/4",
+"proc": "2/12",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 中期",
+"apply": "1/15〜1/28",
+"exam": "1/16・1/17（共テ）",
+"result": "2/10",
+"proc": "2/19",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 後期",
+"apply": "2/12〜2/25",
+"exam": "1/16・1/17（共テ）",
+"result": "3/11",
+"proc": "3/17",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 ファイナル",
+"apply": "2/26〜3/17",
+"exam": "1/16・1/17（共テ）",
+"result": "3/20",
+"proc": "3/25",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 ファイナルプラス（共テ＋個別）",
+"apply": "2/26〜3/17",
+"exam": "1/16・1/17（共テ）・3/20（個別）",
+"result": "3/20",
+"proc": "3/25",
+"fee": null
 }
-]
+],
+"note": "マナビジョン（2027年度入試）・Kei-Net・パスナビの3つで一致（全学部共通）。前期の発表・手続を2/4・2/12に訂正（以前の1/28・2/5は外部AI由来）。検定料30,000円は既存の値（未確認）"
 },
 "money": {
 "year": "2027年度",
@@ -147030,7 +147085,10 @@ null
 "https://www.ohs.ac.jp/admissions/charge/",
 "https://www.ohs.ac.jp/assets/pdf/admissions/guide/2027_nyushiguide.pdf",
 "https://passnavi.obunsha.co.jp/univ/4155/difficulty/?facultyID=005",
-"https://shingakunet.com/gakko/SC003359/gakuhi/"
+"https://shingakunet.com/gakko/SC003359/gakuhi/",
+"https://manabi.benesse.ne.jp/daigaku/school/3660/nyushi/gokaku-happyo/index.html",
+"https://search.keinet.ne.jp/2515/general/schedule",
+"https://passnavi.obunsha.co.jp/univ/4155/schedule/"
 ]
 },
 "大阪体育大学": {
@@ -159338,7 +159396,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-11",
+"schedule": "2026-11-13",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07"
@@ -159418,12 +159476,11 @@ null
 {
 "kubun": "一般",
 "name": "一般選抜 前期",
-"apply": "1/5〜1/22",
+"apply": "1/4〜1/19",
 "exam": "2/2",
 "result": "2/10",
-"proc": null,
-"fee": 30000,
-"note": "マナビジョン（2027年度）では出願1/4〜1/19・手続締切2/18。公式で未確認"
+"proc": "2/18",
+"fee": 30000
 },
 {
 "kubun": "一般",
@@ -159444,7 +159501,7 @@ null
 "fee": null
 }
 ],
-"note": "総合型・推薦・後期・共テ利用はマナビジョン（2027年度入試）。全学科同じ日程。前期の行は既存のまま（出典で食い違いあり）。検定料は前期以外未確認"
+"note": "全学科同じ日程。一般・共テ利用はKei-Net・パスナビ・マナビジョン（2027年度入試）で一致し、前期の出願を1/4〜1/19・手続締切2/18に訂正。総合型・推薦はマナビジョン。検定料は前期以外未確認"
 },
 "access": "みずき野キャンパス（新潟市西区みずき野3-1-1）・新潟中央キャンパス",
 "careers": "IT・情報通信、一般企業、金融・商業、観光・エアライン、公務員など。",
@@ -159454,7 +159511,9 @@ null
 "https://www.nuis.ac.jp/admission/",
 "https://passnavi.obunsha.co.jp/univ/3360/difficulty/",
 "https://search.keinet.ne.jp/2341/general/border_rate",
-"https://manabi.benesse.ne.jp/daigaku/school/3404/nyushi/gokaku-happyo/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3404/nyushi/gokaku-happyo/index.html",
+"https://search.keinet.ne.jp/2337/general/schedule",
+"https://passnavi.obunsha.co.jp/univ/3387/schedule/"
 ]
 },
 "新潟工科大学": {
@@ -220267,7 +220326,8 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "departments": [
 {
@@ -220360,8 +220420,43 @@ null
 "https://search.keinet.ne.jp/2162/outline/licential",
 "https://search.keinet.ne.jp/2162/outline/admission_employment",
 "https://search.keinet.ne.jp/2162/outline/expense",
-"https://search.keinet.ne.jp/2162/general/exam_result"
-]
+"https://search.keinet.ne.jp/2162/general/exam_result",
+"https://manabi.benesse.ne.jp/daigaku/school/3161/nyushi/hoshiki/ippan/index.html",
+"https://passnavi.obunsha.co.jp/univ/2077/schedule/"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 A日程",
+"apply": "1/6〜1/21",
+"exam": "2/1",
+"result": "2/5",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 B日程",
+"apply": "1/22〜2/12",
+"exam": "2/19",
+"result": "2/26",
+"proc": "3/11",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 C日程",
+"apply": "2/13〜3/5",
+"exam": "3/12",
+"result": "3/18",
+"proc": "3/25",
+"fee": null
+}
+],
+"note": "法学部・スポーツ健康学部・情報デザイン学部で同じ日程（マナビジョン2027年度入試・パスナビで一致）。共通テスト利用の日程と検定料は出典に記載なし"
+}
 },
 "愛国学園大学": {
 "faculties": [
@@ -220377,7 +220472,8 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "departments": [
 {
@@ -220431,8 +220527,61 @@ null
 "https://search.keinet.ne.jp/2191/outline/campus",
 "https://search.keinet.ne.jp/2191/outline/licential",
 "https://search.keinet.ne.jp/2191/outline/admission_employment",
-"https://search.keinet.ne.jp/2191/outline/expense"
-]
+"https://search.keinet.ne.jp/2191/outline/expense",
+"https://manabi.benesse.ne.jp/daigaku/school/3213/nyushi/hoshiki/ippan/index.html",
+"https://search.keinet.ne.jp/2191/general/schedule"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅰ期（小論文・調査書）",
+"apply": "2/1〜2/12",
+"exam": "2/20",
+"result": "3/2",
+"proc": "3/17",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期（小論文・調査書）",
+"apply": "3/3〜3/12",
+"exam": "3/20",
+"result": "3/24",
+"proc": "3/25",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅰ期",
+"apply": "1/18〜2/3",
+"exam": "1/16・1/17（共テ）",
+"result": "2/16",
+"proc": "3/10",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅱ期",
+"apply": "2/8〜2/22",
+"exam": "1/16・1/17（共テ）",
+"result": "3/2",
+"proc": "3/17",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅲ期",
+"apply": "3/3〜3/10",
+"exam": "1/16・1/17（共テ）",
+"result": "3/18",
+"proc": "3/24",
+"fee": null
+}
+],
+"note": "人間文化学部人間文化学科（マナビジョン2027年度入試・Kei-Netで一致）。検定料は出典に記載なし"
+}
 },
 "敬愛大学": {
 "faculties": [

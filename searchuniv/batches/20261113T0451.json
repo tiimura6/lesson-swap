@@ -1,0 +1,58 @@
+[
+ {"name": "大阪人間科学大学", "info": {
+  "schedule_replace": {"year": "2027年度入試", "rows": [
+   {"kubun": "一般", "name": "一般選抜 前期", "apply": "1/5〜1/14", "exam": "1/23", "result": "2/4", "proc": "2/12", "fee": 30000},
+   {"kubun": "一般", "name": "一般選抜 中期", "apply": "1/15〜1/28", "exam": "2/6", "result": "2/10", "proc": "2/19", "fee": 30000},
+   {"kubun": "一般", "name": "一般選抜 後期（A方式・B方式）", "apply": "2/12〜2/25", "exam": "3/6", "result": "3/11", "proc": "3/17", "fee": 30000},
+   {"kubun": "一般", "name": "一般選抜 ファイナル", "apply": "2/26〜3/17", "exam": "3/20", "result": "3/20", "proc": "3/25", "fee": null},
+   {"kubun": "共テ利用", "name": "共通テスト利用 前期", "apply": "1/5〜1/14", "exam": "1/16・1/17（共テ）", "result": "2/4", "proc": "2/12", "fee": null},
+   {"kubun": "共テ利用", "name": "共通テスト利用 中期", "apply": "1/15〜1/28", "exam": "1/16・1/17（共テ）", "result": "2/10", "proc": "2/19", "fee": null},
+   {"kubun": "共テ利用", "name": "共通テスト利用 後期", "apply": "2/12〜2/25", "exam": "1/16・1/17（共テ）", "result": "3/11", "proc": "3/17", "fee": null},
+   {"kubun": "共テ利用", "name": "共通テスト利用 ファイナル", "apply": "2/26〜3/17", "exam": "1/16・1/17（共テ）", "result": "3/20", "proc": "3/25", "fee": null},
+   {"kubun": "共テ利用", "name": "共通テスト利用 ファイナルプラス（共テ＋個別）", "apply": "2/26〜3/17", "exam": "1/16・1/17（共テ）・3/20（個別）", "result": "3/20", "proc": "3/25", "fee": null}],
+   "note": "マナビジョン（2027年度入試）・Kei-Net・パスナビの3つで一致（全学部共通）。前期の発表・手続を2/4・2/12に訂正（以前の1/28・2/5は外部AI由来）。検定料30,000円は既存の値（未確認）"},
+  "sources": ["https://manabi.benesse.ne.jp/daigaku/school/3660/nyushi/gokaku-happyo/index.html", "https://search.keinet.ne.jp/2515/general/schedule", "https://passnavi.obunsha.co.jp/univ/4155/schedule/"]}},
+ {"name": "新潟国際情報大学", "info": {
+  "schedule_replace": {"year": "2027年度入試", "rows": [
+   {"kubun": "総合型", "name": "総合型選抜", "apply": "9/7〜9/14", "exam": "10/10", "result": "11/2", "proc": "11/11", "fee": null},
+   {"kubun": "推薦", "name": "学校推薦型選抜（推薦公募：教科成績・資格検定）", "apply": "11/2〜11/6", "exam": "11/15", "result": "12/1", "proc": "1/20", "fee": null},
+   {"kubun": "一般", "name": "一般選抜 前期", "apply": "1/4〜1/19", "exam": "2/2", "result": "2/10", "proc": "2/18", "fee": 30000},
+   {"kubun": "一般", "name": "一般選抜 後期", "apply": "2/19〜2/25", "exam": "3/9", "result": "3/17", "proc": "3/23", "fee": null},
+   {"kubun": "共テ利用", "name": "共通テスト利用選抜", "apply": "1/20〜2/10", "exam": "1/16・1/17（共テ）", "result": "2/24", "proc": "3/4", "fee": null}],
+   "note": "全学科同じ日程。一般・共テ利用はKei-Net・パスナビ・マナビジョン（2027年度入試）で一致し、前期の出願を1/4〜1/19・手続締切2/18に訂正。総合型・推薦はマナビジョン。検定料は前期以外未確認"},
+  "sources": ["https://search.keinet.ne.jp/2337/general/schedule", "https://passnavi.obunsha.co.jp/univ/3387/schedule/"]}},
+ {"name": "平成国際大学", "info": {
+  "schedule_replace": {"year": "2027年度入試", "rows": [
+   {"kubun": "一般", "name": "一般選抜 A日程", "apply": "1/6〜1/21", "exam": "2/1", "result": "2/5", "proc": "2/25", "fee": null},
+   {"kubun": "一般", "name": "一般選抜 B日程", "apply": "1/22〜2/12", "exam": "2/19", "result": "2/26", "proc": "3/11", "fee": null},
+   {"kubun": "一般", "name": "一般選抜 C日程", "apply": "2/13〜3/5", "exam": "3/12", "result": "3/18", "proc": "3/25", "fee": null}],
+   "note": "法学部・スポーツ健康学部・情報デザイン学部で同じ日程（マナビジョン2027年度入試・パスナビで一致）。共通テスト利用の日程と検定料は出典に記載なし"},
+  "sources": ["https://manabi.benesse.ne.jp/daigaku/school/3161/nyushi/hoshiki/ippan/index.html", "https://passnavi.obunsha.co.jp/univ/2077/schedule/"]}},
+ {"name": "愛国学園大学", "info": {
+  "schedule_replace": {"year": "2027年度入試", "rows": [
+   {"kubun": "一般", "name": "一般選抜 Ⅰ期（小論文・調査書）", "apply": "2/1〜2/12", "exam": "2/20", "result": "3/2", "proc": "3/17", "fee": null},
+   {"kubun": "一般", "name": "一般選抜 Ⅱ期（小論文・調査書）", "apply": "3/3〜3/12", "exam": "3/20", "result": "3/24", "proc": "3/25", "fee": null},
+   {"kubun": "共テ利用", "name": "共通テスト利用 Ⅰ期", "apply": "1/18〜2/3", "exam": "1/16・1/17（共テ）", "result": "2/16", "proc": "3/10", "fee": null},
+   {"kubun": "共テ利用", "name": "共通テスト利用 Ⅱ期", "apply": "2/8〜2/22", "exam": "1/16・1/17（共テ）", "result": "3/2", "proc": "3/17", "fee": null},
+   {"kubun": "共テ利用", "name": "共通テスト利用 Ⅲ期", "apply": "3/3〜3/10", "exam": "1/16・1/17（共テ）", "result": "3/18", "proc": "3/24", "fee": null}],
+   "note": "人間文化学部人間文化学科（マナビジョン2027年度入試・Kei-Netで一致）。検定料は出典に記載なし"},
+  "sources": ["https://manabi.benesse.ne.jp/daigaku/school/3213/nyushi/hoshiki/ippan/index.html", "https://search.keinet.ne.jp/2191/general/schedule"]}},
+ {"name": "航空大学校", "story": {
+  "summary": "航空大学校は国が設置したエアライン・パイロットの養成機関で、宮崎の学科課程から帯広・宮崎・仙台のフライト課程まで24か月で事業用操縦士（陸上多発）と計器飛行証明の取得をめざす。受験資格は大学2年以上在学（62単位以上）や短大・高専卒業などのため、高校生には「大学などに進んでから受ける進路」として話せる。パイロット志望で、まず大学で学びたい生徒に、4年制大学の操縦学専攻と並べて紹介できる。",
+  "only": [
+   {"t": "1954年に運輸省（現・国土交通省）がエアライン・パイロット養成のために創立した、国が設置した日本唯一のパイロット養成機関", "src": "https://www.kouku-dai.ac.jp/02_enter/"},
+   {"t": "宮崎学科課程（5か月）→帯広・宮崎・仙台のフライト課程の計24か月で、事業用操縦士（陸上多発）と計器飛行証明を取得する。3キャンパスとも空港に隣接", "src": "https://www.kouku-dai.ac.jp/02_enter/"},
+   {"t": "受験資格は大学2年以上在学で62単位以上、短大・高専卒業、専門士などで、高校卒業だけでは出願できない（令和9年度、募集108名）", "src": "https://www.kouku-dai.ac.jp/02_enter/05.html"}],
+  "vs": [
+   {"u": "崇城大学", "t": "崇城大学は工学部宇宙航空システム工学科に航空操縦学専攻を置く4年制大学で高校卒業後に入学できるが、航空大学校は大学などで2年以上学んだ後に受験し、24か月で操縦士の資格取得に絞って学ぶ", "src": "https://search.keinet.ne.jp/2751/outline/department"},
+   {"u": "第一工科大学", "t": "第一工科大学は工学部航空工学科に航空操縦学専攻を置く大学だが、航空大学校は国が設置した操縦士養成機関で、入学料282,000円と課程ごとの授業料（令和9年度）で学ぶ", "src": "https://www.kouku-dai.ac.jp/02_enter/05.html"}]}},
+ {"name": "職業能力開発大学校（ポリテクカレッジ）", "story": {
+  "summary": "ポリテクカレッジは厚生労働省所管の大学校で、高校卒業後に専門課程（2年）で実験・実習を中心に生産現場の技能と理論を一体で学び、修了者は応用課程（2年）に進んで生産技術・生産管理のリーダーをめざすこともできる。専門課程の就職率は毎年99%台で、就職先は製造業・建設業が多い。手を動かしてものづくりを学び、早く現場で働きたい生徒に話せる学校。",
+  "only": [
+   {"t": "専門課程（2年）は「実学融合」をうたい、実際の現場で製造されている部品の製作を実習課題に取り入れるなど実験・実習に重点を置く少人数制", "src": "https://www.jeed.go.jp/js/kousotsusya/polytech_co/system/senmon.html"},
+   {"t": "専門課程の就職率は令和3〜7年度に毎年99%台（令和7年度99.4%、修了1,389人）で、就職先は製造業41.5%・建設業22.2%（令和7年度）", "src": "https://www.jeed.go.jp/js/kousotsusya/polytech_co/system/senmon.html"},
+   {"t": "専門課程修了後は応用課程（2年）に進み、高度な技能・技術や企画・開発能力を身につけ、生産技術・生産管理部門のリーダーをめざせる", "src": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/jinzaikaihatsu/gakusotsusha.html"}],
+  "vs": [
+   {"u": "職業能力開発総合大学校", "t": "職業能力開発総合大学校は4年間の総合課程で学士（生産技術）と職業訓練指導員免許を取得できるが、ポリテクカレッジは2年の専門課程で就職するか、応用課程へ進むかを選べる", "src": "https://univpress.co.jp/wp-content/themes/cnn3.0/pubdata/2027/kimidono/0455.pdf"},
+   {"u": "ものつくり大学", "t": "ものつくり大学は4年制の技能工芸学部（初年度160万円、2026年度）だが、ポリテクカレッジの専門課程は2年間の実習中心の課程", "src": "https://search.keinet.ne.jp/2169/outline/expense"}]}}
+]
