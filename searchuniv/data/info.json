@@ -153148,7 +153148,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-11",
+"schedule": "2026-11-13",
 "money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -153228,7 +153228,8 @@ null
 "exam": "2/1・2/2・2/3",
 "result": "2/16",
 "proc": "2/22",
-"fee": null
+"fee": 30000,
+"note": "2回目以降の同時期の併願は15,000円"
 },
 {
 "kubun": "一般",
@@ -153237,7 +153238,8 @@ null
 "exam": "3/7",
 "result": "3/13",
 "proc": "3/18",
-"fee": null
+"fee": 30000,
+"note": "2回目以降の同時期の併願は15,000円"
 },
 {
 "kubun": "共テ利用",
@@ -153246,7 +153248,8 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "2/20",
 "proc": "2/26",
-"fee": null
+"fee": 16000,
+"note": "一般選抜と同時出願なら8,000円"
 },
 {
 "kubun": "共テ利用",
@@ -153255,10 +153258,11 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "3/13",
 "proc": "3/18",
-"fee": null
+"fee": 16000,
+"note": "一般選抜と同時出願なら8,000円"
 }
 ],
-"note": "ベネッセ マナビジョン（2027年度入試情報）。全学部同じ日程。検定料は出典に記載なし"
+"note": "ベネッセ マナビジョン（2027年度入試情報）。全学部同じ日程。検定料は公式「2027年度 募集要項」"
 },
 "money": {
 "year": "2026年度",
@@ -153319,7 +153323,8 @@ null
 "https://passnavi.obunsha.co.jp/univ/3505/difficulty/",
 "https://shingakunet.com/gakko/SC003199/gakuhi/",
 "https://manabi.benesse.ne.jp/daigaku/school/3431/nyushi/index.html",
-"https://search.keinet.ne.jp/2363/outline/expense"
+"https://search.keinet.ne.jp/2363/outline/expense",
+"https://www.kinjo.ac.jp/ku/admissions/pdf/nyushi_requirements.pdf"
 ]
 },
 "金城学院大学": {
@@ -153338,7 +153343,7 @@ null
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
 "schedule": "2026-11-11",
-"money": "2026-11-07",
+"money": "2026-11-13",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07"
@@ -153470,14 +153475,136 @@ null
 "year": "2027年度",
 "rows": [
 {
-"f": "人間科学部（多元心理・現代子ども教育）",
-"admission": null,
-"tuition": 1197000,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": null,
-"four_year": null
+"f": "文学部 国際英語学科",
+"admission": 200000,
+"tuition": 840000,
+"facility": 382000,
+"practical": 0,
+"other": 38800,
+"first_year": 1460800,
+"four_year": null,
+"note": "パスナビ 2027年度（2026年9月調査）。一部の学科は別途、履修費・実習関連費が必要"
+},
+{
+"f": "文学部 総合歴史学科",
+"admission": 200000,
+"tuition": 840000,
+"facility": 382000,
+"practical": 0,
+"other": 38800,
+"first_year": 1460800,
+"four_year": null,
+"note": "パスナビ 2027年度（2026年9月調査）。一部の学科は別途、履修費・実習関連費が必要"
+},
+{
+"f": "文学部 日本語日本文化学科",
+"admission": 200000,
+"tuition": 800000,
+"facility": 382000,
+"practical": 0,
+"other": 38800,
+"first_year": 1420800,
+"four_year": null,
+"note": "パスナビ 2027年度（2026年9月調査）。一部の学科は別途、履修費・実習関連費が必要"
+},
+{
+"f": "文学部 音楽芸術学科",
+"admission": 200000,
+"tuition": 1330000,
+"facility": 382000,
+"practical": 0,
+"other": 38800,
+"first_year": 1950800,
+"four_year": null,
+"note": "パスナビ 2027年度（2026年9月調査）。一部の学科は別途、履修費・実習関連費が必要"
+},
+{
+"f": "経営学部 経営学科",
+"admission": 200000,
+"tuition": 840000,
+"facility": 382000,
+"practical": 0,
+"other": 38800,
+"first_year": 1460800,
+"four_year": null,
+"note": "パスナビ 2027年度（2026年9月調査）。一部の学科は別途、履修費・実習関連費が必要"
+},
+{
+"f": "心理学部 多元心理学科",
+"admission": 200000,
+"tuition": 800000,
+"facility": 382000,
+"practical": 0,
+"other": 38800,
+"first_year": 1420800,
+"four_year": null,
+"note": "パスナビ 2027年度（2026年9月調査）。一部の学科は別途、履修費・実習関連費が必要 ・心理学部は2027年4月開設"
+},
+{
+"f": "人間科学部 現代子ども教育学科",
+"admission": 200000,
+"tuition": 800000,
+"facility": 382000,
+"practical": 0,
+"other": 38800,
+"first_year": 1420800,
+"four_year": null,
+"note": "パスナビ 2027年度（2026年9月調査）。一部の学科は別途、履修費・実習関連費が必要"
+},
+{
+"f": "デザイン工学部 建築デザイン学科",
+"admission": 200000,
+"tuition": 870000,
+"facility": 382000,
+"practical": 0,
+"other": 38800,
+"first_year": 1490800,
+"four_year": null,
+"note": "パスナビ 2027年度（2026年9月調査）。一部の学科は別途、履修費・実習関連費が必要"
+},
+{
+"f": "デザイン工学部 情報デザイン学科",
+"admission": 200000,
+"tuition": 870000,
+"facility": 382000,
+"practical": 0,
+"other": 38800,
+"first_year": 1490800,
+"four_year": null,
+"note": "パスナビ 2027年度（2026年9月調査）。一部の学科は別途、履修費・実習関連費が必要"
+},
+{
+"f": "生活環境学部 食環境栄養学科",
+"admission": 200000,
+"tuition": 840000,
+"facility": 382000,
+"practical": 0,
+"other": 38800,
+"first_year": 1460800,
+"four_year": null,
+"note": "パスナビ 2027年度（2026年9月調査）。一部の学科は別途、履修費・実習関連費が必要"
+},
+{
+"f": "看護学部 看護学科",
+"admission": 200000,
+"tuition": 1320000,
+"facility": 382000,
+"practical": 0,
+"other": 38870,
+"first_year": 1940870,
+"four_year": null,
+"note": "パスナビ 2027年度（2026年9月調査）。一部の学科は別途、履修費・実習関連費が必要"
+},
+{
+"f": "薬学部 薬学科",
+"admission": 200000,
+"tuition": 1670000,
+"facility": 382000,
+"practical": 0,
+"other": 40300,
+"first_year": 2292300,
+"four_year": null,
+"note": "パスナビ 2027年度（2026年9月調査）。一部の学科は別途、履修費・実習関連費が必要"
 }
 ]
 },
@@ -153492,7 +153619,8 @@ null
 "https://www.kinjo-u.ac.jp/ja/admissions/entrance/system/center_final/",
 "https://www.kinjo-u.ac.jp/ja/admissions/entrance/fee/",
 "https://passnavi.obunsha.co.jp/univ/3660/top/",
-"https://www.kinjo-u.ac.jp/ja/admissions/sys/upload/save/15997236806a740caabcd71.pdf"
+"https://www.kinjo-u.ac.jp/ja/admissions/sys/upload/save/15997236806a740caabcd71.pdf",
+"https://passnavi.obunsha.co.jp/univ/3660/expense/"
 ]
 },
 "金沢医科大学": {
@@ -153677,7 +153805,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-11",
+"schedule": "2026-11-13",
 "money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -153813,7 +153941,7 @@ null
 "fee": null
 }
 ],
-"note": "ベネッセ マナビジョン（2027年度入試情報、経済学部の例）。学部により異なる可能性あり。検定料は出典に記載なし"
+"note": "ベネッセ マナビジョン（経済学部の例）とテレメール（2027年度入学、全学部・学科で同じ日程）で一致を確認。検定料は出典に記載なし"
 },
 "money": {
 "year": "2026年度",
@@ -153909,7 +154037,8 @@ null
 "https://passnavi.obunsha.co.jp/univ/3500/difficulty/",
 "https://shingakunet.com/gakko/SC000221/gakuhi/",
 "https://manabi.benesse.ne.jp/daigaku/school/3429/nyushi/keizai/",
-"https://search.keinet.ne.jp/2362/outline/expense"
+"https://search.keinet.ne.jp/2362/outline/expense",
+"https://telemail.jp/shingaku/university/10001806/examination/general"
 ]
 },
 "金沢工業大学": {
@@ -226742,7 +226871,8 @@ null
 "founded": "2026-11-09",
 "access": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "departments": [
 {
@@ -226778,8 +226908,25 @@ null
 "https://search.keinet.ne.jp/2313/outline/department",
 "https://search.keinet.ne.jp/2313/outline/licential",
 "https://search.keinet.ne.jp/2313/outline/admission_employment",
-"https://search.keinet.ne.jp/2313/general/exam_result"
-]
+"https://search.keinet.ne.jp/2313/general/exam_result",
+"https://telemail.jp/shingaku/university/10000109/examination/general"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜",
+"apply": "1/7〜1/13",
+"exam": "2/2・2/3（試験日指定、選抜科目により異なる）",
+"result": "2/12",
+"proc": "2/22",
+"fee": null,
+"note": "音楽学部（音楽芸術表現・音楽芸術運営）・芸術工学部 共通。芸術工学科は学力試験の代わりに共通テストの成績も利用可"
+}
+],
+"note": "テレメール（2027年度入学、2026年7月時点）。検定料は出典に記載なし。推薦・総合型は未確認"
+}
 },
 "杉野服飾大学": {
 "faculties": [
@@ -226792,7 +226939,8 @@ null
 "founded": "2026-11-09",
 "access": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "departments": [
 {
@@ -226822,8 +226970,90 @@ null
 "https://search.keinet.ne.jp/2222/outline/licential",
 "https://search.keinet.ne.jp/2222/outline/admission_employment",
 "https://search.keinet.ne.jp/2222/outline/campus",
-"https://search.keinet.ne.jp/2222/general/exam_result"
-]
+"https://search.keinet.ne.jp/2222/general/exam_result",
+"https://www.sugino-fc.ac.jp/media/27guide.pdf",
+"https://www.sugino-fc.ac.jp/media/27koubo_youkou.pdf"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜 制作・探究・体験レポート方式 Ⅰ期（専願）",
+"apply": "9/3〜10/5",
+"exam": "10/17",
+"result": "11/1",
+"proc": "11/26",
+"fee": 35000
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 基礎学力方式（併願）",
+"apply": "9/3〜10/9",
+"exam": "10/17",
+"result": "11/1",
+"proc": "11/26",
+"fee": 35000
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制）",
+"apply": "10/20〜11/9",
+"exam": "11/15",
+"result": "12/1",
+"proc": "12/16",
+"fee": 35000,
+"note": "書類郵送11/1〜11/9（消印有効）。個人面接・口頭試問"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 A日程",
+"apply": "12/22〜1/15",
+"exam": "1/23",
+"result": "2/4",
+"proc": "",
+"fee": null,
+"note": "学科併願可（併願割引あり）"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 B日程",
+"apply": "1/4〜2/2",
+"exam": "2/9",
+"result": "2/16",
+"proc": "",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 A日程",
+"apply": "1/4〜1/26",
+"exam": "1/16・1/17（共テ）",
+"result": "2/12",
+"proc": "",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 B日程",
+"apply": "2/2〜2/17",
+"exam": "1/16・1/17（共テ）",
+"result": "3/3",
+"proc": "",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 C日程",
+"apply": "2/16〜3/10",
+"exam": "1/16・1/17（共テ）",
+"result": "3/16",
+"proc": "",
+"fee": null
+}
+],
+"note": "公式「2027 大学案内（入試カレンダー）」と公式「2027年度 学校推薦型選抜（公募制）入学試験要項」。服飾学部（服飾・服飾表現・服飾文化）。一般・共テ利用の手続締切と検定料は未確認"
+}
 },
 "杏林大学": {
 "faculties": [
