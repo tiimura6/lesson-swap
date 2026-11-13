@@ -209831,7 +209831,7 @@ null
 "departments": "2026-11-09",
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-13",
 "scholar": "2026-11-09",
 "eng": "2026-11-09",
 "_via": "2026-11-09"
@@ -209952,7 +209952,26 @@ null
 "exam": "2/1",
 "result": "2/4",
 "proc": "一次:2/5〜2/19、二次(入学金返還期限):3/11",
-"fee": 35000
+"fee": 35000,
+"note": "最大3学科まで35,000円で併願可"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期2教科",
+"apply": "1/3〜2/2",
+"exam": "2/5",
+"result": "2/9",
+"proc": "一次:2/19、二次:3/11",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 中期",
+"apply": "1/3〜2/17",
+"exam": "2/19",
+"result": "2/22",
+"proc": "一次:3/2、二次:3/11",
+"fee": null
 },
 {
 "kubun": "一般",
@@ -209961,7 +209980,8 @@ null
 "exam": "2/12",
 "result": "2/16",
 "proc": "一次:2/17〜3/2、二次(入学金返還期限):3/11",
-"fee": 35000
+"fee": 35000,
+"note": "最大3学科まで35,000円で併願可"
 },
 {
 "kubun": "一般",
@@ -209993,13 +210013,42 @@ null
 {
 "kubun": "一般",
 "name": "スカラシップ選抜（国公立大学併願タイプ）",
-"apply": null,
-"exam": null,
-"result": null,
-"proc": "最終(二次)手続期限:3/11",
+"apply": "1/3〜1/29",
+"exam": "2/1",
+"result": "2/9",
+"proc": "一次:2/19、二次:3/11",
 "fee": null
+},
+{
+"kubun": "一般",
+"name": "未来構想方式 第1日程",
+"apply": "1/3〜2/2",
+"exam": "2/5",
+"result": "2/9",
+"proc": "一次:2/19、二次:3/11",
+"fee": 20000,
+"note": "同日の前期2教科などと併願すると＋5,000円（同日併願割）"
+},
+{
+"kubun": "一般",
+"name": "未来構想方式 第2日程",
+"apply": "1/3〜2/17",
+"exam": "2/19",
+"result": "2/22",
+"proc": "一次:3/2、二次:3/11",
+"fee": 20000
+},
+{
+"kubun": "一般",
+"name": "未来構想方式 第3日程",
+"apply": "1/3〜3/4",
+"exam": "3/6",
+"result": "3/12",
+"proc": "3/24",
+"fee": 20000
 }
-]
+],
+"note": "Kei-Net「一般選抜の特徴」（2027年4月入学）で前期2教科・中期・スカラシップ・未来構想方式を追加。共テ利用・前期2教科・中期・後期の検定料は未確認"
 },
 "scholar": {
 "year": "2027年度",
@@ -210061,7 +210110,8 @@ null
 "https://www.sanno.ac.jp/exam/system/general/commontest.html",
 "https://www.sanno.ac.jp/exam/system/general/spu.html",
 "https://www.sanno.ac.jp/exam/system/special/ao_im.html",
-"https://www.sanno.ac.jp/undergraduate/campuslife/scholarship2.html"
+"https://www.sanno.ac.jp/undergraduate/campuslife/scholarship2.html",
+"https://search.keinet.ne.jp/2312/topics/12"
 ]
 },
 "湘南医療大学": {
@@ -211266,7 +211316,7 @@ null
 "difficulty": "2026-11-09",
 "methods": "2026-11-09",
 "schedule": "2026-11-09",
-"money": "2026-11-09",
+"money": "2026-11-13",
 "scholar": "2026-11-09",
 "oc": "2026-11-09",
 "access": "2026-11-09",
@@ -211443,7 +211493,7 @@ null
 ]
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
 "f": "音楽学部 音楽学科",
@@ -211453,7 +211503,8 @@ null
 "practical": 0,
 "other": 72650,
 "first_year": 2262650,
-"four_year": 8232650
+"four_year": 8232650,
+"note": "パスナビ 2027年度（2026年9月調査）。入学時最小限納入金1,267,650円。4年間合計は2026年度の既存値"
 }
 ]
 },
@@ -211584,7 +211635,8 @@ null
 "https://search.keinet.ne.jp/2315/general/border_rate",
 "https://search.keinet.ne.jp/2315/outline/campus",
 "https://passnavi.obunsha.co.jp/univ/3310/top/",
-"https://passnavi.obunsha.co.jp/univ/3310/department/"
+"https://passnavi.obunsha.co.jp/univ/3310/department/",
+"https://passnavi.obunsha.co.jp/univ/3310/expense/"
 ]
 },
 "江戸川大学": {
@@ -211599,7 +211651,7 @@ null
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
 "subjects": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-13",
 "money": "2026-11-13",
 "scholar": "2026-11-09",
 "oc": "2026-11-09",
@@ -211697,42 +211749,109 @@ null
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "総合型",
+"name": "総合型選抜 1期",
+"apply": "9/9〜9/18",
+"exam": "9/26・9/30・10/3・10/7・10/10・10/17から選択",
+"result": "11/1",
+"proc": "11/5〜11/13",
+"fee": 30000
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 2期",
+"apply": "11/16〜11/20",
+"exam": "11/28・12/5から選択",
+"result": "12/16",
+"proc": "12/16〜1/6",
+"fee": 30000
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 3期",
+"apply": "2/8〜2/12",
+"exam": "2/20・2/27から選択",
+"result": "3/9",
+"proc": "3/9〜3/12",
+"fee": 30000
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募推薦・専願）1期",
+"apply": "11/1〜11/11",
+"exam": "11/21",
+"result": "12/1",
+"proc": "12/1〜12/9",
+"fee": 30000
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募推薦・専願）2期",
+"apply": "11/25〜12/4",
+"exam": "12/12",
+"result": "12/16",
+"proc": "12/16〜1/6",
+"fee": 30000
+},
+{
 "kubun": "一般",
-"name": "一般選抜",
+"name": "一般選抜 1期",
 "apply": "1/8〜1/21",
-"exam": "2/4または2/5（両日可）",
+"exam": "2/4または2/5（選択）",
 "result": "2/12",
-"proc": null,
+"proc": "2/12〜2/18",
+"fee": 30000
+},
+{
+"kubun": "一般",
+"name": "一般選抜 2期",
+"apply": "2/8〜2/15",
+"exam": "2/19",
+"result": "2/25",
+"proc": "2/25〜3/2",
+"fee": 30000
+},
+{
+"kubun": "一般",
+"name": "一般選抜 3期",
+"apply": "2/19〜2/26",
+"exam": "3/5",
+"result": "3/9",
+"proc": "3/9〜3/12",
 "fee": 30000
 },
 {
 "kubun": "共テ利用",
-"name": "大学入学共通テスト利用選抜（1期）",
+"name": "大学入学共通テスト利用選抜 1期",
 "apply": "1/8〜1/21",
 "exam": "1/16・1/17（共テ）",
 "result": "2/12",
 "proc": "2/12〜2/18",
-"fee": null
+"fee": 10000,
+"note": "1学科10,000円・複数学科15,000円"
 },
 {
 "kubun": "共テ利用",
-"name": "大学入学共通テスト利用選抜（2/8〜2/15出願回）",
+"name": "大学入学共通テスト利用選抜 2期",
 "apply": "2/8〜2/15",
 "exam": "1/16・1/17（共テ）",
 "result": "2/25",
 "proc": "2/25〜3/2",
-"fee": null
+"fee": 10000,
+"note": "1学科10,000円・複数学科15,000円"
 },
 {
 "kubun": "共テ利用",
-"name": "大学入学共通テスト利用選抜（2/19〜2/26出願回）",
+"name": "大学入学共通テスト利用選抜 3期",
 "apply": "2/19〜2/26",
 "exam": "1/16・1/17（共テ）",
 "result": "3/9",
 "proc": "3/9〜3/12",
-"fee": null
+"fee": 10000,
+"note": "1学科10,000円・複数学科15,000円"
 }
-]
+],
+"note": "江戸川大学 2027年度学生募集要項（公式）。一般・共テ利用の日程はテレメール（2027年度）とも一致"
 },
 "money": {
 "year": "2027年度",
@@ -211871,7 +211990,9 @@ null
 "https://passnavi.obunsha.co.jp/univ/2090/difficulty/",
 "https://search.keinet.ne.jp/2170/general/border_rate",
 "https://search.keinet.ne.jp/2170/outline/expense",
-"https://passnavi.obunsha.co.jp/univ/2090/expense/"
+"https://passnavi.obunsha.co.jp/univ/2090/expense/",
+"https://www.edogawa-u.ac.jp/img/media/33769.pdf",
+"https://telemail.jp/shingaku/university/10000221/examination/general"
 ]
 },
 "武蔵野大学": {
@@ -212449,7 +212570,8 @@ null
 "methods": "2026-11-09",
 "schedule": "2026-11-09",
 "oc": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"money": "2026-11-13"
 },
 "departments": [
 {
@@ -212569,8 +212691,59 @@ null
 "https://search.keinet.ne.jp/2323/general/border_rate",
 "https://search.keinet.ne.jp/2323/outline/expense",
 "https://manabi.benesse.ne.jp/daigaku/school/3381/nyushi/hoshiki/ippan/",
-"https://manabi.benesse.ne.jp/daigaku/school/3381/nyushi/hoshiki/kyotsu-test/"
+"https://manabi.benesse.ne.jp/daigaku/school/3381/nyushi/hoshiki/kyotsu-test/",
+"https://passnavi.obunsha.co.jp/univ/3373/expense/",
+"https://telemail.jp/shingaku/university/10001077/examination/general"
+],
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "薬学部 健康薬学科",
+"admission": 400000,
+"tuition": 1350000,
+"facility": 600000,
+"practical": 0,
+"other": 12000,
+"first_year": 2362000,
+"four_year": null,
+"note": "パスナビ 2027年度（2026年9月調査）。一般生の額。入学時最小限納入金1,387,000円"
+},
+{
+"f": "薬学部 漢方薬学科",
+"admission": 400000,
+"tuition": 1350000,
+"facility": 600000,
+"practical": 0,
+"other": 12000,
+"first_year": 2362000,
+"four_year": null,
+"note": "パスナビ 2027年度。一般生の額"
+},
+{
+"f": "薬学部 臨床薬学科",
+"admission": 400000,
+"tuition": 1350000,
+"facility": 600000,
+"practical": 0,
+"other": 12000,
+"first_year": 2362000,
+"four_year": null,
+"note": "パスナビ 2027年度。一般生の額"
+},
+{
+"f": "薬学部 薬科学科",
+"admission": 400000,
+"tuition": 1150000,
+"facility": 400000,
+"practical": 0,
+"other": 12000,
+"first_year": 1962000,
+"four_year": null,
+"note": "パスナビ 2027年度。一般生の額。入学時最小限納入金1,187,000円"
+}
 ]
+}
 },
 "横浜美術大学": {
 "faculties": [
@@ -212581,7 +212754,8 @@ null
 "departments": "2026-11-09",
 "difficulty": "2026-11-09",
 "_via": "2026-11-09",
-"schedule": "2026-11-12"
+"schedule": "2026-11-12",
+"money": "2026-11-13"
 },
 "departments": [
 {
@@ -212601,7 +212775,9 @@ null
 "https://www.yokohama-art.ac.jp/",
 "https://search.keinet.ne.jp/2325/general/border_rate",
 "https://manabi.benesse.ne.jp/daigaku/school/3382/gakuhi/",
-"https://telemail.jp/shingaku/university/10000048/examination/general"
+"https://telemail.jp/shingaku/university/10000048/examination/general",
+"https://passnavi.obunsha.co.jp/univ/3372/expense/",
+"https://www.yokohama-art.ac.jp/about/system/tuition"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -212662,6 +212838,22 @@ null
 }
 ],
 "note": "テレメール（2027年度一般選抜、2026年6月1日時点）。美術学部 美術・デザイン学科。ネット出願、必要書類は締切日消印有効。試験地は神奈川県。検定料は未確認"
+},
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "美術学部 美術・デザイン学科",
+"admission": 260000,
+"tuition": 1160000,
+"facility": 310000,
+"practical": 68000,
+"other": 10000,
+"first_year": 1808000,
+"four_year": null,
+"note": "パスナビ 2027年度（2026年9月調査）。other は同窓会費。入学時最小限納入金1,194,000円（2段納入）"
+}
+]
 }
 },
 "横浜商科大学": {
@@ -226290,7 +226482,8 @@ null
 "founded": "2026-11-09",
 "access": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "departments": [
 {
@@ -226381,8 +226574,62 @@ null
 "https://search.keinet.ne.jp/2224/outline/department",
 "https://search.keinet.ne.jp/2224/outline/licential",
 "https://search.keinet.ne.jp/2224/outline/admission_employment",
-"https://search.keinet.ne.jp/2224/general/exam_result"
-]
+"https://search.keinet.ne.jp/2224/general/exam_result",
+"https://search.keinet.ne.jp/2224/topics/12"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 A日程",
+"apply": "1/6〜1/13",
+"exam": "1/24",
+"result": "1/29",
+"proc": "2/18（二段階：3/4）",
+"fee": 35000,
+"note": "1〜2学科同時出願で35,000円、3学科目以降1学科10,000円。試験会場10か所"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 B日程",
+"apply": "1/6〜1/22",
+"exam": "2/4",
+"result": "2/12",
+"proc": "2/18（二段階：3/4）",
+"fee": 35000,
+"note": "1〜2学科同時出願で35,000円、3学科目以降1学科10,000円"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 3月期（総合情報学部を除く）",
+"apply": "2/13〜2/27",
+"exam": "3/6",
+"result": "3/10",
+"proc": "3/14",
+"fee": 35000
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用型 I期（一般・英語4技能）",
+"apply": "1/6〜1/15",
+"exam": "1/16・1/17（共テ）",
+"result": "2/12",
+"proc": "2/18（二段階：3/4）",
+"fee": 15000
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用型 II期（一般・英語4技能）",
+"apply": "1/26〜2/17",
+"exam": "1/16・1/17（共テ）",
+"result": "2/27",
+"proc": "3/4",
+"fee": 15000
+}
+],
+"note": "Kei-Net「一般選抜の特徴」（2027年度）"
+}
 },
 "昭和薬科大学": {
 "faculties": [
@@ -226396,7 +226643,8 @@ null
 "access": "2026-11-09",
 "kyotsu": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "departments": [
 {
@@ -226435,8 +226683,52 @@ null
 "https://search.keinet.ne.jp/2225/outline/department",
 "https://search.keinet.ne.jp/2225/outline/admission_employment",
 "https://search.keinet.ne.jp/2225/general/exam_subject",
-"https://search.keinet.ne.jp/2225/general/exam_result"
-]
+"https://search.keinet.ne.jp/2225/general/exam_result",
+"https://telemail.jp/shingaku/university/10000072/examination/general"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "共テ利用",
+"name": "A方式（共通テスト利用）",
+"apply": "12/14〜1/15",
+"exam": "1/16・1/17（共テ）",
+"result": "2/10",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "B方式（個別試験）",
+"apply": "12/14〜1/22",
+"exam": "2/4",
+"result": "2/9",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "C方式（共通テスト併用）",
+"apply": "12/14〜1/22",
+"exam": "共テ＋2/3",
+"result": "2/10",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "D方式（共通テスト・B方式利用）",
+"apply": "12/14〜1/22",
+"exam": "共テ＋2/4（B方式の成績を利用）",
+"result": "2/10",
+"proc": "2/25",
+"fee": null,
+"note": "B方式との同時出願のみ"
+}
+],
+"note": "テレメール（2027年度一般選抜、2026年7月23日時点）。薬学部薬学科。検定料は記載なし"
+}
 },
 "昭和音楽大学": {
 "faculties": [
