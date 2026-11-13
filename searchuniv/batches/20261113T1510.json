@@ -1,0 +1,371 @@
+[
+ {
+  "name": "清泉女子大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期）",
+      "apply": "12/14〜1/19（Web登録）",
+      "exam": "1/28",
+      "result": "2/4",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試（中期）",
+      "apply": "1/20〜2/5（Web登録）",
+      "exam": "2/14",
+      "result": "2/19",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（後期）",
+      "apply": "1/30〜2/20（Web登録）",
+      "exam": "2/27",
+      "result": "3/4",
+      "proc": "3/11",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試（前期）",
+      "apply": "12/14〜1/29（Web登録）",
+      "exam": "共通テスト利用（個別試験なし）",
+      "result": "2/12",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試（後期）",
+      "apply": "1/30〜3/5（Web登録）",
+      "exam": "共通テスト利用（個別試験なし）",
+      "result": "3/12",
+      "proc": "3/17",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試（後期）＋志望理由作文",
+      "apply": "1/30〜2/20",
+      "exam": "2/27",
+      "result": "3/4",
+      "proc": "3/11",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "高大接続入試（第1次）",
+      "apply": "12/18〜1/8",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "高大接続入試（第2次）",
+      "apply": "1/9〜3/9",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     }
+    ],
+    "note": "一般・共テ利用の試験日・合格発表・手続締切はマナビジョン（2027年度入試）による。出願期間は既存（公式のWeb出願案内）と一致。総合文化学部・地球市民学部で同じ日程。検定料は未確認"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3264/nyushi/index.html"
+   ]
+  }
+ },
+ {
+  "name": "田園調布学園大学",
+  "info": {
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "学部共通（人間福祉学部・子ども教育学部・人間科学部）",
+      "admission": 300000,
+      "tuition": 700000,
+      "facility": 440000,
+      "practical": null,
+      "other": 70000,
+      "first_year": 1510000,
+      "four_year": 5160000,
+      "note": "公式 2027年度学生募集要項（自己推薦型選抜）：入学金30万・授業料70万・施設費44万・後援会費3万×2期・学生活動支援費1万。実習費は表に記載なし（実費が必要な場合あり）。2年次以降は年121万（卒業年次は同窓会費2万を含め123万）"
+     }
+    ]
+   },
+   "sources": [
+    "https://www.dcu.ac.jp/admission/guidelines/document/2027_jiko_suisen_bosyu.pdf",
+    "https://search.keinet.ne.jp/2318/general/schedule"
+   ]
+  }
+ },
+ {
+  "name": "湘南医療大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "薬学部 医療薬学科",
+      "admission": 330000,
+      "tuition": 1300000,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 2020000,
+      "four_year": null,
+      "note": "マナビジョン（2026年度入学者）：入学金33万＋授業料・施設設備費（看護・リハは実験実習費を含む）の合計のみ。諸会費などは記載なし"
+     },
+     {
+      "f": "保健医療学部 看護学科",
+      "admission": 330000,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1710000,
+      "four_year": null,
+      "note": "マナビジョン（2026年度入学者）：入学金33万＋授業料・施設設備費（看護・リハは実験実習費を含む）の合計のみ。諸会費などは記載なし"
+     },
+     {
+      "f": "保健医療学部 リハビリテーション学科（理学療法学専攻・作業療法学専攻）",
+      "admission": 330000,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1760000,
+      "four_year": null,
+      "note": "マナビジョン（2026年度入学者）：入学金33万＋授業料・施設設備費（看護・リハは実験実習費を含む）の合計のみ。諸会費などは記載なし"
+     }
+    ]
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3385/gakuhi/index.html",
+    "https://passnavi.obunsha.co.jp/univ/3283/schedule/?facultyID=005"
+   ]
+  }
+ },
+ {
+  "name": "白梅学園大学",
+  "info": {
+   "sources": [
+    "https://telemail.jp/shingaku/university/10000147/examination/general",
+    "https://manabi.benesse.ne.jp/daigaku/school/3335/gakuhi/index.html"
+   ]
+  }
+ },
+ {
+  "name": "日本赤十字看護大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（看護学部）",
+      "apply": "〜1/18（消印有効）",
+      "exam": "1次:2/3、2次:2/11",
+      "result": "1次:2/9、2次:2/18",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 ⅠA・ⅠB（看護学部）",
+      "apply": "〜1/15（消印有効）",
+      "exam": "共通テスト利用（個別試験なし）",
+      "result": "2/18",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（さいたま看護学部）",
+      "apply": "〜1/18（消印有効）",
+      "exam": "1次:2/1、2次:2/7",
+      "result": "1次:2/5、2次:2/15",
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 ⅠA・ⅠB（さいたま看護学部）",
+      "apply": "〜1/15（消印有効）",
+      "exam": "共通テスト利用（個別試験なし）",
+      "result": "2/15",
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 Ⅱ（両学部）",
+      "apply": "〜3/1（消印有効）",
+      "exam": "3/10",
+      "result": "3/12",
+      "proc": "3/19",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 6大学連携併願（両学部）",
+      "apply": "〜2/19（消印有効）",
+      "exam": "共通テスト利用（個別試験なし）",
+      "result": "3/5",
+      "proc": "3/15",
+      "fee": null
+     }
+    ],
+    "note": "Kei-Netの入試日程（出願締切・入試日・発表・手続）による。出願開始日と検定料は掲載なし"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2274/general/schedule"
+   ]
+  }
+ },
+ {
+  "name": "明星大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 3教科型Ⅰ期・4教科型Ⅰ期",
+      "apply": "〜1/20（消印有効）",
+      "exam": "1/29",
+      "result": "2/6",
+      "proc": "2/19",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 2教科型Ⅰ期",
+      "apply": "〜1/20（消印有効）",
+      "exam": "1/29・1/30から選択（教育・情報学部とデータサイエンス学環は1/30）",
+      "result": "2/6",
+      "proc": "2/19",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 検定＋1教科型",
+      "apply": "〜1/20（消印有効）",
+      "exam": "1/30",
+      "result": "2/6",
+      "proc": "2/19",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅱ期（3教科型・2教科型・1教科型）",
+      "apply": "〜2/9（消印有効）",
+      "exam": "2/17",
+      "result": "2/23",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 Ⅰ期（3教科型・4教科型・2教科型）",
+      "apply": "〜1/28（消印有効）",
+      "exam": "共通テスト利用（個別試験なし）",
+      "result": "2/11",
+      "proc": "2/19",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 Ⅱ期",
+      "apply": "〜2/26（消印有効）",
+      "exam": "共通テスト利用（個別試験なし）",
+      "result": "3/6",
+      "proc": "3/12",
+      "fee": null
+     }
+    ],
+    "note": "Kei-Netの入試日程による。学部により実施する型が異なる（例：4教科型は教育・情報学部・データサイエンス学環など）。出願開始日と検定料は掲載なし"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2289/general/schedule"
+   ]
+  }
+ },
+ {
+  "name": "公立はこだて未来大学",
+  "story": {
+   "summary": "公立はこだて未来大学はシステム情報科学部の1学部で、コンピュータ技術を土台に数理・社会科学・デザインの手法も使う学際的な情報系の大学。1年次に基礎を学んで2年次に学科・コースを選び、3年次は全員がチームで実社会の課題に1年間取り組むプロジェクト学習を行う。卒業生は約4割が大学院などへ進学している。情報技術をデザインや社会の課題解決と結びつけて学びたい生徒に話せる学校。",
+   "only": [
+    {
+     "t": "3年次の全員必修「プロジェクト学習」では、異なるコースの学生5〜15名がチームを組み、週4コマ・1年間かけて地域や企業と連携したテーマなど実社会の問題に取り組む",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/2003/gakubu/"
+    },
+    {
+     "t": "1年次は情報技術の基礎を学びながら進路を考え、2年次に情報アーキテクチャ学科・複雑系知能学科と5つのコース（情報システム・高度ICT・情報デザイン・複雑系・知能システム）から選ぶ",
+     "src": "https://search.keinet.ne.jp/1507/outline/department"
+    },
+    {
+     "t": "情報系の学問にデザインや社会科学の手法を取り入れ、情報デザインのコースも置いている",
+     "src": "https://search.keinet.ne.jp/1507/outline/department"
+    }
+   ],
+   "vs": [
+    {
+     "u": "公立千歳科学技術大学",
+     "t": "同じ北海道の公立理工系の公立千歳科学技術大学は応用化学生物・電子光工学・情報システム工学の3学科を持つが、公立はこだて未来大学は情報系の1学部で、情報デザインや複雑系・知能システムまで情報分野を深く学ぶ",
+     "src": "https://search.keinet.ne.jp/1509/outline/department"
+    },
+    {
+     "u": "室蘭工業大学",
+     "t": "室蘭工業大学は機械・航空宇宙・建築土木などを含む理工学部だが、公立はこだて未来大学は情報分野に絞り、全員必修のプロジェクト学習でチーム開発を経験する",
+     "src": "https://search.keinet.ne.jp/1035/outline/department"
+    }
+   ],
+   "checked": "2026-11-13"
+  }
+ },
+ {
+  "name": "公立千歳科学技術大学",
+  "story": {
+   "summary": "公立千歳科学技術大学は理工学部に応用化学生物・電子光工学・情報システム工学の3学科を置き、理学と工学の基本科目と共通基盤の9領域を学ぶ。1998年に私立大学として開学し2019年に公立大学へ移った。化学・光・電子・情報のどれを学ぶか迷っている理系の生徒や、北海道で公立の理工系を考える生徒に話せる学校。",
+   "only": [
+    {
+     "t": "理工学部で、理学と工学の基本科目に加え、共通基盤として9つの領域を学べるカリキュラムを編成している",
+     "src": "https://search.keinet.ne.jp/1509/outline/department"
+    },
+    {
+     "t": "電子光工学科では応用物理学・電気電子工学・情報通信工学を学び、情報システム工学科ではソフトウェア工学やサービスデザインまで扱う",
+     "src": "https://search.keinet.ne.jp/1509/outline/department"
+    },
+    {
+     "t": "1998年に私立の千歳科学技術大学（光科学部）として開学し、2019年に公立大学法人へ移行した",
+     "src": "https://search.keinet.ne.jp/1509"
+    }
+   ],
+   "vs": [
+    {
+     "u": "公立はこだて未来大学",
+     "t": "公立はこだて未来大学は情報系の1学部だが、公立千歳科学技術大学は情報に加えて応用化学・生物工学や電子・光の分野も1つの理工学部で学べる",
+     "src": "https://search.keinet.ne.jp/1507/outline/department"
+    },
+    {
+     "u": "北見工業大学",
+     "t": "北見工業大学は工学部1学科で2年次に分野を選ぶが、公立千歳科学技術大学は入学時に3学科から選び、応用化学生物・電子光工学・情報システム工学を専門に学ぶ",
+     "src": "https://search.keinet.ne.jp/1020/outline/department"
+    }
+   ],
+   "checked": "2026-11-13"
+  }
+ }
+]

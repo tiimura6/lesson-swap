@@ -209370,7 +209370,9 @@ null
 "https://juken.shiraume.ac.jp/wp-content/themes/shiraume/img/examination/2027%E5%85%A5%E8%A9%A6%E3%82%AC%E3%82%A4%E3%83%89.pdf",
 "https://daigaku.shiraume.ac.jp/guarantor/welfare/",
 "https://search.keinet.ne.jp/2301/outline/opencampus",
-"https://manabi.benesse.ne.jp/daigaku/school/3335/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3335/nyushi/",
+"https://telemail.jp/shingaku/university/10000147/examination/general",
+"https://manabi.benesse.ne.jp/daigaku/school/3335/gakuhi/index.html"
 ]
 },
 "田園調布学園大学": {
@@ -209387,7 +209389,7 @@ null
 "methods": "2026-11-09",
 "subjects": "2026-11-09",
 "schedule": "2026-11-09",
-"money": "2026-11-09",
+"money": "2026-11-13",
 "scholar": "2026-11-09",
 "eng": "2026-11-09",
 "oc": "2026-11-09",
@@ -209715,10 +209717,11 @@ null
 "admission": 300000,
 "tuition": 700000,
 "facility": 440000,
-"practical": 0,
+"practical": null,
 "other": 70000,
 "first_year": 1510000,
-"four_year": 5160000
+"four_year": 5160000,
+"note": "公式 2027年度学生募集要項（自己推薦型選抜）：入学金30万・授業料70万・施設費44万・後援会費3万×2期・学生活動支援費1万。実習費は表に記載なし（実費が必要な場合あり）。2年次以降は年121万（卒業年次は同窓会費2万を含め123万）"
 }
 ]
 },
@@ -209813,7 +209816,8 @@ null
 "https://www.dcu.ac.jp/admission/guidelines/document/2027_document.pdf",
 "https://www.dcu.ac.jp/opencampus/opencampus01/index.html",
 "https://search.keinet.ne.jp/2318/general/border_rate",
-"https://passnavi.obunsha.co.jp/univ/3325/difficulty/"
+"https://passnavi.obunsha.co.jp/univ/3325/difficulty/",
+"https://search.keinet.ne.jp/2318/general/schedule"
 ]
 },
 "産業能率大学": {
@@ -210072,7 +210076,7 @@ null
 "methods": "2026-11-09",
 "subjects": "2026-11-09",
 "schedule": "2026-11-09",
-"money": "2026-11-09",
+"money": "2026-11-13",
 "scholar": "2026-11-09",
 "eng": "2026-11-09",
 "oc": "2026-11-09",
@@ -210297,27 +210301,30 @@ null
 "practical": null,
 "other": null,
 "first_year": 2020000,
-"four_year": null
+"four_year": null,
+"note": "マナビジョン（2026年度入学者）：入学金33万＋授業料・施設設備費（看護・リハは実験実習費を含む）の合計のみ。諸会費などは記載なし"
 },
 {
 "f": "保健医療学部 看護学科",
-"admission": null,
+"admission": 330000,
 "tuition": null,
 "facility": null,
 "practical": null,
 "other": null,
 "first_year": 1710000,
-"four_year": null
+"four_year": null,
+"note": "マナビジョン（2026年度入学者）：入学金33万＋授業料・施設設備費（看護・リハは実験実習費を含む）の合計のみ。諸会費などは記載なし"
 },
 {
 "f": "保健医療学部 リハビリテーション学科（理学療法学専攻・作業療法学専攻）",
-"admission": null,
+"admission": 330000,
 "tuition": null,
 "facility": null,
 "practical": null,
 "other": null,
 "first_year": 1760000,
-"four_year": null
+"four_year": null,
+"note": "マナビジョン（2026年度入学者）：入学金33万＋授業料・施設設備費（看護・リハは実験実習費を含む）の合計のみ。諸会費などは記載なし"
 }
 ]
 },
@@ -210378,7 +210385,9 @@ null
 "https://sums.ac.jp/html/topics/2505/250509-01.html",
 "https://passnavi.obunsha.co.jp/univ/3283/difficulty/",
 "https://passnavi.obunsha.co.jp/univ/3283/subject/",
-"https://passnavi.obunsha.co.jp/univ/3283/eiken/"
+"https://passnavi.obunsha.co.jp/univ/3283/eiken/",
+"https://manabi.benesse.ne.jp/daigaku/school/3385/gakuhi/index.html",
+"https://passnavi.obunsha.co.jp/univ/3283/schedule/?facultyID=005"
 ]
 },
 "清泉女子大学": {
@@ -210392,7 +210401,7 @@ null
 "difficulty": "2026-11-09",
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-13",
 "scholar": "2026-11-09",
 "eng": "2026-11-09",
 "_via": "2026-11-09"
@@ -210493,45 +210502,54 @@ null
 "kubun": "一般",
 "name": "一般選抜（前期）",
 "apply": "12/14〜1/19（Web登録）",
-"exam": null,
-"result": null,
-"proc": null,
+"exam": "1/28",
+"result": "2/4",
+"proc": "2/26",
 "fee": null
 },
 {
 "kubun": "一般",
 "name": "一般入試（中期）",
 "apply": "1/20〜2/5（Web登録）",
-"exam": null,
-"result": null,
-"proc": null,
+"exam": "2/14",
+"result": "2/19",
+"proc": "2/26",
 "fee": null
 },
 {
 "kubun": "一般",
 "name": "一般選抜（後期）",
 "apply": "1/30〜2/20（Web登録）",
-"exam": null,
-"result": null,
-"proc": null,
+"exam": "2/27",
+"result": "3/4",
+"proc": "3/11",
 "fee": null
 },
 {
 "kubun": "共テ利用",
 "name": "共通テスト利用入試（前期）",
 "apply": "12/14〜1/29（Web登録）",
-"exam": null,
-"result": null,
-"proc": null,
+"exam": "共通テスト利用（個別試験なし）",
+"result": "2/12",
+"proc": "2/26",
 "fee": null
 },
 {
 "kubun": "共テ利用",
 "name": "共通テスト利用入試（後期）",
 "apply": "1/30〜3/5（Web登録）",
-"exam": null,
-"result": null,
-"proc": null,
+"exam": "共通テスト利用（個別試験なし）",
+"result": "3/12",
+"proc": "3/17",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用入試（後期）＋志望理由作文",
+"apply": "1/30〜2/20",
+"exam": "2/27",
+"result": "3/4",
+"proc": "3/11",
 "fee": null
 },
 {
@@ -210552,7 +210570,8 @@ null
 "proc": null,
 "fee": null
 }
-]
+],
+"note": "一般・共テ利用の試験日・合格発表・手続締切はマナビジョン（2027年度入試）による。出願期間は既存（公式のWeb出願案内）と一致。総合文化学部・地球市民学部で同じ日程。検定料は未確認"
 },
 "scholar": {
 "year": "2027年度",
@@ -210585,7 +210604,8 @@ null
 "https://www.seisen-u.ac.jp/admissions/ao/shogakusei.html",
 "https://seisen-u.ac.jp/admissions/ao/kodai.html",
 "https://www.seisen-u.ac.jp/overview/information/syugakusien.html",
-"https://passnavi.obunsha.co.jp/univ/2570/difficulty/"
+"https://passnavi.obunsha.co.jp/univ/2570/difficulty/",
+"https://manabi.benesse.ne.jp/daigaku/school/3264/nyushi/index.html"
 ]
 },
 "清和大学": {
@@ -224899,7 +224919,8 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "departments": [
 {
@@ -224972,8 +224993,69 @@ null
 "https://search.keinet.ne.jp/2274/outline/licential",
 "https://search.keinet.ne.jp/2274/outline/admission_employment",
 "https://search.keinet.ne.jp/2274/outline/expense",
-"https://search.keinet.ne.jp/2274/general/exam_result"
-]
+"https://search.keinet.ne.jp/2274/general/exam_result",
+"https://search.keinet.ne.jp/2274/general/schedule"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜（看護学部）",
+"apply": "〜1/18（消印有効）",
+"exam": "1次:2/3、2次:2/11",
+"result": "1次:2/9、2次:2/18",
+"proc": "2/26",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 ⅠA・ⅠB（看護学部）",
+"apply": "〜1/15（消印有効）",
+"exam": "共通テスト利用（個別試験なし）",
+"result": "2/18",
+"proc": "2/26",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜（さいたま看護学部）",
+"apply": "〜1/18（消印有効）",
+"exam": "1次:2/1、2次:2/7",
+"result": "1次:2/5、2次:2/15",
+"proc": "2/24",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 ⅠA・ⅠB（さいたま看護学部）",
+"apply": "〜1/15（消印有効）",
+"exam": "共通テスト利用（個別試験なし）",
+"result": "2/15",
+"proc": "2/24",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅱ（両学部）",
+"apply": "〜3/1（消印有効）",
+"exam": "3/10",
+"result": "3/12",
+"proc": "3/19",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 6大学連携併願（両学部）",
+"apply": "〜2/19（消印有効）",
+"exam": "共通テスト利用（個別試験なし）",
+"result": "3/5",
+"proc": "3/15",
+"fee": null
+}
+],
+"note": "Kei-Netの入試日程（出願締切・入試日・発表・手続）による。出願開始日と検定料は掲載なし"
+}
 },
 "明星大学": {
 "faculties": [
@@ -224998,7 +225080,8 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "departments": [
 {
@@ -225230,8 +225313,69 @@ null
 "https://search.keinet.ne.jp/2289/outline/licential",
 "https://search.keinet.ne.jp/2289/outline/admission_employment",
 "https://search.keinet.ne.jp/2289/outline/expense",
-"https://search.keinet.ne.jp/2289/general/exam_result"
-]
+"https://search.keinet.ne.jp/2289/general/exam_result",
+"https://search.keinet.ne.jp/2289/general/schedule"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 3教科型Ⅰ期・4教科型Ⅰ期",
+"apply": "〜1/20（消印有効）",
+"exam": "1/29",
+"result": "2/6",
+"proc": "2/19",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 2教科型Ⅰ期",
+"apply": "〜1/20（消印有効）",
+"exam": "1/29・1/30から選択（教育・情報学部とデータサイエンス学環は1/30）",
+"result": "2/6",
+"proc": "2/19",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 検定＋1教科型",
+"apply": "〜1/20（消印有効）",
+"exam": "1/30",
+"result": "2/6",
+"proc": "2/19",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期（3教科型・2教科型・1教科型）",
+"apply": "〜2/9（消印有効）",
+"exam": "2/17",
+"result": "2/23",
+"proc": "3/12",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅰ期（3教科型・4教科型・2教科型）",
+"apply": "〜1/28（消印有効）",
+"exam": "共通テスト利用（個別試験なし）",
+"result": "2/11",
+"proc": "2/19",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 Ⅱ期",
+"apply": "〜2/26（消印有効）",
+"exam": "共通テスト利用（個別試験なし）",
+"result": "3/6",
+"proc": "3/12",
+"fee": null
+}
+],
+"note": "Kei-Netの入試日程による。学部により実施する型が異なる（例：4教科型は教育・情報学部・データサイエンス学環など）。出願開始日と検定料は掲載なし"
+}
 },
 "明治薬科大学": {
 "faculties": [
