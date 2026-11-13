@@ -201481,7 +201481,7 @@ null
 "_checked": {
 "faculties": "2026-11-09",
 "departments": "2026-11-09",
-"money": "2026-11-09",
+"money": "2026-11-13",
 "_via": "2026-11-09",
 "schedule": "2026-11-12"
 },
@@ -201522,36 +201522,38 @@ null
 }
 ],
 "money": {
-"year": "2027年度",
+"year": "2026年度",
 "rows": [
 {
 "f": "外国語学部・国際学部・経済学部・経営学部",
 "admission": 260000,
 "tuition": 830000,
-"facility": null,
+"facility": 300000,
 "practical": null,
-"other": null,
-"first_year": null,
+"other": 60000,
+"first_year": 1450000,
 "four_year": null
 },
 {
 "f": "工学部",
 "admission": 260000,
 "tuition": 1090000,
-"facility": null,
+"facility": 300000,
 "practical": null,
-"other": null,
-"first_year": null,
+"other": 60000,
+"first_year": 1710000,
 "four_year": null
 }
-]
+],
+"note": "Kei-Net（2026年度入学者用）。実習費は記載なし"
 },
 "_via": "external-ai",
 "sources": [
 "https://www.reitaku-u.ac.jp/",
 "https://www.reitaku-u.ac.jp/admissions/tuition/",
 "https://shingakunet.com/gakko/SC000154/gakuhi/",
-"https://manabi.benesse.ne.jp/daigaku/school/3211/nyushi/gokaku-happyo/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3211/nyushi/gokaku-happyo/index.html",
+"https://search.keinet.ne.jp/2187/outline/expense"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -202225,14 +202227,15 @@ null
 "difficulty": "2026-11-09",
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-13",
 "scholar": "2026-11-09",
 "eng": "2026-11-09",
 "oc": "2026-11-09",
 "access": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"money": "2026-11-13"
 },
 "departments": [
 {
@@ -202360,11 +202363,11 @@ null
 "rows": [
 {
 "kubun": "総合型",
-"name": "総合型選抜 Ⅰ期（専願型・共創文化等）",
-"apply": "9/1〜9/8(書類必着)",
+"name": "総合型選抜 Ⅰ期（専願型・共創文化・観光文化・空間デザイン・人間健康）",
+"apply": "9/1〜9/8(郵送必着)",
 "exam": "9/19・9/26から選択",
-"result": null,
-"proc": null,
+"result": "11/2",
+"proc": "11/25",
 "fee": 30000
 },
 {
@@ -202372,8 +202375,8 @@ null
 "name": "総合型選抜 Ⅰ期（専願型・看護学部）",
 "apply": "10/5〜10/13(書類消印有効)",
 "exam": "10/24",
-"result": null,
-"proc": null,
+"result": "11/2",
+"proc": "11/25",
 "fee": 30000
 },
 {
@@ -202381,9 +202384,45 @@ null
 "name": "総合型選抜 Ⅱ期（専願型・看護学部）",
 "apply": "12/1〜12/10(書類消印有効)",
 "exam": "12/19",
-"result": null,
-"proc": null,
+"result": "12/23",
+"proc": "1/7",
 "fee": 30000
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅱ期（併願型・看護学部以外）",
+"apply": "12/1〜12/10",
+"exam": "12/19",
+"result": "12/23",
+"proc": "1/7",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅲ期（併願型・共創文化・観光文化・空間デザイン）",
+"apply": "2/1〜2/8",
+"exam": "2/17",
+"result": "2/19",
+"proc": "3/10",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅳ期（併願型・共創文化・観光文化・空間デザイン）",
+"apply": "2/18〜2/27",
+"exam": "3/10",
+"result": "3/12",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制・全学科）",
+"apply": "11/1〜11/6",
+"exam": "11/14",
+"result": "12/1",
+"proc": "12/17",
+"fee": null
 },
 {
 "kubun": "一般",
@@ -202399,17 +202438,17 @@ null
 "name": "一般選抜 A日程（看護学部）",
 "apply": "1/5〜1/18",
 "exam": "1/25",
-"result": null,
+"result": "2/5",
 "proc": "2/16",
 "fee": 30000
 },
 {
 "kubun": "一般",
-"name": "一般選抜 A-Ⅱ日程（英語外部試験利用型）",
+"name": "一般選抜 A-Ⅱ日程（英語外部試験利用型・看護学部は実施なし）",
 "apply": "1/5〜1/18",
 "exam": "1/26",
-"result": null,
-"proc": null,
+"result": "2/5",
+"proc": "2/16",
 "fee": 30000
 },
 {
@@ -202445,10 +202484,11 @@ null
 "apply": "2/18〜2/27",
 "exam": "1/16・1/17(個別なし)",
 "result": "3/16",
-"proc": null,
+"proc": "3/23",
 "fee": 15000
 }
-]
+],
+"note": "合格発表・手続締切・Ⅲ期Ⅳ期・公募推薦はマナビジョン（2027年度入試）。検定料は既存の公式要項の値（新たに足した行は掲載なし）"
 },
 "scholar": {
 "year": "2027年度",
@@ -202516,8 +202556,67 @@ null
 "https://passnavi.obunsha.co.jp/univ/2431/subject/",
 "https://search.keinet.ne.jp/2294/general/border_rate",
 "https://search.keinet.ne.jp/2294/outline/expense",
-"https://manabi.benesse.ne.jp/daigaku/school/3249/gakuhi/"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3249/gakuhi/",
+"https://manabi.benesse.ne.jp/daigaku/school/3249/nyushi/gokaku-happyo/"
+],
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "看護学部 看護学科",
+"admission": 300000,
+"tuition": 1050000,
+"facility": 300000,
+"practical": 225000,
+"other": 43000,
+"first_year": 1918000,
+"four_year": null,
+"note": "教科書・ユニフォーム・電子教科書代は別途"
+},
+{
+"f": "人間健康学部 健康栄養学科",
+"admission": 300000,
+"tuition": 800000,
+"facility": 250000,
+"practical": 100000,
+"other": 29720,
+"first_year": 1479720,
+"four_year": null
+},
+{
+"f": "共創文化学部（国際日本・人間関係・心理学科）",
+"admission": 300000,
+"tuition": 800000,
+"facility": 200000,
+"practical": 36000,
+"other": 29650,
+"first_year": 1365650,
+"four_year": null
+},
+{
+"f": "空間デザイン学部 空間デザイン学科",
+"admission": 300000,
+"tuition": 800000,
+"facility": 200000,
+"practical": 36000,
+"other": 29650,
+"first_year": 1365650,
+"four_year": null,
+"note": "ノートパソコンが別途必要"
+},
+{
+"f": "観光文化学部 観光文化学科",
+"admission": 300000,
+"tuition": 800000,
+"facility": 200000,
+"practical": 36000,
+"other": 29650,
+"first_year": 1365650,
+"four_year": null
+}
+],
+"note": "Kei-Net（2026年度入学者用）。教科書代などは別途"
+}
 },
 "関東学院大学": {
 "faculties": [
@@ -202535,8 +202634,9 @@ null
 "difficulty": "2026-11-09",
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-09",
-"_via": "2026-11-09"
+"schedule": "2026-11-13",
+"_via": "2026-11-09",
+"money": "2026-11-13"
 },
 "departments": [
 {
@@ -202642,19 +202742,19 @@ null
 {
 "kubun": "総合型",
 "name": "総合型選抜（9月募集・基礎学力評価型）",
-"apply": null,
+"apply": "〜9/18(消印有効)",
 "exam": "10/18",
-"result": null,
-"proc": null,
+"result": "11/2",
+"proc": "12/3",
 "fee": null
 },
 {
 "kubun": "総合型",
 "name": "総合型選抜（11月募集・基礎学力評価型）",
-"apply": null,
+"apply": "〜11/17(着信有効)",
 "exam": "12/13",
-"result": null,
-"proc": null,
+"result": "12/23",
+"proc": "1/15",
 "fee": null
 },
 {
@@ -202662,8 +202762,8 @@ null
 "name": "前期A日程（3科目均等配点型・3科目科目重視型）",
 "apply": "1/4〜1/21",
 "exam": "2/3・2/5",
-"result": null,
-"proc": null,
+"result": "2/17",
+"proc": "2/26",
 "fee": null
 },
 {
@@ -202671,8 +202771,8 @@ null
 "name": "前期A日程（全学部統一2科目型）",
 "apply": "1/4〜1/21",
 "exam": "2/4",
-"result": null,
-"proc": null,
+"result": "2/17",
+"proc": "2/26",
 "fee": null
 },
 {
@@ -202680,8 +202780,8 @@ null
 "name": "前期B日程（3科目均等配点型・2科目型）",
 "apply": "1/4〜2/5",
 "exam": "2/18",
-"result": null,
-"proc": null,
+"result": "2/26",
+"proc": "3/2",
 "fee": null
 },
 {
@@ -202689,8 +202789,8 @@ null
 "name": "後期日程（2科目型）",
 "apply": "2/10〜2/19",
 "exam": "3/2",
-"result": null,
-"proc": null,
+"result": "3/11",
+"proc": "3/16",
 "fee": null
 },
 {
@@ -202708,7 +202808,7 @@ null
 "apply": "1/4〜1/21",
 "exam": "1/16・1/17(共テ)・2/5(個別)",
 "result": "2/17",
-"proc": null,
+"proc": "2/26",
 "fee": null
 },
 {
@@ -202717,7 +202817,7 @@ null
 "apply": "1/4〜2/5",
 "exam": "1/16・1/17(共テ)・2/18(個別)",
 "result": "2/26",
-"proc": null,
+"proc": "3/2",
 "fee": null
 },
 {
@@ -202726,7 +202826,7 @@ null
 "apply": "1/4〜1/25",
 "exam": "1/16・1/17(個別なし)",
 "result": "2/17",
-"proc": null,
+"proc": "2/26",
 "fee": null
 },
 {
@@ -202735,7 +202835,7 @@ null
 "apply": "1/4〜2/5",
 "exam": "1/16・1/17(個別なし)",
 "result": "2/26",
-"proc": null,
+"proc": "3/2",
 "fee": null
 },
 {
@@ -202744,7 +202844,7 @@ null
 "apply": "2/10〜2/19",
 "exam": "1/16・1/17(個別なし)",
 "result": "3/11",
-"proc": null,
+"proc": "3/16",
 "fee": null
 },
 {
@@ -202756,7 +202856,8 @@ null
 "proc": null,
 "fee": null
 }
-]
+],
+"note": "合格発表・手続締切は Kei-Net（一般・共テ利用は全学部共通、総合型は2027年度入試）。後期日程・5科目スカラシップ型の手続締切と検定料は未掲載"
 },
 "_via": "external-ai",
 "sources": [
@@ -202767,8 +202868,146 @@ null
 "https://passnavi.obunsha.co.jp/univ/3250/schedule/",
 "https://search.keinet.ne.jp/2307/general/border_rate",
 "https://search.keinet.ne.jp/2307/general/exam_subject",
-"https://search.keinet.ne.jp/2307/outline/expense"
-]
+"https://search.keinet.ne.jp/2307/outline/expense",
+"https://search.keinet.ne.jp/2307/general/schedule",
+"https://search.keinet.ne.jp/2307/recommend/exam_ao"
+],
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "教育学部 こども発達学科",
+"admission": 200000,
+"tuition": 915000,
+"facility": 280000,
+"practical": 69000,
+"other": 97660,
+"first_year": 1561660,
+"four_year": null
+},
+{
+"f": "国際文化学部",
+"admission": 200000,
+"tuition": 795000,
+"facility": 280000,
+"practical": 15000,
+"other": 97660,
+"first_year": 1387660,
+"four_year": null
+},
+{
+"f": "社会学部 現代社会学科",
+"admission": 200000,
+"tuition": 795000,
+"facility": 280000,
+"practical": 14000,
+"other": 97660,
+"first_year": 1386660,
+"four_year": null
+},
+{
+"f": "法学部",
+"admission": 200000,
+"tuition": 870000,
+"facility": 290000,
+"practical": null,
+"other": 98660,
+"first_year": 1458660,
+"four_year": null
+},
+{
+"f": "経済学部 経済学科",
+"admission": 200000,
+"tuition": 795000,
+"facility": 284000,
+"practical": null,
+"other": 98660,
+"first_year": 1377660,
+"four_year": null
+},
+{
+"f": "経営学部 経営学科",
+"admission": 200000,
+"tuition": 870000,
+"facility": 284000,
+"practical": null,
+"other": 98660,
+"first_year": 1452660,
+"four_year": null
+},
+{
+"f": "建築・環境学部 建築・環境学科",
+"admission": 200000,
+"tuition": 975000,
+"facility": 360000,
+"practical": 130000,
+"other": 99660,
+"first_year": 1764660,
+"four_year": null
+},
+{
+"f": "情報学部 情報学科",
+"admission": 200000,
+"tuition": 975000,
+"facility": 360000,
+"practical": 90000,
+"other": 99660,
+"first_year": 1724660,
+"four_year": null
+},
+{
+"f": "理工学部",
+"admission": 200000,
+"tuition": 975000,
+"facility": 360000,
+"practical": 90000,
+"other": 99660,
+"first_year": 1724660,
+"four_year": null
+},
+{
+"f": "看護学部 看護学科",
+"admission": 200000,
+"tuition": 1025000,
+"facility": 380000,
+"practical": 190000,
+"other": 95660,
+"first_year": 1890660,
+"four_year": null
+},
+{
+"f": "栄養学部 管理栄養学科",
+"admission": 200000,
+"tuition": 915000,
+"facility": 280000,
+"practical": 72000,
+"other": 97660,
+"first_year": 1564660,
+"four_year": null
+},
+{
+"f": "人間共生学部 コミュニケーション学科",
+"admission": 200000,
+"tuition": 890000,
+"facility": 280000,
+"practical": 39000,
+"other": 97660,
+"first_year": 1506660,
+"four_year": null
+},
+{
+"f": "人間共生学部 共生デザイン学科",
+"admission": 200000,
+"tuition": 915000,
+"facility": 280000,
+"practical": 67000,
+"other": 97660,
+"first_year": 1559660,
+"four_year": null
+}
+],
+"note": "Kei-Net（2026年度入学者用）。実習費の欄が空欄の学部は null"
+}
 },
 "関東学園大学": {
 "faculties": [
@@ -202780,7 +203019,7 @@ null
 "difficulty": "2026-11-09",
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-13",
 "_via": "2026-11-09"
 },
 "departments": [
@@ -202838,12 +203077,30 @@ null
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "推薦",
+"name": "学校推薦型選抜 公募推薦1期",
+"apply": "11/1〜11/9",
+"exam": "11/14",
+"result": "12/1",
+"proc": "12/15",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 公募推薦2期",
+"apply": "11/25〜12/4",
+"exam": "12/12",
+"result": "12/23",
+"proc": "1/14",
+"fee": null
+},
+{
 "kubun": "総合型",
 "name": "総合型入試（5期）",
 "apply": "2/2〜2/12",
 "exam": "2/19",
 "result": "3/5",
-"proc": null,
+"proc": "3/18",
 "fee": null
 },
 {
@@ -202852,7 +203109,16 @@ null
 "apply": "2/22〜3/3",
 "exam": "3/8",
 "result": "3/17",
-"proc": null,
+"proc": "3/24",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般・スカラシップ入試（A日程）",
+"apply": "1/8〜1/22",
+"exam": "2/1",
+"result": "2/19",
+"proc": "3/15",
 "fee": null
 },
 {
@@ -202861,37 +203127,38 @@ null
 "apply": "2/22〜3/3",
 "exam": "3/8",
 "result": "3/17",
-"proc": null,
+"proc": "3/24",
 "fee": null
 },
 {
 "kubun": "共テ利用",
 "name": "大学入学共通テスト利用入試（1期）",
 "apply": "1/8〜1/22",
-"exam": null,
+"exam": "大学入学共通テスト",
 "result": "2/19",
-"proc": null,
+"proc": "3/15",
 "fee": null
 },
 {
 "kubun": "共テ利用",
 "name": "大学入学共通テスト利用入試（2期）",
 "apply": "1/26〜2/5",
-"exam": null,
+"exam": "大学入学共通テスト",
 "result": "2/26",
-"proc": null,
+"proc": "3/17",
 "fee": null
 },
 {
 "kubun": "共テ利用",
 "name": "大学入学共通テスト利用入試（3期）",
 "apply": "2/9〜3/5",
-"exam": null,
+"exam": "大学入学共通テスト",
 "result": "3/17",
-"proc": null,
+"proc": "3/24",
 "fee": null
 }
-]
+],
+"note": "マナビジョン（2027年度入試、経営・経済学科共通）。総合型は1〜4期もある（9/1〜12/4の出願、9/26・10/17・11/7・12/12試験）が回ごとの発表・手続の対応が出典で明示されないため省略。ネット出願。検定料は掲載なし"
 },
 "_via": "external-ai",
 "sources": [
@@ -202901,7 +203168,8 @@ null
 "http://www.kanto-gakuen.ac.jp/univer2/special/examination/schedule/",
 "https://search.keinet.ne.jp/2136/general/border_rate",
 "https://search.keinet.ne.jp/2136/outline/expense",
-"https://manabi.benesse.ne.jp/daigaku/school/3132/gakuhi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3132/gakuhi/",
+"https://manabi.benesse.ne.jp/daigaku/school/3132/nyushi/gokaku-happyo/"
 ]
 },
 "開智国際大学": {
@@ -218069,7 +218337,8 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "departments": [
 {
@@ -218480,8 +218749,85 @@ null
 "https://search.keinet.ne.jp/2244/outline/expense",
 "https://search.keinet.ne.jp/2244/outline/licential",
 "https://search.keinet.ne.jp/2244/outline/admission_employment",
-"https://search.keinet.ne.jp/2244/general/exam_result"
-]
+"https://search.keinet.ne.jp/2244/general/exam_result",
+"https://search.keinet.ne.jp/2244/general/schedule",
+"https://telemail.jp/shingaku/university/10401439/examination/general"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅰ期",
+"apply": "12/17〜1/19(書類必着)",
+"exam": "1/30〜2/1から選択",
+"result": "2/13",
+"proc": "2/19",
+"fee": null,
+"note": "理工学部は手続締切2/26。医学部は実施なし"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期",
+"apply": "2/2〜2/15(書類必着)",
+"exam": "2/20・2/21から選択",
+"result": "2/26",
+"proc": "3/4",
+"fee": null,
+"note": "医学部は実施なし"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅲ期",
+"apply": "2/24〜3/1(書類必着)",
+"exam": "3/7",
+"result": "3/11",
+"proc": "3/17",
+"fee": null,
+"note": "医学部は実施なし"
+},
+{
+"kubun": "一般",
+"name": "医学部 一般選抜（一般枠・地域枠）",
+"apply": "〜1/13(必着)",
+"exam": "1次1/21〜1/23・2次2/4・2/5",
+"result": "1次1/28・2次2/13",
+"proc": "2/19",
+"fee": null,
+"note": "地域枠：福島県・千葉県・静岡県・茨城県・新潟県・群馬県"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 前期",
+"apply": "12/17〜1/15(書類必着)",
+"exam": "大学入学共通テスト",
+"result": "2/13",
+"proc": "3/8",
+"fee": null,
+"note": "薬・医療技術（一部）・福岡医療技術・医学部は2次試験2/17、2次発表2/19"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 中期（理工学部）",
+"apply": "〜2/12(必着)",
+"exam": "大学入学共通テスト",
+"result": "2/19",
+"proc": "3/8",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 後期",
+"apply": "〜3/5(必着)",
+"exam": "大学入学共通テスト",
+"result": "3/11",
+"proc": "3/17",
+"fee": null,
+"note": "文・教育・外国語・法・経済・理工学部"
+}
+],
+"note": "Kei-Net の入試日程（学部別）。出願開始日はテレメール（福岡医療技術学部、2027年度入学）で、Kei-Net と締切・試験日・発表日が一致。検定料は掲載なし"
+}
 },
 "帝京平成大学": {
 "faculties": [
@@ -218502,7 +218848,8 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "departments": [
 {
@@ -218869,8 +219216,69 @@ null
 "https://search.keinet.ne.jp/2182/outline/expense",
 "https://search.keinet.ne.jp/2182/outline/licential",
 "https://search.keinet.ne.jp/2182/outline/admission_employment",
-"https://search.keinet.ne.jp/2182/general/exam_result"
-]
+"https://search.keinet.ne.jp/2182/general/exam_result",
+"https://search.keinet.ne.jp/2182sp/general/schedule_sp"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅰ期",
+"apply": "〜1/15(必着)",
+"exam": "1/25・1/26から選択",
+"result": "2/1",
+"proc": "2/8",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 奨学特待生選抜",
+"apply": "〜1/15(必着)",
+"exam": "1/27",
+"result": "2/1",
+"proc": "2/8",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期",
+"apply": "〜2/4(必着)",
+"exam": "2/13・2/14から選択",
+"result": "2/17",
+"proc": "2/24",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅲ期",
+"apply": "〜3/5(必着)",
+"exam": "3/13・3/14から選択",
+"result": "3/16",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 Ⅰ期",
+"apply": "〜1/28(必着)",
+"exam": "大学入学共通テスト",
+"result": "2/6",
+"proc": "2/13",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 Ⅱ期",
+"apply": "〜2/17(必着)",
+"exam": "大学入学共通テスト",
+"result": "2/26",
+"proc": "3/5",
+"fee": null
+}
+],
+"note": "Kei-Net の入試日程（全6学部共通。ページに年度表記はなく、出願開始日と検定料は掲載なし）"
+}
 },
 "帝京科学大学": {
 "faculties": [
