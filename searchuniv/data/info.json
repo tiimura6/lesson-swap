@@ -147524,7 +147524,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-13",
 "money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -147633,7 +147633,8 @@ null
 "exam": "1/31・2/1",
 "result": "2/12",
 "proc": "1次2/18・2次3/12",
-"fee": null
+"fee": 35000,
+"note": "2回目から+10,000円、1回で2学科併願+5,000円・3学科+10,000円、高得点科目重視方式の追加+5,000円（公式2027年度入試ガイド）"
 },
 {
 "kubun": "一般",
@@ -147642,7 +147643,8 @@ null
 "exam": "2/2・2/3",
 "result": "2/12",
 "proc": "1次2/18・2次3/12",
-"fee": null
+"fee": 35000,
+"note": "2回目から+10,000円、1回で2学科併願+5,000円、共通テスト併用方式の追加+5,000円（公式2027年度入試ガイド）"
 },
 {
 "kubun": "一般",
@@ -147651,7 +147653,8 @@ null
 "exam": "3/5",
 "result": "3/12",
 "proc": "3/18",
-"fee": null
+"fee": 35000,
+"note": "2回目+10,000円、1回で2学科併願+5,000円、共通テスト併用方式の追加は1学科につき+5,000円（公式2027年度入試ガイド）"
 },
 {
 "kubun": "共テ利用",
@@ -147660,7 +147663,8 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "2/12",
 "proc": "1次2/18・2次3/12",
-"fee": null
+"fee": 10000,
+"note": "1学科につき10,000円、2学科目以降は1志願につき+5,000円（公式2027年度入試ガイド）"
 },
 {
 "kubun": "共テ利用",
@@ -147669,9 +147673,11 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "3/12",
 "proc": "3/18",
-"fee": null
+"fee": 10000,
+"note": "1学科につき10,000円、2学科目以降は1志願につき+5,000円（公式2027年度入試ガイド）"
 }
-]
+],
+"note": "検定料は公式「2027年度 入試ガイド」"
 },
 "money": {
 "year": "2026年度",
@@ -147719,7 +147725,8 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3606/gakuhi/",
 "https://passnavi.obunsha.co.jp/univ/4030/difficulty/",
 "https://search.keinet.ne.jp/2501/general/border_rate",
-"https://search.keinet.ne.jp/2501/outline/expense"
+"https://search.keinet.ne.jp/2501/outline/expense",
+"https://www.bukkyo-u.ac.jp/admission/design/file/exam/2027_guide.pdf"
 ]
 },
 "兵庫医科大学": {
@@ -227069,7 +227076,8 @@ null
 "founded": "2026-11-09",
 "access": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "departments": [
 {
@@ -227145,8 +227153,106 @@ null
 "https://search.keinet.ne.jp/2208/outline/licential",
 "https://search.keinet.ne.jp/2208/outline/admission_employment",
 "https://search.keinet.ne.jp/2208/outline/campus",
-"https://search.keinet.ne.jp/2208/general/exam_result"
-]
+"https://search.keinet.ne.jp/2208/general/exam_result",
+"https://search.keinet.ne.jp/2208/general/schedule"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 3科目前期（外国語・総合政策）",
+"apply": "〜1/22（必着）",
+"exam": "1/16・1/17（共テ）",
+"result": "2/15",
+"proc": "2/22",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 2科目前期（外国語・総合政策）",
+"apply": "〜1/22（必着）",
+"exam": "1/16・1/17（共テ）",
+"result": "2/15",
+"proc": "2/22",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 後期（外国語・総合政策）",
+"apply": "〜2/24（必着）",
+"exam": "1/16・1/17（共テ）",
+"result": "3/8",
+"proc": "3/15",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期（外国語＝2科目／総合政策＝3科目・2科目）",
+"apply": "〜1/22（必着）",
+"exam": "2/1・2/2（自由選択）",
+"result": "2/8",
+"proc": "2/15",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期（外国語・総合政策）",
+"apply": "〜2/19（必着）",
+"exam": "2/27",
+"result": "3/4",
+"proc": "3/11",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "医学部 一般選抜（東京都・新潟県・群馬県地域枠を含む）",
+"apply": "〜1/15（必着）",
+"exam": "1次2/2・2次2/11・2/12（指定）",
+"result": "1次2/8・2次2/17",
+"proc": "2/25",
+"fee": null,
+"note": "地域枠の2次は2/11"
+},
+{
+"kubun": "共テ利用",
+"name": "医学部 共通テスト利用選抜",
+"apply": "〜1/15（必着）",
+"exam": "1次 共テ・2次2/20",
+"result": "1次2/15・2次2/24",
+"proc": "3/3",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "保健学部 共通テスト利用選抜",
+"apply": "〜1/22（必着）",
+"exam": "1/16・1/17（共テ）",
+"result": "2/15",
+"proc": "2/22",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "保健学部 一般選抜 前期",
+"apply": "〜1/15（必着）",
+"exam": "2/3〜2/5（自由選択）",
+"result": "2/15",
+"proc": "2/22",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "保健学部 一般選抜 後期（健康福祉・健康スポーツ・臨床心理のみ）",
+"apply": "〜2/19（必着）",
+"exam": "2/27",
+"result": "3/4",
+"proc": "3/11",
+"fee": null
+}
+],
+"note": "河合塾 Kei-Net 入試日程（2026年11月確認、2027年度入試）。出願は締切日（必着）のみ掲載。検定料は出典に記載なし。医学部2次は2/11・2/12から指定"
+}
 },
 "東京医療保健大学": {
 "faculties": [
@@ -227163,7 +227269,8 @@ null
 "founded": "2026-11-09",
 "access": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "departments": [
 {
@@ -227227,8 +227334,61 @@ null
 "https://search.keinet.ne.jp/2195/outline/licential",
 "https://search.keinet.ne.jp/2195/outline/admission_employment",
 "https://search.keinet.ne.jp/2195/outline/campus",
-"https://search.keinet.ne.jp/2195/general/exam_result"
-]
+"https://search.keinet.ne.jp/2195/general/exam_result",
+"https://search.keinet.ne.jp/2195/general/schedule"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 A日程",
+"apply": "",
+"exam": "1/22",
+"result": "",
+"proc": "",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 B日程",
+"apply": "",
+"exam": "1/23",
+"result": "",
+"proc": "",
+"fee": null,
+"note": "和歌山看護学部はB日程なし"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 C日程",
+"apply": "",
+"exam": "2/7",
+"result": "",
+"proc": "",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 特別日程",
+"apply": "",
+"exam": "2/27",
+"result": "",
+"proc": "",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜",
+"apply": "",
+"exam": "1/16・1/17（共テ）",
+"result": "",
+"proc": "",
+"fee": null
+}
+],
+"note": "河合塾 Kei-Net 入試日程（2026年11月確認）。全学部（医療保健・東が丘看護・立川看護・千葉看護・和歌山看護）共通の試験日のみ掲載。出願締切・合格発表・手続締切は11月以降に掲載予定。検定料は出典に記載なし"
+}
 },
 "東京医療学院大学": {
 "faculties": [
