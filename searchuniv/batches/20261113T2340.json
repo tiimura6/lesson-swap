@@ -1,0 +1,620 @@
+[
+ {
+  "name": "植草学園大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜入学試験 1期",
+      "apply": "9/1〜9/11",
+      "exam": "9/19",
+      "result": null,
+      "proc": null,
+      "fee": 35000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜入学試験 3期",
+      "apply": "11/2〜12/7",
+      "exam": "12/12",
+      "result": "12/15",
+      "proc": null,
+      "fee": 35000
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜入学試験（公募推薦）",
+      "apply": "11/1〜11/11",
+      "exam": "11/19",
+      "result": "12/1",
+      "proc": null,
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜入学試験 A日程",
+      "apply": "1/5〜1/25",
+      "exam": "2/2",
+      "result": "2/5",
+      "proc": "2/12",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜入学試験 B日程",
+      "apply": "2/5〜2/22",
+      "exam": "3/1",
+      "result": "3/3",
+      "proc": "3/3〜3/11",
+      "fee": 35000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入学試験 A日程",
+      "apply": "12/16〜1/13",
+      "exam": "本学個別試験なし",
+      "result": "2/5",
+      "proc": "〜2/12",
+      "fee": 0
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入学試験 B日程",
+      "apply": "2/8〜2/22",
+      "exam": "本学個別試験なし",
+      "result": "3/3",
+      "proc": "3/3〜3/12",
+      "fee": 0
+     }
+    ],
+    "note": "河合塾 Kei-Net の一般選抜日程（全学部共通、会場は本学）で、一般A日程の手続締切2/12と一般B日程の試験日3/1を補った。既存の発表日（2/5・3/3）と一致。総合型・推薦の発表・手続の空欄は未確認"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2141/general/schedule"
+   ]
+  }
+ },
+ {
+  "name": "東邦音楽大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "音楽学部 音楽学科 音楽表現専攻（ピアノ・声楽・管弦打楽器・作曲（クラシック）専修）",
+      "admission": 250000,
+      "tuition": 1400000,
+      "facility": 500000,
+      "practical": 0,
+      "other": 4660,
+      "first_year": 2205660,
+      "four_year": null
+     },
+     {
+      "f": "音楽学部 音楽学科 音楽表現専攻（演奏専修（Konzertfach））",
+      "admission": 250000,
+      "tuition": 1800000,
+      "facility": 500000,
+      "practical": 0,
+      "other": 4660,
+      "first_year": 2605660,
+      "four_year": null,
+      "note": "初年度合計に演奏専修課程費40万円を含む（パスナビ）"
+     },
+     {
+      "f": "音楽学部 音楽学科 音楽療法専攻",
+      "admission": 250000,
+      "tuition": 1100000,
+      "facility": 400000,
+      "practical": 0,
+      "other": 4660,
+      "first_year": 1805660,
+      "four_year": null
+     },
+     {
+      "f": "音楽学部 音楽学科 教職実践専攻",
+      "admission": 250000,
+      "tuition": 1330000,
+      "facility": 425000,
+      "practical": 0,
+      "other": 4660,
+      "first_year": 2060660,
+      "four_year": null
+     },
+     {
+      "f": "音楽学部 音楽学科 パフォーマンス総合芸術文化専攻",
+      "admission": 250000,
+      "tuition": 1100000,
+      "facility": 350000,
+      "practical": 60000,
+      "other": 4660,
+      "first_year": 1820660,
+      "four_year": null
+     }
+    ],
+    "note": "旺文社パスナビ（2026年度）。諸会費4,660円は保険料（4年分）。初年度合計には卒業関連諸費積立金（年5万1,000円、パフォーマンス総合芸術文化専攻は5万6,000円）を含む。ウィーン海外研修の費用は授業料に含む（パフォーマンス総合芸術文化専攻は実施なし）"
+   },
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/2040/expense/"
+   ]
+  }
+ },
+ {
+  "name": "松蔭大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "経営文化学部 ビジネスマネジメント学科",
+      "admission": 330000,
+      "tuition": 690000,
+      "facility": 70000,
+      "practical": 70000,
+      "other": 151000,
+      "first_year": 1311000,
+      "four_year": null
+     },
+     {
+      "f": "経営文化学部 経営法学科",
+      "admission": 330000,
+      "tuition": 690000,
+      "facility": 70000,
+      "practical": 70000,
+      "other": 151000,
+      "first_year": 1311000,
+      "four_year": null
+     },
+     {
+      "f": "コミュニケーション文化学部 異文化コミュニケーション学科",
+      "admission": 330000,
+      "tuition": 690000,
+      "facility": 70000,
+      "practical": 70000,
+      "other": 151000,
+      "first_year": 1311000,
+      "four_year": null
+     },
+     {
+      "f": "コミュニケーション文化学部 日本文化コミュニケーション学科",
+      "admission": 330000,
+      "tuition": 690000,
+      "facility": 70000,
+      "practical": 70000,
+      "other": 151000,
+      "first_year": 1311000,
+      "four_year": null
+     },
+     {
+      "f": "コミュニケーション文化学部 生活心理学科",
+      "admission": 330000,
+      "tuition": 690000,
+      "facility": 70000,
+      "practical": 70000,
+      "other": 151000,
+      "first_year": 1311000,
+      "four_year": null,
+      "note": "保育士養成課程は教材費15,000円が別途（予定額）"
+     },
+     {
+      "f": "コミュニケーション文化学部 子ども学科",
+      "admission": 330000,
+      "tuition": 690000,
+      "facility": 70000,
+      "practical": 70000,
+      "other": 151000,
+      "first_year": 1311000,
+      "four_year": null,
+      "note": "教材費30,000円が別途（予定額）"
+     },
+     {
+      "f": "観光メディア文化学部 観光文化学科",
+      "admission": 330000,
+      "tuition": 690000,
+      "facility": 70000,
+      "practical": 70000,
+      "other": 151000,
+      "first_year": 1311000,
+      "four_year": null
+     },
+     {
+      "f": "観光メディア文化学部 メディア情報文化学科",
+      "admission": 330000,
+      "tuition": 690000,
+      "facility": 70000,
+      "practical": 70000,
+      "other": 151000,
+      "first_year": 1311000,
+      "four_year": null
+     },
+     {
+      "f": "看護学部 看護学科",
+      "admission": 330000,
+      "tuition": 880000,
+      "facility": 200000,
+      "practical": 200000,
+      "other": 273000,
+      "first_year": 1883000,
+      "four_year": null,
+      "note": "その他＝諸会費73,000円＋学習費200,000円"
+     }
+    ],
+    "note": "河合塾 Kei-Net（2026年度入学者用）。その他は諸会費＋学習費（看護以外は諸会費71,000円＋学習費80,000円）。空欄だった看護学科の諸会費・学習費・初年度合計を記入。一部予定額を含む"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2322/outline/expense"
+   ]
+  }
+ },
+ {
+  "name": "東都大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "幕張ヒューマンケア学部 健康科学科",
+      "admission": 250000,
+      "tuition": 800000,
+      "facility": 300000,
+      "practical": 100000,
+      "other": 9370,
+      "first_year": 1459370,
+      "four_year": null
+     },
+     {
+      "f": "幕張ヒューマンケア学部 看護学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1759370,
+      "four_year": null
+     },
+     {
+      "f": "幕張ヒューマンケア学部 理学療法学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1759370,
+      "four_year": null
+     },
+     {
+      "f": "幕張ヒューマンケア学部 臨床工学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1759370,
+      "four_year": null
+     },
+     {
+      "f": "ヒューマンケア学部 看護学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1759370,
+      "four_year": null
+     },
+     {
+      "f": "管理栄養学部 管理栄養学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": null,
+      "four_year": null
+     },
+     {
+      "f": "沼津ヒューマンケア学部 看護学科",
+      "admission": null,
+      "tuition": null,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": 1759370,
+      "four_year": null
+     }
+    ],
+    "note": "ベネッセ マナビジョン（2026年度予定の初年度納入金、施設費・実習費を含む合計のみ）で、ヒューマンケア学部・沼津ヒューマンケア学部の看護学科の初年度合計を記入。内訳と管理栄養学科は出典に掲載なし"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3173/gakuhi/"
+   ]
+  }
+ },
+ {
+  "name": "東京家政大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（自主自律探究1期）",
+      "apply": "9/1〜9/16",
+      "exam": null,
+      "result": "11/2",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（知識技能総合1期）",
+      "apply": "10/1〜10/13",
+      "exam": null,
+      "result": "11/2",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（知識技能総合2期）",
+      "apply": "10/29〜11/10",
+      "exam": null,
+      "result": "12/1",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（自主自律探究2期）",
+      "apply": "11/16〜12/2",
+      "exam": null,
+      "result": "12/25",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（英語外部利用1期）",
+      "apply": "12/1〜12/10",
+      "exam": null,
+      "result": "12/25",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（英語外部利用2期）",
+      "apply": "2/15〜2/24",
+      "exam": null,
+      "result": "3/5",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募推薦）",
+      "apply": "11/2〜11/10",
+      "exam": "11/15",
+      "result": "12/1",
+      "proc": "12/11",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（統一地区）",
+      "apply": "〜1/20",
+      "exam": "1/23〜1/24",
+      "result": "1/29",
+      "proc": "2/5",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（1期）",
+      "apply": "〜2/3",
+      "exam": "2/6",
+      "result": "2/12",
+      "proc": "2/18",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（2期）",
+      "apply": "〜2/24",
+      "exam": "2/28",
+      "result": "3/5",
+      "proc": "3/11",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用（A・B日程）",
+      "apply": null,
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/12",
+      "proc": "2/18",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用（C日程）",
+      "apply": "〜3/5",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/12",
+      "proc": "3/19",
+      "fee": null
+     }
+    ],
+    "note": "ベネッセ マナビジョン（2027年度入試、代表的な日程）。学部・学科で異なる（共創デザイン学部 造形表現学科は学力と実技を分けた日程・造形表現体験あり）。一般選抜の出願は締切日のみ。検定料は記載なし"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3281/nyushi/gokaku-happyo/"
+   ]
+  }
+ },
+ {
+  "name": "東京家政学院大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（アサーティブ一般・アサーティブ男子 第1回）",
+      "apply": "8/24〜9/4（郵送消印）",
+      "exam": "9/12",
+      "result": "11/2",
+      "proc": "11/13",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（探Q）",
+      "apply": "9/18〜10/2（郵送消印）",
+      "exam": "10/10〜10/11",
+      "result": "11/2",
+      "proc": "11/13",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（アサーティブ一般 第2回）",
+      "apply": "11/24〜12/4（郵送消印）",
+      "exam": "12/12",
+      "result": "1/12",
+      "proc": "1/22",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（小論・外部 第1回）",
+      "apply": "1/12〜1/27",
+      "exam": "2/10",
+      "result": "2/15",
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（小論・外部 第2回）",
+      "apply": "1/12〜2/22",
+      "exam": "3/5",
+      "result": "3/9",
+      "proc": "3/18",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（一般推薦 第1回）",
+      "apply": "11/2〜11/12",
+      "exam": "11/21",
+      "result": "12/1",
+      "proc": "12/11",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（一般推薦 第2回）",
+      "apply": "11/24〜12/7",
+      "exam": "12/19",
+      "result": "12/22",
+      "proc": "1/8",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅰ期（1科目型・2科目型）",
+      "apply": "12/21〜1/14",
+      "exam": "1/23",
+      "result": "1/26",
+      "proc": "2/4",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅱ期（1科目型・2科目型）",
+      "apply": "2/1〜2/19",
+      "exam": "3/1",
+      "result": "3/3",
+      "proc": "3/12",
+      "fee": null
+     }
+    ],
+    "note": "ベネッセ マナビジョン（2027年度入試情報）。現代生活学部・人間栄養学部・生活共創学部で同じ日程。共通テスト利用選抜・検定料は出典に記載なし"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3282/nyushi/gokaku-happyo/index.html"
+   ]
+  }
+ },
+ {
+  "name": "愛知教育大学",
+  "story": {
+   "summary": "1873年の愛知県養成学校から続く教員養成の大学で、教育学部だけを置き、幼稚園から高校・特別支援学校・養護教諭までの教員を育てています。学校教員養成課程には義務教育14専修・高校5専修など細かく分かれた専攻があり、教える教科や校種をはっきり決めて学べます。教員だけでなく、心理・福祉・教育行政の立場から子どもを支える専門職を目指す教育支援専門職養成課程もあります。",
+   "only": [
+    {
+     "t": "1873年の愛知県養成学校の設置に始まり、師範学校・愛知学芸大学を経て1966年に愛知教育大学となった。",
+     "src": "https://search.keinet.ne.jp/1240"
+    },
+    {
+     "t": "学校教員養成課程に幼児教育・義務教育（14専修）・高等学校教育（5専修）・特別支援教育・養護教育の専攻を置いている。",
+     "src": "https://search.keinet.ne.jp/1240sp/outline/department_sp"
+    },
+    {
+     "t": "2017年に教育支援専門職養成課程（心理・福祉・教育ガバナンス）を設け、教員以外で子どもや教育活動を支える専門職を養成している。",
+     "src": "https://search.keinet.ne.jp/1240sp/outline/department_sp"
+    }
+   ],
+   "vs": [
+    {
+     "u": "岐阜大学",
+     "t": "岐阜大学は教育学部のほか工学部・医学部・応用生物科学部などを持つ総合大学だが、愛知教育大学は教育学部だけの大学で、教員養成と教育支援の専門職養成に特化している。",
+     "src": "https://search.keinet.ne.jp/1260/outline/department"
+    },
+    {
+     "u": "三重大学",
+     "t": "三重大学は人文・教育・工・生物資源・医の5学部で学ぶが、愛知教育大学は教育学部の中で校種・教科ごとの専攻を細かく選べる。",
+     "src": "https://search.keinet.ne.jp/1265/outline/department"
+    }
+   ]
+  }
+ },
+ {
+  "name": "福井大学",
+  "story": {
+   "summary": "国際地域・教育・工・医の4学部を持つ福井県の国立大学で、工学部には原子力安全工学を学べるコースがあり、附属国際原子力工学研究所も置いています。医学部の附属病院は県内唯一の特定機能病院で、大学病院として初めて北米型ERの救急体制を取り入れるなど、地域医療の中心を担っています。教育学部は「地域と連携できる能力」を持つ教員の育成を掲げ、国際地域学部は地域課題に取り組む実践的な学びを行っています。",
+   "only": [
+    {
+     "t": "工学部 機械・システム工学科に原子力安全工学の分野があり、附属国際原子力工学研究所で原子力安全・防災の研究と国際連携を行っている。",
+     "src": "https://www.u-fukui.ac.jp/wp/wp-content/uploads/distinctive2022.pdf"
+    },
+    {
+     "t": "医学部附属病院は福井県内で唯一の特定機能病院である。",
+     "src": "https://www.u-fukui.ac.jp/wp/wp-content/uploads/distinctive2022.pdf"
+    },
+    {
+     "t": "附属病院は大学病院として初めて北米型ER救急体制を取り入れ、365日24時間患者を受け入れている。",
+     "src": "https://www.u-fukui.ac.jp/wp/wp-content/uploads/distinctive2022.pdf"
+    },
+    {
+     "t": "国際地域学部では必修の英語教育と、地域に密着した課題探求プロジェクト、文理融合型の教育を行っている。",
+     "src": "https://www.u-fukui.ac.jp/wp/wp-content/uploads/distinctive2022.pdf"
+    }
+   ],
+   "vs": [
+    {
+     "u": "金沢大学",
+     "t": "金沢大学は人間社会・理工・医薬保健・融合の4学域で学ぶが、福井大学は学部・学科制で、工学部に原子力安全工学の分野を置いている。",
+     "src": "https://search.keinet.ne.jp/1200/outline/department"
+    },
+    {
+     "u": "富山大学",
+     "t": "富山大学は経済・理・薬・芸術文化・都市デザインなど9学部を持つが、福井大学は国際地域・教育・工・医の4学部にまとまっている。",
+     "src": "https://search.keinet.ne.jp/1190/outline/department"
+    }
+   ]
+  }
+ }
+]

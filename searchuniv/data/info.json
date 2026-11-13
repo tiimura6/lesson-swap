@@ -213444,7 +213444,7 @@ null
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
 "subjects": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-13",
 "money": "2026-11-13",
 "scholar": "2026-11-09",
 "oc": "2026-11-09",
@@ -213587,14 +213587,14 @@ null
 "apply": "1/5〜1/25",
 "exam": "2/2",
 "result": "2/5",
-"proc": null,
+"proc": "2/12",
 "fee": 35000
 },
 {
 "kubun": "一般",
 "name": "一般選抜入学試験 B日程",
 "apply": "2/5〜2/22",
-"exam": null,
+"exam": "3/1",
 "result": "3/3",
 "proc": "3/3〜3/11",
 "fee": 35000
@@ -213617,7 +213617,8 @@ null
 "proc": "3/3〜3/12",
 "fee": 0
 }
-]
+],
+"note": "河合塾 Kei-Net の一般選抜日程（全学部共通、会場は本学）で、一般A日程の手続締切2/12と一般B日程の試験日3/1を補った。既存の発表日（2/5・3/3）と一致。総合型・推薦の発表・手続の空欄は未確認"
 },
 "money": {
 "year": "2027年度",
@@ -213732,7 +213733,8 @@ null
 "https://shingakunet.com/gakko/SC005283/gakuhi/",
 "https://www.sanpou-s.net/school/detail/1453/exam/",
 "https://aoaoi.jp/preparation/uekusa/",
-"https://passnavi.obunsha.co.jp/univ/2089/expense/"
+"https://passnavi.obunsha.co.jp/univ/2089/expense/",
+"https://search.keinet.ne.jp/2141/general/schedule"
 ]
 },
 "桜美林大学": {
@@ -214446,7 +214448,7 @@ null
 "methods": "2026-11-09",
 "subjects": "2026-11-09",
 "schedule": "2026-11-09",
-"money": "2026-11-09",
+"money": "2026-11-13",
 "scholar": "2026-11-09",
 "oc": "2026-11-09",
 "access": "2026-11-09",
@@ -214745,7 +214747,8 @@ null
 "practical": 70000,
 "other": 151000,
 "first_year": 1311000,
-"four_year": null
+"four_year": null,
+"note": "保育士養成課程は教材費15,000円が別途（予定額）"
 },
 {
 "f": "コミュニケーション文化学部 子ども学科",
@@ -214755,7 +214758,8 @@ null
 "practical": 70000,
 "other": 151000,
 "first_year": 1311000,
-"four_year": null
+"four_year": null,
+"note": "教材費30,000円が別途（予定額）"
 },
 {
 "f": "観光メディア文化学部 観光文化学科",
@@ -214783,11 +214787,13 @@ null
 "tuition": 880000,
 "facility": 200000,
 "practical": 200000,
-"other": null,
-"first_year": null,
-"four_year": null
+"other": 273000,
+"first_year": 1883000,
+"four_year": null,
+"note": "その他＝諸会費73,000円＋学習費200,000円"
 }
-]
+],
+"note": "河合塾 Kei-Net（2026年度入学者用）。その他は諸会費＋学習費（看護以外は諸会費71,000円＋学習費80,000円）。空欄だった看護学科の諸会費・学習費・初年度合計を記入。一部予定額を含む"
 },
 "scholar": {
 "year": "2027年度",
@@ -214874,7 +214880,7 @@ null
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
 "schedule": "2026-11-09",
-"money": "2026-11-09",
+"money": "2026-11-13",
 "scholar": "2026-11-09",
 "oc": "2026-11-09",
 "access": "2026-11-09",
@@ -215087,7 +215093,7 @@ null
 "facility": null,
 "practical": null,
 "other": null,
-"first_year": null,
+"first_year": 1759370,
 "four_year": null
 },
 {
@@ -215107,10 +215113,11 @@ null
 "facility": null,
 "practical": null,
 "other": null,
-"first_year": null,
+"first_year": 1759370,
 "four_year": null
 }
-]
+],
+"note": "ベネッセ マナビジョン（2026年度予定の初年度納入金、施設費・実習費を含む合計のみ）で、ヒューマンケア学部・沼津ヒューマンケア学部の看護学科の初年度合計を記入。内訳と管理栄養学科は出典に掲載なし"
 },
 "scholar": {
 "year": "2027年度",
@@ -215159,7 +215166,8 @@ null
 "https://www.tohto.ac.jp/wp-content/uploads/sites/5/2025/08/R8WebGuide_Hennyu.pdf",
 "https://search.keinet.ne.jp/2142/general/border_rate",
 "https://search.keinet.ne.jp/2142/outline/expense",
-"https://passnavi.obunsha.co.jp/univ/2035/difficulty/"
+"https://passnavi.obunsha.co.jp/univ/2035/difficulty/",
+"https://manabi.benesse.ne.jp/daigaku/school/3173/gakuhi/"
 ]
 },
 "東邦音楽大学": {
@@ -215169,7 +215177,7 @@ null
 "_checked": {
 "faculties": "2026-11-09",
 "departments": "2026-11-09",
-"money": "2026-11-09",
+"money": "2026-11-13",
 "_via": "2026-11-09",
 "schedule": "2026-11-12"
 },
@@ -215186,53 +215194,66 @@ null
 "year": "2026年度",
 "rows": [
 {
-"f": "音楽学部 音楽学科（コース詳細未確認・授業料133万円）",
-"admission": 250000,
-"tuition": 1330000,
-"facility": 425000,
-"practical": 0,
-"other": 55660,
-"first_year": 2060660,
-"four_year": null
-},
-{
-"f": "音楽学部 音楽学科（コース詳細未確認・授業料140万円）",
+"f": "音楽学部 音楽学科 音楽表現専攻（ピアノ・声楽・管弦打楽器・作曲（クラシック）専修）",
 "admission": 250000,
 "tuition": 1400000,
 "facility": 500000,
 "practical": 0,
-"other": 55660,
+"other": 4660,
 "first_year": 2205660,
 "four_year": null
 },
 {
-"f": "音楽学部 音楽学科（音楽療法）",
+"f": "音楽学部 音楽学科 音楽表現専攻（演奏専修（Konzertfach））",
+"admission": 250000,
+"tuition": 1800000,
+"facility": 500000,
+"practical": 0,
+"other": 4660,
+"first_year": 2605660,
+"four_year": null,
+"note": "初年度合計に演奏専修課程費40万円を含む（パスナビ）"
+},
+{
+"f": "音楽学部 音楽学科 音楽療法専攻",
 "admission": 250000,
 "tuition": 1100000,
 "facility": 400000,
 "practical": 0,
-"other": 55660,
+"other": 4660,
 "first_year": 1805660,
 "four_year": null
 },
 {
-"f": "音楽学部 音楽学科（パフォーマンス総合芸術文化）",
+"f": "音楽学部 音楽学科 教職実践専攻",
+"admission": 250000,
+"tuition": 1330000,
+"facility": 425000,
+"practical": 0,
+"other": 4660,
+"first_year": 2060660,
+"four_year": null
+},
+{
+"f": "音楽学部 音楽学科 パフォーマンス総合芸術文化専攻",
 "admission": 250000,
 "tuition": 1100000,
 "facility": 350000,
-"practical": 0,
-"other": 120660,
+"practical": 60000,
+"other": 4660,
 "first_year": 1820660,
 "four_year": null
 }
-]
+],
+"note": "旺文社パスナビ（2026年度）。諸会費4,660円は保険料（4年分）。初年度合計には卒業関連諸費積立金（年5万1,000円、パフォーマンス総合芸術文化専攻は5万6,000円）を含む。ウィーン海外研修の費用は授業料に含む（パフォーマンス総合芸術文化専攻は実施なし）"
 },
 "_via": "external-ai",
 "sources": [
 "https://www.toho-music.ac.jp/",
 "https://www.toho-music.ac.jp/wp-content/uploads/2026/08/2027_toho_college.pdf",
 "https://search.keinet.ne.jp/2155/outline/expense",
-"https://manabi.benesse.ne.jp/daigaku/school/3154/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3154/nyushi/",
+"https://passnavi.obunsha.co.jp/univ/2040/expense/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -229025,7 +229046,8 @@ null
 "founded": "2026-11-09",
 "access": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "departments": [
 {
@@ -229116,8 +229138,123 @@ null
 "https://search.keinet.ne.jp/2248/outline/campus",
 "https://search.keinet.ne.jp/2248/outline/licential",
 "https://search.keinet.ne.jp/2248/outline/admission_employment",
-"https://search.keinet.ne.jp/2248/general/exam_result"
-]
+"https://search.keinet.ne.jp/2248/general/exam_result",
+"https://manabi.benesse.ne.jp/daigaku/school/3281/nyushi/gokaku-happyo/"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜（自主自律探究1期）",
+"apply": "9/1〜9/16",
+"exam": null,
+"result": "11/2",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（知識技能総合1期）",
+"apply": "10/1〜10/13",
+"exam": null,
+"result": "11/2",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（知識技能総合2期）",
+"apply": "10/29〜11/10",
+"exam": null,
+"result": "12/1",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（自主自律探究2期）",
+"apply": "11/16〜12/2",
+"exam": null,
+"result": "12/25",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（英語外部利用1期）",
+"apply": "12/1〜12/10",
+"exam": null,
+"result": "12/25",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（英語外部利用2期）",
+"apply": "2/15〜2/24",
+"exam": null,
+"result": "3/5",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募推薦）",
+"apply": "11/2〜11/10",
+"exam": "11/15",
+"result": "12/1",
+"proc": "12/11",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜（統一地区）",
+"apply": "〜1/20",
+"exam": "1/23〜1/24",
+"result": "1/29",
+"proc": "2/5",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜（1期）",
+"apply": "〜2/3",
+"exam": "2/6",
+"result": "2/12",
+"proc": "2/18",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜（2期）",
+"apply": "〜2/24",
+"exam": "2/28",
+"result": "3/5",
+"proc": "3/11",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用（A・B日程）",
+"apply": null,
+"exam": "1/16・1/17（共テ）",
+"result": "2/12",
+"proc": "2/18",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用（C日程）",
+"apply": "〜3/5",
+"exam": "1/16・1/17（共テ）",
+"result": "3/12",
+"proc": "3/19",
+"fee": null
+}
+],
+"note": "ベネッセ マナビジョン（2027年度入試、代表的な日程）。学部・学科で異なる（共創デザイン学部 造形表現学科は学力と実技を分けた日程・造形表現体験あり）。一般選抜の出願は締切日のみ。検定料は記載なし"
+}
 },
 "東京家政学院大学": {
 "faculties": [
@@ -229132,7 +229269,8 @@ null
 "founded": "2026-11-09",
 "access": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "departments": [
 {
@@ -229185,8 +229323,96 @@ null
 "https://search.keinet.ne.jp/2249/outline/campus",
 "https://search.keinet.ne.jp/2249/outline/licential",
 "https://search.keinet.ne.jp/2249/outline/admission_employment",
-"https://search.keinet.ne.jp/2249/general/exam_result"
-]
+"https://search.keinet.ne.jp/2249/general/exam_result",
+"https://manabi.benesse.ne.jp/daigaku/school/3282/nyushi/gokaku-happyo/index.html"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜（アサーティブ一般・アサーティブ男子 第1回）",
+"apply": "8/24〜9/4（郵送消印）",
+"exam": "9/12",
+"result": "11/2",
+"proc": "11/13",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（探Q）",
+"apply": "9/18〜10/2（郵送消印）",
+"exam": "10/10〜10/11",
+"result": "11/2",
+"proc": "11/13",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（アサーティブ一般 第2回）",
+"apply": "11/24〜12/4（郵送消印）",
+"exam": "12/12",
+"result": "1/12",
+"proc": "1/22",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（小論・外部 第1回）",
+"apply": "1/12〜1/27",
+"exam": "2/10",
+"result": "2/15",
+"proc": "2/26",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（小論・外部 第2回）",
+"apply": "1/12〜2/22",
+"exam": "3/5",
+"result": "3/9",
+"proc": "3/18",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（一般推薦 第1回）",
+"apply": "11/2〜11/12",
+"exam": "11/21",
+"result": "12/1",
+"proc": "12/11",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（一般推薦 第2回）",
+"apply": "11/24〜12/7",
+"exam": "12/19",
+"result": "12/22",
+"proc": "1/8",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜Ⅰ期（1科目型・2科目型）",
+"apply": "12/21〜1/14",
+"exam": "1/23",
+"result": "1/26",
+"proc": "2/4",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜Ⅱ期（1科目型・2科目型）",
+"apply": "2/1〜2/19",
+"exam": "3/1",
+"result": "3/3",
+"proc": "3/12",
+"fee": null
+}
+],
+"note": "ベネッセ マナビジョン（2027年度入試情報）。現代生活学部・人間栄養学部・生活共創学部で同じ日程。共通テスト利用選抜・検定料は出典に記載なし"
+}
 },
 "東京富士大学": {
 "faculties": [
