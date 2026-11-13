@@ -217663,7 +217663,8 @@ null
 "founded": "2026-11-09",
 "access": "2026-11-09",
 "research": "2026-11-09",
-"licenses": "2026-11-09"
+"licenses": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "faculties": [
 "文学部",
@@ -217742,8 +217743,114 @@ null
 "https://search.keinet.ne.jp/2218/outline/department",
 "https://search.keinet.ne.jp/2218/outline/licential",
 "https://search.keinet.ne.jp/2218/general/exam_result",
-"https://search.keinet.ne.jp/2218/general/border_rate"
-]
+"https://search.keinet.ne.jp/2218/general/border_rate",
+"https://manabi.benesse.ne.jp/daigaku/school/3250/nyushi/gokaku-happyo/"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅰ期",
+"apply": "9/1〜9/24",
+"exam": "10/11",
+"result": "11/2",
+"proc": "11/9",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅱ期",
+"apply": "11/2〜12/9",
+"exam": "12/13",
+"result": "12/18",
+"proc": "12/24",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制 専願・併願）",
+"apply": "11/2〜11/16",
+"exam": "11/22",
+"result": "12/1",
+"proc": "12/8",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅰ期",
+"apply": "12/21〜1/13",
+"exam": "1/21",
+"result": "1/24",
+"proc": "2/15",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 Ⅰ期",
+"apply": "1/4〜1/26",
+"exam": "大学入学共通テスト",
+"result": "2/6",
+"proc": "2/15",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期",
+"apply": "1/4〜2/4",
+"exam": "2/10",
+"result": "2/19",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 Ⅱ期",
+"apply": "1/4〜2/12",
+"exam": "大学入学共通テスト",
+"result": "2/19",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅲ期",
+"apply": "1/4〜2/22",
+"exam": "2/26",
+"result": "3/3",
+"proc": "3/9",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅲ期",
+"apply": "2/5〜3/2",
+"exam": "3/4",
+"result": "3/6",
+"proc": "3/10",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 Ⅲ期",
+"apply": "1/4〜3/1",
+"exam": "大学入学共通テスト",
+"result": "3/6",
+"proc": "3/10",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 Ⅳ期",
+"apply": "1/4〜3/8",
+"exam": "大学入学共通テスト",
+"result": "3/12",
+"proc": "3/18",
+"fee": null
+}
+],
+"note": "全学部共通の日程（マナビジョン 2027年度入試）。学部・学科により利用できる区分が異なる。ネット出願。検定料は掲載なし"
+}
 },
 "尚美学園大学": {
 "faculties": [
@@ -217761,7 +217868,8 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "departments": [
 {
@@ -217864,8 +217972,79 @@ null
 "https://search.keinet.ne.jp/2165/outline/expense",
 "https://search.keinet.ne.jp/2165/outline/licential",
 "https://search.keinet.ne.jp/2165/outline/admission_employment",
-"https://search.keinet.ne.jp/2165/general/exam_result"
-]
+"https://search.keinet.ne.jp/2165/general/exam_result",
+"https://manabi.benesse.ne.jp/daigaku/school/3165/nyushi/gokaku-happyo/"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜（5回）",
+"apply": "9/1〜9/11・9/12〜9/29・9/30〜10/26・11/11〜11/24・1/19〜2/1",
+"exam": "9/26・10/10・11/7・12/5・2/13",
+"result": "10/1・10/16・11/12・12/10・2/18",
+"proc": "11/16・11/26・12/24・2/25",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 1回",
+"apply": "11/1〜11/10",
+"exam": "11/21",
+"result": "12/1",
+"proc": "12/15",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 2回",
+"apply": "11/25〜12/8",
+"exam": "12/19",
+"result": "12/24",
+"proc": "1/7",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 A日程",
+"apply": "1/4〜1/18",
+"exam": "1/30",
+"result": "2/3",
+"proc": "2/10",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 3回",
+"apply": "1/19〜2/1",
+"exam": "2/13",
+"result": "2/18",
+"proc": "2/25",
+"fee": null,
+"note": "芸術表現・総合政策・スポーツマネジメント学科（情報表現学科は2回まで）"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 B日程",
+"apply": "2/2〜2/15",
+"exam": "2/27",
+"result": "3/4",
+"proc": "3/11",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 C日程",
+"apply": "2/19〜3/5",
+"exam": "3/15",
+"result": "3/17",
+"proc": "3/24",
+"fee": null
+}
+],
+"note": "全学部共通の日程（マナビジョン 2027年度入試）。ネット出願。総合型の手続締切は出典に4つのみ掲載。共通テスト利用と検定料は掲載なし"
+}
 },
 "帝京大学": {
 "faculties": [
