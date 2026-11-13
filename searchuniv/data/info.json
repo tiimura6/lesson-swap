@@ -147976,7 +147976,7 @@ null
 "difficulty": "2026-11-07",
 "methods": "2026-11-07",
 "schedule": "2026-11-11",
-"money": "2026-11-11",
+"money": "2026-11-13",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07"
@@ -148072,71 +148072,71 @@ null
 {
 "f": "現代ビジネス学部 現代ビジネス学科",
 "admission": 200000,
-"tuition": 980000,
-"facility": 0,
-"practical": 0,
+"tuition": 780000,
+"facility": 200000,
+"practical": null,
 "other": 67300,
 "first_year": 1247300,
 "four_year": null,
-"note": "授業料に教育充実費を含む（パスナビ）"
+"note": "Kei-Net（2026年度入学者用）：施設費等は教育充実費"
 },
 {
 "f": "教育学部 教育学科",
 "admission": 200000,
-"tuition": 1090000,
-"facility": 0,
-"practical": 0,
+"tuition": 890000,
+"facility": 200000,
+"practical": null,
 "other": 67300,
 "first_year": 1357300,
 "four_year": null,
-"note": "授業料に教育充実費を含む（パスナビ）"
+"note": "Kei-Net（2026年度入学者用）"
 },
 {
 "f": "生涯福祉学部 社会福祉学科",
 "admission": 200000,
-"tuition": 1190000,
-"facility": 0,
-"practical": 0,
+"tuition": 990000,
+"facility": 200000,
+"practical": null,
 "other": 67300,
 "first_year": 1457300,
 "four_year": null,
-"note": "授業料に教育充実費を含む（パスナビ）"
+"note": "Kei-Net（2026年度入学者用）：授業料に実験実習費や施設費等を含む"
 },
 {
 "f": "健康科学部 健康スポーツ学科",
 "admission": 200000,
-"tuition": 1220000,
-"facility": 0,
-"practical": 0,
+"tuition": 960000,
+"facility": 260000,
+"practical": null,
 "other": 67300,
 "first_year": 1487300,
 "four_year": null,
-"note": "授業料に教育充実費を含む（パスナビ）"
+"note": "Kei-Net（2026年度入学者用）：授業料に実験実習費や施設費等を含む"
 },
 {
 "f": "健康科学部 栄養マネジメント学科",
 "admission": 200000,
-"tuition": 1280000,
-"facility": 0,
-"practical": 0,
+"tuition": 890000,
+"facility": 390000,
+"practical": null,
 "other": 67300,
 "first_year": 1547300,
 "four_year": null,
-"note": "授業料に教育充実費を含む（パスナビ）。パスナビの表記は「栄養学科」"
+"note": "Kei-Net（2026年度入学者用）。出典の表記は「栄養」"
 },
 {
 "f": "看護学部 看護学科",
 "admission": 200000,
-"tuition": 1550000,
-"facility": 0,
-"practical": 0,
+"tuition": 1350000,
+"facility": 200000,
+"practical": null,
 "other": 69370,
 "first_year": 1819370,
 "four_year": null,
-"note": "授業料に教育充実費を含む（パスナビ）。諸会費に学研災付帯賠償責任保険を含む"
+"note": "Kei-Net（2026年度入学者用）：授業料に実験実習費や施設費等を含む。学研災付帯賠償責任保険料を別途徴収"
 }
 ],
-"note": "2026年度（旺文社パスナビ、2026年5月調査）。2027年度は未掲載"
+"note": "2026年度（Kei-Net）。授業料と教育充実費の内訳はKei-Net、合計は旺文社パスナビ（2026年度）と一致。2027年度は未掲載"
 },
 "access": "兵庫県加古川市平岡町新在家2301",
 "careers": "一般企業、公務員、教員、保育士、管理栄養士、社会福祉士、看護師、保健師など。",
@@ -148147,7 +148147,8 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3712/gakuhi/",
 "https://passnavi.obunsha.co.jp/univ/4545/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3712/nyushi/gokaku-happyo/index.html",
-"https://passnavi.obunsha.co.jp/univ/4545/expense/"
+"https://passnavi.obunsha.co.jp/univ/4545/expense/",
+"https://search.keinet.ne.jp/2579/outline/expense"
 ]
 },
 "千里金蘭大学": {
@@ -225391,7 +225392,8 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "departments": [
 {
@@ -225459,8 +225461,60 @@ null
 "https://search.keinet.ne.jp/2288/outline/licential",
 "https://search.keinet.ne.jp/2288/outline/admission_employment",
 "https://search.keinet.ne.jp/2288/outline/expense",
-"https://search.keinet.ne.jp/2288/general/exam_result"
-]
+"https://search.keinet.ne.jp/2288/general/exam_result",
+"https://telemail.jp/shingaku/university/10001063/examination/general"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 B方式前期",
+"apply": "1/4〜1/18（ネット出願）",
+"exam": "1/31",
+"result": "2/4",
+"proc": "2/10",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 B方式後期",
+"apply": "1/4〜1/26（ネット出願）",
+"exam": "2/8",
+"result": "2/12",
+"proc": "2/18",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト・個別試験併用 C方式",
+"apply": "1/4〜1/18（ネット出願）",
+"exam": "1/16・1/17（共テ）＋2/5",
+"result": "2/12",
+"proc": "2/18",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 A方式",
+"apply": "1/4〜1/16（ネット出願）",
+"exam": "共通テスト利用（個別試験なし）",
+"result": "2/12",
+"proc": "2/18",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 地域枠",
+"apply": "1/4〜1/16（ネット出願）",
+"exam": "共通テスト利用（個別試験なし）",
+"result": "2/15",
+"proc": "2/19",
+"fee": null
+}
+],
+"note": "薬学科・生命創薬科学科で同じ日程（テレメール 2027年度入学、2026年7月31日時点）。B方式の試験地は東京都・神奈川県、C方式は東京都。検定料は出典に記載なし"
+}
 },
 "明海大学": {
 "faculties": [
@@ -225481,7 +225535,8 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "departments": [
 {
@@ -225640,8 +225695,126 @@ null
 "https://search.keinet.ne.jp/2151/outline/licential",
 "https://search.keinet.ne.jp/2151/outline/admission_employment",
 "https://search.keinet.ne.jp/outline/expense/2151",
-"https://search.keinet.ne.jp/2151/general/exam_result"
-]
+"https://search.keinet.ne.jp/2151/general/exam_result",
+"https://www.meikai.ac.jp/03applicant/media/admissions_guide_undergraduate_2027_fixed.pdf"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 A日程（浦安キャンパス）",
+"apply": "1/8〜1/19（郵送必着）",
+"exam": "2/1・2/2",
+"result": "2/10",
+"proc": "2/19",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 B日程（浦安キャンパス）",
+"apply": "2/8〜2/17（郵送必着）",
+"exam": "3/1",
+"result": "3/6",
+"proc": "3/12",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 A日程（浦安キャンパス）",
+"apply": "1/8〜1/19（郵送必着）",
+"exam": "1/16・1/17（共テ）、面接（Web）2/2",
+"result": "2/10",
+"proc": "2/19",
+"fee": 15000,
+"note": "検定料は1学科15,000円・2学科以上20,000円"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 B日程（浦安キャンパス）",
+"apply": "2/8〜2/17（郵送必着）",
+"exam": "1/16・1/17（共テ）、面接（Web）3/1",
+"result": "3/6",
+"proc": "3/12",
+"fee": 15000,
+"note": "検定料は1学科15,000円・2学科以上20,000円"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 C日程（浦安キャンパス）",
+"apply": "2/22〜3/3（郵送必着）",
+"exam": "1/16・1/17（共テ）、面接（Web）3/13",
+"result": "3/16",
+"proc": "3/23",
+"fee": 15000,
+"note": "検定料は1学科15,000円・2学科以上20,000円"
+},
+{
+"kubun": "一般",
+"name": "歯学部 一般選抜 A日程（坂戸キャンパス）",
+"apply": "1/8〜1/21（郵送必着）",
+"exam": "1/31",
+"result": "2/5",
+"proc": "2/15",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "歯学部 共通テスト利用選抜 C日程",
+"apply": "2/24〜3/5（郵送必着）",
+"exam": "1/16・1/17（共テ）＋個別試験3/13",
+"result": "3/19",
+"proc": "3/26",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（AO）A日程（浦安キャンパス）",
+"apply": "9/1〜9/14（郵送必着）",
+"exam": "9/27",
+"result": "11/1",
+"proc": "11/19",
+"fee": 30000
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（なりたいじぶん入試）A日程",
+"apply": "9/21〜10/2（郵送必着）",
+"exam": "10/11",
+"result": "11/1",
+"proc": "11/19",
+"fee": 30000
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（なりたいじぶん入試）B日程",
+"apply": "10/26〜11/4（郵送必着）",
+"exam": "11/15",
+"result": "11/20",
+"proc": "12/10",
+"fee": 30000
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（クリエイティブ入試）A日程",
+"apply": "9/30〜10/9（郵送必着）",
+"exam": "10/25",
+"result": "11/1",
+"proc": "11/19",
+"fee": 30000
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（指定校）",
+"apply": "11/1〜11/11（郵送必着）",
+"exam": "11/22",
+"result": "12/1",
+"proc": "12/18",
+"fee": 30000
+}
+],
+"note": "大学公式「2027年度入学者選抜試験要項」による。浦安キャンパスは外国語・経済・不動産・ホスピタリティ・ツーリズム・保健医療学部。一般選抜（浦安）の検定料は要項で3〜4万円の幅があり方式との対応が読み取れず未記入。歯学部の一般B日程・共テ利用A・B日程の詳細は要項で確認"
+}
 },
 "星薬科大学": {
 "faculties": [
