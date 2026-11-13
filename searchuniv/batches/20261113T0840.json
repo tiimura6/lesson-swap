@@ -1,0 +1,39 @@
+[
+{"name":"京都薬科大学","info":{"schedule_replace":{"year":"2027年度入試","rows":[
+{"kubun":"一般","name":"一般選抜 前期（3教科型）","apply":"1/5〜1/25","exam":"2/3","result":"2/15","proc":"入学金2/22・授業料等3/18","fee":35000,"note":"前期と後期を同時出願すると検定料の割引あり"},
+{"kubun":"一般","name":"一般選抜 後期（2教科型）","apply":"1/5〜2/16","exam":"2/19","result":"3/3","proc":"入学金3/10・授業料等3/18","fee":35000,"note":"前期と後期を同時出願すると検定料の割引あり"},
+{"kubun":"共テ利用","name":"一般選抜 共通テスト利用（前期）","apply":"1/5〜1/14","exam":"1/16・1/17（共テ）","result":"2/15","proc":"入学金2/22・授業料等3/18","fee":19000,"note":"個別試験なし"},
+{"kubun":"共テ利用","name":"一般選抜 共通テスト利用（後期）","apply":"2/17〜3/4","exam":"1/16・1/17（共テ）","result":"3/12","proc":"3/18","fee":19000,"note":""}],
+"note":"2027年度京都薬科大学入学者選抜要項（公式PDF）で日程・検定料を確認。検定料とは別に払込手数料1,100円"},
+"sources":["https://www.kyoto-phu.ac.jp/admission/undergraduate/exam.html","https://www.kyoto-phu.ac.jp/albums/abm.php?d=621&f=abm00003285.pdf&n=2027%E5%B9%B4%E5%BA%A6%E4%BA%AC%E9%83%BD%E8%96%AC%E7%A7%91%E5%A4%A7%E5%AD%A6%E5%85%A5%E5%AD%A6%E8%80%85%E9%81%B8%E6%8A%9C%E8%A6%81%E9%A0%85.pdf"]}},
+{"name":"京都橘大学","info":{"schedule_replace":{"year":"2027年度入試","rows":[
+{"kubun":"一般","name":"一般選抜 前期","apply":"12/24〜1/12","exam":"1/21・1/22","result":"2/5","proc":"1次2/13・2次3/10","fee":35000,"note":"公式：前期A・B・C日程とも1方式35,000円。学科プラス割・方式プラス割・日程プラス割で2つ目以降が0円または20,000円"},
+{"kubun":"一般","name":"一般選抜 中期","apply":"12/24〜1/27","exam":"2/11","result":"2/22","proc":"1次3/3・2次3/10","fee":35000,"note":"公式：前期A・B・C日程とも1方式35,000円（割引あり）"},
+{"kubun":"一般","name":"一般選抜 後期","apply":"2/15〜3/1","exam":"3/9","result":"3/19","proc":"3/24（一括）","fee":null},
+{"kubun":"共テ利用","name":"大学入学共通テスト利用 前期","apply":"12/24〜1/27","exam":"1/16・1/17（共テ）","result":"2/22","proc":"1次3/3・2次3/10","fee":10000,"note":"1方式あたり10,000円×学科等数。同じ出願期間に一般選抜と併せて出願すると0円"},
+{"kubun":"共テ利用","name":"大学入学共通テスト利用 後期","apply":"2/15〜3/1","exam":"1/16・1/17（共テ）","result":"3/19","proc":"3/24（一括）","fee":null}],
+"note":"検定料は公式受験生サイト（2027年度入学試験）。後期日程の検定料は公式ページに記載なし"},
+"sources":["https://www.tachibana-u.ac.jp/admission/information/general/","https://www.tachibana-u.ac.jp/admission/information/center/"]}},
+{"name":"日本医療科学大学","info":{"schedule_replace":{"year":"2027年度入試","rows":[
+{"kubun":"一般","name":"一般選抜 Ⅰ期A日程","apply":"12/21〜1/25","exam":"2/1","result":"2/6","proc":"2/26","fee":null,"note":"試験会場：埼玉"},
+{"kubun":"一般","name":"一般選抜 Ⅰ期B日程","apply":"12/21〜1/25","exam":"2/5","result":"2/9","proc":"2/26","fee":null,"note":"試験会場：埼玉・東京"},
+{"kubun":"一般","name":"一般選抜 Ⅱ期","apply":"2/8〜2/22","exam":"2/27","result":"2/28","proc":"3/19","fee":null,"note":"試験会場：埼玉・東京"},
+{"kubun":"一般","name":"一般選抜 特別","apply":"2/22〜3/9","exam":"3/14","result":"3/15","proc":"3/23","fee":null,"note":"試験会場：埼玉・東京"},
+{"kubun":"共テ利用","name":"共通テスト利用 前期","apply":"12/21〜1/29","exam":"1/16・1/17（共テ）","result":"2/12","proc":"2/26","fee":null,"note":""},
+{"kubun":"共テ利用","name":"共通テスト利用 後期","apply":"2/22〜3/9","exam":"1/16・1/17（共テ）","result":"3/15","proc":"3/23","fee":null,"note":""}],
+"note":"一般選抜はマナビジョン（2027年度入試）、共テ利用はパスナビ。一般の試験日はKei-Netとも一致。全学科共通の日程。検定料は未確認"},
+"sources":["https://manabi.benesse.ne.jp/daigaku/school/3172/nyushi/hoshiki/ippan/index.html","https://passnavi.obunsha.co.jp/univ/1991/schedule/","https://search.keinet.ne.jp/2143/general/schedule"]}},
+{"name":"日本保健医療大学","info":{"schedule_replace":{"year":"2027年度入試","rows":[
+{"kubun":"一般","name":"一般選抜 第1回・第2回","apply":"1/7〜1/27","exam":"2/1（第1回）・2/2（第2回）","result":"2/4","proc":"2/12","fee":null,"note":""},
+{"kubun":"一般","name":"一般選抜 第3回","apply":"1/28〜2/17","exam":"2/21","result":"2/25","proc":"3/4","fee":null,"note":""},
+{"kubun":"一般","name":"一般選抜 第4回","apply":"2/18〜3/3","exam":"3/7","result":"3/11","proc":"3/18","fee":null,"note":""},
+{"kubun":"一般","name":"一般選抜 第5回","apply":"3/4〜3/17","exam":"3/22","result":"3/25","proc":"3/30","fee":null,"note":""},
+{"kubun":"共テ利用","name":"共通テスト利用 第1回","apply":"1/7〜1/27","exam":"1/16・1/17（共テ）","result":"2/4","proc":"2/12","fee":null,"note":"一般選抜（1科目選択型）と併願すると検定料の割引あり"},
+{"kubun":"共テ利用","name":"共通テスト利用 第2回","apply":"1/28〜2/17","exam":"1/16・1/17（共テ）","result":"2/25","proc":"3/4","fee":null,"note":""},
+{"kubun":"共テ利用","name":"共通テスト利用 第3回","apply":"2/18〜3/3","exam":"1/16・1/17（共テ）","result":"3/11","proc":"3/18","fee":null,"note":""},
+{"kubun":"共テ利用","name":"共通テスト利用 第4回","apply":"3/4〜3/17","exam":"1/16・1/17（共テ）","result":"3/25","proc":"3/30","fee":null,"note":""}],
+"note":"マナビジョン（2027年度入試）とパスナビで一致。看護学科・理学療法学科とも同じ日程。検定料は未確認"},
+"sources":["https://manabi.benesse.ne.jp/daigaku/school/3174/nyushi/index.html","https://passnavi.obunsha.co.jp/univ/2062/schedule/"]}},
+{"name":"高知リハビリテーション専門職大学","story":{"summary":"高知リハビリテーション専門職大学は高知県土佐市にある私立の専門職大学で、1968年開設の高知リハビリテーション学院を前身に2019年4月に開学した。リハビリテーション学部に理学療法学・作業療法学・言語聴覚学の3専攻があり、「地域課題研究」や「地域支援実習」で学外の現場から学び、医療だけでなく地域で活躍するセラピストを目指す。リハビリ職、特に言語聴覚士も視野に入れて高知で学びたい生徒に話せる学校。","only":[{"t":"1968年開設の高知リハビリテーション学院（専修学校）を前身として、2019年4月に専門職大学として開学した","src":"https://search.keinet.ne.jp/2690"},{"t":"理学療法学・作業療法学・言語聴覚学の3専攻制で、言語聴覚士の養成課程がある","src":"https://passnavi.obunsha.co.jp/univ/9212/department/"},{"t":"学外での「地域課題研究Ⅰ・Ⅱ」や「地域支援実習」で、地域で活躍できるセラピストを育てる","src":"https://passnavi.obunsha.co.jp/univ/9212/department/"}],"vs":[{"u":"高知健康科学大学","t":"高知健康科学大学のリハビリテーション学科は理学療法学・作業療法学の2専攻だが、高知リハビリテーション専門職大学は言語聴覚学専攻を含む3専攻で、専門職大学として地域支援実習などの学外実習を組み込んでいる","src":"https://passnavi.obunsha.co.jp/univ/4888/department/"}]}},
+{"name":"東京保健医療専門職大学","story":{"summary":"東京保健医療専門職大学は東京都江東区にある2020年設置の専門職大学で、リハビリテーション学部に理学療法学科・作業療法学科を置く。公式は「一都三県唯一の専門職大学」とし、臨地実務実習は理学療法900時間・作業療法1,000時間超と多く、福祉・観光・美容・音楽療法・手話などの展開科目や経営系の科目も学ぶ。理学療法士・作業療法士として現場のリーダーや新しいサービスづくりを目指したい生徒に話せる学校。","only":[{"t":"大学公式で「一都三県（東京・神奈川・千葉・埼玉）唯一の専門職大学」と紹介している","src":"https://www.tpu.ac.jp/overview/"},{"t":"臨地実務実習は理学療法学科900時間（基準600時間）、作業療法学科1,000時間超","src":"https://passnavi.obunsha.co.jp/univ/9205/department/?facultyID=010"},{"t":"福祉・支援工学・ユニバーサルツーリズム・美容・音楽療法・スポーツコーチング・手話などの展開科目と、経営戦略・人事管理・医療経営などの科目がある","src":"https://passnavi.obunsha.co.jp/univ/9205/department/?facultyID=010"}],"vs":[{"u":"文京学院大学","t":"文京学院大学の保健医療技術学部は理学療法・作業療法に臨床検査・看護を加えた4学科で、スポーツリハビリや海外フィールドワークが特色だが、東京保健医療専門職大学はPT・OTの2学科に絞り、長い臨地実務実習と経営・展開科目で実務リーダーを育てる","src":"https://passnavi.obunsha.co.jp/univ/2075/department/?facultyID=020"}]}}
+]
