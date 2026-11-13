@@ -221119,7 +221119,8 @@ null
 "access": "2026-11-09",
 "tuition": "2026-11-09",
 "money": "2026-11-09",
-"licenses": "2026-11-09"
+"licenses": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "faculties": [
 "国際文化学部",
@@ -221226,8 +221227,52 @@ null
 "https://search.keinet.ne.jp/2278/outline/department",
 "https://search.keinet.ne.jp/2278/outline/expense",
 "https://search.keinet.ne.jp/2278/general/border_rate",
-"https://search.keinet.ne.jp/2278/outline/licential"
-]
+"https://search.keinet.ne.jp/2278/outline/licential",
+"https://manabi.benesse.ne.jp/daigaku/school/3310/nyushi/gokaku-happyo/",
+"https://telemail.jp/shingaku/university/10010946/examination/general"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 A日程（英語外部利用型・2科目選択型）",
+"apply": "1/5〜1/18",
+"exam": "2/1",
+"result": "2/5",
+"proc": "2/19",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 B日程（英語外部利用型・2科目選択型）",
+"apply": "2/1〜2/16",
+"exam": "3/1",
+"result": "3/5",
+"proc": "3/12",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "一般選抜（共通テスト利用方式）1期（1科目型・2科目型）",
+"apply": "1/5〜1/25",
+"exam": "1/16・1/17（共テ）",
+"result": "2/12",
+"proc": "2/26",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "一般選抜（共通テスト利用方式）2期（1科目型・2科目型）",
+"apply": "2/1〜2/16",
+"exam": "1/16・1/17（共テ）",
+"result": "3/5",
+"proc": "3/12",
+"fee": null
+}
+],
+"note": "全学部・全学科同じ日程。マナビジョン（2027年度入試）とテレメール（2027年度一般選抜）で一致。ネット出願のみ（出願締切は12:00、書類は締切の2日後必着）。検定料は出典に記載なし"
+}
 },
 "文教大学": {
 "difficulty": {
@@ -221244,7 +221289,8 @@ null
 "access": "2026-11-09",
 "tuition": "2026-11-09",
 "money": "2026-11-09",
-"licenses": "2026-11-09"
+"licenses": "2026-11-09",
+"schedule": "2026-11-13"
 },
 "faculties": [
 "文学部",
@@ -221445,8 +221491,88 @@ null
 "https://search.keinet.ne.jp/outline/department/2158",
 "https://search.keinet.ne.jp/2158/outline/expense",
 "https://search.keinet.ne.jp/general/border_rate/2158",
-"https://search.keinet.ne.jp/2158/outline/licential"
-]
+"https://search.keinet.ne.jp/2158/outline/licential",
+"https://manabi.benesse.ne.jp/daigaku/school/3157/nyushi/gokaku-happyo/",
+"https://search.keinet.ne.jp/2158/general/schedule"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 全国",
+"apply": "1/4〜1/20",
+"exam": "2/1",
+"result": "2/6",
+"proc": "2/15",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 A日程（方式1）",
+"apply": "1/4〜1/25",
+"exam": "2/7〜2/9（試験日自由選択。音楽専修は2/10も）",
+"result": "2/20",
+"proc": "2/27",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 A日程 方式2（教育学部美術専修・文学部中国語中国文学科）",
+"apply": "1/4〜1/25",
+"exam": "2/10",
+"result": "2/20",
+"proc": "2/27",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 B日程（教育学部・人間科学部を除く。文学部は英米語英米文・中国語中国文）",
+"apply": "2/2〜2/10",
+"exam": "2/24",
+"result": "3/3",
+"proc": "3/11",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 C日程",
+"apply": "2/15〜2/24",
+"exam": "3/4",
+"result": "3/9",
+"proc": "3/16",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 1期",
+"apply": "1/4〜1/15",
+"exam": "1/16・1/17（共テ）",
+"result": "2/16",
+"proc": "2/24",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 2期（教育学部・人間科学部を除く）",
+"apply": "1/25〜2/3",
+"exam": "1/16・1/17（共テ）",
+"result": "2/20",
+"proc": "2/27",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 3期",
+"apply": "2/15〜2/24",
+"exam": "1/16・1/17（共テ）",
+"result": "3/9",
+"proc": "3/16",
+"fee": null
+}
+],
+"note": "マナビジョン（2027年度入試）とKei-Netで一致（出願締切は消印有効）。教育学部音楽専修は共テ利用でなく一般選抜の共テ1期・3期。検定料は出典に記載なし"
+}
 },
 "文星芸術大学": {
 "difficulty": {
