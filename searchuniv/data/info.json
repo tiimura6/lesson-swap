@@ -169712,7 +169712,7 @@ null
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
 "schedule": "2026-11-12",
-"money": "2026-11-07",
+"money": "2026-11-14",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07"
@@ -169842,10 +169842,30 @@ null
 "note": "マナビジョン（2027年度入試）で発表・手続日を補完。全学部共通。前期の手続はマナビジョンでは2/26（1次）。検定料は未確認"
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
-"f": "全学部（世界教養・総合英語・地球社会）",
+"f": "総合英語学部 英米語学科（英米語・国際英語コミュニケーション・英語教育専攻）",
+"admission": 200000,
+"tuition": 870000,
+"facility": 400000,
+"practical": 0,
+"other": 19000,
+"first_year": 1489000,
+"four_year": null
+},
+{
+"f": "世界教養学部（世界教養・フランス・ヨーロッパ・中国・アジア・国際日本学科）",
+"admission": 200000,
+"tuition": 870000,
+"facility": 400000,
+"practical": 0,
+"other": 19000,
+"first_year": 1489000,
+"four_year": null
+},
+{
+"f": "地球社会学部（英語キャリア・グローバルビジネス・グローバル共生・国際教養学科）",
 "admission": 200000,
 "tuition": 870000,
 "facility": 400000,
@@ -169854,7 +169874,8 @@ null
 "first_year": 1489000,
 "four_year": null
 }
-]
+],
+"note": "施設費は教育充実費。otherは委託徴収金（学生会費・後援会費、通年19,000円、初年度合計に含む）。全学部・学科とも同額（旺文社パスナビ 2027年度、2026年9月調査）"
 },
 "access": "愛知県日進市岩崎町竹ノ山57",
 "careers": "航空・観光・ホテル業界、商社、メーカー、英語教員、公務員など。",
@@ -169866,7 +169887,8 @@ null
 "https://search.keinet.ne.jp/2452/outline/expense",
 "https://search.keinet.ne.jp/2452/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/3750/difficulty/",
-"https://manabi.benesse.ne.jp/daigaku/school/3539/nyushi/gokaku-happyo/"
+"https://manabi.benesse.ne.jp/daigaku/school/3539/nyushi/gokaku-happyo/",
+"https://passnavi.obunsha.co.jp/univ/3750/expense/"
 ]
 },
 "名古屋葵大学": {
@@ -214601,7 +214623,8 @@ null
 "methods": "2026-11-09",
 "schedule": "2026-11-13",
 "scholar": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"money": "2026-11-14"
 },
 "methods": {
 "year": "2027年度入試",
@@ -214704,8 +214727,29 @@ null
 "https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/sougougata2027/",
 "https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/tokutai2027/",
 "https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/tobikyu2027/",
-"https://manabi.benesse.ne.jp/daigaku/school/3296/nyushi/gokaku-happyo/"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3296/nyushi/gokaku-happyo/",
+"https://search.keinet.ne.jp/2263/outline/expense",
+"https://up-j.shigaku.go.jp/department/category06/00000000265501001.html"
+],
+"money": {
+"year": "2026年度",
+"admission": 160000,
+"annual": 1445000,
+"rows": [
+{
+"f": "音楽学部 音楽学科",
+"admission": 160000,
+"tuition": 1445000,
+"facility": 690000,
+"practical": null,
+"other": 6600,
+"first_year": 2301600,
+"four_year": null,
+"note": "施設/教育充実費等690,000円（大学ポートレートでは施設設備資金390,000円＋教育充実費300,000円）。外国人教師の特別レッスン・選択副科・室内楽・二重奏ソナタ・教職課程の受講料は別途"
+}
+],
+"note": "河合塾 Kei-Net（2026年度入学者用）。2027年度は未確認"
+}
 },
 "松蔭大学": {
 "faculties": [
@@ -234793,7 +234837,9 @@ null
 "tuition": "2026-11-11",
 "kyotsu": "2026-11-11",
 "research": "2026-11-11",
-"money": "2026-11-11"
+"money": "2026-11-11",
+"schedule": "2026-11-14",
+"methods": "2026-11-14"
 },
 "departments": [
 {
@@ -234849,8 +234895,176 @@ null
 "https://passnavi.obunsha.co.jp/univ/5058/department/",
 "https://passnavi.obunsha.co.jp/univ/5058/expense/",
 "https://passnavi.obunsha.co.jp/univ/5058/subject/",
-"https://shingakunet.com/gakko/SC006924/"
-]
+"https://shingakunet.com/gakko/SC006924/",
+"https://manabi.benesse.ne.jp/daigaku/school/3907/nyushi/gokaku-happyo/",
+"https://manabi.benesse.ne.jp/daigaku/school/3907/nyushi/hoshiki/ippan/"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 前期",
+"apply": "1/4〜1/26",
+"exam": "1/31",
+"result": "2/6",
+"proc": "2/19",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期",
+"apply": "2/26〜3/8",
+"exam": "3/11",
+"result": "3/16",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 前期",
+"apply": "12/22〜2/9",
+"exam": "1/16・1/17（共テ）",
+"result": "2/15",
+"proc": "3/1",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 後期",
+"apply": "2/10〜3/19",
+"exam": "1/16・1/17（共テ）",
+"result": "3/24",
+"proc": "3/29",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制）",
+"apply": "11/1〜11/18",
+"exam": "11/21",
+"result": "12/1",
+"proc": "12/25",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（スポーツ・文化活動）",
+"apply": "9/1〜9/16",
+"exam": "9/19",
+"result": "11/2",
+"proc": "11/20",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "特待生総合型選抜（学力）",
+"apply": "12/1〜12/16",
+"exam": "12/19",
+"result": "12/24",
+"proc": "1/22",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅰ期",
+"apply": "9/1〜9/16",
+"exam": "9/19",
+"result": "",
+"proc": "",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅱ期",
+"apply": "10/1〜10/14",
+"exam": "10/17",
+"result": "",
+"proc": "",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅲ期",
+"apply": "12/1〜12/16",
+"exam": "12/19",
+"result": "",
+"proc": "",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅳ期",
+"apply": "1/26〜2/10",
+"exam": "2/15",
+"result": "",
+"proc": "",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅴ期",
+"apply": "3/8〜3/18",
+"exam": "3/23",
+"result": "",
+"proc": "",
+"fee": null
+}
+],
+"note": "ベネッセ マナビジョン（2027年度入試、2026年11月確認）。ネット出願。総合型Ⅰ〜Ⅴ期の合格発表・手続締切は出典で期ごとの対応が読み取れないため未記入。検定料は出典に記載なし"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜 前期",
+"kyotsu": null,
+"niji": "国語（古文・漢文を除く）100点・英語100点（計200点）",
+"content": "募集20人。試験会場：佐賀・福岡・長崎",
+"req": null,
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3907/nyushi/hoshiki/ippan/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期",
+"kyotsu": null,
+"niji": "国語（古文・漢文を除く）100点・英語100点（計200点）",
+"content": "募集5人。試験会場：佐賀",
+"req": null,
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3907/nyushi/hoshiki/ippan/"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 前期・後期",
+"kyotsu": "科目は出典に記載なし（未確認）",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3907/nyushi/gokaku-happyo/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制）",
+"kyotsu": null,
+"niji": null,
+"content": "内容は未確認",
+"req": null,
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3907/nyushi/gokaku-happyo/"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（Ⅰ〜Ⅴ期・スポーツ文化・特待生学力）",
+"kyotsu": null,
+"niji": null,
+"content": "内容は未確認",
+"req": null,
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3907/nyushi/gokaku-happyo/"
+}
+],
+"summary": "一般選抜は前期・後期とも国語（古文・漢文を除く）と英語の2教科200点。共通テスト利用（前期・後期）、公募推薦、総合型（Ⅰ〜Ⅴ期など）もある。",
+"note": "ベネッセ マナビジョン（2027年度入試）。共テ利用の科目と推薦・総合型の内容は未確認"
+}
 },
 "大阪医療大学": {
 "difficulty": {
@@ -234868,7 +235082,9 @@ null
 "kyotsu": "2026-11-11",
 "research": "2026-11-11",
 "licenses": "2026-11-11",
-"money": "2026-11-11"
+"money": "2026-11-11",
+"schedule": "2026-11-14",
+"methods": "2026-11-14"
 },
 "faculties": [
 "医療看護学部"
@@ -234940,8 +235156,140 @@ null
 "https://search.keinet.ne.jp/2530/outline/expense",
 "https://search.keinet.ne.jp/2530/outline/licential",
 "https://search.keinet.ne.jp/2530/general/exam_subject",
-"https://manabi.benesse.ne.jp/daigaku/school/3683/index.html"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3683/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3683/nyushi/gokaku-happyo/",
+"https://manabi.benesse.ne.jp/daigaku/school/3683/nyushi/"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 1期",
+"apply": "1/7〜1/25",
+"exam": "2/6",
+"result": "2/12",
+"proc": "3/5",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 2期",
+"apply": "2/15〜3/1",
+"exam": "3/5",
+"result": "3/13",
+"proc": "3/20",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 1期",
+"apply": "1/7〜1/25",
+"exam": "1/16・1/17（共テ）",
+"result": "2/12",
+"proc": "3/5",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 2期",
+"apply": "2/15〜3/1",
+"exam": "1/16・1/17（共テ）",
+"result": "3/13",
+"proc": "3/20",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募推薦型）",
+"apply": "11/1〜11/9",
+"exam": "11/14〜11/15",
+"result": "12/1",
+"proc": "12/18",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 1期",
+"apply": "9/1〜9/10",
+"exam": "9/19",
+"result": "11/1",
+"proc": "11/16",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 2期",
+"apply": "9/26〜10/5",
+"exam": "10/11",
+"result": "11/1",
+"proc": "11/16",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 3期",
+"apply": "10/12〜10/19",
+"exam": "10/24",
+"result": "11/1",
+"proc": "11/16",
+"fee": null
+}
+],
+"note": "医療看護学部（理学療法学科・看護学科）で同じ日程。ベネッセ マナビジョン（2027年度入試、2026年11月確認）。ネット出願。検定料は出典に記載なし"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜 1期・2期（理学療法学科）",
+"kyotsu": null,
+"niji": "英語・国語・数学または理科から1（計3科目）",
+"content": "グループワーク、グループワーク後の確認テスト、面接、調査書",
+"req": null,
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3683/nyushi/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 1期・2期（看護学科）",
+"kyotsu": null,
+"niji": "英語・国語（必須）＋数学または理科から1（計3科目）",
+"content": "面接、出願書類（志望理由書・活動報告書）、調査書",
+"req": null,
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3683/nyushi/"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 1期・2期",
+"kyotsu": "科目は出典に記載なし（未確認）",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3683/nyushi/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募推薦型）",
+"kyotsu": null,
+"niji": null,
+"content": "理学療法：英語・国語・理科から2、看護：英語・国語・数学から2。いずれも面接・出願書類・調査書",
+"req": null,
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3683/nyushi/"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 1〜3期",
+"kyotsu": null,
+"niji": null,
+"content": "理学療法：グループワーク・確認テスト・面接・出願書類・調査書。看護：英語・国語・数学から1、面接・出願書類・調査書",
+"req": null,
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3683/nyushi/"
+}
+],
+"summary": "一般選抜は3科目に加え、理学療法学科はグループワークと面接、看護学科は面接と書類を課す。共テ利用・公募推薦・総合型（1〜3期）もある。",
+"note": "ベネッセ マナビジョン（2027年度入試）。看護学科は設置届出中の表記。共テ利用の科目は未確認"
+}
 },
 "福岡国際音楽大学": {
 "difficulty": {
