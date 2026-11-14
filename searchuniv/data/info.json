@@ -73527,7 +73527,8 @@
 "https://search.keinet.ne.jp/2106/outline/department",
 "https://search.keinet.ne.jp/2106/outline/expense",
 "https://search.keinet.ne.jp/2106/outline/campus",
-"https://search.keinet.ne.jp/2106"
+"https://search.keinet.ne.jp/2106",
+"https://wp-assets.i-u.ac.jp/wp-content/uploads/2026/03/18163854/guide2027_kokunai_2507.pdf"
 ],
 "kyotsu": {
 "kamoku": "共通テスト利用なし",
@@ -73583,41 +73584,80 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-06",
+"schedule": "2026-11-14",
 "money": "2026-11-08",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07"
 },
 "schedule": {
-"year": "2027年度入試（Kei-Net掲載、ページに年度表示なし）",
+"year": "2027年度入試",
 "rows": [
 {
 "kubun": "一般",
 "name": "一般 3教科・2教科 A日程",
-"apply": "〜1/21（必着）",
+"apply": "12/11〜1/21",
 "exam": "1/30",
 "result": "2/5",
 "proc": "2/12",
-"note": "検定料はKei-Net日程ページに記載なし"
+"fee": 30000
 },
 {
 "kubun": "一般",
 "name": "一般 3教科・2教科 B日程",
-"apply": "〜2/10（必着）",
+"apply": "1/22〜2/10",
 "exam": "2/21",
 "result": "2/26",
-"proc": "3/11"
+"proc": "3/11",
+"fee": 30000
 },
 {
 "kubun": "一般",
 "name": "一般 3教科・2教科 C日程",
-"apply": "〜2/25（必着）",
+"apply": "2/11〜2/25",
 "exam": "3/7",
 "result": "3/8",
-"proc": "3/15"
+"proc": "3/15",
+"fee": 30000
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型（指定校・公募制）A日程",
+"apply": "11/1〜11/12",
+"exam": "11/22",
+"result": "12/1",
+"proc": "",
+"fee": 30000
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型（指定校・公募制）B日程",
+"apply": "12/11〜2/4",
+"exam": "2/13",
+"result": "2/19",
+"proc": "",
+"fee": 30000
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 A日程（専願）",
+"apply": "9/1〜9/17",
+"exam": "9/26",
+"result": "11/2",
+"proc": "",
+"fee": 30000
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 B〜F日程（併願）",
+"apply": "9/1〜2/25（5回）",
+"exam": "10/18・11/22・12/19または12/20・2/13・3/7",
+"result": "11/2・11/27・12/25・2/19・3/8",
+"proc": "",
+"fee": 30000
 }
-]
+],
+"note": "大学公式「入試ガイド2027（国内高校生向け、2026年3月時点）」。一般の手続締切はKei-Net。検定料は初回30,000円、年度内2回目以降の出願は各10,000円（別途事務手数料）。2027年度は共通テスト利用の選抜を実施しない"
 },
 "money": {
 "year": "2026年度",
@@ -207078,7 +207118,8 @@ null
 "oc": "2026-11-09",
 "access": "2026-11-09",
 "licenses": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"money": "2026-11-14"
 },
 "departments": [
 {
@@ -207375,8 +207416,135 @@ null
 "https://shingakunet.com/gakko/SC000561/gakubugakka/00000000000141909/",
 "https://www.best-shingaku.net/smt/gakuhi67.html",
 "https://telemail.jp/shingaku/university/10010949/scholarship",
-"https://manabi.benesse.ne.jp/daigaku/school/3323/nyushi/index.html"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3323/nyushi/index.html",
+"https://search.keinet.ne.jp/2291/outline/expense"
+],
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "心理学部（臨床心理・対人・社会心理）",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1399000,
+"four_year": null
+},
+{
+"f": "法学部 法学科",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1419000,
+"four_year": null
+},
+{
+"f": "経営学部 経営学科",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1435000,
+"four_year": null
+},
+{
+"f": "経済学部 経済学科",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1394000,
+"four_year": null
+},
+{
+"f": "文学部（哲・史・文）",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1367000,
+"four_year": null
+},
+{
+"f": "文学部 社会学科",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1384000,
+"four_year": null
+},
+{
+"f": "仏教学部（仏教・宗）",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1424000,
+"four_year": null
+},
+{
+"f": "データサイエンス学部 データサイエンス学科",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1604000,
+"four_year": null
+},
+{
+"f": "地球環境科学部 環境システム学科",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1629000,
+"four_year": null
+},
+{
+"f": "地球環境科学部 地理学科",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1499000,
+"four_year": null
+},
+{
+"f": "社会福祉学部 社会福祉学科",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1419000,
+"four_year": null
+},
+{
+"f": "社会福祉学部 子ども教育福祉学科",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1439000,
+"four_year": null
+}
+],
+"note": "ベネッセ マナビジョン（2026年度入学者の初年度納入金の合計のみ、内訳なし）。参考：Kei-Net（2025年度入学者用）では入学金288,000円・授業料778,000円・諸会費31,000円が全学部共通"
+}
 },
 "秀明大学": {
 "faculties": [
@@ -213220,7 +213388,7 @@ null
 "departments": "2026-11-09",
 "difficulty": "2026-11-09",
 "_via": "2026-11-09",
-"schedule": "2026-11-12",
+"schedule": "2026-11-14",
 "money": "2026-11-13"
 },
 "departments": [
@@ -213243,7 +213411,8 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3382/gakuhi/",
 "https://telemail.jp/shingaku/university/10000048/examination/general",
 "https://passnavi.obunsha.co.jp/univ/3372/expense/",
-"https://www.yokohama-art.ac.jp/about/system/tuition"
+"https://www.yokohama-art.ac.jp/about/system/tuition",
+"https://www.yokohama-art.ac.jp/wp-content/uploads/2025/05/横浜美術大学_2027年度学生募集要項.pdf"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -213255,7 +213424,7 @@ null
 "exam": "2/3",
 "result": "2/10",
 "proc": "2/22",
-"fee": null
+"fee": 30000
 },
 {
 "kubun": "共テ利用",
@@ -213264,7 +213433,7 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "2/10",
 "proc": "2/22",
-"fee": null
+"fee": 15000
 },
 {
 "kubun": "一般",
@@ -213273,7 +213442,7 @@ null
 "exam": "2/24",
 "result": "2/26",
 "proc": "3/5",
-"fee": null
+"fee": 30000
 },
 {
 "kubun": "共テ利用",
@@ -213282,7 +213451,7 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "2/26",
 "proc": "3/5",
-"fee": null
+"fee": 15000
 },
 {
 "kubun": "一般",
@@ -213291,7 +213460,7 @@ null
 "exam": "3/9",
 "result": "3/11",
 "proc": "3/17",
-"fee": null
+"fee": 30000
 },
 {
 "kubun": "共テ利用",
@@ -213300,10 +213469,10 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "3/11",
 "proc": "3/17",
-"fee": null
+"fee": 15000
 }
 ],
-"note": "テレメール（2027年度一般選抜、2026年6月1日時点）。美術学部 美術・デザイン学科。ネット出願、必要書類は締切日消印有効。試験地は神奈川県。検定料は未確認"
+"note": "大学公式「2027年度学生募集要項」で日程・検定料を確認（テレメールの日程と一致）。美術学部 美術・デザイン学科。出願登録は17:00まで、書類は締切日消印有効、手続は必着。検定料とは別に払込手数料990円。総合型・学校推薦型の検定料は30,000円"
 },
 "money": {
 "year": "2027年度",
@@ -215722,7 +215891,7 @@ null
 "difficulty": "2026-11-09",
 "methods": "2026-11-09",
 "schedule": "2026-11-14",
-"money": "2026-11-09",
+"money": "2026-11-14",
 "access": "2026-11-09",
 "_via": "2026-11-09"
 },
@@ -215945,59 +216114,65 @@ null
 "note": "河合塾 Kei-Net の一般選抜日程で理・薬・看護学部と健康科学部の発表・手続を補った（医学部・健康科学部の試験日は大学公式の2027年度資料と一致）。理学部一般A・B・看護学部の出願締切は消印・必着の別が「登」表記。検定料はKei-Netが2026年度入試の金額のため未記入"
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
-"f": "医学部",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 4800000,
-"four_year": null
+"f": "医学部 医学科",
+"admission": 1500000,
+"tuition": 2500000,
+"facility": 800000,
+"practical": 0,
+"other": 497800,
+"first_year": 5297800,
+"four_year": null,
+"note": "facilityは施設費（教育充実費50万円を含む）、otherは諸会費（保険料を含む委託徴収金）。入学時最小限納入金5,297,800円（一括）"
 },
 {
-"f": "薬学部",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 2230000,
-"four_year": null
+"f": "薬学部 薬学科",
+"admission": 400000,
+"tuition": 1120000,
+"facility": 710000,
+"practical": 0,
+"other": 101840,
+"first_year": 2331840,
+"four_year": null,
+"note": "facilityは施設費（教育充実費71万円を含む）、otherは諸会費。入学時最小限納入金1,416,840円（一括）"
 },
 {
-"f": "理学部",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 1632000,
-"four_year": null
+"f": "理学部（化学・生物・生物分子科学・物理・情報科学・生命圏環境科学）",
+"admission": 250000,
+"tuition": 1062000,
+"facility": 320000,
+"practical": 0,
+"other": 64660,
+"first_year": 1696660,
+"four_year": null,
+"note": "6学科とも同額。facilityは施設費（教育充実費32万円を含む）、otherは諸会費。入学時最小限納入金1,005,660円（一括または延納）"
 },
 {
-"f": "看護学部",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 2200000,
-"four_year": null
+"f": "看護学部 看護学科",
+"admission": 300000,
+"tuition": 1100000,
+"facility": 800000,
+"practical": 50000,
+"other": 80370,
+"first_year": 2330370,
+"four_year": null,
+"note": "facilityは施設費（教育充実費30万円を含む）、otherは諸会費。入学時最小限納入金1,380,370円（一括）"
 },
 {
-"f": "健康科学部",
-"admission": null,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 1750000,
-"four_year": null
+"f": "健康科学部 看護学科",
+"admission": 300000,
+"tuition": 950000,
+"facility": 500000,
+"practical": 0,
+"other": 70370,
+"first_year": 1820370,
+"four_year": null,
+"note": "facilityは施設費（教育充実費50万円を含む）、otherは諸会費。入学時最小限納入金995,370円（一括）"
 }
-]
+],
+"note": "旺文社パスナビ（2027年度、2026年9月調査時点）。諸会費（保険料を含む委託徴収金）を初年度合計に含む"
 },
 "access": "大森キャンパス、習志野キャンパス（最寄り駅未確認）",
 "_via": "external-ai",
@@ -216009,7 +216184,8 @@ null
 "https://www.toho-u.ac.jp/info_exam/fee_nyusi.html",
 "https://search.keinet.ne.jp/2264/general/border_rate",
 "https://manabi.benesse.ne.jp/daigaku/school/3295/gakuhi/",
-"https://search.keinet.ne.jp/2264/general/schedule"
+"https://search.keinet.ne.jp/2264/general/schedule",
+"https://passnavi.obunsha.co.jp/univ/2890/expense/"
 ]
 },
 "東海大学": {

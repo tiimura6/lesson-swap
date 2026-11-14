@@ -1,0 +1,52 @@
+[
+{"name": "東邦大学", "info": {"money_replace": {"year": "2027年度", "rows": [
+ {"f": "医学部 医学科", "admission": 1500000, "tuition": 2500000, "facility": 800000, "practical": 0, "other": 497800, "first_year": 5297800, "four_year": null, "note": "facilityは施設費（教育充実費50万円を含む）、otherは諸会費（保険料を含む委託徴収金）。入学時最小限納入金5,297,800円（一括）"},
+ {"f": "薬学部 薬学科", "admission": 400000, "tuition": 1120000, "facility": 710000, "practical": 0, "other": 101840, "first_year": 2331840, "four_year": null, "note": "facilityは施設費（教育充実費71万円を含む）、otherは諸会費。入学時最小限納入金1,416,840円（一括）"},
+ {"f": "理学部（化学・生物・生物分子科学・物理・情報科学・生命圏環境科学）", "admission": 250000, "tuition": 1062000, "facility": 320000, "practical": 0, "other": 64660, "first_year": 1696660, "four_year": null, "note": "6学科とも同額。facilityは施設費（教育充実費32万円を含む）、otherは諸会費。入学時最小限納入金1,005,660円（一括または延納）"},
+ {"f": "看護学部 看護学科", "admission": 300000, "tuition": 1100000, "facility": 800000, "practical": 50000, "other": 80370, "first_year": 2330370, "four_year": null, "note": "facilityは施設費（教育充実費30万円を含む）、otherは諸会費。入学時最小限納入金1,380,370円（一括）"},
+ {"f": "健康科学部 看護学科", "admission": 300000, "tuition": 950000, "facility": 500000, "practical": 0, "other": 70370, "first_year": 1820370, "four_year": null, "note": "facilityは施設費（教育充実費50万円を含む）、otherは諸会費。入学時最小限納入金995,370円（一括）"}
+], "note": "旺文社パスナビ（2027年度、2026年9月調査時点）。諸会費（保険料を含む委託徴収金）を初年度合計に含む"}, "sources": ["https://passnavi.obunsha.co.jp/univ/2890/expense/"]}},
+{"name": "横浜美術大学", "info": {"schedule_replace": {"year": "2027年度入試", "rows": [
+ {"kubun": "一般", "name": "一般入学試験A日程（デッサン選択・学科選択）", "apply": "1/12〜1/26", "exam": "2/3", "result": "2/10", "proc": "2/22", "fee": 30000},
+ {"kubun": "共テ利用", "name": "一般入学試験A日程（共通テスト選択）", "apply": "1/12〜1/26", "exam": "1/16・1/17（共テ）", "result": "2/10", "proc": "2/22", "fee": 15000},
+ {"kubun": "一般", "name": "一般入学試験B日程（デッサン選択・学科選択）", "apply": "2/8〜2/16", "exam": "2/24", "result": "2/26", "proc": "3/5", "fee": 30000},
+ {"kubun": "共テ利用", "name": "一般入学試験B日程（共通テスト選択）", "apply": "2/8〜2/16", "exam": "1/16・1/17（共テ）", "result": "2/26", "proc": "3/5", "fee": 15000},
+ {"kubun": "一般", "name": "一般入学試験C日程（デッサン選択・学科選択）", "apply": "2/25〜3/2", "exam": "3/9", "result": "3/11", "proc": "3/17", "fee": 30000},
+ {"kubun": "共テ利用", "name": "一般入学試験C日程（共通テスト選択）", "apply": "2/25〜3/2", "exam": "1/16・1/17（共テ）", "result": "3/11", "proc": "3/17", "fee": 15000}
+], "note": "大学公式「2027年度学生募集要項」で日程・検定料を確認（テレメールの日程と一致）。美術学部 美術・デザイン学科。出願登録は17:00まで、書類は締切日消印有効、手続は必着。検定料とは別に払込手数料990円。総合型・学校推薦型の検定料は30,000円"}, "sources": ["https://www.yokohama-art.ac.jp/wp-content/uploads/2025/05/横浜美術大学_2027年度学生募集要項.pdf"]}},
+{"name": "立正大学", "info": {"money": {"year": "2026年度", "rows": [
+ {"f": "心理学部（臨床心理・対人・社会心理）", "admission": null, "tuition": null, "facility": null, "practical": null, "other": null, "first_year": 1399000, "four_year": null},
+ {"f": "法学部 法学科", "admission": null, "tuition": null, "facility": null, "practical": null, "other": null, "first_year": 1419000, "four_year": null},
+ {"f": "経営学部 経営学科", "admission": null, "tuition": null, "facility": null, "practical": null, "other": null, "first_year": 1435000, "four_year": null},
+ {"f": "経済学部 経済学科", "admission": null, "tuition": null, "facility": null, "practical": null, "other": null, "first_year": 1394000, "four_year": null},
+ {"f": "文学部（哲・史・文）", "admission": null, "tuition": null, "facility": null, "practical": null, "other": null, "first_year": 1367000, "four_year": null},
+ {"f": "文学部 社会学科", "admission": null, "tuition": null, "facility": null, "practical": null, "other": null, "first_year": 1384000, "four_year": null},
+ {"f": "仏教学部（仏教・宗）", "admission": null, "tuition": null, "facility": null, "practical": null, "other": null, "first_year": 1424000, "four_year": null},
+ {"f": "データサイエンス学部 データサイエンス学科", "admission": null, "tuition": null, "facility": null, "practical": null, "other": null, "first_year": 1604000, "four_year": null},
+ {"f": "地球環境科学部 環境システム学科", "admission": null, "tuition": null, "facility": null, "practical": null, "other": null, "first_year": 1629000, "four_year": null},
+ {"f": "地球環境科学部 地理学科", "admission": null, "tuition": null, "facility": null, "practical": null, "other": null, "first_year": 1499000, "four_year": null},
+ {"f": "社会福祉学部 社会福祉学科", "admission": null, "tuition": null, "facility": null, "practical": null, "other": null, "first_year": 1419000, "four_year": null},
+ {"f": "社会福祉学部 子ども教育福祉学科", "admission": null, "tuition": null, "facility": null, "practical": null, "other": null, "first_year": 1439000, "four_year": null}
+], "note": "ベネッセ マナビジョン（2026年度入学者の初年度納入金の合計のみ、内訳なし）。参考：Kei-Net（2025年度入学者用）では入学金288,000円・授業料778,000円・諸会費31,000円が全学部共通"}, "sources": ["https://manabi.benesse.ne.jp/daigaku/school/3323/gakuhi/", "https://search.keinet.ne.jp/2291/outline/expense"]}},
+{"name": "情報経営イノベーション専門職大学（iU）", "info": {"schedule_replace": {"year": "2027年度入試", "rows": [
+ {"kubun": "一般", "name": "一般 3教科・2教科 A日程", "apply": "12/11〜1/21", "exam": "1/30", "result": "2/5", "proc": "2/12", "fee": 30000},
+ {"kubun": "一般", "name": "一般 3教科・2教科 B日程", "apply": "1/22〜2/10", "exam": "2/21", "result": "2/26", "proc": "3/11", "fee": 30000},
+ {"kubun": "一般", "name": "一般 3教科・2教科 C日程", "apply": "2/11〜2/25", "exam": "3/7", "result": "3/8", "proc": "3/15", "fee": 30000},
+ {"kubun": "推薦", "name": "学校推薦型（指定校・公募制）A日程", "apply": "11/1〜11/12", "exam": "11/22", "result": "12/1", "proc": "", "fee": 30000},
+ {"kubun": "推薦", "name": "学校推薦型（指定校・公募制）B日程", "apply": "12/11〜2/4", "exam": "2/13", "result": "2/19", "proc": "", "fee": 30000},
+ {"kubun": "総合型", "name": "総合型選抜 A日程（専願）", "apply": "9/1〜9/17", "exam": "9/26", "result": "11/2", "proc": "", "fee": 30000},
+ {"kubun": "総合型", "name": "総合型選抜 B〜F日程（併願）", "apply": "9/1〜2/25（5回）", "exam": "10/18・11/22・12/19または12/20・2/13・3/7", "result": "11/2・11/27・12/25・2/19・3/8", "proc": "", "fee": 30000}
+], "note": "大学公式「入試ガイド2027（国内高校生向け、2026年3月時点）」。一般の手続締切はKei-Net。検定料は初回30,000円、年度内2回目以降の出願は各10,000円（別途事務手数料）。2027年度は共通テスト利用の選抜を実施しない"}, "sources": ["https://wp-assets.i-u.ac.jp/wp-content/uploads/2026/03/18163854/guide2027_kokunai_2507.pdf"]}},
+{"name": "旭川市立大学", "story": {"summary": "経済学部・保健福祉学部に加えて地域創造学部を置く公立大学で、地域創造学部では2年次後期から地域デザインとアントレプレナーシップの2コースに分かれ、ITやAI・データサイエンス・デザイン思考・マネジメントを学びながら地域の課題に関わります。経済・経営・会計、福祉・看護、地域づくりのどれかを北海道・旭川という地域の視点から学びたい生徒に話しやすい大学です。", "only": [
+ {"t": "地域創造学部（定員100名）は2年次後期から地域デザインとアントレプレナーシップの2コースに分かれ（横断履修も可）、IT・AI・データサイエンス・デザイン思考・工学・マネジメントを体系的に学ぶ。", "src": "https://search.keinet.ne.jp/1501/outline/department"},
+ {"t": "経済学部 経営経済学科は2年次から経済学・経営学・会計学のコースを選び、ゼミナールやフィールドワークで世界と北海道・旭川の両方の視点から経済を学ぶ。", "src": "https://search.keinet.ne.jp/1501/outline/department"},
+ {"t": "保健福祉学部にコミュニティ福祉学科と保健看護学科を置き、地域社会の福祉力の向上や、連携と協働で地域医療を支える看護職の育成をめざす。", "src": "https://search.keinet.ne.jp/1501/outline/department"}],
+ "vs": [
+ {"u": "名寄市立大学", "t": "名寄市立大学は保健福祉学部（栄養・看護・社会福祉・社会保育の4学科）の1学部だが、旭川市立大学は保健福祉学部に加えて経済学部と地域創造学部を置き、経済・経営や地域づくりも学べる。", "src": "https://www.nayoro.ac.jp/faculty/hw_faculty/"}]}},
+{"name": "山形県立保健医療大学", "story": {"summary": "看護・理学療法・作業療法の医療系3学科だけの公立大学で、少人数のきめ細かな教育とチーム医療を重視したカリキュラムをとり、山形県立中央病院などで臨床・臨地実習を行います。米国コロラド大学・コロラド州立大学やチェコのマサリク大学と連携した国際教育もあり、山形で看護師・理学療法士・作業療法士をめざしたい生徒に話しやすい大学です。", "only": [
+ {"t": "看護（定員63人）・理学療法（20人）・作業療法（20人）の医療系3学科で構成し、少人数教育とチーム医療を重視したカリキュラムをとる。", "src": "https://search.keinet.ne.jp/1511/outline/department"},
+ {"t": "米国コロラド大学・コロラド州立大学、チェコ国立マサリク大学と連携した国際教育を行う。", "src": "https://search.keinet.ne.jp/1511/outline/department"},
+ {"t": "山形県立中央病院などの施設で臨床・臨地実習を行い、理学療法・作業療法の両学科で地域リハビリテーション・地域作業療法も学ぶ。", "src": "https://search.keinet.ne.jp/1511/outline/department"}],
+ "vs": [
+ {"u": "青森県立保健大学", "t": "青森県立保健大学は健康科学部に看護・理学療法・社会福祉・栄養の学科を置くが、山形県立保健医療大学は看護・理学療法・作業療法の医療系3学科で、作業療法士もめざせる。", "src": "https://search.keinet.ne.jp/1516/outline/department"}]}}
+]
