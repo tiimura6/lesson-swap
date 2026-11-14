@@ -160502,7 +160502,7 @@ null
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
 "subjects": "2026-11-07",
-"schedule": "2026-11-11",
+"schedule": "2026-11-14",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
@@ -160620,7 +160620,7 @@ null
 "apply": "1/8〜1/26",
 "exam": "2/6",
 "result": "2/18",
-"proc": null,
+"proc": "2/26",
 "fee": 35000,
 "note": "併願（2件目以降）は10,000円割引"
 },
@@ -160630,7 +160630,7 @@ null
 "apply": "1/8〜1/26",
 "exam": "1/16・1/17（共テ）",
 "result": "2/18",
-"proc": null,
+"proc": "2/26",
 "fee": 18000,
 "note": "併願（2件目以降）は10,000円割引"
 },
@@ -160645,7 +160645,7 @@ null
 "note": "実施の有無は2月下旬に告知"
 }
 ],
-"note": "出典：新潟青陵大学 受験ガイド（2027年4月入学者対象、2026年3月時点の予定・公式）。入学手続締切は記載なし"
+"note": "出典：新潟青陵大学 受験ガイド（2027年4月入学者対象、2026年3月時点の予定・公式）。入学手続締切は記載なし 一般選抜・共通テスト利用の入学手続締切2/26はベネッセ マナビジョン（2027年度入試、看護・福祉心理子ども学部共通）で確認。総合型・推薦の手続締切は出典に記載なし。"
 },
 "access": "新潟県新潟市中央区水道町1-5939",
 "careers": "看護師、保健師、社会福祉士、精神保健福祉士、公認心理師、保育士、幼稚園・小学校教諭など。",
@@ -160655,7 +160655,8 @@ null
 "https://www.n-seiryo.ac.jp/entrance/nsu/money/",
 "https://search.keinet.ne.jp/2339/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/3395/difficulty/",
-"https://www.n-seiryo.ac.jp/wp-content/uploads/2026/04/0d341ace004ca51b6c95be690d52821c.pdf"
+"https://www.n-seiryo.ac.jp/wp-content/uploads/2026/04/0d341ace004ca51b6c95be690d52821c.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/3408/nyushi/gokaku-happyo/index.html"
 ],
 "money": {
 "year": "2027年度",
@@ -232834,7 +232835,8 @@ null
 "money": "2026-11-10",
 "research": "2026-11-10",
 "licenses": "2026-11-10",
-"careers": "2026-11-10"
+"careers": "2026-11-10",
+"schedule": "2026-11-14"
 },
 "faculties": [
 "国際共創学部",
@@ -232909,8 +232911,141 @@ null
 "https://search.keinet.ne.jp/2185/outline/expense",
 "https://search.keinet.ne.jp/2185/outline/admission_employment",
 "https://search.keinet.ne.jp/2185/general/border_rate",
-"https://search.keinet.ne.jp/2185/general/exam_result"
+"https://search.keinet.ne.jp/2185/general/exam_result",
+"https://manabi.benesse.ne.jp/daigaku/school/3209/nyushi/gokaku-happyo/index.html"
+],
+"schedule": {
+"year": "2027年度入試",
+"note": "ベネッセ マナビジョン（2027年度入試、ネット出願）。日程は現代経営・人間科学・国際共創（仮称、2027年4月設置構想中）の全学部共通。検定料は出典に記載なし。総合型のPBL・プレゼン・小論文方式は年5回（第2回以降は基礎力方式・公募推薦と同じ時期も含む）",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 1期（国英2科目・英語外部利用）",
+"apply": "1/5〜1/24",
+"exam": "1/29、2/2",
+"result": "2/12",
+"proc": "2/24",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 2期（国英2科目・英語外部利用）",
+"apply": "2/3〜2/16",
+"exam": "2/24",
+"result": "3/4",
+"proc": "3/12",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 3期（国英2科目・英語外部利用）",
+"apply": "2/18〜3/7",
+"exam": "3/12",
+"result": "3/16",
+"proc": "3/19",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 1期",
+"apply": "1/5〜2/1",
+"exam": "共通テスト",
+"result": "2/12",
+"proc": "2/24",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 2期",
+"apply": "2/3〜2/16",
+"exam": "共通テスト",
+"result": "3/4",
+"proc": "3/12",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 3期",
+"apply": "2/18〜3/7",
+"exam": "共通テスト",
+"result": "3/16",
+"proc": "3/19",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 PBL・プレゼン・小論文方式（第1回）",
+"apply": "2026/9/1〜2026/10/9",
+"exam": "2026/10/17（現代経営）・2026/10/18（人間科学・国際共創）",
+"result": "2026/11/2",
+"proc": "2026/11/16",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 基礎力方式",
+"apply": "2026/11/2〜2026/11/29",
+"exam": "2026/12/5",
+"result": "2026/12/10",
+"proc": "2026/12/21",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 PBL・プレゼン・小論文方式（第2回）",
+"apply": "2026/11/21〜2026/11/29",
+"exam": "2026/12/5",
+"result": "2026/12/10",
+"proc": "2026/12/21",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 PBL・プレゼン・小論文方式（第3回）",
+"apply": "1/5〜1/17",
+"exam": "1/23",
+"result": "1/29",
+"proc": "2/24",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 PBL・プレゼン・小論文方式（第4回）",
+"apply": "2/3〜2/16",
+"exam": "2/24",
+"result": "3/4",
+"proc": "3/12",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 PBL・プレゼン・小論文方式（第5回）",
+"apply": "2/18〜3/7",
+"exam": "3/12",
+"result": "3/16",
+"proc": "3/19",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制）",
+"apply": "2026/11/21〜2026/11/29",
+"exam": "2026/12/5",
+"result": "2026/12/10",
+"proc": "2026/12/21",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 推薦スポーツ健康（人間科学部）",
+"apply": "2026/11/2〜2026/11/9",
+"exam": "2026/11/15",
+"result": "2026/12/1",
+"proc": "2026/12/14",
+"fee": null
+}
 ]
+}
 },
 "東洋英和女学院大学": {
 "difficulty": {
@@ -232929,7 +233064,8 @@ null
 "money": "2026-11-10",
 "research": "2026-11-10",
 "licenses": "2026-11-10",
-"careers": "2026-11-10"
+"careers": "2026-11-10",
+"schedule": "2026-11-14"
 },
 "faculties": [
 "人間社会学部"
@@ -232993,8 +233129,96 @@ null
 "https://search.keinet.ne.jp/2319/outline/expense",
 "https://search.keinet.ne.jp/2319/outline/admission_employment",
 "https://search.keinet.ne.jp/2319/general/border_rate",
-"https://search.keinet.ne.jp/2319/general/exam_result"
+"https://search.keinet.ne.jp/2319/general/exam_result",
+"https://manabi.benesse.ne.jp/daigaku/school/3376/nyushi/gokaku-happyo/index.html"
+],
+"schedule": {
+"year": "2027年度入試",
+"note": "ベネッセ マナビジョン（2027年度入試、ネット出願）。人間社会学部の総合心理・子ども教育・国際の3学科で日程は共通。共通テスト利用・学校推薦型の日程と検定料は出典に記載なし",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 スカラシップ",
+"apply": "2026/12/1〜2026/12/9",
+"exam": "2026/12/19",
+"result": "2026/12/24",
+"proc": "2/12",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期",
+"apply": "1/12〜1/22",
+"exam": "2/2",
+"result": "2/4",
+"proc": "2/12",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期",
+"apply": "2/15〜2/22",
+"exam": "3/2",
+"result": "3/4",
+"proc": "3/12",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 専願1期",
+"apply": "2026/9/28〜2026/10/6",
+"exam": "2026/10/18",
+"result": "2026/11/1",
+"proc": "2026/11/10",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 基礎学力",
+"apply": "2026/9/28〜2026/10/6",
+"exam": "2026/10/18",
+"result": "2026/11/1",
+"proc": "2026/12/8",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 自己推薦（1回目）",
+"apply": "2026/9/28〜2026/10/6",
+"exam": "2026/10/18",
+"result": "2026/11/1",
+"proc": "2026/12/8",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 専願2期",
+"apply": "2026/11/1〜2026/11/10",
+"exam": "2026/11/22",
+"result": "2026/12/1",
+"proc": "2026/12/8",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 自己推薦（2回目）",
+"apply": "2026/12/1〜2026/12/9",
+"exam": "2026/12/19",
+"result": "2026/12/24",
+"proc": "2/12",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 専願3期",
+"apply": "3/8〜3/12",
+"exam": "3/16",
+"result": "3/18",
+"proc": "3/21",
+"fee": null
+}
 ]
+}
 },
 "武蔵野学院大学": {
 "difficulty": {
