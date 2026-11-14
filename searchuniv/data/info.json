@@ -231201,7 +231201,8 @@ null
 "founded": "2026-11-09",
 "access": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-14"
 },
 "departments": [
 {
@@ -231226,8 +231227,51 @@ null
 "https://search.keinet.ne.jp/2252/outline/department",
 "https://search.keinet.ne.jp/2252/outline/campus",
 "https://search.keinet.ne.jp/2252/outline/admission_employment",
-"https://search.keinet.ne.jp/2252/general/exam_result"
+"https://search.keinet.ne.jp/2252/general/exam_result",
+"https://telemail.jp/shingaku/university/10002061/examination/general"
+],
+"schedule": {
+"year": "2027年度入試",
+"note": "テレメール（2027年度入学、2026年7月24日時点）。歯学部歯学科。一般Ⅰ期・共テ利用Ⅰ期の試験地は東京・大阪・福岡、Ⅱ期は東京。検定料は出典に記載なし",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅰ期",
+"apply": "12/14〜1/15（必着）",
+"exam": "2/2",
+"result": "2/5",
+"proc": "2/15",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期",
+"apply": "2/10〜2/26（必着）",
+"exam": "3/6",
+"result": "3/9",
+"proc": "3/15",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 Ⅰ期",
+"apply": "12/14〜1/15（必着）",
+"exam": "共通テスト＋2/2",
+"result": "2/5",
+"proc": "2/15",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 Ⅱ期",
+"apply": "2/10〜2/26（必着）",
+"exam": "共通テスト＋3/6",
+"result": "3/9",
+"proc": "3/15",
+"fee": null
+}
 ]
+}
 },
 "東京神学大学": {
 "faculties": [
@@ -231334,7 +231378,8 @@ null
 "tuition": "2026-11-10",
 "money": "2026-11-10",
 "research": "2026-11-10",
-"licenses": "2026-11-10"
+"licenses": "2026-11-10",
+"schedule": "2026-11-14"
 },
 "faculties": [
 "教育学部",
@@ -231418,8 +231463,76 @@ null
 "https://search.keinet.ne.jp/2138/outline/licential",
 "https://search.keinet.ne.jp/2138/outline/expense",
 "https://search.keinet.ne.jp/2138/general/border_rate",
-"https://search.keinet.ne.jp/2138/general/exam_result"
+"https://search.keinet.ne.jp/2138/general/exam_result",
+"https://jukennavi.tokyo-fukushi.ac.jp/admissions/general/",
+"https://passnavi.obunsha.co.jp/univ/1955/schedule/?facultyID=010"
+],
+"schedule": {
+"year": "2027年度入試",
+"note": "大学公式「一般選抜」ページ（出願期間・試験日）と旺文社パスナビ（心理学部の例、合格発表・手続締切）で確認。共テ利用型は本学独自試験なし（3・2・1科目から選択、特待合格は3科目のみ）。検定料は出典に記載なし",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 一般・特待型 Ⅰ期",
+"apply": "12/14〜1/27",
+"exam": "2/3",
+"result": "2/9",
+"proc": "2/12",
+"fee": null,
+"url": "https://jukennavi.tokyo-fukushi.ac.jp/admissions/general/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 一般・特待型 Ⅱ期",
+"apply": "12/14〜2/18",
+"exam": "2/23",
+"result": "2/26",
+"proc": "3/3",
+"fee": null,
+"url": "https://jukennavi.tokyo-fukushi.ac.jp/admissions/general/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 一般・特待型 Ⅲ期",
+"apply": "12/14〜3/10",
+"exam": "3/11",
+"result": "3/15",
+"proc": "3/18",
+"fee": null,
+"url": "https://jukennavi.tokyo-fukushi.ac.jp/admissions/general/"
+},
+{
+"kubun": "共テ利用",
+"name": "一般選抜 共通テスト利用型 Ⅰ期",
+"apply": "12/14〜1/15",
+"exam": "1/16・1/17（共テ）",
+"result": "2/9",
+"proc": "2/12",
+"fee": null,
+"url": "https://jukennavi.tokyo-fukushi.ac.jp/admissions/general/"
+},
+{
+"kubun": "共テ利用",
+"name": "一般選抜 共通テスト利用型 Ⅱ期",
+"apply": "12/14〜2/18",
+"exam": "1/16・1/17（共テ）",
+"result": "2/26",
+"proc": "3/3",
+"fee": null,
+"url": "https://jukennavi.tokyo-fukushi.ac.jp/admissions/general/"
+},
+{
+"kubun": "共テ利用",
+"name": "一般選抜 共通テスト利用型 Ⅲ期",
+"apply": "12/14〜3/10",
+"exam": "1/16・1/17（共テ）",
+"result": "随時（最終3/12）",
+"proc": "3/18",
+"fee": null,
+"url": "https://jukennavi.tokyo-fukushi.ac.jp/admissions/general/"
+}
 ]
+}
 },
 "東京純心大学": {
 "difficulty": {

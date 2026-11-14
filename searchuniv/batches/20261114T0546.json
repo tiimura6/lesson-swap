@@ -1,0 +1,34 @@
+[
+{"name":"東京歯科大学","info":{"schedule_replace":{"year":"2027年度入試","note":"テレメール（2027年度入学、2026年7月24日時点）。歯学部歯学科。一般Ⅰ期・共テ利用Ⅰ期の試験地は東京・大阪・福岡、Ⅱ期は東京。検定料は出典に記載なし","rows":[
+{"kubun":"一般","name":"一般選抜 Ⅰ期","apply":"12/14〜1/15（必着）","exam":"2/2","result":"2/5","proc":"2/15","fee":null},
+{"kubun":"一般","name":"一般選抜 Ⅱ期","apply":"2/10〜2/26（必着）","exam":"3/6","result":"3/9","proc":"3/15","fee":null},
+{"kubun":"共テ利用","name":"共通テスト利用選抜 Ⅰ期","apply":"12/14〜1/15（必着）","exam":"共通テスト＋2/2","result":"2/5","proc":"2/15","fee":null},
+{"kubun":"共テ利用","name":"共通テスト利用選抜 Ⅱ期","apply":"2/10〜2/26（必着）","exam":"共通テスト＋3/6","result":"3/9","proc":"3/15","fee":null}]}
+,"sources":["https://telemail.jp/shingaku/university/10002061/examination/general"]}},
+{"name":"東京福祉大学","info":{"schedule_replace":{"year":"2027年度入試","note":"大学公式「一般選抜」ページ（出願期間・試験日）と旺文社パスナビ（心理学部の例、合格発表・手続締切）で確認。共テ利用型は本学独自試験なし（3・2・1科目から選択、特待合格は3科目のみ）。検定料は出典に記載なし","rows":[
+{"kubun":"一般","name":"一般選抜 一般・特待型 Ⅰ期","apply":"12/14〜1/27","exam":"2/3","result":"2/9","proc":"2/12","fee":null,"url":"https://jukennavi.tokyo-fukushi.ac.jp/admissions/general/"},
+{"kubun":"一般","name":"一般選抜 一般・特待型 Ⅱ期","apply":"12/14〜2/18","exam":"2/23","result":"2/26","proc":"3/3","fee":null,"url":"https://jukennavi.tokyo-fukushi.ac.jp/admissions/general/"},
+{"kubun":"一般","name":"一般選抜 一般・特待型 Ⅲ期","apply":"12/14〜3/10","exam":"3/11","result":"3/15","proc":"3/18","fee":null,"url":"https://jukennavi.tokyo-fukushi.ac.jp/admissions/general/"},
+{"kubun":"共テ利用","name":"一般選抜 共通テスト利用型 Ⅰ期","apply":"12/14〜1/15","exam":"1/16・1/17（共テ）","result":"2/9","proc":"2/12","fee":null,"url":"https://jukennavi.tokyo-fukushi.ac.jp/admissions/general/"},
+{"kubun":"共テ利用","name":"一般選抜 共通テスト利用型 Ⅱ期","apply":"12/14〜2/18","exam":"1/16・1/17（共テ）","result":"2/26","proc":"3/3","fee":null,"url":"https://jukennavi.tokyo-fukushi.ac.jp/admissions/general/"},
+{"kubun":"共テ利用","name":"一般選抜 共通テスト利用型 Ⅲ期","apply":"12/14〜3/10","exam":"1/16・1/17（共テ）","result":"随時（最終3/12）","proc":"3/18","fee":null,"url":"https://jukennavi.tokyo-fukushi.ac.jp/admissions/general/"}]}
+,"sources":["https://jukennavi.tokyo-fukushi.ac.jp/admissions/general/","https://passnavi.obunsha.co.jp/univ/1955/schedule/?facultyID=010"]}},
+{"name":"滋賀大学","story":{
+"summary":"日本初の統計学専門学部とされるデータサイエンス学部を持ち、情報技術・統計手法・実データによる問題解決を学ぶ大学です。経済学部は3年次に経済・経営・社会システムの専攻を選ぶ仕組みで、データサイエンス・コースも置いています。教育学部（大津）と経済・データサイエンス学部（彦根）の2キャンパスで、教員養成から経済・データ分析まで選べます。",
+"only":[
+{"t":"日本初の統計学専門学部としてデータサイエンス学部を設置し、1学年150名でデータサイエンティストを育成している。","src":"https://manabi.benesse.ne.jp/daigaku/school/1290/"},
+{"t":"経済学部はレイトスペシャライゼーションで、3年次進級時に経済・経営・社会システムの専攻を選び、グローバル・コースとデータサイエンス・コースの特別コースもある。","src":"https://search.keinet.ne.jp/1270/outline/department"},
+{"t":"経済学部には夜間主もある。","src":"https://search.keinet.ne.jp/1270/outline/department"}],
+"vs":[
+{"u":"横浜市立大学","t":"横浜市立大学もデータサイエンス学部を置くが、滋賀大学はデータサイエンス学部に加えて経済学部の中にもデータサイエンス・コースを設けている。","src":"https://search.keinet.ne.jp/1270/outline/department"},
+{"u":"京都教育大学","t":"京都教育大学は教育学部だけの大学だが、滋賀大学は教育学部（大津キャンパス）に加えて経済学部・データサイエンス学部（彦根キャンパス）を持つ。","src":"https://manabi.benesse.ne.jp/daigaku/school/1290/"}]}},
+{"name":"山口大学","story":{
+"summary":"11の学部・学環をもつ総合大学で、鹿児島大学と一緒に教育課程をつくる共同獣医学部（2012年度開設、初の共同学部）があります。学部を横断して心理学・経済学・データサイエンス・AIを学び、全員が地域課題のPBLに取り組むひと・まち未来共創学環や、1年間の海外留学がある国際総合科学部など、学び方の選択肢が多いのが特徴です。",
+"only":[
+{"t":"鹿児島大学と共同教育課程をつくる共同獣医学部を2012年度に開設（初の「共同学部」）。卒業生には両大学連名の学位が授与される。","src":"https://eic.obunsha.co.jp/educational_info/2011/24%e5%b9%b4%e5%ba%a6%e5%b1%b1%e5%8f%a3%e5%a4%a7%e3%81%a8%e9%b9%bf%e5%85%90%e5%b3%b6%e5%a4%a7%e3%81%a7%e5%88%9d%e3%81%ae%e3%80%8c%e5%85%b1%e5%90%8c%e7%8d%a3%e5%8c%bb%e5%ad%a6%e9%83%a8%e3%80%8d%e3%82%92"},
+{"t":"ひと・まち未来共創学環は学部等連係課程で、教育・経済・国際総合科学・人文の各学部の科目を受け、全員が「DXによる地域課題解決（PBL）」に取り組む。","src":"https://search.keinet.ne.jp/1365/outline/department"},
+{"t":"国際総合科学部は短期語学研修と1年間の海外留学を実施し、4年次は卒業論文の代わりに「プロジェクト型課題解決研究」を行う。","src":"https://search.keinet.ne.jp/1365/outline/department"}],
+"vs":[
+{"u":"鳥取大学","t":"鳥取大学は農学部の中に共同獣医学科を置くが、山口大学は共同獣医学部として独立した学部にしている。","src":"https://search.keinet.ne.jp/outline/department/1340"},
+{"u":"広島大学","t":"広島大学の学部に獣医学はないが、山口大学は医学部・農学部に加えて共同獣医学部をもち、中国地方で獣医師をめざす選択肢になる。","src":"https://search.keinet.ne.jp/1360/outline/department"}]}}
+]
