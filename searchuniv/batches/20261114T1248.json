@@ -1,0 +1,606 @@
+[
+ {
+  "name": "名城大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "3教科型 A方式",
+      "apply": "12/17〜1/14",
+      "exam": "2/1〜2/4（学部により異なる）",
+      "result": "2/20",
+      "proc": "1次2/26・最終3/10（延納3/24）",
+      "fee": 35000
+     },
+     {
+      "kubun": "一般",
+      "name": "共通テストプラス型 F方式",
+      "apply": "12/17〜1/14",
+      "exam": "2/1〜2/4（A方式と併願）",
+      "result": "2/20",
+      "proc": "1次2/26・最終3/10（延納3/24）",
+      "fee": 25000
+     },
+     {
+      "kubun": "一般",
+      "name": "傾斜配点型 K方式",
+      "apply": "12/17〜1/14",
+      "exam": "2/1〜2/4（A方式と併願）",
+      "result": "2/20",
+      "proc": "1次2/26・最終3/10（延納3/24）",
+      "fee": 25000
+     },
+     {
+      "kubun": "一般",
+      "name": "数学重視型（スタンダード・英語外部試験利用）",
+      "apply": "12/17〜1/14",
+      "exam": "2/2〜2/3",
+      "result": "2/20",
+      "proc": "1次2/26・最終3/10（延納3/24）",
+      "fee": 15000,
+      "note": "英語外部試験利用方式は5,000円"
+     },
+     {
+      "kubun": "一般",
+      "name": "2教科型 B方式（情報工・理工・薬は3教科/3科目型）",
+      "apply": "12/17〜2/5",
+      "exam": "2/21",
+      "result": "3/6",
+      "proc": "1次3/11・最終3/24",
+      "fee": 35000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用型 C方式（前期）",
+      "apply": "12/17〜1/14",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/20",
+      "proc": "1次2/26・最終3/10（延納3/24）",
+      "fee": 20000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用型 C方式（後期）",
+      "apply": "2/12〜2/26",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/16",
+      "proc": "3/24（一括）",
+      "fee": 20000
+     }
+    ],
+    "note": "検定料は大学公式「入試ガイド2027」。A・F・K方式の同一試験日トリプル出願は65,000円、これにC方式（前期）を加えても65,000円"
+   },
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "法学部・経営学部・経済学部",
+      "admission": 200000,
+      "tuition": 718000,
+      "facility": 194000,
+      "practical": 0,
+      "other": null,
+      "first_year": 1112000,
+      "four_year": 3848000
+     },
+     {
+      "f": "人間学部",
+      "admission": 200000,
+      "tuition": 730000,
+      "facility": 247000,
+      "practical": 0,
+      "other": null,
+      "first_year": 1177000,
+      "four_year": 4108000
+     },
+     {
+      "f": "都市情報学部",
+      "admission": 200000,
+      "tuition": 902000,
+      "facility": 247000,
+      "practical": 0,
+      "other": null,
+      "first_year": 1349000,
+      "four_year": null
+     },
+     {
+      "f": "外国語学部",
+      "admission": 200000,
+      "tuition": 945000,
+      "facility": 247000,
+      "practical": 0,
+      "other": null,
+      "first_year": 1392000,
+      "four_year": null
+     },
+     {
+      "f": "情報工学部・理工学部",
+      "admission": 200000,
+      "tuition": 1010000,
+      "facility": 248000,
+      "practical": 86000,
+      "other": null,
+      "first_year": 1544000,
+      "four_year": null
+     },
+     {
+      "f": "農学部",
+      "admission": 200000,
+      "tuition": 1008000,
+      "facility": 291000,
+      "practical": 86000,
+      "other": null,
+      "first_year": 1585000,
+      "four_year": null
+     },
+     {
+      "f": "薬学部（6年制）",
+      "admission": 200000,
+      "tuition": 1453000,
+      "facility": 337000,
+      "practical": 210000,
+      "other": null,
+      "first_year": 2200000,
+      "four_year": null
+     }
+    ],
+    "note": "大学公式「入試ガイド2027」の2027年度入学者の学費（金額は2026年度と同じ）。校友会費・後援会費などの委託徴収金は別途（2027年度の金額は出典に記載なし）"
+   },
+   "sources": [
+    "https://www.meijo-u.ac.jp/admissions/assets/pdf/pamphlet/2027/guide2027.pdf"
+   ]
+  }
+ },
+ {
+  "name": "常葉大学",
+  "info": {
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "教育学部 学校教育課程",
+      "admission": 260000,
+      "tuition": 910000,
+      "facility": 320000,
+      "practical": null,
+      "other": 40000,
+      "first_year": 1530000,
+      "four_year": null
+     },
+     {
+      "f": "教育学部 生涯学習学科",
+      "admission": 260000,
+      "tuition": 870000,
+      "facility": 290000,
+      "practical": null,
+      "other": 40000,
+      "first_year": 1460000,
+      "four_year": null
+     },
+     {
+      "f": "教育学部 心理教育学科",
+      "admission": 260000,
+      "tuition": 880000,
+      "facility": 300000,
+      "practical": null,
+      "other": 40000,
+      "first_year": 1480000,
+      "four_year": null
+     },
+     {
+      "f": "外国語学部 英米語学科・グローバルコミュニケーション学科",
+      "admission": 260000,
+      "tuition": 850000,
+      "facility": 280000,
+      "practical": null,
+      "other": 40000,
+      "first_year": 1430000,
+      "four_year": null
+     },
+     {
+      "f": "経営学部 経営学科",
+      "admission": 260000,
+      "tuition": 820000,
+      "facility": 280000,
+      "practical": null,
+      "other": 40000,
+      "first_year": 1400000,
+      "four_year": null
+     },
+     {
+      "f": "社会環境学部 社会環境学科",
+      "admission": 260000,
+      "tuition": 970000,
+      "facility": 340000,
+      "practical": null,
+      "other": 40000,
+      "first_year": 1610000,
+      "four_year": null
+     },
+     {
+      "f": "保育学部 保育学科",
+      "admission": 260000,
+      "tuition": 880000,
+      "facility": 340000,
+      "practical": null,
+      "other": 40000,
+      "first_year": 1520000,
+      "four_year": null
+     },
+     {
+      "f": "造形学部 造形学科",
+      "admission": 260000,
+      "tuition": 970000,
+      "facility": 380000,
+      "practical": null,
+      "other": 40000,
+      "first_year": 1650000,
+      "four_year": null
+     },
+     {
+      "f": "法学部 法律学科",
+      "admission": 260000,
+      "tuition": 820000,
+      "facility": 280000,
+      "practical": null,
+      "other": 40000,
+      "first_year": 1400000,
+      "four_year": null
+     },
+     {
+      "f": "健康科学部 看護学科",
+      "admission": 260000,
+      "tuition": 1030000,
+      "facility": 480000,
+      "practical": 270000,
+      "other": 40000,
+      "first_year": 2080000,
+      "four_year": null
+     },
+     {
+      "f": "健康科学部 静岡理学療法学科",
+      "admission": 260000,
+      "tuition": 980000,
+      "facility": 490000,
+      "practical": 160000,
+      "other": 40000,
+      "first_year": 1930000,
+      "four_year": null
+     },
+     {
+      "f": "健康プロデュース学部 健康栄養学科",
+      "admission": 260000,
+      "tuition": 850000,
+      "facility": 430000,
+      "practical": 60000,
+      "other": 40000,
+      "first_year": 1640000,
+      "four_year": null
+     },
+     {
+      "f": "健康プロデュース学部 保育健康学科",
+      "admission": 260000,
+      "tuition": 880000,
+      "facility": 340000,
+      "practical": null,
+      "other": 40000,
+      "first_year": 1520000,
+      "four_year": null
+     },
+     {
+      "f": "健康プロデュース学部 スポーツ健康科学科",
+      "admission": 260000,
+      "tuition": 910000,
+      "facility": 380000,
+      "practical": null,
+      "other": 40000,
+      "first_year": 1590000,
+      "four_year": null
+     },
+     {
+      "f": "健康プロデュース学部 健康鍼灸学科・健康柔道整復学科",
+      "admission": 260000,
+      "tuition": 1070000,
+      "facility": 490000,
+      "practical": 160000,
+      "other": 40000,
+      "first_year": 2020000,
+      "four_year": null
+     },
+     {
+      "f": "保健医療学部 理学療法学科・作業療法学科",
+      "admission": 260000,
+      "tuition": 980000,
+      "facility": 490000,
+      "practical": 160000,
+      "other": 40000,
+      "first_year": 1930000,
+      "four_year": null
+     }
+    ],
+    "note": "大学公式「2027年度入学試験要項（全学部統一入試）」の学納金（1年次・予定）。その他は諸会費（学友会費＋後援会費）。実習費の欄が「-」の学科は記載なし。教職課程費50,000円、教科書代、白衣・実習費などが別途"
+   },
+   "sources": [
+    "https://www.tokoha-u.ac.jp/media/zengakutouitsu_2027.pdf"
+   ]
+  }
+ },
+ {
+  "name": "愛知医療学院大学",
+  "info": {
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "リハビリテーション学部 リハビリテーション学科",
+      "admission": 250000,
+      "tuition": 800000,
+      "facility": 320000,
+      "practical": 300000,
+      "other": null,
+      "first_year": 1670000,
+      "four_year": 5930000,
+      "note": "後援会費（年5万円）は学納金とは別。4年間合計は表の年額から計算"
+     }
+    ],
+    "note": "大学公式の2027年度入学者の学生納付金（金額は2026年度と同じ）"
+   },
+   "sources": [
+    "https://amcr.ac.jp/entrance/examinfo/expense/"
+   ]
+  }
+ },
+ {
+  "name": "千葉科学大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "note": "大学公式「2027年度入学試験要項」。薬・危機管理・看護学部共通。出願は翌日必着。一般前期は2日受験でも検定料1日分。航空技術危機管理学科パイロットコースは操縦適性検査（検査料20,000円が別途）があり日程が一部異なる",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅰ期（スポーツ型含む）",
+      "apply": "9/30〜10/8",
+      "exam": "10/24",
+      "result": "11/2",
+      "proc": "11/19",
+      "fee": 10000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅱ期（スポーツ型含む）",
+      "apply": "11/2〜11/10",
+      "exam": "11/21（危機管理）・11/22（薬・看護）",
+      "result": "12/1",
+      "proc": "12/17",
+      "fee": 10000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅲ期（スポーツ型含む）",
+      "apply": "11/23〜12/2",
+      "exam": "12/13",
+      "result": "12/25",
+      "proc": "1/21",
+      "fee": 10000
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅳ期",
+      "apply": "2/24〜3/8",
+      "exam": "3/15",
+      "result": "3/19",
+      "proc": "3/25",
+      "fee": 10000
+     },
+     {
+      "kubun": "推薦",
+      "name": "指定校推薦入試（附属・関連・教育提携校含む）",
+      "apply": "11/2〜11/10",
+      "exam": "11/21（危機管理）・11/22（薬・看護）",
+      "result": "12/1",
+      "proc": "12/17",
+      "fee": 0
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期",
+      "apply": "1/4〜1/25",
+      "exam": "2/6・2/7（自由選択）",
+      "result": "2/17",
+      "proc": "2/26",
+      "fee": 10000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期",
+      "apply": "2/24〜3/8",
+      "exam": "3/16",
+      "result": "3/19",
+      "proc": "3/25",
+      "fee": 10000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 前期",
+      "apply": "1/4〜1/25",
+      "exam": "共通テスト利用（個別試験なし）",
+      "result": "2/17",
+      "proc": "2/26",
+      "fee": 0
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 中期",
+      "apply": "2/8〜2/16",
+      "exam": "共通テスト利用（個別試験なし）",
+      "result": "3/1",
+      "proc": "3/11",
+      "fee": 0
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 後期",
+      "apply": "2/24〜3/8",
+      "exam": "共通テスト利用（個別試験なし）",
+      "result": "3/19",
+      "proc": "3/25",
+      "fee": 0
+     }
+    ]
+   },
+   "sources": [
+    "https://www.cis.ac.jp/ciswp/wp-content/uploads/2026/09/2027honyoko-1.pdf"
+   ]
+  }
+ },
+ {
+  "name": "日本ウェルネススポーツ大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "note": "大学公式（一般選抜・総合型選抜のページ、通学課程1年次）。一般はA日程で定員を満たした場合、以降の募集なし。総合型B〜F日程は出典の表で出願期間の欄の対応が明確でないため出願期間を空欄にした（B・Cの発表・手続も記載なし）。検定料は掲載なし",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "apply": "1/25〜1/29",
+      "exam": "2/6",
+      "result": "2/8（書類発送日）",
+      "proc": "2/12〜2/22",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程",
+      "apply": "2/15〜2/19",
+      "exam": "2/27",
+      "result": "3/1（書類発送日）",
+      "proc": "3/5〜3/15",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 A日程（エントリー6/1〜8/31）",
+      "apply": "9/1〜9/4",
+      "exam": "9/12",
+      "result": "11/1（書類発送日）",
+      "proc": "11/6〜11/16",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 B日程",
+      "apply": null,
+      "exam": "9/26",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 C日程",
+      "apply": null,
+      "exam": "10/17",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 D日程",
+      "apply": null,
+      "exam": "12/5",
+      "result": "12/7（書類発送日）",
+      "proc": "12/11〜12/21",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 E日程",
+      "apply": null,
+      "exam": "1/23",
+      "result": "1/25（書類発送日）",
+      "proc": "1/29〜2/8",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 F日程",
+      "apply": null,
+      "exam": "2/20",
+      "result": "2/22（書類発送日）",
+      "proc": "2/26〜3/8",
+      "fee": null
+     }
+    ]
+   },
+   "sources": [
+    "https://www.nihonwellness.jp/admission/ippan.html",
+    "https://www.nihonwellness.jp/admission/sogo.html"
+   ]
+  }
+ },
+ {
+  "name": "福岡教育大学",
+  "story": {
+   "summary": "教育学部だけを置く単科の教員養成大学で、初等教育・中等教育・特別支援教育の3課程に分かれて学びます。初等教育課程は幼児教育・小学校教育と教科別のプログラム、中等教育課程は国語から書道まで11の専攻があり、目指す校種と教科を入学時から絞って学べるのが特色です。特別支援教育課程は2年次から6つの障害領域に分かれます。",
+   "only": [
+    {
+     "t": "教育を担う人材の養成を目的とする単科の教員養成大学で、教育学部に初等教育・中等教育・特別支援教育の3課程を置く。",
+     "src": "https://search.keinet.ne.jp/1420/outline/department"
+    },
+    {
+     "t": "中等教育教員養成課程は国語・社会科・数学・理科・英語・音楽・美術・保健体育・家庭・技術・書道の11専攻に分かれる。",
+     "src": "https://search.keinet.ne.jp/1420/outline/department"
+    },
+    {
+     "t": "特別支援教育教員養成課程は初等・中等に分かれ、2年次から視覚障害・聴覚障害・知的障害・肢体不自由・病弱・言語障害の6領域に分かれて学ぶ。",
+     "src": "https://search.keinet.ne.jp/1420/outline/department"
+    }
+   ],
+   "vs": [
+    {
+     "u": "長崎大学",
+     "t": "長崎大学は総合大学の教育学部（学校教育教員養成課程1課程・小学校・中学校・幼児・特別支援の4コース）だが、福岡教育大学は単科の教員養成大学として3課程と教科別の細かな専攻・プログラムを置く。",
+     "src": "https://search.keinet.ne.jp/1435/outline/department"
+    }
+   ],
+   "checked": "2026-11-14"
+  }
+ },
+ {
+  "name": "長崎大学",
+  "story": {
+   "summary": "医・歯・薬を含む10学部をもつ長崎県の国立大学です。オランダ留学を伴う多文化社会学部のオランダ特別コース、離島や地域病院で学ぶ医学部の離島医療・保健実習、海洋未来創生コースを含む水産学部など、長崎の歴史や島しょの環境とつながる学びが特色です。データサイエンスとインフォメーションサイエンスの2コースをもつ情報データ科学部もあります。",
+   "only": [
+    {
+     "t": "多文化社会学部の「オランダ特別コース」では、オランダ留学を伴い、オランダを人文社会学の多様な角度から学ぶ。",
+     "src": "https://search.keinet.ne.jp/1435/outline/department"
+    },
+    {
+     "t": "医学部医学科には、長崎の離島や地域病院で地域包括ケアを実践的に学ぶ「離島医療・保健実習」がある。",
+     "src": "https://search.keinet.ne.jp/1435/outline/department"
+    },
+    {
+     "t": "水産学部は水圏環境資源・水圏生命科学・海洋未来創生の3コースで、海洋未来創生コースは地域の持続可能性からプラネタリーヘルスまでの課題に分野横断で取り組む。",
+     "src": "https://search.keinet.ne.jp/1435/outline/department"
+    },
+    {
+     "t": "情報データ科学部は1年次に数理・データサイエンスとプログラミングの基礎を学び、2年次にデータサイエンスかインフォメーションサイエンスのコースを選ぶ。",
+     "src": "https://search.keinet.ne.jp/1435/outline/department"
+    }
+   ],
+   "vs": [
+    {
+     "u": "鹿児島大学",
+     "t": "鹿児島大学も水産学部・歯学部を置き共同獣医学部をもつが、長崎大学は薬学部・環境科学部・情報データ科学部・多文化社会学部を置き、文理にまたがる学部の選択肢がある。",
+     "src": "https://search.keinet.ne.jp/1465/outline/department"
+    }
+   ],
+   "checked": "2026-11-14"
+  }
+ }
+]
