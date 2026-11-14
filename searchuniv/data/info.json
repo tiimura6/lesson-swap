@@ -214447,7 +214447,7 @@ null
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
 "subjects": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-14",
 "money": "2026-11-13",
 "scholar": "2026-11-09",
 "oc": "2026-11-09",
@@ -214693,8 +214693,27 @@ null
 "result": "出願手続終了後",
 "proc": "合格通知書受取後5日以内",
 "fee": null
+},
+{
+"kubun": "一般",
+"name": "看護学部 一般選抜第Ⅰ期",
+"apply": "1/6〜1/25（インターネットのみ）",
+"exam": "1/30",
+"result": "2/4",
+"proc": "2/17",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "看護学部 一般選抜第Ⅱ期",
+"apply": "2/4〜2/14（インターネットのみ）",
+"exam": "2/17",
+"result": "2/20",
+"proc": "3/3",
+"fee": null
 }
-]
+],
+"note": "一般選抜第Ⅰ〜Ⅲ期は経営文化・コミュニケーション文化・観光メディア文化学部。看護学部看護学科の一般選抜（第Ⅰ期・第Ⅱ期）をベネッセ マナビジョン（2027年度入試）で追加。検定料は未確認"
 },
 "money": {
 "year": "2026年度",
@@ -214863,7 +214882,8 @@ null
 "https://www.shoin-u.ac.jp/faculty/management-law/",
 "https://www.shoin-u.ac.jp/cms_wp/wp-content/uploads/2026%E5%AD%A6%E5%89%87.pdf",
 "https://passnavi.obunsha.co.jp/univ/3282/department/",
-"https://search.keinet.ne.jp/2322/outline/expense"
+"https://search.keinet.ne.jp/2322/outline/expense",
+"https://manabi.benesse.ne.jp/daigaku/school/3379/nyushi/hoshiki/ippan/index.html"
 ]
 },
 "東都大学": {
@@ -214879,7 +214899,7 @@ null
 "difficulty": "2026-11-09",
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-14",
 "money": "2026-11-13",
 "scholar": "2026-11-09",
 "oc": "2026-11-09",
@@ -214966,8 +214986,8 @@ null
 "apply": "9/1〜9/7必着",
 "exam": "9/12",
 "result": "11/2",
-"proc": "11/25消印有効",
-"fee": null
+"proc": "11/25",
+"fee": 30000
 },
 {
 "kubun": "総合型",
@@ -214975,8 +214995,8 @@ null
 "apply": "9/14〜9/25必着",
 "exam": "10/3",
 "result": "11/2",
-"proc": "11/25消印有効",
-"fee": null
+"proc": "11/25",
+"fee": 30000
 },
 {
 "kubun": "総合型",
@@ -214984,8 +215004,8 @@ null
 "apply": "11/1〜11/9必着",
 "exam": "11/14",
 "result": "11/16",
-"proc": "11/25消印有効",
-"fee": null
+"proc": "11/25",
+"fee": 30000
 },
 {
 "kubun": "総合型",
@@ -214993,55 +215013,101 @@ null
 "apply": "12/4〜12/14必着",
 "exam": "12/19",
 "result": "12/21",
-"proc": "1/4消印有効",
-"fee": null
+"proc": "1/4",
+"fee": 30000
 },
 {
 "kubun": "総合型",
 "name": "総合型選抜 Ⅴ期",
 "apply": "1/28〜2/5必着",
-"exam": null,
+"exam": "2/13",
 "result": "2/15",
-"proc": null,
-"fee": null
+"proc": "2/24",
+"fee": 30000
 },
 {
 "kubun": "総合型",
 "name": "総合型選抜 Ⅵ期",
 "apply": "2/18〜2/26必着",
-"exam": null,
-"result": null,
-"proc": null,
-"fee": null
+"exam": "3/8",
+"result": "3/9",
+"proc": "3/15",
+"fee": 30000
 },
 {
 "kubun": "総合型",
 "name": "総合型選抜 Ⅶ期",
 "apply": "3/2〜3/10必着",
-"exam": null,
-"result": null,
-"proc": null,
-"fee": null
+"exam": "3/16",
+"result": "3/17",
+"proc": "3/23",
+"fee": 30000
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募）Ⅰ期",
+"apply": "11/1〜11/9必着",
+"exam": "11/14",
+"result": "12/1",
+"proc": "12/10",
+"fee": 30000
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募）Ⅱ期",
+"apply": "12/4〜12/14必着",
+"exam": "12/19",
+"result": "12/21",
+"proc": "1/4",
+"fee": 30000
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅰ期",
+"apply": "1/12〜1/21必着",
+"exam": "1/28",
+"result": "2/2",
+"proc": "2/9",
+"fee": 15000
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期",
+"apply": "1/28〜2/5必着",
+"exam": "2/13",
+"result": "2/15",
+"proc": "2/24",
+"fee": 15000
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅲ期",
+"apply": "2/18〜2/26必着",
+"exam": "3/8",
+"result": "3/9",
+"proc": "3/15",
+"fee": 15000
 },
 {
 "kubun": "共テ利用",
 "name": "大学入学共通テスト利用選抜 Ⅰ期",
 "apply": "1/4〜1/31必着",
-"exam": "共通テスト",
-"result": null,
-"proc": "2/16消印有効",
-"fee": null
+"exam": "1/16・1/17（共通テスト）",
+"result": "2/9",
+"proc": "2/16",
+"fee": 10000
 },
 {
 "kubun": "共テ利用",
 "name": "大学入学共通テスト利用選抜 Ⅱ期",
 "apply": "2/18〜3/10必着",
 "exam": "共通テスト",
-"result": null,
-"proc": null,
-"fee": null
+"result": "3/17",
+"proc": "3/23",
+"fee": 10000
 }
-]
+],
+"note": "大学公式「令和9年度Web出願ガイド」。一般選抜Ⅰ期＋共通テスト利用Ⅰ期のセット出願は検定料20,000円"
 },
 "money": {
 "year": "2026年度",
@@ -215167,7 +215233,8 @@ null
 "https://search.keinet.ne.jp/2142/general/border_rate",
 "https://search.keinet.ne.jp/2142/outline/expense",
 "https://passnavi.obunsha.co.jp/univ/2035/difficulty/",
-"https://manabi.benesse.ne.jp/daigaku/school/3173/gakuhi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3173/gakuhi/",
+"https://www.tohto.ac.jp/admissions/wp-content/uploads/sites/5/2026/06/R9年度Web出願ガイド.pdf"
 ]
 },
 "東邦音楽大学": {
@@ -215302,7 +215369,7 @@ null
 "departments": "2026-11-09",
 "difficulty": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-14",
 "money": "2026-11-09",
 "access": "2026-11-09",
 "_via": "2026-11-09"
@@ -215409,12 +215476,121 @@ null
 "kubun": "一般",
 "name": "健康科学部 一般入試",
 "apply": "12/14〜1/15必着",
-"exam": "面接 1/26・筆記 2/1",
-"result": null,
-"proc": null,
+"exam": "面接 1/26・筆記 2/1（両日受験）",
+"result": "2/10",
+"proc": "2/19",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "健康科学部 共通テスト利用入試",
+"apply": "〜1/15消印",
+"exam": "1/16・1/17（共通テスト）、1/26",
+"result": "2/10",
+"proc": "2/19",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "健康科学部 一般統一入試",
+"apply": "〜2/15必着",
+"exam": "2/23",
+"result": "3/2",
+"proc": "3/10",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "理学部 一般A",
+"apply": "〜1/19",
+"exam": "2/1",
+"result": "2/13",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "理学部 一般B",
+"apply": "〜1/19",
+"exam": "2/2",
+"result": "2/13",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "理学部 共通テスト利用前期",
+"apply": "〜1/15消印",
+"exam": "1/16・1/17（共通テスト）",
+"result": "2/13",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "理学部 共通テスト利用後期",
+"apply": "〜3/3必着",
+"exam": "共通テスト",
+"result": "3/13",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "理学部 一般統一入試",
+"apply": "〜2/15必着",
+"exam": "2/23",
+"result": "3/2",
+"proc": "3/10",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "薬学部 一般入試",
+"apply": "〜1/18必着",
+"exam": "2/3",
+"result": "2/10",
+"proc": "2/17",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "薬学部 共通テスト利用入試",
+"apply": "〜1/15消印",
+"exam": "1/16・1/17（共通テスト）",
+"result": "2/10",
+"proc": "2/17",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "薬学部 一般統一入試",
+"apply": "〜2/15必着",
+"exam": "2/23",
+"result": "3/2",
+"proc": "3/10",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "看護学部 一般入試",
+"apply": "〜1/13",
+"exam": "1次 2/3、2次 2/6",
+"result": "1次 2/4、2次 2/10",
+"proc": "2/19",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "看護学部 一般統一入試",
+"apply": "〜2/15必着",
+"exam": "2/23",
+"result": "2/27",
+"proc": "3/8",
 "fee": null
 }
-]
+],
+"note": "河合塾 Kei-Net の一般選抜日程で理・薬・看護学部と健康科学部の発表・手続を補った（医学部・健康科学部の試験日は大学公式の2027年度資料と一致）。理学部一般A・B・看護学部の出願締切は消印・必着の別が「登」表記。検定料はKei-Netが2026年度入試の金額のため未記入"
 },
 "money": {
 "year": "2026年度",
@@ -215480,7 +215656,8 @@ null
 "https://www.toho-u.ac.jp/info_exam/hs_2027ippan.pdf",
 "https://www.toho-u.ac.jp/info_exam/fee_nyusi.html",
 "https://search.keinet.ne.jp/2264/general/border_rate",
-"https://manabi.benesse.ne.jp/daigaku/school/3295/gakuhi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3295/gakuhi/",
+"https://search.keinet.ne.jp/2264/general/schedule"
 ]
 },
 "東海大学": {
@@ -229425,7 +229602,8 @@ null
 "founded": "2026-11-09",
 "access": "2026-11-09",
 "careers": "2026-11-09",
-"kyotsu": "2026-11-09"
+"kyotsu": "2026-11-09",
+"schedule": "2026-11-14"
 },
 "departments": [
 {
@@ -229454,8 +229632,70 @@ null
 "https://search.keinet.ne.jp/2198/outline/campus",
 "https://search.keinet.ne.jp/2198/outline/admission_employment",
 "https://search.keinet.ne.jp/2198/general/exam_result",
-"https://search.keinet.ne.jp/2198/general/exam_subject"
-]
+"https://search.keinet.ne.jp/2198/general/exam_subject",
+"https://manabi.benesse.ne.jp/daigaku/school/3330/nyushi/index.html"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜（7回）",
+"apply": "9/4〜9/17／10/2〜10/9／11/2〜11/9／12/1〜12/8／1/8〜1/19／2/10〜2/19／2/26〜3/12",
+"exam": "9/27・10/17・11/14・12/12・1/30・2/26・3/16",
+"result": null,
+"proc": null,
+"fee": null,
+"note": "合格発表・手続締切は回ごとの対応が出典で確認できないため未記入"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜",
+"apply": "記載なし",
+"exam": "11/14",
+"result": null,
+"proc": null,
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅰ期（A・B・C方式）",
+"apply": "12/22〜1/28",
+"exam": "2/4",
+"result": "2/10",
+"proc": "2/16",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期（A・B方式）",
+"apply": "2/26〜3/12",
+"exam": "3/16",
+"result": "3/17",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 Ⅰ期",
+"apply": "12/22〜1/28",
+"exam": "1/16・1/17（共通テスト）",
+"result": "2/10",
+"proc": "2/16",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 Ⅱ期",
+"apply": "2/3〜3/8",
+"exam": "共通テスト",
+"result": "3/11",
+"proc": "3/15",
+"fee": null
+}
+],
+"note": "ベネッセ マナビジョン（2027年度入学者向け、経営学部 経営学科・イベントプロデュース学科）。検定料は記載なし"
+}
 },
 "東京工科大学": {
 "faculties": [
@@ -229473,7 +229713,8 @@ null
 "founded": "2026-11-09",
 "access": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-14"
 },
 "departments": [
 {
@@ -229544,8 +229785,88 @@ null
 "https://search.keinet.ne.jp/2251/outline/campus",
 "https://search.keinet.ne.jp/2251/outline/licential",
 "https://search.keinet.ne.jp/2251/outline/admission_employment",
-"https://search.keinet.ne.jp/2251/general/exam_result"
-]
+"https://search.keinet.ne.jp/2251/general/exam_result",
+"https://manabi.benesse.ne.jp/daigaku/school/3284/nyushi/index.html"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜（全学部AO入試／学部特色入試）",
+"apply": "9/1〜9/7",
+"exam": "9/27（CS・メディア・工・応用生物）、10/3〜10/4（デザイン・医療保健）",
+"result": "11/6",
+"proc": "12/15",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制）",
+"apply": "10/27〜11/2",
+"exam": "11/21（CS・メディア・工・応用生物）、11/22（デザイン・医療保健）",
+"result": "12/7",
+"proc": "12/15",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 奨学生入試",
+"apply": "12/21〜1/13",
+"exam": "1/27",
+"result": "2/3",
+"proc": "2/9",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 A日程",
+"apply": "12/21〜1/21",
+"exam": "2/7〜2/10",
+"result": "2/18",
+"proc": "2/25",
+"fee": null,
+"note": "学部・学科により試験日が異なる"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 B日程",
+"apply": "2/12〜2/19",
+"exam": "2/28",
+"result": "3/11",
+"proc": "3/17",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 前期（高得点2科目型・3科目型）",
+"apply": "12/21〜1/15",
+"exam": "1/16・1/17（共通テスト）",
+"result": "2/18",
+"proc": "2/25",
+"fee": 15000
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 中期（高得点4科目型・5科目型）",
+"apply": "12/21〜1/22",
+"exam": "1/16・1/17（共通テスト）",
+"result": "2/18",
+"proc": "2/25",
+"fee": 15000
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 後期",
+"apply": "2/12〜2/19",
+"exam": "共通テスト",
+"result": "3/4",
+"proc": "3/8",
+"fee": 15000
+}
+],
+"note": "ベネッセ マナビジョン（2027年度入試情報）。一般選抜は1試験日の受験でグループ内の全学部・学科を追加の検定料なしで併願可。共テ利用の検定料15,000円は各期定額で全学部・科目型を併願可"
+}
 },
 "東京工芸大学": {
 "faculties": [
