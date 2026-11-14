@@ -169173,7 +169173,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-14",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -169239,7 +169239,7 @@ null
 "exam": "1/29",
 "result": "2/9",
 "proc": "2/24",
-"fee": null
+"fee": 30000
 },
 {
 "kubun": "一般",
@@ -169248,7 +169248,7 @@ null
 "exam": "2/6",
 "result": "2/16",
 "proc": "3/3",
-"fee": null
+"fee": 30000
 },
 {
 "kubun": "一般",
@@ -169257,7 +169257,7 @@ null
 "exam": "2/19",
 "result": "2/26",
 "proc": "3/10",
-"fee": null
+"fee": 30000
 },
 {
 "kubun": "一般",
@@ -169266,7 +169266,7 @@ null
 "exam": "3/12",
 "result": "3/17",
 "proc": "3/24",
-"fee": null
+"fee": 30000
 },
 {
 "kubun": "共テ利用",
@@ -169275,7 +169275,7 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "2/9",
 "proc": "2/24",
-"fee": null
+"fee": 10000
 },
 {
 "kubun": "共テ利用",
@@ -169284,7 +169284,7 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "2/26",
 "proc": "3/10",
-"fee": null
+"fee": 10000
 },
 {
 "kubun": "共テ利用",
@@ -169293,9 +169293,10 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "3/17",
 "proc": "3/24",
-"fee": null
+"fee": 10000
 }
-]
+],
+"note": "検定料は大学公式「入学者選抜概要」（2027年度）：一般選抜（一般制）30,000円、共通テスト利用制10,000円。第二志望学科の検定料は不要。総合型・推薦で受験した学科を第一志望として一般制に再出願する場合も不要"
 },
 "money": {
 "year": "2026年度",
@@ -204994,7 +204995,7 @@ null
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
 "subjects": "2026-11-09",
-"schedule": "2026-11-13",
+"schedule": "2026-11-14",
 "oc": "2026-11-09",
 "_via": "2026-11-09",
 "money": "2026-11-13"
@@ -205085,7 +205086,7 @@ null
 "exam": "9/19",
 "result": "11/4",
 "proc": "11/13",
-"fee": null
+"fee": 35000
 },
 {
 "kubun": "推薦",
@@ -205133,7 +205134,7 @@ null
 "fee": null
 }
 ],
-"note": "テレメール（2027年度一般選抜）とマナビジョン（2027年度入試）で一致。ネット出願のみ。試験地は東京都。検定料は出典に記載なし"
+"note": "テレメール（2027年度一般選抜）とマナビジョン（2027年度入試）で一致。ネット出願のみ。試験地は東京都。総合型選抜の検定料35,000円は大学公式の2027年度総合型選抜募集要項による（別に振込手数料）。一般選抜・推薦の検定料は未確認"
 },
 "oc": {
 "year": 2026,
@@ -208067,7 +208068,7 @@ null
 "difficulty": "2026-11-09",
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-14",
 "money": "2026-11-13",
 "_via": "2026-11-09"
 },
@@ -208214,7 +208215,7 @@ null
 "exam": "2/4",
 "result": "2/18",
 "proc": "2/25",
-"fee": null
+"fee": 35000
 },
 {
 "kubun": "一般",
@@ -208223,7 +208224,7 @@ null
 "exam": "2/6〜2/8",
 "result": "2/18",
 "proc": "2/25",
-"fee": null
+"fee": 35000
 },
 {
 "kubun": "一般",
@@ -208232,7 +208233,7 @@ null
 "exam": "2/7",
 "result": "2/18",
 "proc": "2/25",
-"fee": null
+"fee": 35000
 },
 {
 "kubun": "一般",
@@ -208241,7 +208242,7 @@ null
 "exam": "3/4",
 "result": "3/13",
 "proc": "3/17",
-"fee": null
+"fee": 35000
 },
 {
 "kubun": "共テ利用",
@@ -208250,7 +208251,7 @@ null
 "exam": "共通テスト利用（個別試験なし）",
 "result": "2/13",
 "proc": "2/25",
-"fee": null
+"fee": 15000
 },
 {
 "kubun": "共テ利用",
@@ -208259,7 +208260,7 @@ null
 "exam": "共通テスト利用（個別試験なし）",
 "result": "3/13",
 "proc": "3/17",
-"fee": null
+"fee": 15000
 },
 {
 "kubun": "総合型",
@@ -208268,7 +208269,7 @@ null
 "exam": "10/11",
 "result": "11/1",
 "proc": "11/16（一次）／1/26（二次）",
-"fee": null
+"fee": 35000
 },
 {
 "kubun": "総合型",
@@ -208277,7 +208278,7 @@ null
 "exam": "11/22",
 "result": "12/1",
 "proc": "12/14（一次）／1/26（二次）",
-"fee": null
+"fee": 35000
 },
 {
 "kubun": "推薦",
@@ -208286,9 +208287,10 @@ null
 "exam": "11/1",
 "result": "11/6",
 "proc": "11/20（一次）／1/26（二次）",
-"fee": null
+"fee": 35000
 }
-]
+],
+"note": "大学公式「2027年度 一般入試・共通テスト利用入試 入学試験要項」で検定料を確認（一般・給費生・総合型・公募制自己推薦35,000円、共通テスト利用15,000円。別に一律1,100円のサービス利用料）。併願チャレンジ割：同一日程の2併願目0円、一般前期の複数日程併願は2併願目以降各＋20,000円、共テ利用の3併願目以降＋10,000円"
 },
 "money": {
 "year": "2026年度",
@@ -208423,7 +208425,8 @@ null
 "https://search.keinet.ne.jp/2306/general/border_rate",
 "https://manabi.benesse.ne.jp/daigaku/school/3362/nyushi/",
 "https://manabi.benesse.ne.jp/daigaku/school/3362/gakuhi/",
-"https://search.keinet.ne.jp/2306/outline/expense"
+"https://search.keinet.ne.jp/2306/outline/expense",
+"https://www.kanagawa-u.ac.jp/admissions/faculty/about_application/general/file/general_yoko2027.pdf"
 ]
 },
 "相模女子大学": {
@@ -212381,7 +212384,7 @@ null
 "difficulty": "2026-11-09",
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-14",
 "money": "2026-11-13",
 "scholar": "2026-11-09",
 "eng": "2026-11-09",
@@ -212605,9 +212608,9 @@ null
 "kubun": "一般",
 "name": "一般選抜C日程",
 "apply": "12/14〜2/17",
-"exam": null,
-"result": null,
-"proc": null,
+"exam": "3/7",
+"result": "3/16",
+"proc": "3/23",
 "fee": 30000
 },
 {
@@ -212618,8 +212621,45 @@ null
 "result": "2/16",
 "proc": "一括：2/16〜2/24、2段階：1次2/16〜2/24・2次2/25〜3/9",
 "fee": 15000
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用中期選抜",
+"apply": "〜2/17（消印有効）",
+"exam": "独自試験なし（共テ）",
+"result": "3/3",
+"proc": "3/9",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用後期選抜",
+"apply": "〜3/5（消印有効）",
+"exam": "独自試験なし（共テ）",
+"result": "3/16",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "共通テスト併用型 A日程（文理・文系・理系）",
+"apply": "〜1/15（消印有効）",
+"exam": "2/4（文理）・2/5（文系）・2/6（理系）",
+"result": "2/16",
+"proc": "2/24",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "共通テスト併用型 全学統一",
+"apply": "〜1/8（消印有効）",
+"exam": "1/24",
+"result": "2/16",
+"proc": "2/24",
+"fee": null
 }
-]
+],
+"note": "一般C日程の試験・発表・手続、共テ利用中期・後期、共通テスト併用型は河合塾Kei-Net（2285）の一般選抜日程（全学部共通、出願締切は消印）。全学統一の試験会場は本学・さいたま・千葉・横浜・取手、A・C日程は本学のみ。薬学部はC日程なし、薬学部・看護学部の共テ利用は中期まで。総合型の空欄は未確認"
 },
 "money": {
 "year": "2026年度",
@@ -212919,7 +212959,8 @@ null
 "https://search.keinet.ne.jp/2285/general/border_rate",
 "https://search.keinet.ne.jp/2285/outline/expense",
 "https://manabi.benesse.ne.jp/daigaku/school/3316/gakuhi/",
-"https://up-j.shigaku.go.jp/department/category04/00000000267601003.html"
+"https://up-j.shigaku.go.jp/department/category04/00000000267601003.html",
+"https://search.keinet.ne.jp/2285/general/schedule"
 ]
 },
 "横浜薬科大学": {
@@ -233237,7 +233278,8 @@ null
 "money": "2026-11-10",
 "research": "2026-11-10",
 "licenses": "2026-11-10",
-"careers": "2026-11-10"
+"careers": "2026-11-10",
+"schedule": "2026-11-14"
 },
 "faculties": [
 "国際コミュニケーション学部"
@@ -233295,8 +233337,69 @@ null
 "https://search.keinet.ne.jp/2146/outline/expense",
 "https://search.keinet.ne.jp/2146/outline/admission_employment",
 "https://search.keinet.ne.jp/2146/general/border_rate",
-"https://search.keinet.ne.jp/2146/general/exam_result"
+"https://search.keinet.ne.jp/2146/general/exam_result",
+"https://passnavi.obunsha.co.jp/univ/2079/schedule/"
+],
+"schedule": {
+"year": "2027年度入試",
+"note": "旺文社パスナビ（国際コミュニケーション学部、8月末判明分）。共テの試験日1/16・17から2027年度入試と判断。共テ2回・3回の合格発表は受験料等受領後3日以内（土日祝除く）に順次（2回は2/5〜2/24、3回は3/3〜3/18）で、表の日付は最初の日。推薦・総合型と検定料は掲載なし",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 特待生",
+"apply": "12/8〜1/25",
+"exam": "1/30",
+"result": "2/5",
+"proc": "2/22",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 1回",
+"apply": "2/2〜2/19",
+"exam": "2/25",
+"result": "3/1",
+"proc": "3/8",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 2回",
+"apply": "2/17〜3/11",
+"exam": "3/15",
+"result": "3/18",
+"proc": "3/25",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 1回",
+"apply": "12/8〜1/14",
+"exam": "1/16・1/17（共テ）",
+"result": "2/4",
+"proc": "2/22",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 2回",
+"apply": "1/18〜2/18",
+"exam": "1/16・1/17（共テ）",
+"result": "2/5〜2/24（受領後3日以内）",
+"proc": "3/8",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 3回",
+"apply": "2/26〜3/15",
+"exam": "1/16・1/17（共テ）",
+"result": "3/3〜3/18（受領後3日以内）",
+"proc": "3/25",
+"fee": null
+}
 ]
+}
 },
 "武蔵野美術大学": {
 "difficulty": {
@@ -233315,7 +233418,8 @@ null
 "money": "2026-11-10",
 "research": "2026-11-10",
 "licenses": "2026-11-10",
-"careers": "2026-11-10"
+"careers": "2026-11-10",
+"schedule": "2026-11-14"
 },
 "faculties": [
 "造形学部",
@@ -233425,8 +233529,60 @@ null
 "https://search.keinet.ne.jp/2284/outline/expense",
 "https://search.keinet.ne.jp/2284/outline/admission_employment",
 "https://search.keinet.ne.jp/2284/general/border_rate",
-"https://search.keinet.ne.jp/2284/general/exam_result"
+"https://search.keinet.ne.jp/2284/general/exam_result",
+"https://telemail.jp/shingaku/university/10000104/examination/general"
+],
+"schedule": {
+"year": "2027年度入試",
+"note": "テレメール（2027年度入学、2026年6月27日時点）。ネット出願、試験地は東京都。合格発表2/22・入学手続締切3/1は全学科・全方式共通。実技の試験日は学科・専攻で異なる（2/4〜2/12）。検定料は掲載なし",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般方式（造形学部・造形構想学部）",
+"apply": "1/6〜1/16",
+"exam": "2/4〜2/12（学科により異なる。例：建築学科2/9、日本画学科2/9・2/11・2/12）",
+"result": "2/22",
+"proc": "3/1",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "学部統一方式（造形構想学部）",
+"apply": "1/6〜1/16",
+"exam": "2/6",
+"result": "2/22",
+"proc": "3/1",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト2教科＋専門試験方式",
+"apply": "1/6〜1/16",
+"exam": "共テ＋2/4〜2/12の専門試験（学科により異なる）",
+"result": "2/22",
+"proc": "3/1",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト3教科方式",
+"apply": "1/6〜1/22",
+"exam": "共通テストのみ",
+"result": "2/22",
+"proc": "3/1",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト5教科方式（造形構想学部クリエイティブイノベーション学科）",
+"apply": "1/6〜1/22",
+"exam": "共通テストのみ",
+"result": "2/22",
+"proc": "3/1",
+"fee": null
+}
 ]
+}
 },
 "武蔵野音楽大学": {
 "difficulty": {
