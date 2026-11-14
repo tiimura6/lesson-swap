@@ -1,0 +1,339 @@
+[
+{
+"name": "東京経済大学",
+"info": {
+"schedule_replace": {
+"year": "2027年度入試",
+"note": "一般選抜はマナビジョン（2027年度入試、ネット出願）、共通テスト利用は河合塾Kei-Net（出願締切のみ掲載、消印有効）。全学部・キャリアデザインプログラムで日程は共通。全学統一方式は東京のみ、個別方式は東京ほか9会場。検定料は出典に記載なし",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 全学統一方式前期",
+"apply": "1/5〜1/21",
+"exam": "2/3",
+"result": "2/12",
+"proc": "2/17",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 個別方式",
+"apply": "1/5〜1/25",
+"exam": "2/7〜2/9",
+"result": "2/20",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 全学統一方式後期",
+"apply": "2/12〜2/24",
+"exam": "3/3",
+"result": "3/11",
+"proc": "3/16",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 前期（3教科型・2教科型）",
+"apply": "〜1/15（消印有効）",
+"exam": "共通テスト",
+"result": "2/12",
+"proc": "2/17",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 中期（4科目型）",
+"apply": "〜1/25（消印有効）",
+"exam": "共通テスト",
+"result": "2/12",
+"proc": "3/8",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 後期（3教科型）",
+"apply": "〜2/24（消印有効）",
+"exam": "共通テスト",
+"result": "3/11",
+"proc": "3/16",
+"fee": null
+}
+]
+},
+"sources": [
+"https://manabi.benesse.ne.jp/daigaku/school/3283/nyushi/hoshiki/ippan/",
+"https://search.keinet.ne.jp/2250/general/schedule"
+]
+}
+},
+{
+"name": "東京純心大学",
+"info": {
+"schedule_replace": {
+"year": "2027年度入試",
+"note": "旺文社パスナビ（2027年に東京純心看護大学へ名称変更予定の記載あり）と河合塾Kei-Netで一致。看護学部看護学科。一般1期以外の試験会場は本学。検定料は出典に記載なし",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 1期A日程",
+"apply": "1/4〜1/28",
+"exam": "1/31",
+"result": "2/4",
+"proc": "2/12",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 1期B日程",
+"apply": "1/4〜1/28",
+"exam": "2/1",
+"result": "2/4",
+"proc": "2/12",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 2期",
+"apply": "2/8〜2/18",
+"exam": "2/21",
+"result": "2/25",
+"proc": "3/5",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 3期",
+"apply": "2/22〜3/6",
+"exam": "3/10",
+"result": "3/12",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 1期",
+"apply": "2/8〜2/18",
+"exam": "1/16・1/17（共テ）",
+"result": "2/25",
+"proc": "3/5",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 2期",
+"apply": "2/22〜3/6",
+"exam": "1/16・1/17（共テ）",
+"result": "3/12",
+"proc": "3/23",
+"fee": null
+}
+]
+},
+"sources": [
+"https://passnavi.obunsha.co.jp/univ/2795/schedule/",
+"https://search.keinet.ne.jp/2295/general/schedule"
+]
+}
+},
+{
+"name": "新潟リハビリテーション大学",
+"info": {
+"money_replace": {
+"year": "2026年度",
+"note": "河合塾Kei-Net（2026年度入学者用）。別途、入学前課題の教材費・教科書代・実習着・実習靴・後援会費が必要。2027年度は未掲載",
+"rows": [
+{
+"f": "医療学部 リハビリテーション学科 理学療法学専攻・作業療法学専攻",
+"admission": 280000,
+"tuition": 950000,
+"facility": 350000,
+"practical": 150000,
+"other": 20000,
+"first_year": 1750000,
+"four_year": null,
+"note": "その他は厚生福利費"
+},
+{
+"f": "医療学部 リハビリテーション学科 リハビリテーション心理学専攻",
+"admission": 280000,
+"tuition": 650000,
+"facility": 350000,
+"practical": 50000,
+"other": 20000,
+"first_year": 1350000,
+"four_year": null,
+"note": "その他は厚生福利費"
+}
+]
+},
+"sources": [
+"https://search.keinet.ne.jp/2340/outline/expense"
+]
+}
+},
+{
+"name": "新潟国際情報大学",
+"info": {
+"money_replace": {
+"year": "2026年度",
+"note": "河合塾Kei-Net（2026年度入学者用）。入学時に別途、保険料・学友会費・父母会費・同窓会準会員入会金など計77,300円。2027年度は未掲載",
+"rows": [
+{
+"f": "国際学部 国際文化学科",
+"admission": 200000,
+"tuition": 700000,
+"facility": 300000,
+"practical": 100000,
+"other": null,
+"first_year": 1300000,
+"four_year": null,
+"note": "別途77,300円（諸会費等）"
+},
+{
+"f": "経営情報学部",
+"admission": 200000,
+"tuition": 700000,
+"facility": 300000,
+"practical": 100000,
+"other": null,
+"first_year": 1300000,
+"four_year": null,
+"note": "別途77,300円（諸会費等）"
+}
+]
+},
+"sources": [
+"https://search.keinet.ne.jp/2337/outline/expense"
+]
+}
+},
+{
+"name": "新潟薬科大学",
+"info": {
+"money_replace": {
+"year": "2026年度",
+"note": "河合塾Kei-Net（2026年度入学者用、学科名は掲載のまま）。全学科でノートパソコンが必要。2027年度は未掲載",
+"rows": [
+{
+"f": "応用生命科学部 応用生命科学科",
+"admission": 300000,
+"tuition": 900000,
+"facility": 420000,
+"practical": null,
+"other": 48660,
+"first_year": 1668660,
+"four_year": null,
+"note": "その他は諸会費"
+},
+{
+"f": "応用生命科学部 生命産業ビジネス学科",
+"admission": 300000,
+"tuition": 800000,
+"facility": 200000,
+"practical": null,
+"other": 48660,
+"first_year": 1348660,
+"four_year": null,
+"note": "その他は諸会費"
+},
+{
+"f": "薬学部 薬学科",
+"admission": 300000,
+"tuition": 1200000,
+"facility": 900000,
+"practical": null,
+"other": 20740,
+"first_year": 2420740,
+"four_year": null,
+"note": "その他は諸会費"
+},
+{
+"f": "医療技術学部 臨床検査学科",
+"admission": 300000,
+"tuition": 950000,
+"facility": 600000,
+"practical": null,
+"other": 19300,
+"first_year": 1869300,
+"four_year": null,
+"note": "その他は諸会費"
+},
+{
+"f": "看護学部 看護学科",
+"admission": 300000,
+"tuition": 1050000,
+"facility": 600000,
+"practical": null,
+"other": 19300,
+"first_year": 1969300,
+"four_year": null,
+"note": "その他は諸会費"
+}
+]
+},
+"sources": [
+"https://search.keinet.ne.jp/2334/outline/expense"
+]
+}
+},
+{
+"name": "島根大学",
+"story": {
+"summary": "法文・教育・人間科学・材料エネルギー・総合理工・生物資源科学・医学の7学部をもつ大学です。2023年に新設した材料エネルギー学部は、島根県の強みであるものづくり産業に重点を置き、金属を中心とする材料に情報技術を組み合わせて学びます。教育学部は1000時間体験学修を必修とし、小・中の教員免許の併有をめざす仕組みです。",
+"only": [
+{
+"t": "2023年に材料エネルギー学部を新設。ものづくり産業に重点を置き、金属・機能性材料・生体材料などの材料研究に情報技術を組み合わせた手法で学ぶ。",
+"src": "https://www.shimane-u.ac.jp/_files/00366748/20241129release.pdf"
+},
+{
+"t": "教育学部は「1000時間体験学修プログラム」を必修とし、主専攻・副専攻制で小・中教員免許の併有をめざす。",
+"src": "https://search.keinet.ne.jp/1345/outline/department"
+},
+{
+"t": "医学部医学科は附属病院での早期体験実習と6年一貫の医学英語教育を行い、看護学科は医学科との合同授業がある。",
+"src": "https://search.keinet.ne.jp/1345/outline/department"
+}
+],
+"vs": [
+{
+"u": "鳥取大学",
+"t": "鳥取大学は地域・工・農・医の4学部構成だが、島根大学は材料工学と情報を組み合わせる材料エネルギー学部や、心理・福祉を学ぶ人間科学部をもつ。",
+"src": "https://search.keinet.ne.jp/outline/department/1340"
+}
+]
+}
+},
+{
+"name": "徳島大学",
+"story": {
+"summary": "総合科学・医・歯・薬・理工・生物資源産業の学部をもち、医学部・歯学部・薬学部が蔵本キャンパスに集まっている大学です。医歯薬の3学部の教員・学生による専門職連携教育（IPE）があり、医学科では10か月にわたる研究室配属を行います。生物資源産業学部では商品開発の過程を学んでから、植物工場やゲノム編集などの専門に進みます。",
+"only": [
+{
+"t": "医学部・歯学部・薬学部が蔵本キャンパスに集まっている。",
+"src": "https://manabi.benesse.ne.jp/daigaku/school/1390/index.html"
+},
+{
+"t": "医歯薬の3学部の教員・学生による「IPE（専門職連携教育）」を実施している。",
+"src": "https://search.keinet.ne.jp/1370/outline/department"
+},
+{
+"t": "医学部医学科は卒前教育で10か月にわたる本格的な研究室配属を行う。",
+"src": "https://search.keinet.ne.jp/1370/outline/department"
+},
+{
+"t": "生物資源産業学部は生物資源を活用した商品開発の過程を学んだうえで専門分野に進み、植物工場やゲノム編集を用いた食料生産技術などを研究する。",
+"src": "https://search.keinet.ne.jp/1370/outline/department"
+}
+],
+"vs": [
+{
+"u": "愛媛大学",
+"t": "愛媛大学も医学部をもつが歯学部・薬学部はなく、徳島大学は医・歯・薬の3学部を同じキャンパスに置いている。",
+"src": "https://search.keinet.ne.jp/1390/outline/department"
+}
+]
+}
+}
+]

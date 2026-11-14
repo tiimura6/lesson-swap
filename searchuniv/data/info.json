@@ -159085,7 +159085,8 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"schedule": "2026-11-11"
+"schedule": "2026-11-11",
+"money": "2026-11-14"
 },
 "departments": [
 {
@@ -159138,7 +159139,8 @@ null
 "https://nur.ac.jp/",
 "https://nur.ac.jp/exam/",
 "https://passnavi.obunsha.co.jp/univ/3375/difficulty/",
-"https://manabi.benesse.ne.jp/daigaku/school/3411/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3411/nyushi/index.html",
+"https://search.keinet.ne.jp/2340/outline/expense"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -159253,6 +159255,34 @@ null
 }
 ],
 "note": "ベネッセ マナビジョン（2027年度入試情報）。全専攻同じ日程。検定料は出典に記載なし"
+},
+"money": {
+"year": "2026年度",
+"note": "河合塾Kei-Net（2026年度入学者用）。別途、入学前課題の教材費・教科書代・実習着・実習靴・後援会費が必要。2027年度は未掲載",
+"rows": [
+{
+"f": "医療学部 リハビリテーション学科 理学療法学専攻・作業療法学専攻",
+"admission": 280000,
+"tuition": 950000,
+"facility": 350000,
+"practical": 150000,
+"other": 20000,
+"first_year": 1750000,
+"four_year": null,
+"note": "その他は厚生福利費"
+},
+{
+"f": "医療学部 リハビリテーション学科 リハビリテーション心理学専攻",
+"admission": 280000,
+"tuition": 650000,
+"facility": 350000,
+"practical": 50000,
+"other": 20000,
+"first_year": 1350000,
+"four_year": null,
+"note": "その他は厚生福利費"
+}
+]
 }
 },
 "新潟医療福祉大学": {
@@ -159687,7 +159717,8 @@ null
 "schedule": "2026-11-13",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"money": "2026-11-14"
 },
 "departments": [
 {
@@ -159801,8 +159832,37 @@ null
 "https://search.keinet.ne.jp/2341/general/border_rate",
 "https://manabi.benesse.ne.jp/daigaku/school/3404/nyushi/gokaku-happyo/index.html",
 "https://search.keinet.ne.jp/2337/general/schedule",
-"https://passnavi.obunsha.co.jp/univ/3387/schedule/"
+"https://passnavi.obunsha.co.jp/univ/3387/schedule/",
+"https://search.keinet.ne.jp/2337/outline/expense"
+],
+"money": {
+"year": "2026年度",
+"note": "河合塾Kei-Net（2026年度入学者用）。入学時に別途、保険料・学友会費・父母会費・同窓会準会員入会金など計77,300円。2027年度は未掲載",
+"rows": [
+{
+"f": "国際学部 国際文化学科",
+"admission": 200000,
+"tuition": 700000,
+"facility": 300000,
+"practical": 100000,
+"other": null,
+"first_year": 1300000,
+"four_year": null,
+"note": "別途77,300円（諸会費等）"
+},
+{
+"f": "経営情報学部",
+"admission": 200000,
+"tuition": 700000,
+"facility": 300000,
+"practical": 100000,
+"other": null,
+"first_year": 1300000,
+"four_year": null,
+"note": "別途77,300円（諸会費等）"
+}
 ]
+}
 },
 "新潟工科大学": {
 "faculties": [
@@ -160229,7 +160289,8 @@ null
 "schedule": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"money": "2026-11-14"
 },
 "departments": [
 {
@@ -160345,8 +160406,70 @@ null
 "https://passnavi.obunsha.co.jp/univ/3400/difficulty/",
 "https://search.keinet.ne.jp/2334/general/border_rate",
 "https://up-j.shigaku.go.jp/department/category06/00000000370002001.html",
-"https://igakubu-note.jp/18494"
+"https://igakubu-note.jp/18494",
+"https://search.keinet.ne.jp/2334/outline/expense"
+],
+"money": {
+"year": "2026年度",
+"note": "河合塾Kei-Net（2026年度入学者用、学科名は掲載のまま）。全学科でノートパソコンが必要。2027年度は未掲載",
+"rows": [
+{
+"f": "応用生命科学部 応用生命科学科",
+"admission": 300000,
+"tuition": 900000,
+"facility": 420000,
+"practical": null,
+"other": 48660,
+"first_year": 1668660,
+"four_year": null,
+"note": "その他は諸会費"
+},
+{
+"f": "応用生命科学部 生命産業ビジネス学科",
+"admission": 300000,
+"tuition": 800000,
+"facility": 200000,
+"practical": null,
+"other": 48660,
+"first_year": 1348660,
+"four_year": null,
+"note": "その他は諸会費"
+},
+{
+"f": "薬学部 薬学科",
+"admission": 300000,
+"tuition": 1200000,
+"facility": 900000,
+"practical": null,
+"other": 20740,
+"first_year": 2420740,
+"four_year": null,
+"note": "その他は諸会費"
+},
+{
+"f": "医療技術学部 臨床検査学科",
+"admission": 300000,
+"tuition": 950000,
+"facility": 600000,
+"practical": null,
+"other": 19300,
+"first_year": 1869300,
+"four_year": null,
+"note": "その他は諸会費"
+},
+{
+"f": "看護学部 看護学科",
+"admission": 300000,
+"tuition": 1050000,
+"facility": 600000,
+"practical": null,
+"other": 19300,
+"first_year": 1969300,
+"four_year": null,
+"note": "その他は諸会費"
+}
 ]
+}
 },
 "新潟青陵大学": {
 "faculties": [
@@ -231551,7 +231674,8 @@ null
 "money": "2026-11-10",
 "research": "2026-11-10",
 "licenses": "2026-11-10",
-"careers": "2026-11-10"
+"careers": "2026-11-10",
+"schedule": "2026-11-14"
 },
 "faculties": [
 "看護学部"
@@ -231610,8 +231734,70 @@ null
 "https://search.keinet.ne.jp/2295/outline/admission_employment",
 "https://search.keinet.ne.jp/2295/outline/expense",
 "https://search.keinet.ne.jp/2295/general/border_rate",
-"https://search.keinet.ne.jp/2295/general/exam_result"
+"https://search.keinet.ne.jp/2295/general/exam_result",
+"https://passnavi.obunsha.co.jp/univ/2795/schedule/",
+"https://search.keinet.ne.jp/2295/general/schedule"
+],
+"schedule": {
+"year": "2027年度入試",
+"note": "旺文社パスナビ（2027年に東京純心看護大学へ名称変更予定の記載あり）と河合塾Kei-Netで一致。看護学部看護学科。一般1期以外の試験会場は本学。検定料は出典に記載なし",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 1期A日程",
+"apply": "1/4〜1/28",
+"exam": "1/31",
+"result": "2/4",
+"proc": "2/12",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 1期B日程",
+"apply": "1/4〜1/28",
+"exam": "2/1",
+"result": "2/4",
+"proc": "2/12",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 2期",
+"apply": "2/8〜2/18",
+"exam": "2/21",
+"result": "2/25",
+"proc": "3/5",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 3期",
+"apply": "2/22〜3/6",
+"exam": "3/10",
+"result": "3/12",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 1期",
+"apply": "2/8〜2/18",
+"exam": "1/16・1/17（共テ）",
+"result": "2/25",
+"proc": "3/5",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 2期",
+"apply": "2/22〜3/6",
+"exam": "1/16・1/17（共テ）",
+"result": "3/12",
+"proc": "3/23",
+"fee": null
+}
 ]
+}
 },
 "東京経済大学": {
 "difficulty": {
@@ -231629,7 +231815,8 @@ null
 "tuition": "2026-11-10",
 "money": "2026-11-10",
 "research": "2026-11-10",
-"licenses": "2026-11-10"
+"licenses": "2026-11-10",
+"schedule": "2026-11-14"
 },
 "faculties": [
 "経済学部",
@@ -231773,8 +231960,70 @@ null
 "https://search.keinet.ne.jp/2250/outline/licential",
 "https://search.keinet.ne.jp/2250/outline/expense",
 "https://search.keinet.ne.jp/2250/general/border_rate",
-"https://search.keinet.ne.jp/2250/general/exam_result"
+"https://search.keinet.ne.jp/2250/general/exam_result",
+"https://manabi.benesse.ne.jp/daigaku/school/3283/nyushi/hoshiki/ippan/",
+"https://search.keinet.ne.jp/2250/general/schedule"
+],
+"schedule": {
+"year": "2027年度入試",
+"note": "一般選抜はマナビジョン（2027年度入試、ネット出願）、共通テスト利用は河合塾Kei-Net（出願締切のみ掲載、消印有効）。全学部・キャリアデザインプログラムで日程は共通。全学統一方式は東京のみ、個別方式は東京ほか9会場。検定料は出典に記載なし",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 全学統一方式前期",
+"apply": "1/5〜1/21",
+"exam": "2/3",
+"result": "2/12",
+"proc": "2/17",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 個別方式",
+"apply": "1/5〜1/25",
+"exam": "2/7〜2/9",
+"result": "2/20",
+"proc": "2/25",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 全学統一方式後期",
+"apply": "2/12〜2/24",
+"exam": "3/3",
+"result": "3/11",
+"proc": "3/16",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 前期（3教科型・2教科型）",
+"apply": "〜1/15（消印有効）",
+"exam": "共通テスト",
+"result": "2/12",
+"proc": "2/17",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 中期（4科目型）",
+"apply": "〜1/25（消印有効）",
+"exam": "共通テスト",
+"result": "2/12",
+"proc": "3/8",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 後期（3教科型）",
+"apply": "〜2/24（消印有効）",
+"exam": "共通テスト",
+"result": "3/11",
+"proc": "3/16",
+"fee": null
+}
 ]
+}
 },
 "東京聖栄大学": {
 "difficulty": {
