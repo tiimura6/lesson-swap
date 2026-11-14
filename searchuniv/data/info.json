@@ -235306,7 +235306,9 @@ null
 "tuition": "2026-11-11",
 "kyotsu": "2026-11-11",
 "research": "2026-11-11",
-"money": "2026-11-11"
+"money": "2026-11-11",
+"schedule": "2026-11-14",
+"methods": "2026-11-14"
 },
 "faculties": [
 "音楽学部"
@@ -235363,8 +235365,122 @@ null
 "https://search.keinet.ne.jp/2726/outline/department",
 "https://search.keinet.ne.jp/2726/outline/expense",
 "https://search.keinet.ne.jp/2726/general/exam_subject",
-"https://manabi.benesse.ne.jp/daigaku/school/3904/index.html"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3904/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3904/nyushi/gokaku-happyo/",
+"https://manabi.benesse.ne.jp/daigaku/school/3904/nyushi/hoshiki/ippan/"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 前期（音楽表現専攻）",
+"apply": "1/6〜1/20",
+"exam": "2/1〜2/3",
+"result": "2/17",
+"proc": "2/26",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期（音楽ビジネス専攻）",
+"apply": "1/6〜1/20",
+"exam": "2/1",
+"result": "2/17",
+"proc": "2/26",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期",
+"apply": "2/19〜3/15",
+"exam": "3/21",
+"result": "3/23",
+"proc": "3/27",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用（個別試験あり）",
+"apply": "1/6〜1/20",
+"exam": "1/16・1/17（共テ）＋2/1〜2/3（音楽ビジネス専攻は2/1）",
+"result": "2/17",
+"proc": "2/26",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制）",
+"apply": "11/1〜11/9",
+"exam": "11/21〜11/22（音楽ビジネス専攻は11/21）",
+"result": "12/1",
+"proc": "12/14",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（9月出願）",
+"apply": "9/1〜9/10",
+"exam": "9/19〜9/20（音楽ビジネス専攻は9/19）",
+"result": "",
+"proc": "",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（10月出願）",
+"apply": "9/14〜10/1",
+"exam": "10/10〜10/11（音楽ビジネス専攻は10/10）",
+"result": "11/2",
+"proc": "11/16",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（3月）",
+"apply": "2/19〜3/15",
+"exam": "3/21",
+"result": "3/23",
+"proc": "3/27",
+"fee": null
+}
+],
+"note": "ベネッセ マナビジョン（2027年度入試、2026年11月確認）。ネット出願。総合型の9月出願分の合格発表・手続締切は出典で期ごとの対応が読み取れないため未記入。検定料は出典に記載なし"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜 前期・後期（音楽表現専攻）",
+"kyotsu": null,
+"niji": "実技・面接（計200点）",
+"content": "募集15人（前期・後期・共テ利用の合計とみられる表示）。前期の試験会場：福岡・東京・大阪、後期：福岡",
+"req": null,
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3904/nyushi/hoshiki/ippan/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期・後期（音楽ビジネス専攻）",
+"kyotsu": null,
+"niji": "小論文・面接（計100点）",
+"content": "募集15人（同上）。前期の試験会場：福岡・東京・大阪、後期：福岡",
+"req": null,
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3904/nyushi/hoshiki/ippan/"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用",
+"kyotsu": "1教科1科目（100点）",
+"niji": "音楽表現専攻は実技・面接、音楽ビジネス専攻は小論文・面接",
+"content": "試験会場：福岡",
+"req": null,
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3904/nyushi/hoshiki/ippan/"
+}
+],
+"note": "マナビジョン（2027年度入試）。科目表の配点表示に分かりにくい点があるため、正確な科目・配点は大学の学生募集要項で確認が必要。推薦・総合型の選考内容は未確認",
+"summary": "音楽表現専攻は実技・面接、音楽ビジネス専攻は小論文・面接で選考。共テ利用は1教科1科目＋個別試験"
+}
 },
 "コー・イノベーション大学": {
 "difficulty": {
@@ -235380,7 +235496,9 @@ null
 "tuition": "2026-11-11",
 "kyotsu": "2026-11-11",
 "research": "2026-11-11",
-"money": "2026-11-11"
+"money": "2026-11-11",
+"schedule": "2026-11-14",
+"methods": "2026-11-14"
 },
 "faculties": [
 "共創学部"
@@ -235440,8 +235558,160 @@ null
 "https://search.keinet.ne.jp/2415/outline/expense",
 "https://search.keinet.ne.jp/2415/general/exam_subject",
 "https://search.keinet.ne.jp/2415/outline/opencampus",
-"https://passnavi.obunsha.co.jp/univ/3564/department/"
-]
+"https://passnavi.obunsha.co.jp/univ/3564/department/",
+"https://passnavi.obunsha.co.jp/univ/3564/schedule/",
+"https://passnavi.obunsha.co.jp/univ/3564/sougou/",
+"https://passnavi.obunsha.co.jp/univ/3564/suisen/"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 前期",
+"apply": "1/8〜1/27",
+"exam": "1/16・1/17（共テ）",
+"result": "2/15",
+"proc": "3/5",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 中期",
+"apply": "2/5〜2/19",
+"exam": "1/16・1/17（共テ）",
+"result": "3/12",
+"proc": "3/19",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 後期",
+"apply": "2/20〜3/12",
+"exam": "1/16・1/17（共テ）",
+"result": "3/26",
+"proc": "",
+"fee": null,
+"note": "入学手続は個別に案内"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜",
+"apply": "10/17〜11/16",
+"exam": "11/22",
+"result": "12/2",
+"proc": "",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 第Ⅰ期",
+"apply": "9/1〜9/18",
+"exam": "9/27",
+"result": "11/1",
+"proc": "",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 第Ⅱ期",
+"apply": "",
+"exam": "10/25",
+"result": "11/8",
+"proc": "",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 第Ⅲ期",
+"apply": "",
+"exam": "11/21・11/22（会場により異なる）",
+"result": "12/2",
+"proc": "",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 第Ⅳ期",
+"apply": "",
+"exam": "12/20",
+"result": "12/25",
+"proc": "",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 第Ⅴ期",
+"apply": "",
+"exam": "1/31",
+"result": "2/12",
+"proc": "",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 第Ⅵ期",
+"apply": "",
+"exam": "2/7",
+"result": "2/24",
+"proc": "",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 第Ⅶ期",
+"apply": "",
+"exam": "3/14",
+"result": "3/18",
+"proc": "",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 第Ⅷ期",
+"apply": "3/11〜3/24",
+"exam": "3/27",
+"result": "3/29",
+"proc": "",
+"fee": null
+}
+],
+"note": "旺文社パスナビ（2026年7月末までに公表された選抜要項による。共テ日程から2027年度入試と判断、2026年11月確認）。総合型の第Ⅱ〜Ⅶ期の出願期間と各方式の入学手続締切・検定料は出典で読み取れないため未記入。一般選抜（個別試験）の掲載はなし"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "総合型",
+"name": "総合型選抜（第Ⅰ〜Ⅷ期）",
+"kyotsu": null,
+"niji": null,
+"content": "共創学部 共創学科 募集68人。書類・面接",
+"req": null,
+"url": "https://passnavi.obunsha.co.jp/univ/3564/sougou/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜",
+"kyotsu": null,
+"niji": null,
+"content": "募集40人。専願。書類・面接（出典の略記「書、面」）",
+"req": null,
+"url": "https://passnavi.obunsha.co.jp/univ/3564/suisen/"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 前期・中期・後期",
+"kyotsu": "科目は未確認",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://passnavi.obunsha.co.jp/univ/3564/schedule/"
+}
+],
+"note": "パスナビ。面接必須化の方針で実施内容が変わる可能性があると出典に注記あり。共テ利用の科目は未確認",
+"summary": "総合型（8期）・学校推薦型（書類・面接）と共通テスト利用（前・中・後期）で募集"
+}
 },
 "西日本看護医療大学": {
 "difficulty": {
