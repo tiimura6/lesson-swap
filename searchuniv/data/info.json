@@ -191483,7 +191483,7 @@ null
 "access": "2026-11-08",
 "careers": "2026-11-08",
 "_via": "2026-11-08",
-"money": "2026-11-12"
+"money": "2026-11-14"
 },
 "departments": [
 {
@@ -191533,7 +191533,8 @@ null
 "https://passnavi.obunsha.co.jp/univ/1539/top/",
 "https://passnavi.obunsha.co.jp/univ/1539/department/?facultyID=005",
 "https://manabi.benesse.ne.jp/daigaku/school/3022/nyushi/",
-"https://manabi.benesse.ne.jp/daigaku/school/3022/gakuhi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3022/gakuhi/",
+"https://search.keinet.ne.jp/2022/outline/expense"
 ],
 "money": {
 "year": "2026年度",
@@ -191541,25 +191542,27 @@ null
 {
 "f": "看護栄養学部 看護学科",
 "admission": 300000,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 1876000,
-"four_year": null
+"tuition": 1200000,
+"facility": 200000,
+"practical": 100000,
+"other": 80720,
+"first_year": 1880720,
+"four_year": null,
+"note": "otherは諸会費"
 },
 {
 "f": "看護栄養学部 栄養学科",
 "admission": 300000,
-"tuition": null,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 1536000,
-"four_year": null
+"tuition": 780000,
+"facility": 200000,
+"practical": 180000,
+"other": 80720,
+"first_year": 1540720,
+"four_year": null,
+"note": "otherは諸会費。栄養教諭教職課程の履修希望者は教職課程履修費20,000円が別途"
 }
 ],
-"note": "ベネッセ マナビジョン（2026年度入学者対象）の初年度納入金の合計（入学金30万円を含む）。授業料などの内訳は未確認"
+"note": "河合塾 Kei-Net（2026年度入学者用）の内訳。マナビジョン（2026年度）の初年度合計（看護1,876,000円・栄養1,536,000円）とは諸会費の扱いで4,720円の差がある。2027年度の金額は未確認"
 }
 },
 "奥羽大学": {
@@ -195532,7 +195535,7 @@ null
 "methods": "2026-11-09",
 "subjects": "2026-11-09",
 "schedule": "2026-11-12",
-"money": "2026-11-12",
+"money": "2026-11-14",
 "scholar": "2026-11-09",
 "oc": "2026-11-09",
 "access": "2026-11-09",
@@ -195689,14 +195692,15 @@ null
 "f": "看護学部 看護学科",
 "admission": 250000,
 "tuition": 900000,
-"facility": null,
-"practical": null,
+"facility": 250000,
+"practical": 200000,
 "other": null,
 "first_year": 1600000,
-"four_year": null
+"four_year": null,
+"note": "facilityは施設設備費、practicalは実験実習費"
 }
 ],
-"note": "ベネッセ マナビジョン（2026年度入学者）の初年度納入金160万円（入学金25万円・授業料90万円）。残り45万円（施設設備費・実験実習費）の内訳は未確認。スタディサプリ進路でも2027年度の初年度納入金は160万円"
+"note": "河合塾 Kei-Net（2026年度入学者用）。別途、教科書・ユニフォーム代（20,000円）、学生保険（18,000円）、後援会等（50,000円）、合宿費用、実習の交通・宿泊費が必要。スタディサプリ進路でも2027年度の初年度納入金は160万円"
 },
 "scholar": {
 "year": "2027年度",
@@ -195786,7 +195790,8 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3059/gakuhi/",
 "https://manabi.benesse.ne.jp/daigaku/school/3059/nyushi/hoshiki/ippan/",
 "https://manabi.benesse.ne.jp/daigaku/school/3059/nyushi/hoshiki/gakkou-suisen/",
-"https://manabi.benesse.ne.jp/daigaku/school/3059/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3059/nyushi/",
+"https://search.keinet.ne.jp/2044/outline/expense"
 ]
 },
 "岩手医科大学": {
@@ -235727,7 +235732,9 @@ null
 "kyotsu": "2026-11-11",
 "research": "2026-11-11",
 "licenses": "2026-11-11",
-"money": "2026-11-11"
+"money": "2026-11-11",
+"schedule": "2026-11-14",
+"methods": "2026-11-14"
 },
 "faculties": [
 "看護学部"
@@ -235794,8 +235801,87 @@ null
 "https://search.keinet.ne.jp/2722/outline/expense",
 "https://search.keinet.ne.jp/2722/outline/licential",
 "https://search.keinet.ne.jp/2722/general/exam_subject",
-"https://manabi.benesse.ne.jp/daigaku/school/3905/nyushi/kango/index.html"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3905/nyushi/kango/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3905/nyushi/hoshiki/ippan/",
+"https://passnavi.obunsha.co.jp/univ/5005/suisen/",
+"https://passnavi.obunsha.co.jp/univ/5005/sougou/"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 前期",
+"apply": "12/1〜1/25",
+"exam": "2/11",
+"result": "2/18",
+"proc": "2/26",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期",
+"apply": "12/1〜2/22",
+"exam": "3/6",
+"result": "3/11",
+"proc": "3/16",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜",
+"apply": "11/1〜11/7",
+"exam": "11/15",
+"result": "12/1",
+"proc": "",
+"fee": null
+}
+],
+"note": "一般選抜はベネッセ マナビジョン（2027年度入試）、推薦は旺文社パスナビ（2026年7月末までの公表情報）。ネット出願、試験会場は福岡。総合型選抜はパスナビの表の読み取りが不確かなため未記入。検定料・共通テスト利用は出典に記載なし"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜 前期",
+"kyotsu": null,
+"niji": "3教科300点（国語100、数学Ⅰ・A 100、英語100〈英語資格のみなし得点あり〉、化学基礎・化学または生物基礎・生物100の中から）＋面接",
+"content": "看護学部 看護学科 募集17人。試験会場：福岡",
+"req": null,
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3905/nyushi/hoshiki/ippan/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期",
+"kyotsu": null,
+"niji": "小論文100点・調査書25点・面接（計150点）、志望理由書",
+"content": "募集3人。試験会場：福岡",
+"req": null,
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3905/nyushi/hoshiki/ippan/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜",
+"kyotsu": null,
+"niji": "書類50点・小論文100点・面接",
+"content": "募集40人。専願",
+"req": "評定の条件あり（出典の表が崩れており数値は要項で確認）",
+"url": "https://passnavi.obunsha.co.jp/univ/5005/suisen/"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（A・B・C）",
+"kyotsu": null,
+"niji": "書類・面接・小論文（出典の略記）",
+"content": "募集20人。エントリー制",
+"req": null,
+"url": "https://passnavi.obunsha.co.jp/univ/5005/sougou/"
+}
+],
+"note": "マナビジョン（一般）、パスナビ（推薦・総合型、2026年7月末時点）。前期の科目の組み合わせ（3教科の選び方）と推薦の評定条件は学生募集要項で確認が必要。共通テスト利用の掲載はなし",
+"summary": "一般前期は3教科＋面接、後期は小論文・面接。推薦（専願・40人）と総合型（20人）は書類・小論文・面接"
+}
 },
 "開志創造大学（通信制のみ）": {
 "faculties": [
@@ -235924,7 +236010,9 @@ null
 "founded": "2026-11-11",
 "tuition": "2026-11-11",
 "research": "2026-11-11",
-"money": "2026-11-11"
+"money": "2026-11-11",
+"schedule": "2026-11-14",
+"methods": "2026-11-14"
 },
 "departments": [
 {
@@ -235983,8 +236071,40 @@ null
 "https://passnavi.obunsha.co.jp/univ/1939/expense/",
 "https://passnavi.obunsha.co.jp/univ/1939/subject/",
 "https://www.mext.go.jp/content/20260828-mxt_koutou02-000051788_1.pdf",
-"https://manabi.benesse.ne.jp/daigaku/school/3143/index.html"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3143/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3143/nyushi/hoshiki/ippan/"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 前期",
+"apply": "1/8〜1/29",
+"exam": "2/7",
+"result": "2/16",
+"proc": "3/5",
+"fee": null
+}
+],
+"note": "ベネッセ マナビジョン（2027年度入試）。2027年4月開学予定（設置認可申請中）のため予定。郵送書類が必要。試験会場は群馬。総合型・推薦・共通テスト利用の日程と検定料は出典に記載なし"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜 前期",
+"kyotsu": null,
+"niji": "2教科200点（国語、数学Ⅰ・A、英語、化学基礎・化学または生物基礎・生物の中から。各100点）＋面接",
+"content": "健康科学部 リハビリテーション学科 理学療法学専攻20人・作業療法学専攻10人。試験会場：群馬",
+"req": null,
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3143/nyushi/hoshiki/ippan/"
+}
+],
+"note": "マナビジョン（2027年度入試、設置認可申請中のため予定）。科目の選び方・面接の配点は出典で読み取れず、学生募集要項で確認が必要。総合型・推薦は未確認",
+"summary": "一般前期は2教科（200点）＋面接"
+}
 },
 "中央医療大学": {
 "faculties": [
