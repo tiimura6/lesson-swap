@@ -14262,7 +14262,8 @@
 "schedule": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
-"ratios": "2026-11-06"
+"ratios": "2026-11-06",
+"research": "2026-11-14"
 },
 "money": {
 "year": "2026年度",
@@ -14419,7 +14420,13 @@
 }
 ],
 "note": "河合塾Kei-Netの一般選抜入試結果より（倍率＝受験者／合格者）。学科別の表は見出しと数値の対応が取得時に不明確だったため全体計のみ収録"
-}
+},
+"research": [
+"哲学・歴史学・言語学・教育学・社会学・芸術学（文教育学部、2年次から主プログラムを選択）",
+"数学・物理学・化学・生物学・情報科学の基礎から先端研究まで（理学部）",
+"食物栄養・人間生活・心理学など食・健康・社会・こころを文理融合で研究（生活科学部）",
+"データサイエンスを生かした人間環境工学と、歴史・文学・芸術資料をデジタル化して解析する文化情報工学（共創工学部）"
+]
 },
 "東京学芸大学": {
 "difficulty": {
@@ -14916,7 +14923,8 @@
 "schedule": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
-"ratios": "2026-11-06"
+"ratios": "2026-11-06",
+"research": "2026-11-14"
 },
 "money": {
 "year": "2026年度",
@@ -15074,7 +15082,13 @@
 }
 ],
 "note": "河合塾Kei-Netの一般選抜入試結果より（倍率＝受験者／合格者）。前期は取得できた初等教育教員養成課程の主な選修のみ"
-}
+},
+"research": [
+"小学校教員養成（初等教育専攻：各教科・現代教育実践・ものづくり技術・幼児教育）",
+"中学校・高校教員養成（中等教育専攻：国語〜情報・書道の各教科）",
+"特別支援教育（聴覚障害・言語障害系、発達障害・学習障害系）と養護教育",
+"教育支援職の養成（生涯学習・文化遺産教育、カウンセリング、ソーシャルワーク、多文化共生教育、情報教育、表現教育、生涯スポーツ）"
+]
 },
 "東京農工大学": {
 "difficulty": {
@@ -15380,7 +15394,8 @@
 "schedule": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
-"ratios": "2026-11-06"
+"ratios": "2026-11-06",
+"research": "2026-11-14"
 },
 "money": {
 "year": "2026年度",
@@ -15568,7 +15583,14 @@
 }
 ],
 "note": "河合塾Kei-Netの一般選抜入試結果より（倍率＝受験者／合格者）"
-}
+},
+"research": [
+"生命工学・生体医用システム工学（細胞分子工学、医用デバイス、生体フォトニクスなど）",
+"応用化学・化学物理工学（触媒化学、高分子材料、化学工学、光工学、エネルギーシステム工学など）",
+"機械システム・知能情報システム工学（ロボティクス、車両システム、宇宙工学、人工知能、セキュリティなど）",
+"農学・応用生物科学・環境資源科学（作物学、遺伝子工学、食品化学、環境修復、バイオマスなど）",
+"地域生態システム学（森林生態、野生動物管理、農村計画、環境法など）と共同獣医学（6年制）"
+]
 },
 "電気通信大学": {
 "difficulty": {
@@ -229880,7 +229902,8 @@ null
 "founded": "2026-11-09",
 "access": "2026-11-09",
 "licenses": "2026-11-09",
-"careers": "2026-11-09"
+"careers": "2026-11-09",
+"schedule": "2026-11-14"
 },
 "departments": [
 {
@@ -229925,8 +229948,186 @@ null
 "https://search.keinet.ne.jp/2297/outline/campus",
 "https://search.keinet.ne.jp/2297/outline/licential",
 "https://search.keinet.ne.jp/2297/outline/admission_employment",
-"https://search.keinet.ne.jp/2297/general/exam_result"
-]
+"https://search.keinet.ne.jp/2297/general/exam_result",
+"https://manabi.benesse.ne.jp/daigaku/school/3375/nyushi/"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅰ期（工学部）",
+"apply": "9/1〜9/8（郵送）、9/18〜10/2（ネット）",
+"exam": "10/10",
+"result": "11/1",
+"proc": "11/11",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅱ期（工学部）",
+"apply": "11/24〜12/4",
+"exam": "12/13",
+"result": "12/21",
+"proc": "1/13",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅲ期（工学部）",
+"apply": "2/8〜2/19",
+"exam": "2/27",
+"result": "3/4",
+"proc": "3/18",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅳ期（工学部）",
+"apply": "3/8〜3/15",
+"exam": "3/23",
+"result": "3/24",
+"proc": "3/26",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅰ期（芸術学部）",
+"apply": "9/9〜9/18",
+"exam": "10/3",
+"result": "11/2",
+"proc": "11/13",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅱ期（芸術学部）",
+"apply": "11/24〜12/1",
+"exam": "12/12",
+"result": "12/18",
+"proc": "1/8",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制）工学部",
+"apply": "11/24〜12/4",
+"exam": "12/13",
+"result": "12/21",
+"proc": "1/13",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制）芸術学部",
+"apply": "11/1〜11/5",
+"exam": "11/14",
+"result": "12/1",
+"proc": "12/11",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "全学統一（工・芸術）",
+"apply": "1/4〜1/18",
+"exam": "1/29",
+"result": "2/5",
+"proc": "2/16",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "工学部 Ⅰ期・Ⅰ期英語外部検定利用",
+"apply": "12/24〜1/18",
+"exam": "1/28",
+"result": "2/5",
+"proc": "2/16",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "工学部 Ⅱ期",
+"apply": "2/8〜2/19",
+"exam": "2/27",
+"result": "3/4",
+"proc": "3/18",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "工学部 Ⅲ期",
+"apply": "3/8〜3/15",
+"exam": "3/23",
+"result": "3/24",
+"proc": "3/26",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "芸術学部 Ⅰ期A・B方式／D方式（共テ併用）",
+"apply": "1/4〜1/18",
+"exam": "1/30",
+"result": "2/5",
+"proc": "2/16",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "芸術学部 Ⅱ期A・B方式",
+"apply": "2/5〜2/12",
+"exam": "3/5",
+"result": "3/12",
+"proc": "3/18",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "工学部 共テ利用 Ⅰ期",
+"apply": "12/24〜1/19",
+"exam": "共通テスト",
+"result": "2/5",
+"proc": "2/16",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "工学部 共テ利用 Ⅱ期",
+"apply": "2/1〜2/25",
+"exam": "共通テスト",
+"result": "3/4",
+"proc": "3/18",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "工学部 共テ利用 Ⅲ期",
+"apply": "3/1〜3/17",
+"exam": "共通テスト",
+"result": "3/24",
+"proc": "3/26",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "芸術学部 Ⅰ期C方式",
+"apply": "1/4〜1/18",
+"exam": "共通テスト",
+"result": "2/5",
+"proc": "2/16",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "芸術学部 Ⅱ期C方式",
+"apply": "2/5〜2/12",
+"exam": "共通テスト",
+"result": "3/12",
+"proc": "3/18",
+"fee": null
+}
+],
+"note": "ベネッセ マナビジョン（2027年度入試）。工学部は各コース、芸術学部は各学科で同じ日程。出願はネット（工学部総合型Ⅰ期は郵送期間あり）。検定料は出典に記載なし"
+}
 },
 "東京情報デザイン専門職大学": {
 "faculties": [
@@ -229936,7 +230137,8 @@ null
 "faculties": "2026-11-09",
 "departments": "2026-11-09",
 "founded": "2026-11-09",
-"access": "2026-11-09"
+"access": "2026-11-09",
+"schedule": "2026-11-14"
 },
 "departments": [
 {
@@ -229952,8 +230154,151 @@ null
 "https://passnavi.obunsha.co.jp/univ/9227/department/",
 "https://passnavi.obunsha.co.jp/univ/9227/location/",
 "https://passnavi.obunsha.co.jp/univ/9227/top/",
-"https://passnavi.obunsha.co.jp/univ/9227/bairitsu/"
-]
+"https://passnavi.obunsha.co.jp/univ/9227/bairitsu/",
+"https://manabi.benesse.ne.jp/daigaku/school/3349/nyushi/hoshiki/ippan/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3349/nyushi/"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜 A日程",
+"apply": "9/1〜9/21",
+"exam": "9/26",
+"result": "11/1",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 B日程",
+"apply": "9/1〜10/20",
+"exam": "10/25",
+"result": "11/1",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 C日程",
+"apply": "9/1〜10/26",
+"exam": "10/31",
+"result": "11/5",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 D日程",
+"apply": "10/27〜11/16",
+"exam": "11/21",
+"result": "12/1",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 E日程",
+"apply": "11/17〜12/14",
+"exam": "12/20",
+"result": "12/23",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 F日程",
+"apply": "12/1〜1/25",
+"exam": "1/31",
+"result": "2/5",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 G日程",
+"apply": "2/1〜3/15",
+"exam": "3/18",
+"result": "3/19",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "推薦型選抜（指定校・専願）前期",
+"apply": null,
+"exam": "11/22",
+"result": "12/1",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "推薦型選抜（指定校・専願）後期",
+"apply": null,
+"exam": "12/20",
+"result": "12/23",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期日程",
+"apply": "12/1〜1/25",
+"exam": "1/30・1/31",
+"result": "2/5",
+"proc": "2/16",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 中期日程",
+"apply": "1/26〜2/23",
+"exam": "2/28",
+"result": "3/4",
+"proc": "3/18",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期日程",
+"apply": "2/24〜3/15",
+"exam": "3/18",
+"result": "3/19",
+"proc": "3/25",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 前期（タイプⅠ・Ⅱ）",
+"apply": "12/1〜2/3",
+"exam": "共通テスト",
+"result": "2/10",
+"proc": "2/16",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 中期（タイプⅠ・Ⅱ）",
+"apply": "2/4〜2/27",
+"exam": "共通テスト",
+"result": "3/4",
+"proc": "3/18",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 後期（タイプⅠ・Ⅱ）",
+"apply": "2/28〜3/16",
+"exam": "共通テスト",
+"result": "3/19",
+"proc": "3/25",
+"fee": null
+}
+],
+"note": "ベネッセ マナビジョン（2027年度入試）。情報デザイン学部情報デザイン学科。一般選抜は各日程30人、国語・数学Ⅰ・A・英語必須＋数学Ⅱ・Bか情報Ⅰ（400点）。総合型の手続締切は日程との対応が出典で示されず未記入。検定料は出典に記載なし"
+}
 },
 "東京情報大学": {
 "faculties": [
