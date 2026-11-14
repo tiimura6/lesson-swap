@@ -102246,7 +102246,7 @@
 "methods": "2026-11-09",
 "ratios": "2026-11-09",
 "schedule": "2026-11-09",
-"money": "2026-11-09",
+"money": "2026-11-14",
 "_via": "2026-11-09"
 },
 "departments": [
@@ -102303,7 +102303,8 @@
 "https://manabi.benesse.ne.jp/daigaku/school/2015/nyushi/hoshiki/gakkou-suisen/",
 "https://manabi.benesse.ne.jp/daigaku/school/2015/nyushi/hoshiki/sougou/",
 "https://juku-times.com/juku/aomorikoritsu/gakubu-1/bairitsu/",
-"https://fran-data.com/aomori-kouritsu/"
+"https://fran-data.com/aomori-kouritsu/",
+"https://passnavi.obunsha.co.jp/univ/1022/expense/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -102477,12 +102478,12 @@
 ]
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "total4": 2299800,
 "total4_note": "入学金（県内・東青地区管内）＋授業料4年",
 "admission": 156600,
 "annual": 535800,
-"note": "大学公式では入学料が3区分あり、(1)東青地区管内（青森市・平内町・外ヶ浜町・今別町・蓬田村）156,600円、(2)左記以外の青森県内219,200円、(3)青森県外313,200円。授業料年額535,800円・実習演習費年額30,000円のほか、Kei-Net（2026年度入学者用）では保険料3,300円・後援会費54,000円を含み、初年度合計は県内（東青地区管内）779,700円、県外936,300円。",
+"note": "入学料は3区分：東青地区管内（青森市・平内町・外ヶ浜町・今別町・蓬田村）156,600円、それ以外の青森県内219,200円、青森県外313,200円。授業料年額535,800円・実習演習費年額30,000円・保険料3,300円。旺文社パスナビ（2027年度入学者用、2026年9月調査）で同額を確認し、初年度合計は東青地区管内725,700円・県内788,300円・県外882,300円（任意加入の後援会費54,000円は含まない）。",
 "rows": [
 {
 "f": "経営経済学部",
@@ -102490,10 +102491,10 @@
 "tuition": 535800,
 "facility": 0,
 "practical": 30000,
-"other": 57300,
-"first_year": 779700,
+"other": 3300,
+"first_year": 725700,
 "four_year": null,
-"note": "practicalは公式の実習演習費（春15,000円・秋15,000円・年額30,000円）、otherはKei-Netの保険料3,300円＋後援会費54,000円。県外者の初年度合計は936,300円。"
+"note": "東青地区管内の金額（パスナビ2027年度）。県内は入学金219,200円・初年度788,300円、県外は313,200円・882,300円。otherは保険料。任意の後援会費54,000円は別"
 }
 ]
 },
@@ -234574,7 +234575,8 @@ null
 "access": "2026-11-10",
 "money": "2026-11-10",
 "research": "2026-11-10",
-"licenses": "2026-11-10"
+"licenses": "2026-11-10",
+"schedule": "2026-11-14"
 },
 "departments": [
 {
@@ -234606,8 +234608,61 @@ null
 "準デジタルアーキビスト"
 ],
 "sources": [
-"https://yashima.ac.jp/univ/entrance/pdf/bosyuyoko2026.pdf"
-]
+"https://yashima.ac.jp/univ/entrance/pdf/bosyuyoko2026.pdf",
+"https://www.yashima.ac.jp/univ/entrance/outline_2.php"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "その他",
+"name": "正科生 第1学期（2027年4月入学）第1回",
+"apply": "2027/1/5〜2027/1/24",
+"exam": "",
+"result": "2027/1/27",
+"proc": "2027/4/28",
+"fee": null,
+"note": "procは入学金（登録料）の納入最終期日"
+},
+{
+"kubun": "その他",
+"name": "正科生 第1学期（2027年4月入学）第2回",
+"apply": "2027/1/25〜2027/2/14",
+"exam": "",
+"result": "2027/2/17",
+"proc": "2027/4/28",
+"fee": null
+},
+{
+"kubun": "その他",
+"name": "正科生 第1学期（2027年4月入学）第3回",
+"apply": "2027/2/15〜2027/2/28",
+"exam": "",
+"result": "2027/3/3",
+"proc": "2027/4/28",
+"fee": null
+},
+{
+"kubun": "その他",
+"name": "正科生 第1学期（2027年4月入学）第4回",
+"apply": "2027/3/1〜2027/3/14",
+"exam": "",
+"result": "2027/3/17",
+"proc": "2027/4/28",
+"fee": null
+},
+{
+"kubun": "その他",
+"name": "正科生 第1学期（2027年4月入学）第5回",
+"apply": "2027/3/15〜2027/4/11",
+"exam": "",
+"result": "2027/4/14",
+"proc": "2027/4/28",
+"fee": null
+}
+],
+"note": "大学公式「出願期間（2027）」の第1学期（4月入学）。出願は23:59まで・書類必着。7月・10月・1月入学もある。選考方法・入学選考料は同ページに記載なし"
+}
 },
 "東京通信大学（通信制のみ）": {
 "faculties": [
@@ -234621,7 +234676,9 @@ null
 "founded": "2026-11-10",
 "access": "2026-11-10",
 "money": "2026-11-10",
-"research": "2026-11-10"
+"research": "2026-11-10",
+"schedule": "2026-11-14",
+"methods": "2026-11-14"
 },
 "departments": [
 {
@@ -234658,8 +234715,78 @@ null
 "https://passnavi.obunsha.co.jp/univ/2845/",
 "https://passnavi.obunsha.co.jp/univ/2845/top/",
 "https://passnavi.obunsha.co.jp/univ/2845/department/",
-"https://passnavi.obunsha.co.jp/univ/2845/expense/"
-]
+"https://passnavi.obunsha.co.jp/univ/2845/expense/",
+"https://www.internet.ac.jp/news/news-119320/",
+"https://www.internet.ac.jp/admission/degree/"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "正科生 1年次入学 1次募集 3期（2027年春入学）",
+"apply": "2026/10/22〜2026/11/17",
+"exam": "",
+"result": "2026/12/11",
+"proc": "",
+"fee": null,
+"note": "resultは合否通知日。書類必着"
+},
+{
+"kubun": "一般",
+"name": "正科生 1年次入学 1次募集 4期",
+"apply": "2026/11/18〜2026/12/22",
+"exam": "",
+"result": "2027/1/15",
+"proc": "",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "正科生 1年次入学 2次募集 1期",
+"apply": "2026/12/23〜2027/1/19",
+"exam": "",
+"result": "2027/2/12",
+"proc": "",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "正科生 1年次入学 2次募集 2期",
+"apply": "2027/1/20〜2027/2/16",
+"exam": "",
+"result": "2027/3/12",
+"proc": "",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "正科生 1年次入学 2次募集 最終",
+"apply": "2027/2/17〜2027/3/11",
+"exam": "",
+"result": "2027/3/23",
+"proc": "",
+"fee": null
+}
+],
+"note": "大学公式のお知らせ「【正科生】2027年春入学 8/21出願受付開始」。1次募集1期・2期（2期は9/25〜10/21、合否通知11/13）は受付終了。各期とも定員に達し次第締切。入学手続締切・入学選考料は同ページに記載なし（入学要項に記載）"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜（正科生1年次入学、専願・併願）",
+"kyotsu": null,
+"niji": "選考課題（専願は一部免除）。詳細は入学要項",
+"content": "情報マネジメント学部（1年次入学850名）・人間福祉学部（400名）。2027年春入学",
+"req": "入学時に満18歳以上で高校卒業（見込み）またはそれと同等",
+"url": "https://www.internet.ac.jp/admission/degree/"
+}
+],
+"summary": "正科生は一般選抜（専願・併願）。専願は選考課題の一部が免除",
+"note": "大学公式「正科生について」（2027年春入学）"
+}
 },
 "ビジネス・ブレークスルー大学（通信制のみ）": {
 "faculties": [
