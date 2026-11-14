@@ -159877,7 +159877,8 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"schedule": "2026-11-11"
+"schedule": "2026-11-11",
+"money": "2026-11-14"
 },
 "departments": [
 {
@@ -159931,7 +159932,8 @@ null
 "https://www.niit.ac.jp/examination/",
 "https://passnavi.obunsha.co.jp/univ/3350/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3407/nyushi/hoshiki/ippan/index.html",
-"https://telemail.jp/shingaku/university/10000093/examination/general"
+"https://telemail.jp/shingaku/university/10000093/examination/general",
+"https://manabi.benesse.ne.jp/daigaku/school/3407/gakuhi/index.html"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -159985,6 +159987,23 @@ null
 }
 ],
 "note": "一般はマナビジョン（2027年度）とテレメールで一致。共テ利用はテレメール（2027年度）。検定料は未確認"
+},
+"money": {
+"year": "2026年度",
+"note": "ベネッセ マナビジョン（2026年度入学者）。初年度納付金の合計のみ掲載で内訳なし。後援会費50,000円は別",
+"rows": [
+{
+"f": "工学部 工学科",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1580000,
+"four_year": null,
+"note": "後援会費50,000円は含まない。内訳は出典に記載なし"
+}
+]
 }
 },
 "新潟産業大学": {
@@ -232519,7 +232538,8 @@ null
 "money": "2026-11-10",
 "research": "2026-11-10",
 "licenses": "2026-11-10",
-"careers": "2026-11-10"
+"careers": "2026-11-10",
+"schedule": "2026-11-14"
 },
 "faculties": [
 "造形学部"
@@ -232589,8 +232609,60 @@ null
 "https://search.keinet.ne.jp/2258/outline/expense",
 "https://search.keinet.ne.jp/2258/outline/admission_employment",
 "https://search.keinet.ne.jp/2258/general/border_rate",
-"https://search.keinet.ne.jp/2258/general/exam_result"
+"https://search.keinet.ne.jp/2258/general/exam_result",
+"https://manabi.benesse.ne.jp/daigaku/school/3290/nyushi/hoshiki/ippan/index.html"
+],
+"schedule": {
+"year": "2027年度入試",
+"note": "ベネッセ マナビジョン（2027年度入試、ネット出願）。出願・発表・手続はデザイン学科・美術学科とも共通。試験日はデザイン学科2/1、美術学科彫刻2/3〜4、絵画2/7〜8。共テA方式（デザイン学科・彫刻）・共テC方式（絵画）は共通テストと実技の併用。総合型・推薦の日程と検定料は出典に記載なし",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜（デザイン学科）",
+"apply": "1/5〜1/13",
+"exam": "2/1",
+"result": "2/10",
+"proc": "2/18",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜（美術学科 彫刻）",
+"apply": "1/5〜1/13",
+"exam": "2/3〜2/4",
+"result": "2/10",
+"proc": "2/18",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜（美術学科 絵画）",
+"apply": "1/5〜1/13",
+"exam": "2/7〜2/8",
+"result": "2/10",
+"proc": "2/18",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト併用 A方式（デザイン学科・彫刻）",
+"apply": "1/5〜1/13",
+"exam": "共通テスト＋実技（デザイン2/1、彫刻2/3）",
+"result": "2/10",
+"proc": "2/18",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト併用 C方式（絵画）",
+"apply": "1/5〜1/13",
+"exam": "共通テスト＋実技（2/7〜2/8）",
+"result": "2/10",
+"proc": "2/18",
+"fee": null
+}
 ]
+}
 },
 "東京音楽大学": {
 "difficulty": {
@@ -232609,7 +232681,8 @@ null
 "money": "2026-11-10",
 "research": "2026-11-10",
 "licenses": "2026-11-10",
-"careers": "2026-11-10"
+"careers": "2026-11-10",
+"schedule": "2026-11-14"
 },
 "faculties": [
 "音楽学部"
@@ -232698,8 +232771,51 @@ null
 "https://search.keinet.ne.jp/2247/outline/expense",
 "https://search.keinet.ne.jp/2247/outline/admission_employment",
 "https://search.keinet.ne.jp/2247/general/border_rate",
-"https://search.keinet.ne.jp/2247/general/exam_result"
+"https://search.keinet.ne.jp/2247/general/exam_result",
+"https://manabi.benesse.ne.jp/daigaku/school/3280/nyushi/gokaku-happyo/index.html"
+],
+"schedule": {
+"year": "2027年度入試",
+"note": "ベネッセ マナビジョン（2027年度入試、ネット出願）。音楽学部音楽学科の全専攻で出願・発表・手続の日程は共通。試験日は専攻により異なる（器楽専攻の例）。総合型は専攻により1期（9月出願）と2期（9〜10月出願）がある。共通テスト利用・学校推薦型は掲載なし。検定料は出典に記載なし",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 A日程",
+"apply": "1/6〜1/18",
+"exam": "2/16〜2/19（専攻により異なる）",
+"result": "2/26",
+"proc": "3/5",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 B日程",
+"apply": "2/27〜3/5",
+"exam": "3/16〜3/17",
+"result": "3/18",
+"proc": "3/24",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 1期",
+"apply": "2026/9/4〜2026/9/11",
+"exam": "2026/10/2〜2026/10/4",
+"result": "2026/11/2",
+"proc": "2026/11/12",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 2期（器楽・ミュージックリベラルアーツ・吹奏楽アカデミー・ミュージックビジネステクノロジー専攻）",
+"apply": "2026/9/24〜2026/10/1",
+"exam": "2026/11/29",
+"result": "2026/12/7",
+"proc": "2026/12/15",
+"fee": null
+}
 ]
+}
 },
 "東洋学園大学": {
 "difficulty": {
