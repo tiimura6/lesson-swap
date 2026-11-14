@@ -166646,10 +166646,11 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-12",
+"schedule": "2026-11-14",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"money": "2026-11-14"
 },
 "departments": [
 {
@@ -166714,7 +166715,7 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "2/26",
 "proc": "3/5",
-"fee": null
+"fee": 20000
 },
 {
 "kubun": "共テ利用",
@@ -166723,10 +166724,10 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "3/10",
 "proc": "3/15",
-"fee": null
+"fee": 20000
 }
 ],
-"note": "マナビジョン（2027年度入試）で再確認（2026-11-12、変更なし）。共テ利用の検定料は未確認"
+"note": "マナビジョン（2027年度入試）で再確認（2026-11-12、変更なし）。検定料は大学公式受験生サイト（年度表記なし）：一般35,000円、共通テスト利用のみ20,000円、共通テスト利用と同時期の一般選抜を併願すると一般の検定料は15,000円"
 },
 "access": "愛知県名古屋市瑞穂区春敲町2-13",
 "careers": "養護教諭、保健体育教諭、スポーツ指導者、心理職、一般企業など。",
@@ -166735,8 +166736,27 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3528/nyushi/hoshiki/ippan/",
 "https://up-j.shigaku.go.jp/department/category06/00000000456201001.html",
 "https://passnavi.obunsha.co.jp/univ/3655/difficulty/?facultyID=005",
-"https://manabi.benesse.ne.jp/daigaku/school/3528/nyushi/gokaku-happyo/"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3528/nyushi/gokaku-happyo/",
+"https://passnavi.obunsha.co.jp/univ/3655/expense/",
+"https://juken.mizuho-c.ac.jp/c/admissions/tuition/"
+],
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "人間科学部 心身健康科学科",
+"admission": 260000,
+"tuition": 690000,
+"facility": 325000,
+"practical": 0,
+"other": 20000,
+"first_year": 1295000,
+"four_year": null,
+"note": "facilityは教育充実費（入学時に納入。公式では2年次以降は年245,000円）、otherは厚生費。入学時最小限納入金額585,000円。保険料・学生会費は別途"
+}
+],
+"note": "旺文社パスナビ（2027年度、2026年9月調査時点）。大学公式受験生サイトの学費表（入学料260,000円・教育充実費325,000円、授業料年690,000円、厚生費年20,000円）と一致。公式の入学後4年間の合計は3,575,000円（入学時の585,000円は別）"
+}
 },
 "愛知医療学院大学": {
 "faculties": [
@@ -173083,7 +173103,7 @@ null
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
 "schedule": "2026-11-12",
-"money": "2026-11-07",
+"money": "2026-11-14",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07"
@@ -173195,11 +173215,13 @@ null
 "tuition": 700000,
 "facility": 400000,
 "practical": 400000,
-"other": 0,
-"first_year": 1750000,
-"four_year": null
+"other": 10000,
+"first_year": 1760000,
+"four_year": null,
+"note": "otherは諸会費。入学時最小限納入金額1,010,000円。別途、保険料18,000〜36,000円・抗体価検査12,000円"
 }
-]
+],
+"note": "旺文社パスナビ（2026年度、2026年5月調査時点）。2027年度の金額は未確認"
 },
 "access": "愛知県一宮市常願通5-4-1",
 "careers": "看護師、保健師として医療機関・保健所など。",
@@ -173210,7 +173232,8 @@ null
 "https://search.keinet.ne.jp/2430/outline/expense",
 "https://search.keinet.ne.jp/2430/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/3656/difficulty/",
-"https://manabi.benesse.ne.jp/daigaku/school/3564/nyushi/gokaku-happyo/"
+"https://manabi.benesse.ne.jp/daigaku/school/3564/nyushi/gokaku-happyo/",
+"https://passnavi.obunsha.co.jp/univ/3656/expense/"
 ]
 },
 "中京大学": {
@@ -173514,7 +173537,7 @@ null
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
 "schedule": "2026-11-12",
-"money": "2026-11-07",
+"money": "2026-11-14",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07"
@@ -173635,7 +173658,7 @@ null
 "note": "マナビジョン（2027年度入試）。2027年4月に校名変更予定との注記あり。検定料は共テ選抜の既存値のみ"
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
 "f": "経営学部 経営学科",
@@ -173643,9 +173666,10 @@ null
 "tuition": 660000,
 "facility": 400000,
 "practical": 120000,
-"other": 0,
-"first_year": 1380000,
-"four_year": 4920000
+"other": 27600,
+"first_year": 1407600,
+"four_year": null,
+"note": "facilityは教育充実費、otherは諸会費（健康診断料・保護者会費・保険料等）。実習費に演習費を含む。入学時最小限納入金額790,000円"
 },
 {
 "f": "看護学部 看護学科",
@@ -173653,11 +173677,13 @@ null
 "tuition": 900000,
 "facility": 400000,
 "practical": 240000,
-"other": 0,
-"first_year": 1740000,
-"four_year": 6360000
+"other": 48800,
+"first_year": 1788800,
+"four_year": null,
+"note": "facilityは教育充実費、otherは諸会費。入学時最小限納入金額970,000円。教科書・ユニフォーム・ワクチン接種費用、保健師課程の費用は別途"
 }
-]
+],
+"note": "旺文社パスナビ（2027年度、2026年9月調査時点）。Kei-Net（2026年度入学者用）の入学金・授業料・教育充実費・実習費と同額。2027年4月に「中京学院大学」へ名称変更予定（旧称 YIC中京学院大学）"
 },
 "access": "中津川キャンパス（経営学部）・瑞浪キャンパス（看護学部）。2027年4月に多治見市の新キャンパスへ移転予定（大学の発表）",
 "careers": "一般企業、公務員、看護師、保健師など。",
@@ -173667,7 +173693,9 @@ null
 "https://secondhome.chukyogakuin-u.ac.jp/admissions/kyotsu/",
 "https://www.chukyogakuin-u.ac.jp/admissions/school-expenses/",
 "https://passnavi.obunsha.co.jp/univ/3565/difficulty/?facultyID=010",
-"https://manabi.benesse.ne.jp/daigaku/school/3485/nyushi/hoshiki/ippan/"
+"https://manabi.benesse.ne.jp/daigaku/school/3485/nyushi/hoshiki/ippan/",
+"https://passnavi.obunsha.co.jp/univ/3565/expense/",
+"https://search.keinet.ne.jp/2412/outline/expense"
 ]
 },
 "中部大学": {
@@ -173987,7 +174015,7 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"schedule": "2026-11-11"
+"schedule": "2026-11-14"
 },
 "departments": [
 {
@@ -174086,7 +174114,9 @@ null
 "https://search.keinet.ne.jp/2413/outline/expense",
 "https://passnavi.obunsha.co.jp/univ/3567/difficulty/",
 "https://www.shingakunavi.ne.jp/%E5%A4%A7%E5%AD%A6-%E9%80%B2%E5%AD%A6/%E4%B8%AD%E9%83%A8%E5%AD%A6%E9%99%A2%E5%A4%A7%E5%AD%A6/%E9%A1%98%E6%9B%B8-%E5%85%A5%E8%A9%A6/",
-"https://manabi.benesse.ne.jp/daigaku/school/3487/nyushi/gokaku-happyo/"
+"https://manabi.benesse.ne.jp/daigaku/school/3487/nyushi/gokaku-happyo/",
+"https://passnavi.obunsha.co.jp/univ/3567/schedule/",
+"https://www.chubu-gu.ac.jp/nyushi/expenses/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -174098,7 +174128,7 @@ null
 "exam": "2/2〜2/5",
 "result": "2/12",
 "proc": "2/19",
-"fee": null
+"fee": 30000
 },
 {
 "kubun": "一般",
@@ -174107,7 +174137,7 @@ null
 "exam": "3/6",
 "result": "3/12",
 "proc": "3/23",
-"fee": null
+"fee": 30000
 },
 {
 "kubun": "共テ利用",
@@ -174137,7 +174167,7 @@ null
 "fee": null
 }
 ],
-"note": "マナビジョン（2027年度）。全学部・学科で同じ日程。検定料は未確認"
+"note": "日程はマナビジョン（2027年度）・パスナビ（2027年度入試、A〜D日程は2/2〜2/5）で一致。一般の受験料は大学公式（入試ガイド2027の案内ページ）で1回目30,000円、2回目15,000円、3回目以降10,000円（大学・短大を通算）。共通テスト利用の検定料は未確認（減額制度の対象外）"
 }
 },
 "人間環境大学": {
@@ -234193,7 +234223,9 @@ null
 "departments": "2026-11-10",
 "access": "2026-11-10",
 "money": "2026-11-10",
-"research": "2026-11-10"
+"research": "2026-11-10",
+"schedule": "2026-11-14",
+"methods": "2026-11-14"
 },
 "departments": [
 {
@@ -234224,8 +234256,52 @@ null
 "sources": [
 "https://www.ouj.ac.jp/gakubu/about/",
 "https://www.ouj.ac.jp/admission/gakubu/flow/",
-"https://tobe.ouj.ac.jp/fee/"
-]
+"https://tobe.ouj.ac.jp/fee/",
+"https://www.ouj.ac.jp/application/",
+"https://www.ouj.ac.jp/admission/gakubu/overview/"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "その他",
+"name": "全科履修生（2027年4月入学）第1回",
+"apply": "2026/11/26〜2027/2/28",
+"exam": "",
+"result": "",
+"proc": "",
+"fee": null,
+"note": "インターネット出願。期間中に証明書類の郵送が必要"
+},
+{
+"kubun": "その他",
+"name": "全科履修生（2027年4月入学）第2回",
+"apply": "2027/3/1〜2027/3/15",
+"exam": "",
+"result": "",
+"proc": "",
+"fee": null,
+"note": "3/15は17時まで"
+}
+],
+"note": "大学公式のインターネット出願ページ（2027年4月入学）。入学試験の記載はなく、大学入学資格を証明する書類で出願。合格すると合格通知と払込取扱票が届き、入学料・授業料を払い込む"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "その他",
+"name": "全科履修生（教養学部）",
+"kyotsu": null,
+"niji": "入学試験の記載なし（大学入学資格の証明書類で出願）",
+"content": "6コースのいずれかに所属。在学年限は最長10年。4月入学と10月入学がある",
+"req": "大学入学資格",
+"url": "https://www.ouj.ac.jp/admission/gakubu/flow/"
+}
+],
+"summary": "全科履修生は試験の記載がなく、大学入学資格の証明書類で出願（年2回、4月・10月入学）",
+"note": "大学公式（学生募集の概要・入学の流れ）"
+}
 },
 "星槎大学（通信制のみ）": {
 "faculties": [
@@ -234237,7 +234313,9 @@ null
 "access": "2026-11-10",
 "money": "2026-11-10",
 "research": "2026-11-10",
-"licenses": "2026-11-10"
+"licenses": "2026-11-10",
+"schedule": "2026-11-14",
+"methods": "2026-11-14"
 },
 "departments": [
 {
@@ -234274,8 +234352,41 @@ null
 "sources": [
 "https://seisa.ac.jp/about/outline",
 "https://seisa.ac.jp/program/",
-"https://seisa.ac.jp/admission/fee/fees/"
-]
+"https://seisa.ac.jp/admission/fee/fees/",
+"https://seisa.ac.jp/admission/flow/"
+],
+"schedule": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "その他",
+"name": "正科生（2027年度4月生）",
+"apply": "12/15〜5/31",
+"exam": "",
+"result": "",
+"proc": "",
+"fee": null,
+"note": "必着。書類審査は証明書類がそろい次第順次始まり、約3週間で合格者に入学手続書類を郵送"
+}
+],
+"note": "大学公式「出願からの流れ」（2027年度4月生）。2026年度10月生は8/1〜10/31。検定料の金額は同ページに記載なし"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "その他",
+"name": "正科生（書類審査）",
+"kyotsu": null,
+"niji": "提出された証明書類による書類審査",
+"content": "春（4月）と秋（10月）の入学がある",
+"req": null,
+"url": "https://seisa.ac.jp/admission/flow/"
+}
+],
+"summary": "正科生は証明書類による書類審査（4月・10月入学）",
+"note": "大学公式「出願からの流れ」"
+}
 },
 "八洲学園大学（通信制のみ）": {
 "faculties": [
