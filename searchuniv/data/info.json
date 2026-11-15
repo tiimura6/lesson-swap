@@ -18624,7 +18624,7 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "money": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-15",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -18710,16 +18710,16 @@
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜（共テなし）",
-"apply": "〜11/5登",
+"apply": "11/1〜11/6",
 "exam": "11/21",
 "result": "12/7",
 "proc": "12/15",
-"note": "Kei-Net表記どおり（出願は締切日のみ）。共同教育学部・情報学部の日程。理工学部は試験日11/17。"
+"note": "出願期間は令和9年度入学者選抜要項（公式）で確認。共同教育学部・情報学部の日程。理工学部は試験日11/17。"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜（共テあり）",
-"apply": "〜11/5登",
+"apply": "11/1〜11/6",
 "exam": "11/21・11/22",
 "result": "2/10",
 "proc": "2/17",
@@ -53030,7 +53030,8 @@
 "https://search.keinet.ne.jp/2156/outline/licential",
 "https://search.keinet.ne.jp/2156/outline/admission_employment",
 "https://telemail.jp/shingaku/university/10001450/examination/general",
-"https://passnavi.obunsha.co.jp/univ/2050/department/"
+"https://passnavi.obunsha.co.jp/univ/2050/department/",
+"https://passnavi.obunsha.co.jp/univ/2050/eiken/"
 ],
 "licenses": [
 "教員免許（中・高 英語・独仏語・社会ほか）",
@@ -53305,7 +53306,8 @@
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"research": "2026-11-15"
+"research": "2026-11-15",
+"eng": "2026-11-15"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -53548,7 +53550,64 @@
 "国際教養学部：言語文化学科。英語とスペイン語・中国語・韓国語の2言語併修、地域研究・社会学・言語学など10の研究科目群",
 "経済学部：経済学科・経営学科・国際環境経済学科（環境経済・国際政策）。データサイエンスも学べる",
 "法学部：法律学科（行政法務・企業法務・法曹）、国際関係法学科、総合政策学科（まちづくり・地方政治・環境・福祉・人権）"
-]
+],
+"eng": {
+"year": "2027年度入試（一般選抜は2026年度情報）",
+"rows": [
+{
+"kubun": "一般",
+"name": "外検＋（プラス）・共テ利用（英語資格）（2026年度情報）",
+"use": "出願資格",
+"level": "英検CSE 1980〜2100／TEAP 205〜255／IELTS 4.0〜4.5（学科で異なる。英語・交流文化学科はCSE 2100・TEAP 255・IELTS 4.5、言語文化学科はCSE 2060・TEAP 250・IELTS 4.5）",
+"cse": 1980,
+"tests": "英検・TEAP・IELTS",
+"faculties": "外国語・国際教養・経済・法学部の全学科",
+"note": "パスナビは出願基準の数値のみ掲載（利用方法の詳しい説明はなし）。2方式とも同じ基準"
+},
+{
+"kubun": "推薦",
+"name": "課外活動",
+"use": "出願資格",
+"level": "英検CSE 2000／TEAP 230／IELTS 4.5",
+"cse": 2000,
+"tests": "英検・TEAP・IELTS",
+"faculties": "外国語学部（英語学科・交流文化学科）",
+"note": ""
+},
+{
+"kubun": "総合型",
+"name": "自己推薦（Aグループ・Bグループ）",
+"use": "出願資格",
+"level": "英検CSE 1980〜2250／TEAP 205〜280／IELTS 4.0〜4.5（学科・グループで異なる。交流文化学科Bグループが最も高くCSE 2250）",
+"cse": 1980,
+"tests": "英検・TEAP・IELTS",
+"faculties": "外国語・国際教養・経済学部",
+"note": "経済・経営学科はCSE 1980、国際環境経済学科はCSE 2000"
+},
+{
+"kubun": "総合型",
+"name": "自己推薦（法学部）",
+"use": "出願資格",
+"level": "英検CSE 1728／TEAP 186／IELTS 3.0",
+"cse": 1728,
+"tests": "英検・TEAP・IELTS",
+"faculties": "法学部（法律・国際関係法・総合政策学科）",
+"note": ""
+},
+{
+"kubun": "総合型",
+"name": "Q（課題探究）入試",
+"use": "出願資格",
+"level": "英検CSE 1980／TEAP 220／IELTS 4.0",
+"cse": 1980,
+"tests": "英検・TEAP・IELTS",
+"faculties": "外国語学部ドイツ語学科",
+"note": ""
+}
+],
+"summary": "一般選抜の外検＋（プラス）と共テ利用（英語資格）で、英検CSE 1980〜2100などの基準を出願に使う（2026年度情報）。推薦（課外活動）・総合型（自己推薦・Q入試）も学科ごとに英検CSEなどの基準がある。",
+"note": "パスナビ掲載。一般選抜は昨年度（2026年度）の情報"
+}
 },
 "國學院大學": {
 "difficulty": {
@@ -57130,7 +57189,8 @@
 "https://think.komazawa-u.ac.jp/admission/list/center/",
 "https://www.komazawa-u.ac.jp/campuslife/files/komazawa_gakubu_2027.pdf",
 "https://search.keinet.ne.jp/2216/general/exam_fee",
-"https://passnavi.obunsha.co.jp/univ/2430/department/"
+"https://passnavi.obunsha.co.jp/univ/2430/department/",
+"https://passnavi.obunsha.co.jp/univ/2430/eiken/"
 ],
 "licenses": [
 "教員免許（中・高 国語・英語・社会・宗教・商業ほか）",
@@ -57427,7 +57487,8 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "_via": "2026-11-07",
-"research": "2026-11-15"
+"research": "2026-11-15",
+"eng": "2026-11-15"
 },
 "schedule": {
 "year": "2027年度入試（日程）／検定料は2026年度入試（Kei-Net）",
@@ -57790,7 +57851,54 @@
 "経営学部：経営学科（企業経営・企業会計・経済分析・金融キャリアの4コース）と市場戦略学科（市場創造・市場分析・現代産業・起業の3コース）",
 "医療健康科学部：診療放射線技術科学科。CT・MRIなどを備えた実験室と、放射線治療装置メーカーとの連携による実機学習",
 "グローバル・メディア・スタディーズ学部：データサイエンス・AI、グローバルビジネス、デジタルコンテンツ、グローバルポリシーの4コース。英語力向上のプログラムと留学・海外インターンシップの単位認定"
-]
+],
+"eng": {
+"year": "2027年度入試（一般選抜は2026年度情報）",
+"rows": [
+{
+"kubun": "一般",
+"name": "全学部統一日程選抜（2026年度情報）",
+"use": "得点換算",
+"level": "英検CSE 1950／TEAP 225で75点に換算",
+"cse": 1950,
+"tests": "英検・TEAP",
+"faculties": "仏教・文・経済・法・経営・グローバル・メディア・スタディーズ学部",
+"note": "優遇対象は個別試験の外国語（英語）"
+},
+{
+"kubun": "一般",
+"name": "S方式（2026年度情報）",
+"use": "得点換算",
+"level": "英検CSE 2450／TEAP 342／IELTS 6.0で190点、CSE 2125／TEAP 267／IELTS 4.5で160点に換算",
+"cse": 2125,
+"tests": "英検・TEAP・IELTS",
+"faculties": "グローバル・メディア・スタディーズ学部",
+"note": "優遇対象は個別試験の外国語（英語）"
+},
+{
+"kubun": "総合型",
+"name": "自己推薦（特性評価型）",
+"use": "出願資格",
+"level": "英検2級（英米文学科はTEAP 220・IELTS 4.5も可、経済学部はTEAP 185も可）",
+"grade": "2級",
+"tests": "英検・TEAP・IELTS",
+"faculties": "仏教学部・文学部英米文学科・経済学部（経済・商学科）",
+"note": ""
+},
+{
+"kubun": "総合型",
+"name": "自己推薦（特性評価型A方式）",
+"use": "出願資格",
+"level": "英検CSE 1950／TEAP 225／IELTS 4.0",
+"cse": 1950,
+"tests": "英検・TEAP・IELTS",
+"faculties": "グローバル・メディア・スタディーズ学部",
+"note": ""
+}
+],
+"summary": "一般選抜の全学部統一日程とS方式（GMS学部）で、英検CSEなどのスコアを英語の得点に換算する（2026年度情報）。総合型の自己推薦（特性評価型）は英検2級などを出願資格にする。",
+"note": "パスナビ掲載。一般選抜は昨年度（2026年度）の情報。医療健康科学部は情報なし"
+}
 },
 "専修大学": {
 "difficulty": {
