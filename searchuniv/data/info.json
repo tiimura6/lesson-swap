@@ -21172,7 +21172,7 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-07",
+"schedule": "2026-11-15",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "eng": "2026-11-06",
@@ -21229,6 +21229,15 @@
 "result": "2/9",
 "proc": "2/16",
 "note": "学部により異なる"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型（共テ利用・商学部）",
+"apply": "1/11〜1/14",
+"exam": "1/27",
+"result": "2/9",
+"proc": "2/16",
+"note": ""
 },
 {
 "kubun": "総合型",
@@ -22115,7 +22124,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-07",
+"schedule": "2026-11-15",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "eng": "2026-11-06",
@@ -22154,17 +22163,28 @@
 "exam": "2/25",
 "result": "3/5",
 "proc": "3/14",
-"fee": null,
-"note": "コンピュータ理工学部。出願には事前登録が必要。共通テスト1/16・1/17。検定料はパスナビに掲載なし"
+"fee": 17000,
+"note": "コンピュータ理工学部。出願には事前登録が必要。共通テスト1/16・1/17。2/3必着"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型（推薦A県内・推薦B全国）",
-"apply": "〜11/10",
+"apply": "11/2〜11/11",
 "exam": "11/28",
 "result": "12/4",
 "proc": "12/10",
-"note": "出願は締切日（11/10、登録）のみ掲載。一般選抜の日程は出典に未掲載"
+"note": "11/11必着。入学手続締切は2027年度入学者選抜要項に記載なし（パスナビの掲載による）",
+"fee": 17000
+},
+{
+"kubun": "その他",
+"name": "早期入学（飛び入学）選抜",
+"apply": "11/30〜12/9",
+"exam": "2/25",
+"result": "3/5",
+"proc": null,
+"fee": 17000,
+"note": "12/9必着"
 }
 ]
 },
@@ -49023,7 +49043,8 @@
 "https://telemail.jp/shingaku/university/10001573/examination/general",
 "https://manabi.benesse.ne.jp/daigaku/school/3644/nyushi/",
 "https://shingakunet.com/gakko/SC000192/gakuhi/",
-"https://passnavi.obunsha.co.jp/univ/4240/department/"
+"https://passnavi.obunsha.co.jp/univ/4240/department/",
+"https://passnavi.obunsha.co.jp/univ/4240/eiken/"
 ],
 "licenses": [
 "教員免許（小・中・高 各教科）",
@@ -49577,7 +49598,8 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "_via": "2026-11-07",
-"research": "2026-11-15"
+"research": "2026-11-15",
+"eng": "2026-11-15"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -50108,7 +50130,98 @@
 "システム理工学部：数学・物理応用物理・機械工・電気電子情報工・グリーンエレクトロニクス工（2026年新設）の5学科",
 "環境都市工学部：建築（一級建築士受験資格）・都市システム工・エネルギー環境化学工の3学科",
 "化学生命工学部：化学・物質工学科（マテリアル科学・応用化学・バイオ分子化学）と生命・生物工学科"
-]
+],
+"eng": {
+"year": "2027年度入試（一般選抜は2026年度情報）",
+"rows": [
+{
+"kubun": "一般",
+"name": "2教科型（英語外部試験利用）（2026年度情報）",
+"use": "加点",
+"level": "出願・加点30：英検2級かつCSE 2300／TEAP 309／IELTS 5.5、出願・加点15：英検2級かつCSE 2125／TEAP 267／IELTS 5.0、出願のみ：CEFR B1",
+"cse": 2125,
+"grade": "2級",
+"tests": "英検・TEAP・IELTS",
+"faculties": "法・文・経済・政策創造・人間健康・社会安全学部",
+"note": "出願資格（CEFR B1以上）を兼ねる。加点の対象は個別試験の総点。英検は2級以上を受検"
+},
+{
+"kubun": "一般",
+"name": "共テ前（2科目型 英語外部試験重視）（2026年度情報）",
+"use": "得点換算",
+"level": "換算200：英検2級かつCSE 2300／TEAP 309／IELTS 5.5、換算180：CSE 2125／TEAP 267／IELTS 5.0、換算160：CEFR B1",
+"cse": 2125,
+"grade": "2級",
+"tests": "英検・TEAP・IELTS",
+"faculties": "文学部",
+"note": "英語外部試験のスコアが優遇対象"
+},
+{
+"kubun": "一般",
+"name": "2教科型（英語＋1教科選択）（2026年度情報）",
+"use": "得点換算",
+"level": "換算150：英検準1級かつCSE 2630／IELTS 7.0、換算135：CSE 2540／IELTS 6.5、換算120：CEFR B2",
+"cse": 2540,
+"grade": "準1級",
+"tests": "英検・IELTS",
+"faculties": "外国語学部",
+"note": "優遇対象は個別試験の外国語。個別の外国語の受験は必須"
+},
+{
+"kubun": "一般",
+"name": "共テ後（3科目型 英語外部試験利用）（2026年度情報）",
+"use": "出願資格",
+"level": "CEFR B1以上",
+"tests": "英検・TEAP・IELTS",
+"faculties": "システム理工学部",
+"note": "CEFRの詳細は募集要項"
+},
+{
+"kubun": "総合型",
+"name": "AO入試（外国語学部・スポーツ・フロンティア）",
+"use": "出願資格",
+"level": "英検2級かつCSE 2100／TEAP 250／IELTS 5.0",
+"cse": 2100,
+"grade": "2級",
+"tests": "英検・TEAP・IELTS",
+"faculties": "外国語学部",
+"note": "英検は級の合格（準1級・1級は一次合格も可）に加えCSEスコアが必要"
+},
+{
+"kubun": "総合型",
+"name": "AO入試（法・文・経済・政策創造）",
+"use": "出願資格",
+"level": "法：CSE 1950／TEAP 225／IELTS 4.0（英検2級以上を受験）、文（外国語能力重視型）・経済（グローバルリーダー志向型）：英検2級（経済はCEFR B1も可）、政策創造：CSE 2300／TEAP 309／IELTS 5.5（英検準1級以上を受験）",
+"cse": 1950,
+"grade": "2級",
+"tests": "英検・TEAP・IELTS",
+"faculties": "法・文・経済・政策創造学部",
+"note": "学部ごとに基準が異なる"
+},
+{
+"kubun": "総合型",
+"name": "AO入試（商・ビジネスデータサイエンス）",
+"use": "出願資格",
+"level": "英検準1級（表記は高度な資格をもつ者の例）",
+"grade": "準1級",
+"tests": "英検・TEAP・IELTS",
+"faculties": "商学部・ビジネスデータサイエンス学部",
+"note": ""
+},
+{
+"kubun": "推薦",
+"name": "公募制推薦（商学部）",
+"use": "出願資格",
+"level": "英検2級",
+"grade": "2級",
+"tests": "英検",
+"faculties": "商学部",
+"note": "英語資格に加えて指定された他の資格が必要"
+}
+],
+"summary": "一般選抜の2教科型（英語外部試験利用）は英検2級・CEFR B1以上などを出願資格にし、スコアに応じて個別試験の総点に30点・15点を加点する（2026年度情報）。外国語学部は準1級レベルで外国語の得点を換算し、AO入試では学部ごとに英検2級〜準1級レベルを出願資格にする。",
+"note": "パスナビ掲載（全学部）。社会・総合情報・環境都市工・化学生命工学部は掲載なし。一般選抜は昨年度（2026年度）の情報"
+}
 },
 "南山大学": {
 "difficulty": {
@@ -54776,7 +54889,10 @@
 "https://search.keinet.ne.jp/2267/outline/licential",
 "https://search.keinet.ne.jp/2267/outline/admission_employment",
 "https://www.med.nihon-u.ac.jp/examinee/guidance.php",
-"https://www.nihon-u.ac.jp/assets/ippan_i_260519.pdf"
+"https://www.nihon-u.ac.jp/assets/ippan_i_260519.pdf",
+"https://passnavi.obunsha.co.jp/univ/2930/eiken/?facultyID=005",
+"https://passnavi.obunsha.co.jp/univ/2930/eiken/?facultyID=015",
+"https://passnavi.obunsha.co.jp/univ/2930/eiken/?facultyID=030"
 ],
 "licenses": [
 "医師・歯科医師・薬剤師・獣医師 国家試験受験資格",
@@ -55157,7 +55273,8 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"eng": "2026-11-15"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -56101,7 +56218,65 @@
 ],
 "note": "河合塾Kei-Netの英語の入試対策情報に基づく。"
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"eng": {
+"year": "2027年度入試（一般選抜は2026年度情報）",
+"rows": [
+{
+"kubun": "一般",
+"name": "A個別（第1期・第2期）（2026年度情報）",
+"use": "得点換算",
+"level": "法：換算90＝CSE 2304／TEAP 309／IELTS 5.5、80＝CSE 2142／TEAP 267／IELTS 5.0、70＝CSE 1980／TEAP 225／IELTS 4.5。経済・国際関係：換算100・90・80（基準は同じ）",
+"cse": 1980,
+"tests": "英検・TEAP・IELTS",
+"faculties": "法・経済・国際関係学部",
+"note": "優遇対象は個別試験の外国語。英検は2級を受験（合否は問わない）"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（法学部）",
+"use": "出願資格",
+"level": "英検2級またはCSE 1980／TEAP 225／IELTS 4.0",
+"cse": 1980,
+"grade": "2級",
+"tests": "英検・TEAP・IELTS",
+"faculties": "法学部（第一部・第二部法律学科）",
+"note": ""
+},
+{
+"kubun": "総合型",
+"name": "総合型（資格取得型）（経済学部）",
+"use": "出願資格",
+"level": "英検2級",
+"grade": "2級",
+"tests": "英検",
+"faculties": "経済学部（経済学科は国際コースを除く）",
+"note": ""
+},
+{
+"kubun": "総合型",
+"name": "総合型 第2期（海外経験・語学力活用）（国際関係学部）",
+"use": "出願資格",
+"level": "英検2級／IELTS 4.5",
+"grade": "2級",
+"tests": "英検・IELTS",
+"faculties": "国際関係学部",
+"note": ""
+},
+{
+"kubun": "推薦",
+"name": "公募制推薦（国際関係学部）",
+"use": "出願資格",
+"level": "英検準2級",
+"grade": "準2級",
+"tests": "英検",
+"faculties": "国際関係学部",
+"note": ""
+}
+],
+"summary": "一般選抜A個別では、英検CSE 1980・TEAP 225・IELTS 4.5以上のスコアを個別試験の外国語の得点に換算する（2026年度情報、法・経済・国際関係学部）。法学部の総合型は英検2級またはCSE 1980などを出願資格にする。",
+"note": "パスナビの法・経済・国際関係学部のページから作成。他の学部は未確認。一般選抜は昨年度（2026年度）の情報"
+}
 },
 "東洋大学": {
 "difficulty": {
@@ -56153,7 +56328,10 @@
 "https://search.keinet.ne.jp/2265/outline/admission_employment",
 "https://www.toyo.ac.jp/nyushi/admission/general/",
 "https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/home/exam_schedule_2027.pdf",
-"https://search.keinet.ne.jp/2265/general/exam_fee"
+"https://search.keinet.ne.jp/2265/general/exam_fee",
+"https://passnavi.obunsha.co.jp/univ/2910/eiken/?facultyID=005",
+"https://passnavi.obunsha.co.jp/univ/2910/eiken/?facultyID=010",
+"https://passnavi.obunsha.co.jp/univ/2910/eiken/?facultyID=015"
 ],
 "licenses": [
 "教員免許（幼・小・中・高・特別支援・栄養・養護）",
@@ -56505,7 +56683,8 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"eng": "2026-11-15"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -57188,7 +57367,73 @@
 ],
 "note": "河合塾Kei-Netの英語の入試対策情報に基づく。"
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"eng": {
+"year": "2027年度入試（一般選抜は2026年度情報）",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般前（2026年度情報）",
+"use": "得点換算",
+"level": "換算100：CSE 2304／TEAP 309／IELTS 6.0、90：CSE 2150／TEAP 253／IELTS 5.5、80：CSE 1980／TEAP 225／IELTS 5.0",
+"cse": 1980,
+"tests": "英検・TEAP・IELTS",
+"faculties": "文・経済・経営学部",
+"note": "優遇対象は個別試験の英語。英検は1級・準1級・2級のいずれかを受験（不合格でも可）。換算点は素点"
+},
+{
+"kubun": "共テ利用",
+"name": "共テ利用前（2026年度情報）",
+"use": "得点換算",
+"level": "換算200：CSE 2304、180：CSE 2150、160：CSE 1980（TEAP・IELTSも一般前と同じ基準）",
+"cse": 1980,
+"tests": "英検・TEAP・IELTS",
+"faculties": "文・経済・経営学部",
+"note": "優遇対象は共通テストの英語"
+},
+{
+"kubun": "一般",
+"name": "多面的評価（2026年度情報）",
+"use": "得点換算",
+"level": "換算100〜30（CSE 2304〜1699以下）",
+"tests": "英検・TEAP・IELTS",
+"faculties": "文学部（哲・東洋思想文化・教育学科）",
+"note": "優遇対象は個別試験の英語"
+},
+{
+"kubun": "総合型",
+"name": "総合型（基礎学力テスト型）",
+"use": "得点換算",
+"level": "換算100：CSE 2304、90：CSE 2150、80：CSE 1980（TEAP 309／253／225、IELTS 6.0／5.5／5.0）",
+"cse": 1980,
+"tests": "英検・TEAP・IELTS",
+"faculties": "文・経済・経営学部",
+"note": "優遇対象は個別試験の英語。英検は2級以上を受験"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦（総合評価型）",
+"use": "出願資格",
+"level": "経済学部国際経済学科・経営学部：CSE 1980／TEAP 225／IELTS 4.5、経済学部総合政策学科：CSE 1800／TEAP 195／IELTS 4.0、文学部英米文学科：スコア指定なし",
+"cse": 1800,
+"tests": "英検・TEAP・IELTS",
+"faculties": "文・経済・経営学部",
+"note": "英検は2級以上を受験"
+},
+{
+"kubun": "総合型",
+"name": "AO型推薦・自己推薦",
+"use": "出願資格",
+"level": "CSE 1800／TEAP 195／IELTS 4.5（総合政策学科のAO型推薦はIELTS 4.0）",
+"cse": 1800,
+"tests": "英検・TEAP・IELTS",
+"faculties": "文学部国際文化コミュニケーション学科・経済学部（総合政策・経済学科）",
+"note": "英検は2級以上を受験"
+}
+],
+"summary": "一般前・共テ利用前では英検CSE 1980以上などのスコアを英語の得点（個別試験は100〜80、共テは200〜160）に換算する（2026年度情報）。総合型（基礎学力テスト型）も同じ基準で換算し、学校推薦（総合評価型）やAO型推薦はCSE 1800〜1980などを出願資格にする。",
+"note": "パスナビの文・経済・経営学部のページから作成。他の学部は未確認。一般選抜は昨年度（2026年度）の情報"
+}
 },
 "駒澤大学": {
 "difficulty": {
@@ -59216,7 +59461,12 @@
 "https://search.keinet.ne.jp/2282/outline/licential",
 "https://search.keinet.ne.jp/2282/outline/admission_employment",
 "https://manabi.benesse.ne.jp/daigaku/school/3314/nyushi/gokaku-happyo/index.html",
-"https://passnavi.obunsha.co.jp/univ/3080/department/"
+"https://passnavi.obunsha.co.jp/univ/3080/department/",
+"https://passnavi.obunsha.co.jp/univ/3080/eiken/?facultyID=020",
+"https://passnavi.obunsha.co.jp/univ/3080/eiken/?facultyID=045",
+"https://passnavi.obunsha.co.jp/univ/3080/eiken/?facultyID=040",
+"https://passnavi.obunsha.co.jp/univ/3080/eiken/?facultyID=030",
+"https://passnavi.obunsha.co.jp/univ/3080/eiken/?facultyID=025"
 ],
 "licenses": [
 "教員免許（中・高 数学・理科・技術、高 工業・情報）",
@@ -59509,7 +59759,8 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
-"research": "2026-11-15"
+"research": "2026-11-15",
+"eng": "2026-11-15"
 },
 "schedule": {
 "year": "2027年度入試（日程はマナビジョン掲載）／検定料は2026年度入試",
@@ -59753,7 +60004,53 @@
 "都市生活学部：都市の文化・商業・サービス・まちづくり・空間デザイン。半数以上の学生が留学する",
 "人間科学部：人間科学科。「子ども中心社会」を軸に、教育・福祉・心理・健康を学ぶ（学内の子育て支援センターを活用）",
 "創発デザイン工学環（2027年設置予定）：工学とデザイン思考・情報活用を組み合わせる（学科組織なし）"
-]
+],
+"eng": {
+"year": "2027年度入試（一般選抜は2026年度情報）",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般前・中（2026年度情報）",
+"use": "得点換算",
+"level": "換算100：CSE 2304／TEAP 309／IELTS 5.5、80：CSE 2142／TEAP 267／IELTS 4.0、70：CSE 1980／TEAP 225、60：CSE 1855／TEAP 180、50：CSE 1728／TEAP 135",
+"cse": 1728,
+"tests": "英検・TEAP・IELTS",
+"faculties": "情報工・建築都市デザイン・メディア情報・都市生活・人間科学部",
+"note": "優遇対象は個別試験の英語。英検は準2級以上の4技能受験者が対象（合否は問わない）"
+},
+{
+"kubun": "推薦",
+"name": "公募・併願制",
+"use": "出願資格",
+"level": "CSE 1980／TEAP 225／IELTS 4.0",
+"cse": 1980,
+"tests": "英検・TEAP・IELTS",
+"faculties": "メディア情報・都市生活・人間科学部",
+"note": "英検は準2級以上を受験"
+},
+{
+"kubun": "推薦",
+"name": "公募・専願制（一般推薦型）",
+"use": "出願資格",
+"level": "建築学科：CSE 1855／TEAP 180／IELTS 4.0、都市生活学科：CSE 1728／TEAP 135／IELTS 4.0",
+"cse": 1728,
+"tests": "英検・TEAP・IELTS",
+"faculties": "建築都市デザイン学部建築学科・都市生活学部",
+"note": "英検は準2級以上を受験"
+},
+{
+"kubun": "総合型",
+"name": "総合型（2段階選抜制）",
+"use": "判定に利用",
+"level": "級・スコア指定なし",
+"tests": "英検・TEAP・IELTS",
+"faculties": "情報工・建築都市デザイン・メディア情報・都市生活学部",
+"note": "エントリー理由の一つに「英検などで際だった結果を出し、語学能力に長けている」がある"
+}
+],
+"summary": "一般選抜（前期・中期）では英検CSE 1728以上などのスコアを個別試験の英語の得点（100〜50）に換算する（2026年度情報）。公募推薦は学部によりCSE 1728〜1980などを出願資格にする。",
+"note": "パスナビの情報工・建築都市デザイン・メディア情報・都市生活・人間科学部のページから作成。理工・環境・デザイン・データ科学部などは未確認。一般選抜は昨年度（2026年度）の情報"
+}
 },
 "東京電機大学": {
 "difficulty": {
