@@ -6973,7 +6973,8 @@
 "https://search.keinet.ne.jp/1165/general/exam_subject",
 "https://juken.hit-u.ac.jp/admission/info/guidelines/files/R9ippan_youkou.pdf",
 "https://www.hit-u.ac.jp/kyomu/fee/index.html",
-"https://passnavi.obunsha.co.jp/univ/0330/expense/"
+"https://passnavi.obunsha.co.jp/univ/0330/expense/",
+"https://manabi.benesse.ne.jp/daigaku/school/1185/nyushi/"
 ],
 "licenses": [
 "教員免許（中・高 社会・地理歴史・公民、社会学部）",
@@ -7136,7 +7137,7 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "money": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-15",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -7243,11 +7244,11 @@
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜（共テあり）",
-"apply": "〜1/29着",
+"apply": "1/18〜1/29",
 "exam": "2/8",
 "result": "2/10",
 "proc": "2/18",
-"note": "Kei-Net表記（出願は締切日のみ、必着）。1次（共通テスト）発表2/5、2次試験2/8。全5学部同一日程。"
+"note": "出願期間はマナビジョン（ネット出願）、Kei-Netでは1/29必着。1次（共通テスト）発表2/5、2次試験2/8。全5学部同一日程。"
 }
 ]
 },
@@ -7430,7 +7431,8 @@
 "https://search.keinet.ne.jp/1150/outline/admission_employment",
 "https://search.keinet.ne.jp/1150/general/exam_subject",
 "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&amp=&pageId=3088&amp=&contentsId=&amp=&contentsDataId=&amp=&prevId=&amp=&key=2c267bc83d484dc5370621fb9ed717d7.pdf&amp=&fileName=r9-guidelines-zenki",
-"https://passnavi.obunsha.co.jp/univ/0280/expense/"
+"https://passnavi.obunsha.co.jp/univ/0280/expense/",
+"https://manabi.benesse.ne.jp/daigaku/school/1165/nyushi/"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -7700,7 +7702,7 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "money": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-15",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -7837,21 +7839,38 @@
 "note": "学部により異なる（理工系6学院の例）。第1段階選抜発表2/9。出願書類2/3 17時必着。検定料は別途サービス利用料990円"
 },
 {
+"kubun": "一般",
+"name": "一般選抜（後期日程、医学科・検査技術学専攻・歯学科）",
+"apply": "1/25〜2/3",
+"exam": "3/12・3/13",
+"result": "3/23",
+"note": "医学部医学科・保健衛生学科検査技術学専攻・歯学部歯学科のみ（マナビジョン 2027年度）"
+},
+{
 "kubun": "推薦",
 "name": "学校推薦型選抜（共テあり、生命理工学院）",
-"apply": "〜12/16着",
+"apply": "12/14〜12/16",
 "result": "2/9",
 "proc": "2/17",
-"note": "Kei-Net表記（出願は締切日のみ、必着、試験日の記載なし）。一般枠・女子枠同一日程。"
+"note": "一般枠・女子枠同一日程。試験は共通テスト。"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型（特別選抜Ⅰ、医学科・歯学科）",
-"apply": "〜11/6着",
+"apply": "11/2〜11/6",
 "exam": "11/24・11/25",
 "result": "2/9",
 "proc": "2/17",
 "note": "1次発表11/16、2次発表12/11、3次（共通テスト）発表2/9。医学科地域特別枠は2次11/24・11/26。保健・口腔保健（共テなし）は発表12/11・手続12/18。"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（理工系6学院、一般枠・女子枠）",
+"apply": "12/14〜12/16",
+"exam": "2/7",
+"result": "2/9",
+"proc": "2/17",
+"note": "理学院女子枠・工学院・物質理工学院・生命理工学系一般枠は2/7に試験。理学院一般枠・情報理工学院・環境・社会理工学院は共通テストのみ（マナビジョン 2027年度）"
 }
 ]
 },
@@ -68507,7 +68526,8 @@
 "https://search.keinet.ne.jp/2766/general/schedule",
 "https://search.keinet.ne.jp/2766/general/exam_fee",
 "https://search.keinet.ne.jp/2766/outline/expense",
-"https://search.keinet.ne.jp/2766/outline/admission_employment"
+"https://search.keinet.ne.jp/2766/outline/admission_employment",
+"https://passnavi.obunsha.co.jp/univ/5142/department/"
 ],
 "kyotsu": {
 "kamoku": "1教科1科目〜6教科8科目",
@@ -69023,7 +69043,8 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
-"careers": "2026-11-15"
+"careers": "2026-11-15",
+"research": "2026-11-15"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -69492,7 +69513,12 @@
 ],
 "note": "Kei-Net掲載の科目・配点のみ（国際経営学部の一部はページ途中で切れて未確認）。過去の出題傾向は未確認。"
 },
-"careers": "2024年度卒業者はアジア太平洋学部で就職64.1%・大学院等への進学9.2%・その他26.7%、国際経営学部で就職65.5%・進学10.3%・その他24.2%。"
+"careers": "2024年度卒業者はアジア太平洋学部で就職64.1%・大学院等への進学9.2%・その他26.7%、国際経営学部で就職65.5%・進学10.3%・その他24.2%。",
+"research": [
+"アジア太平洋学部：政治学・社会学・経済学の視点からアジア太平洋地域を起点に世界の平和と相互理解を学ぶ。学修分野は「国際関係」「文化・社会・メディア」「グローバル経済」の3つ。学内・学外・オンラインを組み合わせた学び方",
+"国際経営学部：ケーススタディで現代的なビジネステーマを扱い、多言語能力を備えた次世代ビジネスリーダーを育てる。学修分野は「アントレプレナーシップ・オペレーションマネジメント」「経営戦略・リーダーシップ」「マーケティング」「会計・ファイナンス」の4つ。多文化協働学習、企業との商品開発や起業準備などの課外活動",
+"サステイナビリティ観光学部（2023年設置）：環境学・資源マネジメント・国際開発・観光学・観光産業・ホスピタリティ産業・地域づくり・社会起業・データサイエンスと情報システムの9つの専門科目群を組み合わせて学ぶ。インターンシップやフィールドワークなど学外での学び"
+]
 },
 "神田外語大学": {
 "difficulty": {
@@ -71413,7 +71439,8 @@
 "https://search.keinet.ne.jp/2107/outline/licential",
 "https://search.keinet.ne.jp/2107/outline/admission_employment",
 "https://search.keinet.ne.jp/2107/general/schedule",
-"https://manabi.benesse.ne.jp/daigaku/school/3106/nyushi/gokaku-happyo/"
+"https://manabi.benesse.ne.jp/daigaku/school/3106/nyushi/gokaku-happyo/",
+"https://passnavi.obunsha.co.jp/univ/1860/department/"
 ],
 "licenses": [
 "教員免許（小・中・高・幼・特別支援ほか）",
@@ -71626,7 +71653,8 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
-"subjects": "2026-11-07"
+"subjects": "2026-11-07",
+"research": "2026-11-15"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -72069,7 +72097,14 @@
 }
 ],
 "note": "文学部の一部の学科・方式のみ登録（他の学部・方式は自動収集で補完予定）"
-}
+},
+"research": [
+"文学部：現代英語学科（習熟度別クラス、航空業界やホテルなどのビジネス実務に生かす英語、中・高英語の教員免許）、児童教育学科（児童教育コース＝小学校・特別支援学校・幼稚園、幼児保育コース＝保育士・幼稚園）、文化交流学科（体験・情報・言語を手段に異文化理解、旅行・観光業や日本語教育）",
+"生活科学部：心理福祉学科（心理と福祉を両方学び、認定心理士、公認心理師を目指せるカリキュラム）、食物健康科学科（管理栄養士の養成、栄養・食の安全・食育）",
+"看護学部：看護学科（少人数グループで課題解決、地域のさまざまな場での実習。看護師・保健師に加え養護教諭一種も取得できる課程）",
+"経営学部：経営学科（デジタル化と地域社会の活性化が課題。2年次以降に戦略マネジメント・ICTマネジメント・マーケティング・会計ファイナンス・地域イノベーションの5領域、2027年にビジネスマネジメント／デジタルマネジメントの2コースを新設予定）",
+"未来教養学環：高校の「総合的な探究の時間」を発展させた学び。4学部7学科が連携し、複数分野の教員のチームティーチングで分野横断の課題に取り組む。3・4年次は「未来教養プロジェクト演習」やインターンシップ"
+]
 },
 "常磐大学": {
 "difficulty": {
@@ -72103,7 +72138,8 @@
 "https://search.keinet.ne.jp/2108",
 "https://search.keinet.ne.jp/2108/outline/licential",
 "https://manabi.benesse.ne.jp/daigaku/school/3108/nyushi/gokaku-happyo/",
-"https://search.keinet.ne.jp/2108/outline/admission_employment"
+"https://search.keinet.ne.jp/2108/outline/admission_employment",
+"https://passnavi.obunsha.co.jp/univ/1870/department/"
 ],
 "licenses": [
 "教員免許（幼・小・中・高 ほか）",
@@ -72287,7 +72323,8 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
-"careers": "2026-11-15"
+"careers": "2026-11-15",
+"research": "2026-11-15"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -72654,7 +72691,12 @@
 ],
 "note": "Kei-Net掲載の科目・配点のみ（表の一部に読み取りの不確かさあり）。過去の出題傾向は未確認。"
 },
-"careers": "2024年度卒業者は看護学部で就職92.0%（進学4.6%）、総合政策学部89.4%、人間科学部89.2%（進学3.0%）。看護師国家試験の新卒合格率は96.0%、保健師は85.0%（Kei-Net掲載の2026年度）。"
+"careers": "2024年度卒業者は看護学部で就職92.0%（進学4.6%）、総合政策学部89.4%、人間科学部89.2%（進学3.0%）。看護師国家試験の新卒合格率は96.0%、保健師は85.0%（Kei-Net掲載の2026年度）。",
+"research": [
+"人間科学部：心理学科（知覚・認知心理学から臨床・産業組織心理学まで、実験・実習、公認心理師受験資格に必要な科目）、教育学科（初等教育コース＝幼・小、中等教育コース＝中・高の教員養成）、現代社会学科（方法論・データサイエンス、家族・福祉社会、公共・地域社会、文化研究の4領域）、コミュニケーション学科（メディアやデザイン、ことばと文化）、健康栄養学科（医学知識を学び栄養サポートチームの一員となる管理栄養士、3年次に臨地実習）",
+"総合政策学部：経営学科（経営・マネジメント、商業・マーケティング、財務・会計の3分野）、法律行政学科（法律・行政・社会安全の3分野）、総合政策学科（政治学と経済学を中心に、環境・観光・文化情報の3政策分野、自治体やNPOと連携したまちづくり）",
+"看護学部：看護学科（茨城県内の国立病院機構の病院と連携し、主に水戸医療センターで実習。地域包括ケアシステムも実践的に学ぶ）"
+]
 },
 "流通経済大学": {
 "difficulty": {
@@ -72690,7 +72732,8 @@
 "https://search.keinet.ne.jp/2109",
 "https://search.keinet.ne.jp/2109/outline/licential",
 "https://search.keinet.ne.jp/2109/general/schedule",
-"https://search.keinet.ne.jp/2109/outline/admission_employment"
+"https://search.keinet.ne.jp/2109/outline/admission_employment",
+"https://passnavi.obunsha.co.jp/univ/1880/department/"
 ],
 "licenses": [
 "教員免許（中・高 社会・公民・地理歴史）",
@@ -73064,7 +73107,8 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
-"careers": "2026-11-15"
+"careers": "2026-11-15",
+"research": "2026-11-15"
 },
 "schedule": {
 "year": "2027年度入試（Kei-Net、ページに年度表示なし）／検定料は2026年度入試",
@@ -73361,7 +73405,14 @@
 ],
 "note": "Kei-Net掲載の科目・配点のみ。過去の出題傾向は未確認。"
 },
-"careers": "2024年度卒業者は法学部で就職93.1%、流通情報学部92.0%、共創社会学部91.1%、経済学部87.4%、スポーツ健康科学部85.3%。"
+"careers": "2024年度卒業者は法学部で就職93.1%、流通情報学部92.0%、共創社会学部91.1%、経済学部87.4%、スポーツ健康科学部85.3%。",
+"research": [
+"経済学部：経済学科（産業と労働・金融と情報・公共と福祉・地域と世界の4分野）、経営学科（流通・マーケティング、起業・マネジメント、会計・ファイナンスの3分野、現役社長による起業家育成講座、企業研究ゲーム）",
+"共創社会学部：地域人間科学科（心理学・メディア社会学・保育ソーシャルワーク・地域総合探究の4分野、心理学実験や社会調査、保育士・認定心理士など）、国際文化ツーリズム学科（フィールドワーク、自治体・NPOの活動参加、土産品企画や地域PR広告制作）",
+"流通情報学部：流通情報学科（サプライチェーン・AI（情報・データサイエンス）・サプライチェーン×AIの3分野、企業講師による「ロジスティクス実践講座」「情報システム実践講座」）",
+"法学部：法律学科（ビジネス法務・法律専門職・スポーツ法務の3コース、司法書士・行政書士・宅建などの資格取得を支援、少人数の「法学部特別クラス」）、自治行政学科（公共法務・地域共創・地域の安全と防災・多文化共生、公務員試験対策、警察官・消防官を目指すコース）",
+"スポーツ健康科学部：スポーツ健康科学科（スポーツ教育・競技スポーツ・生涯スポーツ・スポーツトレーナー・スポーツ教養の5分野、アスレティックトレーナーなどの資格取得を奨励）、スポーツコミュニケーション学科（冒険教育の実習、コーチング・マネジメント・メディアなど4分野）"
+]
 },
 "防衛大学校": {
 "difficulty": {
@@ -73553,7 +73604,8 @@
 "https://www.mod.go.jp/pco/ehime/recruit/06kango.html",
 "https://www.mod.go.jp/gsdf/jieikanbosyu/about/recruit/boeiidai-igaku.html",
 "https://search.keinet.ne.jp/5060/outline/licential",
-"https://search.keinet.ne.jp/5060/outline/admission_employment"
+"https://search.keinet.ne.jp/5060/outline/admission_employment",
+"https://passnavi.obunsha.co.jp/univ/5310/department/?facultyID=005"
 ],
 "methods": {
 "year": "令和8年度募集（令和9年4月入校）",
@@ -73609,7 +73661,8 @@
 "money": "2026-11-08",
 "schedule": "2026-11-08",
 "licenses": "2026-11-15",
-"careers": "2026-11-15"
+"careers": "2026-11-15",
+"research": "2026-11-15"
 },
 "money": {
 "year": "2027年度入校",
@@ -73648,7 +73701,11 @@
 "看護師（受験資格）",
 "保健師（受験資格）"
 ],
-"careers": "医師国家試験の新卒合格率は89.4%、看護師は98.2%、保健師は98.2%（Kei-Net掲載の2026年度）。就職率・就職先の掲載はなし。"
+"careers": "医師国家試験の新卒合格率は89.4%、看護師は98.2%、保健師は98.2%（Kei-Net掲載の2026年度）。就職率・就職先の掲載はなし。",
+"research": [
+"医学科：医師である幹部自衛官（医官）を育てる6年一貫教育。進学課程（1〜2年次）、基礎医学・臨床医学と21の臓器別などの授業からなる専門課程、基本教練や部隊実習の訓練課程（1〜6年次）。学生は特別職国家公務員で学生手当を支給。卒業後は幹部候補生学校、2年間の初任実務研修を経て自衛隊の病院・部隊へ",
+"看護学科：自衛官候補コース（保健師・看護師である幹部自衛官、自衛隊看護官として自衛隊病院や衛生科部隊に勤務）と技官候補コース（防衛医科大学校病院に勤務する技官、先駆的医療と看護・医療連携システムなどを学ぶ）。看護師・保健師国家試験の受験資格"
+]
 },
 "気象大学校": {
 "difficulty": {
@@ -75740,7 +75797,8 @@
 "https://search.keinet.ne.jp/1572",
 "https://digitalpr.jp/r/35452",
 "https://manabi.benesse.ne.jp/daigaku/school/2129/nyushi/seisankankyou/",
-"https://search.keinet.ne.jp/1572/general/exam_fee"
+"https://search.keinet.ne.jp/1572/general/exam_fee",
+"https://passnavi.obunsha.co.jp/univ/9101/department/"
 ],
 "kyotsu": {
 "kamoku": "3教科3科目（英・数・理）",
@@ -75822,7 +75880,8 @@
 "money": "2026-11-08",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"qtrend": "2026-11-07"
+"qtrend": "2026-11-07",
+"research": "2026-11-15"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -75917,7 +75976,13 @@
 }
 ],
 "note": "Kei-Net掲載の科目・配点のみ。過去の出題傾向は未確認。"
-}
+},
+"research": [
+"生産環境経営学部 生産環境経営学科：農林業経営の中心となる農林業者を育てる。食の安全性や機能性の発信、6次産業化による高付加価値化、農林業経営体でのインターンで経営課題の解決策を提案するプロジェクト実習。2年次から栽培・林業・畜産の3コース",
+"栽培コース：野菜・花卉・茶・果樹の生産理論と圃場実習、トラクターやドローンの実習、農業経営体での長期企業実習",
+"林業コース：造林学・森林計画・木材加工、県有林での実習、林業機械の実習と林業経営体での長期企業実習",
+"畜産コース：酪農・肉牛などの大家畜と養豚・養鶏などの中小家畜、家畜飼料や育種繁殖、畜産経営体での長期企業実習"
+]
 },
 "高知リハビリテーション専門職大学": {
 "difficulty": {
@@ -75947,7 +76012,8 @@
 "https://search.keinet.ne.jp/2690/outline/expense",
 "https://search.keinet.ne.jp/2690/outline/campus",
 "https://search.keinet.ne.jp/2690",
-"https://manabi.benesse.ne.jp/daigaku/school/3863/nyushi/gokaku-happyo/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3863/nyushi/gokaku-happyo/index.html",
+"https://passnavi.obunsha.co.jp/univ/9212/department/"
 ],
 "kyotsu": {
 "kamoku": "2教科2科目",
@@ -76051,7 +76117,8 @@
 "money": "2026-11-08",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"qtrend": "2026-11-07"
+"qtrend": "2026-11-07",
+"research": "2026-11-15"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -76186,7 +76253,13 @@
 }
 ],
 "note": "Kei-Net掲載の科目・配点のみ。過去の出題傾向は未確認。"
-}
+},
+"research": [
+"リハビリテーション学部：理学療法学・作業療法学・言語聴覚学の3専攻制。学外での「地域課題研究Ⅰ・Ⅱ」や「地域支援実習」で、医療だけでなく地域で活躍できるセラピストを養成",
+"理学療法学専攻：障がいのある人の「自立」を広い視野で支援できる理学療法士の養成",
+"作業療法学専攻：リハビリテーションの知識・技術と総合的な判断力を備えた作業療法士の養成",
+"言語聴覚学専攻：コミュニケーションや食べる機能に障がいのある人の生活の質を支える言語聴覚士の養成"
+]
 },
 "東京保健医療専門職大学": {
 "difficulty": {
@@ -76216,7 +76289,8 @@
 "https://search.keinet.ne.jp/2114/outline/expense",
 "https://search.keinet.ne.jp/2114/outline/campus",
 "https://search.keinet.ne.jp/2114",
-"https://manabi.benesse.ne.jp/daigaku/school/3348/nyushi/hoshiki/ippan/"
+"https://manabi.benesse.ne.jp/daigaku/school/3348/nyushi/hoshiki/ippan/",
+"https://passnavi.obunsha.co.jp/univ/9205/department/"
 ],
 "kyotsu": {
 "kamoku": "2教科2科目（国語必須）",
@@ -76307,7 +76381,8 @@
 "money": "2026-11-08",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"qtrend": "2026-11-07"
+"qtrend": "2026-11-07",
+"research": "2026-11-15"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -76422,7 +76497,12 @@
 }
 ],
 "note": "Kei-Net掲載の科目・配点のみ。過去の出題傾向は未確認。"
-}
+},
+"research": [
+"リハビリテーション学部：保健医療分野の実務リーダーとしての理学療法士・作業療法士を育成。展開科目で共生福祉論・支援システム工学・ユニバーサルツーリズム・美容ケア・音楽療法・スポーツコーチング・手話、経営戦略や保健医療経営などのマネジメントも学ぶ",
+"理学療法学科：規定の600時間を大幅に上回る900時間の臨地実務実習",
+"作業療法学科：1000時間を超える臨地実務実習。外出支援や美容ケア、音楽療法などで生活の質の維持・向上に貢献する力を養う"
+]
 },
 "名古屋国際工科専門職大学": {
 "difficulty": {
@@ -91302,7 +91382,9 @@
 "https://search.keinet.ne.jp/1335/outline/campus",
 "https://search.keinet.ne.jp/general/border_rate/1335",
 "https://search.keinet.ne.jp/1335/outline/expense",
-"https://manabi.benesse.ne.jp/daigaku/school/1355/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/1355/nyushi/index.html",
+"https://passnavi.obunsha.co.jp/univ/0670/department/",
+"https://passnavi.obunsha.co.jp/univ/0670/shinro/"
 ],
 "departments": [
 {
@@ -91455,7 +91537,10 @@
 "money": "2026-11-09",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
-"ratios": "2026-11-06"
+"ratios": "2026-11-06",
+"research": "2026-11-15",
+"licenses": "2026-11-15",
+"careers": "2026-11-15"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -91666,7 +91751,24 @@
 }
 ],
 "note": "河合塾Kei-Net掲載の一般選抜入試結果（2025・2026年度入試）。unitは出典の学科表記"
-}
+},
+"research": [
+"教育学部：学校教育教員養成課程（学校教育コース・支援教育コース）。理論と実践を往還し、全学生が小学校教諭一種免許状を取得できるカリキュラム",
+"経済学部：経済学科。経済学・経営学・会計学・情報学・法律学を体系的に学ぶ。グローバル・ビジネス＆エコノミー、ビジネスデザイン、企業会計・税法、地域公共政策・公益事業、サステイナブル・エコノミーの5プログラム",
+"システム工学部：システム工学科。ロボティクス・電子物理工学・化学・環境科学・建築ランドスケープ・情報システムデザイン・ネットワークコンピューティング・クロスリアリティ情報デザインの8メジャーから2つを選ぶ。大学院博士前期課程までの6年制も選べる",
+"観光学部：観光学科。観光経営・地域再生・観光文化の3領域を文理融合で学ぶ。自治体との連携プログラムや海外の連携大学とのエリアスタディ",
+"社会インフォマティクス学環（2023年設置）：経済・システム工・観光学部が連携し、自治体や企業の実データを使って社会問題を分析・企画する少人数教育。学士（社会情報学）"
+],
+"licenses": [
+"小学校教諭一種",
+"幼稚園教諭一種",
+"特別支援学校教諭",
+"学芸員（任用）",
+"社会福祉主事（任用）",
+"甲種危険物取扱者",
+"一級建築士"
+],
+"careers": "教育学部は小・中学校教諭を中心に教員が多い。経済学部は和歌山県職員などの公務員と紀陽銀行などの金融が多い。システム工学部は大学院進学が就職を上回り、就職は公務員やメーカー・IT。観光学部は公務員と鉄道・旅行・観光関連企業（2025年4月〜2026年3月卒）。"
 },
 "大阪教育大学": {
 "faculties": [
