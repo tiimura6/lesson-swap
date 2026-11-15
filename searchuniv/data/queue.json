@@ -9250,6 +9250,86 @@
 "kyotsu"
 ],
 "date": "2026-11-15"
+},
+{
+"name": "鳴門教育大学",
+"need": [
+"kyotsu"
+],
+"date": "2026-11-15"
+},
+{
+"name": "九州工業大学",
+"need": [
+"kyotsu",
+"licenses",
+"careers"
+],
+"date": "2026-11-15"
+},
+{
+"name": "鹿児島大学",
+"need": [
+"careers"
+],
+"date": "2026-11-15"
+},
+{
+"name": "旭川市立大学",
+"need": [
+"kyotsu"
+],
+"date": "2026-11-15"
+},
+{
+"name": "山形県立保健医療大学",
+"need": [
+"kyotsu"
+],
+"date": "2026-11-15"
+},
+{
+"name": "山形県立保健医療大学",
+"need": [
+"careers"
+],
+"date": "2026-11-15"
+},
+{
+"name": "岩手県立大学",
+"need": [
+"kyotsu"
+],
+"date": "2026-11-15"
+},
+{
+"name": "秋田県立大学",
+"need": [
+"careers"
+],
+"date": "2026-11-15"
+},
+{
+"name": "釧路公立大学",
+"need": [
+"licenses",
+"careers"
+],
+"date": "2026-11-15"
+},
+{
+"name": "岡山県立大学",
+"need": [
+"careers"
+],
+"date": "2026-11-15"
+},
+{
+"name": "島根県立大学",
+"need": [
+"licenses"
+],
+"date": "2026-11-15"
 }
 ],
 "failed": [
@@ -16232,23 +16312,12 @@
 "note": "licenses、careersはKei-Netで記入（2026-11-15）"
 },
 {
-"name": "鳴門教育大学",
-"keinet": null,
-"need": [
-"kyotsu",
-"licenses",
-"methods"
-]
-},
-{
 "name": "九州工業大学",
 "keinet": null,
 "need": [
-"kyotsu",
-"licenses",
-"careers",
 "methods"
-]
+],
+"note": "共通テスト・進路はKei-Netで記入。資格はKei-Netで全学科「―」（取得可能資格の掲載なし）のため記入せず（2026-11-15）"
 },
 {
 "name": "島根大学",
@@ -16989,10 +17058,9 @@
 "name": "鹿児島大学",
 "keinet": "1465",
 "need": [
-"methods",
-"careers"
+"methods"
 ],
-"note": "共通テストはKei-Netで記入（法文・教育学部のみ確認）、資格もKei-Netで記入（2026-11-15）。進路は未記入"
+"note": "進路はKei-Netで記入（2026-11-15）"
 },
 {
 "name": "鹿児島大学",
@@ -18217,9 +18285,9 @@
 "name": "旭川市立大学",
 "keinet": "1501",
 "need": [
-"kyotsu",
 "methods"
-]
+],
+"note": "共通テストはKei-Netで記入（2026-11-15）"
 },
 {
 "name": "旭川市立大学",
@@ -18240,9 +18308,9 @@
 "name": "山形県立保健医療大学",
 "keinet": "1511",
 "need": [
-"kyotsu",
 "methods"
-]
+],
+"note": "共通テストはKei-Netで記入（2026-11-15）"
 },
 {
 "name": "山形県立保健医療大学",
@@ -18263,9 +18331,9 @@
 "name": "岩手県立大学",
 "keinet": "1512",
 "need": [
-"kyotsu",
 "methods"
-]
+],
+"note": "共通テストはKei-Netで記入（2026-11-15）"
 },
 {
 "name": "岩手県立大学",
@@ -18286,9 +18354,9 @@
 "name": "山形県立保健医療大学",
 "keinet": "1511",
 "need": [
-"licenses",
-"careers"
-]
+"licenses"
+],
+"note": "進路はKei-Netで記入（2026-11-15）。資格（licential）ページが検索に出ず未確認"
 },
 {
 "name": "名寄市立大学",
@@ -18351,20 +18419,19 @@
 "name": "秋田県立大学",
 "keinet": "1517",
 "need": [
-"careers",
 "extra",
 "partners"
-]
+],
+"note": "進路はKei-Netで記入（2026-11-15）"
 },
 {
 "name": "釧路公立大学",
 "keinet": "1510",
 "need": [
-"licenses",
-"careers",
 "extra",
 "partners"
-]
+],
+"note": "資格・進路・共通テストはKei-Netで記入（2026-11-15）"
 },
 {
 "name": "東京大学",
@@ -24620,9 +24687,9 @@
 "keinet": "1648",
 "need": [
 "extra",
-"partners",
-"careers"
-]
+"partners"
+],
+"note": "進路はKei-Netで記入（2026-11-15）"
 },
 {
 "name": "石巻専修大学",
@@ -24701,9 +24768,9 @@
 "keinet": "1647",
 "need": [
 "extra",
-"partners",
-"licenses"
-]
+"partners"
+],
+"note": "資格はKei-Netで記入（2026-11-15）"
 },
 {
 "name": "広島市立大学",
@@ -27874,6 +27941,15 @@
 "method_urls"
 ],
 "note": "検索でKei-Net・パスナビのページが見つからず（2026-11-15）"
+},
+{
+"name": "鳴門教育大学",
+"keinet": null,
+"need": [
+"licenses",
+"methods"
+],
+"note": "共通テストはKei-Netで記入（2026-11-15）。資格はKei-Netの資格ページが検索に出ず未確認"
 }
 ],
 "complete": false,

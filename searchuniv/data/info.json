@@ -11923,7 +11923,8 @@
 "https://search.keinet.ne.jp/1100/outline/admission_employment",
 "https://search.keinet.ne.jp/1100/general/exam_subject",
 "https://www.saitama-u.ac.jp/media/r9senbatsu.pdf",
-"https://passnavi.obunsha.co.jp/univ/0200/expense/"
+"https://passnavi.obunsha.co.jp/univ/0200/expense/",
+"https://www.saitama-u.ac.jp/media/r9_tokubetuyoko.pdf"
 ],
 "licenses": [
 "教員免許（幼・小・中・高、特別支援）",
@@ -12397,7 +12398,7 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "money": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-15",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -12525,20 +12526,20 @@
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜（共テなし）",
-"apply": "〜11/9着",
+"apply": "11/2〜11/9着",
 "exam": "11/21",
 "result": "12/8",
 "proc": "12/17",
-"note": "Kei-Net表記（出願は締切日のみ、必着）。教養学部Ⅰ型等の日程。教育学部の一部は11/22または11/21〜11/22（指定日）。学部により異なる。"
+"note": "教養学部Ⅰ型の日程（公式の特別選抜学生募集要項で確認）。教育学部の一部は11/22または11/21〜11/22（指定日）。学部により異なる。"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜（共テあり）",
-"apply": "〜11/9着",
+"apply": "11/2〜11/9着",
 "exam": "11/21",
 "result": "2/8",
 "proc": "2/15",
-"note": "理学部・工学部・教育学部の一部の日程。教養学部Ⅱ型等は11/21〜11/22（指定日）、一部は11/22。学部により異なる。"
+"note": "教養学部Ⅱ型（選抜日11/21または11/22）・教育学部の一部の日程（公式の特別選抜学生募集要項で確認）。理学部・工学部の一部も含む。学部により異なる。"
 }
 ]
 },
@@ -13145,7 +13146,7 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "money": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-15",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -98298,7 +98299,8 @@
 "https://www.mext.go.jp/content/20211126-mxt_hojinka-000019165_f68-2.pdf",
 "https://search.keinet.ne.jp/1375/outline/expense",
 "https://search.keinet.ne.jp/1375/recommend/exam_rec",
-"https://search.keinet.ne.jp/1375/general/exam_changes"
+"https://search.keinet.ne.jp/1375/general/exam_changes",
+"https://search.keinet.ne.jp/1375/general/exam_subject"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -98339,7 +98341,8 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "money": "2026-11-09",
-"schedule": "2026-11-11"
+"schedule": "2026-11-11",
+"kyotsu": "2026-11-15"
 },
 "departments": [
 {
@@ -98482,6 +98485,18 @@
 }
 ],
 "note": "Kei-Net（2027年度入試）。2027年度から小学校・中学校教育は専修一括募集、前期46名・後期10名に減り推薦Ⅰ15名・Ⅱ29名に増。一般選抜の日程はKei-Netで12月下旬に掲載予定のため未記載"
+},
+"kyotsu": {
+"kamoku": "6教科8科目（国語・数学2科目・英語・情報Ⅰに、理科と地歴公民で計3科目。Kei-Net の科目表から）",
+"kyoka": [
+6
+],
+"rl": [
+"1:1"
+],
+"rl_text": "全専修・コースでR:L=1:1（R100:L100）",
+"note": "前期は幼児教育・小学校教育・中学校教育・特別支援教育、後期は小学校教育・中学校教育のみ。二段階選抜の記載なし。理科・地歴公民の組み合わせは募集要項で確認",
+"year": "2027年度入試"
 }
 },
 "九州工業大学": {
@@ -98510,7 +98525,9 @@
 "https://www.kyutech.ac.jp/media/001/202606/houkokusho2804.pdf",
 "https://www.nicjp.niad.ac.jp/en/institute/daigaku000074.html",
 "https://search.keinet.ne.jp/1415/outline/expense",
-"https://www.kyutech.ac.jp/archives/015/202606/R9_senbatsuyoko.pdf"
+"https://www.kyutech.ac.jp/archives/015/202606/R9_senbatsuyoko.pdf",
+"https://search.keinet.ne.jp/1415/general/exam_subject",
+"https://search.keinet.ne.jp/1415/outline/admission_employment"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -98649,7 +98666,9 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "money": "2026-11-09",
-"schedule": "2026-11-09"
+"schedule": "2026-11-09",
+"kyotsu": "2026-11-15",
+"careers": "2026-11-15"
 },
 "departments": [
 {
@@ -98834,7 +98853,20 @@
 "note": "主にオンライン"
 }
 ]
-}
+},
+"kyotsu": {
+"kamoku": "前期は理型（Kei-Net 表記）、後期は5教科7科目",
+"kyoka": [
+5
+],
+"rl": [
+"1:1"
+],
+"rl_text": "全類でR:L=1:1（前期R125:L125、後期R100:L100）",
+"note": "工学部5類・情報工学部4類とも前期・後期を実施。二段階選抜なし",
+"year": "2027年度入試"
+},
+"careers": "2024年度学士課程卒業者899人のうち進学607人・就職276人（Kei-Net の学科別表から集計）。工学部は機械知能工学科で126人中94人、マテリアル工学科で53人中46人が進学するなど、学部卒業者の約3分の2が大学院へ進む。修士課程（工学府・情報工学府など）の修了者は大半が就職。"
 },
 "佐賀大学": {
 "difficulty": {
@@ -100860,7 +100892,8 @@
 "money": "2026-11-09",
 "schedule": "2026-11-09",
 "kyotsu": "2026-11-15",
-"licenses": "2026-11-15"
+"licenses": "2026-11-15",
+"careers": "2026-11-15"
 },
 "faculties": [
 "法文学部",
@@ -100964,7 +100997,8 @@
 "https://search.keinet.ne.jp/1465/outline/expense",
 "https://www.kagoshima-u.ac.jp/exam/R09-senbatu.pdf",
 "https://search.keinet.ne.jp/1465/general/exam_subject",
-"https://search.keinet.ne.jp/1465/outline/licential"
+"https://search.keinet.ne.jp/1465/outline/licential",
+"https://search.keinet.ne.jp/1465/outline/admission_employment"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -101193,7 +101227,8 @@
 "医師（受験資格）（医学部 医学科）",
 "看護師（受験資格）・理学療法士（受験資格）・作業療法士（受験資格）（医学部 保健学科）",
 "歯科医師（受験資格）（歯学部）"
-]
+],
+"careers": "2024年度学士課程卒業者1,842人のうち進学500人・就職1,083人（Kei-Net の学科別表から集計）。工学部先進工学科は352人中217人、理学部理学科は158人中73人が進学。教育学部（教員養成）は卒業者186人のうち教員就職134人（72.0%、正規119人・臨時的任用15人）。"
 },
 "室蘭工業大学": {
 "difficulty": {
@@ -102736,7 +102771,8 @@
 "ratios": "2026-11-09",
 "schedule": "2026-11-09",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"kyotsu": "2026-11-15"
 },
 "faculties": [
 "地域創造学部",
@@ -103069,7 +103105,22 @@
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"kyotsu": {
+"kamoku": "4教科4科目〜5教科5科目",
+"kyoka": [
+4,
+5
+],
+"rl": [
+"2:1",
+"3:2",
+"1:1"
+],
+"rl_text": "地域創造学部・経済学部の前期はR200:L100（2:1）、後期はR60:L40（3:2）。保健福祉学部はR50:L50（1:1）",
+"note": "地域創造学部・経済学部の前期は5教科5科目、後期は4教科4科目。保健福祉学部は前期・中期とも4教科4科目で二段階選抜あり（前期8倍、中期はコミュニティ福祉学科10倍・保健看護学科20倍）",
+"year": "2027年度入試"
+}
 },
 "山形県立保健医療大学": {
 "difficulty": {
@@ -103091,7 +103142,9 @@
 "eng": "2026-11-09",
 "schedule": "2026-11-09",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"kyotsu": "2026-11-15",
+"careers": "2026-11-15"
 },
 "faculties": [
 "保健医療学部"
@@ -103139,7 +103192,9 @@
 "https://www.yachts.ac.jp/admission/media-download/3133/5dee92f1417823b4/",
 "https://www.yachts.ac.jp/admission/media-download/2905/3b2ba86c5164dfd4/",
 "https://www.yachts.ac.jp/admission/media-download/3030/a58c4ba0ec9a93a8/",
-"https://portraits.niad.ac.jp/faculty/tuition/1122/1122-1M25-01-01.html"
+"https://portraits.niad.ac.jp/faculty/tuition/1122/1122-1M25-01-01.html",
+"https://search.keinet.ne.jp/1511/general/exam_subject",
+"https://search.keinet.ne.jp/1511/outline/admission_employment"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -103305,7 +103360,21 @@
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"kyotsu": {
+"kamoku": "5教科5科目（理学療法学科は「5,6－6」と表記）",
+"kyoka": [
+5,
+6
+],
+"rl": [
+"1:1"
+],
+"rl_text": "全学科でR:L=1:1（R100:L100）",
+"note": "前期のみ。全学科で二段階選抜（4倍）。看護学科・作業療法学科は数学か情報Ⅰを選ぶ",
+"year": "2027年度入試"
+},
+"careers": "2024年度卒業者：看護学科は65人中就職62人・進学3人、理学療法学科は20人中就職19人・進学1人、作業療法学科は22人中就職20人・進学2人（Kei-Net）。"
 },
 "岩手県立大学": {
 "difficulty": {
@@ -103328,7 +103397,8 @@
 "fdiff": "2026-11-09",
 "schedule": "2026-11-09",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"kyotsu": "2026-11-15"
 },
 "faculties": [
 "社会福祉学部",
@@ -103591,7 +103661,22 @@
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"kyotsu": {
+"kamoku": "3教科3科目〜6教科6科目（看護学部は理型）",
+"kyoka": [
+3,
+4,
+5,
+6
+],
+"rl": [
+"1:1"
+],
+"rl_text": "全学部でR:L=1:1（社会福祉学部・看護学部はR100:L100、ソフトウェア情報学部・総合政策学部はR50:L50）",
+"note": "社会福祉学部は前期4,5教科5科目・後期3教科3科目、ソフトウェア情報学部は前期5教科6科目・中期4教科5科目（二段階選抜30倍）、総合政策学部は前期6教科6科目・後期4教科4科目",
+"year": "2027年度入試"
+}
 },
 "秋田県立大学": {
 "difficulty": {
@@ -103613,7 +103698,8 @@
 "methods": "2026-11-09",
 "schedule": "2026-11-09",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"careers": "2026-11-15"
 },
 "faculties": [
 "システム科学技術学部",
@@ -103690,7 +103776,8 @@
 "https://onikanri.singeki.com/akita-kenritsu-daigaku-senmonjuku-guide/",
 "https://www.toshin.com/nyushi_info/schedule/?univ_type=%E5%9B%BD%E5%85%AC%E7%AB%8B&univ_pref_area=%E5%9C%B0%E6%96%B9%E3%82%92%E9%81%B8%E6%8A%9E%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84&univ_pref%5B0%5D=%E7%A7%8B%E7%94%B0&univ_name=%E7%A7%8B%E7%94%B0%E7%9C%8C%E7%AB%8B%E5%A4%A7%E5%AD%A6&department=&department_class=&univ_group=0&test_date_start=&test_date_end=&application_deadline_start=&application_deadline_end=&passing_announcement_start=&passing_announcement_end=&procedure_deadline_start=&procedure_deadline_end=&sort=Departments.application_deadline&direction=desc",
 "https://manabi.benesse.ne.jp/daigaku/school/2028/nyushi/gokaku-happyo/index.html",
-"https://search.keinet.ne.jp/1517/outline/expense"
+"https://search.keinet.ne.jp/1517/outline/expense",
+"https://search.keinet.ne.jp/1517/outline/admission_employment"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -103901,7 +103988,8 @@
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"careers": "2024年度学士課程卒業者365人のうち就職264人・進学91人（Kei-Net の学科別表から集計）。システム科学技術学部は232人中就職167人・進学58人（機械工学科は54人中22人が進学）、生物資源科学部は133人中就職97人・進学33人。"
 },
 "釧路公立大学": {
 "faculties": [
@@ -103918,7 +104006,10 @@
 "ratios": "2026-11-09",
 "schedule": "2026-11-09",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"licenses": "2026-11-15",
+"careers": "2026-11-15",
+"kyotsu": "2026-11-15"
 },
 "departments": [
 {
@@ -103958,7 +104049,9 @@
 "https://passnavi.obunsha.co.jp/univ/1010/eiken/",
 "https://passnavi.obunsha.co.jp/univ/1010/schedule/",
 "https://passnavi.obunsha.co.jp/univ/1010/sougou/?facultyID=005",
-"https://passnavi.obunsha.co.jp/univ/1010/seikyu/"
+"https://passnavi.obunsha.co.jp/univ/1010/seikyu/",
+"https://search.keinet.ne.jp/1510/outline/licential",
+"https://search.keinet.ne.jp/1510/outline/admission_employment"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -104093,7 +104186,24 @@
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"licenses": [
+"中学校教諭一種（社会）、高等学校教諭一種（地理歴史・公民・商業）（経済学部 経済学科・経営学科）",
+"社会調査士（資格）（経済学部 経済学科）"
+],
+"careers": "2024年度卒業者：経済学科は188人中就職176人（93.6%）、経営学科は104人中就職97人（93.3%）。進学者は0人（Kei-Net）。",
+"kyotsu": {
+"kamoku": "3教科3科目",
+"kyoka": [
+3
+],
+"rl": [
+"4:1"
+],
+"rl_text": "前期・中期ともR:L=4:1（R160:L40）",
+"note": "前期・中期とも二段階選抜なし",
+"year": "2027年度入試"
+}
 },
 "青森公立大学": {
 "faculties": [
@@ -177355,7 +177465,8 @@ null
 "fdiff": "2026-11-09",
 "methods": "2026-11-09",
 "schedule": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"careers": "2026-11-15"
 },
 "faculties": [
 "情報工学部",
@@ -177459,7 +177570,8 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/2245/nyushi/hoshiki/gakkou-suisen/",
 "https://www.toshin.com/nyushi_info/schedule/?univ_type=%E5%9B%BD%E5%85%AC%E7%AB%8B&univ_pref_area=%E5%9C%B0%E6%96%B9%E3%82%92%E9%81%B8%E6%8A%9E%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84&univ_pref%5B0%5D=%E5%B2%A1%E5%B1%B1&univ_name=%E5%B2%A1%E5%B1%B1%E7%9C%8C%E7%AB%8B%E5%A4%A7%E5%AD%A6&department=&department_class=&univ_group=0&test_date_start=&test_date_end=&application_deadline_start=&application_deadline_end=&passing_announcement_start=&passing_announcement_end=&procedure_deadline_start=&procedure_deadline_end=&sort=Departments.enrollment_deadline&direction=asc",
 "https://onikanri.singeki.com/sougougata-a012297/",
-"https://aoaoi.jp/preparation/okayama_prefectural/"
+"https://aoaoi.jp/preparation/okayama_prefectural/",
+"https://search.keinet.ne.jp/1648/outline/admission_employment"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者。志願倍率等の例外はunitに記載）",
@@ -177695,7 +177807,8 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"careers": "2024年度学士課程卒業者356人のうち就職270人・進学72人（Kei-Net の学科別表から集計）。情報工学部は131人中進学43人、デザイン学部建築学科は27人中12人が進学。保健福祉学部の看護学科は41人中就職38人、栄養学科は38人中就職31人。"
 },
 "石巻専修大学": {
 "faculties": [
@@ -178722,7 +178835,8 @@ null
 "fdiff": "2026-11-09",
 "schedule": "2026-11-09",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"licenses": "2026-11-15"
 },
 "faculties": [
 "人間文化学部",
@@ -178809,7 +178923,8 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/2240/nyushi/hoshiki/gakkou-suisen/",
 "https://manabi.benesse.ne.jp/daigaku/school/2240/nyushi/ningenbunka/",
 "https://www.u-shimane.ac.jp/admission/0002.html",
-"https://aoaoi.jp/preparation/shimane_prefectural/"
+"https://aoaoi.jp/preparation/shimane_prefectural/",
+"https://search.keinet.ne.jp/1647/outline/licential"
 ],
 "ratios": {
 "kind": "実質倍率（ただし大学計前期はKei-Net記載の志願倍率。他学部および2026年度実質倍率は検索結果から未取得）",
@@ -179157,7 +179272,13 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"licenses": [
+"保育士（資格）、幼稚園教諭一種、小学校教諭一種、特別支援学校教諭一種、学校図書館司書教諭（資格）（人間文化学部 保育教育学科）",
+"中学校教諭一種（国語・英語）、高等学校教諭一種（国語・英語）、学校図書館司書教諭（資格）、司書（資格）（人間文化学部 地域文化学科）",
+"看護師（受験資格）、保健師（受験資格）、養護教諭二種（看護栄養学部 看護学科）",
+"管理栄養士（受験資格）、栄養士（資格）、栄養教諭一種、食品衛生監視員（資格）（看護栄養学部 健康栄養学科）"
+]
 },
 "広島市立大学": {
 "difficulty": {
