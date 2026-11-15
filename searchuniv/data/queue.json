@@ -8309,6 +8309,91 @@
 "story"
 ],
 "date": "2026-11-15"
+},
+{
+"name": "気象大学校",
+"need": [
+"careers"
+],
+"date": "2026-11-15"
+},
+{
+"name": "海上保安大学校",
+"need": [
+"careers"
+],
+"date": "2026-11-15"
+},
+{
+"name": "職業能力開発総合大学校",
+"need": [
+"licenses",
+"careers"
+],
+"date": "2026-11-15"
+},
+{
+"name": "国際ファッション専門職大学",
+"need": [
+"careers"
+],
+"date": "2026-11-15"
+},
+{
+"name": "情報経営イノベーション専門職大学（iU）",
+"need": [
+"careers"
+],
+"date": "2026-11-15"
+},
+{
+"name": "東京国際工科専門職大学",
+"need": [
+"careers"
+],
+"date": "2026-11-15"
+},
+{
+"name": "開志専門職大学",
+"need": [
+"careers"
+],
+"date": "2026-11-15"
+},
+{
+"name": "芸術文化観光専門職大学",
+"need": [
+"careers"
+],
+"date": "2026-11-15"
+},
+{
+"name": "浜松医科大学",
+"need": [
+"recheck"
+],
+"date": "2026-11-15"
+},
+{
+"name": "福井大学",
+"need": [
+"recheck"
+],
+"date": "2026-11-15"
+},
+{
+"name": "福岡看護大学",
+"need": [
+"story"
+],
+"date": "2026-11-15"
+},
+{
+"name": "第一工科大学",
+"need": [
+"story"
+],
+"date": "2026-11-15"
 }
 ],
 "failed": [
@@ -8969,7 +9054,9 @@
 "札幌大谷大学": 1,
 "東北文教大学": 1,
 "弘前医療福祉大学": 1,
-"福島県立医科大学": 1
+"福島県立医科大学": 1,
+"航空保安大学校": 1,
+"国立看護大学校": 1
 },
 "enrich": [
 {
@@ -15414,24 +15501,6 @@
 "note": "licenses、careersはKei-Netで記入済み（2026-11-15）。研究分野は大学公式で集める項目として残す"
 },
 {
-"name": "気象大学校",
-"keinet": "",
-"need": [
-"licenses",
-"careers",
-"research"
-]
-},
-{
-"name": "海上保安大学校",
-"keinet": "",
-"need": [
-"licenses",
-"careers",
-"research"
-]
-},
-{
 "name": "水産大学校",
 "keinet": "5030",
 "need": [
@@ -15439,24 +15508,6 @@
 "research"
 ],
 "note": "資格はKei-Netで記入（2026-11-15）。Kei-Netに進学・就職ページが見当たらず、大学公式で集める"
-},
-{
-"name": "職業能力開発総合大学校",
-"keinet": "5040",
-"need": [
-"licenses",
-"careers",
-"research"
-]
-},
-{
-"name": "航空保安大学校",
-"keinet": "",
-"need": [
-"licenses",
-"careers",
-"research"
-]
 },
 {
 "name": "茨城県立農業大学校",
@@ -15479,51 +15530,6 @@
 {
 "name": "職業能力開発大学校（ポリテクカレッジ）",
 "keinet": "",
-"need": [
-"licenses",
-"careers",
-"research"
-]
-},
-{
-"name": "国際ファッション専門職大学",
-"keinet": "2102",
-"need": [
-"licenses",
-"careers",
-"research"
-]
-},
-{
-"name": "情報経営イノベーション専門職大学（iU）",
-"keinet": "2106",
-"need": [
-"licenses",
-"careers",
-"research"
-]
-},
-{
-"name": "東京国際工科専門職大学",
-"keinet": "2113",
-"need": [
-"licenses",
-"careers",
-"research"
-]
-},
-{
-"name": "開志専門職大学",
-"keinet": "2343",
-"need": [
-"licenses",
-"careers",
-"research"
-]
-},
-{
-"name": "芸術文化観光専門職大学",
-"keinet": "1628",
 "need": [
 "licenses",
 "careers",
@@ -15718,15 +15724,6 @@
 "keinet": "1030",
 "need": [
 "methods"
-]
-},
-{
-"name": "国立看護大学校",
-"keinet": "",
-"need": [
-"licenses",
-"careers",
-"research"
 ]
 },
 {
@@ -27359,6 +27356,97 @@
 "licenses"
 ],
 "note": "Kei-Netのlicentialページが今回も開けず（検索に出ない）（2026-11-15）"
+},
+{
+"name": "気象大学校",
+"keinet": "",
+"need": [
+"licenses",
+"research"
+],
+"note": "進路は気象庁の学校案内（令和8年度）で記入（2026-11-15）。学位（学士（理学））以外の資格の記載なし"
+},
+{
+"name": "海上保安大学校",
+"keinet": "",
+"need": [
+"licenses",
+"research"
+],
+"note": "進路は人事院の試験案内で記入（2026-11-15）。資格の記載なし"
+},
+{
+"name": "職業能力開発総合大学校",
+"keinet": "5040",
+"need": [
+"research"
+],
+"note": "資格・進路はマナビジョンで記入（2026-11-15）。研究分野は大学公式で集める項目として残す"
+},
+{
+"name": "航空保安大学校",
+"keinet": "",
+"need": [
+"licenses",
+"careers",
+"research"
+],
+"note": "検索で出たのは航空管制技術官（採用後研修）の資料のみで、本科の進路・資格は見つからず（2026-11-15）"
+},
+{
+"name": "国際ファッション専門職大学",
+"keinet": "2102",
+"need": [
+"licenses",
+"research"
+],
+"note": "進路はマナビジョンで記入（2026-11-15）。マナビジョンに資格の記載なし。Kei-Netの資格ページは今回開けず"
+},
+{
+"name": "情報経営イノベーション専門職大学（iU）",
+"keinet": "2106",
+"need": [
+"licenses",
+"research"
+],
+"note": "進路は大学のプレスリリース（2026-06）で記入（2026-11-15）。資格の掲載は見つからず"
+},
+{
+"name": "東京国際工科専門職大学",
+"keinet": "2113",
+"need": [
+"licenses",
+"research"
+],
+"note": "進路はマナビジョン（3校合算）で記入（2026-11-15）。資格は「目標とする資格」（情報処理技術者試験など）のみで取得資格ではないため未記入"
+},
+{
+"name": "開志専門職大学",
+"keinet": "2343",
+"need": [
+"licenses",
+"research"
+],
+"note": "進路はマナビジョン（2025年度）で記入（2026-11-15）。資格は「取得をめざす資格」（宅建・基本情報など）のみで未記入"
+},
+{
+"name": "芸術文化観光専門職大学",
+"keinet": "1628",
+"need": [
+"licenses",
+"research"
+],
+"note": "進路はマナビジョン（2025年3月卒）で記入（2026-11-15）。資格の記載なし"
+},
+{
+"name": "国立看護大学校",
+"keinet": "",
+"need": [
+"licenses",
+"careers",
+"research"
+],
+"note": "検索で進路・資格の出典を見つけられず（2026-11-15）"
 }
 ],
 "complete": false,
