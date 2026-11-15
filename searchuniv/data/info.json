@@ -13826,7 +13826,7 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "money": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-15",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -13901,11 +13901,11 @@
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜",
-"apply": "〜11/5着",
+"apply": "11/1〜11/5",
 "exam": "11/28",
 "result": "12/16",
 "proc": "2/1",
-"note": "Kei-Net表記（出願は締切日のみ、必着）。言語文化学部の日程。国際社会学部・国際日本学部は試験11/29。"
+"note": "出願期間は公式の2027年度入学者選抜要項（全学部共通）。言語文化学部の日程。国際社会学部・国際日本学部は試験11/29。"
 }
 ]
 },
@@ -14396,7 +14396,7 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "money": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-15",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -102280,7 +102280,8 @@
 "schedule": "2026-11-09",
 "money": "2026-11-09",
 "_via": "2026-11-09",
-"kyotsu": "2026-11-15"
+"kyotsu": "2026-11-15",
+"research": "2026-11-15"
 },
 "faculties": [
 "保健福祉学部"
@@ -102334,7 +102335,8 @@
 "https://manabi.benesse.ne.jp/daigaku/school/2006/nyushi/bairitsu/",
 "https://passnavi.obunsha.co.jp/univ/1012/eiken/",
 "https://passnavi.obunsha.co.jp/univ/1012/eiken/?facultyID=005",
-"https://hennyu-go-kaku.com/media/articles/nayoro-city-university-hennyu/"
+"https://hennyu-go-kaku.com/media/articles/nayoro-city-university-hennyu/",
+"https://search.keinet.ne.jp/1508/outline/department"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -102544,7 +102546,13 @@
 "rl_text": "全学科・全日程でR:L=1:1（R50:L50）",
 "note": "栄養学科・看護学科は5教科5科目、社会福祉学科・社会保育学科は4教科4科目。二段階選抜なし",
 "year": "2027年度入試"
-}
+},
+"research": [
+"栄養学（基礎栄養学・応用栄養学・給食経営管理論・栄養教育論・公衆栄養学・臨床栄養学など）",
+"看護学（基礎・地域・成人・老年・小児・母性・精神看護学、臨地実習など）",
+"社会福祉学（ソーシャルワーク論・公的扶助論・地域福祉論・高齢者福祉論・医療福祉論など）",
+"社会保育（保育の基礎理論・保育の内容と方法・障がい児の保育・教育など）"
+]
 },
 "山形県立米沢栄養大学": {
 "difficulty": {
@@ -103144,7 +103152,8 @@
 "money": "2026-11-09",
 "_via": "2026-11-09",
 "kyotsu": "2026-11-15",
-"careers": "2026-11-15"
+"careers": "2026-11-15",
+"licenses": "2026-11-15"
 },
 "faculties": [
 "保健医療学部"
@@ -103194,7 +103203,8 @@
 "https://www.yachts.ac.jp/admission/media-download/3030/a58c4ba0ec9a93a8/",
 "https://portraits.niad.ac.jp/faculty/tuition/1122/1122-1M25-01-01.html",
 "https://search.keinet.ne.jp/1511/general/exam_subject",
-"https://search.keinet.ne.jp/1511/outline/admission_employment"
+"https://search.keinet.ne.jp/1511/outline/admission_employment",
+"https://www.yachts.ac.jp/admission/media-download/2980/807cf5874faf5087"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -103374,7 +103384,12 @@
 "note": "前期のみ。全学科で二段階選抜（4倍）。看護学科・作業療法学科は数学か情報Ⅰを選ぶ",
 "year": "2027年度入試"
 },
-"careers": "2024年度卒業者：看護学科は65人中就職62人・進学3人、理学療法学科は20人中就職19人・進学1人、作業療法学科は22人中就職20人・進学2人（Kei-Net）。"
+"careers": "2024年度卒業者：看護学科は65人中就職62人・進学3人、理学療法学科は20人中就職19人・進学1人、作業療法学科は22人中就職20人・進学2人（Kei-Net）。",
+"licenses": [
+"看護師国家試験受験資格及び保健師国家試験受験資格、または看護師国家試験受験資格及び助産師国家試験受験資格の選択制（助産師は定員10人）（保健医療学部 看護学科）",
+"理学療法士国家試験受験資格（保健医療学部 理学療法学科）",
+"作業療法士国家試験受験資格（保健医療学部 作業療法学科）"
+]
 },
 "岩手県立大学": {
 "difficulty": {
@@ -177090,7 +177105,8 @@ null
 "fdiff": "2026-11-09",
 "schedule": "2026-11-09",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"licenses": "2026-11-15"
 },
 "faculties": [
 "工学部",
@@ -177154,7 +177170,8 @@ null
 "https://passnavi.obunsha.co.jp/univ/4835/eiken/",
 "https://passnavi.obunsha.co.jp/univ/4835/subject/",
 "https://passnavi.obunsha.co.jp/univ/4835/subject/?facultyID=010",
-"https://www.keinet.ne.jp/exam/ranking/2027/g_dai_k06.pdf"
+"https://www.keinet.ne.jp/exam/ranking/2027/g_dai_k06.pdf",
+"https://search.keinet.ne.jp/1661/outline/licential"
 ],
 "eng": {
 "year": "2027年度入試",
@@ -177444,7 +177461,14 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"licenses": [
+"高等学校教諭一種（工業）、技術士補（試験一部免除）（工学部 機械工学科・電気電子工学科）",
+"中学校教諭一種（理科）、高等学校教諭一種（理科）、技術士補（試験一部免除）（工学部 先進化学科）",
+"中学校教諭一種（数学）、高等学校教諭一種（数学・情報）（工学部 数理情報科学科）",
+"中学校教諭一種（理科）、高等学校教諭一種（理科）、食品衛生監視員（資格）（工学部 医薬工学科）",
+"薬剤師（受験資格）、食品衛生監視員（資格）（薬学部 薬学科）"
+]
 },
 "岡山県立大学": {
 "difficulty": {
@@ -179300,7 +179324,8 @@ null
 "methods": "2026-11-09",
 "schedule": "2026-11-09",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"licenses": "2026-11-15"
 },
 "faculties": [
 "国際学部",
@@ -179386,7 +179411,8 @@ null
 "https://passnavi.obunsha.co.jp/univ/1275/subject/?facultyID=010",
 "https://passnavi.obunsha.co.jp/univ/1275/subject/?facultyID=015",
 "https://manabi.benesse.ne.jp/daigaku/school/2260/nyushi/jouhoukagaku/",
-"https://aoaoi.jp/preparation/hiroshima_city/"
+"https://aoaoi.jp/preparation/hiroshima_city/",
+"https://search.keinet.ne.jp/1658/outline/licential"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者。全入試方式計は法人業務実績評価報告書、一般選抜は大学公式・Kei-Net・マナビジョンに基づく）",
@@ -179795,7 +179821,14 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"licenses": [
+"中学校教諭一種（社会・英語）、高等学校教諭一種（地理歴史・公民・英語）、学芸員（資格）（国際学部 国際学科）",
+"中学校教諭一種（美術）、高等学校教諭一種（美術）、学芸員（資格）（芸術学部 美術学科 日本画・油絵・彫刻）",
+"中学校教諭一種（美術）、高等学校教諭一種（美術・工芸）、学芸員（資格）（芸術学部 デザイン工芸学科）",
+"高等学校教諭一種（数学・情報）（情報科学部 情報工学科・知能工学科・システム工学科）",
+"高等学校教諭一種（情報）（情報科学部 医用情報科学科）"
+]
 },
 "愛媛県立医療技術大学": {
 "difficulty": {
@@ -197182,7 +197215,8 @@ null
 "money": "2026-11-08",
 "research": "2026-11-08",
 "careers": "2026-11-08",
-"schedule": "2026-11-12"
+"schedule": "2026-11-12",
+"licenses": "2026-11-15"
 },
 "faculties": [
 "文学部",
@@ -197315,7 +197349,8 @@ null
 "https://search.keinet.ne.jp/2161/outline/admission_employment",
 "https://search.keinet.ne.jp/2161/outline/expense",
 "https://search.keinet.ne.jp/2161/general/border_rate",
-"https://manabi.benesse.ne.jp/daigaku/school/3162/nyushi/gokaku-happyo/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3162/nyushi/gokaku-happyo/index.html",
+"https://search.keinet.ne.jp/2161/outline/licential"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -197394,7 +197429,19 @@ null
 }
 ],
 "note": "マナビジョン（2027年度入試情報）。全学部・学科共通。検定料は未確認"
-}
+},
+"licenses": [
+"中学校教諭一種（国語）、高等学校教諭一種（国語）、学校図書館司書教諭（資格）、司書（資格）、学芸員（資格）、社会福祉主事（資格）（文学部 文芸文化学科）",
+"保育士（資格）、幼稚園教諭一種、司書（資格）、社会福祉主事（資格）（教育学部 幼児教育学科）",
+"小学校教諭一種、特別支援学校教諭一種、学校図書館司書教諭（資格）、司書（資格）、社会福祉主事（資格）（教育学部 児童教育学科）",
+"中学校教諭一種（保健）、高等学校教諭一種（保健）、養護教諭一種、学校図書館司書教諭（資格）、司書（資格）、社会福祉主事（資格）、公認心理師（受験資格）、認定心理士（資格）（心理学部 心理学科）",
+"司書（資格）（社会情報デザイン学部 社会情報デザイン学科）",
+"中学校教諭一種（保健体育）、高等学校教諭一種（保健体育）、学校図書館司書教諭（資格）、栄養教諭二種、司書（資格）、社会福祉主事（資格）、管理栄養士（受験資格）、栄養士（資格）（人間生活学部 健康栄養学科）",
+"栄養教諭一種、司書（資格）、社会福祉主事（資格）、管理栄養士（受験資格）、栄養士（資格）（人間生活学部 食物栄養学科）",
+"司書（資格）、食品衛生監視員（資格）、フードスペシャリスト（資格）（人間生活学部 食品開発学科）",
+"保育士（資格）、司書（資格）、社会福祉士（受験資格）、社会福祉主事（資格）（人間生活学部 人間福祉学科 社会福祉・保育）",
+"司書（資格）、社会福祉士（受験資格）、介護福祉士（受験資格）、社会福祉主事（資格）（人間生活学部 人間福祉学科 社会福祉・介護福祉）"
+]
 },
 "千葉商科大学": {
 "difficulty": {
