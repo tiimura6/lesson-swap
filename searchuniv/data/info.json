@@ -10013,7 +10013,8 @@
 "https://search.keinet.ne.jp/1075/outline/admission_employment",
 "https://search.keinet.ne.jp/1075/general/exam_subject",
 "https://www.ibaraki.ac.jp/admission/uploads/2026/07/R9senbatuyoko.pdf",
-"https://passnavi.obunsha.co.jp/univ/0150/expense/"
+"https://passnavi.obunsha.co.jp/univ/0150/expense/",
+"https://www.ibaraki.ac.jp/admission/uploads/2026/10/ippan_2027.pdf"
 ],
 "licenses": [
 "教員免許（幼・小・中・高、特別支援）",
@@ -10559,7 +10560,7 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-07",
+"schedule": "2026-11-15",
 "money": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
@@ -10576,7 +10577,9 @@
 "exam": "2/25",
 "result": "3/6",
 "proc": "3/8〜3/15",
-"note": "教育学部（教科教育コースの一部）と地域未来共創学環は2/26にも実施。検定料は選抜要項に記載なし"
+"note": "教育学部（教科教育コースの一部）と地域未来共創学環は2/26にも実施",
+"fee": 17000,
+"url": "https://www.ibaraki.ac.jp/admission/uploads/2026/10/ippan_2027.pdf"
 },
 {
 "kubun": "一般",
@@ -10585,7 +10588,9 @@
 "exam": "3/12",
 "result": "3/20",
 "proc": "3/22〜3/27",
-"note": "教育学部の一部コース・地域未来共創学環は後期なし。理学部は数学・情報数理コースのみ個別テスト"
+"note": "教育学部の一部コース・地域未来共創学環は後期なし。理学部は数学・情報数理コースのみ個別テスト",
+"fee": 17000,
+"url": "https://www.ibaraki.ac.jp/admission/uploads/2026/10/ippan_2027.pdf"
 },
 {
 "kubun": "推薦",
@@ -10910,7 +10915,8 @@
 "https://search.keinet.ne.jp/1105/outline/admission_employment",
 "https://search.keinet.ne.jp/1105/general/exam_subject",
 "https://passnavi.obunsha.co.jp/univ/0210/expense/",
-"https://passnavi.obunsha.co.jp/univ/0210/schedule/"
+"https://passnavi.obunsha.co.jp/univ/0210/schedule/",
+"https://manabi.benesse.ne.jp/daigaku/school/1125/nyushi/index.html"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -11529,7 +11535,7 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "money": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-15",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -97066,7 +97072,8 @@
 "https://search.keinet.ne.jp/1395/outline/admission_employment",
 "https://manabi.benesse.ne.jp/daigaku/school/1415/gakuhi/index.html",
 "https://passnavi.obunsha.co.jp/univ/0790/schedule/",
-"https://search.keinet.ne.jp/1395/outline/licential"
+"https://search.keinet.ne.jp/1395/outline/licential",
+"https://search.keinet.ne.jp/1395/general/exam_subject"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -97332,7 +97339,8 @@
 "ratios": "2026-11-06",
 "money": "2026-11-09",
 "schedule": "2026-11-09",
-"licenses": "2026-11-15"
+"licenses": "2026-11-15",
+"kyotsu": "2026-11-15"
 },
 "departments": [
 {
@@ -97593,7 +97601,21 @@
 "学校図書館司書教諭・学芸員（資格）",
 "医師（受験資格）（医学部 医学科）",
 "看護師・保健師（受験資格）、養護教諭一種・二種（医学部 看護学科）"
-]
+],
+"kyotsu": {
+"kamoku": "3教科3科目〜6教科7科目（教育学部は選択型・理型、理工学部前期は理型）",
+"kyoka": [
+3,
+6
+],
+"rl": [
+"4:1",
+"3:2"
+],
+"rl_text": "教育学部以外はR:L=4:1（例 R160:L40、社会科学B選抜 R120:L30）、教育学部はR120:L80（3:2）",
+"note": "地域協働学部は3教科3科目、人文社会科学部 国際社会コースは5教科5科目。確認できた範囲では二段階選抜の記載なし。農林海洋科学部の農芸化学以降は未確認",
+"year": "2027年度入試"
+}
 },
 "鳥取大学": {
 "difficulty": {
@@ -99205,7 +99227,9 @@
 "licenses": "2026-11-06",
 "ratios": "2026-11-06",
 "money": "2026-11-09",
-"schedule": "2026-11-09"
+"schedule": "2026-11-09",
+"kyotsu": "2026-11-15",
+"careers": "2026-11-15"
 },
 "faculties": [
 "福祉健康科学部",
@@ -99290,7 +99314,9 @@
 "https://search.keinet.ne.jp/1445/general/border_rate",
 "https://search.keinet.ne.jp/outline/licential/1445",
 "https://search.keinet.ne.jp/1445/outline/expense",
-"https://passnavi.obunsha.co.jp/univ/0890/schedule/"
+"https://passnavi.obunsha.co.jp/univ/0890/schedule/",
+"https://search.keinet.ne.jp/1445/general/exam_subject",
+"https://search.keinet.ne.jp/1445/outline/admission_employment"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -99469,7 +99495,22 @@
 "note": "教育・経済・医（看護・先進医療科学）・理工・福祉健康科学の一部。手続締切は掲載なし（パスナビ）"
 }
 ]
-}
+},
+"kyotsu": {
+"kamoku": "文型・理型・選択型が中心（経済学部後期は5教科6科目）",
+"kyoka": [
+5,
+6
+],
+"rl": [
+"4:1",
+"1:1"
+],
+"rl_text": "福祉健康科学部・経済学部・教育学部はR:L=4:1（例 R160:L40）、理工学部はR100:L100（1:1）",
+"note": "二段階選抜は福祉健康科学部（前期3倍・後期10倍）。理工学部の一部後期と医学部は未確認",
+"year": "2027年度入試"
+},
+"careers": "2024年度学士課程卒業者（医学科を除く）975人のうち進学190人・就職754人（Kei-Net の学科別表から集計）。理工学部は創生工学科の42.4%・共創理工学科の37.7%が進学。教育学部（教員養成）は卒業者129人のうち教員就職106人（82.2%、正規101人・臨時的任用5人）。"
 },
 "宮崎大学": {
 "faculties": [
@@ -100175,7 +100216,9 @@
 "licenses": "2026-11-06",
 "ratios": "2026-11-06",
 "money": "2026-11-09",
-"schedule": "2026-11-09"
+"schedule": "2026-11-09",
+"kyotsu": "2026-11-15",
+"careers": "2026-11-15"
 },
 "faculties": [
 "教育学部"
@@ -100236,7 +100279,9 @@
 "https://search.keinet.ne.jp/1420/outline/licential",
 "https://search.keinet.ne.jp/1420/general/border_rate",
 "https://search.keinet.ne.jp/1420/outline/expense",
-"https://passnavi.obunsha.co.jp/univ/0810/schedule/"
+"https://passnavi.obunsha.co.jp/univ/0810/schedule/",
+"https://search.keinet.ne.jp/1420/general/exam_subject",
+"https://search.keinet.ne.jp/1420/outline/admission_employment"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -100367,7 +100412,21 @@
 "note": "初等・中等・特別支援教育教員養成課程（パスナビ）"
 }
 ]
-}
+},
+"kyotsu": {
+"kamoku": "文型・理型・選択型（課程・専攻により異なる）",
+"kyoka": [
+5,
+6
+],
+"rl": [
+"1:1"
+],
+"rl_text": "全課程・全日程でR:L=1:1（R100:L100）",
+"note": "二段階選抜の記載なし。理数教育・中等数学・理科は理型、人文・社会教育は文型、それ以外の多くは選択型",
+"year": "2027年度入試"
+},
+"careers": "2024年度卒業者613人（初等389人・中等163人・特別支援61人）のうち就職553人・進学30人（Kei-Net の課程別表から集計）。教員養成学部の集計では卒業者594人のうち教員就職461人（77.6%、正規383人・臨時的任用78人）、教員・保育士以外への就職12.6%、大学院等進学4.2%。"
 },
 "長崎大学": {
 "difficulty": {
@@ -100799,7 +100858,9 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "money": "2026-11-09",
-"schedule": "2026-11-09"
+"schedule": "2026-11-09",
+"kyotsu": "2026-11-15",
+"licenses": "2026-11-15"
 },
 "faculties": [
 "法文学部",
@@ -100901,7 +100962,9 @@
 "https://search.keinet.ne.jp/1465/outline/department",
 "https://search.keinet.ne.jp/1465/general/border_rate",
 "https://search.keinet.ne.jp/1465/outline/expense",
-"https://www.kagoshima-u.ac.jp/exam/R09-senbatu.pdf"
+"https://www.kagoshima-u.ac.jp/exam/R09-senbatu.pdf",
+"https://search.keinet.ne.jp/1465/general/exam_subject",
+"https://search.keinet.ne.jp/1465/outline/licential"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -101098,7 +101161,39 @@
 "note": "手続3/23〜3/27。出願期間は要項の表から読み取れず（大学公式）"
 }
 ]
-}
+},
+"kyotsu": {
+"kamoku": "文型・理型が中心（法文学部後期は4教科4科目）",
+"kyoka": [
+4,
+6
+],
+"rl": [
+"4:1"
+],
+"rl_text": "確認できた学部はR:L=4:1（例 R160:L40、法文学部前期 R120:L30）",
+"note": "法文学部・教育学部（中等の音楽まで）のみ確認。二段階選抜の記載なし（確認できた範囲）。理・工・農・水産・医・歯・共同獣医学部は未確認",
+"year": "2027年度入試"
+},
+"licenses": [
+"中学校教諭一種（社会）、高等学校教諭一種（公民・商業）、学芸員（資格）（法文学部 法経社会学科）",
+"社会教育主事（資格）・社会福祉主事（資格）（法文学部 法経社会学科 地域社会）",
+"中学校教諭一種（国語・社会・英語）、高等学校教諭一種（国語・地理歴史・公民・英語）、学芸員（資格）（法文学部 人文学科）",
+"公認心理師（受験資格）（法文学部 人文学科 心理学）",
+"幼稚園教諭一種、小学校教諭一種、特別支援学校教諭一種（教育学部。特別支援教育は幼稚園を除く）",
+"中学校教諭一種（国語・社会・数学・理科・音楽・美術・保健体育・家庭・英語・技術）（教育学部）",
+"高等学校教諭一種（国語・地理歴史・公民・数学・理科・音楽・美術・保健体育・家庭・英語・書道・工業）、学芸員（資格）（教育学部）",
+"中学校教諭一種（数学・理科）、高等学校教諭一種（数学・理科・情報）、学芸員（資格）（理学部）",
+"測量士（資格）・測量士補（資格）（理学部 数理情報科学・地球科学、工学部 海洋土木工学）",
+"高等学校教諭一種（工業）、技術士補（試験一部免除）（工学部 先進工学科）",
+"一級建築士（受験資格）・二級建築士（受験資格）（工学部 建築学科）",
+"高等学校教諭一種（農業）、食品衛生監視員（資格）（農学部）",
+"獣医師（受験資格）、食品衛生監視員（資格）（共同獣医学部 共同獣医学科）",
+"中学校教諭一種（理科）、高等学校教諭一種（理科・水産）、学芸員（資格）、食品衛生監視員（資格）（水産学部）",
+"医師（受験資格）（医学部 医学科）",
+"看護師（受験資格）・理学療法士（受験資格）・作業療法士（受験資格）（医学部 保健学科）",
+"歯科医師（受験資格）（歯学部）"
+]
 },
 "室蘭工業大学": {
 "difficulty": {
@@ -101117,7 +101212,8 @@
 "licenses": "2026-11-06",
 "careers": "2026-11-06",
 "money": "2026-11-09",
-"schedule": "2026-11-09"
+"schedule": "2026-11-09",
+"kyotsu": "2026-11-15"
 },
 "faculties": [
 "理工学部（昼間）",
@@ -101168,7 +101264,8 @@
 "https://search.keinet.ne.jp/1035/outline/admission_employment",
 "https://search.keinet.ne.jp/1035/general/border_rate",
 "https://search.keinet.ne.jp/1035/outline/expense",
-"https://manabi.benesse.ne.jp/daigaku/school/1055/nyushi/gokaku-happyo/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/1055/nyushi/gokaku-happyo/index.html",
+"https://search.keinet.ne.jp/1035/general/exam_subject"
 ],
 "money": {
 "year": "2026年度",
@@ -101224,6 +101321,19 @@
 "note": "個別試験なし（マナビジョン 2027年度入試）"
 }
 ]
+},
+"kyotsu": {
+"kamoku": "理型（全学科・全日程）",
+"kyoka": [
+5,
+6
+],
+"rl": [
+"1:1"
+],
+"rl_text": "全学科・全日程でR:L=1:1（R100:L100）",
+"note": "二段階選抜の記載なし。共テの満点は前期900点・後期1150点（昼間・夜間主とも）",
+"year": "2027年度入試"
 }
 },
 "三重大学": {
@@ -101243,7 +101353,8 @@
 "licenses": "2026-11-06",
 "careers": "2026-11-06",
 "money": "2026-11-09",
-"schedule": "2026-11-09"
+"schedule": "2026-11-09",
+"kyotsu": "2026-11-15"
 },
 "faculties": [
 "人文学部",
@@ -101351,7 +101462,8 @@
 "https://search.keinet.ne.jp/1265/outline/admission_employment",
 "https://search.keinet.ne.jp/1265/general/border_rate",
 "https://search.keinet.ne.jp/1265/outline/expense",
-"https://manabi.benesse.ne.jp/daigaku/school/1285/nyushi/gokaku-happyo/"
+"https://manabi.benesse.ne.jp/daigaku/school/1285/nyushi/gokaku-happyo/",
+"https://search.keinet.ne.jp/1265/general/exam_subject"
 ],
 "money": {
 "year": "2026年度",
@@ -101459,6 +101571,19 @@
 }
 ],
 "note": "一般選抜（前期・後期）の日程はマナビジョンで未掲載（2026-11-09時点）"
+},
+"kyotsu": {
+"kamoku": "文型・選択型が中心（教育学部の一部は4〜5教科5科目、6教科7科目）",
+"kyoka": [
+4,
+6
+],
+"rl": [
+"2:1"
+],
+"rl_text": "確認できた学部はR:L=2:1",
+"note": "人文学部・教育学部（美術〈初〉前期まで）のみ確認。二段階選抜の記載なし（確認できた範囲）。医・工・生物資源学部は未確認",
+"year": "2027年度入試"
 }
 },
 "鹿屋体育大学": {
@@ -101478,7 +101603,8 @@
 "licenses": "2026-11-06",
 "careers": "2026-11-06",
 "money": "2026-11-09",
-"schedule": "2026-11-10"
+"schedule": "2026-11-10",
+"kyotsu": "2026-11-15"
 },
 "faculties": [
 "体育学部"
@@ -101516,7 +101642,8 @@
 "https://search.keinet.ne.jp/1470/general/border_rate",
 "https://search.keinet.ne.jp/1470/outline/expense",
 "https://manabi.benesse.ne.jp/daigaku/school/1490/nyushi/gokaku-happyo/",
-"https://www.nifs-k.ac.jp/wp-content/uploads/2026/07/R9_鹿屋体育大学入学者選抜要項.pdf"
+"https://www.nifs-k.ac.jp/wp-content/uploads/2026/07/R9_鹿屋体育大学入学者選抜要項.pdf",
+"https://search.keinet.ne.jp/1470/general/exam_subject"
 ],
 "money": {
 "year": "2026年度",
@@ -101571,6 +101698,19 @@
 "note": "ネット出願登録1/22〜2/3 15時、書類提出1/25〜2/3。後期日程は実施しない。手続締切・検定料は学生募集要項で公表（大学公式 令和9年度入学者選抜要項）"
 }
 ]
+},
+"kyotsu": {
+"kamoku": "3教科3科目",
+"kyoka": [
+3,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "全選抜でR:L=1:1（R100:L100）",
+"note": "スポーツ総合A・B選抜、武道課程（いずれも前期）。B選抜は共テ600点満点を800点に換算。二段階選抜の記載なし",
+"year": "2027年度入試"
 }
 },
 "政策研究大学院大学（大学院のみ）": {
@@ -101700,7 +101840,8 @@
 "ratios": "2026-11-09",
 "schedule": "2026-11-09",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"kyotsu": "2026-11-15"
 },
 "faculties": [
 "事業構想学群",
@@ -102068,7 +102209,21 @@
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"kyotsu": {
+"kamoku": "5教科6科目〜6教科7科目（看護学類は理型）",
+"kyoka": [
+5,
+6
+],
+"rl": [
+"1:1",
+"4:1"
+],
+"rl_text": "事業構想学群はR:L=1:1（R100:L100）、看護学類・食産業学群は4:1（例 R200:L50）",
+"note": "事業構想学群は5教科6科目（理・地公・情から2）、食産業学群は6教科7科目。二段階選抜の記載なし",
+"year": "2027年度入試"
+}
 },
 "名寄市立大学": {
 "difficulty": {
@@ -102089,7 +102244,8 @@
 "ratios": "2026-11-09",
 "schedule": "2026-11-09",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"kyotsu": "2026-11-15"
 },
 "faculties": [
 "保健福祉学部"
@@ -102340,7 +102496,20 @@
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"kyotsu": {
+"kamoku": "4教科4科目〜5教科5科目",
+"kyoka": [
+4,
+5
+],
+"rl": [
+"1:1"
+],
+"rl_text": "全学科・全日程でR:L=1:1（R50:L50）",
+"note": "栄養学科・看護学科は5教科5科目、社会福祉学科・社会保育学科は4教科4科目。二段階選抜なし",
+"year": "2027年度入試"
+}
 },
 "山形県立米沢栄養大学": {
 "difficulty": {
@@ -102363,7 +102532,8 @@
 "ratios": "2026-11-09",
 "schedule": "2026-11-09",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"kyotsu": "2026-11-15"
 },
 "faculties": [
 "健康栄養学部"
@@ -102531,7 +102701,20 @@
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"kyotsu": {
+"kamoku": "前期4教科5科目／後期4教科4科目",
+"kyoka": [
+4,
+4
+],
+"rl": [
+"3:1"
+],
+"rl_text": "R:L=3:1（前期 R150:L50、後期 R75:L25）",
+"note": "二段階選抜なし",
+"year": "2027年度入試"
+}
 },
 "旭川市立大学": {
 "difficulty": {

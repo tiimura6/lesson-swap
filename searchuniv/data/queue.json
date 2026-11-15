@@ -9177,6 +9177,79 @@
 "kyotsu"
 ],
 "date": "2026-11-15"
+},
+{
+"name": "高知大学",
+"need": [
+"kyotsu"
+],
+"date": "2026-11-15"
+},
+{
+"name": "大分大学",
+"need": [
+"kyotsu",
+"careers"
+],
+"date": "2026-11-15"
+},
+{
+"name": "福岡教育大学",
+"need": [
+"kyotsu",
+"careers"
+],
+"date": "2026-11-15"
+},
+{
+"name": "鹿児島大学",
+"need": [
+"kyotsu",
+"licenses"
+],
+"date": "2026-11-15"
+},
+{
+"name": "室蘭工業大学",
+"need": [
+"kyotsu"
+],
+"date": "2026-11-15"
+},
+{
+"name": "三重大学",
+"need": [
+"kyotsu"
+],
+"date": "2026-11-15"
+},
+{
+"name": "鹿屋体育大学",
+"need": [
+"kyotsu"
+],
+"date": "2026-11-15"
+},
+{
+"name": "宮城大学",
+"need": [
+"kyotsu"
+],
+"date": "2026-11-15"
+},
+{
+"name": "名寄市立大学",
+"need": [
+"kyotsu"
+],
+"date": "2026-11-15"
+},
+{
+"name": "山形県立米沢栄養大学",
+"need": [
+"kyotsu"
+],
+"date": "2026-11-15"
 }
 ],
 "failed": [
@@ -16146,10 +16219,9 @@
 "name": "高知大学",
 "keinet": "1395",
 "need": [
-"kyotsu",
 "methods_gap"
 ],
-"note": "licensesはKei-Netで記入（2026-11-15）"
+"note": "共通テストはKei-Netで記入（農林海洋科学部の農芸化学以降は未確認）（2026-11-15）"
 },
 {
 "name": "鳥取大学",
@@ -16802,10 +16874,9 @@
 "name": "大分大学",
 "keinet": "1445",
 "need": [
-"kyotsu",
-"methods",
-"careers"
-]
+"methods"
+],
+"note": "共通テスト・進路はKei-Netで記入（2026-11-15）"
 },
 {
 "name": "大分大学",
@@ -16872,10 +16943,9 @@
 "name": "福岡教育大学",
 "keinet": "1420",
 "need": [
-"kyotsu",
-"methods",
-"careers"
-]
+"methods"
+],
+"note": "共通テスト・進路はKei-Netで記入（2026-11-15）"
 },
 {
 "name": "福岡教育大学",
@@ -16919,11 +16989,10 @@
 "name": "鹿児島大学",
 "keinet": "1465",
 "need": [
-"kyotsu",
 "methods",
-"licenses",
 "careers"
-]
+],
+"note": "共通テストはKei-Netで記入（法文・教育学部のみ確認）、資格もKei-Netで記入（2026-11-15）。進路は未記入"
 },
 {
 "name": "鹿児島大学",
@@ -16944,7 +17013,6 @@
 "name": "室蘭工業大学",
 "keinet": "1035",
 "need": [
-"kyotsu",
 "methods"
 ]
 },
@@ -16967,9 +17035,9 @@
 "name": "三重大学",
 "keinet": "1265",
 "need": [
-"kyotsu",
 "methods"
-]
+],
+"note": "共通テストはKei-Netで記入（人文・教育学部の一部のみ確認）（2026-11-15）"
 },
 {
 "name": "三重大学",
@@ -16990,7 +17058,6 @@
 "name": "鹿屋体育大学",
 "keinet": "1470",
 "need": [
-"kyotsu",
 "methods"
 ]
 },
@@ -18084,7 +18151,6 @@
 "name": "宮城大学",
 "keinet": "1514",
 "need": [
-"kyotsu",
 "methods"
 ]
 },
@@ -18107,7 +18173,6 @@
 "name": "名寄市立大学",
 "keinet": "1508",
 "need": [
-"kyotsu",
 "methods"
 ]
 },
@@ -18130,7 +18195,6 @@
 "name": "山形県立米沢栄養大学",
 "keinet": "1527",
 "need": [
-"kyotsu",
 "methods"
 ]
 },
