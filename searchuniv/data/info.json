@@ -24489,7 +24489,8 @@
 "https://passnavi.obunsha.co.jp/univ/0450/schedule/",
 "https://passnavi.obunsha.co.jp/univ/0450/expense/",
 "https://search.keinet.ne.jp/1225/outline/licential",
-"https://search.keinet.ne.jp/1225/outline/admission_employment"
+"https://search.keinet.ne.jp/1225/outline/admission_employment",
+"https://search.keinet.ne.jp/1225/recommend/exam_rec"
 ],
 "kyotsu": {
 "kamoku": "人文学部前期は3〜4教科3〜4科目、経法学部は5〜6教科7科目、教育学部は選択型",
@@ -25091,7 +25092,7 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-07",
+"schedule": "2026-11-15",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "eng": "2026-11-06",
@@ -25439,7 +25440,9 @@
 "https://passnavi.obunsha.co.jp/univ/0470/schedule/",
 "https://passnavi.obunsha.co.jp/univ/0470/expense/",
 "https://search.keinet.ne.jp/1230/outline/licential",
-"https://search.keinet.ne.jp/1230/outline/admission_employment"
+"https://search.keinet.ne.jp/1230/outline/admission_employment",
+"https://search.keinet.ne.jp/1230/recommend/exam_ao",
+"https://manabi.benesse.ne.jp/daigaku/school/1255/nyushi/gokaku-happyo/index.html"
 ],
 "kyotsu": {
 "kamoku": "人文社会科学部は文型（6教科8科目程度）、教育学部は選択型（6教科7〜8科目）",
@@ -26035,7 +26038,7 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-07",
+"schedule": "2026-11-15",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -26084,6 +26087,24 @@
 "result": "2/9",
 "proc": "2/16",
 "note": "教育学部の地域指定枠・教員養成特別枠は出願〜11/9・試験11/21・発表12/1・手続12/11"
+},
+{
+"kubun": "総合型",
+"name": "総合型（共テなし・グローバル共創科学部ほか）",
+"apply": "〜9/7（必着）",
+"exam": "10/10",
+"result": "11/2",
+"proc": "11/13",
+"note": "工学部（数理システム工学科・化学バイオ工学科）は1次9/26・1次発表10/2、2次10/10。情報学部行動情報学科は1次発表10/2、2次10/10"
+},
+{
+"kubun": "総合型",
+"name": "総合型（共テ課す・理学部地球科学科）",
+"apply": "〜1/29（必着）",
+"exam": "2/6",
+"result": "2/9",
+"proc": "2/16",
+"note": "共通テスト4教科6科目"
 }
 ]
 },
@@ -60680,7 +60701,9 @@
 "https://search.keinet.ne.jp/2212/outline/licential",
 "https://search.keinet.ne.jp/2212/outline/admission_employment",
 "https://manabi.benesse.ne.jp/daigaku/school/3244/nyushi/index.html",
-"https://passnavi.obunsha.co.jp/univ/2390/department/"
+"https://passnavi.obunsha.co.jp/univ/2390/department/",
+"https://passnavi.obunsha.co.jp/univ/2390/eiken/",
+"https://search.keinet.ne.jp/2212/topics/12"
 ],
 "licenses": [
 "教員免許（中・高 数学・理科・技術、高 工業・情報）",
@@ -60946,7 +60969,8 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
-"research": "2026-11-15"
+"research": "2026-11-15",
+"eng": "2026-11-15"
 },
 "schedule": {
 "year": "2027年度入試（日程はマナビジョン掲載）／検定料は2026年度入試",
@@ -61113,7 +61137,44 @@
 "工学部：機械工学科（エコエネルギー／メカノデザインの2コース）、機械システム工学科（ロボット学、システム工学、生産管理）、電気電子工学科（電気自動車、エコ材料などのエネルギー分野）",
 "建築学部：まちづくり学科（都市計画、ランドスケープデザイン）、建築学科（計画・構造・設備・生産）、建築デザイン学科（建築・インテリア・共生・保存再生デザインの4分野）",
 "情報学部：情報通信工学科（クォーター制、実験重視）、コンピュータ科学科（ソフトウェア設計・コンピュータ応用・セキュリティ）、情報デザイン学科（デジタルコンテンツ、感性情報処理）、情報科学科（ビッグデータ、経営戦略）"
-]
+],
+"eng": {
+"year": "2027年度入試（基準スコアは2026年度情報）",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 英語外部試験利用日程",
+"use": "出願資格",
+"level": "英検CSE 1750／TEAP 186（RLWS）／IELTS 3.5",
+"cse": 1750,
+"tests": "英検・TEAP・IELTSほか",
+"faculties": "先進工学部・工学部・建築学部・情報学部（航空理工学専攻を除く）",
+"note": "英語の試験は免除（Kei-Net 2027年度）。試験日は2/5〜2/8から選択。基準スコアはパスナビ（2026年度情報）"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（S・A・B・M日程）・共テ利用前期（航空理工学専攻）",
+"use": "出願資格",
+"level": "英検CSE 1800／TOEFL iBT 38／TOEIC L&R 400／GTEC（4技能）850／TEAP 186（RLWS）／IELTS 3.5",
+"cse": 1800,
+"tests": "英検・TOEFL・TOEIC・GTEC・TEAP・IELTS",
+"faculties": "先進工学部 機械理工学科 航空理工学専攻",
+"note": "2025年2月以降に受けた試験のみ有効（Kei-Net 2027年度）"
+},
+{
+"kubun": "総合型",
+"name": "総合型 自己推薦型（航空理工学専攻）",
+"use": "出願資格",
+"level": "英検CSE 2050",
+"cse": 2050,
+"tests": "英検",
+"faculties": "先進工学部 機械理工学科 航空理工学専攻",
+"note": "パスナビ（2027年度情報）"
+}
+],
+"summary": "一般選抜の英語外部試験利用日程（航空理工学専攻を除く全学科）は英語の試験が免除され、英検CSE 1750などの基準が必要。航空理工学専攻は一般・共テ利用でCSE 1800以上などが出願の条件。",
+"note": "パスナビの英検等利用入試ページとKei-Netの「一般選抜の特徴」による"
+}
 },
 "東京農業大学": {
 "difficulty": {
@@ -61159,7 +61220,9 @@
 "https://search.keinet.ne.jp/2260/outline/licential",
 "https://search.keinet.ne.jp/2260/outline/admission_employment",
 "https://manabi.benesse.ne.jp/daigaku/school/3292/nyushi/index.html",
-"https://passnavi.obunsha.co.jp/univ/2860/department/"
+"https://passnavi.obunsha.co.jp/univ/2860/department/",
+"https://passnavi.obunsha.co.jp/univ/2860/eiken/",
+"https://search.keinet.ne.jp/2260/general/exam_changes"
 ],
 "licenses": [
 "教員免許（中・高 理科、高 農業ほか）",
@@ -61454,7 +61517,8 @@
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"research": "2026-11-15"
+"research": "2026-11-15",
+"eng": "2026-11-15"
 },
 "schedule": {
 "year": "2027年度入試（日程はマナビジョン掲載）",
@@ -61723,7 +61787,13 @@
 "地域環境科学部：森林総合科学科（奥多摩演習林での集中実習）、生産環境工学科（スマート農業・アグリテック・フードテック、JABEE認定の技術者養成コース）、造園科学科（設計・製図・測量・植栽、緑化技術）、地域創成科学科（自然再生と地域マネジメントの文理融合）",
 "国際食料情報学部：国際農業開発学科（熱帯の農業開発と国際協力、海外協定校への1年間留学）、食料環境経済学科（毎年の実学研修で農家実習や企業調査）、アグリビジネス学科（経営・情報とマーケティング戦略、データサイエンス・AIの活用）、国際食農科学科（生産から消費・食農文化まで）",
 "生物産業学部（北海道オホーツク）：北方圏農学科（森林・湿原での実習、農学・畜産学・生態学）、海洋水産学科（オホーツク海での増養殖・資源管理・加工流通）、食香粧化学科（地域資源を使った食品・香粧品の製造）、自然資源経営学科（地域再生・資源管理を経営学・経済学・情報学から）"
-]
+],
+"eng": {
+"year": "2027年度入試",
+"rows": [],
+"summary": "記載なし（利用しないとは限らない）",
+"note": "パスナビの英検等利用入試ページは全6学部「情報がありません」。Kei-Netの2027年度変更点にも外部試験の記載なし"
+}
 },
 "北里大学": {
 "difficulty": {
