@@ -9020,6 +9020,100 @@
 "story"
 ],
 "date": "2026-11-15"
+},
+{
+"name": "茨城キリスト教大学",
+"need": [
+"research"
+],
+"date": "2026-11-15",
+"note": "記入済みの重複項目を整理"
+},
+{
+"name": "常磐大学",
+"need": [
+"research"
+],
+"date": "2026-11-15",
+"note": "記入済みの重複項目を整理"
+},
+{
+"name": "流通経済大学",
+"need": [
+"research"
+],
+"date": "2026-11-15",
+"note": "記入済みの重複項目を整理"
+},
+{
+"name": "奈良教育大学",
+"need": [
+"licenses",
+"careers"
+],
+"date": "2026-11-15"
+},
+{
+"name": "滋賀医科大学",
+"need": [
+"licenses",
+"careers",
+"research"
+],
+"date": "2026-11-15"
+},
+{
+"name": "滋賀大学",
+"need": [
+"licenses",
+"careers"
+],
+"date": "2026-11-15"
+},
+{
+"name": "徳島大学",
+"need": [
+"careers"
+],
+"date": "2026-11-15"
+},
+{
+"name": "香川大学",
+"need": [
+"research",
+"licenses",
+"careers"
+],
+"date": "2026-11-15"
+},
+{
+"name": "高知大学",
+"need": [
+"licenses"
+],
+"date": "2026-11-15"
+},
+{
+"name": "鳥取大学",
+"need": [
+"licenses",
+"careers"
+],
+"date": "2026-11-15"
+},
+{
+"name": "島根大学",
+"need": [
+"careers"
+],
+"date": "2026-11-15"
+},
+{
+"name": "愛媛大学",
+"need": [
+"licenses"
+],
+"date": "2026-11-15"
 }
 ],
 "failed": [
@@ -15767,33 +15861,9 @@
 "name": "立命館アジア太平洋大学（APU）",
 "keinet": "2766",
 "need": [
-"licenses",
-"research"
+"licenses"
 ],
 "note": "進路はKei-Netで記入済み（2026-11-15）。Kei-Netに資格（licential）ページが見当たらず、大学公式で確認する"
-},
-{
-"name": "茨城キリスト教大学",
-"keinet": "2107",
-"need": [
-"research"
-]
-},
-{
-"name": "常磐大学",
-"keinet": "2108",
-"need": [
-"research"
-],
-"note": "careersはKei-Netで記入済み（2026-11-15）。研究分野は大学公式で集める項目として残す"
-},
-{
-"name": "流通経済大学",
-"keinet": "2109",
-"need": [
-"research"
-],
-"note": "careersはKei-Netで記入済み（2026-11-15）。研究分野は大学公式で集める項目として残す"
 },
 {
 "name": "職業能力開発大学校（ポリテクカレッジ）",
@@ -15809,8 +15879,7 @@
 "keinet": "1572",
 "need": [
 "licenses",
-"careers",
-"research"
+"careers"
 ]
 },
 {
@@ -15818,8 +15887,7 @@
 "keinet": "2690",
 "need": [
 "licenses",
-"careers",
-"research"
+"careers"
 ]
 },
 {
@@ -15827,8 +15895,7 @@
 "keinet": "2114",
 "need": [
 "licenses",
-"careers",
-"research"
+"careers"
 ]
 },
 {
@@ -16013,10 +16080,7 @@
 "name": "和歌山大学",
 "keinet": "1335",
 "need": [
-"methods",
-"licenses",
-"careers",
-"research"
+"methods"
 ]
 },
 {
@@ -16030,29 +16094,25 @@
 "name": "奈良教育大学",
 "keinet": "1325",
 "need": [
-"methods_gap",
-"licenses",
-"careers"
-]
+"methods_gap"
+],
+"note": "licenses、careersはKei-Netで記入（2026-11-15）"
 },
 {
 "name": "滋賀医科大学",
 "keinet": "1275",
 "need": [
-"methods_gap",
-"licenses",
-"careers",
-"research"
-]
+"methods_gap"
+],
+"note": "licenses、careers、researchはKei-Netで記入（2026-11-15）"
 },
 {
 "name": "滋賀大学",
 "keinet": "1270",
 "need": [
-"methods",
-"licenses",
-"careers"
-]
+"methods"
+],
+"note": "licenses、careersはKei-Netで記入（2026-11-15）"
 },
 {
 "name": "山口大学",
@@ -16066,38 +16126,35 @@
 "keinet": "1370",
 "need": [
 "kyotsu",
-"careers",
 "methods_gap"
-]
+],
+"note": "careersはKei-Netで記入（2026-11-15）"
 },
 {
 "name": "香川大学",
-"keinet": null,
+"keinet": "1380",
 "need": [
-"research",
 "kyotsu",
-"licenses",
-"careers",
 "methods"
-]
+],
+"note": "research、licenses、careersはKei-Netで記入（2026-11-15）"
 },
 {
 "name": "高知大学",
 "keinet": "1395",
 "need": [
 "kyotsu",
-"licenses",
 "methods_gap"
-]
+],
+"note": "licensesはKei-Netで記入（2026-11-15）"
 },
 {
 "name": "鳥取大学",
 "keinet": "1340",
 "need": [
-"licenses",
-"careers",
 "methods_gap"
-]
+],
+"note": "licenses、careersはKei-Netで記入（2026-11-15）"
 },
 {
 "name": "鳴門教育大学",
@@ -16122,17 +16179,17 @@
 "name": "島根大学",
 "keinet": "1345",
 "need": [
-"careers",
 "methods_gap"
-]
+],
+"note": "careersはKei-Netで記入（2026-11-15）"
 },
 {
 "name": "愛媛大学",
 "keinet": "1390",
 "need": [
-"licenses",
 "methods_gap"
-]
+],
+"note": "licensesはKei-Netで記入（2026-11-15）"
 },
 {
 "name": "北見工業大学",
