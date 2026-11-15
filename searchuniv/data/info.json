@@ -3489,7 +3489,8 @@
 "https://admissions.tohoku.ac.jp/ja/20260716/",
 "https://telemail.jp/shingaku/university/10003359/examination/general",
 "https://passnavi.obunsha.co.jp/univ/0100/expense/",
-"https://www.eng.tohoku.ac.jp/media/files/pdf/contact/ao_2027.pdf"
+"https://www.eng.tohoku.ac.jp/media/files/pdf/contact/ao_2027.pdf",
+"https://passnavi.obunsha.co.jp/univ/0100/schedule/?facultyID=030"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -3921,7 +3922,7 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "oc": "2026-11-07",
-"schedule": "2026-11-11",
+"schedule": "2026-11-15",
 "_via": "2026-11-07"
 },
 "money": {
@@ -4340,7 +4341,8 @@
 "https://www.nagoya-u.ac.jp/admissions/exam/upload/r9_senbatsuyoko.pdf",
 "https://passnavi.obunsha.co.jp/univ/0490/expense/",
 "https://www.nagoya-u.ac.jp/admissions/exam/upload/R9_application_guide_sui.pdf",
-"https://www.nagoya-u.ac.jp/admissions/exam/upload/R9_ao_application_guide_1.pdf"
+"https://www.nagoya-u.ac.jp/admissions/exam/upload/R9_ao_application_guide_1.pdf",
+"https://passnavi.obunsha.co.jp/univ/0490/schedule/"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -4706,7 +4708,7 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "oc": "2026-11-07",
-"schedule": "2026-11-11"
+"schedule": "2026-11-15"
 },
 "money": {
 "year": "2026年度",
@@ -5021,7 +5023,7 @@
 "exam": "2/25・2/26",
 "result": "3/10",
 "proc": "3/15",
-"note": "出願はインターネット出願登録・検定料納入の期間。医学部医学科は2/27に面接"
+"note": "出願はインターネット出願登録・検定料納入の期間。医学部医学科は2/27に面接（パスナビの出願期間は1/25〜2/3）"
 },
 {
 "kubun": "一般",
@@ -76108,7 +76110,8 @@
 "https://search.keinet.ne.jp/2690/outline/campus",
 "https://search.keinet.ne.jp/2690",
 "https://manabi.benesse.ne.jp/daigaku/school/3863/nyushi/gokaku-happyo/index.html",
-"https://passnavi.obunsha.co.jp/univ/9212/department/"
+"https://passnavi.obunsha.co.jp/univ/9212/department/",
+"https://passnavi.obunsha.co.jp/univ/9212/shinro/"
 ],
 "kyotsu": {
 "kamoku": "2教科2科目",
@@ -76213,7 +76216,8 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
-"research": "2026-11-15"
+"research": "2026-11-15",
+"licenses": "2026-11-15"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -76354,6 +76358,11 @@
 "理学療法学専攻：障がいのある人の「自立」を広い視野で支援できる理学療法士の養成",
 "作業療法学専攻：リハビリテーションの知識・技術と総合的な判断力を備えた作業療法士の養成",
 "言語聴覚学専攻：コミュニケーションや食べる機能に障がいのある人の生活の質を支える言語聴覚士の養成"
+],
+"licenses": [
+"理学療法士（リハビリテーション学部 理学療法学専攻）",
+"作業療法士（リハビリテーション学部 作業療法学専攻）",
+"言語聴覚士（リハビリテーション学部 言語聴覚学専攻）"
 ]
 },
 "東京保健医療専門職大学": {
@@ -83700,7 +83709,8 @@
 "https://search.keinet.ne.jp/1040/outline/admission_employment",
 "https://passnavi.obunsha.co.jp/univ/0080/schedule/",
 "https://nyushi.hirosaki-u.ac.jp/wp-content/uploads/2026/04/r9_sbyk_zantei.pdf",
-"https://nyushi.hirosaki-u.ac.jp/wp-content/uploads/2026/07/03_R9_bsyk_abro.pdf"
+"https://nyushi.hirosaki-u.ac.jp/wp-content/uploads/2026/07/03_R9_bsyk_abro.pdf",
+"https://search.keinet.ne.jp/1040/general/exam_subject"
 ],
 "departments": [
 {
@@ -84100,7 +84110,8 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
-"schedule": "2026-11-08"
+"schedule": "2026-11-08",
+"kyotsu": "2026-11-15"
 },
 "money": {
 "year": "2026年度",
@@ -84217,6 +84228,19 @@
 }
 ],
 "year": "2027年度入試"
+},
+"kyotsu": {
+"kamoku": "6教科8科目（文型・理型・選択型）",
+"kyoka": [
+6,
+6
+],
+"rl": [
+"1:1"
+],
+"rl_text": "全学部でR:L=1:1（R100:L100）",
+"note": "科目の指定は国1・地公1〜2・数2・理1〜2・外1・情1（選択型・文型は「数2・理2・地公2→5」などの選択あり）。二段階選抜は医学科（一般枠・青森県定着枠）のみ約6倍",
+"year": "2027年度入試"
 }
 },
 "旭川医科大学": {
@@ -84240,7 +84264,8 @@
 "https://search.keinet.ne.jp/1005/outline/department",
 "https://passnavi.obunsha.co.jp/univ/0060/schedule/",
 "https://search.keinet.ne.jp/1005/outline/expense",
-"https://passnavi.obunsha.co.jp/univ/0060/shinro/"
+"https://passnavi.obunsha.co.jp/univ/0060/shinro/",
+"https://search.keinet.ne.jp/1005/general/exam_subject"
 ],
 "departments": [
 {
@@ -84286,7 +84311,8 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "licenses": "2026-11-15",
-"careers": "2026-11-15"
+"careers": "2026-11-15",
+"kyotsu": "2026-11-15"
 },
 "money": {
 "year": "2026年度",
@@ -84407,7 +84433,20 @@
 "保健師",
 "助産師"
 ],
-"careers": "医学部看護学科は卒業者60人のうち就職者55人・進学者4人で、旭川医科大学病院（30人）が多い（2025年4月〜2026年3月卒）。医学科の進路は出典に記載なし。"
+"careers": "医学部看護学科は卒業者60人のうち就職者55人・進学者4人で、旭川医科大学病院（30人）が多い（2025年4月〜2026年3月卒）。医学科の進路は出典に記載なし。",
+"kyotsu": {
+"kamoku": "6教科7〜8科目",
+"kyoka": [
+6,
+6
+],
+"rl": [
+"1:1"
+],
+"rl_text": "全学科でR:L=1:1（R50:L50）",
+"note": "医学科（前期）は6教科8科目、看護学科（前期・後期）は6教科7科目。情報Ⅰ必須。二段階選抜あり（約4倍）",
+"year": "2027年度入試"
+}
 },
 "福島大学": {
 "difficulty": {
@@ -95341,7 +95380,8 @@
 "https://search.keinet.ne.jp/outline/campus/1370",
 "https://search.keinet.ne.jp/1370/outline/expense",
 "https://manabi.benesse.ne.jp/daigaku/school/1390/nyushi/",
-"https://search.keinet.ne.jp/1370/outline/admission_employment"
+"https://search.keinet.ne.jp/1370/outline/admission_employment",
+"https://search.keinet.ne.jp/1370/general/exam_subject"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -95628,7 +95668,8 @@
 "ratios": "2026-11-06",
 "money": "2026-11-09",
 "schedule": "2026-11-11",
-"careers": "2026-11-15"
+"careers": "2026-11-15",
+"kyotsu": "2026-11-15"
 },
 "departments": [
 {
@@ -95849,7 +95890,20 @@
 ],
 "note": "マナビジョン（2027年度入試）で確認。学部・学科により異なる日程あり。検定料は出典に記載なし"
 },
-"careers": "2024年度卒：理工学部（昼間）は520人中349人が大学院などへ進学・163人が就職。生物資源産業学部は98人中58人が進学。医学部保健学科は132人中102人が就職、医科栄養学科は47人中27人が進学・20人が就職。薬学部薬学科は39人中34人が就職。総合科学部は170人中141人が就職（Kei-Net）。"
+"careers": "2024年度卒：理工学部（昼間）は520人中349人が大学院などへ進学・163人が就職。生物資源産業学部は98人中58人が進学。医学部保健学科は132人中102人が就職、医科栄養学科は47人中27人が進学・20人が就職。薬学部薬学科は39人中34人が就職。総合科学部は170人中141人が就職（Kei-Net）。",
+"kyotsu": {
+"kamoku": "6教科7〜8科目（文型・理型など）",
+"kyoka": [
+6,
+6
+],
+"rl": [
+"4:1"
+],
+"rl_text": "全学部でR:L=4:1（例 R160:L40、R80:L20）",
+"note": "二段階選抜は医学科（前期5倍）、歯学科（前期8倍・後期25倍）、薬学科（前期5倍・後期10倍）",
+"year": "2027年度入試"
+}
 },
 "愛媛大学": {
 "difficulty": {
@@ -96503,7 +96557,8 @@
 "https://www.kagawa-u.ac.jp/files/7017/8243/1856/2027.pdf",
 "https://search.keinet.ne.jp/1380/outline/licential",
 "https://search.keinet.ne.jp/1380/outline/admission_employment",
-"https://search.keinet.ne.jp/1380/outline/department"
+"https://search.keinet.ne.jp/1380/outline/department",
+"https://search.keinet.ne.jp/1380/general/exam_subject"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -96680,7 +96735,8 @@
 "schedule": "2026-11-11",
 "licenses": "2026-11-15",
 "careers": "2026-11-15",
-"research": "2026-11-15"
+"research": "2026-11-15",
+"kyotsu": "2026-11-15"
 },
 "departments": [
 {
@@ -96939,7 +96995,20 @@
 "創造工学部：工学倫理・コミュニケーション・デザイン思考・リスクマネジメントを共通に学び、造形・メディアデザインから材料物質科学まで7つの分野で専門を学ぶ",
 "農学部：共通の入門・生物の基礎科目の後、2年次後期から5コースに分かれ、3年次前期から研究室に所属",
 "医学部：医学科・看護学科・臨床心理学科が多職種連携教育でともに学ぶ。地域医療と国際交流を重視"
-]
+],
+"kyotsu": {
+"kamoku": "3教科4科目〜6教科8科目",
+"kyoka": [
+3,
+6
+],
+"rl": [
+"4:1"
+],
+"rl_text": "確認できた学部はR:L=4:1（例 R160:L40、医学科一般枠 R80:L20）",
+"note": "前期は文型・理型・選択型・6教科7科目が中心。農学部後期は3教科4科目。二段階選抜は医学科（約4倍）。ページの後半（医学科地域枠以降）は未確認",
+"year": "2027年度入試"
+}
 },
 "高知大学": {
 "difficulty": {
@@ -98764,7 +98833,8 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "schedule": "2026-11-09",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"kyotsu": "2026-11-15"
 },
 "faculties": [
 "経済学部",
@@ -98858,7 +98928,8 @@
 "https://search.keinet.ne.jp/1425/outline/licential",
 "https://search.keinet.ne.jp/1425/general/border_rate",
 "https://www.sao.saga-u.ac.jp/PDF/R9/2027senbatuyoko.pdf",
-"https://search.keinet.ne.jp/1425/outline/expense"
+"https://search.keinet.ne.jp/1425/outline/expense",
+"https://search.keinet.ne.jp/1425/general/exam_subject"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -99102,6 +99173,19 @@
 "note": "施設費なし。設備/実習/諸会費等・保険料・後援会費は記載なし（Kei-Net 2025年度入学者用）"
 }
 ]
+},
+"kyotsu": {
+"kamoku": "5教科6科目〜6教科8科目（確認できた学部）",
+"kyoka": [
+5,
+6
+],
+"rl": [
+"3:1"
+],
+"rl_text": "確認できた学部はR:L=3:1（例 R150:L50）",
+"note": "経済学部・教育学部・理工学部の一部を確認（経済後期は5教科6科目）。農学部・芸術地域デザイン学部・医学部は未確認",
+"year": "2027年度入試"
 }
 },
 "大分大学": {
@@ -99407,7 +99491,8 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "schedule": "2026-11-09",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"kyotsu": "2026-11-15"
 },
 "departments": [
 {
@@ -99475,7 +99560,8 @@
 "https://search.keinet.ne.jp/1455/outline/licential",
 "https://search.keinet.ne.jp/1455/outline/admission_employment",
 "https://www.miyazaki-u.ac.jp/exam/R9_senbatsuyoukou2027.pdf",
-"https://search.keinet.ne.jp/1455/outline/expense"
+"https://search.keinet.ne.jp/1455/outline/expense",
+"https://search.keinet.ne.jp/1455/general/exam_subject"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -99683,6 +99769,23 @@
 "note": "施設費なし。設備/実習/諸会費等・保険料・後援会費は記載なし（Kei-Net 2026年度入学者用）"
 }
 ]
+},
+"kyotsu": {
+"kamoku": "5教科7科目〜6教科8科目",
+"kyoka": [
+5,
+6
+],
+"rl": [
+"1:1",
+"4:1",
+"3:1",
+"7:3",
+"2:1"
+],
+"rl_text": "学部で異なる（地域資源創成1:1、教育・医学部4:1、工学部4:1、農学科3:1、獣医学科 前期7:3・後期2:1）",
+"note": "二段階選抜は医学科（前期6倍・後期14倍）。工学部後期は5教科7科目",
+"year": "2027年度入試"
 }
 },
 "琉球大学": {
@@ -99703,7 +99806,8 @@
 "careers": "2026-11-06",
 "ratios": "2026-11-06",
 "schedule": "2026-11-09",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"kyotsu": "2026-11-15"
 },
 "faculties": [
 "人文社会学部",
@@ -99802,7 +99906,8 @@
 "https://search.keinet.ne.jp/1475/general/border_rate",
 "https://search.keinet.ne.jp/1475/outline/admission_employment",
 "https://www.u-ryukyu.ac.jp/wp-content/uploads/2026/08/R9nyushinittei.pdf",
-"https://search.keinet.ne.jp/1475/outline/expense"
+"https://search.keinet.ne.jp/1475/outline/expense",
+"https://search.keinet.ne.jp/1475/general/exam_subject"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -100037,6 +100142,20 @@
 "note": "施設費なし。設備/実習/諸会費等・保険料・後援会費は記載なし（Kei-Net 2025年度入学者用）"
 }
 ]
+},
+"kyotsu": {
+"kamoku": "4教科5科目〜6教科8科目",
+"kyoka": [
+4,
+6
+],
+"rl": [
+"1:1",
+"3:1"
+],
+"rl_text": "ほとんどの学部でR:L=1:1（教育学部社会科教育はR150:L50）",
+"note": "後期の一部（国際法政・国際地域創造夜間主・工学部・農学部）は4〜5教科。二段階選抜は医学科（前期5倍・後期10倍）",
+"year": "2027年度入試"
 }
 },
 "福岡教育大学": {
@@ -100269,7 +100388,8 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "money": "2026-11-09",
-"schedule": "2026-11-09"
+"schedule": "2026-11-09",
+"kyotsu": "2026-11-15"
 },
 "faculties": [
 "多文化社会学部",
@@ -100386,7 +100506,8 @@
 "https://search.keinet.ne.jp/1435/general/border_rate",
 "https://search.keinet.ne.jp/1435/outline/admission_employment",
 "https://search.keinet.ne.jp/1435/outline/expense",
-"https://passnavi.obunsha.co.jp/univ/0870/schedule/"
+"https://passnavi.obunsha.co.jp/univ/0870/schedule/",
+"https://search.keinet.ne.jp/1435/general/exam_subject"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -100646,6 +100767,19 @@
 "note": "経済・情報データ科学・工・環境科学・水産学部（パスナビ）"
 }
 ]
+},
+"kyotsu": {
+"kamoku": "5教科5科目〜6教科8科目（確認できた学部）",
+"kyoka": [
+5,
+6
+],
+"rl": [
+"4:1"
+],
+"rl_text": "確認できた学部はR:L=4:1（例 R160:L40、R80:L20）",
+"note": "多文化社会学部は5教科5科目。二段階選抜は医学科（5.5倍）・薬学科（5倍）。情報データ科学部・環境科学部などページ後半は未確認",
+"year": "2027年度入試"
 }
 },
 "鹿児島大学": {
