@@ -14597,7 +14597,8 @@
 "https://search.keinet.ne.jp/1135/outline/admission_employment",
 "https://search.keinet.ne.jp/1135/general/exam_subject",
 "https://passnavi.obunsha.co.jp/univ/0250/schedule/",
-"https://passnavi.obunsha.co.jp/univ/0250/expense/"
+"https://passnavi.obunsha.co.jp/univ/0250/expense/",
+"https://telemail.jp/shingaku/university/10003382/examination/general"
 ],
 "licenses": [
 "教員免許（幼・小・中・高 各教科、特別支援）",
@@ -15057,7 +15058,7 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "money": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-15",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -15528,7 +15529,7 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "money": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-15",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -15583,7 +15584,7 @@
 "result": "3/6",
 "proc": "3/15",
 "fee": null,
-"note": "農学部・工学部とも2/25"
+"note": "農学部・工学部とも2/25。出願期間・試験日・発表・手続は公式の選抜要項（令和9年度）で確認"
 },
 {
 "kubun": "一般",
@@ -15593,15 +15594,15 @@
 "result": "3/20",
 "proc": "3/27",
 "fee": null,
-"note": "農学部・工学部とも3/12。出願期間は募集要項で要確認"
+"note": "農学部・工学部とも3/12。試験日・発表・手続は公式の選抜要項（令和9年度）で確認。出願期間は一般選抜学生募集要項で要確認"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜（共テあり）",
-"apply": "〜1/20着",
+"apply": "1/14〜1/20",
 "result": "2/10",
 "proc": "2/17",
-"note": "Kei-Net表記（出願は締切日のみ、必着、試験日の記載なし）。全学科同一日程で書類審査＋共通テスト。"
+"note": "出願期間は公式の選抜要項（令和9年度）で確認。試験日の記載なし。全学科同一日程で書類審査＋共通テスト。入学手続2/17はKei-Net表記。"
 }
 ]
 },
@@ -103714,7 +103715,8 @@
 "schedule": "2026-11-09",
 "money": "2026-11-09",
 "_via": "2026-11-09",
-"careers": "2026-11-15"
+"careers": "2026-11-15",
+"kyotsu": "2026-11-15"
 },
 "faculties": [
 "システム科学技術学部",
@@ -104004,7 +104006,19 @@
 ]
 },
 "_via": "external-ai",
-"careers": "2024年度学士課程卒業者365人のうち就職264人・進学91人（Kei-Net の学科別表から集計）。システム科学技術学部は232人中就職167人・進学58人（機械工学科は54人中22人が進学）、生物資源科学部は133人中就職97人・進学33人。"
+"careers": "2024年度学士課程卒業者365人のうち就職264人・進学91人（Kei-Net の学科別表から集計）。システム科学技術学部は232人中就職167人・進学58人（機械工学科は54人中22人が進学）、生物資源科学部は133人中就職97人・進学33人。",
+"kyotsu": {
+"kamoku": "6教科8科目（英語・数学2科目・国語・理科2科目・地歴公民1科目・情報Ⅰ。Kei-Net の科目表から）",
+"kyoka": [
+6
+],
+"rl": [
+"1:1"
+],
+"rl_text": "全学科でR:L=1:1（システム科学技術学部はR100:L100、生物資源科学部はR50:L50）",
+"note": "全学科で前期・後期を実施し、共通テストの科目は全学科・全日程で同じ。二段階選抜の記載なし",
+"year": "2027年度入試"
+}
 },
 "釧路公立大学": {
 "faculties": [
@@ -104237,7 +104251,8 @@
 "ratios": "2026-11-09",
 "schedule": "2026-11-09",
 "money": "2026-11-14",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"research": "2026-11-15"
 },
 "departments": [
 {
@@ -104488,7 +104503,12 @@
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"research": [
+"組織論・経営戦略・会計・マーケティング（経営学科）",
+"ミクロ・マクロ経済学、金融・財政・公共経済、経済統計（経済学科）",
+"地域企業・自治体経営・ベンチャービジネスと地域づくり（地域みらい学科）"
+]
 },
 "青森県立保健大学": {
 "faculties": [
@@ -104508,7 +104528,8 @@
 "methods": "2026-11-09",
 "schedule": "2026-11-09",
 "_via": "2026-11-09",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"research": "2026-11-15"
 },
 "departments": [
 {
@@ -104818,7 +104839,13 @@
 "note": "設備/実習/諸会費等16,000円。other は設備/実習/諸会費等＋後援会費50,000円。保険料・実験実習経費は別途。入学金・授業料は2025年度の額（Kei-Net 2026年度入学者用）。県外者は入学金338,400円"
 }
 ]
-}
+},
+"research": [
+"成人・老年・小児・在宅の看護援助、助産学・保健学コース（看護学科）",
+"神経障害の理学療法・地域理学療法・義肢装具（理学療法学科）",
+"社会保障・児童福祉・障害者福祉・公的扶助（社会福祉学科）",
+"給食経営管理・臨床栄養・公衆栄養（栄養学科）"
+]
 },
 "三条市立大学": {
 "faculties": [
@@ -104837,7 +104864,8 @@
 "methods": "2026-11-09",
 "schedule": "2026-11-09",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"research": "2026-11-15"
 },
 "departments": [
 {
@@ -105055,7 +105083,11 @@
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"research": [
+"機械工学を中心とした工学全般と経営マネジメント（技術・経営工学科）",
+"160社以上の企業と連携した最長16週間の産学連携実習"
+]
 },
 "公立小松大学": {
 "faculties": [
@@ -105077,7 +105109,8 @@
 "ratios": "2026-11-09",
 "schedule": "2026-11-09",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"research": "2026-11-15"
 },
 "departments": [
 {
@@ -105492,7 +105525,13 @@
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"research": [
+"観光・地域社会・国際社会・国際文化、英語・中国語必修（国際文化交流学部）",
+"機械工学を中心に電気電子・情報工学、生産機械・知能機械コース（生産システム科学部）",
+"地域医療を支える看護（看護学科）",
+"医療機器を扱う臨床工学（臨床工学科）"
+]
 },
 "公立諏訪東京理科大学": {
 "faculties": [
@@ -105510,7 +105549,9 @@
 "methods": "2026-11-09",
 "schedule": "2026-11-09",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"careers": "2026-11-15",
+"research": "2026-11-15"
 },
 "departments": [
 {
@@ -105565,7 +105606,8 @@
 "https://manabi.benesse.ne.jp/daigaku/school/2121/nyushi/hoshiki/ippan/",
 "https://manabi.benesse.ne.jp/daigaku/school/2121/nyushi/hoshiki/gakkou-suisen/",
 "https://aoaoi.jp/preparation/suwa_rika/",
-"https://sukyojuku.com/few-subjects-public-science-2027/"
+"https://sukyojuku.com/few-subjects-public-science-2027/",
+"https://search.keinet.ne.jp/1567/outline/admission_employment"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -105797,7 +105839,13 @@
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"careers": "2024年度学士課程卒業者295人のうち就職224人・進学62人（Kei-Net の学科別表から集計）。情報応用工学科は141人中就職114人・進学21人、機械電気工学科は153人中就職110人・進学41人。大学院（修士課程）修了者は30人中27人が就職。",
+"research": [
+"情報システム・知能情報通信（情報応用工学科）",
+"機械理工学・電気理工学（機械電気工学科）",
+"全学のマネジメント基盤教育と、地元企業と連携したPBL（課題解決型学習）"
+]
 },
 "名古屋市立大学": {
 "faculties": [
@@ -105823,7 +105871,9 @@
 "methods": "2026-11-09",
 "schedule": "2026-11-09",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"careers": "2026-11-15",
+"research": "2026-11-15"
 },
 "departments": [
 {
@@ -105944,7 +105994,9 @@
 "https://manabi.benesse.ne.jp/daigaku/school/2150/nyushi/jinbunshakai/",
 "https://manabi.benesse.ne.jp/daigaku/school/2150/nyushi/gokaku-happyo/",
 "https://telemail.jp/shingaku/university/10003427/examination/general",
-"https://bestjuku.com/shingaku/s-article/59507/"
+"https://bestjuku.com/shingaku/s-article/59507/",
+"https://search.keinet.ne.jp/1585/outline/admission_employment",
+"https://search.keinet.ne.jp/1585/outline/department"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -106312,7 +106364,17 @@
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"careers": "2024年度卒業者（Kei-Net）：人文社会学部・経済学部は大半が就職（例：現代社会学科73人中71人、公共政策学科80人中77人）。総合生命理学科は40人中27人、建築都市デザイン学科は34人中22人、生命薬科学科は46人全員が進学。看護学科は79人中就職74人。国家試験合格率（2026年度）は医師93.4%、薬剤師78.1%、看護師・保健師100%。",
+"research": [
+"持続可能な開発のための教育（ESD）を軸にした心理・教育・社会・国際文化（人文社会学部）",
+"経済学・経営学と実務系科目、名古屋市・経済団体と連携した教育（経済学部）",
+"生命情報・自然情報の2コースで生命科学と理学の基礎（総合生命理学部）",
+"芸術・デザインから工学まで横断するデザイン（芸術工学部）",
+"医学、看護学・リハビリテーション学（医学部）",
+"医薬品の開発研究と適正使用（薬学部）",
+"統計学・情報工学によるデータ分析と、IT・ビジネス・医療への応用（データサイエンス学部）"
+]
 },
 "富山県立大学": {
 "faculties": [
@@ -106333,7 +106395,9 @@
 "methods": "2026-11-09",
 "schedule": "2026-11-09",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"careers": "2026-11-15",
+"research": "2026-11-15"
 },
 "departments": [
 {
@@ -106404,7 +106468,8 @@
 "https://manabi.benesse.ne.jp/daigaku/school/2100/nyushi/kou/",
 "https://manabi.benesse.ne.jp/daigaku/school/2100/nyushi/jouhoukou/",
 "https://manabi.benesse.ne.jp/daigaku/school/2100/nyushi/kango/",
-"https://manabi.benesse.ne.jp/daigaku/school/2100/nyushi/hoshiki/gakkou-suisen/"
+"https://manabi.benesse.ne.jp/daigaku/school/2100/nyushi/hoshiki/gakkou-suisen/",
+"https://search.keinet.ne.jp/1545/outline/admission_employment"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -106707,7 +106772,13 @@
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"careers": "2024年度卒業者（Kei-Net）：工学系の7学科は343人中進学153人・就職184人で、機械システム工学科（64人中33人）や知能ロボット工学科（57人中34人）は半数以上が進学。看護学科は117人中就職91人・進学23人。看護師国家試験の合格率は96.7%（2026年度）。",
+"research": [
+"機械システム・電気電子・環境社会基盤・生物工学・医薬品工学と全学的な環境教育（工学部）",
+"データサイエンス・情報システム・知能ロボットとデザイン思考（情報工学部）",
+"看護師養成に特化した基礎教育、専攻科で保健師・助産師（看護学部）"
+]
 },
 "福岡国際医療福祉大学": {
 "faculties": [
@@ -111411,7 +111482,8 @@
 "ratios": "2026-11-09",
 "schedule": "2026-11-09",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"licenses": "2026-11-15"
 },
 "departments": [
 {
@@ -111485,7 +111557,8 @@
 "https://manabi.benesse.ne.jp/daigaku/school/2145/nyushi/bairitsu/",
 "https://manabi.benesse.ne.jp/daigaku/school/2145/nyushi/bairitsu/bijutsu/",
 "https://manabi.benesse.ne.jp/daigaku/school/2145/nyushi/bairitsu/ongaku/",
-"https://www.aichi-fam-u.ac.jp/admission/item/3e26428ce0d5977546fb6bb66f1180414314ebee.pdf"
+"https://www.aichi-fam-u.ac.jp/admission/item/3e26428ce0d5977546fb6bb66f1180414314ebee.pdf",
+"https://search.keinet.ne.jp/1580/outline/licential"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -111910,7 +111983,11 @@
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"licenses": [
+"中学校教諭一種（美術）、高等学校教諭一種（美術・工芸）、学芸員（資格）（美術学部 美術科・デザイン・工芸科〈メディア映像専攻は工芸を除く〉）",
+"中学校教諭一種（音楽）、高等学校教諭一種（音楽）、学芸員（資格）（音楽学部 作曲・声楽・器楽）"
+]
 },
 "敦賀市立看護大学": {
 "faculties": [
@@ -112133,7 +112210,9 @@
 "methods": "2026-11-09",
 "schedule": "2026-11-09",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"licenses": "2026-11-15",
+"research": "2026-11-15"
 },
 "departments": [
 {
@@ -112206,7 +112285,8 @@
 "https://manabi.benesse.ne.jp/daigaku/school/2094/nyushi/ningenseikatsu/",
 "https://passnavi.obunsha.co.jp/univ/1082/schedule/",
 "https://manabi.benesse.ne.jp/daigaku/school/2094/nyushi/hoshiki/sougou/",
-"https://manabi.benesse.ne.jp/daigaku/school/2094/nyushi/hoshiki/gakkou-suisen/"
+"https://manabi.benesse.ne.jp/daigaku/school/2094/nyushi/hoshiki/gakkou-suisen/",
+"https://search.keinet.ne.jp/1544/outline/licential"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）※2025年度大学計・学部計はonikanriまとめ、2025・2026年度学科日程別および2026年度受験者数・合格者数はhokueigo（大学公表値引用）に基づく（国際地域A日程2025年度はマナビジョンでも2.20倍を確認）",
@@ -112573,7 +112653,18 @@
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"licenses": [
+"中学校教諭一種（英語）、高等学校教諭一種（英語）（国際地域学部 国際地域学科）",
+"保育士（資格）、幼稚園教諭一種、社会福祉士（受験資格）、社会福祉主事（資格）（人間生活学部 子ども学科）",
+"栄養教諭一種、管理栄養士（受験資格）、栄養士（資格）（人間生活学部 健康栄養学科）"
+],
+"research": [
+"英語と北東アジアの言語、国際関係・比較文化・露中韓の3コース（国際地域学部）",
+"経済・産業・企業の仕組み、情報分析と語学（国際経済学部）",
+"乳幼児の成長と福祉・保育（子ども学科）",
+"栄養指導・食育・生活習慣病の予防（健康栄養学科）"
+]
 },
 "鹿児島国際大学": {
 "faculties": [
