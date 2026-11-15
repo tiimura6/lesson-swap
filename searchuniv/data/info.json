@@ -26429,7 +26429,8 @@
 "https://passnavi.obunsha.co.jp/univ/0720/schedule/",
 "https://passnavi.obunsha.co.jp/univ/0720/expense/",
 "https://search.keinet.ne.jp/1360/outline/licential",
-"https://search.keinet.ne.jp/1360/outline/admission_employment/tab_career_overview"
+"https://search.keinet.ne.jp/1360/outline/admission_employment/tab_career_overview",
+"https://search.keinet.ne.jp/1360/recommend/exam_ao"
 ],
 "kyotsu": {
 "kamoku": "前期は文型・理型・6教科7科目など、後期は3教科4科目〜5教科7科目",
@@ -27080,7 +27081,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-07",
+"schedule": "2026-11-15",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -27540,6 +27541,24 @@
 "result": "2/10",
 "proc": "2/17",
 "note": "学部により異なる（教育学部は1次試験11/19または11/20・1次発表12/4、医学部医学科は出願〜12/4・試験12/19〜12/20、情報科学部は試験11/21・発表12/4・手続12/11）"
+},
+{
+"kubun": "総合型",
+"name": "光り輝き入試 総合型Ⅰ型（共テなし・法学部ほか）",
+"apply": "〜9/8（必着）",
+"exam": "10/17",
+"result": "11/2",
+"proc": "11/9",
+"note": "学部により異なる（1次発表10/1。教育学部言語系の一部・総合科学部は出願〜10/7・試験11/19〜11/21・発表12/4・手続12/11、生物生産学部は手続11/19）"
+},
+{
+"kubun": "総合型",
+"name": "光り輝き入試 総合型Ⅱ型（共テ課す・理学部ほか）",
+"apply": "〜10/7（必着）",
+"exam": "11/21・11/22",
+"result": "2/10",
+"proc": "2/17",
+"note": "学部により異なる（理学部の例。1次発表11/2・2次発表12/4。文学部は出願〜9/8・試験10/17と11/21、教育学部は11/19・11/20、薬学部は11/20）。理学部・工学部に女子枠あり"
 }
 ]
 },
@@ -28034,7 +28053,8 @@
 "https://passnavi.obunsha.co.jp/univ/0710/schedule/",
 "https://passnavi.obunsha.co.jp/univ/0710/expense/",
 "https://search.keinet.ne.jp/1355/outline/licential",
-"https://search.keinet.ne.jp/1355/outline/admission_employment"
+"https://search.keinet.ne.jp/1355/outline/admission_employment",
+"https://search.keinet.ne.jp/1355/recommend/exam_ao"
 ],
 "kyotsu": {
 "kamoku": "6教科8科目（全学部）",
@@ -28423,7 +28443,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-07",
+"schedule": "2026-11-15",
 "money": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
@@ -28671,6 +28691,24 @@
 "result": "12/21",
 "proc": "1/7",
 "note": ""
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（共テ課す・文・法・理・医〈保健〉・薬学部ほか）",
+"apply": "〜11/10（必着）",
+"exam": "12/5",
+"result": "2/10",
+"proc": "2/17",
+"note": "教育学部養護教諭養成課程は試験1/31。経済・工・農・歯・医学部医学科は掲載なし"
+},
+{
+"kubun": "総合型",
+"name": "グローバル・ディスカバリー・プログラム入試（共テなし）",
+"apply": "〜10/15（必着）",
+"exam": "12/5〜12/6",
+"result": "12/21",
+"proc": "1/29",
+"note": "1次発表11/20。2次試験は志願者が一定数を超えた場合2日に分けて実施"
 }
 ]
 },
@@ -62628,7 +62666,9 @@
 "https://search.keinet.ne.jp/2122/outline/admission_employment",
 "https://passnavi.obunsha.co.jp/univ/1910/expense/",
 "https://www.pref.osaka.lg.jp/moyo/o100030/023931.html",
-"https://passnavi.obunsha.co.jp/univ/1910/department/"
+"https://passnavi.obunsha.co.jp/univ/1910/department/",
+"https://passnavi.obunsha.co.jp/univ/1910/eiken/",
+"https://search.keinet.ne.jp/general/exam_subject_sp/2122"
 ],
 "licenses": [
 "医師国家試験受験資格",
@@ -62776,7 +62816,8 @@
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"research": "2026-11-15"
+"research": "2026-11-15",
+"eng": "2026-11-15"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -62905,7 +62946,13 @@
 "research": [
 "医学部：1年次の地域医療見学や患者付添実習などの早期体験実習、4〜5年次に全30科を巡る臨床実習と地域医療実習。診療所勤務を想定したへき地医療の講義・実習",
 "看護学部：高度な医療と地域看護の両方に対応できる看護職を育てる。基礎科学・看護学・総合の3分野を「環境」「人間」「健康」「看護」の4つの視点で学ぶ"
-]
+],
+"eng": {
+"year": "2027年度入試",
+"rows": [],
+"summary": "記載なし（利用しないとは限らない）",
+"note": "パスナビの英検等利用入試ページは医学部・看護学部とも「情報がありません」。Kei-Netの2027年度入試科目ページも英語資格・検定試験の欄は空欄"
+}
 },
 "国際医療福祉大学": {
 "difficulty": {
@@ -65970,7 +66017,9 @@
 "https://www.dokkyomed.ac.jp/dusm/exam/entrance/general_pre.html",
 "https://www.dokkyomed.ac.jp/dusm/exam/entrance/general_late.html",
 "https://www.dokkyomed.ac.jp/dmucn/exam/overview/",
-"https://passnavi.obunsha.co.jp/univ/1920/department/"
+"https://passnavi.obunsha.co.jp/univ/1920/department/",
+"https://passnavi.obunsha.co.jp/univ/1920/eiken/",
+"https://search.keinet.ne.jp/general/exam_subject_sp/2123"
 ],
 "licenses": [
 "医師国家試験受験資格",
@@ -66149,7 +66198,8 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
-"research": "2026-11-15"
+"research": "2026-11-15",
+"eng": "2026-11-15"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -66358,7 +66408,13 @@
 "research": [
 "医学部：1年次に大学病院・社会福祉施設・地域病院で医療現場に触れる「コミュニティヘルスインターンシップ」。5年次に大学病院・埼玉医療センター・日光医療センターで臨床実習、6年次に希望診療科での実習（ACC）。「医学研究実習」でリサーチ・マインドを養う",
 "看護学部：1年次から看護学実習。看護師に加えて保健師・助産師・養護教諭（一種）のいずれかを選んで取得できる課程"
-]
+],
+"eng": {
+"year": "2027年度入試",
+"rows": [],
+"summary": "記載なし（利用しないとは限らない）",
+"note": "パスナビの英検等利用入試ページは医学部・看護学部とも「情報がありません」。Kei-Netの2027年度入試科目ページも英語資格・検定試験・英資出願要件の欄は空欄"
+}
 },
 "津田塾大学": {
 "difficulty": {
@@ -73151,7 +73207,9 @@
 "https://search.keinet.ne.jp/2108/outline/licential",
 "https://manabi.benesse.ne.jp/daigaku/school/3108/nyushi/gokaku-happyo/",
 "https://search.keinet.ne.jp/2108/outline/admission_employment",
-"https://passnavi.obunsha.co.jp/univ/1870/department/"
+"https://passnavi.obunsha.co.jp/univ/1870/department/",
+"https://search.keinet.ne.jp/2108/general/exam_subject",
+"https://search.keinet.ne.jp/2108sp/general/exam_subject_sp"
 ],
 "licenses": [
 "教員免許（幼・小・中・高 ほか）",
@@ -73336,7 +73394,8 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "careers": "2026-11-15",
-"research": "2026-11-15"
+"research": "2026-11-15",
+"eng": "2026-11-15"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -73708,7 +73767,23 @@
 "人間科学部：心理学科（知覚・認知心理学から臨床・産業組織心理学まで、実験・実習、公認心理師受験資格に必要な科目）、教育学科（初等教育コース＝幼・小、中等教育コース＝中・高の教員養成）、現代社会学科（方法論・データサイエンス、家族・福祉社会、公共・地域社会、文化研究の4領域）、コミュニケーション学科（メディアやデザイン、ことばと文化）、健康栄養学科（医学知識を学び栄養サポートチームの一員となる管理栄養士、3年次に臨地実習）",
 "総合政策学部：経営学科（経営・マネジメント、商業・マーケティング、財務・会計の3分野）、法律行政学科（法律・行政・社会安全の3分野）、総合政策学科（政治学と経済学を中心に、環境・観光・文化情報の3政策分野、自治体やNPOと連携したまちづくり）",
 "看護学部：看護学科（茨城県内の国立病院機構の病院と連携し、主に水戸医療センターで実習。地域包括ケアシステムも実践的に学ぶ）"
-]
+],
+"eng": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜 A方式",
+"use": "得点換算",
+"level": "英語資格・検定試験を換算（換算点80。基準スコア・換算表は出典に記載なし）",
+"tests": "英語資格・検定試験（試験名は出典に記載なし）",
+"faculties": "全学科（看護・総合政策・人間科学部）",
+"note": "Kei-NetのA方式の表に「△換算 80」と掲載（英語は100点）。詳細は大学の募集要項で確認"
+}
+],
+"summary": "一般選抜A方式で英語資格・検定試験のスコアを換算して利用する（換算点80）。基準スコアは出典に記載なし。",
+"note": "Kei-Net 2027年度入試科目ページによる。パスナビでは英検等利用入試のページを確認できず"
+}
 },
 "流通経済大学": {
 "difficulty": {
