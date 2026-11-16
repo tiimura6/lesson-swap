@@ -50395,7 +50395,8 @@
 "https://shingakunet.com/gakko/SC000480/gakuhi/",
 "https://www.nanzan-u.ac.jp/campuslife/tuition/",
 "https://passnavi.obunsha.co.jp/univ/3820/department/",
-"https://passnavi.obunsha.co.jp/univ/3820/eiken/"
+"https://passnavi.obunsha.co.jp/univ/3820/eiken/",
+"https://search.keinet.ne.jp/2460/general/schedule"
 ],
 "licenses": [
 "教員免許（中・高 英語・独仏中西語・国語・社会・宗教ほか）",
@@ -50547,7 +50548,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-07",
+"schedule": "2026-11-16",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -50698,7 +50699,7 @@
 "apply": "1/7〜1/21",
 "exam": "文系：2/9〜2/12自由選択・理工：2/10のみ",
 "result": "2/20",
-"proc": null
+"proc": "3/1"
 },
 {
 "kubun": "一般",
@@ -50707,7 +50708,7 @@
 "apply": "1/7〜1/21",
 "exam": "2/6［名古屋］・2/7［全国14都市］",
 "result": "2/20",
-"proc": null,
+"proc": "3/1",
 "note": "検定料：同一試験日の2出願目以降1出願15,000円"
 },
 {
@@ -50717,7 +50718,7 @@
 "apply": "1/7〜1/28",
 "exam": "1/16・17日（共テ）",
 "result": "2/20",
-"proc": null,
+"proc": "3/1",
 "note": "検定料：2出願目以降1出願10,000円"
 },
 {
@@ -50727,7 +50728,7 @@
 "apply": "2/22〜3/1",
 "exam": "1/16・17日（共テ）",
 "result": "3/11",
-"proc": null
+"proc": "3/18"
 }
 ]
 },
@@ -51586,7 +51587,8 @@
 "https://search.keinet.ne.jp/2228/outline/admission_employment",
 "https://www.seikei.ac.jp/university/s-net/pdf/2027_admission_guidelines.pdf",
 "https://passnavi.obunsha.co.jp/univ/2540/department/",
-"https://passnavi.obunsha.co.jp/univ/2540/eiken/"
+"https://passnavi.obunsha.co.jp/univ/2540/eiken/",
+"https://search.keinet.ne.jp/2228/general/schedule"
 ],
 "licenses": [
 "教員免許（中・高 英語・国語・社会・数学・理科ほか）",
@@ -51827,7 +51829,7 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-07",
+"schedule": "2026-11-16",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -105292,12 +105294,12 @@
 "access": "2026-11-07",
 "research": "2026-11-07",
 "fdiff": "2026-11-09",
-"methods": "2026-11-09",
+"methods": "2026-11-16",
 "ratios": "2026-11-09",
 "eng": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-16",
 "money": "2026-11-09",
-"_via": "2026-11-09",
+"_via": "2026-11-16",
 "kyotsu": "2026-11-15",
 "careers": "2026-11-15",
 "licenses": "2026-11-15"
@@ -105351,7 +105353,9 @@
 "https://portraits.niad.ac.jp/faculty/tuition/1122/1122-1M25-01-01.html",
 "https://search.keinet.ne.jp/1511/general/exam_subject",
 "https://search.keinet.ne.jp/1511/outline/admission_employment",
-"https://www.yachts.ac.jp/admission/media-download/2980/807cf5874faf5087"
+"https://www.yachts.ac.jp/admission/media-download/2980/807cf5874faf5087",
+"https://www.yachts.ac.jp/admission/media-download/3518/1e25973ae9e0d932/",
+"https://www.yachts.ac.jp/media-download/3481/ff7e6d41ec427372/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -105389,7 +105393,8 @@
 "kyotsu": "5教科5科目（国語200・英語200・理科100・数学または情報100・地歴公100）",
 "niji": "看護：総合問題(200)・面接(100)／作業療法：総合問題(100)・面接(200)",
 "haiten": "700:300",
-"note": "個別配点比率30%"
+"note": "個別300点（看護：総合問題200・面接100／作業療法：総合問題100・面接200）。面接が看護は40%未満、作業療法は50%未満で不合格（大学公式2027年度一般選抜募集要項）",
+"url": "https://www.yachts.ac.jp/admission/media-download/3518/1e25973ae9e0d932/"
 },
 {
 "kubun": "一般",
@@ -105397,23 +105402,26 @@
 "kyotsu": "5〜6教科6科目（国語100・英語200・理科100・数I/IA(100)・数IIBC/情報(100)・地歴公100）",
 "niji": "総合問題(200)・面接(100)",
 "haiten": "700:300",
-"note": "面接の得点が50%未満の場合は不合格"
+"note": "面接の得点が50%未満の場合は不合格（大学公式2027年度一般選抜募集要項）",
+"url": "https://www.yachts.ac.jp/admission/media-download/3518/1e25973ae9e0d932/"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜",
-"content": "書類・小論文・面接（400点）",
-"req": "県内高校現役生のみ、評定基準なし（単願）",
+"content": "小論文・面接（個別400点）＋共通テスト350点（計750点）",
+"req": "山形県内の高校を2027年3月卒業見込みの者。合格したら入学を確約（専願）。推薦は1校あたり看護6人・理学療法3人・作業療法3人まで",
 "kyotsu": "課す",
-"note": "共テ350点（看護・作業療法は5教科5〜6科目、理学療法は5〜6教科6〜7科目）。面接100点未満は不合格"
+"note": "面接100点未満は不合格。募集人員：看護21・理学療法8・作業療法8（共テは看護・作業療法5教科5科目、理学療法5教科6科目または6教科6科目）",
+"url": "https://www.yachts.ac.jp/media-download/3477/bd21cc317a01d985/"
 },
 {
 "kubun": "総合型",
 "name": "総合型選抜（山形県内定着枠）",
-"content": "",
-"req": "看護学科のみ",
-"kyotsu": "",
-"note": "定員10名（選考内容詳細はスニペット未確認）"
+"content": "共通テスト700点・小論文200点（山形県に関するテーマ）・口頭試問100点（50%未満は不合格）。調査書・自己推薦書は点数化せず総合判断",
+"req": "山形県内に住所を有する者（または一親等の尊属・配偶者が1年以上県内在住）で、卒業後に県内で看護職として働く意欲があり入学を確約できる者（既卒も可）",
+"kyotsu": "課す",
+"note": "看護学科のみ（募集10人）",
+"url": "https://www.yachts.ac.jp/media-download/3481/ff7e6d41ec427372/"
 }
 ],
 "summary": "一般選抜前期は全3学科で共通テスト700点＋総合問題・面接300点の配点比率で実施する。学校推薦型選抜（県内現役のみ）でも共通テストを課すほか、看護学科では総合型選抜を実施する。",
@@ -105470,29 +105478,35 @@
 {
 "kubun": "一般",
 "name": "一般 前期",
+"fee": 17000,
 "apply": "1/25〜2/3",
 "exam": "2/25",
 "result": "3/4",
-"proc": "",
-"note": "共通テスト1/16・17、個別試験2/25"
+"proc": "3/15",
+"note": "共通テスト1/16・17、個別試験2/25（総合問題・面接）。第1段階選抜を行う場合の発表は2/9",
+"url": "https://www.yachts.ac.jp/admission/media-download/3518/1e25973ae9e0d932/"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜",
+"fee": 17000,
 "apply": "11/2〜11/9",
 "exam": "11/19",
 "result": "2/9",
-"proc": "",
-"note": "共通テストを課す。山形県内高校現役のみ"
+"proc": "2/17",
+"note": "共通テストを課す。山形県内高校の現役のみ（専願）",
+"url": "https://www.yachts.ac.jp/media-download/3477/bd21cc317a01d985/"
 },
 {
 "kubun": "総合型",
 "name": "総合型選抜（看護学科 山形県内定着枠）",
+"fee": 17000,
 "apply": "11/16〜11/25",
-"exam": "",
+"exam": "12/15",
 "result": "2/9",
-"proc": "",
-"note": "看護学科のみ実施（定員10名）"
+"proc": "2/17",
+"note": "看護学科のみ（募集10人）。共通テストを課す",
+"url": "https://www.yachts.ac.jp/media-download/3481/ff7e6d41ec427372/"
 }
 ]
 },
@@ -105517,7 +105531,7 @@
 }
 ]
 },
-"_via": "external-ai",
+"_via": "external-ai-verified",
 "kyotsu": {
 "kamoku": "5教科5科目（理学療法学科は「5,6－6」と表記）",
 "kyoka": [
@@ -105557,7 +105571,7 @@
 "methods": "2026-11-09",
 "ratios": "2026-11-09",
 "fdiff": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-16",
 "money": "2026-11-09",
 "_via": "2026-11-09",
 "kyotsu": "2026-11-15",
@@ -105666,11 +105680,20 @@
 "kyotsu": "",
 "niji": "",
 "haiten": "",
-"note": "社会福祉学部（社会福祉・人間福祉）・総合政策学部で実施（科目・配点詳細はスニペット未取得）"
+"note": "社会福祉学部（社会福祉・人間福祉）・総合政策学部に加え、看護学部でも実施（令和9年度入学者選抜要項p.14）。科目・配点は未確認"
+},
+{
+"kubun": "一般",
+"name": "前期日程（看護学部）",
+"kyotsu": "国語・地理歴史または公民1科目・数学2科目（数ⅠA または数Ⅰ／数ⅡBC）・理科（化学または生物を含む）・英語（リスニング含む）・情報Ⅰ",
+"niji": "小論文・面接",
+"haiten": "",
+"note": "面接で一定の基準を満たした者を、共通テストと個別試験の合計点の順で判定。科目別配点は要項の表が読み取れず未記入（令和9年度入学者選抜要項p.14）",
+"url": "https://web-pamphlet.jp/iwate-pu/2027a/pageindices/index14.html"
 }
 ],
-"summary": "全4学部で一般選抜前期日程を実施し、社会福祉学部・総合政策学部では後期日程も実施する（詳細科目・配点は未確認）。",
-"note": ""
+"summary": "全4学部で一般選抜前期日程を実施し、看護学部・社会福祉学部・総合政策学部では後期日程も実施する。看護学部の前期は共通テストと小論文・面接（他学部の科目・配点は未確認）。",
+"note": "看護学部の前期・後期は大学の令和9年度入学者選抜要項（デジタル版）で確認。他学部の科目・配点は未確認"
 },
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -105766,7 +105789,7 @@
 "exam": "3/12",
 "result": "3/20",
 "proc": "3/27",
-"note": "社会福祉学部（社会福祉・人間福祉）・総合政策学部（総合政策）"
+"note": "社会福祉学部（社会福祉・人間福祉）・総合政策学部。看護学部も後期日程を実施（令和9年度入学者選抜要項）"
 }
 ]
 },
