@@ -33289,7 +33289,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-07",
+"schedule": "2026-11-16",
 "money": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
@@ -33876,7 +33876,8 @@
 "https://search.keinet.ne.jp/2221/outline/licential",
 "https://search.keinet.ne.jp/2221/outline/admission_employment",
 "https://passnavi.obunsha.co.jp/univ/2470/department/",
-"https://www.sophia.ac.jp/jpn/admissions-and-aid/degree/"
+"https://www.sophia.ac.jp/jpn/admissions-and-aid/degree/",
+"https://adm.sophia.ac.jp/jpn/gakubu_ippan_ad/date/"
 ],
 "kyotsu": {
 "kamoku": "3教科3科目（併用方式・3教科型）〜4教科4科目（4教科型）",
@@ -34689,7 +34690,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-07",
+"schedule": "2026-11-16",
 "money": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
@@ -102210,7 +102211,8 @@
 "qtrend": "2026-11-07",
 "money": "2026-11-09",
 "schedule": "2026-11-09",
-"kyotsu": "2026-11-15"
+"kyotsu": "2026-11-15",
+"eng": "2026-11-16"
 },
 "faculties": [
 "多文化社会学部",
@@ -102328,7 +102330,8 @@
 "https://search.keinet.ne.jp/1435/outline/admission_employment",
 "https://search.keinet.ne.jp/1435/outline/expense",
 "https://passnavi.obunsha.co.jp/univ/0870/schedule/",
-"https://search.keinet.ne.jp/1435/general/exam_subject"
+"https://search.keinet.ne.jp/1435/general/exam_subject",
+"https://passnavi.obunsha.co.jp/univ/0870/eiken/"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -102601,6 +102604,33 @@
 "rl_text": "確認できた学部はR:L=4:1（例 R160:L40、R80:L20）",
 "note": "多文化社会学部は5教科5科目。二段階選抜は医学科（5.5倍）・薬学科（5倍）。情報データ科学部・環境科学部などページ後半は未確認",
 "year": "2027年度入試"
+},
+"eng": {
+"year": "2026年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜（前期日程）",
+"use": "みなし満点",
+"level": "英検準1級・TEAP 334(RLWS)・IELTS 5.5",
+"grade": "準1級",
+"tests": "英検・TEAP・IELTS",
+"faculties": "多文化社会学部 多文化社会学科",
+"note": "優遇対象は共通テストの外国語（共テの外国語の受験が必要）"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅰ（一般枠）",
+"use": "出願資格",
+"level": "英検準1級・TEAP 334(RLWS)・IELTS 5.5",
+"grade": "準1級",
+"tests": "英検・TEAP・IELTS",
+"faculties": "多文化社会学部 多文化社会学科",
+"note": ""
+}
+],
+"summary": "多文化社会学部で、前期日程は英検準1級などで共テ外国語を満点に換算、総合型Ⅰ（一般枠）は英検準1級などが出願資格（パスナビ、2026年度の情報）。",
+"note": "ほかの学部はパスナビに情報なし。詳細は募集要項で確認（2026-11-16確認）"
 }
 },
 "鹿児島大学": {
@@ -102623,7 +102653,8 @@
 "schedule": "2026-11-09",
 "kyotsu": "2026-11-15",
 "licenses": "2026-11-15",
-"careers": "2026-11-15"
+"careers": "2026-11-15",
+"eng": "2026-11-16"
 },
 "faculties": [
 "法文学部",
@@ -102728,7 +102759,12 @@
 "https://www.kagoshima-u.ac.jp/exam/R09-senbatu.pdf",
 "https://search.keinet.ne.jp/1465/general/exam_subject",
 "https://search.keinet.ne.jp/1465/outline/licential",
-"https://search.keinet.ne.jp/1465/outline/admission_employment"
+"https://search.keinet.ne.jp/1465/outline/admission_employment",
+"https://passnavi.obunsha.co.jp/univ/0930/eiken/?facultyID=005",
+"https://passnavi.obunsha.co.jp/univ/0930/eiken/?facultyID=020",
+"https://passnavi.obunsha.co.jp/univ/0930/eiken/?facultyID=035",
+"https://passnavi.obunsha.co.jp/univ/0930/eiken/?facultyID=040",
+"https://passnavi.obunsha.co.jp/univ/0930/eiken/?facultyID=045"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -102958,7 +102994,54 @@
 "看護師（受験資格）・理学療法士（受験資格）・作業療法士（受験資格）（医学部 保健学科）",
 "歯科医師（受験資格）（歯学部）"
 ],
-"careers": "2024年度学士課程卒業者1,842人のうち進学500人・就職1,083人（Kei-Net の学科別表から集計）。工学部先進工学科は352人中217人、理学部理学科は158人中73人が進学。教育学部（教員養成）は卒業者186人のうち教員就職134人（72.0%、正規119人・臨時的任用15人）。"
+"careers": "2024年度学士課程卒業者1,842人のうち進学500人・就職1,083人（Kei-Net の学科別表から集計）。工学部先進工学科は352人中217人、理学部理学科は158人中73人が進学。教育学部（教員養成）は卒業者186人のうち教員就職134人（72.0%、正規119人・臨時的任用15人）。",
+"eng": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜Ⅱ",
+"use": "みなし満点",
+"level": "英検準1級・TEAP 334・IELTS 5.5（未満は加点25%）",
+"grade": "準1級",
+"tests": "英検・TEAP・IELTS",
+"faculties": "法文学部（法経社会・人文）、医学部 医学科、農学部 農学科、共同獣医学部 共同獣医学科",
+"note": "共テの英語（リーディング・リスニング）が対象。各80%以上ならその得点を満点とみなし、80%未満は得点の25%を加点（パスナビ）"
+},
+{
+"kubun": "総合型",
+"name": "自己推薦型選抜",
+"use": "みなし満点",
+"level": "英検準1級・TEAP 334・IELTS 5.5（未満は加点25%）",
+"grade": "準1級",
+"tests": "英検・TEAP・IELTS",
+"faculties": "法文学部 人文学科＜多元地域文化コース＞、医学部 保健学科看護学専攻、農学部（農学科・国際食料資源学特別コース）、水産学部 国際食料資源学特別コース、共同獣医学部（共同獣医・畜産）",
+"note": "共テの英語（リーディング・リスニング）が対象。各80%以上ならその得点を満点とみなし、80%未満は得点の25%を加点（パスナビ）"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（前期日程）",
+"use": "みなし満点",
+"level": "英検準1級・TEAP 334(RLWS)・IELTS 5.5（未満は加点25%）",
+"grade": "準1級",
+"tests": "英検・TEAP・IELTS",
+"faculties": "法文学部（法経社会・人文）、医学部（医学科・保健学科）、農学部（農学科・国際食料資源学特別コース農学系）、水産学部（水産学科・国際食料資源学特別コース水産学系）、共同獣医学部（共同獣医・畜産）",
+"note": "2026年度の情報。共テの英語（リーディング・リスニング）が対象。各80%以上ならその得点を満点とみなし、80%未満は得点の25%を加点（パスナビ）"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（後期日程）",
+"use": "みなし満点",
+"level": "英検準1級・TEAP 334(RLWS)・IELTS 5.5（未満は加点25%）",
+"grade": "準1級",
+"tests": "英検・TEAP・IELTS",
+"faculties": "法文学部（法経社会・人文学科＜多元地域文化コース＞）、医学部（医学科・保健学科理学療法学／作業療法学専攻）、農学部 農学科、水産学部 水産学科、共同獣医学部（共同獣医・畜産）",
+"note": "2026年度の情報。共テの英語（リーディング・リスニング）が対象。各80%以上ならその得点を満点とみなし、80%未満は得点の25%を加点（パスナビ）"
+}
+],
+"summary": "法文・医・農・水産・共同獣医学部の一般（前期・後期）・推薦Ⅱ・自己推薦型で、英検準1級・TEAP 334・IELTS 5.5以上を共テ英語の満点換算（基準未満は25%加点）に使う（パスナビ）。",
+"note": "一般選抜の行はパスナビ掲載の2026年度の情報。教育・理・歯・工学部は未確認（2026-11-16）"
+}
 },
 "室蘭工業大学": {
 "difficulty": {
@@ -102978,7 +103061,8 @@
 "careers": "2026-11-06",
 "money": "2026-11-09",
 "schedule": "2026-11-09",
-"kyotsu": "2026-11-15"
+"kyotsu": "2026-11-15",
+"eng": "2026-11-16"
 },
 "faculties": [
 "理工学部（昼間）",
@@ -103030,7 +103114,8 @@
 "https://search.keinet.ne.jp/1035/general/border_rate",
 "https://search.keinet.ne.jp/1035/outline/expense",
 "https://manabi.benesse.ne.jp/daigaku/school/1055/nyushi/gokaku-happyo/index.html",
-"https://search.keinet.ne.jp/1035/general/exam_subject"
+"https://search.keinet.ne.jp/1035/general/exam_subject",
+"https://passnavi.obunsha.co.jp/univ/0030/eiken/"
 ],
 "money": {
 "year": "2026年度",
@@ -103099,6 +103184,12 @@
 "rl_text": "全学科・全日程でR:L=1:1（R100:L100）",
 "note": "二段階選抜の記載なし。共テの満点は前期900点・後期1150点（昼間・夜間主とも）",
 "year": "2027年度入試"
+},
+"eng": {
+"rows": [],
+"summary": "記載なし（利用しないとは限らない）",
+"year": "2027年度入試",
+"note": "パスナビの英検等利用入試ページに理工学部の情報なし（2026-11-16）"
 }
 },
 "三重大学": {
@@ -103119,7 +103210,8 @@
 "careers": "2026-11-06",
 "money": "2026-11-09",
 "schedule": "2026-11-09",
-"kyotsu": "2026-11-15"
+"kyotsu": "2026-11-15",
+"eng": "2026-11-16"
 },
 "faculties": [
 "人文学部",
@@ -103228,7 +103320,9 @@
 "https://search.keinet.ne.jp/1265/general/border_rate",
 "https://search.keinet.ne.jp/1265/outline/expense",
 "https://manabi.benesse.ne.jp/daigaku/school/1285/nyushi/gokaku-happyo/",
-"https://search.keinet.ne.jp/1265/general/exam_subject"
+"https://search.keinet.ne.jp/1265/general/exam_subject",
+"https://passnavi.obunsha.co.jp/univ/0530/eiken/",
+"https://passnavi.obunsha.co.jp/univ/0530/eiken/?facultyID=010"
 ],
 "money": {
 "year": "2026年度",
@@ -103349,6 +103443,53 @@
 "rl_text": "確認できた学部はR:L=2:1",
 "note": "人文学部・教育学部（美術〈初〉前期まで）のみ確認。二段階選抜の記載なし（確認できた範囲）。医・工・生物資源学部は未確認",
 "year": "2027年度入試"
+},
+"eng": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "推薦",
+"name": "学校推薦型Ⅰ－A、B",
+"use": "出願資格",
+"level": "英検準2級",
+"grade": "準2級",
+"tests": "英検",
+"faculties": "人文学部 法律経済学科",
+"note": ""
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅰ",
+"use": "出願資格",
+"level": "英検2級・TEAP 225・IELTS 4.0",
+"grade": "2級",
+"tests": "英検・TEAP・IELTS",
+"faculties": "医学部 看護学科",
+"note": ""
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅱ",
+"use": "出願資格",
+"level": "英検1級",
+"grade": "1級",
+"tests": "英検",
+"faculties": "医学部 医学科",
+"note": "出願要件の詳細は募集要項で確認"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅱ",
+"use": "任意提出（参考）",
+"level": "英検準2級",
+"grade": "準2級",
+"tests": "英検",
+"faculties": "工学部 総合工学科＜情報工学コース＞",
+"note": ""
+}
+],
+"summary": "人文学部法律経済学科の推薦Ⅰ、医学部（看護・医学科）の総合型で英検などを出願資格に使い、工学部情報工学コースの総合型Ⅱでは参考にする（パスナビ）。",
+"note": "教育学部・生物資源学部はパスナビに情報なし（2026-11-16確認）"
 }
 },
 "鹿屋体育大学": {
@@ -103369,7 +103510,8 @@
 "careers": "2026-11-06",
 "money": "2026-11-09",
 "schedule": "2026-11-10",
-"kyotsu": "2026-11-15"
+"kyotsu": "2026-11-15",
+"eng": "2026-11-16"
 },
 "faculties": [
 "体育学部"
@@ -103408,7 +103550,8 @@
 "https://search.keinet.ne.jp/1470/outline/expense",
 "https://manabi.benesse.ne.jp/daigaku/school/1490/nyushi/gokaku-happyo/",
 "https://www.nifs-k.ac.jp/wp-content/uploads/2026/07/R9_鹿屋体育大学入学者選抜要項.pdf",
-"https://search.keinet.ne.jp/1470/general/exam_subject"
+"https://search.keinet.ne.jp/1470/general/exam_subject",
+"https://passnavi.obunsha.co.jp/univ/0940/eiken/"
 ],
 "money": {
 "year": "2026年度",
@@ -103476,6 +103619,12 @@
 "rl_text": "全選抜でR:L=1:1（R100:L100）",
 "note": "スポーツ総合A・B選抜、武道課程（いずれも前期）。B選抜は共テ600点満点を800点に換算。二段階選抜の記載なし",
 "year": "2027年度入試"
+},
+"eng": {
+"rows": [],
+"summary": "記載なし（利用しないとは限らない）",
+"year": "2027年度入試",
+"note": "パスナビの英検等利用入試ページに体育学部の情報なし（2026-11-16）"
 }
 },
 "政策研究大学院大学（大学院のみ）": {
@@ -103606,7 +103755,8 @@
 "schedule": "2026-11-09",
 "money": "2026-11-09",
 "_via": "2026-11-09",
-"kyotsu": "2026-11-15"
+"kyotsu": "2026-11-15",
+"eng": "2026-11-16"
 },
 "faculties": [
 "事業構想学群",
@@ -103684,7 +103834,9 @@
 "https://www.myu.ac.jp/download_file/view/5748/",
 "https://www.myu.ac.jp/download_file/18192/203/",
 "https://www.myu.ac.jp/admissions/colleges/fixed/",
-"https://manabi.benesse.ne.jp/daigaku/school/2023/nyushi/gokaku-happyo/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/2023/nyushi/gokaku-happyo/index.html",
+"https://passnavi.obunsha.co.jp/univ/1024/eiken/?facultyID=006",
+"https://passnavi.obunsha.co.jp/univ/1024/eiken/?facultyID=016"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -103988,6 +104140,12 @@
 "rl_text": "事業構想学群はR:L=1:1（R100:L100）、看護学類・食産業学群は4:1（例 R200:L50）",
 "note": "事業構想学群は5教科6科目（理・地公・情から2）、食産業学群は6教科7科目。二段階選抜の記載なし",
 "year": "2027年度入試"
+},
+"eng": {
+"rows": [],
+"summary": "記載なし（利用しないとは限らない）",
+"year": "2027年度入試",
+"note": "パスナビで看護学群・食産業学群は情報なし。事業構想学群は未確認（2026-11-16）"
 }
 },
 "名寄市立大学": {
@@ -104011,7 +104169,8 @@
 "money": "2026-11-09",
 "_via": "2026-11-09",
 "kyotsu": "2026-11-15",
-"research": "2026-11-15"
+"research": "2026-11-15",
+"eng": "2026-11-16"
 },
 "faculties": [
 "保健福祉学部"
@@ -104282,7 +104441,13 @@
 "看護学（基礎・地域・成人・老年・小児・母性・精神看護学、臨地実習など）",
 "社会福祉学（ソーシャルワーク論・公的扶助論・地域福祉論・高齢者福祉論・医療福祉論など）",
 "社会保育（保育の基礎理論・保育の内容と方法・障がい児の保育・教育など）"
-]
+],
+"eng": {
+"rows": [],
+"summary": "記載なし（利用しないとは限らない）",
+"year": "2027年度入試",
+"note": "パスナビの英検等利用入試ページに保健福祉学部の情報なし（2026-11-16）"
+}
 },
 "山形県立米沢栄養大学": {
 "difficulty": {
@@ -104306,7 +104471,8 @@
 "schedule": "2026-11-09",
 "money": "2026-11-09",
 "_via": "2026-11-09",
-"kyotsu": "2026-11-15"
+"kyotsu": "2026-11-15",
+"eng": "2026-11-16"
 },
 "faculties": [
 "健康栄養学部"
@@ -104355,7 +104521,8 @@
 "https://manabi.benesse.ne.jp/daigaku/school/2033/nyushi/bairitsu/",
 "https://passnavi.obunsha.co.jp/univ/1033/eiken/",
 "https://note.com/keio_english_edu/n/n03283917052d",
-"https://manabi.benesse.ne.jp/daigaku/school/2033/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/2033/nyushi/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/2033/nyushi/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -104487,6 +104654,12 @@
 "rl_text": "R:L=3:1（前期 R150:L50、後期 R75:L25）",
 "note": "二段階選抜なし",
 "year": "2027年度入試"
+},
+"eng": {
+"rows": [],
+"summary": "記載なし（利用しないとは限らない）",
+"year": "2027年度入試",
+"note": "マナビジョンの入試ページに英語外部試験の記載なし（2026-11-16）"
 }
 },
 "旭川市立大学": {
@@ -104510,7 +104683,8 @@
 "schedule": "2026-11-09",
 "money": "2026-11-09",
 "_via": "2026-11-09",
-"kyotsu": "2026-11-15"
+"kyotsu": "2026-11-15",
+"eng": "2026-11-16"
 },
 "faculties": [
 "地域創造学部",
@@ -104858,6 +105032,12 @@
 "rl_text": "地域創造学部・経済学部の前期はR200:L100（2:1）、後期はR60:L40（3:2）。保健福祉学部はR50:L50（1:1）",
 "note": "地域創造学部・経済学部の前期は5教科5科目、後期は4教科4科目。保健福祉学部は前期・中期とも4教科4科目で二段階選抜あり（前期8倍、中期はコミュニティ福祉学科10倍・保健看護学科20倍）",
 "year": "2027年度入試"
+},
+"eng": {
+"rows": [],
+"summary": "記載なし（利用しないとは限らない）",
+"year": "2027年度入試",
+"note": "パスナビの英検等利用入試ページに経済・保健福祉・地域創造学部の情報なし（2026-11-16）"
 }
 },
 "山形県立保健医療大学": {
