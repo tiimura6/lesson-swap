@@ -108103,9 +108103,9 @@
 "ratios": "2026-11-09",
 "eng": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-16",
 "money": "2026-11-09",
-"_via": "2026-11-09",
+"_via": "2026-11-16",
 "careers": "2026-11-15",
 "research": "2026-11-15"
 },
@@ -108230,7 +108230,9 @@
 "https://telemail.jp/shingaku/university/10003427/examination/general",
 "https://bestjuku.com/shingaku/s-article/59507/",
 "https://search.keinet.ne.jp/1585/outline/admission_employment",
-"https://search.keinet.ne.jp/1585/outline/department"
+"https://search.keinet.ne.jp/1585/outline/department",
+"https://www.nagoya-cu.ac.jp/media/R9senbatsuyoko0701.pdf",
+"https://www.nagoya-cu.ac.jp/media/R9sougougata-bosyuyoko.pdf"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -108441,42 +108443,68 @@
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "総合型",
+"name": "総合型選抜（芸術工学部・共テを課さない）",
+"apply": "11/1〜11/6",
+"exam": "11/28",
+"result": "12/8",
+"proc": "12/22",
+"fee": 17000,
+"note": "出願11/6 16:00必着（ネット登録10/23〜）。実技検査。出願者40名超で第1段階選抜。郵送の手続は12/21必着",
+"url": "https://www.nagoya-cu.ac.jp/media/R9sougougata-bosyuyoko.pdf"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜A（医[保健医療]・薬・経済・人文社会）",
+"apply": "11/1〜11/6",
+"exam": "11/21",
+"result": "12/1",
+"proc": "",
+"note": "小論文・面接。手続締切は選抜要項に記載なし",
+"url": "https://www.nagoya-cu.ac.jp/media/R9senbatsuyoko0701.pdf"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜B・連携指定校型・中部圏活躍型・名古屋市高大接続型・地域枠",
+"apply": "1/4〜1/22（学部により1/18〜1/22）",
+"exam": "2/7（面接を課す学部のみ）",
+"result": "2/10",
+"proc": "",
+"note": "共通テストを課す。医学科・リハビリ・薬・理は2/7面接、看護B・経済B・人文社会B・芸術工・データサイエンスは個別テストなし",
+"url": "https://www.nagoya-cu.ac.jp/media/R9senbatsuyoko0701.pdf"
+},
+{
 "kubun": "一般",
 "name": "一般選抜 前期日程",
 "apply": "1/25〜2/3",
-"exam": "2/25・2/26",
+"exam": "2/25（医学科・看護学専攻は2/25・2/26）",
 "result": "3/5",
 "proc": "",
-"note": "共通テスト: 1/16・17（学部により試験日は2/25のみの場合あり。手続締切は未確認）"
+"note": "共通テスト: 1/16・17。医・経済・人文社会・芸術工・理・データサイエンス",
+"url": "https://www.nagoya-cu.ac.jp/media/R9senbatsuyoko0701.pdf"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 公立大学中期日程（薬学部）",
+"apply": "1/25〜2/3",
+"exam": "3/8",
+"result": "3/23",
+"proc": "",
+"note": "共通テスト: 1/16・17",
+"url": "https://www.nagoya-cu.ac.jp/media/R9senbatsuyoko0701.pdf"
 },
 {
 "kubun": "一般",
 "name": "一般選抜 後期日程",
 "apply": "1/25〜2/3",
 "exam": "3/12",
-"result": "",
+"result": "3/23",
 "proc": "",
-"note": "人文社会学部等で実施（合格発表・手続締切等は未確認）"
-},
-{
-"kubun": "推薦",
-"name": "学校推薦型選抜（連携指定校型：芸術工・理）",
-"apply": "1/18〜1/22",
-"exam": "",
-"result": "2/10",
-"proc": "",
-"note": "共通テストを課す（ネット登録1/12〜1/22、出願書類1/22必着）"
-},
-{
-"kubun": "総合型",
-"name": "総合型選抜（芸術工学部）",
-"apply": "11/1〜11/6",
-"exam": "",
-"result": "",
-"proc": "",
-"note": "試験日・合格発表・手続締切は未確認"
+"note": "経済・人文社会・芸術工・理学部で実施。共通テスト: 1/16・17",
+"url": "https://www.nagoya-cu.ac.jp/media/R9senbatsuyoko0701.pdf"
 }
-]
+],
+"note": "大学公式の令和9年度入学者選抜要項・総合型選抜募集要項で確認。一般選抜の手続締切・検定料は選抜要項に記載なし（一般選抜募集要項の公表後に確認）"
 },
 "money": {
 "year": "2026年度（諸経費内訳はKei-Net 2025年度額併用）",
@@ -108598,7 +108626,7 @@
 }
 ]
 },
-"_via": "external-ai",
+"_via": "external-ai-verified",
 "careers": "2024年度卒業者（Kei-Net）：人文社会学部・経済学部は大半が就職（例：現代社会学科73人中71人、公共政策学科80人中77人）。総合生命理学科は40人中27人、建築都市デザイン学科は34人中22人、生命薬科学科は46人全員が進学。看護学科は79人中就職74人。国家試験合格率（2026年度）は医師93.4%、薬剤師78.1%、看護師・保健師100%。",
 "research": [
 "持続可能な開発のための教育（ESD）を軸にした心理・教育・社会・国際文化（人文社会学部）",
@@ -112707,9 +112735,9 @@
 "methods": "2026-11-09",
 "eng": "2026-11-09",
 "ratios": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-16",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-16"
 },
 "departments": [
 {
@@ -112781,7 +112809,8 @@
 "https://fran-data.com/yamanashi-kenritsu/",
 "https://juku-times.com/juku/yamanashikenritsu/gakubu-2/bairitsu/",
 "https://manabi.benesse.ne.jp/daigaku/school/2114/nyushi/bairitsu/",
-"https://passnavi.obunsha.co.jp/univ/1102/department/?facultyID=010"
+"https://passnavi.obunsha.co.jp/univ/1102/department/?facultyID=010",
+"https://yamanashi-ken.ac.jp/media/5201_jyugyouryou_20240601.pdf"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -112926,42 +112955,51 @@
 "year": "2027年度入試",
 "rows": [
 {
-"kubun": "一般",
-"name": "一般選抜 前期日程",
-"apply": "1/25〜2/3",
-"exam": "2/25",
-"result": "3/3",
-"proc": "",
-"note": "出願は2/3 17:00まで、合格発表は10:00頃（手続期限未確認）。"
-},
-{
-"kubun": "一般",
-"name": "一般選抜 後期日程",
-"apply": "1/25〜2/3",
-"exam": "3/12",
-"result": "3/20",
-"proc": "",
-"note": "出願は2/3 17:00まで、合格発表は10:00頃（手続期限未確認）。"
-},
-{
-"kubun": "推薦",
-"name": "学校推薦型選抜",
-"apply": "11/4〜11/10",
-"exam": "11/21",
-"result": "12/2",
-"proc": "",
-"note": "令和8年実施。出願は11/10 17:00まで、合格発表は15:00頃。"
-},
-{
 "kubun": "総合型",
 "name": "総合型選抜（国際政策学部・人間福祉学部）",
 "apply": "9/9〜9/18",
 "exam": "10/17",
 "result": "11/2",
 "proc": "",
-"note": "令和8年実施。出願は9/18 17:00まで、合格発表は10:00頃。看護学部は実施なし。"
+"fee": 17000,
+"note": "出願は9/18 17:00まで、合格発表は10:00頃。看護学部は実施なし。国際政策学部は外部英語試験の成績提出が必要",
+"url": "https://www.yamanashi-ken.ac.jp/media/r9senbatsuyoukou2.pdf"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（3学部）",
+"apply": "11/4〜11/10",
+"exam": "11/21",
+"result": "12/2",
+"proc": "",
+"fee": 17000,
+"note": "出願は11/10 17:00まで、合格発表は15:00頃",
+"url": "https://www.yamanashi-ken.ac.jp/media/r9senbatsuyoukou2.pdf"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期日程（3学部）",
+"apply": "1/25〜2/3",
+"exam": "2/25",
+"result": "3/3",
+"proc": "",
+"fee": 17000,
+"note": "出願は2/3 17:00まで、合格発表は10:00頃。共通テスト: 1/16・17（手続期限は選抜要項に記載なし）",
+"url": "https://www.yamanashi-ken.ac.jp/media/r9senbatsuyoukou2.pdf"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期日程（国際政策・人間福祉・看護）",
+"apply": "1/25〜2/3",
+"exam": "3/12（国際政策学部は個別試験なし）",
+"result": "3/20",
+"proc": "",
+"fee": 17000,
+"note": "出願は2/3 17:00まで、合格発表は10:00頃（手続期限は選抜要項に記載なし）",
+"url": "https://www.yamanashi-ken.ac.jp/media/r9senbatsuyoukou2.pdf"
 }
-]
+],
+"note": "日程は大学公式の令和9年度入学者選抜要項。検定料17,000円は大学の授業料等規程（入学料 県内282,000円・県外470,000円、授業料年額535,800円も同規程で確認）"
 },
 "money": {
 "year": "2026年度確認",
@@ -112984,7 +113022,7 @@
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai-verified"
 },
 "岐阜県立看護大学": {
 "faculties": [
@@ -121760,7 +121798,7 @@
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-16",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -121876,6 +121914,56 @@
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "総合型",
+"name": "総合型選抜（課題探究型・基礎力重視）／学校推薦特別総合",
+"apply": "9/9〜9/17",
+"exam": "10/3",
+"result": "11/2（学校推薦特別総合は12/1）",
+"proc": "12/11（学校推薦特別総合は1/13）",
+"fee": null,
+"note": "マナビジョン（2027年度入試）"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（育成型・学科特色・理科・情報・女子特別型1回目）",
+"apply": "10/9〜10/15",
+"exam": "10/24",
+"result": "11/2",
+"proc": "12/11",
+"fee": null,
+"note": "マナビジョン（2027年度入試）"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募）",
+"apply": "10/30〜11/9",
+"exam": "11/22",
+"result": "12/1",
+"proc": "1/13",
+"fee": null,
+"note": "マナビジョン（2027年度入試）"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（資格重視・学習成果・女子特別型2回目）",
+"apply": "11/30〜12/5",
+"exam": "12/12",
+"result": "12/21",
+"proc": "1/13",
+"fee": null,
+"note": "マナビジョン（2027年度入試）"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 実技前期日程（芸術・スポーツ健康科学・住居インテリア）",
+"apply": "1/5〜1/13",
+"exam": "1/23",
+"result": "2/22",
+"proc": "3/1",
+"fee": null,
+"note": "マナビジョン・Kei-Net（2027年度入試）"
+},
+{
 "kubun": "一般",
 "name": "一般選抜 前期日程",
 "apply": "1/5〜1/13",
@@ -121910,6 +121998,16 @@
 "result": "2/22",
 "proc": "3/1",
 "fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 後期日程",
+"apply": "2/22〜3/5",
+"exam": "1/16・1/17（共テ）",
+"result": "3/17",
+"proc": "3/23",
+"fee": null,
+"note": "マナビジョン（2027年度入試）"
 }
 ]
 },
@@ -122000,7 +122098,9 @@
 "https://manabi.benesse.ne.jp/daigaku/school/3873/nyushi/rikou/",
 "https://up-j.shigaku.go.jp/school/category06/00000000673801000.html",
 "https://passnavi.obunsha.co.jp/univ/4910/top/",
-"https://kotobank.jp/word/%E4%B9%9D%E5%B7%9E%E7%94%A3%E6%A5%AD%E5%A4%A7%E5%AD%A6-165563"
+"https://kotobank.jp/word/%E4%B9%9D%E5%B7%9E%E7%94%A3%E6%A5%AD%E5%A4%A7%E5%AD%A6-165563",
+"https://manabi.benesse.ne.jp/daigaku/school/3873/nyushi/gokaku-happyo/",
+"https://search.keinet.ne.jp/2701/general/schedule"
 ],
 "students": {
 "count": 10738,
@@ -122389,7 +122489,7 @@
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-16",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -122446,6 +122546,46 @@
 "schedule": {
 "year": "2027年度入試",
 "rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜 10月期",
+"apply": "9/15〜10/7",
+"exam": "10/10",
+"result": "11/1",
+"proc": "11/9",
+"fee": null,
+"note": "マナビジョン（2027年度入試）"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 11月期",
+"apply": "11/1〜11/12",
+"exam": "11/15",
+"result": "12/1",
+"proc": "12/10",
+"fee": null,
+"note": "マナビジョン（2027年度入試）"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 12月期",
+"apply": "12/2〜12/17",
+"exam": "12/19",
+"result": "12/25",
+"proc": "1/8",
+"fee": null,
+"note": "マナビジョン（2027年度入試）"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 12月期",
+"apply": "12/2〜12/17",
+"exam": "12/20",
+"result": "12/25",
+"proc": "1/8",
+"fee": null,
+"note": "マナビジョン（2027年度入試）"
+},
 {
 "kubun": "一般",
 "name": "一般選抜 前期",
@@ -122529,7 +122669,8 @@
 "https://mimasaka.jp/admission/expenses/",
 "https://passnavi.obunsha.co.jp/univ/4710/difficulty/",
 "https://mimasaka.jp/about/disclosur/student-situation/",
-"https://ja.wikipedia.org/wiki/%E7%BE%8E%E4%BD%9C%E5%A4%A7%E5%AD%A6"
+"https://ja.wikipedia.org/wiki/%E7%BE%8E%E4%BD%9C%E5%A4%A7%E5%AD%A6",
+"https://manabi.benesse.ne.jp/daigaku/school/3786/nyushi/"
 ],
 "students": {
 "count": 757,
