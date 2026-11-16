@@ -113040,9 +113040,9 @@
 "fdiff": "2026-11-09",
 "methods": "2026-11-09",
 "ratios": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-16",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-16"
 },
 "departments": [
 {
@@ -113094,7 +113094,9 @@
 "https://nennai-nyushi-navi.jp/university/gifu-cn",
 "https://mbp-japan.com/gifu/kikyokai/column/5030206/",
 "https://passnavi.obunsha.co.jp/univ/1115/top/",
-"https://passnavi.obunsha.co.jp/univ/1115/department/"
+"https://passnavi.obunsha.co.jp/univ/1115/department/",
+"https://www.gifu-cn.ac.jp/admission/examination/schedule/",
+"https://www.gifu-cn.ac.jp/uploads/R09_suisenA-youkou.pdf"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -113177,20 +113179,34 @@
 "name": "一般選抜 前期日程",
 "apply": "1/25〜2/3",
 "exam": "2/25",
-"result": "",
-"proc": "",
-"note": "ネット出願1/25〜2/3 16:00・必要書類2/3消印有効。"
+"result": "3/5",
+"proc": "3/15",
+"note": "ネット出願1/25〜2/3 16:00・必要書類2/3消印有効。募集人員42名。合格発表・手続締切はテレメール（2027年度入学、2026/8/6時点）",
+"url": "https://www.gifu-cn.ac.jp/admission/examination/schedule/"
 },
 {
 "kubun": "推薦",
-"name": "学校推薦型選抜（共通テストを課さない方式）",
+"name": "学校推薦型選抜A（岐阜県内・共通テストを課さない）",
 "apply": "11/1〜11/6",
 "exam": "11/14",
 "result": "12/1",
 "proc": "12/8",
-"note": "令和8年実施。学校推薦型B（共テ利用）の日程は未確認。"
+"note": "募集人員20名。出願11/6 16:00まで（書類同日消印有効）。小論文・面接・調査書。手続12/2〜12/8 17:00必着",
+"fee": 17000,
+"url": "https://www.gifu-cn.ac.jp/uploads/R09_suisenA-youkou.pdf"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜B（共通テストを課す・県内外）",
+"apply": "1/18〜1/24",
+"exam": "2/3",
+"result": "",
+"proc": "",
+"note": "募集人員18名（うち県外4名以内）。全国の高校等から募集",
+"url": "https://www.gifu-cn.ac.jp/admission/examination/schedule/"
 }
-]
+],
+"note": "大学公式「入学者選抜試験スケジュール」（令和8年7月27日更新）と令和9年度学校推薦型選抜A学生募集要項で確認"
 },
 "money": {
 "year": "2026年度確認（Kei-Net備考は2025年度額）",
@@ -113213,7 +113229,7 @@
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai-verified"
 },
 "岐阜薬科大学": {
 "faculties": [
@@ -113231,9 +113247,9 @@
 "fdiff": "2026-11-09",
 "methods": "2026-11-09",
 "ratios": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-16",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-16"
 },
 "departments": [
 {
@@ -113278,7 +113294,11 @@
 "https://manabi.benesse.ne.jp/daigaku/school/2125/nyushi/hoshiki/ippan/",
 "https://onikanri.singeki.com/gifu-yakka-daigaku-senmonjuku-guide/",
 "https://juku-times.com/juku/gifuyakka/gakubu-1/bairitsu/",
-"https://manabi.benesse.ne.jp/daigaku/school/2125/nyushi/bairitsu/yaku/"
+"https://manabi.benesse.ne.jp/daigaku/school/2125/nyushi/bairitsu/yaku/",
+"https://www.gifu-pu.ac.jp/admissions/undergrad/",
+"https://www.gifu-pu.ac.jp/admissions/undergrad/general/",
+"https://www.gifu-pu.ac.jp/campuslife/procedure/",
+"https://www.gifu-pu.ac.jp/news/2026/07/post-486.html"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -113341,15 +113361,40 @@
 "year": "2027年度入試",
 "rows": [
 {
-"kubun": "一般",
-"name": "一般選抜 中期日程",
-"apply": "",
-"exam": "3/8",
-"result": "",
+"kubun": "推薦",
+"name": "学校推薦型選抜A",
+"apply": "11/1〜11/8",
+"exam": "11/23",
+"result": "12/4",
 "proc": "",
-"note": "出願期間・合格発表日・手続期限および推薦日程は未取得。"
+"fee": 17000,
+"note": "募集人員30名。総合試験（英語・理科）と面接。出願は必着",
+"url": "https://www.gifu-pu.ac.jp/admissions/undergrad/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜B（共通テストのみ）",
+"apply": "1/18〜1/22",
+"exam": "なし（共通テスト）",
+"result": "2/9",
+"proc": "",
+"fee": 17000,
+"note": "募集人員12名。推薦Aで不合格でも出願可。出願は必着",
+"url": "https://www.gifu-pu.ac.jp/admissions/undergrad/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 公立中期日程",
+"apply": "1/25〜2/3",
+"exam": "3/8",
+"result": "3/20",
+"proc": "",
+"fee": 17000,
+"note": "募集人員78名。共通テスト1,050点＋個別（数学300・理科300）。令和9年度は本学のほか福岡市・さいたま市にも試験場。出願は必着",
+"url": "https://www.gifu-pu.ac.jp/admissions/undergrad/"
 }
-]
+],
+"note": "大学公式「学部入試」ページ（令和9年度）で確認。入学手続の日程はページに記載なし"
 },
 "money": {
 "year": "2026年度確認",
@@ -113372,7 +113417,7 @@
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai-verified"
 },
 "愛知県立大学": {
 "faculties": [
@@ -122866,7 +122911,7 @@
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-16",
 "money": "2026-11-10",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -122993,7 +123038,8 @@
 "proc": "3/23",
 "fee": null
 }
-]
+],
+"note": ""
 },
 "money": {
 "year": "2027年度",
@@ -123024,7 +123070,9 @@
 "https://passnavi.obunsha.co.jp/univ/4833/difficulty/",
 "https://search.keinet.ne.jp/2655/outline/department",
 "https://www.weblio.jp/content/%E8%87%B3%E8%AA%A0%E9%A4%A8%E5%A4%A7%E5%AD%A6",
-"https://search.keinet.ne.jp/2655/outline/expense"
+"https://search.keinet.ne.jp/2655/outline/expense",
+"https://manabi.benesse.ne.jp/daigaku/school/3820/nyushi/hoshiki/ippan/",
+"https://manabi.benesse.ne.jp/daigaku/school/3820/nyushi/hoshiki/sougou/"
 ],
 "students": {
 "count": 649,
@@ -124486,7 +124534,7 @@
 "departments": "2026-11-07",
 "difficulty": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-16",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -124540,8 +124588,72 @@
 "result": "3/10",
 "proc": "3/23",
 "fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用（2月日程）",
+"apply": "1/18〜1/29",
+"exam": "共通テスト",
+"result": "2/10",
+"proc": "3/4",
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用（3月日程）",
+"apply": "2/15〜2/26",
+"exam": "共通テスト",
+"result": "3/10",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制）",
+"apply": "11/2〜11/13",
+"exam": "11/21",
+"result": "12/1",
+"proc": "12/22",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜A",
+"apply": "9/3〜9/25",
+"exam": "10/3",
+"result": "11/2",
+"proc": "11/24",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜B",
+"apply": "11/24〜12/4",
+"exam": "12/12",
+"result": "12/16",
+"proc": "1/8",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜C",
+"apply": "2/15〜2/26",
+"exam": "3/6",
+"result": "3/10",
+"proc": "3/23",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜D",
+"apply": "3/8〜3/12",
+"exam": "3/20",
+"result": "3/23",
+"proc": "3/26",
+"fee": null
 }
-]
+],
+"note": "マナビジョン（2027年度入試）。管理栄養学科・臨床検査学科で同じ日程。検定料は出典に記載なし"
 },
 "money": {
 "year": "2026年度",
@@ -124575,7 +124687,8 @@
 "https://kochi-gu.ac.jp/",
 "https://manabi.benesse.ne.jp/daigaku/school/3864/nyushi/hoshiki/ippan/",
 "https://search.keinet.ne.jp/2691/outline/expense",
-"https://passnavi.obunsha.co.jp/univ/4887/top/"
+"https://passnavi.obunsha.co.jp/univ/4887/top/",
+"https://manabi.benesse.ne.jp/daigaku/school/3864/nyushi/"
 ]
 },
 "鳥取看護大学": {
