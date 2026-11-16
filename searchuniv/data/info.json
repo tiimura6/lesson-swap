@@ -29066,7 +29066,8 @@
 "https://passnavi.obunsha.co.jp/univ/0880/schedule/",
 "https://passnavi.obunsha.co.jp/univ/0880/expense/",
 "https://search.keinet.ne.jp/1440/outline/licential",
-"https://search.keinet.ne.jp/1440/outline/admission_employment"
+"https://search.keinet.ne.jp/1440/outline/admission_employment",
+"https://passnavi.obunsha.co.jp/univ/0880/schedule/?facultyID=020"
 ],
 "kyotsu": {
 "kamoku": "6教科8科目（前期・後期とも）〜6教科7科目（教育）",
@@ -29570,7 +29571,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-07",
+"schedule": "2026-11-16",
 "money": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
@@ -98023,7 +98024,8 @@
 "https://search.keinet.ne.jp/1380/outline/licential",
 "https://search.keinet.ne.jp/1380/outline/admission_employment",
 "https://search.keinet.ne.jp/1380/outline/department",
-"https://search.keinet.ne.jp/1380/general/exam_subject"
+"https://search.keinet.ne.jp/1380/general/exam_subject",
+"https://passnavi.obunsha.co.jp/univ/0760/eiken/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -98201,7 +98203,8 @@
 "licenses": "2026-11-15",
 "careers": "2026-11-15",
 "research": "2026-11-15",
-"kyotsu": "2026-11-15"
+"kyotsu": "2026-11-15",
+"eng": "2026-11-16"
 },
 "departments": [
 {
@@ -98473,6 +98476,40 @@
 "rl_text": "確認できた学部はR:L=4:1（例 R160:L40、医学科一般枠 R80:L20）",
 "note": "前期は文型・理型・選択型・6教科7科目が中心。農学部後期は3教科4科目。二段階選抜は医学科（約4倍）。ページの後半（医学科地域枠以降）は未確認",
 "year": "2027年度入試"
+},
+"eng": {
+"year": "2026年度入試",
+"rows": [
+{
+"kubun": "推薦",
+"name": "学校推薦型Ⅰ・Ⅱ",
+"use": "任意提出（参考）",
+"level": "級・スコアの指定なし",
+"tests": "英検・TEAP・IELTS",
+"faculties": "経済学部 経済学科（昼間コース）",
+"note": "「資格及び活動歴調査書」で英語検定などの顕著な実績を評価"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型Ⅱ",
+"use": "任意提出（参考）",
+"level": "級・スコアの指定なし",
+"tests": "英検・TEAP・IELTS",
+"faculties": "創造工学部 創造工学科、農学部 応用生物科学科",
+"note": "調査書の特記事項として資格・検定を評価"
+},
+{
+"kubun": "総合型",
+"name": "総合型Ⅰ",
+"use": "任意提出（参考）",
+"level": "級・スコアの指定なし",
+"tests": "英検・TEAP・IELTS",
+"faculties": "創造工学部 創造工学科",
+"note": "調査書の特記事項として資格を評価"
+}
+],
+"summary": "経済・創造工・農学部の推薦型（創造工は総合型も）で、英検などの資格を級やスコアの指定なしで参考として評価（パスナビ、2026年度の情報）。",
+"note": "パスナビ掲載は昨年度（2026年度）の情報。教育・法・医学部は情報なし（2026-11-16確認）"
 }
 },
 "高知大学": {
@@ -98532,7 +98569,8 @@
 "https://manabi.benesse.ne.jp/daigaku/school/1415/gakuhi/index.html",
 "https://passnavi.obunsha.co.jp/univ/0790/schedule/",
 "https://search.keinet.ne.jp/1395/outline/licential",
-"https://search.keinet.ne.jp/1395/general/exam_subject"
+"https://search.keinet.ne.jp/1395/general/exam_subject",
+"https://passnavi.obunsha.co.jp/univ/0790/eiken/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -98799,7 +98837,8 @@
 "money": "2026-11-09",
 "schedule": "2026-11-09",
 "licenses": "2026-11-15",
-"kyotsu": "2026-11-15"
+"kyotsu": "2026-11-15",
+"eng": "2026-11-16"
 },
 "departments": [
 {
@@ -99074,6 +99113,22 @@
 "rl_text": "教育学部以外はR:L=4:1（例 R160:L40、社会科学B選抜 R120:L30）、教育学部はR120:L80（3:2）",
 "note": "地域協働学部は3教科3科目、人文社会科学部 国際社会コースは5教科5科目。確認できた範囲では二段階選抜の記載なし。農林海洋科学部の農芸化学以降は未確認",
 "year": "2027年度入試"
+},
+"eng": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅰ",
+"use": "判定に利用",
+"level": "級・スコアの指定なし（英検は級合格またはCSEスコアが必要）",
+"tests": "英検・TEAP・IELTS",
+"faculties": "医学部 医学科",
+"note": "優遇対象は個別試験の第1次選抜"
+}
+],
+"summary": "医学部医学科の総合型選抜Ⅰで、英検・TEAP・IELTSを第1次選抜に使う（基準の指定はパスナビに記載なし）。",
+"note": "利用方法の詳細は募集要項で確認。ほかの学部はパスナビに情報なし（2026-11-16確認）"
 }
 },
 "鳥取大学": {
@@ -99148,7 +99203,8 @@
 "https://search.keinet.ne.jp/1340/recommend/exam_rec",
 "https://search.keinet.ne.jp/1340/recommend/exam_ao",
 "https://search.keinet.ne.jp/1340/outline/licential",
-"https://search.keinet.ne.jp/1340/outline/admission_employment"
+"https://search.keinet.ne.jp/1340/outline/admission_employment",
+"https://passnavi.obunsha.co.jp/univ/0680/eiken/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -99360,7 +99416,8 @@
 "qtrend": "2026-11-07",
 "schedule": "2026-11-11",
 "licenses": "2026-11-15",
-"careers": "2026-11-15"
+"careers": "2026-11-15",
+"eng": "2026-11-16"
 },
 "money": {
 "year": "2026年度",
@@ -99731,7 +99788,33 @@
 "看護師・保健師・助産師（受験資格）、養護教諭二種（医学部 保健学科 看護学専攻）",
 "臨床検査技師（受験資格）（医学部 保健学科 検査技術科学専攻）"
 ],
-"careers": "2024年度卒：地域学部は170人中150人が就職。工学部（4学科）は433人中230人が大学院などへ進学・196人が就職。農学部生命環境農学科は214人中124人が就職・65人が進学、共同獣医学科は35人中33人が就職。医学部保健学科は124人中115人が就職、生命科学科は38人中37人が進学（医学科は進路区分ではすべて「その他」）（Kei-Net）。"
+"careers": "2024年度卒：地域学部は170人中150人が就職。工学部（4学科）は433人中230人が大学院などへ進学・196人が就職。農学部生命環境農学科は214人中124人が就職・65人が進学、共同獣医学科は35人中33人が就職。医学部保健学科は124人中115人が就職、生命科学科は38人中37人が進学（医学科は進路区分ではすべて「その他」）（Kei-Net）。",
+"eng": {
+"year": "2026年度入試",
+"rows": [
+{
+"kubun": "推薦",
+"name": "学校推薦型Ⅰ（募集方法C）",
+"use": "出願資格",
+"level": "英検2級",
+"grade": "2級",
+"tests": "英検",
+"faculties": "農学部 生命環境農学科",
+"note": "CSEスコアが表示されているものが対象"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜",
+"use": "任意提出（参考）",
+"level": "級・スコアの指定なし",
+"tests": "英検・TEAP・IELTS",
+"faculties": "地域学部 地域学科、農学部 生命環境農学科",
+"note": ""
+}
+],
+"summary": "農学部の学校推薦型Ⅰ（募集方法C）で英検2級を出願の資格とし、地域学部・農学部の総合型では級やスコアの指定なしで参考にする（パスナビ、2026年度の情報）。",
+"note": "パスナビ掲載は昨年度（2026年度）の情報。医学部・工学部は情報なし（2026-11-16確認）"
+}
 },
 "鳴門教育大学": {
 "faculties": [
@@ -99758,7 +99841,8 @@
 "https://search.keinet.ne.jp/1375/outline/expense",
 "https://search.keinet.ne.jp/1375/recommend/exam_rec",
 "https://search.keinet.ne.jp/1375/general/exam_changes",
-"https://search.keinet.ne.jp/1375/general/exam_subject"
+"https://search.keinet.ne.jp/1375/general/exam_subject",
+"https://passnavi.obunsha.co.jp/univ/0750/eiken/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -99800,7 +99884,8 @@
 "ratios": "2026-11-06",
 "money": "2026-11-09",
 "schedule": "2026-11-11",
-"kyotsu": "2026-11-15"
+"kyotsu": "2026-11-15",
+"eng": "2026-11-16"
 },
 "departments": [
 {
@@ -99955,6 +100040,12 @@
 "rl_text": "全専修・コースでR:L=1:1（R100:L100）",
 "note": "前期は幼児教育・小学校教育・中学校教育・特別支援教育、後期は小学校教育・中学校教育のみ。二段階選抜の記載なし。理科・地歴公民の組み合わせは募集要項で確認",
 "year": "2027年度入試"
+},
+"eng": {
+"year": "2027年度入試",
+"rows": [],
+"summary": "記載なし（利用しないとは限らない）",
+"note": "パスナビの英検・TEAP・IELTS利用入試のページに情報なし（学校教育学部）（2026-11-16確認）"
 }
 },
 "九州工業大学": {
@@ -99985,7 +100076,8 @@
 "https://search.keinet.ne.jp/1415/outline/expense",
 "https://www.kyutech.ac.jp/archives/015/202606/R9_senbatsuyoko.pdf",
 "https://search.keinet.ne.jp/1415/general/exam_subject",
-"https://search.keinet.ne.jp/1415/outline/admission_employment"
+"https://search.keinet.ne.jp/1415/outline/admission_employment",
+"https://passnavi.obunsha.co.jp/univ/0840/eiken/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -100126,7 +100218,8 @@
 "money": "2026-11-09",
 "schedule": "2026-11-09",
 "kyotsu": "2026-11-15",
-"careers": "2026-11-15"
+"careers": "2026-11-15",
+"eng": "2026-11-16"
 },
 "departments": [
 {
@@ -100324,7 +100417,64 @@
 "note": "工学部5類・情報工学部4類とも前期・後期を実施。二段階選抜なし",
 "year": "2027年度入試"
 },
-"careers": "2024年度学士課程卒業者899人のうち進学607人・就職276人（Kei-Net の学科別表から集計）。工学部は機械知能工学科で126人中94人、マテリアル工学科で53人中46人が進学するなど、学部卒業者の約3分の2が大学院へ進む。修士課程（工学府・情報工学府など）の修了者は大半が就職。"
+"careers": "2024年度学士課程卒業者899人のうち進学607人・就職276人（Kei-Net の学科別表から集計）。工学部は機械知能工学科で126人中94人、マテリアル工学科で53人中46人が進学するなど、学部卒業者の約3分の2が大学院へ進む。修士課程（工学府・情報工学府など）の修了者は大半が就職。",
+"eng": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜",
+"use": "得点換算",
+"level": "英検CSE1670〜2304・TEAP115〜309・IELTS1.5〜5.5を12段階で換算（150〜15点）",
+"cse": 1670,
+"tests": "英検・TEAP・IELTS",
+"faculties": "工学部 工学科、情報工学部 情報工学科",
+"note": "個別試験の適性検査（英語）に換算"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅰ",
+"use": "得点換算",
+"level": "英検CSE1670〜2304などを12段階で換算（120〜12点）",
+"cse": 1670,
+"tests": "英検・TEAP・IELTS",
+"faculties": "工学部 工学科、情報工学部 情報工学科",
+"note": "個別試験の適性検査（英語）に換算"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅱ",
+"use": "得点換算",
+"level": "英検CSE1670〜2304などを12段階で換算（250〜25点）",
+"cse": 1670,
+"tests": "英検・TEAP・IELTS",
+"faculties": "工学部 工学科、情報工学部 情報工学科",
+"note": "共通テストの外国語に換算"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（前期日程）",
+"use": "得点換算",
+"level": "英検CSE1670（3級以上）〜2304を12段階で換算（250〜25点）",
+"cse": 1670,
+"tests": "英検・TEAP・IELTS",
+"faculties": "工学部 工学科、情報工学部 情報工学科",
+"note": "共通テストの外国語に換算。2026年度の情報"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（後期日程）",
+"use": "得点換算",
+"level": "英検CSE1670（3級以上）〜2304を12段階で換算（200〜20点）",
+"cse": 1670,
+"tests": "英検・TEAP・IELTS",
+"faculties": "工学部 工学科、情報工学部 情報工学科",
+"note": "共通テストの外国語に換算。2026年度の情報"
+}
+],
+"summary": "工学部・情報工学部の推薦・総合型・一般（前期・後期）で、英検CSE・TEAP・IELTSのスコアを12段階で得点に換算する（最上位は英検CSE2304・TEAP309・IELTS5.5、最下位はCSE1670・TEAP115・IELTS1.5）。",
+"note": "推薦・総合型は2027年度、一般選抜はパスナビ掲載が昨年度（2026年度）の情報。換算の対象は推薦・総合Ⅰが適性検査（英語）、総合Ⅱ・一般が共通テストの外国語（2026-11-16確認）"
+}
 },
 "佐賀大学": {
 "difficulty": {
@@ -100346,7 +100496,8 @@
 "qtrend": "2026-11-07",
 "schedule": "2026-11-09",
 "money": "2026-11-09",
-"kyotsu": "2026-11-15"
+"kyotsu": "2026-11-15",
+"eng": "2026-11-16"
 },
 "faculties": [
 "経済学部",
@@ -100441,7 +100592,8 @@
 "https://search.keinet.ne.jp/1425/general/border_rate",
 "https://www.sao.saga-u.ac.jp/PDF/R9/2027senbatuyoko.pdf",
 "https://search.keinet.ne.jp/1425/outline/expense",
-"https://search.keinet.ne.jp/1425/general/exam_subject"
+"https://search.keinet.ne.jp/1425/general/exam_subject",
+"https://passnavi.obunsha.co.jp/univ/0850/eiken/"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -100698,6 +100850,42 @@
 "rl_text": "確認できた学部はR:L=3:1（例 R150:L50）",
 "note": "経済学部・教育学部・理工学部の一部を確認（経済後期は5教科6科目）。農学部・芸術地域デザイン学部・医学部は未確認",
 "year": "2027年度入試"
+},
+"eng": {
+"year": "2026年度入試",
+"rows": [
+{
+"kubun": "一般",
+"name": "一般選抜（前期・後期）",
+"use": "得点換算",
+"level": "英検CSE2250／2150／2050・TEAP270／235／220で共テ英語の90％／80％／70％に換算",
+"cse": 2050,
+"tests": "英検・TEAP",
+"faculties": "全学部（医学部医学科は前期のみ）",
+"note": "英検は2級以上を4技能で受験。共テ英語の得点率50％以上で、換算点が共テより高い場合に換算点を採用"
+},
+{
+"kubun": "総合型",
+"name": "総合型Ⅰ",
+"use": "みなし満点",
+"level": "英検CSE2050・TEAP220",
+"cse": 2050,
+"tests": "英検・TEAP",
+"faculties": "教育学部 小中連携教育コース〔英語分野〕",
+"note": ""
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型Ⅰ（商業系）",
+"use": "加点",
+"level": "級・スコアの指定なし（最大40点）",
+"tests": "英検・TEAP・IELTS",
+"faculties": "経済学部 経済学科・経営学科",
+"note": "優遇対象は総点"
+}
+],
+"summary": "一般選抜（前期・後期）は全学部で英検CSE・TEAPのスコアを共テ英語の得点（90％・80％・70％）に換算し、共テより高ければ換算点を使う（パスナビ、2026年度の情報）。",
+"note": "パスナビ掲載は昨年度（2026年度）の情報。医学部医学科の後期は情報なし（2026-11-16確認）"
 }
 },
 "大分大学": {
@@ -100719,7 +100907,8 @@
 "money": "2026-11-09",
 "schedule": "2026-11-09",
 "kyotsu": "2026-11-15",
-"careers": "2026-11-15"
+"careers": "2026-11-15",
+"eng": "2026-11-16"
 },
 "faculties": [
 "福祉健康科学部",
@@ -100806,7 +100995,8 @@
 "https://search.keinet.ne.jp/1445/outline/expense",
 "https://passnavi.obunsha.co.jp/univ/0890/schedule/",
 "https://search.keinet.ne.jp/1445/general/exam_subject",
-"https://search.keinet.ne.jp/1445/outline/admission_employment"
+"https://search.keinet.ne.jp/1445/outline/admission_employment",
+"https://passnavi.obunsha.co.jp/univ/0890/eiken/"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -101000,7 +101190,24 @@
 "note": "二段階選抜は福祉健康科学部（前期3倍・後期10倍）。理工学部の一部後期と医学部は未確認",
 "year": "2027年度入試"
 },
-"careers": "2024年度学士課程卒業者（医学科を除く）975人のうち進学190人・就職754人（Kei-Net の学科別表から集計）。理工学部は創生工学科の42.4%・共創理工学科の37.7%が進学。教育学部（教員養成）は卒業者129人のうち教員就職106人（82.2%、正規101人・臨時的任用5人）。"
+"careers": "2024年度学士課程卒業者（医学科を除く）975人のうち進学190人・就職754人（Kei-Net の学科別表から集計）。理工学部は創生工学科の42.4%・共創理工学科の37.7%が進学。教育学部（教員養成）は卒業者129人のうち教員就職106人（82.2%、正規101人・臨時的任用5人）。",
+"eng": {
+"year": "2026年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅰ（英語資格）",
+"use": "出願資格",
+"level": "英検2級",
+"grade": "2級",
+"tests": "英検",
+"faculties": "経済学部 総合経済学科",
+"note": ""
+}
+],
+"summary": "経済学部の総合型選抜Ⅰ（英語資格）で英検2級を出願の資格とする（パスナビ、2026年度の情報）。",
+"note": "パスナビ掲載は昨年度（2026年度）の情報。教育・医・理工・福祉健康科学部は情報なし（2026-11-16確認）"
+}
 },
 "宮崎大学": {
 "faculties": [
@@ -101023,7 +101230,8 @@
 "qtrend": "2026-11-07",
 "schedule": "2026-11-09",
 "money": "2026-11-09",
-"kyotsu": "2026-11-15"
+"kyotsu": "2026-11-15",
+"eng": "2026-11-16"
 },
 "departments": [
 {
@@ -101092,7 +101300,8 @@
 "https://search.keinet.ne.jp/1455/outline/admission_employment",
 "https://www.miyazaki-u.ac.jp/exam/R9_senbatsuyoukou2027.pdf",
 "https://search.keinet.ne.jp/1455/outline/expense",
-"https://search.keinet.ne.jp/1455/general/exam_subject"
+"https://search.keinet.ne.jp/1455/general/exam_subject",
+"https://passnavi.obunsha.co.jp/univ/0910/eiken/"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -101317,6 +101526,42 @@
 "rl_text": "学部で異なる（地域資源創成1:1、教育・医学部4:1、工学部4:1、農学科3:1、獣医学科 前期7:3・後期2:1）",
 "note": "二段階選抜は医学科（前期6倍・後期14倍）。工学部後期は5教科7科目",
 "year": "2027年度入試"
+},
+"eng": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅰ（応用生命化学コース）",
+"use": "みなし満点",
+"level": "英検2級",
+"grade": "2級",
+"tests": "英検",
+"faculties": "農学部 農学科 応用生命化学コース",
+"note": "個別試験の英語の筆記試験を換算・満点扱い"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅰ・Ⅱ",
+"use": "任意提出（参考）",
+"level": "級・スコアの指定なし",
+"tests": "英検・TEAP・IELTS",
+"faculties": "工学部 工学科（土木環境・半導体サイエンス・電気電子システム）、農学部 農学科（動植物資源生命科学・森林環境持続性科学・海洋生命科学など）",
+"note": "工学部は総合型Ⅰ"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（前期日程）",
+"use": "みなし満点",
+"level": "英検2級",
+"grade": "2級",
+"tests": "英検",
+"faculties": "工学部 工学科",
+"note": "個別試験の英語を換算・満点扱い。2026年度の情報"
+}
+],
+"summary": "農学部応用生命化学コースの総合型Ⅰと工学部の一般選抜（前期）で、英検2級により個別試験の英語を満点扱い（換算）にする。ほかの総合型では級やスコアの指定なしで参考にする。",
+"note": "総合型は2027年度、一般選抜はパスナビ掲載が昨年度（2026年度）の情報。教育・医・地域資源創成学部は情報なし（2026-11-16確認）"
 }
 },
 "琉球大学": {
@@ -101338,7 +101583,8 @@
 "ratios": "2026-11-06",
 "schedule": "2026-11-09",
 "money": "2026-11-09",
-"kyotsu": "2026-11-15"
+"kyotsu": "2026-11-15",
+"eng": "2026-11-16"
 },
 "faculties": [
 "人文社会学部",
@@ -101438,7 +101684,8 @@
 "https://search.keinet.ne.jp/1475/outline/admission_employment",
 "https://www.u-ryukyu.ac.jp/wp-content/uploads/2026/08/R9nyushinittei.pdf",
 "https://search.keinet.ne.jp/1475/outline/expense",
-"https://search.keinet.ne.jp/1475/general/exam_subject"
+"https://search.keinet.ne.jp/1475/general/exam_subject",
+"https://passnavi.obunsha.co.jp/univ/0950/eiken/"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -101687,6 +101934,23 @@
 "rl_text": "ほとんどの学部でR:L=1:1（教育学部社会科教育はR150:L50）",
 "note": "後期の一部（国際法政・国際地域創造夜間主・工学部・農学部）は4〜5教科。二段階選抜は医学科（前期5倍・後期10倍）",
 "year": "2027年度入試"
+},
+"eng": {
+"year": "2027年度入試",
+"rows": [
+{
+"kubun": "推薦",
+"name": "学校推薦型Ⅰ（英語重視）",
+"use": "出願資格",
+"level": "英検準1級",
+"grade": "準1級",
+"tests": "英検",
+"faculties": "教育学部 学校教育教員養成課程 中学校教育コース 英語教育専修",
+"note": ""
+}
+],
+"summary": "教育学部の英語教育専修の学校推薦型Ⅰ（英語重視）で英検準1級を出願の資格とする。",
+"note": "ほかの学部・入試区分はパスナビに情報なし（2026-11-16確認）"
 }
 },
 "福岡教育大学": {
@@ -101708,7 +101972,8 @@
 "money": "2026-11-09",
 "schedule": "2026-11-09",
 "kyotsu": "2026-11-15",
-"careers": "2026-11-15"
+"careers": "2026-11-15",
+"eng": "2026-11-16"
 },
 "faculties": [
 "教育学部"
@@ -101771,7 +102036,8 @@
 "https://search.keinet.ne.jp/1420/outline/expense",
 "https://passnavi.obunsha.co.jp/univ/0810/schedule/",
 "https://search.keinet.ne.jp/1420/general/exam_subject",
-"https://search.keinet.ne.jp/1420/outline/admission_employment"
+"https://search.keinet.ne.jp/1420/outline/admission_employment",
+"https://passnavi.obunsha.co.jp/univ/0810/eiken/"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -101916,7 +102182,13 @@
 "note": "二段階選抜の記載なし。理数教育・中等数学・理科は理型、人文・社会教育は文型、それ以外の多くは選択型",
 "year": "2027年度入試"
 },
-"careers": "2024年度卒業者613人（初等389人・中等163人・特別支援61人）のうち就職553人・進学30人（Kei-Net の課程別表から集計）。教員養成学部の集計では卒業者594人のうち教員就職461人（77.6%、正規383人・臨時的任用78人）、教員・保育士以外への就職12.6%、大学院等進学4.2%。"
+"careers": "2024年度卒業者613人（初等389人・中等163人・特別支援61人）のうち就職553人・進学30人（Kei-Net の課程別表から集計）。教員養成学部の集計では卒業者594人のうち教員就職461人（77.6%、正規383人・臨時的任用78人）、教員・保育士以外への就職12.6%、大学院等進学4.2%。",
+"eng": {
+"year": "2027年度入試",
+"rows": [],
+"summary": "記載なし（利用しないとは限らない）",
+"note": "パスナビの英検・TEAP・IELTS利用入試のページに情報なし（教育学部）（2026-11-16確認）"
+}
 },
 "長崎大学": {
 "difficulty": {
