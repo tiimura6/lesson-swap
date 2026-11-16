@@ -113439,9 +113439,9 @@
 "methods": "2026-11-09",
 "ratios": "2026-11-09",
 "fdiff": "2026-11-09",
-"schedule": "2026-11-09",
-"money": "2026-11-09",
-"_via": "2026-11-09"
+"schedule": "2026-11-16",
+"money": "2026-11-16",
+"_via": "2026-11-16"
 },
 "departments": [
 {
@@ -113529,7 +113529,9 @@
 "https://passnavi.obunsha.co.jp/univ/1130/bairitsu/",
 "https://aoskillpass.com/nyushi/aichi-prefectural-recommendation-admission-ratio-2026/",
 "https://manabi.benesse.ne.jp/daigaku/school/2135/nyushi/bairitsu/",
-"https://passnavi.obunsha.co.jp/univ/1130/schedule/"
+"https://passnavi.obunsha.co.jp/univ/1130/schedule/",
+"https://www.aichi-pu.ac.jp/prospective/undergraduate/schedule.html",
+"https://www.aichi-pu.ac.jp/campus_life/fee.html"
 ],
 "methods": {
 "year": "2027年度入試",
@@ -113725,7 +113727,9 @@
 "exam": "1/16・17（共テ）、2/25（個別）",
 "result": "3/8",
 "proc": "",
-"note": "手続締切および推薦・総合型の日程は未取得。"
+"note": "実施：外国語・日本文化・教育福祉・看護・情報科学。入学手続締切は公式日程ページに記載なし（募集要項で確認）。",
+"fee": 17000,
+"url": "https://www.aichi-pu.ac.jp/prospective/undergraduate/schedule.html"
 },
 {
 "kubun": "一般",
@@ -113734,7 +113738,9 @@
 "exam": "1/16・17（共テ）、3/12（個別）",
 "result": "3/23",
 "proc": "",
-"note": "手続締切は未取得。"
+"note": "入学手続締切は公式日程ページに記載なし。",
+"fee": 17000,
+"url": "https://www.aichi-pu.ac.jp/prospective/undergraduate/schedule.html"
 },
 {
 "kubun": "一般",
@@ -113743,9 +113749,56 @@
 "exam": "1/16・17（共テ）",
 "result": "3/23",
 "proc": "",
-"note": "教育福祉学部社会福祉学科など共テのみで判定する方式。手続締切は未取得。"
+"note": "教育福祉学部社会福祉学科など共テのみで判定する方式。入学手続締切は公式日程ページに記載なし。",
+"fee": 17000,
+"url": "https://www.aichi-pu.ac.jp/prospective/undergraduate/schedule.html"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（共通テストを課さない・愛知県内枠）",
+"apply": "11/2〜11/9",
+"exam": "11/28（第1次）・12/12（第2次）",
+"result": "12/7（第1次）・12/22（第2次）",
+"proc": "",
+"fee": 17000,
+"note": "外国語・日本文化・教育福祉・看護で実施。第2次は日本文化・教育福祉（外国語・看護は第1次で最終合格）",
+"url": "https://www.aichi-pu.ac.jp/prospective/undergraduate/schedule.html"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（共通テストを課さない・全国枠）",
+"apply": "11/2〜11/9",
+"exam": "11/28",
+"result": "12/7",
+"proc": "",
+"fee": 17000,
+"note": "外国語学部で実施",
+"url": "https://www.aichi-pu.ac.jp/prospective/undergraduate/schedule.html"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（共通テストを課す・愛知県内枠／全国枠）",
+"apply": "1/19〜1/25",
+"exam": "2/6",
+"result": "2/10",
+"proc": "",
+"fee": 17000,
+"note": "県内枠は情報科学、全国枠は教育福祉（教育発達学科保育幼児教育コース）・看護・情報科学",
+"url": "https://www.aichi-pu.ac.jp/prospective/undergraduate/schedule.html"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（教育発達学科小学校教育コース）",
+"apply": "1/19〜1/25",
+"exam": "2/6",
+"result": "2/10",
+"proc": "",
+"fee": 17000,
+"note": "教育福祉学部で実施",
+"url": "https://www.aichi-pu.ac.jp/prospective/undergraduate/schedule.html"
 }
-]
+],
+"note": "大学公式「入試日程」（令和9年度）で確認。入学手続期間は日程ページに記載なし"
 },
 "money": {
 "year": "2026年度確認",
@@ -113753,7 +113806,7 @@
 "total4_note": "入学金282,000円＋授業料年額535,800円×4年（保険料等別）",
 "admission": 282000,
 "annual": 535800,
-"note": "Kei-Net情報（大学公式サイトの学費ページは未取得）。Kei-Netの学費情報では県内・県外の入学金差の記載はなく一律282,000円。保険料は看護学部以外4,660円、看護学部5,370円で、初年度合計はそれぞれ822,460円、823,170円。",
+"note": "大学公式「学費」ページ（令和7年度入学者の表示）で入学料282,000円・授業料年額535,800円・検定料17,000円を確認（県内外の区別の記載なし）。Kei-Netの学費情報では県内・県外の入学金差の記載はなく一律282,000円。保険料は看護学部以外4,660円、看護学部5,370円で、初年度合計はそれぞれ822,460円、823,170円。",
 "rows": [
 {
 "f": "外国語学部・日本文化学部・教育福祉学部・情報科学部",
@@ -113779,7 +113832,7 @@
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai-verified"
 },
 "愛知県立芸術大学": {
 "faculties": [
@@ -113797,9 +113850,9 @@
 "fdiff": "2026-11-09",
 "methods": "2026-11-09",
 "ratios": "2026-11-09",
-"schedule": "2026-11-09",
-"money": "2026-11-09",
-"_via": "2026-11-09",
+"schedule": "2026-11-16",
+"money": "2026-11-16",
+"_via": "2026-11-16",
 "licenses": "2026-11-15"
 },
 "departments": [
@@ -113875,7 +113928,8 @@
 "https://manabi.benesse.ne.jp/daigaku/school/2145/nyushi/bairitsu/bijutsu/",
 "https://manabi.benesse.ne.jp/daigaku/school/2145/nyushi/bairitsu/ongaku/",
 "https://www.aichi-fam-u.ac.jp/admission/item/3e26428ce0d5977546fb6bb66f1180414314ebee.pdf",
-"https://search.keinet.ne.jp/1580/outline/licential"
+"https://search.keinet.ne.jp/1580/outline/licential",
+"https://www.aichi-fam-u.ac.jp/admission/item/2d76d65650ffb4b1efd222b7d60a5c9f60636aa0.pdf"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -114180,7 +114234,9 @@
 "exam": "1/16・17（共テ）、3/10〜3/18（個別）",
 "result": "3/21",
 "proc": "3/27",
-"note": "美術学部は3/12〜3/18、音楽学部は3/10〜3/15（専攻・1次/2次/3次により異なる）"
+"note": "後期日程。美術学部は3/12〜3/18（第1次合格発表3/16）、音楽学部は3/10〜3/15（第1次合格発表3/14、音楽の基礎的能力試験3/15）。入学手続は3/27 10:00〜15:00",
+"fee": 17000,
+"url": "https://www.aichi-fam-u.ac.jp/admission/item/2027IPPAN.pdf"
 },
 {
 "kubun": "総合型",
@@ -114188,8 +114244,10 @@
 "apply": "10/28〜11/4",
 "exam": "11/28〜11/29",
 "result": "12/7",
-"proc": "12/18",
-"note": "第1次審査（書類審査）合格発表11/19（該当専攻）。美術5専攻および音楽（作曲コース・声楽）で実施"
+"proc": "12/14〜12/18",
+"note": "第1次選考（書類）合格発表11/19。美術（日本画・彫刻・陶磁・メディア映像は11/28、デザインは11/29）と音楽（作曲コース・声楽）で実施",
+"fee": 17000,
+"url": "https://www.aichi-fam-u.ac.jp/admission/item/7d409b4d25f678f3b55c706a7908867286058cbf.pdf"
 },
 {
 "kubun": "推薦",
@@ -114197,95 +114255,98 @@
 "apply": "10/28〜11/4",
 "exam": "11/28〜11/29",
 "result": "12/7",
-"proc": "12/18",
-"note": "音楽学部（音楽学コース、器楽・弦楽器・管打楽器等）で実施"
+"proc": "12/14〜12/18",
+"note": "第1次審査（書類）合格発表11/19。音楽学部（音楽学コース、弦楽器・管打楽器コース）で実施",
+"fee": 17000,
+"url": "https://www.aichi-fam-u.ac.jp/admission/item/2d76d65650ffb4b1efd222b7d60a5c9f60636aa0.pdf"
 }
-]
+],
+"note": "大学公式の令和9年度一般選抜・総合型選抜・学校推薦型選抜の学生募集要項で確認"
 },
 "money": {
-"year": "",
+"year": "2027年度入学者（教材費等）",
 "total4": 2425200,
 "total4_note": "入学金（県内・県外同額）＋授業料4年分（設備/実習/諸会費等・保険料・後援会費等は別途）",
 "admission": 282000,
 "annual": 535800,
-"note": "大学公式案内より入学料・授業料ともに県内/県外の差はなし。保険料4,660円（4年間分）が必要（公式学費ページには後援会費・学部生10,000円等の記載もあり）。rowsのother欄はKei-Net記載の「設備/実習/諸会費等」と保険料4,660円の合算額（内訳・2年次以降の継続有無は未確認のためfacility/practical/four_yearはnull）。掲載年度表記は未取得だが2026年1月発行の公式募集要項でも入学料282,000円・授業料年額535,800円を確認。",
+"note": "大学公式「学費」ページで入学料282,000円・授業料年額535,800円・検定料17,000円（県内外の差の記載なし）を確認。入学時諸費用として両学部共通で芸術祭・五芸祭費・学生会27,000円、保険料4,660円（4年間分）、後援会費10,000円、同窓会費20,000円。美術学部の教材費等は公式（令和9年度入学者）の値に更新（外部AI由来のKei-Net値から変更）。",
 "rows": [
 {
 "f": "美術学部 美術科（日本画専攻）",
 "admission": 282000,
 "tuition": 535800,
 "facility": null,
-"practical": null,
-"other": 354660,
-"first_year": 1172460,
+"practical": 350000,
+"other": 4660,
+"first_year": 822460,
 "four_year": null,
-"note": "設備/実習/諸会費等350,000円＋保険料4,660円（4年間分）"
+"note": "practicalは大学公式「美術学部の教材費等（令和9年度入学者）」の4年間の合計350,000円（教材費（1年次）250,000円＋古美術研究旅行費（3年次）100,000円）。年次ごとに納めるため初年度合計（入学料＋授業料＋保険料）には含めていない"
 },
 {
 "f": "美術学部 美術科（油画専攻）",
 "admission": 282000,
 "tuition": 535800,
 "facility": null,
-"practical": null,
-"other": 164660,
-"first_year": 982460,
+"practical": 165000,
+"other": 4660,
+"first_year": 822460,
 "four_year": null,
-"note": "設備/実習/諸会費等160,000円＋保険料4,660円（4年間分）"
+"note": "practicalは大学公式「美術学部の教材費等（令和9年度入学者）」の4年間の合計165,000円（古美術研究旅行費100,000円＋基礎実技実習費65,000円）。年次ごとに納めるため初年度合計（入学料＋授業料＋保険料）には含めていない"
 },
 {
 "f": "美術学部 美術科（彫刻専攻）",
 "admission": 282000,
 "tuition": 535800,
 "facility": null,
-"practical": null,
-"other": 404660,
-"first_year": 1222460,
+"practical": 400000,
+"other": 4660,
+"first_year": 822460,
 "four_year": null,
-"note": "設備/実習/諸会費等400,000円＋保険料4,660円（4年間分）"
+"note": "practicalは大学公式「美術学部の教材費等（令和9年度入学者）」の4年間の合計400,000円（古美術研究旅行費120,000円＋教材費（1・2年次）280,000円）。年次ごとに納めるため初年度合計（入学料＋授業料＋保険料）には含めていない"
 },
 {
 "f": "美術学部 美術科（芸術学専攻）",
 "admission": 282000,
 "tuition": 535800,
 "facility": null,
-"practical": null,
-"other": 104660,
-"first_year": 922460,
+"practical": 100000,
+"other": 4660,
+"first_year": 822460,
 "four_year": null,
-"note": "設備/実習/諸会費等100,000円＋保険料4,660円（4年間分）"
+"note": "practicalは大学公式「美術学部の教材費等（令和9年度入学者）」の4年間の合計100,000円（古美術研究旅行費（3年次））。年次ごとに納めるため初年度合計（入学料＋授業料＋保険料）には含めていない"
 },
 {
 "f": "美術学部 デザイン・工芸科（デザイン専攻）",
 "admission": 282000,
 "tuition": 535800,
 "facility": null,
-"practical": null,
-"other": 114660,
-"first_year": 932460,
+"practical": 200000,
+"other": 4660,
+"first_year": 822460,
 "four_year": null,
-"note": "設備/実習/諸会費等110,000円＋保険料4,660円（4年間分）"
+"note": "practicalは大学公式「美術学部の教材費等（令和9年度入学者）」の4年間の合計200,000円（教材費（1〜4年次）。別途デザイン関連機器（ノートPC等）を1年次に各自用意（約50万円〜））。年次ごとに納めるため初年度合計（入学料＋授業料＋保険料）には含めていない"
 },
 {
 "f": "美術学部 デザイン・工芸科（陶磁専攻）",
 "admission": 282000,
 "tuition": 535800,
 "facility": null,
-"practical": null,
-"other": 324660,
-"first_year": 1142460,
+"practical": 550000,
+"other": 4660,
+"first_year": 822460,
 "four_year": null,
-"note": "設備/実習/諸会費等320,000円＋保険料4,660円（4年間分）"
+"note": "practicalは大学公式「美術学部の教材費等（令和9年度入学者）」の4年間の合計550,000円（学外研究旅行費（3年次）200,000円、道具代80,000円、原材料費（1〜4年次）270,000円）。年次ごとに納めるため初年度合計（入学料＋授業料＋保険料）には含めていない"
 },
 {
 "f": "美術学部 デザイン・工芸科（メディア映像専攻）",
 "admission": 282000,
 "tuition": 535800,
 "facility": null,
-"practical": null,
-"other": 184660,
-"first_year": 1002460,
+"practical": 230000,
+"other": 4660,
+"first_year": 822460,
 "four_year": null,
-"note": "設備/実習/諸会費等180,000円＋保険料4,660円（4年間分）"
+"note": "practicalは大学公式「美術学部の教材費等（令和9年度入学者）」の4年間の合計230,000円（研究教材費（1〜4年次））。年次ごとに納めるため初年度合計（入学料＋授業料＋保険料）には含めていない"
 },
 {
 "f": "音楽学部",
@@ -114300,7 +114361,7 @@
 }
 ]
 },
-"_via": "external-ai",
+"_via": "external-ai-verified",
 "licenses": [
 "中学校教諭一種（美術）、高等学校教諭一種（美術・工芸）、学芸員（資格）（美術学部 美術科・デザイン・工芸科〈メディア映像専攻は工芸を除く〉）",
 "中学校教諭一種（音楽）、高等学校教諭一種（音楽）、学芸員（資格）（音楽学部 作曲・声楽・器楽）"
@@ -130005,7 +130066,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-16",
 "money": "2026-11-10",
 "scholar": "2026-11-07",
 "access": "2026-11-07",
@@ -130112,13 +130173,55 @@ null
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "総合型",
+"name": "総合型選抜（前期）",
+"apply": "10/23〜11/7",
+"exam": "11/15",
+"result": "11/21",
+"proc": "",
+"fee": 20000,
+"url": "https://www.yasuda-u.ac.jp/admissions/exam/system/"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（後期）",
+"apply": "12/1〜12/14",
+"exam": "12/20",
+"result": "12/25",
+"proc": "",
+"fee": 20000,
+"url": "https://www.yasuda-u.ac.jp/admissions/exam/system/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（指定校・前期）",
+"apply": "11/1〜11/7",
+"exam": "11/15",
+"result": "12/1",
+"proc": "",
+"fee": 20000,
+"url": "https://www.yasuda-u.ac.jp/admissions/exam/system/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（指定校・後期）",
+"apply": "12/1〜12/14",
+"exam": "12/20",
+"result": "12/25",
+"proc": "",
+"fee": 20000,
+"url": "https://www.yasuda-u.ac.jp/admissions/exam/system/"
+},
+{
 "kubun": "一般",
 "name": "一般選抜 前期（A・B・C日程）",
 "apply": "1/4〜1/20",
 "exam": "2/1（A）・2/3（B）・2/4（C）",
 "result": "2/13",
 "proc": "1次2/19・2次3/10",
-"fee": 20000
+"fee": 20000,
+"url": "https://www.yasuda-u.ac.jp/admissions/exam/system/",
+"note": "検定料は1日程20,000円、2・3日程30,000円"
 },
 {
 "kubun": "一般",
@@ -130127,7 +130230,8 @@ null
 "exam": "3/10",
 "result": "3/16",
 "proc": "3/23",
-"fee": 20000
+"fee": 20000,
+"url": "https://www.yasuda-u.ac.jp/admissions/exam/system/"
 },
 {
 "kubun": "共テ利用",
@@ -130136,7 +130240,8 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "2/13",
 "proc": "1次2/19・2次3/10",
-"fee": 10000
+"fee": 10000,
+"url": "https://www.yasuda-u.ac.jp/admissions/exam/system/"
 },
 {
 "kubun": "共テ利用",
@@ -130145,9 +130250,11 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "3/16",
 "proc": "3/23",
-"fee": 10000
+"fee": 10000,
+"url": "https://www.yasuda-u.ac.jp/admissions/exam/system/"
 }
-]
+],
+"note": "大学公式「入試制度」で確認（一般・共テ利用は既存と一致）。入学手続締切は入学手続要項による"
 },
 "money": {
 "year": "2027年度",
@@ -132469,7 +132576,7 @@ null
 "faculties": "2026-11-07",
 "departments": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-16",
 "money": "2026-11-10",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -132504,24 +132611,49 @@ null
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "総合型",
+"name": "総合型選抜",
+"apply": "9/9〜3/11",
+"exam": "10/1〜3/18",
+"result": "11/2以降随時発送",
+"proc": "",
+"url": "https://www.eum.ac.jp/entrance_examination/schedule/",
+"note": "募集人員5人"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜",
+"apply": "11/2〜11/9",
+"exam": "11/23〜11/25",
+"result": "12/1発送",
+"proc": "",
+"url": "https://www.eum.ac.jp/entrance_examination/schedule/",
+"note": "募集人員25人"
+},
+{
 "kubun": "一般",
-"name": "春季入学試験 第1回",
+"name": "一般選抜 前期",
 "apply": "1/6〜1/13",
 "exam": "2/15・2/16",
 "result": "2/20",
 "proc": "3/1",
-"fee": 20000
+"fee": 20000,
+"note": "合格発表は2/20発送",
+"url": "https://www.eum.ac.jp/entrance_examination/schedule/"
 },
 {
 "kubun": "一般",
-"name": "春季入学試験 第2回",
+"name": "一般選抜 後期",
 "apply": "2/17〜2/24",
 "exam": "3/17・3/18",
 "result": "3/19",
 "proc": "3/25",
-"fee": 20000
+"fee": 20000,
+"note": "合格発表は3/19 13:00掲示予定",
+"url": "https://www.eum.ac.jp/entrance_examination/schedule/"
 }
-]
+],
+"note": "大学公式「入学定員・入学試験日程」（2027年4月入学）で確認。一般前期・後期は既存と一致。手続締切・検定料は日程ページに記載なし（既存値を残す）"
 },
 "money": {
 "year": "2026年度",
