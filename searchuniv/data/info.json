@@ -118027,8 +118027,9 @@
 "ratios": "2026-11-09",
 "fdiff": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-09",
-"_via": "2026-11-09"
+"schedule": "2026-11-16",
+"_via": "2026-11-16",
+"money": "2026-11-16"
 },
 "faculties": [
 "看護学部"
@@ -118072,7 +118073,8 @@
 "https://www.niigata-cn.ac.jp/examination/info/schedule.html",
 "https://www.niigata-cn.ac.jp/examination/undergraduate/suisen.html",
 "https://www.niigata-cn.ac.jp/examination/files/suisyanyushi-bosyuyoko.pdf",
-"https://aoskillpass.com/nyushi/niigata-nursing-sogogata-interview-2027/"
+"https://aoskillpass.com/nyushi/niigata-nursing-sogogata-interview-2027/",
+"https://manabi.benesse.ne.jp/daigaku/school/2093/nyushi/"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）※一般前期は受験者・合格者未取得のためKei-Netの志願倍率（志願者÷募集人員）、学校推薦型はaoaoi.jp掲載の志願者÷合格者倍率を明記",
@@ -118155,8 +118157,9 @@
 "apply": "1/25〜2/3",
 "exam": "2/25",
 "result": "3/4",
-"proc": "〜3/15",
-"note": ""
+"proc": "3/5〜3/15",
+"note": "",
+"url": "https://www.niigata-cn.ac.jp/examination/info/schedule.html"
 },
 {
 "kubun": "一般",
@@ -118164,8 +118167,9 @@
 "apply": "1/25〜2/3",
 "exam": "3/12",
 "result": "3/20",
-"proc": "〜3/27",
-"note": ""
+"proc": "3/21〜3/27",
+"note": "公式日程表では後期の出願期間欄は空欄（Benesse マナビジョンでは前期と同じ1/25〜2/3）",
+"url": "https://www.niigata-cn.ac.jp/examination/info/schedule.html"
 },
 {
 "kubun": "推薦",
@@ -118173,12 +118177,45 @@
 "apply": "11/2〜11/9",
 "exam": "11/14",
 "result": "12/1",
-"proc": "",
-"note": "出願〜合格発表は2026年。入学手続は12/2開始（終了日未確認）。総合型選抜の実施なし"
+"proc": "12/2〜12/11",
+"note": "出願〜手続は2026年。総合型選抜の実施なし",
+"url": "https://www.niigata-cn.ac.jp/examination/info/schedule.html"
+},
+{
+"kubun": "推薦",
+"name": "社会人選抜",
+"apply": "11/2〜11/9",
+"exam": "11/14",
+"result": "12/1",
+"proc": "12/2〜12/11",
+"note": "募集人員若干名。2026年実施",
+"url": "https://www.niigata-cn.ac.jp/examination/info/schedule.html"
+}
+],
+"note": "大学公式「入学試験日程」で学校推薦型・一般前期・後期の出願・試験・発表日が既存と一致（2026-11-16確認）。入学考査料17,000円。"
+},
+"_via": "external-ai-verified",
+"money": {
+"year": "現行（公式資料に年度記載なし）",
+"total4": 2425200,
+"total4_note": "入学料（新潟県の住民）＋授業料4年",
+"admission": 282000,
+"annual": 535800,
+"note": "入学料は新潟県の住民282,000円、それ以外564,000円。授業料年額535,800円（前期・後期各267,900円）。入学時必要経費：学生保険18,000円・大学後援会費48,000円・学生自治会費10,000円（各4年分）、学外オリエンテーション8,000円、感染症抗体価検査4,000円、教科書等約40,000円。入学考査料17,000円。",
+"rows": [
+{
+"f": "看護学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": 0,
+"practical": null,
+"other": 88000,
+"first_year": 905800,
+"four_year": null,
+"note": "入学料は新潟県の住民の額（それ以外は564,000円）。otherは学生保険・後援会費・自治会費（各4年分）・学外オリエンテーション・抗体価検査の合計。教科書等約40,000円は含まない。"
 }
 ]
-},
-"_via": "external-ai"
+}
 },
 "長岡造形大学": {
 "difficulty": {
@@ -118197,9 +118234,9 @@
 "fdiff": "2026-11-09",
 "methods": "2026-11-09",
 "ratios": "2026-11-09",
-"schedule": "2026-11-09",
-"money": "2026-11-09",
-"_via": "2026-11-09"
+"schedule": "2026-11-16",
+"money": "2026-11-16",
+"_via": "2026-11-16"
 },
 "faculties": [
 "造形学部"
@@ -118386,7 +118423,9 @@
 "exam": "2/25",
 "result": "3/4",
 "proc": "",
-"note": "出願書類は最終日17:00必着。前期合格者で3/15までに入学手続を行った者は中期合格者とならない旨の記載あり（手続開始日は未確認）。"
+"note": "出願書類は最終日17:00必着。前期合格者で3/15までに入学手続を行った者は中期合格者とならない旨の記載あり（手続開始日は未確認）。",
+"url": "https://www.nagaoka-id.ac.jp/examination/outline/general/",
+"fee": 17000
 },
 {
 "kubun": "一般",
@@ -118395,7 +118434,9 @@
 "exam": "3/8（美術・工芸、建築・環境デザイン）、3/9（デザイン）",
 "result": "3/20",
 "proc": "",
-"note": "手続期間は未確認。"
+"note": "手続期間は未確認。",
+"url": "https://www.nagaoka-id.ac.jp/examination/outline/general/",
+"fee": 17000
 },
 {
 "kubun": "推薦",
@@ -118404,18 +118445,31 @@
 "exam": "11/28（美術・工芸、建築・環境デザイン）、11/29（デザイン）",
 "result": "12/4",
 "proc": "",
-"note": "出願書類は最終日17:00必着。合格発表日12/4は外部塾解説記事による（手続期間は未確認）。"
+"note": "出願書類は最終日17:00必着。合格発表12/4は大学公式「学部入試概要一覧」で確認。手続期間は未確認。",
+"url": "https://www.nagaoka-id.ac.jp/examination/outline/list/"
 },
 {
 "kubun": "総合型",
 "name": "総合型選抜",
-"apply": "",
+"apply": "9/7〜9/14",
 "exam": "1次: 10/4、2次: 10/25",
-"result": "11/2",
+"result": "1次: 10/9、2次: 11/2",
 "proc": "",
-"note": "2次結果の発表日は大学公式ニュース掲載日(2026/11/2)と一致。出願・手続期間は未確認、試験日は外部塾解説記事による。"
+"note": "日程は大学公式「学部入試概要一覧」で確認（2026年実施）。手続期間は未確認。",
+"url": "https://www.nagaoka-id.ac.jp/examination/outline/list/"
+},
+{
+"kubun": "推薦",
+"name": "社会人入学試験",
+"apply": "10/29〜11/5",
+"exam": "11/28",
+"result": "12/4",
+"proc": "",
+"note": "全学科。2026年実施",
+"url": "https://www.nagaoka-id.ac.jp/examination/outline/list/"
 }
-]
+],
+"note": "大学公式「学部入試概要一覧」「一般選抜」（2027年度）で前期・中期・推薦の日程が既存と一致し、総合型の出願期間と発表日を追加（2026-11-16確認）。一般選抜の検定料17,000円。"
 },
 "money": {
 "year": "2026年度参考（現行）",
@@ -118423,7 +118477,7 @@
 "total4_note": "入学料（長岡市内在住者141,000円）＋授業料4年分（535,800円×4）。別途実習料年額50,000円（4年間200,000円）等が必要",
 "admission": 141000,
 "annual": 535800,
-"note": "入学料は長岡市内在住者141,000円、市外在住者282,000円（初年度合計は市内750,800円、市外891,800円）。年額授業料535,800円のほか実習料年額50,000円（年額計585,800円）、Kei-Net記載の設備/実習/諸会費等74,000円、ノートパソコンが別途必要。",
+"note": "入学料は長岡市内在住者141,000円、市外在住者282,000円（初年度合計は市内750,800円、市外891,800円）。年額授業料535,800円のほか実習料年額50,000円（年額計585,800円）、Kei-Net記載の設備/実習/諸会費等74,000円、ノートパソコンが別途必要。 2026-11-16 大学公式「学費・奨学金」で入学料（282,000円／長岡市内在住者141,000円）・授業料535,800円・実習料50,000円が一致。その他は学生会費4,000円・保護者会費10,000円・校友会費10,000円（各年）で計24,000円。大学独自の授業料等免除（家計・学業基準で半額免除、修学支援新制度の対象者を除く）あり。",
 "rows": [
 {
 "f": "造形学部",
@@ -118434,11 +118488,11 @@
 "other": 24000,
 "first_year": 750800,
 "four_year": null,
-"note": "長岡市内在住者の金額（市外者は入学金282,000円・初年度891,800円）。otherはKei-Netの設備/実習/諸会費等74,000円から公式記載の実習料50,000円を差し引いた差額。2年次以降の諸会費等発生有無は未確認。"
+"note": "長岡市内在住者の金額（市外者は入学料282,000円・初年度891,800円）。otherは大学公式の学生会費4,000円・保護者会費10,000円・校友会費10,000円の合計。"
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai-verified"
 },
 "都留文科大学": {
 "difficulty": {
@@ -137091,7 +137145,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-16",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -137191,7 +137245,8 @@ null
 "proc": "3/24",
 "fee": null
 }
-]
+],
+"note": "2026-11-16 河合塾 Kei-Net の入試日程で一般前期・後期・共テ利用前期・後期の出願締切・試験日・発表・手続締切が既存と一致。"
 },
 "money": {
 "year": "2027年度",
@@ -137250,7 +137305,8 @@ null
 "https://www.kio.ac.jp/admission/info/tuition-scholarship/",
 "https://passnavi.obunsha.co.jp/univ/4585/difficulty/",
 "https://search.keinet.ne.jp/2587/outline/department",
-"https://www.kio.ac.jp/guide/outline/history/"
+"https://www.kio.ac.jp/guide/outline/history/",
+"https://search.keinet.ne.jp/2587/general/schedule"
 ],
 "students": {
 "count": 2098,
@@ -138357,7 +138413,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-16",
 "money": "2026-11-10",
 "scholar": "2026-11-07",
 "access": "2026-11-07",
@@ -138472,7 +138528,8 @@ null
 "proc": "3/25（一括）",
 "fee": 15000
 }
-]
+],
+"note": "2026-11-16 大学公式「一般選抜＜前期A・B・C日程＞」で前期の出願・試験・発表・手続（1次・2次）・検定料35,000円が既存と一致。後期の合格発表はBenesse マナビジョンでは3/19と掲載（公式で要確認）。"
 },
 "money": {
 "year": "2026年度",
@@ -138565,7 +138622,8 @@ null
 "https://www.kobe-c.ac.jp/admissions/info/fee/",
 "https://manabi.benesse.ne.jp/daigaku/school/3702/gakuhi/",
 "https://passnavi.obunsha.co.jp/univ/4460/difficulty/",
-"https://www.kobe-c.ac.jp/campuslife/gakuhi/"
+"https://www.kobe-c.ac.jp/campuslife/gakuhi/",
+"https://manabi.benesse.ne.jp/daigaku/school/3702/nyushi/"
 ]
 },
 "神戸学院大学": {
