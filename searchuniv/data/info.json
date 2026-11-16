@@ -52925,7 +52925,7 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-07",
+"schedule": "2026-11-16",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -55165,7 +55165,8 @@
 "https://passnavi.obunsha.co.jp/univ/2930/eiken/?facultyID=050",
 "https://passnavi.obunsha.co.jp/univ/2930/eiken/?facultyID=060",
 "https://passnavi.obunsha.co.jp/univ/2930/eiken/?facultyID=065",
-"https://passnavi.obunsha.co.jp/univ/2930/eiken/"
+"https://passnavi.obunsha.co.jp/univ/2930/eiken/",
+"https://search.keinet.ne.jp/2267/topics/12"
 ],
 "licenses": [
 "医師・歯科医師・薬剤師・獣医師 国家試験受験資格",
@@ -55541,7 +55542,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-07",
+"schedule": "2026-11-16",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -55945,63 +55946,83 @@
 "rows": [
 {
 "kubun": "一般",
-"name": "一般選抜（N方式 第1期）",
+"name": "一般選抜（N全学統一方式 第1期）",
 "fee": null,
 "apply": "1/5〜1/22",
 "exam": "2/1",
-"result": "2/8〜2/17",
-"proc": "2/24（二段階手続の最終締切3/11）",
-"note": "医学部第2次：2月11日（木）／芸術学部専門試験併用型：2月2日～8日／学部により異なる"
+"result": "2/10〜2/17",
+"proc": "2/17〜3/5",
+"note": "学部により異なる（例：法2/17発表・2/25締切、危機管理・スポーツ科学・生物資源・薬2/10発表・2/17締切、芸術2/15発表・3/5締切）。医学部は一次2/1・二次2/11、一次発表2/8・二次発表2/17。芸術学部専門試験併用型の専門試験は2/2〜2/8（学科により異なる）。以前の記載：二段階手続の最終締切3/11"
 },
 {
 "kubun": "一般",
-"name": "一般選抜（N方式 第2期）",
+"name": "一般選抜（N全学統一方式 第2期）",
 "fee": null,
 "apply": "1/5〜2/25",
 "exam": "3/4",
-"result": "3/12〜3/15",
-"proc": "3/26",
-"note": "医学部第2次：3月17日（水）／医学部第2次：3月23日（火）"
+"result": "3/12〜3/16",
+"proc": "3/18〜3/26",
+"note": "学部により異なる。経済学部は経済学科国際コースを除く。医学部は二次3/17、一次発表3/12・二次発表3/23、手続3/26"
 },
 {
 "kubun": "一般",
-"name": "一般選抜（AN方式 第1期：法・経済・商・国際関係・危機管理・スポーツ科学）",
-"fee": null,
+"name": "一般選抜（AN共通日程方式 第1期：法・経済・商・国際関係／危機管理・スポーツ科学）",
+"fee": 35000,
 "apply": "1/5〜1/22",
-"exam": "2/3・4・5",
+"exam": "2/3・2/4・2/5",
 "result": "2/17",
-"proc": null,
-"note": "試験日選択制"
+"proc": "2/24・2/25",
+"note": "試験日選択制。法学部のみ手続締切2/25。複数日程の同時出願は2学科目10,000円、3学科目以降1学科5,000円"
 },
 {
 "kubun": "一般",
-"name": "一般選抜（AN方式 第2期：法・経済・商・国際関係）",
-"fee": null,
+"name": "一般選抜（AN共通日程方式 第2期：法・経済・商・国際関係）",
+"fee": 35000,
 "apply": "1/5〜2/10",
 "exam": "2/20",
 "result": "3/2〜3/5",
-"proc": null,
-"note": "学部により異なる"
+"proc": "3/8〜3/18",
+"note": "学部により異なる（法3/2発表・3/8締切、国際関係3/5発表・3/18締切）"
 },
 {
 "kubun": "一般",
 "name": "一般選抜（A個別方式）",
 "fee": null,
-"apply": "2027年1月〜3月",
-"exam": "2/3〜3/12",
-"result": "2/12〜3/18",
-"proc": null,
-"note": "学部により異なる／学部により異なる"
+"apply": "1/5〜1/22（学部により〜3/4）",
+"exam": "2/2〜3/12",
+"result": "2/10〜3/18",
+"proc": "2/17〜3/25",
+"note": "文理・国際関係・理工・工・歯・薬・法（第二部）と、生産工・松戸歯・生物資源（第1期・第2期）で実施。学部により異なる（例：理工2/11試験・2/19発表・2/26締切）"
 },
 {
 "kubun": "共テ利用",
-"name": "一般選抜（C方式 共通テスト利用 第1期・第2期）",
+"name": "一般選抜（C共通テスト利用方式 第1期）",
 "fee": null,
-"apply": "第1期：〜1/15・第2期：2月〜3月",
+"apply": "1/5〜1/15（国際関係・歯〜1/22、松戸歯〜1/27）",
 "exam": "1/16・17（共テ）",
-"result": "第1期：2/12〜2/18・第2期：3/5〜3/15",
-"proc": null,
-"note": "学部により異なる"
+"result": "2/12〜2/18",
+"proc": "2/19〜2/26",
+"note": "学部により異なる。法・文理・工・薬は期の区分なし"
+},
+{
+"kubun": "共テ利用",
+"name": "一般選抜（C共通テスト利用方式 第2期）",
+"fee": null,
+"apply": "1/5〜2/18〜3/10（学部により異なる）",
+"exam": "1/16・17（共テ）",
+"result": "3/5〜3/18",
+"proc": "3/11〜3/25",
+"note": "経済・商・国際関係・理工・生産工・歯・松戸歯で実施（経済は経済学科国際コースを除く）"
+},
+{
+"kubun": "共テ利用",
+"name": "一般選抜（CA共通テスト併用方式：工学部）",
+"fee": null,
+"apply": "1/5〜2/5",
+"exam": "1/16・17（共テ）＋2/15（個別）",
+"result": "2/26",
+"proc": "3/5",
+"note": "工学部のみ"
 }
 ]
 },
@@ -106209,9 +106230,9 @@
 "fdiff": "2026-11-09",
 "methods": "2026-11-09",
 "ratios": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-16",
 "money": "2026-11-09",
-"_via": "2026-11-09",
+"_via": "2026-11-16",
 "licenses": "2026-11-15",
 "careers": "2026-11-15",
 "kyotsu": "2026-11-15"
@@ -106348,7 +106369,9 @@
 "exam": "共通テスト（1/16・17）",
 "result": "3/5",
 "proc": "3/5〜3/15",
-"note": "個別学力検査なし（共通テスト・調査書で判定）"
+"note": "個別学力検査なし（共通テスト・調査書で判定）",
+"fee": 17000,
+"url": "https://www.kushiro-pu.ac.jp/examinfo/entrance_examination/c4490h0000000fo2-att/R9_selection.pdf"
 },
 {
 "kubun": "一般",
@@ -106357,7 +106380,9 @@
 "exam": "3/8",
 "result": "3/21",
 "proc": "3/21〜3/27",
-"note": ""
+"note": "",
+"fee": 17000,
+"url": "https://www.kushiro-pu.ac.jp/examinfo/entrance_examination/c4490h0000000fo2-att/R9_selection.pdf"
 },
 {
 "kubun": "推薦",
@@ -106366,7 +106391,9 @@
 "exam": "11/21",
 "result": "12/8",
 "proc": "12/8〜12/17",
-"note": "2026年11〜12月実施（令和9年度入試）、出願11/10必着"
+"note": "出願11/10必着。公募制4区分（関係市町村・ひがし北海道・全国・専門）とも同じ日程",
+"fee": 17000,
+"url": "https://www.kushiro-pu.ac.jp/examinfo/entrance_examination/c4490h0000000fo2-att/R9_selection.pdf"
 }
 ]
 },
@@ -106391,7 +106418,7 @@
 }
 ]
 },
-"_via": "external-ai",
+"_via": "external-ai-verified",
 "licenses": [
 "中学校教諭一種（社会）、高等学校教諭一種（地理歴史・公民・商業）（経済学部 経済学科・経営学科）",
 "社会調査士（資格）（経済学部 経済学科）"
@@ -106423,11 +106450,11 @@
 "kyotsu": "2026-11-07",
 "careers": "2026-11-07",
 "fdiff": "2026-11-09",
-"methods": "2026-11-09",
+"methods": "2026-11-16",
 "ratios": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-16",
 "money": "2026-11-14",
-"_via": "2026-11-09",
+"_via": "2026-11-16",
 "research": "2026-11-15"
 },
 "departments": [
@@ -106485,7 +106512,8 @@
 "https://manabi.benesse.ne.jp/daigaku/school/2015/nyushi/hoshiki/sougou/",
 "https://juku-times.com/juku/aomorikoritsu/gakubu-1/bairitsu/",
 "https://fran-data.com/aomori-kouritsu/",
-"https://passnavi.obunsha.co.jp/univ/1022/expense/"
+"https://passnavi.obunsha.co.jp/univ/1022/expense/",
+"https://admission-cms.nebuta.ac.jp/wp-content/uploads/2026/07/450267e62777c8c5dd69835e0b464ccc.pdf"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -106571,18 +106599,20 @@
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜（青森県内・青森県外A・青森県外B）",
-"content": "小論文・面接・調査書等",
-"req": "単願（詳細評定基準は要項確認）",
+"content": "出願書類（面接を含む）100点（書類80点・面接20点）・小論文100点、計200点",
+"req": "青森県内：県内の高校を卒業見込み、全体の評定3.5以上かつ4教科（国・数・外・地歴または公民）のうち3教科3.5以上、英語・簿記・情報の資格のいずれか／青森県外A：大学指定の県外高校、全体3.5以上かつ3教科3.6以上／青森県外B：全国（青森県除く）、全体3.8以上かつ3教科3.8以上、資格のいずれか。いずれも専願、共テ成績閲覧を「希望する」と登録",
 "kyotsu": "課さない",
-"note": "経営・経済・地域みらいの3学科で実施"
+"note": "募集人員：県内115・県外A10・県外B17（経営・経済・地域みらい。県外Aは経営・経済のみ）。第2〜3志望まで順位をつけて出願可（2027年度入学者選抜要項）",
+"url": "https://admission-cms.nebuta.ac.jp/wp-content/uploads/2026/07/450267e62777c8c5dd69835e0b464ccc.pdf"
 },
 {
 "kubun": "総合型",
 "name": "総合型選抜Ⅰ",
-"content": "小論文・面接・調査書",
-"req": "単願",
+"content": "出願書類50点・小論文50点・面接100点、計200点",
+"req": "全国の高校を2027年3月卒業見込み・専願。①活動実績＋全体の評定3.5以上かつ4教科のうち3教科3.8以上、②簿記・基本情報技術者・英語資格（英検2級以上など）＋評定3.5以上、③全体の評定4.0以上かつ2教科4.5以上 のいずれか",
 "kyotsu": "課さない",
-"note": "経営・経済・地域みらいの3学科で実施（総合型選抜Ⅱも実施、詳細未確認）"
+"note": "募集30人（経営9・経済9・地域みらい12）。総合型選抜Ⅱ（帰国生徒・社会人・外国人留学生）は小論文200点・面接300点（2027年度入学者選抜要項）",
+"url": "https://admission-cms.nebuta.ac.jp/wp-content/uploads/2026/07/450267e62777c8c5dd69835e0b464ccc.pdf"
 }
 ],
 "summary": "経営経済学部（経営・経済・地域みらいの3学科）について、一般前期は共テ400点＋個別200点（国数選択枠・国英選択枠）、後期は共テ2教科400点のみで選抜する（後期は地域みらい学科の募集なし）。共通テストを課さない総合型選抜・学校推薦型選抜も実施する。",
@@ -106624,19 +106654,23 @@
 "kubun": "総合型",
 "name": "総合型選抜Ⅰ",
 "apply": "8/31〜9/17",
-"exam": "",
+"exam": "10/17",
 "result": "11/2",
-"proc": "",
-"note": "Web出願登録・検定料払込8/31〜9/17、書類提出9/7〜9/17必着（試験日・手続締切日は未確認、総合型選抜Ⅱも実施）"
+"proc": "11/12",
+"note": "Web出願登録・検定料払込8/31〜9/17、書類提出9/7〜9/17必着。試験は本学（青森市）。総合型選抜Ⅱ（帰国生・社会人・外国人留学生）も同じ出願期間・試験日",
+"url": "https://admission-cms.nebuta.ac.jp/wp-content/uploads/2026/07/450267e62777c8c5dd69835e0b464ccc.pdf",
+"fee": 17000
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜（青森県内・青森県外A・B）",
 "apply": "10/21〜11/13",
-"exam": "",
+"exam": "11/28",
 "result": "12/17",
-"proc": "",
-"note": "Web出願登録・検定料払込10/21〜11/13、書類提出11/4〜11/13必着（試験日・手続締切日は未確認）"
+"proc": "12/28",
+"note": "Web出願登録・検定料払込10/21〜11/13、書類提出11/4〜11/13必着。手続期間12/17〜12/28。試験は本学",
+"url": "https://admission-cms.nebuta.ac.jp/wp-content/uploads/2026/07/450267e62777c8c5dd69835e0b464ccc.pdf",
+"fee": 17000
 },
 {
 "kubun": "一般",
@@ -106645,7 +106679,9 @@
 "exam": "1/16・17（共テ）、2/25（個別）",
 "result": "3/5",
 "proc": "3/15",
-"note": ""
+"note": "個別試験は青森市・盛岡市・東京都（学生募集要項で確認）",
+"url": "https://admission-cms.nebuta.ac.jp/wp-content/uploads/2026/07/450267e62777c8c5dd69835e0b464ccc.pdf",
+"fee": 17000
 },
 {
 "kubun": "一般",
@@ -106654,7 +106690,9 @@
 "exam": "1/16・17（共テ）、個別テストなし",
 "result": "3/20",
 "proc": "3/27",
-"note": "地域みらい学科の募集なし"
+"note": "地域みらい学科の募集なし",
+"url": "https://admission-cms.nebuta.ac.jp/wp-content/uploads/2026/07/450267e62777c8c5dd69835e0b464ccc.pdf",
+"fee": 17000
 }
 ]
 },
@@ -106679,7 +106717,7 @@
 }
 ]
 },
-"_via": "external-ai",
+"_via": "external-ai-verified",
 "research": [
 "組織論・経営戦略・会計・マーケティング（経営学科）",
 "ミクロ・マクロ経済学、金融・財政・公共経済、経済統計（経済学科）",
@@ -106702,8 +106740,8 @@
 "fdiff": "2026-11-09",
 "ratios": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-09",
-"_via": "2026-11-09",
+"schedule": "2026-11-16",
+"_via": "2026-11-16",
 "money": "2026-11-09",
 "research": "2026-11-15"
 },
@@ -106773,7 +106811,8 @@
 "https://manabi.benesse.ne.jp/daigaku/school/2013/nyushi/hoshiki/gakkou-suisen/",
 "https://manabi.benesse.ne.jp/daigaku/school/2013/nyushi/kenkoukagaku/",
 "https://note.com/nejogakusyujuku/n/n19bf5cbd5da9",
-"https://aoaoi.jp/preparation/auhw/"
+"https://aoaoi.jp/preparation/auhw/",
+"https://www.auhw.ac.jp/boshu/exam/files/R9_boshuyoko_suisen.pdf"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -106939,7 +106978,9 @@
 "exam": "11/28",
 "result": "12/8",
 "proc": "12/18",
-"note": "Web出願登録は10/28〜11/9、書類提出11/2〜11/9、手続期間12/8〜12/18。総合型選抜は実施なし。"
+"note": "Web出願登録は10/28〜11/9、書類提出11/2〜11/9、手続期間12/8〜12/18。総合型選抜は実施なし。",
+"fee": 17000,
+"url": "https://www.auhw.ac.jp/boshu/exam/files/R9_boshuyoko_suisen.pdf"
 },
 {
 "kubun": "一般",
@@ -106948,7 +106989,9 @@
 "exam": "1/16・17（共テ）、2/25（個別）",
 "result": "3/8",
 "proc": "3/15",
-"note": ""
+"note": "手続期間3/8〜3/15",
+"fee": 17000,
+"url": "https://www.auhw.ac.jp/boshu/exam/files/R9_boshuyoko_ippan.pdf"
 },
 {
 "kubun": "一般",
@@ -106956,12 +106999,14 @@
 "apply": "1/25〜2/3",
 "exam": "1/16・17（共テ）、3/12（個別）",
 "result": "3/24",
-"proc": "",
-"note": "手続締切日は未確認"
+"proc": "3/27",
+"note": "手続期間3/24〜3/27",
+"fee": 17000,
+"url": "https://www.auhw.ac.jp/boshu/exam/files/R9_boshuyoko_ippan.pdf"
 }
 ]
 },
-"_via": "external-ai",
+"_via": "external-ai-verified",
 "money": {
 "year": "2026年度",
 "total4": 2368800,
