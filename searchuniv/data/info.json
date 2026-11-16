@@ -145603,7 +145603,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-16",
 "money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -145649,14 +145649,45 @@ null
 "rows": [
 {
 "kubun": "一般",
-"name": "一般選抜 学科試験型 前期",
-"apply": null,
+"name": "一般選抜 前期（1〜3科目選択）",
+"apply": "12/28〜1/22",
 "exam": "1/30",
 "result": "2/4",
-"proc": null,
-"fee": 30000
+"proc": "2/12",
+"fee": 30000,
+"note": "出願締切は消印有効",
+"url": "https://passnavi.obunsha.co.jp/univ/4093/schedule/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期（1・2科目選択）",
+"apply": "2/4〜2/15",
+"exam": "2/23",
+"result": "3/4",
+"proc": "3/12",
+"note": "出願締切は消印有効",
+"url": "https://passnavi.obunsha.co.jp/univ/4093/schedule/"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 前期（1〜3科目選択型）",
+"apply": "12/28〜1/29",
+"exam": "1/16・17（共テ）",
+"result": "2/4",
+"proc": "2/12",
+"url": "https://passnavi.obunsha.co.jp/univ/4093/schedule/"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用 後期（1〜3科目選択型）",
+"apply": "2/4〜3/12",
+"exam": "1/16・17（共テ）",
+"result": "3/17",
+"proc": "3/23",
+"url": "https://passnavi.obunsha.co.jp/univ/4093/schedule/"
 }
-]
+],
+"note": "2026-11-16 旺文社パスナビ（入試日程）と河合塾Kei-Net（入試日程）で一般・共テ利用の日程が一致。一般前期の試験日1/30・発表2/4は既存と一致。検定料30,000円は既存（一般前期）のまま。両サイトでは大学名が「和泉大学」（2026年4月名称変更）。推薦・総合型は掲載なし"
 },
 "money": {
 "year": "2027年度",
@@ -145714,7 +145745,9 @@ null
 "https://www.best-shingaku.net/smt/gakuhi2249.html",
 "https://passnavi.obunsha.co.jp/univ/4093/top/",
 "https://shingakunet.com/gakko/SC004796/nanido/gakubu_63/",
-"https://passnavi.obunsha.co.jp/univ/4093/expense/"
+"https://passnavi.obunsha.co.jp/univ/4093/expense/",
+"https://passnavi.obunsha.co.jp/univ/4093/schedule/",
+"https://search.keinet.ne.jp/2554/general/schedule"
 ]
 },
 "大阪物療大学": {
@@ -146314,7 +146347,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-16",
 "money": "2026-11-07",
 "scholar": "2026-11-07",
 "access": "2026-11-07",
@@ -146387,13 +146420,91 @@ null
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "総合型",
+"name": "学部AO入試（Ⅰ期）・特色入試",
+"apply": "9/24〜10/6",
+"exam": "10/11",
+"result": "11/2",
+"proc": "1次12/10（書類のみ）・2次1/22",
+"fee": null,
+"url": "https://www.keiho-u.ac.jp/admission/guidance/schedule.html",
+"note": "2026年。公務員・英語留学・韓国留学・旅行観光・エアライン・情報・会計プロ特色は学部により異なる。法曹特色（法）・金融特色（経済）も同日程"
+},
+{
+"kubun": "総合型",
+"name": "学部AO入試（Ⅱ期）",
+"apply": "11/1〜11/17",
+"exam": "11/21",
+"result": "12/1",
+"proc": "1次12/10（書類のみ）・2次1/22",
+"fee": null,
+"url": "https://www.keiho-u.ac.jp/admission/guidance/schedule.html",
+"note": "2026年"
+},
+{
+"kubun": "総合型",
+"name": "学部AO入試（Ⅲ期）",
+"apply": "2/8〜2/25",
+"exam": "3/3",
+"result": "3/11",
+"proc": "3/19",
+"fee": null,
+"url": "https://www.keiho-u.ac.jp/admission/guidance/schedule.html"
+},
+{
+"kubun": "推薦",
+"name": "公募制推薦試験（前期）",
+"apply": "11/1〜11/11",
+"exam": "11/16・11/17",
+"result": "12/1",
+"proc": "1次12/22・2次2/22",
+"fee": null,
+"url": "https://www.keiho-u.ac.jp/admission/guidance/schedule.html",
+"note": "2026年。自由選択制（数学素養評価型は11/16のみ）"
+},
+{
+"kubun": "推薦",
+"name": "公募制推薦試験（後期）",
+"apply": "12/1〜12/17",
+"exam": "12/22",
+"result": "12/25",
+"proc": "1次1/22・2次2/22",
+"fee": null,
+"url": "https://www.keiho-u.ac.jp/admission/guidance/schedule.html",
+"note": "2026年"
+},
+{
+"kubun": "推薦",
+"name": "指定校推薦試験（専願制）",
+"apply": "11/1〜11/17",
+"exam": "11/21",
+"result": "12/1",
+"proc": "1次12/10（書類のみ）・2次1/22",
+"fee": null,
+"url": "https://www.keiho-u.ac.jp/admission/guidance/schedule.html",
+"note": "2026年"
+},
+{
+"kubun": "推薦",
+"name": "専門学科・総合学科選抜試験（併願制）",
+"apply": "9/24〜10/6",
+"exam": "10/11",
+"result": "11/2",
+"proc": "1次12/22・2次2/22",
+"fee": null,
+"url": "https://www.keiho-u.ac.jp/admission/guidance/schedule.html",
+"note": "2026年。小論文型・面接型"
+},
+{
 "kubun": "一般",
 "name": "一般試験・前期（A日程）",
 "apply": "12/25〜1/15",
 "exam": "1/21・1/22",
 "result": "2/12",
 "proc": "1次2/26・2次3/19",
-"fee": null
+"fee": null,
+"url": "https://www.keiho-u.ac.jp/admission/guidance/schedule.html",
+"note": "一般前期プラス資格試験も同日程。自由選択制"
 },
 {
 "kubun": "一般",
@@ -146402,7 +146513,9 @@ null
 "exam": "2/1・2/2",
 "result": "2/12",
 "proc": "1次2/26・2次3/19",
-"fee": null
+"fee": null,
+"url": "https://www.keiho-u.ac.jp/admission/guidance/schedule.html",
+"note": "一般前期プラス資格試験も同日程。自由選択制"
 },
 {
 "kubun": "一般",
@@ -146411,16 +146524,19 @@ null
 "exam": "3/3・3/4",
 "result": "3/11",
 "proc": "1次3/19・2次3/25",
-"fee": null
+"fee": null,
+"url": "https://www.keiho-u.ac.jp/admission/guidance/schedule.html",
+"note": "自由選択制"
 },
 {
 "kubun": "一般",
-"name": "一般試験・後期",
+"name": "一般試験・後期／一般後期小論文試験",
 "apply": "3/1〜3/18（窓口3/19）",
 "exam": "3/22",
 "result": "3/24",
 "proc": "3/26",
-"fee": null
+"fee": null,
+"url": "https://www.keiho-u.ac.jp/admission/guidance/schedule.html"
 },
 {
 "kubun": "共テ利用",
@@ -146429,7 +146545,8 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "2/12",
 "proc": "1次2/26・2次3/19",
-"fee": null
+"fee": null,
+"url": "https://www.keiho-u.ac.jp/admission/guidance/schedule.html"
 },
 {
 "kubun": "共テ利用",
@@ -146438,7 +146555,8 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "3/11",
 "proc": "1次3/19・2次3/25",
-"fee": null
+"fee": null,
+"url": "https://www.keiho-u.ac.jp/admission/guidance/schedule.html"
 },
 {
 "kubun": "共テ利用",
@@ -146447,9 +146565,11 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "3/24",
 "proc": "3/26",
-"fee": null
+"fee": null,
+"url": "https://www.keiho-u.ac.jp/admission/guidance/schedule.html"
 }
-]
+],
+"note": "2026-11-16 大学公式の入試日程（2027年度）で確認。一般・共テ利用の日程は既存と一致し、学部AO（Ⅰ〜Ⅲ期）・公募制推薦（前期・後期）・指定校推薦・専門学科総合学科選抜を追加。検定料は日程ページに記載なし"
 },
 "money": {
 "year": "2026年度",
@@ -147055,9 +147175,9 @@ null
 "methods": "2026-11-09",
 "eng": "2026-11-09",
 "ratios": "2026-11-09",
-"schedule": "2026-11-09",
-"money": "2026-11-09",
-"_via": "2026-11-09"
+"schedule": "2026-11-16",
+"money": "2026-11-16",
+"_via": "2026-11-16"
 },
 "departments": [
 {
@@ -147128,7 +147248,8 @@ null
 "https://euphoric-arts.com/j-university/shizuoka-university-of-art-and-culture/",
 "https://aoskillpass.com/nyushi/shizuoka-art-culture-recommendation-admission-ratio-2026/",
 "https://passnavi.obunsha.co.jp/univ/1125/eiken/?facultyID=005",
-"https://ccn.jp/english/online/eiken-katsuyo/suac/"
+"https://ccn.jp/english/online/eiken-katsuyo/suac/",
+"https://www.suac.ac.jp/exam/faculty/overview/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -147264,8 +147385,10 @@ null
 "apply": "1/25〜2/3",
 "exam": "1/16・17（共テ）、2/25（個別）",
 "result": "3/6",
-"proc": "3/15",
-"note": ""
+"proc": "3/7〜3/15",
+"note": "",
+"fee": 17000,
+"url": "https://www.suac.ac.jp/exam/faculty/overview/"
 },
 {
 "kubun": "一般",
@@ -147273,8 +147396,10 @@ null
 "apply": "1/25〜2/3",
 "exam": "1/16・17（共テ）、2/25[・26]（個別）",
 "result": "3/6",
-"proc": "3/15",
-"note": ""
+"proc": "3/7〜3/15",
+"note": "",
+"fee": 17000,
+"url": "https://www.suac.ac.jp/exam/faculty/overview/"
 },
 {
 "kubun": "一般",
@@ -147282,8 +147407,10 @@ null
 "apply": "1/25〜2/3",
 "exam": "1/16・17（共テ）、3/12（個別）",
 "result": "3/20",
-"proc": "",
-"note": ""
+"proc": "3/21〜3/27",
+"note": "",
+"fee": 17000,
+"url": "https://www.suac.ac.jp/exam/faculty/overview/"
 },
 {
 "kubun": "一般",
@@ -147291,8 +147418,10 @@ null
 "apply": "1/25〜2/3",
 "exam": "1/16・17（共テ）、2/26（個別）",
 "result": "3/6",
-"proc": "3/15",
-"note": ""
+"proc": "3/7〜3/15",
+"note": "",
+"fee": 17000,
+"url": "https://www.suac.ac.jp/exam/faculty/overview/"
 },
 {
 "kubun": "一般",
@@ -147300,8 +147429,10 @@ null
 "apply": "1/25〜2/3",
 "exam": "1/16・17（共テ）、2/25・26（個別）",
 "result": "3/6",
-"proc": "3/15",
-"note": "2/26はポートフォリオ提出型選抜希望者のみ。選択区分IIの個別詳細は検索結果で一部省略。"
+"proc": "3/7〜3/15",
+"note": "2/26はポートフォリオ提出型選抜希望者のみ。選択区分IIの個別詳細は検索結果で一部省略。",
+"fee": 17000,
+"url": "https://www.suac.ac.jp/exam/faculty/overview/"
 },
 {
 "kubun": "一般",
@@ -147309,18 +147440,43 @@ null
 "apply": "1/25〜2/3",
 "exam": "1/16・17（共テ）、3/12（個別）",
 "result": "3/20",
-"proc": "",
-"note": ""
+"proc": "3/21〜3/27",
+"note": "",
+"fee": 17000,
+"url": "https://www.suac.ac.jp/exam/faculty/overview/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制・英語重点型公募制）",
+"apply": "11/1〜11/6",
+"exam": "11/21",
+"result": "12/1",
+"proc": "12/2〜12/10",
+"fee": 17000,
+"note": "2026年",
+"url": "https://www.suac.ac.jp/exam/faculty/overview/"
+},
+{
+"kubun": "その他",
+"name": "特別選抜（社会人・両学部共通）",
+"apply": "11/1〜11/6",
+"exam": "11/21",
+"result": "12/1",
+"proc": "12/2〜12/10",
+"fee": 17000,
+"note": "2026年",
+"url": "https://www.suac.ac.jp/exam/faculty/overview/"
 }
-]
+],
+"note": "2026-11-16 大学公式の2027年度入試日程で確認。一般前期・後期の出願期間・試験日・合格発表は既存と一致。後期の手続期間3/21〜3/27、検定料17,000円、学校推薦型・社会人の日程を追加。2/26はデザイン学部の数学・ポートフォリオ提出型の口頭試問・芸術文化学科の面接予備日"
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度入学者（予定額）",
 "total4": 2284200,
 "total4_note": "入学金（県内）141,000円＋授業料535,800円×4年（別途、保険料4,660円・校友会費60,000円が必要で、4年間総計は県内2,348,860円）",
 "admission": 141000,
 "annual": 535800,
-"note": "静岡県外者の入学料は366,600円（初年度納入金計967,060円）。2026年度入学生適用額・公式サイト現行掲載額（2027年度変更有無は要確認）",
+"note": "静岡県外者の入学料は366,600円（初年度納入金計967,060円）。大学公式「学部入学検定料及び初年度納入金」で2027年度（2027年4月入学者）の予定額として確認（入学検定料17,000円、入学料県内141,000円、授業料年額535,800円、保険料4,660円、校友会費60,000円、初年度納入金計741,460円）。デザイン学部は入学後に材料費が別途必要",
 "rows": [
 {
 "f": "文化政策学部",
@@ -147346,7 +147502,7 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai-verified"
 },
 "静岡県立大学": {
 "faculties": [
@@ -147368,9 +147524,9 @@ null
 "fdiff": "2026-11-09",
 "methods": "2026-11-09",
 "ratios": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-16",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-16"
 },
 "departments": [
 {
@@ -147464,7 +147620,10 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/2130/nyushi/keieijouhou/",
 "https://manabi.benesse.ne.jp/daigaku/school/2130/nyushi/yaku/",
 "https://search.keinet.ne.jp/1570/general/exam_result",
-"https://manabi.benesse.ne.jp/daigaku/school/2130/nyushi/bairitsu/"
+"https://manabi.benesse.ne.jp/daigaku/school/2130/nyushi/bairitsu/",
+"https://www.u-shizuoka-ken.ac.jp/admissions/faculty/f-schedule/",
+"https://www.u-shizuoka-ken.ac.jp/media/2027nyugakushasenbatsuyoko.pdf",
+"https://www.u-shizuoka-ken.ac.jp/admissions/tuition/index.html"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -147549,7 +147708,8 @@ null
 "exam": "2/25",
 "result": "3/6",
 "proc": "3/15",
-"note": "インターネット出願登録1/22〜。合格発表・手続締切は経営情報学部で確認。"
+"note": "食品栄養科学部・国際関係学部・経営情報学部・看護学部で実施。手続は郵送3/14必着または持参3/15",
+"url": "https://www.u-shizuoka-ken.ac.jp/admissions/faculty/f-schedule/"
 },
 {
 "kubun": "一般",
@@ -147558,7 +147718,8 @@ null
 "exam": "3/8",
 "result": "3/21",
 "proc": "3/27",
-"note": "薬学部（薬学科・薬科学科）で実施。インターネット出願登録1/22〜。"
+"note": "薬学部（薬学科・薬科学科）で実施。手続は郵送3/26必着または持参3/27",
+"url": "https://www.u-shizuoka-ken.ac.jp/admissions/faculty/f-schedule/"
 },
 {
 "kubun": "一般",
@@ -147567,7 +147728,8 @@ null
 "exam": "3/12",
 "result": "3/21",
 "proc": "3/27",
-"note": "インターネット出願登録1/22〜。合格発表・手続締切は経営情報学部で確認。"
+"note": "食品栄養科学部（栄養生命・環境生命）・経営情報学部・看護学部で実施",
+"url": "https://www.u-shizuoka-ken.ac.jp/admissions/faculty/f-schedule/"
 },
 {
 "kubun": "推薦",
@@ -147575,10 +147737,32 @@ null
 "apply": "1/20〜1/26",
 "exam": "2/6",
 "result": "2/10",
-"proc": "",
-"note": "薬学部（薬学科・薬科学科）で確認。手続締切日未確認。"
+"proc": "2/17",
+"note": "薬学部・国際関係学部で実施",
+"url": "https://www.u-shizuoka-ken.ac.jp/admissions/faculty/f-schedule/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（共通テストを免除）",
+"apply": "11/2〜11/9",
+"exam": "12/1",
+"result": "12/10",
+"proc": "12/18",
+"note": "2026年。薬・食品栄養科学・国際関係・経営情報・看護の全学部で実施",
+"url": "https://www.u-shizuoka-ken.ac.jp/admissions/faculty/f-schedule/"
+},
+{
+"kubun": "その他",
+"name": "社会人選抜（看護学部）",
+"apply": "8/25〜8/28",
+"exam": "9/19",
+"result": "9/30",
+"proc": "10/23",
+"note": "2026年",
+"url": "https://www.u-shizuoka-ken.ac.jp/admissions/faculty/f-schedule/"
 }
-]
+],
+"note": "2026-11-16 大学公式「入試日程・募集人員」（2027年度入学者選抜）と2027年度入学者選抜要項で確認。一般前期・中期・後期の日程は既存と一致し全学部で同じ日付。推薦（共テを課す）の手続期限2/17、推薦（共テ免除）・看護学部社会人を追加。総合型選抜の掲載はなし。学費（入学料県内141,000円・県外366,600円、授業料535,800円、2026年度入学者）は公式と一致"
 },
 "money": {
 "year": "2026年度",
@@ -147656,7 +147840,7 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai-verified"
 },
 "三重県立看護大学": {
 "faculties": [
