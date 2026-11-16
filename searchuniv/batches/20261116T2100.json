@@ -1,0 +1,375 @@
+[
+ {
+  "name": "石川県立看護大学",
+  "info": {
+   "_via_replace": "external-ai-verified",
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般 前期日程",
+      "apply": "1/25〜2/3",
+      "exam": "2/25",
+      "result": "3/8",
+      "proc": "3/9〜3/15",
+      "fee": 17000,
+      "note": "入学手続期間は大学公式の入試ページに記載なし（既存データ）",
+      "url": "https://www.ishikawa-nu.ac.jp/admission/faculties"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 後期日程",
+      "apply": "1/25〜2/3",
+      "exam": "3/12",
+      "result": "3/20",
+      "proc": "3/23〜3/27",
+      "fee": 17000,
+      "note": "入学手続期間は大学公式の入試ページに記載なし（既存データ）",
+      "url": "https://www.ishikawa-nu.ac.jp/admission/faculties"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜・社会人選抜",
+      "apply": "11/2〜11/6",
+      "exam": "11/14",
+      "result": "12/1",
+      "proc": "",
+      "fee": 17000,
+      "note": "出願〜合格発表は2026年。入学手続期間は未確認",
+      "url": "https://www.ishikawa-nu.ac.jp/admission/faculties"
+     }
+    ],
+    "note": "2026-11-16 大学公式「学部入試」ページ（令和9年度）で推薦・社会人、一般前期・後期の出願・試験・発表日が既存と一致。「入学料・検定料・学費・奨学金」で検定料17,000円・入学料（県内282,000/県外423,000円）・授業料535,800円が既存と一致。"
+   },
+   "sources": [
+    "https://www.ishikawa-nu.ac.jp/admission/faculties",
+    "https://www.ishikawa-nu.ac.jp/admission/fees"
+   ]
+  }
+ },
+ {
+  "name": "金沢美術工芸大学",
+  "info": {
+   "_via_replace": "external-ai-verified",
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（中期）",
+      "apply": "1/25〜2/3",
+      "exam": "3/6〜3/13（専攻により異なる：ホリスティックデザイン3/6・3/7、芸術学・日本画3/9、油画3/10・3/11、彫刻3/11、工芸3/11〜3/13、インダストリアルデザイン3/12・3/13）",
+      "result": "3/20",
+      "proc": "3/27",
+      "note": "出願期間は大学公式で確認（ネット出願、締切日消印有効）。試験日・発表・手続締切はマナビジョン（2027年度）",
+      "url": "https://www.kanazawa-bidai.ac.jp/admission-info/general/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜",
+      "apply": "11/1〜11/6",
+      "exam": "11/21",
+      "result": "12/11",
+      "proc": "12/23",
+      "note": "出願〜手続は2026年。対象：美術科芸術学専攻・デザイン科インダストリアルデザイン専攻・工芸科（マナビジョン 2027年度）",
+      "url": "https://www.kanazawa-bidai.ac.jp/admission-info/recommendation/"
+     }
+    ],
+    "note": "2026-11-16 大学公式「一般選抜」ページで令和9年度一般選抜の出願期間1/25〜2/3を確認。専攻別の試験日・合格発表3/20・手続締切3/27と推薦の日程はマナビジョン（2027年度）。学費は大学公式「授業料・奨学金、生活費のめやす」で入学金（市内282,000/市外423,000円）・授業料535,800円・成美会費60,000円・学生自治会費10,000円・研修旅行費100,000〜300,000円が既存と一致。"
+   },
+   "sources": [
+    "https://www.kanazawa-bidai.ac.jp/admission-info/general/",
+    "https://manabi.benesse.ne.jp/daigaku/school/2105/nyushi/index.html",
+    "https://www.kanazawa-bidai.ac.jp/admission/payment/"
+   ]
+  }
+ },
+ {
+  "name": "天理大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期）",
+      "apply": "12/22〜1/21",
+      "exam": "2/2・2/3",
+      "result": "2/10",
+      "proc": "1次2/24・2次3/12",
+      "fee": null,
+      "note": ""
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（後期）",
+      "apply": "2/22〜3/4",
+      "exam": "3/11",
+      "result": "3/16",
+      "proc": "3/24",
+      "fee": null,
+      "note": ""
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（前期）",
+      "apply": "12/22〜1/21",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/10",
+      "proc": "1次2/24・2次3/12",
+      "fee": null,
+      "note": ""
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（中期）",
+      "apply": "2/4〜2/19",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/26",
+      "proc": "3/12",
+      "fee": null,
+      "note": ""
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（後期）",
+      "apply": "2/22〜3/4",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/16",
+      "proc": "3/24",
+      "fee": null,
+      "note": ""
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜・共通テスト併用選抜",
+      "apply": "",
+      "exam": "3/11",
+      "result": "3/16",
+      "proc": "",
+      "fee": null,
+      "note": "大学公式の入試カレンダー（試験日・発表日のみ確認）",
+      "url": "https://www.tenri-u.ac.jp/ent/calendar/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募制）A日程",
+      "apply": "",
+      "exam": "11/19・11/20",
+      "result": "12/1",
+      "proc": "",
+      "fee": null,
+      "note": "2026年。大学公式の入試カレンダー（試験日・発表日のみ確認）",
+      "url": "https://www.tenri-u.ac.jp/ent/calendar/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募制）B日程",
+      "apply": "",
+      "exam": "12/12",
+      "result": "12/18",
+      "proc": "",
+      "fee": null,
+      "note": "2026年。大学公式の入試カレンダー（試験日・発表日のみ確認）",
+      "url": "https://www.tenri-u.ac.jp/ent/calendar/"
+     }
+    ],
+    "note": "2026-11-16 大学公式「入試カレンダー」で一般前期（2/2・2/3、発表2/10）・後期（3/11、発表3/16）、共テ利用前期・中期・後期の発表日（2/10・2/26・3/16）が既存と一致。共テ併用・公募推薦A/Bの試験日・発表日を追加。"
+   },
+   "sources": [
+    "https://www.tenri-u.ac.jp/ent/calendar/"
+   ]
+  }
+ },
+ {
+  "name": "奈良学園大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期日程①・②",
+      "apply": "12/21〜1/13",
+      "exam": "1/23（①）・1/24（②）",
+      "result": "2/8",
+      "proc": "1次2/12・2次3/9",
+      "fee": null,
+      "url": "https://www.naragakuen-u.jp/nyushi/examination/schedule/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期日程",
+      "apply": "1/18〜2/17",
+      "exam": "2/27",
+      "result": "3/4",
+      "proc": "1次3/12・2次3/19",
+      "fee": null,
+      "url": "https://www.naragakuen-u.jp/nyushi/examination/schedule/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 前期",
+      "apply": "12/21〜1/13",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/8",
+      "proc": "1次2/12・2次3/9",
+      "fee": null,
+      "note": "人間教育学部中等音楽専修は音楽実技1/23または1/24",
+      "url": "https://www.naragakuen-u.jp/nyushi/examination/schedule/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 後期",
+      "apply": "1/18〜2/17",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/4",
+      "proc": "1次3/12・2次3/19",
+      "fee": null,
+      "note": "人間教育学部中等音楽専修は音楽実技2/27",
+      "url": "https://www.naragakuen-u.jp/nyushi/examination/schedule/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募制）A日程",
+      "apply": "10/16〜10/28",
+      "exam": "11/7",
+      "result": "11/12",
+      "proc": "1次11/24・2次12/4",
+      "note": "2026年",
+      "url": "https://www.naragakuen-u.jp/nyushi/examination/schedule/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募制）B日程",
+      "apply": "11/1〜11/11",
+      "exam": "11/21",
+      "result": "12/1",
+      "proc": "1次12/14・2次12/25",
+      "note": "2026年",
+      "url": "https://www.naragakuen-u.jp/nyushi/examination/schedule/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募制）C日程",
+      "apply": "11/23〜12/2",
+      "exam": "12/12",
+      "result": "12/17",
+      "proc": "1次1/8・2次1/18",
+      "note": "出願〜発表は2026年",
+      "url": "https://www.naragakuen-u.jp/nyushi/examination/schedule/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（AO入試）1期",
+      "apply": "9/1〜9/9",
+      "exam": "9/19",
+      "result": "11/2",
+      "proc": "1次11/10・2次11/27",
+      "note": "2026年。エントリー7/1〜9/1",
+      "url": "https://www.naragakuen-u.jp/nyushi/examination/schedule/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（AO入試）2期",
+      "apply": "10/2〜10/14",
+      "exam": "10/24",
+      "result": "11/2",
+      "proc": "1次11/10・2次11/27",
+      "note": "2026年。エントリー9/4〜10/6",
+      "url": "https://www.naragakuen-u.jp/nyushi/examination/schedule/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（AO入試）3期",
+      "apply": "11/6〜11/18",
+      "exam": "11/28",
+      "result": "12/3",
+      "proc": "1次12/14・2次1/8",
+      "note": "エントリー10/9〜11/9",
+      "url": "https://www.naragakuen-u.jp/nyushi/examination/schedule/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（AO入試）4期",
+      "apply": "1/18〜2/17",
+      "exam": "2/27",
+      "result": "3/4",
+      "proc": "1次3/12・2次3/19",
+      "note": "エントリー12/1〜2/1",
+      "url": "https://www.naragakuen-u.jp/nyushi/examination/schedule/"
+     }
+    ],
+    "note": "2026-11-16 大学公式「入試日程」で一般前期・後期、共テ利用前期・後期が既存と一致。公募推薦A〜C・総合型1〜4期を追加。検定料はページに記載なし。"
+   },
+   "sources": [
+    "https://www.naragakuen-u.jp/nyushi/examination/schedule/"
+   ]
+  }
+ },
+ {
+  "name": "比治山大学",
+  "story": {
+   "summary": "広島市にある現代文化学部と健康栄養学部の大学で、心理（公認心理師対応）、小学校・幼稚園・保育、管理栄養士、メディアや観光など、資格や職業につながる学科がそろっています。2027年には絵画やマンガ・キャラクター、映像・アニメーション・ゲームまで扱う美術学科の新設を構想中（届出中）です。広島で教育・保育や心理、栄養、美術・メディアを学びたい生徒に話しやすい大学です。",
+   "only": [
+    {
+     "t": "美術学科（2027年新設・届出中）は絵画・グラフィックデザイン・マンガ・キャラクター・映像・アニメーション・ゲーム・セラミックデザインなどを扱い、2年次までに複数分野を体験して3年次からゼミで専門を深める。",
+     "src": "https://passnavi.obunsha.co.jp/univ/4725/department/"
+    },
+    {
+     "t": "子ども発達教育学科で小学校教諭一種・幼稚園教諭一種・保育士資格の取得をめざせ、少人数指導と現場体験を重視している。",
+     "src": "https://passnavi.obunsha.co.jp/univ/4725/department/"
+    },
+    {
+     "t": "健康栄養学科は管理栄養士・栄養士の養成課程で、食品分野の資格フードサイエンティストもめざせる。",
+     "src": "https://passnavi.obunsha.co.jp/univ/4725/department/"
+    }
+   ],
+   "vs": [
+    {
+     "u": "広島文教大学",
+     "t": "広島文教大学は教育学部と人間科学部（心理・人間栄養など）で教育・心理・栄養を学ぶが、比治山大学はこれらに加えて社会デザイン学科（メディア・観光・情報・ビジネス）や美術学科（構想中）もあり、同じ大学で文化・メディア系も選べる。",
+     "src": "https://search.keinet.ne.jp/2638"
+    },
+    {
+     "u": "広島修道大学",
+     "t": "広島修道大学は商・法・経済・農学部など7学部の総合大学で健康科学部に心理学科・健康栄養学科を置くが、比治山大学は2学部の大学で、心理は公認心理師対応の社会臨床心理学科、栄養は管理栄養士養成の健康栄養学部として学ぶ。",
+     "src": "https://search.keinet.ne.jp/2635/general/schedule"
+    }
+   ]
+  }
+ },
+ {
+  "name": "環太平洋大学",
+  "story": {
+   "summary": "岡山市にある、教育・体育・経済経営・国際経済経営の4学部の大学です。教育学科は特許を取得した模擬教室「コーチングラボ」と1年次からの学校現場経験、体育学部はスポーツ科学センター「INSPIRE」や附属鍼灸整骨院での実習など、実践の場が用意されています。教員・保育者、アスリートやトレーナー、柔道整復師、スポーツビジネスなどをめざす生徒に話しやすい大学です。",
+   "only": [
+    {
+     "t": "教育学科は特許を取得した模擬教室「コーチングラボ」で指導力を養い、1年次から学校現場での経験を積む。",
+     "src": "https://passnavi.obunsha.co.jp/univ/4667/department/"
+    },
+    {
+     "t": "こども発達学科で「ニュージーランド保育実習」を行い、保育士資格・幼稚園教諭一種免許状を含むトリプル免許・資格の取得をめざせる。",
+     "src": "https://passnavi.obunsha.co.jp/univ/4667/department/"
+    },
+    {
+     "t": "競技スポーツ科学科はスポーツ科学センター「INSPIRE」の最先端機器で1年次から測定・分析を学び、健康科学科は附属鍼灸整骨院などで臨床実習を行い柔道整復師をめざす。",
+     "src": "https://passnavi.obunsha.co.jp/univ/4667/department/"
+    }
+   ],
+   "vs": [
+    {
+     "u": "吉備国際大学",
+     "t": "吉備国際大学は社会科学部にスポーツ社会学科を置くが、環太平洋大学は体育学部に体育学科・競技スポーツ科学科・健康科学科（柔道整復師）の3学科があり、教員・アスリート・トレーナーなど目標に合わせて選べる。",
+     "src": "https://search.keinet.ne.jp/2617/outline/expense"
+    },
+    {
+     "u": "就実大学",
+     "t": "就実大学は教育学部教育学科で教員を養成するが、環太平洋大学は次世代教育学部に教育学科とこども発達学科を置き、保育者養成ではニュージーランド保育実習も行う。",
+     "src": "https://search.keinet.ne.jp/2619/outline/expense"
+    }
+   ]
+  }
+ }
+]
