@@ -68404,7 +68404,8 @@
 "https://search.keinet.ne.jp/2272/outline/admission_employment",
 "https://www.jwu.ac.jp/unv/admission/exam/general.html",
 "https://www.jwu.ac.jp/unv/admission/exam/center.html",
-"https://passnavi.obunsha.co.jp/univ/2980/department/"
+"https://passnavi.obunsha.co.jp/univ/2980/department/",
+"https://www.jwu.ac.jp/unv/admission/exam/about_entaranceexam.html"
 ],
 "licenses": [
 "教員免許（小・中・高・栄養）",
@@ -68699,7 +68700,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-08",
+"schedule": "2026-11-17",
 "money": "2026-11-08",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
@@ -69108,6 +69109,24 @@
 "schedule": {
 "year": "2027年度入試（大学公式。検定料は未確認）",
 "rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜",
+"apply": "9/7〜9/15",
+"exam": "10/25",
+"result": "11/2",
+"proc": "11/13",
+"url": "https://www.jwu.ac.jp/unv/admission/exam/about_entaranceexam.html"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制）",
+"apply": "11/1〜11/19",
+"exam": "12/6",
+"result": "12/11",
+"proc": "12/18",
+"url": "https://www.jwu.ac.jp/unv/admission/exam/about_entaranceexam.html"
+},
 {
 "kubun": "一般",
 "name": "一般 個別選抜型・英語外部試験利用型（文・国際文化・経済・家政・人間社会）",
@@ -69941,7 +69960,8 @@
 "https://search.keinet.ne.jp/2766/general/exam_fee",
 "https://search.keinet.ne.jp/2766/outline/expense",
 "https://search.keinet.ne.jp/2766/outline/admission_employment",
-"https://passnavi.obunsha.co.jp/univ/5142/department/"
+"https://passnavi.obunsha.co.jp/univ/5142/department/",
+"https://manabi.benesse.ne.jp/daigaku/school/3948/nyushi/gokaku-happyo/index.html"
 ],
 "kyotsu": {
 "kamoku": "1教科1科目〜6教科8科目",
@@ -70451,7 +70471,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-08",
+"schedule": "2026-11-17",
 "money": "2026-11-08",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
@@ -70635,12 +70655,12 @@
 "note": "学部名はKei-Net表記（学科名は学部名に準じて記載）"
 },
 "schedule": {
-"year": "2027年度入試（出願は締切日のみ。Kei-Net）／検定料は2026年度入試",
+"year": "2027年度入試（日程はマナビジョン・Kei-Net）／検定料は2026年度入試",
 "rows": [
 {
 "kubun": "共テ利用",
 "name": "共テ 2月入試（2科目型・3教科型・5科目型・8科目型）",
-"apply": "〜1/15（消印有効）",
+"apply": "1/6〜1/15",
 "exam": "",
 "result": "2/17",
 "proc": "3/1",
@@ -70650,7 +70670,7 @@
 {
 "kubun": "共テ利用",
 "name": "共テ 3月入試（3教科型・5科目型）",
-"apply": "〜3/6（消印有効）",
+"apply": "2/12〜3/6",
 "exam": "",
 "result": "3/17",
 "proc": "3/23",
@@ -70660,7 +70680,7 @@
 {
 "kubun": "共テ併用",
 "name": "共テ＋英国",
-"apply": "〜1/26（消印有効）",
+"apply": "1/6〜1/26",
 "exam": "2/8・2/9から選択",
 "result": "2/20",
 "proc": "3/1",
@@ -70670,7 +70690,7 @@
 {
 "kubun": "共テ併用",
 "name": "共テ＋探究",
-"apply": "〜1/22（消印有効）",
+"apply": "1/6〜1/22",
 "exam": "2/5",
 "result": "2/20",
 "proc": "3/1",
@@ -70680,7 +70700,7 @@
 {
 "kubun": "共テ併用",
 "name": "共テ＋面接",
-"apply": "〜2/26（消印有効）",
+"apply": "2/12〜2/26",
 "exam": "3/1〜3/4から選択",
 "result": "3/17",
 "proc": "3/23",
@@ -70690,7 +70710,7 @@
 {
 "kubun": "一般",
 "name": "一般 スタンダード3",
-"apply": "〜1/22（消印有効）",
+"apply": "1/6〜1/22",
 "exam": "2/1〜2/4から選択",
 "result": "2/17",
 "proc": "3/1",
@@ -70700,7 +70720,7 @@
 {
 "kubun": "一般",
 "name": "一般 英語重視方式",
-"apply": "〜1/26（消印有効）",
+"apply": "1/6〜1/26",
 "exam": "2/7",
 "result": "2/20",
 "proc": "3/1",
@@ -70710,7 +70730,7 @@
 {
 "kubun": "一般",
 "name": "一般 後期",
-"apply": "〜2/26（消印有効）",
+"apply": "2/12〜2/26",
 "exam": "3/7",
 "result": "3/17",
 "proc": "3/23",
@@ -188971,10 +188991,10 @@ null
 "careers": "2026-11-07",
 "ratios": "2026-11-09",
 "fdiff": "2026-11-09",
-"methods": "2026-11-09",
-"schedule": "2026-11-09",
-"money": "2026-11-09",
-"_via": "2026-11-09"
+"methods": "2026-11-17",
+"schedule": "2026-11-17",
+"money": "2026-11-17",
+"_via": "2026-11-17"
 },
 "faculties": [
 "看護学部"
@@ -189039,7 +189059,9 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/2328/nyushi/hoshiki/gakkou-suisen/",
 "https://www.oita-nhs.ac.jp/site/examination/documents.html",
 "https://www.oita-nhs.ac.jp/uploaded/attachment/4126.pdf",
-"https://aoskillpass.com/nyushi/oita-nursing-health-sciences-recommendation-heigan-2027/"
+"https://aoskillpass.com/nyushi/oita-nursing-health-sciences-recommendation-heigan-2027/",
+"https://www.oita-nhs.ac.jp/uploaded/attachment/4140.pdf",
+"https://www.oita-nhs.ac.jp/uploaded/attachment/4120.pdf"
 ],
 "ratios": {
 "kind": "実質倍率（推薦はKei-Netの受験者÷合格者。一般・全体は外部塾サイト記載値で算出基準未明記）",
@@ -189096,29 +189118,32 @@ null
 {
 "kubun": "一般",
 "name": "前期日程",
-"kyotsu": "5〜6教科6〜7科目（550点：国100・理100・英200・数50等）",
-"niji": "小論文、面接（230点）",
+"kyotsu": "国・地公・数・情・理・英（550点：英200・国100・理100・数/情100ほか）",
+"niji": "小論文（200点）、面接（30点）",
 "haiten": "550:230",
-"note": "募集人員40名"
+"note": "募集人員40名（私費外国人留学生若干名を含む）。面接が一定基準に達しない場合は不合格",
+"url": "https://www.oita-nhs.ac.jp/uploaded/attachment/4140.pdf"
 },
 {
 "kubun": "一般",
 "name": "後期日程",
-"kyotsu": "4教科4〜5科目（500点）",
-"niji": "小論文、面接（230点）",
+"kyotsu": "英語（200点）必須＋国・地公・数・情・理から高得点の3教科（各100点）（500点）",
+"niji": "小論文（200点）、面接（30点）",
 "haiten": "500:230",
-"note": "募集人員10名"
+"note": "募集人員10名",
+"url": "https://www.oita-nhs.ac.jp/uploaded/attachment/4140.pdf"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜",
-"content": "小論文（200点・英語の要素を含む、120分）、面接（30点）、活動報告書（20点）",
-"req": "大分県内高校・県内居住、現役、評定4.0以上",
+"content": "小論文（200点・120分、英和辞書1冊持込可）、面接等（50点・活動報告書20点を含む）",
+"req": "大分県内の高校等を令和9年3月卒業見込み（2026/4/1以前から県内居住で県外高校在学も可）、評定4.0以上、専願、学校長推薦（人数制限なし）",
 "kyotsu": "課さない",
-"note": "募集人員30名。総合型選抜は実施なし"
+"note": "募集人員30名（社会人選抜若干名を含む）。総合型選抜は実施なし",
+"url": "https://www.oita-nhs.ac.jp/uploaded/attachment/4120.pdf"
 }
 ],
-"summary": "一般選抜は前期（5〜6教科550点）・後期（4教科500点）とも個別試験が小論文・面接（230点）のみで学科試験は課さない。学校推薦型選抜は県内現役生対象・共通テストなしで、英語要素を含む小論文が250点中200点を占める。",
+"summary": "一般選抜は前期（共テ550点）・後期（英語＋高得点3教科の500点）とも個別試験は小論文200点・面接30点で学科試験はない。学校推薦型は大分県内高校の現役生対象で共通テストなし、小論文200点・面接等50点。",
 "note": ""
 },
 "schedule": {
@@ -189130,8 +189155,10 @@ null
 "apply": "1/25〜2/3",
 "exam": "2/25",
 "result": "3/5",
-"proc": "3/15",
-"note": ""
+"proc": "3/6〜3/15",
+"fee": 17000,
+"note": "検定料は入学考査料17,000円＋システム利用料694円。大学公式の令和9年度募集要項",
+"url": "https://www.oita-nhs.ac.jp/uploaded/attachment/4140.pdf"
 },
 {
 "kubun": "一般",
@@ -189139,8 +189166,10 @@ null
 "apply": "1/25〜2/3",
 "exam": "3/12",
 "result": "3/20",
-"proc": "3/27",
-"note": ""
+"proc": "3/21〜3/27",
+"fee": 17000,
+"note": "出願は前期と同じく2/3消印まで。大学公式の令和9年度募集要項",
+"url": "https://www.oita-nhs.ac.jp/uploaded/attachment/4140.pdf"
 },
 {
 "kubun": "推薦",
@@ -189148,8 +189177,10 @@ null
 "apply": "11/1〜11/6",
 "exam": "11/21",
 "result": "12/7",
-"proc": "12/21",
-"note": "入学手続期間は12/8〜12/21。総合型選抜は実施なし"
+"proc": "12/8〜12/21",
+"fee": 17000,
+"note": "総合型選抜は実施なし。大学公式の令和9年度募集要項",
+"url": "https://www.oita-nhs.ac.jp/uploaded/attachment/4120.pdf"
 }
 ]
 },
@@ -189159,7 +189190,7 @@ null
 "total4_note": "入学料（県内者）232,000円＋授業料4年分2,143,200円（その他の諸経費除く）",
 "admission": 232000,
 "annual": 535800,
-"note": "県外者（その他の者）の入学料は332,000円（県内者との差額+100,000円）。授業料は年額535,800円（前期267,900円・後期267,900円の年2回納付）。入学料＋授業料のみの初年度計は県内767,800円・県外867,800円。このほか令和8（2026）年度実績として後援会費（4年間50,000円）、自治会費（4年間20,000円）、学生教育研究災害傷害保険料（4年間3,370円）、学研災付帯学生生活総合保険等がかかる（Kei-Netは設備/実習/諸会費等20,000円、保険料40,270円、後援会費を記載）。2027年度分は未確認。",
+"note": "県外者（その他の者）の入学料は332,000円（県内者との差額+100,000円）。授業料は年額535,800円（前期267,900円・後期267,900円の年2回納付）。入学料＋授業料のみの初年度計は県内767,800円・県外867,800円。このほか令和8（2026）年度実績として後援会費（4年間50,000円）、自治会費（4年間20,000円）、学生教育研究災害傷害保険料（4年間3,370円）、学研災付帯学生生活総合保険等がかかる（Kei-Netは設備/実習/諸会費等20,000円、保険料40,270円、後援会費を記載）。2027年度分は未確認。 2026-11-17 大学公式の令和9年度一般選抜募集要項で入学料（県内232,000円・県外332,000円、令和8年度実績）・授業料年額535,800円が一致。",
 "rows": [
 {
 "f": "看護学部",
@@ -189174,7 +189205,7 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai-verified"
 },
 "宮崎公立大学": {
 "difficulty": {
@@ -189191,9 +189222,11 @@ null
 "licenses": "2026-11-07",
 "ratios": "2026-11-09",
 "fdiff": "2026-11-09",
-"methods": "2026-11-09",
-"schedule": "2026-11-09",
-"_via": "2026-11-09"
+"methods": "2026-11-17",
+"schedule": "2026-11-17",
+"_via": "2026-11-17",
+"money": "2026-11-17",
+"scholar": "2026-11-17"
 },
 "faculties": [
 "人文学部"
@@ -189243,7 +189276,10 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/2335/nyushi/hoshiki/gakkou-suisen/",
 "https://www.miyazaki-mu.ac.jp/entrance/entrance-exam/general.html",
 "https://telemail.jp/shingaku/university/10003506/examination/general",
-"https://aoaoi.jp/preparation/miyazaki-mu/"
+"https://aoaoi.jp/preparation/miyazaki-mu/",
+"https://www.miyazaki-mu.ac.jp/entrance/entrance-exam/school-recommendation/sr01.html",
+"https://www.miyazaki-mu.ac.jp/entrance/entrance-exam/school-recommendation/sr02.html",
+"https://www.miyazaki-mu.ac.jp/entrance/outline/know/tuition-fee.html"
 ],
 "ratios": {
 "kind": "実質倍率（Kei-Netは受験者÷合格者。一般選抜合計・全選抜合計は外部塾サイト記載値で算出基準未明記）",
@@ -189314,37 +189350,50 @@ null
 {
 "kubun": "一般",
 "name": "前期日程（国際文化学科）",
-"kyotsu": "3教科3〜4科目（650点）",
-"niji": "個別試験1教科・調査書等（210点）",
+"kyotsu": "国200・英250（R150・L100）・地公/数/理/情から最高得点1科目200（650点）",
+"niji": "英語（200点）、調査書（10点）",
 "haiten": "650:210",
-"note": "募集人員60名"
+"note": "募集人員60名",
+"url": "https://www.miyazaki-mu.ac.jp/entrance/entrance-exam/general.html"
 },
 {
 "kubun": "一般",
 "name": "前期日程（国際情報学科）",
-"kyotsu": "3教科3〜4科目（650点）",
-"niji": "総合問題、調査書等（210点）",
+"kyotsu": "国200・英250（R150・L100）・地公/数/理/情から最高得点1科目200（650点）",
+"niji": "総合問題（英語・情報の内容を含む、200点）、調査書（10点）",
 "haiten": "650:210",
-"note": "2027年度新増設。募集人員20名"
+"note": "2027年度新設。募集人員20名",
+"url": "https://www.miyazaki-mu.ac.jp/entrance/entrance-exam/general.html"
 },
 {
 "kubun": "一般",
 "name": "後期日程（国際文化・国際情報）",
-"kyotsu": "3教科3〜4科目（650点）",
-"niji": "小論文、調査書等（105点）",
+"kyotsu": "前期と同じ（650点）",
+"niji": "小論文（100点）、調査書（5点）",
 "haiten": "650:105",
-"note": "募集人員：国際文化15名、国際情報5名"
+"note": "募集人員：国際文化15名、国際情報5名",
+"url": "https://www.miyazaki-mu.ac.jp/entrance/entrance-exam/general.html"
 },
 {
 "kubun": "推薦",
-"name": "学校推薦型選抜（Ⅰ県内枠・Ⅱ全国枠）",
-"content": "小論文（90点）、面接（90点）、調査書等（60点）",
-"req": "Ⅰ＝県内枠、Ⅱ＝全国枠（評定等の詳細出願要件は未確認）",
+"name": "学校推薦型選抜Ⅰ（県内）",
+"content": "小論文（90点・60分）、個人面接（90点）、書類審査（60点）",
+"req": "宮崎県内の高校等の卒業見込み・卒業者、評定4.0以上、英語の評定4.3以上または英検準2級以上（所定のCSE）、専願、他の国公立推薦と併願不可",
 "kyotsu": "課さない",
-"note": "総合型選抜は実施なし"
+"note": "Ⅱとの併願・両学科の併願は不可",
+"url": "https://www.miyazaki-mu.ac.jp/entrance/entrance-exam/school-recommendation/sr01.html"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜Ⅱ（全国）",
+"content": "小論文（90点・60分）、個人面接（90点）、書類審査（60点）",
+"req": "高校等の卒業見込み・卒業者（地域制限なし）、評定4.0以上、英語の評定4.3以上または英検準2級以上（所定のCSE）、専願",
+"kyotsu": "課さない",
+"note": "総合型選抜は実施なし",
+"url": "https://www.miyazaki-mu.ac.jp/entrance/entrance-exam/school-recommendation/sr02.html"
 }
 ],
-"summary": "2027年度より国際情報学科を新増設し2学科体制となる。一般選抜は3教科型の共通テスト（650点）に、前期は国際文化が個別1教科・国際情報が総合問題（各210点）、後期は両学科とも小論文（105点）を課し、総合型はなく学校推薦型（共通テストなし）を実施する。",
+"summary": "2027年度に国際情報学科を新設し2学科体制。一般選抜は共通テスト650点（国・英＋最高得点1科目）に、前期は国際文化が英語・国際情報が総合問題（各200点）、後期は小論文。推薦はⅠ（県内）・Ⅱ（全国）とも評定4.0以上・英語の基準あり、共通テストなし。",
 "note": ""
 },
 "schedule": {
@@ -189356,8 +189405,9 @@ null
 "apply": "1/25〜2/3",
 "exam": "2/25",
 "result": "3/5",
-"proc": "3/15",
-"note": "国際文化学科・国際情報学科共通"
+"proc": "3/5〜3/15",
+"note": "国際文化学科・国際情報学科共通（併願不可）。大学公式",
+"url": "https://www.miyazaki-mu.ac.jp/entrance/entrance-exam/general.html"
 },
 {
 "kubun": "一般",
@@ -189365,21 +189415,74 @@ null
 "apply": "1/25〜2/3",
 "exam": "3/12",
 "result": "3/20",
-"proc": "3/27",
-"note": "国際文化学科・国際情報学科共通"
+"proc": "3/20〜3/27",
+"note": "両学科共通。後期の出願期間は公式ページに記載なし（前期と同じ期間の外部AIのデータ）",
+"url": "https://www.miyazaki-mu.ac.jp/entrance/entrance-exam/general.html"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜（Ⅰ・Ⅱ）",
 "apply": "11/1〜11/7",
-"exam": "",
-"result": "",
-"proc": "",
-"note": "試験日・合格発表日・手続締切日は未確認。総合型選抜は実施なし"
+"exam": "11/21〜11/24のいずれか（受験票で通知）",
+"result": "12/9",
+"proc": "12/9〜12/17",
+"note": "インターネット出願・当日消印有効。総合型選抜は実施なし。大学公式",
+"url": "https://www.miyazaki-mu.ac.jp/entrance/entrance-exam/school-recommendation/sr01.html"
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai-verified",
+"money": {
+"year": "2026年度（大学公式）",
+"total4": 2372200,
+"total4_note": "入学料（管内者）229,000円＋授業料4年分2,143,200円（諸会費除く）",
+"admission": 229000,
+"annual": 535800,
+"note": "入学料は管内者（宮崎市・国富町・綾町に本人または1親等の親族が住所）229,000円、管外者335,000円。授業料は年額535,800円（前期・後期各267,900円）。ほかに後援会費50,000円（在学期間分）・同窓会入会費20,000円・学研災保険料等4,010円（4年分）。2027年度分は未確認。",
+"rows": [
+{
+"f": "人文学部",
+"admission": 229000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": 74010,
+"first_year": 838810,
+"four_year": null,
+"note": "otherは後援会費50,000円＋同窓会入会費20,000円＋保険料等4,010円。管外者は入学料335,000円・初年度944,810円"
+}
+]
+},
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "成績優秀者入学料奨学制度",
+"kind": "減免",
+"target": "全学部",
+"amount": "入学料相当額を免除",
+"timing": "入試時",
+"cond": "一般選抜前期の上位5名・後期の上位2名"
+},
+{
+"name": "成績優秀者授業料奨学制度",
+"kind": "減免",
+"target": "全学部",
+"amount": "授業料年額の半額",
+"timing": "在学中",
+"cond": "2〜4年生で前年度の成績が学年上位3名"
+},
+{
+"name": "修学支援入学料減免制度",
+"kind": "減免",
+"target": "全学部",
+"amount": "入学料相当額を免除",
+"timing": "入学前",
+"cond": "入学前1年以内の学資負担者の死亡・風水害等の被災で世帯収入が基準以下"
+}
+],
+"note": "令和9年4月の新学科設置に伴い一部制度が変更される予定（大学公式）。私費外国人留学生向けの制度は省略"
+}
 },
 "宮崎県立看護大学": {
 "difficulty": {
