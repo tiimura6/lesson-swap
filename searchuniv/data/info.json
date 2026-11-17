@@ -39817,7 +39817,8 @@
 "https://www.aoyama.ac.jp/life/expenses/tuition_revision/",
 "https://search.keinet.ne.jp/2200/general/exam_fee",
 "https://search.keinet.ne.jp/2200/outline/licential",
-"https://search.keinet.ne.jp/2200/outline/admission_employment"
+"https://search.keinet.ne.jp/2200/outline/admission_employment",
+"https://manabi.benesse.ne.jp/daigaku/school/3231/nyushi/gokaku-happyo/"
 ],
 "kyotsu": {
 "kamoku": "1教科1科目（個別学部B方式）〜5教科6科目（史学科6科目型）",
@@ -39997,7 +39998,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-08",
+"schedule": "2026-11-17",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -40509,7 +40510,8 @@
 "proc": "2/25",
 "note": "延納者の入学完了手続締切：3月16日（火）"
 }
-]
+],
+"note": "2026-11-17 マナビジョン（2027年度入試）で全学部日程・個別学部日程・共通テスト利用の出願・試験・発表・手続の日付を再確認（変更なし）。"
 },
 "money": {
 "year": "2026年度",
@@ -51044,7 +51046,8 @@
 "https://passnavi.obunsha.co.jp/univ/4950/eiken/?facultyID=025",
 "https://passnavi.obunsha.co.jp/univ/4950/eiken/?facultyID=030",
 "https://passnavi.obunsha.co.jp/univ/4950/eiken/?facultyID=035",
-"https://passnavi.obunsha.co.jp/univ/4950/eiken/?facultyID=040"
+"https://passnavi.obunsha.co.jp/univ/4950/eiken/?facultyID=040",
+"https://manabi.benesse.ne.jp/daigaku/school/3878/nyushi/gokaku-happyo/"
 ],
 "licenses": [
 "教員免許（幼・小・中・高 英語・社会・宗教・商業ほか）",
@@ -51260,7 +51263,7 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-08",
+"schedule": "2026-11-17",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -51316,8 +51319,19 @@
 "exam": "1/16・17日（共テ）",
 "result": "2/24",
 "proc": "一括納入：3/3・分割納入：第1次3/3・第2次3/23"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用入試（後期：神学部を除く6学部）",
+"apply": "2/12〜2/28",
+"exam": "共通テスト（1/16・17）",
+"result": "3/10",
+"proc": "3/23",
+"note": "検定料は未確認",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3878/nyushi/gokaku-happyo/"
 }
-]
+],
+"note": "2026-11-17 マナビジョン（2027年度入試）で一般入試A日程・F日程・共テ利用前期の日程を再確認（変更なし）し、共テ利用後期を追加。"
 },
 "money": {
 "year": "2026年度",
@@ -177405,10 +177419,10 @@ null
 "ratios": "2026-11-09",
 "eng": "2026-11-09",
 "fdiff": "2026-11-09",
-"methods": "2026-11-09",
-"schedule": "2026-11-09",
-"money": "2026-11-09",
-"_via": "2026-11-09"
+"methods": "2026-11-17",
+"schedule": "2026-11-17",
+"money": "2026-11-17",
+"_via": "2026-11-17"
 },
 "departments": [
 {
@@ -177484,7 +177498,10 @@ null
 "https://search.keinet.ne.jp/1665/recommend/exam_rec",
 "https://passnavi.obunsha.co.jp/univ/1290/schedule/",
 "https://jyuke-labo.com/daigakujyukentaisaku/shimonosekishiritsudaigaku/keizaigakubu/",
-"https://jyuke-labo.com/daigakujyukentaisaku/shimonosekishiritsudaigaku/detasaiensugakubu/"
+"https://jyuke-labo.com/daigakujyukentaisaku/shimonosekishiritsudaigaku/detasaiensugakubu/",
+"https://www.shimonoseki-cu.ac.jp/wp-content/uploads/2026/07/2027_00.pdf",
+"https://www.shimonoseki-cu.ac.jp/nyushi/admiss/nyushi_guidelines",
+"https://www.shimonoseki-cu.ac.jp/wp-content/uploads/2026/03/guide_zenki.pdf"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）※看護学部掲載値は倍率種別未確認",
@@ -177625,87 +177642,151 @@ null
 "list": [
 {
 "kubun": "一般",
-"name": "経済学部 前期日程（Ａ方式・Ｂ方式）",
-"kyotsu": "",
-"niji": "小論文（Ａ方式「長文理解」／Ｂ方式「長文理解」「図表理解」）",
-"haiten": "",
-"note": "募集人員：経済学科44名・国際商学科44名・公共マネジメント学科18名（各Ａ方式・Ｂ方式の2方式）。共通テスト科目・配点は未確認"
+"name": "経済学部 前期日程 A方式（4教科型）",
+"kyotsu": "外国語・国語必須、数学①②から1科目以上、地歴・公民・理科・情報から1科目以上（600点：200・200・100・100）",
+"niji": "小論文（長文理解）150点",
+"haiten": "共テ600:個別150（計750点）",
+"note": "募集人員：経済22・国際商22・公共マネジメント9",
+"url": "https://www.shimonoseki-cu.ac.jp/wp-content/uploads/2026/07/2027_00.pdf"
 },
 {
 "kubun": "一般",
-"name": "経済学部 中期日程",
-"kyotsu": "",
+"name": "経済学部 前期日程 B方式（2〜3教科型）",
+"kyotsu": "外国語必須、国語・数学から高得点の方（500点）",
+"niji": "小論文（長文理解・図表理解）300点",
+"haiten": "共テ500:個別300（計800点）",
+"note": "募集人員はA方式と同数（経済22・国際商22・公共マネジメント9）",
+"url": "https://www.shimonoseki-cu.ac.jp/wp-content/uploads/2026/07/2027_00.pdf"
+},
+{
+"kubun": "一般",
+"name": "経済学部 公立大学中期日程（経済学科・公共マネジメント学科）",
+"kyotsu": "外国語・数学・国語・地歴・公民・理科・情報から高得点の3科目（600点）",
 "niji": "英語（筆記）200点",
-"haiten": "",
-"note": "募集人員：経済学科60名・国際商学科60名・公共マネジメント学科24名。共通テスト科目・配点比は未確認"
+"haiten": "共テ600:個別200（計800点）",
+"note": "募集人員：経済60・公共マネジメント24",
+"url": "https://www.shimonoseki-cu.ac.jp/wp-content/uploads/2026/07/2027_00.pdf"
+},
+{
+"kubun": "一般",
+"name": "経済学部 公立大学中期日程（国際商学科）",
+"kyotsu": "外国語必須、数学・国語・地歴・公民・理科・情報から高得点の2科目（600点）",
+"niji": "英語（筆記）200点",
+"haiten": "共テ600:個別200（計800点）",
+"note": "募集人員60",
+"url": "https://www.shimonoseki-cu.ac.jp/wp-content/uploads/2026/07/2027_00.pdf"
 },
 {
 "kubun": "一般",
 "name": "データサイエンス学部 前期日程",
-"kyotsu": "",
-"niji": "小論文（図表理解）",
-"haiten": "",
-"note": "募集人員35名。Kei-Net共通テストボーダー得点312（52%）。共通テスト科目・配点は未確認"
+"kyotsu": "外国語、数学①・②、国語・地歴・公民・理科・情報から2科目（600点。国語は100点に圧縮）",
+"niji": "小論文（図表理解）150点",
+"haiten": "共テ600:個別150（計750点）",
+"note": "募集人員35",
+"url": "https://www.shimonoseki-cu.ac.jp/wp-content/uploads/2026/07/2027_00.pdf"
 },
 {
 "kubun": "一般",
-"name": "データサイエンス学部 中期日程",
-"kyotsu": "",
-"niji": "数学200点",
-"haiten": "",
-"note": "募集人員15名。共通テスト科目・配点比は未確認"
+"name": "データサイエンス学部 公立大学中期日程",
+"kyotsu": "前期と同じ（600点）",
+"niji": "数学200点（数Ⅰ・Ⅱ全範囲、数A「図形の性質」「場合の数と確率」、数B「数列」「統計的な推測」）",
+"haiten": "共テ600:個別200（計800点）",
+"note": "募集人員15",
+"url": "https://www.shimonoseki-cu.ac.jp/wp-content/uploads/2026/07/2027_00.pdf"
 },
 {
 "kubun": "一般",
-"name": "看護学部 前期日程・中期日程",
-"kyotsu": "",
-"niji": "",
-"haiten": "",
-"note": "前期募集人員35名・中期実施をKei-Netで確認。科目・配点詳細は未確認"
+"name": "看護学部 前期日程",
+"kyotsu": "英語必須、国語、数学①、地歴・公民から1、理科から1（700点）",
+"niji": "小論文（図表理解）200点・面接",
+"haiten": "共テ700:個別200（計900点）",
+"note": "募集人員35。面接の配点は選抜要項に記載なし",
+"url": "https://www.shimonoseki-cu.ac.jp/wp-content/uploads/2026/07/2027_00.pdf"
+},
+{
+"kubun": "一般",
+"name": "看護学部 公立大学中期日程",
+"kyotsu": "前期と同じ（700点）",
+"niji": "面接200点",
+"haiten": "共テ700:個別200（計900点）",
+"note": "募集人員8",
+"url": "https://www.shimonoseki-cu.ac.jp/wp-content/uploads/2026/07/2027_00.pdf"
 },
 {
 "kubun": "推薦",
-"name": "学校推薦型選抜",
-"content": "",
-"req": "",
-"kyotsu": "",
-"note": "Kei-Netで実施を確認。選考内容・出願要件・共通テスト有無は未確認"
+"name": "経済学部 全国推薦",
+"content": "出願書類・小論文（長文理解・図表理解）",
+"req": "評定平均3.8以上など、学校長の推薦、入学確約",
+"kyotsu": "課さない",
+"note": "募集人員：経済24・国際商24・公共マネジメント8",
+"url": "https://www.shimonoseki-cu.ac.jp/wp-content/uploads/2026/07/2027_00.pdf"
+},
+{
+"kubun": "推薦",
+"name": "経済学部 地域推薦A・B",
+"content": "A：出願書類・小論文（長文理解）・面接／B：出願書類・小論文（長文理解・図表理解）",
+"req": "A：指定校の卒業（見込み）・評定平均4.2以上／B：評定平均3.5以上・下関市在住などの要件。いずれも学校長の推薦・入学確約",
+"kyotsu": "課さない",
+"note": "募集人員（A・B計）：経済25・国際商25・公共マネジメント8",
+"url": "https://www.shimonoseki-cu.ac.jp/wp-content/uploads/2026/07/2027_00.pdf"
+},
+{
+"kubun": "推薦",
+"name": "データサイエンス学部 全国推薦・地域推薦",
+"content": "出願書類・小論文（図表理解）",
+"req": "全国：評定平均3.8以上など／地域：下関市・山陽小野田市の高校等の卒業（見込み）または下関市在住、評定平均3.5以上。学校長の推薦・入学確約",
+"kyotsu": "課さない",
+"note": "募集人員：全国15・地域15",
+"url": "https://www.shimonoseki-cu.ac.jp/wp-content/uploads/2026/07/2027_00.pdf"
+},
+{
+"kubun": "推薦",
+"name": "看護学部 全国推薦・地域推薦",
+"content": "出願書類・小論文（図表理解）・面接",
+"req": "評定平均3.5以上、学校長の推薦、入学確約。地域推薦は下関市・山陽小野田市・北九州市の高校等の卒業（見込み）または下関市在住で、地域の保健医療福祉に貢献する意志",
+"kyotsu": "課さない",
+"note": "募集人員：全国12・地域23",
+"url": "https://www.shimonoseki-cu.ac.jp/wp-content/uploads/2026/07/2027_00.pdf"
 }
 ],
-"summary": "一般選抜では前期日程と中期日程を実施し、前期は経済学部・データサイエンス学部で小論文、中期は経済学部で英語筆記・データサイエンス学部で数学を課す。共通テスト科目・配点、看護学部および推薦・総合型の詳細は未確認。",
-"note": "経済・データサイエンスの個別試験情報は2027年度入学者選抜概要＜予告＞（2026年5月公表）に基づく情報"
+"summary": "3学部とも一般選抜は前期日程と公立大学中期日程。経済学部の前期は小論文の種類が違うA方式・B方式、中期は英語の筆記。データサイエンス学部は前期が小論文、中期が数学。看護学部は前期が小論文と面接、中期が面接。学校推薦型は全国推薦と地域推薦（共通テストなし）。",
+"note": "2026-11-17 大学公式の2027年度入学者選抜要項で共通テスト科目・配点・個別試験・推薦要件を確認し、外部AIの「未確認」部分を埋めた。推薦の共通テストは要項に記載なし（課さない扱い）。"
 },
 "schedule": {
 "year": "2027年度入試",
 "rows": [
 {
-"kubun": "一般",
-"name": "前期日程",
-"apply": "1/25〜2/3",
-"exam": "2/25",
-"result": "3/6",
-"proc": "",
-"note": "経済学部・データサイエンス学部で確認（2027年度入学者選抜概要＜予告＞）。看護学部および手続締切日は未確認"
-},
-{
-"kubun": "一般",
-"name": "中期日程",
-"apply": "1/25〜2/3",
-"exam": "3/8",
-"result": "3/21",
-"proc": "3/27",
-"note": "パスナビおよび2027年度入学者選抜概要＜予告＞で確認（共通テスト1/16・17）。総合型選抜の日程は未確認"
-},
-{
 "kubun": "推薦",
-"name": "学校推薦型選抜",
-"apply": "〜11/9（消印有効）",
+"name": "学校推薦型選抜（全国推薦・地域推薦）",
+"apply": "11/2〜11/9",
 "exam": "11/21",
 "result": "12/4",
-"proc": "12/16",
-"note": "Kei-Netで確認。出願開始日は未確認"
+"proc": "12/7〜12/16",
+"note": "経済・データサイエンス・看護の3学部共通",
+"url": "https://www.shimonoseki-cu.ac.jp/wp-content/uploads/2026/07/2027_00.pdf"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期日程",
+"apply": "1/25〜2/3",
+"exam": "2/25（共テ1/16・17）",
+"result": "3/6",
+"proc": "3/9〜3/15",
+"note": "3学部で実施。検定料は入学者選抜要項に記載なし",
+"url": "https://www.shimonoseki-cu.ac.jp/wp-content/uploads/2026/07/2027_00.pdf"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 公立大学中期日程",
+"apply": "1/25〜2/3",
+"exam": "3/8（共テ1/16・17）",
+"result": "3/21",
+"proc": "3/22〜3/27",
+"note": "3学部で実施（日程は共通）",
+"url": "https://www.shimonoseki-cu.ac.jp/wp-content/uploads/2026/07/2027_00.pdf"
 }
-]
+],
+"note": "2026-11-17 大学公式の2027年度入学者選抜要項（2026年7月）と入試日程･募集人員ページで全日程を確認。総合型選抜は実施なし（選抜要項に記載なし）。"
 },
 "money": {
 "year": "2027年度予定",
@@ -177713,7 +177794,7 @@ null
 "total4_note": "入学金（県内）＋授業料4年",
 "admission": 141000,
 "annual": 535800,
-"note": "入学金は下関市内居住者（本人または配偶者・親が入学前年4月1日から引き続き市内に住所を有する者）が141,000円、市外者が282,000円で、一般選抜前期日程（A・B方式）および公立大学中期日程の成績優秀者は半額優遇あり（市内70,500円・市外141,000円）。授業料年額535,800円（半期267,900円）、入学時諸納金計64,010円（Kei-Net内訳：設備/実習/諸会費等37,000円、保険料4,010円、後援会費23,000円）を加えた初年度納入金は市内者740,810円、市外者881,810円（ノートPC別途必要）。",
+"note": "入学金は下関市内居住者（本人または配偶者・親が入学前年4月1日から引き続き市内に住所を有する者）が141,000円、市外者が282,000円で、一般選抜前期日程（A・B方式）および公立大学中期日程の成績優秀者は半額優遇あり（市内70,500円・市外141,000円）。授業料年額535,800円（半期267,900円）、入学時諸納金計64,010円（Kei-Net内訳：設備/実習/諸会費等37,000円、保険料4,010円、後援会費23,000円）を加えた初年度納入金は市内者740,810円、市外者881,810円（ノートPC別途必要）。 大学公式の2026年度入学手続案内（前期日程）で入学金（市内141,000円・市外282,000円）・授業料年額535,800円・諸納金64,010円（保険料4,010円・後援会費23,000円・学友会費17,000円・同窓会費20,000円）を確認（2026-11-17）。",
 "rows": [
 {
 "f": "経済学部・データサイエンス学部・看護学部（全学部共通）",
@@ -177728,7 +177809,7 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai-verified"
 },
 "公立鳥取環境大学": {
 "faculties": [
@@ -177746,8 +177827,8 @@ null
 "careers": "2026-11-07",
 "fdiff": "2026-11-09",
 "ratios": "2026-11-09",
-"methods": "2026-11-09",
-"schedule": "2026-11-09",
+"methods": "2026-11-17",
+"schedule": "2026-11-17",
 "money": "2026-11-09",
 "_via": "2026-11-09"
 },
@@ -177816,7 +177897,10 @@ null
 "https://www.kankyo-u.ac.jp/exam/r9/suisen2/",
 "https://www.kankyo-u.ac.jp/exam/r9/ryuugakusei",
 "https://passnavi.obunsha.co.jp/univ/4635/schedule/",
-"https://passnavi.obunsha.co.jp/univ/4635/kakomon/"
+"https://passnavi.obunsha.co.jp/univ/4635/kakomon/",
+"https://www.kankyo-u.ac.jp/exam/r9/",
+"https://manabi.benesse.ne.jp/daigaku/school/2235/nyushi/hoshiki/ippan/",
+"https://search.keinet.ne.jp/1646/recommend/exam_rec"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -177864,47 +177948,155 @@ null
 "year": "2027年度入試",
 "list": [
 {
-"kubun": "推薦",
-"name": "学校推薦型選抜（Ⅱ型）",
-"content": "",
-"req": "鳥取県内の高等学校を令和8(2026)年卒業または令和9(2027)年3月31日までに卒業見込みの者、学校長推薦、第1志望・入学確約",
-"kyotsu": "課す",
-"note": "令和9年度大学入学共通テストの本学指定科目受験が必要（環境学部10名・経営学部10名）。選考方法詳細は未確認"
+"kubun": "一般",
+"name": "環境学部 前期A方式",
+"kyotsu": "5教科6〜7科目（800点）：国・数・英必須、地歴公民・理科から選択",
+"niji": "1教科（200点）",
+"haiten": "共テ800:個別200",
+"note": "募集人員60",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2235/nyushi/hoshiki/ippan/"
+},
+{
+"kubun": "一般",
+"name": "環境学部 前期B方式",
+"kyotsu": "3教科3〜4科目（500点）：国・英必須、数学・理科から選択",
+"niji": "1教科（150点）",
+"haiten": "共テ500:個別150",
+"note": "募集人員10",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2235/nyushi/hoshiki/ippan/"
+},
+{
+"kubun": "一般",
+"name": "環境学部 後期",
+"kyotsu": "3教科4〜5科目（500点）：数学・英語・理科",
+"niji": "小論文（100点）",
+"haiten": "共テ500:個別100",
+"note": "募集人員5",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2235/nyushi/hoshiki/ippan/"
+},
+{
+"kubun": "一般",
+"name": "経営学部 前期A方式",
+"kyotsu": "4〜5教科5科目（700点）：国・英必須、数学・地歴公民・情報から選択",
+"niji": "1教科（200点）",
+"haiten": "共テ700:個別200",
+"note": "募集人員50",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2235/nyushi/hoshiki/ippan/"
+},
+{
+"kubun": "一般",
+"name": "経営学部 前期B方式",
+"kyotsu": "3教科3科目（500点）：国・英必須、数学・地歴公民・情報から選択",
+"niji": "1教科（150点）",
+"haiten": "共テ500:個別150",
+"note": "募集人員15",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2235/nyushi/hoshiki/ippan/"
+},
+{
+"kubun": "一般",
+"name": "経営学部 後期",
+"kyotsu": "2〜3教科3科目（400点）：英語必須、数学・地歴公民・情報から選択",
+"niji": "小論文（100点）",
+"haiten": "共テ400:個別100",
+"note": "募集人員10",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2235/nyushi/hoshiki/ippan/"
 },
 {
 "kubun": "推薦",
-"name": "学校推薦型選抜（Ⅰ型）",
-"content": "小論文",
-"req": "",
-"kyotsu": "",
-"note": "パスナビ過去問ページで環境学部での実施を確認。他学部・出願要件・共通テスト有無・2027年度詳細は未確認"
+"name": "学校推薦型選抜Ⅰ型",
+"content": "面接100・小論文100・書類審査（計200点）",
+"req": "現役・専願・学校長の推薦",
+"kyotsu": "課さない",
+"note": "募集人員：環境30・経営45（経営は鳥取県地域枠15・専門高校枠8を含む）",
+"url": "https://search.keinet.ne.jp/1646/recommend/exam_rec"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜Ⅱ型",
+"content": "面接150・書類審査＋共通テスト300（計450点）",
+"req": "鳥取県内の高校を卒業後1年以内（見込み含む）・専願・学校長の推薦",
+"kyotsu": "課す（環境5教科6科目・経営5教科5科目）",
+"note": "募集人員：環境10・経営10",
+"url": "https://search.keinet.ne.jp/1646/recommend/exam_rec"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜Ⅲ型（環境学部）",
+"content": "プレゼンテーション・書類審査",
+"req": "現役・専願・鳥取県内高校、資格取得の条件あり",
+"kyotsu": "課さない",
+"note": "募集人員15。配点はKei-Netに記載なし",
+"url": "https://search.keinet.ne.jp/1646/recommend/exam_rec"
 }
 ],
-"summary": "大学公式サイトで令和9年度学校推薦型選抜（Ⅱ型）が鳥取県内高校対象・共通テスト課す形式であることを確認。一般選抜および総合型選抜の具体的な科目・配点は未確認。",
-"note": "一般選抜・総合型選抜の科目・配点詳細は未確認"
+"summary": "一般選抜は前期（共テ科目数の多いA方式と少ないB方式）と後期（小論文）。学校推薦型はⅠ型（面接・小論文）、鳥取県内高校対象のⅡ型（共テあり）とⅢ型（環境学部・プレゼン）。総合型選抜も両学部で実施。",
+"note": "2026-11-17 大学公式の令和9年度入試ページ（募集人員・日程）、マナビジョン（一般選抜の科目・配点、2027年度）、Kei-Net（推薦、2027年度）で確認。個別試験の教科名・総合型の選考内容は未確認。"
 },
 "schedule": {
 "year": "2027年度入試",
 "rows": [
 {
-"kubun": "一般",
-"name": "一般選抜",
-"apply": "1/25〜2/3",
-"exam": "3/13",
-"result": "3/21",
-"proc": "3/27",
-"note": "パスナビで確認（共テ1/16・17、個別3/13）。前期・中期・後期の区分や他の日程、総合型選抜は未確認"
+"kubun": "総合型",
+"name": "総合型選抜",
+"apply": "9/17〜9/30",
+"exam": "10/17・10/18",
+"result": "11/2",
+"proc": "11/12",
+"note": "募集人員：環境20・経営20",
+"url": "https://www.kankyo-u.ac.jp/exam/r9/"
 },
 {
 "kubun": "推薦",
-"name": "学校推薦型選抜（Ⅱ型）",
+"name": "学校推薦型選抜Ⅰ型",
+"apply": "11/2〜11/11",
+"exam": "11/28・11/29",
+"result": "12/7",
+"proc": "12/21",
+"note": "募集人員：環境30・経営45",
+"url": "https://www.kankyo-u.ac.jp/exam/r9/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜Ⅲ型（環境学部のみ）",
+"apply": "11/2〜11/10",
+"exam": "11/21・11/22のいずれか1日",
+"result": "12/7",
+"proc": "12/21",
+"note": "鳥取県内高校出身者。募集人員15",
+"url": "https://www.kankyo-u.ac.jp/exam/r9/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜Ⅱ型",
 "apply": "1/18〜1/26",
-"exam": "1/31",
+"exam": "1/31（共テ1/16・17）",
 "result": "2/9",
 "proc": "2/16",
-"note": "大学公式サイト（令和9年度ページ）で確認。募集人員：環境学部10名・経営学部10名"
+"note": "鳥取県内高校出身者。募集人員：環境10・経営10",
+"url": "https://www.kankyo-u.ac.jp/exam/r9/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期日程（A・B方式）",
+"apply": "1/25〜2/3",
+"exam": "2/25（共テ1/16・17）",
+"result": "3/5",
+"proc": "3/15",
+"note": "鳥取・東京・大阪・岡山・広島・福岡・愛知で実施（マナビジョン）",
+"url": "https://www.kankyo-u.ac.jp/exam/r9/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期日程",
+"apply": "1/25〜2/3",
+"exam": "3/13（共テ1/16・17）",
+"result": "3/21",
+"proc": "3/27",
+"note": "鳥取で実施。出願期間はマナビジョンで確認",
+"url": "https://www.kankyo-u.ac.jp/exam/r9/"
 }
-]
+],
+"note": "2026-11-17 大学公式の令和9年度入試ページで全日程を確認（外部AIのデータは後期の日程を「一般選抜」としており、前期日程が抜けていたため修正）。検定料は未確認。"
 },
 "money": {
 "year": "2027年度予定",
