@@ -64393,7 +64393,8 @@
 "https://search.keinet.ne.jp/2220/outline/licential",
 "https://search.keinet.ne.jp/2220/outline/admission_employment",
 "https://search.keinet.ne.jp/2220/general/schedule",
-"https://passnavi.obunsha.co.jp/univ/2460/department/"
+"https://passnavi.obunsha.co.jp/univ/2460/department/",
+"https://www.juntendo.ac.jp/assets/ce71d380dc068995b1ef556e257c8660.pdf"
 ],
 "licenses": [
 "医師・薬剤師 国家試験受験資格",
@@ -64791,7 +64792,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-08",
+"schedule": "2026-11-17",
 "money": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
@@ -65147,7 +65148,7 @@
 {
 "kubun": "共テ利用",
 "name": "国際教養学部 共テ前期",
-"apply": "〜1/15（必着）",
+"apply": "12/14〜1/15",
 "exam": "",
 "result": "2/12",
 "proc": "2/17",
@@ -65237,7 +65238,8 @@
 "proc": "A日程2/12・B日程2/19",
 "note": "共テ利用は出願〜1/15・発表2/12・手続2/19"
 }
-]
+],
+"note": "2026-11-17 大学公式の「2027年度順天堂大学入学試験日程（予告）」で出願期間を再確認（変更なし）"
 },
 "money": {
 "year": "2026年度",
@@ -65544,7 +65546,8 @@
 "https://search.keinet.ne.jp/2253/outline/licential",
 "https://search.keinet.ne.jp/2253/outline/admission_employment",
 "https://manabi.benesse.ne.jp/daigaku/school/3285/nyushi/gokaku-happyo/index.html",
-"https://passnavi.obunsha.co.jp/univ/2790/department/"
+"https://passnavi.obunsha.co.jp/univ/2790/department/",
+"https://telemail.jp/shingaku/university/10001117/examination/general"
 ],
 "licenses": [
 "医師国家試験受験資格",
@@ -65633,7 +65636,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-08",
+"schedule": "2026-11-17",
 "money": "2026-11-08",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
@@ -65669,9 +65672,9 @@
 "name": "医学科 一般",
 "exam": "1次2/11、2次2/20〜2/22のうち指定日",
 "fee": 60000,
-"note": "検定料は2026年度入試の額。発表日はマナビジョン掲載（1次・2次の区別の記載なし）",
-"apply": "1/4〜1/25（ネット出願）",
-"result": "3/1",
+"note": "検定料は2026年度入試の額。日程はテレメール（2026-07-31時点）で確認",
+"apply": "1/4〜1/25（ネット出願は12/21〜1/25）",
+"result": "1次2/17、2次3/1",
 "proc": "3/4"
 },
 {
@@ -65679,12 +65682,13 @@
 "name": "看護学科 一般",
 "exam": "1次2/7、2次2/10",
 "fee": 30000,
-"note": "検定料は2026年度入試の額。発表日はマナビジョン掲載（1次・2次の区別の記載なし）",
+"note": "検定料は2026年度入試の額。日程はテレメール（2026-07-31時点）で確認",
 "apply": "1/4〜1/29（ネット出願）",
-"result": "2/12",
+"result": "1次2/9、2次2/12",
 "proc": "2/22"
 }
-]
+],
+"note": "2026-11-17 テレメールで再確認。日程は変更なし、1次・2次の合格発表日を分けて記載"
 },
 "money": {
 "year": "2026年度",
@@ -186402,11 +186406,11 @@ null
 "licenses": "2026-11-07",
 "careers": "2026-11-07",
 "fdiff": "2026-11-09",
-"methods": "2026-11-09",
+"methods": "2026-11-17",
 "ratios": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-17",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-17"
 },
 "faculties": [
 "保健医療学部"
@@ -186469,7 +186473,10 @@ null
 "https://passnavi.obunsha.co.jp/univ/1304/eiken/?facultyID=005",
 "https://www.kagawa-puhs.ac.jp/information/pdf/685.pdf",
 "https://aoskillpass.com/nyushi/kagawa-health-sciences-recommendation-admission-ratio-2026/",
-"https://onikanri.singeki.com/kagawakenritsuhokeniryou_charts/"
+"https://onikanri.singeki.com/kagawakenritsuhokeniryou_charts/",
+"https://www.kagawa-puhs.ac.jp/admission/about/data/file208.pdf?1794918874",
+"https://www.kagawa-puhs.ac.jp/admission/about/data/file198.pdf?1794918874",
+"https://www.kagawa-puhs.ac.jp/admission/about/documents.php"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -186511,54 +186518,60 @@ null
 {
 "kubun": "一般",
 "name": "前期日程（看護学科）",
-"kyotsu": "6教科6〜7科目（720点満点）",
-"niji": "小論文、面接",
-"haiten": "共テ720:個別200",
-"note": ""
+"kyotsu": "6教科6〜7科目（720点）：国語200、地歴公民100、数学100、理科100（基礎2科目または化学・生物から1）、英語200（R160・L40）、情報Ⅰ20",
+"niji": "小論文100点、個人面接100点",
+"haiten": "720:200",
+"note": "募集人員：前期30人・後期5人。大学公式の令和9年度一般選抜試験学生募集要項",
+"url": "https://www.kagawa-puhs.ac.jp/admission/about/data/file208.pdf?1794918874"
 },
 {
 "kubun": "一般",
 "name": "後期日程（看護学科）",
-"kyotsu": "6教科6〜7科目（720点満点）",
-"niji": "小論文、面接",
-"haiten": "共テ720:個別200",
-"note": ""
+"kyotsu": "6教科6〜7科目（720点）：国語200、地歴公民100、数学100、理科100（基礎2科目または化学・生物から1）、英語200（R160・L40）、情報Ⅰ20",
+"niji": "小論文100点、個人面接100点",
+"haiten": "720:200",
+"note": "募集人員：前期30人・後期5人。大学公式の令和9年度一般選抜試験学生募集要項",
+"url": "https://www.kagawa-puhs.ac.jp/admission/about/data/file208.pdf?1794918874"
 },
 {
 "kubun": "一般",
 "name": "前期日程（臨床検査学科）",
-"kyotsu": "5教科7科目（820点満点）",
-"niji": "小論文、面接",
-"haiten": "共テ820:個別200",
-"note": ""
+"kyotsu": "5教科7科目（820点）：国語200、数ⅠA100・数ⅡBC100、理科200（化・生・物・地から2）、英語200（R160・L40）、情報Ⅰ20",
+"niji": "小論文100点、個人面接100点",
+"haiten": "820:200",
+"note": "募集人員8人。大学公式の令和9年度一般選抜試験学生募集要項",
+"url": "https://www.kagawa-puhs.ac.jp/admission/about/data/file208.pdf?1794918874"
 },
 {
 "kubun": "一般",
 "name": "後期日程（臨床検査学科）",
-"kyotsu": "5教科7科目（820点満点）",
-"niji": "面接",
-"haiten": "共テ820:個別200",
-"note": ""
+"kyotsu": "5教科7科目（820点）：国語200、数ⅠA100・数ⅡBC100、理科200（化・生・物・地から2）、英語200（R160・L40）、情報Ⅰ20",
+"niji": "個人面接200点",
+"haiten": "820:200",
+"note": "募集人員2人。大学公式の令和9年度一般選抜試験学生募集要項",
+"url": "https://www.kagawa-puhs.ac.jp/admission/about/data/file208.pdf?1794918874"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜（看護学科）",
-"content": "小論文、面接、調査書",
-"req": "単願等",
-"kyotsu": "課す（1教科1科目）",
-"note": ""
+"content": "第1次選考：小論文300点、個人面接120点、調査書40点（計460点）。最終：共通テストの英語（200点：R160・L40）が要項の基準を満たすこと",
+"req": "香川県内の高校を2027年3月卒業見込み、全体の評定平均値3.8以上、学校長の推薦、合格したら入学を確約（推薦人数の制限なし）",
+"kyotsu": "課す（英語1科目）",
+"note": "募集人員35人。大学公式の令和9年度学校推薦型選抜学生募集要項",
+"url": "https://www.kagawa-puhs.ac.jp/admission/about/data/file198.pdf?1794918874"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜（臨床検査学科）",
-"content": "小論文、面接、調査書",
-"req": "単願等",
-"kyotsu": "課す（5教科7科目）",
-"note": ""
+"content": "小論文300点、個人面接120点、調査書40点（計460点）に加え、共通テスト（5教科7科目900点）の成績が要項の基準を満たすこと",
+"req": "香川県内の高校を2027年3月卒業見込み、全体の評定平均値4.0以上、学校長の推薦（1校3人まで）、合格したら入学を確約",
+"kyotsu": "課す（国200・数200・理2科目200・英200・情報Ⅰ100）",
+"note": "募集人員10人。大学公式の令和9年度学校推薦型選抜学生募集要項",
+"url": "https://www.kagawa-puhs.ac.jp/admission/about/data/file198.pdf?1794918874"
 }
 ],
 "summary": "一般選抜（前期・後期）は共通テストの配点比重が高く、個別試験は小論文・面接（臨床検査学科後期は面接のみ）を課す。学校推薦型選抜でも共通テストを課す。",
-"note": ""
+"note": "2026-11-17 大学公式の令和9年度一般選抜試験・学校推薦型選抜の学生募集要項で確認"
 },
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -186608,19 +186621,23 @@ null
 "kubun": "一般",
 "name": "一般 前期",
 "apply": "1/25〜2/3",
-"exam": "1/16・17（共テ）、2/25（個別）",
+"exam": "2/25",
 "result": "3/3",
-"proc": "3/11",
-"note": ""
+"proc": "3/10・3/11",
+"fee": 17000,
+"note": "両学科共通。郵送出願は2/3 17時必着。大学公式の令和9年度一般選抜試験学生募集要項",
+"url": "https://www.kagawa-puhs.ac.jp/admission/about/data/file208.pdf?1794918874"
 },
 {
 "kubun": "一般",
-"name": "一般 後期（臨床検査学科）",
-"apply": "",
+"name": "一般 後期",
+"apply": "1/25〜2/3",
 "exam": "3/12",
-"result": "",
-"proc": "",
-"note": "マナビジョンで確認。出願・合格発表・手続締切は未確認。"
+"result": "3/20",
+"proc": "3/24・3/25",
+"fee": 17000,
+"note": "看護学科（5人）・臨床検査学科（2人）とも実施。大学公式の令和9年度一般選抜試験学生募集要項",
+"url": "https://www.kagawa-puhs.ac.jp/admission/about/data/file208.pdf?1794918874"
 },
 {
 "kubun": "推薦",
@@ -186628,10 +186645,13 @@ null
 "apply": "11/20〜11/27",
 "exam": "12/12",
 "result": "2/9",
-"proc": "2/16",
-"note": "看護学科は第一次選考合格発表12/17、最終発表2/9（公式・マナビジョン）。出願期間は外部塾情報（令和9年度要項引用）による。"
+"proc": "2/15・2/16",
+"fee": 17000,
+"note": "看護学科は第1次選考の発表12/17、最終発表2/9。香川県内の高校が対象。大学公式の令和9年度学校推薦型選抜学生募集要項",
+"url": "https://www.kagawa-puhs.ac.jp/admission/about/data/file198.pdf?1794918874"
 }
-]
+],
+"note": "2026-11-17 大学公式の学生募集要項（令和9年度）で確認。外部AIのデータの日程は一致し、後期の出願・発表・手続日と検定料を追加"
 },
 "money": {
 "year": "",
@@ -186665,7 +186685,7 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai-verified"
 },
 "高知工科大学": {
 "difficulty": {
@@ -186685,10 +186705,10 @@ null
 "careers": "2026-11-07",
 "ratios": "2026-11-09",
 "fdiff": "2026-11-09",
-"methods": "2026-11-09",
-"schedule": "2026-11-09",
+"methods": "2026-11-17",
+"schedule": "2026-11-17",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-17"
 },
 "faculties": [
 "経済・マネジメント学群",
@@ -187091,10 +187111,11 @@ null
 {
 "kubun": "一般",
 "name": "後期（データ＆イノベーション学群）",
-"kyotsu": "4教科5科目（900点：数400・外200・情報Ⅰ100など）",
+"kyotsu": "共通テストのみ（800点）。科目の内訳は大学公式の令和9年度学生募集要項で確認",
 "niji": "なし",
-"haiten": "900:0",
-"note": ""
+"haiten": "800:0",
+"note": "外部AIのデータの「900点」を公式の800点に修正。大学公式の令和9年度学生募集要項",
+"url": "https://www.kochi-tech.ac.jp/entrance_info/img/R9yoko%28gakkosuisen.ippan%29.pdf"
 },
 {
 "kubun": "一般",
@@ -187138,29 +187159,55 @@ null
 },
 {
 "kubun": "推薦",
-"name": "学校推薦型選抜（データ＆イノベーション学群 一般女子など）",
-"content": "面接、調査書など",
-"req": "単願など",
+"name": "学校推薦型選抜（一般区分）",
+"content": "書類審査100点、面接（口頭試問を含む）200点（計300点）。経済・マネジメント学群は社会的な話題の資料・グラフを使った口頭試問",
+"req": "2027年3月卒業見込み、全体の評定平均値4.0以上、学校長の推薦、合格したら入学を確約。システム工学群・データ＆イノベーション学群は女子のみ",
 "kyotsu": "課さない",
-"note": "全学群での詳細要項は一部未確認"
+"note": "募集人員：理工学群10（うち高知県内の高校5）、経済・マネジメント学群20（うち県内15）、システム工学群・データ＆イノベーション学群は若干名（女子）。大学公式の令和9年度学生募集要項",
+"url": "https://www.kochi-tech.ac.jp/entrance_info/img/R9yoko%28gakkosuisen.ippan%29.pdf"
 }
 ],
 "summary": "一般選抜前期は5教科型のA方式と3教科型のB方式（理工・経済マネは特化型のC方式も設定）があり、後期は共通テストのみで合否を判定する。総合型選抜は全5学群で適性検査を中心に実施される。",
-"note": ""
+"note": "2026-11-17 大学公式の令和9年度学生募集要項（学校推薦型選抜・一般選抜）で確認"
 },
 "schedule": {
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "推薦",
+"name": "学校推薦型選抜（一般区分）",
+"apply": "11/2〜11/9",
+"exam": "11/29",
+"result": "12/10",
+"proc": "12/11〜12/21",
+"fee": 15000,
+"note": "出願は11/9 17時必着。予備日12/6。大学公式の令和9年度学生募集要項",
+"url": "https://www.kochi-tech.ac.jp/entrance_info/img/R9yoko%28gakkosuisen.ippan%29.pdf"
+},
+{
 "kubun": "一般",
 "name": "一般 前期",
 "apply": "1/25〜2/3",
-"exam": "1/16・17（共テ）、2/25（個別）",
+"exam": "2/25",
 "result": "3/5",
-"proc": "",
-"note": "パスナビ日程ページで確認。手続締切日および他の入試方式・後期日程の詳細は未確認。"
+"proc": "3/6〜3/15",
+"fee": 15000,
+"note": "消印有効。大学公式の令和9年度学生募集要項",
+"url": "https://www.kochi-tech.ac.jp/entrance_info/img/R9yoko%28gakkosuisen.ippan%29.pdf"
+},
+{
+"kubun": "一般",
+"name": "一般 後期",
+"apply": "1/25〜2/3",
+"exam": "",
+"result": "3/20",
+"proc": "3/21〜3/27",
+"fee": 5000,
+"note": "個別試験なし（共通テストのみで判定）。出願期間は前期と同じ。大学公式の令和9年度学生募集要項",
+"url": "https://www.kochi-tech.ac.jp/entrance_info/img/R9yoko%28gakkosuisen.ippan%29.pdf"
 }
-]
+],
+"note": "2026-11-17 大学公式の令和9年度学生募集要項で確認。外部AIのデータの前期日程は一致し、手続期間・後期・推薦・検定料を追加"
 },
 "money": {
 "year": "",
@@ -187183,7 +187230,7 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai-verified"
 },
 "高知県立大学": {
 "difficulty": {
