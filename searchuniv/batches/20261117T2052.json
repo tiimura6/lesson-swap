@@ -1,0 +1,375 @@
+[
+ {
+  "name": "東北公益文科大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（公益学部・国際学部）",
+      "apply": "9/24〜9/30",
+      "exam": "10/17",
+      "result": "11/2",
+      "proc": "11/4〜11/13",
+      "fee": "17,000円",
+      "note": "出願書類提出期限は10/1（消印有効）、入学手続も消印有効",
+      "url": "https://www.koeki-u.ac.jp/uploaded/library/27gakuseiboshu-yoko.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公益学部）",
+      "apply": "11/2〜11/10",
+      "exam": "11/21",
+      "result": "12/4",
+      "proc": "12/7〜12/18",
+      "fee": "17,000円",
+      "note": "出願書類提出期限は11/11（消印有効）、入学手続も消印有効",
+      "url": "https://www.koeki-u.ac.jp/uploaded/library/27gakuseiboshu-yoko.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（国際学部）",
+      "apply": "11/2〜11/10",
+      "exam": "11/22",
+      "result": "12/4",
+      "proc": "12/7〜12/18",
+      "fee": "17,000円",
+      "note": "出願書類提出期限は11/11（消印有効）、入学手続も消印有効",
+      "url": "https://www.koeki-u.ac.jp/uploaded/library/27gakuseiboshu-yoko.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 前期（公益学部）",
+      "apply": "1/25〜2/3",
+      "exam": "2/25",
+      "result": "3/5",
+      "proc": "3/8〜3/15",
+      "fee": "17,000円",
+      "note": "共通テスト1/16・17、入学手続は3/15必着",
+      "url": "https://www.koeki-u.ac.jp/uploaded/library/27gakuseiboshu-yoko.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 前期（国際学部）",
+      "apply": "1/25〜2/3",
+      "exam": "2/26",
+      "result": "3/5",
+      "proc": "3/8〜3/15",
+      "fee": "17,000円",
+      "note": "共通テスト1/16・17、入学手続は3/15必着",
+      "url": "https://www.koeki-u.ac.jp/uploaded/library/27gakuseiboshu-yoko.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 後期",
+      "apply": "1/25〜2/3",
+      "exam": "1/16・17（共テのみ）",
+      "result": "3/20",
+      "proc": "3/23〜3/26",
+      "fee": "17,000円",
+      "note": "個別試験は課さない。入学手続は3/26必着",
+      "url": "https://www.koeki-u.ac.jp/uploaded/library/27gakuseiboshu-yoko.pdf"
+     }
+    ]
+   },
+   "methods_replace": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "前期日程（公益学部）",
+      "kyotsu": "4教科4科目（510点）：英(200)・国[近代以降](110)・数ⅠAまたはⅠ(100)・選択1[地歴公・数ⅡBC・理・情Ⅰから高得点1](100)",
+      "niji": "小論文（80分）",
+      "haiten": "510:100",
+      "note": "合計610点満点",
+      "url": "https://www.koeki-u.ac.jp/uploaded/library/27gakuseiboshu-yoko.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "前期日程（国際学部）",
+      "kyotsu": "3〜4教科4科目（510点）：英(200)・国[近代以降](110)・選択2[地歴公・数・理・情Ⅰから高得点2](200)",
+      "niji": "英語（70分・ライティング中心、外部試験得点換算活用可）",
+      "haiten": "510:50",
+      "note": "合計560点満点",
+      "url": "https://www.koeki-u.ac.jp/uploaded/library/27gakuseiboshu-yoko.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "後期日程（公益学部）",
+      "kyotsu": "2教科2科目（200点）：17科目から高得点2科目（英語・国語は各100点換算）",
+      "niji": "なし（個別試験は課さない）",
+      "haiten": "200:0",
+      "note": "合計200点満点、出願時に志望理由書提出",
+      "url": "https://www.koeki-u.ac.jp/uploaded/library/27gakuseiboshu-yoko.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "後期日程（国際学部）",
+      "kyotsu": "2教科2科目（300点）：必須・英(200)＋選択1[国(100点換算)・地歴公・数・理・情Ⅰから1](100)",
+      "niji": "なし（個別試験は課さない）",
+      "haiten": "300:0",
+      "note": "合計300点満点、出願時に志望理由書提出",
+      "url": "https://www.koeki-u.ac.jp/uploaded/library/27gakuseiboshu-yoko.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公益学部）",
+      "content": "小論文（70分・100点）・面接（15分・50点）・調査書等（100点）",
+      "req": "一般枠・地域枠等あり",
+      "kyotsu": "課さない",
+      "note": "合計250点満点。一部区分で英語資格や簿記等の資格要件あり",
+      "url": "https://www.koeki-u.ac.jp/uploaded/library/27gakuseiboshu-yoko.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（国際学部）",
+      "content": "小論文（70分・80点）・面接（20分・70点）・調査書等（100点）",
+      "req": "一般枠・地域枠等あり（評定平均全体3.5以上・英語3.8以上、英語資格スコア等の要件設定区分あり）",
+      "kyotsu": "課さない",
+      "note": "合計250点満点",
+      "url": "https://www.koeki-u.ac.jp/uploaded/library/27gakuseiboshu-yoko.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（公益学部）",
+      "content": "小論文（70分・100点）・プレゼンテーション・面接（25分・50点）・調査書（100点）",
+      "req": "区分により資格・検定要件等あり",
+      "kyotsu": "課さない",
+      "note": "合計250点満点",
+      "url": "https://www.koeki-u.ac.jp/uploaded/library/27gakuseiboshu-yoko.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（国際学部）",
+      "content": "小論文（70分・70点）・面接（20分・80点）・調査書（100点）",
+      "req": "区分により資格・検定要件等あり",
+      "kyotsu": "課さない",
+      "note": "合計250点満点",
+      "url": "https://www.koeki-u.ac.jp/uploaded/library/27gakuseiboshu-yoko.pdf"
+     }
+    ],
+    "summary": "2026年4月に公立大学法人化し、公益学部と国際学部の2学部体制となった。一般選抜前期は共通テスト4科目に小論文（公益）または英語（国際）を課し、後期は共通テスト2科目のみで個別試験は実施しない。",
+    "note": "2026-11-17 大学公式の2027年度学生募集要項で確認。国際学部前期の英語は英検・GTECの得点換算を活用できる（当日の英語試験は必須）。"
+   },
+   "_via_replace": "external-ai-verified",
+   "sources": [
+    "https://www.koeki-u.ac.jp/uploaded/library/27gakuseiboshu-yoko.pdf"
+   ]
+  }
+ },
+ {
+  "name": "札幌市立大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（デザイン学部）",
+      "apply": "9/1〜9/4",
+      "exam": "10/10",
+      "result": "11/2",
+      "proc": "11/9",
+      "note": "デザイン学部のみ（募集8名）。志願者数により第1次選考あり",
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/2004/nyushi/dezain/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（デザイン学部・看護学部）",
+      "apply": "11/2〜11/6",
+      "exam": "11/21",
+      "result": "12/7",
+      "proc": "12/14",
+      "note": "ネット出願。看護学部は市内枠（5名）もあり"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 前期（デザイン学部・看護学部）",
+      "apply": "1/25〜2/3",
+      "exam": "2/25（共通テスト1/16・17）",
+      "result": "3/8",
+      "proc": "3/15",
+      "note": "ネット出願。マナビジョン・パスナビで一致（公式募集要項は未確認）"
+     }
+    ]
+   },
+   "methods_replace": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "前期日程（デザイン学部）",
+      "kyotsu": "6教科（国語、地歴・公民、数学、理科、外国語、情報）900点",
+      "niji": "デザイン総合問題、面接",
+      "haiten": "900:340",
+      "note": "合計1,240点満点"
+     },
+     {
+      "kubun": "一般",
+      "name": "前期日程（看護学部）",
+      "kyotsu": "4教科5科目（700点）：国語・数学Ⅰ・A・英語（リーディング・リスニング）・理科",
+      "niji": "面接（100点）",
+      "haiten": "700:100",
+      "note": "合計800点満点（マナビジョン。共テの教科別配点は公式要項で要確認）"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（デザイン学部）",
+      "content": "デザイン総合問題（200点）、面接（200点）",
+      "req": "全体の学習成績の状況4.0以上、1校4名まで、現役・専願",
+      "kyotsu": "課さない",
+      "note": ""
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（デザイン学部）",
+      "content": "グループワーク（200点）、個別発表（200点）",
+      "req": "入学確約等（募集人員8名、志願者30名超の場合は書類選考実施）",
+      "kyotsu": "課さない",
+      "note": "デザイン学部のみ実施"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（看護学部）",
+      "content": "小論文（100点）・面接（25点）",
+      "req": "全体の学習成績の状況4.0以上、1校2名まで、現役・専願。市内枠（5名）あり",
+      "kyotsu": "課さない",
+      "note": "募集37名（市内枠5名は別）"
+     }
+    ],
+    "summary": "デザイン学部と看護学部の2学部を設置。デザイン学部では一般選抜（共通テスト900点＋デザイン総合問題・面接340点）のほか、学校推薦型選抜およびグループワーク・個別発表を課す総合型選抜を実施している。",
+    "note": ""
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/2004/nyushi/kango/index.html",
+    "https://manabi.benesse.ne.jp/daigaku/school/2004/nyushi/dezain/",
+    "https://passnavi.obunsha.co.jp/univ/1018/schedule/"
+   ]
+  }
+ },
+ {
+  "name": "水産大学校",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（A・B・C各区分）",
+      "apply": "2026/10/16〜10/27（必着）",
+      "exam": "11/14",
+      "result": "12/4",
+      "proc": "12/17（必着）",
+      "fee": "30,000円",
+      "note": "5学科共通。下関試験場。帰国子女特別入試も同日程",
+      "url": "https://www.fish-u.ac.jp/nyugaku/nyuushi/files/R9_bosyuuyoukou_honbun.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "apply": "2027/1/8〜1/22（消印有効）",
+      "exam": "2/11",
+      "result": "2/26",
+      "proc": "3/2〜3/23（消印有効）",
+      "fee": "30,000円",
+      "note": "5学科共通",
+      "url": "https://www.fish-u.ac.jp/nyugaku/nyuushi/files/R9_bosyuuyoukou_honbun.pdf"
+     }
+    ],
+    "note": "2026-11-17 大学校公式の令和9年度学生募集要項で確認（検定料・手続期間を追加）。"
+   },
+   "sources": [
+    "https://www.fish-u.ac.jp/nyugaku/nyuushi/files/R9_bosyuuyoukou_honbun.pdf"
+   ]
+  }
+ },
+ {
+  "name": "国立看護大学校",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "apply": "2027/1/4〜1/26 15:00（Web登録、書類1/26必着）",
+      "exam": "1次2/6、2次（面接）2/13",
+      "result": "1次2/10、最終2/18",
+      "proc": "2/19〜2/26（必着）",
+      "fee": "30,000円（別にWeb出願手数料1,365円）",
+      "note": "指定校制学校推薦型選抜（若干名）も実施",
+      "url": "https://www.ncn.ac.jp/examination/nursing/040/040_guide.html"
+     }
+    ],
+    "note": "2026-11-17 大学校公式の2027年度募集要項ページで出願期間・手続期間・検定料を追加。"
+   },
+   "sources": [
+    "https://www.ncn.ac.jp/examination/nursing/040/040_guide.html"
+   ]
+  }
+ },
+ {
+  "name": "種智院大学",
+  "story": {
+   "summary": "弘法大師空海が開いた綜藝種智院の理念を受け継ぐ、京都市伏見区の人文学部1学部の大学。仏教学科では真言密教を中心に声明・法要儀礼や密教画・梵字悉曇・仏像彫刻の実習まで学び、社会福祉学科では仏教思想を土台に社会福祉士・精神保健福祉士をめざせる。寺院の後継者や、福祉の専門職をめざす生徒に話しやすい。",
+   "only": [
+    {
+     "t": "平安時代初期に空海が創設した綜藝種智院の教育理念を現代に受け継ぐとしている",
+     "src": "https://www.shuchiin.ac.jp/dl/01policy.pdf"
+    },
+    {
+     "t": "仏教学科で声明や修法・法要の儀礼を学び、密教画・梵字悉曇・仏像彫刻の実習がある",
+     "src": "https://www.shuchiin.ac.jp/dl/01policy.pdf"
+    },
+    {
+     "t": "社会福祉学科では社会福祉士と精神保健福祉士の国家試験受験資格を、希望者は同時に取得できる課程がある",
+     "src": "https://www.shuchiin.ac.jp/dl/01policy.pdf"
+    },
+    {
+     "t": "全学生が「仏教入門」などの仏教系科目を学ぶ",
+     "src": "https://www.shuchiin.ac.jp/dl/01policy.pdf"
+    }
+   ],
+   "vs": [
+    {
+     "u": "高野山大学",
+     "t": "高野山大学は和歌山県高野町で文学部密教学科を置くが、種智院大学は京都市伏見区にあり、仏教学科に加えて社会福祉学科がある",
+     "src": "https://www.koyasan-u.ac.jp/"
+    },
+    {
+     "u": "佛教大学",
+     "t": "佛教大学は8学部をもつ総合大学だが、種智院大学は人文学部（仏教学科・社会福祉学科）1学部で、1年次から担任制・少人数の演習で学ぶ",
+     "src": "https://www.bukkyo-u.ac.jp/"
+    }
+   ]
+  }
+ },
+ {
+  "name": "羽衣国際大学",
+  "story": {
+   "summary": "堺市西区にあり、現代社会学部（現代社会学科・放送・メディア映像学科）と人間生活学部（人間生活学科・食物栄養学科）の2学部4学科で、経済・観光・スポーツから映像・AI、ファッション・住空間、管理栄養士まで幅広いコースを置く。2027年度からは放送・メディア映像学科にAI・情報システムコースを設ける。関心の幅が広く、入学後にコースで専門を決めたい生徒に話しやすい。",
+   "only": [
+    {
+     "t": "放送・メディア映像学科に放送・メディア、映像コンテンツ、AI・情報システムの3コースがあり、映像・CG・プログラミングの作品制作に早くから取り組む",
+     "src": "https://www.hagoromo.ac.jp/nyuushi/academics"
+    },
+    {
+     "t": "2027年度入試から、放送・メディア映像学科の情報システムコースにAI関連科目を加えた「AI・情報システムコース」で募集する",
+     "src": "https://www.hagoromo.ac.jp/system/wp-content/uploads/2026/08/HP_shinseitorisage.pdf"
+    },
+    {
+     "t": "食物栄養学科は管理栄養士の養成を最も重要な使命とし、医療栄養・フードデザイン・食育・スポーツ栄養・グローバル栄養のコースを置く",
+     "src": "https://www.hagoromo.ac.jp/nyuushi/academics"
+    }
+   ],
+   "vs": [
+    {
+     "u": "帝塚山学院大学",
+     "t": "帝塚山学院大学は食環境学部に管理栄養学科と食イノベーション学科を置くが、羽衣国際大学は食物栄養学科と同じ大学に放送・メディア映像学科や住空間・ファッションを学ぶ人間生活学科がある",
+     "src": "https://www.tezuka-gu.ac.jp/"
+    }
+   ]
+  }
+ }
+]
