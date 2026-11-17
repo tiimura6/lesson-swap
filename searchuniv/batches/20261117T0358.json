@@ -1,0 +1,414 @@
+[
+ {
+  "name": "奈良県立大学",
+  "info": {
+   "_via_replace": "external-ai-verified",
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "apply": "9/3〜9/9",
+      "exam": "10/17（2次）、1/16・17（3次・共テ）",
+      "result": "2/6",
+      "proc": "2/17",
+      "note": "総合型選抜A・B（各5名）。1次結果通知10/2、2次結果通知10/30。3次選考は共通テスト。入学料・手続書類は2/17必着、卒業証明書は3/27必着（大学公式で確認）。",
+      "url": "https://www.narapu.ac.jp/admission/r7/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜",
+      "apply": "11/1〜11/8",
+      "exam": "11/25",
+      "result": "12/9",
+      "proc": "12/21",
+      "note": "募集25名。同日程で社会人選抜（若干名）。入学料・手続書類は12/21必着、卒業証明書は3/27必着（大学公式で確認）。",
+      "url": "https://www.narapu.ac.jp/admission/r7/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 前期",
+      "apply": "1/25〜2/3",
+      "exam": "1/16・17（共テ）、2/25（個別）",
+      "result": "3/7",
+      "proc": "3/15",
+      "note": "募集65名。入学料・手続書類3/15必着、卒業証明書3/27必着（大学公式で確認）。",
+      "url": "https://www.narapu.ac.jp/admission/r7/",
+      "fee": 17000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 中期",
+      "apply": "1/25〜2/3",
+      "exam": "1/16・17（共テ）、3/8（個別）",
+      "result": "3/21",
+      "proc": "3/27",
+      "note": "公立大学中期日程。募集50名。入学料・手続書類（卒業証明書含む）3/27必着（大学公式で確認）。",
+      "url": "https://www.narapu.ac.jp/admission/r7/",
+      "fee": 17000
+     }
+    ],
+    "note": "2026-11-17 大学公式「入学者選抜の概要」で全日程を確認し外部AIのデータと一致。検定料17,000円は文部科学省「学生納付金調査結果」（2025年度）による。"
+   },
+   "methods_replace": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "地域創造学部 前期日程",
+      "kyotsu": "3教科3科目（英語200〔R150:L50〕・国語200・数学／理科／地歴公民／情報から1科目200＝600点）",
+      "niji": "小論文（英文読解を含む）300点",
+      "haiten": "600:300",
+      "note": "募集65名（大学公式）。科目・配点は河合塾Kei-Net（2027年度）。",
+      "url": "https://search.keinet.ne.jp/1640/general/exam_subject"
+     },
+     {
+      "kubun": "一般",
+      "name": "地域創造学部 中期日程",
+      "kyotsu": "前期と同じ（600点）",
+      "niji": "小論文（英文読解を含む）900点",
+      "haiten": "600:900",
+      "note": "公立大学中期日程。募集50名（大学公式）。科目・配点は河合塾Kei-Net（2027年度）。",
+      "url": "https://search.keinet.ne.jp/1640/general/exam_subject"
+     },
+     {
+      "kubun": "推薦",
+      "name": "地域創造学部 学校推薦型選抜",
+      "content": "募集25名。試験11/25。",
+      "note": "選考方法の詳細は学生募集要項（大学公式PDFは自動取得不可）で確認。",
+      "url": "https://www.narapu.ac.jp/admission/r7/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "地域創造学部 総合型選抜A・B",
+      "content": "各5名。1次・2次選考の後、3次選考で共通テストを利用。",
+      "note": "大学公式「入学者選抜の概要」。",
+      "url": "https://www.narapu.ac.jp/admission/r7/"
+     }
+    ],
+    "summary": "地域創造学部地域創造学科の単科大学。一般選抜は前期（小論文300点）と公立大学中期（小論文900点）で、共通テストは英語・国語必須＋1科目の600点。ほかに学校推薦型（25名）、総合型A・B（各5名）。",
+    "note": "2026-11-17 外部AIのデータでは共テ科目が「英・国・数or地公」または「英・数・理」とされていたが、Kei-Net（2027年度）では英語・国語必須＋数学・理科・地歴公民・情報から1科目のため修正。"
+   },
+   "sources": [
+    "https://www.narapu.ac.jp/admission/r7/",
+    "https://search.keinet.ne.jp/1640/general/exam_subject",
+    "https://www.mext.go.jp/a_menu/koutou/kouritsu/detail/20260309-ope_dev02-1.pdf",
+    "https://telemail.jp/shingaku/university/10003459/examination/general"
+   ]
+  }
+ },
+ {
+  "name": "神戸市外国語大学",
+  "info": {
+   "_via_replace": "external-ai-verified",
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（外国語学部・第2部英米学科）",
+      "apply": "9/1〜9/7",
+      "exam": "10/24・10/25",
+      "result": "11/4",
+      "proc": "11/16",
+      "fee": 17000,
+      "note": "出願は2026年。英米・中国・国際関係学科は1次選考あり。募集30名。検定料は第2部15,000円。",
+      "url": "https://www.kobe-cufs.ac.jp/admissions/2027jisshiyoukou.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（全国枠・神戸市内枠）",
+      "apply": "11/4〜11/10",
+      "exam": "11/28",
+      "result": "12/7",
+      "proc": "12/21",
+      "fee": 17000,
+      "note": "出願は2026年。小論文・個人面接（英米・国際関係・第2部英米は一部英語）。評定3.8以上。合格者は共通テスト受験が必須。検定料は第2部15,000円。",
+      "url": "https://www.kobe-cufs.ac.jp/admissions/2027gakko_youkou.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 前期（外国語学部・第2部英米学科）",
+      "apply": "1/25〜2/3",
+      "exam": "2/25",
+      "result": "3/5",
+      "proc": "3/15",
+      "fee": 17000,
+      "note": "検定料は第2部15,000円。",
+      "url": "https://www.kobe-cufs.ac.jp/admissions/2027jisshiyoukou.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 後期（外国語学部・第2部英米学科）",
+      "apply": "1/25〜2/3",
+      "exam": "個別試験なし（共テのみ）",
+      "result": "3/20",
+      "proc": "3/27",
+      "fee": 17000,
+      "note": "個別学力検査を課さない。発表・手続は日程表の日付（3/20・3/27）による。検定料は第2部15,000円。",
+      "url": "https://www.kobe-cufs.ac.jp/admissions/2027jisshiyoukou.pdf"
+     }
+    ],
+    "note": "2026-11-17 大学公式の2027年度入学者選抜実施要項・学校推薦型選抜学生募集要項で確認。外部AIのデータと一致し、総合型・推薦の入学手続締切と検定料を追加。"
+   },
+   "methods_add": {
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "外国語学部（第1部・第2部） 前期日程",
+      "kyotsu": "国語100・外国語100・地歴公民2科目200・情報50＝450点",
+      "niji": "英語300（リスニング含む）・選択1科目100（現代の国語／世界史探究／政治・経済）＝400点。国際関係学科は英語250・選択150",
+      "haiten": "450:400",
+      "note": "英米・第2部英米・国際関係学科は共テ英語必須（大学公式 2027年度実施要項）。",
+      "url": "https://www.kobe-cufs.ac.jp/admissions/2027jisshiyoukou.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "外国語学部（第1部・第2部） 後期日程",
+      "kyotsu": "国語100・外国語200・地歴公民2科目200・情報50＝550点",
+      "niji": "なし",
+      "haiten": "550:0",
+      "note": "個別学力検査を課さない（大学公式 2027年度実施要項）。",
+      "url": "https://www.kobe-cufs.ac.jp/admissions/2027jisshiyoukou.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（全国枠・神戸市内枠）",
+      "content": "小論文（日本語）・個人面接。評定3.8以上。合格者は共通テスト（国語・情報Ⅰ・英語など）の受験が必須。",
+      "note": "大学公式 2027年度学生募集要項。",
+      "url": "https://www.kobe-cufs.ac.jp/admissions/2027gakko_youkou.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "content": "英米・中国・国際関係学科は1次選考あり。2次選考10/24・25。",
+      "note": "大学公式 2027年度実施要項。",
+      "url": "https://www.kobe-cufs.ac.jp/admissions/2027jisshiyoukou.pdf"
+     }
+    ],
+    "note": "2026-11-17 大学公式の2027年度実施要項で前期・後期の共テ・個別配点を確認して追加。"
+   },
+   "sources": [
+    "https://www.kobe-cufs.ac.jp/admissions/2027jisshiyoukou.pdf",
+    "https://www.kobe-cufs.ac.jp/admissions/2027gakko_youkou.pdf",
+    "https://www.mext.go.jp/a_menu/koutou/kouritsu/detail/20260309-ope_dev02-1.pdf"
+   ]
+  }
+ },
+ {
+  "name": "愛知学泉大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期）",
+      "apply": "1/5〜1/21",
+      "exam": "1/27",
+      "result": "2/5",
+      "proc": "2/15",
+      "fee": null,
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/3524/nyushi/gokaku-happyo/index.html",
+      "note": "A方式・B方式とも同日程（全学科共通）。"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（後期）",
+      "apply": "1/28〜2/26",
+      "exam": "3/3",
+      "result": "3/6",
+      "proc": "3/18",
+      "fee": null,
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/3524/nyushi/gokaku-happyo/index.html"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募制）",
+      "apply": "10/16〜11/3",
+      "exam": "11/7",
+      "result": "12/1",
+      "proc": "12/18",
+      "fee": null,
+      "note": "出願は2026年（ネット出願）。全学科共通。",
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/3524/nyushi/gokaku-happyo/index.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（基礎学力）",
+      "apply": "7/1〜7/28・8/22〜9/8",
+      "exam": "8/1・9/12",
+      "result": "11/1",
+      "proc": "11/24",
+      "fee": null,
+      "note": "2026年。総合型プレゼン・検定・資格、家庭科教員（ライフスタイル学科）は12月〜3月にも出願期間あり（マナビジョン）。",
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/3524/nyushi/gokaku-happyo/index.html"
+     }
+    ],
+    "note": "2026-11-17 マナビジョン（2027年度）で一般前期（A・B方式）・後期の日程が既存と一致。学校推薦型（公募制）と総合型（基礎学力）を追加。共通テスト利用・検定料は掲載なし。"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3524/nyushi/gokaku-happyo/index.html"
+   ]
+  }
+ },
+ {
+  "name": "岐阜保健大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般入試 I期（2/1日程）",
+      "apply": "1/5〜1/26",
+      "exam": "2/1",
+      "result": "2/4",
+      "proc": "1次2/25・2次3/11",
+      "fee": null,
+      "url": "https://search.keinet.ne.jp/general/schedule_sp/2405"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試 I期（2/5日程）",
+      "apply": "1/5〜1/26",
+      "exam": "2/5",
+      "result": "2/10",
+      "proc": "1次2/25・2次3/11",
+      "fee": null,
+      "url": "https://search.keinet.ne.jp/general/schedule_sp/2405"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試 II期",
+      "apply": "1/5〜2/18",
+      "exam": "2/21",
+      "result": "2/26",
+      "proc": "3/11",
+      "fee": null,
+      "url": "https://search.keinet.ne.jp/general/schedule_sp/2405"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試 III期",
+      "apply": "1/5〜3/4",
+      "exam": "3/7",
+      "result": "3/12",
+      "proc": "3/19",
+      "fee": null,
+      "url": "https://search.keinet.ne.jp/general/schedule_sp/2405"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試 IV期",
+      "apply": "3/1〜3/17",
+      "exam": "3/20",
+      "result": "3/23",
+      "proc": "3/26",
+      "fee": null,
+      "url": "https://search.keinet.ne.jp/general/schedule_sp/2405"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試 I期",
+      "apply": "1/5〜2/3",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/10",
+      "proc": "1次2/25・2次3/11",
+      "fee": null,
+      "url": "https://search.keinet.ne.jp/general/schedule_sp/2405"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試 II期",
+      "apply": "2/15〜3/4",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/12",
+      "proc": "3/19",
+      "fee": null,
+      "url": "https://search.keinet.ne.jp/general/schedule_sp/2405"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試 III期",
+      "apply": "3/1〜3/17",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/19",
+      "proc": "3/26",
+      "fee": null,
+      "url": "https://search.keinet.ne.jp/general/schedule_sp/2405"
+     }
+    ],
+    "note": "2026-11-17 河合塾Kei-Net（2027年度）で一般Ⅰ〜Ⅳ期・共テ利用Ⅰ〜Ⅲ期の出願締切・試験日・発表・手続締切が既存と一致（全学部共通、会場は本学・名古屋）。Kei-Netによると2027年4月に「日本保健大学」へ名称変更予定。"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/general/schedule_sp/2405"
+   ]
+  }
+ },
+ {
+  "name": "宇部フロンティア大学",
+  "story": {
+   "summary": "山口県宇部市文京台の1つのキャンパスに、心理学部心理学科と看護学部看護学科を置く大学です。1903年の香川裁縫塾が起源で、2007年に看護学科、2020年に心理学部を設けました。心理学を学部として専門に学ぶか、看護を独立した学部で学ぶかを、県内の他大学と比べながら考えられます。",
+   "only": [
+    {
+     "t": "2020年に人間社会学部の募集を停止して心理学部心理学科を設置し、心理学を独立した学部で学べる。",
+     "src": "https://search.keinet.ne.jp/2656"
+    },
+    {
+     "t": "2019年に大学と短期大学部のキャンパスを統合し、宇部市文京台の1キャンパスで学ぶ。",
+     "src": "https://search.keinet.ne.jp/2656"
+    },
+    {
+     "t": "心理学部では心理の国家資格である公認心理師の取得をめざせる（大学院進学などを経る）。",
+     "src": "https://telemail.jp/shingaku/university/10001787"
+    }
+   ],
+   "vs": [
+    {
+     "u": "東亜大学",
+     "t": "同じ山口県の東亜大学は人間科学部に心理臨床・子ども学科を置くが、宇部フロンティア大学は心理学部心理学科として心理学だけの学部をもつ。",
+     "src": "https://www.toua-u.ac.jp/admissions/examination-system/"
+    },
+    {
+     "u": "山口県立大学",
+     "t": "公立の山口県立大学は看護栄養学部に看護学科と栄養学科を置くが、宇部フロンティア大学は看護学部看護学科として看護を独立した学部で学ぶ。",
+     "src": "https://search.keinet.ne.jp/1663/outline/department"
+    }
+   ]
+  }
+ },
+ {
+  "name": "安田女子大学",
+  "story": {
+   "summary": "広島市安佐南区の安東キャンパス1か所に、文・教育・心理・現代ビジネス・家政・薬・看護・理工の8学部が集まる女子総合大学です。2025年に女子大学として日本初の理工学部を開設し、教員・看護・薬剤師・管理栄養士・建築士など幅広い資格をめざせます。文系から医療系・理工系まで、女子大学の環境で比べられる点が特徴です。",
+   "only": [
+    {
+     "t": "2025年4月に、女子大学として日本初の理工学部（生物科学科・情報科学科・建築学科）を開設した。",
+     "src": "https://www.pref.hiroshima.lg.jp/site/daigakuportal/d21.html"
+    },
+    {
+     "t": "8学部18学科4研究科が安東キャンパス1か所に集まる女子総合大学。",
+     "src": "https://www.pref.hiroshima.lg.jp/site/daigakuportal/d21.html"
+    },
+    {
+     "t": "全学部対象の奨学金制度「YASUDAパスポート」があり、国公立大学と同程度の学費で学べるとしている。",
+     "src": "https://www.pref.hiroshima.lg.jp/site/daigakuportal/d21.html"
+    }
+   ],
+   "vs": [
+    {
+     "u": "広島女学院大学",
+     "t": "同じ広島市の広島女学院大学は人間生活学部（生活デザイン・管理栄養・子ども教育）と国際文化学部をもつが、安田女子大学は薬学部・看護学部・理工学部まで含む8学部をもつ。",
+     "src": "https://www.hju.ac.jp/"
+    },
+    {
+     "u": "ノートルダム清心女子大学",
+     "t": "岡山市のノートルダム清心女子大学は文学部・人間生活学部・国際文化学部・情報デザイン学部をもつが、安田女子大学は薬学部・看護学部・理工学部で医療系・理工系も学べる。",
+     "src": "https://www.ndsu.ac.jp/"
+    }
+   ]
+  }
+ }
+]
