@@ -76914,7 +76914,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-08",
+"schedule": "2026-11-17",
 "money": "2026-11-08",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -76974,13 +76974,75 @@
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "総合型",
+"name": "総合型選抜 専願型（A日程）",
+"apply": "9/1〜9/16",
+"exam": "9/26",
+"result": "11/2",
+"proc": "11/16",
+"fee": 20000,
+"url": "https://kaishi-pu.ac.jp/wp/wp-content/themes/kaishi/assets/pdf/admissions/recruitment_2027.pdf"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 専願型（B日程）",
+"apply": "9/17〜10/8",
+"exam": "10/17",
+"result": "11/2",
+"proc": "11/16",
+"fee": 20000,
+"url": "https://kaishi-pu.ac.jp/wp/wp-content/themes/kaishi/assets/pdf/admissions/recruitment_2027.pdf"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 専願型（C日程）",
+"apply": "11/1〜11/14",
+"exam": "11/21",
+"result": "12/1",
+"proc": "12/14",
+"fee": 20000,
+"url": "https://kaishi-pu.ac.jp/wp/wp-content/themes/kaishi/assets/pdf/admissions/recruitment_2027.pdf"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 専願型（D日程）",
+"apply": "11/22〜12/12",
+"exam": "12/19",
+"result": "12/25",
+"proc": "2027/1/12",
+"fee": 20000,
+"url": "https://kaishi-pu.ac.jp/wp/wp-content/themes/kaishi/assets/pdf/admissions/recruitment_2027.pdf"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 併願型（探究入試）",
+"apply": "11/1〜11/14",
+"exam": "11/21",
+"result": "12/1",
+"proc": "2/25",
+"fee": 20000,
+"url": "https://kaishi-pu.ac.jp/wp/wp-content/themes/kaishi/assets/pdf/admissions/recruitment_2027.pdf"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 指定校型（前期・後期）",
+"apply": "11/1〜11/14／11/22〜12/12",
+"exam": "11/21／12/19",
+"result": "12/1／12/25",
+"proc": "12/14／2027/1/12",
+"fee": 20000,
+"url": "https://kaishi-pu.ac.jp/wp/wp-content/themes/kaishi/assets/pdf/admissions/recruitment_2027.pdf"
+},
+{
 "kubun": "一般",
 "name": "一般",
 "apply": "12/21〜1/25",
 "exam": "2/3",
 "result": "2/10",
 "proc": "2/25",
-"note": "学部により異なる場合あり（事業創造学部の例）（パスナビ、8月末時点）"
+"fee": 20000,
+"note": "全学部共通。第2志願制度で事業創造学部と情報学部の併願可（アニメ・マンガ学部は対象外）。特待生選抜も同日程",
+"url": "https://kaishi-pu.ac.jp/wp/wp-content/themes/kaishi/assets/pdf/admissions/recruitment_2027.pdf"
 },
 {
 "kubun": "共テ利用",
@@ -76989,7 +77051,9 @@
 "exam": "共通テスト1/16・17",
 "result": "2/10",
 "proc": "3/10",
-"note": "個別試験なし（事業創造学部の例）（パスナビ、8月末時点）"
+"fee": 20000,
+"note": "個別試験なし",
+"url": "https://kaishi-pu.ac.jp/wp/wp-content/themes/kaishi/assets/pdf/admissions/recruitment_2027.pdf"
 },
 {
 "kubun": "共テ利用",
@@ -76998,7 +77062,8 @@
 "exam": "共通テスト1/16・17",
 "result": "3/8",
 "proc": "3/23",
-"note": "事業創造学部の例（パスナビ、8月末時点）"
+"fee": 20000,
+"url": "https://kaishi-pu.ac.jp/wp/wp-content/themes/kaishi/assets/pdf/admissions/recruitment_2027.pdf"
 },
 {
 "kubun": "共テ利用",
@@ -77007,9 +77072,11 @@
 "exam": "共通テスト1/16・17",
 "result": "3/25",
 "proc": "3/31",
-"note": "事業創造学部の例（パスナビ、8月末時点）"
+"fee": 20000,
+"url": "https://kaishi-pu.ac.jp/wp/wp-content/themes/kaishi/assets/pdf/admissions/recruitment_2027.pdf"
 }
-]
+],
+"note": "大学公式「2027年度 学生募集要項」。3学部共通の日程、検定料は全区分20,000円（2026-11-17 確認。一般・共テ利用は既存と一致）"
 },
 "money": {
 "year": "2026年度",
@@ -77193,7 +77260,8 @@
 "https://www.kobe-np.co.jp/news/sougou/202205/0015300027.shtml",
 "https://manabi.benesse.ne.jp/daigaku/school/2201/nyushi/",
 "https://manabi.benesse.ne.jp/daigaku/school/2201/syusyoku/",
-"https://passnavi.obunsha.co.jp/univ/9102/eiken/"
+"https://passnavi.obunsha.co.jp/univ/9102/eiken/",
+"https://telemail.jp/shingaku/university/10011458/examination/general"
 ],
 "kyotsu": {
 "kamoku": "3教科3科目",
@@ -77317,7 +77385,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-08",
+"schedule": "2026-11-17",
 "money": "2026-11-08",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -77339,7 +77407,7 @@
 "note": "方式別の二次偏差値は「-」。学部学科ランク（高1・2向け）の偏差値は45.0"
 },
 "schedule": {
-"year": "2027年度入試（ベネッセ マナビジョン掲載）",
+"year": "2027年度入試",
 "rows": [
 {
 "kubun": "推薦",
@@ -77367,7 +77435,8 @@
 "fee": 17000,
 "note": "検定料はKei-Netの2026年度入試の額。前期・中期などの区分はマナビジョンに記載なし"
 }
-]
+],
+"note": "推薦・総合型はベネッセ マナビジョン（2027年度）。一般選抜は2026-11-17 テレメール（2027年度入学、9/30時点）で出願1/25〜2/3・試験2/14・発表2/22・手続3/11が一致"
 },
 "money": {
 "year": "2026年度",
@@ -225383,24 +225452,85 @@ null
 },
 "_checked": {
 "difficulty": "2026-11-09",
-"methods": "2026-11-09",
+"methods": "2026-11-17",
 "schedule": "2026-11-14",
-"_via": "2026-11-09",
-"money": "2026-11-13"
+"_via": "2026-11-17",
+"money": "2026-11-13",
+"scholar": "2026-11-17"
 },
 "methods": {
 "year": "2027年度入試",
 "list": [
 {
 "kubun": "一般",
-"name": "全学統一入学試験",
+"name": "全学統一入学試験（給付型奨学金入学試験・地域創生教員養成入学試験も同日程・同一問題）",
 "kyotsu": "課さない",
-"niji": null,
+"niji": "2科目以上（学科により異なる）。外国語の個別試験はなく、英語外部試験スコアまたは共通テスト「英語」の得点を換算",
 "content": null,
-"req": null,
-"url": "https://www.tamagawa.jp/uni_admission/examination/ippan_center/same.html"
+"req": "地域創生教員養成は東京・神奈川・千葉・埼玉以外の出身で教員志望の者",
+"url": "https://www.tamagawa.jp/uni_admission/faculty/pdf/guide_2027.pdf"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用入学試験（前期・後期）",
+"kyotsu": "3教科型・5教科型",
+"niji": "個別試験なし",
+"content": null,
+"req": "5教科型に出願すると3教科型にも自動出願",
+"url": "https://www.tamagawa.jp/uni_admission/faculty/pdf/guide_2027.pdf"
+},
+{
+"kubun": "共テ利用",
+"name": "国公立大学併願スカラシップ入学試験（前期・後期）",
+"kyotsu": "3教科型・5教科型",
+"niji": "個別試験なし",
+"content": null,
+"req": "1学科のみ出願可。合格者は学費等納付金が国公立大学の授業料と同額",
+"url": "https://www.tamagawa.jp/uni_admission/faculty/pdf/guide_2027.pdf"
+},
+{
+"kubun": "推薦",
+"name": "公募制推薦入学試験",
+"kyotsu": "課さない",
+"content": "書類審査・面接（教育学部保健体育専攻は実技適性試験あり）",
+"req": "学校長の推薦を受けた現役生",
+"url": "https://www.tamagawa.jp/uni_admission/faculty/pdf/guide_2027.pdf"
+},
+{
+"kubun": "推薦",
+"name": "公募制推薦入学試験（適性検査方式）",
+"kyotsu": "課さない",
+"content": "志願書・調査書・推薦書・適性検査（言語力・計算力・思考力）",
+"req": "学業・人物ともに優秀として推薦された者",
+"url": "https://www.tamagawa.jp/uni_admission/faculty/pdf/guide_2027.pdf"
+},
+{
+"kubun": "推薦",
+"name": "指定校制推薦入学試験",
+"kyotsu": "課さない",
+"content": "在籍高校経由（詳細は高校に届く要項）",
+"req": "",
+"url": "https://www.tamagawa.jp/uni_admission/faculty/pdf/guide_2027.pdf"
+},
+{
+"kubun": "総合型",
+"name": "総合型入学審査（Ⅰ・Ⅱ期）・活動実績総合型・理工系女子総合型",
+"kyotsu": "課さない",
+"content": "書類審査（コミュニケーションシート・資格検定取得記入書・志願者評価書・調査書など）",
+"req": "理工系女子総合型は農学部・工学部志望の女子",
+"url": "https://www.tamagawa.jp/uni_admission/faculty/pdf/guide_2027.pdf"
+},
+{
+"kubun": "総合型",
+"name": "教員養成総合型入学審査／総合型入学審査（Ⅲ期）",
+"kyotsu": "課さない",
+"content": "書類審査（エッセイなど）・面接",
+"req": "教員養成は全国の教員志望者、Ⅲ期は既卒生も可",
+"url": "https://www.tamagawa.jp/uni_admission/faculty/pdf/guide_2027.pdf"
 }
-]
+],
+"summary": "一般は全学統一入試（外国語は外部試験・共テ英語を換算）。共テ利用と国公立併願スカラシップ、推薦・総合型も多い。",
+"note": "スポーツ選抜・卒業生子弟・国際バカロレア総合型、帰国者・社会人入試もあり（大学公式「2027年度入試ガイド」）"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -225543,7 +225673,7 @@ null
 }
 ]
 },
-"_via": "external-ai",
+"_via": "external-ai-verified",
 "sources": [
 "https://www.tamagawa.jp/university/",
 "https://www.tamagawa.jp/uni_admission/examination/ippan_center/same.html",
@@ -225733,6 +225863,36 @@ null
 "note": "実習費は教育研究諸料。ノートパソコンの用意が必要（Kei-Net 2026年度入学者用。2027年度は未確認）"
 }
 ]
+},
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "給付型奨学金入学試験",
+"kind": "給付",
+"target": "全学部",
+"amount": "成績に応じて授業料の全額・半額・3分の1相当額（最大4年間）",
+"timing": "入試時（全学統一と同日程・同一問題）",
+"cond": "1学科のみ出願可。全学部で最大40名。学期ごとに審査し取り消しあり"
+},
+{
+"name": "国公立大学併願スカラシップ入学試験",
+"kind": "減免",
+"target": "全学部",
+"amount": "学費等納付金を国公立大学の授業料と同額（年額535,800円）に（最大4年間）",
+"timing": "入試時（共通テストの成績）",
+"cond": "入学金・特別プログラム費用・諸費は納付が必要。前期最大40名・後期最大10名"
+},
+{
+"name": "地域創生教員養成入学試験の奨励金",
+"kind": "給付",
+"target": "全学部（地域創生教員養成入学試験の入学者）",
+"amount": "30万円",
+"timing": "卒業時",
+"cond": "出身高校所在地で教員として専任採用または名簿登載された者（通信制高校は除く）"
+}
+],
+"note": "大学公式「2027年度入試ガイド」の記載から"
 }
 },
 "湘南鎌倉医療大学": {
@@ -225786,8 +225946,8 @@ null
 "methods": "2026-11-09",
 "schedule": "2026-11-14",
 "scholar": "2026-11-09",
-"_via": "2026-11-09",
-"money": "2026-11-13"
+"_via": "2026-11-17",
+"money": "2026-11-17"
 },
 "difficulty": {
 "hensachi": "35.0〜37.5",
@@ -225805,8 +225965,33 @@ null
 "content": null,
 "req": "専願制",
 "url": "https://www.shonan-it.ac.jp/digitalbook/examinguide_2027/pageindices/index13.html"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 一般公募推薦（併願制）",
+"kyotsu": "課さない",
+"content": "面接・書類審査",
+"req": "評定平均 工学部3.2以上・情報学部3.3以上。MWSまたはモノづくりチャレンジに参加した者",
+"url": "https://www.shonan-it.ac.jp/media/2027_kobo_guide2.pdf"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 MWS方式・モノづくりチャレンジ方式（専願制）",
+"kyotsu": "課さない",
+"content": "面接（30分程度）・書類審査・口頭試問",
+"req": "本学第1志望で、2026年度のMWSまたは志望学部のモノづくりチャレンジに参加した者",
+"url": "https://www.shonan-it.ac.jp/media/2027_sogo_guide.pdf"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 活動記録方式（併願制）",
+"kyotsu": "課さない",
+"content": "面接（30分程度）・書類審査・口頭試問（活動記録シートまたは課題レポート約1000字）",
+"req": "",
+"url": "https://www.shonan-it.ac.jp/media/2027_sogo_guide.pdf"
 }
-]
+],
+"note": "推薦・総合型は大学公式の2027年度募集要項で確認。一般選抜の2027年度要項は未掲載（2026-11-17）"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -225921,7 +226106,7 @@ null
 }
 ]
 },
-"_via": "external-ai",
+"_via": "external-ai-verified",
 "sources": [
 "https://www.shonan-it.ac.jp/",
 "https://www.shonan-it.ac.jp/digitalbook/examinguide_2027/pageindices/index13.html",
@@ -225931,10 +226116,12 @@ null
 "https://search.keinet.ne.jp/2310/general/border_rate",
 "https://www.gender.go.jp/c-challenge/kyouryoku/shiritsu/056.html",
 "https://manabi.benesse.ne.jp/daigaku/school/3369/gakuhi/",
-"https://manabi.benesse.ne.jp/daigaku/school/3369/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3369/nyushi/index.html",
+"https://www.shonan-it.ac.jp/media/2027_kobo_guide2.pdf",
+"https://www.shonan-it.ac.jp/media/2027_sogo_guide.pdf"
 ],
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
 "f": "工学部・情報学部（全学科・専攻共通）",
@@ -225945,7 +226132,7 @@ null
 "other": 29660,
 "first_year": 1559660,
 "four_year": null,
-"note": "施設拡充費250,000円（マナビジョン 2026年度入学者。2027年度は未確認）"
+"note": "施設拡充費250,000円。その他は保険料4,660円・学生自治会費15,000円・後援会費10,000円（大学公式 2027年度募集要項、予定額）"
 }
 ]
 }
