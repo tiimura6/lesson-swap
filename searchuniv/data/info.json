@@ -75928,30 +75928,39 @@
 "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r9nyuugakuseibosyuuannnai.pdf",
 "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r9kennkyuukaannnai_.pdf",
 "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/yokuarugakkouqa.pdf",
-"https://www.pref.ibaraki.jp/nourinsuisan/nodai/01gakkougaiyou/documents/r7sinnrosidou.pdf"
+"https://www.pref.ibaraki.jp/nourinsuisan/nodai/01gakkougaiyou/documents/r7sinnrosidou.pdf",
+"https://www.pref.ibaraki.jp/soshiki/nourinsuisan/nodai/index.html"
 ],
 "methods": {
-"year": "令和9年度入学",
+"year": "2027年度入試（令和9年度入学）",
 "list": [
 {
-"kubun": "一般",
-"name": "前期選考",
-"kyotsu": "課さない（記載なし）",
-"niji": "試験内容は募集案内の該当部分で未確認",
-"haiten": "",
-"note": "定員の60％程度。出願9/28〜10/16、試験10/28"
+"kubun": "推薦",
+"name": "推薦（養成課程）",
+"kyotsu": "課さない",
+"content": "試験内容は募集案内で要確認",
+"note": "試験10/28（終了）",
+"url": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r9nyuugakuseibosyuuannnai.pdf"
 },
 {
 "kubun": "一般",
-"name": "後期選考",
-"kyotsu": "課さない（記載なし）",
-"niji": "試験内容は募集案内の該当部分で未確認",
-"haiten": "",
-"note": "定員の40％程度。12月と3月に実施。前期で定員充足の場合は実施しない"
+"name": "一般 前期（養成課程）",
+"kyotsu": "課さない",
+"niji": "試験内容は募集案内で要確認",
+"note": "試験12/17",
+"url": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r9nyuugakuseibosyuuannnai.pdf"
+},
+{
+"kubun": "一般",
+"name": "一般 後期（養成課程）",
+"kyotsu": "課さない",
+"niji": "試験内容は募集案内で要確認",
+"note": "試験3/4。前期で合格者が募集人員に達した場合は実施しない",
+"url": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r9nyuugakuseibosyuuannnai.pdf"
 }
 ],
-"summary": "選考は前期（10月、定員の6割）と後期（12月・3月）の2回。試験科目・出願資格は募集要項で要確認。",
-"note": "推薦・一般などの区分や試験内容は今回の資料から確認できず"
+"summary": "養成課程（農学科・畜産学科・園芸学科）の選考は推薦（10月）と一般の前期（12月）・後期（3月）。試験内容は募集案内で要確認。",
+"note": "2026-11-17 県公式の入試のご案内・農業大学校トップ（令和9年度入学生募集案内（推薦・一般））で区分と日付を確認し、以前の「前期選考・後期選考」の表記を推薦・一般に直した。"
 },
 "departments": [
 {
@@ -75968,10 +75977,11 @@
 ],
 "_checked": {
 "departments": "2026-11-06",
-"schedule": "2026-11-08",
+"schedule": "2026-11-17",
 "money": "2026-11-08",
 "licenses": "2026-11-15",
-"careers": "2026-11-15"
+"careers": "2026-11-15",
+"methods": "2026-11-17"
 },
 "schedule": {
 "year": "2027年度入試（令和9年度入学生募集案内、県公式）",
@@ -75981,16 +75991,14 @@
 "name": "推薦（養成課程）",
 "apply": "2026/9/28〜10/16",
 "exam": "10/28",
-"result": "11/9",
-"note": "定員の60%程度"
+"result": "11/9"
 },
 {
 "kubun": "一般",
 "name": "一般 前期（養成課程）",
 "apply": "2026/11/16〜12/10",
 "exam": "12/17",
-"result": "12/25",
-"note": "定員の40%程度"
+"result": "12/25"
 },
 {
 "kubun": "一般",
@@ -75998,9 +76006,10 @@
 "apply": "2027/2/1〜2/25",
 "exam": "3/4",
 "result": "3/10",
-"note": "前期で定員に達した場合は実施しない"
+"note": "前期で合格者が募集人員に達した場合は実施しない"
 }
-]
+],
+"note": "2026-11-17 県公式の入試のご案内（推薦10/28は終了、前期12/17、後期3/4）と令和9年度入学生募集案内（推薦・一般）で確認。募集案内には定員の60％程度・40％程度の区分がある。"
 },
 "money": {
 "year": "令和9年度入学生募集案内（県公式）",
@@ -224858,7 +224867,7 @@ null
 "difficulty": "2026-11-09",
 "kyotsu": "2026-11-09",
 "_via": "2026-11-09",
-"schedule": "2026-11-12",
+"schedule": "2026-11-17",
 "money": "2026-11-13"
 },
 "departments": [
@@ -224910,7 +224919,11 @@ null
 "https://passnavi.obunsha.co.jp/univ/1952/top/",
 "https://manabi.benesse.ne.jp/daigaku/school/3136/",
 "https://manabi.benesse.ne.jp/daigaku/school/3136/nyushi/index.html",
-"https://search.keinet.ne.jp/2139/outline/expense"
+"https://search.keinet.ne.jp/2139/outline/expense",
+"https://search.keinet.ne.jp/2139/general/schedule",
+"https://search.keinet.ne.jp/2139sp/general/exam_subject_sp",
+"https://search.keinet.ne.jp/2139/general/exam_fee",
+"https://manabi.benesse.ne.jp/daigaku/school/3136/nyushi/hoshiki/ippan/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -224941,7 +224954,8 @@ null
 "exam": "3/13",
 "result": "3/17",
 "proc": "3/24",
-"fee": null
+"fee": 30000,
+"note": "検定料はKei-Netの2026年度入試の一般方式の額"
 },
 {
 "kubun": "共テ利用",
@@ -225008,7 +225022,7 @@ null
 "note": "子ども教育・生物生産・社会福祉・医療情報学科のみ"
 }
 ],
-"note": "ベネッセ マナビジョンの2027年度入試の日程表（全学部共通）。一般A・共テ前期など同じ時期の一般と共テ利用を同時に出願すると検定料5,000円割引。同ページの受験アドバイス（2026年度入学者対象）の日付とは一部異なるため、日程表の値を採用"
+"note": "ベネッセ マナビジョンの2027年度入試の日程表（全学部共通）。一般A・共テ前期など同じ時期の一般と共テ利用を同時に出願すると検定料5,000円割引。同ページの受験アドバイス（2026年度入学者対象）の日付とは一部異なるため、日程表の値を採用 2026-11-17 Kei-Net（入試日程・会場）でも一般A〜C・共テ前期〜後期の出願締切・試験日・発表・手続締切が一致。大学公式の要項は未確認。"
 },
 "money": {
 "year": "2026年度",
@@ -225102,6 +225116,48 @@ null
 "note": "教科書・資格等の諸経費が別途必要（Kei-Net 2026年度入学者用。2027年度は未確認）"
 }
 ]
+},
+"methods": {
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜（A日程）",
+"kyotsu": "課さない",
+"niji": "学科により2教科200点または3教科300点。3教科300点：生物生産・心理（英語必須＋数・国から1＋理・地公・情から1）、薬（英語・数学必須＋理科（物理必須＋化学・生物から1））。2教科200点：看護・理学療法（英・数・国から1＋理科1）、健康栄養（英・数・国から1＋理科1）、医療情報・社会福祉・子ども教育（英・数・国・理・地公（医療情報は情も）から2、組合せ制限あり）",
+"note": "英語は外部試験のスコア換算あり（マナビジョン）。試験日1/31・2/1",
+"url": "https://search.keinet.ne.jp/2139sp/general/exam_subject_sp"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（B日程）",
+"kyotsu": "課さない",
+"niji": "全学科2教科200点。英・数・国・理から2（看護・理学療法・健康栄養は英・数・国から1＋理科1、薬は英・数から1＋理科1）",
+"url": "https://search.keinet.ne.jp/2139sp/general/exam_subject_sp"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（C日程）",
+"kyotsu": "課さない",
+"niji": "全学科2教科200点。英・数・国から2（薬は英語・数学）＋志望理由書",
+"url": "https://search.keinet.ne.jp/2139sp/general/exam_subject_sp"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜（前期）",
+"kyotsu": "生物生産・看護：英・数・国・地公から2＋理科1（300点）／理学療法：英・数・国から2＋理科1（300点）／薬：英語（R・L）＋数学Ⅰ・A＋数学Ⅱ・B・C＋理科1（600点）／健康栄養：英・数・国から1＋理科1（200点）／医療情報・社会福祉・心理・子ども教育：2科目（200点、組合せ条件あり）",
+"niji": "なし",
+"url": "https://search.keinet.ne.jp/2139sp/general/exam_subject_sp"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜（中期・後期）",
+"kyotsu": "多くの学科で2科目200点（医療情報・社会福祉の後期は1科目100点）。薬は中期：英語（R・L）＋理科1、後期：英語（R・L）＋化学（各500点）",
+"niji": "なし",
+"url": "https://search.keinet.ne.jp/2139sp/general/exam_subject_sp"
+}
+],
+"note": "2026-11-17 Kei-Net（2027年度入試の入試科目）・マナビジョン（2027年度一般選抜）で確認。大学公式の要項は未確認。",
+"year": "2027年度入試"
 }
 },
 "駿河台大学": {
@@ -225113,7 +225169,7 @@ null
 "_checked": {
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-14",
+"schedule": "2026-11-17",
 "_via": "2026-11-09",
 "money": "2026-11-13"
 },
@@ -225121,42 +225177,52 @@ null
 "year": "2027年度入試",
 "list": [
 {
-"kubun": "共テ利用",
-"name": "共通テスト利用型（1期・2期・3期）",
-"kyotsu": null,
-"niji": null,
-"content": null,
-"req": null,
-"url": "https://www.surugadai.ac.jp/exam/type/common-test.html"
-},
-{
 "kubun": "一般",
 "name": "一般A-1方式",
 "kyotsu": "課さない",
-"niji": null,
+"niji": "国語（古文・漢文を除く）・英語必須＋地歴（世界史・日本史）・公民（政治・経済）から1。3教科のうち高得点2教科で判定（200点）",
 "content": null,
 "req": null,
-"url": "https://www.surugadai.ac.jp/exam/type/a.html"
+"url": "https://www.surugadai.ac.jp/exam/type/a.html",
+"note": "試験日1/29"
 },
 {
 "kubun": "一般",
 "name": "一般A-2方式",
 "kyotsu": "課さない",
-"niji": null,
+"niji": "A-1方式と同じ（3教科のうち高得点2教科で判定、200点）",
 "content": null,
 "req": null,
-"url": "https://www.surugadai.ac.jp/exam/type/a.html"
+"url": "https://www.surugadai.ac.jp/exam/type/a.html",
+"note": "試験日1/30"
 },
 {
 "kubun": "一般",
 "name": "一般B方式",
 "kyotsu": "課さない",
-"niji": null,
+"niji": "国語必須＋英語または地歴・公民から1（200点）",
 "content": null,
 "req": null,
 "url": "https://www.surugadai.ac.jp/exam/type/b.html"
+},
+{
+"kubun": "一般",
+"name": "一般C方式",
+"kyotsu": "課さない",
+"niji": "国語・英語（200点）",
+"note": "試験日3/4"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用型（1期・2期・3期）",
+"kyotsu": "英語（リーディング）・国語必須＋数学・理科・地歴公民・情報Ⅰから1（3教科3科目のうち高得点2科目で判定、200点）",
+"niji": "なし",
+"content": null,
+"req": null,
+"url": "https://www.surugadai.ac.jp/exam/type/common-test.html"
 }
-]
+],
+"note": "2026-11-17 Kei-Net（2027年度入試の入試科目）・マナビジョン（2027年度一般選抜）で確認。全学部同じ科目。大学公式の要項は未確認。"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -225168,7 +225234,8 @@ null
 "exam": "1/16・1/17",
 "result": "2/10(追加2/25)",
 "proc": "1次2/25・2次3/3(追加3/5)",
-"fee": null
+"fee": 15000,
+"note": "検定料はKei-Netの2026年度入試の額（併願割引あり）"
 },
 {
 "kubun": "共テ利用",
@@ -225177,7 +225244,8 @@ null
 "exam": "1/16・1/17",
 "result": "2/25",
 "proc": "3/5",
-"fee": null
+"fee": 15000,
+"note": "検定料はKei-Netの2026年度入試の額（併願割引あり）"
 },
 {
 "kubun": "共テ利用",
@@ -225186,7 +225254,8 @@ null
 "exam": "1/16・1/17",
 "result": "3/10",
 "proc": "3/23",
-"fee": null
+"fee": 15000,
+"note": "検定料はKei-Netの2026年度入試の額（併願割引あり）"
 },
 {
 "kubun": "一般",
@@ -225195,7 +225264,8 @@ null
 "exam": "1/29",
 "result": "2/5(追加2/25)",
 "proc": "1次2/25・2次3/3(追加3/5)",
-"fee": null
+"fee": 32000,
+"note": "検定料はKei-Netの2026年度入試の額（併願割引あり）"
 },
 {
 "kubun": "一般",
@@ -225204,7 +225274,8 @@ null
 "exam": "1/30",
 "result": "2/5(追加2/25)",
 "proc": "1次2/25・2次3/3(追加3/5)",
-"fee": null
+"fee": 32000,
+"note": "検定料はKei-Netの2026年度入試の額（併願割引あり）"
 },
 {
 "kubun": "一般",
@@ -225213,7 +225284,8 @@ null
 "exam": "2/18",
 "result": "2/25",
 "proc": "3/5",
-"fee": null
+"fee": 32000,
+"note": "検定料はKei-Netの2026年度入試の額（併願割引あり）"
 },
 {
 "kubun": "一般",
@@ -225222,10 +225294,11 @@ null
 "exam": "3/4",
 "result": "3/10",
 "proc": "3/23",
-"fee": null
+"fee": 32000,
+"note": "検定料はKei-Netの2026年度入試の額（併願割引あり）"
 }
 ],
-"note": "テレメール（2027年度一般選抜、2026年4月15日掲載）で一般・共テ利用の全日程を確認し、B方式の手続締切とC方式を追加。全学部で同じ日程。検定料は記載なし"
+"note": "テレメール（2027年度一般選抜）・マナビジョン（2027年度入試）・Kei-Net（入試日程）で全学部同じ日程を確認（2026-11-17）。検定料はKei-Netの2026年度入試の額（一般32,000円・共テ利用15,000円、併願割引あり）。大学公式の要項は未確認"
 },
 "_via": "external-ai",
 "sources": [
@@ -225235,7 +225308,11 @@ null
 "https://www.surugadai.ac.jp/exam/type/b.html",
 "https://manabi.benesse.ne.jp/daigaku/school/3151/",
 "https://search.keinet.ne.jp/2153/outline/expense",
-"https://telemail.jp/shingaku/university/10001913/examination/general"
+"https://telemail.jp/shingaku/university/10001913/examination/general",
+"https://search.keinet.ne.jp/2153/general/exam_subject",
+"https://search.keinet.ne.jp/2153/general/schedule",
+"https://search.keinet.ne.jp/2153/general/exam_fee",
+"https://manabi.benesse.ne.jp/daigaku/school/3151/nyushi/hoshiki/ippan/index.html"
 ],
 "money": {
 "year": "2026年度",

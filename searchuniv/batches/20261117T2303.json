@@ -1,0 +1,432 @@
+[
+ {
+  "name": "高崎健康福祉大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A日程）",
+      "apply": "12/23〜1/22",
+      "exam": "1/31・2/1",
+      "result": "2/12",
+      "proc": "3/1",
+      "fee": 30000,
+      "note": "両日受験も同額"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（B日程）",
+      "apply": "2/4〜2/19",
+      "exam": "2/27",
+      "result": "3/5",
+      "proc": "3/12",
+      "fee": 30000
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（C日程）",
+      "apply": "2/26〜3/7",
+      "exam": "3/13",
+      "result": "3/17",
+      "proc": "3/24",
+      "fee": 30000,
+      "note": "検定料はKei-Netの2026年度入試の一般方式の額"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（前期）",
+      "apply": "12/23〜1/27",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/18",
+      "proc": "3/1",
+      "fee": 10000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（中期）",
+      "apply": "1/29〜2/10",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/22",
+      "proc": "3/12",
+      "fee": 10000
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（後期）",
+      "apply": "2/22〜3/5",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/15",
+      "proc": "3/24",
+      "fee": 10000
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募制・専願）",
+      "apply": "11/2〜11/13",
+      "exam": "11/21",
+      "result": "12/1",
+      "proc": "12/10",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（専願型）",
+      "apply": "10/1〜10/15",
+      "exam": "10/24",
+      "result": "11/2",
+      "proc": "11/13",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（併願可能型）",
+      "apply": "10/1〜10/15",
+      "exam": "10/24",
+      "result": "11/2",
+      "proc": "1/8",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "12月総合型選抜",
+      "apply": "12/1〜12/11",
+      "exam": "12/19",
+      "result": "12/23",
+      "proc": "1/8",
+      "fee": null,
+      "note": "子ども教育・生物生産・社会福祉・医療情報学科のみ"
+     }
+    ],
+    "note": "ベネッセ マナビジョンの2027年度入試の日程表（全学部共通）。一般A・共テ前期など同じ時期の一般と共テ利用を同時に出願すると検定料5,000円割引。同ページの受験アドバイス（2026年度入学者対象）の日付とは一部異なるため、日程表の値を採用 2026-11-17 Kei-Net（入試日程・会場）でも一般A〜C・共テ前期〜後期の出願締切・試験日・発表・手続締切が一致。大学公式の要項は未確認。"
+   },
+   "methods_add": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A日程）",
+      "kyotsu": "課さない",
+      "niji": "学科により2教科200点または3教科300点。3教科300点：生物生産・心理（英語必須＋数・国から1＋理・地公・情から1）、薬（英語・数学必須＋理科（物理必須＋化学・生物から1））。2教科200点：看護・理学療法（英・数・国から1＋理科1）、健康栄養（英・数・国から1＋理科1）、医療情報・社会福祉・子ども教育（英・数・国・理・地公（医療情報は情も）から2、組合せ制限あり）",
+      "note": "英語は外部試験のスコア換算あり（マナビジョン）。試験日1/31・2/1",
+      "url": "https://search.keinet.ne.jp/2139sp/general/exam_subject_sp"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（B日程）",
+      "kyotsu": "課さない",
+      "niji": "全学科2教科200点。英・数・国・理から2（看護・理学療法・健康栄養は英・数・国から1＋理科1、薬は英・数から1＋理科1）",
+      "url": "https://search.keinet.ne.jp/2139sp/general/exam_subject_sp"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（C日程）",
+      "kyotsu": "課さない",
+      "niji": "全学科2教科200点。英・数・国から2（薬は英語・数学）＋志望理由書",
+      "url": "https://search.keinet.ne.jp/2139sp/general/exam_subject_sp"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（前期）",
+      "kyotsu": "生物生産・看護：英・数・国・地公から2＋理科1（300点）／理学療法：英・数・国から2＋理科1（300点）／薬：英語（R・L）＋数学Ⅰ・A＋数学Ⅱ・B・C＋理科1（600点）／健康栄養：英・数・国から1＋理科1（200点）／医療情報・社会福祉・心理・子ども教育：2科目（200点、組合せ条件あり）",
+      "niji": "なし",
+      "url": "https://search.keinet.ne.jp/2139sp/general/exam_subject_sp"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜（中期・後期）",
+      "kyotsu": "多くの学科で2科目200点（医療情報・社会福祉の後期は1科目100点）。薬は中期：英語（R・L）＋理科1、後期：英語（R・L）＋化学（各500点）",
+      "niji": "なし",
+      "url": "https://search.keinet.ne.jp/2139sp/general/exam_subject_sp"
+     }
+    ],
+    "note": "2026-11-17 Kei-Net（2027年度入試の入試科目）・マナビジョン（2027年度一般選抜）で確認。大学公式の要項は未確認。"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2139/general/schedule",
+    "https://search.keinet.ne.jp/2139sp/general/exam_subject_sp",
+    "https://search.keinet.ne.jp/2139/general/exam_fee",
+    "https://manabi.benesse.ne.jp/daigaku/school/3136/nyushi/hoshiki/ippan/"
+   ]
+  }
+ },
+ {
+  "name": "駿河台大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用型（1期）",
+      "apply": "12/17〜1/22",
+      "exam": "1/16・1/17",
+      "result": "2/10(追加2/25)",
+      "proc": "1次2/25・2次3/3(追加3/5)",
+      "fee": 15000,
+      "note": "検定料はKei-Netの2026年度入試の額（併願割引あり）"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用型（2期）",
+      "apply": "1/25〜2/12",
+      "exam": "1/16・1/17",
+      "result": "2/25",
+      "proc": "3/5",
+      "fee": 15000,
+      "note": "検定料はKei-Netの2026年度入試の額（併願割引あり）"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用型（3期）",
+      "apply": "2/15〜2/26",
+      "exam": "1/16・1/17",
+      "result": "3/10",
+      "proc": "3/23",
+      "fee": 15000,
+      "note": "検定料はKei-Netの2026年度入試の額（併願割引あり）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般A-1方式",
+      "apply": "12/17〜1/22",
+      "exam": "1/29",
+      "result": "2/5(追加2/25)",
+      "proc": "1次2/25・2次3/3(追加3/5)",
+      "fee": 32000,
+      "note": "検定料はKei-Netの2026年度入試の額（併願割引あり）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般A-2方式",
+      "apply": "12/17〜1/22",
+      "exam": "1/30",
+      "result": "2/5(追加2/25)",
+      "proc": "1次2/25・2次3/3(追加3/5)",
+      "fee": 32000,
+      "note": "検定料はKei-Netの2026年度入試の額（併願割引あり）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般B方式",
+      "apply": "1/25〜2/12",
+      "exam": "2/18",
+      "result": "2/25",
+      "proc": "3/5",
+      "fee": 32000,
+      "note": "検定料はKei-Netの2026年度入試の額（併願割引あり）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般C方式",
+      "apply": "2/15〜2/26",
+      "exam": "3/4",
+      "result": "3/10",
+      "proc": "3/23",
+      "fee": 32000,
+      "note": "検定料はKei-Netの2026年度入試の額（併願割引あり）"
+     }
+    ],
+    "note": "テレメール（2027年度一般選抜）・マナビジョン（2027年度入試）・Kei-Net（入試日程）で全学部同じ日程を確認（2026-11-17）。検定料はKei-Netの2026年度入試の額（一般32,000円・共テ利用15,000円、併願割引あり）。大学公式の要項は未確認"
+   },
+   "methods_add": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用型（1期・2期・3期）",
+      "kyotsu": "英語（リーディング）・国語必須＋数学・理科・地歴公民・情報Ⅰから1（3教科3科目のうち高得点2科目で判定、200点）",
+      "niji": "なし",
+      "content": null,
+      "req": null,
+      "url": "https://www.surugadai.ac.jp/exam/type/common-test.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般A-1方式",
+      "kyotsu": "課さない",
+      "niji": "国語（古文・漢文を除く）・英語必須＋地歴（世界史・日本史）・公民（政治・経済）から1。3教科のうち高得点2教科で判定（200点）",
+      "content": null,
+      "req": null,
+      "url": "https://www.surugadai.ac.jp/exam/type/a.html",
+      "note": "試験日1/29"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般A-2方式",
+      "kyotsu": "課さない",
+      "niji": "A-1方式と同じ（3教科のうち高得点2教科で判定、200点）",
+      "content": null,
+      "req": null,
+      "url": "https://www.surugadai.ac.jp/exam/type/a.html",
+      "note": "試験日1/30"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般B方式",
+      "kyotsu": "課さない",
+      "niji": "国語必須＋英語または地歴・公民から1（200点）",
+      "content": null,
+      "req": null,
+      "url": "https://www.surugadai.ac.jp/exam/type/b.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般C方式",
+      "kyotsu": "課さない",
+      "niji": "国語・英語（200点）",
+      "note": "試験日3/4"
+     }
+    ],
+    "note": "2026-11-17 Kei-Net（2027年度入試の入試科目）・マナビジョン（2027年度一般選抜）で確認。全学部同じ科目。大学公式の要項は未確認。"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2153/general/exam_subject",
+    "https://search.keinet.ne.jp/2153/general/schedule",
+    "https://search.keinet.ne.jp/2153/general/exam_fee",
+    "https://manabi.benesse.ne.jp/daigaku/school/3151/nyushi/hoshiki/ippan/index.html"
+   ]
+  }
+ },
+ {
+  "name": "茨城県立農業大学校",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試（令和9年度入学生募集案内、県公式）",
+    "rows": [
+     {
+      "kubun": "推薦",
+      "name": "推薦（養成課程）",
+      "apply": "2026/9/28〜10/16",
+      "exam": "10/28",
+      "result": "11/9"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 前期（養成課程）",
+      "apply": "2026/11/16〜12/10",
+      "exam": "12/17",
+      "result": "12/25"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 後期（養成課程）",
+      "apply": "2027/2/1〜2/25",
+      "exam": "3/4",
+      "result": "3/10",
+      "note": "前期で合格者が募集人員に達した場合は実施しない"
+     }
+    ],
+    "note": "2026-11-17 県公式の入試のご案内（推薦10/28は終了、前期12/17、後期3/4）と令和9年度入学生募集案内（推薦・一般）で確認。募集案内には定員の60％程度・40％程度の区分がある。"
+   },
+   "methods_replace": {
+    "year": "2027年度入試（令和9年度入学）",
+    "list": [
+     {
+      "kubun": "推薦",
+      "name": "推薦（養成課程）",
+      "kyotsu": "課さない",
+      "content": "試験内容は募集案内で要確認",
+      "note": "試験10/28（終了）",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r9nyuugakuseibosyuuannnai.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 前期（養成課程）",
+      "kyotsu": "課さない",
+      "niji": "試験内容は募集案内で要確認",
+      "note": "試験12/17",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r9nyuugakuseibosyuuannnai.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 後期（養成課程）",
+      "kyotsu": "課さない",
+      "niji": "試験内容は募集案内で要確認",
+      "note": "試験3/4。前期で合格者が募集人員に達した場合は実施しない",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r9nyuugakuseibosyuuannnai.pdf"
+     }
+    ],
+    "summary": "養成課程（農学科・畜産学科・園芸学科）の選考は推薦（10月）と一般の前期（12月）・後期（3月）。試験内容は募集案内で要確認。",
+    "note": "2026-11-17 県公式の入試のご案内・農業大学校トップ（令和9年度入学生募集案内（推薦・一般））で区分と日付を確認し、以前の「前期選考・後期選考」の表記を推薦・一般に直した。"
+   },
+   "sources": [
+    "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/3nyuushikanren-top.html",
+    "https://www.pref.ibaraki.jp/soshiki/nourinsuisan/nodai/index.html"
+   ]
+  }
+ },
+ {
+  "name": "花園大学",
+  "story": {
+   "summary": "京都市にある臨済宗妙心寺派の大学で、1949年の創設以来「禅的仏教精神による人格の陶冶」を建学の精神に掲げ、文学部・社会福祉学部に加えて教育学部をもつ。教育学部初等教育学科は小学校・幼児教育に絞り、1年次からの観察実習や2〜3年次に朝から小学校へ通う教職体験など、学校現場で4年間学ぶ仕組みをとる。仏教・歴史・文学、福祉・心理、小学校や幼稚園の先生に関心のある生徒に話しやすい。",
+   "only": [
+    {
+     "t": "1949年に臨済宗妙心寺派が創設し、建学の精神を「禅的仏教精神による人格の陶冶」としている",
+     "src": "https://www.hanazono.ac.jp/wp/wp-content/uploads/2026/04/hanazono_202510nsecchi_syushi1.pdf"
+    },
+    {
+     "t": "教育学部初等教育学科は「学校拠点方式」で、1年次から観察実習、2〜3年次は朝から小学校に登校して学級担任の補助などを行う",
+     "src": "https://www.hanazono.ac.jp/wp/wp-content/uploads/2026/04/hanazono_202510nsecchi_syushi1.pdf"
+    },
+    {
+     "t": "学生を8〜10人以内の班に分け、4年間班単位で活動する。中学校免許は対象外とし小学校・幼児教育に特化する",
+     "src": "https://www.hanazono.ac.jp/wp/wp-content/uploads/2026/04/hanazono_202510nsecchi_syushi1.pdf"
+    },
+    {
+     "t": "京都市教育委員会と連携協定を結び（2024年11月）、近隣の小学校が実習を受け入れる",
+     "src": "https://www.hanazono.ac.jp/wp/wp-content/uploads/2026/04/hanazono_202510nsecchi_syushi1.pdf"
+    }
+   ],
+   "vs": [
+    {
+     "u": "佛教大学",
+     "t": "佛教大学は仏教・文・歴史・教育・社会・社会福祉・保健医療技術・看護の8学部をもつが、花園大学は文・社会福祉・教育の3学部で、教育学部は小学校・幼児教育に絞っている",
+     "src": "https://search.keinet.ne.jp/2501/outline/expense"
+    },
+    {
+     "u": "種智院大学",
+     "t": "種智院大学は人文学部1学部だが、花園大学は文学部（仏教・日本史・日本文学）に加えて社会福祉学部（臨床心理・児童福祉など）と教育学部をもつ",
+     "src": "https://search.keinet.ne.jp/2496"
+    }
+   ]
+  }
+ },
+ {
+  "name": "畿央大学",
+  "story": {
+   "summary": "奈良県広陵町にある、健康科学部（理学療法・看護医療・健康栄養・人間環境デザイン）と教育学部（現代教育）の2学部の大学で、2003年に開学した。国家試験対策を1年次から行い、クラス・ゼミ担任とキャリアセンター・教採・公務員対策室が支える「ダブル担任制」をとる。医療・栄養・住環境デザインや教員をめざす生徒に、助産学専攻科まで含めて話しやすい。",
+   "only": [
+    {
+     "t": "クラス・ゼミ担任に加えキャリアセンターや教採・公務員対策室のスタッフが支援する「ダブル担任制」をとる",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3735/"
+    },
+    {
+     "t": "国家試験対策を1年次から始め、卒業単位として認められる対策講座や模擬試験を用意している",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3735/"
+    },
+    {
+     "t": "健康科学部に理学療法・看護医療と並んで健康栄養・人間環境デザインの学科を置く",
+     "src": "https://search.keinet.ne.jp/2587"
+    },
+    {
+     "t": "1年課程の助産学専攻科を置いている",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3735/"
+    }
+   ],
+   "vs": [
+    {
+     "u": "奈良学園大学",
+     "t": "奈良学園大学は人間教育学部と保健医療学部をもつが、畿央大学は健康科学部の中に健康栄養学科や人間環境デザイン学科も置いている",
+     "src": "https://search.keinet.ne.jp/2591/outline/expense"
+    },
+    {
+     "u": "天理大学",
+     "t": "天理大学は人文・国際・体育・医療の4学部だが、畿央大学は健康科学と教育の2学部に絞った大学である",
+     "src": "https://search.keinet.ne.jp/2589/general/border_rate"
+    }
+   ]
+  }
+ }
+]
