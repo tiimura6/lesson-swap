@@ -74583,7 +74583,7 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-08",
+"schedule": "2026-11-17",
 "money": "2026-11-08",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
@@ -74678,7 +74678,8 @@
 "proc": "3/9",
 "fee": 17000
 }
-]
+],
+"note": "2026-11-17 Kei-Net の入試日程で一般選抜・共テ利用の出願締切・試験日・発表・手続を再確認（変更なし）"
 },
 "money": {
 "year": "2026年度",
@@ -75003,7 +75004,7 @@
 "_checked": {
 "departments": "2026-11-06",
 "money": "2026-11-08",
-"schedule": "2026-11-08",
+"schedule": "2026-11-17",
 "careers": "2026-11-15",
 "research": "2026-11-15"
 },
@@ -75052,7 +75053,8 @@
 "result": "1次11/18、最終12/25",
 "note": "志願は自衛隊地方協力本部を通じて手続"
 }
-]
+],
+"note": "2026-11-17 防衛大学校公式の募集要項ページ（令和9年度学生採用試験）で受付期間・試験日・発表日を再確認（変更なし）"
 },
 "careers": "卒業後は陸上・海上・航空の各幹部候補生学校へ進み、幹部自衛官を目指す（学生は在学中から特別職の国家公務員）。",
 "research": [
@@ -190017,8 +190019,8 @@ null
 "ratios": "2026-11-09",
 "fdiff": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-09",
-"money": "2026-11-09",
+"schedule": "2026-11-17",
+"money": "2026-11-17",
 "_via": "2026-11-09"
 },
 "departments": [
@@ -190083,7 +190085,9 @@ null
 "https://www.okigei.ac.jp/wp-content/uploads/2026/06/opua-ao-exam-app2027.pdf",
 "https://www.okigei.ac.jp/wp-content/uploads/2026/06/opua-school-reccomend-exam-app2027.pdf",
 "https://aoaoi.jp/preparation/okigei/",
-"https://www.toshin.com/nyushi_info/schedule/?univ_type=%E5%9B%BD%E5%85%AC%E7%AB%8B&univ_pref_area=%E5%9C%B0%E6%96%B9%E3%82%92%E9%81%B8%E6%8A%9E%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84&univ_pref[]=%E6%B2%96%E7%B8%84&univ_name=%E6%B2%96%E7%B8%84%E7%9C%8C%E7%AB%8B%E8%8A%B8%E8%A1%93%E5%A4%A7%E5%AD%A6&department=&department_class=&univ_group=0&test_date_start=&test_date_end=&application_deadline_start=&application_deadline_end=&passing_announcement_start=&passing_announcement_end=&procedure_deadline_start=&procedure_deadline_end="
+"https://www.toshin.com/nyushi_info/schedule/?univ_type=%E5%9B%BD%E5%85%AC%E7%AB%8B&univ_pref_area=%E5%9C%B0%E6%96%B9%E3%82%92%E9%81%B8%E6%8A%9E%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84&univ_pref[]=%E6%B2%96%E7%B8%84&univ_name=%E6%B2%96%E7%B8%84%E7%9C%8C%E7%AB%8B%E8%8A%B8%E8%A1%93%E5%A4%A7%E5%AD%A6&department=&department_class=&univ_group=0&test_date_start=&test_date_end=&application_deadline_start=&application_deadline_end=&passing_announcement_start=&passing_announcement_end=&procedure_deadline_start=&procedure_deadline_end=",
+"https://manabi.benesse.ne.jp/daigaku/school/2345/nyushi/gokaku-happyo/",
+"https://www.okigei.ac.jp/wp-content/uploads/2026/03/opua-exam-arts-info2026-01.pdf"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -190244,21 +190248,53 @@ null
 "rows": [
 {
 "kubun": "一般",
-"name": "一般 前期",
-"apply": "〜2/3",
+"name": "一般 前期（美術工芸学部：絵画・彫刻・デザイン・工芸）",
+"apply": "1/25〜2/3",
+"exam": "2/25〜2/27",
+"result": "3/5",
+"proc": "3/15",
+"note": "ネット出願。マナビジョン（2027年度入試）",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2345/nyushi/gokaku-happyo/"
+},
+{
+"kubun": "一般",
+"name": "一般 前期（美術工芸学部 芸術学専攻）",
+"apply": "1/25〜2/3",
+"exam": "2/25",
+"result": "3/5",
+"proc": "3/15",
+"note": "マナビジョン（2027年度入試）",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2345/nyushi/gokaku-happyo/"
+},
+{
+"kubun": "一般",
+"name": "一般 前期（音楽学部）",
+"apply": "1/25〜2/3",
 "exam": "2/25・2/26",
-"result": "",
-"proc": "",
-"note": "東進2027年度入試日程カレンダー（音楽学部音楽学科琉球芸能専攻）で確認。出願開始日・合格発表日・手続締切日は未確認。"
+"result": "3/5",
+"proc": "3/15",
+"note": "マナビジョン（2027年度入試）",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2345/nyushi/gokaku-happyo/"
+},
+{
+"kubun": "一般",
+"name": "一般 後期（美術工芸学部 絵画専攻のみ）",
+"apply": "1/25〜2/3",
+"exam": "3/12〜3/14",
+"result": "3/20",
+"proc": "3/27",
+"note": "マナビジョン（2027年度入試）",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2345/nyushi/gokaku-happyo/"
 },
 {
 "kubun": "推薦",
-"name": "学校推薦型選抜",
+"name": "学校推薦型選抜（全国枠・県内枠）",
 "apply": "11/2〜11/9",
 "exam": "11/21・11/22",
 "result": "12/1",
 "proc": "12/4〜12/11",
-"note": "11/9消印有効。美術工芸学部は11/21〜22のうち指定する1日。"
+"note": "11/9消印有効。美術工芸学部は11/21〜22のうち指定する1日。手続締切12/11はマナビジョンと一致",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2345/nyushi/gokaku-happyo/"
 },
 {
 "kubun": "総合型",
@@ -190266,19 +190302,43 @@ null
 "apply": "9/1〜9/8",
 "exam": "9/26・9/27",
 "result": "11/2",
-"proc": "",
-"note": "9/8消印有効。美術工芸（彫刻・芸術学）は9/26。手続締切日は未確認。"
+"proc": "11/13",
+"note": "9/8消印有効。美術工芸（彫刻・芸術学）は9/26。手続締切はマナビジョン",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2345/nyushi/gokaku-happyo/"
 }
-]
+],
+"note": "2026-11-17 マナビジョン（2027年度入試の合格発表日ページ）で確認。外部AIのデータの出願・試験日は一致し、空欄だった一般選抜の出願開始日・合格発表・手続締切、後期（絵画専攻）、総合型の手続締切を追加。大学公式の令和9年度入学者選抜要項（PDF）はこの環境で読み取れず未照合"
 },
 "money": {
-"year": "",
+"year": "2026年度入学者用（Kei-Net）",
 "total4": 2425200,
 "total4_note": "大学公式ページの入学料（県内在住者）282,000円および授業料（年額）535,800円×4年分で算出（設備/実習/諸会費等・保険料除く）。",
 "admission": 282000,
 "annual": 535800,
-"note": "大学公式「授業料等について」で入学料は県内在住者282,000円・県内在住者以外の者512,000円、授業料は年額535,800円（前期267,900円＋後期267,900円）と確認。Kei-Netで学部・専攻別の設備/実習/諸会費等および保険料4,660円を確認（ラベル確認済みの4区分に加え、美術工芸学部内に設備/実習/諸会費等480,000円・510,000円の区分あり）。パソコン（またはタブレット等）および通信環境が別途必要。",
+"note": "大学公式「授業料等について」で入学料は県内在住者282,000円・県内在住者以外の者512,000円、授業料は年額535,800円（前期267,900円＋後期267,900円）と確認。Kei-Netで学部・専攻別の設備/実習/諸会費等および保険料4,660円を確認（2026-11-17 絵画480,000円・彫刻510,000円の区分を専攻名つきで確認し追加）。パソコン（またはタブレット等）および通信環境が別途必要。",
 "rows": [
+{
+"f": "美術工芸学部（美術－絵画）",
+"admission": 282000,
+"tuition": 535800,
+"facility": 480000,
+"practical": null,
+"other": 4660,
+"first_year": 1302460,
+"four_year": null,
+"note": "facilityは設備/実習/諸会費等480,000円、otherは保険料4,660円（県外者初年度合計1,532,460円）。Kei-Net（2026年度入学者用）"
+},
+{
+"f": "美術工芸学部（美術－彫刻）",
+"admission": 282000,
+"tuition": 535800,
+"facility": 510000,
+"practical": null,
+"other": 4660,
+"first_year": 1332460,
+"four_year": null,
+"note": "facilityは設備/実習/諸会費等510,000円、otherは保険料4,660円（県外者初年度合計1,562,460円）。Kei-Net（2026年度入学者用）"
+},
 {
 "f": "美術工芸学部（美術－芸術学）",
 "admission": 282000,
@@ -190346,8 +190406,9 @@ null
 "ratios": "2026-11-09",
 "fdiff": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-09",
-"_via": "2026-11-09"
+"schedule": "2026-11-17",
+"_via": "2026-11-09",
+"money": "2026-11-17"
 },
 "departments": [
 {
@@ -190433,7 +190494,9 @@ null
 "https://passnavi.obunsha.co.jp/univ/1360/subject/?facultyID=010",
 "https://passnavi.obunsha.co.jp/univ/1360/subject/?facultyID=015",
 "https://passnavi.obunsha.co.jp/univ/1360/subject/?facultyID=020",
-"https://aoaoi.jp/preparation/kumamoto_prefectural/"
+"https://aoaoi.jp/preparation/kumamoto_prefectural/",
+"https://manabi.benesse.ne.jp/daigaku/school/2325/nyushi/gokaku-happyo/",
+"https://www.pu-kumamoto.ac.jp/campuslife/tuition/"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -190579,7 +190642,8 @@ null
 "exam": "2/25",
 "result": "3/5",
 "proc": "3/6〜3/15",
-"note": "出願登録は2/3 16:59まで、出願書類提出は2/3 17:00必着。"
+"note": "出願登録は2/3 16:59まで、出願書類提出は2/3 17:00必着。",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2325/nyushi/gokaku-happyo/"
 },
 {
 "kubun": "一般",
@@ -190588,7 +190652,8 @@ null
 "exam": "3/12",
 "result": "3/20",
 "proc": "3/20〜3/27",
-"note": "出願登録は2/3 16:59まで、出願書類提出は2/3 17:00必着。"
+"note": "出願登録は2/3 16:59まで、出願書類提出は2/3 17:00必着。",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2325/nyushi/gokaku-happyo/"
 },
 {
 "kubun": "推薦",
@@ -190596,8 +190661,9 @@ null
 "apply": "11/9〜11/13",
 "exam": "12/5・12/6",
 "result": "12/14",
-"proc": "",
-"note": "12/5は総合管理・半導体、12/6は文・環境共生。手続締切日は未確認。"
+"proc": "12/23",
+"note": "12/5は総合管理・半導体、12/6は文・環境共生。手続締切はマナビジョン",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2325/nyushi/gokaku-happyo/"
 },
 {
 "kubun": "総合型",
@@ -190605,12 +190671,20 @@ null
 "apply": "9/3〜9/11",
 "exam": "10/17・10/18",
 "result": "11/2",
-"proc": "",
-"note": "手続締切日は未確認。"
+"proc": "11/11",
+"note": "手続締切はマナビジョン。環境共生（居住環境学専攻）は10/17・10/18、総合管理は10/17",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2325/nyushi/gokaku-happyo/"
 }
-]
+],
+"note": "2026-11-17 マナビジョン（2027年度入試の合格発表日ページ）で確認。外部AIのデータの出願・試験・発表・前期/後期の手続はすべて一致し、空欄だった推薦（12/23）・自己推薦型（11/11）の手続締切を追加。大学公式の令和9年度学生募集要項（PDF）はこの環境で読み取れず未照合"
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"money": {
+"year": "2024（令和6年度入学者の適用額。大学公式）",
+"admission": 207000,
+"annual": 535800,
+"note": "大学公式「授業料、入学金」：入学金は県内生207,000円・県外生414,000円、授業料は年額535,800円（前期・後期各267,900円）。ほかに後援会費67,000円・自治会費8,000円・学研災保険3,300円（食健康科学科3,370円）・学研賠1,360円（いずれも4年分）。令和6年度入学者の額のため、2027年度入学者の額は要確認"
+}
 },
 "福岡女子大学": {
 "difficulty": {
