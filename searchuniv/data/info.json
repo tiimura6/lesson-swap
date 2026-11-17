@@ -148463,7 +148463,7 @@ null
 "fdiff": "2026-11-09",
 "methods": "2026-11-09",
 "ratios": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-17",
 "_via": "2026-11-09"
 },
 "departments": [
@@ -148518,7 +148518,10 @@ null
 "https://dazaifu-academy.jp/exam/kyoto_medical/",
 "https://gritmedical.info/2026/03/06/admission-results-announcement-kyoufui/",
 "https://www.mebio.co.jp/univ_list/archives/50",
-"https://bestjuku.com/shingaku/s-article/70274/"
+"https://bestjuku.com/shingaku/s-article/70274/",
+"https://search.keinet.ne.jp/1600/recommend/exam_rec",
+"https://telemail.jp/shingaku/university/10003437/examination/general",
+"https://bestjuku.com/shingaku/s-article/65828/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -148602,7 +148605,8 @@ null
 "exam": "2/25〜2/26",
 "result": "3/5",
 "proc": "3/12",
-"note": "共通テストは1/16・17、第1段階選抜合格発表は2/10 16:00。2/25個別・小論文、2/26面接。"
+"note": "共通テストは1/16・17、第1段階選抜合格発表は2/10 16:00。2/25個別・小論文、2/26面接（全日程受験必須）。出願は必着",
+"url": "https://passnavi.obunsha.co.jp/univ/1180/schedule/"
 },
 {
 "kubun": "一般",
@@ -148610,37 +148614,42 @@ null
 "apply": "1/25〜2/3",
 "exam": "2/25",
 "result": "3/5",
-"proc": "",
-"note": "共通テストは1/16・17。2/25個別・面接。手続締切日は未確認。"
+"proc": "3/12",
+"note": "共通テストは1/16・17。2/25個別・面接。手続締切は旺文社パスナビ・テレメールで一致",
+"url": "https://passnavi.obunsha.co.jp/univ/1180/schedule/"
 },
 {
 "kubun": "推薦",
-"name": "学校推薦型選抜＜地域枠＞（医学科）",
+"name": "学校推薦型選抜＜地域枠＞（医学科・7名）",
 "apply": "1/20〜1/29",
 "exam": "2/6",
 "result": "2/10",
 "proc": "2/16",
-"note": "共通テストを課す。第1段階選抜合格発表は2/4 14:00。"
+"note": "共通テスト（6教科8科目）を課す。第1段階選抜合格発表は2/4 14:00。出願は1/29必着",
+"url": "https://search.keinet.ne.jp/1600/recommend/exam_rec"
 },
 {
 "kubun": "推薦",
-"name": "学校推薦型選抜＜全国一般枠＞（医学科）",
+"name": "学校推薦型選抜＜全国一般枠＞（医学科・5名）",
 "apply": "1/20〜1/29",
 "exam": "2/7",
-"result": "",
-"proc": "",
-"note": "面接試験2/7。共通テストを課す。合格発表・手続日は未確認。"
+"result": "2/10",
+"proc": "2/16",
+"note": "共通テスト（6教科8科目）を課す。第1段階選抜合格発表は2/4 14:00。2次は面接・グループディスカッション",
+"url": "https://search.keinet.ne.jp/1600/recommend/exam_rec"
 },
 {
 "kubun": "推薦",
-"name": "学校推薦型選抜（看護学科）",
-"apply": "",
+"name": "学校推薦型選抜（看護学科・40名）",
+"apply": "〜11/9",
 "exam": "11/28",
-"result": "",
-"proc": "",
-"note": "2026年11月28日実施。出願期間・合格発表・手続日は未確認。"
+"result": "12/4",
+"proc": "12/22",
+"note": "2026年。出願は11/9必着（開始日は未確認）。面接・小論文・書類審査",
+"url": "https://search.keinet.ne.jp/1600/recommend/exam_rec"
 }
-]
+],
+"note": "2026-11-17 河合塾Kei-Net・旺文社パスナビ・テレメール・塾選ジャーナル（医学科推薦の募集要項公開記事）で日程が一致することを確認。大学公式ページは今回開けず、外部AI由来データの公式確認（verify）は継続"
 },
 "_via": "external-ai"
 },
@@ -148664,8 +148673,8 @@ null
 "fdiff": "2026-11-09",
 "methods": "2026-11-09",
 "ratios": "2026-11-09",
-"schedule": "2026-11-09",
-"_via": "2026-11-09"
+"schedule": "2026-11-17",
+"_via": "2026-11-17"
 },
 "departments": [
 {
@@ -148758,7 +148767,9 @@ null
 "https://passnavi.obunsha.co.jp/univ/1170/department/",
 "https://bestjuku.com/shingaku/s-article/77907/",
 "https://onikanri.singeki.com/kyotohuritsu_charts/",
-"https://www.keinet.ne.jp/exam/2028/change/national/1595.html"
+"https://www.keinet.ne.jp/exam/2028/change/national/1595.html",
+"https://www.kpu.ac.jp/media/R9_senbatsu_0828.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/2170/nyushi/gokaku-happyo/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -149023,7 +149034,8 @@ null
 "exam": "2/25",
 "result": "3/8",
 "proc": "3/15",
-"note": "全5学部。共通テストは1/16・17。"
+"note": "全5学部。共通テストは1/16・17",
+"url": "https://www.kpu.ac.jp/media/R9_senbatsu_0828.pdf"
 },
 {
 "kubun": "一般",
@@ -149032,20 +149044,33 @@ null
 "exam": "3/12",
 "result": "3/23",
 "proc": "3/27",
-"note": "共通テスト1/16・17。文学部・社会科学部は3/12に個別試験あり、理系学科（生命化学科・農学生命科学科・森林科学科等）は個別学科試験なし（共テのみ等）。"
+"note": "共通テスト1/16・17。文学部・社会科学部は3/12に個別試験あり、理系学科（生命化学科・農学生命科学科・森林科学科等）は個別学科試験なし（共テのみ等）",
+"url": "https://www.kpu.ac.jp/media/R9_senbatsu_0828.pdf"
 },
 {
 "kubun": "推薦",
-"name": "学校推薦型選抜",
+"name": "学校推薦型選抜（栄養科学科以外）",
 "apply": "11/1〜11/9",
 "exam": "11/28",
-"result": "",
-"proc": "",
-"note": "2026年実施。ネット出願登録10/26〜11/9正午。栄養科学科出願者のみ共テ成績請求チケット提出12/4〜12/18。合格発表・手続日は未確認。"
-}
-]
+"result": "12/10",
+"proc": "12/25",
+"note": "2026年実施。ネット出願登録10/26〜11/9",
+"url": "https://www.kpu.ac.jp/media/R9_senbatsu_0828.pdf"
 },
-"_via": "external-ai"
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（栄養科学科・共通テストを課す）",
+"apply": "11/1〜11/9",
+"exam": "11/28",
+"result": "2/10",
+"proc": "2/17",
+"note": "2026年11月に試験、合格発表・手続は2027年。共テ成績請求チケット提出12/4〜12/18",
+"url": "https://www.kpu.ac.jp/media/R9_senbatsu_0828.pdf"
+}
+],
+"note": "2026-11-17 大学公式「令和9年度京都府立大学入学者選抜要項」で確認。一般前期・後期・推薦の出願期間と試験日は既存と一致し、推薦の合格発表12/10・手続12/25、栄養科学科（共テ併用）の合格発表2/10・手続2/17を追加（マナビジョンとも一致）。公共政策学部は2026年4月に社会科学部へ名称変更"
+},
+"_via": "external-ai-verified"
 },
 "大阪信愛学院大学": {
 "faculties": [
@@ -155469,7 +155494,7 @@ null
 "departments": "2026-11-07",
 "difficulty": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-17",
 "money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -155519,22 +155544,74 @@ null
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "総合型",
+"name": "総合型選抜 基礎学力・高大探究・高大進路など（1回目）",
+"apply": "9/1〜9/26",
+"exam": "10/4",
+"result": "10/10",
+"proc": "1/14",
+"note": "2026年。方式により10/10締切→10/18試験→10/24発表の回あり。こども教育学部の総合型小学校・幼児教育は8/3〜8/17出願・8/22試験",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3610/nyushi/gokaku-happyo/"
+},
+{
+"kubun": "推薦",
+"name": "公募制推薦Ⅰ期",
+"apply": "10/1〜10/24",
+"exam": "11/1",
+"result": "11/7",
+"proc": "1/14",
+"note": "2026年",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3610/nyushi/gokaku-happyo/"
+},
+{
+"kubun": "推薦",
+"name": "公募制推薦Ⅱ期",
+"apply": "11/2〜11/14",
+"exam": "11/22",
+"result": "11/28",
+"proc": "1/14",
+"note": "2026年",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3610/nyushi/gokaku-happyo/"
+},
+{
+"kubun": "推薦",
+"name": "公募制推薦Ⅲ期（基礎・総合・高得点）",
+"apply": "11/16〜12/5",
+"exam": "12/13",
+"result": "12/19",
+"proc": "1/14",
+"note": "2026年",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3610/nyushi/gokaku-happyo/"
+},
+{
 "kubun": "一般",
-"name": "一般選抜 A日程",
+"name": "一般選抜 A日程（学科判定方式）",
 "apply": "12/14〜1/16",
 "exam": "1/23・1/24・1/25",
 "result": "2/6",
 "proc": "3/11",
-"fee": null
+"note": "試験日自由選択。1/23は本学のほか名古屋・岡山・福岡・福井・近江八幡でも実施",
+"url": "https://search.keinet.ne.jp/2506/general/schedule"
 },
 {
 "kubun": "一般",
-"name": "一般選抜 B日程",
+"name": "一般選抜 A日程（総合）",
+"apply": "12/14〜1/16",
+"exam": "1/25",
+"result": "2/6",
+"proc": "3/11",
+"note": "本学で実施",
+"url": "https://search.keinet.ne.jp/2506/general/schedule"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 B日程（学科判定方式・論理的思考力）",
 "apply": "1/12〜2/13",
 "exam": "2/19",
 "result": "2/26",
 "proc": "3/11",
-"fee": null
+"note": "",
+"url": "https://search.keinet.ne.jp/2506/general/schedule"
 },
 {
 "kubun": "一般",
@@ -155543,9 +155620,21 @@ null
 "exam": "3/9",
 "result": "3/13",
 "proc": "3/24",
-"fee": null
+"note": "",
+"url": "https://search.keinet.ne.jp/2506/general/schedule"
+},
+{
+"kubun": "推薦",
+"name": "春期推薦",
+"apply": "1/12〜2/13、3/1〜3/5",
+"exam": "2/19、3/15",
+"result": "2/26、3/20",
+"proc": "3/11、3/24",
+"note": "",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3610/nyushi/gokaku-happyo/"
 }
-]
+],
+"note": "2026-11-17 マナビジョン（2027年度入試）と河合塾Kei-Netで一般A〜C日程が既存と一致することを確認し、A日程総合・B日程論理的思考力・総合型・公募制推薦・春期推薦を追加。3学部とも同じ日程"
 },
 "money": {
 "year": "2027年度",
@@ -155595,7 +155684,9 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3610/gakuhi/",
 "https://shingakunet.com/gakko/SC000211/gakuhi/",
 "https://passnavi.obunsha.co.jp/univ/3955/difficulty/",
-"https://passnavi.obunsha.co.jp/univ/3955/expense/"
+"https://passnavi.obunsha.co.jp/univ/3955/expense/",
+"https://manabi.benesse.ne.jp/daigaku/school/3610/nyushi/gokaku-happyo/",
+"https://search.keinet.ne.jp/2506/general/schedule"
 ]
 },
 "京都橘大学": {
@@ -158247,7 +158338,7 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-17",
 "money": "2026-11-07",
 "scholar": "2026-11-07"
 },
@@ -158371,7 +158462,8 @@ null
 "sources": [
 "https://www.kuas.ac.jp/",
 "https://www.kuas.ac.jp/wp-content/uploads/2026/07/c599c4c0f81550a271e3ce3e44ebc580.pdf",
-"https://www.kuas.ac.jp/about/tuition/scholarship/"
+"https://www.kuas.ac.jp/about/tuition/scholarship/",
+"https://manabi.benesse.ne.jp/daigaku/school/3593/nyushi/gokaku-happyo/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -158384,7 +158476,7 @@ null
 "result": "12/1",
 "proc": "12/14（2次1/8）",
 "fee": 35000,
-"note": ""
+"note": "推薦A専門・総合も同じ日程"
 },
 {
 "kubun": "推薦",
@@ -158394,7 +158486,7 @@ null
 "result": "12/22",
 "proc": "1/8（2次1/22）",
 "fee": 35000,
-"note": ""
+"note": "推薦B専門・総合も同じ日程"
 },
 {
 "kubun": "一般",
@@ -158466,7 +158558,8 @@ null
 "fee": 0,
 "note": ""
 }
-]
+],
+"note": "2026-11-17 マナビジョン（2027年度入試）で全5学部共通の出願期間・試験日・合格発表・手続締切が既存と一致することを確認（変更なし）"
 },
 "money": {
 "year": "2027年度",
