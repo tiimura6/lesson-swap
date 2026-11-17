@@ -160930,7 +160930,7 @@ null
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
 "subjects": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-17",
 "money": "2026-11-11",
 "scholar": "2026-11-07",
 "access": "2026-11-07",
@@ -160995,13 +160995,45 @@ null
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "総合型",
+"name": "総合型選抜（AO・活動実績）1回目",
+"apply": "9/18〜10/5",
+"exam": "10/10",
+"result": "11/3",
+"proc": "11/13",
+"note": "2026年。2回目11/2〜11/9出願・11/14試験・12/1発表・12/15手続、3回目11/16〜12/4・12/12・12/19・1/8",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3509/nyushi/gokaku-happyo/"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（AO・活動実績）4回目",
+"apply": "2/1〜2/15",
+"exam": "2/18",
+"result": "2/27",
+"proc": "3/10",
+"note": "5回目は2/15〜3/5出願・3/10試験・3/16発表・3/23手続",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3509/nyushi/gokaku-happyo/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（学校推薦・指定クラブ推薦）1回目",
+"apply": "11/2〜11/9",
+"exam": "11/14",
+"result": "12/1",
+"proc": "12/15",
+"note": "2026年。2回目11/16〜12/4・12/12・12/19・1/8、3回目2/15〜3/5・3/10・3/16・3/23",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3509/nyushi/gokaku-happyo/"
+},
+{
 "kubun": "一般",
 "name": "一般入試 A日程",
 "apply": "1/4〜1/22",
 "exam": "2/3",
 "result": "2/16",
 "proc": "2/16〜3/4",
-"fee": 30000
+"note": "",
+"fee": 30000,
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3509/nyushi/gokaku-happyo/"
 },
 {
 "kubun": "一般",
@@ -161010,7 +161042,9 @@ null
 "exam": "3/10",
 "result": "3/16",
 "proc": "3/16〜3/23",
-"fee": 30000
+"note": "",
+"fee": 30000,
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3509/nyushi/gokaku-happyo/"
 },
 {
 "kubun": "共テ利用",
@@ -161019,7 +161053,9 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "2/16",
 "proc": "2/16〜3/4",
-"fee": 15000
+"note": "",
+"fee": 15000,
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3509/nyushi/gokaku-happyo/"
 },
 {
 "kubun": "共テ利用",
@@ -161028,9 +161064,22 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "2/27",
 "proc": "2/27〜3/10",
-"fee": 15000
+"note": "",
+"fee": 15000,
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3509/nyushi/gokaku-happyo/"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 C日程",
+"apply": "2/22〜3/17",
+"exam": "1/16・1/17（共テ）",
+"result": "3/20",
+"proc": "3/25",
+"note": "",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3509/nyushi/gokaku-happyo/"
 }
-]
+],
+"note": "2026-11-17 マナビジョン（2027年度入試）で一般A・B、共テ利用A・Bが既存と一致することを確認し、共テ利用C日程・総合型・学校推薦型を追加"
 },
 "money": {
 "year": "2026年度",
@@ -161069,7 +161118,8 @@ null
 "https://www.hamagaku.ac.jp/hgu/admission/examination/",
 "https://www.hamagaku.ac.jp/hgu/mgr/wp-content/themes/hamagaku_2022/admission/examination/document/exam-info.pdf",
 "https://manabi.benesse.ne.jp/daigaku/school/3509/gakuhi/",
-"https://search.keinet.ne.jp/2421/outline/expense"
+"https://search.keinet.ne.jp/2421/outline/expense",
+"https://manabi.benesse.ne.jp/daigaku/school/3509/nyushi/gokaku-happyo/"
 ]
 },
 "清泉女学院大学": {
@@ -161653,7 +161703,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-17",
 "money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -161727,13 +161777,34 @@ null
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "総合型",
+"name": "総合型選抜（オープン・グローバル型特別・事前プレ1回目）",
+"apply": "9/24〜10/5",
+"exam": "10/17",
+"result": "11/2",
+"proc": "11/12",
+"note": "2026年。社会福祉学部・国際教育学部の総合型（事前・プレ）2回目は12/4〜12/14出願・12/19試験・12/24発表・1/8手続",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3503/nyushi/gokaku-happyo/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制・キリスト者）",
+"apply": "11/2〜11/6",
+"exam": "11/14",
+"result": "12/1",
+"proc": "12/10",
+"note": "2026年。全学部同日程",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3503/nyushi/gokaku-happyo/"
+},
+{
 "kubun": "一般",
 "name": "一般選抜（前期）",
 "apply": "1/6〜1/25",
 "exam": "2/3",
 "result": "2/13",
-"proc": "授業料納入期限3/16",
-"fee": null
+"proc": "2/24",
+"note": "全学部。既存では手続を「授業料納入期限3/16」としていた",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3503/nyushi/gokaku-happyo/"
 },
 {
 "kubun": "一般",
@@ -161741,8 +161812,9 @@ null
 "apply": "2/16〜3/1",
 "exam": "3/5",
 "result": "3/12",
-"proc": "授業料納入期限3/16",
-"fee": null
+"proc": "3/18",
+"note": "社会福祉・国際教育学部は同日程で総合型（自己推薦型）を実施",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3503/nyushi/gokaku-happyo/"
 },
 {
 "kubun": "共テ利用",
@@ -161750,10 +161822,12 @@ null
 "apply": "1/6〜1/25",
 "exam": "1/16・1/17（共テ）",
 "result": "2/13",
-"proc": "2/15〜2/24",
-"fee": null
+"proc": "2/24",
+"note": "",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3503/nyushi/gokaku-happyo/"
 }
-]
+],
+"note": "2026-11-17 マナビジョン（2027年度入試）で一般前期・後期・共テ利用の出願・試験・発表日が既存と一致することを確認。入学手続締切（前期・共テ2/24、後期3/18）と総合型・公募推薦を追加"
 },
 "money": {
 "year": "2027年度",
@@ -161826,7 +161900,8 @@ null
 "https://www.seirei.ac.jp/media/tokubetsusenbatsu_youkou2027.pdf",
 "https://www.seirei.ac.jp/opencampus/media/2027koubosei_youkou.pdf",
 "https://passnavi.obunsha.co.jp/univ/3577/difficulty/",
-"https://search.keinet.ne.jp/2423/outline/expense"
+"https://search.keinet.ne.jp/2423/outline/expense",
+"https://manabi.benesse.ne.jp/daigaku/school/3503/nyushi/gokaku-happyo/"
 ]
 },
 "至学館大学": {
@@ -166946,7 +167021,7 @@ null
 "methods": "2026-11-09",
 "eng": "2026-11-09",
 "ratios": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-17",
 "money": "2026-11-09",
 "_via": "2026-11-09"
 },
@@ -167066,7 +167141,8 @@ null
 "https://onikanri.singeki.com/hyogokenritsu_ri_charts/",
 "https://onikanri.singeki.com/hyogokenritsudai/",
 "https://shindaiken.jp/hyougokennritu/",
-"https://blog-gtekapion.org/eiken-ippan/"
+"https://blog-gtekapion.org/eiken-ippan/",
+"https://manabi.benesse.ne.jp/daigaku/school/2199/nyushi/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -167503,7 +167579,8 @@ null
 "exam": "2/25",
 "result": "3/7",
 "proc": "3/15",
-"note": "共通テストは1/16・17。グローバルビジネスコースは出願に英語資格が必要。"
+"note": "共通テストは1/16・17。国際商経・社会情報科学・工・環境人間・看護学部で実施（理学部は前期なし）。グローバルビジネスコースは出願に英語資格が必要。",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2199/nyushi/"
 },
 {
 "kubun": "一般",
@@ -167511,8 +167588,9 @@ null
 "apply": "1/25〜2/3",
 "exam": "3/8",
 "result": "3/20",
-"proc": "",
-"note": "社会情報科学部・理学部で実施。共通テストは1/16・17。手続締切日は未確認。"
+"proc": "3/27",
+"note": "社会情報科学部・理学部で実施。共通テストは1/16・17。",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2199/nyushi/"
 },
 {
 "kubun": "一般",
@@ -167520,19 +167598,42 @@ null
 "apply": "1/25〜2/3",
 "exam": "3/12",
 "result": "3/20",
-"proc": "",
-"note": "国際商経（経済・経営）・工・看護・環境人間学部で実施。共通テストは1/16・17。手続締切日は未確認。"
+"proc": "3/27",
+"note": "国際商経（経済学・経営学コース）・工・看護・環境人間学部で実施。環境人間学部の後期は共通テストのみ。",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2199/nyushi/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（共通テストを課さない）",
+"apply": "10/20〜11/11",
+"exam": "11/28",
+"result": "12/7",
+"proc": "12/18",
+"note": "2026年。学部により試験日11/27〜11/29（国際商経の商業科等・グローバルビジネス・社会情報科学は11/29、理学部は11/27〜28）。工学部は女子特別推薦。",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2199/nyushi/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（工学部・共通テストを課す）",
+"apply": "1/18〜1/22",
+"exam": "共通テスト",
+"result": "2/10",
+"proc": "2/17",
+"note": "工業科等・普通科等の推薦（共テ）。",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2199/nyushi/"
 },
 {
 "kubun": "総合型",
 "name": "総合型選抜（環境人間学部）",
 "apply": "9/1〜9/8",
-"exam": "",
-"result": "",
-"proc": "",
-"note": "2027年度は環境人間学部で実施。2次選抜・合格発表・手続日は未確認。"
+"exam": "9/28",
+"result": "12/7",
+"proc": "12/18",
+"note": "2026年。郵送出願。",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2199/nyushi/"
 }
-]
+],
+"note": "2026-11-17 マナビジョン（2027年度入試）で一般前期・中期・後期の出願・試験・発表日が既存と一致することを確認し、中期・後期の手続締切3/27と推薦・総合型の日程を追加。大学公式の要項・学費ページは今回開けず、外部AI由来データの公式確認（verify）は継続"
 },
 "money": {
 "year": "2027年度",
@@ -167631,8 +167732,9 @@ null
 "fdiff": "2026-11-09",
 "methods": "2026-11-09",
 "ratios": "2026-11-09",
-"schedule": "2026-11-09",
-"_via": "2026-11-09"
+"schedule": "2026-11-17",
+"_via": "2026-11-17",
+"money": "2026-11-17"
 },
 "departments": [
 {
@@ -167725,7 +167827,10 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/2160/",
 "https://note.com/online_hennyu/n/n21ca7ee714dd",
 "https://onikanri.singeki.com/shigakenritsu_charts/",
-"https://passnavi.obunsha.co.jp/univ/1155/eiken/"
+"https://passnavi.obunsha.co.jp/univ/1155/eiken/",
+"https://www.usp.ac.jp/nyushi/items/R9yoko_1.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/2160/nyushi/gokaku-happyo/",
+"https://usp.ac.jp/campus/items/3d16a46ae334005204596400f6c04596_1.pdf"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -167980,17 +168085,67 @@ null
 "year": "2027年度入試",
 "rows": [
 {
-"kubun": "推薦",
-"name": "特別選抜（学校推薦型等）",
-"apply": "",
-"exam": "1/30・2/10",
-"result": "",
+"kubun": "一般",
+"name": "一般 前期",
+"apply": "1/25〜2/3",
+"exam": "2/25",
+"result": "3/8",
 "proc": "",
-"note": "大学公式「特別選抜」ページに令和9年1/30・2/10の記載あり（共通テストを課す選抜では学科により出願期間・選抜期日が異なる）。一般選抜日程は検索スニペット上で未取得のため省略。"
-}
-]
+"note": "生物資源管理学科・人間看護学科は2/26。最終日必着。共通テストは1/16・17。入学手続締切は未確認",
+"url": "https://www.usp.ac.jp/nyushi/items/R9yoko_1.pdf"
 },
-"_via": "external-ai"
+{
+"kubun": "一般",
+"name": "一般 後期",
+"apply": "1/25〜2/3",
+"exam": "3/12",
+"result": "3/20",
+"proc": "",
+"note": "環境建築デザイン・生物資源管理・生活デザイン・生活栄養・人間看護学科は3/13。入学手続締切は未確認",
+"url": "https://www.usp.ac.jp/nyushi/items/R9yoko_1.pdf"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（地域文化・人間関係・国際コミュニケーション・人間看護）",
+"apply": "11/2〜11/9",
+"exam": "11/21",
+"result": "12/9",
+"proc": "",
+"note": "2026年。最終日必着。地域文化学科は推薦Cも同日程",
+"url": "https://www.usp.ac.jp/nyushi/items/R9yoko_1.pdf"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（環境建築デザイン・生活デザイン、共通テストを課す）",
+"apply": "11/2〜11/9",
+"exam": "11/21",
+"result": "2/10",
+"proc": "",
+"note": "2026年11月に選抜、合格発表は2027年。環境建築デザイン学科の推薦Cは12/9発表（マナビジョン）",
+"url": "https://www.usp.ac.jp/nyushi/items/R9yoko_1.pdf"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（環境生態・環境社会システム・生物資源管理・生活栄養・工学部3学科、共通テストを課す）",
+"apply": "12/14〜12/21",
+"exam": "1/30",
+"result": "2/10",
+"proc": "",
+"note": "最終日必着。工学部は推薦A・B",
+"url": "https://www.usp.ac.jp/nyushi/items/R9yoko_1.pdf"
+}
+],
+"note": "2026-11-17 大学公式「令和9年度入学者選抜要項」で確認（マナビジョンとも一致）。既存（外部AI）の特別選抜の行は「選抜期日1/30・2/10」としていたが、2/10は合格発表日で選抜期日は1/30（外部AIの誤り）。一般前期・後期の日程を追加"
+},
+"_via": "external-ai-verified",
+"money": {
+"year": "2026年度",
+"admission": 282000,
+"annual": 535800,
+"note": "大学公式「授業料その他の料金に関する規程」（令和7年4月1日施行の付則まで）：入学料は県内に住所を有する者282,000円・その他の者423,000円、授業料年額535,800円、入学検定料17,000円。学部ごとの諸経費は未確認",
+"total4": 2425200,
+"total4_note": "入学料（県内282,000円）＋授業料535,800円×4年"
+}
 },
 "和歌山県立医科大学": {
 "faculties": [
