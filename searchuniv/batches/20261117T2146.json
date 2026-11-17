@@ -1,0 +1,339 @@
+[
+ {
+  "name": "秋田公立美術大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜Ⅰ",
+      "apply": "11/1〜11/10",
+      "exam": "11/28",
+      "result": "12/4",
+      "proc": "12/14",
+      "note": "一般推薦／特別推薦（県内枠・市内枠・指定校枠）。出願締切は消印有効。手続締切はKei-Net（大学公式要項での確認未済）",
+      "url": "https://search.keinet.ne.jp/1522/recommend/exam_rec"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜Ⅱ",
+      "apply": "12/14〜12/21",
+      "exam": "1/30",
+      "result": "2/8",
+      "proc": "2/17",
+      "note": "共通テストを課す。手続締切はKei-Net（大学公式要項での確認未済）",
+      "url": "https://search.keinet.ne.jp/1522/recommend/exam_rec"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 前期",
+      "apply": "1/25〜2/3",
+      "exam": "2/25・2/26",
+      "result": "3/3",
+      "proc": "3/15",
+      "note": "ネット出願は1/22〜2/3 17:00、書類2/3消印有効。両日とも受験必須。出典はテレメール（大学公式要項での確認未済）",
+      "url": "https://telemail.jp/shingaku/university/10003551/examination/general"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 中期",
+      "apply": "1/25〜2/3",
+      "exam": "3/8",
+      "result": "3/20",
+      "proc": "3/27",
+      "note": "ネット出願は1/22〜2/3 17:00、書類2/3消印有効。出典はテレメール（大学公式要項での確認未済）",
+      "url": "https://telemail.jp/shingaku/university/10003551/examination/general"
+     }
+    ]
+   },
+   "methods_replace": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "前期日程",
+      "kyotsu": "2教科2科目（400点）：英・数・国・理・地歴公民・情報から2教科（英・数・国のいずれかを含む）各200点",
+      "niji": "実技（300点）＋小論文または着彩表現・色彩表現・立体表現から選択（200点）＋調査書（20点）",
+      "haiten": "400:520",
+      "note": "募集人員40名。合計920点",
+      "url": "https://search.keinet.ne.jp/1522/general/exam_subject"
+     },
+     {
+      "kubun": "一般",
+      "name": "中期日程",
+      "kyotsu": "3教科3科目（500点）：英・数・国・理・地歴公民・情報から3教科（理・地歴公民・情報の組合せ不可）。英・数・国の高得点2教科を各200点、他を100点",
+      "niji": "実技（400点）＋調査書（20点）",
+      "haiten": "500:420",
+      "note": "募集人員22名。合計920点",
+      "url": "https://search.keinet.ne.jp/1522/general/exam_subject"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜Ⅰ",
+      "content": "面接（200点）・実技（700点）・書類審査（20点）",
+      "req": "一般推薦16名・特別推薦（県内枠6名・市内枠5名）など。現役・専願、評定3.8、地域条件あり、指定校枠のある高校は人数制限あり",
+      "kyotsu": "課さない",
+      "note": "合計920点",
+      "url": "https://search.keinet.ne.jp/1522/recommend/exam_rec"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜Ⅱ",
+      "content": "面接（200点）・小論文（200点）・書類審査（20点）",
+      "req": "現役・専願（募集人員6名）",
+      "kyotsu": "課す（5教科5科目・500点）",
+      "note": "合計920点",
+      "url": "https://search.keinet.ne.jp/1522/recommend/exam_rec"
+     }
+    ],
+    "summary": "美術学部美術学科のみの公立美術大学。一般選抜は前期（共テ2教科＋実技・小論文等）と中期（共テ3教科＋実技）、学校推薦型選抜Ⅰ（実技・面接、共テなし）・Ⅱ（小論文・面接＋共テ）を実施。",
+    "note": "2026-11-17 Kei-Net（2027年度入試）で確認。外部AIの「前期・中期とも共テ3教科3科目500点」は前期については誤り（前期は2教科400点）。大学公式要項は未確認。"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/1522/general/exam_subject",
+    "https://search.keinet.ne.jp/1522/recommend/exam_rec",
+    "https://telemail.jp/shingaku/university/10003551/examination/general"
+   ]
+  }
+ },
+ {
+  "name": "高崎商科大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（専願制・11〜1月日程）",
+      "apply": "11/23〜12/7(書類11/30〜12/7必着)",
+      "exam": "12/13",
+      "result": "12/21",
+      "proc": "12/21〜1/13",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（併願制・9〜1月日程）",
+      "apply": "9/10〜9/28(書類9/17〜9/28必着)",
+      "exam": "1次10/3・2次10/17",
+      "result": "1次10/9・2次11/2",
+      "proc": "11/2〜1/22",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期（2科目型・3科目型・4科目型）",
+      "apply": "1/4〜1/29",
+      "exam": "2/4",
+      "result": "2/12",
+      "proc": "2/26",
+      "note": "ネット出願は1/29 13:00まで、書類1/29必着。出典はテレメール（2027年度）・Kei-Net",
+      "url": "https://telemail.jp/shingaku/university/10000083/examination/general"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 前期（2科目型・3科目型・4科目型）",
+      "apply": "1/4〜1/29",
+      "exam": "共通テスト",
+      "result": "2/12",
+      "proc": "2/26",
+      "note": "ネット出願は1/29 13:00まで、書類1/29必着",
+      "url": "https://telemail.jp/shingaku/university/10000083/examination/general"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期（2科目型・3科目型・4科目型）",
+      "apply": "2/1〜2/26",
+      "exam": "3/4",
+      "result": "3/12",
+      "proc": "3/24",
+      "note": "ネット出願は2/26 13:00まで、書類2/26必着",
+      "url": "https://telemail.jp/shingaku/university/10000083/examination/general"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 後期（2科目型・3科目型・4科目型）",
+      "apply": "2/1〜2/26",
+      "exam": "共通テスト",
+      "result": "3/12",
+      "proc": "3/24",
+      "note": "ネット出願は2/26 13:00まで、書類2/26必着",
+      "url": "https://telemail.jp/shingaku/university/10000083/examination/general"
+     }
+    ]
+   },
+   "methods_add": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期・2科目型／3科目型／4科目型）",
+      "kyotsu": "課さない",
+      "niji": "2科目型：国語必須＋英・数・地歴公民から1（206点、調査書・活動報告書含む）／3科目型：英・国必須＋数または地歴公民（300点）／4科目型：英・数・国＋地歴公民（400点）",
+      "req": null,
+      "content": null,
+      "note": "後期も同じ3つの型。2027年度入試から大学の一般選抜受験者は短期大学部の一般選抜を無料で併願できる（選択制）",
+      "url": "https://search.keinet.ne.jp/2131/general/exam_subject"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（前期・2科目型／3科目型／4科目型）",
+      "kyotsu": "国語必須＋英・数・理・地歴公民・情報から1〜3科目（200／300／400点）",
+      "niji": "なし",
+      "req": null,
+      "content": null,
+      "note": "後期も同じ3つの型",
+      "url": "https://search.keinet.ne.jp/2131/general/exam_subject"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（数理・データサイエンス活用制／全国児童養護施設推薦制）",
+      "kyotsu": "課さない",
+      "content": "小論文（60分・600〜800字）・面接（20分）など",
+      "req": null,
+      "note": "2027年度から小論文を導入し面接を15分から20分に変更。公募制は2027年度で廃止",
+      "url": "https://tuc.ac.jp/news/docs/2027_nyuushinitsuite_yokoku.pdf"
+     }
+    ],
+    "note": "2026-11-17 大学公式の「2027年度入試についての予告」、Kei-Net（科目）、テレメール（日程）で確認。総合型はⅠ期（1次・2次を別日）とⅡ期（1次・2次を同日）。総合型の日程・検定料は大学公式で未確認。"
+   },
+   "sources": [
+    "https://telemail.jp/shingaku/university/10000083/examination/general",
+    "https://search.keinet.ne.jp/2131/general/schedule",
+    "https://search.keinet.ne.jp/2131/general/exam_subject",
+    "https://tuc.ac.jp/news/docs/2027_nyuushinitsuite_yokoku.pdf"
+   ]
+  }
+ },
+ {
+  "name": "職業能力開発総合大学校",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試（Kei-Net・ベネッセ マナビジョン）",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "apply": "2026/10/1〜10/9",
+      "exam": "10/17",
+      "result": "11/13",
+      "proc": "12/11",
+      "note": "マナビジョン掲載"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜",
+      "apply": "2026/10/1〜10/14",
+      "exam": "10/24",
+      "result": "11/20",
+      "proc": "12/11",
+      "note": "マナビジョン掲載"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（機械・電気・電子情報・建築工学）",
+      "apply": "〜1/25（消印有効）",
+      "exam": "2/12",
+      "result": "2/26",
+      "proc": "3/10",
+      "fee": 22500,
+      "note": "出願開始日は資料で食い違い（マナビジョンの日程表は1/4〜、同ページの別欄は1/12〜1/23）。検定料はKei-Netの2026年度入試の額"
+     }
+    ]
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/4362/nyushi/"
+   ]
+  }
+ },
+ {
+  "name": "航空保安大学校",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試（2027年4月入校。2026年実施の航空保安大学校学生採用試験）",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "航空保安大学校学生採用試験",
+      "apply": "7/10〜7/23（インターネット）",
+      "exam": "1次9/27、2次11/16〜11/19のうち指定日",
+      "result": "1次10/14、最終12/22",
+      "note": "人事院が実施。高校卒業後3年以内・2027年3月卒業見込みの人などが対象"
+     }
+    ]
+   },
+   "sources": [
+    "https://www.jinji.go.jp/saiyo/siken/sennmonnsyoku_kousotsu/koudai/koudai_kousotu.html"
+   ]
+  }
+ },
+ {
+  "name": "聖泉大学",
+  "story": {
+   "summary": "滋賀県彦根市にある看護学部1学部の大学で、県内私立大学で初めての看護職養成機関として近隣施設での実習を重ねる。1年次の防災論から4年次の災害看護論・自分で計画する地域統合実習まで、地域の健康と暮らしを支える看護職を育てる流れがあり、看護師・保健師の国家試験対策は1年次から行う。大学院と別科助産専攻もあり、卒業後に学びを続ける道も話しやすい。",
+   "only": [
+    {
+     "t": "看護学部は「県内私立大学初の看護職養成機関」とされ、近隣施設での実習を通じて看護能力を磨く",
+     "src": "https://www.seisen.ac.jp/intro/about"
+    },
+    {
+     "t": "1年次の「防災論」で避難所の運営や防災士の基本姿勢を学び、4年次に「災害看護論」を開講している",
+     "src": "https://www.seisen.ac.jp/faculties/nursing/nursing_curriculum"
+    },
+    {
+     "t": "4年次の「地域統合実習Ⅰ・Ⅱ」は4年間の総まとめとして学生自身が実習計画を立てて行う",
+     "src": "https://www.seisen.ac.jp/faculties/nursing/nursing_curriculum"
+    },
+    {
+     "t": "大学院看護学研究科と別科助産専攻（いずれも2015年開設）を置いている",
+     "src": "https://www.seisen.ac.jp/intro/about"
+    }
+   ],
+   "vs": [
+    {
+     "u": "滋賀県立大学",
+     "t": "滋賀県立大学は環境科学・工・人間文化・人間看護の4学部をもつ公立大学だが、聖泉大学は看護学部1学部の私立大学で、別科助産専攻を併設している",
+     "src": "https://search.keinet.ne.jp/1587/outline/department"
+    },
+    {
+     "u": "滋賀医科大学",
+     "t": "滋賀医科大学は医学部の中に医学科と看護学科を置く国立大学だが、聖泉大学は看護学部単独の私立大学で、地域の近隣施設での実習を重ねる",
+     "src": "https://search.keinet.ne.jp/1275/outline/campus"
+    }
+   ]
+  }
+ },
+ {
+  "name": "芦屋大学",
+  "story": {
+   "summary": "兵庫県芦屋市の経営教育学部の大学で、「経営学」と「教育学」を軸に、経営ビジネス・観光航空ビジネス・舞踊表現ビジネス・自動車技術・技術情報教員養成の5つのコースから選べる。技術の中学校教諭一種免許は兵庫県の私立大学では芦屋大学だけで取得でき、第一線で働く人を講師に迎えた実践的な授業を全コースで行う。技術・情報の先生や自動車・観光・舞踊の仕事に関心のある生徒に話しやすい。",
+   "only": [
+    {
+     "t": "技術の中学校教諭一種免許の取得は兵庫県の私立大学では本学のみとしている（技術・情報教員養成コースでは高校「情報」の一種免許も取得可）",
+     "src": "https://www.ashiya-u.ac.jp/section/management/"
+    },
+    {
+     "t": "1学科の中に経営ビジネス・観光・航空ビジネス・舞踊表現ビジネス・自動車技術・技術・情報教員養成の5コースを置いている",
+     "src": "https://www.ashiya-u.ac.jp/section/management/"
+    },
+    {
+     "t": "第一線で活躍する人を講師に迎え、全コース・専攻で実践的な学びを行うとしている",
+     "src": "https://www.ashiya-u.ac.jp/section/management/"
+    }
+   ],
+   "vs": [
+    {
+     "u": "流通科学大学",
+     "t": "流通科学大学は商・経済・人間社会の3学部で経営学科や観光学科を置くが、芦屋大学は経営教育学科の中で経営・観光航空に加えて自動車技術や技術・情報の教員養成まで選べる",
+     "src": "https://www.umds.ac.jp/"
+    },
+    {
+     "u": "神戸国際大学",
+     "t": "神戸国際大学は経済学部とリハビリテーション学部をもつが、芦屋大学は経営と教育を組み合わせた経営教育学部1学部で、教員免許（中学技術・高校情報）の課程がある",
+     "src": "https://www.kobe-kiu.ac.jp/"
+    }
+   ]
+  }
+ }
+]

@@ -75730,7 +75730,7 @@
 ],
 "_checked": {
 "departments": "2026-11-06",
-"schedule": "2026-11-08",
+"schedule": "2026-11-17",
 "money": "2026-11-08",
 "licenses": "2026-11-15",
 "careers": "2026-11-15"
@@ -75878,7 +75878,7 @@
 ],
 "_checked": {
 "departments": "2026-11-06",
-"schedule": "2026-11-08",
+"schedule": "2026-11-17",
 "money": "2026-11-08"
 },
 "schedule": {
@@ -192918,9 +192918,9 @@ null
 "careers": "2026-11-08",
 "money": "2026-11-08",
 "fdiff": "2026-11-09",
-"methods": "2026-11-09",
+"methods": "2026-11-17",
 "ratios": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-17",
 "_via": "2026-11-09"
 },
 "departments": [
@@ -193003,7 +193003,9 @@ null
 "https://www.akibi.ac.jp/akibi_cms/assets/uploads/2022/08/R5youkou_hennyu.pdf",
 "https://www.akibi.ac.jp/akibi_cms/assets/uploads/2026/09/R9yoko_ippan.pdf",
 "https://www.akibi.ac.jp/akibi_cms/assets/uploads/2026/07/R9yoko_AUA.pdf",
-"https://passnavi.obunsha.co.jp/univ/1032/eiken/?facultyID=005"
+"https://passnavi.obunsha.co.jp/univ/1032/eiken/?facultyID=005",
+"https://search.keinet.ne.jp/1522/recommend/exam_rec",
+"https://telemail.jp/shingaku/university/10003551/examination/general"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -193030,31 +193032,43 @@ null
 "list": [
 {
 "kubun": "一般",
-"name": "前期・中期日程",
-"kyotsu": "3教科3科目（500点満点）",
-"niji": "",
-"haiten": "",
-"note": "デッサンや創作等の実技試験を実施（個別試験の詳細は未確認）"
+"name": "前期日程",
+"kyotsu": "2教科2科目（400点）：英・数・国・理・地歴公民・情報から2教科（英・数・国のいずれかを含む）各200点",
+"niji": "実技（300点）＋小論文または着彩表現・色彩表現・立体表現から選択（200点）＋調査書（20点）",
+"haiten": "400:520",
+"note": "募集人員40名。合計920点",
+"url": "https://search.keinet.ne.jp/1522/general/exam_subject"
+},
+{
+"kubun": "一般",
+"name": "中期日程",
+"kyotsu": "3教科3科目（500点）：英・数・国・理・地歴公民・情報から3教科（理・地歴公民・情報の組合せ不可）。英・数・国の高得点2教科を各200点、他を100点",
+"niji": "実技（400点）＋調査書（20点）",
+"haiten": "500:420",
+"note": "募集人員22名。合計920点",
+"url": "https://search.keinet.ne.jp/1522/general/exam_subject"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜Ⅰ",
-"content": "",
-"req": "一般推薦／特別推薦（県内枠・市内枠・指定校枠）、募集人員32名",
+"content": "面接（200点）・実技（700点）・書類審査（20点）",
+"req": "一般推薦16名・特別推薦（県内枠6名・市内枠5名）など。現役・専願、評定3.8、地域条件あり、指定校枠のある高校は人数制限あり",
 "kyotsu": "課さない",
-"note": "選抜内容の詳細は未確認"
+"note": "合計920点",
+"url": "https://search.keinet.ne.jp/1522/recommend/exam_rec"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜Ⅱ",
-"content": "小論文（200点）、面接（200点）、調査書等（20点）",
-"req": "評定基準なし・実技なし（募集人員6名）",
-"kyotsu": "課す（500点）",
-"note": ""
+"content": "面接（200点）・小論文（200点）・書類審査（20点）",
+"req": "現役・専願（募集人員6名）",
+"kyotsu": "課す（5教科5科目・500点）",
+"note": "合計920点",
+"url": "https://search.keinet.ne.jp/1522/recommend/exam_rec"
 }
 ],
-"summary": "美術学部美術学科（5専攻制）のみの公立美術大学。総合型選抜は実施せず、一般選抜（前期・中期）と学校推薦型選抜Ⅰ（共通テストなし）・Ⅱ（共通テストあり・実技なし）を実施している。",
-"note": ""
+"summary": "美術学部美術学科のみの公立美術大学。一般選抜は前期（共テ2教科＋実技・小論文等）と中期（共テ3教科＋実技）、学校推薦型選抜Ⅰ（実技・面接、共テなし）・Ⅱ（小論文・面接＋共テ）を実施。",
+"note": "2026-11-17 Kei-Net（2027年度入試）で確認。外部AIの「前期・中期とも共テ3教科3科目500点」は前期については誤り（前期は2教科400点）。大学公式要項は未確認。"
 },
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -193087,8 +193101,9 @@ null
 "apply": "11/1〜11/10",
 "exam": "11/28",
 "result": "12/4",
-"proc": "",
-"note": "一般推薦／特別推薦（県内枠・市内枠・指定校枠）。出典は受験情報サイト（大学公式要項での最終確認未済）"
+"proc": "12/14",
+"note": "一般推薦／特別推薦（県内枠・市内枠・指定校枠）。出願締切は消印有効。手続締切はKei-Net（大学公式要項での確認未済）",
+"url": "https://search.keinet.ne.jp/1522/recommend/exam_rec"
 },
 {
 "kubun": "推薦",
@@ -193096,8 +193111,29 @@ null
 "apply": "12/14〜12/21",
 "exam": "1/30",
 "result": "2/8",
-"proc": "",
-"note": "出典は受験情報サイト（大学公式要項での最終確認未済）。一般選抜（前期・中期）の日程は未確認"
+"proc": "2/17",
+"note": "共通テストを課す。手続締切はKei-Net（大学公式要項での確認未済）",
+"url": "https://search.keinet.ne.jp/1522/recommend/exam_rec"
+},
+{
+"kubun": "一般",
+"name": "一般 前期",
+"apply": "1/25〜2/3",
+"exam": "2/25・2/26",
+"result": "3/3",
+"proc": "3/15",
+"note": "ネット出願は1/22〜2/3 17:00、書類2/3消印有効。両日とも受験必須。出典はテレメール（大学公式要項での確認未済）",
+"url": "https://telemail.jp/shingaku/university/10003551/examination/general"
+},
+{
+"kubun": "一般",
+"name": "一般 中期",
+"apply": "1/25〜2/3",
+"exam": "3/8",
+"result": "3/20",
+"proc": "3/27",
+"note": "ネット出願は1/22〜2/3 17:00、書類2/3消印有効。出典はテレメール（大学公式要項での確認未済）",
+"url": "https://telemail.jp/shingaku/university/10003551/examination/general"
 }
 ]
 },
@@ -224619,7 +224655,7 @@ null
 "difficulty": "2026-11-09",
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-17",
 "access": "2026-11-09",
 "_via": "2026-11-09",
 "money": "2026-11-14"
@@ -224650,6 +224686,35 @@ null
 "year": "2027年度入試",
 "list": [
 {
+"kubun": "一般",
+"name": "一般選抜（前期・2科目型／3科目型／4科目型）",
+"kyotsu": "課さない",
+"niji": "2科目型：国語必須＋英・数・地歴公民から1（206点、調査書・活動報告書含む）／3科目型：英・国必須＋数または地歴公民（300点）／4科目型：英・数・国＋地歴公民（400点）",
+"req": null,
+"content": null,
+"note": "後期も同じ3つの型。2027年度入試から大学の一般選抜受験者は短期大学部の一般選抜を無料で併願できる（選択制）",
+"url": "https://search.keinet.ne.jp/2131/general/exam_subject"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜（前期・2科目型／3科目型／4科目型）",
+"kyotsu": "国語必須＋英・数・理・地歴公民・情報から1〜3科目（200／300／400点）",
+"niji": "なし",
+"req": null,
+"content": null,
+"note": "後期も同じ3つの型",
+"url": "https://search.keinet.ne.jp/2131/general/exam_subject"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（数理・データサイエンス活用制／全国児童養護施設推薦制）",
+"kyotsu": "課さない",
+"content": "小論文（60分・600〜800字）・面接（20分）など",
+"req": null,
+"note": "2027年度から小論文を導入し面接を15分から20分に変更。公募制は2027年度で廃止",
+"url": "https://tuc.ac.jp/news/docs/2027_nyuushinitsuite_yokoku.pdf"
+},
+{
 "kubun": "総合型",
 "name": "総合型選抜（専願制）",
 "kyotsu": "課さない",
@@ -224666,26 +224731,9 @@ null
 "content": null,
 "req": "併願制（1次試験・2次試験あり）",
 "url": "https://www.tuc.ac.jp/admissions/faculty/sougo_b/"
-},
-{
-"kubun": "一般",
-"name": "一般選抜（前期・2科目型／3科目型／4科目型）",
-"kyotsu": "課さない",
-"niji": null,
-"content": null,
-"req": null,
-"url": "https://www.tuc.ac.jp/admissions/faculty/examination/"
-},
-{
-"kubun": "共テ利用",
-"name": "大学入学共通テスト利用選抜（前期・2科目型／3科目型／4科目型）",
-"kyotsu": "2〜4科目",
-"niji": null,
-"content": null,
-"req": null,
-"url": "https://www.tuc.ac.jp/admissions/faculty/examination/"
 }
-]
+],
+"note": "2026-11-17 大学公式の「2027年度入試についての予告」、Kei-Net（科目）、テレメール（日程）で確認。総合型はⅠ期（1次・2次を別日）とⅡ期（1次・2次を同日）。総合型の日程・検定料は大学公式で未確認。"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -224710,21 +224758,43 @@ null
 },
 {
 "kubun": "一般",
-"name": "一般選抜（前期）",
-"apply": "12/28〜1/29(書類1/4〜1/29必着)",
+"name": "一般選抜 前期（2科目型・3科目型・4科目型）",
+"apply": "1/4〜1/29",
 "exam": "2/4",
 "result": "2/12",
-"proc": "2/12〜2/26",
-"fee": null
+"proc": "2/26",
+"note": "ネット出願は1/29 13:00まで、書類1/29必着。出典はテレメール（2027年度）・Kei-Net",
+"url": "https://telemail.jp/shingaku/university/10000083/examination/general"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 前期（2科目型・3科目型・4科目型）",
+"apply": "1/4〜1/29",
+"exam": "共通テスト",
+"result": "2/12",
+"proc": "2/26",
+"note": "ネット出願は1/29 13:00まで、書類1/29必着",
+"url": "https://telemail.jp/shingaku/university/10000083/examination/general"
 },
 {
 "kubun": "一般",
-"name": "一般選抜（2027年1〜3月日程）",
-"apply": "1/25〜2/26(書類2/1〜2/26必着)",
+"name": "一般選抜 後期（2科目型・3科目型・4科目型）",
+"apply": "2/1〜2/26",
 "exam": "3/4",
 "result": "3/12",
-"proc": "3/12〜3/24",
-"fee": null
+"proc": "3/24",
+"note": "ネット出願は2/26 13:00まで、書類2/26必着",
+"url": "https://telemail.jp/shingaku/university/10000083/examination/general"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜 後期（2科目型・3科目型・4科目型）",
+"apply": "2/1〜2/26",
+"exam": "共通テスト",
+"result": "3/12",
+"proc": "3/24",
+"note": "ネット出願は2/26 13:00まで、書類2/26必着",
+"url": "https://telemail.jp/shingaku/university/10000083/examination/general"
 }
 ]
 },
@@ -224739,7 +224809,11 @@ null
 "https://passnavi.obunsha.co.jp/univ/1953/top/",
 "https://tuc.ac.jp/docs/2022daigakuhoukokusho.pdf",
 "https://passnavi.obunsha.co.jp/univ/1953/location/",
-"https://passnavi.obunsha.co.jp/univ/1953/expense/"
+"https://passnavi.obunsha.co.jp/univ/1953/expense/",
+"https://telemail.jp/shingaku/university/10000083/examination/general",
+"https://search.keinet.ne.jp/2131/general/schedule",
+"https://search.keinet.ne.jp/2131/general/exam_subject",
+"https://tuc.ac.jp/news/docs/2027_nyuushinitsuite_yokoku.pdf"
 ],
 "money": {
 "year": "2027年度",
