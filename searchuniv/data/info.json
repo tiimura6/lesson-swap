@@ -169330,7 +169330,7 @@ null
 "fdiff": "2026-11-09",
 "methods": "2026-11-09",
 "ratios": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-17",
 "money": "2026-11-09",
 "_via": "2026-11-09"
 },
@@ -169387,7 +169387,9 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/2198/nyushi/kango/",
 "https://telemail.jp/shingaku/university/10003448/examination/general",
 "https://jyuke-labo.com/daigakujyukentaisaku/koubeshikangodaigaku/kangogakubu/",
-"https://passnavi.obunsha.co.jp/univ/1225/eiken/?facultyID=005"
+"https://passnavi.obunsha.co.jp/univ/1225/eiken/?facultyID=005",
+"https://search.keinet.ne.jp/1619/recommend/exam_rec",
+"https://manabi.benesse.ne.jp/daigaku/school/2198/nyushi/hoshiki/ippan/index.html"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -169487,7 +169489,8 @@ null
 "exam": "2/25",
 "result": "3/5",
 "proc": "3/15",
-"note": "出願は2/3 17時必着。共通テストは1/16・17。"
+"note": "出願は2/3 17時必着。共通テストは1/16・17。 出願・試験・発表日はパスナビ・マナビジョン（2027年度）で一致。手続締切は2027年度の公式要項で未確認。",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2198/nyushi/hoshiki/ippan/index.html"
 },
 {
 "kubun": "一般",
@@ -169496,7 +169499,8 @@ null
 "exam": "3/12",
 "result": "3/22",
 "proc": "3/27",
-"note": "出願は2/3 17時必着。共通テストは1/16・17。"
+"note": "出願は2/3 17時必着。共通テストは1/16・17。 出願・試験・発表日はパスナビ・マナビジョン（2027年度）で一致。手続締切は2027年度の公式要項で未確認。",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2198/nyushi/hoshiki/ippan/index.html"
 },
 {
 "kubun": "推薦",
@@ -169504,10 +169508,12 @@ null
 "apply": "11/2〜11/9",
 "exam": "11/21",
 "result": "12/4",
-"proc": "",
-"note": "2026年11/2〜11/9（17時必着）出願、12/4 10時発表。市内優先枠7名を含む。入学手続締切日は未取得。"
+"proc": "12/11",
+"note": "2026年。出願締切11/9必着、12/4発表。募集23名＋市内優先枠7名。評定4.0以上・専願・卒後2年以内（Kei-Net 2027年度）",
+"url": "https://search.keinet.ne.jp/1619/recommend/exam_rec"
 }
-]
+],
+"note": "2026-11-17 Kei-Net・パスナビ・マナビジョンで2027年度の日程を確認（大学公式の令和9年度要項は未取得のため verify 継続）。"
 },
 "money": {
 "year": "2026年度",
@@ -175488,7 +175494,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-17",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -175550,77 +175556,94 @@ null
 "rows": [
 {
 "kubun": "一般",
-"name": "一般選抜 1期（A方式）",
+"name": "一般選抜 1期A方式（3科目型・2科目型）",
 "apply": "1/5〜1/20",
 "exam": "1/30",
 "result": "2/4",
-"proc": "2/5〜3/12",
-"fee": null
+"proc": "3/12",
+"fee": null,
+"note": "",
+"url": "https://search.keinet.ne.jp/2449/general/schedule"
 },
 {
 "kubun": "一般",
-"name": "一般選抜 1期（B方式）",
+"name": "一般選抜 1期B方式",
 "apply": "1/5〜1/20",
 "exam": "1/31",
 "result": "2/4",
-"proc": "2/5〜3/12",
-"fee": null
+"proc": "3/12",
+"fee": null,
+"note": "",
+"url": "https://search.keinet.ne.jp/2449/general/schedule"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 1期C方式",
+"apply": "1/13〜2/1",
+"exam": "2/6",
+"result": "2/12",
+"proc": "3/12",
+"fee": null,
+"note": "英語・国語・総合問題。共通テスト併用あり",
+"url": "https://search.keinet.ne.jp/2449/general/schedule"
 },
 {
 "kubun": "一般",
 "name": "一般選抜 2期",
-"apply": "1/13〜2/1",
-"exam": "2/6",
-"result": "2/12",
-"proc": "2/13〜3/12",
-"fee": null
+"apply": "2/1〜2/16",
+"exam": "2/20",
+"result": "2/26",
+"proc": "3/12",
+"fee": null,
+"note": "英語・国語。共通テスト併用あり",
+"url": "https://search.keinet.ne.jp/2449/general/schedule"
 },
 {
 "kubun": "一般",
 "name": "一般選抜 3期",
-"apply": "2/1〜2/16",
-"exam": "2/20",
-"result": "2/26",
-"proc": "2/27〜3/12",
-"fee": null
-},
-{
-"kubun": "一般",
-"name": "一般選抜 4期",
 "apply": "2/9〜3/9",
 "exam": "3/13",
 "result": "3/16",
-"proc": "3/17〜3/25",
-"fee": null
+"proc": "3/25",
+"fee": null,
+"note": "国語のみ",
+"url": "https://search.keinet.ne.jp/2449/general/schedule"
 },
 {
 "kubun": "共テ利用",
-"name": "共通テスト利用選抜 2期",
-"apply": "1/13〜2/1",
+"name": "共通テスト利用選抜 前期（3科目型・2科目型）",
+"apply": "〜2/1",
 "exam": "1/16・1/17（共テ）",
 "result": "2/12",
-"proc": "2/13〜3/12",
-"fee": null
+"proc": "3/12",
+"fee": null,
+"note": "出願締切は消印有効",
+"url": "https://search.keinet.ne.jp/2449/general/schedule"
 },
 {
 "kubun": "共テ利用",
-"name": "共通テスト利用選抜 3期",
-"apply": "2/1〜2/16",
+"name": "共通テスト利用選抜 中期（3科目型・2科目型）",
+"apply": "〜2/16",
 "exam": "1/16・1/17（共テ）",
 "result": "2/26",
-"proc": "2/27〜3/12",
-"fee": null
+"proc": "3/12",
+"fee": null,
+"note": "出願締切は消印有効",
+"url": "https://search.keinet.ne.jp/2449/general/schedule"
 },
 {
 "kubun": "共テ利用",
-"name": "共通テスト利用選抜 4期",
-"apply": "2/23〜3/9",
+"name": "共通テスト利用選抜 後期（3科目型・2科目型）",
+"apply": "〜3/9",
 "exam": "1/16・1/17（共テ）",
 "result": "3/16",
-"proc": "3/17〜3/25",
-"fee": null
+"proc": "3/25",
+"fee": null,
+"note": "出願締切は消印有効",
+"url": "https://search.keinet.ne.jp/2449/general/schedule"
 }
-]
+],
+"note": "2026-11-17 Kei-Net・マナビジョン（2027年度）で確認。方式名を2027年度の呼び方（1期A・B・C、2期、3期、共テ利用前期・中期・後期）に改め、手続締切を各ソースの日付にそろえた。両学部共通。"
 },
 "money": {
 "year": "2026年度",
@@ -175644,7 +175667,10 @@ null
 "https://www.doho.ac.jp/examination/application/ippan/",
 "https://www.doho.ac.jp/examination/tuition/",
 "https://search.keinet.ne.jp/2449/outline/expense",
-"https://passnavi.obunsha.co.jp/univ/3720/difficulty/"
+"https://passnavi.obunsha.co.jp/univ/3720/difficulty/",
+"https://search.keinet.ne.jp/2449/general/schedule",
+"https://manabi.benesse.ne.jp/daigaku/school/3536/nyushi/hoshiki/ippan/",
+"https://search.keinet.ne.jp/2449/general/exam_subject"
 ]
 },
 "名古屋商科大学": {
@@ -176899,11 +176925,11 @@ null
 "careers": "2026-11-07",
 "fdiff": "2026-11-09",
 "eng": "2026-11-09",
-"methods": "2026-11-09",
+"methods": "2026-11-17",
 "ratios": "2026-11-09",
-"schedule": "2026-11-09",
-"money": "2026-11-09",
-"_via": "2026-11-09"
+"schedule": "2026-11-17",
+"money": "2026-11-17",
+"_via": "2026-11-17"
 },
 "departments": [
 {
@@ -176977,7 +177003,9 @@ null
 "https://aoskillpass.com/nyushi/fukuchiyama-public-sogogata-interview-2027/",
 "https://manabi.benesse.ne.jp/daigaku/school/2163/nyushi/bairitsu/",
 "https://manabi.benesse.ne.jp/daigaku/school/2163/nyushi/bairitsu/chiikikeiei/",
-"https://manabi.benesse.ne.jp/daigaku/school/2163/nyushi/bairitsu/jouhou/"
+"https://manabi.benesse.ne.jp/daigaku/school/2163/nyushi/bairitsu/jouhou/",
+"https://www.fukuchiyama.ac.jp/wp-content/uploads/R9senbatsu_youkou.pdf",
+"https://www.fukuchiyama.ac.jp/wp-content/uploads/sougou_2027.pdf"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -177017,7 +177045,8 @@ null
 "kyotsu": "6教科6科目（1200点満点）：国(200)、数[ⅠA・ⅡBCから1](200)、理[基礎2または発展1](200)、外[英・リスニング含](200)、情報Ⅰ(200)、地歴・公民から1(200)",
 "niji": "小論文（300点）",
 "haiten": "共テ1200:個別300",
-"note": "個別配点比率20%"
+"note": "個別配点比率20%",
+"url": "https://www.fukuchiyama.ac.jp/wp-content/uploads/R9senbatsu_youkou.pdf"
 },
 {
 "kubun": "一般",
@@ -177025,7 +177054,8 @@ null
 "kyotsu": "3教科3科目（600点満点）：国・地歴・公民・数[ⅠA・ⅡBCから1]・理・外[英]・情報Ⅰから3科目（各200）",
 "niji": "小論文（300点）",
 "haiten": "共テ600:個別300",
-"note": "個別配点比率33%"
+"note": "個別配点比率33%",
+"url": "https://www.fukuchiyama.ac.jp/wp-content/uploads/R9senbatsu_youkou.pdf"
 },
 {
 "kubun": "一般",
@@ -177033,7 +177063,8 @@ null
 "kyotsu": "4教科4科目（800点満点）：国・地歴・公民・数[ⅠA・ⅡBCから1]・理・外[英]・情報Ⅰから4科目（各200）",
 "niji": "小論文（200点）",
 "haiten": "共テ800:個別200",
-"note": "個別配点比率20%"
+"note": "個別配点比率20%",
+"url": "https://www.fukuchiyama.ac.jp/wp-content/uploads/R9senbatsu_youkou.pdf"
 },
 {
 "kubun": "一般",
@@ -177041,7 +177072,8 @@ null
 "kyotsu": "6教科7科目（1200点満点）：国(200)、数[ⅠA・ⅡBC](300)、理[基礎2または発展1](200)、外[英・リスニング含](200)、情報Ⅰ(100)、地歴・公民から1(200)",
 "niji": "数学（数Ⅰ・A・Ⅱ・B・Ⅲ・C）または小論文から1科目（300点）",
 "haiten": "共テ1200:個別300",
-"note": "個別配点比率20%"
+"note": "個別配点比率20%",
+"url": "https://www.fukuchiyama.ac.jp/wp-content/uploads/R9senbatsu_youkou.pdf"
 },
 {
 "kubun": "一般",
@@ -177049,7 +177081,8 @@ null
 "kyotsu": "4教科5科目（800点満点）：数[ⅠA・ⅡBC](300)、理[基礎2または発展1](200)、情報Ⅰ(100)、国・地歴・公民・外[英]から1科目(200)",
 "niji": "数学（数Ⅰ・A・Ⅱ・B・Ⅲ・C）または小論文から1科目（300点）",
 "haiten": "共テ800:個別300",
-"note": "個別配点比率27%"
+"note": "個別配点比率27%",
+"url": "https://www.fukuchiyama.ac.jp/wp-content/uploads/R9senbatsu_youkou.pdf"
 },
 {
 "kubun": "一般",
@@ -177057,27 +177090,57 @@ null
 "kyotsu": "5教科6科目（1000点満点）：数[ⅠA・ⅡBC](300)、情報Ⅰ(100)、国・地歴・公民・理・外[英]から3科目(各200)",
 "niji": "小論文（300点）",
 "haiten": "共テ1000:個別300",
-"note": "個別配点比率23%"
+"note": "個別配点比率23%",
+"url": "https://www.fukuchiyama.ac.jp/wp-content/uploads/R9senbatsu_youkou.pdf"
 },
 {
 "kubun": "推薦",
-"name": "学校推薦型選抜（全国枠等）",
-"content": "小論文（90分）、面接（10分程度）、調査書",
-"req": "",
-"kyotsu": "",
-"note": "出願条件・共通テスト要否は未確認。"
+"name": "学校推薦型選抜（地域経営学部）",
+"content": "小論文100点・面接100点（出願書類は評価資料）",
+"req": "高等学校長の推薦。全国枠20・地域枠12・専門学科枠3",
+"kyotsu": "課さない",
+"note": "募集人員35名。試験日11/14",
+"url": "https://www.fukuchiyama.ac.jp/wp-content/uploads/R9senbatsu_youkou.pdf"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（情報学部）",
+"content": "出願書類・面接・小論文 各50点",
+"req": "高等学校長の推薦。全国枠20・地域枠10・専門学科枠5",
+"kyotsu": "課さない",
+"note": "募集人員35名。試験日11/15",
+"url": "https://www.fukuchiyama.ac.jp/wp-content/uploads/R9senbatsu_youkou.pdf"
 },
 {
 "kubun": "総合型",
-"name": "総合型選抜",
-"content": "第1次選考：出願書類／第2次選考：プレゼンテーション（課題当日提示、準備90分）及び面接",
-"req": "",
-"kyotsu": "",
-"note": "出願条件・共通テスト要否は未確認。"
+"name": "総合型選抜Ⅰ（地域経営学部）",
+"content": "出願書類・面接・プレゼンテーション 各100点",
+"req": "高等学校卒業（見込み）者など。過年度生も可",
+"kyotsu": "課さない",
+"note": "募集人員6名。志願者が募集人員の概ね3倍を超えた場合は第1次選考（書類）を実施",
+"url": "https://www.fukuchiyama.ac.jp/wp-content/uploads/sougou_2027.pdf"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅰ（情報学部）",
+"content": "出願書類・面接・小論文 各50点",
+"req": "高等学校卒業（見込み）者など。過年度生も可",
+"kyotsu": "課さない",
+"note": "募集人員5名",
+"url": "https://www.fukuchiyama.ac.jp/wp-content/uploads/sougou_2027.pdf"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅱ（情報学部）",
+"content": "出願書類100点・面接200点＋共通テスト",
+"req": "共通テストの受験が必要（成績請求のWeb連携手続あり）",
+"kyotsu": "4教科5科目（800点）",
+"note": "募集人員5名。合格発表は共通テスト後の2/10",
+"url": "https://www.fukuchiyama.ac.jp/wp-content/uploads/R9senbatsu_youkou.pdf"
 }
 ],
 "summary": "地域経営学部・情報学部ともに一般前期で6教科型と3教科型／4教科型を選択でき、個別試験は小論文（情報学部前期は数学との選択可）を実施する。総合型・学校推薦型はプレゼン・小論文・面接等で選抜する。",
-"note": ""
+"note": "2026-11-17 大学公式の令和9年度入学者選抜要項・総合型選抜学生募集要項で確認し、推薦・総合型を学部別に分けて配点を追加（外部AIの「小論文90分・面接10分程度」は公式で確認できないため削除）。"
 },
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -177234,40 +177297,80 @@ null
 "rows": [
 {
 "kubun": "総合型",
-"name": "総合型選抜",
+"name": "総合型選抜Ⅰ（地域経営学部）",
 "apply": "9/1〜9/8",
-"exam": "10/10・10/11（2次・予備日10/12）",
+"exam": "10/10",
 "result": "11/1",
-"proc": "",
-"note": "1次発表9/24。公式募集要項PDFに2/10の日程記載あり（区分詳細・手続締切は未確認）。"
+"proc": "11/1〜11/10",
+"fee": 17000,
+"note": "消印有効。第1次選考（9/24）は志願者が募集人員の概ね3倍を超えた場合に実施（実施の有無は9/11公表）",
+"url": "https://www.fukuchiyama.ac.jp/wp-content/uploads/R9senbatsu_youkou.pdf"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅰ（情報学部）",
+"apply": "9/1〜9/8",
+"exam": "10/11",
+"result": "11/1",
+"proc": "11/1〜11/10",
+"fee": 17000,
+"note": "消印有効。志願者数により10/11・10/12の2日間実施の場合あり",
+"url": "https://www.fukuchiyama.ac.jp/wp-content/uploads/R9senbatsu_youkou.pdf"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅱ（情報学部）",
+"apply": "9/1〜9/8",
+"exam": "10/11（＋共通テスト1/16・17）",
+"result": "2/10",
+"proc": "2/10〜2/16",
+"fee": 17000,
+"note": "消印有効。共通テストの受験が必要",
+"url": "https://www.fukuchiyama.ac.jp/wp-content/uploads/R9senbatsu_youkou.pdf"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜",
+"apply": "11/1〜11/6",
+"exam": "11/14（地域経営）・11/15（情報）",
+"result": "12/2",
+"proc": "12/2〜12/9",
+"fee": 17000,
+"note": "消印有効。手続は必着",
+"url": "https://www.fukuchiyama.ac.jp/wp-content/uploads/R9senbatsu_youkou.pdf"
 },
 {
 "kubun": "一般",
-"name": "一般 前期",
+"name": "一般選抜 前期",
 "apply": "1/25〜2/3",
-"exam": "1/16・17（共テ）、2/25（個別）",
+"exam": "2/25（共テ1/16・17）",
 "result": "3/8",
-"proc": "3/15",
-"note": "パスナビにて地域経営学部前期の3/8発表・3/15手続締切を確認。"
+"proc": "3/8〜3/15",
+"fee": 17000,
+"note": "消印有効。地域経営学部6教科型・3教科型、情報学部6教科型・4教科型",
+"url": "https://www.fukuchiyama.ac.jp/wp-content/uploads/R9senbatsu_youkou.pdf"
 },
 {
 "kubun": "一般",
-"name": "一般 後期",
+"name": "一般選抜 後期",
 "apply": "1/25〜2/3",
-"exam": "1/16・17（共テ）、3/12（個別）",
+"exam": "3/12（共テ1/16・17）",
 "result": "3/21",
-"proc": "",
-"note": "地域経営学部・情報学部ともに後期日程あり。入学手続締切は未確認。"
+"proc": "3/21〜3/27",
+"fee": 17000,
+"note": "消印有効。両学部で実施",
+"url": "https://www.fukuchiyama.ac.jp/wp-content/uploads/R9senbatsu_youkou.pdf"
 }
-]
+],
+"note": "2026-11-17 大学公式の令和9年度入学者選抜要項で全日程を確認。検定料17,000円（総合型選抜学生募集要項。第1次選考不合格の場合13,000円返還、Web出願手数料別途）。"
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度入学者",
 "total4": 2425200,
 "total4_note": "入学金（県内）＋授業料4年",
 "admission": 282000,
 "annual": 535800,
-"note": "公式サイトおよびマナビジョン（2026年度入学者対象）より入学金282,000円、授業料年額535,800円（半期267,900円）、実践教育実習費年額40,000円（半期20,000円）で、半期納付額は287,900円（入学時は入学金・諸会費を別途徴収）。Kei-Netでは県内者・県外者の区分なく一律入学金282,000円で、2025年度額ベースの設備/実習/諸会費等60,000円・保険料4,660円・後援会費40,000円を加えた初年度合計922,460円（地域経営学部・情報学部共通、ノートPC別途必要）と記載。",
+"note": "大学公式の令和9年度学生募集要項（総合型選抜）より：入学料282,000円（市内・市外の区別なし。福知山市に1年以上住所があるなどの条件で3分の1の94,000円を還付）、授業料年額535,800円（前期・後期各267,900円）、実践教育実習費年額40,000円。入学時に教育後援会費40,000円・学友会費20,000円・学生教育研究災害傷害保険4,660円（計64,660円）。両学部とも個人所有のノートパソコンが必要。",
 "rows": [
 {
 "f": "地域経営学部・情報学部（全学部共通）",
@@ -177282,7 +177385,7 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai-verified"
 },
 "下関市立大学": {
 "faculties": [
@@ -180549,7 +180652,7 @@ null
 "departments": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-17",
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
@@ -180664,7 +180767,8 @@ null
 "proc": "3/26（一括）",
 "fee": null
 }
-]
+],
+"note": "2026-11-17 マナビジョン（2027年度）で一般前期・後期、共テ利用Ⅰ〜Ⅳ期の出願・発表・手続（1次）締切が一致（変更なし）。"
 },
 "access": "福井県越前市大手町3-1-1",
 "careers": "公認心理師、管理栄養士、小学校教諭、幼稚園教諭、保育士、一般企業、公務員など。",
@@ -180674,7 +180778,8 @@ null
 "https://www.jindai.ac.jp/exam/info/general-second",
 "https://www.jindai.ac.jp/exam/info/common",
 "https://www.jindai.ac.jp/jdmainwp/wp-content/uploads/2026/07/fule_guidelines2027.pdf",
-"https://search.keinet.ne.jp/2374/outline/expense"
+"https://search.keinet.ne.jp/2374/outline/expense",
+"https://manabi.benesse.ne.jp/daigaku/school/3442/nyushi/"
 ],
 "money": {
 "year": "2026年度",
