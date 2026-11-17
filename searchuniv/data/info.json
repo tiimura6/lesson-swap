@@ -57888,7 +57888,8 @@
 "https://www.komazawa-u.ac.jp/campuslife/files/komazawa_gakubu_2027.pdf",
 "https://search.keinet.ne.jp/2216/general/exam_fee",
 "https://passnavi.obunsha.co.jp/univ/2430/department/",
-"https://passnavi.obunsha.co.jp/univ/2430/eiken/"
+"https://passnavi.obunsha.co.jp/univ/2430/eiken/",
+"https://manabi.benesse.ne.jp/daigaku/school/3248/nyushi/gokaku-happyo/"
 ],
 "licenses": [
 "教員免許（中・高 国語・英語・社会・宗教・商業ほか）",
@@ -58179,7 +58180,7 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-08",
+"schedule": "2026-11-17",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -58303,8 +58304,19 @@
 "exam": "1/16・17（共テ）",
 "result": "2/15",
 "proc": "1次2/15〜2/25・2次2/15〜3/5"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜（中期）",
+"apply": "2/8〜2/16",
+"exam": "1/16・17（共テ）",
+"result": "3/3",
+"proc": "3/5",
+"note": "対象：仏教、経済（経済・商・現代応用経済）、法（法律・政治）、医療健康科学。検定料は未確認",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3248/nyushi/gokaku-happyo/"
 }
-]
+],
+"note": "2026-11-17 マナビジョンの2027年度日程で再確認。全学部統一・T方式・S方式・3月T方式・共テ前期は一致し、共テ利用中期を追加。マナビジョンでは文学部社会学科のT方式が2/8試験となっており（この表は2/7）、公式で要確認。"
 },
 "money": {
 "year": "2027年度（令和9年度）",
@@ -58650,7 +58662,8 @@
 "https://passnavi.obunsha.co.jp/univ/2590/eiken/?facultyID=030",
 "https://passnavi.obunsha.co.jp/univ/2590/eiken/?facultyID=010",
 "https://passnavi.obunsha.co.jp/univ/2590/eiken/?facultyID=035",
-"https://passnavi.obunsha.co.jp/univ/2590/eiken/"
+"https://passnavi.obunsha.co.jp/univ/2590/eiken/",
+"https://manabi.benesse.ne.jp/daigaku/school/3266/nyushi/gokaku-happyo/"
 ],
 "licenses": [
 "教員免許（中・高 国語・英語・社会・数学・商業・情報ほか）",
@@ -58940,7 +58953,7 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-08",
+"schedule": "2026-11-17",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -59029,7 +59042,8 @@
 "proc": "3/19",
 "note": "対象：経済・法・経営・商・文（英語英米文）・ネットワーク情報"
 }
-]
+],
+"note": "2026-11-17 マナビジョンの2027年度日程で出願期間・試験日・合格発表・手続締切を再確認、変更なし。"
 },
 "money": {
 "year": "2027年度（令和9年度）",
@@ -181794,9 +181808,9 @@ null
 "careers": "2026-11-07",
 "eng": "2026-11-09",
 "ratios": "2026-11-09",
-"methods": "2026-11-09",
+"methods": "2026-11-17",
 "fdiff": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-17",
 "money": "2026-11-09",
 "_via": "2026-11-09",
 "licenses": "2026-11-15"
@@ -181864,7 +181878,9 @@ null
 "https://passnavi.obunsha.co.jp/univ/4835/subject/",
 "https://passnavi.obunsha.co.jp/univ/4835/subject/?facultyID=010",
 "https://www.keinet.ne.jp/exam/ranking/2027/g_dai_k06.pdf",
-"https://search.keinet.ne.jp/1661/outline/licential"
+"https://search.keinet.ne.jp/1661/outline/licential",
+"https://manabi.benesse.ne.jp/daigaku/school/2263/nyushi/hoshiki/ippan/",
+"https://telemail.jp/shingaku/university/10001479/examination/general"
 ],
 "eng": {
 "year": "2027年度入試",
@@ -181933,43 +181949,39 @@ null
 "list": [
 {
 "kubun": "一般",
-"name": "薬学部（825:400型）",
-"kyotsu": "6教科8科目（825点：国100、数ⅠA・ⅡBC[200]、理[化学必須＋物/生から1、基礎不可][200]、英[L]200[40]、情報Ⅰ[25]、地歴・公民から1[100]）",
-"niji": "2教科（400点：数ⅠAⅡBⅢC[200]、化学基礎・化学[200]）",
+"name": "前期 工学部 A方式（各学科）",
+"kyotsu": "6教科8・9科目（825点：国語100、数学200、英語200[R160・L40]、地歴・公民100、理科200、情報Ⅰ25）",
+"niji": "機械・電気電子・先進化学・医薬工：数学200＋理科200（機械・電気電子は物理基礎・物理、先進化学・医薬工は化学基礎・化学）／数理情報科学：数学400",
 "haiten": "825:400",
-"note": "パスナビ薬学部ページ掲載方式（日程区分名の表示は未確認）"
+"note": "募集人員 各学科12",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2263/nyushi/hoshiki/ippan/"
 },
 {
 "kubun": "一般",
-"name": "薬学部（825:600型）",
-"kyotsu": "6教科8科目（825点：同上）",
-"niji": "3教科（600点：数ⅠAⅡBⅢC[200]、化学基礎・化学[200]、英語[200]）",
-"haiten": "825:600（個別比率42%）",
-"note": "パスナビ薬学部ページ掲載方式（日程区分名の表示は未確認）"
-},
-{
-"kubun": "一般",
-"name": "薬学部（425:0型）",
-"kyotsu": "4教科6科目（425点：数ⅠA・ⅡBC[100]、理[化学必須＋物/生から1、基礎不可][200]、英[L]100[20]、情報Ⅰ[25]）",
-"niji": "学科試験なし",
-"haiten": "425:0",
-"note": "パスナビ全学ページ掲載（日程区分名の表示は未確認）"
-},
-{
-"kubun": "一般",
-"name": "工学部（825:400型）",
-"kyotsu": "6教科8科目（825点：国100、数200、理200、外200[L40]、情報Ⅰ[25]、地歴・公民から1[100]）",
-"niji": "1〜2教科（400点：数200＋物200、数200＋化200、または数400）",
-"haiten": "825:400",
-"note": "パスナビ全学ページ掲載。学科ごとの理科指定・日程区分との対応詳細は未確認"
-},
-{
-"kubun": "一般",
-"name": "工学部（325:600型）",
-"kyotsu": "4教科5〜6科目（325点：数100、理100、外100[L20]、情報Ⅰ[25]）",
-"niji": "1〜2教科（600点：数300＋物300、数300＋化300、または数600）",
+"name": "前期 工学部 B方式（各学科）",
+"kyotsu": "4教科6・7科目（325点：数学100、英語100[R80・L20]、理科100、情報Ⅰ25）",
+"niji": "機械・電気電子・先進化学・医薬工：数学300＋理科300／数理情報科学：数学600",
 "haiten": "325:600",
-"note": "パスナビ全学ページ掲載。学科ごとの理科指定・日程区分との対応詳細は未確認"
+"note": "募集人員 各学科8",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2263/nyushi/hoshiki/ippan/"
+},
+{
+"kubun": "一般",
+"name": "前期 薬学部 薬学科",
+"kyotsu": "6教科8科目（825点：国語100、数学200、英語200、地歴・公民100、理科200、情報Ⅰ25）",
+"niji": "数学200・化学200",
+"haiten": "825:400",
+"note": "募集人員12",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2263/nyushi/hoshiki/ippan/"
+},
+{
+"kubun": "一般",
+"name": "中期 薬学部 薬学科",
+"kyotsu": "6教科8科目（825点：前期と同じ）",
+"niji": "数学200・英語200・化学200",
+"haiten": "825:600",
+"note": "募集人員45",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2263/nyushi/hoshiki/ippan/"
 },
 {
 "kubun": "一般",
@@ -181977,11 +181989,11 @@ null
 "kyotsu": "4教科6科目（425点・525点・625点のパターンあり：数100〜200、理200、外100〜200、情報Ⅰ[25]）",
 "niji": "学科試験なし",
 "haiten": "共テのみ",
-"note": "パスナビ全学ページ掲載（学科・日程区分との対応詳細は未確認）"
+"note": "パスナビ全学ページ掲載。2027年度のマナビジョン一般選抜ページには工学部は前期A・B方式のみ掲載で、この型の日程区分は未確認"
 }
 ],
-"summary": "一般選抜では6教科8科目（825点）＋個別400点または600点、4教科5〜6科目（325点）＋個別600点、共通テスト4教科6科目（425〜625点）のみなど複数の配点型がある。個別試験は工学部が数学・理科（物理または化学）もしくは数学のみ、薬学部は数学・化学（方式により英語も課す）。",
-"note": "推薦・総合型選抜の方式詳細は未確認。"
+"summary": "工学部は前期のA方式（共テ825点＋個別400点）とB方式（共テ325点＋個別600点）、薬学部は前期（共テ825点＋数学・化学400点）と中期（共テ825点＋数学・英語・化学600点）。個別試験は工学部が数学と物理または化学（数理情報科学科は数学のみ）。",
+"note": "2026-11-17 マナビジョンの2027年度一般選抜情報で日程区分・配点・募集人員を確認。大学公式は取得できず。推薦・総合型の方式詳細は未確認。"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -182113,14 +182125,26 @@ null
 "rows": [
 {
 "kubun": "一般",
-"name": "一般選抜",
+"name": "一般 前期（工学部A方式・B方式、薬学部）",
 "apply": "1/25〜2/3",
-"exam": "",
-"result": "",
-"proc": "",
-"note": "大学公式サイトにて出願期間（必着、2/2以前の発信局消印有効）のみ確認。前期・中期・後期の試験日・合格発表・手続締切および推薦・総合型の日程は未確認"
+"exam": "2/25",
+"result": "3/5",
+"proc": "3/15",
+"note": "ネット出願、必要書類は2/3必着。試験地：山口・大阪・岡山・広島・愛媛・福岡・大分・鹿児島",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2263/nyushi/hoshiki/ippan/"
+},
+{
+"kubun": "一般",
+"name": "一般 中期（薬学部）",
+"apply": "1/25〜2/3",
+"exam": "3/8",
+"result": "3/20",
+"proc": "3/27",
+"note": "試験地：山口・東京・大阪・岡山・広島・愛媛・福岡・大分・鹿児島",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/2263/nyushi/hoshiki/ippan/"
 }
-]
+],
+"note": "2026-11-17 大学公式サイトは取得できず（robots）。マナビジョン・テレメールの2027年度日程で前期・中期が一致したため追加。後期・推薦・総合型・検定料は未確認。テレメールには工学部の中期（共テ、発表3/20・手続3/27）の記載もあるが、マナビジョンに無く未確認。"
 },
 "money": {
 "year": "2025〜2027年度（予定含む）",
@@ -182180,10 +182204,11 @@ null
 "licenses": "2026-11-07",
 "ratios": "2026-11-09",
 "fdiff": "2026-11-09",
-"methods": "2026-11-09",
-"schedule": "2026-11-09",
+"methods": "2026-11-17",
+"schedule": "2026-11-17",
 "_via": "2026-11-09",
-"careers": "2026-11-15"
+"careers": "2026-11-15",
+"money": "2026-11-17"
 },
 "faculties": [
 "情報工学部",
@@ -182288,7 +182313,8 @@ null
 "https://www.toshin.com/nyushi_info/schedule/?univ_type=%E5%9B%BD%E5%85%AC%E7%AB%8B&univ_pref_area=%E5%9C%B0%E6%96%B9%E3%82%92%E9%81%B8%E6%8A%9E%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84&univ_pref%5B0%5D=%E5%B2%A1%E5%B1%B1&univ_name=%E5%B2%A1%E5%B1%B1%E7%9C%8C%E7%AB%8B%E5%A4%A7%E5%AD%A6&department=&department_class=&univ_group=0&test_date_start=&test_date_end=&application_deadline_start=&application_deadline_end=&passing_announcement_start=&passing_announcement_end=&procedure_deadline_start=&procedure_deadline_end=&sort=Departments.enrollment_deadline&direction=asc",
 "https://onikanri.singeki.com/sougougata-a012297/",
 "https://aoaoi.jp/preparation/okayama_prefectural/",
-"https://search.keinet.ne.jp/1648/outline/admission_employment"
+"https://search.keinet.ne.jp/1648/outline/admission_employment",
+"https://search.keinet.ne.jp/general/exam_subject_sp/1648"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者。志願倍率等の例外はunitに記載）",
@@ -182456,23 +182482,106 @@ null
 "list": [
 {
 "kubun": "一般",
-"name": "保健福祉学部 看護学科 後期",
-"kyotsu": "6教科6〜7科目（650点満点）",
-"niji": "面接・調査書（100点満点）",
-"haiten": "650:100",
-"note": "ベネッセ マナビジョン（2027年度入試情報）確認。共通テスト科目内訳は未確認"
+"name": "情報工学部 各学科 前期",
+"kyotsu": "650点（英語200、数学100、国語100、理科200、情報Ⅰ50）",
+"niji": "数学300（調査書10点加点）",
+"haiten": "650:300",
+"note": "募集人員 情報通信工14・情報システム工14・人間情報工12",
+"url": "https://search.keinet.ne.jp/general/exam_subject_sp/1648"
 },
 {
 "kubun": "一般",
-"name": "デザイン学部（確認済み共通テストパターン）",
-"kyotsu": "国語200、英語[L]200[100]、情報Ⅰ50に、地歴・公民・数学・理科から1〜3科目（各100、合計550〜750点満点）",
-"niji": "",
-"haiten": "",
-"note": "パスナビ デザイン学部ページより共通テスト構成を確認。対象学科・日程区分、個別試験科目・配点は未確認"
+"name": "情報工学部 各学科 中期",
+"kyotsu": "500点（英語100、数学100、国語100、理科150、情報Ⅰ50）",
+"niji": "数学300（調査書10点加点）",
+"haiten": "500:300",
+"note": "募集人員 情報通信工23・情報システム工23・人間情報工15",
+"url": "https://search.keinet.ne.jp/general/exam_subject_sp/1648"
+},
+{
+"kubun": "一般",
+"name": "保健福祉学部 看護学科 前期",
+"kyotsu": "650点（科目内訳はKei-Netの表が崩れて確認できず）",
+"niji": "面接・調査書・志望理由書 計100",
+"haiten": "650:100",
+"note": "募集人員24",
+"url": "https://search.keinet.ne.jp/general/exam_subject_sp/1648"
+},
+{
+"kubun": "一般",
+"name": "保健福祉学部 看護学科 後期",
+"kyotsu": "650点（科目内訳は未確認）",
+"niji": "面接・調査書・志望理由書 計100",
+"haiten": "650:100",
+"note": "募集人員4",
+"url": "https://search.keinet.ne.jp/general/exam_subject_sp/1648"
+},
+{
+"kubun": "一般",
+"name": "保健福祉学部 栄養学科 前期",
+"kyotsu": "750点（英語200、数学100、国語200、理科100、地歴・公民100、情報Ⅰ50）",
+"niji": "理科200（調査書・志望理由書で10点加点）",
+"haiten": "750:200",
+"note": "募集人員23",
+"url": "https://search.keinet.ne.jp/general/exam_subject_sp/1648"
+},
+{
+"kubun": "一般",
+"name": "保健福祉学部 栄養学科 後期",
+"kyotsu": "700点（英語200、数学100、国語100、理科200、地歴・公民50、情報Ⅰ50）",
+"niji": "個別試験なし（調査書・志望理由書で10点加点）",
+"haiten": "共テのみ",
+"note": "募集人員3",
+"url": "https://search.keinet.ne.jp/general/exam_subject_sp/1648"
+},
+{
+"kubun": "一般",
+"name": "保健福祉学部 現代福祉学科 前期",
+"kyotsu": "500点（英語200、国語200、数学・理科・地歴公民・情報から1科目100）",
+"niji": "面接・調査書・志望理由書 計100",
+"haiten": "500:100",
+"note": "募集人員16",
+"url": "https://search.keinet.ne.jp/general/exam_subject_sp/1648"
+},
+{
+"kubun": "一般",
+"name": "保健福祉学部 子ども学科 前期・後期",
+"kyotsu": "500点（現代福祉学科前期と同じ）",
+"niji": "面接・調査書・志望理由書 計100",
+"haiten": "500:100",
+"note": "募集人員 前期13・後期4",
+"url": "https://search.keinet.ne.jp/general/exam_subject_sp/1648"
+},
+{
+"kubun": "一般",
+"name": "デザイン学部 ビジュアルデザイン学科 前期",
+"kyotsu": "650点（英語200、国語200、情報Ⅰ50、数学・理科・地歴公民から2科目各100）",
+"niji": "実技400（鉛筆デッサン、調査書10点加点）",
+"haiten": "650:400",
+"note": "募集人員18",
+"url": "https://search.keinet.ne.jp/general/exam_subject_sp/1648"
+},
+{
+"kubun": "一般",
+"name": "デザイン学部 工芸工業デザイン学科 前期",
+"kyotsu": "550点（英語200、国語200、情報Ⅰ50、数学・理科・地歴公民から1科目100）",
+"niji": "実技500（鉛筆デッサン、調査書10点加点）",
+"haiten": "550:500",
+"note": "募集人員18",
+"url": "https://search.keinet.ne.jp/general/exam_subject_sp/1648"
+},
+{
+"kubun": "一般",
+"name": "デザイン学部 建築学科 前期",
+"kyotsu": "750点（英語200、国語200、情報Ⅰ50、数学・理科・地歴公民から数学1科目を含む3科目）",
+"niji": "実技200（調査書10点加点）",
+"haiten": "750:200",
+"note": "募集人員18",
+"url": "https://search.keinet.ne.jp/general/exam_subject_sp/1648"
 }
 ],
-"summary": "保健福祉学部看護学科（後期）は共通テスト650点に個別（面接・調査書）100点を組み合わせる。デザイン学部では共通テストで国語200・英語200・情報Ⅰ50に選択1〜3科目を課す方式が確認された。",
-"note": "未確認の学部・学科（情報工学部・保健福祉学部の他方式等）および推薦・総合型選抜の詳細は省略。"
+"summary": "情報工学部は前期・中期とも個別は数学300点。保健福祉学部の看護・現代福祉・子どもは面接などの100点、栄養前期は理科200点、栄養後期は共通テストのみ。デザイン学部は実技（ビジュアル400・工芸工業500・建築200）を課す。",
+"note": "2026-11-17 Kei-Netの2027年度入試科目ページで一般選抜の全学科を追加。推薦・総合型の詳細と大学公式の募集要項での確認は未了。"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -182480,29 +182589,32 @@ null
 {
 "kubun": "一般",
 "name": "一般 前期",
-"apply": "1/25〜2/3",
-"exam": "2/25・26（指定日）",
+"apply": "1/22〜2/3",
+"exam": "2/25・26（試験日指定）",
 "result": "3/6",
 "proc": "3/15",
-"note": "全学部対象（情報工学部は情報通信工学科のみ）。共通テストは1/16・17。テレメール進学サイトではネット出願1/22〜2/3（16:59、必要書類2/3必着・2/2以前消印の簡易書留速達有効）と記載"
+"note": "全学部・全学科（情報工学部3学科・保健福祉学部4学科・デザイン学部3学科）。ネット出願は2/3 16:59まで、書類は2/3必着（2/2までの消印の簡易書留速達は有効）。共通テストは1/16・17",
+"url": "https://telemail.jp/shingaku/university/10003468/examination/general"
 },
 {
 "kubun": "一般",
 "name": "一般 中期",
-"apply": "1/25〜2/3",
+"apply": "1/22〜2/3",
 "exam": "3/8",
 "result": "3/21",
 "proc": "3/26",
-"note": "情報工学部（情報通信工・情報システム工・人間情報工）対象。共通テストは1/16・17。ネット出願は1/22〜2/3（16:59）"
+"note": "情報工学部（情報通信工・情報システム工・人間情報工）",
+"url": "https://telemail.jp/shingaku/university/10003468/examination/general"
 },
 {
 "kubun": "一般",
 "name": "一般 後期",
-"apply": "1/25〜2/3",
+"apply": "1/22〜2/3",
 "exam": "3/12",
 "result": "3/21",
 "proc": "3/26",
-"note": "保健福祉学部（看護・子ども・栄養）対象。看護・子どもは3/12実施、栄養は個別試験なし（共通テストのみ）。共通テストは1/16・17"
+"note": "保健福祉学部 看護・子ども（3/12実施）・栄養（個別試験なし、共通テストのみ）",
+"url": "https://telemail.jp/shingaku/university/10003468/examination/general"
 },
 {
 "kubun": "総合型",
@@ -182522,10 +182634,54 @@ null
 "proc": "12/24",
 "note": "情報工学部・保健福祉学部・デザイン学部対象。情報工学部・保健福祉学部は共通テスト受験が出願条件"
 }
-]
+],
+"note": "2026-11-17 テレメール（2027年度・7月時点）で一般選抜の日程を再確認。外部AIの「前期は情報工学部が情報通信工学科のみ」は誤りで、情報工学部の3学科とも前期・中期を実施するため修正。大学公式の一般選抜募集要項（11/10公表）・入試スケジュールPDFは取得できず、総合型・推薦の日程も公式では未確認。"
 },
 "_via": "external-ai",
-"careers": "2024年度学士課程卒業者356人のうち就職270人・進学72人（Kei-Net の学科別表から集計）。情報工学部は131人中進学43人、デザイン学部建築学科は27人中12人が進学。保健福祉学部の看護学科は41人中就職38人、栄養学科は38人中就職31人。"
+"careers": "2024年度学士課程卒業者356人のうち就職270人・進学72人（Kei-Net の学科別表から集計）。情報工学部は131人中進学43人、デザイン学部建築学科は27人中12人が進学。保健福祉学部の看護学科は41人中就職38人、栄養学科は38人中就職31人。",
+"money": {
+"year": "2026年度入学者（Kei-Net）",
+"admission": 188000,
+"annual": 535800,
+"total4": 2331200,
+"total4_note": "入学金（県内）188,000円＋授業料4年分（535,800円×4）。県外は入学金282,000円。",
+"note": "入学金は岡山県内者188,000円、県外者282,000円。2027年度の額は未確認。",
+"rows": [
+{
+"f": "保健福祉学部 看護学科",
+"admission": 188000,
+"tuition": 535800,
+"facility": 10000,
+"practical": null,
+"other": 69370,
+"first_year": 803170,
+"four_year": null,
+"note": "県外者は初年度897,170円。facilityは設備/実習/諸会費等、otherは保険料5,370円＋後援会費64,000円"
+},
+{
+"f": "保健福祉学部（看護学科を除く）",
+"admission": 188000,
+"tuition": 535800,
+"facility": 10000,
+"practical": null,
+"other": 68730,
+"first_year": 802530,
+"four_year": null,
+"note": "県外者は初年度896,530円。otherは保険料4,730円＋後援会費64,000円"
+},
+{
+"f": "情報工学部・デザイン学部",
+"admission": 188000,
+"tuition": 535800,
+"facility": 10000,
+"practical": null,
+"other": 68660,
+"first_year": 802460,
+"four_year": null,
+"note": "県外者は初年度896,460円。otherは保険料4,660円＋後援会費64,000円"
+}
+]
+}
 },
 "石巻専修大学": {
 "faculties": [
