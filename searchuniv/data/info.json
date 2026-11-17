@@ -147858,9 +147858,9 @@ null
 "fdiff": "2026-11-09",
 "ratios": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-17",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-17"
 },
 "departments": [
 {
@@ -147912,7 +147912,11 @@ null
 "https://passnavi.obunsha.co.jp/univ/1152/bairitsu/",
 "https://passnavi.obunsha.co.jp/univ/1152/subject/",
 "https://manabi.benesse.ne.jp/daigaku/school/2153/nyushi/kango/",
-"https://shoronbun-campus.com/posts/daigaku-mie-kango-sogo/"
+"https://shoronbun-campus.com/posts/daigaku-mie-kango-sogo/",
+"https://www.mcn.ac.jp/examination/schedule/",
+"https://www.mcn.ac.jp/examination/data/",
+"https://search.keinet.ne.jp/1586/recommend/exam_rec",
+"https://passnavi.obunsha.co.jp/univ/1152/schedule/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -148014,23 +148018,56 @@ null
 "rows": [
 {
 "kubun": "一般",
-"name": "一般選抜（前期・後期）",
+"name": "一般選抜 前期日程（一般枠45名・地域枠5名）",
 "apply": "1/25〜2/3",
-"exam": "",
-"result": "",
+"exam": "1/16・17（共テ）、2/25（個別）",
+"result": "3/5",
 "proc": "",
-"note": "出願最終日は17時必着。試験日・合格発表日・手続締切日は未確認。"
+"note": "出願は17時必着。入学手続締切は公式の日程ページに記載なし",
+"url": "https://www.mcn.ac.jp/examination/schedule/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期日程（10名）",
+"apply": "1/25〜2/3",
+"exam": "1/16・17（共テ）、3/12（個別）",
+"result": "3/20",
+"proc": "",
+"note": "出願は17時必着。入学手続締切は公式の日程ページに記載なし",
+"url": "https://www.mcn.ac.jp/examination/schedule/"
 },
 {
 "kubun": "推薦",
-"name": "特別選抜（学校推薦型選抜・地域推薦型選抜等）",
+"name": "学校推薦型選抜（40名。地域推薦型6名・東紀州地域指定校推薦型2名を含む）",
 "apply": "11/2〜11/9",
 "exam": "11/21",
-"result": "",
+"result": "12/4",
+"proc": "12/11",
+"note": "2026年。出願は17時必着。手続締切は河合塾Kei-Netの掲載",
+"url": "https://www.mcn.ac.jp/examination/schedule/"
+},
+{
+"kubun": "推薦",
+"name": "地域推薦型選抜（6名）",
+"apply": "11/2〜11/9",
+"exam": "11/21",
+"result": "12/4",
+"proc": "12/11",
+"note": "2026年。三重県内の市町長の推薦が必要。手続締切は河合塾Kei-Netの掲載",
+"url": "https://www.mcn.ac.jp/examination/schedule/"
+},
+{
+"kubun": "その他",
+"name": "特別選抜（帰国生徒・社会人・多言語多文化・東紀州地域指定校推薦型）",
+"apply": "11/2〜11/9",
+"exam": "11/21",
+"result": "12/4",
 "proc": "",
-"note": "出願期間は入学者選抜要項ベース（17時必着、地域推薦型選抜は市町指定日時）。総合型選抜は2027年度実施なし。合格発表・手続締切日は未確認。"
+"note": "2026年。帰国生徒・社会人・多言語多文化は若干名、東紀州地域指定校推薦型は2名",
+"url": "https://www.mcn.ac.jp/examination/schedule/"
 }
-]
+],
+"note": "2026-11-17 大学公式「入試日程」（令和9年度学部入試）で確認。一般前期・後期の出願期間は既存と一致し、試験日（前期2/25・後期3/12）・合格発表（3/5・3/20）を追加。推薦・特別選抜の合格発表12/4を追加、推薦の手続締切12/11は河合塾Kei-Netで確認。総合型選抜は実施なし"
 },
 "money": {
 "year": "2026年度",
@@ -148053,7 +148090,7 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai-verified"
 },
 "京都市立芸術大学": {
 "faculties": [
@@ -148072,9 +148109,9 @@ null
 "fdiff": "2026-11-09",
 "ratios": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-17",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-17"
 },
 "departments": [
 {
@@ -148144,7 +148181,8 @@ null
 "https://passnavi.obunsha.co.jp/univ/1160/subject/?facultyID=005",
 "https://passnavi.obunsha.co.jp/univ/1160/subject/?facultyID=010",
 "https://jyuke-labo.com/daigakujyukentaisaku/kyotoshiritsugeizyutsudaigaku/",
-"https://aoaoi.jp/preparation/kyogei/"
+"https://aoaoi.jp/preparation/kyogei/",
+"https://manabi.benesse.ne.jp/daigaku/school/2165/nyushi/gokaku-happyo/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -148346,7 +148384,9 @@ null
 "exam": "1/16・17（共テ）、2/25・26（個別）",
 "result": "3/5",
 "proc": "3/13〜3/15",
-"note": "出願期間は7/6訂正後の日程（1/25〜2/3）。2/25に描写・色彩、2/26に立体を実施。"
+"note": "出願期間は7/6訂正後の日程（1/25〜2/3）。2/25に描写・色彩、2/26に立体を実施。",
+"fee": 17000,
+"url": "https://www.kcua.ac.jp/admission/finearts-2/"
 },
 {
 "kubun": "一般",
@@ -148355,7 +148395,9 @@ null
 "exam": "1/16・17（共テ）、2/25（個別）",
 "result": "3/5",
 "proc": "3/13〜3/15",
-"note": "出願期間は7/6訂正後の日程（1/25〜2/3）。個別試験は2/25のみ実施。"
+"note": "出願期間は7/6訂正後の日程（1/25〜2/3）。個別試験は2/25のみ実施。",
+"fee": 17000,
+"url": "https://www.kcua.ac.jp/admission/finearts-2/"
 },
 {
 "kubun": "一般",
@@ -148364,9 +148406,12 @@ null
 "exam": "1/16・17（共テ）、3/12〜3/15（1次・専攻別）、3/17（2次）",
 "result": "3/20",
 "proc": "",
-"note": "出願期間は7/6訂正後の日程（1/25〜2/3）。指揮・音楽学専攻の1次は3/12、他専攻は3/12〜15の間で専攻別に実施。1次発表は3/16。入学手続締切は未確認。総合型選抜・学校推薦型選抜は実施なし。"
+"note": "出願期間は7/6訂正後の日程（1/25〜2/3）。指揮・音楽学専攻の1次は3/12、他専攻は3/12〜15の間で専攻別に実施。1次発表は3/16。入学手続締切は公式・パスナビで未確認。総合型選抜・学校推薦型選抜は実施なし。",
+"fee": 17000,
+"url": "https://www.kcua.ac.jp/admission/music-2/"
 }
-]
+],
+"note": "2026-11-17 大学公式の美術学部・音楽学部の入試情報ページで出願期間（7/6訂正後 1/25〜2/3）を確認。試験日・合格発表（美術3/5・音楽3/20）は旺文社パスナビ・ベネッセ マナビジョンと既存が一致。入学検定料（入学考査料）17,000円を公式「学費・奨学金・減免・割引」で確認して追加"
 },
 "money": {
 "year": "2026年度",
@@ -148400,7 +148445,7 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai-verified"
 },
 "京都府立医科大学": {
 "faculties": [
@@ -150513,7 +150558,7 @@ null
 "difficulty": "2026-11-07",
 "kyotsu": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-17",
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
@@ -150598,13 +150643,59 @@ null
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "総合型",
+"name": "AO入試（1次選考・併願制）",
+"apply": "9/1〜9/7",
+"exam": "9/19",
+"result": "9/28",
+"proc": "",
+"fee": null,
+"note": "2026年。1次合格者のみ2次選考へ",
+"url": "https://www.oit.ac.jp/admission/outline/schedule.html"
+},
+{
+"kubun": "総合型",
+"name": "AO入試（2次選考・専願制、書類審査のみ）",
+"apply": "9/28〜10/2",
+"exam": "",
+"result": "11/2",
+"proc": "一括11/2〜11/9・2次11/2〜1/7",
+"fee": null,
+"note": "2026年。1次合格者のみ出願可",
+"url": "https://www.oit.ac.jp/admission/outline/schedule.html"
+},
+{
+"kubun": "推薦",
+"name": "普通科高校特別推薦・専門高校特別推薦・女子特別推薦（併願制）",
+"apply": "11/1〜11/5",
+"exam": "11/15",
+"result": "12/3",
+"proc": "一括12/3〜12/17・2次12/3〜1/7",
+"fee": null,
+"note": "2026年",
+"url": "https://www.oit.ac.jp/admission/outline/schedule.html"
+},
+{
+"kubun": "推薦",
+"name": "公募制推薦（併願制）",
+"apply": "11/1〜11/11",
+"exam": "11/23",
+"result": "12/3",
+"proc": "一括12/3〜12/17・2次12/3〜1/7",
+"fee": null,
+"note": "2026年。特別推薦とセット出願は11/5まで",
+"url": "https://www.oit.ac.jp/admission/outline/schedule.html"
+},
+{
 "kubun": "一般",
 "name": "一般入試 前期A日程（AC併用含む）",
 "apply": "1/4〜1/18",
 "exam": "1/28・1/29",
 "result": "2/17",
-"proc": "1次2/25・2次3/24",
-"fee": null
+"proc": "一括2/17〜2/25・2次2/17〜3/24",
+"fee": null,
+"url": "https://www.oit.ac.jp/admission/outline/schedule.html",
+"note": "追加合格3/1（手続は一括3/1〜3/5、2次3/1〜3/24）"
 },
 {
 "kubun": "一般",
@@ -150612,8 +150703,10 @@ null
 "apply": "1/4〜1/22",
 "exam": "2/4",
 "result": "2/17",
-"proc": "1次2/25・2次3/24",
-"fee": null
+"proc": "一括2/17〜2/25・2次2/17〜3/24",
+"fee": null,
+"url": "https://www.oit.ac.jp/admission/outline/schedule.html",
+"note": "追加合格3/1（手続は一括3/1〜3/5、2次3/1〜3/24）"
 },
 {
 "kubun": "共テ利用",
@@ -150621,8 +150714,9 @@ null
 "apply": "1/4〜1/21",
 "exam": "1/16・1/17（共テ）",
 "result": "2/17",
-"proc": "1次3/10・2次3/24",
-"fee": null
+"proc": "一括2/17〜3/10・2次2/17〜3/24",
+"fee": null,
+"url": "https://www.oit.ac.jp/admission/outline/schedule.html"
 },
 {
 "kubun": "一般",
@@ -150630,8 +150724,10 @@ null
 "apply": "2/15〜2/25",
 "exam": "3/6",
 "result": "3/18",
-"proc": "3/24（一括）",
-"fee": null
+"proc": "一括3/18〜3/24",
+"fee": null,
+"url": "https://www.oit.ac.jp/admission/outline/schedule.html",
+"note": "追加合格3/26（手続3/26〜3/29）"
 },
 {
 "kubun": "共テ利用",
@@ -150639,10 +150735,13 @@ null
 "apply": "2/15〜2/25",
 "exam": "1/16・1/17（共テ）",
 "result": "3/18",
-"proc": "3/24（一括）",
-"fee": null
+"proc": "一括3/18〜3/24",
+"fee": null,
+"url": "https://www.oit.ac.jp/admission/outline/schedule.html",
+"note": "追加合格3/26（手続3/26〜3/29）"
 }
-]
+],
+"note": "2026-11-17 大学公式「入試日程・受験地」で確認。一般前期A・B・C、後期D・Cの出願期間・試験日・合格発表は既存と一致。手続期間（一括・2次）と追加合格、AO入試・推薦入試の日程を追加。検定料はページに記載なし"
 },
 "money": {
 "year": "2026年度",
@@ -157006,7 +157105,7 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"schedule": "2026-11-07",
+"schedule": "2026-11-17",
 "money": "2026-11-07",
 "scholar": "2026-11-07"
 },
@@ -157099,7 +157198,8 @@ null
 "_via": "external-ai-verified",
 "sources": [
 "https://www.suw.ac.jp/",
-"https://suw.ac.jp/media/2027_bosyuyoko.pdf"
+"https://suw.ac.jp/media/2027_bosyuyoko.pdf",
+"https://suw.ac.jp/exam/about/list-15118/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -157112,7 +157212,8 @@ null
 "result": "11/2",
 "proc": "11/16",
 "fee": 30000,
-"note": ""
+"note": "",
+"url": "https://suw.ac.jp/exam/about/list-15118/"
 },
 {
 "kubun": "総合型",
@@ -157122,7 +157223,30 @@ null
 "result": "12/11",
 "proc": "1/8",
 "fee": 30000,
-"note": ""
+"note": "",
+"url": "https://suw.ac.jp/exam/about/list-15118/"
+},
+{
+"kubun": "総合型",
+"name": "総合型C日程",
+"apply": "1/26〜2/10",
+"exam": "2/16",
+"result": "2/19",
+"proc": "",
+"fee": null,
+"note": "",
+"url": "https://suw.ac.jp/exam/about/list-15118/"
+},
+{
+"kubun": "総合型",
+"name": "総合型D日程",
+"apply": "2/16〜3/8",
+"exam": "3/10",
+"result": "3/12",
+"proc": "",
+"fee": null,
+"note": "",
+"url": "https://suw.ac.jp/exam/about/list-15118/"
 },
 {
 "kubun": "その他",
@@ -157132,7 +157256,8 @@ null
 "result": "11/20",
 "proc": "12/11",
 "fee": 0,
-"note": ""
+"note": "",
+"url": "https://suw.ac.jp/exam/about/list-15118/"
 },
 {
 "kubun": "推薦",
@@ -157142,7 +157267,30 @@ null
 "result": "12/1",
 "proc": "12/11",
 "fee": 30000,
-"note": ""
+"note": "",
+"url": "https://suw.ac.jp/exam/about/list-15118/"
+},
+{
+"kubun": "推薦",
+"name": "指定校推薦 後期",
+"apply": "1/26〜2/10",
+"exam": "2/16",
+"result": "2/19",
+"proc": "",
+"fee": null,
+"note": "",
+"url": "https://suw.ac.jp/exam/about/list-15118/"
+},
+{
+"kubun": "推薦",
+"name": "公募推薦 後期",
+"apply": "2/16〜3/8",
+"exam": "3/10",
+"result": "3/12",
+"proc": "",
+"fee": null,
+"note": "",
+"url": "https://suw.ac.jp/exam/about/list-15118/"
 },
 {
 "kubun": "一般",
@@ -157152,7 +157300,8 @@ null
 "result": "2/5",
 "proc": "2/18",
 "fee": 30000,
-"note": "2/2は沼津・浜松会場あり"
+"note": "2/2は沼津・浜松会場あり",
+"url": "https://suw.ac.jp/exam/about/list-15118/"
 },
 {
 "kubun": "一般",
@@ -157162,7 +157311,8 @@ null
 "result": "2/19",
 "proc": "3/10",
 "fee": 30000,
-"note": ""
+"note": "",
+"url": "https://suw.ac.jp/exam/about/list-15118/"
 },
 {
 "kubun": "一般",
@@ -157172,7 +157322,8 @@ null
 "result": "3/12",
 "proc": "3/23",
 "fee": 30000,
-"note": ""
+"note": "",
+"url": "https://suw.ac.jp/exam/about/list-15118/"
 },
 {
 "kubun": "共テ利用",
@@ -157182,7 +157333,8 @@ null
 "result": "2/5",
 "proc": "2/18",
 "fee": 15000,
-"note": ""
+"note": "",
+"url": "https://suw.ac.jp/exam/about/list-15118/"
 },
 {
 "kubun": "共テ利用",
@@ -157192,7 +157344,8 @@ null
 "result": "2/19",
 "proc": "3/10",
 "fee": 15000,
-"note": ""
+"note": "",
+"url": "https://suw.ac.jp/exam/about/list-15118/"
 },
 {
 "kubun": "共テ利用",
@@ -157202,7 +157355,8 @@ null
 "result": "3/12",
 "proc": "3/23",
 "fee": 15000,
-"note": ""
+"note": "",
+"url": "https://suw.ac.jp/exam/about/list-15118/"
 },
 {
 "kubun": "共テ利用",
@@ -157212,9 +157366,22 @@ null
 "result": "3/18",
 "proc": "3/23",
 "fee": 15000,
-"note": ""
+"note": "",
+"url": "https://suw.ac.jp/exam/about/list-15118/"
+},
+{
+"kubun": "その他",
+"name": "社会人特別選抜 前期・後期",
+"apply": "前期11/1〜11/11・後期1/26〜2/10",
+"exam": "前期11/15・後期2/16",
+"result": "前期12/1・後期2/19",
+"proc": "",
+"fee": null,
+"note": "",
+"url": "https://suw.ac.jp/exam/about/list-15118/"
 }
-]
+],
+"note": "2026-11-17 大学公式「入試日程・出願書類・試験科目一覧」で確認。総合型A・B、奨学生、推薦前期、一般前期・中期・後期、共テ利用Ⅰ〜Ⅳ期の出願期間・試験日・合格発表は既存と一致。総合型C・D日程、指定校・公募推薦の後期、社会人特別選抜を追加（手続締切・検定料はこのページに記載なし）"
 },
 "money": {
 "year": "2027年度",
