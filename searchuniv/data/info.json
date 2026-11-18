@@ -80243,7 +80243,9 @@
 "https://passnavi.obunsha.co.jp/univ/1078/expense/",
 "https://search.keinet.ne.jp/1542/general/exam_subject",
 "https://manabi.benesse.ne.jp/daigaku/school/2088/syusyoku/",
-"https://passnavi.obunsha.co.jp/univ/1078/eiken/"
+"https://passnavi.obunsha.co.jp/univ/1078/eiken/",
+"https://www.kuhs.ac.jp/att/00033_13406_010.pdf",
+"https://www.kuhs.ac.jp/admission/undergraduate/information/"
 ],
 "methods": {
 "year": "2027年度入試",
@@ -80369,7 +80371,7 @@
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
 "money": "2026-11-08",
-"schedule": "2026-11-08",
+"schedule": "2026-11-18",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
@@ -80494,7 +80496,9 @@
 "exam": "10/12",
 "result": "11/2",
 "proc": "11/13",
-"note": "全学科共通（マナビジョン）"
+"note": "全学科共通。大学公式の募集要項で一致",
+"fee": 17000,
+"url": "https://www.kuhs.ac.jp/att/00033_13406_010.pdf"
 },
 {
 "kubun": "推薦",
@@ -80503,7 +80507,9 @@
 "exam": "11/23",
 "result": "12/8",
 "proc": "12/16",
-"note": "全学科共通（マナビジョン）"
+"note": "全学科共通。大学公式の募集要項で一致",
+"fee": 17000,
+"url": "https://www.kuhs.ac.jp/att/00033_13406_010.pdf"
 },
 {
 "kubun": "一般",
@@ -80512,7 +80518,9 @@
 "exam": "2/25",
 "result": "3/5",
 "proc": "3/15",
-"note": "共通テスト1/16・17。全学科共通（パスナビ、8月末時点）"
+"note": "共通テスト1/16・17。全学科共通。大学公式の募集要項で一致（前期・後期同時は34,000円）",
+"fee": 17000,
+"url": "https://www.kuhs.ac.jp/att/00033_13406_010.pdf"
 },
 {
 "kubun": "一般",
@@ -80521,9 +80529,12 @@
 "exam": "3/12",
 "result": "3/23",
 "proc": "3/27",
-"note": "共通テスト1/16・17（パスナビ、8月末時点）"
+"note": "共通テスト1/16・17。大学公式の募集要項で一致（前期・後期同時は34,000円）",
+"fee": 17000,
+"url": "https://www.kuhs.ac.jp/att/00033_13406_010.pdf"
 }
-]
+],
+"note": "2026-11-18 大学公式「2027（令和9）年度 学生募集要項」で全行一致を確認。検定料を追加"
 },
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -80711,7 +80722,8 @@
 "https://passnavi.obunsha.co.jp/univ/1040/schedule/",
 "https://passnavi.obunsha.co.jp/univ/1040/expense/",
 "https://search.keinet.ne.jp/1525/general/exam_subject",
-"https://passnavi.obunsha.co.jp/univ/1040/eiken/"
+"https://passnavi.obunsha.co.jp/univ/1040/eiken/",
+"https://www.gpwu.ac.jp/exam/dep/summary/summary/"
 ],
 "methods": {
 "year": "2027年度入試",
@@ -80834,7 +80846,7 @@
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
 "money": "2026-11-08",
-"schedule": "2026-11-08",
+"schedule": "2026-11-18",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
@@ -80954,11 +80966,12 @@
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜",
-"apply": "〜11/11（必着）",
+"apply": "11/4〜11/11（必着）",
 "exam": "11/21",
 "result": "12/1",
-"proc": "12/9",
-"note": "文学部・国際コミュニケーション学部共通。出願期間は締切日のみ掲載"
+"proc": "12/2〜12/9",
+"note": "文学部・国際コミュニケーション学部共通。合格は12/1頃に学校長経由で通知",
+"url": "https://www.gpwu.ac.jp/exam/dep/summary/summary/"
 },
 {
 "kubun": "一般",
@@ -80966,8 +80979,9 @@
 "apply": "1/25〜2/3",
 "exam": "2/25",
 "result": "3/5",
-"proc": "3/15",
-"note": "共通テスト1/16・17。国際コミュニケーション学部は個別試験が2/25［・26］と表記（パスナビ、8月末時点）"
+"proc": "3/8〜3/15",
+"note": "共通テスト1/16・17。国際コミュニケーション学部は志願者多数の場合2/26を指定することがある",
+"url": "https://www.gpwu.ac.jp/exam/dep/summary/summary/"
 },
 {
 "kubun": "一般",
@@ -80975,10 +80989,12 @@
 "apply": "1/25〜2/3",
 "exam": "3/12",
 "result": "3/20",
-"proc": "3/27",
-"note": "文学部は英米文化・美学美術史・文化情報学科のみ。国際コミュニケーション学部は3/12［・13］と表記（パスナビ、8月末時点）"
+"proc": "3/23〜3/27",
+"note": "文学部は英米文化・美学美術史・文化情報学科のみ。国際コミュニケーション学部は志願者多数の場合3/13を指定することがある",
+"url": "https://www.gpwu.ac.jp/exam/dep/summary/summary/"
 }
-]
+],
+"note": "2026-11-18 大学公式「入試概要」で日程が一致。推薦の出願開始日と手続期間を補った"
 },
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -222452,12 +222468,12 @@ null
 "departments": "2026-11-09",
 "difficulty": "2026-11-09",
 "kyotsu": "2026-11-09",
-"methods": "2026-11-09",
-"schedule": "2026-11-13",
-"scholar": "2026-11-09",
+"methods": "2026-11-18",
+"schedule": "2026-11-18",
+"scholar": "2026-11-18",
 "eng": "2026-11-09",
-"_via": "2026-11-09",
-"money": "2026-11-13"
+"_via": "2026-11-18",
+"money": "2026-11-18"
 },
 "departments": [
 {
@@ -222505,6 +222521,7 @@ null
 },
 "methods": {
 "year": "2027年度入試",
+"summary": "一般選抜（前期・中期・後期、文系・理系方式、2科目型・3科目型）、共通テスト利用選抜（前期・中期・後期）、総合型選抜を実施",
 "list": [
 {
 "kubun": "一般",
@@ -222532,8 +222549,39 @@ null
 "content": "基礎力審査（マークシート式80分・学群指定の2科目選択、各100点満点）",
 "req": null,
 "url": "https://admissions.obirin.ac.jp/events/10184/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期 文系方式（2科目型・3科目型）",
+"kyotsu": "課さない",
+"niji": "2科目型：国語・英語。3科目型：地理／世界史／日本史／政治・経済または数学＋国語＋英語",
+"content": null,
+"req": null,
+"note": "2/1〜2/4から選択（複数日受験可、2/3は地区会場あり）",
+"url": "https://www.obirin.ac.jp/admissions/undergraduate/u1ta3s000007r2pg-att/yoko_ippan.pdf"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期 理系方式（2科目型・3科目型）",
+"kyotsu": "課さない",
+"niji": "3科目型（2/1）：数学・理科・英語（数学・理科は記述式）。2科目型：数学または理科＋英語",
+"content": null,
+"req": null,
+"note": "2/2・2/3・2/4の数学はマーク式",
+"url": "https://www.obirin.ac.jp/admissions/undergraduate/u1ta3s000007r2pg-att/yoko_ippan.pdf"
+},
+{
+"kubun": "一般",
+"name": "航空学群 フライト・オペレーションコース（一般選抜・共通テスト利用選抜）",
+"kyotsu": "共テ利用は共通テストで1次審査",
+"niji": "一般の1次：数学・国語・英語",
+"content": "2次審査：面接・飛行適性検査",
+"req": null,
+"note": "別途 訓練費（2026年度参考で約2,000万円）",
+"url": "https://www.obirin.ac.jp/admissions/undergraduate/u1ta3s000007r2pg-att/yoko_ippan.pdf"
 }
-]
+],
+"note": "2026-11-18 大学公式「2027年度 学生募集要項」で前期の科目型・試験日を追加"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -222545,7 +222593,9 @@ null
 "exam": "2/1〜2/4",
 "result": "2/10",
 "proc": "2/16",
-"fee": null
+"fee": 35000,
+"note": "英語みなし点で英語の筆記を受けない場合は20,000円",
+"url": "https://www.obirin.ac.jp/admissions/undergraduate/u1ta3s000007r2pg-att/yoko_ippan.pdf"
 },
 {
 "kubun": "一般",
@@ -222554,7 +222604,9 @@ null
 "exam": "2/1・2/3",
 "result": "2/10",
 "proc": "2/16",
-"fee": null
+"fee": 35000,
+"note": "英語みなし点で英語の筆記を受けない場合は20,000円",
+"url": "https://www.obirin.ac.jp/admissions/undergraduate/u1ta3s000007r2pg-att/yoko_ippan.pdf"
 },
 {
 "kubun": "一般",
@@ -222563,7 +222615,9 @@ null
 "exam": "2/25",
 "result": "3/2",
 "proc": "3/9",
-"fee": null
+"fee": 35000,
+"note": "英語みなし点で英語の筆記を受けない場合は20,000円",
+"url": "https://www.obirin.ac.jp/admissions/undergraduate/u1ta3s000007r2pg-att/yoko_ippan.pdf"
 },
 {
 "kubun": "一般",
@@ -222572,7 +222626,9 @@ null
 "exam": "3/10",
 "result": "3/15",
 "proc": "3/17",
-"fee": null
+"fee": 35000,
+"note": "英語みなし点で英語の筆記を受けない場合は20,000円",
+"url": "https://www.obirin.ac.jp/admissions/undergraduate/u1ta3s000007r2pg-att/yoko_ippan.pdf"
 },
 {
 "kubun": "共テ利用",
@@ -222581,7 +222637,9 @@ null
 "exam": "共通テスト",
 "result": "2/10",
 "proc": "2/16",
-"fee": null
+"fee": 16000,
+"note": "3学群まで16,000円、4学群目以降1学群10,000円",
+"url": "https://www.obirin.ac.jp/admissions/undergraduate/u1ta3s000007r2pg-att/yoko_ippan.pdf"
 },
 {
 "kubun": "共テ利用",
@@ -222590,7 +222648,9 @@ null
 "exam": "2/1〜2/4",
 "result": "2/10",
 "proc": "2/16",
-"fee": null
+"fee": 16000,
+"note": "3学群まで16,000円、4学群目以降1学群10,000円",
+"url": "https://www.obirin.ac.jp/admissions/undergraduate/u1ta3s000007r2pg-att/yoko_ippan.pdf"
 },
 {
 "kubun": "共テ利用",
@@ -222599,7 +222659,9 @@ null
 "exam": "共通テスト",
 "result": "3/2",
 "proc": "3/9",
-"fee": null
+"fee": 16000,
+"note": "3学群まで16,000円、4学群目以降1学群10,000円",
+"url": "https://www.obirin.ac.jp/admissions/undergraduate/u1ta3s000007r2pg-att/yoko_ippan.pdf"
 },
 {
 "kubun": "共テ利用",
@@ -222608,10 +222670,23 @@ null
 "exam": "共通テスト",
 "result": "3/15",
 "proc": "3/17",
-"fee": null
+"fee": 16000,
+"note": "3学群まで16,000円、4学群目以降1学群10,000円",
+"url": "https://www.obirin.ac.jp/admissions/undergraduate/u1ta3s000007r2pg-att/yoko_ippan.pdf"
+},
+{
+"kubun": "一般",
+"name": "航空学群 フライト・オペレーションコース 一般選抜",
+"apply": "1/7〜1/25（正午）",
+"exam": "1次 2/1〜2/4のいずれか、2次 2/25または2/26",
+"result": "1次 2/10、2次 3/2",
+"proc": "3/9",
+"fee": null,
+"note": "2次審査は面接・飛行適性検査（2次審査費35,000円）",
+"url": "https://www.obirin.ac.jp/admissions/undergraduate/u1ta3s000007r2pg-att/yoko_ippan.pdf"
 }
 ],
-"note": "学群により異なる場合あり（リベラルアーツ学群 人文領域の例。掲載範囲では他学群も同じ日程）。ネット出願。ベネッセ マナビジョン（2027年度入試、2026年11月確認）。検定料は出典に記載なし"
+"note": "2026-11-18 大学公式「2027年度 学生募集要項（一般選抜・共通テスト利用選抜）」で前期・中期・後期の日程が既存と一致。検定料とフライト・オペレーションコースの日程を追加"
 },
 "scholar": {
 "year": "2027年度",
@@ -222623,8 +222698,33 @@ null
 "amount": "最大4年間、各学期の授業料を10〜100％減免",
 "timing": "入試時",
 "cond": "国際学生奨学生選抜の合格者"
+},
+{
+"name": "グローバル人材育成奨学生選抜",
+"kind": "給付",
+"target": "リベラルアーツ学群・ビジネスマネジメント学群（各5人程度）",
+"amount": "語学力向上支援金 各学期10万円（最大4年間）＋留学時の渡航支援費75万円",
+"timing": "入試時（一般選抜前期 2/1または2/3の3科目型）",
+"cond": "出願時に英語資格スコア（TOEFL iBT 42以上など）。指定の語学プログラムと長期交換留学への参加が必須、継続は通算GPA2.80以上など"
+},
+{
+"name": "学而事人奨学金",
+"kind": "減免",
+"target": "全学群",
+"amount": "授業料45％減免（各学年最大6人）",
+"timing": "入学後",
+"cond": "募集要項に記載の学内選考"
+},
+{
+"name": "学業優秀者奨学金",
+"kind": "給付",
+"target": "全学群",
+"amount": "20万円（各学年23人）",
+"timing": "在学中（2〜4年次）",
+"cond": "学業成績優秀者"
 }
-]
+],
+"note": "2026-11-18 大学公式「2027年度 学生募集要項」"
 },
 "eng": {
 "rows": [
@@ -222637,7 +222737,7 @@ null
 }
 ]
 },
-"_via": "external-ai",
+"_via": "external-ai-verified",
 "sources": [
 "https://admissions.obirin.ac.jp/events/10184/",
 "https://admissions.obirin.ac.jp/admissions/%E5%9B%BD%E9%9A%9B%E5%AD%A6%E7%94%9F%E9%81%B8%E6%8A%9C%EF%BC%88%E5%A5%A8%E5%AD%A6%E7%94%9F%E3%83%BB%E7%B7%A8%E5%85%A5%E5%AD%A6%E5%90%AB%E3%82%80%EF%BC%89-2/",
@@ -222647,7 +222747,9 @@ null
 "https://shingakunet.com/gakko/SC000268/nanido/gakubu_80/",
 "https://www.best-shingaku.net/special/fa_p015nyushicalendar_list.php?daigakucode=3234",
 "https://passnavi.obunsha.co.jp/univ/2300/expense/",
-"https://manabi.benesse.ne.jp/daigaku/school/3234/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3234/nyushi/",
+"https://www.obirin.ac.jp/admissions/undergraduate/u1ta3s000007r2pg-att/yoko_ippan.pdf",
+"https://admissions.obirin.ac.jp/admissions/general/"
 ],
 "money": {
 "year": "2027年度",
@@ -222740,7 +222842,8 @@ null
 "four_year": null,
 "note": "施設費は施設設備費・教育充実費。入学時最小限840,000円。"
 }
-]
+],
+"note": "2026-11-18 大学公式「2027年度 学生募集要項」の学納金表と一致を確認（年間納入金）"
 }
 },
 "桐蔭横浜大学": {
@@ -224243,11 +224346,12 @@ null
 "faculties": "2026-11-09",
 "departments": "2026-11-09",
 "difficulty": "2026-11-09",
-"methods": "2026-11-09",
-"schedule": "2026-11-14",
-"money": "2026-11-14",
+"methods": "2026-11-18",
+"schedule": "2026-11-18",
+"money": "2026-11-18",
 "access": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-18",
+"scholar": "2026-11-18"
 },
 "departments": [
 {
@@ -224278,6 +224382,7 @@ null
 },
 "methods": {
 "year": "2027年度入試",
+"summary": "医・薬・理・看護・健康科学の5学部。各学部で総合入試・推薦（指定校・公募）・一般入試・統一入試（2/23、五反田TOCビル）を実施。理・薬・健康科学は共通テスト利用あり",
 "list": [
 {
 "kubun": "一般",
@@ -224323,12 +224428,232 @@ null
 "content": null,
 "req": null,
 "url": "https://www.toho-u.ac.jp/info_exam/hs_2027ippan.pdf"
+},
+{
+"kubun": "一般",
+"name": "理学部 一般入試（A）",
+"kyotsu": "課さない",
+"niji": "数学・外国語・理科の3教科（各100点、計300点）",
+"content": null,
+"req": null,
+"note": "1回の出願で3学科まで。スカラシップ対象",
+"url": "https://juken.toho-u.ac.jp/exam-info/sci.html"
+},
+{
+"kubun": "一般",
+"name": "理学部 一般入試（B）",
+"kyotsu": "課さない",
+"niji": "学科ごとに科目・配点が異なる記述式中心（各学科300点）",
+"content": null,
+"req": null,
+"note": "生物・物理・情報科学科は1学科のみ出願可。スカラシップ対象",
+"url": "https://juken.toho-u.ac.jp/exam-info/sci.html"
+},
+{
+"kubun": "一般",
+"name": "理学部・薬学部・看護学部・健康科学部 統一入試",
+"kyotsu": "課さない",
+"niji": "理学部は英語・数学・理科から上位2教科、薬学部は化学・数学・英語（マーク、計300点）、看護・健康科学部は英語（マーク100点）＋面接",
+"content": null,
+"req": null,
+"note": "2/23 五反田TOCビル。英語資格・検定試験を利用できる学部あり",
+"url": "https://juken.toho-u.ac.jp/exam-info/sci.html"
+},
+{
+"kubun": "共テ利用",
+"name": "理学部 共通テスト利用入試（前期・前期＋・後期）",
+"kyotsu": "学科指定の科目",
+"niji": "個別試験なし",
+"content": null,
+"req": null,
+"note": "スカラシップ対象",
+"url": "https://juken.toho-u.ac.jp/exam-info/sci.html"
+},
+{
+"kubun": "一般",
+"name": "薬学部 一般入試・一般入試（共通テスト併用）",
+"kyotsu": "併用型は共テの数学・英語",
+"niji": "化学基礎・化学、数学（Ⅰ・Ⅱ・A・B）、英語（各100点、計300点）",
+"content": null,
+"req": null,
+"note": "併用型は一般の理科＋共テ数学・英語で計400点",
+"url": "https://juken.toho-u.ac.jp/exam-info/phar.html"
+},
+{
+"kubun": "共テ利用",
+"name": "薬学部 共通テスト利用入試",
+"kyotsu": "理科・数学・英語（計300点）",
+"niji": "個別試験なし",
+"content": null,
+"req": null,
+"note": null,
+"url": "https://juken.toho-u.ac.jp/exam-info/phar.html"
+},
+{
+"kubun": "総合型",
+"name": "薬学部 総合入試（専願制）",
+"kyotsu": "課さない",
+"niji": "化学・数学・英語の基礎的事項（各40分）",
+"content": "面接、調査書・志望理由書",
+"req": "専願",
+"note": null,
+"url": "https://juken.toho-u.ac.jp/exam-info/phar.html"
+},
+{
+"kubun": "一般",
+"name": "看護学部 一般入試",
+"kyotsu": "課さない",
+"niji": "1次：英語100点＋数学Ⅰ・A／生物基礎／化学基礎から1科目100点",
+"content": "2次：個人面接（約10分）",
+"req": null,
+"note": null,
+"url": "https://juken.toho-u.ac.jp/exam-info/nurs.html"
+},
+{
+"kubun": "総合型",
+"name": "看護学部 総合入試",
+"kyotsu": "課さない",
+"niji": "小論文、一般常識（基礎学力）試験",
+"content": "個人面接（約15分）",
+"req": null,
+"note": null,
+"url": "https://juken.toho-u.ac.jp/exam-info/nurs.html"
+},
+{
+"kubun": "総合型",
+"name": "健康科学部 総合入試（男子枠を含む）",
+"kyotsu": "課さない",
+"niji": "小論文",
+"content": "面接（口頭試問を含む）、書類審査",
+"req": null,
+"note": null,
+"url": "https://juken.toho-u.ac.jp/exam-info/health.html"
+},
+{
+"kubun": "一般",
+"name": "医学部 一般入試（千葉県・新潟県地域枠を含む）",
+"kyotsu": "課さない",
+"niji": "1次：数学100・理科2科目200・英語150（計450点）",
+"content": "2次：基礎学力（記述含む）50点・面接50点",
+"req": null,
+"note": "科目ごとに基準点あり",
+"url": "https://juken.toho-u.ac.jp/exam-info/med.html"
 }
-]
+],
+"note": "2026-11-18 大学公式の受験生サイト（学部別の入試一覧）で確認"
 },
 "schedule": {
 "year": "2027年度入試",
 "rows": [
+{
+"kubun": "総合型",
+"name": "理学部 総合入試（バランス型）",
+"apply": "9/1〜9/9必着",
+"exam": "2次 9/26",
+"result": null,
+"proc": null,
+"fee": 31000,
+"url": "https://juken.toho-u.ac.jp/exam-info/sci.html",
+"note": "専願制ではない"
+},
+{
+"kubun": "総合型",
+"name": "理学部 総合入試（主体性重視型・専願）",
+"apply": "11/1〜11/11必着",
+"exam": "2次 11/28",
+"result": null,
+"proc": null,
+"fee": 31000,
+"url": "https://juken.toho-u.ac.jp/exam-info/sci.html",
+"note": "生物学科・物理学科など"
+},
+{
+"kubun": "推薦",
+"name": "理学部 推薦入試（公募制・女子枠を含む）",
+"apply": "11/1〜11/6必着",
+"exam": "11/15",
+"result": null,
+"proc": null,
+"fee": 31000,
+"url": "https://juken.toho-u.ac.jp/exam-info/sci.html",
+"note": "公募制は化学科、女子枠は物理学科・情報科学科"
+},
+{
+"kubun": "総合型",
+"name": "薬学部 総合入試（専願制）",
+"apply": "9/24〜10/7必着",
+"exam": "10/17",
+"result": null,
+"proc": null,
+"fee": 35000,
+"url": "https://juken.toho-u.ac.jp/exam-info/phar.html",
+"note": "約30名"
+},
+{
+"kubun": "推薦",
+"name": "薬学部 推薦入試（公募併願制）",
+"apply": "11/1〜11/6必着",
+"exam": "11/15",
+"result": null,
+"proc": null,
+"fee": 35000,
+"url": "https://juken.toho-u.ac.jp/exam-info/phar.html",
+"note": "約30名"
+},
+{
+"kubun": "総合型",
+"name": "看護学部 総合入試",
+"apply": "9/21〜10/7（書類10/9必着）",
+"exam": "10/17",
+"result": null,
+"proc": null,
+"fee": 40000,
+"url": "https://juken.toho-u.ac.jp/exam-info/nurs.html",
+"note": "約10名"
+},
+{
+"kubun": "推薦",
+"name": "看護学部 推薦入試（公募制）",
+"apply": "11/1〜11/11（書類11/13必着）",
+"exam": "11/21",
+"result": null,
+"proc": null,
+"fee": 40000,
+"url": "https://juken.toho-u.ac.jp/exam-info/nurs.html",
+"note": "指定校制とあわせて約37名"
+},
+{
+"kubun": "総合型",
+"name": "健康科学部 総合入試",
+"apply": "10/1〜10/9必着",
+"exam": "10/17",
+"result": null,
+"proc": null,
+"fee": 35000,
+"url": "https://juken.toho-u.ac.jp/exam-info/health.html",
+"note": "男子枠は11/1〜11/11出願・11/28試験"
+},
+{
+"kubun": "推薦",
+"name": "健康科学部 推薦入試（公募制）",
+"apply": "11/1〜11/11必着",
+"exam": "11/28",
+"result": null,
+"proc": null,
+"fee": 35000,
+"url": "https://juken.toho-u.ac.jp/exam-info/health.html"
+},
+{
+"kubun": "総合型",
+"name": "医学部 総合入試・推薦入試（公募制 千葉県・新潟県地域枠）",
+"apply": "11/2〜11/11必着",
+"exam": "1次 11/20、2次 12/5",
+"result": null,
+"proc": null,
+"fee": null,
+"url": "https://juken.toho-u.ac.jp/exam-info/med.html",
+"note": "総合約10名、千葉県地域枠3名、新潟県地域枠5名"
+},
 {
 "kubun": "一般",
 "name": "医学部 一般入試（約70名枠）",
@@ -224336,16 +224661,18 @@ null
 "exam": "1次 2/7、2次 2/15または2/16",
 "result": "1次 2/10、2次 2/18",
 "proc": "2/25",
-"fee": null
+"fee": null,
+"url": "https://juken.toho-u.ac.jp/exam-info/med.html"
 },
 {
 "kubun": "一般",
-"name": "医学部（約5名枠）",
+"name": "医学部 統一入試（約5名枠）",
 "apply": "12/14〜2/15必着",
 "exam": "1次 2/23、2次 3/3",
 "result": "1次 2/26、2次 3/4",
 "proc": "3/10",
-"fee": null
+"fee": null,
+"url": "https://juken.toho-u.ac.jp/exam-info/med.html"
 },
 {
 "kubun": "一般",
@@ -224354,7 +224681,8 @@ null
 "exam": "面接 1/26・筆記 2/1（両日受験）",
 "result": "2/10",
 "proc": "2/19",
-"fee": null
+"fee": 35000,
+"url": "https://juken.toho-u.ac.jp/exam-info/health.html"
 },
 {
 "kubun": "共テ利用",
@@ -224363,7 +224691,9 @@ null
 "exam": "1/16・1/17（共通テスト）、1/26",
 "result": "2/10",
 "proc": "2/19",
-"fee": null
+"fee": 17000,
+"url": "https://juken.toho-u.ac.jp/exam-info/health.html",
+"note": "一般・統一入試と同時出願なら10,000円"
 },
 {
 "kubun": "一般",
@@ -224372,7 +224702,8 @@ null
 "exam": "2/23",
 "result": "3/2",
 "proc": "3/10",
-"fee": null
+"fee": 35000,
+"url": "https://juken.toho-u.ac.jp/exam-info/health.html"
 },
 {
 "kubun": "一般",
@@ -224381,7 +224712,9 @@ null
 "exam": "2/1",
 "result": "2/13",
 "proc": "2/25",
-"fee": null
+"fee": 31000,
+"url": "https://juken.toho-u.ac.jp/exam-info/sci.html",
+"note": "2学科目以降は1学科5,000円"
 },
 {
 "kubun": "一般",
@@ -224390,7 +224723,9 @@ null
 "exam": "2/2",
 "result": "2/13",
 "proc": "2/25",
-"fee": null
+"fee": 31000,
+"url": "https://juken.toho-u.ac.jp/exam-info/sci.html",
+"note": "2学科目以降は1学科5,000円"
 },
 {
 "kubun": "共テ利用",
@@ -224399,7 +224734,9 @@ null
 "exam": "1/16・1/17（共通テスト）",
 "result": "2/13",
 "proc": "2/25",
-"fee": null
+"fee": null,
+"url": "https://juken.toho-u.ac.jp/exam-info/sci.html",
+"note": "検定料は出願学科数×11,000円（後期も同じ）"
 },
 {
 "kubun": "共テ利用",
@@ -224408,7 +224745,9 @@ null
 "exam": "共通テスト",
 "result": "3/13",
 "proc": "3/23",
-"fee": null
+"fee": null,
+"url": "https://juken.toho-u.ac.jp/exam-info/sci.html",
+"note": "検定料は出願学科数×11,000円（後期も同じ）"
 },
 {
 "kubun": "一般",
@@ -224417,7 +224756,9 @@ null
 "exam": "2/23",
 "result": "3/2",
 "proc": "3/10",
-"fee": null
+"fee": 31000,
+"url": "https://juken.toho-u.ac.jp/exam-info/sci.html",
+"note": "2学科目以降は1学科5,000円"
 },
 {
 "kubun": "一般",
@@ -224426,7 +224767,8 @@ null
 "exam": "2/3",
 "result": "2/10",
 "proc": "2/17",
-"fee": null
+"fee": 35000,
+"url": "https://juken.toho-u.ac.jp/exam-info/phar.html"
 },
 {
 "kubun": "共テ利用",
@@ -224435,7 +224777,8 @@ null
 "exam": "1/16・1/17（共通テスト）",
 "result": "2/10",
 "proc": "2/17",
-"fee": null
+"fee": 18000,
+"url": "https://juken.toho-u.ac.jp/exam-info/phar.html"
 },
 {
 "kubun": "一般",
@@ -224444,7 +224787,8 @@ null
 "exam": "2/23",
 "result": "3/2",
 "proc": "3/10",
-"fee": null
+"fee": 35000,
+"url": "https://juken.toho-u.ac.jp/exam-info/phar.html"
 },
 {
 "kubun": "一般",
@@ -224453,7 +224797,9 @@ null
 "exam": "1次 2/3、2次 2/6",
 "result": "1次 2/4、2次 2/10",
 "proc": "2/19",
-"fee": null
+"fee": 40000,
+"url": "https://juken.toho-u.ac.jp/exam-info/nurs.html",
+"note": "統一以外を2回受験すると2回目30,000円、3回目20,000円"
 },
 {
 "kubun": "一般",
@@ -224462,10 +224808,11 @@ null
 "exam": "2/23",
 "result": "2/27",
 "proc": "3/8",
-"fee": null
+"fee": 30000,
+"url": "https://juken.toho-u.ac.jp/exam-info/nurs.html"
 }
 ],
-"note": "河合塾 Kei-Net の一般選抜日程で理・薬・看護学部と健康科学部の発表・手続を補った（医学部・健康科学部の試験日は大学公式の2027年度資料と一致）。理学部一般A・B・看護学部の出願締切は消印・必着の別が「登」表記。検定料はKei-Netが2026年度入試の金額のため未記入"
+"note": "2026-11-18 大学公式の受験生サイト（学部別の入試一覧）で一般・共テ利用・統一の出願期間と試験日が既存と一致。年内入試と検定料を追加（合格発表・手続は公式ページに記載がなく既存のまま）"
 },
 "money": {
 "year": "2027年度",
@@ -224526,10 +224873,10 @@ null
 "note": "facilityは施設費（教育充実費50万円を含む）、otherは諸会費。入学時最小限納入金995,370円（一括）"
 }
 ],
-"note": "旺文社パスナビ（2027年度、2026年9月調査時点）。諸会費（保険料を含む委託徴収金）を初年度合計に含む"
+"note": "2026-11-18 大学公式「納付金・奨学金制度」で5学部の初年度の学生納付金・委託徴収金が既存の値と一致"
 },
 "access": "大森キャンパス、習志野キャンパス（最寄り駅未確認）",
-"_via": "external-ai",
+"_via": "external-ai-verified",
 "sources": [
 "https://www.toho-u.ac.jp/",
 "https://www.toho-u.ac.jp/med/info_exam/sum.html",
@@ -224539,8 +224886,91 @@ null
 "https://search.keinet.ne.jp/2264/general/border_rate",
 "https://manabi.benesse.ne.jp/daigaku/school/3295/gakuhi/",
 "https://search.keinet.ne.jp/2264/general/schedule",
-"https://passnavi.obunsha.co.jp/univ/2890/expense/"
-]
+"https://passnavi.obunsha.co.jp/univ/2890/expense/",
+"https://juken.toho-u.ac.jp/exam-info/sci.html",
+"https://juken.toho-u.ac.jp/exam-info/phar.html",
+"https://juken.toho-u.ac.jp/exam-info/nurs.html",
+"https://juken.toho-u.ac.jp/exam-info/health.html",
+"https://juken.toho-u.ac.jp/exam-info/med.html"
+],
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "入学時の教育充実費減免制度",
+"kind": "減免",
+"target": "薬学部",
+"amount": "教育充実費の全額または一部（約50名）",
+"timing": "入試時",
+"cond": "一般入試・共通テスト利用入試など各区分の合格者のうち総合成績が優秀な者"
+},
+{
+"name": "スカラシップ制度",
+"kind": "給付",
+"target": "理学部",
+"amount": "1年次に最高100万円",
+"timing": "入試時",
+"cond": "一般入試（A・B）・共通テスト利用入試の成績優秀者。他の入試区分は入学後に審査を受けられる"
+},
+{
+"name": "授業料減免制度",
+"kind": "減免",
+"target": "看護学部",
+"amount": "初年度授業料の全額（110万円）または半額（10名以内）",
+"timing": "入試時",
+"cond": "一般入試の成績上位者（年内入試の入学予定者も希望により審査可）"
+},
+{
+"name": "入学時納付金の減免制度",
+"kind": "減免",
+"target": "健康科学部",
+"amount": "初年度授業料の全額または一部（6名以内）",
+"timing": "入試時",
+"cond": "一般入試・共通テスト利用入試の合格者上位者"
+},
+{
+"name": "特待生制度（在学生）",
+"kind": "減免",
+"target": "全学部",
+"amount": "医学部は授業料のうち最高100万円、薬・理は授業料全額など、看護・健康科学は授業料半額",
+"timing": "在学中（2年次以降）",
+"cond": "各学部・各学年の成績等による選考"
+},
+{
+"name": "青藍会（父母会）貸与奨学金",
+"kind": "貸与",
+"target": "全学部",
+"amount": "若干名",
+"timing": "在学中",
+"cond": "詳細は青藍会のホームページ"
+},
+{
+"name": "理学部鶴風会（同窓会）給付奨学金",
+"kind": "給付",
+"target": "理学部",
+"amount": "上限100万円（1名）",
+"timing": "在学中",
+"cond": "学資の支弁が困難で成績優秀な者"
+},
+{
+"name": "理学部鶴風会 入学時奨学金",
+"kind": "給付",
+"target": "理学部",
+"amount": "入学金相当額",
+"timing": "入学時",
+"cond": "理学部卒業生の子女・子弟、または在学生の兄弟姉妹"
+},
+{
+"name": "看護同窓会貸与奨学金",
+"kind": "貸与",
+"target": "看護学部・健康科学部",
+"amount": "年60万円（4年限度）",
+"timing": "在学中",
+"cond": "学資の支弁が困難で成績優秀な者"
+}
+],
+"note": "2026-11-18 大学公式「納付金・奨学金制度」"
+}
 },
 "東海大学": {
 "difficulty": {
