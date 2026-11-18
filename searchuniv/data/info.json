@@ -96875,7 +96875,9 @@
 "https://search.keinet.ne.jp/1345/outline/licential",
 "https://search.keinet.ne.jp/1345/outline/expense",
 "https://passnavi.obunsha.co.jp/univ/0690/schedule/",
-"https://search.keinet.ne.jp/1345/outline/admission_employment"
+"https://search.keinet.ne.jp/1345/outline/admission_employment",
+"https://manabi.benesse.ne.jp/daigaku/school/1365/nyushi/index.html",
+"https://search.keinet.ne.jp/1345sp/recommend/exam_rec_sp"
 ],
 "partners": {
 "asof": "2025年5月",
@@ -97024,7 +97026,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-09",
+"schedule": "2026-11-18",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -97263,7 +97265,7 @@
 "exam": "12/5",
 "result": "2/10",
 "proc": "2/17",
-"note": "地域枠は12/5〜12/6"
+"note": "地域枠は12/5〜12/6。医学科学校推薦型Ⅱは志願者が募集人員の概ね4倍を超えると1次選考（書類、発表11/13）"
 },
 {
 "kubun": "推薦",
@@ -97272,9 +97274,19 @@
 "exam": "2/5",
 "result": "2/10",
 "proc": "2/17",
-"note": ""
+"note": "女子枠。Kei-Netは出願締切1/25、マナビジョンは1/19〜1/26（大学の要項で確認）"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型（医学科 緊急医師確保対策枠・一般枠／島根県内枠）",
+"apply": "〜10/5",
+"exam": "12/5",
+"result": "2/10",
+"proc": "2/17",
+"note": "共テあり。事前エントリー（面談）と指定の奨学金の受給手続きが必要（Kei-Net 2027年度入試）"
 }
-]
+],
+"note": "2026-11-18 マナビジョン・Kei-Net（2027年度入試）で前期・後期・総合型・推薦の日程が既存と一致。医学科の緊急医師確保対策枠を追加。大学公式の令和9年度学部募集要項は検索で見つからず"
 },
 "eng": {
 "year": "2027年度入試",
@@ -213093,7 +213105,7 @@ null
 },
 "_checked": {
 "methods": "2026-11-09",
-"schedule": "2026-11-16",
+"schedule": "2026-11-18",
 "_via": "2026-11-09",
 "money": "2026-11-13"
 },
@@ -213107,7 +213119,7 @@ null
 "exam": "9/20",
 "result": "11/2",
 "proc": "11/16",
-"fee": null
+"fee": 30000
 },
 {
 "kubun": "総合型",
@@ -213125,7 +213137,7 @@ null
 "exam": "11/22",
 "result": "12/1",
 "proc": "12/11",
-"fee": null
+"fee": 30000
 },
 {
 "kubun": "推薦",
@@ -213163,7 +213175,8 @@ null
 "exam": "1/16・1/17(個別なし)",
 "result": "2/16",
 "proc": "2/22",
-"fee": null
+"fee": 5000,
+"note": "検定料5,000円。前期・後期とも1回の検定料で学科数の上限なく複数出願可（Kei-Net「一般選抜の特徴」2027年4月入学）"
 },
 {
 "kubun": "共テ利用",
@@ -213172,10 +213185,11 @@ null
 "exam": "1/16・1/17(個別なし)",
 "result": "3/5",
 "proc": "3/18",
-"fee": null
+"fee": 5000,
+"note": "検定料5,000円。前期・後期とも1回の検定料で学科数の上限なく複数出願可（Kei-Net「一般選抜の特徴」2027年4月入学）"
 }
 ],
-"note": "発表・手続・基礎力・一般・共テ利用はマナビジョン（2027年度入試、学部共通）。一般選抜の検定料はKei-Net「一般選抜の特徴」（2027年4月入学）。共テ利用・総合型・推薦の検定料は未確認"
+"note": "発表・手続・基礎力・一般・共テ利用はマナビジョン（2027年度入試、学部共通）。一般選抜・共テ利用・総合型（探究）の検定料はKei-Net「一般選抜の特徴」「総合型選抜の特徴」（2027年4月入学）。総合型（基礎力）・推薦の検定料は記載なし（2026-11-18）"
 },
 "_via": "external-ai",
 "sources": [
@@ -213185,7 +213199,8 @@ null
 "https://search.keinet.ne.jp/2309/general/exam_subject",
 "https://manabi.benesse.ne.jp/daigaku/school/3365/nyushi/gokaku-happyo/index.html",
 "https://search.keinet.ne.jp/2309/outline/expense",
-"https://search.keinet.ne.jp/2309/topics/12"
+"https://search.keinet.ne.jp/2309/topics/12",
+"https://search.keinet.ne.jp/2309/topics/13"
 ],
 "money": {
 "year": "2026年度",
@@ -229459,7 +229474,7 @@ null
 "faculties": "2026-11-09",
 "difficulty": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-14",
+"schedule": "2026-11-18",
 "scholar": "2026-11-09",
 "_via": "2026-11-17",
 "money": "2026-11-17"
@@ -229510,7 +229525,7 @@ null
 },
 "schedule": {
 "year": "2027年度入試",
-"note": "ベネッセ マナビジョン（2027年度入試）。工学部・情報学部で同じ日程。一般選抜の単独出願の検定料は記載なし",
+"note": "ベネッセ マナビジョン（2027年度入試）とKei-Netの日程ページで一致（2026-11-18確認）。工学部・情報学部で同じ日程。一般選抜・共テ利用の単独出願の検定料は2027年度分が未確認（Kei-Netの受験料ページは2026年度のまま）。出典年度未確認の旧「後期日程（専願制）3/22」の行は、両出典とも後期3/12のため削除",
 "rows": [
 {
 "kubun": "一般",
@@ -229587,16 +229602,6 @@ null
 "proc": "11/20／12/17／1/20",
 "fee": 10000,
 "note": "活動記録方式は2/15〜2/26出願・3/2試験・3/5発表・3/15手続の回もあり"
-},
-{
-"kubun": "一般",
-"name": "後期日程（専願制）",
-"apply": null,
-"exam": "3/22",
-"result": null,
-"proc": null,
-"fee": 30000,
-"note": "以前から登録の行（出典の年度未確認）。マナビジョン2027年度の後期は3/12試験"
 }
 ]
 },
@@ -229633,7 +229638,8 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3369/gakuhi/",
 "https://manabi.benesse.ne.jp/daigaku/school/3369/nyushi/index.html",
 "https://www.shonan-it.ac.jp/media/2027_kobo_guide2.pdf",
-"https://www.shonan-it.ac.jp/media/2027_sogo_guide.pdf"
+"https://www.shonan-it.ac.jp/media/2027_sogo_guide.pdf",
+"https://search.keinet.ne.jp/2310/general/schedule"
 ],
 "money": {
 "year": "2027年度",
