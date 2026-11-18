@@ -1,0 +1,665 @@
+[
+ {
+  "name": "清和大学",
+  "info": {
+   "_via_replace": "external-ai-verified",
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅰ期",
+      "apply": "9/1〜9/9（Web）",
+      "exam": "9/27",
+      "result": "11/4",
+      "proc": "11/13",
+      "fee": null,
+      "url": "https://www.seiwa-univ.ac.jp/exam/exam_01.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅱ期",
+      "apply": "9/28〜10/8（Web）",
+      "exam": "10/25",
+      "result": "11/17",
+      "proc": "12/4",
+      "fee": null,
+      "url": "https://www.seiwa-univ.ac.jp/exam/exam_01.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅲ期",
+      "apply": "10/26〜11/5（Web）",
+      "exam": "11/22",
+      "result": "12/1",
+      "proc": "12/18",
+      "fee": null,
+      "url": "https://www.seiwa-univ.ac.jp/exam/exam_01.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅳ期",
+      "apply": "11/19〜12/2（Web）",
+      "exam": "12/6",
+      "result": "12/15",
+      "proc": "1/13",
+      "fee": null,
+      "url": "https://www.seiwa-univ.ac.jp/exam/exam_01.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅴ期",
+      "apply": "1/20〜2/11（Web）",
+      "exam": "2/21",
+      "result": "3/5",
+      "proc": "3/15",
+      "fee": null,
+      "url": "https://www.seiwa-univ.ac.jp/exam/exam_01.html"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募制）",
+      "apply": "11/19〜12/2（Web）",
+      "exam": "12/6",
+      "result": "12/15",
+      "proc": "1/13",
+      "fee": null,
+      "url": "https://www.seiwa-univ.ac.jp/exam/exam_03.html",
+      "note": "評定平均値3.2以上"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 I期",
+      "apply": "1/4〜1/24（Web）",
+      "exam": "2/4",
+      "result": "2/12",
+      "proc": "3/1",
+      "fee": null,
+      "url": "https://www.seiwa-univ.ac.jp/exam/exam_04.html",
+      "note": "英語・国語・公共・小論文から2科目"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 II期",
+      "apply": "2/18〜3/4（Web）",
+      "exam": "3/11",
+      "result": "3/12",
+      "proc": "3/19",
+      "fee": null,
+      "url": "https://www.seiwa-univ.ac.jp/exam/exam_04.html",
+      "note": "英語・国語・公共・小論文から1科目"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 I期",
+      "apply": "12/21〜1/13（Web）",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/19",
+      "proc": "3/5",
+      "fee": null,
+      "url": "https://www.seiwa-univ.ac.jp/exam/exam_05.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 II期",
+      "apply": "1/18〜2/4（Web）",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/19",
+      "proc": "3/5",
+      "fee": null,
+      "url": "https://www.seiwa-univ.ac.jp/exam/exam_05.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 III期",
+      "apply": "2/15〜3/2（Web）",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/12",
+      "proc": "3/19",
+      "fee": null,
+      "url": "https://www.seiwa-univ.ac.jp/exam/exam_05.html"
+     }
+    ],
+    "note": "大学公式の2027年度入試要項ページ（法学部法律学科）で既存の日程と一致。総合型Ⅰ〜Ⅴ期を追加。入学検定料は公式ページに記載がなく未確認"
+   },
+   "methods_replace": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（指定校制・併設校制）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.seiwa-univ.ac.jp/exam/img/2027_application_guidelines.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（Ⅰ〜Ⅴ期・併願可）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "適性検査（模擬講義を受けて250字以内で要約）・個人面接・提出書類",
+      "req": null,
+      "url": "https://www.seiwa-univ.ac.jp/exam/exam_01.html"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募制）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "適性検査（模擬講義の要約）・個人面接・提出書類",
+      "req": "評定平均値3.2以上、学校長の推薦",
+      "url": "https://www.seiwa-univ.ac.jp/exam/exam_03.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 I期",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "英語・国語（古文・漢文を除く）・公共・小論文から2科目選択。英語外部検定の換算得点を利用可",
+      "req": null,
+      "url": "https://www.seiwa-univ.ac.jp/exam/exam_04.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 II期",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "英語・国語・公共・小論文から1科目選択",
+      "req": null,
+      "url": "https://www.seiwa-univ.ac.jp/exam/exam_04.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 I期",
+      "kyotsu": "2教科2科目（国語または外国語の高得点1＋地歴または公民の高得点1、200点）",
+      "niji": "課さない",
+      "content": null,
+      "req": null,
+      "url": "https://www.seiwa-univ.ac.jp/exam/exam_05.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 II期",
+      "kyotsu": "3教科3科目（国語・地歴公民・外国語から2教科を含む。最高点1.5倍・他0.75倍、300点）",
+      "niji": "課さない",
+      "content": null,
+      "req": null,
+      "url": "https://www.seiwa-univ.ac.jp/exam/exam_05.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 III期",
+      "kyotsu": "2教科2科目（国語・地歴公民・外国語から1教科を含む高得点2科目、200点）",
+      "niji": "課さない",
+      "content": null,
+      "req": null,
+      "url": "https://www.seiwa-univ.ac.jp/exam/exam_05.html"
+     }
+    ]
+   },
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "法学部 法律学科",
+      "admission": 300000,
+      "tuition": 600000,
+      "facility": 320000,
+      "practical": 100000,
+      "other": 70000,
+      "first_year": 1390000,
+      "four_year": null,
+      "note": "大学公式の学費ページ（2027年度）。施設費は「維持費」、実習費は「実験実習学生諸費」、その他は後援会費50,000・学友会費20,000。学費小計1,320,000円。2年次以降は年1,020,000円。強化指定運動部はスポーツ振興費40,000円が別に必要"
+     }
+    ]
+   },
+   "sources": [
+    "https://www.seiwa-univ.ac.jp/exam/exam_01.html",
+    "https://www.seiwa-univ.ac.jp/exam/exam_03.html",
+    "https://www.seiwa-univ.ac.jp/exam/exam_04.html",
+    "https://www.seiwa-univ.ac.jp/exam/exam_05.html",
+    "https://www.seiwa-univ.ac.jp/exam/expense.html",
+    "https://www.seiwa-univ.ac.jp/exam/tokutaisei.html"
+   ]
+  }
+ },
+ {
+  "name": "清泉女子大学",
+  "info": {
+   "_via_replace": "external-ai-verified",
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（11月期）基礎学力1教科＜特待＞方式",
+      "apply": "9/11〜11/11",
+      "exam": "11/21",
+      "result": "12/2",
+      "proc": "12/7（入学金）",
+      "fee": null,
+      "url": "https://www.seisen-u.ac.jp/admissions/ao/shogakusei.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期）",
+      "apply": "12/14〜1/19（Web登録）",
+      "exam": "1/28",
+      "result": "2/4",
+      "proc": "2/26",
+      "fee": "35,000円（1領域。併願は1領域ごとに5,000円加算）",
+      "url": "https://www.seisen-u.ac.jp/admissions/general_kyotsu/ippan.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試（中期）",
+      "apply": "1/20〜2/5（Web登録）",
+      "exam": "2/14",
+      "result": "2/19",
+      "proc": "2/26",
+      "fee": "35,000円（1領域。併願は1領域ごとに5,000円加算）",
+      "url": "https://www.seisen-u.ac.jp/admissions/general_kyotsu/ippan.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（後期）",
+      "apply": "1/30〜2/20（Web登録）",
+      "exam": "2/27",
+      "result": "3/4",
+      "proc": "3/11",
+      "fee": "35,000円（1領域。併願は1領域ごとに5,000円加算）",
+      "url": "https://www.seisen-u.ac.jp/admissions/general_kyotsu/ippan.html",
+      "note": "共通テスト1科目／英検／口頭試問のいずれか＋志望理由作文（講義参加型）"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試（前期）",
+      "apply": "12/14〜1/29（Web登録）",
+      "exam": "共通テスト利用（個別試験なし）",
+      "result": "2/12",
+      "proc": "2/26",
+      "fee": "15,000円（1出願。併願は1つごとに5,000円加算）",
+      "url": "https://www.seisen-u.ac.jp/admissions/general_kyotsu/kyotsu.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試（後期）",
+      "apply": "1/30〜3/5（Web登録）",
+      "exam": "共通テスト利用（個別試験なし）",
+      "result": "3/12",
+      "proc": "3/17",
+      "fee": "15,000円（1出願。併願は1つごとに5,000円加算）",
+      "url": "https://www.seisen-u.ac.jp/admissions/general_kyotsu/kyotsu.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "高大接続入試（第1次）",
+      "apply": "12/18〜1/8",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "高大接続入試（第2次）",
+      "apply": "1/9〜3/9",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     }
+    ],
+    "note": "大学公式の2027年度 一般選抜・共通テスト利用入試のページで、既存の出願期間・試験日・合格発表・手続締切（入学金納入）が一致。検定料を追加。総合文化学部・地球市民学部で同じ日程"
+   },
+   "methods_replace": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期：3教科・高得点2教科・英検）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "3教科受験・最高得点教科1.5倍方式／3教科受験・高得点2教科採用方式／英検方式（併願可、オールマークシート）",
+      "req": null,
+      "url": "https://www.seisen-u.ac.jp/admissions/general_kyotsu/ippan.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入試（中期：2教科・英検）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "2教科方式／英検方式（当日は国語1教科のみで受験可）",
+      "req": null,
+      "url": "https://www.seisen-u.ac.jp/admissions/general_kyotsu/ippan.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（後期）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "共通テスト1科目／英検／口頭試問（個人面接）のいずれか＋志望理由作文（講義参加型：講義30分・作文60分）",
+      "req": null,
+      "url": "https://www.seisen-u.ac.jp/admissions/general_kyotsu/ippan.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試（前期・後期：2〜5科目方式）",
+      "kyotsu": "2〜5科目",
+      "niji": "課さない",
+      "content": "2科目（傾斜）・3科目・4科目（傾斜）・5科目型。個別試験なし。英語外部検定の換算点と共テ英語の高い方で判定",
+      "req": null,
+      "url": "https://www.seisen-u.ac.jp/admissions/general_kyotsu/kyotsu.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（11月期）基礎学力1教科＜特待＞方式",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "基礎学力試験1教科（国語〈現代文〉・英語・日本史探究または世界史探究から当日選択）＋個人面接",
+      "req": null,
+      "url": "https://www.seisen-u.ac.jp/admissions/ao/shogakusei.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "高大接続入試（第1次・第2次）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://seisen-u.ac.jp/admissions/ao/kodai.html"
+     }
+    ]
+   },
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "総合文化学部",
+      "admission": 200000,
+      "tuition": 780000,
+      "facility": 390000,
+      "practical": 0,
+      "other": null,
+      "first_year": 1370000,
+      "four_year": 4880000,
+      "note": "大学公式の学費ページ（2027年度入学者）。別に泉会費28,000円（年額）・麗泉会費30,000円（入学時）"
+     },
+     {
+      "f": "地球市民学部",
+      "admission": 200000,
+      "tuition": 830000,
+      "facility": 390000,
+      "practical": 60000,
+      "other": null,
+      "first_year": 1480000,
+      "four_year": 5140000,
+      "note": "大学公式の学費ページ（2027年度入学者）。公式の計1,420,000円は1年次の実習料60,000円を除いた額。別に泉会費28,000円（年額）・麗泉会費30,000円（入学時）"
+     }
+    ]
+   },
+   "scholar_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "総合型選抜（11月期）基礎学力1教科＜特待＞方式 特別奨学生・奨学生",
+      "kind": "減免",
+      "target": "同方式の合格者のうち特待選考で採用された者",
+      "amount": "特別奨学生：授業料・施設費の全額免除／奨学生：授業料・施設費の半額免除（入学金・実習費は対象外）",
+      "timing": "入試時",
+      "cond": "最長4年間。毎年資格を見直し、学業成績不良などで取消",
+      "url": "https://www.seisen-u.ac.jp/admissions/ao/shogakusei.html"
+     }
+    ]
+   },
+   "sources": [
+    "https://www.seisen-u.ac.jp/admissions/general_kyotsu/ippan.html",
+    "https://www.seisen-u.ac.jp/admissions/general_kyotsu/kyotsu.html",
+    "https://www.seisen-u.ac.jp/campuslife/about/expense/",
+    "https://www.seisen-u.ac.jp/admissions/ao/shogakusei.html"
+   ]
+  }
+ },
+ {
+  "name": "SBC東京医療大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型Ⅰ期（基礎力評価型・小論文型）",
+      "apply": "2026/9/1〜9/10（Web）",
+      "exam": "1次9/19・9/20、2次10/16",
+      "result": "1次10/2、2次11/2",
+      "proc": "11/13",
+      "fee": "19,800円",
+      "url": "https://www.sbctmu.ac.jp/assets/admissions/pdf/recruitment_requirements.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型Ⅱ期",
+      "apply": "2026/9/1〜9/24（Web）",
+      "exam": "10/4",
+      "result": "11/2",
+      "proc": "11/13",
+      "fee": "19,800円",
+      "url": "https://www.sbctmu.ac.jp/assets/admissions/pdf/recruitment_requirements.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型Ⅲ期（基礎力評価型）",
+      "apply": "2026/9/24〜10/18（Web）",
+      "exam": "10/25",
+      "result": "11/2",
+      "proc": "11/13",
+      "fee": "19,800円",
+      "url": "https://www.sbctmu.ac.jp/assets/admissions/pdf/recruitment_requirements.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型（指定校・専願）",
+      "apply": "2026/11/1〜11/15（Web）",
+      "exam": "11/22",
+      "result": "12/1",
+      "proc": "12/17",
+      "fee": "19,800円",
+      "url": "https://www.sbctmu.ac.jp/assets/admissions/pdf/recruitment_requirements.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型（公募制・専願／併願）",
+      "apply": "2026/11/1〜11/15（Web）",
+      "exam": "11/22",
+      "result": "12/1",
+      "proc": "12/17",
+      "fee": "19,800円",
+      "url": "https://www.sbctmu.ac.jp/assets/admissions/pdf/recruitment_requirements.pdf"
+     },
+     {
+      "kubun": "その他",
+      "name": "社会人特別選抜（専願）",
+      "apply": "2026/11/1〜11/15（Web）",
+      "exam": "11/22",
+      "result": "12/1",
+      "proc": "12/17",
+      "fee": "19,800円",
+      "url": "https://www.sbctmu.ac.jp/assets/admissions/pdf/recruitment_requirements.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般兼スカラシップ選抜 A日程",
+      "apply": "2026/12/22〜1/21（Web）",
+      "exam": "1/30",
+      "result": "2/8",
+      "proc": "2/17",
+      "note": "2科目型。全学科共通",
+      "fee": "19,800円",
+      "url": "https://www.sbctmu.ac.jp/assets/admissions/pdf/recruitment_requirements.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般兼スカラシップ選抜 B日程",
+      "apply": "2026/12/22〜1/21（Web）",
+      "exam": "1/31",
+      "result": "2/8",
+      "proc": "2/17",
+      "fee": "19,800円",
+      "url": "https://www.sbctmu.ac.jp/assets/admissions/pdf/recruitment_requirements.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型Ⅳ期",
+      "apply": "2027/2/8〜3/2（Web）",
+      "exam": "3/9",
+      "result": "3/12",
+      "proc": "3/18",
+      "fee": "19,800円",
+      "url": "https://www.sbctmu.ac.jp/assets/admissions/pdf/recruitment_requirements.pdf"
+     }
+    ],
+    "note": "大学公式の2027年度入試日程一覧で全日程が一致（2026-11-18確認）。検定料は1日19,800円、一般A・B両日34,800円などの併願割引あり"
+   },
+   "sources": [
+    "https://www.sbctmu.ac.jp/assets/admissions/pdf/recruitment_requirements.pdf"
+   ]
+  }
+ },
+ {
+  "name": "日本国際学園大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "推薦",
+      "name": "公募推薦 1期",
+      "apply": "11/1〜11/5（消印）",
+      "exam": "11/14",
+      "result": "12/1",
+      "proc": "12/17",
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/3110/nyushi/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型 A1期",
+      "apply": null,
+      "exam": null,
+      "result": "11/1",
+      "proc": "11/26",
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/3110/nyushi/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型 A2期",
+      "apply": null,
+      "exam": null,
+      "result": "12/1",
+      "proc": "12/17",
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/3110/nyushi/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型 A3期",
+      "apply": null,
+      "exam": null,
+      "result": "12/21",
+      "proc": "1/21",
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/3110/nyushi/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型 A4期",
+      "apply": null,
+      "exam": null,
+      "result": "2/8",
+      "proc": "2/25",
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/3110/nyushi/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（1期）",
+      "apply": "1/11〜1/21（消印有効）",
+      "exam": "1/30",
+      "result": "2/8",
+      "proc": "2/25",
+      "url": "https://search.keinet.ne.jp/2111/general/schedule",
+      "note": "英語・国語から1科目＋英語資格・検定試験"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型 B4期",
+      "apply": "1/11〜1/21（消印）",
+      "exam": "1/30",
+      "result": "2/8",
+      "proc": "2/25",
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/3110/nyushi/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型 B5期",
+      "apply": "2/1〜2/18（消印）",
+      "exam": "2/27",
+      "result": "3/8",
+      "proc": "3/18",
+      "url": "https://manabi.benesse.ne.jp/daigaku/school/3110/nyushi/"
+     }
+    ],
+    "note": "一般選抜はKei-Net（年度表示なし）とマナビジョン（2027年の日付）で既存と一致、出願開始日を追加。総合型・公募推薦はマナビジョン。総合型A方式の出願期間・試験日は掲載なし。検定料は未確認"
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3110/nyushi/",
+    "https://search.keinet.ne.jp/2111/general/schedule"
+   ]
+  }
+ },
+ {
+  "name": "明治国際医療大学",
+  "story": {
+   "summary": "明治国際医療大学は鍼灸・保健医療（救急救命・柔道整復）・看護・農の4学部をもつ京都府南丹市の大学です。鍼灸学科は3年修了時にはり師・きゅう師の国家試験受験資格が得られ、附属病院と附属鍼灸センターで臨床実習を積みます。卒業後は施術所・病院での勤務や開業のほか、スポーツトレーナーなどへ進みます。",
+   "only": [
+    {
+     "t": "鍼灸学科は、全国の大学で唯一、3年修了時に「はり師・きゅう師」国家試験の受験資格が得られる（大学公式）",
+     "src": "https://www.meiji-u.ac.jp/education/shinkyu/feature/"
+    },
+    {
+     "t": "附属病院の各診療科を少人数で回る実習と、スポーツ障害・めまい・耳鳴などの専門外来をもつ附属鍼灸センターでの臨床実習がある",
+     "src": "https://www.meiji-u.ac.jp/education/shinkyu/feature/"
+    },
+    {
+     "t": "鍼灸学科から本学柔道整復学科への学内編入でダブルライセンスをめざせ、その場合は入学金免除・授業料半額減免になる",
+     "src": "https://www.meiji-u.ac.jp/education/shinkyu/feature/"
+    }
+   ],
+   "vs": [
+    {
+     "u": "東京有明医療大学",
+     "t": "東京有明医療大学でもはり師・きゅう師の国家試験受験資格が得られるが、明治国際医療大学は3年修了時に受験資格を得られる点が異なる",
+     "src": "https://www.meiji-u.ac.jp/education/shinkyu/feature/"
+    }
+   ]
+  }
+ },
+ {
+  "name": "大阪電気通信大学",
+  "story": {
+   "summary": "大阪電気通信大学は工・情報通信工・建築デザイン・健康情報・総合情報の5学部をもち、ロボット・IT・ゲーム・医療工学まで学べる大学です。寝屋川キャンパスで次世代テクノロジー、四條畷キャンパスで医療・健康・スポーツを学び、1年次からロボットづくりなど手を動かす学びがあります。",
+   "only": [
+    {
+     "t": "総合情報学部にデジタルゲーム学科があり、デジタルゲーム・ゲーム＆メディア・ゲーム・社会デザイン（2026年4月開設）の3専攻に分かれる",
+     "src": "https://www.osakac.ac.jp/"
+    },
+    {
+     "t": "学生がロボットづくりに挑戦できる「自由工房」があり、1年生向けの「1Dayミニロボコン」やロボットカー製作の授業がある",
+     "src": "https://www.osakac.ac.jp/"
+    },
+    {
+     "t": "寝屋川キャンパスは次世代テクノロジー、四條畷キャンパスは医療・健康・スポーツ分野の学びが中心",
+     "src": "https://www.osakac.ac.jp/"
+    }
+   ]
+  }
+ }
+]
