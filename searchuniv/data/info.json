@@ -89459,7 +89459,10 @@
 "https://search.keinet.ne.jp/1215/general/exam_subject",
 "https://search.keinet.ne.jp/1215/general/border_rate",
 "https://search.keinet.ne.jp/1215/outline/expense",
-"https://passnavi.obunsha.co.jp/univ/0430/schedule/"
+"https://passnavi.obunsha.co.jp/univ/0430/schedule/",
+"https://search.keinet.ne.jp/recommend/exam_rec/1215",
+"https://search.keinet.ne.jp/1215/recommend/exam_ao",
+"https://manabi.benesse.ne.jp/daigaku/school/1235/nyushi/gokaku-happyo/index.html"
 ],
 "departments": [
 {
@@ -89760,7 +89763,7 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "money": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-18",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06"
@@ -89850,7 +89853,7 @@
 "exam": "2/25",
 "result": "3/6",
 "proc": "3/15",
-"note": "教育・医（看護）・工・生命環境学部（パスナビ 2027年度入試）"
+"note": "教育・医（看護）・工・生命環境学部"
 },
 {
 "kubun": "一般",
@@ -89859,27 +89862,55 @@
 "exam": "3/12",
 "result": "3/20",
 "proc": "3/27",
-"note": "学部により異なる：医学科3/12・3/13、看護学科3/14（パスナビ）"
+"note": "学部により異なる：医学科3/12・3/13、看護学科3/14。工学部は総合工学枠のみ"
 },
 {
 "kubun": "推薦",
-"name": "学校推薦型（共テなし）",
-"apply": "〜11/10（必着）",
+"name": "学校推薦型Ⅰ（共テなし）",
+"apply": "11/2〜11/10（必着）",
 "exam": "11/21",
 "result": "12/4",
 "proc": "2/17",
-"note": "教育・工・生命環境（生命工）・医（看護）。出願期間は締切日のみ掲載"
+"note": "教育・工（一般枠・女子枠）・生命環境（生命工）・医（看護）"
 },
 {
 "kubun": "推薦",
-"name": "学校推薦型（医学科・共テあり）",
-"apply": "〜12/17（必着）",
+"name": "学校推薦型Ⅱ（医学科・共テあり／全国・県内募集枠）",
+"apply": "12/10〜12/17（必着）",
 "exam": "2/8",
 "result": "2/10",
 "proc": "2/17",
 "note": "第1次選抜発表2/5、試験日は第2次"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅰ（工学部・共テなし）",
+"apply": "9/28〜10/5（必着）",
+"exam": "10/17",
+"result": "11/2",
+"proc": "2/17",
+"note": "工学部の7コース"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅱ（工学部・共テあり）",
+"apply": "12/10〜12/17（必着）",
+"exam": "共通テスト",
+"result": "2/10",
+"proc": "2/17",
+"note": "コースにより共テの科目が異なる"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅱ（生命環境学部・共テあり）",
+"apply": "11/2〜11/10（必着）",
+"exam": "11/21",
+"result": "2/10",
+"proc": "2/17",
+"note": "地域食物科学・環境科学・地域社会システム（観光政策科学特別コース含む）。第1次発表12/4"
 }
-]
+],
+"note": "Kei-Net（推薦・総合型、2027年度入試）とマナビジョン（2027年度入試）で確認（2026-11-18）。一般はパスナビ・マナビジョンで既存と一致"
 },
 "eng": {
 "year": "2027年度入試",
@@ -95236,7 +95267,9 @@
 "https://www.shiga-med.ac.jp/admission/undergraduate/schedule-of-examinations",
 "https://search.keinet.ne.jp/1275/outline/licential",
 "https://search.keinet.ne.jp/1275/outline/admission_employment",
-"https://search.keinet.ne.jp/1275/outline/department"
+"https://search.keinet.ne.jp/1275/outline/department",
+"https://search.keinet.ne.jp/recommend/exam_rec/1275",
+"https://telemail.jp/shingaku/university/10003431/examination/general"
 ],
 "departments": [
 {
@@ -95283,7 +95316,7 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-09",
+"schedule": "2026-11-18",
 "money": "2026-11-09",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
@@ -95302,7 +95335,7 @@
 "exam": "12/12",
 "result": "2/9",
 "proc": "2/17",
-"note": "医学科・看護学科共通"
+"note": "医学科・看護学科共通。地元医療枠で不合格の場合は一般枠で判定"
 },
 {
 "kubun": "一般",
@@ -95311,7 +95344,7 @@
 "exam": "2/25・2/26",
 "result": "3/9",
 "proc": "3/15",
-"note": "後期日程は掲載なし。検定料は入試日程ページに記載なし"
+"note": "後期日程は掲載なし。検定料は掲載なし"
 },
 {
 "kubun": "一般",
@@ -95322,7 +95355,8 @@
 "proc": "3/15",
 "note": ""
 }
-]
+],
+"note": "Kei-Net（推薦）とテレメール（一般、2027年度）で既存と一致（2026-11-18）"
 },
 "money": {
 "year": "2026年度",
