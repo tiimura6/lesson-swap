@@ -193768,7 +193768,7 @@ null
 "licenses": "2026-11-08",
 "careers": "2026-11-08",
 "methods": "2026-11-08",
-"schedule": "2026-11-08",
+"schedule": "2026-11-18",
 "money": "2026-11-08"
 },
 "departments": [
@@ -193932,7 +193932,8 @@ null
 "apply": "1/25〜2/3（必着）",
 "exam": "2/25（GM学科）・2/26（食健康・こども学科）",
 "result": "3/5",
-"proc": "3/8〜3/15（必着）"
+"proc": "3/8〜3/15（必着）",
+"url": "https://www.u-nagano.ac.jp/media/2027_yoko_0618.pdf"
 },
 {
 "kubun": "一般",
@@ -193940,7 +193941,8 @@ null
 "apply": "1/25〜2/3（必着）",
 "exam": "3/9（食健康学科。GM学科は個別試験なし）",
 "result": "3/20",
-"proc": "3/23〜3/27（必着）"
+"proc": "3/23〜3/27（必着）",
+"url": "https://www.u-nagano.ac.jp/media/2027_yoko_0618.pdf"
 },
 {
 "kubun": "推薦",
@@ -193948,7 +193950,8 @@ null
 "apply": "2026/11/1〜11/12（必着）",
 "exam": "11/28（GM学科）・11/29（食健康・こども学科）",
 "result": "12/7",
-"proc": "12/8〜12/18（必着）"
+"proc": "12/8〜12/18（必着）",
+"url": "https://www.u-nagano.ac.jp/media/2027_yoko_0618.pdf"
 },
 {
 "kubun": "総合型",
@@ -193956,9 +193959,21 @@ null
 "apply": "2026/9/18〜10/2（必着）",
 "exam": "10/17",
 "result": "11/1",
-"proc": "11/2〜11/13（必着）"
+"proc": "11/2〜11/13（必着）",
+"url": "https://www.u-nagano.ac.jp/media/2027_yoko_0618.pdf"
+},
+{
+"kubun": "その他",
+"name": "特別選抜（社会人・帰国生・私費外国人留学生）",
+"apply": "2026/11/1〜11/12（必着）",
+"exam": "11/28（GM学科）・11/29（食健康・こども学科）",
+"result": "12/7",
+"proc": "12/8〜12/18（必着）",
+"note": "若干名（大学公式 2027年度学生募集要項）",
+"url": "https://www.u-nagano.ac.jp/media/2027_yoko_0618.pdf"
 }
-]
+],
+"note": "2026-11-18 大学公式 2027年度学生募集要項で前期・中期・推薦・総合型の日程が既存と一致。特別選抜を追加"
 },
 "money": {
 "year": "2026年度",
@@ -194181,7 +194196,7 @@ null
 "kyotsu": "2026-11-08",
 "research": "2026-11-08",
 "licenses": "2026-11-08",
-"schedule": "2026-11-08",
+"schedule": "2026-11-18",
 "money": "2026-11-08"
 },
 "faculties": [
@@ -194224,50 +194239,103 @@ null
 "作業療法士（受験資格）"
 ],
 "schedule": {
-"year": "2027年度入試（Kei-Net、ページに年度表示なし）",
+"year": "2027年度入試",
 "rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅰ期",
+"apply": "9/1〜9/14",
+"exam": "9/19",
+"result": "11/2",
+"proc": "11/10",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3113/nyushi/index.html",
+"note": "エントリー方式もあり（エントリー6/1〜6/30・7/1〜7/31、面談7/19・8/23）"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅱ期",
+"apply": "11/16〜12/14",
+"exam": "12/20",
+"result": "12/24",
+"proc": "1/12",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3113/nyushi/index.html"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅲ期",
+"apply": "3/1〜3/15",
+"exam": "3/20",
+"result": "3/24",
+"proc": "3/29",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3113/nyushi/index.html"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型（指定校・公募）A日程",
+"apply": "11/2〜11/10",
+"exam": "11/15",
+"result": "12/1",
+"proc": "12/15",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3113/nyushi/index.html"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型（指定校・公募）B日程",
+"apply": "11/16〜12/14",
+"exam": "12/20",
+"result": "12/24",
+"proc": "1/12",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3113/nyushi/index.html"
+},
 {
 "kubun": "一般",
 "name": "一般 Ⅰ期",
-"apply": "〜1/18（必着）",
+"apply": "1/6〜1/18（必着）",
 "exam": "1/23",
 "result": "2/4",
 "proc": "2/12",
-"note": "両学科共通"
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3113/nyushi/index.html",
+"note": "両学科共通。国語（現代文）・英語・数学から2科目"
 },
 {
 "kubun": "一般",
 "name": "一般 Ⅱ期",
-"apply": "〜2/19（必着）",
+"apply": "1/19〜2/19（必着）",
 "exam": "2/27",
 "result": "3/5",
-"proc": "3/12"
+"proc": "3/12",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3113/nyushi/index.html",
+"note": "国語（現代文）"
 },
 {
 "kubun": "共テ利用",
 "name": "共テ利用 A日程",
-"apply": "〜2/1（必着）",
+"apply": "1/6〜2/1（必着）",
 "exam": "",
 "result": "2/12",
-"proc": "2/19"
+"proc": "2/19",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3113/nyushi/index.html"
 },
 {
 "kubun": "共テ利用",
 "name": "共テ利用 B日程",
-"apply": "〜2/25（必着）",
+"apply": "2/2〜2/25（必着）",
 "exam": "",
 "result": "3/4",
-"proc": "3/11"
+"proc": "3/11",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3113/nyushi/index.html"
 },
 {
 "kubun": "共テ利用",
 "name": "共テ利用 C日程",
-"apply": "〜3/15（必着）",
+"apply": "2/26〜3/15（必着）",
 "exam": "",
 "result": "3/24",
-"proc": "3/29"
+"proc": "3/29",
+"url": "https://manabi.benesse.ne.jp/daigaku/school/3113/nyushi/index.html"
 }
-]
+],
+"note": "2026-11-18 マナビジョン（2027年度入学者対象）で一般・共テ利用の日程が既存（Kei-Net）と一致。出願開始日と総合型・推薦を追加。検定料は記載なし"
 },
 "money": {
 "year": "2026年度",
@@ -194296,7 +194364,8 @@ null
 "https://search.keinet.ne.jp/2115/outline/expense",
 "https://search.keinet.ne.jp/2115/general/exam_subject",
 "https://search.keinet.ne.jp/2115/general/border_rate",
-"https://search.keinet.ne.jp/2115/general/schedule"
+"https://search.keinet.ne.jp/2115/general/schedule",
+"https://manabi.benesse.ne.jp/daigaku/school/3113/nyushi/index.html"
 ]
 },
 "日本国際学園大学": {
@@ -219303,16 +219372,16 @@ null
 "departments": "2026-11-09",
 "difficulty": "2026-11-09",
 "kyotsu": "2026-11-09",
-"methods": "2026-11-09",
+"methods": "2026-11-18",
 "subjects": "2026-11-09",
-"schedule": "2026-11-09",
-"money": "2026-11-13",
+"schedule": "2026-11-18",
+"money": "2026-11-18",
 "scholar": "2026-11-09",
 "eng": "2026-11-09",
 "oc": "2026-11-09",
 "access": "2026-11-09",
 "licenses": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-18"
 },
 "departments": [
 {
@@ -219350,15 +219419,15 @@ null
 "kubun": "一般",
 "name": "一般選抜（Ⅰ期・Ⅱ期・Ⅲ期）",
 "kyotsu": "課さない",
-"niji": "学力試験2教科（200点）＋面接（看護10点・リハ20点・薬なし）",
-"content": null,
+"niji": "学力試験2科目200点（各60分）。保健医療学部：国語（古文・漢文除く）・数学Ⅰ・英語・生物基礎から2科目選択。薬学部：化学基礎・化学必須＋数学（Ⅰ・Ⅱ・A・B）または英語",
+"content": "保健医療学部は面接（看護10点・リハ20点）と書類審査10点を加える",
 "req": null,
 "url": "https://sums.ac.jp/examinee-support/admission/"
 },
 {
 "kubun": "共テ利用",
 "name": "共通テスト利用選抜（Ⅰ期・Ⅱ期）",
-"kyotsu": "1〜2教科2科目",
+"kyotsu": "200点。保健医療学部：国語（近代以降の文章）・数学①・英語リーディング・理科から高得点2科目。薬学部：化学必須＋数学①・数学②・英語リーディング・理科（物理または生物）から高得点1科目",
 "niji": "課さない",
 "content": null,
 "req": null,
@@ -219366,30 +219435,48 @@ null
 },
 {
 "kubun": "総合型",
-"name": "総合型選抜（Ⅲ期等）",
+"name": "総合型選抜（Ⅰ〜Ⅲ期）",
 "kyotsu": "課さない",
-"niji": null,
-"content": null,
+"niji": "課題文型小論文（保健医療50点・薬30点、600字程度60分）・面接（看護30・リハ50・薬10点）",
+"content": "書類審査（看護20・リハ30・薬30点）",
 "req": null,
-"url": "https://sums.ac.jp/examinee-support/"
+"url": "https://sums.ac.jp/examinee-support/admission/"
 },
 {
 "kubun": "推薦",
-"name": "学校推薦型選抜（特定地域指定型Ⅰ期・Ⅱ期）",
+"name": "学校推薦型選抜（一般公募型・離島過疎地域型）",
 "kyotsu": "課さない",
-"niji": null,
-"content": "小論文、面接",
-"req": null,
-"url": "https://sums.ac.jp/examinee-support/information/info_20260717-02.html"
-},
-{
-"kubun": "推薦",
-"name": "学校推薦型選抜（離島・過疎地域型Ⅰ期・Ⅱ期）",
-"kyotsu": "課さない",
-"niji": null,
-"content": "小論文、面接",
+"niji": "小論文（保健医療50点・薬30点）・面接（看護30・リハ50・薬10点）",
+"content": "書類審査（看護20・リハ40・薬30点）",
 "req": null,
 "url": "https://sums.ac.jp/examinee-support/information/info_20260717-01.html"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（指定校型）",
+"kyotsu": "課さない",
+"niji": "面接（看護30・リハ50・薬10点）",
+"content": "書類審査（看護20・リハ40・薬30点）",
+"req": null,
+"url": "https://sums.ac.jp/examinee-support/admission/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（ふれあいグループ特別推薦・看護学科のみ）",
+"kyotsu": "課さない",
+"niji": "面接30点",
+"content": "書類審査20点。合格者は在学4年間グループ医療施設から奨学金が貸与され辞退不可",
+"req": null,
+"url": "https://sums.ac.jp/examinee-support/download/school-admissions-notes2027.pdf"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（特定地域指定型・薬学部のみ）",
+"kyotsu": "課さない",
+"niji": "小論文30点・面接10点",
+"content": "書類審査30点",
+"req": null,
+"url": "https://sums.ac.jp/examinee-support/information/info_20260717-02.html"
 }
 ]
 },
@@ -219448,30 +219535,65 @@ null
 "rows": [
 {
 "kubun": "総合型",
+"name": "総合型選抜Ⅰ期",
+"apply": "9/1〜9/25",
+"exam": "10/4",
+"result": "11/1",
+"proc": "11/17",
+"fee": 30000,
+"url": "https://sums.ac.jp/examinee-support/download/information20260601.pdf"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅱ期",
+"apply": "10/1〜10/16",
+"exam": "10/25",
+"result": "11/1",
+"proc": "11/17",
+"fee": 30000,
+"url": "https://sums.ac.jp/examinee-support/download/information20260601.pdf"
+},
+{
+"kubun": "総合型",
 "name": "総合型選抜Ⅲ期",
 "apply": "10/26〜11/9",
 "exam": "11/15",
 "result": "11/18",
-"proc": null,
-"fee": null
+"proc": "12/1",
+"fee": 30000,
+"url": "https://sums.ac.jp/examinee-support/download/information20260601.pdf"
 },
 {
 "kubun": "推薦",
-"name": "学校推薦型選抜Ⅰ期（特定地域指定型・離島過疎地域型）",
+"name": "学校推薦型選抜Ⅰ期（一般公募・離島過疎地域型・特定地域指定型）",
 "apply": "11/1〜11/9",
 "exam": "11/15",
 "result": "12/2",
 "proc": "12/15",
-"fee": null
+"fee": 30000,
+"url": "https://sums.ac.jp/examinee-support/download/information20260601.pdf",
+"note": "特定地域指定型は薬学部のみ"
 },
 {
 "kubun": "推薦",
-"name": "学校推薦型選抜Ⅱ期（特定地域指定型・離島過疎地域型）",
+"name": "学校推薦型選抜Ⅰ期（指定校・ふれあいグループ特別推薦）",
+"apply": "11/1〜11/13",
+"exam": "11/22",
+"result": "12/2",
+"proc": "12/15",
+"fee": 30000,
+"url": "https://sums.ac.jp/examinee-support/download/information20260601.pdf",
+"note": "ふれあいグループ特別推薦は看護学科のみ"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜Ⅱ期（一般公募・指定校・離島過疎地域型・特定地域指定型）",
 "apply": "12/1〜12/11",
 "exam": "12/20",
 "result": "12/23",
 "proc": "1/5",
-"fee": null
+"fee": 30000,
+"url": "https://sums.ac.jp/examinee-support/download/information20260601.pdf"
 },
 {
 "kubun": "一般",
@@ -219480,7 +219602,9 @@ null
 "exam": "1/30・1/31・2/1（2/1は薬学部のみ）",
 "result": "2/3",
 "proc": "2/26",
-"fee": null
+"fee": 30000,
+"url": "https://sums.ac.jp/examinee-support/download/information20260601.pdf",
+"note": "複数日受験は40,000円"
 },
 {
 "kubun": "一般",
@@ -219489,16 +219613,19 @@ null
 "exam": "2/27・2/28（2/28は薬学部のみ）",
 "result": "3/3",
 "proc": "3/16",
-"fee": null
+"fee": 30000,
+"url": "https://sums.ac.jp/examinee-support/download/information20260601.pdf",
+"note": "複数日受験は40,000円"
 },
 {
 "kubun": "一般",
-"name": "一般選抜Ⅲ期（リハビリテーション・薬学部のみ）",
+"name": "一般選抜Ⅲ期（リハビリテーション学科・薬学部のみ）",
 "apply": "2/22〜3/5",
 "exam": "3/14",
 "result": "3/17",
 "proc": "3/26",
-"fee": null
+"fee": 30000,
+"url": "https://sums.ac.jp/examinee-support/download/information20260601.pdf"
 },
 {
 "kubun": "共テ利用",
@@ -219507,7 +219634,9 @@ null
 "exam": "1/16・1/17（共通テスト）",
 "result": "2/10",
 "proc": "3/2",
-"fee": null
+"fee": 20000,
+"url": "https://sums.ac.jp/examinee-support/download/information20260601.pdf",
+"note": "本学独自試験なし"
 },
 {
 "kubun": "共テ利用",
@@ -219516,45 +219645,48 @@ null
 "exam": "1/16・1/17（共通テスト）",
 "result": "2/24",
 "proc": "3/16",
-"fee": null
+"fee": 20000,
+"url": "https://sums.ac.jp/examinee-support/download/information20260601.pdf",
+"note": "本学独自試験なし"
 }
-]
+],
+"note": "2026-11-18 大学公式「2027年度湘南医療大学入学試験一覧」と2027年度学生募集要項で確認。既存の日程は一致、総合型Ⅰ・Ⅱ期、推薦（指定校・ふれあいグループ特別推薦・一般公募）、検定料を追加。出願は最終日消印有効"
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
-{
-"f": "薬学部 医療薬学科",
-"admission": 330000,
-"tuition": 1300000,
-"facility": null,
-"practical": null,
-"other": null,
-"first_year": 2020000,
-"four_year": null,
-"note": "マナビジョン（2026年度入学者）：入学金33万＋授業料・施設設備費（看護・リハは実験実習費を含む）の合計のみ。諸会費などは記載なし"
-},
 {
 "f": "保健医療学部 看護学科",
 "admission": 330000,
-"tuition": null,
-"facility": null,
-"practical": null,
+"tuition": 980000,
+"facility": 300000,
+"practical": 100000,
 "other": null,
 "first_year": 1710000,
 "four_year": null,
-"note": "マナビジョン（2026年度入学者）：入学金33万＋授業料・施設設備費（看護・リハは実験実習費を含む）の合計のみ。諸会費などは記載なし"
+"note": "大学公式 2027年度学生募集要項。入学手続時（前期）納入額×2＋入学金で計算し、マナビジョン（2026年度入学者）の初年度合計と一致。教科書・白衣・保険料は別途。諸会費の記載なし。2年次以降は年1,630,000円"
 },
 {
 "f": "保健医療学部 リハビリテーション学科（理学療法学専攻・作業療法学専攻）",
 "admission": 330000,
-"tuition": null,
-"facility": null,
-"practical": null,
+"tuition": 980000,
+"facility": 350000,
+"practical": 100000,
 "other": null,
 "first_year": 1760000,
 "four_year": null,
-"note": "マナビジョン（2026年度入学者）：入学金33万＋授業料・施設設備費（看護・リハは実験実習費を含む）の合計のみ。諸会費などは記載なし"
+"note": "大学公式 2027年度学生募集要項。入学手続時（前期）納入額×2＋入学金で計算し、マナビジョン（2026年度入学者）の初年度合計と一致。教科書・白衣・保険料は別途。諸会費の記載なし。2年次以降は年1,680,000円"
+},
+{
+"f": "薬学部 医療薬学科",
+"admission": 330000,
+"tuition": 1300000,
+"facility": 390000,
+"practical": 0,
+"other": null,
+"first_year": 2020000,
+"four_year": null,
+"note": "大学公式 2027年度学生募集要項。入学手続時（前期）納入額×2＋入学金で計算し、マナビジョン（2026年度入学者）の初年度合計と一致。教科書・白衣・保険料は別途。諸会費の記載なし。実験実習費の記載なし。2年次以降は年1,690,000円"
 }
 ]
 },
@@ -219602,7 +219734,7 @@ null
 "理学療法士（保健医療学部 リハビリテーション学科 理学療法学専攻）",
 "作業療法士（保健医療学部 リハビリテーション学科 作業療法学専攻）"
 ],
-"_via": "external-ai",
+"_via": "external-ai-verified",
 "sources": [
 "https://sums.ac.jp/",
 "https://sums.ac.jp/examinee-support/",
@@ -219617,7 +219749,9 @@ null
 "https://passnavi.obunsha.co.jp/univ/3283/subject/",
 "https://passnavi.obunsha.co.jp/univ/3283/eiken/",
 "https://manabi.benesse.ne.jp/daigaku/school/3385/gakuhi/index.html",
-"https://passnavi.obunsha.co.jp/univ/3283/schedule/?facultyID=005"
+"https://passnavi.obunsha.co.jp/univ/3283/schedule/?facultyID=005",
+"https://sums.ac.jp/examinee-support/download/youkou_all_2027.pdf",
+"https://sums.ac.jp/examinee-support/download/information20260601.pdf"
 ]
 },
 "清泉女子大学": {
@@ -220833,15 +220967,15 @@ null
 "departments": "2026-11-09",
 "difficulty": "2026-11-09",
 "kyotsu": "2026-11-09",
-"methods": "2026-11-09",
+"methods": "2026-11-18",
 "subjects": "2026-11-09",
-"schedule": "2026-11-13",
-"money": "2026-11-13",
-"scholar": "2026-11-09",
+"schedule": "2026-11-18",
+"money": "2026-11-18",
+"scholar": "2026-11-18",
 "oc": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-18"
 },
 "departments": [
 {
@@ -220881,10 +221015,10 @@ null
 "kubun": "一般",
 "name": "一般選抜",
 "kyotsu": "課さない",
-"niji": null,
-"content": null,
+"niji": "英語100点（英語コミュニケーションⅠ・Ⅱ、論理・表現Ⅰ）・国語100点（現代の国語、言語文化〈古文・漢文を除く〉、一部記述式）",
+"content": "英語外部検定はCEFR B2以上100点・B1 85点・A2 70点に換算し、本学英語の得点と比べて高い方を採用（2024/4/1以降の受験結果）",
 "req": "2/4・2/5の両日受験可能（2日間受験でも検定料30,000円）",
-"url": "https://www.edogawa-u.ac.jp/jukensei/nyuushi/index.html"
+"url": "https://www.edogawa-u.ac.jp/img/media/33769.pdf"
 },
 {
 "kubun": "共テ利用",
@@ -220939,7 +221073,8 @@ null
 "exam": "9/26・9/30・10/3・10/7・10/10・10/17から選択",
 "result": "11/1",
 "proc": "11/5〜11/13",
-"fee": 30000
+"fee": 30000,
+"url": "https://www.edogawa-u.ac.jp/img/media/33769.pdf"
 },
 {
 "kubun": "総合型",
@@ -220948,7 +221083,8 @@ null
 "exam": "11/28・12/5から選択",
 "result": "12/16",
 "proc": "12/16〜1/6",
-"fee": 30000
+"fee": 30000,
+"url": "https://www.edogawa-u.ac.jp/img/media/33769.pdf"
 },
 {
 "kubun": "総合型",
@@ -220957,7 +221093,8 @@ null
 "exam": "2/20・2/27から選択",
 "result": "3/9",
 "proc": "3/9〜3/12",
-"fee": 30000
+"fee": 30000,
+"url": "https://www.edogawa-u.ac.jp/img/media/33769.pdf"
 },
 {
 "kubun": "推薦",
@@ -220966,7 +221103,8 @@ null
 "exam": "11/21",
 "result": "12/1",
 "proc": "12/1〜12/9",
-"fee": 30000
+"fee": 30000,
+"url": "https://www.edogawa-u.ac.jp/img/media/33769.pdf"
 },
 {
 "kubun": "推薦",
@@ -220975,7 +221113,8 @@ null
 "exam": "12/12",
 "result": "12/16",
 "proc": "12/16〜1/6",
-"fee": 30000
+"fee": 30000,
+"url": "https://www.edogawa-u.ac.jp/img/media/33769.pdf"
 },
 {
 "kubun": "一般",
@@ -220984,7 +221123,8 @@ null
 "exam": "2/4または2/5（選択）",
 "result": "2/12",
 "proc": "2/12〜2/18",
-"fee": 30000
+"fee": 30000,
+"url": "https://www.edogawa-u.ac.jp/img/media/33769.pdf"
 },
 {
 "kubun": "一般",
@@ -220993,7 +221133,8 @@ null
 "exam": "2/19",
 "result": "2/25",
 "proc": "2/25〜3/2",
-"fee": 30000
+"fee": 30000,
+"url": "https://www.edogawa-u.ac.jp/img/media/33769.pdf"
 },
 {
 "kubun": "一般",
@@ -221002,7 +221143,8 @@ null
 "exam": "3/5",
 "result": "3/9",
 "proc": "3/9〜3/12",
-"fee": 30000
+"fee": 30000,
+"url": "https://www.edogawa-u.ac.jp/img/media/33769.pdf"
 },
 {
 "kubun": "共テ利用",
@@ -221012,7 +221154,8 @@ null
 "result": "2/12",
 "proc": "2/12〜2/18",
 "fee": 10000,
-"note": "1学科10,000円・複数学科15,000円"
+"note": "1学科10,000円・複数学科15,000円",
+"url": "https://www.edogawa-u.ac.jp/img/media/33769.pdf"
 },
 {
 "kubun": "共テ利用",
@@ -221022,7 +221165,8 @@ null
 "result": "2/25",
 "proc": "2/25〜3/2",
 "fee": 10000,
-"note": "1学科10,000円・複数学科15,000円"
+"note": "1学科10,000円・複数学科15,000円",
+"url": "https://www.edogawa-u.ac.jp/img/media/33769.pdf"
 },
 {
 "kubun": "共テ利用",
@@ -221032,10 +221176,11 @@ null
 "result": "3/9",
 "proc": "3/9〜3/12",
 "fee": 10000,
-"note": "1学科10,000円・複数学科15,000円"
+"note": "1学科10,000円・複数学科15,000円",
+"url": "https://www.edogawa-u.ac.jp/img/media/33769.pdf"
 }
 ],
-"note": "江戸川大学 2027年度学生募集要項（公式）。一般・共テ利用の日程はテレメール（2027年度）とも一致"
+"note": "2026-11-18 大学公式「2027年度 学生募集要項」で出願期間・試験日・検定料（一般30,000円／共テ利用1学科10,000円・複数学科15,000円）が既存と一致"
 },
 "money": {
 "year": "2027年度",
@@ -221049,7 +221194,7 @@ null
 "other": 29000,
 "first_year": 1449000,
 "four_year": null,
-"note": "パスナビ（2026年9月調査、2027年度入学者用）。facility は教育充実費、other は諸会費。一括/延納"
+"note": "大学公式 2027年度学生募集要項で一致（授業料700,000・教育充実費460,000、学友会費3,000＋入会金1,000、後援会費20,000＋入会金5,000）。パスナビ（2027年度入学者用）とも一致"
 },
 {
 "f": "メディアコミュニケーション学部（マス・コミュニケーション・情報文化）",
@@ -221060,7 +221205,7 @@ null
 "other": 29000,
 "first_year": 1449000,
 "four_year": null,
-"note": "パスナビ（2026年9月調査、2027年度入学者用）"
+"note": "大学公式 2027年度学生募集要項で一致（授業料700,000・教育充実費460,000、学友会費3,000＋入会金1,000、後援会費20,000＋入会金5,000）。パスナビ（2027年度入学者用）とも一致"
 },
 {
 "f": "メディアコミュニケーション学部 こどもコミュニケーション学科",
@@ -221071,7 +221216,7 @@ null
 "other": 29000,
 "first_year": 1459000,
 "four_year": null,
-"note": "パスナビ（2026年9月調査、2027年度入学者用）"
+"note": "大学公式 2027年度学生募集要項で一致（授業料700,000・教育充実費460,000、学友会費3,000＋入会金1,000、後援会費20,000＋入会金5,000）。パスナビ（2027年度入学者用）とも一致"
 }
 ]
 },
@@ -221089,18 +221234,27 @@ null
 {
 "name": "大学入学共通テスト利用選抜1期 特待生制度",
 "kind": "減免",
-"target": "共テ利用選抜1期の特に優秀な合格者",
-"amount": "初年次学費最大1,160,000円免除",
+"target": "共テ利用選抜1期の受験者のうち英語・国語・高得点1科目の合計上位13名",
+"amount": "A特待生（5名）初年次学費1,160,000円免除／B特待生（8名）580,000円減免",
 "timing": "入試時",
 "cond": "共テ利用選抜1期を受験し特に優れた成績を修めること"
 },
 {
-"name": "GSP留学奨励資格特待生制度",
+"name": "一般選抜特待生",
 "kind": "減免",
-"target": "GSP参加希望者で入学手続時に英検2級以上取得申請者",
-"amount": "初年次学費350,000円減免＋夏季海外研修1つ費用免除",
+"target": "一般選抜1期1日目の受験者のうち英語・国語の合計上位13名",
+"amount": "A特待生（5名）初年次学費1,160,000円免除／B特待生（8名）580,000円減免",
 "timing": "入試時",
-"cond": "他の学費減免・奨学金との併用不可"
+"cond": "一般選抜1期1日目を受験"
+},
+{
+"name": "江戸川大学特待生（英語検定）",
+"kind": "減免",
+"target": "CEFR B1以上の英語検定結果をもつ入学者",
+"amount": "初年次学費350,000円、または1年次の夏季海外研修費用（17万〜60万円）のいずれか1つを免除",
+"timing": "入試時",
+"cond": "申請期間2027/2/27〜3/25",
+"src": "https://www.edogawa-u.ac.jp/img/media/33769.pdf"
 },
 {
 "name": "GSP海外留学特別奨学制度",
@@ -221133,6 +221287,14 @@ null
 "amount": "600,000円（無利子）",
 "timing": "在学中",
 "cond": "GPA2.4以上、在学中2回まで、卒業後半年賦で4年間返還（2021年掲載記事参照）"
+},
+{
+"name": "卒業生の子・在学生や卒業生の兄弟姉妹の減免",
+"kind": "減免",
+"target": "本学卒業生の子、在学生・卒業生の兄弟姉妹",
+"amount": "入学金260,000円全額免除、学費を年間365,000円ずつ入学後4年間減免",
+"timing": "入試時",
+"cond": "本学独自の奨学金や他の減免との併用不可"
 }
 ]
 },
@@ -221157,7 +221319,7 @@ null
 "保育士資格（こどもコミュニケーション学科）"
 ],
 "careers": "認定こども園・保育所・幼稚園、医療・福祉・心理関連施設、一般企業、公務員（柏市・千葉県警察・警視庁等）などへ就職している。",
-"_via": "external-ai",
+"_via": "external-ai-verified",
 "sources": [
 "https://www.edogawa-u.ac.jp/jukensei/nyuushi/index.html",
 "https://www.edogawa-u.ac.jp/jukensei/nyuushi/highschool/kyoutu.html",
