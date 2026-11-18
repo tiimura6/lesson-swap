@@ -77546,7 +77546,9 @@
 "https://manabi.benesse.ne.jp/daigaku/school/2129/nyushi/seisankankyou/",
 "https://search.keinet.ne.jp/1572/general/exam_fee",
 "https://passnavi.obunsha.co.jp/univ/9101/department/",
-"https://passnavi.obunsha.co.jp/univ/9101/eiken/"
+"https://passnavi.obunsha.co.jp/univ/9101/eiken/",
+"https://telemail.jp/shingaku/university/10011435/examination/general",
+"https://telemail.jp/shingaku/university/10011435/examination/recommendation"
 ],
 "kyotsu": {
 "kamoku": "3教科3科目（英・数・理）",
@@ -77624,7 +77626,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-08",
+"schedule": "2026-11-18",
 "money": "2026-11-08",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -77646,28 +77648,31 @@
 "note": "二次偏差値は「-」。学部学科ランク（高1・2向け）の偏差値は40.0"
 },
 "schedule": {
-"year": "2027年度入試（ベネッセ マナビジョン掲載）",
+"year": "2027年度入試",
 "rows": [
 {
 "kubun": "推薦",
 "name": "学校推薦型 学校長推薦",
-"apply": "2026/11/2〜11/10",
+"apply": "11/2〜11/10必着",
 "exam": "11/21",
 "result": "12/4",
 "proc": "1/26",
-"note": "生産環境経営学部"
+"note": "生産環境経営学部。現役・専願、評定平均3.8以上、1校3人まで。手続締切は第1次",
+"url": "https://telemail.jp/shingaku/university/10011435/examination/recommendation"
 },
 {
 "kubun": "一般",
 "name": "一般 前期",
-"apply": "1/25〜2/3",
-"exam": "2/25",
+"apply": "1/25〜2/3必着",
+"exam": "2/25（受験者が多い場合は2/26も実施・試験日指定）",
 "result": "3/5",
 "proc": "3/15",
 "fee": 17000,
-"note": "検定料はKei-Netの2026年度入試の額"
+"note": "検定料はKei-Netの2026年度入試の額。手続締切は第1次",
+"url": "https://telemail.jp/shingaku/university/10011435/examination/general"
 }
-]
+],
+"note": "2026-11-18 テレメール（2027年度入学、2026/9/17時点）でマナビジョン掲載の日程と一致を確認。大学公式要項は未確認"
 },
 "money": {
 "year": "2026年度",
@@ -223544,11 +223549,11 @@ null
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
 "schedule": "2026-11-14",
-"money": "2026-11-13",
+"money": "2026-11-18",
 "scholar": "2026-11-09",
 "oc": "2026-11-09",
 "access": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-18"
 },
 "departments": [
 {
@@ -223596,10 +223601,11 @@ null
 "kubun": "一般",
 "name": "一般選抜（Ⅰ期ほか）",
 "kyotsu": "課さない",
-"niji": null,
+"niji": "学力試験（多肢選択方式）2科目：文系（国語〈現代の国語・言語文化、古文・漢文を除く〉・英語〈英語コミュニケーションⅠ・Ⅱ、論理・表現Ⅰ〉から1）＋理系（数学I・A・生物基礎・化学基礎・物理基礎から1）",
 "content": null,
 "req": null,
-"url": "https://www.tohto.ac.jp/admissions/about/payment/ikuei/"
+"note": "Ⅰ期1/28・Ⅱ期2/13・Ⅲ期3/8。全学部全学科で実施（深谷・幕張・沼津）。配点は公式ページに記載なし",
+"url": "https://www.tohto.ac.jp/admissions/about/outline/general/"
 },
 {
 "kubun": "共テ利用",
@@ -223619,7 +223625,8 @@ null
 "req": null,
 "url": "https://www.tohto.ac.jp/admissions/about/outline/ao/"
 }
-]
+],
+"note": "2026-11-18 大学公式の一般選抜ページ（令和9年度）で日程（Web出願ガイドと一致）と試験科目を確認。"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -223764,7 +223771,8 @@ null
 "practical": 100000,
 "other": 9370,
 "first_year": 1459370,
-"four_year": null
+"four_year": 5079370,
+"note": "大学公式の学費ページで確認（1年次：入学金250,000円・授業料800,000円・施設費300,000円・実験実習費100,000円・災害保険料5,370円・学生会費4,000円。4年次に同窓会費20,000円。教科書・資格対策費は別）。入学年度の記載なし"
 },
 {
 "f": "幕張ヒューマンケア学部 看護学科",
@@ -223827,7 +223835,7 @@ null
 "four_year": null
 }
 ],
-"note": "ベネッセ マナビジョン（2026年度予定の初年度納入金、施設費・実習費を含む合計のみ）で、ヒューマンケア学部・沼津ヒューマンケア学部の看護学科の初年度合計を記入。内訳と管理栄養学科は出典に掲載なし"
+"note": "ベネッセ マナビジョン（2026年度予定の初年度納入金、施設費・実習費を含む合計のみ）で、ヒューマンケア学部・沼津ヒューマンケア学部の看護学科の初年度合計を記入。内訳と管理栄養学科は出典に掲載なし／健康科学科は2026-11-18 大学公式の学費ページで内訳・4年間合計を確認"
 },
 "scholar": {
 "year": "2027年度",
@@ -223862,7 +223870,7 @@ null
 "url": "https://www.tohto.ac.jp/news/5062/"
 },
 "access": "幕張キャンパス1・2号館（JR京葉線・武蔵野線「海浜幕張駅」徒歩6〜8分、JR「幕張駅」・京成「京成幕張駅」等からバス）、深谷キャンパス、沼津キャンパス",
-"_via": "external-ai",
+"_via": "external-ai-verified",
 "sources": [
 "https://www.tohto.ac.jp/",
 "https://www.tohto.ac.jp/admissions/about/outline/ao/",
@@ -223878,7 +223886,9 @@ null
 "https://search.keinet.ne.jp/2142/outline/expense",
 "https://passnavi.obunsha.co.jp/univ/2035/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3173/gakuhi/",
-"https://www.tohto.ac.jp/admissions/wp-content/uploads/sites/5/2026/06/R9年度Web出願ガイド.pdf"
+"https://www.tohto.ac.jp/admissions/wp-content/uploads/sites/5/2026/06/R9年度Web出願ガイド.pdf",
+"https://www.tohto.ac.jp/admissions/about/outline/general/",
+"https://www.tohto.ac.jp/admissions/about/payment/healthscience/"
 ]
 },
 "東邦音楽大学": {
