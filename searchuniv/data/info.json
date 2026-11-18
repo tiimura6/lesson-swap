@@ -86307,7 +86307,9 @@
 "https://passnavi.obunsha.co.jp/univ/0060/schedule/",
 "https://search.keinet.ne.jp/1005/outline/expense",
 "https://passnavi.obunsha.co.jp/univ/0060/shinro/",
-"https://search.keinet.ne.jp/1005/general/exam_subject"
+"https://search.keinet.ne.jp/1005/general/exam_subject",
+"https://www.asahikawa-med.ac.jp/uploads/files/admission/bureau/nyusi/contents/pdf/selection_requirement2027.pdf",
+"https://www.asahikawa-med.ac.jp/admission/exam/faculty_schedule/"
 ],
 "departments": [
 {
@@ -86348,7 +86350,7 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "money": "2026-11-08",
-"schedule": "2026-11-08",
+"schedule": "2026-11-18",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -86381,22 +86383,34 @@
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "総合型",
+"name": "総合型選抜（医学科 北海道特別選抜）",
+"apply": "9/25〜10/1",
+"exam": "10/24",
+"result": "2/10",
+"proc": "",
+"note": "必着。募集40名。手続締切は未掲載（大学公式 令和9年度入学者選抜要項）",
+"url": "https://www.asahikawa-med.ac.jp/uploads/files/admission/bureau/nyusi/contents/pdf/selection_requirement2027.pdf"
+},
+{
 "kubun": "推薦",
 "name": "学校推薦型（医学科 道北・道東特別・共テあり）",
-"apply": "〜11/10（必着）",
+"apply": "11/4〜11/10",
 "exam": "11/28",
 "result": "2/10",
 "proc": "2/17",
-"note": "出願期間は締切日のみ掲載"
+"note": "必着（大学公式 令和9年度入学者選抜要項）",
+"url": "https://www.asahikawa-med.ac.jp/uploads/files/admission/bureau/nyusi/contents/pdf/selection_requirement2027.pdf"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型（看護学科・共テなし）",
-"apply": "〜11/10（必着）",
+"apply": "11/4〜11/10",
 "exam": "11/28",
 "result": "12/17",
 "proc": "12/23",
-"note": ""
+"note": "必着（大学公式 令和9年度入学者選抜要項）",
+"url": "https://www.asahikawa-med.ac.jp/uploads/files/admission/bureau/nyusi/contents/pdf/selection_requirement2027.pdf"
 },
 {
 "kubun": "一般",
@@ -86405,7 +86419,8 @@
 "exam": "2/25",
 "result": "3/8",
 "proc": "",
-"note": "医学科は2/25・2/26、看護学科は2/25。手続締切は未掲載（パスナビ 2027年度入試）"
+"note": "医学科は2/25・2/26、看護学科は2/25。手続締切は未掲載（大学公式 令和9年度入学者選抜要項・入試日程と一致。手続締切は一般選抜募集要項で確認予定）",
+"url": "https://www.asahikawa-med.ac.jp/uploads/files/admission/bureau/nyusi/contents/pdf/selection_requirement2027.pdf"
 },
 {
 "kubun": "一般",
@@ -86414,9 +86429,11 @@
 "exam": "3/12",
 "result": "3/23",
 "proc": "",
-"note": "看護学科のみ。手続締切は未掲載（パスナビ 2027年度入試）"
+"note": "看護学科のみ。手続締切は未掲載（大学公式 令和9年度入学者選抜要項・入試日程と一致。手続締切は一般選抜募集要項で確認予定）",
+"url": "https://www.asahikawa-med.ac.jp/uploads/files/admission/bureau/nyusi/contents/pdf/selection_requirement2027.pdf"
 }
-]
+],
+"note": "2026-11-18 大学公式の令和9年度入学者選抜要項と入試日程ページで確認。推薦の出願開始日、総合型選抜（北海道特別選抜）を追加。手続期間・検定料は選抜要項に記載なし"
 },
 "eng": {
 "year": "2027年度入試",
@@ -86575,7 +86592,8 @@
 "https://search.keinet.ne.jp/1070/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/0140/schedule/",
 "https://nyushi.adb.fukushima-u.ac.jp/schedule/Files/2026/05/03_ippan.pdf",
-"https://search.keinet.ne.jp/1070/outline/expense"
+"https://search.keinet.ne.jp/1070/outline/expense",
+"https://nyushi.adb.fukushima-u.ac.jp/schedule/Files/2026/09/03_ippan.pdf"
 ],
 "departments": [
 {
@@ -86827,7 +86845,7 @@
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
 "money": "2026-11-08",
-"schedule": "2026-11-08",
+"schedule": "2026-11-18",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06"
@@ -87033,7 +87051,8 @@
 "exam": "2/25",
 "result": "3/6",
 "proc": "3/15",
-"note": "教育・政経・理工・食農の各学部（パスナビ 2027年度入試）"
+"note": "教育・政経・理工・食農の各学部。前期の手続3/7〜3/15、後期の手続〜3/27（郵送のみ）（大学公式 令和9年度入試日程 R8.9.1現在）",
+"url": "https://nyushi.adb.fukushima-u.ac.jp/schedule/Files/2026/09/03_ippan.pdf"
 },
 {
 "kubun": "一般",
@@ -87042,9 +87061,11 @@
 "exam": "3/12",
 "result": "3/20",
 "proc": "3/27",
-"note": "教育・政経・理工・食農の各学部（パスナビ 2027年度入試）"
+"note": "教育・政経・理工・食農の各学部。前期の手続3/7〜3/15、後期の手続〜3/27（郵送のみ）（大学公式 令和9年度入試日程 R8.9.1現在）",
+"url": "https://nyushi.adb.fukushima-u.ac.jp/schedule/Files/2026/09/03_ippan.pdf"
 }
-]
+],
+"note": "2026-11-18 大学公式の一般選抜日程（R8.9.1現在）で前期・後期の試験日・発表・手続が既存と一致。一般選抜募集要項PDF（2026/11）は読み込めず"
 },
 "eng": {
 "year": "2027年度入試",
@@ -104376,9 +104397,9 @@
 "licenses": "2026-11-07",
 "careers": "2026-11-07",
 "fdiff": "2026-11-09",
-"methods": "2026-11-09",
+"methods": "2026-11-18",
 "ratios": "2026-11-09",
-"schedule": "2026-11-16",
+"schedule": "2026-11-18",
 "money": "2026-11-09",
 "_via": "2026-11-09",
 "kyotsu": "2026-11-15",
@@ -104462,7 +104483,9 @@
 "https://www.myu.ac.jp/admissions/colleges/fixed/",
 "https://manabi.benesse.ne.jp/daigaku/school/2023/nyushi/gokaku-happyo/index.html",
 "https://passnavi.obunsha.co.jp/univ/1024/eiken/?facultyID=006",
-"https://passnavi.obunsha.co.jp/univ/1024/eiken/?facultyID=016"
+"https://passnavi.obunsha.co.jp/univ/1024/eiken/?facultyID=016",
+"https://www.myu.ac.jp/download_file/view/da35168b-6228-433d-8440-f0c82ff13153/",
+"https://www.myu.ac.jp/download_file/bac4d791-924f-4400-b68b-0ffa6ee2ff35/8010/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -104546,10 +104569,40 @@
 "niji": "書類、英語または数学（数ⅡC等）から1科目選択",
 "haiten": "",
 "note": "Kei-Net変更点では2次科目が【書類】《英、数ⅡＣ⇒１》となり小論文減"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（看護学群・食産業学群）",
+"kyotsu": "課す（950点：国語200、地歴・公民100、理科100、数学200、外国語250〔R:L=4:1〕、情報100）",
+"niji": "面接（15分）",
+"content": "共通テスト・調査書・推薦書・自己申告書等・面接で総合判定",
+"req": "2027年3月卒業見込み、学校長の推薦、合格時に入学を確約。評定平均値 看護学群4.0以上・食産業学群3.8以上。推薦人数は看護学群 県内1校2人・県外1人、食産業学群 県内4人・県外2人まで",
+"note": "募集人員 看護学群27・食産業学群28（大学公式 定員・募集人員・日程）",
+"url": "https://www.myu.ac.jp/download_file/view/da35168b-6228-433d-8440-f0c82ff13153/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（事業構想学群）",
+"kyotsu": "課す（900点：国語200、数学200、外国語200、地歴・公民・理科・情報から2教科2科目300〔1科目150点換算〕）",
+"niji": "面接（15分）",
+"content": "共通テスト・調査書・推薦書・自己申告書等・面接で総合判定",
+"req": "2027年3月卒業見込み、学校長の推薦、合格時に入学を確約。評定平均値3.8以上。推薦人数は県内1校4人・県外2人まで",
+"note": "募集人員40（学群単位）",
+"url": "https://www.myu.ac.jp/download_file/view/da35168b-6228-433d-8440-f0c82ff13153/"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜",
+"kyotsu": "課さない",
+"niji": "第2次：面接（20分。基礎学力・探究活動・学類への意欲）",
+"content": "第1次は書類審査（調査書、J-Bridgeで提出する自己申告書・探究活動報告書）。第1次の評価と面接で最終判定",
+"req": "高校卒業（見込み）。既卒も可。評定の基準なし。合格時に入学を確約",
+"note": "募集人員は各学類5〜8人（看護5、他の5学類は各8）",
+"url": "https://www.myu.ac.jp/download_file/bac4d791-924f-4400-b68b-0ffa6ee2ff35/8010/"
 }
 ],
 "summary": "2027年度入試では看護学群・事業構想学群の個別試験科目や共通テスト選択科目の変更が実施され、一部方式で共通テスト不要化も行われる。",
-"note": "Kei-Net変更点ページにて、ある方式の1次書類・2次面接・共通テスト不要への変更、5教科6科目（5-6）の方式などが確認できるが、全学群・全選抜区分の詳細科目・配点は未確認。"
+"note": "Kei-Net変更点ページにて、ある方式の1次書類・2次面接・共通テスト不要への変更、5教科6科目（5-6）の方式などが確認できるが、全学群・全選抜区分の詳細科目・配点は未確認。 2026-11-18 学校推薦型・総合型は大学公式の令和9年度募集要項で確認して追加。一般選抜の共通テスト科目・配点は一般選抜募集要項（2026年11月掲載予定）で未確認"
 },
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -104678,7 +104731,8 @@
 "exam": "2/25",
 "result": "3/6",
 "proc": "3/15",
-"note": "看護学群は2/25・2/26。出願は期間内必着（大学公式 令和9年度日程）"
+"note": "看護学群は2/25・2/26。出願は期間内必着（大学公式 令和9年度日程）",
+"url": "https://www.myu.ac.jp/admissions/colleges/fixed/"
 },
 {
 "kubun": "一般",
@@ -104687,27 +104741,43 @@
 "exam": "3/12",
 "result": "3/20",
 "proc": "3/27",
-"note": "看護学群は3/12・3/13（大学公式）"
+"note": "看護学群は3/12・3/13（大学公式）",
+"url": "https://www.myu.ac.jp/admissions/colleges/fixed/"
 },
 {
 "kubun": "総合型",
 "name": "総合型選抜",
-"apply": "9/1〜9/8",
+"apply": "8/25〜9/8",
 "exam": "10/17",
 "result": "11/2",
-"proc": "11/11",
-"note": "1次は書類（9/30発表）、試験日は2次。マナビジョンではネット出願8/25〜9/8（大学公式）"
+"proc": "11/4〜11/11",
+"note": "ネット登録・検定料支払い8/25〜9/8、書類提出9/1〜9/8（期間内必着）。第1次は書類審査（9/30発表）、試験日は第2次（面接）（大学公式 令和9年度総合型選抜募集要項）",
+"fee": 17000,
+"url": "https://www.myu.ac.jp/download_file/bac4d791-924f-4400-b68b-0ffa6ee2ff35/8010/"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜（共テあり）",
-"apply": "11/18〜11/25",
+"apply": "11/11〜11/25",
 "exam": "12/19",
 "result": "2/9",
-"proc": "2/17",
-"note": "3学群とも。出願期間・試験日はマナビジョン、発表・手続は大学公式"
+"proc": "2/10〜2/17",
+"note": "ネット登録11/11〜11/25、書類提出11/18〜11/25（期間内必着）。試験日は面接（大和キャンパス）。3学群とも（大学公式 令和9年度学校推薦型選抜募集要項）",
+"fee": 17000,
+"url": "https://www.myu.ac.jp/download_file/view/da35168b-6228-433d-8440-f0c82ff13153/"
+},
+{
+"kubun": "その他",
+"name": "帰国生徒選抜",
+"apply": "11/18〜11/25",
+"exam": "12/19",
+"result": "1/8",
+"proc": "1/12〜1/19",
+"note": "期間内必着。募集人員は一般選抜に含む（若干名）（大学公式 定員・募集人員・日程）",
+"url": "https://www.myu.ac.jp/admissions/colleges/fixed/"
 }
-]
+],
+"note": "2026-11-18 大学公式「定員・募集人員・日程」（2026.6.24確定）と令和9年度 総合型・学校推薦型の募集要項で確認。一般前期・後期・総合型・推薦の日程は既存と一致。検定料17,000円（総合型・推薦）、手続期間、帰国生徒選抜を追加。一般選抜の募集要項は2026年11月掲載予定"
 },
 "money": {
 "year": "2026年度",
@@ -104789,14 +104859,15 @@
 "licenses": "2026-11-07",
 "careers": "2026-11-07",
 "fdiff": "2026-11-09",
-"methods": "2026-11-09",
+"methods": "2026-11-18",
 "ratios": "2026-11-09",
-"schedule": "2026-11-16",
+"schedule": "2026-11-18",
 "money": "2026-11-09",
 "_via": "2026-11-09",
 "kyotsu": "2026-11-15",
 "research": "2026-11-15",
-"eng": "2026-11-16"
+"eng": "2026-11-16",
+"scholar": "2026-11-18"
 },
 "faculties": [
 "保健福祉学部"
@@ -104852,7 +104923,9 @@
 "https://passnavi.obunsha.co.jp/univ/1012/eiken/?facultyID=005",
 "https://hennyu-go-kaku.com/media/articles/nayoro-city-university-hennyu/",
 "https://search.keinet.ne.jp/1508/outline/department",
-"https://www.nayoro.ac.jp/exam/senbatsu/index.html"
+"https://www.nayoro.ac.jp/exam/senbatsu/index.html",
+"https://telemail.jp/shingaku/university/10003350/examination/general",
+"https://www.nayoro.ac.jp/life_career/support/grant-type_scholarship.html"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -104944,11 +105017,22 @@
 "content": "",
 "req": "評定基準なし・既卒可",
 "kyotsu": "課さない",
-"note": "2027年度より栄養学科に導入。試験内容詳細は未確認"
+"note": "2027年度より栄養学科に導入。募集人員 栄養2・看護3・社会福祉14・社会保育20（大学公式）。試験内容詳細は未確認",
+"url": "https://www.nayoro.ac.jp/exam/senbatsu/index.html"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜",
+"kyotsu": "課さない",
+"niji": "",
+"content": "",
+"req": "評定平均値3.8以上。栄養学科・看護学科はさらに数学と理科の学習成績がそれぞれ4.0以上。地域指定枠（上川北部・留萌・宗谷・オホーツク管内の高校の在校生）あり",
+"note": "募集人員 栄養20（地域指定枠4以内）・看護25（同5以内）・社会福祉14（同5以内）・社会保育15（同5以内）。名寄会場。選考内容の詳細は選抜要項PDFで未確認",
+"url": "https://www.nayoro.ac.jp/exam/senbatsu/index.html"
 }
 ],
 "summary": "一般選抜（栄養・看護・社会福祉前期）は共通テスト4〜5教科と個別試験（小論文・面接）で選抜され、2027年度からは栄養学科でも総合型選抜が導入される。",
-"note": "社会福祉学科後期・社会保育学科・学校推薦型選抜の詳細は未確認。"
+"note": "社会福祉学科後期・社会保育学科の一般選抜、学校推薦型・総合型の選考内容の詳細は未確認（2026-11-18 公式ページで募集人員・推薦の出願条件を確認）"
 },
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -104968,21 +105052,23 @@
 "rows": [
 {
 "kubun": "一般",
-"name": "一般 前期（栄養学科・看護学科）",
+"name": "一般 前期",
 "apply": "1/25〜2/3",
 "exam": "2/25",
 "result": "3/5",
 "proc": "3/15",
-"note": "インターネット出願・消印有効。前期の会場は名寄・札幌・仙台・名古屋（仙台・名古屋は栄養・社会福祉・社会保育の3学科のみ）（大学公式 令和9年度入学者選抜要項）"
+"note": "インターネット出願・消印有効。前期の会場は名寄・札幌・仙台・名古屋（仙台・名古屋は栄養・社会福祉・社会保育の3学科のみ）。4学科とも同じ日程。手続締切はテレメール（2027年度）（大学公式 令和9年度入学者選抜要項）",
+"url": "https://www.nayoro.ac.jp/exam/senbatsu/index.html"
 },
 {
 "kubun": "一般",
-"name": "一般 後期（栄養学科・看護学科）",
+"name": "一般 後期",
 "apply": "1/25〜2/3",
 "exam": "3/12",
 "result": "3/20",
 "proc": "3/26",
-"note": "インターネット出願・消印有効。後期の会場は札幌（大学公式 令和9年度入学者選抜要項）"
+"note": "インターネット出願・消印有効。後期の会場は札幌。4学科とも同じ日程。手続締切はテレメール（2027年度）（大学公式 令和9年度入学者選抜要項）",
+"url": "https://www.nayoro.ac.jp/exam/senbatsu/index.html"
 },
 {
 "kubun": "総合型",
@@ -104991,7 +105077,8 @@
 "exam": "10/11",
 "result": "11/1",
 "proc": "",
-"note": "消印有効。名寄会場のみ。2027年度入試より保健福祉学部栄養学科にも導入（大学公式 令和9年度入学者選抜要項）"
+"note": "消印有効。名寄会場のみ。2027年度入試より保健福祉学部栄養学科にも導入（大学公式 令和9年度入学者選抜要項）",
+"url": "https://www.nayoro.ac.jp/exam/senbatsu/index.html"
 },
 {
 "kubun": "推薦",
@@ -105000,9 +105087,11 @@
 "exam": "11/19",
 "result": "12/3",
 "proc": "",
-"note": "消印有効。名寄会場のみ。地域指定枠（上川北部・留萌・宗谷・オホーツク管内の高校）あり（大学公式 令和9年度入学者選抜要項）"
+"note": "消印有効。名寄会場のみ。地域指定枠（上川北部・留萌・宗谷・オホーツク管内の高校）あり（大学公式 令和9年度入学者選抜要項）",
+"url": "https://www.nayoro.ac.jp/exam/senbatsu/index.html"
 }
-]
+],
+"note": "2026-11-18 大学公式「令和9年度 入学者選抜要項」ページで全区分の日程が既存と一致。一般選抜の手続締切（前期3/15・後期3/26）はテレメールと一致。検定料は未確認"
 },
 "money": {
 "year": "",
@@ -105083,6 +105172,44 @@
 "summary": "記載なし（利用しないとは限らない）",
 "year": "2027年度入試",
 "note": "パスナビの英検等利用入試ページに保健福祉学部の情報なし（2026-11-16）"
+},
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "給付型奨学金（めいだい奨学金）",
+"kind": "給付",
+"target": "全学科・1〜4年（各学科・各学年1人、計16人）",
+"amount": "月額2万円（決定した年度の1年間）",
+"timing": "4月中旬",
+"cond": "向学心があり学業成績が優秀、前年の総所得金額426万円未満（被扶養者2人以上は加算あり）。1年生は前期の成績で決定"
+},
+{
+"name": "災害等一時給付奨学金",
+"kind": "給付",
+"target": "全学生",
+"amount": "10万円（申請理由1件につき1回）",
+"timing": "随時",
+"cond": "激甚災害等で家屋に相当の損壊、生計維持者の死亡・重度心身障害者の認定など"
+},
+{
+"name": "海外留学等奨学金",
+"kind": "給付",
+"target": "海外の大学での履修・海外語学研修・本学の海外交流事業に参加する学生",
+"amount": "対象経費の2分の1以内（上限5万円、在学中1回）",
+"timing": "",
+"cond": "航空運賃・授業料・現地交通費・寮費などが対象経費"
+},
+{
+"name": "地元（名寄市）就業助成金",
+"kind": "給付",
+"target": "市内に住み市内の事業所に就業する卒業生",
+"amount": "20万円",
+"timing": "",
+"cond": "市内居住と市内事業所への就業"
+}
+],
+"note": "大学公式「大学独自の奨学金、助成金について」。年度の記載なし"
 }
 },
 "山形県立米沢栄養大学": {
