@@ -88301,7 +88301,9 @@
 "https://search.keinet.ne.jp/1255/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/0510/schedule/",
 "https://passnavi.obunsha.co.jp/univ/0510/expense/",
-"https://manabi.benesse.ne.jp/daigaku/school/1280/nyushi/gokaku-happyo/"
+"https://manabi.benesse.ne.jp/daigaku/school/1280/nyushi/gokaku-happyo/",
+"https://www.nitech.ac.jp/examination/mt_files/2027_gakkousuisen_kasanai.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/1280/nyushi/"
 ],
 "departments": [
 {
@@ -88460,7 +88462,7 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "money": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-18",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06"
@@ -88543,22 +88545,33 @@
 {
 "kubun": "推薦",
 "name": "学校推薦型Ⅰ（共テなし・女子対象含む）",
-"apply": "〜11/4（消印有効）",
+"apply": "10/20〜11/5",
 "exam": "11/21",
 "result": "12/11",
 "proc": "12/21",
-"note": "1次（書類）発表11/13、試験日は2次。出願期間は締切日のみ掲載"
+"note": "ネット出願登録10/20〜11/5、書類は11/5必着（11/4消印有効）。1次（書類）発表11/13、試験日は2次（筆記・面接）。検定料17,000円（払込手数料700円が別途）。大学公式の募集要項（共通テストを課さない）",
+"fee": 17000
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型Ⅱ（共テあり）",
-"apply": "〜1/22（消印有効）",
+"apply": "1/12〜1/22",
 "exam": "1/29",
 "result": "2/9",
 "proc": "2/17",
-"note": ""
+"note": "出願期間はマナビジョン（2027年度入試）"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（社会工学科 建築・デザイン分野／環境都市分野、夜間主）",
+"apply": "9/7〜9/17",
+"exam": "10/9〜10/10",
+"result": "11/2",
+"proc": "12/21",
+"note": "建築・デザイン分野は10/10。マナビジョン（2027年度入試）"
 }
-]
+],
+"note": " 2026-11-18 再確認：一般前期・後期はマナビジョンで既存と一致。推薦（共テなし）は大学公式の募集要項で出願期間・検定料を補完"
 },
 "eng": {
 "year": "2027年度入試",
@@ -145425,7 +145438,8 @@ null
 "money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"licenses": "2026-11-18"
 },
 "departments": [
 {
@@ -145647,7 +145661,23 @@ null
 "https://passnavi.obunsha.co.jp/univ/4620/difficulty/",
 "https://search.keinet.ne.jp/2591/outline/expense",
 "https://manabi.benesse.ne.jp/daigaku/school/3734/gakuhi/",
-"https://manabi.benesse.ne.jp/daigaku/school/3734/nyushi/gokaku-happyo/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3734/nyushi/gokaku-happyo/index.html",
+"https://search.keinet.ne.jp/2591/outline/licential"
+],
+"licenses": [
+"保育士",
+"幼稚園教諭一種免許状",
+"小学校教諭一種免許状",
+"中学校教諭一種免許状（国語・数学・音楽）",
+"高等学校教諭一種免許状（国語・数学・音楽）",
+"特別支援学校教諭一種免許状",
+"司書教諭",
+"養護教諭二種免許状",
+"看護師国家試験受験資格",
+"保健師国家試験受験資格",
+"助産師国家試験受験資格",
+"理学療法士国家試験受験資格",
+"作業療法士国家試験受験資格"
 ]
 },
 "姫路大学": {
@@ -218372,11 +218402,12 @@ null
 "faculties": "2026-11-09",
 "departments": "2026-11-09",
 "difficulty": "2026-11-09",
-"methods": "2026-11-09",
-"schedule": "2026-11-13",
+"methods": "2026-11-18",
+"schedule": "2026-11-18",
 "access": "2026-11-09",
-"_via": "2026-11-09",
-"money": "2026-11-13"
+"_via": "2026-11-18",
+"money": "2026-11-18",
+"scholar": "2026-11-18"
 },
 "departments": [
 {
@@ -218414,34 +218445,34 @@ null
 "name": "一般選抜",
 "kyotsu": "課さない",
 "niji": null,
-"content": null,
+"content": "英語100点（60分）・国語100点（60分）の計200点",
 "req": null,
 "url": "https://hakuoh.jp/admission/admission_02_09.html"
 },
 {
 "kubun": "共テ利用",
 "name": "共通テスト利用選抜",
-"kyotsu": null,
+"kyotsu": "利用",
 "niji": null,
-"content": null,
+"content": "一般共テ単独：英語200点（R・L）＋選択1科目100点の計300点。学業特待共テ単独：英語200点＋選択2科目の計400点。個別試験なし。第1回で不合格でも出願し直さずに第2回の選考対象",
 "req": null,
-"url": "https://search.keinet.ne.jp/2124/general/border_rate"
+"url": "https://hakuoh.jp/admission/pdf/test-requirements_common.pdf"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜（一般公募推薦（併願）・指定校等）",
 "kyotsu": "課さない",
 "niji": null,
-"content": "配点は調査書30点、英語40点、面接30点（指定校は40点）、資格・活動歴加点。一般公募推薦は他大学併願可",
+"content": "単願・併願：書類審査30点、英語40点（50分・100点満点を換算）、面接30点。指定校は書類と面接のみ。一般公募推薦（併願）は他大学併願可",
 "req": null,
-"url": "https://hakuoh.jp/admission/admission_02_03.html"
+"url": "https://hakuoh.jp/admission/pdf/test-requirements_common.pdf"
 },
 {
 "kubun": "総合型",
 "name": "総合型選抜",
 "kyotsu": "課さない",
 "niji": null,
-"content": "書類審査20点、英語40点、面接40点、資格・活動歴加点",
+"content": "書類審査20点、英語40点（40分・100点満点を換算）、面接40点",
 "req": "2027年度より欠席日数の出願条件を撤廃",
 "url": "https://jukensei.hakuoh.jp/news/sougou2027/"
 },
@@ -218450,9 +218481,18 @@ null
 "name": "学業特待12月選抜",
 "kyotsu": "課さない",
 "niji": null,
-"content": "試験科目にエントリーシート含む出願書類審査（配点20点）を追加",
+"content": "英語100点・国語または数学100点・書類審査（エントリーシート含む）20点の計220点。12月・1月選抜の成績上位者は面接を経て学費全額免除生（各回8名）",
 "req": null,
 "url": "https://jukensei.hakuoh.jp/media/2027_shinkamoku.pdf"
+},
+{
+"kubun": "一般",
+"name": "学業特待1月〜3月選抜",
+"kyotsu": "一部利用可",
+"niji": null,
+"content": "1月・2月：英語150点＋国語100点（国語の代わりに共通テスト1科目の高い方を採用可）、1月は書類審査20点を加える。3月：英語100点＋国語100点（共テ1科目で代替可）",
+"req": null,
+"url": "https://hakuoh.jp/admission/pdf/test-requirements_common.pdf"
 }
 ]
 },
@@ -218466,7 +218506,7 @@ null
 "exam": "10/17",
 "result": "11/2",
 "proc": "11/16",
-"fee": null
+"fee": 30000
 },
 {
 "kubun": "推薦",
@@ -218475,7 +218515,7 @@ null
 "exam": "11/14",
 "result": "12/1",
 "proc": "12/14",
-"fee": null
+"fee": 30000
 },
 {
 "kubun": "推薦",
@@ -218484,7 +218524,7 @@ null
 "exam": "11/14",
 "result": "12/1",
 "proc": "1/20",
-"fee": null
+"fee": 30000
 },
 {
 "kubun": "一般",
@@ -218493,7 +218533,8 @@ null
 "exam": "12/12",
 "result": "12/18",
 "proc": "3/8",
-"fee": null
+"fee": 15000,
+"note": "一般選抜免除合格の手続締切は1/20"
 },
 {
 "kubun": "一般",
@@ -218502,7 +218543,26 @@ null
 "exam": "1/28",
 "result": "2/4",
 "proc": "3/8",
-"fee": null
+"fee": 15000,
+"note": "一般合格の手続締切は2/17"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 学業特待（2月）",
+"apply": "1/22〜2/5",
+"exam": "2/19",
+"result": "2/25",
+"proc": "3/8",
+"fee": 25000
+},
+{
+"kubun": "一般",
+"name": "一般選抜 学業特待（3月）",
+"apply": "2/15〜2/25",
+"exam": "3/5",
+"result": "3/9",
+"proc": "3/15",
+"fee": 25000
 },
 {
 "kubun": "一般",
@@ -218511,7 +218571,7 @@ null
 "exam": "2/10",
 "result": "2/15",
 "proc": "2/24",
-"fee": null
+"fee": 25000
 },
 {
 "kubun": "共テ利用",
@@ -218520,7 +218580,7 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "2/4",
 "proc": "2/17",
-"fee": null
+"fee": 15000
 },
 {
 "kubun": "共テ利用",
@@ -218529,7 +218589,8 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "2/4",
 "proc": "3/8",
-"fee": null
+"fee": 15000,
+"note": "一般合格の手続締切は2/17"
 },
 {
 "kubun": "共テ利用",
@@ -218538,7 +218599,8 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "2/25",
 "proc": "3/8",
-"fee": null
+"fee": 15000,
+"note": "学業特待共テ単独の前期第2回も同じ日程"
 },
 {
 "kubun": "共テ利用",
@@ -218547,7 +218609,8 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "3/9",
 "proc": "3/15",
-"fee": null
+"fee": 15000,
+"note": "学業特待共テ単独の後期第1回も同じ日程"
 },
 {
 "kubun": "共テ利用",
@@ -218556,13 +218619,14 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "3/15",
 "proc": "3/25",
-"fee": null
+"fee": 15000,
+"note": "学業特待共テ単独の後期第2回も同じ日程"
 }
 ],
-"note": "ベネッセ マナビジョン（2027年度入試）。経営・法・教育学部で共通。原則ネット出願。検定料は2027年度分が未確認（Kei-Netの2026年度入試では一般方式25,000円・共通テスト利用方式15,000円）"
+"note": "2026-11-18 大学公式「2027年度 試験要項」で全日程が既存（マナビジョン）と一致することを確認し、検定料（総合型・推薦30,000円、学業特待12月・1月と共テ単独15,000円、学業特待2月・3月と一般選抜25,000円）と学業特待2月・3月を追加。全学部同じ日程"
 },
 "access": "本キャンパス（法・経営：栃木県小山市駅東通り2-2-2）、大行寺キャンパス（教育：栃木県小山市大行寺1117）",
-"_via": "external-ai",
+"_via": "external-ai-verified",
 "sources": [
 "https://hakuoh.jp/",
 "https://jukensei.hakuoh.jp/news/sougou2027/",
@@ -218575,13 +218639,15 @@ null
 "https://search.keinet.ne.jp/2124/general/border_rate",
 "https://manabi.benesse.ne.jp/daigaku/school/3124/nyushi/gokaku-happyo/index.html",
 "https://search.keinet.ne.jp/2124/general/exam_fee",
-"https://search.keinet.ne.jp/2124/outline/expense"
+"https://search.keinet.ne.jp/2124/outline/expense",
+"https://hakuoh.jp/admission/pdf/test-requirements_common.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/3124/nyushi/index.html"
 ],
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
-"f": "教育学部",
+"f": "教育学部 発達科学科",
 "admission": 280000,
 "tuition": 830000,
 "facility": 270000,
@@ -218589,7 +218655,7 @@ null
 "other": 17000,
 "first_year": 1397000,
 "four_year": null,
-"note": "Kei-Net（2026年度入学者用）。資格関連科目・海外留学などは別途"
+"note": "大学公式「2027年度 試験要項」。諸会費は学友会費7,000円・同窓会費10,000円。学業特待合格者は授業料650,000円・施設設備費免除で初年度947,000円。4年目に卒業準備金35,000円（予定）。資格関連科目・海外留学などは別途"
 },
 {
 "f": "法学部 法律学科",
@@ -218600,7 +218666,7 @@ null
 "other": 17000,
 "first_year": 1357000,
 "four_year": null,
-"note": "Kei-Net（2026年度入学者用）。資格関連科目・海外留学などは別途"
+"note": "大学公式「2027年度 試験要項」。学業特待合格者は授業料630,000円・施設設備費免除で初年度927,000円。4年目に卒業準備金35,000円（予定）。資格関連科目・海外留学などは別途"
 },
 {
 "f": "経営学部 経営学科",
@@ -218611,9 +218677,39 @@ null
 "other": 17000,
 "first_year": 1357000,
 "four_year": null,
-"note": "Kei-Net（2026年度入学者用）。資格関連科目・海外留学などは別途"
+"note": "大学公式「2027年度 試験要項」。学業特待合格者は授業料630,000円・施設設備費免除で初年度927,000円。4年目に卒業準備金35,000円（予定）。資格関連科目・海外留学などは別途"
 }
 ]
+},
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "学業特待生",
+"kind": "減免",
+"target": "全学部",
+"amount": "授業料を国立大学相当額に減免し施設設備費を免除（経営・法：授業料年630,000円、教育：年650,000円）",
+"timing": "入試時（学業特待12月〜3月選抜・学業特待共テ単独選抜の合格者）",
+"cond": "1・2年次は前期学業特待生。2年次末の見直しで3・4年次の後期学業特待生を選考（最長4年間）。出席不良・単位不足などで取消"
+},
+{
+"name": "学費全額免除生",
+"kind": "減免",
+"target": "全学部（12月・1月選抜で各8名：経営2・法2・児童教育1・スポーツ健康1・英語教育1・心理学1）",
+"amount": "入学金・授業料・施設設備費を全額免除（諸会費のみ納入）",
+"timing": "入試時（学業特待12月・1月選抜の成績上位者を面接で選考）",
+"cond": "特待資格の継続条件は学業特待生と同じ"
+},
+{
+"name": "私費外国人留学生授業料減免",
+"kind": "減免",
+"target": "私費外国人留学生",
+"amount": "年間授業料の50%が上限",
+"timing": "入学後（4月初旬に申請、後期から）",
+"cond": "出席不良・留年・休学中は対象外"
+}
+],
+"note": "大学公式「2027年度 試験要項」「2027年度 特別入試要項」"
 }
 },
 "白百合女子大学": {
@@ -218625,10 +218721,10 @@ null
 "faculties": "2026-11-09",
 "departments": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-13",
+"schedule": "2026-11-18",
 "access": "2026-11-09",
 "_via": "2026-11-09",
-"money": "2026-11-13"
+"money": "2026-11-18"
 },
 "departments": [
 {
@@ -218681,7 +218777,7 @@ null
 "exam": "10/10",
 "result": "11/2",
 "proc": "11/11",
-"fee": null
+"fee": 35000
 },
 {
 "kubun": "総合型",
@@ -218690,7 +218786,8 @@ null
 "exam": "10/17",
 "result": "11/2",
 "proc": "11/11",
-"fee": null
+"fee": 35000,
+"note": "二次手続締切 2/5"
 },
 {
 "kubun": "総合型",
@@ -218699,7 +218796,8 @@ null
 "exam": "11/21",
 "result": "11/26",
 "proc": "12/4",
-"fee": null
+"fee": 35000,
+"note": "二次手続締切 2/5"
 },
 {
 "kubun": "総合型",
@@ -218708,7 +218806,8 @@ null
 "exam": "12/12",
 "result": "12/16",
 "proc": "12/23",
-"fee": null
+"fee": 35000,
+"note": "二次手続締切 2/5"
 },
 {
 "kubun": "一般",
@@ -218717,7 +218816,7 @@ null
 "exam": "1/21",
 "result": "1/24",
 "proc": "2/15",
-"fee": null
+"fee": 35000
 },
 {
 "kubun": "一般",
@@ -218726,7 +218825,7 @@ null
 "exam": "2/3",
 "result": "2/7",
 "proc": "2/24",
-"fee": null
+"fee": 35000
 },
 {
 "kubun": "一般",
@@ -218756,7 +218855,7 @@ null
 "fee": null
 }
 ],
-"note": "ベネッセ マナビジョン（2027年度入試）。文学部・人間総合学部の全学科で同じ日程。ネット出願。総合型の入学手続は一次締切（二次は既存の記載で2/5）。検定料は出典に記載なし"
+"note": "総合型は2026-11-18 大学公式「2027年度出願要項 総合型選抜」で日程が既存と一致することを確認（検定料35,000円／1入試区分・1学科。事前課題方式と基礎学力方式の同時出願は60,000円）。一般選抜（前期）の検定料は大学公式で1学科35,000円・同時出願の2学科目以降は1学科10,000円。一般選抜・共テ利用の日程はベネッセ マナビジョン（2027年度入試）で、大学公式の要項では未確認。文学部・人間総合学部の全学科で同じ日程"
 },
 "access": "調布キャンパス（東京都調布市緑ヶ丘1-25）",
 "_via": "external-ai",
@@ -218769,43 +218868,44 @@ null
 "https://search.keinet.ne.jp/2217",
 "https://search.keinet.ne.jp/2217/general/border_rate",
 "https://manabi.benesse.ne.jp/daigaku/school/3259/nyushi/gokaku-happyo/",
-"https://search.keinet.ne.jp/2217/outline/expense"
+"https://search.keinet.ne.jp/2217/outline/expense",
+"https://www.shirayuri.ac.jp/admission/uploads/yoko_sougougata2027-2.pdf"
 ],
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
 "f": "文学部",
 "admission": 240000,
 "tuition": 740000,
-"facility": 400000,
-"practical": null,
-"other": null,
+"facility": 300000,
+"practical": 0,
+"other": 100000,
 "first_year": 1380000,
 "four_year": null,
-"note": "Kei-Net（2026年度入学者用）。学会費・保険料など約15,000円が別途"
+"note": "大学公式「2027年度出願要項」。otherは維持費年100,000円。入学手続時納入金810,000円。別途、諸経費（学会費・保険料など）初年度15,000円程度"
 },
 {
 "f": "人間総合学部 児童文化学科・初等教育学科",
 "admission": 240000,
 "tuition": 740000,
-"facility": 400000,
-"practical": null,
-"other": null,
+"facility": 300000,
+"practical": 0,
+"other": 100000,
 "first_year": 1380000,
 "four_year": null,
-"note": "Kei-Net（2026年度入学者用）。学会費・保険料など約15,000円が別途。初等教育学科は実習関連の諸経費（幼児教育コース65,000円・児童教育コース21,000円）"
+"note": "大学公式「2027年度出願要項」。otherは維持費年100,000円。別途、諸経費15,000円程度。初等教育学科は実習諸経費（幼児教育コース65,000円・児童教育コース21,000円、1年次後期）"
 },
 {
 "f": "人間総合学部 発達心理学科",
 "admission": 240000,
 "tuition": 740000,
-"facility": 400000,
+"facility": 300000,
 "practical": 30000,
-"other": null,
+"other": 100000,
 "first_year": 1410000,
 "four_year": null,
-"note": "Kei-Net（2026年度入学者用）。学会費・保険料など約15,000円が別途"
+"note": "大学公式「2027年度出願要項」。practicalは心理学実験実習費。otherは維持費年100,000円。入学手続時納入金825,000円。別途、諸経費15,000円程度"
 }
 ]
 }
