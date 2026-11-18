@@ -195313,8 +195313,8 @@ null
 "faculties": "2026-11-08",
 "departments": "2026-11-08",
 "difficulty": "2026-11-08",
-"methods": "2026-11-08",
-"schedule": "2026-11-08",
+"methods": "2026-11-18",
+"schedule": "2026-11-18",
 "money": "2026-11-12",
 "access": "2026-11-08",
 "ic": "2026-11-08",
@@ -195338,31 +195338,49 @@ null
 "year": "2027年度入試",
 "list": [
 {
-"kubun": "一般",
-"name": "一般選抜（A日程）",
+"kubun": "総合型",
+"name": "総合型選抜（A〜E日程）",
 "kyotsu": "課さない",
-"niji": "書類選考・小論文・面接",
-"content": null,
-"req": "高等学校卒業（見込）等",
-"url": "https://kanazawa-pu.ac.jp/application/"
+"niji": null,
+"content": "面接（15分）50・小論文（60分）50・志望理由書50・調査書50",
+"req": null,
+"url": "https://kanazawa-pu.ac.jp/application/entrance_examination/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募型 前期・後期／指定校型）",
+"kyotsu": "課さない",
+"niji": null,
+"content": "面接（15分、WEBか対面を選択）50・志望理由書50・調査書100",
+"req": null,
+"url": "https://kanazawa-pu.ac.jp/application/entrance_examination/"
 },
 {
 "kubun": "一般",
-"name": "一般選抜（B日程）",
+"name": "一般選抜（独自試験型）",
 "kyotsu": "課さない",
-"niji": "書類選考・面接",
+"niji": "国語（現代文・50分）50・数学Ⅰ（50分）50・調査書100",
 "content": null,
 "req": "高等学校卒業（見込）等",
-"url": "https://kanazawa-pu.ac.jp/application/"
+"url": "https://kanazawa-pu.ac.jp/application/entrance_examination/"
 },
 {
 "kubun": "共テ利用",
-"name": "大学入学共通テスト利用選抜",
-"kyotsu": "大学入学共通テスト指定教科科目",
+"name": "一般選抜（共通テスト利用型）",
+"kyotsu": "国語50・数学ⅠまたはⅠA 50（共通テストの成績）＋調査書100",
 "niji": "課さない",
 "content": null,
 "req": "高等学校卒業（見込）等",
-"url": "https://kanazawa-pu.ac.jp/application/"
+"url": "https://kanazawa-pu.ac.jp/application/entrance_examination/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（社会人選抜）",
+"kyotsu": "課さない",
+"niji": null,
+"content": "面接50・履歴書・職務経歴書50・志望理由書100",
+"req": null,
+"url": "https://kanazawa-pu.ac.jp/application/entrance_examination/"
 }
 ]
 },
@@ -195370,33 +195388,109 @@ null
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "総合型",
+"name": "総合型選抜 A日程",
+"apply": "9/7〜9/25",
+"exam": "10/18",
+"result": null,
+"proc": null,
+"fee": 10000,
+"url": "https://kanazawa-pu.ac.jp/application/entrance_examination/"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 B日程",
+"apply": "10/19〜11/6",
+"exam": "11/15",
+"result": null,
+"proc": null,
+"fee": 10000,
+"url": "https://kanazawa-pu.ac.jp/application/entrance_examination/"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 C日程",
+"apply": "11/24〜12/7",
+"exam": "12/12",
+"result": null,
+"proc": null,
+"fee": 10000,
+"url": "https://kanazawa-pu.ac.jp/application/entrance_examination/"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 D日程",
+"apply": "1/12〜1/29",
+"exam": "2/9",
+"result": null,
+"proc": null,
+"fee": 10000,
+"url": "https://kanazawa-pu.ac.jp/application/entrance_examination/"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 E日程",
+"apply": "2/15〜3/12",
+"exam": "3/17",
+"result": null,
+"proc": null,
+"fee": 10000,
+"url": "https://kanazawa-pu.ac.jp/application/entrance_examination/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（指定校型）",
+"apply": "11/2〜11/10",
+"exam": "11/15",
+"result": null,
+"proc": null,
+"fee": 10000,
+"url": "https://kanazawa-pu.ac.jp/application/entrance_examination/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募型・前期）",
+"apply": "11/2〜11/10",
+"exam": "11/15",
+"result": null,
+"proc": null,
+"fee": 10000,
+"url": "https://kanazawa-pu.ac.jp/application/entrance_examination/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募型・後期）",
+"apply": "11/24〜12/7",
+"exam": "12/12",
+"result": null,
+"proc": null,
+"fee": 10000,
+"url": "https://kanazawa-pu.ac.jp/application/entrance_examination/"
+},
+{
 "kubun": "一般",
-"name": "一般選抜（A日程）",
+"name": "一般選抜（独自試験型）",
 "apply": "1/12〜1/29",
 "exam": "2/9",
 "result": "2/18",
-"proc": "3/5",
-"fee": 30000
-},
-{
-"kubun": "一般",
-"name": "一般選抜（B日程）",
-"apply": "2/15〜3/4",
-"exam": "3/10",
-"result": "3/17",
-"proc": "3/25",
-"fee": 30000
+"proc": null,
+"fee": 10000,
+"url": "https://kanazawa-pu.ac.jp/application/entrance_examination/",
+"note": "合格発表日はマナビジョン。手続締切は合格通知に同封の書類で案内"
 },
 {
 "kubun": "共テ利用",
-"name": "共通テスト利用選抜",
+"name": "一般選抜（共通テスト利用型）",
 "apply": "1/12〜1/29",
 "exam": "1/16・1/17（共テ）",
 "result": "2/18",
-"proc": "3/5",
-"fee": 15000
+"proc": null,
+"fee": 10000,
+"url": "https://kanazawa-pu.ac.jp/application/entrance_examination/",
+"note": "合格発表日はマナビジョン"
 }
-]
+],
+"note": "大学公式「入試情報」で再確認。一般選抜にA・B日程の区分は無く、独自試験型・共テ利用型・社会人選抜が同じ日程（以前のB日程の行を削除）。選考料はすべての区分で10,000円（以前の30,000円・15,000円を訂正）。合否は郵便で通知"
 },
 "money": {
 "year": "2027年度",
@@ -195425,7 +195519,9 @@ null
 "https://careetern.com/local_column/detail/20211118",
 "https://manabi.benesse.ne.jp/daigaku/school/3433/",
 "https://passnavi.obunsha.co.jp/univ/9206/expense/",
-"https://passnavi.obunsha.co.jp/univ/9206/schedule/"
+"https://passnavi.obunsha.co.jp/univ/9206/schedule/",
+"https://kanazawa-pu.ac.jp/application/entrance_examination/",
+"https://manabi.benesse.ne.jp/daigaku/school/3433/nyushi/index.html"
 ]
 },
 "こども教育宝仙大学": {
@@ -195790,12 +195886,13 @@ null
 "exam": "1次7/12（CBT）、2次 身体検査A 9/12〜9/23・B 12/5〜12/7、3次2027/1/19〜2/2（いずれも指定日）",
 "result": "1次7/31、2次12/25、最終2027/2/19",
 "fee": 45000,
-"note": "受験資格は大学2年以上在学（62単位以上）・短大・高専卒業など。高校卒業見込みでは出願できない"
+"note": "受験資格は大学2年以上在学（62単位以上）・短大・高専卒業など。高校卒業見込みでは出願できない",
+"url": "https://www.kouku-dai.ac.jp/cgi-bin/upload/R080731nittei2ji.pdf"
 }
 ]
 },
 "_checked": {
-"schedule": "2026-11-08",
+"schedule": "2026-11-18",
 "money": "2026-11-08"
 },
 "money": {
@@ -195840,7 +195937,8 @@ null
 ]
 },
 "sources": [
-"https://www.kouku-dai.ac.jp/02_enter/r09nyugaku/r09bosyuuyoukou.pdf"
+"https://www.kouku-dai.ac.jp/02_enter/r09nyugaku/r09bosyuuyoukou.pdf",
+"https://www.kouku-dai.ac.jp/cgi-bin/upload/R080731nittei2ji.pdf"
 ]
 },
 "職業能力開発大学校（ポリテクカレッジ）": {
@@ -220407,10 +220505,11 @@ null
 "faculties": "2026-11-09",
 "departments": "2026-11-09",
 "difficulty": "2026-11-09",
-"methods": "2026-11-09",
-"_via": "2026-11-09",
-"schedule": "2026-11-12",
-"money": "2026-11-13"
+"methods": "2026-11-18",
+"_via": "2026-11-18",
+"schedule": "2026-11-18",
+"money": "2026-11-13",
+"scholar": "2026-11-18"
 },
 "departments": [
 {
@@ -220473,26 +220572,71 @@ null
 "year": "2027年度入試",
 "list": [
 {
-"kubun": "一般",
-"name": "一般選抜（A日程・B日程（看護栄養学部はA日程））",
+"kubun": "総合型",
+"name": "総合型選抜（小論文型）",
 "kyotsu": "課さない",
 "niji": null,
-"content": null,
+"content": "小論文（60分・600字）30点・面接（約15分）50点・調査書5点（9月は志望理由書15点も）。活動実績・資格で加点あり",
 "req": null,
-"url": "https://passnavi.obunsha.co.jp/univ/2140/difficulty/"
+"url": "https://www.shukutoku.ac.jp/extra/pdf/Shukutokunyushiguide2027.pdf"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（プレゼンテーション型・10/12/2/3月）",
+"kyotsu": "課さない",
+"niji": null,
+"content": "事前に示すテーマでのプレゼンテーション（約15分）50点・面接30点・調査書5点。看護栄養学部は実施しない",
+"req": null,
+"url": "https://www.shukutoku.ac.jp/extra/pdf/Shukutokunyushiguide2027.pdf"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募・専願）",
+"kyotsu": "課さない",
+"niji": null,
+"content": "面接50・小論文30・調査書10・志望理由書10（看護栄養学部は面接30・小論文50）",
+"req": "評定平均 教育福祉学科・看護栄養学部3.3以上、社会福祉・実践心理・コミュニティ政策・地域創生・経営・人文3.0以上",
+"url": "https://www.shukutoku.ac.jp/extra/pdf/Shukutokunyushiguide2027.pdf"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 A",
+"kyotsu": "課さない",
+"niji": null,
+"content": "国語100＋英語・日本史・世界史・数学（数学Aのみ）から1科目100＋調査書10。看護学科は国語＋英語または化学・生物・数学から1、グループ面接50を加える",
+"req": null,
+"url": "https://www.shukutoku.ac.jp/extra/pdf/Shukutokunyushiguide2027.pdf"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 B",
+"kyotsu": "課さない",
+"niji": null,
+"content": "国語100＋英語・日本史・世界史から1科目100＋調査書10（看護学科はグループ面接50を加える）",
+"req": null,
+"url": "https://www.shukutoku.ac.jp/extra/pdf/Shukutokunyushiguide2027.pdf"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 C",
+"kyotsu": "課さない",
+"niji": null,
+"content": "一般教養テスト（記述を含む）100＋調査書10（看護学科はグループ面接50を加える）",
+"req": null,
+"url": "https://www.shukutoku.ac.jp/extra/pdf/Shukutokunyushiguide2027.pdf"
 },
 {
 "kubun": "共テ利用",
-"name": "共通テスト利用選抜",
-"kyotsu": null,
+"name": "共通テスト利用選抜（1〜3期）",
+"kyotsu": "看護栄養学部以外：国語（現代文）・理科・地歴公民・外国語・数学・情報から高得点2科目（各200）＋調査書10。看護栄養学部：国語・理科・外国語・数学・情報から高得点3科目",
 "niji": "課さない",
 "content": null,
 "req": null,
-"url": "https://passnavi.obunsha.co.jp/univ/2140/difficulty/"
+"url": "https://www.shukutoku.ac.jp/extra/pdf/Shukutokunyushiguide2027.pdf"
 }
 ]
 },
-"_via": "external-ai",
+"_via": "external-ai-verified",
 "sources": [
 "https://www.shukutoku.ac.jp/",
 "https://www.shukutoku.ac.jp/campuslife/fees/loan.html",
@@ -220500,85 +220644,156 @@ null
 "https://passnavi.obunsha.co.jp/univ/2140/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3196/nyushi/gokaku-happyo/",
 "https://search.keinet.ne.jp/2174/outline/expense",
-"https://manabi.benesse.ne.jp/daigaku/school/3196/gakuhi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3196/gakuhi/",
+"https://www.shukutoku.ac.jp/extra/pdf/Shukutokunyushiguide2027.pdf",
+"https://www.shukutoku.ac.jp/campuslife/fees/"
 ],
 "schedule": {
 "year": "2027年度入試",
 "rows": [
 {
-"kubun": "一般",
-"name": "一般選抜 A日程",
-"apply": "1/8〜1/21",
-"exam": "2/2・2/3",
-"result": "2/12",
-"proc": "2/24",
-"fee": null
+"kubun": "総合型",
+"name": "総合型選抜 9月",
+"apply": "8/1〜9/17（Web登録）",
+"exam": "9/27（看護栄養学部は9/26）",
+"result": "10/2（1次通知）",
+"proc": "専願11/13・併願12/12",
+"fee": 10000,
+"url": "https://www.shukutoku.ac.jp/extra/pdf/Shukutokunyushiguide2027.pdf",
+"note": "検定料 専願10,000円・併願35,000円。小論文型（志望理由書あり）"
 },
 {
-"kubun": "一般",
-"name": "一般選抜 B日程",
-"apply": "1/28〜2/16",
+"kubun": "総合型",
+"name": "総合型選抜 10月",
+"apply": "9/22〜10/8（Web登録）",
+"exam": "10/18",
+"result": "11/1",
+"proc": "専願11/13・併願12/12",
+"fee": 10000,
+"url": "https://www.shukutoku.ac.jp/extra/pdf/Shukutokunyushiguide2027.pdf",
+"note": "検定料 専願10,000円・併願35,000円。小論文型またはプレゼンテーション型（看護栄養学部は小論文型）"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 12月",
+"apply": "11/16〜12/3（Web登録）",
+"exam": "12/13",
+"result": "12/18",
+"proc": "専願1/8・併願2/23",
+"fee": 10000,
+"url": "https://www.shukutoku.ac.jp/extra/pdf/Shukutokunyushiguide2027.pdf",
+"note": "検定料 専願10,000円・併願35,000円"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 2月",
+"apply": "1/28〜2/16（Web登録）",
 "exam": "2/25",
 "result": "3/3",
-"proc": "3/10",
-"fee": null
+"proc": "専願3/10・併願3/24",
+"fee": 10000,
+"url": "https://www.shukutoku.ac.jp/extra/pdf/Shukutokunyushiguide2027.pdf",
+"note": "検定料 専願10,000円・併願35,000円。看護栄養学部は実施しない"
 },
 {
-"kubun": "一般",
-"name": "一般選抜 C日程",
-"apply": "2/18〜3/4",
+"kubun": "総合型",
+"name": "総合型選抜 3月",
+"apply": "2/18〜3/4（Web登録）",
 "exam": "3/11",
 "result": "3/18",
 "proc": "3/24",
-"fee": null
+"fee": 10000,
+"url": "https://www.shukutoku.ac.jp/extra/pdf/Shukutokunyushiguide2027.pdf",
+"note": "検定料 専願10,000円・併願35,000円"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募）11月",
+"apply": "11/2〜11/12（Web登録）",
+"exam": "11/22（看護栄養学部は11/21）",
+"result": "12/1",
+"proc": "12/17",
+"fee": null,
+"url": "https://www.shukutoku.ac.jp/extra/pdf/Shukutokunyushiguide2027.pdf"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募）12月",
+"apply": "11/16〜12/3（Web登録）",
+"exam": "12/13",
+"result": "12/18",
+"proc": "1/8",
+"fee": null,
+"url": "https://www.shukutoku.ac.jp/extra/pdf/Shukutokunyushiguide2027.pdf"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 A",
+"apply": "1/8〜1/21（Web登録）",
+"exam": "2/2・2/3（どちらか、または両日）",
+"result": "2/12",
+"proc": "2/24",
+"fee": 35000,
+"url": "https://www.shukutoku.ac.jp/extra/pdf/Shukutokunyushiguide2027.pdf",
+"note": "2回目以降の出願は15,000円"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 B",
+"apply": "1/28〜2/16（Web登録）",
+"exam": "2/25",
+"result": "3/3",
+"proc": "3/10",
+"fee": 35000,
+"url": "https://www.shukutoku.ac.jp/extra/pdf/Shukutokunyushiguide2027.pdf",
+"note": "2回目以降の出願は15,000円"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 C",
+"apply": "2/18〜3/4（Web登録）",
+"exam": "3/11",
+"result": "3/18",
+"proc": "3/24",
+"fee": 35000,
+"url": "https://www.shukutoku.ac.jp/extra/pdf/Shukutokunyushiguide2027.pdf",
+"note": "2回目以降の出願は15,000円"
 },
 {
 "kubun": "共テ利用",
 "name": "共通テスト利用選抜 1期",
-"apply": "1/8〜1/26",
+"apply": "1/8〜1/26（Web登録）",
 "exam": "1/16・1/17（共テ）",
 "result": "2/12",
 "proc": "2/24",
-"fee": null
+"fee": 15000,
+"url": "https://www.shukutoku.ac.jp/extra/pdf/Shukutokunyushiguide2027.pdf",
+"note": "一般選抜と同時に出願すると共テ利用の検定料は不要"
 },
 {
 "kubun": "共テ利用",
 "name": "共通テスト利用選抜 2期",
-"apply": "1/28〜2/16",
+"apply": "1/28〜2/16（Web登録）",
 "exam": "1/16・1/17（共テ）",
 "result": "3/3",
 "proc": "3/10",
-"fee": null
+"fee": 15000,
+"url": "https://www.shukutoku.ac.jp/extra/pdf/Shukutokunyushiguide2027.pdf",
+"note": "一般選抜と同時に出願すると共テ利用の検定料は不要"
 },
 {
 "kubun": "共テ利用",
 "name": "共通テスト利用選抜 3期",
-"apply": "2/18〜3/4",
+"apply": "2/18〜3/4（Web登録）",
 "exam": "1/16・1/17（共テ）",
 "result": "3/18",
 "proc": "3/24",
-"fee": null
-},
-{
-"kubun": "推薦",
-"name": "学校推薦型選抜（1回目）",
-"apply": "11/2〜11/12",
-"exam": "11/22（看護・栄養学科は11/21）",
-"result": "12/1",
-"proc": "12/17",
-"fee": null
-},
-{
-"kubun": "推薦",
-"name": "学校推薦型選抜（2回目）",
-"apply": "11/16〜12/3",
-"exam": "12/13",
-"result": "12/18",
-"proc": "1/8",
-"fee": null
+"fee": 15000,
+"url": "https://www.shukutoku.ac.jp/extra/pdf/Shukutokunyushiguide2027.pdf",
+"note": "一般選抜と同時に出願すると共テ利用の検定料は不要"
 }
 ],
-"note": "ベネッセ マナビジョン（2027年度入試）。7学部ともおおむね同じ日程。総合型選抜は8/1〜3/4の5回の出願期間があり、看護学科・栄養学科は日程・回数が異なる。推薦の回と日付の対応はページの並び順による。検定料は未確認"
+"note": "大学公式「入試ガイド2027」で一般・共テ利用・推薦の日程が既存と一致。総合型5回・検定料を追加。看護栄養学部以外は全学部同じ日程。出願書類の郵送はWeb登録の翌日まで（必着）"
 },
 "money": {
 "year": "2026年度",
@@ -220672,6 +220887,43 @@ null
 "note": "Kei-Net 2026年度入学者用。実験・実習費や教科書等の経費は別途、パソコンが必要"
 }
 ]
+},
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "特待生（A特待生）",
+"kind": "減免",
+"target": "総合型以外の対象入試（一般選抜A・B、共通テスト利用1・2期）の成績優秀者",
+"amount": "授業料のうち800,000円（看護学科は1,050,000円）",
+"timing": "入試時",
+"cond": "総合型・学校推薦型の入学予定者も一般A・B、共テ1・2期を受けて特待生をめざせる"
+},
+{
+"name": "特待生（B特待生）",
+"kind": "減免",
+"target": "一般選抜A・B、共通テスト利用1・2期の成績優秀者",
+"amount": "授業料のうち400,000円（看護学科は525,000円）",
+"timing": "入試時",
+"cond": null
+},
+{
+"name": "特待生（C特待生）",
+"kind": "減免",
+"target": "総合型選抜、一般選抜A・B、共通テスト利用1・2期の成績優秀者",
+"amount": "入学金相当額200,000円",
+"timing": "入試時",
+"cond": null
+},
+{
+"name": "入学金の免除（本学関係者）",
+"kind": "減免",
+"target": "淑徳大学卒業生の2親等以内の親族、在学生の兄弟姉妹（短大を除く）",
+"amount": "入学金免除",
+"timing": "入学時",
+"cond": null
+}
+]
 }
 },
 "浦和大学": {
@@ -220683,11 +220935,11 @@ null
 "faculties": "2026-11-09",
 "departments": "2026-11-09",
 "difficulty": "2026-11-09",
-"methods": "2026-11-09",
-"scholar": "2026-11-09",
-"_via": "2026-11-09",
-"schedule": "2026-11-12",
-"money": "2026-11-13"
+"methods": "2026-11-18",
+"scholar": "2026-11-18",
+"_via": "2026-11-18",
+"schedule": "2026-11-18",
+"money": "2026-11-18"
 },
 "departments": [
 {
@@ -220712,64 +220964,113 @@ null
 "list": [
 {
 "kubun": "総合型",
-"name": "総合型選抜（6など）",
+"name": "総合型選抜（1〜6期）",
 "kyotsu": "課さない",
 "niji": null,
 "content": null,
 "req": null,
-"url": "https://www.urawa.ac.jp/uradai-days/admission/"
+"url": "https://www.urawa.ac.jp/admission/index.php"
 },
 {
 "kubun": "推薦",
-"name": "学校推薦型選抜（Ⅲなど）",
+"name": "学校推薦型選抜（Ⅰ〜Ⅲ期）",
 "kyotsu": "課さない",
 "niji": null,
 "content": null,
 "req": null,
-"url": "https://www.urawa.ac.jp/uradai-days/admission/"
+"url": "https://www.urawa.ac.jp/admission/index.php"
 },
 {
 "kubun": "一般",
-"name": "一般選抜（Ⅰ期・Ⅱ期）",
+"name": "一般選抜 Ⅰ期",
 "kyotsu": "課さない",
 "niji": null,
-"content": null,
+"content": "国語（古文・漢文を除く、記述を一部含む）・英語の2科目＋調査書等で総合判定。英検（準2級＝70点〜準1級以上＝100点）・GTEC・TOEIC Bridgeを英語の得点に換算でき、本学の英語と高い方を採用。学科併願（最大3志望）可",
 "req": null,
-"url": "https://www.urawa.ac.jp/uradai-days/admission/"
+"url": "https://www.urawa.ac.jp/admission/general.html"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 Ⅱ期",
+"kyotsu": "課さない",
+"niji": null,
+"content": "国語1科目＋調査書等で総合判定",
+"req": null,
+"url": "https://www.urawa.ac.jp/admission/general.html"
 },
 {
 "kubun": "共テ利用",
-"name": "共通テスト利用選抜",
+"name": "共通テスト利用（Ⅰ・Ⅱ期）",
 "kyotsu": null,
 "niji": "課さない",
-"content": null,
+"content": "一般選抜との同時出願・学科併願（最大3志望）が可能",
 "req": null,
-"url": "https://passnavi.obunsha.co.jp/univ/1962/difficulty/"
+"url": "https://www.urawa.ac.jp/admission/general.html"
 }
 ]
 },
 "scholar": {
-"year": "2027年度",
+"year": "2026年度入学者用（受験生サイト）",
 "rows": [
 {
-"name": "学費支援制度（授業料半額免除）",
+"name": "特待生入試制度（全額特待）",
 "kind": "減免",
-"target": "経済的理由により学費納付が困難で意欲と能力がある学生",
-"amount": "年間授業料715,000円の半額（357,500円）免除",
-"timing": "在学中",
-"cond": "家計基準（父母等の収入合算額）および学業成績（入学後に基準通知）に該当すること"
+"target": "一般選抜・共通テスト利用の受験者、期限までに手続した総合型・学校推薦型の受験者",
+"amount": "授業料年715,000円を全額減免（1〜4年次）",
+"timing": "入試時",
+"cond": "試験の成績が極めて優秀"
 },
 {
-"name": "九里育英振興会奨学金",
-"kind": "貸与",
-"target": "経済的理由により学資の支弁が困難な学生",
+"name": "特待生入試制度（半額特待）",
+"kind": "減免",
+"target": "同上",
+"amount": "年357,500円減免（1〜4年次）",
+"timing": "入試時",
+"cond": "試験の成績が非常に優秀"
+},
+{
+"name": "特待生入試制度（1/4額特待）",
+"kind": "減免",
+"target": "同上",
+"amount": "年178,750円減免（1〜4年次）",
+"timing": "入試時",
+"cond": "試験の成績が優秀"
+},
+{
+"name": "資格による特待生制度",
+"kind": "減免",
+"target": "入学前に英検・GTEC・簿記・漢検・保育技術検定などの資格を持つ者",
+"amount": "全額（英検2級以上など）・半額（英検準2級プラス、漢検2級以上など）・1/4額（英検準2級など）・10万円（保育技術検定2級以上）を1・2年次に減免",
+"timing": "入学前",
+"cond": "資格証明書類の提出"
+},
+{
+"name": "世帯収入による学費減免制度",
+"kind": "減免",
+"target": "世帯収入が基準以下の学生",
 "amount": null,
 "timing": "在学中",
-"cond": "修学を奨励する貸与制度"
+"cond": "毎年申請・審査、最長4年。国の修学支援新制度の対象者・特待生とは重複不可"
+},
+{
+"name": "遠隔地からの入学者に対する家賃補助",
+"kind": "給付",
+"target": "自宅から1時限に間に合わない遠隔地出身で単身で賃貸住宅に住む学生",
+"amount": "月額25,000円（年12か月分、最長4年）",
+"timing": "在学中",
+"cond": "世帯収入基準あり"
+},
+{
+"name": "学習奨励金",
+"kind": "給付",
+"target": "在学中に公立の保育士・幼稚園・小中高教諭の採用試験に合格し就職した学生",
+"amount": "10万円",
+"timing": "在学中",
+"cond": null
 }
 ]
 },
-"_via": "external-ai",
+"_via": "external-ai-verified",
 "sources": [
 "https://www.urawa.ac.jp/",
 "https://www.urawa.ac.jp/uradai-days/admission/",
@@ -220777,11 +221078,108 @@ null
 "https://www.urawa.ac.jp/admission/support.html",
 "https://passnavi.obunsha.co.jp/univ/1962/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3168/nyushi/index.html",
-"https://search.keinet.ne.jp/2166/outline/expense"
+"https://search.keinet.ne.jp/2166/outline/expense",
+"https://www.urawa.ac.jp/admission/index.php",
+"https://www.urawa.ac.jp/admission/general.html",
+"https://www.urawa.ac.jp/boshu_yoko/pageindices/index28.html",
+"https://www.urawa.ac.jp/uradai-days/support/"
 ],
 "schedule": {
 "year": "2027年度入試",
 "rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜 1期",
+"apply": "9/1〜9/8",
+"exam": "9/12",
+"result": "11/2",
+"proc": "11/13",
+"fee": null,
+"url": "https://www.urawa.ac.jp/admission/index.php"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 2期",
+"apply": "9/9〜9/18",
+"exam": "9/26",
+"result": null,
+"proc": null,
+"fee": null,
+"url": "https://www.urawa.ac.jp/admission/index.php"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 3期",
+"apply": "9/28〜10/9",
+"exam": "10/17",
+"result": null,
+"proc": null,
+"fee": null,
+"url": "https://www.urawa.ac.jp/admission/index.php"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 4期",
+"apply": "11/9〜12/7",
+"exam": "12/12",
+"result": "12/17",
+"proc": "1/4",
+"fee": null,
+"url": "https://www.urawa.ac.jp/admission/index.php",
+"note": "特待生選抜を希望する場合は4期までに入学手続"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 5期",
+"apply": "1/4〜1/26",
+"exam": "2/4",
+"result": "2/12",
+"proc": "2/25",
+"fee": null,
+"url": "https://www.urawa.ac.jp/admission/index.php"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 6期",
+"apply": "2/10〜3/5",
+"exam": "3/10",
+"result": "3/16",
+"proc": "3/25",
+"fee": null,
+"url": "https://www.urawa.ac.jp/admission/index.php",
+"note": "募集人員に達した時点で終了"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 Ⅰ期",
+"apply": "11/2〜11/6",
+"exam": "11/14",
+"result": "12/1",
+"proc": "12/11",
+"fee": null,
+"url": "https://www.urawa.ac.jp/admission/index.php"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 Ⅱ期",
+"apply": "11/24〜12/7",
+"exam": "12/12",
+"result": "12/17",
+"proc": "1/4",
+"fee": null,
+"url": "https://www.urawa.ac.jp/admission/index.php",
+"note": "特待生選抜を希望する場合はⅡ期までに入学手続"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜 Ⅲ期",
+"apply": "2/5〜2/17",
+"exam": "2/22",
+"result": "2/27",
+"proc": "3/8",
+"fee": null,
+"url": "https://www.urawa.ac.jp/admission/index.php"
+},
 {
 "kubun": "一般",
 "name": "一般選抜 Ⅰ期",
@@ -220789,7 +221187,9 @@ null
 "exam": "2/1",
 "result": "2/9",
 "proc": "2/22",
-"fee": null
+"fee": 30000,
+"url": "https://www.urawa.ac.jp/admission/general.html",
+"note": "国語・英語の2科目"
 },
 {
 "kubun": "一般",
@@ -220798,76 +221198,37 @@ null
 "exam": "3/10",
 "result": "3/16",
 "proc": "3/25",
-"fee": null
+"fee": 30000,
+"url": "https://www.urawa.ac.jp/admission/general.html",
+"note": "国語1科目"
 },
 {
 "kubun": "共テ利用",
-"name": "共通テスト利用選抜 Ⅰ期",
+"name": "共通テスト利用 Ⅰ期",
 "apply": "1/4〜1/29",
 "exam": "1/16・1/17（共テ）",
 "result": "2/9",
 "proc": "2/22",
-"fee": null
+"fee": 12000,
+"url": "https://www.urawa.ac.jp/admission/general.html",
+"note": "一般選抜と同時出願なら検定料は一般の30,000円のみ"
 },
 {
 "kubun": "共テ利用",
-"name": "共通テスト利用選抜 Ⅱ期",
+"name": "共通テスト利用 Ⅱ期",
 "apply": "2/8〜3/5",
 "exam": "1/16・1/17（共テ）",
 "result": "3/16",
 "proc": "3/25",
-"fee": null
-},
-{
-"kubun": "推薦",
-"name": "学校推薦型選抜（公募推薦・専高総合学科推薦）1回目",
-"apply": "11/2〜11/6",
-"exam": "11/14",
-"result": "12/1",
-"proc": "12/11",
-"fee": null
-},
-{
-"kubun": "推薦",
-"name": "学校推薦型選抜（公募推薦・専高総合学科推薦）2回目",
-"apply": "11/24〜12/7",
-"exam": "12/12",
-"result": "12/17",
-"proc": "1/4",
-"fee": null
-},
-{
-"kubun": "推薦",
-"name": "学校推薦型選抜（公募推薦・専高総合学科推薦）3回目",
-"apply": "2/5〜2/17",
-"exam": "2/22",
-"result": "2/27",
-"proc": "3/8",
-"fee": null
-},
-{
-"kubun": "総合型",
-"name": "総合型選抜（面接型・体験授業型）",
-"apply": "9/1〜3/5（6回）",
-"exam": "9/12・9/26・10/17・12/12・2/4・3/10",
-"result": "11/2・12/17・2/12・3/16",
-"proc": "11/13・1/4・2/25・3/25",
-"fee": null
-},
-{
-"kubun": "総合型",
-"name": "総合型選抜（適性診断型）",
-"apply": "9/1〜12/7（4回）",
-"exam": "9/12・9/26・10/17・12/12",
-"result": "11/2・12/17",
-"proc": "11/13・1/4",
-"fee": null
+"fee": 12000,
+"url": "https://www.urawa.ac.jp/admission/general.html",
+"note": "一般選抜と同時出願なら検定料は一般の30,000円のみ"
 }
 ],
-"note": "ベネッセ マナビジョン（2027年度入試）。社会学部（総合福祉・現代社会）とこども学部（こども・学校教育）の全学科で同じ日程（ネット出願）。検定料は未確認"
+"note": "大学公式「募集定員・入試方法一覧」（2027年度）で既存の日程と一致。総合型を期ごとに分け、検定料（一般・共テ利用）を追加。総合型2・3期の発表・手続は一覧に記載なし。全4学科同じ日程"
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
 "f": "こども学部",
@@ -220878,7 +221239,7 @@ null
 "other": 142000,
 "first_year": 1437000,
 "four_year": null,
-"note": "Kei-Net 2026年度入学者用。other は諸会費42,000円＋教育活動・図書・福利厚生等の諸経費100,000円"
+"note": "大学公式 2027年度学生募集要項p.28。other は諸経費100,000円＋諸会費42,000円。卒業時に別途180,000円"
 },
 {
 "f": "社会学部 総合福祉学科",
@@ -220889,18 +221250,18 @@ null
 "other": 142000,
 "first_year": 1507000,
 "four_year": null,
-"note": "Kei-Net 2026年度入学者用。other は諸会費42,000円＋諸経費100,000円"
+"note": "大学公式 2027年度学生募集要項p.28。other は諸経費100,000円＋諸会費42,000円"
 },
 {
 "f": "社会学部 現代社会学科",
 "admission": 250000,
 "tuition": 715000,
 "facility": 280000,
-"practical": null,
+"practical": 0,
 "other": 142000,
 "first_year": 1387000,
 "four_year": null,
-"note": "Kei-Net 2026年度入学者用。教員免許状の取得を希望する場合は実習費等が別途必要"
+"note": "大学公式 2027年度学生募集要項p.28。教員免許状の取得を希望する場合は実習費等が別途必要"
 }
 ]
 }
