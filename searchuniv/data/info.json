@@ -78684,7 +78684,7 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
-"schedule": "2026-11-08",
+"schedule": "2026-11-18",
 "eng": "2026-11-16"
 },
 "fdiff": {
@@ -78894,7 +78894,8 @@
 "fee": 17000,
 "note": "全学部共通。後期日程は実施しない"
 }
-]
+],
+"note": "2026-11-18 大学公式の令和9年度学生募集要項（視覚障害系）・産業技術学部選抜要項で全行一致を確認"
 },
 "eng": {
 "year": "2027年度入試",
@@ -79047,7 +79048,7 @@
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
 "money": "2026-11-08",
-"schedule": "2026-11-08",
+"schedule": "2026-11-18",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
@@ -79211,7 +79212,8 @@
 "fee": 17000,
 "note": "出願期間は要項に記載なし。後期日程の区分はなし"
 }
-]
+],
+"note": "2026-11-18 大学公式「2027年度 入学者選抜に関する要項」で全行一致を確認"
 },
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -222071,14 +222073,14 @@ null
 "kyotsu": "2026-11-09",
 "methods": "2026-11-09",
 "subjects": "2026-11-09",
-"schedule": "2026-11-13",
-"money": "2026-11-13",
-"scholar": "2026-11-09",
+"schedule": "2026-11-18",
+"money": "2026-11-18",
+"scholar": "2026-11-18",
 "oc": "2026-11-09",
 "access": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-18"
 },
 "departments": [
 {
@@ -222186,27 +222188,62 @@ null
 "name": "総合型選抜入学試験 1期",
 "apply": "9/1〜9/11",
 "exam": "9/19",
-"result": null,
-"proc": null,
-"fee": 35000
+"result": "11/1",
+"proc": "11/1〜11/12",
+"fee": 35000,
+"note": "一次通過発表9/25",
+"url": "https://www.uekusa.ac.jp/wp/wp-content/uploads/2026/08/examinationannda_guidelines_20260824.pdf"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜入学試験 2期",
+"apply": "9/20〜10/15",
+"exam": "10/25",
+"result": "11/1",
+"proc": "11/1〜11/12",
+"fee": 35000,
+"url": "https://www.uekusa.ac.jp/wp/wp-content/uploads/2026/08/examinationannda_guidelines_20260824.pdf"
 },
 {
 "kubun": "総合型",
 "name": "総合型選抜入学試験 3期",
-"apply": "11/2〜12/7",
+"apply": "11/2〜12/8",
 "exam": "12/12",
 "result": "12/15",
-"proc": null,
-"fee": 35000
+"proc": "12/15〜12/21",
+"fee": 35000,
+"url": "https://www.uekusa.ac.jp/wp/wp-content/uploads/2026/08/examinationannda_guidelines_20260824.pdf"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜入学試験 4期（発達教育学部のみ）",
+"apply": "12/14〜3/9",
+"exam": "相談のうえ決定",
+"result": "試験の2日後",
+"proc": "選考結果通知日から10日間",
+"fee": 35000,
+"url": "https://www.uekusa.ac.jp/wp/wp-content/uploads/2026/08/examinationannda_guidelines_20260824.pdf"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 高大連携授業体験型 1期・2期",
+"apply": "1期9/1〜9/11／2期9/20〜10/15",
+"exam": "1期9/19／2期10/25",
+"result": "11/1",
+"proc": "11/1〜11/12",
+"fee": 35000,
+"note": "看護学部は募集なし",
+"url": "https://www.uekusa.ac.jp/wp/wp-content/uploads/2026/08/examinationannda_guidelines_20260824.pdf"
 },
 {
 "kubun": "推薦",
-"name": "学校推薦型選抜入学試験（公募推薦）",
-"apply": "11/1〜11/11",
+"name": "学校推薦型選抜入学試験（公募制・指定校制）",
+"apply": "11/1〜11/12",
 "exam": "11/19",
 "result": "12/1",
-"proc": null,
-"fee": 35000
+"proc": "12/1〜12/11",
+"fee": 35000,
+"url": "https://www.uekusa.ac.jp/wp/wp-content/uploads/2026/08/examinationannda_guidelines_20260824.pdf"
 },
 {
 "kubun": "一般",
@@ -222214,8 +222251,9 @@ null
 "apply": "1/5〜1/25",
 "exam": "2/2",
 "result": "2/5",
-"proc": "2/12",
-"fee": 35000
+"proc": "2/5〜2/12",
+"fee": 35000,
+"url": "https://www.uekusa.ac.jp/wp/wp-content/uploads/2026/08/examinationannda_guidelines_20260824.pdf"
 },
 {
 "kubun": "一般",
@@ -222224,7 +222262,8 @@ null
 "exam": "3/1",
 "result": "3/3",
 "proc": "3/3〜3/11",
-"fee": 35000
+"fee": 35000,
+"url": "https://www.uekusa.ac.jp/wp/wp-content/uploads/2026/08/examinationannda_guidelines_20260824.pdf"
 },
 {
 "kubun": "共テ利用",
@@ -222232,8 +222271,10 @@ null
 "apply": "12/16〜1/13",
 "exam": "本学個別試験なし",
 "result": "2/5",
-"proc": "〜2/12",
-"fee": 0
+"proc": "2/5〜2/12",
+"fee": 0,
+"note": "検定料は免除",
+"url": "https://www.uekusa.ac.jp/wp/wp-content/uploads/2026/08/examinationannda_guidelines_20260824.pdf"
 },
 {
 "kubun": "共テ利用",
@@ -222242,10 +222283,12 @@ null
 "exam": "本学個別試験なし",
 "result": "3/3",
 "proc": "3/3〜3/12",
-"fee": 0
+"fee": 0,
+"note": "検定料は免除",
+"url": "https://www.uekusa.ac.jp/wp/wp-content/uploads/2026/08/examinationannda_guidelines_20260824.pdf"
 }
 ],
-"note": "河合塾 Kei-Net の一般選抜日程（全学部共通、会場は本学）で、一般A日程の手続締切2/12と一般B日程の試験日3/1を補った。既存の発表日（2/5・3/3）と一致。総合型・推薦の発表・手続の空欄は未確認"
+"note": "2026-11-18 大学公式「2027（令和9）年度 入学試験要項」（2026.8.24）で全区分を確認。総合型3期の出願締切（12/8）・推薦の出願締切（11/12）を直し、総合型2期・4期・高大連携授業体験型と、総合型・推薦の発表・手続を補った"
 },
 "money": {
 "year": "2027年度",
@@ -222283,7 +222326,8 @@ null
 "four_year": null,
 "note": "施設費480,000円＋教育充実費180,000円。入学時最小限1,054,500円（パスナビ2027年度）"
 }
-]
+],
+"note": "2026-11-18 大学公式の2027年度入学試験要項で入学手続時納入金・1年次納入金合計が既存（パスナビ）と一致を確認"
 },
 "scholar": {
 "year": "2027年度",
@@ -222294,7 +222338,8 @@ null
 "target": "一般選抜A日程・共通テスト利用A日程の合格者",
 "amount": "入学金27万円＋最大4年間の授業料（年80〜85万円）全額免除",
 "timing": "入試時",
-"cond": "対象入試における合格者の成績上位20％以内"
+"cond": "対象入試における合格者の成績上位20％以内",
+"note": "他の区分で合格・手続済みでも一般A日程・共テ利用A日程に再出願すれば対象。最大免除額は発達教育347万円、保健医療・看護各367万円"
 },
 {
 "name": "在学生対象スカラシップ制度",
@@ -222303,8 +222348,33 @@ null
 "amount": "翌年度に200,000円を給付",
 "timing": "在学中",
 "cond": "各年次の成績上位5％以内"
+},
+{
+"name": "社会人特別選抜A日程 成績優秀者減免",
+"kind": "減免",
+"target": "社会人特別選抜A日程の成績優秀者",
+"amount": "入学金の半額と1〜4年次の授業料の半額を免除",
+"timing": "入試時",
+"cond": null
+},
+{
+"name": "系列校卒業者 入学金減免",
+"kind": "減免",
+"target": "植草学園の系列校（幼稚園・保育園・こども園を除く）の卒業者",
+"amount": "入学金の半額を減免",
+"timing": "入学時",
+"cond": null
+},
+{
+"name": "兄弟姉妹奨学金",
+"kind": "給付",
+"target": "兄弟姉妹が同時に在学する場合の下位学年の在学生1名",
+"amount": "奨学金を給付（金額は要項で確認）",
+"timing": "在学中",
+"cond": "一定の要件あり"
 }
-]
+],
+"note": "2026-11-18 大学公式の2027年度入学試験要項で確認"
 },
 "oc": {
 "year": 2026,
@@ -222335,7 +222405,7 @@ null
 "看護師・保健師受験資格（看護学科）"
 ],
 "careers": "小学校や児童福祉施設、病院、一般企業など専門資格を活かした分野へ就職している。",
-"_via": "external-ai",
+"_via": "external-ai-verified",
 "sources": [
 "https://www.uekusa.ac.jp/entrance_exam/admission_guide/",
 "https://www.uekusa.ac.jp/wp/wp-content/uploads/2026/08/mini_guidebook2027.pdf",
@@ -224329,10 +224399,10 @@ null
 },
 "_checked": {
 "difficulty": "2026-11-09",
-"scholar": "2026-11-09",
-"_via": "2026-11-09",
-"schedule": "2026-11-14",
-"money": "2026-11-13"
+"scholar": "2026-11-18",
+"_via": "2026-11-18",
+"schedule": "2026-11-18",
+"money": "2026-11-18"
 },
 "scholar": {
 "year": "2027年度",
@@ -224340,22 +224410,23 @@ null
 {
 "name": "特待生試験「プレトク」・「ゼントク」（学費免除タイプ）",
 "kind": "減免",
-"target": "2027年度入試受験者（詳細未確認）",
+"target": "全学部統一選抜（前期）の受験者でWeb出願時に希望した者（最大120名）",
 "amount": "入学金＋4年間の授業料を原則全額免除",
 "timing": "入試時",
-"cond": null
+"cond": "各学期終了後に継続審査あり"
 },
 {
 "name": "特待生試験「プレトク」・「ゼントク」（入学奨励タイプ）",
 "kind": "減免",
-"target": "2027年度入試受験者（詳細未確認）",
-"amount": "入学手続時の授業料から20万円減免",
+"target": "全学部統一選抜（前期）の受験者でWeb出願時に希望した者（最大380名）",
+"amount": "1年次春学期の授業料から20万円減免",
 "timing": "入試時",
 "cond": null
 }
-]
+],
+"note": "2026-11-18 大学公式の2027入学試験要項で対象・人数を確認。特待生試験の出願期間は11/18〜12/1、検定料10,000円"
 },
-"_via": "external-ai",
+"_via": "external-ai-verified",
 "sources": [
 "https://www.u-tokai.ac.jp/",
 "https://search.keinet.ne.jp/2245/general/border_rate",
@@ -224364,7 +224435,8 @@ null
 "https://www.u-tokai.ac.jp/uploads/2026/07/fb2eb8ddcb6ed821aff8928767b784c8.pdf",
 "https://search.keinet.ne.jp/2245/outline/expense",
 "https://www.u-tokai.ac.jp/uploads/2026/07/7f9b56029f64c4d62ce28fe4f6612c5d.pdf",
-"https://digitalpr.jp/r/135143"
+"https://digitalpr.jp/r/135143",
+"https://www.u-tokai.ac.jp/uploads/2021/02/3138531a9456e7e37c3281d7a941b022.pdf"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -224377,7 +224449,8 @@ null
 "result": "2/18",
 "proc": "2/27",
 "note": "学部により異なる（看護学科・芸術学科専門型・体育学部実技型は2/7・2/8）。同じ試験日なら併願数にかかわらず35,000円、試験日数に応じて2日40,000円・3日45,000円・4日50,000円（ステップ併願割）",
-"fee": 35000
+"fee": 35000,
+"url": "https://www.u-tokai.ac.jp/uploads/2021/02/3138531a9456e7e37c3281d7a941b022.pdf"
 },
 {
 "kubun": "一般",
@@ -224387,7 +224460,8 @@ null
 "result": "2/9",
 "proc": "2/18",
 "fee": 35000,
-"note": "同じ試験日なら併願数にかかわらず35,000円（フラット併願割）"
+"note": "同じ試験日なら併願数にかかわらず35,000円（フラット併願割）",
+"url": "https://www.u-tokai.ac.jp/uploads/2021/02/3138531a9456e7e37c3281d7a941b022.pdf"
 },
 {
 "kubun": "一般",
@@ -224397,7 +224471,8 @@ null
 "result": "3/6",
 "proc": "3/10",
 "fee": 35000,
-"note": "同じ試験日なら併願数にかかわらず35,000円（フラット併願割）"
+"note": "同じ試験日なら併願数にかかわらず35,000円（フラット併願割）",
+"url": "https://www.u-tokai.ac.jp/uploads/2021/02/3138531a9456e7e37c3281d7a941b022.pdf"
 },
 {
 "kubun": "一般",
@@ -224415,7 +224490,8 @@ null
 "result": "2/9",
 "proc": "2/18",
 "note": "医学科（神奈川県・静岡県地域枠）は発表2/18・手続2/24、航空宇宙学科航空操縦学専攻は発表2/20・手続2/27。最大6併願まで15,000円",
-"fee": 15000
+"fee": 15000,
+"url": "https://www.u-tokai.ac.jp/uploads/2021/02/3138531a9456e7e37c3281d7a941b022.pdf"
 },
 {
 "kubun": "共テ利用",
@@ -224425,7 +224501,8 @@ null
 "result": "2/18",
 "proc": "2/27",
 "fee": 15000,
-"note": "最大6併願まで15,000円"
+"note": "最大6併願まで15,000円",
+"url": "https://www.u-tokai.ac.jp/uploads/2021/02/3138531a9456e7e37c3281d7a941b022.pdf"
 },
 {
 "kubun": "共テ利用",
@@ -224435,7 +224512,8 @@ null
 "result": "3/14",
 "proc": "3/18",
 "fee": 15000,
-"note": "最大6併願まで15,000円"
+"note": "最大6併願まで15,000円",
+"url": "https://www.u-tokai.ac.jp/uploads/2021/02/3138531a9456e7e37c3281d7a941b022.pdf"
 },
 {
 "kubun": "総合型",
@@ -224449,288 +224527,324 @@ null
 "url": "https://www.u-tokai.ac.jp/uploads/2026/07/fb2eb8ddcb6ed821aff8928767b784c8.pdf"
 }
 ],
-"note": "一般・共テ利用の日程はベネッセ マナビジョン（2027年度入試）、検定料は大学の2027年度入試の発表（プレスリリース）、医学科特別選抜は大学公式の入学試験要項。医学部医学科の一般選抜の検定料は未確認"
+"note": "一般・共テ利用・全学部統一の日程と検定料は2026-11-18 大学公式「2027 入学試験要項（全学部統一・一般・共テ利用）」でマナビジョンの日程と一致を確認（併願割引：2つの入試で5,000円〜7つで30,000円引き、医学科併願は対象外）。医学科特別選抜は大学公式の入学試験要項。医学部医学科の一般選抜の検定料は未確認"
 },
 "money": {
-"year": "2026年度",
+"year": "2027年度",
 "rows": [
 {
 "f": "人文学部（静岡）",
 "admission": 150000,
-"tuition": 1261000,
+"tuition": null,
 "facility": null,
 "practical": null,
-"other": 59200,
-"first_year": 1470200,
+"other": null,
+"first_year": 1505660,
 "four_year": null,
-"note": "（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）"
 },
 {
 "f": "児童教育学部",
 "admission": 150000,
-"tuition": 1354000,
+"tuition": null,
 "facility": null,
 "practical": null,
-"other": 59200,
-"first_year": 1563200,
+"other": null,
+"first_year": 1601660,
 "four_year": null,
-"note": "（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）"
 },
 {
 "f": "教養学部",
 "admission": 150000,
-"tuition": 1354000,
+"tuition": null,
 "facility": null,
 "practical": null,
-"other": 59200,
-"first_year": 1563200,
+"other": null,
+"first_year": 1601660,
 "four_year": null,
-"note": "（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）"
 },
 {
 "f": "文化社会学部",
 "admission": 150000,
-"tuition": 1261000,
+"tuition": null,
 "facility": null,
 "practical": null,
-"other": 59200,
-"first_year": 1470200,
+"other": null,
+"first_year": 1505660,
 "four_year": null,
-"note": "（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）"
 },
 {
 "f": "観光学部",
 "admission": 150000,
-"tuition": 1272000,
+"tuition": null,
 "facility": null,
 "practical": null,
-"other": 59200,
-"first_year": 1481200,
+"other": null,
+"first_year": 1517660,
 "four_year": null,
-"note": "（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）"
 },
 {
 "f": "国際文化学部（北海道）",
 "admission": 150000,
-"tuition": 1119000,
+"tuition": null,
 "facility": null,
 "practical": null,
-"other": 59200,
-"first_year": 1328200,
+"other": null,
+"first_year": 1361660,
 "four_year": null,
-"note": "（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）"
 },
 {
 "f": "国際学部",
 "admission": 150000,
-"tuition": 1272000,
+"tuition": null,
 "facility": null,
 "practical": null,
-"other": 59200,
-"first_year": 1481200,
+"other": null,
+"first_year": 1517660,
 "four_year": null,
-"note": "（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）"
 },
 {
 "f": "法学部",
 "admission": 150000,
-"tuition": 1261000,
+"tuition": null,
 "facility": null,
 "practical": null,
-"other": 59200,
-"first_year": 1470200,
+"other": null,
+"first_year": 1505660,
 "four_year": null,
-"note": "（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）"
 },
 {
 "f": "政治経済学部",
 "admission": 150000,
-"tuition": 1272000,
+"tuition": null,
 "facility": null,
 "practical": null,
-"other": 59200,
-"first_year": 1481200,
+"other": null,
+"first_year": 1517660,
 "four_year": null,
-"note": "（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）"
 },
 {
 "f": "経営学部",
 "admission": 150000,
-"tuition": 1272000,
+"tuition": null,
 "facility": null,
 "practical": null,
-"other": 59200,
-"first_year": 1481200,
+"other": null,
+"first_year": 1517660,
 "four_year": null,
-"note": "（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）"
 },
 {
 "f": "理学部",
 "admission": 150000,
-"tuition": 1469000,
+"tuition": null,
 "facility": null,
 "practical": null,
-"other": 59200,
-"first_year": 1678200,
+"other": null,
+"first_year": 1717660,
 "four_year": null,
-"note": "（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）"
 },
 {
 "f": "工学部（航空操縦学専攻を除く）",
 "admission": 150000,
-"tuition": 1469000,
+"tuition": null,
 "facility": null,
 "practical": null,
-"other": 59200,
-"first_year": 1678200,
+"other": null,
+"first_year": 1717660,
 "four_year": null,
-"note": "航空無線通信士受験料などが別途必要（約40,000円、2024年度実績）（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）。医工学科は1,718,370円。航空無線通信士受験料などが別途必要"
 },
 {
 "f": "工学部 航空宇宙学科 航空操縦学専攻",
 "admission": 150000,
-"tuition": 1770000,
+"tuition": null,
 "facility": null,
 "practical": null,
-"other": 59200,
-"first_year": 1979200,
+"other": null,
+"first_year": 2025660,
 "four_year": null,
-"note": "航空無線通信士受験料などが別途必要（約40,000円、2024年度実績）（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）。航空無線通信士受験料などが別途必要"
 },
 {
 "f": "情報理工学部",
 "admission": 150000,
-"tuition": 1469000,
+"tuition": null,
 "facility": null,
 "practical": null,
-"other": 59200,
-"first_year": 1678200,
+"other": null,
+"first_year": 1717660,
 "four_year": null,
-"note": "（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）"
 },
 {
 "f": "情報通信学部",
 "admission": 150000,
-"tuition": 1469000,
+"tuition": null,
 "facility": null,
 "practical": null,
-"other": 59200,
-"first_year": 1678200,
+"other": null,
+"first_year": 1717660,
 "four_year": null,
-"note": "（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）"
 },
 {
 "f": "建築都市学部",
 "admission": 150000,
-"tuition": 1469000,
+"tuition": null,
 "facility": null,
 "practical": null,
-"other": 59200,
-"first_year": 1678200,
+"other": null,
+"first_year": 1717660,
 "four_year": null,
-"note": "（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）"
 },
 {
 "f": "農学部（熊本）",
 "admission": 150000,
-"tuition": 1395000,
+"tuition": null,
 "facility": null,
 "practical": null,
-"other": 59200,
-"first_year": 1604200,
+"other": null,
+"first_year": 1641660,
 "four_year": null,
-"note": "（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）"
 },
 {
 "f": "生物学部（北海道）生物学科",
 "admission": 150000,
-"tuition": 1354000,
+"tuition": null,
 "facility": null,
 "practical": null,
-"other": 59200,
-"first_year": 1563200,
+"other": null,
+"first_year": 1601660,
 "four_year": null,
-"note": "（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）"
 },
 {
 "f": "生物学部（北海道）海洋生物科学科",
 "admission": 150000,
-"tuition": 1354000,
+"tuition": null,
 "facility": null,
-"practical": 70000,
-"other": 59200,
-"first_year": 1633200,
+"practical": null,
+"other": null,
+"first_year": 1671660,
 "four_year": null,
-"note": "（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）"
 },
 {
 "f": "海洋学部（静岡）",
 "admission": 150000,
-"tuition": 1469000,
+"tuition": null,
 "facility": null,
-"practical": 81000,
-"other": 59200,
-"first_year": 1759200,
+"practical": null,
+"other": null,
+"first_year": 1798660,
 "four_year": null,
-"note": "（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）"
 },
 {
 "f": "医学部 医学科",
 "admission": 1000000,
-"tuition": 2148000,
-"facility": 3252000,
+"tuition": null,
+"facility": null,
 "practical": null,
-"other": 273200,
-"first_year": 6673200,
+"other": null,
+"first_year": 6722800,
 "four_year": null,
-"note": "6年制（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）"
 },
 {
 "f": "医学部 看護学科",
 "admission": 150000,
-"tuition": 1649000,
+"tuition": null,
 "facility": null,
 "practical": null,
-"other": 59200,
-"first_year": 1858200,
+"other": null,
+"first_year": 1902370,
 "four_year": null,
-"note": "（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）"
 },
 {
 "f": "体育学部",
 "admission": 150000,
-"tuition": 1354000,
+"tuition": null,
 "facility": null,
 "practical": null,
-"other": 59200,
-"first_year": 1563200,
+"other": null,
+"first_year": 1601660,
 "four_year": null,
-"note": "生涯スポーツ学科は実習費42,000円が別途（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）。生涯スポーツ学科は実習費が別途"
 },
 {
 "f": "健康学部",
 "admission": 150000,
-"tuition": 1354000,
+"tuition": null,
 "facility": null,
 "practical": null,
-"other": 59200,
-"first_year": 1563200,
+"other": null,
+"first_year": 1601660,
 "four_year": null,
-"note": "（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）"
 },
 {
 "f": "文理融合学部（熊本）",
 "admission": 150000,
-"tuition": 990000,
+"tuition": null,
 "facility": null,
 "practical": null,
-"other": 59200,
-"first_year": 1199200,
+"other": null,
+"first_year": 1229660,
 "four_year": null,
-"note": "（Kei-Net 2026年度入学者用。2027年度は未確認）"
+"note": "大学公式2027年度入学試験要項の初年度総合計（入学金・授業料・諸会費などを含む。内訳は未確認）。経営学科・地域社会学科の額（人間情報工学科は1,230,370円）"
 }
 ],
-"note": "大学公式「2027年度学費改定に関するFAQ」では2027年度の授業料を2026年度から約2％増額とある（金額は未掲載）。履修科目により実習費を徴収する場合あり"
+"note": "2026-11-18 大学公式「2027 入学試験要項」の学費表（2027年度入学者、春学期＋秋学期の合計）で置き換え。入学金は150,000円（医学科1,000,000円）。実習費・留学費用などは学科により別途"
+},
+"methods": {
+"list": [
+{
+"kubun": "一般",
+"name": "全学部統一選抜（前期・後期）",
+"kyotsu": "課さない",
+"niji": "3科目受験し高得点の2科目で判定（各100点・70分）。文系：英語・国語・地歴公民から1、理系：英語・数学・理科（物・化・生）から1。英語は必須、英語外部試験のスコア利用可",
+"content": null,
+"req": null,
+"note": "前期は特待生奨学金の対象",
+"url": "https://www.u-tokai.ac.jp/uploads/2021/02/3138531a9456e7e37c3281d7a941b022.pdf"
+},
+{
+"kubun": "一般",
+"name": "一般選抜",
+"kyotsu": "課さない",
+"niji": "3教科型（英語必須、国語・数学・理科・地歴公民などから学科の併願グループA〜Eごとに選択）",
+"content": "教養学部芸術学科［専門試験型］・体育学部［実技試験型］は専門・実技試験",
+"req": null,
+"note": "2/7〜2/10から受験日を選択",
+"url": "https://www.u-tokai.ac.jp/uploads/2021/02/3138531a9456e7e37c3281d7a941b022.pdf"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜（前期・中期・後期）",
+"kyotsu": "英語（リスニング含む）必須、国語・数学・理科・地歴公民・情報などを学科ごとに指定（多くの学科は600点満点）",
+"niji": "なし",
+"content": null,
+"req": null,
+"url": "https://www.u-tokai.ac.jp/uploads/2021/02/3138531a9456e7e37c3281d7a941b022.pdf"
+}
+],
+"summary": "全学部統一（前期・後期）・一般（試験日選択制）・共テ利用（前期・中期・後期）を実施",
+"note": "2026-11-18 大学公式の2027入学試験要項（全学部統一・一般・共テ利用）で確認。推薦・総合型・医学部医学科は未記入",
+"year": "2027年度入試"
 }
 },
 "高崎商科大学": {
