@@ -81386,7 +81386,8 @@
 "https://www.mext.go.jp/a_menu/koutou/kouritsu/04093001/015.htm",
 "https://manabi.benesse.ne.jp/daigaku/school/2003/nyushi/",
 "https://search.keinet.ne.jp/1507/outline/expense",
-"https://search.keinet.ne.jp/1507/general/exam_fee"
+"https://search.keinet.ne.jp/1507/general/exam_fee",
+"https://www.fun.ac.jp/wp/wp-content/uploads/r9admission-youkou.pdf"
 ],
 "kyotsu": {
 "kamoku": "5教科6科目",
@@ -81569,7 +81570,7 @@
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
 "money": "2026-11-08",
-"schedule": "2026-11-08",
+"schedule": "2026-11-18",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -81623,46 +81624,47 @@
 ]
 },
 "schedule": {
-"year": "2027年度入試（ベネッセ マナビジョン掲載）",
+"year": "2027年度入試",
 "rows": [
 {
 "kubun": "総合型",
 "name": "総合型選抜",
-"apply": "2026/9/15〜9/25（ネット出願）",
-"exam": "10/31・11/1",
+"apply": "9/15〜9/25",
+"exam": "10/31（適性検査）・11/1（面接）",
 "result": "11/6",
 "proc": "",
-"note": ""
+"note": "募集35名。第1次選考を行う場合の結果は10/9"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型（はこだて枠・地域枠・全国枠）",
-"apply": "2026/11/4〜11/13（ネット出願）",
-"exam": "11/28・11/29",
+"apply": "11/4〜11/13",
+"exam": "11/28（適性検査）・11/29（面接）",
 "result": "12/4",
 "proc": "12/11",
-"note": "手続締切はKei-Net"
+"note": "募集 はこだて枠12・地域枠40・全国枠15。手続締切はKei-Net"
 },
 {
 "kubun": "一般",
 "name": "一般 前期",
-"apply": "1/25〜2/3（ネット出願）",
+"apply": "1/25〜2/3",
 "exam": "2/25",
 "result": "3/6",
 "proc": "3/15",
 "fee": 17000,
-"note": "検定料はKei-Netの2026年度入試の額"
+"note": "募集120名。検定料はKei-Netの2026年度入試の額（選抜要項に金額の記載なし）"
 },
 {
 "kubun": "一般",
 "name": "一般 後期",
-"apply": "1/25〜2/3（ネット出願）",
+"apply": "1/25〜2/3",
 "exam": "",
 "result": "3/20",
 "proc": "3/27",
-"note": "マナビジョンでは「共通テスト利用 後期」と表記、個別試験日の掲載なし"
+"note": "募集18名。個別試験なし（共通テストのみ）"
 }
-]
+],
+"note": "2026-11-18 大学公式「令和9（2027）年度 入学者選抜要項」で出願期間・試験日・合格発表日が既存と一致を確認。手続締切は要項に記載なし（既存の値）"
 },
 "eng": {
 "year": "2027年度入試",
@@ -81774,7 +81776,8 @@
 "https://search.keinet.ne.jp/1509/outline/expense",
 "https://search.keinet.ne.jp/1509/general/exam_subject",
 "https://manabi.benesse.ne.jp/daigaku/school/2007/syusyoku/",
-"https://passnavi.obunsha.co.jp/univ/1538/eiken/"
+"https://passnavi.obunsha.co.jp/univ/1538/eiken/",
+"https://www.chitose.ac.jp/uploads/files/exam/%E5%85%A5%E5%AD%A6%E8%80%85%E9%81%B8%E6%8A%9C/2027nyugakusenbatu_youko.pdf"
 ],
 "methods": {
 "year": "2027年度入試",
@@ -81877,7 +81880,7 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
-"schedule": "2026-11-08",
+"schedule": "2026-11-18",
 "kyotsu": "2026-11-15",
 "licenses": "2026-11-15",
 "eng": "2026-11-16"
@@ -82014,13 +82017,44 @@
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "総合型",
+"name": "総合型選抜",
+"apply": "9/1〜9/8",
+"exam": "Web学習9/12〜9/25、1次結果10/9、2次（スクーリング・面接）10/25",
+"result": "11/3",
+"proc": "11/4〜11/13",
+"fee": 17000,
+"note": "募集18名。共通テスト免除"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜A（千歳地区）",
+"apply": "11/4〜11/13",
+"exam": "11/28・11/29",
+"result": "12/11",
+"proc": "12/12〜12/21",
+"fee": 17000,
+"note": "募集12名。出願者数により28日のみ"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜B（全国）",
+"apply": "11/4〜11/13",
+"exam": "11/28・11/29",
+"result": "12/11",
+"proc": "12/12〜12/21",
+"fee": 17000,
+"note": "募集30名。出願者数により28日のみ"
+},
+{
 "kubun": "一般",
 "name": "一般 前期",
 "apply": "1/25〜2/3",
 "exam": "2/25",
 "result": "3/6",
-"proc": "3/15",
-"note": "共通テスト1/16・17。理工学部（パスナビ、8月末時点）"
+"proc": "3/7〜3/15",
+"fee": 17000,
+"note": "募集125名。共通テスト1/16・17"
 },
 {
 "kubun": "一般",
@@ -82028,10 +82062,12 @@
 "apply": "1/25〜2/3",
 "exam": "3/8",
 "result": "3/20",
-"proc": "3/27",
-"note": "共通テスト1/16・17。理工学部（パスナビ、8月末時点）"
+"proc": "3/21〜3/27",
+"fee": 17000,
+"note": "募集55名。第1段階選抜（募集人員の12倍超）の結果2/12"
 }
-]
+],
+"note": "2026-11-18 大学公式「令和9（2027）年度 入学者選抜要項」で確認。一般の日程は既存（パスナビ）と一致し、総合型・推薦と検定料を追加"
 },
 "kyotsu": {
 "kamoku": "5教科7科目",
@@ -223201,25 +223237,72 @@ null
 ],
 "_checked": {
 "departments": "2026-11-09",
-"methods": "2026-11-09",
-"scholar": "2026-11-09",
-"_via": "2026-11-09",
-"schedule": "2026-11-12",
+"methods": "2026-11-18",
+"scholar": "2026-11-18",
+"_via": "2026-11-18",
+"schedule": "2026-11-18",
 "money": "2026-11-13"
 },
 "methods": {
 "year": "2027年度入試",
+"summary": "一般選抜Ⅰ期（2科目）・Ⅱ期（1科目）、共通テスト利用（前期は上位2教科、中期・後期は上位1教科。個別試験なし）、学校推薦型（Ⅰ期・Ⅱ期）。共テ利用前期が特待生選抜を兼ねる",
 "list": [
 {
 "kubun": "一般",
 "name": "一般選抜Ⅰ期",
 "kyotsu": null,
 "niji": null,
+"content": "選択科目1：英語・国語から1科目（60分）、選択科目2：数学・理科から1科目（60分）、調査書（参考程度）",
+"req": null,
+"url": "https://www.gmu.ac.jp/admission/schedule/general_selection/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜Ⅱ期",
+"kyotsu": null,
+"niji": null,
+"content": "国語・数学から1科目（60分）、調査書（参考程度）",
+"req": null,
+"url": "https://www.gmu.ac.jp/admission/schedule/general_selection/"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用（前期）",
+"kyotsu": "英語・国語・数学・理科・情報のうち高得点の2教科",
+"niji": "なし",
 "content": null,
 "req": null,
-"url": "https://www.gmu.ac.jp/information/61296.html"
+"url": "https://www.gmu.ac.jp/admission/schedule/common_selection/"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用（中期・後期）",
+"kyotsu": "英語・国語・数学・理科・情報のうち高得点の1教科",
+"niji": "なし",
+"content": null,
+"req": null,
+"url": "https://www.gmu.ac.jp/admission/schedule/common_selection/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（Ⅰ期・Ⅱ期）",
+"kyotsu": "課さない",
+"niji": null,
+"content": "面接・口頭試問・事前課題・志望理由書・書類",
+"req": "出願条件は学生募集要項で確認",
+"url": "https://www.gmu.ac.jp/admission/schedule/recommendation_selection/"
+},
+{
+"kubun": "推薦",
+"name": "学校指定推薦型選抜",
+"kyotsu": "課さない",
+"niji": null,
+"content": "非公開（在籍校の先生に問い合わせ）",
+"req": null,
+"url": "https://www.gmu.ac.jp/admission/net_entry/shiteiko2027/"
 }
-]
+],
+"note": "2026-11-18 大学公式で確認。配点・総合型選抜の日程はページに記載なし（学生募集要項 https://www.gmu.ac.jp/wp2024/wp-content/uploads/2026/2027yoko_daigaku.pdf）"
 },
 "scholar": {
 "year": "2027年度",
@@ -223231,21 +223314,79 @@ null
 "amount": "1年間の授業料相当額を給付",
 "timing": "入試時",
 "cond": "2027年度一般選抜Ⅰ期において優秀な成績を収めた者"
-}
-]
 },
-"_via": "external-ai",
+{
+"name": "特待生S（授業料全額免除）",
+"kind": "減免",
+"target": "医療保健学部 看護学科・栄養学科",
+"amount": "年額 看護100万円・栄養95万円（最大4年、毎年継続審査）",
+"timing": "入試時（共通テスト利用前期またはチャレンジ制度）",
+"cond": "共テ利用前期・チャレンジ制度の受験者のうち高得点の上位者。若干名。他の本学奨学金と併用不可"
+},
+{
+"name": "特待生A（授業料半額免除）",
+"kind": "減免",
+"target": "医療保健学部 看護学科・栄養学科",
+"amount": "年額 看護50万円・栄養47.5万円（最大4年、毎年継続審査）",
+"timing": "入試時（共通テスト利用前期またはチャレンジ制度）",
+"cond": "特待生Sと同じ選考"
+},
+{
+"name": "特待生B（授業料3分の1免除）",
+"kind": "減免",
+"target": "医療保健学部 看護学科・栄養学科",
+"amount": "年額 看護33.3万円・栄養31.6万円（最大4年、毎年継続審査）",
+"timing": "入試時（共通テスト利用前期またはチャレンジ制度）",
+"cond": "特待生Sと同じ選考"
+},
+{
+"name": "チャレンジ制度",
+"kind": "減免",
+"target": "医療保健学部 看護学科・栄養学科",
+"amount": "特待生S・A・Bの選考を受けられる（申請料不要）",
+"timing": "入学手続後",
+"cond": "総合型・学校推薦型（学校指定推薦型含む）・特別選抜の合格者で入学手続を完了し、共通テストを受験した者。不採用でも合格は失われない"
+}
+],
+"note": "特待生制度は大学公式「特待生制度」ページ（2026年度入試の実績。2027年度は学生募集要項で確認）。授業料（看護100万円・栄養95万円）は既存の学費と一致"
+},
+"_via": "external-ai-verified",
 "sources": [
 "https://www.gmu.ac.jp/information/57062.html",
 "https://www.gmu.ac.jp/information/61296.html",
 "https://www.gmu.ac.jp/admission/infection/",
 "https://www.kyodo.co.jp/news/2025-04-25_3933883/",
 "https://manabi.benesse.ne.jp/daigaku/school/3141/nyushi/gokaku-happyo/index.html",
-"https://search.keinet.ne.jp/2130/outline/expense"
+"https://search.keinet.ne.jp/2130/outline/expense",
+"https://www.gmu.ac.jp/admission/schedule/general_selection/",
+"https://www.gmu.ac.jp/admission/schedule/common_selection/",
+"https://www.gmu.ac.jp/admission/schedule/recommendation_selection/",
+"https://www.gmu.ac.jp/admission/net_entry/",
+"https://www.gmu.ac.jp/admission/special/"
 ],
 "schedule": {
 "year": "2027年度入試",
 "rows": [
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜Ⅰ期",
+"apply": "11/1〜11/10",
+"exam": "11/14",
+"result": "12/1",
+"proc": "12/16",
+"fee": 30000,
+"note": "面接・口頭試問・事前課題・志望理由書・書類"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜Ⅱ期",
+"apply": "11/24〜12/7",
+"exam": "12/12",
+"result": "12/17",
+"proc": "2027/1/12",
+"fee": 30000,
+"note": "面接・口頭試問・事前課題・志望理由書・書類"
+},
 {
 "kubun": "一般",
 "name": "一般選抜Ⅰ期",
@@ -223253,7 +223394,8 @@ null
 "exam": "2/4",
 "result": "2/12",
 "proc": "3/8",
-"fee": null
+"fee": 30000,
+"note": "会場：本学・新潟・長野"
 },
 {
 "kubun": "一般",
@@ -223262,7 +223404,8 @@ null
 "exam": "2/19",
 "result": "2/26",
 "proc": "3/12",
-"fee": null
+"fee": 30000,
+"note": "会場：本学"
 },
 {
 "kubun": "共テ利用",
@@ -223271,7 +223414,8 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "2/12",
 "proc": "3/8",
-"fee": null
+"fee": 15000,
+"note": "特待生選抜の対象"
 },
 {
 "kubun": "共テ利用",
@@ -223280,7 +223424,7 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "2/26",
 "proc": "3/12",
-"fee": null
+"fee": 15000
 },
 {
 "kubun": "共テ利用",
@@ -223289,10 +223433,10 @@ null
 "exam": "1/16・1/17（共テ）",
 "result": "3/17",
 "proc": "3/25",
-"fee": null
+"fee": 15000
 }
 ],
-"note": "ベネッセ マナビジョン（2027年度入試）。医療保健学部 看護学科・栄養学科で同じ日程（ネット出願）。検定料は未確認"
+"note": "2026-11-18 大学公式の一般選抜・共通テスト利用選抜・学校推薦型選抜のページで確認。一般・共テ利用は既存（マナビジョン）と一致。医療保健学部 看護学科・栄養学科で同じ日程。検定料は公式「インターネット出願」ページ（共テ利用15,000円・その他30,000円、別に振込手数料）"
 },
 "money": {
 "year": "2026年度",
@@ -223342,30 +223486,31 @@ null
 ],
 "_checked": {
 "departments": "2026-11-09",
-"methods": "2026-11-09",
-"schedule": "2026-11-13",
-"scholar": "2026-11-09",
-"_via": "2026-11-09",
-"money": "2026-11-14"
+"methods": "2026-11-18",
+"schedule": "2026-11-18",
+"scholar": "2026-11-18",
+"_via": "2026-11-18",
+"money": "2026-11-18"
 },
 "methods": {
 "year": "2027年度入試",
+"summary": "一般選抜（募集40名。国語・英語、楽典・聴音・新曲視唱・副科ピアノ、専攻実技）、総合型選抜（A日程・B日程、専願）、総合型選抜（特待生・ピアノ／弦楽器）、総合型選抜（飛び入学）、学校推薦型選抜（指定校）",
 "list": [
 {
 "kubun": "一般",
 "name": "一般選抜",
-"kyotsu": null,
-"niji": null,
-"content": null,
-"req": null,
-"url": "https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/sougougata2027/"
+"kyotsu": "課さない",
+"niji": "一般学科（国語・英語、2教科90分）、専門科目（楽典60分・聴音・新曲視唱・副科ピアノ）、専攻実技",
+"content": "ミュージコロジー専攻は専攻実技を受ければ一般学科免除。作曲「創作」・指揮は楽典なし。ピアノ・チェンバロ・作曲・指揮は副科ピアノなし",
+"req": "高校卒業（2027年3月卒業見込み含む）等",
+"url": "https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/ippan2027/"
 },
 {
 "kubun": "総合型",
 "name": "総合型選抜（総合型入試A日程・B日程）",
 "kyotsu": "課さない",
 "niji": null,
-"content": null,
+"content": "楽典・聴音・新曲視唱・副科ピアノ（指揮は理論ピアノ・スコアリーディング）、専攻実技・面接、学修計画書（出願時）。認定証の科目は免除",
 "req": "高校卒業（2027年3月卒業見込み含む）等かつ本学専願",
 "url": "https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/sougougata2027/"
 },
@@ -223374,8 +223519,8 @@ null
 "name": "総合型選抜（特待生）",
 "kyotsu": "課さない",
 "niji": null,
-"content": "一次試験：書類審査、二次試験：専攻実技・面接",
-"req": "2027年3月高校卒業見込で専願、コンクール・演奏活動で顕著な実績を有する者",
+"content": "一次試験：書類審査、二次試験：専攻実技・面接（Ⅰ期・Ⅱ期）",
+"req": "2027年3月高校卒業見込で専願、コンクール・演奏活動で顕著な実績を有する者（ピアノ・弦楽器専攻）",
 "url": "https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/tokutai2027/"
 },
 {
@@ -223386,8 +223531,18 @@ null
 "content": null,
 "req": "高校2年（中等教育学校5年）在学で2027年3月31日において満17歳以下の者",
 "url": "https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/tobikyu2027/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（指定校）",
+"kyotsu": "課さない",
+"niji": null,
+"content": "非公開（対象校は指定による）",
+"req": null,
+"url": "https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/shiteiko2027/"
 }
-]
+],
+"note": "2026-11-18 大学公式の募集要項ページで確認"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -223399,16 +223554,27 @@ null
 "exam": "10/31〜11/1",
 "result": "11/11",
 "proc": "11/23",
-"fee": null
+"fee": 55000
 },
 {
 "kubun": "総合型",
-"name": "総合型選抜（総合型特待ピアノ・弦楽器）",
+"name": "総合型選抜（特待生Ⅰ期・ピアノ・弦楽器）",
 "apply": "10/1〜10/8",
-"exam": "11/7",
+"exam": "一次（書類）発表10/22、二次11/7",
 "result": "11/11",
-"proc": "11/23",
-"fee": null
+"proc": null,
+"fee": 55000,
+"note": "郵送必着。手続締切は公式ページに記載なし"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（特待生Ⅱ期・ピアノ・弦楽器）",
+"apply": "11/9〜11/19",
+"exam": "一次（書類）発表11/30、二次 ピアノ12/15・弦楽器12/16",
+"result": "12/18",
+"proc": null,
+"fee": 55000,
+"note": "Ⅰ期不合格者はⅡ期の検定料免除。不合格で一般選抜を受ける場合は一般の検定料免除"
 },
 {
 "kubun": "一般",
@@ -223417,7 +223583,8 @@ null
 "exam": "2/9〜2/13",
 "result": "2/17",
 "proc": "3/15",
-"fee": null
+"fee": 55000,
+"note": "会場：仙川・調布キャンパス"
 },
 {
 "kubun": "総合型",
@@ -223426,10 +223593,10 @@ null
 "exam": "3/20",
 "result": "3/20",
 "proc": "3/24",
-"fee": null
+"fee": 55000
 }
 ],
-"note": "音楽学部 音楽学科。ネット出願。ベネッセ マナビジョン（2027年度入試、2026年11月確認）。検定料は出典に記載なし"
+"note": "音楽学部 音楽学科。2026-11-18 大学公式の2027年度募集要項ページ（一般選抜・総合型A/B・特待生）で確認。既存（マナビジョン）の日程と一致し、検定料55,000円と特待生Ⅱ期を追加"
 },
 "scholar": {
 "year": "2027年度",
@@ -223437,21 +223604,66 @@ null
 {
 "name": "総合型選抜（特待生）学納金免除",
 "kind": "減免",
-"target": "総合型選抜（特待生）合格者",
-"amount": "初年度の授業料全額または一部の学納金を免除",
+"target": "ピアノ・弦楽器専攻（総合型選抜（特待生）合格者）",
+"amount": "初年度の授業料の全額または一部を免除",
 "timing": "入試時",
 "cond": "入試成績により決定。翌年度以降は入学後の実技試験等の成績により毎年審査"
-}
-]
 },
-"_via": "external-ai",
+{
+"name": "特待生制度",
+"kind": "減免",
+"target": "音楽学部",
+"amount": "入学金・運営維持費・授業料などの全額または一部を免除",
+"timing": "入試時／在学中（学内試験）",
+"cond": "入学試験または学内試験の専門実技で極めて優秀と認められた者"
+},
+{
+"name": "仙川キャンパス奨学金",
+"kind": "給付",
+"target": "音楽学部",
+"amount": "授業料の1〜4割（2025年度入学者：4割57.8万円〜1割14.45万円）",
+"timing": "入学前（入試書類と一緒に申請）／在学中（例年5月）",
+"cond": "原則として日本学生支援機構の基準に準拠"
+},
+{
+"name": "桐朋学園音楽部門奨学金",
+"kind": "給付",
+"target": "音楽学部",
+"amount": "授業料に充てる相当額",
+"timing": "在学中（年1回選考）",
+"cond": "成績良好で経済的理由により修学が困難な者"
+},
+{
+"name": "桐朋学園音楽部門同窓会奨学金",
+"kind": "給付",
+"target": "音楽学部2年生",
+"amount": "1名10万円（毎年7名前後）",
+"timing": "在学中",
+"cond": "向学心があり経済的理由で修学が困難な者"
+},
+{
+"name": "チェロアンサンブル・サイトウ奨学金",
+"kind": "給付",
+"target": "チェロ専攻",
+"amount": "1名10万円",
+"timing": "入試時",
+"cond": "入学試験で秀抜な評価を得た者"
+}
+],
+"note": "大学公式「特待生制度・奨学金制度」で確認"
+},
+"_via": "external-ai-verified",
 "sources": [
 "https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/sougougata2027/",
 "https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/tokutai2027/",
 "https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/tobikyu2027/",
 "https://manabi.benesse.ne.jp/daigaku/school/3296/nyushi/gokaku-happyo/",
 "https://search.keinet.ne.jp/2263/outline/expense",
-"https://up-j.shigaku.go.jp/department/category06/00000000265501001.html"
+"https://up-j.shigaku.go.jp/department/category06/00000000265501001.html",
+"https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/",
+"https://www.tohomusic.ac.jp/college/admissions/c-boshuyoko/ippan2027/",
+"https://www.tohomusic.ac.jp/college/admissions/c-fee/",
+"https://www.tohomusic.ac.jp/college/campuslife/scholarship/"
 ],
 "money": {
 "year": "2026年度",
@@ -223466,11 +223678,11 @@ null
 "practical": null,
 "other": 6600,
 "first_year": 2301600,
-"four_year": null,
-"note": "施設/教育充実費等690,000円（大学ポートレートでは施設設備資金390,000円＋教育充実費300,000円）。外国人教師の特別レッスン・選択副科・室内楽・二重奏ソナタ・教職課程の受講料は別途"
+"four_year": 8726400,
+"note": "施設/教育充実費等＝施設設備費390,000円＋教育充実費300,000円。学生会費6,600円。選択副科・室内楽・二重奏ソナタ・教職課程の受講料、外国人教師等の特別レッスン料は別途。寄付金・学債なし"
 }
 ],
-"note": "河合塾 Kei-Net（2026年度入学者用）。2027年度は未確認"
+"note": "大学公式「学費－入学金・授業料等」（2025・2026年度入学生）で Kei-Net と一致を確認。入学手続時1,380,800円・後期920,800円"
 }
 },
 "松蔭大学": {
