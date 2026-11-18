@@ -93477,10 +93477,37 @@
 1
 ],
 "note": "募集人員80人"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜",
+"kyotsu": null,
+"niji": "書類と面接（300点）",
+"content": null,
+"req": null,
+"note": "募集人員56名（パスナビ）"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（一般枠）",
+"kyotsu": "課さない",
+"niji": "面接・プレゼンテーション（計600点）、書類審査（200点）",
+"content": "出願書類：調査書・教員志望理由書・活動実績報告書・学習計画書",
+"req": "卒業後2年以内、専願、評定3.5以上、活動歴等または取得資格のいずれかに該当",
+"note": "募集人員16名"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（地域教員希望枠）",
+"kyotsu": "課さない",
+"niji": "面接（300点）、小論文（300点）、書類審査（200点）",
+"content": "出願書類：調査書・教員志望理由書・地域教員希望枠受験の理由書・学修計画書",
+"req": "卒業後2年以内、専願、評定3.5以上",
+"note": "募集人員8名。試験10/18"
 }
 ],
 "summary": "一般は前期のみ掲載で、二次は学力試験ではなく小論文と面接。推薦・総合型は未確認。",
-"note": "Kei-Net の科目ページは前期のみ掲載。推薦・総合型は未確認"
+"note": "前期はKei-Net科目ページ、総合型はKei-Net（2027年度）、推薦はパスナビで確認。推薦の共通テストの扱いは要確認"
 },
 "sources": [
 "https://search.keinet.ne.jp/outline/licential_sp/1320",
@@ -93488,7 +93515,9 @@
 "https://search.keinet.ne.jp/1320/outline/admission_employment",
 "https://search.keinet.ne.jp/1320/general/exam_subject",
 "https://search.keinet.ne.jp/1320/outline/expense",
-"https://www.hyogo-u.ac.jp/admission/education/schedule.php"
+"https://www.hyogo-u.ac.jp/admission/education/schedule.php",
+"https://search.keinet.ne.jp/1320/recommend/exam_ao",
+"https://passnavi.obunsha.co.jp/univ/0640/suisen/"
 ],
 "departments": [
 {
@@ -93514,7 +93543,7 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-09",
+"schedule": "2026-11-18",
 "money": "2026-11-09",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
@@ -93539,7 +93568,7 @@
 "exam": "11/26",
 "result": "2/10",
 "proc": "2/17",
-"note": ""
+"note": "パスナビ（2026年7月末時点）は出願期間11/2〜11/9・選考は書類と面接（300点）と掲載。大学公式の入試日程ページ（10/26〜11/9）を優先"
 },
 {
 "kubun": "一般",
@@ -94654,7 +94683,8 @@
 "https://search.keinet.ne.jp/1325/outline/expense",
 "https://www.nara-edu.ac.jp/assets/nyuusi/r9%20senbatsu-01.pdf",
 "https://search.keinet.ne.jp/1325/outline/licential",
-"https://search.keinet.ne.jp/1325/outline/admission_employment"
+"https://search.keinet.ne.jp/1325/outline/admission_employment",
+"https://telemail.jp/shingaku/university/10003458/examination/general"
 ],
 "departments": [
 {
@@ -94995,7 +95025,7 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-09",
+"schedule": "2026-11-18",
 "money": "2026-11-09",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
@@ -216030,13 +216060,13 @@ null
 "departments": "2026-11-09",
 "difficulty": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-13",
-"scholar": "2026-11-09",
+"schedule": "2026-11-18",
+"scholar": "2026-11-18",
 "eng": "2026-11-09",
 "oc": "2026-11-09",
 "access": "2026-11-09",
 "licenses": "2026-11-09",
-"_via": "2026-11-09",
+"_via": "2026-11-18",
 "money": "2026-11-14"
 },
 "departments": [
@@ -216152,12 +216182,31 @@ null
 "rows": [
 {
 "kubun": "一般",
+"name": "全学部一般選抜 R方式",
+"apply": "1/4〜1/18",
+"exam": "2/1",
+"result": "2/15",
+"proc": "2/20",
+"fee": 35000,
+"note": "立正大学チャレンジ奨学生の応募者対象の方式"
+},
+{
+"kubun": "一般",
 "name": "全学部一般選抜 2月試験（前期）",
 "apply": "1/4〜1/18",
-"exam": "2/1・2/3・2/4・2/5",
+"exam": "2/3・2/4・2/5",
 "result": "2/15",
 "proc": "2/20",
 "fee": 35000
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト併用型（データサイエンス学部）",
+"apply": "1/4〜1/18",
+"exam": "2/3〜2/5（自由選択）",
+"result": "2/15",
+"proc": "2/20",
+"fee": null
 },
 {
 "kubun": "一般",
@@ -216193,7 +216242,8 @@ null
 "exam": "共通テスト利用（個別試験なし）",
 "result": "3/13",
 "proc": "3/23",
-"fee": 10000
+"fee": 10000,
+"note": "心理学部・文学部史学科・社会学科は募集なし"
 },
 {
 "kubun": "総合型",
@@ -216243,18 +216293,26 @@ null
 "note": "法・経営・地球環境科学（地理）は実施なし"
 }
 ],
-"note": "マナビジョン（2027年度入試）で一般・共テ利用の日程と検定料（一般35,000円・共テ10,000円）を確認。総合型・推薦の検定料は掲載なし"
+"note": "Kei-Net「大学からのお知らせ 一般選抜の特徴」（2027年4月入学）とKei-Net入試日程で一般・共テ利用の日程・手続締切・検定料（一般・総合型基礎学力テスト型35,000円で1試験日3学部まで、共テ利用10,000円で全学部併願可）を確認（2026-11-18）。総合型・推薦の一部検定料は掲載なし"
 },
 "scholar": {
 "year": "2027年度",
 "rows": [
+{
+"name": "立正大学チャレンジ奨学生",
+"kind": "給付",
+"target": "全学部一般選抜R方式（2/1）の受験者で応募・採用された人（採用候補者は最大30名）",
+"amount": "学業奨励金 年額50万円（4年間）＋チャレンジ奨学金 年額40万円まで（3年次まで）、最大320万円",
+"timing": "入試時",
+"cond": "R方式の受験と応募が必要"
+},
 {
 "name": "立正大学特別奨学生［TOP150］",
 "kind": "給付",
 "target": "全学部一般選抜2月試験（前期：2/3・4・5）上位100名、共通テスト利用選抜（前期）上位50名",
 "amount": "年額100万円（1年次のみ）",
 "timing": "入試時",
-"cond": "対象入試での成績上位者"
+"cond": "対象入試での成績上位者。返還義務なし。データサイエンス学部の共通テスト併用型は対象外"
 },
 {
 "name": "立正未来エール奨学生",
@@ -216262,7 +216320,7 @@ null
 "target": "全学部一般選抜（2月試験（前期））出願予定者で国の給付奨学金対象外（世帯年収400万〜950万円未満）",
 "amount": "年額25万円（4年間・計100万円）",
 "timing": "入学前予約",
-"cond": "提出書類による意欲・家計状況審査（入試合否には影響しない）"
+"cond": "提出書類による意欲・家計状況審査（入試合否には影響しない）。返還義務なし"
 }
 ]
 },
@@ -216308,7 +216366,7 @@ null
 "認定心理士（心理学部 臨床心理学科）",
 "中学校教諭一種免許状（社会）（心理学部 臨床心理学科）"
 ],
-"_via": "external-ai",
+"_via": "external-ai-verified",
 "sources": [
 "https://www.ris.ac.jp/",
 "https://admissions.ris.ac.jp/",
@@ -216335,7 +216393,9 @@ null
 "https://www.best-shingaku.net/smt/gakuhi67.html",
 "https://telemail.jp/shingaku/university/10010949/scholarship",
 "https://manabi.benesse.ne.jp/daigaku/school/3323/nyushi/index.html",
-"https://search.keinet.ne.jp/2291/outline/expense"
+"https://search.keinet.ne.jp/2291/outline/expense",
+"https://search.keinet.ne.jp/2291/topics/12",
+"https://search.keinet.ne.jp/2291/general/schedule"
 ],
 "money": {
 "year": "2026年度",
@@ -216480,7 +216540,8 @@ null
 "schedule": "2026-11-13",
 "careers": "2026-11-09",
 "_via": "2026-11-09",
-"money": "2026-11-13"
+"money": "2026-11-13",
+"scholar": "2026-11-18"
 },
 "departments": [
 {
@@ -216694,7 +216755,8 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3210/nyushi/",
 "https://shingakunet.com/gakko/SC000501/gakuhi/",
 "https://manabi.benesse.ne.jp/daigaku/school/3210/nyushi/gokaku-happyo/index.html",
-"https://search.keinet.ne.jp/2186/outline/expense"
+"https://search.keinet.ne.jp/2186/outline/expense",
+"https://www.shumei-u.ac.jp/wp/wp-content/themes/shumei-u/pdf/2026new/nyoukou_edu.pdf"
 ],
 "money": {
 "year": "2026年度",
@@ -216766,6 +216828,44 @@ null
 "note": "Kei-Net 2026年度入学者用。留学に参加する場合は約200万円が別途"
 }
 ]
+},
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "秀明大学給付型奨学金（A〜Fスカラー）",
+"kind": "給付",
+"target": "合格者全員が判定対象（申請不要）",
+"amount": "A 100万円×4年／B 75万円×4年／C 50万円×4年／D 30万円×4年／E 30万円×2年／F 30万円（初年度のみ）を授業料に充当",
+"timing": "入試時",
+"cond": "適性検査・学力試験・面接・出願書類で総合判定。2年次以降は成績・出席などで継続しない場合あり。入学金納入後に受験した試験では再判定しない"
+},
+{
+"name": "イギリス留学奨学金",
+"kind": "給付",
+"target": "長期留学者",
+"amount": "50万円",
+"timing": "入学前",
+"cond": "指定資格ポイント表の英語系資格を単独で3ポイント以上、入学までに保有"
+},
+{
+"name": "八千代市看護師等修学資金",
+"kind": "貸与（条件付き返還免除）",
+"target": "看護学部",
+"amount": "年60万円×4年（最大240万円）",
+"timing": "入学後",
+"cond": "市内で一定期間従事すると返還免除"
+},
+{
+"name": "千葉県保健師等修学資金",
+"kind": "貸与（条件付き返還免除）",
+"target": "看護学部",
+"amount": "月18,000円×4年",
+"timing": "入学後",
+"cond": "県内で5年間従事すると返還免除"
+}
+],
+"note": "大学公式「2026年度入学手続要項」（学校教師学部）による。2027年度版は未確認"
 }
 },
 "神奈川歯科大学": {
