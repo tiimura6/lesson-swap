@@ -81820,7 +81820,8 @@
 "https://search.keinet.ne.jp/2343",
 "https://passnavi.obunsha.co.jp/univ/9217/schedule/?facultyID=005",
 "https://manabi.benesse.ne.jp/daigaku/school/3414/syusyoku/",
-"https://kaishi-pu.ac.jp/wp/wp-content/themes/kaishi/assets/pdf/admissions/recruitment_2027.pdf"
+"https://kaishi-pu.ac.jp/wp/wp-content/themes/kaishi/assets/pdf/admissions/recruitment_2027.pdf",
+"https://search.keinet.ne.jp/2343/outline/scholarship"
 ],
 "kyotsu": {
 "kamoku": "1〜2教科2科目",
@@ -81905,7 +81906,8 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "careers": "2026-11-15",
-"eng": "2026-11-16"
+"eng": "2026-11-16",
+"scholar": "2026-11-19"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -82210,6 +82212,44 @@
 ],
 "summary": "一般選抜・共通テスト利用・特待生選抜で、英語外部検定のスコアを「英語」の得点（100・90・70点）に換算できる。総合型・学校推薦型には記載なし。",
 "note": "入学前に英検2級以上・GTEC930点以上を取得すると入学後の学費減免（資格奨学生制度）もある"
+},
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "特待生制度（A特待生）",
+"kind": "減免",
+"target": "全学部（事業創造学部・情報学部 各2名程度、アニメ・マンガ学部 1名程度）",
+"amount": "年間授業料全額免除（1年間）",
+"timing": "入試時（一般選抜・特待生選抜）",
+"cond": "共通科目試験の得点率70％以上かつ各学部の得点上位者"
+},
+{
+"name": "特待生制度（B特待生）",
+"kind": "減免",
+"target": "全学部（事業創造学部・情報学部 各4名程度、アニメ・マンガ学部 2名程度）",
+"amount": "年間授業料半額免除（1年間）",
+"timing": "入試時（一般選抜・特待生選抜）",
+"cond": "共通科目試験でA特待生を除く各学部の得点上位者"
+},
+{
+"name": "探究入試特待生制度",
+"kind": "給付",
+"target": "全学部（各学部1名）",
+"amount": "年間授業料全額相当額（4年間）",
+"timing": "入試時（総合型選抜併願型の探究入試）",
+"cond": "出願書類評価と面接の総合得点が最上位の者。他制度との併用不可"
+},
+{
+"name": "資格奨学生制度",
+"kind": "減免",
+"target": "全学部",
+"amount": "取得資格・検定により入学金全額／年間授業料全額／年間授業料半額のいずれか（1年間）",
+"timing": "入学後",
+"cond": "入学前に大学指定の資格・検定を取得していること（該当者全員）"
+}
+],
+"note": ""
 }
 },
 "芸術文化観光専門職大学": {
@@ -82246,7 +82286,8 @@
 "https://manabi.benesse.ne.jp/daigaku/school/2201/nyushi/",
 "https://manabi.benesse.ne.jp/daigaku/school/2201/syusyoku/",
 "https://passnavi.obunsha.co.jp/univ/9102/eiken/",
-"https://telemail.jp/shingaku/university/10011458/examination/general"
+"https://telemail.jp/shingaku/university/10011458/examination/general",
+"https://passnavi.obunsha.co.jp/univ/9102/scholarship/"
 ],
 "kyotsu": {
 "kamoku": "3教科3科目",
@@ -82376,7 +82417,8 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "careers": "2026-11-15",
-"eng": "2026-11-16"
+"eng": "2026-11-16",
+"scholar": "2026-11-19"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -82501,6 +82543,20 @@
 "rows": [],
 "summary": "記載なし（利用しないとは限らない）",
 "note": "パスナビの英検・TEAP・IELTS利用入試のページに芸術文化・観光学部の情報なし（2026-11-16確認）"
+},
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "芸術文化観光専門職大学授業料等減免制度",
+"kind": "減免",
+"target": "全学部",
+"amount": "年間授業料（53万5,800円）の全額または半額（修業年限内、毎年継続審査）",
+"timing": "在学中（5月・9月に申込）",
+"cond": "学力基準・家計基準を満たし、他の奨学金等を受けても学費の支払いが特に困難と認められる者。予算の範囲内"
+}
+],
+"note": ""
 }
 },
 "静岡県立農林環境専門職大学": {
@@ -83521,7 +83577,8 @@
 "https://search.keinet.ne.jp/1080/outline/admission_employment",
 "https://www.tsukuba-tech.ac.jp/uploads/2026/06/R9_SelectionGuideLines_it_2.pdf",
 "https://www.tsukuba-tech.ac.jp/uploads/2026/09/R9_vi_application_gist.pdf",
-"https://passnavi.obunsha.co.jp/univ/0165/eiken/?facultyID=005"
+"https://passnavi.obunsha.co.jp/univ/0165/eiken/?facultyID=005",
+"https://search.keinet.ne.jp/1080/outline/scholarship"
 ],
 "kyotsu": {
 "kamoku": "2教科2科目",
@@ -83673,7 +83730,8 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "schedule": "2026-11-18",
-"eng": "2026-11-16"
+"eng": "2026-11-16",
+"scholar": "2026-11-19"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -83890,6 +83948,20 @@
 "rows": [],
 "summary": "記載なし（利用しないとは限らない）",
 "note": "パスナビの英検・TEAP・IELTS利用入試のページで産業技術学部は「情報がありません」（2026-11-16確認）"
+},
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "授業料免除制度",
+"kind": "減免",
+"target": "全学部",
+"amount": "授業料の全額・半額・一部（半期ごと、予算の範囲内）",
+"timing": "在学中（前期3月ごろ・後期9月ごろ申込）",
+"cond": "経済的理由（所得・学業成績基準）、災害等による家計急変、表彰を受けた場合、学修意欲があると認められた場合のいずれか"
+}
+],
+"note": ""
 }
 },
 "前橋工科大学": {
@@ -83919,7 +83991,8 @@
 "https://search.keinet.ne.jp/1523/outline/expense",
 "https://search.keinet.ne.jp/1523/general/exam_fee",
 "https://www.maebashi-it.ac.jp/about/pdf/syutokushikaku.pdf",
-"https://passnavi.obunsha.co.jp/univ/1055/eiken/"
+"https://passnavi.obunsha.co.jp/univ/1055/eiken/",
+"https://passnavi.obunsha.co.jp/univ/1055/scholarship/"
 ],
 "kyotsu": {
 "kamoku": "5教科7科目",
@@ -84041,7 +84114,8 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "licenses": "2026-11-15",
-"eng": "2026-11-16"
+"eng": "2026-11-16",
+"scholar": "2026-11-19"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -84337,6 +84411,28 @@
 ],
 "summary": "推薦型・総合型で英検・TEAP・IELTSを級やスコアの指定なしで利用（パスナビ、2026年度の情報）。",
 "note": "パスナビ掲載は昨年度（2026年度）の情報。利用方法（出願資格・換算・加点など）の記載なし（2026-11-16確認）"
+},
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "前橋市出身入学者特待生制度①",
+"kind": "減免",
+"target": "全学部",
+"amount": "入学金半額・年間授業料半額（最長4年間、年次継続要件あり）",
+"timing": "入試時（共通テストの成績で判定）",
+"cond": "入学年4月1日時点で前橋市に1年以上住民登録があり、共通テストの数Ⅰ・A、数Ⅱ・B・C、英語、物・化・生のうち最高得点の1科目がすべて全国平均点以上"
+},
+{
+"name": "前橋市出身入学者特待生制度②",
+"kind": "減免",
+"target": "全学部",
+"amount": "入学金半額（1回）",
+"timing": "入学時",
+"cond": "本人・配偶者または1親等の親族が入学年4月1日に前橋市に1年以上引き続き住民登録していること（該当者全員）"
+}
+],
+"note": ""
 }
 },
 "千葉県立保健医療大学": {
@@ -85003,7 +85099,8 @@
 "https://manabi.benesse.ne.jp/daigaku/school/2089/syusyoku/",
 "https://passnavi.obunsha.co.jp/univ/1079/eiken/",
 "https://telemail.jp/shingaku/university/10011515/examination/general",
-"https://telemail.jp/shingaku/university/10011515/examination/recommendation"
+"https://telemail.jp/shingaku/university/10011515/examination/recommendation",
+"https://passnavi.obunsha.co.jp/univ/1079/scholarship/"
 ],
 "methods": {
 "year": "2027年度入試",
@@ -85065,7 +85162,8 @@
 "qtrend": "2026-11-07",
 "kyotsu": "2026-11-15",
 "careers": "2026-11-15",
-"eng": "2026-11-16"
+"eng": "2026-11-16",
+"scholar": "2026-11-19"
 },
 "money": {
 "year": "2027年度（予定）",
@@ -85206,6 +85304,20 @@
 "rows": [],
 "summary": "記載なし（利用しないとは限らない）",
 "note": "パスナビの英検・TEAP・IELTS利用入試のページに情報なし（看護学部）（2026-11-16確認）"
+},
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "入学時成績優秀者奨学金",
+"kind": "給付",
+"target": "看護学部",
+"amount": "入学金と年間授業料の全額相当額（2年間）",
+"timing": "入試時（一般選抜前期・公募推薦）",
+"cond": "一般選抜（前期）で優秀な成績を収めた者、または公募推薦の合格者で希望する者。5名程度"
+}
+],
+"note": "ほかに地域定着促進奨学金・地域就職促進奨学金があるが、内容はパスナビに記載なし"
 }
 },
 "神奈川県立保健福祉大学": {
@@ -122756,7 +122868,7 @@
 "_via": "2026-11-07",
 "students": "2026-11-09",
 "founded": "2026-11-09",
-"schedule": "2026-11-09"
+"schedule": "2026-11-19"
 },
 "departments": [
 {
@@ -123090,7 +123202,7 @@
 "faculties": "2026-11-07",
 "departments": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-09",
+"schedule": "2026-11-19",
 "access": "2026-11-07",
 "licenses": "2026-11-07",
 "careers": "2026-11-07",
@@ -123240,7 +123352,8 @@
 "https://ja.wikipedia.org/wiki/%E7%86%8A%E6%9C%AC%E5%AD%A6%E5%9C%92%E5%A4%A7%E5%AD%A6",
 "https://search.keinet.ne.jp/2752/outline/expense",
 "https://search.keinet.ne.jp/2752/general/schedule",
-"https://search.keinet.ne.jp/2752/general/exam_fee"
+"https://search.keinet.ne.jp/2752/general/exam_fee",
+"https://manabi.benesse.ne.jp/daigaku/school/3932/nyushi/hoshiki/ippan/index.html"
 ],
 "students": {
 "count": 4865,
