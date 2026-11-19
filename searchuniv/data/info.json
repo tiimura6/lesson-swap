@@ -110648,7 +110648,7 @@
 "students": "2026-11-09",
 "founded": "2026-11-09",
 "money": "2026-11-09",
-"schedule": "2026-11-09"
+"schedule": "2026-11-19"
 },
 "departments": [
 {
@@ -110693,7 +110693,8 @@
 "https://xn--psstg18ce16c.com/daigaku/fukuoka-jogakuin/",
 "https://www.fukujo.ac.jp/university/about/history",
 "https://search.keinet.ne.jp/2715/outline/expense",
-"https://manabi.benesse.ne.jp/daigaku/school/3889/nyushi/gokaku-happyo/"
+"https://manabi.benesse.ne.jp/daigaku/school/3889/nyushi/gokaku-happyo/",
+"https://manabi.benesse.ne.jp/daigaku/school/3889/nyushi/index.html"
 ],
 "students": {
 "count": 1966,
@@ -110751,7 +110752,8 @@
 "exam": "1/30",
 "result": "2/16",
 "proc": "2/25",
-"note": "ネット出願。全学部共通（マナビジョン 2027年度入試）"
+"fee": 15000,
+"note": "ネット出願。全学部共通。検定料は1学科15,000円、併願は1学科につき+5,000円"
 },
 {
 "kubun": "一般",
@@ -110760,7 +110762,8 @@
 "exam": "3/5",
 "result": "3/12",
 "proc": "3/26",
-"note": ""
+"fee": 15000,
+"note": "検定料は前期と同じ"
 },
 {
 "kubun": "共テ利用",
@@ -110769,7 +110772,8 @@
 "exam": "1/30",
 "result": "2/16",
 "proc": "2/25",
-"note": ""
+"fee": 15000,
+"note": "検定料は一般前期と同じ"
 },
 {
 "kubun": "共テ利用",
@@ -110778,7 +110782,7 @@
 "exam": "共通テスト",
 "result": "2/16",
 "proc": "2/25",
-"note": ""
+"fee": null
 },
 {
 "kubun": "共テ利用",
@@ -110787,7 +110791,7 @@
 "exam": "共通テスト",
 "result": "2/25",
 "proc": "3/11",
-"note": ""
+"fee": null
 },
 {
 "kubun": "共テ利用",
@@ -110796,9 +110800,37 @@
 "exam": "共通テスト",
 "result": "3/12",
 "proc": "3/26",
-"note": ""
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅰ期",
+"apply": "10/5〜10/14",
+"exam": "10/24",
+"result": "11/5",
+"proc": "11/19",
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 Ⅱ期",
+"apply": "11/24〜12/6",
+"exam": "12/12",
+"result": "12/18",
+"proc": "2027/1/7",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募推薦）",
+"apply": "11/4〜11/11",
+"exam": "11/21",
+"result": "12/2",
+"proc": "12/17",
+"fee": null
 }
-]
+],
+"note": "2026-11-19 マナビジョン（2027年度入試）で再確認。一般・共テ利用の日程は既存と一致。総合型Ⅰ・Ⅱ期、公募推薦の日程と一般選抜の検定料を追加。共テ単独・総合型・推薦の検定料は記載なし"
 }
 },
 "福岡女学院看護大学": {
@@ -110816,7 +110848,7 @@
 "students": "2026-11-09",
 "founded": "2026-11-09",
 "money": "2026-11-09",
-"schedule": "2026-11-09"
+"schedule": "2026-11-19"
 },
 "departments": [
 {
@@ -110845,7 +110877,8 @@
 "https://odangozemi.com/fukuoka-shidai-gakusei-ranking/",
 "https://ns.fukujo.ac.jp/burger_editor/burger_editor/dl/42__ZGlzY2xvc3VyZV9qb3Nob3U-d-.pdf",
 "https://search.keinet.ne.jp/2725/outline/expense",
-"https://manabi.benesse.ne.jp/daigaku/school/3896/nyushi/gokaku-happyo/"
+"https://manabi.benesse.ne.jp/daigaku/school/3896/nyushi/gokaku-happyo/",
+"https://manabi.benesse.ne.jp/daigaku/school/3896/nyushi/index.html"
 ],
 "students": {
 "count": 413,
@@ -110929,7 +110962,7 @@
 "note": ""
 }
 ],
-"note": "検定料は出典に記載なし（マナビジョン 2027年度入試）"
+"note": "2026-11-19 マナビジョン（2027年度入試）で再確認し、全方式とも既存と一致。検定料は出典に記載なし"
 }
 },
 "福岡工業大学": {
