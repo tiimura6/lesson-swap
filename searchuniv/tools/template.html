@@ -73,6 +73,7 @@ body.wide main,body.wide header{max-width:1320px}
 .kchk{display:flex;flex-wrap:wrap;gap:4px 12px;width:100%}
 .kchk i{display:inline-block;width:9px;height:9px;border-radius:50%}
 .mcount{font-size:12px;color:var(--muted)}
+.ritem.rout{opacity:.55}
 .star{font-size:12px;border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:2px 9px;cursor:pointer;color:var(--muted);margin-left:6px}
 .star.on{background:#b8860b;color:#fff;border-color:#b8860b}
 .ccount{font-size:11px;margin-left:2px}
@@ -389,7 +390,7 @@ ul.mini li{font-size:12.5px;margin:2px 0}
     </div>
     <div class="sright">
       <div class="mapwrap"><svg id="jmap" viewBox="170 0 490 450" role="img" aria-label="日本地図"><g id="prefs"></g><g id="muni" transform="scale(0.1)"></g><g id="rail"></g><g id="mlabels"></g><g id="dots"></g><g id="labels"></g><g id="hl"></g></svg>
-        <div class="legend"><span><i style="background:#1f4e79"></i>国立</span><span><i style="background:#2a7f62"></i>公立</span><span><i style="background:#b0532a"></i>私立</span><span><i style="background:#4b5563"></i>大学校</span><span><i style="background:#b8860b"></i>専門職大学</span></div><div class="layerctl"><button type="button" class="btn ltog" id="tgrail" aria-pressed="false" title="鉄道の路線を表示・非表示">🚃 鉄道</button><button type="button" class="btn ltog" id="tgroad" aria-pressed="false" title="高速道路を表示・非表示">🛣 高速道路</button></div><div id="railcredit" class="railcredit" hidden></div><div id="layercredit" class="layercredit" hidden></div><div class="zoomctl"><button class="btn" id="zin" title="拡大">＋</button><button class="btn" id="zout" title="縮小">−</button></div></div>
+        <div class="legend"><span><i style="background:#1f4e79"></i>国立</span><span><i style="background:#2a7f62"></i>公立</span><span><i style="background:#b0532a"></i>私立</span><span><i style="background:#4b5563"></i>大学校</span><span><i style="background:#b8860b"></i>専門職大学</span></div><div class="layerctl"><button type="button" class="btn ltog" id="tgrail" aria-pressed="false" title="鉄道の路線を表示・非表示">🚃 鉄道</button><button type="button" class="btn ltog" id="tgroad" aria-pressed="false" title="高速道路を表示・非表示">🛣 高速道路</button></div><div id="railcredit" class="railcredit" hidden></div><div id="layercredit" class="layercredit" hidden></div><div class="zoomctl"><button class="btn" id="zin" title="拡大">＋</button><button class="btn" id="zout" title="縮小">−</button><button class="btn" id="zhome" title="全国を表示" style="font-size:13px">全</button></div></div>
     </div>
   </div>
 </section>
@@ -885,7 +886,7 @@ function scaleMarks(){
 }
 // 拡大・移動の最中は名前を並べ直さず、止まってから1回だけ並べ直す（軽くするため）
 let labelTimer=0;
-function scheduleLabels(){ clearTimeout(labelTimer); $("jmap").classList.add("moving"); labelTimer=setTimeout(()=>{ $("jmap").classList.remove("moving"); placeLabels(); },110); }
+function scheduleLabels(){ clearTimeout(labelTimer); $("jmap").classList.add("moving"); labelTimer=setTimeout(()=>{ $("jmap").classList.remove("moving"); placeLabels(); drawResultRows(); },110); }
 // 重ならない範囲で大学名を表示（優先度順・4方向の候補位置）。出せなかった点は件数の丸にまとめる（2段階配置）
 let MATCH=null;
 
@@ -1683,10 +1684,11 @@ function zoomAt(px,py,f){ const [x,y,w,h]=curVB; const nw=w*f, nh=h*f; applyVB([
     tip.classList.remove("univ"); if(e.pointerType!=="mouse") return; showCity(e,0); });
   svg.addEventListener("pointerleave",()=>{ tip.hidden=true; });
   // 大学の点・名前・まとまりの丸以外（地図の何もない所）をクリックしたら、選んでいる大学を解除する
-  svg.addEventListener("click",e=>{ if(e.target.closest&&e.target.closest(".dot,.ulbl,.clus,#zin,#zout")) return; if(moved) return;
+  svg.addEventListener("click",e=>{ if(e.target.closest&&e.target.closest(".dot,.ulbl,.clus,#zin,#zout,#zhome")) return; if(moved) return;
     if(CUR_SEL) clearSelection(); else showCity(e,2500); });
   $("zin").onclick=()=>zoomAt(curVB[0]+curVB[2]/2,curVB[1]+curVB[3]/2,0.6);
   $("zout").onclick=()=>zoomAt(curVB[0]+curVB[2]/2,curVB[1]+curVB[3]/2,1/0.6);
+  $("zhome").onclick=()=>setVB(HOME_VB);
   window.addEventListener("resize",()=>{ if(!$("v-map").hidden) placeLabels(); });
 })();
 function findUniv(q){
@@ -2390,7 +2392,25 @@ function examHitHTML(x){ if(!SQ||!SQ.XM) return ""; const h=SQ.XM.get(x.name); i
 function fullHitHTML(x){ if(!SQ||!SQ.fullWords||!SQ.fullWords.length) return ""; const t=allText(x);
   for(const w of SQ.fullWords){ const z=fullWordsOf(w).find(v=>t.includes(v)); if(z){ const i=t.indexOf(z), st=t.lastIndexOf("｜",i)+1; let seg=t.slice(st,Math.min(t.length,i+z.length+20)); const en=seg.indexOf("｜"); if(en>0) seg=seg.slice(0,en); seg=seg.replace(/^[^:：]{1,8}[:：]/,""); if(seg.length>44) seg=(i-st>20?"…":"")+t.slice(Math.max(st,i-14),i+z.length+20).split("｜")[0];
       return '<span class="rf xh"><b>説明に「'+esc(z)+'」</b>'+esc(seg.slice(0,48))+'</span>'; } } return ""; }
-var LAST_LIST=[], CUR_SEL=null;
+var LAST_LIST=[], CUR_SEL=null, RES=null;
+function sortByMsort(list){ const so=$("msort").value; if(!so||so==="rel") return list; const hv=x=>{ const h=listHen(x); return h?h.v:null; };
+  return list.slice().sort(so==="pref"?(a,b)=>a.pref.localeCompare(b.pref,"ja"):(a,b)=>{ const A=hv(a),B=hv(b); if(A==null&&B==null) return 0; if(A==null) return 1; if(B==null) return -1; return so==="hd"?B-A:A-B; }); }
+// 短大・専門の地図と同じく、地図を拡大すると地図の範囲に見えている学校を一覧に出す（検索中は地図の範囲の学校を先に）。2026-11-19 先生の依頼「統一感を」
+function inMapView(x){ const p=MAP.dots[x.name]; if(!p) return false; const [vx,vy,vw,vh]=curVB; return p[0]>=vx&&p[0]<=vx+vw&&p[1]>=vy&&p[1]<=vy+vh; }
+function mapZoomed(){ return curVB[2]<HOME_VB[2]*0.85; }
+function drawResultRows(){
+  if($("v-map").hidden||CUR_SEL) return;
+  if(!RES){ renderResults(); return; }
+  let list=RES.list, msg=RES.msg;
+  if(!RES.active){
+    if(!mapZoomed()){ $("mresults").innerHTML=""; $("mcount").textContent=""; return; }
+    list=sortByMsort(items.filter(x=>kindVisible(x)&&inMapView(x)));
+    msg=list.length?"地図の範囲に "+list.length+"校"+(list.length>200?"（上位200件を表示）":"")+"。地図を動かすと一覧も変わります":"地図の範囲に大学はありません";
+  } else if(mapZoomed()&&list.length){ const a=list.filter(inMapView); list=a.concat(list.filter(x=>!inMapView(x))); msg+="（地図の範囲に "+a.length+"校）"; }
+  $("mcount").textContent=msg;
+  $("mresults").innerHTML=list.slice(0,200).map(x=>RES.row(x).replace('<button class="ritem"',(RES.active&&mapZoomed()&&!inMapView(x))?'<button class="ritem rout"':'<button class="ritem"')).join("");
+  $("mresults").querySelectorAll(".ritem").forEach(b=>b.onclick=()=>selectUniv(b.dataset.n));
+}
 function renderResults(){
   let list=searchUnivs($("mq").value);
   const qv=$("mq").value.trim(), kyF=$("f-kyoka").value||$("f-rl").value;
@@ -2412,14 +2432,13 @@ function renderResults(){
   if(!DETAIL_READY&&((SQ&&(SQ.exam||SQ.fullWords.length))||$("f-meth").value||$("f-eng").value||$("f-date").value||$("f-ratio").value||$("f-fee").value||$("f-theme").value)) msg="入試方式・英語外部試験のデータを読み込み中…";
   if(fuzzy) msg=list.length+"件：「"+qv+"」そのものは学部名などに見つからなかったため、学校の説明に近い言葉を含む学校を表示しています";
   else if(list.length&&SQ&&SQ.fullWords.length) msg+="（「"+SQ.fullWords.join("」「")+"」は学部名などに無かったため、学校の説明全体から探しました）";
-  $("mcount").textContent=msg;
   { const tp=topicPanelHTML(list); let el=$("tpanels"); if(!el){ $("mcount").insertAdjacentHTML("afterend",'<div id="tpanels"></div>'); el=$("tpanels"); } el.innerHTML=(qv||xVals().learn)?(tp||(!list.length&&qv?'<div class="tpanel"><div class="tph">興味のテーマから探してみませんか<small>近い言葉が見つからないときは、テーマを押すと関連して学べる分野まで広げて探せます</small></div><div class="tthems">'+themeChips()+'</div></div>':"")):""; }
   const kv=$("f-kei").value;
   const facHit=x=>{ const f=INFO[x.name]||{}; let h=kv?keiHits(x,kv):[]; if(!h.length&&qv&&!isCorrect(qv,x.name)&&!nz(x.name).includes(nz(qv))){ const qws=SQ?SQ.words:[qv]; const ws=[...qws,...qws.flatMap(w=>typeof concepts==="function"?concepts(w).flat():[])].filter(w=>w.length>=2); const ex=facList(f).filter(t=>qws.some(w=>t.includes(w))); h=ex.length?ex:facList(f).filter(t=>ws.some(w=>t.includes(w))); }
     return h.length?'<span class="rf">'+esc(h.slice(0,3).map(t=>/学部|学群|学域|学環|学院|学類$/.test(t.replace(/（.*$/,""))?t.replace(/（.*$/,""):t).join("・")+(h.length>3?" ほか":""))+'</span>':""; };
-  const so=$("msort").value; if(so&&so!=="rel"){ const hv=x=>{ const h=listHen(x); return h?h.v:null; }; list=list.slice().sort(so==="pref"?(a,b)=>a.pref.localeCompare(b.pref,"ja"):(a,b)=>{ const A=hv(a),B=hv(b); if(A==null&&B==null) return 0; if(A==null) return 1; if(B==null) return -1; return so==="hd"?B-A:A-B; }); }
-  $("mresults").innerHTML=list.slice(0,200).map(x=>{ const h=listHen(x); return '<button class="ritem" data-n="'+esc(x.name)+'">'+badge(x)+'<span class="rn">'+esc(x.name)+(xHitHTML(x)||topicHitHTML(x)||facHit(x)||fullHitHTML(x))+examHitHTML(x)+kyHitHTML(x)+'</span><span class="rp">'+(h?'<span class="rh"'+(h.fac?' title="'+esc(h.lab)+'の偏差値（学部・学科別）"':' title="大学全体の偏差値の中央値"')+'>偏差値'+h.v+(h.fac?'<small>（学科）</small>':'')+'</span>':'')+bandTag(x)+fillTag(x)+esc(x.pref)+'</span></button>'; }).join("");
-  $("mresults").querySelectorAll(".ritem").forEach(b=>b.onclick=()=>selectUniv(b.dataset.n));
+  list=sortByMsort(list);
+  const row=x=>{ const h=listHen(x); return '<button class="ritem" data-n="'+esc(x.name)+'">'+badge(x)+'<span class="rn">'+esc(x.name)+(xHitHTML(x)||topicHitHTML(x)||facHit(x)||fullHitHTML(x))+examHitHTML(x)+kyHitHTML(x)+'</span><span class="rp">'+(h?'<span class="rh"'+(h.fac?' title="'+esc(h.lab)+'の偏差値（学部・学科別）"':' title="大学全体の偏差値の中央値"')+'>偏差値'+h.v+(h.fac?'<small>（学科）</small>':'')+'</span>':'')+bandTag(x)+fillTag(x)+esc(x.pref)+'</span></button>'; };
+  RES={list, row, msg, active:!!(qv||filtersActive())}; drawResultRows();
   LAST_LIST=(qv||filtersActive())?list:[]; renderSearchNews();
   // 地図上で候補の点を強調
   const set=new Set(list.map(x=>x.name));
@@ -2481,7 +2500,7 @@ $("q-area").addEventListener("change",()=>{ $("q-area").classList.toggle("on",!!
 // 項目ごとの検索を変えたら、選択中の大学を閉じて一覧に戻す
 function xGo(){ if(items.some(x=>x.name===$("mq").value)) $("mq").value=""; $("uov").hidden=true; lockScroll(false); runSearch(); }
 $("mq").addEventListener("keydown",e=>{ if(e.key!=="Enter"||e.isComposing||e.keyCode===229) return; e.preventDefault(); const v=$("mq").value.trim(); if(items.some(x=>x.name===v)) selectUniv(v); else runSearch(); });
-$("mreset").onclick=()=>{ MATCH=null; TSEL=null; LAST_LIST=[]; CUR_SEL=null; $("uov").hidden=true; lockScroll(false); renderSearchNews(); ROOT.querySelectorAll(".fk").forEach(e=>e.checked=true); applyKindDots(); $("f-eng").value=""; $("f-kei").value=""; $("f-kyoka").value=""; $("f-rl").value=""; $("f-meth").value=""; XF_IDS.forEach(id=>$(id).value=""); $("msort").value="hd"; ROOT.querySelectorAll("#v-map .sfields select").forEach(e=>e.classList.remove("on")); sdetCount(); ROOT.querySelectorAll(".fk").forEach(e=>e.checked=true); $("hl").innerHTML=""; $("mpanel").innerHTML=""; $("mresults").innerHTML=""; $("mcount").textContent=""; $("mq").value=""; ["q-learn","q-fac","q-study","q-job","q-lic","q-area"].forEach(id=>$(id).value=""); $("q-area").classList.remove("on"); ROOT.querySelectorAll("#jmap .dot.dim").forEach(c=>c.classList.remove("dim")); setVB(HOME_VB); };
+$("mreset").onclick=()=>{ MATCH=null; TSEL=null; LAST_LIST=[]; RES=null; CUR_SEL=null; $("uov").hidden=true; lockScroll(false); renderSearchNews(); ROOT.querySelectorAll(".fk").forEach(e=>e.checked=true); applyKindDots(); $("f-eng").value=""; $("f-kei").value=""; $("f-kyoka").value=""; $("f-rl").value=""; $("f-meth").value=""; XF_IDS.forEach(id=>$(id).value=""); $("msort").value="hd"; ROOT.querySelectorAll("#v-map .sfields select").forEach(e=>e.classList.remove("on")); sdetCount(); ROOT.querySelectorAll(".fk").forEach(e=>e.checked=true); $("hl").innerHTML=""; $("mpanel").innerHTML=""; $("mresults").innerHTML=""; $("mcount").textContent=""; $("mq").value=""; ["q-learn","q-fac","q-study","q-job","q-lic","q-area"].forEach(id=>$(id).value=""); $("q-area").classList.remove("on"); ROOT.querySelectorAll("#jmap .dot.dim").forEach(c=>c.classList.remove("dim")); setVB(HOME_VB); };
 NAV.listen(()=>{ if(NAV.get()==="map") requestAnimationFrame(()=>scaleMarks()); });
 
 
