@@ -77548,7 +77548,8 @@
 "https://passnavi.obunsha.co.jp/univ/9101/department/",
 "https://passnavi.obunsha.co.jp/univ/9101/eiken/",
 "https://telemail.jp/shingaku/university/10011435/examination/general",
-"https://telemail.jp/shingaku/university/10011435/examination/recommendation"
+"https://telemail.jp/shingaku/university/10011435/examination/recommendation",
+"https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/074/847/noukandai.pdf"
 ],
 "kyotsu": {
 "kamoku": "3教科3科目（英・数・理）",
@@ -77632,7 +77633,8 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "research": "2026-11-15",
-"eng": "2026-11-16"
+"eng": "2026-11-16",
+"careers": "2026-11-19"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -77742,7 +77744,8 @@
 "rows": [],
 "summary": "記載なし（利用しないとは限らない）",
 "note": "パスナビの英検・TEAP・IELTS利用入試のページに生産環境経営学部の情報なし（2026-11-16確認）"
-}
+},
+"careers": "2024年度卒（生産環境経営学部29名）は農林業関連の就職20名・自営（農林業等）3名・その他5名など、79.3%が農林業関係（自営含む）に就業。進学は0名（静岡県「事務事業及び予算の執行実績（令和6年度分）」）。"
 },
 "高知リハビリテーション専門職大学": {
 "difficulty": {
@@ -99332,7 +99335,8 @@
 "https://passnavi.obunsha.co.jp/univ/0790/schedule/",
 "https://search.keinet.ne.jp/1395/outline/licential",
 "https://search.keinet.ne.jp/1395/general/exam_subject",
-"https://passnavi.obunsha.co.jp/univ/0790/eiken/"
+"https://passnavi.obunsha.co.jp/univ/0790/eiken/",
+"https://manabi.benesse.ne.jp/daigaku/school/1415/nyushi/gokaku-happyo/index.html"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -99597,7 +99601,7 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "money": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-19",
 "licenses": "2026-11-15",
 "kyotsu": "2026-11-15",
 "eng": "2026-11-16"
@@ -99835,7 +99839,7 @@
 "exam": "2/25・2/26",
 "result": "3/8",
 "proc": "3/15",
-"note": "全学部で前期を実施（パスナビ 2027年度入試）"
+"note": "全学部で前期を実施。医学科は2/25・2/26（パスナビ・マナビジョン 2027年度入試）"
 },
 {
 "kubun": "一般",
@@ -99844,9 +99848,74 @@
 "exam": "3/12",
 "result": "3/23",
 "proc": "3/27",
-"note": "人文社会科学部（人文科学・国際社会コース）・理工・農林海洋科学部のみ（パスナビ）"
+"note": "人文社会科学部（人文科学・国際社会コース）・理工学部・農林海洋科学部の一部のみ（パスナビ・マナビジョン）"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅰ（人文社会・地域協働・医学科など）",
+"apply": "8/18〜9/4",
+"exam": "9/11（人文社会・地域協働）、9/12（医学科）",
+"result": "11/1（医学科は11/12）",
+"proc": "11/6（医学科は11/25）"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅰ（理工・農林海洋科学など）",
+"apply": "8/18〜9/4",
+"exam": "10/10",
+"result": "11/1",
+"proc": "11/6"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅰ（看護学科）",
+"apply": "8/18〜9/4",
+"exam": "10/3・10/4",
+"result": "11/1",
+"proc": "11/11"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅱ（共テ・農林資源科学科フィールド科学コースなど）",
+"apply": "11/18〜12/7",
+"exam": "12/12",
+"result": "2/10",
+"proc": "2/17"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜Ⅰ",
+"apply": "10/19〜11/6",
+"exam": "11/14・11/15（学科により異なる）",
+"result": "12/1",
+"proc": "12/9"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜Ⅱ（共テ・人文社会・理工・海洋資源科学など）",
+"apply": "1/4〜1/22",
+"exam": "1/30",
+"result": "2/10",
+"proc": "2/17"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜Ⅱ（共テ・社会科学コース、農林フィールド科学コース）",
+"apply": "11/18〜12/7",
+"exam": "12/12",
+"result": "2/10",
+"proc": "2/17"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜Ⅱ（共テ・医学科地域枠）",
+"apply": "11/2〜11/20",
+"exam": "12/16〜12/18",
+"result": "2/10",
+"proc": "2/17"
 }
-]
+],
+"note": "ベネッセ マナビジョン（2027年度入試）で前期・後期の日程が既存（パスナビ）と一致し、総合型・推薦を追加（2026-11-19確認）。学科ごとの細かな違いは募集要項で確認"
 },
 "licenses": [
 "中学校・高等学校教諭一種（国語・社会/地理歴史・公民・英語）、高等学校教諭一種（商業）（人文社会科学部）",
@@ -101669,7 +101738,7 @@
 "licenses": "2026-11-06",
 "ratios": "2026-11-06",
 "money": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-19",
 "kyotsu": "2026-11-15",
 "careers": "2026-11-15",
 "eng": "2026-11-16"
@@ -101760,7 +101829,8 @@
 "https://passnavi.obunsha.co.jp/univ/0890/schedule/",
 "https://search.keinet.ne.jp/1445/general/exam_subject",
 "https://search.keinet.ne.jp/1445/outline/admission_employment",
-"https://passnavi.obunsha.co.jp/univ/0890/eiken/"
+"https://passnavi.obunsha.co.jp/univ/0890/eiken/",
+"https://manabi.benesse.ne.jp/daigaku/school/1465/nyushi/index.html"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -101927,7 +101997,7 @@
 "exam": "2/25",
 "result": "3/8",
 "proc": "",
-"note": "医学部は2/25・2/26。手続締切は掲載なし（パスナビ 2027年度入試）"
+"note": "医学部は2/25・2/26。手続締切は掲載なし（パスナビ・マナビジョン 2027年度入試）"
 },
 {
 "kubun": "一般",
@@ -101937,8 +102007,59 @@
 "result": "3/20",
 "proc": "",
 "note": "教育・経済・医（看護・先進医療科学）・理工・福祉健康科学の一部。手続締切は掲載なし（パスナビ）"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（経済学部・理工学部）",
+"apply": "9/1〜9/4",
+"exam": "9/29",
+"result": "11/2",
+"proc": "11/27"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（共テ・医学科 一般枠・地域枠）",
+"apply": "11/2〜11/6",
+"exam": "（共テ）",
+"result": "2/10",
+"proc": "2/17"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（共テ・教育学部 初等中等教育コースの一部）",
+"apply": "11/2〜11/6",
+"exam": "11/14",
+"result": "2/10",
+"proc": "2/17"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（共テ・福祉健康科学部 理学療法・心理学コース）",
+"apply": "10/5〜10/9",
+"exam": "11/18",
+"result": "2/10",
+"proc": "2/17"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜Ⅰ（経済・看護・特別支援教育・社会福祉実践・理工）",
+"apply": "11/2〜11/6",
+"exam": "11/18",
+"result": "12/1",
+"proc": "",
+"note": "手続締切は掲載なし"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜Ⅱ（共テ・教育学部初等中等教育コース、理工学部建築学プログラム）",
+"apply": "11/2〜11/6",
+"exam": "11/18",
+"result": "2/10",
+"proc": "",
+"note": "手続締切は掲載なし"
 }
-]
+],
+"note": "ベネッセ マナビジョン（2027年度入試）で前期・後期の日程が既存（パスナビ）と一致し、総合型・推薦を追加（2026-11-19確認）。一般選抜・推薦の手続締切は掲載なし"
 },
 "kyotsu": {
 "kamoku": "文型・理型・選択型が中心（経済学部後期は5教科6科目）",
