@@ -129,6 +129,8 @@ body.wide main,body.wide header{max-width:1320px}
 #v-kyotsu tr.ktkey th,#v-kyotsu tr.ktkey td{background:var(--accent-soft);font-weight:700}#v-kyotsu tr.past th,#v-kyotsu tr.past td{color:var(--muted)}.ktday{margin:6px 0 10px}.ktday>b{display:block;margin-bottom:4px}
 .ktlinks{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:6px;padding:0;list-style:none}.ktlinks a{display:block;border:1px solid var(--line);border-radius:8px;padding:8px 10px;text-decoration:none;color:var(--accent);background:var(--panel)}
 @media (prefers-color-scheme:dark){.xb.stale,.meth.stale,tr.stale td{background:#3b2a16}.stale,.stale td{color:#fdba74}}
+.ngbox{border:1.5px solid #f59e0b;background:#fff7ed;border-radius:10px;padding:8px 12px;margin:6px 0 8px;font-size:12.5px;color:#7c2d12}.ngh{font-weight:700;margin-bottom:2px}.ngl{margin:2px 0 4px;padding-left:1.3em}.ngl small{color:#9a3412;margin-left:2px}.ngn{font-size:12px}
+@media (prefers-color-scheme:dark){.ngbox{background:#3b2a16;color:#fed7aa}.ngl small{color:#fdba74}}
 .umoved{font-size:12.5px;color:var(--muted);border:1px dashed var(--line);border-radius:10px;padding:7px 12px;margin:8px 0}
 .fchips{display:flex;flex-wrap:wrap;gap:3px 5px;margin-top:3px}.fc{font-size:10.5px;border-radius:999px;padding:0 7px;border:1px solid}.fc.in{color:#2a7f62;border-color:#2a7f62}.fc.ex{color:#b42318;border-color:#b42318}.fc.unk{color:var(--muted);border-color:var(--line)}.fwarn{font-size:11.5px;color:#7a5a00;background:color-mix(in srgb,#c99700 10%,var(--panel));border-radius:8px;padding:5px 9px;margin:4px 0 6px}.xt.fees td{white-space:nowrap}
 .kyf{color:var(--ink) !important}.kyf b{color:var(--accent);font-weight:600}.kypart{display:inline-block;margin-left:6px;font-size:10.5px;font-weight:700;color:#9a6b00;border:1px solid #c99700;border-radius:999px;padding:0 6px}
@@ -599,6 +601,11 @@ const TOPICS = /*TOPICS*/[]/*END_TOPICS*/;
 const LICN = /*LICN*/{"list":[],"by":{}}/*END_LICN*/;
 // 情報充足率（build.py の FILL_ITEMS から作る。by は学校ごとに項目の順で 1＝集めた／0＝未収集）
 const FILL = /*FILL*/{"items":[],"by":{},"ext":[]}/*END_FILL*/;
+// 自動収集で何度か取得できなかった項目（build.py の noget。queue.json の deferred）。大学の画面の上に注意として出す
+const NOGET = /*NOGET*/{}/*END_NOGET*/;
+function nogetBox(name){ const L=NOGET[name]||[]; if(!L.length) return "";
+  const seen=new Set(), u=L.filter(r=>!seen.has(r.l)&&seen.add(r.l));
+  return '<div class="ngbox" role="note"><div class="ngh">⚠ 自動収集で取得できなかった項目があります</div><ul class="ngl">'+u.map(r=>'<li>'+esc(r.l)+'<small>（'+(r.n?r.n+'回試して取得できず':'取得できず')+(r.d?'・最終 '+esc(r.d):'')+'）</small></li>').join("")+'</ul><div class="ngn">この画面のこれらの項目は、空欄・古い年度のままの場合があります。最新の情報は大学公式サイト・募集要項で必ず確認してください。</div></div>'; }
 function midHensachi(name){ const d=(INFO[name]||{}).difficulty; if(!d||!d.hensachi) return null; const nums=String(d.hensachi).match(/[\d.]+/g); if(!nums) return null; const v=nums.map(Number); return (Math.min(...v)+Math.max(...v))/2; }
 function groupOf(x){ const k=kindOf(x); return (k==="国立"||k==="公立")?"pub":(k==="私立"?"pri":k); }
 // 同じ分野（学問の系統）の大学を、この大学より難しい／同程度／易しいに分けて示す（生徒の学力が入っていればそれを基準に挑戦〜安全）
@@ -1713,7 +1720,7 @@ function selectUniv(name,keepView){
   const lb=document.createElementNS(SVGNS,"text"); lb.setAttribute("x",pt[0]+4); lb.setAttribute("y",pt[1]+1.8); lb.setAttribute("class","lbl"); lb.textContent=x.name;
   hl.append(ring,dot,lb); scaleMarks();
   if(!keepView) setVB([pt[0]-60,pt[1]-45,120,90]);
-  $("mpanel").innerHTML='<div class="box"><div class="ph"><h3>'+badge(x)+' '+esc(x.name)+' '+fullTag(x.name)+viaTag(x.name)+'</h3>'+starBtn(x.name)+'<button type="button" class="tbtn" data-trend="'+esc(x.name)+'">出題内容</button>'+hpLink(x.name)+'</div><div class="meta">'+metaPrefix(x)+esc(x.pref)+'</div><ul class="pfeat">'+x.feats.map(f=>'<li>'+esc(f)+'</li>').join("")+'</ul>'+facTabs(x)+'<div class="fbody">'+univBody(x)+'</div>'+'</div>';
+  $("mpanel").innerHTML='<div class="box"><div class="ph"><h3>'+badge(x)+' '+esc(x.name)+' '+fullTag(x.name)+viaTag(x.name)+'</h3>'+starBtn(x.name)+'<button type="button" class="tbtn" data-trend="'+esc(x.name)+'">出題内容</button>'+hpLink(x.name)+'</div><div class="meta">'+metaPrefix(x)+esc(x.pref)+'</div><ul class="pfeat">'+x.feats.map(f=>'<li>'+esc(f)+'</li>').join("")+'</ul>'+nogetBox(x.name)+facTabs(x)+'<div class="fbody">'+univBody(x)+'</div>'+'</div>';
   MATCH=null; LAST_LIST=[]; CUR_SEL=name; renderSearchNews();
   try{ window.dispatchEvent(new CustomEvent("searchuniv:select",{detail:{name}})); }catch(e){}
   $("mresults").innerHTML=""; $("mcount").textContent=""; if(!filtersActive()) ROOT.querySelectorAll("#jmap .dot.dim").forEach(c=>c.classList.remove("dim"));

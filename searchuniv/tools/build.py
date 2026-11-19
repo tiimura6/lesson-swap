@@ -69,6 +69,20 @@ FILL_ITEMS = [
     ('sto', 'ここを選ぶ理由（ストーリー）', lambda i, g: g.get('story')),
 ]
 
+# 自動収集で何度か取得できなかった項目（queue.json の enrich で deferred のもの。tools/queue_fail.py）。大学の画面に「取得できなかった」と出す
+NEED_LABEL = {'fees': '学部別の学費の内訳', 'schedule_dates': '入試日程（出願・試験・発表・手続・検定料）', 'schedule_general': '一般選抜の入試日程',
+              'scholar': '大学独自の奨学金', 'methods': '入試方式', 'methods_gap': '入試方式（推薦・総合型など）', 'subjects': '学部・方式ごとの入試科目',
+              'ratios': '入試倍率の推移', 'oc': 'オープンキャンパス', 'eng': '英語外部試験', 'partners': '海外協定校', 'licenses': '取得できる資格',
+              'research': '研究分野', 'careers': '主な進路', 'departments': '学部・学科', 'kyotsu': '共通テストの科目', 'extra': '学部別難易度・入試日程・費用',
+              'method_urls': '方式ごとの公式リンク', 'qtrend': '出題内容', 'verify': '外部AIデータの公式確認'}
+def noget(names):
+    q = D('queue'); out = {}
+    for e in q.get('enrich', []):
+        if not e.get('deferred') or e.get('name') not in names: continue
+        for k in e.get('need', []):
+            out.setdefault(e['name'], []).append({'k': k, 'l': NEED_LABEL.get(k, k), 'n': e.get('fails', 0), 'd': e.get('last_fail', '')})
+    return out
+
 def fill(info, guide, names):
     by, ext = {}, []
     for n in names:
@@ -100,6 +114,7 @@ def main():
         'TOPICS': ('/*TOPICS*/', '/*END_TOPICS*/', J([{k: v for k, v in tp.items()} for tp in D('topics')['topics']] if os.path.exists(os.path.join(ROOT, 'data', 'topics.json')) else [])),
         'LICN': ('/*LICN*/', '/*END_LICN*/', J(licn(info, names))),
         'FILL': ('/*FILL*/', '/*END_FILL*/', J(fill(info, guide, names))),
+        'NOGET': ('/*NOGET*/', '/*END_NOGET*/', J(noget(set(names)))),
         'KTEST': ('/*KTEST*/', '/*END_KTEST*/', J(D('kyotsu_test') if os.path.exists(os.path.join(ROOT, 'data', 'kyotsu_test.json')) else {})),
         'BUILD': ('/*BUILD*/', '/*END_BUILD*/', J({'built': __import__('datetime').datetime.now(__import__('datetime').timezone(__import__('datetime').timedelta(hours=9))).strftime('%Y-%m-%d %H:%M'),
                   'schedule': max([v.get('_checked', {}).get('schedule', '') for v in info.values()] + ['']),

@@ -31,6 +31,8 @@ GitHub Pages: https://tiimura6.github.io/lesson-swap/
 
 15. 情報充足率（2026-11-11 先生の依頼「大学検索に、すべての大学とその情報の収集率を表示」）：検索画面の「情報充足率」（`#fdet`、開いたときに `renderFill()`）に、全校の平均・項目ごとの収集率（押すとその項目が未収集の学校だけ）・全校の一覧（充足率・まだ集めていない項目、大学名で絞り込み・種別・並び順）を出す。検索結果の各行にも「情報○%」（`fillTag()`）。項目は build.py の `FILL_ITEMS`（22項目）で、build.py が `FILL`（学校ごとに 1/0 の並び、外部AI未確認の学校 ext）を埋め込む。項目を足すときは FILL_ITEMS だけ直せばよい。CSS のクラス名は既存と混ざらないよう `fl` で始める。
 
+16. 取得できなかった項目（2026-11-19 先生の依頼「何度か取得に失敗したら優先度を最後に、該当ページに取得失敗と最新情報の確認を書く」）：定期実行は enrich で取れなかった項目を `python3 tools/queue_fail.py "<大学名>" <need> "<内容>"` で記録する（fails・last_fail・note。2回で `deferred: true` になり enrich の最後に回る。選ぶときは deferred 以外を先に使う）。build.py の `noget()` が deferred の項目を `NOGET` として埋め込み、大学の画面の上（学部タブの上）に `nogetBox()` が注意を出す。need の表示名は build.py の `NEED_LABEL`。CSS は `ng` で始める。
+
 ## 操作者
 - タイトル横の「👤 操作者」で選ぶ（localStorage `ttOperator`）。PINは `opPins`／GAS。
 - 時間割に名前が無い人は、一覧の最後の「＋ 新規作成」（または検索欄で該当なしのまま Enter）で名前を決める。作成した名前はこの端末の localStorage `opCustomNames` に保存し、一覧の最後に並ぶ（新規作成の画面から削除できる）。作成後は通常どおり初回PINを設定する。
