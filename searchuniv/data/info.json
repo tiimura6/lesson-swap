@@ -23527,7 +23527,8 @@
 "https://passnavi.obunsha.co.jp/univ/1030/expense/",
 "https://manabi.benesse.ne.jp/daigaku/school/2045/nyushi/gokaku-happyo/",
 "https://search.keinet.ne.jp/1515/outline/admission_employment",
-"https://manabi.benesse.ne.jp/daigaku/school/2045/syusyoku/"
+"https://manabi.benesse.ne.jp/daigaku/school/2045/syusyoku/",
+"https://passnavi.obunsha.co.jp/univ/1030/scholarship/"
 ],
 "kyotsu": {
 "kamoku": "医学科・看護学科は理型、保健科学部は5教科7科目・4〜5教科5科目",
@@ -23691,7 +23692,8 @@
 "ratios": "2026-11-06",
 "research": "2026-11-14",
 "careers": "2026-11-14",
-"licenses": "2026-11-15"
+"licenses": "2026-11-15",
+"scholar": "2026-11-19"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -23858,7 +23860,21 @@
 "診療放射線技師国家試験受験資格（保健科学部）",
 "臨床検査技師国家試験受験資格（保健科学部）",
 "細胞検査士受験資格（保健科学部。所定の単位修得者）"
-]
+],
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "福島県緊急医師確保修学資金",
+"kind": "貸与",
+"target": "医学部",
+"amount": "月額15万円＋入学料相当額（県内出身28万2千円・県外出身84万6千円、新入生のみ）",
+"timing": "入学後（〜5月上旬）",
+"cond": "将来、福島県内の公的医療機関に医師として勤務する意思がある者。臨床研修後、知事指定の県内病院等で貸与期間の1.5倍勤務すると全額返還免除。60名"
+}
+],
+"note": "福島県の制度（パスナビの奨学金欄に掲載）。大学独自の給付・減免の掲載はなし（パスナビ：原則2026年4月入学者対象、予約採用型は2027年）"
+}
 },
 "新潟大学": {
 "difficulty": {
@@ -31518,7 +31534,8 @@
 "https://passnavi.obunsha.co.jp/univ/0660/expense/",
 "https://search.keinet.ne.jp/1330/outline/licential",
 "https://search.keinet.ne.jp/1330/outline/admission_employment",
-"https://www.nara-wu.ac.jp/nyusi/qnyusi/download/pdf/R9sougougatabosyuuyoukou.pdf"
+"https://www.nara-wu.ac.jp/nyusi/qnyusi/download/pdf/R9sougougatabosyuuyoukou.pdf",
+"https://passnavi.obunsha.co.jp/univ/0660/scholarship/"
 ],
 "kyotsu": {
 "kamoku": "6教科8科目（前期）〜5教科7科目（文学部後期）",
@@ -31797,7 +31814,8 @@
 "ratios": "2026-11-06",
 "research": "2026-11-14",
 "licenses": "2026-11-14",
-"careers": "2026-11-14"
+"careers": "2026-11-14",
+"scholar": "2026-11-19"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -32178,7 +32196,61 @@
 "社会福祉主事（資格）",
 "食品衛生監視員（資格）"
 ],
-"careers": "2024年度卒業者は文学部で就職69.6〜79.4%、生活環境学部の食物栄養学科75.7%・生活文化学科76.7%。理学部は大学院等への進学が多く（数物科学科56.1%、化学生物環境学科65.9%）、生活環境学部の住環境学科も進学54.1%。"
+"careers": "2024年度卒業者は文学部で就職69.6〜79.4%、生活環境学部の食物栄養学科75.7%・生活文化学科76.7%。理学部は大学院等への進学が多く（数物科学科56.1%、化学生物環境学科65.9%）、生活環境学部の住環境学科も進学54.1%。",
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "廣岡奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "月額1万5千円（最長3年）",
+"timing": "在学中（2年生以上、毎年4月に願書提出）",
+"cond": "両親がいない・母子父子家庭などで経済的に特に困窮し、学業・人物とも特に優秀。計9名（各学年3名）"
+},
+{
+"name": "広部奨学金",
+"kind": "給付",
+"target": "各学部",
+"amount": "1万円（1回）",
+"timing": "在学中（3年生以上、学内推薦）",
+"cond": "人物・学業とも優秀で学部長の推薦を受けた者。各学部1〜2名"
+},
+{
+"name": "福栄鋼材奨学金",
+"kind": "給付",
+"target": "全学部（学部長推薦）",
+"amount": "5万円（1回）",
+"timing": "在学中（2年生、学内推薦）",
+"cond": "人物・学業とも優秀で学部長の推薦を受けた者"
+},
+{
+"name": "佐保会奨学金",
+"kind": "給付",
+"target": "各学部",
+"amount": "3万円（1回）",
+"timing": "在学中（2年生以上、学内選考）",
+"cond": "学業・人物とも優秀で研究意欲が旺盛として学部長の推薦を受けた者。各学部1〜4名"
+},
+{
+"name": "なでしこ基金による留学奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "交換留学：月8万〜12万円または一時金10万円／短期留学：一時金4万〜8万円（地域により異なる）",
+"timing": "在学中（随時）",
+"cond": "本学の交換留学（1学期以上、成績基準あり）または本学主催の短期留学に参加する者。交換留学は年10名以内"
+},
+{
+"name": "育児奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "利用実費（原則2万円上限、4〜9月・10〜3月に各1回）",
+"timing": "在学中（9月下旬・3月下旬に申請）",
+"cond": "本学の子育て支援システムに登録した育児中の学生で、小学6年生以下の子どもに関わる支援を利用した者"
+}
+],
+"note": "パスナビ（パスナビ：原則2026年4月入学者対象、予約採用型は2027年）による。対象学部の記載がないものは「全学部」とした"
+}
 },
 "長岡技術科学大学": {
 "difficulty": {
@@ -32216,7 +32288,8 @@
 "https://passnavi.obunsha.co.jp/univ/0360/expense/",
 "https://search.keinet.ne.jp/1175/outline/licential",
 "https://search.keinet.ne.jp/1175/outline/admission_employment",
-"https://manabi.benesse.ne.jp/daigaku/school/1200/nyushi/hoshiki/ippan/"
+"https://manabi.benesse.ne.jp/daigaku/school/1200/nyushi/hoshiki/ippan/",
+"https://passnavi.obunsha.co.jp/univ/0360/scholarship/"
 ],
 "kyotsu": {
 "kamoku": "6教科8科目（工学部前期）",
@@ -32291,7 +32364,8 @@
 "ratios": "2026-11-06",
 "research": "2026-11-14",
 "licenses": "2026-11-14",
-"careers": "2026-11-14"
+"careers": "2026-11-14",
+"scholar": "2026-11-19"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -32371,7 +32445,21 @@
 "高等学校教諭（工業）一種",
 "測量士（資格）"
 ],
-"careers": "2024年度卒業者は各課程とも大学院等への進学が多い（機械創造工学82.9%、電気電子情報工学91.8%、情報・経営システム工学88.9%、物質材料工学90.0%、生物機能工学85.0%、環境社会基盤工学72.7%）。"
+"careers": "2024年度卒業者は各課程とも大学院等への進学が多い（機械創造工学82.9%、電気電子情報工学91.8%、情報・経営システム工学88.9%、物質材料工学90.0%、生物機能工学85.0%、環境社会基盤工学72.7%）。",
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "長岡技術科学大学基金奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "上限60万円（事由により異なる、同一事由で1回）",
+"timing": "在学中（事由発生から6か月以内に申込）",
+"cond": "学資負担者の死亡・破産、または地震・水害・火災などで家屋が全壊・半壊・床上浸水などの被害を受けた者"
+}
+],
+"note": "パスナビ（パスナビ：原則2026年4月入学者対象、予約採用型は2027年）による。貸与・減免の独自制度の掲載はなし"
+}
 },
 "豊橋技術科学大学": {
 "difficulty": {
@@ -32408,7 +32496,8 @@
 "https://passnavi.obunsha.co.jp/univ/0520/expense/",
 "https://passnavi.obunsha.co.jp/univ/0520/schedule/",
 "https://search.keinet.ne.jp/1245/outline/admission_employment",
-"https://manabi.benesse.ne.jp/daigaku/school/1270/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/1270/nyushi/",
+"https://passnavi.obunsha.co.jp/univ/0520/scholarship/"
 ],
 "kyotsu": {
 "kamoku": "6教科8科目（工学部学際共創課程前期）",
@@ -32495,7 +32584,8 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "research": "2026-11-14",
-"careers": "2026-11-14"
+"careers": "2026-11-14",
+"scholar": "2026-11-19"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -32581,7 +32671,37 @@
 "材料エレクトロニクス、機能電気システム、集積電子システム、情報通信システム（電気・電子情報工学課程）",
 "応用化学・生命工学（応用化学・生命工学課程）、建築・社会基盤（建築・都市システム学課程）"
 ],
-"careers": "2024年度卒業者は各課程とも大学院等への進学が多い（機械工学84.0%、電気・電子情報工学93.0%、情報・知能工学86.6%、応用化学・生命工学85.7%、建築・都市システム学84.7%）。"
+"careers": "2024年度卒業者は各課程とも大学院等への進学が多い（機械工学84.0%、電気・電子情報工学93.0%、情報・知能工学86.6%、応用化学・生命工学85.7%、建築・都市システム学84.7%）。",
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "優秀学生支援制度（学部1年次新入生）",
+"kind": "給付",
+"target": "全学部",
+"amount": "30万円（1回）",
+"timing": "入試時（入学時）",
+"cond": "学校推薦型選抜（工業に関する学科等）・学校推薦型選抜（普通科・理数に関する学科等）・一般選抜（前期）の各区分の成績最上位者（各1名）"
+},
+{
+"name": "優秀学生支援制度（学部在学生支援）",
+"kind": "給付",
+"target": "全学部",
+"amount": "年額27万6千円（1年間）",
+"timing": "在学中（2〜4年生、学内選考）",
+"cond": "学業等の成績が優秀な者。各学年5名"
+},
+{
+"name": "大学基金による奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "年額24万円（2年間、4年生は1年間）",
+"timing": "在学中（7月ごろ申込）",
+"cond": "原則としてJASSO第一種奨学金の採用者で、当該年度の前期授業料免除の採用者。3名"
+}
+],
+"note": "パスナビ（パスナビ：原則2026年4月入学者対象、予約採用型は2027年）による"
+}
 },
 "早稲田大学": {
 "difficulty": {
@@ -32643,7 +32763,8 @@
 "https://passnavi.obunsha.co.jp/univ/3190/expense/",
 "https://search.keinet.ne.jp/2293/topics/12",
 "https://passnavi.obunsha.co.jp/univ/3190/schedule/",
-"https://www.waseda.jp/folaw/law/applicants/admission/"
+"https://www.waseda.jp/folaw/law/applicants/admission/",
+"https://passnavi.obunsha.co.jp/univ/3190/scholarship/"
 ],
 "licenses": [
 "教員免許（小・中・高 各教科）",
@@ -33514,7 +33635,8 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"scholar": "2026-11-19"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -34450,7 +34572,53 @@
 ],
 "note": "河合塾Kei-Netの英語の入試対策情報に基づく（数学等は未収集）。"
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "めざせ！都の西北奨学金",
+"kind": "給付",
+"target": "全学部（文系学部45万円／人間科学・スポーツ科学・国際教養65万円／教育（理系）・基幹・創造・先進理工70万円）",
+"amount": "年額45万〜70万円（正規の修業年限内、年次継続審査あり）",
+"timing": "入学前予約（7月上旬に要項公表、Web申請）",
+"cond": "首都圏（東京都〈島しょ部除く〉・埼玉・千葉・神奈川）以外の国内高校出身で、現役または一浪まで。本学指定の入試を受験。収入・所得基準あり。採用候補者1,200名"
+},
+{
+"name": "紺碧の空奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "入学検定料・入学金・授業料・実験実習料などの全額相当額＋月額9万円（留学支援金あり）",
+"timing": "入学前予約（入試前の7月上旬〜9月上旬に申込）",
+"cond": "児童養護施設・養育里親家庭・ファミリーホームの入所（委託）中、または退所（解除）後2年以内の者。若干名"
+},
+{
+"name": "大隈記念奨学金",
+"kind": "給付",
+"target": "全学部（創造理工・先進理工は3年生のみ）",
+"amount": "原則年額40万円（1年間）",
+"timing": "在学中（選考は学部により異なる）",
+"cond": "成績・人物が特に優秀な者。104名以内"
+},
+{
+"name": "小野梓記念奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "年額40万円（1年間）",
+"timing": "在学中（前年度2〜3月に奨学金登録）",
+"cond": "修学上特に経済的に困難な者。200名程度"
+},
+{
+"name": "校友会給付奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "年額40万円（1年間）",
+"timing": "在学中（前年度2〜3月に奨学金登録）",
+"cond": "修学上特に経済的に困難な者。35名"
+}
+],
+"note": "パスナビ（パスナビ：原則2026年4月入学者対象、予約採用型は2027年）による。学部生向けの学内奨学金は約80種類（年額13万〜100万円）すべて給付型。ほかに早稲田大学緊急奨学金あり"
+}
 },
 "慶應義塾大学": {
 "difficulty": {
@@ -34506,7 +34674,8 @@
 "https://passnavi.obunsha.co.jp/univ/2370/expense/",
 "https://search.keinet.ne.jp/2210/outline/licential",
 "https://search.keinet.ne.jp/2210/outline/admission_employment",
-"https://www.keio.ac.jp/ja/education/fields-of-study/undergraduate/"
+"https://www.keio.ac.jp/ja/education/fields-of-study/undergraduate/",
+"https://www.keio.ac.jp/ja/admissions/scholarship/"
 ],
 "kyotsu": {
 "kamoku": "共通テスト利用なし",
@@ -34665,7 +34834,8 @@
 "_via": "2026-11-07",
 "licenses": "2026-11-14",
 "careers": "2026-11-14",
-"research": "2026-11-15"
+"research": "2026-11-15",
+"scholar": "2026-11-19"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -35190,7 +35360,29 @@
 "医学部：医学、解剖学・生理学、生命科学、薬理学",
 "薬学部：薬学・薬科学、薬理学、医療関連分野",
 "看護医療学部：看護学、医療関連分野"
-]
+],
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "学問のすゝめ奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "年60万〜90万円（原則卒業まで、初年度は入学金相当20万円を加算）。2年目以降、成績優秀者は年80万〜150万円に増額",
+"timing": "入学前予約（一般選抜の受験前に採否が判明）",
+"cond": "学力・家計状況・人物で選考。毎年500名以上採用"
+},
+{
+"name": "慶應義塾大学修学支援奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "年額平均約30万円",
+"timing": "在学中",
+"cond": "家計急変・継続的な収入不足・災害被災など、困窮の理由を問わず支援。100名程度（2026年度予定）"
+}
+],
+"note": "大学公式による。本学独自の奨学金はすべて給付型で、学部・研究科独自を含め約120種（2025年度実績：総額9.4億円・のべ2,040名）。ほかに指定寄付奨学金・慶應義塾維持会奨学金・留学関連奨学金がある"
+}
 },
 "上智大学": {
 "difficulty": {
@@ -113313,7 +113505,7 @@
 "faculties": "2026-11-07",
 "departments": "2026-11-07",
 "methods": "2026-11-07",
-"schedule": "2026-11-09",
+"schedule": "2026-11-19",
 "scholar": "2026-11-07",
 "access": "2026-11-07",
 "licenses": "2026-11-07",
@@ -113415,7 +113607,7 @@
 "note": ""
 }
 ],
-"note": "保健医療学部の全4学科（看護・放射線技術科学・検査科学・医療工学）で同一日程。検定料は出典に記載なし（マナビジョン 2027年度入試）"
+"note": "保健医療学部の全4学科（看護・放射線技術科学・検査科学・医療工学）で同一日程。検定料は出典に記載なし（マナビジョン 2027年度入試。2026-11-19 Kei-Netで一般・共テ利用の日程が一致）"
 },
 "scholar": {
 "year": "2027年度",
@@ -113449,7 +113641,8 @@
 "https://www.junshin-u.ac.jp/about/history/",
 "http://www.junshin-u.ac.jp/assets/files/jikotenken-r04.pdf",
 "https://manabi.benesse.ne.jp/daigaku/school/3898/nyushi/index.html",
-"https://passnavi.obunsha.co.jp/univ/4947/expense/"
+"https://passnavi.obunsha.co.jp/univ/4947/expense/",
+"https://search.keinet.ne.jp/2728sp/general/schedule_sp"
 ],
 "students": {
 "count": 1147,
@@ -113523,7 +113716,7 @@
 "_via": "2026-11-07",
 "students": "2026-11-09",
 "founded": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-19",
 "money": "2026-11-09"
 },
 "departments": [
