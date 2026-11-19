@@ -3539,7 +3539,8 @@
 "https://telemail.jp/shingaku/university/10003359/examination/general",
 "https://passnavi.obunsha.co.jp/univ/0100/expense/",
 "https://www.eng.tohoku.ac.jp/media/files/pdf/contact/ao_2027.pdf",
-"https://passnavi.obunsha.co.jp/univ/0100/schedule/?facultyID=030"
+"https://passnavi.obunsha.co.jp/univ/0100/schedule/?facultyID=030",
+"https://search.keinet.ne.jp/1050/outline/scholarship"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -3972,7 +3973,8 @@
 "qtrend": "2026-11-07",
 "oc": "2026-11-07",
 "schedule": "2026-11-15",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"scholar": "2026-11-19"
 },
 "money": {
 "year": "2026年度",
@@ -4339,7 +4341,21 @@
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "東北大学元気・前向き奨学金（修学支援奨学金）",
+"kind": "給付",
+"target": "全学部",
+"amount": "年36万円（1年間）",
+"timing": "在学中（7月ころ学生支援課へ、予定）",
+"cond": "学業成績が優秀で、年収・学業・入学時期の基準でJASSO給付奨学金の対象外となった25歳未満の者。他の給付型奨学金を受けていないこと。50名以内（予定）"
+}
+],
+"note": "Kei-Net（旺文社データ・2026年度実施情報）による。対象学部の記載がないものは「全学部」とした"
+}
 },
 "名古屋大学": {
 "difficulty": {
@@ -4391,7 +4407,8 @@
 "https://passnavi.obunsha.co.jp/univ/0490/expense/",
 "https://www.nagoya-u.ac.jp/admissions/exam/upload/R9_application_guide_sui.pdf",
 "https://www.nagoya-u.ac.jp/admissions/exam/upload/R9_ao_application_guide_1.pdf",
-"https://passnavi.obunsha.co.jp/univ/0490/schedule/"
+"https://passnavi.obunsha.co.jp/univ/0490/schedule/",
+"https://search.keinet.ne.jp/1250/outline/scholarship"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -4757,7 +4774,8 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "oc": "2026-11-07",
-"schedule": "2026-11-15"
+"schedule": "2026-11-15",
+"scholar": "2026-11-19"
 },
 "money": {
 "year": "2026年度",
@@ -5124,6 +5142,44 @@
 "note": "第1次選考結果2/5"
 }
 ]
+},
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "名古屋大学下駄の鼻緒奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "60万円（1回）",
+"timing": "在学中（前年度の1月に所属学部を通じて申込）",
+"cond": "最終学年次生。人物・学業成績が特に優れ、経済的理由で修学が困難で、指導教員等が推薦する者。約4名（留学生約2名を含む）。受給中の奨学金月額合計5万円以上（貸与を除く）は不可"
+},
+{
+"name": "名古屋大学ホシザキ奨学金",
+"kind": "給付",
+"target": "工学部・情報学部（工学関連学科）",
+"amount": "月14万円（2年間）",
+"timing": "在学中（3年生の4月に所属学部の窓口で申込）",
+"cond": "人物・学業成績に優れ、経済的理由で修学が困難な者。20〜30名（大学院を含む）。給付型奨学金との併用不可"
+},
+{
+"name": "名古屋大学特定基金エンカレッジメント奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "年50万円（1年間）",
+"timing": "在学中（〜4月上旬に学生支援課へ）",
+"cond": "区分AはJASSO第一種の家計基準を原則満たし学業成績優秀な者、区分Bは学業成績優秀な者。対象学年・人数は寄付企業・年度により異なる"
+},
+{
+"name": "NU奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "年24万円（1年間）",
+"timing": "在学中（2年生、前年度の10月に学生支援課へ）",
+"cond": "学業成績等が優秀で、経済的理由により修学が困難な者。人数は年度により異なる"
+}
+],
+"note": "Kei-Net（旺文社データ・2026年度実施情報）による。対象学部の記載がないものは「全学部」とした"
 }
 },
 "九州大学": {
@@ -5180,7 +5236,8 @@
 "https://e-handbook.kyushu-u.ac.jp/sub/index.php?I2_Serial=DBR0Z274",
 "https://passnavi.obunsha.co.jp/univ/0820/expense/",
 "https://passnavi.obunsha.co.jp/univ/0820/schedule/",
-"https://manabi.benesse.ne.jp/daigaku/school/1425/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/1425/nyushi/",
+"https://search.keinet.ne.jp/1405/outline/scholarship"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -5718,7 +5775,8 @@
 "qtrend": "2026-11-07",
 "oc": "2026-11-07",
 "schedule": "2026-11-15",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"scholar": "2026-11-19"
 },
 "money": {
 "year": "2026年度",
@@ -6112,7 +6170,77 @@
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "中本博雄賞修学支援奨学金（予約採用型）",
+"kind": "給付",
+"target": "全学部",
+"amount": "月8万円の給付＋年間授業料全額免除（正規の修業年限内）",
+"timing": "入学前予約（9月ころ学務部学生支援課へ申込、12月以降に入試前に候補者通知。一部の入試は入試後）",
+"cond": "高校の学習成績の状況4.3以上で、経済的理由により修学が困難な者。10名程度"
+},
+{
+"name": "市川節造奨学金",
+"kind": "給付",
+"target": "医学部・歯学部・薬学部を除く学部",
+"amount": "月10万円（社会的養護を要する者など）／月5万円（経済的に極めて困窮する1年生）",
+"timing": "在学中（5月ころ学生支援課へ）",
+"cond": "社会的養護を必要とする者・それに準じる者、または経済的に極めて困窮し修学に支障がある1年生。2名以内"
+},
+{
+"name": "九州大学修学支援奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "月2万円（1年間）",
+"timing": "在学中（8月ころ学生支援課へ）",
+"cond": "経済的事情により修学が困難で学業成績が優秀な者。40名程度"
+},
+{
+"name": "利章奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "月10万円（正規の修業年限内）",
+"timing": "在学中（2年次以上、5月ころ学生支援課へ）",
+"cond": "人間性・志・人格に優れ、学業成績が特に優秀で経済的困窮度が高い者。3名程度"
+},
+{
+"name": "九州大学基幹教育奨励賞（奨学金）",
+"kind": "給付",
+"target": "全学部",
+"amount": "50万円（1回）",
+"timing": "在学中（2年生、学内選考）",
+"cond": "1年次の基幹教育で特に優れた成績を収めた者。30名程度。2026年度は内容が変わる場合あり"
+},
+{
+"name": "山川賞",
+"kind": "給付",
+"target": "全学部",
+"amount": "年100万円（正規の修業年限内）",
+"timing": "在学中（3年生、5月上旬に学生支援課へ）",
+"cond": "教育憲章が目指す人間性・社会性・国際性・専門性に優れた志を持つ学生。10名程度"
+},
+{
+"name": "九州大学未来人材育成奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "年80万円（1年間）",
+"timing": "在学中（5月ころ学生支援課へ）",
+"cond": "学業成績が優秀で、別に定める基準に該当する者。12名（2025年度実績）"
+},
+{
+"name": "九州大学企業型冠奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "年85万円（1年間、2025年度実績）",
+"timing": "在学中（5月ころ学生支援課へ）",
+"cond": "経済的に困窮し修学に支障がある者、または学業成績が優秀で基準に該当する者。計18名程度（2025年度実績）"
+}
+],
+"note": "Kei-Net（旺文社データ・2026年度実施情報）による。対象学部の記載がないものは「全学部」とした。このほか授業料免除制度がある（詳細は掲載なし）"
+}
 },
 "北海道大学": {
 "difficulty": {
@@ -6165,7 +6293,8 @@
 "https://search.keinet.ne.jp/1025/general/exam_subject",
 "https://www.hokudai.ac.jp/admission/R09_admission.pdf",
 "https://www.hokudai.ac.jp/gakusei/campus-life/certificates/tuition.html",
-"https://passnavi.obunsha.co.jp/univ/0010/expense/"
+"https://passnavi.obunsha.co.jp/univ/0010/expense/",
+"https://passnavi.obunsha.co.jp/univ/0010/scholarship/"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -6625,7 +6754,8 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "oc": "2026-11-07",
-"schedule": "2026-11-15"
+"schedule": "2026-11-15",
+"scholar": "2026-11-19"
 },
 "money": {
 "year": "2026年度",
@@ -6983,6 +7113,20 @@
 "note": "第1段階選抜結果発表2/26。医学部・歯学部は後期なし（文・教育・法・経済・理・薬・工・農・獣医・水産で実施）"
 }
 ]
+},
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "北海道大学フロンティア基金新渡戸カレッジ海外留学奨学金",
+"kind": "給付",
+"target": "全学部（新渡戸カレッジオナーズプログラム生）",
+"amount": "月8万円（条件により異なる。留学月数が上限）",
+"timing": "在学中",
+"cond": "新渡戸カレッジオナーズプログラム生が海外留学するとき。14名"
+}
+],
+"note": "旺文社パスナビ（2026年4月入学者対象の情報）による。掲載はこの1件のみ"
 }
 },
 "一橋大学": {
@@ -7026,7 +7170,8 @@
 "https://juken.hit-u.ac.jp/admission/info/guidelines/files/R9ippan_youkou.pdf",
 "https://www.hit-u.ac.jp/kyomu/fee/index.html",
 "https://passnavi.obunsha.co.jp/univ/0330/expense/",
-"https://manabi.benesse.ne.jp/daigaku/school/1185/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/1185/nyushi/",
+"https://search.keinet.ne.jp/1165/outline/scholarship"
 ],
 "licenses": [
 "教員免許（中・高 社会・地理歴史・公民、社会学部）",
@@ -7193,7 +7338,8 @@
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"qtrend": "2026-11-07"
+"qtrend": "2026-11-07",
+"scholar": "2026-11-19"
 },
 "money": {
 "year": "2026年度",
@@ -7436,6 +7582,28 @@
 }
 ],
 "note": "出典は河合塾Kei-Netの学習アドバイス。国語・地歴の試験時間は出典に記載なし。日本史・世界史の字数は出典の記述が曖昧なため記載していない。"
+},
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "学業優秀学生奨学金",
+"kind": "給付",
+"target": "全学部（各学部各学年1名）",
+"amount": "年間授業料の全額相当額（1年間）",
+"timing": "在学中（2〜4年生、学内選考）",
+"cond": "学業成績が特に優秀かつ人物に優れた者。前年度1年間の成績で候補者を決定"
+},
+{
+"name": "小林輝之助記念奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "月5万円（正規の修業年限内、継続審査あり）",
+"timing": "在学中（4月に申込）",
+"cond": "学業・人物ともに優秀で、経済的理由により修学が困難な者。4名"
+}
+],
+"note": "Kei-Net（旺文社データ・2026年度実施情報）による。対象学部の記載がないものは「全学部」とした"
 }
 },
 "東京科学大学": {
@@ -8132,7 +8300,8 @@
 "https://search.keinet.ne.jp/1310/general/exam_subject",
 "https://www.office.kobe-u.ac.jp/stdnt-examinavi/juken/nittei/index.html",
 "https://passnavi.obunsha.co.jp/univ/0620/expense/",
-"https://manabi.benesse.ne.jp/daigaku/school/1330/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/1330/nyushi/",
+"https://search.keinet.ne.jp/1310/outline/scholarship"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -8748,7 +8917,8 @@
 "qtrend": "2026-11-07",
 "schedule": "2026-11-15",
 "_via": "2026-11-07",
-"research": "2026-11-14"
+"research": "2026-11-14",
+"scholar": "2026-11-19"
 },
 "money": {
 "year": "2026年度",
@@ -9129,7 +9299,21 @@
 "海洋科学・海洋工学と海洋の経済・国際法・政策、航海学・機関学の海技ライセンスコース（海洋政策科学部）",
 "医学、医療機器を開発する医療創成工学、看護・検査・理学療法・作業療法（医学部）",
 "グローバル文化・発達コミュニティ・環境共生・子ども教育（国際人間科学部）"
-]
+],
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "神戸大学基金奨学金",
+"kind": "給付",
+"target": "全学部（1年生）",
+"amount": "年15万円（1年間）",
+"timing": "入学後（申込不要。高等教育の修学支援新制度に付帯）",
+"cond": "成績・人物ともに優秀で経済的支援が必要な学部1年生。修学支援新制度の授業料減免が第Ⅱ・第Ⅲ区分（多子世帯を除く）の者全員"
+}
+],
+"note": "Kei-Net（旺文社データ・2026年度実施情報）による。対象学部の記載がないものは「全学部」とした"
+}
 },
 "筑波大学": {
 "difficulty": {
@@ -9180,7 +9364,8 @@
 "https://search.keinet.ne.jp/1085/general/exam_subject",
 "https://ac.tsukuba.ac.jp/wp/wp-content/uploads/2026/07/R9_senbatu_sec.pdf",
 "https://passnavi.obunsha.co.jp/univ/0160/expense/",
-"https://manabi.benesse.ne.jp/daigaku/school/1100/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/1100/nyushi/",
+"https://search.keinet.ne.jp/1085/outline/scholarship"
 ],
 "licenses": [
 "教員免許（小・中・高 各教科、特別支援）",
@@ -9692,7 +9877,8 @@
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"research": "2026-11-14"
+"research": "2026-11-14",
+"scholar": "2026-11-19"
 },
 "money": {
 "year": "2026年度",
@@ -10020,7 +10206,61 @@
 "教育学・心理学・障害科学（特別支援教育・社会福祉）（人間学群）",
 "情報科学・情報メディア創成・知識情報と図書館学（情報学群）",
 "1年次は学類に属さず横断的に学び、2年次から所属を決める総合学域群"
-]
+],
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "つくばスカラシップ 緊急支援",
+"kind": "給付",
+"target": "全学部",
+"amount": "20万円（1回）",
+"timing": "在学中",
+"cond": "学資負担者の死亡などで家計が急変し修学が困難な者。15名"
+},
+{
+"name": "つくばスカラシップ 学業成績優秀者支援奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "10万円（1回）",
+"timing": "在学中（3年生）",
+"cond": "2年次秋学期までの成績が特に優れ、他の学生の模範となる者。約50名"
+},
+{
+"name": "つくばスカラシップ 大学院進学奨励奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "10万円（1回）",
+"timing": "在学中（4年生）",
+"cond": "4年次春学期までの成績が特に優れ、本学大学院への進学予定者。約50名"
+},
+{
+"name": "つくばスカラシップ 育児支援",
+"kind": "給付",
+"target": "全学部",
+"amount": "保育料月額の半額相当（上限2万円、半期）",
+"timing": "在学中",
+"cond": "小学校就学前の子を養育し保育施設等に入所させている者。若干名"
+},
+{
+"name": "筑波大学校友会FUTURE基金奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "20万円（1回）",
+"timing": "入学後（新入生）",
+"cond": "経済的な支援が必要と認められる新入生。若干名"
+},
+{
+"name": "いちご基金障がい学生支援奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "年50万円（1年間）",
+"timing": "在学中",
+"cond": "障がいのある学生で、学業成績が特に優れ他の学生の模範となる者。若干名"
+}
+],
+"note": "Kei-Net（旺文社データ・2026年度実施情報）による。対象学部の記載がないものは「全学部」とした。このほか海外留学支援事業「はばたけ！筑大生」がある"
+}
 },
 "茨城大学": {
 "difficulty": {
@@ -110981,7 +111221,7 @@
 "_via": "2026-11-07",
 "students": "2026-11-09",
 "founded": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-19",
 "money": "2026-11-09"
 },
 "departments": [
@@ -111028,7 +111268,8 @@
 "https://www.fit.ac.jp/pdf/kyomu/2024/hyoka_04.pdf",
 "https://www.fit.ac.jp/daigaku/syokai/enkaku",
 "https://manabi.benesse.ne.jp/daigaku/school/3887/nyushi/",
-"https://manabi.benesse.ne.jp/daigaku/school/3887/gakuhi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3887/gakuhi/",
+"https://manabi.benesse.ne.jp/daigaku/school/3887/nyushi/gokaku-happyo/index.html"
 ],
 "students": {
 "count": 4149,
@@ -111111,7 +111352,7 @@
 "note": ""
 }
 ],
-"note": "検定料は出典に記載なし（マナビジョン 2027年度入試）"
+"note": "ベネッセ マナビジョン（2027年度入試）で全方式の日程が既存と一致（2026-11-19確認）。検定料は出典に記載なし"
 },
 "money": {
 "year": "2027年度",
@@ -111169,7 +111410,7 @@
 "_via": "2026-11-07",
 "students": "2026-11-09",
 "founded": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-19",
 "money": "2026-11-09"
 },
 "departments": [
@@ -111198,7 +111439,8 @@
 "https://d.fdcnet.ac.jp/info/history",
 "https://www.fdcnet.ac.jp/fdc/history/index.html",
 "https://manabi.benesse.ne.jp/daigaku/school/3888/nyushi/",
-"https://manabi.benesse.ne.jp/daigaku/school/3888/gakuhi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3888/gakuhi/",
+"https://manabi.benesse.ne.jp/daigaku/school/3888/nyushi/gokaku-happyo/"
 ],
 "students": {
 "count": 540,
@@ -111290,7 +111532,7 @@
 "note": ""
 }
 ],
-"note": "検定料は出典に記載なし（マナビジョン 2027年度入試、学部名は口腔歯学部 口腔歯学科と表記）"
+"note": "ベネッセ マナビジョン（2027年度入試）で全方式の日程が既存と一致（2026-11-19確認）。検定料は出典に記載なし。学部名は口腔歯学部 口腔歯学科"
 },
 "money": {
 "year": "2027年度",
