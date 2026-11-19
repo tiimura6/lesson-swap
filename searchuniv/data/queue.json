@@ -12019,6 +12019,44 @@
 "need": [
 "method_urls"
 ]
+},
+{
+"name": "九州大学",
+"keinet": "1405",
+"need": [
+"subjects"
+]
+},
+{
+"name": "北海道大学",
+"keinet": "1025",
+"need": [
+"subjects"
+]
+},
+{
+"name": "筑波大学",
+"keinet": "1085",
+"need": [
+"method_urls"
+]
+},
+{
+"name": "茨城大学",
+"keinet": "1075",
+"need": [
+"oc"
+]
+},
+{
+"name": "一橋大学",
+"keinet": "1165",
+"need": [
+"oc"
+],
+"fails": 1,
+"last_fail": "2026-11-20",
+"note": "2026-11-20 大学公式（juken.hit-u.ac.jp）は取得できず、マナビジョンのOCページは本文なし、Kei-Netトップにも記載なし"
 }
 ],
 "failed": [],
@@ -14727,20 +14765,6 @@
 ]
 },
 {
-"name": "九州大学",
-"keinet": "1405",
-"need": [
-"subjects"
-]
-},
-{
-"name": "北海道大学",
-"keinet": "1025",
-"need": [
-"subjects"
-]
-},
-{
 "name": "一橋大学",
 "keinet": "1165",
 "need": [
@@ -15435,13 +15459,6 @@
 "keinet": "1510",
 "need": [
 "subjects"
-]
-},
-{
-"name": "茨城大学",
-"keinet": "1075",
-"need": [
-"oc"
 ]
 },
 {
@@ -19488,27 +19505,6 @@
 "keinet": "1510",
 "need": [
 "scholar"
-]
-},
-{
-"name": "一橋大学",
-"keinet": "1165",
-"need": [
-"method_urls"
-]
-},
-{
-"name": "東京科学大学",
-"keinet": "1150",
-"need": [
-"method_urls"
-]
-},
-{
-"name": "筑波大学",
-"keinet": "1085",
-"need": [
-"method_urls"
 ]
 },
 {
@@ -27453,16 +27449,6 @@
 "last_fail": "2026-11-20"
 },
 {
-"name": "一橋大学",
-"keinet": "1165",
-"need": [
-"oc"
-],
-"fails": 1,
-"last_fail": "2026-11-20",
-"note": "2026-11-20 大学公式（juken.hit-u.ac.jp）は取得できず、マナビジョンのOCページは本文なし、Kei-Netトップにも記載なし"
-},
-{
 "name": "神戸大学",
 "need": [
 "ratios"
@@ -27470,6 +27456,26 @@
 "note": "大学公式の入試結果から過去3〜5年分に延ばす（info.ratios_replace で置き換え）／2026-11-20 大学公式の入試実施結果ページは令和6〜8年度の入学試験状況PDFのみで2022・2023年は無し。令和6年度PDFは表の列がずれて確実に読めず、学部別は2025・2026年のKei-Netのまま",
 "fails": 1,
 "last_fail": "2026-11-20"
+},
+{
+"name": "一橋大学",
+"keinet": "1165",
+"need": [
+"method_urls"
+],
+"fails": 1,
+"last_fail": "2026-11-20",
+"note": "2026-11-20 公式の要項一覧（juken.hit-u.ac.jp）とKei-Netは取得できず、検索で見つかった公式要項はR8（2026年度）以前のみでR9（2027年度）の要項URLを確認できず"
+},
+{
+"name": "東京科学大学",
+"keinet": "1150",
+"need": [
+"method_urls"
+],
+"fails": 1,
+"last_fail": "2026-11-20",
+"note": "2026-11-20 公式サイト（www.isct.ac.jp）を取得できず、検索でもisct.ac.jpの2027年度募集要項・選抜要項のURLは見つからず"
 },
 {
 "name": "島根大学",
