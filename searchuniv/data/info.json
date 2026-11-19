@@ -988,7 +988,8 @@
 "https://passnavi.obunsha.co.jp/univ/0560/expense/",
 "https://passnavi.obunsha.co.jp/univ/0560/schedule/?facultyID=015",
 "https://search.keinet.ne.jp/recommend/exam_ao/1280",
-"https://search.keinet.ne.jp/1280/outline/scholarship"
+"https://search.keinet.ne.jp/1280/outline/scholarship",
+"https://www.kyoto-u.ac.jp/sites/default/files/inline-files/tokushokubosyuyokoR9_all-f569224441815e266daff2544e136cc1.pdf"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -1039,22 +1040,24 @@
 {
 "kubun": "推薦",
 "name": "特色入試（学校推薦型・共テあり）",
-"content": "書類審査（段階評価）＋共通テスト（概ね8割基準、教科別9割基準の学科あり）。学科により小論文（法）・面接（情報・理工化・医）を追加",
-"req": "専願・現役（法・経済は卒後1年以内）。経済は評定4.3。活動歴・高校あたり人数条件、医は英語資格（TOEFL iBT）",
-"kyotsu": "課す",
-"note": "法・経済・工（女性募集枠あり）・医などで実施、各学科2〜20人"
+"content": "法・経済（文系型・理系型）・医学科・工（地球工・建築・物理工・電気電子・情報・理工化）で実施。経済と工の多くは提出書類をA〜Dで評価しAのみ合格（第2次なし）。法は英文を題材とした小論文、医学科は口頭試問と面接、情報学科と理工化（女性枠）は口頭試問",
+"req": "学校長の推薦（高校あたり1〜3人。学科で異なる）。法は英語資格の提出、経済は英語資格や課外活動・課題研究の顕著な実績、工は科学の課外活動・課題研究の顕著な実績など。医学科はTOEFL iBT必須。工の5学科に女性募集枠あり",
+"kyotsu": "課す（多くは概ね80%以上。医学科は判定に使わず提出のみ）",
+"note": "募集人員：法20・経済25・医学科5・工61（女性枠24を含む）。出願11/5〜11/11、最終合格発表2/10（医学科1/22）",
+"url": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/tokushokubosyuyokoR9_all-f569224441815e266daff2544e136cc1.pdf"
 },
 {
 "kubun": "総合型",
 "name": "特色入試（総合型・共テあり）",
-"content": "1次書類審査、2次面接・小論文・課題・教科試験など（学部による）、3次共通テスト（基準は概ね7〜8割台）",
-"req": "専願・卒後1年以内（薬は現役）。教育・総合人間は評定4.3の記載、薬・農の一部は語学資格",
-"kyotsu": "課す",
-"note": "文・教育・理（女性募集枠あり）・農・医（人間健康科学）・薬・総合人間で実施、各3〜20人"
+"content": "総合人間・文・教育・理（数理科学・生物科学・化学・女性募集2区分）・医（人間健康科学科）・薬・農で実施。第1次は提出書類（調査書・学業活動報告書・学びの設計書など）、第2次は総合問題・論述・小論文・口頭試問・面接・能力測定考査（学部で異なる）",
+"req": "多くの学部で入学確約が必要。総合人間・教育は評定4.3以上。薬と農（資源生物科学・食品生物科学）は英語資格。理の女性募集は女性のみ",
+"kyotsu": "課す（概ね70〜85%以上。学部で異なる）",
+"note": "募集人員：総合人間5・文10・教育6・理37（女性枠15を含む）・人間健康科学34・薬6・農26。理・人間健康科学は出願10/1〜10/7、ほかは11/5〜11/11。最終合格発表2/10",
+"url": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/tokushokubosyuyokoR9_all-f569224441815e266daff2544e136cc1.pdf"
 }
 ],
 "summary": "一般は前期のみで二次配点が非常に大きい。特色入試（推薦・総合型）は専願・共テ7〜8割基準＋活動実績が必要。",
-"note": "推薦ページは医学部医学科までで切れている可能性あり"
+"note": "一般選抜は前期日程のみ（後期日程なし）。特色入試は2027年度（令和9年度）学生募集要項で全学部・学科を確認（2026-11-19）"
 },
 "departments": [
 {
@@ -4408,7 +4411,8 @@
 "https://www.nagoya-u.ac.jp/admissions/exam/upload/R9_application_guide_sui.pdf",
 "https://www.nagoya-u.ac.jp/admissions/exam/upload/R9_ao_application_guide_1.pdf",
 "https://passnavi.obunsha.co.jp/univ/0490/schedule/",
-"https://search.keinet.ne.jp/1250/outline/scholarship"
+"https://search.keinet.ne.jp/1250/outline/scholarship",
+"https://en.nagoya-u.ac.jp/about/figures/university-agreements/"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -4775,7 +4779,8 @@
 "qtrend": "2026-11-07",
 "oc": "2026-11-07",
 "schedule": "2026-11-15",
-"scholar": "2026-11-19"
+"scholar": "2026-11-19",
+"partners": "2026-11-19"
 },
 "money": {
 "year": "2026年度",
@@ -5180,6 +5185,336 @@
 }
 ],
 "note": "Kei-Net（旺文社データ・2026年度実施情報）による。対象学部の記載がないものは「全学部」とした"
+},
+"partners": {
+"asof": "2024年12月1日",
+"total": 163,
+"kind": "大学間学術交流協定（全学。研究機関・国際機関・多国間協定を含む協定数）",
+"countries": [
+{
+"c": "アメリカ",
+"n": 17,
+"u": [
+"University of California, Los Angeles",
+"University of Illinois at Urbana-Champaign",
+"New York University",
+"University of Minnesota"
+]
+},
+{
+"c": "中国",
+"n": 14,
+"u": [
+"Tsinghua University",
+"Peking University",
+"Fudan University",
+"Zhejiang University"
+]
+},
+{
+"c": "韓国",
+"n": 12,
+"u": [
+"Seoul National University",
+"KAIST",
+"Korea University",
+"Yonsei University"
+]
+},
+{
+"c": "フランス",
+"n": 11,
+"u": [
+"Université de Strasbourg",
+"Université Paris Cité",
+"École Normale Supérieure de Lyon"
+]
+},
+{
+"c": "イギリス",
+"n": 9,
+"u": [
+"University of Edinburgh",
+"University of Warwick",
+"University of Sheffield",
+"University of Bristol"
+]
+},
+{
+"c": "オーストラリア",
+"n": 8,
+"u": [
+"University of Sydney",
+"Monash University",
+"Australian National University"
+]
+},
+{
+"c": "カナダ",
+"n": 7,
+"u": [
+"University of British Columbia",
+"University of Toronto",
+"University of Alberta"
+]
+},
+{
+"c": "ドイツ",
+"n": 5,
+"u": [
+"Technische Universität München",
+"RWTH Aachen",
+"University of Freiburg"
+]
+},
+{
+"c": "イタリア",
+"n": 5,
+"u": [
+"University of Bologna",
+"Sapienza University of Rome",
+"University of Padua"
+]
+},
+{
+"c": "タイ",
+"n": 5,
+"u": [
+"Chulalongkorn University",
+"Kasetsart University"
+]
+},
+{
+"c": "ウズベキスタン",
+"n": 5,
+"u": [
+"Tashkent State University of Law",
+"Samarkand State University"
+]
+},
+{
+"c": "香港",
+"n": 4,
+"u": [
+"The Chinese University of Hong Kong",
+"The University of Hong Kong"
+]
+},
+{
+"c": "インドネシア",
+"n": 4,
+"u": [
+"Gadjah Mada University",
+"Institute of Technology Bandung",
+"University of Indonesia"
+]
+},
+{
+"c": "モンゴル",
+"n": 4,
+"u": [
+"National University of Mongolia",
+"Mongolian University of Science and Technology"
+]
+},
+{
+"c": "台湾",
+"n": 4,
+"u": [
+"National Taiwan University",
+"National Tsing Hua University"
+]
+},
+{
+"c": "カンボジア",
+"n": 3,
+"u": [
+"Royal University of Phnom Penh"
+]
+},
+{
+"c": "フィリピン",
+"n": 3,
+"u": [
+"University of the Philippines Los Baños"
+]
+},
+{
+"c": "シンガポール",
+"n": 3,
+"u": [
+"Nanyang Technological University",
+"National University of Singapore"
+]
+},
+{
+"c": "ベトナム",
+"n": 3,
+"u": [
+"Hanoi University of Science and Technology",
+"Vietnam National University, Hanoi"
+]
+},
+{
+"c": "ブラジル",
+"n": 2,
+"u": [
+"Universidade de São Paulo"
+]
+},
+{
+"c": "デンマーク",
+"n": 2,
+"u": [
+"University of Copenhagen",
+"Aarhus University"
+]
+},
+{
+"c": "インド",
+"n": 2,
+"u": [
+"Indian Institute of Science, Bangalore"
+]
+},
+{
+"c": "ケニア",
+"n": 2,
+"u": [
+"University of Nairobi"
+]
+},
+{
+"c": "オランダ",
+"n": 2,
+"u": [
+"University of Twente",
+"Radboud University"
+]
+},
+{
+"c": "ノルウェー",
+"n": 2,
+"u": [
+"University of Oslo"
+]
+},
+{
+"c": "ポーランド",
+"n": 2,
+"u": [
+"University of Warsaw"
+]
+},
+{
+"c": "ロシア",
+"n": 2,
+"u": [
+"Ioffe Institute"
+]
+},
+{
+"c": "スウェーデン",
+"n": 2,
+"u": [
+"Uppsala University",
+"Royal Institute of Technology"
+]
+},
+{
+"c": "オーストリア",
+"n": 1,
+"u": [
+"University of Innsbruck"
+]
+},
+{
+"c": "ベルギー",
+"n": 1,
+"u": [
+"KU Leuven"
+]
+},
+{
+"c": "チェコ",
+"n": 1,
+"u": [
+"Czech Technical University in Prague"
+]
+},
+{
+"c": "エジプト",
+"n": 1,
+"u": [
+"Cairo University"
+]
+},
+{
+"c": "フィンランド",
+"n": 1,
+"u": [
+"University of Helsinki"
+]
+},
+{
+"c": "アイスランド",
+"n": 1,
+"u": [
+"University of Iceland"
+]
+},
+{
+"c": "ラオス",
+"n": 1,
+"u": [
+"National University of Laos"
+]
+},
+{
+"c": "メキシコ",
+"n": 1,
+"u": [
+"Universidad Nacional Autónoma de México"
+]
+},
+{
+"c": "ミャンマー",
+"n": 1,
+"u": [
+"University of Yangon"
+]
+},
+{
+"c": "南アフリカ",
+"n": 1,
+"u": [
+"Stellenbosch University"
+]
+},
+{
+"c": "スペイン",
+"n": 1,
+"u": [
+"University of Barcelona"
+]
+},
+{
+"c": "スイス",
+"n": 1,
+"u": [
+"University of Geneva"
+]
+},
+{
+"c": "トルコ",
+"n": 1,
+"u": [
+"Bilkent University"
+]
+}
+],
+"exchange": "",
+"note": "大学公式（英語版）の大学間協定一覧の協定数。多国間協定3件・国際機関3件（CERNなど）は国別に含めていない"
 }
 },
 "九州大学": {
@@ -7652,7 +7987,8 @@
 "https://search.keinet.ne.jp/1150/general/exam_subject",
 "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&amp=&pageId=3088&amp=&contentsId=&amp=&contentsDataId=&amp=&prevId=&amp=&key=2c267bc83d484dc5370621fb9ed717d7.pdf&amp=&fileName=r9-guidelines-zenki",
 "https://passnavi.obunsha.co.jp/univ/0280/expense/",
-"https://manabi.benesse.ne.jp/daigaku/school/1165/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/1165/nyushi/",
+"https://search.keinet.ne.jp/1150/outline/scholarship"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -7927,7 +8263,8 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
-"research": "2026-11-14"
+"research": "2026-11-14",
+"scholar": "2026-11-19"
 },
 "money": {
 "year": "2026年度",
@@ -8248,7 +8585,53 @@
 "生物化学・分子生物学・遺伝子工学・生命情報学（生命理工学院）",
 "建築・土木・環境工学と、技術と社会をつなぐ融合理工学（環境・社会理工学院）",
 "医学と看護学・臨床検査学（医学部）、歯学と口腔保健衛生・歯科技工（歯学部）"
-]
+],
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "大隈良典記念奨学金（予約採用型）",
+"kind": "給付",
+"target": "新入生（理工学系・医歯学系）",
+"amount": "月5万円（正規の修業年限内。修士進学時は延長可）",
+"timing": "入学前予約（10月上旬〜11月中旬に申込、入試前に採用候補者を内定）",
+"cond": "世帯年収・成績の基準あり。女子学生枠（理工学系のみ）・ファーストジェネレーション枠・地方出身者枠。理工学系30名程度・医歯学系12名程度。日本学生支援機構以外の給付型奨学金とは併用不可"
+},
+{
+"name": "手島精一記念奨学金",
+"kind": "給付",
+"target": "理工学系の2年生",
+"amount": "月5万円（3年間）",
+"timing": "在学中（春ころ学生支援課へ）",
+"cond": "世帯年収基準（給与所得800万円未満など）あり。学業・人物が優秀な者。3名"
+},
+{
+"name": "多田記念奨学金",
+"kind": "給付",
+"target": "理工学系（学年制限なし）",
+"amount": "月5万円（正規の修業年限内）",
+"timing": "在学中（春ころ学生支援課へ）",
+"cond": "学業・人物が優秀な者。若干名"
+},
+{
+"name": "研究者早期育成コース奨学金",
+"kind": "給付",
+"target": "医学部医学科・歯学部歯学科（研究者早期育成コース生）",
+"amount": "月8万円（原則3年間）",
+"timing": "在学中（コース入学時に申請）",
+"cond": "研究者早期育成コースに入る学生。学内選考"
+},
+{
+"name": "研究者養成コース奨学金",
+"kind": "貸与",
+"target": "医学部医学科の5・6年生",
+"amount": "月10万円（2年間。大学院進学時は5年間）",
+"timing": "在学中（1月にコースへ申請、合格後3月に申込）",
+"cond": "研究に従事する意思がある者。若干名。返還免除制度あり"
+}
+],
+"note": "Kei-Net（旺文社データ・2026年度実施情報）による"
+}
 },
 "神戸大学": {
 "difficulty": {
@@ -10303,7 +10686,8 @@
 "https://search.keinet.ne.jp/1075/general/exam_subject",
 "https://www.ibaraki.ac.jp/admission/uploads/2026/07/R9senbatuyoko.pdf",
 "https://passnavi.obunsha.co.jp/univ/0150/expense/",
-"https://www.ibaraki.ac.jp/admission/uploads/2026/10/ippan_2027.pdf"
+"https://www.ibaraki.ac.jp/admission/uploads/2026/10/ippan_2027.pdf",
+"https://passnavi.obunsha.co.jp/univ/0150/scholarship/"
 ],
 "licenses": [
 "教員免許（幼・小・中・高、特別支援）",
@@ -10854,7 +11238,8 @@
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"research": "2026-11-14"
+"research": "2026-11-14",
+"scholar": "2026-11-19"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -11151,7 +11536,37 @@
 "数学・情報数理、物理、化学、生物科学、地球環境科学の6コース（理学部）",
 "機械・電気電子・物質科学・情報・都市システム（建築・社会基盤）を学部と大学院の6年一貫で（工学部）",
 "食品科学・生命科学と、地域の農業・農村づくり（農学部）"
-]
+],
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "修学支援金",
+"kind": "給付",
+"target": "全学部の1年生",
+"amount": "3万円（1回）",
+"timing": "在学中（11月ころ）",
+"cond": "高等教育の修学支援新制度の支援区分Ⅰの採用者。該当者全員"
+},
+{
+"name": "BYOD用端末購入支援金",
+"kind": "給付",
+"target": "全学部の1年生",
+"amount": "10万円（1回）",
+"timing": "在学中（12月ころ）",
+"cond": "生活保護世帯の者、または社会的養護が必要と認められ非課税世帯に属する者。該当者全員"
+},
+{
+"name": "成績優秀学生への授業料免除",
+"kind": "減免",
+"target": "全学部",
+"amount": "記載なし",
+"timing": "記載なし",
+"cond": "制度名のみ掲載（詳細はスチューデントライフサポート室へ）"
+}
+],
+"note": "旺文社パスナビ（原則2026年4月入学者対象。未定の項目は2025年度実績）による。対象学部の記載がないものは「全学部」とした"
+}
 },
 "千葉大学": {
 "difficulty": {
@@ -11205,7 +11620,8 @@
 "https://search.keinet.ne.jp/1105/general/exam_subject",
 "https://passnavi.obunsha.co.jp/univ/0210/expense/",
 "https://passnavi.obunsha.co.jp/univ/0210/schedule/",
-"https://manabi.benesse.ne.jp/daigaku/school/1125/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/1125/nyushi/index.html",
+"https://search.keinet.ne.jp/1105/outline/scholarship"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -11828,7 +12244,8 @@
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"research": "2026-11-14"
+"research": "2026-11-14",
+"scholar": "2026-11-19"
 },
 "money": {
 "year": "2026年度",
@@ -12171,7 +12588,29 @@
 "データサイエンスと情報工学、医療・看護や環境・園芸への応用（情報・データサイエンス学部）",
 "栽培・育種、応用生命化学、造園・緑地環境、食料資源経済（園芸学部）",
 "医学、薬学・薬科学、看護学（医・薬・看護学部）"
-]
+],
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "千葉大学奨学支援事業（給付型奨学金）",
+"kind": "給付",
+"target": "全学部（各学部1名、研究科を含め計29名）",
+"amount": "10万円（1回）",
+"timing": "在学中（学内選考）",
+"cond": "当該年度の前期授業料を全額免除された者で、学部長等の推薦がある者"
+},
+{
+"name": "千葉大学奨学支援事業（家計急変者への奨学金給付）",
+"kind": "給付",
+"target": "全学部",
+"amount": "10万円（1回）",
+"timing": "在学中（家計急変時に学生支援課へ）",
+"cond": "家計支持者の死亡や風水害などで家計が急変し、修学の継続が困難になった者。5名程度"
+}
+],
+"note": "Kei-Net（旺文社データ・2026年度実施情報）による。このほか授業料免除制度がある（詳細は掲載なし）。対象学部の記載がないものは「全学部」とした"
+}
 },
 "埼玉大学": {
 "difficulty": {
@@ -12213,7 +12652,8 @@
 "https://search.keinet.ne.jp/1100/general/exam_subject",
 "https://www.saitama-u.ac.jp/media/r9senbatsu.pdf",
 "https://passnavi.obunsha.co.jp/univ/0200/expense/",
-"https://www.saitama-u.ac.jp/media/r9_tokubetuyoko.pdf"
+"https://www.saitama-u.ac.jp/media/r9_tokubetuyoko.pdf",
+"https://search.keinet.ne.jp/1100/outline/scholarship"
 ],
 "licenses": [
 "教員免許（幼・小・中・高、特別支援）",
@@ -12691,7 +13131,8 @@
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"research": "2026-11-14"
+"research": "2026-11-14",
+"scholar": "2026-11-19"
 },
 "money": {
 "year": "2026年度",
@@ -12956,7 +13397,101 @@
 "教員養成と養護教諭養成（衛生学・学校保健・救急処置など）（教育学部）",
 "数学・物理・基礎化学・分子生物学・生体制御学（理学部）",
 "機械・電気電子物理・情報（データサイエンス・人工知能）・応用化学・環境社会デザイン（防災・まちづくり）（工学部）"
-]
+],
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "大栄不動産奨学金",
+"kind": "給付",
+"target": "教養・経済・理・工学部の2〜4年生",
+"amount": "年20万円（正規の最短修業年限内）",
+"timing": "在学中（6月）",
+"cond": "学業・人物ともに優秀な者。6名（継続を含む）。併用不可"
+},
+{
+"name": "デジタルベリー奨学金",
+"kind": "給付",
+"target": "教養学部（学年制限なし）",
+"amount": "10万円（1回）",
+"timing": "在学中（6月）",
+"cond": "学業・人物ともに優秀な者。若干名"
+},
+{
+"name": "武島（志方）明子奨学金",
+"kind": "給付",
+"target": "教育学部の3年生",
+"amount": "3万円（1回）",
+"timing": "在学中（11月）",
+"cond": "学業・人物ともに優秀な者。1名"
+},
+{
+"name": "MARELLI奨学金",
+"kind": "給付",
+"target": "理学部・工学部の3・4年生",
+"amount": "年30万円（正規の最短修業年限内）",
+"timing": "在学中（10月）",
+"cond": "経済的理由で学業継続が困難で、学業・人物ともに優秀かつ学部長推薦を受けた者。4名（継続・大学院を含む）。併用不可"
+},
+{
+"name": "ポーライト奨学金",
+"kind": "給付",
+"target": "理学部・工学部の1〜3年生",
+"amount": "7万円（1回）",
+"timing": "在学中（6月）",
+"cond": "学部長推薦を受けた者。7名（大学院を含む）"
+},
+{
+"name": "白楽ロックビル奨学金",
+"kind": "給付",
+"target": "理学部分子生物学科・生体制御学科の4年生",
+"amount": "5万円（1回）",
+"timing": "在学中（学内選考）",
+"cond": "成績優秀で学部長推薦を受けた者。4名"
+},
+{
+"name": "大志奨学金",
+"kind": "給付",
+"target": "工学部機械工学・システムデザイン学科の3・4年生",
+"amount": "10万円（1回）",
+"timing": "在学中（6月）",
+"cond": "学業・人物ともに優秀な者。2名（大学院を含む）"
+},
+{
+"name": "エネグローバル奨学金（区分A）",
+"kind": "給付",
+"target": "工学部情報工学科",
+"amount": "5万円（1回）",
+"timing": "在学中（学内選考）",
+"cond": "授業料免除を受けている者で学部長推薦を受けた者。20名"
+},
+{
+"name": "三明インターナショナル奨学金",
+"kind": "給付",
+"target": "工学部情報工学科（学年制限なし）",
+"amount": "4万円または2万円（1回）",
+"timing": "在学中（学内選考）",
+"cond": "指定の大会など課外活動で優秀な成績を収めた者。若干名"
+},
+{
+"name": "高脇基礎工事奨学金",
+"kind": "給付",
+"target": "工学部環境社会デザイン学科の2・3年生",
+"amount": "50万円（1回）",
+"timing": "在学中（12月）",
+"cond": "学業・人物ともに優秀な者。2名"
+},
+{
+"name": "SSRC起業奨学金",
+"kind": "給付",
+"target": "全学部（研究機構長の推薦が必要）",
+"amount": "起業支援60万円・知的財産支援60万円（各1回）",
+"timing": "在学中（10月）",
+"cond": "在学中の起業を志し申請後3か月以内に起業予定の者、または起業後1年以内の者など。若干名"
+}
+],
+"note": "Kei-Net（旺文社データ・2026年度実施情報）による。このほか埼玉大学基金奨学金（エネグローバル奨学金区分B・祐昭奨学金・Max会奨学金）がある（詳細は掲載なし）"
+}
 },
 "横浜国立大学": {
 "difficulty": {
@@ -13003,7 +13538,8 @@
 "https://search.keinet.ne.jp/1170/general/exam_subject",
 "https://www.ynu.ac.jp/exam/faculty/essential/pdf/senbatsu2027.pdf",
 "https://passnavi.obunsha.co.jp/univ/0340/expense/",
-"https://search.keinet.ne.jp/1170/outline/department"
+"https://search.keinet.ne.jp/1170/outline/department",
+"https://search.keinet.ne.jp/1170/outline/scholarship"
 ],
 "licenses": [
 "教員免許（小・中・高、特別支援）",
@@ -13439,7 +13975,8 @@
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"research": "2026-11-14"
+"research": "2026-11-14",
+"scholar": "2026-11-19"
 },
 "money": {
 "year": "2026年度",
@@ -13675,7 +14212,37 @@
 "教科教育（言語・文化・社会系／自然・生活系／音楽・美術・保健体育）、心理学、特別支援教育（教育学部）",
 "都市社会共生、建築の計画・設計、都市基盤施設、環境リスクとの共生（都市科学部）",
 "機械工学・材料工学・海洋空間のシステムデザイン、化学・化学応用・バイオ、数理科学・物理工学・電子情報システム・情報工学（理工学部）"
-]
+],
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "YNU大澤奨学金",
+"kind": "給付",
+"target": "全学部の2年生",
+"amount": "月5万円（3年間、継続審査あり）",
+"timing": "在学中（4月ころ学生支援課へ。書類選考・面接）",
+"cond": "成績優秀で、経済的理由により修学が困難な者。4〜5名。日本学生支援機構の給付奨学金・新入生スタートアップ支援金以外の給付型とは原則併用不可"
+},
+{
+"name": "YNU竹井准子記念奨学金",
+"kind": "給付",
+"target": "全学部の新入生（女子学生）",
+"amount": "月5万円（4年間、継続審査あり）",
+"timing": "入学後（4月ころ学生支援課へ。書類選考・面接）",
+"cond": "母子・父子家庭または両親のいない家庭の女子学生で、成績優秀かつ経済的理由により修学が困難な者。3名"
+},
+{
+"name": "新入生スタートアップ支援金",
+"kind": "給付",
+"target": "全学部の新入生",
+"amount": "15万円（1回）",
+"timing": "入学時（3月上旬〜4月上旬ころ学生支援課へ）",
+"cond": "成績優秀で経済的理由により修学が困難な者（当面、世帯年収271万円未満が目安）。20名程度（予定）"
+}
+],
+"note": "Kei-Net（河合塾調査・2026年度実施情報、一部予定を含む）による。対象学部の記載がないものは「全学部」とした"
+}
 },
 "東京外国語大学": {
 "difficulty": {
@@ -14369,7 +14936,8 @@
 "https://search.keinet.ne.jp/1110/outline/admission_employment",
 "https://search.keinet.ne.jp/1110/general/exam_subject",
 "https://passnavi.obunsha.co.jp/univ/0310/expense/",
-"https://www.ao.ocha.ac.jp/application/faculty/body/application_faculty_d/fil/R09ippan.pdf"
+"https://www.ao.ocha.ac.jp/application/faculty/body/application_faculty_d/fil/R09ippan.pdf",
+"https://search.keinet.ne.jp/1110/outline/scholarship"
 ],
 "licenses": [
 "教員免許（幼・小・中・高 各教科）",
@@ -14689,7 +15257,8 @@
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"research": "2026-11-14"
+"research": "2026-11-14",
+"scholar": "2026-11-19"
 },
 "money": {
 "year": "2026年度",
@@ -14852,7 +15421,85 @@
 "数学・物理学・化学・生物学・情報科学の基礎から先端研究まで（理学部）",
 "食物栄養・人間生活・心理学など食・健康・社会・こころを文理融合で研究（生活科学部）",
 "データサイエンスを生かした人間環境工学と、歴史・文学・芸術資料をデジタル化して解析する文化情報工学（共創工学部）"
-]
+],
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "“みがかずば”奨学金（予約採用型）",
+"kind": "給付",
+"target": "全学部（一般選抜・総合型・学校推薦型・高大連携特別選抜の受験者）",
+"amount": "年30万円（1・2年次）",
+"timing": "入学前予約（在学高校を通じて申請、入試前に採用内定を通知）",
+"cond": "入学を希望する高校3年生。20名以内。小澤美奈子奨学金と併願可"
+},
+{
+"name": "小澤美奈子奨学金（予約採用型）",
+"kind": "給付",
+"target": "理学部・生活科学部食物栄養学科・共創工学部",
+"amount": "年25万円（最長4年間）",
+"timing": "入学前予約（在学高校を通じて申請、入試前に採用内定を通知）",
+"cond": "成績と家計の条件に該当する者。2名"
+},
+{
+"name": "学部生成績優秀者奨学金",
+"kind": "給付",
+"target": "全学部の3年生",
+"amount": "年10万円（1年間）",
+"timing": "在学中（学内選考）",
+"cond": "1・2年次の成績・人物が特に優秀な者。25名"
+},
+{
+"name": "SCC-RA奨学金",
+"kind": "給付",
+"target": "全学部の3年生",
+"amount": "月2万円（1年間）",
+"timing": "在学中",
+"cond": "お茶大SCC（新寮）に1年次から2年間在寮し、寮の運営に積極的に協力した者"
+},
+{
+"name": "海外留学特別奨学金",
+"kind": "給付",
+"target": "全学部（学年制限なし）",
+"amount": "年間授業料の全額または半額相当額が上限",
+"timing": "在学中（随時、学生・キャリア支援課へ）",
+"cond": "大学間協定による交換留学（1年以内）で留学先に授業料を納める者（本学の授業料全額免除者を除く）"
+},
+{
+"name": "育児支援奨学金",
+"kind": "給付",
+"target": "全学部（学年制限なし）",
+"amount": "月3万2,500円が上限",
+"timing": "在学中（随時）",
+"cond": "大学が設置する保育所を利用する学生"
+},
+{
+"name": "矢部吉禎・矢部愛子奨学基金",
+"kind": "給付",
+"target": "植物学・数学を学ぶ学部生",
+"amount": "50万円（1回）",
+"timing": "在学中（9月に学務課へ）",
+"cond": "学業成績や研究能力が優秀な者。各分野3名以内"
+},
+{
+"name": "生物学科（小沼英子）奨学基金",
+"kind": "給付",
+"target": "理学部生物学科",
+"amount": "上限50万円（1回）",
+"timing": "在学中（9月に学務課へ）",
+"cond": "成績・人物が優秀で、修学・研究生活の支援が必要な者。若干名"
+},
+{
+"name": "学科別の奨学基金（数学・生物学・化学科・グローバル文化学環・自然地理学）",
+"kind": "給付",
+"target": "理学部・文教育学部の該当学科・コース（主に3・4年生）",
+"amount": "2万〜10万円（1回）",
+"timing": "在学中（学内選考）",
+"cond": "各分野の成績・研究が顕著な者。各1〜3名程度"
+}
+],
+"note": "Kei-Net（2026年度実施情報）による"
+}
 },
 "東京学芸大学": {
 "difficulty": {
