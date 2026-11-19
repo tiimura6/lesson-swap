@@ -53,7 +53,9 @@
 "https://passnavi.obunsha.co.jp/univ/0220/expense/",
 "https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/briefing.html",
 "https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/e01_06_01.html",
-"https://telemail.jp/shingaku/university/10003391/examination/general"
+"https://telemail.jp/shingaku/university/10003391/examination/general",
+"https://search.keinet.ne.jp/1120/outline/scholarship",
+"https://www.u-tokyo.ac.jp/ja/students/welfare/h02_04.html"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -533,7 +535,8 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
-"oc": "2026-11-11"
+"oc": "2026-11-11",
+"scholar": "2026-11-19"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -906,6 +909,28 @@
 "events": [],
 "url": "https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/briefing.html",
 "note": "2026年の東京大学オープンキャンパスは8/3・8/4にオンラインで実施（終了）。女子中高生向け説明会（10/31、Zoom）も終了。学校推薦型選抜説明会は日程未掲載。2027年度の日程は未発表"
+},
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "東京大学さつき会奨学金（高校予約型・女子）",
+"kind": "給付",
+"target": "全学部",
+"amount": "月5万円＋入学支援金30万円（正規の修業年限内）",
+"timing": "入学前予約（11月中旬に高校長経由で申込）",
+"cond": "一般選抜または学校推薦型選抜を受験する女子で、自宅外から通学する者。成績・人物優秀で経済的支援が必要、高校長等の推薦。30名程度。2027年度から都道府県指定口・家計基準撤廃口を設ける予定"
+},
+{
+"name": "東京大学学部学生奨学金（高校予約型）",
+"kind": "給付",
+"target": "全学部",
+"amount": "年50万円（1年間）",
+"timing": "入学前予約（2027年度は1/12〜1/22に高校長経由で申込）",
+"cond": "一般選抜または学校推薦型選抜を受験する者。成績・人物優秀で経済的支援が必要、高校長等の推薦。2名（予定）"
+}
+],
+"note": "Kei-Net（旺文社データ・2026年度）と大学公式の東京大学独自の奨学金一覧で確認。このほか大学院生向けや寄付による奨学金が公式一覧にある"
 }
 },
 "京都大学": {
@@ -962,7 +987,8 @@
 "https://www.kyoto-u.ac.jp/ja/education-campus/contact/fees/jugyo",
 "https://passnavi.obunsha.co.jp/univ/0560/expense/",
 "https://passnavi.obunsha.co.jp/univ/0560/schedule/?facultyID=015",
-"https://search.keinet.ne.jp/recommend/exam_ao/1280"
+"https://search.keinet.ne.jp/recommend/exam_ao/1280",
+"https://search.keinet.ne.jp/1280/outline/scholarship"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -1574,7 +1600,8 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "oc": "2026-11-07",
-"schedule": "2026-11-15"
+"schedule": "2026-11-15",
+"scholar": "2026-11-19"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -2130,6 +2157,28 @@
 "note": "1次（書類）発表11/27。教育学部・農学部は2次発表1/8の後に最終発表。Kei-Netに掲載の一般枠のみ（法・経済・工・医学科などは要項で確認）"
 }
 ]
+},
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "京都大学久能賞",
+"kind": "給付",
+"target": "全学部",
+"amount": "年120万円（1年間、採用人数で変動あり）",
+"timing": "在学中（8月下旬〜9月下旬に申込、2025年度実績）",
+"cond": "科学・技術分野で独創的な夢を持ち、地球規模の課題解決に貢献したい女子学生。次年度も在籍すること。1〜2名程度"
+},
+{
+"name": "京都大学CFプロジェクト奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "月5万円（原則として最短修業年限まで）",
+"timing": "在学中（4年制は3年生・6年制は4年生。予約採用は前年度10月下旬〜11月中旬、在学採用は4月下旬〜5月中旬）",
+"cond": "向学心と研究意欲が強く、学力基準と家計基準を満たす者。100名程度"
+}
+],
+"note": "Kei-Net（旺文社データ・2026年度実施情報）による。大学公式の授業料・経済支援ページは国の制度のみ掲載"
 }
 },
 "大阪大学": {
@@ -109598,7 +109647,7 @@
 "fdiff": "2026-11-09",
 "ratios": "2026-11-09",
 "methods": "2026-11-09",
-"schedule": "2026-11-09",
+"schedule": "2026-11-19",
 "money": "2026-11-09",
 "_via": "2026-11-09",
 "careers": "2026-11-15",
@@ -109674,7 +109723,8 @@
 "https://manabi.benesse.ne.jp/daigaku/school/2100/nyushi/jouhoukou/",
 "https://manabi.benesse.ne.jp/daigaku/school/2100/nyushi/kango/",
 "https://manabi.benesse.ne.jp/daigaku/school/2100/nyushi/hoshiki/gakkou-suisen/",
-"https://search.keinet.ne.jp/1545/outline/admission_employment"
+"https://search.keinet.ne.jp/1545/outline/admission_employment",
+"https://manabi.benesse.ne.jp/daigaku/school/2100/nyushi/gokaku-happyo/index.html"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -109908,11 +109958,11 @@
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜",
-"apply": "〜11/5",
+"apply": "11/1〜11/5",
 "exam": "11/20",
 "result": "12/4",
 "proc": "〜12/17",
-"note": "出願締切は11/5着（出願開始日は未確認）"
+"note": "出願締切は11/5着。工学部・情報工学部は学校推薦型・県外・職業科の3区分、看護学部は県内枠"
 },
 {
 "kubun": "一般",
@@ -109932,7 +109982,8 @@
 "proc": "〜3/27",
 "note": "共通テスト: 1/16・17（工学部・情報工学部は個別試験なし・共通テストのみ）"
 }
-]
+],
+"note": "ベネッセ マナビジョン（2027年度入試）で前期・後期・推薦の日程が既存と一致し、推薦の出願開始日11/1を追加。推薦の日程はKei-Net（2027年度入試）とも一致（2026-11-19確認）。検定料は掲載なし"
 },
 "money": {
 "year": "2026年度",
@@ -110000,7 +110051,7 @@
 "students": "2026-11-09",
 "founded": "2026-11-09",
 "money": "2026-11-09",
-"schedule": "2026-11-09"
+"schedule": "2026-11-19"
 },
 "departments": [
 {
@@ -110037,7 +110088,9 @@
 "https://odangozemi.com/fukuoka-shidai-gakusei-ranking/",
 "https://www.weblio.jp/content/%E7%A6%8F%E5%B2%A1%E5%9B%BD%E9%9A%9B%E5%8C%BB%E7%99%82%E7%A6%8F%E7%A5%89%E5%A4%A7%E5%AD%A6",
 "https://search.keinet.ne.jp/2730/outline/expense",
-"https://manabi.benesse.ne.jp/daigaku/school/3900/nyushi/gokaku-happyo/"
+"https://manabi.benesse.ne.jp/daigaku/school/3900/nyushi/gokaku-happyo/",
+"https://manabi.benesse.ne.jp/daigaku/school/3900/nyushi/gokaku-happyo/index.html",
+"https://telemail.jp/shingaku/university/10011378/examination/general"
 ],
 "students": {
 "count": 1335,
@@ -110102,7 +110155,7 @@
 "exam": "1/26・1/27",
 "result": "2/5",
 "proc": "2/15",
-"note": ""
+"note": "A日程1/26（山口・福岡・長崎・大分・鹿児島）、B日程1/27（福岡）。必要書類は1/14消印有効"
 },
 {
 "kubun": "共テ利用",
@@ -110120,10 +110173,10 @@
 "exam": "3/2",
 "result": "3/12",
 "proc": "3/18",
-"note": ""
+"note": "試験地は福岡県"
 }
 ],
-"note": "看護学科・医療学部の各学科とも同じ日程。検定料は出典に記載なし（マナビジョン 2027年度入試）"
+"note": "看護学科・医療学部の各学科とも同じ日程。マナビジョン（2027年度入試）とテレメール（2027年度入学）で既存と一致（2026-11-19確認）。検定料は出典に記載なし"
 }
 },
 "福岡大学": {
