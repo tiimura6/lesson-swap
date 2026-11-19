@@ -1,0 +1,700 @@
+[
+ {
+  "name": "東京大学",
+  "info": {
+   "ratios_replace": {
+    "kind": "実質倍率（受験者÷合格者）",
+    "rows": [
+     {
+      "kubun": "一般",
+      "unit": "全学部計（前期）",
+      "y": {
+       "2022": 2.8,
+       "2025": 2.5,
+       "2026": 2.5
+      }
+     },
+     {
+      "kubun": "一般",
+      "unit": "文科一類 前期",
+      "y": {
+       "2022": 2.9,
+       "2025": 2.5,
+       "2026": 2.4
+      }
+     },
+     {
+      "kubun": "一般",
+      "unit": "文科二類 前期",
+      "y": {
+       "2022": 2.9,
+       "2025": 2.4,
+       "2026": 2.5
+      }
+     },
+     {
+      "kubun": "一般",
+      "unit": "文科三類 前期",
+      "y": {
+       "2022": 3.0,
+       "2025": 2.5,
+       "2026": 2.5
+      }
+     },
+     {
+      "kubun": "一般",
+      "unit": "理科一類 前期",
+      "y": {
+       "2022": 2.4,
+       "2025": 2.2,
+       "2026": 2.2
+      }
+     },
+     {
+      "kubun": "一般",
+      "unit": "理科二類 前期",
+      "y": {
+       "2022": 3.4,
+       "2025": 2.9,
+       "2026": 2.9
+      }
+     },
+     {
+      "kubun": "一般",
+      "unit": "理科三類 前期",
+      "y": {
+       "2022": 3.4,
+       "2025": 2.9,
+       "2026": 2.7
+      }
+     },
+     {
+      "kubun": "推薦",
+      "unit": "学校推薦型選抜 全体",
+      "y": {
+       "2022": 2.0
+      }
+     }
+    ],
+    "note": "2025・2026年度は河合塾Kei-Netの一般選抜入試結果、2022年度は大学公式「入学者数・志願者数（令和4年4月1日現在）」の受験者数÷合格者数（計算値）。2023・2024年度は未収集"
+   },
+   "methods_replace": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "前期日程",
+      "kyotsu": "6教科8科目（情報Ⅰ含む）",
+      "niji": "文科：英・数・国・地歴公民2／理科：英・数・国・理2（理三は面接あり）",
+      "haiten": "二次重視。共テ1000点を110点に換算、共テ110：二次440（1:4）",
+      "note": "後期日程の掲載なし。College of Designは書類・面接等＋共テ（別枠）",
+      "kn": [
+       1,
+       4
+      ],
+      "url": "https://www.u-tokyo.ac.jp/content/400200766.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型（共テあり）",
+      "content": "1次書類審査、2次面接等（学部により小論文・プレゼン・GD）＋共通テスト（6教科8科目、概ね800/1000が基準）",
+      "req": "専願・卒業後1年以内。学部ごとの推薦要件と高校あたり人数条件あり（例 法学部：全教科成績が学年上位概ね5％以内）",
+      "kyotsu": "課す",
+      "note": "全10学部で実施、各学部2〜30人程度",
+      "url": "https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/e01_28.html"
+     }
+    ],
+    "summary": "一般は前期のみで二次の比重が大きい難関型。推薦は全学部で実施、共テ概ね8割が基準で専願。",
+    "note": "総合型選抜の掲載なし"
+   },
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "前期日程",
+      "apply": "1/25〜2/3",
+      "exam": "2/25・2/26",
+      "result": "3/10",
+      "proc": "3/15",
+      "note": "第1段階選抜合格者発表2/10。理科三類は2/25〜2/27（面接を含む）。後期日程なし。入学手続締切はテレメール（2026-11-11時点）。検定料は未確認",
+      "url": "https://www.u-tokyo.ac.jp/content/400200766.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜",
+      "apply": "〜11/6登",
+      "exam": "12/12",
+      "result": "2/10",
+      "proc": "2/17",
+      "note": "Kei-Net表記どおり（出願は締切日のみ）。1次（書類）発表12/1、2次で共通テストを課す。文学部の2次は12/12・12/13、工学部は12/12・12/13（指定日）。",
+      "url": "https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/e01_28.html"
+     }
+    ]
+   },
+   "sources": [
+    "https://www.u-tokyo.ac.jp/ja/about/overview/e08_01_r4.html",
+    "https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/e01_06_01.html",
+    "https://www.u-tokyo.ac.jp/content/400200766.pdf",
+    "https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/e01_28.html"
+   ]
+  }
+ },
+ {
+  "name": "京都大学",
+  "info": {
+   "methods_replace": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "前期日程",
+      "kyotsu": "5〜6教科（英・数2・国・理・地歴公民・情報Ⅰ、学部で配点圧縮）",
+      "niji": "文系：英・数・国・地歴公民／理系：英・数・国・理（工・理は理2科目）",
+      "haiten": "二次重視。共テ:二次＝約1:2〜1:4（工 225:800、理 250:975、文 250:500、法 285:600）",
+      "kn": [
+       1,
+       3.6
+      ],
+      "note": "後期日程の掲載なし。面接・小論文の特記なし",
+      "url": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/senbatsuyokoR9_all-22d87b752c22c5b9d7bcb8ef94505625.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "特色入試（学校推薦型・共テあり）",
+      "content": "法・経済（文系型・理系型）・医学科・工（地球工・建築・物理工・電気電子・情報・理工化）で実施。経済と工の多くは提出書類をA〜Dで評価しAのみ合格（第2次なし）。法は英文を題材とした小論文、医学科は口頭試問と面接、情報学科と理工化（女性枠）は口頭試問",
+      "req": "学校長の推薦（高校あたり1〜3人。学科で異なる）。法は英語資格の提出、経済は英語資格や課外活動・課題研究の顕著な実績、工は科学の課外活動・課題研究の顕著な実績など。医学科はTOEFL iBT必須。工の5学科に女性募集枠あり",
+      "kyotsu": "課す（多くは概ね80%以上。医学科は判定に使わず提出のみ）",
+      "note": "募集人員：法20・経済25・医学科5・工61（女性枠24を含む）。出願11/5〜11/11、最終合格発表2/10（医学科1/22）",
+      "url": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/tokushokubosyuyokoR9_all-f569224441815e266daff2544e136cc1.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "特色入試（総合型・共テあり）",
+      "content": "総合人間・文・教育・理（数理科学・生物科学・化学・女性募集2区分）・医（人間健康科学科）・薬・農で実施。第1次は提出書類（調査書・学業活動報告書・学びの設計書など）、第2次は総合問題・論述・小論文・口頭試問・面接・能力測定考査（学部で異なる）",
+      "req": "多くの学部で入学確約が必要。総合人間・教育は評定4.3以上。薬と農（資源生物科学・食品生物科学）は英語資格。理の女性募集は女性のみ",
+      "kyotsu": "課す（概ね70〜85%以上。学部で異なる）",
+      "note": "募集人員：総合人間5・文10・教育6・理37（女性枠15を含む）・人間健康科学34・薬6・農26。理・人間健康科学は出願10/1〜10/7、ほかは11/5〜11/11。最終合格発表2/10",
+      "url": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/tokushokubosyuyokoR9_all-f569224441815e266daff2544e136cc1.pdf"
+     }
+    ],
+    "summary": "一般は前期のみで二次配点が非常に大きい。特色入試（推薦・総合型）は専願・共テ7〜8割基準＋活動実績が必要。",
+    "note": "一般選抜は前期日程のみ（後期日程なし）。特色入試は2027年度（令和9年度）学生募集要項で全学部・学科を確認（2026-11-19）"
+   },
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "前期日程",
+      "apply": "1/25〜2/3",
+      "exam": "2/25〜2/27",
+      "result": "3/10",
+      "proc": "",
+      "note": "第1段階選抜合格者発表2/10。2/27は医学部医学科の面接のみ。学部により試験日が異なる。後期日程なし。入学手続締切・検定料は選抜要項に記載なし",
+      "url": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/senbatsuyokoR9_all-22d87b752c22c5b9d7bcb8ef94505625.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "特色入試（理学部・医学部人間健康科学科）",
+      "apply": "〜10/7着",
+      "exam": "11/14・11/15",
+      "result": "2/10",
+      "proc": "2/17",
+      "fee": null,
+      "note": "1次（書類）発表11/5。学科・専攻により2次は11/14のみ。理学部数理科学は2次発表12/3、医学部人間健康科学科は2次発表1/22の後に最終発表",
+      "url": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/tokushokubosyuyokoR9_all-f569224441815e266daff2544e136cc1.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "特色入試（総合人間・文・教育・薬・農学部）",
+      "apply": "〜11/11着",
+      "exam": "12/12",
+      "result": "2/10",
+      "proc": "2/17",
+      "fee": null,
+      "note": "1次（書類）発表11/27。教育学部・農学部は2次発表1/8の後に最終発表。Kei-Netに掲載の一般枠のみ（法・経済・工・医学科などは要項で確認）",
+      "url": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/tokushokubosyuyokoR9_all-f569224441815e266daff2544e136cc1.pdf"
+     }
+    ]
+   },
+   "sources": [
+    "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/senbatsuyokoR9_all-22d87b752c22c5b9d7bcb8ef94505625.pdf"
+   ]
+  }
+ },
+ {
+  "name": "大阪大学",
+  "info": {
+   "methods_replace": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "前期日程",
+      "kyotsu": "課す（文系学部は理科基礎等を含む）",
+      "niji": "文系：英・国・数または地歴公民（法は英・数・国）／工：英200・数250・理250（物理必須）",
+      "haiten": "二次重視。工 325:700（約1:2.2）、文 260:400、外国語 235:500、法 600:600",
+      "note": "後期日程の掲載なし。代表は工学部（Benesseマナビジョンで確認）。理・医・薬など他の理系学部は未確認",
+      "kn": [
+       1,
+       2.15
+      ],
+      "url": "https://www.osaka-u.ac.jp/en/admissions/faculty/files/R9_senbatsuyoukou.pdf/@@download/file"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型（共テあり）",
+      "content": "書類審査・面接（医・薬は小論文も）＋共通テスト（医学科は概ね800/1000の基準）",
+      "req": "専願。工は数理評定4.3以上・研究実績・英語外部試験のいずれか、医学科4.3以上、保健学4.0以上、歯は英語外部試験等",
+      "kyotsu": "課す",
+      "note": "工・基礎工（女性枠あり）・医・歯・薬で確認。共テを課さない方式は見当たらず",
+      "url": "https://www.osaka-u.ac.jp/en/admissions/faculty/files/R9_senbatsuyoukou.pdf/@@download/file"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（共テあり）",
+      "content": "1次書類審査、2次面接・小論文・書類（理の研究奨励型はプレゼン）＋共通テスト（基準は概ね75〜80%程度の学部あり）",
+      "req": "専願。学部により現役のみ（法・理）。英検・TOEFL等の資格や探究・コンテスト実績が条件",
+      "kyotsu": "課す",
+      "note": "文・外国語・法・経済・理・人間科学で実施、各3〜65人",
+      "url": "https://www.osaka-u.ac.jp/en/admissions/faculty/files/R9_senbatsuyoukou.pdf/@@download/file"
+     }
+    ],
+    "summary": "一般は前期のみ。推薦（理系中心）・総合型（文系中心）ともに全て共テを課し専願、資格や実績が要る。",
+    "note": "理・医・歯・薬・基礎工などの一般選抜配点は未確認"
+   },
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "前期日程",
+      "apply": "1/25〜2/3",
+      "exam": "2/25・2/26",
+      "result": "3/9",
+      "proc": "",
+      "note": "Web出願登録1/22〜2/2、出願書類受理1/25〜2/3。第1段階選抜発表2/10。2/26は医学科・歯学部（面接）、薬学部（小論文・面接）のみ。後期日程なし。入学手続締切・検定料は選抜要項に記載なし",
+      "url": "https://www.osaka-u.ac.jp/en/admissions/faculty/files/R9_senbatsuyoukou.pdf/@@download/file"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（文・人間科・外国語・法・経済・理）",
+      "apply": "11/2〜11/7",
+      "exam": "12/20",
+      "result": "2/9",
+      "proc": "2月中旬",
+      "fee": null,
+      "url": "https://www.osaka-u.ac.jp/en/admissions/faculty/files/R9_senbatsuyoukou.pdf/@@download/file"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（医・歯・薬・工・基礎工）",
+      "apply": "11/2〜11/7",
+      "exam": "12/20",
+      "result": "2/9",
+      "proc": "2月中旬",
+      "fee": null,
+      "note": "試験日は歯・工の例。薬学部は2/6、医学部・基礎工学部は共通テストのみ（個別の試験日なし）",
+      "url": "https://www.osaka-u.ac.jp/en/admissions/faculty/files/R9_senbatsuyoukou.pdf/@@download/file"
+     }
+    ]
+   },
+   "sources": [
+    "https://www.osaka-u.ac.jp/en/admissions/faculty/files/R9_senbatsuyoukou.pdf/@@download/file"
+   ]
+  }
+ },
+ {
+  "name": "名古屋大学",
+  "info": {
+   "methods_replace": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "前期日程",
+      "kyotsu": "課す（多くの学部で950点満点）",
+      "niji": "文系：英・数・国（文は地歴公民も、法は英・数・小論文）／理系：英・数・理2（農は国も、医は面接）",
+      "haiten": "二次重視。共テ:二次＝約1:1.3〜1:2（工 635:1300、理 900:1500、文 950:1200）。法のみ共テ重視 950:600",
+      "kn": [
+       1,
+       2
+      ],
+      "note": "代表は工学部",
+      "url": "https://www.nagoya-u.ac.jp/admissions/exam/upload/r9_senbatsuyoko.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "後期日程",
+      "kyotsu": "課す（950点）",
+      "niji": "取得ページで確認できず",
+      "haiten": "",
+      "note": "医学科のみ掲載（個別試験内容はページ途切れで未確認）",
+      "url": "https://www.nagoya-u.ac.jp/admissions/exam/upload/r9_senbatsuyoko.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型（共テなし）",
+      "content": "1次書類、2次面接・小論文・プレゼン",
+      "req": "現役・専願・評定4.3",
+      "kyotsu": "課さない",
+      "note": "文学部のみ",
+      "url": "https://www.nagoya-u.ac.jp/admissions/exam/upload/R9_application_guide_sui.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型（共テあり）",
+      "content": "1次書類＋共通テスト（多くは950点）、2次面接（理・農は1次のみで判定、医学科はプレゼンも）",
+      "req": "現役・専願（医学科は評定4.3）。経済は活動歴等の条件",
+      "kyotsu": "課す",
+      "note": "教育・法・経済・理・工（女子枠あり）・農・医・情報。法は約30名が面接免除",
+      "url": "https://www.nagoya-u.ac.jp/admissions/exam/upload/R9_application_guide_sui.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（理学部）",
+      "content": "書類・面接（化学・生命理学は小論文）、数理・物理・地球惑星は共通テストも",
+      "req": "卒後1年以内・専願。生命理学は研究・コンテスト実績",
+      "kyotsu": "学科による",
+      "note": "理学部の5学科のみ、各3〜9人",
+      "url": "https://www.nagoya-u.ac.jp/admissions/exam/upload/R9_ao_application_guide_1.pdf"
+     }
+    ],
+    "summary": "推薦がほぼ全学部にあり現役・専願で共テ必須が中心。一般は二次重視だが法は共テ重視。",
+    "note": ""
+   },
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "前期日程",
+      "apply": "1/22〜2/2",
+      "exam": "2/25・2/26",
+      "result": "3/10",
+      "proc": "3/15",
+      "note": "出願はインターネット出願登録・検定料納入の期間。医学部医学科は2/27に面接（パスナビの出願期間は1/25〜2/3）",
+      "url": "https://www.nagoya-u.ac.jp/admissions/exam/upload/r9_senbatsuyoko.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "後期日程（医学部医学科のみ）",
+      "apply": "1/25〜2/3",
+      "exam": "3/12",
+      "result": "3/20",
+      "proc": "3/27",
+      "note": "後期は医学部医学科のみ実施",
+      "url": "https://www.nagoya-u.ac.jp/admissions/exam/upload/r9_senbatsuyoko.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（共通テストを課さない：文学部）",
+      "apply": "10/23〜11/5",
+      "exam": "11/26（第2次：小論文・面接）",
+      "result": "12/9",
+      "proc": "2/16",
+      "fee": 17000,
+      "note": "出願登録・検定料納入の期間。書類は11/2〜11/6必着。第1次選考結果11/18",
+      "url": "https://www.nagoya-u.ac.jp/admissions/exam/upload/R9_application_guide_sui.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（共通テストを課す：文学部以外）",
+      "apply": "1/6〜1/21",
+      "exam": "2/8（第2次：面接等）",
+      "result": "2/10",
+      "proc": "2/16",
+      "fee": 17000,
+      "note": "出願登録・検定料納入の期間。書類は1/19〜1/22必着。第1次選考結果2/5。理・農は第2次なし",
+      "url": "https://www.nagoya-u.ac.jp/admissions/exam/upload/R9_application_guide_sui.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（理学部 化学科・生命理学科：共テなし）",
+      "apply": "9/24〜10/6",
+      "exam": "化学11/21・生命理10/31（第2次）",
+      "result": "化学11/27・生命理11/13",
+      "proc": "12/6",
+      "fee": 17000,
+      "note": "化学科は11/7に小論文（第1次）",
+      "url": "https://www.nagoya-u.ac.jp/admissions/exam/upload/R9_ao_application_guide_1.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（理学部 数理・物理・地球惑星科学科：共テあり）",
+      "apply": "1/6〜1/21",
+      "exam": "2/8（第2次：面接）",
+      "result": "2/10",
+      "proc": "2/16",
+      "fee": 17000,
+      "note": "第1次選考結果2/5",
+      "url": "https://www.nagoya-u.ac.jp/admissions/exam/upload/R9_ao_application_guide_1.pdf"
+     }
+    ]
+   },
+   "sources": [
+    "https://www.nagoya-u.ac.jp/admissions/exam/upload/r9_senbatsuyoko.pdf",
+    "https://www.nagoya-u.ac.jp/admissions/exam/upload/R9_application_guide_sui.pdf",
+    "https://www.nagoya-u.ac.jp/admissions/exam/upload/R9_ao_application_guide_1.pdf"
+   ]
+  }
+ },
+ {
+  "name": "令和健康科学大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "apply": "9/24〜10/7",
+      "exam": "10/17",
+      "result": "11/2",
+      "proc": "11/13",
+      "fee": 30000,
+      "note": "消印有効（大学公式 2027年度募集要項）",
+      "url": "https://www.rhs-u.ac.jp/rhs/wp-content/uploads/2026/06/2027_bosyuyoukou.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募制）",
+      "apply": "11/4〜11/13",
+      "exam": "11/21",
+      "result": "12/4",
+      "proc": "12/17",
+      "fee": 30000,
+      "url": "https://www.rhs-u.ac.jp/rhs/wp-content/uploads/2026/06/2027_bosyuyoukou.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（指定校）",
+      "apply": "11/4〜11/13",
+      "exam": "11/21",
+      "result": "12/4",
+      "proc": "12/17",
+      "fee": 30000,
+      "url": "https://www.rhs-u.ac.jp/rhs/wp-content/uploads/2026/06/2027_bosyuyoukou.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期）A日程",
+      "apply": "12/18〜1/15",
+      "exam": "2/1",
+      "result": "2/16",
+      "proc": "2/24",
+      "fee": 30000,
+      "note": "看護学部・リハビリテーション学部共通。前期と共テ利用の併願などで検定料割引あり（大学公式 2027年度募集要項）",
+      "url": "https://www.rhs-u.ac.jp/rhs/wp-content/uploads/2026/06/2027_bosyuyoukou.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期）B日程",
+      "apply": "12/18〜1/15",
+      "exam": "2/2",
+      "result": "2/16",
+      "proc": "2/24",
+      "fee": 30000,
+      "note": "リハビリテーション学部のみ（大学公式）",
+      "url": "https://www.rhs-u.ac.jp/rhs/wp-content/uploads/2026/06/2027_bosyuyoukou.pdf"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜",
+      "apply": "12/18〜1/20",
+      "exam": null,
+      "result": "2/16",
+      "proc": "2/24",
+      "fee": 20000,
+      "note": "個別試験なし（大学公式）",
+      "url": "https://www.rhs-u.ac.jp/rhs/wp-content/uploads/2026/06/2027_bosyuyoukou.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（後期Ⅰ）",
+      "apply": "2/5〜2/19",
+      "exam": "3/3",
+      "result": "3/9",
+      "proc": "3/19",
+      "fee": 30000,
+      "url": "https://www.rhs-u.ac.jp/rhs/wp-content/uploads/2026/06/2027_bosyuyoukou.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（後期Ⅱ）",
+      "apply": "3/9〜3/17",
+      "exam": "3/23",
+      "result": "3/26",
+      "proc": "3/30",
+      "fee": 30000,
+      "note": "入学定員を充足している場合は原則実施しない（大学公式）",
+      "url": "https://www.rhs-u.ac.jp/rhs/wp-content/uploads/2026/06/2027_bosyuyoukou.pdf"
+     }
+    ]
+   },
+   "sources": [
+    "https://www.rhs-u.ac.jp/rhs/wp-content/uploads/2026/06/2027_bosyuyoukou.pdf",
+    "https://manabi.benesse.ne.jp/daigaku/school/3902/nyushi/index.html"
+   ]
+  }
+ },
+ {
+  "name": "別府大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 推薦1期",
+      "apply": "11/2〜11/12",
+      "exam": "11/21",
+      "result": "12/1",
+      "proc": "12/21",
+      "fee": null,
+      "note": "スポーツ文化推薦も同じ日程（文学部・食品サイエンス・国際経営）（マナビジョン）"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 推薦2期",
+      "apply": "11/24〜12/3",
+      "exam": "12/12",
+      "result": "12/18",
+      "proc": "1/8",
+      "fee": null,
+      "note": "マナビジョン"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "apply": "12/21〜1/21（必着）",
+      "exam": "2/2・2/3（選択）",
+      "result": "2/11",
+      "proc": "2/19",
+      "fee": null,
+      "note": "全学部。検定料は2027年度分が未確認（2026年度入試は一般30,000円・共テ利用15,000円、文・国際経営学部は割引あり）（Kei-Net） 看護学科は一般A・B日程のみ（マナビジョン）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程",
+      "apply": "1/4〜2/4（必着）",
+      "exam": "2/16",
+      "result": "2/27",
+      "proc": "3/8",
+      "fee": null,
+      "note": "全学部（Kei-Net） 看護学科は一般A・B日程のみ（マナビジョン）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 C日程",
+      "apply": "1/25〜2/18（必着）",
+      "exam": "3/2",
+      "result": "3/12",
+      "proc": "3/23",
+      "fee": null,
+      "note": "文・国際経営・食物栄養科学部のみ（Kei-Net）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 D日程",
+      "apply": "2/22〜3/12（必着）",
+      "exam": "3/23",
+      "result": "3/25",
+      "proc": "3/26",
+      "fee": null,
+      "note": "文・国際経営・食物栄養科学部のみ（Kei-Net）"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 1期",
+      "apply": "1/4〜2/4（必着）",
+      "exam": null,
+      "result": "2/27",
+      "proc": "3/8",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 2期",
+      "apply": "1/25〜2/18（必着）",
+      "exam": null,
+      "result": "3/12",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 3期",
+      "apply": "2/22〜3/12（必着）",
+      "exam": null,
+      "result": "3/25",
+      "proc": "3/26",
+      "fee": null
+     }
+    ]
+   },
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/3947/nyushi/index.html"
+   ]
+  }
+ },
+ {
+  "name": "京都看護大学",
+  "story": {
+   "summary": "京都市中京区の西大路五条にある看護学部だけの大学で、京都市立看護短期大学の伝統を受け継いでいる。京都市立病院や京都大学医学部附属病院など70近い実習先で学び、卒業後は実習病院に就職する人が多い。大学院では保健師コースや感染管理認定看護師教育課程にも進める。",
+   "only": [
+    {
+     "t": "京都府内で唯一の看護系単科大学・大学院で、京都市立看護短期大学の歴史を受け継いで開学した。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3616/"
+    },
+    {
+     "t": "京都市立病院・京都大学医学部附属病院・京都府立医科大学附属病院など70近い実習先があり、卒業生の約7割が実習病院に就職している。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3616/"
+    },
+    {
+     "t": "大学院の博士前期課程に保健師コースを置き、2023年度から感染管理認定看護師教育課程も開講している。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3616/"
+    },
+    {
+     "t": "タブレットで自分の看護援助の場面を録画して振り返るなど、講義・演習・実習を交互に行う4年間の教育を行う。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3616/gakubu/gakubudt/64.html"
+    }
+   ],
+   "vs": [
+    {
+     "u": "京都橘大学",
+     "t": "京都橘大学の看護学部は理学療法・救急救命など医療系学科と組む「たちばなチーム医療」科目があり助産師の受験資格も取れるが、京都看護大学は看護だけを学ぶ単科大学で、西大路五条にあり、卒業生の約7割が実習病院に就職している。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3598/gakubu/gakubudt/64.html"
+    }
+   ]
+  }
+ },
+ {
+  "name": "京都精華大学",
+  "story": {
+   "summary": "京都市左京区の大学で、マンガ学科・キャラクターデザイン学科・アニメーション学科からなるマンガ学部を置く。ストーリーマンガコースは2000年から続き、Webtoonなど新しい形のマンガも研究する。現役のマンガ家・アニメーション監督・編集者から学べる。",
+   "only": [
+    {
+     "t": "マンガ学科（ストーリーマンガ・新世代マンガ）、キャラクターデザイン学科、アニメーション学科の3学科をまとめたマンガ学部がある。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3596/gakubu/gakubudt/85.html"
+    },
+    {
+     "t": "ストーリーマンガコースは2000年のコース開設から続き、在学中のデビューや受賞が毎年ある。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3596/gakubu/gakubudt/85.html"
+    },
+    {
+     "t": "新世代マンガコースでは見開きのマンガに加え、SNS向けのショートマンガや縦読みのWebtoonも研究する。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3596/gakubu/gakubudt/85.html"
+    }
+   ],
+   "vs": [
+    {
+     "u": "京都芸術大学",
+     "t": "京都芸術大学も芸術学部の中にマンガ学科・キャラクターデザイン学科を置くが、京都精華大学はマンガ・キャラクターデザイン・アニメーションの3学科を独立した「マンガ学部」としてまとめている。",
+     "src": "https://search.keinet.ne.jp/outline/department/2493"
+    }
+   ]
+  }
+ }
+]
