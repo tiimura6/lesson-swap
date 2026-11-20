@@ -60,7 +60,8 @@
 "https://www.u-tokyo.ac.jp/content/400200766.pdf",
 "https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/e01_28.html",
 "https://manabi.benesse.ne.jp/daigaku/school/1140/nyushi/bunkaichirui/index.html",
-"https://manabi.benesse.ne.jp/daigaku/school/1140/nyushi/rikaichirui/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/1140/nyushi/rikaichirui/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/1140/nyushi/hoshiki/ippan/"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -545,7 +546,7 @@
 "oc": "2026-11-11",
 "scholar": "2026-11-19",
 "methods": "2026-11-19",
-"subjects": "2026-11-19"
+"subjects": "2026-11-20"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -971,6 +972,26 @@
 "note": "2段階選抜あり。外国語は英語以外も可"
 },
 {
+"f": "文科二類",
+"kubun": "一般",
+"name": "前期日程",
+"n": 6,
+"subj": "共テ1000点を110点に換算＋個別440（国語120・数学80・外国語120・地歴2科目120）",
+"kt": "6教科（国語200・数学2科目200・外国語200・地歴公民2科目200・理科100・情報Ⅰ100）",
+"eng": "",
+"note": "2段階選抜あり。外国語は英語以外も可"
+},
+{
+"f": "文科三類",
+"kubun": "一般",
+"name": "前期日程",
+"n": 6,
+"subj": "共テ1000点を110点に換算＋個別440（国語120・数学80・外国語120・地歴2科目120）",
+"kt": "6教科（国語200・数学2科目200・外国語200・地歴公民2科目200・理科100・情報Ⅰ100）",
+"eng": "",
+"note": "2段階選抜あり。外国語は英語以外も可"
+},
+{
 "f": "理科一類",
 "kubun": "一般",
 "name": "前期日程",
@@ -979,9 +1000,29 @@
 "kt": "6教科8科目（国語200・数学2科目200・外国語200・地歴公民1科目100・理科2科目200・情報Ⅰ100）",
 "eng": "",
 "note": "2段階選抜あり。外国語は英語以外も可"
+},
+{
+"f": "理科二類",
+"kubun": "一般",
+"name": "前期日程",
+"n": 6,
+"subj": "共テ1000点を110点に換算＋個別440（国語80・数学120・外国語120・理科2科目120）",
+"kt": "6教科8科目（国語200・数学2科目200・外国語200・地歴公民1科目100・理科2科目200・情報Ⅰ100）",
+"eng": "",
+"note": "2段階選抜あり。外国語は英語以外も可"
+},
+{
+"f": "理科三類",
+"kubun": "一般",
+"name": "前期日程",
+"n": 6,
+"subj": "共テ1000点を110点に換算＋個別440（国語80・数学120・外国語120・理科2科目120）＋面接",
+"kt": "6教科8科目（国語200・数学2科目200・外国語200・地歴公民1科目100・理科2科目200・情報Ⅰ100）",
+"eng": "",
+"note": "2段階選抜あり。面接あり（配点なし）。個別試験は2/25〜27。外国語は英語以外も可"
 }
 ],
-"note": "確認できたのは文科一類・理科一類の前期日程のみ（文科二類・三類、理科二類・三類、推薦は未確認）"
+"note": "マナビジョン（2027年度入試情報）で文科一〜三類・理科一〜三類の前期日程の共テ・個別の科目と配点を確認（文科二・三類は文科一類と、理科二類は理科一類と同じ。理科三類は面接が加わる）。学校推薦型選抜は未確認（マナビジョンは未掲載、公式の募集要項PDFは取得できず）。"
 }
 },
 "京都大学": {
@@ -1042,7 +1083,12 @@
 "https://search.keinet.ne.jp/1280/outline/scholarship",
 "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/tokushokubosyuyokoR9_all-f569224441815e266daff2544e136cc1.pdf",
 "https://search.keinet.ne.jp/1280sp/general/exam_subject_sp",
-"https://search.keinet.ne.jp/general/exam_subject/1280"
+"https://search.keinet.ne.jp/general/exam_subject/1280",
+"https://www.kyoto-u.ac.jp/sites/default/files/inline-files/KU2023_page_80_82-44adeb55d5d9a13406c60470bfeec032.pdf",
+"https://www.kyoto-u.ac.jp/sites/default/files/inline-files/KU2024_page_62_65-5e4b6305c74d28628c17427a17d598b5.pdf",
+"https://kyoto-u.ac.jp/sites/default/files/inline-files/KU2025_page_70_73-c085379afadc97c06fe77f42f2c99f6f.pdf",
+"https://www.kyoto-u.ac.jp/sites/default/files/inline-files/KU2026_page_70_73-6fc72f44e48589029d35450e4d7e9667.pdf",
+"https://search.keinet.ne.jp/1395/general/exam_result"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -1654,7 +1700,7 @@
 "money": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
-"ratios": "2026-11-06",
+"ratios": "2026-11-20",
 "qtrend": "2026-11-07",
 "oc": "2026-11-07",
 "schedule": "2026-11-19",
@@ -2007,6 +2053,9 @@
 "kubun": "一般",
 "unit": "全学部計（前期）",
 "y": {
+"2022": 2.5,
+"2023": 2.6,
+"2024": 2.8,
 "2025": 2.9,
 "2026": 2.9
 }
@@ -2015,6 +2064,9 @@
 "kubun": "一般",
 "unit": "総合人間学部 前期",
 "y": {
+"2022": 3.2,
+"2023": 3.4,
+"2024": 3.3,
 "2025": 3.2,
 "2026": 3.3
 }
@@ -2023,14 +2075,20 @@
 "kubun": "一般",
 "unit": "文学部 前期",
 "y": {
+"2022": 2.9,
+"2023": 2.8,
+"2024": 2.9,
 "2025": 3.3,
 "2026": 3.1
 }
 },
 {
 "kubun": "一般",
-"unit": "教育学部 前期",
+"unit": "教育学部（文系） 前期",
 "y": {
+"2022": 3.3,
+"2023": 2.9,
+"2024": 3.2,
 "2025": 2.9,
 "2026": 3.4
 }
@@ -2039,14 +2097,20 @@
 "kubun": "一般",
 "unit": "法学部 前期",
 "y": {
+"2022": 2.2,
+"2023": 2.2,
+"2024": 2.4,
 "2025": 2.8,
 "2026": 2.6
 }
 },
 {
 "kubun": "一般",
-"unit": "経済学部 前期",
+"unit": "経済学部（文系） 前期",
 "y": {
+"2022": 2.3,
+"2023": 2.5,
+"2024": 2.8,
 "2025": 2.6,
 "2026": 2.6
 }
@@ -2055,6 +2119,9 @@
 "kubun": "一般",
 "unit": "理学部 前期",
 "y": {
+"2022": 2.1,
+"2023": 2.5,
+"2024": 2.7,
 "2025": 2.9,
 "2026": 2.9
 }
@@ -2071,6 +2138,9 @@
 "kubun": "一般",
 "unit": "薬学部 前期",
 "y": {
+"2022": 2.5,
+"2023": 2.4,
+"2024": 2.4,
 "2025": 2.5,
 "2026": 2.8
 }
@@ -2079,12 +2149,35 @@
 "kubun": "一般",
 "unit": "農学部 前期",
 "y": {
+"2022": 2.4,
+"2023": 2.5,
+"2024": 2.6,
 "2025": 2.6,
 "2026": 2.8
 }
+},
+{
+"kubun": "一般",
+"unit": "医学部（医学科・人間健康科学科の計） 前期",
+"y": {
+"2022": 2.3,
+"2023": 2.6,
+"2024": 2.6,
+"2025": 2.9
+}
+},
+{
+"kubun": "一般",
+"unit": "工学部 前期",
+"y": {
+"2022": 2.7,
+"2023": 2.7,
+"2024": 2.9,
+"2025": 2.9
+}
 }
 ],
-"note": "河合塾Kei-Netの一般選抜入試結果より（倍率＝受験者／合格者）。工学部は合格者・倍率の掲載なし"
+"note": "2022〜2025年度は京都大学公式「受験生ナビゲーション（KYOTO UNIVERSITY GUIDE BOOK）」2023〜2026年版の「一般選抜の実施結果」（前期日程）の受験者数÷合格者数による計算値（総合人間学部は文系・理系の合算、教育・経済学部はKei-Netの値と一致する文系の数字）。2026年度は河合塾Kei-Netの一般選抜入試結果。「医学部 前期」の行はKei-Netの値（2025・2026年度）のみで、公式は学部計しか無いため別の行「医学部（医学科・人間健康科学科の計）」に2022〜2025年度を載せた。工学部は国際コース等を除く人数で、2026年度はKei-Netに掲載なし"
 },
 "qtrend": {
 "years": "2022〜2026年度",
@@ -6314,7 +6407,10 @@
 "https://www.isc.kyushu-u.ac.jp/intlweb/agreeview/agree-list3.php",
 "https://search.keinet.ne.jp/1405/general/exam_result",
 "https://search.keinet.ne.jp/1405/outline/opencampus",
-"https://www.kyushu-u.ac.jp/f/66634/R9_gaiyo_3-4_up2.pdf"
+"https://www.kyushu-u.ac.jp/f/66634/R9_gaiyo_3-4_up2.pdf",
+"https://www.kyushu-u.ac.jp/f/47810/%E2%91%A1%E4%BB%A4%E5%92%8C%EF%BC%94%E5%B9%B4%E5%BA%A6%E5%85%A5%E8%A9%A6%E7%8A%B6%E6%B3%81%E8%A1%A8%EF%BC%88%E4%B8%80%E8%88%AC%E9%81%B8%E6%8A%9C_%E5%AD%A6%E9%83%A8%E3%83%BB%E5%AD%A6%E7%A7%91%E5%88%A5%EF%BC%89%20-%20%E3%82%B3%E3%83%94%E3%83%BC.pdf",
+"https://www.kyushu-u.ac.jp/f/54463/R5_tokei.pdf",
+"https://www.kyushu-u.ac.jp/f/57027/R6_tokei.pdf"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -6860,7 +6956,7 @@
 "money": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
-"ratios": "2026-11-19",
+"ratios": "2026-11-20",
 "qtrend": "2026-11-07",
 "oc": "2026-11-19",
 "schedule": "2026-11-19",
@@ -7067,6 +7163,9 @@
 "kubun": "一般",
 "unit": "全学部計（前期・後期）",
 "y": {
+"2022": 2.4,
+"2023": 2.4,
+"2024": 2.4,
 "2025": 2.4,
 "2026": 2.2
 }
@@ -7075,6 +7174,9 @@
 "kubun": "一般",
 "unit": "全学部計（前期）",
 "y": {
+"2022": 2.2,
+"2023": 2.3,
+"2024": 2.3,
 "2025": 2.3,
 "2026": 2.2
 }
@@ -7083,6 +7185,9 @@
 "kubun": "一般",
 "unit": "全学部計（後期）",
 "y": {
+"2022": 3.2,
+"2023": 3.1,
+"2024": 3.1,
 "2025": 3.2,
 "2026": 2.6
 }
@@ -7091,6 +7196,9 @@
 "kubun": "一般",
 "unit": "文学部 前期",
 "y": {
+"2022": 2.4,
+"2023": 2.2,
+"2024": 2.3,
 "2025": 2.3,
 "2026": 2.1
 }
@@ -7099,6 +7207,9 @@
 "kubun": "一般",
 "unit": "教育学部 前期",
 "y": {
+"2022": 2.2,
+"2023": 2.2,
+"2024": 2.8,
 "2025": 2.3,
 "2026": 2.0
 }
@@ -7107,6 +7218,9 @@
 "kubun": "一般",
 "unit": "共創学部 前期",
 "y": {
+"2022": 2.9,
+"2023": 2.6,
+"2024": 2.6,
 "2025": 2.5,
 "2026": 3.0
 }
@@ -7115,6 +7229,9 @@
 "kubun": "一般",
 "unit": "法学部 前期",
 "y": {
+"2022": 2.7,
+"2023": 2.5,
+"2024": 2.4,
 "2025": 2.8,
 "2026": 2.6
 }
@@ -7123,6 +7240,9 @@
 "kubun": "一般",
 "unit": "経済学部 経済・経営 前期",
 "y": {
+"2022": 2.5,
+"2023": 2.1,
+"2024": 2.1,
 "2025": 2.6,
 "2026": 2.7
 }
@@ -7131,6 +7251,9 @@
 "kubun": "一般",
 "unit": "理学部 物理 前期",
 "y": {
+"2022": 1.8,
+"2023": 2.1,
+"2024": 1.9,
 "2025": 3.1,
 "2026": 2.0
 }
@@ -7139,6 +7262,9 @@
 "kubun": "一般",
 "unit": "工学部 Ⅲ群 前期",
 "y": {
+"2022": 2.0,
+"2023": 2.0,
+"2024": 2.5,
 "2025": 2.3,
 "2026": 2.2
 }
@@ -7147,6 +7273,9 @@
 "kubun": "一般",
 "unit": "農学部 前期",
 "y": {
+"2022": 2.2,
+"2023": 1.9,
+"2024": 2.3,
 "2025": 2.3,
 "2026": 2.6
 }
@@ -7155,6 +7284,9 @@
 "kubun": "一般",
 "unit": "医学部 医 前期",
 "y": {
+"2022": 2.4,
+"2023": 2.3,
+"2024": 2.2,
 "2025": 2.3,
 "2026": 2.0
 }
@@ -7163,12 +7295,15 @@
 "kubun": "一般",
 "unit": "薬学部 臨床薬 前期",
 "y": {
+"2022": 2.8,
+"2023": 3.2,
+"2024": 2.9,
 "2025": 2.0,
 "2026": 1.7
 }
 }
 ],
-"note": "河合塾Kei-Netの一般選抜入試結果より（倍率＝受験者／合格者）"
+"note": "2022〜2024年度は九州大学公式の入試状況表（一般選抜・学部学科別、令和4〜6年度）の受験者数÷合格者数による計算値（追加合格を含まない）。2025・2026年度は河合塾Kei-Netの一般選抜入試結果（倍率＝受験者／合格者）"
 },
 "qtrend": {
 "years": "2026年度中心（過去の傾向含む）",
@@ -10508,7 +10643,9 @@
 "https://passnavi.obunsha.co.jp/univ/0280/opencampus/",
 "https://www.titech.ac.jp/international-student-exchange/pdf/06560788b42c15c9d2827eb95d0ee5f9.pdf",
 "https://www.titech.ac.jp/international-cooperation/global/collaborations",
-"https://manabi.benesse.ne.jp/daigaku/school/1165/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/1165/nyushi/index.html",
+"https://search.keinet.ne.jp/1150/recommend/exam_ao",
+"https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3088&contentsId=&contentsDataId=&prevId=&key=2c267bc83d484dc5370621fb9ed717d7.pdf&fileName=r9-guidelines-zenki"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -10545,7 +10682,8 @@
 0,
 1
 ],
-"note": "理・工・物質理工・情報理工・生命理工・環境社会理工の各学院。代表は工学院"
+"note": "理・工・物質理工・情報理工・生命理工・環境社会理工の各学院。代表は工学院",
+"url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3088&contentsId=&contentsDataId=&prevId=&key=2c267bc83d484dc5370621fb9ed717d7.pdf&fileName=r9-guidelines-zenki"
 },
 {
 "kubun": "一般",
@@ -10778,7 +10916,7 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "money": "2026-11-07",
-"schedule": "2026-11-19",
+"schedule": "2026-11-20",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -10786,7 +10924,8 @@
 "research": "2026-11-14",
 "scholar": "2026-11-19",
 "oc": "2026-11-19",
-"partners": "2026-11-19"
+"partners": "2026-11-19",
+"methods": "2026-11-20"
 },
 "money": {
 "year": "2026年度",
@@ -10915,7 +11054,8 @@
 "exam": "2/25・2/26",
 "result": "3/9",
 "proc": "3/15",
-"note": "学部により異なる（理工系6学院の例）。第1段階選抜発表2/9。出願書類2/3 17時必着。検定料は別途サービス利用料990円"
+"note": "学部により異なる（理工系6学院の例）。第1段階選抜発表2/9。出願書類2/3 17時必着。検定料は別途サービス利用料990円",
+"url": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3088&contentsId=&contentsDataId=&prevId=&key=2c267bc83d484dc5370621fb9ed717d7.pdf&fileName=r9-guidelines-zenki"
 },
 {
 "kubun": "一般",
@@ -10949,7 +11089,7 @@
 "exam": "2/7",
 "result": "2/9",
 "proc": "2/17",
-"note": "理学院女子枠・工学院・物質理工学院・生命理工学系一般枠は2/7に試験。理学院一般枠・情報理工学院・環境・社会理工学院は共通テストのみ（マナビジョン 2027年度）"
+"note": "理学院女子枠・工学院・物質理工学院・生命理工学系一般枠は2/7に試験。理学院一般枠・情報理工学院・環境・社会理工学院は共通テストのみ（マナビジョン 2027年度）。1次発表2/3、出願締切12/16必着（Kei-Net 2027年度）。Kei-Netでは掲載の全学院・学系に2次2/7の表記あり"
 }
 ]
 },
@@ -14861,7 +15001,8 @@
 "https://www.ibaraki.ac.jp/m/generalinfo/information/2026/04/09014881.html",
 "https://passnavi.obunsha.co.jp/univ/0150/opencampus/",
 "https://www.ibaraki.ac.jp/m/uploads/2025/09/kyouteikou-list_20250902.pdf",
-"https://www.ibaraki.ac.jp/m/exchange/internationaluniv/index.html"
+"https://www.ibaraki.ac.jp/m/exchange/internationaluniv/index.html",
+"https://search.keinet.ne.jp/recommend/exam_rec/1075"
 ],
 "licenses": [
 "教員免許（幼・小・中・高、特別支援）",
@@ -15407,7 +15548,7 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-15",
+"schedule": "2026-11-20",
 "money": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
