@@ -12360,6 +12360,8611 @@
 },
 "enrich": [
 {
+"name": "豊橋技術科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses"
+],
+"keinet": "1245"
+},
+{
+"name": "早稲田大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "2293"
+},
+{
+"name": "東京理科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "2262"
+},
+{
+"name": "国際基督教大学（ICU）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2214"
+},
+{
+"name": "青山学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "2200"
+},
+{
+"name": "日本大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "2267"
+},
+{
+"name": "東洋大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "2265"
+},
+{
+"name": "芝浦工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "2219"
+},
+{
+"name": "東京電機大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "2259"
+},
+{
+"name": "獨協医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2123"
+},
+{
+"name": "立命館アジア太平洋大学（APU）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses"
+],
+"keinet": "2766"
+},
+{
+"name": "関西外国語大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "2535"
+},
+{
+"name": "防衛大学校",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"kyotsu"
+],
+"keinet": "5010"
+},
+{
+"name": "防衛医科大学校",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "5060"
+},
+{
+"name": "気象大学校",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"kyotsu"
+]
+},
+{
+"name": "海上保安大学校",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "水産大学校",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "5030"
+},
+{
+"name": "国立看護大学校",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "職業能力開発総合大学校",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"kyotsu"
+],
+"keinet": "5040"
+},
+{
+"name": "航空保安大学校",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "茨城県立農業大学校",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "航空大学校",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "職業能力開発大学校（ポリテクカレッジ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "国際ファッション専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2102"
+},
+{
+"name": "情報経営イノベーション専門職大学（iU）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"licenses"
+],
+"keinet": "2106"
+},
+{
+"name": "東京国際工科専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2113"
+},
+{
+"name": "開志専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2343"
+},
+{
+"name": "芸術文化観光専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "1628"
+},
+{
+"name": "静岡県立農林環境専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses"
+],
+"keinet": "1572"
+},
+{
+"name": "高知リハビリテーション専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"careers"
+],
+"keinet": "2690"
+},
+{
+"name": "東京保健医療専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"careers"
+],
+"keinet": "2114"
+},
+{
+"name": "名古屋国際工科専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2113"
+},
+{
+"name": "電動モビリティシステム専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "筑波技術大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1080"
+},
+{
+"name": "前橋工科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1523"
+},
+{
+"name": "千葉県立保健医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"difficulty"
+],
+"keinet": "1528"
+},
+{
+"name": "埼玉県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"difficulty"
+],
+"keinet": "1526"
+},
+{
+"name": "川崎市立看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"difficulty"
+],
+"keinet": "1541"
+},
+{
+"name": "神奈川県立保健福祉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1542"
+},
+{
+"name": "群馬県立女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1525"
+},
+{
+"name": "群馬県立県民健康科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1524"
+},
+{
+"name": "公立はこだて未来大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "1507"
+},
+{
+"name": "公立千歳科学技術大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1509"
+},
+{
+"name": "北海道教育大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "1030"
+},
+{
+"name": "北見工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "1020"
+},
+{
+"name": "宮城教育大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "1055"
+},
+{
+"name": "山形大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1065"
+},
+{
+"name": "岩手大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1045"
+},
+{
+"name": "帯広畜産大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1015"
+},
+{
+"name": "弘前大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1040"
+},
+{
+"name": "旭川医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1005"
+},
+{
+"name": "秋田大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"founded",
+"kyotsu"
+],
+"keinet": "1060"
+},
+{
+"name": "上越教育大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded"
+],
+"keinet": "1185"
+},
+{
+"name": "名古屋工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded"
+],
+"keinet": "1255"
+},
+{
+"name": "富山大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"kyotsu"
+],
+"keinet": "1190"
+},
+{
+"name": "山梨大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"kyotsu"
+],
+"keinet": "1215"
+},
+{
+"name": "岐阜大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"kyotsu"
+],
+"keinet": "1260"
+},
+{
+"name": "愛知教育大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"kyotsu"
+],
+"keinet": "1240"
+},
+{
+"name": "浜松医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded"
+],
+"keinet": "1235"
+},
+{
+"name": "福井大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"kyotsu"
+],
+"keinet": "1205"
+},
+{
+"name": "兵庫教育大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"difficulty"
+],
+"keinet": "1320"
+},
+{
+"name": "和歌山大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"founded",
+"kyotsu"
+],
+"keinet": "1335"
+},
+{
+"name": "大阪教育大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"kyotsu",
+"difficulty"
+],
+"keinet": "1305"
+},
+{
+"name": "奈良教育大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"difficulty"
+],
+"keinet": "1325"
+},
+{
+"name": "滋賀医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"founded",
+"kyotsu"
+],
+"keinet": "1275"
+},
+{
+"name": "滋賀大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"kyotsu",
+"difficulty"
+],
+"keinet": "1270"
+},
+{
+"name": "山口大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"kyotsu",
+"difficulty"
+],
+"keinet": "1365"
+},
+{
+"name": "島根大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded"
+],
+"keinet": "1345"
+},
+{
+"name": "徳島大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded"
+],
+"keinet": "1370"
+},
+{
+"name": "愛媛大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded"
+],
+"keinet": "1390"
+},
+{
+"name": "香川大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1380"
+},
+{
+"name": "高知大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded"
+],
+"keinet": "1395"
+},
+{
+"name": "鳥取大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded"
+],
+"keinet": "1340"
+},
+{
+"name": "鳴門教育大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "1375"
+},
+{
+"name": "九州工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"difficulty"
+],
+"keinet": "1415"
+},
+{
+"name": "宮崎大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1455"
+},
+{
+"name": "名寄市立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students"
+],
+"keinet": "1508"
+},
+{
+"name": "旭川市立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students"
+],
+"keinet": "1501"
+},
+{
+"name": "釧路公立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"difficulty"
+],
+"keinet": "1510"
+},
+{
+"name": "青森公立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"difficulty"
+],
+"keinet": "1513"
+},
+{
+"name": "青森県立保健大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1516"
+},
+{
+"name": "三条市立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"difficulty"
+],
+"keinet": "1551"
+},
+{
+"name": "公立小松大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"difficulty"
+],
+"keinet": "1548"
+},
+{
+"name": "公立諏訪東京理科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"difficulty"
+],
+"keinet": "1567"
+},
+{
+"name": "名古屋市立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1585"
+},
+{
+"name": "富山県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1545"
+},
+{
+"name": "福岡国際医療福祉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2730"
+},
+{
+"name": "福岡大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2712"
+},
+{
+"name": "福岡女学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2715"
+},
+{
+"name": "福岡女学院看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2725"
+},
+{
+"name": "福岡工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "福岡歯科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "福岡看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "第一工科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2790"
+},
+{
+"name": "第一薬科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "筑紫女学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2708"
+},
+{
+"name": "純真学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2728"
+},
+{
+"name": "聖マリア学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2724"
+},
+{
+"name": "西九州大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2727"
+},
+{
+"name": "西南女学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2717"
+},
+{
+"name": "西日本工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2711"
+},
+{
+"name": "鎮西学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2743"
+},
+{
+"name": "長崎国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2741"
+},
+{
+"name": "長崎外国語大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2742"
+},
+{
+"name": "長崎純心大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2740"
+},
+{
+"name": "長崎総合科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2738"
+},
+{
+"name": "山梨県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1561"
+},
+{
+"name": "岐阜県立看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1564"
+},
+{
+"name": "岐阜薬科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1565"
+},
+{
+"name": "愛知県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1575"
+},
+{
+"name": "愛知県立芸術大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1580"
+},
+{
+"name": "敦賀市立看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"founded",
+"difficulty"
+],
+"keinet": "1556"
+},
+{
+"name": "新潟県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1544"
+},
+{
+"name": "鹿児島国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2788"
+},
+{
+"name": "鹿児島純心大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2791"
+},
+{
+"name": "日本文理大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2764"
+},
+{
+"name": "日本経済大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2706"
+},
+{
+"name": "日本赤十字九州国際看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2721"
+},
+{
+"name": "沖縄キリスト教学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2804"
+},
+{
+"name": "産業医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2723"
+},
+{
+"name": "沖縄国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "沖縄大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "活水女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2739"
+},
+{
+"name": "熊本保健科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2757"
+},
+{
+"name": "熊本学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2752"
+},
+{
+"name": "九州看護福祉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2755"
+},
+{
+"name": "令和健康科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2732"
+},
+{
+"name": "別府大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2765"
+},
+{
+"name": "南九州大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2776"
+},
+{
+"name": "宮崎国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "新潟県立看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "1543"
+},
+{
+"name": "長岡造形大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"careers",
+"kyotsu"
+],
+"keinet": "1546"
+},
+{
+"name": "都留文科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"kyotsu"
+],
+"keinet": "1560"
+},
+{
+"name": "石川県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"careers",
+"kyotsu"
+],
+"keinet": "1547"
+},
+{
+"name": "石川県立看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "1549"
+},
+{
+"name": "金沢美術工芸大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"licenses",
+"careers",
+"difficulty"
+],
+"keinet": "1550"
+},
+{
+"name": "福井県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"careers",
+"kyotsu"
+],
+"keinet": "1555"
+},
+{
+"name": "久留米大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+]
+},
+{
+"name": "久留米工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2704"
+},
+{
+"name": "九州ルーテル学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2754"
+},
+{
+"name": "九州共立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2700"
+},
+{
+"name": "九州医療科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2779"
+},
+{
+"name": "九州国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2716"
+},
+{
+"name": "九州女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"difficulty"
+],
+"keinet": "2702"
+},
+{
+"name": "九州情報大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2718"
+},
+{
+"name": "九州栄養福祉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2720"
+},
+{
+"name": "九州産業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2701"
+},
+{
+"name": "福山大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu"
+],
+"keinet": "2639"
+},
+{
+"name": "福山平成大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu"
+],
+"keinet": "2642"
+},
+{
+"name": "美作大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+]
+},
+{
+"name": "聖カタリナ大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"difficulty"
+],
+"keinet": "2687"
+},
+{
+"name": "至誠館大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2655"
+},
+{
+"name": "宮崎産業経営大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"careers"
+],
+"keinet": "2777"
+},
+{
+"name": "尚絅大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"careers",
+"kyotsu"
+],
+"keinet": "2753"
+},
+{
+"name": "崇城大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"careers",
+"kyotsu"
+],
+"keinet": "2751"
+},
+{
+"name": "平成音楽大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"careers",
+"kyotsu"
+],
+"keinet": "2756"
+},
+{
+"name": "志學館大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"careers",
+"kyotsu"
+],
+"keinet": "2789"
+},
+{
+"name": "長野大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"careers",
+"kyotsu"
+],
+"keinet": "1563"
+},
+{
+"name": "長野県看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"careers"
+],
+"keinet": "1562"
+},
+{
+"name": "高松大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "2677"
+},
+{
+"name": "高知健康科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu"
+],
+"keinet": "2692"
+},
+{
+"name": "高知学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2691"
+},
+{
+"name": "鳥取看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2605"
+},
+{
+"name": "中村学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2710"
+},
+{
+"name": "広島経済大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu"
+]
+},
+{
+"name": "広島都市学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2647"
+},
+{
+"name": "徳島文理大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu"
+],
+"keinet": "2665"
+},
+{
+"name": "日本赤十字広島看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+]
+},
+{
+"name": "東亜大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2652"
+},
+{
+"name": "松山大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2688"
+},
+{
+"name": "松山東雲女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu"
+],
+"keinet": "2689"
+},
+{
+"name": "梅光学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2653"
+},
+{
+"name": "比治山大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2641"
+},
+{
+"name": "環太平洋大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2626"
+},
+{
+"name": "岡山学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "岡山理科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"difficulty"
+],
+"keinet": "2614"
+},
+{
+"name": "川崎医療福祉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu"
+],
+"keinet": "2616"
+},
+{
+"name": "川崎医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu"
+],
+"keinet": "2615"
+},
+{
+"name": "広島修道大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2635"
+},
+{
+"name": "広島国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2644"
+},
+{
+"name": "広島女学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2636"
+},
+{
+"name": "広島工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2634"
+},
+{
+"name": "広島文化学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu"
+],
+"keinet": "2643"
+},
+{
+"name": "広島文教大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2638"
+},
+{
+"name": "吉備国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2617"
+},
+{
+"name": "四国大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2664"
+},
+{
+"name": "四国学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+]
+},
+{
+"name": "宇部フロンティア大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2656"
+},
+{
+"name": "安田女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2640"
+},
+{
+"name": "就実大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2619"
+},
+{
+"name": "山口学芸大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2657"
+},
+{
+"name": "山陽学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"difficulty"
+],
+"keinet": "2622"
+},
+{
+"name": "岡山医療専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "岡山商科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"difficulty"
+]
+},
+{
+"name": "関西福祉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+]
+},
+{
+"name": "関西福祉科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2546"
+},
+{
+"name": "阪南大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2543"
+},
+{
+"name": "高野山大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "龍谷大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2505"
+},
+{
+"name": "くらしき作陽大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2618"
+},
+{
+"name": "エリザベト音楽大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2632"
+},
+{
+"name": "ノートルダム清心女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2620"
+},
+{
+"name": "中国学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu"
+]
+},
+{
+"name": "倉敷芸術科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu"
+],
+"keinet": "2623"
+},
+{
+"name": "藍野大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2540"
+},
+{
+"name": "近畿大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2536"
+},
+{
+"name": "追手門学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2532"
+},
+{
+"name": "鈴鹿医療科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2474"
+},
+{
+"name": "鈴鹿大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "長浜バイオ大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+]
+},
+{
+"name": "関西医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2550"
+},
+{
+"name": "関西医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2534"
+},
+{
+"name": "関西国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2581"
+},
+{
+"name": "関西看護医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+]
+},
+{
+"name": "神戸松蔭女子学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2568"
+},
+{
+"name": "神戸芸術工科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+]
+},
+{
+"name": "神戸薬科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+]
+},
+{
+"name": "神戸親和大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+]
+},
+{
+"name": "種智院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu"
+],
+"keinet": "2496"
+},
+{
+"name": "羽衣国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2514"
+},
+{
+"name": "聖泉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+]
+},
+{
+"name": "芦屋大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2555"
+},
+{
+"name": "花園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2502"
+},
+{
+"name": "畿央大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2587"
+},
+{
+"name": "皇學館大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2473"
+},
+{
+"name": "相愛大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2539"
+},
+{
+"name": "神戸医療未来大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu"
+],
+"keinet": "2592"
+},
+{
+"name": "神戸国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2575"
+},
+{
+"name": "神戸女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "神戸女学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "神戸学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2563"
+},
+{
+"name": "神戸常盤大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2594"
+},
+{
+"name": "東大阪大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+]
+},
+{
+"name": "桃山学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2544"
+},
+{
+"name": "梅花女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded"
+],
+"keinet": "2542"
+},
+{
+"name": "森ノ宮医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2509"
+},
+{
+"name": "武庫川女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2576"
+},
+{
+"name": "流通科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+]
+},
+{
+"name": "滋慶医療科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+]
+},
+{
+"name": "甲南大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2559"
+},
+{
+"name": "甲南女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2561"
+},
+{
+"name": "宝塚医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2593"
+},
+{
+"name": "宝塚大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2572"
+},
+{
+"name": "嵯峨美術大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2508"
+},
+{
+"name": "帝塚山大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2588"
+},
+{
+"name": "帝塚山学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2541"
+},
+{
+"name": "常磐会学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+]
+},
+{
+"name": "平安女学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2482"
+},
+{
+"name": "成安造形大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2481"
+},
+{
+"name": "摂南大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2538"
+},
+{
+"name": "明治国際医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2503"
+},
+{
+"name": "大阪観光大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+]
+},
+{
+"name": "大阪電気通信大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2529"
+},
+{
+"name": "大阪青山大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2511"
+},
+{
+"name": "大阪音楽大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2517"
+},
+{
+"name": "天理大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2589"
+},
+{
+"name": "太成学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2547"
+},
+{
+"name": "奈良大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2590"
+},
+{
+"name": "奈良学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded"
+],
+"keinet": "2591"
+},
+{
+"name": "姫路大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2586"
+},
+{
+"name": "姫路獨協大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2573"
+},
+{
+"name": "大阪樟蔭女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2526"
+},
+{
+"name": "大阪歯科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2521"
+},
+{
+"name": "大阪河﨑リハビリテーション大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2554"
+},
+{
+"name": "大阪物療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "大阪産業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2525"
+},
+{
+"name": "大阪経済大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2519"
+},
+{
+"name": "大阪経済法科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2520"
+},
+{
+"name": "大阪総合保育大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2553"
+},
+{
+"name": "大阪芸術大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2522"
+},
+{
+"name": "大阪行岡医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2596"
+},
+{
+"name": "静岡文化芸術大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1571"
+},
+{
+"name": "静岡県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1570"
+},
+{
+"name": "三重県立看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1586"
+},
+{
+"name": "京都市立芸術大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1590"
+},
+{
+"name": "京都府立医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1600"
+},
+{
+"name": "京都府立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1595"
+},
+{
+"name": "大阪信愛学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2608"
+},
+{
+"name": "大阪医科薬科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2516"
+},
+{
+"name": "大阪商業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "大阪国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+]
+},
+{
+"name": "大阪国際工科専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2113"
+},
+{
+"name": "大阪大谷大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2531"
+},
+{
+"name": "大阪女学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+]
+},
+{
+"name": "大阪学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2518"
+},
+{
+"name": "大阪工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2523"
+},
+{
+"name": "大阪成蹊大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2513"
+},
+{
+"name": "四日市大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "四日市看護医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+]
+},
+{
+"name": "四條畷学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "園田学園女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2571"
+},
+{
+"name": "大和大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2598"
+},
+{
+"name": "大手前大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+]
+},
+{
+"name": "大谷大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "2487"
+},
+{
+"name": "大阪人間科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2515"
+},
+{
+"name": "大阪体育大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "大阪保健医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "京都薬科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2494"
+},
+{
+"name": "佛教大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2501"
+},
+{
+"name": "兵庫医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2574"
+},
+{
+"name": "兵庫大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2579"
+},
+{
+"name": "千里金蘭大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "同志社女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2499"
+},
+{
+"name": "和歌山リハビリテーション専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "和歌山信愛大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+]
+},
+{
+"name": "四天王寺大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "京都医療科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+]
+},
+{
+"name": "京都外国語大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2488"
+},
+{
+"name": "京都女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "京都文教大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2506"
+},
+{
+"name": "京都橘大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "京都産業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2490"
+},
+{
+"name": "京都看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "京都精華大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2491"
+},
+{
+"name": "京都美術工芸大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "京都芸術大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2493"
+},
+{
+"name": "静岡産業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+]
+},
+{
+"name": "静岡福祉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+]
+},
+{
+"name": "静岡英和学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+]
+},
+{
+"name": "高岡法科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+]
+},
+{
+"name": "びわこリハビリテーション専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+]
+},
+{
+"name": "びわこ学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+]
+},
+{
+"name": "びわこ成蹊スポーツ大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+]
+},
+{
+"name": "京都先端科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+]
+},
+{
+"name": "京都光華女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "2495"
+},
+{
+"name": "金城大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2363"
+},
+{
+"name": "金城学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "金沢医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+]
+},
+{
+"name": "金沢学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2362"
+},
+{
+"name": "金沢工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2359"
+},
+{
+"name": "金沢星稜大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2358"
+},
+{
+"name": "長岡大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+]
+},
+{
+"name": "長岡崇徳大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2347"
+},
+{
+"name": "長野保健医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2398"
+},
+{
+"name": "静岡理工科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2422"
+},
+{
+"name": "浜松学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "2421"
+},
+{
+"name": "清泉女学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "福井医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2371"
+},
+{
+"name": "福井工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2372"
+},
+{
+"name": "聖隷クリストファー大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2423"
+},
+{
+"name": "至学館大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+]
+},
+{
+"name": "藤田医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+]
+},
+{
+"name": "豊橋創造大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2465"
+},
+{
+"name": "豊田工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "身延山大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2385"
+},
+{
+"name": "日本赤十字豊田看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "星城大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "朝日大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2408"
+},
+{
+"name": "東海学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2464"
+},
+{
+"name": "東海学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2411"
+},
+{
+"name": "松本大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2393"
+},
+{
+"name": "松本歯科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2396"
+},
+{
+"name": "松本看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "桜花学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2467"
+},
+{
+"name": "椙山女学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2444"
+},
+{
+"name": "新潟リハビリテーション大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2340"
+},
+{
+"name": "新潟医療福祉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2343"
+},
+{
+"name": "新潟国際情報大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2341"
+},
+{
+"name": "新潟工科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "新潟産業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "新潟経営大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "新潟薬科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2334"
+},
+{
+"name": "新潟青陵大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2339"
+},
+{
+"name": "新潟食料農業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+]
+},
+{
+"name": "日本福祉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2461"
+},
+{
+"name": "兵庫県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1627"
+},
+{
+"name": "滋賀県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1587"
+},
+{
+"name": "和歌山県立医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1645"
+},
+{
+"name": "奈良県立医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1635"
+},
+{
+"name": "奈良県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"difficulty"
+],
+"keinet": "1640"
+},
+{
+"name": "神戸市外国語大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1620"
+},
+{
+"name": "神戸市看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1619"
+},
+{
+"name": "愛知大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2436"
+},
+{
+"name": "愛知学泉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2442"
+},
+{
+"name": "愛知学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2437"
+},
+{
+"name": "愛知工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2439"
+},
+{
+"name": "愛知東邦大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2472"
+},
+{
+"name": "愛知淑徳大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2441"
+},
+{
+"name": "愛知産業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+]
+},
+{
+"name": "敬和学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+]
+},
+{
+"name": "岐阜保健大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "2405"
+},
+{
+"name": "岐阜医療科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2414"
+},
+{
+"name": "岐阜協立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2407"
+},
+{
+"name": "岐阜女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "岐阜聖徳学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2410"
+},
+{
+"name": "岡崎女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2432"
+},
+{
+"name": "常葉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2427"
+},
+{
+"name": "愛知みずほ大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "愛知医療学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "愛知医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2438"
+},
+{
+"name": "名古屋産業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "名古屋経済大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2454"
+},
+{
+"name": "名古屋芸術大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "名古屋造形大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2458"
+},
+{
+"name": "名古屋音楽大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+]
+},
+{
+"name": "名城大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2462"
+},
+{
+"name": "大同大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2445"
+},
+{
+"name": "富山国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "山梨学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2384"
+},
+{
+"name": "山梨英和大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2386"
+},
+{
+"name": "北陸大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2361"
+},
+{
+"name": "北陸学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2360"
+},
+{
+"name": "同朋大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2449"
+},
+{
+"name": "名古屋商科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2456"
+},
+{
+"name": "名古屋外国語大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2452"
+},
+{
+"name": "名古屋葵大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2457"
+},
+{
+"name": "名古屋学芸大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2435"
+},
+{
+"name": "名古屋学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2453"
+},
+{
+"name": "名古屋文理大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2468"
+},
+{
+"name": "福知山公立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"founded",
+"difficulty"
+],
+"keinet": "1597"
+},
+{
+"name": "下関市立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1665"
+},
+{
+"name": "公立鳥取環境大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1646"
+},
+{
+"name": "叡啓大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"difficulty"
+],
+"keinet": "1660"
+},
+{
+"name": "周南公立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1666"
+},
+{
+"name": "尾道市立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1653"
+},
+{
+"name": "山口県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1663"
+},
+{
+"name": "一宮研伸大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2430"
+},
+{
+"name": "中京大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2446"
+},
+{
+"name": "中京学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2412"
+},
+{
+"name": "中部大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2448"
+},
+{
+"name": "中部学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2413"
+},
+{
+"name": "人間環境大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2471"
+},
+{
+"name": "仁愛大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "2374"
+},
+{
+"name": "佐久大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "修文大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2431"
+},
+{
+"name": "健康科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "2387"
+},
+{
+"name": "山陽小野田市立山口東京理科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students"
+],
+"keinet": "1661"
+},
+{
+"name": "岡山県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "1648"
+},
+{
+"name": "石巻専修大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2054"
+},
+{
+"name": "福島学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2098"
+},
+{
+"name": "秋田看護福祉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2075"
+},
+{
+"name": "育英館大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2023"
+},
+{
+"name": "藤女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2006"
+},
+{
+"name": "郡山女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2095"
+},
+{
+"name": "島根県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "1647"
+},
+{
+"name": "広島市立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "1658"
+},
+{
+"name": "愛媛県立医療技術大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "1668"
+},
+{
+"name": "新見公立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "1649"
+},
+{
+"name": "県立広島大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "1656"
+},
+{
+"name": "福山市立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "1659"
+},
+{
+"name": "香川県立保健医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "1667"
+},
+{
+"name": "高知工科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "1671"
+},
+{
+"name": "高知県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"founded"
+],
+"keinet": "1670"
+},
+{
+"name": "九州歯科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"founded"
+],
+"keinet": "1680"
+},
+{
+"name": "北九州市立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "1675"
+},
+{
+"name": "名桜大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"careers"
+],
+"keinet": "1710"
+},
+{
+"name": "大分県立看護科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "1702"
+},
+{
+"name": "宮崎公立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"founded",
+"careers"
+],
+"keinet": "1703"
+},
+{
+"name": "宮崎県立看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "1704"
+},
+{
+"name": "沖縄県立看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "1706"
+},
+{
+"name": "沖縄県立芸術大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1705"
+},
+{
+"name": "熊本県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1700"
+},
+{
+"name": "福岡女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "1690"
+},
+{
+"name": "福岡県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"difficulty"
+],
+"keinet": "1685"
+},
+{
+"name": "長崎県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1695"
+},
+{
+"name": "札幌医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "1505"
+},
+{
+"name": "東北公益文科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1530"
+},
+{
+"name": "札幌市立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1506"
+},
+{
+"name": "秋田公立美術大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1522"
+},
+{
+"name": "東北農林専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"careers",
+"difficulty"
+],
+"keinet": "1529"
+},
+{
+"name": "長野県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1566"
+},
+{
+"name": "つくば国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"difficulty"
+],
+"keinet": "2110"
+},
+{
+"name": "アール医療専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"careers"
+],
+"keinet": "2115"
+},
+{
+"name": "日本国際学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2111"
+},
+{
+"name": "SBC東京医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"careers",
+"kyotsu"
+],
+"keinet": "2144"
+},
+{
+"name": "酪農学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2014"
+},
+{
+"name": "青森中央学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2031"
+},
+{
+"name": "青森大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2026"
+},
+{
+"name": "かなざわ食マネジメント専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2365"
+},
+{
+"name": "こども教育宝仙大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu"
+],
+"keinet": "2303"
+},
+{
+"name": "ものつくり大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu"
+],
+"keinet": "2169"
+},
+{
+"name": "東北福祉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2058"
+},
+{
+"name": "東北芸術工科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2083"
+},
+{
+"name": "東日本国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2097"
+},
+{
+"name": "柴田学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2027"
+},
+{
+"name": "盛岡大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2043"
+},
+{
+"name": "日本医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2033"
+},
+{
+"name": "日本赤十字北海道看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2020"
+},
+{
+"name": "日本赤十字秋田看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2073"
+},
+{
+"name": "星槎道都大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2004"
+},
+{
+"name": "札幌保健医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2025"
+},
+{
+"name": "グローバルBiz専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2197"
+},
+{
+"name": "デジタルハリウッド大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu"
+],
+"keinet": "2194"
+},
+{
+"name": "札幌国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2016"
+},
+{
+"name": "札幌大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2002"
+},
+{
+"name": "札幌大谷大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2024"
+},
+{
+"name": "札幌学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2003"
+},
+{
+"name": "東北医科薬科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2059"
+},
+{
+"name": "東北学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2056"
+},
+{
+"name": "東北工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2057"
+},
+{
+"name": "東北文化学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2063"
+},
+{
+"name": "東北文教大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2082"
+},
+{
+"name": "東北生活文化大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2060"
+},
+{
+"name": "医療創生大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2094"
+},
+{
+"name": "天使大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2022"
+},
+{
+"name": "奥羽大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2096"
+},
+{
+"name": "宮城学院女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2061"
+},
+{
+"name": "富士大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2042"
+},
+{
+"name": "尚絅学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2064"
+},
+{
+"name": "フェリス女学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2320"
+},
+{
+"name": "ビューティ＆ウェルネス専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"careers",
+"kyotsu"
+],
+"keinet": "2344"
+},
+{
+"name": "ヤマザキ動物看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2326"
+},
+{
+"name": "三育学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2132"
+},
+{
+"name": "上武大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2135"
+},
+{
+"name": "中央学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2181"
+},
+{
+"name": "亀田医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2128"
+},
+{
+"name": "二松学舎大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2266"
+},
+{
+"name": "亜細亜大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2199"
+},
+{
+"name": "人間総合科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2145"
+},
+{
+"name": "作新学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2121"
+},
+{
+"name": "共愛学園前橋国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2137"
+},
+{
+"name": "共栄大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2167"
+},
+{
+"name": "共立女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"kyotsu"
+],
+"keinet": "2206"
+},
+{
+"name": "創価大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2234"
+},
+{
+"name": "十文字学園女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"kyotsu"
+],
+"keinet": "2161"
+},
+{
+"name": "千葉商科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"careers",
+"kyotsu"
+],
+"keinet": "2179"
+},
+{
+"name": "岩手保健医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded"
+],
+"keinet": "2044"
+},
+{
+"name": "岩手医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers"
+],
+"keinet": "2041"
+},
+{
+"name": "弘前医療福祉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"difficulty"
+],
+"keinet": "2032"
+},
+{
+"name": "弘前学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2030"
+},
+{
+"name": "北洋大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2018"
+},
+{
+"name": "北海商科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2009"
+},
+{
+"name": "北海道千歳リハビリテーション大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2011"
+},
+{
+"name": "北海道武蔵女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+]
+},
+{
+"name": "北翔大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "北海学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded"
+],
+"keinet": "2008"
+},
+{
+"name": "北海道医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded"
+],
+"keinet": "2015"
+},
+{
+"name": "北海道情報大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers"
+]
+},
+{
+"name": "北海道文教大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2021"
+},
+{
+"name": "北海道科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"kyotsu"
+],
+"keinet": "2013"
+},
+{
+"name": "北星学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded"
+],
+"keinet": "2007"
+},
+{
+"name": "函館大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"careers",
+"kyotsu"
+],
+"keinet": "2005"
+},
+{
+"name": "八戸工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"careers",
+"kyotsu"
+]
+},
+{
+"name": "八戸学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2029"
+},
+{
+"name": "仙台青葉学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers"
+],
+"keinet": "2065"
+},
+{
+"name": "仙台白百合女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"careers",
+"kyotsu"
+],
+"keinet": "2062"
+},
+{
+"name": "仙台大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2055"
+},
+{
+"name": "ノースアジア大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2072"
+},
+{
+"name": "麻布大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2304"
+},
+{
+"name": "麗澤大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2187"
+},
+{
+"name": "鶴見大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded"
+],
+"keinet": "2316"
+},
+{
+"name": "駒沢女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"kyotsu"
+],
+"keinet": "2294"
+},
+{
+"name": "関東学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2307"
+},
+{
+"name": "関東学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2136"
+},
+{
+"name": "開智国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2192"
+},
+{
+"name": "鎌倉女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2309"
+},
+{
+"name": "跡見学園女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2147"
+},
+{
+"name": "足利大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"kyotsu"
+],
+"keinet": "2120"
+},
+{
+"name": "西武文理大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2163"
+},
+{
+"name": "育英大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers"
+],
+"keinet": "2134"
+},
+{
+"name": "聖路加国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers"
+],
+"keinet": "2232"
+},
+{
+"name": "聖徳大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"kyotsu"
+],
+"keinet": "2176"
+},
+{
+"name": "聖学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"kyotsu"
+],
+"keinet": "2154"
+},
+{
+"name": "聖マリアンナ医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded"
+],
+"keinet": "2314"
+},
+{
+"name": "群馬医療福祉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2140"
+},
+{
+"name": "群馬パース大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"kyotsu"
+],
+"keinet": "2133"
+},
+{
+"name": "立正大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"careers",
+"kyotsu"
+],
+"keinet": "2291"
+},
+{
+"name": "秀明大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2186"
+},
+{
+"name": "神奈川歯科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2308"
+},
+{
+"name": "神奈川工科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2305"
+},
+{
+"name": "神奈川大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers"
+],
+"keinet": "2306"
+},
+{
+"name": "相模女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"kyotsu"
+],
+"keinet": "2311"
+},
+{
+"name": "目白大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2160"
+},
+{
+"name": "白鴎大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2124"
+},
+{
+"name": "白百合女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2217"
+},
+{
+"name": "白梅学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"difficulty"
+],
+"keinet": "2301"
+},
+{
+"name": "田園調布学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded"
+],
+"keinet": "2318"
+},
+{
+"name": "産業能率大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"difficulty"
+],
+"keinet": "2312"
+},
+{
+"name": "湘南医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"careers"
+]
+},
+{
+"name": "清泉女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers"
+]
+},
+{
+"name": "清和大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+]
+},
+{
+"name": "淑徳大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2174"
+},
+{
+"name": "浦和大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2166"
+},
+{
+"name": "洗足学園音楽大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"kyotsu"
+],
+"keinet": "2315"
+},
+{
+"name": "江戸川大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded"
+],
+"keinet": "2170"
+},
+{
+"name": "武蔵野大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded"
+],
+"keinet": "2285"
+},
+{
+"name": "横浜薬科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2323"
+},
+{
+"name": "横浜美術大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2325"
+},
+{
+"name": "横浜商科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2321"
+},
+{
+"name": "横浜創英大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2329"
+},
+{
+"name": "植草学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded"
+],
+"keinet": "2141"
+},
+{
+"name": "桜美林大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2203"
+},
+{
+"name": "桐蔭横浜大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2317"
+},
+{
+"name": "ぐんま未来大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2130"
+},
+{
+"name": "桐朋学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2263"
+},
+{
+"name": "松蔭大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2322"
+},
+{
+"name": "東都大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2142"
+},
+{
+"name": "東邦音楽大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2155"
+},
+{
+"name": "東邦大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2264"
+},
+{
+"name": "東海大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2245"
+},
+{
+"name": "高崎商科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers"
+],
+"keinet": "2131"
+},
+{
+"name": "高崎健康福祉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2139"
+},
+{
+"name": "駿河台大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2153"
+},
+{
+"name": "玉川大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2240"
+},
+{
+"name": "湘南鎌倉医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+]
+},
+{
+"name": "湘南工科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2310"
+},
+{
+"name": "千葉工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"careers",
+"kyotsu"
+],
+"keinet": "2178"
+},
+{
+"name": "千葉経済大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"careers",
+"kyotsu"
+],
+"keinet": "2177"
+},
+{
+"name": "和光大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2292"
+},
+{
+"name": "和洋女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2188"
+},
+{
+"name": "嘉悦大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"kyotsu"
+],
+"keinet": "2298"
+},
+{
+"name": "国士舘大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2215"
+},
+{
+"name": "国立音楽大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2209"
+},
+{
+"name": "城西国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2175"
+},
+{
+"name": "国際武道大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2173"
+},
+{
+"name": "城西大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2152"
+},
+{
+"name": "埼玉医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2150"
+},
+{
+"name": "埼玉学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2164"
+},
+{
+"name": "埼玉工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2149"
+},
+{
+"name": "多摩大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2239"
+},
+{
+"name": "多摩美術大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2241"
+},
+{
+"name": "大妻女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2202"
+},
+{
+"name": "大東文化大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2235"
+},
+{
+"name": "大正大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2236"
+},
+{
+"name": "日本栄養大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"careers",
+"kyotsu"
+],
+"keinet": "2226"
+},
+{
+"name": "女子美術大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"careers",
+"kyotsu"
+],
+"keinet": "2227"
+},
+{
+"name": "宇都宮共和大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"careers",
+"kyotsu"
+],
+"keinet": "2126"
+},
+{
+"name": "実践女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"careers",
+"kyotsu"
+],
+"keinet": "2218"
+},
+{
+"name": "尚美学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2165"
+},
+{
+"name": "帝京大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2244"
+},
+{
+"name": "帝京平成大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2182"
+},
+{
+"name": "帝京科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2383"
+},
+{
+"name": "拓殖大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2237"
+},
+{
+"name": "平成国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2162"
+},
+{
+"name": "愛国学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2191"
+},
+{
+"name": "敬愛大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2180"
+},
+{
+"name": "文京学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"careers",
+"kyotsu"
+],
+"keinet": "2159"
+},
+{
+"name": "文化学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"careers",
+"kyotsu"
+],
+"keinet": "2278"
+},
+{
+"name": "文教大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"careers",
+"kyotsu"
+],
+"keinet": "2158"
+},
+{
+"name": "文星芸術大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"careers",
+"kyotsu"
+],
+"keinet": "2127"
+},
+{
+"name": "日本体育大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu"
+],
+"keinet": "2275"
+},
+{
+"name": "日本保健医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"careers",
+"kyotsu"
+],
+"keinet": "2129"
+},
+{
+"name": "日本医療科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"careers",
+"kyotsu"
+],
+"keinet": "2143"
+},
+{
+"name": "日本女子体育大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu"
+],
+"keinet": "2273"
+},
+{
+"name": "日本工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu"
+],
+"keinet": "2157"
+},
+{
+"name": "日本文化大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2277"
+},
+{
+"name": "日本映画大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu"
+],
+"keinet": "2328"
+},
+{
+"name": "日本歯科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu"
+],
+"keinet": "2269"
+},
+{
+"name": "日本獣医生命科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2271"
+},
+{
+"name": "日本社会事業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2270"
+},
+{
+"name": "日本薬科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2168"
+},
+{
+"name": "日本赤十字看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2274"
+},
+{
+"name": "明星大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2289"
+},
+{
+"name": "明治薬科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2288"
+},
+{
+"name": "明海大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2151"
+},
+{
+"name": "星薬科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2280"
+},
+{
+"name": "昭和医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2223"
+},
+{
+"name": "昭和女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2224"
+},
+{
+"name": "昭和薬科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "2225"
+},
+{
+"name": "昭和音楽大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2313"
+},
+{
+"name": "杉野服飾大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2222"
+},
+{
+"name": "杏林大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2208"
+},
+{
+"name": "東京医療保健大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2195"
+},
+{
+"name": "東京医療学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"founded",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2327"
+},
+{
+"name": "東京医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2246"
+},
+{
+"name": "東京基督教大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2183"
+},
+{
+"name": "東京国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2148"
+},
+{
+"name": "東京女子体育大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2256"
+},
+{
+"name": "東京女子医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2255"
+},
+{
+"name": "東京家政大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2248"
+},
+{
+"name": "東京家政学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2249"
+},
+{
+"name": "東京富士大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"difficulty"
+],
+"keinet": "2198"
+},
+{
+"name": "東京工科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2251"
+},
+{
+"name": "東京工芸大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2297"
+},
+{
+"name": "東京情報デザイン専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "東京情報大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2184"
+},
+{
+"name": "東京成徳大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2189"
+},
+{
+"name": "東京有明医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2324"
+},
+{
+"name": "東京未来大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2302"
+},
+{
+"name": "東京歯科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2252"
+},
+{
+"name": "東京神学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"licenses",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "東京福祉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"careers",
+"kyotsu"
+],
+"keinet": "2138"
+},
+{
+"name": "東京純心大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2295"
+},
+{
+"name": "東京経済大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"careers",
+"kyotsu"
+],
+"keinet": "2250"
+},
+{
+"name": "東京聖栄大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2300"
+},
+{
+"name": "東京薬科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2261"
+},
+{
+"name": "東京造形大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2258"
+},
+{
+"name": "東京音楽大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2247"
+},
+{
+"name": "東洋学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2185"
+},
+{
+"name": "東洋英和女学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2319"
+},
+{
+"name": "武蔵野学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2146"
+},
+{
+"name": "武蔵野美術大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2284"
+},
+{
+"name": "武蔵野音楽大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2283"
+},
+{
+"name": "高千穂大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "2238"
+},
+{
+"name": "放送大学（通信制のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "星槎大学（通信制のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"founded",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "八洲学園大学（通信制のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"founded",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "東京通信大学（通信制のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "ビジネス・ブレークスルー大学（通信制のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "サイバー大学（通信制のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "日本ウェルネススポーツ大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"kyotsu"
+],
+"keinet": "2112"
+},
+{
+"name": "千葉科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2193"
+},
+{
+"name": "武雄アジア大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"licenses",
+"careers",
+"difficulty"
+]
+},
+{
+"name": "大阪医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"careers"
+],
+"keinet": "2530"
+},
+{
+"name": "福岡国際音楽大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"licenses",
+"careers"
+],
+"keinet": "2726"
+},
+{
+"name": "コー・イノベーション大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"licenses",
+"careers"
+],
+"keinet": "2415"
+},
+{
+"name": "西日本看護医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"careers"
+],
+"keinet": "2722"
+},
+{
+"name": "開志創造大学（通信制のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "ZEN大学（通信制のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "太田医療科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "中央医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "政策研究大学院大学（大学院のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "北陸先端科学技術大学院大学（大学院のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "奈良先端科学技術大学院大学（大学院のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "総合研究大学院大学（大学院のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
 "name": "神奈川歯科大学",
 "need": [
 "verify"

@@ -74,7 +74,7 @@ NEED_LABEL = {'fees': '学部別の学費の内訳', 'schedule_dates': '入試�
               'scholar': '大学独自の奨学金', 'methods': '入試方式', 'methods_gap': '入試方式（推薦・総合型など）', 'subjects': '学部・方式ごとの入試科目',
               'ratios': '入試倍率の推移', 'oc': 'オープンキャンパス', 'eng': '英語外部試験', 'partners': '海外協定校', 'licenses': '取得できる資格',
               'research': '研究分野', 'careers': '主な進路', 'departments': '学部・学科', 'kyotsu': '共通テストの科目', 'extra': '学部別難易度・入試日程・費用',
-              'method_urls': '方式ごとの公式リンク', 'qtrend': '出題内容', 'verify': '外部AIデータの公式確認'}
+              'method_urls': '方式ごとの公式リンク', 'qtrend': '出題内容', 'verify': '外部AIデータの公式確認', 'gap_keinet': '基本情報（研究分野・資格・進路・学生数・設立・共テ科目・偏差値）'}
 def noget(names):
     q = D('queue'); out = {}
     for e in q.get('enrich', []):
