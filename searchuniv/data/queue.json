@@ -12693,6 +12693,78 @@
 "founded"
 ],
 "keinet": "1185"
+},
+{
+"name": "名古屋工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded"
+],
+"keinet": "1255"
+},
+{
+"name": "山梨大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"kyotsu"
+],
+"keinet": "1215"
+},
+{
+"name": "岐阜大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"kyotsu"
+],
+"keinet": "1260"
+},
+{
+"name": "愛知教育大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"kyotsu"
+],
+"keinet": "1240"
+},
+{
+"name": "福井大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"kyotsu"
+],
+"keinet": "1205"
+},
+{
+"name": "兵庫教育大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"difficulty"
+],
+"keinet": "1320"
+},
+{
+"name": "東京都立大学",
+"keinet": "1532",
+"need": [
+"oc"
+]
 }
 ],
 "failed": [],
@@ -12941,92 +13013,6 @@
 "国際ファッション専門職大学": 1
 },
 "enrich": [
-{
-"name": "名古屋工業大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded"
-],
-"keinet": "1255"
-},
-{
-"name": "富山大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded",
-"kyotsu"
-],
-"keinet": "1190"
-},
-{
-"name": "山梨大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded",
-"kyotsu"
-],
-"keinet": "1215"
-},
-{
-"name": "岐阜大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded",
-"kyotsu"
-],
-"keinet": "1260"
-},
-{
-"name": "愛知教育大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded",
-"kyotsu"
-],
-"keinet": "1240"
-},
-{
-"name": "浜松医科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded"
-],
-"keinet": "1235"
-},
-{
-"name": "福井大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded",
-"kyotsu"
-],
-"keinet": "1205"
-},
-{
-"name": "兵庫教育大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded",
-"difficulty"
-],
-"keinet": "1320"
-},
 {
 "name": "和歌山大学",
 "need": [
@@ -24120,13 +24106,6 @@
 {
 "name": "電気通信大学",
 "keinet": "1115",
-"need": [
-"oc"
-]
-},
-{
-"name": "東京都立大学",
-"keinet": "1532",
 "need": [
 "oc"
 ]
@@ -36023,6 +36002,33 @@
 "fails": 1,
 "last_fail": "2026-11-20",
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
+},
+{
+"name": "富山大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"kyotsu"
+],
+"keinet": "1190",
+"fails": 1,
+"last_fail": "2026-11-21",
+"note": "2026-11-21 Kei-Net大学トップ（沿革）は今回取得できず、exam_subjectは文型・理型・選択型の表記で教科・科目数の数値が一部しか無く、中盤が読み取れず"
+},
+{
+"name": "浜松医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded"
+],
+"keinet": "1235",
+"fails": 1,
+"last_fail": "2026-11-21",
+"note": "2026-11-21 Kei-Net大学トップ（沿革）が今回取得できず（WebFetchの権限確認で失敗）"
 },
 {
 "name": "島根大学",
