@@ -12193,6 +12193,77 @@
 "research"
 ],
 "keinet": "2219"
+},
+{
+"name": "東京電機大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "2259"
+},
+{
+"name": "獨協医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2123"
+},
+{
+"name": "関西外国語大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research"
+],
+"keinet": "2535"
+},
+{
+"name": "防衛大学校",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"kyotsu"
+],
+"keinet": "5010"
+},
+{
+"name": "防衛医科大学校",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "5060"
+},
+{
+"name": "気象大学校",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"kyotsu"
+]
+},
+{
+"name": "海上保安大学校",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+]
 }
 ],
 "failed": [],
@@ -12436,90 +12507,10 @@
 "筑波大学": 1,
 "千葉大学": 2,
 "茨城大学": 1,
-"埼玉大学": 1
+"埼玉大学": 1,
+"立命館アジア太平洋大学（APU）": 1
 },
 "enrich": [
-{
-"name": "東京電機大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research"
-],
-"keinet": "2259"
-},
-{
-"name": "獨協医科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu"
-],
-"keinet": "2123"
-},
-{
-"name": "立命館アジア太平洋大学（APU）",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"licenses"
-],
-"keinet": "2766"
-},
-{
-"name": "関西外国語大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research"
-],
-"keinet": "2535"
-},
-{
-"name": "防衛大学校",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"licenses",
-"kyotsu"
-],
-"keinet": "5010"
-},
-{
-"name": "防衛医科大学校",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu"
-],
-"keinet": "5060"
-},
-{
-"name": "気象大学校",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"licenses",
-"kyotsu"
-]
-},
-{
-"name": "海上保安大学校",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu",
-"difficulty"
-]
-},
 {
 "name": "水産大学校",
 "need": [
@@ -36025,6 +36016,19 @@
 "fails": 1,
 "last_fail": "2026-11-20",
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
+},
+{
+"name": "立命館アジア太平洋大学（APU）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses"
+],
+"keinet": "2766",
+"fails": 1,
+"last_fail": "2026-11-20",
+"note": "2026-11-20 licenses: Kei-Net licentialは取得不可（許可タイムアウト）、パスナビ univ/5142/shinro は「取得できる資格情報はございません」、APU学則に教職課程・資格の記載なし"
 },
 {
 "name": "島根大学",
