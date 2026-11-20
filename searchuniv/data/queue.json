@@ -12078,6 +12078,20 @@
 "ratios"
 ],
 "note": "大学公式の入試結果から過去3〜5年分に延ばす（info.ratios_replace で置き換え）"
+},
+{
+"name": "筑波大学",
+"keinet": "1085",
+"need": [
+"subjects"
+]
+},
+{
+"name": "茨城大学",
+"keinet": "1075",
+"need": [
+"method_urls"
+]
 }
 ],
 "failed": [],
@@ -14792,13 +14806,6 @@
 {
 "name": "東京科学大学",
 "keinet": "1150",
-"need": [
-"subjects"
-]
-},
-{
-"name": "筑波大学",
-"keinet": "1085",
 "need": [
 "subjects"
 ]
@@ -19438,13 +19445,6 @@
 "keinet": "1510",
 "need": [
 "scholar"
-]
-},
-{
-"name": "茨城大学",
-"keinet": "1075",
-"need": [
-"method_urls"
 ]
 },
 {
