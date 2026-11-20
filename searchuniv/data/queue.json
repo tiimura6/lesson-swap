@@ -13020,6 +13020,85 @@
 "difficulty"
 ],
 "keinet": "1548"
+},
+{
+"name": "公立諏訪東京理科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"difficulty"
+],
+"keinet": "1567"
+},
+{
+"name": "名古屋市立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1585"
+},
+{
+"name": "富山県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1545"
+},
+{
+"name": "福岡国際医療福祉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2730"
+},
+{
+"name": "福岡大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2712"
+},
+{
+"name": "福岡女学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2715"
+},
+{
+"name": "福岡女学院看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2725"
 }
 ],
 "failed": [],
@@ -13266,88 +13345,9 @@
 "埼玉大学": 1,
 "立命館アジア太平洋大学（APU）": 2,
 "国際ファッション専門職大学": 1,
-"旭川市立大学": 1
+"旭川市立大学": 2
 },
 "enrich": [
-{
-"name": "公立諏訪東京理科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"licenses",
-"difficulty"
-],
-"keinet": "1567"
-},
-{
-"name": "名古屋市立大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"difficulty"
-],
-"keinet": "1585"
-},
-{
-"name": "富山県立大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"difficulty"
-],
-"keinet": "1545"
-},
-{
-"name": "福岡国際医療福祉大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"kyotsu",
-"difficulty"
-],
-"keinet": "2730"
-},
-{
-"name": "福岡大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"kyotsu",
-"difficulty"
-],
-"keinet": "2712"
-},
-{
-"name": "福岡女学院大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"kyotsu",
-"difficulty"
-],
-"keinet": "2715"
-},
-{
-"name": "福岡女学院看護大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"kyotsu",
-"difficulty"
-],
-"keinet": "2725"
-},
 {
 "name": "福岡工業大学",
 "need": [
@@ -36022,19 +36022,6 @@
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
 },
 {
-"name": "旭川市立大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students"
-],
-"keinet": "1501",
-"fails": 1,
-"last_fail": "2026-11-21",
-"note": "2026-11-21 Kei-Net /outline/department は経済学部443人・保健福祉学部410人（2025年度）のみで総数の行が無く、地域創造学部の学生数が未掲載"
-},
-{
 "name": "島根大学",
 "keinet": "1345",
 "need": [
@@ -37634,6 +37621,20 @@
 "fails": 2,
 "last_fail": "2026-11-20",
 "note": "2026-11-20 licenses: Kei-Net licentialは取得不可（許可タイムアウト）、パスナビ univ/5142/shinro は「取得できる資格情報はございません」、APU学則に教職課程・資格の記載なし／2026-11-20 licenses: Kei-Net licentialは再び取得不可（許可タイムアウト）、パスナビ shinro は「取得できる資格情報はございません」、APU公式で資格・教職課程のページは検索で見つからず",
+"deferred": true
+},
+{
+"name": "旭川市立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students"
+],
+"keinet": "1501",
+"fails": 2,
+"last_fail": "2026-11-21",
+"note": "2026-11-21 Kei-Net /outline/department は経済学部443人・保健福祉学部410人（2025年度）のみで総数の行が無く、地域創造学部の学生数が未掲載／2026-11-21 2026-11-20 再確認：Kei-Net /outline/department は経済学部443人・保健福祉学部410人（2025年度）のみで地域創造学部と総数が無い。大学公式は今回取得できず",
 "deferred": true
 }
 ],

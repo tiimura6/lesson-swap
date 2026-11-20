@@ -25063,7 +25063,9 @@
 "https://passnavi.obunsha.co.jp/univ/1080/expense/",
 "https://search.keinet.ne.jp/1540/outline/scholarship",
 "https://search.keinet.ne.jp/1540/outline/opencampus",
-"https://search.keinet.ne.jp/1540/general/exam_result"
+"https://search.keinet.ne.jp/1540/general/exam_result",
+"https://search.keinet.ne.jp/1540/recommend/exam_rec",
+"https://search.keinet.ne.jp/1540/recommend/exam_ao"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -25116,34 +25118,34 @@
 {
 "kubun": "推薦",
 "name": "学校推薦型（公募制）",
-"content": "書類審査＋共通テスト",
-"req": "卒後1年以内まで・専願",
-"kyotsu": "課す（6教科8科目など）",
+"content": "書類審査＋共通テスト（1000点）",
+"req": "卒後1年以内・専願（理学部は履修条件あり）",
+"kyotsu": "課す（国際教養・国際商・理は6教科8科目、データサイエンスは5,6教科7科目）",
 "note": "国際教養・国際商・理・データサイエンス"
 },
 {
 "kubun": "推薦",
 "name": "特別公募制（医学科 地域医療枠・指定診療科枠／看護）",
 "content": "書類・資格→面接→共通テスト",
-"req": "医：現役・専願・評定4.3以上・地域条件・英語資格（英検準1級等）／看護：卒後1年以内・専願・英語資格（英検2級等）",
-"kyotsu": "課す",
-"note": "医学科は県内・県外高校別枠"
+"req": "医：現役・専願・評定4.3以上・地域条件・英語資格（英検準1級等）、指定診療科枠は修学資金貸与の手続きが必要／看護：卒後1年以内・専願・英語資格（英検2級等）",
+"kyotsu": "課す（医：6教科8科目・基準点あり／看護：5,6教科6科目）",
+"note": "医学科は県内・県外高校別枠。出願締切11/5"
 },
 {
 "kubun": "総合型",
 "name": "総合型選抜",
 "content": "書類・英語資格→面接・プレゼン",
-"req": "英語資格（英検準1級相当、または評定4.0〜4.3以上＋英検2級相当）",
-"kyotsu": "課さない（記載なし）",
+"req": "英語資格（英検準1級相当、または評定4.0〜4.3以上＋英検2級相当。国際商は日商簿記2級＋英検2級相当の出願資格も、データサイエンスは英検準1級相当）",
+"kyotsu": "課さない",
 "note": "国際教養・国際商・理・データサイエンス"
 },
 {
 "kubun": "総合型",
 "name": "科学オリンピック特別選抜",
-"content": "面接・総合問題",
-"req": "数学オリンピック予選Bランク以上など、英語資格",
-"kyotsu": "課さない（記載なし）",
-"note": "若干名"
+"content": "面接・総合問題（英語資格で加点）",
+"req": "数学オリンピック予選Bランク以上など（理学部は物理チャレンジ・化学グランプリ・生物学オリンピックも）、英語資格（英検2級CSE2200以上等）",
+"kyotsu": "課さない",
+"note": "国際商・理・データサイエンス、若干名・併願可"
 }
 ],
 "summary": "一般は前期中心（後期は理・データサイエンスのみ）。推薦は共テ必須。総合型は英語資格が鍵。",
@@ -121726,7 +121728,9 @@
 "money": "2026-11-09",
 "_via": "2026-11-09",
 "careers": "2026-11-15",
-"research": "2026-11-15"
+"research": "2026-11-15",
+"difficulty": "2026-11-20",
+"licenses": "2026-11-20"
 },
 "departments": [
 {
@@ -121784,7 +121788,8 @@
 "https://sukyojuku.com/few-subjects-public-science-2027/",
 "https://search.keinet.ne.jp/1567/outline/admission_employment",
 "https://www.sus.ac.jp/admissions/under_graduate/ippan_a/",
-"https://www.sus.ac.jp/exam-info/"
+"https://www.sus.ac.jp/exam-info/",
+"https://manabi.benesse.ne.jp/daigaku/school/2121/syusyoku/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -122025,6 +122030,33 @@
 "情報システム・知能情報通信（情報応用工学科）",
 "機械理工学・電気理工学（機械電気工学科）",
 "全学のマネジメント基盤教育と、地元企業と連携したPBL（課題解決型学習）"
+],
+"difficulty": {
+"hensachi": "37.5〜50.0",
+"kyotei": "45%〜65%",
+"year": "2027年度入試用"
+},
+"licenses": [
+"TOEIC（600点以上。IPテスト含む）（資格取得支援助成金の対象資格）",
+"英検準1級以上（資格取得支援助成金の対象資格）",
+"技術士第一次試験（資格取得支援助成金の対象資格）",
+"電気通信の工事担任者試験（総合通信）（資格取得支援助成金の対象資格）",
+"品質管理検定（QC検定）2級以上（資格取得支援助成金の対象資格）",
+"ITストラテジスト試験（ST）（資格取得支援助成金の対象資格）",
+"システムアーキテクト試験（SA）（資格取得支援助成金の対象資格）",
+"プロジェクトマネージャ試験（PM）（資格取得支援助成金の対象資格）",
+"ネットワークスペシャリスト試験（NW）（資格取得支援助成金の対象資格）",
+"データベーススペシャリスト試験（DB）（資格取得支援助成金の対象資格）",
+"エンベデッドシステムスペシャリスト試験（ES）（資格取得支援助成金の対象資格）",
+"ITサービスマネージャ試験（SM）（資格取得支援助成金の対象資格）",
+"システム監査技術者試験（AU）（資格取得支援助成金の対象資格）",
+"情報処理安全確保支援士試験（SC）（資格取得支援助成金の対象資格）",
+"応用情報技術者試験（AP）（資格取得支援助成金の対象資格）",
+"情報セキュリティマネジメント試験（SG）（資格取得支援助成金の対象資格）",
+"基本情報技術者試験（FE）（資格取得支援助成金の対象資格）",
+"第三種電気主任技術者試験以上（資格取得支援助成金の対象資格）",
+"統計検定2級以上（資格取得支援助成金の対象資格）",
+"日商簿記検定2級以上（資格取得支援助成金の対象資格）"
 ]
 },
 "名古屋市立大学": {
@@ -122053,7 +122085,8 @@
 "money": "2026-11-09",
 "_via": "2026-11-16",
 "careers": "2026-11-15",
-"research": "2026-11-15"
+"research": "2026-11-15",
+"difficulty": "2026-11-20"
 },
 "departments": [
 {
@@ -122178,7 +122211,8 @@
 "https://search.keinet.ne.jp/1585/outline/admission_employment",
 "https://search.keinet.ne.jp/1585/outline/department",
 "https://www.nagoya-cu.ac.jp/media/R9senbatsuyoko0701.pdf",
-"https://www.nagoya-cu.ac.jp/media/R9sougougata-bosyuyoko.pdf"
+"https://www.nagoya-cu.ac.jp/media/R9sougougata-bosyuyoko.pdf",
+"https://search.keinet.ne.jp/general/border_rate/1585"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -122582,7 +122616,12 @@
 "医学、看護学・リハビリテーション学（医学部）",
 "医薬品の開発研究と適正使用（薬学部）",
 "統計学・情報工学によるデータ分析と、IT・ビジネス・医療への応用（データサイエンス学部）"
-]
+],
+"difficulty": {
+"hensachi": "50.0〜65.0",
+"kyotei": "59%〜83%",
+"year": "2027年度入試用"
+}
 },
 "富山県立大学": {
 "faculties": [
@@ -122605,7 +122644,8 @@
 "money": "2026-11-09",
 "_via": "2026-11-09",
 "careers": "2026-11-15",
-"research": "2026-11-15"
+"research": "2026-11-15",
+"difficulty": "2026-11-20"
 },
 "departments": [
 {
@@ -122988,7 +123028,12 @@
 "機械システム・電気電子・環境社会基盤・生物工学・医薬品工学と全学的な環境教育（工学部）",
 "データサイエンス・情報システム・知能ロボットとデザイン思考（情報工学部）",
 "看護師養成に特化した基礎教育、専攻科で保健師・助産師（看護学部）"
-]
+],
+"difficulty": {
+"hensachi": "40.0〜45.0",
+"kyotei": "48%〜67%",
+"year": "2027年度入試用"
+}
 },
 "福岡国際医療福祉大学": {
 "faculties": [
@@ -123005,7 +123050,10 @@
 "students": "2026-11-09",
 "founded": "2026-11-09",
 "money": "2026-11-09",
-"schedule": "2026-11-19"
+"schedule": "2026-11-19",
+"difficulty": "2026-11-20",
+"kyotsu": "2026-11-20",
+"research": "2026-11-20"
 },
 "departments": [
 {
@@ -123044,7 +123092,10 @@
 "https://search.keinet.ne.jp/2730/outline/expense",
 "https://manabi.benesse.ne.jp/daigaku/school/3900/nyushi/gokaku-happyo/",
 "https://manabi.benesse.ne.jp/daigaku/school/3900/nyushi/gokaku-happyo/index.html",
-"https://telemail.jp/shingaku/university/10011378/examination/general"
+"https://telemail.jp/shingaku/university/10011378/examination/general",
+"https://search.keinet.ne.jp/2730/general/border_rate",
+"https://search.keinet.ne.jp/2730/general/exam_subject",
+"https://manabi.benesse.ne.jp/daigaku/school/3900/gakubu/"
 ],
 "students": {
 "count": 1335,
@@ -123131,7 +123182,28 @@
 }
 ],
 "note": "看護学科・医療学部の各学科とも同じ日程。マナビジョン（2027年度入試）とテレメール（2027年度入学）で既存と一致（2026-11-19確認）。検定料は出典に記載なし"
-}
+},
+"difficulty": {
+"hensachi": "37.5〜42.5",
+"kyotei": "44%〜71%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "2〜3教科3科目（共通テスト方式）",
+"kyoka": [
+2,
+3
+],
+"rl": [],
+"rl_text": "英語はリーディングのみ（R100）",
+"note": "共通テスト方式は各学科1方式。前期・後期は個別試験のみ",
+"year": "2027年度入試"
+},
+"research": [
+"理学療法・作業療法・言語聴覚・視能訓練・診療放射線（医療学部）",
+"看護（看護学部）",
+"1年次から段階的に他職種を学ぶ関連職種連携教育でチーム医療を修得"
+]
 },
 "福岡大学": {
 "faculties": [
@@ -123159,7 +123231,9 @@
 "money": "2026-11-18",
 "schedule": "2026-11-18",
 "methods": "2026-11-18",
-"scholar": "2026-11-18"
+"scholar": "2026-11-18",
+"difficulty": "2026-11-20",
+"research": "2026-11-20"
 },
 "departments": [
 {
@@ -123268,7 +123342,9 @@
 "https://search.keinet.ne.jp/2712/outline/expense",
 "https://manabi.benesse.ne.jp/daigaku/school/3886/nyushi/gokaku-happyo/",
 "https://www.fukuoka-u.ac.jp/pdf/entrance-examinations/guidebook-entrance-examinations2027.pdf",
-"https://nyushi.fukuoka-u.ac.jp/nyushi/type-3/"
+"https://nyushi.fukuoka-u.ac.jp/nyushi/type-3/",
+"https://search.keinet.ne.jp/2712/general/border_rate",
+"https://search.keinet.ne.jp/2712/outline/department"
 ],
 "students": {
 "count": 18992,
@@ -123583,7 +123659,23 @@
 }
 ],
 "note": "大学公式「2027 入試ガイド」"
-}
+},
+"difficulty": {
+"hensachi": "40.0〜62.5",
+"kyotei": "51%〜83%",
+"year": "2027年度入試用"
+},
+"research": [
+"文化・歴史・日本語日本文・教育・臨床心理・英語・ドイツ語・フランス語・東アジア地域言語（人文学部）",
+"法律・経営法（法学部）",
+"経済・産業経済（経済学部）",
+"商・経営・貿易・会計専門職（商学部、第二部あり）",
+"応用数学・物理科学・化学・地球圏科学・社会数理・情報（理学部）",
+"機械・電気・電子情報・化学システム・社会デザイン工学・建築（工学部）",
+"医学・看護学（医学部）",
+"薬学（薬学部）",
+"スポーツ科学・健康運動科学（スポーツ科学部）"
+]
 },
 "福岡女学院大学": {
 "faculties": [
@@ -123602,7 +123694,10 @@
 "students": "2026-11-09",
 "founded": "2026-11-09",
 "money": "2026-11-09",
-"schedule": "2026-11-19"
+"schedule": "2026-11-19",
+"difficulty": "2026-11-20",
+"kyotsu": "2026-11-20",
+"research": "2026-11-20"
 },
 "departments": [
 {
@@ -123648,7 +123743,10 @@
 "https://www.fukujo.ac.jp/university/about/history",
 "https://search.keinet.ne.jp/2715/outline/expense",
 "https://manabi.benesse.ne.jp/daigaku/school/3889/nyushi/gokaku-happyo/",
-"https://manabi.benesse.ne.jp/daigaku/school/3889/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3889/nyushi/index.html",
+"https://search.keinet.ne.jp/2715/general/border_rate",
+"https://search.keinet.ne.jp/2715/general/exam_subject",
+"https://search.keinet.ne.jp/2715/outline/department"
 ],
 "students": {
 "count": 1966,
@@ -123785,7 +123883,30 @@
 }
 ],
 "note": "2026-11-19 マナビジョン（2027年度入試）で再確認。一般・共テ利用の日程は既存と一致。総合型Ⅰ・Ⅱ期、公募推薦の日程と一般選抜の検定料を追加。共テ単独・総合型・推薦の検定料は記載なし"
-}
+},
+"difficulty": {
+"hensachi": "BF〜37.5",
+"kyotei": "35%〜45%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "2教科2科目〜3教科3科目",
+"kyoka": [
+2,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "共テ方式はすべてR:L=1:1",
+"note": "３科目型・２科目型・前期共テ＋の各方式",
+"year": "2027年度入試"
+},
+"research": [
+"心理・子ども発達（人間関係学部）",
+"現代文化・言語芸術・メディア・コミュニケーション（人文学部）",
+"国際英語・国際キャリア（国際キャリア学部）"
+]
 },
 "福岡女学院看護大学": {
 "faculties": [
@@ -123802,7 +123923,8 @@
 "students": "2026-11-09",
 "founded": "2026-11-09",
 "money": "2026-11-09",
-"schedule": "2026-11-19"
+"schedule": "2026-11-19",
+"kyotsu": "2026-11-20"
 },
 "departments": [
 {
@@ -123832,7 +123954,8 @@
 "https://ns.fukujo.ac.jp/burger_editor/burger_editor/dl/42__ZGlzY2xvc3VyZV9qb3Nob3U-d-.pdf",
 "https://search.keinet.ne.jp/2725/outline/expense",
 "https://manabi.benesse.ne.jp/daigaku/school/3896/nyushi/gokaku-happyo/",
-"https://manabi.benesse.ne.jp/daigaku/school/3896/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3896/nyushi/index.html",
+"https://search.keinet.ne.jp/2725/general/exam_subject"
 ],
 "students": {
 "count": 413,
@@ -123917,6 +124040,19 @@
 }
 ],
 "note": "2026-11-19 マナビジョン（2027年度入試）で再確認し、全方式とも既存と一致。検定料は出典に記載なし"
+},
+"kyotsu": {
+"kamoku": "4教科4科目",
+"kyoka": [
+4,
+4
+],
+"rl": [
+"1:1"
+],
+"rl_text": "R50:L50",
+"note": "共通テスト方式は看護学科の1方式。前期・後期は個別試験のみ",
+"year": "2027年度入試"
 }
 },
 "福岡工業大学": {
