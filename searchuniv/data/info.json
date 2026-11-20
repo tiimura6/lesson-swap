@@ -17360,7 +17360,12 @@
 "https://passnavi.obunsha.co.jp/univ/0200/expense/",
 "https://www.saitama-u.ac.jp/media/r9_tokubetuyoko.pdf",
 "https://search.keinet.ne.jp/1100/outline/scholarship",
-"https://www.saitama-u.ac.jp/student_archives/2022/20221018ichiran.pdf"
+"https://www.saitama-u.ac.jp/student_archives/2022/20221018ichiran.pdf",
+"https://www.saitama-u.ac.jp/entrance/exam_info/r4/r4_ippan.pdf",
+"https://www.saitama-u.ac.jp/entrance/exam_info/result/r5_ippan.pdf",
+"https://www.saitama-u.ac.jp/entrance/exam_info/result/r6ippan.pdf",
+"https://www.saitama-u.ac.jp/entrance/exam_info/result/r7ippan.pdf",
+"https://www.saitama-u.ac.jp/entrance/exam_info/result/r8ippan.pdf"
 ],
 "licenses": [
 "教員免許（幼・小・中・高、特別支援）",
@@ -17837,7 +17842,7 @@
 "schedule": "2026-11-15",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
-"ratios": "2026-11-06",
+"ratios": "2026-11-20",
 "research": "2026-11-14",
 "scholar": "2026-11-19",
 "partners": "2026-11-20"
@@ -18004,6 +18009,9 @@
 "kubun": "一般",
 "unit": "全学部計（前期・後期）",
 "y": {
+"2022": 2.4,
+"2023": 2.6,
+"2024": 2.4,
 "2025": 2.7,
 "2026": 2.9
 }
@@ -18012,6 +18020,9 @@
 "kubun": "一般",
 "unit": "全学部計（前期）",
 "y": {
+"2022": 2.3,
+"2023": 2.5,
+"2024": 2.3,
 "2025": 2.4,
 "2026": 2.7
 }
@@ -18020,14 +18031,20 @@
 "kubun": "一般",
 "unit": "全学部計（後期）",
 "y": {
+"2022": 2.5,
+"2023": 3.0,
+"2024": 2.6,
 "2025": 3.3,
-"2026": 3.3
+"2026": 3.4
 }
 },
 {
 "kubun": "一般",
 "unit": "経済学部 一般選抜枠 前期",
 "y": {
+"2022": 2.3,
+"2023": 2.3,
+"2024": 2.4,
 "2025": 2.4,
 "2026": 2.8
 }
@@ -18036,14 +18053,31 @@
 "kubun": "一般",
 "unit": "経済学部 国際プログラム枠 前期",
 "y": {
+"2022": 2.1,
+"2023": 2.1,
+"2024": 1.8,
 "2025": 2.1,
 "2026": 2.3
 }
 },
 {
 "kubun": "一般",
+"unit": "教育学部 前期",
+"y": {
+"2022": 2.2,
+"2023": 2.2,
+"2024": 2.5,
+"2025": 2.5,
+"2026": 2.7
+}
+},
+{
+"kubun": "一般",
 "unit": "理学部 数学 前期",
 "y": {
+"2022": 4.8,
+"2023": 7.5,
+"2024": 3.2,
 "2025": 4.8,
 "2026": 5.3
 }
@@ -18052,6 +18086,9 @@
 "kubun": "一般",
 "unit": "理学部 生体制御 前期",
 "y": {
+"2022": 2.3,
+"2023": 2.9,
+"2024": 2.0,
 "2025": 3.2,
 "2026": 3.5
 }
@@ -18060,6 +18097,9 @@
 "kubun": "一般",
 "unit": "工学部 機械工学・システムデザイン 前期",
 "y": {
+"2022": 2.4,
+"2023": 3.4,
+"2024": 2.6,
 "2025": 1.7,
 "2026": 3.7
 }
@@ -18068,6 +18108,9 @@
 "kubun": "一般",
 "unit": "工学部 電気電子物理工 前期",
 "y": {
+"2022": 2.0,
+"2023": 2.2,
+"2024": 2.1,
 "2025": 2.2,
 "2026": 2.6
 }
@@ -18076,6 +18119,9 @@
 "kubun": "一般",
 "unit": "工学部 情報工 前期",
 "y": {
+"2022": 2.6,
+"2023": 4.2,
+"2024": 2.9,
 "2025": 3.4,
 "2026": 2.5
 }
@@ -18084,6 +18130,9 @@
 "kubun": "一般",
 "unit": "工学部 応用化学 前期",
 "y": {
+"2022": 2.1,
+"2023": 2.0,
+"2024": 1.6,
 "2025": 1.8,
 "2026": 3.3
 }
@@ -18092,12 +18141,15 @@
 "kubun": "一般",
 "unit": "工学部 環境社会デザイン 前期",
 "y": {
+"2022": 2.6,
+"2023": 1.7,
+"2024": 2.0,
 "2025": 2.2,
 "2026": 2.7
 }
 }
 ],
-"note": "河合塾Kei-Netの一般選抜入試結果より（倍率＝受験者／合格者）。学部計の掲載が無いため学科単位"
+"note": "埼玉大学公式「一般選抜実施状況」（令和4〜8年度）の受験者数・合格者数から計算（計算値、小数1桁四捨五入）。2025・2026年度の河合塾Kei-Netの値と一致を確認（2026年度の全学部計（後期）のみKei-Net 3.3→公式の数字では3.4に修正）。教育学部は2022・2023年度に後期日程なし"
 },
 "research": [
 "国際関係・社会学・地理学・哲学・歴史学・欧米やアジアの文化・心理学（教養学部、2年次から専修課程）",
@@ -18544,7 +18596,8 @@
 "https://www.ynu.ac.jp/exam/faculty/essential/pdf/senbatsu2027.pdf",
 "https://passnavi.obunsha.co.jp/univ/0340/expense/",
 "https://search.keinet.ne.jp/1170/outline/department",
-"https://search.keinet.ne.jp/1170/outline/scholarship"
+"https://search.keinet.ne.jp/1170/outline/scholarship",
+"https://passnavi.obunsha.co.jp/univ/0340/opencampus/"
 ],
 "licenses": [
 "教員免許（小・中・高、特別支援）",
@@ -18574,25 +18627,27 @@
 "kubun": "一般",
 "name": "前期日程",
 "kyotsu": "課す",
-"niji": "経済：英・数／経営：英または数／教育：小論文・面接（芸術系は実技）／理工：個別試験あり（科目内訳未確認）",
+"niji": "経済：数・英／経営：数または英／教育：小論文または面接（音楽・美術・保健体育は実技）／理工：数・理（物理・化学）・英／都市科学：都市社会共生は小論文、建築・都市基盤は数・理・英、環境リスク共生は数理・理・英",
 "haiten": "理工 1000:1200（約1:1.2）、経営 900:450、経済 1000:800、教育 1000:400",
 "kn": [
 1,
 1.2
 ],
-"note": "代表は理工学部（Benesseマナビジョンで数物・電子情報系、機械・材料系を確認）。化学・生命系・都市科学は未確認"
+"note": "代表は理工学部（Benesseマナビジョンで数物・電子情報系、機械・材料系を確認）。化学・生命系・都市科学は未確認。個別科目は2027年度入学者選抜要項「試験科目設定の意図」で確認（配点は要項PDFで読み取れず）",
+"url": "https://www.ynu.ac.jp/exam/faculty/essential/pdf/senbatsu2027.pdf"
 },
 {
 "kubun": "一般",
 "name": "後期日程",
 "kyotsu": "課す",
-"niji": "英・数（経済・経営）",
+"niji": "経済：数または英／経営：数・英／理工：数・理（物理・化学）／都市科学：都市社会共生は面接、建築・都市基盤は数・理、環境リスク共生は数・小論文。教育学部は後期なし",
 "haiten": "理工 700:900、経済 900:800、経営 450:450",
 "kn": [
 1,
 1.29
 ],
-"note": "経済・経営・理工の一部で確認"
+"note": "個別科目は2027年度入学者選抜要項で確認。配点は従来データ（経済・経営・理工の一部）",
+"url": "https://www.ynu.ac.jp/exam/faculty/essential/pdf/senbatsu2027.pdf"
 },
 {
 "kubun": "推薦",
@@ -18616,7 +18671,7 @@
 "content": "書類・面接（プレゼン）＋共通テスト",
 "req": "専願。経済は英語資格",
 "kyotsu": "課す",
-"note": "経済・理工（機械-材料・海洋、都市基盤）・都市科学"
+"note": "経済・理工（機械・材料・海洋系の材料工学／海洋空間のシステムデザイン）・都市科学（都市社会共生・都市基盤・環境リスク共生）。最終発表が共テ後（2/9〜2/10）"
 },
 {
 "kubun": "総合型",
@@ -18624,11 +18679,14 @@
 "content": "小論文・書類・面接（建築は実技・プレゼン）",
 "req": "専願。教育は評定3.5・教職関連の活動歴",
 "kyotsu": "課さない",
-"note": "教育（地域教員利用枠・専門領域枠）・理工（建築）"
+"note": "教育（地域教員利用枠・専門領域枠）・都市科学（建築）"
 }
 ],
 "summary": "一般は理工で二次がやや重く、文系は共テ比重が大。推薦・総合型は学部で共テの有無が分かれる。",
-"note": "推薦・総合型ページとも「もっと見る」が残り一部未取得の可能性"
+"note": "推薦・総合型ページとも「もっと見る」が残り一部未取得の可能性",
+"sources": [
+"https://www.ynu.ac.jp/exam/faculty/essential/pdf/senbatsu2027.pdf"
+]
 },
 "departments": [
 {
@@ -18976,12 +19034,14 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "money": "2026-11-07",
-"schedule": "2026-11-15",
+"schedule": "2026-11-20",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "research": "2026-11-14",
-"scholar": "2026-11-19"
+"scholar": "2026-11-19",
+"methods": "2026-11-20",
+"oc": "2026-11-20"
 },
 "money": {
 "year": "2026年度",
@@ -19072,7 +19132,8 @@
 "exam": "2/25",
 "result": "3/6",
 "proc": "",
-"note": "Web出願登録1/22〜2/2。入学手続・検定料は一般選抜学生募集要項（11月中旬公表予定）で確認"
+"note": "Web出願登録1/22〜2/2（郵送出願1/25〜2/3）。入学手続期限は選抜要項に記載なし（一般選抜学生募集要項で確認）",
+"url": "https://www.ynu.ac.jp/exam/faculty/essential/pdf/senbatsu2027.pdf"
 },
 {
 "kubun": "一般",
@@ -19081,26 +19142,70 @@
 "exam": "3/12",
 "result": "3/20",
 "proc": "",
-"note": "教育学部は後期なし。全学部共通日程"
+"note": "教育学部は後期なし。全学部共通日程",
+"url": "https://www.ynu.ac.jp/exam/faculty/essential/pdf/senbatsu2027.pdf"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜（共テなし）",
-"apply": "〜11/9着",
+"apply": "11/2〜11/9",
 "exam": "12/7",
 "result": "12/17",
 "proc": "12/24",
-"note": "Kei-Net表記（出願は締切日のみ、必着）。経営学部の日程。理工学部数物－電子情報システム（女子枠）は試験11/21・発表12/8・手続12/15。"
+"note": "郵送・必着。経営学部の日程（入学手続12/24はKei-Net表記）。理工学部数物・電子情報系 電子情報システム（女子枠）は出願11/3〜11/9・試験11/21・発表12/8。"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜（共テあり）",
-"apply": "〜1/22着",
+"apply": "1/18〜1/22",
 "exam": "2/4",
 "result": "2/9",
 "proc": "2/16",
-"note": "理工学部化学・生命系学科、数物－電子情報システム（一般枠）の日程。"
+"note": "郵送・必着。理工学部化学・生命系学科、数物・電子情報系 電子情報システム（一般枠）の日程（入学手続2/16はKei-Net表記）。"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（教育学部）",
+"apply": "9/24〜9/30",
+"exam": "10/24・11/21",
+"result": "12/1",
+"proc": "",
+"note": "郵送・必着。1次10/24（発表11/4）、2次11/21",
+"url": "https://www.ynu.ac.jp/exam/faculty/essential/pdf/senbatsu2027.pdf"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（経済学部）",
+"apply": "9/1〜9/4",
+"exam": "11/16",
+"result": "2/10",
+"proc": "",
+"note": "郵送・必着。1次発表10/9、2次発表12/17、最終発表2/10（共通テスト利用）",
+"url": "https://www.ynu.ac.jp/exam/faculty/essential/pdf/senbatsu2027.pdf"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（理工学部 機械・材料・海洋系）",
+"apply": "9/11〜9/17",
+"exam": "11/21",
+"result": "2/9",
+"proc": "",
+"note": "材料工学・海洋空間のシステムデザイン教育プログラム。1次書類（発表10/20）、2次発表12/8、最終2/9",
+"url": "https://www.ynu.ac.jp/exam/faculty/essential/pdf/senbatsu2027.pdf"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（都市科学部）",
+"apply": "9/10〜9/17",
+"exam": "11/21",
+"result": "2/9",
+"proc": "",
+"note": "都市社会共生・都市基盤・環境リスク共生：1次書類（発表10/21）、2次発表12/2、最終2/9。建築学科は1次10/10・2次11/21、最終発表12/2",
+"url": "https://www.ynu.ac.jp/exam/faculty/essential/pdf/senbatsu2027.pdf"
 }
+],
+"sources": [
+"https://www.ynu.ac.jp/exam/faculty/essential/pdf/senbatsu2027.pdf"
 ]
 },
 "eng": {
@@ -19247,6 +19352,34 @@
 }
 ],
 "note": "Kei-Net（河合塾調査・2026年度実施情報、一部予定を含む）による。対象学部の記載がないものは「全学部」とした"
+},
+"oc": {
+"year": "2026年度",
+"events": [
+{
+"date": "2026/6/20",
+"type": "来場型",
+"title": "オープンキャンパス2026（常盤台キャンパス）",
+"note": "教育・経済・経営学部。10:00〜16:00、要事前予約（終了）"
+},
+{
+"date": "2026/6/21",
+"type": "来場型",
+"title": "オープンキャンパス2026（常盤台キャンパス）",
+"note": "理工・都市科学部。10:00〜16:00、要事前予約（終了）"
+},
+{
+"date": "2026/6〜11月",
+"type": "オンライン",
+"title": "オンラインオープンキャンパス",
+"note": "全学部"
+}
+],
+"url": "https://passnavi.obunsha.co.jp/univ/0340/opencampus/",
+"note": "2026年度の来場型は終了（例年6月下旬の土日に学部別に実施）。2027年度の日程は未発表。パスナビ掲載（2026年4〜6月の大学回答）",
+"sources": [
+"https://passnavi.obunsha.co.jp/univ/0340/opencampus/"
+]
 }
 },
 "東京外国語大学": {
@@ -19286,7 +19419,9 @@
 "https://search.keinet.ne.jp/1130/outline/admission_employment",
 "https://search.keinet.ne.jp/1130/general/exam_subject",
 "https://passnavi.obunsha.co.jp/univ/0240/expense/",
-"https://www.tufs.ac.jp/documents/admission/exam/2027_yoko.pdf"
+"https://www.tufs.ac.jp/documents/admission/exam/2027_yoko.pdf",
+"https://www.tufs.ac.jp/documents/admission/guideline/01_2027_suisen_yoko_rev.pdf",
+"https://passnavi.obunsha.co.jp/univ/0240/opencampus/"
 ],
 "licenses": [
 "教員免許（中・高 英語）",
@@ -19314,38 +19449,45 @@
 {
 "kubun": "一般",
 "name": "前期日程",
-"kyotsu": "課す（500点満点）",
-"niji": "英語300・日本史または世界史150",
+"kyotsu": "課す（500点満点：国100・英150・数①50・数②50・地歴50・公民または理科50・情報50）",
+"niji": "英語300（スピーキング試験BCT-S含む）・歴史総合と世界史探究／日本史探究150",
 "haiten": "共テ:二次＝500:450（約1:0.9）",
 "kn": [
 1,
 0.9
 ],
-"note": "言語文化・国際社会学部で確認（国際日本学部はページ途切れで未確認）"
+"note": "3学部共通（国際日本学部も同じ、後期なし）。2027年度入学者選抜要項で確認",
+"url": "https://www.tufs.ac.jp/documents/admission/exam/2027_yoko.pdf"
 },
 {
 "kubun": "一般",
 "name": "後期日程",
-"kyotsu": "3教科3科目（英・国・数/地歴公民/情報から1）",
+"kyotsu": "3教科（国200・外国語200・数/地歴/公民/情報から1教科100）",
 "niji": "小論文（英文出題）",
 "haiten": "共テ:二次＝500:200",
 "kn": [
 2.5,
 1
 ],
-"note": "国際社会学部で確認"
+"note": "国際社会学部のみ。英語課題文・日本語解答の小論文120分",
+"url": "https://www.tufs.ac.jp/documents/admission/exam/2027_yoko.pdf"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型",
-"content": "1次書類審査・英語資格、2次面接・小論文",
-"req": "専願・評定4.3以上・英語CEFR B2以上（国際社会は英B1＋他言語B2も可）。国際社会・国際日本は国際的な探究・交流の実績",
-"kyotsu": "記載なし",
-"note": "全3学部、言語群・地域ごとに1〜5名"
+"content": "書類・小論文・面接",
+"req": "専願・調査書の学習成績概評A段階・英語4技能試験CEFR B2以上（国際社会は独仏西中朝のいずれかB2以上なら英語B1以上）。国際社会は世界史探究4単位以上履修。国際社会・国際日本は国際的な課題の探究的学習・国際交流の経験",
+"kyotsu": "課さない",
+"note": "全3学部（募集 言語文化45・国際社会25・国際日本10）",
+"url": "https://www.tufs.ac.jp/documents/admission/guideline/01_2027_suisen_yoko_rev.pdf"
 }
 ],
 "summary": "一般は英語300点の二次と共テがほぼ同比重。推薦は評定4.3＋英語B2が必須で専願。",
-"note": "Kei-Netに総合型ページ無し。推薦の共テ利用は表に記載なし"
+"note": "総合型選抜は2027年度入学者選抜要項に記載なし",
+"sources": [
+"https://www.tufs.ac.jp/documents/admission/exam/2027_yoko.pdf",
+"https://www.tufs.ac.jp/documents/admission/guideline/01_2027_suisen_yoko_rev.pdf"
+]
 },
 "departments": [
 {
@@ -19687,11 +19829,13 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "money": "2026-11-07",
-"schedule": "2026-11-15",
+"schedule": "2026-11-20",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"research": "2026-11-14"
+"research": "2026-11-14",
+"methods": "2026-11-20",
+"oc": "2026-11-20"
 },
 "money": {
 "year": "2026年度",
@@ -19747,7 +19891,8 @@
 "result": "3/6",
 "proc": "3/15",
 "fee": null,
-"note": "3学部共通。検定料は選抜要項に記載なし"
+"note": "3学部共通。検定料は選抜要項に記載なし",
+"url": "https://www.tufs.ac.jp/documents/admission/exam/2027_yoko.pdf"
 },
 {
 "kubun": "一般",
@@ -19757,7 +19902,8 @@
 "result": "3/20",
 "proc": "3/27",
 "fee": null,
-"note": "国際社会学部のみ。出願期間は選抜要項で読み取れず（募集要項で確認）"
+"note": "国際社会学部のみ。出願期間は選抜要項で読み取れず（募集要項で確認）",
+"url": "https://www.tufs.ac.jp/documents/admission/exam/2027_yoko.pdf"
 },
 {
 "kubun": "推薦",
@@ -19766,8 +19912,13 @@
 "exam": "11/28",
 "result": "12/16",
 "proc": "2/1",
-"note": "出願期間は公式の2027年度入学者選抜要項（全学部共通）。言語文化学部の日程。国際社会学部・国際日本学部は試験11/29。"
+"note": "出願は書類必着（11/3以前国内消印の書留は受理）。公式2027年度学校推薦型選抜学生募集要項。言語文化学部・国際社会学部は試験11/28、国際日本学部は11/29。発表12/16 10時、手続2/1 16時必着。",
+"url": "https://www.tufs.ac.jp/documents/admission/guideline/01_2027_suisen_yoko_rev.pdf"
 }
+],
+"sources": [
+"https://www.tufs.ac.jp/documents/admission/exam/2027_yoko.pdf",
+"https://www.tufs.ac.jp/documents/admission/guideline/01_2027_suisen_yoko_rev.pdf"
 ]
 },
 "eng": {
@@ -19902,7 +20053,35 @@
 "27の専攻言語の言語・文学・文化、通訳・翻訳、言語教育学（言語文化学部）",
 "世界13の専攻地域についての経済学・政治学・歴史学・地域研究・ジェンダー／社会学・教育学（国際社会学部）",
 "日本社会、日本文学・文化、日本語学、日本語教育学（国際日本学部）"
+],
+"oc": {
+"year": "2026年度",
+"events": [
+{
+"date": "2026/11/23",
+"type": "来場型",
+"title": "ミニオープンキャンパス（府中キャンパス）",
+"note": "全学部。外語祭と同時開催、要事前予約（1か月前から大学HPで受付）"
+},
+{
+"date": "2026/7/26",
+"type": "来場型",
+"title": "来場型オープンキャンパス",
+"note": "全学部。要事前予約（終了）"
+},
+{
+"date": "2026/7/30",
+"type": "オンライン",
+"title": "オンラインオープンキャンパス",
+"note": "全学部。要事前予約（終了）"
+}
+],
+"url": "https://passnavi.obunsha.co.jp/univ/0240/opencampus/",
+"note": "例年7月下旬に来場型・オンライン、11月の外語祭でミニOC。2027年度は未発表。パスナビ掲載（2026年4〜6月の大学回答）",
+"sources": [
+"https://passnavi.obunsha.co.jp/univ/0240/opencampus/"
 ]
+}
 },
 "お茶の水女子大学": {
 "difficulty": {
