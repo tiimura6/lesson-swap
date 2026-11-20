@@ -23287,7 +23287,11 @@
 "https://www.tuat.ac.jp/documents/tuat/admission/nyushi_gakubu/youkou/r9_senbatuyoukou.pdf",
 "https://passnavi.obunsha.co.jp/univ/0260/expense/",
 "https://www.tuat.ac.jp/documents/tuat/admission/nyushi_gakubu/info/R9nougakubu_ippann_haitennhennkou.pdf",
-"https://search.keinet.ne.jp/1160/outline/opencampus"
+"https://search.keinet.ne.jp/1160/outline/opencampus",
+"https://search.keinet.ne.jp/1160/recommend/exam_rec",
+"https://search.keinet.ne.jp/1160/recommend/exam_ao",
+"https://passnavi.obunsha.co.jp/univ/0260/suisen/",
+"https://passnavi.obunsha.co.jp/univ/0260/sougou/?facultyID=010"
 ],
 "licenses": [
 "獣医師国家試験受験資格（共同獣医学科）",
@@ -23342,25 +23346,25 @@
 "kubun": "推薦",
 "name": "学校推薦型（共テあり）",
 "content": "書類審査（調査書・推薦書・志望理由書）＋共通テスト",
-"req": "専願。工は卒後1年以内、農は現役のみ",
-"kyotsu": "課す（3教科5科目〜5教科7科目、学科による）",
-"note": "面接・小論文の記載なし。農・共同獣医に産業動物獣医師養成枠あり"
+"req": "専願。工は卒後1年以内、農は現役のみ。評定の条件の記載なし",
+"kyotsu": "課す（工：3教科5科目〜5教科7科目、農：5教科7科目）",
+"note": "工6学科・農5学科で実施（各3〜8人）。出願1/14〜1/20、発表2/10。農・共同獣医に産業動物獣医師養成枠（若干名・最大2名程度、修学資金給付制度を設ける機関・団体等の推薦が必要、共テ3教科5科目）"
 },
 {
 "kubun": "総合型",
 "name": "総合型選抜SAIL入試",
-"content": "1次書類（志望理由書・特別活動レポート）、2次面接・プレゼンテーション",
-"req": "専願、学業成績優秀",
+"content": "1次書類（調査書・志望理由書・特別活動レポート）、2次面接・プレゼンテーション",
+"req": "専願、学習成績が優秀（学科により学校からの評価書が必要）",
 "kyotsu": "課さない",
-"note": "工学部（応用化学科を除く5学科）"
+"note": "工学部（応用化学科を除く5学科、各5〜7人）。出願9/1〜9/7、2次9/25、発表11/2"
 },
 {
 "kubun": "総合型",
 "name": "ゼミナール入試",
-"content": "1次書類、2次講義・面接、3次共通テスト",
-"req": "卒後1年以内・専願",
+"content": "1次書類（調査書・志望理由書・活動報告書）、2次講義・面接、3次共通テスト",
+"req": "卒後1年以内・専願、学習成績が優秀（学校からの評価書が必要）",
 "kyotsu": "課す（3教科5科目）",
-"note": "農学部環境資源科学科のみ"
+"note": "農学部環境資源科学科のみ（3人）。出願締切10/8、2次11/28"
 }
 ],
 "summary": "一般は前期・後期とも共テ6教科8科目＋理数中心の二次。推薦は共テ必須の専願型、総合型は工のSAIL入試。",
@@ -23557,7 +23561,8 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "research": "2026-11-14",
-"oc": "2026-11-20"
+"oc": "2026-11-20",
+"methods": "2026-11-20"
 },
 "money": {
 "year": "2026年度",
@@ -92560,7 +92565,8 @@
 "https://passnavi.obunsha.co.jp/univ/1079/eiken/",
 "https://telemail.jp/shingaku/university/10011515/examination/general",
 "https://telemail.jp/shingaku/university/10011515/examination/recommendation",
-"https://passnavi.obunsha.co.jp/univ/1079/scholarship/"
+"https://passnavi.obunsha.co.jp/univ/1079/scholarship/",
+"https://manabi.benesse.ne.jp/daigaku/school/2089/"
 ],
 "methods": {
 "year": "2027年度入試",
@@ -92623,7 +92629,8 @@
 "kyotsu": "2026-11-15",
 "careers": "2026-11-15",
 "eng": "2026-11-16",
-"scholar": "2026-11-19"
+"scholar": "2026-11-19",
+"founded": "2026-11-20"
 },
 "money": {
 "year": "2027年度（予定）",
@@ -92778,7 +92785,8 @@
 }
 ],
 "note": "ほかに地域定着促進奨学金・地域就職促進奨学金があるが、内容はパスナビに記載なし"
-}
+},
+"founded": "2022年4月 開学"
 },
 "神奈川県立保健福祉大学": {
 "faculties": [
@@ -92809,7 +92817,8 @@
 "https://passnavi.obunsha.co.jp/univ/1078/eiken/",
 "https://www.kuhs.ac.jp/att/00033_13406_010.pdf",
 "https://www.kuhs.ac.jp/admission/undergraduate/information/",
-"https://passnavi.obunsha.co.jp/univ/1078/scholarship/"
+"https://passnavi.obunsha.co.jp/univ/1078/scholarship/",
+"https://search.keinet.ne.jp/1542/general/border_rate"
 ],
 "methods": {
 "year": "2027年度入試",
@@ -92942,7 +92951,8 @@
 "kyotsu": "2026-11-15",
 "licenses": "2026-11-15",
 "eng": "2026-11-16",
-"scholar": "2026-11-19"
+"scholar": "2026-11-19",
+"difficulty": "2026-11-20"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -93275,6 +93285,11 @@
 }
 ],
 "note": "パスナビ（2026年4月入学者対象）"
+},
+"difficulty": {
+"hensachi": null,
+"kyotei": "62%〜71%",
+"year": "2027年度入試用"
 }
 },
 "群馬県立女子大学": {
@@ -93311,7 +93326,8 @@
 "https://search.keinet.ne.jp/1525/general/exam_subject",
 "https://passnavi.obunsha.co.jp/univ/1040/eiken/",
 "https://www.gpwu.ac.jp/exam/dep/summary/summary/",
-"https://passnavi.obunsha.co.jp/univ/1040/scholarship/"
+"https://passnavi.obunsha.co.jp/univ/1040/scholarship/",
+"https://search.keinet.ne.jp/1525/general/border_rate"
 ],
 "methods": {
 "year": "2027年度入試",
@@ -93440,7 +93456,8 @@
 "qtrend": "2026-11-07",
 "kyotsu": "2026-11-15",
 "eng": "2026-11-16",
-"scholar": "2026-11-19"
+"scholar": "2026-11-19",
+"difficulty": "2026-11-20"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -93733,6 +93750,11 @@
 }
 ],
 "note": "大学独自の給付・特待生の掲載は無し（パスナビ）"
+},
+"difficulty": {
+"hensachi": "45.0〜50.0",
+"kyotei": "61%〜75%",
+"year": "2027年度入試用"
 }
 },
 "群馬県立県民健康科学大学": {
@@ -93762,7 +93784,8 @@
 "https://search.keinet.ne.jp/1524/general/exam_subject",
 "https://manabi.benesse.ne.jp/daigaku/school/2059/syusyoku/",
 "https://passnavi.obunsha.co.jp/univ/1038/eiken/",
-"https://manabi.benesse.ne.jp/daigaku/school/2059/nyushi/hoshiki/ippan/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/2059/nyushi/hoshiki/ippan/index.html",
+"https://search.keinet.ne.jp/1524/general/border_rate"
 ],
 "methods": {
 "year": "2027年度入試",
@@ -93834,7 +93857,8 @@
 "schedule": "2026-11-18",
 "kyotsu": "2026-11-15",
 "licenses": "2026-11-15",
-"eng": "2026-11-16"
+"eng": "2026-11-16",
+"difficulty": "2026-11-20"
 },
 "money": {
 "year": "2027年度（予定）",
@@ -93966,6 +93990,11 @@
 "rows": [],
 "summary": "記載なし（利用しないとは限らない）",
 "note": "パスナビの英検・TEAP・IELTS利用入試のページに情報なし（看護学部・診療放射線学部）（2026-11-16確認）"
+},
+"difficulty": {
+"hensachi": null,
+"kyotei": "56%〜64%",
+"year": "2027年度入試用"
 }
 },
 "公立はこだて未来大学": {
@@ -93991,7 +94020,8 @@
 "https://search.keinet.ne.jp/1507/outline/expense",
 "https://search.keinet.ne.jp/1507/general/exam_fee",
 "https://www.fun.ac.jp/wp/wp-content/uploads/r9admission-youkou.pdf",
-"https://passnavi.obunsha.co.jp/univ/1015/scholarship/"
+"https://passnavi.obunsha.co.jp/univ/1015/scholarship/",
+"https://www.niad.ac.jp/sub_hyouka/ninsyou/hyoukahou200603/daigaku/jiko_hakodatemiraidaigaku.pdf"
 ],
 "kyotsu": {
 "kamoku": "5教科6科目",
@@ -94179,7 +94209,8 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
-"scholar": "2026-11-19"
+"scholar": "2026-11-19",
+"founded": "2026-11-20"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -94368,7 +94399,8 @@
 }
 ],
 "note": "対象学部・申込時期は出典に記載なし（パスナビ）"
-}
+},
+"founded": "2000年4月 開学（函館圏公立大学広域連合が設置）／2003年4月 大学院設置"
 },
 "公立千歳科学技術大学": {
 "faculties": [
@@ -94396,7 +94428,8 @@
 "https://search.keinet.ne.jp/1509/general/exam_subject",
 "https://manabi.benesse.ne.jp/daigaku/school/2007/syusyoku/",
 "https://passnavi.obunsha.co.jp/univ/1538/eiken/",
-"https://www.chitose.ac.jp/uploads/files/exam/%E5%85%A5%E5%AD%A6%E8%80%85%E9%81%B8%E6%8A%9C/2027nyugakusenbatu_youko.pdf"
+"https://www.chitose.ac.jp/uploads/files/exam/%E5%85%A5%E5%AD%A6%E8%80%85%E9%81%B8%E6%8A%9C/2027nyugakusenbatu_youko.pdf",
+"https://search.keinet.ne.jp/1509/general/border_rate"
 ],
 "methods": {
 "year": "2027年度入試",
@@ -94502,7 +94535,8 @@
 "schedule": "2026-11-18",
 "kyotsu": "2026-11-15",
 "licenses": "2026-11-15",
-"eng": "2026-11-16"
+"eng": "2026-11-16",
+"difficulty": "2026-11-20"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -94710,6 +94744,11 @@
 "rows": [],
 "summary": "記載なし（利用しないとは限らない）",
 "note": "パスナビの英検・TEAP・IELTS利用入試のページに一般選抜（前期・中期）の欄はあるが、利用方法・基準の記載なし（昨年度の情報）（2026-11-16確認）"
+},
+"difficulty": {
+"hensachi": "45.0〜52.5",
+"kyotei": "60%〜70%",
+"year": "2027年度入試用"
 }
 },
 "北海道教育大学": {
@@ -94757,7 +94796,8 @@
 "https://search.keinet.ne.jp/1030/outline/admission_employment",
 "https://search.keinet.ne.jp/1030/general/exam_subject",
 "https://search.keinet.ne.jp/1030/outline/expense",
-"https://search.keinet.ne.jp/1030/recommend/exam_rec"
+"https://search.keinet.ne.jp/1030/recommend/exam_rec",
+"https://search.keinet.ne.jp/1030/general/border_rate"
 ],
 "departments": [
 {
@@ -94937,7 +94977,8 @@
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"qtrend": "2026-11-07"
+"qtrend": "2026-11-07",
+"difficulty": "2026-11-20"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -95518,6 +95559,11 @@
 }
 ],
 "note": "Kei-Net掲載の科目・配点のみ。過去の出題傾向は未確認。"
+},
+"difficulty": {
+"hensachi": "37.5〜47.5",
+"kyotei": "40%〜68%",
+"year": "2027年度入試用"
 }
 },
 "北見工業大学": {
@@ -95560,7 +95606,8 @@
 "https://search.keinet.ne.jp/1020/recommend/exam_result",
 "https://koho5.office.kitami-it.ac.jp/admission/wp-content/uploads/2026/06/R09senbatsuyoukou.pdf",
 "https://manabi.benesse.ne.jp/daigaku/school/1020/nyushi/",
-"https://manabi.benesse.ne.jp/daigaku/school/1020/gakuhi/"
+"https://manabi.benesse.ne.jp/daigaku/school/1020/gakuhi/",
+"https://passnavi.obunsha.co.jp/univ/0070/difficulty/"
 ],
 "methods": {
 "year": "2027年度入試",
@@ -95652,7 +95699,8 @@
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"qtrend": "2026-11-07"
+"qtrend": "2026-11-07",
+"difficulty": "2026-11-20"
 },
 "money": {
 "year": "2026年度",
@@ -95825,6 +95873,11 @@
 }
 ],
 "note": "大学公式パンフレットで確認できたのは実施形式と評価観点のみで、過去の具体的な出題例は掲載なし。一般選抜の個別試験の傾向は未確認。"
+},
+"difficulty": {
+"hensachi": "37.5",
+"kyotei": "39%〜40%",
+"year": "2027年度入試用"
 }
 },
 "宮城教育大学": {

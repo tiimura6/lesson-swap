@@ -1,0 +1,224 @@
+[
+ {
+  "name": "川崎市立看護大学",
+  "info": {
+   "founded": "2022年4月 開学",
+   "sources": [
+    "https://manabi.benesse.ne.jp/daigaku/school/2089/"
+   ]
+  }
+ },
+ {
+  "name": "神奈川県立保健福祉大学",
+  "info": {
+   "difficulty": {
+    "hensachi": null,
+    "kyotei": "62%〜71%",
+    "year": "2027年度入試用"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/1542/general/border_rate"
+   ]
+  }
+ },
+ {
+  "name": "群馬県立女子大学",
+  "info": {
+   "difficulty": {
+    "hensachi": "45.0〜50.0",
+    "kyotei": "61%〜75%",
+    "year": "2027年度入試用"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/1525/general/border_rate"
+   ]
+  }
+ },
+ {
+  "name": "群馬県立県民健康科学大学",
+  "info": {
+   "difficulty": {
+    "hensachi": null,
+    "kyotei": "56%〜64%",
+    "year": "2027年度入試用"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/1524/general/border_rate"
+   ]
+  }
+ },
+ {
+  "name": "公立はこだて未来大学",
+  "info": {
+   "founded": "2000年4月 開学（函館圏公立大学広域連合が設置）／2003年4月 大学院設置",
+   "sources": [
+    "https://www.niad.ac.jp/sub_hyouka/ninsyou/hyoukahou200603/daigaku/jiko_hakodatemiraidaigaku.pdf"
+   ]
+  }
+ },
+ {
+  "name": "公立千歳科学技術大学",
+  "info": {
+   "difficulty": {
+    "hensachi": "45.0〜52.5",
+    "kyotei": "60%〜70%",
+    "year": "2027年度入試用"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/1509/general/border_rate"
+   ]
+  }
+ },
+ {
+  "name": "北海道教育大学",
+  "info": {
+   "difficulty": {
+    "hensachi": "37.5〜47.5",
+    "kyotei": "40%〜68%",
+    "year": "2027年度入試用"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/1030/general/border_rate"
+   ]
+  }
+ },
+ {
+  "name": "北見工業大学",
+  "info": {
+   "difficulty": {
+    "hensachi": "37.5",
+    "kyotei": "39%〜40%",
+    "year": "2027年度入試用"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/1020/general/exam_subject",
+    "https://passnavi.obunsha.co.jp/univ/0070/difficulty/"
+   ]
+  }
+ },
+ {
+  "name": "東京農工大学",
+  "info": {
+   "methods_replace": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "前期日程",
+      "kyotsu": "6教科8科目（情報含む）",
+      "niji": "英・数・理2科目",
+      "haiten": "共テ:二次＝950:900（工）、950:1000（農）",
+      "kn": [
+       1,
+       0.95
+      ],
+      "note": "工学部の二次は数学350・理科400と理数の比重大"
+     },
+     {
+      "kubun": "一般",
+      "name": "後期日程",
+      "kyotsu": "6教科8科目（情報含む）",
+      "niji": "工：英・数・理1科目／農：英語のみ",
+      "haiten": "工 680:650、農は二次英語400",
+      "kn": [
+       1,
+       0.96
+      ],
+      "note": "学部により二次科目が大きく異なる"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型（共テあり）",
+      "content": "書類審査（調査書・推薦書・志望理由書）＋共通テスト",
+      "req": "専願。工は卒後1年以内、農は現役のみ。評定の条件の記載なし",
+      "kyotsu": "課す（工：3教科5科目〜5教科7科目、農：5教科7科目）",
+      "note": "工6学科・農5学科で実施（各3〜8人）。出願1/14〜1/20、発表2/10。農・共同獣医に産業動物獣医師養成枠（若干名・最大2名程度、修学資金給付制度を設ける機関・団体等の推薦が必要、共テ3教科5科目）"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜SAIL入試",
+      "content": "1次書類（調査書・志望理由書・特別活動レポート）、2次面接・プレゼンテーション",
+      "req": "専願、学習成績が優秀（学科により学校からの評価書が必要）",
+      "kyotsu": "課さない",
+      "note": "工学部（応用化学科を除く5学科、各5〜7人）。出願9/1〜9/7、2次9/25、発表11/2"
+     },
+     {
+      "kubun": "総合型",
+      "name": "ゼミナール入試",
+      "content": "1次書類（調査書・志望理由書・活動報告書）、2次講義・面接、3次共通テスト",
+      "req": "卒後1年以内・専願、学習成績が優秀（学校からの評価書が必要）",
+      "kyotsu": "課す（3教科5科目）",
+      "note": "農学部環境資源科学科のみ（3人）。出願締切10/8、2次11/28"
+     }
+    ],
+    "summary": "一般は前期・後期とも共テ6教科8科目＋理数中心の二次。推薦は共テ必須の専願型、総合型は工のSAIL入試。",
+    "note": "農学部の前期配点は令和9年度から変更（共テ950・個別1000）。農学部後期の共テ配点はKei-Netのボーダー得点が表示満点680を超えており要項で要確認"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/1160/recommend/exam_rec",
+    "https://search.keinet.ne.jp/1160/recommend/exam_ao",
+    "https://passnavi.obunsha.co.jp/univ/0260/suisen/",
+    "https://passnavi.obunsha.co.jp/univ/0260/sougou/?facultyID=010"
+   ]
+  }
+ },
+ {
+  "name": "星城大学",
+  "story": {
+   "summary": "経営学部とリハビリテーション学部の2学部を置く小規模な大学で、少人数クラスと学年担任・副担任制度で4年間を通じた「自分づくり」を掲げています。経営学部では5分野から専門を選べ、10か月の長期留学「海外ビジネス演習」（大学が最大60万円まで補助）や保健体育の教員免許もあります。リハビリテーション学部は理学療法学・作業療法学の2専攻で、医療機関へ卒業生を送り出してきた実績があります。",
+   "only": [
+    {
+     "t": "経営学部では経営管理・IT経営・国際ビジネス・観光・まちづくり・スポーツ健康科学の5分野から専門を選べ、経営学部では珍しい保健体育の教員免許も取得できる。",
+     "src": "https://telemail.jp/shingaku/university/10001778"
+    },
+    {
+     "t": "経営学部の学生だけが参加できる10か月の長期留学「海外ビジネス演習」があり、大学が最大60万円まで補助する。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3558/"
+    },
+    {
+     "t": "学年担任・副担任制度と少人数ゼミをとり、進路指導も1年次から4年次まで続けて行う。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3558/"
+    }
+   ],
+   "vs": [
+    {
+     "u": "名古屋学院大学",
+     "t": "名古屋学院大学は経済・商・法・外国語など9学部の中にリハビリテーション学部を置くが、この大学は経営学部とリハビリテーション学部の2学部だけの小規模な大学で、少人数クラス中心の教育をとる。",
+     "src": "https://www.ngu.jp/admissions/admission/overview/selection_of_entrants/"
+    }
+   ]
+  }
+ },
+ {
+  "name": "朝日大学",
+  "story": {
+   "summary": "法・経営・保健医療・歯の4学部を1つのキャンパスに置き、実学を柱にした大学です。キャンパス内に朝日大学病院など3つの医療機関があり、歯学部や看護学科、2025年開設の救急救命学科（救急指導医が直接指導する実習）は病院と一体になって学びます。法学部の公務員試験対策や経営学部の会計教育など、資格・採用試験に向けた支援を打ち出しています。",
+   "only": [
+    {
+     "t": "キャンパス内に医科歯科医療センター・朝日大学病院・PDI岐阜歯科診療所の3つの医療機関を併設し、学生の診療費の自己負担も補助している。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3481/"
+    },
+    {
+     "t": "2025年4月開設の救急救命学科では、救急指導医が直接指導にあたる実習を「東海初」としている。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3481/"
+    },
+    {
+     "t": "経営学部は高大接続の会計教育を行い、公認会計士試験の累計合格者を81名（2026年3月現在）としている。",
+     "src": "https://telemail.jp/shingaku/university/10201549"
+    }
+   ],
+   "vs": [
+    {
+     "u": "愛知学院大学",
+     "t": "愛知学院大学は文・心理・商・薬など10学部の中に歯学部を置くが、この大学は歯学部と看護・救急救命などの保健医療学部、法・経営学部を1キャンパスに置き、キャンパス内の病院と結びついた医療系教育をとる。",
+     "src": "https://navi.agu.ac.jp/agu_navi/wp-content/themes/agu_navi/assets/pdf/general_yoko2027.pdf"
+    },
+    {
+     "u": "岐阜聖徳学園大学",
+     "t": "同じ岐阜県の岐阜聖徳学園大学は教育・外国語・経済情報・人文・看護の5学部だが、この大学は法学部と歯学部を置き、公務員や歯科医師などをめざせる。",
+     "src": "https://www.shotoku.ac.jp/student-life/tuition.html"
+    }
+   ]
+  }
+ }
+]
