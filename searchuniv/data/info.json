@@ -25301,7 +25301,8 @@
 "ratios": "2026-11-20",
 "research": "2026-11-14",
 "scholar": "2026-11-19",
-"oc": "2026-11-20"
+"oc": "2026-11-20",
+"methods": "2026-11-20"
 },
 "money": {
 "year": "2026年度",
@@ -25676,29 +25677,37 @@
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜",
-"content": "書類・面接に加え、小論文（教育・農）、教科試験（工）、グループディスカッション（国際）",
-"req": "現役、評定平均3.5以上。国際は英検等の英語資格条件あり",
-"kyotsu": "Kei-Netに記載なし",
-"note": "国際・共同教育・工・農で実施"
+"content": "国際：集団面接（課題文の討論を含む）。共同教育：小論文・集団面接。工：基礎能力試験（数学・物理・化学・英語等）・個人面接。農：小論文・面接（環境システム科学科は数学または生物の試問を含む）",
+"req": "高校等の卒業見込み者または令和8年度中の卒業者（国際の記載）。国際・共同教育・工は調査書の概評B以上、農は学習成績の状況3.5以上。国際は英検1950点以上など英語資格が必要、共同教育は栃木県内の小学校教員を強く志望する者。工（機械・情報電子系）と農には専門高校・総合学科推薦もある（工は概評A、農は4.2以上）",
+"kyotsu": "課さない",
+"note": "国際・共同教育・工・農で実施（一般推薦、工・農は専門高校・総合学科推薦も）"
 },
 {
 "kubun": "総合型",
 "name": "総合型選抜（一般）",
-"content": "書類・面接に加え、学科によりプレゼン・GD・講義・小論文・実技など",
-"req": "原則現役・専願、評定平均3.5以上（学科による）",
-"kyotsu": "原則課さない（コミュニティデザイン学科・データサイエンス経営学科は3教科4科目を課す）",
-"note": "全学部で実施。教育学部は専攻ごとに選考内容が異なる"
+"content": "書類・面接に加え、学科により論述試験・グループディスカッション・プレゼンテーション・造形実技・講義レポート・小論文・基礎能力試験・実技（音楽・美術）など",
+"req": "調査書の概評B以上または学習成績の状況3.5以上（学科による。共同教育の数学は4.3以上、工の機械・情報電子系は数学Ⅲ・物理の履修）",
+"kyotsu": "原則課さない（データサイエンス経営学科・コミュニティデザイン学科は国語・数学・外国語の3教科4科目を課す）",
+"note": "要項上の名称は総合型選抜A（一般）。データサイエンス経営・地域デザイン科学・共同教育・工・農で実施（国際学部は実施せず）。共同教育学部は分野ごとに選考内容が異なる"
 },
 {
 "kubun": "総合型",
 "name": "総合型選抜（特別）",
-"content": "書類・面接・プレゼンなど",
-"req": "現役・専願、大学連携の高校生向けプログラム修了などの活動歴",
+"content": "書類・プレゼンテーションと質疑応答・面接など（農の一部学科は一般の選考に探究活動のプレゼンテーションを加える）",
+"req": "GSC事業等（高校生向け科学人材育成プログラム）の修了者。学科により概評B以上・学習成績の状況3.5以上・数学Ⅲと物理の履修",
 "kyotsu": "課さない",
-"note": "工・農の一部学科、若干名"
+"note": "要項上の名称は総合型選抜A（特別）。工（化学系・機械・情報電子系）と農の4学科で実施"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜B・C・D（国際学部）",
+"content": "書類・英語外部試験・小論文・面接",
+"req": "B：帰国生（2名）、C：社会人（23歳以上・社会人経験5年以上、若干名）、D：外国人生徒（JLPT N1と英語資格、3名）",
+"kyotsu": "記載なし",
+"note": "国際学部のみ"
 }
 ],
-"summary": "前期中心で後期は面接型が多い。推薦は評定3.5以上の現役向け、総合型は全学部で実施し枠が多い。",
+"summary": "前期中心で後期は面接型が多い。推薦は国際・共同教育・工・農で実施（共テを課さない）。総合型は国際学部以外で実施し、国際学部は帰国生・社会人・外国人生徒向けの総合型B・C・D。",
 "note": "学部により二次科目・配点が大きく異なる"
 },
 "departments": [
@@ -25992,7 +26001,8 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "research": "2026-11-14",
-"scholar": "2026-11-19"
+"scholar": "2026-11-19",
+"methods": "2026-11-20"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -124072,7 +124082,10 @@
 "students": "2026-11-09",
 "founded": "2026-11-09",
 "schedule": "2026-11-19",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"difficulty": "2026-11-20",
+"kyotsu": "2026-11-20",
+"research": "2026-11-20"
 },
 "departments": [
 {
@@ -124119,7 +124132,10 @@
 "https://www.fit.ac.jp/daigaku/syokai/enkaku",
 "https://manabi.benesse.ne.jp/daigaku/school/3887/nyushi/",
 "https://manabi.benesse.ne.jp/daigaku/school/3887/gakuhi/",
-"https://manabi.benesse.ne.jp/daigaku/school/3887/nyushi/gokaku-happyo/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3887/nyushi/gokaku-happyo/index.html",
+"https://search.keinet.ne.jp/2713/general/border_rate",
+"https://search.keinet.ne.jp/2713/general/exam_subject",
+"https://search.keinet.ne.jp/2713/outline/department"
 ],
 "students": {
 "count": 4149,
@@ -124244,7 +124260,33 @@
 "note": "同上"
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "35.0〜42.5",
+"kyotei": "40%〜53%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "1教科1科目〜4教科6科目",
+"kyoka": [
+1,
+4
+],
+"rl": [
+"4:1"
+],
+"rl_text": "英語はリーディング80点・リスニング20点（計100点）",
+"note": "共テ前期A・前期Bは3教科3科目（前期Bは情報Ⅰ必須、学科により英語なし）、中期は4教科6科目（社会環境学部は4教科4科目）、後期は1〜2教科2科目（数学を含む学科あり）。社会環境学部の共テ併用型は理科か地歴・公民の1科目。",
+"year": "2027年度入試"
+},
+"research": [
+"電子情報・電気・半導体工学（工学部）",
+"知能機械工学・生命環境化学・建築デザイン（工学部）",
+"情報工・情報通信工・情報システム工（情報工学部）",
+"情報マネジメント（情報工学部）",
+"社会環境（社会環境学部）",
+"デジタルメディア（デジタルメディア学部、新設）"
+]
 },
 "福岡歯科大学": {
 "faculties": [
@@ -124261,7 +124303,10 @@
 "students": "2026-11-09",
 "founded": "2026-11-09",
 "schedule": "2026-11-19",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"difficulty": "2026-11-20",
+"kyotsu": "2026-11-20",
+"research": "2026-11-20"
 },
 "departments": [
 {
@@ -124290,7 +124335,10 @@
 "https://www.fdcnet.ac.jp/fdc/history/index.html",
 "https://manabi.benesse.ne.jp/daigaku/school/3888/nyushi/",
 "https://manabi.benesse.ne.jp/daigaku/school/3888/gakuhi/",
-"https://manabi.benesse.ne.jp/daigaku/school/3888/nyushi/gokaku-happyo/"
+"https://manabi.benesse.ne.jp/daigaku/school/3888/nyushi/gokaku-happyo/",
+"https://search.keinet.ne.jp/2714/general/border_rate",
+"https://search.keinet.ne.jp/2714/general/exam_subject",
+"https://search.keinet.ne.jp/2714/outline/department"
 ],
 "students": {
 "count": 540,
@@ -124402,7 +124450,28 @@
 "note": "初年度納入金は授業料・施設維持費を含むが内訳の記載なし（マナビジョン 2027年度入学者対象）"
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "35.0",
+"kyotei": "60%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "3教科3科目",
+"kyoka": [
+3,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はリーディング50点・リスニング50点（計100点）",
+"note": "英語必須、数学か国語から1、理科（物理・化学・生物、または基礎2科目）1。満点300点。",
+"year": "2027年度入試"
+},
+"research": [
+"口腔歯学（口腔歯学部口腔歯学科）"
+]
 },
 "福岡看護大学": {
 "faculties": [
@@ -124419,7 +124488,10 @@
 "students": "2026-11-09",
 "founded": "2026-11-09",
 "schedule": "2026-11-19",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"difficulty": "2026-11-20",
+"kyotsu": "2026-11-20",
+"research": "2026-11-20"
 },
 "departments": [
 {
@@ -124447,7 +124519,10 @@
 "https://n.fdcnet.ac.jp/about/history",
 "https://n.fdcnet.ac.jp/about/academy",
 "https://manabi.benesse.ne.jp/daigaku/school/3899/nyushi/",
-"https://manabi.benesse.ne.jp/daigaku/school/3899/gakuhi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3899/gakuhi/",
+"https://search.keinet.ne.jp/2709/general/border_rate",
+"https://search.keinet.ne.jp/2709/general/exam_subject",
+"https://search.keinet.ne.jp/2709/outline/department"
 ],
 "students": {
 "count": 443,
@@ -124505,7 +124580,26 @@
 "note": "施設費等の内訳は記載なし（マナビジョン 2026年度）"
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "35.0",
+"kyotei": "50%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "3教科3科目",
+"kyoka": [
+3,
+3
+],
+"rl": [],
+"rl_text": "英語はリーディングのみ100点（リスニングの配点なし）",
+"note": "英語・国語（現代文）必須、数学か理科（化学・生物）から1。満点300点。",
+"year": "2027年度入試"
+},
+"research": [
+"看護（看護学部看護学科）"
+]
 },
 "第一工科大学": {
 "faculties": [
@@ -124671,7 +124765,10 @@
 "students": "2026-11-09",
 "founded": "2026-11-09",
 "schedule": "2026-11-19",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"difficulty": "2026-11-20",
+"kyotsu": "2026-11-20",
+"research": "2026-11-20"
 },
 "departments": [
 {
@@ -124708,7 +124805,11 @@
 "https://www.daiichi-cps.ac.jp/giving/intent/",
 "https://manabi.benesse.ne.jp/daigaku/school/3881/nyushi/",
 "https://manabi.benesse.ne.jp/daigaku/school/3881/gakuhi/",
-"https://manabi.benesse.ne.jp/daigaku/school/3881/nyushi/hoshiki/ippan/"
+"https://manabi.benesse.ne.jp/daigaku/school/3881/nyushi/hoshiki/ippan/",
+"https://search.keinet.ne.jp/2707",
+"https://search.keinet.ne.jp/2707/general/border_rate",
+"https://search.keinet.ne.jp/2707/general/exam_subject",
+"https://search.keinet.ne.jp/2707/outline/department"
 ],
 "students": {
 "count": 1021,
@@ -124833,7 +124934,32 @@
 "note": "同上"
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "BF〜40.0",
+"kyotei": "38%〜46%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "1〜2教科2科目〜2〜3教科3科目",
+"kyoka": [
+1,
+3
+],
+"rl": [
+"4:1"
+],
+"rl_text": "英語はリーディング80点・リスニング20点（計100点）",
+"note": "共通テスト方式。薬学部の各学科は英・数・理（薬科学科の2コースは国・情も可）から2科目選択（200点）。看護学科は英語必須＋数・国・理から2科目（300点）",
+"year": "2027年度入試"
+},
+"research": [
+"薬学（薬学部 薬学科）",
+"漢方（薬学部 日本漢方薬学科。2027年4月に漢方薬学科から名称変更）",
+"医療データサイエンス（薬学部 薬科学科）",
+"化粧品・ヘルスケアマネジメント（薬学部 薬科学科）",
+"看護（看護学部 看護学科）"
+]
 },
 "筑紫女学園大学": {
 "faculties": [

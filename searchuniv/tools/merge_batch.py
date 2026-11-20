@@ -64,6 +64,7 @@ def main(path):
                 ML.sort(key=lambda x: order.get(x.get('kubun'), 9))
                 for kk in ('summary', 'note', 'year'):
                     if v.get(kk): m[kk] = v[kk]
+                cur.setdefault('_checked', {})['methods'] = TODAY  # 確認日も更新（無いと最新情報の再確認で同じ学校が毎回選ばれる）
                 continue
             if k == 'sources':
                 cur['sources'] = list(dict.fromkeys((cur.get('sources') or []) + [u for u in v if isinstance(u, str)]))
