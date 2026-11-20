@@ -12345,6 +12345,90 @@
 "kyotsu",
 "difficulty"
 ]
+},
+{
+"name": "情報経営イノベーション専門職大学（iU）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"licenses"
+],
+"keinet": "2106"
+},
+{
+"name": "東京国際工科専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2113"
+},
+{
+"name": "開志専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2343"
+},
+{
+"name": "芸術文化観光専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "1628"
+},
+{
+"name": "静岡県立農林環境専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses"
+],
+"keinet": "1572"
+},
+{
+"name": "高知リハビリテーション専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"careers"
+],
+"keinet": "2690"
+},
+{
+"name": "国立看護大学校",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"fails": 1,
+"last_fail": "2026-11-20",
+"note": "2026-11-20 公式 ncn.ac.jp は取得不可（許可タイムアウト）、Kei-Net・パスナビに掲載なし。テレメール・マナビジョンの単独情報のみで採用せず"
 }
 ],
 "failed": [],
@@ -12589,89 +12673,10 @@
 "千葉大学": 2,
 "茨城大学": 1,
 "埼玉大学": 1,
-"立命館アジア太平洋大学（APU）": 2
+"立命館アジア太平洋大学（APU）": 2,
+"国際ファッション専門職大学": 1
 },
 "enrich": [
-{
-"name": "国際ファッション専門職大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2102"
-},
-{
-"name": "情報経営イノベーション専門職大学（iU）",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded",
-"licenses"
-],
-"keinet": "2106"
-},
-{
-"name": "東京国際工科専門職大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2113"
-},
-{
-"name": "開志専門職大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2343"
-},
-{
-"name": "芸術文化観光専門職大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses"
-],
-"keinet": "1628"
-},
-{
-"name": "静岡県立農林環境専門職大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"licenses"
-],
-"keinet": "1572"
-},
-{
-"name": "高知リハビリテーション専門職大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"careers"
-],
-"keinet": "2690"
-},
 {
 "name": "東京保健医療専門職大学",
 "need": [
@@ -36004,21 +36009,20 @@
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
 },
 {
-"name": "国立看護大学校",
+"name": "国際ファッション専門職大学",
 "need": [
 "gap_keinet"
 ],
 "fields": [
 "research",
 "students",
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
+"founded",
+"licenses"
 ],
+"keinet": "2102",
 "fails": 1,
 "last_fail": "2026-11-20",
-"note": "2026-11-20 公式 ncn.ac.jp は取得不可（許可タイムアウト）、Kei-Net・パスナビに掲載なし。テレメール・マナビジョンの単独情報のみで採用せず"
+"note": "2026-11-20 Kei-Netの学部ページに概要・特色と学生数なし、トップに沿革なし、取得可能資格は全学科「―」。WWDJAPAN記事（2019/4/8）は開学年を明記せず"
 },
 {
 "name": "島根大学",

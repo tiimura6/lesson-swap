@@ -17388,7 +17388,9 @@
 "https://manabi.benesse.ne.jp/daigaku/school/1125/nyushi/hoshiki/ippan/index.html",
 "https://manabi.benesse.ne.jp/daigaku/school/1125/nyushi/gokaku-happyo/index.html",
 "https://manabi.benesse.ne.jp/daigaku/school/1125/opencampus/index.html",
-"https://www.chiba-u.ac.jp/exam/weboc/index.html"
+"https://www.chiba-u.ac.jp/exam/weboc/index.html",
+"https://search.keinet.ne.jp/1105/recommend/exam_rec",
+"https://search.keinet.ne.jp/1105/recommend/exam_ao"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -17445,7 +17447,7 @@
 "content": "書類・面接・小論文",
 "req": "現役・評定4.3以上（国際言語文化は外国語4.5以上も）",
 "kyotsu": "課さない",
-"note": "文学部"
+"note": "文学部（行動科学・歴史学・国際言語文化学）"
 },
 {
 "kubun": "推薦",
@@ -17453,7 +17455,7 @@
 "content": "1次面接・書類（小論文）、2次共通テスト",
 "req": "現役・評定4.3以上（情報・データサイエンスは4.0）。医学科地域枠は専願・奨学金手続き",
 "kyotsu": "課す",
-"note": "医（千葉県地域枠）・薬・看護・情報データサイエンス（女子枠あり）。法政経・教育・理・工・園芸はページ途切れで未確認"
+"note": "医（千葉県地域枠）・薬・看護・情報データサイエンス（一般枠・女子枠）。国際教養・法政経・教育・理・工・園芸は学校推薦型の掲載なし"
 },
 {
 "kubun": "総合型",
@@ -18015,7 +18017,8 @@
 "scholar": "2026-11-19",
 "partners": "2026-11-20",
 "subjects": "2026-11-20",
-"oc": "2026-11-20"
+"oc": "2026-11-20",
+"methods": "2026-11-20"
 },
 "money": {
 "year": "2026年度",
@@ -87773,7 +87776,9 @@
 "https://www.nicjp.niad.ac.jp/en/institute/shocho000001.html",
 "https://www.ncn.ac.jp/examination/nursing/020/020_exam.html",
 "https://www.ncn.ac.jp/nursing/050/05_life.html",
-"https://www.ncn.ac.jp/examination/nursing/040/040_guide.html"
+"https://www.ncn.ac.jp/examination/nursing/040/040_guide.html",
+"https://www.ncn.ac.jp/college/010/01_about.html",
+"https://www.ncn.ac.jp/nursing/090/09_employment.html"
 ],
 "departments": [
 {
@@ -87786,7 +87791,9 @@
 "_checked": {
 "departments": "2026-11-06",
 "schedule": "2026-11-17",
-"money": "2026-11-08"
+"money": "2026-11-08",
+"licenses": "2026-11-20",
+"careers": "2026-11-20"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -87823,7 +87830,14 @@
 "note": "facilityは環境保全料（年額）。first_yearは入学料＋授業料＋環境保全料で算出"
 }
 ]
-}
+},
+"licenses": [
+"看護師国家試験受験資格",
+"助産師国家試験受験資格（助産科目履修者・10名以内）",
+"保健師国家試験受験資格（2028年度から履修可能・設置計画中、5名程度）",
+"受胎調節実地指導員（助産科目履修者）"
+],
+"careers": "令和7年度の就職104名：国立健康危機管理研究機構（国立国際医療センター36・国立国府台医療センター1）、国立高度専門医療研究センター（国立がん研究センター中央病院15・東病院16、国立循環器病研究センター7、国立精神・神経医療研究センター9、国立成育医療研究センター7、国立長寿医療研究センター1）、その他の医療機関12。進学等3名（国立看護大学校の資料）。"
 },
 "職業能力開発総合大学校": {
 "difficulty": {
@@ -88600,7 +88614,7 @@
 "count": 655,
 "year": 2025
 },
-"founded": null,
+"founded": "2020年 開学",
 "access": "墨田キャンパス：東武小村井駅から徒歩7分・押上駅から徒歩15分",
 "tuition": {
 "amount": 1629660,
@@ -88619,7 +88633,8 @@
 "https://wp-assets.i-u.ac.jp/wp-content/uploads/2026/06/23144359/05_PR.pdf",
 "https://passnavi.obunsha.co.jp/univ/9216/department/",
 "https://passnavi.obunsha.co.jp/univ/9216/eiken/",
-"https://passnavi.obunsha.co.jp/univ/9216/scholarship/"
+"https://passnavi.obunsha.co.jp/univ/9216/scholarship/",
+"https://i-u.ac.jp/wp/wp-content/uploads/2024/08/5ae932ee157dc9acaab18859249b771c.pdf"
 ],
 "kyotsu": {
 "kamoku": "共通テスト利用なし",
@@ -88683,7 +88698,8 @@
 "careers": "2026-11-15",
 "research": "2026-11-15",
 "eng": "2026-11-16",
-"scholar": "2026-11-19"
+"scholar": "2026-11-19",
+"founded": "2026-11-20"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -88897,7 +88913,7 @@
 "工科学部"
 ],
 "students": null,
-"founded": null,
+"founded": "2020年 開学／2027年4月 名古屋・大阪の国際工科専門職大学と統合し「国際工科専門職大学」に名称変更予定",
 "access": "東京キャンパス（西新宿・コクーンタワー）：新宿駅から徒歩約3分",
 "tuition": {
 "amount": 1880000,
@@ -88918,7 +88934,8 @@
 "https://manabi.benesse.ne.jp/daigaku/school/3344/syusyoku/index.html",
 "https://passnavi.obunsha.co.jp/univ/9215/department/",
 "https://passnavi.obunsha.co.jp/univ/9215/eiken/",
-"https://passnavi.obunsha.co.jp/univ/9215/"
+"https://passnavi.obunsha.co.jp/univ/9215/",
+"https://iput.ac.jp/wp-content/uploads/2025/02/24_tk_seif_assessment.pdf"
 ],
 "kyotsu": {
 "kamoku": "共通テスト利用なし",
@@ -88989,7 +89006,8 @@
 "qtrend": "2026-11-07",
 "careers": "2026-11-15",
 "research": "2026-11-15",
-"eng": "2026-11-16"
+"eng": "2026-11-16",
+"founded": "2026-11-20"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -89148,7 +89166,7 @@
 "アニメ・マンガ学部"
 ],
 "students": null,
-"founded": null,
+"founded": "2020年4月 開学（事業創造学部・情報学部）／2021年4月 アニメ・マンガ学部を開設",
 "access": "紫竹山キャンパス（事業創造・情報）：JR新潟駅からバス「弁天橋」下車徒歩1分／古町ルフルキャンパス（アニメ・マンガ）：JR新潟駅からバス「古町」下車徒歩1分",
 "tuition": {
 "amount": 1286000,
@@ -89166,7 +89184,10 @@
 "https://passnavi.obunsha.co.jp/univ/9217/schedule/?facultyID=005",
 "https://manabi.benesse.ne.jp/daigaku/school/3414/syusyoku/",
 "https://kaishi-pu.ac.jp/wp/wp-content/themes/kaishi/assets/pdf/admissions/recruitment_2027.pdf",
-"https://search.keinet.ne.jp/2343/outline/scholarship"
+"https://search.keinet.ne.jp/2343/outline/scholarship",
+"https://kaishi-pu.ac.jp/wp/wp-content/themes/kaishi/assets/pdf/openinfo/evaluation2021.pdf",
+"https://www.mext.go.jp/content/20250828-mxt_daigakuc02-000044252_39.pdf",
+"https://search.keinet.ne.jp/outline/department/2343"
 ],
 "kyotsu": {
 "kamoku": "1〜2教科2科目",
@@ -89252,7 +89273,9 @@
 "qtrend": "2026-11-07",
 "careers": "2026-11-15",
 "eng": "2026-11-16",
-"scholar": "2026-11-19"
+"scholar": "2026-11-19",
+"founded": "2026-11-20",
+"research": "2026-11-20"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -89595,7 +89618,12 @@
 }
 ],
 "note": ""
-}
+},
+"research": [
+"事業創造学部 事業創造学科（定員80）：地域の資源を新商品や新サービスの開発に活用できる創造的な能力を育てる。企業内実習は660時間以上",
+"情報学部 情報学科（定員80）：情報技術を生活様式やさまざまなサービスの充実・向上に活用できる創造的な能力を育てる",
+"アニメ・マンガ学部 アニメ・マンガ学科（定員80）：日本のアニメ・マンガ作品の質、文化的・学問的水準、産業的価値の向上に活用できる創造的な能力を育てる"
+]
 },
 "芸術文化観光専門職大学": {
 "difficulty": {
@@ -89632,7 +89660,8 @@
 "https://manabi.benesse.ne.jp/daigaku/school/2201/syusyoku/",
 "https://passnavi.obunsha.co.jp/univ/9102/eiken/",
 "https://telemail.jp/shingaku/university/10011458/examination/general",
-"https://passnavi.obunsha.co.jp/univ/9102/scholarship/"
+"https://passnavi.obunsha.co.jp/univ/9102/scholarship/",
+"https://search.keinet.ne.jp/outline/department/1628"
 ],
 "kyotsu": {
 "kamoku": "3教科3科目",
@@ -89763,7 +89792,8 @@
 "qtrend": "2026-11-07",
 "careers": "2026-11-15",
 "eng": "2026-11-16",
-"scholar": "2026-11-19"
+"scholar": "2026-11-19",
+"research": "2026-11-20"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -89902,7 +89932,11 @@
 }
 ],
 "note": ""
-}
+},
+"research": [
+"芸術文化・観光学部 芸術文化・観光学科（定員80）：芸術文化と観光の両方の視点から地域に新しい活力を生み出す人材を育てる。1年次は共通の基礎を学び、2年次から一方を主専攻、もう一方を副専攻として学ぶ",
+"実習が授業の3分の1以上（800時間以上）。芸術文化・観光プロジェクト実習、舞台芸術実習、劇場プロデュース実習、観光サービスマネジメント論、事業創造入門、海外実習などの科目がある"
+]
 },
 "静岡県立農林環境専門職大学": {
 "difficulty": {
@@ -89935,7 +89969,8 @@
 "https://passnavi.obunsha.co.jp/univ/9101/eiken/",
 "https://telemail.jp/shingaku/university/10011435/examination/general",
 "https://telemail.jp/shingaku/university/10011435/examination/recommendation",
-"https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/074/847/noukandai.pdf"
+"https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/074/847/noukandai.pdf",
+"https://search.keinet.ne.jp/1572/outline/licential"
 ],
 "kyotsu": {
 "kamoku": "3教科3科目（英・数・理）",
@@ -90020,7 +90055,8 @@
 "qtrend": "2026-11-07",
 "research": "2026-11-15",
 "eng": "2026-11-16",
-"careers": "2026-11-19"
+"careers": "2026-11-19",
+"licenses": "2026-11-20"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -90131,7 +90167,10 @@
 "summary": "記載なし（利用しないとは限らない）",
 "note": "パスナビの英検・TEAP・IELTS利用入試のページに生産環境経営学部の情報なし（2026-11-16確認）"
 },
-"careers": "2024年度卒（生産環境経営学部29名）は農林業関連の就職20名・自営（農林業等）3名・その他5名など、79.3%が農林業関係（自営含む）に就業。進学は0名（静岡県「事務事業及び予算の執行実績（令和6年度分）」）。"
+"careers": "2024年度卒（生産環境経営学部29名）は農林業関連の就職20名・自営（農林業等）3名・その他5名など、79.3%が農林業関係（自営含む）に就業。進学は0名（静岡県「事務事業及び予算の執行実績（令和6年度分）」）。",
+"licenses": [
+"測量士補"
+]
 },
 "高知リハビリテーション専門職大学": {
 "difficulty": {
@@ -90163,7 +90202,8 @@
 "https://search.keinet.ne.jp/2690",
 "https://manabi.benesse.ne.jp/daigaku/school/3863/nyushi/gokaku-happyo/index.html",
 "https://passnavi.obunsha.co.jp/univ/9212/department/",
-"https://passnavi.obunsha.co.jp/univ/9212/shinro/"
+"https://passnavi.obunsha.co.jp/univ/9212/shinro/",
+"https://search.keinet.ne.jp/2690/outline/admission_employment"
 ],
 "kyotsu": {
 "kamoku": "2教科2科目",
@@ -90269,7 +90309,8 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "research": "2026-11-15",
-"licenses": "2026-11-15"
+"licenses": "2026-11-15",
+"careers": "2026-11-20"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -90415,7 +90456,8 @@
 "理学療法士（リハビリテーション学部 理学療法学専攻）",
 "作業療法士（リハビリテーション学部 作業療法学専攻）",
 "言語聴覚士（リハビリテーション学部 言語聴覚学専攻）"
-]
+],
+"careers": "2024年度卒業者85名のうち就職78名（91.8%）、進学0名、その他7名（Kei-Net）。"
 },
 "東京保健医療専門職大学": {
 "difficulty": {
