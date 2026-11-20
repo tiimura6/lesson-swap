@@ -1,0 +1,212 @@
+[
+ {
+  "name": "宮崎大学",
+  "info": {
+   "difficulty": {
+    "hensachi": "37.5〜67.5",
+    "kyotei": "46%〜86%",
+    "year": "2027年度入試用"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/1455/general/border_rate"
+   ]
+  }
+ },
+ {
+  "name": "名寄市立大学",
+  "info": {
+   "students": {
+    "count": 777,
+    "year": 2025
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/1508/outline/department"
+   ]
+  }
+ },
+ {
+  "name": "釧路公立大学",
+  "info": {
+   "difficulty": {
+    "hensachi": "42.5",
+    "kyotei": "47%〜58%",
+    "year": "2027年度入試用"
+   },
+   "sources": [
+    "https://passnavi.obunsha.co.jp/univ/1010/difficulty/"
+   ]
+  }
+ },
+ {
+  "name": "青森公立大学",
+  "info": {
+   "difficulty": {
+    "hensachi": "37.5〜40.0",
+    "kyotei": "46%〜66%",
+    "year": "2027年度入試用"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/1513/general/border_rate"
+   ]
+  }
+ },
+ {
+  "name": "青森県立保健大学",
+  "info": {
+   "difficulty": {
+    "hensachi": null,
+    "kyotei": "45%〜56%",
+    "year": "2027年度入試用"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/1516/general/border_rate"
+   ]
+  }
+ },
+ {
+  "name": "三条市立大学",
+  "info": {
+   "difficulty": {
+    "hensachi": "37.5〜40.0",
+    "kyotei": "43%〜53%",
+    "year": "2027年度入試用"
+   },
+   "licenses": [
+    "3次元CAD利用技術者（めざせる資格）",
+    "SOLIDWORKS CAD Design Professional（めざせる資格）",
+    "基本情報技術者試験（めざせる資格）"
+   ],
+   "sources": [
+    "https://search.keinet.ne.jp/1551/general/border_rate",
+    "https://manabi.benesse.ne.jp/daigaku/school/2096/syusyoku/index.html"
+   ]
+  }
+ },
+ {
+  "name": "公立小松大学",
+  "info": {
+   "founded": "2018年4月 開学（生産システム科学部・保健医療学部・国際文化交流学部の3学部）",
+   "difficulty": {
+    "hensachi": "37.5〜45.0",
+    "kyotei": "42%〜66%",
+    "year": "2027年度入試用"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/1548/general/border_rate",
+    "https://manabi.benesse.ne.jp/daigaku/school/2106/"
+   ]
+  }
+ },
+ {
+  "name": "横浜市立大学",
+  "info": {
+   "ratios_replace": {
+    "kind": "実質倍率（受験者÷合格者）",
+    "rows": [
+     {
+      "kubun": "一般",
+      "unit": "全学部計（前期・後期）",
+      "y": {
+       "2025": 2.8,
+       "2026": 2.8
+      }
+     },
+     {
+      "kubun": "一般",
+      "unit": "全学部計（前期）",
+      "y": {
+       "2025": 2.8,
+       "2026": 2.8
+      }
+     },
+     {
+      "kubun": "一般",
+      "unit": "全学部計（後期）",
+      "y": {
+       "2025": 2.5,
+       "2026": 2.6
+      }
+     },
+     {
+      "kubun": "一般",
+      "unit": "医学部 医（一般枠＋地域枠＋診療科枠） 前期",
+      "y": {
+       "2025": 2.4,
+       "2026": 2.5
+      }
+     },
+     {
+      "kubun": "一般",
+      "unit": "データサイエンス学部 前期",
+      "y": {
+       "2025": 4.4,
+       "2026": 3.9
+      }
+     }
+    ],
+    "note": "河合塾Kei-Netの一般選抜入試結果より（倍率＝受験者／合格者）。国際教養・国際商・理・看護は方式別合格者のみで倍率の掲載なし"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/1540/general/exam_result"
+   ]
+  }
+ },
+ {
+  "name": "新潟医療福祉大学",
+  "story": {
+   "summary": "新潟医療福祉大学は新潟市北区にある6学部16学科の医療・福祉系大学で、学科の枠を越えて他学科の学生とチームを組む「連携教育」でチーム医療・ケアを学ぶ。全16学科で約70種類の資格取得に対応し、臨床工学技士＋臨床検査技師のような国家資格のダブルライセンスも目指せる。医療職を目指しつつ、他職種と一緒に学ぶ環境を重視する生徒に話しやすい。",
+   "only": [
+    {
+     "t": "他学科の学生と一つのチームで学ぶ「連携教育」で、学科の枠を越えてチーム医療・ケアを学ぶ",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3410/"
+    },
+    {
+     "t": "全16学科で約70種類の資格取得に対応し、臨床技術学科では臨床工学技士と臨床検査技師のダブルライセンスを目指せる",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3410/"
+    },
+    {
+     "t": "全国の養成校でも導入例の少ない3テスラの高磁場MRI装置を実習に使う",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3410/"
+    },
+    {
+     "t": "基礎ゼミは7〜8人程度のグループに教員1人が付く少人数制",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3410/"
+    }
+   ],
+   "vs": [
+    {
+     "u": "新潟リハビリテーション大学",
+     "t": "新潟リハビリテーション大学はリハビリテーション学科1学科（理学療法・作業療法・心理の3専攻）の規模で学ぶが、新潟医療福祉大学は看護・医療技術・社会福祉など6学部16学科があり、他学科と組む連携教育がある。",
+     "src": "https://nur.ac.jp/department/"
+    }
+   ]
+  }
+ },
+ {
+  "name": "新潟国際情報大学",
+  "story": {
+   "summary": "新潟国際情報大学は国際学部（国際文化学科）と経営情報学部（経営学科・情報システム学科）の2学部3学科の大学で、新潟市西区のみずき野キャンパスと中央区の新潟中央キャンパスで学ぶ。10〜20人規模の少人数授業、独自の英語教育プログラムCEP、奨学金つきで4年間で卒業できる留学制度があり、国際と情報・経営を地元新潟で学びたい生徒に話しやすい。",
+   "only": [
+    {
+     "t": "国際学部は本学独自の総合的英語教育プログラム「CEP（Communicative English Program）」で学ぶ",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3404/gakubu/"
+    },
+    {
+     "t": "奨学金が給付される留学制度があり、単位認定で4年間での卒業が可能（国際学部は2年次後期に約半年の派遣留学、経営情報学部はカナダ・アルバータ大学で4週間の短期留学、いずれも希望制）",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3404/"
+    },
+    {
+     "t": "経営情報学部はITパスポート・基本情報技術者・日商簿記・情報セキュリティマネジメントなどの資格に対応した講義科目がある",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3404/gakubu/"
+    }
+   ],
+   "vs": [
+    {
+     "u": "新潟県立大学",
+     "t": "新潟県立大学は国際地域・国際経済・人間生活の3学部の公立大学だが、新潟国際情報大学は国際学部と、経営学科・情報システム学科をもつ経営情報学部の2学部で、国際と情報を1つの大学で学べる。",
+     "src": "https://search.keinet.ne.jp/1544/outline/department"
+    }
+   ]
+  }
+ }
+]

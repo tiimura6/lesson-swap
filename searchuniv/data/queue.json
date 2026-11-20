@@ -12946,6 +12946,80 @@
 "difficulty"
 ],
 "keinet": "1415"
+},
+{
+"name": "宮崎大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1455"
+},
+{
+"name": "名寄市立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students"
+],
+"keinet": "1508"
+},
+{
+"name": "釧路公立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"difficulty"
+],
+"keinet": "1510"
+},
+{
+"name": "青森公立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"difficulty"
+],
+"keinet": "1513"
+},
+{
+"name": "青森県立保健大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1516"
+},
+{
+"name": "三条市立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"difficulty"
+],
+"keinet": "1551"
+},
+{
+"name": "公立小松大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"difficulty"
+],
+"keinet": "1548"
 }
 ],
 "failed": [],
@@ -13191,93 +13265,10 @@
 "茨城大学": 1,
 "埼玉大学": 1,
 "立命館アジア太平洋大学（APU）": 2,
-"国際ファッション専門職大学": 1
+"国際ファッション専門職大学": 1,
+"旭川市立大学": 1
 },
 "enrich": [
-{
-"name": "宮崎大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"difficulty"
-],
-"keinet": "1455"
-},
-{
-"name": "名寄市立大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students"
-],
-"keinet": "1508"
-},
-{
-"name": "旭川市立大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students"
-],
-"keinet": "1501"
-},
-{
-"name": "釧路公立大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded",
-"difficulty"
-],
-"keinet": "1510"
-},
-{
-"name": "青森公立大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"licenses",
-"difficulty"
-],
-"keinet": "1513"
-},
-{
-"name": "青森県立保健大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"difficulty"
-],
-"keinet": "1516"
-},
-{
-"name": "三条市立大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"licenses",
-"difficulty"
-],
-"keinet": "1551"
-},
-{
-"name": "公立小松大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded",
-"difficulty"
-],
-"keinet": "1548"
-},
 {
 "name": "公立諏訪東京理科大学",
 "need": [
@@ -36029,6 +36020,19 @@
 "fails": 1,
 "last_fail": "2026-11-20",
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
+},
+{
+"name": "旭川市立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students"
+],
+"keinet": "1501",
+"fails": 1,
+"last_fail": "2026-11-21",
+"note": "2026-11-21 Kei-Net /outline/department は経済学部443人・保健福祉学部410人（2025年度）のみで総数の行が無く、地域創造学部の学生数が未掲載"
 },
 {
 "name": "島根大学",

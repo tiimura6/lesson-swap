@@ -25062,7 +25062,8 @@
 "https://www.yokohama-cu.ac.jp/admissions/admissions/documents/j8907d00000005zj-att/2027senbatsuyoukou_20260702.pdf",
 "https://passnavi.obunsha.co.jp/univ/1080/expense/",
 "https://search.keinet.ne.jp/1540/outline/scholarship",
-"https://search.keinet.ne.jp/1540/outline/opencampus"
+"https://search.keinet.ne.jp/1540/outline/opencampus",
+"https://search.keinet.ne.jp/1540/general/exam_result"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -25295,7 +25296,7 @@
 "schedule": "2026-11-15",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
-"ratios": "2026-11-06",
+"ratios": "2026-11-20",
 "research": "2026-11-14",
 "scholar": "2026-11-19",
 "oc": "2026-11-20"
@@ -115065,7 +115066,8 @@
 "schedule": "2026-11-18",
 "money": "2026-11-09",
 "kyotsu": "2026-11-15",
-"eng": "2026-11-16"
+"eng": "2026-11-16",
+"difficulty": "2026-11-20"
 },
 "departments": [
 {
@@ -115135,7 +115137,8 @@
 "https://www.miyazaki-u.ac.jp/exam/R9_senbatsuyoukou2027.pdf",
 "https://search.keinet.ne.jp/1455/outline/expense",
 "https://search.keinet.ne.jp/1455/general/exam_subject",
-"https://passnavi.obunsha.co.jp/univ/0910/eiken/"
+"https://passnavi.obunsha.co.jp/univ/0910/eiken/",
+"https://search.keinet.ne.jp/1455/general/border_rate"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -115397,6 +115400,11 @@
 ],
 "summary": "農学部応用生命化学コースの総合型Ⅰと工学部の一般選抜（前期）で、英検2級により個別試験の英語を満点扱い（換算）にする。ほかの総合型では級やスコアの指定なしで参考にする。",
 "note": "総合型は2027年度、一般選抜はパスナビ掲載が昨年度（2026年度）の情報。教育・医・地域資源創成学部は情報なし（2026-11-16確認）"
+},
+"difficulty": {
+"hensachi": "37.5〜67.5",
+"kyotei": "46%〜86%",
+"year": "2027年度入試用"
 }
 },
 "琉球大学": {
@@ -118174,7 +118182,8 @@
 "kyotsu": "2026-11-15",
 "research": "2026-11-15",
 "eng": "2026-11-16",
-"scholar": "2026-11-18"
+"scholar": "2026-11-18",
+"students": "2026-11-20"
 },
 "faculties": [
 "保健福祉学部"
@@ -118517,6 +118526,10 @@
 }
 ],
 "note": "大学公式「大学独自の奨学金、助成金について」。年度の記載なし"
+},
+"students": {
+"count": 777,
+"year": 2025
 }
 },
 "山形県立米沢栄養大学": {
@@ -120127,7 +120140,8 @@
 "_via": "2026-11-16",
 "licenses": "2026-11-15",
 "careers": "2026-11-15",
-"kyotsu": "2026-11-15"
+"kyotsu": "2026-11-15",
+"difficulty": "2026-11-20"
 },
 "departments": [
 {
@@ -120169,7 +120183,8 @@
 "https://passnavi.obunsha.co.jp/univ/1010/sougou/?facultyID=005",
 "https://passnavi.obunsha.co.jp/univ/1010/seikyu/",
 "https://search.keinet.ne.jp/1510/outline/licential",
-"https://search.keinet.ne.jp/1510/outline/admission_employment"
+"https://search.keinet.ne.jp/1510/outline/admission_employment",
+"https://passnavi.obunsha.co.jp/univ/1010/difficulty/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -120327,6 +120342,11 @@
 "rl_text": "前期・中期ともR:L=4:1（R160:L40）",
 "note": "前期・中期とも二段階選抜なし",
 "year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "42.5",
+"kyotei": "47%〜58%",
+"year": "2027年度入試用"
 }
 },
 "青森公立大学": {
@@ -120347,7 +120367,8 @@
 "schedule": "2026-11-16",
 "money": "2026-11-14",
 "_via": "2026-11-16",
-"research": "2026-11-15"
+"research": "2026-11-15",
+"difficulty": "2026-11-20"
 },
 "departments": [
 {
@@ -120614,7 +120635,12 @@
 "組織論・経営戦略・会計・マーケティング（経営学科）",
 "ミクロ・マクロ経済学、金融・財政・公共経済、経済統計（経済学科）",
 "地域企業・自治体経営・ベンチャービジネスと地域づくり（地域みらい学科）"
-]
+],
+"difficulty": {
+"hensachi": "37.5〜40.0",
+"kyotei": "46%〜66%",
+"year": "2027年度入試用"
+}
 },
 "青森県立保健大学": {
 "faculties": [
@@ -120635,7 +120661,8 @@
 "schedule": "2026-11-16",
 "_via": "2026-11-16",
 "money": "2026-11-09",
-"research": "2026-11-15"
+"research": "2026-11-15",
+"difficulty": "2026-11-20"
 },
 "departments": [
 {
@@ -120958,7 +120985,12 @@
 "神経障害の理学療法・地域理学療法・義肢装具（理学療法学科）",
 "社会保障・児童福祉・障害者福祉・公的扶助（社会福祉学科）",
 "給食経営管理・臨床栄養・公衆栄養（栄養学科）"
-]
+],
+"difficulty": {
+"hensachi": null,
+"kyotei": "45%〜56%",
+"year": "2027年度入試用"
+}
 },
 "三条市立大学": {
 "faculties": [
@@ -120978,7 +121010,9 @@
 "schedule": "2026-11-16",
 "money": "2026-11-09",
 "_via": "2026-11-16",
-"research": "2026-11-15"
+"research": "2026-11-15",
+"difficulty": "2026-11-20",
+"licenses": "2026-11-20"
 },
 "departments": [
 {
@@ -121031,7 +121065,8 @@
 "https://passnavi.obunsha.co.jp/univ/1081/subject/",
 "https://passnavi.obunsha.co.jp/univ/1081/border/",
 "https://manabi.benesse.ne.jp/daigaku/school/2096/nyushi/",
-"https://admissions.sanjo-u.ac.jp/information/tuition"
+"https://admissions.sanjo-u.ac.jp/information/tuition",
+"https://manabi.benesse.ne.jp/daigaku/school/2096/syusyoku/index.html"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -121201,6 +121236,16 @@
 "research": [
 "機械工学を中心とした工学全般と経営マネジメント（技術・経営工学科）",
 "160社以上の企業と連携した最長16週間の産学連携実習"
+],
+"difficulty": {
+"hensachi": "37.5〜40.0",
+"kyotei": "43%〜53%",
+"year": "2027年度入試用"
+},
+"licenses": [
+"3次元CAD利用技術者（めざせる資格）",
+"SOLIDWORKS CAD Design Professional（めざせる資格）",
+"基本情報技術者試験（めざせる資格）"
 ]
 },
 "公立小松大学": {
@@ -121224,7 +121269,9 @@
 "schedule": "2026-11-16",
 "money": "2026-11-09",
 "_via": "2026-11-16",
-"research": "2026-11-15"
+"research": "2026-11-15",
+"founded": "2026-11-20",
+"difficulty": "2026-11-20"
 },
 "departments": [
 {
@@ -121304,7 +121351,8 @@
 "https://jyuke-labo.com/daigakujyukentaisaku/kouritsukomatsudaigaku/",
 "https://jyuke-labo.com/daigakujyukentaisaku/kouritsukomatsudaigaku/seisansystemkagakubu/",
 "https://juku-times.com/juku/komatsu/gakubu-2/bairitsu/",
-"https://www.komatsu-u.ac.jp/common/images/admission_nittei.pdf"
+"https://www.komatsu-u.ac.jp/common/images/admission_nittei.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/2106/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -121652,7 +121700,13 @@
 "機械工学を中心に電気電子・情報工学、生産機械・知能機械コース（生産システム科学部）",
 "地域医療を支える看護（看護学科）",
 "医療機器を扱う臨床工学（臨床工学科）"
-]
+],
+"founded": "2018年4月 開学（生産システム科学部・保健医療学部・国際文化交流学部の3学部）",
+"difficulty": {
+"hensachi": "37.5〜45.0",
+"kyotei": "42%〜66%",
+"year": "2027年度入試用"
+}
 },
 "公立諏訪東京理科大学": {
 "faculties": [
