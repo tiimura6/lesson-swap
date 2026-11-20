@@ -12429,6 +12429,102 @@
 "fails": 1,
 "last_fail": "2026-11-20",
 "note": "2026-11-20 公式 ncn.ac.jp は取得不可（許可タイムアウト）、Kei-Net・パスナビに掲載なし。テレメール・マナビジョンの単独情報のみで採用せず"
+},
+{
+"name": "東京保健医療専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"careers"
+],
+"keinet": "2114"
+},
+{
+"name": "名古屋国際工科専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2113"
+},
+{
+"name": "電動モビリティシステム専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "筑波技術大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1080"
+},
+{
+"name": "前橋工科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1523"
+},
+{
+"name": "千葉県立保健医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"difficulty"
+],
+"keinet": "1528"
+},
+{
+"name": "埼玉県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"difficulty"
+],
+"keinet": "1526"
+},
+{
+"name": "国際ファッション専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2102",
+"fails": 1,
+"last_fail": "2026-11-20",
+"note": "2026-11-20 Kei-Netの学部ページに概要・特色と学生数なし、トップに沿革なし、取得可能資格は全学科「―」。WWDJAPAN記事（2019/4/8）は開学年を明記せず"
 }
 ],
 "failed": [],
@@ -12677,86 +12773,6 @@
 "国際ファッション専門職大学": 1
 },
 "enrich": [
-{
-"name": "東京保健医療専門職大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"licenses",
-"careers"
-],
-"keinet": "2114"
-},
-{
-"name": "名古屋国際工科専門職大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2113"
-},
-{
-"name": "電動モビリティシステム専門職大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
-]
-},
-{
-"name": "筑波技術大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"difficulty"
-],
-"keinet": "1080"
-},
-{
-"name": "前橋工科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"difficulty"
-],
-"keinet": "1523"
-},
-{
-"name": "千葉県立保健医療大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"licenses",
-"difficulty"
-],
-"keinet": "1528"
-},
-{
-"name": "埼玉県立大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded",
-"difficulty"
-],
-"keinet": "1526"
-},
 {
 "name": "川崎市立看護大学",
 "need": [
@@ -36007,22 +36023,6 @@
 "fails": 1,
 "last_fail": "2026-11-20",
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
-},
-{
-"name": "国際ファッション専門職大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2102",
-"fails": 1,
-"last_fail": "2026-11-20",
-"note": "2026-11-20 Kei-Netの学部ページに概要・特色と学生数なし、トップに沿革なし、取得可能資格は全学科「―」。WWDJAPAN記事（2019/4/8）は開学年を明記せず"
 },
 {
 "name": "島根大学",

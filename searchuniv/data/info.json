@@ -19239,7 +19239,8 @@
 "content": "面接・小論文（教育は実技等）",
 "req": "現役・専願。教養I型は評定4.3以上",
 "kyotsu": "課さない",
-"note": "教養（I型）・教育（学校教育学・国語・音楽・美術・保健体育等）"
+"note": "教養（I型、小論文・面接）・教育（学校教育学・国語・音楽・美術・保健体育等）",
+"url": "https://www.saitama-u.ac.jp/media/r9_tokubetuyoko.pdf"
 },
 {
 "kubun": "推薦",
@@ -19247,19 +19248,21 @@
 "content": "面接（・書類・小論文）＋共通テスト",
 "req": "現役・専願が中心。工は評定3.5以上＋数理の成績条件。工に女子枠",
 "kyotsu": "課す",
-"note": "教養（II型）・教育の多くの専修・理（基礎化学・分子生物）・工"
+"note": "教養（II型）・教育の多くの専修・理（基礎化学・分子生物）・工",
+"url": "https://www.saitama-u.ac.jp/media/r9_tokubetuyoko.pdf"
 },
 {
 "kubun": "総合型",
 "name": "総合型選抜",
-"content": "経済：面接・小論文＋共テ（基準390/600）。理・工：書類・講義・面接（共テなし）",
-"req": "専願・現役。経済は評定3.8・英検等、工情報は評定3.5かつ数理平均4.3",
+"content": "経済：第1次 小論文・面接＋書類、第2次 共テ（高得点3教科の得点率65%以上で合格）。理（生体制御）：講義後の小テスト・レポート・面接（共テなし）。工（情報）：講義2回・小テスト・レポート・面接（共テなし）",
+"req": "入学確約。経済は評定3.8以上＋英語外部試験（英検CSE1950など）、理は生物を履修、工情報は数学・理科の評定平均4.3以上・物理と数学Ⅲを履修",
 "kyotsu": "学部による",
-"note": "経済・理（生体制御）・工（情報）のみ"
+"note": "経済・理（生体制御）・工（情報）のみ",
+"url": "https://www.saitama-u.ac.jp/media/r9_tokubetuyoko.pdf"
 }
 ],
 "summary": "一般の文系学部は共テ重視。推薦が全学部にあり現役・専願中心、共テあり型となし型がある。",
-"note": ""
+"note": "推薦・総合型は2027年度特別選抜の募集要項（予告）で2026-11-20に確認。一般は前回確認のまま。"
 },
 "departments": [
 {
@@ -19661,7 +19664,8 @@
 "ratios": "2026-11-20",
 "research": "2026-11-14",
 "scholar": "2026-11-19",
-"partners": "2026-11-20"
+"partners": "2026-11-20",
+"methods": "2026-11-20"
 },
 "money": {
 "year": "2026年度",
@@ -88335,7 +88339,10 @@
 "国際ファッション（大阪）学部",
 "国際ファッション（愛知）学部"
 ],
-"students": null,
+"students": {
+"count": 661,
+"year": 2025
+},
 "founded": null,
 "access": "東京キャンパス（西新宿・コクーンタワー）：新宿駅から徒歩2分／大阪キャンパス：大阪駅から徒歩90秒",
 "tuition": {
@@ -88356,7 +88363,8 @@
 "https://search.keinet.ne.jp/2102/general/exam_fee",
 "https://manabi.benesse.ne.jp/daigaku/school/3345/syusyoku/",
 "https://passnavi.obunsha.co.jp/univ/9202/eiken/",
-"https://passnavi.obunsha.co.jp/univ/9202/scholarship/"
+"https://passnavi.obunsha.co.jp/univ/9202/scholarship/",
+"https://manabi.benesse.ne.jp/daigaku/school/3345/gakubu/gakubudt/79.html"
 ],
 "kyotsu": {
 "kamoku": "共通テスト利用なし",
@@ -88449,7 +88457,9 @@
 "qtrend": "2026-11-07",
 "careers": "2026-11-15",
 "eng": "2026-11-16",
-"scholar": "2026-11-19"
+"scholar": "2026-11-19",
+"research": "2026-11-20",
+"students": "2026-11-20"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -88599,7 +88609,12 @@
 }
 ],
 "note": "パスナビ（原則2026年4月入学者対象）。"
-}
+},
+"research": [
+"ファッションクリエイション学科：理論と実践からクリエイションを学び、歴史・アート・文化・デジタルテクノロジーなどの教養も重視（デザインクリエイション／アートクリエイション／AI・テクノロジーデザインの各コース）",
+"ファッションビジネス学科：企画戦略から販売・PR・マーケティングまでを学ぶ（ブランドマネジメント／グローバルマーケティング／広告・PR・プレスの各コース）",
+"大阪・名古屋のファッションクリエイション・ビジネス学科：関西圏・東海中部圏の企業や繊維産地でのインターンシップが多い（名古屋は毛織物素材も活用）"
+]
 },
 "情報経営イノベーション専門職大学（iU）": {
 "difficulty": {
@@ -90488,7 +90503,8 @@
 "https://search.keinet.ne.jp/2114/outline/campus",
 "https://search.keinet.ne.jp/2114",
 "https://manabi.benesse.ne.jp/daigaku/school/3348/nyushi/hoshiki/ippan/",
-"https://passnavi.obunsha.co.jp/univ/9205/department/"
+"https://passnavi.obunsha.co.jp/univ/9205/department/",
+"https://manabi.benesse.ne.jp/daigaku/school/3348/syusyoku/"
 ],
 "kyotsu": {
 "kamoku": "2教科2科目（国語必須）",
@@ -90580,7 +90596,9 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
-"research": "2026-11-15"
+"research": "2026-11-15",
+"licenses": "2026-11-20",
+"careers": "2026-11-20"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -90700,7 +90718,13 @@
 "リハビリテーション学部：保健医療分野の実務リーダーとしての理学療法士・作業療法士を育成。展開科目で共生福祉論・支援システム工学・ユニバーサルツーリズム・美容ケア・音楽療法・スポーツコーチング・手話、経営戦略や保健医療経営などのマネジメントも学ぶ",
 "理学療法学科：規定の600時間を大幅に上回る900時間の臨地実務実習",
 "作業療法学科：1000時間を超える臨地実務実習。外出支援や美容ケア、音楽療法などで生活の質の維持・向上に貢献する力を養う"
-]
+],
+"licenses": [
+"理学療法士国家試験受験資格（理学療法学科）",
+"作業療法士国家試験受験資格（作業療法学科）",
+"社会福祉主事任用資格"
+],
+"careers": "2024年度の就職先は赤羽リハビリテーション病院、順天堂大学医学部附属順天堂病院、虎の門病院、東京慈恵会医科大学附属病院、LITALICOなど都内のほか、千葉・神奈川・埼玉・茨城の病院・リハビリテーション病院など（マナビジョン）。"
 },
 "名古屋国際工科専門職大学": {
 "difficulty": {
@@ -90712,7 +90736,7 @@
 "工科学部"
 ],
 "students": null,
-"founded": null,
+"founded": "2021年 開学",
 "access": "名古屋キャンパス（名駅・スパイラルタワーズ）：名古屋駅から徒歩約3分",
 "tuition": {
 "amount": 1880000,
@@ -90733,7 +90757,9 @@
 "https://www.iput.ac.jp/admission/general/",
 "https://manabi.benesse.ne.jp/daigaku/school/3344/syusyoku/",
 "https://passnavi.obunsha.co.jp/univ/9215/eiken/",
-"https://passnavi.obunsha.co.jp/univ/9215/"
+"https://passnavi.obunsha.co.jp/univ/9215/",
+"https://www.iput.ac.jp/wp-content/uploads/2026/06/nk_self_assessment_2026.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/3344/gakubu/gakubudt/47.html"
 ],
 "kyotsu": {
 "kamoku": "共通テスト利用なし",
@@ -90798,7 +90824,9 @@
 "departments": "2026-11-06",
 "qtrend": "2026-11-07",
 "careers": "2026-11-15",
-"eng": "2026-11-16"
+"eng": "2026-11-16",
+"founded": "2026-11-20",
+"research": "2026-11-20"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -90912,7 +90940,12 @@
 ],
 "summary": "総合型の資格評価型で英検準2級・IELTS 4.0を出願の資格として使う。",
 "note": "2027年4月に東京・大阪・名古屋の国際工科専門職大学3校を統合して設置される「国際工科専門職大学」の2027年度入試（パスナビ）"
-}
+},
+"research": [
+"情報工学科：AI戦略（理論から実装のプログラミングまで）、IoTシステム（デバイス制御・データ構築）、ロボット開発（センサ・知能制御・駆動の機械システム設計）の3コース",
+"デジタルエンタテインメント学科：ゲームプロデュース（ゲーム開発のプログラミング・ゲームデザイン・チーム開発・知的財産）とCGアニメーション（CG制作工程・リアルタイムCG）の2コース",
+"16週間以上・600時間以上の臨地実務実習を行う"
+]
 },
 "電動モビリティシステム専門職大学": {
 "difficulty": null,
@@ -90928,8 +90961,20 @@
 ],
 "notable": [],
 "sources": [
-"https://jidounten-lab.com/u_50566"
-]
+"https://jidounten-lab.com/u_50566",
+"https://www.dsecchi.mext.go.jp/2208nsecchi/pdf/dendomobility_2208nsecchi_gakusoku.pdf",
+"https://www.dsecchi.mext.go.jp/2208nsecchi/pdf/dendomobility_2208nsecchi_syushi2.pdf"
+],
+"research": [
+"電気自動車システム全体と、その構成要素（電池・モーター/インバータ・車体・自動運転）を学ぶ。1〜2年次で全体を学び、2年後期〜3年次に構成要素の一つを深める",
+"物理・数学・化学・環境エネルギー論・データ分析・AI基礎を基礎に、電気回路・プログラミング・モデルベース開発などを学ぶ",
+"臨地実務実習が必修。卒業すると電気自動車システム工学士（専門職）"
+],
+"_checked": {
+"research": "2026-11-20",
+"careers": "2026-11-20"
+},
+"careers": "開学（2023年）時の設置計画で想定する進路は、完成車メーカー、自動車部品サプライヤー、電気機械・電子部品などの製造業、情報系・スタートアップ（CASE・MaaS関連）企業（文部科学省 設置の趣旨）。"
 },
 "筑波技術大学": {
 "faculties": [
@@ -90965,7 +91010,8 @@
 "https://www.tsukuba-tech.ac.jp/uploads/2026/06/R9_SelectionGuideLines_it_2.pdf",
 "https://www.tsukuba-tech.ac.jp/uploads/2026/09/R9_vi_application_gist.pdf",
 "https://passnavi.obunsha.co.jp/univ/0165/eiken/?facultyID=005",
-"https://search.keinet.ne.jp/1080/outline/scholarship"
+"https://search.keinet.ne.jp/1080/outline/scholarship",
+"https://search.keinet.ne.jp/1080/general/border_rate"
 ],
 "kyotsu": {
 "kamoku": "2教科2科目",
@@ -91118,7 +91164,8 @@
 "qtrend": "2026-11-07",
 "schedule": "2026-11-18",
 "eng": "2026-11-16",
-"scholar": "2026-11-19"
+"scholar": "2026-11-19",
+"difficulty": "2026-11-20"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -91349,6 +91396,11 @@
 }
 ],
 "note": ""
+},
+"difficulty": {
+"hensachi": "35.0",
+"kyotei": "39%〜55%",
+"year": "2027年度入試用"
 }
 },
 "前橋工科大学": {
@@ -91379,7 +91431,8 @@
 "https://search.keinet.ne.jp/1523/general/exam_fee",
 "https://www.maebashi-it.ac.jp/about/pdf/syutokushikaku.pdf",
 "https://passnavi.obunsha.co.jp/univ/1055/eiken/",
-"https://passnavi.obunsha.co.jp/univ/1055/scholarship/"
+"https://passnavi.obunsha.co.jp/univ/1055/scholarship/",
+"https://search.keinet.ne.jp/1523/general/border_rate"
 ],
 "kyotsu": {
 "kamoku": "5教科7科目",
@@ -91502,7 +91555,8 @@
 "qtrend": "2026-11-07",
 "licenses": "2026-11-15",
 "eng": "2026-11-16",
-"scholar": "2026-11-19"
+"scholar": "2026-11-19",
+"difficulty": "2026-11-20"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -91820,6 +91874,11 @@
 }
 ],
 "note": ""
+},
+"difficulty": {
+"hensachi": "37.5〜42.5",
+"kyotei": "47%〜63%",
+"year": "2027年度入試用"
 }
 },
 "千葉県立保健医療大学": {
@@ -91848,7 +91907,8 @@
 "https://www.pref.chiba.lg.jp/hoidai/gakusei/documents/r9senbatsuyoukou.pdf",
 "https://search.keinet.ne.jp/1528/outline/expense",
 "https://search.keinet.ne.jp/1528/general/exam_subject",
-"https://passnavi.obunsha.co.jp/univ/1059/eiken/"
+"https://passnavi.obunsha.co.jp/univ/1059/eiken/",
+"https://search.keinet.ne.jp/1528/general/border_rate"
 ],
 "methods": {
 "year": "2027年度入試",
@@ -91914,7 +91974,8 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "kyotsu": "2026-11-15",
-"eng": "2026-11-16"
+"eng": "2026-11-16",
+"difficulty": "2026-11-20"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -92106,6 +92167,11 @@
 "rows": [],
 "summary": "記載なし（利用しないとは限らない）",
 "note": "パスナビの英検・TEAP・IELTS利用入試のページに情報なし（健康科学部）（2026-11-16確認）"
+},
+"difficulty": {
+"hensachi": null,
+"kyotei": "53%〜67%",
+"year": "2027年度入試用"
 }
 },
 "埼玉県立大学": {
@@ -92130,7 +92196,8 @@
 "https://manabi.benesse.ne.jp/daigaku/school/2070/nyushi/",
 "https://passnavi.obunsha.co.jp/univ/1057/expense/",
 "https://manabi.benesse.ne.jp/daigaku/school/2070/syusyoku/",
-"https://www.spu.ac.jp/Portals/0/nyushi/2027/senbatsu/2027senbatsu_suisen_ippan.pdf"
+"https://www.spu.ac.jp/Portals/0/nyushi/2027/senbatsu/2027senbatsu_suisen_ippan.pdf",
+"https://search.keinet.ne.jp/1526/general/border_rate"
 ],
 "kyotsu": {
 "kamoku": "4教科5科目〜5教科5科目",
@@ -92227,7 +92294,8 @@
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "schedule": "2026-11-18",
-"licenses": "2026-11-15"
+"licenses": "2026-11-15",
+"difficulty": "2026-11-20"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -92458,7 +92526,12 @@
 "歯科衛生士国家試験受験資格、養護教諭一種（健康開発学科 口腔保健科学専攻）",
 "社会福祉士国家試験受験資格、精神保健福祉士国家試験受験資格、社会福祉主事（任用）、保育士（社会福祉子ども学科 社会福祉学専攻）",
 "幼稚園教諭一種、社会福祉士国家試験受験資格、社会福祉主事（任用）、保育士（社会福祉子ども学科 福祉子ども学専攻）"
-]
+],
+"difficulty": {
+"hensachi": null,
+"kyotei": "54%〜65%",
+"year": "2027年度入試用"
+}
 },
 "川崎市立看護大学": {
 "faculties": [
@@ -176434,7 +176507,9 @@ null
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "schedule": "2026-11-11",
-"money": "2026-11-11"
+"money": "2026-11-11",
+"research": "2026-11-20",
+"licenses": "2026-11-20"
 },
 "departments": [
 {
@@ -176471,7 +176546,8 @@ null
 "https://www.min.ac.jp/admission/fee.html",
 "https://passnavi.obunsha.co.jp/univ/3415/top/",
 "https://manabi.benesse.ne.jp/daigaku/school/3452/nyushi/",
-"https://search.keinet.ne.jp/2385/outline/expense"
+"https://search.keinet.ne.jp/2385/outline/expense",
+"https://www.min.ac.jp/img/pdf/educationalpolicy.pdf"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -176561,7 +176637,20 @@ null
 }
 ],
 "note": "大学公式の納入金表（年度の記載なし）とKei-Net（2026年度入学者用：初年度1,180,000円）が一致。2027年度は未確認"
-}
+},
+"research": [
+"日蓮学専攻：日蓮教学・日蓮教団史と、布教の現場に即した力",
+"文学・芸術専攻：仏教彫刻・仏教絵画・仏教音楽、博物館や寺院の資料の収集・保存",
+"福祉学専攻：乳幼児から高齢者までの福祉と子どもを取り巻く課題への支援"
+],
+"licenses": [
+"社会福祉士国家試験受験資格",
+"博物館学芸員",
+"社会教育主事任用資格（社会教育士）",
+"社会福祉主事",
+"日蓮宗僧階（権僧都・権大講師）",
+"介護福祉士実務者研修"
+]
 },
 "日本赤十字豊田看護大学": {
 "faculties": [
@@ -176577,7 +176666,9 @@ null
 "money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"licenses": "2026-11-20",
+"students": "2026-11-20"
 },
 "departments": [
 {
@@ -176683,8 +176774,17 @@ null
 "https://passnavi.obunsha.co.jp/univ/3825/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3560/nyushi/hoshiki/ippan/",
 "https://manabi.benesse.ne.jp/daigaku/school/3560/gakuhi/",
-"https://www.rctoyota.ac.jp/rctoyota-info/wp-content/uploads/2026/09/1.R9大学独自選抜_本文0901.pdf"
-]
+"https://www.rctoyota.ac.jp/rctoyota-info/wp-content/uploads/2026/09/1.R9大学独自選抜_本文0901.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/3560/"
+],
+"licenses": [
+"看護師国家試験受験資格",
+"保健師国家試験受験資格（選考制・定員22名）"
+],
+"students": {
+"count": 533,
+"year": 2025
+}
 },
 "星城大学": {
 "faculties": [
