@@ -10645,7 +10645,14 @@
 "https://www.titech.ac.jp/international-cooperation/global/collaborations",
 "https://manabi.benesse.ne.jp/daigaku/school/1165/nyushi/index.html",
 "https://search.keinet.ne.jp/1150/recommend/exam_ao",
-"https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3088&contentsId=&contentsDataId=&prevId=&key=2c267bc83d484dc5370621fb9ed717d7.pdf&fileName=r9-guidelines-zenki"
+"https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&pageId=3088&contentsId=&contentsDataId=&prevId=&key=2c267bc83d484dc5370621fb9ed717d7.pdf&fileName=r9-guidelines-zenki",
+"https://manabi.benesse.ne.jp/daigaku/school/1165/nyushi/ri/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/1165/nyushi/kou/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/1165/nyushi/jouhourikou/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/1165/nyushi/seimeirikou/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/1165/nyushi/kankyoushakai/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/1165/nyushi/i/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/1165/nyushi/shi/index.html"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -10925,7 +10932,8 @@
 "scholar": "2026-11-19",
 "oc": "2026-11-19",
 "partners": "2026-11-19",
-"methods": "2026-11-20"
+"methods": "2026-11-20",
+"subjects": "2026-11-20"
 },
 "money": {
 "year": "2026年度",
@@ -11551,6 +11559,152 @@
 ],
 "exchange": "授業料等不徴収協定のある協定校へ3か月〜1年未満の派遣交換留学（留学先の授業料不要）。ほかに部局間協定に基づく短期プログラム（SERP・AOTULE など）あり。",
 "note": "国別の内訳は「理工学系学生のための留学のてびき2025」の派遣交換留学対象校一覧を数えたもの（本文は73校と記載、一覧は74校）。医歯学系の協定は含まない。大学全体の協定数は全学協定110校（31の国・地域）・部局間協定131校（41の国・地域）（2024年5月1日現在、公式国際交流ページ）"
+},
+"subjects": {
+"year": "2027年度入試",
+"rows": [
+{
+"f": "理学院",
+"kubun": "一般",
+"name": "前期日程",
+"n": 6,
+"subj": "数学300・英語150・理科（物理・化学）300　計750",
+"kt": "6教科8科目（国・数2・英・地歴公民1・理2・情報Ⅰ）。共テは第1段階選抜のみに利用",
+"eng": "",
+"note": "2段階選抜あり。募集128"
+},
+{
+"f": "工学院",
+"kubun": "一般",
+"name": "前期日程",
+"n": 6,
+"subj": "数学300・英語150・理科（物理・化学）300　計750",
+"kt": "6教科8科目（国・数2・英・地歴公民1・理2・情報Ⅰ）。共テは第1段階選抜のみに利用",
+"eng": "",
+"note": "2段階選抜あり"
+},
+{
+"f": "情報理工学院",
+"kubun": "一般",
+"name": "前期日程",
+"n": 6,
+"subj": "数学300・英語150・理科（物理・化学）300　計750",
+"kt": "6教科8科目（国・数2・英・地歴公民1・理2・情報Ⅰ）。共テは第1段階選抜のみに利用",
+"eng": "",
+"note": "2段階選抜あり。募集106"
+},
+{
+"f": "生命理工学院",
+"kubun": "一般",
+"name": "前期日程",
+"n": 6,
+"subj": "数学300・英語150・理科（物理・化学）300　計750",
+"kt": "6教科8科目（国・数2・英・地歴公民1・理2・情報Ⅰ）。共テは第1段階選抜のみに利用",
+"eng": "",
+"note": "2段階選抜あり。募集105"
+},
+{
+"f": "環境・社会理工学院",
+"kubun": "一般",
+"name": "前期日程",
+"n": 6,
+"subj": "数学300・英語150・理科（物理・化学）300　計750",
+"kt": "6教科8科目（国・数2・英・地歴公民1・理2・情報Ⅰ）。共テは第1段階選抜のみに利用",
+"eng": "",
+"note": "2段階選抜あり。募集80"
+},
+{
+"f": "医学部 医学科",
+"kubun": "一般",
+"name": "前期日程",
+"n": 6,
+"subj": "数学120・英語120・理科2科目（物理・化学・生物から）120・面接　計360",
+"kt": "6教科8科目を180点に換算（国・数・英・地歴公民1・理2・情報Ⅰ）",
+"eng": "",
+"note": "2段階選抜あり。募集69"
+},
+{
+"f": "医学部 医学科",
+"kubun": "一般",
+"name": "後期日程",
+"n": 5,
+"subj": "小論文100・面接100　計200",
+"kt": "5教科7科目を500点に換算（国・数・英・理2・情報Ⅰ）",
+"eng": "",
+"note": "2段階選抜あり。募集10"
+},
+{
+"f": "医学部 保健衛生学科 看護学専攻",
+"kubun": "一般",
+"name": "前期日程",
+"n": 6,
+"subj": "英語120・小論文180・面接　計300",
+"kt": "6教科8科目を560点に換算（国・数・英・地歴公民1・理（基礎2または専門2）・情報Ⅰ）",
+"eng": "",
+"note": "募集35"
+},
+{
+"f": "医学部 保健衛生学科 検査技術学専攻",
+"kubun": "一般",
+"name": "前期日程",
+"n": 6,
+"subj": "数学120・英語120・理科2科目120・面接　計360",
+"kt": "6教科8科目を720点に換算（国・数・英・地歴公民1・理2・情報Ⅰ）",
+"eng": "",
+"note": "募集20"
+},
+{
+"f": "医学部 保健衛生学科 検査技術学専攻",
+"kubun": "一般",
+"name": "後期日程",
+"n": 5,
+"subj": "小論文100・面接100　計200",
+"kt": "5教科7科目を500点に換算（国・数・英・理2・情報Ⅰ）",
+"eng": "",
+"note": "募集7"
+},
+{
+"f": "歯学部 歯学科",
+"kubun": "一般",
+"name": "前期日程",
+"n": 6,
+"subj": "数学120・英語120・理科2科目（物理・化学・生物から）120・面接　計360",
+"kt": "6教科8科目を180点に換算（国・数・英（R150・L50）・地歴公民1・理2・情報Ⅰ）",
+"eng": "",
+"note": "2段階選抜あり。募集33"
+},
+{
+"f": "歯学部 歯学科",
+"kubun": "一般",
+"name": "後期日程",
+"n": 5,
+"subj": "小論文100・面接100　計200",
+"kt": "5教科7科目を500点に換算（国・数・英・理2・情報Ⅰ）",
+"eng": "",
+"note": "2段階選抜あり。募集10"
+},
+{
+"f": "歯学部 口腔保健学科 口腔保健衛生学専攻",
+"kubun": "一般",
+"name": "前期日程",
+"n": 6,
+"subj": "英語120・小論文180・面接　計300",
+"kt": "6教科8科目を630点に換算（国・数・英・地歴公民1・理（基礎2または専門2）・情報Ⅰ）",
+"eng": "",
+"note": "募集18"
+},
+{
+"f": "歯学部 口腔保健学科 口腔保健工学専攻",
+"kubun": "一般",
+"name": "前期日程",
+"n": 6,
+"subj": "英語120・小論文120・面接120　計360",
+"kt": "6教科8科目を720点に換算（国・数・英・地歴公民1・理（基礎2または専門2）・情報Ⅰ）",
+"eng": "",
+"note": "募集8"
+}
+],
+"note": "ベネッセ マナビジョンの2027年度入試情報による（公式の募集要項PDFは今回読めず）。物質理工学院は未確認（他の理工系5学院と同じ「学部共通」の前期日程）。英語外部試験の記載なし。推薦・総合型は省略"
 }
 },
 "神戸大学": {
@@ -21933,7 +22087,9 @@
 "https://search.keinet.ne.jp/1160/outline/admission_employment",
 "https://search.keinet.ne.jp/1160/general/exam_subject",
 "https://www.tuat.ac.jp/documents/tuat/admission/nyushi_gakubu/youkou/r9_senbatuyoukou.pdf",
-"https://passnavi.obunsha.co.jp/univ/0260/expense/"
+"https://passnavi.obunsha.co.jp/univ/0260/expense/",
+"https://www.tuat.ac.jp/documents/tuat/admission/nyushi_gakubu/info/R9nougakubu_ippann_haitennhennkou.pdf",
+"https://search.keinet.ne.jp/1160/outline/opencampus"
 ],
 "licenses": [
 "獣医師国家試験受験資格（共同獣医学科）",
@@ -22198,11 +22354,12 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "money": "2026-11-07",
-"schedule": "2026-11-15",
+"schedule": "2026-11-20",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"research": "2026-11-14"
+"research": "2026-11-14",
+"oc": "2026-11-20"
 },
 "money": {
 "year": "2026年度",
@@ -22253,7 +22410,7 @@
 "result": "3/6",
 "proc": "3/15",
 "fee": null,
-"note": "農学部・工学部とも2/25。出願期間・試験日・発表・手続は公式の選抜要項（令和9年度）で確認"
+"note": "農学部・工学部とも2/25。令和9年度選抜要項（2026年7月公表）で確認"
 },
 {
 "kubun": "一般",
@@ -22263,15 +22420,37 @@
 "result": "3/20",
 "proc": "3/27",
 "fee": null,
-"note": "農学部・工学部とも3/12。試験日・発表・手続は公式の選抜要項（令和9年度）で確認。出願期間は一般選抜学生募集要項で要確認"
+"note": "農学部・工学部とも3/12。選抜要項に後期の出願期間の記載なし（一般選抜学生募集要項で要確認）"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜（共テあり）",
 "apply": "1/14〜1/20",
+"exam": null,
 "result": "2/10",
 "proc": "2/17",
-"note": "出願期間は公式の選抜要項（令和9年度）で確認。試験日の記載なし。全学科同一日程で書類審査＋共通テスト。入学手続2/17はKei-Net表記。"
+"fee": null,
+"note": "書類審査＋共通テスト。産業動物獣医師養成枠も同じ出願期間・発表日（令和9年度選抜要項）"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 SAIL入試（工学部、応用化学科を除く）",
+"apply": "9/1〜9/7",
+"exam": "9/25",
+"result": "11/2",
+"proc": "12/22",
+"fee": null,
+"note": "第一次選考結果9/15発送、第二次選考9/25、最終結果11/2発送（令和9年度選抜要項）"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 ゼミナール入試（農学部 環境資源科学科）",
+"apply": "10/2〜10/8",
+"exam": "11/28",
+"result": "2/10",
+"proc": null,
+"fee": null,
+"note": "第一次結果11/6発送、第二次（ゼミナール・面接）11/28、第二次結果12/4発送、共通テスト後に最終結果2/10発送（令和9年度選抜要項）"
 }
 ]
 },
@@ -22397,7 +22576,13 @@
 "機械システム・知能情報システム工学（ロボティクス、車両システム、宇宙工学、人工知能、セキュリティなど）",
 "農学・応用生物科学・環境資源科学（作物学、遺伝子工学、食品化学、環境修復、バイオマスなど）",
 "地域生態システム学（森林生態、野生動物管理、農村計画、環境法など）と共同獣医学（6年制）"
-]
+],
+"oc": {
+"year": "2027年度",
+"events": [],
+"url": "https://search.keinet.ne.jp/1160/outline/opencampus",
+"note": "2026年度のOCは終了：工学部（小金井）8/4・8/5・11/8、農学部（府中）8/3〜8/10に学科ごとの説明会、10/11・10/18にキャンパスハイク（いずれも事前申込制、Kei-Net）。2027年度は未発表"
+}
 },
 "電気通信大学": {
 "difficulty": {
@@ -22441,7 +22626,8 @@
 "https://www.uec.ac.jp/education/undergraduate/admission/pdf/2027senbatsu.pdf",
 "https://passnavi.obunsha.co.jp/univ/0320/expense/",
 "https://manabi.benesse.ne.jp/daigaku/school/1135/nyushi/hoshiki/ippan/index.html",
-"https://search.keinet.ne.jp/1115/outline/scholarship"
+"https://search.keinet.ne.jp/1115/outline/scholarship",
+"https://passnavi.obunsha.co.jp/univ/0320/opencampus/"
 ],
 "licenses": [
 "教員免許（中・高 数学）",
@@ -22475,7 +22661,7 @@
 1,
 1
 ],
-"note": "二次は数学200と比重大"
+"note": "二次は数学200と比重大。第1段階選抜は行わない予定"
 },
 {
 "kubun": "一般",
@@ -22502,12 +22688,12 @@
 "name": "総合型選抜",
 "content": "1次書類（Ⅰ類は教科試験・適性試験も）、2次面接・プレゼン",
 "req": "現役・専願",
-"kyotsu": "記載なし",
+"kyotsu": "課さない",
 "note": "夜間主（先端工学基礎課程）は別枠"
 }
 ],
-"summary": "一般は前期・後期で前期は共テ:二次1:1、後期は二次重視。推薦は評定4.0以上の現役専願、総合型はプレゼンあり。",
-"note": "推薦・総合型で共通テストを課すかはKei-Netに記載なし。中期日程はなし"
+"summary": "一般は前期・後期で前期は共テ:二次1:1、後期は二次重視。推薦は評定4.0以上の現役専願、総合型はプレゼンあり。推薦・総合型とも共通テストは課さない。",
+"note": "令和9年度選抜要項で推薦・総合型とも共通テストを課さないことを確認。中期日程はなし"
 },
 "departments": [
 {
@@ -22582,12 +22768,14 @@
 "_checked": {
 "fdiff": "2026-11-06",
 "money": "2026-11-07",
-"schedule": "2026-11-15",
+"schedule": "2026-11-20",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "research": "2026-11-14",
-"scholar": "2026-11-19"
+"scholar": "2026-11-19",
+"methods": "2026-11-20",
+"oc": "2026-11-20"
 },
 "money": {
 "year": "2026年度",
@@ -22642,7 +22830,7 @@
 "result": "3/6",
 "proc": null,
 "fee": null,
-"note": "入学手続締切は選抜要項の該当部分で確認できず"
+"note": "第1段階選抜は行わない予定。入学手続締切は選抜要項に記載なし"
 },
 {
 "kubun": "一般",
@@ -22652,16 +22840,27 @@
 "result": "3/21",
 "proc": null,
 "fee": null,
-"note": "入学手続締切は選抜要項の該当部分で確認できず"
+"note": "志願者が募集人員の約8倍を超えた場合に第1段階選抜を行うことがある。入学手続締切は選抜要項に記載なし"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜",
-"apply": "〜11/5着",
+"apply": "11/2〜11/5",
 "exam": "11/17・11/18",
 "result": "12/2",
 "proc": "12/15",
-"note": "Kei-Net表記（出願は締切日のみ、必着）。全15学科同一日程。"
+"fee": null,
+"note": "11/17 総合問題試験・基礎学力検査(CBT)、11/18 面接（令和9年度選抜要項）。手続締切はKei-Net表記"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（Ⅰ類・Ⅱ類・Ⅲ類）",
+"apply": "9/1〜9/3",
+"exam": "9/15（1次・Ⅰ類CBT）・10/20（2次面接）",
+"result": "10/5（1次）・11/2（2次）",
+"proc": null,
+"fee": null,
+"note": "令和9年度選抜要項による"
 }
 ]
 },
@@ -22752,6 +22951,19 @@
 }
 ],
 "note": "Kei-Net（2026年度実施情報）による"
+},
+"oc": {
+"year": "2027年度",
+"events": [
+{
+"date": "2026/11/22",
+"type": "来場型",
+"title": "オープンキャンパス",
+"note": "研究室公開・大学説明会・個別相談会など（パスナビ。変更の可能性あり）"
+}
+],
+"url": "https://passnavi.obunsha.co.jp/univ/0320/opencampus/",
+"note": "2026/7/19のオープンキャンパス（要事前予約、入試説明会あり）は終了。2027年度は未発表"
 }
 },
 "東京都立大学": {
