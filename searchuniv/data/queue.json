@@ -12765,6 +12765,104 @@
 "need": [
 "oc"
 ]
+},
+{
+"name": "和歌山大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"founded",
+"kyotsu"
+],
+"keinet": "1335"
+},
+{
+"name": "大阪教育大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"kyotsu",
+"difficulty"
+],
+"keinet": "1305"
+},
+{
+"name": "奈良教育大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"difficulty"
+],
+"keinet": "1325"
+},
+{
+"name": "滋賀医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"founded",
+"kyotsu"
+],
+"keinet": "1275"
+},
+{
+"name": "滋賀大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"kyotsu",
+"difficulty"
+],
+"keinet": "1270"
+},
+{
+"name": "山口大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"kyotsu",
+"difficulty"
+],
+"keinet": "1365"
+},
+{
+"name": "富山大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"kyotsu"
+],
+"keinet": "1190",
+"fails": 1,
+"last_fail": "2026-11-21",
+"note": "2026-11-21 Kei-Net大学トップ（沿革）は今回取得できず、exam_subjectは文型・理型・選択型の表記で教科・科目数の数値が一部しか無く、中盤が読み取れず"
+},
+{
+"name": "浜松医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded"
+],
+"keinet": "1235",
+"fails": 1,
+"last_fail": "2026-11-21",
+"note": "2026-11-21 Kei-Net大学トップ（沿革）が今回取得できず（WebFetchの権限確認で失敗）"
 }
 ],
 "failed": [],
@@ -13013,77 +13111,6 @@
 "国際ファッション専門職大学": 1
 },
 "enrich": [
-{
-"name": "和歌山大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students",
-"founded",
-"kyotsu"
-],
-"keinet": "1335"
-},
-{
-"name": "大阪教育大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded",
-"kyotsu",
-"difficulty"
-],
-"keinet": "1305"
-},
-{
-"name": "奈良教育大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded",
-"difficulty"
-],
-"keinet": "1325"
-},
-{
-"name": "滋賀医科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students",
-"founded",
-"kyotsu"
-],
-"keinet": "1275"
-},
-{
-"name": "滋賀大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded",
-"kyotsu",
-"difficulty"
-],
-"keinet": "1270"
-},
-{
-"name": "山口大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded",
-"kyotsu",
-"difficulty"
-],
-"keinet": "1365"
-},
 {
 "name": "島根大学",
 "need": [
@@ -36002,33 +36029,6 @@
 "fails": 1,
 "last_fail": "2026-11-20",
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
-},
-{
-"name": "富山大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded",
-"kyotsu"
-],
-"keinet": "1190",
-"fails": 1,
-"last_fail": "2026-11-21",
-"note": "2026-11-21 Kei-Net大学トップ（沿革）は今回取得できず、exam_subjectは文型・理型・選択型の表記で教科・科目数の数値が一部しか無く、中盤が読み取れず"
-},
-{
-"name": "浜松医科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded"
-],
-"keinet": "1235",
-"fails": 1,
-"last_fail": "2026-11-21",
-"note": "2026-11-21 Kei-Net大学トップ（沿革）が今回取得できず（WebFetchの権限確認で失敗）"
 },
 {
 "name": "島根大学",
