@@ -12264,6 +12264,87 @@
 "kyotsu",
 "difficulty"
 ]
+},
+{
+"name": "水産大学校",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "5030"
+},
+{
+"name": "職業能力開発総合大学校",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"kyotsu"
+],
+"keinet": "5040"
+},
+{
+"name": "航空保安大学校",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "茨城県立農業大学校",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "航空大学校",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "職業能力開発大学校（ポリテクカレッジ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
 }
 ],
 "failed": [],
@@ -12508,104 +12589,9 @@
 "千葉大学": 2,
 "茨城大学": 1,
 "埼玉大学": 1,
-"立命館アジア太平洋大学（APU）": 1
+"立命館アジア太平洋大学（APU）": 2
 },
 "enrich": [
-{
-"name": "水産大学校",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu"
-],
-"keinet": "5030"
-},
-{
-"name": "国立看護大学校",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
-]
-},
-{
-"name": "職業能力開発総合大学校",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"kyotsu"
-],
-"keinet": "5040"
-},
-{
-"name": "航空保安大学校",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
-]
-},
-{
-"name": "茨城県立農業大学校",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"kyotsu",
-"difficulty"
-]
-},
-{
-"name": "航空大学校",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
-]
-},
-{
-"name": "職業能力開発大学校（ポリテクカレッジ）",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
-]
-},
 {
 "name": "国際ファッション専門職大学",
 "need": [
@@ -36018,17 +36004,21 @@
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
 },
 {
-"name": "立命館アジア太平洋大学（APU）",
+"name": "国立看護大学校",
 "need": [
 "gap_keinet"
 ],
 "fields": [
-"licenses"
+"research",
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
 ],
-"keinet": "2766",
 "fails": 1,
 "last_fail": "2026-11-20",
-"note": "2026-11-20 licenses: Kei-Net licentialは取得不可（許可タイムアウト）、パスナビ univ/5142/shinro は「取得できる資格情報はございません」、APU学則に教職課程・資格の記載なし"
+"note": "2026-11-20 公式 ncn.ac.jp は取得不可（許可タイムアウト）、Kei-Net・パスナビに掲載なし。テレメール・マナビジョンの単独情報のみで採用せず"
 },
 {
 "name": "島根大学",
@@ -37616,6 +37606,20 @@
 "fails": 2,
 "last_fail": "2026-11-20",
 "note": "2026-11-20 公式のOCページ(chiba-u.ac.jp/admissions/event/opencampus.html, exam/weboc)は取得できず、マナビジョンは「2026年度会場開催は日程未定・WEB版は通年」のみで公式と照合できず／2026-11-20 マナビジョンは2026年度会場開催は日程未定・WEB版は通年のみで、公式・Kei-Net・パスナビで照合できず",
+"deferred": true
+},
+{
+"name": "立命館アジア太平洋大学（APU）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses"
+],
+"keinet": "2766",
+"fails": 2,
+"last_fail": "2026-11-20",
+"note": "2026-11-20 licenses: Kei-Net licentialは取得不可（許可タイムアウト）、パスナビ univ/5142/shinro は「取得できる資格情報はございません」、APU学則に教職課程・資格の記載なし／2026-11-20 licenses: Kei-Net licentialは再び取得不可（許可タイムアウト）、パスナビ shinro は「取得できる資格情報はございません」、APU公式で資格・教職課程のページは検索で見つからず",
 "deferred": true
 }
 ],
