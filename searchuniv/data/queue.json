@@ -12863,6 +12863,89 @@
 "fails": 1,
 "last_fail": "2026-11-21",
 "note": "2026-11-21 Kei-Net大学トップ（沿革）が今回取得できず（WebFetchの権限確認で失敗）"
+},
+{
+"name": "島根大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded"
+],
+"keinet": "1345"
+},
+{
+"name": "徳島大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded"
+],
+"keinet": "1370"
+},
+{
+"name": "愛媛大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded"
+],
+"keinet": "1390"
+},
+{
+"name": "香川大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"difficulty"
+],
+"keinet": "1380"
+},
+{
+"name": "高知大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded"
+],
+"keinet": "1395"
+},
+{
+"name": "鳥取大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded"
+],
+"keinet": "1340"
+},
+{
+"name": "鳴門教育大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "1375"
+},
+{
+"name": "九州工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"difficulty"
+],
+"keinet": "1415"
 }
 ],
 "failed": [],
@@ -13111,89 +13194,6 @@
 "国際ファッション専門職大学": 1
 },
 "enrich": [
-{
-"name": "島根大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded"
-],
-"keinet": "1345"
-},
-{
-"name": "徳島大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded"
-],
-"keinet": "1370"
-},
-{
-"name": "愛媛大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded"
-],
-"keinet": "1390"
-},
-{
-"name": "香川大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"difficulty"
-],
-"keinet": "1380"
-},
-{
-"name": "高知大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded"
-],
-"keinet": "1395"
-},
-{
-"name": "鳥取大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded"
-],
-"keinet": "1340"
-},
-{
-"name": "鳴門教育大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded",
-"licenses",
-"difficulty"
-],
-"keinet": "1375"
-},
-{
-"name": "九州工業大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"licenses",
-"difficulty"
-],
-"keinet": "1415"
-},
 {
 "name": "宮崎大学",
 "need": [
