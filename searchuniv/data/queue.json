@@ -13892,6 +13892,74 @@
 "kyotsu"
 ],
 "keinet": "2692"
+},
+{
+"name": "高知学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2691"
+},
+{
+"name": "広島経済大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu"
+],
+"keinet": "2633"
+},
+{
+"name": "徳島文理大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu"
+],
+"keinet": "2665"
+},
+{
+"name": "平成音楽大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"careers",
+"kyotsu"
+],
+"keinet": "2756",
+"fails": 1,
+"last_fail": "2026-11-22",
+"note": "2026-11-22 Kei-Net outline/department は学科名と定員のみで特色の説明なし（research 未取得）。exam_subject に共テ利用方式なし（kyotsu は無しが正しい）。careers は回数上限で未確認"
+},
+{
+"name": "志學館大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"careers",
+"kyotsu"
+],
+"keinet": "2789",
+"fails": 1,
+"last_fail": "2026-11-22",
+"note": "2026-11-22 Kei-Net outline/department は学科名と定員のみ（research 未取得）。パスナビ shinro に就職先情報なし、Kei-Net admission_employment・exam_subject は回数上限で未確認"
 }
 ],
 "failed": [],
@@ -14144,79 +14212,11 @@
 "九州ルーテル学院大学": 2,
 "九州栄養福祉大学": 1,
 "平成音楽大学": 1,
-"志學館大学": 1
+"志學館大学": 1,
+"鳥取看護大学": 1,
+"中村学園大学": 1
 },
 "enrich": [
-{
-"name": "高知学園大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu"
-],
-"keinet": "2691"
-},
-{
-"name": "鳥取看護大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses"
-],
-"keinet": "2605"
-},
-{
-"name": "中村学園大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses"
-],
-"keinet": "2710"
-},
-{
-"name": "広島経済大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses",
-"kyotsu"
-]
-},
-{
-"name": "広島都市学園大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses"
-],
-"keinet": "2647"
-},
-{
-"name": "徳島文理大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses",
-"kyotsu"
-],
-"keinet": "2665"
-},
 {
 "name": "日本赤十字広島看護大学",
 "need": [
@@ -35989,34 +35989,46 @@
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
 },
 {
-"name": "平成音楽大学",
+"name": "鳥取看護大学",
 "need": [
 "gap_keinet"
 ],
 "fields": [
 "research",
-"careers",
-"kyotsu"
+"licenses"
 ],
-"keinet": "2756",
+"keinet": "2605",
 "fails": 1,
 "last_fail": "2026-11-22",
-"note": "2026-11-22 Kei-Net outline/department は学科名と定員のみで特色の説明なし（research 未取得）。exam_subject に共テ利用方式なし（kyotsu は無しが正しい）。careers は回数上限で未確認"
+"note": "2026-11-22 Kei-Net の outline/department・licential を開こうとしたが WebFetch の許可待ちで取得できず（出典に記載が無いとは限らない）"
 },
 {
-"name": "志學館大学",
+"name": "中村学園大学",
 "need": [
 "gap_keinet"
 ],
 "fields": [
 "research",
-"careers",
-"kyotsu"
+"licenses"
 ],
-"keinet": "2789",
+"keinet": "2710",
 "fails": 1,
 "last_fail": "2026-11-22",
-"note": "2026-11-22 Kei-Net outline/department は学科名と定員のみ（research 未取得）。パスナビ shinro に就職先情報なし、Kei-Net admission_employment・exam_subject は回数上限で未確認"
+"note": "2026-11-22 Kei-Net の outline/department・licential を開こうとしたが WebFetch の許可待ちで取得できず（出典に記載が無いとは限らない）"
+},
+{
+"name": "広島都市学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2647",
+"fails": 1,
+"last_fail": "2026-11-22",
+"note": "2026-11-22 Kei-Net の outline/department・licential を開こうとしたが WebFetch の許可待ちで取得できず（出典に記載が無いとは限らない）"
 },
 {
 "name": "島根大学",
