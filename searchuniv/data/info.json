@@ -25624,7 +25624,9 @@
 "https://admission.utsunomiya-u.ac.jp/docs/R9senbatsuyoukou_2026.pdf",
 "https://passnavi.obunsha.co.jp/univ/0180/expense/",
 "https://search.keinet.ne.jp/1090/outline/scholarship",
-"https://search.keinet.ne.jp/1090/general/exam_result"
+"https://search.keinet.ne.jp/1090/general/exam_result",
+"https://www.utsunomiya-u.ac.jp/docs/udai_oc2026.pdf",
+"https://passnavi.obunsha.co.jp/univ/0180/opencampus/"
 ],
 "licenses": [
 "教員免許（幼・小・中・高、特別支援）",
@@ -26003,7 +26005,8 @@
 "ratios": "2026-11-21",
 "research": "2026-11-14",
 "scholar": "2026-11-19",
-"methods": "2026-11-20"
+"methods": "2026-11-20",
+"oc": "2026-11-21"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -26526,6 +26529,19 @@
 }
 ],
 "note": "Kei-Net（2026年度実施情報）による"
+},
+"oc": {
+"year": "2026年度",
+"events": [
+{
+"date": "2026/12/12",
+"type": "来場型",
+"title": "冬の模擬ゼミ",
+"note": "実施学部・申込方法は大学公式の特設サイトで確認"
+}
+],
+"url": "https://www.utsunomiya-u.ac.jp/docs/udai_oc2026.pdf",
+"note": "2026年度の来場型オープンキャンパス（要事前申込）は7/18（データサイエンス経営・共同教育、峰）・7/20（農、峰）・7/25（国際、峰）・8/1（地域デザイン科学・工、陽東）に実施済み。オンライン説明会も7〜8月・10月に実施済み。工学部の体験教室は10〜11月に計画と記載。2027年度の日程は未発表"
 }
 },
 "群馬大学": {
@@ -130989,7 +131005,9 @@
 "students": "2026-11-09",
 "founded": "2026-11-09",
 "schedule": "2026-11-19",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"difficulty": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -131028,7 +131046,9 @@
 "https://search.keinet.ne.jp/2804/general/exam_fee",
 "https://search.keinet.ne.jp/2804/general/exam_subject",
 "https://search.keinet.ne.jp/2804/outline/expense",
-"https://manabi.benesse.ne.jp/daigaku/school/3979/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3979/nyushi/",
+"https://search.keinet.ne.jp/2804/outline/department",
+"https://search.keinet.ne.jp/2804/general/border_rate"
 ],
 "students": {
 "count": 542,
@@ -131107,7 +131127,15 @@
 "note": "other は諸会費"
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "BF",
+"year": "2027年度入試用"
+},
+"research": [
+"英語コミュニケーション（人文学部 英語コミュニケーション学科）",
+"観光文化（人文学部 観光文化学科）"
+]
 },
 "産業医科大学": {
 "faculties": [
@@ -131126,7 +131154,10 @@
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -131328,13 +131359,39 @@
 "https://www.uoeh-u.ac.jp/University/Corporation/50th_uoeh.html",
 "https://search.keinet.ne.jp/2723/outline/expense",
 "https://manabi.benesse.ne.jp/daigaku/school/3877/nyushi/",
-"https://telemail.jp/shingaku/university/10001963/examination/general"
+"https://telemail.jp/shingaku/university/10001963/examination/general",
+"https://search.keinet.ne.jp/2723/outline/department",
+"https://search.keinet.ne.jp/2723/general/exam_subject",
+"https://search.keinet.ne.jp/2723/general/border_rate"
 ],
 "students": {
 "count": 1012,
 "year": 2025
 },
-"founded": "1978年開学"
+"founded": "1978年開学",
+"difficulty": {
+"hensachi": "40.0〜65.0",
+"kyotei": "41%〜82%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "2教科3科目〜5教科7科目",
+"kyoka": [
+2,
+5
+],
+"rl": [
+"4:1"
+],
+"rl_text": "英語はリーディング:リスニング=4:1（医学科A方式はR48・L12、看護学科A方式はR40・L10など）",
+"note": "医学部医学科はA方式・C方式で5教科7科目。産業保健学部の看護学科はA・B・C方式で4教科4科目、産業衛生科学科はA方式4教科5科目・B方式2教科3科目（数学2・理科1、英語なし）。",
+"year": "2027年度入試"
+},
+"research": [
+"医学（医学部 医学科）",
+"看護（産業保健学部 看護学科）",
+"産業衛生科学（産業保健学部 産業衛生科学科）"
+]
 },
 "沖縄国際大学": {
 "faculties": [
@@ -131751,7 +131808,10 @@
 "_via": "2026-11-07",
 "students": "2026-11-09",
 "founded": "2026-11-09",
-"schedule": "2026-11-19"
+"schedule": "2026-11-19",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -131875,7 +131935,10 @@
 "https://univ-journal.jp/245154/",
 "https://search.keinet.ne.jp/2739/general/schedule",
 "https://search.keinet.ne.jp/2739/general/exam_fee",
-"https://search.keinet.ne.jp/2739/outline/expense"
+"https://search.keinet.ne.jp/2739/outline/expense",
+"https://search.keinet.ne.jp/2739/outline/department",
+"https://search.keinet.ne.jp/2739/general/exam_subject",
+"https://search.keinet.ne.jp/2739/general/border_rate"
 ],
 "students": {
 "count": 864,
@@ -131935,7 +131998,30 @@
 "note": "国際文化学部・健康生活学部のみ（Kei-Net）"
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "BF〜35.0",
+"kyotei": "38%〜46%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "2教科2科目〜4教科4科目",
+"kyoka": [
+2,
+4
+],
+"rl": [
+"1:1"
+],
+"rl_text": "国際文化学科は英語R45・L45（1:1）、看護学科はリーディングのみ100点、健康生活学部の3学科は英語として90〜100点（R・Lの内訳はKei-Netに表示なし）",
+"note": "共通テスト方式。国際文化・生活デザイン・子ども学科は2教科2科目選択、食生活健康学科は英・数・国から1を含む2教科、看護学科は英語・国語必須＋数学1・理科1の4教科4科目。Kei-Netでは2027年4月に「活水大学」へ名称変更予定と表示。",
+"year": "2027年度入試"
+},
+"research": [
+"国際文化（国際文化学部 国際文化学科）",
+"看護（看護学部 看護学科）",
+"食生活健康・生活デザイン・子ども（健康生活学部）"
+]
 },
 "熊本保健科学大学": {
 "faculties": [
@@ -131952,7 +132038,10 @@
 "_via": "2026-11-07",
 "students": "2026-11-09",
 "founded": "2026-11-09",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -132048,7 +132137,10 @@
 "https://www.kumamoto-hsu.ac.jp/about/history.html",
 "https://search.keinet.ne.jp/2757",
 "https://search.keinet.ne.jp/2757/outline/expense",
-"https://manabi.benesse.ne.jp/daigaku/school/3938/nyushi/hoshiki/ippan/"
+"https://manabi.benesse.ne.jp/daigaku/school/3938/nyushi/hoshiki/ippan/",
+"https://search.keinet.ne.jp/2757/outline/department",
+"https://search.keinet.ne.jp/2757/general/exam_subject",
+"https://search.keinet.ne.jp/2757/general/border_rate"
 ],
 "students": {
 "count": 1567,
@@ -132072,7 +132164,30 @@
 "note": "Kei-Netは学科別の内訳なし"
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "35.0〜40.0",
+"kyotei": "37%〜62%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "3教科3科目〜3教科4科目",
+"kyoka": [
+3,
+3
+],
+"rl": [
+"3:1"
+],
+"rl_text": "英語はリーディング150点・リスニング50点（計200点）",
+"note": "前期－共テ・後期－共テを実施（満点600点）。医学検査学科の前期は英語・数学2科目・理科1の3教科4科目、他の学科は英語必須＋2教科（学科により数・国・理・情などから選択）。",
+"year": "2027年度入試"
+},
+"research": [
+"医学検査（保健科学部 医学検査学科）",
+"看護（保健科学部 看護学科）",
+"理学療法・作業療法・言語聴覚（保健科学部 リハビリテーション学科）"
+]
 },
 "熊本学園大学": {
 "faculties": [
@@ -132092,7 +132207,10 @@
 "_via": "2026-11-07",
 "students": "2026-11-09",
 "founded": "2026-11-09",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -132236,7 +132354,10 @@
 "https://search.keinet.ne.jp/2752/outline/expense",
 "https://search.keinet.ne.jp/2752/general/schedule",
 "https://search.keinet.ne.jp/2752/general/exam_fee",
-"https://manabi.benesse.ne.jp/daigaku/school/3932/nyushi/hoshiki/ippan/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3932/nyushi/hoshiki/ippan/index.html",
+"https://search.keinet.ne.jp/2752/outline/department",
+"https://search.keinet.ne.jp/2752/general/exam_subject",
+"https://search.keinet.ne.jp/2752/general/border_rate"
 ],
 "students": {
 "count": 4865,
@@ -132304,7 +132425,32 @@
 "note": "other は諸会費。4回分納"
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "35.0〜42.5",
+"kyotei": "46%〜63%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "1教科1科目〜4教科4科目",
+"kyoka": [
+1,
+4
+],
+"rl": [
+"1:1"
+],
+"rl_text": "外国語学部では英語R100・L100、またはR50・L50（1:1）",
+"note": "外国語学部の例：A・B・C日程のA方式（3教科3科目）・B方式（3〜4教科4科目）と共通テスト＋（英語1科目）。他学部の科目はKei-Netで確認。",
+"year": "2027年度入試"
+},
+"research": [
+"英米・東アジア（外国語学部）",
+"社会福祉・子ども家庭福祉・ライフ・ウェルネス（社会福祉学部）",
+"経済・リーガルエコノミクス（経済学部）",
+"商・ホスピタリティ・マネジメント（商学部）",
+"地域未来創造学環（2027年度新設予定）"
+]
 },
 "九州看護福祉大学": {
 "faculties": [
@@ -132320,7 +132466,10 @@
 "students": "2026-11-09",
 "founded": "2026-11-09",
 "schedule": "2026-11-10",
-"money": "2026-11-10"
+"money": "2026-11-10",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -132352,7 +132501,9 @@
 "https://search.keinet.ne.jp/2755",
 "https://search.keinet.ne.jp/2755/outline/department",
 "https://manabi.benesse.ne.jp/daigaku/school/3936/nyushi/index.html",
-"https://search.keinet.ne.jp/2755/outline/expense"
+"https://search.keinet.ne.jp/2755/outline/expense",
+"https://search.keinet.ne.jp/2755/general/exam_subject",
+"https://search.keinet.ne.jp/2755/general/border_rate"
 ],
 "students": {
 "count": 1203,
@@ -132423,7 +132574,30 @@
 "note": "other は諸会費（Kei-Net）"
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "37.5〜42.5",
+"kyotei": "40%〜60%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "1〜2教科2科目〜3教科3科目",
+"kyoka": [
+1,
+3
+],
+"rl": [],
+"rl_text": "英語はリーディングのみ100点（リスニングの配点なし）",
+"note": "共通テスト方式。看護・リハビリテーション学科は英語必須の3教科3科目、社会福祉学科は2教科2科目選択、鍼灸スポーツ・口腔保健学科は数学・理科2科目も選べる2科目選択。",
+"year": "2027年度入試"
+},
+"research": [
+"看護（看護福祉学部 看護学科）",
+"社会福祉（看護福祉学部 社会福祉学科）",
+"リハビリテーション（看護福祉学部 リハビリテーション学科）",
+"鍼灸スポーツ（看護福祉学部 鍼灸スポーツ学科）",
+"口腔保健（看護福祉学部 口腔保健学科）"
+]
 },
 "令和健康科学大学": {
 "faculties": [
@@ -132442,7 +132616,10 @@
 "students": "2026-11-09",
 "founded": "2026-11-09",
 "schedule": "2026-11-19",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -132569,7 +132746,10 @@
 "https://ja.wikipedia.org/wiki/%E4%BB%A4%E5%92%8C%E5%81%A5%E5%BA%B7%E7%A7%91%E5%AD%A6%E5%A4%A7%E5%AD%A6",
 "https://search.keinet.ne.jp/2732/general/schedule",
 "https://search.keinet.ne.jp/2732/outline/expense",
-"https://manabi.benesse.ne.jp/daigaku/school/3902/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3902/nyushi/index.html",
+"https://search.keinet.ne.jp/2732/outline/department",
+"https://search.keinet.ne.jp/2732/general/exam_subject",
+"https://search.keinet.ne.jp/2732/general/border_rate"
 ],
 "students": {
 "count": 787,
@@ -132683,7 +132863,29 @@
 "note": "大学公式"
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "35.0〜37.5",
+"kyotei": "45%〜55%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "3教科3科目",
+"kyoka": [
+3,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はリーディング50点・リスニング50点（計100点）",
+"note": "共通テスト方式（満点300点）。英語・国語必須＋数学・理科・情報Ⅰから1。",
+"year": "2027年度入試"
+},
+"research": [
+"理学療法・作業療法（リハビリテーション学部）",
+"看護（看護学部 看護学科）"
+]
 },
 "別府大学": {
 "faculties": [
@@ -132701,7 +132903,10 @@
 "students": "2026-11-09",
 "founded": "2026-11-09",
 "schedule": "2026-11-19",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -132743,7 +132948,10 @@
 "https://search.keinet.ne.jp/2765/general/schedule",
 "https://search.keinet.ne.jp/2765/general/exam_fee",
 "https://search.keinet.ne.jp/2765/outline/expense",
-"https://manabi.benesse.ne.jp/daigaku/school/3947/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3947/nyushi/index.html",
+"https://search.keinet.ne.jp/2765/outline/department",
+"https://search.keinet.ne.jp/2765/general/exam_subject",
+"https://search.keinet.ne.jp/2765/general/border_rate"
 ],
 "students": {
 "count": 1881,
@@ -132892,7 +133100,31 @@
 "note": "other は諸会費"
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "35.0〜37.5",
+"kyotei": "49%〜54%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "1〜2教科2科目",
+"kyoka": [
+1,
+2
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はリーディング50点・リスニング50点（計100点）",
+"note": "共通テスト方式（満点200点）。英・数・国・理・地公・情から2科目（国際言語・文化学科は英か国を含む、看護学科は英・国から1と数・理から1）。",
+"year": "2027年度入試"
+},
+"research": [
+"国際言語・文化、史学・文化財、人間関係（文学部）",
+"国際経営（国際経営学部）",
+"看護（看護学部 看護学科）",
+"食物栄養・食品サイエンス（食物栄養科学部）"
+]
 },
 "南九州大学": {
 "faculties": [
