@@ -14058,6 +14058,98 @@
 "fails": 1,
 "last_fail": "2026-11-22",
 "note": "2026-11-22 Kei-Net の outline/department・licential を開こうとしたが WebFetch の許可待ちで取得できず（出典に記載が無いとは限らない）"
+},
+{
+"name": "比治山大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2641"
+},
+{
+"name": "環太平洋大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2626"
+},
+{
+"name": "岡山学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "岡山理科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"difficulty"
+],
+"keinet": "2614"
+},
+{
+"name": "川崎医療福祉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu"
+],
+"keinet": "2616"
+},
+{
+"name": "川崎医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu"
+],
+"keinet": "2615"
+},
+{
+"name": "広島修道大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2635"
+},
+{
+"name": "広島国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2644"
 }
 ],
 "failed": [],
@@ -14315,98 +14407,6 @@
 "中村学園大学": 1
 },
 "enrich": [
-{
-"name": "比治山大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses"
-],
-"keinet": "2641"
-},
-{
-"name": "環太平洋大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses"
-],
-"keinet": "2626"
-},
-{
-"name": "岡山学院大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses",
-"kyotsu",
-"difficulty"
-]
-},
-{
-"name": "岡山理科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses",
-"difficulty"
-],
-"keinet": "2614"
-},
-{
-"name": "川崎医療福祉大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses",
-"kyotsu"
-],
-"keinet": "2616"
-},
-{
-"name": "川崎医科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses",
-"kyotsu"
-],
-"keinet": "2615"
-},
-{
-"name": "広島修道大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses"
-],
-"keinet": "2635"
-},
-{
-"name": "広島国際大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses"
-],
-"keinet": "2644"
-},
 {
 "name": "広島女学院大学",
 "need": [
