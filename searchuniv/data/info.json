@@ -131354,7 +131354,9 @@
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"difficulty": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -131480,13 +131482,26 @@
 "https://manabi.benesse.ne.jp/daigaku/school/3977/nyushi/",
 "https://manabi.benesse.ne.jp/daigaku/school/3977/nyushi/hoshiki/ippan/",
 "https://manabi.benesse.ne.jp/daigaku/school/3977/nyushi/hoshiki/sougou/",
-"https://manabi.benesse.ne.jp/daigaku/school/3977/nyushi/hoshiki/gakkou-suisen/"
+"https://manabi.benesse.ne.jp/daigaku/school/3977/nyushi/hoshiki/gakkou-suisen/",
+"https://search.keinet.ne.jp/2801/general/border_rate"
 ],
 "students": {
 "count": 5280,
 "year": 2026
 },
-"founded": "1972年開学（前身：国際大学［1962年設立］と沖縄大学の一部が統合）"
+"founded": "1972年開学（前身：国際大学［1962年設立］と沖縄大学の一部が統合）",
+"difficulty": {
+"hensachi": "37.5〜47.5",
+"kyotei": "",
+"year": "2027年度入試用"
+},
+"research": [
+"日本文化・英米言語文化・社会文化（総合文化学部）",
+"社会福祉・心理カウンセリング（総合文化学部）",
+"法律・地域行政（法学部）",
+"経済・地域環境政策（経済学部）",
+"企業システム・産業情報（産業情報学部）"
+]
 },
 "沖縄大学": {
 "faculties": [
@@ -131505,7 +131520,10 @@
 "_via": "2026-11-07",
 "founded": "2026-11-09",
 "students": "2026-11-09",
-"schedule": "2026-11-10"
+"schedule": "2026-11-10",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -131617,7 +131635,9 @@
 "https://www.okinawa-u.ac.jp/wordpress/wp-content/uploads/2026/07/student_numbers.pdf",
 "https://passnavi.obunsha.co.jp/univ/5200/top/",
 "https://www.okinawa-u.ac.jp/about/history/",
-"https://manabi.benesse.ne.jp/daigaku/school/3976/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3976/nyushi/",
+"https://search.keinet.ne.jp/2802/general/border_rate",
+"https://search.keinet.ne.jp/2802/general/exam_subject"
 ],
 "founded": "1961年 4年制大学として開学（1974年大学設置。前身：沖縄短期大学、1958年設立）",
 "students": {
@@ -131686,7 +131706,32 @@
 "note": "国際コミュニケーション・社会福祉専攻・経法商のみ"
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "35.0〜40.0",
+"kyotei": "40%〜49%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "3教科3科目〜5教科5科目",
+"kyoka": [
+3,
+5
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はリーディング100点・リスニング100点",
+"note": "英語（R・L）と国語は必須。経法商・国際コミュニケーション・福祉（社会福祉・健康スポーツ福祉）は数・理・地公から1（500点）。こども文化・管理栄養は数学・理科・地歴公民から各1（700点）。",
+"year": "2027年度入試"
+},
+"research": [
+"国際コミュニケーション（人文学部）",
+"社会福祉・健康スポーツ福祉（人文学部）",
+"こども文化（人文学部 こども文化学科）",
+"経法商（経法商学部 経法商学科）",
+"管理栄養（健康栄養学部 管理栄養学科）"
+]
 },
 "活水女子大学": {
 "faculties": [
