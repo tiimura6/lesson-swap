@@ -28752,7 +28752,9 @@
 "https://passnavi.obunsha.co.jp/univ/1035/schedule/",
 "https://manabi.benesse.ne.jp/daigaku/school/2050/nyushi/hoshiki/ippan/",
 "https://search.keinet.ne.jp/1519/general/exam_result",
-"https://search.keinet.ne.jp/general/exam_subject_sp/1519"
+"https://search.keinet.ne.jp/general/exam_subject_sp/1519",
+"https://search.keinet.ne.jp/1519/outline/opencampus",
+"https://passnavi.obunsha.co.jp/univ/1035/opencampus/"
 ],
 "licenses": [
 "看護師国家試験受験資格",
@@ -28855,7 +28857,8 @@
 "eng": "2026-11-06",
 "ratios": "2026-11-21",
 "research": "2026-11-14",
-"methods": "2026-11-21"
+"methods": "2026-11-21",
+"oc": "2026-11-21"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -28962,7 +28965,20 @@
 "人間の理解と健康・作業科学、身体障害・精神／認知障害・年代別の障害、地域支援（作業療法学科）",
 "医療の基礎と基礎理工学、画像診断技術・医用画像情報学、放射線治療技術学（放射線技術科学科）",
 "付属病院での医療現場と直結した実践的な教育（保健医療学部）"
-]
+],
+"oc": {
+"year": "2026年度",
+"events": [
+{
+"date": "2026/7/18",
+"type": "来場型",
+"title": "オープンキャンパス（全学部）",
+"note": "7/18・7/19の2日間、本学で実施。事前申込不要（終了）"
+}
+],
+"url": "https://search.keinet.ne.jp/1519/outline/opencampus",
+"note": "2026年度は7月に実施済み。2027年度の日程は未掲載（2026-11-21確認）。最新は大学公式で確認"
+}
 },
 "大阪公立大学": {
 "difficulty": {
@@ -149178,7 +149194,9 @@ null
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"research": "2026-11-21",
+"licenses": "2026-11-21"
 },
 "departments": [
 {
@@ -149312,13 +149330,34 @@ null
 "https://passnavi.obunsha.co.jp/univ/4340/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3653/",
 "https://www.hannan-u.ac.jp/corp/st9plj0000001nq7.html",
-"https://www.hannan-u.ac.jp/entrance/information/2026/b4uvf80000002ggs-att/ihm6cm00000010vb.pdf"
+"https://www.hannan-u.ac.jp/entrance/information/2026/b4uvf80000002ggs-att/ihm6cm00000010vb.pdf",
+"https://search.keinet.ne.jp/2543/outline/department",
+"https://search.keinet.ne.jp/2543/outline/licential"
 ],
 "students": {
 "count": 4448,
 "year": 2025
 },
-"founded": "1965年開学（前身：私立大鉄工学校、1939年創立）"
+"founded": "1965年開学（前身：私立大鉄工学校、1939年創立）",
+"research": [
+"国際コミュニケーション学科（国際学部、定員155）",
+"国際観光学科（国際学部、定員144）",
+"経済学科（経済学部、定員290）",
+"経営学科（経営学部、定員290）",
+"総合情報学科（総合情報学部、定員176）"
+],
+"licenses": [
+"中学校教諭（英語）一種（国際コミュニケーション学科）",
+"高等学校教諭（英語）一種（国際コミュニケーション学科）",
+"中学校教諭（社会）一種（国際観光学科・経済学科）",
+"高等学校教諭（地理歴史）一種（国際観光学科・経済学科）",
+"高等学校教諭（公民）一種（国際観光学科・経済学科）",
+"高等学校教諭（商業）一種（経営学科）",
+"高等学校教諭（情報）一種（総合情報学科）",
+"学校図書館司書教諭一種（全学科）",
+"司書（全学科）",
+"学芸員（全学科）"
+]
 },
 "高野山大学": {
 "faculties": [
@@ -149333,7 +149372,9 @@ null
 "founded": "2026-11-09",
 "students": "2026-11-09",
 "schedule": "2026-11-10",
-"money": "2026-11-10"
+"money": "2026-11-10",
+"research": "2026-11-21",
+"licenses": "2026-11-21"
 },
 "departments": [
 {
@@ -149355,7 +149396,10 @@ null
 "https://www.koyasan-u.ac.jp/notice/news/detail/4780/",
 "https://www.koyasan-u.ac.jp/info/about/",
 "https://www.koyasan-u.ac.jp/pdf/2027%E5%B9%B4%E5%BA%A6%E5%AF%86%E6%95%99%E5%AD%A6%E7%A7%91%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf",
-"https://www.koyasan-u.ac.jp/campuslife/tuition/"
+"https://www.koyasan-u.ac.jp/campuslife/tuition/",
+"https://www.koyasan-u.ac.jp/faculty/literature/",
+"https://www.koyasan-u.ac.jp/faculty/literature/culture.php",
+"https://www.koyasan-u.ac.jp/special/literature.php"
 ],
 "founded": "1949年 新制大学開学（1926年大学令による設立認可／前身：古義大学林、1886年創設）",
 "students": {
@@ -149446,7 +149490,21 @@ null
 "note": "施設費は教育充実費。諸経費（学友会入会金・学友会費・同窓会費・保険）は1年次のみ。2年次以降は授業料のみ年380,000円×2"
 }
 ]
-}
+},
+"research": [
+"密教学科（文学部）密教学コース：僧侶をめざす人も含め、密教・仏教の思想や歴史を高野山キャンパスで学ぶ",
+"日本文化コース：留学生対象",
+"密教文化コース：社会人向け（3年次編入・満25歳以上）のオンライン受講（ライブ配信・オンデマンド・集中講義の対面授業）"
+],
+"licenses": [
+"中学校教諭一種（国語・宗教）",
+"高等学校教諭一種（国語・宗教）",
+"学芸員",
+"高野山真言宗僧侶資格（僧階：大学は権大僧都）",
+"高野山金剛峯寺・高野山大学書道師範",
+"社会福祉主事任用資格",
+"認定心理士"
+]
 },
 "龍谷大学": {
 "faculties": [
@@ -149471,7 +149529,10 @@ null
 "money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"founded": "2026-11-21",
+"research": "2026-11-21",
+"licenses": "2026-11-21"
 },
 "departments": [
 {
@@ -149830,7 +149891,53 @@ null
 "https://search.keinet.ne.jp/2505/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/4060/difficulty/?facultyID=005",
 "https://www.ryukoku.ac.jp/admission/nyushi/pdf/guide/2027_guide.pdf",
-"https://passnavi.obunsha.co.jp/univ/4060/expense/"
+"https://passnavi.obunsha.co.jp/univ/4060/expense/",
+"https://search.keinet.ne.jp/2505",
+"https://search.keinet.ne.jp/2505/outline/department",
+"https://search.keinet.ne.jp/2505/outline/licential"
+],
+"founded": "1922年 大学令により龍谷大学と改称（1949年 新制大学。起源は1639年 西本願寺境内の学寮）",
+"research": [
+"文学部：真宗学・仏教学・社会応用（仏教）、哲学・教育学、日本史学・東洋史学・仏教史学・文化遺産学、日本語日本文学科、英語英米文学科",
+"心理学部 心理学科",
+"社会学部：現代社会・文化・メディア・健康・スポーツ社会・現代福祉の4領域",
+"国際学部：国際文化学科・グローバルスタディーズ学科",
+"法学部 法律学科／政策学部 政策学科",
+"経済学部 経済学科／経営学部 経営学科・商学科",
+"理工学部（2027年4月 改組予定）：数理・情報科学、電子情報通信、機械工学・ロボティクス、応用化学",
+"農学部：生命科学科・農学科・食品栄養学科・食料農業システム学科",
+"環境サステナビリティ学部（2027年4月 改組予定）",
+"情報学部（2027年4月 改組予定）：情報メディア・知能情報システム・実践データサイエンス"
+],
+"licenses": [
+"中学校教諭（社会）一種（哲学・教育学・歴史学系各学科、社会学部、法律学科、政策学科、経済学科、経営学科）",
+"高等学校教諭（地理歴史）一種（哲学・教育学・歴史学系各学科、法律学科、経営学科）",
+"高等学校教諭（公民）一種（哲学・教育学、心理学科、社会学部、法律学科、政策学科、経済学科、経営学科）",
+"中学校教諭（国語）一種（日本語日本文学科）",
+"高等学校教諭（国語）一種（日本語日本文学科）",
+"中学校教諭（英語）一種（英語英米文学科・国際文化学科・グローバルスタディーズ学科）",
+"高等学校教諭（英語）一種（英語英米文学科・国際文化学科・グローバルスタディーズ学科）",
+"中学校教諭（数学）一種（数理・情報科学課程）",
+"高等学校教諭（数学）一種（数理・情報科学課程）",
+"高等学校教諭（情報）一種（数理・情報科学課程、情報学部各学科）",
+"中学校教諭（理科）一種（応用化学課程・生命科学科・農学科・環境サステナビリティ学科）",
+"高等学校教諭（理科）一種（応用化学課程・生命科学科・農学科・環境サステナビリティ学科）",
+"高等学校教諭（工業）一種（電子情報通信課程・機械工学・ロボティクス課程）",
+"高等学校教諭（農業）一種（生命科学科・農学科・食料農業システム学科）",
+"高等学校教諭（商業）一種（経営学科・商学科）",
+"栄養教諭一種（食品栄養学科）",
+"学校図書館司書教諭一種（文学部各学科・経済学科・経営学科）",
+"司書（文学部各学科・経済学科・経営学科）",
+"学芸員（文学部各学科・国際学部・農学科・環境サステナビリティ学科）",
+"社会福祉主事（文学部各学科・社会学部）",
+"社会調査士（社会学部）",
+"社会福祉士（受験資格）（社会学部）",
+"精神保健福祉士（受験資格）（社会学部）",
+"公認心理師（受験資格）（心理学科）",
+"認定心理士（心理学科）",
+"食品衛生監視員（食品栄養学科）",
+"管理栄養士（受験資格）（食品栄養学科）",
+"栄養士（食品栄養学科）"
 ]
 },
 "くらしき作陽大学": {
@@ -149852,7 +149959,8 @@ null
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -150060,13 +150168,21 @@ null
 "https://search.keinet.ne.jp/2618",
 "https://manabi.benesse.ne.jp/daigaku/school/3782/nyushi/gokaku-happyo/",
 "https://search.keinet.ne.jp/2618/outline/expense",
-"https://search.keinet.ne.jp/2618/general/exam_fee"
+"https://search.keinet.ne.jp/2618/general/exam_fee",
+"https://search.keinet.ne.jp/2618/outline/department"
 ],
 "students": {
 "count": 860,
 "year": null
 },
-"founded": "1966年開学（作陽学園大学として設立、前身：津山女子高等技芸学院 1930年創立・作陽短期大学 1951年開学）"
+"founded": "1966年開学（作陽学園大学として設立、前身：津山女子高等技芸学院 1930年創立・作陽短期大学 1951年開学）",
+"research": [
+"子ども教育学科（子ども教育学部、定員80）",
+"栄養学科（食文化学部、定員80）",
+"食マネジメント学科（食文化学部、定員50）",
+"音楽学部：モスクワ音楽院特別演奏・演奏芸術・教育文化",
+"健康スポーツ教育学科（健康スポーツ教育学部、定員80）"
+]
 },
 "エリザベト音楽大学": {
 "faculties": [
@@ -150082,7 +150198,9 @@ null
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"research": "2026-11-21",
+"difficulty": "2026-11-21"
 },
 "departments": [
 {
@@ -150205,13 +150323,23 @@ null
 "https://search.keinet.ne.jp/2632/outline/department",
 "https://www.eum.ac.jp/about/history/",
 "https://www.weblio.jp/content/%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%83%88%E9%9F%B3%E6%A5%BD%E5%A4%A7%E5%AD%A6",
-"https://www.eum.ac.jp/faculty/tuition_fee/"
+"https://www.eum.ac.jp/faculty/tuition_fee/",
+"https://search.keinet.ne.jp/2632/general/border_rate"
 ],
 "students": {
 "count": 201,
 "year": 2025
 },
-"founded": "1963年開学（前身：広島音楽教室 1947年開設、広島音楽学校 1948年開校、エリザベト音楽短期大学 1952年開学）"
+"founded": "1963年開学（前身：広島音楽教室 1947年開設、広島音楽学校 1948年開校、エリザベト音楽短期大学 1952年開学）",
+"research": [
+"音楽文化学科（音楽学部、定員15）",
+"演奏学科（音楽学部、定員35）"
+],
+"difficulty": {
+"hensachi": "BF",
+"kyotei": null,
+"year": "2027年度入試用"
+}
 },
 "ノートルダム清心女子大学": {
 "faculties": [
@@ -150232,7 +150360,8 @@ null
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -150388,13 +150517,20 @@ null
 "https://shingakunet.com/gakko/SC000159/gakuhi/",
 "https://passnavi.obunsha.co.jp/univ/4700/difficulty/",
 "https://www.yomiuri.co.jp/local/kansai/news/20261024-GYO1T00036/",
-"https://search.keinet.ne.jp/2620"
+"https://search.keinet.ne.jp/2620",
+"https://search.keinet.ne.jp/2620/outline/department"
 ],
 "students": {
 "count": 2174,
 "year": 2026
 },
-"founded": "1949年 新制大学開学（前身：私立岡山女学校 1886年創立、岡山清心女子専門学校 1944年創立）"
+"founded": "1949年 新制大学開学（前身：私立岡山女学校 1886年創立、岡山清心女子専門学校 1944年創立）",
+"research": [
+"英語英文学科・日本語日本文学科・現代社会学科（文学部、各定員60）",
+"国際文化学科（国際文化学部、定員100）",
+"人間生活学科（定員80）・児童学科（定員110）・食品栄養学科（定員80）（人間生活学部）",
+"情報デザイン学科（情報デザイン学部、定員90）"
+]
 },
 "中国学園大学": {
 "faculties": [
@@ -150413,7 +150549,8 @@ null
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -150537,13 +150674,19 @@ null
 "https://passnavi.obunsha.co.jp/univ/4695/difficulty/",
 "https://passnavi.obunsha.co.jp/univ/4695/top/",
 "https://www.cjc.ac.jp/chugokugakuen/",
-"https://admission.cjc.ac.jp/assets/img/admissions/about_r09.pdf"
+"https://admission.cjc.ac.jp/assets/img/admissions/about_r09.pdf",
+"https://search.keinet.ne.jp/2625/outline/department"
 ],
 "students": {
 "count": 451,
 "year": null
 },
-"founded": "2002年開学（前身：中国女子短期大学 1962年開校、1966年 中国短期大学に改称）"
+"founded": "2002年開学（前身：中国女子短期大学 1962年開校、1966年 中国短期大学に改称）",
+"research": [
+"国際教養学科（国際教養学部、定員50）",
+"子ども学科（子ども学部、定員70）",
+"人間栄養学科（現代生活学部、定員50）"
+]
 },
 "倉敷芸術科学大学": {
 "faculties": [
@@ -150562,7 +150705,8 @@ null
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -150721,13 +150865,21 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3781/",
 "https://www.kusa.ac.jp/about-university/outline/",
 "https://manabi.benesse.ne.jp/daigaku/school/3781/nyushi/index.html",
-"https://search.keinet.ne.jp/2623/outline/expense"
+"https://search.keinet.ne.jp/2623/outline/expense",
+"https://search.keinet.ne.jp/2623/outline/department"
 ],
 "students": {
 "count": 1362,
 "year": 2025
 },
-"founded": "1995年開学"
+"founded": "1995年開学",
+"research": [
+"環境生命科学科（生命科学部、定員40）",
+"生命医科学科（生命科学部、定員55）",
+"動物生命科学科（生命科学部、定員50）",
+"健康科学科（生命科学部、定員55）",
+"芸術学科（芸術学部、定員150）"
+]
 },
 "藍野大学": {
 "faculties": [
