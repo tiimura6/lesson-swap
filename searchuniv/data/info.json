@@ -25623,7 +25623,8 @@
 "https://passnavi.obunsha.co.jp/univ/0180/eiken/",
 "https://admission.utsunomiya-u.ac.jp/docs/R9senbatsuyoukou_2026.pdf",
 "https://passnavi.obunsha.co.jp/univ/0180/expense/",
-"https://search.keinet.ne.jp/1090/outline/scholarship"
+"https://search.keinet.ne.jp/1090/outline/scholarship",
+"https://search.keinet.ne.jp/1090/general/exam_result"
 ],
 "licenses": [
 "教員免許（幼・小・中・高、特別支援）",
@@ -25999,7 +26000,7 @@
 "schedule": "2026-11-15",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
-"ratios": "2026-11-06",
+"ratios": "2026-11-21",
 "research": "2026-11-14",
 "scholar": "2026-11-19",
 "methods": "2026-11-20"
@@ -26379,6 +26380,14 @@
 },
 {
 "kubun": "一般",
+"unit": "地域デザイン科学部 社会基盤デザイン 前期",
+"y": {
+"2025": 2.3,
+"2026": 1.3
+}
+},
+{
+"kubun": "一般",
 "unit": "国際学部 前期",
 "y": {
 "2025": 2.4,
@@ -26411,6 +26420,22 @@
 },
 {
 "kubun": "一般",
+"unit": "共同教育学部 自然科学系 前期",
+"y": {
+"2025": 1.2,
+"2026": 1.5
+}
+},
+{
+"kubun": "一般",
+"unit": "共同教育学部 芸術・生活・健康系 前期",
+"y": {
+"2025": 3.3,
+"2026": 1.9
+}
+},
+{
+"kubun": "一般",
 "unit": "工学部 基盤工（化学系） 前期",
 "y": {
 "2025": 2.4,
@@ -26427,13 +26452,34 @@
 },
 {
 "kubun": "一般",
+"unit": "農学部 フロンティア食品科学 前期",
+"y": {
+"2026": 2.0
+}
+},
+{
+"kubun": "一般",
 "unit": "農学部 生物生産イノベーション科学 前期",
 "y": {
 "2026": 1.6
 }
+},
+{
+"kubun": "一般",
+"unit": "農学部 環境システム科学 前期",
+"y": {
+"2026": 1.9
+}
+},
+{
+"kubun": "一般",
+"unit": "農学部 エコロジカル社会経済 前期",
+"y": {
+"2026": 2.2
+}
 }
 ],
-"note": "河合塾Kei-Netの一般選抜入試結果より（倍率＝受験者／合格者）"
+"note": "河合塾Kei-Netの一般選抜入試結果より（倍率＝受験者／合格者）。農学部は2026年度に学科を再編（2025年度は旧学科で実施）。"
 },
 "research": [
 "行政・公共政策、地域資源、観光、建築の設計・計画、地域環境とエネルギー計画、測量・構造・流域環境・交通・都市計画・防災（地域デザイン科学部）",
@@ -124616,7 +124662,10 @@
 "students": "2026-11-09",
 "founded": "2026-11-09",
 "schedule": "2026-11-19",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -124654,7 +124703,10 @@
 "https://manabi.benesse.ne.jp/daigaku/school/3969/nyushi/hoshiki/ippan/index.html",
 "https://search.keinet.ne.jp/2790/general/schedule",
 "https://manabi.benesse.ne.jp/daigaku/school/3969/gakuhi/",
-"https://kagoshima.daiichi-koudai.ac.jp/wp-content/uploads/2026/06/2027_nyushiyoko.pdf"
+"https://kagoshima.daiichi-koudai.ac.jp/wp-content/uploads/2026/06/2027_nyushiyoko.pdf",
+"https://search.keinet.ne.jp/2790/general/border_rate",
+"https://search.keinet.ne.jp/2790/general/exam_subject",
+"https://manabi.benesse.ne.jp/daigaku/school/3969/"
 ],
 "students": {
 "count": 1238,
@@ -124747,7 +124799,32 @@
 "note": "マナビジョン 2026年度"
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "BF〜35.0",
+"kyotei": "37%〜50%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "2教科2科目",
+"kyoka": [
+2,
+2
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はリーディングのみ100点（航空操縦学専攻はリーディング50点・リスニング50点）",
+"note": "工学部・航空エンジニアリング専攻は英・数・国・理・情から2科目（200点）。航空操縦学専攻は英語（R・L）必須＋数学Ⅰ・A（200点）。",
+"year": "2027年度入試"
+},
+"research": [
+"機械システム工（工学部）",
+"建築デザイン（工学部）",
+"環境エンジニアリング（工学部）",
+"情報・AI・データサイエンス（工学部、鹿児島・東京上野）",
+"航空操縦学・航空エンジニアリング（航空工学部 航空工学科）"
+]
 },
 "第一薬科大学": {
 "faculties": [
@@ -124978,7 +125055,10 @@
 "students": "2026-11-09",
 "founded": "2026-11-09",
 "schedule": "2026-11-19",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -125024,7 +125104,9 @@
 "https://xn--psstg18ce16c.com/daigaku/chikushi-jogakuen/",
 "https://manabi.benesse.ne.jp/daigaku/school/3882/nyushi/index.html",
 "https://search.keinet.ne.jp/2708/general/schedule",
-"https://search.keinet.ne.jp/2708/outline/expense"
+"https://search.keinet.ne.jp/2708/outline/expense",
+"https://search.keinet.ne.jp/2708/general/border_rate",
+"https://search.keinet.ne.jp/2708/general/exam_subject"
 ],
 "students": {
 "count": 1792,
@@ -125216,7 +125298,30 @@
 "note": ""
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "BF〜35.0",
+"kyotei": "35%〜54%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "1教科1科目〜3教科3科目",
+"kyoka": [
+1,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はリーディング50点・リスニング50点（計100点）",
+"note": "3科目型は英語・国語必須＋数・理・地公・情から1（300点）。1科目型・併用型は英・数・国・理・地公・情から1（100点）。",
+"year": "2027年度入試"
+},
+"research": [
+"人文（人文学部 人文学科）",
+"心理・共生デザイン（人間科学部 人間科学科）",
+"初等教育・保育／社会福祉（人間科学部 人間科学科 教育専攻）"
+]
 },
 "純真学園大学": {
 "faculties": [
@@ -125234,7 +125339,10 @@
 "_via": "2026-11-07",
 "students": "2026-11-09",
 "founded": "2026-11-09",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -125363,7 +125471,9 @@
 "http://www.junshin-u.ac.jp/assets/files/jikotenken-r04.pdf",
 "https://manabi.benesse.ne.jp/daigaku/school/3898/nyushi/index.html",
 "https://passnavi.obunsha.co.jp/univ/4947/expense/",
-"https://search.keinet.ne.jp/2728sp/general/schedule_sp"
+"https://search.keinet.ne.jp/2728sp/general/schedule_sp",
+"https://search.keinet.ne.jp/2728/general/border_rate",
+"https://search.keinet.ne.jp/2728/general/exam_subject"
 ],
 "students": {
 "count": 1147,
@@ -125421,7 +125531,29 @@
 "note": ""
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "BF〜37.5",
+"kyotei": "39%〜54%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "3教科3科目",
+"kyoka": [
+3,
+3
+],
+"rl": [],
+"rl_text": "英語はリーディングのみ100点（リスニングの配点なし）",
+"note": "英語必須＋数・国・理から2（300点）。4学科共通。",
+"year": "2027年度入試"
+},
+"research": [
+"看護（保健医療学部 看護学科）",
+"放射線技術科学（保健医療学部）",
+"検査科学（保健医療学部）",
+"医療工学（保健医療学部）"
+]
 },
 "聖マリア学院大学": {
 "faculties": [
@@ -125438,7 +125570,10 @@
 "students": "2026-11-09",
 "founded": "2026-11-09",
 "schedule": "2026-11-19",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -125504,7 +125639,8 @@
 "https://www.st-mary.ac.jp/about/history/",
 "https://www.st-mary.ac.jp/wordpress/wp-content/uploads/2026/04/201504.pdf",
 "https://manabi.benesse.ne.jp/daigaku/school/3895/nyushi/index.html",
-"https://search.keinet.ne.jp/2724/outline/expense"
+"https://search.keinet.ne.jp/2724/outline/expense",
+"https://search.keinet.ne.jp/2724/general/exam_subject"
 ],
 "students": {
 "count": 326,
@@ -125625,7 +125761,26 @@
 "note": ""
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "",
+"kyotei": "47%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "3教科3科目",
+"kyoka": [
+3,
+3
+],
+"rl": [],
+"rl_text": "英語はリーディングのみ100点（リスニングの配点なし）",
+"note": "英語・国語必須＋数学（Ⅰ・A）か理科から1（300点）。共通テストのボーダー得点141点（47%）。",
+"year": "2027年度入試"
+},
+"research": [
+"看護（看護学部 看護学科）"
+]
 },
 "西九州大学": {
 "faculties": [
@@ -125645,7 +125800,10 @@
 "founded": "2026-11-09",
 "students": "2026-11-09",
 "schedule": "2026-11-19",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -125701,7 +125859,9 @@
 "https://www.nisikyu-u.ac.jp/nagahara/info/pdf/finance18.pdf",
 "https://manabi.benesse.ne.jp/daigaku/school/3906/nyushi/index.html",
 "https://search.keinet.ne.jp/2727/general/schedule",
-"https://search.keinet.ne.jp/2727/outline/expense"
+"https://search.keinet.ne.jp/2727/outline/expense",
+"https://search.keinet.ne.jp/2727/general/border_rate",
+"https://search.keinet.ne.jp/2727/general/exam_subject"
 ],
 "founded": "1968年開学（佐賀家政大学、1974年西九州大学に改称／前身：佐賀栄養専門学院、1946年開学）",
 "students": {
@@ -125859,7 +126019,31 @@
 "note": ""
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "BF〜35.0",
+"kyotei": "35%〜49%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "2教科2科目",
+"kyoka": [
+2,
+2
+],
+"rl": [],
+"rl_text": "英語はリーディングのみ100点（リスニングの配点なし）",
+"note": "英・数・国・理・地公・情から2（200点）。",
+"year": "2027年度入試"
+},
+"research": [
+"子ども・心理カウンセリング（子ども学部）",
+"理学療法学・作業療法学（リハビリテーション学部）",
+"看護（看護学部）",
+"健康栄養（健康栄養学部）",
+"社会福祉・スポーツ健康福祉（健康福祉学部）",
+"デジタル社会共創（デジタル社会共創学環）"
+]
 },
 "西南女学院大学": {
 "faculties": [
@@ -125875,7 +126059,11 @@
 "licenses": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"difficulty": "2026-11-21",
+"founded": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -126070,7 +126258,10 @@
 "https://www.seinan-jo.ac.jp/nyushi/web/",
 "https://manabi.benesse.ne.jp/daigaku/school/3879/nyushi/index.html",
 "https://search.keinet.ne.jp/2717/general/schedule",
-"https://search.keinet.ne.jp/2717/outline/expense"
+"https://search.keinet.ne.jp/2717/outline/expense",
+"https://search.keinet.ne.jp/2717",
+"https://search.keinet.ne.jp/2717/general/border_rate",
+"https://search.keinet.ne.jp/2717/general/exam_subject"
 ],
 "money": {
 "year": "2026年度",
@@ -126123,7 +126314,32 @@
 "note": "出典の表記どおり"
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "BF〜35.0",
+"kyotei": "38%〜45%",
+"year": "2027年度入試用"
+},
+"founded": "1994年開学（前身：西南女学院短期大学、1950年設立／西南女学院専門学校、1946年設立／学校法人西南女学院、1922年設立）",
+"kyotsu": {
+"kamoku": "1〜2教科2科目〜3教科3科目",
+"kyoka": [
+1,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語学科はリーディング100点・リスニング100点。他の学科はリーディングのみ100点",
+"note": "英語学科は英語（R・L）必須＋数・国・地公・情から1（300点）。看護は英語必須＋数・理・情から1、国・地公から1（300点）。福祉2専攻は国語必須＋1科目（200点）。観光文化は2科目選択（200点）。",
+"year": "2027年度入試"
+},
+"research": [
+"英語（人文学部 英語学科）",
+"観光文化（人文学部 観光文化学科）",
+"看護（保健福祉学部 看護学科）",
+"福祉・養護教諭／子ども家庭福祉（保健福祉学部 福祉学科）"
+]
 },
 "西日本工業大学": {
 "faculties": [
@@ -126142,7 +126358,10 @@
 "_via": "2026-11-07",
 "students": "2026-11-09",
 "founded": "2026-11-09",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -126291,7 +126510,9 @@
 "https://www3.nishitech.ac.jp/guidance/president/message",
 "https://search.keinet.ne.jp/2711/outline/expense",
 "https://search.keinet.ne.jp/2711/general/schedule",
-"https://search.keinet.ne.jp/2711/general/exam_fee"
+"https://search.keinet.ne.jp/2711/general/exam_fee",
+"https://search.keinet.ne.jp/2711/general/border_rate",
+"https://search.keinet.ne.jp/2711/general/exam_subject"
 ],
 "students": {
 "count": 1316,
@@ -126326,7 +126547,31 @@
 "note": "other は諸会費（Kei-Net 2026年度入学者用）"
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "BF〜35.0",
+"kyotei": "38%〜42%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "3教科3科目",
+"kyoka": [
+3,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はリーディング50点・リスニング50点（計100点）",
+"note": "英・数・国・理・地公・情から3（300点）。4学科共通。",
+"year": "2027年度入試"
+},
+"research": [
+"総合システム工（工学部）",
+"情報マネジメント（工学部）",
+"建築（デザイン学部）",
+"情報デザイン（デザイン学部）"
+]
 },
 "鎮西学院大学": {
 "faculties": [
@@ -126343,7 +126588,10 @@
 "students": "2026-11-09",
 "founded": "2026-11-09",
 "money": "2026-11-09",
-"schedule": "2026-11-19"
+"schedule": "2026-11-19",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -126404,7 +126652,9 @@
 "https://search.keinet.ne.jp/2743/outline/expense",
 "https://search.keinet.ne.jp/2743/general/schedule",
 "https://manabi.benesse.ne.jp/daigaku/school/3921/nyushi/hoshiki/ippan/index.html",
-"https://search.keinet.ne.jp/2743/general/exam_fee"
+"https://search.keinet.ne.jp/2743/general/exam_fee",
+"https://search.keinet.ne.jp/2743/general/border_rate",
+"https://search.keinet.ne.jp/2743/general/exam_subject"
 ],
 "students": {
 "count": 644,
@@ -126488,7 +126738,30 @@
 "fee": null
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "BF〜37.5",
+"kyotei": "39%〜52%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "2教科2科目",
+"kyoka": [
+2,
+2
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はリーディング100点・リスニング100点（英語資格・検定試験の換算あり）",
+"note": "英・数・国・理・地公・情から2（400点）。3学科共通。",
+"year": "2027年度入試"
+},
+"research": [
+"多文化コミュニケーション（総合社会学部）",
+"社会福祉（総合社会学部）",
+"経済政策（総合社会学部）"
+]
 },
 "長崎国際大学": {
 "faculties": [
