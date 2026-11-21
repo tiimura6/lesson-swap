@@ -27197,7 +27197,8 @@
 "https://passnavi.obunsha.co.jp/univ/1050/expense/",
 "https://passnavi.obunsha.co.jp/univ/1050/schedule/",
 "https://manabi.benesse.ne.jp/daigaku/school/2065/nyushi/hoshiki/ippan/index.html",
-"https://passnavi.obunsha.co.jp/univ/1050/scholarship/"
+"https://passnavi.obunsha.co.jp/univ/1050/scholarship/",
+"https://search.keinet.ne.jp/1520/recommend/exam_rec"
 ],
 "licenses": [
 "教員免許（中 社会・高 地理歴史・公民）",
@@ -27227,19 +27228,19 @@
 "kubun": "一般",
 "name": "前期日程",
 "kyotsu": "経済：4教科4科目／地域政策：5教科5科目または3教科3科目",
-"niji": "経済：英・数・国から選択／地域政策：数・地歴公民・小論文（掲載表記）",
+"niji": "経済：英・数・国から2／地域政策：小論文＋数学か地歴公民から1",
 "haiten": "経済 400:400、地域政策 950:400 または 400:400",
 "kn": [
 1,
 1
 ],
-"note": "地域政策の個別配点は募集要項で要確認"
+"note": "地域政策は5教科型（950:400）と3教科型（400:400）を同時に判定。個別は小論文200点＋数・地公から1"
 },
 {
 "kubun": "一般",
 "name": "中期日程",
 "kyotsu": "3教科3科目",
-"niji": "英・数・国・地歴公民から選択",
+"niji": "英・数・国・地歴公民から2",
 "haiten": "300:400（個別重視）",
 "kn": [
 0.75,
@@ -27251,7 +27252,7 @@
 "kubun": "一般",
 "name": "後期日程",
 "kyotsu": "5教科5科目または3教科3科目",
-"niji": "小論文",
+"niji": "小論文（300点）",
 "haiten": "950:300 または 400:300",
 "kn": [
 3.17,
@@ -27262,22 +27263,22 @@
 {
 "kubun": "推薦",
 "name": "学校推薦型（共テなし）",
-"content": "書類・面接・小論文（経済は教科試験あり）",
-"req": "専願（経済は現役のみ、地域政策Ⅰは卒後4年以内まで）。経済の英語重視推薦は英検2級以上等、地域推薦は高崎市内在住",
+"content": "書類・面接・小論文（経済は教科試験あり。地域政策Ⅰは活動実績報告書も提出）",
+"req": "専願（経済は現役のみ、地域政策Ⅰは卒後4年以内まで）。経済の英語重視推薦は英検2級以上等、地域推薦は高崎市内者",
 "kyotsu": "課さない",
 "note": "地域政策：推薦Ⅰ／経済：全国推薦・地域推薦・英語重視推薦"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型Ⅱ（共テあり）",
-"content": "書類審査＋共通テスト（3教科3科目）",
+"content": "書類審査50点＋共通テスト300点（3教科3科目）",
 "req": "現役・専願",
 "kyotsu": "課す（3教科3科目）",
 "note": "地域政策学部のみ"
 }
 ],
 "summary": "経済は前期＋中期（個別重視）、地域政策は前期＋後期。推薦は専願で共テなし型が中心。",
-"note": "Kei-Netで総合型選抜のページは確認できなかった"
+"note": "Kei-Netに総合型選抜の掲載なし（2026-11-21 確認）"
 },
 "departments": [
 {
@@ -27353,7 +27354,8 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "research": "2026-11-14",
-"scholar": "2026-11-19"
+"scholar": "2026-11-19",
+"methods": "2026-11-21"
 },
 "money": {
 "year": "2025年度",
@@ -128728,7 +128730,9 @@
 "schedule": "2026-11-16",
 "money": "2026-11-16",
 "_via": "2026-11-16",
-"licenses": "2026-11-15"
+"licenses": "2026-11-15",
+"difficulty": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -129240,6 +129244,19 @@
 "licenses": [
 "中学校教諭一種（美術）、高等学校教諭一種（美術・工芸）、学芸員（資格）（美術学部 美術科・デザイン・工芸科〈メディア映像専攻は工芸を除く〉）",
 "中学校教諭一種（音楽）、高等学校教諭一種（音楽）、学芸員（資格）（音楽学部 作曲・声楽・器楽）"
+],
+"difficulty": {
+"hensachi": "45.0〜52.5",
+"kyotei": "48%〜78%",
+"year": "2027年度入試用"
+},
+"research": [
+"日本画・油画・彫刻（美術学部 美術科、実作による創作を中心に少人数で指導）",
+"芸術学（美術学部 美術科、美術史・理論を実作も交えて研究）",
+"デザイン・陶磁・メディア映像（美術学部 デザイン・工芸科）",
+"作曲・音楽学（音楽学部 作曲専攻）",
+"声楽（オペラ・合唱、音楽学部）",
+"器楽（ピアノ・弦楽器・管打楽器、オーケストラ、音楽学部）"
 ]
 },
 "敦賀市立看護大学": {
@@ -129259,7 +129276,9 @@
 "ratios": "2026-11-09",
 "schedule": "2026-11-16",
 "money": "2026-11-16",
-"_via": "2026-11-16"
+"_via": "2026-11-16",
+"difficulty": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -129456,7 +129475,17 @@
 }
 ]
 },
-"_via": "external-ai-verified"
+"_via": "external-ai-verified",
+"difficulty": {
+"hensachi": "",
+"kyotei": "53%〜55%",
+"year": "2027年度入試用"
+},
+"research": [
+"救急・災害看護学",
+"在宅看護学（地域の活性化とあわせて学ぶ）",
+"地域看護学（地域の人々の健康支援）"
+]
 },
 "新潟県立大学": {
 "faculties": [
@@ -129480,7 +129509,8 @@
 "money": "2026-11-16",
 "_via": "2026-11-16",
 "licenses": "2026-11-15",
-"research": "2026-11-15"
+"research": "2026-11-15",
+"difficulty": "2026-11-21"
 },
 "departments": [
 {
@@ -129949,7 +129979,12 @@
 "経済・産業・企業の仕組み、情報分析と語学（国際経済学部）",
 "乳幼児の成長と福祉・保育（子ども学科）",
 "栄養指導・食育・生活習慣病の予防（健康栄養学科）"
-]
+],
+"difficulty": {
+"hensachi": "47.5〜50.0",
+"kyotei": "57%〜70%",
+"year": "2027年度入試用"
+}
 },
 "鹿児島国際大学": {
 "faculties": [
@@ -129969,7 +130004,10 @@
 "_via": "2026-11-07",
 "students": "2026-11-09",
 "founded": "2026-11-09",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -130066,7 +130104,10 @@
 "https://www.gakkou.net/daigaku/view/outline_10204.html",
 "https://search.keinet.ne.jp/2788/general/schedule",
 "https://search.keinet.ne.jp/2788/general/exam_fee",
-"https://search.keinet.ne.jp/2788/outline/expense"
+"https://search.keinet.ne.jp/2788/outline/expense",
+"https://search.keinet.ne.jp/2788/general/border_rate",
+"https://search.keinet.ne.jp/2788/general/exam_subject",
+"https://search.keinet.ne.jp/2788"
 ],
 "students": {
 "count": 2857,
@@ -130123,7 +130164,31 @@
 "note": "other は諸会費"
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "BF〜37.5",
+"kyotei": "35%〜57%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "3教科3科目",
+"kyoka": [
+3,
+3
+],
+"rl": [
+"3:1"
+],
+"rl_text": "英語はリーディング150点・リスニング50点（計200点）",
+"note": "国語・英語（R・L）必須＋数・理・地公・情から1（600点）。全学科共通（看護は前期）。",
+"year": "2027年度入試"
+},
+"research": [
+"社会福祉・児童（福祉社会学部）",
+"国際文化（国際文化学部）",
+"経済・経営（経済学部）",
+"看護（看護学部、2023年開設・伊敷キャンパス）"
+]
 },
 "鹿児島純心大学": {
 "faculties": [
@@ -130141,7 +130206,10 @@
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -130293,13 +130361,39 @@
 "https://www.weblio.jp/content/%E9%B9%BF%E5%85%90%E5%B3%B6%E7%B4%94%E5%BF%83%E5%A4%A7%E5%AD%A6",
 "https://ja.wikipedia.org/wiki/%E9%B9%BF%E5%85%90%E5%B3%B6%E7%B4%94%E5%BF%83%E5%A4%A7%E5%AD%A6",
 "https://search.keinet.ne.jp/2791/general/schedule",
-"https://manabi.benesse.ne.jp/daigaku/school/3967/nyushi/hoshiki/ippan/"
+"https://manabi.benesse.ne.jp/daigaku/school/3967/nyushi/hoshiki/ippan/",
+"https://search.keinet.ne.jp/2791/general/border_rate",
+"https://search.keinet.ne.jp/2791/general/exam_subject",
+"https://search.keinet.ne.jp/2791"
 ],
 "students": {
 "count": 573,
 "year": 2025
 },
-"founded": "1994年 鹿児島純心女子大学として開学（2023年現校名に改称。創立：1933年）"
+"founded": "1994年 鹿児島純心女子大学として開学（2023年現校名に改称。創立：1933年）",
+"difficulty": {
+"hensachi": "35.0〜40.0",
+"kyotei": "47%〜51%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "2教科2科目",
+"kyoka": [
+2,
+2
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語を選ぶ場合はリーディング50点・リスニング50点（計100点）",
+"note": "200点満点。教育・心理は英・数・国・理・地公・情から2、看護は英・国から1と数・理・情から1、健康栄養は英・数・国・情から1を含む。",
+"year": "2027年度入試"
+},
+"research": [
+"教育・心理（人間教育学部）",
+"看護（看護栄養学部）",
+"健康栄養（看護栄養学部）"
+]
 },
 "日本文理大学": {
 "faculties": [
@@ -130318,7 +130412,10 @@
 "students": "2026-11-09",
 "founded": "2026-11-09",
 "schedule": "2026-11-19",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -130371,7 +130468,9 @@
 "https://www.nbu.ac.jp/guide/chairman/",
 "https://search.keinet.ne.jp/2764/general/schedule",
 "https://search.keinet.ne.jp/2764/general/exam_fee",
-"https://search.keinet.ne.jp/2764/outline/expense"
+"https://search.keinet.ne.jp/2764/outline/expense",
+"https://search.keinet.ne.jp/2764/general/exam_subject",
+"https://search.keinet.ne.jp/2764/outline/department"
 ],
 "students": {
 "count": 2344,
@@ -130498,7 +130597,32 @@
 "note": "other は諸会費"
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "BF〜35.0",
+"kyotei": "35%〜49%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "2教科2科目〜5教科5科目",
+"kyoka": [
+2,
+3,
+5
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はリーディング50点・リスニング50点（計100点）",
+"note": "3科目型（英・数・国・理・地公・情から3、300点）・5科目型（500点）・併用型（2科目、200点）。3科目型・5科目型は英語資格・検定試験の加点あり。",
+"year": "2027年度入試"
+},
+"research": [
+"経営経済（経営経済学部）",
+"機械電気工・建築・航空宇宙工・情報メディア（工学部）",
+"診療放射線学・臨床検査学・臨床医工学（保健医療学部）",
+"社会デザイン（社会デザイン学環）"
+]
 },
 "日本経済大学": {
 "faculties": [
@@ -130515,7 +130639,10 @@
 "_via": "2026-11-07",
 "students": "2026-11-09",
 "founded": "2026-11-09",
-"schedule": "2026-11-19"
+"schedule": "2026-11-19",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -130596,7 +130723,9 @@
 "https://search.keinet.ne.jp/2706",
 "https://search.keinet.ne.jp/2706/general/schedule",
 "https://search.keinet.ne.jp/2706/outline/expense",
-"https://passnavi.obunsha.co.jp/univ/4960/schedule/"
+"https://passnavi.obunsha.co.jp/univ/4960/schedule/",
+"https://search.keinet.ne.jp/2706/general/border_rate",
+"https://search.keinet.ne.jp/2706/general/exam_subject"
 ],
 "students": {
 "count": 6236,
@@ -130663,7 +130792,31 @@
 "fee": null
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "BF〜37.5",
+"kyotei": "35%〜51%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "2教科2科目",
+"kyoka": [
+2,
+2
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はリーディング50点・リスニング50点（計100点）",
+"note": "200点満点。多くの学科は英・数・理・地公・情から1を含む2科目、グローバルビジネス学科は英語必須＋数・国・理・地公・情から1。",
+"year": "2027年度入試"
+},
+"research": [
+"経済・商・健康スポーツ経営（経済学部、福岡）",
+"商（経済学部、神戸三宮）",
+"経営・グローバルビジネス・芸創プロデュース（経営学部、福岡・東京渋谷）",
+"AI・デジタルビジネス（経営学部、東京。2027年4月に名称変更予定）"
+]
 },
 "日本赤十字九州国際看護大学": {
 "faculties": [
@@ -130679,7 +130832,10 @@
 "students": "2026-11-09",
 "founded": "2026-11-09",
 "schedule": "2026-11-19",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -130706,7 +130862,10 @@
 "https://search.keinet.ne.jp/2721/general/schedule",
 "https://search.keinet.ne.jp/2721/general/exam_fee",
 "https://search.keinet.ne.jp/2721/outline/expense",
-"https://www.jrckicn.ac.jp/entrance/entrance01/"
+"https://www.jrckicn.ac.jp/entrance/entrance01/",
+"https://search.keinet.ne.jp/2721/general/border_rate",
+"https://search.keinet.ne.jp/2721/general/exam_subject",
+"https://manabi.benesse.ne.jp/daigaku/school/3893/gakubu/gakubudt/64.html"
 ],
 "students": {
 "count": 425,
@@ -130790,7 +130949,30 @@
 "note": "諸会費は記載なし"
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "35.0",
+"kyotei": "46%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "3教科3科目〜4教科4科目",
+"kyoka": [
+3,
+4
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はリーディング50点・リスニング50点（計100点）",
+"note": "Ⅰ期は英語・国語＋数・理から1（300点）。Ⅱ期は4教科4科目（400点）、Ⅱ期・Ⅲ期は英語資格・検定試験の加点あり。",
+"year": "2027年度入試"
+},
+"research": [
+"赤十字・国際・災害看護（国際看護を学ぶ科目群、海外研修）",
+"高機能シミュレーターやMR（複合現実）を使った看護技術・解剖学の学修",
+"看護研究（4年次に卒業論文）"
+]
 },
 "沖縄キリスト教学院大学": {
 "faculties": [
