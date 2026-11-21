@@ -28751,7 +28751,8 @@
 "https://search.keinet.ne.jp/1519/recommend/exam_rec",
 "https://passnavi.obunsha.co.jp/univ/1035/schedule/",
 "https://manabi.benesse.ne.jp/daigaku/school/2050/nyushi/hoshiki/ippan/",
-"https://search.keinet.ne.jp/1519/general/exam_result"
+"https://search.keinet.ne.jp/1519/general/exam_result",
+"https://search.keinet.ne.jp/general/exam_subject_sp/1519"
 ],
 "licenses": [
 "看護師国家試験受験資格",
@@ -28780,26 +28781,26 @@
 {
 "kubun": "一般",
 "name": "前期日程",
-"kyotsu": "5〜6教科6科目",
-"niji": "小論文・面接（調査書含む）",
+"kyotsu": "5〜6教科6科目（放射線技術科学科は5教科6科目）",
+"niji": "小論文100・面接と調査書あわせて100",
 "haiten": "450:200（共テ重視）",
 "kn": [
 2.25,
 1
 ],
-"note": "全4学科（看護・理学療法・作業療法・放射線技術科学）同じ配点"
+"note": "全4学科（看護・理学療法・作業療法・放射線技術科学）とも共テ450点・二次200点"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型",
-"content": "書類・小論文・総合問題・面接",
-"req": "現役・専願、地域条件・履修条件、英数国理地歴公民情報の各教科の評定3.0以上",
+"content": "書類・小論文・総合問題・面接（小論文・総合問題200点、面接・調査書等60点）",
+"req": "現役・専願、地域条件・履修条件あり、英数国理地歴公民情報の各教科の評定3.0以上",
 "kyotsu": "課さない",
-"note": "全学科で実施"
+"note": "全学科で実施（看護25・理学療法20・作業療法20・放射線技術科学20）"
 }
 ],
 "summary": "一般は前期のみ（共テ重視、小論文・面接）。推薦は現役専願・地域条件ありで共テなし。",
-"note": "Kei-Netに中期・後期、総合型選抜の掲載なし"
+"note": "Kei-Netに中期・後期、総合型選抜の掲載なし（2026-11-21確認）"
 },
 "departments": [
 {
@@ -28853,7 +28854,8 @@
 "departments": "2026-11-06",
 "eng": "2026-11-06",
 "ratios": "2026-11-21",
-"research": "2026-11-14"
+"research": "2026-11-14",
+"methods": "2026-11-21"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -147324,7 +147326,11 @@ null
 "scholar": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"research": "2026-11-21",
+"students": "2026-11-21",
+"founded": "2026-11-21",
+"licenses": "2026-11-21"
 },
 "departments": [
 {
@@ -147615,7 +147621,59 @@ null
 "https://search.keinet.ne.jp/2640/outline/expense",
 "https://search.keinet.ne.jp/2640/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/4800/difficulty/",
-"https://manabi.benesse.ne.jp/daigaku/school/3807/gakuhi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3807/gakuhi/",
+"https://search.keinet.ne.jp/2640/outline/licential",
+"https://search.keinet.ne.jp/2640/outline/department",
+"https://search.keinet.ne.jp/2640"
+],
+"research": [
+"日本文学科・書道学科・英語英米文学科（文学部）",
+"児童教育学科・幼児教育学科（教育学部、幼児教育学科は2025年設置）",
+"現代心理学科・ビジネス心理学科（心理学部）",
+"現代ビジネス学科・国際観光ビジネス学科・公共経営学科（現代ビジネス学部）",
+"生物科学科・情報科学科・建築学科（理工学部、2025年設置）",
+"薬学科（薬学部）",
+"看護学科（看護学部）",
+"生活デザイン学科・管理栄養学科・造形デザイン学科（家政学部）"
+],
+"students": {
+"count": 5447,
+"year": 2025
+},
+"founded": "1966年 安田女子大学開学（前身：安田学園〈広島技芸女学校〉1915年創立、安田女子短期大学1955年開学）",
+"licenses": [
+"中学校教諭（国語）一種（日本文学科・書道学科・児童教育学科）",
+"高等学校教諭（国語）一種（日本文学科・書道学科）",
+"高等学校教諭（書道）一種（日本文学科・書道学科）",
+"学校図書館司書教諭（日本文学科・書道学科・英語英米文学科・児童教育学科・生活デザイン学科）",
+"司書（日本文学科・書道学科）",
+"学芸員（日本文学科・書道学科・生活デザイン学科）",
+"中学校教諭（英語）一種（英語英米文学科・児童教育学科）",
+"高等学校教諭（英語）一種（英語英米文学科）",
+"幼稚園教諭一種（児童教育学科・幼児教育学科）",
+"小学校教諭一種（児童教育学科）",
+"養護教諭一種（児童教育学科・幼児教育学科・現代心理学科）",
+"保育士（幼児教育学科）",
+"小学校教諭二種（幼児教育学科）",
+"社会調査士（現代心理学科・ビジネス心理学科・現代ビジネス学科・国際観光ビジネス学科・公共経営学科）",
+"公認心理師（受験資格）（現代心理学科）",
+"認定心理士（現代心理学科・ビジネス心理学科）",
+"社会福祉主事（公共経営学科）",
+"食品衛生監視員（生物科学科・薬学科・管理栄養学科）",
+"一級建築士（受験資格）（建築学科）",
+"二級建築士（受験資格）（建築学科）",
+"木造建築士（受験資格）（建築学科）",
+"薬剤師（受験資格）（薬学科）",
+"養護教諭二種（看護学科）",
+"看護師（受験資格）（看護学科）",
+"保健師（受験資格）（看護学科）",
+"助産師（受験資格）（看護学科）",
+"中学校教諭（家庭）一種（生活デザイン学科・管理栄養学科）",
+"高等学校教諭（家庭）一種（生活デザイン学科・管理栄養学科）",
+"フードスペシャリスト（生活デザイン学科）",
+"栄養教諭一種（管理栄養学科）",
+"管理栄養士（受験資格）（管理栄養学科）",
+"栄養士（管理栄養学科）"
 ]
 },
 "就実大学": {
@@ -147638,7 +147696,9 @@ null
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"research": "2026-11-21",
+"licenses": "2026-11-21"
 },
 "departments": [
 {
@@ -147821,13 +147881,50 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3784/",
 "https://kotobank.jp/word/%E5%B0%B1%E5%AE%9F%E5%A4%A7%E5%AD%A6-177365",
 "https://manabi.benesse.ne.jp/daigaku/school/3784/nyushi/gokaku-happyo/",
-"https://www.shujitsu.ac.jp/admissions_site/tokutai_payments.html"
+"https://www.shujitsu.ac.jp/admissions_site/tokutai_payments.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3784/syusyoku/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3784/gakubu/index.html"
 ],
 "students": {
 "count": 2869,
 "year": 2025
 },
-"founded": "1979年 就実女子大学として開学（前身：私立岡山実科女学校・1904年創立、岡山就実短期大学・1953年設立／2003年現校名に改称）"
+"founded": "1979年 就実女子大学として開学（前身：私立岡山実科女学校・1904年創立、岡山就実短期大学・1953年設立／2003年現校名に改称）",
+"research": [
+"表現文化学科・実践英語学科・総合歴史学科（人文科学部：自由なコース設定で専門分野を幅広く学ぶ）",
+"教育学科（教育学部：保育者・教育者を養成、2025年4月に初等教育学科から改組）",
+"心理学科（心理学部：2025年4月に教育学部教育心理学科から改組）",
+"経営学科（経営学部：学部テーマは「グローカル」）",
+"薬学科（薬学部）"
+],
+"licenses": [
+"小学校教諭二種（表現文化学科・実践英語学科・総合歴史学科）",
+"中学校教諭（国語）一種（表現文化学科）",
+"高等学校教諭（国語）一種（表現文化学科）",
+"中学校教諭（英語）一種（実践英語学科）",
+"高等学校教諭（英語）一種（実践英語学科）",
+"中学校教諭（社会）一種（総合歴史学科）",
+"高等学校教諭（地理歴史）一種（総合歴史学科）",
+"高等学校教諭（公民）一種（総合歴史学科）",
+"幼稚園教諭一種（教育学科）",
+"小学校教諭一種（教育学科）",
+"中学校教諭（国語）二種（教育学科）",
+"中学校教諭（英語）二種（教育学科）",
+"中学校教諭（社会）二種（教育学科）",
+"特別支援教諭（知的障害）一種（教育学科）",
+"特別支援教諭（肢体不自由）一種（教育学科）",
+"特別支援教諭（病弱）一種（教育学科）",
+"保育士（教育学科）",
+"養護教諭一種（心理学科）",
+"学校図書館司書教諭（任用）（表現文化学科・実践英語学科・総合歴史学科・教育学科・心理学科）",
+"学芸員（表現文化学科・実践英語学科・総合歴史学科・教育学科・心理学科）",
+"司書（表現文化学科・実践英語学科・総合歴史学科・教育学科・心理学科）",
+"社会教育主事（任用）（表現文化学科・実践英語学科・総合歴史学科・教育学科・心理学科）",
+"社会教育士（表現文化学科・実践英語学科・総合歴史学科・教育学科・心理学科）",
+"社会福祉主事（任用）（全学科（薬学科を除く））",
+"薬剤師（受験資格）（薬学科）",
+"危険物取扱者（甲種）（受験資格）（薬学科）"
+]
 },
 "山口学芸大学": {
 "faculties": [
@@ -147845,7 +147942,9 @@ null
 "_via": "2026-11-07",
 "students": "2026-11-09",
 "founded": "2026-11-09",
-"money": "2026-11-10"
+"money": "2026-11-10",
+"research": "2026-11-21",
+"licenses": "2026-11-21"
 },
 "departments": [
 {
@@ -147965,7 +148064,9 @@ null
 "https://telemail.jp/shingaku/university/10001836/examination/general",
 "https://www.y-gakugei.ac.jp/admission/summary/",
 "https://passnavi.obunsha.co.jp/univ/4834/schedule/",
-"https://manabi.benesse.ne.jp/daigaku/school/3822/nyushi/hoshiki/ippan/"
+"https://manabi.benesse.ne.jp/daigaku/school/3822/nyushi/hoshiki/ippan/",
+"https://manabi.benesse.ne.jp/daigaku/school/3822/syusyoku/",
+"https://manabi.benesse.ne.jp/daigaku/school/3822/gakubu/index.html"
 ],
 "students": {
 "count": 313,
@@ -147987,7 +148088,24 @@ null
 "note": "施設設備費は施設費180,000円＋教育充実費80,000円（前期に納入）。諸会費は教育振興会費（入会金3,000円・年会費20,000円）と学生会費（入会金1,000円・年会費5,000円）の初年度分。初年度合計は公式に記載なし（入学金＋学納金で1,210,000円）。免許・資格関連費は別途"
 }
 ]
-}
+},
+"research": [
+"教育学科（教育学部：1年次後半から初等幼児教育専攻・英語教育専攻を選択）",
+"初等幼児教育専攻：小学校・特別支援学校・幼稚園教諭と保育士をめざし、早期の観察実習から段階的に実践力を磨く",
+"英語教育専攻：小・中・高校の英語教員をめざす少人数指導",
+"文系DX教員養成プログラム（2024年〜、山口大学・山口県立大学と連携）でICTを活用した教育を学ぶ"
+],
+"licenses": [
+"幼稚園教諭一種（教育学科）",
+"小学校教諭一種（教育学科）",
+"中学校教諭（英語）一種（教育学科）",
+"高等学校教諭（英語）一種（教育学科）",
+"特別支援教諭（知的障害）一種（教育学科）",
+"特別支援教諭（肢体不自由）一種（教育学科）",
+"特別支援教諭（病弱）一種（教育学科）",
+"社会福祉主事（任用）（教育学科）",
+"保育士（教育学科）"
+]
 },
 "山陽学園大学": {
 "faculties": [
@@ -148006,7 +148124,10 @@ null
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"research": "2026-11-21",
+"licenses": "2026-11-21",
+"difficulty": "2026-11-21"
 },
 "departments": [
 {
@@ -148166,13 +148287,40 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3783/",
 "https://ja.wikipedia.org/wiki/%E5%B1%B1%E9%99%BD%E5%AD%A6%E5%9C%92%E5%A4%A7%E5%AD%A6",
 "https://www.sguc.ac.jp/admission/fees/",
-"https://www.sguc.ac.jp/_cms/wp-content/uploads/2026/05/guideline-for-application_2027.pdf"
+"https://www.sguc.ac.jp/_cms/wp-content/uploads/2026/05/guideline-for-application_2027.pdf",
+"https://search.keinet.ne.jp/2622/outline/licential",
+"https://search.keinet.ne.jp/2622/general/border_rate"
 ],
 "students": {
 "count": 722,
 "year": 2025
 },
-"founded": "1994年開学（前身：山陽英和女学校・1886年創設、山陽学園短期大学・1969年開学）"
+"founded": "1994年開学（前身：山陽英和女学校・1886年創設、山陽学園短期大学・1969年開学）",
+"research": [
+"言語文化学科・ビジネス心理学科（総合人間学部）",
+"看護学科（看護学部）",
+"地域経営学科（地域経営学部、地域マネジメント学部から名称変更）"
+],
+"licenses": [
+"中学校教諭（国語）一種（言語文化学科）",
+"中学校教諭（英語）一種（言語文化学科）",
+"高等学校教諭（国語）一種（言語文化学科）",
+"高等学校教諭（英語）一種（言語文化学科）",
+"学校図書館司書教諭（言語文化学科）",
+"司書（言語文化学科・ビジネス心理学科）",
+"学芸員（言語文化学科・ビジネス心理学科）",
+"認定心理士（ビジネス心理学科）",
+"社会調査士（地域経営学科・ビジネス心理学科）",
+"養護教諭一種（看護学科）",
+"看護師（受験資格）（看護学科）",
+"保健師（受験資格）（看護学科）",
+"社会福祉主事（全学科）"
+],
+"difficulty": {
+"hensachi": "BF",
+"kyotei": "45%〜59%",
+"year": "2027年度入試用"
+}
 },
 "岡山医療専門職大学": {
 "faculties": [
@@ -148188,7 +148336,9 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"money": "2026-11-10"
+"money": "2026-11-10",
+"research": "2026-11-21",
+"licenses": "2026-11-21"
 },
 "departments": [
 {
@@ -148297,7 +148447,10 @@ null
 "https://passnavi.obunsha.co.jp/univ/9211/top/",
 "https://opu.ac.jp/support/",
 "https://opu.ac.jp/eem03/",
-"https://opu.ac.jp/fixednumber/"
+"https://opu.ac.jp/fixednumber/",
+"https://manabi.benesse.ne.jp/daigaku/school/3790/",
+"https://manabi.benesse.ne.jp/daigaku/school/3790/gakubu/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3790/syusyoku/index.html"
 ],
 "money": {
 "year": "2025年度以降入学生",
@@ -148314,7 +148467,15 @@ null
 "note": "臨地実務実習費は授業料等に含む。諸会費は学友会費25,000円（在学期間分）・同窓会費20,000円（終身）。ほかに校具代（初年次約13万円）。初年度合計は公式に記載なし（入学金＋授業料＋施設設備費で1,400,000円）"
 }
 ]
-}
+},
+"research": [
+"理学療法学科（健康科学部）",
+"作業療法学科（健康科学部）"
+],
+"licenses": [
+"理学療法士（受験資格）（理学療法学科）",
+"作業療法士（受験資格）（作業療法学科）"
+]
 },
 "岡山商科大学": {
 "faculties": [
@@ -148334,7 +148495,10 @@ null
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"research": "2026-11-21",
+"licenses": "2026-11-21",
+"difficulty": "2026-11-21"
 },
 "departments": [
 {
@@ -148495,13 +148659,34 @@ null
 "https://ja.wikipedia.org/wiki/%E5%AD%A6%E6%A0%A1%E6%B3%95%E4%BA%BA%E5%90%89%E5%82%99%E5%AD%A6%E5%9C%92",
 "https://www.osu.ac.jp/campus_life/tuition/",
 "https://www.osu.ac.jp/admissions/entrance-exam/exam/general-admission/",
-"https://www.osu.ac.jp/admissions/entrance-exam/exam/common-test/"
+"https://www.osu.ac.jp/admissions/entrance-exam/exam/common-test/",
+"https://search.keinet.ne.jp/2613/outline/licential",
+"https://search.keinet.ne.jp/2613/outline/department",
+"https://search.keinet.ne.jp/2613/general/border_rate"
 ],
 "students": {
 "count": 1773,
 "year": 2025
 },
-"founded": "1965年開学（前身：私立吉備商業学校・1911年創立、吉備商科短期大学／岡山商科短期大学）"
+"founded": "1965年開学（前身：私立吉備商業学校・1911年創立、吉備商科短期大学／岡山商科短期大学）",
+"research": [
+"法学科（法学部）",
+"経済学科（経済学部）",
+"経営学科・商学科（経営学部、商学科にファイナンシャル・プランニングの募集単位あり）"
+],
+"licenses": [
+"中学校教諭（社会）一種（法学科・経済学科）",
+"高等学校教諭（公民）一種（法学科・経済学科）",
+"高等学校教諭（情報）一種（経営学科）",
+"高等学校教諭（商業）一種（経営学科・商学科）",
+"社会調査士（経済学科・経営学科・商学科）",
+"学芸員（全学科）"
+],
+"difficulty": {
+"hensachi": "BF〜37.5",
+"kyotei": "36%〜53%",
+"year": "2027年度入試用"
+}
 },
 "関西福祉大学": {
 "faculties": [
@@ -148523,7 +148708,9 @@ null
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"research": "2026-11-21",
+"licenses": "2026-11-21"
 },
 "departments": [
 {
@@ -148723,13 +148910,39 @@ null
 "https://kotobank.jp/word/%E9%96%A2%E8%A5%BF%E7%A6%8F%E7%A5%89%E5%A4%A7%E5%AD%A6-174886",
 "https://www.kusw.ac.jp/examination2",
 "https://www.kusw.ac.jp/examination/centerexam",
-"https://www.kusw.ac.jp/examination/generalexam2"
+"https://www.kusw.ac.jp/examination/generalexam2",
+"https://manabi.benesse.ne.jp/daigaku/school/3715/syusyoku/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3715/gakubu/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3715/gakubu/gakubudt/26.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3715/gakubu/gakubudt/30.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3715/gakubu/gakubudt/64.html"
 ],
 "students": {
 "count": 1398,
 "year": 2025
 },
-"founded": "1997年開学（前身：進修裁縫女学校、1922年設立）"
+"founded": "1997年開学（前身：進修裁縫女学校、1922年設立）",
+"research": [
+"社会福祉学科（社会福祉学部：2024年4月から3専攻8コース。社会福祉専攻〈総合福祉・心理福祉・医療福祉・こども福祉〉、社会マネジメント専攻〈ソーシャルビジネス・公共政策〉、スポーツ福祉専攻〈アスリート・コーチング〉）",
+"児童教育学科（教育学部：2027年4月から初等教育・教育福祉・幼児教育の3専攻とスポーツ履修コース）",
+"保健教育学科（教育学部：保健体育教諭・養護教諭の養成）",
+"看護学科（看護学部：看護師に助産師・保健師・養護教諭を組み合わせる4つの資格取得モデル）"
+],
+"licenses": [
+"社会福祉士（受験資格）（社会福祉学科）",
+"精神保健福祉士（受験資格）（社会福祉学科）",
+"幼稚園教諭一種（児童教育学科）",
+"小学校教諭一種（児童教育学科）",
+"保育士（児童教育学科）",
+"中学校教諭（保健体育）一種（保健教育学科）",
+"高等学校教諭（保健体育）一種（保健教育学科）",
+"養護教諭一種（保健教育学科・看護学科）",
+"養護教諭二種（看護学科）",
+"看護師（受験資格）（看護学科）",
+"保健師（受験資格）（看護学科）",
+"助産師（受験資格）（看護学科）",
+"社会福祉主事（任用）（社会福祉学科・児童教育学科・保健教育学科）"
+]
 },
 "関西福祉科学大学": {
 "faculties": [
@@ -148751,7 +148964,9 @@ null
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"research": "2026-11-21",
+"licenses": "2026-11-21"
 },
 "departments": [
 {
@@ -148904,13 +149119,45 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3656/",
 "https://search.keinet.ne.jp/2546",
 "https://www.fuksi-kagk-u.ac.jp/campuslife/fee.html",
-"https://www.fuksi-kagk-u.ac.jp/nyushi/nyugaku/center.html"
+"https://www.fuksi-kagk-u.ac.jp/nyushi/nyugaku/center.html",
+"https://search.keinet.ne.jp/2546/outline/licential",
+"https://search.keinet.ne.jp/2546/outline/department"
 ],
 "students": {
 "count": 1846,
 "year": 2025
 },
-"founded": "1997年開学（前身：玉手山高等女学校・1942年設置認可、玉手山女子短期大学／関西女子短期大学・1965年開設）"
+"founded": "1997年開学（前身：玉手山高等女学校・1942年設置認可、玉手山女子短期大学／関西女子短期大学・1965年開設）",
+"research": [
+"教育学科（教育学部）",
+"心理科学科（心理科学部）",
+"福祉創造学科（社会福祉学部）",
+"理学療法学専攻・作業療法学専攻・言語聴覚学専攻（保健医療学部）",
+"健康科学科・福祉栄養学科（健康福祉学部）"
+],
+"licenses": [
+"保育士（教育学科）",
+"幼稚園教諭一種（教育学科）",
+"小学校教諭一種（教育学科）",
+"特別支援学校教諭一種（教育学科）",
+"精神保健福祉士（受験資格）（心理科学科・福祉創造学科）",
+"公認心理師（受験資格）（心理科学科・健康科学科）",
+"認定心理士（心理科学科）",
+"社会福祉士（受験資格）（福祉創造学科）",
+"介護福祉士（受験資格）（福祉創造学科）",
+"理学療法士（受験資格）（理学療法学専攻）",
+"作業療法士（受験資格）（作業療法学専攻）",
+"言語聴覚士（受験資格）（言語聴覚学専攻）",
+"中学校教諭（保健）一種（健康科学科）",
+"高等学校教諭（保健）一種（健康科学科）",
+"養護教諭一種（健康科学科）",
+"栄養教諭一種（福祉栄養学科）",
+"食品衛生監視員（福祉栄養学科）",
+"管理栄養士（受験資格）（福祉栄養学科）",
+"栄養士（福祉栄養学科）",
+"フードスペシャリスト（福祉栄養学科）",
+"社会福祉主事（全学科）"
+]
 },
 "阪南大学": {
 "faculties": [
