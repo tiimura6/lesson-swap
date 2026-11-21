@@ -13613,6 +13613,71 @@
 "difficulty"
 ],
 "keinet": "1550"
+},
+{
+"name": "福井県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"careers",
+"kyotsu"
+],
+"keinet": "1555"
+},
+{
+"name": "久留米大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+]
+},
+{
+"name": "久留米工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2704"
+},
+{
+"name": "新潟県立看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "1543",
+"fails": 1,
+"last_fail": "2026-11-21",
+"note": "2026-11-21 Kei-Net 1543 の大学トップ・licential・admission_employment・exam_subject がページ取得の許可待ちで読めず。founded・licenses・careers・kyotsu 未取得"
+},
+{
+"name": "石川県立看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "1549",
+"fails": 1,
+"last_fail": "2026-11-21",
+"note": "2026-11-21 Kei-Net 1549 の大学トップ・licential・admission_employment・exam_subject がページ取得の許可待ちで読めず。founded・licenses・careers・kyotsu 未取得"
 }
 ],
 "failed": [],
@@ -13861,64 +13926,10 @@
 "国際ファッション専門職大学": 1,
 "旭川市立大学": 2,
 "新潟県立看護大学": 1,
-"石川県立看護大学": 1
+"石川県立看護大学": 1,
+"九州ルーテル学院大学": 1
 },
 "enrich": [
-{
-"name": "福井県立大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students",
-"careers",
-"kyotsu"
-],
-"keinet": "1555"
-},
-{
-"name": "久留米大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses"
-]
-},
-{
-"name": "久留米工業大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses"
-],
-"keinet": "2704"
-},
-{
-"name": "九州ルーテル学院大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses"
-],
-"keinet": "2754"
-},
-{
-"name": "九州共立大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses"
-],
-"keinet": "2700"
-},
 {
 "name": "九州医療科学大学",
 "need": [
@@ -35993,50 +36004,32 @@
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
 },
 {
-"name": "宮崎国際大学",
+"name": "九州ルーテル学院大学",
 "need": [
 "gap_keinet"
 ],
 "fields": [
 "research",
-"kyotsu",
-"difficulty"
+"licenses"
 ],
+"keinet": "2754",
 "fails": 1,
 "last_fail": "2026-11-21",
-"note": "2026-11-21 Kei-Netコード不明（2775/2777/2778を試したがページ取得の許可が下りず未確認）。research・kyotsu・difficulty 未取得"
+"note": "2026-11-21 Kei-Net 2754 /outline/department は学科名・定員・学生数のみで概要・特色の記載なし。licential はページ取得の許可が得られず未確認。research・licenses 未取得"
 },
 {
-"name": "新潟県立看護大学",
+"name": "九州共立大学",
 "need": [
 "gap_keinet"
 ],
 "fields": [
-"founded",
-"licenses",
-"careers",
-"kyotsu"
+"research",
+"licenses"
 ],
-"keinet": "1543",
+"keinet": "2700",
 "fails": 1,
 "last_fail": "2026-11-21",
-"note": "2026-11-21 Kei-Net 1543 の大学トップ・licential・admission_employment・exam_subject がページ取得の許可待ちで読めず。founded・licenses・careers・kyotsu 未取得"
-},
-{
-"name": "石川県立看護大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded",
-"licenses",
-"careers",
-"kyotsu"
-],
-"keinet": "1549",
-"fails": 1,
-"last_fail": "2026-11-21",
-"note": "2026-11-21 Kei-Net 1549 の大学トップ・licential・admission_employment・exam_subject がページ取得の許可待ちで読めず。founded・licenses・careers・kyotsu 未取得"
+"note": "2026-11-21 Kei-Net 2700 の department・licential が検索結果に出ず、ページ取得の許可が得られず未確認。research・licenses 未取得"
 },
 {
 "name": "島根大学",
@@ -37652,6 +37645,21 @@
 "fails": 2,
 "last_fail": "2026-11-21",
 "note": "2026-11-21 Kei-Net /outline/department は経済学部443人・保健福祉学部410人（2025年度）のみで総数の行が無く、地域創造学部の学生数が未掲載／2026-11-21 2026-11-20 再確認：Kei-Net /outline/department は経済学部443人・保健福祉学部410人（2025年度）のみで地域創造学部と総数が無い。大学公式は今回取得できず",
+"deferred": true
+},
+{
+"name": "宮崎国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"fails": 2,
+"last_fail": "2026-11-21",
+"note": "2026-11-21 Kei-Netコード不明（2775/2777/2778を試したがページ取得の許可が下りず未確認）。research・kyotsu・difficulty 未取得／2026-11-21 Kei-Net 2774/2775/2778 がページ取得の許可待ちで読めずコード未確定。research・kyotsu・difficulty 未取得",
 "deferred": true
 }
 ],
