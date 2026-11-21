@@ -27623,7 +27623,9 @@
 "https://passnavi.obunsha.co.jp/univ/0245/expense/",
 "https://passnavi.obunsha.co.jp/univ/0245/schedule/",
 "https://search.keinet.ne.jp/1152/recommend/exam_ao",
-"https://passnavi.obunsha.co.jp/univ/0245/scholarship/"
+"https://passnavi.obunsha.co.jp/univ/0245/scholarship/",
+"https://passnavi.obunsha.co.jp/univ/0245/opencampus/",
+"https://gakkou.net/daigaku/view/opcampus_10419.html"
 ],
 "licenses": [
 "教員免許（高 水産・理科）",
@@ -27862,7 +27864,8 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "research": "2026-11-14",
-"scholar": "2026-11-19"
+"scholar": "2026-11-19",
+"oc": "2026-11-21"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -28114,6 +28117,12 @@
 }
 ],
 "note": "パスナビ（2026年4月入学者対象の情報）による。授業料減免は記載なし"
+},
+"oc": {
+"year": "2026年度",
+"events": [],
+"url": "https://passnavi.obunsha.co.jp/univ/0245/opencampus/",
+"note": "2026年度のオープンキャンパスは終了（越中島キャンパス：7/20 海洋工学部、品川キャンパス：8/1 海洋資源環境学部・8/2 海洋生命科学部・8/23 両学部。いずれも要事前予約、模擬授業・入試説明会）。2027年度の日程は未発表。最新は大学公式で確認。"
 }
 },
 "東京藝術大学": {
@@ -136949,7 +136958,8 @@
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"licenses": "2026-11-21"
 },
 "departments": [
 {
@@ -137126,13 +137136,18 @@
 "https://kotobank.jp/word/%E4%B9%9D%E5%B7%9E%E5%9B%BD%E9%9A%9B%E5%A4%A7%E5%AD%A6-165562",
 "https://search.keinet.ne.jp/2716/general/schedule",
 "https://manabi.benesse.ne.jp/daigaku/school/3872/nyushi/",
-"https://passnavi.obunsha.co.jp/univ/4900/expense/"
+"https://passnavi.obunsha.co.jp/univ/4900/expense/",
+"https://passnavi.obunsha.co.jp/univ/4900/shinro/"
 ],
 "students": {
 "count": 1742,
 "year": 2025
 },
-"founded": "1950年 八幡大学開学（1989年九州国際大学に改称／前身：九州法学校 1930年設立・戸畑専門学校 1947年創立）"
+"founded": "1950年 八幡大学開学（1989年九州国際大学に改称／前身：九州法学校 1930年設立・戸畑専門学校 1947年創立）",
+"licenses": [
+"学校図書館司書教諭（任用）（全学部）",
+"看護師（看護学部 看護学科。資格課程認定申請中〔予定を含む〕）"
+]
 },
 "九州女子大学": {
 "faculties": [
@@ -137565,7 +137580,9 @@
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"licenses": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -137732,13 +137749,33 @@
 "https://manabi.benesse.ne.jp/daigaku/school/3892/nyushi/hoshiki/ippan/",
 "https://manabi.benesse.ne.jp/daigaku/school/3892/",
 "https://search.keinet.ne.jp/2720",
-"https://manabi.benesse.ne.jp/daigaku/school/3892/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3892/nyushi/",
+"https://search.keinet.ne.jp/2720/outline/department",
+"https://passnavi.obunsha.co.jp/univ/4889/shinro/"
 ],
 "students": {
 "count": 836,
 "year": 2025
 },
-"founded": "2001年開学（前身：東筑紫短期大学、1950年開学／筑紫洋裁女学院、1936年創立）"
+"founded": "2001年開学（前身：東筑紫短期大学、1950年開学／筑紫洋裁女学院、1936年創立）",
+"licenses": [
+"栄養士（食物栄養学部 食物栄養学科）",
+"管理栄養士（食物栄養学部 食物栄養学科）",
+"理学療法士（リハビリテーション学部 理学療法学科）",
+"作業療法士（リハビリテーション学部 作業療法学科）",
+"小学校教諭一種（こども教育学部）",
+"幼稚園教諭一種（こども教育学部）",
+"特別支援学校教諭（こども教育学部）",
+"社会福祉主事（任用）（こども教育学部）",
+"保育士（こども教育学部）"
+],
+"research": [
+"こども教育（こども教育学部 こども教育学科）",
+"理学療法（リハビリテーション学部 理学療法学科）",
+"作業療法（リハビリテーション学部 作業療法学科）",
+"食物栄養（食物栄養学部 食物栄養学科）",
+"食環境データサイエンス（食物栄養学部 食環境データサイエンス学科）"
+]
 },
 "九州産業大学": {
 "faculties": [
@@ -138149,7 +138186,9 @@
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"licenses": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -138325,13 +138364,57 @@
 "https://manabi.benesse.ne.jp/daigaku/school/3805/",
 "https://search.keinet.ne.jp/2639",
 "https://search.keinet.ne.jp/2639/general/schedule",
-"https://search.keinet.ne.jp/2639/outline/expense"
+"https://search.keinet.ne.jp/2639/outline/expense",
+"https://search.keinet.ne.jp/2639/outline/licential",
+"https://passnavi.obunsha.co.jp/univ/4790/department/"
 ],
 "students": {
 "count": 3381,
 "year": 2025
 },
-"founded": "1975年開学"
+"founded": "1975年開学",
+"licenses": [
+"中学校教諭（保健体育）一種（経済学部 経済学科）",
+"高等学校教諭（公民）一種（経済学部 経済学科・国際経済学科）",
+"高等学校教諭（保健体育）一種（経済学部 経済学科）",
+"高等学校教諭（商業）一種（経済学部 税務会計学科）",
+"高等学校教諭（工業）一種（工学部 電気電子工学科・建築学科・機械システム工学科）",
+"一級建築士（受験資格）（工学部 建築学科）",
+"二級建築士（受験資格）（工学部 建築学科）",
+"高等学校教諭（情報）一種（工学部 情報工学科・人間文化学部 メディア・映像学科）",
+"中学校教諭（理科）一種（生命工学部 生物科学科・海洋生物科学科）",
+"高等学校教諭（理科）一種（生命工学部 生物科学科・海洋生物科学科）",
+"バイオ技術者認定試験（資格）（生命工学部 生物科学科）",
+"食品衛生監視員（資格）（生命工学部 生物科学科・健康栄養科学科・海洋生物科学科）",
+"栄養教諭一種（生命工学部 健康栄養科学科）",
+"管理栄養士（受験資格）（生命工学部 健康栄養科学科）",
+"栄養士（資格）（生命工学部 健康栄養科学科）",
+"高等学校教諭（水産）一種（生命工学部 海洋生物科学科）",
+"学芸員（資格）（生命工学部 海洋生物科学科・人間文化学部 人間文化学科・メディア・映像学科）",
+"薬剤師（受験資格）（薬学部 薬学科）",
+"中学校教諭（国語）一種（人間文化学部 人間文化学科）",
+"中学校教諭（社会）一種（人間文化学部 人間文化学科）",
+"高等学校教諭（国語）一種（人間文化学部 人間文化学科）",
+"高等学校教諭（地理歴史）一種（人間文化学部 人間文化学科）",
+"公認心理師（受験資格）（人間文化学部 心理学科）",
+"認定心理士（資格）（人間文化学部 心理学科）"
+],
+"research": [
+"経済（経済学部 経済学科。2年次から総合経済・金融経済・スポーツマネジメントの3コース）",
+"語学と国際感覚・海外研修（経済学部 国際経済学科）",
+"会計・経営の実践と簿記などの資格（経済学部 税務会計学科。備後経済・ビジネスマネジメントの2コース）",
+"言語・文学・歴史（人間文化学部 人間文化学科）",
+"心理臨床・司法犯罪心理（人間文化学部 心理学科。公認心理師養成に対応）",
+"映像・CG・Web・ゲームなどメディアの表現・制作・分析（人間文化学部 メディア・映像学科）",
+"防災・医療・福祉に関わる電気・電子システム（工学部 電気電子工学科）",
+"建築・生活環境デザイン（工学部 建築学科）",
+"コンピュータの理論・応用（工学部 情報工学科）",
+"機械システム・海洋機械（工学部 機械システム工学科）",
+"生物機能利用・生物多様性（生命工学部 生物科学科）",
+"管理栄養士養成・臨床栄養・食育スポーツ栄養・フードサイエンス（生命工学部 健康栄養科学科）",
+"海洋生物・海洋環境・水圏生物資源（生命工学部 海洋生物科学科）",
+"医療薬学・薬剤師養成（薬学部 薬学科・6年制）"
+]
 },
 "福山平成大学": {
 "faculties": [
@@ -138350,7 +138433,9 @@
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"licenses": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -138493,13 +138578,41 @@
 "https://manabi.benesse.ne.jp/daigaku/school/3806/",
 "https://ja.wikipedia.org/wiki/%E5%AD%A6%E6%A0%A1%E6%B3%95%E4%BA%BA%E7%A6%8F%E5%B1%B1%E5%A4%A7%E5%AD%A6",
 "https://search.keinet.ne.jp/2642/general/schedule",
-"https://search.keinet.ne.jp/2642/outline/expense"
+"https://search.keinet.ne.jp/2642/outline/expense",
+"https://search.keinet.ne.jp/2642/outline/licential",
+"https://passnavi.obunsha.co.jp/univ/4795/department/"
 ],
 "students": {
 "count": 1132,
 "year": 2025
 },
-"founded": "1994年開学（前身：福山大学経済学部経営情報学科を分離）"
+"founded": "1994年開学（前身：福山大学経済学部経営情報学科を分離）",
+"licenses": [
+"高等学校教諭（商業）一種（経営学部 経営学科）",
+"中学校教諭（保健のみ）一種（看護学部 看護学科）",
+"高等学校教諭（看護）一種（看護学部 看護学科）",
+"養護教諭一種（看護学部 看護学科・福祉健康学部 健康スポーツ科学科）",
+"養護教諭二種（看護学部 看護学科）",
+"看護師（受験資格）（看護学部 看護学科）",
+"保健師（受験資格）（看護学部 看護学科）",
+"高等学校教諭（福祉）一種（福祉健康学部 福祉学科）",
+"社会福祉士（受験資格）（福祉健康学部 福祉学科）",
+"介護福祉士（受験資格）（福祉健康学部 福祉学科）",
+"社会福祉主事（資格）（福祉健康学部 福祉学科）",
+"保育士（資格）（福祉健康学部 こども学科）",
+"幼稚園教諭一種（福祉健康学部 こども学科）",
+"小学校教諭一種（福祉健康学部 こども学科）",
+"中学校教諭（保健体育）一種（福祉健康学部 健康スポーツ科学科）",
+"高等学校教諭（保健体育）一種（福祉健康学部 健康スポーツ科学科）",
+"健康運動実践指導者（受験資格）（福祉健康学部 健康スポーツ科学科）"
+],
+"research": [
+"経営・会計・情報・グローバル・キャリアの5分野と地域課題の解決（経営学部 経営学科）",
+"高度・介護・教育ソーシャルワーク（福祉健康学部 福祉学科）",
+"保育・幼児教育・初等教育（福祉健康学部 こども学科。保育士と幼稚園・小学校教諭一種の同時取得をめざす）",
+"運動・スポーツによる健康づくり、保健体育教員・養護教諭養成（福祉健康学部 健康スポーツ科学科）",
+"地域医療に貢献する看護師・保健師・養護教諭の養成（看護学部 看護学科）"
+]
 },
 "美作大学": {
 "faculties": [
@@ -138517,7 +138630,9 @@
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"licenses": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -138692,13 +138807,37 @@
 "https://passnavi.obunsha.co.jp/univ/4710/difficulty/",
 "https://mimasaka.jp/about/disclosur/student-situation/",
 "https://ja.wikipedia.org/wiki/%E7%BE%8E%E4%BD%9C%E5%A4%A7%E5%AD%A6",
-"https://manabi.benesse.ne.jp/daigaku/school/3786/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3786/nyushi/",
+"https://search.keinet.ne.jp/2621/outline/licential",
+"https://search.keinet.ne.jp/2621/outline/department"
 ],
 "students": {
 "count": 757,
 "year": 2026
 },
-"founded": "1967年開学（美作女子大学として開学、2003年改称。前身：美作短期大学、1951年開学／津山高等裁縫学校、1915年創立）"
+"founded": "1967年開学（美作女子大学として開学、2003年改称。前身：美作短期大学、1951年開学／津山高等裁縫学校、1915年創立）",
+"licenses": [
+"中学校教諭（家庭）一種（生活科学部 食物学科）",
+"高等学校教諭（家庭）一種（生活科学部 食物学科）",
+"栄養教諭一種（生活科学部 食物学科）",
+"管理栄養士（受験資格）（生活科学部 食物学科）",
+"栄養士（資格）（生活科学部 食物学科）",
+"食品衛生監視員（資格）（生活科学部 食物学科）",
+"社会福祉主事（資格）（生活科学部 食物学科・児童学科・社会福祉学科）",
+"保育士（資格）（生活科学部 児童学科）",
+"幼稚園教諭一種（生活科学部 児童学科）",
+"小学校教諭一種（生活科学部 児童学科）",
+"中学校教諭（家庭）二種（生活科学部 児童学科）",
+"児童福祉司（資格）（生活科学部 児童学科・社会福祉学科）",
+"認定心理士（資格）（生活科学部 児童学科）",
+"高等学校教諭（福祉）一種（生活科学部 社会福祉学科）",
+"社会福祉士（受験資格）（生活科学部 社会福祉学科）"
+],
+"research": [
+"食物・栄養（生活科学部 食物学科）",
+"児童・保育・幼児教育（生活科学部 児童学科）",
+"社会福祉（生活科学部 社会福祉学科）"
+]
 },
 "聖カタリナ大学": {
 "faculties": [
@@ -138716,7 +138855,10 @@
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"difficulty": "2026-11-21",
+"licenses": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -138870,13 +139012,33 @@
 "https://search.keinet.ne.jp/2687",
 "https://manabi.benesse.ne.jp/daigaku/school/3851/nyushi/hoshiki/ippan/",
 "https://search.keinet.ne.jp/2687/general/schedule",
-"https://search.keinet.ne.jp/2687/outline/expense"
+"https://search.keinet.ne.jp/2687/outline/expense",
+"https://search.keinet.ne.jp/2687/general/border_rate",
+"https://passnavi.obunsha.co.jp/univ/4870/shinro/?facultyID=005",
+"https://passnavi.obunsha.co.jp/univ/4870/shinro/?facultyID=010",
+"https://passnavi.obunsha.co.jp/univ/4870/difficulty/"
 ],
 "students": {
 "count": 822,
 "year": 2025
 },
-"founded": "1988年開学（聖カタリナ女子大学として開学、2004年改称。前身：聖カタリナ女子短期大学、1966年開学）"
+"founded": "1988年開学（聖カタリナ女子大学として開学、2004年改称。前身：聖カタリナ女子短期大学、1966年開学）",
+"difficulty": {
+"hensachi": "BF",
+"kyotei": "45%〜50%",
+"year": "2027年度入試用"
+},
+"licenses": [
+"社会福祉主事（任用）（健康社会学部）",
+"社会福祉士（健康社会学部 健康社会学科 現代人間専攻）",
+"看護師（看護学部 看護学科）",
+"保健師（看護学部 看護学科）"
+],
+"research": [
+"現代人間（健康社会学部 健康社会学科 現代人間専攻）",
+"健康スポーツ（健康社会学部 健康社会学科 健康スポーツ専攻）",
+"看護（看護学部 看護学科）"
+]
 },
 "至誠館大学": {
 "faculties": [
@@ -138894,7 +139056,9 @@
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"licenses": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -139049,13 +139213,23 @@
 "https://www.weblio.jp/content/%E8%87%B3%E8%AA%A0%E9%A4%A8%E5%A4%A7%E5%AD%A6",
 "https://search.keinet.ne.jp/2655/outline/expense",
 "https://manabi.benesse.ne.jp/daigaku/school/3820/nyushi/hoshiki/ippan/",
-"https://manabi.benesse.ne.jp/daigaku/school/3820/nyushi/hoshiki/sougou/"
+"https://manabi.benesse.ne.jp/daigaku/school/3820/nyushi/hoshiki/sougou/",
+"https://passnavi.obunsha.co.jp/univ/4833/shinro/"
 ],
 "students": {
 "count": 649,
 "year": 2025
 },
-"founded": "1999年開学（萩国際大学として開学、2014年改称。前身：萩女子短期大学、1967年開学／萩高等計理学校、1960年創立）"
+"founded": "1999年開学（萩国際大学として開学、2014年改称。前身：萩女子短期大学、1967年開学／萩高等計理学校、1960年創立）",
+"licenses": [
+"社会福祉主事（任用）（現代社会学部 現代社会学科 こども）",
+"保育士（現代社会学部 現代社会学科 こども）",
+"介護福祉士（現代社会学部 現代社会学科）",
+"社会福祉士（現代社会学部 現代社会学科）"
+],
+"research": [
+"現代社会（現代社会学部 現代社会学科。保育士をめざす「こども」の学びあり）"
+]
 },
 "宮崎産業経営大学": {
 "difficulty": {
@@ -139072,7 +139246,9 @@
 "access": "2026-11-07",
 "kyotsu": "2026-11-07",
 "licenses": "2026-11-07",
-"schedule": "2026-11-11"
+"schedule": "2026-11-11",
+"research": "2026-11-21",
+"careers": "2026-11-21"
 },
 "faculties": [
 "法学部",
@@ -139121,7 +139297,8 @@
 "https://search.keinet.ne.jp/2777/general/exam_subject",
 "https://search.keinet.ne.jp/2777/outline/licential",
 "https://manabi.benesse.ne.jp/daigaku/school/3958/nyushi/",
-"https://search.keinet.ne.jp/2777/general/schedule"
+"https://search.keinet.ne.jp/2777/general/schedule",
+"https://passnavi.obunsha.co.jp/univ/5160/shinro/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -139192,7 +139369,13 @@
 }
 ],
 "note": "法学部・経営学部で同じ日程。マナビジョン（2027年度入試）とKei-Netで一致。検定料は出典に記載なし"
-}
+},
+"research": [
+"法律（法学部 法律学科）",
+"経営（経営学部 経営学科）",
+"エコノデータサイエンス（経営学部 エコノデータサイエンス学科）"
+],
+"careers": "2025年度卒業生は法学部105人中95人、経営学部103人中96人が就職（就職希望者のほぼ全員）。主な就職先は宮崎県庁・宮崎県警察・宮崎市役所・宮崎市消防局・宮崎銀行・宮崎県農業協同組合・宮崎トヨタグループ・日本郵便など、県内の公務員・企業が中心。"
 },
 "尚絅大学": {
 "difficulty": {
