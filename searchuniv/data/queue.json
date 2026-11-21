@@ -13821,6 +13821,77 @@
 "fails": 1,
 "last_fail": "2026-11-21",
 "note": "2026-11-21 Kei-Net の department・licential が検索結果に出ず、直接のページ取得も許可されず未確認（research・licenses 未取得）"
+},
+{
+"name": "尚絅大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"careers",
+"kyotsu"
+],
+"keinet": "2753"
+},
+{
+"name": "崇城大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"careers",
+"kyotsu"
+],
+"keinet": "2751"
+},
+{
+"name": "長野大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"careers",
+"kyotsu"
+],
+"keinet": "1563"
+},
+{
+"name": "長野県看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"careers"
+],
+"keinet": "1562"
+},
+{
+"name": "高松大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "2677"
+},
+{
+"name": "高知健康科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu"
+],
+"keinet": "2692"
 }
 ],
 "failed": [],
@@ -14071,104 +14142,11 @@
 "新潟県立看護大学": 1,
 "石川県立看護大学": 1,
 "九州ルーテル学院大学": 2,
-"九州栄養福祉大学": 1
+"九州栄養福祉大学": 1,
+"平成音楽大学": 1,
+"志學館大学": 1
 },
 "enrich": [
-{
-"name": "尚絅大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"careers",
-"kyotsu"
-],
-"keinet": "2753"
-},
-{
-"name": "崇城大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"careers",
-"kyotsu"
-],
-"keinet": "2751"
-},
-{
-"name": "平成音楽大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"careers",
-"kyotsu"
-],
-"keinet": "2756"
-},
-{
-"name": "志學館大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"careers",
-"kyotsu"
-],
-"keinet": "2789"
-},
-{
-"name": "長野大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"careers",
-"kyotsu"
-],
-"keinet": "1563"
-},
-{
-"name": "長野県看護大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"careers"
-],
-"keinet": "1562"
-},
-{
-"name": "高松大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"difficulty"
-],
-"keinet": "2677"
-},
-{
-"name": "高知健康科学大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses",
-"kyotsu"
-],
-"keinet": "2692"
-},
 {
 "name": "高知学園大学",
 "need": [
@@ -36009,6 +35987,36 @@
 "fails": 1,
 "last_fail": "2026-11-20",
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
+},
+{
+"name": "平成音楽大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"careers",
+"kyotsu"
+],
+"keinet": "2756",
+"fails": 1,
+"last_fail": "2026-11-22",
+"note": "2026-11-22 Kei-Net outline/department は学科名と定員のみで特色の説明なし（research 未取得）。exam_subject に共テ利用方式なし（kyotsu は無しが正しい）。careers は回数上限で未確認"
+},
+{
+"name": "志學館大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"careers",
+"kyotsu"
+],
+"keinet": "2789",
+"fails": 1,
+"last_fail": "2026-11-22",
+"note": "2026-11-22 Kei-Net outline/department は学科名と定員のみ（research 未取得）。パスナビ shinro に就職先情報なし、Kei-Net admission_employment・exam_subject は回数上限で未確認"
 },
 {
 "name": "島根大学",
