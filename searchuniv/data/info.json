@@ -26567,7 +26567,8 @@
 "https://search.keinet.ne.jp/1095/general/exam_subject",
 "https://passnavi.obunsha.co.jp/univ/0190/eiken/",
 "https://www.gunma-u.ac.jp/wp-content/uploads/2026/08/2027senbatsu.pdf",
-"https://passnavi.obunsha.co.jp/univ/0190/expense/"
+"https://passnavi.obunsha.co.jp/univ/0190/expense/",
+"https://search.keinet.ne.jp/1095/recommend/exam_ao"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -26597,58 +26598,66 @@
 {
 "kubun": "一般",
 "name": "前期日程",
-"kyotsu": "6教科7〜8科目（理型は情報含む）",
+"kyotsu": "6教科7〜8科目（理型は情報含む。音楽専攻は6教科6科目）",
 "niji": "理工：英・数・理1科目／教育：小論文・総合問題・面接（芸術系は実技）／医：数・理ほか",
 "haiten": "共テ:二次＝950:500（理工）、教育は850:400前後",
 "kn": [
 1.9,
 1
 ],
-"note": "医学部医学科は第1段階選抜（約3倍）あり"
+"note": "医学部医学科は志願者が前期募集人員の3倍を超えた場合に第1段階選抜（約3倍）を行うことがある"
 },
 {
 "kubun": "一般",
 "name": "後期日程",
-"kyotsu": "理型（共テ950点）",
-"niji": "面接のみ",
-"haiten": "共テ重視（950点＋面接）",
-"note": "理工学部のみ"
+"kyotsu": "共テ950点（情報学部）",
+"niji": "情報：小論文（小論文重視型400点／共テ重視型100点）／保健：集団面接／理工：個人面接",
+"haiten": "情報は共テ950点＋小論文",
+"note": "情報学部（24名）・医学部保健学科（33名）・理工学部（46名）で実施。共同教育学部と医学科は実施しない"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型Ⅰ（共テなし）",
-"content": "書類・面接に小論文（教育・情報）、実技（音楽・美術）",
-"req": "現役・専願、評定平均3.5〜3.8以上（学部による。理工一般枠は評定条件の記載なし）",
+"content": "書類・面接に小論文（共同教育の多くの専攻・情報）、実技（音楽・美術）。理工は書類・面接のみ",
+"req": "卒業見込み・入学確約。評定は専攻で異なる（国語・社会・英語は該当教科4.3以上、理科4.1以上、音楽・美術4.0以上、情報3.8以上。理工・家政・教育系などは概評B以上などで数値条件なし）",
 "kyotsu": "課さない",
-"note": "共同教育（多くの専修）・理工・情報。英語資格によるGFL特別枠あり"
+"note": "共同教育（数学専攻以外）・情報・理工。情報学部と理工学部に英語資格によるGFL特別枠、情報学部にプログラム特別枠あり"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型Ⅱ（共テあり）",
-"content": "書類・面接・小論文＋共通テスト",
-"req": "現役・専願、評定平均3.8以上（保健）、4.3以上（医学科）",
-"kyotsu": "課す（3教科5科目〜6教科8科目）",
-"note": "医学部医学科（地域医療枠あり）・保健学科・共同教育（数学）"
+"content": "書類・面接＋共通テスト（医学科は小論文、保健は看護・理学・作業で小論文）",
+"req": "卒業見込み・入学確約。医学科は概評A・数学2科目以上と理科2科目以上の履修（出身校1校5名以内）、保健は評定3.8以上、共同教育（数学）は概評B以上かつ数学4.3以上",
+"kyotsu": "課す（6教科）",
+"note": "医学部医学科（一般枠25名・地域医療枠は認可申請中）・保健学科・共同教育（数学）"
 },
 {
 "kubun": "総合型",
 "name": "総合型選抜（共同教育）",
-"content": "書類・面接に小論文・プレゼン・実技（専修による）",
-"req": "専願",
-"kyotsu": "方式Ⅰは記載なし、方式Ⅱ（技術）は6教科8科目を課す",
-"note": "社会・数学・理科・技術・音楽の一部専修のみ"
+"content": "書類・面接に小論文（社会）・プレゼン（数学・理科・技術）・実技（音楽）",
+"req": "入学確約、既卒も可",
+"kyotsu": "方式Ⅰは課さない、方式Ⅱ（技術）は6教科8科目を課す",
+"note": "社会・数学・理科・音楽（方式Ⅰ）、技術（方式Ⅱ）。理科は小論文を廃止"
 },
 {
 "kubun": "総合型",
 "name": "総合型選抜iTFL",
 "content": "1次書類・取得資格（加点）、2次面接・プレゼン",
-"req": "現役・専願、情報系・科学技術系コンテストの参加・入賞歴",
-"kyotsu": "記載なし",
-"note": "理工（電子・機械類）・情報、若干名"
+"req": "卒業見込み・入学確約、情報系・科学技術系コンテストの参加・入賞歴",
+"kyotsu": "課さない",
+"note": "情報（データサイエンス・計算機科学）・理工（電子・機械類）、若干名"
+},
+{
+"kubun": "総合型",
+"name": "専門学科・総合学科特別選抜",
+"content": "1次書類、2次個人面接",
+"req": "職業系または工業・情報の科目を20単位以上修得見込み",
+"kyotsu": "課さない",
+"note": "理工学部 物質・環境類5名、電子・機械類7名"
 }
 ],
-"summary": "一般は前期中心で後期は理工のみ面接型。推薦は共テなし型（理工・情報・教育）と共テあり型（医・保健）。",
-"note": "Kei-Netの一般選抜ページ要約では情報学部・医学部保健学科の行と医学科二次の全科目を確認できず、要項で要確認"
+"summary": "一般は前期中心で、後期は情報（小論文）・保健（面接）・理工（面接）。推薦は共テなし型（共同教育・情報・理工）と共テあり型（医・保健・共同教育数学）。総合型は共同教育の一部専攻、iTFL、理工の専門学科特別選抜。",
+"note": "2026-11-21 大学公式「令和9年度 選抜要項」とKei-Netで確認し、後期の実施学部、推薦の評定条件、総合型の区分を直した。前期の配点は要項で未確認"
 },
 "departments": [
 {
@@ -26925,7 +26934,8 @@
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
-"research": "2026-11-14"
+"research": "2026-11-14",
+"methods": "2026-11-21"
 },
 "money": {
 "year": "2026年度",
@@ -126780,7 +126790,10 @@
 "_via": "2026-11-07",
 "students": "2026-11-09",
 "founded": "2026-11-09",
-"money": "2026-11-09"
+"money": "2026-11-09",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -126885,7 +126898,10 @@
 "https://www1.niu.ac.jp/about/history/",
 "https://search.keinet.ne.jp/2741/outline/expense",
 "https://cyber.niu.ac.jp/assets/files/exam/entrance-exam-overview.pdf",
-"https://manabi.benesse.ne.jp/daigaku/school/3919/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3919/nyushi/index.html",
+"https://search.keinet.ne.jp/2741/general/border_rate",
+"https://search.keinet.ne.jp/general/exam_subject_sp/2741",
+"https://search.keinet.ne.jp/2741/outline/department"
 ],
 "students": {
 "count": 2007,
@@ -126931,7 +126947,32 @@
 "note": "施設費・実習費・諸会費は記載なし。other は学生支援費等（Kei-Net 2026年度入学者用）"
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "35.0",
+"kyotei": "42%〜48%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "2〜3教科3科目（薬学部は3教科5科目）",
+"kyoka": [
+2,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はリーディング50点・リスニング50点（計100点）",
+"note": "健康栄養・国際観光・社会福祉・情報デザインは300点満点（英・数・国・理・地公・情から選択。学科ごとに数学か情報、理科などを含む条件あり）。薬学部は500点満点（数学2科目・化学を含む）。",
+"year": "2027年度入試"
+},
+"research": [
+"薬（薬学部 薬学科）",
+"健康栄養（健康管理学部）",
+"国際観光（人間社会学部）",
+"社会福祉（人間社会学部）",
+"情報デザイン（情報学部、新設）"
+]
 },
 "長崎外国語大学": {
 "faculties": [
@@ -126949,7 +126990,10 @@
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -127091,13 +127135,39 @@
 "https://search.keinet.ne.jp/2742/outline/expense",
 "https://search.keinet.ne.jp/2742/general/schedule",
 "https://manabi.benesse.ne.jp/daigaku/school/3920/nyushi/hoshiki/ippan/index.html",
-"https://manabi.benesse.ne.jp/daigaku/school/3920/nyushi/hoshiki/kyotsu-test/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3920/nyushi/hoshiki/kyotsu-test/index.html",
+"https://search.keinet.ne.jp/2742/general/border_rate",
+"https://search.keinet.ne.jp/2742/general/exam_subject",
+"https://search.keinet.ne.jp/2742"
 ],
 "students": {
 "count": 738,
 "year": 2026
 },
-"founded": "2001年開学（前身：長崎外国語短期大学［1950年開学］、長崎外国語学校［1945年創立］）"
+"founded": "2001年開学（前身：長崎外国語短期大学［1950年開学］、長崎外国語学校［1945年創立］）",
+"difficulty": {
+"hensachi": "BF〜35.0",
+"kyotei": "43%〜50%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "2教科2科目",
+"kyoka": [
+2,
+2
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はリーディング100点・リスニング100点（英語必須）",
+"note": "英語（R・L）必須＋数・国・地公・情から1（400点、英語資格・検定試験の加点あり）。3学科共通。",
+"year": "2027年度入試"
+},
+"research": [
+"現代英語（外国語学部 現代英語学科）",
+"国際コミュニケーション（外国語学部）",
+"国際日本（外国語学部 国際日本学科、2027年4月設置予定）"
+]
 },
 "長崎純心大学": {
 "faculties": [
@@ -127113,7 +127183,10 @@
 "_via": "2026-11-07",
 "students": "2026-11-09",
 "founded": "2026-11-09",
-"schedule": "2026-11-19"
+"schedule": "2026-11-19",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -127171,7 +127244,10 @@
 "https://www.n-junshin.ac.jp/official/summary/development/",
 "https://www.n-heyamise.jp/blog/entry-566662/",
 "https://search.keinet.ne.jp/2740/general/schedule",
-"https://manabi.benesse.ne.jp/daigaku/school/3917/nyushi/hoshiki/ippan/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3917/nyushi/hoshiki/ippan/index.html",
+"https://search.keinet.ne.jp/general/border_rate/2740",
+"https://search.keinet.ne.jp/2740/general/exam_subject",
+"https://search.keinet.ne.jp/2740"
 ],
 "students": {
 "count": 974,
@@ -127228,7 +127304,30 @@
 "fee": null
 }
 ]
-}
+},
+"difficulty": {
+"hensachi": "BF",
+"kyotei": "45%〜50%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "2教科2科目",
+"kyoka": [
+2,
+2
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語を選ぶ場合はリーディング100点・リスニング100点",
+"note": "英・数・国・理・地公・情から2（400点）。3学科共通。",
+"year": "2027年度入試"
+},
+"research": [
+"言語文化情報（人文学部）",
+"福祉・心理（人文学部）",
+"こども教育保育（人文学部）"
+]
 },
 "長崎総合科学大学": {
 "faculties": [
@@ -127246,7 +127345,10 @@
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"difficulty": "2026-11-21",
+"kyotsu": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -127401,13 +127503,42 @@
 "https://search.keinet.ne.jp/2738/general/schedule",
 "https://search.keinet.ne.jp/2738/general/exam_fee",
 "https://www.nias.ac.jp/files/uploads/guide_common.pdf",
-"https://manabi.benesse.ne.jp/daigaku/school/3918/nyushi/hoshiki/ippan/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3918/nyushi/hoshiki/ippan/index.html",
+"https://search.keinet.ne.jp/2738/general/border_rate",
+"https://search.keinet.ne.jp/2738/general/exam_subject",
+"https://search.keinet.ne.jp/2738"
 ],
 "students": {
 "count": 745,
 "year": 2024
 },
-"founded": "1965年 長崎造船大学として開学（1978年現校名に改称。前身：長崎造船短期大学［1950年開学］、川南高等造船学校［1943年開校］）"
+"founded": "1965年 長崎造船大学として開学（1978年現校名に改称。前身：長崎造船短期大学［1950年開学］、川南高等造船学校［1943年開校］）",
+"difficulty": {
+"hensachi": "BF〜37.5",
+"kyotei": "41%〜48%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "2〜3教科3科目",
+"kyoka": [
+2,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語を選ぶ場合はリーディング100点・リスニング100点",
+"note": "数学1科目（200点）＋英・国・理・地公・情から2（600点）。Ⅰ期のみ共テボーダーあり。",
+"year": "2027年度入試"
+},
+"research": [
+"建築（工学部）",
+"医療情報工学（工学部）",
+"グリーン・デジタル（先端工学部、2027年4月改組予定）",
+"グリーン船舶システム（先端工学部）",
+"知能情報（総合情報学部）",
+"経営情報（総合情報学部）"
+]
 },
 "山梨県立大学": {
 "faculties": [
@@ -127430,7 +127561,9 @@
 "ratios": "2026-11-09",
 "schedule": "2026-11-16",
 "money": "2026-11-09",
-"_via": "2026-11-16"
+"_via": "2026-11-16",
+"difficulty": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -127503,7 +127636,8 @@
 "https://juku-times.com/juku/yamanashikenritsu/gakubu-2/bairitsu/",
 "https://manabi.benesse.ne.jp/daigaku/school/2114/nyushi/bairitsu/",
 "https://passnavi.obunsha.co.jp/univ/1102/department/?facultyID=010",
-"https://yamanashi-ken.ac.jp/media/5201_jyugyouryou_20240601.pdf"
+"https://yamanashi-ken.ac.jp/media/5201_jyugyouryou_20240601.pdf",
+"https://search.keinet.ne.jp/outline/department/1561"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -127715,7 +127849,19 @@
 }
 ]
 },
-"_via": "external-ai-verified"
+"_via": "external-ai-verified",
+"difficulty": {
+"hensachi": "",
+"kyotei": "54%〜77%",
+"year": "2027年度入試用"
+},
+"research": [
+"地域福祉・社会福祉（人間福祉学部 福祉コミュニティ学科）",
+"子どもと家族の支援・保育（人間福祉学部 人間形成学科）",
+"地域マネジメント・国際関係・観光メディア（国際政策学部 総合政策学科）",
+"国際コミュニケーション・創発デザイン（国際政策学部）",
+"看護実践（看護学部 看護学科）"
+]
 },
 "岐阜県立看護大学": {
 "faculties": [
@@ -127735,7 +127881,8 @@
 "ratios": "2026-11-09",
 "schedule": "2026-11-16",
 "money": "2026-11-09",
-"_via": "2026-11-16"
+"_via": "2026-11-16",
+"difficulty": "2026-11-21"
 },
 "departments": [
 {
@@ -127922,7 +128069,12 @@
 }
 ]
 },
-"_via": "external-ai-verified"
+"_via": "external-ai-verified",
+"difficulty": {
+"hensachi": "",
+"kyotei": "57%",
+"year": "2027年度入試用"
+}
 },
 "岐阜薬科大学": {
 "faculties": [
@@ -127942,7 +128094,9 @@
 "ratios": "2026-11-09",
 "schedule": "2026-11-16",
 "money": "2026-11-09",
-"_via": "2026-11-16"
+"_via": "2026-11-16",
+"difficulty": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -127991,7 +128145,8 @@
 "https://www.gifu-pu.ac.jp/admissions/undergrad/",
 "https://www.gifu-pu.ac.jp/admissions/undergrad/general/",
 "https://www.gifu-pu.ac.jp/campuslife/procedure/",
-"https://www.gifu-pu.ac.jp/news/2026/07/post-486.html"
+"https://www.gifu-pu.ac.jp/news/2026/07/post-486.html",
+"https://manabi.benesse.ne.jp/daigaku/school/2125/gakubu/gakubudt/61.html"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -128110,7 +128265,16 @@
 }
 ]
 },
-"_via": "external-ai-verified"
+"_via": "external-ai-verified",
+"difficulty": {
+"hensachi": "60.0",
+"kyotei": "79%",
+"year": "2027年度入試用"
+},
+"research": [
+"医療薬学（病院・薬局の臨床、薬事行政）",
+"創薬育薬（製薬企業での医薬品開発・研究）"
+]
 },
 "愛知県立大学": {
 "faculties": [
@@ -128134,7 +128298,9 @@
 "fdiff": "2026-11-09",
 "schedule": "2026-11-16",
 "money": "2026-11-16",
-"_via": "2026-11-16"
+"_via": "2026-11-16",
+"difficulty": "2026-11-21",
+"research": "2026-11-21"
 },
 "departments": [
 {
@@ -128525,7 +128691,23 @@
 }
 ]
 },
-"_via": "external-ai-verified"
+"_via": "external-ai-verified",
+"difficulty": {
+"hensachi": "45.0〜55.0",
+"kyotei": "60%〜86%",
+"year": "2027年度入試用"
+},
+"research": [
+"英米の社会・文学・文化・現代英語（外国語学部 英米学科）",
+"フランス語圏・スペイン語圏・ポルトガル語圏・ドイツ語圏（外国語学部 ヨーロッパ学科）",
+"中国語・中国の文学と社会（外国語学部 中国学科）",
+"国際法・世界経済・多文化社会論（外国語学部 国際関係学科）",
+"国語学・国文学・漢文学（日本文化学部 国語国文学科）",
+"歴史文化学・社会文化学・比較文化学（日本文化学部 歴史文化学科）",
+"教育と福祉（教育福祉学部 教育発達学科・社会福祉学科）",
+"看護（看護学部）",
+"応用数学・プログラミング・通信ネットワーク、ロボティクスなど（情報科学部）"
+]
 },
 "愛知県立芸術大学": {
 "faculties": [
