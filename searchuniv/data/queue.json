@@ -14998,6 +14998,121 @@
 ],
 "keinet": "2538",
 "done_date": "2026-11-22"
+},
+{
+"name": "明治国際医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2503",
+"done_date": "2026-11-22"
+},
+{
+"name": "大阪観光大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"done_date": "2026-11-22"
+},
+{
+"name": "大阪電気通信大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2529",
+"done_date": "2026-11-22"
+},
+{
+"name": "大阪青山大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2511",
+"done_date": "2026-11-22"
+},
+{
+"name": "大阪音楽大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2517",
+"done_date": "2026-11-22"
+},
+{
+"name": "天理大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2589",
+"done_date": "2026-11-22"
+},
+{
+"name": "太成学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2547",
+"done_date": "2026-11-22"
+},
+{
+"name": "奈良大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2590",
+"done_date": "2026-11-22"
 }
 ],
 "failed": [],
@@ -15257,113 +15372,6 @@
 "神戸国際大学": 1
 },
 "enrich": [
-{
-"name": "明治国際医療大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2503"
-},
-{
-"name": "大阪観光大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu"
-]
-},
-{
-"name": "大阪電気通信大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2529"
-},
-{
-"name": "大阪青山大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu"
-],
-"keinet": "2511"
-},
-{
-"name": "大阪音楽大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu"
-],
-"keinet": "2517"
-},
-{
-"name": "天理大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2589"
-},
-{
-"name": "太成学院大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2547"
-},
-{
-"name": "奈良大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu"
-],
-"keinet": "2590"
-},
 {
 "name": "奈良学園大学",
 "need": [

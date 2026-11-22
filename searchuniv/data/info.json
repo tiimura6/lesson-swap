@@ -30144,7 +30144,8 @@
 "https://passnavi.obunsha.co.jp/univ/1025/expense/",
 "https://manabi.benesse.ne.jp/daigaku/school/2030/nyushi/hoshiki/ippan/",
 "https://passnavi.obunsha.co.jp/univ/1025/scholarship/",
-"https://manabi.benesse.ne.jp/daigaku/school/2030/opencampus/"
+"https://manabi.benesse.ne.jp/daigaku/school/2030/opencampus/",
+"https://search.keinet.ne.jp/1521/general/exam_result"
 ],
 "licenses": [
 "高等学校教諭一種（英語）"
@@ -30254,7 +30255,7 @@
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "eng": "2026-11-06",
-"ratios": "2026-11-06",
+"ratios": "2026-11-22",
 "research": "2026-11-14",
 "scholar": "2026-11-19",
 "oc": "2026-11-22"
@@ -30397,7 +30398,7 @@
 }
 }
 ],
-"note": "河合塾Kei-Netの一般選抜入試結果より（倍率＝受験者／合格者）"
+"note": "河合塾Kei-Netの一般選抜入試結果より（倍率＝受験者／合格者）。2026-11-22 再確認（変更なし）"
 },
 "research": [
 "国際政治・外交政策・日中関係、ジェンダー、国際組織、持続可能な発展、国際環境科学（グローバル・スタディズ領域）",
@@ -161737,7 +161738,10 @@ null
 "money": "2026-11-10",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"research": "2026-11-22",
+"students": "2026-11-22",
+"founded": "2026-11-22"
 },
 "departments": [
 {
@@ -161940,8 +161944,22 @@ null
 "https://shingakunet.com/gakko/SC000553/gakuhi/",
 "https://telemail.jp/shingaku/university/10001739/examination/general",
 "https://search.keinet.ne.jp/2503/outline/expense",
-"https://manabi.benesse.ne.jp/daigaku/school/3607/nyushi/gokaku-happyo/"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3607/nyushi/gokaku-happyo/",
+"https://search.keinet.ne.jp/2503",
+"https://search.keinet.ne.jp/2503/outline/department"
+],
+"research": [
+"鍼灸（鍼灸学部 鍼灸学科）",
+"救急救命（保健医療学部 救急救命学科）",
+"柔道整復（保健医療学部 柔道整復学科）",
+"看護（看護学部 看護学科）",
+"食農エコロジー（農学部 食農エコロジー学科・2027年度設置予定）"
+],
+"students": {
+"count": 855,
+"year": 2025
+},
+"founded": "1983年 明治鍼灸大学として開学（2008年 明治国際医療大学に改称／前身：明治鍼灸短期大学、1978年開学）"
 },
 "大阪観光大学": {
 "faculties": [
@@ -161957,7 +161975,10 @@ null
 "scholar": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"research": "2026-11-22",
+"students": "2026-11-22",
+"founded": "2026-11-22"
 },
 "departments": [
 {
@@ -162079,8 +162100,18 @@ null
 "https://www.tourism.ac.jp/wp/wp-content/uploads/2026/07/boshu2027_japanese.pdf",
 "https://passnavi.obunsha.co.jp/univ/4205/difficulty/",
 "https://passnavi.obunsha.co.jp/univ/4205/expense/",
-"https://manabi.benesse.ne.jp/daigaku/school/3659/nyushi/gokaku-happyo/"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3659/nyushi/gokaku-happyo/",
+"https://search.keinet.ne.jp/2549",
+"https://search.keinet.ne.jp/2549/outline/department"
+],
+"research": [
+"観光（観光学部 観光学科）"
+],
+"students": {
+"count": 810,
+"year": 2025
+},
+"founded": "2000年 大阪明浄大学として開学（2006年 大阪観光大学に改称）"
 },
 "大阪電気通信大学": {
 "faculties": [
@@ -162101,7 +162132,11 @@ null
 "scholar": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"research": "2026-11-22",
+"students": "2026-11-22",
+"founded": "2026-11-22",
+"licenses": "2026-11-22"
 },
 "departments": [
 {
@@ -162324,7 +162359,42 @@ null
 "https://search.keinet.ne.jp/2529/topics/12",
 "https://search.keinet.ne.jp/2529/outline/expense",
 "https://www.osakac.ac.jp/admission/faculty/list/",
-"https://www.osakac.ac.jp/examinee/admission/exam-fee/"
+"https://www.osakac.ac.jp/examinee/admission/exam-fee/",
+"https://search.keinet.ne.jp/2529",
+"https://search.keinet.ne.jp/2529/outline/department",
+"https://search.keinet.ne.jp/2529/outline/licential"
+],
+"research": [
+"電気電子・電子機械・機械（工学部）",
+"数理科学・応用化学（工学部 基礎理工学科）",
+"情報工学・通信工学（情報通信工学部）",
+"建築・空間デザイン（建築・デザイン学部）",
+"医療工学・理学療法・スポーツ科学（健康情報学部）",
+"デジタルゲーム・ゲーム＆メディア・情報（総合情報学部）"
+],
+"students": {
+"count": 5758,
+"year": 2025
+},
+"founded": "1961年 大阪電気通信大学として開学（工学部電子工学科／前身：1941年開校の東亜電気通信工学校）",
+"licenses": [
+"中学校教諭（数学）一種",
+"中学校教諭（技術）一種",
+"中学校教諭（理科）一種",
+"中学校教諭（保健体育）一種",
+"高等学校教諭（数学）一種",
+"高等学校教諭（工業）一種",
+"高等学校教諭（情報）一種",
+"高等学校教諭（理科）一種",
+"高等学校教諭（保健体育）一種",
+"食品衛生監視員（資格）",
+"一級建築士（受験資格）",
+"二級建築士（受験資格）",
+"木造建築士（受験資格）",
+"臨床工学技士（受験資格）",
+"理学療法士（受験資格）",
+"健康運動実践指導者（受験資格）",
+"技術士補（試験一部免除）"
 ]
 },
 "大阪青山大学": {
@@ -162342,7 +162412,11 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"money": "2026-11-10"
+"money": "2026-11-10",
+"research": "2026-11-22",
+"students": "2026-11-22",
+"founded": "2026-11-22",
+"licenses": "2026-11-22"
 },
 "departments": [
 {
@@ -162418,7 +162492,10 @@ null
 "https://passnavi.obunsha.co.jp/univ/4068/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3668/nyushi/gokaku-happyo/",
 "https://search.keinet.ne.jp/2511/outline/expense",
-"https://manabi.benesse.ne.jp/daigaku/school/3668/gakuhi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3668/gakuhi/",
+"https://search.keinet.ne.jp/2511",
+"https://search.keinet.ne.jp/2511/outline/department",
+"https://search.keinet.ne.jp/2511/outline/licential"
 ],
 "money": {
 "year": "2026年度",
@@ -162459,7 +162536,33 @@ null
 "note": ""
 }
 ]
-}
+},
+"research": [
+"子ども教育（子ども教育学部 子ども教育学科）",
+"看護（看護学部 看護学科）",
+"健康栄養（健康科学部 健康栄養学科）"
+],
+"students": {
+"count": 747,
+"year": 2025
+},
+"founded": "2005年 大阪青山大学として開学（健康科学部 健康栄養学科／同法人の大阪青山女子短期大学は1967年開学）",
+"licenses": [
+"保育士（資格）",
+"幼稚園教諭一種",
+"小学校教諭一種",
+"特別支援学校教諭一種",
+"社会福祉主事（資格）",
+"養護教諭二種",
+"看護師（受験資格）",
+"保健師（受験資格）",
+"栄養教諭一種",
+"健康運動実践指導者（受験資格）",
+"食品衛生監視員（資格）",
+"管理栄養士（受験資格）",
+"栄養士（資格）",
+"フードスペシャリスト（資格）"
+]
 },
 "大阪音楽大学": {
 "faculties": [
@@ -162474,7 +162577,10 @@ null
 "money": "2026-11-10",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"research": "2026-11-22",
+"students": "2026-11-22",
+"founded": "2026-11-22"
 },
 "departments": [
 {
@@ -162611,8 +162717,18 @@ null
 "https://www.daion.ac.jp/media/2027admissionsguide.pdf",
 "https://www.daion.ac.jp/media/entry27webup3.pdf",
 "https://search.keinet.ne.jp/2517/general/schedule",
-"https://www.daion.ac.jp/media/nyuusiyoukou2027new.pdf"
-]
+"https://www.daion.ac.jp/media/nyuusiyoukou2027new.pdf",
+"https://search.keinet.ne.jp/2517",
+"https://search.keinet.ne.jp/2517/outline/department"
+],
+"research": [
+"音楽（音楽学部 音楽学科：ジャズ、ギター・マンドリン、ヴォーカルパフォーマンス、ポピュラーインストゥルメント、ミュージッククリエーション、ミュージックビジネスなどの専攻）"
+],
+"students": {
+"count": 893,
+"year": 2025
+},
+"founded": "1958年 大阪音楽大学として開学（1915年 大阪音楽学校開校／1951年 大阪音楽短期大学開学）"
 },
 "天理大学": {
 "faculties": [
@@ -162631,7 +162747,11 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"money": "2026-11-10"
+"money": "2026-11-10",
+"research": "2026-11-22",
+"students": "2026-11-22",
+"founded": "2026-11-22",
+"licenses": "2026-11-22"
 },
 "departments": [
 {
@@ -162807,7 +162927,10 @@ null
 "https://passnavi.obunsha.co.jp/univ/4600/difficulty/",
 "https://search.keinet.ne.jp/2589/general/schedule",
 "https://manabi.benesse.ne.jp/daigaku/school/3732/nyushi/gokaku-happyo/",
-"https://search.keinet.ne.jp/2589/outline/expense"
+"https://search.keinet.ne.jp/2589/outline/expense",
+"https://search.keinet.ne.jp/2589",
+"https://search.keinet.ne.jp/2589/outline/department",
+"https://search.keinet.ne.jp/2589/outline/licential"
 ],
 "money": {
 "year": "2026年度",
@@ -162859,7 +162982,44 @@ null
 "note": ""
 }
 ]
-}
+},
+"research": [
+"宗教・国文学国語・歴史文化・心理・社会教育・社会福祉（人文学部）",
+"韓国・朝鮮語・中国語・英米語・外国語・国際文化（国際学部）",
+"看護・臨床検査（医療学部）",
+"体育（体育学部 体育学科）"
+],
+"students": {
+"count": 2753,
+"year": 2025
+},
+"founded": "1949年 天理大学として開学（文学部／前身：1925年開校の天理外国語学校。2023年 天理医療大学と統合）",
+"licenses": [
+"中学校教諭（宗教）一種",
+"高等学校教諭（宗教）一種",
+"中学校教諭（国語）一種",
+"高等学校教諭（国語）一種",
+"中学校教諭（社会）一種",
+"高等学校教諭（地理歴史）一種",
+"高等学校教諭（公民）一種",
+"中学校教諭（英語）一種",
+"高等学校教諭（英語）一種",
+"高等学校教諭（中国語）一種",
+"高等学校教諭（その他言語）一種",
+"中学校教諭（保健体育）一種",
+"高等学校教諭（保健体育）一種",
+"社会調査士（資格）",
+"司書（資格）",
+"学芸員（資格）",
+"社会福祉主事（資格）",
+"社会教育主事（資格）",
+"公認心理師（受験資格）",
+"認定心理士（資格）",
+"社会福祉士（受験資格）",
+"精神保健福祉士（受験資格）",
+"看護師（受験資格）",
+"臨床検査技師（受験資格）"
+]
 },
 "太成学院大学": {
 "faculties": [
@@ -162877,7 +163037,10 @@ null
 "money": "2026-11-10",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"research": "2026-11-22",
+"founded": "2026-11-22",
+"licenses": "2026-11-22"
 },
 "departments": [
 {
@@ -163075,7 +163238,31 @@ null
 "https://passnavi.obunsha.co.jp/univ/4252/difficulty/",
 "https://search.keinet.ne.jp/2547/general/schedule",
 "https://manabi.benesse.ne.jp/daigaku/school/3657/nyushi/gokaku-happyo/",
-"https://search.keinet.ne.jp/2547/outline/expense"
+"https://search.keinet.ne.jp/2547/outline/expense",
+"https://search.keinet.ne.jp/2547",
+"https://search.keinet.ne.jp/2547/outline/department",
+"https://search.keinet.ne.jp/2547/outline/licential"
+],
+"research": [
+"現代ビジネス（経営学部 現代ビジネス学科）",
+"看護（看護学部 看護学科）",
+"子ども発達・健康スポーツ・心理コミュニケーション（人間学部）"
+],
+"founded": "1998年 大阪短期大学を4年制大学に改組して開学（現・太成学院大学、経営学部経営情報学科／短期大学は1987年開学）",
+"licenses": [
+"高等学校教諭（情報）一種",
+"社会福祉主事（資格）",
+"養護教諭一種",
+"養護教諭二種",
+"看護師（受験資格）",
+"保健師（受験資格）",
+"保育士（資格）",
+"幼稚園教諭一種",
+"小学校教諭一種",
+"中学校教諭（保健体育）一種",
+"高等学校教諭（保健体育）一種",
+"健康運動実践指導者（受験資格）",
+"認定心理士（資格）"
 ]
 },
 "奈良大学": {
@@ -163092,7 +163279,11 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"money": "2026-11-10"
+"money": "2026-11-10",
+"research": "2026-11-22",
+"students": "2026-11-22",
+"founded": "2026-11-22",
+"kyotsu": "2026-11-22"
 },
 "departments": [
 {
@@ -163228,7 +163419,10 @@ null
 "https://passnavi.obunsha.co.jp/univ/4610/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3733/nyushi/gokaku-happyo/",
 "https://search.keinet.ne.jp/2590/general/schedule",
-"https://search.keinet.ne.jp/2590/outline/expense"
+"https://search.keinet.ne.jp/2590/outline/expense",
+"https://search.keinet.ne.jp/2590",
+"https://search.keinet.ne.jp/2590/outline/department",
+"https://search.keinet.ne.jp/2590/general/exam_subject"
 ],
 "money": {
 "year": "2026年度",
@@ -163269,6 +163463,28 @@ null
 "note": ""
 }
 ]
+},
+"research": [
+"国文・史・地理・文化財（文学部）",
+"心理・総合社会（社会学部）"
+],
+"students": {
+"count": 1782,
+"year": 2025
+},
+"founded": "1969年 奈良大学として開学（文学部 国文学科・史学科・地理学科）",
+"kyotsu": {
+"kamoku": "1〜3教科（学科・日程により異なる）",
+"kyoka": [
+1,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "全学科・全日程でR:L=1:1（R50・L50）",
+"note": "共通テスト利用はA・B・C日程。史学科A・文化財学科Aは英語必須、ほかは他教科との選択",
+"year": "2027年度入試"
 }
 },
 "奈良学園大学": {
