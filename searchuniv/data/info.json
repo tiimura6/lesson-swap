@@ -29032,7 +29032,8 @@
 "https://passnavi.obunsha.co.jp/univ/1205/eiken/",
 "https://www.omu.ac.jp/admissions/assets/2027sennbatuyoukou.pdf",
 "https://passnavi.obunsha.co.jp/univ/1205/expense/",
-"https://passnavi.obunsha.co.jp/univ/1205/scholarship/"
+"https://passnavi.obunsha.co.jp/univ/1205/scholarship/",
+"https://search.keinet.ne.jp/1615/outline/opencampus"
 ],
 "licenses": [
 "教員免許（中・高 各教科）",
@@ -29664,13 +29665,14 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-15",
+"schedule": "2026-11-22",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "eng": "2026-11-06",
 "ratios": "2026-11-06",
 "research": "2026-11-14",
-"scholar": "2026-11-19"
+"scholar": "2026-11-19",
+"oc": "2026-11-22"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -30094,6 +30096,12 @@
 }
 ],
 "note": "パスナビ（原則2026年4月入学者対象）による。対象学部の記載がないものは「全学部」とした"
+},
+"oc": {
+"year": "2026年度",
+"events": [],
+"url": "https://search.keinet.ne.jp/1615/outline/opencampus",
+"note": "2026年実施分はすべて終了（Kei-Net掲載）：8/6〜8/21に学部別のオンライン開催（理・現代システム科学 8/8、工 8/7・8・10・18・21、農 8/6〜9、生活科学 8/7・17。いずれも事前申込制）と、全学部のオンデマンド配信（8/4〜10月末）。2027年の予定は未発表。最新情報は大学公式サイトで確認。"
 }
 },
 "国際教養大学": {
@@ -154582,7 +154590,8 @@ null
 "careers": "2026-11-07",
 "_via": "2026-11-07",
 "students": "2026-11-09",
-"founded": "2026-11-09"
+"founded": "2026-11-09",
+"licenses": "2026-11-22"
 },
 "departments": [
 {
@@ -154755,13 +154764,19 @@ null
 "https://www.sentankyo.jp/articles/ee877d0a-e4ef-45e7-a2fd-a96d82bff4fa",
 "https://passnavi.obunsha.co.jp/univ/3884/top/",
 "https://www.seisen.ac.jp/intro/message",
-"https://manabi.benesse.ne.jp/daigaku/school/3585/nyushi/kango/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3585/nyushi/kango/index.html",
+"https://search.keinet.ne.jp/2483/outline/licential"
 ],
 "students": {
 "count": 331,
 "year": null
 },
-"founded": "2003年開学（前身：聖隷学園聖泉短期大学、1985年創立）"
+"founded": "2003年開学（前身：聖隷学園聖泉短期大学、1985年創立）",
+"licenses": [
+"養護教諭二種（看護学科）",
+"看護師（受験資格）（看護学科）",
+"保健師（受験資格）（看護学科）"
+]
 },
 "芦屋大学": {
 "faculties": [
@@ -154917,7 +154932,10 @@ null
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"students": "2026-11-22",
+"founded": "2026-11-22",
+"licenses": "2026-11-22"
 },
 "departments": [
 {
@@ -155089,7 +155107,37 @@ null
 "https://search.keinet.ne.jp/2502/general/border_rate",
 "https://manabi.benesse.ne.jp/daigaku/school/3605/gakuhi/",
 "https://www.hanazono.ac.jp/wp/wp-content/uploads/2026/07/2027Application-Guidelines.pdf",
-"https://search.keinet.ne.jp/general/schedule_sp/2502"
+"https://search.keinet.ne.jp/general/schedule_sp/2502",
+"https://search.keinet.ne.jp/2502",
+"https://search.keinet.ne.jp/2502/outline/department",
+"https://search.keinet.ne.jp/2502/outline/licential"
+],
+"students": {
+"count": 1234,
+"year": 2025
+},
+"founded": "1949年 新制大学（前身：臨済学院専門学校）",
+"licenses": [
+"中学校教諭（宗教）一種（仏教学科）",
+"高等学校教諭（宗教）一種（仏教学科）",
+"中学校教諭（社会）一種（日本史学科）",
+"高等学校教諭（地理歴史）一種（日本史学科）",
+"高等学校教諭（公民）一種（日本史学科、社会福祉学科）",
+"中学校教諭（国語）一種（日本文学科）",
+"高等学校教諭（国語）一種（日本文学科）",
+"高等学校教諭（書道）一種（日本文学科）",
+"学校図書館司書教諭一種（仏教学科、日本史学科、日本文学科）",
+"司書（仏教学科、日本史学科、日本文学科、社会福祉学科、臨床心理学科）",
+"学芸員（仏教学科、日本史学科、日本文学科、社会福祉学科、臨床心理学科）",
+"保育士（初等教育学科）",
+"幼稚園教諭一種（初等教育学科）",
+"小学校教諭一種（初等教育学科）",
+"特別支援学校教諭一種（初等教育学科）",
+"社会福祉士（受験資格）（社会福祉学科、臨床心理学科）",
+"社会福祉主事（社会福祉学科）",
+"精神保健福祉士（受験資格）（社会福祉学科）",
+"公認心理師（受験資格）（臨床心理学科）",
+"認定心理士（臨床心理学科）"
 ]
 },
 "畿央大学": {

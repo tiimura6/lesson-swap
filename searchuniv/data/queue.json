@@ -14600,6 +14600,29 @@
 "licenses"
 ],
 "keinet": "2514"
+},
+{
+"name": "聖泉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+]
+},
+{
+"name": "花園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2502"
 }
 ],
 "failed": [],
@@ -14858,16 +14881,6 @@
 },
 "enrich": [
 {
-"name": "聖泉大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses"
-]
-},
-{
 "name": "芦屋大学",
 "need": [
 "gap_keinet"
@@ -14880,19 +14893,6 @@
 "kyotsu"
 ],
 "keinet": "2555"
-},
-{
-"name": "花園大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2502"
 },
 {
 "name": "畿央大学",
