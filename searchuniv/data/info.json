@@ -29033,7 +29033,8 @@
 "https://www.omu.ac.jp/admissions/assets/2027sennbatuyoukou.pdf",
 "https://passnavi.obunsha.co.jp/univ/1205/expense/",
 "https://passnavi.obunsha.co.jp/univ/1205/scholarship/",
-"https://search.keinet.ne.jp/1615/outline/opencampus"
+"https://search.keinet.ne.jp/1615/outline/opencampus",
+"https://search.keinet.ne.jp/1615/general/exam_result"
 ],
 "licenses": [
 "教員免許（中・高 各教科）",
@@ -29669,7 +29670,7 @@
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "eng": "2026-11-06",
-"ratios": "2026-11-06",
+"ratios": "2026-11-22",
 "research": "2026-11-14",
 "scholar": "2026-11-19",
 "oc": "2026-11-22"
@@ -159849,7 +159850,11 @@ null
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"research": "2026-11-22",
+"students": "2026-11-22",
+"founded": "2026-11-22",
+"licenses": "2026-11-22"
 },
 "departments": [
 {
@@ -160006,7 +160011,22 @@ null
 "https://passnavi.obunsha.co.jp/univ/4530/difficulty/",
 "https://passnavi.obunsha.co.jp/univ/4530/schedule/",
 "https://manabi.benesse.ne.jp/daigaku/school/3709/gakuhi/",
-"https://manabi.benesse.ne.jp/daigaku/school/3709/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3709/nyushi/",
+"https://search.keinet.ne.jp/2572",
+"https://search.keinet.ne.jp/2572/outline/department",
+"https://search.keinet.ne.jp/2572/outline/licential"
+],
+"research": [
+"看護（看護学部 看護学科・大阪梅田キャンパス）",
+"メディア芸術（東京メディア芸術学部 メディア芸術学科・東京新宿キャンパス）"
+],
+"students": {
+"count": 892,
+"year": 2025
+},
+"founded": "1987年 宝塚造形芸術大学として開学（2010年 宝塚大学に改称・看護学部設置）",
+"licenses": [
+"看護師（受験資格）"
 ]
 },
 "嵯峨美術大学": {
@@ -160023,7 +160043,10 @@ null
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"research": "2026-11-22",
+"students": "2026-11-22",
+"founded": "2026-11-22"
 },
 "departments": [
 {
@@ -160127,8 +160150,19 @@ null
 "https://telemail.jp/shingaku/university/10001775/examination/general",
 "https://search.keinet.ne.jp/2508/general/border_rate",
 "https://shingakunet.com/gakko/SC003330/gakuhi/",
-"https://manabi.benesse.ne.jp/daigaku/school/3612/nyushi/index.html"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3612/nyushi/index.html",
+"https://search.keinet.ne.jp/2508",
+"https://search.keinet.ne.jp/outline/department/2508"
+],
+"research": [
+"造形（日本画・古画、油画・版画、複合）",
+"デザイン（グラフィックデザイン、イラストレーション、キャラクターデザイン、観光デザイン、生活プロダクト、染織・テキスタイル）"
+],
+"students": {
+"count": 709,
+"year": 2025
+},
+"founded": "2001年 京都嵯峨芸術大学として開学（2017年 嵯峨美術大学に改称／前身：嵯峨美術短期大学、1971年設置）"
 },
 "帝塚山大学": {
 "faculties": [
@@ -160149,7 +160183,11 @@ null
 "money": "2026-11-10",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"research": "2026-11-22",
+"students": "2026-11-22",
+"founded": "2026-11-22",
+"licenses": "2026-11-22"
 },
 "departments": [
 {
@@ -160363,7 +160401,46 @@ null
 "https://passnavi.obunsha.co.jp/univ/4590/difficulty/",
 "https://shingakunet.com/gakko/SC000420/gakuhi/",
 "https://manabi.benesse.ne.jp/daigaku/school/3731/nyushi/",
-"https://search.keinet.ne.jp/2588/outline/expense"
+"https://search.keinet.ne.jp/2588/outline/expense",
+"https://search.keinet.ne.jp/2588",
+"https://search.keinet.ne.jp/2588/outline/department",
+"https://search.keinet.ne.jp/2588/outline/licential"
+],
+"research": [
+"日本文化（文学部 日本文化学科）",
+"心理学（心理学部 心理学科）",
+"こども教育（教育学部 こども教育学科）",
+"法学（法学部 法学科）",
+"経済・経営（経済経営学部 経済経営学科）",
+"食物栄養・居住空間デザイン（現代生活学部）"
+],
+"students": {
+"count": 2514,
+"year": 2025
+},
+"founded": "1964年開学（教養学部の女子単科大学として。1987年 経済学部設置で男女共学化）",
+"licenses": [
+"中学校教諭（国語）一種",
+"中学校教諭（社会）一種",
+"中学校教諭（家庭）一種",
+"高等学校教諭（国語）一種",
+"高等学校教諭（地理歴史）一種",
+"高等学校教諭（公民）一種",
+"高等学校教諭（家庭）一種",
+"学校図書館司書教諭一種（資格）",
+"司書（資格）",
+"学芸員（資格）",
+"公認心理師（受験資格）",
+"認定心理士（資格）",
+"保育士（資格）",
+"幼稚園教諭一種",
+"小学校教諭一種",
+"栄養教諭一種",
+"管理栄養士（受験資格）",
+"栄養士（資格）",
+"フードスペシャリスト（資格）",
+"一級建築士（受験資格）",
+"二級建築士（受験資格）"
 ]
 },
 "帝塚山学院大学": {
@@ -160382,7 +160459,11 @@ null
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"research": "2026-11-22",
+"students": "2026-11-22",
+"founded": "2026-11-22",
+"licenses": "2026-11-22"
 },
 "departments": [
 {
@@ -160556,7 +160637,34 @@ null
 "https://search.keinet.ne.jp/2541/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/4320/difficulty/",
 "https://shingakunet.com/gakko/SC000419/gakuhi/",
-"https://manabi.benesse.ne.jp/daigaku/school/3651/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3651/nyushi/",
+"https://search.keinet.ne.jp/2541",
+"https://search.keinet.ne.jp/2541/outline/department",
+"https://search.keinet.ne.jp/2541/outline/licential"
+],
+"research": [
+"リベラルアーツ（リベラルアーツ学部 リベラルアーツ学科）",
+"心理学（総合心理学部 総合心理学科）",
+"食イノベーション・管理栄養（食環境学部）"
+],
+"students": {
+"count": 1562,
+"year": 2025
+},
+"founded": "1966年開学（文学部。前身：帝塚山学院短期大学、1950年開学）",
+"licenses": [
+"司書（資格）",
+"社会教育主事（資格）",
+"学芸員（資格）",
+"社会福祉主事（資格）",
+"児童福祉司（資格）",
+"公認心理師（受験資格）",
+"認定心理士（資格）",
+"健康運動実践指導者（受験資格）",
+"栄養士（資格）",
+"フードスペシャリスト（資格）",
+"食品衛生監視員（資格）",
+"管理栄養士（受験資格）"
 ]
 },
 "常磐会学園大学": {
@@ -160573,7 +160681,9 @@ null
 "money": "2026-11-10",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"founded": "2026-11-22",
+"licenses": "2026-11-22"
 },
 "departments": [
 {
@@ -160703,7 +160813,19 @@ null
 "https://www.best-shingaku.net/smt/nyushi2280.html",
 "https://www.best-shingaku.net/smt/gakuhi2280.html",
 "https://manabi.benesse.ne.jp/daigaku/school/3658/nyushi/",
-"https://manabi.benesse.ne.jp/daigaku/school/3658/gakuhi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3658/gakuhi/",
+"https://search.keinet.ne.jp/2548",
+"https://search.keinet.ne.jp/2548/outline/licential"
+],
+"founded": "1999年 常磐会学園大学として開学（2025年4月 大阪常磐会大学に改称／前身：常磐会短期大学、1964年開設）",
+"licenses": [
+"保育士（資格）",
+"幼稚園教諭一種",
+"小学校教諭一種",
+"中学校教諭（英語）一種",
+"特別支援学校教諭一種",
+"学校図書館司書教諭一種（資格）",
+"社会福祉主事（資格）"
 ]
 },
 "平安女学院大学": {
@@ -160721,7 +160843,11 @@ null
 "money": "2026-11-10",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"research": "2026-11-22",
+"students": "2026-11-22",
+"founded": "2026-11-22",
+"licenses": "2026-11-22"
 },
 "departments": [
 {
@@ -160927,7 +161053,25 @@ null
 "https://search.keinet.ne.jp/2482/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/3887/difficulty/",
 "https://passnavi.obunsha.co.jp/univ/3887/expense/",
-"https://manabi.benesse.ne.jp/daigaku/school/3582/nyushi/gokaku-happyo/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3582/nyushi/gokaku-happyo/index.html",
+"https://search.keinet.ne.jp/2482",
+"https://search.keinet.ne.jp/2482/outline/department",
+"https://search.keinet.ne.jp/2482/outline/licential"
+],
+"research": [
+"国際観光（国際観光学部 国際観光学科・京都キャンパス）",
+"子ども教育（子ども教育学部 子ども教育学科・大阪高槻キャンパス）"
+],
+"students": {
+"count": 398,
+"year": 2025
+},
+"founded": "2000年開学（前身：平安女学院短期大学、1950年開学／起源：エディの学校、1875年開校）",
+"licenses": [
+"保育士（資格）",
+"幼稚園教諭一種",
+"小学校教諭一種",
+"社会福祉主事（資格）"
 ]
 },
 "成安造形大学": {
@@ -160945,7 +161089,11 @@ null
 "scholar": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"research": "2026-11-22",
+"students": "2026-11-22",
+"founded": "2026-11-22",
+"licenses": "2026-11-22"
 },
 "departments": [
 {
@@ -161130,7 +161278,25 @@ null
 "https://www.seian.ac.jp/assets/pdf/admission/2027_seian_exam_guide.pdf",
 "https://search.keinet.ne.jp/2481/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/3885/expense/",
-"https://manabi.benesse.ne.jp/daigaku/school/3581/nyushi/gokaku-happyo/"
+"https://manabi.benesse.ne.jp/daigaku/school/3581/nyushi/gokaku-happyo/",
+"https://search.keinet.ne.jp/2481",
+"https://search.keinet.ne.jp/2481/outline/department",
+"https://search.keinet.ne.jp/2481/outline/licential"
+],
+"research": [
+"芸術学部 芸術学科の8領域：美術、イラストレーション、ゲーム・アニメーション、情報デザイン、空間造形デザイン、コスチューム、総合、地域実践"
+],
+"students": {
+"count": 1001,
+"year": 2025
+},
+"founded": "1993年開学（2010年 芸術学部芸術学科に改組）",
+"licenses": [
+"中学校教諭（美術）一種",
+"高等学校教諭（美術）一種",
+"学芸員（資格）",
+"二級建築士（受験資格）",
+"木造建築士（受験資格）"
 ]
 },
 "摂南大学": {
@@ -161155,7 +161321,11 @@ null
 "money": "2026-11-10",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"research": "2026-11-22",
+"students": "2026-11-22",
+"founded": "2026-11-22",
+"licenses": "2026-11-22"
 },
 "departments": [
 {
@@ -161494,7 +161664,60 @@ null
 "https://search.keinet.ne.jp/2538/outline/expense",
 "https://manabi.benesse.ne.jp/daigaku/school/3649/nyushi/gokaku-happyo/",
 "https://www.setsunan.ac.jp/upload/app_require/content/2027kenteiryo.pdf",
-"https://www.setsunan.ac.jp/upload/app_require/content/2027system_fee.pdf"
+"https://www.setsunan.ac.jp/upload/app_require/content/2027system_fee.pdf",
+"https://search.keinet.ne.jp/2538",
+"https://search.keinet.ne.jp/2538/outline/department",
+"https://search.keinet.ne.jp/2538/outline/licential"
+],
+"research": [
+"現代社会（現代社会学部）",
+"国際（国際学部）",
+"法律（法学部）",
+"経済（経済学部）",
+"経営（経営学部）",
+"生命科学・住環境デザイン・建築・都市環境工・機械工・電気電子情報工（理工学部）",
+"農業生産・応用生物科学・食品栄養・食農ビジネス（農学部）",
+"薬学（薬学部 6年制）",
+"看護（看護学部）"
+],
+"students": {
+"count": 10824,
+"year": 2025
+},
+"founded": "1975年開学（工学部。学校法人常翔学園、前身：関西工学専修学校、1922年創立）",
+"licenses": [
+"中学校教諭（社会）一種",
+"中学校教諭（英語）一種",
+"中学校教諭（数学）一種",
+"中学校教諭（理科）一種",
+"高等学校教諭（公民）一種",
+"高等学校教諭（英語）一種",
+"高等学校教諭（情報）一種",
+"高等学校教諭（商業）一種",
+"高等学校教諭（数学）一種",
+"高等学校教諭（工業）一種",
+"高等学校教諭（理科）一種",
+"高等学校教諭（農業）一種",
+"学芸員（資格）",
+"社会調査士（資格）",
+"社会福祉主事（資格）",
+"バイオ技術者認定試験（資格）",
+"一級建築士（受験資格）",
+"二級建築士（受験資格）",
+"木造建築士（受験資格）",
+"技術士補（試験一部免除）",
+"測量士（資格）",
+"測量士補（資格）",
+"栄養教諭一種",
+"食品衛生監視員（資格）",
+"管理栄養士（受験資格）",
+"栄養士（資格）",
+"薬剤師（受験資格）",
+"養護教諭一種",
+"養護教諭二種",
+"看護師（受験資格）",
+"保健師（受験資格）",
+"助産師（受験資格）"
 ]
 },
 "明治国際医療大学": {
