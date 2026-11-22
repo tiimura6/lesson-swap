@@ -30146,7 +30146,10 @@
 "https://manabi.benesse.ne.jp/daigaku/school/2030/nyushi/hoshiki/ippan/",
 "https://passnavi.obunsha.co.jp/univ/1025/scholarship/",
 "https://manabi.benesse.ne.jp/daigaku/school/2030/opencampus/",
-"https://search.keinet.ne.jp/1521/general/exam_result"
+"https://search.keinet.ne.jp/1521/general/exam_result",
+"https://admission.aiu.ac.jp/ug/recommend/",
+"https://admission.aiu.ac.jp/ug/comp_april/",
+"https://admission.aiu.ac.jp/wp/wp-content/uploads/2025/03/Change-of-Admission-Information-for-2027-Reiwa-9.pdf"
 ],
 "licenses": [
 "高等学校教諭一種（英語）"
@@ -30195,10 +30198,11 @@
 {
 "kubun": "推薦",
 "name": "学校推薦型",
-"content": "書類・小論文・面接",
+"content": "書類・英語小論文・面接（日本語・英語）",
 "req": "卒後1年以内・専願。評定4.0以上かつ英検2級以上等、または全国大会等の実績",
 "kyotsu": "課さない（記載なし）",
-"note": ""
+"note": "",
+"url": "https://admission.aiu.ac.jp/ug/recommend/"
 },
 {
 "kubun": "総合型",
@@ -30210,15 +30214,16 @@
 },
 {
 "kubun": "総合型",
-"name": "総合型Ⅰ",
-"content": "書類・小論文・面接",
-"req": "専願。1年程度の留学またはIB DP修了、または英検準1級以上等",
+"name": "総合選抜型入試",
+"content": "書類・英語小論文・面接（日本語・英語）",
+"req": "専願（同日実施のグローバル・セミナー入試・グローバル・ワークショップ入試とは併願不可）。英検準1級相当、高校在学中の1年程度の留学（30単位程度認定）、またはIB DP修了（最終試験6科目合格）のいずれか",
 "kyotsu": "課さない（記載なし）",
-"note": ""
+"note": "",
+"url": "https://admission.aiu.ac.jp/ug/comp_april/"
 }
 ],
 "summary": "一般はA・B日程の独自日程で英語・国語の個別試験。推薦は評定4.0＋英検2級等、総合型は事前参加型あり。",
-"note": ""
+"note": "2027年度から総合選抜型入試Ⅰを「総合選抜型入試」に改称、一般選抜C日程は廃止、グローバル・ワークショップ入試の募集人員は10名に（大学の予告）。"
 },
 "departments": [
 {
@@ -30259,7 +30264,8 @@
 "ratios": "2026-11-22",
 "research": "2026-11-14",
 "scholar": "2026-11-19",
-"oc": "2026-11-22"
+"oc": "2026-11-22",
+"methods": "2026-11-22"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -167087,7 +167093,9 @@ null
 "methods": "2026-11-09",
 "schedule": "2026-11-17",
 "money": "2026-11-09",
-"_via": "2026-11-17"
+"_via": "2026-11-17",
+"research": "2026-11-22",
+"difficulty": "2026-11-22"
 },
 "departments": [
 {
@@ -167317,7 +167325,15 @@ null
 }
 ]
 },
-"_via": "external-ai-verified"
+"_via": "external-ai-verified",
+"research": [
+"看護学科（看護学部：人間性と幅広い視野を土台に看護の先進的な知識・技術と総合的な実践力を育てる。専門科目は実践基盤看護学・生涯看護学・広域看護学の3群）"
+],
+"difficulty": {
+"hensachi": "47.5",
+"kyotei": "53%〜63%",
+"year": "2027年度入試用"
+}
 },
 "京都市立芸術大学": {
 "faculties": [
@@ -167338,7 +167354,9 @@ null
 "methods": "2026-11-09",
 "schedule": "2026-11-17",
 "money": "2026-11-09",
-"_via": "2026-11-17"
+"_via": "2026-11-17",
+"research": "2026-11-22",
+"difficulty": "2026-11-22"
 },
 "departments": [
 {
@@ -167672,7 +167690,16 @@ null
 }
 ]
 },
-"_via": "external-ai-verified"
+"_via": "external-ai-verified",
+"research": [
+"美術科（日本画・油画・彫刻・版画・構想設計）・デザイン科・工芸科（陶磁器・漆工・染織）・総合芸術学科（美術学部：4学科11専攻の少人数による専門教育。交換留学制度あり）",
+"音楽学科（作曲・指揮・ピアノ・弦楽・管・打楽・声楽・音楽学の7専攻）（音楽学部：演奏家・研究者をめざす専門教育。海外留学や著名音楽家を招いた講座あり）"
+],
+"difficulty": {
+"hensachi": "55.0",
+"kyotei": "59%〜77%",
+"year": "2027年度入試用"
+}
 },
 "京都府立医科大学": {
 "faculties": [
@@ -167691,7 +167718,9 @@ null
 "methods": "2026-11-09",
 "ratios": "2026-11-09",
 "schedule": "2026-11-17",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"research": "2026-11-22",
+"difficulty": "2026-11-22"
 },
 "departments": [
 {
@@ -167878,7 +167907,16 @@ null
 ],
 "note": "2026-11-17 河合塾Kei-Net・旺文社パスナビ・テレメール・塾選ジャーナル（医学科推薦の募集要項公開記事）で日程が一致することを確認。大学公式ページは今回開けず、外部AI由来データの公式確認（verify）は継続"
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"research": [
+"医学科（医学部：6年一貫教育。前半に教養と基礎・社会医学、後半に臨床医学を学ぶ）",
+"看護学科（医学部：看護の理論と実践を体系的に学び、4年次に実践的な看護教育を受ける）"
+],
+"difficulty": {
+"hensachi": "50.0〜65.0",
+"kyotei": "63%〜83%",
+"year": "2027年度入試用"
+}
 },
 "京都府立大学": {
 "faculties": [
@@ -167901,7 +167939,8 @@ null
 "methods": "2026-11-09",
 "ratios": "2026-11-09",
 "schedule": "2026-11-17",
-"_via": "2026-11-17"
+"_via": "2026-11-17",
+"difficulty": "2026-11-22"
 },
 "departments": [
 {
@@ -168297,7 +168336,12 @@ null
 ],
 "note": "2026-11-17 大学公式「令和9年度京都府立大学入学者選抜要項」で確認。一般前期・後期・推薦の出願期間と試験日は既存と一致し、推薦の合格発表12/10・手続12/25、栄養科学科（共テ併用）の合格発表2/10・手続2/17を追加（マナビジョンとも一致）。公共政策学部は2026年4月に社会科学部へ名称変更"
 },
-"_via": "external-ai-verified"
+"_via": "external-ai-verified",
+"difficulty": {
+"hensachi": "50.0〜65.0",
+"kyotei": "67%〜85%",
+"year": "2027年度入試用"
+}
 },
 "大阪信愛学院大学": {
 "faculties": [
@@ -168314,7 +168358,11 @@ null
 "money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"founded": "2026-11-22",
+"students": "2026-11-22",
+"research": "2026-11-22",
+"licenses": "2026-11-22"
 },
 "departments": [
 {
@@ -168483,7 +168531,31 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3682/nyushi/index.html",
 "https://search.keinet.ne.jp/2608/general/schedule",
 "https://search.keinet.ne.jp/2608/outline/expense",
-"https://manabi.benesse.ne.jp/daigaku/school/3682/gakuhi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3682/gakuhi/index.html",
+"https://search.keinet.ne.jp/2608",
+"https://search.keinet.ne.jp/2608/outline/department",
+"https://manabi.benesse.ne.jp/daigaku/school/3682/syusyoku/"
+],
+"founded": "2022年 大阪信愛学院大学設立（大阪信愛学院短期大学は募集停止）",
+"students": {
+"count": 462,
+"year": 2025
+},
+"research": [
+"教育学科（教育学部：4年間現場と関わりながら実践力を高める。教員採用試験の支援プログラムあり）",
+"看護学科（看護学部：1年次から国家試験を見据えた学習を展開）"
+],
+"licenses": [
+"幼稚園教諭１種（教育学科）",
+"小学校教諭１種（教育学科）",
+"保育士（教育学科）",
+"認定心理士（教育学科）",
+"特別支援学校教諭一種免許状（星槎大学との連携による通信教育・希望者のみ）（教育学科）",
+"社会福祉主事任用資格（教育学科）",
+"児童厚生員任用資格（教育学科）",
+"児童指導員任用資格（教育学科）",
+"看護師（受験資格）（看護学科）",
+"養護教諭１種（看護学科）"
 ]
 },
 "大阪医科薬科大学": {
@@ -168502,7 +168574,9 @@ null
 "money": "2026-11-11",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"students": "2026-11-22",
+"licenses": "2026-11-22"
 },
 "departments": [
 {
@@ -168742,7 +168816,20 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3627/gakuhi/",
 "https://passnavi.obunsha.co.jp/univ/4070/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3627/nyushi/index.html",
-"https://search.keinet.ne.jp/2516/outline/expense"
+"https://search.keinet.ne.jp/2516/outline/expense",
+"https://search.keinet.ne.jp/2516/outline/department",
+"https://manabi.benesse.ne.jp/daigaku/school/3627/syusyoku/index.html"
+],
+"students": {
+"count": 2882,
+"year": 2025
+},
+"licenses": [
+"医師（受験資格）（医学科）",
+"薬剤師（受験資格）（薬学科）",
+"看護師（受験資格）（看護学科）",
+"保健師（受験資格）（看護学科）",
+"助産師（受験資格）（看護学科）"
 ]
 },
 "大阪商業大学": {
@@ -168762,7 +168849,8 @@ null
 "scholar": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"students": "2026-11-22"
 },
 "departments": [
 {
@@ -168901,8 +168989,13 @@ null
 "https://www.best-shingaku.net/smt/gakuhi2259.html",
 "https://passnavi.obunsha.co.jp/univ/4180/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3638/nyushi/index.html",
-"https://manabi.benesse.ne.jp/daigaku/school/3638/gakuhi/"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3638/gakuhi/",
+"https://manabi.benesse.ne.jp/daigaku/school/3638/index.html"
+],
+"students": {
+"count": 4834,
+"year": 2025
+}
 },
 "大阪国際大学": {
 "faculties": [
@@ -168921,7 +169014,10 @@ null
 "scholar": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"students": "2026-11-22",
+"research": "2026-11-22",
+"licenses": "2026-11-22"
 },
 "departments": [
 {
@@ -169101,7 +169197,30 @@ null
 "https://passnavi.obunsha.co.jp/univ/4140/difficulty/?facultyID=020",
 "https://manabi.benesse.ne.jp/daigaku/school/3634/nyushi/gokaku-happyo/index.html",
 "https://telemail.jp/shingaku/university/10001555/examination/general",
-"https://passnavi.obunsha.co.jp/univ/4140/expense/"
+"https://passnavi.obunsha.co.jp/univ/4140/expense/",
+"https://manabi.benesse.ne.jp/daigaku/school/3634/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3634/syusyoku/",
+"https://manabi.benesse.ne.jp/daigaku/school/3634/gakubu/gakubudt/24.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3634/gakubu/gakubudt/37.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3634/gakubu/gakubudt/39.html"
+],
+"students": {
+"count": 2208,
+"year": 2025
+},
+"research": [
+"経営学科（経営経済学部：企業経営・マーケティング／ベンチャービジネス／スポーツビジネスの3コースで実践型の学び）",
+"経済学科（経営経済学部：金融・経済／公共人材・公務員の2コース。2年次から主専攻・副専攻を組み合わせられる）",
+"心理コミュニケーション学科（人間科学部：臨床心理・社会心理とコミュニケーション分野を学ぶ）",
+"人間健康科学科（人間科学部：食と健康・からだの健康・こころの健康の3分野を組み合わせて学ぶ）",
+"スポーツ行動学科（人間科学部：保健体育の教員免許、スポーツ医学・栄養、スポーツマネジメントを学ぶ）",
+"国際コミュニケーション学科（国際教養学部：レベル別の英語と、ビジネス・ICT（プログラミング・動画編集・AIなど）を学ぶ）",
+"国際観光学科（国際教養学部：英語・中国語などの語学と観光・ホスピタリティ、ミュージアム・エンターテインメントを学ぶ）"
+],
+"licenses": [
+"中学校教諭（保健体育）１種（スポーツ行動学科）",
+"高等学校教諭（保健体育）１種（スポーツ行動学科）",
+"学芸員（国際観光学科）"
 ]
 },
 "大阪国際工科専門職大学": {

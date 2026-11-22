@@ -15326,6 +15326,109 @@
 "last_fail": "2026-11-22",
 "note": "2026-11-22 2026-11-22 Kei-Net(2554)のページが今回の取得環境で開けず、マナビジョンの掲載ページも検索で見つからず",
 "done_date": "2026-11-22"
+},
+{
+"name": "三重県立看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1586",
+"done_date": "2026-11-22"
+},
+{
+"name": "京都市立芸術大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1590",
+"done_date": "2026-11-22"
+},
+{
+"name": "京都府立医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1600",
+"done_date": "2026-11-22"
+},
+{
+"name": "京都府立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1595",
+"done_date": "2026-11-22"
+},
+{
+"name": "大阪信愛学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2608",
+"done_date": "2026-11-22"
+},
+{
+"name": "大阪医科薬科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2516",
+"done_date": "2026-11-22"
+},
+{
+"name": "大阪商業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"done_date": "2026-11-22"
+},
+{
+"name": "大阪国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"done_date": "2026-11-22"
 }
 ],
 "failed": [],
@@ -15586,101 +15689,6 @@
 "大阪河﨑リハビリテーション大学": 1
 },
 "enrich": [
-{
-"name": "三重県立看護大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"difficulty"
-],
-"keinet": "1586"
-},
-{
-"name": "京都市立芸術大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"difficulty"
-],
-"keinet": "1590"
-},
-{
-"name": "京都府立医科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"difficulty"
-],
-"keinet": "1600"
-},
-{
-"name": "京都府立大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"difficulty"
-],
-"keinet": "1595"
-},
-{
-"name": "大阪信愛学院大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2608"
-},
-{
-"name": "大阪医科薬科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2516"
-},
-{
-"name": "大阪商業大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-]
-},
-{
-"name": "大阪国際大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu"
-]
-},
 {
 "name": "大阪国際工科専門職大学",
 "need": [
