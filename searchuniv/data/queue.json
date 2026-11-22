@@ -14769,6 +14769,123 @@
 "licenses"
 ],
 "keinet": "2509"
+},
+{
+"name": "武庫川女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2576",
+"done_date": "2026-11-22"
+},
+{
+"name": "流通科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"done_date": "2026-11-22"
+},
+{
+"name": "滋慶医療科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"done_date": "2026-11-22"
+},
+{
+"name": "甲南大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2559",
+"done_date": "2026-11-22"
+},
+{
+"name": "甲南女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2561",
+"done_date": "2026-11-22"
+},
+{
+"name": "宝塚医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2593",
+"done_date": "2026-11-22"
+},
+{
+"name": "芦屋大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2555",
+"fails": 1,
+"last_fail": "2026-11-22",
+"note": "2026-11-22 Kei-Net 2555 の入試科目ページは一般選抜のみ（共テ利用の記載なし）、マナビジョン概要に沿革・学生数・資格なし。department・licential・大学トップのページは取得できず（2027年4月に臨床教育学部→環境教育学部へ名称変更予定の記載あり）",
+"done_date": "2026-11-22"
+},
+{
+"name": "神戸国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses"
+],
+"keinet": "2575",
+"fails": 1,
+"last_fail": "2026-11-22",
+"note": "2026-11-22 Kei-Net 2575 の学部・資格ページを検索で見つけられず取得できず",
+"done_date": "2026-11-22"
 }
 ],
 "failed": [],
@@ -15028,84 +15145,6 @@
 "神戸国際大学": 1
 },
 "enrich": [
-{
-"name": "武庫川女子大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2576"
-},
-{
-"name": "流通科学大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu"
-]
-},
-{
-"name": "滋慶医療科学大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu"
-]
-},
-{
-"name": "甲南大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2559"
-},
-{
-"name": "甲南女子大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2561"
-},
-{
-"name": "宝塚医療大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2593"
-},
 {
 "name": "宝塚大学",
 "need": [
@@ -36009,37 +36048,6 @@
 "fails": 1,
 "last_fail": "2026-11-20",
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
-},
-{
-"name": "芦屋大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu"
-],
-"keinet": "2555",
-"fails": 1,
-"last_fail": "2026-11-22",
-"note": "2026-11-22 Kei-Net 2555 の入試科目ページは一般選抜のみ（共テ利用の記載なし）、マナビジョン概要に沿革・学生数・資格なし。department・licential・大学トップのページは取得できず（2027年4月に臨床教育学部→環境教育学部へ名称変更予定の記載あり）"
-},
-{
-"name": "神戸国際大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses"
-],
-"keinet": "2575",
-"fails": 1,
-"last_fail": "2026-11-22",
-"note": "2026-11-22 Kei-Net 2575 の学部・資格ページを検索で見つけられず取得できず"
 },
 {
 "name": "島根大学",
