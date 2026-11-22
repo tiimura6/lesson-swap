@@ -15912,6 +15912,111 @@
 ],
 "keinet": "2493",
 "done_date": "2026-11-22"
+},
+{
+"name": "静岡産業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "2426",
+"done_date": "2026-11-22"
+},
+{
+"name": "静岡福祉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "2420",
+"done_date": "2026-11-22"
+},
+{
+"name": "静岡英和学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "2429",
+"done_date": "2026-11-22"
+},
+{
+"name": "びわこリハビリテーション専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "2599",
+"done_date": "2026-11-22"
+},
+{
+"name": "びわこ学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "2479",
+"done_date": "2026-11-22"
+},
+{
+"name": "びわこ成蹊スポーツ大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "2484",
+"done_date": "2026-11-22"
+},
+{
+"name": "京都先端科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "2490",
+"done_date": "2026-11-22"
 }
 ],
 "failed": [],
@@ -16173,110 +16278,6 @@
 "大阪国際工科専門職大学": 2
 },
 "enrich": [
-{
-"name": "静岡産業大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"difficulty"
-]
-},
-{
-"name": "静岡福祉大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"difficulty"
-]
-},
-{
-"name": "静岡英和学院大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"difficulty"
-]
-},
-{
-"name": "高岡法科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"difficulty"
-]
-},
-{
-"name": "びわこリハビリテーション専門職大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"difficulty"
-]
-},
-{
-"name": "びわこ学院大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"difficulty"
-]
-},
-{
-"name": "びわこ成蹊スポーツ大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"difficulty"
-]
-},
-{
-"name": "京都先端科学大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"difficulty"
-]
-},
 {
 "name": "京都光華女子大学",
 "need": [
@@ -36121,6 +36122,22 @@
 "fails": 1,
 "last_fail": "2026-11-20",
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
+},
+{
+"name": "高岡法科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+],
+"fails": 1,
+"last_fail": "2026-11-23",
+"note": "2026-11-23 Kei-Net のコードが検索結果に出ず（search.keinet.ne.jp 内の検索で該当ページなし）、候補ページは権限確認が通らず開けなかった"
 },
 {
 "name": "島根大学",
