@@ -16083,6 +16083,116 @@
 "kyotsu"
 ],
 "keinet": "2358"
+},
+{
+"name": "長岡大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+]
+},
+{
+"name": "長岡崇徳大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2347"
+},
+{
+"name": "長野保健医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2398"
+},
+{
+"name": "静岡理工科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2422"
+},
+{
+"name": "浜松学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "2421"
+},
+{
+"name": "清泉女学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "金沢医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"fails": 1,
+"last_fail": "2026-11-23",
+"note": "2026-11-23 2026-11-22 Kei-Net のコードが検索結果に出ず、候補（2360・2361）のページは権限確認が通らず開けなかった"
+},
+{
+"name": "金沢学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2362",
+"fails": 1,
+"last_fail": "2026-11-23",
+"note": "2026-11-23 2026-11-22 Kei-Net 2362 のページが検索結果に出ず、直接開こうとしたが権限確認が通らず開けなかった"
 }
 ],
 "failed": [],
@@ -16345,84 +16455,6 @@
 "金沢医科大学": 1
 },
 "enrich": [
-{
-"name": "長岡大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"difficulty"
-]
-},
-{
-"name": "長岡崇徳大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2347"
-},
-{
-"name": "長野保健医療大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2398"
-},
-{
-"name": "静岡理工科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2422"
-},
-{
-"name": "浜松学院大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"difficulty"
-],
-"keinet": "2421"
-},
-{
-"name": "清泉女学院大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-]
-},
 {
 "name": "福井医療大学",
 "need": [
@@ -36097,38 +36129,6 @@
 "fails": 1,
 "last_fail": "2026-11-20",
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
-},
-{
-"name": "金沢医科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu"
-],
-"fails": 1,
-"last_fail": "2026-11-23",
-"note": "2026-11-23 2026-11-22 Kei-Net のコードが検索結果に出ず、候補（2360・2361）のページは権限確認が通らず開けなかった"
-},
-{
-"name": "金沢学院大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2362",
-"fails": 1,
-"last_fail": "2026-11-23",
-"note": "2026-11-23 2026-11-22 Kei-Net 2362 のページが検索結果に出ず、直接開こうとしたが権限確認が通らず開けなかった"
 },
 {
 "name": "島根大学",
