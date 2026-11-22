@@ -15214,6 +15214,118 @@
 ],
 "keinet": "2525",
 "done_date": "2026-11-22"
+},
+{
+"name": "大阪経済大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2519",
+"done_date": "2026-11-22"
+},
+{
+"name": "大阪経済法科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2520",
+"done_date": "2026-11-22"
+},
+{
+"name": "大阪総合保育大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2553",
+"done_date": "2026-11-22"
+},
+{
+"name": "大阪芸術大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2522",
+"done_date": "2026-11-22"
+},
+{
+"name": "大阪行岡医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2596",
+"done_date": "2026-11-22"
+},
+{
+"name": "静岡文化芸術大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1571",
+"done_date": "2026-11-22"
+},
+{
+"name": "静岡県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1570",
+"done_date": "2026-11-22"
+},
+{
+"name": "大阪河﨑リハビリテーション大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2554",
+"fails": 1,
+"last_fail": "2026-11-22",
+"note": "2026-11-22 2026-11-22 Kei-Net(2554)のページが今回の取得環境で開けず、マナビジョンの掲載ページも検索で見つからず",
+"done_date": "2026-11-22"
 }
 ],
 "failed": [],
@@ -15474,94 +15586,6 @@
 "大阪河﨑リハビリテーション大学": 1
 },
 "enrich": [
-{
-"name": "大阪経済大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2519"
-},
-{
-"name": "大阪経済法科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2520"
-},
-{
-"name": "大阪総合保育大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2553"
-},
-{
-"name": "大阪芸術大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2522"
-},
-{
-"name": "大阪行岡医療大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu"
-],
-"keinet": "2596"
-},
-{
-"name": "静岡文化芸術大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"difficulty"
-],
-"keinet": "1571"
-},
-{
-"name": "静岡県立大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"difficulty"
-],
-"keinet": "1570"
-},
 {
 "name": "三重県立看護大学",
 "need": [
@@ -36059,22 +36083,6 @@
 "fails": 1,
 "last_fail": "2026-11-20",
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
-},
-{
-"name": "大阪河﨑リハビリテーション大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2554",
-"fails": 1,
-"last_fail": "2026-11-22",
-"note": "2026-11-22 2026-11-22 Kei-Net(2554)のページが今回の取得環境で開けず、マナビジョンの掲載ページも検索で見つからず"
 },
 {
 "name": "島根大学",
