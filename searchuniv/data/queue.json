@@ -17010,6 +17010,113 @@
 "licenses"
 ],
 "keinet": "2386"
+},
+{
+"name": "北陸大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2361"
+},
+{
+"name": "北陸学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2360"
+},
+{
+"name": "同朋大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2449"
+},
+{
+"name": "名古屋商科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2456"
+},
+{
+"name": "名古屋外国語大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2452"
+},
+{
+"name": "名古屋葵大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2457"
+},
+{
+"name": "名古屋学芸大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2435"
+},
+{
+"name": "名古屋造形大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2458",
+"fails": 1,
+"last_fail": "2026-11-23",
+"note": "2026-11-23 Kei-Net 2458 の各ページは今回の実行環境で取得できず、マナビジョン 3545 には学生総数・資格・沿革の記載なし"
 }
 ],
 "failed": [],
@@ -17277,97 +17384,6 @@
 "名古屋造形大学": 1
 },
 "enrich": [
-{
-"name": "北陸大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2361"
-},
-{
-"name": "北陸学院大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2360"
-},
-{
-"name": "同朋大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2449"
-},
-{
-"name": "名古屋商科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2456"
-},
-{
-"name": "名古屋外国語大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2452"
-},
-{
-"name": "名古屋葵大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2457"
-},
-{
-"name": "名古屋学芸大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2435"
-},
 {
 "name": "名古屋学院大学",
 "need": [
@@ -36147,22 +36163,6 @@
 "fails": 1,
 "last_fail": "2026-11-20",
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
-},
-{
-"name": "名古屋造形大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2458",
-"fails": 1,
-"last_fail": "2026-11-23",
-"note": "2026-11-23 Kei-Net 2458 の各ページは今回の実行環境で取得できず、マナビジョン 3545 には学生総数・資格・沿革の記載なし"
 },
 {
 "name": "島根大学",
