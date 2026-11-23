@@ -4038,7 +4038,8 @@
 "https://admissions.tohoku.ac.jp/ja/entrance-info/undergraduate-info/general_selection/",
 "https://admissions.tohoku.ac.jp/ja/entrance-info/undergraduate-info/ao/",
 "https://www.tnc.tohoku.ac.jp/images/news/20251022_2yokoku.pdf",
-"https://manabi.benesse.ne.jp/daigaku/school/1070/nyushi/hoshiki/ippan/"
+"https://manabi.benesse.ne.jp/daigaku/school/1070/nyushi/hoshiki/ippan/",
+"https://search.keinet.ne.jp/1050/general/exam_result"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -4479,7 +4480,7 @@
 "money": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
-"ratios": "2026-11-06",
+"ratios": "2026-11-23",
 "qtrend": "2026-11-07",
 "oc": "2026-11-07",
 "schedule": "2026-11-19",
@@ -202283,7 +202284,9 @@ null
 "money": "2026-11-14",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"founded": "2026-11-23",
+"licenses": "2026-11-23"
 },
 "departments": [
 {
@@ -202410,7 +202413,14 @@ null
 "https://search.keinet.ne.jp/2430/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/3656/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3564/nyushi/gokaku-happyo/",
-"https://passnavi.obunsha.co.jp/univ/3656/expense/"
+"https://passnavi.obunsha.co.jp/univ/3656/expense/",
+"https://search.keinet.ne.jp/2430",
+"https://search.keinet.ne.jp/2430/outline/licential"
+],
+"founded": "2017年4月 開学（看護学部看護学科。前身は2004年開学の愛知きわみ看護短期大学、起源は1971年の大雄会一宮高等看護学院）",
+"licenses": [
+"看護師（受験資格）",
+"助産師（受験資格）"
 ]
 },
 "中京大学": {
@@ -203990,7 +204000,12 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"money": "2026-11-12"
+"money": "2026-11-12",
+"founded": "2026-11-23",
+"students": "2026-11-23",
+"licenses": "2026-11-23",
+"kyotsu": "2026-11-23",
+"difficulty": "2026-11-23"
 },
 "departments": [
 {
@@ -204086,7 +204101,12 @@ null
 "sources": [
 "https://sakura.saku.ac.jp/special/exam/",
 "https://manabi.benesse.ne.jp/daigaku/school/3466/nyushi/gokaku-happyo/",
-"https://manabi.benesse.ne.jp/daigaku/school/3466/gakuhi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3466/gakuhi/",
+"https://search.keinet.ne.jp/2392",
+"https://search.keinet.ne.jp/2392/outline/department",
+"https://search.keinet.ne.jp/2392/outline/licential",
+"https://search.keinet.ne.jp/2392/general/exam_subject",
+"https://search.keinet.ne.jp/2392/general/border_rate"
 ],
 "money": {
 "year": "2026年度",
@@ -204115,6 +204135,37 @@ null
 }
 ],
 "note": "マナビジョン（2026年度入学者）。初年度納入金の合計のみで内訳の記載なし。ほかに諸会費が必要"
+},
+"founded": "2008年4月 看護学部看護学科を設置して開学（法人は1964年設立認可。前身の信州短期大学は1988年設置。2021年 人間福祉学部を設置）",
+"students": {
+"count": 463,
+"year": 2025
+},
+"licenses": [
+"社会福祉士（受験資格）",
+"社会福祉主事（資格）",
+"児童福祉司（資格）",
+"精神保健福祉士（受験資格）",
+"養護教諭二種",
+"看護師（受験資格）",
+"保健師（受験資格）"
+],
+"kyotsu": {
+"kamoku": "2教科2科目",
+"kyoka": [
+2
+],
+"rl": [
+"1:1"
+],
+"rl_text": "両学科ともR50:L50（1:1）",
+"note": "",
+"year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "BF",
+"kyotei": "43%〜51%",
+"year": "2027年度入試用"
 }
 },
 "修文大学": {
@@ -204131,7 +204182,11 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"money": "2026-11-12"
+"money": "2026-11-12",
+"founded": "2026-11-23",
+"students": "2026-11-23",
+"kyotsu": "2026-11-23",
+"difficulty": "2026-11-23"
 },
 "departments": [
 {
@@ -204242,7 +204297,11 @@ null
 "sources": [
 "https://www.shubun.ac.jp/exam/common/",
 "https://telemail.jp/shingaku/university/10001847/examination/general",
-"https://search.keinet.ne.jp/2431/outline/expense"
+"https://search.keinet.ne.jp/2431/outline/expense",
+"https://search.keinet.ne.jp/2431",
+"https://search.keinet.ne.jp/2431/outline/department",
+"https://search.keinet.ne.jp/general/exam_subject/2431",
+"https://search.keinet.ne.jp/2431/general/border_rate"
 ],
 "money": {
 "year": "2026年度",
@@ -204281,6 +204340,25 @@ null
 }
 ],
 "note": "河合塾Kei-Net（2026年度入学者用）。学生会費・後援会費・保険料、国家試験関連費用、ユニフォーム・教科書代などは入学後に別途。2027年度の内訳は未確認"
+},
+"founded": "2008年4月 開学（健康栄養学部。前身は1955年開学の一宮女子短期大学、起源は1941年の一宮女子商業学校）",
+"students": {
+"count": 860,
+"year": 2025
+},
+"kyotsu": {
+"kamoku": "1教科1科目〜2教科2科目",
+"kyoka": [
+1,
+2
+],
+"note": "共通テスト方式と共テ＋個別（共テプラス）方式。英語はリーディングのみ表示（R100）",
+"year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "BF〜35.0",
+"kyotei": "39%〜48%",
+"year": "2027年度入試用"
 }
 },
 "健康科学大学": {
@@ -204297,7 +204375,9 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"money": "2026-11-12"
+"money": "2026-11-12",
+"students": "2026-11-23",
+"difficulty": "2026-11-23"
 },
 "departments": [
 {
@@ -204394,7 +204474,9 @@ null
 "https://www.kenkoudai.ac.jp/admissions/3884/",
 "https://www.kenkoudai.ac.jp/admissions/24553/",
 "https://manabi.benesse.ne.jp/daigaku/school/3455/nyushi/gokaku-happyo/",
-"https://search.keinet.ne.jp/2387/outline/expense"
+"https://search.keinet.ne.jp/2387/outline/expense",
+"https://search.keinet.ne.jp/2387/outline/department",
+"https://search.keinet.ne.jp/2387/general/border_rate"
 ],
 "money": {
 "year": "2026年度",
@@ -204434,6 +204516,15 @@ null
 }
 ],
 "note": "河合塾Kei-Net（2026年度入学者用）。otherは諸会費。2027年度の内訳は未確認"
+},
+"students": {
+"count": 693,
+"year": 2025
+},
+"difficulty": {
+"hensachi": "BF〜35.0",
+"kyotei": "39%〜52%",
+"year": "2027年度入試用"
 }
 },
 "山陽小野田市立山口東京理科大学": {
@@ -204457,7 +204548,9 @@ null
 "schedule": "2026-11-17",
 "money": "2026-11-09",
 "_via": "2026-11-09",
-"licenses": "2026-11-15"
+"licenses": "2026-11-15",
+"students": "2026-11-23",
+"research": "2026-11-23"
 },
 "faculties": [
 "工学部",
@@ -204524,7 +204617,8 @@ null
 "https://www.keinet.ne.jp/exam/ranking/2027/g_dai_k06.pdf",
 "https://search.keinet.ne.jp/1661/outline/licential",
 "https://manabi.benesse.ne.jp/daigaku/school/2263/nyushi/hoshiki/ippan/",
-"https://telemail.jp/shingaku/university/10001479/examination/general"
+"https://telemail.jp/shingaku/university/10001479/examination/general",
+"https://search.keinet.ne.jp/1661/outline/department"
 ],
 "eng": {
 "year": "2027年度入試",
@@ -204829,6 +204923,18 @@ null
 "中学校教諭一種（数学）、高等学校教諭一種（数学・情報）（工学部 数理情報科学科）",
 "中学校教諭一種（理科）、高等学校教諭一種（理科）、食品衛生監視員（資格）（工学部 医薬工学科）",
 "薬剤師（受験資格）、食品衛生監視員（資格）（薬学部 薬学科）"
+],
+"students": {
+"count": 1889,
+"year": 2025
+},
+"research": [
+"機械工学科（工学部：自動制御・ロボット工学・メカトロニクス・航空宇宙工学など）",
+"電気電子工学科（工学部：電気工学の基礎と、人工知能・電力系統工学・高周波回路など）",
+"先進化学科（工学部：物質の性質・構造・合成を学び新物質を生み出す。有機化学・高分子科学・機能性材料・分析化学）",
+"数理情報科学科（工学部：数学を基礎に情報を数量化・分析。機械学習・応用統計学・医療情報・自然言語処理）",
+"医薬工学科（工学部：ライフサイエンスとデータサイエンスで、バイオ医薬品・化粧品・機能性食品の開発に貢献する人材を育成）",
+"薬学科（薬学部・6年制：全員が薬剤師免許をめざし、地方創生に関わる健康医療の課題にも取り組む）"
 ]
 },
 "岡山県立大学": {
@@ -204852,7 +204958,8 @@ null
 "schedule": "2026-11-17",
 "_via": "2026-11-09",
 "careers": "2026-11-15",
-"money": "2026-11-17"
+"money": "2026-11-17",
+"research": "2026-11-23"
 },
 "faculties": [
 "情報工学部",
@@ -205325,7 +205432,19 @@ null
 "note": "県外者は初年度896,460円。otherは保険料4,660円＋後援会費64,000円"
 }
 ]
-}
+},
+"research": [
+"情報通信工学科（情報工学部：データ工学・人工知能・電磁波工学・光エレクトロニクス・制御工学など、情報システムの高度化・知能化）",
+"情報システム工学科（情報工学部：ソフトウェア工学・ヒューマンインタフェースに加え、メカトロニクスや機械力学などものづくりの技術）",
+"人間情報工学科（情報工学部：生体計測・人間工学・感性工学など、人間中心のものやサービスの設計）",
+"看護学科（保健福祉学部：ヒューマンケアリングを実践し新しい看護を創る。国際保健看護論なども学ぶ）",
+"栄養学科（保健福祉学部：食と健康の関係をライフサイエンスから学ぶ。公衆栄養学・スポーツ栄養学・病態栄養学）",
+"現代福祉学科（保健福祉学部：ソーシャルワーク・高齢者福祉・介護ロボット論など、地域と国際社会で活躍する福祉人材）",
+"子ども学科（保健福祉学部：教育心理学・乳幼児保育・子ども家庭支援論など、幼児教育・保育の専門家）",
+"ビジュアルデザイン学科（デザイン学部：グラフィック・映像など多様なメディアの視覚伝達デザイン）",
+"工芸工業デザイン学科（デザイン学部：プロダクト・テキスタイル・セラミックなどの造形で持続可能な社会に貢献）",
+"建築学科（デザイン学部：建築設計を中心にインテリアから地域計画・ランドスケープまで）"
+]
 },
 "石巻専修大学": {
 "faculties": [
@@ -205341,7 +205460,10 @@ null
 "money": "2026-11-12",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"founded": "2026-11-23",
+"students": "2026-11-23",
+"licenses": "2026-11-23"
 },
 "departments": [
 {
@@ -205552,7 +205674,33 @@ null
 "https://passnavi.obunsha.co.jp/univ/1740/difficulty/",
 "https://passnavi.obunsha.co.jp/univ/1740/expense/",
 "https://manabi.benesse.ne.jp/daigaku/school/3066/nyushi/gokaku-happyo/",
-"https://telemail.jp/shingaku/university/10003854/examination/general"
+"https://telemail.jp/shingaku/university/10003854/examination/general",
+"https://search.keinet.ne.jp/2054",
+"https://search.keinet.ne.jp/2054/outline/department",
+"https://search.keinet.ne.jp/2054/outline/licential"
+],
+"founded": "1989年4月 開学（理工学部・経営学部）。2013年 人間学部設置。2027年4月 理工学部機械工学科・情報電子工学科を創造工学科に改組予定",
+"students": {
+"count": 1195,
+"year": 2025
+},
+"licenses": [
+"高等学校教諭（商業）一種",
+"高等学校教諭（工業）一種",
+"高等学校教諭（情報）一種",
+"中学校教諭（理科）一種",
+"高等学校教諭（理科）一種",
+"学芸員（資格）",
+"バイオ技術者認定試験（資格）",
+"食品衛生監視員（資格）",
+"中学校教諭（英語）一種",
+"高等学校教諭（英語）一種",
+"社会教育主事（資格）",
+"社会福祉主事（資格）",
+"認定心理士（資格）",
+"保育士（資格）",
+"幼稚園教諭一種",
+"小学校教諭一種"
 ]
 },
 "福島学院大学": {
@@ -205568,7 +205716,9 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"schedule": "2026-11-11"
+"schedule": "2026-11-11",
+"founded": "2026-11-23",
+"students": "2026-11-23"
 },
 "departments": [
 {
@@ -205627,7 +205777,8 @@ null
 "https://passnavi.obunsha.co.jp/univ/1857/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3102/nyushi/gokaku-happyo/index.html",
 "https://manabi.benesse.ne.jp/daigaku/school/3102/nyushi/hoshiki/ippan/index.html",
-"https://manabi.benesse.ne.jp/daigaku/school/3102/gakuhi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3102/gakuhi/",
+"https://search.keinet.ne.jp/2098/outline/department"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -205688,6 +205839,11 @@ null
 }
 ],
 "note": "マナビジョン（2027年度）。全学科で同じ日程。共通テスト利用の掲載なし。検定料は未確認"
+},
+"founded": "2003年 開学（福祉学部福祉心理学科。前身は1966年開学の短期大学、起源は1941年の福島高等洋裁学院）。2015年 こども学科、2023年4月 マネジメント学部を開設",
+"students": {
+"count": 508,
+"year": 2025
 }
 },
 "秋田看護福祉大学": {
