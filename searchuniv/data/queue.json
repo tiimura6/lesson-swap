@@ -16535,6 +16535,90 @@
 "licenses"
 ],
 "keinet": "2334"
+},
+{
+"name": "新潟青陵大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2339"
+},
+{
+"name": "新潟食料農業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+]
+},
+{
+"name": "日本福祉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2461"
+},
+{
+"name": "兵庫県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1627"
+},
+{
+"name": "滋賀県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1587"
+},
+{
+"name": "奈良県立医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1635"
+},
+{
+"name": "奈良県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"difficulty"
+],
+"keinet": "1640"
 }
 ],
 "failed": [],
@@ -16801,101 +16885,6 @@
 "藤田医科大学": 1
 },
 "enrich": [
-{
-"name": "新潟青陵大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2339"
-},
-{
-"name": "新潟食料農業大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"difficulty"
-]
-},
-{
-"name": "日本福祉大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2461"
-},
-{
-"name": "兵庫県立大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"difficulty"
-],
-"keinet": "1627"
-},
-{
-"name": "滋賀県立大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"difficulty"
-],
-"keinet": "1587"
-},
-{
-"name": "和歌山県立医科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"difficulty"
-],
-"keinet": "1645"
-},
-{
-"name": "奈良県立医科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"difficulty"
-],
-"keinet": "1635"
-},
-{
-"name": "奈良県立大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses",
-"difficulty"
-],
-"keinet": "1640"
-},
 {
 "name": "神戸市外国語大学",
 "need": [
@@ -36154,6 +36143,20 @@
 "fails": 1,
 "last_fail": "2026-11-20",
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
+},
+{
+"name": "和歌山県立医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1645",
+"fails": 1,
+"last_fail": "2026-11-23",
+"note": "2026-11-23 Kei-Net outline/department・border_rate とマナビジョン学部ページが取得できず、マナビジョン大学トップは学部名のみ。パスナビのページも見つからず"
 },
 {
 "name": "島根大学",
