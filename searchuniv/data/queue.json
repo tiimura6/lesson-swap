@@ -16814,6 +16814,111 @@
 "fails": 1,
 "last_fail": "2026-11-23",
 "note": "2026-11-23 Kei-Net outline/department/1619・border_rate/1619 が取得できず（許可待ちタイムアウト）。パスナビの正しいIDが特定できず"
+},
+{
+"name": "岐阜聖徳学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2410"
+},
+{
+"name": "岡崎女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2432"
+},
+{
+"name": "常葉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2427"
+},
+{
+"name": "愛知みずほ大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "愛知医療学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "愛知医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2438"
+},
+{
+"name": "名古屋産業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "名古屋経済大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2454"
 }
 ],
 "failed": [],
@@ -17080,111 +17185,6 @@
 "藤田医科大学": 1
 },
 "enrich": [
-{
-"name": "岐阜聖徳学園大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2410"
-},
-{
-"name": "岡崎女子大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu",
-"difficulty"
-],
-"keinet": "2432"
-},
-{
-"name": "常葉大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2427"
-},
-{
-"name": "愛知みずほ大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-]
-},
-{
-"name": "愛知医療学院大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-]
-},
-{
-"name": "愛知医科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2438"
-},
-{
-"name": "名古屋産業大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu",
-"difficulty"
-]
-},
-{
-"name": "名古屋経済大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2454"
-},
 {
 "name": "名古屋芸術大学",
 "need": [
