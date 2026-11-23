@@ -16919,6 +16919,97 @@
 "licenses"
 ],
 "keinet": "2454"
+},
+{
+"name": "名古屋芸術大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "名古屋音楽大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "2451"
+},
+{
+"name": "名城大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2462"
+},
+{
+"name": "大同大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2445"
+},
+{
+"name": "富山国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2346"
+},
+{
+"name": "山梨学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2384"
+},
+{
+"name": "山梨英和大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2386"
 }
 ],
 "failed": [],
@@ -17182,111 +17273,10 @@
 "福井医療大学": 1,
 "豊橋創造大学": 1,
 "至学館大学": 1,
-"藤田医科大学": 1
+"藤田医科大学": 1,
+"名古屋造形大学": 1
 },
 "enrich": [
-{
-"name": "名古屋芸術大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-]
-},
-{
-"name": "名古屋造形大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2458"
-},
-{
-"name": "名古屋音楽大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"difficulty"
-]
-},
-{
-"name": "名城大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2462"
-},
-{
-"name": "大同大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2445"
-},
-{
-"name": "富山国際大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-]
-},
-{
-"name": "山梨学院大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2384"
-},
-{
-"name": "山梨英和大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2386"
-},
 {
 "name": "北陸大学",
 "need": [
@@ -36157,6 +36147,22 @@
 "fails": 1,
 "last_fail": "2026-11-20",
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
+},
+{
+"name": "名古屋造形大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2458",
+"fails": 1,
+"last_fail": "2026-11-23",
+"note": "2026-11-23 Kei-Net 2458 の各ページは今回の実行環境で取得できず、マナビジョン 3545 には学生総数・資格・沿革の記載なし"
 },
 {
 "name": "島根大学",
