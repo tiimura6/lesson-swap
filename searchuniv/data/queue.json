@@ -17211,6 +17211,96 @@
 "difficulty"
 ],
 "keinet": "1653"
+},
+{
+"name": "山口県立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1663"
+},
+{
+"name": "中京大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2446"
+},
+{
+"name": "中京学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2412"
+},
+{
+"name": "中部大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2448"
+},
+{
+"name": "中部学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2413"
+},
+{
+"name": "人間環境大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2471"
+},
+{
+"name": "仁愛大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "2374"
 }
 ],
 "failed": [],
@@ -17478,109 +17568,6 @@
 "名古屋造形大学": 1
 },
 "enrich": [
-{
-"name": "山口県立大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"difficulty"
-],
-"keinet": "1663"
-},
-{
-"name": "一宮研伸大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2430"
-},
-{
-"name": "中京大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2446"
-},
-{
-"name": "中京学院大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2412"
-},
-{
-"name": "中部大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2448"
-},
-{
-"name": "中部学院大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2413"
-},
-{
-"name": "人間環境大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2471"
-},
-{
-"name": "仁愛大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"difficulty"
-],
-"keinet": "2374"
-},
 {
 "name": "佐久大学",
 "need": [
@@ -36163,6 +36150,22 @@
 "fails": 1,
 "last_fail": "2026-11-20",
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
+},
+{
+"name": "一宮研伸大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2430",
+"fails": 1,
+"last_fail": "2026-11-23",
+"note": "2026-11-23 WebSearch「一宮研伸大学 Kei-Net」で Kei-Net のページが出ず、直接のURLは許可待ちで開けなかった（2026-11-23）"
 },
 {
 "name": "島根大学",

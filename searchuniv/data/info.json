@@ -31375,7 +31375,8 @@
 "https://search.keinet.ne.jp/1180/outline/admission_employment",
 "https://www.niigata-u.ac.jp/wp-content/uploads/2026/07/senbatsuyoukou.pdf",
 "https://passnavi.obunsha.co.jp/univ/0350/scholarship/",
-"https://manabi.benesse.ne.jp/daigaku/school/1205/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/1205/nyushi/index.html",
+"https://search.keinet.ne.jp/1180/general/exam_result"
 ],
 "kyotsu": {
 "kamoku": "6教科8科目（多くの学部）、教育学部の一部は6教科7科目・6教科6科目・選択型",
@@ -31814,7 +31815,7 @@
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "eng": "2026-11-06",
-"ratios": "2026-11-06",
+"ratios": "2026-11-23",
 "research": "2026-11-14",
 "licenses": "2026-11-14",
 "careers": "2026-11-14",
@@ -201770,7 +201771,9 @@ null
 "methods": "2026-11-17",
 "schedule": "2026-11-17",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"research": "2026-11-23",
+"difficulty": "2026-11-23"
 },
 "departments": [
 {
@@ -202250,7 +202253,21 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"research": [
+"国際文化学科（国際文化学部：英語を中心に中国語・韓国語も含む多言語コミュニケーション力と日本語教育力を育て、地域の国際化・多文化共生に貢献する人材を育成。留学の単位読み替えも重視）",
+"文化創造学科（国際文化学部：日本文化・地域文化の理解と、地域社会のデジタル化・地域デザインの力を育てる。デジタル・プランニング、デザイン、文化資源・図書館の科目）",
+"情報社会学科（国際文化学部：2025年設置。デジタル技術と人文学の発想で地域・企業の課題を解決する人材を育成）",
+"社会福祉学科（社会福祉学部：社会福祉士・精神保健福祉士などの専門職養成。ゼミ形式の演習と、福祉事務所・福祉施設・精神科病院などでの現場実習を重視）",
+"看護学科（看護栄養学部：全人的なヒューマンケアの力を養う。生命倫理・看護倫理・対人援助のほか、実践英語・国際看護も学ぶ）",
+"栄養学科（看護栄養学部：生活者の視点に立った管理栄養士の養成。食品科学・調理学・人体の構造と機能・栄養学を学ぶ）"
+],
+"difficulty": {
+"hensachi": "40.0〜50.0",
+"kyotei": "55%〜71%",
+"year": "2027年度入試用",
+"note": "偏差値は学部学科ランク（方式別ランクは得点率のみ）"
+}
 },
 "一宮研伸大学": {
 "faculties": [
@@ -202419,7 +202436,9 @@ null
 "money": "2026-11-12",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"students": "2026-11-23",
+"licenses": "2026-11-23"
 },
 "departments": [
 {
@@ -202682,7 +202701,36 @@ null
 "https://search.keinet.ne.jp/2446/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/3690/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3532/nyushi/gokaku-happyo/",
-"https://manabi.benesse.ne.jp/daigaku/school/3532/gakuhi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3532/gakuhi/",
+"https://search.keinet.ne.jp/2446/outline/department",
+"https://search.keinet.ne.jp/2446/outline/licential",
+"https://manabi.benesse.ne.jp/daigaku/school/3532/index.html"
+],
+"students": {
+"count": 13787,
+"year": 2025
+},
+"licenses": [
+"中学校教諭（社会）一種",
+"高等学校教諭（地理歴史）一種",
+"高等学校教諭（公民）一種",
+"高等学校教諭（商業）一種",
+"高等学校教諭（工業）一種",
+"中学校教諭（国語）一種",
+"高等学校教諭（国語）一種",
+"高等学校教諭（書道）一種",
+"中学校教諭（英語）一種",
+"高等学校教諭（英語）一種",
+"中学校教諭（保健体育）一種",
+"高等学校教諭（保健体育）一種",
+"学校図書館司書教諭一種（資格）",
+"司書（資格）",
+"社会教育主事（資格）",
+"学芸員（資格）",
+"社会調査士（資格）",
+"公認心理師（受験資格）",
+"社会福祉士（受験資格）",
+"健康運動実践指導者（受験資格）"
 ]
 },
 "中京学院大学": {
@@ -202700,7 +202748,10 @@ null
 "money": "2026-11-14",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"students": "2026-11-23",
+"founded": "2026-11-23",
+"licenses": "2026-11-23"
 },
 "departments": [
 {
@@ -202855,7 +202906,20 @@ null
 "https://passnavi.obunsha.co.jp/univ/3565/difficulty/?facultyID=010",
 "https://manabi.benesse.ne.jp/daigaku/school/3485/nyushi/hoshiki/ippan/",
 "https://passnavi.obunsha.co.jp/univ/3565/expense/",
-"https://search.keinet.ne.jp/2412/outline/expense"
+"https://search.keinet.ne.jp/2412/outline/expense",
+"https://search.keinet.ne.jp/2412",
+"https://search.keinet.ne.jp/2412/outline/department",
+"https://search.keinet.ne.jp/2412/outline/licential"
+],
+"students": {
+"count": 473,
+"year": 2025
+},
+"founded": "1993年4月 開学（経営学部。前身は1966年開学の中京短期大学。2027年4月に「ＹＩＣ中京学院大学」へ名称変更予定）",
+"licenses": [
+"養護教諭二種",
+"看護師（受験資格）",
+"保健師（受験資格）"
 ]
 },
 "中部大学": {
@@ -202879,7 +202943,11 @@ null
 "money": "2026-11-12",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"students": "2026-11-23",
+"founded": "2026-11-23",
+"research": "2026-11-23",
+"licenses": "2026-11-23"
 },
 "departments": [
 {
@@ -203155,7 +203223,70 @@ null
 "https://search.keinet.ne.jp/2448/outline/expense",
 "https://passnavi.obunsha.co.jp/univ/3710/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3534/nyushi/gokaku-happyo/",
-"https://manabi.benesse.ne.jp/daigaku/school/3534/gakuhi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3534/gakuhi/",
+"https://search.keinet.ne.jp/2448",
+"https://search.keinet.ne.jp/2448/outline/department",
+"https://search.keinet.ne.jp/2448/outline/licential",
+"https://manabi.benesse.ne.jp/daigaku/school/3534/gakubu/"
+],
+"students": {
+"count": 11230,
+"year": 2025
+},
+"founded": "1964年 中部工業大学として開学（1984年に中部大学へ改称。起源は1938年の名古屋第一工学校）",
+"research": [
+"経営情報学部：経営・情報・会計・経済・法律を理解し、現代のビジネス社会で活躍する力を養う",
+"国際関係学部：幅広い地域や分野を対象に国際関係を学ぶ",
+"人文学部：日本語日本文化・英語英米文化・心理・歴史地理・メディア情報社会の5学科。情報を選ぶ視点を養うメディア情報社会学科",
+"工学部：機械・都市建設・建築・応用化学・情報・電気電子。技能検定をもつ教育技術員から少人数で実習指導を受けられる",
+"理工学部：数理・物理サイエンス、AIロボティクス、宇宙航空。幅広い教養と先進科学技術を学ぶ",
+"応用生物学部：バイオの学習を核に、生命・環境・食の専門家をめざす",
+"生命健康科学部：基礎医学と生命科学技術をもとに、チーム医療に貢献できる医療専門職（看護・理学療法・作業療法・臨床工学・臨床検査など）を育てる",
+"教育学部（2027年4月に現代教育学部から名称変更）：幼児教育と小・中学校の教員養成"
+],
+"licenses": [
+"保育士（資格）",
+"幼稚園教諭一種",
+"小学校教諭一種",
+"中学校教諭（理科）一種",
+"特別支援学校教諭一種",
+"中学校教諭（国語）一種",
+"中学校教諭（数学）一種",
+"司書（資格）",
+"学芸員（資格）",
+"高等学校教諭（国語）一種",
+"中学校教諭（英語）一種",
+"高等学校教諭（英語）一種",
+"高等学校教諭（公民）一種",
+"公認心理師（受験資格）",
+"認定心理士（資格）",
+"中学校教諭（社会）一種",
+"高等学校教諭（地理歴史）一種",
+"高等学校教諭（商業）一種",
+"高等学校教諭（工業）一種",
+"測量士（資格）",
+"測量士補（資格）",
+"技術士補（試験一部免除）",
+"一級建築士（受験資格）",
+"二級建築士（受験資格）",
+"高等学校教諭（情報）一種",
+"高等学校教諭（理科）一種",
+"高等学校教諭（数学）一種",
+"食品衛生監視員（資格）",
+"栄養教諭一種",
+"管理栄養士（受験資格）",
+"栄養士（資格）",
+"高等学校教諭（農業）一種",
+"臨床検査技師（受験資格）",
+"養護教諭一種",
+"養護教諭二種",
+"看護師（受験資格）",
+"保健師（受験資格）",
+"理学療法士（受験資格）",
+"作業療法士（受験資格）",
+"臨床工学技士（受験資格）",
+"救急救命士（受験資格）",
+"健康運動実践指導者（受験資格）"
 ]
 },
 "中部学院大学": {
@@ -203175,7 +203306,11 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"schedule": "2026-11-14"
+"schedule": "2026-11-14",
+"students": "2026-11-23",
+"founded": "2026-11-23",
+"research": "2026-11-23",
+"licenses": "2026-11-23"
 },
 "departments": [
 {
@@ -203276,7 +203411,14 @@ null
 "https://www.shingakunavi.ne.jp/%E5%A4%A7%E5%AD%A6-%E9%80%B2%E5%AD%A6/%E4%B8%AD%E9%83%A8%E5%AD%A6%E9%99%A2%E5%A4%A7%E5%AD%A6/%E9%A1%98%E6%9B%B8-%E5%85%A5%E8%A9%A6/",
 "https://manabi.benesse.ne.jp/daigaku/school/3487/nyushi/gokaku-happyo/",
 "https://passnavi.obunsha.co.jp/univ/3567/schedule/",
-"https://www.chubu-gu.ac.jp/nyushi/expenses/"
+"https://www.chubu-gu.ac.jp/nyushi/expenses/",
+"https://search.keinet.ne.jp/2413",
+"https://search.keinet.ne.jp/2413/outline/licential",
+"https://manabi.benesse.ne.jp/daigaku/school/3487/gakubu/",
+"https://manabi.benesse.ne.jp/daigaku/school/3487/gakubu/gakubudt/27.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3487/gakubu/gakubudt/30.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3487/gakubu/gakubudt/64.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3487/gakubu/gakubudt/65.html"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -203328,7 +203470,38 @@ null
 }
 ],
 "note": "日程はマナビジョン（2027年度）・パスナビ（2027年度入試、A〜D日程は2/2〜2/5）で一致。一般の受験料は大学公式（入試ガイド2027の案内ページ）で1回目30,000円、2回目15,000円、3回目以降10,000円（大学・短大を通算）。共通テスト利用の検定料は未確認（減額制度の対象外）"
-}
+},
+"students": {
+"count": 1479,
+"year": 2025
+},
+"founded": "1997年4月 開学（人間福祉学部。前身は1967年設置認可の岐阜済美学院短期大学）",
+"research": [
+"人間福祉学科（人間福祉学部：社会福祉・精神保健福祉・介護支援・地域貢献の4コース。社会福祉士と精神保健福祉士または介護福祉士の国家資格をめざせる。公務員養成プログラムも）",
+"子ども教育学科（教育学部・各務原キャンパス：小学校・中学校教諭コースと幼稚園教諭・保育士コース。現場体験を重ねる「学びの森教育プラン」）",
+"理学療法学科・看護学科（看護リハビリテーション学部：理学療法士と看護師・保健師を養成。80以上の実習先でチーム医療を学ぶ）",
+"スポーツ健康科学科（スポーツ健康科学部：スポーツ健康・保健体育科教員・障がい者スポーツ・スポーツマネジメントの4領域）"
+],
+"licenses": [
+"保育士（資格）",
+"幼稚園教諭一種",
+"幼稚園教諭二種",
+"小学校教諭一種",
+"小学校教諭二種",
+"中学校教諭（保健体育）二種",
+"中学校教諭（英語）一種",
+"理学療法士（受験資格）",
+"養護教諭二種",
+"看護師（受験資格）",
+"保健師（受験資格）",
+"中学校教諭（保健体育）一種",
+"高等学校教諭（保健体育）一種",
+"社会福祉士（受験資格）",
+"介護福祉士（受験資格）",
+"社会福祉主事（資格）",
+"児童福祉司（資格）",
+"精神保健福祉士（受験資格）"
+]
 },
 "人間環境大学": {
 "faculties": [
@@ -203349,7 +203522,10 @@ null
 "money": "2026-11-12",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"students": "2026-11-23",
+"research": "2026-11-23",
+"licenses": "2026-11-23"
 },
 "departments": [
 {
@@ -203567,7 +203743,31 @@ null
 "https://www.uhe.ac.jp/exam/expenses.html",
 "https://telemail.jp/shingaku/university/10001771/examination/general",
 "https://search.keinet.ne.jp/2471/outline/expense",
-"https://search.keinet.ne.jp/2471/general/border_rate"
+"https://search.keinet.ne.jp/2471/general/border_rate",
+"https://search.keinet.ne.jp/2471/outline/department",
+"https://search.keinet.ne.jp/2471/outline/licential",
+"https://manabi.benesse.ne.jp/daigaku/school/3556/gakubu/"
+],
+"students": {
+"count": 2282,
+"year": 2025
+},
+"research": [
+"心理学科（心理学部・岡崎：現代社会の心の問題と心の健康を学び、医療・教育・福祉・産業の課題解決に貢献する）",
+"犯罪心理学科（心理学部・岡崎：心理学と犯罪心理学の知識・技能で社会問題の分析・解決をめざす）",
+"フィールド生態学科（環境科学部・岡崎：生物と環境の関係を扱う生態学が中心。絶滅危惧種の保護や野生動物管理を考える）",
+"総合心理学部（松山道後：脳科学から人文・社会・経営・経済まで含めて心理学を実践的に学ぶ）",
+"総合環境学部（松山道後：2025年開設のフィールド自然学科・環境情報学科で環境問題などの課題解決人材を育成）",
+"看護学部（大府）・松山看護学部（松山）：看護師に加え保健師コース、地域・在宅、小児、がん、認知症などの選択強化プログラム"
+],
+"licenses": [
+"公認心理師（受験資格）",
+"認定心理士（資格）",
+"養護教諭一種",
+"看護師（受験資格）",
+"保健師（受験資格）",
+"社会調査士（資格）",
+"学芸員（資格）"
 ]
 },
 "仁愛大学": {
@@ -203585,7 +203785,10 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"money": "2026-11-12"
+"money": "2026-11-12",
+"students": "2026-11-23",
+"research": "2026-11-23",
+"licenses": "2026-11-23"
 },
 "departments": [
 {
@@ -203708,7 +203911,9 @@ null
 "https://www.jindai.ac.jp/exam/info/common",
 "https://www.jindai.ac.jp/jdmainwp/wp-content/uploads/2026/07/fule_guidelines2027.pdf",
 "https://search.keinet.ne.jp/2374/outline/expense",
-"https://manabi.benesse.ne.jp/daigaku/school/3442/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3442/nyushi/",
+"https://manabi.benesse.ne.jp/daigaku/school/3442/gakubu/",
+"https://manabi.benesse.ne.jp/daigaku/school/3442/index.html"
 ],
 "money": {
 "year": "2026年度",
@@ -203755,7 +203960,22 @@ null
 }
 ],
 "note": "河合塾Kei-Net（2026年度入学者用）。ほかに諸会費・実習費等を納入。2027年度の内訳は未確認"
-}
+},
+"students": {
+"count": 996,
+"year": 2025
+},
+"research": [
+"心理学科（心理学部：2026年に人間学部から改称。心理学を幅広い分野に生かす。大学院進学で公認心理師受験資格をめざせる）",
+"ビジネスコミュニケーション学科（ビジネスコミュニケーション学部：2026年開設。経済・経営・観光・国際・社会・情報を学び、AI・ビッグデータも扱う。ビジネス／観光学／コミュニティ・マネジメントの3コース）",
+"健康栄養学科（栄養・子ども学部：管理栄養士の養成。実践栄養／健康スポーツ・食育／食・健康マネジメントの3コース）",
+"子ども教育学科（栄養・子ども学部：保育と教育の実践を4年間学び、保育士・幼稚園教諭・小学校教諭をめざせる）"
+],
+"licenses": [
+"保育士",
+"幼稚園教諭",
+"小学校教諭"
+]
 },
 "佐久大学": {
 "faculties": [
