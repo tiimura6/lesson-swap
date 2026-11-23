@@ -198901,7 +198901,9 @@ null
 "money": "2026-11-12",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"students": "2026-11-23",
+"founded": "2026-11-23"
 },
 "departments": [
 {
@@ -199143,8 +199145,15 @@ null
 "https://search.keinet.ne.jp/2453/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/3760/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3540/nyushi/gokaku-happyo/",
-"https://search.keinet.ne.jp/general/schedule/2453"
-]
+"https://search.keinet.ne.jp/general/schedule/2453",
+"https://search.keinet.ne.jp/2453",
+"https://search.keinet.ne.jp/2453/outline/department"
+],
+"students": {
+"count": 6282,
+"year": 2025
+},
+"founded": "1964年4月 開学（経済学部経済学科。前身は1887年創設の名古屋英和学校）"
 },
 "名古屋文理大学": {
 "faculties": [
@@ -199161,7 +199170,9 @@ null
 "money": "2026-11-12",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"students": "2026-11-23",
+"founded": "2026-11-23"
 },
 "departments": [
 {
@@ -199305,8 +199316,15 @@ null
 "https://search.keinet.ne.jp/2468/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/3815/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3553/nyushi/gokaku-happyo/",
-"https://manabi.benesse.ne.jp/daigaku/school/3553/gakuhi/"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3553/gakuhi/",
+"https://search.keinet.ne.jp/2468",
+"https://search.keinet.ne.jp/2468/outline/department"
+],
+"students": {
+"count": 947,
+"year": 2025
+},
+"founded": "1999年4月 開学（前身は1966年開学の名古屋栄養短期大学）"
 },
 "福知山公立大学": {
 "faculties": [
@@ -199327,7 +199345,9 @@ null
 "ratios": "2026-11-09",
 "schedule": "2026-11-17",
 "money": "2026-11-17",
-"_via": "2026-11-17"
+"_via": "2026-11-17",
+"research": "2026-11-23",
+"difficulty": "2026-11-23"
 },
 "departments": [
 {
@@ -199783,7 +199803,16 @@ null
 }
 ]
 },
-"_via": "external-ai-verified"
+"_via": "external-ai-verified",
+"research": [
+"地域経営学科（地域経営学部：行政・政策、ビジネス、観光、文化、まちづくりなどにまたがって地域を発展させる理論と手法を学ぶ。専門科目群は地域行政・地域産業・市民社会）",
+"情報学科（情報学部：「実践的情報学」を掲げ、先端の情報技術で地域に新しい価値を生む人材を育てる。数理・データサイエンス、ICT、人間・社会情報学の3トラック）"
+],
+"difficulty": {
+"hensachi": "40.0",
+"kyotei": "51%〜69%",
+"year": "2027年度入試用"
+}
 },
 "下関市立大学": {
 "faculties": [
@@ -199806,7 +199835,9 @@ null
 "methods": "2026-11-17",
 "schedule": "2026-11-17",
 "money": "2026-11-17",
-"_via": "2026-11-17"
+"_via": "2026-11-17",
+"research": "2026-11-23",
+"difficulty": "2026-11-23"
 },
 "departments": [
 {
@@ -200193,7 +200224,19 @@ null
 }
 ]
 },
-"_via": "external-ai-verified"
+"_via": "external-ai-verified",
+"research": [
+"経済学科（経済学部：経済・社会の問題を理論・政策・歴史から体系的に学ぶ。理論・分析手法、国際・東アジア、制度・政策、地域の科目区分）",
+"国際商学科（経済学部：商学・経営学に国際経済や国際コミュニケーションを加え、語学力と国際感覚を備えた経済人を目指す）",
+"公共マネジメント学科（経済学部：行政・NPO・地域づくりなど公共の場で働く職業人を育てるため、法・政治・行政、経済・財政、地域・社会、経営・会計を学ぶ）",
+"看護学科（看護学部：多職種と連携して、地域で暮らす人々の健康と生活を支える看護職を育てる）",
+"データサイエンス学科（データサイエンス学部：数理統計・情報学・社会科学を学び、ビジネスやヘルスの分野のデータ分析で組織の課題解決に生かす）"
+],
+"difficulty": {
+"hensachi": "47.5",
+"kyotei": "52%〜66%",
+"year": "2027年度入試用"
+}
 },
 "公立鳥取環境大学": {
 "faculties": [
@@ -200214,7 +200257,9 @@ null
 "methods": "2026-11-17",
 "schedule": "2026-11-17",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"research": "2026-11-23",
+"difficulty": "2026-11-23"
 },
 "departments": [
 {
@@ -200514,7 +200559,16 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"research": [
+"経営学科（経営学部：マネジメントの基礎と、企業経営・地域経営・経営情報・会計ファイナンスの視点から経営学を学ぶ。環境学部と連動した「未来対応の経営」も学べる）",
+"環境学科（環境学部：1年次からのフィールドワークで、自然環境保全・循環型社会形成・人間環境などを実践的に学ぶ。中学・高校の理科の教職課程もある）"
+],
+"difficulty": {
+"hensachi": "42.5〜45.0",
+"kyotei": "47%〜62%",
+"year": "2027年度入試用"
+}
 },
 "叡啓大学": {
 "faculties": [
@@ -200534,7 +200588,9 @@ null
 "ratios": "2026-11-09",
 "schedule": "2026-11-17",
 "money": "2026-11-17",
-"_via": "2026-11-17"
+"_via": "2026-11-17",
+"research": "2026-11-23",
+"difficulty": "2026-11-23"
 },
 "departments": [
 {
@@ -200790,7 +200846,15 @@ null
 }
 ]
 },
-"_via": "external-ai-verified"
+"_via": "external-ai-verified",
+"research": [
+"ソーシャルシステムデザイン学科（ソーシャルシステムデザイン学部：課題の発見から協働による価値の創造までを通して5つのコンピテンシーを育てる。発展科目はアイデンティティデザイン・ビジネスデザイン・エコシステムデザイン）"
+],
+"difficulty": {
+"hensachi": null,
+"kyotei": "54%",
+"year": "2027年度入試用"
+}
 },
 "周南公立大学": {
 "faculties": [
@@ -200813,7 +200877,9 @@ null
 "methods": "2026-11-17",
 "schedule": "2026-11-17",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"research": "2026-11-23",
+"difficulty": "2026-11-23"
 },
 "departments": [
 {
@@ -201227,7 +201293,19 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"research": [
+"経済経営学科（経済経営学部：経済・経営の基礎理論と応用を学び、グループワークやフィールドワークでリーダーシップと協働の力を育てる）",
+"スポーツ健康科学科（人間健康科学部：スポーツを通して人々の健康と幸福を高めるリーダーや健康の専門家を育てる）",
+"看護学科（人間健康科学部：現場を再現したシミュレーション教育と多様な実習で学ぶ）",
+"福祉学科（人間健康科学部：社会福祉を土台に、子どもとシニアの知識、保育・介護の知識もあわせて学ぶ）",
+"情報科学科（情報科学部：ICTとデータサイエンスで現状をとらえ未来を予測する力をつけ、2年次から3つのプログラムで領域を選ぶ）"
+],
+"difficulty": {
+"hensachi": "45.0",
+"kyotei": "51%〜68%",
+"year": "2027年度入試用"
+}
 },
 "尾道市立大学": {
 "faculties": [
@@ -201249,7 +201327,9 @@ null
 "fdiff": "2026-11-09",
 "schedule": "2026-11-17",
 "money": "2026-11-09",
-"_via": "2026-11-17"
+"_via": "2026-11-17",
+"research": "2026-11-23",
+"difficulty": "2026-11-23"
 },
 "departments": [
 {
@@ -201648,7 +201728,17 @@ null
 }
 ]
 },
-"_via": "external-ai-verified"
+"_via": "external-ai-verified",
+"research": [
+"日本文学科（芸術文化学部：日本文学・日本語学・中国文学・欧米文学を探究し、作品の鑑賞・分析と文芸創作を重視する）",
+"美術学科（芸術文化学部：日本画・油画・デザインの実習で造形力を育て、創作を続ける画家やデザイナーを目指す）",
+"経済情報学科（経済情報学部：IT技術と経済学・経営学の分析手法で経済の問題を解決する人材を育てる。経済・経営・情報の3コースから選ぶ）"
+],
+"difficulty": {
+"hensachi": "40.0〜52.5",
+"kyotei": "52%〜71%",
+"year": "2027年度入試用"
+}
 },
 "山口県立大学": {
 "faculties": [

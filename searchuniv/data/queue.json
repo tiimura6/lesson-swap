@@ -17117,6 +17117,100 @@
 "fails": 1,
 "last_fail": "2026-11-23",
 "note": "2026-11-23 Kei-Net 2458 の各ページは今回の実行環境で取得できず、マナビジョン 3545 には学生総数・資格・沿革の記載なし"
+},
+{
+"name": "名古屋学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2453"
+},
+{
+"name": "名古屋文理大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2468"
+},
+{
+"name": "福知山公立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"founded",
+"difficulty"
+],
+"keinet": "1597"
+},
+{
+"name": "下関市立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1665"
+},
+{
+"name": "公立鳥取環境大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1646"
+},
+{
+"name": "叡啓大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"difficulty"
+],
+"keinet": "1660"
+},
+{
+"name": "周南公立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1666"
+},
+{
+"name": "尾道市立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1653"
 }
 ],
 "failed": [],
@@ -17384,100 +17478,6 @@
 "名古屋造形大学": 1
 },
 "enrich": [
-{
-"name": "名古屋学院大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2453"
-},
-{
-"name": "名古屋文理大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2468"
-},
-{
-"name": "福知山公立大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"founded",
-"difficulty"
-],
-"keinet": "1597"
-},
-{
-"name": "下関市立大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"difficulty"
-],
-"keinet": "1665"
-},
-{
-"name": "公立鳥取環境大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"difficulty"
-],
-"keinet": "1646"
-},
-{
-"name": "叡啓大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses",
-"difficulty"
-],
-"keinet": "1660"
-},
-{
-"name": "周南公立大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"difficulty"
-],
-"keinet": "1666"
-},
-{
-"name": "尾道市立大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"difficulty"
-],
-"keinet": "1653"
-},
 {
 "name": "山口県立大学",
 "need": [
