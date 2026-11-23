@@ -16205,6 +16205,131 @@
 "founded",
 "licenses"
 ]
+},
+{
+"name": "日本赤十字豊田看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "福井医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2371",
+"fails": 1,
+"last_fail": "2026-11-23",
+"note": "2026-11-23 2026-11-22 Kei-Net の沿革・学部・資格ページが権限確認を通らず開けなかった"
+},
+{
+"name": "福井工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2372",
+"fails": 1,
+"last_fail": "2026-11-23",
+"note": "2026-11-23 2026-11-22 Kei-Net の沿革・学部・資格ページが権限確認を通らず開けなかった"
+},
+{
+"name": "聖隷クリストファー大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2423",
+"fails": 1,
+"last_fail": "2026-11-23",
+"note": "2026-11-23 2026-11-22 Kei-Net の沿革・学部・資格ページが権限確認を通らず開けなかった"
+},
+{
+"name": "豊橋創造大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2465",
+"fails": 1,
+"last_fail": "2026-11-23",
+"note": "2026-11-23 2026-11-22 Kei-Net の沿革・学部・資格ページが権限確認を通らず開けなかった"
+},
+{
+"name": "身延山大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2385",
+"fails": 1,
+"last_fail": "2026-11-23",
+"note": "2026-11-23 2026-11-22 Kei-Net の沿革・学部・資格ページが権限確認を通らず開けなかった"
+},
+{
+"name": "至学館大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"fails": 1,
+"last_fail": "2026-11-23",
+"note": "2026-11-23 2026-11-22 Kei-Net コードが検索で見つからず、マナビジョンのページも権限確認を通らず開けなかった"
+},
+{
+"name": "藤田医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"fails": 1,
+"last_fail": "2026-11-23",
+"note": "2026-11-23 2026-11-22 Kei-Net コードが検索で見つからず、マナビジョンのページも権限確認を通らず開けなかった"
 }
 ],
 "failed": [],
@@ -16471,18 +16596,6 @@
 "藤田医科大学": 1
 },
 "enrich": [
-{
-"name": "日本赤十字豊田看護大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-]
-},
 {
 "name": "星城大学",
 "need": [
@@ -36041,119 +36154,6 @@
 "fails": 1,
 "last_fail": "2026-11-20",
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
-},
-{
-"name": "福井医療大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2371",
-"fails": 1,
-"last_fail": "2026-11-23",
-"note": "2026-11-23 2026-11-22 Kei-Net の沿革・学部・資格ページが権限確認を通らず開けなかった"
-},
-{
-"name": "福井工業大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2372",
-"fails": 1,
-"last_fail": "2026-11-23",
-"note": "2026-11-23 2026-11-22 Kei-Net の沿革・学部・資格ページが権限確認を通らず開けなかった"
-},
-{
-"name": "聖隷クリストファー大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2423",
-"fails": 1,
-"last_fail": "2026-11-23",
-"note": "2026-11-23 2026-11-22 Kei-Net の沿革・学部・資格ページが権限確認を通らず開けなかった"
-},
-{
-"name": "豊橋創造大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2465",
-"fails": 1,
-"last_fail": "2026-11-23",
-"note": "2026-11-23 2026-11-22 Kei-Net の沿革・学部・資格ページが権限確認を通らず開けなかった"
-},
-{
-"name": "身延山大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu"
-],
-"keinet": "2385",
-"fails": 1,
-"last_fail": "2026-11-23",
-"note": "2026-11-23 2026-11-22 Kei-Net の沿革・学部・資格ページが権限確認を通らず開けなかった"
-},
-{
-"name": "至学館大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu"
-],
-"fails": 1,
-"last_fail": "2026-11-23",
-"note": "2026-11-23 2026-11-22 Kei-Net コードが検索で見つからず、マナビジョンのページも権限確認を通らず開けなかった"
-},
-{
-"name": "藤田医科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu"
-],
-"fails": 1,
-"last_fail": "2026-11-23",
-"note": "2026-11-23 2026-11-22 Kei-Net コードが検索で見つからず、マナビジョンのページも権限確認を通らず開けなかった"
 },
 {
 "name": "島根大学",
