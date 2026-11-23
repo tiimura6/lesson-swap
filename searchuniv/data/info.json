@@ -33285,7 +33285,8 @@
 "https://search.keinet.ne.jp/1225/outline/licential",
 "https://search.keinet.ne.jp/1225/outline/admission_employment",
 "https://search.keinet.ne.jp/1225/recommend/exam_rec",
-"https://passnavi.obunsha.co.jp/univ/0450/scholarship/"
+"https://passnavi.obunsha.co.jp/univ/0450/scholarship/",
+"https://www.shinshu-u.ac.jp/ad_portal/selection/uploads/R09senbatsuyoukou.pdf"
 ],
 "kyotsu": {
 "kamoku": "人文学部前期は3〜4教科3〜4科目、経法学部は5〜6教科7科目、教育学部は選択型",
@@ -33887,7 +33888,7 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-15",
+"schedule": "2026-11-23",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "eng": "2026-11-06",
@@ -190749,7 +190750,9 @@ null
 "ratios": "2026-11-09",
 "schedule": "2026-11-17",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"research": "2026-11-23",
+"difficulty": "2026-11-23"
 },
 "departments": [
 {
@@ -190806,7 +190809,8 @@ null
 "https://jyuke-labo.com/daigakujyukentaisaku/koubeshikangodaigaku/kangogakubu/",
 "https://passnavi.obunsha.co.jp/univ/1225/eiken/?facultyID=005",
 "https://search.keinet.ne.jp/1619/recommend/exam_rec",
-"https://manabi.benesse.ne.jp/daigaku/school/2198/nyushi/hoshiki/ippan/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/2198/nyushi/hoshiki/ippan/index.html",
+"https://passnavi.obunsha.co.jp/univ/1225/department/?facultyID=005"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -190953,7 +190957,17 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"research": [
+"看護学部 看護学科：人間関係を築く力を養う科目、生体の知識から健康を広くとらえる科目、在宅看護を学内で体験する総合科目、基礎看護技術演習などの看護学専門科目の4群でカリキュラムを組む。",
+"学園都市の単位互換制度で、流通科学大学・神戸市外国語大学・神戸芸術工科大学・兵庫県立大学・神戸市立工業高等専門学校の科目も履修できる。",
+"3年次から分野別の臨地実習で看護実践力を養い、4年次には学んだ知識を使って研究演習に取り組む。"
+],
+"difficulty": {
+"hensachi": "47.5",
+"kyotei": "57%〜66%",
+"year": "2027年度入試用"
+}
 },
 "愛知大学": {
 "faculties": [
@@ -192217,7 +192231,10 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"money": "2026-11-12"
+"money": "2026-11-12",
+"research": "2026-11-23",
+"students": "2026-11-23",
+"licenses": "2026-11-23"
 },
 "departments": [
 {
@@ -192391,7 +192408,9 @@ null
 "https://passnavi.obunsha.co.jp/univ/3650/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3527/nyushi/gokaku-happyo/index.html",
 "https://search.keinet.ne.jp/2441/topics/12",
-"https://search.keinet.ne.jp/2441/outline/expense"
+"https://search.keinet.ne.jp/2441/outline/expense",
+"https://passnavi.obunsha.co.jp/univ/3650/department/",
+"https://passnavi.obunsha.co.jp/univ/3650/top/"
 ],
 "money": {
 "year": "2026年度",
@@ -192548,7 +192567,43 @@ null
 }
 ],
 "note": "Kei-Net（2026年度入学者用）。その他は諸会費。入学手続時の保険料（2,650〜2,720円）と実験実習費は別途。2027年度は未掲載"
-}
+},
+"research": [
+"文学部 国文学科：古典文学・近現代文学・国語学・中国文学を中心に学び、文章表現力と論理的思考力を鍛える。国語科教員をめざす学生への支援もある。",
+"教育学部 教育学科：小・中・高・特別支援学校の教諭一種免許状を4年間でめざせ、2年次からのコース制で進路を考える。",
+"人間情報学部 人間情報学科：感性工学専攻（ITのモノづくり・情報サービスやデザイン）、データサイエンス専攻（統計・データ分析と心理・生理の測定）、数学・情報教員養成専攻（2026年新設）の3専攻。",
+"心理学部 心理学科：生理・認知、社会、発達、臨床の4領域を幅広く学び、実習室での実践と公認心理師の受験資格に対応したカリキュラムを持つ。",
+"創造表現学部 創造表現学科：創作表現専攻で小説・詩歌・マンガ・シナリオなど言葉を中心とした創作を、メディアプロデュース専攻で映像・写真・デザインによる情報発信を学ぶ。",
+"建築学部 建築学科：建築・まちづくり専攻（構造・材料から都市景観まで、建築実験棟で学ぶ）と住居・インテリアデザイン専攻（住環境の計画・設計や家具制作）の2専攻。",
+"健康医療科学部 医療貢献学科／スポーツ・健康医科学科：言語聴覚学・視覚科学・理学療法学・臨床検査学の4専攻で医療専門職を養成し、スポーツ・健康科学専攻と救急救命学専攻（救急救命士の養成）もある。",
+"食健康科学部 健康栄養学科／食創造科学科：管理栄養士の養成とチーム医療の学び、食品・調理・栄養・食文化から食品開発までの実践的な学びを行う。",
+"福祉貢献学部 福祉貢献学科：社会福祉専攻で社会福祉士・精神保健福祉士を、子ども福祉専攻で保育士・幼稚園教諭を養成する。",
+"交流文化学部 交流文化学科：ランゲージ専攻（英語・中国語・韓国朝鮮語の3専修）で言語運用力と異文化対応力を、観光専攻で観光・ホスピタリティ・まちづくりを学ぶ。",
+"ビジネス学部 ビジネス学科：経営学・商学・会計学・経済学を横断的に学び、ワーク形式の授業で実践力を養う。",
+"グローバル・コミュニケーション学部 グローバル・コミュニケーション学科：専門科目をすべて英語で行い、2年次に全員が留学する。2年次から異文化コミュニケーションと国際日本学の2コースに分かれる。"
+],
+"students": {
+"count": 9081,
+"year": 2026,
+"note": "旺文社パスナビ「大学概要」の学生総数（2026年5月のアンケートに基づく掲載）"
+},
+"licenses": [
+"公認心理師（受験資格）",
+"小学校教諭一種免許状",
+"中学校教諭一種免許状",
+"高等学校教諭一種免許状",
+"特別支援学校教諭一種免許状",
+"言語聴覚士（受験資格）",
+"視能訓練士（受験資格）",
+"理学療法士（受験資格）",
+"臨床検査技師（受験資格）",
+"救急救命士（受験資格）",
+"管理栄養士（受験資格）",
+"社会福祉士（受験資格）",
+"精神保健福祉士（受験資格）",
+"保育士",
+"幼稚園教諭一種免許状"
+]
 },
 "愛知産業大学": {
 "faculties": [
@@ -192565,7 +192620,12 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"money": "2026-11-12"
+"money": "2026-11-12",
+"research": "2026-11-23",
+"students": "2026-11-23",
+"founded": "2026-11-23",
+"licenses": "2026-11-23",
+"kyotsu": "2026-11-23"
 },
 "departments": [
 {
@@ -192675,7 +192735,12 @@ null
 "https://passnavi.obunsha.co.jp/univ/3645/schedule/",
 "https://passnavi.obunsha.co.jp/univ/3645/difficulty/?facultyID=015",
 "https://telemail.jp/shingaku/university/10001546/examination/general",
-"https://manabi.benesse.ne.jp/daigaku/school/3526/gakuhi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3526/gakuhi/index.html",
+"https://passnavi.obunsha.co.jp/univ/3645/department/",
+"https://passnavi.obunsha.co.jp/univ/3645/shinro/",
+"https://passnavi.obunsha.co.jp/univ/3645/top/",
+"https://passnavi.obunsha.co.jp/univ/3645/subject/",
+"https://search.keinet.ne.jp/2440"
 ],
 "money": {
 "year": "2027年度",
@@ -192714,6 +192779,32 @@ null
 }
 ],
 "note": "マナビジョン（2027年度入学者対象）の初年度納付金（約158万円・143万円）。内訳は出典に記載なし"
+},
+"research": [
+"造形学部 スマートデザイン学科：情報デザイン・プロダクトデザイン・ビジュアルデザインの3フィールドで、情報サービス、暮らしに役立つモノづくり、ビジュアル表現を学ぶ。",
+"造形学部 建築学科：建築デザイン・木造デザイン・インテリアデザインの3フィールドで、BIM・CADによる設計や伝統木造技術、室内空間のデザインを学ぶ。",
+"経営学部 総合経営学科：戦略経営、スポーツ＆アスリート、国際と地域の3フィールドで経営・会計・マーケティングなどを学ぶ。",
+"2027年4月に情報学部（知能情報学科・総合情報学科）の新設を申請中で、認可された場合は造形学部スマートデザイン学科と経営学部が募集停止予定。"
+],
+"students": {
+"count": 696,
+"year": 2026,
+"note": "旺文社パスナビ「大学概要」の学生総数（2026年5月のアンケートに基づく掲載）"
+},
+"founded": "1992年 開学（前身は1986年開学の東海産業短期大学）",
+"licenses": [
+"一級建築士"
+],
+"kyotsu": {
+"kamoku": "1教科1科目〜2教科2科目",
+"kyoka": [
+1,
+2
+],
+"rl": [],
+"rl_text": "",
+"note": "造形学部の共テ利用（2教科2科目・200点）と共テプラス（1教科1科目）。英語のR:L配点はパスナビに数値の記載なし",
+"year": "2027年度入試"
 }
 },
 "敬和学園大学": {
@@ -192730,7 +192821,11 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"money": "2026-11-12"
+"money": "2026-11-12",
+"research": "2026-11-23",
+"founded": "2026-11-23",
+"licenses": "2026-11-23",
+"difficulty": "2026-11-23"
 },
 "departments": [
 {
@@ -192911,7 +193006,11 @@ null
 "https://www.keiwa-c.ac.jp/admission/",
 "https://www.keiwa-c.ac.jp/admission/selection/",
 "https://up-j.shigaku.go.jp/department/category06/00000000370301001.html",
-"https://www.keiwa-c.ac.jp/wp2021/wp-content/uploads/2026/06/2027_examination_guidebook.pdf"
+"https://www.keiwa-c.ac.jp/wp2021/wp-content/uploads/2026/06/2027_examination_guidebook.pdf",
+"https://passnavi.obunsha.co.jp/univ/3375/department/",
+"https://passnavi.obunsha.co.jp/univ/3375/shinro/",
+"https://passnavi.obunsha.co.jp/univ/3375/difficulty/",
+"https://search.keinet.ne.jp/2332"
 ],
 "money": {
 "year": "2027年度",
@@ -192929,6 +193028,21 @@ null
 }
 ],
 "note": "大学公式「2027 入試ガイド」（2027年度入学者）"
+},
+"research": [
+"人文学部 国際教養学科（2026年に3学科を1学科6コースに再編）：歴史探究コース（日本・アジア・欧米の歴史から現代を読み解く）とキャリア英語コース（英語を使う仕事に必要な理論を実践的に学ぶ）。",
+"人文学部 国際教養学科：多文化・思想コース（欧米・アジアの文化・文学・思想）と国際社会コース（国際政治・環境経済・国際法から世界の問題を考える）。",
+"人文学部 国際教養学科：地域経営コース（地域課題の解決をビジネスの視点で実践的に学ぶ）と情報メディアコース（ウェブや映像による発信力と情報倫理）。",
+"6コースに加えキリスト教教育・日本語教育・児童英語教育の副専攻ディプロマがあり、サービスラーニングによる実践活動と組み合わせて学ぶ。"
+],
+"founded": "1991年 開学（母体は1968年開校の敬和学園高等学校）",
+"licenses": [
+"社会福祉主事（任用資格）"
+],
+"difficulty": {
+"hensachi": "BF",
+"kyotei": "35%",
+"year": "2027年度入試用"
 }
 },
 "岐阜保健大学": {
@@ -192946,7 +193060,11 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"money": "2026-11-12"
+"money": "2026-11-12",
+"research": "2026-11-23",
+"students": "2026-11-23",
+"licenses": "2026-11-23",
+"difficulty": "2026-11-23"
 },
 "departments": [
 {
@@ -193093,7 +193211,11 @@ null
 "https://telemail.jp/shingaku/university/10111287/examination/general",
 "https://search.keinet.ne.jp/2405/outline/expense",
 "https://manabi.benesse.ne.jp/daigaku/school/3489/gakuhi/",
-"https://search.keinet.ne.jp/general/schedule_sp/2405"
+"https://search.keinet.ne.jp/general/schedule_sp/2405",
+"https://passnavi.obunsha.co.jp/univ/3563/department/",
+"https://passnavi.obunsha.co.jp/univ/3563/top/",
+"https://passnavi.obunsha.co.jp/univ/3563/shinro/",
+"https://passnavi.obunsha.co.jp/univ/3563/difficulty/?facultyID=015"
 ],
 "money": {
 "year": "2026年度",
@@ -193144,6 +193266,28 @@ null
 }
 ],
 "note": "Kei-Net（2026年度入学者用）。2027年4月に日本保健大学へ校名変更予定。マナビジョン（2027年度）の初年度納入金は看護・リハビリテーション1,650,000円（入学金200,000円を含み、諸会費・諸費用を含まない額）"
+},
+"research": [
+"看護学部 看護学科：少人数ゼミや個別指導で国家試験対策・就職支援まで行い、シミュレーションセンターなどを使った実践的な学びを重視する。",
+"リハビリテーション学部（理学療法・作業療法）：地域の医療機関での4年間の実習と、臨床を想定した2つのLab（Physical Science Lab・ADL Science Lab）での演習が特色。",
+"名古屋看護学部（2027年開設予定）：駅から徒歩5分の立地でシミュレーション教育や地域実習を行い、選択制の保健師課程を設ける予定。",
+"2027年4月に「日本保健大学」へ名称変更予定。"
+],
+"students": {
+"count": 467,
+"year": 2026,
+"note": "旺文社パスナビ「大学概要」の学生総数（2026年5月のアンケートに基づく掲載）"
+},
+"licenses": [
+"看護師",
+"理学療法士",
+"作業療法士",
+"保健師"
+],
+"difficulty": {
+"hensachi": "BF〜35.0",
+"kyotei": "39%",
+"year": "2027年度入試用"
 }
 },
 "岐阜医療科学大学": {
@@ -193162,7 +193306,9 @@ null
 "money": "2026-11-12",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"research": "2026-11-23",
+"licenses": "2026-11-23"
 },
 "departments": [
 {
@@ -193342,7 +193488,22 @@ null
 "https://passnavi.obunsha.co.jp/univ/3535/difficulty/",
 "https://search.keinet.ne.jp/2414/general/border_rate",
 "https://telemail.jp/shingaku/university/10001711/examination/general",
-"https://search.keinet.ne.jp/2414/outline/expense"
+"https://search.keinet.ne.jp/2414/outline/expense",
+"https://passnavi.obunsha.co.jp/univ/3535/department/",
+"https://passnavi.obunsha.co.jp/univ/3535/shinro/"
+],
+"research": [
+"保健科学部 放射線技術学科：病気の早期発見や治療を担う診療放射線技師を、医学の知識と人間性を備えた人材として育てる。",
+"保健科学部 臨床検査学科：臨床検査技師を養成し、遺伝子検査・免疫学的検査・治療薬の血中濃度測定などに対応できる技術力を重視する。",
+"看護学部 看護学科：高度な知識・技術と国際感覚、倫理観、科学的思考と問題解決力を備えた看護師を育てる。",
+"薬学部 薬学科：地域の保健・医療・福祉に貢献する薬剤師を育て、他学部・他学科と連携した講義・実習でチーム医療を学ぶ。"
+],
+"licenses": [
+"臨床検査技師",
+"診療放射線技師",
+"看護師",
+"保健師",
+"薬剤師"
 ]
 },
 "岐阜協立大学": {
@@ -193362,7 +193523,10 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"money": "2026-11-12"
+"money": "2026-11-12",
+"research": "2026-11-23",
+"founded": "2026-11-23",
+"licenses": "2026-11-23"
 },
 "departments": [
 {
@@ -193509,7 +193673,10 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3482/nyushi/hoshiki/ippan/",
 "https://passnavi.obunsha.co.jp/univ/3540/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3482/nyushi/gokaku-happyo/",
-"https://search.keinet.ne.jp/2407/outline/expense"
+"https://search.keinet.ne.jp/2407/outline/expense",
+"https://passnavi.obunsha.co.jp/univ/3540/department/",
+"https://passnavi.obunsha.co.jp/univ/3540/shinro/",
+"https://search.keinet.ne.jp/2407"
 ],
 "money": {
 "year": "2026年度",
@@ -193558,7 +193725,20 @@ null
 }
 ],
 "note": "Kei-Net（2026年度入学者用）。その他は諸会費。入学前にノートパソコンの購入が必要。2027年度の学費は見つからず（2026-11-12）"
-}
+},
+"research": [
+"経済学部 経済学科・公共政策学科：1年次に経済学・法学などの基礎を学んで2年次に学科を選び（2026年度入学生から）、経済・ビジネス、公務員養成、社会福祉士養成の3コースがある。",
+"経営学部 経営情報学科：経営学・会計学・情報学の基礎から、デジタルビジネス・マーケティング、ソフトウェア開発や情報システム設計に必要な知識を学ぶ。",
+"経営学部 スポーツ経営学科：経営学とスポーツ科学を組み合わせ、スポーツ・教育・健康産業のマネジメントやスポーツ指導者の育成をめざす。",
+"看護学部 看護学科：IT機器を備えた教育環境で知識・技術・思考力を高め、看護師・保健師を養成する。"
+],
+"founded": "1967年 岐阜経済大学として開学（2019年 岐阜協立大学に改称）",
+"licenses": [
+"社会福祉主事（任用資格）",
+"社会福祉士（受験資格）",
+"看護師",
+"保健師"
+]
 },
 "岐阜女子大学": {
 "faculties": [
@@ -193573,7 +193753,11 @@ null
 "access": "2026-11-07",
 "careers": "2026-11-07",
 "_via": "2026-11-07",
-"money": "2026-11-12"
+"money": "2026-11-12",
+"research": "2026-11-23",
+"students": "2026-11-23",
+"difficulty": "2026-11-23",
+"kyotsu": "2026-11-23"
 },
 "departments": [
 {
@@ -193679,7 +193863,11 @@ null
 "sources": [
 "https://gijodai.jp/entrance/ab-zenki.html",
 "https://gijodai.jp/entrance/day-place.html",
-"https://gijodai.jp/file/nyushi-guide2027.pdf"
+"https://gijodai.jp/file/nyushi-guide2027.pdf",
+"https://passnavi.obunsha.co.jp/univ/3550/department/",
+"https://passnavi.obunsha.co.jp/univ/3550/top/",
+"https://passnavi.obunsha.co.jp/univ/3550/difficulty/",
+"https://passnavi.obunsha.co.jp/univ/3550/subject/"
 ],
 "money": {
 "year": "2027年度",
@@ -193719,6 +193907,35 @@ null
 }
 ],
 "note": "大学公式「入試ガイド2027」。授業料・施設設備費は年額（入学時は前学期分を納入）。その他は杉の実会会費（4年分）。初年度合計は資料に記載がないため空欄"
+},
+"research": [
+"文化創造学部 デジタルアーカイブ専攻：図書館司書・学芸員の資格を取りながらデジタルアーカイブの技能を学び、ドローン操縦やメタバース構築なども身につけられる。",
+"文化創造学部 文化創造学専攻：書道専修（実技中心で書道の全分野、書道・国語などの教員免許）と観光専修（旅行業務取扱管理者やDX技術、公務員・観光産業）の2専修。",
+"文化創造学部 初等教育学専攻：子ども発達専修と学校教育専修があり、幼稚園から高校までの教員免許をめざせる（子ども発達専修は保育士資格も）。",
+"家政学部 生活科学科：建築デザイン専攻（宅地建物取引士・インテリアコーディネーター、建築士をめざす）と生活科学専攻（衣・食・住・保育・消費に強い家庭科教員の養成）。",
+"家政学部 健康栄養学科：栄養士・管理栄養士を養成し、地域食材の活用や食品加工も学ぶ。"
+],
+"students": {
+"count": 653,
+"year": 2026,
+"note": "旺文社パスナビ「大学概要」の学生総数（2026年5月のアンケートに基づく掲載）"
+},
+"difficulty": {
+"hensachi": "BF",
+"kyotei": "38%",
+"year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": "2教科2科目",
+"kyoka": [
+2
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語100点のうちリスニング50点（R:L=1:1）",
+"note": "共テ利用（前・中・後期）は個別試験なし。健康栄養学科のみ理科2科目の選択可",
+"year": "2027年度入試"
 }
 },
 "岐阜聖徳学園大学": {

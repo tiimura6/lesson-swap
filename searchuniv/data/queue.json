@@ -16707,6 +16707,113 @@
 "difficulty"
 ],
 "keinet": "1645"
+},
+{
+"name": "愛知淑徳大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2441"
+},
+{
+"name": "愛知産業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+]
+},
+{
+"name": "敬和学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+]
+},
+{
+"name": "岐阜保健大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "2405"
+},
+{
+"name": "岐阜医療科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2414"
+},
+{
+"name": "岐阜協立大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2407"
+},
+{
+"name": "岐阜女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "神戸市看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"difficulty"
+],
+"keinet": "1619",
+"fails": 1,
+"last_fail": "2026-11-23",
+"note": "2026-11-23 Kei-Net outline/department/1619・border_rate/1619 が取得できず（許可待ちタイムアウト）。パスナビの正しいIDが特定できず"
 }
 ],
 "failed": [],
@@ -16973,99 +17080,6 @@
 "藤田医科大学": 1
 },
 "enrich": [
-{
-"name": "愛知淑徳大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2441"
-},
-{
-"name": "愛知産業大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu"
-]
-},
-{
-"name": "敬和学園大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"difficulty"
-]
-},
-{
-"name": "岐阜保健大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"difficulty"
-],
-"keinet": "2405"
-},
-{
-"name": "岐阜医療科学大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2414"
-},
-{
-"name": "岐阜協立大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2407"
-},
-{
-"name": "岐阜女子大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu",
-"difficulty"
-]
-},
 {
 "name": "岐阜聖徳学園大学",
 "need": [
@@ -36143,20 +36157,6 @@
 "fails": 1,
 "last_fail": "2026-11-20",
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
-},
-{
-"name": "神戸市看護大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"difficulty"
-],
-"keinet": "1619",
-"fails": 1,
-"last_fail": "2026-11-23",
-"note": "2026-11-23 Kei-Net outline/department/1619・border_rate/1619 が取得できず（許可待ちタイムアウト）。パスナビの正しいIDが特定できず"
 },
 {
 "name": "島根大学",
