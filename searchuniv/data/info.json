@@ -32908,7 +32908,7 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"schedule": "2026-11-15",
+"schedule": "2026-11-23",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "eng": "2026-11-06",
@@ -32929,16 +32929,67 @@
 "result": "3/9",
 "proc": "3/15",
 "fee": null,
-"note": "学域・学類により異なる（理工学域・医薬保健学域（医学類以外）・融合学域理系は2/25のみ）。共通テスト1/16・1/17。後期日程は実施しない（2027年度入学者選抜要項）。検定料はパスナビに掲載なし"
+"note": "2/26は一部の学類のみ（理工学域・医薬保健学域（医学類以外）・融合学域理系は2/25のみ）。医学類は第1段階選抜の発表2/10。共通テスト1/16・1/17。後期日程は実施しない。手続期間3/9〜3/15。検定料は入学者選抜要項に記載なし（学生募集要項で確認）（2027年度入学者選抜要項）"
 },
 {
 "kubun": "推薦",
 "name": "KUGS特別-学校推薦型Ⅱ（共テ課す・学校教育学類／保健学類）",
-"apply": "〜11/9（必着）",
-"exam": "12/5〜12/6",
+"apply": "11/2〜11/9",
+"exam": "12/5",
 "result": "2/10",
-"proc": "2/17",
-"note": "医学類（一般枠・石川県枠・富山県枠）は出願〜12/22、1次発表2/5、2次（面接）2/7、発表2/10、手続2/17"
+"proc": "2/10〜2/17",
+"fee": null,
+"note": "志願者が募集人員を大幅に上回る場合は12/6にも実施することがある。医学類（一般枠・石川県枠・富山県枠）は出願12/16〜12/22、1次選考2/5、最終選考2/7、発表2/10、手続2/10〜2/17"
+},
+{
+"kubun": "推薦",
+"name": "KUGS特別-学校推薦型Ⅰ（経済学類）",
+"apply": "11/2〜11/9",
+"exam": "12/5",
+"result": "12/23",
+"proc": null,
+"fee": null,
+"note": "志願者が募集人員を大幅に上回る場合は12/6にも実施することがある。入学手続の日程は要項の該当箇所で読み取れず"
+},
+{
+"kubun": "総合型",
+"name": "KUGS特別-総合型Ⅰ（経済学類・国際学類）",
+"apply": "11/2〜11/9",
+"exam": "12/5",
+"result": "12/23",
+"proc": null,
+"fee": null,
+"note": "最終選考12/5。志願者が募集人員を大幅に上回る場合は12/6にも実施することがある。入学手続の日程は要項の該当箇所で読み取れず"
+},
+{
+"kubun": "総合型",
+"name": "KUGS特別-総合型Ⅱ（医学類以外）",
+"apply": "11/2〜11/9",
+"exam": "11/30・12/5",
+"result": "2/10",
+"proc": "2/10〜2/17",
+"fee": null,
+"note": "1次選考11/30、選抜期日12/5（志願者が募集人員を大幅に上回る場合は12/6にも実施することがある）。デジタル人材選抜Ⅱ・防災・復興人材選抜Ⅱも同じ日程"
+},
+{
+"kubun": "総合型",
+"name": "KUGS特別-総合型Ⅱ（医学類）",
+"apply": "12/16〜12/22",
+"exam": "2/5・2/7",
+"result": "2/10",
+"proc": "2/10〜2/17",
+"fee": null,
+"note": "1次選考2/5、最終選考2/7"
+},
+{
+"kubun": "総合型",
+"name": "超然特別入試（A-lympiad選抜Ⅰ・超然文学選抜）",
+"apply": "11/2〜11/9",
+"exam": "12/5",
+"result": "12/23",
+"proc": null,
+"fee": null,
+"note": "志願者が募集人員を大幅に上回る場合は12/6にも実施することがある。A-lympiad選抜Ⅱ（医学類）は出願12/16〜12/22、試験2/7、発表2/10。A-lympiad選抜Ⅱ（保健学類）は出願11/2〜11/9、試験12/5"
 }
 ]
 },
@@ -189567,7 +189618,9 @@ null
 "ratios": "2026-11-09",
 "schedule": "2026-11-17",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"research": "2026-11-23",
+"difficulty": "2026-11-23"
 },
 "departments": [
 {
@@ -189641,7 +189694,8 @@ null
 "https://onikanri.singeki.com/wakayamakenritsuika_i_charts/",
 "https://ishin-kai.info/column/information/646/",
 "https://juku-times.com/juku/wakayamaika/gakubu-2/bairitsu/",
-"https://www.wakayama-med.ac.jp/nyushi/hokenkango/files/r9_hokenkango_senbatsuyoukou.pdf"
+"https://www.wakayama-med.ac.jp/nyushi/hokenkango/files/r9_hokenkango_senbatsuyoukou.pdf",
+"https://passnavi.obunsha.co.jp/univ/1260/difficulty/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -189873,7 +189927,17 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"research": [
+"医学部 医学科：1年次の早期臨床体験・地域福祉施設実習から始め、2・3年次に基礎医学、4〜6年次に臨床医学と診療参加型の臨床実習を積み、地域医療を支える「ケアマインド」を養う。",
+"薬学部 薬学科：医学部・保健看護学部・附属病院と連携した多職種教育でチーム医療を担う薬剤師を育て、英語力と科学的思考力を伸ばして国際的に活躍する薬剤師科学者もめざす。",
+"保健看護学部 保健看護学科：「教養と人間学」「保健看護学の基盤」「保健看護学の専門」の3領域で学び、病院のほか産院・保育所・学校・企業・介護施設など暮らし全体の現場で実習し、2年次修了時に看護師充実コースか保健師コースを選ぶ。"
+],
+"difficulty": {
+"hensachi": "55.0〜62.5",
+"kyotei": "59%〜81%",
+"year": "2027年度入試用"
+}
 },
 "奈良県立医科大学": {
 "faculties": [
@@ -190378,7 +190442,8 @@ null
 "eng": "2026-11-09",
 "schedule": "2026-11-17",
 "money": "2026-11-09",
-"_via": "2026-11-17"
+"_via": "2026-11-17",
+"difficulty": "2026-11-23"
 },
 "departments": [
 {
@@ -190447,7 +190512,8 @@ null
 "https://www.kobe-cufs.ac.jp/news/2026/24045.html",
 "https://www.kobe-cufs.ac.jp/admissions/2027gakko_youkou.pdf",
 "https://passnavi.obunsha.co.jp/univ/1220/schedule/",
-"https://www.mext.go.jp/a_menu/koutou/kouritsu/detail/20260309-ope_dev02-1.pdf"
+"https://www.mext.go.jp/a_menu/koutou/kouritsu/detail/20260309-ope_dev02-1.pdf",
+"https://search.keinet.ne.jp/1620/general/border_rate"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -190658,7 +190724,12 @@ null
 }
 ]
 },
-"_via": "external-ai-verified"
+"_via": "external-ai-verified",
+"difficulty": {
+"hensachi": "55.0〜60.0",
+"kyotei": "70%〜83%",
+"year": "2027年度入試用"
+}
 },
 "神戸市看護大学": {
 "faculties": [
@@ -190905,7 +190976,11 @@ null
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"research": "2026-11-23",
+"students": "2026-11-23",
+"founded": "2026-11-23",
+"licenses": "2026-11-23"
 },
 "departments": [
 {
@@ -191072,7 +191147,47 @@ null
 "https://adm.aichi-u.ac.jp/assets/media/docs/admission/about/calendar_2.pdf",
 "https://search.keinet.ne.jp/2436/outline/expense",
 "https://search.keinet.ne.jp/2436/general/border_rate",
-"https://manabi.benesse.ne.jp/daigaku/school/3521/nyushi/hoshiki/ippan/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3521/nyushi/hoshiki/ippan/index.html",
+"https://search.keinet.ne.jp/2436",
+"https://search.keinet.ne.jp/outline/department/2436",
+"https://search.keinet.ne.jp/2436/outline/licential",
+"https://search.keinet.ne.jp/2436/topics/17"
+],
+"research": [
+"法学部 法学科：司法・企業・行政・法科大学院連携の4コースから進路に合わせて選び、模擬裁判など実践的に法を学ぶ。法科大学院連携コースでは2年次から法科大学院の授業を先取りできる。",
+"経済学部 経済学科：産業経済・ファイナンス／公共経済・経済政策／地域経済・グローバルの3コースで、演習・実習を通して問題解決力を養う。",
+"経営学部 経営学科：ビジネス・マネジメント、流通・マーケティング、国際ビジネス、データサイエンスの4コース。3・4年次の専門演習を重視し他大学生とも交流する。",
+"経営学部 会計ファイナンス学科：アカウンティング・ファイナンス・ビジネスデザインの3コースで、税理士・公認会計士などの専門職や財務に強い人材を育てる。",
+"現代中国学部 現代中国学科：中国・アジアの経済・政治・文化・言語を学び、2年次春に全員が天津・台北・マレーシアでの4カ月の現地プログラムに参加する。中国・台湾の大学とのダブルディグリーもある。",
+"国際コミュニケーション学部 英語学科／国際教養学科：英語学科は Language Studies・Business・Education の3コースと英語圏への認定留学、国際教養学科はアメリカ・日本アジア・ヨーロッパ研究の3コースで異文化理解を深める。",
+"文学部 人文社会学科／歴史地理学科／日本語日本文学科／心理学科：現代文化・社会学・英語圏文化のコース、フィールドワーク重視の日本史・世界史・地理学、日本語・日本文学、実験重視の心理学（公認心理師受験資格に対応）を学ぶ。",
+"地域政策学部 地域政策学科：公共政策・経済産業・まちづくり・文化・健康・スポーツ・食農環境の5コースで、学生地域貢献事業などフィールド重視の学びに加え、データサイエンスやGISも学ぶ。",
+"社会情報学部 社会情報学科（2027年4月開設予定）：経済学・経営学を土台にデータや情報科学で社会課題を解く人材を育て、2年次から経済情報・経営情報・情報・AIの3コースに分かれ、企業・自治体のデータを使うPBL演習を行う。"
+],
+"students": {
+"count": 9439,
+"year": 2025,
+"note": "河合塾Kei-Net 学部・学科ページの学部別学生数（2025年度現在）の合計（7学部、新設の社会情報学部を除く）"
+},
+"founded": "1946年 旧制大学として開学（1949年 新制大学）",
+"licenses": [
+"中学校教諭（社会）一種",
+"中学校教諭（英語）一種",
+"中学校教諭（国語）一種",
+"中学校教諭（中国語）一種",
+"高等学校教諭（公民）一種",
+"高等学校教諭（英語）一種",
+"高等学校教諭（地理歴史）一種",
+"高等学校教諭（国語）一種",
+"高等学校教諭（中国語）一種",
+"高等学校教諭（商業）一種",
+"高等学校教諭（情報）一種",
+"学校図書館司書教諭一種（資格）",
+"司書（資格）",
+"学芸員（資格）",
+"社会調査士（資格）",
+"公認心理師（受験資格）",
+"認定心理士（資格）"
 ]
 },
 "愛知学泉大学": {
@@ -191088,7 +191203,10 @@ null
 "money": "2026-11-07",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"students": "2026-11-23",
+"founded": "2026-11-23",
+"licenses": "2026-11-23"
 },
 "departments": [
 {
@@ -191212,7 +191330,31 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3524/nyushi/hoshiki/ippan/",
 "https://manabi.benesse.ne.jp/daigaku/school/3524/gakuhi/",
 "https://search.keinet.ne.jp/2442/general/border_rate",
-"https://manabi.benesse.ne.jp/daigaku/school/3524/nyushi/gokaku-happyo/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3524/nyushi/gokaku-happyo/index.html",
+"https://search.keinet.ne.jp/2442",
+"https://search.keinet.ne.jp/2442/outline/department",
+"https://search.keinet.ne.jp/2442/outline/licential",
+"https://search.keinet.ne.jp/2442/general/exam_subject"
+],
+"students": {
+"count": 574,
+"year": 2025,
+"note": "河合塾Kei-Net 学部・学科ページ（家政学部 2025年度現在。男子103人・女子471人）"
+},
+"founded": "1966年 開学（愛知女子大学として開設、1982年 愛知学泉大学に改称）",
+"licenses": [
+"中学校教諭（家庭）一種",
+"高等学校教諭（家庭）一種",
+"社会福祉主事（資格）",
+"フードスペシャリスト（資格）",
+"栄養教諭一種",
+"健康運動実践指導者(受験資格）",
+"食品衛生監視員（資格）",
+"管理栄養士（受験資格）",
+"栄養士(資格）",
+"保育士（資格）",
+"幼稚園教諭一種",
+"小学校教諭一種"
 ]
 },
 "愛知学院大学": {
@@ -191238,7 +191380,10 @@ null
 "money": "2026-11-12",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"students": "2026-11-23",
+"founded": "2026-11-23",
+"licenses": "2026-11-23"
 },
 "departments": [
 {
@@ -191516,7 +191661,55 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3523/gakuhi/",
 "https://passnavi.obunsha.co.jp/univ/3620/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3523/nyushi/gokaku-happyo/index.html",
-"https://search.keinet.ne.jp/2437/outline/expense"
+"https://search.keinet.ne.jp/2437/outline/expense",
+"https://search.keinet.ne.jp/2437",
+"https://search.keinet.ne.jp/2437/outline/licential",
+"https://search.keinet.ne.jp/outline/department/2437",
+"https://search.keinet.ne.jp/2437/outline/department"
+],
+"students": {
+"count": 11310,
+"year": 2025,
+"note": "河合塾Kei-Net 学部別学生数（2025年度現在）10学部の合計"
+},
+"founded": "1953年 開学",
+"licenses": [
+"中学校教諭（社会）一種",
+"高等学校教諭（地理歴史）一種",
+"高等学校教諭（公民）一種",
+"学校図書館司書教諭一種（資格）",
+"司書（資格）",
+"社会教育主事（資格）",
+"学芸員（資格）",
+"社会福祉主事（資格）",
+"中学校教諭（国語）一種",
+"高等学校教諭（国語）一種",
+"高等学校教諭（書道）一種",
+"中学校教諭（英語）一種",
+"高等学校教諭（英語）一種",
+"中学校教諭（宗教）一種",
+"高等学校教諭（宗教）一種",
+"特別支援学校教諭一種",
+"社会調査士（資格）",
+"児童福祉司（資格）",
+"公認心理師（受験資格）",
+"認定心理士（資格）",
+"高等学校教諭（情報）一種",
+"高等学校教諭（商業）一種",
+"歯科医師(受験資格）",
+"薬剤師(受験資格）",
+"食品衛生監視員（資格）",
+"保育士（資格）",
+"中学校教諭（保健体育）一種",
+"中学校教諭（保健のみ）一種",
+"高等学校教諭（保健体育）一種",
+"高等学校教諭（保健のみ）一種",
+"養護教諭一種",
+"言語聴覚士(受験資格）",
+"健康運動実践指導者(受験資格）",
+"栄養教諭一種",
+"管理栄養士（受験資格）",
+"栄養士(資格）"
 ]
 },
 "愛知工業大学": {
@@ -191535,7 +191728,11 @@ null
 "money": "2026-11-12",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"research": "2026-11-23",
+"students": "2026-11-23",
+"founded": "2026-11-23",
+"licenses": "2026-11-23"
 },
 "departments": [
 {
@@ -191725,7 +191922,32 @@ null
 "https://search.keinet.ne.jp/2439/general/border_rate",
 "https://passnavi.obunsha.co.jp/univ/3640/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3525/nyushi/gokaku-happyo/",
-"https://search.keinet.ne.jp/2439/outline/expense"
+"https://search.keinet.ne.jp/2439/outline/expense",
+"https://search.keinet.ne.jp/2439",
+"https://search.keinet.ne.jp/2439/outline/licential",
+"https://search.keinet.ne.jp/2439/outline/department",
+"https://manabi.benesse.ne.jp/daigaku/school/3525/index.html"
+],
+"research": [
+"工学部 応用化学科：DNA組換え室や細胞培養室を備えたバイオ環境化学実験棟で、バイオ化学・環境化学の研究に取り組む。",
+"情報科学部：14号館を拠点に、最先端のICT教育と情報科学の学びで情報化社会を支える人材を育てる。"
+],
+"students": {
+"count": 6029,
+"year": 2025,
+"note": "ベネッセ マナビジョン（2025年5月1日現在）。Kei-Net 学部別学生数（2025年度）の合計とも一致"
+},
+"founded": "1959年 開学",
+"licenses": [
+"高等学校教諭（情報）一種",
+"高等学校教諭（商業）一種",
+"高等学校教諭（工業）一種",
+"高等学校教諭（理科）一種",
+"測量士（資格）",
+"測量士補(資格）",
+"技術士補（試験一部免除）",
+"一級建築士（受験資格）",
+"二級建築士（受験資格）"
 ]
 },
 "愛知東邦大学": {
@@ -191744,7 +191966,11 @@ null
 "money": "2026-11-12",
 "access": "2026-11-07",
 "careers": "2026-11-07",
-"_via": "2026-11-07"
+"_via": "2026-11-07",
+"research": "2026-11-23",
+"students": "2026-11-23",
+"founded": "2026-11-23",
+"licenses": "2026-11-23"
 },
 "departments": [
 {
@@ -191939,7 +192165,32 @@ null
 "https://passnavi.obunsha.co.jp/univ/3717/difficulty/",
 "https://search.keinet.ne.jp/2472/outline/expense",
 "https://manabi.benesse.ne.jp/daigaku/school/3557/nyushi/gokaku-happyo/index.html",
-"https://manabi.benesse.ne.jp/daigaku/school/3557/gakuhi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3557/gakuhi/index.html",
+"https://search.keinet.ne.jp/2472",
+"https://search.keinet.ne.jp/2472/outline/licential",
+"https://search.keinet.ne.jp/2472/outline/department",
+"https://manabi.benesse.ne.jp/daigaku/school/3557/index.html"
+],
+"research": [
+"経営学部 ビジネス学科：地域や企業と組むプロジェクト型授業で、社会の課題をビジネスで解決する構想力を養う（2025年4月新設）。",
+"経営学部 コミュニケーション・デザイン学科：ブランド・マーケティング・広報の分野で消費者行動を学び、制作を通して人を動かす発信力を身につける（2025年4月新設）。",
+"人間健康学部 人間健康学科：2026年度からコース制となり、健康情報学（医療保健とデータサイエンス）・心理学（公認心理師カリキュラム履修可）・スポーツ科学（トレーナー・教員・指導者養成）を学べる。",
+"教育学部 子ども発達学科：小学校教諭をめざす教員養成コースと、幼稚園教諭・保育士をめざす保育・幼児教育コースがあり、学校や保育の現場を観察するフィールド・ラーニングを行う。"
+],
+"students": {
+"count": 1343,
+"year": 2025,
+"note": "河合塾Kei-Net 学部別学生数（2025年度現在）3学部の合計"
+},
+"founded": "2001年 開学",
+"licenses": [
+"保育士（資格）",
+"幼稚園教諭一種",
+"小学校教諭一種",
+"中学校教諭（保健体育）一種",
+"社会福祉主事（資格）",
+"高等学校教諭（保健体育）一種",
+"公認心理師（受験資格）"
 ]
 },
 "愛知淑徳大学": {
