@@ -16330,6 +16330,110 @@
 "fails": 1,
 "last_fail": "2026-11-23",
 "note": "2026-11-23 2026-11-22 Kei-Net コードが検索で見つからず、マナビジョンのページも権限確認を通らず開けなかった"
+},
+{
+"name": "星城大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+]
+},
+{
+"name": "朝日大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2408"
+},
+{
+"name": "東海学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2464"
+},
+{
+"name": "東海学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2411"
+},
+{
+"name": "松本大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2393"
+},
+{
+"name": "松本歯科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2396"
+},
+{
+"name": "松本看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "桜花学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses"
+],
+"keinet": "2467"
 }
 ],
 "failed": [],
@@ -16596,110 +16700,6 @@
 "藤田医科大学": 1
 },
 "enrich": [
-{
-"name": "星城大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-]
-},
-{
-"name": "朝日大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2408"
-},
-{
-"name": "東海学園大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2464"
-},
-{
-"name": "東海学院大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2411"
-},
-{
-"name": "松本大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2393"
-},
-{
-"name": "松本歯科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2396"
-},
-{
-"name": "松本看護大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu",
-"difficulty"
-]
-},
-{
-"name": "桜花学園大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses"
-],
-"keinet": "2467"
-},
 {
 "name": "椙山女学園大学",
 "need": [
