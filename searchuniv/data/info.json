@@ -31379,7 +31379,9 @@
 "https://manabi.benesse.ne.jp/daigaku/school/1205/nyushi/index.html",
 "https://search.keinet.ne.jp/1180/general/exam_result",
 "https://passnavi.obunsha.co.jp/univ/0350/opencampus/",
-"https://manabi.benesse.ne.jp/daigaku/school/1205/opencampus/"
+"https://manabi.benesse.ne.jp/daigaku/school/1205/opencampus/",
+"https://www.niigata-u.ac.jp/admissions/faculty/selection/",
+"https://www.niigata-u.ac.jp/wp-content/uploads/2026/07/suisenkamoku.pdf"
 ],
 "kyotsu": {
 "kamoku": "6教科8科目（多くの学部）、教育学部の一部は6教科7科目・6教科6科目・選択型",
@@ -31407,7 +31409,8 @@
 1,
 1
 ],
-"note": "工学部前期は共通テスト重視型と個別学力検査重視型に分かれる。理学部は理数重点・理科重点・野外科学志向の3方式。医学科は二次で面接あり"
+"note": "工学部前期は共通テスト重視型（900:500）と個別学力検査重視型（350:500）に分かれる。理学部は理数重点・理科重点・野外科学志向の3方式。経済科学は共テⅠ型・Ⅱ型。法は二次 英語300＋小論文150。医学科は二次で面接あり。歯学科 900:1100（二次 英・数・理＋面接）、創生 850:400（二次 英・数・国から2科目）",
+"url": "https://www.niigata-u.ac.jp/wp-content/uploads/2026/07/senbatsuyoukou.pdf"
 },
 {
 "kubun": "一般",
@@ -31419,7 +31422,8 @@
 4.25,
 1
 ],
-"note": "人文・法・経済科学・理・工・農・保健などで実施。医学科・創生学部は実施なし"
+"note": "人文・法・経済科学・理・工・農・医（保健学科）・歯（歯学科）で実施。教育・医学科・歯学部口腔生命福祉学科・創生学部は実施なし。工・農・歯は二次が面接",
+"url": "https://www.niigata-u.ac.jp/wp-content/uploads/2026/07/senbatsuyoukou.pdf"
 },
 {
 "kubun": "推薦",
@@ -31427,7 +31431,8 @@
 "content": "書類・面接に、小論文（保健）・総合問題（経済科学）・教科試験（理の数学・物理、工女子枠）",
 "req": "専願。評定平均3.5（法）、3.8（保健）、4.3（経済科学）など。工は女子枠",
 "kyotsu": "課さない",
-"note": "法・経済科学・理（数学・物理）・工（女子枠）・保健"
+"note": "法・経済科学・理（数学・物理学プログラム）・医学部保健学科・工（専門枠・女子枠）・農",
+"url": "https://www.niigata-u.ac.jp/wp-content/uploads/2026/07/senbatsuyoukou.pdf"
 },
 {
 "kubun": "推薦",
@@ -31435,7 +31440,8 @@
 "content": "書類・面接（学部により小論文）＋共通テスト",
 "req": "専願、多くは現役。医学科・歯学科は評定平均4.3以上",
 "kyotsu": "課す（3教科3科目〜6教科8科目）",
-"note": "人文・教育・理（化学・生物・地質・自然環境）・工・農・医学科（地域枠あり）・歯"
+"note": "人文・教育・理（化学・生物学・地質科学・自然環境科学プログラム）・工・農・医学科（一般枠20・地域枠42）・歯",
+"url": "https://www.niigata-u.ac.jp/wp-content/uploads/2026/07/senbatsuyoukou.pdf"
 },
 {
 "kubun": "総合型",
@@ -31443,19 +31449,21 @@
 "content": "書類・面接・総合問題（経済科学）、小論文・プレゼン・教科試験（工）",
 "req": "専願、活動歴。工は英検準2級以上等または学校長が英語力を認めること",
 "kyotsu": "課さない",
-"note": "経済科学・工"
+"note": "経済科学（2027年度から面接はペーパー・インタビュー、筆記は総合問題、2段階選抜廃止、募集20人）・工",
+"url": "https://www.niigata-u.ac.jp/wp-content/uploads/2026/07/senbatsuyoukou.pdf"
 },
 {
 "kubun": "総合型",
 "name": "総合型選抜（共テあり）",
 "content": "書類・面接・プレゼンまたは講義＋共通テスト",
-"req": "専願、活動歴（教育は大学ワークショップ2回以上参加、理は研究活動・発表）",
+"req": "専願、活動歴（教育は高校在学中に指定のワークショップ2回以上参加、理は研究活動・発表）",
 "kyotsu": "課す（3教科4科目〜6教科8科目）",
-"note": "教育（学校教育学）・理・創生"
+"note": "教育（教育心理学専修・特別支援教育専修の教育課題探究コース、6人。共テ750＋プレゼン350＋面接200＋書類200）・理・創生",
+"url": "https://www.niigata-u.ac.jp/wp-content/uploads/2026/07/senbatsuyoukou.pdf"
 }
 ],
 "summary": "一般は前期・後期とも幅広く実施し後期は共テ重視。推薦は共テなしⅠ型と共テありⅡ型、総合型も一部学部で実施。",
-"note": "工・農・歯・創生の一般選抜の科目・配点はKei-Net・選抜要項とも取得範囲外で未確認（工学部前期は共テ重視型237人・個別重視型63人）"
+"note": "一般選抜の受験科目の詳細は大学公式の一般選抜受験科目等（PDF）で確認"
 },
 "departments": [
 {
@@ -31823,7 +31831,8 @@
 "licenses": "2026-11-14",
 "careers": "2026-11-14",
 "scholar": "2026-11-19",
-"oc": "2026-11-23"
+"oc": "2026-11-23",
+"methods": "2026-11-23"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -213959,7 +213968,9 @@ null
 "eng": "2026-11-09",
 "schedule": "2026-11-17",
 "money": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"research": "2026-11-23",
+"difficulty": "2026-11-23"
 },
 "departments": [
 {
@@ -214274,7 +214285,20 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"research": [
+"人間社会学部：地域政策・福祉・生涯教育など地域社会の分野で活躍する力を養い、3年次から全学科の学生が選べる「総合人間社会コース」がある",
+"公共社会学科：地域社会コース・総合人間社会コース",
+"社会福祉学科：社会福祉コース・総合人間社会コース",
+"人間形成学科：こども・心理・総合人間社会の3コース",
+"看護学部：アクティブ・ラーニングやシミュレーション教育など学生参加型の授業で看護専門職を育てる（看護学コースに保健師サブコース・養護教諭サブコース）"
+],
+"difficulty": {
+"hensachi": "40.0〜47.5",
+"kyotei": "50%〜70%",
+"year": "2027年度入試用",
+"note": "偏差値は学部学科ランク（方式別ランクは記載なし）"
+}
 },
 "長崎県立大学": {
 "faculties": [
@@ -214300,7 +214324,9 @@ null
 "ratios": "2026-11-09",
 "schedule": "2026-11-17",
 "money": "2026-11-17",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"research": "2026-11-23",
+"difficulty": "2026-11-23"
 },
 "departments": [
 {
@@ -214757,7 +214783,19 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"research": [
+"国際社会学部：国際社会とメディア（メディア文化社会研究・グローバル社会研究）を学び、アメリカ・カナダ・中国などで語学研修",
+"地域創造学部：公共政策学科は行政活動、実践経済学科は地域課題を経済の視点から学ぶ",
+"経営学部：経営学科は実体験を通して地域ビジネスを、国際経営学科は海外企業でのビジネス研修で国際的なスキルを学ぶ",
+"看護栄養学部：看護学科は長崎県の離島部での実習も行い、栄養健康学科は栄養科学・食品科学で「食と健康」を学ぶ",
+"情報システム学部：情報システム学科はプログラミング・CGアニメーション・Webデザイン、情報セキュリティ学科はサイバー攻撃から情報を守るシステム構築や情報管理を学ぶ"
+],
+"difficulty": {
+"hensachi": "40.0〜47.5",
+"kyotei": "46%〜63%",
+"year": "2027年度入試用"
+}
 },
 "札幌医科大学": {
 "difficulty": {
@@ -214781,7 +214819,8 @@ null
 "methods": "2026-11-09",
 "schedule": "2026-11-17",
 "money": "2026-11-17",
-"_via": "2026-11-17"
+"_via": "2026-11-17",
+"research": "2026-11-23"
 },
 "faculties": [
 "医学部",
@@ -215126,7 +215165,14 @@ null
 }
 ]
 },
-"_via": "external-ai-verified"
+"_via": "external-ai-verified",
+"research": [
+"医学科：早期の解剖学開講、MD-PhDプログラム、地域包括型診療参加臨床実習などが特徴。附属研究所・高度救命救急センター・附属病院を持つ",
+"保健医療学部：看護・理学療法・作業療法の3学科で少人数の実践的教育を行い、3学科合同カリキュラムや医学部との地域医療合同セミナーを実施",
+"看護学科：看護学概論・母性看護学概論・認知症ケアなど",
+"理学療法学科：身体適応学・義肢装具学・物理療法学など",
+"作業療法学科：日常生活適応学・作業療法治療学総論など"
+]
 },
 "東北公益文科大学": {
 "faculties": [
@@ -215150,7 +215196,8 @@ null
 "ratios": "2026-11-09",
 "eng": "2026-11-09",
 "schedule": "2026-11-17",
-"_via": "2026-11-17"
+"_via": "2026-11-17",
+"difficulty": "2026-11-23"
 },
 "departments": [
 {
@@ -215522,7 +215569,13 @@ null
 }
 ]
 },
-"_via": "external-ai-verified"
+"_via": "external-ai-verified",
+"difficulty": {
+"hensachi": "37.5〜45.0",
+"kyotei": "58%〜59%",
+"year": "2027年度入試用",
+"note": "偏差値は学部学科ランク37.5、方式別ランクは国際コミュニケーション前期のみ45.0"
+}
 },
 "札幌市立大学": {
 "faculties": [
@@ -215544,7 +215597,9 @@ null
 "methods": "2026-11-17",
 "ratios": "2026-11-09",
 "schedule": "2026-11-17",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"research": "2026-11-23",
+"difficulty": "2026-11-23"
 },
 "departments": [
 {
@@ -215792,7 +215847,17 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"research": [
+"看護学部：演習・実習を通して判断力・問題解決力・倫理判断力を身につけ、援助的人間関係論・看護倫理学・症状マネジメント論などを学ぶ",
+"デザイン学部：コースの枠を超えた横断的・実践的な学びで発想力・企画力・プレゼンテーション力を育てる（都市・社会デザインコース、情報デザインコース）"
+],
+"difficulty": {
+"hensachi": "45.0〜50.0",
+"kyotei": "52%〜64%",
+"year": "2027年度入試用",
+"note": "偏差値は学部学科ランク（方式別ランクは記載なし）"
+}
 },
 "秋田公立美術大学": {
 "faculties": [
@@ -215814,7 +215879,8 @@ null
 "methods": "2026-11-17",
 "ratios": "2026-11-09",
 "schedule": "2026-11-17",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"difficulty": "2026-11-23"
 },
 "departments": [
 {
@@ -216030,7 +216096,13 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"difficulty": {
+"hensachi": "40.0",
+"kyotei": "55%〜58%",
+"year": "2027年度入試用",
+"note": "偏差値は学部学科ランク（実技は含まない）"
+}
 },
 "東北農林専門職大学": {
 "faculties": [
@@ -216046,7 +216118,8 @@ null
 "kyotsu": "2026-11-08",
 "research": "2026-11-08",
 "money": "2026-11-08",
-"schedule": "2026-11-11"
+"schedule": "2026-11-11",
+"difficulty": "2026-11-23"
 },
 "departments": [
 {
@@ -216112,7 +216185,8 @@ null
 "https://search.keinet.ne.jp/1529/general/exam_subject",
 "https://www.mext.go.jp/a_menu/koutou/senmon/1414446.htm",
 "https://passnavi.obunsha.co.jp/univ/9103/schedule/",
-"https://passnavi.obunsha.co.jp/univ/9103/subject/"
+"https://passnavi.obunsha.co.jp/univ/9103/subject/",
+"https://search.keinet.ne.jp/1529/general/border_rate"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -216128,6 +216202,12 @@ null
 }
 ],
 "note": "旺文社パスナビ（8月末までの判明分）。共通テスト（1/16・1/17）3教科3科目＋個別。検定料は出典に記載なし"
+},
+"difficulty": {
+"hensachi": "37.5",
+"kyotei": "40%",
+"year": "2027年度入試用",
+"note": "偏差値は学部学科ランク（方式別ランクは記載なし）"
 }
 },
 "長野県立大学": {
@@ -216148,7 +216228,8 @@ null
 "careers": "2026-11-08",
 "methods": "2026-11-08",
 "schedule": "2026-11-18",
-"money": "2026-11-08"
+"money": "2026-11-08",
+"difficulty": "2026-11-23"
 },
 "departments": [
 {
@@ -216382,8 +216463,15 @@ null
 "https://search.keinet.ne.jp/1566/outline/admission_employment",
 "https://search.keinet.ne.jp/1566/general/exam_subject",
 "https://www.u-nagano.ac.jp/media/2027_yoko_0618.pdf",
-"https://www.u-nagano.ac.jp/about/campus/access/"
-]
+"https://www.u-nagano.ac.jp/about/campus/access/",
+"https://search.keinet.ne.jp/1566/general/border_rate"
+],
+"difficulty": {
+"hensachi": "42.5〜50.0",
+"kyotei": "58%〜75%",
+"year": "2027年度入試用",
+"note": "方式別ランクの偏差値は42.5〜45.0（グローバルマネジメント前期）、学部学科ランクは45.0〜50.0"
+}
 },
 "つくば国際大学": {
 "faculties": [
