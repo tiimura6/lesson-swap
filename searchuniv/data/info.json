@@ -38028,7 +38028,9 @@
 "https://search.keinet.ne.jp/1440/outline/licential",
 "https://search.keinet.ne.jp/1440/outline/admission_employment",
 "https://passnavi.obunsha.co.jp/univ/0880/schedule/?facultyID=020",
-"https://passnavi.obunsha.co.jp/univ/0880/opencampus/"
+"https://passnavi.obunsha.co.jp/univ/0880/opencampus/",
+"https://manabi.benesse.ne.jp/daigaku/school/1460/nyushi/jouhouyuugou/",
+"https://manabi.benesse.ne.jp/daigaku/school/1460/nyushi/hoshiki/ippan/"
 ],
 "kyotsu": {
 "kamoku": "6教科8科目（前期・後期とも）〜6教科7科目（教育）",
@@ -38071,6 +38073,14 @@
 "note": "文・法・理・工のみ"
 },
 {
+"kubun": "一般",
+"name": "前期日程（情報融合学環・文系型／理系型）",
+"kyotsu": "国語・数学Ⅰ・A・数学Ⅱ・B・C・英語（R80・L20）・情報Ⅰ。文系型は地歴・公民と理科から3科目、理系型は地歴・公民1科目＋理科2科目（500点）",
+"niji": "数学・英語・調査書（文系型 数学200・英語350・調査書10／理系型 数学300（数Ⅲを含む）・英語250・調査書10）",
+"haiten": "500:560",
+"note": "募集人員 文系型・理系型とも45人と掲載。後期日程の掲載なし（2027年度入試、ベネッセ マナビジョン）"
+},
+{
 "kubun": "推薦",
 "name": "学校推薦型Ⅰ（共テなし）",
 "content": "面接・小論文・書類（法は英語資格を加点）",
@@ -38104,7 +38114,7 @@
 }
 ],
 "summary": "一般は前期中心で共テ:二次はほぼ1:1。推薦は共テありⅡ型が主流で工・医などの枠が大きい。総合型は共創学環のみ。",
-"note": "情報融合学環・共創学環の一般選抜はKei-Netページが途中で切れて一部未確認"
+"note": "情報融合学環の一般選抜は前期日程のみ（文系型・理系型、2027年度入試、ベネッセ マナビジョンで確認）。共創学環の一般選抜は2026年度入試予告（大学公式）では前期日程のみで、2027年度の科目・配点は未確認。文・法・理・工・教育・医学科の前期配点と後期日程を文・法・理・工で実施することは2027年度の出典で確認（2026-11-24）。薬学部・医学部保健学科の個別試験の内訳は未確認。"
 },
 "departments": [
 {
@@ -38540,7 +38550,8 @@
 "research": "2026-11-14",
 "licenses": "2026-11-14",
 "careers": "2026-11-14",
-"oc": "2026-11-24"
+"oc": "2026-11-24",
+"methods": "2026-11-24"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -234170,7 +234181,9 @@ null
 "oc": "2026-11-09",
 "access": "2026-11-09",
 "licenses": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"students": "2026-11-24",
+"founded": "2026-11-24"
 },
 "departments": [
 {
@@ -234486,8 +234499,14 @@ null
 "https://search.keinet.ne.jp/2062/general/schedule",
 "https://search.keinet.ne.jp/2062/general/exam_fee",
 "https://telemail.jp/shingaku/university/10000222/examination/general",
-"https://passnavi.obunsha.co.jp/univ/1755/expense/"
-]
+"https://passnavi.obunsha.co.jp/univ/1755/expense/",
+"https://search.keinet.ne.jp/2062/outline/department"
+],
+"students": {
+"count": 590,
+"year": 2025
+},
+"founded": "1996年 開学（前身：1966年発足の仙台白百合短期大学。2027年4月に仙台白百合大学へ名称変更・男女共学化予定）"
 },
 "仙台大学": {
 "faculties": [
@@ -234503,7 +234522,11 @@ null
 "money": "2026-11-12",
 "scholar": "2026-11-09",
 "access": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"careers": "2026-11-24"
 },
 "departments": [
 {
@@ -234744,8 +234767,37 @@ null
 "https://telemail.jp/shingaku/university/10000041/examination/general",
 "https://up-j.shigaku.go.jp/department/category06/00000000062501001.html",
 "https://sendaidaigaku.jp/dnt2/_sendaidaigaku/access/nic_img/5/files/2027_ip.pdf",
-"https://sendaidaigaku.jp/dnt2/_sendaidaigaku/access/nic_img/5/files/2027_kyotsu.pdf"
-]
+"https://sendaidaigaku.jp/dnt2/_sendaidaigaku/access/nic_img/5/files/2027_kyotsu.pdf",
+"https://search.keinet.ne.jp/outline/department/2055",
+"https://search.keinet.ne.jp/2055",
+"https://search.keinet.ne.jp/2055/outline/licential",
+"https://search.keinet.ne.jp/2055/outline/admission_employment",
+"https://search.keinet.ne.jp/2055/general/exam_subject"
+],
+"students": {
+"count": 2465,
+"year": 2025
+},
+"founded": "1967年 開学（前身：1879年創設の松操私塾）",
+"licenses": [
+"中学校教諭（保健体育）一種",
+"高等学校教諭（保健体育）一種",
+"社会教育主事（資格）",
+"社会福祉主事（資格）",
+"健康運動実践指導者(受験資格）",
+"高等学校教諭（福祉）一種",
+"特別支援学校教諭一種",
+"養護教諭一種",
+"社会福祉士（受験資格）",
+"介護福祉士（受験資格）",
+"栄養教諭二種",
+"栄養士(資格）",
+"高等学校教諭（情報）一種",
+"社会調査士（資格）",
+"保育士（資格）",
+"幼稚園教諭一種"
+],
+"careers": "2024年度卒業者（体育学部）578人のうち就職者440人（就職率90.6％）、進学者9人（1.6％）。"
 },
 "ノースアジア大学": {
 "faculties": [
@@ -234760,7 +234812,10 @@ null
 "schedule": "2026-11-12",
 "money": "2026-11-12",
 "scholar": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"difficulty": "2026-11-24"
 },
 "departments": [
 {
@@ -234905,8 +234960,22 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3081/gakuhi/",
 "https://telemail.jp/shingaku/university/10001052/examination/general",
 "https://search.keinet.ne.jp/2072/general/schedule",
-"https://manabi.benesse.ne.jp/daigaku/school/3081/nyushi/hoshiki/ippan/"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3081/nyushi/hoshiki/ippan/",
+"https://search.keinet.ne.jp/2072/outline/department",
+"https://search.keinet.ne.jp/2072",
+"https://search.keinet.ne.jp/2072/general/exam_subject",
+"https://search.keinet.ne.jp/2072/general/border_rate"
+],
+"students": {
+"count": 461,
+"year": 2025
+},
+"founded": "1964年 開学（秋田経済大学として。前身：1953年開学の秋田短期大学。2007年にノースアジア大学へ改称）",
+"difficulty": {
+"hensachi": "BF〜35.0",
+"kyotei": "43%〜47%",
+"year": "2027年度入試用"
+}
 },
 "麻布大学": {
 "faculties": [
@@ -234919,7 +234988,11 @@ null
 "methods": "2026-11-09",
 "schedule": "2026-11-12",
 "money": "2026-11-12",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"kyotsu": "2026-11-24",
+"difficulty": "2026-11-24"
 },
 "departments": [
 {
@@ -235105,8 +235178,35 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3361/nyushi/hoshiki/ippan/",
 "https://manabi.benesse.ne.jp/daigaku/school/3361/nyushi/hoshiki/kyotsu-test/",
 "https://search.keinet.ne.jp/2304/general/schedule",
-"https://search.keinet.ne.jp/2304/outline/expense"
-]
+"https://search.keinet.ne.jp/2304/outline/expense",
+"https://search.keinet.ne.jp/2304/outline/department",
+"https://search.keinet.ne.jp/2304",
+"https://search.keinet.ne.jp/2304/general/exam_subject",
+"https://search.keinet.ne.jp/2304/general/border_rate"
+],
+"students": {
+"count": 2507,
+"year": 2025
+},
+"founded": "1950年 開学（麻布獣医科大学として。前身：1890年開設の東京獣医講習所。1980年に麻布大学へ改称）",
+"kyotsu": {
+"kamoku": "2〜3教科2〜4科目",
+"kyoka": [
+2,
+3
+],
+"rl": [
+"4:1"
+],
+"rl_text": "リーディング160点・リスニング40点（獣医学部）",
+"note": "獣医学部：獣医3－4、獣医保健看護・動物応用科学3－3。生命・環境科学部3学科は2－2で、英語は200点（他教科との選択）でR・Lの個別配点の記載なし",
+"year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "35.0〜62.5",
+"kyotei": "46%〜81%",
+"year": "2027年度入試用"
+}
 },
 "麗澤大学": {
 "faculties": [
@@ -235121,7 +235221,13 @@ null
 "departments": "2026-11-09",
 "money": "2026-11-13",
 "_via": "2026-11-09",
-"schedule": "2026-11-12"
+"schedule": "2026-11-12",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"careers": "2026-11-24",
+"kyotsu": "2026-11-24",
+"difficulty": "2026-11-24"
 },
 "departments": [
 {
@@ -235191,7 +235297,13 @@ null
 "https://www.reitaku-u.ac.jp/admissions/tuition/",
 "https://shingakunet.com/gakko/SC000154/gakuhi/",
 "https://manabi.benesse.ne.jp/daigaku/school/3211/nyushi/gokaku-happyo/index.html",
-"https://search.keinet.ne.jp/2187/outline/expense"
+"https://search.keinet.ne.jp/2187/outline/expense",
+"https://search.keinet.ne.jp/2187",
+"https://search.keinet.ne.jp/2187/outline/department",
+"https://search.keinet.ne.jp/2187/outline/licential",
+"https://search.keinet.ne.jp/2187/outline/admission_employment",
+"https://search.keinet.ne.jp/2187/general/exam_subject",
+"https://search.keinet.ne.jp/2187/general/border_rate"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -235263,6 +235375,34 @@ null
 }
 ],
 "note": "マナビジョン（2027年度入試）。学部で実施方式が異なる（工学部は方式が少ない）が、同じ方式の日程は共通。検定料は未確認"
+},
+"students": {
+"count": 3000,
+"year": 2025
+},
+"founded": "1959年 麗澤大学外国語学部 開学（前身：1935年 道徳科学専攻塾、1950年 麗澤短期大学）",
+"licenses": [
+"中学校教諭（英語）一種",
+"高等学校教諭（英語）一種"
+],
+"careers": "2024年度卒業者の就職者比率は外国語学部89.9%、国際学部83.7%、経済学部91.9%（進学者比率は1.0〜3.3%）。",
+"kyotsu": {
+"kamoku": "2〜3教科2〜3科目",
+"kyoka": [
+2,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "リーディング100点・リスニング100点（前期3科目型は50点・50点）",
+"note": "外国語学部の例。前期2科目型・中後期は2教科2科目、前期3科目型は2〜3教科2〜3科目、共通テスト＋は1教科1科目。",
+"year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "35.0〜42.5",
+"kyotei": "47%〜63%",
+"year": "2027年度入試用"
 }
 },
 "鶴見大学": {
@@ -235285,7 +235425,9 @@ null
 "access": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"students": "2026-11-24",
+"founded": "2026-11-24"
 },
 "departments": [
 {
@@ -235886,8 +236028,15 @@ null
 "https://passnavi.obunsha.co.jp/univ/3320/subject/?facultyID=005",
 "https://search.keinet.ne.jp/2316/general/border_rate",
 "https://manabi.benesse.ne.jp/daigaku/school/3373/gakuhi/",
-"https://manabi.benesse.ne.jp/daigaku/school/3373/nyushi/gokaku-happyo/"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3373/nyushi/gokaku-happyo/",
+"https://search.keinet.ne.jp/2316",
+"https://search.keinet.ne.jp/outline/department/2316"
+],
+"students": {
+"count": 1499,
+"year": 2025
+},
+"founded": "1963年 鶴見女子大学文学部 設置認可（前身：1953年 鶴見女子短期大学。1973年 鶴見大学に改称）"
 },
 "駒沢女子大学": {
 "faculties": [
@@ -235911,7 +236060,9 @@ null
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
 "_via": "2026-11-09",
-"money": "2026-11-13"
+"money": "2026-11-13",
+"students": "2026-11-24",
+"founded": "2026-11-24"
 },
 "departments": [
 {
@@ -236233,7 +236384,9 @@ null
 "https://search.keinet.ne.jp/2294/general/border_rate",
 "https://search.keinet.ne.jp/2294/outline/expense",
 "https://manabi.benesse.ne.jp/daigaku/school/3249/gakuhi/",
-"https://manabi.benesse.ne.jp/daigaku/school/3249/nyushi/gokaku-happyo/"
+"https://manabi.benesse.ne.jp/daigaku/school/3249/nyushi/gokaku-happyo/",
+"https://search.keinet.ne.jp/2294",
+"https://search.keinet.ne.jp/2294/outline/department"
 ],
 "money": {
 "year": "2026年度",
@@ -236292,7 +236445,12 @@ null
 }
 ],
 "note": "Kei-Net（2026年度入学者用）。教科書代などは別途"
-}
+},
+"students": {
+"count": 1590,
+"year": 2025
+},
+"founded": "1993年 人文学部設置で開学（前身：1927年 駒沢高等女学院創立、1965年 短期大学保育科設置）"
 },
 "関東学院大学": {
 "faculties": [
@@ -236312,7 +236470,10 @@ null
 "methods": "2026-11-09",
 "schedule": "2026-11-13",
 "_via": "2026-11-09",
-"money": "2026-11-13"
+"money": "2026-11-13",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24"
 },
 "departments": [
 {
@@ -236546,7 +236707,10 @@ null
 "https://search.keinet.ne.jp/2307/general/exam_subject",
 "https://search.keinet.ne.jp/2307/outline/expense",
 "https://search.keinet.ne.jp/2307/general/schedule",
-"https://search.keinet.ne.jp/2307/recommend/exam_ao"
+"https://search.keinet.ne.jp/2307/recommend/exam_ao",
+"https://search.keinet.ne.jp/2307",
+"https://search.keinet.ne.jp/outline/department/2307",
+"https://search.keinet.ne.jp/2307/outline/licential"
 ],
 "money": {
 "year": "2026年度",
@@ -236683,7 +236847,51 @@ null
 }
 ],
 "note": "Kei-Net（2026年度入学者用）。実習費の欄が空欄の学部は null"
-}
+},
+"students": {
+"count": 11241,
+"year": 2025
+},
+"founded": "1949年 関東学院大学（経済学部・工学部）設置（前身：旧制専門学校。源流は1884年 横浜バプテスト神学校）",
+"licenses": [
+"保育士（資格）",
+"幼稚園教諭一種",
+"小学校教諭一種",
+"特別支援学校教諭一種",
+"学校図書館司書教諭一種（資格）",
+"司書（資格）",
+"社会福祉主事（資格）",
+"認定心理士（資格）",
+"中学校教諭（英語）一種",
+"高等学校教諭（英語）一種",
+"中学校教諭（社会）一種",
+"高等学校教諭（地理歴史）一種",
+"高等学校教諭（公民）一種",
+"学芸員（資格）",
+"社会教育主事（資格）",
+"社会調査士（資格）",
+"社会福祉士（受験資格）",
+"高等学校教諭（商業）一種",
+"高等学校教諭（工業）一種",
+"一級建築士（受験資格）",
+"二級建築士（受験資格）",
+"木造建築士（受験資格）",
+"高等学校教諭（情報）一種",
+"バイオ技術者認定試験（資格）",
+"中学校教諭（数学）一種",
+"高等学校教諭（数学）一種",
+"中学校教諭（理科）一種",
+"高等学校教諭（理科）一種",
+"中学校教諭（技術）一種",
+"測量士（資格）",
+"測量士補(資格）",
+"看護師(受験資格）",
+"栄養教諭一種",
+"食品衛生監視員（資格）",
+"管理栄養士（受験資格）",
+"栄養士(資格）",
+"フードスペシャリスト（資格）"
+]
 },
 "関東学園大学": {
 "faculties": [
