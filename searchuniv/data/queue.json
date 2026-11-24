@@ -19146,6 +19146,115 @@
 "founded"
 ],
 "keinet": "2318"
+},
+{
+"name": "産業能率大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"difficulty"
+],
+"keinet": "2312"
+},
+{
+"name": "湘南医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"careers"
+]
+},
+{
+"name": "清泉女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers"
+]
+},
+{
+"name": "清和大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+]
+},
+{
+"name": "淑徳大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2174"
+},
+{
+"name": "浦和大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2166"
+},
+{
+"name": "洗足学園音楽大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"kyotsu"
+],
+"keinet": "2315"
+},
+{
+"name": "江戸川大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded"
+],
+"keinet": "2170"
 }
 ],
 "failed": [],
@@ -19424,115 +19533,6 @@
 "北洋大学": 1
 },
 "enrich": [
-{
-"name": "産業能率大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers",
-"difficulty"
-],
-"keinet": "2312"
-},
-{
-"name": "湘南医療大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"careers"
-]
-},
-{
-"name": "清泉女子大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers"
-]
-},
-{
-"name": "清和大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers",
-"kyotsu"
-]
-},
-{
-"name": "淑徳大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers",
-"kyotsu"
-],
-"keinet": "2174"
-},
-{
-"name": "浦和大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers",
-"kyotsu"
-],
-"keinet": "2166"
-},
-{
-"name": "洗足学園音楽大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"kyotsu"
-],
-"keinet": "2315"
-},
-{
-"name": "江戸川大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded"
-],
-"keinet": "2170"
-},
 {
 "name": "武蔵野大学",
 "need": [

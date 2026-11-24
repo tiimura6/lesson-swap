@@ -39150,7 +39150,9 @@
 "https://www.nara-wu.ac.jp/nyusi/2027suisenyoko.pdf",
 "https://manabi.benesse.ne.jp/daigaku/school/1350/nyushi/hoshiki/ippan/",
 "https://manabi.benesse.ne.jp/daigaku/school/1350/nyushi/hoshiki/gakkou-suisen/index.html",
-"https://www.nara-wu.ac.jp/nyusi/R8toukei.pdf"
+"https://www.nara-wu.ac.jp/nyusi/R8toukei.pdf",
+"https://www.nara-wu.ac.jp/nyusi/open.html",
+"https://passnavi.obunsha.co.jp/univ/0660/opencampus/"
 ],
 "kyotsu": {
 "kamoku": "6教科8科目（前期）〜5教科7科目（文学部後期）",
@@ -39431,7 +39433,8 @@
 "licenses": "2026-11-14",
 "careers": "2026-11-14",
 "scholar": "2026-11-19",
-"methods": "2026-11-24"
+"methods": "2026-11-24",
+"oc": "2026-11-24"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -39874,6 +39877,25 @@
 }
 ],
 "note": "パスナビ（パスナビ：原則2026年4月入学者対象、予約採用型は2027年）による。対象学部の記載がないものは「全学部」とした"
+},
+"oc": {
+"year": "2026年度",
+"events": [
+{
+"date": "随時",
+"type": "オンライン",
+"title": "WEB OPEN CAMPUS（コンテンツ配信）",
+"note": "常時公開"
+},
+{
+"date": "随時",
+"type": "来場型",
+"title": "キャンパス見学",
+"note": "早朝・夜間を除き入構可。建物内には入らない。資料は窓口で配付"
+}
+],
+"url": "https://www.nara-wu.ac.jp/nyusi/open.html",
+"note": "2026年度の夏のオープンキャンパス（2026/8/1、9:30〜16:00、要事前予約。模擬授業・学部学科紹介・在学生の個別相談・キャンパスツアーなど）と秋の入試相談会は終了。2027年度の夏のオープンキャンパスは開催予定だが日程・申込方法は未発表（決まり次第公式サイトで発表）"
 }
 },
 "長岡技術科学大学": {
@@ -244588,7 +244610,10 @@ null
 "scholar": "2026-11-09",
 "eng": "2026-11-09",
 "_via": "2026-11-18",
-"money": "2026-11-18"
+"money": "2026-11-18",
+"students": "2026-11-24",
+"research": "2026-11-24",
+"careers": "2026-11-24"
 },
 "departments": [
 {
@@ -244871,7 +244896,9 @@ null
 "https://search.keinet.ne.jp/2312/topics/12",
 "https://www.sanno.ac.jp/exam/system/general/list_ipan.html",
 "https://www.sanno.ac.jp/undergraduate/campuslife/academicfee.html",
-"https://search.keinet.ne.jp/2312/outline/scholarship"
+"https://search.keinet.ne.jp/2312/outline/scholarship",
+"https://manabi.benesse.ne.jp/daigaku/school/3368/",
+"https://search.keinet.ne.jp/2312/outline/admission_employment"
 ],
 "money": {
 "year": "2027年度",
@@ -244888,7 +244915,17 @@ null
 "note": "大学公式「学費」2027年度入学者：入学金25万・授業料81.8万・施設費24.4万・諸経費1.2万・初年次教材費0.4万（学費小計132.8万）＋委託徴収費2.316万（保険料・後援会費・学生会費）。分納は手続時79.1万＋委託徴収費、9月53.7万。2年次以降は年109.05万（2026年度額）、卒業年次に校友会費1万"
 }
 ]
-}
+},
+"students": {
+"count": 3965,
+"year": 2025,
+"note": "2025年5月1日現在（ベネッセ マナビジョン）"
+},
+"research": [
+"経営学部・情報マネジメント学部：1年次からPBL（課題解決型）を多くの授業に取り入れ、1〜4年次の全員がゼミに所属する。",
+"キャリア教育：1年次からキャリアサポート授業が必修で、2年次の夏に授業としてインターンシップを行う。"
+],
+"careers": "2024年度卒の就職者比率は経営学部96.6%（卒業者560人）、情報マネジメント学部97.3%（同376人）。大学通信の調査で「就職に力を入れている大学」東京地区8位。"
 },
 "湘南医療大学": {
 "faculties": [
@@ -244909,7 +244946,9 @@ null
 "oc": "2026-11-09",
 "access": "2026-11-09",
 "licenses": "2026-11-09",
-"_via": "2026-11-18"
+"_via": "2026-11-18",
+"students": "2026-11-24",
+"research": "2026-11-24"
 },
 "departments": [
 {
@@ -245279,7 +245318,16 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3385/gakuhi/index.html",
 "https://passnavi.obunsha.co.jp/univ/3283/schedule/?facultyID=005",
 "https://sums.ac.jp/examinee-support/download/youkou_all_2027.pdf",
-"https://sums.ac.jp/examinee-support/download/information20260601.pdf"
+"https://sums.ac.jp/examinee-support/download/information20260601.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/3385/index.html"
+],
+"students": {
+"count": 1168,
+"year": 2025,
+"note": "2025年5月1日時点（ベネッセ マナビジョン）"
+},
+"research": [
+"薬学部：専門分野の異なる研究室が空間を共有する「オープンラボ」で、所属に関係なく複数の教員から指導を受けられる。"
 ]
 },
 "清泉女子大学": {
@@ -245297,7 +245345,11 @@ null
 "scholar": "2026-11-18",
 "eng": "2026-11-09",
 "_via": "2026-11-18",
-"money": "2026-11-18"
+"money": "2026-11-18",
+"research": "2026-11-24",
+"students": "2026-11-24",
+"licenses": "2026-11-24",
+"careers": "2026-11-24"
 },
 "departments": [
 {
@@ -245509,7 +245561,10 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3264/nyushi/index.html",
 "https://www.seisen-u.ac.jp/admissions/general_kyotsu/ippan.html",
 "https://www.seisen-u.ac.jp/admissions/general_kyotsu/kyotsu.html",
-"https://www.seisen-u.ac.jp/campuslife/about/expense/"
+"https://www.seisen-u.ac.jp/campuslife/about/expense/",
+"https://passnavi.obunsha.co.jp/univ/2570/top/",
+"https://passnavi.obunsha.co.jp/univ/2570/shinro/",
+"https://passnavi.obunsha.co.jp/univ/2570/department/"
 ],
 "money": {
 "year": "2027年度",
@@ -245537,7 +245592,24 @@ null
 "note": "大学公式の学費ページ（2027年度入学者）。公式の計1,420,000円は1年次の実習料60,000円を除いた額。別に泉会費28,000円（年額）・麗泉会費30,000円（入学時）"
 }
 ]
-}
+},
+"research": [
+"総合文化学部：言語・文学・歴史を軸に文化を通して人間を考える。日本文化・国際文化・文化史の3領域で、2年次からプログラムを選んで学ぶ（2025年設置）",
+"地球市民学部：全員がフィールドワークを行う現場中心の学びで、地域共生・ソーシャルデザインの2領域から社会課題の解決策を探る（2025年設置、公共創造領域は2027年新設予定）"
+],
+"students": {
+"count": 1263,
+"year": 2026,
+"note": "パスナビ掲載の学生総数（女子のみ）。2026年5月の大学アンケートに基づく"
+},
+"licenses": [
+"小学校教諭一種（他大学の通信教育との併修が必要）",
+"幼稚園教諭一種（他大学の通信教育との併修が必要）",
+"学校図書館司書教諭（任用）",
+"司書",
+"学芸員（任用）"
+],
+"careers": "2025年度卒（旧・文学部の表）は卒業者288人、就職希望者239人のうち就職者234人。主な就職先は東京都教育委員会、ANAエアポートサービス、日本アイ・ビー・エムデジタルサービス、東日本旅客鉄道、帝国ホテルなど。"
 },
 "清和大学": {
 "faculties": [
@@ -245551,7 +245623,11 @@ null
 "scholar": "2026-11-09",
 "_via": "2026-11-18",
 "schedule": "2026-11-18",
-"money": "2026-11-18"
+"money": "2026-11-18",
+"research": "2026-11-24",
+"students": "2026-11-24",
+"careers": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "departments": [
 {
@@ -245681,7 +245757,10 @@ null
 "https://www.seiwa-univ.ac.jp/exam/exam_04.html",
 "https://www.seiwa-univ.ac.jp/exam/exam_05.html",
 "https://www.seiwa-univ.ac.jp/exam/expense.html",
-"https://www.seiwa-univ.ac.jp/exam/tokutaisei.html"
+"https://www.seiwa-univ.ac.jp/exam/tokutaisei.html",
+"https://passnavi.obunsha.co.jp/univ/2155/shinro/",
+"https://passnavi.obunsha.co.jp/univ/2155/department/",
+"https://passnavi.obunsha.co.jp/univ/2155/subject/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -245817,6 +245896,28 @@ null
 "note": "大学公式の学費ページ（2027年度）。施設費は「維持費」、実習費は「実験実習学生諸費」、その他は後援会費50,000・学友会費20,000。学費小計1,320,000円。2年次以降は年1,020,000円。強化指定運動部はスポーツ振興費40,000円が別に必要"
 }
 ]
+},
+"research": [
+"法学部（1994年設置）：法学コース（法的思考で現代社会の問題に対処、公務員試験対策などのキャリアプログラム）",
+"法学部：情報と法コース（ICTと法律を組み合わせ、情報セキュリティを重視。1人1台のタブレットを4年間無償貸与）",
+"法学部：スポーツ法コース（強化指定部の学生が競技と両立し、法学とスポーツ科学の両面から学ぶ）。セメスター制・少人数教育、公務員や司法書士・行政書士の対策講座がある"
+],
+"students": {
+"count": 591,
+"year": 2026,
+"note": "パスナビ掲載の学生総数（男497・女94）。2026年5月の大学アンケートに基づく"
+},
+"careers": "2025年度卒は卒業者135名、就職希望者118名、就職者113名、進学者7名。主な就職先は警視庁（7名）、法務省矯正局の刑務官（7名）、陸上自衛隊（3名）など。",
+"kyotsu": {
+"kamoku": "法学部の共通テスト利用。Ⅰ期は2教科2科目（国語か外国語から1、地歴・公民から1、200点）、Ⅱ期は国語・地歴・公民・数学・理科・外国語・情報Ⅰから3科目（国・地歴公・外のうち2教科2科目を含む、300点）、Ⅲ期は同じ範囲から2科目（1教科1科目を含む、200点）。個別学力試験は課さない",
+"kyoka": [
+2,
+3
+],
+"rl": [],
+"rl_text": "",
+"note": "掲載は法学部のみ。出願前に募集要項で確認",
+"year": "2027年度入試"
 }
 },
 "淑徳大学": {
@@ -245837,7 +245938,11 @@ null
 "_via": "2026-11-18",
 "schedule": "2026-11-18",
 "money": "2026-11-13",
-"scholar": "2026-11-18"
+"scholar": "2026-11-18",
+"students": "2026-11-24",
+"licenses": "2026-11-24",
+"careers": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "departments": [
 {
@@ -245974,7 +246079,10 @@ null
 "https://search.keinet.ne.jp/2174/outline/expense",
 "https://manabi.benesse.ne.jp/daigaku/school/3196/gakuhi/",
 "https://www.shukutoku.ac.jp/extra/pdf/Shukutokunyushiguide2027.pdf",
-"https://www.shukutoku.ac.jp/campuslife/fees/"
+"https://www.shukutoku.ac.jp/campuslife/fees/",
+"https://manabi.benesse.ne.jp/daigaku/school/3196/",
+"https://manabi.benesse.ne.jp/daigaku/school/3196/syusyoku/",
+"https://manabi.benesse.ne.jp/daigaku/school/3196/nyushi/hoshiki/kyotsu-test/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -246252,6 +246360,42 @@ null
 "cond": null
 }
 ]
+},
+"students": {
+"count": 5248,
+"year": 2026,
+"note": "2026年5月1日現在（ベネッセ マナビジョン）"
+},
+"licenses": [
+"社会福祉士",
+"精神保健福祉士",
+"社会福祉主事（任用）",
+"小学校教諭1種・2種",
+"幼稚園教諭1種",
+"特別支援学校教諭1種",
+"保育士",
+"中学校・高等学校教諭（保健体育）1種",
+"養護教諭1種",
+"看護師",
+"保健師",
+"管理栄養士",
+"栄養士",
+"栄養教諭1種",
+"中学校教諭（社会）1種",
+"高等学校教諭（地理歴史）1種",
+"学芸員"
+],
+"careers": "2026年3月卒の就職内定率は97.8%。社会福祉は地方公務員（福祉職）・福祉施設、教育系は小学校教員・公務員保育士、看護は公的医療機関・大学病院、経営は小売・情報通信・金融・観光関連などへ進む。",
+"kyotsu": {
+"kamoku": "国語（必須）＋数学・外国語・地歴公民・理科・情報から選択（看護栄養学部は地歴公民なし）",
+"kyoka": [
+2,
+3
+],
+"rl": [],
+"rl_text": "",
+"note": "ほとんどの学部は2教科（2〜3科目・配点400）、看護栄養学部は3教科（3〜4科目・配点600）",
+"year": "2027年度入試"
 }
 },
 "浦和大学": {
@@ -246267,7 +246411,10 @@ null
 "scholar": "2026-11-18",
 "_via": "2026-11-18",
 "schedule": "2026-11-18",
-"money": "2026-11-18"
+"money": "2026-11-18",
+"founded": "2026-11-24",
+"research": "2026-11-24",
+"careers": "2026-11-24"
 },
 "departments": [
 {
@@ -246410,7 +246557,9 @@ null
 "https://www.urawa.ac.jp/admission/index.php",
 "https://www.urawa.ac.jp/admission/general.html",
 "https://www.urawa.ac.jp/boshu_yoko/pageindices/index28.html",
-"https://www.urawa.ac.jp/uradai-days/support/"
+"https://www.urawa.ac.jp/uradai-days/support/",
+"https://search.keinet.ne.jp/2166",
+"https://shingakunet.com/gakko/SC003607/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -246592,7 +246741,14 @@ null
 "note": "大学公式 2027年度学生募集要項p.28。教員免許状の取得を希望する場合は実習費等が別途必要"
 }
 ]
-}
+},
+"founded": "2003年 開学（1946年に浦和で私塾を開設、1987年に浦和短期大学を開学）",
+"research": [
+"こども学部：こども学科と学校教育学科で、保育・教育の専門職を少人数で養成。親子が集まる「ぽっけ」や模擬教室で実践力を養う。",
+"学校教育学科：1年次から地域の小学校で活動し、2年次にアシスタントティーチャーを経験、3年次に教育実習。",
+"社会学部：総合福祉学科と現代社会学科（2020年設置）の2学科。"
+],
+"careers": "2024年度の就職内定率は99.3%（就職者149名）、2020〜2024年度の平均は98.7%。教育・福祉分野に加え一般企業にも進み、年15回の就職試験対策講座がある。"
 },
 "洗足学園音楽大学": {
 "faculties": [
@@ -246610,7 +246766,10 @@ null
 "access": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"_via": "2026-11-18"
+"_via": "2026-11-18",
+"founded": "2026-11-24",
+"students": "2026-11-24",
+"research": "2026-11-24"
 },
 "departments": [
 {
@@ -246929,7 +247088,18 @@ null
 "https://passnavi.obunsha.co.jp/univ/3310/department/",
 "https://passnavi.obunsha.co.jp/univ/3310/expense/",
 "https://www.senzoku.ac.jp/music/wp-content/uploads/2026/10/17fd0773b4a39729543688c9c6772af6.pdf",
-"https://manabi.benesse.ne.jp/daigaku/school/3372/nyushi/hoshiki/ippan/"
+"https://manabi.benesse.ne.jp/daigaku/school/3372/nyushi/hoshiki/ippan/",
+"https://www.senzoku.ac.jp/music/about/pdf/data/2025/2024jigyou.pdf"
+],
+"founded": "1967年 開学（洗足学園大学として開学、2003年に洗足学園音楽大学へ改称）",
+"students": {
+"count": 2536,
+"year": 2024,
+"note": "音楽学部音楽学科の現員数、2024年5月1日現在（大学院は別に193人）"
+},
+"research": [
+"音楽学部音楽学科：専門実技に加え協働・論理的思考力を重視し、ダンス・バレエ・声優アニメソング・ミュージカルなど多様なコースを持つ。2024年度にメディアアーツコース（映像と音楽の融合）を開設。",
+"大学院音楽研究科：器楽・声楽・音楽教育学・作曲の4専攻で修士（音楽）を授与。"
 ]
 },
 "江戸川大学": {
@@ -246950,7 +247120,8 @@ null
 "oc": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"_via": "2026-11-18"
+"_via": "2026-11-18",
+"founded": "2026-11-24"
 },
 "departments": [
 {
@@ -247313,8 +247484,10 @@ null
 "https://search.keinet.ne.jp/2170/outline/expense",
 "https://passnavi.obunsha.co.jp/univ/2090/expense/",
 "https://www.edogawa-u.ac.jp/img/media/33769.pdf",
-"https://telemail.jp/shingaku/university/10000221/examination/general"
-]
+"https://telemail.jp/shingaku/university/10000221/examination/general",
+"https://search.keinet.ne.jp/2170"
+],
+"founded": "1990年 開学（前身は1931年開校の城東高等家政女学校、1985年に江戸川女子短期大学を開学）"
 },
 "武蔵野大学": {
 "faculties": [
