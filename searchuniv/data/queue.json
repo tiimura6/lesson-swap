@@ -18611,6 +18611,115 @@
 "fails": 1,
 "last_fail": "2026-11-24",
 "note": "2026-11-24 Kei-Net /2018 の各ページが検索結果に出ず取得できなかった（直接開くと取得許可が下りなかった）"
+},
+{
+"name": "北海道情報大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers"
+]
+},
+{
+"name": "北海道文教大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2021"
+},
+{
+"name": "北海道科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"kyotsu"
+],
+"keinet": "2013"
+},
+{
+"name": "北星学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded"
+],
+"keinet": "2007"
+},
+{
+"name": "函館大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"careers",
+"kyotsu"
+],
+"keinet": "2005"
+},
+{
+"name": "八戸工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"careers",
+"kyotsu"
+]
+},
+{
+"name": "八戸学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2029"
+},
+{
+"name": "仙台青葉学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers"
+],
+"keinet": "2065"
 }
 ],
 "failed": [],
@@ -18889,115 +18998,6 @@
 "北洋大学": 1
 },
 "enrich": [
-{
-"name": "北海道情報大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers"
-]
-},
-{
-"name": "北海道文教大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers",
-"kyotsu"
-],
-"keinet": "2021"
-},
-{
-"name": "北海道科学大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"kyotsu"
-],
-"keinet": "2013"
-},
-{
-"name": "北星学園大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded"
-],
-"keinet": "2007"
-},
-{
-"name": "函館大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"careers",
-"kyotsu"
-],
-"keinet": "2005"
-},
-{
-"name": "八戸工業大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"careers",
-"kyotsu"
-]
-},
-{
-"name": "八戸学院大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu",
-"difficulty"
-],
-"keinet": "2029"
-},
-{
-"name": "仙台青葉学院大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers"
-],
-"keinet": "2065"
-},
 {
 "name": "仙台白百合女子大学",
 "need": [

@@ -37004,7 +37004,9 @@
 "https://search.keinet.ne.jp/1355/outline/licential",
 "https://search.keinet.ne.jp/1355/outline/admission_employment",
 "https://search.keinet.ne.jp/1355/recommend/exam_ao",
-"https://search.keinet.ne.jp/1355/outline/opencampus"
+"https://search.keinet.ne.jp/1355/outline/opencampus",
+"https://manabi.benesse.ne.jp/daigaku/school/1375/nyushi/hoshiki/ippan/",
+"https://manabi.benesse.ne.jp/daigaku/school/1375/nyushi/"
 ],
 "kyotsu": {
 "kamoku": "6教科8科目（全学部）",
@@ -37025,13 +37027,13 @@
 "kubun": "一般",
 "name": "前期日程",
 "kyotsu": "6教科8科目（情報含む）が中心",
-"niji": "文・法：英・国／経済：英・数・国から2科目／教育：2科目または実技・小論文／理：英・数・理",
-"haiten": "共テ:二次＝925:800（法）、925:600（経済）、775:400（文）、950:400（教育）、理は950:1400と二次重視",
+"niji": "文・法：英・国／経済：英・数・国から2科目／教育：2科目または実技・小論文／理・工・農・歯・薬：数・英・理／医学科：数・英・理＋面接／保健学科：看護は英＋面接、放射線・検査は数・英・理＋面接",
+"haiten": "共テ:二次＝925:800（法）、925:600（経済）、775:400（文）、950:400（教育）、理950:1400・工950:1300と二次重視。農475:600、医学科550:1100（＋面接、2段階選抜あり）、歯950:800、薬950:800、保健775〜900:300〜600",
 "kn": [
 1.16,
 1
 ],
-"note": "代表値は掲載分で定員最大の法学部。工・農・医・歯・薬の二次配点はKei-Netページが途中で切れて未確認"
+"note": "代表値は定員最大の法学部。工・農・医・歯・薬の配点はベネッセ マナビジョン（2027年度入試情報）で確認"
 },
 {
 "kubun": "推薦",
@@ -37066,8 +37068,8 @@
 "note": "25名"
 }
 ],
-"summary": "一般前期は文系で共テ寄り、理は二次重視。推薦Ⅰは評定4.3以上が必須、総合型は共テ必須で文・法の枠が大きい。",
-"note": "後期日程の有無・内容はKei-Netページが途中で切れており未確認"
+"summary": "一般前期は文系で共テ寄り、理・工は二次重視。推薦Ⅰは評定4.3以上が必須、総合型は共テ必須で文・法の枠が大きい。",
+"note": "後期日程：マナビジョンの2027年度入試情報には全学部で前期のみ掲載（後期の掲載なし）。大学公式・Kei-Netでは未確認"
 },
 "departments": [
 {
@@ -37401,7 +37403,8 @@
 "research": "2026-11-14",
 "licenses": "2026-11-14",
 "careers": "2026-11-14",
-"oc": "2026-11-24"
+"oc": "2026-11-24",
+"methods": "2026-11-24"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -231789,7 +231792,11 @@ null
 "schedule": "2026-11-12",
 "eng": "2026-11-09",
 "_via": "2026-11-09",
-"money": "2026-11-12"
+"money": "2026-11-12",
+"research": "2026-11-24",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"careers": "2026-11-24"
 },
 "departments": [
 {
@@ -231990,7 +231997,11 @@ null
 "https://telemail.jp/shingaku/university/10000031/examination/general",
 "https://telemail.jp/shingaku/university/10000031/examination/recommendation",
 "https://manabi.benesse.ne.jp/daigaku/school/3013/nyushi/hoshiki/ippan/",
-"https://manabi.benesse.ne.jp/daigaku/school/3013/gakuhi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3013/gakuhi/",
+"https://passnavi.obunsha.co.jp/univ/1620/top/",
+"https://passnavi.obunsha.co.jp/univ/1620/department/",
+"https://passnavi.obunsha.co.jp/univ/1620/shinro/",
+"https://www.do-johodai.ac.jp/guidance/history/"
 ],
 "money": {
 "year": "2027年度",
@@ -232037,7 +232048,20 @@ null
 }
 ],
 "note": "大学公式「2027入学者選抜要項」（2027年度予定）。初年度合計は入学金＋授業料。ほかに入学生諸経費19,010円（同窓会費の半額15,000円・学研災保険4,010円）を入学時に、残りの同窓会費15,000円を1年次後期に納入。施設設備費の項目は記載なし。マナビジョンの初年度納付金（経営情報1,220,000円・情報メディア1,320,000円）とは学科の対応が逆になっており、公式を採用"
-}
+},
+"research": [
+"総合情報学部 経営情報学科：経営とICTの基礎を学び、企業や地域の課題を見つけて解決するICT利活用人材を育成（ビジネスデザイン／地域ビジネスの2専攻）",
+"総合情報学部 システム情報学科：ネットワーク・データベース・AI・機械学習などを学ぶシステム情報専攻と、宇宙分野のソフトウェア開発を扱う宇宙情報専攻",
+"情報理工学科（2027年開設予定）：津波・雪崩の検知、衛星・ドローンによるリモートセンシング、画像・音声AI、生体・歩行解析、デジタルヘルスなどの研究室",
+"情報メディア学部：テクノロジーとデザインを組み合わせ、ゲーム・アプリ開発や映像・アニメーション・3DCG・Webなどのデジタルコンテンツ制作を学ぶ"
+],
+"students": {
+"count": 1513,
+"year": 2026,
+"note": "パスナビ掲載の学生総数（2026年5月の大学へのアンケートに基づく）"
+},
+"founded": "1989年 開学（経営情報学部 経営学科・情報学科で開学）",
+"careers": "2026年3月卒業生は経営情報学部が就職希望者102人中100人、情報メディア学部が181人中172人、医療情報学部が65人中63人就職。主な就職先はエスシーシー、公務員、エイチ・エル・シー、テクノプロ・エンジニアリング、手稲渓仁会病院など。"
 },
 "北海道文教大学": {
 "faculties": [
@@ -232051,7 +232075,13 @@ null
 "difficulty": "2026-11-09",
 "money": "2026-11-12",
 "_via": "2026-11-09",
-"schedule": "2026-11-12"
+"schedule": "2026-11-12",
+"research": "2026-11-24",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"careers": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "departments": [
 {
@@ -232151,7 +232181,11 @@ null
 "https://search.keinet.ne.jp/2021/outline/expense",
 "https://passnavi.obunsha.co.jp/univ/1635/top/",
 "https://manabi.benesse.ne.jp/daigaku/school/3021/nyushi/",
-"https://www.do-bunkyodai.ac.jp/wp-content/uploads/2026/07/e2ee813f2bb3f366c13f6c13d0448473.pdf"
+"https://www.do-bunkyodai.ac.jp/wp-content/uploads/2026/07/e2ee813f2bb3f366c13f6c13d0448473.pdf",
+"https://passnavi.obunsha.co.jp/univ/1635/department/",
+"https://passnavi.obunsha.co.jp/univ/1635/shinro/",
+"https://passnavi.obunsha.co.jp/univ/1635/subject/",
+"https://www.do-bunkyodai.ac.jp/outline/history"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -232203,6 +232237,43 @@ null
 }
 ],
 "note": "大学公式「令和9年度学生募集要項」で日程と検定料を確認（マナビジョン2027年度と一致）。全学部・学科共通。検定料はネット出願割引で一般27,000円・共テ利用11,000円、同じ区分の2つ目以降の方式は無料。一般A期の試験会場は恵庭（本学）のみ"
+},
+"research": [
+"人間科学部：科学的根拠にもとづく栄養学（管理栄養士）、子どもの発達と保育・教育（保育士・幼小・特別支援の教員）、自治体・企業と連携した地域課題の解決を学ぶ",
+"国際学部：国際教養学科は世界の動きと地域の強みを結びつけて学び、国際コミュニケーション学科は複数の外国語と日本語、異文化理解を通じて北海道の魅力を発信する力を養う",
+"医療保健科学部：看護学科とリハビリテーション学科（理学療法学専攻・作業療法学専攻）で、多職種チームの中で働く医療職を育成",
+"オーストラリア、カナダ、中国、ロシア、韓国、台湾などの大学と学術交流協定を結ぶ"
+],
+"students": {
+"count": 1808,
+"year": 2026,
+"note": "パスナビ掲載の学生総数（2026年5月の大学へのアンケートに基づく）"
+},
+"founded": "1999年 開学（恵庭市に外国語学部で開学。前身は1942年設立の北海道女子栄養学校）",
+"licenses": [
+"小学校教諭一種",
+"幼稚園教諭一種",
+"特別支援学校教諭",
+"保育士",
+"栄養士",
+"管理栄養士",
+"看護師",
+"理学療法士",
+"作業療法士"
+],
+"careers": "2026年3月卒業生は人間科学部が就職希望者361人中360人、国際学部が39人中39人就職。主な就職先は北海道教育委員会（小学校教諭）18人、北海道（管理栄養士・栄養士）11人など。",
+"kyotsu": {
+"kamoku": "3科目型：3教科3科目（300点、国際学部は400点）／2科目型：2教科2科目（200点、国際学部は300点）",
+"kyoka": [
+2,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "国際学部は外国語200点のうちリスニング100点（R:L=1:1）。ほかの学部はR:Lの内訳の記載なし",
+"note": "前期・後期とも共通テストのみ（個別学力試験なし）",
+"year": "2026年度入試"
 }
 },
 "北海道科学大学": {
@@ -232225,7 +232296,10 @@ null
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
 "_via": "2026-11-09",
-"money": "2026-11-12"
+"money": "2026-11-12",
+"research": "2026-11-24",
+"students": "2026-11-24",
+"founded": "2026-11-24"
 },
 "departments": [
 {
@@ -232436,7 +232510,11 @@ null
 "https://www.hus.ac.jp/entrance/expenses/faculty/pharm/",
 "https://www.hus.ac.jp/entrance/expenses/faculty/design/",
 "https://www.hus.ac.jp/entrance/expenses/faculty/regional-development/",
-"https://manabi.benesse.ne.jp/daigaku/school/3012/gakuhi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3012/gakuhi/",
+"https://passnavi.obunsha.co.jp/univ/1610/top/",
+"https://passnavi.obunsha.co.jp/univ/1610/department/",
+"https://passnavi.obunsha.co.jp/univ/1610/subject/",
+"https://www.hus.ac.jp/about/info/history/"
 ],
 "money": {
 "year": "2027年度",
@@ -232543,7 +232621,19 @@ null
 }
 ],
 "note": "大学公式の学部別学費ページ（2027年度入学生）。授業料に実習費を含む（学外実習の交通費等は除く）。諸会費は協学会費12,000円・学生医療互助会費4,300円・親交会費6,000円・同窓会費40,000円。4年間合計は1年次＋2〜4年次の年額×3で計算。薬学部は6年制（2〜6年次は年額1,965,800円）。保健医療学部はマナビジョン（2027年度）の初年度合計のみ"
-}
+},
+"research": [
+"工学部：機械（メカニクス・ロボティクス・エネルギー）、電気電子（半導体・AI・再生可能エネルギー）、北海道の気候に合った建築、防災・まちづくりの都市環境の4学科",
+"情報科学部：AI、データサイエンス、マルチメディア処理、情報セキュリティ、システム開発を学ぶ（経営情報学科は2027年新設届出中）",
+"薬学部・保健医療学部：6年制薬学科（病院・薬局実習）と、看護・理学療法・臨床工学・診療放射線の各学科で医療職の国家資格取得をめざす",
+"未来デザイン学部はデザインとシステムを横断して学び、地域創造学部（2027年設置予定）は北海道を舞台に地域の課題解決を学ぶ"
+],
+"students": {
+"count": 4331,
+"year": 2026,
+"note": "パスナビ掲載の学生総数（2026年5月の大学へのアンケートに基づく）"
+},
+"founded": "1967年 北海道工業大学として開学。2014年に北海道科学大学へ改称"
 },
 "北星学園大学": {
 "faculties": [
@@ -232567,7 +232657,10 @@ null
 "access": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"research": "2026-11-24",
+"students": "2026-11-24",
+"founded": "2026-11-24"
 },
 "departments": [
 {
@@ -232982,8 +233075,22 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3008/gakuhi/",
 "https://manabi.benesse.ne.jp/daigaku/school/3008/opencampus/",
 "https://entry.hokusei.ac.jp/hgu/wp-content/uploads/2026/08/89e829a3be442efcd6af305b36ba6e33.pdf",
-"https://manabi.benesse.ne.jp/daigaku/school/3008/nyushi/gokaku-happyo/index.html"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3008/nyushi/gokaku-happyo/index.html",
+"https://passnavi.obunsha.co.jp/univ/1580/top/",
+"https://passnavi.obunsha.co.jp/univ/1580/department/"
+],
+"research": [
+"文学部：英文学科はネイティブ教員の授業中心で3年次から3コースを選び、心理・応用コミュニケーション学科は心理学をもとに個人と集団のコミュニケーションを学ぶ",
+"経済学部：経済・経営情報・経済法の3学科で、応用経済、経営・マーケティング・会計、公法・法務などを段階的に学ぶ",
+"社会福祉学部：社会福祉士・精神保健福祉士（社会福祉学科）、公認心理師（心理学科）の受験資格に対応",
+"国際学部 グローバル・イノベーション学科（2026年開設）と、情報科学部 情報科学科（2027年開設予定、生成AI・ネットワーク・データ活用）"
+],
+"students": {
+"count": 3781,
+"year": 2026,
+"note": "パスナビ掲載の学生総数（2026年5月の大学へのアンケートに基づく）"
+},
+"founded": "1962年 開学（1887年創設の私塾「スミス塾」が母体）"
 },
 "函館大学": {
 "faculties": [
@@ -233002,7 +233109,8 @@ null
 "oc": "2026-11-09",
 "access": "2026-11-09",
 "licenses": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"students": "2026-11-24"
 },
 "departments": [
 {
@@ -233203,8 +233311,14 @@ null
 "https://passnavi.obunsha.co.jp/univ/1550/schedule/",
 "https://passnavi.obunsha.co.jp/univ/1550/suisen/",
 "https://manabi.benesse.ne.jp/daigaku/school/3006/nyushi/hoshiki/sougou/",
-"https://manabi.benesse.ne.jp/daigaku/school/3006/nyushi/hoshiki/gakkou-suisen/"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3006/nyushi/hoshiki/gakkou-suisen/",
+"https://www.hakodate-u.ac.jp/information/number_students/"
+],
+"students": {
+"count": 297,
+"year": 2026,
+"note": "2026年5月1日現在、商学部商学科"
+}
 },
 "八戸工業大学": {
 "faculties": [
@@ -233225,7 +233339,11 @@ null
 "eng": "2026-11-09",
 "oc": "2026-11-09",
 "licenses": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"research": "2026-11-24",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"careers": "2026-11-24"
 },
 "departments": [
 {
@@ -233537,8 +233655,26 @@ null
 "https://passnavi.obunsha.co.jp/univ/1690/top/",
 "https://passnavi.obunsha.co.jp/univ/1690/difficulty/?facultyID=015",
 "https://manabi.benesse.ne.jp/daigaku/school/3044/gakuhi/",
-"https://telemail.jp/shingaku/university/10000061/examination/general"
-]
+"https://telemail.jp/shingaku/university/10000061/examination/general",
+"https://manabi.benesse.ne.jp/daigaku/school/3044/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3044/gakubu/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3044/syusyoku/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3044/nyushi/index.html",
+"https://50th.hi-tech.ac.jp/50%E5%B9%B4%E3%81%AE%E6%AD%A9%E3%81%BF"
+],
+"research": [
+"2027年4月に工学部・感性デザイン学部を再編し、総合情報学部・先進工学部・デザイン工学部の3学部3学科とする",
+"総合情報学部：社会情報DX・メディアデザイン・コンピュータサイエンス・サイバーセキュリティの4プログラム",
+"先進工学部：環境・エネルギー科学、生物資源科学、ロボット工学、モビリティ工学、機械工学、電気電子通信工学の6プログラム。デザイン工学部：感性デザイン・建築デザイン・国土デザインの3プログラム",
+"1年次は共通基礎科目、2年次に専門プログラムを選ぶ（複数プログラムの横断も可）"
+],
+"students": {
+"count": 774,
+"year": 2026,
+"note": "2026年5月1日現在"
+},
+"founded": "1972年 開学（工学部 機械工学科・産業機械工学科・電気工学科）。2005年 感性デザイン学部設置",
+"careers": "2026年3月卒の主な就職先は日本原燃、東日本旅客鉄道、多摩川精機、東北電力ネットワーク、熊谷組などのメーカー・電力・建設・情報系企業、青森県庁・岩手県庁などの公務員、青森県公立高校などの教員（就職率の記載なし）。"
 },
 "八戸学院大学": {
 "faculties": [
@@ -233555,7 +233691,10 @@ null
 "money": "2026-11-12",
 "access": "2026-11-09",
 "careers": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"research": "2026-11-24",
+"students": "2026-11-24",
+"licenses": "2026-11-24"
 },
 "departments": [
 {
@@ -233732,7 +233871,40 @@ null
 "https://search.keinet.ne.jp/2029/outline/campus",
 "https://passnavi.obunsha.co.jp/univ/1680/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3043/hensachi/",
-"https://passnavi.obunsha.co.jp/univ/1680/schedule/"
+"https://passnavi.obunsha.co.jp/univ/1680/schedule/",
+"https://manabi.benesse.ne.jp/daigaku/school/3043/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3043/gakubu/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3043/syusyoku/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3043/nyushi/index.html"
+],
+"research": [
+"2026年度から地域共創学部・人間健康科学部・看護学部の3学部3学科体制",
+"地域共創学部（旧 地域経営学部）：地域づくりを学び、商業・情報の高校教員免許、FP・簿記・情報処理などの資格を目指せる",
+"人間健康科学部：保健体育・養護教諭・小学校教員（二種、2026年度開設）の養成、健康スポーツコースではトレーニング指導の資格",
+"看護学部（2026年4月改組）：看護師・保健師を養成。別科助産専攻（1年課程）も置く"
+],
+"students": {
+"count": 879,
+"year": 2026,
+"note": "2026年5月1日現在"
+},
+"licenses": [
+"高等学校教諭一種免許状（商業／情報）",
+"高等学校教諭一種免許状（保健体育／保健／看護）",
+"中学校教諭一種免許状（保健体育／保健）",
+"養護教諭一種免許状",
+"小学校教諭二種免許状",
+"看護師国家試験受験資格",
+"保健師国家試験受験資格",
+"社会福祉士",
+"社会福祉主事任用資格",
+"認定心理士",
+"健康管理士一般指導員",
+"トレーニング指導者（JATI-ATI）",
+"スポーツコーチングリーダー",
+"介護職員初任者研修",
+"防災士",
+"建設業経理士"
 ]
 },
 "仙台青葉学院大学": {
@@ -233751,7 +233923,11 @@ null
 "money": "2026-11-09",
 "eng": "2026-11-09",
 "access": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"research": "2026-11-24",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24"
 },
 "departments": [
 {
@@ -233954,7 +234130,27 @@ null
 "https://passnavi.obunsha.co.jp/univ/1757/schedule/",
 "https://manabi.benesse.ne.jp/daigaku/school/3077/hensachi/",
 "https://passnavi.obunsha.co.jp/univ/1757/schedule/?facultyID=005",
-"https://telemail.jp/shingaku/university/10103924/examination/general"
+"https://telemail.jp/shingaku/university/10103924/examination/general",
+"https://manabi.benesse.ne.jp/daigaku/school/3077/",
+"https://manabi.benesse.ne.jp/daigaku/school/3077/syusyoku/index.html"
+],
+"research": [
+"看護学部看護学科：地域の保健・医療・福祉を担う看護師・保健師を養成",
+"リハビリテーション学部リハビリテーション学科：理学療法学専攻と作業療法学専攻で理学療法士・作業療法士を養成",
+"卒業後の場として病院・診療所・介護老人保健施設・訪問看護や訪問リハビリ・保健センターなどを想定"
+],
+"students": {
+"count": 579,
+"year": 2026,
+"note": "2026年5月1日現在"
+},
+"founded": "2024年4月 開学（仙台青葉学院短期大学の看護学科・リハビリテーション学科を改組）",
+"licenses": [
+"看護師国家試験受験資格",
+"保健師国家試験受験資格（選択制／定員20名）",
+"養護教諭二種免許状（保健師免許取得後、申請）",
+"理学療法士国家試験受験資格（理学療法学専攻）",
+"作業療法士国家試験受験資格（作業療法学専攻）"
 ]
 },
 "仙台白百合女子大学": {
