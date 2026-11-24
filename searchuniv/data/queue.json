@@ -19468,6 +19468,21 @@
 "fails": 1,
 "last_fail": "2026-11-25",
 "note": "2026-11-25 Kei-Net 2329の各ページが取得できず。マナビジョン3384は学部名と新入生数のみで、学生総数・沿革・特色・資格・就職・共テ科目の記載なし"
+},
+{
+"name": "湘南鎌倉医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"note": "2026-11-24 マナビジョン3386で学生数・特色を補完（沿革・資格・進路・共テは未取得）"
 }
 ],
 "failed": [],
@@ -19821,20 +19836,6 @@
 "kyotsu"
 ],
 "keinet": "2240"
-},
-{
-"name": "湘南鎌倉医療大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers",
-"kyotsu"
-]
 },
 {
 "name": "湘南工科大学",
