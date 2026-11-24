@@ -35335,7 +35335,9 @@
 "https://search.keinet.ne.jp/1360/outline/licential",
 "https://search.keinet.ne.jp/1360/outline/admission_employment/tab_career_overview",
 "https://search.keinet.ne.jp/1360/recommend/exam_ao",
-"https://passnavi.obunsha.co.jp/univ/0720/scholarship/"
+"https://passnavi.obunsha.co.jp/univ/0720/scholarship/",
+"https://www.hiroshima-u.ac.jp/index.php/system/files/297499/09_senbatsu_youkou.pdf",
+"https://www.hiroshima-u.ac.jp/system/files/297800/OC2026%E3%83%9D%E3%82%B9%E3%82%BF%E3%83%BC.pdf"
 ],
 "kyotsu": {
 "kamoku": "前期は文型・理型・6教科7科目など、後期は3教科4科目〜5教科7科目",
@@ -35986,7 +35988,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-15",
+"schedule": "2026-11-24",
 "money": "2026-11-07",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
@@ -35995,7 +35997,8 @@
 "research": "2026-11-14",
 "licenses": "2026-11-14",
 "careers": "2026-11-14",
-"scholar": "2026-11-19"
+"scholar": "2026-11-19",
+"oc": "2026-11-24"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -36426,8 +36429,8 @@
 "exam": "2/25",
 "result": "3/8",
 "proc": "3/15",
-"fee": null,
-"note": "学部により異なる（医学科・保健学科理学療法学/作業療法学専攻・歯学部・教育学部音楽教育学プログラムは2/25・2/26）。共通テスト1/16・1/17。検定料はパスナビに掲載なし"
+"fee": 17000,
+"note": "学部により異なる（医学科・保健学科理学療法学/作業療法学専攻・歯学部・教育学部音楽教育学プログラムは2/25・2/26）。共通テスト1/16・1/17。検定料17,000円（法・経済学部夜間主コースは10,000円）、ほかにインターネット出願手数料990円"
 },
 {
 "kubun": "一般",
@@ -36436,8 +36439,8 @@
 "exam": "3/12",
 "result": "3/20",
 "proc": "3/27",
-"fee": null,
-"note": "総合科学・文・教育（一部）・経済・理（生物科学科以外）・歯・薬（薬科学科）・工・情報科学部で実施。歯学科は3/12・3/13。共通テスト1/16・1/17。検定料はパスナビに掲載なし"
+"fee": 17000,
+"note": "総合科学・文・教育（一部）・経済・理（生物科学科以外）・歯・薬（薬科学科）・工・情報科学部で実施。歯学科は3/12・3/13。共通テスト1/16・1/17。検定料17,000円"
 },
 {
 "kubun": "推薦",
@@ -36939,6 +36942,12 @@
 }
 ],
 "note": "パスナビ（原則2026年4月入学者対象、予約採用型は2027年）による"
+},
+"oc": {
+"year": "2027年度",
+"events": [],
+"url": "https://www.hiroshima-u.ac.jp/system/files/297800/OC2026%E3%83%9D%E3%82%B9%E3%82%BF%E3%83%BC.pdf",
+"note": "2026年度のオープンキャンパスは8/5（水）・8/7（金）に実施（公式サイト掲載の「2026 広島大学 オープンキャンパス」資料による。この資料は中央図書館の展示案内で、学部別の内容・形式は未確認）。2027年度の日程は未発表"
 }
 },
 "岡山大学": {
@@ -223757,7 +223766,10 @@ null
 "access": "2026-11-08",
 "careers": "2026-11-08",
 "_via": "2026-11-08",
-"money": "2026-11-14"
+"money": "2026-11-14",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "departments": [
 {
@@ -223808,7 +223820,9 @@ null
 "https://passnavi.obunsha.co.jp/univ/1539/department/?facultyID=005",
 "https://manabi.benesse.ne.jp/daigaku/school/3022/nyushi/",
 "https://manabi.benesse.ne.jp/daigaku/school/3022/gakuhi/",
-"https://search.keinet.ne.jp/2022/outline/expense"
+"https://search.keinet.ne.jp/2022/outline/expense",
+"https://search.keinet.ne.jp/2022/outline/department",
+"https://search.keinet.ne.jp/2022/general/exam_subject"
 ],
 "money": {
 "year": "2026年度",
@@ -223837,6 +223851,23 @@ null
 }
 ],
 "note": "河合塾 Kei-Net（2026年度入学者用）の内訳。マナビジョン（2026年度）の初年度合計（看護1,876,000円・栄養1,536,000円）とは諸会費の扱いで4,720円の差がある。2027年度の金額は未確認"
+},
+"students": {
+"count": 754,
+"year": 2025
+},
+"founded": "1947年 札幌天使女子厚生専門学校として創立（1950年 天使厚生短期大学、1954年 天使女子短期大学に改称、2000年 天使大学 看護栄養学部〈看護・栄養学科〉に改組）",
+"kyotsu": {
+"kamoku": "3教科3科目",
+"kyoka": [
+3
+],
+"rl": [
+"4:1"
+],
+"rl_text": "英語R:L=4:1（R80・L20）",
+"note": "看護栄養学部 看護学科・栄養学科の共通テスト方式。英語必須、数学（IA）・国語（現代文）から1、理科（基礎2科目または物理・化学・生物・地学）1。満点300。",
+"year": "2027年度入試"
 }
 },
 "奥羽大学": {
@@ -223852,7 +223883,9 @@ null
 "money": "2026-11-12",
 "access": "2026-11-08",
 "careers": "2026-11-08",
-"_via": "2026-11-12"
+"_via": "2026-11-12",
+"students": "2026-11-24",
+"founded": "2026-11-24"
 },
 "departments": [
 {
@@ -223941,8 +223974,14 @@ null
 "https://passnavi.obunsha.co.jp/univ/1840/department/",
 "https://passnavi.obunsha.co.jp/univ/1840/difficulty/",
 "https://www.ohu-u.ac.jp/visiter/pdf/exam_2027.pdf",
-"https://manabi.benesse.ne.jp/daigaku/school/3099/nyushi/hoshiki/ippan/"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3099/nyushi/hoshiki/ippan/",
+"https://search.keinet.ne.jp/2096/outline/department"
+],
+"students": {
+"count": 673,
+"year": 2025
+},
+"founded": "1972年 東北歯科大学として開学（1988年 文学部設置、1989年 奥羽大学に改称、2005年 薬学部設置）"
 },
 "宮城学院女子大学": {
 "faculties": [
@@ -223958,7 +223997,12 @@ null
 "schedule": "2026-11-12",
 "money": "2026-11-12",
 "access": "2026-11-08",
-"_via": "2026-11-08"
+"_via": "2026-11-08",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"careers": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "departments": [
 {
@@ -224180,8 +224224,65 @@ null
 "https://news.mgu.ac.jp/entrance/wp-content/uploads/sites/21/2026/07/suisen2027.pdf",
 "https://news.mgu.ac.jp/entrance/news/7222.html",
 "https://manabi.benesse.ne.jp/daigaku/school/3073/nyushi/gakugei/",
-"https://manabi.benesse.ne.jp/daigaku/school/3073/gakuhi/"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3073/gakuhi/",
+"https://search.keinet.ne.jp/2061/outline/licential",
+"https://search.keinet.ne.jp/2061/outline/admission_employment",
+"https://search.keinet.ne.jp/2061/general/exam_subject"
+],
+"students": {
+"count": 2905,
+"year": 2025
+},
+"founded": "1886年 宮城女学校として設立認可（1949年 宮城学院女子大学 学芸学部を設置、2016年 4学部9学科に改組）",
+"licenses": [
+"保育士（資格）",
+"幼稚園教諭一種",
+"小学校教諭一種",
+"中学校教諭（英語）一種",
+"特別支援学校教諭一種",
+"学校図書館司書教諭一種（資格）",
+"社会福祉士（受験資格）",
+"社会福祉主事（資格）",
+"児童福祉司（資格）",
+"認定心理士（資格）",
+"中学校教諭（保健体育）一種",
+"高等学校教諭（保健体育）一種",
+"養護教諭一種",
+"中学校教諭（国語）一種",
+"高等学校教諭（国語）一種",
+"司書（資格）",
+"学芸員（資格）",
+"高等学校教諭（英語）一種",
+"中学校教諭（社会）一種",
+"高等学校教諭（地理歴史）一種",
+"高等学校教諭（公民）一種",
+"社会調査士（資格）",
+"公認心理師（受験資格）",
+"中学校教諭（音楽）一種",
+"高等学校教諭（音楽）一種",
+"栄養教諭一種",
+"食品衛生監視員（資格）",
+"管理栄養士（受験資格）",
+"栄養士（資格）",
+"中学校教諭（家庭）一種",
+"高等学校教諭（家庭）一種",
+"一級建築士（受験資格）",
+"二級建築士（受験資格）",
+"木造建築士（受験資格）"
+],
+"careers": "2024年度卒業生684名のうち607名が就職（教育学部89.9%、学芸学部83.5%、現代ビジネス学部90.2%、生活科学部96.1%）、進学は18名。Kei-Netに主な就職先の掲載はない。",
+"kyotsu": {
+"kamoku": "3教科3科目",
+"kyoka": [
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語R:L=1:1（R50・L50、英語文化コミュニケーション学科はR100・L100）",
+"note": "英語・国語必須＋数学・理科・地歴公民・情報から1（音楽科は地歴公民・情報から1）。",
+"year": "2027年度入試"
+}
 },
 "富士大学": {
 "faculties": [
@@ -224194,7 +224295,10 @@ null
 "schedule": "2026-11-12",
 "money": "2026-11-12",
 "careers": "2026-11-08",
-"_via": "2026-11-08"
+"_via": "2026-11-08",
+"students": "2026-11-24",
+"licenses": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "departments": [
 {
@@ -224283,8 +224387,37 @@ null
 "https://www.fuji-u.ac.jp/assets/pdf/admissions/exam-overview.pdf",
 "https://manabi.benesse.ne.jp/daigaku/school/3057/nyushi/hoshiki/ippan/",
 "https://manabi.benesse.ne.jp/daigaku/school/3057/nyushi/",
-"https://manabi.benesse.ne.jp/daigaku/school/3057/gakuhi/"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3057/gakuhi/",
+"https://search.keinet.ne.jp/2042/outline/department",
+"https://search.keinet.ne.jp/2042/general/exam_subject"
+],
+"students": {
+"count": 595,
+"year": 2025
+},
+"licenses": [
+"中学校教諭（社会）一種",
+"高等学校教諭（地理歴史）一種",
+"高等学校教諭（公民）一種",
+"司書（資格）",
+"社会福祉主事（資格）",
+"中学校教諭（保健体育）一種",
+"高等学校教諭（保健体育）一種",
+"高等学校教諭（商業）一種"
+],
+"kyotsu": {
+"kamoku": "1教科2科目〜2教科2科目",
+"kyoka": [
+1,
+2
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語R:L=1:1（R50・L50）",
+"note": "経済経営学部 経済学科・経営法学科のⅠ期・Ⅱ期共テ。英・数・国・地歴公民（2科目まで）・情報から2科目、満点200。2027年4月に「いわて富士大学」へ名称変更予定。",
+"year": "2027年度入試"
+}
 },
 "尚絅学院大学": {
 "faculties": [
@@ -224299,7 +224432,12 @@ null
 "schedule": "2026-11-12",
 "access": "2026-11-08",
 "_via": "2026-11-08",
-"money": "2026-11-12"
+"money": "2026-11-12",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"careers": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "departments": [
 {
@@ -224378,7 +224516,10 @@ null
 "https://www.shokei.jp/admission/exam/files/kyotsu_zenki.pdf",
 "https://www.shokei.jp/admission/exam/files/kyotsu_kouki.pdf?2027v2",
 "https://manabi.benesse.ne.jp/daigaku/school/3076/nyushi/index.html",
-"https://passnavi.obunsha.co.jp/univ/1745/expense/"
+"https://passnavi.obunsha.co.jp/univ/1745/expense/",
+"https://search.keinet.ne.jp/2064/outline/licential",
+"https://search.keinet.ne.jp/2064/outline/admission_employment",
+"https://search.keinet.ne.jp/2064/general/exam_subject"
 ],
 "money": {
 "year": "2027年度",
@@ -224435,6 +224576,49 @@ null
 }
 ],
 "note": "旺文社パスナビ（2027年度、2026年9月時点の調査）。施設費に教育充実費5万円を含む。諸会費は学生会費・尚学会費・後援会費・同窓会前納金・オリエンテーション経費（保険料等）。実習費は掲載なし（―）。一般選抜（前期）は分割納入可"
+},
+"students": {
+"count": 1695,
+"year": 2025
+},
+"founded": "1892年 尚絅女学会として創立（1950年 短期大学を設置、2003年 尚絅学院大学 総合人間科学部を開設、2019年 3学群5学類制に改編）",
+"licenses": [
+"公認心理師（受験資格）",
+"認定心理士（資格）",
+"保育士（資格）",
+"幼稚園教諭一種",
+"小学校教諭一種",
+"中学校教諭（国語）一種",
+"中学校教諭（保健体育）一種",
+"特別支援学校教諭一種",
+"中学校教諭（社会）一種",
+"中学校教諭（英語）一種",
+"高等学校教諭（地理歴史）一種",
+"高等学校教諭（公民）一種",
+"高等学校教諭（英語）一種",
+"社会調査士（資格）",
+"社会教育主事（資格）",
+"学芸員（資格）",
+"栄養教諭一種",
+"食品衛生監視員（資格）",
+"管理栄養士（受験資格）",
+"栄養士(資格）",
+"フードスペシャリスト（資格）"
+],
+"careers": "2024年度卒業者の就職者比率は心理・教育学群93.3%（卒業194人中就職172人）、人文社会学群95.9%（194人中176人）、健康栄養学群97.8%（91人中86人）。主な就職先の記載はなし。",
+"kyotsu": {
+"kamoku": "1教科2科目〜3教科3科目",
+"kyoka": [
+1,
+2,
+3
+],
+"rl": [
+"4:1"
+],
+"rl_text": "英語R:L=4:1（R80・L20）",
+"note": "全学類で前期－共テ（3科目、300点：心理・子ども・学校教育・人文社会は英語・国語必須＋数・理・地歴公民・情報Ⅰから1）と後期－共テ（2科目、200点：心理・子ども・学校教育は英語・国語）。人文社会の後期は英語か国語を含む2科目。健康栄養は前期が英語必須＋国・数・理・情から2、後期が英・国・数・理・情から2（理科は化学か生物を含む条件あり）。",
+"year": "2027年度入試"
 }
 },
 "フェリス女学院大学": {
@@ -224455,7 +224639,8 @@ null
 "research": "2026-11-08",
 "licenses": "2026-11-08",
 "careers": "2026-11-08",
-"schedule": "2026-11-11"
+"schedule": "2026-11-11",
+"kyotsu": "2026-11-24"
 },
 "faculties": [
 "グローバル教養学部"
@@ -224535,7 +224720,8 @@ null
 "https://passnavi.obunsha.co.jp/univ/3360/department/",
 "https://passnavi.obunsha.co.jp/univ/3360/expense/",
 "https://passnavi.obunsha.co.jp/univ/3360/suisen/",
-"https://manabi.benesse.ne.jp/daigaku/school/3377/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3377/nyushi/index.html",
+"https://search.keinet.ne.jp/2320/general/exam_subject"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -224623,6 +224809,18 @@ null
 }
 ],
 "note": "グローバル教養学部（3学科共通の日程）。出典：マナビジョン（2027年度入試）。同時出願できる方式の併願は1方式につき10,000円との記載あり（基本の検定料は記載なし）"
+},
+"kyotsu": {
+"kamoku": "1教科2科目〜3教科3科目",
+"kyoka": [
+1,
+2,
+3
+],
+"rl": [],
+"rl_text": "英語100点（R・Lの内訳は掲載なし）",
+"note": "各学科（国際社会・心理コミュニケーション・文化表現）で前期3科目型－共テ（2,3教科3科目、300点）と後期2科目型－共テ（1,2教科2科目、200点）。英・数2・国・理2・地公2・情から選択。英語資格・検定試験の換算あり（100点）。",
+"year": "2027年度入試"
 }
 },
 "ビューティ＆ウェルネス専門職大学": {
@@ -224794,7 +224992,8 @@ null
 "research": "2026-11-08",
 "licenses": "2026-11-08",
 "careers": "2026-11-08",
-"schedule": "2026-11-11"
+"schedule": "2026-11-11",
+"kyotsu": "2026-11-24"
 },
 "faculties": [
 "動物看護学部"
@@ -224860,7 +225059,8 @@ null
 "https://search.keinet.ne.jp/2326/outline/admission_employment",
 "https://univ.yamazaki.ac.jp/univ/about/course/",
 "https://manabi.benesse.ne.jp/daigaku/school/3341/syusyoku/",
-"https://telemail.jp/shingaku/university/10010810/examination/general"
+"https://telemail.jp/shingaku/university/10010810/examination/general",
+"https://search.keinet.ne.jp/2326/general/exam_subject"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -224912,6 +225112,16 @@ null
 }
 ],
 "note": "出典：テレメール（2027年度一般選抜、2026/7/31時点）。両学科同じ日程。出願は願書必着。検定料は記載なし"
+},
+"kyotsu": {
+"kamoku": "2教科2科目",
+"kyoka": [
+2
+],
+"rl": [],
+"rl_text": "外国語100点（R・Lの内訳は掲載なし）",
+"note": "動物看護学科（募集3）・動物人間関係学科（募集2）とも2教科2科目・200点。英語・数学（IAまたはⅡBC）・国語（現代文）・理科（理科基礎または化学・生物）から選択。理科基礎を選ぶ場合は化学基礎か生物基礎を含む。",
+"year": "2027年度入試"
 }
 },
 "三育学院大学": {
