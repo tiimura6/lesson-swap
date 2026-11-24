@@ -19340,6 +19340,134 @@
 "difficulty"
 ],
 "keinet": "2317"
+},
+{
+"name": "ぐんま未来大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2130"
+},
+{
+"name": "桐朋学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2263"
+},
+{
+"name": "松蔭大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2322"
+},
+{
+"name": "東都大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2142"
+},
+{
+"name": "東邦音楽大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2155"
+},
+{
+"name": "東邦大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2264"
+},
+{
+"name": "横浜商科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2321",
+"fails": 1,
+"last_fail": "2026-11-25",
+"note": "2026-11-25 Kei-Net 2321の学部・トップ・資格・就職・共テ科目ページが取得できず（アクセス拒否）。マナビジョンID 3378は未確認"
+},
+{
+"name": "横浜創英大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2329",
+"fails": 1,
+"last_fail": "2026-11-25",
+"note": "2026-11-25 Kei-Net 2329の各ページが取得できず。マナビジョン3384は学部名と新入生数のみで、学生総数・沿革・特色・資格・就職・共テ科目の記載なし"
 }
 ],
 "failed": [],
@@ -19619,98 +19747,6 @@
 "横浜商科大学": 1
 },
 "enrich": [
-{
-"name": "ぐんま未来大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
-],
-"keinet": "2130"
-},
-{
-"name": "桐朋学園大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
-],
-"keinet": "2263"
-},
-{
-"name": "松蔭大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"kyotsu",
-"difficulty"
-],
-"keinet": "2322"
-},
-{
-"name": "東都大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers",
-"kyotsu"
-],
-"keinet": "2142"
-},
-{
-"name": "東邦音楽大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
-],
-"keinet": "2155"
-},
-{
-"name": "東邦大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers",
-"kyotsu"
-],
-"keinet": "2264"
-},
 {
 "name": "東海大学",
 "need": [
@@ -36135,42 +36171,6 @@
 "fails": 1,
 "last_fail": "2026-11-20",
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
-},
-{
-"name": "横浜商科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers",
-"kyotsu"
-],
-"keinet": "2321",
-"fails": 1,
-"last_fail": "2026-11-25",
-"note": "2026-11-25 Kei-Net 2321の学部・トップ・資格・就職・共テ科目ページが取得できず（アクセス拒否）。マナビジョンID 3378は未確認"
-},
-{
-"name": "横浜創英大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers",
-"kyotsu"
-],
-"keinet": "2329",
-"fails": 1,
-"last_fail": "2026-11-25",
-"note": "2026-11-25 Kei-Net 2329の各ページが取得できず。マナビジョン3384は学部名と新入生数のみで、学生総数・沿革・特色・資格・就職・共テ科目の記載なし"
 },
 {
 "name": "島根大学",
