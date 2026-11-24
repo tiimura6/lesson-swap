@@ -18333,6 +18333,61 @@
 "keinet": "2022",
 "note": "2026-11-24 Kei-Net /2022・/2022/outline/department と大学公式 tenshi.ac.jp が今回開けず。大学ポートレート英語版は設立年・学生数が空欄",
 "done": "2026-11-24"
+},
+{
+"name": "上武大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2135",
+"done": "2026-11-24"
+},
+{
+"name": "中央学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2181",
+"done": "2026-11-24"
+},
+{
+"name": "二松学舎大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2266",
+"done": "2026-11-24"
+},
+{
+"name": "亜細亜大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2199",
+"done": "2026-11-24"
+},
+{
+"name": "人間総合科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2145",
+"done": "2026-11-24"
 }
 ],
 "failed": [],
@@ -18602,79 +18657,11 @@
 "SBC東京医療大学": 1,
 "グローバルBiz専門職大学": 2,
 "天使大学": 1,
-"ビューティ＆ウェルネス専門職大学": 1
+"ビューティ＆ウェルネス専門職大学": 2,
+"亀田医療大学": 1,
+"三育学院大学": 1
 },
 "enrich": [
-{
-"name": "三育学院大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu"
-],
-"keinet": "2132"
-},
-{
-"name": "上武大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu"
-],
-"keinet": "2135"
-},
-{
-"name": "中央学院大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu"
-],
-"keinet": "2181"
-},
-{
-"name": "亀田医療大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu"
-],
-"keinet": "2128"
-},
-{
-"name": "二松学舎大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu"
-],
-"keinet": "2266"
-},
-{
-"name": "亜細亜大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu"
-],
-"keinet": "2199"
-},
-{
-"name": "人間総合科学大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu"
-],
-"keinet": "2145"
-},
 {
 "name": "作新学院大学",
 "need": [
@@ -36209,18 +36196,30 @@
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
 },
 {
-"name": "ビューティ＆ウェルネス専門職大学",
+"name": "亀田医療大学",
 "need": [
 "gap_keinet"
 ],
 "fields": [
-"careers",
 "kyotsu"
 ],
-"keinet": "2344",
+"keinet": "2128",
 "fails": 1,
 "last_fail": "2026-11-24",
-"note": "2026-11-24 2026-11-24 Kei-Net /2344 に進学・就職実績ページなし（2023年開学で卒業生未輩出の可能性）。/2344/general/exam_subject は個別試験のみで共通テスト利用なし（kyotsuは無しが正しい）"
+"note": "2026-11-24 2026-11-24 Kei-Net /2128/general/exam_subject は看護学科のⅠⅡ期・Ⅲ期とも個別試験のみで共通テスト利用なし（kyotsuは無しが正しい）"
+},
+{
+"name": "三育学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2132",
+"fails": 1,
+"last_fail": "2026-11-24",
+"note": "2026-11-24 2026-11-24 Kei-Net /2132/general/exam_subject が検索結果に出ず、今回の取得環境では開けなかった"
 },
 {
 "name": "島根大学",
@@ -37935,6 +37934,21 @@
 "fails": 2,
 "last_fail": "2026-11-24",
 "note": "2026-11-24 Kei-Netの学部ページは学科名と定員のみ（学生数・特色なし）、資格・進路ページはリンク先が空、入試科目ページに共テ利用方式の掲載なし、ボーダーは「-」。大学公式は今回開けず／2026-11-24 マナビジョンは学科名・所在地・偏差値（ベネッセ基準）のみで特色・学生数・資格・進路・共テ利用なし。大学公式 gpu.ac.jp は今回開けず",
+"deferred": true
+},
+{
+"name": "ビューティ＆ウェルネス専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"careers",
+"kyotsu"
+],
+"keinet": "2344",
+"fails": 2,
+"last_fail": "2026-11-24",
+"note": "2026-11-24 2026-11-24 Kei-Net /2344 に進学・就職実績ページなし（2023年開学で卒業生未輩出の可能性）。/2344/general/exam_subject は個別試験のみで共通テスト利用なし（kyotsuは無しが正しい）／2026-11-24 2026-11-24 今回は再取得せず（前回の確認どおり進学・就職実績ページなし、共通テスト利用なし）",
 "deferred": true
 }
 ],
