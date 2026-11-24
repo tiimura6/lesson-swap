@@ -33333,7 +33333,8 @@
 "https://www.shinshu-u.ac.jp/ad_portal/news/R06toukei_1-14.pdf",
 "https://search.keinet.ne.jp/1225/general/exam_result",
 "https://search.keinet.ne.jp/1225/outline/opencampus",
-"https://www.shinshu-u.ac.jp/faculty/education/news/docs/R8opencampus.pdf"
+"https://www.shinshu-u.ac.jp/faculty/education/news/docs/R8opencampus.pdf",
+"https://www.shinshu-u.ac.jp/ad_portal/docs/R9kyoukakamoku.pdf"
 ],
 "kyotsu": {
 "kamoku": "人文学部前期は3〜4教科3〜4科目、経法学部は5〜6教科7科目、教育学部は選択型",
@@ -33354,18 +33355,18 @@
 {
 "kubun": "一般",
 "name": "前期日程",
-"kyotsu": "5〜6教科7科目が中心（人文は3〜4科目）",
-"niji": "人文：総合問題／経法：英・数・国から1科目／教育：総合問題または実技・面接（数学・理科等は教科）／理・数学科：数学",
-"haiten": "共テ重視の学部が多い（経法 900:250、教育 950:350、理・数学 925:615、人文は500:450）",
-"note": "調査書を点数化（15〜50点）。工・農・繊維・医などの配点はKei-Netページが途中で切れて未確認"
+"kyotsu": "多くの学部・学科で8科目（6教科8科目相当）。経法・医（理学療法・作業療法）は7科目、人文は6科目（大学資料の表から数えた目安）",
+"niji": "人文：総合問題／経法：英・数・国から1科目／教育：総合問題または実技・面接（数学・理科等は教科）／理：数学科は数学、物理・化学は物理・化学、地球・生物は理科1科目／工：数学＋理科（物理または化学、コースにより物理）、情報系2コースは数学のみ／農：数学・理科（計400点）／繊維：数学＋理科1科目（応用生物科学科は理科2科目）／医学科：数学・理科・外国語・面接／保健学科：看護は数学または英語、検査技術・理学療法は数学＋英語、作業療法は英語＋面接",
+"haiten": "共テ重視の学部が多い（人文 500:450、経法 900:250、教育 950:350、理 925:415〜615、工 700:590、農 900:450、繊維 950:830、医学科 500:600、保健学科 500:250〜450、学環 950:400）",
+"note": "理・工・農・繊維・保健学科などは調査書を点数化（15〜50点、学習成績の状況の概評で加点率A100%〜E36%）。医学科は志願者が募集人員の約4倍を超えると共テで第1段階選抜、志願調書は面接の参考"
 },
 {
 "kubun": "一般",
 "name": "後期日程",
-"kyotsu": "6〜7科目",
-"niji": "小論文（人文）、面接（教育）、数学・理科（理・数学科）",
-"haiten": "人文 450:250、教育 950:400、理・数学 925:765",
-"note": "確認できた範囲では人文・教育（一部専攻）・理（数学科）で実施"
+"kyotsu": "7〜8科目（大学資料の表から数えた目安）",
+"niji": "人文：小論文／教育：面接（一部専攻）／理：数学科は数学＋理科、理学科は数学＋理科／工：数学（応用化学・環境エネルギー材料は数学または化学）／農：化学または生物（地域協創特別コースは前期のみ）／繊維：数学＋理科／保健学科（看護・検査技術・作業療法）：面接",
+"haiten": "人文 450:250、教育 950:400、理 925:515〜815、工 800:300、農 900:250、繊維 950:515、保健学科 500:200（検査技術 850:200）",
+"note": "経法・医学科・保健学科理学療法学専攻・サステナブル社会協創学環は後期なし。教育学部の後期配点は大学資料内で1300点と1350点の記載があり要確認"
 },
 {
 "kubun": "推薦",
@@ -33400,8 +33401,8 @@
 "note": "理（物理・化学・地球・生物）・サステナブル社会協創学環"
 }
 ],
-"summary": "一般は共テ重視型の学部が多く調査書も点数化。推薦・総合型とも共テなし型とあり型が学部ごとに並ぶ。",
-"note": "一般選抜はKei-Netページが途中で切れ、工・農・繊維・医・理（数学以外）の科目配点は未確認"
+"summary": "一般は共テ重視型の学部が多く（医学科・繊維は個別の比重も大きい）、理・工・農・繊維・保健学科などは調査書も点数化。推薦・総合型とも共テなし型とあり型が学部ごとに並ぶ。",
+"note": "一般選抜は令和9年度選抜要項・教科科目表（大学公式）で全学部の配点を確認。推薦・総合型の行は今回は再確認しておらず従来の記述のまま（未確認）"
 },
 "departments": [
 {
@@ -33944,7 +33945,8 @@
 "licenses": "2026-11-14",
 "careers": "2026-11-14",
 "scholar": "2026-11-19",
-"oc": "2026-11-24"
+"oc": "2026-11-24",
+"methods": "2026-11-24"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -220630,7 +220632,11 @@ null
 "money": "2026-11-12",
 "access": "2026-11-08",
 "careers": "2026-11-08",
-"_via": "2026-11-08"
+"_via": "2026-11-08",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "departments": [
 {
@@ -220804,8 +220810,39 @@ null
 "https://www.sapporo-hokeniryou-u.ac.jp/admission/schedule",
 "https://www.sapporo-hokeniryou-u.ac.jp/uploads/files/career/%E5%85%A5%E5%AD%A6%E8%A9%A6%E9%A8%93%E6%A6%82%E8%A6%81%E3%83%BB%E7%8A%B6%E6%B3%81.pdf",
 "https://manabi.benesse.ne.jp/daigaku/school/3025/nyushi/index.html",
-"https://passnavi.obunsha.co.jp/search_univ/cost-list?page=2"
-]
+"https://passnavi.obunsha.co.jp/search_univ/cost-list?page=2",
+"https://search.keinet.ne.jp/2025/outline/department",
+"https://search.keinet.ne.jp/2025/outline/licential",
+"https://search.keinet.ne.jp/2025/general/exam_subject"
+],
+"students": {
+"count": 538,
+"year": 2025
+},
+"founded": "2013年 看護学部看護学科の単科大学として開学（2017年 看護学部を保健医療学部に改称し栄養学科を設置）",
+"licenses": [
+"養護教諭一種",
+"養護教諭二種",
+"看護師（受験資格）",
+"保健師（受験資格）",
+"栄養教諭一種",
+"食品衛生監視員（資格）",
+"管理栄養士（受験資格）",
+"栄養士（資格）"
+],
+"kyotsu": {
+"kamoku": "2教科2科目〜3教科3科目",
+"kyoka": [
+2,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語R:L=1:1（R50・L50）",
+"note": "看護学科3教科3科目、栄養学科2教科2科目",
+"year": "2027年度入試"
+}
 },
 "グローバルBiz専門職大学": {
 "faculties": [
@@ -220911,7 +220948,8 @@ null
 "tuition": "2026-11-08",
 "careers": "2026-11-08",
 "money": "2026-11-08",
-"schedule": "2026-11-18"
+"schedule": "2026-11-18",
+"kyotsu": "2026-11-24"
 },
 "faculties": [
 "デジタルコミュニケーション学部"
@@ -221016,7 +221054,20 @@ null
 "https://www.dhw.ac.jp/feature/system/",
 "https://www.dhw.ac.jp/employment/",
 "https://manabi.benesse.ne.jp/daigaku/school/3336/nyushi/index.html"
-]
+],
+"kyotsu": {
+"kamoku": "2教科2科目〜3教科3科目",
+"kyoka": [
+2,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語R:L=1:1（R50・L50）",
+"note": "1期・2期共テは3教科3科目、3期共テは2教科2科目",
+"year": "2027年度入試"
+}
 },
 "札幌国際大学": {
 "faculties": [
@@ -221033,7 +221084,11 @@ null
 "money": "2026-11-12",
 "access": "2026-11-08",
 "careers": "2026-11-08",
-"_via": "2026-11-08"
+"_via": "2026-11-08",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "departments": [
 {
@@ -221229,8 +221284,40 @@ null
 "https://www.siu.ac.jp/pamphlet/nyushi_guide2027/pageindices/index3.html",
 "https://manabi.benesse.ne.jp/daigaku/school/3004/nyushi/index.html",
 "https://search.keinet.ne.jp/2016/outline/expense",
-"https://passnavi.obunsha.co.jp/search_univ/cost-list?page=2"
-]
+"https://passnavi.obunsha.co.jp/search_univ/cost-list?page=2",
+"https://search.keinet.ne.jp/2016/outline/department",
+"https://search.keinet.ne.jp/2016/outline/licential",
+"https://search.keinet.ne.jp/2016/general/exam_subject"
+],
+"students": {
+"count": 1700,
+"year": 2025
+},
+"founded": "1969年 札幌静修短期大学として開学（1993年 静修女子大学開学、1997年 現校名に改称）",
+"licenses": [
+"司書（資格）",
+"社会教育主事（資格）",
+"学芸員（資格）",
+"公認心理師（受験資格）",
+"認定心理士（資格）",
+"保育士（資格）",
+"幼稚園教諭一種",
+"中学校教諭（保健体育）一種",
+"高等学校教諭（保健体育）一種"
+],
+"kyotsu": {
+"kamoku": "1〜2教科2科目",
+"kyoka": [
+1,
+2
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語R:L=1:1（R50・L50）",
+"note": "全学科共通：英・数2・国・地公2・情から2科目",
+"year": "2027年度入試"
+}
 },
 "札幌大学": {
 "faculties": [
@@ -221245,7 +221332,11 @@ null
 "money": "2026-11-12",
 "access": "2026-11-08",
 "careers": "2026-11-08",
-"_via": "2026-11-08"
+"_via": "2026-11-08",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "departments": [
 {
@@ -221397,8 +221488,43 @@ null
 "https://passnavi.obunsha.co.jp/univ/1520/schedule/",
 "https://manabi.benesse.ne.jp/daigaku/school/3002/nyushi/hoshiki/ippan/index.html",
 "https://www.sapporo-u.ac.jp/img/2027_shogakusei.pdf",
-"https://passnavi.obunsha.co.jp/search_univ/cost-list?page=2"
-]
+"https://passnavi.obunsha.co.jp/search_univ/cost-list?page=2",
+"https://search.keinet.ne.jp/2002/outline/department",
+"https://search.keinet.ne.jp/2002/outline/licential",
+"https://search.keinet.ne.jp/2002/general/exam_subject"
+],
+"students": {
+"count": 2872,
+"year": 2025
+},
+"founded": "1967年 札幌大学として開学（2013年 地域共創学群を設置）",
+"licenses": [
+"学芸員（資格）",
+"高等学校教諭（情報）一種",
+"高等学校教諭（商業）一種",
+"特別支援学校教諭一種",
+"中学校教諭（社会）一種",
+"高等学校教諭（公民）一種",
+"中学校教諭（英語）一種",
+"高等学校教諭（英語）一種",
+"高等学校教諭（地理歴史）一種",
+"中学校教諭（国語）一種",
+"高等学校教諭（国語）一種",
+"中学校教諭（保健体育）一種",
+"高等学校教諭（保健体育）一種"
+],
+"kyotsu": {
+"kamoku": "2教科2科目",
+"kyoka": [
+2
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語R:L=1:1（R100・L100）",
+"note": "英・数・国・理・地公・情から2科目（英語専攻は英語必須＋1科目、日本語・日本文化専攻は国語必須＋1科目）",
+"year": "2027年度入試"
+}
 },
 "札幌大谷大学": {
 "faculties": [
@@ -221414,7 +221540,11 @@ null
 "money": "2026-11-08",
 "access": "2026-11-08",
 "careers": "2026-11-08",
-"_via": "2026-11-08"
+"_via": "2026-11-08",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "departments": [
 {
@@ -221568,8 +221698,34 @@ null
 "https://telemail.jp/shingaku/university/10100162/examination/general",
 "https://www.sapporo-otani.ac.jp/access/",
 "https://telemail.jp/shingaku/university/10000162/examination/general",
-"https://search.keinet.ne.jp/2024/general/schedule"
-]
+"https://search.keinet.ne.jp/2024/general/schedule",
+"https://search.keinet.ne.jp/2024/outline/department",
+"https://search.keinet.ne.jp/2024/outline/licential",
+"https://search.keinet.ne.jp/2024/general/exam_subject"
+],
+"students": {
+"count": 770,
+"year": 2025
+},
+"founded": "2006年 札幌大谷大学（音楽学部）として開学（前身は1961年開学の札幌大谷短期大学、起源は1906年の私立北海女学校。2027年4月 札幌芸術大学に改称予定）",
+"licenses": [
+"中学校教諭（音楽）一種",
+"高等学校教諭（音楽）一種",
+"中学校教諭（美術）一種",
+"高等学校教諭（美術）一種"
+],
+"kyotsu": {
+"kamoku": "2教科2科目",
+"kyoka": [
+2
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語R:L=1:1（R50・L50）",
+"note": "共テ利用は音楽総合・美術・デザイン（メディア／ソーシャル）のみ。音楽のピアノ・声楽・管弦打楽・電子オルガン・作曲は共テ利用なし",
+"year": "2027年度入試"
+}
 },
 "札幌学院大学": {
 "faculties": [
@@ -221587,7 +221743,11 @@ null
 "money": "2026-11-12",
 "access": "2026-11-08",
 "careers": "2026-11-08",
-"_via": "2026-11-08"
+"_via": "2026-11-08",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "departments": [
 {
@@ -221780,8 +221940,46 @@ null
 "https://search.keinet.ne.jp/2003/outline/campus",
 "https://www.sgu.ac.jp/entrance/exam/ge-exam.html",
 "https://telemail.jp/shingaku/university/10000005/examination/general",
-"https://manabi.benesse.ne.jp/daigaku/school/3003/nyushi/index.html"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3003/nyushi/index.html",
+"https://search.keinet.ne.jp/2003/outline/department",
+"https://search.keinet.ne.jp/2003/outline/licential",
+"https://search.keinet.ne.jp/2003/general/exam_subject"
+],
+"students": {
+"count": 2972,
+"year": 2025
+},
+"founded": "1946年 札幌文科専門学院として創立、1968年 札幌商科大学として開学（1984年 札幌学院大学に改称）",
+"licenses": [
+"公認心理師（受験資格）",
+"精神保健福祉士（受験資格）",
+"社会福祉士（受験資格）",
+"認定心理士（資格）",
+"社会福祉主事（資格）",
+"児童福祉司（資格）",
+"保育士（資格）",
+"小学校教諭一種",
+"中学校教諭（社会）一種",
+"中学校教諭（英語）一種",
+"高等学校教諭（地理歴史）一種",
+"高等学校教諭（公民）一種",
+"高等学校教諭（英語）一種",
+"高等学校教諭（商業）一種",
+"特別支援学校教諭一種",
+"社会調査士（資格）",
+"社会教育主事（資格）",
+"学芸員（資格）"
+],
+"kyotsu": {
+"kamoku": "3教科3科目",
+"kyoka": [
+3
+],
+"rl": [],
+"rl_text": "多くの学科は英語R200のみの記載（L配点の記載なし）。英語英米文学科はR100・L100（1:1）",
+"note": "全学部・学科で共テ利用入試を実施。数・理・地公・情から1。L配点の記載は英語英米文学科のみ",
+"year": "2027年度入試"
+}
 },
 "東北医科薬科大学": {
 "faculties": [
@@ -221797,7 +221995,11 @@ null
 "money": "2026-11-12",
 "access": "2026-11-08",
 "careers": "2026-11-08",
-"_via": "2026-11-08"
+"_via": "2026-11-08",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "departments": [
 {
@@ -221987,8 +222189,38 @@ null
 "https://search.keinet.ne.jp/2059/outline/campus",
 "https://telemail.jp/shingaku/university/10000183/examination/general",
 "https://manabi.benesse.ne.jp/daigaku/school/3072/gakuhi/",
-"https://manabi.benesse.ne.jp/daigaku/school/3072/nyushi/"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3072/nyushi/",
+"https://search.keinet.ne.jp/2059/outline/department",
+"https://search.keinet.ne.jp/2059/outline/licential",
+"https://search.keinet.ne.jp/general/exam_subject/2059"
+],
+"students": {
+"count": 2522,
+"year": 2025
+},
+"founded": "1939年 東北薬学専門学校として創立、1949年 東北薬科大学として開学（2016年 東北医科薬科大学に改称）",
+"licenses": [
+"医師(受験資格）",
+"薬剤師(受験資格）",
+"食品衛生監視員（資格）",
+"バイオ技術者認定試験（資格）",
+"看護師(受験資格）",
+"保健師(受験資格）",
+"養護教諭二種"
+],
+"kyotsu": {
+"kamoku": "3教科3科目〜4教科6科目",
+"kyoka": [
+3,
+4
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語R:L=1:1（R100・L100）",
+"note": "医学科4教科6科目、薬学科・生命薬科学科3教科5科目、看護学科3教科3科目",
+"year": "2027年度入試"
+}
 },
 "東北学院大学": {
 "faculties": [
