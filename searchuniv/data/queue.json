@@ -18143,6 +18143,96 @@
 ],
 "keinet": "2059",
 "done": "2026-11-24"
+},
+{
+"name": "東北学院大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2056",
+"done": "2026-11-24"
+},
+{
+"name": "東北工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2057",
+"done": "2026-11-24"
+},
+{
+"name": "東北文化学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2063",
+"done": "2026-11-24"
+},
+{
+"name": "東北文教大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2082",
+"done": "2026-11-24"
+},
+{
+"name": "東北生活文化大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2060",
+"done": "2026-11-24"
+},
+{
+"name": "医療創生大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"kyotsu"
+],
+"keinet": "2094",
+"done": "2026-11-24"
 }
 ],
 "failed": [],
@@ -18410,107 +18500,10 @@
 "名古屋造形大学": 1,
 "アール医療専門職大学": 1,
 "SBC東京医療大学": 1,
-"グローバルBiz専門職大学": 1
+"グローバルBiz専門職大学": 2,
+"天使大学": 1
 },
 "enrich": [
-{
-"name": "東北学院大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu"
-],
-"keinet": "2056"
-},
-{
-"name": "東北工業大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu"
-],
-"keinet": "2057"
-},
-{
-"name": "東北文化学園大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu"
-],
-"keinet": "2063"
-},
-{
-"name": "東北文教大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu"
-],
-"keinet": "2082"
-},
-{
-"name": "東北生活文化大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu"
-],
-"keinet": "2060"
-},
-{
-"name": "医療創生大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu"
-],
-"keinet": "2094"
-},
-{
-"name": "天使大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"kyotsu"
-],
-"keinet": "2022"
-},
 {
 "name": "奥羽大学",
 "need": [
@@ -36204,22 +36197,21 @@
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
 },
 {
-"name": "グローバルBiz専門職大学",
+"name": "天使大学",
 "need": [
 "gap_keinet"
 ],
 "fields": [
 "research",
 "students",
+"founded",
 "licenses",
-"careers",
-"kyotsu",
-"difficulty"
+"kyotsu"
 ],
-"keinet": "2197",
+"keinet": "2022",
 "fails": 1,
 "last_fail": "2026-11-24",
-"note": "2026-11-24 Kei-Netの学部ページは学科名と定員のみ（学生数・特色なし）、資格・進路ページはリンク先が空、入試科目ページに共テ利用方式の掲載なし、ボーダーは「-」。大学公式は今回開けず"
+"note": "2026-11-24 Kei-Net /2022・/2022/outline/department と大学公式 tenshi.ac.jp が今回開けず。大学ポートレート英語版は設立年・学生数が空欄"
 },
 {
 "name": "島根大学",
@@ -37915,6 +37907,25 @@
 "fails": 2,
 "last_fail": "2026-11-23",
 "note": "2026-11-23 Kei-Net のコードが検索結果に出ず（search.keinet.ne.jp 内の検索で該当ページなし）、候補ページは権限確認が通らず開けなかった／2026-11-23 2026-11-22 Kei-Net のコードが検索結果に出ず、候補（2355・2356）のページは権限確認が通らず開けなかった",
+"deferred": true
+},
+{
+"name": "グローバルBiz専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2197",
+"fails": 2,
+"last_fail": "2026-11-24",
+"note": "2026-11-24 Kei-Netの学部ページは学科名と定員のみ（学生数・特色なし）、資格・進路ページはリンク先が空、入試科目ページに共テ利用方式の掲載なし、ボーダーは「-」。大学公式は今回開けず／2026-11-24 マナビジョンは学科名・所在地・偏差値（ベネッセ基準）のみで特色・学生数・資格・進路・共テ利用なし。大学公式 gpu.ac.jp は今回開けず",
 "deferred": true
 }
 ],

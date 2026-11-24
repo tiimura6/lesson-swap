@@ -34321,7 +34321,9 @@
 "https://search.keinet.ne.jp/1230/outline/admission_employment",
 "https://search.keinet.ne.jp/1230/recommend/exam_ao",
 "https://manabi.benesse.ne.jp/daigaku/school/1255/nyushi/gokaku-happyo/index.html",
-"https://passnavi.obunsha.co.jp/univ/0470/scholarship/"
+"https://passnavi.obunsha.co.jp/univ/0470/scholarship/",
+"https://passnavi.obunsha.co.jp/univ/0470/opencampus/",
+"https://manabi.benesse.ne.jp/daigaku/school/1255/nyushi/hoshiki/ippan/"
 ],
 "kyotsu": {
 "kamoku": "人文社会科学部は文型（6教科8科目程度）、教育学部は選択型（6教科7〜8科目）",
@@ -34349,15 +34351,15 @@
 2.1,
 1
 ],
-"note": "代表値は教育学部。理・工・農・情報・グローバル共創の配点はKei-Netページが途中で切れて未確認"
+"note": "代表値は教育学部（6教科8・9科目950点、二次は国・数・英から2教科＋小論文、音楽・美術・保健体育は小論文＋実技、950:450）。情報学部 情報科学科は共テ625:二次550（数学300・英語250）。理・工・農・グローバル共創の配点は未確認"
 },
 {
 "kubun": "一般",
 "name": "後期日程",
 "kyotsu": "課す",
-"niji": "小論文（法学科）、面接（教育の一部課程）",
-"haiten": "法 二次小論文400、教育 二次面接400",
-"note": "確認できた範囲では人文社会・法学科と教育学部の一部課程のみ"
+"niji": "面接（教育の多くの専攻・専修）、数学（教育 数学教育専修、情報 情報科学科）、小論文（人文社会 法学科）",
+"haiten": "教育 950:400（美術教育は950:600）、情報科学科 900:400、法 二次小論文400",
+"note": "教育学部の一部専攻・専修と情報学部情報科学科で実施を今回確認。人文社会科学部法学科（小論文）は前回の内容で今回未確認。他学部の後期は出典ページが途中で切れて未確認"
 },
 {
 "kubun": "推薦",
@@ -34393,7 +34395,7 @@
 }
 ],
 "summary": "推薦は共テ必須型がほぼ全学部で主流。一般は前期中心で後期は一部のみ。総合型は限られた学科で実施。",
-"note": "一般選抜はKei-Netページが途中で切れ、理・工・農・情報・グローバル共創の科目配点は未確認"
+"note": "一般選抜は出典ページが途中で切れ、理・工・農・グローバル共創の科目配点は未確認。推薦・総合型は今回再確認できず前回の内容のまま"
 },
 "departments": [
 {
@@ -34925,7 +34927,9 @@
 "research": "2026-11-14",
 "licenses": "2026-11-14",
 "careers": "2026-11-14",
-"scholar": "2026-11-19"
+"scholar": "2026-11-19",
+"oc": "2026-11-24",
+"methods": "2026-11-24"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -35266,6 +35270,12 @@
 }
 ],
 "note": "パスナビ（原則2026年4月入学者対象）による"
+},
+"oc": {
+"year": "2027年度",
+"events": [],
+"url": "https://passnavi.obunsha.co.jp/univ/0470/opencampus/",
+"note": "2026年度の日程は終了。2027年度の日程は未発表。2026年度は夏季オープンキャンパス（要事前予約）を静岡キャンパスで学部別に7/25（教育）・8/4（理）・8/5（農・グローバル共創科学）・8/6（人文社会科学）、浜松キャンパス（情報・工）で8/5に実施。例年7月下旬〜8月上旬"
 }
 },
 "広島大学": {
@@ -222245,7 +222255,11 @@ null
 "money": "2026-11-12",
 "access": "2026-11-08",
 "careers": "2026-11-08",
-"_via": "2026-11-08"
+"_via": "2026-11-08",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "departments": [
 {
@@ -222543,8 +222557,66 @@ null
 "https://search.keinet.ne.jp/2056/outline/campus",
 "https://www.tohoku-gakuin.ac.jp/",
 "https://manabi.benesse.ne.jp/daigaku/school/3068/nyushi/index.html",
-"https://www.tohoku-gakuin.ac.jp/pub/www.tohoku-gakuin.ac.jp/admission/info/content/260324-1_3.pdf"
-]
+"https://www.tohoku-gakuin.ac.jp/pub/www.tohoku-gakuin.ac.jp/admission/info/content/260324-1_3.pdf",
+"https://search.keinet.ne.jp/2056/outline/department",
+"https://search.keinet.ne.jp/2056/outline/licential",
+"https://search.keinet.ne.jp/2056/general/exam_subject"
+],
+"students": {
+"count": 11570,
+"year": 2025
+},
+"founded": "1886年 仙台神学校として開校（1891年 東北学院に改称）",
+"licenses": [
+"中学校教諭（英語）一種",
+"高等学校教諭（英語）一種",
+"中学校教諭（宗教）一種",
+"高等学校教諭（宗教）一種",
+"中学校教諭（社会）一種",
+"高等学校教諭（地理歴史）一種",
+"高等学校教諭（公民）一種",
+"小学校教諭一種",
+"中学校教諭（国語）一種",
+"中学校教諭（理科）一種",
+"高等学校教諭（国語）一種",
+"高等学校教諭（理科）一種",
+"高等学校教諭（商業）一種",
+"高等学校教諭（工業）一種",
+"中学校教諭（保健体育）一種",
+"高等学校教諭（保健体育）一種",
+"中学校教諭（数学）一種",
+"高等学校教諭（数学）一種",
+"高等学校教諭（情報）一種",
+"学校図書館司書教諭一種（資格）",
+"司書（資格）",
+"社会教育主事（資格）",
+"学芸員（資格）",
+"社会福祉主事（資格）",
+"測量士（資格）",
+"測量士補（資格）",
+"一級建築士（受験資格）",
+"二級建築士（受験資格）",
+"木造建築士（受験資格）",
+"技術士補（試験一部免除）",
+"社会調査士（資格）",
+"公認心理師（受験資格）",
+"認定心理士（資格）"
+],
+"kyotsu": {
+"kamoku": "3教科3科目",
+"kyoka": [
+2,
+3
+],
+"rl": [
+"2:1",
+"1:1",
+"3:1"
+],
+"rl_text": "文学部 R200:L100、教育学部 R50:L50、国際学部 R100:L100、地域総合学部地域コミュニティ学科 R150:L50",
+"note": "共テ利用方式あり。文学部総合人文学科・教育・国際・地域総合学部は3教科3科目、文学部英文・歴史学科は2〜3教科3科目（英文は英語必須・500点満点）。学部により配点が異なる。",
+"year": "2027年度入試"
+}
 },
 "東北工業大学": {
 "faculties": [
@@ -222561,7 +222633,11 @@ null
 "money": "2026-11-12",
 "access": "2026-11-08",
 "careers": "2026-11-08",
-"_via": "2026-11-08"
+"_via": "2026-11-08",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "departments": [
 {
@@ -222756,8 +222832,40 @@ null
 "https://search.keinet.ne.jp/2057/general/border_rate",
 "https://search.keinet.ne.jp/2057/outline/campus",
 "https://www.tohtech.ac.jp/",
-"https://manabi.benesse.ne.jp/daigaku/school/3069/nyushi/gokaku-happyo/index.html"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3069/nyushi/gokaku-happyo/index.html",
+"https://search.keinet.ne.jp/2057/outline/department",
+"https://search.keinet.ne.jp/2057/outline/licential",
+"https://search.keinet.ne.jp/2057/general/exam_subject"
+],
+"students": {
+"count": 3261,
+"year": 2025
+},
+"founded": "1964年 開学（前身：1960年認可の学校法人東北電子学院）",
+"licenses": [
+"高等学校教諭（工業）一種",
+"高等学校教諭（情報）一種",
+"高等学校教諭（商業）一種",
+"測量士（資格）",
+"測量士補（資格）",
+"技術士補（試験一部免除）",
+"一級建築士（受験資格）",
+"二級建築士（受験資格）",
+"木造建築士（受験資格）"
+],
+"kyotsu": {
+"kamoku": "3教科3科目",
+"kyoka": [
+3,
+2
+],
+"rl": [
+"1:1"
+],
+"rl_text": "リーディング100点・リスニング100点",
+"note": "1期－共テは3教科3科目（600点満点）、2期－共テは2教科2科目（400点満点）。工学部・建築学部は数学必須、ライフデザイン学部は数学も選択科目。",
+"year": "2027年度入試"
+}
 },
 "東北文化学園大学": {
 "faculties": [
@@ -222775,7 +222883,11 @@ null
 "money": "2026-11-12",
 "access": "2026-11-08",
 "careers": "2026-11-08",
-"_via": "2026-11-08"
+"_via": "2026-11-08",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "departments": [
 {
@@ -222971,8 +223083,46 @@ null
 "https://search.keinet.ne.jp/2063/outline/campus",
 "https://www.tbgu.ac.jp/",
 "https://manabi.benesse.ne.jp/daigaku/school/3075/nyushi/index.html",
-"https://manabi.benesse.ne.jp/daigaku/school/3075/gakuhi/index.html"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3075/gakuhi/index.html",
+"https://search.keinet.ne.jp/2063/outline/department",
+"https://search.keinet.ne.jp/2063/outline/licential",
+"https://search.keinet.ne.jp/2063/general/exam_subject"
+],
+"students": {
+"count": 1791,
+"year": 2025
+},
+"founded": "1999年 開学（前身：東北科学技術短期大学〈1993年開学〉、宮城デザイン専門学校・東北医療専門学校・東北商科専門学校など）",
+"licenses": [
+"社会調査士（資格）",
+"社会福祉士（受験資格）",
+"社会福祉主事（資格）",
+"精神保健福祉士（受験資格）",
+"一級建築士（受験資格）",
+"二級建築士（受験資格）",
+"木造建築士（受験資格）",
+"臨床工学技士(受験資格）",
+"理学療法士(受験資格）",
+"作業療法士(受験資格）",
+"言語聴覚士(受験資格）",
+"視能訓練士(受験資格）",
+"養護教諭二種",
+"看護師(受験資格）",
+"保健師(受験資格）"
+],
+"kyotsu": {
+"kamoku": "2〜3教科2〜3科目",
+"kyoka": [
+2,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はリーディング100点・リスニング100点",
+"note": "前期・後期の共テ方式。多くの学科は2教科2科目（400点満点、選択の幅が広い）。臨床工学科・理学療法学専攻・作業療法学専攻の前期は3教科3科目（600点満点、英語・国語必須）。看護学科など一部はページの後半を読めず未確認",
+"year": "2027年度入試"
+}
 },
 "東北文教大学": {
 "faculties": [
@@ -222987,7 +223137,11 @@ null
 "money": "2026-11-08",
 "access": "2026-11-08",
 "careers": "2026-11-08",
-"_via": "2026-11-08"
+"_via": "2026-11-08",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "departments": [
 {
@@ -223134,8 +223288,41 @@ null
 "https://search.keinet.ne.jp/2082/general/border_rate",
 "https://search.keinet.ne.jp/2082/outline/campus",
 "https://www.t-bunkyo.ac.jp/",
-"https://manabi.benesse.ne.jp/daigaku/school/3092/nyushi/"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3092/nyushi/",
+"https://search.keinet.ne.jp/2082/outline/department",
+"https://search.keinet.ne.jp/2082/outline/licential",
+"https://search.keinet.ne.jp/2082/general/exam_subject"
+],
+"students": {
+"count": 443,
+"year": 2025
+},
+"founded": "2010年 開学（前身：1966年開学の山形女子短期大学、2001年に共学化し山形短期大学に改称）",
+"licenses": [
+"司書（資格）",
+"社会福祉士（受験資格）",
+"介護福祉士（受験資格）",
+"社会福祉主事（資格）",
+"公認心理師（受験資格）",
+"認定心理士（資格）",
+"保育士（資格）",
+"幼稚園教諭一種",
+"小学校教諭一種",
+"学校図書館司書教諭一種（資格）"
+],
+"kyotsu": {
+"kamoku": "2〜3教科2〜3科目",
+"kyoka": [
+2,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はリーディング50点・リスニング50点（計100点）",
+"note": "人間関係学科・子ども教育学科ともA日程－共テは3教科3科目（310点満点、英語・国語＋数・理・地公・情から1）、BC日程－共テは2教科2科目（210点満点、英語・国語）",
+"year": "2027年度入試"
+}
 },
 "東北生活文化大学": {
 "faculties": [
@@ -223151,7 +223338,11 @@ null
 "money": "2026-11-08",
 "access": "2026-11-08",
 "careers": "2026-11-08",
-"_via": "2026-11-08"
+"_via": "2026-11-08",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "departments": [
 {
@@ -223305,8 +223496,44 @@ null
 "https://search.keinet.ne.jp/2060/general/border_rate",
 "https://search.keinet.ne.jp/2060/outline/campus",
 "https://www.mishima.ac.jp/",
-"https://manabi.benesse.ne.jp/daigaku/school/3070/nyushi/"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3070/nyushi/",
+"https://search.keinet.ne.jp/2060/outline/department",
+"https://search.keinet.ne.jp/2060/outline/licential",
+"https://search.keinet.ne.jp/2060/general/exam_subject"
+],
+"students": {
+"count": 444,
+"year": 2025
+},
+"founded": "1958年 開学（三島学園女子大学として開学。1987年に東北生活文化大学に改称し共学化。学園の起源は1900年の東北法律学校）",
+"licenses": [
+"中学校教諭（家庭）一種",
+"高等学校教諭（家庭）一種",
+"学芸員（資格）",
+"社会福祉主事（資格）",
+"衣料管理士２級（受験資格）",
+"栄養教諭一種",
+"食品衛生監視員（資格）",
+"管理栄養士（受験資格）",
+"栄養士(資格）",
+"中学校教諭（美術）一種",
+"高等学校教諭（美術）一種",
+"高等学校教諭（工芸）一種"
+],
+"kyotsu": {
+"kamoku": "1〜3教科1〜3科目",
+"kyoka": [
+1,
+2,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はリーディング50点・リスニング50点",
+"note": "A日程・B日程の共テ方式。服飾文化専攻は2教科2科目（国語必須）、健康栄養学専攻はA日程3教科3科目（英語・国語・理科）・B日程1教科1科目、美術表現学科は1教科1科目（A日程は国語）",
+"year": "2027年度入試"
+}
 },
 "医療創生大学": {
 "faculties": [
@@ -223321,7 +223548,10 @@ null
 "access": "2026-11-08",
 "careers": "2026-11-08",
 "_via": "2026-11-08",
-"money": "2026-11-12"
+"money": "2026-11-12",
+"students": "2026-11-24",
+"licenses": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "departments": [
 {
@@ -223438,7 +223668,10 @@ null
 "https://passnavi.obunsha.co.jp/univ/1830/department/?facultyID=030",
 "https://manabi.benesse.ne.jp/daigaku/school/3098/nyushi/gokaku-happyo/",
 "https://search.keinet.ne.jp/2094/outline/expense",
-"https://manabi.benesse.ne.jp/daigaku/school/3098/gakuhi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3098/gakuhi/index.html",
+"https://search.keinet.ne.jp/2094/outline/department",
+"https://search.keinet.ne.jp/2094/outline/licential",
+"https://search.keinet.ne.jp/2094/general/exam_subject"
 ],
 "money": {
 "year": "2026年度",
@@ -223485,6 +223718,31 @@ null
 }
 ],
 "note": "河合塾 Kei-Net（2026年度入学者用）。マナビジョン（2026年度、入学時＋後期の納入金）の合計と一致。実習費は記載なし。総合医療学部看護学科は総合保障制度3,000円が別途、医療系学科はテキスト・実習着等の購入費、国際看護学部は実習の宿泊費・交通費が別途必要"
+},
+"students": {
+"count": 1127,
+"year": 2025
+},
+"licenses": [
+"理学療法士(受験資格）",
+"養護教諭二種",
+"看護師(受験資格）",
+"保健師(受験資格）",
+"公認心理師（受験資格）",
+"認定心理士（資格）",
+"作業療法士(受験資格）"
+],
+"kyotsu": {
+"kamoku": "2教科2科目",
+"kyoka": [
+2
+],
+"rl": [
+"1:1"
+],
+"rl_text": "R100：L100",
+"note": "英・数・国から2。満点400（英語資格・検定試験の換算160を含む）。総合医療学部4学科・国際看護（千葉）学部とも同じ",
+"year": "2027年度入試"
 }
 },
 "天使大学": {
