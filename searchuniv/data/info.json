@@ -39147,7 +39147,9 @@
 "https://search.keinet.ne.jp/1330/outline/admission_employment",
 "https://www.nara-wu.ac.jp/nyusi/qnyusi/download/pdf/R9sougougatabosyuuyoukou.pdf",
 "https://passnavi.obunsha.co.jp/univ/0660/scholarship/",
-"https://www.nara-wu.ac.jp/nyusi/2027suisenyoko.pdf"
+"https://www.nara-wu.ac.jp/nyusi/2027suisenyoko.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/1350/nyushi/hoshiki/ippan/",
+"https://manabi.benesse.ne.jp/daigaku/school/1350/nyushi/hoshiki/gakkou-suisen/index.html"
 ],
 "kyotsu": {
 "kamoku": "6教科8科目（前期）〜5教科7科目（文学部後期）",
@@ -39168,9 +39170,9 @@
 {
 "kubun": "一般",
 "name": "前期日程",
-"kyotsu": "6教科8科目（情報含む）",
-"niji": "文：英・国／理・工：英・数・理／生活環境：英＋数・国・理から1科目",
-"haiten": "共テ:二次＝520:400（文）、850〜950:500〜600（理・工・生活環境）",
+"kyotsu": "6教科8〜9科目（理学部は8科目）",
+"niji": "文：国200・英200／理：数・英・理（数物は数200・英100・理200、化学生物環境は数150・英150・理300）／工：数・英・理 各200／生活環境：2教科600点",
+"haiten": "共テ:二次＝文520:400、理（数物）850:500、理（化学生物環境）930:600、工・生活環境950:600",
 "kn": [
 1.3,
 1
@@ -39180,9 +39182,9 @@
 {
 "kubun": "一般",
 "name": "後期日程",
-"kyotsu": "6教科8科目（情報含む）",
-"niji": "文：英・国／理：数または理、英・数／工：数学／生活環境：面接のみ",
-"haiten": "文は二次重視（400:600）、生活環境は共テ重視（950:100）",
+"kyotsu": "文：5教科7〜8科目（400点、情報なし）／他学部：6教科8〜9科目",
+"niji": "文：国300・英300／理（数物）：数学または理科（物理）300／理（化学生物環境）：数200・英200／工：数学200／生活環境：面接100",
+"haiten": "文400:600、数物850:300、化学生物環境930:400、工950:200、生活環境950:100",
 "kn": [
 1,
 1.5
@@ -39192,10 +39194,10 @@
 {
 "kubun": "推薦",
 "name": "学校推薦型（共テあり）",
-"content": "書類審査（文・生活環境は面接、心身健康はGDも）＋共通テスト",
-"req": "専願・女子のみ（評定条件の記載なし）",
-"kyotsu": "課す（6教科8科目）",
-"note": "文（子ども教育専修）・理・工・生活環境"
+"content": "文：面接200点／理：調査書（数物・環境科学コースは志望理由書も提出）／工：調査書200点・志望理由書／生活環境：面接400点。いずれも共通テストを課す",
+"req": "単願・既卒可・女子のみ",
+"kyotsu": "課す（6教科8〜9科目。理学部は8科目）",
+"note": "文学部（子ども教育）・理・工・生活環境。文学部は出願11/1〜11/9・試験11/21、他学部は出願12/16〜12/23"
 },
 {
 "kubun": "総合型",
@@ -39206,8 +39208,8 @@
 "note": "全学部で実施。工はQ²型・Q³型"
 }
 ],
-"summary": "一般は全学部で前期・後期実施。推薦は全て共テ6教科8科目必須、総合型「探究力Q」は全学部で実施。",
-"note": "女子大学（トランスジェンダー女性も出願可）"
+"summary": "一般は全学部で前期・後期実施（文学部後期は共テ5教科）。推薦は全て共テ必須で、文・生活環境は面接、理・工は調査書中心。総合型「探究力Q」は全学部で実施。",
+"note": "女子大学（トランスジェンダー女性も出願可）。生活環境学部前期の二次科目の組み合わせは募集要項で確認"
 },
 "departments": [
 {
@@ -39427,7 +39429,8 @@
 "research": "2026-11-14",
 "licenses": "2026-11-14",
 "careers": "2026-11-14",
-"scholar": "2026-11-19"
+"scholar": "2026-11-19",
+"methods": "2026-11-24"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -238861,7 +238864,8 @@ null
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
 "_via": "2026-11-09",
-"money": "2026-11-13"
+"money": "2026-11-13",
+"students": "2026-11-24"
 },
 "departments": [
 {
@@ -239314,7 +239318,9 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3198/opencampus/",
 "https://manabi.benesse.ne.jp/daigaku/school/3198/syusyoku/",
 "https://manabi.benesse.ne.jp/daigaku/school/3198/nyushi/hoshiki/ippan/index.html",
-"https://shingakunet.com/gakko/SC000343/openCampus/"
+"https://shingakunet.com/gakko/SC000343/openCampus/",
+"https://search.keinet.ne.jp/outline/department/2176",
+"https://search.keinet.ne.jp/2176/general/exam_subject"
 ],
 "money": {
 "year": "2026年度",
@@ -239430,6 +239436,11 @@ null
 "note": "other は諸会費（Kei-Net 2026年度入学者用）。資格課程の履修費・海外研修積立金などは別途"
 }
 ]
+},
+"students": {
+"count": 2684,
+"year": 2025,
+"note": "Kei-Netの学部別学生数の合計（文374・心理・福祉524・看護348・人間栄養386・音楽114・教育921・児童17）"
 }
 },
 "聖学院大学": {
@@ -239453,7 +239464,8 @@ null
 "access": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"founded": "2026-11-24"
 },
 "departments": [
 {
@@ -239882,8 +239894,10 @@ null
 "https://passnavi.obunsha.co.jp/univ/2020/difficulty/",
 "https://passnavi.obunsha.co.jp/univ/2020/department/?facultyID=010",
 "https://manabi.benesse.ne.jp/daigaku/school/3152/gakuhi/",
-"https://www.best-shingaku.net/smt/gakuhi898.html"
-]
+"https://www.best-shingaku.net/smt/gakuhi898.html",
+"https://search.keinet.ne.jp/2154/general/exam_subject"
+],
+"founded": "1988年 聖学院大学（政治経済学部）を設立（学校法人の源流は1903年設立の聖学院神学校。1967年に女子聖学院短期大学を設立）"
 },
 "聖マリアンナ医科大学": {
 "faculties": [
@@ -239901,7 +239915,10 @@ null
 "access": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"research": "2026-11-24",
+"students": "2026-11-24",
+"founded": "2026-11-24"
 },
 "departments": [
 {
@@ -240039,8 +240056,20 @@ null
 "https://ishin-kai.info/column/information/862/",
 "https://form.epr-kk.co.jp/university_union/uu-019/",
 "https://telemail.jp/shingaku/university/10000234/examination/general",
-"https://passnavi.obunsha.co.jp/univ/3300/expense/"
-]
+"https://passnavi.obunsha.co.jp/univ/3300/expense/",
+"https://passnavi.obunsha.co.jp/univ/3300/top/"
+],
+"research": [
+"国際認証基準に準拠したアウトカム基盤型カリキュラムで、1〜3年次は基礎医学と臨床医学を統合して学ぶ",
+"初年次に医学の基礎としての自然科学、アカデミックスキル、医療倫理・医学史を学び、早期体験実習で施設を見学する",
+"4年次後期から約2年間、診療チームの一員として参加する診療参加型実習を行う"
+],
+"students": {
+"count": 707,
+"year": 2025,
+"note": "旺文社パスナビ「学生総数」"
+},
+"founded": "1971年 医学部を設置"
 },
 "群馬医療福祉大学": {
 "faculties": [
@@ -240059,7 +240088,10 @@ null
 "oc": "2026-11-09",
 "access": "2026-11-09",
 "_via": "2026-11-09",
-"money": "2026-11-13"
+"money": "2026-11-13",
+"students": "2026-11-24",
+"licenses": "2026-11-24",
+"careers": "2026-11-24"
 },
 "departments": [
 {
@@ -240248,7 +240280,10 @@ null
 "https://search.keinet.ne.jp/2140/general/border_rate",
 "https://manabi.benesse.ne.jp/daigaku/school/3138/opencampus/",
 "https://manabi.benesse.ne.jp/daigaku/school/3138/nyushi/index.html",
-"https://search.keinet.ne.jp/2140/outline/expense"
+"https://search.keinet.ne.jp/2140/outline/expense",
+"https://search.keinet.ne.jp/2140/outline/licential",
+"https://manabi.benesse.ne.jp/daigaku/school/3138/syusyoku/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3138/index.html"
 ],
 "money": {
 "year": "2026年度",
@@ -240298,7 +240333,29 @@ null
 "note": "Kei-Net 2026年度入学者用。テキスト代・スーツ代・外部実習費は別途"
 }
 ]
-}
+},
+"students": {
+"count": 1154,
+"year": 2025,
+"note": "ベネッセ マナビジョン「学生総数」（2025年5月1日現在）"
+},
+"licenses": [
+"理学療法士（受験資格）",
+"作業療法士（受験資格）",
+"臨床検査技師（受験資格）",
+"臨床工学技士（受験資格）",
+"バイオ技術者認定試験",
+"看護師（受験資格）",
+"保健師（受験資格）",
+"養護教諭一種",
+"養護教諭二種",
+"社会福祉主事",
+"社会福祉士（受験資格）",
+"精神保健福祉士（受験資格）",
+"幼稚園教諭一種",
+"保育士"
+],
+"careers": "2026年3月卒業生の主な就職先は、社会福祉学科が前橋市職員・群馬県教育委員会・埼玉県職員など、看護学科が群馬大学医学部附属病院・前橋赤十字病院など、リハビリ・医療技術系は県内外の病院など。就職率100%（2023年度実績、マナビジョン）。"
 },
 "群馬パース大学": {
 "faculties": [
@@ -240321,7 +240378,9 @@ null
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
 "_via": "2026-11-09",
-"money": "2026-11-13"
+"money": "2026-11-13",
+"research": "2026-11-24",
+"founded": "2026-11-24"
 },
 "departments": [
 {
@@ -240601,7 +240660,9 @@ null
 "https://aoskillpass.com/nyushi/gunma-paz-heigan-2027/",
 "https://www.shinronozukan.com/university/gunma-paz/suisen/s0947",
 "https://manabi.benesse.ne.jp/daigaku/school/3140/nyushi/index.html",
-"https://search.keinet.ne.jp/2133/outline/expense"
+"https://search.keinet.ne.jp/2133/outline/expense",
+"https://search.keinet.ne.jp/2133/general/exam_subject",
+"https://manabi.benesse.ne.jp/daigaku/school/3140/gakubu/index.html"
 ],
 "money": {
 "year": "2026年度",
@@ -240640,7 +240701,13 @@ null
 "note": "Kei-Net 2026年度入学者用。授業料に学内の実験実習費と施設設備費を含む。教科書・実習着・臨床実習の費用は別途"
 }
 ]
-}
+},
+"research": [
+"3学部7学科で国家資格9職種の養成を行い、1年次から段階的に医療専門職の力を育てる（PBL・全学科担任制）",
+"看護学部では在学中に助産師・保健師もめざせる",
+"医療技術学部は臨床検査技師・診療放射線技師・臨床工学技士、リハビリテーション学部は理学療法士・作業療法士・言語聴覚士の養成学科を置く"
+],
+"founded": "2005年 群馬パース大学開学（前身は1997年認可の群馬パース看護短期大学。2022年に保健科学部を医療技術学部へ改称）"
 },
 "立正大学": {
 "faculties": [
@@ -240666,7 +240733,9 @@ null
 "access": "2026-11-09",
 "licenses": "2026-11-09",
 "_via": "2026-11-18",
-"money": "2026-11-14"
+"money": "2026-11-14",
+"students": "2026-11-24",
+"careers": "2026-11-24"
 },
 "departments": [
 {
@@ -240994,7 +241063,9 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3323/nyushi/index.html",
 "https://search.keinet.ne.jp/2291/outline/expense",
 "https://search.keinet.ne.jp/2291/topics/12",
-"https://search.keinet.ne.jp/2291/general/schedule"
+"https://search.keinet.ne.jp/2291/general/schedule",
+"https://search.keinet.ne.jp/2291/outline/admission_employment",
+"https://manabi.benesse.ne.jp/daigaku/school/3323/index.html"
 ],
 "money": {
 "year": "2026年度",
@@ -241121,7 +241192,13 @@ null
 }
 ],
 "note": "ベネッセ マナビジョン（2026年度入学者の初年度納入金の合計のみ、内訳なし）。参考：Kei-Net（2025年度入学者用）では入学金288,000円・授業料778,000円・諸会費31,000円が全学部共通"
-}
+},
+"students": {
+"count": 10431,
+"year": 2025,
+"note": "ベネッセ マナビジョン「学生総数」（2025年5月1日現在）"
+},
+"careers": "2024年度卒業者（学士課程）の就職者の割合は、データサイエンス95.0%・社会福祉91.4%・法88.1%・地球環境科学84.9%・経営84.6%・経済83.5%・文82.5%・心理76.9%・仏教75.5%（Kei-Net）。"
 },
 "秀明大学": {
 "faculties": [
@@ -241140,7 +241217,8 @@ null
 "careers": "2026-11-09",
 "_via": "2026-11-09",
 "money": "2026-11-13",
-"scholar": "2026-11-18"
+"scholar": "2026-11-18",
+"licenses": "2026-11-24"
 },
 "departments": [
 {
@@ -241355,7 +241433,8 @@ null
 "https://shingakunet.com/gakko/SC000501/gakuhi/",
 "https://manabi.benesse.ne.jp/daigaku/school/3210/nyushi/gokaku-happyo/index.html",
 "https://search.keinet.ne.jp/2186/outline/expense",
-"https://www.shumei-u.ac.jp/wp/wp-content/themes/shumei-u/pdf/2026new/nyoukou_edu.pdf"
+"https://www.shumei-u.ac.jp/wp/wp-content/themes/shumei-u/pdf/2026new/nyoukou_edu.pdf",
+"https://search.keinet.ne.jp/2186/outline/licential"
 ],
 "money": {
 "year": "2026年度",
@@ -241465,7 +241544,27 @@ null
 }
 ],
 "note": "大学公式「2026年度入学手続要項」（学校教師学部）による。2027年度版は未確認"
-}
+},
+"licenses": [
+"小学校教諭一種",
+"中学校教諭（国語）一種",
+"中学校教諭（社会）一種",
+"中学校教諭（数学）一種",
+"中学校教諭（理科）一種",
+"中学校教諭（保健体育）一種",
+"中学校教諭（英語）一種",
+"高等学校教諭（国語）一種",
+"高等学校教諭（地理歴史）一種",
+"高等学校教諭（公民）一種",
+"高等学校教諭（数学）一種",
+"高等学校教諭（理科）一種",
+"高等学校教諭（保健体育）一種",
+"高等学校教諭（英語）一種",
+"学校図書館司書教諭",
+"養護教諭二種",
+"看護師（受験資格）",
+"保健師（受験資格）"
+]
 },
 "神奈川歯科大学": {
 "faculties": [
@@ -241479,7 +241578,9 @@ null
 "schedule": "2026-11-13",
 "money": "2026-11-13",
 "access": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"licenses": "2026-11-24",
+"careers": "2026-11-24"
 },
 "departments": [
 {
@@ -241629,8 +241730,13 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3364/gakuhi/",
 "https://telemail.jp/shingaku/university/10001051/examination/general",
 "https://school.js88.com/scl_dai/2024100/",
-"https://manabi.benesse.ne.jp/daigaku/school/3364/gakuhi/index.html"
-]
+"https://manabi.benesse.ne.jp/daigaku/school/3364/gakuhi/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3364/syusyoku/index.html"
+],
+"licenses": [
+"歯科医師国家試験受験資格"
+],
+"careers": "2025年歯科医師国家試験（新卒）の合格率は79.1%（受験91人・合格72人）。主な進路は歯科医師、行政、一般企業、研究機関など。"
 },
 "神奈川工科大学": {
 "faculties": [
