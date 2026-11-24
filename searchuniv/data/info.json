@@ -1088,7 +1088,8 @@
 "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/KU2024_page_62_65-5e4b6305c74d28628c17427a17d598b5.pdf",
 "https://kyoto-u.ac.jp/sites/default/files/inline-files/KU2025_page_70_73-c085379afadc97c06fe77f42f2c99f6f.pdf",
 "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/KU2026_page_70_73-6fc72f44e48589029d35450e4d7e9667.pdf",
-"https://search.keinet.ne.jp/1395/general/exam_result"
+"https://search.keinet.ne.jp/1395/general/exam_result",
+"https://www.kyoto-u.ac.jp/ja/admissions/about/open"
 ],
 "licenses": [
 "医師国家試験受験資格（医学科）",
@@ -1702,7 +1703,7 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-20",
 "qtrend": "2026-11-07",
-"oc": "2026-11-07",
+"oc": "2026-11-24",
 "schedule": "2026-11-19",
 "scholar": "2026-11-19",
 "methods": "2026-11-19",
@@ -228027,7 +228028,9 @@ null
 "money": "2026-11-08",
 "research": "2026-11-08",
 "licenses": "2026-11-08",
-"schedule": "2026-11-12"
+"schedule": "2026-11-12",
+"careers": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "faculties": [
 "人間社会学部",
@@ -228113,7 +228116,9 @@ null
 "https://search.keinet.ne.jp/2179/outline/expense",
 "https://search.keinet.ne.jp/2179/general/exam_result",
 "https://search.keinet.ne.jp/2179/general/border_rate",
-"https://manabi.benesse.ne.jp/daigaku/school/3202/nyushi/gokaku-happyo/"
+"https://manabi.benesse.ne.jp/daigaku/school/3202/nyushi/gokaku-happyo/",
+"https://search.keinet.ne.jp/2179/outline/admission_employment",
+"https://search.keinet.ne.jp/2179/general/exam_subject"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -228192,6 +228197,21 @@ null
 }
 ],
 "note": "マナビジョン（2027年度入試）。4学部共通。検定料は未確認"
+},
+"careers": "2024年度卒業者の就職者の割合は、人間社会学部91.1%・サービス創造学部96.6%・商経学部87.7%・政策情報学部88.8%・国際教養学部87.5%。進学者は商経学部で3.2%など少数。",
+"kyotsu": {
+"kamoku": "2教科2科目〜4教科4科目",
+"kyoka": [
+2,
+3,
+4
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語R:L=1:1（R50・L50）",
+"note": "各学科に2科目・3科目・4科目の共テ方式。3・4科目方式は英語必須、2科目方式は英・数・国・理・地公・情から2（人間社会・経済・政策情報・サービス創造・商学科で確認）",
+"year": "2027年度入試"
 }
 },
 "岩手保健医療大学": {
@@ -228960,7 +228980,10 @@ null
 "access": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"difficulty": "2026-11-24",
+"students": "2026-11-24",
+"research": "2026-11-24"
 },
 "departments": [
 {
@@ -229219,7 +229242,24 @@ null
 "https://search.keinet.ne.jp/2032/outline/campus",
 "https://passnavi.obunsha.co.jp/univ/1695/department/",
 "https://manabi.benesse.ne.jp/daigaku/school/3047/nyushi/",
-"https://manabi.benesse.ne.jp/daigaku/school/3047/gakuhi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3047/gakuhi/",
+"https://search.keinet.ne.jp/2032/general/border_rate",
+"https://manabi.benesse.ne.jp/daigaku/school/3047/index.html"
+],
+"difficulty": {
+"hensachi": "BF",
+"kyotei": "35%〜43%",
+"year": "2027年度入試用"
+},
+"students": {
+"count": 381,
+"year": 2026
+},
+"research": [
+"看護学科：看護師・保健師の受験資格をめざす",
+"医療技術学科 作業療法学専攻・言語聴覚学専攻：作業療法士・言語聴覚士の受験資格をめざす（言語聴覚士をめざせる大学は北東北3県で本学のみ）",
+"1年目から専門科目を学び、保健医療福祉分野の専門職を育てる",
+"「まちの保健室」など地域交流の活動"
 ]
 },
 "弘前学院大学": {
@@ -229236,7 +229276,8 @@ null
 "money": "2026-11-12",
 "scholar": "2026-11-09",
 "access": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"licenses": "2026-11-24"
 },
 "departments": [
 {
@@ -229452,7 +229493,28 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3045/nyushi/hoshiki/ippan/index.html",
 "https://www.hirogaku.ac.jp/admissions/undergraduate_entrance_selection/common_test/",
 "https://search.keinet.ne.jp/2030/general/schedule",
-"https://passnavi.obunsha.co.jp/univ/1700/expense/"
+"https://passnavi.obunsha.co.jp/univ/1700/expense/",
+"https://search.keinet.ne.jp/2030/outline/licential"
+],
+"licenses": [
+"中学校教諭（英語）一種",
+"高等学校教諭（英語）一種",
+"中学校教諭（国語）一種",
+"高等学校教諭（国語）一種",
+"中学校教諭（社会）一種",
+"高等学校教諭（地理歴史）一種",
+"高等学校教諭（公民）一種",
+"特別支援学校教諭一種",
+"学校図書館司書教諭一種（資格）",
+"社会教育主事（資格）",
+"学芸員（資格）",
+"社会福祉士（受験資格）",
+"社会福祉主事（資格）",
+"児童福祉司（資格）",
+"精神保健福祉士（受験資格）",
+"養護教諭二種",
+"看護師(受験資格）",
+"保健師(受験資格）"
 ]
 },
 "北洋大学": {
@@ -229742,7 +229804,8 @@ null
 "oc": "2026-11-09",
 "access": "2026-11-09",
 "careers": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"research": "2026-11-24"
 },
 "departments": [
 {
@@ -230025,7 +230088,13 @@ null
 "https://manabi.benesse.ne.jp/daigaku/OpenCampusSearch/web/shiritsu/keizai/",
 "https://telemail.jp/shingaku/university/10001056/examination/general",
 "https://passnavi.obunsha.co.jp/univ/1600/schedule/",
-"https://passnavi.obunsha.co.jp/univ/1600/expense/"
+"https://passnavi.obunsha.co.jp/univ/1600/expense/",
+"https://passnavi.obunsha.co.jp/univ/1600/department/"
+],
+"research": [
+"商学科：製造・小売・マーケティング・流通・金融・貿易・企業経営・会計などを学ぶ",
+"観光産業学科：観光事業・観光政策・観光開発・環境問題などを、まちづくり・地域振興・ツーリズムなどから横断的に学ぶ",
+"国際ビジネス・国際観光の分野で働く人材の育成と、語学力・コミュニケーション能力の育成に力を入れる"
 ]
 },
 "北海道千歳リハビリテーション大学": {
