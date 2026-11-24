@@ -39146,7 +39146,8 @@
 "https://search.keinet.ne.jp/1330/outline/licential",
 "https://search.keinet.ne.jp/1330/outline/admission_employment",
 "https://www.nara-wu.ac.jp/nyusi/qnyusi/download/pdf/R9sougougatabosyuuyoukou.pdf",
-"https://passnavi.obunsha.co.jp/univ/0660/scholarship/"
+"https://passnavi.obunsha.co.jp/univ/0660/scholarship/",
+"https://www.nara-wu.ac.jp/nyusi/2027suisenyoko.pdf"
 ],
 "kyotsu": {
 "kamoku": "6教科8科目（前期）〜5教科7科目（文学部後期）",
@@ -39418,7 +39419,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-16",
+"schedule": "2026-11-24",
 "money": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
@@ -39614,11 +39615,12 @@
 {
 "kubun": "推薦",
 "name": "学校推薦型（文学部 人間科学科 子ども教育専修プログラム）",
-"apply": "〜11/9（必着）",
+"apply": "11/1〜11/9（必着）",
 "exam": "11/21",
 "result": "2/5",
 "proc": "2/17",
-"note": "学部により異なる（理学部・工学部は出願〜12/23、生活環境学部は出願〜12/23・試験1/31。発表2/5・手続2/17は共通）"
+"fee": 17000,
+"note": "学部により異なる（理学部・工学部・生活環境学部は出願12/16〜12/23必着、試験日1/31（生活環境は面接）。発表2/5・手続2/17は共通）。全学部で共通テストが必要。Web登録・検定料支払は文学部10/25〜11/8、他学部12/10〜12/22"
 },
 {
 "kubun": "総合型",
@@ -236905,7 +236907,9 @@ null
 "methods": "2026-11-09",
 "schedule": "2026-11-13",
 "_via": "2026-11-09",
-"money": "2026-11-16"
+"money": "2026-11-16",
+"students": "2026-11-24",
+"founded": "2026-11-24"
 },
 "departments": [
 {
@@ -237055,7 +237059,10 @@ null
 "https://search.keinet.ne.jp/2136/outline/expense",
 "https://manabi.benesse.ne.jp/daigaku/school/3132/gakuhi/",
 "https://manabi.benesse.ne.jp/daigaku/school/3132/nyushi/gokaku-happyo/",
-"https://passnavi.obunsha.co.jp/univ/1940/expense/"
+"https://passnavi.obunsha.co.jp/univ/1940/expense/",
+"https://search.keinet.ne.jp/2136",
+"https://search.keinet.ne.jp/2136/outline/department",
+"https://search.keinet.ne.jp/2136/general/exam_subject"
 ],
 "money": {
 "year": "2026年度",
@@ -237083,7 +237090,13 @@ null
 "note": "旺文社パスナビ（2026年度入学者、2026年5月調査）。諸会費は学友会費・後援会費・フレッシュマンキャンプ費"
 }
 ]
-}
+},
+"students": {
+"count": 461,
+"year": 2025,
+"note": "Kei-Netの学部別学生数の合計（経済学部のみ）"
+},
+"founded": "1976年 関東学園大学開設（前身は1924年開設の関東高等女学校）"
 },
 "開智国際大学": {
 "faculties": [
@@ -237096,7 +237109,11 @@ null
 "schedule": "2026-11-13",
 "_via": "2026-11-09",
 "money": "2026-11-13",
-"scholar": "2026-11-18"
+"scholar": "2026-11-18",
+"students": "2026-11-24",
+"licenses": "2026-11-24",
+"kyotsu": "2026-11-24",
+"difficulty": "2026-11-24"
 },
 "methods": {
 "year": "2027年度入試",
@@ -237252,7 +237269,11 @@ null
 "https://www.kaichi.ac.jp/contents/wp-content/uploads/2026/07/e63479ac962541a1c9411cc30b10bda5.pdf",
 "https://manabi.benesse.ne.jp/daigaku/school/3214/gakuhi/",
 "https://manabi.benesse.ne.jp/daigaku/school/3214/nyushi/gokaku-happyo/index.html",
-"https://search.keinet.ne.jp/2192/outline/scholarship"
+"https://search.keinet.ne.jp/2192/outline/scholarship",
+"https://search.keinet.ne.jp/2192/outline/department",
+"https://search.keinet.ne.jp/2192/outline/licential",
+"https://search.keinet.ne.jp/2192/general/exam_subject",
+"https://search.keinet.ne.jp/2192/general/border_rate"
 ],
 "money": {
 "year": "2027年度",
@@ -237302,6 +237323,45 @@ null
 }
 ],
 "note": "Kei-Net（旺文社データ）。学部名はページ上「グローバル教育学部・国際教養学部」。2027年度に校名・学部名の変更と制度変更の可能性ありと記載"
+},
+"students": {
+"count": 780,
+"year": 2025,
+"note": "Kei-Netの学部別学生数の合計"
+},
+"licenses": [
+"小学校教諭一種",
+"小学校教諭二種",
+"中学校教諭（国語）一種",
+"中学校教諭（社会）一種",
+"中学校教諭（英語）一種",
+"中学校教諭（国語）二種",
+"中学校教諭（社会）二種",
+"中学校教諭（英語）二種",
+"高等学校教諭（国語）一種",
+"高等学校教諭（地理歴史）一種",
+"高等学校教諭（公民）一種",
+"高等学校教諭（英語）一種",
+"公認心理師（受験資格）"
+],
+"kyotsu": {
+"kamoku": "1〜3教科1〜3科目",
+"kyoka": [
+1,
+2,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "どの方式も英語はリーディングとリスニングが同じ配点（2科A・3科・1科は各100点、2科Bは各50点）",
+"note": "方式は2科A（英・国）、2科B（英・数・国・理・地公・情から2科目）、3科（英・国＋数・理・地公・情から1）、1科（英語）。教育学部・国際教養学部共通",
+"year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "BF〜37.5",
+"kyotei": "44%〜51%",
+"year": "2027年度入試用"
 }
 },
 "鎌倉女子大学": {
@@ -237341,7 +237401,12 @@ null
 "methods": "2026-11-09",
 "schedule": "2026-11-18",
 "_via": "2026-11-09",
-"money": "2026-11-13"
+"money": "2026-11-13",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"careers": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -237434,7 +237499,11 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3365/nyushi/gokaku-happyo/index.html",
 "https://search.keinet.ne.jp/2309/outline/expense",
 "https://search.keinet.ne.jp/2309/topics/12",
-"https://search.keinet.ne.jp/2309/topics/13"
+"https://search.keinet.ne.jp/2309/topics/13",
+"https://search.keinet.ne.jp/2309",
+"https://search.keinet.ne.jp/2309/outline/department",
+"https://search.keinet.ne.jp/2309/outline/licential",
+"https://search.keinet.ne.jp/2309/outline/admission_employment"
 ],
 "money": {
 "year": "2026年度",
@@ -237506,6 +237575,50 @@ null
 "note": "その他は文化厚生費。資格の履修費（1資格2万円）・教材費などは入学後に別途"
 }
 ]
+},
+"students": {
+"count": 2206,
+"year": 2025,
+"note": "Kei-Netの学部別学生数の合計"
+},
+"founded": "1943年 京浜女子家政理学専門学校として創立（1959年 京浜女子大学開設、1989年 鎌倉女子大学に改称）",
+"licenses": [
+"幼稚園教諭一種",
+"小学校教諭一種",
+"中学校教諭（国語）一種",
+"中学校教諭（社会）一種",
+"中学校教諭（家庭）一種",
+"中学校教諭（保健のみ）一種",
+"高等学校教諭（国語）一種",
+"高等学校教諭（地理歴史）一種",
+"高等学校教諭（公民）一種",
+"高等学校教諭（家庭）一種",
+"高等学校教諭（保健のみ）一種",
+"特別支援学校教諭一種",
+"養護教諭一種",
+"栄養教諭一種",
+"学校図書館司書教諭",
+"学芸員",
+"保育士",
+"公認心理師（受験資格）",
+"認定心理士",
+"フードスペシャリスト",
+"食品衛生監視員",
+"管理栄養士（受験資格）",
+"栄養士"
+],
+"careers": "2024年度卒業者（学士課程582人）の就職率は教育学部92.2%、児童学部94.4%、家政学部92.2%。大学院などへの進学者は15人。",
+"kyotsu": {
+"kamoku": "3教科3科目",
+"kyoka": [
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はリーディング50点・リスニング50点",
+"note": "管理栄養学科は英語・国語必須＋数学・理科から1。他の学科は英・数・国・理・地公・情から3",
+"year": "2027年度入試"
 }
 },
 "跡見学園女子大学": {
@@ -237523,7 +237636,12 @@ null
 "oc": "2026-11-09",
 "access": "2026-11-09",
 "_via": "2026-11-09",
-"money": "2026-11-13"
+"money": "2026-11-13",
+"research": "2026-11-24",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"careers": "2026-11-24"
 },
 "departments": [
 {
@@ -237799,7 +237917,10 @@ null
 "https://passnavi.obunsha.co.jp/univ/1960/subject/",
 "https://manabi.benesse.ne.jp/daigaku/school/3147/gakuhi/",
 "https://manabi.benesse.ne.jp/daigaku/school/3147/nyushi/gokaku-happyo/index.html",
-"https://search.keinet.ne.jp/2147/outline/expense"
+"https://search.keinet.ne.jp/2147/outline/expense",
+"https://manabi.benesse.ne.jp/daigaku/school/3147/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3147/gakubu/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3147/syusyoku/index.html"
 ],
 "money": {
 "year": "2026年度",
@@ -237849,7 +237970,30 @@ null
 "note": "other は諸会費"
 }
 ]
-}
+},
+"research": [
+"文学部：文学・歴史・芸術・文化・国際教養など幅広い分野を学び、茶道・華道・香道など日本の伝統文化の科目もある",
+"マネジメント学部：組織で必要な思考力・自己管理力・チームワークを養い、2年次夏のインターンシップなど実践の機会がある",
+"観光コミュニティ学部：新しい観光事業をデザインし、地域活性化を担う人材を育てる",
+"心理学部：臨床心理学科で多様な進路に向けて「こころの専門家」をめざす"
+],
+"students": {
+"count": 2137,
+"year": 2026,
+"note": "ベネッセ マナビジョン「学生総数」（2026年5月1日現在）"
+},
+"founded": "1875年 前身の跡見学校開校",
+"licenses": [
+"中学校教諭（国語）一種",
+"中学校教諭（社会）一種",
+"高等学校教諭（国語）一種",
+"高等学校教諭（地理歴史）一種",
+"高等学校教諭（書道）一種",
+"学校図書館司書教諭",
+"学芸員",
+"司書"
+],
+"careers": "2025年度の就職率は98.2%（就職者÷就職希望者）。主な就職先は鹿島建設、全日本空輸、三井住友銀行、星野リゾート、警視庁など。"
 },
 "足利大学": {
 "faculties": [
@@ -237868,7 +238012,10 @@ null
 "access": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"research": "2026-11-24",
+"students": "2026-11-24",
+"founded": "2026-11-24"
 },
 "departments": [
 {
@@ -238110,8 +238257,22 @@ null
 "https://passnavi.obunsha.co.jp/univ/1890/subject/",
 "https://manabi.benesse.ne.jp/daigaku/school/3119/gakuhi/",
 "https://search.keinet.ne.jp/2120/general/schedule",
-"https://ashikaga.ac.jp/exam_site/wp-content/themes/inspiro-child/assets/img/nyushi_guide2027_0730.pdf"
-]
+"https://ashikaga.ac.jp/exam_site/wp-content/themes/inspiro-child/assets/img/nyushi_guide2027_0730.pdf",
+"https://search.keinet.ne.jp/outline/department/2120",
+"https://search.keinet.ne.jp/2120",
+"https://search.keinet.ne.jp/2120/general/exam_subject"
+],
+"research": [
+"工学部はライフデザイン、機械・エネルギー、システム情報・電気、建築・都市デザインの4分野で学ぶ",
+"2027年4月に工学部創生工学科の分野・コースを上記4分野へ改組する予定",
+"看護学部看護学科（2014年に足利短期大学看護学科を改組して設置）で看護職をめざす"
+],
+"students": {
+"count": 1272,
+"year": 2025,
+"note": "Kei-Netの学部別学生数の合計（工学部964人・看護学部308人）"
+},
+"founded": "1967年 足利工業大学として開学（2018年 足利大学に改称）"
 },
 "西武文理大学": {
 "faculties": [
@@ -238124,7 +238285,12 @@ null
 "difficulty": "2026-11-09",
 "_via": "2026-11-09",
 "schedule": "2026-11-12",
-"money": "2026-11-13"
+"money": "2026-11-13",
+"research": "2026-11-24",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"careers": "2026-11-24"
 },
 "departments": [
 {
@@ -238149,7 +238315,11 @@ null
 "https://passnavi.obunsha.co.jp/univ/2025/difficulty/",
 "https://search.keinet.ne.jp/2163/general/border_rate",
 "https://manabi.benesse.ne.jp/daigaku/school/3163/nyushi/gokaku-happyo/",
-"https://search.keinet.ne.jp/2163/outline/expense"
+"https://search.keinet.ne.jp/2163/outline/expense",
+"https://search.keinet.ne.jp/2163/outline/department",
+"https://search.keinet.ne.jp/2163",
+"https://search.keinet.ne.jp/2163/outline/licential",
+"https://search.keinet.ne.jp/2163/outline/admission_employment"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -238220,7 +238390,23 @@ null
 "note": "other は諸会費（Kei-Net 2026年度入学者用）。保健師の選択履修者は科目履修費が別途"
 }
 ]
-}
+},
+"research": [
+"サービス経営学部サービス経営学科でサービス経営を学ぶ",
+"2025年の改組で健康福祉マネジメント学科の内容もサービス経営学科に統合された",
+"看護学部看護学科（2009年設置）で看護師・保健師をめざす"
+],
+"students": {
+"count": 1045,
+"year": 2025,
+"note": "Kei-Netの学部別学生数の合計（サービス経営学部765人・看護学部280人）"
+},
+"founded": "1999年 西武文理大学として開学（前身は1988年開設の文理情報短期大学）",
+"licenses": [
+"看護師（受験資格）",
+"保健師（受験資格）"
+],
+"careers": "2024年度卒業者の就職率はサービス経営学部93.3%（卒業223人中208人就職）、看護学部96.2%（79人中76人就職・進学1人）。"
 },
 "育英大学": {
 "faculties": [
@@ -238234,7 +238420,12 @@ null
 "methods": "2026-11-09",
 "schedule": "2026-11-13",
 "money": "2026-11-13",
-"_via": "2026-11-09"
+"_via": "2026-11-09",
+"research": "2026-11-24",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"careers": "2026-11-24"
 },
 "departments": [
 {
@@ -238395,8 +238586,32 @@ null
 "https://passnavi.obunsha.co.jp/univ/1938/difficulty/",
 "https://manabi.benesse.ne.jp/daigaku/school/3142/gakuhi/",
 "https://telemail.jp/shingaku/university/10011346/examination/general",
-"https://www.ikuei-g.ac.jp/university/wp/wp-content/uploads/2026/08/8d90455ab45f57d91b3b7d611f5bdb32.pdf"
-]
+"https://www.ikuei-g.ac.jp/university/wp/wp-content/uploads/2026/08/8d90455ab45f57d91b3b7d611f5bdb32.pdf",
+"https://search.keinet.ne.jp/2134/outline/department",
+"https://search.keinet.ne.jp/2134",
+"https://search.keinet.ne.jp/2134/outline/licential",
+"https://search.keinet.ne.jp/2134/outline/admission_employment"
+],
+"research": [
+"教育学部に児童教育・スポーツ教育・英語教育の3専攻を置く",
+"児童教育専攻は保育士・幼稚園・小学校の教員をめざす",
+"スポーツ教育専攻は中学・高校の保健体育、英語教育専攻は中学・高校の英語の教員をめざす"
+],
+"students": {
+"count": 584,
+"year": 2025
+},
+"founded": "2018年 育英大学として開学（前身は1977年開学の前橋育英学園短期大学、1987年に育英短期大学へ改称）",
+"licenses": [
+"保育士",
+"幼稚園教諭一種",
+"小学校教諭一種",
+"中学校教諭（保健体育）一種",
+"高等学校教諭（保健体育）一種",
+"中学校教諭（英語）一種",
+"高等学校教諭（英語）一種"
+],
+"careers": "2024年度卒業者105人のうち就職88人で、就職率は97.1%（進学0人）。"
 },
 "聖路加国際大学": {
 "faculties": [
@@ -238412,7 +238627,11 @@ null
 "schedule": "2026-11-14",
 "oc": "2026-11-09",
 "_via": "2026-11-09",
-"money": "2026-11-13"
+"money": "2026-11-13",
+"research": "2026-11-24",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"careers": "2026-11-24"
 },
 "departments": [
 {
@@ -238586,7 +238805,10 @@ null
 "https://passnavi.obunsha.co.jp/univ/2580/top/",
 "https://telemail.jp/shingaku/university/10011014/examination/general",
 "https://manabi.benesse.ne.jp/daigaku/school/3265/nyushi/gokaku-happyo/",
-"https://search.keinet.ne.jp/2232/outline/expense"
+"https://search.keinet.ne.jp/2232/outline/expense",
+"https://search.keinet.ne.jp/2232/outline/department",
+"https://search.keinet.ne.jp/2232",
+"https://search.keinet.ne.jp/2232/outline/admission_employment"
 ],
 "money": {
 "year": "2026年度",
@@ -238603,7 +238825,18 @@ null
 "note": "Kei-Net 2026年度入学者用。諸会費の欄は記載なし"
 }
 ]
-}
+},
+"research": [
+"看護学部看護学科の1学部1学科で看護学を学ぶ",
+"1920年の聖路加国際病院付属高等看護婦学校から続く看護教育の伝統をもつ",
+"1964年に看護学部4年制教育を開始し、大学院に看護学研究科を置く"
+],
+"students": {
+"count": 458,
+"year": 2025
+},
+"founded": "1920年 聖路加国際病院付属高等看護婦学校として開設（1964年 聖路加看護大学、2014年 聖路加国際大学に改称）",
+"careers": "2024年度卒業者129人のうち就職114人（88.3%）、進学13人（10.1%）。"
 },
 "聖徳大学": {
 "faculties": [
