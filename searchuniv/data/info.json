@@ -41302,7 +41302,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-16",
+"schedule": "2026-11-24",
 "money": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
@@ -41818,7 +41818,7 @@
 "proc": "1次 法・社会科学・国際教養2/18、政治経済・人間科学2/22、スポーツ科学2/24"
 }
 ],
-"note": "第2次手続（学費・諸会費の春学期分）の締切は全学部3/24。Kei-Net・パスナビ（2027年度）と法学部公式ページで確認（2026-11-16）"
+"note": "第2次手続（学費・諸会費の春学期分）の締切は全学部3/24。Kei-Net（2027年4月入学の入試日程 https://search.keinet.ne.jp/2293/topics/12）で全日程を再確認（2026-11-24、変更なし）。検定料は2027年度の掲載前のため未記入"
 },
 "money": {
 "year": "2025年度の額（2027年度は未確認・参考）",
@@ -255806,7 +255806,9 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"schedule": "2026-11-12"
+"schedule": "2026-11-12",
+"kyotsu": "2026-11-24",
+"difficulty": "2026-11-24"
 },
 "departments": [
 {
@@ -255963,7 +255965,9 @@ null
 "https://search.keinet.ne.jp/2188/outline/expense",
 "https://search.keinet.ne.jp/2188/outline/licential",
 "https://search.keinet.ne.jp/2188/general/exam_result",
-"https://manabi.benesse.ne.jp/daigaku/school/3212/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3212/nyushi/",
+"https://search.keinet.ne.jp/2188/general/exam_subject",
+"https://search.keinet.ne.jp/2188/general/border_rate"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -256010,6 +256014,23 @@ null
 }
 ],
 "note": "ベネッセ マナビジョン（2027年度入試）。全学部共通。家政学部健康栄養学科はD日程なし。検定料は未確認"
+},
+"kyotsu": {
+"kamoku": "2教科2科目",
+"kyoka": [
+2
+],
+"rl": [
+"1:1"
+],
+"rl_text": "国際学部（英語コミュニケーション・国際）はリーディング:リスニング＝50:50と明記。他学科は配点の記載なし",
+"note": "全学科2教科2科目。選べる教科は学科で異なる（日本文学文化は国語＋1科目、看護は英・数・国・理から2、健康栄養は英・数・国・理・情から2など）",
+"year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "BF〜42.5",
+"kyotei": "47%〜54%",
+"year": "2027年度入試用"
 }
 },
 "嘉悦大学": {
@@ -256161,7 +256182,9 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"schedule": "2026-11-12"
+"schedule": "2026-11-12",
+"kyotsu": "2026-11-24",
+"difficulty": "2026-11-24"
 },
 "departments": [
 {
@@ -256388,7 +256411,9 @@ null
 "https://search.keinet.ne.jp/2215/outline/department",
 "https://search.keinet.ne.jp/2215/outline/expense",
 "https://search.keinet.ne.jp/2215/outline/licential",
-"https://manabi.benesse.ne.jp/daigaku/school/3247/nyushi/hou/"
+"https://manabi.benesse.ne.jp/daigaku/school/3247/nyushi/hou/",
+"https://search.keinet.ne.jp/2215/general/exam_subject",
+"https://search.keinet.ne.jp/2215/general/border_rate"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -256443,6 +256468,25 @@ null
 }
 ],
 "note": "ベネッセ マナビジョン（2027年度入試）。学部により異なる（法学部の例）。検定料は記載なし"
+},
+"kyotsu": {
+"kamoku": "1教科〜3教科3科目",
+"kyoka": [
+1,
+2,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はリーディング:リスニング＝1:1（法学部100:100、他学部110:110）",
+"note": "文・21世紀アジア・法は3教科3科目。政経・経済・経営は3教科型と2教科型。理工はⅠ期2〜3教科3科目、Ⅱ期1〜2教科2科目。体育は2教科2科目",
+"year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "35.0〜52.5",
+"kyotei": "53%〜73%",
+"year": "2027年度入試用"
 }
 },
 "国立音楽大学": {
