@@ -40155,7 +40155,9 @@
 "https://manabi.benesse.ne.jp/daigaku/school/1270/nyushi/",
 "https://passnavi.obunsha.co.jp/univ/0520/scholarship/",
 "https://passnavi.obunsha.co.jp/univ/0520/shinro/",
-"https://manabi.benesse.ne.jp/daigaku/school/1270/syusyoku/"
+"https://manabi.benesse.ne.jp/daigaku/school/1270/syusyoku/",
+"https://www.tut.ac.jp/exam/applications/docs/OpenCampus2026summer.pdf",
+"https://www.tut.ac.jp/exam/entrance/docs/R09saihen_yokoku.pdf"
 ],
 "kyotsu": {
 "kamoku": "6教科8科目（工学部学際共創課程前期）",
@@ -40244,7 +40246,8 @@
 "research": "2026-11-14",
 "careers": "2026-11-14",
 "scholar": "2026-11-19",
-"licenses": "2026-11-20"
+"licenses": "2026-11-20",
+"oc": "2026-11-24"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -40364,7 +40367,13 @@
 "licenses": [
 "測量士補",
 "一級建築士受験資格"
-]
+],
+"oc": {
+"year": "2026年度",
+"events": [],
+"url": "https://www.tut.ac.jp/exam/applications/docs/OpenCampus2026summer.pdf",
+"note": "2026夏のオープンキャンパスは8/22（土）に来場型で実施済み（要予約の説明会・模擬授業・分野別個別相談、予約不要の研究室公開・入試個別相談など）。2027年度の日程は未確認"
+}
 },
 "早稲田大学": {
 "difficulty": {
@@ -252950,7 +252959,13 @@ null
 "scholar": "2026-11-18",
 "_via": "2026-11-18",
 "schedule": "2026-11-18",
-"money": "2026-11-18"
+"money": "2026-11-18",
+"research": "2026-11-24",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"careers": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "scholar": {
 "year": "2027年度",
@@ -252984,7 +252999,12 @@ null
 "https://search.keinet.ne.jp/2245/outline/expense",
 "https://www.u-tokai.ac.jp/uploads/2026/07/7f9b56029f64c4d62ce28fe4f6612c5d.pdf",
 "https://digitalpr.jp/r/135143",
-"https://www.u-tokai.ac.jp/uploads/2021/02/3138531a9456e7e37c3281d7a941b022.pdf"
+"https://www.u-tokai.ac.jp/uploads/2021/02/3138531a9456e7e37c3281d7a941b022.pdf",
+"https://search.keinet.ne.jp/2245/outline/department",
+"https://search.keinet.ne.jp/2245",
+"https://search.keinet.ne.jp/2245/outline/licential",
+"https://search.keinet.ne.jp/2245/outline/admission_employment",
+"https://search.keinet.ne.jp/2245/general/exam_subject"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -253393,6 +253413,74 @@ null
 "summary": "全学部統一（前期・後期）・一般（試験日選択制）・共テ利用（前期・中期・後期）を実施",
 "note": "2026-11-18 大学公式の2027入学試験要項（全学部統一・一般・共テ利用）で確認。推薦・総合型・医学部医学科は未記入",
 "year": "2027年度入試"
+},
+"research": [
+"文・法・政治経済から理・工・医・海洋・農・体育まで20以上の学部を置く総合大学",
+"札幌・品川・湘南・伊勢原・静岡・熊本の各地にキャンパスを持つ",
+"工学部に航空宇宙学科航空操縦学専攻、海洋学部に航海学専攻など、操縦・航海を学べる専攻がある",
+"文化社会学部に北欧学科・文芸創作学科、体育学部に武道学科など、ほかに少ない学科がある"
+],
+"students": {
+"count": 29249,
+"year": 2025,
+"note": "Kei-Netの学部別学生数の合計（2025年度現在。募集停止の学部・学科を含む場合あり）"
+},
+"founded": "1942年 学園創立、1946年 旧制大学として東海大学認可",
+"licenses": [
+"中学校教諭（社会）一種",
+"中学校教諭（国語）一種",
+"中学校教諭（英語）一種",
+"中学校教諭（保健体育）一種",
+"中学校教諭（理科）一種",
+"中学校教諭（数学）一種",
+"高等学校教諭（公民）一種",
+"高等学校教諭（地理歴史）一種",
+"高等学校教諭（国語）一種",
+"高等学校教諭（英語）一種",
+"高等学校教諭（保健体育）一種",
+"高等学校教諭（理科）一種",
+"高等学校教諭（数学）一種",
+"高等学校教諭（情報）一種",
+"高等学校教諭（農業）一種",
+"高等学校教諭（工業）一種",
+"幼稚園教諭一種",
+"小学校教諭一種",
+"養護教諭二種",
+"学校図書館司書教諭一種（資格）",
+"司書（資格）",
+"社会教育主事（資格）",
+"学芸員（資格）",
+"保育士（資格）",
+"測量士（資格）",
+"測量士補（資格）",
+"食品衛生監視員（資格）",
+"社会調査士（資格）",
+"社会福祉主事（資格）",
+"公認心理師（受験資格）",
+"二級建築士（受験資格）",
+"一級建築士（受験資格）",
+"木造建築士（受験資格）",
+"操縦士（受験資格）",
+"臨床工学技士（受験資格）",
+"医師（受験資格）",
+"看護師（受験資格）",
+"保健師（受験資格）",
+"社会福祉士（受験資格）",
+"精神保健福祉士（受験資格）",
+"健康運動実践指導者（受験資格）"
+],
+"careers": "2024年度卒業者（Kei-Netに掲載の19学部の合計）5,995人のうち就職者4,426人（〔 〕内の人数は含めず）。学部別の就職率は観光学部94.5%、政治経済学部85.5%など。",
+"kyotsu": {
+"kamoku": "3教科3〜4科目",
+"kyoka": [
+3
+],
+"rl": [
+"4:1"
+],
+"rl_text": "英語はリーディング160点・リスニング40点（計200点）",
+"note": "文系学部は3教科3科目、理系学部の多くは3教科4科目が中心（学科・方式により異なる）",
+"year": "2027年度入試"
 }
 },
 "高崎商科大学": {
@@ -253408,7 +253496,11 @@ null
 "schedule": "2026-11-17",
 "access": "2026-11-09",
 "_via": "2026-11-09",
-"money": "2026-11-14"
+"money": "2026-11-14",
+"research": "2026-11-24",
+"students": "2026-11-24",
+"licenses": "2026-11-24",
+"careers": "2026-11-24"
 },
 "departments": [
 {
@@ -253563,7 +253655,11 @@ null
 "https://telemail.jp/shingaku/university/10000083/examination/general",
 "https://search.keinet.ne.jp/2131/general/schedule",
 "https://search.keinet.ne.jp/2131/general/exam_subject",
-"https://tuc.ac.jp/news/docs/2027_nyuushinitsuite_yokoku.pdf"
+"https://tuc.ac.jp/news/docs/2027_nyuushinitsuite_yokoku.pdf",
+"https://passnavi.obunsha.co.jp/univ/1953/department/",
+"https://passnavi.obunsha.co.jp/univ/1953/shinro/",
+"https://manabi.benesse.ne.jp/daigaku/school/3137/syusyoku/",
+"https://manabi.benesse.ne.jp/daigaku/school/3137/gakubu/gakubudt/20.html"
 ],
 "money": {
 "year": "2027年度",
@@ -253592,7 +253688,23 @@ null
 "note": "別途、簿記講座の購入が必要（日商簿記3・2級講座94,600円または1級講座242,000円）"
 }
 ]
-}
+},
+"research": [
+"商学部の1学部で、経営学科と会計学科を置く",
+"経営学科は2年次から経営・情報・観光まちづくりの3コースに分かれ、地域や企業と連携したプロジェクトに取り組む",
+"会計学科は現役の公認会計士などが指導し、会計・金融の2コース。全員が日商簿記2級レベルに届くようにカリキュラムを組んでいる",
+"簿記・FP・ITパスポートなど40以上の資格対策講座がある"
+],
+"students": {
+"count": 979,
+"year": 2025,
+"note": "2025年5月1日現在（ベネッセ マナビジョン）"
+},
+"licenses": [
+"高等学校教諭（情報）１種",
+"高等学校教諭（商業）１種"
+],
+"careers": "2025年度卒業者220人のうち就職者204人（就職希望者207人）。主な就職先は東和銀行、不二家、ヤマダホールディングス、群馬トヨタ自動車、ESネクスト有限責任監査法人、群馬県立高等学校など。"
 },
 "高崎健康福祉大学": {
 "faculties": [
@@ -253609,7 +253721,10 @@ null
 "kyotsu": "2026-11-09",
 "_via": "2026-11-09",
 "schedule": "2026-11-17",
-"money": "2026-11-13"
+"money": "2026-11-13",
+"students": "2026-11-24",
+"licenses": "2026-11-24",
+"careers": "2026-11-24"
 },
 "departments": [
 {
@@ -253664,7 +253779,8 @@ null
 "https://search.keinet.ne.jp/2139/general/schedule",
 "https://search.keinet.ne.jp/2139sp/general/exam_subject_sp",
 "https://search.keinet.ne.jp/2139/general/exam_fee",
-"https://manabi.benesse.ne.jp/daigaku/school/3136/nyushi/hoshiki/ippan/"
+"https://manabi.benesse.ne.jp/daigaku/school/3136/nyushi/hoshiki/ippan/",
+"https://manabi.benesse.ne.jp/daigaku/school/3136/syusyoku/index.html"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -253899,7 +254015,36 @@ null
 ],
 "note": "2026-11-17 Kei-Net（2027年度入試の入試科目）・マナビジョン（2027年度一般選抜）で確認。大学公式の要項は未確認。",
 "year": "2027年度入試"
-}
+},
+"students": {
+"count": 2965,
+"year": 2026,
+"note": "旺文社パスナビ掲載の学生総数（男906・女2,059）。同ページは2026年5月調査を基本とする"
+},
+"licenses": [
+"幼稚園教諭１種",
+"小学校教諭１種",
+"中学校教諭（英語）１種",
+"学校図書館司書教諭（任用）",
+"特別支援教諭（知的障害）１種",
+"特別支援教諭（肢体不自由）１種",
+"特別支援教諭（病弱）１種",
+"保育士",
+"社会福祉士",
+"社会福祉主事（任用）",
+"介護福祉士",
+"精神保健福祉士",
+"診療情報管理士",
+"栄養教諭１種",
+"管理栄養士",
+"栄養士",
+"養護教諭１種",
+"看護師",
+"保健師",
+"理学療法士",
+"薬剤師"
+],
+"careers": "2025年3月卒業生の主な就職先は、看護・薬学・理学療法系で群馬大学医学部附属病院・東京大学医学部附属病院・前橋赤十字病院・国立病院機構関東信越グループ・済生会前橋病院など、子ども教育学科で群馬県教育委員会・埼玉県教育委員会・高崎市・前橋市、社会福祉学科で全国社会福祉協議会・群馬県、医療情報学科でNECネッツエスアイ・NTT東日本グループ・聖路加国際病院など（卒業者数・就職者数は出典に記載なし）。"
 },
 "駿河台大学": {
 "kyotsu": {
@@ -253912,7 +254057,12 @@ null
 "methods": "2026-11-09",
 "schedule": "2026-11-17",
 "_via": "2026-11-09",
-"money": "2026-11-13"
+"money": "2026-11-13",
+"research": "2026-11-24",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"careers": "2026-11-24"
 },
 "methods": {
 "year": "2027年度入試",
@@ -254053,7 +254203,12 @@ null
 "https://search.keinet.ne.jp/2153/general/exam_subject",
 "https://search.keinet.ne.jp/2153/general/schedule",
 "https://search.keinet.ne.jp/2153/general/exam_fee",
-"https://manabi.benesse.ne.jp/daigaku/school/3151/nyushi/hoshiki/ippan/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3151/nyushi/hoshiki/ippan/index.html",
+"https://search.keinet.ne.jp/2153/outline/licential",
+"https://passnavi.obunsha.co.jp/univ/2010/top/",
+"https://passnavi.obunsha.co.jp/univ/2010/shinro/",
+"https://passnavi.obunsha.co.jp/univ/2010/subject/",
+"https://manabi.benesse.ne.jp/daigaku/school/3151/index.html"
 ],
 "money": {
 "year": "2026年度",
@@ -254114,7 +254269,32 @@ null
 "note": "（Kei-Net 2026年度入学者用。2027年度は未確認）"
 }
 ]
-}
+},
+"research": [
+"法学部は法学部教員が中心となって公務員・資格試験対策室や模擬面接指導を行う",
+"メディア情報学部はスタジオなどを備えたメディアセンター・メディアラボで制作を学べる",
+"スポーツ科学部はトレーニング機器をそろえたトレーニングセンターと陸上トラックを持つ",
+"心理学部は心理学実験室を備え、公認心理師（受験資格）・認定心理士につながる"
+],
+"students": {
+"count": 3933,
+"year": 2025,
+"note": "ベネッセ マナビジョン（2025年5月1日現在）"
+},
+"founded": "1987年 開学（法学部の単科大学として設立）",
+"licenses": [
+"司書（資格）",
+"公認心理師（受験資格）",
+"認定心理士（資格）",
+"中学校教諭（社会）一種",
+"高等学校教諭（地理歴史）一種",
+"高等学校教諭（公民）一種",
+"社会福祉主事（資格）",
+"中学校教諭（保健体育）一種",
+"高等学校教諭（保健体育）一種",
+"健康運動実践指導者(受験資格）"
+],
+"careers": "2025年度（2026年3月卒）の卒業者935人のうち就職者829人（就職希望者861人、学部別の合計）。主な就職先はサカイ引越センター、坂戸・鶴ヶ島消防組合、埼玉県警察本部、群馬県警察本部、セコム、西武鉄道など。"
 },
 "玉川大学": {
 "difficulty": {
@@ -254128,7 +254308,11 @@ null
 "schedule": "2026-11-14",
 "_via": "2026-11-17",
 "money": "2026-11-13",
-"scholar": "2026-11-17"
+"scholar": "2026-11-17",
+"research": "2026-11-24",
+"students": "2026-11-24",
+"licenses": "2026-11-24",
+"careers": "2026-11-24"
 },
 "methods": {
 "year": "2027年度入試",
@@ -254353,7 +254537,9 @@ null
 "https://www.tamagawa.jp/introduction/assessment/workshop/pdf/past-33.pdf",
 "https://www.juaa.or.jp/updata/evaluation_results/207/20141027_575002.pdf",
 "https://search.keinet.ne.jp/2240/outline/expense",
-"https://www.tamagawa.jp/uni_admission/faculty/pdf/guide_2027.pdf"
+"https://www.tamagawa.jp/uni_admission/faculty/pdf/guide_2027.pdf",
+"https://manabi.benesse.ne.jp/daigaku/school/3273/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3273/syusyoku/index.html"
 ],
 "money": {
 "year": "2026年度",
@@ -254565,7 +254751,52 @@ null
 }
 ],
 "note": "大学公式「2027年度入試ガイド」の記載から"
-}
+},
+"research": [
+"「全人教育」を理念とし、8学部17学科を設置",
+"教育学部以外（文・芸術・農・工など）にも教科別の教員養成課程がある",
+"科学・技術・工学・芸術・数学に英語（ELF）を加えた「ESTEAM教育」を推進",
+"履修科目数より内容の修得度で学びを評価する方針"
+],
+"students": {
+"count": 6092,
+"year": 2025,
+"note": "2025年5月1日現在（ベネッセ マナビジョン）"
+},
+"licenses": [
+"小学校教諭１種",
+"小学校教諭２種",
+"幼稚園教諭１種",
+"保育士",
+"中学校教諭（国語）１種／２種",
+"中学校教諭（数学）１種／２種",
+"中学校教諭（英語）１種／２種",
+"中学校教諭（理科）１種／２種",
+"中学校教諭（社会）１種／２種",
+"中学校教諭（音楽）１種／２種",
+"中学校教諭（美術）１種／２種",
+"中学校教諭（保健体育）１種／２種",
+"中学校教諭（技術）１種／２種",
+"高等学校教諭（国語）１種",
+"高等学校教諭（英語）１種",
+"高等学校教諭（数学）１種",
+"高等学校教諭（理科）１種",
+"高等学校教諭（農業）１種",
+"高等学校教諭（工業）１種",
+"高等学校教諭（情報）１種",
+"高等学校教諭（地理歴史）１種",
+"高等学校教諭（公民）１種",
+"高等学校教諭（保健体育）１種",
+"高等学校教諭（音楽）１種",
+"高等学校教諭（美術）１種",
+"高等学校教諭（工芸）１種",
+"学校図書館司書教諭（任用）",
+"学芸員",
+"司書",
+"社会教育主事（任用）",
+"社会教育士"
+],
+"careers": "2025年3月卒業生の主な就職先は、公立・私立学校教員（各学部）、農林水産省・農研機構・森永乳業（農学部）、東日本旅客鉄道・スズキ・KDDIテクノロジー（工学部）、JTB・全日本空輸・JALスカイ（観光学部）、オリエンタルランド・東宝・新国立劇場運営財団（芸術学部）など。卒業者数・就職者数は出典に記載なし。"
 },
 "湘南鎌倉医療大学": {
 "faculties": [
@@ -254805,7 +255036,12 @@ null
 "schedule": "2026-11-18",
 "scholar": "2026-11-09",
 "_via": "2026-11-17",
-"money": "2026-11-17"
+"money": "2026-11-17",
+"research": "2026-11-24",
+"students": "2026-11-24",
+"founded": "2026-11-24",
+"licenses": "2026-11-24",
+"careers": "2026-11-24"
 },
 "difficulty": {
 "hensachi": "35.0〜37.5",
@@ -254967,7 +255203,10 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3369/nyushi/index.html",
 "https://www.shonan-it.ac.jp/media/2027_kobo_guide2.pdf",
 "https://www.shonan-it.ac.jp/media/2027_sogo_guide.pdf",
-"https://search.keinet.ne.jp/2310/general/schedule"
+"https://search.keinet.ne.jp/2310/general/schedule",
+"https://search.keinet.ne.jp/2310",
+"https://manabi.benesse.ne.jp/daigaku/school/3369/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3369/syusyoku/index.html"
 ],
 "money": {
 "year": "2027年度",
@@ -254984,7 +255223,27 @@ null
 "note": "施設拡充費250,000円。その他は保険料4,660円・学生自治会費15,000円・後援会費10,000円（大学公式 2027年度募集要項、予定額）"
 }
 ]
-}
+},
+"research": [
+"工学部・情報学部の2学部。工学部でも2027年4月から分野を横断して学べる「専攻制」を導入",
+"工学技術と情報技術を組み合わせ、企業・自治体と連携して地域課題に取り組む教育",
+"双方向型のアクティブラーニングを多くの授業で実施",
+"CAD教室、3Dアニメーションソフト対応PC教室、14の研究センターを備える"
+],
+"students": {
+"count": 2077,
+"year": 2025,
+"note": "2025年5月1日現在（ベネッセ マナビジョン）"
+},
+"founded": "1963年 相模工業大学として開学（1990年 湘南工科大学に改称）",
+"licenses": [
+"中学校教諭（数学）１種",
+"中学校教諭（技術）１種",
+"高等学校教諭（数学）１種",
+"高等学校教諭（情報）１種",
+"高等学校教諭（工業）１種"
+],
+"careers": "2024年度卒業生の進路決定率は99.3％（2025年4月1日時点、進路活動者比）。主な就職先は工学部でマツダ・荏原製作所・関電工・東日本旅客鉄道など、情報学部で富士通・さくらインターネット・東芝情報システム・東京地下鉄など。卒業者数・就職者数は出典に記載なし。"
 },
 "千葉工業大学": {
 "difficulty": {
@@ -255003,7 +255262,9 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"schedule": "2026-11-12"
+"schedule": "2026-11-12",
+"careers": "2026-11-24",
+"kyotsu": "2026-11-24"
 },
 "faculties": [
 "工学部",
@@ -255115,7 +255376,10 @@ null
 "https://search.keinet.ne.jp/2178/outline/expense",
 "https://search.keinet.ne.jp/2178/general/exam_result",
 "https://search.keinet.ne.jp/2178/general/border_rate",
-"https://manabi.benesse.ne.jp/daigaku/school/3201/nyushi/hoshiki/ippan/"
+"https://manabi.benesse.ne.jp/daigaku/school/3201/nyushi/hoshiki/ippan/",
+"https://search.keinet.ne.jp/2178/outline/admission_employment",
+"https://search.keinet.ne.jp/2178/general/exam_subject",
+"https://manabi.benesse.ne.jp/daigaku/school/3201/syusyoku/index.html"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -255172,6 +255436,23 @@ null
 }
 ],
 "note": "ベネッセ マナビジョン（2027年度入試）。工学部・創造工学部建築学科の例（学部により異なる場合あり。先進工学部などは未確認）。共通テスト利用選抜・検定料は未確認"
+},
+"careers": "2024年の学部卒業者2,067人のうち就職者1,557人（Kei-Netの学部別人数の合計。工学部757人中521人、社会システム科学部290人中259人など）。主な就職先（2022〜2024年度卒）はキヤノン、トヨタ自動車、鹿島建設、大林組、日立製作所、富士通、SUBARU、千葉銀行、日本アイ・ビー・エムなど。",
+"kyotsu": {
+"kamoku": "1教科1科目〜5教科6科目",
+"kyoka": [
+1,
+2,
+3,
+4,
+5
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はリーディング100・リスニング100（前期タイプⅠ・Ⅱ、中期・後期の共テ方式はR／R＋Lの指定、5教科基準点型はR・Lとも必須）。SA・SB・SC日程は英語なし",
+"note": "前期タイプⅠ・Ⅱ：3教科3科目／5教科基準点型：5教科6科目／中期・後期タイプⅠ：2教科2科目／中期・後期タイプⅡ：4教科4科目／SA日程：1教科2科目／SB・SC日程：1教科1科目",
+"year": "2027年度入試"
 }
 },
 "千葉経済大学": {
@@ -255191,7 +255472,8 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"schedule": "2026-11-12"
+"schedule": "2026-11-12",
+"careers": "2026-11-24"
 },
 "faculties": [
 "経済学部"
@@ -255253,7 +255535,8 @@ null
 "https://search.keinet.ne.jp/2177/outline/expense",
 "https://search.keinet.ne.jp/2177/general/exam_result",
 "https://search.keinet.ne.jp/2177/general/border_rate",
-"https://manabi.benesse.ne.jp/daigaku/school/3200/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3200/nyushi/",
+"https://manabi.benesse.ne.jp/daigaku/school/3200/syusyoku/index.html"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -255308,7 +255591,8 @@ null
 }
 ],
 "note": "ベネッセ マナビジョン（2027年度入試、経済学部）。共通テスト利用選抜は掲載なし。検定料は未確認"
-}
+},
+"careers": "2025年3月卒業生の主な就職内定先は、千葉県庁、千葉県警察、船橋市役所・市川市役所、千葉興業銀行、成田市農業協同組合、日本製鉄 君津製鉄所、オープンハウスグループ、星野リゾート、良品計画、ファンケルなど。"
 },
 "和光大学": {
 "faculties": [

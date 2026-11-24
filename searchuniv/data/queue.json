@@ -19483,6 +19483,126 @@
 "kyotsu"
 ],
 "note": "2026-11-24 マナビジョン3386で学生数・特色を補完（沿革・資格・進路・共テは未取得）"
+},
+{
+"name": "東海大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2245",
+"note": "2026-11-24 一部補完"
+},
+{
+"name": "高崎商科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers"
+],
+"keinet": "2131",
+"note": "2026-11-24 一部補完"
+},
+{
+"name": "高崎健康福祉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2139",
+"note": "2026-11-24 一部補完"
+},
+{
+"name": "駿河台大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2153",
+"note": "2026-11-24 一部補完"
+},
+{
+"name": "玉川大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2240",
+"note": "2026-11-24 一部補完"
+},
+{
+"name": "湘南工科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu"
+],
+"keinet": "2310",
+"note": "2026-11-24 一部補完"
+},
+{
+"name": "千葉工業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"careers",
+"kyotsu"
+],
+"keinet": "2178",
+"note": "2026-11-24 一部補完"
+},
+{
+"name": "千葉経済大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"careers",
+"kyotsu"
+],
+"keinet": "2177",
+"note": "2026-11-24 一部補完"
 }
 ],
 "failed": [],
@@ -19762,118 +19882,6 @@
 "横浜商科大学": 1
 },
 "enrich": [
-{
-"name": "東海大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers",
-"kyotsu"
-],
-"keinet": "2245"
-},
-{
-"name": "高崎商科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers"
-],
-"keinet": "2131"
-},
-{
-"name": "高崎健康福祉大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers",
-"kyotsu"
-],
-"keinet": "2139"
-},
-{
-"name": "駿河台大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
-],
-"keinet": "2153"
-},
-{
-"name": "玉川大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers",
-"kyotsu"
-],
-"keinet": "2240"
-},
-{
-"name": "湘南工科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"founded",
-"licenses",
-"careers",
-"kyotsu"
-],
-"keinet": "2310"
-},
-{
-"name": "千葉工業大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"careers",
-"kyotsu"
-],
-"keinet": "2178"
-},
-{
-"name": "千葉経済大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"careers",
-"kyotsu"
-],
-"keinet": "2177"
-},
 {
 "name": "和光大学",
 "need": [
