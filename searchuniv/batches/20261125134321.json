@@ -1,0 +1,629 @@
+[
+ {
+  "name": "東京工芸大学",
+  "info": {
+   "kyotsu": {
+    "kamoku": "工学部：共通テスト方式 2教科2科目（英・数・国・理・情から2）／芸術学部：C方式 1〜2教科2科目（英・数・国・理・地公・情から）、併用D方式 1教科1科目＋実技",
+    "kyoka": [
+     1,
+     2
+    ],
+    "rl": [
+     "1:1"
+    ],
+    "rl_text": "英語はR50:L50（1:1）。「R」または「R＋L」の記載あり",
+    "note": "併用D方式は二次で実技（200点）。Kei-Net の科目ページは途中までしか読めず、芸術学部はインタラクティブメディア以降の学科の共テ方式の詳細は未確認（ボーダーページでは全学科にC・D方式の得点率あり）",
+    "year": "2027年度入試"
+   },
+   "difficulty": {
+    "hensachi": "35.0〜50.0",
+    "kyotei": "37%〜75%",
+    "year": "2027年度入試用",
+    "note": "工学部の機械・電気電子は一般選抜の偏差値がBF（範囲はBFを除く）"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2297/general/border_rate",
+    "https://search.keinet.ne.jp/2297/general/exam_subject"
+   ]
+  }
+ },
+ {
+  "name": "東京情報大学",
+  "info": {
+   "kyotsu": {
+    "kamoku": "2教科型（2教科2科目）・3教科型（3教科3科目）",
+    "kyoka": [
+     2,
+     3
+    ],
+    "rl": [],
+    "rl_text": "Kei-Net の科目ページにR:Lの記載なし",
+    "note": "看護学部は英・数・国・理・情から、総合情報学部は英・数・国・理・地公・情から選択",
+    "year": "2027年度入試"
+   },
+   "difficulty": {
+    "hensachi": "35.0〜37.5",
+    "kyotei": "45%〜55%",
+    "year": "2027年度入試用"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2184/general/border_rate",
+    "https://search.keinet.ne.jp/2184/general/exam_subject"
+   ]
+  }
+ },
+ {
+  "name": "東京情報デザイン専門職大学",
+  "info": {
+   "kyotsu": {
+    "kamoku": "前期・中期・後期の各Ⅰ（3科目）・Ⅱ（2科目）方式",
+    "kyoka": [
+     2,
+     3
+    ],
+    "rl": [
+     "1:1"
+    ],
+    "rl_text": "英語はR100:L100（1:1）。後期Ⅰは英語を使わない（数学・理科）",
+    "note": "地歴・公民は選べない。中期Ⅰは英語・数学必須、後期Ⅱは数学必須",
+    "year": "2027年度入試"
+   },
+   "difficulty": {
+    "hensachi": "BF",
+    "kyotei": "37%〜39%",
+    "year": "2027年度入試用"
+   },
+   "research": [
+    "IT・IoT・AI・セキュリティ・CG・ゲームの6分野から履修モデルを1つ選んで学ぶ",
+    "Pythonプログラミング、機械学習、CGモデリング、モーションキャプチャ、暗号と認証技術などの専門科目",
+    "1年次から企業の課題に取り組む産学連携教育と長期インターン",
+    "マーケティング・事業戦略などビジネス系の展開科目もある",
+    "学生制作のゲームを東京ゲームショウ2025に出展"
+   ],
+   "students": {
+    "count": 664,
+    "year": 2026
+   },
+   "careers": "想定職種はシステムエンジニア、プログラマー、AIエンジニア、データサイエンティスト、セキュリティ・ネットワーク・CG・VR/ARエンジニアなど（マナビジョン）。",
+   "sources": [
+    "https://search.keinet.ne.jp/2299/general/border_rate",
+    "https://search.keinet.ne.jp/2299/general/exam_subject",
+    "https://manabi.benesse.ne.jp/daigaku/school/3349/gakubu/gakubudt/37.html"
+   ]
+  }
+ },
+ {
+  "name": "国際基督教大学（ICU）",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（人文・社会科学選択／数理・自然科学選択）",
+      "fee": "30,000円（2区分併願40,000円・3区分50,000円）",
+      "apply": "1/6〜1/19",
+      "exam": "2/6",
+      "result": "2/12",
+      "proc": "2/22",
+      "note": "授業料・施設費の延納は3月1日（月）まで可"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（日英バイリンガル面接利用／英語外部試験利用）",
+      "fee": "30,000円（2区分併願40,000円・3区分50,000円）",
+      "apply": "1/6〜1/19",
+      "exam": "1次2/6・2次2/20",
+      "result": "1次2/12・最終2/26",
+      "proc": "3/8"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜〈4月入学専願〉（英語外部試験利用／理数探究利用／IBDP利用）",
+      "fee": 35000,
+      "apply": "9/1〜9/8（書類提出9/9まで）",
+      "exam": "1次書類（結果10/9）・2次10/17（対面の個人面接）",
+      "result": "11/2",
+      "proc": "11/11",
+      "note": "Web出願システム手数料1,100円が別途。複数区分への出願不可",
+      "url": "https://www.icu.ac.jp/admissions/undergraduate/images/AY2027_sogo.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜〈4月入学〉外国教育制度利用（帰国生）",
+      "fee": 35000,
+      "apply": "7/1〜7/7（書類提出8/6まで）",
+      "exam": "1次書類（結果9/4）・2次9/12（日本語によるオンライン個人面接）",
+      "result": "9/18",
+      "proc": "10/7",
+      "note": "Web出願システム手数料1,100円が別途",
+      "url": "https://www.icu.ac.jp/admissions/undergraduate/images/2027ki.pdf"
+     }
+    ]
+   },
+   "methods_replace": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（人文・社会科学／数理・自然科学）",
+      "kyotsu": "課さない",
+      "niji": "英語80＋総合教養80＋人文社会科学または数理自然科学80",
+      "haiten": "個別試験のみ240点",
+      "note": "教養学部アーツ・サイエンス学科の1学科のみ"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（日英面接利用）",
+      "kyotsu": "課さない",
+      "niji": "英語80＋総合教養80＋面接（一部英語）",
+      "haiten": "個別試験のみ160点",
+      "note": ""
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（英語外部試験利用）",
+      "kyotsu": "課さない",
+      "niji": "総合教養80＋面接（英語は資格・検定試験）",
+      "haiten": "個別試験のみ",
+      "note": ""
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（英語外部試験利用）",
+      "content": "書類（調査書・推薦状2通・自己活動歴と自己分析・小論文・英語能力証明書）→日本語による個人面接（対面）",
+      "req": "専願（第一志望・入学確約）、学習成績の状況4.1以上、英語資格（IELTS・TOEFL iBT・英検・Cambridge English・GTECのいずれか）",
+      "kyotsu": "課さない",
+      "note": "募集60名",
+      "url": "https://www.icu.ac.jp/admissions/undergraduate/images/AY2027_sogo.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（理数探究利用）",
+      "content": "書類（調査書・推薦状2通・自己活動歴と自己分析・研究成果の要約）→日本語による個人面接（対面、研究成果の10分プレゼン＋質疑）",
+      "req": "専願、学習成績の状況4.0以上かつ数学または理科4.2以上",
+      "kyotsu": "課さない",
+      "note": "募集5名",
+      "url": "https://www.icu.ac.jp/admissions/undergraduate/images/AY2027_sogo.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（IBDP利用）",
+      "content": "書類（成績証明書・IBの成績・推薦状2通・課題論文の要約・自己活動歴と自己分析・英語能力証明書）→日本語および英語による個人面接（課題論文の10分プレゼン＋質疑）",
+      "req": "専願、IBディプロマ取得（見込み）、日本語A履修",
+      "kyotsu": "課さない",
+      "note": "募集10名",
+      "url": "https://www.icu.ac.jp/admissions/undergraduate/images/AY2027_sogo.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（外国教育制度利用・帰国生）",
+      "content": "書類（英語スコア提出、基準点なし）→日本語によるオンライン個人面接",
+      "req": "外国の教育制度で中・高を通じ2年以上継続して教育を受けた者",
+      "kyotsu": "課さない",
+      "note": "募集35名",
+      "url": "https://www.icu.ac.jp/admissions/undergraduate/images/2027ki.pdf"
+     }
+    ],
+    "summary": "1学科のみ。一般は共テを使わず英語＋総合教養の独自試験。総合型は専願で評定4.0〜4.1以上が目安。",
+    "note": "Kei-Netに共通テスト利用方式・学校推薦型の掲載はない。指定校推薦の有無は未確認。 学校推薦型（国際基督教大学高校・本学が指定する高等学校・キリスト教学校教育同盟加盟校）は大学公式の募集人員表に記載あり（内容は未確認）。大学公式「2027・2028年度以降の教養学部入学者選抜の変更について」に、総合型の英語外部試験利用を探究学習利用に変更・理数探究利用を統合と記載（2027年度入試要項は従来の区分名）。"
+   },
+   "_src": {
+    "schedule": [
+     "https://www.icu.ac.jp/admissions/undergraduate/images/AY2027_sogo.pdf",
+     "https://www.icu.ac.jp/admissions/undergraduate/images/2027ki.pdf"
+    ],
+    "methods": [
+     "https://www.icu.ac.jp/admissions/undergraduate/images/AY2027_sogo.pdf",
+     "https://www.icu.ac.jp/admissions/undergraduate/images/2027ki.pdf",
+     "https://www.icu.ac.jp/admissions/undergraduate/images/27nyushi.pdf"
+    ]
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2214/general/border_rate",
+    "https://search.keinet.ne.jp/2214",
+    "https://search.keinet.ne.jp/2214/outline/campus",
+    "https://search.keinet.ne.jp/2214/outline/expense",
+    "https://search.keinet.ne.jp/2214/outline/department",
+    "https://www.icu.ac.jp/en/about/press/",
+    "https://www.christiantoday.co.jp/articles/34420/20250123/icu-president-receives-ordre-des-palmes-academiques.htm",
+    "https://www.icu.ac.jp/admissions/undergraduate/exam/general/",
+    "https://www.icu.ac.jp/admissions/tuition/",
+    "https://search.keinet.ne.jp/2214/outline/licential",
+    "https://search.keinet.ne.jp/2214/outline/admission_employment",
+    "https://passnavi.obunsha.co.jp/univ/2410/department/",
+    "https://passnavi.obunsha.co.jp/univ/2410/scholarship/",
+    "https://search.keinet.ne.jp/2214/general/exam_subject",
+    "https://www.icu.ac.jp/admissions/undergraduate/images/AY2027_sogo.pdf",
+    "https://www.icu.ac.jp/admissions/undergraduate/images/2027ki.pdf",
+    "https://www.icu.ac.jp/admissions/undergraduate/images/27nyushi.pdf"
+   ]
+  }
+ },
+ {
+  "name": "茨城キリスト教大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般 1期",
+      "apply": "1/7〜1/21（必着）",
+      "exam": "2/3",
+      "result": "2/12",
+      "proc": "2/15〜2/26",
+      "fee": 34000,
+      "note": "全学部共通。検定料34,000円は一般選抜1期要項（Web出願の支払手数料は別）。窓口は1/15・1/16受付不可",
+      "url": "https://www.icc.ac.jp/entrance/admission/2027_boshuuyoukou_2_2.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般 2期",
+      "apply": "2/4〜2/18（必着）",
+      "exam": "3/3",
+      "result": "3/9",
+      "proc": "3/10〜3/25",
+      "fee": 32000,
+      "note": "検定料は2026年度入試の額（2027年度は未確認）",
+      "url": "https://www.icc.ac.jp/entrance/admission/2027_boshuuyoukou_2_2.pdf"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共テ利用 1期",
+      "apply": "1/7〜1/25（必着）",
+      "exam": "1/16・1/17（共テ）",
+      "result": "2/13",
+      "proc": "2/15〜2/26",
+      "fee": 16000,
+      "note": "検定料は2026年度入試の額（割引あり）。共テ日程は公式日程表に記載なし",
+      "url": "https://www.icc.ac.jp/entrance/admission/2027_boshuuyoukou_2_2.pdf"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共テ利用 2期",
+      "apply": "2/19〜3/4（必着）",
+      "exam": "1/16・1/17（共テ）",
+      "result": "3/12",
+      "proc": "3/15〜3/25",
+      "fee": 16000,
+      "note": "検定料は2026年度入試の額。共テ日程は公式日程表に記載なし",
+      "url": "https://www.icc.ac.jp/entrance/admission/2027_boshuuyoukou_2_2.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型 1期",
+      "apply": "9/1〜9/24（必着）",
+      "exam": "10/10（文・生活科学・看護・経営）、10/17（未来教養学環）",
+      "result": "11/2",
+      "proc": "11/4〜11/11",
+      "fee": null,
+      "note": "",
+      "url": "https://www.icc.ac.jp/entrance/admission/2027_boshuuyoukou_2_2.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型 2期",
+      "apply": "11/24〜12/4（必着）",
+      "exam": "12/12",
+      "result": "12/16",
+      "proc": "12/17〜12/24",
+      "fee": null,
+      "note": "",
+      "url": "https://www.icc.ac.jp/entrance/admission/2027_boshuuyoukou_2_2.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型（一般推薦）",
+      "apply": "11/2〜11/6（必着）",
+      "exam": "11/14",
+      "result": "12/1",
+      "proc": "12/2〜12/10",
+      "fee": null,
+      "note": "",
+      "url": "https://www.icc.ac.jp/entrance/admission/2027_boshuuyoukou_2_2.pdf"
+     }
+    ],
+    "note": "大学公式「2027年度 入学試験日程」（募集要項）で確認（2026-11-25）。出願・手続は書類必着。Kei-Net・マナビジョンの日程と一致"
+   },
+   "methods_replace": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜1期",
+      "kyotsu": "課さない",
+      "niji": "英（必須）＋数・国・理・地公から1（看護・食物健康は英/国＋数/理、経営は英・国＋1）",
+      "haiten": "個別のみ（200点、現代英語・経営は300点）",
+      "note": "理＝生物基礎、地公＝公共、数＝数学Ⅰ（大学公式 一般選抜1期要項）",
+      "url": "https://www.icc.ac.jp/entrance/admission/2027_boshuuyoukou_8_ippansenbatsu1.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜2期",
+      "kyotsu": "課さない",
+      "niji": "英・数・国から2科目中心（経営は英・数Ⅰ・国）",
+      "haiten": "個別のみ（200〜300点）",
+      "note": "募集若干名"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用方式",
+      "kyotsu": "2〜3教科（学科により必須科目あり）",
+      "niji": "なし",
+      "haiten": "共テのみ（300点、現代英語は400点）",
+      "kn": [
+       1,
+       0
+      ],
+      "note": ""
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜",
+      "content": "詳細未確認（Kei-Netは入試結果のみ掲載）",
+      "req": "",
+      "kyotsu": "",
+      "note": "全学科で実施（2026年度入試結果より）"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "content": "詳細未確認（Kei-Netは入試結果のみ掲載）",
+      "req": "",
+      "kyotsu": "",
+      "note": "全学科で実施（2026年度入試結果より）"
+     }
+    ],
+    "summary": "一般は英語＋1科目の2科目型が中心、共テ利用は2〜3教科。推薦・総合型も全学科で実施。",
+    "note": "推薦・総合型の選考内容・出願条件は大学の募集要項で要確認"
+   },
+   "subjects_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "文学部 現代英語学科",
+      "kubun": "一般",
+      "name": "一般 1期",
+      "n": 2,
+      "subj": "英語200・国語・公共・生物基礎・数学Ⅰから1 100（計300）",
+      "kt": "",
+      "eng": "",
+      "note": "",
+      "url": "https://www.icc.ac.jp/entrance/admission/2027_boshuuyoukou_8_ippansenbatsu1.pdf"
+     },
+     {
+      "f": "文学部 児童教育学科（児童教育コース）",
+      "kubun": "一般",
+      "name": "一般 1期",
+      "n": 2,
+      "subj": "英語100・国語・公共・生物基礎・数学Ⅰから1 100（計200）",
+      "kt": "",
+      "eng": "",
+      "note": "",
+      "url": "https://www.icc.ac.jp/entrance/admission/2027_boshuuyoukou_8_ippansenbatsu1.pdf"
+     },
+     {
+      "f": "文学部 児童教育学科（幼児保育コース）",
+      "kubun": "一般",
+      "name": "一般 1期",
+      "n": 2,
+      "subj": "英語100・国語・公共・生物基礎・数学Ⅰから1 100（計200）",
+      "kt": "",
+      "eng": "",
+      "note": "",
+      "url": "https://www.icc.ac.jp/entrance/admission/2027_boshuuyoukou_8_ippansenbatsu1.pdf"
+     },
+     {
+      "f": "文学部 文化交流学科",
+      "kubun": "一般",
+      "name": "一般 1期",
+      "n": 2,
+      "subj": "英語100・国語・公共・生物基礎・数学Ⅰから1 100（計200）",
+      "kt": "",
+      "eng": "",
+      "note": "",
+      "url": "https://www.icc.ac.jp/entrance/admission/2027_boshuuyoukou_8_ippansenbatsu1.pdf"
+     },
+     {
+      "f": "生活科学部 心理福祉学科",
+      "kubun": "一般",
+      "name": "一般 1期",
+      "n": 2,
+      "subj": "英語100・国語・公共・生物基礎・数学Ⅰから1 100（計200）",
+      "kt": "",
+      "eng": "",
+      "note": "",
+      "url": "https://www.icc.ac.jp/entrance/admission/2027_boshuuyoukou_8_ippansenbatsu1.pdf"
+     },
+     {
+      "f": "未来教養学環",
+      "kubun": "一般",
+      "name": "一般 1期",
+      "n": 2,
+      "subj": "英語100・国語・公共・生物基礎・数学Ⅰから1 100（計200）",
+      "kt": "",
+      "eng": "",
+      "note": "",
+      "url": "https://www.icc.ac.jp/entrance/admission/2027_boshuuyoukou_8_ippansenbatsu1.pdf"
+     },
+     {
+      "f": "生活科学部 食物健康科学科",
+      "kubun": "一般",
+      "name": "一般 1期",
+      "n": 2,
+      "subj": "英語・国語から1 100・生物基礎・数学Ⅰから1 100（計200）",
+      "kt": "",
+      "eng": "",
+      "note": "",
+      "url": "https://www.icc.ac.jp/entrance/admission/2027_boshuuyoukou_8_ippansenbatsu1.pdf"
+     },
+     {
+      "f": "看護学部 看護学科",
+      "kubun": "一般",
+      "name": "一般 1期",
+      "n": 2,
+      "subj": "英語・国語から1 100・生物基礎・数学Ⅰから1 100（計200）",
+      "kt": "",
+      "eng": "",
+      "note": "",
+      "url": "https://www.icc.ac.jp/entrance/admission/2027_boshuuyoukou_8_ippansenbatsu1.pdf"
+     },
+     {
+      "f": "経営学部 経営学科",
+      "kubun": "一般",
+      "name": "一般 1期",
+      "n": 3,
+      "subj": "英語100・国語100・公共・生物基礎・数学Ⅰから1 100（計300）",
+      "kt": "",
+      "eng": "",
+      "note": "",
+      "url": "https://www.icc.ac.jp/entrance/admission/2027_boshuuyoukou_8_ippansenbatsu1.pdf"
+     },
+     {
+      "f": "文学部 現代英語学科",
+      "kubun": "共テ利用",
+      "name": "共テ 1期",
+      "n": 3,
+      "subj": "共通テストのみ（計400）",
+      "kt": "2〜3教科3〜4科目（英語R100・L100を含む）",
+      "eng": "英語資格が出願要件",
+      "note": "数・国・理・地歴公民・情報から2"
+     }
+    ],
+    "note": "一般選抜1期は大学公式「2027年度 一般選抜入学試験1期要項」で確認（各60分、調査書と主体性評価チェックリストも活用）。英語の範囲は英語コミュニケーションⅠ〜Ⅲ・論理・表現Ⅰ・Ⅱ、国語は現代の国語・言語文化（現代文のみ）。共テ利用の行は二次資料のみ（公式未確認）。一般2期は未収集"
+   },
+   "ratios_replace": {
+    "kind": "実質倍率（受験者÷合格者）",
+    "rows": [
+     {
+      "kubun": "一般",
+      "unit": "大学計（一般方式＋共テ利用）",
+      "y": {
+       "2025": 1.2,
+       "2026": 1.2
+      }
+     },
+     {
+      "kubun": "一般",
+      "unit": "一般方式計",
+      "y": {
+       "2025": 1.2,
+       "2026": 1.2
+      }
+     },
+     {
+      "kubun": "共テ利用",
+      "unit": "共通テスト利用方式計",
+      "y": {
+       "2025": 1.2,
+       "2026": 1.2
+      }
+     },
+     {
+      "kubun": "一般",
+      "unit": "文学部 現代英語学科 1期",
+      "y": {
+       "2025": 1.0,
+       "2026": 1.1
+      },
+      "url": "https://www.icc.ac.jp/entrance/admission/hh7het00000006a6-att/2026_nyushideta.pdf"
+     },
+     {
+      "kubun": "一般",
+      "unit": "文学部 文化交流学科 1期",
+      "y": {
+       "2025": 1.0,
+       "2026": 1.1
+      },
+      "url": "https://www.icc.ac.jp/entrance/admission/hh7het00000006a6-att/2026_nyushideta.pdf"
+     },
+     {
+      "kubun": "一般",
+      "unit": "経営学部 経営学科 1期",
+      "y": {
+       "2025": 1.6,
+       "2026": 1.5
+      },
+      "url": "https://www.icc.ac.jp/entrance/admission/hh7het00000006a6-att/2026_nyushideta.pdf"
+     },
+     {
+      "kubun": "一般",
+      "unit": "看護学部 看護学科 1期",
+      "y": {
+       "2025": 1.1,
+       "2026": 1.1
+      },
+      "url": "https://www.icc.ac.jp/entrance/admission/hh7het00000006a6-att/2026_nyushideta.pdf"
+     },
+     {
+      "kubun": "一般",
+      "unit": "生活科学部 心理福祉学科 1期",
+      "y": {
+       "2025": 1.4,
+       "2026": 1.4
+      },
+      "url": "https://www.icc.ac.jp/entrance/admission/hh7het00000006a6-att/2026_nyushideta.pdf"
+     },
+     {
+      "kubun": "一般",
+      "unit": "生活科学部 食物健康科学科 1期",
+      "y": {
+       "2025": 1.0,
+       "2026": 1.0
+      },
+      "url": "https://www.icc.ac.jp/entrance/admission/hh7het00000006a6-att/2026_nyushideta.pdf"
+     },
+     {
+      "kubun": "一般",
+      "unit": "未来教養学部 1期",
+      "y": {
+       "2025": 1.1,
+       "2026": 1.7
+      },
+      "url": "https://www.icc.ac.jp/entrance/admission/hh7het00000006a6-att/2026_nyushideta.pdf"
+     },
+     {
+      "kubun": "一般",
+      "unit": "文学部 児童教育学科 児童教育コース 1期",
+      "y": {
+       "2026": 1.0
+      },
+      "url": "https://www.icc.ac.jp/entrance/admission/hh7het00000006a6-att/2026_nyushideta.pdf"
+     },
+     {
+      "kubun": "一般",
+      "unit": "文学部 児童教育学科 幼児保育コース 1期",
+      "y": {
+       "2026": 1.0
+      },
+      "url": "https://www.icc.ac.jp/entrance/admission/hh7het00000006a6-att/2026_nyushideta.pdf"
+     }
+    ],
+    "note": "学科別1期の2026年は大学公式「2026年度入試データ」と一致（例 経営 受験49・合格33＝1.5、未来教養 12・7＝1.7）。2025年と合計行は河合塾Kei-Netの値（公式未照合）"
+   },
+   "_src": {
+    "schedule": [
+     "https://www.icc.ac.jp/entrance/admission/2027_boshuuyoukou_2_2.pdf"
+    ],
+    "methods": [
+     "https://www.icc.ac.jp/entrance/admission/2027_boshuuyoukou_8_ippansenbatsu1.pdf"
+    ],
+    "subjects": [
+     "https://www.icc.ac.jp/entrance/admission/2027_boshuuyoukou_8_ippansenbatsu1.pdf"
+    ],
+    "ratios": [
+     "https://www.icc.ac.jp/entrance/admission/hh7het00000006a6-att/2026_nyushideta.pdf"
+    ]
+   },
+   "sources": [
+    "https://www.icc.ac.jp/entrance/admission/",
+    "https://www.icc.ac.jp/entrance/admission/application_requirements.html",
+    "https://www.icc.ac.jp/entrance/admission/2027_boshuuyoukou_2_2.pdf",
+    "https://www.icc.ac.jp/entrance/admission/2027_boshuuyoukou_8_ippansenbatsu1.pdf",
+    "https://www.icc.ac.jp/entrance/admission/data-kakomon.html",
+    "https://www.icc.ac.jp/entrance/admission/hh7het00000006a6-att/2026_nyushideta.pdf"
+   ]
+  }
+ }
+]

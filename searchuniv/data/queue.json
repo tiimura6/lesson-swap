@@ -20353,6 +20353,48 @@
 "difficulty"
 ],
 "keinet": "2251"
+},
+{
+"name": "東京工芸大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2297",
+"done_at": "2026-11-25"
+},
+{
+"name": "東京情報デザイン専門職大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2299",
+"done_at": "2026-11-25"
+},
+{
+"name": "東京情報大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2184",
+"done_at": "2026-11-25"
 }
 ],
 "failed": [],
@@ -20636,44 +20678,6 @@
 "東京基督教大学": 1
 },
 "enrich": [
-{
-"name": "東京工芸大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"kyotsu",
-"difficulty"
-],
-"keinet": "2297"
-},
-{
-"name": "東京情報デザイン専門職大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
-]
-},
-{
-"name": "東京情報大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"kyotsu",
-"difficulty"
-],
-"keinet": "2184"
-},
 {
 "name": "東京成徳大学",
 "need": [
