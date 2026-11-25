@@ -119091,10 +119091,12 @@
 "methods": "2026-11-18",
 "ratios": "2026-11-09",
 "schedule": "2026-11-18",
-"money": "2026-11-09",
+"money": "2026-11-25",
 "_via": "2026-11-09",
 "kyotsu": "2026-11-15",
-"eng": "2026-11-16"
+"eng": "2026-11-16",
+"scholar": "2026-11-25",
+"oc": "2026-11-25"
 },
 "faculties": [
 "事業構想学群",
@@ -119176,7 +119178,11 @@
 "https://passnavi.obunsha.co.jp/univ/1024/eiken/?facultyID=006",
 "https://passnavi.obunsha.co.jp/univ/1024/eiken/?facultyID=016",
 "https://www.myu.ac.jp/download_file/view/da35168b-6228-433d-8440-f0c82ff13153/",
-"https://www.myu.ac.jp/download_file/bac4d791-924f-4400-b68b-0ffa6ee2ff35/8010/"
+"https://www.myu.ac.jp/download_file/bac4d791-924f-4400-b68b-0ffa6ee2ff35/8010/",
+"https://www.myu.ac.jp/admissions/colleges/guidelines/",
+"https://www.myu.ac.jp/download_file/2a67e29d-41f1-4303-9af4-8d0e035f5963/203/",
+"https://www.myu.ac.jp/campus/fees/Exemption/",
+"https://www.myu.ac.jp/admissions/oc/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -119510,6 +119516,16 @@
 "first_year": 817800,
 "four_year": null,
 "note": "入学金は県内者。県外者は564,000円（初年度1,099,800円）。施設費なし。実習費等は別途（Kei-Net 2026年度入学者用）"
+},
+{
+"f": "全学群（宮城県外者）",
+"admission": 564000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": null,
+"four_year": null
 }
 ]
 },
@@ -119533,6 +119549,43 @@
 "summary": "記載なし（利用しないとは限らない）",
 "year": "2027年度入試",
 "note": "パスナビで看護学群・食産業学群は情報なし。事業構想学群は未確認（2026-11-16）"
+},
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "経済的事由による授業料減免",
+"kind": "減免",
+"target": "全学部",
+"amount": "授業料の全額または半額免除",
+"timing": "在学中",
+"cond": "経済的事由により納付が困難かつ学業成績が優良な学生"
+},
+{
+"name": "東日本大震災の被災者に対する減免",
+"kind": "減免",
+"target": "全学部",
+"amount": "授業料の全額または半額免除",
+"timing": "在学中",
+"cond": "東日本大震災被災世帯の学生（被災の程度に応じる）"
+}
+]
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-07-19",
+"type": "来場",
+"title": "オープンキャンパス（太白キャンパス・食産業学群）"
+},
+{
+"date": "2026-07-26",
+"type": "来場",
+"title": "オープンキャンパス（大和キャンパス・看護・事業構想学群）"
+}
+],
+"url": "https://www.myu.ac.jp/admissions/oc/"
 }
 },
 "名寄市立大学": {
@@ -119559,7 +119612,8 @@
 "research": "2026-11-15",
 "eng": "2026-11-16",
 "scholar": "2026-11-18",
-"students": "2026-11-20"
+"students": "2026-11-20",
+"oc": "2026-11-25"
 },
 "faculties": [
 "保健福祉学部"
@@ -119617,7 +119671,10 @@
 "https://search.keinet.ne.jp/1508/outline/department",
 "https://www.nayoro.ac.jp/exam/senbatsu/index.html",
 "https://telemail.jp/shingaku/university/10003350/examination/general",
-"https://www.nayoro.ac.jp/life_career/support/grant-type_scholarship.html"
+"https://www.nayoro.ac.jp/life_career/support/grant-type_scholarship.html",
+"https://www.nayoro.ac.jp/exam/bosyu/",
+"https://www.nayoro.ac.jp/exam/open/opencampus.html",
+"https://passnavi.obunsha.co.jp/univ/1012/difficulty/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -119906,6 +119963,27 @@
 "students": {
 "count": 777,
 "year": 2025
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-06-27",
+"type": "来場",
+"title": "第1回オープンキャンパス"
+},
+{
+"date": "2026-08-11",
+"type": "来場",
+"title": "第2回オープンキャンパス"
+},
+{
+"date": "2026-10-03",
+"type": "来場",
+"title": "第3回オープンキャンパス"
+}
+],
+"url": "https://www.nayoro.ac.jp/exam/open/opencampus.html"
 }
 },
 "山形県立米沢栄養大学": {
@@ -124423,11 +124501,12 @@
 "_via": "2026-11-07",
 "students": "2026-11-09",
 "founded": "2026-11-09",
-"money": "2026-11-09",
-"schedule": "2026-11-19",
+"money": "2026-11-25",
+"schedule": "2026-11-25",
 "difficulty": "2026-11-20",
 "kyotsu": "2026-11-20",
-"research": "2026-11-20"
+"research": "2026-11-20",
+"methods": "2026-11-25"
 },
 "departments": [
 {
@@ -124469,7 +124548,13 @@
 "https://telemail.jp/shingaku/university/10011378/examination/general",
 "https://search.keinet.ne.jp/2730/general/border_rate",
 "https://search.keinet.ne.jp/2730/general/exam_subject",
-"https://manabi.benesse.ne.jp/daigaku/school/3900/gakubu/"
+"https://manabi.benesse.ne.jp/daigaku/school/3900/gakubu/",
+"https://fiuhw.takagigakuen.ac.jp/exam/summary/",
+"https://fiuhw.takagigakuen.ac.jp/exam/expences/",
+"https://fiuhw.takagigakuen.ac.jp/exam/supports/",
+"https://fiuhw.takagigakuen.ac.jp/all/event/13817/",
+"https://fiuhw.takagigakuen.ac.jp/manager/wp-content/uploads/2026/05/2027_exam_guide.pdf",
+"https://passnavi.obunsha.co.jp/univ/5032/difficulty/"
 ],
 "students": {
 "count": 1335,
@@ -124503,6 +124588,16 @@
 "first_year": 1550000,
 "four_year": null,
 "note": "教育後援会費45,000円・海外研修積立金50,000円が入学手続時に別途必要。教科書代・臨地実習費・国家試験対策費も別途（Kei-Net 2026年度入学者用）"
+},
+{
+"f": "看護学部",
+"admission": 300000,
+"tuition": 900000,
+"facility": 300000,
+"practical": 50000,
+"other": 0,
+"first_year": 1550000,
+"four_year": 5900000
 }
 ]
 },
@@ -124511,48 +124606,57 @@
 "rows": [
 {
 "kubun": "総合型",
-"name": "総合型選抜 A方式・B方式",
+"name": "総合型選抜",
 "apply": "9/16〜9/30",
 "exam": "10/10",
 "result": "11/2",
 "proc": "11/9",
-"note": "全学科同日程"
+"fee": null
 },
 {
 "kubun": "推薦",
-"name": "学校推薦型選抜（公募制）",
+"name": "学校推薦型選抜（公募制・指定校制）",
 "apply": "11/2〜11/11",
 "exam": "11/21",
 "result": "12/1",
 "proc": "12/14",
-"note": ""
+"fee": null
 },
 {
 "kubun": "一般",
-"name": "一般選抜 前期",
+"name": "一般選抜前期A日程",
 "apply": "12/17〜1/14",
-"exam": "1/26・1/27",
+"exam": "1/26",
 "result": "2/5",
-"proc": "2/15",
-"note": "A日程1/26（山口・福岡・長崎・大分・鹿児島）、B日程1/27（福岡）。必要書類は1/14消印有効"
+"proc": "2/15（二段階2次3/10）",
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜前期B日程",
+"apply": "12/17〜1/14",
+"exam": "1/27",
+"result": "2/5",
+"proc": "2/15（二段階2次3/10）",
+"fee": null
 },
 {
 "kubun": "共テ利用",
-"name": "一般選抜 共通テスト利用",
+"name": "大学入学共通テスト利用選抜",
 "apply": "12/17〜1/14",
-"exam": "共通テスト",
+"exam": "1/16・1/17（共通テスト）",
 "result": "2/18",
-"proc": "2/24",
-"note": ""
+"proc": "2/24（二段階2次3/10）",
+"fee": null
 },
 {
 "kubun": "一般",
-"name": "一般選抜 後期",
+"name": "一般選抜後期",
 "apply": "2/12〜2/22",
 "exam": "3/2",
 "result": "3/12",
 "proc": "3/18",
-"note": "試験地は福岡県"
+"fee": null
 }
 ],
 "note": "看護学科・医療学部の各学科とも同じ日程。マナビジョン（2027年度入試）とテレメール（2027年度入学）で既存と一致（2026-11-19確認）。検定料は出典に記載なし"
@@ -124577,7 +124681,57 @@
 "理学療法・作業療法・言語聴覚・視能訓練・診療放射線（医療学部）",
 "看護（看護学部）",
 "1年次から段階的に他職種を学ぶ関連職種連携教育でチーム医療を修得"
+],
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "総合型",
+"name": "総合型選抜",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": "専願制",
+"url": "https://fiuhw.takagigakuen.ac.jp/exam/summary/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制・指定校制）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": "専願制",
+"url": "https://fiuhw.takagigakuen.ac.jp/exam/summary/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜前期（A日程・B日程）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": "併願制",
+"url": "https://fiuhw.takagigakuen.ac.jp/exam/summary/"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜",
+"kyotsu": null,
+"niji": null,
+"content": "個別学力検査等は実施しない",
+"req": "併願制",
+"url": "https://fiuhw.takagigakuen.ac.jp/exam/summary/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜後期",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": "併願制",
+"url": "https://fiuhw.takagigakuen.ac.jp/exam/summary/"
+}
 ]
+}
 },
 "福岡大学": {
 "faculties": [
@@ -214315,7 +214469,8 @@ null
 "_via": "2026-11-09",
 "money": "2026-11-17",
 "research": "2026-11-23",
-"difficulty": "2026-11-23"
+"difficulty": "2026-11-23",
+"oc": "2026-11-25"
 },
 "departments": [
 {
@@ -214403,7 +214558,12 @@ null
 "https://passnavi.obunsha.co.jp/univ/1360/subject/?facultyID=020",
 "https://aoaoi.jp/preparation/kumamoto_prefectural/",
 "https://manabi.benesse.ne.jp/daigaku/school/2325/nyushi/gokaku-happyo/",
-"https://www.pu-kumamoto.ac.jp/campuslife/tuition/"
+"https://www.pu-kumamoto.ac.jp/campuslife/tuition/",
+"https://www.pu-kumamoto.ac.jp/examination/about-current-year/",
+"https://www.pu-kumamoto.ac.jp/examination/general/",
+"https://www.pu-kumamoto.ac.jp/news/post-20891/",
+"https://www.pu-kumamoto.ac.jp/examination/opencampus/",
+"https://www.pu-kumamoto.ac.jp/news/post-50692/"
 ],
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -214603,6 +214763,22 @@ null
 "hensachi": "42.5〜50.0",
 "kyotei": "50%〜69%",
 "year": "2027年度入試用"
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-07-19",
+"type": "来場",
+"title": "オープンキャンパス2026"
+},
+{
+"date": "2026-07-20",
+"type": "来場",
+"title": "オープンキャンパス2026"
+}
+],
+"url": "https://www.pu-kumamoto.ac.jp/examination/opencampus/"
 }
 },
 "福岡女子大学": {
@@ -214627,9 +214803,10 @@ null
 "eng": "2026-11-09",
 "ratios": "2026-11-09",
 "schedule": "2026-11-17",
-"money": "2026-11-09",
+"money": "2026-11-25",
 "_via": "2026-11-09",
-"research": "2026-11-23"
+"research": "2026-11-23",
+"oc": "2026-11-25"
 },
 "faculties": [
 "国際文理学部"
@@ -214693,7 +214870,10 @@ null
 "https://aoaoi.jp/preparation/fukuoka_women/",
 "https://manabi.benesse.ne.jp/daigaku/school/2310/nyushi/bairitsu/",
 "https://search.keinet.ne.jp/1690/recommend/exam_result",
-"https://nennai-nyushi-navi.jp/university/fukuokajoshidaigaku/entrance-preparation"
+"https://nennai-nyushi-navi.jp/university/fukuokajoshidaigaku/entrance-preparation",
+"http://www.fwu.ac.jp/exam_info/2027/",
+"http://www.fwu.ac.jp/exam_info/expenses.html",
+"http://www.fwu.ac.jp/exam_info/opencampus.html"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -214935,6 +215115,26 @@ null
 "first_year": 886810,
 "four_year": null,
 "note": "facilityは設備/実習/諸会費等。otherは保険料4,010円＋後援会費50,000円（学科により保険料4,080円・初年度計886,880円の記載あり）。県外者の初年度合計は1,124,810円（または1,124,880円）"
+},
+{
+"f": "国際文理学部（福岡県内居住者）",
+"admission": 282000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 817800,
+"four_year": null
+},
+{
+"f": "国際文理学部（福岡県外居住者）",
+"admission": 520000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1055800,
+"four_year": null
 }
 ]
 },
@@ -214945,7 +215145,12 @@ null
 "食・健康学科：栄養士免許や管理栄養士国家試験受験資格など食に関する資格を目指す",
 "環境理工学科（2027年4月改組予定）：環境理工学基礎・環境化学・環境生物学の領域を学ぶ",
 "生活情報工学科（2027年4月改組予定）：生活工学・情報工学・社会工学の分野を学ぶ"
-]
+],
+"oc": {
+"year": 2026,
+"events": [],
+"url": "http://www.fwu.ac.jp/exam_info/opencampus.html"
+}
 },
 "福岡県立大学": {
 "faculties": [
@@ -215324,7 +215529,8 @@ null
 "money": "2026-11-17",
 "_via": "2026-11-09",
 "research": "2026-11-23",
-"difficulty": "2026-11-23"
+"difficulty": "2026-11-23",
+"oc": "2026-11-25"
 },
 "departments": [
 {
@@ -215425,7 +215631,10 @@ null
 "https://juku-times.com/juku/nagasakikenritsu/gakubu-2/bairitsu/",
 "https://fran-data.com/nagasaki-kenritsu/",
 "https://sun.ac.jp/examination/info/schedule/",
-"https://sun.ac.jp/student/fee/"
+"https://sun.ac.jp/student/fee/",
+"https://www.sun.ac.jp/admission/cms_data/media/202606020806253238.pdf",
+"https://www.sun.ac.jp/admission/faculty/schedule/",
+"https://www.sun.ac.jp/admission/event/opencampus/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -215793,6 +216002,17 @@ null
 "hensachi": "40.0〜47.5",
 "kyotei": "46%〜63%",
 "year": "2027年度入試用"
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-07-19",
+"type": "来場",
+"title": "オープンキャンパス2026"
+}
+],
+"url": "https://www.sun.ac.jp/admission/event/opencampus/"
 }
 },
 "札幌医科大学": {
@@ -216590,14 +216810,15 @@ null
 "kyotsu": "2026-11-08",
 "licenses": "2026-11-08",
 "careers": "2026-11-08",
-"money": "2026-11-09",
+"money": "2026-11-25",
 "fdiff": "2026-11-09",
 "methods": "2026-11-17",
 "ratios": "2026-11-09",
 "schedule": "2026-11-17",
 "_via": "2026-11-09",
 "research": "2026-11-23",
-"difficulty": "2026-11-23"
+"difficulty": "2026-11-23",
+"oc": "2026-11-25"
 },
 "departments": [
 {
@@ -216671,6 +216892,26 @@ null
 "first_year": 721800,
 "four_year": null,
 "note": "市内居住者の金額（市外者は入学金282,000円）。otherは入学時納付の後援会費40,000円（4年分）＋同窓会費5,000円。別途、総合補償制度加入費年額4,500〜9,000円、教科書約35,000円、教材費等約100,000円が必要。"
+},
+{
+"f": "全学部（札幌市外居住者）",
+"admission": 282000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 817800,
+"four_year": null
+},
+{
+"f": "全学部（札幌市内居住者）",
+"admission": 141000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 676800,
+"four_year": null
 }
 ]
 },
@@ -216697,7 +216938,11 @@ null
 "https://passnavi.obunsha.co.jp/univ/1018/eiken/",
 "https://manabi.benesse.ne.jp/daigaku/school/2004/nyushi/kango/index.html",
 "https://manabi.benesse.ne.jp/daigaku/school/2004/nyushi/dezain/",
-"https://passnavi.obunsha.co.jp/univ/1018/schedule/"
+"https://passnavi.obunsha.co.jp/univ/1018/schedule/",
+"https://www.scu.ac.jp/special-admission/design/info/",
+"https://www.scu.ac.jp/special-admission/design/fee/",
+"https://www.scu.ac.jp/special-admission/news/70382/",
+"https://passnavi.obunsha.co.jp/univ/1018/difficulty/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -216855,6 +217100,17 @@ null
 "kyotei": "52%〜64%",
 "year": "2027年度入試用",
 "note": "偏差値は学部学科ランク（方式別ランクは記載なし）"
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-10-03",
+"type": "来場",
+"title": "第2回看護学部オープンキャンパス"
+}
+],
+"url": "https://www.scu.ac.jp/special-admission/news/70382/"
 }
 },
 "秋田公立美術大学": {
@@ -216872,13 +217128,14 @@ null
 "research": "2026-11-08",
 "licenses": "2026-11-08",
 "careers": "2026-11-08",
-"money": "2026-11-08",
+"money": "2026-11-25",
 "fdiff": "2026-11-09",
 "methods": "2026-11-17",
 "ratios": "2026-11-09",
 "schedule": "2026-11-17",
 "_via": "2026-11-09",
-"difficulty": "2026-11-23"
+"difficulty": "2026-11-23",
+"oc": "2026-11-25"
 },
 "departments": [
 {
@@ -216937,6 +217194,26 @@ null
 "first_year": 910460,
 "four_year": null,
 "note": "秋田市内者。市外者は入学金423,000円・初年度1,051,460円。otherは保険料4,660円＋後援会費60,000円"
+},
+{
+"f": "美術学部（秋田市民）",
+"admission": 282000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": null,
+"four_year": null
+},
+{
+"f": "美術学部（秋田市民以外）",
+"admission": 423000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": null,
+"four_year": null
 }
 ]
 },
@@ -216962,7 +217239,10 @@ null
 "https://www.akibi.ac.jp/akibi_cms/assets/uploads/2026/07/R9yoko_AUA.pdf",
 "https://passnavi.obunsha.co.jp/univ/1032/eiken/?facultyID=005",
 "https://search.keinet.ne.jp/1522/recommend/exam_rec",
-"https://telemail.jp/shingaku/university/10003551/examination/general"
+"https://telemail.jp/shingaku/university/10003551/examination/general",
+"https://www.akibi.ac.jp/user/entry",
+"https://www.akibi.ac.jp/user/open-campus",
+"https://passnavi.obunsha.co.jp/univ/1032/difficulty/"
 ],
 "fdiff": {
 "year": "2027年度入試用",
@@ -217100,6 +217380,17 @@ null
 "kyotei": "55%〜58%",
 "year": "2027年度入試用",
 "note": "偏差値は学部学科ランク（実技は含まない）"
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-10-10",
+"type": "来場",
+"title": "オープンキャンパス"
+}
+],
+"url": "https://www.akibi.ac.jp/user/open-campus"
 }
 },
 "東北農林専門職大学": {
@@ -252113,7 +252404,7 @@ null
 "methods": "2026-11-09",
 "subjects": "2026-11-09",
 "schedule": "2026-11-14",
-"money": "2026-11-13",
+"money": "2026-11-25",
 "scholar": "2026-11-09",
 "oc": "2026-11-09",
 "access": "2026-11-09",
@@ -252485,6 +252776,16 @@ null
 "first_year": 1883000,
 "four_year": null,
 "note": "その他＝諸会費73,000円＋学習費200,000円"
+},
+{
+"f": "文系学部",
+"admission": 330000,
+"tuition": 690000,
+"facility": 70000,
+"practical": 70000,
+"other": 97000,
+"first_year": null,
+"four_year": null
 }
 ],
 "note": "河合塾 Kei-Net（2026年度入学者用）。その他は諸会費＋学習費（看護以外は諸会費71,000円＋学習費80,000円）。空欄だった看護学科の諸会費・学習費・初年度合計を記入。一部予定額を含む"
@@ -252562,7 +252863,9 @@ null
 "https://search.keinet.ne.jp/2322",
 "https://search.keinet.ne.jp/2322/outline/department",
 "https://search.keinet.ne.jp/2322/general/exam_subject",
-"https://search.keinet.ne.jp/2322/general/border_rate"
+"https://search.keinet.ne.jp/2322/general/border_rate",
+"https://www.shoin-u.ac.jp/exam/info-nurse/",
+"https://passnavi.obunsha.co.jp/univ/3282/difficulty/"
 ],
 "students": {
 "count": 675,
