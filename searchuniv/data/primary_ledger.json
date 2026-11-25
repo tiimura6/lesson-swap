@@ -22,7 +22,8 @@
     "scholarship": "https://www.ibaraki.ac.jp/student/economicsupport/scholarship/index.html",
     "excnewsys": "https://www.ibaraki.ac.jp/student/economicsupport/excnewsys/index.html"
    },
-   "note": "2026-11-25：志願状況ページは2027年度の推薦・総合型のみ。令和8年度一般選抜の結果は past ページ。学費ページ（/m/generalinfo/information/2026/10/09015055.html）は取得エラー。奨学金は /m/lifesupport/economicsupport/ 配下 / 2026-11-25：R9senbatuyoko.pdf は WebFetch の許可待ちで取得できず（推薦・総合型・一般の各募集要項で代替）。scholar は今回未確認（/welcome/campus_aid/ は取得エラー）。修学支援金・BYOD用端末購入支援金は大学公式で未確認のまま。"
+   "note": "2026-11-25：志願状況ページは2027年度の推薦・総合型のみ。令和8年度一般選抜の結果は past ページ。学費ページ（/m/generalinfo/information/2026/10/09015055.html）は取得エラー。奨学金は /m/lifesupport/economicsupport/ 配下 / 2026-11-25：R9senbatuyoko.pdf は WebFetch の許可待ちで取得できず（推薦・総合型・一般の各募集要項で代替）。scholar は今回未確認（/welcome/campus_aid/ は取得エラー）。修学支援金・BYOD用端末購入支援金は大学公式で未確認のまま。 / 2026-11-25（2回目）：ippan_2027.pdf・R9senbatuyoko.pdf とも WebFetch の許可待ちで読めず（subjects 未照合）。奨学金の公式4ページ（経済的支援・奨学金制度・本学独自奨学金・その他の経済支援）に修学支援金・BYOD用端末購入支援金の記載なし（BYOD は https://www.ipc.ibaraki.ac.jp/service/byod.php が未確認）。",
+   "fails": 1
   },
   {
    "name": "茨城県立医療大学",
@@ -40,7 +41,9 @@
    },
    "wait": {
     "oc": "2027年度オープンキャンパスの日程は大学公式に未掲載（2026-11-25確認。2026年度は7/18・19に実施）"
-   }
+   },
+   "fails": 1,
+   "note": "2026-11-25：募集要項PDF・入試ページとも WebFetch の許可待ちで読めず（subjects 未収集）。"
   },
   {
    "name": "茨城キリスト教大学",
