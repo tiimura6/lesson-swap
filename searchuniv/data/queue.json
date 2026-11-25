@@ -20395,6 +20395,94 @@
 ],
 "keinet": "2184",
 "done_at": "2026-11-25"
+},
+{
+"name": "東京成徳大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2189",
+"done_at": "2026-11-25"
+},
+{
+"name": "東京有明医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2324",
+"done_at": "2026-11-25"
+},
+{
+"name": "東京未来大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2302",
+"done_at": "2026-11-25"
+},
+{
+"name": "東京歯科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2252",
+"done_at": "2026-11-25"
+},
+{
+"name": "東京神学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"founded",
+"licenses",
+"kyotsu",
+"difficulty"
+],
+"done_at": "2026-11-25"
+},
+{
+"name": "東京福祉大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"careers",
+"kyotsu"
+],
+"keinet": "2138",
+"done_at": "2026-11-25"
+},
+{
+"name": "東京純心大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2295",
+"done_at": "2026-11-25"
 }
 ],
 "failed": [],
@@ -20675,90 +20763,9 @@
 "尚美学園大学": 1,
 "平成国際大学": 1,
 "日本映画大学": 1,
-"東京基督教大学": 1
+"東京基督教大学": 2
 },
 "enrich": [
-{
-"name": "東京成徳大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"kyotsu",
-"difficulty"
-],
-"keinet": "2189"
-},
-{
-"name": "東京有明医療大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"kyotsu",
-"difficulty"
-],
-"keinet": "2324"
-},
-{
-"name": "東京未来大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"kyotsu",
-"difficulty"
-],
-"keinet": "2302"
-},
-{
-"name": "東京歯科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"kyotsu",
-"difficulty"
-],
-"keinet": "2252"
-},
-{
-"name": "東京神学大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"founded",
-"licenses",
-"kyotsu",
-"difficulty"
-]
-},
-{
-"name": "東京福祉大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"careers",
-"kyotsu"
-],
-"keinet": "2138"
-},
-{
-"name": "東京純心大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu"
-],
-"keinet": "2295"
-},
 {
 "name": "東京経済大学",
 "need": [
@@ -36188,22 +36195,6 @@
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
 },
 {
-"name": "東京基督教大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses",
-"kyotsu",
-"difficulty"
-],
-"keinet": "2183",
-"fails": 1,
-"last_fail": "2026-11-25",
-"note": "2026-11-25 Kei-Net: licential は資格「―」、border_rate は数値なし（BF）、outline/department に概要・特色なし、exam_subject は開けず"
-},
-{
 "name": "島根大学",
 "keinet": "1345",
 "need": [
@@ -37973,6 +37964,23 @@
 "fails": 2,
 "last_fail": "2026-11-24",
 "note": "2026-11-24 Kei-Net /2167/general/exam_subject とマナビジョンの共テ利用ページが検索結果に出ず開けなかった／2026-11-24 2026-11-24 Kei-Net /2167/general/exam_subject は検索結果に出ず取得できず、マナビジョンの共テページも見つからなかった",
+"deferred": true
+},
+{
+"name": "東京基督教大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2183",
+"fails": 2,
+"last_fail": "2026-11-25",
+"note": "2026-11-25 Kei-Net: licential は資格「―」、border_rate は数値なし（BF）、outline/department に概要・特色なし、exam_subject は開けず／2026-11-25 2026-11-25 マナビジョンの一般選抜ページに共テ利用の記載なし・大学トップに学びの内容なし。Kei-Net exam_subject と大学公式は開けず",
 "deferred": true
 }
 ],
