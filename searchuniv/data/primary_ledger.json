@@ -26,10 +26,12 @@
     "economicsupport": "https://www.ibaraki.ac.jp/m/lifesupport/economicsupport/index.html",
     "shinsei_scholarship": "https://www.ibaraki.ac.jp/m/lifesupport/economicsupport/shinsei_scholarship/index.html",
     "othereconomicsupport": "https://www.ibaraki.ac.jp/m/lifesupport/economicsupport/othereconomicsupport/index.html",
-    "ippan_news": "https://www.ibaraki.ac.jp/admission/information/2026/10/09015055.html"
+    "ippan_news": "https://www.ibaraki.ac.jp/admission/information/2026/10/09015055.html",
+    "economicsupport_menu": "https://www.ibaraki.ac.jp/student/economicsupport/"
    },
    "note": "2026-11-25：志願状況ページは2027年度の推薦・総合型のみ。令和8年度一般選抜の結果は past ページ。学費ページ（/m/generalinfo/information/2026/10/09015055.html）は取得エラー。奨学金は /m/lifesupport/economicsupport/ 配下 / 2026-11-25：R9senbatuyoko.pdf は WebFetch の許可待ちで取得できず（推薦・総合型・一般の各募集要項で代替）。scholar は今回未確認（/welcome/campus_aid/ は取得エラー）。修学支援金・BYOD用端末購入支援金は大学公式で未確認のまま。 / 2026-11-25（2回目）：ippan_2027.pdf・R9senbatuyoko.pdf とも WebFetch の許可待ちで読めず（subjects 未照合）。奨学金の公式4ページ（経済的支援・奨学金制度・本学独自奨学金・その他の経済支援）に修学支援金・BYOD用端末購入支援金の記載なし（BYOD は https://www.ipc.ibaraki.ac.jp/service/byod.php が未確認）。 2026-11-25：ippan_2027.pdf の配点表（p.39〜54）は文字取り出しで列が崩れ数値を対応づけられず、subjects は未確認。scholar は修学支援金・BYOD用端末購入支援金の2行に公式 url が無く m のまま（BYOD の手がかり https://www.ipc.ibaraki.ac.jp/service/byod.php）。 / 2026-11-25（3回目）：定期実行で WebFetch の許可確認が無応答となり ippan_2027.pdf・byod.php・経済支援の一覧を読めず（データ欠落ではないため fails は据え置き）。/welcome/campus_aid/ はサイト側エラー。次回は campus_aid を先に試す。",
-   "fails": 1
+   "fails": 1,
+   "note_scholar": "2026-11-25 公式の経済的支援・奨学金・修学支援新制度・その他の経済支援のページに「修学支援金（3万円）」「BYOD用端末購入支援金（10万円）」の記載なし（パスナビのみ）"
   },
   {
    "name": "茨城県立医療大学",
@@ -97,7 +99,8 @@
     "expenses": "https://navi.tokiwa.ac.jp/admissions/expenses/index.html",
     "honor": "https://navi.tokiwa.ac.jp/admissions/honor/index.html",
     "kyotsu": "https://navi.tokiwa.ac.jp/admissions/outline/university/general-kyotsu/",
-    "scholarship": "https://navi.tokiwa.ac.jp/admissions/scholarship/index.html"
+    "scholarship": "https://navi.tokiwa.ac.jp/admissions/scholarship/index.html",
+    "oc": "https://navi.tokiwa.ac.jp/event/open-campus/"
    },
    "wait": {
     "money": "2027年度入学生の学費は未掲載（公式の学費ページは2026年度入学生の参考値。2026-11-25確認）"
