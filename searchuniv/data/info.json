@@ -45726,20 +45726,58 @@
 "year": "2027年度入試",
 "list": [
 {
-"kubun": "一般",
-"name": "一般選抜B方式（大学独自試験）",
-"kyotsu": "課さない",
-"niji": "英・数（理系は英100数200など、理科を課す学科あり）、経営は英・数・国",
-"haiten": "個別試験のみ（例 理学部数学科：英100数200の300点、経営学科：英数国 計400点）",
-"note": "学部学科により科目・配点が異なる"
+"kubun": "共テ利用",
+"name": "A方式（4教科型）",
+"kyotsu": "4教科（外国語・数学①②・理科1科目・国語または情報）",
+"niji": "なし",
+"haiten": "共テのみ（理学部第一部・薬・工・創域理工・創域情報・先進工は外200数200理200国または情報100の計700、経営学部は英200国200数200地公/理/情200の計800）",
+"note": "昼間7学部30学科のうち1学科のみ出願可",
+"url": "https://www.tus.ac.jp/admissions/uploads/2026/GeneralExamGuidelines_2027.pdf"
 },
 {
 "kubun": "共テ利用",
-"name": "共通テスト利用A方式（4教科型・3教科型・2教科英語型）",
-"kyotsu": "4教科／3教科／2教科（英語含む）",
+"name": "A方式（3教科型）",
+"kyotsu": "3教科（理系は外・数・理、経営は外・国・数）",
 "niji": "なし",
-"haiten": "共テのみ（例 理学部数学科 4教科型700点：英200・数・理200・国または情報100）",
-"note": "理学部・経営学部などで実施"
+"haiten": "共テのみ（各200点の計600）",
+"note": "最大2学科まで出願可",
+"url": "https://www.tus.ac.jp/admissions/uploads/2026/GeneralExamGuidelines_2027.pdf"
+},
+{
+"kubun": "共テ利用",
+"name": "A方式（2教科＋英語資格検定）",
+"kyotsu": "2教科",
+"niji": "なし",
+"haiten": "共テ2教科で判定（英語資格は出願資格で加点なし）",
+"note": "4技能の英語資格が必要（例 英検CSE1950以上・TEAP225以上・IELTS4.0以上・TOEFL iBT42以上）。出願1/7〜2/9。最大2学科（2系）",
+"url": "https://www.tus.ac.jp/admissions/uploads/2026/GeneralExamGuidelines_2027.pdf"
+},
+{
+"kubun": "共テ利用",
+"name": "A方式（理学部第二部）",
+"kyotsu": "共テ（例 数学科 計600）",
+"niji": "なし",
+"haiten": "共テのみ",
+"note": "夜間学部。1学科のみ出願可。出願1/7〜2/9",
+"url": "https://www.tus.ac.jp/admissions/uploads/2026/GeneralExamGuidelines_2027.pdf"
+},
+{
+"kubun": "一般",
+"name": "B方式（本学独自試験）",
+"kyotsu": "課さない",
+"niji": "学科ごとに各100点の独自試験（例 経営学部 2/2は国語または数学・数学・英語）",
+"haiten": "個別試験のみ",
+"note": "全学部で実施。試験日2/2〜2/8（理学部第二部は3/4）。同じ試験日に2学科まで併願可。地方試験場あり（札幌・仙台・名古屋・大阪・広島・福岡）",
+"url": "https://www.tus.ac.jp/admissions/uploads/2026/GeneralExamGuidelines_2027.pdf"
+},
+{
+"kubun": "一般",
+"name": "S方式（本学独自試験）",
+"kyotsu": "課さない",
+"niji": "数学（数理科学科は300点に換算）・英語100、電気電子情報工学科は物理200も",
+"haiten": "個別試験のみ",
+"note": "創域理工学部 数理科学科（2/6）と電気電子情報工学科（2/3）のみ",
+"url": "https://www.tus.ac.jp/admissions/uploads/2026/GeneralExamGuidelines_2027.pdf"
 },
 {
 "kubun": "総合型",
@@ -45747,11 +45785,11 @@
 "content": "書類・小論文・面接（＋英語資格）",
 "req": "現役・専願、数学と理科（経営は数学と国語）の評定4.0以上、英検CSE1950以上等（女子枠は英語資格不要）",
 "kyotsu": "課さない",
-"note": "ほぼ全学部で実施。工・先進工・創域情報などに女子枠あり"
+"note": "ほぼ全学部で実施。工・先進工・創域情報などに女子枠あり（Kei-Net。大学公式で未確認）"
 }
 ],
-"summary": "一般は独自試験のB方式と共テのみのA方式が軸。総合型は現役・専願で数理の評定4.0＋英語資格が条件。",
-"note": "Kei-Netの一般選抜ページは理学部・経営学部分しか取れず、グローバル方式・C方式・S方式の有無と中身は確認できていない。学校推薦型（指定校など）もKei-Netに掲載がなく未確認。"
+"summary": "共テのみのA方式（4教科・3教科・2教科＋英語資格）と、独自試験のB方式が軸。S方式は創域理工の2学科だけ。",
+"note": "2027年度一般選抜要項（大学公式）で確認。2027年度の方式一覧にC方式・グローバル方式は無い（要項の受験票見本の注記に名前が残るのみ）。検定料はA方式19,000円（2教科＋英語資格の2学科38,000円）、B・S方式35,000円（B併願55,000円）。学校推薦型（指定校制）・総合型の詳細は一般選抜要項に記載なし"
 },
 "departments": [
 {
@@ -46073,7 +46111,8 @@
 "careers": "2026-11-14",
 "scholar": "2026-11-19",
 "research": "2026-11-20",
-"oc": "2026-11-25"
+"oc": "2026-11-25",
+"methods": "2026-11-25"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -46939,6 +46978,12 @@
 "oc": {
 "u": [
 "https://www.tus.ac.jp/admissions/"
+],
+"d": "2026-11-25"
+},
+"methods": {
+"u": [
+"https://www.tus.ac.jp/admissions/uploads/2026/GeneralExamGuidelines_2027.pdf"
 ],
 "d": "2026-11-25"
 }
@@ -274267,7 +274312,8 @@ null
 "research": "2026-11-10",
 "licenses": "2026-11-10",
 "careers": "2026-11-10",
-"schedule": "2026-11-14"
+"schedule": "2026-11-14",
+"kyotsu": "2026-11-25"
 },
 "faculties": [
 "国際共創学部",
@@ -274343,7 +274389,8 @@ null
 "https://search.keinet.ne.jp/2185/outline/admission_employment",
 "https://search.keinet.ne.jp/2185/general/border_rate",
 "https://search.keinet.ne.jp/2185/general/exam_result",
-"https://manabi.benesse.ne.jp/daigaku/school/3209/nyushi/gokaku-happyo/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3209/nyushi/gokaku-happyo/index.html",
+"https://search.keinet.ne.jp/2185/general/exam_subject"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -274476,6 +274523,19 @@ null
 "fee": null
 }
 ]
+},
+"kyotsu": {
+"kamoku": "1〜2教科2科目",
+"kyoka": [
+1,
+2
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はR50・L50（計100）",
+"note": "英・数2・国・理・地公・情から2（国は現代文または現古漢）。全3学部で実施（満点200）",
+"year": "2027年度入試"
 }
 },
 "東洋英和女学院大学": {
@@ -274669,7 +274729,8 @@ null
 "research": "2026-11-10",
 "licenses": "2026-11-10",
 "careers": "2026-11-10",
-"schedule": "2026-11-14"
+"schedule": "2026-11-14",
+"kyotsu": "2026-11-25"
 },
 "faculties": [
 "国際コミュニケーション学部"
@@ -274728,7 +274789,8 @@ null
 "https://search.keinet.ne.jp/2146/outline/admission_employment",
 "https://search.keinet.ne.jp/2146/general/border_rate",
 "https://search.keinet.ne.jp/2146/general/exam_result",
-"https://passnavi.obunsha.co.jp/univ/2079/schedule/"
+"https://passnavi.obunsha.co.jp/univ/2079/schedule/",
+"https://search.keinet.ne.jp/2146/general/exam_subject"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -274789,6 +274851,18 @@ null
 "fee": null
 }
 ]
+},
+"kyotsu": {
+"kamoku": "2教科2科目",
+"kyoka": [
+2
+],
+"rl": [
+"2:1"
+],
+"rl_text": "英語はR100・L50（計150）",
+"note": "英語と国語（現代文110点）が必須。国際コミュニケーション学部で実施（満点260）",
+"year": "2027年度入試"
 }
 },
 "武蔵野美術大学": {
@@ -274809,7 +274883,8 @@ null
 "research": "2026-11-10",
 "licenses": "2026-11-10",
 "careers": "2026-11-10",
-"schedule": "2026-11-14"
+"schedule": "2026-11-14",
+"kyotsu": "2026-11-25"
 },
 "faculties": [
 "造形学部",
@@ -274920,7 +274995,8 @@ null
 "https://search.keinet.ne.jp/2284/outline/admission_employment",
 "https://search.keinet.ne.jp/2284/general/border_rate",
 "https://search.keinet.ne.jp/2284/general/exam_result",
-"https://telemail.jp/shingaku/university/10000104/examination/general"
+"https://telemail.jp/shingaku/university/10000104/examination/general",
+"https://search.keinet.ne.jp/2284/general/exam_subject"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -274972,6 +275048,19 @@ null
 "fee": null
 }
 ]
+},
+"kyotsu": {
+"kamoku": "1〜5教科2〜6科目（学科・方式で異なる）",
+"kyoka": [
+1,
+2,
+3,
+5
+],
+"rl": [],
+"rl_text": "英語は100点（R・Lの内訳はKei-Netに記載なし）",
+"note": "造形学部は「2教科＋専門」が中心で、建築・基礎デザイン・芸術文化・デザイン情報などは3教科型も。造形構想学部は3教科・5教科型（クリエイティブイノベーション）など",
+"year": "2027年度入試"
 }
 },
 "武蔵野音楽大学": {
@@ -274992,7 +275081,8 @@ null
 "research": "2026-11-10",
 "licenses": "2026-11-10",
 "careers": "2026-11-10",
-"schedule": "2026-11-14"
+"schedule": "2026-11-14",
+"kyotsu": "2026-11-25"
 },
 "faculties": [
 "音楽学部"
@@ -275080,7 +275170,8 @@ null
 "https://search.keinet.ne.jp/2283/outline/expense",
 "https://search.keinet.ne.jp/2283/general/border_rate",
 "https://search.keinet.ne.jp/2283/general/exam_result",
-"https://manabi.benesse.ne.jp/daigaku/school/3315/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3315/nyushi/",
+"https://search.keinet.ne.jp/2283/general/exam_subject"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -275105,6 +275196,16 @@ null
 "fee": null
 }
 ]
+},
+"kyotsu": {
+"kamoku": "1教科1科目",
+"kyoka": [
+1
+],
+"rl": [],
+"rl_text": "英語のR・Lとも必須（配点の数値はKei-Netに記載なし）",
+"note": "音楽学部の全学科・専攻で「共通テスト」方式を実施",
+"year": "2027年度入試"
 }
 },
 "高千穂大学": {
