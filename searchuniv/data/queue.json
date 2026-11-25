@@ -20539,6 +20539,35 @@
 ],
 "keinet": "2247",
 "done_at": "2026-11-25"
+},
+{
+"name": "放送大学（通信制のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"founded",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"done_at": "2026-11-25"
+},
+{
+"name": "星槎大学（通信制のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"founded",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"done_at": "2026-11-25"
 }
 ],
 "failed": [],
@@ -20884,33 +20913,6 @@
 "difficulty"
 ],
 "keinet": "2238"
-},
-{
-"name": "放送大学（通信制のみ）",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students",
-"founded",
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
-]
-},
-{
-"name": "星槎大学（通信制のみ）",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students",
-"founded",
-"careers",
-"kyotsu",
-"difficulty"
-]
 },
 {
 "name": "八洲学園大学（通信制のみ）",

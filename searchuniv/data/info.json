@@ -46062,7 +46062,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-16",
+"schedule": "2026-11-25",
 "money": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
@@ -46485,7 +46485,7 @@
 {
 "kubun": "一般",
 "name": "一般選抜 A方式（2教科＋英語資格検定）",
-"fee": "19,000円（1学科）",
+"fee": "19,000円（1学科または1系）／38,000円（2学科または2系）",
 "apply": "1/7〜2/9",
 "exam": "1/16・17日（共テ）",
 "result": "3/3",
@@ -46498,7 +46498,8 @@
 "apply": "1/7〜2/9",
 "exam": "1/16・17日（共テ）",
 "result": "3/3",
-"proc": "3/11"
+"proc": "3/11",
+"note": "一括手続（3/3〜3/11）"
 },
 {
 "kubun": "一般",
@@ -46573,7 +46574,8 @@
 "proc": "3/25",
 "note": "一括納入のみ"
 }
-]
+],
+"url": "https://www.tus.ac.jp/admissions/uploads/2026/GeneralExamGuidelines_2027.pdf"
 },
 "money": {
 "year": "2027年度",
@@ -46928,10 +46930,15 @@
 "note": "2026年は夏の神楽坂オープンキャンパスを8/9（9:30〜15:30）に実施（終了。プログラムにより申込制）。2027年度入試オンライン説明会の案内あり（日時は確認したページに記載なし）。2027年度のオープンキャンパス日程は未掲載"
 },
 "_src": {
+"schedule": {
+"u": [
+"https://www.tus.ac.jp/admissions/uploads/2026/GeneralExamGuidelines_2027.pdf"
+],
+"d": "2026-11-25"
+},
 "oc": {
 "u": [
-"https://www.tus.ac.jp/admissions/",
-"https://www.tus.ac.jp/today/archive/20260714_7154.html"
+"https://www.tus.ac.jp/admissions/"
 ],
 "d": "2026-11-25"
 }
@@ -275416,7 +275423,11 @@ null
 "money": "2026-11-10",
 "research": "2026-11-10",
 "schedule": "2026-11-14",
-"methods": "2026-11-14"
+"methods": "2026-11-14",
+"students": "2026-11-25",
+"founded": "2026-11-25",
+"licenses": "2026-11-25",
+"careers": "2026-11-25"
 },
 "departments": [
 {
@@ -275449,7 +275460,10 @@ null
 "https://www.ouj.ac.jp/admission/gakubu/flow/",
 "https://tobe.ouj.ac.jp/fee/",
 "https://www.ouj.ac.jp/application/",
-"https://www.ouj.ac.jp/admission/gakubu/overview/"
+"https://www.ouj.ac.jp/admission/gakubu/overview/",
+"https://www.niad.ac.jp/storage/006/202502/no6_1_1_jiko_housou_d202503.pdf",
+"https://www.mext.go.jp/content/20250207-mext_sigsanji-000040289_09.pdf",
+"https://www.pref.kanagawa.jp/osirase/4310/shougaku/study/fair/pdf/092024_ouj_ac.pdf"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -275492,7 +275506,18 @@ null
 ],
 "summary": "全科履修生は試験の記載がなく、大学入学資格の証明書類で出願（年2回、4月・10月入学）",
 "note": "大学公式（学生募集の概要・入学の流れ）"
-}
+},
+"students": {
+"count": 78746,
+"year": 2024,
+"note": "学部（教養学部）在籍者数、令和6年度1学期。大学院は3,528人"
+},
+"founded": "1983年 設置（1985年 学生受入れ開始）",
+"licenses": [
+"認定心理士",
+"学芸員"
+],
+"careers": "学生の多くが有職者のため、卒業後に新たに就職する者の比率は低い（大学の自己評価書より）。学部はこれまでに約13万人の卒業生を送り出している。"
 },
 "星槎大学（通信制のみ）": {
 "faculties": [
@@ -275506,7 +275531,10 @@ null
 "research": "2026-11-10",
 "licenses": "2026-11-10",
 "schedule": "2026-11-14",
-"methods": "2026-11-14"
+"methods": "2026-11-14",
+"students": "2026-11-25",
+"founded": "2026-11-25",
+"careers": "2026-11-25"
 },
 "departments": [
 {
@@ -275544,7 +275572,9 @@ null
 "https://seisa.ac.jp/about/outline",
 "https://seisa.ac.jp/program/",
 "https://seisa.ac.jp/admission/fee/fees/",
-"https://seisa.ac.jp/admission/flow/"
+"https://seisa.ac.jp/admission/flow/",
+"https://seisa.ac.jp/pdf/report/seisa-about-gakusei_20250501.pdf",
+"https://seisa.ac.jp/pdf/report/seisa-about-jikotenken_2020.pdf"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -275577,7 +275607,14 @@ null
 ],
 "summary": "正科生は証明書類による書類審査（4月・10月入学）",
 "note": "大学公式「出願からの流れ」"
-}
+},
+"students": {
+"count": 3807,
+"year": 2025,
+"note": "共生科学部 在学生数（2025年5月1日現在の公表資料）"
+},
+"founded": "2004年 開学",
+"careers": "2024年度の卒業者169人。卒業生の過半数がすでに職業についているため、就職者数は調査していない（大学院への進学0人）。"
 },
 "八洲学園大学（通信制のみ）": {
 "faculties": [

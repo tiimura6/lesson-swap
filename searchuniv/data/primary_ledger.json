@@ -20,9 +20,11 @@
     "ippan": "https://www.ibaraki.ac.jp/admission/uploads/2026/10/ippan_2027.pdf",
     "application_2027": "https://www.ibaraki.ac.jp/admission/application/2027/index.html",
     "scholarship": "https://www.ibaraki.ac.jp/student/economicsupport/scholarship/index.html",
-    "excnewsys": "https://www.ibaraki.ac.jp/student/economicsupport/excnewsys/index.html"
+    "excnewsys": "https://www.ibaraki.ac.jp/student/economicsupport/excnewsys/index.html",
+    "campus_aid": "https://www.ibaraki.ac.jp/welcome/campus_aid/",
+    "economicinfo": "https://www.ibaraki.ac.jp/m/lifesupport/economicsupport/economicinfo/index.html"
    },
-   "note": "2026-11-25：志願状況ページは2027年度の推薦・総合型のみ。令和8年度一般選抜の結果は past ページ。学費ページ（/m/generalinfo/information/2026/10/09015055.html）は取得エラー。奨学金は /m/lifesupport/economicsupport/ 配下 / 2026-11-25：R9senbatuyoko.pdf は WebFetch の許可待ちで取得できず（推薦・総合型・一般の各募集要項で代替）。scholar は今回未確認（/welcome/campus_aid/ は取得エラー）。修学支援金・BYOD用端末購入支援金は大学公式で未確認のまま。 / 2026-11-25（2回目）：ippan_2027.pdf・R9senbatuyoko.pdf とも WebFetch の許可待ちで読めず（subjects 未照合）。奨学金の公式4ページ（経済的支援・奨学金制度・本学独自奨学金・その他の経済支援）に修学支援金・BYOD用端末購入支援金の記載なし（BYOD は https://www.ipc.ibaraki.ac.jp/service/byod.php が未確認）。 2026-11-25：ippan_2027.pdf の配点表（p.39〜54）は文字取り出しで列が崩れ数値を対応づけられず、subjects は未確認。scholar は修学支援金・BYOD用端末購入支援金の2行に公式 url が無く m のまま（BYOD の手がかり https://www.ipc.ibaraki.ac.jp/service/byod.php）。",
+   "note": "2026-11-25：志願状況ページは2027年度の推薦・総合型のみ。令和8年度一般選抜の結果は past ページ。学費ページ（/m/generalinfo/information/2026/10/09015055.html）は取得エラー。奨学金は /m/lifesupport/economicsupport/ 配下 / 2026-11-25：R9senbatuyoko.pdf は WebFetch の許可待ちで取得できず（推薦・総合型・一般の各募集要項で代替）。scholar は今回未確認（/welcome/campus_aid/ は取得エラー）。修学支援金・BYOD用端末購入支援金は大学公式で未確認のまま。 / 2026-11-25（2回目）：ippan_2027.pdf・R9senbatuyoko.pdf とも WebFetch の許可待ちで読めず（subjects 未照合）。奨学金の公式4ページ（経済的支援・奨学金制度・本学独自奨学金・その他の経済支援）に修学支援金・BYOD用端末購入支援金の記載なし（BYOD は https://www.ipc.ibaraki.ac.jp/service/byod.php が未確認）。 2026-11-25：ippan_2027.pdf の配点表（p.39〜54）は文字取り出しで列が崩れ数値を対応づけられず、subjects は未確認。scholar は修学支援金・BYOD用端末購入支援金の2行に公式 url が無く m のまま（BYOD の手がかり https://www.ipc.ibaraki.ac.jp/service/byod.php）。 / 2026-11-25（3回目）：定期実行で WebFetch の許可確認が無応答となり ippan_2027.pdf・byod.php・経済支援の一覧を読めず（データ欠落ではないため fails は据え置き）。/welcome/campus_aid/ はサイト側エラー。次回は campus_aid を先に試す。",
    "fails": 1
   },
   {
@@ -71,7 +73,8 @@
    "wait": {
     "money": "2027年度入学生の学費は公式に未掲載（2026-11-25確認）",
     "oc": "2027年度の日程は未発表（2026-11-25確認）"
-   }
+   },
+   "note": "2026-11-25：定期実行で WebFetch の許可確認が無応答となり、一般2期・共テ利用1期/2期・2026入試データPDFを読めず（データ欠落ではないため fails は据え置き）。"
   },
   {
    "name": "常磐大学",
