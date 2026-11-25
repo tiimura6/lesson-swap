@@ -1,0 +1,92 @@
+[
+{"name":"職業能力開発大学校（ポリテクカレッジ）","cat":"daigakkou","type":"厚生労働省","pref":"全国（10校）","pref_name":null,"city":null,"hp":"https://www.jeed.go.jp/js/kousotsusya/polytech_co/gaiyo/gaiyo.html","reading":"しょくぎょうのうりょくかいはつだいがっこう",
+"features":["厚生労働省所管の工科系大学校で全国に10校を展開している。","2年の専門課程と2年の応用課程で実践的なものづくり技術を学ぶ。","実習中心のカリキュラムで企業の製造現場に直結する技能を養う。"],
+"memo":"日本学生支援機構（JASSO）奨学金の対象外。学費は国公立より安く、全国各校で日程や設置学科が異なる。",
+"info":{"faculties":["専門課程（2年制）","応用課程（2年制）"],"departments":[],"difficulty":null,"kyotsu":null,
+"methods":{"year":"2027年度入試","list":[
+{"kubun":"推薦","name":"特別推薦（指定校）・一般推薦・自己推薦","kyotsu":"課さない","niji":null,"content":"各校により異なる（面接・書類審査等）","req":"高卒見込み等（特別推薦は専願、一般推薦・自己推薦は併願可の例あり）","url":"https://www3.jeed.go.jp/shizuoka/college/prestudent/senkou1/index.html"},
+{"kubun":"一般","name":"一般入試","kyotsu":"課さない","niji":"各校により異なる","content":null,"req":"高卒または高卒見込み等","url":"https://www3.jeed.go.jp/shizuoka/college/prestudent/senkou1/index.html"}]},
+"subjects":{"year":"2027年度入試","rows":[]},
+"schedule":{"year":"2027年度入試","rows":[
+{"kubun":"推薦","name":"A日程（特別推薦・一般推薦A・自己推薦A ※静岡・浜松の例）","apply":"10/1〜10/13","exam":"10/22","result":"10/29","proc":"2/24〜3/24（納入金振込）","fee":null},
+{"kubun":"推薦","name":"B日程（一般推薦B・自己推薦B ※静岡・浜松の例）","apply":"11/24〜12/3","exam":"12/15","result":"12/22","proc":"2/24〜3/24（納入金振込）","fee":null},
+{"kubun":"一般","name":"一般入試（2月 ※静岡・浜松の例）","apply":"1/18〜2/1","exam":"2/10","result":"2/22","proc":"2/24〜3/24（納入金振込）","fee":null},
+{"kubun":"推薦","name":"C日程（自己推薦C ※静岡・浜松の例）","apply":"2/19〜3/1","exam":"3/9","result":"3/16","proc":"3/17〜3/24（納入金振込）","fee":null}]},
+"money":{"year":"2027年度","rows":[{"f":"全学科共通（専門課程）","admission":169200,"tuition":390000,"facility":0,"practical":null,"other":null,"first_year":559200,"four_year":null}]},
+"scholar":{"year":"2027年度","rows":[{"name":"独自の奨学金制度（技能者育成資金融資制度等）","kind":"貸与","target":"全学科","amount":"各校の案内による（JASSO奨学金は利用不可）","timing":"入学後","cond":"各校の規定による"}]},
+"eng":{"rows":[]},
+"oc":{"year":2026,"events":[],"url":"https://www.jeed.go.jp/location/college/2.html"},
+"access":"全国10校（北海道・東北・関東・東海・北陸・近畿・中国・四国・九州・沖縄）に設置","licenses":[],
+"careers":"企業の製造現場における実践技術者として就職するほか、専門課程から応用課程へ進学。"},
+"sources":["https://www.jeed.go.jp/js/kousotsusya/polytech_co/gaiyo/gaiyo.html","https://www.jeed.go.jp/location/college/2.html","https://www3.jeed.go.jp/shizuoka/college/prestudent/senkou1/index.html","https://www3.jeed.go.jp/shizuoka/college/prestudent/gakuhi/index.html","https://www3.jeed.go.jp/fukuoka/college/assets/files/2026/pamphlet2027.pdf"]},
+
+{"name":"千葉県立保健医療大学","cat":"public","type":"公立","pref":"千葉県千葉市美浜区","pref_name":"千葉県","city":"千葉市美浜区","hp":"https://www.pref.chiba.lg.jp/hoidai/","reading":"ちばけんりつほけんいりょうだいがく",
+"features":["看護・栄養・歯科衛生・リハビリの4学科を持つ保健医療系公立大学。","一般選抜の個別試験は学科試験がなく、小論文と面接で評価される。","千葉県内在住者は入学料が282,000円に抑えられる。"],
+"memo":"一般選抜は前期日程のみ。学校推薦型選抜は評定3.8以上・専願で共テなし。",
+"info":{"faculties":["健康科学部"],"departments":[{"f":"健康科学部","d":["看護学科","栄養学科","歯科衛生学科","リハビリテーション学科 理学療法学専攻","リハビリテーション学科 作業療法学専攻"]}],
+"difficulty":{"hensachi":null,"kyotei":"53%〜67%","year":"2027年度入試用"},
+"kyotsu":{"kamoku":"5〜6教科6科目","kyoka":[5,6],"note":null},
+"methods":{"year":"2027年度入試","list":[
+{"kubun":"一般","name":"前期日程","kyotsu":"5〜6教科","niji":"小論文・面接","content":null,"req":"令和9年度大学入学共通テストの指定教科・科目を受験","url":"https://www.pref.chiba.lg.jp/hoidai/gakusei/nyuugakusha.html"},
+{"kubun":"推薦","name":"学校推薦型選抜","kyotsu":"課さない","niji":null,"content":"小論文（100点）・面接（100点）・調査書等","req":"評定平均値3.8以上、専願","url":"https://www.pref.chiba.lg.jp/hoidai/gakusei/nyuugakusha.html"}]},
+"subjects":{"year":"2027年度入試","rows":[{"f":"健康科学部 全学科","kubun":"一般","name":"前期日程","n":6,"subj":"小論文150・面接100","kt":"5〜6教科6科目","eng":null}]},
+"schedule":{"year":"2027年度入試","rows":[
+{"kubun":"推薦","name":"学校推薦型選抜","apply":"11/2〜11/6","exam":"11/14","result":"12/1","proc":"12/2〜12/11","fee":null},
+{"kubun":"一般","name":"前期日程","apply":"1/25〜2/3","exam":"2/25","result":"3/5","proc":"3/15","fee":null}]},
+"money":{"year":"2026年度","rows":[
+{"f":"健康科学部（千葉県内在住）","admission":282000,"tuition":535800,"facility":0,"practical":null,"other":null,"first_year":817800,"four_year":null},
+{"f":"健康科学部（千葉県外在住）","admission":423000,"tuition":535800,"facility":0,"practical":null,"other":null,"first_year":958800,"four_year":null}]},
+"scholar":{"year":"2026年度","rows":[{"name":"授業料免除制度","kind":"減免","target":"全学部","amount":"各期：全額免除267,900円、2/3減額178,600円、1/3減額89,300円","timing":"入学後","cond":"経済的理由等による申請・選考"}]},
+"eng":{"rows":[]},
+"oc":{"year":2026,"events":[{"date":"2026-07-18","type":"来場","title":"千葉県立保健医療大学オープンキャンパス"},{"date":"2026-07-19","type":"来場","title":"千葉県立保健医療大学オープンキャンパス"}],"url":"https://www.pref.chiba.lg.jp/hoidai/weboc/hoidaioc.html"},
+"access":"幕張キャンパス：千葉県千葉市美浜区若葉2-10-1",
+"licenses":["看護師（看護学科）","管理栄養士（栄養学科）","歯科衛生士（歯科衛生学科）","理学療法士（リハビリテーション学科 理学療法学専攻）","作業療法士（リハビリテーション学科 作業療法学専攻）"],"careers":null},
+"sources":["https://www.pref.chiba.lg.jp/hoidai/gakusei/nyuugakusha.html","https://www.pref.chiba.lg.jp/hoidai/nyushijoho/jukensemuke.html","https://www.pref.chiba.lg.jp/hoidai/weboc/hoidaioc.html","https://www.pref.chiba.lg.jp/hoidai/weboc/documents/oc2026program.pdf","https://search.keinet.ne.jp/1528/general/border_rate","https://search.keinet.ne.jp/1528/general/exam_subject","https://search.keinet.ne.jp/1528/outline/expense","https://passnavi.obunsha.co.jp/univ/1059/subject/"]},
+
+{"name":"埼玉県立大学","cat":"public","type":"公立","pref":"埼玉県越谷市","pref_name":"埼玉県","city":"越谷市","hp":"https://www.spu.ac.jp/","reading":"さいたまけんりつだいがく",
+"features":["看護・リハ・福祉・健康開発の5学科を擁する保健医療福祉の総合公立大。","一般選抜は共通テスト500点と小論文100点・面接で総合判定する。","埼玉県内在住者は入学金が211,500円と県外者の半額になる。"],
+"memo":"授業料は年額621,000円と国公立標準額より高め。一般選抜は前期日程のみ。",
+"info":{"faculties":["保健医療福祉学部"],"departments":[{"f":"保健医療福祉学部","d":["看護学科","理学療法学科","作業療法学科","社会福祉子ども学科 社会福祉学専攻","社会福祉子ども学科 福祉子ども学専攻","健康開発学科 健康情報学専攻","健康開発学科 検査技術科学専攻","健康開発学科 口腔保健科学専攻"]}],
+"difficulty":{"hensachi":null,"kyotei":"54%〜65%","year":"2027年度入試用"},
+"kyotsu":{"kamoku":"各学科の指定する教科・科目（配点500点）","kyoka":null,"note":null},
+"methods":{"year":"2027年度入試","list":[
+{"kubun":"一般","name":"前期日程","kyotsu":"指定教科・科目","niji":"小論文（100点）・面接（点数化なし）","content":null,"req":"令和9年度大学入学共通テストの指定教科・科目を受験","url":"https://www.spu.ac.jp/Portals/0/nyushi/2027/bosyuyoukou/ippan/2027bosyuuyoukou_ippannzenki.pdf"},
+{"kubun":"推薦","name":"学校推薦型選抜","kyotsu":"課さない","niji":null,"content":null,"req":null,"url":"https://www.spu.ac.jp/Portals/0/nyushi/2027/bosyuyoukou/gakkousuisen/2027bosyuyoukou_gakkousuisen.pdf"}]},
+"subjects":{"year":"2027年度入試","rows":[{"f":"保健医療福祉学部 全学科","kubun":"一般","name":"前期日程","n":null,"subj":"小論文100・面接（点数化なし）","kt":"共通テスト500点（学科別指定）","eng":null}]},
+"schedule":{"year":"2027年度入試","rows":[
+{"kubun":"推薦","name":"学校推薦型選抜","apply":null,"exam":"11/22","result":"12/10","proc":null,"fee":null},
+{"kubun":"一般","name":"前期日程","apply":"1/25〜2/3","exam":"2/25","result":null,"proc":null,"fee":null}]},
+"money":{"year":"2027年度","rows":[
+{"f":"保健医療福祉学部（埼玉県内在住）","admission":211500,"tuition":621000,"facility":0,"practical":null,"other":null,"first_year":832500,"four_year":null},
+{"f":"保健医療福祉学部（埼玉県外在住）","admission":423000,"tuition":621000,"facility":0,"practical":null,"other":null,"first_year":1044000,"four_year":null}]},
+"scholar":{"year":"2026年度","rows":[{"name":"授業料等減免制度","kind":"減免","target":"全学部","amount":"規定による減免","timing":"入学後","cond":"経済的理由等による申請・審査"}]},
+"eng":{"rows":[]},
+"oc":{"year":2026,"events":[{"date":"2026-06-07","type":"来場","title":"6月オープンキャンパス"},{"date":"2026-08-01","type":"来場","title":"8月オープンキャンパス"},{"date":"2026-08-02","type":"来場","title":"8月オープンキャンパス"}],"url":"https://www.spu.ac.jp/open_campus.html"},
+"access":"越谷キャンパス（埼玉県越谷市三野宮820）",
+"licenses":["看護師（看護学科）","理学療法士（理学療法学科）","作業療法士（作業療法学科）","社会福祉士（社会福祉子ども学科）","臨床検査技師（健康開発学科 検査技術科学専攻）","歯科衛生士（健康開発学科 口腔保健科学専攻）"],"careers":null},
+"sources":["https://www.spu.ac.jp/Portals/0/nyushi/2027/senbatsu/2027senbatsu_suisen_ippan.pdf","https://www.spu.ac.jp/Portals/0/nyushi/2027/bosyuyoukou/ippan/2027bosyuuyoukou_ippannzenki.pdf","https://www.spu.ac.jp/Portals/0/nyushi/2027/bosyuyoukou/gakkousuisen/2027bosyuyoukou_gakkousuisen.pdf","https://www.spu.ac.jp/life/expense/tabid345.html","https://www.spu.ac.jp/open_campus.html","https://www.spu.ac.jp/news/tabid452.html","https://search.keinet.ne.jp/1526/general/border_rate","https://passnavi.obunsha.co.jp/univ/1057/difficulty/"]},
+
+{"name":"航空大学校","skip":"2027年度（令和9年度）の出願資格が4年制大学2年以上修了（62単位以上）または短大・高専卒業等であり、一般の高校生は出願できないため"},
+
+{"name":"国立看護大学校","cat":"daigakkou","type":"厚生労働省","pref":"東京都清瀬市","pref_name":"東京都","city":"清瀬市","hp":"https://www.ncn.ac.jp/","reading":"こくりつかんごだいがっこう",
+"features":["厚生労働省所管の看護大学校で、国立高度専門医療研究センターと連携。","一般選抜は共通テスト不要で、独自マーク式4教科と2次面接で選抜する。","2027年度入学生から4年次に保健師課程の履修が可能となる計画がある。"],
+"memo":"JASSO奨学金対象外だが独自の無償化相当の減免・給付制度あり。国公立大と併願可能。",
+"info":{"faculties":["看護学部"],"departments":[{"f":"看護学部","d":["看護学科"]}],
+"difficulty":{"hensachi":"50.0","kyotei":null,"year":"2027年度入試用"},"kyotsu":null,
+"methods":{"year":"2027年度入試","list":[
+{"kubun":"一般","name":"一般選抜","kyotsu":"課さない","niji":"1次：国語・数学IA・英語・生物基礎/生物（マーク式）、2次：面接","content":null,"req":"高卒または2027年3月卒業見込み等","url":"https://www.ncn.ac.jp/examination/nursing/040/040_guide.html"},
+{"kubun":"推薦","name":"指定校制学校推薦型選抜","kyotsu":"課さない","niji":null,"content":null,"req":"指定校推薦（公募制推薦等は実施なし）","url":"https://www.ncn.ac.jp/examination/nursing/020/020_exam.html"}]},
+"subjects":{"year":"2027年度入試","rows":[{"f":"看護学部 看護学科","kubun":"一般","name":"一般選抜","n":4,"subj":"国語100（現代文のみ）・数学IA100・英語100（リスニングなし）・生物基礎/生物100、2次：面接","kt":"","eng":"なし"}]},
+"schedule":{"year":"2027年度入試","rows":[{"kubun":"一般","name":"一般選抜","apply":"1/4〜1/26","exam":"1次：2/6、2次：2/13","result":"1次：2/10、最終：2/18","proc":"2/19〜2/26","fee":30000}]},
+"money":{"year":"2026年度","rows":[{"f":"看護学部","admission":282000,"tuition":535800,"facility":80000,"practical":null,"other":45000,"first_year":942800,"four_year":null}]},
+"scholar":{"year":"2026年度","rows":[
+{"name":"授業料等の減免制度および給付型奨学金制度（独自制度）","kind":"給付","target":"全学部","amount":"多子世帯は授業料等全額免除。低所得世帯は収入に応じた減免＋給付（自宅月額29,200円／自宅外月額66,700円）","timing":"入学後","cond":"学業成績基準および世帯所得・多子世帯要件（JASSO対象外のため独自設置）"},
+{"name":"授業料免除","kind":"減免","target":"全学部","amount":"授業料の全額または半額免除（成績上位者含む）","timing":"入学後","cond":"経済的理由かつ学業優秀、または入試・在学成績が特に優秀な者"},
+{"name":"長谷川美佐保記念奨学基金","kind":"貸与","target":"全学部","amount":"月額30,000円または50,000円","timing":"入学後","cond":"全学年で概ね16名程度"},
+{"name":"助産師育成基金（名称“子 ねずみ”）","kind":"貸与","target":"助産科目履修生","amount":"月額50,000円","timing":"在学中","cond":"助産科目履修生"}]},
+"eng":{"rows":[]},
+"oc":{"year":2026,"events":[{"date":"2026-05-10","type":"来場","title":"看護の日ミニオープンキャンパス"},{"date":"2026-08-07","type":"来場","title":"夏のオープンキャンパス"},{"date":"2026-08-08","type":"来場","title":"夏のオープンキャンパス"}],"url":"https://admissions-ncn.jp/events/opencampus/"},
+"access":"東京都清瀬市梅園1-2-1（最寄り駅：西武池袋線清瀬駅）",
+"licenses":["看護師（看護学科）","助産師（看護学科・選択制）","保健師（看護学科・2028年度より履修可能となるよう設置計画中）"],"careers":null},
+"sources":["https://www.ncn.ac.jp/examination/nursing/010/010_top.html","https://www.ncn.ac.jp/examination/nursing/020/020_exam.html","https://www.ncn.ac.jp/examination/nursing/040/040_guide.html","https://www.ncn.ac.jp/nursing/050/05_life.html","https://admissions-ncn.jp/events/opencampus/","https://www.ncn.ac.jp/examination/nursing/080/2026OpenCampus.pdf","https://passnavi.obunsha.co.jp/univ/5400/difficulty/"]}
+]

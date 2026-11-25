@@ -88635,7 +88635,11 @@
 }
 },
 "国立看護大学校": {
-"difficulty": null,
+"difficulty": {
+"hensachi": "50.0",
+"kyotei": null,
+"year": "2027年度入試用"
+},
 "faculties": [
 "看護学部（看護学科）"
 ],
@@ -88655,7 +88659,11 @@
 "https://www.ncn.ac.jp/nursing/050/05_life.html",
 "https://www.ncn.ac.jp/examination/nursing/040/040_guide.html",
 "https://www.ncn.ac.jp/college/010/01_about.html",
-"https://www.ncn.ac.jp/nursing/090/09_employment.html"
+"https://www.ncn.ac.jp/nursing/090/09_employment.html",
+"https://www.ncn.ac.jp/examination/nursing/010/010_top.html",
+"https://admissions-ncn.jp/events/opencampus/",
+"https://www.ncn.ac.jp/examination/nursing/080/2026OpenCampus.pdf",
+"https://passnavi.obunsha.co.jp/univ/5400/difficulty/"
 ],
 "departments": [
 {
@@ -88668,9 +88676,15 @@
 "_checked": {
 "departments": "2026-11-06",
 "schedule": "2026-11-17",
-"money": "2026-11-08",
+"money": "2026-11-25",
 "licenses": "2026-11-20",
-"careers": "2026-11-20"
+"careers": "2026-11-20",
+"difficulty": "2026-11-25",
+"methods": "2026-11-25",
+"subjects": "2026-11-25",
+"scholar": "2026-11-25",
+"oc": "2026-11-25",
+"_via": "2026-11-25"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -88705,6 +88719,16 @@
 "first_year": 897800,
 "four_year": null,
 "note": "facilityは環境保全料（年額）。first_yearは入学料＋授業料＋環境保全料で算出"
+},
+{
+"f": "看護学部",
+"admission": 282000,
+"tuition": 535800,
+"facility": 80000,
+"practical": null,
+"other": 45000,
+"first_year": 942800,
+"four_year": null
 }
 ]
 },
@@ -88714,7 +88738,103 @@
 "保健師国家試験受験資格（2028年度から履修可能・設置計画中、5名程度）",
 "受胎調節実地指導員（助産科目履修者）"
 ],
-"careers": "令和7年度の就職104名：国立健康危機管理研究機構（国立国際医療センター36・国立国府台医療センター1）、国立高度専門医療研究センター（国立がん研究センター中央病院15・東病院16、国立循環器病研究センター7、国立精神・神経医療研究センター9、国立成育医療研究センター7、国立長寿医療研究センター1）、その他の医療機関12。進学等3名（国立看護大学校の資料）。"
+"careers": "令和7年度の就職104名：国立健康危機管理研究機構（国立国際医療センター36・国立国府台医療センター1）、国立高度専門医療研究センター（国立がん研究センター中央病院15・東病院16、国立循環器病研究センター7、国立精神・神経医療研究センター9、国立成育医療研究センター7、国立長寿医療研究センター1）、その他の医療機関12。進学等3名（国立看護大学校の資料）。",
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜",
+"kyotsu": "課さない",
+"niji": "1次：国語・数学IA・英語・生物基礎/生物（マーク式）、2次：面接",
+"content": null,
+"req": "高卒または2027年3月卒業見込み等",
+"url": "https://www.ncn.ac.jp/examination/nursing/040/040_guide.html"
+},
+{
+"kubun": "推薦",
+"name": "指定校制学校推薦型選抜",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": "指定校推薦（公募制推薦等は実施なし）",
+"url": "https://www.ncn.ac.jp/examination/nursing/020/020_exam.html"
+}
+]
+},
+"subjects": {
+"year": "2027年度入試",
+"rows": [
+{
+"f": "看護学部 看護学科",
+"kubun": "一般",
+"name": "一般選抜",
+"n": 4,
+"subj": "国語100（現代文のみ）・数学IA100・英語100（リスニングなし）・生物基礎/生物100、2次：面接",
+"kt": "",
+"eng": "なし"
+}
+]
+},
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "授業料等の減免制度および給付型奨学金制度（独自制度）",
+"kind": "給付",
+"target": "全学部",
+"amount": "多子世帯は授業料等全額免除。低所得世帯は収入に応じた減免＋給付（自宅月額29,200円／自宅外月額66,700円）",
+"timing": "入学後",
+"cond": "学業成績基準および世帯所得・多子世帯要件（JASSO対象外のため独自設置）"
+},
+{
+"name": "授業料免除",
+"kind": "減免",
+"target": "全学部",
+"amount": "授業料の全額または半額免除（成績上位者含む）",
+"timing": "入学後",
+"cond": "経済的理由かつ学業優秀、または入試・在学成績が特に優秀な者"
+},
+{
+"name": "長谷川美佐保記念奨学基金",
+"kind": "貸与",
+"target": "全学部",
+"amount": "月額30,000円または50,000円",
+"timing": "入学後",
+"cond": "全学年で概ね16名程度"
+},
+{
+"name": "助産師育成基金（名称“子 ねずみ”）",
+"kind": "貸与",
+"target": "助産科目履修生",
+"amount": "月額50,000円",
+"timing": "在学中",
+"cond": "助産科目履修生"
+}
+]
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-05-10",
+"type": "来場",
+"title": "看護の日ミニオープンキャンパス"
+},
+{
+"date": "2026-08-07",
+"type": "来場",
+"title": "夏のオープンキャンパス"
+},
+{
+"date": "2026-08-08",
+"type": "来場",
+"title": "夏のオープンキャンパス"
+}
+],
+"url": "https://admissions-ncn.jp/events/opencampus/"
+},
+"_via": "external-ai"
 },
 "職業能力開発総合大学校": {
 "difficulty": {
@@ -91855,7 +91975,11 @@
 "_via": "external-ai"
 },
 "電動モビリティシステム専門職大学": {
-"difficulty": null,
+"difficulty": {
+"hensachi": "35.0",
+"kyotei": null,
+"year": "2027年度入試用"
+},
 "faculties": [
 "電気自動車システム工学部"
 ],
@@ -91870,7 +91994,12 @@
 "sources": [
 "https://jidounten-lab.com/u_50566",
 "https://www.dsecchi.mext.go.jp/2208nsecchi/pdf/dendomobility_2208nsecchi_gakusoku.pdf",
-"https://www.dsecchi.mext.go.jp/2208nsecchi/pdf/dendomobility_2208nsecchi_syushi2.pdf"
+"https://www.dsecchi.mext.go.jp/2208nsecchi/pdf/dendomobility_2208nsecchi_syushi2.pdf",
+"https://www.mobility-ac.com/",
+"https://www.mobility-ac.com/entranceexam",
+"https://www.mobility-ac.com/%E8%A4%87%E8%A3%BD-student-certificate",
+"https://www.mobility-ac.com/post/%E5%A4%A7%E5%AD%A6%E3%81%AE%E9%81%8B%E5%96%B6%E6%AF%8D%E4%BD%93%E3%81%A7%E3%81%82%E3%82%8B%E5%AD%A6%E6%A0%A1%E6%B3%95%E4%BA%BA%E3%81%AE%E5%A4%89%E6%9B%B4%E8%AA%8D%E5%8F%AF%E7%94%B3%E8%AB%8B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+"https://search.keinet.ne.jp/2086/general/border_rate"
 ],
 "research": [
 "電気自動車システム全体と、その構成要素（電池・モーター/インバータ・車体・自動運転）を学ぶ。1〜2年次で全体を学び、2年後期〜3年次に構成要素の一つを深める",
@@ -91879,9 +92008,21 @@
 ],
 "_checked": {
 "research": "2026-11-20",
-"careers": "2026-11-20"
+"careers": "2026-11-20",
+"departments": "2026-11-25",
+"difficulty": "2026-11-25",
+"_via": "2026-11-25"
 },
-"careers": "開学（2023年）時の設置計画で想定する進路は、完成車メーカー、自動車部品サプライヤー、電気機械・電子部品などの製造業、情報系・スタートアップ（CASE・MaaS関連）企業（文部科学省 設置の趣旨）。"
+"careers": "開学（2023年）時の設置計画で想定する進路は、完成車メーカー、自動車部品サプライヤー、電気機械・電子部品などの製造業、情報系・スタートアップ（CASE・MaaS関連）企業（文部科学省 設置の趣旨）。",
+"departments": [
+{
+"f": "電気自動車システム工学部",
+"d": [
+"電気自動車システム工学科"
+]
+}
+],
+"_via": "external-ai"
 },
 "筑波技術大学": {
 "faculties": [
@@ -92815,7 +92956,11 @@
 "https://search.keinet.ne.jp/1528/outline/expense",
 "https://search.keinet.ne.jp/1528/general/exam_subject",
 "https://passnavi.obunsha.co.jp/univ/1059/eiken/",
-"https://search.keinet.ne.jp/1528/general/border_rate"
+"https://search.keinet.ne.jp/1528/general/border_rate",
+"https://www.pref.chiba.lg.jp/hoidai/nyushijoho/jukensemuke.html",
+"https://www.pref.chiba.lg.jp/hoidai/weboc/hoidaioc.html",
+"https://www.pref.chiba.lg.jp/hoidai/weboc/documents/oc2026program.pdf",
+"https://passnavi.obunsha.co.jp/univ/1059/subject/"
 ],
 "methods": {
 "year": "2027年度入試",
@@ -92875,14 +93020,19 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"money": "2026-11-08",
+"money": "2026-11-25",
 "schedule": "2026-11-18",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "kyotsu": "2026-11-15",
 "eng": "2026-11-16",
-"difficulty": "2026-11-20"
+"difficulty": "2026-11-20",
+"subjects": "2026-11-25",
+"scholar": "2026-11-25",
+"oc": "2026-11-25",
+"licenses": "2026-11-25",
+"_via": "2026-11-25"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -92953,6 +93103,26 @@
 "first_year": 817800,
 "four_year": null,
 "note": "入学金は県内者。県外者は423,000円（初年度958,800円）。教科書代・実習経費は別途（Kei-Net 2026年度）"
+},
+{
+"f": "健康科学部（千葉県内在住）",
+"admission": 282000,
+"tuition": 535800,
+"facility": 0,
+"practical": null,
+"other": null,
+"first_year": 817800,
+"four_year": null
+},
+{
+"f": "健康科学部（千葉県外在住）",
+"admission": 423000,
+"tuition": 535800,
+"facility": 0,
+"practical": null,
+"other": null,
+"first_year": 958800,
+"four_year": null
 }
 ]
 },
@@ -93079,7 +93249,58 @@
 "hensachi": null,
 "kyotei": "53%〜67%",
 "year": "2027年度入試用"
+},
+"subjects": {
+"year": "2027年度入試",
+"rows": [
+{
+"f": "健康科学部 全学科",
+"kubun": "一般",
+"name": "前期日程",
+"n": 6,
+"subj": "小論文150・面接100",
+"kt": "5〜6教科6科目",
+"eng": null
 }
+]
+},
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "授業料免除制度",
+"kind": "減免",
+"target": "全学部",
+"amount": "各期：全額免除267,900円、2/3減額178,600円、1/3減額89,300円",
+"timing": "入学後",
+"cond": "経済的理由等による申請・選考"
+}
+]
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-07-18",
+"type": "来場",
+"title": "千葉県立保健医療大学オープンキャンパス"
+},
+{
+"date": "2026-07-19",
+"type": "来場",
+"title": "千葉県立保健医療大学オープンキャンパス"
+}
+],
+"url": "https://www.pref.chiba.lg.jp/hoidai/weboc/hoidaioc.html"
+},
+"licenses": [
+"看護師（看護学科）",
+"管理栄養士（栄養学科）",
+"歯科衛生士（歯科衛生学科）",
+"理学療法士（リハビリテーション学科 理学療法学専攻）",
+"作業療法士（リハビリテーション学科 作業療法学専攻）"
+],
+"_via": "external-ai"
 },
 "埼玉県立大学": {
 "faculties": [
@@ -93104,7 +93325,13 @@
 "https://passnavi.obunsha.co.jp/univ/1057/expense/",
 "https://manabi.benesse.ne.jp/daigaku/school/2070/syusyoku/",
 "https://www.spu.ac.jp/Portals/0/nyushi/2027/senbatsu/2027senbatsu_suisen_ippan.pdf",
-"https://search.keinet.ne.jp/1526/general/border_rate"
+"https://search.keinet.ne.jp/1526/general/border_rate",
+"https://www.spu.ac.jp/Portals/0/nyushi/2027/bosyuyoukou/ippan/2027bosyuuyoukou_ippannzenki.pdf",
+"https://www.spu.ac.jp/Portals/0/nyushi/2027/bosyuyoukou/gakkousuisen/2027bosyuyoukou_gakkousuisen.pdf",
+"https://www.spu.ac.jp/life/expense/tabid345.html",
+"https://www.spu.ac.jp/open_campus.html",
+"https://www.spu.ac.jp/news/tabid452.html",
+"https://passnavi.obunsha.co.jp/univ/1057/difficulty/"
 ],
 "kyotsu": {
 "kamoku": "4教科5科目〜5教科5科目",
@@ -93195,14 +93422,19 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"money": "2026-11-08",
+"money": "2026-11-25",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
 "schedule": "2026-11-18",
 "licenses": "2026-11-15",
-"difficulty": "2026-11-20"
+"difficulty": "2026-11-20",
+"subjects": "2026-11-25",
+"scholar": "2026-11-25",
+"oc": "2026-11-25",
+"access": "2026-11-25",
+"_via": "2026-11-25"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -93284,6 +93516,26 @@
 "first_year": 832500,
 "four_year": null,
 "note": "入学金・合計は県内者。県外者は入学金423,000円・初年度1,044,000円。施設費なし。保険料・教科書代・実習費等は別途（パスナビ 2027年度、2026年9月調査）"
+},
+{
+"f": "保健医療福祉学部（埼玉県内在住）",
+"admission": 211500,
+"tuition": 621000,
+"facility": 0,
+"practical": null,
+"other": null,
+"first_year": 832500,
+"four_year": null
+},
+{
+"f": "保健医療福祉学部（埼玉県外在住）",
+"admission": 423000,
+"tuition": 621000,
+"facility": 0,
+"practical": null,
+"other": null,
+"first_year": 1044000,
+"four_year": null
 }
 ]
 },
@@ -93438,7 +93690,57 @@
 "hensachi": null,
 "kyotei": "54%〜65%",
 "year": "2027年度入試用"
+},
+"subjects": {
+"year": "2027年度入試",
+"rows": [
+{
+"f": "保健医療福祉学部 全学科",
+"kubun": "一般",
+"name": "前期日程",
+"n": null,
+"subj": "小論文100・面接（点数化なし）",
+"kt": "共通テスト500点（学科別指定）",
+"eng": null
 }
+]
+},
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "授業料等減免制度",
+"kind": "減免",
+"target": "全学部",
+"amount": "規定による減免",
+"timing": "入学後",
+"cond": "経済的理由等による申請・審査"
+}
+]
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-06-07",
+"type": "来場",
+"title": "6月オープンキャンパス"
+},
+{
+"date": "2026-08-01",
+"type": "来場",
+"title": "8月オープンキャンパス"
+},
+{
+"date": "2026-08-02",
+"type": "来場",
+"title": "8月オープンキャンパス"
+}
+],
+"url": "https://www.spu.ac.jp/open_campus.html"
+},
+"access": "越谷キャンパス（埼玉県越谷市三野宮820）",
+"_via": "external-ai"
 },
 "川崎市立看護大学": {
 "faculties": [
@@ -94687,7 +94989,12 @@
 "https://manabi.benesse.ne.jp/daigaku/school/2059/syusyoku/",
 "https://passnavi.obunsha.co.jp/univ/1038/eiken/",
 "https://manabi.benesse.ne.jp/daigaku/school/2059/nyushi/hoshiki/ippan/index.html",
-"https://search.keinet.ne.jp/1524/general/border_rate"
+"https://search.keinet.ne.jp/1524/general/border_rate",
+"https://www.gchs.ac.jp/admissionsinfo/facadinfo/facref",
+"https://www.gchs.ac.jp/cms/wp-content/uploads/2026/11/b7e1e4fef17fa5ab715fff90b5b0bc26.pdf",
+"https://www.gchs.ac.jp/campuslife/clguide/tuition-2",
+"https://www.gchs.ac.jp/admissionsinfo/facadinfo/ocreview",
+"https://search.keinet.ne.jp/1524/outline/campus"
 ],
 "methods": {
 "year": "2027年度入試",
@@ -94752,7 +95059,7 @@
 },
 "_checked": {
 "fdiff": "2026-11-06",
-"money": "2026-11-08",
+"money": "2026-11-25",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
@@ -94760,7 +95067,9 @@
 "kyotsu": "2026-11-15",
 "licenses": "2026-11-15",
 "eng": "2026-11-16",
-"difficulty": "2026-11-20"
+"difficulty": "2026-11-20",
+"oc": "2026-11-25",
+"_via": "2026-11-25"
 },
 "money": {
 "year": "2027年度（予定）",
@@ -94791,6 +95100,26 @@
 "first_year": 722170,
 "four_year": null,
 "note": "看護学部と同額（県外者は初年度863,170円）"
+},
+{
+"f": "全学部（群馬県外者）",
+"admission": 282000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 817800,
+"four_year": null
+},
+{
+"f": "全学部（群馬県内者）",
+"admission": 141000,
+"tuition": 535800,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 676800,
+"four_year": null
 }
 ]
 },
@@ -94897,7 +95226,24 @@
 "hensachi": null,
 "kyotei": "56%〜64%",
 "year": "2027年度入試用"
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-08-08",
+"type": "来場",
+"title": "オープンキャンパス"
+},
+{
+"date": "2026-08-09",
+"type": "来場",
+"title": "オープンキャンパス"
 }
+],
+"url": "https://www.gchs.ac.jp/admissionsinfo/facadinfo/ocreview"
+},
+"_via": "external-ai"
 },
 "公立はこだて未来大学": {
 "faculties": [
@@ -95331,7 +95677,11 @@
 "https://manabi.benesse.ne.jp/daigaku/school/2007/syusyoku/",
 "https://passnavi.obunsha.co.jp/univ/1538/eiken/",
 "https://www.chitose.ac.jp/uploads/files/exam/%E5%85%A5%E5%AD%A6%E8%80%85%E9%81%B8%E6%8A%9C/2027nyugakusenbatu_youko.pdf",
-"https://search.keinet.ne.jp/1509/general/border_rate"
+"https://search.keinet.ne.jp/1509/general/border_rate",
+"https://www.chitose.ac.jp/juken/exam/schedule",
+"https://www.chitose.ac.jp/uploads/files/exam/%E4%B8%80%E8%88%AC%E9%81%B8%E6%8A%9C/2027general_youkou.pdf",
+"https://www.chitose.ac.jp/uploads/files/exam/general_index/%E3%80%90%E5%AE%8C%E6%88%90%E3%80%912027%E5%B9%B4%E5%BA%A6%E5%AD%A6%E6%A0%A1%E6%8E%A8%E8%96%A6%E5%9E%8B%E9%81%B8%E6%8A%9C%E5%AD%A6%E7%94%9F%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%20.pdf",
+"https://www.chitose.ac.jp/juken/exam/fees"
 ],
 "methods": {
 "year": "2027年度入試",
@@ -95430,7 +95780,7 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"money": "2026-11-08",
+"money": "2026-11-25",
 "departments": "2026-11-06",
 "ratios": "2026-11-06",
 "qtrend": "2026-11-07",
@@ -95438,7 +95788,8 @@
 "kyotsu": "2026-11-15",
 "licenses": "2026-11-15",
 "eng": "2026-11-16",
-"difficulty": "2026-11-20"
+"difficulty": "2026-11-20",
+"_via": "2026-11-25"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -95489,6 +95840,26 @@
 "first_year": 833100,
 "four_year": null,
 "note": "otherは設備/実習/諸会費等12,000円＋保険料3,300円（2025年度額）。入学金は千歳市外者（Kei-Net 2026年度）"
+},
+{
+"f": "理工学部（市外者）",
+"admission": 282000,
+"tuition": 535800,
+"facility": 0,
+"practical": 0,
+"other": 15300,
+"first_year": 833100,
+"four_year": null
+},
+{
+"f": "理工学部（市内者）",
+"admission": 141000,
+"tuition": 535800,
+"facility": 0,
+"practical": 0,
+"other": 15300,
+"first_year": 692100,
+"four_year": null
 }
 ]
 },
@@ -95651,7 +96022,8 @@
 "hensachi": "45.0〜52.5",
 "kyotei": "60%〜70%",
 "year": "2027年度入試用"
-}
+},
+"_via": "external-ai"
 },
 "北海道教育大学": {
 "faculties": [
@@ -219082,9 +219454,14 @@ null
 },
 "_checked": {
 "schedule": "2026-11-08",
-"money": "2026-11-08",
+"money": "2026-11-25",
 "research": "2026-11-20",
-"careers": "2026-11-20"
+"careers": "2026-11-20",
+"faculties": "2026-11-25",
+"scholar": "2026-11-25",
+"oc": "2026-11-25",
+"access": "2026-11-25",
+"_via": "2026-11-25"
 },
 "money": {
 "year": "令和8年4月1日現在（高齢・障害・求職者雇用支援機構）",
@@ -219102,6 +219479,16 @@ null
 "first_year": 559200,
 "four_year": null,
 "note": "first_yearは入校料＋授業料で算出"
+},
+{
+"f": "全学科共通（専門課程）",
+"admission": 169200,
+"tuition": 390000,
+"facility": 0,
+"practical": null,
+"other": null,
+"first_year": 559200,
+"four_year": null
 }
 ]
 },
@@ -219109,14 +219496,43 @@ null
 "https://www.jeed.go.jp/js/kousotsusya/polytech_co/nyukou/index.html",
 "https://www3.jeed.go.jp/fukuoka/college/admission/exam/",
 "https://www3.jeed.go.jp/fukuoka/college/admission/admission/tuition.html",
-"https://www.mhlw.go.jp/content/11801000/001644982.pdf"
+"https://www.mhlw.go.jp/content/11801000/001644982.pdf",
+"https://www.jeed.go.jp/js/kousotsusya/polytech_co/gaiyo/gaiyo.html",
+"https://www.jeed.go.jp/location/college/2.html",
+"https://www3.jeed.go.jp/shizuoka/college/prestudent/senkou1/index.html",
+"https://www3.jeed.go.jp/shizuoka/college/prestudent/gakuhi/index.html",
+"https://www3.jeed.go.jp/fukuoka/college/assets/files/2026/pamphlet2027.pdf"
 ],
 "research": [
 "専門課程（2年）：高校卒業者などを対象に、高度な職業訓練を行う",
 "応用課程（2年）：専門課程の修了者などを対象に、より専門的・応用的な職業訓練を行う",
 "例：建築分野では建築物の計画設計・建築CAD・施工技術などを学ぶ"
 ],
-"careers": "令和6年度の就職率は専門課程99.0%・応用課程99.8%（修了1か月後。高齢・障害・求職者雇用支援機構の全体の値で、附属の短期大学校を含む。厚生労働省資料）。"
+"careers": "令和6年度の就職率は専門課程99.0%・応用課程99.8%（修了1か月後。高齢・障害・求職者雇用支援機構の全体の値で、附属の短期大学校を含む。厚生労働省資料）。",
+"faculties": [
+"専門課程（2年制）",
+"応用課程（2年制）"
+],
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "独自の奨学金制度（技能者育成資金融資制度等）",
+"kind": "貸与",
+"target": "全学科",
+"amount": "各校の案内による（JASSO奨学金は利用不可）",
+"timing": "入学後",
+"cond": "各校の規定による"
+}
+]
+},
+"oc": {
+"year": 2026,
+"events": [],
+"url": "https://www.jeed.go.jp/location/college/2.html"
+},
+"access": "全国10校（北海道・東北・関東・東海・北陸・近畿・中国・四国・九州・沖縄）に設置",
+"_via": "external-ai"
 },
 "東北福祉大学": {
 "faculties": [
@@ -260781,7 +261197,10 @@ null
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
 "schedule": "2026-11-13",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"methods": "2026-11-25",
+"oc": "2026-11-25",
+"_via": "2026-11-25"
 },
 "departments": [
 {
@@ -260888,7 +261307,12 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3165/nyushi/gokaku-happyo/",
 "https://search.keinet.ne.jp/2165/general/border_rate",
 "https://search.keinet.ne.jp/2165/general/exam_subject",
-"https://manabi.benesse.ne.jp/daigaku/school/3165/nyushi/hoshiki/sougou/"
+"https://manabi.benesse.ne.jp/daigaku/school/3165/nyushi/hoshiki/sougou/",
+"https://www.shobi-u.ac.jp/examinee/admission/",
+"https://www.shobi-u.ac.jp/pdf/examinee/admission/admission_2027_0427.pdf",
+"https://www.shobi-u.ac.jp/pdf/entrance_examination/guideline/2027Sougou_requirements.pdf",
+"https://www.shobi-u.ac.jp/examinee/opencampus/soudan/",
+"https://www.shobi-u.ac.jp/pdf/disclosure/2026_sougou__sport.pdf"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -260965,7 +261389,42 @@ null
 "kyotei": null,
 "year": "2027年度入試用",
 "note": "一般選抜AB日程。芸術表現学科はボーダーの掲載なし。共テ利用の掲載なし"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "総合型",
+"name": "総合型選抜（芸術分野自己PR型など）",
+"kyotsu": "課さない",
+"niji": null,
+"content": "書類選考・自己PR（パフォーマンス／クリエイト／活動実績）・面接",
+"req": null,
+"url": "https://www.shobi-u.ac.jp/pdf/entrance_examination/guideline/2027Sougou_requirements.pdf"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（指定校／公募）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": "Ⅱ期出願締切は12/8",
+"url": "https://www.shobi-u.ac.jp/examinee/admission/"
 }
+]
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-09-17",
+"type": "来場",
+"title": "平日キャンパス見学・個別相談会（〜2027/1/29）"
+}
+],
+"url": "https://www.shobi-u.ac.jp/examinee/opencampus/soudan/"
+},
+"_via": "external-ai"
 },
 "帝京大学": {
 "faculties": [
@@ -262535,7 +262994,10 @@ null
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
 "schedule": "2026-11-13",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"methods": "2026-11-25",
+"scholar": "2026-11-25",
+"_via": "2026-11-25"
 },
 "departments": [
 {
@@ -262632,7 +263094,10 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3161/nyushi/hoshiki/ippan/index.html",
 "https://passnavi.obunsha.co.jp/univ/2077/schedule/",
 "https://search.keinet.ne.jp/2162/general/border_rate",
-"https://search.keinet.ne.jp/2162/general/exam_subject"
+"https://search.keinet.ne.jp/2162/general/exam_subject",
+"https://www.hiu.ac.jp/examination_info/application/",
+"https://www.hiu.ac.jp/examination_info/examination_about/",
+"https://www.hiu.ac.jp/examination_info/scholarship/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -262672,7 +263137,35 @@ null
 "kyotei": null,
 "year": "2027年度入試用",
 "note": "一般選抜A日程。スポーツ健康・情報デザインは35.0、法学部はBF（ボーダーフリー）。共テ利用の掲載なし"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "総合型",
+"name": "総合型選抜",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.hiu.ac.jp/examination_info/examination_about/"
 }
+]
+},
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "兄弟姉妹・子女入学金免除",
+"kind": "減免",
+"target": "全学部",
+"amount": "入学金全額相当額を免除",
+"timing": "入学時",
+"cond": "本学在学生・卒業生・入学予定者の兄弟姉妹または子女"
+}
+]
+},
+"_via": "external-ai"
 },
 "愛国学園大学": {
 "faculties": [
