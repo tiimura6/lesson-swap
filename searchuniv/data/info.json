@@ -40157,7 +40157,8 @@
 "https://passnavi.obunsha.co.jp/univ/0520/shinro/",
 "https://manabi.benesse.ne.jp/daigaku/school/1270/syusyoku/",
 "https://www.tut.ac.jp/exam/applications/docs/OpenCampus2026summer.pdf",
-"https://www.tut.ac.jp/exam/entrance/docs/R09saihen_yokoku.pdf"
+"https://www.tut.ac.jp/exam/entrance/docs/R09saihen_yokoku.pdf",
+"https://search.keinet.ne.jp/1245/general/exam_result"
 ],
 "kyotsu": {
 "kamoku": "6教科8科目（工学部学際共創課程前期）",
@@ -40242,7 +40243,7 @@
 "money": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
-"ratios": "2026-11-06",
+"ratios": "2026-11-25",
 "research": "2026-11-14",
 "careers": "2026-11-14",
 "scholar": "2026-11-19",
@@ -255611,7 +255612,9 @@ null
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-12"
+"schedule": "2026-11-12",
+"kyotsu": "2026-11-25",
+"difficulty": "2026-11-25"
 },
 "departments": [
 {
@@ -255731,7 +255734,9 @@ null
 "https://search.keinet.ne.jp/2292/outline/licential",
 "https://search.keinet.ne.jp/2292/outline/admission_employment",
 "https://search.keinet.ne.jp/2292/general/exam_result",
-"https://manabi.benesse.ne.jp/daigaku/school/3324/nyushi/gokaku-happyo/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3324/nyushi/gokaku-happyo/index.html",
+"https://search.keinet.ne.jp/2292/general/exam_subject",
+"https://search.keinet.ne.jp/2292/general/border_rate"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -255786,6 +255791,23 @@ null
 }
 ],
 "note": "ベネッセ マナビジョン（2027年度入試）。現代人間・表現・経済経営学部の全学科で同じ日程。検定料は未確認"
+},
+"kyotsu": {
+"kamoku": "2教科2科目",
+"kyoka": [
+2
+],
+"rl": [
+"1:1"
+],
+"rl_text": "全学科で英語 R50・L50（計100）",
+"note": "経済経営・表現・現代人間の全8学科・コースで共通テスト利用あり",
+"year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "BF〜40.0",
+"kyotei": "35%〜49%",
+"year": "2027年度入試用"
 }
 },
 "和洋女子大学": {
@@ -256050,7 +256072,8 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-12"
+"schedule": "2026-11-12",
+"kyotsu": "2026-11-25"
 },
 "faculties": [
 "経営経済学部"
@@ -256105,7 +256128,8 @@ null
 "https://search.keinet.ne.jp/2298/general/exam_result",
 "https://search.keinet.ne.jp/2298/general/border_rate",
 "https://search.keinet.ne.jp/2298/outline/admission_employment",
-"https://manabi.benesse.ne.jp/daigaku/school/3328/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3328/nyushi/index.html",
+"https://search.keinet.ne.jp/general/exam_subject/2298"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -256160,6 +256184,20 @@ null
 }
 ],
 "note": "ベネッセ マナビジョン（2027年度入試、経営経済学部）。検定料は未確認（併願割引・地元割の案内あり）"
+},
+"kyotsu": {
+"kamoku": "1〜3教科1〜3科目",
+"kyoka": [
+1,
+2,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はR・Lのどちらか選択（3科目型R50/L50、2科目型R75/L75、1科目型R150/L150）",
+"note": "経営経済学科の共テ利用（3科目型・2科目型・1科目型）",
+"year": "2027年度入試"
 }
 },
 "国士舘大学": {
@@ -256504,7 +256542,9 @@ null
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-12"
+"schedule": "2026-11-12",
+"kyotsu": "2026-11-25",
+"difficulty": "2026-11-25"
 },
 "departments": [
 {
@@ -256575,7 +256615,9 @@ null
 "https://search.keinet.ne.jp/2209/outline/licential",
 "https://search.keinet.ne.jp/2209/outline/admission_employment",
 "https://search.keinet.ne.jp/2209/general/exam_result",
-"https://manabi.benesse.ne.jp/daigaku/school/3241/nyushi/hoshiki/ippan/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3241/nyushi/hoshiki/ippan/index.html",
+"https://search.keinet.ne.jp/2209/general/exam_subject",
+"https://search.keinet.ne.jp/2209/general/border_rate"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -256598,6 +256640,23 @@ null
 }
 ],
 "note": "ベネッセ マナビジョン（2027年度入試）。共テ利用A日程は専修ごとに実技などの試験日が異なる（声楽・音楽教育・幼児音楽教育・電子オルガン2/16〜17、ピアノ・オルガン・弦管打楽器・ジャズ2/15〜16、作曲2/15〜17、音楽デザイン・音楽療法2/16、音楽情報2/17）。同じページにB日程と同じ日付の「一般 ニ日程」（音楽デザイン専修を除く、オンライン会場あり）もあるが方式の中身を確認できず載せない。検定料は記載なし"
+},
+"kyotsu": {
+"kamoku": "2教科2科目",
+"kyoka": [
+2
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語 R10・L10（計20、満点40）",
+"note": "音楽学部の各専修・コースで共通テスト利用あり",
+"year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "BF",
+"kyotei": "52%〜59%",
+"year": "2027年度入試用"
 }
 },
 "城西国際大学": {
@@ -256619,7 +256678,9 @@ null
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-12"
+"schedule": "2026-11-12",
+"kyotsu": "2026-11-25",
+"difficulty": "2026-11-25"
 },
 "departments": [
 {
@@ -256786,7 +256847,9 @@ null
 "https://search.keinet.ne.jp/2175/outline/admission_employment",
 "https://search.keinet.ne.jp/2175/general/exam_result",
 "https://www.yakuji.co.jp/?p=131776",
-"https://manabi.benesse.ne.jp/daigaku/school/3197/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3197/nyushi/",
+"https://search.keinet.ne.jp/2175/general/exam_subject",
+"https://search.keinet.ne.jp/2175/general/border_rate"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -256833,6 +256896,24 @@ null
 }
 ],
 "note": "ベネッセ マナビジョン（2027年度入試）で確認。学部共通の日程。健康科学部看護学科はA・B日程のみ（C日程なし）。Wエントリー選抜は健康科学部（福祉総合・理学療法）・経営情報・メディア・国際人文・観光学部。検定料は記載なし"
+},
+"kyotsu": {
+"kamoku": "2〜3教科2〜3科目",
+"kyoka": [
+2,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語 R50・L50（計100）",
+"note": "理学療法・看護は3教科3科目、他学科は2教科2科目",
+"year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "BF〜37.5",
+"kyotei": "47%〜61%",
+"year": "2027年度入試用"
 }
 },
 "国際武道大学": {
@@ -256849,7 +256930,10 @@ null
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-12"
+"schedule": "2026-11-12",
+"founded": "2026-11-25",
+"kyotsu": "2026-11-25",
+"difficulty": "2026-11-25"
 },
 "departments": [
 {
@@ -256906,7 +256990,10 @@ null
 "https://search.keinet.ne.jp/2173/outline/admission_employment",
 "https://search.keinet.ne.jp/2173/general/exam_result",
 "https://passnavi.obunsha.co.jp/univ/2130/top/",
-"https://manabi.benesse.ne.jp/daigaku/school/3195/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3195/nyushi/",
+"https://search.keinet.ne.jp/2173",
+"https://search.keinet.ne.jp/2173/general/exam_subject",
+"https://search.keinet.ne.jp/2173/general/border_rate"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -256945,6 +257032,25 @@ null
 }
 ],
 "note": "ベネッセ マナビジョン（2027年度入試）で確認。体育学部の体育学科・武道学科とも同じ日程。検定料は記載なし"
+},
+"founded": "1984年 開学",
+"kyotsu": {
+"kamoku": "1〜2教科1〜2科目",
+"kyoka": [
+1,
+2
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語 R50・L50（計100）",
+"note": "共通テスト方式は1〜2教科、共通テスト＋方式は2教科2科目",
+"year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "35.0〜37.5",
+"kyotei": "48%〜60%",
+"year": "2027年度入試用"
 }
 },
 "城西大学": {
@@ -256966,7 +257072,9 @@ null
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-12"
+"schedule": "2026-11-12",
+"kyotsu": "2026-11-25",
+"difficulty": "2026-11-25"
 },
 "departments": [
 {
@@ -257134,7 +257242,9 @@ null
 "https://search.keinet.ne.jp/2152/general/exam_result",
 "https://admission.josai.ac.jp/examination/schedule/bnittei2027/",
 "https://admission.josai.ac.jp/examination/schedule/cnittei2027/",
-"https://admission.josai.ac.jp/examination/schedule/index.html"
+"https://admission.josai.ac.jp/examination/schedule/index.html",
+"https://search.keinet.ne.jp/2152/general/exam_subject",
+"https://search.keinet.ne.jp/2152/general/border_rate"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -257161,6 +257271,26 @@ null
 }
 ],
 "note": "大学公式の日程ページ（2027年度）で確認。出願書類は郵送で締切日消印有効、Web出願登録は12/1から。B日程は経済・総合政策・経営・理・薬学部、C日程は経済・総合政策・経営・理（化学・生命科学科）・薬学部。経済・総合政策・経営の3学部は統一入試で最大3学部まで志願でき、検定料は一律35,000円。一般選抜A日程と共通テスト利用選抜（Ⅰ期前期・Ⅰ期後期・Ⅱ期・Ⅲ期）は未確認（次回）"
+},
+"kyotsu": {
+"kamoku": "1〜4教科2〜4科目",
+"kyoka": [
+1,
+2,
+3,
+4
+],
+"rl": [
+"4:1"
+],
+"rl_text": "総合政策・経済・経営の共テ利用は R80・L20（計100）。理・薬学部などはRのみの表示や記載なしの方式あり",
+"note": "学部・方式により教科数が異なる",
+"year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "35.0〜42.5",
+"kyotei": "41%〜54%",
+"year": "2027年度入試用"
 }
 },
 "埼玉医科大学": {
@@ -257179,7 +257309,9 @@ null
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-12"
+"schedule": "2026-11-12",
+"kyotsu": "2026-11-25",
+"difficulty": "2026-11-25"
 },
 "departments": [
 {
@@ -257263,7 +257395,9 @@ null
 "https://search.keinet.ne.jp/2150/general/exam_result",
 "https://adm.saitama-med.ac.jp/admission/general/",
 "https://adm.saitama-med.ac.jp/admission/common/",
-"https://manabi.benesse.ne.jp/daigaku/school/3148/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3148/nyushi/index.html",
+"https://search.keinet.ne.jp/2150/general/exam_subject",
+"https://search.keinet.ne.jp/2150/general/border_rate"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -257302,6 +257436,23 @@ null
 }
 ],
 "note": "医学部は大学公式（2027年度）で確認。1次合格発表は前期2/10・後期3/4・共テ利用3/4、出願書類は前期1/21・後期2/18・共テ利用1/16郵送必着。保健医療学部はベネッセ マナビジョン（2027年度入試）。保健医療学部の共テ利用の日程と検定料は未確認"
+},
+"kyotsu": {
+"kamoku": "4教科6科目",
+"kyoka": [
+4
+],
+"rl": [
+"3:1"
+],
+"rl_text": "医学科の共テ利用で英語150点（R:L=3:1）",
+"note": "共通テスト利用は医学部医学科のみ（募集10人）。保健医療学部は個別試験のみ",
+"year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "35.0〜62.5",
+"kyotei": "81%",
+"year": "2027年度入試用"
 }
 },
 "埼玉学園大学": {
@@ -257319,7 +257470,9 @@ null
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-12"
+"schedule": "2026-11-12",
+"kyotsu": "2026-11-25",
+"difficulty": "2026-11-25"
 },
 "departments": [
 {
@@ -257412,7 +257565,9 @@ null
 "https://search.keinet.ne.jp/2164/outline/licential",
 "https://search.keinet.ne.jp/2164/outline/admission_employment",
 "https://search.keinet.ne.jp/2164/general/exam_result",
-"https://manabi.benesse.ne.jp/daigaku/school/3164/nyushi/gokaku-happyo/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3164/nyushi/gokaku-happyo/index.html",
+"https://search.keinet.ne.jp/2164/general/exam_subject",
+"https://search.keinet.ne.jp/2164/general/border_rate"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -257508,6 +257663,24 @@ null
 }
 ],
 "note": "ベネッセ マナビジョン（2027年度入試）で確認。人間学部・経済経営学部で同じ日程。出願は郵送書類が必要。検定料は掲載なし（未確認）"
+},
+"kyotsu": {
+"kamoku": "1〜2教科1〜2科目",
+"kyoka": [
+1,
+2
+],
+"rl": [
+"1:1"
+],
+"rl_text": "Ⅰ・Ⅱ期 英語 R50・L50（計100）。Ⅲ期は国語のみ",
+"note": "Ⅰ・Ⅱ期は2教科2科目、Ⅲ期は1教科1科目",
+"year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "BF〜37.5",
+"kyotei": "41%〜46%",
+"year": "2027年度入試用"
 }
 },
 "埼玉工業大学": {
