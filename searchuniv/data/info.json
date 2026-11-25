@@ -14508,10 +14508,12 @@
 "y": {
 "2025": 2.6,
 "2026": 3.5
-}
+},
+"url": "https://ac.tsukuba.ac.jp/wp/wp-content/uploads/2026/04/R8_nyusikekka.pdf",
+"note": "2026年は大学公式（受験160÷合格46）、2025年は河合塾Kei-Net"
 }
 ],
-"note": "2026年（令和8年度）は大学公式「入試結果」（受験者÷合格者）で確認。2025年と情報科学は河合塾Kei-Netの一般選抜入試結果より"
+"note": "2026年（令和8年度）は大学公式「入試結果」（受験者÷合格者）で確認。2025年は河合塾Kei-Netの一般選抜入試結果より"
 },
 "research": [
 "哲学・史学・考古学・言語学、比較文化、日本語・日本文化（人文・文化学群）",
@@ -15643,12 +15645,6 @@
 "note": "ベネッセ マナビジョンの2027年度入試の表から作成（公式の個別学力検査の資料 R9_kobetu_sec-v2.pdf と Kei-Net は取得できず未照合）。英語は共テでリーディング160・リスニング40に換算（公式選抜要項）。比較文化学類の後期、医学類地域枠（茨城）の詳細、選択科目の組み合わせは未確認。表で科目別配点が合計と合わない学類は「表では」と書いた。n は共テの教科数。"
 },
 "_src": {
-"ratios": {
-"u": [
-"https://ac.tsukuba.ac.jp/wp/wp-content/uploads/2026/04/R8_nyusikekka.pdf"
-],
-"d": "2026-11-25"
-},
 "eng": {
 "u": [
 "https://ac.tsukuba.ac.jp/wp/wp-content/uploads/2026/07/R9_senbatu_sec.pdf"
@@ -15665,6 +15661,12 @@
 "u": [
 "https://www.tsukuba.ac.jp/campuslife/support-scholarship/scholarship-tsukuba",
 "https://www.tsukuba.ac.jp/campuslife/support-scholarship/"
+],
+"d": "2026-11-25"
+},
+"ratios": {
+"u": [
+"https://ac.tsukuba.ac.jp/wp/wp-content/uploads/2026/04/R8_nyusikekka.pdf"
 ],
 "d": "2026-11-25"
 }
@@ -260155,7 +260157,8 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-13",
+"kyotsu": "2026-11-25"
 },
 "faculties": [
 "子ども生活学部",
@@ -260251,7 +260254,8 @@ null
 "https://search.keinet.ne.jp/2126/outline/scholarship",
 "https://search.keinet.ne.jp/2126/general/exam_result",
 "https://search.keinet.ne.jp/2126/general/border_rate",
-"https://manabi.benesse.ne.jp/daigaku/school/3125/nyushi/gokaku-happyo/"
+"https://manabi.benesse.ne.jp/daigaku/school/3125/nyushi/gokaku-happyo/",
+"https://search.keinet.ne.jp/2126/general/exam_subject"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -260321,6 +260325,17 @@ null
 }
 ],
 "note": "シティライフ学部・子ども生活学部とも同じ日程（マナビジョン 2027年度入試）。ネット出願。総合型の出願期間と検定料は掲載なし"
+},
+"kyotsu": {
+"kamoku": "2教科2科目",
+"kyoka": [
+2,
+2
+],
+"rl": [],
+"rl_text": "英語のR:L配点比の記載なし",
+"note": "子ども生活学部・シティライフ学部の共通テスト利用。英語資格・検定試験は加点（15点）",
+"year": "2027年度入試"
 }
 },
 "実践女子大学": {
@@ -260338,7 +260353,8 @@ null
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "schedule": "2026-11-13",
-"money": "2026-11-14"
+"money": "2026-11-14",
+"careers": "2026-11-25"
 },
 "faculties": [
 "文学部",
@@ -260419,7 +260435,8 @@ null
 "https://search.keinet.ne.jp/2218/general/exam_result",
 "https://search.keinet.ne.jp/2218/general/border_rate",
 "https://manabi.benesse.ne.jp/daigaku/school/3250/nyushi/gokaku-happyo/",
-"https://search.keinet.ne.jp/2218/outline/expense"
+"https://search.keinet.ne.jp/2218/outline/expense",
+"https://search.keinet.ne.jp/2218/outline/admission_employment"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -260631,7 +260648,8 @@ null
 "note": "実習費の欄が空欄の学科は記載なし。カメラ・マイク付ノートパソコンが必要（Kei-Net 2026年度入学者用）"
 }
 ]
-}
+},
+"careers": "2024年度卒業者の進路で就職者の割合は文学部90.8%、人間社会学部96.7%、生活科学部92.1%（Kei-Net）。"
 },
 "尚美学園大学": {
 "faculties": [
@@ -260851,7 +260869,8 @@ null
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-13",
+"difficulty": "2026-11-25"
 },
 "departments": [
 {
@@ -261264,7 +261283,8 @@ null
 "https://search.keinet.ne.jp/2244/outline/admission_employment",
 "https://search.keinet.ne.jp/2244/general/exam_result",
 "https://search.keinet.ne.jp/2244/general/schedule",
-"https://telemail.jp/shingaku/university/10401439/examination/general"
+"https://telemail.jp/shingaku/university/10401439/examination/general",
+"https://search.keinet.ne.jp/2244/general/border_rate"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -261340,6 +261360,11 @@ null
 }
 ],
 "note": "Kei-Net の入試日程（学部別）。出願開始日はテレメール（福岡医療技術学部、2027年度入学）で、Kei-Net と締切・試験日・発表日が一致。検定料は掲載なし"
+},
+"difficulty": {
+"hensachi": "35.0〜65.0",
+"kyotei": "42%〜90%",
+"year": "2027年度入試用"
 }
 },
 "帝京平成大学": {
@@ -261362,7 +261387,8 @@ null
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-13",
+"difficulty": "2026-11-25"
 },
 "departments": [
 {
@@ -261730,7 +261756,8 @@ null
 "https://search.keinet.ne.jp/2182/outline/licential",
 "https://search.keinet.ne.jp/2182/outline/admission_employment",
 "https://search.keinet.ne.jp/2182/general/exam_result",
-"https://search.keinet.ne.jp/2182sp/general/schedule_sp"
+"https://search.keinet.ne.jp/2182sp/general/schedule_sp",
+"https://search.keinet.ne.jp/2182/general/border_rate"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -261791,6 +261818,11 @@ null
 }
 ],
 "note": "Kei-Net の入試日程（全6学部共通。ページに年度表記はなく、出願開始日と検定料は掲載なし）"
+},
+"difficulty": {
+"hensachi": "BF〜45.0",
+"kyotei": "37%〜62%",
+"year": "2027年度入試用"
 }
 },
 "帝京科学大学": {
@@ -261809,7 +261841,8 @@ null
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-13",
+"difficulty": "2026-11-25"
 },
 "departments": [
 {
@@ -262003,7 +262036,8 @@ null
 "https://search.keinet.ne.jp/2383/outline/licential",
 "https://search.keinet.ne.jp/2383/outline/admission_employment",
 "https://search.keinet.ne.jp/2383/general/exam_result",
-"https://manabi.benesse.ne.jp/daigaku/school/3451/nyushi/gokaku-happyo/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3451/nyushi/gokaku-happyo/index.html",
+"https://search.keinet.ne.jp/2383/general/border_rate"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -262082,6 +262116,11 @@ null
 }
 ],
 "note": "マナビジョン（2027年度入試）。併願制総合型は回が5回、発表・手続は3回分の掲載で対応はページに示されていない。検定料は未確認"
+},
+"difficulty": {
+"hensachi": "35.0〜50.0",
+"kyotei": "48%〜70%",
+"year": "2027年度入試用"
 }
 },
 "拓殖大学": {
@@ -262103,7 +262142,8 @@ null
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-13",
+"difficulty": "2026-11-25"
 },
 "departments": [
 {
@@ -262241,7 +262281,8 @@ null
 "https://search.keinet.ne.jp/2237/outline/admission_employment",
 "https://search.keinet.ne.jp/2237/outline/expense",
 "https://search.keinet.ne.jp/2237/general/exam_result",
-"https://manabi.benesse.ne.jp/daigaku/school/3271/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3271/nyushi/index.html",
+"https://search.keinet.ne.jp/2237sp/general/border_rate_sp"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -262347,6 +262388,11 @@ null
 }
 ],
 "note": "マナビジョン（2027年度入試、全学部共通）。推薦の日程は掲載なし。検定料は未確認"
+},
+"difficulty": {
+"hensachi": "35.0〜42.5",
+"kyotei": "45%〜64%",
+"year": "2027年度入試用"
 }
 },
 "平成国際大学": {

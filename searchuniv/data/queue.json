@@ -19807,6 +19807,74 @@
 "kyotsu"
 ],
 "keinet": "2227"
+},
+{
+"name": "宇都宮共和大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"careers",
+"kyotsu"
+],
+"keinet": "2126"
+},
+{
+"name": "実践女子大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"careers",
+"kyotsu"
+],
+"keinet": "2218"
+},
+{
+"name": "帝京大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2244"
+},
+{
+"name": "帝京平成大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2182"
+},
+{
+"name": "帝京科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2383"
+},
+{
+"name": "拓殖大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2237"
 }
 ],
 "failed": [],
@@ -20083,99 +20151,11 @@
 "岩手保健医療大学": 1,
 "岩手医科大学": 1,
 "北洋大学": 1,
-"横浜商科大学": 1
+"横浜商科大学": 1,
+"尚美学園大学": 1,
+"平成国際大学": 1
 },
 "enrich": [
-{
-"name": "宇都宮共和大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"careers",
-"kyotsu"
-],
-"keinet": "2126"
-},
-{
-"name": "実践女子大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students",
-"careers",
-"kyotsu"
-],
-"keinet": "2218"
-},
-{
-"name": "尚美学園大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu",
-"difficulty"
-],
-"keinet": "2165"
-},
-{
-"name": "帝京大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu",
-"difficulty"
-],
-"keinet": "2244"
-},
-{
-"name": "帝京平成大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu",
-"difficulty"
-],
-"keinet": "2182"
-},
-{
-"name": "帝京科学大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students",
-"kyotsu",
-"difficulty"
-],
-"keinet": "2383"
-},
-{
-"name": "拓殖大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu",
-"difficulty"
-],
-"keinet": "2237"
-},
-{
-"name": "平成国際大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu",
-"difficulty"
-],
-"keinet": "2162"
-},
 {
 "name": "愛国学園大学",
 "need": [
@@ -36182,6 +36162,34 @@
 "fails": 1,
 "last_fail": "2026-11-20",
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
+},
+{
+"name": "尚美学園大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2165",
+"fails": 1,
+"last_fail": "2026-11-25",
+"note": "2026-11-25 Kei-Net の exam_subject・border_rate ページをWebFetchで開けず（権限確認が応答されず。検索結果に該当URLが出なかった）"
+},
+{
+"name": "平成国際大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2162",
+"fails": 1,
+"last_fail": "2026-11-25",
+"note": "2026-11-25 Kei-Net の exam_subject・border_rate ページをWebFetchで開けず（権限確認が応答されず。検索結果に該当URLが出なかった）"
 },
 {
 "name": "島根大学",
