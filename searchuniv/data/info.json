@@ -43764,7 +43764,12 @@
 "https://www.sophia.ac.jp/jpn/admissions-and-aid/degree/",
 "https://adm.sophia.ac.jp/jpn/gakubu_ippan_ad/date/",
 "https://passnavi.obunsha.co.jp/univ/2470/scholarship/",
-"https://adm.sophia.ac.jp/jpn/event_ad/"
+"https://adm.sophia.ac.jp/jpn/event_ad/",
+"https://adm.sophia.ac.jp/jpn/gakubu_ippan_ad/ippan_toukei/toukei2026/",
+"https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/2026_toukei_ippan_teap.pdf",
+"https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/07/2027kobosuisen_application_proc.pdf",
+"https://adm.sophia.ac.jp/jpn/gakubu_tokubetsu_ad/koubo/",
+"https://adm.sophia.ac.jp/jpn/gakubu_ippan_ad/ippan_toukei/"
 ],
 "kyotsu": {
 "kamoku": "3教科3科目（併用方式・3教科型）〜4教科4科目（4教科型）",
@@ -43814,10 +43819,11 @@
 {
 "kubun": "推薦",
 "name": "推薦入試（公募制）",
-"content": "書類（自己推薦書・推薦状・学科指定のレポート等）＋学科試問（小論文など）＋面接",
-"req": "第一志望（入学確約）。学科ごとに評定基準と英語資格基準（例 英検2級CSE2150以上）、必履修科目あり",
+"content": "書類審査（調査書・自己推薦書・学科指定のレポート等特定課題）＋学科試問＋面接で総合判定",
+"req": "本学を第一志望とし入学を確約できる者。高校長の推薦状が必要。学科ごとに学習成績の状況の基準・外国語検定試験の基準（例 英検2級でCSE2150以上）・必履修科目あり。1学科のみ出願可。2027年3月卒業見込み（一部例外あり）",
 "kyotsu": "課さない",
-"note": "国際教養などは英語面接。1学科のみ出願可"
+"note": "2027年度：Web出願11/1〜11/5、学科試問・面接11/28、合格発表12/10。指定校制との併願不可。IB枠あり",
+"url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/07/2027kobosuisen_application_proc.pdf"
 },
 {
 "kubun": "推薦",
@@ -43825,11 +43831,12 @@
 "content": "在籍高校経由（詳細は高校に届く要項）",
 "req": "",
 "kyotsu": "課さない",
-"note": "公募制との併願不可"
+"note": "公募制との併願不可（公募制の2027年度要項に記載）",
+"url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/07/2027kobosuisen_application_proc.pdf"
 }
 ],
-"summary": "一般は共テ併用方式とTEAP利用方式、共テ利用方式の3本立て。公募推薦は第一志望で評定・英語資格の基準あり。",
-"note": "総合型選抜はKei-Net・公式とも今回確認できず未記載。"
+"summary": "一般は共テ併用方式とTEAP利用方式、共テ利用方式の3本立て。公募推薦は第一志望・学校長推薦で、学科ごとに評定・英語資格の基準あり。",
+"note": "総合型選抜は、上智大学公式の2027年度入試の資料（推薦入学試験（公募制）要項）に記載がなく、今回は確認できなかったため未記載。公募制推薦は学校長の推薦状が必要な第一志望制の推薦入試。一般選抜・共通テスト利用方式の行は2027年度の公式要項では未確認（Kei-Net等による）。"
 },
 "departments": [
 {
@@ -44581,14 +44588,15 @@
 "money": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
-"ratios": "2026-11-06",
+"ratios": "2026-11-25",
 "qtrend": "2026-11-07",
 "_via": "2026-11-07",
 "licenses": "2026-11-14",
 "careers": "2026-11-14",
 "research": "2026-11-15",
 "scholar": "2026-11-19",
-"oc": "2026-11-25"
+"oc": "2026-11-25",
+"methods": "2026-11-25"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -45316,7 +45324,7 @@
 "note": "総合型の英語外部試験利用はパスナビの表に掲載なし"
 },
 "ratios": {
-"kind": "実質倍率（受験者÷合格者。受験者未判明時は志願者÷合格者）",
+"kind": "実質倍率（受験者÷合格者。上智公式の「競争率」＝第一次受験者数÷（最終合格者数＋補欠入学許可者数））",
 "rows": [
 {
 "kubun": "一般",
@@ -45344,11 +45352,11 @@
 },
 {
 "kubun": "一般",
-"unit": "文学部 哲学科 TEAP利用",
+"unit": "TEAPスコア利用方式 全学部計",
 "y": {
-"2025": 3.2,
-"2026": 3.7
-}
+"2026": 3.5
+},
+"url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/2026_toukei_ippan_teap.pdf"
 },
 {
 "kubun": "一般",
@@ -45356,15 +45364,17 @@
 "y": {
 "2025": 3.1,
 "2026": 3.6
-}
+},
+"url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/2026_toukei_ippan_teap.pdf"
 },
 {
 "kubun": "一般",
-"unit": "外国語学部 英語学科 TEAP利用",
+"unit": "文学部 哲学科 TEAP利用",
 "y": {
-"2025": 4.1,
-"2026": 2.7
-}
+"2025": 3.2,
+"2026": 3.7
+},
+"url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/2026_toukei_ippan_teap.pdf"
 },
 {
 "kubun": "一般",
@@ -45372,15 +45382,8 @@
 "y": {
 "2025": 3.8,
 "2026": 5.7
-}
 },
-{
-"kubun": "一般",
-"unit": "総合グローバル学部 TEAP利用",
-"y": {
-"2025": 4.0,
-"2026": 4.2
-}
+"url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/2026_toukei_ippan_teap.pdf"
 },
 {
 "kubun": "一般",
@@ -45388,7 +45391,8 @@
 "y": {
 "2025": 3.4,
 "2026": 3.7
-}
+},
+"url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/2026_toukei_ippan_teap.pdf"
 },
 {
 "kubun": "一般",
@@ -45396,7 +45400,26 @@
 "y": {
 "2025": 2.1,
 "2026": 2.9
-}
+},
+"url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/2026_toukei_ippan_teap.pdf"
+},
+{
+"kubun": "一般",
+"unit": "外国語学部 英語学科 TEAP利用",
+"y": {
+"2025": 4.1,
+"2026": 2.7
+},
+"url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/2026_toukei_ippan_teap.pdf"
+},
+{
+"kubun": "一般",
+"unit": "総合グローバル学部 TEAP利用",
+"y": {
+"2025": 4.0,
+"2026": 4.2
+},
+"url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/2026_toukei_ippan_teap.pdf"
 },
 {
 "kubun": "一般",
@@ -45404,10 +45427,11 @@
 "y": {
 "2025": 1.7,
 "2026": 3.0
-}
+},
+"url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/2026_toukei_ippan_teap.pdf"
 }
 ],
-"note": "河合塾Kei-Net掲載値（2025・2026年度入試）。学部行はKei-Netに学部計が無いため各学部の代表学科・TEAP利用方式の行"
+"note": "2026年度のTEAPスコア利用方式の行は上智大学公式「2026年度 一般選抜入試統計」で確認（Kei-Net掲載値と一致）。2025年度の値と、大学計・一般方式計・共通テスト利用方式計の行は河合塾Kei-Net掲載値（公式では未確認）。学部行は各学部の代表学科・TEAP利用方式。"
 },
 "qtrend": {
 "years": "2021〜2026年度",
@@ -45611,6 +45635,19 @@
 "oc": {
 "u": [
 "https://adm.sophia.ac.jp/jpn/event_ad/"
+],
+"d": "2026-11-25"
+},
+"ratios": {
+"u": [
+"https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/2026_toukei_ippan_teap.pdf",
+"https://adm.sophia.ac.jp/jpn/gakubu_ippan_ad/ippan_toukei/toukei2026/"
+],
+"d": "2026-11-25"
+},
+"methods": {
+"u": [
+"https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/07/2027kobosuisen_application_proc.pdf"
 ],
 "d": "2026-11-25"
 }
@@ -273152,7 +273189,8 @@ null
 "money": "2026-11-10",
 "research": "2026-11-10",
 "licenses": "2026-11-10",
-"schedule": "2026-11-14"
+"schedule": "2026-11-14",
+"kyotsu": "2026-11-25"
 },
 "faculties": [
 "経済学部",
@@ -273298,7 +273336,8 @@ null
 "https://search.keinet.ne.jp/2250/general/border_rate",
 "https://search.keinet.ne.jp/2250/general/exam_result",
 "https://manabi.benesse.ne.jp/daigaku/school/3283/nyushi/hoshiki/ippan/",
-"https://search.keinet.ne.jp/2250/general/schedule"
+"https://search.keinet.ne.jp/2250/general/schedule",
+"https://search.keinet.ne.jp/2250/general/exam_subject"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -273359,6 +273398,19 @@ null
 "fee": null
 }
 ]
+},
+"kyotsu": {
+"kamoku": "2教科2科目〜4教科4科目（方式による）",
+"kyoka": [
+2,
+4
+],
+"rl": [
+"3:1"
+],
+"rl_text": "英語はリーディング150点・リスニング50点（計200点）",
+"note": "全学部・学科共通で4方式。前期3教科型・後期3教科型＝英・国必須＋数・理・地歴公民から1（600点）、前期2教科型＝英必須＋国・数・理・地歴公民から1（400点）、中期4科目型＝英・国必須＋数・理・地歴公民・情報Ⅰから2（800点）。英語資格・検定は換算あり。",
+"year": "2027年度入試"
 }
 },
 "東京聖栄大学": {
@@ -273380,7 +273432,8 @@ null
 "research": "2026-11-10",
 "licenses": "2026-11-10",
 "careers": "2026-11-10",
-"schedule": "2026-11-14"
+"schedule": "2026-11-14",
+"kyotsu": "2026-11-25"
 },
 "faculties": [
 "健康栄養学部"
@@ -273475,7 +273528,8 @@ null
 "https://search.keinet.ne.jp/2300/outline/admission_employment",
 "https://search.keinet.ne.jp/2300/general/border_rate",
 "https://search.keinet.ne.jp/2300/general/exam_result",
-"https://manabi.benesse.ne.jp/daigaku/school/3334/nyushi/gokaku-happyo/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3334/nyushi/gokaku-happyo/index.html",
+"https://search.keinet.ne.jp/2300/general/exam_subject"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -273599,6 +273653,17 @@ null
 "fee": null
 }
 ]
+},
+"kyotsu": {
+"kamoku": "1教科1科目〜2教科2科目（期による）",
+"kyoka": [
+1,
+2
+],
+"rl": [],
+"rl_text": "英語100点（リーディング・リスニングの配点内訳は記載なし）",
+"note": "健康栄養学部（管理栄養学科・食品学科）。1期－共テ＝英・数・国（現代の国語）・理から2科目（各100点、満点200）、2・3・4期－共テ＝同4教科から1科目（満点100）。",
+"year": "2027年度入試"
 }
 },
 "東京薬科大学": {
@@ -273619,7 +273684,8 @@ null
 "research": "2026-11-10",
 "licenses": "2026-11-10",
 "careers": "2026-11-10",
-"schedule": "2026-11-14"
+"schedule": "2026-11-14",
+"kyotsu": "2026-11-25"
 },
 "faculties": [
 "薬学部",
@@ -273703,7 +273769,8 @@ null
 "https://search.keinet.ne.jp/2261/outline/admission_employment",
 "https://search.keinet.ne.jp/2261/general/border_rate",
 "https://search.keinet.ne.jp/2261/general/exam_result",
-"https://manabi.benesse.ne.jp/daigaku/school/3293/nyushi/gokaku-happyo/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3293/nyushi/gokaku-happyo/index.html",
+"https://search.keinet.ne.jp/2261/general/exam_subject"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -273836,6 +273903,19 @@ null
 "fee": null
 }
 ]
+},
+"kyotsu": {
+"kamoku": "2教科2科目〜3教科4科目（方式による）",
+"kyoka": [
+2,
+3
+],
+"rl": [
+"4:1"
+],
+"rl_text": "英語はリーディング160点・リスニング40点（計200点。Ⅱ期は英語なし）",
+"note": "A方式Ⅰ期－共テ：薬学部＝英・数（ⅠA・ⅡBC必須）・理（物化生から1）の3教科4科目600点、生命科学部＝英・数・国・情から選択＋理科の3教科600点。A方式Ⅱ期－共テ：全学科とも数1科目（100）＋理1科目（200）の300点。",
+"year": "2027年度入試"
 }
 },
 "東京造形大学": {
@@ -273856,7 +273936,8 @@ null
 "research": "2026-11-10",
 "licenses": "2026-11-10",
 "careers": "2026-11-10",
-"schedule": "2026-11-14"
+"schedule": "2026-11-14",
+"kyotsu": "2026-11-25"
 },
 "faculties": [
 "造形学部"
@@ -273927,7 +274008,8 @@ null
 "https://search.keinet.ne.jp/2258/outline/admission_employment",
 "https://search.keinet.ne.jp/2258/general/border_rate",
 "https://search.keinet.ne.jp/2258/general/exam_result",
-"https://manabi.benesse.ne.jp/daigaku/school/3290/nyushi/hoshiki/ippan/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3290/nyushi/hoshiki/ippan/index.html",
+"https://search.keinet.ne.jp/2258/general/exam_subject"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -273979,6 +274061,17 @@ null
 "fee": null
 }
 ]
+},
+"kyotsu": {
+"kamoku": "2教科2科目",
+"kyoka": [
+2,
+2
+],
+"rl": [],
+"rl_text": "英語100点（リーディング・リスニングの配点内訳は記載なし）",
+"note": "造形学部の各学科（A・B・C方式の共テ区分）。英・数・国・理・地歴公民・情報Ⅰから2教科を選択（各100点、満点200）。",
+"year": "2027年度入試"
 }
 },
 "東京音楽大学": {
@@ -273999,7 +274092,8 @@ null
 "research": "2026-11-10",
 "licenses": "2026-11-10",
 "careers": "2026-11-10",
-"schedule": "2026-11-14"
+"schedule": "2026-11-14",
+"kyotsu": "2026-11-25"
 },
 "faculties": [
 "音楽学部"
@@ -274089,7 +274183,8 @@ null
 "https://search.keinet.ne.jp/2247/outline/admission_employment",
 "https://search.keinet.ne.jp/2247/general/border_rate",
 "https://search.keinet.ne.jp/2247/general/exam_result",
-"https://manabi.benesse.ne.jp/daigaku/school/3280/nyushi/gokaku-happyo/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3280/nyushi/gokaku-happyo/index.html",
+"https://search.keinet.ne.jp/2247/general/exam_subject"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -274132,6 +274227,19 @@ null
 "fee": null
 }
 ]
+},
+"kyotsu": {
+"kamoku": "1教科1科目",
+"kyoka": [
+1,
+1
+],
+"rl": [
+"1:1"
+],
+"rl_text": "英語はリーディング25点・リスニング25点（音楽文化教育・ミュージック・リベラルアーツ・ミュージックビジネス・テクノロジーは各50点）",
+"note": "音楽学部のA日程－共テ（ミュージックビジネス・テクノロジーはAB日程－共テ）。多くの専攻は英語のみ必須、ミュージックビジネス・テクノロジーは英・数・国・理・地歴公民・情報Ⅰから1教科（100点）。",
+"year": "2027年度入試"
 }
 },
 "東洋学園大学": {

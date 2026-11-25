@@ -1,0 +1,311 @@
+[
+ {
+  "name": "東京経済大学",
+  "info": {
+   "kyotsu": {
+    "kamoku": "2教科2科目〜4教科4科目（方式による）",
+    "kyoka": [
+     2,
+     4
+    ],
+    "rl": [
+     "3:1"
+    ],
+    "rl_text": "英語はリーディング150点・リスニング50点（計200点）",
+    "note": "全学部・学科共通で4方式。前期3教科型・後期3教科型＝英・国必須＋数・理・地歴公民から1（600点）、前期2教科型＝英必須＋国・数・理・地歴公民から1（400点）、中期4科目型＝英・国必須＋数・理・地歴公民・情報Ⅰから2（800点）。英語資格・検定は換算あり。",
+    "year": "2027年度入試"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2250/general/exam_subject"
+   ]
+  }
+ },
+ {
+  "name": "東京聖栄大学",
+  "info": {
+   "kyotsu": {
+    "kamoku": "1教科1科目〜2教科2科目（期による）",
+    "kyoka": [
+     1,
+     2
+    ],
+    "rl": [],
+    "rl_text": "英語100点（リーディング・リスニングの配点内訳は記載なし）",
+    "note": "健康栄養学部（管理栄養学科・食品学科）。1期－共テ＝英・数・国（現代の国語）・理から2科目（各100点、満点200）、2・3・4期－共テ＝同4教科から1科目（満点100）。",
+    "year": "2027年度入試"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2300/general/exam_subject"
+   ]
+  }
+ },
+ {
+  "name": "東京薬科大学",
+  "info": {
+   "kyotsu": {
+    "kamoku": "2教科2科目〜3教科4科目（方式による）",
+    "kyoka": [
+     2,
+     3
+    ],
+    "rl": [
+     "4:1"
+    ],
+    "rl_text": "英語はリーディング160点・リスニング40点（計200点。Ⅱ期は英語なし）",
+    "note": "A方式Ⅰ期－共テ：薬学部＝英・数（ⅠA・ⅡBC必須）・理（物化生から1）の3教科4科目600点、生命科学部＝英・数・国・情から選択＋理科の3教科600点。A方式Ⅱ期－共テ：全学科とも数1科目（100）＋理1科目（200）の300点。",
+    "year": "2027年度入試"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2261/general/exam_subject"
+   ]
+  }
+ },
+ {
+  "name": "東京造形大学",
+  "info": {
+   "kyotsu": {
+    "kamoku": "2教科2科目",
+    "kyoka": [
+     2,
+     2
+    ],
+    "rl": [],
+    "rl_text": "英語100点（リーディング・リスニングの配点内訳は記載なし）",
+    "note": "造形学部の各学科（A・B・C方式の共テ区分）。英・数・国・理・地歴公民・情報Ⅰから2教科を選択（各100点、満点200）。",
+    "year": "2027年度入試"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2258/general/exam_subject"
+   ]
+  }
+ },
+ {
+  "name": "東京音楽大学",
+  "info": {
+   "kyotsu": {
+    "kamoku": "1教科1科目",
+    "kyoka": [
+     1,
+     1
+    ],
+    "rl": [
+     "1:1"
+    ],
+    "rl_text": "英語はリーディング25点・リスニング25点（音楽文化教育・ミュージック・リベラルアーツ・ミュージックビジネス・テクノロジーは各50点）",
+    "note": "音楽学部のA日程－共テ（ミュージックビジネス・テクノロジーはAB日程－共テ）。多くの専攻は英語のみ必須、ミュージックビジネス・テクノロジーは英・数・国・理・地歴公民・情報Ⅰから1教科（100点）。",
+    "year": "2027年度入試"
+   },
+   "sources": [
+    "https://search.keinet.ne.jp/2247/general/exam_subject"
+   ]
+  }
+ },
+ {
+  "name": "上智大学",
+  "info": {
+   "ratios_replace": {
+    "kind": "実質倍率（受験者÷合格者。上智公式の「競争率」＝第一次受験者数÷（最終合格者数＋補欠入学許可者数））",
+    "rows": [
+     {
+      "kubun": "一般",
+      "unit": "大学計（一般方式＋共通テスト利用方式）",
+      "y": {
+       "2025": 3.3,
+       "2026": 3.7
+      }
+     },
+     {
+      "kubun": "一般",
+      "unit": "一般方式計",
+      "y": {
+       "2025": 3.4,
+       "2026": 3.5
+      }
+     },
+     {
+      "kubun": "共テ利用",
+      "unit": "共通テスト利用方式計",
+      "y": {
+       "2025": 3.3,
+       "2026": 3.8
+      }
+     },
+     {
+      "kubun": "一般",
+      "unit": "TEAPスコア利用方式 全学部計",
+      "y": {
+       "2026": 3.5
+      },
+      "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/2026_toukei_ippan_teap.pdf"
+     },
+     {
+      "kubun": "一般",
+      "unit": "神学部 TEAP利用",
+      "y": {
+       "2025": 3.1,
+       "2026": 3.6
+      },
+      "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/2026_toukei_ippan_teap.pdf"
+     },
+     {
+      "kubun": "一般",
+      "unit": "文学部 哲学科 TEAP利用",
+      "y": {
+       "2025": 3.2,
+       "2026": 3.7
+      },
+      "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/2026_toukei_ippan_teap.pdf"
+     },
+     {
+      "kubun": "一般",
+      "unit": "総合人間科学部 教育学科 TEAP利用",
+      "y": {
+       "2025": 3.8,
+       "2026": 5.7
+      },
+      "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/2026_toukei_ippan_teap.pdf"
+     },
+     {
+      "kubun": "一般",
+      "unit": "法学部 法律学科 TEAP利用",
+      "y": {
+       "2025": 3.4,
+       "2026": 3.7
+      },
+      "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/2026_toukei_ippan_teap.pdf"
+     },
+     {
+      "kubun": "一般",
+      "unit": "経済学部 経済学科 TEAP文系",
+      "y": {
+       "2025": 2.1,
+       "2026": 2.9
+      },
+      "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/2026_toukei_ippan_teap.pdf"
+     },
+     {
+      "kubun": "一般",
+      "unit": "外国語学部 英語学科 TEAP利用",
+      "y": {
+       "2025": 4.1,
+       "2026": 2.7
+      },
+      "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/2026_toukei_ippan_teap.pdf"
+     },
+     {
+      "kubun": "一般",
+      "unit": "総合グローバル学部 TEAP利用",
+      "y": {
+       "2025": 4.0,
+       "2026": 4.2
+      },
+      "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/2026_toukei_ippan_teap.pdf"
+     },
+     {
+      "kubun": "一般",
+      "unit": "理工学部 物質生命理工学科 TEAP利用",
+      "y": {
+       "2025": 1.7,
+       "2026": 3.0
+      },
+      "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/2026_toukei_ippan_teap.pdf"
+     }
+    ],
+    "note": "2026年度のTEAPスコア利用方式の行は上智大学公式「2026年度 一般選抜入試統計」で確認（Kei-Net掲載値と一致）。2025年度の値と、大学計・一般方式計・共通テスト利用方式計の行は河合塾Kei-Net掲載値（公式では未確認）。学部行は各学部の代表学科・TEAP利用方式。"
+   },
+   "methods_add": {
+    "list": [
+     {
+      "kubun": "推薦",
+      "name": "推薦入試（公募制）",
+      "content": "書類審査（調査書・自己推薦書・学科指定のレポート等特定課題）＋学科試問＋面接で総合判定",
+      "req": "本学を第一志望とし入学を確約できる者。高校長の推薦状が必要。学科ごとに学習成績の状況の基準・外国語検定試験の基準（例 英検2級でCSE2150以上）・必履修科目あり。1学科のみ出願可。2027年3月卒業見込み（一部例外あり）",
+      "kyotsu": "課さない",
+      "note": "2027年度：Web出願11/1〜11/5、学科試問・面接11/28、合格発表12/10。指定校制との併願不可。IB枠あり",
+      "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/07/2027kobosuisen_application_proc.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "推薦入試（指定校制）",
+      "content": "在籍高校経由（詳細は高校に届く要項）",
+      "req": "",
+      "kyotsu": "課さない",
+      "note": "公募制との併願不可（公募制の2027年度要項に記載）",
+      "url": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/07/2027kobosuisen_application_proc.pdf"
+     }
+    ],
+    "note": "総合型選抜は、上智大学公式の2027年度入試の資料（推薦入学試験（公募制）要項）に記載がなく、今回は確認できなかったため未記載。公募制推薦は学校長の推薦状が必要な第一志望制の推薦入試。一般選抜・共通テスト利用方式の行は2027年度の公式要項では未確認（Kei-Net等による）。",
+    "summary": "一般は共テ併用方式とTEAP利用方式、共テ利用方式の3本立て。公募推薦は第一志望・学校長推薦で、学科ごとに評定・英語資格の基準あり。"
+   },
+   "_src": {
+    "ratios": [
+     "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/2026_toukei_ippan_teap.pdf",
+     "https://adm.sophia.ac.jp/jpn/gakubu_ippan_ad/ippan_toukei/toukei2026/"
+    ],
+    "methods": [
+     "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/07/2027kobosuisen_application_proc.pdf"
+    ]
+   },
+   "sources": [
+    "https://adm.sophia.ac.jp/jpn/gakubu_ippan_ad/ippan_toukei/toukei2026/",
+    "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/2026_toukei_ippan_teap.pdf",
+    "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/07/2027kobosuisen_application_proc.pdf",
+    "https://adm.sophia.ac.jp/jpn/gakubu_tokubetsu_ad/koubo/",
+    "https://adm.sophia.ac.jp/jpn/gakubu_ippan_ad/ippan_toukei/"
+   ]
+  }
+ },
+ {
+  "name": "ビューティ＆ウェルネス専門職大学",
+  "story": {
+   "summary": "横浜市都筑区にある、美と健康を科学的・総合的に学ぶ4年制の専門職大学です。実践力・即戦力を重視する専門職大学の仕組みで、4年間に約600時間以上の臨地実務実習をエステサロン・美容室・ヨガスタジオなどの現場で行います。美容師やセラピストをめざし、大学で学位を取りながら現場経験も積みたい人に話せる大学です。",
+   "only": [
+    {
+     "t": "「美と健康を科学的・総合的に学べる日本初の4年制専門職大学」とされている。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3387/index.html"
+    },
+    {
+     "t": "4年間で約600時間（20単位）以上の臨地実務実習を、業界と連携したエステサロン・美容室・ヨガスタジオなどで行う。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3387/index.html"
+    }
+   ],
+   "vs": []
+  }
+ },
+ {
+  "name": "ヤマザキ動物看護大学",
+  "story": {
+   "summary": "日本初の「動物看護学部」を置く大学で、動物看護学科・動物人間関係学科の2学科とも愛玩動物看護師の国家試験受験に対応したカリキュラムです。1年次4月から実習が始まり、キャンパス内の救急センターでの動物病院実習や、一般家庭から登録された約3500頭超のモデル犬を使った実習があります。動物看護を中心に学びたい人には、東京都八王子市の南大沢キャンパスで学ぶこの大学を、帝京科学大学の幅広い動物系コースと比べて話せます。",
+   "only": [
+    {
+     "t": "日本初の「動物看護学部」を置き、動物看護学科・動物人間関係学科の2学科とも国家資格「愛玩動物看護師」の受験に対応したカリキュラムを編成している。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3341/"
+    },
+    {
+     "t": "キャンパス内に高度動物医療を提供する救急センターがあり、動物病院実習の受入先になっている。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3341/"
+    },
+    {
+     "t": "一般家庭から登録された約3500頭超のモデル犬で、小型犬から大型犬まで犬種や性格に応じた知識と技術を学ぶ。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3341/"
+    },
+    {
+     "t": "1年次4月から動物内科看護学実習やコンパニオンアニマルケア（グルーミング基礎）実習が始まる。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3341/"
+    }
+   ],
+   "vs": [
+    {
+     "u": "帝京科学大学",
+     "t": "帝京科学大学のアニマルサイエンス学科は動物看護福祉・動物看護科学・アニマルサイエンス・アニマルセラピー・野生動物の5コースで動物園・水族館や野生動物まで幅広く学べるが、ヤマザキ動物看護大学は学部全体が動物看護学部で、2学科とも愛玩動物看護師の受験に対応している。",
+     "src": "https://search.keinet.ne.jp/2383/topics/17"
+    },
+    {
+     "u": "帝京科学大学",
+     "t": "帝京科学大学のアニマルサイエンス学科は自然に恵まれた東京西キャンパスで野外のフィールドワークの機会が多いが、ヤマザキ動物看護大学は八王子市の南大沢キャンパスで、動物看護の実習を中心に学ぶ。",
+     "src": "https://search.keinet.ne.jp/2383/topics/17"
+    }
+   ]
+  }
+ }
+]
