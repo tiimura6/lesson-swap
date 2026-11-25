@@ -1,0 +1,712 @@
+[
+ {
+  "name": "千葉科学大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "千葉県銚子市",
+  "pref_name": "千葉県",
+  "city": "銚子市",
+  "hp": "https://www.cis.ac.jp/",
+  "reading": "ちばかがくだいがく",
+  "features": [
+   "薬学・危機管理・看護の3学部を擁し、安全や医療の専門職を育成。",
+   "航空技術危機管理学科ではパイロットやドローンなど航空分野を学べる。",
+   "2027年度入試から総合型選抜（スポーツ型）や特別修学支援制度を展開。"
+  ],
+  "memo": "パイロットコースは学費以外に約1,900万円の訓練費が別途必要。特別修学支援制度の条件確認も推奨。",
+  "info": {
+   "faculties": [
+    "薬学部",
+    "危機管理学部",
+    "看護学部"
+   ],
+   "departments": [
+    {
+     "f": "薬学部",
+     "d": [
+      "薬学科（6年制）"
+     ]
+    },
+    {
+     "f": "危機管理学部",
+     "d": [
+      "危機管理学科",
+      "保健医療学科",
+      "航空技術危機管理学科 航空工学・ドローンコース",
+      "航空技術危機管理学科 航空マネジメントコース",
+      "航空技術危機管理学科 パイロットコース",
+      "動物危機管理学科"
+     ]
+    },
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜50.0",
+    "kyotei": "36%〜67%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": [],
+    "note": "パイロットコースは共通テスト利用でも操縦適性検査・面接を課す"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（Ⅰ〜Ⅳ期・スポーツ型）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "スポーツ型は事前競技能力確認を実施（Ⅰ〜Ⅲ期）",
+      "req": null,
+      "url": "https://www.cis.ac.jp/ciswp/wp-content/uploads/2026/09/2027honyoko-1.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（前期・後期）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.cis.ac.jp/admission/info/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試（前期）",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": "パイロットコースは操縦適性検査・面接あり",
+      "url": "https://www.cis.ac.jp/admission/info/"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅰ期（スポーツ型含む）",
+      "apply": "9/30〜10/8",
+      "exam": "10/24",
+      "result": "11/2",
+      "proc": "11/19",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅱ期（スポーツ型含む）",
+      "apply": "11/2〜11/10",
+      "exam": "11/21",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 Ⅲ期（スポーツ型含む）",
+      "apply": "11/23〜12/2",
+      "exam": "12/13",
+      "result": "12/25",
+      "proc": "1/21",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期",
+      "apply": "1/4〜1/25",
+      "exam": "2/6",
+      "result": null,
+      "proc": "2/26",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期",
+      "apply": "2/24〜3/8",
+      "exam": "3/15",
+      "result": "3/19",
+      "proc": "3/25",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試 前期",
+      "apply": "1/4〜1/25",
+      "exam": "個別なし（パイロットは2/5〜2/7）",
+      "result": "2/17",
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "特別修学支援制度",
+      "kind": "減免",
+      "target": "全学部",
+      "amount": "卒業までの年間学費（授業料・実験実習費・施設設備費）を国公立大と同等水準の年額535,800円に軽減",
+      "timing": "入試時",
+      "cond": "大学の定める基準を満たす者"
+     },
+     {
+      "name": "入試特待生制度",
+      "kind": "減免",
+      "target": "全学部",
+      "amount": "学生納付金を減免（他制度との重複不可）",
+      "timing": "入試時",
+      "cond": "入試成績優秀者等"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-09-27",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     },
+     {
+      "date": "2026-10-18",
+      "type": "来場",
+      "title": "OPEN CAMPUS in TOKYO"
+     }
+    ],
+    "url": "https://www.cis.ac.jp/news-admission/news-admission-7358/"
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.cis.ac.jp/admission/info/",
+    "https://www.cis.ac.jp/ciswp/wp-content/uploads/2026/09/2027honyoko-1.pdf",
+    "https://www.cis.ac.jp/admission/procedure/",
+    "https://www.cis.ac.jp/admission/fee/",
+    "https://www.cis.ac.jp/student/tuition/",
+    "https://www.cis.ac.jp/admission/scholarship-student/",
+    "https://www.cis.ac.jp/news-admission/news-admission-6667/",
+    "https://www.cis.ac.jp/news-admission/news-admission-6952/",
+    "https://passnavi.obunsha.co.jp/univ/2185/difficulty/",
+    "https://search.keinet.ne.jp/2193/outline/expense"
+   ]
+  },
+  "sources": [
+   "https://www.cis.ac.jp/admission/info/",
+   "https://www.cis.ac.jp/ciswp/wp-content/uploads/2026/09/2027honyoko-1.pdf",
+   "https://www.cis.ac.jp/admission/procedure/",
+   "https://www.cis.ac.jp/admission/fee/",
+   "https://www.cis.ac.jp/student/tuition/",
+   "https://www.cis.ac.jp/admission/scholarship-student/",
+   "https://www.cis.ac.jp/news-admission/news-admission-6667/",
+   "https://www.cis.ac.jp/news-admission/news-admission-6952/",
+   "https://passnavi.obunsha.co.jp/univ/2185/difficulty/",
+   "https://search.keinet.ne.jp/2193/outline/expense"
+  ]
+ },
+ {
+  "name": "日本ウェルネススポーツ大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "茨城県北相馬郡利根町",
+  "pref_name": "茨城県",
+  "city": "北相馬郡利根町",
+  "hp": "https://www.nihonwellness.jp/",
+  "reading": "にほんうぇるねすすぽーつだいがく",
+  "features": [
+   "スポーツプロモーション学部のみの単科大学で、全日制と通信制を設置。",
+   "全日制は年間学費108万円（入学金22万円）と私大の中でも抑えた設定。",
+   "総合型選抜をA〜F日程まで幅広く実施し、一般選抜もA・B日程を用意。"
+  ],
+  "memo": "総合型選抜はA〜C日程の合格発表が11/1で共通。全日制と通信制で学費や奨学金の扱いが異なる。",
+  "info": {
+   "faculties": [
+    "スポーツプロモーション学部"
+   ],
+   "departments": [
+    {
+     "f": "スポーツプロモーション学部",
+     "d": [
+      "スポーツプロモーション学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（A〜F日程）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "事前エントリー登録が必要",
+      "url": "https://www.nihonwellness.jp/admission/sogo.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A・B日程）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.nihonwellness.jp/admission/ippan.html"
+     }
+    ]
+   },
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "note": "大学公式（一般選抜・総合型選抜のページ、通学課程1年次）。一般はA日程で定員を満たした場合、以降の募集なし。総合型B〜F日程は出典の表で出願期間の欄の対応が明確でないため出願期間を空欄にした（B・Cの発表・手続も記載なし）。検定料は掲載なし",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 A日程",
+      "apply": "9/1〜9/4",
+      "exam": "9/12",
+      "result": "11/1",
+      "proc": "11/6〜11/16",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 B日程",
+      "apply": "9/14〜9/18",
+      "exam": "9/26",
+      "result": "11/1",
+      "proc": "11/6〜11/16",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 C日程",
+      "apply": "10/5〜10/9",
+      "exam": "10/17",
+      "result": "11/1",
+      "proc": "11/6〜11/16",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 D日程",
+      "apply": "11/23〜11/27",
+      "exam": "12/5",
+      "result": "12/7",
+      "proc": "12/11〜12/21",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 E日程",
+      "apply": "1/11〜1/15",
+      "exam": "1/23",
+      "result": "1/25",
+      "proc": "1/29〜2/8",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 F日程",
+      "apply": "2/8〜2/12",
+      "exam": "2/20",
+      "result": "2/22",
+      "proc": "2/26〜3/8",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "apply": "1/25〜1/29",
+      "exam": "2/6",
+      "result": "2/8",
+      "proc": "2/12〜2/22",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程",
+      "apply": "2/15〜2/19",
+      "exam": "2/27",
+      "result": "3/1",
+      "proc": "3/5〜3/15",
+      "fee": null
+     }
+    ]
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.nihonwellness.jp/admission/index.html",
+    "https://www.nihonwellness.jp/admission/sogo.html",
+    "https://www.nihonwellness.jp/admission/ippan.html",
+    "https://www.nihonwellness.jp/information/appeal.html",
+    "https://www.nihonwellness.jp/gakubu/highschool.html",
+    "https://passnavi.obunsha.co.jp/univ/1875/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.nihonwellness.jp/admission/index.html",
+   "https://www.nihonwellness.jp/admission/sogo.html",
+   "https://www.nihonwellness.jp/admission/ippan.html",
+   "https://www.nihonwellness.jp/information/appeal.html",
+   "https://www.nihonwellness.jp/gakubu/highschool.html",
+   "https://passnavi.obunsha.co.jp/univ/1875/difficulty/"
+  ]
+ },
+ {
+  "name": "東洋学園大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都文京区",
+  "pref_name": "東京都",
+  "city": "文京区",
+  "hp": "https://www.tyg.jp/",
+  "reading": "とうようがくえんだいがく",
+  "features": [
+   "東京都文京区の本郷キャンパスに現代経営・人間科学・国際共創の3学部を展開。",
+   "総合型選抜や公募制推薦も他大学との併願が可能で受験計画を立てやすい。",
+   "通常年2回の学納金を月々分割できる学費月払い制度を導入している。"
+  ],
+  "memo": "2027年度より国際共創学部を設置。全学部共通の学費（初年度140万円＋諸経費）で分かりやすい。",
+  "info": {
+   "faculties": [
+    "現代経営学部",
+    "人間科学部",
+    "国際共創学部"
+   ],
+   "departments": [
+    {
+     "f": "現代経営学部",
+     "d": [
+      "現代経営学科"
+     ]
+    },
+    {
+     "f": "人間科学部",
+     "d": [
+      "人間科学科"
+     ]
+    },
+    {
+     "f": "国際共創学部",
+     "d": []
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0",
+    "kyotei": "43%〜45%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": [],
+    "note": "共通テスト利用方式は大学独自の学科試験や面接を課さない"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（PBL・小論文・プレゼン・基礎力試験）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "PBL方式・小論文方式・プレゼンテーション方式・基礎力試験方式",
+      "req": "他大学との併願可",
+      "url": "https://life.tyg.jp/admissions/index.html"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（指定校制・公募制・スポーツ推薦）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "公募制は他大学との併願可",
+      "url": "https://life.tyg.jp/admissions/exam/index.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（国英2科目方式・英語外部試験利用方式）",
+      "kyotsu": "課さない",
+      "niji": "国語・英語（国英2科目方式）",
+      "content": null,
+      "req": null,
+      "url": "https://m.tyg.jp/admissions/exam/general_je.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜 共通テスト利用方式（1〜3期）",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": "個別試験なし",
+      "url": "https://m.tyg.jp/admissions/exam/general_c.html"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 基礎力試験方式",
+      "apply": "11/2〜11/29",
+      "exam": "12/5",
+      "result": "12/10",
+      "proc": "12/21",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 12月期（PBL・小論文・プレゼン）",
+      "apply": "11/21〜11/29",
+      "exam": "12/5",
+      "result": "12/10",
+      "proc": "12/21",
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 公募制",
+      "apply": "11/21〜11/29",
+      "exam": "12/5",
+      "result": "12/10",
+      "proc": "12/21",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 国英2科目方式 1期",
+      "apply": "1/5〜1/24",
+      "exam": null,
+      "result": "2/12",
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜 共通テスト利用方式 1期",
+      "apply": "1/5〜2/1",
+      "exam": null,
+      "result": "2/12",
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜 共通テスト利用方式 2期",
+      "apply": "2/3〜2/16",
+      "exam": null,
+      "result": "3/4",
+      "proc": "3/12",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "一般選抜 共通テスト利用方式 3期",
+      "apply": "2/18〜3/7",
+      "exam": null,
+      "result": "3/16",
+      "proc": "3/19",
+      "fee": null
+     }
+    ]
+   },
+   "access": "本郷キャンパス（東京都文京区）",
+   "_via": "external-ai",
+   "sources": [
+    "https://life.tyg.jp/admissions/index.html",
+    "https://life.tyg.jp/admissions/exam/index.html",
+    "https://m.tyg.jp/admissions/exam/general_je.html",
+    "https://m.tyg.jp/admissions/exam/general_c.html",
+    "https://life.tyg.jp/info_news/detail.html?id=29574",
+    "https://www.tyg.jp/welcome/steps.html",
+    "https://www.tyg.jp/campuslife/expense.html",
+    "https://life.tyg.jp/expense/index.html",
+    "https://www.tyg.jp/pdf/guide/information_disclosure/exam_data/exam_youkou_2027_all.pdf",
+    "https://passnavi.obunsha.co.jp/univ/2225/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://life.tyg.jp/admissions/index.html",
+   "https://life.tyg.jp/admissions/exam/index.html",
+   "https://m.tyg.jp/admissions/exam/general_je.html",
+   "https://m.tyg.jp/admissions/exam/general_c.html",
+   "https://life.tyg.jp/info_news/detail.html?id=29574",
+   "https://www.tyg.jp/welcome/steps.html",
+   "https://www.tyg.jp/campuslife/expense.html",
+   "https://life.tyg.jp/expense/index.html",
+   "https://www.tyg.jp/pdf/guide/information_disclosure/exam_data/exam_youkou_2027_all.pdf",
+   "https://passnavi.obunsha.co.jp/univ/2225/difficulty/"
+  ]
+ },
+ {
+  "name": "東京音楽大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都目黒区",
+  "pref_name": "東京都",
+  "city": "目黒区",
+  "hp": "https://www.tokyo-ondai.ac.jp/",
+  "reading": "とうきょうおんがくだいがく",
+  "features": [
+   "声楽・器楽・作曲指揮・音楽文化教育など多彩な専攻を擁する音楽単科大学。",
+   "一般選抜A・B日程で共通テスト利用も設定し、一部専攻は対面・動画を選択可。",
+   "2027年度入学生より学費改定を行い、初年度学費総額を現行より軽減。"
+  ],
+  "memo": "専攻ごとに実技課題や対面・動画の選択可否が異なるため、必ず2027年度募集要項で詳細確認が必要。",
+  "info": {
+   "faculties": [
+    "音楽学部"
+   ],
+   "departments": [
+    {
+     "f": "音楽学部",
+     "d": [
+      "声楽専攻",
+      "器楽専攻",
+      "作曲指揮専攻（芸術音楽コース・ミュージック・メディアコース・指揮）",
+      "音楽文化教育専攻",
+      "ミュージック・リベラルアーツ専攻",
+      "吹奏楽アカデミー専攻",
+      "ミュージックビジネス・テクノロジー専攻"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜37.5",
+    "kyotei": "41%〜58%",
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "実技・面接等",
+      "req": null,
+      "url": "https://www.tokyo-ondai.ac.jp/main/wp-content/uploads/2026/07/2027_sougou_0714.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（指定校制）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "指定校推薦",
+      "url": "https://www.tokyo-ondai.ac.jp/main/wp-content/uploads/2026/05/examschedule2027.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A日程・B日程）",
+      "kyotsu": "課さない（共テ利用あり）",
+      "niji": "専攻別実技等",
+      "content": null,
+      "req": null,
+      "url": "https://www.tokyo-ondai.ac.jp/main/wp-content/uploads/2026/07/2027_ippan.pdf"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜①",
+      "apply": "9/4〜9/11",
+      "exam": "10/2〜10/4",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（指定校制）",
+      "apply": "11/2〜11/7",
+      "exam": "11/29",
+      "result": null,
+      "proc": "12/7〜12/9",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "apply": "1/6〜1/18",
+      "exam": "2/16〜2/20",
+      "result": null,
+      "proc": "2/26〜2/28",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程",
+      "apply": "2/27〜3/5",
+      "exam": "3/16〜3/17",
+      "result": null,
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "家族在籍減免（給付）",
+      "kind": "給付",
+      "target": "全学部",
+      "amount": "最上位在籍者以外の授業料の20％相当額を給付",
+      "timing": "在学中",
+      "cond": "同一生計の家庭から本学・大学院・付属高校に複数在籍"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-04-29",
+      "type": "来場",
+      "title": "キャンパス開放Day"
+     },
+     {
+      "date": "2026-06-21",
+      "type": "来場",
+      "title": "初夏のオープンキャンパス"
+     }
+    ],
+    "url": "https://www.tokyo-ondai.ac.jp/about/open_campus"
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.tokyo-ondai.ac.jp/main/wp-content/uploads/2026/05/examschedule2027.pdf",
+    "https://www.tokyo-ondai.ac.jp/main/wp-content/uploads/2026/07/2027_ippan.pdf",
+    "https://www.tokyo-ondai.ac.jp/main/wp-content/uploads/2026/07/2027_sougou_0714.pdf",
+    "https://www.tokyo-ondai.ac.jp/assets/pdf/A-6-5/gakuhikaitei_2027.pdf",
+    "https://www.tokyo-ondai.ac.jp/information/12765.php",
+    "https://www.tokyo-ondai.ac.jp/about/open_campus",
+    "https://passnavi.obunsha.co.jp/univ/2730/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.tokyo-ondai.ac.jp/main/wp-content/uploads/2026/05/examschedule2027.pdf",
+   "https://www.tokyo-ondai.ac.jp/main/wp-content/uploads/2026/07/2027_ippan.pdf",
+   "https://www.tokyo-ondai.ac.jp/main/wp-content/uploads/2026/07/2027_sougou_0714.pdf",
+   "https://www.tokyo-ondai.ac.jp/assets/pdf/A-6-5/gakuhikaitei_2027.pdf",
+   "https://www.tokyo-ondai.ac.jp/information/12765.php",
+   "https://www.tokyo-ondai.ac.jp/about/open_campus",
+   "https://passnavi.obunsha.co.jp/univ/2730/difficulty/"
+  ]
+ }
+]
