@@ -14,16 +14,32 @@
    "pages": {
     "admission": "https://www.ibaraki.ac.jp/admission/application/2027/index.html",
     "yoko": "https://www.ibaraki.ac.jp/admission/uploads/2026/07/R9senbatuyoko.pdf",
-    "result": "https://www.ibaraki.ac.jp/admission/situation/past/index.html"
+    "result": "https://www.ibaraki.ac.jp/admission/situation/past/index.html",
+    "suisen": "https://www.ibaraki.ac.jp/admission/uploads/2026/09/suisen2027.pdf",
+    "sougou": "https://www.ibaraki.ac.jp/admission/uploads/2026/08/sougou2026.pdf",
+    "ippan": "https://www.ibaraki.ac.jp/admission/uploads/2026/10/ippan_2027.pdf",
+    "application_2027": "https://www.ibaraki.ac.jp/admission/application/2027/index.html",
+    "scholarship": "https://www.ibaraki.ac.jp/student/economicsupport/scholarship/index.html",
+    "excnewsys": "https://www.ibaraki.ac.jp/student/economicsupport/excnewsys/index.html"
    },
-   "note": "2026-11-25：志願状況ページは2027年度の推薦・総合型のみ。令和8年度一般選抜の結果は past ページ。学費ページ（/m/generalinfo/information/2026/10/09015055.html）は取得エラー。奨学金は /m/lifesupport/economicsupport/ 配下"
+   "note": "2026-11-25：志願状況ページは2027年度の推薦・総合型のみ。令和8年度一般選抜の結果は past ページ。学費ページ（/m/generalinfo/information/2026/10/09015055.html）は取得エラー。奨学金は /m/lifesupport/economicsupport/ 配下 / 2026-11-25：R9senbatuyoko.pdf は WebFetch の許可待ちで取得できず（推薦・総合型・一般の各募集要項で代替）。scholar は今回未確認（/welcome/campus_aid/ は取得エラー）。修学支援金・BYOD用端末購入支援金は大学公式で未確認のまま。"
   },
   {
    "name": "茨城県立医療大学",
    "pages": {
     "admission": "https://www.ipu.ac.jp/entrance-exam-admission/faculty/",
     "yoko": "https://www.ipu.ac.jp/data/doc/1784273764_doc_9_0.pdf",
-    "result": "https://www.ipu.ac.jp/entrance-exam-admission/faculty/past-test/page000957.html"
+    "result": "https://www.ipu.ac.jp/entrance-exam-admission/faculty/past-test/page000957.html",
+    "oc": "https://www.ipu.ac.jp/entrance-exam-admission/program/page000177.html",
+    "online_oc": "https://www.ipu.ac.jp/entrance-exam-admission/program/onlineopencampus/page001295.html",
+    "visit": "https://www.ipu.ac.jp/entrance-exam-admission/program/page000441.html",
+    "scholarship": "https://www.ipu.ac.jp/about/public-info/link/tuition-fee/page000101.html",
+    "pref_scholarship": "https://www.ipu.ac.jp/campuslife/study-support/syougaku/page000132.html",
+    "genmen": "https://www.ipu.ac.jp/campuslife/study-support/genmen/page000137.html",
+    "fees": "https://www.ipu.ac.jp/entrance-exam-admission/page000174.html"
+   },
+   "wait": {
+    "oc": "2027年度オープンキャンパスの日程は大学公式に未掲載（2026-11-25確認。2026年度は7/18・19に実施）"
    }
   },
   {

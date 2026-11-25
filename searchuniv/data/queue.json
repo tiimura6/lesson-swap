@@ -20056,6 +20056,89 @@
 "kyotsu"
 ],
 "keinet": "2269"
+},
+{
+"name": "日本獣医生命科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2271"
+},
+{
+"name": "日本社会事業大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2270"
+},
+{
+"name": "日本薬科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2168"
+},
+{
+"name": "日本赤十字看護大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2274"
+},
+{
+"name": "明星大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2289"
+},
+{
+"name": "明治薬科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2288"
+},
+{
+"name": "日本映画大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"kyotsu"
+],
+"keinet": "2328",
+"fails": 1,
+"last_fail": "2026-11-25",
+"note": "2026-11-25 Kei-Netの学部ページに概要・特色の記載なし、取得可能資格のページなし（リンク無効）、共通テスト利用方式の掲載なし（2026-11-25）"
 }
 ],
 "failed": [],
@@ -20338,74 +20421,6 @@
 "日本映画大学": 1
 },
 "enrich": [
-{
-"name": "日本獣医生命科学大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu",
-"difficulty"
-],
-"keinet": "2271"
-},
-{
-"name": "日本社会事業大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students",
-"careers",
-"kyotsu",
-"difficulty"
-],
-"keinet": "2270"
-},
-{
-"name": "日本薬科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu",
-"difficulty"
-],
-"keinet": "2168"
-},
-{
-"name": "日本赤十字看護大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu",
-"difficulty"
-],
-"keinet": "2274"
-},
-{
-"name": "明星大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu",
-"difficulty"
-],
-"keinet": "2289"
-},
-{
-"name": "明治薬科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu",
-"difficulty"
-],
-"keinet": "2288"
-},
 {
 "name": "明海大学",
 "need": [
@@ -36179,21 +36194,6 @@
 "fails": 1,
 "last_fail": "2026-11-20",
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
-},
-{
-"name": "日本映画大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses",
-"kyotsu"
-],
-"keinet": "2328",
-"fails": 1,
-"last_fail": "2026-11-25",
-"note": "2026-11-25 Kei-Netの学部ページに概要・特色の記載なし、取得可能資格のページなし（リンク無効）、共通テスト利用方式の掲載なし（2026-11-25）"
 },
 {
 "name": "島根大学",

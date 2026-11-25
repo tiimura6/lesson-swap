@@ -16288,7 +16288,7 @@
 "fdiff": "2026-11-06",
 "schedule": "2026-11-20",
 "money": "2026-11-25",
-"eng": "2026-11-06",
+"eng": "2026-11-25",
 "departments": "2026-11-06",
 "ratios": "2026-11-25",
 "research": "2026-11-14",
@@ -16438,50 +16438,76 @@
 "kubun": "推薦",
 "name": "学校推薦型選抜（一般推薦）",
 "use": "判定に利用",
-"level": "英語資格CEFR B1以上",
-"tests": "英語資格（試験名の記載なし）",
+"level": "出願要件ではない（資格・検定試験の成績が無くても出願できる）",
+"tests": "ケンブリッジ英語検定・実用英語技能検定（S-CBT可）・GTEC（OFFICIAL SCORE CERTIFICATE）・IELTS・TEAP・TOEFL iBT・TOEIC L&R/S&W",
 "faculties": "人文社会科学部（現代社会学科・法律経済学科・人間文化学科）",
-"note": "1次試験の書類審査で評価。法律経済学科は英語資格CEFR B1以上・日商簿記2級以上・基本情報技術者等のいずれか1つの評価"
+"note": "調査書の配点の一部として評価（調査書配点：現代社会学科10、法律経済学科・人間文化学科20）。現代社会学科は英語資格とその他の資格から各1つ、法律経済学科は英語資格またはその他の資格から1つ、人間文化学科は英語資格から1つを評価",
+"url": "https://www.ibaraki.ac.jp/admission/uploads/2026/09/suisen2027.pdf"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜（一般推薦）",
 "use": "出願資格",
-"level": "英語資格CEFR B1以上",
-"tests": "英語資格（試験名の記載なし）",
-"faculties": "教育学部 学校教育教員養成課程 英語",
-"note": "出願要件の取得資格"
+"level": "CEFR B1以上",
+"tests": "ケンブリッジ英語検定・実用英語技能検定（S-CBT可）・GTEC（OFFICIAL SCORE CERTIFICATE）・IELTS・TEAP・TOEFL iBT・TOEIC L&R/S&W",
+"faculties": "教育学部 学校教育教員養成課程 教科教育コース 英語選修",
+"note": "調査書の英語の学習成績4.0以上も出願要件。英語資格の配点は無く、面接100点（英語による質疑応答を含む）",
+"url": "https://www.ibaraki.ac.jp/admission/uploads/2026/09/suisen2027.pdf"
 },
 {
 "kubun": "推薦",
 "name": "学校推薦型選抜（一般推薦）",
 "use": "出願資格",
-"level": "基準の記載なし",
-"tests": "英検、ケンブリッジ英検、IELTS等",
-"faculties": "理学部（数学・情報数理、物理学、化学、生物科学、地球環境科学）",
-"note": "評定・活動歴等の要件と並ぶ取得資格として記載。級・スコアの記載なし"
+"level": "高等学校等入学以降にいずれか1つを受験していること（スコア・級の基準なし）",
+"tests": "ケンブリッジ英語検定・実用英語技能検定（S-CBT可）・GTEC（OFFICIAL SCORE CERTIFICATE）・IELTS・TEAP・TOEFL iBT・TOEIC L&R/S&W",
+"faculties": "理学部 理学科（全コース）",
+"note": "出願期間最終日に有効なオフィシャルスコア。配点なし",
+"url": "https://www.ibaraki.ac.jp/admission/uploads/2026/09/suisen2027.pdf"
 },
 {
 "kubun": "推薦",
-"name": "学校推薦型選抜（一般推薦：一般枠・女子枠）",
+"name": "学校推薦型選抜（一般推薦〔一般枠・女子枠〕・専門高校推薦）",
 "use": "出願資格",
-"level": "英語資格CEFR A2-1レベル以上",
-"tests": "英語資格（試験名の記載なし）",
-"faculties": "工学部（情報工・都市システム工・機械システム工・電気電子システム工・物質科学工学科）",
-"note": "出願要件。1次試験で取得資格に100点を配点"
+"level": "英語資格・検定試験得点換算表で50点以上（CEFR A2-1相当）",
+"tests": "ケンブリッジ英語検定・実用英語技能検定（S-CBT可）・GTEC（OFFICIAL SCORE CERTIFICATE）・IELTS・TEAP・TOEFL iBT・TOEIC L&R/S&W",
+"faculties": "工学部（全学科）",
+"note": "出願要件に加えて英語資格・検定試験を100点で評価（配点総計600点。女子枠は面接100点が加わり700点）。各試験の基準値は要項の得点換算表",
+"url": "https://www.ibaraki.ac.jp/admission/uploads/2026/09/suisen2027.pdf"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜",
+"use": "出願資格",
+"level": "英語資格・検定試験得点換算表で50点以上（CEFR A2-1相当）",
+"tests": "ケンブリッジ英語検定・実用英語技能検定（S-CBT可）・GTEC（OFFICIAL SCORE CERTIFICATE）・IELTS・TEAP・TOEFL iBT・TOEIC L&R/S&W",
+"faculties": "工学部 都市システム工学科",
+"note": "英語資格・検定試験を100点で評価（全体600点）。令和6年度以降に受験し出願期間最終日に有効なオフィシャルスコア。総合型選抜で英語資格を使うのはこの学科のみ",
+"url": "https://www.ibaraki.ac.jp/admission/uploads/2026/08/sougou2026.pdf"
 },
 {
 "kubun": "推薦",
-"name": "学校推薦型選抜（一般推薦）",
+"name": "学校推薦型選抜（一般推薦）・専門高校推薦（食生命科学科）",
 "use": "出願資格",
-"level": "英語資格CEFR A2-3レベル以上",
-"tests": "英語資格（試験名の記載なし）",
-"faculties": "農学部（食生命科学科、地域総合農学科 応用植物科学・地域共生）",
-"note": "出願要件の取得資格"
+"level": "CEFR A2-3以上（実用英語技能検定 1,825以上など）",
+"cse": 1825,
+"tests": "ケンブリッジ英語検定・実用英語技能検定（S-CBT可）・GTEC（OFFICIAL SCORE CERTIFICATE）・IELTS・TEAP・TOEFL iBT・TOEIC L&R/S&W",
+"faculties": "農学部 食生命科学科、地域総合農学科 応用植物科学コース（一般推薦）",
+"note": "IELTS・TOEFL iBT は A2-3 の基準が無いため B1 の点数を基準とする。地域共生コースの一般推薦には英語資格の要件・評価なし",
+"url": "https://www.ibaraki.ac.jp/admission/uploads/2026/09/suisen2027.pdf"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（専門高校推薦）",
+"use": "得点換算",
+"level": "英語資格・検定試験を100点で評価",
+"tests": "ケンブリッジ英語検定・実用英語技能検定（S-CBT可）・GTEC（OFFICIAL SCORE CERTIFICATE）・IELTS・TEAP・TOEFL iBT・TOEIC L&R/S&W",
+"faculties": "農学部 地域総合農学科 応用植物科学コース・地域共生コース",
+"note": "応用植物科学コースはいずれか1つの受験が出願要件（基準なし）",
+"url": "https://www.ibaraki.ac.jp/admission/uploads/2026/09/suisen2027.pdf"
 }
 ],
-"summary": "一般選抜では英語外部試験を利用しない（入試科目表の英資出願要件欄は空欄）。学校推薦型選抜では工学部（CEFR A2-1以上）・農学部（A2-3以上）・教育学部英語（B1以上）で出願要件、人文社会科学部ではCEFR B1以上を書類審査で評価する。",
-"note": "一般選抜の確認はページ途中（教育学部音楽後期）まで。総合型選抜は未確認。"
+"summary": "一般選抜では英語外部試験を利用しない（一般選抜学生募集要項に利用の記載なし）。学校推薦型選抜では工学部（換算表50点以上＝CEFR A2-1相当、100点で評価）・農学部（食生命科学科・応用植物科学コースはCEFR A2-3以上）・教育学部英語選修（CEFR B1以上）・理学部（受験していること）で出願要件、人文社会科学部は調査書の配点の一部として評価。総合型選抜では工学部都市システム工学科だけが利用（A2-1相当以上・100点）。",
+"note": "大学公式の令和9年度 学校推薦型選抜・総合型選抜・一般選抜の各学生募集要項で確認（2026-11-25）。一般選抜要項は本文の約85%（教育学部の提出書類の途中まで）を確認し、英語外部試験の利用の記載なし。"
 },
 "ratios": {
 "kind": "実質倍率（受験者÷合格者）",
@@ -17494,6 +17520,14 @@
 "u": [
 "https://www.ibaraki.ac.jp/admission/uploads/2026/06/2026_toukei.pdf",
 "https://www.ibaraki.ac.jp/admission/situation/past/index.html"
+],
+"d": "2026-11-25"
+},
+"eng": {
+"u": [
+"https://www.ibaraki.ac.jp/admission/uploads/2026/09/suisen2027.pdf",
+"https://www.ibaraki.ac.jp/admission/uploads/2026/08/sougou2026.pdf",
+"https://www.ibaraki.ac.jp/admission/uploads/2026/10/ippan_2027.pdf"
 ],
 "d": "2026-11-25"
 }
@@ -29010,7 +29044,13 @@
 "https://www.ipu.ac.jp/data/doc/1784273764_doc_9_0.pdf",
 "https://www.ipu.ac.jp/entrance-exam-admission/faculty/past-test/page000957.html",
 "https://www.ipu.ac.jp/data/doc/1776905245_doc_9_0.pdf",
-"https://www.ipu.ac.jp/data/doc/1745203429_doc_9_0.pdf"
+"https://www.ipu.ac.jp/data/doc/1745203429_doc_9_0.pdf",
+"https://www.ipu.ac.jp/entrance-exam-admission/program/page000177.html",
+"https://www.ipu.ac.jp/campuslife/study-support/syougaku/page000132.html",
+"https://www.ipu.ac.jp/campuslife/study-support/genmen/page000137.html",
+"https://www.ipu.ac.jp/about/public-info/link/tuition-fee/page000101.html",
+"https://www.ipu.ac.jp/entrance-exam-admission/program/",
+"https://www.ipu.ac.jp/entrance-exam-admission/program/page000441.html"
 ],
 "licenses": [
 "看護師国家試験受験資格",
@@ -29125,7 +29165,8 @@
 "ratios": "2026-11-25",
 "research": "2026-11-14",
 "methods": "2026-11-25",
-"oc": "2026-11-21"
+"oc": "2026-11-25",
+"scholar": "2026-11-25"
 },
 "schedule": {
 "year": "2027年度入試",
@@ -29267,12 +29308,24 @@
 {
 "date": "2026/7/18",
 "type": "来場型",
-"title": "オープンキャンパス（全学部）",
-"note": "7/18・7/19の2日間、本学で実施。事前申込不要（終了）"
+"title": "オープンキャンパス（全学科）",
+"note": "7/18（土）・7/19（日）9:30〜15:30、本学で対面実施。事前予約不要（終了）"
+},
+{
+"date": "随時",
+"type": "オンライン",
+"title": "2026オンラインオープンキャンパス（動画）",
+"note": "https://www.ipu.ac.jp/entrance-exam-admission/program/onlineopencampus/page001295.html"
+},
+{
+"date": "随時",
+"type": "見学",
+"title": "大学見学会（高等学校単位）",
+"note": "高等学校が希望する日に実施。教員の引率が必要。実施予定日の2か月前までに申込（令和8年度は付属病院の見学なし）"
 }
 ],
-"url": "https://search.keinet.ne.jp/1519/outline/opencampus",
-"note": "2026年度は7月に実施済み。2027年度の日程は未掲載（2026-11-21確認）。最新は大学公式で確認"
+"url": "https://www.ipu.ac.jp/entrance-exam-admission/program/page000177.html",
+"note": "2026年度のオープンキャンパスは7月に実施済み。2027年度の日程は大学公式に未掲載（2026-11-25確認）。"
 },
 "_src": {
 "schedule": {
@@ -29306,7 +29359,47 @@
 "https://www.ipu.ac.jp/data/doc/1784273764_doc_9_0.pdf"
 ],
 "d": "2026-11-25"
+},
+"scholar": {
+"u": [
+"https://www.ipu.ac.jp/about/public-info/link/tuition-fee/page000101.html",
+"https://www.ipu.ac.jp/campuslife/study-support/syougaku/page000132.html",
+"https://www.ipu.ac.jp/campuslife/study-support/genmen/page000137.html"
+],
+"d": "2026-11-25"
+},
+"oc": {
+"u": [
+"https://www.ipu.ac.jp/entrance-exam-admission/program/page000177.html",
+"https://www.ipu.ac.jp/entrance-exam-admission/program/",
+"https://www.ipu.ac.jp/entrance-exam-admission/program/page000441.html"
+],
+"d": "2026-11-25"
 }
+},
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "茨城県奨学資金",
+"kind": "貸与",
+"target": "全学科（学部生のみ）",
+"amount": "月3.6万円（自宅通学）・月4万円（自宅外通学）",
+"timing": "入学後（毎年度当初に募集・掲示）",
+"cond": "茨城県内に居住する者の子弟。日本学生支援機構奨学金の貸与を受けていないこと。成績基準・収入基準あり。貸与は標準修学年数まで（留年による延長不可）",
+"url": "https://www.ipu.ac.jp/campuslife/study-support/syougaku/page000132.html"
+},
+{
+"name": "茨城県看護師等修学資金",
+"kind": "貸与",
+"target": "学部生（対象学科の記載なし）",
+"amount": "大学のページに金額の記載なし",
+"timing": "入学後（4〜6月に募集が集中・掲示）",
+"cond": "将来、医療職として特定の機関で従事を希望する学生。一定期間従事すると返還免除（期間の記載なし）",
+"url": "https://www.ipu.ac.jp/campuslife/study-support/syougaku/page000132.html"
+}
+],
+"note": "大学公式（奨学金・茨城県奨学資金・授業料の減免のページ、2026-11-25確認）による。学部生の授業料減免は国の高等教育の修学支援制度（多子世帯を含む）によるもので、大学独自・茨城県独自の学部生向け授業料減免の記載はない（専攻科・大学院には成績・経済要件による大学の授業料減免がある）。奨学金の募集は学内掲示で案内。"
 }
 },
 "大阪公立大学": {
@@ -266343,7 +266436,8 @@ null
 "tuition": "2026-11-09",
 "money": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-13",
+"research": "2026-11-25"
 },
 "faculties": [
 "映画学部"
@@ -266393,7 +266487,8 @@ null
 "https://search.keinet.ne.jp/2328/outline/expense",
 "https://search.keinet.ne.jp/2328/outline/admission_employment",
 "https://search.keinet.ne.jp/2328/general/border_rate",
-"https://telemail.jp/shingaku/university/10001146/examination/general"
+"https://telemail.jp/shingaku/university/10001146/examination/general",
+"https://passnavi.obunsha.co.jp/univ/3355/department/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -266427,7 +266522,14 @@ null
 }
 ],
 "note": "テレメール（2027年度一般選抜、2026/7/25時点）。試験地は神奈川県。総合型（映像表現・文章表現・身体表現・リベロ面接型・リベロ小論文型）はパスナビに掲載があるが年度の明記がないため載せていない。検定料は掲載なし"
-}
+},
+"research": [
+"映画制作の技術（脚本・演出・撮影・照明・録音・編集）",
+"映画史・映画理論と文化全般",
+"1年次「人間総合研究」で取材・フィールドワーク",
+"2年次から10コース（演出・身体表現・俳優・撮影照明・録音・編集・VFX特殊撮影・ドキュメンタリー・マネジメント・脚本・文芸）に分かれて専門を学ぶ",
+"4年次の卒業制作と国際合同映画制作"
+]
 },
 "日本歯科大学": {
 "difficulty": {
@@ -266590,7 +266692,8 @@ null
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-13",
+"kyotsu": "2026-11-25"
 },
 "departments": [
 {
@@ -266695,7 +266798,8 @@ null
 "https://search.keinet.ne.jp/2271/outline/admission_employment",
 "https://search.keinet.ne.jp/2271/outline/expense",
 "https://search.keinet.ne.jp/2271/general/exam_result",
-"https://manabi.benesse.ne.jp/daigaku/school/3303/nyushi/gokaku-happyo/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3303/nyushi/gokaku-happyo/index.html",
+"https://search.keinet.ne.jp/general/exam_subject/2271"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -266783,6 +266887,21 @@ null
 }
 ],
 "note": "マナビジョン（2027年度入試）。検定料は掲載なし"
+},
+"kyotsu": {
+"kamoku": "1教科1科目〜4教科6科目",
+"kyoka": [
+1,
+2,
+3,
+4
+],
+"rl": [
+"4:1"
+],
+"rl_text": "全方式で英語R80:L20（4:1）",
+"note": "一般選抜の共テ利用：動物科学科・食品科学科は共通テスト方式2教科2科目（200点）・併用方式の共テ1教科1科目（100点）、獣医学科は4教科方式4教科6科目（500点）・3教科方式3教科4科目（300点）・併用方式2教科3科目（200点）、獣医保健看護学科は共通テスト方式3教科3科目（300点）・併用方式2教科3科目（200点）",
+"year": "2027年度入試"
 }
 },
 "日本社会事業大学": {
@@ -266798,7 +266917,8 @@ null
 "money": "2026-11-09",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-13",
+"kyotsu": "2026-11-25"
 },
 "departments": [
 {
@@ -266856,7 +266976,8 @@ null
 "https://search.keinet.ne.jp/2270/outline/expense",
 "https://search.keinet.ne.jp/2270/general/exam_result",
 "https://www.jcsw.ac.jp/img/078a93b30bb40537a59a8b69d8b606192a558dd5.pdf",
-"https://telemail.jp/shingaku/university/10000198/examination/general"
+"https://telemail.jp/shingaku/university/10000198/examination/general",
+"https://manabi.benesse.ne.jp/daigaku/school/3302/nyushi/index.html"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -266917,6 +267038,17 @@ null
 }
 ],
 "note": "大学公式「2027年度 入学試験要項」。社会福祉学部（共生社会デザイン学科・ソーシャルワーク学科）共通。検定料は学科併願で総合型・一般45,000円、共テ利用27,000円。テレメール（2027年度）の一般・共テ利用の日程と一致"
+},
+"kyotsu": {
+"kamoku": "2教科2科目〜3教科3科目",
+"kyoka": [
+2,
+3
+],
+"rl": [],
+"rl_text": "英語のリーディング・リスニングの配点の記載なし",
+"note": "大学入学共通テスト利用選抜（社会福祉学部の両学科）：前期日程は3教科3科目（国語・外国語必須、500点）、後期日程は2教科2科目（国語・外国語、400点）",
+"year": "2027年度入試"
 }
 },
 "日本薬科大学": {
@@ -266935,7 +267067,9 @@ null
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-13",
+"kyotsu": "2026-11-25",
+"difficulty": "2026-11-25"
 },
 "departments": [
 {
@@ -267010,7 +267144,9 @@ null
 "https://search.keinet.ne.jp/2168/outline/admission_employment",
 "https://search.keinet.ne.jp/2168/outline/expense",
 "https://search.keinet.ne.jp/2168/general/exam_result",
-"https://telemail.jp/shingaku/university/10001076/examination/general"
+"https://telemail.jp/shingaku/university/10001076/examination/general",
+"https://search.keinet.ne.jp/general/exam_subject/2168",
+"https://search.keinet.ne.jp/2168sp/general/border_rate_sp"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -267071,6 +267207,24 @@ null
 }
 ],
 "note": "テレメール（2027年度入学、2026年8月7日時点）。薬学部薬学科・薬科学部医療ビジネス薬科学科で同じ日程。試験地は埼玉県・東京都。薬学科の一般3科目方式で特待生Sを選抜。検定料は出典に記載なし"
+},
+"kyotsu": {
+"kamoku": "1〜2教科2科目",
+"kyoka": [
+1,
+2
+],
+"rl": [
+"4:1"
+],
+"rl_text": "全方式で英語R80点:L20点（R:L=4:1）",
+"note": "薬学部薬学科の共テ前期・中後期は2教科2科目、薬科学部医療ビジネス薬科学科（お茶の水・さいたま）の共テ前期・中後期は1〜2教科2科目",
+"year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "BF〜40.0",
+"kyotei": "46%〜67%",
+"year": "2027年度入試用"
 }
 },
 "日本赤十字看護大学": {
@@ -267089,7 +267243,9 @@ null
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-13",
+"kyotsu": "2026-11-25",
+"difficulty": "2026-11-25"
 },
 "departments": [
 {
@@ -267163,7 +267319,9 @@ null
 "https://search.keinet.ne.jp/2274/outline/admission_employment",
 "https://search.keinet.ne.jp/2274/outline/expense",
 "https://search.keinet.ne.jp/2274/general/exam_result",
-"https://search.keinet.ne.jp/2274/general/schedule"
+"https://search.keinet.ne.jp/2274/general/schedule",
+"https://search.keinet.ne.jp/2274sp/general/exam_subject_sp",
+"https://search.keinet.ne.jp/2274sp/general/border_rate_sp"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -267224,6 +267382,24 @@ null
 }
 ],
 "note": "Kei-Netの入試日程（出願締切・入試日・発表・手続）による。出願開始日と検定料は掲載なし"
+},
+"kyotsu": {
+"kamoku": "2〜3教科3科目",
+"kyoka": [
+2,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "全方式でR:L=1:1（ⅠA・ⅠB・ⅡはR100:L100、6大学連携併願はR50:L50）",
+"note": "看護学部・さいたま看護学部とも、共テⅠA方式は2〜3教科3科目、ⅠB・Ⅱ・6大学連携併願は3教科3科目",
+"year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "47.5",
+"kyotei": "62%〜69%",
+"year": "2027年度入試用"
 }
 },
 "明星大学": {
@@ -267250,7 +267426,9 @@ null
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-13",
+"kyotsu": "2026-11-25",
+"difficulty": "2026-11-25"
 },
 "departments": [
 {
@@ -267483,7 +267661,9 @@ null
 "https://search.keinet.ne.jp/2289/outline/admission_employment",
 "https://search.keinet.ne.jp/2289/outline/expense",
 "https://search.keinet.ne.jp/2289/general/exam_result",
-"https://search.keinet.ne.jp/2289/general/schedule"
+"https://search.keinet.ne.jp/2289/general/schedule",
+"https://search.keinet.ne.jp/2289sp/general/exam_subject_sp",
+"https://search.keinet.ne.jp/2289/general/border_rate"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -267544,6 +267724,24 @@ null
 }
 ],
 "note": "Kei-Netの入試日程による。学部により実施する型が異なる（例：4教科型は教育・情報学部・データサイエンス学環など）。出願開始日と検定料は掲載なし"
+},
+"kyotsu": {
+"kamoku": "1〜2教科2科目（経済・情報・データサイエンス学環の2教科型・Ⅱ期）〜4教科4科目（教育学部・情報学部のⅠ期4教科型）",
+"kyoka": [
+1,
+4
+],
+"rl": [
+"1:1"
+],
+"rl_text": "全方式で英語はR50・L50（R:L=1:1）。Ⅰ期3教科型で英語必須の学科と、他教科との選択の学科がある",
+"note": "共テ利用はⅠ期（3教科型・2教科型、教育・情報は4教科型）とⅡ期（2教科）。経済・情報・データサイエンス学環は教科の選択で1〜2教科・2〜3教科となる方式あり。教育学部の教科専攻（国語・社会など）の科目表は掲載ページで確認できず",
+"year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "37.5〜52.5",
+"kyotei": "42%〜68%",
+"year": "2027年度入試用"
 }
 },
 "明治薬科大学": {
@@ -267561,7 +267759,9 @@ null
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-13",
+"kyotsu": "2026-11-25",
+"difficulty": "2026-11-25"
 },
 "departments": [
 {
@@ -267630,7 +267830,9 @@ null
 "https://search.keinet.ne.jp/2288/outline/admission_employment",
 "https://search.keinet.ne.jp/2288/outline/expense",
 "https://search.keinet.ne.jp/2288/general/exam_result",
-"https://telemail.jp/shingaku/university/10001063/examination/general"
+"https://telemail.jp/shingaku/university/10001063/examination/general",
+"https://search.keinet.ne.jp/2288/general/exam_subject",
+"https://search.keinet.ne.jp/2288/general/border_rate"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -267682,6 +267884,24 @@ null
 }
 ],
 "note": "薬学科・生命創薬科学科で同じ日程（テレメール 2027年度入学、2026年7月31日時点）。B方式の試験地は東京都・神奈川県、C方式は東京都。検定料は出典に記載なし"
+},
+"kyotsu": {
+"kamoku": "2〜3教科3科目（C方式）〜3教科4科目（A方式・地域枠：英・数ⅠA・数ⅡBC・理1）",
+"kyoka": [
+2,
+3
+],
+"rl": [
+"4:1"
+],
+"rl_text": "英語はR160・L40（R:L=4:1）。C方式は英語と国語の選択",
+"note": "共テ利用はA方式（満点600）・地域枠（薬学科、満点700）・C方式（満点400、共テ＋個別）。C方式は英・国から1、数ⅡBC・理から1を選択。B方式前期・後期は共テを使わない",
+"year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "45.0〜52.5",
+"kyotei": "64%〜74%",
+"year": "2027年度入試用"
 }
 },
 "明海大学": {
