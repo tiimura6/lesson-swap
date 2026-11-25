@@ -15729,7 +15729,10 @@
 "https://manabi.benesse.ne.jp/daigaku/school/1095/nyushi/ri/index.html",
 "https://manabi.benesse.ne.jp/daigaku/school/1095/nyushi/kou/index.html",
 "https://manabi.benesse.ne.jp/daigaku/school/1095/nyushi/nou/index.html",
-"https://manabi.benesse.ne.jp/daigaku/school/1095/nyushi/chiikimirai/"
+"https://manabi.benesse.ne.jp/daigaku/school/1095/nyushi/chiikimirai/",
+"https://www.ibaraki.ac.jp/student/economicsupport/scholarship/iu_scholarship/index.html",
+"https://www.ibaraki.ac.jp/m/lifesupport/economicsupport/exemption/highgrade_exemption/index.html",
+"https://www.ibaraki.ac.jp/m/lifesupport/economicsupport/exemption/excnewsys_exemption/index.html"
 ],
 "licenses": [
 "教員免許（幼・小・中・高、特別支援）",
@@ -16285,7 +16288,7 @@
 "departments": "2026-11-06",
 "ratios": "2026-11-20",
 "research": "2026-11-14",
-"scholar": "2026-11-19",
+"scholar": "2026-11-25",
 "oc": "2026-11-19",
 "partners": "2026-11-20",
 "methods": "2026-11-20",
@@ -16592,12 +16595,39 @@
 "year": "2026年度",
 "rows": [
 {
+"name": "成績優秀学生授業料免除",
+"kind": "減免",
+"target": "学部2年次生・4年次生（大学院は修士・博士前期・専門職の1・2年次）",
+"amount": "表彰学期の授業料の1/4額（大学院生は半額）",
+"timing": "記載なし",
+"cond": "成績優秀学生として表彰された学生。人数の記載なし",
+"url": "https://www.ibaraki.ac.jp/m/lifesupport/economicsupport/exemption/highgrade_exemption/index.html"
+},
+{
+"name": "茨城大学TOEIC(IP)テスト受験経費給付金",
+"kind": "給付",
+"target": "学部1年次入学者",
+"amount": "受験経費相当額",
+"timing": "記載なし",
+"cond": "入学料の全額免除が許可された者のうち、特に経済的困窮が認められた者（若干名）",
+"url": "https://www.ibaraki.ac.jp/student/economicsupport/scholarship/iu_scholarship/index.html"
+},
+{
+"name": "茨城大学学研災等保険料給付金",
+"kind": "給付",
+"target": "全学部の新入生",
+"amount": "学種ごとの当該保険料（大学が負担）",
+"timing": "記載なし",
+"cond": "入学料の全額免除が認められた者のうち、特に経済的困窮が認められた者（若干名）",
+"url": "https://www.ibaraki.ac.jp/student/economicsupport/scholarship/iu_scholarship/index.html"
+},
+{
 "name": "修学支援金",
 "kind": "給付",
 "target": "全学部の1年生",
 "amount": "3万円（1回）",
 "timing": "在学中（11月ころ）",
-"cond": "高等教育の修学支援新制度の支援区分Ⅰの採用者。該当者全員"
+"cond": "高等教育の修学支援新制度の支援区分Ⅰの採用者。該当者全員（旺文社パスナビ。大学公式で未確認）"
 },
 {
 "name": "BYOD用端末購入支援金",
@@ -16605,18 +16635,10 @@
 "target": "全学部の1年生",
 "amount": "10万円（1回）",
 "timing": "在学中（12月ころ）",
-"cond": "生活保護世帯の者、または社会的養護が必要と認められ非課税世帯に属する者。該当者全員"
-},
-{
-"name": "成績優秀学生への授業料免除",
-"kind": "減免",
-"target": "全学部",
-"amount": "記載なし",
-"timing": "記載なし",
-"cond": "制度名のみ掲載（詳細はスチューデントライフサポート室へ）"
+"cond": "生活保護世帯の者、または社会的養護が必要と認められ非課税世帯に属する者。該当者全員（旺文社パスナビ。大学公式で未確認）"
 }
 ],
-"note": "旺文社パスナビ（原則2026年4月入学者対象。未定の項目は2025年度実績）による。対象学部の記載がないものは「全学部」とした"
+"note": "大学公式（本学独自奨学金・成績優秀学生授業料免除・大学独自の学費免除のページ、2026-11-25確認）による。日本人の学部生は原則として高等教育の修学支援新制度のみが入学料・授業料免除の対象で、大学独自の免除の対象外（被災学生を除く）。徴収猶予は新制度の対象外の学生なら申請できる。修学支援金・BYOD用端末購入支援金は旺文社パスナビの記載（公式ページは未確認）。"
 },
 "oc": {
 "year": "2027年度",
@@ -17429,6 +17451,16 @@
 }
 ],
 "note": "Kei-Net（2027年度入試）とベネッセ マナビジョン（2027年度入試情報）で照合。n＝共テ6教科に、個別試験だけで課される小論文・実技があれば1を足した数（面接・調査書・集団討論は数えない）。調査書の点は主体性評価。一般選抜の英語外部試験の扱いは両出典に記載なし。推薦・総合型は未収集。"
+},
+"_src": {
+"scholar": {
+"u": [
+"https://www.ibaraki.ac.jp/student/economicsupport/scholarship/iu_scholarship/index.html",
+"https://www.ibaraki.ac.jp/m/lifesupport/economicsupport/exemption/highgrade_exemption/index.html",
+"https://www.ibaraki.ac.jp/m/lifesupport/economicsupport/exemption/excnewsys_exemption/index.html"
+],
+"d": "2026-11-25"
+}
 }
 },
 "千葉大学": {
@@ -40596,7 +40628,9 @@
 "https://passnavi.obunsha.co.jp/univ/3190/schedule/",
 "https://www.waseda.jp/folaw/law/applicants/admission/",
 "https://passnavi.obunsha.co.jp/univ/3190/scholarship/",
-"https://search.keinet.ne.jp/2293/outline/department"
+"https://search.keinet.ne.jp/2293/outline/department",
+"https://www.waseda.jp/inst/admission/visiting/opencampus/",
+"https://www.waseda.jp/inst/admission/visiting/whole/"
 ],
 "licenses": [
 "教員免許（小・中・高 各教科）",
@@ -41469,7 +41503,8 @@
 "qtrend": "2026-11-07",
 "_via": "2026-11-07",
 "scholar": "2026-11-19",
-"research": "2026-11-20"
+"research": "2026-11-20",
+"oc": "2026-11-25"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -42462,7 +42497,26 @@
 "創造理工学部：建築、総合機械工、経営システム工、社会環境工、環境資源工",
 "先進理工学部：物理・応用物理、化学・生命化学、応用化学、生命医科学、電気・情報生命工",
 "人間科学部：人間環境科学・健康福祉科学・人間情報科学／スポーツ科学部：スポーツ科学"
+],
+"oc": {
+"year": "2027年度",
+"events": [],
+"url": "https://www.waseda.jp/inst/admission/visiting/opencampus/",
+"note": "2026年のオープンキャンパスは8/1・8/2に早稲田・西早稲田キャンパスで実施（予約不要・一部プログラムは予約制）、仙台7/20・大阪7/26の地方会場、人間科学部のオンライン型8/29も実施済み。2027年の日程は未発表（2026-11-25 公式で確認）。動画はDISCOVER WASEDAで常時公開。",
+"sources": [
+"https://www.waseda.jp/inst/admission/visiting/opencampus/",
+"https://www.waseda.jp/inst/admission/visiting/whole/"
 ]
+},
+"_src": {
+"oc": {
+"u": [
+"https://www.waseda.jp/inst/admission/visiting/opencampus/",
+"https://www.waseda.jp/inst/admission/visiting/whole/"
+],
+"d": "2026-11-25"
+}
+}
 },
 "慶應義塾大学": {
 "difficulty": {
