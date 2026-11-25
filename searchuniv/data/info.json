@@ -47620,7 +47620,10 @@
 "https://search.keinet.ne.jp/2204/outline/admission_employment",
 "https://passnavi.obunsha.co.jp/univ/2310/department/",
 "https://passnavi.obunsha.co.jp/univ/2310/scholarship/",
-"https://www.univ.gakushuin.ac.jp/admissions/docs/general_guide.pdf"
+"https://www.univ.gakushuin.ac.jp/admissions/docs/general_guide.pdf",
+"https://www.univ.gakushuin.ac.jp/events/cat/",
+"https://www.univ.gakushuin.ac.jp/news/31466.html",
+"https://www.univ.gakushuin.ac.jp/admissions/docs/General_Entrance_Examination_Data1.pdf"
 ],
 "kyotsu": {
 "kamoku": "3教科3科目（多くの学科）〜5教科6科目（経済学部6科目型など）",
@@ -47963,7 +47966,8 @@
 "careers": "2026-11-14",
 "research": "2026-11-15",
 "scholar": "2026-11-19",
-"methods": "2026-11-25"
+"methods": "2026-11-25",
+"oc": "2026-11-25"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -48773,7 +48777,19 @@
 "https://www.univ.gakushuin.ac.jp/admissions/docs/general_guide.pdf"
 ],
 "d": "2026-11-25"
+},
+"oc": {
+"u": [
+"https://www.univ.gakushuin.ac.jp/events/cat/"
+],
+"d": "2026-11-25"
 }
+},
+"oc": {
+"year": "2027年度",
+"events": [],
+"url": "https://www.univ.gakushuin.ac.jp/events/cat/",
+"note": "2026年度のオープンキャンパスは終了（夏：2026/7/31・8/1、秋：10/24・10/25。目白キャンパス来場型は要予約、オンライン動画配信あり。国際文化交流学部は戸山キャンパスで6/6にOC、9/28・10/21に夕方の説明会。11/21に予約制キャンパス見学会）。2027年度の日程は未発表"
 }
 },
 "明治大学": {
@@ -87595,7 +87611,9 @@
 "https://navi.tokiwa.ac.jp/admissions/result/index.html",
 "https://navi.tokiwa.ac.jp/admissions/honor/index.html",
 "https://navi.tokiwa.ac.jp/event/open-campus/",
-"https://navi.tokiwa.ac.jp/event/"
+"https://navi.tokiwa.ac.jp/event/",
+"https://navi.tokiwa.ac.jp/admissions/outline/university/general-kyotsu/",
+"https://navi.tokiwa.ac.jp/admissions/scholarship/index.html"
 ],
 "licenses": [
 "教員免許（幼・小・中・高 ほか）",
@@ -87642,14 +87660,15 @@
 {
 "kubun": "共テ利用",
 "name": "共通テスト利用方式",
-"kyotsu": "3教科（英・国＋数/理/地公/情から1）",
+"kyotsu": "3教科3科目（国語〔近代以降の文章〕・英語〔リスニング含む〕＋地歴公民/数学/理科/情報から1。健康栄養学科は選択が数学・理科から1）",
 "niji": "なし",
 "haiten": "共テのみ（500〜600点）",
 "kn": [
 1,
 0
 ],
-"note": "総合政策学部は選択科目200点"
+"note": "Ⅰ期・Ⅱ期共通。国語200（110点満点を換算）・英語200・選択（人間科学・看護100、総合政策200）。健康栄養学科は国語100・英語200・数学/理科200。個別試験なし。第3志望まで（看護は第1志望のみ）。検定料16,000円",
+"url": "https://navi.tokiwa.ac.jp/admissions/outline/university/general-kyotsu/"
 },
 {
 "kubun": "推薦",
@@ -87669,7 +87688,7 @@
 }
 ],
 "summary": "一般は国語＋1科目の2科目型と小論文型、共テ利用は英国＋1の3教科。",
-"note": "一般選抜A・B方式は大学公式の一般選抜ページ（2027年度）で確認。共テ利用の科目は公式で未確認（Kei-Net）。推薦・総合型は方式名と日程のみ公式で確認"
+"note": "一般選抜A・B方式と共通テスト利用選抜は大学公式の各ページ（2027年度入学者選抜）で確認（2026-11-25）。推薦・総合型は方式名と日程のみ公式で確認"
 },
 "departments": [
 {
@@ -87802,7 +87821,8 @@
 "eng": "2026-11-25",
 "scholar": "2026-11-25",
 "methods": "2026-11-25",
-"oc": "2026-11-25"
+"oc": "2026-11-25",
+"subjects": "2026-11-25"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -88393,55 +88413,62 @@
 "name": "諸澤幸雄奨学金（Ⅰ種）",
 "kind": "給付",
 "target": "人間科学部・総合政策学部・看護学部",
-"amount": "人間科学部・総合政策学部18.5万円／看護学部25万円（1年）",
-"timing": "在学中（4月・9月）",
-"cond": "心身・学術ともに優れ、経済的に学業継続が困難な在学生。10名（大学院・短大を含む）"
+"amount": "半年分の授業料の半額（給付期間1年、授業料減免）",
+"timing": "在学中（学内公募 4月・9月）",
+"cond": "心身・学術ともに優れ、経済的に学業継続が困難な在学生。書類審査・面接。10名（大学院・大学・短大の合計）",
+"url": "https://navi.tokiwa.ac.jp/admissions/scholarship/index.html"
 },
 {
 "name": "諸澤幸雄奨学金（Ⅱ種）",
 "kind": "給付",
 "target": "人間科学部・総合政策学部・看護学部",
-"amount": "人間科学部・総合政策学部37万円／看護学部50万円（6か月）",
-"timing": "在学中（随時）",
-"cond": "家計急変（家計支持者の失職・破産・事故・病気・死亡、火災・風水害など）で学業継続が困難な在学生。5名（大学院・短大を含む）"
+"amount": "半年分の授業料の全額（給付期間半年、授業料減免）",
+"timing": "在学中（学内公募 随時）",
+"cond": "家計支持者の失職・破産・事故・病気・死亡、火災・風水害等による家計急変で学業継続が困難な在学生。書類審査・面接。5名（大学院・大学・短大の合計）",
+"url": "https://navi.tokiwa.ac.jp/admissions/scholarship/index.html"
 },
 {
 "name": "常磐大学ローズヴィラ水戸奨学金（奨学金B）",
 "kind": "給付",
 "target": "全学部",
-"amount": "年35万円（1年）",
-"timing": "在学中（4月）",
-"cond": "福祉への志があり家庭の事情で学業継続が困難。2名"
+"amount": "35万円（1年）",
+"timing": "在学中（学内公募）",
+"cond": "福祉への志があり経済的に学業継続が困難な学生（大学・短大）。書類審査。2名",
+"url": "https://navi.tokiwa.ac.jp/admissions/scholarship/index.html"
 },
 {
 "name": "常磐大学ローズヴィラ水戸奨学金（奨学金C）",
 "kind": "給付",
 "target": "看護学部 看護学科",
-"amount": "年55万円（1年）",
-"timing": "在学中（4月、2年生以上）",
-"cond": "看護師として働くことを目指す者。2名"
+"amount": "55万円（1年）",
+"timing": "在学中（学内公募、2年生以上）",
+"cond": "看護学科2年生以上で学内外の奨学金（JASSOを除く）を受給していない者。書類審査・面接。2名",
+"url": "https://navi.tokiwa.ac.jp/admissions/scholarship/index.html"
 },
 {
 "name": "常磐大学ローズヴィラ水戸奨学金（介護職員初任者研修奨学金）",
 "kind": "給付",
 "target": "全学部",
-"amount": "5万円（1回）",
-"timing": "在学中（4月）",
-"cond": "福祉への志があり、当該年度に茨城県指定の介護職員初任者研修を修了した者。4名"
+"amount": "5万円（1回限り）",
+"timing": "在学中（学内公募）",
+"cond": "福祉への志があり、茨城県指定の法人・団体が実施する介護職員初任者研修を当該年度に修了した学生（大学・短大）。4名",
+"url": "https://navi.tokiwa.ac.jp/admissions/scholarship/index.html"
+},
+{
+"name": "外国人留学生奨学金",
+"kind": "給付",
+"target": "全学部（在留資格「留学」の正規課程生）",
+"amount": "27万円（1セメスター、授業料減免）",
+"timing": "入学後・在学中（学内公募 4月・9月）",
+"cond": "新入生1名・在学生1名。書類審査",
+"url": "https://navi.tokiwa.ac.jp/admissions/scholarship/index.html"
 }
 ],
-"note": "学業特待生は大学公式の特待生制度ページで確認（2026-11-25）。他の奨学金はパスナビ（原則2026年4月入学者対象）"
+"note": "学業特待生は大学公式の特待生制度ページ（2026-11-25確認、今回は再取得せず）。他の奨学金は大学公式の奨学金ページで確認（2026-11-25、ページに年度表記なし）"
 },
 "_src": {
 "schedule": {
 "u": [
-"https://navi.tokiwa.ac.jp/admissions/schedule/index.html"
-],
-"d": "2026-11-25"
-},
-"methods": {
-"u": [
-"https://navi.tokiwa.ac.jp/admissions/outline/university/general/",
 "https://navi.tokiwa.ac.jp/admissions/schedule/index.html"
 ],
 "d": "2026-11-25"
@@ -88458,12 +88485,6 @@
 ],
 "d": "2026-11-25"
 },
-"scholar": {
-"u": [
-"https://navi.tokiwa.ac.jp/admissions/honor/index.html"
-],
-"d": "2026-11-25"
-},
 "eng": {
 "u": [
 "https://navi.tokiwa.ac.jp/admissions/outline/university/general/"
@@ -88474,6 +88495,28 @@
 "u": [
 "https://navi.tokiwa.ac.jp/event/open-campus/",
 "https://navi.tokiwa.ac.jp/event/"
+],
+"d": "2026-11-25"
+},
+"methods": {
+"u": [
+"https://navi.tokiwa.ac.jp/admissions/outline/university/general/",
+"https://navi.tokiwa.ac.jp/admissions/outline/university/general-kyotsu/",
+"https://navi.tokiwa.ac.jp/admissions/schedule/index.html"
+],
+"d": "2026-11-25"
+},
+"subjects": {
+"u": [
+"https://navi.tokiwa.ac.jp/admissions/outline/university/general/",
+"https://navi.tokiwa.ac.jp/admissions/outline/university/general-kyotsu/"
+],
+"d": "2026-11-25"
+},
+"scholar": {
+"u": [
+"https://navi.tokiwa.ac.jp/admissions/scholarship/index.html",
+"https://navi.tokiwa.ac.jp/admissions/honor/index.html"
 ],
 "d": "2026-11-25"
 }
@@ -88508,6 +88551,111 @@
 ],
 "url": "https://navi.tokiwa.ac.jp/event/open-campus/",
 "note": "2026年のオープンキャンパスは3月〜10月に開催済み（公式の日程一覧）。申込はイベントの1か月前を目安に受付を開始する（公式）。2027年の日程は未掲載。"
+},
+"subjects": {
+"year": "2027年度入試",
+"rows": [
+{
+"f": "人間科学部 心理・教育・現代社会・コミュニケーション学科",
+"kubun": "一般",
+"name": "一般選抜A方式",
+"n": 2,
+"subj": "国語100（現代の国語・言語文化、古文・漢文除く）・英語/数学Ⅰ・Aから1 100",
+"kt": "",
+"eng": "得点換算（英検CSE1980・GTEC930・TOEFL iBT42・TOEIC1150以上で英語80点）",
+"note": "第1志望学科による選択",
+"url": "https://navi.tokiwa.ac.jp/admissions/outline/university/general/"
+},
+{
+"f": "人間科学部 健康栄養学科",
+"kubun": "一般",
+"name": "一般選抜A方式",
+"n": 2,
+"subj": "国語100・英語/数学Ⅰ・A/理科〔生物基礎〕から1 100",
+"kt": "",
+"eng": "得点換算（英語80点とみなす）",
+"note": "",
+"url": "https://navi.tokiwa.ac.jp/admissions/outline/university/general/"
+},
+{
+"f": "総合政策学部",
+"kubun": "一般",
+"name": "一般選抜A方式",
+"n": 2,
+"subj": "国語100・英語/数学Ⅰ・Aから1 100",
+"kt": "",
+"eng": "得点換算（英語80点とみなす）",
+"note": "",
+"url": "https://navi.tokiwa.ac.jp/admissions/outline/university/general/"
+},
+{
+"f": "看護学部",
+"kubun": "一般",
+"name": "一般選抜A方式",
+"n": 2,
+"subj": "国語100・英語/数学Ⅰ・A/理科〔生物基礎〕から1 100＋集団面接（段階評価）",
+"kt": "",
+"eng": "得点換算（英語80点とみなす）",
+"note": "第1志望のみ",
+"url": "https://navi.tokiwa.ac.jp/admissions/outline/university/general/"
+},
+{
+"f": "全学部",
+"kubun": "一般",
+"name": "一般選抜B方式",
+"n": 1,
+"subj": "小論文100（看護学部は集団面接あり）",
+"kt": "",
+"eng": "なし",
+"note": "",
+"url": "https://navi.tokiwa.ac.jp/admissions/outline/university/general/"
+},
+{
+"f": "人間科学部（健康栄養学科を除く）",
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜Ⅰ・Ⅱ期",
+"n": 3,
+"subj": "国語200・英語200・選択1科目100",
+"kt": "国語（近代以降の文章）・英語（リスニング含む）・地歴公民/数学/理科/情報から1",
+"eng": "",
+"note": "選択の配点は地歴公民100（公式ページの表で数学・理科・情報の配点は読み取れず）",
+"url": "https://navi.tokiwa.ac.jp/admissions/outline/university/general-kyotsu/"
+},
+{
+"f": "人間科学部 健康栄養学科",
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜Ⅰ・Ⅱ期",
+"n": 3,
+"subj": "国語100・英語200・数学/理科から1 200",
+"kt": "国語（近代以降の文章）・英語（リスニング含む）・数学/理科から1",
+"eng": "",
+"note": "数学200（理科の配点は公式ページの表で読み取れず）。数学・理科の高得点を使用",
+"url": "https://navi.tokiwa.ac.jp/admissions/outline/university/general-kyotsu/"
+},
+{
+"f": "総合政策学部",
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜Ⅰ・Ⅱ期",
+"n": 3,
+"subj": "国語200・英語200・選択1科目200",
+"kt": "国語（近代以降の文章）・英語（リスニング含む）・地歴公民/数学/理科/情報から1",
+"eng": "",
+"note": "地歴公民は100点満点を200点に換算",
+"url": "https://navi.tokiwa.ac.jp/admissions/outline/university/general-kyotsu/"
+},
+{
+"f": "看護学部",
+"kubun": "共テ利用",
+"name": "共通テスト利用選抜Ⅰ・Ⅱ期",
+"n": 3,
+"subj": "国語200・英語200・選択1科目100",
+"kt": "国語（近代以降の文章）・英語（リスニング含む）・地歴公民/数学/理科/情報から1",
+"eng": "",
+"note": "第1志望のみ",
+"url": "https://navi.tokiwa.ac.jp/admissions/outline/university/general-kyotsu/"
+}
+],
+"note": "大学公式の一般選抜・共通テスト利用選抜ページ（2027年度）で確認。共テの選択科目のうち一部の配点は表が読み取れず未記載"
 }
 },
 "流通経済大学": {

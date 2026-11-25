@@ -100,20 +100,31 @@
     "honor": "https://navi.tokiwa.ac.jp/admissions/honor/index.html",
     "kyotsu": "https://navi.tokiwa.ac.jp/admissions/outline/university/general-kyotsu/",
     "scholarship": "https://navi.tokiwa.ac.jp/admissions/scholarship/index.html",
-    "oc": "https://navi.tokiwa.ac.jp/event/open-campus/"
+    "oc": "https://navi.tokiwa.ac.jp/event/open-campus/",
+    "sogo": "https://navi.tokiwa.ac.jp/admissions/outline/university/sogo/",
+    "recommendation": "https://navi.tokiwa.ac.jp/admissions/outline/university/recommendation/",
+    "sports": "https://navi.tokiwa.ac.jp/admissions/outline/university/sports/",
+    "graduate": "https://navi.tokiwa.ac.jp/admissions/outline/university/graduate/"
    },
    "wait": {
-    "money": "2027年度入学生の学費は未掲載（公式の学費ページは2026年度入学生の参考値。2026-11-25確認）"
+    "money": "2027年度入学生の学費は未掲載（公式の学費ページは2026年度入学生の参考値。2026-11-25確認）",
+    "ratios": "2027年度入試の結果は入試後（公式に公表時期の記載は確認できず）。既存の2026年度公式値は今回再取得せず据え置き"
    },
    "fails": 1
   },
   {
    "name": "流通経済大学",
    "pages": {
-    "admission": "",
-    "yoko": "",
-    "result": ""
-   }
+    "admission": "https://www.rku.ac.jp/with/admissions/general/",
+    "yoko": "https://www.rku.ac.jp/with/shared/pdf/2027guidebook_general.pdf",
+    "result": "",
+    "yoko_ao": "https://www.rku.ac.jp/with/shared/pdf/2027guidebook_ao.pdf",
+    "yoko_recommend": "https://www.rku.ac.jp/with/shared/pdf/2027guidebook_recommend.pdf",
+    "tuition": "https://www.rku.ac.jp/admissions/tuition/",
+    "scholarship": "https://www.rku.ac.jp/support/life_support/scholarship/",
+    "ao_news_2027": "https://www.rku.ac.jp/news/43379/"
+   },
+   "fails": 1
   },
   {
    "name": "茨城県立農業大学校",
