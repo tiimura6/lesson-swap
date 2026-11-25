@@ -40824,7 +40824,10 @@
 "https://passnavi.obunsha.co.jp/univ/3190/scholarship/",
 "https://search.keinet.ne.jp/2293/outline/department",
 "https://www.waseda.jp/inst/admission/visiting/opencampus/",
-"https://www.waseda.jp/inst/admission/visiting/whole/"
+"https://www.waseda.jp/inst/admission/visiting/whole/",
+"https://www.waseda.jp/inst/admission/undergraduate/system/designated/",
+"https://www.waseda.jp/inst/admission/undergraduate/system/",
+"https://www.waseda.jp/inst/admission/undergraduate/system/center/"
 ],
 "licenses": [
 "教員免許（小・中・高 各教科）",
@@ -40896,6 +40899,24 @@
 "note": "法・政経（政治学科）・社会科学"
 },
 {
+"kubun": "推薦",
+"name": "指定校推薦入試",
+"content": "在籍高校経由（詳細は指定校宛ての入試要項）。書類・面接試験などを総合して判定（学部により異なる）",
+"req": "学部ごとの指定校の学校長推薦が必要。被推薦者の資格要件は学部により異なる",
+"kyotsu": "入学手続きの一環として共テ「英語」「国語」「数学I・A」の受験が必須（合否判定用ではない。国際教養を除く）",
+"note": "政治経済・法・教育・商・国際教養・文化構想・文・基幹理工・創造理工・先進理工・人間科学。社会科学部・スポーツ科学部は実施しない。推薦依頼は2026年7月中旬までに指定校へ、出願は11月以降",
+"url": "https://www.waseda.jp/inst/admission/undergraduate/system/designated/"
+},
+{
+"kubun": "推薦",
+"name": "基幹理工学部 地域探究・貢献入試（北九州地域連携型推薦入試）",
+"content": "書類・面接試験などを総合して判定",
+"req": "北九州地域の高校が対象（指定校宛ての要項に掲載）。卒業後は北九州キャンパスで4年次の研究を行い、IPSで大学院進学が前提",
+"kyotsu": "",
+"note": "基幹理工学部 学系2・学系3で若干名（最大10名程度）",
+"url": "https://www.waseda.jp/inst/admission/undergraduate/system/designated/"
+},
+{
 "kubun": "総合型",
 "name": "地域探究・貢献入試",
 "content": "書類→総合問題→共通テスト（3教科、基準点240）",
@@ -40913,7 +40934,7 @@
 }
 ],
 "summary": "一般は個別試験のみの一般方式と共テ併用方式が中心で、学部ごとに方式が大きく違う。共テのみ方式は一部学部。総合型は共テを課す地域探究型と学部独自型。",
-"note": "Kei-Netの一般選抜ページは途中までしか取れず、政治経済・商・理工系の個別試験の中身は確認できていない。学校推薦型（指定校など）はKei-Netに掲載がなく未確認。"
+"note": "学校推薦型は大学公式の学校推薦型選抜ページで確認（指定校推薦は11学部、社会科学・スポーツ科学は実施なし。北九州地域連携型推薦は基幹理工）。共通テスト利用入試は公式で「共テの成績のみ、または本学独自の書類選考を加えて判定」と確認したが、実施学部・教科数・配点は公式の概要PDF（2027_kyoute.pdf）・入試要項で未確認。一般選抜の各方式の科目・配点はKei-Net掲載値で、政治経済・商・理工系の個別試験の中身は未確認（公式の一般選抜概要PDFは取得できなかった）。"
 },
 "departments": [
 {
@@ -41698,7 +41719,8 @@
 "_via": "2026-11-07",
 "scholar": "2026-11-19",
 "research": "2026-11-20",
-"oc": "2026-11-25"
+"oc": "2026-11-25",
+"methods": "2026-11-25"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -42707,6 +42729,14 @@
 "u": [
 "https://www.waseda.jp/inst/admission/visiting/opencampus/",
 "https://www.waseda.jp/inst/admission/visiting/whole/"
+],
+"d": "2026-11-25"
+},
+"methods": {
+"u": [
+"https://www.waseda.jp/inst/admission/undergraduate/system/designated/",
+"https://www.waseda.jp/inst/admission/undergraduate/system/",
+"https://www.waseda.jp/inst/admission/undergraduate/system/center/"
 ],
 "d": "2026-11-25"
 }
@@ -265050,7 +265080,9 @@ null
 "money": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-13",
+"research": "2026-11-25",
+"kyotsu": "2026-11-25"
 },
 "faculties": [
 "児童スポーツ教育学部",
@@ -265201,7 +265233,10 @@ null
 "https://search.keinet.ne.jp/2275/general/border_rate",
 "https://search.keinet.ne.jp/2275/outline/expense",
 "https://search.keinet.ne.jp/2275/outline/admission_employment",
-"https://manabi.benesse.ne.jp/daigaku/school/3307/nyushi/gokaku-happyo/"
+"https://manabi.benesse.ne.jp/daigaku/school/3307/nyushi/gokaku-happyo/",
+"https://manabi.benesse.ne.jp/daigaku/school/3307/gakubu/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3307/nyushi/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3307/nyushi/hoshiki/kyotsu-test/index.html"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -265226,6 +265261,23 @@ null
 }
 ],
 "note": "ベネッセ マナビジョン（2027年度入試）掲載分。全学部同じ出願期間・発表日。ネット出願。検定料と、掲載のない他の日程は未確認"
+},
+"research": [
+"体育学（理論と実践の両面から指導者を育成）",
+"スポーツ文化・武道教育・スポーツ国際（スポーツを通じた国際人の育成）",
+"スポーツマネジメント（スポーツと生活全般の運営・管理）",
+"児童スポーツ教育・幼児教育保育（子どもと運動の関わり）",
+"保健医療（整復医療・救急医療）"
+],
+"kyotsu": {
+"kamoku": "3教科3〜4科目",
+"kyoka": [
+3
+],
+"rl": [],
+"rl_text": "英語はリーディング100点の記載のみ（リスニングの記載なし）",
+"note": "全学部・学科共通で3教科・配点300。国語（近代以降の文章）・数学・英語・地歴公民・理科・情報の選択方法は募集要項で確認。武道教育学科は実技、保健医療学部は面接を併せて課す",
+"year": "2027年度入試"
 }
 },
 "日本保健医療大学": {
@@ -265242,7 +265294,10 @@ null
 "founded": "2026-11-09",
 "access": "2026-11-09",
 "licenses": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-13",
+"research": "2026-11-25",
+"careers": "2026-11-25",
+"kyotsu": "2026-11-25"
 },
 "faculties": [
 "保健医療学部"
@@ -265275,7 +265330,9 @@ null
 "https://search.keinet.ne.jp/2129/general/border_rate",
 "https://search.keinet.ne.jp/2129/outline/licential",
 "https://manabi.benesse.ne.jp/daigaku/school/3174/nyushi/index.html",
-"https://passnavi.obunsha.co.jp/univ/2062/schedule/"
+"https://passnavi.obunsha.co.jp/univ/2062/schedule/",
+"https://manabi.benesse.ne.jp/daigaku/school/3174/",
+"https://manabi.benesse.ne.jp/daigaku/school/3174/syusyoku/index.html"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -265362,6 +265419,23 @@ null
 }
 ],
 "note": "マナビジョン（2027年度入試）とパスナビで一致。看護学科・理学療法学科とも同じ日程。検定料は未確認"
+},
+"research": [
+"看護学（看護師・保健師の養成、養護教諭二種なども条件付きで取得可）",
+"理学療法学（スポーツトレーナー経験のある教員による指導）",
+"スポーツとグローバル教育を組み合わせた学び",
+"学科ごとに専有キャンパスとベッド20床の実習施設"
+],
+"careers": "2025年3月卒業者93名のうち就職者84名（就職希望者の就職率90.3%）。看護学科は自治医科大学附属さいたま医療センター・さいたま赤十字病院・慶應義塾大学病院など埼玉・東京・千葉の病院、自治体（杉戸町役場・福島県庁など）。理学療法学科は埼玉協同病院・川口きゅうぽらリハビリテーション病院などの病院・リハビリ施設・整形外科クリニック。",
+"kyotsu": {
+"kamoku": "3教科（国・数・理・外から高得点3教科）",
+"kyoka": [
+3
+],
+"rl": [],
+"rl_text": "英語はリーディングのみ（リスニングは利用しない）",
+"note": "一般選抜 共通テスト利用型（第1回〜第4回、看護・理学療法）。4教科以上受験しても高得点3教科で判定。国語は近代以降の文章のみ、理科の基礎2科目で1科目扱い（地学基礎を除く）",
+"year": "2027年度入試"
 }
 },
 "日本医療科学大学": {
@@ -265380,7 +265454,9 @@ null
 "tuition": "2026-11-09",
 "money": "2026-11-09",
 "licenses": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-13",
+"research": "2026-11-25",
+"careers": "2026-11-25"
 },
 "faculties": [
 "保健医療学部"
@@ -265457,7 +265533,9 @@ null
 "https://search.keinet.ne.jp/2143/outline/expense",
 "https://manabi.benesse.ne.jp/daigaku/school/3172/nyushi/hoshiki/ippan/index.html",
 "https://passnavi.obunsha.co.jp/univ/1991/schedule/",
-"https://search.keinet.ne.jp/2143/general/schedule"
+"https://search.keinet.ne.jp/2143/general/schedule",
+"https://manabi.benesse.ne.jp/daigaku/school/3172/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3172/syusyoku/index.html"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -265524,7 +265602,14 @@ null
 }
 ],
 "note": "一般選抜はマナビジョン（2027年度入試）、共テ利用はパスナビ。一般の試験日はKei-Netとも一致。全学科共通の日程。検定料は未確認"
-}
+},
+"research": [
+"診療放射線・リハビリテーション（理学療法・作業療法）・看護・臨床工学・臨床検査の5分野",
+"全学科混合の「チーム医療演習」で多職種連携を学ぶ",
+"海外研修（シアトル）と台湾・ベトナム・フィリピンの大学との学術交流",
+"リメディアル教育と担任による国家試験対策"
+],
+"careers": "主な就職先：診療放射線学科は慶應義塾大学病院・東京大学医学部附属病院・国立がん研究センター中央病院など、理学療法学専攻は上尾中央総合病院・虎の門病院など、作業療法学専攻は千葉大学医学部附属病院など、看護学科は順天堂医院・東北大学病院など（保健師は市町村）、臨床工学科は東京科学大学病院など、臨床検査学科はビー・エム・エルなどの検査会社や東海大学医学部付属病院。"
 },
 "日本女子体育大学": {
 "difficulty": {
@@ -265542,7 +265627,9 @@ null
 "tuition": "2026-11-09",
 "money": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-13",
+"research": "2026-11-25",
+"licenses": "2026-11-25"
 },
 "faculties": [
 "体育学部"
@@ -265595,7 +265682,9 @@ null
 "https://search.keinet.ne.jp/2273/general/border_rate",
 "https://search.keinet.ne.jp/2273/outline/expense",
 "https://search.keinet.ne.jp/2273/outline/admission_employment",
-"https://manabi.benesse.ne.jp/daigaku/school/3305/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3305/nyushi/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3305/gakubu/index.html",
+"https://manabi.benesse.ne.jp/daigaku/school/3305/syusyoku/index.html"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -265672,7 +265761,22 @@ null
 }
 ],
 "note": "マナビジョン（2027年度入試）。検定料は掲載なし"
-}
+},
+"research": [
+"スポーツ科学（競技力向上・スポーツ指導・スポーツ支援）",
+"ダンス（舞踊芸術・指導法・ダンスマネジメント）",
+"健康スポーツ（スポーツ教育・健康運動指導・スポーツマネジメント）",
+"子ども運動（子どもの健康・発達、運動とこころ、保育支援）"
+],
+"licenses": [
+"中学校教諭一種免許状（保健体育）",
+"高等学校教諭一種免許状（保健体育）",
+"社会福祉主事（任用）",
+"幼稚園教諭一種免許状",
+"保育士",
+"小学校教諭一種免許状（取得プログラム・学内選考あり）",
+"特別支援学校教諭一種免許状（知的障害者・肢体不自由者・病弱者、取得プログラム・学内選考あり）"
+]
 },
 "日本工業大学": {
 "difficulty": {
@@ -265691,7 +265795,8 @@ null
 "money": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-13",
+"kyotsu": "2026-11-25"
 },
 "faculties": [
 "基幹工学部",
@@ -265791,7 +265896,8 @@ null
 "https://search.keinet.ne.jp/2157/outline/expense",
 "https://search.keinet.ne.jp/2157/outline/admission_employment",
 "https://search.keinet.ne.jp/2157/general/border_rate",
-"https://manabi.benesse.ne.jp/daigaku/school/3156/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3156/nyushi/index.html",
+"https://search.keinet.ne.jp/2157/general/exam_subject"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -265968,6 +266074,18 @@ null
 }
 ],
 "note": "マナビジョン（2027年度入試）。3学部共通の日程。総合型・推薦の検定料は掲載なし"
+},
+"kyotsu": {
+"kamoku": "3教科3科目",
+"kyoka": [
+3
+],
+"rl": [
+"4:1"
+],
+"rl_text": "全学科でR:L=4:1（R160・L40）",
+"note": "共通テスト利用方式（全8学科、600点満点）。数学1科目＋国・理・情から1。",
+"year": "2027年度入試"
 }
 },
 "日本文化大学": {
@@ -265983,7 +266101,9 @@ null
 "money": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-13",
+"kyotsu": "2026-11-25",
+"difficulty": "2026-11-25"
 },
 "departments": [
 {
@@ -266031,7 +266151,9 @@ null
 "https://search.keinet.ne.jp/2277/outline/expense",
 "https://passnavi.obunsha.co.jp/univ/3020/department/",
 "https://nihonbunka-u.ac.jp/about/feature/",
-"https://manabi.benesse.ne.jp/daigaku/school/3308/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3308/nyushi/index.html",
+"https://search.keinet.ne.jp/2277/general/exam_subject",
+"https://search.keinet.ne.jp/2277/general/border_rate"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -266186,6 +266308,23 @@ null
 }
 ],
 "note": "マナビジョン（2027年度入試）。出願はいずれも郵送必着。検定料は掲載なし"
+},
+"kyotsu": {
+"kamoku": "2教科2科目",
+"kyoka": [
+2
+],
+"rl": [
+"1:1"
+],
+"rl_text": "法学科の共通テスト利用方式でR:L=1:1（R50・L50）",
+"note": "共通テスト利用方式（200点満点）。一般方式は共通テストを使わない。",
+"year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "37.5",
+"kyotei": "53%",
+"year": "2027年度入試用"
 }
 },
 "日本映画大学": {
@@ -266307,7 +266446,8 @@ null
 "money": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-13",
+"kyotsu": "2026-11-25"
 },
 "faculties": [
 "生命歯学部",
@@ -266378,7 +266518,8 @@ null
 "https://search.keinet.ne.jp/2269/outline/expense",
 "https://search.keinet.ne.jp/2269/outline/admission_employment",
 "https://search.keinet.ne.jp/2269/general/border_rate",
-"https://telemail.jp/shingaku/university/10001096/examination/general"
+"https://telemail.jp/shingaku/university/10001096/examination/general",
+"https://search.keinet.ne.jp/2269/general/exam_subject"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -266421,6 +266562,16 @@ null
 }
 ],
 "note": "テレメール（2027年度入学、2026/6/1時点）。生命歯学部（東京）と新潟生命歯学部で同じ日程。試験地は東京都。必要書類は締切日必着。検定料は掲載なし"
+},
+"kyotsu": {
+"kamoku": "3教科3科目",
+"kyoka": [
+3
+],
+"rl": [],
+"rl_text": "英語のR:L配点は掲載なし（募集要項で確認）",
+"note": "共通テスト利用方式（生命歯学部・新潟生命歯学部）。英語リーディングは必須。",
+"year": "2027年度入試"
 }
 },
 "日本獣医生命科学大学": {
