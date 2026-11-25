@@ -20646,6 +20646,29 @@
 "kyotsu",
 "difficulty"
 ]
+},
+{
+"name": "高千穂大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"founded",
+"licenses",
+"difficulty"
+],
+"keinet": "2238"
+},
+{
+"name": "千葉科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu"
+],
+"keinet": "2193"
 }
 ],
 "failed": [],
@@ -20927,35 +20950,10 @@
 "平成国際大学": 1,
 "日本映画大学": 1,
 "東京基督教大学": 2,
-"東洋英和女学院大学": 1
+"東洋英和女学院大学": 1,
+"ビジネス・ブレークスルー大学（通信制のみ）": 1
 },
 "enrich": [
-{
-"name": "高千穂大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students",
-"founded",
-"licenses",
-"difficulty"
-],
-"keinet": "2238"
-},
-{
-"name": "ビジネス・ブレークスルー大学（通信制のみ）",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students",
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
-]
-},
 {
 "name": "日本ウェルネススポーツ大学",
 "need": [
@@ -20966,16 +20964,6 @@
 "kyotsu"
 ],
 "keinet": "2112"
-},
-{
-"name": "千葉科学大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu"
-],
-"keinet": "2193"
 },
 {
 "name": "武雄アジア大学",
@@ -36204,6 +36192,22 @@
 "fails": 1,
 "last_fail": "2026-11-26",
 "note": "2026-11-26 Kei-Net 2319 exam_subject（2027年度）に共通テスト利用の欄が無く、前期・後期の個別学力検査のみ掲載"
+},
+{
+"name": "ビジネス・ブレークスルー大学（通信制のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"fails": 1,
+"last_fail": "2026-11-26",
+"note": "2026-11-26 Kei-Net コード不明。パスナビ 3035 トップと公式の2025年度春期募集要項に学生数・資格・進路の記載なし"
 },
 {
 "name": "島根大学",
