@@ -1,0 +1,598 @@
+[
+ {
+  "name": "東洋英和女学院大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "神奈川県横浜市緑区",
+  "pref_name": "神奈川県",
+  "city": "横浜市緑区",
+  "hp": "https://www.toyoeiwa.ac.jp/daigaku/",
+  "reading": "とうようえいわじょがくいんだいがく",
+  "features": [
+   "心理・保育・国際の3学科を擁する人間社会学部の女子大学。",
+   "年内合格型の総合型選抜やスカラシップ入試など多彩な方式を用意。",
+   "キリスト教精神に基づく少人数教育と資格取得支援が特徴。"
+  ],
+  "memo": "一般選抜は国語・英語の2教科で面接なし。スカラシップ入試は2年間学費免除。",
+  "info": {
+   "faculties": [
+    "人間社会学部"
+   ],
+   "departments": [
+    {
+     "f": "人間社会学部",
+     "d": [
+      "総合心理学科",
+      "子ども教育学科",
+      "国際学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜37.5",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 専願（1期・2期・3期）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "書類・面接（学科により筆記・口頭試問等）",
+      "req": "専願",
+      "url": "https://www.toyoeiwa.ac.jp/daigaku/prospect/nyushi/info/info_02.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 基礎学力",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "書類・国語・英語（面接なし）",
+      "req": "併願可",
+      "url": "https://www.toyoeiwa.ac.jp/daigaku/prospect/nyushi/nyushi_guide.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 自己推薦 活動評価型（前期・後期）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "書類・面接",
+      "req": "併願可",
+      "url": "https://www.toyoeiwa.ac.jp/daigaku/prospect/nyushi/nyushi_guide.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 自己推薦 言語・外国語検定",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "資格・書類・面接",
+      "req": "併願可",
+      "url": "https://www.toyoeiwa.ac.jp/daigaku/prospect/nyushi/nyushi_guide.html"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 指定校（1期・2期・3期）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "書類・面接",
+      "req": "専願",
+      "url": "https://www.toyoeiwa.ac.jp/daigaku/prospect/nyushi/nyushi_guide.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "特別選抜 スカラシップ入学試験",
+      "kyotsu": "課さない",
+      "niji": "国語・英語（面接なし）",
+      "content": null,
+      "req": "併願可",
+      "url": "https://www.toyoeiwa.ac.jp/daigaku/prospect/nyushi/info/info_01.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期・後期",
+      "kyotsu": "課さない",
+      "niji": "国語・英語（面接なし）",
+      "content": null,
+      "req": "併願可",
+      "url": "https://www.toyoeiwa.ac.jp/daigaku/prospect/nyushi/nyushi_guide.html"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "人間社会学部 全学科",
+      "kubun": "一般",
+      "name": "一般選抜 前期・後期",
+      "n": 2,
+      "subj": "国語・英語",
+      "kt": "",
+      "eng": null
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 専願 1期",
+      "apply": "9/28〜10/6",
+      "exam": "10/18",
+      "result": "11/1",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 専願 2期",
+      "apply": "11/1〜11/10",
+      "exam": "11/22",
+      "result": "12/1",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 専願 3期",
+      "apply": "3/8〜3/12",
+      "exam": "3/16",
+      "result": "3/18",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 指定校 1期",
+      "apply": "11/1〜11/10",
+      "exam": "11/22",
+      "result": "12/1",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "特別選抜 スカラシップ入学試験",
+      "apply": "12/1〜12/9",
+      "exam": "12/19",
+      "result": "12/24",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 前期",
+      "apply": "1/12〜1/22",
+      "exam": "2/2",
+      "result": "2/4",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 後期",
+      "apply": "2/15〜2/22",
+      "exam": "3/2",
+      "result": "3/4",
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": "https://www.toyoeiwa.ac.jp/daigaku/prospect/opencampus/oc2026summer.html"
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.toyoeiwa.ac.jp/daigaku/prospect/nyushi/nyushi_guide.html",
+    "https://www.toyoeiwa.ac.jp/daigaku/prospect/nyushi/info/info_02.html",
+    "https://www.toyoeiwa.ac.jp/daigaku/prospect/nyushi/info/info_01.html",
+    "https://www.toyoeiwa.ac.jp/daigaku/about/school_expenses/",
+    "https://www.toyoeiwa.ac.jp/daigaku/prospect/opencampus/oc2026summer.html",
+    "https://passnavi.obunsha.co.jp/univ/3350/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.toyoeiwa.ac.jp/daigaku/prospect/nyushi/nyushi_guide.html",
+   "https://www.toyoeiwa.ac.jp/daigaku/prospect/nyushi/info/info_02.html",
+   "https://www.toyoeiwa.ac.jp/daigaku/prospect/nyushi/info/info_01.html",
+   "https://www.toyoeiwa.ac.jp/daigaku/about/school_expenses/",
+   "https://www.toyoeiwa.ac.jp/daigaku/prospect/opencampus/oc2026summer.html",
+   "https://passnavi.obunsha.co.jp/univ/3350/difficulty/"
+  ]
+ },
+ {
+  "name": "沖縄県立芸術大学",
+  "cat": "public",
+  "type": "公立",
+  "pref": "沖縄県那覇市",
+  "pref_name": "沖縄県",
+  "city": "那覇市",
+  "hp": "http://www.okigei.ac.jp/",
+  "reading": "おきなわけんりつげいじゅつだいがく",
+  "features": [
+   "美術工芸学部と音楽学部の2学部を置く沖縄の公立芸術大学。",
+   "琉球芸能専攻など沖縄独自の伝統文化・芸術を専門的に学べる。",
+   "県内出身者と県外出身者で入学料が異なる公立大学料金体系。"
+  ],
+  "memo": "一般選抜は共通テストと実技等の個別試験。県内・県外で入学料差あり。",
+  "info": {
+   "faculties": [
+    "美術工芸学部",
+    "音楽学部"
+   ],
+   "departments": [
+    {
+     "f": "美術工芸学部",
+     "d": [
+      "美術学科",
+      "デザイン工芸学科"
+     ]
+    },
+    {
+     "f": "音楽学部",
+     "d": [
+      "音楽学科（音楽表現専攻・音楽文化専攻・琉球芸能専攻）"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜42.5",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.okigei.ac.jp/wp-content/uploads/2026/06/opua-arts-exam-app2027.pdf"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.okigei.ac.jp/news/n-important/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%80%80%E5%85%A5%E5%AD%A6%E8%80%85%E9%81%B8%E6%8A%9C%E8%A6%81%E9%A0%85%E3%82%92%E6%8E%B2%E8%BC%89.html"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": "https://www.okigei.ac.jp/experience/opencampus/opencampus-index.html"
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.okigei.ac.jp/news/n-important/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%80%80%E5%85%A5%E5%AD%A6%E8%80%85%E9%81%B8%E6%8A%9C%E8%A6%81%E9%A0%85%E3%82%92%E6%8E%B2%E8%BC%89.html",
+    "https://www.okigei.ac.jp/wp-content/uploads/2026/06/opua-arts-exam-app2027.pdf",
+    "https://www.okigei.ac.jp/investigate/students/campuslife/tuition.html",
+    "https://www.okigei.ac.jp/investigate/students/campuslife/scholarship-mext.html",
+    "https://www.okigei.ac.jp/experience/opencampus/opencampus-index.html",
+    "https://search.keinet.ne.jp/1705/general/border_rate"
+   ]
+  },
+  "sources": [
+   "https://www.okigei.ac.jp/news/n-important/%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6%E3%80%80%E5%85%A5%E5%AD%A6%E8%80%85%E9%81%B8%E6%8A%9C%E8%A6%81%E9%A0%85%E3%82%92%E6%8E%B2%E8%BC%89.html",
+   "https://www.okigei.ac.jp/wp-content/uploads/2026/06/opua-arts-exam-app2027.pdf",
+   "https://www.okigei.ac.jp/investigate/students/campuslife/tuition.html",
+   "https://www.okigei.ac.jp/investigate/students/campuslife/scholarship-mext.html",
+   "https://www.okigei.ac.jp/experience/opencampus/opencampus-index.html",
+   "https://search.keinet.ne.jp/1705/general/border_rate"
+  ]
+ },
+ {
+  "name": "県立広島大学",
+  "cat": "public",
+  "type": "公立",
+  "pref": "広島県広島市南区",
+  "pref_name": "広島県",
+  "city": "広島市南区",
+  "hp": "http://www.pu-hiroshima.ac.jp/",
+  "reading": "けんりつひろしまだいがく",
+  "features": [
+   "地域創生・生物資源科学・保健福祉の3学部を擁する公立総合大学。",
+   "一般選抜（前期・後期）のほか学校推薦型・総合型選抜を実施。",
+   "高等教育の修学支援新制度に加え、大学独自の授業料減免制度がある。"
+  ],
+  "memo": "前期は2/25、後期は3/12実施。生物資源科学部の共テ得点率は47%〜60%。",
+  "info": {
+   "faculties": [
+    "地域創生学部",
+    "生物資源科学部",
+    "保健福祉学部"
+   ],
+   "departments": [
+    {
+     "f": "生物資源科学部",
+     "d": [
+      "地域資源開発学科",
+      "生命環境学科（生命科学コース・環境科学コース）"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "42.5〜47.5",
+    "kyotei": "47%〜60%",
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "前期日程",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.pu-hiroshima.ac.jp/uploaded/attachment/25130.pdf"
+     },
+     {
+      "kubun": "一般",
+      "name": "後期日程",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.pu-hiroshima.ac.jp/uploaded/attachment/25130.pdf"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.pu-hiroshima.ac.jp/site/undergraduate-selection/boshuyoukou.html"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.pu-hiroshima.ac.jp/site/undergraduate-selection/boshuyoukou.html"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "前期日程",
+      "apply": null,
+      "exam": "2/25",
+      "result": "3/8",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "後期日程",
+      "apply": null,
+      "exam": "3/12",
+      "result": "3/20",
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": "https://www.pu-hiroshima.ac.jp/site/opencampus/opencampus.html"
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "全学部",
+      "admission": null,
+      "tuition": 535800,
+      "facility": null,
+      "practical": null,
+      "other": null,
+      "first_year": null,
+      "four_year": null
+     }
+    ]
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.pu-hiroshima.ac.jp/site/undergraduate-selection/senbatsuyoukou.html",
+    "https://www.pu-hiroshima.ac.jp/site/undergraduate-selection/boshuyoukou.html",
+    "https://www.pu-hiroshima.ac.jp/uploaded/attachment/25130.pdf",
+    "https://www.pu-hiroshima.ac.jp/soshiki/general-education/04-tuition.html",
+    "https://www.pu-hiroshima.ac.jp/p/introducing/support/gaiyou/",
+    "https://www.pu-hiroshima.ac.jp/site/opencampus/opencampus.html",
+    "https://passnavi.obunsha.co.jp/univ/1271/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.pu-hiroshima.ac.jp/site/undergraduate-selection/senbatsuyoukou.html",
+   "https://www.pu-hiroshima.ac.jp/site/undergraduate-selection/boshuyoukou.html",
+   "https://www.pu-hiroshima.ac.jp/uploaded/attachment/25130.pdf",
+   "https://www.pu-hiroshima.ac.jp/soshiki/general-education/04-tuition.html",
+   "https://www.pu-hiroshima.ac.jp/p/introducing/support/gaiyou/",
+   "https://www.pu-hiroshima.ac.jp/site/opencampus/opencampus.html",
+   "https://passnavi.obunsha.co.jp/univ/1271/difficulty/"
+  ]
+ },
+ {
+  "name": "新見公立大学",
+  "cat": "public",
+  "type": "公立",
+  "pref": "岡山県新見市",
+  "pref_name": "岡山県",
+  "city": "新見市",
+  "hp": "https://www.niimi-u.ac.jp/",
+  "reading": "にいみこうりつだいがく",
+  "features": [
+   "健康科学部に健康保育学科・看護学科等を置く岡山県の公立大学。",
+   "2027年度入試で一般選抜前期日程の募集人員や共テ教科を変更。",
+   "授業料は年額535,800円の公立大学標準額。"
+  ],
+  "memo": "2027年度一般選抜前期は1/25〜2/3出願、2/25試験。共テ教科変更に注意。",
+  "info": {
+   "faculties": [
+    "健康科学部"
+   ],
+   "departments": [
+    {
+     "f": "健康科学部",
+     "d": [
+      "健康保育学科",
+      "看護学科"
+     ]
+    }
+   ],
+   "kyotsu": {
+    "kamoku": "指定の「国語」「外国語」と選択の「数学」「理科」など（学科により異なる）",
+    "kyoka": [],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "前期日程",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.niimi-u.ac.jp/index.cfm/11,13995,c,html/13995/20260716-180700.pdf"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": "https://www.niimi-u.ac.jp/index.cfm/6,0,104,html"
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.niimi-u.ac.jp/index.cfm/11,13995,c,html/13995/20260716-180700.pdf",
+    "https://www.niimi-u.ac.jp/index.cfm/11,2535,c,html/2535/20250522-084437.pdf",
+    "https://www.niimi-u.ac.jp/index.cfm/17,8707,c,html/8707/jyugyouryoukitei.pdf",
+    "https://www.niimi-u.ac.jp/index.cfm/22,0,59,212,html",
+    "https://www.niimi-u.ac.jp/index.cfm/6,0,104,html",
+    "https://passnavi.obunsha.co.jp/univ/1266/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.niimi-u.ac.jp/index.cfm/11,13995,c,html/13995/20260716-180700.pdf",
+   "https://www.niimi-u.ac.jp/index.cfm/11,2535,c,html/2535/20250522-084437.pdf",
+   "https://www.niimi-u.ac.jp/index.cfm/17,8707,c,html/8707/jyugyouryoukitei.pdf",
+   "https://www.niimi-u.ac.jp/index.cfm/22,0,59,212,html",
+   "https://www.niimi-u.ac.jp/index.cfm/6,0,104,html",
+   "https://passnavi.obunsha.co.jp/univ/1266/difficulty/"
+  ]
+ },
+ {
+  "name": "広島市立大学",
+  "cat": "public",
+  "type": "公立",
+  "pref": "広島県広島市安佐南区",
+  "pref_name": "広島県",
+  "city": "広島市安佐南区",
+  "hp": "http://www.hiroshima-cu.ac.jp/",
+  "reading": "ひろしましりつだいがく",
+  "features": [
+   "国際学部・情報科学部・芸術学部を擁する広島市の公立大学。",
+   "一般選抜は前期・後期日程を実施し、学校推薦型選抜も設定。",
+   "広島市内の者と市外の者で入学料が異なる（282,000円／423,000円）。"
+  ],
+  "memo": "一般選抜出願は1/25〜2/3。前期2/25、後期3/12。共テ得点率は52%〜66%。",
+  "info": {
+   "faculties": [
+    "国際学部",
+    "情報科学部",
+    "芸術学部"
+   ],
+   "difficulty": {
+    "hensachi": "40.0",
+    "kyotei": "52%〜66%",
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "前期日程",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.hiroshima-cu.ac.jp/guide/category0001/c00045406/"
+     },
+     {
+      "kubun": "一般",
+      "name": "後期日程",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.hiroshima-cu.ac.jp/guide/category0001/c00045406/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.hiroshima-cu.ac.jp/guide/category0001/content0046/"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-08-08",
+      "type": "来場",
+      "title": "広島市立大学オープンキャンパス2026"
+     }
+    ],
+    "url": "https://www.hiroshima-cu.ac.jp/guide/c00045418/c00040141/"
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.hiroshima-cu.ac.jp/guide/category0001/c00045406/",
+    "https://www.hiroshima-cu.ac.jp/guide/category0001/content0046/",
+    "https://www.hiroshima-cu.ac.jp/guide/content0034/",
+    "https://www.hiroshima-cu.ac.jp/campuslife/category0002/",
+    "https://www.hiroshima-cu.ac.jp/news/c00096324/",
+    "https://www.hiroshima-cu.ac.jp/guide/c00045418/c00040141/",
+    "https://passnavi.obunsha.co.jp/univ/1275/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.hiroshima-cu.ac.jp/guide/category0001/c00045406/",
+   "https://www.hiroshima-cu.ac.jp/guide/category0001/content0046/",
+   "https://www.hiroshima-cu.ac.jp/guide/content0034/",
+   "https://www.hiroshima-cu.ac.jp/campuslife/category0002/",
+   "https://www.hiroshima-cu.ac.jp/news/c00096324/",
+   "https://www.hiroshima-cu.ac.jp/guide/c00045418/c00040141/",
+   "https://passnavi.obunsha.co.jp/univ/1275/difficulty/"
+  ]
+ }
+]
