@@ -47033,7 +47033,10 @@
 "https://search.keinet.ne.jp/2214/general/exam_subject",
 "https://www.icu.ac.jp/admissions/undergraduate/images/AY2027_sogo.pdf",
 "https://www.icu.ac.jp/admissions/undergraduate/images/2027ki.pdf",
-"https://www.icu.ac.jp/admissions/undergraduate/images/27nyushi.pdf"
+"https://www.icu.ac.jp/admissions/undergraduate/images/27nyushi.pdf",
+"https://www.icu.ac.jp/admissions/undergraduate/event/",
+"https://www.icu.ac.jp/admissions/undergraduate/data/",
+"https://www.icu.ac.jp/admissions/undergraduate/images/AY2027_General_Admissions.pdf"
 ],
 "methods": {
 "year": "2027年度入試",
@@ -47155,7 +47158,7 @@
 "money": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
-"ratios": "2026-11-06",
+"ratios": "2026-11-25",
 "qtrend": "2026-11-07",
 "_via": "2026-11-07",
 "licenses": "2026-11-14",
@@ -47163,7 +47166,8 @@
 "research": "2026-11-15",
 "scholar": "2026-11-19",
 "kyotsu": "2026-11-20",
-"methods": "2026-11-25"
+"methods": "2026-11-25",
+"oc": "2026-11-25"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -47200,7 +47204,8 @@
 "exam": "2/6",
 "result": "2/12",
 "proc": "2/22",
-"note": "授業料・施設費の延納は3月1日（月）まで可"
+"note": "授業料・施設費の延納は3月1日（月）まで可。書類提出期限は1/20（当日消印有効）",
+"url": "https://www.icu.ac.jp/admissions/undergraduate/exam/general/"
 },
 {
 "kubun": "一般",
@@ -47209,7 +47214,8 @@
 "apply": "1/6〜1/19",
 "exam": "1次2/6・2次2/20",
 "result": "1次2/12・最終2/26",
-"proc": "3/8"
+"proc": "3/8",
+"url": "https://www.icu.ac.jp/admissions/undergraduate/exam/general/"
 },
 {
 "kubun": "総合型",
@@ -47300,26 +47306,91 @@
 "note": "英検の基準は一般選抜分ではパスナビに記載なし。募集要項で要確認"
 },
 "ratios": {
-"kind": "実質倍率（受験者÷合格者。受験者未判明時は志願者÷合格者）",
+"kind": "志願者÷合格者（大学公式の志願者数・合格者数からの計算値）",
 "rows": [
 {
 "kubun": "一般",
-"unit": "大学計（一般選抜）",
+"unit": "一般選抜計（4区分）",
 "y": {
-"2025": 3.5,
-"2026": 3.6
-}
+"2025": 3.7,
+"2026": 3.7
+},
+"url": "https://www.icu.ac.jp/admissions/undergraduate/data/"
+},
+{
+"kubun": "総合型",
+"unit": "総合型選抜〈4月入学専願〉英語外部試験利用",
+"y": {
+"2026": 4.9,
+"2027": 4.1
+},
+"url": "https://www.icu.ac.jp/admissions/undergraduate/data/"
+},
+{
+"kubun": "推薦",
+"unit": "学校推薦型選抜計（ICU高校・指定高校・キリスト教学校教育同盟加盟校）",
+"y": {
+"2025": 1.0,
+"2026": 1.1
+},
+"url": "https://www.icu.ac.jp/admissions/undergraduate/data/"
 },
 {
 "kubun": "一般",
-"unit": "教養学部 アーツ・サイエンス学科 人文・社会科学",
+"unit": "教養学部 一般選抜 人文・社会科学選択",
 "y": {
-"2025": 3.3,
-"2026": 3.3
-}
+"2025": 3.5,
+"2026": 3.4
+},
+"url": "https://www.icu.ac.jp/admissions/undergraduate/data/"
+},
+{
+"kubun": "一般",
+"unit": "教養学部 一般選抜 数理・自然科学選択（2025は自然科学選択）",
+"y": {
+"2025": 2.7,
+"2026": 2.8
+},
+"url": "https://www.icu.ac.jp/admissions/undergraduate/data/"
+},
+{
+"kubun": "一般",
+"unit": "教養学部 一般選抜 日英バイリンガル面接利用",
+"y": {
+"2025": 6.9,
+"2026": 9.7
+},
+"url": "https://www.icu.ac.jp/admissions/undergraduate/data/"
+},
+{
+"kubun": "一般",
+"unit": "教養学部 一般選抜 英語外部試験利用",
+"y": {
+"2025": 15.5,
+"2026": 19.0
+},
+"url": "https://www.icu.ac.jp/admissions/undergraduate/data/"
+},
+{
+"kubun": "総合型",
+"unit": "総合型選抜〈4月入学〉外国教育制度利用（帰国生）",
+"y": {
+"2026": 5.4,
+"2027": 5.6
+},
+"url": "https://www.icu.ac.jp/admissions/undergraduate/data/"
+},
+{
+"kubun": "総合型",
+"unit": "総合型選抜 IBDP利用",
+"y": {
+"2026": 5.0,
+"2027": 7.3
+},
+"url": "https://www.icu.ac.jp/admissions/undergraduate/data/"
 }
 ],
-"note": "河合塾Kei-Net掲載値（2025・2026年度入試）"
+"note": "大学公式「入学者選抜結果」は志願者数・合格者数のみのため計算値（転編入を含む）。公式は2025〜2027年度の3年分（2027年度は総合型など一部）。参考：Kei-Netの実質倍率（受験者÷合格者）は一般計 2025=3.5・2026=3.6"
 },
 "qtrend": {
 "years": "2026年度",
@@ -47429,13 +47500,6 @@
 "year": "2027年度入試"
 },
 "_src": {
-"schedule": {
-"u": [
-"https://www.icu.ac.jp/admissions/undergraduate/images/AY2027_sogo.pdf",
-"https://www.icu.ac.jp/admissions/undergraduate/images/2027ki.pdf"
-],
-"d": "2026-11-25"
-},
 "methods": {
 "u": [
 "https://www.icu.ac.jp/admissions/undergraduate/images/AY2027_sogo.pdf",
@@ -47443,7 +47507,69 @@
 "https://www.icu.ac.jp/admissions/undergraduate/images/27nyushi.pdf"
 ],
 "d": "2026-11-25"
+},
+"oc": {
+"u": [
+"https://www.icu.ac.jp/admissions/undergraduate/event/"
+],
+"d": "2026-11-25"
+},
+"ratios": {
+"u": [
+"https://www.icu.ac.jp/admissions/undergraduate/data/"
+],
+"d": "2026-11-25"
+},
+"schedule": {
+"u": [
+"https://www.icu.ac.jp/admissions/undergraduate/exam/general/",
+"https://www.icu.ac.jp/admissions/undergraduate/images/AY2027_General_Admissions.pdf"
+],
+"d": "2026-11-25"
 }
+},
+"oc": {
+"year": "2026年度",
+"events": [
+{
+"date": "2026/11/28",
+"type": "来場型",
+"title": "ICU Science Day（リベラルアーツで学ぶサイエンス／ミニ・オープンキャンパス）",
+"note": "10:00〜15:00、三鷹キャンパス"
+},
+{
+"date": "2027/1/25",
+"type": "オンライン",
+"title": "ICU生と話そう！オンライン・リベラルアーツ・ラウンジ（総合型選抜〈4月入学専願〉、高校1・2年生向け）",
+"note": "19:00〜20:00、Zoom。申込は約1か月前から"
+},
+{
+"date": "2027/3/20",
+"type": "来場型",
+"title": "春のオープンキャンパス",
+"note": "10:00〜16:00。詳細は約1か月前に掲載。学長ガイダンス・模擬授業・キャンパスツアー"
+},
+{
+"date": "随時（2027年3月末まで）",
+"type": "オンライン",
+"title": "オンラインオープンキャンパス（特設サイト・オンデマンド）",
+"note": ""
+},
+{
+"date": "毎週月・金（2027年3月まで）",
+"type": "来場型",
+"title": "学生ガイドによるキャンパスツアー（個別見学）",
+"note": "オンラインフォームで要予約"
+},
+{
+"date": "随時",
+"type": "来場型",
+"title": "自由見学",
+"note": "平日は広報室、土日祝は正門守衛所へ"
+}
+],
+"url": "https://www.icu.ac.jp/admissions/undergraduate/event/",
+"note": "高校単位の団体見学は平日のみ・1か月前までにメールで申込"
 }
 },
 "学習院大学": {
@@ -277222,7 +277348,8 @@ null
 "licenses": "2026-11-11",
 "money": "2026-11-11",
 "schedule": "2026-11-14",
-"methods": "2026-11-14"
+"methods": "2026-11-14",
+"careers": "2026-11-25"
 },
 "faculties": [
 "医療看護学部"
@@ -277296,7 +277423,8 @@ null
 "https://search.keinet.ne.jp/2530/general/exam_subject",
 "https://manabi.benesse.ne.jp/daigaku/school/3683/index.html",
 "https://manabi.benesse.ne.jp/daigaku/school/3683/nyushi/gokaku-happyo/",
-"https://manabi.benesse.ne.jp/daigaku/school/3683/nyushi/"
+"https://manabi.benesse.ne.jp/daigaku/school/3683/nyushi/",
+"https://search.keinet.ne.jp/2530/outline/admission_employment"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -277427,7 +277555,8 @@ null
 ],
 "summary": "一般選抜は3科目に加え、理学療法学科はグループワークと面接、看護学科は面接と書類を課す。共テ利用・公募推薦・総合型（1〜3期）もある。",
 "note": "ベネッセ マナビジョン（2027年度入試）。看護学科は設置届出中の表記。共テ利用の科目は未確認"
-}
+},
+"careers": "薬剤師国家試験の合格状況：2026年 受験296人・合格252人（85.1%、新卒95.9%）、2025年 81.5%（新卒86.8%）。就職先の内訳は出典に記載なし。"
 },
 "福岡国際音楽大学": {
 "difficulty": {
