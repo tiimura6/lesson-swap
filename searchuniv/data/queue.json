@@ -20139,6 +20139,40 @@
 "fails": 1,
 "last_fail": "2026-11-25",
 "note": "2026-11-25 Kei-Netの学部ページに概要・特色の記載なし、取得可能資格のページなし（リンク無効）、共通テスト利用方式の掲載なし（2026-11-25）"
+},
+{
+"name": "明海大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2151"
+},
+{
+"name": "星薬科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"kyotsu",
+"difficulty"
+],
+"keinet": "2280"
+},
+{
+"name": "昭和医科大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"kyotsu",
+"difficulty"
+],
+"keinet": "2223"
 }
 ],
 "failed": [],
@@ -20421,40 +20455,6 @@
 "日本映画大学": 1
 },
 "enrich": [
-{
-"name": "明海大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu",
-"difficulty"
-],
-"keinet": "2151"
-},
-{
-"name": "星薬科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"kyotsu",
-"difficulty"
-],
-"keinet": "2280"
-},
-{
-"name": "昭和医科大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"kyotsu",
-"difficulty"
-],
-"keinet": "2223"
-},
 {
 "name": "昭和女子大学",
 "need": [

@@ -42890,7 +42890,9 @@
 "https://search.keinet.ne.jp/2210/outline/licential",
 "https://search.keinet.ne.jp/2210/outline/admission_employment",
 "https://www.keio.ac.jp/ja/education/fields-of-study/undergraduate/",
-"https://www.keio.ac.jp/ja/admissions/scholarship/"
+"https://www.keio.ac.jp/ja/admissions/scholarship/",
+"https://search.keinet.ne.jp/2210/general/exam_result",
+"https://www.keio.ac.jp/ja/admissions/faculty/oc/"
 ],
 "kyotsu": {
 "kamoku": "共通テスト利用なし",
@@ -42907,25 +42909,28 @@
 "kubun": "一般",
 "name": "一般選抜（文系学部）",
 "kyotsu": "課さない",
-"niji": "英語＋地歴または数学、学部により小論文（例 経済A：英200数200、商A：英200数100地歴100、法：英200地歴150小論文100、文：英150地歴100小論文100）",
+"niji": "英語＋地歴または数学、学部により小論文・論文テスト（経済A：英200数200、経済B：英200地歴200、商A：英200地歴100数100、商B：英200地歴100論文テスト100、法：英200地歴150小論文100、文：英150地歴100小論文100）",
 "haiten": "個別試験のみ（英語の配点比率が高い）",
-"note": "経済・商はA方式（数学）とB方式（地歴、商Bは小論文あり）を選べる"
+"note": "経済・商はA方式（数学）とB方式（経済Bは地歴、商Bは論文テスト）を選べる",
+"url": "https://www.keio.ac.jp/fixed-files/2027_ippan_youkou.pdf"
 },
 {
 "kubun": "一般",
 "name": "一般選抜（理系学部）",
 "kyotsu": "課さない",
-"niji": "英・数・理（理工：英150数150理2科目200、医：同構成＋小論文・面接、薬：英100数100化学150）",
+"niji": "英・数・理（理工：英150数150物理100化学100、医1次：英150数150理2科目200・2次 小論文・面接、薬：英100数100化学150、看護医療1次：英300＋数・化・生から1つ200・2次で小論文）",
 "haiten": "個別試験のみ",
-"note": "医学部は面接・小論文あり（配点なし）"
+"note": "医学部2次の小論文・面接は配点の記載なし",
+"url": "https://www.keio.ac.jp/fixed-files/2027_ippan_youkou.pdf"
 },
 {
 "kubun": "一般",
 "name": "一般選抜（総合政策・環境情報）",
 "kyotsu": "課さない",
-"niji": "小論文200＋英語・数学・情報から選択200",
+"niji": "小論文200＋「外国語」「数学」「外国語および数学」「情報および数学」から1つ選択200",
 "haiten": "個別試験のみ（小論文が半分）",
-"note": ""
+"note": "",
+"url": "https://www.keio.ac.jp/fixed-files/2027_ippan_youkou.pdf"
 },
 {
 "kubun": "総合型",
@@ -42953,7 +42958,7 @@
 }
 ],
 "summary": "一般は全学部が個別試験のみで共テを使わない。英語の比重が大きい。総合型は学部独自の専願型（FIT・AOなど）。",
-"note": "Kei-Netに共通テスト利用方式・学校推薦型の掲載はない（推薦は見出しのみ）。指定校推薦の有無は未確認。"
+"note": "Kei-Netに共通テスト利用方式・学校推薦型の掲載はない（推薦は見出しのみ）。指定校推薦の有無は未確認。 一般選抜の3行は2027年度一般選抜要項（公式）で確認。総合型の行は今回未確認。"
 },
 "departments": [
 {
@@ -43040,17 +43045,19 @@
 "_checked": {
 "partners": "2026-11-06",
 "fdiff": "2026-11-06",
-"schedule": "2026-11-16",
+"schedule": "2026-11-25",
 "money": "2026-11-07",
 "eng": "2026-11-06",
 "departments": "2026-11-06",
-"ratios": "2026-11-06",
+"ratios": "2026-11-25",
 "qtrend": "2026-11-07",
 "_via": "2026-11-07",
 "licenses": "2026-11-14",
 "careers": "2026-11-14",
 "research": "2026-11-15",
-"scholar": "2026-11-19"
+"scholar": "2026-11-19",
+"methods": "2026-11-25",
+"oc": "2026-11-25"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -43182,7 +43189,8 @@
 "exam": "2/15",
 "result": "2/24",
 "proc": "入学金3/3・手続3/12",
-"fee": null
+"fee": null,
+"url": "https://www.keio.ac.jp/fixed-files/2027_ippan_youkou.pdf"
 },
 {
 "kubun": "一般",
@@ -43191,7 +43199,8 @@
 "exam": "2/13",
 "result": "2/25",
 "proc": "入学金3/4・手続3/12",
-"fee": null
+"fee": null,
+"url": "https://www.keio.ac.jp/fixed-files/2027_ippan_youkou.pdf"
 },
 {
 "kubun": "一般",
@@ -43200,7 +43209,8 @@
 "exam": "2/16",
 "result": "2/25",
 "proc": "入学金3/4・手続3/12",
-"fee": null
+"fee": null,
+"url": "https://www.keio.ac.jp/fixed-files/2027_ippan_youkou.pdf"
 },
 {
 "kubun": "一般",
@@ -43209,7 +43219,8 @@
 "exam": "2/14",
 "result": "2/24",
 "proc": "入学金3/3・手続3/12",
-"fee": null
+"fee": null,
+"url": "https://www.keio.ac.jp/fixed-files/2027_ippan_youkou.pdf"
 },
 {
 "kubun": "一般",
@@ -43218,7 +43229,8 @@
 "exam": "1次2/9・2次3/1",
 "result": "1次2/19・最終3/5",
 "proc": "3/12",
-"fee": null
+"fee": null,
+"url": "https://www.keio.ac.jp/fixed-files/2027_ippan_youkou.pdf"
 },
 {
 "kubun": "一般",
@@ -43227,7 +43239,8 @@
 "exam": "2/12",
 "result": "2/24",
 "proc": "入学金3/3・手続3/12",
-"fee": null
+"fee": null,
+"url": "https://www.keio.ac.jp/fixed-files/2027_ippan_youkou.pdf"
 },
 {
 "kubun": "一般",
@@ -43236,7 +43249,8 @@
 "exam": "2/17",
 "result": "2/25",
 "proc": "入学金3/4・手続3/12",
-"fee": null
+"fee": null,
+"url": "https://www.keio.ac.jp/fixed-files/2027_ippan_youkou.pdf"
 },
 {
 "kubun": "一般",
@@ -43245,7 +43259,8 @@
 "exam": "2/18",
 "result": "2/25",
 "proc": "入学金3/4・手続3/12",
-"fee": null
+"fee": null,
+"url": "https://www.keio.ac.jp/fixed-files/2027_ippan_youkou.pdf"
 },
 {
 "kubun": "一般",
@@ -43254,7 +43269,8 @@
 "exam": "1次2/11・2次2/20",
 "result": "1次2/17・最終2/25",
 "proc": "入学金3/4・手続3/12",
-"fee": null
+"fee": null,
+"url": "https://www.keio.ac.jp/fixed-files/2027_ippan_youkou.pdf"
 },
 {
 "kubun": "一般",
@@ -43263,9 +43279,11 @@
 "exam": "2/10",
 "result": "2/21",
 "proc": "入学金3/1・手続3/12",
-"fee": null
+"fee": null,
+"url": "https://www.keio.ac.jp/fixed-files/2027_ippan_youkou.pdf"
 }
-]
+],
+"note": "出願登録・検定料支払 2026/12/24 10:00〜2027/1/18 17:00、書類郵送 1/4〜1/18（消印有効）。延納（他大学の発表待ち）は授業料等 3/24 13:00まで"
 },
 "money": {
 "year": "2027年度",
@@ -43597,6 +43615,39 @@
 }
 ],
 "note": "大学公式による。本学独自の奨学金はすべて給付型で、学部・研究科独自を含め約120種（2025年度実績：総額9.4億円・のべ2,040名）。ほかに指定寄付奨学金・慶應義塾維持会奨学金・留学関連奨学金がある"
+},
+"oc": {
+"year": "2026年度",
+"events": [
+{
+"date": "随時",
+"type": "来場型",
+"title": "キャンパス見学（三田・日吉・SFCなど）",
+"note": "年末年始・入試期間・行事日を除く。時間・予約の要否はキャンパス見学ページで確認"
+}
+],
+"url": "https://www.keio.ac.jp/ja/admissions/faculty/oc/",
+"note": "2026年度のオープンキャンパスは終了（講義編 6/7 日吉、学生生活編 8/4・8/5 三田、看護医療学部 8/1 SFC、SFC万学博覧会 11/22・23）。2027年度の日程は未発表。例年6月（日吉）・8月上旬（三田）"
+},
+"_src": {
+"schedule": {
+"u": [
+"https://www.keio.ac.jp/fixed-files/2027_ippan_youkou.pdf"
+],
+"d": "2026-11-25"
+},
+"methods": {
+"u": [
+"https://www.keio.ac.jp/fixed-files/2027_ippan_youkou.pdf"
+],
+"d": "2026-11-25"
+},
+"oc": {
+"u": [
+"https://www.keio.ac.jp/ja/admissions/faculty/oc/"
+],
+"d": "2026-11-25"
+}
 }
 },
 "上智大学": {
@@ -267924,7 +267975,9 @@ null
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-13",
+"kyotsu": "2026-11-25",
+"difficulty": "2026-11-25"
 },
 "departments": [
 {
@@ -268084,7 +268137,9 @@ null
 "https://search.keinet.ne.jp/2151/outline/admission_employment",
 "https://search.keinet.ne.jp/outline/expense/2151",
 "https://search.keinet.ne.jp/2151/general/exam_result",
-"https://www.meikai.ac.jp/03applicant/media/admissions_guide_undergraduate_2027_fixed.pdf"
+"https://www.meikai.ac.jp/03applicant/media/admissions_guide_undergraduate_2027_fixed.pdf",
+"https://search.keinet.ne.jp/2151/general/exam_subject",
+"https://search.keinet.ne.jp/2151/general/border_rate"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -268202,6 +268257,25 @@ null
 }
 ],
 "note": "大学公式「2027年度入学者選抜試験要項」による。浦安キャンパスは外国語・経済・不動産・ホスピタリティ・ツーリズム・保健医療学部。一般選抜（浦安）の検定料は要項で3〜4万円の幅があり方式との対応が読み取れず未記入。歯学部の一般B日程・共テ利用A・B日程の詳細は要項で確認"
+},
+"kyotsu": {
+"kamoku": "2〜4教科2〜4科目",
+"kyoka": [
+2,
+3,
+4
+],
+"rl": [
+"1:1"
+],
+"rl_text": "日本語・中国語・経済・不動産・口腔保健 R50:L50、英米語・観光・グローバル・マネジメント R100:L100",
+"note": "共通テスト方式。多くの学科は2教科2科目（200〜300点満点）。ホスピタリティ・ツーリズム学部グローバル・マネジメント専攻は4教科4科目（500点満点）、保健医療学部口腔保健学科は3教科3科目（300点満点）。不動産学科は英語が他教科との選択。歯学部は2教科2科目（200点満点、英語R100、Lの配点はページで確認できず）、ほかに共通テストプラスあり。",
+"year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "BF〜45.0",
+"kyotei": "43%〜67%",
+"year": "2027年度入試用"
 }
 },
 "星薬科大学": {
@@ -268219,7 +268293,9 @@ null
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-13",
+"kyotsu": "2026-11-25",
+"difficulty": "2026-11-25"
 },
 "departments": [
 {
@@ -268286,7 +268362,9 @@ null
 "https://search.keinet.ne.jp/2280/outline/admission_employment",
 "https://search.keinet.ne.jp/2280/outline/expense",
 "https://search.keinet.ne.jp/2280/general/exam_result",
-"https://manabi.benesse.ne.jp/daigaku/school/3312/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3312/nyushi/index.html",
+"https://search.keinet.ne.jp/2280/general/exam_subject",
+"https://search.keinet.ne.jp/2280/general/border_rate"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -268332,6 +268410,24 @@ null
 }
 ],
 "note": "ベネッセ マナビジョン（2027年度入試）。薬学科・創薬科学科で同じ日程。検定料は掲載なし"
+},
+"kyotsu": {
+"kamoku": "2〜3教科3〜4科目",
+"kyoka": [
+2,
+3
+],
+"rl": [
+"1:1"
+],
+"rl_text": "A方式（共テ）英語 R100:L100",
+"note": "薬学科・創薬科学科とも、A方式－共テは3教科4科目（600点満点）、S方式併用－共テは2教科3科目（400点満点、英語200点。R・Lの内訳はページで確認できず）。B方式は共テを使わない。",
+"year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "52.5〜55.0",
+"kyotei": "77%〜79%",
+"year": "2027年度入試用"
 }
 },
 "昭和医科大学": {
@@ -268349,7 +268445,8 @@ null
 "access": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-13",
+"kyotsu": "2026-11-25"
 },
 "departments": [
 {
@@ -268411,7 +268508,8 @@ null
 "https://search.keinet.ne.jp/2223/outline/licential",
 "https://search.keinet.ne.jp/2223/outline/admission_employment",
 "https://search.keinet.ne.jp/2223/general/exam_result",
-"https://manabi.benesse.ne.jp/daigaku/school/3254/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3254/nyushi/index.html",
+"https://search.keinet.ne.jp/2223/general/exam_subject"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -268491,6 +268589,20 @@ null
 }
 ],
 "note": "ベネッセ マナビジョン（2027年度入試。ページに「詳細は未定」の注記あり）。保健医療学部は全学科・専攻で同じ日程。検定料は掲載なし"
+},
+"kyotsu": {
+"kamoku": "2〜4教科2〜4科目",
+"kyoka": [
+2,
+3,
+4
+],
+"rl": [
+"1:1"
+],
+"rl_text": "歯学部 R50:L50、薬学部 共通テスト R100:L100・併用入試 R75:L75",
+"note": "医学部は共通テストを使わない（個別試験のみ）。歯学部は3教科3〜4科目（300点満点）、薬学部の共通テストは3〜4教科4科目（600点満点）、併用入試－共テは2教科2〜3科目（300点満点）。保健医療学部の各学科は3教科3科目（300点満点、英語100点。R・Lの内訳の記載なし）。",
+"year": "2027年度入試"
 }
 },
 "昭和女子大学": {
