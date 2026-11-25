@@ -33,6 +33,8 @@ GitHub Pages: https://tiimura6.github.io/lesson-swap/
 
 16. 取得できなかった項目（2026-11-19 先生の依頼「何度か取得に失敗したら優先度を最後に、該当ページに取得失敗と最新情報の確認を書く」）：定期実行は enrich で取れなかった項目を `python3 tools/queue_fail.py "<大学名>" <need> "<内容>"` で記録する（fails・last_fail・note。2回で `deferred: true` になり enrich の最後に回る。選ぶときは deferred 以外を先に使う）。build.py の `noget()` が deferred の項目を `NOGET` として埋め込み、大学の画面の上（学部タブの上）に `nogetBox()` が注意を出す。need の表示名は build.py の `NEED_LABEL`。CSS は `ng` で始める。
 
+17. 出典の区分（2026-11-25 先生の方針「最終的な出典は各大学の公式の募集要項などの一次資料。予備校などの二次資料は誤り・欠けがありうる。偏差値は残してよい」）：`searchuniv/tools/provenance.py` が項目ごとに p（大学公式）／m（一部公式）／d（公的データ）／s・u（公式で未確認）／e（予備校の推定値）を判定し、build.py が `INFO[name]._pv` に入れる。画面は `pvTag(f,key)` で各欄の見出しにバッジ、`sourceBlock()` に「大学公式で確認済み／確認待ち」の一覧。項目ごとの出典 URL は info の `_src`（batch の `info._src`）。merge_batch.py は公式で確認済みの欄を公式の出典が無い値で置き換えない。一次資料化の優先校は `searchuniv/data/primary_ledger.json`（茨城県の大学→主要校の100校。pages に公式の入試トップ・募集要項・入試結果の URL）、定期実行は PIPELINE.md 2d で毎回2校ずつ。CSS は `pv` で始める。
+
 ## 操作者
 - タイトル横の「👤 操作者」で選ぶ（localStorage `ttOperator`）。PINは `opPins`／GAS。
 - 時間割に名前が無い人は、一覧の最後の「＋ 新規作成」（または検索欄で該当なしのまま Enter）で名前を決める。作成した名前はこの端末の localStorage `opCustomNames` に保存し、一覧の最後に並ぶ（新規作成の画面から削除できる）。作成後は通常どおり初回PINを設定する。

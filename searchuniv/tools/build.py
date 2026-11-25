@@ -2,6 +2,7 @@
 """data/*.json と tools/template.html から index.html を組み立てる。
 使い方: python3 tools/build.py   （リポジトリのルートで実行）"""
 import json, math, os, re, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = lambda n: json.load(open(os.path.join(ROOT, 'data', n + '.json'), encoding='utf-8'))
 
@@ -27,7 +28,7 @@ def _raw(lam, phi):
 CX, CY = _raw(math.radians(138.5), math.radians(36 - 18/60))
 
 # ページを軽くするため、大学の詳細で開いたときに要る重いデータは別ファイルにして後から読み込む
-LAZY = ('fdiff', 'schedule', 'money', 'partners', 'sources', '_checked', 'notable', 'news', 'access', 'founded', 'students', 'methods', 'eng', 'ratios', 'qtrend', 'oc', 'subjects', 'scholar')
+LAZY = ('_src', 'fdiff', 'schedule', 'money', 'partners', 'sources', '_checked', 'notable', 'news', 'access', 'founded', 'students', 'methods', 'eng', 'ratios', 'qtrend', 'oc', 'subjects', 'scholar')
 
 def licn(info, names):
     """「取得できる資格」の候補（各大学の公式・Kei-Net から集めた licenses の資格名をそろえたもの）と、大学ごとの資格名"""
@@ -96,6 +97,10 @@ def main():
     read = D('readings'); alias = D('aliases'); coords = D('coords'); prefs = D('map_prefs')
     guide = D('guide') if os.path.exists(os.path.join(ROOT, 'data', 'guide.json')) else {}
     names = [c[0] for c in cards]
+    # 出典の区分（一次資料優先・2026-11-25）。項目ごとに p/m/d/s/u/e を _pv に入れ、画面の各欄にバッジを出す（tools/provenance.py）
+    from provenance import kinds as pv_kinds
+    for n in names:
+        if n in info: info[n]['_pv'] = pv_kinds(info[n], hp.get(n, ''))
     if len(set(names)) != len(names):
         dup = sorted({n for n in names if names.count(n) > 1}); sys.exit('重複: %s' % dup)
     dots = {n: project(*coords[n]) for n in names if n in coords}

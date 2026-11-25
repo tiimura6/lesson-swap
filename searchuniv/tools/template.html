@@ -123,6 +123,9 @@ body.wide main,body.wide header{max-width:1320px}
 .usec{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 10px;margin:18px 0 6px;padding:0 0 4px 10px;border-left:4px solid var(--accent);border-bottom:1px solid var(--line)}.usec:first-child{margin-top:6px}.usec span{font-weight:800;font-size:14.5px;color:var(--ink)}.usec small{font-size:11.5px;color:var(--muted)}
 .fov{width:100%;border-collapse:collapse;font-size:12.5px}.fov th,.fov td{border-bottom:1px solid var(--line);padding:5px 6px;text-align:left;vertical-align:top}.fov thead th{background:var(--bg);font-size:11.5px;color:var(--muted);white-space:nowrap}.fov tr.fov-f>th{white-space:nowrap}.fov tr.fov-d>th{font-weight:400;padding-left:18px;color:var(--muted)}.fov tr.fov-d td{color:var(--muted)}.fov a.fgo{color:var(--accent);font-weight:700;text-decoration:none;border-bottom:1px dashed currentColor;cursor:pointer}.fov tr.fov-d a.fgo{font-weight:400}.fov .ktag{font-size:10.5px}.fov details{margin:0;font-size:12px;color:var(--ink)}.fov details summary{cursor:pointer;color:var(--accent)}.fov ul.mini{margin:4px 0 0}.fov details.fdeps{margin-top:2px;font-weight:400}.fov details.fdeps summary{font-size:11.5px}.fov details.fdeps li{white-space:normal}.fov .nb{white-space:nowrap}
 .stale,.stale td,.stale .md,.stale .mn{color:#9a3412}.xb.stale,.meth.stale{border-color:#f59e0b;background:#fff7ed}tr.stale td{background:#fff7ed}
+.pv{display:inline-block;margin-left:6px;padding:0 7px;border-radius:999px;font-size:10.5px;font-weight:700;line-height:17px;vertical-align:1px;border:1px solid transparent;cursor:help}
+.pvp{background:#e7f6ec;color:#17803d;border-color:#b7e2c4}.pvm{background:#e8f4f6;color:#0e7490;border-color:#b6dde4}.pvd{background:#e8f1fc;color:#1d4ed8;border-color:#bfd5f5}
+.pvs{background:#fff;color:#b45309;border-color:#f3c98b}.pve{background:#f1f1f4;color:#55555c;border-color:#dcdce2}
 .stag{display:inline-block;margin-left:6px;padding:0 7px;border-radius:999px;background:#f59e0b;color:#fff;font-size:10.5px;font-weight:700;line-height:17px;vertical-align:1px}
 .strow select{min-width:0;width:100%}.strow select:disabled{opacity:.55}
 .ktmain{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;font-size:18px;margin:6px 0}.ktleft{font-size:13px;font-weight:700;color:#fff;background:var(--accent);border-radius:999px;padding:1px 10px}
@@ -544,7 +547,7 @@ function subjectsBlock(name){
   const body=fs.map(f=>{ const R=S.rows.filter(r=>(r.f||"")===f);
     return R.map((r,i)=>'<tr data-f="'+esc(f)+'">'+(i===0?'<th rowspan="'+R.length+'" class="sf">'+esc(f||"（全学部共通）")+'</th>':'')+'<td><span class="ktag" style="background:'+(KUBUN_COLOR[r.kubun]||"#4b5563")+'">'+esc(r.kubun||"")+'</span>'+mlink(r,r.name||"")+'</td><td class="sn">'+(r.n?'<b>'+esc(r.n)+'</b>教科':'')+'</td><td>'+esc(r.subj||"")+(r.note?'<div class="sub2">'+esc(r.note)+'</div>':'')+'</td><td>'+esc(r.kt||"")+'</td><td>'+esc(r.eng||"")+'</td></tr>').join(""); }).join("");
   const mins=S.rows.filter(r=>+r.n).map(r=>+r.n);
-  return '<details class="xb'+staleCls(S.year)+'" open><summary>学部・方式ごとの入試科目（'+S.rows.length+'通り）'+(S.year?'<span class="sub2">'+esc(S.year)+'</span>':'')+staleTag(S.year)+'</summary>'+
+  return '<details class="xb'+staleCls(S.year)+'" open><summary>学部・方式ごとの入試科目（'+S.rows.length+'通り）'+(S.year?'<span class="sub2">'+esc(S.year)+'</span>':'')+staleTag(S.year)+pvTag(INFO[name],"subjects")+'</summary>'+
     (fs.length>1?'<div class="sfilt2"><select class="subj-f"><option value="">すべての学部</option>'+fs.map(f=>'<option>'+esc(f)+'</option>').join("")+'</select>'+(mins.length?'<span class="sub2">最少 '+Math.min(...mins)+'教科〜最多 '+Math.max(...mins)+'教科（学部・方式で違う）</span>':'')+'</div>':'')+
     '<div class="tblw"><table class="xt subj"><thead><tr><th>学部</th><th>方式</th><th>教科数</th><th>科目・配点</th><th>共通テスト</th><th>英語外部試験</th></tr></thead><tbody>'+body+'</tbody></table></div>'+(S.note?'<div class="enote">※'+esc(S.note)+'</div>':'')+'</details>';
 }
@@ -555,7 +558,7 @@ function mlink(r,label){ const u=r&&r.url; label=esc(label); if(!u||!/^https?:\/
   return '<a class="mlink" href="'+esc(u)+'" target="_blank" rel="noopener" title="募集要項・入試ページを開く">'+label+'<span class="mli">'+(/\.pdf(\?|#|$)/i.test(u)?'PDF':'↗')+'</span></a>'; }
 function methodsHTML(name){
   const m=(INFO[name]||{}).methods; if(!m||!(m.list||[]).length) return "";
-  let h='<div class="meth'+staleCls(m.year)+'"><div class="exam-h">入試方式'+(m.year?'<span class="yr">（'+esc(m.year)+'）</span>':'')+staleTag(m.year)+'</div>';
+  let h='<div class="meth'+staleCls(m.year)+'"><div class="exam-h">入試方式'+(m.year?'<span class="yr">（'+esc(m.year)+'）</span>':'')+staleTag(m.year)+pvTag(INFO[name],"methods")+'</div>';
   if(m.summary) h+='<div class="msum">'+esc(m.summary)+'</div>';
   for(const r of m.list){
     const parts=[];
@@ -941,12 +944,17 @@ function fyOf(y){ const m=String(y||"").match(/(20\d\d)/); return m?+m[1]:null; 
 function staleYear(y){ const f=fyOf(y); return f!=null && f<CUR_FY && /入試/.test(String(y)); }
 function staleCls(y){ return staleYear(y)?" stale":""; }
 function staleTag(y){ return staleYear(y)?'<span class="stag">'+fyOf(y)+'年度入試の情報（更新待ち）</span>':""; }
+// 出典の区分（2026-11-25 先生の方針「最終的な出典は各大学の公式の募集要項などの一次資料。予備校などの二次資料は誤り・欠けがありうる」）。
+// build.py が tools/provenance.py で項目ごとに判定し INFO[name]._pv に入れる。p＝大学公式／m＝一部公式／d＝公的データ／s・u＝公式で未確認／e＝予備校の推定値
+const PV_LABEL={p:["大学公式で確認","pvp","大学の公式サイト・募集要項で確認した情報"],m:["一部 大学公式で確認","pvm","リンクのある行は大学公式で確認済み。ほかの行は予備校・情報サイト等の情報で、大学公式での確認待ち"],d:["公的データ","pvd","大学ポートレート・文部科学省などの公的データ"],s:["大学公式で未確認","pvs","予備校・情報サイト等の情報。大学公式の募集要項での確認待ち（自動収集が順に確認します）"],u:["大学公式で未確認","pvs","大学公式の募集要項での確認待ち（自動収集が順に確認します）"],e:["予備校の推定値","pve","偏差値・共テ得点率は河合塾などが模試の結果から推定した値で、大学が公表するものではありません"]};
+const PV_FIELDS=[["schedule","入試日程"],["methods","入試方式"],["subjects","入試科目"],["money","学費"],["ratios","入試倍率"],["eng","英語外部試験"],["scholar","奨学金"],["oc","オープンキャンパス"]];
+function pvTag(f,k){ const L=PV_LABEL[((f||{})._pv||{})[k]]; return L?'<span class="pv '+L[1]+'" title="'+L[2]+'">'+L[0]+'</span>':""; }
 // 「1/25〜2/3」のような月日に年を付ける（4〜12月は年度の前の年、1〜3月は年度の年）。同じ年が続くときは2つ目以降を省く
 function withYear(v,fy){ fy=fy||CUR_FY; let last=null; return String(v==null?"":v).replace(/(^|[^\d\/])(\d{1,2})\/(\d{1,2})(?![\d\/])/g,(m,p,mo,d)=>{ if(+mo<1||+mo>12) return m; const y=+mo>=4?fy-1:fy; const t=(y!==last?y+"/":"")+(+mo)+"/"+(+d); last=y; return p+t; }); }
 function fdiffBlock(f){
   const F=f.fdiff; if(!F||!(F.rows||[]).length) return "";
   const rows=F.rows, hasBn=rows.some(r=>r.bn);
-  return '<details class="xb'+staleCls(F.year)+'"><summary>学部・学科別の難易度（'+rows.length+'件）'+(F.year?'<span class="sub2">'+esc(F.year)+'</span>':'')+staleTag(F.year)+'</summary><div class="tblw"><table class="xt"><thead><tr><th>学部</th><th>学科など</th><th>日程・方式</th><th>河合 偏差値</th><th>共テ得点率</th>'+(hasBn?'<th>ベネッセ</th>':'')+'</tr></thead><tbody>'+
+  return '<details class="xb'+staleCls(F.year)+'"><summary>学部・学科別の難易度（'+rows.length+'件）'+(F.year?'<span class="sub2">'+esc(F.year)+'</span>':'')+staleTag(F.year)+pvTag(f,"fdiff")+'</summary><div class="tblw"><table class="xt"><thead><tr><th>学部</th><th>学科など</th><th>日程・方式</th><th>河合 偏差値</th><th>共テ得点率</th>'+(hasBn?'<th>ベネッセ</th>':'')+'</tr></thead><tbody>'+
     rows.map(r=>'<tr><td>'+esc(r.f||"")+'</td><td>'+esc(r.d||"")+'</td><td>'+esc(r.m||"")+'</td><td>'+esc(r.hen||"")+'</td><td>'+esc(r.kt||"")+'</td>'+(hasBn?'<td>'+esc(r.bn||"")+'</td>':'')+'</tr>').join("")+'</tbody></table></div>'+(F.note?'<div class="enote">※'+esc(F.note)+'</div>':'')+'</details>';
 }
 // 入試日程：出願・試験・合格発表・手続締切を大学の画面の上の方にまとめて出す
@@ -968,7 +976,7 @@ function scheduleBlock(f,x){
     return ""; };
   const tr=r=>'<tr class="'+(mdLast(r.proc)!=null&&mdLast(r.proc)<T?'past':'')+'"><td><span class="ktag" style="background:'+(KUBUN_COLOR[r.kubun]||"#4b5563")+'">'+esc(r.kubun||"")+'</span>'+mlink(r,r.name||"")+' '+stat(r)+(r.note?'<div class="sub2">'+esc(r.note)+'</div>':'')+'</td><td>'+cell(r.apply,"apply",r)+'</td><td>'+cell(r.exam,"exam",r)+'</td><td>'+cell(r.result,"result",r)+'</td><td>'+cell(r.proc,"proc",r)+'</td><td>'+(r.fee!=null?yen0(r.fee):'<span class="na2">—</span>')+'</td></tr>';
   const estRows=est.filter(k=>!rows.some(z=>z.kubun==="一般"&&(z.name||"").includes(k))).map(k=>'<tr class="estrow"><td><span class="ktag" style="background:'+KUBUN_COLOR["一般"]+'">一般</span>'+k+'日程<span class="sub2">（例年の目安）</span></td><td><span class="est">'+NAT_TYPICAL[k].apply+'</span></td><td><span class="est">'+NAT_TYPICAL[k].exam+'</span></td><td><span class="est">'+NAT_TYPICAL[k].result+'</span></td><td><span class="est">'+NAT_TYPICAL[k].proc+'</span></td><td><span class="est">17,000円</span></td></tr>').join("");
-  return '<details class="xb sch'+staleCls(S.year)+'" open><summary>入試日程（出願・試験・合格発表・手続締切）'+(S.year?'<span class="sub2">'+esc(S.year.length>24?S.year.slice(0,24)+"…":S.year)+'</span>':'')+staleTag(S.year)+'</summary><div class="tblw"><table class="xt sched"><thead><tr><th>方式</th><th>出願</th><th>試験日</th><th>合格発表</th><th>手続締切</th><th>検定料</th></tr></thead><tbody>'+
+  return '<details class="xb sch'+staleCls(S.year)+'" open><summary>入試日程（出願・試験・合格発表・手続締切）'+(S.year?'<span class="sub2">'+esc(S.year.length>24?S.year.slice(0,24)+"…":S.year)+'</span>':'')+staleTag(S.year)+pvTag(f,"schedule")+'</summary><div class="tblw"><table class="xt sched"><thead><tr><th>方式</th><th>出願</th><th>試験日</th><th>合格発表</th><th>手続締切</th><th>検定料</th></tr></thead><tbody>'+
     rows.map(tr).join("")+estRows+'</tbody></table></div>'+
     ((est.length||rows.some(r=>!(r.apply&&r.result&&r.proc)))?'<div class="enote">※「未掲載」は大学・河合塾などでまだ公表を確認できていない項目（自動収集で順次補います）。「例年」は国公立の標準的な日程の目安で、実際の日付は大学の募集要項で確認してください。</div>':'<div class="enote">※出願前に必ず大学の募集要項で確認してください。</div>')+'</details>';
 }
@@ -979,7 +987,7 @@ function scholarBlock(f){
   const ts=[...new Set(S.rows.map(r=>r.target||"全学部"))].sort((a,b)=>(a==="全学部"?-1:b==="全学部"?1:a.localeCompare(b,"ja")));
   const body=ts.map(t=>{ const R=S.rows.filter(r=>(r.target||"全学部")===t);
     return R.map((r,i)=>'<tr data-f="'+esc(t)+'">'+(i===0?'<th rowspan="'+R.length+'" class="sf">'+esc(t)+'</th>':'')+'<td><b>'+esc(r.name||"")+'</b>'+(r.kind?'<span class="skind '+(/給付|減免|免除/.test(r.kind)?'g':'l')+'">'+esc(r.kind)+'</span>':'')+'</td><td>'+esc(r.amount||"")+'</td><td>'+esc(r.timing||"")+'</td><td>'+esc(r.cond||"")+'</td></tr>').join(""); }).join("");
-  return '<details class="xb" open><summary>奨学金・学費の減免（学部・学科別、'+S.rows.length+'件）'+(S.year?'<span class="sub2">'+esc(S.year)+'</span>':'')+'</summary>'+
+  return '<details class="xb" open><summary>奨学金・学費の減免（学部・学科別、'+S.rows.length+'件）'+(S.year?'<span class="sub2">'+esc(S.year)+'</span>':'')+pvTag(f,"scholar")+'</summary>'+
     (ts.length>1?'<div class="sfilt2"><select class="subj-f"><option value="">すべての学部</option>'+ts.map(t=>'<option>'+esc(t)+'</option>').join("")+'</select><span class="sub2">「全学部」の制度はどの学部でも使えます</span></div>':'')+
     '<div class="tblw"><table class="xt subj"><thead><tr><th>対象</th><th>制度</th><th>金額・内容</th><th>申込の時期</th><th>主な条件</th></tr></thead><tbody>'+body+'</tbody></table></div>'+(S.note?'<div class="enote">※'+esc(S.note)+'</div>':'')+'</details>';
 }
@@ -1007,7 +1015,7 @@ function moneyBlock(f){
   if(M.annual!=null) rows.push(["年間の授業料等",yen0(M.annual)+(an?feeChips(an.replace(/^annual/,"")):"")]);
   rows.push(["一人暮らし",'生活費の目安 4年で約'+man(LIVING.month*12*4)+'<span class="sub2">（'+esc(LIVING.label)+'）</span>']);
   if((M.scholarships||[]).length&&!((f.scholar||{}).rows||[]).length) rows.push(["大学独自の奨学金",'<ul class="mini">'+M.scholarships.map(x=>'<li><b>'+esc(x.name||"")+'</b> '+esc(x.what||"")+'</li>').join("")+'</ul>']);
-  return '<details class="xb" open><summary>費用と奨学金（目安）'+(M.year?'<span class="sub2">'+esc(M.year)+'</span>':'')+'</summary><div class="fwarn">大学によって、学費に施設・教育充実費や実習費、諸会費を含めたり含めなかったりします。✓は含む、✕は含まない、?は出典に書かれていない項目です。比べるときは同じ項目どうしで見てください。</div>'+feeRowsBlock(M)+'<dl class="mrows">'+rows.map(([k,v])=>'<dt>'+k+'</dt><dd>'+v+'</dd>').join("")+'</dl>'+(M.note?'<div class="enote">※'+esc(M.note)+'</div>':'')+'</details>';
+  return '<details class="xb" open><summary>費用と奨学金（目安）'+(M.year?'<span class="sub2">'+esc(M.year)+'</span>':'')+pvTag(f,"money")+'</summary><div class="fwarn">大学によって、学費に施設・教育充実費や実習費、諸会費を含めたり含めなかったりします。✓は含む、✕は含まない、?は出典に書かれていない項目です。比べるときは同じ項目どうしで見てください。</div>'+feeRowsBlock(M)+'<dl class="mrows">'+rows.map(([k,v])=>'<dt>'+k+'</dt><dd>'+v+'</dd>').join("")+'</dl>'+(M.note?'<div class="enote">※'+esc(M.note)+'</div>':'')+'</details>';
 }
 function sourceBlock(name){
   const f=INFO[name]||{}, e=EXAM[name]||{};
@@ -1016,8 +1024,10 @@ function sourceBlock(name){
   const old=(Date.now()-new Date(last).getTime())>183*864e5;
   const host=u=>{ try{ return new URL(u).hostname.replace(/^www\./,""); }catch(_){ return u; } };
   const fz=DETAIL_READY?fullness(name):null;
+  const pv=f._pv||{}, okL=PV_FIELDS.filter(([k])=>pv[k]==="p").map(z=>z[1]), partL=PV_FIELDS.filter(([k])=>pv[k]==="m").map(z=>z[1]), ngL=PV_FIELDS.filter(([k])=>pv[k]==="s"||pv[k]==="u").map(z=>z[1]);
+  const pvLine=(okL.length||partL.length||ngL.length)?'<div class="enote">大学公式（募集要項など）で確認済み：'+(okL.length?esc(okL.join("・")):"なし")+(partL.length?'／一部確認：'+esc(partL.join("・")):'')+(ngL.length?'／確認待ち：'+esc(ngL.join("・"))+'（予備校・情報サイト等の情報。自動収集が大学公式で順に確認します）':'')+'。偏差値・共テ得点率は予備校の推定値です。</div>':'';
   const via=f._via==='external-ai'?'<div class="enote" style="color:#9a6b00">※この大学の一部の情報は他のAIで集めたもので、大学公式での確認待ちです（自動収集が順に確認します）。</div>':'';
-  return via+(fz&&fz.miss.length?'<div class="enote">未登録の項目：'+esc(fz.miss.join("、"))+'（自動収集で順次補います）</div>':'')+'<details class="xb src"><summary>出典と確認日<span class="sub2'+(old?' oldmark':'')+'">確認日 '+esc(last.replace(/-/g,"/"))+(old?'（半年以上前：要確認）':'')+'</span></summary>'+
+  return pvLine+via+(fz&&fz.miss.length?'<div class="enote">未登録の項目：'+esc(fz.miss.join("、"))+'（自動収集で順次補います）</div>':'')+'<details class="xb src"><summary>出典と確認日<span class="sub2'+(old?' oldmark':'')+'">確認日 '+esc(last.replace(/-/g,"/"))+(old?'（半年以上前：要確認）':'')+'</span></summary>'+
     (src.length?'<ul class="mini">'+src.slice(0,30).map(u=>'<li><a href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(host(u))+'</a> <span class="sub2">'+esc(decodeURI(u).replace(/^https?:\/\/[^/]+/,"").slice(0,60))+'</span></li>').join("")+'</ul>':'<div class="sub2">出典の記録なし</div>')+
     '<div class="enote">※年度表示のない項目は '+esc(DATA_DATE.replace(/-/g,"/"))+' 時点で集めた情報です。出願前に必ず大学の募集要項で確認してください。</div></details>';
 }
@@ -1028,7 +1038,7 @@ function engNeed(r){ if(r.cse) return +r.cse; const g=String(r.grade||"").match(
 function engBlock(f){
   const E=f.eng; if(!E) return "";
   if(!(E.rows||[]).length) return E.summary?'<details class="xb"><summary>英語外部試験</summary><div class="sub2">'+esc(E.summary)+'</div></details>':"";
-  return '<details class="xb'+staleCls(E.year)+'" open><summary>英語外部試験の利用'+(E.year?'<span class="sub2">'+esc(E.year)+'</span>':'')+staleTag(E.year)+'</summary>'+(E.summary?'<div class="msum">'+esc(E.summary)+'</div>':'')+'<div class="tblw"><table class="xt"><thead><tr><th>方式</th><th>使い方</th><th>基準</th><th>対象</th></tr></thead><tbody>'+
+  return '<details class="xb'+staleCls(E.year)+'" open><summary>英語外部試験の利用'+(E.year?'<span class="sub2">'+esc(E.year)+'</span>':'')+staleTag(E.year)+pvTag(f,"eng")+'</summary>'+(E.summary?'<div class="msum">'+esc(E.summary)+'</div>':'')+'<div class="tblw"><table class="xt"><thead><tr><th>方式</th><th>使い方</th><th>基準</th><th>対象</th></tr></thead><tbody>'+
     E.rows.map(r=>'<tr><td><span class="ktag" style="background:'+(KUBUN_COLOR[r.kubun]||"#4b5563")+'">'+esc(r.kubun||"")+'</span>'+esc(r.name||"")+'</td><td>'+esc(r.use||"")+'</td><td>'+esc(r.level||"")+(r.tests?'<div class="sub2">'+esc(r.tests)+'</div>':'')+'</td><td>'+esc(r.faculties||"")+(r.note?'<div class="sub2">'+esc(r.note)+'</div>':'')+'</td></tr>').join("")+'</tbody></table></div>'+(E.note?'<div class="enote">※'+esc(E.note)+'</div>':'')+'</details>';
 }
 
@@ -1050,7 +1060,7 @@ function spark(y){ const ks=Object.keys(y).sort().filter(k=>y[k]!=null); if(ks.l
 function ratiosBlock(name){
   const R=ratioRows(name); if(!R) return "";
   const years=[...new Set(R.rows.flatMap(r=>Object.keys(r.y||{})))].sort();
-  return '<details class="xb" open><summary>入試倍率の推移'+(R.kind?'<span class="sub2">'+esc(R.kind)+'</span>':'')+'</summary><div class="tblw"><table class="xt"><thead><tr><th>区分・単位</th>'+years.map(y=>'<th>'+esc(y)+'</th>').join("")+'<th>前年比</th><th></th></tr></thead><tbody>'+
+  return '<details class="xb" open><summary>入試倍率の推移'+(R.kind?'<span class="sub2">'+esc(R.kind)+'</span>':'')+pvTag(INFO[name],"ratios")+'</summary><div class="tblw"><table class="xt"><thead><tr><th>区分・単位</th>'+years.map(y=>'<th>'+esc(y)+'</th>').join("")+'<th>前年比</th><th></th></tr></thead><tbody>'+
     R.rows.map(r=>'<tr><td><span class="ktag" style="background:'+(KUBUN_COLOR[r.kubun]||"#4b5563")+'">'+esc(r.kubun||"")+'</span>'+esc(r.unit||"")+'</td>'+years.map(y=>'<td>'+(r.y&&r.y[y]!=null?esc(String(r.y[y])):'')+'</td>').join("")+'<td>'+trend(r.y||{})+'</td><td>'+spark(r.y||{})+'</td></tr>').join("")+
     '</tbody></table></div>'+(R.note?'<div class="enote">※'+esc(R.note)+'</div>':'')+'<div class="enote">※年度は入試年度。倍率は大学・出典により「実質倍率」「志願倍率」など定義が違うので、大学どうしは同じ種類どうしで比べてください。</div></details>';
 }
@@ -1073,7 +1083,7 @@ function ratioChart(names){
 
 function ocBlock(f){ const O=f.oc; if(!O) return "";
   const ev=(O.events||[]);
-  return '<details class="xb'+staleCls(O.year)+'" open><summary>オープンキャンパス'+(O.year?'<span class="sub2">'+esc(O.year)+'</span>':'')+staleTag(O.year)+'</summary>'+(ev.length?'<div class="tblw"><table class="xt"><thead><tr><th>日程</th><th>形式</th><th>内容</th></tr></thead><tbody>'+ev.map(e=>'<tr><td>'+esc(e.date||"")+'</td><td>'+esc(e.type||"")+'</td><td>'+esc(e.title||"")+(e.note?'<div class="sub2">'+esc(e.note)+'</div>':'')+'</td></tr>').join("")+'</tbody></table></div>':'')+
+  return '<details class="xb'+staleCls(O.year)+'" open><summary>オープンキャンパス'+(O.year?'<span class="sub2">'+esc(O.year)+'</span>':'')+staleTag(O.year)+pvTag(f,"oc")+'</summary>'+(ev.length?'<div class="tblw"><table class="xt"><thead><tr><th>日程</th><th>形式</th><th>内容</th></tr></thead><tbody>'+ev.map(e=>'<tr><td>'+esc(e.date||"")+'</td><td>'+esc(e.type||"")+'</td><td>'+esc(e.title||"")+(e.note?'<div class="sub2">'+esc(e.note)+'</div>':'')+'</td></tr>').join("")+'</tbody></table></div>':'')+
     (O.note?'<div class="enote">'+esc(O.note)+'</div>':'')+(O.url?'<a href="'+esc(O.url)+'" target="_blank" rel="noopener">大学のオープンキャンパス情報 ↗</a>':'')+'</details>'; }
 function extraBlocks(name){ const f=INFO[name]||{}; return subjectsBlock(name)+ocBlock(f)+fdiffBlock(f)+ratiosBlock(name)+engBlock(f)+moneyBlock(f)+scholarBlock(f)+sourceBlock(name); }
 
@@ -1771,7 +1781,7 @@ function facOverview(x){
     return '<tr class="fov-f"><th><a class="fgo" data-gofac="'+esc(fac)+'">'+esc(facLabel(name,fac))+'</a>'+(dl.length?'<details class="fdeps"><summary>学科別（'+dl.length+'）</summary><ul class="mini">'+dl.join("")+'</ul></details>':'')+'</th><td class="nb">'+(hen?'<b>'+hen+'</b>':na)+'</td><td class="nb">'+(kt||na)+'</td><td>'+(kub.length?kub.map(k=>'<span class="ktag" style="background:'+(KUBUN_COLOR[k]||"#4b5563")+'">'+esc(k)+'</span>').join(""):na)+'</td><td class="nb">'+(fee||'<span class="na2">共通・下記</span>')+'</td><td>'+subjH+'</td></tr>';
   }).join("");
   return '<div class="tblw"><table class="fov"><thead><tr><th>学部・学科</th><th>偏差値</th><th>共テ得点率</th><th>入試区分</th><th>初年度学費</th><th>試験科目</th></tr></thead><tbody>'+rows+'</tbody></table></div>'+
-    '<div class="enote">※偏差値・共テ得点率は学部・学科別の難易度（河合塾など）から。「未登録」は自動収集でまだ集まっていない項目です。'+(anyFee?'':'学費は学部による違いが登録されていないため、下の「学費・奨学金」を見てください。')+'</div>';
+    '<div class="enote">※偏差値・共テ得点率は学部・学科別の難易度（河合塾など）から。予備校が模試から推定した値で、大学の公表値ではありません。「未登録」は自動収集でまだ集まっていない項目です。'+(anyFee?'':'学費は学部による違いが登録されていないため、下の「学費・奨学金」を見てください。')+'</div>';
 }
 function usec(t,sub){ return '<div class="usec"><span>'+t+'</span>'+(sub?'<small>'+sub+'</small>':'')+'</div>'; }
 function univBody(x){

@@ -1,0 +1,805 @@
+{
+ "policy": "一次資料優先（2026-11-25 先生の方針）。この台帳の学校から順に、入試の事実（日程・方式・科目・学費・倍率・英語外部試験・奨学金・OC）を大学公式の募集要項・入試結果で照合する。pages は大学公式のページだけを入れる（admission＝入試トップ、yoko＝今年度の募集要項・選抜要項、result＝入試結果）。順番：茨城県の大学→cards.json の並び（主要校が先）。",
+ "priority": [
+  {
+   "name": "筑波大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://ac.tsukuba.ac.jp/wp/wp-content/uploads/2026/07/R9_senbatu_sec.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "茨城大学",
+   "pages": {
+    "admission": "https://www.ibaraki.ac.jp/admission/application/2027/index.html",
+    "yoko": "https://www.ibaraki.ac.jp/admission/uploads/2026/07/R9senbatuyoko.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "茨城県立医療大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "茨城キリスト教大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "常磐大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "流通経済大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "茨城県立農業大学校",
+   "pages": {
+    "admission": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/3nyuushikanren-top.html",
+    "yoko": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r9nyuugakuseibosyuuannnai.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "筑波技術大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://www.tsukuba-tech.ac.jp/uploads/2026/06/R9_SelectionGuideLines_it_2.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "つくば国際大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "アール医療専門職大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "日本国際学園大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "日本ウェルネススポーツ大学",
+   "pages": {
+    "admission": "https://www.nihonwellness.jp/admission/ippan.html",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "東京大学",
+   "pages": {
+    "admission": "https://www.u-tokyo.ac.jp/ja/admissions/tuition-fees/e03.html",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "京都大学",
+   "pages": {
+    "admission": "https://www.kyoto-u.ac.jp/ja/admissions/about/open",
+    "yoko": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/senbatsuyokoR9_all-22d87b752c22c5b9d7bcb8ef94505625.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "大阪大学",
+   "pages": {
+    "admission": "https://www.osaka-u.ac.jp/ja/admissions/faculty/general/files/R9_senbatsuyoukou.pdf/@@download/file",
+    "yoko": "https://www.osaka-u.ac.jp/ja/admissions/faculty/general/files/R9_senbatsuyoukou.pdf/@@download/file",
+    "result": ""
+   }
+  },
+  {
+   "name": "東北大学",
+   "pages": {
+    "admission": "https://admissions.tohoku.ac.jp/ja/20260716/",
+    "yoko": "https://www.tnc.tohoku.ac.jp/images/news/20251022_2yokoku.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "名古屋大学",
+   "pages": {
+    "admission": "https://www.nagoya-u.ac.jp/admissions/exam/data/exam-data/index.html",
+    "yoko": "https://www.nagoya-u.ac.jp/admissions/exam/upload/r9_senbatsuyoko.pdf",
+    "result": "https://www.nagoya-u.ac.jp/admissions/exam/data/exam-data/index.html"
+   }
+  },
+  {
+   "name": "九州大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "北海道大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": "https://www.hokudai.ac.jp/international3/internationalization/data/folder/"
+   }
+  },
+  {
+   "name": "一橋大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://juken.hit-u.ac.jp/admission/info/guidelines/files/R9ippan_youkou.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "東京科学大学",
+   "pages": {
+    "admission": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&amp=&pageId=3088&amp=&contentsId=&amp=&contentsDataId=&amp=&prevId=&amp=&key=2c267bc83d484dc5370621fb9ed717d7.pdf&amp=&fileName=r9-guidelines-zenki",
+    "yoko": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&amp=&pageId=3088&amp=&contentsId=&amp=&contentsDataId=&amp=&prevId=&amp=&key=2c267bc83d484dc5370621fb9ed717d7.pdf&amp=&fileName=r9-guidelines-zenki",
+    "result": "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?type=1&amp=&pageId=3088&amp=&contentsId=&amp=&contentsDataId=&amp=&prevId=&amp=&key=2c267bc83d484dc5370621fb9ed717d7.pdf&amp=&fileName=r9-guidelines-zenki"
+   }
+  },
+  {
+   "name": "神戸大学",
+   "pages": {
+    "admission": "https://www.office.kobe-u.ac.jp/stdnt-examinavi/juken/nittei/index.html",
+    "yoko": "https://www.office.kobe-u.ac.jp/stdnt-examinavi/wp-content/uploads/2026/06/2027kokorozashi_bosyuyoukou.pdf",
+    "result": "https://www.office.kobe-u.ac.jp/stdnt-examinavi/juken/nyushi_results/index.html"
+   }
+  },
+  {
+   "name": "千葉大学",
+   "pages": {
+    "admission": "https://www.chiba-u.ac.jp/exam/weboc/index.html",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "埼玉大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://www.saitama-u.ac.jp/media/r9senbatsu.pdf",
+    "result": "https://www.saitama-u.ac.jp/entrance/exam_info/result/r5_ippan.pdf"
+   }
+  },
+  {
+   "name": "横浜国立大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://www.ynu.ac.jp/exam/faculty/essential/pdf/senbatsu2027.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "東京外国語大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://www.tufs.ac.jp/documents/admission/exam/2027_yoko.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "お茶の水女子大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://www.ao.ocha.ac.jp/application/faculty/body/application_faculty_d/fil/R09senbatsu.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "東京学芸大学",
+   "pages": {
+    "admission": "https://telemail.jp/shingaku/university/10003382/examination/general",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "東京農工大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://www.tuat.ac.jp/documents/tuat/admission/nyushi_gakubu/youkou/r9_senbatuyoukou.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "電気通信大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://www.uec.ac.jp/education/undergraduate/admission/pdf/2027senbatsu.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "東京都立大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "横浜市立大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://www.yokohama-cu.ac.jp/univ/corp/tt534t0000000pc5-att/202603-YCUPROFILE.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "宇都宮大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://admission.utsunomiya-u.ac.jp/docs/R9senbatsuyoukou_2026.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "群馬大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://www.gunma-u.ac.jp/wp-content/uploads/2026/08/2027senbatsu.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "高崎経済大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "東京海洋大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "東京藝術大学",
+   "pages": {
+    "admission": "https://admissions.geidai.ac.jp/undergraduate/fine-arts/application/",
+    "yoko": "https://admissions.geidai.ac.jp/wp/wp-content/uploads/2026/07/R9nyugakusyasenbatuyoko0727.pdf",
+    "result": "https://www.geidai.ac.jp/wp-content/uploads/2023/09/yakuinjoukyou2025.pdf"
+   }
+  },
+  {
+   "name": "大阪公立大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://www.omu.ac.jp/admissions/assets/2027sennbatuyoukou.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "国際教養大学",
+   "pages": {
+    "admission": "https://admission.aiu.ac.jp/ug/recommend/",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "会津大学",
+   "pages": {
+    "admission": "https://u-aizu.ac.jp/admissions/opencampus/opencampus2026/",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "福島県立医科大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "新潟大学",
+   "pages": {
+    "admission": "https://www.niigata-u.ac.jp/admissions/faculty/selection/",
+    "yoko": "https://www.niigata-u.ac.jp/wp-content/uploads/2026/07/senbatsuyoukou.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "金沢大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://www.kanazawa-u.ac.jp/wp/wp-content/uploads/2026/07/2027_r9_nyugakusyasenbatsuyoko.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "信州大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://www.shinshu-u.ac.jp/ad_portal/selection/uploads/R09senbatsuyoukou.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "静岡大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "広島大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://www.hiroshima-u.ac.jp/index.php/system/files/297499/09_senbatsu_youkou.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "岡山大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "熊本大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "奈良女子大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://www.nara-wu.ac.jp/nyusi/qnyusi/download/pdf/R9sougougatabosyuuyoukou.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "長岡技術科学大学",
+   "pages": {
+    "admission": "https://telemail.jp/shingaku/university/10003398/examination/recommendation",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "豊橋技術科学大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://www.tut.ac.jp/exam/entrance/docs/R09saihen_yokoku.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "早稲田大学",
+   "pages": {
+    "admission": "https://www.waseda.jp/inst/admission/undergraduate/system/general/",
+    "yoko": "https://admission.waseda.jp/youkou/waseda-2027.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "慶應義塾大学",
+   "pages": {
+    "admission": "https://www.keio.ac.jp/ja/admissions/faculty/examinations/general-admissions/",
+    "yoko": "https://www.keio.ac.jp/fixed-files/2027_ippan_youkou.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "上智大学",
+   "pages": {
+    "admission": "https://fst.sophia.ac.jp/exam/tuitionfee",
+    "yoko": "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/10/2027_ippan_youkou1028.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "東京理科大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://www.tus.ac.jp/admissions/uploads/2026/GeneralExamGuidelines_2027_01.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "国際基督教大学（ICU）",
+   "pages": {
+    "admission": "https://www.icu.ac.jp/admissions/undergraduate/exam/general/",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "学習院大学",
+   "pages": {
+    "admission": "https://www.univ.gakushuin.ac.jp/admissions/faculty-exam/",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "明治大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://www.meiji.ac.jp/exam/information/guidelines/2027-meiji_guidelines.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "青山学院大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "立教大学",
+   "pages": {
+    "admission": "https://www.rikkyo.ac.jp/admissions/faq/admissions01.html",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "中央大学",
+   "pages": {
+    "admission": "https://www.chuo-u.ac.jp/academics/fees/admission/faculties_new_student/",
+    "yoko": "https://www.chuo-u.ac.jp/common_d/connect/admission/2027/youkou_pdf/58-63.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "法政大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "同志社大学",
+   "pages": {
+    "admission": "https://www.doshisha.ac.jp/admissions_undergrad/procedure/payment/index.html",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "立命館大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://admission.ritsumei.ac.jp/assets/file/2027/admission/general/guidelines/04-05.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "関西学院大学",
+   "pages": {
+    "admission": "https://telemail.jp/shingaku/university/10001578/examination/general",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "関西大学",
+   "pages": {
+    "admission": "https://telemail.jp/shingaku/university/10001573/examination/general",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "南山大学",
+   "pages": {
+    "admission": "https://www.nanzan-u.ac.jp/admission/nyushi/shubetsu/shuyo.html",
+    "yoko": "https://www.nanzan-u.ac.jp/admission/ippansenbatsu/",
+    "result": ""
+   }
+  },
+  {
+   "name": "西南学院大学",
+   "pages": {
+    "admission": "https://www.seinan-gu.ac.jp/admissions/entrance_system/examination/",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "成蹊大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://www.seikei.ac.jp/university/s-net/pdf/2027_admission_guidelines.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "成城大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "明治学院大学",
+   "pages": {
+    "admission": "https://www.meijigakuin.ac.jp/admission/information/general_a/",
+    "yoko": "https://www.meijigakuin.ac.jp/admission/guidelines/guide_ippan/pageindices/index59.html",
+    "result": ""
+   }
+  },
+  {
+   "name": "獨協大学",
+   "pages": {
+    "admission": "https://telemail.jp/shingaku/university/10001450/examination/general",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "國學院大學",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "武蔵大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://www.musashi.ac.jp/admissions/ahdlv30000000p0g-att/2027_yoko.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "日本大学",
+   "pages": {
+    "admission": "https://www.med.nihon-u.ac.jp/examinee/guidance.php",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "東洋大学",
+   "pages": {
+    "admission": "https://www.toyo.ac.jp/nyushi/admission/general/",
+    "yoko": "https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/admission/admission-data/requirements-general/general_entry-exam_2027.pdf",
+    "result": "https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/admission/admission-data/requirements-general/general_entry-exam_2027.pdf"
+   }
+  },
+  {
+   "name": "駒澤大学",
+   "pages": {
+    "admission": "https://think.komazawa-u.ac.jp/admission/list/general-all/",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "専修大学",
+   "pages": {
+    "admission": "https://www.senshu-u.ac.jp/admission/exam/schedule.html",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "芝浦工業大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "東京都市大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "東京電機大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://www.dendai.ac.jp/special2027/youkou/viewerpdf/web/yoko.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "工学院大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "東京農業大学",
+   "pages": {
+    "admission": "https://telemail.jp/shingaku/university/10200066/examination/general",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "北里大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "自治医科大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "国際医療福祉大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "順天堂大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "東京慈恵会医科大学",
+   "pages": {
+    "admission": "https://telemail.jp/shingaku/university/10001117/examination/general",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "日本医科大学",
+   "pages": {
+    "admission": "",
+    "yoko": "https://www.nms.ac.jp/college/mchs/wp-content/uploads/2026/06/ikkb_youkou_2027.pdf",
+    "result": ""
+   }
+  },
+  {
+   "name": "獨協医科大学",
+   "pages": {
+    "admission": "https://www.dokkyomed.ac.jp/dusm/exam/entrance/general_pre.html",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "津田塾大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "東京女子大学",
+   "pages": {
+    "admission": "https://www.twcu.ac.jp/main/admissions/dept-info/fee.html",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "日本女子大学",
+   "pages": {
+    "admission": "https://www.jwu.ac.jp/unv/admission/exam/general.html",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "聖心女子大学",
+   "pages": {
+    "admission": "https://telemail.jp/shingaku/university/10001532/examination/general",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "立命館アジア太平洋大学（APU）",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "神田外語大学",
+   "pages": {
+    "admission": "https://www.kandagaigo.ac.jp/kuis/admissions/guide/ippan/",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "関西外国語大学",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  },
+  {
+   "name": "防衛大学校",
+   "pages": {
+    "admission": "https://www.mod.go.jp/nda/admissions/info/requirements/",
+    "yoko": "https://www.mod.go.jp/nda/admissions/info/requirements/",
+    "result": ""
+   }
+  },
+  {
+   "name": "防衛医科大学校",
+   "pages": {
+    "admission": "",
+    "yoko": "https://www.mod.go.jp/gsdf/jieikanbosyu/details/education/boeiiadai.html",
+    "result": ""
+   }
+  },
+  {
+   "name": "気象大学校",
+   "pages": {
+    "admission": "",
+    "yoko": "",
+    "result": ""
+   }
+  }
+ ]
+}

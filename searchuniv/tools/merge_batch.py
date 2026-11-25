@@ -7,6 +7,7 @@ TODAY = datetime.date.today().isoformat()
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from geocode import geocode
+from provenance import kind_of, PRIMARY_FIELDS, LABEL
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = lambda n: os.path.join(ROOT, 'data', n + '.json')
 L = lambda n: json.load(open(P(n), encoding='utf-8'))
@@ -42,10 +43,26 @@ def main(path):
                 else:
                     problems.append(n + ': 座標なし')
         cur = info.setdefault(n, {})
-        for k, v in (r.get('info') or {}).items():
+        rinfo = r.get('info') or {}
+        # 項目ごとの出典（一次資料優先・2026-11-25）：info._src = {"schedule": ["url", ...], ...}
+        bsrc = {f: [u for u in (us if isinstance(us, list) else [us]) if isinstance(u, str) and u.startswith('http')]
+                for f, us in (rinfo.get('_src') or {}).items()}
+        hpn = hp.get(n, r.get('hp', ''))
+        for k, v in rinfo.items():
+            if k == '_src': continue
+            if k.endswith('_replace') and not empty(v) and k[:-len('_replace')] in PRIMARY_FIELDS:
+                # 大学公式で照合済みの項目を、公式の出典が無いデータで置き換えない
+                base = k[:-len('_replace')]
+                old_k = kind_of(cur, base, hpn)
+                new_k = kind_of({base: v, '_src': {base: {'u': bsrc.get(base, [])}}}, base, hpn)
+                if old_k == 'p' and new_k != 'p':
+                    problems.append('%s: %s は大学公式で照合済みのため、公式の出典が無い値での置き換えを見送り' % (n, LABEL.get(base, base)))
+                    bsrc.pop(base, None)
+                    continue
             if k.endswith('_replace') and not empty(v):
                 # 既存の値を新しい値で置き換える（例：schedule_replace で入試日程を最新版に）
                 base = k[:-len('_replace')]; cur[base] = v; filled += 1; cur.setdefault('_checked', {})[base] = TODAY
+                (cur.get('_src') or {}).pop(base, None)  # 置き換えた項目の出典は、この batch の _src だけにする
                 continue
             if k == 'departments_full' and isinstance(v, list) and v:
                 # 専攻・コースまで含めた学部・学科一覧で置き換える
@@ -71,6 +88,12 @@ def main(path):
             elif empty(cur.get(k)) and not empty(v):
                 cur[k] = v; filled += 1
                 cur.setdefault('_checked', {})[k] = TODAY
+        for f, us in bsrc.items():
+            if not us: continue
+            e = cur.setdefault('_src', {}).setdefault(f, {})
+            e['u'] = list(dict.fromkeys(us + [u for u in e.get('u', []) if u not in us]))[:8]
+            e['d'] = TODAY
+            cur['sources'] = list(dict.fromkeys((cur.get('sources') or []) + us))
         if r.get('guide') and n not in guide:
             guide[n] = {k: r['guide'].get(k) for k in ('fit', 'ask', 'caution') if r['guide'].get(k)}
         if isinstance(r.get('story'), dict):
