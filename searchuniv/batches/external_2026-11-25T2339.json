@@ -1,0 +1,760 @@
+[
+ {
+  "name": "職業能力開発総合大学校",
+  "cat": "daigakkou",
+  "type": "厚生労働省所管（独立行政法人高齢・障害・求職者雇用支援機構）",
+  "pref": "東京都小平市",
+  "pref_name": "東京都",
+  "city": "小平市",
+  "hp": "https://www.uitec.ac.jp/",
+  "reading": "しょくぎょうのうりょくかいはつそうごうだいがっこう",
+  "features": [
+   "職業訓練指導員を養成する国内唯一の大学校。",
+   "ものづくり実習と工学理論を融合した4年制の総合課程を設置。",
+   "国公立大学並みの学費で学べ、学生寮も完備。"
+  ],
+  "memo": "一般入試は英語・数学（数ⅢC含む）・理科の3教科。入寮希望者は合格発表前の申込期限に注意。",
+  "info": {
+   "faculties": [
+    "総合課程"
+   ],
+   "departments": [
+    {
+     "f": "総合課程",
+     "d": [
+      "機械工学専攻",
+      "電気工学専攻",
+      "電子情報工学専攻",
+      "建築工学専攻"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜40.0",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "課さない",
+    "kyoka": [
+     0,
+     0
+    ],
+    "note": "共通テストは利用しない"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜入学試験",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "エントリーレポート（活動報告書）、プレゼンテーション（口頭試問含む）、面接",
+      "req": "学校推薦入学試験との併願不可（募集は機械・電気・電子情報工学専攻のみ）",
+      "url": "https://www.uitec.jeed.go.jp/examinee/examination.html"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦入学試験",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "小論文、学力試験（数学Ⅰ）、面接",
+      "req": "専願、総合型選抜との併願不可",
+      "url": "https://www.uitec.jeed.go.jp/examinee/examination.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入学試験",
+      "kyotsu": "課さない",
+      "niji": "英語、数学（Ⅰ・Ⅱ・Ⅲ・A・B・C）、理科（物理または化学から1科目選択）",
+      "content": null,
+      "req": null,
+      "url": "https://www.uitec.jeed.go.jp/examinee/examination.html"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "総合課程 全専攻",
+      "kubun": "一般",
+      "name": "一般入学試験",
+      "n": 3,
+      "subj": "英語（英コミⅠ・Ⅱ、論表Ⅰ ※リスニング等除く）・数学（Ⅰ・Ⅱ・Ⅲ・A・B・C）・理科（物理基礎・物理 または 化学基礎・化学から1科目）",
+      "kt": "",
+      "eng": "なし"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜入学試験",
+      "apply": "10/1〜10/9",
+      "exam": "10/17",
+      "result": "11/13",
+      "proc": null,
+      "fee": 22500
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦入学試験",
+      "apply": "10/1〜10/14",
+      "exam": "10/24",
+      "result": "11/20",
+      "proc": null,
+      "fee": 22500
+     },
+     {
+      "kubun": "一般",
+      "name": "一般入学試験",
+      "apply": "1/4〜1/25",
+      "exam": "2/12",
+      "result": "2/26",
+      "proc": null,
+      "fee": 22500
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-06-14",
+      "type": "来場",
+      "title": "第1回オープンキャンパス"
+     },
+     {
+      "date": "2026-07-25",
+      "type": "来場",
+      "title": "第2回オープンキャンパス"
+     },
+     {
+      "date": "2026-07-26",
+      "type": "来場",
+      "title": "第3回オープンキャンパス"
+     },
+     {
+      "date": "2026-11-07",
+      "type": "来場",
+      "title": "第4回オープンキャンパス"
+     },
+     {
+      "date": "2027-03-20",
+      "type": "来場",
+      "title": "第5回オープンキャンパス"
+     }
+    ],
+    "url": "https://www.uitec.jeed.go.jp/examinee/event/opencampus.html"
+   },
+   "licenses": [
+    "職業訓練指導員免許（総合課程）"
+   ],
+   "_via": "external-ai",
+   "sources": [
+    "https://www.uitec.jeed.go.jp/examinee/examination.html",
+    "http://www.uitec.ac.jp/examinee/qa.html",
+    "https://www.uitec.jeed.go.jp/examinee/event/opencampus.html",
+    "https://search.keinet.ne.jp/5040/general/border_rate",
+    "https://passnavi.obunsha.co.jp/univ/5330/suisen/"
+   ]
+  },
+  "sources": [
+   "https://www.uitec.jeed.go.jp/examinee/examination.html",
+   "http://www.uitec.ac.jp/examinee/qa.html",
+   "https://www.uitec.jeed.go.jp/examinee/event/opencampus.html",
+   "https://search.keinet.ne.jp/5040/general/border_rate",
+   "https://passnavi.obunsha.co.jp/univ/5330/suisen/"
+  ]
+ },
+ {
+  "name": "国際ファッション専門職大学",
+  "cat": "senmon",
+  "type": "私立",
+  "pref": "東京都新宿区",
+  "pref_name": "東京都",
+  "city": "新宿区",
+  "hp": "https://www.piif.ac.jp/",
+  "reading": "こくさいふぁっしょんせんもんしょくだいがく",
+  "features": [
+   "東京・大阪・名古屋の3キャンパスに1学部4学科を設置。",
+   "ファッションのクリエイションとビジネスを実践的に学ぶ専門職大学。",
+   "2年次からデザインやAI・ブランドマネジメント等のコースを選択。"
+  ],
+  "memo": "キャンパスにより学科名と初年度学費が異なる。総合型選抜は全6回実施。",
+  "info": {
+   "faculties": [
+    "国際ファッション学部"
+   ],
+   "departments": [
+    {
+     "f": "国際ファッション学部",
+     "d": [
+      "ファッションクリエイション学科（東京）",
+      "ファッションビジネス学科（東京）",
+      "大阪ファッションクリエイション・ビジネス学科（大阪）",
+      "名古屋ファッションクリエイション・ビジネス学科（名古屋）"
+     ]
+    }
+   ],
+   "kyotsu": {
+    "kamoku": "課さない",
+    "kyoka": [
+     0,
+     0
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（面接評価型／作品・資格評価型）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "面接評価または作品・資格評価",
+      "req": null,
+      "url": "https://www.piif.ac.jp/news/15033/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "kyotsu": "課さない",
+      "niji": "書類審査、面接、適性診断Ⅰ、適性診断Ⅱ、課題作文（併願のみ・専願は免除）",
+      "content": null,
+      "req": null,
+      "url": "https://www.piif.ac.jp/admission/"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": "https://www.piif.ac.jp/admission/"
+   },
+   "access": "東京キャンパス：東京都新宿区西新宿1-7-3（コクーンタワー）／大阪キャンパス：大阪市北区梅田3-3-2／名古屋キャンパス：名古屋市中村区名駅4-27-1（スパイラルタワーズ）",
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 第1回",
+      "apply": "9/1〜9/15",
+      "exam": "9/20",
+      "result": "11/2",
+      "proc": "11/12（入学金）・12/3（学費）",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 第2回",
+      "apply": "9/24〜10/20",
+      "exam": "10/25",
+      "result": "11/2",
+      "proc": "11/12（入学金）・12/3（学費）",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 第3回",
+      "apply": "10/19〜11/24",
+      "exam": "11/29",
+      "result": "12/1",
+      "proc": "12/10（入学金）・1/7（学費）",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 第4回",
+      "apply": "11/24〜12/15",
+      "exam": "12/20",
+      "result": "12/23",
+      "proc": "1/7（入学金）・1/28（学費）",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 第5回",
+      "apply": "12/21〜1/6",
+      "exam": "1/10",
+      "result": "1/13",
+      "proc": "1/28（入学金）・2/11（学費）",
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 第6回",
+      "apply": "1/12〜1/26",
+      "exam": "1/31",
+      "result": "2/3",
+      "proc": "2/18（入学金）・2/25（学費）",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜",
+      "apply": "1/6〜3/2",
+      "exam": null,
+      "result": null,
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.piif.ac.jp/admission/",
+    "https://www.piif.ac.jp/news/15033/",
+    "https://www.piif.ac.jp/admission/tuition/",
+    "https://www.piif.ac.jp/admission/scholarship/",
+    "https://www.piif.ac.jp/faculty/",
+    "https://www.piif.ac.jp/access/",
+    "https://passnavi.obunsha.co.jp/univ/9202/expense/"
+   ]
+  },
+  "sources": [
+   "https://www.piif.ac.jp/admission/",
+   "https://www.piif.ac.jp/news/15033/",
+   "https://www.piif.ac.jp/admission/tuition/",
+   "https://www.piif.ac.jp/admission/scholarship/",
+   "https://www.piif.ac.jp/faculty/",
+   "https://www.piif.ac.jp/access/",
+   "https://passnavi.obunsha.co.jp/univ/9202/expense/"
+  ]
+ },
+ {
+  "name": "情報経営イノベーション専門職大学（iU）",
+  "cat": "senmon",
+  "type": "私立",
+  "pref": "東京都墨田区",
+  "pref_name": "東京都",
+  "city": "墨田区",
+  "hp": "https://www.i-u.ac.jp/",
+  "reading": "じょうほうけいえいいのべーしょんせんもんしょくだいがく",
+  "features": [
+   "ICT・ビジネス・グローバルコミュニケーションを学ぶ専門職大学。",
+   "総合型選抜は生成AI活用型・プレゼン型・面接型など多様な方式を用意。",
+   "特待生選抜で初年度授業料の減免制度あり。"
+  ],
+  "memo": "入学時に指定スペックのPC購入が必携。特待生選抜は出願時のチェックが必要。",
+  "info": {
+   "faculties": [
+    "情報経営イノベーション学部"
+   ],
+   "departments": [
+    {
+     "f": "情報経営イノベーション学部",
+     "d": [
+      "情報経営イノベーション学科"
+     ]
+    }
+   ],
+   "kyotsu": {
+    "kamoku": "課さない",
+    "kyoka": [
+     0,
+     0
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（生成AI活用型・グループワーク型・プレゼン型・小論文型・面接型）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "選択した型（生成AI活用・グループワーク・プレゼン・小論文・面接）による選考",
+      "req": "A日程は専願、B〜F日程は併願可",
+      "url": "https://www.i-u.ac.jp/admissions/comprehensive-admissions/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（指定校推薦／公募制推薦）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "指定校推薦は専願、公募制推薦は併願可",
+      "url": "https://www.i-u.ac.jp/admissions/screening/"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A〜C日程）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "併願可",
+      "url": "https://www.i-u.ac.jp/admissions/screening/"
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "特待生選抜（A特待生）",
+      "kind": "減免",
+      "target": "全学部",
+      "amount": "授業料100万円減免（初年度合計600,000円）",
+      "timing": "入試時",
+      "cond": "出願時に希望選択。入学後は毎年審査あり"
+     },
+     {
+      "name": "特待生選抜（B特待生）",
+      "kind": "減免",
+      "target": "全学部",
+      "amount": "授業料50万円減免（初年度合計1,100,000円）",
+      "timing": "入試時",
+      "cond": "出願時に希望選択。入学後は毎年審査あり"
+     },
+     {
+      "name": "特待生選抜（C特待生）",
+      "kind": "減免",
+      "target": "全学部",
+      "amount": "授業料20万円減免（初年度合計1,400,000円）",
+      "timing": "入試時",
+      "cond": "出願時に希望選択。入学後は毎年審査あり"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": "https://www.i-u.ac.jp/admissions/"
+   },
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 A日程（専願）",
+      "apply": "9/1〜9/17",
+      "exam": "9/26",
+      "result": "11/2",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 B日程（併願）",
+      "apply": "9/1〜10/8",
+      "exam": "10/18",
+      "result": "11/2",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 C日程",
+      "apply": "10/9〜11/12",
+      "exam": "11/22",
+      "result": "11/27",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 D日程",
+      "apply": "11/13〜12/10",
+      "exam": "12/19・12/20（選択制）",
+      "result": "12/25",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 E日程",
+      "apply": "12/11〜2/4",
+      "exam": "2/13",
+      "result": "2/19",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜 F日程",
+      "apply": "2/5〜2/25",
+      "exam": "3/7",
+      "result": "3/8",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 A日程（指定校・公募）",
+      "apply": "11/1〜11/12",
+      "exam": "11/22",
+      "result": "12/1",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜 B日程（指定校・公募）",
+      "apply": "12/11〜2/4",
+      "exam": "2/13",
+      "result": "2/19",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "apply": "12/11〜1/21",
+      "exam": "1/30",
+      "result": "2/5",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 B日程",
+      "apply": "1/22〜2/10",
+      "exam": "2/21",
+      "result": "2/26",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 C日程",
+      "apply": "2/11〜2/25",
+      "exam": "3/7",
+      "result": "3/8",
+      "proc": null,
+      "fee": null
+     }
+    ],
+    "note": "大学公式「入試ガイド2027（国内高校生向け、2026年3月時点）」。一般の手続締切はKei-Net。検定料は初回30,000円、年度内2回目以降の出願は各10,000円（別途事務手数料）。2027年度は共通テスト利用の選抜を実施しない"
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.i-u.ac.jp/admissions/",
+    "https://www.i-u.ac.jp/admissions/screening/",
+    "https://www.i-u.ac.jp/admissions/comprehensive-admissions/",
+    "https://www.i-u.ac.jp/academics/tuition/",
+    "https://www.i-u.ac.jp/admissions/admissions-tuition/"
+   ]
+  },
+  "sources": [
+   "https://www.i-u.ac.jp/admissions/",
+   "https://www.i-u.ac.jp/admissions/screening/",
+   "https://www.i-u.ac.jp/admissions/comprehensive-admissions/",
+   "https://www.i-u.ac.jp/academics/tuition/",
+   "https://www.i-u.ac.jp/admissions/admissions-tuition/"
+  ]
+ },
+ {
+  "name": "気象大学校",
+  "cat": "daigakkou",
+  "type": "国土交通省（気象庁）",
+  "pref": "千葉県柏市",
+  "pref_name": "千葉県",
+  "city": "柏市",
+  "hp": "https://www.mc-jma.go.jp/",
+  "reading": "きしょうだいがっこう",
+  "features": [
+   "気象庁の幹部職員を養成する国土交通省所管の4年制大学校。",
+   "入学と同時に国家公務員となり、入学金・授業料無料で給与が支給される。",
+   "採用予定者数は約7名と極めて少数精鋭の難関試験。"
+  ],
+  "memo": "出願は8月下旬〜9月上旬と非常に早い。受験料無料で、数学・物理・英語の記述式試験あり。",
+  "info": {
+   "faculties": [
+    "大学部"
+   ],
+   "departments": [
+    {
+     "f": "大学部",
+     "d": [
+      "大学部"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "65.0",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "課さない",
+    "kyoka": [
+     0,
+     0
+    ],
+    "note": "人事院・気象庁が実施する国家公務員採用試験"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "気象大学校学生採用試験",
+      "kyotsu": "課さない",
+      "niji": "第1次：基礎能力試験、学科試験（数学・物理・英語の多肢選択・記述式）、作文試験／第2次：人物試験、身体検査",
+      "content": null,
+      "req": "受験案内による年齢・学歴要件",
+      "url": "https://www.mc-jma.go.jp/mcjma/educational/adopt.htm"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "大学部",
+      "kubun": "一般",
+      "name": "気象大学校学生採用試験",
+      "n": 3,
+      "subj": "基礎能力試験・学科試験（数学・物理・英語）・作文試験・人物試験・身体検査",
+      "kt": "",
+      "eng": "なし"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "気象大学校学生採用試験",
+      "apply": "8/20〜9/7",
+      "exam": "第1次：10/24・10/25／第2次：12/11",
+      "result": "第1次：12/4／最終：1/14",
+      "proc": null,
+      "fee": 0
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-08-01",
+      "type": "オンライン",
+      "title": "オープンキャンパス2026（8/1〜8/7オンライン開催）"
+     }
+    ],
+    "url": "https://www.mc-jma.go.jp/mcjma/info/news.htm"
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.mc-jma.go.jp/mcjma/educational/adopt.htm",
+    "https://www.mc-jma.go.jp/mcjma/info/news.htm",
+    "https://search.keinet.ne.jp/5050/general/border_rate",
+    "https://passnavi.obunsha.co.jp/univ/5320/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.mc-jma.go.jp/mcjma/educational/adopt.htm",
+   "https://www.mc-jma.go.jp/mcjma/info/news.htm",
+   "https://search.keinet.ne.jp/5050/general/border_rate",
+   "https://passnavi.obunsha.co.jp/univ/5320/difficulty/"
+  ]
+ },
+ {
+  "name": "茨城県立農業大学校",
+  "cat": "daigakkou",
+  "type": "茨城県立（専修学校）",
+  "pref": "茨城県東茨城郡茨城町",
+  "pref_name": "茨城県",
+  "city": "東茨城郡茨城町",
+  "hp": "https://www.pref.ibaraki.jp/soshiki/nourinsuisan/nodai/index.html",
+  "reading": "いばらきけんりつのうぎょうだいがっこう",
+  "features": [
+   "2年制の養成課程と、さらに学ぶ2年制の研究科を設置。",
+   "卒業時に専門士の称号が付与され、4年制大学への編入学資格が得られる。",
+   "入学料5,650円・年間授業料132,400円と学費が非常に低い。"
+  ],
+  "memo": "高卒見込み者は養成課程（2年制）を受験。長岡・岩井の2キャンパスがあり、学費負担が軽い。",
+  "info": {
+   "faculties": [
+    "養成課程",
+    "研究科"
+   ],
+   "departments": [
+    {
+     "f": "養成課程",
+     "d": []
+    },
+    {
+     "f": "研究科",
+     "d": [
+      "作物コース",
+      "園芸コース"
+     ]
+    }
+   ],
+   "kyotsu": {
+    "kamoku": "課さない",
+    "kyoka": [
+     0,
+     0
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "推薦",
+      "name": "推薦入試（養成課程）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/3nyuushikanren-top.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "前期入試（養成課程・研究科）",
+      "kyotsu": "課さない",
+      "niji": "小論文、個別面接（研究科）",
+      "content": null,
+      "req": null,
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/3nyuushikanren-top.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "後期入試（養成課程・研究科）",
+      "kyotsu": "課さない",
+      "niji": "小論文、個別面接（研究科）",
+      "content": null,
+      "req": null,
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/3nyuushikanren-top.html"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": "https://www.pref.ibaraki.jp/soshiki/nourinsuisan/nodai/"
+   },
+   "access": "長岡キャンパス：JR常磐線水戸駅北口から関東鉄道バス「運転免許センター」終点下車徒歩30分／岩井キャンパス：つくばエクスプレス守谷駅からバス「岩井バスターミナル」下車徒歩15分",
+   "licenses": [
+    "専門士（養成課程・研究課程）"
+   ],
+   "_via": "external-ai",
+   "sources": [
+    "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/3nyuushikanren-top.html",
+    "https://www.pref.ibaraki.jp/nourinsuisan/nodai/gakkougaiyou.html",
+    "https://www.pref.ibaraki.jp/nourinsuisan/nodai/08access/access.html",
+    "https://www.pref.ibaraki.jp/soshiki/nourinsuisan/nodai/documents/r9kennkyuukaannnai_.pdf",
+    "https://www.pref.ibaraki.jp/soshiki/nourinsuisan/nodai/documents/reiwa9nenndogakkouannnai.pdf"
+   ]
+  },
+  "sources": [
+   "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/3nyuushikanren-top.html",
+   "https://www.pref.ibaraki.jp/nourinsuisan/nodai/gakkougaiyou.html",
+   "https://www.pref.ibaraki.jp/nourinsuisan/nodai/08access/access.html",
+   "https://www.pref.ibaraki.jp/soshiki/nourinsuisan/nodai/documents/r9kennkyuukaannnai_.pdf",
+   "https://www.pref.ibaraki.jp/soshiki/nourinsuisan/nodai/documents/reiwa9nenndogakkouannnai.pdf"
+  ]
+ }
+]
