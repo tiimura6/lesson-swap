@@ -20608,6 +20608,44 @@
 "kyotsu"
 ],
 "keinet": "2283"
+},
+{
+"name": "八洲学園大学（通信制のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"founded",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "東京通信大学（通信制のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "サイバー大学（通信制のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
 }
 ],
 "failed": [],
@@ -20906,45 +20944,7 @@
 "keinet": "2238"
 },
 {
-"name": "八洲学園大学（通信制のみ）",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students",
-"founded",
-"careers",
-"kyotsu",
-"difficulty"
-]
-},
-{
-"name": "東京通信大学（通信制のみ）",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
-]
-},
-{
 "name": "ビジネス・ブレークスルー大学（通信制のみ）",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students",
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
-]
-},
-{
-"name": "サイバー大学（通信制のみ）",
 "need": [
 "gap_keinet"
 ],
