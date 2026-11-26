@@ -162,7 +162,7 @@
     "guideline_hs": "https://www.tsukuba-tech.ac.jp/admission/hs/guideline.html",
     "guideline_it": "https://www.tsukuba-tech.ac.jp/admission/it/guideline.html",
     "yoko_it": "http://www.tsukuba-tech.ac.jp/uploads/2026/09/R9it-bosyuyoko_1.pdf",
-    "result_hs": "https://www.tsukuba-tech.ac.jp/admission/hs/results/index.html",
+    "result_hs": "https://www.tsukuba-tech.ac.jp/admission/hs/results/past_results.html",
     "expenses": "https://www.tsukuba-tech.ac.jp/education/expenses/index.html",
     "fees": "https://www.tsukuba-tech.ac.jp/education/expenses/fees.html",
     "scholar_qa": "https://www.tsukuba-tech.ac.jp/education/campus_life/q_and_a/hs/q_and_a_5.html",
@@ -182,10 +182,18 @@
   {
    "name": "つくば国際大学",
    "pages": {
-    "admission": "",
+    "admission": "https://www.ktt.ac.jp/tiu/",
     "yoko": "",
-    "result": ""
-   }
+    "result": "",
+    "exam_dates": "https://www.ktt.ac.jp/tiu/jyuken/2026/exam-dates-hs.htm",
+    "general": "https://www.ktt.ac.jp/tiu/jyuken/2026/general-examination-hs.htm",
+    "common_test": "https://www.ktt.ac.jp/tiu/jyuken/2026/common-test-hs.htm",
+    "recommend": "https://www.ktt.ac.jp/tiu/jyuken/2026/recommend-examination-hs.htm",
+    "comprehensive": "https://www.ktt.ac.jp/tiu/jyuken/2026/comprehensive-type-hs.htm",
+    "fees": "https://www.ktt.ac.jp/tiu/jyuken/2026/tuition-fees-hs.htm"
+   },
+   "fails": 1,
+   "note": "2026-11-26 公式サイト www.ktt.ac.jp が自動取得を受け付けず（WebFetch は robots.txt を読めず ROBOTS_UNREACHABLE、直接接続もプロキシで 403）、内容を確認できなかった。URL は検索結果の題名から見つけたもので、jyuken/2026/ が何年度入試のページかは未確認。入試結果のページは検索で見つからなかった"
   },
   {
    "name": "アール医療専門職大学",
