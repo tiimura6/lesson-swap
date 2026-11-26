@@ -55,6 +55,8 @@ git add searchuniv
 git -c user.name=tiimura6 -c user.email=tiimura6@icc.ac.jp commit -m "外部AI(Gemini)で○校補完: 校名…（見送り：校名と理由）"
 git pull --rebase && git -c push.negotiate=true push origin HEAD:main
 ```
+- `git pull --rebase` が **生成物（index.html・su-module.js・detail.json など）だけ** の衝突で止まったら：`git checkout --ours <その生成物>` → `git add` → `GIT_EDITOR=true git rebase --continue` → `python3 tools/build.py && python3 tools/smoke_test.py` → `git add searchuniv && git commit --amend --no-edit` → push。
+- 同じ時間に別の Gemini 補完が動いていることがある。1.3 の選び直しは周の始めに毎回 `git pull` してから行い、相手がすでに raw を入れた学校は選ばない。
 - `git pull --rebase` が data/*.json の衝突で止まったら：`git rebase --abort` → `git reset --hard origin/main`（自分のコミットは消える）→ `git pull` → その周の raw ファイルから 3. をやり直して build・commit・push。もう一度失敗したら止める。
 - smoke_test が不合格なら生成物をコミットしない。直せなければ止める。
 - アーティファクトの再公開はしない（毎時の「Searchuniv データ拡充」が行う）。
