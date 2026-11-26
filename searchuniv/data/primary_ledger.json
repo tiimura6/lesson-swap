@@ -143,10 +143,12 @@
     "kakomon": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/nyuushi/kakomon.html",
     "kakomon_kenkyuka": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/nyuushi/kakomon_kenkyuka.html",
     "suisen_goukaku": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r9suisennnyuusigoukakusyajyukennbanngou.pdf",
-    "qa": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/yokuarugakkouqa.pdf"
+    "qa": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/yokuarugakkouqa.pdf",
+    "career": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r5sinro_r2-4.pdf",
+    "kisoku": "https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00001705.html"
    },
-   "note": "2026-11-26：schedule は公式で一致。募集案内PDFは表の見出しが読み取れず、受験料・入学料/授業料の項目名・試験科目名が判別できず。パンフレットPDFは取得エラー。入試結果の公表ページは見当たらず（推薦の合格者番号のみ）。 / 2026-11-26 公式ページを開けず（取得の許可が時間切れ）",
-   "fails": 1,
+   "note": "2026-11-26：募集案内PDFは再び表の見出しが取れず金額（5,650・132,400）は項目名なし、英語外部試験・奨学金・減免・入試結果の記載は読み取れず。学校Q&A PDFは入学諸経費（1年次の教材費・給食費・後援会費等：長岡約70万円・岩井約60万円、例年3月下旬納入）のみで学費・奨学金・英語の記載なし。学校案内PDFは取得エラー（2回目）。設置管理条例施行規則（最終改正H28）は選考方法（筆記・口述、推薦は筆記免除）のみで金額・減免なし",
+   "fails": 2,
    "wait": {
     "ratios": "入試結果（倍率）は公表していない（公式の入試ページは推薦の合格者受験番号のみ）"
    }
@@ -163,10 +165,19 @@
     "result_hs": "https://www.tsukuba-tech.ac.jp/admission/hs/results/index.html",
     "expenses": "https://www.tsukuba-tech.ac.jp/education/expenses/index.html",
     "fees": "https://www.tsukuba-tech.ac.jp/education/expenses/fees.html",
-    "scholar_qa": "https://www.tsukuba-tech.ac.jp/education/campus_life/q_and_a/hs/q_and_a_5.html"
+    "scholar_qa": "https://www.tsukuba-tech.ac.jp/education/campus_life/q_and_a/hs/q_and_a_5.html",
+    "yoko_it_selection": "https://www.tsukuba-tech.ac.jp/uploads/2026/07/R9_SelectionGuideLines_it_1.pdf",
+    "yoko_vi": "https://www.tsukuba-tech.ac.jp/uploads/2026/09/R9_vi_application_gist.pdf",
+    "overview_it": "https://www.tsukuba-tech.ac.jp/admission/it/overview/",
+    "oc_it": "https://www.tsukuba-tech.ac.jp/admission/it/opencampus/index.html",
+    "oc_hs": "https://www.tsukuba-tech.ac.jp/admission/hs/post_19.html",
+    "online_consultation": "https://www.tsukuba-tech.ac.jp/admission/online_consultation.html"
    },
    "fails": 1,
-   "note": "2026-11-26 公式ページを開けず（取得の許可が時間切れ）"
+   "note": "2026-11-26：schedule・methods・subjects・eng・oc を公式で確認。ratios は視覚障害系の入試結果ページ（/admission/hs/results/index.html）が取得の許可待ちで読めず、大学計の Kei-Net 行は未置換",
+   "wait": {
+    "oc": "2027年度のOC日程は未掲載（公式OCページは2026年度のみ。例年6月・8月・10月）"
+   }
   },
   {
    "name": "つくば国際大学",
