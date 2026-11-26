@@ -269767,13 +269767,16 @@ null
 "founded": "2026-11-09",
 "access": "2026-11-09",
 "tuition": "2026-11-09",
-"money": "2026-11-09",
+"money": "2026-11-26",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
 "schedule": "2026-11-13",
 "kyotsu": "2026-11-25",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"methods": "2026-11-26",
+"scholar": "2026-11-26",
+"_via": "2026-11-26"
 },
 "departments": [
 {
@@ -269969,6 +269972,26 @@ null
 "first_year": 1638600,
 "four_year": null,
 "note": ""
+},
+{
+"f": "理工学部・デザイン学部・建築学部",
+"admission": 230000,
+"tuition": 990000,
+"facility": 420000,
+"practical": null,
+"other": 18600,
+"first_year": 1658600,
+"four_year": 5942600
+},
+{
+"f": "経済学部・経営学部",
+"admission": 230000,
+"tuition": 780000,
+"facility": 350000,
+"practical": null,
+"other": 18600,
+"first_year": 1378600,
+"four_year": 4822600
 }
 ]
 },
@@ -270008,7 +270031,14 @@ null
 "https://search.keinet.ne.jp/2289/general/exam_result",
 "https://search.keinet.ne.jp/2289/general/schedule",
 "https://search.keinet.ne.jp/2289sp/general/exam_subject_sp",
-"https://search.keinet.ne.jp/2289/general/border_rate"
+"https://search.keinet.ne.jp/2289/general/border_rate",
+"https://www.meisei-u.ac.jp/",
+"https://admission-info.meisei-u.ac.jp/admission/",
+"https://www.meisei-u.ac.jp/admission/outline/schedule.html",
+"https://ebook.meisei-u.ac.jp/meiseiuniv/ac_youkou_sogo/",
+"https://www.meisei-u.ac.jp/admission/academic_fee/",
+"https://www.meisei-u.ac.jp/admission/outline/imsbav00000x8ik9-att/nyushiguide_2027_web.pdf",
+"https://passnavi.obunsha.co.jp/univ/3150/difficulty/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -270087,7 +270117,70 @@ null
 "hensachi": "37.5〜52.5",
 "kyotei": "42%〜68%",
 "year": "2027年度入試用"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "総合型",
+"name": "総合型選抜（総合評価型・学びの探究型）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://ebook.meisei-u.ac.jp/meiseiuniv/ac_youkou_sogo/"
+},
+{
+"kubun": "一般",
+"name": "スカラシップ選抜（学費免除型／一般選抜免除型）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": "総合型・学校推薦型出願者も出願可能",
+"url": "https://admission-info.meisei-u.ac.jp/admission/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（3教科型・2教科型・1教科型・4教科型・検定＋1教科型）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.meisei-u.ac.jp/admission/outline/schedule.html"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜（Ⅰ期・Ⅱ期）",
+"kyotsu": "2〜4教科",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.meisei-u.ac.jp/admission/outline/schedule.html"
 }
+]
+},
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "スカラシップ特待生（学費免除合格）",
+"kind": "減免",
+"target": "全学部",
+"amount": "入学金および最大4年間の学費全額免除",
+"timing": "入試時",
+"cond": "スカラシップ選抜での優秀成績合格者"
+},
+{
+"name": "一般選抜免除合格",
+"kind": "減免",
+"target": "全学部",
+"amount": "入学金の半額（115,000円）免除",
+"timing": "入試時",
+"cond": "スカラシップ選抜で一般選抜合格者相当の成績"
+}
+]
+},
+"_via": "external-ai"
 },
 "明治薬科大学": {
 "faculties": [
@@ -270100,13 +270193,17 @@ null
 "founded": "2026-11-09",
 "access": "2026-11-09",
 "tuition": "2026-11-09",
-"money": "2026-11-09",
+"money": "2026-11-26",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
 "schedule": "2026-11-13",
 "kyotsu": "2026-11-25",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"methods": "2026-11-26",
+"scholar": "2026-11-26",
+"oc": "2026-11-26",
+"_via": "2026-11-26"
 },
 "departments": [
 {
@@ -270155,6 +270252,26 @@ null
 "first_year": 2037500,
 "four_year": null,
 "note": ""
+},
+{
+"f": "薬学部 薬学科（6年制）",
+"admission": 400000,
+"tuition": 1340000,
+"facility": 580000,
+"practical": null,
+"other": 0,
+"first_year": 2320000,
+"four_year": null
+},
+{
+"f": "薬学部 生命創薬科学科（4年制）",
+"admission": 400000,
+"tuition": 1100000,
+"facility": 500000,
+"practical": null,
+"other": 0,
+"first_year": 2000000,
+"four_year": 6800000
 }
 ]
 },
@@ -270177,7 +270294,15 @@ null
 "https://search.keinet.ne.jp/2288/general/exam_result",
 "https://telemail.jp/shingaku/university/10001063/examination/general",
 "https://search.keinet.ne.jp/2288/general/exam_subject",
-"https://search.keinet.ne.jp/2288/general/border_rate"
+"https://search.keinet.ne.jp/2288/general/border_rate",
+"https://www.my-pharm.ac.jp/",
+"https://www.my-pharm.ac.jp/news/detail/478/",
+"https://www.my-pharm.ac.jp/shiken/list/",
+"https://www.my-pharm.ac.jp/gakusei/fee/",
+"https://www.my-pharm.ac.jp/gakusei/scholarship/",
+"https://www.my-pharm.ac.jp/news/detail/508/",
+"https://www.my-pharm.ac.jp/event/open-campus/",
+"https://passnavi.obunsha.co.jp/univ/3140/difficulty/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -270247,7 +270372,120 @@ null
 "hensachi": "45.0〜52.5",
 "kyotei": "64%〜74%",
 "year": "2027年度入試用"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "共テ利用",
+"name": "一般選抜 A方式（共通テスト利用）",
+"kyotsu": null,
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.my-pharm.ac.jp/shiken/list/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 B方式前期・後期",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.my-pharm.ac.jp/shiken/list/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 C方式（共通テスト併用）",
+"kyotsu": null,
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.my-pharm.ac.jp/shiken/list/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.my-pharm.ac.jp/news/detail/478/"
 }
+]
+},
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "入学特待生A",
+"kind": "減免",
+"target": "全学部",
+"amount": "3年間授業料全額免除（薬学科402万円、生命創薬330万円）",
+"timing": "入試時",
+"cond": "一般B方式前期・推薦入学者特待生選抜の成績上位者（薬10名・生命3名）。毎年度継続審査あり"
+},
+{
+"name": "入学特待生B",
+"kind": "減免",
+"target": "全学部",
+"amount": "2年間授業料全額免除（薬学科268万円、生命創薬220万円）",
+"timing": "入試時",
+"cond": "特待生Aに次ぐ成績上位者（薬10名・生命3名）。継続審査あり"
+},
+{
+"name": "入学特待生C",
+"kind": "減免",
+"target": "全学部",
+"amount": "初年度授業料全額免除（薬学科134万円、生命創薬110万円）",
+"timing": "入試時",
+"cond": "特待生Bに次ぐ成績上位者（薬10名・生命3名）"
+},
+{
+"name": "めざせ明薬・予約型奨学金",
+"kind": "給付",
+"target": "全学部",
+"amount": "入学年度に100万円給付",
+"timing": "入学前予約",
+"cond": "出願前申請（2027年度分は2026/11/13締切）"
+},
+{
+"name": "明治薬科大学奨学金（2027年度以降新制度）",
+"kind": "給付",
+"target": "全学部",
+"amount": "50万円を在学中1回支給",
+"timing": "在学中",
+"cond": "成績優秀・心身健全かつ向学心旺盛な学生"
+}
+]
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-07-25",
+"type": "来場",
+"title": "夏のオープンキャンパス"
+},
+{
+"date": "2026-07-26",
+"type": "来場",
+"title": "夏のオープンキャンパス"
+},
+{
+"date": "2026-09-19",
+"type": "来場",
+"title": "オープンキャンパス"
+},
+{
+"date": "2026-10-11",
+"type": "来場",
+"title": "学内入試イベント"
+}
+],
+"url": "https://www.my-pharm.ac.jp/event/open-campus/"
+},
+"_via": "external-ai"
 },
 "明海大学": {
 "faculties": [
@@ -270265,13 +270503,15 @@ null
 "founded": "2026-11-09",
 "access": "2026-11-09",
 "tuition": "2026-11-09",
-"money": "2026-11-09",
+"money": "2026-11-26",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
 "schedule": "2026-11-13",
 "kyotsu": "2026-11-25",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"methods": "2026-11-26",
+"_via": "2026-11-26"
 },
 "departments": [
 {
@@ -270406,6 +270646,16 @@ null
 "first_year": 1405300,
 "four_year": null,
 "note": ""
+},
+{
+"f": "外国語学部・経済学部・不動産学部",
+"admission": 230000,
+"tuition": 698000,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": null,
+"four_year": null
 }
 ]
 },
@@ -270433,7 +270683,13 @@ null
 "https://search.keinet.ne.jp/2151/general/exam_result",
 "https://www.meikai.ac.jp/03applicant/media/admissions_guide_undergraduate_2027_fixed.pdf",
 "https://search.keinet.ne.jp/2151/general/exam_subject",
-"https://search.keinet.ne.jp/2151/general/border_rate"
+"https://search.keinet.ne.jp/2151/general/border_rate",
+"https://www.meikai.ac.jp/",
+"https://www.meikai.ac.jp/03applicant/media/admissions_guide_undergraduate_2027_fixed2.pdf",
+"https://www.meikai.ac.jp/03applicant/news/20260804/",
+"https://www.meikai.ac.jp/03applicant/exam-information/web/web-sakado/",
+"https://www.meikai.ac.jp/school_expenses/kind01/",
+"https://passnavi.obunsha.co.jp/univ/2080/difficulty/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -270570,7 +270826,58 @@ null
 "hensachi": "BF〜45.0",
 "kyotei": "43%〜67%",
 "year": "2027年度入試用"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "総合型",
+"name": "総合型選抜（AO・自己推薦型Ⅰ〜Ⅲ期）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.meikai.ac.jp/03applicant/exam-information/web/web-sakado/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（指定校）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.meikai.ac.jp/03applicant/exam-information/web/web-sakado/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（統一試験・A日程・B日程）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.meikai.ac.jp/03applicant/media/admissions_guide_undergraduate_2027_fixed2.pdf"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（共通テストプラス方式 A・B日程）",
+"kyotsu": null,
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.meikai.ac.jp/03applicant/news/20260804/"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜（A・B・C日程）",
+"kyotsu": null,
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.meikai.ac.jp/03applicant/news/20260804/"
 }
+]
+},
+"_via": "external-ai"
 },
 "星薬科大学": {
 "faculties": [
@@ -270583,13 +270890,18 @@ null
 "founded": "2026-11-09",
 "access": "2026-11-09",
 "tuition": "2026-11-09",
-"money": "2026-11-09",
+"money": "2026-11-26",
 "research": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
 "schedule": "2026-11-13",
 "kyotsu": "2026-11-25",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"methods": "2026-11-26",
+"subjects": "2026-11-26",
+"scholar": "2026-11-26",
+"oc": "2026-11-26",
+"_via": "2026-11-26"
 },
 "departments": [
 {
@@ -270638,6 +270950,26 @@ null
 "first_year": 2100650,
 "four_year": null,
 "note": "4年制。other は諸会費68,000円＋保険料2,650円"
+},
+{
+"f": "薬学部 薬学科（6年制）",
+"admission": 400000,
+"tuition": 1300000,
+"facility": 630000,
+"practical": null,
+"other": 3850,
+"first_year": 2333850,
+"four_year": null
+},
+{
+"f": "薬学部 創薬科学科（4年制）",
+"admission": 400000,
+"tuition": 1000000,
+"facility": 630000,
+"practical": null,
+"other": 2650,
+"first_year": 2032650,
+"four_year": 6922650
 }
 ]
 },
@@ -270658,7 +270990,14 @@ null
 "https://search.keinet.ne.jp/2280/general/exam_result",
 "https://manabi.benesse.ne.jp/daigaku/school/3312/nyushi/index.html",
 "https://search.keinet.ne.jp/2280/general/exam_subject",
-"https://search.keinet.ne.jp/2280/general/border_rate"
+"https://search.keinet.ne.jp/2280/general/border_rate",
+"https://www.hoshi.ac.jp/site/index.php",
+"https://www.hoshi.ac.jp/admission/wp-content/uploads/sites/7/2026/07/bosyu2027.pdf",
+"https://www.hoshi.ac.jp/admission/nyushi/",
+"https://www.hoshi.ac.jp/admission/nyushi/gakuhi/",
+"https://www.hoshi.ac.jp/seikatsu/syougakukin/",
+"https://www.hoshi.ac.jp/admission/opencampus/",
+"https://passnavi.obunsha.co.jp/univ/3060/difficulty/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -270722,7 +271061,109 @@ null
 "hensachi": "52.5〜55.0",
 "kyotei": "77%〜79%",
 "year": "2027年度入試用"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "共テ利用",
+"name": "一般選抜（A方式）：大学入学共通テスト利用",
+"kyotsu": "3教科",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.hoshi.ac.jp/admission/nyushi/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（B方式）：個別試験",
+"kyotsu": "課さない",
+"niji": "数学・化学・英語",
+"content": null,
+"req": null,
+"url": "https://www.hoshi.ac.jp/admission/nyushi/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（S方式）：共通テスト・個別試験併用",
+"kyotsu": "2教科（数学・英語）",
+"niji": "化学",
+"content": null,
+"req": null,
+"url": "https://www.hoshi.ac.jp/admission/nyushi/"
 }
+]
+},
+"subjects": {
+"year": "2027年度入試",
+"rows": [
+{
+"f": "薬学部 薬学科・創薬科学科",
+"kubun": "共テ利用",
+"name": "一般選抜（A方式）",
+"n": 3,
+"subj": "数学200・理科200・外国語200（計600点）",
+"kt": "数ⅠA、数ⅡBC、化（創薬は化/生/物から選択）、英（R・L）",
+"eng": "なし"
+},
+{
+"f": "薬学部 薬学科・創薬科学科",
+"kubun": "一般",
+"name": "一般選抜（B方式）",
+"n": 3,
+"subj": "数学100・化学100・英語100（計300点）",
+"kt": "",
+"eng": "なし"
+},
+{
+"f": "薬学部 薬学科・創薬科学科",
+"kubun": "一般",
+"name": "一般選抜（S方式）",
+"n": 3,
+"subj": "共テ数学200・共テ英語R200・個別化学400（計800点）",
+"kt": "数ⅠA、数ⅡBC、英（R）",
+"eng": "なし"
+}
+]
+},
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "星薬科大学特待生（特別奨学生）",
+"kind": "減免",
+"target": "全学部",
+"amount": "授業料から最大25万円減免",
+"timing": "在学中",
+"cond": "2年生以上で前年度の学業・人物ともに優秀な学生"
+},
+{
+"name": "星薬科大学奨学金",
+"kind": "貸与",
+"target": "全学部",
+"amount": "自宅通学者37,800円/月など",
+"timing": "在学中",
+"cond": "人物・学業ともに優れ、経済的理由で修学困難な者（JASSO併用不可）"
+}
+]
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-07-31",
+"type": "来場",
+"title": "オープンキャンパス2026"
+},
+{
+"date": "2026-08-01",
+"type": "来場",
+"title": "オープンキャンパス2026"
+}
+],
+"url": "https://www.hoshi.ac.jp/admission/opencampus/"
+},
+"_via": "external-ai"
 },
 "昭和医科大学": {
 "faculties": [
@@ -270740,7 +271181,13 @@ null
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
 "schedule": "2026-11-13",
-"kyotsu": "2026-11-25"
+"kyotsu": "2026-11-25",
+"difficulty": "2026-11-26",
+"methods": "2026-11-26",
+"scholar": "2026-11-26",
+"oc": "2026-11-26",
+"money": "2026-11-26",
+"_via": "2026-11-26"
 },
 "departments": [
 {
@@ -270803,7 +271250,17 @@ null
 "https://search.keinet.ne.jp/2223/outline/admission_employment",
 "https://search.keinet.ne.jp/2223/general/exam_result",
 "https://manabi.benesse.ne.jp/daigaku/school/3254/nyushi/index.html",
-"https://search.keinet.ne.jp/2223/general/exam_subject"
+"https://search.keinet.ne.jp/2223/general/exam_subject",
+"https://www.showa-u.ac.jp/",
+"https://adm.showa-u.ac.jp/",
+"https://adm.showa-u.ac.jp/admission/info/schedule.html",
+"https://adm.showa-u.ac.jp/albums/abm.php?d=2405&f=abm00074504.pdf&n=%E2%98%85%E4%BB%A4%E5%92%8C9%E5%B9%B4%E5%BA%A6_%E6%98%AD%E5%92%8C%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6%E5%85%A5%E5%AD%A6%E8%A9%A6%E9%A8%93%E8%A6%81%E9%A0%85_%E8%B2%A0%E6%8B%85%E8%BB%BD%E6%B8%9B%E8%BF%BD%E8%A8%98.pdf",
+"https://adm.showa-u.ac.jp/admission/expenses/",
+"https://adm.showa-u.ac.jp/news/nid00006657.html",
+"https://adm.showa-u.ac.jp/admission/expenses/scholarship.html",
+"https://www.showa-u.ac.jp/student_life/scholarship/",
+"https://passnavi.obunsha.co.jp/univ/2480/difficulty/",
+"https://manabi.benesse.ne.jp/daigaku/school/3254/nyushi/gokaku-happyo/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -270897,7 +271354,99 @@ null
 "rl_text": "歯学部 R50:L50、薬学部 共通テスト R100:L100・併用入試 R75:L75",
 "note": "医学部は共通テストを使わない（個別試験のみ）。歯学部は3教科3〜4科目（300点満点）、薬学部の共通テストは3〜4教科4科目（600点満点）、併用入試－共テは2教科2〜3科目（300点満点）。保健医療学部の各学科は3教科3科目（300点満点、英語100点。R・Lの内訳の記載なし）。",
 "year": "2027年度入試"
+},
+"difficulty": {
+"hensachi": "40.0〜67.5",
+"kyotei": "49%〜65%",
+"year": "2027年度入試用"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜Ⅰ期（医学部・歯学部・薬学部・保健医療学部）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://adm.showa-u.ac.jp/admission/info/schedule.html"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜（保健医療学部）",
+"kyotsu": null,
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://adm.showa-u.ac.jp/admission/info/schedule.html"
 }
+]
+},
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "昭和医科大学医学部特別奨学金",
+"kind": "給付",
+"target": "医学部",
+"amount": "5年次・6年次の授業料相当額",
+"timing": "在学中",
+"cond": "定員15名以内。卒業後、本学の教育・研究・臨床に従事する意思がある者"
+},
+{
+"name": "昭和医科大学歯学部特別奨学金",
+"kind": "給付",
+"target": "歯学部",
+"amount": "5年次・6年次の授業料相当額",
+"timing": "在学中",
+"cond": "定員5名以内。卒業後、本学の教育・研究・臨床に従事する意思がある者"
+},
+{
+"name": "昭和医科大学薬学部特別奨学金",
+"kind": "給付",
+"target": "薬学部",
+"amount": "5年次・6年次の授業料相当額",
+"timing": "在学中",
+"cond": "定員10名以内。卒業後、本学の教育・研究・臨床に従事する意思がある者"
+},
+{
+"name": "昭和医科大学学生互助会奨学金",
+"kind": "貸与",
+"target": "全学部",
+"amount": "無利子貸与",
+"timing": "在学中",
+"cond": "家計急変により修学困難となった人物・学業良好な学生"
+}
+]
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-12-19",
+"type": "来場",
+"title": "保健医療学部病院見学型オープンキャンパス"
+}
+],
+"url": "https://adm.showa-u.ac.jp/"
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "保健医療学部（減額後）",
+"admission": 300000,
+"tuition": 750000,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": null,
+"four_year": null
+}
+]
+},
+"_via": "external-ai"
 },
 "昭和女子大学": {
 "faculties": [
@@ -270917,9 +271466,13 @@ null
 "access": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13",
+"schedule": "2026-11-26",
 "kyotsu": "2026-11-25",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"methods": "2026-11-26",
+"eng": "2026-11-26",
+"oc": "2026-11-26",
+"_via": "2026-11-26"
 },
 "departments": [
 {
@@ -271013,57 +271566,81 @@ null
 "https://search.keinet.ne.jp/2224/general/exam_result",
 "https://search.keinet.ne.jp/2224/topics/12",
 "https://search.keinet.ne.jp/2224/general/border_rate",
-"https://search.keinet.ne.jp/2224/general/exam_subject"
+"https://search.keinet.ne.jp/2224/general/exam_subject",
+"https://www.swu.ac.jp/admission/exam/",
+"https://www.swu.ac.jp/albums/abm.php?d=3080&f=abm00055522.pdf&n=2027%E6%98%AD%E5%92%8C%E5%A5%B3%E5%AD%90%E5%A4%A7%E5%AD%A6_%E5%85%A5%E8%A9%A6%E8%A6%81%E9%A0%85.pdf",
+"https://www.swu.ac.jp/campuslife-project/campuslife/gakuhi/",
+"https://www.swu.ac.jp/albums/abm.php?d=759&f=abm00055456.pdf&n=gakuhi2027.pdf",
+"https://www.swu.ac.jp/swuhp/university/admission/nennai/",
+"https://content.swu.ac.jp/shokyo-blog/2026/06/02/2026060211/",
+"https://content.swu.ac.jp/fukushi-blog/2026/07/22/2026%E5%B9%B47%E6%9C%8819%E6%97%A5%E6%97%A5%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9%E3%81%8C%E9%96%8B%E5%82%AC%E3%81%95%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F/",
+"https://passnavi.obunsha.co.jp/univ/2490/difficulty/"
 ],
 "schedule": {
 "year": "2027年度入試",
 "rows": [
 {
+"kubun": "総合型",
+"name": "総合型選抜入試〈多面評価型〉",
+"apply": "9/24〜10/2",
+"exam": "1次10/18・2次10/25",
+"result": "11/4",
+"proc": "11/11",
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "推薦入試",
+"apply": "11/2〜11/6",
+"exam": "11/22",
+"result": "12/3",
+"proc": "12/10",
+"fee": null
+},
+{
 "kubun": "一般",
-"name": "一般選抜 A日程",
+"name": "一般入試 A日程",
 "apply": "1/6〜1/13",
 "exam": "1/24",
 "result": "1/29",
-"proc": "2/18（二段階：3/4）",
-"fee": 35000,
-"note": "1〜2学科同時出願で35,000円、3学科目以降1学科10,000円。試験会場10か所"
+"proc": "2/18",
+"fee": null
 },
 {
 "kubun": "一般",
-"name": "一般選抜 B日程",
+"name": "一般入試 B日程",
 "apply": "1/6〜1/22",
-"exam": "2/4",
-"result": "2/12",
-"proc": "2/18（二段階：3/4）",
-"fee": 35000,
-"note": "1〜2学科同時出願で35,000円、3学科目以降1学科10,000円"
+"exam": null,
+"result": null,
+"proc": null,
+"fee": null
 },
 {
 "kubun": "一般",
-"name": "一般選抜 3月期（総合情報学部を除く）",
+"name": "一般入試（3月日程）",
 "apply": "2/13〜2/27",
 "exam": "3/6",
 "result": "3/10",
 "proc": "3/14",
-"fee": 35000
+"fee": null
 },
 {
 "kubun": "共テ利用",
-"name": "共通テスト利用型 I期（一般・英語4技能）",
+"name": "共通テスト利用型 Ⅰ期",
 "apply": "1/6〜1/15",
-"exam": "1/16・1/17（共テ）",
+"exam": "大学入学共通テスト",
 "result": "2/12",
-"proc": "2/18（二段階：3/4）",
-"fee": 15000
+"proc": "2/18",
+"fee": null
 },
 {
 "kubun": "共テ利用",
-"name": "共通テスト利用型 II期（一般・英語4技能）",
+"name": "共通テスト利用型 Ⅱ期",
 "apply": "1/26〜2/17",
-"exam": "1/16・1/17（共テ）",
+"exam": "大学入学共通テスト",
 "result": "2/27",
-"proc": "3/4",
-"fee": 15000
+"proc": null,
+"fee": null
 }
 ],
 "note": "Kei-Net「一般選抜の特徴」（2027年度）"
@@ -271085,7 +271662,95 @@ null
 "hensachi": "45.0〜55.0",
 "kyotei": "61%〜87%",
 "year": "2027年度入試用"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般入試（A日程・B日程・3月日程）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.swu.ac.jp/admission/exam/"
+},
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用型 Ⅰ期・Ⅱ期（一般方式／英語4技能活用方式）",
+"kyotsu": null,
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.swu.ac.jp/admission/exam/"
+},
+{
+"kubun": "推薦",
+"name": "推薦入試（指定校制推薦・全商協会特別推薦など）",
+"kyotsu": "課さない",
+"niji": null,
+"content": "小論文または適性テスト＋個別面接＋書類（学科により異なる）",
+"req": null,
+"url": "https://www.swu.ac.jp/admission/exam/"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜入試〈多面評価型〉",
+"kyotsu": "課さない",
+"niji": null,
+"content": "1次選考・2次選考あり",
+"req": null,
+"url": "https://www.swu.ac.jp/admission/exam/"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜入試〈基礎学力テスト型〉",
+"kyotsu": "課さない",
+"niji": null,
+"content": "年内に受験できる学力重視型（2027年度より実施）",
+"req": null,
+"url": "https://www.swu.ac.jp/admission/exam/"
 }
+]
+},
+"eng": {
+"rows": [
+{
+"kubun": "共テ利用",
+"name": "共通テスト利用型 Ⅰ期・Ⅱ期（英語4技能活用方式）",
+"use": "判定に利用",
+"level": null,
+"tests": null
+}
+]
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-06-21",
+"type": "来場",
+"title": "2026年度 第2回 オープンキャンパス"
+},
+{
+"date": "2026-07-19",
+"type": "来場",
+"title": "オープンキャンパス"
+},
+{
+"date": "2026-08-22",
+"type": "来場",
+"title": "オープンキャンパス"
+},
+{
+"date": "2026-08-23",
+"type": "来場",
+"title": "オープンキャンパス"
+}
+],
+"url": "https://content.swu.ac.jp/fukushi-blog/2026/07/22/2026%E5%B9%B47%E6%9C%8819%E6%97%A5%E6%97%A5%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9%E3%81%8C%E9%96%8B%E5%82%AC%E3%81%95%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F/"
+},
+"_via": "external-ai"
 },
 "昭和薬科大学": {
 "faculties": [
@@ -271101,7 +271766,13 @@ null
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
 "schedule": "2026-11-13",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"methods": "2026-11-26",
+"subjects": "2026-11-26",
+"scholar": "2026-11-26",
+"oc": "2026-11-26",
+"money": "2026-11-26",
+"_via": "2026-11-26"
 },
 "departments": [
 {
@@ -271142,7 +271813,13 @@ null
 "https://search.keinet.ne.jp/2225/general/exam_subject",
 "https://search.keinet.ne.jp/2225/general/exam_result",
 "https://telemail.jp/shingaku/university/10000072/examination/general",
-"https://search.keinet.ne.jp/2225/general/border_rate"
+"https://search.keinet.ne.jp/2225/general/border_rate",
+"https://www.shoyaku.ac.jp/admission/",
+"https://www.shoyaku.ac.jp/admission/outline/",
+"https://www.shoyaku.ac.jp/admission/fee/",
+"https://www.shoyaku.ac.jp/upload/AdminEvent/356/rel_doc2/kouboippan2027.pdf",
+"https://www.shoyaku.ac.jp/event/detail/335",
+"https://passnavi.obunsha.co.jp/univ/2500/difficulty/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -271191,7 +271868,113 @@ null
 "hensachi": "45.0〜47.5",
 "kyotei": "59%〜61%",
 "year": "2027年度入試用"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "共テ利用",
+"name": "A方式（共通テスト利用）",
+"kyotsu": "3教科",
+"niji": null,
+"content": null,
+"req": "個別試験は課さない",
+"url": "https://www.shoyaku.ac.jp/admission/outline/"
+},
+{
+"kubun": "一般",
+"name": "B方式（個別試験）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.shoyaku.ac.jp/admission/outline/"
+},
+{
+"kubun": "共テ利用",
+"name": "C方式（共通テスト併用・午後入試）",
+"kyotsu": "2教科（英・数）",
+"niji": "化学基礎・化学（300点）",
+"content": null,
+"req": "15時開始の午後入試",
+"url": "https://www.shoyaku.ac.jp/admission/outline/"
+},
+{
+"kubun": "共テ利用",
+"name": "D方式（共通テスト利用）",
+"kyotsu": null,
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.shoyaku.ac.jp/admission/outline/"
 }
+]
+},
+"subjects": {
+"year": "2027年度入試",
+"rows": [
+{
+"f": "薬学部 薬学科",
+"kubun": "共テ利用",
+"name": "A方式（共通テスト利用）",
+"n": 3,
+"subj": "英語200・数学200・理科200（計600点）",
+"kt": "英語（R1.6・L0.4換算）・数ⅠA・数ⅡBC・化/生/物から1",
+"eng": null
+},
+{
+"f": "薬学部 薬学科",
+"kubun": "共テ利用",
+"name": "C方式（共通テスト併用）",
+"n": 3,
+"subj": "共テ英語100・共テ数学100・個別化学300（計500点）",
+"kt": "英語（R0.8・L0.2換算）・数ⅠA・数ⅡBC（0.5換算）",
+"eng": null
+}
+]
+},
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "C方式特待生制度",
+"kind": "減免",
+"target": "薬学部 薬学科",
+"amount": "1年次の授業料を全額免除",
+"timing": "入試時",
+"cond": "C方式成績上位5位まで"
+},
+{
+"name": "指定校制特待生",
+"kind": "減免",
+"target": "薬学部 薬学科",
+"amount": null,
+"timing": "入試時",
+"cond": "指定校制で成績上位5位"
+}
+]
+},
+"oc": {
+"year": 2026,
+"events": [],
+"url": "https://www.shoyaku.ac.jp/event/detail/335"
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "薬学部 薬学科",
+"admission": 350000,
+"tuition": 1380000,
+"facility": null,
+"practical": 0,
+"other": null,
+"first_year": null,
+"four_year": null
+}
+]
+},
+"_via": "external-ai"
 },
 "昭和音楽大学": {
 "faculties": [
@@ -271206,9 +271989,13 @@ null
 "access": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13",
+"schedule": "2026-11-26",
 "kyotsu": "2026-11-25",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"methods": "2026-11-26",
+"scholar": "2026-11-26",
+"oc": "2026-11-26",
+"_via": "2026-11-26"
 },
 "departments": [
 {
@@ -271247,20 +272034,73 @@ null
 "https://search.keinet.ne.jp/2313/general/exam_result",
 "https://telemail.jp/shingaku/university/10000109/examination/general",
 "https://search.keinet.ne.jp/2313/general/border_rate",
-"https://search.keinet.ne.jp/2313/general/exam_subject"
+"https://search.keinet.ne.jp/2313/general/exam_subject",
+"https://www.tosei-showa-music.ac.jp/news/examinee/20260619_003257.html",
+"https://www.tosei-showa-music.ac.jp/admission/guide/",
+"https://www.tosei-showa-music.ac.jp/admission/art-engineering/guide/",
+"https://www.tosei-showa-music.ac.jp/admission/univ/ordinary/",
+"https://www.tosei-showa-music.ac.jp/admission/univ/ao/",
+"https://www.tosei-showa-music.ac.jp/admission/univ/recommendation/",
+"https://www.tosei-showa-music.ac.jp/admission/expenses/",
+"https://event.tosei-showa-music.ac.jp/event/10-1/oc.html",
+"https://passnavi.obunsha.co.jp/univ/3290/difficulty/"
 ],
 "schedule": {
 "year": "2027年度入試",
 "rows": [
 {
 "kubun": "一般",
-"name": "一般選抜",
+"name": "一般選抜（音楽学部・芸術工学部）",
 "apply": "1/7〜1/13",
-"exam": "2/2・2/3（試験日指定、選抜科目により異なる）",
+"exam": "2/2〜2/3",
 "result": "2/12",
-"proc": "2/22",
-"fee": null,
-"note": "音楽学部（音楽芸術表現・音楽芸術運営）・芸術工学部 共通。芸術工学科は学力試験の代わりに共通テストの成績も利用可"
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 第1回",
+"apply": "9/6〜9/10",
+"exam": "9/27",
+"result": "11/2",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 第2回",
+"apply": "10/2〜10/7",
+"exam": "10/25",
+"result": "11/2",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 第3回",
+"apply": "11/27〜12/2",
+"exam": "12/19",
+"result": "1/12",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 第4回",
+"apply": "2/5〜2/9",
+"exam": "2/20",
+"result": "3/2",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 第5回",
+"apply": "2/22〜2/27",
+"exam": "3/5",
+"result": "3/6",
+"proc": null,
+"fee": null
 }
 ],
 "note": "テレメール（2027年度入学、2026年7月時点）。検定料は出典に記載なし。推薦・総合型は未確認"
@@ -271282,7 +272122,69 @@ null
 "hensachi": "37.5",
 "kyotei": "38%〜45%",
 "year": "2027年度入試用"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜（音楽学部・芸術工学部）",
+"kyotsu": "芸術工学部は代替利用可",
+"niji": null,
+"content": null,
+"req": "特待生選抜と同時出願可",
+"url": "https://www.tosei-showa-music.ac.jp/admission/univ/ordinary/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜",
+"kyotsu": "課さない",
+"niji": null,
+"content": "一般選抜より入試科目が軽減される",
+"req": null,
+"url": "https://www.tosei-showa-music.ac.jp/admission/univ/recommendation/"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（第1回〜第5回）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.tosei-showa-music.ac.jp/admission/univ/ao/"
 }
+]
+},
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "特待生選抜",
+"kind": "減免",
+"target": "全学部",
+"amount": null,
+"timing": "入試時",
+"cond": "一般選抜と同時出願可能"
+}
+]
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-11-07",
+"type": "来場",
+"title": "オープンキャンパス×昭和音大祭2026"
+},
+{
+"date": "2026-11-08",
+"type": "来場",
+"title": "オープンキャンパス×昭和音大祭2026"
+}
+],
+"url": "https://event.tosei-showa-music.ac.jp/event/10-1/oc.html"
+},
+"_via": "external-ai"
 },
 "杉野服飾大学": {
 "faculties": [
@@ -271298,7 +272200,11 @@ null
 "careers": "2026-11-09",
 "schedule": "2026-11-13",
 "kyotsu": "2026-11-25",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"methods": "2026-11-26",
+"oc": "2026-11-26",
+"money": "2026-11-26",
+"_via": "2026-11-26"
 },
 "departments": [
 {
@@ -271332,7 +272238,15 @@ null
 "https://www.sugino-fc.ac.jp/media/27guide.pdf",
 "https://www.sugino-fc.ac.jp/media/27koubo_youkou.pdf",
 "https://search.keinet.ne.jp/2222/general/border_rate",
-"https://search.keinet.ne.jp/2222/general/exam_subject"
+"https://search.keinet.ne.jp/2222/general/exam_subject",
+"https://www.sugino-fc.ac.jp/examination/guide/",
+"https://www.sugino-fc.ac.jp/examination/guide/ippan/",
+"https://www.sugino-fc.ac.jp/examination/guide/shiteiko/",
+"https://www.sugino-fc.ac.jp/examination/guide/sougou1/",
+"https://www.sugino-fc.ac.jp/examination/guide/sougou2/",
+"https://www.sugino-fc.ac.jp/examination/tuition/",
+"https://www.sugino-fc.ac.jp/info/20260720-21-22-23-28_0806-16-22/",
+"https://passnavi.obunsha.co.jp/univ/2530/difficulty/?facultyID=005"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -271431,7 +272345,99 @@ null
 "hensachi": "BF〜35.0",
 "kyotei": "38%〜48%",
 "year": "2027年度入試用"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜（A日程・B日程）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.sugino-fc.ac.jp/examination/guide/ippan/"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜",
+"kyotsu": null,
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.sugino-fc.ac.jp/examination/guide/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（指定校）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": "指定校推薦",
+"url": "https://www.sugino-fc.ac.jp/examination/guide/shiteiko/"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅰ期（基礎学力方式）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.sugino-fc.ac.jp/examination/guide/sougou2/"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜Ⅰ期・Ⅱ期（制作方式・探究方式・体験レポート方式）",
+"kyotsu": "課さない",
+"niji": null,
+"content": "制作・探究・体験レポートによる選考",
+"req": null,
+"url": "https://www.sugino-fc.ac.jp/examination/guide/sougou1/"
 }
+]
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-07-20",
+"type": "来場",
+"title": "夏のオープンキャンパス"
+},
+{
+"date": "2026-08-06",
+"type": "来場",
+"title": "夏のオープンキャンパス"
+},
+{
+"date": "2026-08-16",
+"type": "来場",
+"title": "夏のオープンキャンパス"
+},
+{
+"date": "2026-08-22",
+"type": "来場",
+"title": "夏のオープンキャンパス"
+}
+],
+"url": "https://www.sugino-fc.ac.jp/info/20260720-21-22-23-28_0806-16-22/"
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "服飾学部",
+"admission": 300000,
+"tuition": 800000,
+"facility": 300000,
+"practical": null,
+"other": null,
+"first_year": null,
+"four_year": null
+}
+]
+},
+"_via": "external-ai"
 },
 "杏林大学": {
 "faculties": [
@@ -271448,9 +272454,13 @@ null
 "access": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13",
+"schedule": "2026-11-26",
 "kyotsu": "2026-11-25",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"methods": "2026-11-26",
+"scholar": "2026-11-26",
+"money": "2026-11-26",
+"_via": "2026-11-26"
 },
 "departments": [
 {
@@ -271529,100 +272539,131 @@ null
 "https://search.keinet.ne.jp/2208/general/exam_result",
 "https://search.keinet.ne.jp/2208/general/schedule",
 "https://search.keinet.ne.jp/general/border_rate_sp/2208",
-"https://search.keinet.ne.jp/2208/general/exam_subject"
+"https://search.keinet.ne.jp/2208/general/exam_subject",
+"https://www.kyorin-u.ac.jp/univ/center/nyugaku/web_youkou/",
+"https://www.kyorin-u.ac.jp/univ/center/nyugaku/exam/",
+"https://www.kyorin-u.ac.jp/univ/student/gakuhi/payment/",
+"https://www.kyorin-u.ac.jp/univ/news/4324/",
+"https://passnavi.obunsha.co.jp/univ/2350/difficulty/"
 ],
 "schedule": {
 "year": "2027年度入試",
 "rows": [
 {
-"kubun": "共テ利用",
-"name": "共通テスト利用 3科目前期（外国語・総合政策）",
-"apply": "〜1/22（必着）",
-"exam": "1/16・1/17（共テ）",
-"result": "2/15",
-"proc": "2/22",
-"fee": null
-},
-{
-"kubun": "共テ利用",
-"name": "共通テスト利用 2科目前期（外国語・総合政策）",
-"apply": "〜1/22（必着）",
-"exam": "1/16・1/17（共テ）",
-"result": "2/15",
-"proc": "2/22",
-"fee": null
-},
-{
-"kubun": "共テ利用",
-"name": "共通テスト利用 後期（外国語・総合政策）",
-"apply": "〜2/24（必着）",
-"exam": "1/16・1/17（共テ）",
-"result": "3/8",
-"proc": "3/15",
-"fee": null
-},
-{
 "kubun": "一般",
-"name": "一般選抜 前期（外国語＝2科目／総合政策＝3科目・2科目）",
-"apply": "〜1/22（必着）",
-"exam": "2/1・2/2（自由選択）",
-"result": "2/8",
-"proc": "2/15",
-"fee": null
-},
-{
-"kubun": "一般",
-"name": "一般選抜 後期（外国語・総合政策）",
-"apply": "〜2/19（必着）",
-"exam": "2/27",
-"result": "3/4",
-"proc": "3/11",
-"fee": null
-},
-{
-"kubun": "一般",
-"name": "医学部 一般選抜（東京都・新潟県・群馬県地域枠を含む）",
-"apply": "〜1/15（必着）",
-"exam": "1次2/2・2次2/11・2/12（指定）",
+"name": "一般選抜（医学部）",
+"apply": "12/1〜1/15",
+"exam": "1次2/2・2次2/11または2/12",
 "result": "1次2/8・2次2/17",
-"proc": "2/25",
-"fee": null,
-"note": "地域枠の2次は2/11"
+"proc": null,
+"fee": null
 },
 {
 "kubun": "共テ利用",
-"name": "医学部 共通テスト利用選抜",
-"apply": "〜1/15（必着）",
-"exam": "1次 共テ・2次2/20",
+"name": "大学入学共通テスト利用選抜（医学部）",
+"apply": "12/15〜1/15",
+"exam": "共テ・2次2/20",
 "result": "1次2/15・2次2/24",
-"proc": "3/3",
-"fee": null
-},
-{
-"kubun": "共テ利用",
-"name": "保健学部 共通テスト利用選抜",
-"apply": "〜1/22（必着）",
-"exam": "1/16・1/17（共テ）",
-"result": "2/15",
-"proc": "2/22",
+"proc": null,
 "fee": null
 },
 {
 "kubun": "一般",
-"name": "保健学部 一般選抜 前期",
-"apply": "〜1/15（必着）",
-"exam": "2/3〜2/5（自由選択）",
+"name": "一般選抜 前期日程（保健学部）",
+"apply": "12/15〜1/15",
+"exam": "2/3・2/4・2/5",
 "result": "2/15",
-"proc": "2/22",
+"proc": null,
 "fee": null
 },
 {
 "kubun": "一般",
-"name": "保健学部 一般選抜 後期（健康福祉・健康スポーツ・臨床心理のみ）",
-"apply": "〜2/19（必着）",
+"name": "一般選抜 後期日程（保健学部）",
+"apply": "2/10〜2/19",
 "exam": "2/27",
 "result": "3/4",
-"proc": "3/11",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜（保健学部）",
+"apply": "12/15〜1/22",
+"exam": "大学入学共通テスト",
+"result": "2/15",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（保健学部）",
+"apply": "11/2〜11/10",
+"exam": "11/22",
+"result": "12/1",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 適性検査型（保健学部）",
+"apply": "9/24〜10/2",
+"exam": "10/18",
+"result": "11/2",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期日程（総合政策・外国語学部）",
+"apply": "12/15〜1/22",
+"exam": "2/1・2/2",
+"result": "2/8",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 後期日程（総合政策・外国語学部）",
+"apply": "2/10〜2/19",
+"exam": "2/27",
+"result": "3/4",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 前期日程（総合政策・外国語学部）",
+"apply": "12/15〜1/22",
+"exam": "大学入学共通テスト",
+"result": "2/15",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜 後期日程（総合政策・外国語学部）",
+"apply": "2/8〜2/24",
+"exam": "大学入学共通テスト",
+"result": "3/8",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（総合政策・外国語学部）",
+"apply": "11/2〜11/12",
+"exam": "11/21",
+"result": "12/1",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜 10月試験（総合政策・外国語学部）",
+"apply": "9/24〜10/2",
+"exam": "10/17",
+"result": "11/2",
+"proc": null,
 "fee": null
 }
 ],
@@ -271645,7 +272686,115 @@ null
 "hensachi": "35.0〜65.0",
 "kyotei": "35%〜81%",
 "year": "2027年度入試用"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜（医学部）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": "地域枠選抜の同時出願枠あり",
+"url": "https://www.kyorin-u.ac.jp/univ/center/nyugaku/exam/"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜（医学部）",
+"kyotsu": null,
+"niji": "2次試験：教科・科目に係る個別テスト",
+"content": null,
+"req": null,
+"url": "https://www.kyorin-u.ac.jp/univ/center/nyugaku/exam/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 前期・後期日程（保健・総合政策・外国語学部）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": "前期は複数日受験可能",
+"url": "https://www.kyorin-u.ac.jp/univ/center/nyugaku/exam/"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜（保健・総合政策・外国語学部）",
+"kyotsu": null,
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.kyorin-u.ac.jp/univ/center/nyugaku/exam/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（保健・総合政策・外国語学部）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.kyorin-u.ac.jp/univ/center/nyugaku/exam/"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（保健・総合政策・外国語学部）",
+"kyotsu": "課さない",
+"niji": null,
+"content": "保健学部はスポーツ型・適性検査型、総合政策・外国語学部は10月・11月・12月試験",
+"req": null,
+"url": "https://www.kyorin-u.ac.jp/univ/center/nyugaku/exam/"
 }
+]
+},
+"scholar": {
+"year": "2026年度",
+"rows": [
+{
+"name": "外国語学部熊谷奨学生",
+"kind": "給付",
+"target": "外国語学部",
+"amount": null,
+"timing": "在学中",
+"cond": "留学支援"
+}
+]
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "医学部",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 9500000,
+"four_year": null
+},
+{
+"f": "総合政策学部",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1370000,
+"four_year": null
+},
+{
+"f": "外国語学部",
+"admission": null,
+"tuition": null,
+"facility": null,
+"practical": null,
+"other": null,
+"first_year": 1370000,
+"four_year": null
+}
+]
+},
+"_via": "external-ai"
 },
 "東京医療保健大学": {
 "faculties": [
