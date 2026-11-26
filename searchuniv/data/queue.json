@@ -20967,35 +20967,11 @@
 "福岡国際音楽大学": 2,
 "コー・イノベーション大学": 1,
 "西日本看護医療大学": 1,
-"開志創造大学（通信制のみ）": 1
+"開志創造大学（通信制のみ）": 1,
+"太田医療科学大学": 1,
+"ZEN大学（通信制のみ）": 1
 },
 "enrich": [
-{
-"name": "ZEN大学（通信制のみ）",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students",
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
-]
-},
-{
-"name": "太田医療科学大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students",
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
-]
-},
 {
 "name": "中央医療大学",
 "need": [
@@ -36202,6 +36178,38 @@
 "fails": 1,
 "last_fail": "2026-11-26",
 "note": "2026-11-26 Kei-Net コード不明。スタディサプリの学科ページに学生数・取得資格・就職実績・共テ・難易度の記載なし（2026年4月開設、定員800名）"
+},
+{
+"name": "太田医療科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"fails": 1,
+"last_fail": "2026-11-26",
+"note": "2026-11-26 パスナビ 1939 top・border：2027年4月開学予定で学生数・資格・進路の記載なし、ボーダーは「情報がありません」。Kei-Net・公式は今回開けず"
+},
+{
+"name": "ZEN大学（通信制のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"fails": 1,
+"last_fail": "2026-11-26",
+"note": "2026-11-26 PR TIMES（ドワンゴ学園 2026-06-23）に初年度入学者4,236名のみ（在籍者総数の記載なし）。資格・進路・共テ・難易度の記載なし。Kei-Net・公式は今回開けず"
 },
 {
 "name": "島根大学",
