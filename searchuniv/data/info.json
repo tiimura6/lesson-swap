@@ -48870,25 +48870,28 @@
 "kubun": "一般",
 "name": "学部別入試",
 "kyotsu": "課さない",
-"niji": "英・国・数または地歴公民（例 政治経済・法：英150国100選択100の350点）",
+"niji": "学部ごとに3科目（例 法：外国語150・国語100・地歴公民100、政治経済：外国語150・国語100・地歴公民/数学100、理工：数学120・理科120・外国語120）",
 "haiten": "個別試験のみ",
-"note": "学部により科目・配点が異なる。国際日本は英語4技能型もあり"
+"note": "試験日は学部ごとに2/7〜2/17のうち1日（本学キャンパスのみ）。検定料35,000円（同一学部の2方式目以降20,000円）。商学部は英語4技能試験利用方式（英語300・国語150・選択100の550点、4技能スコアが出願資格）もあり",
+"url": "https://www.meiji.ac.jp/exam/information/guidelines/2027-meiji_guidelines.pdf"
 },
 {
 "kubun": "一般",
 "name": "全学部統一入試",
 "kyotsu": "課さない",
-"niji": "英・国・選択（例 法：300点、政治経済：350点）",
+"niji": "外国語・国語・選択（例 法：外国語100・国語100・選択100の300点、商：外国語200・国語150・選択100の450点、政治経済：350点、理工：外国語・数学①・理科・数学②の400点）",
 "haiten": "個別試験のみ",
-"note": "1回で複数学部を併願できる"
+"note": "2/5に実施。試験地は8会場から選択。1回で複数学部を併願できる（2学部目以降20,000円）。英語4技能3科目方式は農・経営・国際日本、英語4技能4科目方式は総合数理（現象数理統計・先端メディアサイエンス・ネットワークデザイン）",
+"url": "https://www.meiji.ac.jp/exam/information/guidelines/2027-meiji_guidelines.pdf"
 },
 {
 "kubun": "一般",
-"name": "学部別入試（共テ併用・国際日本学部）",
+"name": "共テ併用型英語4技能試験活用方式（経営・国際日本）",
 "kyotsu": "3教科など",
 "niji": "学部独自試験（英語4技能テスト利用型あり）",
 "haiten": "共テ100点＋個別350点または150点",
-"note": "国際日本学部のみ"
+"note": "大学公式の要項で経営学部・国際日本学部の方式として記載を確認。配点は Kei-Net の値（公式で未照合）",
+"url": "https://www.meiji.ac.jp/exam/information/guidelines/2027-meiji_guidelines.pdf"
 },
 {
 "kubun": "共テ利用",
@@ -48896,7 +48899,17 @@
 "kyotsu": "3教科〜5教科7科目（学部・型による）",
 "niji": "なし",
 "haiten": "共テのみ（例 法 3科目型500点・5科目型1000点、政治経済 7科目型900点）",
-"note": ""
+"note": "全学部で実施、個別試験なし（例 法 3科目方式500点＝国語200・外国語200・地歴公民等100）。出願1/7〜1/15。検定料18,000円。他の型の配点は Kei-Net の値",
+"url": "https://www.meiji.ac.jp/exam/information/guidelines/2027-meiji_guidelines.pdf"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用入試（後期）",
+"kyotsu": "学部・学科による",
+"niji": "なし",
+"haiten": "共テのみ",
+"note": "商学部・理工学部（機械工学科を除く）・総合数理学部で実施。出願2/22〜3/1",
+"url": "https://www.meiji.ac.jp/exam/information/guidelines/2027-meiji_guidelines.pdf"
 },
 {
 "kubun": "総合型",
@@ -48921,10 +48934,18 @@
 "req": "現役、高校で留学30単位以上の認定",
 "kyotsu": "課す",
 "note": "商学部"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（指定校・付属高校）",
+"content": "学部が指定する高等学校等からの推薦入学試験（海外指定校を含む）、付属高等学校からの推薦入学試験",
+"kyotsu": "課さない",
+"note": "指定校の内容は非公開",
+"url": "https://www.meiji.ac.jp/koho/guidebook/univ/guide2027_11admission.pdf"
 }
 ],
-"summary": "一般は学部別と全学部統一（いずれも共テ不要）、共テ利用は前期の3〜7科目型。総合型は学部ごとの自己推薦特別が中心で評定3.5以上が目安。",
-"note": "Kei-Netの一般選抜ページは商・理工などが取れず、文系学部の例で記載。共テ利用後期の有無は未確認。学校推薦型（指定校など）はKei-Netに掲載がなく未確認。"
+"summary": "一般は学部別（2/7〜2/17）と全学部統一（2/5、8会場）でいずれも共テ不要、共テ利用は前期（全学部）と後期（商・理工・総合数理）。総合型は学部ごとの自己推薦特別などが中心。",
+"note": "2027年度一般選抜要項・入試ガイド（大学公式）で、学部別・全学部統一・共テ利用（前期は全学部、後期は商・理工〔機械工学科を除く〕・総合数理）と推薦の区分を確認（2026-11-26）。総合型の各方式の学部・基準は入試ガイドの表が崩れて公式で未照合（Kei-Net の値）。入試ガイドでは総合型として他に海外就学者・社会人・地域農業振興・イングリッシュ・トラック・スポーツ特別入試なども掲載"
 },
 "departments": [
 {
@@ -49504,7 +49525,8 @@
 "careers": "2026-11-14",
 "research": "2026-11-15",
 "scholar": "2026-11-19",
-"oc": "2026-11-26"
+"oc": "2026-11-26",
+"methods": "2026-11-26"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -50435,6 +50457,13 @@
 "https://www.meiji.ac.jp/exam/information/guidelines/2027-meiji_guidelines.pdf"
 ],
 "d": "2026-11-25"
+},
+"methods": {
+"u": [
+"https://www.meiji.ac.jp/exam/information/guidelines/2027-meiji_guidelines.pdf",
+"https://www.meiji.ac.jp/koho/guidebook/univ/guide2027_11admission.pdf"
+],
+"d": "2026-11-26"
 }
 },
 "oc": {
@@ -87761,7 +87790,10 @@
 "https://navi.tokiwa.ac.jp/event/open-campus/",
 "https://navi.tokiwa.ac.jp/event/",
 "https://navi.tokiwa.ac.jp/admissions/outline/university/general-kyotsu/",
-"https://navi.tokiwa.ac.jp/admissions/scholarship/index.html"
+"https://navi.tokiwa.ac.jp/admissions/scholarship/index.html",
+"https://navi.tokiwa.ac.jp/admissions/result/",
+"https://www.tokiwa.ac.jp/tokiwa/report/2025/data.pdf",
+"https://www.tokiwa.ac.jp/media/tokiwa_kiso-data2024.pdf"
 ],
 "licenses": [
 "教員免許（幼・小・中・高 ほか）",
@@ -87962,7 +87994,7 @@
 "schedule": "2026-11-25",
 "money": "2026-11-25",
 "departments": "2026-11-06",
-"ratios": "2026-11-25",
+"ratios": "2026-11-26",
 "qtrend": "2026-11-07",
 "careers": "2026-11-15",
 "research": "2026-11-15",
@@ -88303,71 +88335,83 @@
 ]
 },
 "ratios": {
-"kind": "実質倍率（受験者÷合格者）",
+"kind": "実質倍率（受験者÷合格者）。2024・2025年度は志願者÷合格者（行に表示）",
 "rows": [
 {
 "kubun": "一般",
-"unit": "大学計（一般方式＋共テ利用）",
+"unit": "一般選抜A方式 全学部計",
 "y": {
-"2025": 1.1,
-"2026": 1.2
-}
+"2026": 1.14
+},
+"url": "https://navi.tokiwa.ac.jp/admissions/result/"
 },
 {
 "kubun": "一般",
-"unit": "一般方式計",
+"unit": "一般選抜B方式 全学部計",
 "y": {
-"2025": 1.1,
-"2026": 1.1
-}
+"2026": 1.04
+},
+"url": "https://navi.tokiwa.ac.jp/admissions/result/"
 },
 {
 "kubun": "共テ利用",
-"unit": "共通テスト利用方式計",
+"unit": "共通テスト利用選抜 全学部計（Ⅰ・Ⅱ期）",
 "y": {
-"2025": 1.1,
-"2026": 1.2
-}
+"2026": 1.19
+},
+"url": "https://navi.tokiwa.ac.jp/admissions/result/"
 },
 {
-"kubun": "一般",
-"unit": "看護学部 A方式",
+"kubun": "推薦",
+"unit": "学校推薦型選抜（公募制・指定校）全学部計",
 "y": {
-"2025": 1.5,
-"2026": 1.1
-}
-},
-{
-"kubun": "一般",
-"unit": "総合政策学部 経営学科 A方式",
-"y": {
-"2025": 1.1,
-"2026": 1.2
-}
-},
-{
-"kubun": "一般",
-"unit": "総合政策学部 法律行政学科 A方式",
-"y": {
-"2025": 1.0,
 "2026": 1.0
-}
+},
+"url": "https://navi.tokiwa.ac.jp/admissions/result/"
+},
+{
+"kubun": "総合型",
+"unit": "総合型選抜 全学部計（Ⅰ〜Ⅲ期）",
+"y": {
+"2026": 1.22
+},
+"url": "https://navi.tokiwa.ac.jp/admissions/result/"
 },
 {
 "kubun": "一般",
-"unit": "人間科学部 心理学科 A方式",
+"unit": "大学計（全選抜・志願者÷合格者）",
 "y": {
-"2025": 1.1,
-"2026": 1.8
-}
+"2024": 1.15,
+"2025": 1.12
+},
+"url": "https://www.tokiwa.ac.jp/tokiwa/report/2025/data.pdf"
 },
 {
 "kubun": "一般",
-"unit": "人間科学部 現代社会学科 A方式",
+"unit": "人間科学部（全選抜・志願者÷合格者）",
 "y": {
-"2025": 1.0,
-"2026": 1.0
-}
+"2024": 1.11,
+"2025": 1.08
+},
+"url": "https://www.tokiwa.ac.jp/tokiwa/report/2025/data.pdf"
+},
+{
+"kubun": "一般",
+"unit": "総合政策学部（全選抜・志願者÷合格者）",
+"y": {
+"2024": 1.08,
+"2025": 1.05
+},
+"url": "https://www.tokiwa.ac.jp/tokiwa/report/2025/data.pdf"
+},
+{
+"kubun": "一般",
+"unit": "看護学部（全選抜・志願者÷合格者）",
+"y": {
+"2024": 1.57,
+"2025": 1.6
+},
+"url": "https://www.tokiwa.ac.jp/tokiwa/report/2025/data.pdf"
 },
 {
 "kubun": "一般",
@@ -88375,7 +88419,7 @@
 "y": {
 "2026": 1.2
 },
-"url": "https://navi.tokiwa.ac.jp/admissions/result/index.html"
+"url": "https://navi.tokiwa.ac.jp/admissions/result/"
 },
 {
 "kubun": "一般",
@@ -88383,7 +88427,7 @@
 "y": {
 "2026": 1.05
 },
-"url": "https://navi.tokiwa.ac.jp/admissions/result/index.html"
+"url": "https://navi.tokiwa.ac.jp/admissions/result/"
 },
 {
 "kubun": "一般",
@@ -88391,7 +88435,7 @@
 "y": {
 "2026": 1.08
 },
-"url": "https://navi.tokiwa.ac.jp/admissions/result/index.html"
+"url": "https://navi.tokiwa.ac.jp/admissions/result/"
 },
 {
 "kubun": "一般",
@@ -88399,7 +88443,7 @@
 "y": {
 "2026": 1.0
 },
-"url": "https://navi.tokiwa.ac.jp/admissions/result/index.html"
+"url": "https://navi.tokiwa.ac.jp/admissions/result/"
 },
 {
 "kubun": "一般",
@@ -88407,7 +88451,7 @@
 "y": {
 "2026": 1.09
 },
-"url": "https://navi.tokiwa.ac.jp/admissions/result/index.html"
+"url": "https://navi.tokiwa.ac.jp/admissions/result/"
 },
 {
 "kubun": "共テ利用",
@@ -88415,7 +88459,7 @@
 "y": {
 "2026": 1.29
 },
-"url": "https://navi.tokiwa.ac.jp/admissions/result/index.html"
+"url": "https://navi.tokiwa.ac.jp/admissions/result/"
 },
 {
 "kubun": "共テ利用",
@@ -88423,7 +88467,7 @@
 "y": {
 "2026": 1.06
 },
-"url": "https://navi.tokiwa.ac.jp/admissions/result/index.html"
+"url": "https://navi.tokiwa.ac.jp/admissions/result/"
 },
 {
 "kubun": "共テ利用",
@@ -88431,7 +88475,7 @@
 "y": {
 "2026": 1.2
 },
-"url": "https://navi.tokiwa.ac.jp/admissions/result/index.html"
+"url": "https://navi.tokiwa.ac.jp/admissions/result/"
 },
 {
 "kubun": "推薦",
@@ -88439,7 +88483,7 @@
 "y": {
 "2026": 1.0
 },
-"url": "https://navi.tokiwa.ac.jp/admissions/result/index.html"
+"url": "https://navi.tokiwa.ac.jp/admissions/result/"
 },
 {
 "kubun": "推薦",
@@ -88447,7 +88491,7 @@
 "y": {
 "2026": 1.01
 },
-"url": "https://navi.tokiwa.ac.jp/admissions/result/index.html"
+"url": "https://navi.tokiwa.ac.jp/admissions/result/"
 },
 {
 "kubun": "推薦",
@@ -88455,7 +88499,7 @@
 "y": {
 "2026": 1.0
 },
-"url": "https://navi.tokiwa.ac.jp/admissions/result/index.html"
+"url": "https://navi.tokiwa.ac.jp/admissions/result/"
 },
 {
 "kubun": "総合型",
@@ -88463,7 +88507,7 @@
 "y": {
 "2026": 1.23
 },
-"url": "https://navi.tokiwa.ac.jp/admissions/result/index.html"
+"url": "https://navi.tokiwa.ac.jp/admissions/result/"
 },
 {
 "kubun": "総合型",
@@ -88471,7 +88515,7 @@
 "y": {
 "2026": 1.17
 },
-"url": "https://navi.tokiwa.ac.jp/admissions/result/index.html"
+"url": "https://navi.tokiwa.ac.jp/admissions/result/"
 },
 {
 "kubun": "総合型",
@@ -88479,10 +88523,10 @@
 "y": {
 "2026": 1.11
 },
-"url": "https://navi.tokiwa.ac.jp/admissions/result/index.html"
+"url": "https://navi.tokiwa.ac.jp/admissions/result/"
 }
 ],
-"note": "2026年度の学部計・方式別は大学公式の入試結果（受験者÷合格者）。学科別の2025・2026年は河合塾Kei-Net（河合塾調査）"
+"note": "2026年度は大学公式の入試結果（受験者÷合格者、全学部計は学部の行を合算した計算値）。2024・2025年度は大学公式の「大学基礎データ」の学部別志願者・合格者（全選抜の合計）からの計算値。学科別の河合塾調査の行は大学公式で照合できないため外した（2026-11-26）"
 },
 "qtrend": {
 "years": "2027年度入試（Kei-Net掲載の科目構成）",
@@ -88627,12 +88671,6 @@
 ],
 "d": "2026-11-25"
 },
-"ratios": {
-"u": [
-"https://navi.tokiwa.ac.jp/admissions/result/index.html"
-],
-"d": "2026-11-25"
-},
 "eng": {
 "u": [
 "https://navi.tokiwa.ac.jp/admissions/outline/university/general/"
@@ -88667,6 +88705,14 @@
 "https://navi.tokiwa.ac.jp/admissions/honor/index.html"
 ],
 "d": "2026-11-25"
+},
+"ratios": {
+"u": [
+"https://navi.tokiwa.ac.jp/admissions/result/",
+"https://www.tokiwa.ac.jp/tokiwa/report/2025/data.pdf",
+"https://www.tokiwa.ac.jp/media/tokiwa_kiso-data2024.pdf"
+],
+"d": "2026-11-26"
 }
 },
 "oc": {

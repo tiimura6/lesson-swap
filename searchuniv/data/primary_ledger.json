@@ -93,7 +93,7 @@
    "pages": {
     "admission": "https://navi.tokiwa.ac.jp/admissions/",
     "yoko": "https://www.tokiwa.ac.jp/pdf/2027-requirements_u.pdf",
-    "result": "https://navi.tokiwa.ac.jp/admissions/result/index.html",
+    "result": "https://navi.tokiwa.ac.jp/admissions/result/",
     "schedule": "https://navi.tokiwa.ac.jp/admissions/schedule/index.html",
     "general": "https://navi.tokiwa.ac.jp/admissions/outline/university/general/",
     "expenses": "https://navi.tokiwa.ac.jp/admissions/expenses/index.html",
@@ -104,11 +104,12 @@
     "sogo": "https://navi.tokiwa.ac.jp/admissions/outline/university/sogo/",
     "recommendation": "https://navi.tokiwa.ac.jp/admissions/outline/university/recommendation/",
     "sports": "https://navi.tokiwa.ac.jp/admissions/outline/university/sports/",
-    "graduate": "https://navi.tokiwa.ac.jp/admissions/outline/university/graduate/"
+    "graduate": "https://navi.tokiwa.ac.jp/admissions/outline/university/graduate/",
+    "kiso_data": "https://www.tokiwa.ac.jp/tokiwa/report/2025/data.pdf"
    },
    "wait": {
     "money": "2027年度入学生の学費は未掲載（公式の学費ページは2026年度入学生の参考値。2026-11-25確認）",
-    "ratios": "2027年度入試の結果は入試後（公式に公表時期の記載は確認できず）。既存の2026年度公式値は今回再取得せず据え置き"
+    "ratios": "2027年度入試の結果は入試後。2024・2025年度は大学基礎データの学部別（全選抜）で公式化済み（2026-11-26）"
    },
    "fails": 1
   },
@@ -122,9 +123,11 @@
     "yoko_recommend": "https://www.rku.ac.jp/with/shared/pdf/2027guidebook_recommend.pdf",
     "tuition": "https://www.rku.ac.jp/admissions/tuition/",
     "scholarship": "https://www.rku.ac.jp/support/life_support/scholarship/",
-    "ao_news_2027": "https://www.rku.ac.jp/news/43379/"
+    "ao_news_2027": "https://www.rku.ac.jp/news/43379/",
+    "guide_list": "https://www.rku.ac.jp/with/admissions/guide_list/"
    },
-   "fails": 1
+   "fails": 1,
+   "note": "2026-11-26：WebSearch で公式の募集要項PDF・一般選抜ページ・募集要項等一覧（/with/admissions/guide_list/）を確認したが、rku.ac.jp は WebFetch で ROBOTS_UNREACHABLE（robots.txt を読めず）となり本文を読めず。"
   },
   {
    "name": "茨城県立農業大学校",
