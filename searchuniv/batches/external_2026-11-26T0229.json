@@ -1,0 +1,990 @@
+[
+ {
+  "name": "帝京平成大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都豊島区",
+  "pref_name": "東京都",
+  "city": "豊島区",
+  "hp": "https://www.thu.ac.jp/",
+  "reading": "ていきょうへいせいだいがく",
+  "features": [
+   "医療・健康・福祉・教育・情報など実学系6学部を展開。",
+   "池袋・中野・千葉の複数キャンパスで実践的な専門教育を実施。",
+   "2027年度より薬学部地域枠制度（年額72万円給付）を新設。"
+  ],
+  "memo": "一般選抜はⅠ〜Ⅲ期に加え奨学特待生選抜も実施。薬学部は地域枠の活用も要確認。",
+  "info": {
+   "faculties": [
+    "薬学部",
+    "人文社会学部",
+    "ヒューマンケア学部",
+    "健康メディカル学部",
+    "健康医療スポーツ学部",
+    "共創学部"
+   ],
+   "departments": [
+    {
+     "f": "薬学部",
+     "d": [
+      "薬学科"
+     ]
+    },
+    {
+     "f": "人文社会学部",
+     "d": [
+      "教育学科 小学校・特別支援コース",
+      "教育学科 保育・幼稚園コース",
+      "人間文化学科 福祉",
+      "人間文化学科 メディア文化",
+      "人間文化学科 国際教養デザイン",
+      "経営学科 経営",
+      "経営学科 スポーツ経営・トレーナー",
+      "観光経営学科"
+     ]
+    },
+    {
+     "f": "ヒューマンケア学部",
+     "d": [
+      "鍼灸学科",
+      "柔道整復学科",
+      "看護学科"
+     ]
+    },
+    {
+     "f": "健康メディカル学部",
+     "d": [
+      "健康栄養学科",
+      "心理学科",
+      "言語聴覚学科",
+      "作業療法学科",
+      "理学療法学科",
+      "医療科学科 救急救命士",
+      "医療科学科 臨床工学",
+      "医療科学科 スポーツサイエンス"
+     ]
+    },
+    {
+     "f": "健康医療スポーツ学部",
+     "d": [
+      "柔道整復学科",
+      "リハビリテーション学科 作業療法",
+      "リハビリテーション学科 理学療法",
+      "医療スポーツ学科 救急救命士",
+      "医療スポーツ学科 スポーツ・トレーナー",
+      "医療スポーツ学科 アスリート",
+      "医療スポーツ学科 動物医療",
+      "看護学科"
+     ]
+    },
+    {
+     "f": "共創学部",
+     "d": [
+      "デジタル共創学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜45.0",
+    "kyotei": "37%〜62%",
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜Ⅱ期",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.thu.ac.jp/news/2026/261106-01"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅰ期・Ⅱ期・Ⅲ期",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.thu.ac.jp/exam/general"
+     },
+     {
+      "kubun": "一般",
+      "name": "奨学特待生選抜",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.thu.ac.jp/exam/scholarship"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜Ⅰ期・Ⅱ期",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.thu.ac.jp/lp/admission-guide/"
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "薬学部地域枠制度",
+      "kind": "給付",
+      "target": "薬学部",
+      "amount": "年額72万円（6年間最大432万円）",
+      "timing": "入試時",
+      "cond": "対象県出身者で所定の基準を満たす者"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-08-22",
+      "type": "来場",
+      "title": "中野キャンパス オープンキャンパス"
+     },
+     {
+      "date": "2026-08-23",
+      "type": "来場",
+      "title": "中野キャンパス オープンキャンパス"
+     }
+    ],
+    "url": "https://pharm.thu.ac.jp/news/2026/0818_01.html"
+   },
+   "access": "池袋・中野・千葉キャンパス（詳細は公式ページ確認）",
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜Ⅱ期",
+      "apply": "11/16〜12/4",
+      "exam": "12/11・12/12",
+      "result": "12/15",
+      "proc": "12/22",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅰ期",
+      "apply": "1/4〜1/15",
+      "exam": "1/25・1/26",
+      "result": "2/1",
+      "proc": "2/8",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅱ期",
+      "apply": "1/18〜2/4",
+      "exam": "2/13・2/14",
+      "result": "2/17",
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅲ期",
+      "apply": "2/8〜3/5",
+      "exam": "3/13・3/14",
+      "result": "3/16",
+      "proc": "3/23",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "奨学特待生選抜",
+      "apply": "1/4〜1/15",
+      "exam": "1/27",
+      "result": "2/1",
+      "proc": "2/8",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜Ⅰ期",
+      "apply": "1/4〜1/28",
+      "exam": "1/16・1/17",
+      "result": "2/6",
+      "proc": "2/13",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜Ⅱ期",
+      "apply": "2/1〜2/17",
+      "exam": "1/16・1/17",
+      "result": "2/26",
+      "proc": "3/5",
+      "fee": null
+     }
+    ],
+    "note": "Kei-Net の入試日程（全6学部共通。ページに年度表記はなく、出願開始日と検定料は掲載なし）"
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.thu.ac.jp/news/2026/261106-01",
+    "https://www.thu.ac.jp/exam/general",
+    "https://www.thu.ac.jp/exam/scholarship",
+    "https://www.thu.ac.jp/lp/admission-guide/",
+    "https://www.thu.ac.jp/exam/expenses/fee",
+    "https://pharm.thu.ac.jp/news/2026/0818_01.html",
+    "https://passnavi.obunsha.co.jp/univ/2200/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.thu.ac.jp/news/2026/261106-01",
+   "https://www.thu.ac.jp/exam/general",
+   "https://www.thu.ac.jp/exam/scholarship",
+   "https://www.thu.ac.jp/lp/admission-guide/",
+   "https://www.thu.ac.jp/exam/expenses/fee",
+   "https://pharm.thu.ac.jp/news/2026/0818_01.html",
+   "https://passnavi.obunsha.co.jp/univ/2200/difficulty/"
+  ]
+ },
+ {
+  "name": "帝京大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都板橋区",
+  "pref_name": "東京都",
+  "city": "板橋区",
+  "hp": "https://www.teikyo-u.ac.jp/index.html",
+  "reading": "ていきょうだいがく",
+  "features": [
+   "医学部から文系・理工系まで10学部を擁する総合大学。",
+   "一般選抜は試験日自由選択制で複数日の併願受験が可能。",
+   "奨学特待生選抜では最大4年間の授業料・施設費等が全額免除。"
+  ],
+  "memo": "医学部と他学部で日程・選考段階が異なる。試験日自由選択制を活かした併願戦略が有効。",
+  "info": {
+   "faculties": [
+    "医学部",
+    "薬学部",
+    "経済学部",
+    "法学部",
+    "文学部",
+    "外国語学部",
+    "教育学部",
+    "理工学部",
+    "医療技術学部",
+    "福岡医療技術学部"
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜65.0",
+    "kyotei": "42%〜90%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": [],
+    "note": "医学部共通テスト利用選抜は二次選考あり"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅰ期・Ⅱ期・Ⅲ期（経済学部等）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "試験日自由選択制",
+      "url": "https://www.teikyo-u.ac.jp/applicants/faculty/economy_d"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（医学部）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "一次・二次選考あり（試験日自由選択制）",
+      "url": "https://www.teikyo-u.ac.jp/applicants/faculty/medicine_d"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 前期（医学部）",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": "一次・二次選考あり",
+      "url": "https://www.teikyo-u.ac.jp/applicants/faculty/medicine_d"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅰ期（経済学部等）",
+      "apply": "12/17〜1/19",
+      "exam": "1/30・1/31・2/1",
+      "result": "2/13",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅱ期（経済学部等）",
+      "apply": "2/2〜2/15",
+      "exam": "2/20・2/21",
+      "result": "2/26",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅲ期（経済学部等）",
+      "apply": "2/24〜3/1",
+      "exam": "3/7",
+      "result": "3/11",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（医学部）",
+      "apply": "12/17〜1/13",
+      "exam": "一次1/21〜23・二次2/4・5",
+      "result": "一次1/28・最終2/13",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用選抜 前期（医学部）",
+      "apply": "12/17〜1/15",
+      "exam": "共テ・二次2/17",
+      "result": "一次2/13・最終2/19",
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "奨学特待生選抜",
+      "kind": "減免",
+      "target": "対象学部",
+      "amount": "入学金および最大4年間の授業料・施設拡充費・実験実習費を全額免除",
+      "timing": "入試時",
+      "cond": "奨学特待生合格者"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-04-26",
+      "type": "来場",
+      "title": "福岡キャンパス オープンキャンパス"
+     },
+     {
+      "date": "2026-05-23",
+      "type": "来場",
+      "title": "八王子キャンパス オープンキャンパス"
+     },
+     {
+      "date": "2026-06-13",
+      "type": "来場",
+      "title": "八王子キャンパス オープンキャンパス"
+     },
+     {
+      "date": "2026-07-18",
+      "type": "来場",
+      "title": "八王子キャンパス オープンキャンパス"
+     },
+     {
+      "date": "2026-07-19",
+      "type": "来場",
+      "title": "八王子キャンパス オープンキャンパス"
+     },
+     {
+      "date": "2026-08-09",
+      "type": "来場",
+      "title": "板橋キャンパス オープンキャンパス"
+     },
+     {
+      "date": "2026-08-10",
+      "type": "来場",
+      "title": "板橋キャンパス オープンキャンパス"
+     }
+    ],
+    "url": "https://www.teikyo-u.ac.jp/topics/2026/0312"
+   },
+   "access": "板橋・八王子・宇都宮・福岡キャンパス（詳細は公式ページ確認）",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.teikyo-u.ac.jp/applicants/faculty/economy_d",
+    "https://www.teikyo-u.ac.jp/applicants/faculty/medicine_d",
+    "https://www.teikyo-u.ac.jp/studentlife/life_support/financial_support",
+    "https://www.teikyo-u.ac.jp/scholarship_selection/",
+    "https://www.teikyo-u.ac.jp/topics/2026/0312",
+    "https://search.keinet.ne.jp/2244/general/border_rate"
+   ]
+  },
+  "sources": [
+   "https://www.teikyo-u.ac.jp/applicants/faculty/economy_d",
+   "https://www.teikyo-u.ac.jp/applicants/faculty/medicine_d",
+   "https://www.teikyo-u.ac.jp/studentlife/life_support/financial_support",
+   "https://www.teikyo-u.ac.jp/scholarship_selection/",
+   "https://www.teikyo-u.ac.jp/topics/2026/0312",
+   "https://search.keinet.ne.jp/2244/general/border_rate"
+  ]
+ },
+ {
+  "name": "実践女子大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都日野市",
+  "pref_name": "東京都",
+  "city": "日野市",
+  "hp": "https://www.jissen.ac.jp/",
+  "reading": "じっせんじょしだいがく",
+  "features": [
+   "文学・人間社会・国際・生活科学・食科学・環境デザインの6学部。",
+   "一般選抜Ⅰ〜Ⅲ期、共通テスト利用Ⅰ〜Ⅳ期と受験機会が豊富。",
+   "英語外部試験利用方式や高校時代活動評価方式など多様な選抜を実施。"
+  ],
+  "memo": "一般選抜Ⅰ期は地方試験場あり。入学手続時納付金の分割納入制度も利用できる。",
+  "info": {
+   "faculties": [
+    "文学部",
+    "人間社会学部",
+    "国際学部",
+    "生活科学部",
+    "食科学部",
+    "環境デザイン学部"
+   ],
+   "departments": [
+    {
+     "f": "文学部",
+     "d": [
+      "国文学科",
+      "英文学科",
+      "美学美術史学科"
+     ]
+    },
+    {
+     "f": "人間社会学部",
+     "d": [
+      "人間社会学科"
+     ]
+    },
+    {
+     "f": "国際学部",
+     "d": [
+      "国際学科"
+     ]
+    },
+    {
+     "f": "生活科学部",
+     "d": [
+      "生活文化学科 生活心理",
+      "生活文化学科 幼児保育",
+      "現代生活学科"
+     ]
+    },
+    {
+     "f": "食科学部",
+     "d": [
+      "食科学科 食デザイン",
+      "食科学科 健康栄養",
+      "管理栄養学科"
+     ]
+    },
+    {
+     "f": "環境デザイン学部",
+     "d": [
+      "環境デザイン学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "40.0〜50.0",
+    "kyotei": "54%〜72%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "2科目型・3科目型",
+    "kyoka": [
+     2,
+     3
+    ],
+    "note": null
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.jissen.ac.jp/admission_guidance/information/sougougata.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅰ期（2科目型・3科目型・英語外部試験利用方式）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.jissen.ac.jp/admission_guidance/information/ippansenbatsu.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅱ期（2科目型・3科目型）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.jissen.ac.jp/admission_guidance/information/ippansenbatsu.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅲ期（2科目型・高校時代活動評価方式）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.jissen.ac.jp/admission_guidance/information/ippansenbatsu.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜Ⅰ期〜Ⅳ期",
+      "kyotsu": "2科目型・3科目型",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.jissen.ac.jp/admission_guidance/information/ippansenbatsu.html"
+     }
+    ]
+   },
+   "access": "日野キャンパス・渋谷キャンパス（詳細は公式ページ確認）",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.jissen.ac.jp/admission_guidance/information/sougougata.html",
+    "https://www.jissen.ac.jp/admission_guidance/information/ippansenbatsu.html",
+    "https://www.jissen.ac.jp/admission_guidance/information/payment/vpbrbb000000omoy-att/2027daigaku_gakuhi.pdf",
+    "https://www.jissen.ac.jp/admission_guidance/information/shugaku-shien.html",
+    "https://www.jissen.ac.jp/learning/food_sciences_and_nutrition/food_sciences/blog/2026/20260822shoku-blog.html",
+    "https://telemail.jp/shingaku/university/10001115/examination/general",
+    "https://passnavi.obunsha.co.jp/univ/2440/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.jissen.ac.jp/admission_guidance/information/sougougata.html",
+   "https://www.jissen.ac.jp/admission_guidance/information/ippansenbatsu.html",
+   "https://www.jissen.ac.jp/admission_guidance/information/payment/vpbrbb000000omoy-att/2027daigaku_gakuhi.pdf",
+   "https://www.jissen.ac.jp/admission_guidance/information/shugaku-shien.html",
+   "https://www.jissen.ac.jp/learning/food_sciences_and_nutrition/food_sciences/blog/2026/20260822shoku-blog.html",
+   "https://telemail.jp/shingaku/university/10001115/examination/general",
+   "https://passnavi.obunsha.co.jp/univ/2440/difficulty/"
+  ]
+ },
+ {
+  "name": "宇都宮共和大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "栃木県宇都宮市",
+  "pref_name": "栃木県",
+  "city": "宇都宮市",
+  "hp": "http://www.kyowa-u.ac.jp/",
+  "reading": "うつのみやきょうわだいがく",
+  "features": [
+   "シティライフ学部と子ども生活学部の2学部で少人数教育を展開。",
+   "共通テスト利用入試（Ⅰ期・Ⅱ期）は入学検定料が無料。",
+   "特待生入試や総合型・推薦型など幅広い入試区分を設定。"
+  ],
+  "memo": "共通テスト利用入試は検定料無料で併願しやすい。一般選抜でも面接またはプレゼンを課す。",
+  "info": {
+   "faculties": [
+    "シティライフ学部",
+    "子ども生活学部"
+   ],
+   "departments": [
+    {
+     "f": "シティライフ学部",
+     "d": [
+      "シティライフ学科"
+     ]
+    },
+    {
+     "f": "子ども生活学部",
+     "d": [
+      "子ども生活学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜37.5",
+    "kyotei": "46%〜49%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": "英語・国語・地歴公民・数学・情報から2教科選択（英語か国語必須）",
+    "kyoka": [
+     2,
+     2
+    ],
+    "note": "書類選考のみ・入学検定料無料"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "面接（口頭試問含む）またはプレゼンテーション、課題提出による総合評価",
+      "req": null,
+      "url": "https://www.kyowa-u.ac.jp/admission/nyushi.html"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（指定校制）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "面接（口頭試問含む）",
+      "req": null,
+      "url": "https://www.kyowa-u.ac.jp/admission/nyushi.html"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（公募制）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": "小論文＋面接（口頭試問含む）",
+      "req": null,
+      "url": "https://www.kyowa-u.ac.jp/admission/nyushi.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "特待生入試",
+      "kyotsu": "課さない",
+      "niji": "国語必須＋英語・数学・簿記会計・家庭基礎から1科目＋面接",
+      "content": null,
+      "req": null,
+      "url": "https://www.kyowa-u.ac.jp/admission/nyushi.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅰ期",
+      "kyotsu": "課さない",
+      "niji": "英語＋国語＋面接またはプレゼンテーション",
+      "content": null,
+      "req": null,
+      "url": "https://www.kyowa-u.ac.jp/admission/nyushi.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅱ期",
+      "kyotsu": "課さない",
+      "niji": "国語必須＋英語・小論文から1科目＋面接またはプレゼンテーション",
+      "content": null,
+      "req": null,
+      "url": "https://www.kyowa-u.ac.jp/admission/nyushi.html"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試Ⅰ期・Ⅱ期",
+      "kyotsu": "2教科",
+      "niji": null,
+      "content": "書類のみ",
+      "req": null,
+      "url": "https://www.kyowa-u.ac.jp/admission/nyushi.html"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "全学部",
+      "kubun": "一般",
+      "name": "一般選抜Ⅰ期",
+      "n": 2,
+      "subj": "英語・国語＋面接またはプレゼンテーション",
+      "kt": "",
+      "eng": null
+     },
+     {
+      "f": "全学部",
+      "kubun": "一般",
+      "name": "一般選抜Ⅱ期",
+      "n": 2,
+      "subj": "国語必須＋英語・小論文から1科目＋面接またはプレゼンテーション",
+      "kt": "",
+      "eng": null
+     },
+     {
+      "f": "全学部",
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試Ⅰ期・Ⅱ期",
+      "n": 2,
+      "subj": "英語・国語・地歴公民・数学・情報から2教科（英語か国語必須）",
+      "kt": "2教科",
+      "eng": null
+     }
+    ]
+   },
+   "access": "宇都宮シティキャンパス・那須キャンパス（詳細は公式ページ確認）",
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜（指定校制・公募制）",
+      "apply": "11/2〜11/13",
+      "exam": "11/21",
+      "result": "12/1",
+      "proc": "12/2〜12/11",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "特待生入試",
+      "apply": "11/22〜11/30",
+      "exam": "12/5",
+      "result": "12/14",
+      "proc": "12/15〜12/25",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅰ期",
+      "apply": "1/12〜1/29",
+      "exam": "2/6",
+      "result": "2/16",
+      "proc": "2/17〜2/26",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試Ⅰ期",
+      "apply": "1/4〜1/29",
+      "exam": "書類のみ",
+      "result": "2/16",
+      "proc": "2/17〜2/26",
+      "fee": 0
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜Ⅱ期",
+      "apply": "2/5〜2/19",
+      "exam": "2/27",
+      "result": "3/9",
+      "proc": "3/10〜3/19",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用入試Ⅱ期",
+      "apply": "2/15〜3/4",
+      "exam": "書類のみ",
+      "result": "3/9",
+      "proc": "3/10〜3/19",
+      "fee": 0
+     }
+    ],
+    "note": "シティライフ学部・子ども生活学部とも同じ日程（マナビジョン 2027年度入試）。ネット出願。総合型の出願期間と検定料は掲載なし"
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.kyowa-u.ac.jp/admission/nyushi.html",
+    "https://www.kyowa-u.ac.jp/campus/scholarship.html",
+    "https://www.kyowa-u.ac.jp/topics/?id=1227",
+    "https://passnavi.obunsha.co.jp/univ/1925/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.kyowa-u.ac.jp/admission/nyushi.html",
+   "https://www.kyowa-u.ac.jp/campus/scholarship.html",
+   "https://www.kyowa-u.ac.jp/topics/?id=1227",
+   "https://passnavi.obunsha.co.jp/univ/1925/difficulty/"
+  ]
+ },
+ {
+  "name": "女子美術大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都杉並区",
+  "pref_name": "東京都",
+  "city": "杉並区",
+  "hp": "https://www.joshibi.ac.jp/",
+  "reading": "じょしびじゅつだいがく",
+  "features": [
+   "芸術学部4学科で美術・デザイン・工芸・共創デザインを専門的に学ぶ。",
+   "杉並キャンパスと相模原キャンパスの2拠点で制作環境を整備。",
+   "実技中心のA日程に加え、共通テスト利用Ⅰ方式・Ⅱ方式を実施。"
+  ],
+  "memo": "専攻によって試験日や共通テスト利用Ⅱ方式の実施有無が異なる。初年度納入金は約195〜199万円。",
+  "info": {
+   "faculties": [
+    "芸術学部"
+   ],
+   "departments": [
+    {
+     "f": "芸術学部",
+     "d": [
+      "美術学科 洋画専攻",
+      "美術学科 日本画専攻",
+      "美術学科 立体アート専攻",
+      "美術学科 美術教育専攻",
+      "美術学科 国際芸術文化専攻",
+      "デザイン・工芸学科 ヴィジュアルデザイン専攻",
+      "デザイン・工芸学科 プロダクトデザイン専攻",
+      "デザイン・工芸学科 環境デザイン専攻",
+      "デザイン・工芸学科 工芸専攻",
+      "アート・デザイン表現学科 メディア表現領域",
+      "アート・デザイン表現学科 ヒーリング表現領域",
+      "アート・デザイン表現学科 ファッション表現領域",
+      "アート・デザイン表現学科 スペース表現領域",
+      "アート・デザイン表現学科 クリエイティブ・プロデュース表現領域",
+      "共創デザイン学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜52.5",
+    "kyotei": "46%〜71%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": [],
+    "note": "Ⅰ方式は共テ＋個別試験、Ⅱ方式は共テのみ（対象専攻限定）"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.joshibi.ac.jp/admission/entrance-examination"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用 Ⅰ方式",
+      "kyotsu": null,
+      "niji": "個別試験あり",
+      "content": null,
+      "req": null,
+      "url": "https://www.joshibi.ac.jp/admission/entrance-examination"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用 Ⅱ方式（第Ⅰ期・第Ⅱ期）",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": "美術教育・国際芸術文化・プロダクト・環境・工芸・共創デザインのみ",
+      "url": "https://www.joshibi.ac.jp/admission/entrance-examination"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程（洋画・日本画・立体アート）",
+      "apply": "1/5〜1/15",
+      "exam": "2/1・2/2",
+      "result": null,
+      "proc": "2/24",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 A日程（美術教育・国際芸術文化・デザイン工芸・アート表現・共創デザイン）",
+      "apply": "1/5〜1/15",
+      "exam": "2/2",
+      "result": null,
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 Ⅰ方式",
+      "apply": "1/5〜1/15",
+      "exam": "1/16・17（共テ）、2/1または2/2（個別）",
+      "result": "2/12",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 Ⅱ方式 第Ⅰ期",
+      "apply": "1/5〜1/15",
+      "exam": "1/16・17（共テ）",
+      "result": "2/12",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "共通テスト利用 Ⅱ方式 第Ⅱ期",
+      "apply": "2/20〜3/2",
+      "exam": "1/16・17（共テ）",
+      "result": "3/17",
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-07-19",
+      "type": "来場",
+      "title": "オープンキャンパス（相模原・杉並両キャンパス同時開催）"
+     },
+     {
+      "date": "2026-07-20",
+      "type": "来場",
+      "title": "オープンキャンパス（相模原・杉並両キャンパス同時開催）"
+     }
+    ],
+    "url": "https://www.joshibi.ac.jp/opencampus2026"
+   },
+   "access": "杉並キャンパス・相模原キャンパス（詳細は公式ページ確認）",
+   "_via": "external-ai",
+   "sources": [
+    "https://www.joshibi.ac.jp/admission/entrance-examination",
+    "https://www.joshibi.ac.jp/admission/tuition",
+    "https://www.joshibi.ac.jp/opencampus2026",
+    "https://passnavi.obunsha.co.jp/univ/2510/schedule/",
+    "https://passnavi.obunsha.co.jp/univ/2510/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.joshibi.ac.jp/admission/entrance-examination",
+   "https://www.joshibi.ac.jp/admission/tuition",
+   "https://www.joshibi.ac.jp/opencampus2026",
+   "https://passnavi.obunsha.co.jp/univ/2510/schedule/",
+   "https://passnavi.obunsha.co.jp/univ/2510/difficulty/"
+  ]
+ }
+]
