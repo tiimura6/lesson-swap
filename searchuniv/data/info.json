@@ -265386,7 +265386,9 @@ null
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
 "schedule": "2026-11-13",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"methods": "2026-11-26",
+"_via": "2026-11-26"
 },
 "departments": [
 {
@@ -265581,7 +265583,13 @@ null
 "https://search.keinet.ne.jp/2383/outline/admission_employment",
 "https://search.keinet.ne.jp/2383/general/exam_result",
 "https://manabi.benesse.ne.jp/daigaku/school/3451/nyushi/gokaku-happyo/index.html",
-"https://search.keinet.ne.jp/2383/general/border_rate"
+"https://search.keinet.ne.jp/2383/general/border_rate",
+"https://www.ntu.ac.jp/",
+"https://www.ntu.ac.jp/admissions/lp/",
+"https://www.ntu.ac.jp/admissions/exam/",
+"https://www.ntu.ac.jp/admissions/data/",
+"https://passnavi.obunsha.co.jp/univ/3410/expense/",
+"https://passnavi.obunsha.co.jp/univ/3410/difficulty/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -265665,7 +265673,49 @@ null
 "hensachi": "35.0〜50.0",
 "kyotei": "48%〜70%",
 "year": "2027年度入試用"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "総合型",
+"name": "総合型選抜",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.ntu.ac.jp/admissions/lp/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.ntu.ac.jp/admissions/lp/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.ntu.ac.jp/admissions/lp/"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜",
+"kyotsu": null,
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.ntu.ac.jp/admissions/lp/"
 }
+]
+},
+"_via": "external-ai"
 },
 "拓殖大学": {
 "faculties": [
@@ -265687,7 +265737,9 @@ null
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
 "schedule": "2026-11-13",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"oc": "2026-11-26",
+"_via": "2026-11-26"
 },
 "departments": [
 {
@@ -265826,7 +265878,11 @@ null
 "https://search.keinet.ne.jp/2237/outline/expense",
 "https://search.keinet.ne.jp/2237/general/exam_result",
 "https://manabi.benesse.ne.jp/daigaku/school/3271/nyushi/index.html",
-"https://search.keinet.ne.jp/2237sp/general/border_rate_sp"
+"https://search.keinet.ne.jp/2237sp/general/border_rate_sp",
+"https://www.takushoku-u.ac.jp/",
+"https://www.takushoku-u.ac.jp/campus_life/2026.html",
+"https://passnavi.obunsha.co.jp/univ/2640/expense/",
+"https://passnavi.obunsha.co.jp/univ/2640/difficulty/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -265937,7 +265993,24 @@ null
 "hensachi": "35.0〜42.5",
 "kyotei": "45%〜64%",
 "year": "2027年度入試用"
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-08-01",
+"type": "来場",
+"title": "オープンキャンパス【八王子国際】（8/1〜8/2）"
+},
+{
+"date": "2026-08-22",
+"type": "来場",
+"title": "オープンキャンパス"
 }
+],
+"url": "https://www.takushoku-u.ac.jp/campus_life/2026.html"
+},
+"_via": "external-ai"
 },
 "平成国際大学": {
 "faculties": [
@@ -266147,7 +266220,10 @@ null
 "careers": "2026-11-09",
 "schedule": "2026-11-13",
 "kyotsu": "2026-11-25",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"methods": "2026-11-26",
+"oc": "2026-11-26",
+"_via": "2026-11-26"
 },
 "departments": [
 {
@@ -266205,7 +266281,14 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3213/nyushi/hoshiki/ippan/index.html",
 "https://search.keinet.ne.jp/2191/general/schedule",
 "https://search.keinet.ne.jp/2191/general/exam_subject",
-"https://search.keinet.ne.jp/2191/general/border_rate"
+"https://search.keinet.ne.jp/2191/general/border_rate",
+"https://aikoku-u.ac.jp/",
+"https://aikoku-u.ac.jp/exam/summary",
+"https://aikoku-u.ac.jp/exam/division/sougou",
+"https://aikoku-u.ac.jp/entrance-exam",
+"https://aikoku-u.ac.jp/oc/web",
+"https://passnavi.obunsha.co.jp/univ/2088/schedule/",
+"https://passnavi.obunsha.co.jp/univ/2088/difficulty/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -266275,7 +266358,60 @@ null
 "kyotei": "46%",
 "year": "2027年度入試用",
 "note": "共通テスト方式の得点率。一般方式はボーダーなし（学部学科ランクはBF）"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "総合型",
+"name": "総合型選抜（Ⅰ期・Ⅱ期ほか）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://aikoku-u.ac.jp/exam/division/sougou"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（Ⅱ期ほか）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://aikoku-u.ac.jp/exam/summary"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（Ⅰ期ほか）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://aikoku-u.ac.jp/exam/summary"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜（Ⅰ期ほか）",
+"kyotsu": null,
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://aikoku-u.ac.jp/exam/summary"
 }
+]
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-07-25",
+"type": "来場",
+"title": "第1回 オープンキャンパス"
+}
+],
+"url": "https://aikoku-u.ac.jp/entrance-exam"
+},
+"_via": "external-ai"
 },
 "敬愛大学": {
 "faculties": [
@@ -266297,7 +266433,9 @@ null
 "careers": "2026-11-09",
 "schedule": "2026-11-13",
 "kyotsu": "2026-11-25",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"methods": "2026-11-26",
+"_via": "2026-11-26"
 },
 "departments": [
 {
@@ -266415,7 +266553,11 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3194/nyushi/hoshiki/ippan/index.html",
 "https://search.keinet.ne.jp/general/schedule/2180",
 "https://search.keinet.ne.jp/2180/general/exam_subject",
-"https://search.keinet.ne.jp/2180/general/border_rate"
+"https://search.keinet.ne.jp/2180/general/border_rate",
+"https://www.u-keiai.ac.jp/",
+"https://www.u-keiai.ac.jp/juken/media/2027ki_ippanyoko.pdf",
+"https://www.u-keiai.ac.jp/life/gakuhi/",
+"https://passnavi.obunsha.co.jp/univ/2120/schedule/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -266493,7 +266635,31 @@ null
 "kyotei": "46%〜47%",
 "year": "2027年度入試用",
 "note": "一般選抜の偏差値は教育37.5・経済35.0、国際・情報マネジメントはBF"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜（基礎力評価ほか）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.u-keiai.ac.jp/juken/media/2027ki_ippanyoko.pdf"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜",
+"kyotsu": null,
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.u-keiai.ac.jp/juken/media/2027ki_ippanyoko.pdf"
 }
+]
+},
+"_via": "external-ai"
 },
 "文京学院大学": {
 "difficulty": {
@@ -266514,7 +266680,11 @@ null
 "schedule": "2026-11-13",
 "research": "2026-11-25",
 "careers": "2026-11-25",
-"kyotsu": "2026-11-25"
+"kyotsu": "2026-11-25",
+"methods": "2026-11-26",
+"scholar": "2026-11-26",
+"oc": "2026-11-26",
+"_via": "2026-11-26"
 },
 "faculties": [
 "外国語学部",
@@ -266688,7 +266858,15 @@ null
 "https://search.keinet.ne.jp/2159/general/schedule",
 "https://search.keinet.ne.jp/outline/department/2159",
 "https://search.keinet.ne.jp/2159/outline/admission_employment",
-"https://search.keinet.ne.jp/2159/general/exam_subject"
+"https://search.keinet.ne.jp/2159/general/exam_subject",
+"https://www.bgu.ac.jp/",
+"https://info.bgu.ac.jp/news/n-20260709115119",
+"https://info.bgu.ac.jp/examination/ippan/business_administration",
+"https://info.bgu.ac.jp/examination/sougou/health_science_technology",
+"https://info.bgu.ac.jp/examination/latterperiod-exam",
+"https://info.bgu.ac.jp/examination/smart_system",
+"https://info.bgu.ac.jp/event/opencampus/260822",
+"https://passnavi.obunsha.co.jp/univ/2075/schedule/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -266793,7 +266971,72 @@ null
 "rl_text": "掲載された全方式で英語 R100:L100（1:1）",
 "note": "Ⅰ期・ⅡⅢ期に2科目型・3科目型（保健医療技術学部は3科目）。英語はヒューマン・データサイエンス学部のみ他教科と選択、他学部は必須。学生数はヒューマン・データサイエンス学部を除く4学部の合計",
 "year": "2027年度入試"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜［Ⅰ期］（A日程・B日程）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://info.bgu.ac.jp/examination/ippan/business_administration"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（保健医療技術学部ほか）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://info.bgu.ac.jp/examination/sougou/health_science_technology"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜等（12月実施・専願制）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": "専願制",
+"url": "https://info.bgu.ac.jp/examination/latterperiod-exam"
 }
+]
+},
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "スカラシップA（学業サポート）",
+"kind": "給付",
+"target": "全学部",
+"amount": "2年間の授業料半額（看護学科の場合103.1万円）",
+"timing": "入試時",
+"cond": null
+},
+{
+"name": "スカラシップB（生活サポート）",
+"kind": "給付",
+"target": "全学部",
+"amount": "年額12万円",
+"timing": "入試時",
+"cond": null
+}
+]
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-08-22",
+"type": "来場",
+"title": "オープンキャンパス"
+}
+],
+"url": "https://info.bgu.ac.jp/event/opencampus/260822"
+},
+"_via": "external-ai"
 },
 "文化学園大学": {
 "difficulty": {
@@ -266814,7 +267057,10 @@ null
 "schedule": "2026-11-13",
 "research": "2026-11-25",
 "careers": "2026-11-25",
-"kyotsu": "2026-11-25"
+"kyotsu": "2026-11-25",
+"methods": "2026-11-26",
+"oc": "2026-11-26",
+"_via": "2026-11-26"
 },
 "faculties": [
 "国際文化学部",
@@ -266926,7 +267172,13 @@ null
 "https://telemail.jp/shingaku/university/10010946/examination/general",
 "https://search.keinet.ne.jp/outline/department/2278",
 "https://search.keinet.ne.jp/2278/outline/admission_employment",
-"https://search.keinet.ne.jp/2278/general/exam_subject"
+"https://search.keinet.ne.jp/2278/general/exam_subject",
+"https://bwu.bunka.ac.jp/nyushi/ippan.php",
+"https://bwu.bunka.ac.jp/wp-content/uploads/2026/04/%E5%85%A5%E8%A9%A6%E6%83%85%E5%A0%B12027_calendar.pdf",
+"https://bwu.bunka.ac.jp/campus-life/gakuhi.php",
+"https://bwu.bunka.ac.jp/jyukensei/festas/202608022/",
+"https://passnavi.obunsha.co.jp/univ/3040/expense/",
+"https://passnavi.obunsha.co.jp/univ/3040/difficulty/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -266988,7 +267240,51 @@ null
 "rl_text": "2科目型は R50:L50、1科目型は R100:L100（いずれも1:1）",
 "note": "共テ方式は全学科で2科目型（英・数・国・理・地公・情から2）と1科目型（英・数・国から1）。英語は選択。A日程・B日程は個別試験のみ",
 "year": "2027年度入試"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜 A日程",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://bwu.bunka.ac.jp/nyushi/ippan.php"
+},
+{
+"kubun": "一般",
+"name": "一般選抜 B日程",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://bwu.bunka.ac.jp/nyushi/ippan.php"
+},
+{
+"kubun": "共テ利用",
+"name": "一般選抜（共通テスト利用方式）1期",
+"kyotsu": "1科目型・2科目型",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://bwu.bunka.ac.jp/wp-content/uploads/2026/04/%E5%85%A5%E8%A9%A6%E6%83%85%E5%A0%B12027_calendar.pdf"
 }
+]
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-08-22",
+"type": "来場",
+"title": "オープンキャンパス"
+}
+],
+"url": "https://bwu.bunka.ac.jp/jyukensei/festas/202608022/"
+},
+"_via": "external-ai"
 },
 "文教大学": {
 "difficulty": {
@@ -267009,7 +267305,9 @@ null
 "schedule": "2026-11-13",
 "research": "2026-11-25",
 "careers": "2026-11-25",
-"kyotsu": "2026-11-25"
+"kyotsu": "2026-11-25",
+"methods": "2026-11-26",
+"_via": "2026-11-26"
 },
 "faculties": [
 "文学部",
@@ -267214,7 +267512,15 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3157/nyushi/gokaku-happyo/",
 "https://search.keinet.ne.jp/2158/general/schedule",
 "https://search.keinet.ne.jp/2158/outline/admission_employment",
-"https://search.keinet.ne.jp/2158/general/exam_subject"
+"https://search.keinet.ne.jp/2158/general/exam_subject",
+"https://www.bunkyo.ac.jp/admission/overview/download/download_ippan/index.php",
+"https://www.bunkyo.ac.jp/admission/overview/general/whole/",
+"https://www.bunkyo.ac.jp/admission/overview/general/schedule_a/",
+"https://www.bunkyo.ac.jp/admission/overview/general/common_exam1/",
+"https://www.bunkyo.ac.jp/admission/overview/general/common_exam2/",
+"https://www.bunkyo.ac.jp/campuslife/tuition/",
+"https://passnavi.obunsha.co.jp/univ/2070/expense/",
+"https://passnavi.obunsha.co.jp/univ/2070/difficulty/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -267317,7 +267623,49 @@ null
 "rl_text": "全方式で R:L=1:1（多くは R50:L50、英米語英米文・外国語学科と国際学部の1期2教科は R100:L100）",
 "note": "1期・2期・3期。学部・学科・期で教科数と英語の必須／選択が異なる（教育学部は1期・3期の3教科）",
 "year": "2027年度入試"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "全国入試",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.bunkyo.ac.jp/admission/overview/general/whole/"
+},
+{
+"kubun": "一般",
+"name": "A日程入試",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.bunkyo.ac.jp/admission/overview/general/schedule_a/"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用1期",
+"kyotsu": null,
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.bunkyo.ac.jp/admission/overview/general/common_exam1/"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用2期",
+"kyotsu": null,
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.bunkyo.ac.jp/admission/overview/general/common_exam2/"
 }
+]
+},
+"_via": "external-ai"
 },
 "文星芸術大学": {
 "difficulty": {
@@ -267338,7 +267686,9 @@ null
 "schedule": "2026-11-13",
 "research": "2026-11-25",
 "careers": "2026-11-25",
-"kyotsu": "2026-11-25"
+"kyotsu": "2026-11-25",
+"methods": "2026-11-26",
+"_via": "2026-11-26"
 },
 "faculties": [
 "美術学部"
@@ -267395,7 +267745,11 @@ null
 "https://search.keinet.ne.jp/outline/department/2127",
 "https://passnavi.obunsha.co.jp/univ/1935/department/",
 "https://search.keinet.ne.jp/2127/outline/admission_employment",
-"https://search.keinet.ne.jp/2127/general/exam_subject"
+"https://search.keinet.ne.jp/2127/general/exam_subject",
+"https://geidai.bunsei.ac.jp/exam/exam-general/",
+"https://geidai.bunsei.ac.jp/exam/quota-schedule/",
+"https://geidai.bunsei.ac.jp/exam/tuition/",
+"https://passnavi.obunsha.co.jp/univ/1935/difficulty/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -267499,7 +267853,49 @@ null
 "rl_text": "英語はR・Lの個別配点の掲載なし（英語全体100点、地歴公民・情報Ⅰと選択）",
 "note": "共通テスト方式（募集5人）のみ。国語100点必須＋英語・地歴公民・情報Ⅰから1科目。英語外部試験は換算あり",
 "year": "2027年度入試"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "総合型",
+"name": "総合型選抜入学試験（専願）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": "専願",
+"url": "https://geidai.bunsei.ac.jp/exam/quota-schedule/"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜入学試験（併願）1期・2期",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": "併願可",
+"url": "https://geidai.bunsei.ac.jp/exam/quota-schedule/"
+},
+{
+"kubun": "一般",
+"name": "一般選抜入学試験 1期・2期",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://geidai.bunsei.ac.jp/exam/exam-general/"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用入学試験 前期・後期",
+"kyotsu": null,
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://geidai.bunsei.ac.jp/exam/quota-schedule/"
 }
+]
+},
+"_via": "external-ai"
 },
 "日本体育大学": {
 "difficulty": {
@@ -267520,7 +267916,8 @@ null
 "careers": "2026-11-09",
 "schedule": "2026-11-13",
 "research": "2026-11-25",
-"kyotsu": "2026-11-25"
+"kyotsu": "2026-11-25",
+"_via": "2026-11-26"
 },
 "faculties": [
 "児童スポーツ教育学部",
@@ -267674,7 +268071,11 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3307/nyushi/gokaku-happyo/",
 "https://manabi.benesse.ne.jp/daigaku/school/3307/gakubu/index.html",
 "https://manabi.benesse.ne.jp/daigaku/school/3307/nyushi/index.html",
-"https://manabi.benesse.ne.jp/daigaku/school/3307/nyushi/hoshiki/kyotsu-test/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3307/nyushi/hoshiki/kyotsu-test/index.html",
+"https://www.nittai.ac.jp/exam/com/Link01.html",
+"https://passnavi.obunsha.co.jp/univ/3010/difficulty/",
+"https://passnavi.obunsha.co.jp/univ/3010/schedule/?facultyID=005",
+"https://passnavi.obunsha.co.jp/univ/3010/schedule/?facultyID=015"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -267716,7 +268117,8 @@ null
 "rl_text": "英語はリーディング100点の記載のみ（リスニングの記載なし）",
 "note": "全学部・学科共通で3教科・配点300。国語（近代以降の文章）・数学・英語・地歴公民・理科・情報の選択方法は募集要項で確認。武道教育学科は実技、保健医療学部は面接を併せて課す",
 "year": "2027年度入試"
-}
+},
+"_via": "external-ai"
 },
 "日本保健医療大学": {
 "difficulty": {
@@ -267735,7 +268137,9 @@ null
 "schedule": "2026-11-13",
 "research": "2026-11-25",
 "careers": "2026-11-25",
-"kyotsu": "2026-11-25"
+"kyotsu": "2026-11-25",
+"money": "2026-11-26",
+"_via": "2026-11-26"
 },
 "faculties": [
 "保健医療学部"
@@ -267770,7 +268174,10 @@ null
 "https://manabi.benesse.ne.jp/daigaku/school/3174/nyushi/index.html",
 "https://passnavi.obunsha.co.jp/univ/2062/schedule/",
 "https://manabi.benesse.ne.jp/daigaku/school/3174/",
-"https://manabi.benesse.ne.jp/daigaku/school/3174/syusyoku/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3174/syusyoku/index.html",
+"https://www.jhsu.ac.jp/%E5%85%A5%E5%AD%A6%E6%A1%88%E5%86%85",
+"https://passnavi.obunsha.co.jp/univ/2062/expense/",
+"https://passnavi.obunsha.co.jp/univ/2062/difficulty/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -267874,7 +268281,33 @@ null
 "rl_text": "英語はリーディングのみ（リスニングは利用しない）",
 "note": "一般選抜 共通テスト利用型（第1回〜第4回、看護・理学療法）。4教科以上受験しても高得点3教科で判定。国語は近代以降の文章のみ、理科の基礎2科目で1科目扱い（地学基礎を除く）",
 "year": "2027年度入試"
+},
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "保健医療学部 看護学科",
+"admission": 200000,
+"tuition": 850000,
+"facility": 250000,
+"practical": 200000,
+"other": 0,
+"first_year": 1500000,
+"four_year": null
+},
+{
+"f": "保健医療学部 理学療法学科",
+"admission": 200000,
+"tuition": 800000,
+"facility": 250000,
+"practical": 150000,
+"other": 0,
+"first_year": 1400000,
+"four_year": null
 }
+]
+},
+"_via": "external-ai"
 },
 "日本医療科学大学": {
 "difficulty": {
