@@ -140,10 +140,16 @@
     "pamphlet": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/reiwa9nenndogakkouannnai.pdf",
     "yoko_kenkyuka": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r9kennkyuukaannnai_.pdf",
     "oc": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/opencampus/oc1.html",
-    "kakomon": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/nyuushi/kakomon.html"
+    "kakomon": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/nyuushi/kakomon.html",
+    "kakomon_kenkyuka": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/nyuushi/kakomon_kenkyuka.html",
+    "suisen_goukaku": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r9suisennnyuusigoukakusyajyukennbanngou.pdf",
+    "qa": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/yokuarugakkouqa.pdf"
    },
    "note": "2026-11-26：schedule は公式で一致。募集案内PDFは表の見出しが読み取れず、受験料・入学料/授業料の項目名・試験科目名が判別できず。パンフレットPDFは取得エラー。入試結果の公表ページは見当たらず（推薦の合格者番号のみ）。 / 2026-11-26 公式ページを開けず（取得の許可が時間切れ）",
-   "fails": 1
+   "fails": 1,
+   "wait": {
+    "ratios": "入試結果（倍率）は公表していない（公式の入試ページは推薦の合格者受験番号のみ）"
+   }
   },
   {
    "name": "筑波技術大学",
@@ -155,7 +161,9 @@
     "guideline_it": "https://www.tsukuba-tech.ac.jp/admission/it/guideline.html",
     "yoko_it": "http://www.tsukuba-tech.ac.jp/uploads/2026/09/R9it-bosyuyoko_1.pdf",
     "result_hs": "https://www.tsukuba-tech.ac.jp/admission/hs/results/index.html",
-    "expenses": "https://www.tsukuba-tech.ac.jp/education/expenses/index.html"
+    "expenses": "https://www.tsukuba-tech.ac.jp/education/expenses/index.html",
+    "fees": "https://www.tsukuba-tech.ac.jp/education/expenses/fees.html",
+    "scholar_qa": "https://www.tsukuba-tech.ac.jp/education/campus_life/q_and_a/hs/q_and_a_5.html"
    },
    "fails": 1,
    "note": "2026-11-26 公式ページを開けず（取得の許可が時間切れ）"
