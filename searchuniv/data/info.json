@@ -271648,9 +271648,13 @@ null
 "access": "2026-11-09",
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13",
+"schedule": "2026-11-26",
 "kyotsu": "2026-11-25",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"methods": "2026-11-26",
+"oc": "2026-11-26",
+"money": "2026-11-26",
+"_via": "2026-11-26"
 },
 "departments": [
 {
@@ -271717,55 +271721,88 @@ null
 "https://search.keinet.ne.jp/2195/general/exam_result",
 "https://search.keinet.ne.jp/2195/general/schedule",
 "https://search.keinet.ne.jp/2195/general/border_rate",
-"https://search.keinet.ne.jp/2195/general/exam_subject"
+"https://search.keinet.ne.jp/2195/general/exam_subject",
+"https://www.thcu.ac.jp/nyushi/exam/schedule.html",
+"https://www.thcu.ac.jp/nyushi/exam/detail-ippan.html",
+"https://www.thcu.ac.jp/nyushi/exam/pdf/sougoukoubo_guide2027.pdf",
+"https://www.thcu.ac.jp/nyushi/exam/expenses.html",
+"https://www.thcu.ac.jp/nyushi/exam/scholarship/",
+"https://www.thcu.ac.jp/nyushi/event/opencampus.html",
+"https://passnavi.obunsha.co.jp/univ/2725/difficulty/"
 ],
 "schedule": {
 "year": "2027年度入試",
 "rows": [
 {
-"kubun": "一般",
-"name": "一般選抜 A日程",
-"apply": "",
-"exam": "1/22",
-"result": "",
-"proc": "",
+"kubun": "総合型",
+"name": "総合型選抜（9月・医療保健学科）",
+"apply": "9/1〜9/11",
+"exam": "9/19",
+"result": "11/1",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（10月・看護系各学部）",
+"apply": "9/7〜9/28（和歌山は9/25まで）",
+"exam": "10/11（和歌山は10/3）",
+"result": "11/1",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（11月・医療保健学科）",
+"apply": "10/22〜11/12",
+"exam": "11/21",
+"result": "12/1",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（12月・医療保健学科）",
+"apply": "11/24〜12/11",
+"exam": "12/19",
+"result": "12/25",
+"proc": null,
 "fee": null
 },
 {
 "kubun": "一般",
-"name": "一般選抜 B日程",
-"apply": "",
-"exam": "1/23",
-"result": "",
-"proc": "",
-"fee": null,
-"note": "和歌山看護学部はB日程なし"
+"name": "一般選抜 A日程（特待生選抜）",
+"apply": "12/11〜1/12",
+"exam": "1/22",
+"result": "2/4",
+"proc": null,
+"fee": null
 },
 {
 "kubun": "一般",
-"name": "一般選抜 C日程",
-"apply": "",
+"name": "一般選抜 B日程（特待生選抜）",
+"apply": "12/11〜1/12",
+"exam": "1/23",
+"result": "2/4",
+"proc": null,
+"fee": null
+},
+{
+"kubun": "一般",
+"name": "一般選抜 C日程（特待生選抜）",
+"apply": "12/11〜1/26",
 "exam": "2/7",
-"result": "",
-"proc": "",
+"result": "2/16",
+"proc": null,
 "fee": null
 },
 {
 "kubun": "一般",
 "name": "一般選抜 特別日程",
-"apply": "",
+"apply": "2/6〜2/19",
 "exam": "2/27",
-"result": "",
-"proc": "",
-"fee": null
-},
-{
-"kubun": "共テ利用",
-"name": "共通テスト利用選抜",
-"apply": "",
-"exam": "1/16・1/17（共テ）",
-"result": "",
-"proc": "",
+"result": "3/11",
+"proc": null,
 "fee": null
 }
 ],
@@ -271788,7 +271825,122 @@ null
 "hensachi": "35.0〜45.0",
 "kyotei": "42%〜59%",
 "year": "2027年度入試用"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "総合型",
+"name": "総合型選抜（9月・10月・11月・12月）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.thcu.ac.jp/nyushi/exam/schedule.html"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（A日程・B日程・C日程・特別日程）",
+"kyotsu": "課さない",
+"niji": "例（医療保健学部看護学科A日程）：英語必須、数学ⅠA・生物・化学等から選択",
+"content": null,
+"req": "A・B・C日程はスカラシップ制度特待生選抜を兼ねる",
+"url": "https://www.thcu.ac.jp/nyushi/exam/detail-ippan.html"
 }
+]
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-04-29",
+"type": "来場",
+"title": "世田谷ミニオープンキャンパス"
+},
+{
+"date": "2026-05-31",
+"type": "来場",
+"title": "オープンキャンパス（世田谷）"
+},
+{
+"date": "2026-07-19",
+"type": "来場",
+"title": "夏のオープンキャンパス（世田谷）"
+},
+{
+"date": "2026-08-11",
+"type": "来場",
+"title": "学科体験・見学会（世田谷）"
+},
+{
+"date": "2026-09-23",
+"type": "来場",
+"title": "世田谷ミニオープンキャンパス"
+},
+{
+"date": "2026-11-03",
+"type": "来場",
+"title": "世田谷ミニオープンキャンパス"
+}
+],
+"url": "https://www.thcu.ac.jp/nyushi/event/opencampus.html"
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "医療保健学部 医療保健学科 管理栄養学専攻",
+"admission": 300000,
+"tuition": 800000,
+"facility": 450000,
+"practical": null,
+"other": 68010,
+"first_year": 1618010,
+"four_year": null
+},
+{
+"f": "医療保健学部 医療保健学科 臨床検査学・医療情報学・臨床工学専攻",
+"admission": 300000,
+"tuition": 800000,
+"facility": 450000,
+"practical": null,
+"other": 53610,
+"first_year": 1603610,
+"four_year": null
+},
+{
+"f": "医療保健学部・東が丘看護学部・立川看護学部 看護学科",
+"admission": 300000,
+"tuition": 1100000,
+"facility": 450000,
+"practical": null,
+"other": 154100,
+"first_year": 2004100,
+"four_year": null
+},
+{
+"f": "千葉看護学部 看護学科",
+"admission": 300000,
+"tuition": 1100000,
+"facility": 450000,
+"practical": null,
+"other": 155200,
+"first_year": 2005200,
+"four_year": null
+},
+{
+"f": "和歌山看護学部 看護学科",
+"admission": 300000,
+"tuition": 1100000,
+"facility": 450000,
+"practical": null,
+"other": 153100,
+"first_year": 2003100,
+"four_year": null
+}
+]
+},
+"_via": "external-ai"
 },
 "東京医療学院大学": {
 "faculties": [
@@ -271803,7 +271955,11 @@ null
 "careers": "2026-11-09",
 "schedule": "2026-11-13",
 "kyotsu": "2026-11-25",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"methods": "2026-11-26",
+"oc": "2026-11-26",
+"money": "2026-11-26",
+"_via": "2026-11-26"
 },
 "departments": [
 {
@@ -271837,7 +271993,11 @@ null
 "https://passnavi.obunsha.co.jp/univ/2723/schedule/",
 "https://search.keinet.ne.jp/2327/general/schedule",
 "https://search.keinet.ne.jp/general/border_rate_sp/2327",
-"https://search.keinet.ne.jp/2327/general/exam_subject"
+"https://search.keinet.ne.jp/2327/general/exam_subject",
+"https://www.u-ths.ac.jp/files/admissions/2027/2027_internetGuide.pdf",
+"https://www.u-ths.ac.jp/life/fadmission",
+"https://www.u-ths.ac.jp/category/news2/news2-opencampus",
+"https://passnavi.obunsha.co.jp/univ/2723/difficulty/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -271886,7 +272046,67 @@ null
 "hensachi": "BF〜37.5",
 "kyotei": "35%〜49%",
 "year": "2027年度入試用"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用入試",
+"kyotsu": null,
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.u-ths.ac.jp/files/admissions/2027/2027_internetGuide.pdf"
+},
+{
+"kubun": "一般",
+"name": "一般選抜入試（1期・2期）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.u-ths.ac.jp/files/admissions/2027/2027_internetGuide.pdf"
 }
+]
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-08-23",
+"type": "来場",
+"title": "オープンキャンパス"
+}
+],
+"url": "https://www.u-ths.ac.jp/category/news2/news2-opencampus"
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "保健医療学部 リハビリテーション学科",
+"admission": 200000,
+"tuition": 1100000,
+"facility": 320000,
+"practical": 250000,
+"other": null,
+"first_year": 1870000,
+"four_year": 6880000
+},
+{
+"f": "保健医療学部 看護学科",
+"admission": 200000,
+"tuition": 1160000,
+"facility": 320000,
+"practical": 250000,
+"other": null,
+"first_year": 1930000,
+"four_year": 7120000
+}
+]
+},
+"_via": "external-ai"
 },
 "東京医科大学": {
 "faculties": [
@@ -271902,7 +272122,11 @@ null
 "careers": "2026-11-09",
 "schedule": "2026-11-13",
 "kyotsu": "2026-11-25",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"scholar": "2026-11-26",
+"oc": "2026-11-26",
+"money": "2026-11-26",
+"_via": "2026-11-26"
 },
 "departments": [
 {
@@ -271938,7 +272162,14 @@ null
 "https://search.keinet.ne.jp/2246/general/schedule",
 "https://www.u-presscenter.jp/wp-content/uploads/2026/08/20260803pressrelease.pdf",
 "https://search.keinet.ne.jp/2246/general/exam_subject",
-"https://search.keinet.ne.jp/2246/general/border_rate"
+"https://search.keinet.ne.jp/2246/general/border_rate",
+"https://admissions-tokyo-med.jp/med/exam/",
+"https://admissions-tokyo-med.jp/nursing/exam/",
+"https://www.tokyo-med.ac.jp/med/payment.html",
+"https://www.tokyo-med.ac.jp/nursing/payment.html",
+"https://www.tokyo-med.ac.jp/med/scholarship/",
+"https://www.tokyo-med.ac.jp/news/2026/0730_095000004006.html",
+"https://passnavi.obunsha.co.jp/univ/2720/difficulty/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -271999,7 +272230,76 @@ null
 "hensachi": "47.5〜67.5",
 "kyotei": "69%〜85%",
 "year": "2027年度入試用"
+},
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "東京医科大学 医学部奨学金",
+"kind": "貸与",
+"target": "医学部",
+"amount": "学資の一部を貸与",
+"timing": "在学中",
+"cond": "経済的理由により学費支弁に支障がある者"
+},
+{
+"name": "東京医科大学後援会学資金",
+"kind": "貸与",
+"target": "医学部 医学科",
+"amount": "授業料相当額の4分の1を限度に貸与",
+"timing": "在学中",
+"cond": "学資負担者の死亡または傷病等"
+},
+{
+"name": "丸茂記念育英資金",
+"kind": "給付",
+"target": "医学部 医学科",
+"amount": "学費補助を給付",
+"timing": "在学中",
+"cond": "学資負担者の死亡または傷病等"
+},
+{
+"name": "看護学科 授業料免除制度",
+"kind": "減免",
+"target": "医学部 看護学科",
+"amount": "1〜5位は初年度授業料全額（1,050,000円）、6〜20位は半額（525,000円）免除",
+"timing": "入試時",
+"cond": "一般入学試験の成績上位者"
 }
+]
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-08-08",
+"type": "来場",
+"title": "医学科オープンキャンパス"
+},
+{
+"date": "2026-08-09",
+"type": "来場",
+"title": "医学科オープンキャンパス"
+}
+],
+"url": "https://www.tokyo-med.ac.jp/news/2026/0730_095000004006.html"
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "医学部 医学科",
+"admission": 1000000,
+"tuition": 2900000,
+"facility": 900000,
+"practical": null,
+"other": 96800,
+"first_year": 4800000,
+"four_year": null
+}
+]
+},
+"_via": "external-ai"
 },
 "東京基督教大学": {
 "faculties": [
@@ -272012,7 +272312,11 @@ null
 "founded": "2026-11-09",
 "access": "2026-11-09",
 "careers": "2026-11-09",
-"schedule": "2026-11-13"
+"schedule": "2026-11-26",
+"methods": "2026-11-26",
+"oc": "2026-11-26",
+"money": "2026-11-26",
+"_via": "2026-11-26"
 },
 "departments": [
 {
@@ -272035,18 +272339,33 @@ null
 "https://search.keinet.ne.jp/2183/outline/campus",
 "https://search.keinet.ne.jp/2183/outline/admission_employment",
 "https://search.keinet.ne.jp/2183/general/exam_result",
-"https://manabi.benesse.ne.jp/daigaku/school/3205/nyushi/index.html"
+"https://manabi.benesse.ne.jp/daigaku/school/3205/nyushi/index.html",
+"https://www.tci.ac.jp/future_student/exam/entrance/examippan.html",
+"https://www.tci.ac.jp/future_student/exam/entrance/ippan.html",
+"https://www.tci.ac.jp/future_student/exam/entrance/suisen.html",
+"https://www.tci.ac.jp/future_student/tuition.html",
+"https://www.tci.ac.jp/future_student/scholarship.html",
+"https://www.tci.ac.jp/future_student/opencampus/"
 ],
 "schedule": {
 "year": "2027年度入試",
 "rows": [
+{
+"kubun": "総合型",
+"name": "総合型選抜",
+"apply": "12/1〜12/10",
+"exam": "1/9",
+"result": "1/15",
+"proc": "1/28必着",
+"fee": null
+},
 {
 "kubun": "一般",
 "name": "一般選抜 第Ⅰ期",
 "apply": "1/5〜1/14",
 "exam": "2/6",
 "result": "2/12",
-"proc": "2/25",
+"proc": "2/25必着",
 "fee": null
 },
 {
@@ -272055,12 +272374,116 @@ null
 "apply": "2/1〜2/16",
 "exam": "3/6",
 "result": "3/10",
-"proc": "3/18",
+"proc": "3/18必着",
 "fee": null
 }
 ],
 "note": "神学部（神学科・国際教養学科）共通。ネット出願。ベネッセ マナビジョン（2027年度、2026年11月確認）。共通テスト利用選抜と検定料は出典に記載なし"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "総合型",
+"name": "総合型選抜",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.tci.ac.jp/future_student/exam/entrance/ippan.html"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜（公募制・指定校制）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.tci.ac.jp/future_student/exam/entrance/suisen.html"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（第Ⅰ期・第Ⅱ期）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.tci.ac.jp/future_student/exam/entrance/examippan.html"
 }
+]
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-04-24",
+"type": "来場",
+"title": "【一泊型】オープンキャンパス（4/24〜25）"
+},
+{
+"date": "2026-06-06",
+"type": "来場",
+"title": "【来場型】オープンキャンパス"
+},
+{
+"date": "2026-06-12",
+"type": "オンライン",
+"title": "教会教職オープンキャンパス"
+},
+{
+"date": "2026-07-25",
+"type": "来場",
+"title": "【来場型】オープンキャンパス"
+},
+{
+"date": "2026-08-22",
+"type": "来場",
+"title": "【来場型】オープンキャンパス"
+},
+{
+"date": "2026-09-18",
+"type": "来場",
+"title": "【一泊型】オープンキャンパス（9/18〜19）"
+},
+{
+"date": "2026-10-03",
+"type": "オンライン",
+"title": "English Track Open Campus"
+},
+{
+"date": "2026-10-12",
+"type": "来場",
+"title": "【シオン祭】オープンキャンパス"
+},
+{
+"date": "2026-10-30",
+"type": "オンライン",
+"title": "教会教職オープンキャンパス"
+},
+{
+"date": "2026-11-28",
+"type": "来場",
+"title": "【来場型】オープンキャンパス"
+}
+],
+"url": "https://www.tci.ac.jp/future_student/opencampus/"
+},
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "全学部",
+"admission": 140000,
+"tuition": 705000,
+"facility": 350000,
+"practical": 0,
+"other": null,
+"first_year": 1195000,
+"four_year": null
+}
+]
+},
+"_via": "external-ai"
 },
 "東京国際大学": {
 "faculties": [
@@ -272081,7 +272504,11 @@ null
 "careers": "2026-11-09",
 "schedule": "2026-11-13",
 "kyotsu": "2026-11-25",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"methods": "2026-11-26",
+"oc": "2026-11-26",
+"money": "2026-11-26",
+"_via": "2026-11-26"
 },
 "departments": [
 {
@@ -272150,7 +272577,13 @@ null
 "https://search.keinet.ne.jp/2148/general/exam_result",
 "https://search.keinet.ne.jp/2148/general/exam_subject",
 "https://manabi.benesse.ne.jp/daigaku/school/3153/nyushi/",
-"https://search.keinet.ne.jp/2148/general/border_rate"
+"https://search.keinet.ne.jp/2148/general/border_rate",
+"https://www.tiu.ac.jp/jukensei/ebook/2027_youkou_gakubu/",
+"https://www.tiu.ac.jp/jukensei/entrance/general/",
+"https://www.tiu.ac.jp/entrance_examination/expenses/expenses_01.html",
+"https://www.tiu.ac.jp/jukensei/ebook/tiuguide_2027/pageindices/index84.html",
+"https://www.tiu.ac.jp/lp/tiu_oc/",
+"https://passnavi.obunsha.co.jp/univ/2030/difficulty/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -272229,7 +272662,60 @@ null
 "hensachi": "35.0〜40.0",
 "kyotei": "37%〜56%",
 "year": "2027年度入試用"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "全学部統一入試（Ⅰ期・Ⅱ期・Ⅲ期）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.tiu.ac.jp/jukensei/entrance/general/"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用入試",
+"kyotsu": null,
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.tiu.ac.jp/jukensei/ebook/2027_youkou_gakubu/"
+},
+{
+"kubun": "共テ利用",
+"name": "特待生入試（大学入学共通テスト利用）",
+"kyotsu": null,
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.tiu.ac.jp/jukensei/ebook/2027_youkou_gakubu/"
 }
+]
+},
+"oc": {
+"year": 2026,
+"events": [],
+"url": "https://www.tiu.ac.jp/lp/tiu_oc/"
+},
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "経済学部・国際関係学部",
+"admission": 250000,
+"tuition": 850000,
+"facility": 320000,
+"practical": null,
+"other": null,
+"first_year": 1420000,
+"four_year": null
+}
+]
+},
+"_via": "external-ai"
 },
 "東京女子体育大学": {
 "faculties": [
@@ -272244,7 +272730,11 @@ null
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
 "schedule": "2026-11-13",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"methods": "2026-11-25",
+"oc": "2026-11-25",
+"money": "2026-11-25",
+"_via": "2026-11-25"
 },
 "departments": [
 {
@@ -272275,7 +272765,14 @@ null
 "https://search.keinet.ne.jp/2256/general/exam_result",
 "https://search.keinet.ne.jp/2256/general/exam_subject",
 "https://manabi.benesse.ne.jp/daigaku/school/3288/nyushi/taiiku/index.html",
-"https://search.keinet.ne.jp/2256/general/border_rate"
+"https://search.keinet.ne.jp/2256/general/border_rate",
+"https://www.twcpe.ac.jp/",
+"https://www.twcpe.ac.jp/admission/schedule.html",
+"https://www.twcpe.ac.jp/campuslife/school_fees.html",
+"https://www.twcpe.ac.jp/examinee/pdf/r9_school_fees.pdf",
+"https://www.twcpe.ac.jp/navi/opencampus.html",
+"https://www.twcpe.ac.jp/news/college/202607161621518676.html",
+"https://passnavi.obunsha.co.jp/univ/2820/difficulty/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -272349,7 +272846,57 @@ null
 "difficulty": {
 "hensachi": "35.0",
 "year": "2027年度入試用"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "総合型",
+"name": "総合型選抜（一般・スポーツ・アスリート・探究ほか）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.twcpe.ac.jp/admission/schedule.html"
+},
+{
+"kubun": "一般",
+"name": "一般選抜（A方式2科目ほか）",
+"kyotsu": "課さない",
+"niji": "2科目ほか",
+"content": null,
+"req": null,
+"url": "https://www.twcpe.ac.jp/admission/schedule.html"
 }
+]
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-08-23",
+"type": "来場",
+"title": "オープンキャンパス"
+}
+],
+"url": "https://www.twcpe.ac.jp/navi/opencampus.html"
+},
+"money": {
+"year": "2027年度",
+"rows": [
+{
+"f": "体育学部 体育学科",
+"admission": 300000,
+"tuition": 760000,
+"facility": 330000,
+"practical": 60000,
+"other": 19000,
+"first_year": 1469000,
+"four_year": 4958000
+}
+]
+},
+"_via": "external-ai"
 },
 "東京女子医科大学": {
 "faculties": [
@@ -272365,7 +272912,9 @@ null
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
 "schedule": "2026-11-13",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"kyotsu": "2026-11-25",
+"_via": "2026-11-25"
 },
 "departments": [
 {
@@ -272404,7 +272953,12 @@ null
 "https://search.keinet.ne.jp/2255/recommend/exam_rec",
 "https://manabi.benesse.ne.jp/daigaku/school/3287/nyushi/gokaku-happyo/",
 "https://search.keinet.ne.jp/2255/general/border_rate",
-"https://search.keinet.ne.jp/2255/general/exam_subject"
+"https://search.keinet.ne.jp/2255/general/exam_subject",
+"https://www.twmu.ac.jp/univ/",
+"https://www.twmu.ac.jp/univ/medical/",
+"https://www.twmu-u.jp/wp-content/uploads/2026/08/30cfa9d6198a1f4ca4a002eee2df2651.pdf",
+"https://www.twmu.ac.jp/univ/news/detail.php?kbn=1&ym=202606&cd=1754",
+"https://passnavi.obunsha.co.jp/univ/2810/difficulty/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -272487,7 +273041,13 @@ null
 "difficulty": {
 "hensachi": "40.0〜60.0",
 "year": "2027年度入試用"
-}
+},
+"kyotsu": {
+"kamoku": null,
+"kyoka": [],
+"note": "共通テスト利用入試は実施なし"
+},
+"_via": "external-ai"
 },
 "東京家政大学": {
 "faculties": [
@@ -272510,7 +273070,10 @@ null
 "careers": "2026-11-09",
 "schedule": "2026-11-13",
 "kyotsu": "2026-11-25",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"methods": "2026-11-25",
+"oc": "2026-11-25",
+"_via": "2026-11-25"
 },
 "departments": [
 {
@@ -272604,7 +273167,14 @@ null
 "https://search.keinet.ne.jp/2248/general/exam_result",
 "https://manabi.benesse.ne.jp/daigaku/school/3281/nyushi/gokaku-happyo/",
 "https://search.keinet.ne.jp/2248/general/exam_subject",
-"https://search.keinet.ne.jp/2248/general/border_rate"
+"https://search.keinet.ne.jp/2248/general/border_rate",
+"https://www.tokyo-kasei.ac.jp/",
+"https://www.tokyo-kasei.ac.jp/admission/2027kasei_schedule-teiin.pdf",
+"https://www.tokyo-kasei.ac.jp/admission/2026nounyu.pdf",
+"https://www.tokyo-kasei.ac.jp/campus_support/scholarship/scholarship.html",
+"https://www.tokyo-kasei.ac.jp/admission/open_campus/",
+"https://passnavi.obunsha.co.jp/univ/2740/difficulty/",
+"https://passnavi.obunsha.co.jp/univ/2740/schedule/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -272737,7 +273307,42 @@ null
 "hensachi": "35.0〜50.0",
 "kyotei": "47%〜75%",
 "year": "2027年度入試用"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜（統一地区入試・1期ほか）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.tokyo-kasei.ac.jp/admission/2027kasei_schedule-teiin.pdf"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用入試（A日程・B日程多面評価・C日程）",
+"kyotsu": null,
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.tokyo-kasei.ac.jp/admission/2027kasei_schedule-teiin.pdf"
 }
+]
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-12-20",
+"type": "来場",
+"title": "オープンキャンパス（板橋・狭山キャンパス）"
+}
+],
+"url": "https://www.tokyo-kasei.ac.jp/admission/open_campus/"
+},
+"_via": "external-ai"
 },
 "東京家政学院大学": {
 "faculties": [
@@ -272754,7 +273359,12 @@ null
 "licenses": "2026-11-09",
 "careers": "2026-11-09",
 "schedule": "2026-11-13",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"kyotsu": "2026-11-25",
+"methods": "2026-11-25",
+"scholar": "2026-11-25",
+"oc": "2026-11-25",
+"_via": "2026-11-25"
 },
 "departments": [
 {
@@ -272810,7 +273420,14 @@ null
 "https://search.keinet.ne.jp/2249/general/exam_result",
 "https://manabi.benesse.ne.jp/daigaku/school/3282/nyushi/gokaku-happyo/index.html",
 "https://search.keinet.ne.jp/2249/general/border_rate",
-"https://search.keinet.ne.jp/2249/general/exam_subject"
+"https://search.keinet.ne.jp/2249/general/exam_subject",
+"https://www.kasei-gakuin.ac.jp/",
+"https://www.kasei-gakuin.ac.jp/admissions01/",
+"https://www.kasei-gakuin.ac.jp/tkgu_cms/wp-content/uploads/2026/07/0a7e1206e0ad553dd9774155704cada3.pdf",
+"https://www.kasei-gakuin.ac.jp/disclosure/educationkasei1_7/",
+"https://www.kasei-gakuin.ac.jp/news/20261001-45940/",
+"https://passnavi.obunsha.co.jp/univ/2750/difficulty/",
+"https://passnavi.obunsha.co.jp/univ/2750/schedule/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -272902,7 +273519,54 @@ null
 "difficulty": {
 "hensachi": "35.0〜37.5",
 "year": "2027年度入試用"
+},
+"kyotsu": {
+"kamoku": null,
+"kyoka": [],
+"note": "共通テスト利用選抜は廃止"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜（1科目受験型・2科目受験型）",
+"kyotsu": "課さない",
+"niji": "1科目または2科目",
+"content": null,
+"req": null,
+"url": "https://www.kasei-gakuin.ac.jp/admissions01/"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（探Q入試ほか）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": "探Q入試は対象オープンキャンパス参加が必要",
+"url": "https://www.kasei-gakuin.ac.jp/tkgu_cms/wp-content/uploads/2026/07/0a7e1206e0ad553dd9774155704cada3.pdf"
 }
+]
+},
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "東京家政学院大学修学支援制度",
+"kind": "給付",
+"target": "全学部",
+"amount": "国の高等教育の修学支援新制度と同等の入学金・授業料減免および給付型奨学金",
+"timing": "入学後",
+"cond": "国の修学支援新制度と同等の基準"
+}
+]
+},
+"oc": {
+"year": 2026,
+"events": [],
+"url": "https://www.kasei-gakuin.ac.jp/admissions01/"
+},
+"_via": "external-ai"
 },
 "東京富士大学": {
 "faculties": [
@@ -272917,7 +273581,13 @@ null
 "careers": "2026-11-09",
 "kyotsu": "2026-11-09",
 "schedule": "2026-11-14",
-"difficulty": "2026-11-25"
+"difficulty": "2026-11-25",
+"methods": "2026-11-25",
+"subjects": "2026-11-25",
+"scholar": "2026-11-25",
+"oc": "2026-11-25",
+"money": "2026-11-25",
+"_via": "2026-11-25"
 },
 "departments": [
 {
@@ -272948,7 +273618,17 @@ null
 "https://search.keinet.ne.jp/2198/general/exam_result",
 "https://search.keinet.ne.jp/2198/general/exam_subject",
 "https://manabi.benesse.ne.jp/daigaku/school/3330/nyushi/index.html",
-"https://search.keinet.ne.jp/general/border_rate/2198"
+"https://search.keinet.ne.jp/general/border_rate/2198",
+"https://www.fuji.ac.jp/",
+"https://www.fuji.ac.jp/msup/wp-content/uploads/2026/06/2027gakuseiboshu_yoko.pdf",
+"https://www.fuji.ac.jp/exam/public/",
+"https://www.fuji.ac.jp/exam/dnc/",
+"https://www.fuji.ac.jp/news/20261201/",
+"https://www.fuji.ac.jp/exam/expenses/",
+"https://www.fuji.ac.jp/exam/welfare/",
+"https://www.fuji.ac.jp/news/20261104/",
+"https://passnavi.obunsha.co.jp/univ/2865/difficulty/",
+"https://manabi.benesse.ne.jp/daigaku/school/3330/gakuhi/"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -273015,7 +273695,120 @@ null
 "hensachi": "35.0〜40.0",
 "kyotei": "58%〜61%",
 "year": "2027年度入試用"
+},
+"methods": {
+"year": "2027年度入試",
+"list": [
+{
+"kubun": "一般",
+"name": "一般選抜（A方式2科目判定・B方式1科目判定・C方式英語・面接）",
+"kyotsu": "課さない",
+"niji": "英語・国語（C方式は英語・面接）",
+"content": null,
+"req": null,
+"url": "https://www.fuji.ac.jp/exam/public/"
+},
+{
+"kubun": "共テ利用",
+"name": "大学入学共通テスト利用選抜（Ⅰ期・Ⅱ期）",
+"kyotsu": null,
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.fuji.ac.jp/exam/dnc/"
+},
+{
+"kubun": "総合型",
+"name": "総合型選抜（C日程ほか）",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": "専願・併願あり",
+"url": "https://www.fuji.ac.jp/news/20261201/"
+},
+{
+"kubun": "推薦",
+"name": "学校推薦型選抜",
+"kyotsu": "課さない",
+"niji": null,
+"content": null,
+"req": null,
+"url": "https://www.fuji.ac.jp/msup/wp-content/uploads/2026/06/2027gakuseiboshu_yoko.pdf"
 }
+]
+},
+"subjects": {
+"year": "2027年度入試",
+"rows": [
+{
+"f": "経営学部 経営学科・イベントプロデュース学科",
+"kubun": "一般",
+"name": "一般選抜 A方式（2科目判定）",
+"n": 2,
+"subj": "英語・国語",
+"kt": "",
+"eng": null
+},
+{
+"f": "経営学部 経営学科・イベントプロデュース学科",
+"kubun": "一般",
+"name": "一般選抜 B方式（1科目判定）",
+"n": 1,
+"subj": "英語・国語から1科目",
+"kt": "",
+"eng": null
+},
+{
+"f": "経営学部 経営学科・イベントプロデュース学科",
+"kubun": "一般",
+"name": "一般選抜 C方式（Ⅰ期のみ）",
+"n": 1,
+"subj": "英語・面接（英語および日本語）",
+"kt": "",
+"eng": null
+}
+]
+},
+"scholar": {
+"year": "2027年度",
+"rows": [
+{
+"name": "特待生制度（A特待ほか）",
+"kind": "減免",
+"target": "全学部",
+"amount": "A特待は入学金以外の学納金全額免除（4年間計424万円）",
+"timing": "入試時",
+"cond": "4年間継続（返還不要）"
+}
+]
+},
+"oc": {
+"year": 2026,
+"events": [
+{
+"date": "2026-11-28",
+"type": "来場",
+"title": "2026年ミニオープンキャンパス"
+}
+],
+"url": "https://www.fuji.ac.jp/news/20261104/"
+},
+"money": {
+"year": "2026年度",
+"rows": [
+{
+"f": "全学部（経営学部）",
+"admission": 200000,
+"tuition": 700000,
+"facility": 360000,
+"practical": 0,
+"other": 5000,
+"first_year": 1265000,
+"four_year": null
+}
+]
+},
+"_via": "external-ai"
 },
 "東京工科大学": {
 "faculties": [

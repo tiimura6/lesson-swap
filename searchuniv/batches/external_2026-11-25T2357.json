@@ -1,0 +1,704 @@
+[
+ {
+  "name": "東京富士大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都新宿区",
+  "pref_name": "東京都",
+  "city": "新宿区",
+  "hp": "https://www.fuji.ac.jp/",
+  "reading": "とうきょうふじだいがく",
+  "features": [
+   "高田馬場駅から徒歩圏内の都市型キャンパスで経営とイベントを学べる。",
+   "一般選抜は1科目判定や英語・面接方式など得意分野を活かせる方式がある。",
+   "A特待は入学金以外の学納金が4年間全額免除されるなど奨学金が手厚い。"
+  ],
+  "memo": "一般選抜・共テ利用ともにⅠ期・Ⅱ期を実施。特待生制度の条件は早めに要確認。",
+  "info": {
+   "faculties": [
+    "経営学部"
+   ],
+   "departments": [
+    {
+     "f": "経営学部",
+     "d": [
+      "経営学科",
+      "イベントプロデュース学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜40.0",
+    "kyotei": "58%〜61%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": [],
+    "note": "共通テスト利用選抜（Ⅰ期・Ⅱ期）を実施"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A方式2科目判定・B方式1科目判定・C方式英語・面接）",
+      "kyotsu": "課さない",
+      "niji": "英語・国語（C方式は英語・面接）",
+      "content": null,
+      "req": null,
+      "url": "https://www.fuji.ac.jp/exam/public/"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜（Ⅰ期・Ⅱ期）",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.fuji.ac.jp/exam/dnc/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（C日程ほか）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "専願・併願あり",
+      "url": "https://www.fuji.ac.jp/news/20261201/"
+     },
+     {
+      "kubun": "推薦",
+      "name": "学校推薦型選抜",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.fuji.ac.jp/msup/wp-content/uploads/2026/06/2027gakuseiboshu_yoko.pdf"
+     }
+    ]
+   },
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "経営学部 経営学科・イベントプロデュース学科",
+      "kubun": "一般",
+      "name": "一般選抜 A方式（2科目判定）",
+      "n": 2,
+      "subj": "英語・国語",
+      "kt": "",
+      "eng": null
+     },
+     {
+      "f": "経営学部 経営学科・イベントプロデュース学科",
+      "kubun": "一般",
+      "name": "一般選抜 B方式（1科目判定）",
+      "n": 1,
+      "subj": "英語・国語から1科目",
+      "kt": "",
+      "eng": null
+     },
+     {
+      "f": "経営学部 経営学科・イベントプロデュース学科",
+      "kubun": "一般",
+      "name": "一般選抜 C方式（Ⅰ期のみ）",
+      "n": 1,
+      "subj": "英語・面接（英語および日本語）",
+      "kt": "",
+      "eng": null
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅰ期",
+      "apply": null,
+      "exam": null,
+      "result": "2/10",
+      "proc": "2/16",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅱ期",
+      "apply": "2/26〜3/12",
+      "exam": "3/16",
+      "result": "3/17",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 Ⅰ期",
+      "apply": "12/22〜1/28",
+      "exam": null,
+      "result": "2/10",
+      "proc": "2/16",
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用選抜 Ⅱ期",
+      "apply": "2/3〜3/8",
+      "exam": null,
+      "result": "3/11",
+      "proc": "3/15",
+      "fee": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "特待生制度（A特待ほか）",
+      "kind": "減免",
+      "target": "全学部",
+      "amount": "A特待は入学金以外の学納金全額免除（4年間計424万円）",
+      "timing": "入試時",
+      "cond": "4年間継続（返還不要）"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-11-28",
+      "type": "来場",
+      "title": "2026年ミニオープンキャンパス"
+     }
+    ],
+    "url": "https://www.fuji.ac.jp/news/20261104/"
+   },
+   "money_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "f": "全学部（経営学部）",
+      "admission": 200000,
+      "tuition": 700000,
+      "facility": 360000,
+      "practical": 0,
+      "other": 5000,
+      "first_year": 1265000,
+      "four_year": null
+     }
+    ]
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.fuji.ac.jp/",
+    "https://www.fuji.ac.jp/msup/wp-content/uploads/2026/06/2027gakuseiboshu_yoko.pdf",
+    "https://www.fuji.ac.jp/exam/public/",
+    "https://www.fuji.ac.jp/exam/dnc/",
+    "https://www.fuji.ac.jp/news/20261201/",
+    "https://www.fuji.ac.jp/exam/expenses/",
+    "https://www.fuji.ac.jp/exam/welfare/",
+    "https://www.fuji.ac.jp/news/20261104/",
+    "https://passnavi.obunsha.co.jp/univ/2865/difficulty/",
+    "https://manabi.benesse.ne.jp/daigaku/school/3330/gakuhi/"
+   ]
+  },
+  "sources": [
+   "https://www.fuji.ac.jp/",
+   "https://www.fuji.ac.jp/msup/wp-content/uploads/2026/06/2027gakuseiboshu_yoko.pdf",
+   "https://www.fuji.ac.jp/exam/public/",
+   "https://www.fuji.ac.jp/exam/dnc/",
+   "https://www.fuji.ac.jp/news/20261201/",
+   "https://www.fuji.ac.jp/exam/expenses/",
+   "https://www.fuji.ac.jp/exam/welfare/",
+   "https://www.fuji.ac.jp/news/20261104/",
+   "https://passnavi.obunsha.co.jp/univ/2865/difficulty/",
+   "https://manabi.benesse.ne.jp/daigaku/school/3330/gakuhi/"
+  ]
+ },
+ {
+  "name": "東京家政学院大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都町田市",
+  "pref_name": "東京都",
+  "city": "町田市",
+  "hp": "https://www.kasei-gakuin.ac.jp/",
+  "reading": "とうきょうかせいがくいんだいがく",
+  "features": [
+   "現代生活・人間栄養・生活共創の3学部で生活と食・教育を実践的に学べる。",
+   "一般選抜は1科目受験型と2科目受験型があり、得意科目で挑戦できる。",
+   "2027年度より大学独自の東京家政学院大学修学支援制度を創設した。"
+  ],
+  "memo": "2027年度より共通テスト利用選抜を廃止。国の修学支援新制度対象外となるが独自支援制度を創設。",
+  "info": {
+   "faculties": [
+    "現代生活学部",
+    "人間栄養学部",
+    "生活共創学部"
+   ],
+   "departments": [
+    {
+     "f": "現代生活学部",
+     "d": [
+      "現代家政学科"
+     ]
+    },
+    {
+     "f": "人間栄養学部",
+     "d": [
+      "人間栄養学科"
+     ]
+    },
+    {
+     "f": "生活共創学部",
+     "d": [
+      "生活共創学科（生活イノベーション・住環境デザイン・食科学）",
+      "こども教育学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "BF〜37.5",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": [],
+    "note": "共通テスト利用選抜は廃止"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（1科目受験型・2科目受験型）",
+      "kyotsu": "課さない",
+      "niji": "1科目または2科目",
+      "content": null,
+      "req": null,
+      "url": "https://www.kasei-gakuin.ac.jp/admissions01/"
+     },
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（探Q入試ほか）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": "探Q入試は対象オープンキャンパス参加が必要",
+      "url": "https://www.kasei-gakuin.ac.jp/tkgu_cms/wp-content/uploads/2026/07/0a7e1206e0ad553dd9774155704cada3.pdf"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅰ期",
+      "apply": "12/21〜1/14",
+      "exam": "1/23",
+      "result": "1/26",
+      "proc": "2/4",
+      "fee": null
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜 Ⅱ期",
+      "apply": "2/1〜2/19",
+      "exam": "3/1",
+      "result": null,
+      "proc": null,
+      "fee": null
+     }
+    ]
+   },
+   "scholar": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "name": "東京家政学院大学修学支援制度",
+      "kind": "給付",
+      "target": "全学部",
+      "amount": "国の高等教育の修学支援新制度と同等の入学金・授業料減免および給付型奨学金",
+      "timing": "入学後",
+      "cond": "国の修学支援新制度と同等の基準"
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [],
+    "url": "https://www.kasei-gakuin.ac.jp/admissions01/"
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.kasei-gakuin.ac.jp/",
+    "https://www.kasei-gakuin.ac.jp/admissions01/",
+    "https://www.kasei-gakuin.ac.jp/tkgu_cms/wp-content/uploads/2026/07/0a7e1206e0ad553dd9774155704cada3.pdf",
+    "https://www.kasei-gakuin.ac.jp/disclosure/educationkasei1_7/",
+    "https://www.kasei-gakuin.ac.jp/news/20261001-45940/",
+    "https://passnavi.obunsha.co.jp/univ/2750/difficulty/",
+    "https://passnavi.obunsha.co.jp/univ/2750/schedule/"
+   ]
+  },
+  "sources": [
+   "https://www.kasei-gakuin.ac.jp/",
+   "https://www.kasei-gakuin.ac.jp/admissions01/",
+   "https://www.kasei-gakuin.ac.jp/tkgu_cms/wp-content/uploads/2026/07/0a7e1206e0ad553dd9774155704cada3.pdf",
+   "https://www.kasei-gakuin.ac.jp/disclosure/educationkasei1_7/",
+   "https://www.kasei-gakuin.ac.jp/news/20261001-45940/",
+   "https://passnavi.obunsha.co.jp/univ/2750/difficulty/",
+   "https://passnavi.obunsha.co.jp/univ/2750/schedule/"
+  ]
+ },
+ {
+  "name": "東京家政大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都板橋区",
+  "pref_name": "東京都",
+  "city": "板橋区",
+  "hp": "https://www.tokyo-kasei.ac.jp/",
+  "reading": "とうきょうかせいだいがく",
+  "features": [
+   "栄養・児童・共創デザイン・人文・健康科学・子ども支援の6学部と2学環を擁する。",
+   "板橋キャンパスと狭山キャンパスの2拠点で専門資格取得に強い教育を展開。",
+   "心理カウンセリング学科や管理栄養学科など人気学科は共テ得点率も高め。"
+  ],
+  "memo": "学部・学科が多くキャンパスも2つあるため、志望学科の所在地と入試日程を要確認。",
+  "info": {
+   "faculties": [
+    "栄養学部",
+    "児童学部",
+    "共創デザイン学部",
+    "人文学部",
+    "健康科学部",
+    "子ども支援学部",
+    "社会デザイン学環",
+    "文化情報学環"
+   ],
+   "departments": [
+    {
+     "f": "栄養学部",
+     "d": [
+      "栄養学科",
+      "管理栄養学科"
+     ]
+    },
+    {
+     "f": "児童学部",
+     "d": [
+      "児童学科",
+      "初等教育学科"
+     ]
+    },
+    {
+     "f": "共創デザイン学部",
+     "d": [
+      "服飾美術学科",
+      "造形表現学科"
+     ]
+    },
+    {
+     "f": "人文学部",
+     "d": [
+      "英語コミュニケーション学科",
+      "心理カウンセリング学科",
+      "教育福祉学科"
+     ]
+    },
+    {
+     "f": "健康科学部",
+     "d": [
+      "看護学科",
+      "リハビリテーション学科（作業療法学・理学療法学）"
+     ]
+    },
+    {
+     "f": "子ども支援学部",
+     "d": [
+      "子ども支援学科"
+     ]
+    },
+    {
+     "f": "社会デザイン学環",
+     "d": [
+      "社会デザイン学環"
+     ]
+    },
+    {
+     "f": "文化情報学環",
+     "d": [
+      "文化情報学環"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0〜50.0",
+    "kyotei": "47%〜75%",
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": [],
+    "note": "共通テスト利用入試（A・C日程、B日程多面評価）を実施"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（統一地区入試・1期ほか）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.tokyo-kasei.ac.jp/admission/2027kasei_schedule-teiin.pdf"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試（A日程・B日程多面評価・C日程）",
+      "kyotsu": null,
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.tokyo-kasei.ac.jp/admission/2027kasei_schedule-teiin.pdf"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試（前期系）",
+      "apply": "12/21〜2/3",
+      "exam": null,
+      "result": "2/12",
+      "proc": null,
+      "fee": null
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入試（後期系）",
+      "apply": "12/21〜3/5",
+      "exam": null,
+      "result": null,
+      "proc": "3/19",
+      "fee": null
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-12-20",
+      "type": "来場",
+      "title": "オープンキャンパス（板橋・狭山キャンパス）"
+     }
+    ],
+    "url": "https://www.tokyo-kasei.ac.jp/admission/open_campus/"
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.tokyo-kasei.ac.jp/",
+    "https://www.tokyo-kasei.ac.jp/admission/2027kasei_schedule-teiin.pdf",
+    "https://www.tokyo-kasei.ac.jp/admission/2026nounyu.pdf",
+    "https://www.tokyo-kasei.ac.jp/campus_support/scholarship/scholarship.html",
+    "https://www.tokyo-kasei.ac.jp/admission/open_campus/",
+    "https://passnavi.obunsha.co.jp/univ/2740/difficulty/",
+    "https://passnavi.obunsha.co.jp/univ/2740/schedule/"
+   ]
+  },
+  "sources": [
+   "https://www.tokyo-kasei.ac.jp/",
+   "https://www.tokyo-kasei.ac.jp/admission/2027kasei_schedule-teiin.pdf",
+   "https://www.tokyo-kasei.ac.jp/admission/2026nounyu.pdf",
+   "https://www.tokyo-kasei.ac.jp/campus_support/scholarship/scholarship.html",
+   "https://www.tokyo-kasei.ac.jp/admission/open_campus/",
+   "https://passnavi.obunsha.co.jp/univ/2740/difficulty/",
+   "https://passnavi.obunsha.co.jp/univ/2740/schedule/"
+  ]
+ },
+ {
+  "name": "東京女子医科大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都新宿区",
+  "pref_name": "東京都",
+  "city": "新宿区",
+  "hp": "https://www.twmu.ac.jp/univ/",
+  "reading": "とうきょうじょしいかだいがく",
+  "features": [
+   "日本で唯一の女子医科大学で、医学部と看護学部の2学部を設置している。",
+   "2027年度より医学部・看護学部ともに学納金の減額改定を実施する。",
+   "2027年3月20日までの入学辞退申請で入学金の半額が返還される制度を導入。"
+  ],
+  "memo": "2027年度から学費減額・入学金半額返還制度あり。医学部は1次・2次試験の日程に注意。",
+  "info": {
+   "faculties": [
+    "医学部",
+    "看護学部"
+   ],
+   "departments": [
+    {
+     "f": "医学部",
+     "d": [
+      "医学科"
+     ]
+    },
+    {
+     "f": "看護学部",
+     "d": [
+      "看護学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "40.0〜60.0",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "kyotsu": {
+    "kamoku": null,
+    "kyoka": [],
+    "note": "共通テスト利用入試は実施なし"
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.twmu.ac.jp/univ/",
+    "https://www.twmu.ac.jp/univ/medical/",
+    "https://www.twmu-u.jp/wp-content/uploads/2026/08/30cfa9d6198a1f4ca4a002eee2df2651.pdf",
+    "https://www.twmu.ac.jp/univ/news/detail.php?kbn=1&ym=202606&cd=1754",
+    "https://passnavi.obunsha.co.jp/univ/2810/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.twmu.ac.jp/univ/",
+   "https://www.twmu.ac.jp/univ/medical/",
+   "https://www.twmu-u.jp/wp-content/uploads/2026/08/30cfa9d6198a1f4ca4a002eee2df2651.pdf",
+   "https://www.twmu.ac.jp/univ/news/detail.php?kbn=1&ym=202606&cd=1754",
+   "https://passnavi.obunsha.co.jp/univ/2810/difficulty/"
+  ]
+ },
+ {
+  "name": "東京女子体育大学",
+  "cat": "private",
+  "type": "私立",
+  "pref": "東京都国立市",
+  "pref_name": "東京都",
+  "city": "国立市",
+  "hp": "https://www.twcpe.ac.jp/",
+  "reading": "とうきょうじょしたいいくだいがく",
+  "features": [
+   "体育学部体育学科の単科大学で、女性スポーツと体育教育の専門家を育成。",
+   "総合型選抜は一般・スポーツ・アスリート・探究など多様な枠を用意している。",
+   "2027年度初年度納付金は約147万円、4年間合計は495.8万円と明確。"
+  ],
+  "memo": "総合型選抜の募集枠が大きい。実技・スポーツ実績を活かした受験計画を立てやすい。",
+  "info": {
+   "faculties": [
+    "体育学部"
+   ],
+   "departments": [
+    {
+     "f": "体育学部",
+     "d": [
+      "体育学科"
+     ]
+    }
+   ],
+   "difficulty": {
+    "hensachi": "35.0",
+    "kyotei": null,
+    "year": "2027年度入試用"
+   },
+   "methods": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "総合型",
+      "name": "総合型選抜（一般・スポーツ・アスリート・探究ほか）",
+      "kyotsu": "課さない",
+      "niji": null,
+      "content": null,
+      "req": null,
+      "url": "https://www.twcpe.ac.jp/admission/schedule.html"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（A方式2科目ほか）",
+      "kyotsu": "課さない",
+      "niji": "2科目ほか",
+      "content": null,
+      "req": null,
+      "url": "https://www.twcpe.ac.jp/admission/schedule.html"
+     }
+    ]
+   },
+   "schedule": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "3月期選抜",
+      "apply": "2/18〜3/1",
+      "exam": "3/9",
+      "result": "3/12",
+      "proc": "3/23",
+      "fee": null
+     }
+    ]
+   },
+   "oc": {
+    "year": 2026,
+    "events": [
+     {
+      "date": "2026-08-23",
+      "type": "来場",
+      "title": "オープンキャンパス"
+     }
+    ],
+    "url": "https://www.twcpe.ac.jp/navi/opencampus.html"
+   },
+   "money_replace": {
+    "year": "2027年度",
+    "rows": [
+     {
+      "f": "体育学部 体育学科",
+      "admission": 300000,
+      "tuition": 760000,
+      "facility": 330000,
+      "practical": 60000,
+      "other": 19000,
+      "first_year": 1469000,
+      "four_year": 4958000
+     }
+    ]
+   },
+   "_via": "external-ai",
+   "sources": [
+    "https://www.twcpe.ac.jp/",
+    "https://www.twcpe.ac.jp/admission/schedule.html",
+    "https://www.twcpe.ac.jp/campuslife/school_fees.html",
+    "https://www.twcpe.ac.jp/examinee/pdf/r9_school_fees.pdf",
+    "https://www.twcpe.ac.jp/navi/opencampus.html",
+    "https://www.twcpe.ac.jp/news/college/202607161621518676.html",
+    "https://passnavi.obunsha.co.jp/univ/2820/difficulty/"
+   ]
+  },
+  "sources": [
+   "https://www.twcpe.ac.jp/",
+   "https://www.twcpe.ac.jp/admission/schedule.html",
+   "https://www.twcpe.ac.jp/campuslife/school_fees.html",
+   "https://www.twcpe.ac.jp/examinee/pdf/r9_school_fees.pdf",
+   "https://www.twcpe.ac.jp/navi/opencampus.html",
+   "https://www.twcpe.ac.jp/news/college/202607161621518676.html",
+   "https://passnavi.obunsha.co.jp/univ/2820/difficulty/"
+  ]
+ }
+]
