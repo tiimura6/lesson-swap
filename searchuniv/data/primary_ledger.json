@@ -124,18 +124,25 @@
     "tuition": "https://www.rku.ac.jp/admissions/tuition/",
     "scholarship": "https://www.rku.ac.jp/support/life_support/scholarship/",
     "ao_news_2027": "https://www.rku.ac.jp/news/43379/",
-    "guide_list": "https://www.rku.ac.jp/with/admissions/guide_list/"
+    "guide_list": "https://www.rku.ac.jp/with/admissions/guide_list/",
+    "news_general_closed": "https://www.rku.ac.jp/news/44971/"
    },
-   "fails": 1,
-   "note": "2026-11-26：WebSearch で公式の募集要項PDF・一般選抜ページ・募集要項等一覧（/with/admissions/guide_list/）を確認したが、rku.ac.jp は WebFetch で ROBOTS_UNREACHABLE（robots.txt を読めず）となり本文を読めず。"
+   "fails": 2,
+   "note": "2026-11-26：WebSearch で公式の募集要項PDF・一般選抜ページ・募集要項等一覧（/with/admissions/guide_list/）を確認したが、rku.ac.jp は WebFetch で ROBOTS_UNREACHABLE（robots.txt を読めず）となり本文を読めず。 / 2026-11-26：WebSearch で公式URL（一般選抜ページ・2027guidebook_general.pdf）を再確認したが、rku.ac.jp は WebFetch で再び ROBOTS_UNREACHABLE。本文を読めず（2回目）。"
   },
   {
    "name": "茨城県立農業大学校",
    "pages": {
     "admission": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/3nyuushikanren-top.html",
     "yoko": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r9nyuugakuseibosyuuannnai.pdf",
-    "result": ""
-   }
+    "result": "",
+    "chuui_ippan": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r9ippannnyuusityuuijikou.pdf",
+    "pamphlet": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/reiwa9nenndogakkouannnai.pdf",
+    "yoko_kenkyuka": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r9kennkyuukaannnai_.pdf",
+    "oc": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/opencampus/oc1.html",
+    "kakomon": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/nyuushi/kakomon.html"
+   },
+   "note": "2026-11-26：schedule は公式で一致。募集案内PDFは表の見出しが読み取れず、受験料・入学料/授業料の項目名・試験科目名が判別できず。パンフレットPDFは取得エラー。入試結果の公表ページは見当たらず（推薦の合格者番号のみ）。"
   },
   {
    "name": "筑波技術大学",

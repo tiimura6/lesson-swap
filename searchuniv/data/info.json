@@ -50538,7 +50538,11 @@
 "https://www.aoyama.ac.jp/admission/undergraduate/examination/general_exam_individualundergraduate.html",
 "https://www.aoyama.ac.jp/life/expenses/scholarship_prospective/",
 "https://passnavi.obunsha.co.jp/univ/2260/expense/",
-"https://passnavi.obunsha.co.jp/univ/2260/difficulty/"
+"https://passnavi.obunsha.co.jp/univ/2260/difficulty/",
+"https://www.aoyama.ac.jp/admission/undergraduate/open_campus/",
+"https://www.aoyama.ac.jp/admission/undergraduate/examination/exam_digest.html",
+"https://search.keinet.ne.jp/2200/general/exam_result",
+"https://www.aoyama.ac.jp/admission/undergraduate/open_campus/aogaku_day.html"
 ],
 "kyotsu": {
 "kamoku": "1教科1科目（個別学部B方式）〜5教科6科目（史学科6科目型）",
@@ -50574,7 +50578,7 @@
 2,
 1
 ],
-"note": "独自問題（記述式を含む）と共テの組み合わせ：文・教育人間科学・法・経営・国際政治経済・総合文化政策・社会情報・地球社会共生・コミュニティ人間科学・統計データサイエンス学環（2027年4月設置届出中）。総合文化政策は英語資格を出願資格に、英米文・国際政治経済は英語資格を出願資格かつ合否判定に使う型あり"
+"note": "独自問題（記述式を含む）と共テの組み合わせ：文・教育人間科学・法・経営・国際政治経済・総合文化政策・社会情報・地球社会共生・コミュニティ人間科学・統計データサイエンス学環（2027年4月開設予定）。総合文化政策は共テ＋英語資格・検定試験も使う型あり（公式の形態Ⅱ）"
 },
 {
 "kubun": "一般",
@@ -50582,7 +50586,7 @@
 "kyotsu": "課さない",
 "niji": "例 英米文B：英150＋総合問題100、C：英200＋国100、D：小論文100",
 "haiten": "個別試験のみ",
-"note": "独自問題のみ：文学部英米文学科・経済学部・理工学部・社会情報学部（経済・理工は共テ併用方式なし）"
+"note": "独自問題のみ：文学部英米文学科・経済学部・理工学部・社会情報学部（公式の形態Ⅳ）。このほか英米文学科・国際政治経済学部に独自問題＋英語資格・検定試験の型（形態Ⅲ）"
 },
 {
 "kubun": "共テ利用",
@@ -50618,7 +50622,7 @@
 }
 ],
 "summary": "一般は共テ不要の全学部日程と、共テ併用が多い個別学部日程が軸。共テ利用もある。総合型は現役・専願で評定3.5〜3.8以上が目安。",
-"note": "2027年度も全学部日程・個別学部日程・共テ利用の3種別（Kei-Net 2027年度入試スケジュール、2026-11-25 再確認）。公式（2026-07-31）は災害時に共テの成績で判定する「特別措置」を公表。Kei-Netの一般選抜ページは文・教育人間科学部分しか取れず、経営・経済・法・理工の個別試験は未確認。学校推薦型（指定校など）はKei-Netに掲載がなく未確認。"
+"note": "2026-11-26 大学公式「一般選抜ダイジェスト」（2027年度入試）で、全学部日程（全教科マークシートの独自問題3種類のみ）・個別学部日程（形態Ⅰ〜Ⅳ）・共テ利用（3〜6科目型・独自問題なし）の構成を確認（変更なし）。公式（2026-07-31）は災害時に共テの成績で判定する「特別措置」を公表。経営・経済・法・理工の個別試験の科目・配点、学校推薦型（指定校など）は未確認。"
 },
 "departments": [
 {
@@ -50721,7 +50725,7 @@
 "schedule": "2026-11-25",
 "money": "2026-11-07",
 "departments": "2026-11-06",
-"ratios": "2026-11-06",
+"ratios": "2026-11-26",
 "eng": "2026-11-07",
 "qtrend": "2026-11-07",
 "_via": "2026-11-07",
@@ -50729,7 +50733,8 @@
 "careers": "2026-11-14",
 "scholar": "2026-11-19",
 "research": "2026-11-20",
-"methods": "2026-11-25"
+"methods": "2026-11-26",
+"oc": "2026-11-26"
 },
 "fdiff": {
 "year": "2027年度入試用",
@@ -51475,6 +51480,7 @@
 "kubun": "一般",
 "unit": "経済学部 個別学部日程A方式",
 "y": {
+"2025": 8.2,
 "2026": 7.6
 }
 },
@@ -51482,11 +51488,12 @@
 "kubun": "一般",
 "unit": "法学部 全学部日程",
 "y": {
+"2025": 4.8,
 "2026": 5.5
 }
 }
 ],
-"note": "河合塾Kei-Net掲載値（2025・2026年度入試）"
+"note": "河合塾Kei-Net掲載値（2025・2026年度入試）。2026-11-26 再確認（変更なし、経済A方式・法全学部日程に2025年度を追加）。大学公式の入試結果ページは未確認"
 },
 "eng": {
 "year": "2027年度入試（一般選抜は2026年度の情報）",
@@ -51659,7 +51666,53 @@
 "総合文化政策学部・地球社会共生学部・コミュニティ人間科学部・社会情報学部：文化政策、地球社会共生、地域・コミュニティ、社会と情報の文理融合",
 "理工学部：物理科学・数理サイエンス・化学・生命科学・電気電子工・機械創造工・経営システム工・情報テクノロジー",
 "統計データサイエンス学部（新設）：統計・データサイエンス"
-]
+],
+"oc": {
+"year": "2026年度",
+"events": [
+{
+"date": "2027/3/13",
+"type": "来場型",
+"title": "AOGAKU OPEN DAY（学生主体型ミニオープンキャンパス・相模原キャンパス）",
+"note": ""
+},
+{
+"date": "2027/3/20",
+"type": "来場型",
+"title": "AOGAKU OPEN DAY（学生主体型ミニオープンキャンパス・青山キャンパス）",
+"note": ""
+},
+{
+"date": "随時",
+"type": "来場型",
+"title": "キャンパス見学（個人見学・キャンパスツアー・団体見学）",
+"note": "事前申込制。実施日は公式のキャンパス見学ページで確認"
+},
+{
+"date": "随時",
+"type": "来場型",
+"title": "進学相談会（全国各地）",
+"note": "日程・会場は公式の進学相談会ページで確認"
+}
+],
+"url": "https://www.aoyama.ac.jp/admission/undergraduate/open_campus/",
+"note": "2026年度のオープンキャンパス（相模原7/12、青山8/2〜4、オンライン「青学オンライン」7/21〜8/31）と青学フェア（福岡10/18・名古屋11/3・大阪11/8）は終了。例年、相模原は7月中旬、青山は8月上旬に開催"
+},
+"_src": {
+"oc": {
+"u": [
+"https://www.aoyama.ac.jp/admission/undergraduate/open_campus/",
+"https://www.aoyama.ac.jp/admission/undergraduate/open_campus/aogaku_day.html"
+],
+"d": "2026-11-26"
+},
+"methods": {
+"u": [
+"https://www.aoyama.ac.jp/admission/undergraduate/examination/exam_digest.html"
+],
+"d": "2026-11-26"
+}
+}
 },
 "立教大学": {
 "difficulty": {
@@ -91110,7 +91163,8 @@
 "https://www.pref.ibaraki.jp/nourinsuisan/nodai/gakkougaiyou.html",
 "https://www.pref.ibaraki.jp/nourinsuisan/nodai/08access/access.html",
 "https://www.pref.ibaraki.jp/soshiki/nourinsuisan/nodai/documents/r9kennkyuukaannnai_.pdf",
-"https://www.pref.ibaraki.jp/soshiki/nourinsuisan/nodai/documents/reiwa9nenndogakkouannnai.pdf"
+"https://www.pref.ibaraki.jp/soshiki/nourinsuisan/nodai/documents/reiwa9nenndogakkouannnai.pdf",
+"https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r9ippannnyuusityuuijikou.pdf"
 ],
 "methods": {
 "year": "2027年度入試（令和9年度入学）",
@@ -91158,7 +91212,7 @@
 ],
 "_checked": {
 "departments": "2026-11-06",
-"schedule": "2026-11-17",
+"schedule": "2026-11-26",
 "money": "2026-11-08",
 "licenses": "2026-11-15",
 "careers": "2026-11-15",
@@ -91173,32 +91227,36 @@
 "_via": "2026-11-25"
 },
 "schedule": {
-"year": "2027年度入試（令和9年度入学生募集案内、県公式）",
+"year": "2027年度入試",
 "rows": [
 {
 "kubun": "推薦",
 "name": "推薦（養成課程）",
-"apply": "2026/9/28〜10/16",
+"apply": "9/28〜10/16",
 "exam": "10/28",
-"result": "11/9"
+"result": "11/9",
+"note": "試験は午前10時30分から。募集案内の第1期（定員の60％程度・40％程度の区分の記載あり）",
+"url": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r9nyuugakuseibosyuuannnai.pdf"
 },
 {
 "kubun": "一般",
 "name": "一般 前期（養成課程）",
-"apply": "2026/11/16〜12/10",
+"apply": "11/16〜12/10",
 "exam": "12/17",
-"result": "12/25"
+"result": "12/25",
+"url": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r9nyuugakuseibosyuuannnai.pdf"
 },
 {
 "kubun": "一般",
 "name": "一般 後期（養成課程）",
-"apply": "2027/2/1〜2/25",
+"apply": "2/1〜2/25",
 "exam": "3/4",
 "result": "3/10",
-"note": "前期で合格者が募集人員に達した場合は実施しない"
+"note": "前期試験で合格者が募集人員に達した場合は実施しない",
+"url": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r9nyuugakuseibosyuuannnai.pdf"
 }
 ],
-"note": "2026-11-17 県公式の入試のご案内（推薦10/28は終了、前期12/17、後期3/4）と令和9年度入学生募集案内（推薦・一般）で確認。募集案内には定員の60％程度・40％程度の区分がある。"
+"note": "2026-11-26 県公式の令和9年度入学生募集案内（推薦・一般）と入試のご案内ページで出願期間・試験日・合格発表日を確認（既存値と一致）。入学手続締切・受験料は今回読み取れず。"
 },
 "money": {
 "year": "令和9年度入学生募集案内（県公式）",
@@ -91257,7 +91315,16 @@
 "events": [],
 "url": "https://www.pref.ibaraki.jp/soshiki/nourinsuisan/nodai/"
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"_src": {
+"schedule": {
+"u": [
+"https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/documents/r9nyuugakuseibosyuuannnai.pdf",
+"https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/3nyuushikanren-top.html"
+],
+"d": "2026-11-26"
+}
+}
 },
 "国際ファッション専門職大学": {
 "difficulty": {
@@ -284522,7 +284589,8 @@ null
 "kyotsu": "2026-11-25",
 "methods": "2026-11-25",
 "scholar": "2026-11-25",
-"_via": "2026-11-25"
+"_via": "2026-11-25",
+"students": "2026-11-26"
 },
 "departments": [
 {
@@ -284570,7 +284638,9 @@ null
 "https://telemail.jp/shingaku/university/10011571/examination/general",
 "https://zen.ac.jp/news/scholarship2027",
 "https://manabi.benesse.ne.jp/daigaku/school/4256/gakuhi/",
-"https://shingakunet.com/gakko/SC006906/openCampus/0000826579/"
+"https://shingakunet.com/gakko/SC006906/openCampus/0000826579/",
+"https://manabi.benesse.ne.jp/daigaku/school/4256/index.html",
+"https://zen.ac.jp/news/tbrvdl3h_q0"
 ],
 "schedule": {
 "year": "2027年度入試",
@@ -284688,7 +284758,11 @@ null
 }
 ]
 },
-"_via": "external-ai"
+"_via": "external-ai",
+"students": {
+"count": 3380,
+"year": 2025
+}
 },
 "太田医療科学大学": {
 "faculties": [

@@ -20680,6 +20680,35 @@
 "careers"
 ],
 "keinet": "2530"
+},
+{
+"name": "政策研究大学院大学（大学院のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "ZEN大学（通信制のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"fails": 1,
+"last_fail": "2026-11-26",
+"note": "2026-11-26 PR TIMES（ドワンゴ学園 2026-06-23）に初年度入学者4,236名のみ（在籍者総数の記載なし）。資格・進路・共テ・難易度の記載なし。Kei-Net・公式は今回開けず"
 }
 ],
 "failed": [],
@@ -20980,19 +21009,6 @@
 "fields": [
 "research",
 "students",
-"careers",
-"kyotsu",
-"difficulty"
-]
-},
-{
-"name": "政策研究大学院大学（大学院のみ）",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"licenses",
 "careers",
 "kyotsu",
 "difficulty"
@@ -36152,22 +36168,6 @@
 "fails": 1,
 "last_fail": "2026-11-26",
 "note": "2026-11-26 パスナビ 1939 top・border：2027年4月開学予定で学生数・資格・進路の記載なし、ボーダーは「情報がありません」。Kei-Net・公式は今回開けず"
-},
-{
-"name": "ZEN大学（通信制のみ）",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students",
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
-],
-"fails": 1,
-"last_fail": "2026-11-26",
-"note": "2026-11-26 PR TIMES（ドワンゴ学園 2026-06-23）に初年度入学者4,236名のみ（在籍者総数の記載なし）。資格・進路・共テ・難易度の記載なし。Kei-Net・公式は今回開けず"
 },
 {
 "name": "島根大学",
