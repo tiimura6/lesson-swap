@@ -142,7 +142,8 @@
     "oc": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/opencampus/oc1.html",
     "kakomon": "https://www.pref.ibaraki.jp/nourinsuisan/nodai/03nyuushikannrenn/nyuushi/kakomon.html"
    },
-   "note": "2026-11-26：schedule は公式で一致。募集案内PDFは表の見出しが読み取れず、受験料・入学料/授業料の項目名・試験科目名が判別できず。パンフレットPDFは取得エラー。入試結果の公表ページは見当たらず（推薦の合格者番号のみ）。"
+   "note": "2026-11-26：schedule は公式で一致。募集案内PDFは表の見出しが読み取れず、受験料・入学料/授業料の項目名・試験科目名が判別できず。パンフレットPDFは取得エラー。入試結果の公表ページは見当たらず（推薦の合格者番号のみ）。 / 2026-11-26 公式ページを開けず（取得の許可が時間切れ）",
+   "fails": 1
   },
   {
    "name": "筑波技術大学",
@@ -155,7 +156,9 @@
     "yoko_it": "http://www.tsukuba-tech.ac.jp/uploads/2026/09/R9it-bosyuyoko_1.pdf",
     "result_hs": "https://www.tsukuba-tech.ac.jp/admission/hs/results/index.html",
     "expenses": "https://www.tsukuba-tech.ac.jp/education/expenses/index.html"
-   }
+   },
+   "fails": 1,
+   "note": "2026-11-26 公式ページを開けず（取得の許可が時間切れ）"
   },
   {
    "name": "つくば国際大学",
