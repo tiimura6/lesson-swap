@@ -20709,6 +20709,44 @@
 "fails": 1,
 "last_fail": "2026-11-26",
 "note": "2026-11-26 PR TIMES（ドワンゴ学園 2026-06-23）に初年度入学者4,236名のみ（在籍者総数の記載なし）。資格・進路・共テ・難易度の記載なし。Kei-Net・公式は今回開けず"
+},
+{
+"name": "中央医療大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"research",
+"students",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "北陸先端科学技術大学院大学（大学院のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
+},
+{
+"name": "奈良先端科学技術大学院大学（大学院のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+]
 }
 ],
 "failed": [],
@@ -20991,66 +21029,16 @@
 "日本映画大学": 1,
 "東京基督教大学": 2,
 "東洋英和女学院大学": 2,
-"ビジネス・ブレークスルー大学（通信制のみ）": 1,
-"武雄アジア大学": 1,
+"ビジネス・ブレークスルー大学（通信制のみ）": 2,
+"武雄アジア大学": 2,
 "福岡国際音楽大学": 2,
 "コー・イノベーション大学": 2,
 "西日本看護医療大学": 2,
-"開志創造大学（通信制のみ）": 1,
-"太田医療科学大学": 1,
+"開志創造大学（通信制のみ）": 2,
+"太田医療科学大学": 2,
 "ZEN大学（通信制のみ）": 1
 },
 "enrich": [
-{
-"name": "中央医療大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"research",
-"students",
-"careers",
-"kyotsu",
-"difficulty"
-]
-},
-{
-"name": "北陸先端科学技術大学院大学（大学院のみ）",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
-]
-},
-{
-"name": "奈良先端科学技術大学院大学（大学院のみ）",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students",
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
-]
-},
-{
-"name": "総合研究大学院大学（大学院のみ）",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
-]
-},
 {
 "name": "神奈川歯科大学",
 "need": [
@@ -36107,12 +36095,11 @@
 "note": "2026-11-20 公式の2027年度（令和9年度）一般選抜・推薦・総合型の募集要項は検索で見つからず（令和8年度以前と令和9年度変更予告のみ）。公式入試ページの一覧は取得できず"
 },
 {
-"name": "ビジネス・ブレークスルー大学（通信制のみ）",
+"name": "総合研究大学院大学（大学院のみ）",
 "need": [
 "gap_keinet"
 ],
 "fields": [
-"students",
 "licenses",
 "careers",
 "kyotsu",
@@ -36120,54 +36107,7 @@
 ],
 "fails": 1,
 "last_fail": "2026-11-26",
-"note": "2026-11-26 Kei-Net コード不明。パスナビ 3035 トップと公式の2025年度春期募集要項に学生数・資格・進路の記載なし"
-},
-{
-"name": "武雄アジア大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students",
-"licenses",
-"careers",
-"difficulty"
-],
-"fails": 1,
-"last_fail": "2026-11-26",
-"note": "2026-11-26 2026年4月開学で卒業生の進路実績なし。Kei-Net コード不明。スタディサプリ・ベネッセに学生数・資格名の記載なし（入学定員140人のみ）"
-},
-{
-"name": "開志創造大学（通信制のみ）",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students",
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
-],
-"fails": 1,
-"last_fail": "2026-11-26",
-"note": "2026-11-26 Kei-Net コード不明。スタディサプリの学科ページに学生数・取得資格・就職実績・共テ・難易度の記載なし（2026年4月開設、定員800名）"
-},
-{
-"name": "太田医療科学大学",
-"need": [
-"gap_keinet"
-],
-"fields": [
-"students",
-"licenses",
-"careers",
-"kyotsu",
-"difficulty"
-],
-"fails": 1,
-"last_fail": "2026-11-26",
-"note": "2026-11-26 パスナビ 1939 top・border：2027年4月開学予定で学生数・資格・進路の記載なし、ボーダーは「情報がありません」。Kei-Net・公式は今回開けず"
+"note": "2026-11-26 公式要覧 PDF（youran2025_jp.pdf）はサイトのエラーで開けず。就職先アンケート PDF は修了者全体の進路統計ではない"
 },
 {
 "name": "島根大学",
@@ -38032,6 +37972,73 @@
 "fails": 2,
 "last_fail": "2026-11-26",
 "note": "2026-11-26 2026年4月開学で卒業生なし。Kei-Net 2722 は今回開けず。スタディサプリに学生数の記載なし（定員80人のみ）／2026-11-26 Kei-Net 2722 outline/department・admission_employment は WebFetch の許可確認が無応答で読めず",
+"deferred": true
+},
+{
+"name": "ビジネス・ブレークスルー大学（通信制のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"fails": 2,
+"last_fail": "2026-11-26",
+"note": "2026-11-26 Kei-Net コード不明。パスナビ 3035 トップと公式の2025年度春期募集要項に学生数・資格・進路の記載なし／2026-11-26 Kei-Net コード不明のまま。今回は開ける出典 URL が見つからず未確認",
+"deferred": true
+},
+{
+"name": "武雄アジア大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"licenses",
+"careers",
+"difficulty"
+],
+"fails": 2,
+"last_fail": "2026-11-26",
+"note": "2026-11-26 2026年4月開学で卒業生の進路実績なし。Kei-Net コード不明。スタディサプリ・ベネッセに学生数・資格名の記載なし（入学定員140人のみ）／2026-11-26 スタディサプリ（SC006924）は2026年4月開学で学生数・進路実績なし、資格名・難易度の記載なし",
+"deferred": true
+},
+{
+"name": "開志創造大学（通信制のみ）",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"fails": 2,
+"last_fail": "2026-11-26",
+"note": "2026-11-26 Kei-Net コード不明。スタディサプリの学科ページに学生数・取得資格・就職実績・共テ・難易度の記載なし（2026年4月開設、定員800名）／2026-11-26 今回は開ける出典 URL が見つからず未確認",
+"deferred": true
+},
+{
+"name": "太田医療科学大学",
+"need": [
+"gap_keinet"
+],
+"fields": [
+"students",
+"licenses",
+"careers",
+"kyotsu",
+"difficulty"
+],
+"fails": 2,
+"last_fail": "2026-11-26",
+"note": "2026-11-26 パスナビ 1939 top・border：2027年4月開学予定で学生数・資格・進路の記載なし、ボーダーは「情報がありません」。Kei-Net・公式は今回開けず／2026-11-26 2027年4月開学予定。今回は開ける出典 URL が見つからず未確認",
 "deferred": true
 }
 ],
