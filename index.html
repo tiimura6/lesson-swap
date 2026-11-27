@@ -1690,7 +1690,8 @@
   <div id="mergePanel">
     <p class="mg-lead">自分の授業を、別クラスの同じ科目の授業に合流させて合同にする候補を探します。</p>
     <div class="mg-controls">
-      <label>担当者：<select id="mergeTeacher" disabled><option value="">時間割を読み込んでください</option></select></label>
+      <label>担当者：<select id="mergeTeacher" disabled><option value="">時間割を読み込んでください</option></select>
+        <input id="mergeTeacherSearch" class="search-input" type="text" placeholder="名前で絞り込み" aria-label="担当者検索" /></label>
       <label>授業：<select id="mergeLesson" disabled><option value="">先に担当者を選んでください</option></select></label>
     </div>
     <p class="mg-note">※ 進度・教科書・教室の定員を確認してください（選択科目・習熟度別は時間割から判別できません）</p>
@@ -7987,10 +7988,15 @@
     }
 
     // ===== 教員選択UI =====
+    // 名前の照合用：空白を無視し、異体字（髙→高 など）をそろえる
+    function teacherNameKey(n){
+      return String(n == null ? "" : n).replace(/[\s\u3000]+/g, "").replace(/髙/g, "高").replace(/﨑/g, "崎").replace(/德/g, "徳").replace(/邊|邉/g, "辺").replace(/齋|齊/g, "斎").replace(/濵/g, "浜");
+    }
+    window.ttTeacherNameKey = teacherNameKey;
     function filterAndPopulateTeacherOptions(sel, list, term, placeholder, keepValue){
       sel.innerHTML = "<option value=\"\">" + placeholder + "</option>";
-      const t = (term || "").trim();
-      const filtered = t ? list.filter(name => name.indexOf(t) >= 0) : list.slice();
+      const t = teacherNameKey(term);
+      const filtered = t ? list.filter(name => teacherNameKey(name).indexOf(t) >= 0) : list.slice();
       filtered.forEach((name, idx)=>{
         const op = document.createElement('option');
         op.value = name;
@@ -8045,7 +8051,7 @@
       );
 
       if (term) {
-        const exact = allTeacherList.find(name => name === term);
+        const exact = allTeacherList.find(name => teacherNameKey(name) === teacherNameKey(term));
         if (exact) {
           teacherSelectA.value = exact;
         } else if (!teacherSelectA.value && teacherSelectA.options.length === 2) {
@@ -8066,6 +8072,19 @@
     teacherSearchA.addEventListener('input', ()=>{
       clearTimeout(teacherSearchTimer);
       teacherSearchTimer = setTimeout(handleTeacherSearchInput, 250);
+    });
+    // Enter：候補が複数でも、いちばん上の先生を選ぶ
+    teacherSearchA.addEventListener('keydown', (e)=>{
+      if (e.key !== 'Enter' || e.isComposing) return;
+      e.preventDefault();
+      clearTimeout(teacherSearchTimer);
+      handleTeacherSearchInput();
+      if (!teacherSelectA.value && teacherSelectA.options.length > 1) {
+        teacherSelectA.selectedIndex = 1;
+        refreshTeacherBCOptions();
+        updateLessonChoices();
+        updateTeacherATimetable();
+      }
     });
 
     teacherSelectA.addEventListener('change', ()=>{
@@ -11144,20 +11163,39 @@
     function lessonKey(l){ return [l.school, l.day, l.period, l.grade, l.class, l.course || '', l.subject || ''].join('|'); }
     function env(){ return window.ttMergeEnv ? window.ttMergeEnv() : null; }
 
-    function fillTeachers(){
-      var list = window.ttTeacherList ? window.ttTeacherList() : [];
+    var sIn = document.getElementById('mergeTeacherSearch');
+    function nameKey(n){ return window.ttTeacherNameKey ? window.ttTeacherNameKey(n) : String(n || '').trim(); }
+    // 名前欄の文字で候補を絞り、名前が一致するか1人だけなら自動で選ぶ。pickFirst のときはいちばん上を選ぶ
+    function fillTeachers(pickFirst){
+      var all = window.ttTeacherList ? window.ttTeacherList() : [];
+      var term = nameKey(sIn ? sIn.value : '');
+      var list = term ? all.filter(function(t){ return nameKey(t).indexOf(term) >= 0; }) : all;
       var keep = tSel.value;
       tSel.innerHTML = '';
-      if (!list.length) {
+      if (!all.length) {
         tSel.appendChild(new Option('時間割を読み込んでください', ''));
+        tSel.disabled = true;
+      } else if (!list.length) {
+        tSel.appendChild(new Option('該当する先生がいません', ''));
         tSel.disabled = true;
       } else {
         tSel.appendChild(new Option('担当者を選択', ''));
         list.forEach(function(t){ tSel.appendChild(new Option(t, t)); });
         tSel.disabled = false;
-        if (keep && list.indexOf(keep) !== -1) tSel.value = keep;
+        var exact = term ? list.find(function(t){ return nameKey(t) === term; }) : null;
+        if (exact) tSel.value = exact;
+        else if (keep && list.indexOf(keep) !== -1) tSel.value = keep;
+        else if (term && (list.length === 1 || pickFirst)) tSel.value = list[0];
       }
       fillLessons();
+    }
+    if (sIn) {
+      var sTimer = null;
+      sIn.addEventListener('input', function(){ clearTimeout(sTimer); sTimer = setTimeout(function(){ fillTeachers(false); }, 250); });
+      sIn.addEventListener('keydown', function(e){
+        if (e.key !== 'Enter' || e.isComposing) return;
+        e.preventDefault(); clearTimeout(sTimer); fillTeachers(true);
+      });
     }
 
     function fillLessons(){
@@ -11263,8 +11301,8 @@
 
     tSel.addEventListener('change', fillLessons);
     lSel.addEventListener('change', render);
-    document.addEventListener('tt-lessons-updated', fillTeachers);
-    fillTeachers();
+    document.addEventListener('tt-lessons-updated', function(){ fillTeachers(false); });
+    fillTeachers(false);
   })();
   </script>
   <script>
