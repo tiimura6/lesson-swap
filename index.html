@@ -10988,6 +10988,94 @@
       renderUpdateInfo();
     });
   </script>
+  <script id="mergeEngine">
+  // ===== 合同化の判定エンジン（別クラスの同じ科目の授業に合流） =====
+  // 画面や本体の変数には触れない。必要な部品は env で受け取る（tests/merge_engine.test.js でテスト）。
+  (function(){
+    var DAY_ORDER = { Mon:1, Tue:2, Wed:3, Thu:4, Fri:5, Sat:6 };
+    function sig(l){ return [l.school||'', l.day, l.period, l.grade, l.class, l.course||'', l.subject||''].join('|'); }
+    function sameStudents(a, b){
+      if (a.school !== b.school || a.grade !== b.grade || a.class !== b.class) return false;
+      if (!(a.school === 'HS' && a.grade >= 2)) return true;
+      var ca = a.course || '', cb = b.course || '';
+      return !ca || !cb || ca === cb;
+    }
+    function courseOk(a, b){
+      if (!(a.school === 'HS' && a.grade >= 2)) return true;
+      var ca = a.course || '', cb = b.course || '';
+      return !ca || !cb || ca === cb;
+    }
+    function find(me, env){
+      if (!me || !env || !env.lessons) return [];
+      var lessons = env.lessons;
+      var A = me.teacher;
+      // 教員Aが同じコマ・同じ科目で別クラスも持つ＝合同授業は対象外
+      var meJoint = lessons.some(function(l){
+        return l.teacher === A && l.day === me.day && l.period === me.period &&
+               l.subject === me.subject && l.school === me.school && l.class !== me.class;
+      });
+      if (meJoint) return [];
+
+      var seen = {};
+      var out = [];
+      lessons.forEach(function(o){
+        if (o.school !== me.school || o.grade !== me.grade || o.subject !== me.subject) return;
+        if (o.class === me.class || !courseOk(me, o)) return;
+        var k = sig(o);
+        if (seen[k]) return;
+        seen[k] = true;
+        var targetTeachers = env.getAllTeachersForLesson(o) || [];
+        if (targetTeachers.indexOf(A) !== -1) return;
+        var parttimeT = targetTeachers.some(env.isParttimeTeacher);
+
+        if (o.day === me.day && o.period === me.period) {
+          out.push({ kind:'same', target:o, targetTeachers:targetTeachers, moved:null, movedTeachers:[],
+                     eventWarn:false, parttime:parttimeT, infoWarn:false });
+          return;
+        }
+        // 自分のクラスがコマYに受けている授業（q）
+        var qRows = lessons.filter(function(l){ return l.day === o.day && l.period === o.period && sameStudents(me, l); });
+        if (!qRows.length) return;
+        var qSigs = {};
+        qRows.forEach(function(l){ qSigs[sig(l)] = true; });
+        if (Object.keys(qSigs).length !== 1) return;
+        var q = qRows[0];
+        var qTeachers = env.getAllTeachersForLesson(q) || [];
+        // q が複数クラスの合同授業なら対象外
+        var qJoint = lessons.some(function(l){
+          return qTeachers.indexOf(l.teacher) !== -1 && l.day === q.day && l.period === q.period &&
+                 l.subject === q.subject && l.school === q.school && l.class !== q.class;
+        });
+        if (qJoint) return;
+        // q の担当者（教員A を除く）が元のコマで空いていること
+        var busy = qTeachers.some(function(t){ return t !== A && env.teacherHasSlot(t, me.day, me.period); });
+        if (busy) return;
+
+        var eventWarn = qTeachers.some(function(t){ return env.hasAnyEvent(t, me.day, me.period); });
+        var parttime = parttimeT || qTeachers.some(env.isParttimeTeacher);
+        var infoWarn = !!env.infoRoomConflict([
+          { lesson: me, toDay: o.day, toPeriod: o.period },
+          { lesson: q,  toDay: me.day, toPeriod: me.period }
+        ]);
+        out.push({ kind:'move', target:o, targetTeachers:targetTeachers, moved:q, movedTeachers:qTeachers,
+                   eventWarn:eventWarn, parttime:parttime, infoWarn:infoWarn });
+      });
+
+      function rank(c){
+        if (c.kind === 'same') return 0;
+        return (c.eventWarn || c.parttime || c.infoWarn) ? 2 : 1;
+      }
+      out.sort(function(a, b){
+        return rank(a) - rank(b) ||
+               (DAY_ORDER[a.target.day]||9) - (DAY_ORDER[b.target.day]||9) ||
+               a.target.period - b.target.period ||
+               String(a.target.class).localeCompare(String(b.target.class), 'ja', { numeric:true });
+      });
+      return out;
+    }
+    window.MergeEngine = { find: find };
+  })();
+  </script>
   <script>
   // ===== カレンダー（今日／時間割切替日のハイライト） =====
   (function(){
