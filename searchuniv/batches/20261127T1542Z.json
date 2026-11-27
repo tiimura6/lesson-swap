@@ -1,0 +1,592 @@
+[
+ {
+  "name": "会津大学",
+  "info": {
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "コンピュータ理工学部",
+      "kubun": "一般",
+      "name": "前期日程 A方式",
+      "n": 3,
+      "subj": "共テ 理科1か情報Ⅰ 100／個別 数学250・英語250（計600）",
+      "kt": "1教科1科目（理科1科目か情報Ⅰ）",
+      "eng": "なし（記載なし）",
+      "note": "募集96名。A・Bの併願不可、個別試験の問題は共通",
+      "url": "https://u-aizu.ac.jp/files/page/admissions/OutlineAY2027Admission.pdf"
+     },
+     {
+      "f": "コンピュータ理工学部",
+      "kubun": "一般",
+      "name": "前期日程 B方式",
+      "n": 6,
+      "subj": "共テ 国語200・地歴公民100・数学200・理科2科目200・英語200・情報Ⅰ100／個別 数学250・英語250（計1500）",
+      "kt": "6教科8科目（国・地公1・数・理2・外・情）",
+      "eng": "なし（記載なし）",
+      "note": "募集48名。英語はR100・L100を200点に",
+      "url": "https://u-aizu.ac.jp/files/page/admissions/OutlineAY2027Admission.pdf"
+     },
+     {
+      "f": "コンピュータ理工学部",
+      "kubun": "推薦",
+      "name": "学校推薦型選抜A（福島県内）",
+      "n": 2,
+      "subj": "調査書200・簡易テスト 英語100・数学100・小論文（総合評価）",
+      "kt": "",
+      "eng": "なし（記載なし）",
+      "note": "募集48名。専願・現役。評定3.8以上または情報処理技術者試験合格など。1校8名まで",
+      "url": "https://u-aizu.ac.jp/files/page/admissions/OutlineAY2027Admission.pdf"
+     },
+     {
+      "f": "コンピュータ理工学部",
+      "kubun": "推薦",
+      "name": "学校推薦型選抜B（全国）",
+      "n": 2,
+      "subj": "調査書200・簡易テスト 英語100・数学100・小論文（総合評価）",
+      "kt": "",
+      "eng": "なし（記載なし）",
+      "note": "募集48名。専願・現役。評定3.8以上または資格・コンテスト実績",
+      "url": "https://u-aizu.ac.jp/files/page/admissions/OutlineAY2027Admission.pdf"
+     }
+    ],
+    "note": "大学公式「2027年度入学者選抜要項」による。後期日程・総合型選抜は要項に無い。早期入学（飛び入学）選抜（数学・英語・面接）もある"
+   },
+   "_src": {
+    "subjects": [
+     "https://u-aizu.ac.jp/files/page/admissions/OutlineAY2027Admission.pdf"
+    ]
+   }
+  },
+  "sources": [
+   "https://u-aizu.ac.jp/files/page/admissions/OutlineAY2027Admission.pdf"
+  ]
+ },
+ {
+  "name": "国際教養大学",
+  "info": {
+   "subjects": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "f": "国際教養学部",
+      "kubun": "一般",
+      "name": "A日程（共通テスト6教科型）",
+      "n": 6,
+      "subj": "共テ 英語100・国語100・数学100・地歴公民100・理科100・情報Ⅰ50（計550）／個別 英語100・国語100（古文漢文除く）計200",
+      "kt": "6教科6科目（英R80:L20）",
+      "eng": "得点換算（英検準1級・IELTS6.5・TEAP360等で共テ英語を満点）",
+      "note": "募集55名。個別試験2/6。総点750",
+      "url": "https://admission.aiu.ac.jp/wp/wp-content/uploads/2026/10/2027-Ippan-Boshuyoko.pdf"
+     },
+     {
+      "f": "国際教養学部",
+      "kubun": "一般",
+      "name": "B日程（共通テスト3教科型）",
+      "n": 4,
+      "subj": "共テ 英語100＋国数地公理情から2教科 各100（計300）／個別 英語100・国語100（古文漢文除く）計200",
+      "kt": "3教科3科目（英語必須＋2教科、英R80:L20）",
+      "eng": "得点換算（英検準1級・IELTS6.5・TEAP360等で共テ英語を満点）",
+      "note": "募集40名。個別試験2/20。総点500。共テで国語を選ばない場合は個別の国語を含め4教科、国語を選べば3教科",
+      "url": "https://admission.aiu.ac.jp/wp/wp-content/uploads/2026/10/2027-Ippan-Boshuyoko.pdf"
+     },
+     {
+      "f": "国際教養学部",
+      "kubun": "推薦",
+      "name": "学校推薦型入試",
+      "n": 1,
+      "subj": "書類（調査書等）・英語小論文・面接（日本語・英語）",
+      "kt": "",
+      "eng": "出願資格（英検2級相当）",
+      "note": "専願。評定4.0以上かつ英検2級相当、または全国規模の大会等の実績",
+      "url": "https://admission.aiu.ac.jp/wp/wp-content/uploads/2026/08/2027_Special_Selection_Boshuyoko-2.pdf"
+     },
+     {
+      "f": "国際教養学部",
+      "kubun": "総合型",
+      "name": "総合選抜型入試",
+      "n": 1,
+      "subj": "書類（調査書等）・英語小論文・面接（日本語・英語）",
+      "kt": "",
+      "eng": "出願資格（英検準1級相当／1年程度の留学／IB DP修了のいずれか）",
+      "note": "専願。グローバル・セミナー入試・グローバル・ワークショップ入試とは併願不可",
+      "url": "https://admission.aiu.ac.jp/wp/wp-content/uploads/2026/08/2027_Special_Selection_Boshuyoko-2.pdf"
+     }
+    ],
+    "note": "科目は大学公式の一般選抜ページで確認。共テ・個別の配点と募集人員はマナビジョン（2027年度入試）による（公式要項PDFは文字を読み取れず未照合、既存の methods の配点比550:200・300:200と一致）。B日程は英語を含め国数地公理情から3教科を選ぶ。グローバル・セミナー／ワークショップ入試の選抜方法は未確認。2027年度からC日程は廃止"
+   },
+   "_src": {
+    "subjects": [
+     "https://admission.aiu.ac.jp/ug/general/",
+     "https://admission.aiu.ac.jp/wp/wp-content/uploads/2026/10/2027-Ippan-Boshuyoko.pdf",
+     "https://admission.aiu.ac.jp/ug/recommend/",
+     "https://admission.aiu.ac.jp/ug/comp_april/",
+     "https://admission.aiu.ac.jp/wp/wp-content/uploads/2026/08/2027_Special_Selection_Boshuyoko-2.pdf"
+    ]
+   }
+  },
+  "sources": [
+   "https://admission.aiu.ac.jp/ug/general/",
+   "https://admission.aiu.ac.jp/wp/wp-content/uploads/2026/10/2027-Ippan-Boshuyoko.pdf",
+   "https://admission.aiu.ac.jp/ug/recommend/",
+   "https://admission.aiu.ac.jp/ug/comp_april/",
+   "https://admission.aiu.ac.jp/wp/wp-content/uploads/2026/08/2027_Special_Selection_Boshuyoko-2.pdf",
+   "https://manabi.benesse.ne.jp/daigaku/school/2030/nyushi/hoshiki/ippan/"
+  ]
+ },
+ {
+  "name": "武蔵大学",
+  "info": {
+   "partners": {
+    "asof": "",
+    "total": 39,
+    "ncountries": 15,
+    "kind": "海外協定校（全学。短期語学研修のみの機関3を含む）",
+    "countries": [
+     {
+      "c": "アメリカ",
+      "n": 8,
+      "u": [
+       "Temple University",
+       "Ohio University",
+       "Pace University",
+       "Hawaii Pacific University",
+       "Adelphi University"
+      ]
+     },
+     {
+      "c": "イギリス",
+      "n": 4,
+      "u": [
+       "University of Kent",
+       "London School of Economics",
+       "University of Winchester",
+       "University of Worcester"
+      ]
+     },
+     {
+      "c": "フランス",
+      "n": 4,
+      "u": [
+       "Université Paris Cité",
+       "Université Jean Moulin Lyon 3",
+       "University of Strasbourg",
+       "Institut de Touraine"
+      ]
+     },
+     {
+      "c": "ドイツ",
+      "n": 4,
+      "u": [
+       "Freie Universität Berlin",
+       "University of Passau",
+       "Martin Luther University Halle-Wittenberg",
+       "CDC (Carl Duisberg Centren)"
+      ]
+     },
+     {
+      "c": "カナダ",
+      "n": 3,
+      "u": [
+       "University of British Columbia",
+       "Okanagan College",
+       "Medicine Hat College"
+      ]
+     },
+     {
+      "c": "中国",
+      "n": 3,
+      "u": [
+       "Nankai University",
+       "Xi'an International Studies University",
+       "Capital University of Economics and Business"
+      ]
+     },
+     {
+      "c": "オーストラリア",
+      "n": 2,
+      "u": [
+       "Deakin University",
+       "Southern Cross University"
+      ]
+     },
+     {
+      "c": "オランダ",
+      "n": 2,
+      "u": [
+       "Fontys University of Applied Sciences",
+       "Windesheim University of Applied Sciences"
+      ]
+     },
+     {
+      "c": "韓国",
+      "n": 2,
+      "u": [
+       "Korea University",
+       "Yonsei University"
+      ]
+     },
+     {
+      "c": "台湾",
+      "n": 2,
+      "u": [
+       "National Chengchi University",
+       "National Taiwan Normal University"
+      ]
+     },
+     {
+      "c": "ベルギー",
+      "n": 1,
+      "u": [
+       "Artevelde University of Applied Sciences"
+      ]
+     },
+     {
+      "c": "ポーランド",
+      "n": 1,
+      "u": [
+       "University of Warsaw"
+      ]
+     },
+     {
+      "c": "シンガポール",
+      "n": 1,
+      "u": [
+       "Singapore Institute of Management"
+      ]
+     },
+     {
+      "c": "ベトナム",
+      "n": 1,
+      "u": [
+       "Ho Chi Minh City University of Economics"
+      ]
+     },
+     {
+      "c": "フィリピン",
+      "n": 1,
+      "u": [
+       "SMEAG"
+      ]
+     }
+    ],
+    "exchange": "協定留学（2025年4月時点で13か国・地域34機関）と短期語学研修あり。LSE・SIMはPDP（パラレル・ディグリー・プログラム）生のみ。",
+    "note": "英語版の協定校ページの一覧を数えた数（ページ本文の記載は38校）。国際交流ガイドブック2025（2025年4月1日）では14か国・地域37機関。"
+   }
+  },
+  "sources": [
+   "https://www.musashi.ac.jp/en/education/global/abroad/partner.html",
+   "https://www.musashi.ac.jp/education/global/abroad/ahdlv30000002yib-att/eu48bl000000nqh2.pdf"
+  ]
+ },
+ {
+  "name": "日本大学",
+  "info": {
+   "oc": {
+    "year": "2027年度",
+    "events": [],
+    "url": "https://search.keinet.ne.jp/2267/outline/opencampus",
+    "note": "学部ごとに開催（要予約の学部が多い）。2026年の学部別オープンキャンパスは終了（多くは7〜8月、芸術3月・6月、松戸歯4〜10月、工10月下旬にミニOC、法・理工(船橋)は11/1まで）。今後の日程は各学部の公式サイトで確認"
+   },
+   "_src": {
+    "oc": [
+     "https://search.keinet.ne.jp/2267/outline/opencampus"
+    ]
+   }
+  },
+  "sources": [
+   "https://search.keinet.ne.jp/2267/outline/opencampus"
+  ]
+ },
+ {
+  "name": "専修大学",
+  "info": {
+   "oc": {
+    "year": "2027年度",
+    "events": [
+     {
+      "date": "2027/3/21",
+      "type": "来場型",
+      "title": "オープンキャンパス（生田キャンパス）",
+      "note": "10:00〜15:00。要予約（予約なしは入構不可）。学部別説明・模擬授業・個別相談・施設見学など。Kei-Net掲載、公式で要確認"
+     }
+    ],
+    "url": "https://search.keinet.ne.jp/2233/topics/16",
+    "note": "2026年の夏までの日程は終了（神田 7/12・8/22・8/23、生田 6/21・8/1・8/2、いずれも10:00〜15:00・要予約）"
+   },
+   "_src": {
+    "oc": [
+     "https://search.keinet.ne.jp/2233/topics/16"
+    ]
+   }
+  },
+  "sources": [
+   "https://search.keinet.ne.jp/2233/topics/16"
+  ]
+ },
+ {
+  "name": "関西学院大学",
+  "info": {
+   "schedule_replace": {
+    "year": "2027年度入試",
+    "rows": [
+     {
+      "kubun": "一般",
+      "name": "一般選抜（全学部日程 文系・理系）",
+      "fee": 35000,
+      "apply": "1/4〜1/22",
+      "exam": "2/1・2/2［自由選択］",
+      "result": "2/15",
+      "proc": "3/1",
+      "note": "書類1月22日（金）消印有効／検定料：同一日・同一学部学科等の併願は2出願目10,000円／国際学部は全学部3科目・1科目（1科目型は2/1）、理・工・生命環境・建築学部は均等配点・数理重視（Kei-Net）"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（学部個別日程 傾斜配点型・均等配点型）",
+      "fee": 35000,
+      "apply": "1/4〜1/22",
+      "exam": "2/3・4日・6日・7日",
+      "result": "2/20",
+      "proc": "3/1",
+      "note": "書類1月22日（金）消印有効／学部・型により異なる／検定料：同一日・同一学部学科等の併願は2出願目10,000円"
+     },
+     {
+      "kubun": "一般",
+      "name": "一般選抜（英数日程／共通テスト併用日程［数学・英語］）",
+      "fee": 35000,
+      "apply": "1/4〜1/22",
+      "exam": "英数・併用（数学）：2/5・併用（英語）：2/6・7日",
+      "result": "2/20",
+      "proc": "3/1",
+      "note": "書類1月22日（金）消印有効／検定料：同一日・同一学部学科等の併願は2出願目10,000円"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テストを利用する入学試験（1月出願）",
+      "fee": 18000,
+      "apply": "1/4〜1/15",
+      "exam": "1/16・17日（共テ）",
+      "result": "2/15",
+      "proc": "3/1",
+      "note": "書類1月15日（金）消印有効"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テストを利用する入学試験（3月出願）",
+      "fee": 18000,
+      "apply": "2/15〜3/10",
+      "exam": "1/16・17日（共テ）",
+      "result": "3/14",
+      "proc": "3/19",
+      "note": "書類3月10日（水）消印有効"
+     }
+    ]
+   },
+   "methods_replace": {
+    "year": "2027年度入試",
+    "list": [
+     {
+      "kubun": "一般",
+      "name": "全学部日程",
+      "kyotsu": "課さない",
+      "niji": "英200・国200・数または地歴公民150",
+      "haiten": "個別試験のみ550点",
+      "note": "文学部の例"
+     },
+     {
+      "kubun": "一般",
+      "name": "学部個別日程（傾斜配点型・均等配点型）",
+      "kyotsu": "課さない",
+      "niji": "傾斜：英200・国250・選択150／均等：英200・国200・選択200",
+      "haiten": "個別試験のみ600点",
+      "note": "文学部の例。学部により配点の傾斜が異なる"
+     },
+     {
+      "kubun": "一般",
+      "name": "共通テスト併用日程（英語）",
+      "kyotsu": "課す（200点）",
+      "niji": "英語（個別200点）",
+      "haiten": "共テ200:個別200",
+      "kn": [
+       1,
+       1
+      ],
+      "note": ""
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入学試験（1月出願：3〜8科目型・英数型・英検型）",
+      "kyotsu": "3教科〜8科目",
+      "niji": "なし",
+      "haiten": "共テのみ（例 哲学倫理学 3科目型600点・8科目型1000点）",
+      "note": "英検型は英語資格を活用"
+     },
+     {
+      "kubun": "共テ利用",
+      "name": "大学入学共通テスト利用入学試験（3月出願：5科目型・3科目型など）",
+      "kyotsu": "3〜5教科",
+      "niji": "なし",
+      "haiten": "共テのみ",
+      "note": "後半の出願機会"
+     },
+     {
+      "kubun": "総合型",
+      "name": "探究評価型・グローバル-Ⅰ・学部特色入学試験",
+      "content": "書類（・小論文）→面接（探究評価型はプレゼン）",
+      "req": "専願。探究評価型は評定3.5以上または英語CEFR B1以上、グローバル-Ⅰ・学部特色は英語CEFR B1以上など",
+      "kyotsu": "課さない",
+      "note": "文・神・社会・人間福祉・教育など"
+     },
+     {
+      "kubun": "総合型",
+      "name": "スポーツ選抜入学試験",
+      "content": "書類・小論文→面接",
+      "req": "現役・専願、評定3.3以上、地区大会出場または都道府県ベスト8以上",
+      "kyotsu": "課さない",
+      "note": ""
+     }
+    ],
+    "summary": "一般は共テ不要の全学部日程・学部個別日程が軸。共テ利用は1月・3月出願で型が非常に多い。総合型は専願で英語CEFR B1が目安。",
+    "note": "Kei-Netの一般選抜ページは文学部分しか取れず、他学部の配点は未確認。英語・数学重視型の有無も未確認。学校推薦型（公募・指定校）はKei-Netに掲載がなく未確認。 2026-11-27再確認：一般選抜（全学部・学部個別の文学部配点、共テ併用英語）はマナビジョン2027年度、共テ利用1月の型は公式Web版ガイドで確認。総合型の行は今回未再確認。"
+   },
+   "_src": {
+    "schedule": [
+     "https://www.kwansei.ac.jp/admissions/assets/kwansei_general_admission_exam_guide_202603.pdf"
+    ],
+    "methods": [
+     "https://www.kwansei.ac.jp/admissions/assets/kwansei_general_admission_exam_guide_202603.pdf"
+    ]
+   }
+  },
+  "sources": [
+   "https://www.kwansei.ac.jp/admissions/assets/kwansei_general_admission_exam_guide_202603.pdf",
+   "https://manabi.benesse.ne.jp/daigaku/school/3694/nyushi/gokaku-happyo/index.html",
+   "https://manabi.benesse.ne.jp/daigaku/school/3694/nyushi/hoshiki/ippan/"
+  ]
+ },
+ {
+  "name": "鶴見大学",
+  "story": {
+   "summary": "鶴見大学は文学部と歯学部の2学部の大学で、文学部には図書館・情報を扱うドキュメンテーション学科と、実物にふれて学ぶ文化財学科があります。司書や学芸員の資格を生かす道、歯科医師をめざす道があり、キャンパスはJR鶴見駅から歩いて通える横浜市内にあります。",
+   "only": [
+    {
+     "t": "文学部ドキュメンテーション学科は「日本では類を見ない」学科として紹介され、デジタル時代の司書（デジタルライブラリアン）の育成に力を入れている。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3373/gakubu/gakubudt/01.html"
+    },
+    {
+     "t": "文化財学科は歴史・考古・美術史・文化財科学をまとめて学び、「実物・実地・実体験」を重んじる学び方をとっている（学芸員の資格も取れる）。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3373/gakubu/gakubudt/01.html"
+    },
+    {
+     "t": "大学院の文学研究科に日本文学・英米文学・文化財学・ドキュメンテーションの4専攻があり、学部の学びをそのまま大学院で深められる。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3373/gakubu/gakubudt/01.html"
+    }
+   ],
+   "vs": [
+    {
+     "u": "神奈川歯科大学",
+     "t": "同じ神奈川県の私立歯学部でも、神奈川歯科大学は横須賀キャンパスで初年度納入金が約395万円、鶴見大学歯学部は横浜市鶴見区のJR鶴見駅西口徒歩5分で初年度約350万円（2026年度）。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3364/gakuhi/"
+    }
+   ]
+  }
+ },
+ {
+  "name": "駒沢女子大学",
+  "story": {
+   "summary": "駒沢女子大学は道元禅師の教えを建学の精神とする女子大学で、東京都稲城市の緑に囲まれた1つのキャンパスに共創文化・観光文化・空間デザイン・人間健康・看護の5学部が集まっています。看護師・管理栄養士などの専門職から、旅行・観光、建築・インテリアまで、企業や自治体と組んだ実践的な学びを通して進路を考えられます。",
+   "only": [
+    {
+     "t": "道元禅師の教えを源とする「正念」「行学一如」を建学の精神とし、学内の照心館にある座禅堂で座禅の作法を学べる。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3249/"
+    },
+    {
+     "t": "空間デザイン学部に建築デザイン・インテリアデザインの2コースがあり、学生が賃貸住宅の内装を提案する改修課題「コマジョスタイル」など企業と組んだ課題に取り組む。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3249/"
+    },
+    {
+     "t": "看護学科で看護師、健康栄養学科で管理栄養士の養成をめざし、スポーツ選手の栄養を支える「アスリート栄養サポートプロジェクト」もある。",
+     "src": "https://manabi.benesse.ne.jp/daigaku/school/3249/"
+    }
+   ],
+   "vs": [
+    {
+     "u": "跡見学園女子大学",
+     "t": "同じ首都圏の女子大学で観光系の学部を持つ跡見学園女子大学は文京・新座の2キャンパスで学ぶが、駒沢女子大学は稲城市の1キャンパスに観光文化のほか看護・健康栄養・空間デザインの学部がそろう。",
+     "src": "https://www.atomi.ac.jp/univ/"
+    }
+   ]
+  }
+ },
+ {
+  "name": "日本ウェルネススポーツ大学",
+  "info": {
+   "money_replace": {
+    "year": "2026年度",
+    "admission": 220000,
+    "annual": null,
+    "note": "入学金220,000円・授業料780,000円・施設設備費300,000円（通学課程、1年次計1,300,000円）を大学公式「日本ウェルネススポーツ大学の魅力」の学費表で確認（2026-11-27、ページに年度の記載なし）。1年次は分納も可（入学手続き時780,000円＋9月末300,000円）。公式は「その他必要な諸費用あり」とし金額の記載なし。諸経費等132,000円（2025年度参考）・課外クラブ所属者のスポーツ強化費（年間145,000円）はKei-Net（2026年度入学者用）の値で大学公式は未確認。通信教育課程は入学金120,000円・授業料500,000円・施設設備費280,000円（公式）。",
+    "rows": [
+     {
+      "f": "スポーツプロモーション学部",
+      "admission": 220000,
+      "tuition": 780000,
+      "facility": 300000,
+      "practical": null,
+      "other": null,
+      "first_year": 1300000,
+      "four_year": null
+     }
+    ]
+   },
+   "_src": {
+    "money": [
+     "https://www.nihonwellness.jp/information/appeal.html"
+    ]
+   }
+  },
+  "sources": [
+   "https://www.nihonwellness.jp/information/appeal.html",
+   "https://www.nihonwellness.jp/information/disclosure.html",
+   "https://www.nihonwellness.jp/admission/ippan.html",
+   "https://www.nihonwellness.jp/gakubu/juken.html"
+  ]
+ },
+ {
+  "name": "京都大学",
+  "info": {
+   "scholar_replace": {
+    "year": "2026年度",
+    "rows": [
+     {
+      "name": "京都大学久能賞",
+      "kind": "給付",
+      "target": "全学部",
+      "amount": "年120万円（1年間、採用人数で変動あり）",
+      "timing": "在学中（8月下旬〜9月下旬に申込、2025年度実績）",
+      "cond": "科学・技術分野で独創的な夢を持ち、地球規模の課題解決に貢献したい女子学生。次年度も在籍すること。1〜2名程度（大学公式では未確認・Kei-Net）"
+     },
+     {
+      "name": "京都大学CFプロジェクト奨学金（在学採用）",
+      "kind": "給付",
+      "target": "全学部",
+      "amount": "月5万円（年60万円）。4年制学部は3・4年次の2年間、6年制学部は4〜6年次の3年間",
+      "timing": "在学中（4年制は3年次・6年制は4年次に申請。2026年度は4/27〜5/8にWeb申請）",
+      "cond": "学業基準と家計基準を満たす者。学部の採用予定はニトリchair約35名（2026年度）"
+     }
+    ],
+    "note": "CFプロジェクト奨学金は大学公式「令和8年度 京都大学CFプロジェクト奨学金（在学採用）の申請について」で確認（2026-11-27）。旧データの「100名程度・最短修業年限まで」は公式では学部は約35名・2〜3年間。久能賞はKei-Net（旺文社）の情報で大学公式は未確認。"
+   },
+   "_src": {
+    "scholar": [
+     "https://www.kyoto-u.ac.jp/ja/news/2026-04-16"
+    ]
+   }
+  },
+  "sources": [
+   "https://www.kyoto-u.ac.jp/ja/news/2026-04-16",
+   "https://www.kyoto-u.ac.jp/ja/admissions/undergrad/statistics",
+   "https://www.kyoto-u.ac.jp/ja/admissions/undergrad/statistics/archive"
+  ]
+ }
+]
