@@ -207,15 +207,19 @@
    "wait": {
     "ratios": "公式の入試情報ページに入試結果の掲載なし",
     "eng": "募集要項・入試日程ページとも英語外部試験の記載なし"
-   }
+   },
+   "fails": 1
   },
   {
    "name": "日本国際学園大学",
    "pages": {
-    "admission": "",
-    "yoko": "",
-    "result": ""
-   }
+    "admission": "https://www.japan-iu.ac.jp/admission/",
+    "yoko": "https://www.japan-iu.ac.jp/wp/wp-content/uploads/2026/06/45821af1805ea76811a830cfd886c4a3.pdf",
+    "result": "",
+    "fee": "https://www.japan-iu.ac.jp/admission/fee/",
+    "oc": "https://www.japan-iu.ac.jp/opencampus/"
+   },
+   "fails": 1
   },
   {
    "name": "日本ウェルネススポーツ大学",
