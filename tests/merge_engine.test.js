@@ -112,6 +112,22 @@ const tests = {
     assert.strictEqual(r[0].parttime, true);
     assert.strictEqual(r[0].infoWarn, false);
   },
+  test_half_class_busy_at_P(){
+    // 2-1 文 は月1に英語(A)、2-1 理 は月1に物理(P)。2-1 全体の体育(C)を月1へ移すと理系が重なる
+    const me = L('A',2,1,'Mon',1,'英語','文');
+    const ls = [me, L('P',2,1,'Mon',1,'物理','理'), L('C',2,1,'Tue',2,'体育',''), L('B',2,2,'Tue',2,'英語','文')];
+    assert.strictEqual(find(me, makeEnv(ls)).length, 0);
+  },
+  test_info_check_ignores_merge_arrival(){
+    const me = L('A',1,1,'Mon',1,'情報');
+    const ls = [me, L('B',1,2,'Tue',2,'情報'), L('C',1,1,'Tue',2,'数学')];
+    const env = makeEnv(ls);
+    const seen = [];
+    env.infoRoomConflict = moves => { seen.push(moves); return moves.some(m => m.lesson === me && m.toDay === 'Tue'); };
+    const r = find(me, env);
+    assert.strictEqual(r.length, 1);
+    assert.strictEqual(r[0].infoWarn, false);
+  },
   test_sort(){
     const me = L('A',1,1,'Wed',3,'英語');
     const ls = [me,

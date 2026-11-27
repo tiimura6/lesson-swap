@@ -11091,11 +11091,16 @@
         // q の担当者（教員A を除く）が元のコマで空いていること
         var busy = qTeachers.some(function(t){ return t !== A && env.teacherHasSlot(t, me.day, me.period); });
         if (busy) return;
+        // 移す授業 q の生徒が元のコマPに受けている授業は me だけであること（文理の片方に別の授業があれば重なる）
+        var clashAtP = lessons.some(function(l){
+          return l.day === me.day && l.period === me.period && sameStudents(q, l) && sig(l) !== sig(me);
+        });
+        if (clashAtP) return;
 
         var eventWarn = qTeachers.some(function(t){ return env.hasAnyEvent(t, me.day, me.period); });
         var parttime = parttimeT || qTeachers.some(env.isParttimeTeacher);
+        // me は合流先と同じ教室に入るので、情報教室の判定には q の移動だけを使う
         var infoWarn = !!env.infoRoomConflict([
-          { lesson: me, toDay: o.day, toPeriod: o.period },
           { lesson: q,  toDay: me.day, toPeriod: me.period }
         ]);
         out.push({ kind:'move', target:o, targetTeachers:targetTeachers, moved:q, movedTeachers:qTeachers,
@@ -11193,7 +11198,7 @@
 
     function rowData(me, c){
       return {
-        key: 'merge_' + me.day + me.period + '_' + lessonKey(c.target),
+        key: 'merge_' + me.teacher + '_' + lessonKey(me) + '_' + lessonKey(c.target),
         kind: c.kind === 'same' ? '同じコマ' : 'コマ移動',
         origin: slot(me) + '　' + cls(me) + '　' + (me.subject || '') + '（' + me.teacher + '）',
         target: slot(c.target) + '　' + cls(c.target) + '　' + (c.target.subject || '') + '（' + c.targetTeachers.join('・') + '）',
