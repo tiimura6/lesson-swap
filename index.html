@@ -827,18 +827,6 @@
 
     /* ===== 見やすさ・スマホ/タブレット対応（表の大きさを揃え、はみ出す文字は自動で縮小） ===== */
     .class-tt-container { display:block; max-width:none; width:100%; box-sizing:border-box; }
-    #mergePanel { margin-top:6px; padding:12px 14px; border:1px solid #cfd8dc; border-radius:8px; background:#fff; }
-    #mergePanel .mg-lead { margin:0 0 8px; }
-    #mergePanel .mg-controls { display:flex; flex-wrap:wrap; gap:10px 18px; align-items:center; }
-    #mergePanel .mg-controls select { max-width:100%; }
-    #mergePanel .mg-note { margin:10px 0; padding:6px 10px; background:#fff8e1; border-left:4px solid #f9a825; font-size:0.92rem; }
-    #mergePanel .mg-table { width:100%; border-collapse:collapse; font-size:0.95rem; }
-    #mergePanel .mg-table th, #mergePanel .mg-table td { border:1px solid #cfd8dc; padding:6px; vertical-align:top; text-align:left; }
-    #mergePanel .mg-table th { background:#eceff1; }
-    #mergePanel .mg-kind-same { color:#2e7d32; font-weight:700; }
-    #mergePanel .mg-empty { padding:10px; color:#555; }
-    #mergePanel .mg-printbar { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:12px; }
-    @media (max-width:700px){ #mergePanel .mg-table { font-size:0.82rem; } #mergePanel .mg-table th, #mergePanel .mg-table td { padding:3px; } }
     #viewClass #classTtPanel { margin-top:6px; padding:12px 14px; border-color:#cfd8dc; border-radius:8px; background:#fff; }
     #viewClass .class-tt-table { font-size:1rem; }
     #viewClass .class-tt-table th { font-size:1rem; padding:6px; }
@@ -1583,7 +1571,6 @@
   <div class="ttg-bar"><div class="ttg-seg" role="tablist" aria-label="授業・時間割の画面">
     <button type="button" role="tab" data-go="swap" aria-selected="true">🔁 授業交換</button>
     <button type="button" role="tab" data-go="class" aria-selected="false">📋 クラス別時間割</button>
-    <button type="button" role="tab" data-go="merge" aria-selected="false">🤝 合同化</button>
   </div><button type="button" class="rec-btn" data-rec-open="swap">📁 保存した授業交換</button></div>
   <div id="swapBoard">
   <div id="swapCalSlot"></div>
@@ -1654,7 +1641,6 @@
   <div class="ttg-bar"><div class="ttg-seg" role="tablist" aria-label="授業・時間割の画面">
     <button type="button" role="tab" data-go="swap" aria-selected="false">🔁 授業交換</button>
     <button type="button" role="tab" data-go="class" aria-selected="true">📋 クラス別時間割</button>
-    <button type="button" role="tab" data-go="merge" aria-selected="false">🤝 合同化</button>
   </div></div>
   <button id="toggleClassTtBtn" type="button" class="btn" aria-controls="classTtPanel" aria-expanded="true" style="display:none;">
     クラス別時間割を非表示
@@ -1680,29 +1666,6 @@
     <div id="classTtTableContainer" class="class-tt-container"></div>
   </div>
   </div><!-- /viewClass -->
-
-  <div id="viewMerge" class="view hidden">
-  <div class="ttg-bar"><div class="ttg-seg" role="tablist" aria-label="授業・時間割の画面">
-    <button type="button" role="tab" data-go="swap" aria-selected="false">🔁 授業交換</button>
-    <button type="button" role="tab" data-go="class" aria-selected="false">📋 クラス別時間割</button>
-    <button type="button" role="tab" data-go="merge" aria-selected="true">🤝 合同化</button>
-  </div></div>
-  <div id="mergePanel">
-    <p class="mg-lead">自分の授業を、別クラスの同じ科目の授業に合流させて合同にする候補を探します。</p>
-    <div class="mg-controls">
-      <label>担当者：<select id="mergeTeacher" disabled><option value="">時間割を読み込んでください</option></select>
-        <input id="mergeTeacherSearch" class="search-input" type="text" placeholder="名前で絞り込み" aria-label="担当者検索" /></label>
-      <label>授業：<select id="mergeLesson" disabled><option value="">先に担当者を選んでください</option></select></label>
-    </div>
-    <p class="mg-note">※ 進度・教科書・教室の定員を確認してください（選択科目・習熟度別は時間割から判別できません）</p>
-    <div id="mergeResult"></div>
-    <div class="mg-printbar">
-      <span>選んだ候補：<b id="mergeSelCount">0</b>件</span>
-      <button type="button" class="btn" id="mergePrintBtn" disabled>🖨 選んだ候補を印刷</button>
-      <button type="button" class="btn" id="mergeClearBtn" disabled>選択をすべて外す</button>
-    </div>
-  </div>
-  </div><!-- /viewMerge -->
 
 
   <div id="viewTS" class="view hidden">
@@ -2011,7 +1974,7 @@
   // ===== 画面（タブ）切り替え =====
   (function(){
     const tabs = Array.from(document.querySelectorAll('#viewTabs .vtab'));
-    const views = { home: 'viewHome', swap: 'viewSwap', 'class': 'viewClass', merge: 'viewMerge', clean: 'viewClean', exam: 'viewExam', univ: 'viewUniv', 'univ-ai': 'viewUniv', 'univ-plan': 'viewUniv', 'univ-trend': 'viewUniv', 'univ-kyotsu': 'viewUniv', ts: 'viewTS' };
+    const views = { home: 'viewHome', swap: 'viewSwap', 'class': 'viewClass', clean: 'viewClean', exam: 'viewExam', univ: 'viewUniv', 'univ-ai': 'viewUniv', 'univ-plan': 'viewUniv', 'univ-trend': 'viewUniv', 'univ-kyotsu': 'viewUniv', ts: 'viewTS' };
     // カレンダーは1つだけ。ホームでは「カレンダー（左）＋その日の予定と時間割（右）」を大きく、
     // 授業交換タブでは従来どおり右上に小さく表示（印刷の実施日指定に使うため）
     function placeCalendar(name){
@@ -2028,7 +1991,7 @@
       }
     }
     // 1つのタブの中で切り替える画面のまとまり（授業交換とクラス別時間割）
-    const GROUP = { swap: 'tt', 'class': 'tt', merge: 'tt' };
+    const GROUP = { swap: 'tt', 'class': 'tt' };
     let firstShow = true;
     function show(name, push){
       if(!views[name]) name = 'home';
@@ -7572,11 +7535,6 @@
       });
       enableTeacherSelects(sorted);
 
-      // 合同化画面（別 script）に時間割と判定の部品を渡す
-      window.ttTeacherList = () => sorted.slice();
-      window.ttMergeEnv = () => ({ lessons, teacherHasSlot, hasAnyEvent, isParttimeTeacher, getAllTeachersForLesson, infoRoomConflict });
-      try { document.dispatchEvent(new Event('tt-lessons-updated')); } catch(e){}
-
       // クラス別時間割の候補も更新
       rebuildClassTtOptions();
     }
@@ -7992,7 +7950,6 @@
     function teacherNameKey(n){
       return String(n == null ? "" : n).replace(/[\s\u3000]+/g, "").replace(/髙/g, "高").replace(/﨑/g, "崎").replace(/德/g, "徳").replace(/邊|邉/g, "辺").replace(/齋|齊/g, "斎").replace(/濵/g, "浜");
     }
-    window.ttTeacherNameKey = teacherNameKey;
     function filterAndPopulateTeacherOptions(sel, list, term, placeholder, keepValue){
       sel.innerHTML = "<option value=\"\">" + placeholder + "</option>";
       const t = teacherNameKey(term);
@@ -11047,263 +11004,6 @@
       recordCsvLoad();
       renderUpdateInfo();
     });
-  </script>
-  <script id="mergeEngine">
-  // ===== 合同化の判定エンジン（別クラスの同じ科目の授業に合流） =====
-  // 画面や本体の変数には触れない。必要な部品は env で受け取る（tests/merge_engine.test.js でテスト）。
-  (function(){
-    var DAY_ORDER = { Mon:1, Tue:2, Wed:3, Thu:4, Fri:5, Sat:6 };
-    function sig(l){ return [l.school||'', l.day, l.period, l.grade, l.class, l.course||'', l.subject||''].join('|'); }
-    function sameStudents(a, b){
-      if (a.school !== b.school || a.grade !== b.grade || a.class !== b.class) return false;
-      if (!(a.school === 'HS' && a.grade >= 2)) return true;
-      var ca = a.course || '', cb = b.course || '';
-      return !ca || !cb || ca === cb;
-    }
-    function courseOk(a, b){
-      if (!(a.school === 'HS' && a.grade >= 2)) return true;
-      var ca = a.course || '', cb = b.course || '';
-      return !ca || !cb || ca === cb;
-    }
-    function find(me, env){
-      if (!me || !env || !env.lessons) return [];
-      var lessons = env.lessons;
-      var A = me.teacher;
-      // 教員Aが同じコマ・同じ科目で別クラスも持つ＝合同授業は対象外
-      var meJoint = lessons.some(function(l){
-        return l.teacher === A && l.day === me.day && l.period === me.period &&
-               l.subject === me.subject && l.school === me.school && l.class !== me.class;
-      });
-      if (meJoint) return [];
-
-      var seen = {};
-      var out = [];
-      lessons.forEach(function(o){
-        if (o.school !== me.school || o.grade !== me.grade || o.subject !== me.subject) return;
-        if (o.class === me.class || !courseOk(me, o)) return;
-        var k = sig(o);
-        if (seen[k]) return;
-        seen[k] = true;
-        var targetTeachers = env.getAllTeachersForLesson(o) || [];
-        if (targetTeachers.indexOf(A) !== -1) return;
-        var parttimeT = targetTeachers.some(env.isParttimeTeacher);
-
-        if (o.day === me.day && o.period === me.period) {
-          out.push({ kind:'same', target:o, targetTeachers:targetTeachers, moved:null, movedTeachers:[],
-                     eventWarn:false, parttime:parttimeT, infoWarn:false });
-          return;
-        }
-        // 自分のクラスがコマYに受けている授業（q）
-        var qRows = lessons.filter(function(l){ return l.day === o.day && l.period === o.period && sameStudents(me, l); });
-        if (!qRows.length) return;
-        var qSigs = {};
-        qRows.forEach(function(l){ qSigs[sig(l)] = true; });
-        if (Object.keys(qSigs).length !== 1) return;
-        var q = qRows[0];
-        var qTeachers = env.getAllTeachersForLesson(q) || [];
-        // q が複数クラスの合同授業なら対象外
-        var qJoint = lessons.some(function(l){
-          return qTeachers.indexOf(l.teacher) !== -1 && l.day === q.day && l.period === q.period &&
-                 l.subject === q.subject && l.school === q.school && l.class !== q.class;
-        });
-        if (qJoint) return;
-        // q の担当者（教員A を除く）が元のコマで空いていること
-        var busy = qTeachers.some(function(t){ return t !== A && env.teacherHasSlot(t, me.day, me.period); });
-        if (busy) return;
-        // 移す授業 q の生徒が元のコマPに受けている授業は me だけであること（文理の片方に別の授業があれば重なる）
-        var clashAtP = lessons.some(function(l){
-          return l.day === me.day && l.period === me.period && sameStudents(q, l) && sig(l) !== sig(me);
-        });
-        if (clashAtP) return;
-
-        var eventWarn = qTeachers.some(function(t){ return env.hasAnyEvent(t, me.day, me.period); });
-        var parttime = parttimeT || qTeachers.some(env.isParttimeTeacher);
-        // me は合流先と同じ教室に入るので、情報教室の判定には q の移動だけを使う
-        var infoWarn = !!env.infoRoomConflict([
-          { lesson: q,  toDay: me.day, toPeriod: me.period }
-        ]);
-        out.push({ kind:'move', target:o, targetTeachers:targetTeachers, moved:q, movedTeachers:qTeachers,
-                   eventWarn:eventWarn, parttime:parttime, infoWarn:infoWarn });
-      });
-
-      function rank(c){
-        if (c.kind === 'same') return 0;
-        return (c.eventWarn || c.parttime || c.infoWarn) ? 2 : 1;
-      }
-      out.sort(function(a, b){
-        return rank(a) - rank(b) ||
-               (DAY_ORDER[a.target.day]||9) - (DAY_ORDER[b.target.day]||9) ||
-               a.target.period - b.target.period ||
-               String(a.target.class).localeCompare(String(b.target.class), 'ja', { numeric:true });
-      });
-      return out;
-    }
-    window.MergeEngine = { find: find };
-  })();
-  </script>
-  <script>
-  // ===== 合同化タブ（画面・専用の選択と印刷。授業交換の印刷カートとは共有しない） =====
-  (function(){
-    var DAY_JA = { Mon:'月', Tue:'火', Wed:'水', Thu:'木', Fri:'金', Sat:'土' };
-    var DAY_ORDER = { Mon:1, Tue:2, Wed:3, Thu:4, Fri:5, Sat:6 };
-    var INFO_WARN = '（※情報教室の重複に注意）';
-    var tSel = document.getElementById('mergeTeacher');
-    var lSel = document.getElementById('mergeLesson');
-    var result = document.getElementById('mergeResult');
-    var cntEl = document.getElementById('mergeSelCount');
-    var printBtn = document.getElementById('mergePrintBtn');
-    var clearBtn = document.getElementById('mergeClearBtn');
-    if (!tSel || !lSel || !result) return;
-    var picked = new Map();   // key -> 印刷用の行データ
-    var current = [];         // 表示中の候補
-
-    function esc(v){ return String(v == null ? '' : v).replace(/[&<>"']/g, function(c){ return { '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]; }); }
-    function slot(l){ return (DAY_JA[l.day] || l.day) + l.period + '限'; }
-    function cls(l){ return (l.school === 'JH' ? '中' : '高') + l.grade + '-' + l.class + (l.course ? '（' + l.course + '）' : ''); }
-    function lessonKey(l){ return [l.school, l.day, l.period, l.grade, l.class, l.course || '', l.subject || ''].join('|'); }
-    function env(){ return window.ttMergeEnv ? window.ttMergeEnv() : null; }
-
-    var sIn = document.getElementById('mergeTeacherSearch');
-    function nameKey(n){ return window.ttTeacherNameKey ? window.ttTeacherNameKey(n) : String(n || '').trim(); }
-    // 名前欄の文字で候補を絞り、名前が一致するか1人だけなら自動で選ぶ。pickFirst のときはいちばん上を選ぶ
-    function fillTeachers(pickFirst){
-      var all = window.ttTeacherList ? window.ttTeacherList() : [];
-      var term = nameKey(sIn ? sIn.value : '');
-      var list = term ? all.filter(function(t){ return nameKey(t).indexOf(term) >= 0; }) : all;
-      var keep = tSel.value;
-      tSel.innerHTML = '';
-      if (!all.length) {
-        tSel.appendChild(new Option('時間割を読み込んでください', ''));
-        tSel.disabled = true;
-      } else if (!list.length) {
-        tSel.appendChild(new Option('該当する先生がいません', ''));
-        tSel.disabled = true;
-      } else {
-        tSel.appendChild(new Option('担当者を選択', ''));
-        list.forEach(function(t){ tSel.appendChild(new Option(t, t)); });
-        tSel.disabled = false;
-        var exact = term ? list.find(function(t){ return nameKey(t) === term; }) : null;
-        if (exact) tSel.value = exact;
-        else if (keep && list.indexOf(keep) !== -1) tSel.value = keep;
-        else if (term && (list.length === 1 || pickFirst)) tSel.value = list[0];
-      }
-      fillLessons();
-    }
-    if (sIn) {
-      var sTimer = null;
-      sIn.addEventListener('input', function(){ clearTimeout(sTimer); sTimer = setTimeout(function(){ fillTeachers(false); }, 250); });
-      sIn.addEventListener('keydown', function(e){
-        if (e.key !== 'Enter' || e.isComposing) return;
-        e.preventDefault(); clearTimeout(sTimer); fillTeachers(true);
-      });
-    }
-
-    function fillLessons(){
-      var e = env();
-      var t = tSel.value;
-      var keep = lSel.value;
-      lSel.innerHTML = '';
-      if (!e || !t) {
-        lSel.appendChild(new Option('先に担当者を選んでください', ''));
-        lSel.disabled = true;
-        render();
-        return;
-      }
-      var mine = e.lessons.filter(function(l){ return l.teacher === t; });
-      // 同じコマ・同じ科目で2クラス以上＝合同授業は選べない
-      var single = mine.filter(function(l){
-        return !mine.some(function(x){ return x !== l && x.day === l.day && x.period === l.period && x.subject === l.subject && x.school === l.school && x.class !== l.class; });
-      });
-      single.sort(function(a, b){ return (DAY_ORDER[a.day]||9) - (DAY_ORDER[b.day]||9) || a.period - b.period; });
-      if (!single.length) {
-        lSel.appendChild(new Option('単独の授業がありません', ''));
-        lSel.disabled = true;
-      } else {
-        lSel.appendChild(new Option('授業を選択', ''));
-        single.forEach(function(l){ lSel.appendChild(new Option(slot(l) + '　' + cls(l) + '　' + (l.subject || ''), lessonKey(l))); });
-        lSel.disabled = false;
-        if (keep && single.some(function(l){ return lessonKey(l) === keep; })) lSel.value = keep;
-      }
-      render();
-    }
-
-    function selectedLesson(){
-      var e = env();
-      if (!e || !lSel.value) return null;
-      var t = tSel.value;
-      return e.lessons.find(function(l){ return l.teacher === t && lessonKey(l) === lSel.value; }) || null;
-    }
-
-    function rowData(me, c){
-      return {
-        key: 'merge_' + me.teacher + '_' + lessonKey(me) + '_' + lessonKey(c.target),
-        kind: c.kind === 'same' ? '同じコマ' : 'コマ移動',
-        origin: slot(me) + '　' + cls(me) + '　' + (me.subject || '') + '（' + me.teacher + '）',
-        target: slot(c.target) + '　' + cls(c.target) + '　' + (c.target.subject || '') + '（' + c.targetTeachers.join('・') + '）',
-        moved: c.moved ? cls(c.moved) + '　' + (c.moved.subject || '') + '（' + c.movedTeachers.join('・') + '）　' + slot(c.moved) + ' ➔ ' + slot(me) : '移動なし',
-        warn: [c.eventWarn ? '研修・会議あり' : '', c.parttime ? '非常勤' : '', c.infoWarn ? INFO_WARN : ''].filter(Boolean).join('／'),
-        rowClass: c.parttime ? 'parttime-row' : (c.eventWarn ? 'training-conflict' : '')
-      };
-    }
-
-    function render(){
-      var e = env();
-      if (!e || !e.lessons || !e.lessons.length) { result.innerHTML = '<div class="mg-empty">時間割を読み込んでください</div>'; current = []; updateBar(); return; }
-      var me = selectedLesson();
-      if (!me) { result.innerHTML = ''; current = []; updateBar(); return; }
-      var cands = window.MergeEngine ? window.MergeEngine.find(me, e) : [];
-      current = cands.map(function(c){ return rowData(me, c); });
-      if (!current.length) { result.innerHTML = '<div class="mg-empty">合流できる授業はありません</div>'; updateBar(); return; }
-      var h = '<table class="mg-table"><thead><tr><th>選択</th><th>種類</th><th>合流先</th><th>移す授業</th><th>警告</th></tr></thead><tbody>';
-      current.forEach(function(r, i){
-        h += '<tr class="' + r.rowClass + '"><td><input type="checkbox" class="mg-cb" data-i="' + i + '"' + (picked.has(r.key) ? ' checked' : '') + ' aria-label="この候補を選ぶ"></td>' +
-             '<td' + (r.kind === '同じコマ' ? ' class="mg-kind-same"' : '') + '>' + esc(r.kind) + '</td>' +
-             '<td>' + esc(r.target) + '</td><td>' + esc(r.moved) + '</td><td>' + esc(r.warn) + '</td></tr>';
-      });
-      result.innerHTML = h + '</tbody></table>';
-      updateBar();
-    }
-
-    function updateBar(){
-      if (cntEl) cntEl.textContent = picked.size;
-      if (printBtn) printBtn.disabled = picked.size === 0;
-      if (clearBtn) clearBtn.disabled = picked.size === 0;
-    }
-
-    result.addEventListener('change', function(ev){
-      var cb = ev.target;
-      if (!cb.classList || !cb.classList.contains('mg-cb')) return;
-      var r = current[Number(cb.dataset.i)];
-      if (!r) return;
-      if (cb.checked) picked.set(r.key, r); else picked.delete(r.key);
-      updateBar();
-    });
-
-    clearBtn && clearBtn.addEventListener('click', function(){ picked.clear(); render(); });
-
-    printBtn && printBtn.addEventListener('click', function(){
-      if (!picked.size) return;
-      var rows = Array.from(picked.values());
-      var h = '<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><title>合同化の候補</title><style>' +
-        'body{font-family:sans-serif;margin:16px;}h1{font-size:1.2rem;}table{width:100%;border-collapse:collapse;font-size:0.95rem;}' +
-        'th,td{border:1px solid #888;padding:6px;text-align:left;vertical-align:top;}th{background:#eee;}' +
-        '.note{margin:8px 0;font-size:0.9rem;}</style></head><body><h1>合同化の候補</h1>' +
-        '<p class="note">※ 進度・教科書・教室の定員を確認してください</p>' +
-        '<table><thead><tr><th>元の授業</th><th>種類</th><th>合流先</th><th>移す授業</th><th>警告</th></tr></thead><tbody>';
-      rows.forEach(function(r){ h += '<tr><td>' + esc(r.origin) + '</td><td>' + esc(r.kind) + '</td><td>' + esc(r.target) + '</td><td>' + esc(r.moved) + '</td><td>' + esc(r.warn) + '</td></tr>'; });
-      h += '</tbody></table></body></html>';
-      var w = window.open('', '_blank');
-      if (!w) { alert('印刷用の画面を開けませんでした。ポップアップを許可してください。'); return; }
-      w.document.open(); w.document.write(h); w.document.close();
-      w.focus();
-      setTimeout(function(){ try { w.print(); } catch(e){} }, 300);
-    });
-
-    tSel.addEventListener('change', fillLessons);
-    lSel.addEventListener('change', render);
-    document.addEventListener('tt-lessons-updated', function(){ fillTeachers(false); });
-    fillTeachers(false);
-  })();
   </script>
   <script>
   // ===== カレンダー（今日／時間割切替日のハイライト） =====
