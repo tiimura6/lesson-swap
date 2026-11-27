@@ -142,7 +142,7 @@ def pick(n):
         if e.get('skip'): continue
         nm = e['name']; rec = info.get(nm) or {}
         ks = kinds(rec, hp.get(nm, ''))
-        todo = [f for f in PRIMARY_FIELDS if not done_ok(f, ks.get(f))]
+        todo = [f for f in PRIMARY_FIELDS if not done_ok(f, ks.get(f)) and f not in (e.get('wait') or {})]  # 公式の公表待ち（wait）は選ばない
         if not todo: continue
         out.append({'name': nm, 'hp': hp.get(nm, ''), 'todo': todo, 'pages': e.get('pages', {}), 'fails': e.get('fails', 0)})
     out.sort(key=lambda x: x['fails'] >= 2)  # 2回取れなかった学校は後回し（並びは台帳の順）
