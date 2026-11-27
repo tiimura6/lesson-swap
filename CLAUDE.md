@@ -46,7 +46,7 @@ GitHub Pages: https://tiimura6.github.io/lesson-swap/
 - 授業交換は印刷用の選択（`window.ttPrintCart`）を保存・復元。清掃当番は `seisou_touban_app_v6_proposal`、試験監督は `examProctor_v1` の中身を丸ごと保存し、開くときはそのキーに戻して再読み込みする。これらのキーや保存形式を変えるときは、古い記録が開けるか確かめる。
 
 ## 用語
-- 進路面談では「滑り止め」を使わず「安全校」に統一する。
+- 進路面談では「滑り止め」「安全校」を使わず「有望校」に統一する（2026-11-27 先生の依頼）。
 
 ## コミット
 作者は `tiimura6 <tiimura6@icc.ac.jp>`。
