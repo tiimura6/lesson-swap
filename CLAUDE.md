@@ -3,7 +3,8 @@
 GitHub Pages: https://tiimura6.github.io/lesson-swap/
 
 ## 構成
-- `index.html`：飯村システム本体。1ファイル構成。タブは ホーム／授業・時間割（中で 授業交換／クラス別時間割 を切り替え）／大学・進路／清掃当番作成／試験監督割当。1つのタブで複数画面を切り替える仕組みはタブ切替 script の `GROUP`（授業・時間割）と、大学・進路の script（Searchuniv）。
+- `index.html`：飯村システム本体。1ファイル構成。タブは ホーム／授業・時間割（中で 授業交換／クラス別時間割／合同化 を切り替え）／大学・進路／清掃当番作成／試験監督割当。1つのタブで複数画面を切り替える仕組みはタブ切替 script の `GROUP`（授業・時間割）と、大学・進路の script（Searchuniv）。
+- 「🤝 合同化」画面（授業・時間割タブの3つ目、`#viewMerge`、2026-11-27 先生の依頼）：単独授業を、別クラスの同じ科目の授業に合流させる候補を出す。判定は `<script id="mergeEngine">` の `MergeEngine.find(me, env)`（画面・本体の変数に触れない純粋関数。本体の `rebuildLessons()` が `window.ttMergeEnv()`・`window.ttTeacherList()` を用意し `tt-lessons-updated` を送る）。画面は「合同化タブ」script。印刷の選択は授業交換の `printCart` とは別で、「保存した記録」には入れない。判定を直したら `node tests/merge_engine.test.js` を通す。
 - `searchuniv/`：大学検索アプリ Searchuniv 一式（2026-11-07 に tiimura6/searchuniv から統合。旧リポジトリは 2026-11-08 に削除）。飯村システムの「🎓 大学・進路」タブの中身（中で 大学検索／進路面談／大学比較／出題内容 を切り替える）。
   - 画面とロジックの元：`searchuniv/tools/template.html`。データ：`searchuniv/data/*.json`。
   - `python3 searchuniv/tools/build.py` で `searchuniv/index.html`（単体ページ）・`searchuniv/su-module.js`（飯村システム用）・`detail.json` などを生成する。生成物は直接編集しない。
