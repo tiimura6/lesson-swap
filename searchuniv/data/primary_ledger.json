@@ -202,10 +202,10 @@
     "admission": "https://a-ru.ac.jp/university/admission/index.html",
     "yoko": "https://a-ru.ac.jp/university/pdf/application/application.pdf",
     "result": "",
-    "exam_dates": "https://a-ru.ac.jp/university/admission/exam/"
+    "exam_dates": "https://a-ru.ac.jp/university/admission/exam/index.html"
    },
    "wait": {
-    "ratios": "公式の入試情報ページに入試結果の掲載なし",
+    "ratios": "公式の入試情報トップ・入試日程ページ・募集要項に入試結果の掲載なし（2026-11-27）",
     "eng": "募集要項・入試日程ページとも英語外部試験の記載なし"
    },
    "fails": 1
@@ -217,9 +217,15 @@
     "yoko": "https://www.japan-iu.ac.jp/wp/wp-content/uploads/2026/06/45821af1805ea76811a830cfd886c4a3.pdf",
     "result": "",
     "fee": "https://www.japan-iu.ac.jp/admission/fee/",
-    "oc": "https://www.japan-iu.ac.jp/opencampus/"
+    "oc": "https://www.japan-iu.ac.jp/opencampus/",
+    "yoko_bessi": "https://www.japan-iu.ac.jp/wp/wp-content/uploads/2026/06/c2576fb1ed62cf80e0766bec62893ec7.pdf",
+    "oc_form_tsukuba": "https://www.japan-iu.ac.jp/opencampus/oc-form2/tsukuba/",
+    "oc_form_sendai": "https://www.japan-iu.ac.jp/opencampus/oc-form2/sendai/"
    },
-   "fails": 1
+   "fails": 1,
+   "wait": {
+    "ratios": "公式の入試ページ・オープンキャンパスページに入試結果の掲載なし（2026-11-27）"
+   }
   },
   {
    "name": "日本ウェルネススポーツ大学",
