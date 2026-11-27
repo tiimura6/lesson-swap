@@ -190,17 +190,23 @@
     "common_test": "https://www.ktt.ac.jp/tiu/jyuken/2026/common-test-hs.htm",
     "recommend": "https://www.ktt.ac.jp/tiu/jyuken/2026/recommend-examination-hs.htm",
     "comprehensive": "https://www.ktt.ac.jp/tiu/jyuken/2026/comprehensive-type-hs.htm",
-    "fees": "https://www.ktt.ac.jp/tiu/jyuken/2026/tuition-fees-hs.htm"
+    "fees": "https://www.ktt.ac.jp/tiu/jyuken/2026/tuition-fees-hs.htm",
+    "opencampus": "https://ktt.ac.jp/tiu/open/opencampus.htm"
    },
-   "fails": 1,
-   "note": "2026-11-26 公式サイト www.ktt.ac.jp が自動取得を受け付けず（WebFetch は robots.txt を読めず ROBOTS_UNREACHABLE、直接接続もプロキシで 403）、内容を確認できなかった。URL は検索結果の題名から見つけたもので、jyuken/2026/ が何年度入試のページかは未確認。入試結果のページは検索で見つからなかった"
+   "fails": 2,
+   "note": "2026-11-27 公式サイトを自動取得できず（2026/2027入試日程ページは権限確認がタイムアウト、学納金ページは robots.txt 読み取り不可）"
   },
   {
    "name": "アール医療専門職大学",
    "pages": {
-    "admission": "",
-    "yoko": "",
-    "result": ""
+    "admission": "https://a-ru.ac.jp/university/admission/index.html",
+    "yoko": "https://a-ru.ac.jp/university/pdf/application/application.pdf",
+    "result": "",
+    "exam_dates": "https://a-ru.ac.jp/university/admission/exam/"
+   },
+   "wait": {
+    "ratios": "公式の入試情報ページに入試結果の掲載なし",
+    "eng": "募集要項・入試日程ページとも英語外部試験の記載なし"
    }
   },
   {
