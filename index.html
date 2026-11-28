@@ -7248,6 +7248,13 @@
       return Object.prototype.hasOwnProperty.call(TEACHER_NAME_ALIASES, t) ? TEACHER_NAME_ALIASES[t] : t;
     }
 
+    // 科目名の全角・半角の混在（英ＣⅠ/英CⅠ、数Ａ/数A、ＬＨＲ/LHR など）をそろえる。
+    // NFKC で正規化するが、ローマ数字（Ⅰ・Ⅱ…）は I・II にせずそのまま残す
+    function normalizeSubjectName(s){
+      if (s == null) return s;
+      return String(s).replace(/[^Ⅰ-ⅿ]+/g, x => x.normalize('NFKC'));
+    }
+
     function parseLessonsCore(text){
       const d = parseCSV(text);
       if(d.length<2) return [];
@@ -7268,7 +7275,7 @@
         course  : normalizeCourse(r[iCourse]),
         day     : normalizeDay(r[iD]),
         period  : parsePeriod(r[iP]),
-        subject : r[iS],
+        subject : normalizeSubjectName(r[iS]),
         group   : (iGrp>=0 ? (r[iGrp] || "") : "")
       })).filter(l =>
         l.teacher &&
@@ -7747,7 +7754,8 @@
           document.body.appendChild(a);
           a.click();
           document.body.removeChild(a);
-          URL.revokeObjectURL(url);
+          // クリック直後に解放するとダウンロードが始まらないブラウザがあるため、少し遅らせる
+          setTimeout(() => URL.revokeObjectURL(url), 1000);
         });
       });
     });
@@ -7789,10 +7797,12 @@
         cells.forEach(cell => {
           const subjEl = cell.querySelector('.class-tt-subject');
           const techEl = cell.querySelector('.class-tt-teacher');
-          
+          const roomEl = cell.querySelector('.class-tt-room');
+
           if (subjEl && techEl) {
-            // 科目名と教員名を改行コードで結合して1つのセルに収める
-            rowData.push(subjEl.textContent + "\n" + techEl.textContent);
+            // 科目名と教員名（移動教室があればその場所も）を改行コードで結合して1つのセルに収める
+            const roomTxt = roomEl ? Array.from(roomEl.childNodes).filter(n => n.nodeType === 3).map(n => n.textContent).join("\n") : "";
+            rowData.push(subjEl.textContent + "\n" + techEl.textContent + (roomTxt ? "\n" + roomTxt : ""));
           } else {
             rowData.push("");
           }
@@ -7866,30 +7876,22 @@
       const REPO = 'tiimura6/lesson-swap';
       const HEADERS = { 'Accept': 'application/vnd.github+json' };
       try {
-        // ① 総deployments数: per_page=1でLink headerのlastページ番号を参照
-        const countRes = await fetch(
+        // per_page=1 の1回の取得で、① 総deployments数（Link header の last ページ番号）と ② 最新deployment日時の両方を得る
+        const res = await fetch(
           `https://api.github.com/repos/${REPO}/deployments?per_page=1`,
           { headers: HEADERS }
         );
-        if (countRes.ok) {
-          const link = countRes.headers.get('Link') || '';
+        if (!res.ok) {
+          APP_LAST_UPDATED = '取得失敗';
+          APP_UPDATE_COUNT = '?';
+        } else {
+          const link = res.headers.get('Link') || '';
           const lastMatch = link.match(/[?&]page=(\d+)>;\s*rel="last"/);
-          if (lastMatch) {
-            APP_UPDATE_COUNT = parseInt(lastMatch[1], 10);
+          const deps = await res.json();
+          APP_UPDATE_COUNT = lastMatch ? parseInt(lastMatch[1], 10) : (Array.isArray(deps) ? deps.length : '?');
+          if (!Array.isArray(deps) || !deps.length) {
+            APP_LAST_UPDATED = '取得失敗';
           } else {
-            const deps = await countRes.json();
-            APP_UPDATE_COUNT = deps.length;
-          }
-        }
-
-        // ② 最新deployment日時（別リクエスト）
-        const latestRes = await fetch(
-          `https://api.github.com/repos/${REPO}/deployments?per_page=1`,
-          { headers: HEADERS }
-        );
-        if (latestRes.ok) {
-          const deps = await latestRes.json();
-          if (deps.length > 0) {
             const d = new Date(deps[0].created_at);
             const jst = new Date(d.getTime() + 9 * 60 * 60 * 1000);
             APP_LAST_UPDATED =
@@ -7978,7 +7980,7 @@
       lessonSelect.innerHTML = '<option value="">担当者を選んでください</option>';
       clearTables();
       updateTeacherATimetable();
-      printCart.clear();
+      // 印刷の選択（printCart）はここでは消さない（旧／新の時間割の切替でも選択を残す。消すのは「選択解除」など）
       updatePrintBarUI();
     }
 
@@ -8473,8 +8475,12 @@
           });
         }
 
+        // 共同担当の授業は担当者の人数分（＋合同の組の数）だけ poolBase に入るので、同じ授業は1回だけ候補にする
+        const seenOppUnits = new Set();
         poolBase.forEach(o => {
           if (o.day !== targetDay || o.period !== targetPeriod) return;
+          const oppUnitKey = Array.from(new Set(getUnitLessons(o).map(signatureKey))).sort().join('#') || signatureKey(o);
+          if (seenOppUnits.has(oppUnitKey)) return;
 
           const oppAllTeachers = getAllTeachersForLesson(o);
           const otherFree = !oppAllTeachers.some(t => teacherHasSlot(t, myDay, myPeriod));
@@ -8510,6 +8516,7 @@
             { lesson: o,  toDay: me.day,   toPeriod: me.period }
           ]);
           if (!compiled1to1.some(item => item.pId === pId)) {
+            seenOppUnits.add(oppUnitKey);
             compiled1to1.push({
               pId: pId, originText: currentOriginText, myMove: myMoveTxt, oppMove: oppMoveTxt,
               teacherLabel: teacherLabel, oppLessonText: withInfoWarn(renderLessonTextForResult(o), o, infoConf), myLessonText: withInfoWarn(renderMyLessonText(me), me, infoConf),
@@ -9158,7 +9165,7 @@
 
     // 選択中の授業を印刷バーに一覧表示し、1つずつ外せるようにする
     function cartLabel(it){
-      const t = s => String(s || '').replace(/\s+/g, ' ').trim();
+      const t = s => String(s || '').replace(/<br\s*\/?>/gi, ' / ').replace(/\s+/g, ' ').trim();
       const a = t(it.originLessonText), b = t(it.oppMove || it.myMove);
       return (a + (b ? ' ⇄ ' + b : '') + (it.oppNames ? '（' + t(it.oppNames) + '）' : '')) || it.pId;
     }
@@ -9190,10 +9197,19 @@
       if (window.refreshDatePanel) window.refreshDatePanel();
     }
 
+    // 印刷の選択は旧／新の時間割を切り替えても残るため、同じIDでも別の時間割で選んだものとは区別する。
+    // 表示中の時間割でそのIDに当たる printCart のキーを返す（無ければ null。tt の無い古い記録はどちらでも当たる）
+    function cartKeyOf(id) {
+      const it = printCart.get(id);
+      if (it && (!it.tt || it.tt === currentTimetable)) return id;
+      const alt = id + '~' + currentTimetable;
+      return printCart.has(alt) ? alt : null;
+    }
+
     function syncCheckboxesState() {
       const cbs = document.querySelectorAll('.print-row-cb');
       cbs.forEach(cb => {
-        cb.checked = printCart.has(cb.dataset.printId);
+        cb.checked = !!cartKeyOf(cb.dataset.printId);
       });
     }
 
@@ -9749,7 +9765,7 @@
           const infoConf3 = infoRoomConflict(planMoves3);
 
           const tr = document.createElement('tr');
-          const pId = `3way_${A3.day}${A3.period}_${B3.teacher}_${C3.teacher}_p${cand.patternId}`;
+          const pId = `3way_${A3.day}${A3.period}_${B3.teacher}_${B3.day}${B3.period}_${C3.teacher}_${C3.day}${C3.period}_p${cand.patternId}`;
 
           const tdCb = document.createElement('td');
           tdCb.className = 'print-checkbox-col';
@@ -9828,7 +9844,8 @@
           const teacherPartner = cand.teacherPartner;
 
           const row       = document.createElement('tr');
-          const pId = `chain_${me.day}${me.period}_${mainB.teacher}_idx${idx}`;
+          // 一覧の並び順（idx）ではなく、4つの授業のコマと担当でIDを作る（時間割を切り替えても別の案と混ざらない）
+          const pId = `chain_${me.day}${me.period}_${mainB.teacher}_${mainB.day}${mainB.period}_${blockLesson.teacher}_${blockLesson.day}${blockLesson.period}_${partner.teacher}_${partner.day}${partner.period}`;
 
           const moveDescTxt =
             `${stripHtmlTags(renderLessonTextForResult(blockLesson))} ➔ ${formatSlot(partner.day, partner.period)}<br>` +
@@ -9975,7 +9992,8 @@
           const ri  = cand.ri;
 
           const tr = document.createElement('tr');
-          const pId = `bunri_${me.day}${me.period}_${bun.teacher}_idx${idx}`;
+          // 一覧の並び順（idx）ではなく、文側・理側のコマと担当でIDを作る
+          const pId = `bunri_${me.day}${me.period}_${bun.teacher}_${bun.day}${bun.period}_${ri.teacher}`;
 
           const moveDesc =
             `${stripHtmlTags(renderLessonTextForResult(bun))} ➔ ${formatSlot(me.day, me.period)}<br>` +
@@ -9991,7 +10009,19 @@
           const encOppName = escapeHtmlAttr(totalBunriNames);
           const encOriginTeacher = escapeHtmlAttr(a);
 
-          tdCb.innerHTML = `<input type="checkbox" class="print-row-cb" data-print-id="${pId}" data-origin-lesson="${encOrigin}" data-my-move="${encMyMove}" data-opp-move="${encOppMove}" data-opp-names="${encOppName}" data-origin-teacher="${encOriginTeacher}">`;
+          // 連絡票用：A・文側・理側の3つの授業の移動（合同一括交換と同じ moves の形。makeSlipGroup で出す）
+          const tOf = (l, fb) => { const ts = getAllTeachersForLesson(l); return ts.length ? ts : [fb]; };
+          const bunriGroup = {
+            title: 'A⇔B＋C',
+            moves: [
+              { text: stripHtmlTags(renderMyLessonText(me)),           teachers: tOf(me, a),          from: formatSlot(me.day, me.period),   to: formatSlot(bun.day, bun.period) },
+              { text: stripHtmlTags(renderLessonTextForResult(bun)),   teachers: tOf(bun, bun.teacher), from: formatSlot(bun.day, bun.period), to: formatSlot(me.day, me.period) },
+              { text: stripHtmlTags(renderLessonTextForResult(ri)),    teachers: tOf(ri, ri.teacher),   from: formatSlot(ri.day, ri.period),   to: formatSlot(me.day, me.period) }
+            ]
+          };
+          const encSwapGroupBunri = escapeHtmlAttr(JSON.stringify(bunriGroup));
+
+          tdCb.innerHTML = `<input type="checkbox" class="print-row-cb" data-print-id="${pId}" data-origin-lesson="${encOrigin}" data-my-move="${encMyMove}" data-opp-move="${encOppMove}" data-opp-names="${encOppName}" data-origin-teacher="${encOriginTeacher}" data-swapgroup="${encSwapGroupBunri}">`;
 
 
 
@@ -10225,10 +10255,13 @@
         const cb = e.target.closest('.print-row-cb');
         if (!cb) return;
 
-        const pId = cb.dataset.printId;
+        const id = cb.dataset.printId;
         if (cb.checked) {
+          // 別の時間割で選んだ同じIDの案があれば、それを残したまま別のキーで加える
+          const pId = cartKeyOf(id) || (printCart.has(id) ? id + '~' + currentTimetable : id);
           printCart.set(pId, {
             pId: pId,
+            tt: currentTimetable,
             originLessonText: cb.dataset.originLesson,
             myMove: cb.dataset.myMove,
             oppMove: cb.dataset.oppMove,
@@ -10240,7 +10273,8 @@
             swapgroup: cb.dataset.swapgroup ? JSON.parse(cb.dataset.swapgroup) : null
           });
         } else {
-          printCart.delete(pId);
+          const key = cartKeyOf(id);
+          if (key) printCart.delete(key);
         }
         updatePrintBarUI();
       });
@@ -10274,17 +10308,22 @@
         return sel ? ul(sel.m, w) + '月' + ul(sel.d, w) + '日' : blank(w) + '月' + blank(w) + '日';
       }
 
+      // 組の表示（合同授業「4・5」「3文・4理」はすべての組の番号を「4・5」「3・4」のように並べる）
+      function classNumsOf(label) {
+        const nums = String(label || '').match(/\d+/g);
+        return nums ? Array.from(new Set(nums)).join('・') : String(label || '').trim();
+      }
+
       // 授業テキスト「【高】月3限2年7組（文）論表」をパース
       function parseLessonText(str) {
         const m = (str||'').match(/【(?:高|中)】([月火水木金土])(\d+)限(\d+)年([^組]+?)組(?:（([文理]+)）)?\s*(.+)?$/);
         if (!m) return {day:'', period:'', grade:'', classNum:'', bunri:'', subject:''};
         const clsLabel = (m[4]||'').trim();
-        const numMatch = clsLabel.match(/(\d+)/);
         return {
           day:      m[1],
           period:   m[2],
           grade:    m[3],
-          classNum: numMatch ? numMatch[1] : clsLabel,
+          classNum: classNumsOf(clsLabel),
           bunri:    m[5] || '',
           subject:  (m[6]||'').replace(/（合同）/g,'').replace(/\s*➔.*$/,'').trim()
         };
@@ -10297,14 +10336,13 @@
         );
         if (!m) return null;
         const classLabel = m[4];
-        const numMatch   = classLabel.match(/(\d+)/);
         const toM = m[7].match(/([月火水木金土])(\d+)限/);
         return {
           fromDay   : m[1], fromPeriod: m[2],
           grade     : m[3],
-          classNum  : numMatch ? numMatch[1] : classLabel,
+          classNum  : classNumsOf(classLabel),
           bunri     : m[5] || '',
-          subject   : m[6].trim(),
+          subject   : m[6].replace(/（合同）/g,'').trim(),
           toDay     : toM ? toM[1] : '',
           toPeriod  : toM ? toM[2] : ''
         };
@@ -10312,7 +10350,7 @@
 
       function getOppSubject(oppMove) {
         const m = (oppMove || '').match(/組(?:（[文理]+）)?\s*(.+?)\s*➔/);
-        return m ? m[1].trim() : '';
+        return m ? m[1].replace(/（合同）/g,'').trim() : '';
       }
 
       // 科目・担当者の行（合同授業で担当者が複数のときは別行にして、人数に応じて文字を小さく・折り返し可）
@@ -10368,26 +10406,32 @@
         sub2 = getOppSubject(item.oppMove || '');
         const bunriDisp = bunri==='文'?'<b>文</b>・理':bunri==='理'?'文・<b>理</b>':'文・理';
         const BOX='border:1.5px solid #000;padding:5px 8px;margin:3px 0;';
+        // 空きコマへそのまま移す案（交換なし）は、A の授業だけの連絡票にする（B 欄・B の実施日の枠は出さない）
+        const direct = String(item.pId || '').startsWith('direct_');
 
         function oneSlip() {
           return '<div style="border:2px solid #000;padding:8px 10px;font-size:12px;line-height:1.8;background:#fff;">'
-            + '<div style="text-align:center;font-size:14px;font-weight:bold;border-bottom:2px solid #000;padding-bottom:3px;margin-bottom:6px;letter-spacing:1px;">授業変更連絡<span style="' + NOTE + '">AB交換</span></div>'
+            + '<div style="text-align:center;font-size:14px;font-weight:bold;border-bottom:2px solid #000;padding-bottom:3px;margin-bottom:6px;letter-spacing:1px;">授業変更連絡<span style="' + NOTE + '">' + (direct ? '空きコマへ移動' : 'AB交換') + '</span></div>'
             + '<div style="' + ROW + '">担当者・教務・担任 ' + blank('5em') + '先生</div>'
             + '<div style="' + ROW + '">' + ul(grade,'2em') + '年 ' + ul(classNum,'2em') + '組 &nbsp;' + bunriDisp + '</div>'
             + badge('A')
             + '<div style="' + BOX + '">'
             +   '<div style="' + ROW + '">' + dateInputs(item, 'A', day1, per1, sub1) + '&nbsp;' + ul(day1,'1.5em') + '曜日&nbsp;' + ul(per1,'1.5em') + '時間目</div>'
             +   subjTeacherRows(sub1, teacher, ROW)
+            +   (direct ? '<div style="' + ROW + '">移動先 ➔ ' + ul(day2,'1.5em') + '曜日&nbsp;' + ul(per2,'1.5em') + '時間目（交換なし）</div>' : '')
             +   '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>'
             + '</div>'
-            + '<div style="text-align:center;font-size:20px;margin:1px 0;line-height:1;">⇅</div>'
+            + (direct ? '' : bPart())
+            + '<div style="border-top:1.5px solid #000;margin-top:5px;padding-top:4px;' + ROW + '">氏名 ' + (opNm ? filled('7em', opNm) : blank('7em')) + '&emsp;&emsp;' + filled('5em', new Date().getMonth()+1) + '月' + filled('5em', new Date().getDate()) + '日</div>'
+            + '</div>';
+        }
+        function bPart() {
+          return '<div style="text-align:center;font-size:20px;margin:1px 0;line-height:1;">⇅</div>'
             + badge('B')
             + '<div style="' + BOX + '">'
             +   '<div style="' + ROW + '">' + dateInputs(item, 'B', day2, per2, sub2) + '&nbsp;' + ul(day2,'1.5em') + '曜日&nbsp;' + ul(per2,'1.5em') + '時間目</div>'
             +   subjTeacherRows(sub2, oppTeacher, ROW)
             +   '<div style="' + ROW + '">場所 ' + blank('6em') + '</div>'
-            + '</div>'
-            + '<div style="border-top:1.5px solid #000;margin-top:5px;padding-top:4px;' + ROW + '">氏名 ' + (opNm ? filled('7em', opNm) : blank('7em')) + '&emsp;&emsp;' + filled('5em', new Date().getMonth()+1) + '月' + filled('5em', new Date().getDate()) + '日</div>'
             + '</div>';
         }
         const slip = oneSlip();
@@ -10523,7 +10567,7 @@
 
         function oneSlip() {
           return '<div style="border:2px solid #000;padding:8px 10px;font-size:12px;line-height:1.8;background:#fff;">'
-            + '<div style="text-align:center;font-size:14px;font-weight:bold;border-bottom:2px solid #000;padding-bottom:3px;margin-bottom:6px;letter-spacing:1px;">授業変更連絡<span style="' + NOTE + '">合同一括交換</span></div>'
+            + '<div style="text-align:center;font-size:14px;font-weight:bold;border-bottom:2px solid #000;padding-bottom:3px;margin-bottom:6px;letter-spacing:1px;">授業変更連絡<span style="' + NOTE + '">' + (sg.title || '合同一括交換') + '</span></div>'
             + '<div style="' + ROW + '">担当者・教務・担任 ' + blank('5em') + '先生</div>'
             + sg.moves.map(box).join('<div style="text-align:center;font-size:20px;margin:1px 0;line-height:1;">⇅</div>')
             + '<div style="border-top:1.5px solid #000;margin-top:5px;padding-top:4px;' + ROW + '">氏名 ' + (opNm ? filled('7em', opNm) : blank('7em')) + '&emsp;&emsp;' + filled('5em', new Date().getMonth()+1) + '月' + filled('5em', new Date().getDate()) + '日</div>'
