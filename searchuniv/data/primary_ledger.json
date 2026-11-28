@@ -311,20 +311,34 @@
     "ao3": "https://admissions.tohoku.ac.jp/ja/adcms/wp-content/uploads/2026/11/r9AO3_Application-Guidelines.pdf",
     "ao2": "https://admissions.tohoku.ac.jp/ja/adcms/wp-content/uploads/2026/08/r9AO2_Application-Guidelines.pdf",
     "senbatsu_web": "https://web-pamphlet.jp/tohoku/2027a/#page=1",
-    "yoko_list": "https://admissions.tohoku.ac.jp/ja/materials/admission_requirement/"
+    "yoko_list": "https://admissions.tohoku.ac.jp/ja/materials/admission_requirement/",
+    "teacher_form": "https://admissions.tohoku.ac.jp/ja/adcms/wp-content/uploads/2026/11/r9ippan_Sample-Form-for-Teachers.pdf",
+    "faq": "https://admissions.tohoku.ac.jp/ja/faq/",
+    "enroll": "https://web.tohoku.ac.jp/ef/",
+    "scholar_genki": "https://c.bureau.tohoku.ac.jp/wp-content/uploads/2025/10/genki_youkou.pdf",
+    "scholar_genki_old": "https://www2.he.tohoku.ac.jp/shogaku/files/youkou-kyuufu.pdf"
    },
    "wait": {
     "oc": "入試トップのイベント欄は「現在、開催予定のイベントはございません」（2027年度の日程は未発表）"
    },
-   "fails": 1
+   "fails": 2,
+   "note": "2026-11-28：admissions.tohoku.ac.jp/ja/adcms/wp-content/uploads/ 以下のPDF（募集要項2027_ippan.pdf・入試結果）は robots で取得不可。一般選抜ページ（HTML）で出願期間1/25〜2/3正午・後期は経済・理のみを確認し既存値と一致したが、試験日・発表・手続はページに無く schedule 全体は未確定のため置き換えず。奨学金ページは元気・前向き奨学金の要項PDFへのリンクのみで、PDFはサーバーエラー。ratios・eng・methods・subjects は未照合。"
   },
   {
    "name": "名古屋大学",
    "pages": {
     "admission": "https://www.nagoya-u.ac.jp/admissions/exam/data/exam-data/index.html",
     "yoko": "https://www.nagoya-u.ac.jp/admissions/exam/upload/r9_senbatsuyoko.pdf",
-    "result": "https://www.nagoya-u.ac.jp/admissions/exam/data/exam-data/index.html"
-   }
+    "result": "https://www.nagoya-u.ac.jp/admissions/exam/data/exam-data/index.html",
+    "application_guide_r8": "https://www.nagoya-u.ac.jp/admissions/exam/upload/R8_application_guide.pdf",
+    "tuition": "https://www.nagoya-u.ac.jp/academics/campus-life/tuition/",
+    "scholar": "https://www.nagoya-u.ac.jp/academics/support/foundation_scholarship/index.html",
+    "oc": "https://www.nagoya-u.ac.jp/admissions/exam/open-campus/index.html",
+    "result_list": "https://www.nagoya-u.ac.jp/admissions/exam/data/index.html",
+    "guidebooks": "https://www.nagoya-u.ac.jp/admissions/exam/guidebooks/index.html",
+    "apply_status": "https://www.nagoya-u.ac.jp/admissions/exam/cat/situation/index.html"
+   },
+   "note": "2026-11-28：oc は未照合（オープンキャンパスのページURLのみ取得、WebFetch上限）。ratios は2026年度分のみ公式で照合（2025年度はKei-Net値のまま）。"
   },
   {
    "name": "九州大学",
