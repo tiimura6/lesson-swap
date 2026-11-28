@@ -138,6 +138,7 @@ with sync_playwright() as p:
     ck(G, '科目の重なり（負担軽減・二次の内容被り）', '対策の重なり' in st)
     ck(G, '受験費用の目安', '受験費用の目安' in st)
     ck(G, '「滑り止め」を使わず「有望校」に統一', '滑り止め' not in tpl and '安全校' not in tpl and '滑り止め' not in J('document.getElementById("v-ai").innerText'))
+    ck(G, '「実力相応校」を使わず「標準校」に統一', '実力相応' not in tpl and '実力相応' not in J('document.getElementById("v-ai").innerText'))
     ck(G, '日程の衝突・連戦・移動の警告', '日連続で試験' in tpl and '前泊が必要' in tpl)
     J('document.getElementById("ktbox").open=true; document.getElementById("kt-score").value="74"; document.getElementById("kt-go").click()'); pg.wait_for_timeout(600)
     kt = J('document.getElementById("kt-out").innerText')

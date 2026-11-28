@@ -413,7 +413,7 @@ ul.mini li{font-size:12.5px;margin:2px 0}
   <div id="plan-out"></div>
 </section>
 <section id="v-ai" hidden>
-  <p class="mintro">希望と成績から<b>挑戦校・実力相応校・有望校</b>を出します。個人名は入れず、<b>クラスと出席番号</b>で記録を保存・呼び出しできます。</p>
+  <p class="mintro">希望と成績から<b>挑戦校・標準校・有望校</b>を出します。個人名は入れず、<b>クラスと出席番号</b>で記録を保存・呼び出しできます。</p>
   <div class="stu" id="stu">
     <div class="sturow">
       <label>クラス<input id="stu-c" placeholder="例：3A" autocomplete="off"></label>
@@ -916,12 +916,12 @@ const detailPromise=Promise.all([
 // この端末のブラウザにだけ保存（個人名は扱わない）。保存できない環境では画面を開いている間だけ保持。
 let CANDS=[]; try{ CANDS=JSON.parse(localStorage.getItem(SU_CANDS_KEY)||"[]").filter(n=>items.some(x=>x.name===n)); }catch(e){ CANDS=[]; }
 function saveCands(){ try{ localStorage.setItem(SU_CANDS_KEY,JSON.stringify(CANDS)); }catch(e){} try{ window.dispatchEvent(new CustomEvent("searchuniv:cands",{detail:{list:CANDS.slice()}})); }catch(e){} const c=$("ccount"); if(c) c.textContent=CANDS.length?"（"+CANDS.length+"）":""; }
-// 面談タブに入れた生徒の学力（偏差値・共テ得点率）から、挑戦／実力相応／安全の目印を付ける
+// 面談タブに入れた生徒の学力（偏差値・共テ得点率）から、挑戦／標準／安全の目印を付ける
 function studentLevel(){ const num=v=>{ const m=String(v||"").normalize("NFKC").match(/[\d.]+/); return m?+m[0]:null; };
   const raw=num(($("ai-level")||{}).value), mo=($("ai-moshi")||{}).value; return {hen:raw==null?null:(mo==="shinken"?shinkenToKawai(raw):raw), kt:num(($("ai-kt")||{}).value)}; }
 function bandOf(x){ const L=studentLevel(); if(L.hen!=null){ const m=midHensachi(x.name); if(m==null) return null; const g=m-L.hen; return g>=3?"ch":g<=-3?"safe":"fit"; }
   if(L.kt!=null){ const d=((INFO[x.name]||{}).difficulty||{}).kyotei; const ks=String(d||"").match(/[\d.]+/g); if(!ks) return null; const km=(+ks[0]+ +ks[ks.length-1])/2, g=km-L.kt; return g>=5?"ch":g<=-5?"safe":"fit"; } return null; }
-const BAND_LABEL={ch:"挑戦",fit:"実力相応",safe:"安全"};
+const BAND_LABEL={ch:"挑戦",fit:"標準",safe:"安全"};
 function bandTag(x,b){ b=b||bandOf(x); return b?'<span class="band '+b+'">'+BAND_LABEL[b]+'</span>':''; }
 function starBtn(name){ const on=CANDS.includes(name); return '<button type="button" class="cbtn'+(on?' on':'')+'" data-star="'+esc(name)+'" title="'+(on?'比較の候補から外す':'比較タブで横並びに比べる候補に入れる')+'">'+(on?'✓ 比較に追加済み':'＋ 比較に追加')+'</button>'; }
 function toggleCand(name){ const i=CANDS.indexOf(name); if(i>=0) CANDS.splice(i,1); else CANDS.push(name); saveCands();
@@ -2695,7 +2695,7 @@ function recommend(S){
   return res.sort((a,b)=>b.sc-a.sc||(PRIO[a.x.cat]??20)-(PRIO[b.x.cat]??20));
 }
 const FLD_LABEL={faculties:"学部",licenses:"資格",careers:"進路",research:"研究",feats:"特色",memo:"メモ"};
-const BANDS=[["ch","挑戦校",""],["fit","実力相応校",""],["safe","有望校",""],["unk","候補（学力未入力・難易度未登録）",""]];
+const BANDS=[["ch","挑戦校",""],["fit","標準校",""],["safe","有望校",""],["unk","候補（学力未入力・難易度未登録）",""]];
 function recCard(r,i){
   const x=r.x, f=INFO[x.name]||{}, d=f.difficulty||{}, t=f.tuition, gd=GUIDE[x.name]||{}, m=f.methods||{};
   const facts=[d.hensachi&&("偏差値 "+d.hensachi),d.kyotei&&("共テ "+d.kyotei),t&&t.amount!=null&&("初年度 約"+man(t.amount)),f.kyotsu&&f.kyotsu.kamoku&&("共テ "+f.kyotsu.kamoku)].filter(Boolean);
