@@ -39,11 +39,13 @@ GitHub Pages: https://tiimura6.github.io/lesson-swap/
 - タイトル横の「👤 操作者」で選ぶ（localStorage `ttOperator`）。PINは `opPins`／GAS。
 - 時間割に名前が無い人は、一覧の最後の「＋ 新規作成」（または検索欄で該当なしのまま Enter）で名前を決める。作成した名前はこの端末の localStorage `opCustomNames` に保存し、一覧の最後に並ぶ（新規作成の画面から削除できる）。作成後は通常どおり初回PINを設定する。
 - 作成・削除は操作ログ（`操作者を新規作成`／`新規作成した操作者を削除`、内容＝名前）で GAS の log シートに送られる。スプレッドシート「飯村システム」の「新規作成した操作者」シートが log・pins シートから数式で一覧にする（名前・作成日時・作成した人・端末・Googleアカウント・PIN設定日時・最終操作日時・操作回数・状態）。この操作名を変えるときは、そのシートの数式も直す。
+- PIN（2026-11-28 総点検）：GAS の URL があるのに通信できないときは新しい PIN を作らせない（URL が無いときだけ端末で新規設定）。端末での判定は名前ごとに5回失敗で5分ロック（localStorage `opPinFails`）。操作ログは各件に id を付け、送る役は1つのタブだけ（`opLogLock`）。操作者が変わると `window` に `tt-operator-change`（detail.name）を送り、Searchuniv の進路面談が生徒一覧を作り直す。
 - 他の端末で作成された名前は、GAS の `action=op_names`（`gas/op_names.gs` を GAS に追加・再デプロイしたもの）から読み、localStorage `opSharedNames` に覚えて一覧に出す。GAS が古い版なら何もしない。
 
 ## 保存した記録（授業交換・清掃当番・試験監督）
 - `index.html` の「保存した記録」script（`window.ttRecords`）。localStorage の `ttRecords:<操作者名>` に、名前付きの記録を種類ごとに最大60件残す。
 - 授業交換は印刷用の選択（`window.ttPrintCart`）を保存・復元。清掃当番は `seisou_touban_app_v6_proposal`、試験監督は `examProctor_v1` の中身を丸ごと保存し、開くときはそのキーに戻して再読み込みする。これらのキーや保存形式を変えるときは、古い記録が開けるか確かめる。
+- 清掃当番の記録を開くときは、書き戻す前に `window.ttCleanSuppressSave = true` にする（清掃当番の beforeunload の自動保存で上書きされるのを防ぐ）。授業交換の印刷の選択は各案に `tt`（選んだ時間割）を持ち、時間割を切り替えても消えない。
 
 ## 用語
 - 進路面談では「滑り止め」「安全校」を使わず「有望校」に統一する（2026-11-27 先生の依頼）。
