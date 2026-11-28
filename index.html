@@ -1409,7 +1409,9 @@
     const K_Q = 'opLogQueue', K_URL = 'cloud_gas_url', MAX = 500;
     const DEFAULT_GAS_URL = 'https://script.google.com/macros/s/AKfycbyHSQMjIeKUPRQlrxDMuwyEP__9fSSVbClU38QnaMstNQIktzpOOV6GXlCGSOQ2fzXt/exec';   // 全端末で共通のGAS URL（操作ログ・PIN用）。デプロイ後にここへ入れる
     window.TT_GAS_URL = DEFAULT_GAS_URL;
-    const read = () => { try { return JSON.parse(localStorage.getItem(K_Q) || '[]'); } catch(e){ return []; } };
+    // 壊れたデータ（配列でない・要素が物でない）は捨てる。各ログに id を付け、送れた id だけを取り除く（タブを2つ開いても消えない）
+    const newId = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
+    const read = () => { try { const a = JSON.parse(localStorage.getItem(K_Q) || '[]'); return Array.isArray(a) ? a.filter(x => x && typeof x === 'object').map(x => (x.id ? x : Object.assign({ id: newId() }, x))) : []; } catch(e){ return []; } };
     const write = q => { try { localStorage.setItem(K_Q, JSON.stringify(q.slice(-MAX))); } catch(e){} };
     const ua = navigator.userAgent;
     const dev = /iPad|Macintosh.*Mobile/.test(ua) ? 'iPad' : /iPhone/.test(ua) ? 'iPhone' : /Android/.test(ua) ? 'Android' : /CrOS/.test(ua) ? 'Chromebook' : /Windows/.test(ua) ? 'Windows' : /Mac/.test(ua) ? 'Mac' : 'その他';
@@ -1418,7 +1420,7 @@
     window.ttLog = function(act, det){
       const q = read();
       let op = window.ttOperator; if(op === undefined){ try { op = localStorage.getItem('ttOperator') || ''; } catch(e){ op = ''; } }
-      q.push({ t: new Date().toISOString(), op: op || '', act: String(act || '').slice(0, 40), det: String(det == null ? '' : det).replace(/\s+/g, ' ').slice(0, 120), dev });
+      q.push({ id: newId(), t: new Date().toISOString(), op: op || '', act: String(act || '').slice(0, 40), det: String(det == null ? '' : det).replace(/\s+/g, ' ').slice(0, 120), dev });
       write(q);
       clearTimeout(tm); tm = setTimeout(flush, 1500);
     };
@@ -1430,24 +1432,45 @@
         let done = false;
         const fin = () => { clearTimeout(t); try { delete window[cb]; } catch(e){ window[cb] = undefined; } sc.remove(); };
         const t = setTimeout(() => { if(done) return; done = true; fin(); reject(new Error('timeout')); }, 15000);
-        window[cb] = d => { if(done) return; done = true; fin(); d && d.ok ? resolve(d) : reject(new Error((d && d.error) || 'error')); };
+        window[cb] = d => { if(done) return; done = true; fin(); if(d && d.ok) resolve(d); else { const er = new Error((d && d.error) || 'error'); er.server = true; reject(er); } };
         sc.onerror = () => { if(done) return; done = true; fin(); reject(new Error('network')); };
-        sc.src = u + (u.indexOf('?') >= 0 ? '&' : '?') + 'action=log&data=' + encodeURIComponent(JSON.stringify(batch)) + '&callback=' + cb;
+        const data = batch.map(x => ({ t: x.t, op: x.op, act: x.act, det: x.det, dev: x.dev }));   // 送る形は従来どおり
+        sc.src = u + (u.indexOf('?') >= 0 ? '&' : '?') + 'action=log&data=' + encodeURIComponent(JSON.stringify(data)) + '&callback=' + cb;
         document.head.appendChild(sc);
       });
     }
+    // タブを2つ開いているとき、同時に同じログを送らないよう端末内で送信役を1つにする（40秒で期限切れ）
+    const TAB_ID = newId(), K_LOCK = 'opLogLock';
+    function lock(){
+      try {
+        const l = JSON.parse(localStorage.getItem(K_LOCK) || 'null');
+        if(l && l.id !== TAB_ID && Date.now() - (+l.t || 0) < 40000) return false;
+        localStorage.setItem(K_LOCK, JSON.stringify({ id: TAB_ID, t: Date.now() }));
+        return true;
+      } catch(e){ return true; }
+    }
+    function unlock(){ try { const l = JSON.parse(localStorage.getItem(K_LOCK) || 'null'); if(l && l.id === TAB_ID) localStorage.removeItem(K_LOCK); } catch(e){} }
     async function flush(){
       if(busy) return;
       const u = url(); if(!u) return;
+      if(!lock()) return;
       busy = true;
       try {
-        let q = read();
+        let q = read(); write(q);   // 古いログにも id を付けて保存
         while(q.length){
-          const batch = q.slice(0, 4);
-          await send(u, batch);
-          q = read().slice(batch.length); write(q);
+          // サーバーに断られたことのあるログは1件ずつ送り、3回断られたら捨てる（そのログのせいで以降が止まらないように）
+          const batch = q[0].nf ? q.slice(0, 1) : q.slice(0, 4);
+          const ids = new Set(batch.map(x => x.id));
+          try { await send(u, batch); }
+          catch(e){
+            if(!e.server) throw e;   // 通信できないときは次の機会に
+            q = read().map(x => ids.has(x.id) ? Object.assign({}, x, { nf: (x.nf || 0) + 1 }) : x).filter(x => (x.nf || 0) < 3); write(q);
+            lock(); continue;
+          }
+          q = read().filter(x => !ids.has(x.id)); write(q);
+          lock();
         }
-      } catch(e){} finally { busy = false; }
+      } catch(e){} finally { busy = false; unlock(); }
       if(window.ttOnLogFlushed) window.ttOnLogFlushed();
     }
     window.ttLogFlush = flush;
@@ -12550,6 +12573,7 @@
       if(byUser && name !== prev && window.ttLog) window.ttLog('操作者を選択', name || '（解除）');
       try { if(name) localStorage.setItem(KEY, name); else localStorage.removeItem(KEY); } catch(e){}
       box.classList.toggle('set', !!name);
+      if(window.ttOperator !== prev){ try { window.dispatchEvent(new CustomEvent('tt-operator-change', { detail: { name: window.ttOperator } })); } catch(e){} }
       if(name){ const t = document.querySelector('#opGate span:last-child'); if(t && t.dataset.orig) t.innerHTML = t.dataset.orig; }
       setGate(!name);
       fill('');
@@ -12563,7 +12587,31 @@
 
     // ---------- PIN（初回は設定、2回目以降は入力。GAS接続時は全端末で共通、未接続ならこの端末に保存） ----------
     const K_PINS = 'opPins';
-    const localPins = () => { try { return JSON.parse(localStorage.getItem(K_PINS) || '{}'); } catch(e){ return {}; } };
+    const localPins = () => { try { const m = JSON.parse(localStorage.getItem(K_PINS) || '{}'); return m && typeof m === 'object' && !Array.isArray(m) ? m : {}; } catch(e){ return {}; } };
+    // 端末のハッシュで判定するとき（サーバーに通信できない・GAS 未設定）の試行回数の制限：名前ごとに5回失敗で5分ロック
+    const K_PFAIL = 'opPinFails', P_MAX = 5, P_LOCK = 5 * 60 * 1000;
+    const pFails = () => { try { const m = JSON.parse(localStorage.getItem(K_PFAIL) || '{}'); return m && typeof m === 'object' && !Array.isArray(m) ? m : {}; } catch(e){ return {}; } };
+    const pFailSave = m => { try { localStorage.setItem(K_PFAIL, JSON.stringify(m)); } catch(e){} };
+    const pLocked = name => { const r = pFails()[name]; return !!(r && +r.until > Date.now()); };
+    function pFailAdd(name){
+      const m = pFails(), r = (m[name] && typeof m[name] === 'object') ? m[name] : { n: 0, until: 0 };
+      if(+r.until && +r.until <= Date.now()){ r.n = 0; r.until = 0; }
+      r.n = (+r.n || 0) + 1;
+      if(r.n >= P_MAX){ r.n = 0; r.until = Date.now() + P_LOCK; }
+      m[name] = r; pFailSave(m);
+      return r.until ? 0 : P_MAX - r.n;
+    }
+    const pFailClear = name => { const m = pFails(); if(m[name]){ delete m[name]; pFailSave(m); } };
+    // 端末のハッシュで確かめる。合えば true、違えば fail を出して false
+    function localCheck(name, v){
+      if(pLocked(name)){ fail('5回間違えたため、5分間ロック中です'); return false; }
+      const h = localPins()[name];
+      if(h && h === lh(name, v)){ pFailClear(name); return true; }
+      if(window.ttLog) window.ttLog('PIN認証に失敗', name);
+      const left = pFailAdd(name);
+      fail(left ? 'PINが違います（あと' + left + '回）' : '5回間違えたため、5分間ロック中です');
+      return false;
+    }
     const saveLocalPin = (name, pin) => { const m = localPins(); m[name] = lh(name, pin); try { localStorage.setItem(K_PINS, JSON.stringify(m)); } catch(e){} };
     const lh = (name, pin) => { let x = 0x811c9dc5; for(const ch of 'shion-pin:' + name + ':' + pin){ x ^= ch.codePointAt(0); x = Math.imul(x, 0x01000193) >>> 0; } return x.toString(16); };
     function gas(action, params){
@@ -12637,14 +12685,23 @@
         else startSetup();
       };
       gas('pin_status', { name }).then(d => d.ok ? decide('server', !!d.exists) : decide('local', !!localPins()[name]),
-                                        () => decide('local', !!localPins()[name]));
+        e => {
+          // GAS の URL が無いときだけ、この端末での新規設定を許す。URL があるのに通信できないときは、新しい PIN を作らせない
+          if(e && e.message === 'nourl'){ decide('local', !!localPins()[name]); return; }
+          if(localPins()[name]){ decide('local', true); return; }
+          if(!flow || flow.name !== name) return;
+          flow.step = 'offline'; flow.busy = true;
+          showPin(name + ' 先生', 'サーバーに接続できません。通信できる状態でもう一度お試しください。');
+          pin.blur();
+        });
     }
     function done(name){
       const f = flow; closePin(); apply(name, true);
       if(f && f.step === 'set2' && window.ttLog) window.ttLog('PINを設定', name + (f.mode === 'server' ? '' : '（この端末のみ）'));
     }
     function submitPin(){
-      if(!flow || flow.busy || flow.step === 'confirm') return;
+      if(!flow || flow.busy || flow.step === 'confirm' || flow.step === 'offline') return;
+      const f0 = flow;   // 返事が届いたとき、キャンセル・別の先生に変わっていたら無視する
       const v = toHalf(pin.value).replace(/\D/g, '');
       if(!/^\d{4}$/.test(v)) return;
       const name = flow.name;
@@ -12655,17 +12712,19 @@
         if(flow.mode !== 'server'){ done(name); return; }
         flow.busy = true; pSub.textContent = '保存中…';
         gas('pin_set', { name, pin: v }).then(d => {
+          if(flow !== f0) return;
           if(d.ok){ done(name); return; }
           flow.busy = false;
           if(d.error === 'exists'){ flow.step = 'ask'; showPin(name + ' 先生', '4桁の数字のPINを入力してください'); fail('すでにPINが設定されています'); }
           else fail('保存できませんでした');
-        }, () => { flow.busy = false; done(name); });
+        }, () => { if(flow !== f0) return; flow.busy = false; done(name); });
         return;
       }
       // 入力（2回目以降）
       if(flow.mode === 'server'){
         flow.busy = true; pSub.textContent = '確認中…';
         gas('pin_check', { name, pin: v }).then(d => {
+          if(flow !== f0) return;
           flow.busy = false; pSub.textContent = '4桁の数字のPINを入力してください';
           if(d.ok){ saveLocalPin(name, v); done(name); return; }
           if(window.ttLog) window.ttLog('PIN認証に失敗', name);
@@ -12673,14 +12732,14 @@
           else if(d.error === 'nopin') startSetup();
           else fail('PINが違います' + (d.left != null ? '（あと' + d.left + '回）' : ''));
         }, () => {
+          if(flow !== f0) return;
           flow.busy = false; pSub.textContent = '4桁の数字のPINを入力してください';
-          const h = localPins()[name];
-          if(h && h === lh(name, v)) done(name); else fail(h ? 'PINが違います' : 'サーバーに接続できません');
+          if(!localPins()[name]){ fail('サーバーに接続できません'); return; }
+          if(localCheck(name, v)) done(name);
         });
         return;
       }
-      if(localPins()[name] === lh(name, v)) done(name);
-      else { if(window.ttLog) window.ttLog('PIN認証に失敗', name); fail('PINが違います'); }
+      if(localCheck(name, v)) done(name);
     }
     // 全角数字（日本語入力オン）でも受け付ける：０-９ → 0-9
     const toHalf = v => String(v || '').replace(/[０-９]/g, ch => String.fromCharCode(ch.charCodeAt(0) - 0xFEE0));
@@ -12740,12 +12799,17 @@
       if(v === NEW){ openNew(typed); return; }
       requestOperator(v);
     });
-    q.addEventListener('input', () => {
-      const list = fill(q.value);
-      if(list.length === 1){ const n = list[0]; q.value = ''; q.blur(); requestOperator(n); }
-    });
+    // 自動で選ぶのは名前と完全に一致したときだけ（途中の文字で1人に絞れても選ばない。日本語変換中は何もしない）
+    function onQ(){
+      fill(q.value);
+      const t = q.value.trim();
+      if(t && names.indexOf(t) >= 0){ q.value = ''; q.blur(); requestOperator(t); }
+    }
+    q.addEventListener('input', e => { if(e.isComposing) return; onQ(); });
+    q.addEventListener('compositionend', () => setTimeout(onQ, 0));
     q.addEventListener('blur', () => setTimeout(() => { if(document.activeElement !== sel && !flow){ q.value = ''; fill(''); } }, 200));
     q.addEventListener('keydown', e => {
+      if(e.isComposing || e.keyCode === 229) return;
       if(e.key === 'Enter'){ const list = fill(q.value); const t = q.value.trim(); if(list.length){ q.value = ''; q.blur(); requestOperator(list[0]); } else if(t){ q.value = ''; q.blur(); openNew(t); } }
       if(e.key === 'Escape'){ q.value = ''; fill(''); }
     });
@@ -12785,7 +12849,7 @@
     const op = () => { try { return String(window.ttOperator || localStorage.getItem('ttOperator') || ''); } catch(e){ return ''; } };
     const K = () => 'ttRecords:' + (op() || '_');
     const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-    function all(){ try { return JSON.parse(localStorage.getItem(K()) || '[]'); } catch(e){ return []; } }
+    function all(){ try { const a = JSON.parse(localStorage.getItem(K()) || '[]'); return Array.isArray(a) ? a.filter(r => r && typeof r === 'object' && r.id != null && TYPES[r.type] && r.data && typeof r.data === 'object') : []; } catch(e){ return []; } }
     function put(list){ try { localStorage.setItem(K(), JSON.stringify(list)); return true; } catch(e){ alert('保存できませんでした（ブラウザの保存領域がいっぱいの可能性）。古い記録を削除してください。'); return false; } }
     const stamp = d => { const t = new Date(d); return (t.getMonth()+1) + '/' + t.getDate() + ' ' + String(t.getHours()).padStart(2,'0') + ':' + String(t.getMinutes()).padStart(2,'0'); };
     function snapshot(type){
@@ -12797,6 +12861,9 @@
       return '';
     }
     function save(type){
+      try { save1(type); } catch(e){ alert('この端末では保存できません。'); }
+    }
+    function save1(type){
       const data = snapshot(type);
       if(!data){ alert(type === 'swap' ? '印刷用に選んだ授業がありません。' : 'まだ保存する内容がありません。'); return; }
       const n = type === 'swap' ? data.items.length : 0;
@@ -12813,7 +12880,7 @@
       document.getElementById('recTitle').textContent = '保存した' + TYPES[type].label + '（' + list.length + '件）' + (op() ? '・' + op() + ' 先生' : '');
       document.getElementById('recNote').textContent = type === 'swap'
         ? '「開く」で印刷用の選択に戻します（今の選択は置き換わります）。開いたあと授業を足したり外したりして、もう一度「💾 保存」すると新しい記録として残ります。'
-        : '「開く」でその時点の状態に戻します（今の入力は置き換わり、画面を読み込み直します）。必要なら先に今の状態を保存してください。';
+        : '「開く」でその時点の状態に戻します（今の入力は置き換わり、画面を読み込み直します）。' + (type === 'exam' ? '試験監督の累計回数も保存した時点に戻ります。' : '') + '必要なら先に今の状態を保存してください。';
       document.getElementById('recList').innerHTML = list.length ? list.map(r => '<div class="rec-row" data-id="' + esc(r.id) + '"><div class="rec-main"><div class="rec-title">' + esc(r.title) + '</div><div class="rec-meta">保存 ' + esc(stamp(r.updated || r.created)) + (r.op ? '・' + esc(r.op) : '') + '</div>' + (preview(type, r.data) ? '<div class="rec-prev">' + esc(preview(type, r.data)) + '</div>' : '') + '</div><div class="rec-acts"><button type="button" class="rec-open">開く</button><button type="button" class="rec-ren">名前を変える</button><button type="button" class="rec-del">削除</button></div></div>').join('')
         : '<p class="rec-note">まだ保存した記録はありません。' + (type === 'swap' ? '授業を選んで、黄色い印刷バーの「💾 保存」を押すと残せます。' : '「💾 保存」を押すと今の状態を残せます。') + '</p>';
       m.hidden = false; m.dataset.type = type;
@@ -12827,8 +12894,9 @@
       if(e.target.closest('.rec-del')){ if(!confirm('「' + r.title + '」を削除します。元に戻せません。')) return; list.splice(i, 1); put(list); open(type); return; }
       if(e.target.closest('.rec-ren')){ const t = prompt('新しい名前', r.title); if(!t) return; r.title = t.slice(0, 60); r.updated = new Date().toISOString(); put(list); open(type); return; }
       if(e.target.closest('.rec-open')){
-        if(type === 'swap'){ if(window.ttPrintCart) window.ttPrintCart.load(r.data.items); close(); const t = document.querySelector('#viewTabs [data-view="swap"]'); if(t) t.click(); if(window.ttLog) window.ttLog('記録を開く', '授業交換：' + r.title); return; }
-        try { localStorage.setItem(TYPES[type].key, r.data.raw); } catch(err){ alert('開けませんでした。'); return; }
+        if(type === 'swap'){ if(window.ttPrintCart) window.ttPrintCart.load(r.data.items); close(); const t = document.querySelector('#viewTabs [data-view="swap"]'); if(t) t.click(); const g = document.querySelector('.ttg-seg [data-go="swap"]'); if(g) g.click(); if(window.ttLog) window.ttLog('記録を開く', '授業交換：' + r.title); return; }
+        if(type === 'clean') window.ttCleanSuppressSave = true;   // 再読み込みの前に清掃当番が今の状態で上書き保存しないように
+        try { localStorage.setItem(TYPES[type].key, r.data.raw); } catch(err){ window.ttCleanSuppressSave = false; alert('開けませんでした。'); return; }
         if(window.ttLog) window.ttLog('記録を開く', TYPES[type].label + '：' + r.title);
         location.hash = '#' + TYPES[type].tab; location.reload();
       }
@@ -12846,18 +12914,28 @@
   (function(){
     const BASE = /^https?:$/.test(location.protocol) ? new URL('searchuniv/', location.href).href : 'https://tiimura6.github.io/lesson-swap/searchuniv/';
     const host = document.getElementById('tsHost'), msg = document.getElementById('tsMsg');
-    let api = null, loading = null;
+    let api = null, loading = null, scP = null;
     const log = (a, d) => { try { if(window.ttLog) window.ttLog(a, d); } catch(e){} };
+    // ファイルの取得は1回だけ（読み込み中の再試行で二重に取りに行かない）。25秒で時間切れを出すが、そのあと届いたら表示する
+    function addScript(){
+      if(window.TanSenModule) return Promise.resolve();
+      if(!scP){
+        scP = new Promise((res, rej) => {
+          const sc = document.createElement('script');
+          sc.src = BASE + 'ts-module.js?h=' + Math.floor(Date.now() / 36e5);
+          sc.onload = res; sc.onerror = () => { sc.remove(); scP = null; rej(new Error('ファイルを取得できない')); };
+          document.head.appendChild(sc);
+        });
+        scP.then(() => { if(!api && !loading) load().catch(() => {}); }, () => {});
+      }
+      let tm = null;
+      const to = new Promise((_, rej) => { tm = setTimeout(() => rej(new Error('時間切れ')), 25000); });
+      return Promise.race([scP, to]).finally(() => clearTimeout(tm));
+    }
     function load(){
       if(api) return Promise.resolve(api);
       if(loading) return loading;
-      loading = new Promise((res, rej) => {
-        if(window.TanSenModule) return res();
-        const sc = document.createElement('script');
-        sc.src = BASE + 'ts-module.js?h=' + Math.floor(Date.now() / 36e5);
-        sc.onload = res; sc.onerror = () => { sc.remove(); rej(new Error('ファイルを取得できない')); };
-        document.head.appendChild(sc); setTimeout(() => rej(new Error('時間切れ')), 25000);
-      }).then(() => {
+      loading = addScript().then(() => {
         const M = window.TanSenModule;
         if(!M || M.apiVersion !== 1) throw new Error('版が合わない');
         api = M.mount(host, { onLog: log }); msg.hidden = true; return api;
@@ -12898,15 +12976,22 @@
       document.getElementById('univRetry').onclick = () => { msg.innerHTML = '<span class="spin"></span>読み込み中…'; load().catch(() => {}); };
       log('大学検索エラー', String(e && e.message || e).slice(0, 80));
     }
+    // ファイルの取得は1回だけ（読み込み中の再試行で二重に取りに行かない）。25秒で時間切れを出すが、そのあと届いたら表示する
+    let scP = null;
     function addScript(){
-      return new Promise((res, rej) => {
-        if(window.SearchunivModule) return res();
-        const sc = document.createElement('script');
-        sc.src = BASE + 'su-module.js?h=' + Math.floor(Date.now() / 36e5);   // 1時間ごとに最新を取りに行く
-        sc.onload = res; sc.onerror = () => { sc.remove(); rej(new Error('ファイルを取得できない')); };
-        document.head.appendChild(sc);
-        setTimeout(() => rej(new Error('時間切れ')), 25000);
-      });
+      if(window.SearchunivModule) return Promise.resolve();
+      if(!scP){
+        scP = new Promise((res, rej) => {
+          const sc = document.createElement('script');
+          sc.src = BASE + 'su-module.js?h=' + Math.floor(Date.now() / 36e5);   // 1時間ごとに最新を取りに行く
+          sc.onload = res; sc.onerror = () => { sc.remove(); scP = null; rej(new Error('ファイルを取得できない')); };
+          document.head.appendChild(sc);
+        });
+        scP.then(() => { if(!api && !loading) load().catch(() => {}); }, () => {});
+      }
+      let tm = null;
+      const to = new Promise((_, rej) => { tm = setTimeout(() => rej(new Error('時間切れ')), 25000); });
+      return Promise.race([scP, to]).finally(() => clearTimeout(tm));
     }
     function load(){
       if(api) return Promise.resolve(api);
@@ -12950,7 +13035,7 @@
       const esc = t => String(t == null ? '' : t).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
       fetch(BASE + 'news.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : []).then(L => {
         L = (L || []).slice().sort((a, b) => (b.date || '').localeCompare(a.date || '')).slice(0, 15); if(!L.length) return;
-        const one = L.map(n => '<a class="ut-i" href="' + esc(n.url || '#') + '" target="_blank" rel="noopener">' + (n.important ? '<span class="imp">★</span>' : '') + '<b>' + esc(n.univ) + '</b> ' + esc(n.title) + '<span class="ut-d">' + esc((n.date || '').replace(/-/g, '/')) + '</span></a>').join('<span class="ut-sep">｜</span>');
+        const one = L.map(n => '<a class="ut-i" href="' + esc(/^https?:\/\//i.test(String(n.url || '')) ? n.url : '#') + '" target="_blank" rel="noopener">' + (n.important ? '<span class="imp">★</span>' : '') + '<b>' + esc(n.univ) + '</b> ' + esc(n.title) + '<span class="ut-d">' + esc((n.date || '').replace(/-/g, '/')) + '</span></a>').join('<span class="ut-sep">｜</span>');
         tr.innerHTML = '<span class="ut-run">' + one + '</span><span class="ut-run" aria-hidden="true">' + one + '</span>';
         box.hidden = false;
         const setDur = () => { const w = tr.firstChild.getBoundingClientRect().width; if(w) tr.style.setProperty('--ut-dur', Math.max(40, Math.round(w / 35)) + 's'); };
@@ -12980,7 +13065,7 @@
       candidates: cands
     });
     // #univ=大学名 で直接開く（#univ・#univ-ai などはタブの仕組みが処理する）
-    const openHash = () => { const m = (location.hash || '').match(/^#univ=(.+)$/); if(m) window.ttUniv.open(decodeURIComponent(m[1])); };
+    const openHash = () => { const m = (location.hash || '').match(/^#univ=(.+)$/); if(!m) return; let n = ''; try { n = decodeURIComponent(m[1]); } catch(e){ return; } if(n) window.ttUniv.open(n); };
     window.addEventListener('hashchange', openHash);
     window.addEventListener('DOMContentLoaded', () => setTimeout(() => { openHash(); const c = (location.hash || '').slice(1); if(SUB[c] && !api) window.dispatchEvent(new CustomEvent('tt:view', { detail: c })); }, 0));
   })();
