@@ -333,11 +333,13 @@
     "application_guide_r8": "https://www.nagoya-u.ac.jp/admissions/exam/upload/R8_application_guide.pdf",
     "tuition": "https://www.nagoya-u.ac.jp/academics/campus-life/tuition/",
     "scholar": "https://www.nagoya-u.ac.jp/academics/support/foundation_scholarship/index.html",
-    "oc": "https://www.nagoya-u.ac.jp/admissions/exam/open-campus/index.html",
+    "oc": "https://www.nagoya-u.ac.jp/admissions/exam/open-campus/open-campus/index.html",
     "result_list": "https://www.nagoya-u.ac.jp/admissions/exam/data/index.html",
     "guidebooks": "https://www.nagoya-u.ac.jp/admissions/exam/guidebooks/index.html",
     "apply_status": "https://www.nagoya-u.ac.jp/admissions/exam/cat/situation/index.html",
-    "oc_site": "https://nuoc.adm.nagoya-u.ac.jp/2026/"
+    "oc_site": "https://nuoc.adm.nagoya-u.ac.jp/2026/",
+    "oc_news": "https://www.nagoya-u.ac.jp/admissions/news/2026/06/2026-7.html",
+    "yoko_ippan_news": "https://www.nagoya-u.ac.jp/admissions/news/2026/11/9-2033.html"
    },
    "note": "2026-11-28：oc は未照合（オープンキャンパスのページURLのみ取得、WebFetch上限）。ratios は2026年度分のみ公式で照合（2025年度はKei-Net値のまま）。",
    "fails": 1
@@ -348,7 +350,21 @@
     "admission": "https://www.kyushu-u.ac.jp/ja/admission/faculty/selection/",
     "yoko": "https://www.kyushu-u.ac.jp/f/66624/R9_gaiyomatome.pdf",
     "result": "https://www.kyushu-u.ac.jp/f/66765/R9_gaiyo_6.pdf",
-    "kikoku_yoko": "https://www.kyushu-u.ac.jp/f/67139/R9_kikoku1-1.pdf"
+    "kikoku_yoko": "https://www.kyushu-u.ac.jp/f/67139/R9_kikoku1-1.pdf",
+    "oc": "https://www.kyushu-u.ac.jp/ja/admission/opencampus",
+    "oc_video": "https://admissioncenter.kyushu-u.ac.jp/navi/opencampus/",
+    "scholar": "https://www.kyushu-u.ac.jp/ja/admission/fees/scholarship/",
+    "scholar_overview": "https://www.kyushu-u.ac.jp/ja/education/financialsupport/overview/",
+    "conditions": "https://www.kyushu-u.ac.jp/ja/admission/faculty/conditions",
+    "schedule_gaiyo": "https://www.kyushu-u.ac.jp/f/66635/R9_gaiyo_3-5.pdf",
+    "methods_gaiyo": "https://www.kyushu-u.ac.jp/f/66627/R9_gaiyo_2-2.pdf",
+    "subjects_gaiyo": "https://www.kyushu-u.ac.jp/f/66628/R9_gaiyo_2-3.pdf",
+    "suisen_yoko": "https://www.kyushu-u.ac.jp/f/66885/R9_suisen_all.pdf",
+    "sougou2_yoko": "https://www.kyushu-u.ac.jp/f/66881/R9_sougou2_all.pdf",
+    "ippan_yoko_r8": "https://www.kyushu-u.ac.jp/f/63981/R8_ippanboshuyoko.pdf"
+   },
+   "wait": {
+    "yoko_ippan": "令和9年度一般選抜学生募集要項は12月中旬公表予定（公式の記載）。入学者選抜概要（R9_gaiyo_*.pdf）は公表済み"
    }
   },
   {
