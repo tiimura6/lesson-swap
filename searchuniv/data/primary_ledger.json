@@ -336,16 +336,19 @@
     "oc": "https://www.nagoya-u.ac.jp/admissions/exam/open-campus/index.html",
     "result_list": "https://www.nagoya-u.ac.jp/admissions/exam/data/index.html",
     "guidebooks": "https://www.nagoya-u.ac.jp/admissions/exam/guidebooks/index.html",
-    "apply_status": "https://www.nagoya-u.ac.jp/admissions/exam/cat/situation/index.html"
+    "apply_status": "https://www.nagoya-u.ac.jp/admissions/exam/cat/situation/index.html",
+    "oc_site": "https://nuoc.adm.nagoya-u.ac.jp/2026/"
    },
-   "note": "2026-11-28：oc は未照合（オープンキャンパスのページURLのみ取得、WebFetch上限）。ratios は2026年度分のみ公式で照合（2025年度はKei-Net値のまま）。"
+   "note": "2026-11-28：oc は未照合（オープンキャンパスのページURLのみ取得、WebFetch上限）。ratios は2026年度分のみ公式で照合（2025年度はKei-Net値のまま）。",
+   "fails": 1
   },
   {
    "name": "九州大学",
    "pages": {
-    "admission": "",
-    "yoko": "",
-    "result": ""
+    "admission": "https://www.kyushu-u.ac.jp/ja/admission/faculty/selection/",
+    "yoko": "https://www.kyushu-u.ac.jp/f/66624/R9_gaiyomatome.pdf",
+    "result": "https://www.kyushu-u.ac.jp/f/66765/R9_gaiyo_6.pdf",
+    "kikoku_yoko": "https://www.kyushu-u.ac.jp/f/67139/R9_kikoku1-1.pdf"
    }
   },
   {
