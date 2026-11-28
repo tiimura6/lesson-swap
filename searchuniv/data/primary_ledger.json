@@ -281,17 +281,34 @@
   {
    "name": "大阪大学",
    "pages": {
-    "admission": "https://www.osaka-u.ac.jp/ja/admissions/faculty/general/files/R9_senbatsuyoukou.pdf/@@download/file",
+    "admission": "https://www.nyusi.icho.osaka-u.ac.jp/",
     "yoko": "https://www.osaka-u.ac.jp/ja/admissions/faculty/general/files/R9_senbatsuyoukou.pdf/@@download/file",
-    "result": ""
+    "result": "https://www.osaka-u.ac.jp/ja/admissions/faculty/general/files/20260401_number_genrou.pdf/@@download/file",
+    "result_list": "https://www.nyusi.icho.osaka-u.ac.jp/data",
+    "tuition": "https://www.osaka-u.ac.jp/ja/campus/tuition/tuition_info",
+    "scholar": "https://www.osaka-u.ac.jp/ja/guide/student/tuition/scholar",
+    "oc": "https://www.oc.icho.osaka-u.ac.jp/"
+   },
+   "wait": {
+    "ratios": "2027年度入試の結果は入試後に公表（現在の最新は令和8年度入学者数等調で確認済み）",
+    "oc": "2027年度オープンキャンパスの内容は2027年4〜5月頃に発表予定（大学公式）"
    }
   },
   {
    "name": "東北大学",
    "pages": {
-    "admission": "https://admissions.tohoku.ac.jp/ja/20260716/",
-    "yoko": "https://www.tnc.tohoku.ac.jp/images/news/20251022_2yokoku.pdf",
-    "result": ""
+    "admission": "https://admissions.tohoku.ac.jp/ja/",
+    "yoko": "https://admissions.tohoku.ac.jp/ja/adcms/wp-content/uploads/2026/11/2027_ippan.pdf",
+    "result": "https://admissions.tohoku.ac.jp/ja/adcms/wp-content/uploads/2026/04/R8_sohkatsu.pdf",
+    "yoko_general_page": "https://admissions.tohoku.ac.jp/ja/entrance-info/undergraduate-info/general_selection/",
+    "result_list": "https://admissions.tohoku.ac.jp/ja/materials/various_data/",
+    "tuition": "https://www.tohoku.ac.jp/japanese/studentinfo/studentlife/04/studentlife0401/",
+    "scholar": "https://c.bureau.tohoku.ac.jp/gakusei-shien/shogaku/",
+    "oc": "https://admissions.tohoku.ac.jp/ja/events/opencampus/",
+    "ao": "https://admissions.tohoku.ac.jp/ja/entrance-info/undergraduate-info/ao/"
+   },
+   "wait": {
+    "oc": "入試トップのイベント欄は「現在、開催予定のイベントはございません」（2027年度の日程は未発表）"
    }
   },
   {
