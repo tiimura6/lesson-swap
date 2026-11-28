@@ -77,6 +77,7 @@ NEED_LABEL = {'fees': '学部別の学費の内訳', 'schedule_dates': '入試�
               'research': '研究分野', 'careers': '主な進路', 'departments': '学部・学科', 'kyotsu': '共通テストの科目', 'extra': '学部別難易度・入試日程・費用',
               'method_urls': '方式ごとの公式リンク', 'qtrend': '出題内容', 'verify': '外部AIデータの公式確認', 'gap_keinet': '基本情報（研究分野・資格・進路・学生数・設立・共テ科目・偏差値）'}
 def noget(names):
+    if not os.path.exists(os.path.join(ROOT, 'data', 'queue.json')): return {}
     q = D('queue'); out = {}
     for e in q.get('enrich', []):
         if not e.get('deferred') or e.get('name') not in names: continue
@@ -107,7 +108,7 @@ def main():
     t = open(os.path.join(ROOT, 'tools', 'template.html'), encoding='utf-8').read()
     J = lambda o: json.dumps(o, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
     rep = {
-        'CARDS': ('/*CARDS*/', '/*END_CARDS*/', '[\n' + ',\n'.join(json.dumps(c, ensure_ascii=False) for c in cards) + '\n]'),
+        'CARDS': ('/*CARDS*/', '/*END_CARDS*/', '[\n' + ',\n'.join(json.dumps(c, ensure_ascii=False).replace('</', '<\\/') for c in cards) + '\n]'),
         'EXAM': ('/*EXAM_DATA*/', '/*END_EXAM*/', J({n: exam[n] for n in names if n in exam})),
         'INFO': ('/*INFO_DATA*/', '/*END_INFO*/', J({n: {k: v for k, v in info[n].items() if k not in LAZY} for n in names if n in info})),
         'MAP': ('/*MAP_DATA*/', '/*END_MAP*/', J({'prefs': prefs, 'dots': dots, **{k: D('map_' + k) for k in ('rail', 'road') if os.path.exists(os.path.join(ROOT, 'data', 'map_' + k + '.json'))}})),

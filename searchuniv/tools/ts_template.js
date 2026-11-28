@@ -159,13 +159,15 @@ function mount(host, opt){
   function svgPt(cx, cy){ const r = svg.getBoundingClientRect(); return [vb[0] + (cx - r.left) / r.width * vb[2], vb[1] + (cy - r.top) / r.height * vb[3]]; }
   svg.addEventListener('wheel', e => { e.preventDefault(); const [x, y] = svgPt(e.clientX, e.clientY); zoomAt(x, y, e.deltaY > 0 ? 1.25 : 0.8); }, { passive: false });
   const ptr = new Map(); let start = null, moved = false;
-  svg.addEventListener('pointerdown', e => { svg.setPointerCapture(e.pointerId); ptr.set(e.pointerId, [e.clientX, e.clientY]); start = { vb: vb.slice(), pts: [...ptr.values()].map(p => p.slice()) }; moved = false; svg.classList.add('drag'); });
+  // すぐにキャプチャすると PC のクリックで点（学校）を選べないため、一定以上動いてからキャプチャする（大学検索の地図と同じ）
+  const grab = id => { moved = true; svg.classList.add('drag'); try { if(!svg.hasPointerCapture(id)) svg.setPointerCapture(id); } catch(e){} };
+  svg.addEventListener('pointerdown', e => { ptr.set(e.pointerId, [e.clientX, e.clientY]); start = { vb: vb.slice(), pts: [...ptr.values()].map(p => p.slice()) }; moved = false; });
   svg.addEventListener('pointermove', e => {
     if(!ptr.has(e.pointerId) || !start) return; ptr.set(e.pointerId, [e.clientX, e.clientY]);
     const r = svg.getBoundingClientRect(), P = [...ptr.values()];
-    if(P.length === 1 && start.pts.length === 1){ const dx = (P[0][0] - start.pts[0][0]) / r.width * start.vb[2], dy = (P[0][1] - start.pts[0][1]) / r.height * start.vb[3]; if(Math.abs(dx) + Math.abs(dy) > 0.3) moved = true; vb = [start.vb[0] - dx, start.vb[1] - dy, start.vb[2], start.vb[3]]; draw(); }
+    if(P.length === 1 && start.pts.length === 1){ const dx = (P[0][0] - start.pts[0][0]) / r.width * start.vb[2], dy = (P[0][1] - start.pts[0][1]) / r.height * start.vb[3]; if(!moved && Math.abs(P[0][0] - start.pts[0][0]) + Math.abs(P[0][1] - start.pts[0][1]) > 3) grab(e.pointerId); if(moved){ vb = [start.vb[0] - dx, start.vb[1] - dy, start.vb[2], start.vb[3]]; draw(); } }
     else if(P.length === 2 && start.pts.length === 2){ const d0 = Math.hypot(start.pts[0][0] - start.pts[1][0], start.pts[0][1] - start.pts[1][1]), d1 = Math.hypot(P[0][0] - P[1][0], P[0][1] - P[1][1]);
-      if(d0 > 0 && d1 > 0){ moved = true; const f = d0 / d1, cx = (start.pts[0][0] + start.pts[1][0]) / 2, cy = (start.pts[0][1] + start.pts[1][1]) / 2;
+      if(d0 > 0 && d1 > 0){ grab(e.pointerId); const f = d0 / d1, cx = (start.pts[0][0] + start.pts[1][0]) / 2, cy = (start.pts[0][1] + start.pts[1][1]) / 2;
         const px = start.vb[0] + (cx - r.left) / r.width * start.vb[2], py = start.vb[1] + (cy - r.top) / r.height * start.vb[3]; const w = Math.min(Math.max(start.vb[2] * f, 2), 600), k = w / start.vb[2];
         vb = [px - (px - start.vb[0]) * k, py - (py - start.vb[1]) * k, w, start.vb[3] * k]; draw(); } }
   });

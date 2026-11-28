@@ -7,7 +7,7 @@ TODAY = datetime.date.today().isoformat()
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from geocode import geocode
-from provenance import kind_of, PRIMARY_FIELDS, LABEL
+from provenance import kind_of, classify, PRIMARY_FIELDS, LABEL
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = lambda n: os.path.join(ROOT, 'data', n + '.json')
 L = lambda n: json.load(open(P(n), encoding='utf-8'))
@@ -71,11 +71,20 @@ def main(path):
             if k == 'methods_add' and isinstance(v, dict):
                 # 既存の入試方式に足りない行を足す（同じ区分・方式名の行は新しい内容で置き換える）
                 m = cur.setdefault('methods', {'list': []}); ML = m.setdefault('list', [])
+                # 大学公式の url が付いた行は、公式の出典が無い行で置き換えない（決まり17）
+                src_official = any(classify(u, hpn) == 'p' for u in bsrc.get('methods', []))
                 for row in v.get('list') or []:
                     key = (row.get('kubun'), row.get('name'))
                     idx = next((i for i, x in enumerate(ML) if (x.get('kubun'), x.get('name')) == key), None)
                     if idx is None: ML.append(row)
-                    else: ML[idx] = row
+                    else:
+                        old = ML[idx]
+                        old_p = isinstance(old.get('url'), str) and classify(old['url'], hpn) == 'p'
+                        new_p = (isinstance(row.get('url'), str) and classify(row['url'], hpn) == 'p') or src_official
+                        if old_p and not new_p:
+                            problems.append('%s: 入試方式「%s・%s」は大学公式で照合済みのため、公式の出典が無い行での置き換えを見送り' % (n, key[0] or '', key[1] or ''))
+                            continue
+                        ML[idx] = row
                     filled += 1
                 order = {'一般': 0, '共テ利用': 1, '推薦': 2, '総合型': 3, 'その他': 4}
                 ML.sort(key=lambda x: order.get(x.get('kubun'), 9))
